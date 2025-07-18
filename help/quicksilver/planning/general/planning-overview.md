@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2059'
-ht-degree: 39%
+source-wordcount: '1973'
+ht-degree: 40%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 39%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 >[!IMPORTANT]
 >
@@ -166,14 +166,13 @@ The following features are currently available in Workfront Planning:
 
 Une fois que votre entreprise a acheté un package Workfront Planning, en tant qu’administrateur Workfront, vous devez vous assurer que les éléments suivants sont en place avant que les utilisateurs puissent accéder à Workfront Planning :
 
-* En fonction de l&#39;environnement utilisé, affectez aux utilisateurs suivants un modèle de mise en page qui inclut Planning dans le menu principal :
+* Affectez aux utilisateurs suivants un modèle de mise en page qui inclut Planning dans le menu principal :
 
-   * Dans l’environnement de production, affectez le modèle à tous les utilisateurs et utilisatrices de tous les types de licence, y compris les administrateurs et administratrices système.
+   * Attribuez le modèle de mise en page aux utilisateurs Light et Contribute.
 
-   * <span class="preview">Dans l’environnement Aperçu, affectez le modèle aux utilisateurs Light et Contribute. Planning est activé par défaut pour les utilisateurs standard et les administrateurs système. </span>
+     Planning est activé par défaut pour les utilisateurs standard et les administrateurs système.
 
   Pour plus d&#39;informations, voir [Personnaliser le menu principal à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et [Affecter des utilisateurs à un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
-
 
 * Attribuez aux utilisateurs une licence Workfront et des autorisations Workfront Planning qui leur permettront d&#39;afficher ou de créer des objets dans Workfront Planning. Pour plus d’informations sur l’octroi de l’accès à et l’autorisation d’autres utilisateurs à utiliser Workfront Planning, voir [Présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -183,7 +182,7 @@ Bien que Workfront Planning fasse partie de Workfront, il s’accompagne de conc
 
 Le cadre de Workfront Planning est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrements, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre organisation.
 
-Le nombre d’objets Workfront Planning que vous pouvez créer est limité. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
+Le nombre d’objets Workfront Planning que vous pouvez créer est limité. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [](/help/quicksilver/planning/general/limitations-overview.md).
 
 Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning :
 
@@ -325,7 +324,6 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
      ![Regroupement appliqué en mode Chronologie](assets/grouping-applied-in-timeline-view.png)
 
    * **Vue Calendrier** : affiche les enregistrements comportant au moins deux champs de type Date au format d’un calendrier.
-
      ![Exemple de vue Calendrier](assets/calendar-view-example.png)
 
 
@@ -397,7 +395,7 @@ Pour obtenir une liste à jour des fonctionnalités publiées, voir [Activité d
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Modules Adobe Workfront Planning pour Workfront Fusion ](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
+* [Modules Adobe Workfront Planning pour Workfront Fusion ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
 
 * [Principes de base de l’API Adobe Workfront Planning ](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API Adobe Workfront Planning est de simplifier la création d’intégrations avec Planning en introduisant une architecture REST-ful qui fonctionne via HTTP.
 

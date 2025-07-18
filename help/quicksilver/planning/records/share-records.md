@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 45%
+source-wordcount: '658'
+ht-degree: 47%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 45%
 
 # Partager des enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -34,25 +34,19 @@ Vous pouvez partager un enregistrement Adobe Workfront Planning de différente
 
 * Copiez un lien vers la page de l’enregistrement lors de l’affichage des enregistrements dans la vue de table du type d’enregistrement.
 
-* Vous pouvez partager tous les enregistrements d’un espace de travail avec d’autres utilisateurs en partageant l’espace de travail <span class="preview">et le type d’enregistrement</span>.
+* Vous pouvez partager tous les enregistrements d’un espace de travail avec d’autres utilisateurs en partageant l’espace de travail et le type d’enregistrement.
 
   Pour plus d’informations, voir les articles suivants :
 
    * [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md)
 
-  <div class="preview">
-
    * [Partager un type d’enregistrement](/help/quicksilver/planning/access/share-record-types.md)
-
-  </div>
 
 Cet article décrit comment copier un lien vers une page d’enregistrement à partir de la vue Tableau d’un type d’enregistrement.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -104,20 +98,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>  <p>Autorisations d’affichage ou supérieures pour un espace de travail <span class="preview">et un type d’enregistrement</span> à partager   un enregistrement utilisant un lien </p>
-   <p>Gérez les autorisations sur un espace de travail <span class="preview">et le type d’enregistrement</span> pour partager les enregistrements dans l’espace de travail </p>
+   <td>  <p>Autorisations d’affichage ou supérieures pour un espace de travail et type d’enregistrement à partager   un enregistrement utilisant un lien </p>
+   <p>Gérez les autorisations d’un espace de travail et le type d’enregistrement pour partager les enregistrements dans l’espace de travail </p>
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut les zones Planning.</p>
-   <div class="preview">
-<p> Dans l’environnement de Prévisualisation, les utilisateurs disposant d’une licence Light ou Contributor doivent se voir attribuer un modèle de mise en page incluant Planning.</p>
-
-<p>Planning est activé par défaut pour les utilisateurs standard et les administrateurs système.</p></div>
-
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Créer et gérer des modèles de disposition</a>.</p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
+   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,18 +150,15 @@ L’espace de travail auquel vous avez accédé en dernier s’ouvre.
 
 Vous pouvez partager tous les enregistrements d&#39;un espace de travail lorsque vous partagez l&#39;espace de travail avec d&#39;autres personnes.
 
+Les types d’enregistrements et les enregistrements héritent des mêmes autorisations de l’espace de travail.
+
 Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espace de travail peuvent le partager avec d’autres personnes.
 
 Pour plus d’informations, consultez la section [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md).
 
-
-<div class="preview">
-
 ## Partager tous les enregistrements d’un type d’enregistrement en partageant le type d’enregistrement
 
-Dans l’environnement de production, les enregistrements héritent des autorisations de l’espace de travail .
-
-Dans l’environnement Aperçu, les enregistrements héritent des autorisations du type d’enregistrement.
+Les enregistrements héritent des autorisations du type d’enregistrement.
 
 Par défaut, les types d’enregistrements héritent des autorisations de l’espace de travail .
 
@@ -184,4 +171,3 @@ Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espa
 
 Pour plus d’informations, voir [Partage de types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
 
-</div>

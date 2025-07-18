@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 19%
+source-wordcount: '519'
+ht-degree: 16%
 
 ---
 
 # Présentation des enregistrements connectés
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>  -->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,8 @@ Pour plus d&#39;informations sur la façon de connecter des enregistrements entr
 
   Les valeurs des champs de recherche renseignent l’enregistrement Workfront Planning à partir duquel vous établissez automatiquement la liaison après leur mise à jour dans l’enregistrement ou l’objet d’origine.
 
-* Toute personne ayant accès à Workfront Planning and View ou à des autorisations supérieures de l’espace de travail <span class="preview">et un type d’enregistrement</span> peut voir les connexions que vous établissez entre les enregistrements ou entre les enregistrements et les objets d’autres applications. Elle peut afficher les enregistrements et les objets connectés, quelles que soient ses autorisations dans les applications auxquelles vous vous connectez.
-* Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs, si vous disposez des autorisations de niveau Gérer sur l’espace de travail <span class="preview">et le type d’enregistrement</span> où se trouvent les enregistrements connectés.
+* Toute personne ayant accès à Workfront Planning and View ou à des autorisations supérieures dans l&#39;espace de travail et disposant d&#39;un type d&#39;enregistrement peut voir les connexions que vous établissez entre les enregistrements ou entre les enregistrements et les objets d&#39;autres applications. Elle peut afficher les enregistrements et les objets connectés, quelles que soient ses autorisations dans les applications auxquelles vous vous connectez.
+* Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs si vous disposez des autorisations de niveau Gérer pour l’espace de travail et le type d’enregistrement où se trouvent les enregistrements connectés.
 * Vous pouvez connecter un enregistrement à un ou plusieurs objets depuis une autre application. Cela dépend du type de connexion que vous avez sélectionné lors de la connexion des types d&#39;enregistrement. Pour plus d’informations, consultez la section « Types de connexions » dans l’article [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Zones de connexion des enregistrements
@@ -54,7 +54,7 @@ Vous pouvez connecter des enregistrements à d&#39;autres enregistrements ou à 
    * Champs d&#39;enregistrement connectés dans la vue Table d&#39;un type d&#39;enregistrement dans Planning.
    * L&#39;aperçu ou la page de l&#39;enregistrement dans les champs d&#39;enregistrement connectés sur l&#39;onglet Détails.
    * L&#39;aperçu ou la page de l&#39;enregistrement dans l&#39;onglet Connexions.
-   * Page de l’enregistrement dans l’onglet <span class="preview">Page des enregistrements connectés</span> d’un enregistrement connecté.
+   * Page de l’enregistrement dans l’onglet Page Enregistrements connectés d’un enregistrement connecté.
 
 * Vous pouvez connecter des objets Workfront à des enregistrements Workfront Planning dans les zones suivantes de Workfront :
 

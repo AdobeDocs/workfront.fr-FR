@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 7%
+source-wordcount: '1687'
+ht-degree: 6%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 7%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu&#39;elles sont activées, créent des objets dans Workfront ou des enregistrements dans Workfront Planning lorsqu&#39;ils sont déclenchés à partir d&#39;un enregistrement Planning. Les objets ou enregistrements créés sont automatiquement connectés aux enregistrements à partir desquels vous déclenchez l’automatisation.
 
@@ -39,9 +39,7 @@ Pour plus d&#39;informations sur la création d&#39;enregistrements ou d&#39;obj
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les conditions d’accès.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -94,14 +92,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td> <p>Gérez les autorisations sur l’espace de travail <span class="preview">et sur le type d’enregistrement</span> où vous souhaitez créer des automatisations. </p>
+   <td> <p>Gérez les autorisations sur l’espace de travail et sur le type d’enregistrement dans lequel vous souhaitez créer des automatisations. </p>
    <p>Les administrateurs système disposent des autorisations de niveau Gérer pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -163,18 +156,18 @@ Sélectionnez l’une des actions suivantes :
 
      >[!TIP]
      >
-     >Un projet est créé uniquement pour les options actuellement sélectionnées sur le champ à sélection multiple ou unique de l’enregistrement à partir duquel vous exécutez l’automatisation, et pas pour tous les choix possibles pour ce champ.
+     >Un projet est créé uniquement pour les options actuellement sélectionnées sur le champ à sélection multiple ou unique de l’enregistrement à partir duquel vous exécutez l’automatisation, et non pour tous les choix possibles pour ce champ.
      >
 
-      * **Utiliser le même modèle** : sélectionnez cette option pour utiliser le même modèle pour chaque nouveau projet. Si l’option est désélectionnée, sélectionnez un **modèle de projet** pour chaque choix de champ.
-      * **Modèle de projet** : si vous avez sélectionné l’option **Utiliser le même modèle**, sélectionnez un modèle de projet que Workfront utilisera pour créer les projets.
+      * **Utiliser le même modèle** : sélectionnez cette option pour utiliser le même modèle pour chaque nouveau projet. Si cette option est désélectionnée, sélectionnez un modèle **de projet pour chaque choix de** champ.
+      * **Modèle de** projet : si vous avez sélectionné l’option **Utiliser le même modèle** , sélectionnez un modèle de projet que Workfront utilisera pour créer les projets.
 
    * **Créer un portefeuille** :
-      * **Champ connecté où le portfolio est créé** : il s’agit du champ connecté où le nouveau portfolio s’affichera. Champ obligatoire.
+      * **Champ connecté où le portefeuille est créé** : il s’agit du champ connecté où le nouveau portefeuille s’affichera. Champ obligatoire.
       * **Formulaire personnalisé à joindre au nouveau portefeuille** : sélectionnez un formulaire personnalisé à joindre au nouveau portefeuille. Vous devez créer un formulaire personnalisé de portfolio avant de pouvoir le sélectionner.
    * **Créer un programme** :
-      * **Champ connecté où le programme est créé** : il s’agit du champ connecté où le nouveau programme s’affichera. Champ obligatoire.
-      * **Portefeuille de programmes** : sélectionnez le portefeuille dans lequel le nouveau programme sera ajouté. Champ obligatoire.
+      * **Champ connecté où le programme est créé :** Il s’agit du champ connecté où le nouveau programme s’affichera. Champ obligatoire.
+      * **Portefeuille** de programmes : Sélectionnez un portefeuille où le nouveau programme sera ajouté. Champ obligatoire.
       * **Formulaire personnalisé à joindre au nouveau programme** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
    * **Créer un groupe** :
       * **Champ connecté où est créé le groupe** : il s’agit du champ connecté où s’affichera le nouveau groupe. Champ obligatoire.
@@ -261,4 +254,4 @@ Dans la zone **Champs de carte**, mettez à jour les informations suivantes :
       Pour le rendre à nouveau disponible, cliquez de nouveau sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Activer**.
    1. Cliquez sur **Supprimer** pour supprimer l’automatisation. Impossible de récupérer une automatisation supprimée.
 
-      Les enregistrements qui ont été créés à l&#39;aide d&#39;une automatisation supprimée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.
+      Les enregistrements qui ont été créés à l’aide d’une automatisation supprimée restent connectés à l’enregistrement sélectionné à l’origine.

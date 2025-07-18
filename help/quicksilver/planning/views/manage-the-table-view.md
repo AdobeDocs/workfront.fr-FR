@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3346'
-ht-degree: 55%
+source-wordcount: '3387'
+ht-degree: 54%
 
 ---
 
@@ -73,9 +73,9 @@ Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p> Standard </p>
+    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td><p> Standard pour créer et supprimer des vues</p>
+   <p>Contributeur ou version ultérieure pour mettre à jour les éléments d’affichage</p>
    <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
@@ -87,8 +87,14 @@ Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
-   <p>Autorisations d'affichage sur une vue pour modifier temporairement les paramètres d'affichage, la dupliquer ou l'exporter</p> </td> 
+   <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage ou la dupliquer</p> </td> 
   </tr> 
+<tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
+   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -172,7 +178,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 

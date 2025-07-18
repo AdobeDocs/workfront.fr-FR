@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 71%
+source-wordcount: '444'
+ht-degree: 78%
 
 ---
 
 
 # Vue d’ensemble des champs
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -87,7 +87,7 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Planning qui refl�
 
 * Les champs Workfront sont accessibles à partir de Workfront Planning uniquement lorsque vous connectez des types d’enregistrement à des types d’objets Workfront et ajoutez des champs liés ou de recherche à partir d’objets Workfront. Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-* Vous pouvez afficher et mettre à jour les paramètres des champs que vous ou tout autre utilisateur avez créés, si vous disposez des autorisations de niveau Gérer sur l’espace de travail <span class="preview">et le type d’enregistrement</span> auquel le champ appartient.
+* Vous pouvez afficher et mettre à jour les paramètres des champs que vous ou tout autre utilisateur avez créés, si vous disposez des autorisations de niveau Gérer sur l’espace de travail et du type d’enregistrement auxquels le champ appartient.
 
 * Vous pouvez avoir jusqu’à 500 champs pour un type d’enregistrement.
 

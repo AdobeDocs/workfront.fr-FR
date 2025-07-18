@@ -6,21 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 36%
+source-wordcount: '681'
+ht-degree: 39%
 
 ---
 
 
 # Supprimer des enregistrements
 
-<!--take Preview and Production references out at release-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -29,8 +27,6 @@ Vous pouvez supprimer des enregistrements qui ne sont plus pertinents dans Adobe
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -82,13 +78,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations de niveau Contribution ou supérieur à un espace de travail <span class="preview">et type d’enregistrement</span> </a> </p>  
+   <td>   <p>Autorisations de niveau Contribution ou supérieur à un espace de travail et type d’enregistrement </a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -100,7 +91,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Considérations sur la suppression des enregistrements
 
 * Vous pouvez supprimer des enregistrements que vous ou une autre personne avez créés.
-* Vous ne pouvez pas récupérer les enregistrements supprimés dans l’environnement de production. Vous pouvez récupérer les enregistrements supprimés dans l’environnement de Prévisualisation.
+* Vous pouvez récupérer les enregistrements supprimés que vous ou d&#39;autres personnes avez supprimés.
 * Lorsque des enregistrements supprimés sont liés à d’autres enregistrements, ces enregistrements liés restent intacts, bien que les informations de l’enregistrement supprimé soient éliminées.
 * Vous ne pouvez pas supprimer des enregistrements des vues Chronologie ou Calendrier.
 
@@ -136,7 +127,7 @@ Vous pouvez supprimer un enregistrement à partir des zones suivantes :
 
    ![Plus d’options de menu à partir de la page des détails de l’enregistrement ](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 L’enregistrement est supprimé.
-1. (Facultatif et conditionnel) Si vous supprimez l&#39;enregistrement dans l&#39;environnement Aperçu, accédez à la vue Tableau de la page d&#39;enregistrement, puis cliquez sur l&#39;icône **Annuler** ![Icône Annuler](assets/undo-icon.png) dans le coin supérieur droit de la vue, puis cliquez sur **Récemment supprimé** pour récupérer les enregistrements supprimés.
+1. (Facultatif) Accédez à la vue Tableau de la page d’enregistrement, puis cliquez sur l’icône **Annuler** ![Icône Annuler](assets/undo-icon.png) dans le coin supérieur droit de la vue, puis cliquez sur **Récemment supprimé** pour récupérer les enregistrements supprimés.
 
 Pour plus d’informations sur la récupération des enregistrements supprimés, voir [ Récupérer les enregistrements supprimés ](/help/quicksilver/planning/records/restore-deleted-records.md).
 

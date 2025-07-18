@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 28%
+source-wordcount: '1155'
+ht-degree: 22%
 
 ---
 
@@ -20,19 +20,23 @@ ht-degree: 28%
 
 # Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 
 {{planning-important-intro}}
 
-Vous pouvez partager ou supprimer des autorisations sur un espace de travail ou une vue Adobe Workfront Planning.
+Vous pouvez partager ou supprimer des autorisations sur un espace de travail Adobe Workfront Planning, un type d’enregistrement ou une vue.
 
-Cet article décrit les niveaux d’autorisation pour les objets Workfront Planning.
+Vous pouvez également partager des formulaires de demande Planning. Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+Cet article décrit les niveaux d’autorisation pour les espaces de travail Workfront Planning, les types d’enregistrements, les enregistrements, les champs et les vues.
 
 ## Objets que vous pouvez partager dans Adobe Workfront Planning
+
+Vous pouvez partager manuellement certains objets Workfront Planning, tandis que d’autres héritent de ces autorisations d’autres objets.
 
 Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
@@ -44,8 +48,6 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
   Pour plus d’informations, voir [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
 
-<div class="preview">
-
 * Types d’enregistrements
 
    * Vous pouvez partager des types d’enregistrements avec des personnes de votre organisation.
@@ -53,8 +55,6 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
    * Vous ne pouvez pas partager un type d’enregistrement avec un niveau d’autorisation supérieur à celui de l’utilisateur sur l’espace de travail.
 
   Pour plus d’informations, voir [Partage de types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
-
-</div>
 
 
 * Vues
@@ -66,7 +66,7 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
   Pour plus d’informations, consultez la section [Partager des vues](/help/quicksilver/planning/access/share-views.md).
 
-En interne, vous pouvez partager un espace de travail, une vue <span class="preview">ou un type d’enregistrement </span> avec les entités Workfront suivantes :
+En interne, vous pouvez partager un espace de travail, une vue ou un type d’enregistrement avec les entités Workfront suivantes :
 
 * Utilisateurs
 * Groupes
@@ -74,7 +74,7 @@ En interne, vous pouvez partager un espace de travail, une vue <span class="prev
 * Entreprises
 * Fonctions
 
-<span class="preview"> Lorsque vous partagez des espaces de travail et des types d’enregistrements avec d’autres personnes, le niveau d’autorisation du type d’enregistrement est automatiquement hérité des enregistrements et des champs qui leur sont associés. </span>
+Lorsque vous partagez des espaces de travail et des types d’enregistrements avec d’autres personnes, le niveau d’autorisation du type d’enregistrement est automatiquement hérité des enregistrements et des champs qui leur sont associés.
 
 >[!IMPORTANT]
 >
@@ -112,7 +112,7 @@ Les tableaux des sections suivantes illustrent le niveau d’autorisation que vo
 >Pour plus d’informations, voir [Vue d’ensemble des types de licences lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### Autorisations d’espace de travail
+### Autorisations d’accès aux espaces de travail
 
 Vous devez autoriser les utilisateurs à accéder aux espaces de travail afin de leur permettre d&#39;accéder aux entités suivantes :
 
@@ -130,23 +130,26 @@ Voici les niveaux d’autorisation des espaces de travail :
 | Supprimer | ✓ |            |       |
 | Afficher | ✓ | ✓ | ✓ |
 
-### Autorisations de type d’enregistrement
+### Autorisations relatives aux types d’enregistrements
 
-Dans l’environnement de production, les autorisations de type d’enregistrement sont toujours héritées lorsque vous accordez des autorisations à l’espace de travail.
+<!-- old access:
+In the Production environment, Record Type permissions are always inherited when you grant permissions to the workspace.
 
-Voici les niveaux d’autorisation pour les types d’enregistrements :
+The following are the levels of permissions for record types: 
 
 
-|        | Gérer | Contribuer | Afficher |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Créer | ✓ |            |       |
-| Supprimer | ✓ |            |       |
-| Modifier | ✓ |            |       |
-| Afficher | ✓ | ✓ | ✓ |
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
 
-<div class="preview">
+-->
 
-Dans l’environnement Aperçu , vous pouvez supprimer les autorisations héritées du type d’enregistrement reçues de l’espace de travail.
+Les autorisations de type d’enregistrement sont toujours héritées lorsque vous accordez des autorisations à l’espace de travail.
+
+Vous pouvez supprimer les autorisations héritées du type d’enregistrement reçues de l’espace de travail.
 
 Vous pouvez accorder aux utilisateurs des autorisations moindres sur le type d’enregistrement que sur l’espace de travail.
 
@@ -168,11 +171,9 @@ Les scénarios suivants sont possibles :
 >
 >*Lorsque vous supprimez des autorisations d’un type d’enregistrement, les utilisateurs conservent toujours les autorisations d’affichage de l’espace de travail et de tous les types d’enregistrements, sauf si vous supprimez leurs autorisations de l’espace de travail.
 
-</div>
+### Autorisations aux enregistrements
 
-### Autorisations d’enregistrement
-
-Les autorisations d’enregistrement sont héritées de <span class="preview">le type d’enregistrement</span>, lorsque vous accordez des autorisations à l’espace de travail et <span class="preview">le type d’enregistrement</span>.
+Les autorisations d’enregistrement sont héritées du type d’enregistrement lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement.
 
 Voici les niveaux d’autorisation des enregistrements :
 
@@ -184,9 +185,9 @@ Voici les niveaux d’autorisation des enregistrements :
 | Modifier | ✓ | ✓ |       |
 | Afficher | ✓ | ✓ | ✓ |
 
-### Autorisations de champ
+### Autorisations pour les champs d’enregistrement
 
-Les autorisations de champ sont héritées de <span class="preview">le type d’enregistrement</span>, lorsque vous accordez des autorisations à l’espace de travail et <span class="preview">le type d’enregistrement</span>.
+Les autorisations de champ sont héritées du type d’enregistrement lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement.
 
 Les autorisations suivantes se réfèrent aux champs eux-mêmes et non aux valeurs associées à chaque champ. Pour modifier les valeurs des champs, vous devez avoir les autorisations de modifier les enregistrements.
 

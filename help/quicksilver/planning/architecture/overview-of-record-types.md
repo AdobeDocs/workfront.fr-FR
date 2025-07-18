@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 68%
+source-wordcount: '294'
+ht-degree: 50%
 
 ---
 
@@ -18,9 +18,17 @@ ht-degree: 68%
 
 {{planning-important-intro}}
 
-Contrairement à Workfront où les types d’objets sont prédéfinis, Adobe Workfront Planning vous permet de créer vos propres types d’objets. Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
+Contrairement à Workfront où les types d&#39;objet sont prédéfinis, dans Adobe Workfront Planning, vous pouvez créer vos propres types d&#39;objet.
 
-Les types d’objets Workfront Planning sont appelés « types d’enregistrements » et n’existent que lorsque les utilisateurs les créent. Les types d’enregistrement sont les blocs de création d’un espace de travail Workfront Planning. Pour plus d’informations sur les espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+Par exemple, dans Workfront, les types d’objets « Programme », « Portfolio », « Projet », « Tâche » ou « Problème » sont déjà créés.
+
+Les types d’objets Workfront Planning sont appelés « types d’enregistrements » et n’existent que lorsque les utilisateurs les créent.
+
+Les types d’enregistrements sont les blocs de construction d’un espace de travail Workfront Planning et vous devez tous les créer pour pouvoir les associer aux workflows et à d’autres informations.
+
+Les types d’enregistrements sont organisés dans les espaces de travail.
+
+Pour plus d’informations sur les espaces de travail, consultez la section [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 ## Vue d’ensemble des types d’enregistrement
 
@@ -32,6 +40,8 @@ Pour plus d’informations sur la création de types d’enregistrements, voir [
 
    * **Types d’enregistrements opérationnels** : types d’enregistrements qui représentent des plans stratégiques, des initiatives ou des travaux planifiés. Par exemple, Campagne, Activité, Tactique, Opportunité sont des types d’enregistrements opérationnels.
    * **Taxonomies** : types d’enregistrements qui capturent des attributs sur un type d’enregistrement opérationnel. Par exemple, Région, Adresse, Audience sont des taxonomies.
+
+  Vous pouvez renommer ou supprimer ces sections, ou en créer d&#39;autres.
 
 * Lorsque vous créez un type d’enregistrement dans un espace de travail que vous avez entièrement créé, vous pouvez le placer dans n’importe quelle section que vous créez dans l’espace de travail.
 * Lorsque vous créez un type d’enregistrement, seuls vous et les personnes que vous autorisez à accéder à l’espace de travail pouvez afficher le type d’enregistrement.

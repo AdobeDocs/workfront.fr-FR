@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 15%
+source-wordcount: '679'
+ht-degree: 11%
 
 ---
 
@@ -91,10 +91,14 @@ Vous pouvez recevoir des notifications par e-mail de Workfront Planning lorsque 
    <td>   <p>Autorisations d’affichage ou supérieures à un espace de travail</a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de disposition</p></td> 
-   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
+   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
+
+</td>
+  </tr>
+
 </tbody> 
 </table>
 

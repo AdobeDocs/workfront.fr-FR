@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 25%
+source-wordcount: '444'
+ht-degree: 18%
 
 ---
 
@@ -29,8 +29,6 @@ Vous pouvez recevoir des notifications in-app de Workfront Planning lorsque les 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -86,10 +84,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td>   <p>Autorisations d’affichage ou supérieures à un espace de travail</a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de disposition</p></td> 
-   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
+   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 

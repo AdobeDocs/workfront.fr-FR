@@ -6,25 +6,25 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 8%
+source-wordcount: '647'
+ht-degree: 7%
 
 ---
 
 
 # Vue d’ensemble du type de licence lors de l’utilisation d’Adobe Workfront Planning
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
 Votre type de licence Adobe Workfront fonctionne de concert avec vos autorisations Adobe Workfront Planning pour donner les accès suivants :
 
-* Afficher, contribuer ou gérer des espaces de travail <span class="preview">ou des types d’enregistrements</span>
+* Afficher, contribuer ou gérer des espaces de travail ou des types d’enregistrements
 * Afficher ou gérer des vues.
 
 Pour plus d’informations sur les autorisations sur les objets Workfront Planning, consultez [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
@@ -39,8 +39,6 @@ L’octroi des autorisations d’un utilisateur à un espace de travail lui acco
 
 Pour pouvoir accéder aux vues et les gérer, vous devez accorder aux utilisateurs des autorisations distinctes aux vues, en plus de celles dont ils disposent pour les espaces de travail.
 
-<div class="preview">
-
 Tenez compte des points suivants lorsque vous utilisez des autorisations de type enregistrement :
 
 * Les utilisateurs héritent automatiquement des autorisations de type d’enregistrement des espaces de travail.
@@ -48,12 +46,9 @@ Tenez compte des points suivants lorsque vous utilisez des autorisations de type
 * Les utilisateurs ne peuvent pas disposer d’autorisations plus importantes pour un type d’enregistrement que pour l’espace de travail auquel appartient le type d’enregistrement.
 * La suppression des autorisations des utilisateurs sur un type d’enregistrement ne supprime pas leur accès en lecture seule à tous les types d’enregistrements dans l’espace de travail, car cela ne supprime pas leurs autorisations sur l’espace de travail.
 
-</div>
-
-
 | Type de licence Adobe Workfront* | Autorisations les plus élevées autorisées dans Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standard | <p>Les utilisateurs peuvent gérer les <span class="preview"> d’espaces de travail, les types d’enregistrements, les </span> et les vues. Ils peuvent créer, modifier ou supprimer des espaces de travail, des types d’enregistrements, des enregistrements, des champs et des vues.</p> <br> <p>Les administrateurs système disposent des autorisations de niveau Gérer pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> |
+| Standard | <p>Les utilisateurs peuvent gérer les espaces de travail, les types d’enregistrements et les vues. Ils peuvent créer, modifier ou supprimer des espaces de travail, des types d’enregistrements, des enregistrements, des champs et des vues.</p> <br> <p>Les administrateurs système disposent des autorisations de niveau Gérer pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> |
 | Léger ou contributeur | <p>Les utilisateurs peuvent afficher les espaces de travail partagés avec eux, ainsi que les types d’enregistrements, les enregistrements et les champs de ces espaces de travail.</p> <br> <p>Les utilisateurs peuvent afficher les vues partagées avec eux, mais ils ne peuvent pas créer les leurs. </p><br> <p>Les utilisateurs ne peuvent pas créer, modifier ni supprimer des espaces de travail, des types d’enregistrements, des enregistrements ou des champs.</p> |
 
 *Workfront Planning n’est pas disponible pour les licences Workfront héritées.
@@ -62,9 +57,9 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 ### Types de licence et autorisations des espaces de travail et des types d’enregistrement
 
-Seuls les utilisateurs disposant d’une licence Standard peuvent disposer d’autorisations de niveau Contribution ou Gérer sur les espaces de travail <span class="preview">et les types d’enregistrements</span>. Les autorisations Contribuer et Gérer des espaces de travail <span class="preview">et des types d’enregistrements</span> sont également transférées vers des enregistrements et des champs.
+Seuls les utilisateurs disposant d’une licence Standard peuvent disposer d’autorisations de niveau Contribution ou Gérer sur les espaces de travail et les types d’enregistrements. Les autorisations Contribuer et Gérer des espaces de travail et des types d’enregistrements sont également transférées vers des enregistrements et des champs.
 
-Les utilisateurs disposant de tous les autres types de licence peuvent disposer d’autorisations en lecture seule sur les espaces de travail <span class="preview"> et les types d’enregistrements </span> partagés avec eux, ainsi que sur leurs enregistrements et champs.
+Les utilisateurs disposant de tous les autres types de licence peuvent disposer d’autorisations en lecture seule sur les espaces de travail et les types d’enregistrements partagés avec eux, ainsi que sur leurs enregistrements et champs.
 
 Les administrateurs système peuvent afficher tous les espaces de travail du système, y compris ceux qu’ils n’ont pas créés.
 

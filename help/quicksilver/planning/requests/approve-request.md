@@ -3,13 +3,13 @@ title: Approuver une demande dans Adobe Workfront Planning
 description: Lorsque l’utilisateur envoie une demande à un formulaire de demande associé à une approbation dans Adobe Workfront Planning, les approbateurs reçoivent une notification et un e-mail concernant l’approbation en attente. Ils doivent approuver la demande avant que Workfront Planning ne crée un objet.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 11%
+source-wordcount: '948'
+ht-degree: 10%
 
 ---
 
@@ -45,13 +45,11 @@ Nous vous recommandons de consulter également les articles suivants :
    * **Terminé** : si tous les approbateurs approuvent l&#39;objet de la demande, son statut passe à **Terminé** ou si la demande n&#39;avait pas besoin d&#39;approbation.
    * **Rejeté** : si un approbateur rejette l&#39;objet de la demande, le statut devient **Rejeté**. Aucun enregistrement n&#39;est créé et une nouvelle demande doit être soumise pour créer l&#39;enregistrement.
 
-<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
+* <span class="preview">Vous pouvez afficher les informations d&#39;approbation sur un enregistrement créé en soumettant un formulaire de demande dans les champs Date d&#39;approbation par et Date d&#39;approbation . Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).</span>
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -107,17 +105,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
    <ul>
-   <li><p>Gérer les autorisations pour un espace de travail <span class="preview">et le type d’enregistrement</span> </p></li>
+   <li><p>Gestion des autorisations relatives à un espace de travail et à un type d’enregistrement </p></li>
     <li><p>L’administration système peut gérer les espaces de travail qu’elle n’a pas créés. </p></li>
     </ul>
    <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning</a>. 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p> 
-</td>
   </tr>
  </tbody>
 </table>
@@ -144,7 +136,7 @@ Pour approuver une demande :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision **&#x200B;**.
+   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision ****.
 
      >[!TIP]
      >

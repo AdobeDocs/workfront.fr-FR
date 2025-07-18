@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 35%
+source-wordcount: '918'
+ht-degree: 34%
 
 ---
 
 # Créer des types d’enregistrements en important des informations depuis un fichier CSV ou Excel
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -108,7 +108,7 @@ Les types d’enregistrements sont les types d’objets d’Adobe Workfront Pl
    * Champs de formule
    * Date de création, Créé par
    * Date de dernière modification, Dernière modification par
-     <!--* <span class="preview">Approved date, Approved by</span>-->
+   * <span class="preview">Date d’approbation, Approuvé par</span>
    * Personnes
 
 Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Excel ou CSV :

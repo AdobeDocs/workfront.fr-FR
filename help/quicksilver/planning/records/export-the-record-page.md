@@ -1,32 +1,30 @@
 ---
 title: Exporter la page d’enregistrement
-description: Vous pouvez exporter la page d'aperçu ou de détails d'un enregistrement d'Adobe Workfront Planning vers un fichier Microsoft Word.
+description: Vous pouvez exporter la page d’aperçu ou de détails d’un enregistrement de Adobe Workfront Planning vers un fichier Microsoft Word.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 23%
+source-wordcount: '465'
+ht-degree: 14%
 
 ---
 
 # Exporter les détails d’un enregistrement
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 
 Pour collaborer plus efficacement avec d’autres utilisateurs qui ne disposent pas nécessairement d’un compte Workfront, vous pouvez exporter la page de détails d’un enregistrement dans un fichier Microsoft Word et la partager avec eux.
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les conditions d’accès.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,12 +38,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <p> Produits</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des plans Workfront suivants :</p> 
+<p>L’un des plans de front de travail suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
@@ -55,12 +53,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Tous </p> 
-<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
+<p>Pour plus d’informations sur ce qui est inclus dans chaque plan Workfront Planning, contactez votre responsable de compte Workfront. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Plateforme Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
+<p>L’instance Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -68,7 +66,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td> <p>Standard</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -78,13 +76,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations d’affichage ou supérieures pour un espace de travail <span class="preview">et type d’enregistrement</span></a> </p>  
+   <td>   <p>Afficher ou des autorisations supérieures pour un espace de travail et un type d’enregistrement</a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -96,7 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ## Considérations relatives à l’exportation des détails d’un enregistrement :
 
-* Vous pouvez exporter les détails d’un enregistrement aux formats de fichiers suivants :
+* Vous pouvez exporter les détails d’un enregistrement vers les formats de fichier suivants :
 
    * .docx Word
    * pdf
@@ -111,18 +104,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Cliquez sur la vignette d’un espace de travail.
 
-   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sur les cartes.
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sur des cartes.
 
 1. Cliquez sur une carte de type d’enregistrement.
-La page de type d’enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
+La page Type d’enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
 
-1. Dans n’importe quel affichage, cliquez sur le nom d’un enregistrement.
+1. Dans n’importe quelle vue, cliquez sur le nom d’un enregistrement.
 
-   La zone d&#39;aperçu de l&#39;enregistrement s&#39;ouvre.
+   La boîte de prévisualisation de l’enregistrement s’ouvre.
 
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
+1. (Facultatif) Cliquez sur l’icône **** Ouvrir dans un nouvel onglet![ Ouvrez les détails dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
 
-1. Sélectionnez l’onglet **Détails**. L’onglet Détails doit s’ouvrir par défaut.
+1. Choisissez l’onglet **Détails** . L’onglet Détails doit s’ouvrir par défaut.
 
 1. Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l&#39;enregistrement](assets/export-icon-in-record-details-page.png) dans l&#39;aperçu ou dans la page de l&#39;enregistrement, puis cliquez sur l&#39;une des options suivantes :
 
@@ -131,7 +124,7 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 
    Un fichier Word (.docx) ou PDF est téléchargé et enregistré sur votre ordinateur.
 
-   Le nom du fichier exporté est le champ de Principal de l’enregistrement.
+   Le nom du fichier exporté est le champ Principal de l’enregistrement.
 
    ![Fichier Word exporté](assets/exported-word-file.png)
 

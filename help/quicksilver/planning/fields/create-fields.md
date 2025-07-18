@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '4607'
-ht-degree: 47%
+source-wordcount: '5201'
+ht-degree: 44%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 47%
 
 # Créer des champs
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -165,7 +165,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * [Créé par](#created-by)
    * [Date de création](#created-date)
    * [Dernière modification par](#last-modified-by)
-   * [Date de la dernière modification](#last-modified-date)
+   * [Date de dernière modification](#last-modified-date)
+   * <span class="preview">[Date approuvée](#approved-date)</span>
+   * <span class="preview">[Approuvé par](#approved-by)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -301,8 +303,8 @@ Vous pouvez utiliser un champ de date pour capturer des informations supplément
 
      Sélectionnez l’une des options suivantes :
 
-      * **24 h** : par exemple : 18:00
-      * **12 h** : par exemple : 6:00 PM
+      * **24h** : par exemple : 18:00
+      * **12h** : Par exemple : 18:00
 
 1. Cliquez sur **Créer**.
 
@@ -317,7 +319,7 @@ Les types de champ Nombre capturent les informations au format numérique.
 >Les champs numériques s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de nombres une fois la demande soumise, dans le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Nombre**.
@@ -347,7 +349,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 >Les champs de pourcentage s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de pourcentages une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Pourcentage**.
@@ -387,7 +389,7 @@ Les types de champ de devise capturent les informations dans un format numériqu
 >Les champs de devise s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent en tant que devise une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Devise**.
 
@@ -554,7 +556,7 @@ Vous pouvez utiliser le type de champ Date de création pour ajouter la date à 
    * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous pointez sur la colonne du champ dans un tableau ou lorsque vous cliquez sur l&#39;icône d&#39;informations située à côté du nom du champ dans la page de détails de l&#39;enregistrement.
    * **Format de date** : sélectionnez l’un des formats suivants :
 
-      * **Paramètre local** : correspond au paramètre local de votre navigateur.
+      * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
       * **Standard** : 05/16/2023
       * **Long** : 16 mai 2023
       * **Européen** : 16/05/2023
@@ -563,8 +565,8 @@ Vous pouvez utiliser le type de champ Date de création pour ajouter la date à 
 
      Sélectionnez l’une des options suivantes :
 
-      * **24 h** : par exemple : 18:00
-      * **12 h** : par exemple : 6:00 PM
+      * **24h** : par exemple : 18:00
+      * **12h** : Par exemple : 18:00
 
 1. Cliquez sur **Créer**.
 
@@ -605,7 +607,7 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
    * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous pointez sur la colonne du champ dans un tableau ou lorsque vous cliquez sur l&#39;icône d&#39;informations située à côté du nom du champ dans la page de détails de l&#39;enregistrement.
    * **Format de date** : sélectionnez l’un des formats suivants :
 
-      * **Paramètre local** : correspond au paramètre local de votre navigateur.
+      * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
       * **Standard** : 05/16/2023
       * **Long** : 16 mai 2023
       * **Européen** : 16/05/2023
@@ -615,81 +617,77 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
 
      Sélectionnez l’une des options suivantes :
 
-      * **24 h** : par exemple : 18:00
-      * **12 h** : par exemple : 6:00 PM
+      * **24h** : par exemple : 18:00
+      * **12h** : Par exemple : 18:00
 
 1. Cliquez sur **Créer**.
 
    Le nouveau champ de type Date de la dernière modification est ajouté en tant que colonne au type d’enregistrement et ses valeurs sont préremplies avec la date (ou la date et l’heure) de la dernière modification de l’enregistrement.
 
-<!--
-
 <div class="preview">
 
-### Approved date
+### Date d’approbation
 
-You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
-
->[!TIP]
->
->The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
->
->If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
- 
-
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
- 
-   ![Approved date field type](assets/approved-date-field-type.png)
-
-   1. Add the following information in the **New field** tab:
-
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-     * **Date Format**: Select from the following formats:
-
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-     
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
-    
-        Select from the following options:
-        
-        * **24hr**: For example: 18:00
-        * **12hr**: For example: 6:00 PM 
-    
-1. Click **Create**.
-
-    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
-
-### Approved by
-
-You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+Vous pouvez utiliser le type de champ Date d’approbation pour ajouter la date à laquelle une demande a été approuvée et a entraîné la création de l’enregistrement. Il s’agit d’un champ en lecture seule qui est automatiquement renseigné avec la date (et éventuellement l’heure) à laquelle la demande a été approuvée par le dernier approbateur. Dans ce cas, la date de validation doit correspondre à la date de création de l&#39;enregistrement.
 
 >[!TIP]
 >
->The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>Le champ Date d&#39;approbation est renseigné avec des informations uniquement pour les enregistrements créés par l&#39;envoi d&#39;un formulaire de demande associé aux approbateurs.
 >
->If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
- 
-   ![Approved by field type](assets/approved-by-field-type.png)
+>Si le formulaire est associé à plusieurs approbateurs, seule la date de la dernière décision d’approbation est enregistrée dans le champ Date d’approbation .
 
-1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Date de création**.
 
-    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+   ![Type de champ de date approuvé](assets/approved-date-field-type.png)
+
+   1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
+
+   * **Nom** : nom du champ tel qu&#39;il apparaîtra dans une table ou la page d&#39;enregistrement.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous pointez sur la colonne du champ dans un tableau ou lorsque vous cliquez sur l&#39;icône d&#39;informations située à côté du nom du champ dans la page de détails de l&#39;enregistrement.
+   * **Format de date** : sélectionnez l’un des formats suivants :
+
+      * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
+      * **Standard** : 05/16/2023
+      * **Long** : 16 mai 2023
+      * **Européen** : 16/05/2023
+      * **ISO** : 2023-05-16
+
+   * **Inclure un champ de l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut.
+
+     Sélectionnez l’une des options suivantes :
+
+      * **24h** : par exemple : 18:00
+      * **12h** : Par exemple : 18:00
+
+1. Cliquez sur **Créer**.
+
+   Le nouveau champ de type date d&#39;approbation est ajouté sous forme d&#39;une colonne au type d&#39;enregistrement et ses valeurs sont préremplies avec la date (ou la date et l&#39;heure) à laquelle la demande d&#39;enregistrement a été approuvée, si l&#39;enregistrement a été créé en soumettant une demande associée aux approbateurs.
+
+### Approbation par
+
+Vous pouvez utiliser le type de champ Approuvé par pour ajouter le dernier utilisateur à avoir approuvé la demande de création d&#39;un enregistrement. Ce champ est en lecture seule et est automatiquement renseigné avec le nom de l’utilisateur qui a approuvé la demande de création de l’enregistrement.
+
+>[!TIP]
+>
+>Le champ Approuvé par est renseigné avec des informations uniquement pour les enregistrements qui ont été créés lors de l&#39;envoi d&#39;un formulaire de demande associé aux approbateurs.
+>
+>Si le formulaire est associé à plusieurs approbateurs, le nom de tous les approbateurs est enregistré dans le champ Date d’approbation , séparé par des virgules.
+
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Approuvé par**.
+
+   ![Approuvé par type de champ](assets/approved-by-field-type.png)
+
+1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
+
+   * **Nom** : nom du champ tel qu&#39;il apparaîtra dans une table ou la page d&#39;enregistrement.
+   * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous pointez sur la colonne du champ dans un tableau ou lorsque vous cliquez sur l&#39;icône d&#39;informations située à côté du nom du champ dans la page de détails de l&#39;enregistrement.
+
+1. Cliquez sur **Créer**.
+
+   Le nouveau champ Approuvé par type est ajouté sous forme d’une colonne au type d’enregistrement et ses valeurs sont préremplies avec le nom de l’utilisateur qui a modifié chaque enregistrement pour la dernière fois.
 
 </div>
--->
-
 
 <!--
 

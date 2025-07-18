@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 52%
+source-wordcount: '1095'
+ht-degree: 55%
 
 ---
 
@@ -18,21 +18,19 @@ ht-degree: 52%
 
 # Créer des types d’enregistrements
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
-Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning. Dans Workfront Planning, vous pouvez créer des types d’enregistrements personnalisés qui illustrent les éléments liés au travail nécessaires tout au long du cycle de vie de votre organisation.
+Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning. Dans Workfront Planning, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les éléments liés au travail nécessaires dans le cycle de vie de votre organisation.
 
 Pour plus d’informations sur les types d’enregistrements, voir [Présentation des types d’enregistrements](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -51,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des plans Workfront suivants :</p> 
+<p>L’un des plans de front de travail suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
@@ -74,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -86,11 +84,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -123,7 +116,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
         Cet article décrit comment créer des types d’enregistrements à partir de zéro.
 
      <!--
-        * <span class="preview">By importing then from another workspace or adding cross-workspace record types</span>
+        * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
             <span class="preview">For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
 
 
@@ -165,7 +158,7 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
 
    * Remplacez « Type d’enregistrement sans titre » par le nom de votre futur type d’enregistrement. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Description** : ajoutez des informations supplémentaires sur le type d’enregistrement.
-   * Sélectionnez une couleur et une forme pour l’icône associée au type d’enregistrement. Procédez comme suit :
+   * Sélectionnez la couleur et la forme de l’icône associée au type d’enregistrement. Procédez comme suit :
       * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. Le gris est sélectionné par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
@@ -180,11 +173,11 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
 
 1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur **Paramètres avancés** et mettez à jour les informations suivantes dans la section **Fonctionnalité interespace de travail** : <!--the info here is duplicated in the Edit record types article-->
    * Activez le paramètre **Autoriser la connexion à ce type d’enregistrement dans d’autres espaces de travail** : permet aux gestionnaires d’espace de travail de se connecter à ce type d’enregistrement à partir d’autres espaces de travail.\
-     Vous pouvez désigner les espaces de travail auxquels ce type d’enregistrement peut être connecté. Vous pouvez le rendre disponible pour tous les espaces de travail ou désigner des espaces de travail spécifiques où vous pouvez l’importer.
-Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+     Vous pouvez désigner les espaces de travail à partir desquels ce type d’enregistrement peut être connecté. Vous pouvez le rendre disponible pour tous les espaces de travail ou désigner des espaces spécifiques où vous pouvez l’importer.
+Pour plus d’informations, voir [Configurer les fonctionnalités inter-espace de travail pour les types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) d’enregistrement.
 
 
-   ![Boîte Créer un type d’enregistrement dans l’onglet Paramètres avancés](assets/create-record-type-box-advanced-settings-tab.png)
+   ![Zone Créer un type d’enregistrement sur l’onglet Paramètres avancés](assets/create-record-type-box-advanced-settings-tab.png)
 
    <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
         <div class="preview">
@@ -254,9 +247,9 @@ Vous pouvez importer les éléments suivants lors de l’importation d’informa
 
 * Types d’enregistrements
 * Enregistrements
-* Champs d’enregistrement
+* Enregistrer les champs
 
-Pour plus d’informations, voir [Création de types d’enregistrements à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+Pour plus d’informations, voir [Créer des types d’enregistrements en important des informations à partir d’un fichier](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) CSV ou Excel.
 
 <!--
 

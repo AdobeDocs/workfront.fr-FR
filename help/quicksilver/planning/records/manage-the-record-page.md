@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2115'
 ht-degree: 7%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 7%
 
 # Gérer la mise en page de la page d’enregistrement
 
-<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ Pour plus d’informations, voir les articles suivants :
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -99,15 +97,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr>
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
-   <p>Autorisations de niveau Contribution ou supérieur à un espace de travail <span class="preview">et type d’enregistrement</span> </a> </p>  
+   <p>Autorisations de niveau Contribution ou supérieur à un espace de travail et type d’enregistrement </a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -262,48 +254,43 @@ Voici ce qui se produit :
 
    Toutes les modifications apportées à la disposition de l’aperçu d’enregistrement ou de la page sont enregistrées automatiquement.
 
-## Ajouter une <span class="preview">page Enregistrements connectés</span> à un enregistrement
+## Ajouter une page Enregistrements connectés à un enregistrement
 
-Vous pouvez afficher les informations des enregistrements ou objets connectés en ajoutant un onglet pour une <span class="preview">page Enregistrements connectés</span> à un enregistrement.
+Vous pouvez afficher les informations des enregistrements ou objets connectés en ajoutant un onglet pour une page Enregistrements connectés à un enregistrement.
 
-Dans l’environnement de production, les informations des enregistrements ou objets connectés s’affichent dans une vue de tableau en lecture seule.
+Les informations des enregistrements connectés peuvent être modifiées dans la vue Tableau. Les informations des objets connectés à partir d’une autre application ne sont pas modifiables en mode Tableau.
 
-<span class="preview">Dans l’environnement de Prévisualisation, les informations des enregistrements connectés peuvent être modifiées dans la vue Tableau. Les informations des objets connectés à partir d&#39;une autre application ne sont pas modifiables dans la vue Tableau.</span>
+Tenez compte des points suivants lors de l’ajout d’une page Enregistrements connectés à un enregistrement :
 
-Tenez compte des points suivants lors de l’ajout d’une <span class="preview">page Enregistrements connectés</span> à un enregistrement :
+* Vous pouvez ajouter une page Enregistrements connectés à un enregistrement après avoir connecté des enregistrements ou des types d&#39;objet au type d&#39;enregistrement à partir de la vue Tableau d&#39;un type d&#39;enregistrement.
 
-* Vous pouvez ajouter une <span class="preview">page Enregistrements connectés</span> à un enregistrement après avoir connecté des enregistrements ou des types d&#39;objet au type d&#39;enregistrement à partir de la vue Tableau d&#39;un type d&#39;enregistrement.
+* Vous ne pouvez pas ajouter une page Enregistrements connectés à la zone d&#39;aperçu d&#39;un enregistrement.
 
-* Vous ne pouvez pas ajouter une <span class="preview">page Enregistrements connectés</span> à la zone d&#39;aperçu d&#39;un enregistrement.
+* Les pages Enregistrements connectés affichent uniquement les objets connectés ou les enregistrements d&#39;un type d&#39;objet ou d&#39;enregistrement dans une vue Tableau. La page n’affiche pas tous les enregistrements de ce type en mode Tableau.
 
-* Les pages <span class="preview">Enregistrements connectés</span> affichent uniquement les objets connectés ou les enregistrements d’un objet ou d’un type d’enregistrement dans une vue Tableau. La page n’affiche pas tous les enregistrements de ce type en mode Tableau.
+* Après avoir ajouté une page Enregistrements connectés à un enregistrement, l’onglet de page est visible à partir de la zone d’aperçu de l’enregistrement, mais il est vide. Vous devez accéder à la page complète pour afficher la vue du tableau pour l’enregistrement connecté. <!--this might have changed? check and take disclaimer out-->
 
-* Après avoir ajouté une <span class="preview">page Enregistrements connectés</span> à un enregistrement, l’onglet de page est visible à partir de la zone d’aperçu de l’enregistrement, mais il est vide. Vous devez accéder à la page complète pour afficher la vue du tableau pour l’enregistrement connecté. <!--this might have changed? check and take disclaimer out-->
-
-* Vous pouvez ajouter des <span class="preview">pages Enregistrements connectés</span> pour les types d’objet ou d’enregistrement connectés suivants :
+* Vous pouvez ajouter des pages Enregistrements connectés pour les types d’objet ou d’enregistrement connectés suivants :
 
    * Types d’enregistrements Workfront Planning
    * Projets, programmes, portfolios, groupes ou sociétés Workfront. Vous pouvez afficher les objets Workfront connectés même si vous ne disposez pas des autorisations nécessaires pour y accéder dans Workfront.
 
   >[!NOTE]
   >
-  >   Vous ne pouvez pas ajouter de page <span class="preview">Enregistrements connectés</span> pour les enregistrements AEM Assets connectés.
+  >   Vous ne pouvez pas ajouter de page Enregistrements connectés pour les enregistrements AEM Assets connectés.
 
 
-Pour ajouter une page <span class="preview">Enregistrements connectés</span> :
+Pour ajouter une page Enregistrements connectés :
 
 1. Dans une page d&#39;enregistrement vue, cliquez sur le nom d&#39;un enregistrement pour l&#39;ouvrir, puis cliquez sur l&#39;icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d&#39;onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la page d&#39;aperçu.
 1. Cliquez sur **Ajouter une page**.
 
-   <div class="preview">
 
    La boîte de dialogue **Créer une page** s’ouvre.
 
    ![Boîte de dialogue modale Ajouter la page Enregistrements connectés](assets/add-connection-view-page-modal.png)
 
-   </div>
-
-1. Ajoutez le **Nom de la page**, cliquez sur **<span class="preview">Page des enregistrements connectés</span>**, puis sur **Créer**.
+1. Ajoutez le **Nom de la page**, cliquez sur **Page des enregistrements connectés**, puis sur **Créer**.
 
    Un nouvel onglet est ajouté à la page de l’enregistrement.
 1. Recherchez ou cliquez sur le nom d’un enregistrement ou d’un type d’objet connecté dans la liste.
@@ -320,12 +307,10 @@ Tous les champs de l&#39;enregistrement connecté s&#39;affichent dans la vue Ta
 
    * Cliquez sur le nom d’un enregistrement. La page de l&#39;enregistrement s&#39;ouvre alors dans un nouvel onglet.
 
-     <span class="preview">Dans l’environnement Aperçu , la page d’aperçu de l’enregistrement s’ouvre. Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit pour ouvrir la page de l’enregistrement connecté.</span>
+     Cette action ouvre la page d&#39;aperçu de l&#39;enregistrement. Cliquez sur l&#39;icône **Ouvrir dans un nouvel onglet** ![Ouvrir dans une nouvelle icône d&#39;onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit pour ouvrir la page de l&#39;enregistrement connecté.
 
    * Cliquez sur **Connexion** pour connecter d&#39;autres enregistrements, puis cliquez en dehors de la zone de connexion pour la fermer. Les nouveaux enregistrements sont automatiquement ajoutés à la table.
-   * <span class="preview">Modifiez toutes les informations des enregistrements connectés dans la vue Tableau. </span>
-
-   <div class="preview">
+   * Modifiez toutes les informations des enregistrements connectés dans la vue Tableau.
 
    * Pointez sur le nom d’un enregistrement connecté, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes :
       * Afficher
@@ -345,10 +330,7 @@ Tous les champs de l&#39;enregistrement connecté s&#39;affichent dans la vue Ta
 
    * Modifiez sur la ligne l’un des enregistrements de la table de la page Enregistrements connectés . Les objets Workfront s’affichent en lecture seule dans un tableau et vous ne pouvez pas les modifier.
 
-   </div>
-
-
-1. (Facultatif) Double-cliquez sur le nom de l’onglet <span class="preview">Page des enregistrements connectés</span>
+1. (Facultatif) Double-cliquez sur le nom de l’onglet Page Enregistrements connectés
 
    Ou
 
@@ -368,7 +350,7 @@ Tous les champs de l&#39;enregistrement connecté s&#39;affichent dans la vue Ta
    >
 
 1. Cliquez sur **Connexion** pour ajouter ou supprimer des enregistrements. Pour plus d’informations, voir [Connexion des enregistrements](/help/quicksilver/planning/records/connect-records.md)
-1. (Facultatif) Pointez sur le nom de l’onglet <span class="preview">Page d’enregistrements connectés</span>, cliquez sur **Plus** ![Menu Plus](assets/more-menu.png), puis sur **Supprimer** pour supprimer sur l’onglet.
+1. (Facultatif) Pointez sur le nom de l’onglet Page Enregistrements connectés , cliquez sur **Plus** ![Menu Plus](assets/more-menu.png), puis cliquez sur **Supprimer** pour supprimer de l’onglet.
 
 
 

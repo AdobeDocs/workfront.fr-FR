@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 30%
+source-wordcount: '1527'
+ht-degree: 29%
 
 ---
 
@@ -66,9 +66,9 @@ Pour plus d’informations sur les vues Adobe Workfront Planning et leur gestion
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p> Standard </p>
+    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td><p> Standard pour créer et supprimer des vues</p>
+   <p>Contributeur ou version ultérieure pour mettre à jour les éléments d’affichage</p>
    <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
@@ -81,6 +81,12 @@ Pour plus d’informations sur les vues Adobe Workfront Planning et leur gestion
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
    <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage ou la dupliquer</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
+   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
+</td>
   </tr>
 
 </tbody> 

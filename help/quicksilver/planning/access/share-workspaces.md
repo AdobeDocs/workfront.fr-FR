@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 35%
+source-wordcount: '869'
+ht-degree: 37%
 
 ---
 
 # Partager des espaces de travail
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -90,12 +90,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>  <p>Gérer les autorisations d’un espace de travail</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modèle de mise en page</p></td> 
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut les zones Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, la zone Planning est activée par défaut pour les utilisateurs et utilisatrices standard et les administrateurs et administratrices système.</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -111,12 +107,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Vous ne pouvez pas partager des espaces de travail avec des utilisateurs en dehors de votre organisation.
 * Lorsque vous partagez un espace de travail, tous les types d’enregistrements, les enregistrements et les champs associés aux espaces de travail sont également partagés.
 * Lorsque vous partagez un espace de travail, les vues ne sont pas partagées. Vous devez partager les vues séparément.
-
-<div class="preview">
-
 * Les autorisations Workspace s’affichent sous la forme d’autorisations héritées sur les types d’enregistrements.
-
-</div>
 
 ## Autorisations de partage d’un espace de travail
 
@@ -156,10 +147,8 @@ Les utilisateurs et utilisatrices qui accèdent à un lien vers un espace de tra
 1. (Conditionnel) Si vous êtes le responsable d&#39;un espace de travail, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les zones suivantes :
 
    * Une notification in-app
-
      ![Notification in-app pour la demande d’accès](assets/in-app-notification-for-access-request.png)
    * Notification par e-mail
-
      ![Notification électronique pour la demande d’accès](assets/email-notification-for-access-request.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou

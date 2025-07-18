@@ -3,12 +3,12 @@ title: Création et gestion d’un formulaire de demande dans Adobe Workfront Pl
 description: Après avoir sélectionné un type d’enregistrement dans la zone Adobe Workfront Planning, vous pouvez créer un formulaire de demande et l’associer à ce type d’enregistrement. Vous pouvez ensuite partager un lien vers celle-ci avec d’autres utilisateurs internes ou externes. Les utilisateurs disposant d’un lien vers le formulaire peuvent remplir les valeurs de champ et, en l’envoyant, ajouter un nouvel enregistrement pour le type d’enregistrement qui y est associé.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2242'
 ht-degree: 7%
 
 ---
@@ -35,8 +35,6 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto">
  <col>
@@ -93,17 +91,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
    <ul>
-   <li><p>Gérer les autorisations pour un espace de travail <span class="preview">et le type d’enregistrement</span> </p></li>
+   <li><p>Gestion des autorisations relatives à un espace de travail et à un type d’enregistrement</p></li>
     <li><p>L’administration système peut gérer les espaces de travail qu’elle n’a pas créés. </p></li>
     </ul>
    <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning</a>. 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
-<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -123,8 +115,8 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
    * Vous ne pouvez pas ajouter de champs des types suivants à un formulaire de demande :
 
-      * Créé par et Dernière modification par <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
-      * Date de création et <!--Created date, Last modified date, <span class="preview">Approved date</span>--> de la date de dernière modification
+      * Créé par, Dernière modification par, <span class="preview">Approuvé par</span>
+      * Date de création, Date de dernière modification, <span class="preview">Date d’approbation</span>
       * Formule
       * Champs de recherche d’objets Workfront
       * Champs de recherche des enregistrements connectés de Workfront Planning
@@ -228,6 +220,7 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
      Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire.
+
 1. Cliquez sur **Publier** pour publier le formulaire et obtenir un lien unique pour celui-ci.
 
    Les événements suivants se produisent :
@@ -235,47 +228,11 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
    * Le bouton **Publier** est supprimé.
    * Le bouton **Dépublier** est ajouté au formulaire. Cliquez dessus pour empêcher l’accès au formulaire.
    * Un bouton **Partager** est ajouté au formulaire.
+   * Le formulaire est alors disponible dans la zone Demandes du menu principal de Workfront.
 
 1. Cliquez sur **Partager** pour partager le formulaire avec d’autres personnes.
 
-   ![Zone de partage pour le formulaire de demande](assets/share-box-for-request-form.png)
-
-1. (Conditionnel) Dans l’environnement de production, sélectionnez l’une des options suivantes pour indiquer quels types d’utilisateurs peuvent accéder à ce formulaire :
-
-   * Toute personne disposant d’un accès en affichage ou supérieur à l’espace de travail
-   * Toute personne disposant d’un accès en contribution ou supérieur à l’espace de travail
-   * Toute personne disposant du lien
-
-   >[!WARNING]
-   >
-   >* Lorsque vous sélectionnez **Personne disposant du lien**, n’importe qui peut accéder au formulaire et envoyer un nouvel enregistrement, même les personnes extérieures à votre organisation qui ne disposent pas d’un compte Workfront.
-   >
-   >* Un formulaire contenant les types de champs suivants ne peut pas être partagé publiquement :
-   >
-   >     * Connexions Workfront ou AEM Assets
-   >     * Personnes
-   >
-
-1. (Conditionnel) Dans l’environnement de production, si vous avez sélectionné **Personne disposant du lien** à l’étape précédente, sélectionnez la **Date d’expiration du lien** dans le calendrier disponible.
-
-   Les personnes recevront une erreur après l’expiration du lien et vous devez mettre à jour la date du lien et générer un nouveau lien à partager avant que les personnes puissent à nouveau accéder au formulaire.
-
-   Vous pouvez sélectionner des dates futures dans les 180 jours à compter de la date actuelle.
-
-   >[!TIP]
-   >
-   >Une fois la date de partage expirée, le formulaire de demande n’est plus disponible dans la zone des Demandes de Workfront et les liens partagés avec d’autres utilisateurs ne sont plus accessibles.
-
-1. (Facultatif et conditionnel) Dans l’environnement de production, cliquez sur **Enregistrer et copier le lien** pour enregistrer les détails de partage du formulaire. Si le formulaire a été précédemment enregistré, cliquez sur **Copier le lien**.
-
-   Les options de partage de formulaire sont enregistrées et le lien est copié dans le presse-papiers. Vous pouvez maintenant le partager avec d’autres personnes.
-
-   Pour plus d&#39;informations sur la création d&#39;enregistrements à l&#39;aide d&#39;un lien vers un formulaire de demande, voir [Soumettre des demandes Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
-
-1. <span class="preview">(Conditionnel) Dans l’environnement de prévisualisation, pour partager avec les utilisateurs, sélectionnez l’onglet Partage interne , recherchez le nom de l’utilisateur, puis sélectionnez-le lorsqu’il apparaît dans la liste.</span>
-1. <span class="preview">(Conditionnel) Dans l’environnement de prévisualisation, pour créer un lien public, sélectionnez l’onglet Partage public , puis activez l’option Créer un lien public . Vous pouvez ensuite copier le lien ici ou définir une date d’expiration du lien.</span>
-1. Cliquez sur **Enregistrer** dans le coin inférieur droit de l’onglet **Formulaire** pour enregistrer le formulaire.
-
+   Pour plus d’informations sur le partage d’un formulaire de demande, consultez la section [Partager un formulaire de demande](#share-a-request-form) de cet article
 1. Cliquez sur la flèche pointant vers la gauche du nom du formulaire dans l’en-tête pour fermer le formulaire.
 
    La vue du tableau **Formulaires de demande** s’ouvre et le formulaire y est ajouté.
@@ -290,7 +247,6 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
    ![Menu Plus sur le formulaire de demande de la liste des formulaires de demande](assets/more-menu-on-request-form-from-request-forms-list.png)
 
-
 1. Cliquez sur la flèche pointant vers la gauche de **Formulaires de demande** dans l’en-tête pour fermer le tableau des formulaires de demande.
 
    La page de type d’enregistrement s’ouvre.
@@ -301,3 +257,54 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
 1. (Facultatif) Accédez à la zone **Demandes** dans Workfront et recherchez le formulaire partagé pour envoyer une demande. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
+## Partager un formulaire de demande
+
+1. Créez un formulaire de demande comme décrit dans la section [Créer un formulaire de demande pour un type d’enregistrement](#create-a-request-form-for-a-record-type) de cet article.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire de demande sur la page du type d’enregistrement.
+1. Cliquez sur **Partager** pour partager le formulaire avec d’autres personnes.
+
+1. Pour partager le formulaire en interne, sélectionnez l’onglet **Partage interne**, recherchez le nom d’un utilisateur, d’une équipe, d’une fonction, d’un groupe ou d’une entreprise dans le champ **Accorder l’accès pour envoyer ce formulaire**, puis sélectionnez-le lorsqu’il apparaît dans la liste. L’autorisation **Envoyer** est sélectionnée par défaut pour chaque entité.
+
+   ![Zone de partage pour le formulaire de demande](assets/share-box-for-request-form.png)
+
+1. (Facultatif) Cliquez sur le menu déroulant situé après le nom d’une entité, puis cliquez sur **Supprimer** pour la supprimer de la liste et arrêter de partager le formulaire avec elle.
+
+1. Dans la section **Qui peut soumettre des demandes via ce formulaire**, sélectionnez l’une des options suivantes pour indiquer quels types d’utilisateurs peuvent accéder à ce formulaire :
+
+   * Accessible par les personnes invitées uniquement
+   * Toute personne disposant d’un accès en affichage ou supérieur à l’espace de travail
+   * Toute personne disposant d’un accès en contribution ou supérieur à l’espace de travail
+1. (Facultatif) Cliquez sur **Copier le lien** pour partager le lien vers le formulaire avec des personnes qui y ont accès. Le lien est copié dans le presse-papiers.
+1. Pour partager le formulaire publiquement, sélectionnez l’onglet **Partage public** puis activez le paramètre **Créer un lien public**.
+
+   ![Partage public pour le formulaire de demande](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* Lorsque vous activez le paramètre **Créer un lien public**, n’importe qui peut accéder au formulaire et envoyer un nouvel enregistrement, même les personnes extérieures à votre organisation qui ne disposent pas d’un compte Workfront.
+   >
+   >* Un formulaire contenant les types de champs suivants ne peut pas être partagé publiquement :
+   >
+   >     * Connexions Workfront ou AEM Assets
+   >     * Personnes
+   >
+
+1. Choisissez une **date d’expiration du lien**.
+
+   Vous pouvez sélectionner des dates futures dans les 180 jours à compter de la date actuelle.
+
+   >[!TIP]
+   >
+   >Une fois la date de partage expirée, le formulaire de demande n’est plus disponible dans la zone des Demandes de Workfront et les liens partagés avec d’autres utilisateurs ne sont plus accessibles.
+
+   Les personnes recevront une erreur après l’expiration du lien et vous devez mettre à jour la date du lien et générer un nouveau lien à partager avant que les personnes puissent à nouveau accéder au formulaire.
+
+
+1. (Facultatif et conditionnel) Cliquez sur **Enregistrer** pour enregistrer les détails de partage du formulaire.
+1. (Conditionnel) Si le formulaire a été précédemment enregistré, cliquez sur **Copier le lien**.
+
+   Les options de partage de formulaire sont enregistrées et le lien est copié dans le presse-papiers. Vous pouvez maintenant le partager avec d’autres personnes.
+
+   Pour plus d&#39;informations sur la création d&#39;enregistrements à l&#39;aide d&#39;un lien vers un formulaire de demande, voir [Soumettre des demandes Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Cliquez sur **Enregistrer** dans le coin inférieur droit de l’onglet **Formulaire** pour enregistrer le formulaire.

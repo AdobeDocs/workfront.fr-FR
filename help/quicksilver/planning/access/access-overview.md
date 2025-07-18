@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 27%
+source-wordcount: '711'
+ht-degree: 28%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 27%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -104,8 +104,8 @@ Pour accéder à Workfront Planning, vous devez disposer des droits d&#39;accès
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
    <ul>
-   <li><p>Autorisations d’affichage ou supérieures aux espaces de travail, <span class="preview">types d’enregistrements</span> et vues que vous n’avez pas créés pour y accéder, ainsi qu’à leurs objets.</p></li>
-   <li><p>Autorisations de niveau Contributeur ou supérieur aux espaces de travail <span class="preview">et types d’enregistrements</span> que vous n’avez pas créés pour les modifier, ainsi que pour créer, modifier ou supprimer des types d’enregistrements et des enregistrements.</p></li>
+   <li><p>Autorisations d’affichage ou supérieures aux espaces de travail, aux types d’enregistrements et aux vues que vous n’avez pas créés pour y accéder et à leurs objets.</p></li>
+   <li><p>Accordez des autorisations supérieures ou supérieures aux espaces de travail et aux types d’enregistrements que vous n’avez pas créés pour les modifier et créer, modifier ou supprimer des types d’enregistrements et des enregistrements.</p></li>
    <li><p>Autorisations de niveau Contribution ou supérieur aux vues que vous n’avez pas créées, pour les modifier, les supprimer et les partager</p>
    </li>
     <li><p>L’administration système peut gérer les espaces de travail qu’elle n’a pas créés. </p></li>
@@ -115,16 +115,14 @@ Pour accéder à Workfront Planning, vous devez disposer des droits d&#39;accès
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <div class="preview">
+   <td> 
 <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p>
 <p> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page qui inclut l'option Planning dans les domaines suivants :</p>
    <ul><li>Menu principal</li>
    <li>Panneau de gauche de projets, portefeuilles et programmes</li>
    </ul>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Créer et gérer des modèles de disposition</a>.</p>
-   </div>
-   <p><b>NOTE</b></p>
-   <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut les zones Planning.</p>
+
 </td>
   </tr>
  </tbody>
@@ -144,16 +142,12 @@ Une fois que votre entreprise a acheté une licence Workfront Planning suppléme
 * Panneau de gauche pour les projets, portfolios et programmes
 * Épingles
 
-<div class="preview">
-
 Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système dans les domaines suivants :
 
 * Menu principal
 * Panneau de gauche de projets, portfolios ou programmes
 
-</div>
-
-Pour ajouter <span class="preview"> ou supprimer des zones </span> Workfront Planning des utilisateurs de votre instance Workfront :
+Pour ajouter ou supprimer des zones Workfront Planning des utilisateurs de votre instance Workfront :
 
 1. Connectez-vous à **Workfront** en tant qu’administrateur ou administratrice système.
 

@@ -1,12 +1,12 @@
 ---
 title: Présentation de l’assistant IA Planification d’Adobe Workfront
 description: Vous pouvez utiliser l’assistant d’IA pour générer, mettre à jour ou supprimer des enregistrements en fonction du contexte de page et de la structure d’enregistrement actuels. Les commandes de l’utilisateur et l’exécution par l’IA de ces commandes fonctionnent ensemble pour s’assurer que les modifications apportées par l’IA sont reflétées avec précision dans votre environnement.
-author: Alina
+author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a5b7683bffa6c63d7feb45e5c38404185d3f2b44
+source-git-commit: a36968bdae5756f0f8283da04a2afca83b4dd94a
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 4%
