@@ -1,5 +1,5 @@
 ---
-title: Accorder l’accès aux problèmes
+title: Octroi de l'accès aux événements
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 99%
+source-wordcount: '475'
+ht-degree: 98%
 
 ---
 
@@ -52,6 +52,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Commencez à créer ou à modifier le niveau d’accès, comme expliqué dans la section [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Cliquez sur l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton **Afficher** ou **Modifier** à droite de Problèmes, puis sélectionnez les autorisations que vous souhaitez accorder dans **Ajuster vos paramètres**.
+
+   ![affiner les paramètres des problèmes](assets/fine-tune-issues.png)
 
 1. (Facultatif) Pour restreindre les autorisations héritées des problèmes issus d’objets de rang supérieur, cliquez sur **Définir des restrictions supplémentaires**, puis sélectionnez **Ne jamais hériter de l’accès aux documents depuis des projets, des tâches, des problèmes, etc.**.
 

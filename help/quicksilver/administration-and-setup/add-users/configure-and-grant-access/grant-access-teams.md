@@ -1,14 +1,14 @@
 ---
-title: Accorder l’accès aux équipes
+title: Octroi de l’accès aux équipes
 description: En tant que personne membre de l’administration Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’utilisation des équipes dans Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 99%
+source-wordcount: '699'
+ht-degree: 98%
 
 ---
 
@@ -47,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Commencez à créer ou à modifier le niveau d’accès, comme expliqué dans [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Cliquez sur l’icône en forme d’engrenage ![](assets/gear-icon-settings.png) sur le bouton **Afficher** ou **Modifier** à droite d’« Équipes », puis sélectionnez les droits que vous souhaitez accorder sous **Ajuster vos paramètres**.
+
+   ![peaufinez les équipes](assets/fine-tune-teams.png)
 
    * **Afficher** : si vous configurez la façon dont les utilisateurs et les utilisatrices, quelle que soit leur licence, peuvent afficher les équipes, modifiez l’une des options suivantes :
 
@@ -103,6 +105,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
         </tr>
        </tbody>
       </table>
+
+
 
 1. Cliquez sur le X pour fermer la zone **Ajuster vos paramètres**.
 1. (Facultatif) Pour configurer les paramètres d’accès pour d’autres objets et domaines dans le niveau d’accès sur lequel vous travaillez, poursuivez avec l’un des articles répertoriés dans [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), tels que [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) et [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).

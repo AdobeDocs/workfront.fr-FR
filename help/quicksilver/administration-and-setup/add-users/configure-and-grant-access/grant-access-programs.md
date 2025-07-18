@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 169f6357-1fbb-43e0-83af-1c4be682ddbf
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 99%
+source-wordcount: '490'
+ht-degree: 98%
 
 ---
 
@@ -52,6 +52,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Commencez à créer ou à modifier le niveau d’accès, comme expliqué dans la section [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Cliquez sur l’icône ![](assets/gear-icon-settings.png) sur le bouton **Afficher** ou **Modifier** à droite de Programmes, puis sélectionnez les privilèges que vous souhaitez accorder dans **Ajuster vos paramètres**.
+
+   ![affiner les paramètres du programme](assets/fine-tune-programs.png)
 
    Pour plus d’informations sur ce que les utilisateurs et utilisatrices de chaque niveau d’accès peuvent faire avec les programmes, voir la section [Programmes](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#programs) dans l’article [Fonctionnalités disponibles pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 

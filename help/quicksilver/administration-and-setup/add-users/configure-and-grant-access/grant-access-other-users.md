@@ -1,13 +1,13 @@
 ---
-title: Accorder l’accès aux utilisateurs
+title: Octroi de l’accès aux utilisateurs
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès entre les utilisateurs et utilisatrices dans Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '767'
 ht-degree: 97%
 
 ---
@@ -71,6 +71,8 @@ Vous pouvez gérer les informations que les utilisateurs et utilisatrices peuven
 
    1. Désactivez **Afficher les informations sur les contacts**, puis cliquez sur le bouton X pour fermer la boîte de dialogue **Ajuster vos paramètres**.
 
+      ![affiner les paramètres utilisateur](assets/fine-tune-users.png)
+
 1. Pour modifier la capacité des utilisateurs et utilisatrices disposant d’un accès sous licence de plan à modifier d’autres utilisateurs et utilisatrices, cliquez sur l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton **Modifier** à droite d’**Utilisateurs et utilisatrices**, puis sélectionnez les fonctionnalités à accorder :
 
    <table style="table-layout:auto"> 
@@ -80,12 +82,9 @@ Vous pouvez gérer les informations que les utilisateurs et utilisatrices peuven
      <tr> 
       <td role="rowheader"><strong>Créer</strong> </td> 
       <td> <p>Permet aux utilisateurs et utilisatrices d’en créer d’autres.<br>Cette option est activée par défaut.</p> 
-      &lt;!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Assurez-vous que cette modification est effectuée avant de déchiffrer ces deux notes. Le 29/03, le document spécifiant les besoins indique que cela dépend des résultats de l’enquête.</p>
-
-       &lt;p>&lt;b>NOTE&lt;/b> : cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.&lt;/p>
-     --> &lt;/td>
-   </tr> 
+     <p><b>NOTE</b> : cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.</p>
+        </td>  
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>Supprimer</strong> </td> 
       <td> <p> Permet aux utilisateurs et utilisatrices de supprimer les utilisateurs et utilisatrices qu’ils ont eux-mêmes créés.<br>Cette option est activée par défaut.</p> <p><b>NOTE</b> : cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.</p> </td> 
@@ -95,7 +94,7 @@ Vous pouvez gérer les informations que les utilisateurs et utilisatrices peuven
       <td> <p>Permet d’effectuer les opérations suivantes pour n’importe quelle personne utilisant Workfront :</p> 
        <ul> 
         <li>Modifier, supprimer ou désactiver la personne</li> 
-        <li>Se connecter en tant qu’utilisateur ou utilisatrice<p><b>REMARQUE</b> : vous ne pouvez pas vous connecter en tant qu’utilisateur administrateur système.</p></li> 
+        <li>Se connecter en tant qu’utilisateur ou utilisatrice<p><b>REMARQUE </b> : vous ne pouvez pas vous connecter en tant qu'utilisateur administrateur système.</p></li> 
         <li>Réinitialiser le mot de passe de l’utilisateur ou de l’utilisatrice</li> 
        </ul> <p>Cette option est désactivée par défaut.</p> </td> 
      </tr> 

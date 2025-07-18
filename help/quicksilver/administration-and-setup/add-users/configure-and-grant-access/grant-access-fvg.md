@@ -1,5 +1,5 @@
 ---
-title: Accorder l’accès aux filtres, aux vues et aux groupes
+title: Octroi de l’accès aux filtres, vues et regroupements
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 98%
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Commencez à créer ou à modifier le niveau d’accès, comme expliqué dans la section [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Cliquez sur l’icône en forme d’engrenage ![](assets/gear-icon-settings.png) sur les boutons **Vue** ou **Modifier** à droite des filtres, puis sélectionnez les capacités que vous souhaitez accorder sous **Ajuster vos paramètres**.
 
-   ![](assets/gear-icon-filters-dashboards-groupings.jpg)
+   ![](assets/gear-icon-filters-dashboards-groupings.png)
 
    Par défaut, les utilisateurs et les utilisatrices disposant d’une licence Plan, Travail, Révision ou Demande disposent de toutes les capacités de visualisation et de modification. Les utilisateurs et les utilisatrices disposant d’une licence d’utilisation externe n’ont pas accès aux filtres, aux vues et aux regroupements.
 

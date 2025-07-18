@@ -1,5 +1,5 @@
 ---
-title: Accorder l’accès aux objectifs Adobe Workfront
+title: Octroi de l’accès aux objectifs Adobe Workfront
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 98%
@@ -59,7 +59,6 @@ Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditi
 1. Commencez à créer ou modifier le niveau d’accès, comme expliqué dans [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Cliquez sur l’option située à droite d’**Objectifs** que vous souhaitez utiliser pour ce niveau d’accès.
 
-   ![](assets/edit-access-level-goals.png)
 
    >[!NOTE]
    >
