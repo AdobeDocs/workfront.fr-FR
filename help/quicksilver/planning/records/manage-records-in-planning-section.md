@@ -1,6 +1,6 @@
 ---
 title: Gestion des enregistrements dans la section Planification des objets Adobe Workfront
-description: Vous pouvez afficher les enregistrements Workfront Planning connectés à Adobe objets Workfront dans la section Planning d’un objet Workfront, dans le panneau gauche.
+description: Vous pouvez afficher les enregistrements Workfront Planning connectés aux objets Adobe Workfront dans la section Planning d'un objet Workfront, dans le panneau de gauche.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 <!--add also Group and Company when they are available-->
 
-# Gestion des connexions d’enregistrements à partir d’objets Workfront
+# Gérer les connexions d’enregistrement à partir d’objets Workfront
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -24,9 +24,9 @@ ht-degree: 5%
 
 {{planning-important-intro}}
 
-Vous pouvez afficher des enregistrements Workfront Planning dans Workfront dans les zones suivantes des objets qui y sont connectés :
+Vous pouvez afficher les enregistrements Workfront Planning dans Workfront dans les zones suivantes des objets qui y sont connectés :
 
-* La section Planification d’un objet Workfront : affiche tous les types d’enregistrements connectés à un objet et leurs enregistrements connectés respectifs.
+* La section Planning d’un objet Workfront : affiche tous les types d’enregistrements connectés à un objet et leurs enregistrements correspondants connectés.
 * Un champ personnalisé de connexion Planning : affiche un type d’enregistrement, ses enregistrements connectés respectifs et jusqu’à 7 champs de recherche des enregistrements connectés.
 
 ## Conditions d’accès
@@ -50,22 +50,22 @@ Vous pouvez afficher des enregistrements Workfront Planning dans Workfront dans 
  <tr>
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
    <td>
-<p>L’un des plans de front de travail suivants :</p>
+<p>L’un des plans Workfront suivants :</p>
 <ul><li>Sélectionner</li>
 <li>Principal</li>
 <li>Final</li></ul>
-<p>La planification de front de travail n’est pas disponible pour les plans de front hérités</p>
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p>
    </td>
 
 <tr>
    <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td>
    <td>
 <p>Tous</p>
-<p>Pour plus d’informations sur ce qui est inclus dans chaque plan Workfront Planning, contactez votre responsable de compte Workfront. </p>
+<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p>
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Plateforme Workfront</p></td>
+   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
 <p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
@@ -120,7 +120,7 @@ La section Planning est disponible pour les objets Workfront suivants :
 
 Tenez compte des points suivants lorsque vous affichez les enregistrements Workfront Planning à partir de la section Planning d’un objet Workfront :
 
-* Les types d’enregistrements Workfront Planning doivent d’abord être connectés aux types d’objet Workfront.
+* Les types d’enregistrements Workfront Planning doivent d’abord être connectés aux types d’objets Workfront.
 
   Pour plus d’informations, voir les articles suivants :
 
@@ -156,24 +156,24 @@ La page de l’objet s’ouvre dans Workfront.
    * Les enregistrements connectés s’affichent sur des cartes individuelles contenant les informations suivantes :
       * Nom de l’enregistrement
       * La miniature de l’enregistrement
-      * Le nom du champ d’enregistrement connecté tel qu’il s’affiche dans Workfront Planning.
-   * Les enregistrements s’affichent sous leur espace de travail et type d’enregistrement respectifs.
+      * Nom du champ d’enregistrement connecté tel qu’il s’affiche dans Workfront Planning.
+   * Les enregistrements s’affichent dans leur espace de travail et leur type d’enregistrement respectifs.
 
    ![Section Planification du projet](assets/planning-section-on-project.png)
 
 1. (Facultatif) Cliquez sur **Afficher toutes les connexions** pour afficher tous les types d’enregistrements connectés, y compris ceux sans enregistrements connectés. Par défaut, les types d’enregistrements sans enregistrements connectés ne s’affichent pas.
 1. Cliquez sur une carte d’enregistrement pour afficher plus d’informations sur l’enregistrement. La zone de prévisualisation des enregistrements s’affiche.
 1. (Facultatif) Commencez à modifier les champs dans la zone d’aperçu de l’enregistrement. Vos modifications sont enregistrées automatiquement.
-1. (Facultatif) Cliquez sur l’icône **&#x200B;**&#x200B;Ouvrir dans un nouvel onglet Ouvrir dans un nouvel onglet![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page de détails de l’enregistrement. La page de détails de l’enregistrement s’ouvre dans Workfront Planning.
-1. (Facultatif) Passez la souris sur une carte d’enregistrement, puis cliquez sur l’icône Déconnecter l’enregistrement **-**, puis cliquez sur **Déconnecter**.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page de détails de l’enregistrement. La page de détails de l’enregistrement s’ouvre dans Workfront Planning.
+1. (Facultatif) Pointez sur une carte d’enregistrement, puis cliquez sur l’icône Déconnecter l’enregistrement **-**, puis sur **Déconnecter**.
 Les événements suivants se produisent :
    * L’enregistrement n’est plus connecté à l’objet Workfront.
-   * L’objet Workfront est également supprimé du champ connecté de l’enregistrement de Workfront Planning.
-   * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont également supprimées.
-1. Cliquez sur **Connect (Connecter** ) pour connecter d’autres enregistrements pour les types d’enregistrements connectés.
+   * L’objet Workfront est également supprimé du champ connecté de l’enregistrement dans Workfront Planning.
+   * Les valeurs des champs de recherche Workfront liés à l&#39;enregistrement Planning sont également supprimées.
+1. Cliquez sur **Connexion** pour connecter d’autres enregistrements pour les types d’enregistrements connectés.
 
    Pour plus d’informations, consultez [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
-1. (Facultatif) Si vous ne trouvez pas un enregistrement à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter** pour ajouter un nouvel enregistrement. Pour plus d’informations, consultez la section « Créer des enregistrements lorsque vous les connectez à partir d’autres enregistrements » dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+1. (Facultatif) Si vous ne parvenez pas à trouver un enregistrement à connecter et que vous souhaitez l’ajouter, cliquez sur **+ Ajouter** pour ajouter un nouvel enregistrement. Pour plus d&#39;informations, reportez-vous à la section « Créer des enregistrements en les connectant à partir d&#39;autres enregistrements » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
    Les événements suivants se produisent :
 
@@ -241,11 +241,11 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
    >
    >Vous ne pouvez pas ajouter d&#39;enregistrements aux champs de connexion Planning qui sont associés à des objets Workfront autres que l&#39;objet que vous avez sélectionné lors de la configuration du champ.
    >
-   >Par exemple, vous ne pouvez pas ajouter d’enregistrements à un champ de connexion de planification créé pour une connexion Portfolio à partir du formulaire personnalisé d’un projet.
+   >Par exemple, vous ne pouvez pas ajouter d’enregistrements à un champ de connexion Planning créé pour une connexion Portfolio à partir du formulaire personnalisé d’un projet.
    >
-   >Il indique que l’objet du champ et l’objet sélectionné ne correspondent pas.
+   >Cela indique que l’objet du champ et l’objet que vous avez sélectionné ne correspondent pas.
    >
-   >![Avertissement : objet non pris en charge Champ Planification de la connexion du formulaire](assets/warning-unsupported-object-planning-connection-field-on-form.png)
+   >![Avertissement objet non pris en charge Champ de connexion Planning du formulaire](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
 1. Cliquez en dehors de la liste pour la fermer.
 
@@ -256,18 +256,18 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
    * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont renseignées dans Workfront Planning.
    * Si votre administrateur Workfront ou votre administrateur de groupes a ajouté des champs de recherche d’enregistrement lors de la création du formulaire personnalisé, les champs de recherche d’enregistrement sont automatiquement renseignés dans une vue Tableau. La vue Tableau du champ de connexion Planning est en lecture seule.
 
-     ![Planification du champ de connexion avec tableau sur le projet Formulaire personnalisé détaillé](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+     ![Champ de connexion Planning avec tableau sur le formulaire personnalisé des détails du projet](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
      >[!NOTE]
      >
-     >La vue Tableau s’affiche uniquement lorsque des champs de recherche ont été ajoutés au champ Planification des connexions du formulaire personnalisé.
+     >La vue Tableau s&#39;affiche uniquement lorsque des champs de recherche ont été ajoutés au champ Connexions Planning du formulaire personnalisé.
 
 
-1. (Facultatif) Cliquez sur le nom d’un enregistrement ou passez la souris sur le nom de l’enregistrement dans la table, puis cliquez sur l’icône Ouvrir **l’enregistrement** Ouvrir l’icône d’enregistrement dans le ![formulaire personnalisé Planification de la connexion dans le champ](assets/open-record-icon-on-planning-connection-custom-form.png) Planification de la connexion pour l’ouvrir dans Workfront Planning.
-La boîte de prévisualisation des détails de l’enregistrement Workfront Planning s’ouvre.
-1. Vérifiez ou modifiez les informations relatives à l’enregistrement, ou cliquez sur l’icône **&#x200B;**&#x200B;Ouvrir dans un nouvel onglet![ Ouvrir l’enregistrement dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page des détails de l’enregistrement.
+1. (Facultatif) Cliquez sur le nom d&#39;un enregistrement ou survolez-le avec la souris, puis cliquez sur l&#39;icône **Ouvrir l&#39;enregistrement** ![Icône Ouvrir l&#39;enregistrement dans le formulaire personnalisé de la connexion Planning](assets/open-record-icon-on-planning-connection-custom-form.png) dans le champ Connexion Planning pour l&#39;ouvrir dans Workfront Planning.
+La zone d&#39;aperçu des détails des enregistrements Workfront Planning s&#39;ouvre.
+1. Passez en revue ou modifiez les informations sur l’enregistrement ou cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir l’enregistrement dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page des détails de l’enregistrement.
 
-1. (Facultatif) Dans le formulaire personnalisé dans Workfront, cliquez sur l’icône **Supprimer** l’icône ![](assets/remove-icon.png) Supprimer d’un enregistrement pour le supprimer du champ Planification de la connexion et le déconnecter de l’objet Workfront.
-L’objet Workfront est déconnecté de l’enregistrement Planning et toutes les informations de recherche de Workfront sont supprimées de l’enregistrement.
+1. (Facultatif) Dans le formulaire personnalisé de Workfront, cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/remove-icon.png) d’un enregistrement pour le supprimer du champ de connexion Planning et le déconnecter de l’objet Workfront.
+L&#39;objet Workfront est déconnecté de l&#39;enregistrement Planning et toutes les informations de recherche de Workfront sont supprimées de l&#39;enregistrement.
 
 1. Cliquez sur **Enregistrer les modifications** pour enregistrer le formulaire personnalisé et toutes les autres modifications que vous avez apportées à l’objet Workfront.

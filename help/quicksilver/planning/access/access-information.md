@@ -1,6 +1,6 @@
 ---
-title: 'Informations d’accès Adobe Workfront Planning : article Index'
-description: En tant qu’administrateur ou administratrice Workfront, vous devez autoriser vos utilisateurs et utilisatrices à utiliser Adobe Workfront Planning. Les articles suivants contiennent des informations sur l’accès dont vos utilisateurs ont besoin pour utiliser Workfront Planning ainsi que sur la façon de demander et d’accorder des autorisations lorsque les utilisateurs n’y ont pas accès.
+title: 'Informations d’accès à la planification Adobe Workfront : index des articles'
+description: En tant qu’administrateur ou administratrice Workfront, vous devez autoriser vos utilisateurs et utilisatrices à utiliser Adobe Workfront Planning. Les articles suivants contiennent des informations sur l’accès dont vos utilisateurs ont besoin pour utiliser Workfront Planning, ainsi que sur la manière de demander et d’accorder des autorisations lorsque les utilisateurs n’y ont pas accès.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -27,12 +27,12 @@ En tant qu’administrateur ou administratrice Workfront, vous devez autoriser v
 
 Les articles suivants contiennent des informations sur l’accès dont vos utilisateurs et utilisatrices ont besoin pour utiliser les fonctionnalités de Workfront Planning :
 
-* [Adobe Planification de l’accès](/help/quicksilver/planning/access/access-overview.md)
+* [Présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md)
 * [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
 * [Vue d’ensemble du type de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
-* [Demande d’autorisations pour une vue ou un espace de travail](/help/quicksilver/planning/access/request-permissions.md)
+* [Demander des autorisations pour une vue ou un espace de travail](/help/quicksilver/planning/access/request-permissions.md)
 * [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
 * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
-* [Partager des types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md)
+* [Partage des types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md)
 
 

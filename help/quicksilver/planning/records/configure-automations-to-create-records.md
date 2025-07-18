@@ -39,7 +39,7 @@ Pour plus d&#39;informations sur la création d&#39;enregistrements ou d&#39;obj
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les conditions d’accès.
++++ Développez pour afficher les exigences d’accès.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -156,18 +156,18 @@ Sélectionnez l’une des actions suivantes :
 
      >[!TIP]
      >
-     >Un projet est créé uniquement pour les options actuellement sélectionnées sur le champ à sélection multiple ou unique de l’enregistrement à partir duquel vous exécutez l’automatisation, et non pour tous les choix possibles pour ce champ.
+     >Un projet est créé uniquement pour les options actuellement sélectionnées sur le champ à sélection multiple ou unique de l’enregistrement à partir duquel vous exécutez l’automatisation, et pas pour tous les choix possibles pour ce champ.
      >
 
-      * **Utiliser le même modèle** : sélectionnez cette option pour utiliser le même modèle pour chaque nouveau projet. Si cette option est désélectionnée, sélectionnez un modèle **de projet pour chaque choix de** champ.
-      * **Modèle de** projet : si vous avez sélectionné l’option **Utiliser le même modèle** , sélectionnez un modèle de projet que Workfront utilisera pour créer les projets.
+      * **Utiliser le même modèle** : sélectionnez cette option pour utiliser le même modèle pour chaque nouveau projet. Si l’option est désélectionnée, sélectionnez un **modèle de projet** pour chaque choix de champ.
+      * **Modèle de projet** : si vous avez sélectionné l’option **Utiliser le même modèle**, sélectionnez un modèle de projet que Workfront utilisera pour créer les projets.
 
    * **Créer un portefeuille** :
-      * **Champ connecté où le portefeuille est créé** : il s’agit du champ connecté où le nouveau portefeuille s’affichera. Champ obligatoire.
+      * **Champ connecté où le portfolio est créé** : il s’agit du champ connecté où le nouveau portfolio s’affichera. Champ obligatoire.
       * **Formulaire personnalisé à joindre au nouveau portefeuille** : sélectionnez un formulaire personnalisé à joindre au nouveau portefeuille. Vous devez créer un formulaire personnalisé de portfolio avant de pouvoir le sélectionner.
    * **Créer un programme** :
-      * **Champ connecté où le programme est créé :** Il s’agit du champ connecté où le nouveau programme s’affichera. Champ obligatoire.
-      * **Portefeuille** de programmes : Sélectionnez un portefeuille où le nouveau programme sera ajouté. Champ obligatoire.
+      * **Champ connecté où le programme est créé** : il s’agit du champ connecté où le nouveau programme s’affichera. Champ obligatoire.
+      * **Portefeuille de programmes** : sélectionnez le portefeuille dans lequel le nouveau programme sera ajouté. Champ obligatoire.
       * **Formulaire personnalisé à joindre au nouveau programme** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
    * **Créer un groupe** :
       * **Champ connecté où est créé le groupe** : il s’agit du champ connecté où s’affichera le nouveau groupe. Champ obligatoire.
@@ -254,4 +254,4 @@ Dans la zone **Champs de carte**, mettez à jour les informations suivantes :
       Pour le rendre à nouveau disponible, cliquez de nouveau sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Activer**.
    1. Cliquez sur **Supprimer** pour supprimer l’automatisation. Impossible de récupérer une automatisation supprimée.
 
-      Les enregistrements qui ont été créés à l’aide d’une automatisation supprimée restent connectés à l’enregistrement sélectionné à l’origine.
+      Les enregistrements qui ont été créés à l&#39;aide d&#39;une automatisation supprimée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.

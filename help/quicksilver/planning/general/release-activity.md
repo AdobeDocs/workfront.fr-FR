@@ -800,7 +800,7 @@ Production : jeudi 8 mai 2024
 
 Aperçu : à déterminer
 
-Si vous êtes un client Adobe Unified Experience et que quelqu’un vous ajoute à un commentaire sur la page d’enregistrement, vous recevez une notification in-app et un e-mail concernant le commentaire. Vous pouvez gérer vos préférences de notification dans la zone Préférences de votre profil Adobe Experience Cloud. Pour plus d’informations, voir [ Préférences et notifications du compte ](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences).
+Si vous êtes un client Adobe Unified Experience et que quelqu’un vous ajoute à un commentaire sur la page d’enregistrement, vous recevez une notification in-app et un e-mail concernant le commentaire. Vous pouvez gérer vos préférences de notification dans la zone Préférences de votre profil Adobe Experience Cloud. Pour plus d’informations, voir [ Préférences et notifications du compte ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Pour plus d’informations sur les notifications de planification Workfront, voir [Notifications Adobe Workfront Planning : index des articles](/help/quicksilver/planning/notifications/notifications-information.md).
 

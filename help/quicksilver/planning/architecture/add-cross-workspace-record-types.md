@@ -3,13 +3,13 @@ title: Ajouter des types d’enregistrements sur plusieurs espaces de travail
 description: Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning. Dans Workfront Planning, vous pouvez importer un type d’enregistrement existant à partir d’un autre espace de travail.
 hidefromtoc: true
 hide: true
-source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 27%
 
 ---
-
 
 <!-- add these to the metadata, when making this public: 
 

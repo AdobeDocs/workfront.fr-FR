@@ -30,7 +30,7 @@ Vous pouvez également modifier les entités avec lesquelles vous partagez un fo
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les conditions d’accès.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -51,11 +51,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tr>
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
    <td>
-<p>L’un des plans de front de travail suivants :</p>
+<p>L’un des plans Workfront suivants :</p>
 <ul><li>Sélectionner</li>
 <li>Principal</li>
 <li>Final</li></ul>
-<p>La planification de front de travail n’est pas disponible pour les plans de front hérités</p>
+<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p>
    </td>
 
 <tr>
@@ -89,7 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
    <ul>
-   <li><p>Gérer les autorisations d’un espace de travail <span class="preview">et d’un type d’enregistrement</span> </p></li>
+   <li><p>Gérer les autorisations pour un espace de travail <span class="preview">et le type d’enregistrement</span> </p></li>
     <li><p>L’administration système peut gérer les espaces de travail qu’elle n’a pas créés. </p></li>
     </ul>
    <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning</a>. 
@@ -97,8 +97,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut la planification.</p>
-<p><span class="preview">Dans l’environnement Aperçu, la planification est activée par défaut pour les utilisateurs Standard et les administrateurs système.</span></p>  
+   <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
+<p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p>  
 </td>
   </tr>
  </tbody>
@@ -108,9 +108,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
-## Modifier le partage d’un formulaire de demande
+## Modification du partage d’un formulaire de demande
 
-Si vous partagez une demande de publiquement, avec tout le monde, y compris des utilisateurs extérieurs à votre organisation, vous pouvez envisager de restreindre cet accès à certains utilisateurs qui affichent ou gèrent l’espace de travail auquel le formulaire est associé.
+Si vous partagez une demande de publiquement, avec tout le monde, y compris les utilisateurs et utilisatrices externes à votre organisation, vous pouvez envisager de restreindre cet accès à certains utilisateurs et utilisatrices qui affichent ou gèrent l’espace de travail auquel le formulaire est associé.
 
 Pour modifier le partage d’un formulaire de demande :
 
@@ -124,26 +124,26 @@ Pour modifier le partage d’un formulaire de demande :
 
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
 
-1. Cliquez sur le **menu**![ Plus](assets/more-menu.png) Plus à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Gérer les formulaires** de demande.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Gérer les formulaires de demande**.
 
-   Tous les formulaires de requête associés au type d’enregistrement s’affichent dans une vue Tableau.
-1. Passez la souris sur le nom d’un formulaire de demande, puis cliquez sur le menu Plus Plus à droite de son nom, puis cliquez sur **Partager**.![](assets/more-menu.png) **&#x200B;**
+   Tous les formulaires de demande associés au type d’enregistrement s’affichent dans une vue tabulaire.
+1. Pointez sur le nom d’un formulaire de demande, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite de son nom, puis cliquez sur **Partager**.
 1. Mettez à jour les choix de partage en sélectionnant l’une des options suivantes :
 
    * Toute personne disposant d’un accès en affichage ou supérieur à l’espace de travail
    * Toute personne disposant d’un accès en contribution ou supérieur à l’espace de travail
    * Toute personne disposant du lien
 
-   Pour plus d’informations, voir [Créer et gérer un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+   Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Facultatif) Cliquez sur **Copier le lien**, si vous avez modifié le partage du formulaire de demande et que vous souhaitez le partager avec le nouveau groupe de personnes avec un nouveau lien.
 
-## Annulation de la publication d’un formulaire de demande pour un type d’enregistrement
+## Dépublication d’un formulaire de demande pour un type d’enregistrement
 
-Lorsqu’un formulaire de demande n’est plus pertinent et que vous ne souhaitez plus que personne n’y accède, vous pouvez le dépublier.
+Lorsqu’un formulaire de demande devient non pertinent et que vous ne souhaitez plus que quiconque y accède, vous pouvez le dépublier.
 
 {{step1-to-planning}}
 
-1. Cliquez sur l’espace de travail où vous souhaitez ajouter des enregistrements.
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez ajouter des enregistrements.
 
    L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
 
@@ -151,7 +151,7 @@ Lorsqu’un formulaire de demande n’est plus pertinent et que vous ne souhaite
 
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
 
-1. Cliquez sur le **menu**![ Plus](assets/more-menu.png) Plus à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Gérer les formulaires** de demande.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Gérer les formulaires de demande**.
 
    Tous les formulaires de demande associés au type d’enregistrement s’affichent dans une vue tabulaire.
 1. Pointez sur le nom d’un formulaire de demande, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite de son nom, puis cliquez sur **Dépublier**
@@ -164,12 +164,12 @@ Cliquez sur le nom du formulaire de demande pour l’ouvrir, puis cliquez sur **
 
 Un message de confirmation s’affiche au bas de l’écran pour vous informer que la publication du formulaire a été annulée.
 
-Le lien ou le **bouton Annuler la** publication **devient Publish**.
+Le lien ou le bouton **Dépublier** devient **Publier**.
 
-1. (Conditionnel) Cliquez sur **Enregistrer** si vous avez annulé la publication du formulaire après l’avoir ouvert.
+1. (Conditionnel) Cliquez sur **Enregistrer** si vous avez dépublié le formulaire après l’avoir ouvert.
 
-   Les utilisateurs ne peuvent plus accéder au formulaire de demande à partir d’un lien ou de la file d’attente de demandes dans la zone Requêtes de Workfront.
+   Les utilisateurs ne peuvent plus accéder au formulaire de demande à partir d’un lien ou de la file d’attente des demandes dans la zone des Demandes de Workfront.
 
-   Tous les enregistrements précédemment ajoutés à l’aide du formulaire de demande restent sur la page Type d’enregistrement.
+   Tous les enregistrements précédemment ajoutés à l’aide du formulaire de demande restent sur la page du type d’enregistrement.
 
-   Toutes les requêtes précédemment ajoutées restent dans la zone Requêtes de Workfront, sous l’onglet Planification.
+   Toutes les demandes précédemment ajoutées restent dans la zone des Demandes de Workfront, dans l’onglet Planification .

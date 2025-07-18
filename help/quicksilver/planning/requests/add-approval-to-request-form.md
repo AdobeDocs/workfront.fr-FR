@@ -1,6 +1,6 @@
 ---
 title: Ajout d’une approbation à un formulaire de demande dans Adobe Workfront Planning
-description: Vous pouvez ajouter un processus d’approbation à un formulaire de demande Adobe Workfront Planning afin de lancer une approbation pour chaque demande envoyée, avant qu’il ne crée un enregistrement.
+description: Vous pouvez ajouter un processus d’approbation à un formulaire de demande Adobe Workfront Planning, afin de lancer une approbation pour chaque demande soumise, avant la création d’un enregistrement.
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
@@ -19,7 +19,7 @@ ht-degree: 12%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement d’aperçu pour tous les clients. Après les versions mensuelles de Production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les conditions d’accès.
++++ Développez pour afficher les exigences d’accès.
 
 <table style="table-layout:auto">
  <col>
@@ -49,7 +49,7 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
    <p> Produits</p> </td>
    <td>
    <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
+   <li><p> Planification d’Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
@@ -65,12 +65,12 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
    <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td>
    <td>
 <p>Tous </p>  
-<p>Pour plus d’informations sur ce qui est inclus dans chaque plan Workfront Planning, contactez votre responsable de compte Workfront. </td>
+<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Plateforme Workfront</p></td>
+   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
-<p>L’instance Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p>
+<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
    </td>
   </tr>
@@ -91,7 +91,7 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
    <ul>
-   <li><p>Gérer les autorisations d’un espace de travail et d’un type d’enregistrement</p></li>
+   <li><p>Gestion des autorisations relatives à un espace de travail et à un type d’enregistrement</p></li>
     <li><p>L’administration système peut gérer les espaces de travail qu’elle n’a pas créés. </p></li>
     </ul>
    <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning</a>. 
@@ -105,28 +105,28 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
 
 +++
 
-## Considérations sur l’ajout d’approbations à un formulaire de demande
+## Considérations relatives à l’ajout d’approbations à un formulaire de demande
 
 * Vous pouvez ajouter un ou plusieurs approbateurs à un formulaire de demande. Vous ne pouvez ajouter que des utilisateurs en tant qu’approbateurs.
 * <span class="preview">Vous pouvez afficher les informations d&#39;approbation sur un enregistrement créé en soumettant un formulaire de demande dans les champs Date d&#39;approbation par et Date d&#39;approbation . Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).</span>
 * Lorsque vous ajoutez plusieurs approbateurs à un formulaire de demande, tous les approbateurs doivent accepter la demande avant la création d&#39;un enregistrement dans Workfront Planning.
 * Si tous les approbateurs approuvent la demande, un enregistrement est créé pour le type d&#39;enregistrement associé au formulaire de demande.
 * Si au moins un approbateur rejette la demande et que tous les autres l&#39;approuvent, une demande est créée pour la zone Demandes de Workfront, mais aucun enregistrement n&#39;est créé pour le type d&#39;enregistrement associé au formulaire de demande.
-* L’ajout d’approbations à un formulaire de demande est facultatif. Workfront Planning crée immédiatement un enregistrement lorsqu’une demande est soumise, si le formulaire de demande n’est pas associé à une approbation.
+* L’ajout d’approbations à un formulaire de demande est facultatif. Workfront Planning crée immédiatement un enregistrement lorsqu&#39;une demande est soumise, si le formulaire de demande n&#39;est pas associé à une approbation.
 
 ## Ajouter une approbation à un formulaire de demande
 
-1. Commencez à créer un formulaire de demande pour un type d’enregistrement, comme décrit dans [Créer et gérer un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. Commencez à créer un formulaire de demande pour un type d’enregistrement, comme décrit dans la section [Créer et gérer un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 1. Cliquez sur **Configuration**.
 
    La zone **Configuration** s’affiche.
 
    ![Onglet Configuration](assets/configuration-tab.png)
-1. Dans le **champ Approbateurs** , cliquez sur l’icône déroulante et sélectionnez un ou plusieurs noms dans la liste
+1. Dans le champ **Approbateurs**, cliquez sur l&#39;icône déroulante et sélectionnez un ou plusieurs noms dans la liste
 
    Ou
 
-   Commencez à taper le nom d’un approbateur, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+   Commencez à saisir le nom d’un approbateur, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -151,7 +151,7 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
 
    >[!NOTE]
    >
-   >   L’instance Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et dans l’application.
+   >   L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
 
 
-   Pour plus d’informations sur l’approbation des demandes, voir [Approuver une demande](/help/quicksilver/planning/requests/approve-request.md).
+   Pour plus d’informations sur l’approbation des demandes, voir [ Approuver une demande ](/help/quicksilver/planning/requests/approve-request.md).

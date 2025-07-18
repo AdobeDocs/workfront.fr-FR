@@ -24,7 +24,7 @@ ht-degree: 55%
 
 {{planning-important-intro}}
 
-Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning. Dans Workfront Planning, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les éléments liés au travail nécessaires dans le cycle de vie de votre organisation.
+Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning. Dans Workfront Planning, vous pouvez créer des types d’enregistrements personnalisés qui illustrent les éléments liés au travail nécessaires tout au long du cycle de vie de votre organisation.
 
 Pour plus d’informations sur les types d’enregistrements, voir [Présentation des types d’enregistrements](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
@@ -49,7 +49,7 @@ Pour plus d’informations sur les types d’enregistrements, voir [Présentatio
 <tr> 
    <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
-<p>L’un des plans de front de travail suivants :</p> 
+<p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
 <li>Principal</li> 
 <li>Final</li></ul> 
@@ -72,7 +72,7 @@ Pour plus d’informations sur les types d’enregistrements, voir [Présentatio
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td><p> Standard</p>
-   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
@@ -158,7 +158,7 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
 
    * Remplacez « Type d’enregistrement sans titre » par le nom de votre futur type d’enregistrement. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Description** : ajoutez des informations supplémentaires sur le type d’enregistrement.
-   * Sélectionnez la couleur et la forme de l’icône associée au type d’enregistrement. Procédez comme suit :
+   * Sélectionnez une couleur et une forme pour l’icône associée au type d’enregistrement. Procédez comme suit :
       * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. Le gris est sélectionné par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
@@ -173,11 +173,11 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
 
 1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur **Paramètres avancés** et mettez à jour les informations suivantes dans la section **Fonctionnalité interespace de travail** : <!--the info here is duplicated in the Edit record types article-->
    * Activez le paramètre **Autoriser la connexion à ce type d’enregistrement dans d’autres espaces de travail** : permet aux gestionnaires d’espace de travail de se connecter à ce type d’enregistrement à partir d’autres espaces de travail.\
-     Vous pouvez désigner les espaces de travail à partir desquels ce type d’enregistrement peut être connecté. Vous pouvez le rendre disponible pour tous les espaces de travail ou désigner des espaces spécifiques où vous pouvez l’importer.
-Pour plus d’informations, voir [Configurer les fonctionnalités inter-espace de travail pour les types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) d’enregistrement.
+     Vous pouvez désigner les espaces de travail auxquels ce type d’enregistrement peut être connecté. Vous pouvez le rendre disponible pour tous les espaces de travail ou désigner des espaces de travail spécifiques où vous pouvez l’importer.
+Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 
-   ![Zone Créer un type d’enregistrement sur l’onglet Paramètres avancés](assets/create-record-type-box-advanced-settings-tab.png)
+   ![Boîte Créer un type d’enregistrement dans l’onglet Paramètres avancés](assets/create-record-type-box-advanced-settings-tab.png)
 
    <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
         <div class="preview">
@@ -247,9 +247,9 @@ Vous pouvez importer les éléments suivants lors de l’importation d’informa
 
 * Types d’enregistrements
 * Enregistrements
-* Enregistrer les champs
+* Champs d’enregistrement
 
-Pour plus d’informations, voir [Créer des types d’enregistrements en important des informations à partir d’un fichier](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) CSV ou Excel.
+Pour plus d’informations, voir [Création de types d’enregistrements à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
 <!--
 
