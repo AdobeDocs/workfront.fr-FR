@@ -164,7 +164,7 @@ La page de l’objet s’ouvre dans Workfront.
 1. (Facultatif) Cliquez sur **Afficher toutes les connexions** pour afficher tous les types d’enregistrements connectés, y compris ceux sans enregistrements connectés. Par défaut, les types d’enregistrements sans enregistrements connectés ne s’affichent pas.
 1. Cliquez sur une carte d’enregistrement pour afficher plus d’informations sur l’enregistrement. La zone de prévisualisation des enregistrements s’affiche.
 1. (Facultatif) Commencez à modifier les champs dans la zone d’aperçu de l’enregistrement. Vos modifications sont enregistrées automatiquement.
-1. (Facultatif) Cliquez sur l’icône **** Ouvrir dans un nouvel onglet Ouvrir dans un nouvel onglet![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page de détails de l’enregistrement. La page de détails de l’enregistrement s’ouvre dans Workfront Planning.
+1. (Facultatif) Cliquez sur l’icône **&#x200B;**&#x200B;Ouvrir dans un nouvel onglet Ouvrir dans un nouvel onglet![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page de détails de l’enregistrement. La page de détails de l’enregistrement s’ouvre dans Workfront Planning.
 1. (Facultatif) Passez la souris sur une carte d’enregistrement, puis cliquez sur l’icône Déconnecter l’enregistrement **-**, puis cliquez sur **Déconnecter**.
 Les événements suivants se produisent :
    * L’enregistrement n’est plus connecté à l’objet Workfront.
@@ -265,7 +265,7 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
 
 1. (Facultatif) Cliquez sur le nom d’un enregistrement ou passez la souris sur le nom de l’enregistrement dans la table, puis cliquez sur l’icône Ouvrir **l’enregistrement** Ouvrir l’icône d’enregistrement dans le ![formulaire personnalisé Planification de la connexion dans le champ](assets/open-record-icon-on-planning-connection-custom-form.png) Planification de la connexion pour l’ouvrir dans Workfront Planning.
 La boîte de prévisualisation des détails de l’enregistrement Workfront Planning s’ouvre.
-1. Vérifiez ou modifiez les informations relatives à l’enregistrement, ou cliquez sur l’icône **** Ouvrir dans un nouvel onglet![ Ouvrir l’enregistrement dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page des détails de l’enregistrement.
+1. Vérifiez ou modifiez les informations relatives à l’enregistrement, ou cliquez sur l’icône **&#x200B;**&#x200B;Ouvrir dans un nouvel onglet![ Ouvrir l’enregistrement dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page des détails de l’enregistrement.
 
 1. (Facultatif) Dans le formulaire personnalisé dans Workfront, cliquez sur l’icône **Supprimer** l’icône ![](assets/remove-icon.png) Supprimer d’un enregistrement pour le supprimer du champ Planification de la connexion et le déconnecter de l’objet Workfront.
 L’objet Workfront est déconnecté de l’enregistrement Planning et toutes les informations de recherche de Workfront sont supprimées de l’enregistrement.

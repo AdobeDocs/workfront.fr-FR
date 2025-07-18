@@ -127,7 +127,7 @@ Pour modifier le partage d’un formulaire de demande :
 1. Cliquez sur le **menu**![ Plus](assets/more-menu.png) Plus à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Gérer les formulaires** de demande.
 
    Tous les formulaires de requête associés au type d’enregistrement s’affichent dans une vue Tableau.
-1. Passez la souris sur le nom d’un formulaire de demande, puis cliquez sur le menu Plus Plus à droite de son nom, puis cliquez sur **Partager**.![](assets/more-menu.png) ****
+1. Passez la souris sur le nom d’un formulaire de demande, puis cliquez sur le menu Plus Plus à droite de son nom, puis cliquez sur **Partager**.![](assets/more-menu.png) **&#x200B;**
 1. Mettez à jour les choix de partage en sélectionnant l’une des options suivantes :
 
    * Toute personne disposant d’un accès en affichage ou supérieur à l’espace de travail

@@ -113,7 +113,7 @@ La page Type d’enregistrement s’ouvre et tous les enregistrements de ce type
 
    La boîte de prévisualisation de l’enregistrement s’ouvre.
 
-1. (Facultatif) Cliquez sur l’icône **** Ouvrir dans un nouvel onglet![ Ouvrez les détails dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
+1. (Facultatif) Cliquez sur l’icône **&#x200B;**&#x200B;Ouvrir dans un nouvel onglet![ Ouvrez les détails dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
 
 1. Choisissez l’onglet **Détails** . L’onglet Détails doit s’ouvrir par défaut.
 

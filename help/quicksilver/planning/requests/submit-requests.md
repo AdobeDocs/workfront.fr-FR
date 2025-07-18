@@ -225,7 +225,7 @@ Toutes les demandes auxquelles vous avez accès et qui ont été soumises à un 
       * **État** : état de la demande.
       * **Entré par** : nom de l’utilisateur qui a ajouté la demande. Si la demande a été ajoutée par une personne extérieure à Workfront, le **champ Saisi par** affiche `N/A`.
 
-        Plusieurs filtres peuvent être unis par **And** ou Or ****.
+        Plusieurs filtres peuvent être unis par **And** ou Or **&#x200B;**.
 La liste des requêtes est filtrée automatiquement, à mesure que vous ajoutez les conditions de filtrage.
 
    * Cliquez sur **Colonnes** et masquez, affichez ou réorganisez les colonnes de la liste de requêtes.

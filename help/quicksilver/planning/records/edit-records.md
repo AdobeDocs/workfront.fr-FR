@@ -267,7 +267,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. (Facultatif) Cliquez sur l’icône Exporter dans le menu **Exporter** dans la ![page](assets/export-icon-in-record-details-page.png) des détails de l’enregistrement pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails](/help/quicksilver/planning/records/export-the-record-page.md) d’un enregistrement.
 
-1. (Facultatif) Cliquez sur l’icône **** Ouvrir dans un nouvel onglet![ Ouvrir les détails dans une nouvelle icône](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> d’onglet dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) de cet article.
+1. (Facultatif) Cliquez sur l’icône **&#x200B;**&#x200B;Ouvrir dans un nouvel onglet![ Ouvrir les détails dans une nouvelle icône](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> d’onglet dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) de cet article.
 
 ### Modifier un enregistrement à partir de la page de l’enregistrement
 
@@ -283,7 +283,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Dans n’importe quelle vue, accédez à l’aperçu de l’enregistrement, comme décrit dans la [section Modifier un enregistrement à partir de l’aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view) de cet article, puis cliquez sur l’icône **** Ouvrir dans un nouvel onglet![ Ouvrez les détails dans une nouvelle icône](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> d’onglet dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
+   * Dans n’importe quelle vue, accédez à l’aperçu de l’enregistrement, comme décrit dans la [section Modifier un enregistrement à partir de l’aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view) de cet article, puis cliquez sur l’icône **&#x200B;**&#x200B;Ouvrir dans un nouvel onglet![ Ouvrez les détails dans une nouvelle icône](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> d’onglet dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    * Dans la vue **Tableau**, pointez sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur **Affichage**
 
@@ -315,13 +315,13 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    Pour plus d’informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Facultatif) Passez la souris sur une miniature existante ou sur l’icône **** de ![miniature Icône Enregistrer la miniature sur la page](assets/record-thumbnail-icon-on-details-page.png) de détails, puis cliquez sur le **menu** Plus![ Plus](assets/more-menu.png) > **Modifier la miniature** pour ajouter une miniature à l’enregistrement.
+1. (Facultatif) Passez la souris sur une miniature existante ou sur l’icône **&#x200B;**&#x200B;de ![miniature Icône Enregistrer la miniature sur la page](assets/record-thumbnail-icon-on-details-page.png) de détails, puis cliquez sur le **menu** Plus![ Plus](assets/more-menu.png) > **Modifier la miniature** pour ajouter une miniature à l’enregistrement.
 
    Pour plus d’informations, voir [Ajouter une vignette à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront enregistre automatiquement vos modifications.
 
-1. (Facultatif) Cliquez sur l’icône d’indicateur **** ![en temps réel dans le coin supérieur droit de la page de l’enregistrement, puis activez le ](assets/real-time-indicator-icon.png)paramètre Afficher les **collaborateurs pour mettre en surbrillance les champs modifiés par d’autres en temps réel.**
+1. (Facultatif) Cliquez sur l’icône d’indicateur **&#x200B;**&#x200B;![en temps réel dans le coin supérieur droit de la page de l’enregistrement, puis activez le ](assets/real-time-indicator-icon.png)paramètre Afficher les **collaborateurs pour mettre en surbrillance les champs modifiés par d’autres en temps réel.**
 
    Les noms et avatars de tous les utilisateurs accédant à l’enregistrement en même temps s’affichent dans cette zone.
 
