@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 37%
+source-wordcount: '908'
+ht-degree: 35%
 
 ---
 
@@ -128,6 +128,11 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 
    ![Partager l’interface utilisateur avec des groupes](assets/sharing-ui-with-groups.png)
 
+   >[!NOTE]
+   >
+   >   Outre les équipes, les groupes, les entreprises et les fonctions, vous ne pouvez partager qu’avec des utilisateurs qui ont été ajoutés au Adobe Admin Console. Vous ne pouvez pas ajouter des utilisateurs Workfront uniquement. Pour plus d’informations, voir [Gestion des utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+
+
 1. Sélectionnez l’un des niveaux d’autorisation suivants dans le menu déroulant :
    * Afficher
    * Contribuer
@@ -147,10 +152,8 @@ Les utilisateurs et utilisatrices qui accèdent à un lien vers un espace de tra
 1. (Conditionnel) Si vous êtes le responsable d&#39;un espace de travail, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les zones suivantes :
 
    * Une notification in-app
-
      ![Notification in-app pour la demande d’accès](assets/in-app-notification-for-access-request.png)
    * Notification par e-mail
-
      ![Notification électronique pour la demande d’accès](assets/email-notification-for-access-request.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou
