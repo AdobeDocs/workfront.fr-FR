@@ -4,10 +4,10 @@ description: Vous pouvez activer l’ajout d’un type d’enregistrement à un 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 13%
+source-wordcount: '1006'
+ht-degree: 11%
 
 ---
 
@@ -44,8 +44,6 @@ Pour plus d’informations, consultez l’un des articles suivants :
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -117,7 +115,7 @@ Pour configurer l’ajout d’un type d’enregistrement à un autre espace de t
 
 {{step1-to-planning}}
 
-1. Cliquez sur l’espace de travail dont vous souhaitez modifier les types d’enregistrements,
+1. Cliquez sur l’espace de travail dont vous souhaitez modifier les types d’enregistrements.
 
    La page Workspace s’ouvre et les types d’enregistrements s’affichent.
 1. Utilisez l’une des méthodes suivantes :
@@ -134,11 +132,11 @@ Ou
 
    ![Modifier les paramètres avancés du type d’enregistrement avec Ajouter aux autres espaces de travail active](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. Dans le champ **Sélectionner les personnes pouvant ajouter ce type d’enregistrement aux espaces de travail qu’elles gèrent**, ajoutez les utilisateurs auxquels vous souhaitez ajouter ce type d’enregistrement aux espaces de travail qu’elles gèrent.
+1. Dans le champ **Sélectionner les personnes autorisées à ajouter ce type d’enregistrement aux espaces de travail qu’elles gèrent**, ajoutez les utilisateurs autorisés à ajouter ce type d’enregistrement aux espaces de travail qu’elles gèrent.
 
    Votre nom est automatiquement ajouté au champ.
 
-   Vous pouvez ajouter des utilisateurs individuels, ou des groupes, des équipes, des fonctions ou des sociétés dont vous souhaitez ajouter ce type d’enregistrement aux espaces de travail qu’ils gèrent.
+   Vous pouvez ajouter des utilisateurs individuels, ou des groupes, des équipes, des fonctions ou des sociétés dont vous souhaitez autoriser les utilisateurs à ajouter ce type d’enregistrement aux espaces de travail qu’ils gèrent.
 
    Vous pouvez modifier ce champ après avoir enregistré le type d’enregistrement.
 1. (Facultatif) Supprimez votre nom du champ **Sélectionner qui peut ajouter ce type d’enregistrement aux espaces de travail qu’il gère**.
@@ -148,6 +146,11 @@ Ou
    Les événements suivants se produisent :
 
    * Le type d’enregistrement et ses champs peuvent désormais être ajoutés à un autre espace de travail par les personnes que vous avez désignées.
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez modifier le type d’enregistrement et ses champs qu’à partir de l’espace de travail d’origine.
+
    * La carte de type d’enregistrement affiche une icône globale ![icône de type d’enregistrement global](assets/global-icon.png) pour indiquer que le type d’enregistrement peut être ajouté à n’importe quel espace de travail dont vous avez désigné le responsable dans votre configuration.
    * Un champ **Workspace** généré par le système est ajouté au type d’enregistrement.
 
@@ -155,7 +158,7 @@ Ou
 
      Ce champ est en lecture seule et ne peut pas être supprimé.
 
-## Configuration de la connexion à un type d&#39;enregistrement dans d&#39;autres espaces de travail
+## Configuration de la connexion à un type d&#39;enregistrement à partir d&#39;autres espaces de travail
 
 Vous pouvez configurer un type d’enregistrement auquel se connecter à partir d’autres espaces de travail lorsque vous créez ou modifiez le type d’enregistrement.
 
@@ -175,7 +178,7 @@ Ou
    ![Autres options de menu de la carte de type d’enregistrement](assets/more-menu-options-from-record-type-card.png)
 
 1. Dans la zone **Modifier le type d’enregistrement**, sélectionnez l’onglet **Paramètres avancés**.
-1. Activez le paramètre **Autoriser la connexion à ce type d’enregistrement à partir d’autres espaces de travail**. <!-- check the setting name, this is the suggested UI text to be edited by Lilit and team-->
+1. Activez le paramètre **Autoriser la connexion à ce type d’enregistrement dans d’autres espaces de travail**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![Modifier l’onglet Paramètres avancés de type d’enregistrement avec la connexion depuis d’autres espaces de travail activée](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -191,6 +194,11 @@ Ou
 
    * Le type d’enregistrement et ses champs sont désormais disponibles pour se connecter à partir des espaces de travail que vous avez désignés.
    * La carte de type d’enregistrement affiche une icône de connexion entre espaces de travail ![icône de connexion entre espaces de travail](assets/connect-from-other-workspaces-icon.png) pour indiquer que le type d’enregistrement peut être connecté à partir de n’importe quel espace de travail que vous avez désigné dans votre configuration.
+
+   Le type d’enregistrement peut être connecté à partir des espaces de travail désignés.
+
+
+
 
 
 

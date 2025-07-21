@@ -4,10 +4,10 @@ description: Les types d’enregistrements sont les types d’objets d’Adobe 
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 27%
+source-wordcount: '591'
+ht-degree: 17%
 
 ---
 
@@ -36,8 +36,6 @@ Pour plus d’informations, voir [Configuration des fonctionnalités de plusieur
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -108,6 +106,32 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Enregistrements
    * Connexions d’enregistrement
 
-## Créer un type d’enregistrement à partir d’un type d’enregistrement global existant
+* Vous ne pouvez modifier le type d’enregistrement, y compris ses champs, que dans son espace de travail d’origine. Vous ne pouvez pas le modifier à partir des espaces de travail où il a été ajouté.
 
-1. Commencez à créer un type d’enregistrement, comme décrit dans l’article [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md), puis cliquez sur **Utiliser un type d’enregistrement global**. <!--check this - the option might have been renamed in the UI-->
+## Créer un type d’enregistrement à partir d’un type d’enregistrement existant
+
+1. Commencez à créer un type d’enregistrement, comme décrit dans l’article [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md), puis cliquez sur **Ajouter un existant**. <!--check this - the option might have been renamed in the UI-->
+
+   ![Boîte de dialogue modale pour ajouter un type d’enregistrement avec la possibilité d’importer depuis un autre espace de travail](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+
+1. Cliquez sur **Continuer**.
+1. Dans la zone **Choisir le type d’enregistrement**, cliquez sur la carte correspondant au type d’enregistrement à ajouter à partir d’un espace de travail existant, puis cliquez sur **Ajouter**.
+
+   Le type d’enregistrement est ajouté à l’espace de travail que vous avez sélectionné et les événements suivants se produisent :
+
+   * L’icône **type d’enregistrement entre espaces de travail** ![icône de connexion entre espaces de travail](assets/global-icon.png) est ajoutée à la carte du type d’enregistrement importé.
+   * Le champ en lecture seule **Workspace** est ajouté au type d’enregistrement importé. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
+
+     >[!NOTE]
+     >
+     >* Vous ne pouvez pas modifier le type d&#39;enregistrement importé ou ses champs. Vous pouvez modifier le type d’enregistrement et ses champs à partir de l’espace de travail d’origine.
+
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans la carte du type d’enregistrement importé, ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur **Supprimer**.
+1. (Conditionnel) Saisissez **delete** dans le champ fourni, puis cliquez sur **Supprimer définitivement**.
+
+   Le type d’enregistrement importé est alors supprimé de l’espace de travail sélectionné. Le type d’enregistrement d’origine et ses champs restent dans leur espace de travail d’origine.
+
+   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+
+
+
