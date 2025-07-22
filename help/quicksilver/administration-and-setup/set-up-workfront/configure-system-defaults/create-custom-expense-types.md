@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
+source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 86%
+source-wordcount: '402'
+ht-degree: 67%
 
 ---
 
@@ -72,39 +72,21 @@ Les types de dépenses par défaut dans [!DNL Workfront] qui ne peuvent pas êtr
 
 1. Cliquez sur **[!UICONTROL Types de dépenses]**.
 1. Cliquez sur **[!UICONTROL Nouveau type de dépense]**.
-1. Dans la boîte de dialogue **[!UICONTROL Nouveau type de dépense]**, spécifiez les informations suivantes :
+1. Dans la boîte de dialogue **[!UICONTROL Nouveau type de dépense]**, saisissez les informations suivantes :
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
-      <td>Attribuez un nom à la dépense.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Description]</td> 
-      <td>Indiquez une description de la dépense.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Calculated Unit]</td> 
-      <td> <p>Sélectionnez l’unité de mesure de votre type de dépense dans la liste déroulante.</p> <p>Les unités de mesure disponibles sont les suivantes :</p> 
-       <ul> 
-        <li>Mile</li> 
-        <li>Kilomètre</li> 
-        <li>Kilogramme</li> 
-        <li>Dollar</li> 
-        <li>Dollar</li> 
-        <li>Jour</li> 
-        <li>Autre - Lorsque vous sélectionnez cette option, vous devez nommer votre unité de mesure et la définir comme quelque chose de familier à votre organisation.</li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Taux</td> 
-      <td> <p>Indiquez le prix unitaire. Il s’agit d’un champ au format monétaire qui représente le coût de chaque unité définie dans le champ <strong>[!UICONTROL Calculated Unit]</strong>. </p> <p>Le taux peut contenir une valeur numérique allant jusqu’à 4 chiffres après la virgule. Par exemple, 1,0375.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Nom** - Nom de la dépense.
+   * **Description** - Description de la dépense.
+   * **Unité de calcul** - Sélectionnez l&#39;unité de mesure de votre type de dépense dans la liste déroulante. Les unités de mesure disponibles sont les suivantes :
+
+      * Mile
+      * Kilomètre
+      * Kilogramme
+      * Dollar
+      * Heure
+      * Jour
+      * Autre - Lorsque vous sélectionnez cette option, vous devez nommer votre unité de mesure et la définir comme quelque chose de familier à votre organisation.
+
+   * **Taux** - Prix unitaire. Il s’agit d’un champ au format monétaire qui représente le coût de chaque unité établie dans le champ **Unité calculée**. Le taux peut contenir une valeur numérique allant jusqu’à 4 chiffres après la virgule. Par exemple, 1,0375.
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
@@ -115,7 +97,7 @@ Les types de dépenses par défaut dans [!DNL Workfront] qui ne peuvent pas êtr
 {{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Types de dépenses]**.
-1. Sélectionnez le type de dépense à modifier, puis cliquez sur **[!UICONTROL Modifier]**.
+1. Sélectionnez le type de dépense à modifier, puis cliquez sur l&#39;icône **[!UICONTROL Modifier]** ![Modifier](assets/edit-icon.png).
 
    La boîte de dialogue **[!UICONTROL Modifier le type de dépense]** s&#39;affiche.
 
