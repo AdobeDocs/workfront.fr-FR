@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2299'
 ht-degree: 7%
 
 ---
@@ -206,7 +206,7 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
 1. (Facultatif) Cliquez sur **Aperçu** pour voir comment le formulaire s’affichera pour les autres utilisateurs lorsqu’ils l’utiliseront pour envoyer un nouvel enregistrement.
 
-1. (Facultatif) Cliquez sur l’onglet **Configuration**, puis ajoutez au moins un utilisateur au champ **Approbateurs** pour approuver de nouvelles demandes pour ce formulaire d’enregistrement.
+1. (Facultatif) Cliquez sur l’onglet **Configuration**, puis ajoutez au moins un utilisateur <span class="preview">ou une équipe</span>au champ **Approbateurs** pour approuver de nouvelles demandes pour ce formulaire d’enregistrement.
 
    ![Onglet Configuration](assets/configuration-tab.png)
 
@@ -216,6 +216,7 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
    * Vous pouvez ajouter un ou plusieurs approbateurs à un formulaire de demande.
    * Si au moins un approbateur rejette la demande, celle-ci est rejetée et l&#39;enregistrement n&#39;est pas créé.
    * Tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
+   * <span class="preview">Si une équipe est définie comme approbateur, une seule décision est requise de la part de l’équipe.</span>
 
      Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 

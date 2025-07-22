@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '782'
 ht-degree: 12%
 
 ---
@@ -122,11 +122,11 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
    La zone **Configuration** s’affiche.
 
    ![Onglet Configuration](assets/configuration-tab.png)
-1. Dans le champ **Approbateurs**, cliquez sur l&#39;icône déroulante et sélectionnez un ou plusieurs noms dans la liste
+1. Dans le champ **Approbateurs**, cliquez sur l&#39;icône déroulante et sélectionnez un ou plusieurs utilisateurs <span class="preview">ou équipes</span> dans la liste
 
    Ou
 
-   Commencez à saisir le nom d’un approbateur, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+   Commencez à saisir le nom d’un utilisateur <span class="preview">ou d’une équipe</span> que vous souhaitez définir en tant qu’approbateur, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -140,6 +140,8 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
    >* Si au moins un approbateur rejette la demande, celle-ci est rejetée et l&#39;enregistrement n&#39;est pas créé. La demande reste dans l’onglet Planification de la section Soumis de la zone Demandes de Workfront.
    >
    >* Tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
+   >
+   >* <span class="preview">Si une équipe est définie comme approbateur, une seule décision est requise de la part de l’équipe.</span>
 
 
 1. (Facultatif) Cliquez sur **Publier** si vous n’avez jamais partagé le formulaire de demande auparavant
