@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '3750'
 ht-degree: 39%
@@ -114,6 +114,14 @@ Tenez compte des points suivants :
    * Lorsque les dates de début ou de fin n’ont pas de valeur.
    * Lorsque la date de début est postérieure à la date de fin.
 
+<!--
+<div class="preview">
+
+* You can create and edit records in the timeline view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
+
 Pour gérer une vue chronologique :
 
 1. Accédez à la page du type d’enregistrement pour lequel vous souhaitez consulter la chronologie.
@@ -183,7 +191,11 @@ Pour gérer une vue chronologique :
 
    1. Appuyez sur la touche Entrée de votre clavier pour passer au champ suivant.
    1. (Facultatif) S’il y a plus d’une correspondance, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour accéder à l’ensemble des correspondances dans le tableau.
-   1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer le mot-clé de la recherche.
+   1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer le mot-clé de recherche.
+
+   <!--
+    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+-->
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
