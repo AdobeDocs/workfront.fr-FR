@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
+source-git-commit: 9d5249e5587a4291dc9020d456a320da4cdbb8f1
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2267'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,8 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->&#x200B;>Production pour tous : 10 juillet 2025
+>>Production pour tous : 10 juillet 2025
+>>[!BADGE Hors programme ]{type=Neutral}
 
 
 Nous avons mis à jour l’onglet Paramètres avancés lors de la création ou de la modification d’un type d’enregistrement.
@@ -44,7 +45,8 @@ Pour plus d’informations, voir la section [Créer des types d’enregistrement
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->&#x200B;>Production pour tous : 10 juillet 2025
+>>Production pour tous : 10 juillet 2025
+>>[!BADGE Hors programme ]{type=Neutral}
 
 Désormais, lorsque vous ajoutez une équipe à un commentaire d’enregistrement dans Workfront Planning, tous les membres de l’équipe reçoivent une notification in-app et par e-mail concernant le commentaire. Avant cette amélioration, seuls les utilisateurs ajoutés individuellement aux commentaires étaient avertis .
 
@@ -55,8 +57,8 @@ Pour plus d’informations, voir Gérer les commentaires d’enregistrement [Gé
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Production pour tous : 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Production pour tous : 16 octobre 2025
 
 
 Désormais, lorsque des regroupements sont appliqués à une vue Tableau, l’ajout d’un enregistrement au tableau renseigne automatiquement les champs associés aux regroupements auxquels vous ajoutez l’enregistrement.
@@ -72,7 +74,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 >[!NOTE]
 >
 >Aperçu : 9 juillet 2025
->&#x200B;>Production pour tous : 17 juillet 2025
+>>Production pour tous : 17 juillet 2025
 
 Vous pouvez désormais partager une vue ainsi qu’un type d’enregistrement à partir du même bouton sur la page du type d’enregistrement. Avant cette amélioration, vous pouviez uniquement partager le type d’enregistrement à partir du bouton Partager sur la page du type d’enregistrement et une vue à partir de l’onglet de la vue.
 
@@ -118,7 +120,7 @@ Pour rendre plus sûr et plus simple le partage d’un formulaire de demande dan
 * Nous avons supprimé les options de gestion et de contribution pour les utilisateurs avec lesquels vous partagez le formulaire de demande. Désormais, les utilisateurs ajoutés peuvent uniquement envoyer le formulaire.
 * L’onglet Partage public affiche désormais le lien et le champ de date d’expiration une fois que l’option Créer un lien public a été activée.
 
-Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Développer et réduire tous les regroupements dans la vue Tableau
 
@@ -145,6 +147,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 >
 >* Prévisualisation : vendredi 26 juin 2025
 >* Production pour tous : 26 juin 2025
+>  >[!BADGE Hors programme ]{type=Neutral}
 
 Désormais, lorsque vous connectez des types d’enregistrements et importez un champ de formule en tant que recherche, vous pouvez appliquer les fonctions d’agrégat (SOMME, MOYENNE, MIN, MAX, etc.) en fonction du format du champ de formule. Par exemple, si le champ de formule est numérique, vous pouvez utiliser des fonctions telles que SUM ou AVG ; si le champ de formule est formaté en tant que texte, les fonctions d&#39;agrégat telles que SUM ne s&#39;appliqueront pas.
 
@@ -179,8 +182,8 @@ Pour plus d’informations, voir [Activer des trimestres personnalisés pour les
 >[!NOTE]
 >
 >* Prévisualisation : vendredi 12 juin 2025
->* Version rapide de production : 12 juin 2025
->* Production pour tous les clients : 12 juin 2025
+>* Production pour tous : 12 juin 2025
+>  >[!BADGE Hors programme ]{type=Neutral}
 
 Nous avons introduit une amélioration qui met à jour tous les champs de formule qui dépendent les uns des autres en même temps après la mise à jour manuelle d’un champ référencé. Les champs de formule situés à 2, 3 ou 4 du champ dont la valeur a été modifiée manuellement et qui se référent entre eux seront désormais automatiquement mis à jour en même temps.
 
@@ -193,8 +196,8 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >[!NOTE]
 >
 >* Prévisualisation : samedi 6 juin 2025
->* Version rapide de production : 6 juin 2025
 >* Production pour tous les clients : 6 juin 2025
+>  >[!BADGE Hors programme ]{type=Neutral}
 
 Nous avons ajouté les expressions suivantes aux champs de formule :
 
@@ -238,7 +241,7 @@ Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Plannin
 >
 >* Prévisualisation : vendredi 22 mai 2025
 >* Version rapide de production : 12 juin 2025
->* Production pour tous les clients : 17 juillet 2025
+>* Production pour tous : 17 juillet 2025
 
 Nous avons modifié l’expérience lors de la répartition des enregistrements dans la vue Chronologie et la vue Compacte est maintenant appliquée.
 Avec la nouvelle mise à jour, lorsque vous définissez vos objets de répartition et que vous affichez la chronologie en mode Compact, vous êtes invité à passer à la vue Standard une fois la configuration des conditions de répartition terminée.
@@ -255,7 +258,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 >
 >* Prévisualisation : vendredi 15 mai 2025
 >* Version rapide de production : 12 juin 2025
->* Production pour tous les clients : 17 juillet 2025
+>* Production pour tous : 17 juillet 2025
 
 Vous pouvez maintenant formater l’aspect des barres d’enregistrement dans la vue chronologique pour les enregistrements de la répartition. Vous pouvez mettre à jour les paramètres suivants pour les barres de ces enregistrements :
 
@@ -272,7 +275,7 @@ Pour plus d’informations, voir [Gérer la vue chronologique](/help/quicksilver
 >
 >* Prévisualisation : vendredi 15 mai 2025
 >* Version rapide de production : 12 juin 2025
->* Production pour tous les clients : 17 juillet 2025
+>* Production pour tous : 17 juillet 2025
 
 Nous avons ajouté une nouvelle fonctionnalité à Workfront Planning, qui vous permet d’exporter des informations visibles dans la vue Tableau au format CSV ou Excel.  
 
@@ -290,7 +293,7 @@ Pour plus d&#39;informations, voir [Gérer la vue du tableau](/help/quicksilver/
 >
 >* Prévisualisation : vendredi 15 mai 2025
 >* Version rapide de production : 12 juin 2025
->* Production pour tous les clients : 17 juillet 2025
+>* Production pour tous : 17 juillet 2025
 
 Vous pouvez désormais remplir les valeurs des champs connectés lorsque vous ajoutez des enregistrements à un type d’enregistrement à l’aide d’un fichier CSV ou Excel.  Seuls les champs d&#39;enregistrement Planning connectés sont pris en charge. Les champs affichant des connexions à d&#39;autres applications ne sont pas pris en charge.
 
@@ -310,7 +313,7 @@ Pour plus d’informations, voir les articles suivants :
 >
 >* Aperçu : 30 avril 2025
 >* Version rapide de production : 15 mai 2025
->* Production pour tous les clients : 17 juillet 2025
+>* Production pour tous : 17 juillet 2025
 
 Vous pouvez désormais modifier des enregistrements dans la page Enregistrements connectés d’un enregistrement. Avec cette mise à jour, nous avons introduit les éléments suivants :
 
@@ -327,7 +330,7 @@ Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/h
 >
 >* Aperçu : 30 avril 2025
 >* Version rapide de production : 15 mai 2025
->* Production pour tous les clients : 17 juillet 2025
+>* Production pour tous : 17 juillet 2025
 
 Les utilisateurs de Standard et de System Administrator peuvent désormais trouver la zone Planning dans le menu principal par défaut, sans être affectés à un modèle de mise en page qui l&#39;inclut. Pour y accéder, tous les autres utilisateurs doivent disposer d&#39;un modèle de mise en page qui inclut la zone Planning qui leur est affectée.
 
@@ -336,7 +339,7 @@ Avant cette amélioration, les utilisateurs de tous les niveaux de licence devai
 >[!NOTE]
 >
 >Cette modification sera visible pour tous les utilisateurs nouveaux et existants disposant d’une licence d’administrateur système et standard.
->&#x200B;>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
+>>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
 
 Pour plus d’informations, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -346,7 +349,7 @@ Pour plus d’informations, consultez [Présentation d’Adobe Workfront Plannin
 >
 >* Aperçu : 30 avril 2025
 >* Version rapide de production : 15 mai 2025
->* Production pour tous les clients : 17 juillet 2025
+>* Production pour tous : 17 juillet 2025
 
 Pour une meilleure visibilité des informations importantes de vos enregistrements, nous avons introduit une mise en forme des couleurs au niveau des lignes pour la vue Tableau. Vous pouvez désormais choisir une couleur pour chaque ligne après avoir défini des conditions pour chaque choix.  Il s’agit d’une nouvelle fonctionnalité qui n’existait pas avant cette mise à jour.
 
@@ -358,7 +361,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 >
 >* Aperçu : 23 avril 2025
 >* Version rapide de production : 15 mai 2025
->* Production pour tous les clients : 17 juillet 2025
+>* Production pour tous : 17 juillet 2025
 
 Vous pouvez désormais activer un paramètre dans l’onglet Style de barre de la zone Paramètres d’une vue chronologique pour tronquer les noms d’enregistrement plus longs lors de leur affichage en vue standard. Le paramètre est désactivé par défaut et ne peut être activé que lorsque vous affichez la vue chronologique en mode Standard. Lorsque ce paramètre est désactivé, les informations des barres d’enregistrement sont développées par défaut. Avant cette amélioration, les informations sur les barres d’enregistrement étaient tronquées par défaut.
 
@@ -366,12 +369,11 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 ## Autorisations de partage pour les types d’enregistrements
 
-
 >[!NOTE]
 >
 >* Aperçu : 17 avril 2025
 >* Version rapide de production : 17 juillet 2025
->* Production pour tous les clients : 17 juillet 2025
+>* Production pour tous : 17 juillet 2025
 
 Pour mieux contrôler qui peut consulter ou gérer les enregistrements dans chaque type d&#39;enregistrement et s&#39;assurer que seules des personnes autorisées peuvent gérer les informations de chaque type d&#39;enregistrement en fonction de leurs rôles et responsabilités, nous avons introduit des autorisations au niveau du type d&#39;enregistrement.
 

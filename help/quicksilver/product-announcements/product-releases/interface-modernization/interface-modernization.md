@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6b93cca4a434885e39cddcb4a01a8d753609b220
+source-git-commit: b2fdf8d54adacfa4ab2d665767f2265fdd23da4f
 workflow-type: tm+mt
-source-wordcount: '5280'
+source-wordcount: '5276'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,6 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
-
 
 ### Mises à jour de l’interface pour la page Modèles de disposition
 
@@ -248,7 +247,7 @@ La nouvelle expérience est disponible lors de la création ou de la modificatio
 
 ### Mises à jour de l’interface pour la section Projets associés d’un projet (disponible uniquement pour des clients spécifiques)
 
-**Version préliminaire : 12 juin 2025 ; Version de production : à annoncer**
+**Version préliminaire : 12 juin 2025 ; Version de production : 19 juin 2025**
 
 Nous avons mis à jour la section Projets associés d’un projet avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -256,7 +255,7 @@ Des clients spécifiques peuvent afficher cette modification en accédant à la 
 
 ### Nouvelle apparence de la zone « Enregistrer en tant que modèle »
 
-**Version préliminaire : 12 juin 2025 ; Version de production : à annoncer**
+**Version préliminaire : 12 juin 2025 ; Version de production : 19 juin 2025**
 
 Nous avons mis à jour l’aspect de la zone « Enregistrer en tant que modèle » qui s’affiche lors de l’enregistrement d’un projet en tant que modèle. La nouvelle conception comprend une interface rationalisée, où toutes les sections s’affichent dans un formulaire cohérent que vous pouvez parcourir à l’aide de liens dans le panneau de gauche. La nouvelle conception correspond à d’autres zones et d’autres objets de l’application.
 
