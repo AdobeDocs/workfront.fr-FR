@@ -27,8 +27,8 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->>Production pour tous : 10 juillet 2025
->>[!BADGE Hors programme ]{type=Neutral}
+>&#x200B;>Production pour tous : 10 juillet 2025
+>&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 
 Nous avons mis à jour l’onglet Paramètres avancés lors de la création ou de la modification d’un type d’enregistrement.
@@ -45,8 +45,8 @@ Pour plus d’informations, voir la section [Créer des types d’enregistrement
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->>Production pour tous : 10 juillet 2025
->>[!BADGE Hors programme ]{type=Neutral}
+>&#x200B;>Production pour tous : 10 juillet 2025
+>&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 Désormais, lorsque vous ajoutez une équipe à un commentaire d’enregistrement dans Workfront Planning, tous les membres de l’équipe reçoivent une notification in-app et par e-mail concernant le commentaire. Avant cette amélioration, seuls les utilisateurs ajoutés individuellement aux commentaires étaient avertis .
 
@@ -57,8 +57,8 @@ Pour plus d’informations, voir Gérer les commentaires d’enregistrement [Gé
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->>Version rapide de production : 14 août 2025
->>Production pour tous : 16 octobre 2025
+>&#x200B;>Version rapide de production : 14 août 2025
+>&#x200B;>Production pour tous : 16 octobre 2025
 
 
 Désormais, lorsque des regroupements sont appliqués à une vue Tableau, l’ajout d’un enregistrement au tableau renseigne automatiquement les champs associés aux regroupements auxquels vous ajoutez l’enregistrement.
@@ -74,7 +74,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 >[!NOTE]
 >
 >Aperçu : 9 juillet 2025
->>Production pour tous : 17 juillet 2025
+>&#x200B;>Production pour tous : 17 juillet 2025
 
 Vous pouvez désormais partager une vue ainsi qu’un type d’enregistrement à partir du même bouton sur la page du type d’enregistrement. Avant cette amélioration, vous pouviez uniquement partager le type d’enregistrement à partir du bouton Partager sur la page du type d’enregistrement et une vue à partir de l’onglet de la vue.
 
@@ -147,7 +147,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 >
 >* Prévisualisation : vendredi 26 juin 2025
 >* Production pour tous : 26 juin 2025
->  >[!BADGE Hors programme ]{type=Neutral}
+>  &#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 Désormais, lorsque vous connectez des types d’enregistrements et importez un champ de formule en tant que recherche, vous pouvez appliquer les fonctions d’agrégat (SOMME, MOYENNE, MIN, MAX, etc.) en fonction du format du champ de formule. Par exemple, si le champ de formule est numérique, vous pouvez utiliser des fonctions telles que SUM ou AVG ; si le champ de formule est formaté en tant que texte, les fonctions d&#39;agrégat telles que SUM ne s&#39;appliqueront pas.
 
@@ -183,7 +183,7 @@ Pour plus d’informations, voir [Activer des trimestres personnalisés pour les
 >
 >* Prévisualisation : vendredi 12 juin 2025
 >* Production pour tous : 12 juin 2025
->  >[!BADGE Hors programme ]{type=Neutral}
+>  &#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 Nous avons introduit une amélioration qui met à jour tous les champs de formule qui dépendent les uns des autres en même temps après la mise à jour manuelle d’un champ référencé. Les champs de formule situés à 2, 3 ou 4 du champ dont la valeur a été modifiée manuellement et qui se référent entre eux seront désormais automatiquement mis à jour en même temps.
 
@@ -197,7 +197,7 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >
 >* Prévisualisation : samedi 6 juin 2025
 >* Production pour tous les clients : 6 juin 2025
->  >[!BADGE Hors programme ]{type=Neutral}
+>  &#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 Nous avons ajouté les expressions suivantes aux champs de formule :
 
@@ -339,7 +339,7 @@ Avant cette amélioration, les utilisateurs de tous les niveaux de licence devai
 >[!NOTE]
 >
 >Cette modification sera visible pour tous les utilisateurs nouveaux et existants disposant d’une licence d’administrateur système et standard.
->>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
+>&#x200B;>Les utilisateurs et utilisatrices existants affectés à un modèle de mise en page continueront à tout voir en fonction des paramètres définis dans le modèle de mise en page.
 
 Pour plus d’informations, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
