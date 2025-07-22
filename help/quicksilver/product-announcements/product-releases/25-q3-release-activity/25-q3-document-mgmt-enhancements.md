@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
+source-git-commit: 9948927b4f61e0bafd815951bfaede0da064ef91
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '652'
 ht-degree: 6%
 
 ---
@@ -134,6 +134,6 @@ Les nouveaux boutons de décision d’approbation du document apparaissent déso
 
 Auparavant, vous deviez quitter la visionneuse de relecture pour prendre une décision.
 
-Les approbations créées avant cette version n’afficheront pas les boutons dans le lecteur de relecture.
+Les approbations créées avant cette version n’afficheront pas les boutons dans le lecteur de vérification.
 
 Pour plus d&#39;informations, voir [Utilisation conjointe des approbations et des relectures de nouveaux documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
