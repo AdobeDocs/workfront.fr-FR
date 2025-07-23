@@ -7,10 +7,10 @@ description: Les heures que vous enregistrez pour vos tâches dans Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 40%
+source-wordcount: '1178'
+ht-degree: 32%
 
 ---
 
@@ -79,6 +79,7 @@ En fonction de la zone du Workfront à partir de laquelle vous accédez aux heur
 * Dans la zone Détails du projet, de la tâche ou de l’événement :
 
    * **Heures réelles** : heures enregistrées pour des projets, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
+   * **Heures réelles** : lorsqu’elles sont accessibles à l’aide d’un champ personnalisé de référence de champ natif dans un formulaire personnalisé de projet, de tâche ou d’événement.
 
 ## Heures effectives sur les tâches et les problèmes ou heures effectives sur les projets
 
@@ -111,34 +112,40 @@ Pour localiser les heures effectives dans les détails de la tâche, procédez c
 1. Accédez à une tâche pour laquelle vous souhaitez consulter les heures effectives.
 1. Dans le panneau de gauche, cliquez sur **Détails de la tâche**. La section **Aperçu** s’affiche.
 1. Recherchez la valeur **Heures réelles** dans la section **Temps de travail**. Il s’agit du nombre total d’heures consignées sur cette tâche.
+1. (Facultatif et conditionnel) Si la référence native du champ Heures réelles a été ajoutée à un formulaire personnalisé de projet, de tâche ou de problème, accédez au formulaire personnalisé et recherchez les Heures réelles dans le champ personnalisé. Il s’agit du nombre total d’heures enregistrées pour l’objet.
 
 ### Heures effectives dans la section Heures {#actual-hours-in-the-hours-section}
 
 La recherche d’heures effectives dans la section Heures est identique pour les projets, les tâches et les problèmes.
 
-Pour localiser les heures effectives dans la section Heures :
+Pour localiser les heures effectives dans la section Heures d&#39;une tâche :
 
 1. Accédez à une tâche pour laquelle vous souhaitez consulter les heures effectives.
 
 1. Dans le panneau de gauche, cliquez sur **Heures**. Une liste des entrées d’heures consignées dans la tâche s’affiche, avec la colonne **Heures** indiquant le nombre total d’heures effectives de la tâche.
 
 1. Assurez-vous que la vue **Standard** et le regroupement **Projet** sont appliqués à cette liste.
+1. Les heures réelles de la tâche s&#39;affichent dans la ligne de regroupement de la colonne **Heures réelles**.
 
-### Heures effectives dans les rapports {#actual-hours-in-reports}
+### Heures réelles et heures réelles héritées dans les rapports
 
-Lors de la création de rapports sur les tâches, problèmes ou projets, vous pouvez afficher la valeur Heures effectives pour chaque tâche, problème ou projet dans le rapport.
+Lors de la création de rapports sur des tâches, des événements ou des projets, vous pouvez afficher les valeurs des heures effectives et des heures effectives héritées pour chaque tâche, événement ou projet du rapport.
 
-Pour afficher les heures effectives dans un rapport de tâche, procédez comme suit :
+Pour plus d&#39;informations sur la différence entre les heures effectives et les heures effectives héritées, voir la section [Heures effectives par rapport aux heures effectives héritées](#actual-hours-vs-legacy-actual-hours) dans cet article.
+
+Pour afficher les heures effectives et les heures effectives héritées dans un rapport de tâche :
 
 {{step1-to-reports}}
 
 1. Sur la page **Rapports**, cliquez sur **Nouveau rapport**, puis choisissez **Tâche** comme objet.
 1. Dans l’angle inférieur droit de la page, cliquez sur **Ajouter une colonne**.
-1. Dans le champ déroulant **Afficher dans cette colonne** qui s’affiche, commencez à saisir **Heures réelles**, puis sélectionnez le champ lorsqu’il apparaît dans la liste.
+1. Dans le champ déroulant **Afficher dans cette colonne**, commencez à saisir **Heures réelles**, puis sélectionnez le champ lorsqu’il apparaît dans la liste.
+1. Répétez l’étape ci-dessus pour ajouter le champ **Anciennes heures effectives** au rapport.
 
 1. Dans le coin inférieur gauche de la page, cliquez sur **Enregistrer + Fermer** pour enregistrer le rapport.
 
 1. Dans la boîte de dialogue **Nommer ce rapport pour l’enregistrer**, saisissez un nouveau nom de rapport, puis cliquez sur **Appliquer**.
+1. Répétez les mêmes étapes pour un rapport de projet ou de problème.
 
 ### Heures effectives dans les outils de gestion des ressources {#actual-hours-in-resource-management-tools}
 

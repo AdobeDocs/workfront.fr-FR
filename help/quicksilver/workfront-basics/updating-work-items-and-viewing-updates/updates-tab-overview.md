@@ -7,10 +7,10 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 79%
+source-wordcount: '1196'
+ht-degree: 71%
 
 ---
 
@@ -299,24 +299,33 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
 
 Il existe certaines limites dans la section Mises à jour d’une équipe et lors de la saisie de mises à jour pour le compte d’autres utilisateurs ou utilisatrices.
 
-### Limites pour les utilisateurs et utilisatrices et les équipes
+### Considérations relatives aux utilisateurs et aux équipes
 
 Tenez compte des points suivants lors de l’affichage des mises à jour pour les utilisateurs et utilisatrices et les équipes :
 
 * Vous ne pouvez pas ajouter de nouveaux commentaires dans la section Mises à jour d’une équipe.
 
-* La section Mises à jour pour les équipes est renseignée par les mises à jour entrées sur les objets suivants :
+* Vous pouvez ajouter une réponse à une mise à jour que vous avez consultée dans une équipe. La réponse s’affiche dans la section Mises à jour de l’équipe ainsi que dans la section Mises à jour de l’objet auquel elle appartient.
+
+* Dans la section Mises à jour pour les utilisateurs et utilisatrices et les équipes, vous pouvez afficher les mises à jour qui ont été saisies au cours des 90 derniers jours.
+
+  Si vous souhaitez afficher toutes les mises à jour effectuées sur un utilisateur ou une utilisatrice ou une équipe, au-delà de la limite de 90 jours, vous pouvez créer un rapport pour les notes. Le rapport ne doit pas comporter de filtre d’heure qui affiche toutes les mises à jour effectuées pour les utilisateurs ou utilisatrices ou les équipes. Pour plus d’informations, consultez la section [Créer un rapport personnalisé](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+* La section Mises à jour pour les équipes est renseignée par des commentaires ajoutés aux objets suivants :
 
    * Utilisateurs
    * Histoires
    * Feuilles de temps
    * Itérations
 
-* Vous pouvez ajouter une réponse à une mise à jour que vous affichez sur une équipe. La réponse s’affiche dans la section Mises à jour de l’équipe ainsi que dans la section Mises à jour de l’objet auquel elle appartient.
+* L’onglet Mises à jour système de la zone Mises à jour pour les utilisateurs est renseigné par les mises à jour d’autres objets. Voici des mises à jour qui s’affichent dans l’onglet Mises à jour système du profil de l’utilisateur, lorsque ces champs sont suivis dans la zone Flux de mises à jour de la configuration :
 
-* Dans la section Mises à jour pour les utilisateurs et utilisatrices et les équipes, vous pouvez afficher les mises à jour qui ont été saisies au cours des 90 derniers jours.
-
-  Si vous souhaitez afficher toutes les mises à jour effectuées sur un utilisateur ou une utilisatrice ou une équipe, au-delà de la limite de 90 jours, vous pouvez créer un rapport pour les notes. Le rapport ne doit pas comporter de filtre d’heure qui affiche toutes les mises à jour effectuées pour les utilisateurs ou utilisatrices ou les équipes. Pour plus d’informations, consultez la section [Créer un rapport personnalisé](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   * Ajout, suppression et autres mises à jour de documents
+   * Ajout, suppression, ajout au nom de et autres mises à jour de saisie d&#39;heures
+   * Notes, mises à jour des champs personnalisés
+   * Mises à jour du profil utilisateur (mises à jour de l’avatar de l’utilisateur, du numéro de mobile, du champ « Me parler » et du titre)
+   * Ajout utilisateur, suppression, modification du niveau d&#39;accès, modifications des champs utilisateur intégrés
+   * Informations financières des tâches et projets.
 
 ### Limites lors de la saisie de commentaires au nom d’un autre utilisateur ou d’une autre utilisatrice
 
