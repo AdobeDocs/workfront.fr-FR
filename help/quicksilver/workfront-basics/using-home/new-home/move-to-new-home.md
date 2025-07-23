@@ -270,7 +270,7 @@ Si vous effectuez cette opération dès que possible, vos utilisateurs auront le
 
 **Formation**
 
-* [Tutoriel sur la suppression, l’ajout et la réorganisation des widgets dans l’Accueil](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Tutoriel sur la suppression, l’ajout et la réorganisation des widgets dans l’Accueil](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Principes fondamentaux des programmes de travail dans Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
