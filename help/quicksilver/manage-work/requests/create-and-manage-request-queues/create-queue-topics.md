@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
+source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 96%
+source-wordcount: '957'
+ht-degree: 84%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 96%
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
+
 Les rubriques de file d’attente fonctionnent conjointement avec les règles de transmission pour affecter automatiquement le travail entrant à une personne, une fonction, une équipe ou pour le placer sur un projet. Les rubriques de la file d’attente définissent les conditions nécessaires à la mise en œuvre de la règle de transmission.
 
 Le nombre de rubriques de file d’attente pouvant être affectées à un groupe de rubriques ou à un projet n’est pas limité. Les rubriques de file d’attente sont un type d’objet sur lequel un rapport peut être créé.
 
-Une fois créées, vous ne pouvez pas déplacer les rubriques de file d’attente d’un projet à un autre.
+Vous pouvez créer des rubriques de file d&#39;attente pour des projets individuels ou pour des modèles de projet.
+
+Une fois créées, vous ne pouvez pas déplacer les rubriques de file d’attente d’un projet ou modèle à un autre.
 
 ## Conditions d’accès
 
@@ -97,7 +101,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    * [Créer des groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. Accédez au projet que vous avez choisi d’activer en tant que file d’attente des demandes d’aide et où vous souhaitez créer une rubrique de file d’attente.\
+1. Accédez au projet ou au modèle que vous avez choisi d’activer en tant que file d’attente des demandes d’aide et à l’emplacement où vous souhaitez créer une nouvelle rubrique de file d’attente.\
    Pour plus d’informations sur la désignation d’un projet comme file d’attente des demandes d’aide, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Vous pouvez organiser les rubriques de file d’attente associées sous un groupe de rubriques. La personne à l’origine de la demande disposera ainsi d’une série de menus déroulants lors d’une demande.
@@ -171,3 +175,13 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquer sur **Enregistrer**.\
    La rubrique de file d’attente est désormais disponible et visible dans la zone Demandes de Workfront, après la sélection d’une file d’attente de demandes et d’un groupe de rubriques.
+
+## Modifier une rubrique de file d&#39;attente
+
+Pour modifier une rubrique de file d&#39;attente existante :
+
+1. Accédez au projet ou au modèle contenant la rubrique de file d&#39;attente à modifier.
+1. Cliquez sur **Rubriques de file d’attente** dans le panneau de gauche.
+1. Dans l’environnement de production, sélectionnez la rubrique de file d’attente que vous souhaitez modifier. Sur la page Détails qui s&#39;ouvre, cliquez sur **Modifier rubrique de file d&#39;attente**.
+1. <span class="preview">Dans l’environnement Aperçu, sélectionnez la rubrique de file d’attente à modifier, puis cliquez sur l’icône Modifier ![icône Modifier](assets/edit-icon.png).</span>
+
