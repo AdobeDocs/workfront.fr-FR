@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: c87f97f3b84e9e3261213f566fb52fe378b12baa
+source-git-commit: 2844a16a8a0c8a7064a6ac9a0751065386d826e2
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 7%
+source-wordcount: '606'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,69 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Créer des enregistrements dans la vue chronologique
+
+>[!NOTE]
+>
+>Aperçu : 24 juillet 2025
+>>Version rapide de production : 14 août 2025
+>>Production pour tous : 16 octobre 2025
+
+Vous pouvez désormais créer des enregistrements dans la vue chronologique d’un type d’enregistrement en double-cliquant n’importe où sur la chronologie.
+
+Vous pouvez sélectionner la période de votre enregistrement ou ouvrir la page de l’enregistrement pour modifier tous ses détails.
+
+Avant cette amélioration, vous ne pouviez ajouter de nouveaux enregistrements qu’à l’aide du bouton Nouvel enregistrement ou sur la ligne en mode Tableau.
+
+Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+
+## Ajout de l’option Partager dans le menu Plus d’une carte de type enregistrement
+
+>[!NOTE]
+>
+>Aperçu : 24 juillet 2025
+>>Version rapide de production : 14 août 2025
+>>Production pour tous : 16 octobre 2025
+
+Vous pouvez désormais partager un type d’enregistrement à partir du menu Plus de la carte de type d’enregistrement de la page de l’espace de travail. Avant cette amélioration, l’option Partager n’était disponible que dans la page du type d’enregistrement.
+
+Pour plus d’informations, voir [Partager les types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
+
+## Afficher toutes les vues Workfront Planning en mode plein écran
+
+>[!NOTE]
+>
+>Aperçu : 24 juillet 2025
+>>Version rapide de production : 14 août 2025
+>>Production pour tous : 16 octobre 2025
+
+Vous pouvez désormais afficher toutes les vues Planification de Workfront (tableau, chronologie et calendrier) en mode plein écran. La fonctionnalité d’affichage est conservée et vous pouvez également modifier l’affichage en plein écran.
+
+Avant cette amélioration, cette fonctionnalité n’existait pas.
+
+Pour plus d’informations, consultez la section [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+
 ## Ajout d&#39;équipes en tant qu&#39;approbateurs sur les formulaires de demande Planning
 
 >[!NOTE]
 >
 >Aperçu : 22 juillet 2025
->&#x200B;>Production pour la version rapide : vendredi 14 août 2025
->&#x200B;>Production pour tous : 16 octobre 2025
+>>Production pour la version rapide : vendredi 14 août 2025
+>>Production pour tous : 16 octobre 2025
+
+Pour rendre le processus d&#39;approbation plus flexible, nous avons ajouté la possibilité d&#39;ajouter des équipes en tant qu&#39;approbateurs sur les formulaires de demande Planning. Vous pouvez désormais saisir et sélectionner des noms d’équipe lors de la définition des approbateurs. N’importe quel membre de l’équipe peut prendre une décision, qui compte comme la décision d’approbation de l’ensemble de l’équipe.
+
+Auparavant, seuls des utilisateurs individuels pouvaient être affectés en tant qu’approbateurs.
+
+Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+## Ajout d&#39;équipes en tant qu&#39;approbateurs sur les formulaires de demande Planning
+
+>[!NOTE]
+>
+>Aperçu : 22 juillet 2025
+>>Production pour la version rapide : vendredi 14 août 2025
+>>Production pour tous : 16 octobre 2025
 
 Pour rendre le processus d&#39;approbation plus flexible, nous avons ajouté la possibilité d&#39;ajouter des équipes en tant qu&#39;approbateurs sur les formulaires de demande Planning. Vous pouvez désormais saisir et sélectionner des noms d’équipe lors de la définition des approbateurs. N’importe quel membre de l’équipe peut prendre une décision, qui compte comme la décision d’approbation de l’ensemble de l’équipe.
 
@@ -41,8 +97,8 @@ Pour plus d’informations, voir [Ajouter une approbation à un formulaire de de
 >[!NOTE]
 >
 >Aperçu : 17 juillet 2025
->&#x200B;>Production pour la version rapide : vendredi 14 août 2025
->&#x200B;>Production pour tous : 16 octobre 2025
+>>Production pour la version rapide : vendredi 14 août 2025
+>>Production pour tous : 16 octobre 2025
 
 
 Les champs suivants sont introduits afin de capturer les informations d&#39;approbation des enregistrements créés lors de l&#39;envoi d&#39;une demande avec approbation :
@@ -58,8 +114,8 @@ Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/plan
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Production pour tous : 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Production pour tous : 16 octobre 2025
 
 
 Désormais, lorsque des regroupements sont appliqués à une vue Tableau, l’ajout d’un enregistrement au tableau renseigne automatiquement les champs associés aux regroupements auxquels vous ajoutez l’enregistrement.
@@ -69,16 +125,3 @@ Si plusieurs regroupements sont appliqués, le système ne renseigne automatique
 Avant cette amélioration, vous deviez mettre à jour manuellement les champs associés aux regroupements.
 
 Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-
-<!--## Add teams as approvers on Planning request forms
-
->[!NOTE]
->
->* Preview: July 9, 2025 
->* Production for everyone: October 16, 20025 
-
-To make the approval process more flexible, we've added the ability to add teams as approvers on Planning request forms. Now, you can enter and select team names when setting approvers. Any of the team members can make a decision, which counts as the approval decision for the entire team.
-
-Previously, only individual users could be assigned as approvers. 
-
-For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->

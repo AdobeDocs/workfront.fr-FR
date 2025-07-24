@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 308d6e1dba361c5297c741dea71b11fe6100e871
+source-git-commit: b2ccda2b61b862c29f67b04d8598bb4204a33c99
 workflow-type: tm+mt
-source-wordcount: '13265'
+source-wordcount: '13271'
 ht-degree: 86%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 86%
       * [Préparation pour une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Version Du T4 2025 {#release-25-q4}
          * [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
+         * [Améliorations de la gestion des ressources pour le quatrième trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
          * [Mises à jour de l’aspect pendant la période de publication du 4e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Version Du T3 2025 {#release-25-q3}
          * [Vue d’ensemble de la version du 3e trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -207,7 +208,6 @@ ht-degree: 86%
          * [21.1 Autres améliorations](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Activité de version Adobe Workfront Planning{#planning-release-activity}
          * [Activité de version d’Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [Activité de la version du quatrième trimestre 2025 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Activité de mise à jour du troisième trimestre 2025 pour Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Activité de mise à jour du deuxième trimestre 2025 pour Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
