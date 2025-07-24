@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '2388'
-ht-degree: 20%
+source-wordcount: '2798'
+ht-degree: 18%
 
 ---
 
 
 # Créer des enregistrements
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -26,18 +26,21 @@ Dans Adobe Workfront Planning, un enregistrement est une instance d’un type 
 
 Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
-* [Créez des enregistrements à l’aide du bouton Nouvel enregistrement ou Demander un enregistrement depuis n’importe quelle vue de type d’enregistrement](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
-* [Créez des enregistrements en les ajoutant sur la ligne à partir de la vue de tableau de type d’enregistrement](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* [Utilisez le bouton Nouvel enregistrement ou Demander un enregistrement depuis n&#39;importe quelle vue de type d&#39;enregistrement](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Ajoutez-les en ligne à partir de la vue de tableau du type d’enregistrement](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 
-<!--
-* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+<div class="preview">
+
+* [Ajoutez-les dans la vue chronologique du type d’enregistrement.](#create-records-by-adding-them-in-the-record-type-timeline-view)
+
+</div>
 
 * [Copier-coller une liste d&#39;enregistrements depuis une liste externe](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Dupliquer les enregistrements depuis une vue Tableau](#create-records-by-duplicating-them)
-* [Créer des enregistrements au fur et à mesure que vous les connectez à partir d’autres enregistrements](#create-records-as-you-connect-them)
-* [Créer des enregistrements en soumettant un formulaire de demande à un type d’enregistrement](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Créer des enregistrements en important des informations depuis un fichier CSV ou Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
-* [Création d’enregistrements à l’aide d’automatisations](#create-records-by-using-automations)
+* [Les connecter à partir d&#39;autres enregistrements](#create-records-as-you-connect-them)
+* [Envoyer un formulaire de demande à un type d’enregistrement](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Importer des informations depuis un fichier CSV ou Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Utiliser les automatisations](#create-records-by-using-automations)
 
 Pour plus d’informations sur la gestion des enregistrements dans les vues « Tableau » ou « Chronologie », consultez les articles suivants :
 
@@ -245,7 +248,7 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    >[!NOTE]
    >
-   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 
@@ -270,64 +273,64 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
    * Ctrl + Z (⌘ + Z pour Mac) pour annuler une modification
    * Ctrl+Maj+Z (⌘+Maj+Z pour Mac) pour rétablir une modification
 
-<!--<div class="preview">
+<div class="preview">
 
-## Create records by adding them in the record type timeline view
+## Créer des enregistrements en les ajoutant dans la vue chronologique du type d&#39;enregistrement
 
-You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+Vous pouvez créer des enregistrements dans la vue chronologique d’une page de type d’enregistrement, en double-cliquant dans la chronologie.
 
-For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Pour plus d’informations sur la création d’une vue chronologique, voir [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez ajouter des enregistrements.
 
-1. Click a record type card. 
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
 
-    The record type page opens in the view that you last accessed. 
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
-1. Click to open a timeline view, or create a timeline view, first. 
+   La page de type d’enregistrement s’ouvre dans la vue à laquelle vous avez accédé pour la dernière fois.
 
-    >[!NOTE]
-    >
-    >You can create a timeline view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere in the timeline. 
+1. Cliquez pour ouvrir une vue chronologique ou pour créer d’abord une vue chronologique.
 
-    A new record box opens. 
+   >[!NOTE]
+   >
+   >Vous ne pouvez créer une vue chronologique que s’il existe au moins deux champs de date associés au type d’enregistrement.
+1. Double-cliquez n’importe où dans le journal.
 
-    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
-1. Update the following information:
+   Une nouvelle zone d’enregistrement s’ouvre. <!--might need a new screen shot for Production - might add a title etc-->
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+   ![Nouvelle zone d’enregistrement dans la chronologie avec une barre d’enregistrement sans nom](assets/new-record-small-box-on-timeline.png)
+1. Mettez à jour les informations suivantes :
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+   * **Nom** : saisissez le nom de l’enregistrement. Si vous le laissez vide, Workfront le nomme **Sans titre** par défaut. Le nom ne sera pas visible dans la barre d’enregistrement s’il est vide.
+   * **Champs de date d’enregistrement** : mettez à jour les dates de l’enregistrement.
 
-        * By **Year**: The record start and end dates span a month.
-        * By **Quarter**: The record start and end dates span a week. 
-        * By **Month**: The record start and end dates span three days.
+     Les noms des champs de date sont personnalisés en fonction des champs sélectionnés pour les dates de début et de fin au moment de la création de la vue chronologique.
 
-1. (Optional) Click one of the following icons: 
+     Par défaut, les valeurs de date sont présélectionnées en fonction de la manière dont vous affichez la vue chronologique. Les scénarios suivants sont possibles :
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+      * Par **Année** : les dates de début et de fin des enregistrements s’étendent sur un mois.
+      * Par **trimestre** : les dates de début et de fin d’enregistrement s’étendent sur une semaine.
+      * Par **mois** : les dates de début et de fin des enregistrements s’étendent sur trois jours.
 
-    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+1. (Facultatif) Cliquez sur l’une des icônes suivantes :
 
-1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+   * **Développer** ![Icône Développer](assets/expand-icon.png) pour ouvrir les détails de l’enregistrement dans la fenêtre d’aperçu.
+   * **Icône Supprimer** ![Supprimer](assets/delete-icon.png) pour supprimer l’enregistrement.
+   * **Fermer** ![icône Fermer](assets/close-icon.png) pour fermer la nouvelle zone d’enregistrement.
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+   L’enregistrement est immédiatement ajouté à la chronologie, ainsi qu’aux vues Tableau et Calendrier, sauf si vous avez cliqué sur l’icône **Supprimer**.
 
-</div>-->
+1. (Facultatif) Cliquez sur la barre d&#39;enregistrement de la chronologie pour ouvrir la fenêtre de détails de l&#39;enregistrement et mettre à jour ses informations, la supprimer ou ajouter des commentaires.
+
+   >[!TIP]
+   >
+   >Par défaut, Workfront associe l’enregistrement à une miniature et à une image de couverture.
+   >
+   >La miniature s’affiche dans la vue Chronologie uniquement lorsqu’elle est activée dans les Paramètres de la vue.
+
+</div>
 
 ## Créer des enregistrements en les copiant et en les collant depuis une liste externe
 

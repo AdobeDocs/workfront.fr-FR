@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1540'
 ht-degree: 7%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 7%
 
 # Partage des types d’enregistrements
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ Vous pouvez partager un type d’enregistrement avec d’autres utilisateurs pou
 >[!IMPORTANT]
 >
 >Les utilisateurs ayant accès à un espace de travail obtiennent automatiquement au moins des autorisations d’affichage pour tous les types d’enregistrements de l’espace de travail.
->&#x200B;>Le partage de vues ne donne pas aux utilisateurs les autorisations pour les types d’enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations pour les types d’enregistrements.
+>>Le partage de vues ne donne pas aux utilisateurs les autorisations pour les types d’enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations pour les types d’enregistrements.
 >
 >* Pour obtenir des informations générales sur le partage d’objets dans Workfront Planning, consultez également la section [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Pour plus d’informations, consultez la section [Considérations lors du partage de types d’enregistrements](#considerations-when-sharing-record-types) de cet article.
@@ -144,22 +144,10 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
 
 1. Ouvrez l’espace de travail dont vous souhaitez partager les types d’enregistrements.
 
-<!--when we release Share on the record type card, replace the next 3 steps with this: 
+1. Utilisez l’une des méthodes suivantes :
 
-1. Do one of the following: 
-
-   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
-   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
-
-   The **Share** box opens.
--->
-
-1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
-
-   La page de type d’enregistrement s’ouvre.
-
-1. Dans l’onglet d’un affichage, cliquez sur **Partager** dans le coin supérieur droit du type d’enregistrement.
-1. Cliquez sur **Partager le type d’enregistrement**.
+   * <span class="preview">Dans la vignette Type d’enregistrement , cliquez sur le menu **Plus** > **Partager**.</span>
+   * Cliquez sur une carte de type d’enregistrement pour ouvrir la page du type d’enregistrement, puis cliquez sur **Partager** > **Partager le type d’enregistrement** dans n’importe quelle vue de type d’enregistrement.
 
    La boîte **Partager** s’ouvre.
 

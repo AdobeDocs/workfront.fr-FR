@@ -6,10 +6,10 @@ description: Vous pouvez créer, modifier et attribuer des profils de feuilles d
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 90%
+source-wordcount: '1604'
+ht-degree: 84%
 
 ---
 
@@ -36,8 +36,6 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,9 +192,17 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    >* Lorsque vous ajoutez un groupe, seul le nom du groupe apparaît dans l’onglet Affecter des personnes, et non pas la liste des personnes membres du groupe. Si vous souhaitez voir les personnes membres du groupe, cliquez sur Enregistrer les modifications, puis sur le nom du profil de feuille de temps que vous venez de créer.
    >* Lorsque vous avez terminé ces étapes, le profil de feuille de temps génère des feuilles de temps uniquement pour les utilisateurs et utilisatrices ou les personnes membres du groupe attribués qui n’ont pas de feuilles de temps existantes pour la période en cours.
 
-1. Cliquez sur **Enregistrer les modifications**.
+1. Cliquer sur **Enregistrer**.
 
-   La première fois que le profil de feuille de temps génère des feuilles de temps, il en crée deux pour chaque personne. Ensuite, chaque fois qu’il génère de nouvelles feuilles de temps, il n’en crée qu’une par personne.
+1. En haut de la liste des profils de feuille de temps, cliquez sur l&#39;icône **Plus** ![icône Plus](assets/more-icon.png) pour les profils de feuille de temps au niveau du système, ou **Plus** pour les profils de feuille de temps de groupe, puis cliquez sur **Générer des feuilles de temps**.
+
+   Une confirmation s’affiche en bas de l’écran indiquant que les feuilles de temps ont bien été générées. De nouvelles feuilles de temps sont générées en fonction des nouveaux profils que vous avez créés.
+
+   Pour plus d’informations, voir [ Générer manuellement des feuilles de temps ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+
+   La première fois que le profil de feuille de temps génère des feuilles de temps, 2 feuilles de temps sont créées pour chaque utilisateur, tant pour la période qui inclut l’heure actuelle que pour la période suivante.
+
+   Ensuite, chaque fois qu’elle génère de nouvelles feuilles de temps, une feuille de temps est créée par utilisateur.
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 

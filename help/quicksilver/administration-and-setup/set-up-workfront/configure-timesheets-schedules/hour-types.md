@@ -9,10 +9,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 27%
+source-wordcount: '1189'
+ht-degree: 24%
 
 ---
 
@@ -23,14 +23,13 @@ ht-degree: 27%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 </div>
--->
 
 Les types d’heures sont des libellés que vous utilisez pour définir vos entrées d’heures. Vous pouvez associer des types d&#39;heures à vos entrées d&#39;heures.
 
@@ -132,7 +131,7 @@ Pour créer des types d’heures :
       <td> <p>Indiquez si le type d'heures correspond à un type général ou à un type spécifique au projet dans le menu déroulant <strong>Portée</strong>.</p> <p>Les types d'heures généraux sont visibles uniquement dans les feuilles de temps et ne peuvent pas être associés aux projets, tâches ou événements.</p> <p><b>IMPORTANT</b></p><p> Si vous avez un type d'heures personnalisé [!UICONTROL Project Specific] et que vous le remplacez par [!UICONTROL General], toutes les heures de tâche, d'événement et de projet existantes sont définies sur leurs types par défaut système.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td role="rowheader"><span class="preview">[!UICONTROL Count as Revenue]</span></td> 
       <td><p>Sélectionnez cette option si vous souhaitez que l’entrée d’heure associée à ce type d’heure affecte le calcul des revenus.</p>
       <p>Les congés de maladie et les congés ne peuvent pas être comptabilisés comme des revenus.</p>
       <p><b>NOTE</b></p>
@@ -142,14 +141,9 @@ Pour créer des types d’heures :
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
-
-1. Cliquez sur **[!UICONTROL Créer un type d’heure].**
-
-   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+1. Cliquez sur **[!UICONTROL Créer un type d&#39;heures]** <span class="preview"> ou **Enregistrer**. </span>
 
    Le type d’heure est ajouté à votre système Workfront et activé par défaut.
-
 
 ## Modifier les types d&#39;heures
 
@@ -184,7 +178,7 @@ En tant qu’administrateur [!DNL Workfront], vous pouvez modifier les types d�
       <td> <p>Indiquez si le type d'heures correspond à un type général ou à un type spécifique au projet dans le menu déroulant <strong>Portée</strong>.</p> <p>Les types d'heures généraux sont visibles uniquement dans les feuilles de temps et ne peuvent pas être associés aux projets, tâches ou événements.</p> <p><b>IMPORTANT</b></p> <p>Si vous avez un type d'heures personnalisé [!UICONTROL Project Specific] et que vous le remplacez par [!UICONTROL General], toutes les heures de tâche, d'événement et de projet existantes sont définies sur leurs types par défaut système.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td role="rowheader"><span class="preview">[!UICONTROL Count as Revenue]</span></td> 
       <td><p>Sélectionnez cette option si vous souhaitez que l’entrée d’heure associée à ce type d’heure affecte le calcul des revenus.</p>
       <p>Les congés de maladie et les congés ne peuvent pas être comptabilisés comme des revenus.</p>
       <p><b>NOTE</b></p>
@@ -194,11 +188,8 @@ En tant qu’administrateur [!DNL Workfront], vous pouvez modifier les types d�
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
 
-1. Cliquez sur **[!UICONTROL Enregistrer les modifications].**
-
-   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+1. Cliquez sur **[!UICONTROL Enregistrer les modifications]** <span class="preview"> ou **Enregistrer**. </span>
 
    Vos modifications sont enregistrées et le type d’heure est modifié.
 

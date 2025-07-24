@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 47%
+source-wordcount: '1211'
+ht-degree: 44%
 
 ---
 
 
 # Gérer les vues d’enregistrement
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -169,8 +169,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 | Afficher les enregistrements par mois |           | ✓ | ✓ |
 | Afficher les enregistrements par semaine |           |               | ✓ |
 | Exporter les informations d’une vue | ✓ |               |    |
-
-<!--Add to the table: <span class="preview">Display in full screen</span>-->
+| <span class="preview">Affichage en plein écran</span> | ✓ | ✓ | ✓ |
 
 ## Créer ou modifier des vues {#create-or-edit-views}
 
@@ -241,9 +240,9 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
    Ou
 
    Double-cliquez sur le nom de la vue et commencez à saisir le nouveau nom. <!--ensure there is not another saving step here?!-->
-<!--
-1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open any view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
--->
+
+1. <span class="preview">(Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir un affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.  </span>
+
 1. (Facultatif) Pour gérer un type de vue spécifique, consultez les articles suivants :
 
    * [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md)
