@@ -5,10 +5,10 @@ title: Travailler sur plusieurs fuseaux horaires
 description: Il peut être utile de comprendre comment  [!DNL Adobe Workfront]  utilise les fuseaux horaires pour calculer les champs horaires des objets et les heures dans d’autres domaines tels que les e-mails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 90%
+source-wordcount: '1249'
+ht-degree: 70%
 
 ---
 
@@ -58,25 +58,36 @@ Le fuseau horaire de l’instance [!DNL Workfront] de votre organisation est gé
 
 ### Votre profil d’utilisateur ou d’utilisatrice {#your-user-profile}
 
-Le fuseau horaire de votre profil d’utilisateur ou d’utilisatrice doit être configuré en fonction de votre lieu de travail. Cette fonctionnalité permet de déterminer les éléments suivants :
+Le champ Fuseau horaire du profil de l’utilisateur contrôle l’heure affichée dans vos e-mails sortants.
+
+Le fuseau horaire affecte également ce qui s’affiche dans un rapport de calendrier de congés payés (PTO).
+
+Pour plus d’informations sur la configuration de votre fuseau horaire dans votre profil d’utilisateur ou d’utilisatrice, voir [Configurer mes paramètres](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+
+Pour plus d’informations sur la manière dont un administrateur ou une administratrice de [!DNL Workfront] (ou une personne ayant un accès [!UICONTROL Modifier] aux utilisateurs et utilisatrices) peut configurer le fuseau horaire dans le profil d’une personne, voir [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+### Fuseau horaire de votre navigateur
+
+Le fuseau horaire de votre navigateur doit être configuré pour l’emplacement où vous travaillez. Cette fonctionnalité permet de déterminer les éléments suivants :
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
 [NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
 -->
-* Horaires d’un objet sur lequel vous travaillez, tels que les heures de début et de fin.
+* Heures d’un objet sur lequel vous travaillez, telles que les heures de début et de fin.
 
-  Si des utilisateurs et utilisatrices situés dans plusieurs fuseaux horaires sont affectés à un objet, [!DNL Workfront] convertit les heures de l’objet pour toutes les personnes concernées grâce au fuseau horaire configuré dans chaque profil d’utilisateur ou d’utilisatrice.
+  Si des utilisateurs appartenant à plusieurs fuseaux horaires sont affectés à un objet, [!DNL Workfront] convertit les heures de l&#39;objet pour toutes les personnes impliquées, en utilisant le fuseau horaire configuré dans le navigateur de chaque utilisateur.
 
-  **Exemple :** dans la zone d’heure normale de l’Est (EST) où vous travaillez, vous définissez une tâche qui doit commencer à 16 h 00 et l’assignez aux utilisateurs et utilisatrices travaillant dans la zone d’heure normale du Pacifique (PST). Pour ces utilisateurs et utilisatrices, l’heure de début s’affiche à 13 h 00. Si elle affichait 16 h 00, ils commenceraient à travailler avec trois heures de retard.
+  **EXEMPLE**
+Dans le fuseau horaire standard de l&#39;Est (EST) où vous travaillez, vous définissez une tâche pour qu&#39;elle commence à 16 :00 et l&#39;affectez aux utilisateurs travaillant dans le fuseau horaire standard du Pacifique (PST). Pour ces utilisateurs, l’heure de début s’affiche à 13 :00. S’il était affiché à 16 :00, ils commenceraient à travailler dessus avec trois heures de retard.
 
-  Si la personne qui a créé l’objet ne remarque pas la différence entre les fuseaux horaires des personnes cessionnaires et n’effectue pas les ajustements nécessaires lors de la définition des heures de l’objet, ou si les personnes cessionnaires ne relèvent pas cette différence, il peut être difficile d’obtenir le bon timing alors que tout le monde collabore sur l’objet.
+  Si le créateur de l&#39;objet ne connaît pas la différence entre les fuseaux horaires des personnes assignées et n&#39;effectue pas les ajustements nécessaires lors de la définition des heures de l&#39;objet, ou si les personnes assignées ne connaissent pas cette différence, il peut être difficile d&#39;obtenir le bon timing pendant que tout le monde collabore sur l&#39;objet.
 
-  **Exemple :** vous configurez une tâche d’une journée pour qu’elle commence à 9 h 00 EST, mais oubliez que certains utilisateurs et utilisatrices de la tâche travaillent dans la zone PST. Pour eux, l’heure de début est 6 h 00. Comme ils ne commenceront pas à travailler avant 9 h 00 dans leur fuseau horaire (midi dans le vôtre), la tâche commence et se termine avec trois heures de retard.
+  **EXEMPLE**
 
-Pour plus d’informations sur la configuration de votre fuseau horaire dans votre profil d’utilisateur ou d’utilisatrice, voir [Configurer mes paramètres](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+  Vous configurez une tâche d&#39;une journée pour commencer à 9:000 h EST, en oubliant que certains utilisateurs de la tâche travaillent dans la zone PST. Pour eux, l&#39;heure de début est 6:00. Comme ils ne commenceront à travailler dessus qu&#39;à 9 heures :00 leur heure (midi votre heure), la tâche commence et se termine avec trois heures de retard.
 
-Pour plus d’informations sur la manière dont un administrateur ou une administratrice de [!DNL Workfront] (ou une personne ayant un accès [!UICONTROL Modifier] aux utilisateurs et utilisatrices) peut configurer le fuseau horaire dans le profil d’une personne, voir [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+La configuration du fuseau horaire diffère selon les navigateurs. Pour plus d’informations, reportez-vous à la documentation de chaque navigateur ou à des informations d’aide.
 
 ## Comment faciliter le travail des utilisateurs et utilisatrices sur les différents fuseaux horaires ?
 
@@ -110,7 +121,7 @@ Les administrateurs et administratrices de [!DNL Workfront] créent des planning
 >[!BEGINSHADEBOX]
 
 **EXEMPLE:**
-Un utilisateur EST est affecté à une tâche d&#39;une journée qui doit commencer à 9 h 00 (heure du Pacifique), c&#39;est-à-dire midi (heure de Paris). Comme il ne reste à la personne EST que deux heures de travail pour la journée, la date d’achèvement de la tâche est reportée d’environ six heures au jour ouvrable suivant.
+Un utilisateur EST est affecté à une tâche d&#39;un jour prévue pour commencer à 9:00h PST, qui est midi EST. Comme il ne reste à la personne EST que deux heures de travail pour la journée, la date d’achèvement de la tâche est reportée d’environ six heures au jour ouvrable suivant.
 
 
 >[!ENDSHADEBOX]

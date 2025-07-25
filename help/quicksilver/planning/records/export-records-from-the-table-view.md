@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 12%
+source-wordcount: '486'
+ht-degree: 11%
 
 ---
 
@@ -66,7 +66,7 @@ Vous pouvez exporter des enregistrements et leurs informations de la vue Tableau
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p> Standard </p>
+   <td><p> Léger ou supérieur </p>
    <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
@@ -77,8 +77,8 @@ Vous pouvez exporter des enregistrements et leurs informations de la vue Tableau
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Gérer les autorisations pour une vue</p>  
-   <p>Autorisations d'affichage sur une vue pour modifier temporairement les paramètres d'affichage, la dupliquer ou l'exporter.</p> </td> 
+   <td>   <p>Autorisations d’affichage ou supérieures</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table>
