@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
 source-wordcount: '5853'
 ht-degree: 2%
@@ -357,7 +357,7 @@ Des clients spécifiques peuvent afficher cette modification en accédant à la 
 
 ### Nouvelle apparence de la zone « Enregistrer en tant que modèle »
 
-**Version préliminaire : 12 juin 2025 ; Version de production : 19 juin 2025
+**Version préliminaire : 12 juin 2025 ; Version de production : 19 juin 2025**
 
 Nous avons mis à jour l’aspect de la zone « Enregistrer en tant que modèle » qui s’affiche lors de l’enregistrement d’un projet en tant que modèle. La nouvelle conception comprend une interface rationalisée, où toutes les sections s’affichent dans un formulaire cohérent que vous pouvez parcourir à l’aide de liens dans le panneau de gauche. La nouvelle conception correspond à d’autres zones et d’autres objets de l’application.
 
@@ -515,7 +515,6 @@ Nous avons mis à jour la page du contrat de licence avec une conception plus mo
 
 +++
 
--->
 
 ## Mises à jour de l’interface effectuées au 2e trimestre
 
