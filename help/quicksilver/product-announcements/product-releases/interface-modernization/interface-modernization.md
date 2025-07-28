@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
 workflow-type: tm+mt
-source-wordcount: '5853'
+source-wordcount: '5961'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versio
 
 ## Mises à jour de l&#39;interface pour la liste Profils de feuille de temps dans un groupe
 
-**Version préliminaire : 24 juillet 2025 ; Version de production : à annoncer**
+**Version préliminaire : 24 juillet 2025 ; Version de production : 28 juillet 2025**
 
 Nous avons mis à jour l’aspect de la liste Profils de feuille de temps dans le panneau de gauche d’un groupe pour qu’elle corresponde aux autres zones de l’application.
 
@@ -50,15 +50,23 @@ Le bouton d’exportation a été déplacé vers la droite de la page.
 
 Pour afficher cette modification, accédez à Configuration > Suivi des modifications > Journaux d’audit.
 
-<!--## Interface updates to the Update users for SSO page in Setup
+## Mises à jour de l’interface de la page Mettre à jour les utilisateurs pour SSO dans la configuration
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**Version préliminaire : 22 juillet 2025 ; Version de production : 28 juillet 2025**
 
-We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+Nous avons mis à jour la page Mise à jour des utilisateurs pour l’authentification unique avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
-To view this change, go to Setup > System > Update Users For SSO-->
+Pour afficher cette modification, accédez à Configuration > Système > Mettre à jour les utilisateurs pour SSO
 
 ## Projets
+
+## Mises à jour de l’interface pour la zone Importer le fichier MS Project
+
+**Version préliminaire : 24 juillet 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour l’aspect de la zone Importer un fichier MS Project lors de l’importation d’un projet depuis MS Project pour qu’il corresponde à la conception d’autres zones de Workfront.
+
+Pour afficher cette modification, accédez à Projets > Nouveau projet > Importer MS Project.
 
 ## Mise à jour de l&#39;interface pour la zone Ajouter une dépense d&#39;un projet ou modèle
 
