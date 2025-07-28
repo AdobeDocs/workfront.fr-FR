@@ -7,12 +7,10 @@ description: Prise en main de la relecture et de Creative Cloud Express
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
+source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '510'
 ht-degree: 7%
 
 ---
@@ -80,7 +78,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Configuration de workflows d’approbation dans Workfront
 
-Avant que les utilisateurs puissent ajouter un workflow d’approbation sur un modèle Express, un administrateur de l’épreuve doit créer un workflow d’approbation dans Workfront.
+Avant que les utilisateurs puissent ajouter un workflow d’approbation sur un modèle Express, un administrateur d’épreuve disposant d’une licence Standard doit créer un workflow d’approbation dans Workfront.
 
 Pour plus d’informations, voir [Création et gestion de modèles de workflows automatisés](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md).
 
@@ -90,7 +88,9 @@ Une fois qu’un modèle de workflow d’approbation est créé dans Workfront, 
 
 Lorsqu’un modèle Express est mélangé, une approbation est requise avant la publication, ce qui déclenche automatiquement le workflow d’approbation préconfiguré.
 
-En savoir plus sur la manière d’ajouter des workflows de révision et d’approbation aux modèles partageables. <!--need link to help article-->
+Les utilisateurs doivent disposer d’une licence Workfront standard pour demander l’approbation d’Adobe Express.
+
+Découvrez comment [ obtenir l’approbation des conceptions ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remix des modèles Express et envoi pour révision et approbation
@@ -104,8 +104,8 @@ Tout au long du processus de production, de révision et d’approbation du cont
 * Lire les commentaires
 * et plus...
 
-Découvrez comment obtenir l’approbation des conceptions.\
-<!--need link to help article-->
+<!--Learn how to get approval on designs.   
+need link to help article-->
 
 ## Vérifier et approuver le fichier remixé Express
 
@@ -113,8 +113,4 @@ Les parties prenantes peuvent fournir des commentaires en rapport avec leur doma
 
 Il leur incombe également de prendre les décisions finales d’approuver le contenu afin qu’il puisse être publié.
 
-En savoir plus sur la révision et l’approbation des conceptions dans Workfront.
-
-
-Licence de collaborateur Workfront - en essayant de comprendre comment procéder dans—
-
+Les utilisateurs doivent disposer au minimum d’une licence Collaborator Workfront pour réviser et prendre une décision.
