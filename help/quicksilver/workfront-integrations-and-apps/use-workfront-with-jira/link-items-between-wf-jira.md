@@ -6,16 +6,28 @@ description: Vous pouvez lier des problèmes  [!DNL Jira]  à des tâches ou pro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 54%
+source-wordcount: '1362'
+ht-degree: 49%
 
 ---
 
 # Lier des éléments entre [!DNL Adobe Workfront] et [!DNL Jira]
 
 <!-- Audited: 5/2025 -->
+
+>[!IMPORTANT]
+>
+>Pour offrir des intégrations plus stables et plus évolutives, nous passons à une approche d’intégration moderne et flexible à l’aide de Workfront Automation and Integration (Fusion). Dans le cadre de ce processus de transition, l’intégration Workfront for Jira ne sera plus disponible après le **28 février 2026**.
+>
+>Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre organisation à Jira.
+>
+>Huit modèles prêts à l’emploi d’automatisation et d’intégration de Workfront pour Jira seront disponibles d’ici août pour aider à répliquer les workflows courants et à accélérer la mise en œuvre. Les modèles sont entièrement personnalisables pour répondre aux besoins spécifiques de l’entreprise et peuvent être étendus en fonction de l’évolution des besoins.
+> 
+>Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Jira, voir [Modules logiciels Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 Vous pouvez lier des problèmes [!DNL Jira] à des tâches ou problèmes [!DNL Adobe Workfront] automatiquement ou manuellement.
 
@@ -103,6 +115,7 @@ Pour lier automatiquement une tâche [!DNL Workfront] à un problème [!DNL Jira
 1. Dans le panneau de gauche Projet, sélectionnez **[!UICONTROL Tâches]**.
 
 1. Cliquez sur **+ Nouvelle tâche**.
+
    >[!NOTE]
    >
    >Pour lier un élément Workfront existant à un problème Jira, sélectionnez **Modifier** dans le menu **Plus** ![Icône Plus](assets/more-icon.png) de l’élément.

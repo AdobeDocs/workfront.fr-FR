@@ -7,18 +7,28 @@ description: Vous pouvez afficher et gérer des documents associés à un objet 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 65%
+source-wordcount: '506'
+ht-degree: 50%
 
 ---
 
 # Afficher et gérer des documents à partir de la [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La dernière version en date du plug-in Adobe Workfront pour Google a été publiée le 26 juin 2023.
+>Pour offrir des intégrations plus stables et plus évolutives, nous passons à une approche d’intégration moderne et flexible à l’aide de Workfront Automation and Integration (Fusion). Dans le cadre de ce processus de transition, la fonctionnalité Workfront for Google Workspace suivante ne sera plus disponible après le **28 février 2026** :
+>
+>* Accès à la fonctionnalité Google Workspace depuis Workfront
+>
+>* Affichage et gestion des tâches Workfront à partir de Gmail ou du panneau du site Calendrier Google
+>
+>Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
+>
+>Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Google Workspace, voir [Modules Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) et [Modules de calendrier Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Vous pouvez afficher et gérer les documents associés à un objet [!DNL Adobe Workfront] sans quitter la [!DNL Google Workspace].
 

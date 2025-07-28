@@ -6,10 +6,10 @@ description: Vous pouvez utiliser  [!DNL Adobe Workfront for Jira]  pour intégr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '2384'
-ht-degree: 100%
+source-wordcount: '2508'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,19 @@ ht-degree: 100%
 
 <!-- Audited: 12/2023 -->
 
-Vous pouvez utiliser [!DNL Adobe Workfront for Jira] pour intégrer votre [!DNL Jira] et les systèmes [!DNL Workfront].
+>[!IMPORTANT]
+>
+>Pour offrir des intégrations plus stables et plus évolutives, nous passons à une approche d’intégration moderne et flexible à l’aide de Workfront Automation and Integration (Fusion). Dans le cadre de ce processus de transition, l’intégration Workfront for Jira ne sera plus disponible après le **28 février 2026**.
+>
+>Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre organisation à Jira.
+>
+>Huit modèles prêts à l’emploi d’automatisation et d’intégration de Workfront pour Jira seront disponibles d’ici août pour aider à répliquer les workflows courants et à accélérer la mise en œuvre. Les modèles sont entièrement personnalisables pour répondre aux besoins spécifiques de l’entreprise et peuvent être étendus en fonction de l’évolution des besoins.
+> 
+>Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Jira, voir [Modules logiciels Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
+
+Vous pouvez utiliser [!DNL Adobe Workfront for Jira] pour intégrer vos systèmes [!DNL Jira] et [!DNL Workfront].
 
 Après l’installation du module complémentaire, vous pouvez définir des workflows qui créent des problèmes [!DNL Jira] automatiquement lorsque des éléments de travail [!DNL Workfront] sont créés. Les éléments des deux applications sont liés et certaines de leurs informations sont automatiquement mises à jour dans les deux systèmes.
 
@@ -25,7 +37,7 @@ Tous les utilisateurs et utilisatrices de [!DNL Workfront] et [!DNL Jira] peuven
 
 Ce module complémentaire est disponible à la fois pour les versions [!UICONTROL Serveur] et [!UICONTROL OnDemand] (ou [!UICONTROL Cloud]) du logiciel [!DNL Jira].
 
-Pour une liste de versions [!DNL Jira] que [!DNL Workfront for Jira] prend actuellement en charge, voir [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) à l’adresse [!DNL Atlassian Marketplace].
+Pour une liste de versions [!DNL Jira] que [!DNL Workfront for Jira] prend actuellement en charge, voir [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) à l’adresse [!DNL Atlassian Marketplace].
 
 ## Conditions d’accès
 

@@ -1,19 +1,29 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-salesforce
-title: Créer des projets  [!DNL Adobe Workfront]  à partir d’objets  [!DNL Salesforce]
+title: 'Créer des projets  [!DNL Adobe Workfront]  à partir d’objets  [!DNL Salesforce] '
 description: Après l’installation d’ [!DNL Adobe Workfront] pour Salesforce, vous pouvez définir des déclencheurs qui créent des projets  [!DNL Workfront]  lorsque certains critères sont remplis sur les Opportunités et Comptes  [!DNL Salesforce] .
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 100%
+source-wordcount: '1581'
+ht-degree: 94%
 
 ---
 
 # Créer des projets [!DNL Adobe Workfront] à partir d’objets [!DNL Salesforce]
+
+>[!IMPORTANT]
+>
+>Pour offrir des intégrations plus stables et plus évolutives, nous passons à une approche d’intégration moderne et flexible à l’aide de Workfront Automation and Integration (Fusion). Dans le cadre de ce processus de transition, l’intégration de Workfront for Salesforce ne sera plus disponible après le **28 février 2026**.
+>
+>Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Salesforce.
+>
+>Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Après l’installation d’[!DNL Adobe Workfront] pour Salesforce, vous pouvez définir des déclencheurs qui créent des projets [!DNL Workfront] lorsque certains critères sont remplis sur [!UICONTROL Opportunités] et [!UICONTROL Comptes] [!DNL Salesforce].
 

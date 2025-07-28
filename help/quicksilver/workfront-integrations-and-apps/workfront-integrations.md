@@ -3,14 +3,14 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Vue d’ensemble des intégrations Adobe Workfront
-description: Adobe Workfront propose des intégrations à d’autres applications courantes, telles que  [!DNL Adobe Creative Cloud], [!DNL Salesforce], Jira et Slack. Cet article renvoie à la documentation de toutes les intégrations proposées actuellement.
+description: Adobe Workfront propose des intégrations à d’autres applications courantes, telles que  [!DNL Adobe Creative Cloud]  et Slack. Cet article renvoie à la documentation de toutes les intégrations proposées actuellement.
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 6298e42d-3cf4-4bed-8a9d-3df2f6d74f93
-source-git-commit: 833976934745b7b5c1c3a8b969547bf00befbf09
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 100%
+source-wordcount: '47'
+ht-degree: 72%
 
 ---
 

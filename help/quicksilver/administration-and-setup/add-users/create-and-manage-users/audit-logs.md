@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 95%
+source-wordcount: '1523'
+ht-degree: 94%
 
 ---
 
@@ -65,7 +65,7 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit 
 ## Types de journaux d’audit et actions qui les déclenchent
 
 * [Niveau d’accès](#access-level)
-* [Règles commerciales](#business-rules)
+* [Règles métier](#business-rules)
 * [Entreprise](#company)
 * [Condition](#condition)
 * [Champ personnalisé](#custom-field)
@@ -99,20 +99,20 @@ Le système génère une entrée de journal de niveau d’accès lorsqu’une pe
      >
      >Par exemple, si une personne passe le type d’accès Planificateur ou planificatrice d’Afficher à Modifier, le système n’affiche pas les informations contenues dans le menu déroulant Affiner vos paramètres.
 
-### Règles commerciales
+### Règles métier
 
-Les règles de fonctionnement ne sont disponibles que pour les clients qui ont acheté un forfait Workfront Ultimate. Pour plus d’informations, voir [Création et modification de règles de fonctionnement](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+Les règles métier ne sont disponibles que pour les clients qui ont acheté un plan Ultimate Workfront. Pour plus d’informations, voir [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
-Le système génère une entrée de journal d’audit des règles métier lorsqu’un utilisateur effectue l’une des opérations suivantes :
+Le système génère une entrée du journal d’audit des règles métier lorsqu’un utilisateur effectue l’une des opérations suivantes :
 
-* Crée une règle de fonctionnement
-* Modifie une règle de fonctionnement :
+* Crée une règle métier
+* Modifie une règle métier :
 
    * Modifie le nom.
    * Ajoute ou supprime des expressions
-   * Modification d’un déclencheur
+   * Change un déclencheur
 
-* Suppression d’une règle de fonctionnement
+* Supprime une règle métier
 
 ### Entreprise {#company}
 
@@ -257,7 +257,7 @@ Pour plus d’informations sur la configuration des fonctions, voir [Créer et g
 Le système génère une entrée de journal d’audit Tentative de connexion lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
 
 * Se connecte, se déconnecte ou effectue une tentative de connexion qui échoue dans Workfront (dans un navigateur et dans l’application mobile).
-* Se connecte, se déconnecte ou effectue une tentative de connexion qui échoue dans une intégration Workfront (Workfront pour Slack et Workfront pour Salesforce, par exemple).
+* Se connecte, se déconnecte ou échoue lors d’une tentative de connexion dans toute intégration de Workfront (telle que Workfront pour Slack)
 * Se connecte ou se déconnecte de l’API Workfront.
 
 Les journaux de tentative de connexion n’enregistrent pas lorsqu’un administrateur ou une administratrice Workfront utilise la fonction Connexion en tant que.

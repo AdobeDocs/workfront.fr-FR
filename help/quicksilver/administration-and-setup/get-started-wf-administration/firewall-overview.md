@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 96%
+source-wordcount: '717'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 
 Pour ce faire, il vous faut une liste autorisée, qui est pour ainsi dire une « liste » des sites « autorisés » à envoyer ou recevoir des données par le biais du pare-feu. Les sites peuvent être identifiés de deux façons :
 
-* **Adresse IP** : une série de nombres comme 52.31.132.175.
+* **adresse IP** : une série de nombres tels que 52.31.132.175
 * **Domaine** : partie d’une URL, telle que `thisdomain` dans `www.thisdomain.com`.
 
 Workfront utilise des adresses IP et des domaines spécifiques pour la communication web. Ces éléments doivent être ajoutés à la liste autorisée de votre entreprise pour que vous puissiez utiliser Workfront dans votre organisation.
@@ -75,11 +75,8 @@ Fournissez les informations suivantes à votre administrateur ou administratrice
    <td role="rowheader">Intégrations Adobe Workfront</td> 
    <td>Informez votre administrateur ou administratrice réseau si vous utilisez l’une des solutions suivantes :
     <ul>
-     <li><p>Workfront pour Jira</p></li>
-     <li><p>Workfront pour Google Workspace</p></li>
      <li><p>Workfront pour Microsofts Teams</p></li>
      <li><p>Workfront pour Microsoft Outlook</p></li>
-     <li><p>Workfront pour Salesforce</p></li>
     </ul></td> 
   </tr> 
   <tr> 

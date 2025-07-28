@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 93%
+source-wordcount: '578'
+ht-degree: 91%
 
 ---
 
@@ -63,7 +63,7 @@ Se connecter à Workfront de l’une des façons suivantes compte comme une conn
 
 * Application web Workfront
 * Applications mobiles Workfront (appareils iOS ou Android)
-* Toute intégration Workfront prise en charge avec une autre application tierce (Slack, Jira)
+* Toute intégration Workfront prise en charge avec une autre application tierce (telle que Slack)
 * Toute intégration personnalisée entre Workfront et une autre application tierce
 * API Workfront
 

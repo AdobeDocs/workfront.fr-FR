@@ -7,18 +7,28 @@ description: Lorsque vous recevez une notification concernant une mise à jour d
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 66%
+source-wordcount: '311'
+ht-degree: 40%
 
 ---
 
 # Répondre à une notification de mise à jour d’[!DNL Adobe Workfront] à partir de [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La dernière version en date du plug-in Adobe Workfront pour Google a été publiée le 26 juin 2023.
+>Pour offrir des intégrations plus stables et plus évolutives, nous passons à une approche d’intégration moderne et flexible à l’aide de Workfront Automation and Integration (Fusion). Dans le cadre de ce processus de transition, la fonctionnalité Workfront for Google Workspace suivante ne sera plus disponible après le **28 février 2026** :
+>
+>* Accès à la fonctionnalité Google Workspace depuis Workfront
+>
+>* Affichage et gestion des tâches Workfront à partir de Gmail ou du panneau du site Calendrier Google
+>
+>Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
+>
+>Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Google Workspace, voir [Modules Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) et [Modules de calendrier Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Lorsque vous recevez une notification à propos d’une mise à jour dans [!DNL Adobe Workfront], vous pouvez rapidement publier une réponse à partir d’[!DNL Workfront for Google Workspace].
 

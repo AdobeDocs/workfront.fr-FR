@@ -6,10 +6,10 @@ description: Pour installer l’application avant qu’elle ne soit disponible s
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 92%
+source-wordcount: '1092'
+ht-degree: 84%
 
 ---
 
@@ -17,9 +17,15 @@ ht-degree: 92%
 
 <!-- Audited: 1/2024 -->
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Pour installer l’application avant qu’elle ne soit disponible sur [!DNL Salesforce AppExchange], voir [Installer  [!DNL Workfront for Salesforce]  avant qu’elle ne soit disponible sur  [!DNL AppExchange]  Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace).
+>Pour offrir des intégrations plus stables et plus évolutives, nous passons à une approche d’intégration moderne et flexible à l’aide de Workfront Automation and Integration (Fusion). Dans le cadre de ce processus de transition, l’intégration de Workfront for Salesforce ne sera plus disponible après le **28 février 2026**.
+>
+>Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Salesforce.
+>
+>Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 En tant qu’administrateur ou administratrice [!DNL Salesforce] et [!DNL Adobe Workfront], vous pouvez installer [!DNL Workfront for Salesforce] pour permettre à vos utilisateurs et utilisatrices [!DNL Salesforce] de soumettre des demandes [!DNL Workfront] et de créer automatiquement des projets sans jamais quitter Salesforce.
 
@@ -61,7 +67,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
    * Créer des demandes [!DNL Workfront] à partir de [!DNL Salesforce].
    * Voir les demandes ou les projets [!DNL Workfront] dans Salesforce.
 
-## Installer [!DNL Workfront for Salesforce] {#installing-workfront-for-salesforce}
+## Installer [!DNL Workfront for Salesforce]  {#installing-workfront-for-salesforce}
 
 Vous devez être un administrateur ou une administratrice système [!DNL Salesforce] et [!DNL Workfront] pour installer et configurer [!DNL Workfront for Salesforce].
 
@@ -198,17 +204,17 @@ Par exemple, *yourDomain.my.workfront.com*.
    Les utilisateurs et utilisatrices de [!UICONTROL Salesforce] peuvent utiliser l’application [!DNL Workfront] une fois que vous avez ajouté la section [!DNL Workfront] à leurs dispositions de page [!UICONTROL Opportunité] ou [!UICONTROL Compte].\
    Pour plus d’informations sur la configuration de la section [!DNL Workfront] pour les utilisateurs et utilisatrices, voir [Configurer la section [!DNL Adobe Workfront] pour les utilisateurs et utilisatrices [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-## Configuration des autorisations pour l’intégration Workfront for Salesforce
+## Configuration des autorisations pour l’intégration de Workfront for Salesforce
 
-### Autorisations pour `workfront_business`
+### Autorisations pour les `workfront_business`
 
 1. Accédez à **Configuration** > **Sécurité** > **URL de confiance**.
 1. Sélectionnez `workfront_business` dans la liste.
 1. Cliquez sur **Modifier**.
-1. Sous Directives CSP , vérifiez les options suivantes :
+1. Sous Directives relatives aux CSP , cochez les options suivantes :
 
    * connect-src (scripts)
-   * font-src (fonts)
+   * font-src (polices)
    * frame-src (contenu iframe)
    * img-src (images)
    * media-src (audio et vidéo)
@@ -222,10 +228,10 @@ Par exemple, *yourDomain.my.workfront.com*.
 1. Accédez à **Configuration** > **Sécurité** > **URL de confiance**.
 1. Sélectionnez `workfront_session` dans la liste.
 1. Cliquez sur **Modifier**.
-1. Sous Directives CSP , vérifiez les options suivantes :
+1. Sous Directives relatives aux CSP , cochez les options suivantes :
 
    * connect-src (scripts)
-   * font-src (fonts)
+   * font-src (polices)
    * frame-src (contenu iframe)
    * img-src (images)
    * media-src (audio et vidéo)

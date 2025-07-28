@@ -7,7 +7,7 @@ description: Vous devez ajouter des résultats, des activités ou des objectifs 
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 97%
@@ -67,10 +67,6 @@ Tenez compte des points suivants lorsque vous utilisez les résultats :
 
 * Ils répondent à la question : « Comment saurai-je à quel moment mon objectif est atteint ? »
 * Il s’agit d’indicateurs de mesure. Vous pouvez sélectionner l’une des options suivantes pour indiquer la progression de votre résultat :
-
-  <!--
-  this might change (jira, Salesforce, etc))
-  -->
 
    * Devise
    * Nombre

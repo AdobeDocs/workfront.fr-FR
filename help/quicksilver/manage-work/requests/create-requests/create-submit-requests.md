@@ -6,24 +6,16 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7c7697936da90d17599d90b69265f62221185569
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '2803'
-ht-degree: 79%
+source-wordcount: '2765'
+ht-degree: 78%
 
 ---
 
 # Créer et soumettre des demandes
 
 <!--Audited: 12/2023-->
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
-<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
-<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
-</div>
--->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -383,9 +375,6 @@ Vous pouvez soumettre des demandes à l’aide de n’importe quelle application
 
 * Vous pouvez créer une intégration personnalisée entre Workfront et une autre application qui vous permet de soumettre des demandes à Workfront à partir de l’autre application.\
   Pour plus d’informations sur les intégrations Workfront personnalisées, consultez l’article [Intégrations Adobe Workfront](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
-
-* Vous pouvez soumettre des demandes à partir de Salesforce si vous avez installé l’application Workfront pour Salesforce.\
-  Pour plus d’informations sur l’envoi de demandes depuis Salesforce à l’aide de notre application Workfront pour Salesforce, consultez l’article [Soumettre des demandes Adobe Workfront à partir d’objets Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Création de requêtes à l’aide d’un formulaire de requête Workfront Planning
 
