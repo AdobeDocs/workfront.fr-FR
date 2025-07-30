@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Vue d’ensemble de l’équipe d’un projet
-description: Les personnes associées à un projet dans une certaine capacité forment l’équipe du projet. Les utilisateurs et utilisatrices répertoriés dans la zone Personnes d’un projet constituent l’équipe du projet.
+description: Les personnes associées à un projet dans une certaine capacité forment l’équipe du projet. Les utilisateurs répertoriés dans la zone Personnes d’un projet ou d’un modèle sont les utilisateurs qui composent l’équipe du projet.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 62%
+source-wordcount: '450'
+ht-degree: 48%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 62%
 
 Une équipe de projet se compose d’utilisateurs associés à un projet à un titre ou à un autre. Les utilisateurs répertoriés dans la zone Personnes d’un projet constituent l’équipe du projet. Par exemple, les personnes qui sont affectées au projet ou la personne propriétaire du projet font partie de l’équipe du projet.
 
+Les utilisateurs associés au travail sur un modèle de projet ou qui sont le propriétaire ou le sponsor du modèle font partie de la future équipe de projet une fois le projet créé à l&#39;aide du modèle.
+
 ## Personnes membres de l’équipe du projet
 
 Vous pouvez affecter des personnes à une équipe de projet manuellement ou de manière automatique. Pour plus d’informations, consultez la section Ajouter des utilisateurs à une équipe de projet dans l’article [Gérer l’équipe de projet](../../../manage-work/projects/planning-a-project/manage-project-team.md).
@@ -28,7 +30,13 @@ Lorsque vous ajoutez manuellement des personnes à l’équipe de projet, elles 
 
 ## Notifications aux personnes membres de l’équipe de projet
 
-Selon les notifications par e-mail activées par votre administrateur ou administratrice Adobe Workfront, les personnes d’une équipe de projet sont informées de diverses actions sur un projet. Pour plus d’informations sur l’activation des notifications par e-mail, voir [Configurer des notifications d’événement pour toutes les personnes du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Selon les notifications par e-mail activées par votre administrateur Adobe Workfront, les utilisateurs d’une équipe de projet sont avertis des différentes actions effectuées sur un projet.
+
+Pour plus d’informations, reportez-vous également aux articles suivants :
+
+* [Types de notification d’événement](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+* [Configurer les notifications d’événements pour toutes les personnes utilisant le système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 
 >[!NOTE]
 >

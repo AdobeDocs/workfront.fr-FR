@@ -3,10 +3,10 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience pour  [!DNL Workfront]
 description: Avec l’accès à  [!DNL Workfront]  grâce à Adobe Experience Cloud, vous bénéficiez d’une expérience transparente et unifiée pour gérer l’ensemble vos applications Adobe.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e292b54c4488ac12e1af5719117cf6c3cf3392a7
+source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 68%
@@ -125,7 +125,7 @@ Si votre organisation utilise une application distincte pour gérer les mots de 
 
 Si votre mot de passe est géré par [!DNL Adobe], vous pouvez modifier le mot de passe de votre compte Adobe.
 
-[Voir cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/fr/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Voir cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Pour plus d’informations sur la modification de votre mot de passe, contactez votre administrateur ou administratrice.
 

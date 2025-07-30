@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '2115'
+source-wordcount: '2133'
 ht-degree: 7%
 
 ---
@@ -264,11 +264,11 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
 
 * Vous pouvez ajouter une page Enregistrements connectés à un enregistrement après avoir connecté des enregistrements ou des types d&#39;objet au type d&#39;enregistrement à partir de la vue Tableau d&#39;un type d&#39;enregistrement.
 
-* Vous ne pouvez pas ajouter une page Enregistrements connectés à la zone d&#39;aperçu d&#39;un enregistrement.
+* Vous ne pouvez pas ajouter une page Enregistrements connectés à la zone d&#39;aperçu d&#39;un enregistrement. <!--take this out when we release connected record pages to the record preview area-->
 
 * Les pages Enregistrements connectés affichent uniquement les objets connectés ou les enregistrements d&#39;un type d&#39;objet ou d&#39;enregistrement dans une vue Tableau. La page n’affiche pas tous les enregistrements de ce type en mode Tableau.
 
-* Après avoir ajouté une page Enregistrements connectés à un enregistrement, l’onglet de page est visible à partir de la zone d’aperçu de l’enregistrement, mais il est vide. Vous devez accéder à la page complète pour afficher la vue du tableau pour l’enregistrement connecté. <!--this might have changed? check and take disclaimer out-->
+* Après avoir ajouté une page Enregistrements connectés à un enregistrement, l’onglet de page est visible à partir de la zone d’aperçu de l’enregistrement, mais il est vide. Vous devez accéder à la page complète pour afficher la vue du tableau pour l’enregistrement connecté. &lt;!—cela changera avec la publication des pages connectées dans la zone de prévisualisation— vérifier et supprimer la clause de non-responsabilité—>
 
 * Vous pouvez ajouter des pages Enregistrements connectés pour les types d’objet ou d’enregistrement connectés suivants :
 
@@ -279,12 +279,20 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
   >
   >   Vous ne pouvez pas ajouter de page Enregistrements connectés pour les enregistrements AEM Assets connectés.
 
-
 Pour ajouter une page Enregistrements connectés :
+
+<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+
+1. Click the name of the record to open it. 
+1. Click **Add page** from one of the following areas: 
+
+   * The record's preview window
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
+
+-->
 
 1. Dans une page d&#39;enregistrement vue, cliquez sur le nom d&#39;un enregistrement pour l&#39;ouvrir, puis cliquez sur l&#39;icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d&#39;onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la page d&#39;aperçu.
 1. Cliquez sur **Ajouter une page**.
-
 
    La boîte de dialogue **Créer une page** s’ouvre.
 

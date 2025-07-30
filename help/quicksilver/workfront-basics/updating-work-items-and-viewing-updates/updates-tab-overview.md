@@ -7,9 +7,9 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 71%
 
 ---
@@ -322,7 +322,7 @@ Tenez compte des points suivants lors de l’affichage des mises à jour pour le
 
    * Ajout, suppression et autres mises à jour de documents
    * Ajout, suppression, ajout au nom de et autres mises à jour de saisie d&#39;heures
-   * Notes, mises à jour des champs personnalisés
+   * Mises à jour des champs personnalisés
    * Mises à jour du profil utilisateur (mises à jour de l’avatar de l’utilisateur, du numéro de mobile, du champ « Me parler » et du titre)
    * Ajout utilisateur, suppression, modification du niveau d&#39;accès, modifications des champs utilisateur intégrés
    * Informations financières des tâches et projets.

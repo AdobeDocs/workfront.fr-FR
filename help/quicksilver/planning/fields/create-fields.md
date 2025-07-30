@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
 workflow-type: tm+mt
 source-wordcount: '5201'
 ht-degree: 44%
@@ -14,7 +14,7 @@ ht-degree: 44%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -35,12 +35,12 @@ Vous devez créer des types d’enregistrements avant de pouvoir créer des cham
 
 Dans Workfront Planning, vous pouvez créer des champs des manières suivantes :
 
-* À partir de zéro
-* En connectant des types d’enregistrement
-* En créant un type d’enregistrement
-* En créant un espace de travail à partir d’un modèle
-* En important des types d’enregistrements à l’aide d’un fichier Excel ou CSV
-* En important des copies de champs Workfront existants
+* [À partir de zéro](#create-fields-from-scratch)
+* [En connectant des types d’enregistrement](#create-fields-from-scratch)
+* [En créant un type d’enregistrement](#create-fields-by-creating-a-record-type)
+* [En créant un espace de travail à partir d’un modèle](#create-fields-by-creating-a-workspace-from-a-template)
+* [En important des types d’enregistrements à l’aide d’un fichier Excel ou CSV](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
+* [En important des copies de champs Workfront existants](#create-fields-by-importing-them-from-workfront)
 
 Pour plus d’informations sur les champs de planification Workfront, voir [Présentation des champs](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -109,6 +109,45 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Créer des champs en connectant des types d’enregistrement
+
+Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement ou un type d’enregistrement et des types d’objet à partir d’autres applications.
+
+Pour plus d’informations sur la connexion des types d’enregistrements Workfront Planning, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+<!--## Create fields by importing record types using an Excel or CSV file
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+
+## Créer des champs en créant un type d’enregistrement
+
+Lorsque vous créez un type d’enregistrement, plusieurs champs associés au nouveau type d’enregistrement sont également créés par défaut. Pour plus d’informations, consultez la section [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Créer des champs en créant un espace de travail à partir d’un modèle
+
+Adobe Workfront Planning crée des champs pour les types d’enregistrement lorsque vous créez un espace de travail à partir d’un modèle.
+
+Pour plus d’informations, consultez la section [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+
+
+## Créer des champs lors de l’importation de types d’enregistrements à partir d’un fichier CSV ou Excel
+
+Vous pouvez importer des champs lorsque vous importez des types d’enregistrements à l’aide d’un fichier CSV ou Excel.
+
+Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Créer des champs en les important depuis Workfront
+
+Vous pouvez importer des copies de champs Workfront existants.
+
+L’importation de champs depuis Workfront crée une copie de chaque champ pour un type d’enregistrement Workfront Planning.
+
+Une fois les champs copiés, ils sont indépendants les uns des autres et n’échangent pas d’informations.
+
+Pour plus d’informations, voir [Importer des champs depuis Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+
 
 ## Créer des champs à partir de zéro {#create-fields-from-scratch}
 
@@ -319,7 +358,7 @@ Les types de champ Nombre capturent les informations au format numérique.
 >Les champs numériques s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de nombres une fois la demande soumise, dans le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Nombre**.
@@ -349,7 +388,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 >Les champs de pourcentage s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de pourcentages une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Pourcentage**.
@@ -389,7 +428,7 @@ Les types de champ de devise capturent les informations dans un format numériqu
 >Les champs de devise s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent en tant que devise une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Devise**.
 
@@ -443,6 +482,8 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
 
 1. Cliquez sur l’expression sélectionnée pour afficher la définition et afficher sa mise en forme.
 
+   <!--update screen shot for Maximize button-->
+
    ![Description de l&#39;expression de la formule](assets/description-of-formula-expression.png)
 
    Pour plus d’informations sur les expressions prises en charge, voir [Présentation des champs de formule](/help/quicksilver/planning/fields/formula-fields.md).
@@ -466,6 +507,12 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
    >
    >![Exemple de formule de budget de projet avec quatre champs supprimés ](assets/formula-example-project-budget-four-fields-removed.png)
    >
+
+   <!--
+    1. <span class="preview">(Optional) Click **Maximize** to open the Formula box in a larger area. </span>
+           <span class="preview">The Formula box opens in a larger window. </span>
+    1. <span class="preview">(Optional and conditional) If you opened the Formula box in a larger area,click **Minimize** to return to the original formula field box.</span> 
+    -->
 
 1. Dans le champ **Format**, sélectionnez l&#39;une des options suivantes pour identifier le format du résultat affiché dans le champ de type formule :
 
@@ -735,42 +782,6 @@ Create an Object field:
 
 -->
 
-## Créer des champs en connectant des types d’enregistrement
 
-Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement ou un type d’enregistrement et des types d’objet à partir d’autres applications.
-
-Pour plus d’informations sur la connexion des types d’enregistrements Workfront Planning, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-<!--## Create fields by importing record types using an Excel or CSV file
-
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
-
-## Créer des champs en créant un type d’enregistrement
-
-Lorsque vous créez un type d’enregistrement, plusieurs champs associés au nouveau type d’enregistrement sont également créés par défaut. Pour plus d’informations, consultez la section [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
-
-## Créer des champs en créant un espace de travail à partir d’un modèle
-
-Adobe Workfront Planning crée des champs pour les types d’enregistrement lorsque vous créez un espace de travail à partir d’un modèle.
-
-Pour plus d’informations, consultez la section [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
-
-
-
-## Créer des champs lors de l’importation de types d’enregistrements à partir d’un fichier CSV ou Excel
-
-Vous pouvez importer des champs lorsque vous importez des types d’enregistrements à l’aide d’un fichier CSV ou Excel.
-
-Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
-
-## Créer des champs en les important depuis Workfront
-
-Vous pouvez importer des copies de champs Workfront existants.
-
-L’importation de champs depuis Workfront crée une copie de chaque champ pour un type d’enregistrement Workfront Planning.
-
-Une fois les champs copiés, ils sont indépendants les uns des autres et n’échangent pas d’informations.
-
-Pour plus d’informations, voir [Importer des champs depuis Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 

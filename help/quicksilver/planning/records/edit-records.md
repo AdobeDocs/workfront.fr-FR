@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2192'
 ht-degree: 44%
 
 ---
@@ -123,10 +123,10 @@ Pour plus d’informations sur la création d’enregistrements, voir [Créer de
 
 Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
-* [Dans la vue de tableau d’un type d’enregistrement](#edit-a-record-inline-in-the-table-view-of-a-record-type)
-* [À partir de l’aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view)
-* [À partir de la page de l’enregistrement](#edit-a-record-from-the-records-page)
-* [À partir d’un objet Workfront dans la section Planification](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+* [Vue Tableau d’un type d’enregistrement](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view)
+* [La page de l’enregistrement](#edit-a-record-from-the-records-page)
+* [Objet Workfront dans la section Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Modifier un enregistrement en ligne dans la vue de tableau d’un type d’enregistrement
 
@@ -240,7 +240,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
-   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 
@@ -337,3 +337,40 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 Après avoir connecté des enregistrements à des objets Workfront, vous pouvez modifier les enregistrements Workfront Planning dans Workfront à partir de la section Planning de l’objet.
 
 Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+
+<!--
+
+<div class="preview">
+
+## Add new choices to an existing select field when editing records in the table view
+
+You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+
+>[!IMPORTANT]
+>
+>The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
+
+
+**EXAMPLE**
+
+You might have a single-select field called Status that has the choices New and Closed, and you want to add a choice for an In progress status. You can add the choice by doing one of the following things:
+
+* Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
+* Adding a new option while editing the record in the table view, as described below. 
+
+
+To add a new choice to an existing select field when editing a record: 
+
+1. Go to a record type page and open the table view. 
+1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+1. Start editing the field inline by double-clicking the cell for the field. 
+1. Type the name of the choice you want to add, then click **Add choice**.
+
+    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)
+
+    The new choice is added immediately to the single-select field. 
+
+</div>
+
+-->
