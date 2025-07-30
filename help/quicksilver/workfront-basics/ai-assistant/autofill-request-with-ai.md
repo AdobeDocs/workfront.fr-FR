@@ -5,9 +5,9 @@ description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '961'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Cette fonctionnalité fait actuellement partie d’une version Beta fermée. Pour activer cette fonctionnalité, contactez sargism@adobe.com.
+>Cette fonctionnalité fait actuellement partie d’une version Beta fermée. Pour activer cette fonctionnalité, contactez `sargism@adobe.com`.
 >
 >Pour être éligible à la version Beta fermée, votre entreprise doit répondre aux conditions requises pour utiliser l’assistant Workfront AI. Pour plus d’informations, consultez [Conditions préalables pour l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
@@ -25,6 +25,8 @@ L’IA peut vous aider à remplir automatiquement les champs de requête. Il peu
 Vous pouvez approuver ou rejeter ces suggestions avant d’envoyer la demande.
 
 Le remplissage automatique ne remplace aucun champ que vous avez déjà renseigné.
+
+Les utilisateurs ne reçoivent pas de suggestions de données auxquelles ils n’ont pas accès autrement.
 
 ## Obtention de suggestions lors du remplissage du formulaire
 
@@ -162,4 +164,12 @@ Vous pouvez charger un document à appliquer à l’ensemble du formulaire ou à
    Ou
 
    Sélectionnez **Accepter tout** ou **Rejeter tout** en haut de la page pour accepter ou rejeter toutes les suggestions.
+
+## Dépannage
+
+Si vous n’obtenez pas les suggestions attendues, cela peut être dû à l’un des problèmes suivants :
+
+* Vous devez disposer d’au moins un mois de données de requête dans le système avant de pouvoir suggérer des valeurs de champ à partir de requêtes précédentes.
+* Un élément de données de requête doit avoir été dans le système pendant plus de 24 heures avant de pouvoir être suggéré dans une autre requête.
+* Vous n’avez peut-être pas suivi les mécanismes de sécurisation de chargement de document lors du chargement d’un document à partir duquel extraire des suggestions. Pour plus d’informations, consultez la section [Mécanismes de sécurisation de chargement de document](#document-upload-guardrails) dans cet article.
 

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 90%
+source-wordcount: '1609'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 90%
 >
 >La procédure décrite sur cette page ne s’applique qu’aux entreprise qui n’ont pas encore été intégrées à l’Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
 >
->Pour configurer votre liste autorisée si votre organisation a été intégrée à Adobe Admin Console, consultez la section [Domaines autorisés pour les applications et services d’Adobe](https://helpx.adobe.com/fr/enterprise/kb/network-endpoints.html).
+>Pour configurer votre liste autorisée si votre organisation a été intégrée à Adobe Admin Console, consultez la section [Domaines autorisés pour les applications et services d’Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à Adobe Admin Console, consultez la section [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -74,9 +74,7 @@ Pour plus d’informations, consultez la section [Afficher le cluster et la form
 >
 >Certaines intégrations Workfront ne fonctionnent pas lorsque la liste autorisée est activée, car elles ne peuvent pas être configurées avec une adresse IP statique. Pour utiliser les intégrations suivantes, vous devez désactiver la liste autorisée.
 >
->* Workfront pour Google Workspace
 >* Workfront pour Microsoft Outlook
->* Workfront pour Salesforce
 
 * [Adresses IP à autoriser pour les clusters 1, 2, 3, 5, 7, 8 et 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [Adresses IP à autoriser pour le cluster 4](#ip-addresses-to-allow-for-cluster-4)
