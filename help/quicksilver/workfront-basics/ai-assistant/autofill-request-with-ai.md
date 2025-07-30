@@ -5,9 +5,9 @@ description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: b0454d5fe3d866b30513cdea67d22c06c5efbfb3
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 3%
 
 ---
@@ -170,6 +170,5 @@ Vous pouvez charger un document à appliquer à l’ensemble du formulaire ou à
 Si vous n’obtenez pas les suggestions attendues, cela peut être dû à l’un des problèmes suivants :
 
 * Vous devez disposer d’au moins un mois de données de requête dans le système avant de pouvoir suggérer des valeurs de champ à partir de requêtes précédentes.
-* Un élément de données de requête doit avoir été dans le système pendant plus de 24 heures avant de pouvoir être suggéré dans une autre requête.
 * Vous n’avez peut-être pas suivi les mécanismes de sécurisation de chargement de document lors du chargement d’un document à partir duquel extraire des suggestions. Pour plus d’informations, consultez la section [Mécanismes de sécurisation de chargement de document](#document-upload-guardrails) dans cet article.
 
