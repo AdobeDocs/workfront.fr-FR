@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
 workflow-type: tm+mt
-source-wordcount: '6162'
+source-wordcount: '6262'
 ht-degree: 2%
 
 ---
@@ -84,15 +84,15 @@ Nous avons mis à jour l’aspect de la zone Envoyer la mise à jour aux utilisa
 
 Pour plus d’informations, voir [Gérer l’équipe du projet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-<!--## Updated experience when editing a Queue Topic in a project or template
+## Mise à jour de l’expérience lors de la modification d’une rubrique de file d’attente dans un projet ou modèle
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**Version préliminaire : 31 juillet 2025 ; Version de production : 31 juillet 2025**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+Nous avons mis à jour l’aspect d’une rubrique de file d’attente lors de sa modification sur un modèle. La page Modification de la rubrique de file d’attente correspond désormais à la conception d’autres zones de Workfront.
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+Une petite modification de fonctionnalité a été appliquée à la liste des règles de transmission. Pour modifier une rubrique de file d&#39;attente, sélectionnez-la dans la liste et cliquez sur l&#39;icône Modifier. Vous n’êtes plus dirigé vers la page Détails de la rubrique de file d’attente avant de pouvoir la modifier.
 
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+Pour plus d’informations, voir [Créer des rubriques de file d’attente](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Mises à jour de l’interface pour les enregistrements de facturation
 
