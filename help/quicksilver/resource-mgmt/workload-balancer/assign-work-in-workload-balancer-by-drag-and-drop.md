@@ -6,14 +6,16 @@ description: Vous pouvez affecter des éléments de travail à l’aide de l’�
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 90%
+source-wordcount: '991'
+ht-degree: 69%
 
 ---
 
 # Affecter du travail dans l’équilibreur de charge de travail par glisser-déposer
+
+{{preview-fast-release-general}}
 
 Vous pouvez affecter des éléments de travail à l’aide de l’équilibreur de charge de travail Adobe Workfront en faisant glisser les éléments de travail vers les utilisateurs et utilisatrices appropriés.
 
@@ -70,11 +72,15 @@ Vous pouvez affecter un élément depuis la zone Travail non affecté à un util
 
    Vous pouvez attribuer du travail aux utilisateurs et utilisatrices à l’aide de l’équilibreur de charge de travail dans la zone Ressources, au niveau du projet ou de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localiser l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Facultatif) Accédez à la zone **Travail non affecté** et appliquez un filtre pour afficher les tâches et les problèmes qui ne sont pas affectés à des utilisateurs et utilisatrices.
+1. (Facultatif) Accédez à la zone **Tâches non affectées** et appliquez un filtre pour afficher les tâches, les événements <span class="preview"> les affectations de rôles</span> qui ne sont pas affectés aux utilisateurs
 
    Ou
 
    Accédez à la zone **Travail affecté** et développez le nom d’un utilisateur ou d’une utilisatrice pour afficher les éléments de travail qui lui ont été affectés, si vous souhaitez réaffecter ses éléments.
+
+   >[!NOTE]
+   >
+   ><span class="preview">Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre Afficher les affectations de rôles est activé. Pour plus d’informations, voir [Personnaliser la vue](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) dans [Accéder à l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
 
 1. (Conditionnel) Dans l’équilibreur de charge de travail d’un projet, cliquez sur l’icône **Afficher tous les utilisateurs** ![Afficher tous les utilisateurs](assets/show-all-users-icon-project-workload-balancer.png) pour afficher tous les utilisateurs de Workfront.
 
@@ -84,27 +90,30 @@ Vous pouvez affecter un élément depuis la zone Travail non affecté à un util
 
    ![Utilisateur du projet](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
-
    >[!TIP]
    >
    >* L’option Afficher tous les utilisateurs et utilisatrices n’est disponible que dans l’équilibreur de charge de travail d’un projet.
    >* Utilisez des filtres pour afficher uniquement les utilisateurs et utilisatrices qui sont importants pour vous. Par exemple, utilisez un filtre pour afficher uniquement les utilisateurs et utilisatrices de vos équipes ou groupes.
 
-
-
-1. Cliquez sur la barre d’un élément de travail qui indique la chronologie prévue ou prévisionnelle et faites-la glisser sur le nom d’un utilisateur ou d’une utilisatrice dans la zone **Affecté**.
+1. Cliquez sur la barre d’une tâche <span class="preview">ou d’une affectation de rôle</span> qui indique la chronologie prévue ou projetée et faites-la glisser sur le nom d’un utilisateur dans la zone **Affecté**.
 
    L’utilisateur ou l’utilisatrice que vous survolez pour déposer l’élément de travail est mis en surbrillance.
+
+   <span class="preview">Lorsque vous faites glisser des affectations de rôle, l’utilisateur est mis en surbrillance en orange si son rôle actuel ne correspond pas à l’affectation de rôle. Vous pouvez toujours affecter le travail à l’utilisateur ou à l’utilisatrice lorsque les rôles ne correspondent pas.</span>
 
    >[!TIP]
    >
    >Le nombre d’heures prévues de l’utilisateur ou de l’utilisatrice que vous survolez est mis à jour en temps réel avec le nombre d’heures prévues quotidiennes de l’élément de travail, afin de montrer l’impact de l’ajout d’un nouvel élément sur son affectation globale.
 
-   ![Déposer l&#39;élément à affecter](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   ![Déposer l’élément à affecter à un utilisateur](assets/wb-drag-drop-role-or-task-to-user.png)
 
-1. Lorsque tout est prêt, déposez l’élément de travail sélectionné sur la même ligne que le nom de l’utilisateur ou de l’utilisatrice dans la zone Affecté. L’élément est affecté et le nombre d’heures prévues allouées est mis à jour pour l’utilisateur ou l’utilisatrice avec les nouvelles heures de l’élément de travail.
+   Exemple d’image dans l’environnement de production :
+   ![Déposer l’élément à affecter à un utilisateur](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
-   Si l’élément a été affecté à un rôle que l’utilisateur ou l’utilisatrice ne peut pas remplir, l’élément s’affiche sous son nom dans la zone Travail affecté et reste également dans la zone Travail non affecté pour indiquer que la fonction qui lui est associée n’a pas encore été remplacée par un utilisateur ou une utilisatrice.
+1. Lorsque vous êtes prêt, déposez l’élément de travail sélectionné <span class="preview">ou l’affectation de rôle</span> sur la même ligne que le nom de l’utilisateur dans la zone Affecté. L’élément est affecté et le nombre d’heures prévues allouées est mis à jour pour l’utilisateur ou l’utilisatrice avec les nouvelles heures de l’élément de travail.
+
+   <span class="preview">Si le paramètre Afficher les affectations de rôle n’est pas activé</span> et que l’élément de travail a été affecté à une fonction que l’utilisateur ne peut pas remplir, l’élément s’affiche sous le nom de l’utilisateur dans la zone Tâches affectées . Il reste également dans la zone Tâches non affectées pour indiquer que la fonction qui lui est associée n’a pas encore été remplacée par un utilisateur.
 
    >[!TIP]
    >

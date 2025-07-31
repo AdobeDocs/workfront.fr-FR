@@ -7,14 +7,16 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: d93bdaec834f5a66e663c7edc7d9ffa42ffa5918
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 88%
+source-wordcount: '770'
+ht-degree: 82%
 
 ---
 
 # Affecter manuellement du travail à l’aide de l’équilibreur de charge de travail
+
+{{preview-fast-release-general}}
 
 Vous pouvez affecter manuellement des tâches aux utilisateurs et aux utilisatrices à l’aide de l’équilibreur de charge de travail d’Adobe Workfront.
 
@@ -71,13 +73,17 @@ Vous pouvez affecter des tâches qui n’ont pas encore été attribuées à un 
 
    Vous pouvez attribuer du travail aux utilisateurs et utilisatrices à l’aide de l’équilibreur de charge de travail dans la zone Ressources, au niveau du projet ou de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localiser l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Facultatif) Accédez à la zone **Travail non affecté** et appliquez un filtre pour afficher les tâches ou les problèmes.
+1. (Facultatif) Accédez à la zone **Tâches non affectées** et appliquez un filtre pour afficher les tâches, les événements <span class="preview">ou les affectations de rôle</span>.
 
    Ou
 
    Accédez à la zone **Travail affecté** et développez le nom d’un utilisateur ou d’une utilisatrice pour afficher les éléments de travail qui lui ont été affectés, si vous souhaitez réaffecter ses éléments.
 
-1. Cliquez sur le **menu Plus** ![menu Plus](assets/qs-more-menu.png) à gauche du nom d’un élément de travail, puis cliquez sur **Affecter à**.
+   >[!NOTE]
+   >
+   ><span class="preview">Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre Afficher les affectations de rôles est activé. Pour plus d’informations, voir [Personnaliser la vue](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) dans [Accéder à l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+
+1. Cliquez sur le **menu Plus** ![menu Plus](assets/qs-more-menu.png) à gauche d’un nom d’élément de travail <span class="preview">ou d’une affectation de rôle</span>, puis cliquez sur **Affecter ceci à**.
 
    ![Affecter ceci à](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

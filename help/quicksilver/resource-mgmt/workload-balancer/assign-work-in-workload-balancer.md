@@ -6,14 +6,16 @@ description: En tant que personne gestionnaire de ressources, vous pouvez utilis
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 86%
 
 ---
 
 # Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -144,11 +146,11 @@ Le tableau suivant décrit les éléments qui s’affichent dans chaque zone en 
  </tbody> 
 </table>
 
-&#42;Lorsqu’un élément de travail est affecté à un utilisateur ou une utilisatrice et à un rôle, il ne s’affiche dans la zone Travail non affecté que si le rôle est celui de personne cessionnaire principale.
+&#42;Lorsqu’une tâche est affectée à un utilisateur et à un rôle, elle s’affiche dans la zone Tâches non affectées uniquement lorsque le rôle est la personne désignée par Principal. <span class="preview">Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre **Afficher les affectations de rôles** est activé.</span>
 
 &#42;&#42;Lorsqu’un élément de travail est attribué à un utilisateur ou une utilisatrice et à une autre entité, il ne s’affiche dans la zone de travail attribué que si la personne est la personne cessionnaire principale.
 
-Pour plus d’informations sur les zones de travail affecté et non affecté de l’équilibreur de charge de travail, voir [Naviguer dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Pour plus d’informations sur les zones Tâches non affectées et Affectées de l’équilibreur de charge de travail et sur les paramètres de l’équilibreur de charge de travail, voir [Parcourir l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Considérations relatives à plusieurs affectations pour les fonctoins, les équipes et les utilisateurs et utilisatrices
 
