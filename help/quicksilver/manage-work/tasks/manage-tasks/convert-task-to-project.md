@@ -6,10 +6,10 @@ description: Lorsqu’une tâche d’un projet nécessite plus d’efforts que p
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 * Toutes les sous-tâches, les problèmes et les notes sont intégrés au nouveau projet.
 * Les documents, les versions des documents et les épreuves sont déplacés vers le nouveau projet.
 * Le statut et le pourcentage terminé de toutes les sous-tâches et de tous les problèmes sont conservés.
-* Les utilisateurs et utilisatrices partagés de la tâche deviennent des utilisateurs et utilisatrices partagés du projet.
+* Les personnes affectées à la tâche et l’utilisateur qui convertit la tâche en projet deviennent des utilisateurs partagés sur le projet.
 * La date de début du projet correspond à la date de début de la tâche.
 * Le tableau suivant répertorie les informations relatives au projet et indique si elles sont transférées à partir du modèle ou de la tâche :
 
