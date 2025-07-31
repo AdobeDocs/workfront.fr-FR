@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2241'
 ht-degree: 7%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 7%
 
 # Gérer la mise en page de la page d’enregistrement
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -264,11 +264,16 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
 
 * Vous pouvez ajouter une page Enregistrements connectés à un enregistrement après avoir connecté des enregistrements ou des types d&#39;objet au type d&#39;enregistrement à partir de la vue Tableau d&#39;un type d&#39;enregistrement.
 
-* Vous ne pouvez pas ajouter une page Enregistrements connectés à la zone d&#39;aperçu d&#39;un enregistrement. <!--take this out when we release connected record pages to the record preview area-->
+* Dans l’environnement de production, vous ne pouvez pas ajouter une page Enregistrements connectés à la zone d’aperçu d’un enregistrement.
+
+  <span class="preview">Vous pouvez ajouter une page Enregistrements connectés à la zone d’aperçu d’un enregistrement dans l’environnement Aperçu.</span>
 
 * Les pages Enregistrements connectés affichent uniquement les objets connectés ou les enregistrements d&#39;un type d&#39;objet ou d&#39;enregistrement dans une vue Tableau. La page n’affiche pas tous les enregistrements de ce type en mode Tableau.
 
-* Après avoir ajouté une page Enregistrements connectés à un enregistrement, l’onglet de page est visible à partir de la zone d’aperçu de l’enregistrement, mais il est vide. Vous devez accéder à la page complète pour afficher la vue du tableau pour l’enregistrement connecté. &lt;!—cela changera avec la publication des pages connectées dans la zone de prévisualisation— vérifier et supprimer la clause de non-responsabilité—>
+* Selon l’environnement utilisé, vous remarquerez peut-être les éléments suivants :
+
+   * Dans l’environnement de production, après avoir ajouté une page Enregistrements connectés à un enregistrement, l’onglet de page est visible à partir de la zone d’aperçu de l’enregistrement, mais il est vide. Vous devez accéder à la page complète pour afficher la vue du tableau pour l’enregistrement connecté.
+   * <span class="preview">Dans l’environnement de Prévisualisation, la page Enregistrements connectés est visible à partir de la zone de prévisualisation de l’enregistrement et de l’onglet distinct du navigateur.</span>
 
 * Vous pouvez ajouter des pages Enregistrements connectés pour les types d’objet ou d’enregistrement connectés suivants :
 
@@ -281,18 +286,11 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
 
 Pour ajouter une page Enregistrements connectés :
 
-<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+1. Cliquez sur le nom de l’enregistrement pour l’ouvrir.
+1. Cliquez sur **Ajouter une page** dans l’une des zones suivantes :
 
-1. Click the name of the record to open it. 
-1. Click **Add page** from one of the following areas: 
-
-   * The record's preview window
-   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
-
--->
-
-1. Dans une page d&#39;enregistrement vue, cliquez sur le nom d&#39;un enregistrement pour l&#39;ouvrir, puis cliquez sur l&#39;icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d&#39;onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la page d&#39;aperçu.
-1. Cliquez sur **Ajouter une page**.
+   * <span class="preview">Fenêtre d&#39;aperçu de l&#39;enregistrement</span>
+   * la page de détails de l’enregistrement, après avoir cliqué sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la page d’aperçu.
 
    La boîte de dialogue **Créer une page** s’ouvre.
 
@@ -306,8 +304,6 @@ La vue Tableau du type d’enregistrement que vous avez sélectionné s’affich
 Tous les champs de l&#39;enregistrement connecté s&#39;affichent dans la vue Tableau de l&#39;onglet de l&#39;enregistrement connecté.
 
    Les cinq premiers champs de la table des enregistrements connectés s’affichent par défaut. Aucun champ de recherche n’est affiché par défaut.
-
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Vue du tableau connecté à l’audience sous les détails de la campagne](assets/audience-connected-table-view-under-campaign-details-page.png)
 

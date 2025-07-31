@@ -7,25 +7,24 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 26%
+source-wordcount: '1280'
+ht-degree: 24%
 
 ---
 
 # Gérer l’équipe de projet
 
-<!--
-<div class="preview"> 
+<!--take preview and production references out at production - August 7-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire.
 
-</div> 
+Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
--->
+</div>
 
 L’équipe de projet est composée des utilisateurs et utilisatrices associés au projet. Pour plus d’informations, voir [Vue d’ensemble de l’équipe de projet](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -243,7 +242,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Sélectionnez un ou plusieurs utilisateurs dans la liste, puis cliquez sur **Mettre à jour**.
 
-   <!--update screen shot for unshim-->
+   <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
    ![Envoyer la mise à jour à la zone utilisateur sur le modèle](assets/send-update-to-user-on-template-box.png)
 
@@ -251,20 +250,23 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Procédez comme suit :
 
-   * Ajoutez une mise à jour pour les utilisateurs sélectionnés.
-   * Cliquez sur l’icône Personnes pour identifier d’autres utilisateurs et utilisatrices qui recevront la même mise à jour.
-   * Cliquez sur l’icône de verrou pour rendre la mise à jour privée pour les utilisateurs de votre entreprise.
-   * Cliquez sur **Envoyer**.
+   * Dans l’environnement de production :
 
-   <!--replace list above with:
+      * Ajoutez une mise à jour pour les utilisateurs sélectionnés.
+      * Cliquez sur l’icône Personnes pour identifier d’autres utilisateurs et utilisatrices qui recevront la même mise à jour.
+      * Cliquez sur l’icône de verrou pour rendre la mise à jour privée pour les utilisateurs de votre entreprise.
+      * Cliquez sur **Envoyer**.
+
+   * <span class="preview">Dans l’environnement Aperçu : </span>
+
    <div class="preview">
 
-   * Add an update for the selected users.
-   * Click **Tag people** to tag additional users to receive the same update. 
-   * Select the **Private to my company** option to to make the update private to the users in your company. 
-   * Click **Send**. 
+   * Ajoutez une mise à jour pour les utilisateurs sélectionnés.
+   * Cliquez sur **Taguer des personnes** pour taguer d’autres utilisateurs et utilisatrices afin de recevoir la même mise à jour.
+   * Sélectionnez l’option **Privé à ma société** pour rendre la mise à jour privée pour les utilisateurs de votre société.
+   * Cliquez sur **Envoyer**.
+
    </div>
-   -->
 
    La mise à jour est ajoutée à la section **Mises à jour** du profil de chaque utilisateur balisé.
 
