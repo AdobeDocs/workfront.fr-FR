@@ -6,14 +6,16 @@ description: Si vous ne disposez pas de l’accès ou des autorisations nécessa
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 80%
+source-wordcount: '502'
+ht-degree: 73%
 
 ---
 
 # Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail
+
+{{preview-fast-release-general}}
 
 Si vous ne disposez pas de l’accès ou des autorisations nécessaires, il se peut que vous ne puissiez pas afficher ou gérer vos affectations de travail dans l’équilibreur de charge de travail.
 
@@ -81,6 +83,8 @@ Vous devez disposer de l’accès suivant pour visualiser l’équilibreur de ch
 </table>
 
 Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<span class="preview">Tous les utilisateurs ont accès à l’équilibreur de charge de travail sur leurs propres profils. Ce n’est pas limité par la licence ou le niveau d’accès. Notez que l’équilibreur de charge de travail sur un profil utilisateur est en lecture seule et que les affectations et les allocations ne peuvent pas être modifiées.</span>
 
 ## Accès nécessaire pour gérer les affectations dans l’équilibreur de charge de travail
 

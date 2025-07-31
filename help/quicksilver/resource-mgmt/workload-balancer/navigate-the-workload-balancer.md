@@ -6,10 +6,10 @@ description: Utilisez l’équilibreur de charge de travail pour vérifier la di
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '4271'
-ht-degree: 91%
+source-wordcount: '4371'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ Utilisez l’équilibreur de charge de travail d’Adobe Workfront pour affecte
 
 L’équilibreur de charge de travail est disponible dans plusieurs zones d’Adobe Workfront. Son fonctionnement est similaire dans toutes les zones.
 
-Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, consultez la section [Localiser l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, consultez la section [Localiser l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Conditions d’accès
 
@@ -109,8 +109,8 @@ Pour plus d’informations sur l’affichage des informations dans l’équilibr
 
 Pour plus d’informations sur la gestion des ressources à l’aide de l’équilibreur de charge de travail, consultez également les articles suivants :
 
-* [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Naviguer dans l’équilibreur de charge de travail pour plusieurs projets dans la zone Ressources
@@ -478,12 +478,37 @@ La page de votre équipe interne s’affiche par défaut.
 
    Pour plus d’informations, consultez la section [Vue d’ensemble de la réconciliation des affectations de ressources entre les projets et les initiatives](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-
    >[!NOTE]
    >
    >Vous ne pouvez pas consulter les informations sur une fonction liée à une initiative si votre organisation n’a pas acheté de licence pour le planificateur de scénarios Workfront. Dans ce cas, vous ne pouvez consulter que le nombre d’heures prévues associé aux fonctions du projet. Pour plus d’informations, consultez la section [Accès requis pour utiliser le planificateur de scénarios](../../scenario-planner/access-needed-to-use-sp.md).
 
 1. Continuez à parcourir l’équilibreur de charge de travail d’un projet comme décrit dans la section [Parcourir l’équilibreur de charge de travail de plusieurs projets](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de cet article.
+
+<div class="preview">
+
+### Naviguer dans l’équilibreur de charge de travail d’un utilisateur
+
+Vous pouvez accéder à l’équilibreur de charge de travail à partir de votre propre profil utilisateur.
+
+{{step1-click-profile-pic}}
+
+1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
+
+   L’équilibreur de charge de travail de l’utilisateur s’affiche.
+
+   ![Équilbreur de charge de travail pour un utilisateur](assets/workload-balancer-user.png)
+
+   L’équilibreur de charge de travail d’un utilisateur affiche les informations suivantes par défaut :
+
+   * **Travail affecté** : tâches et événements affectés à l’utilisateur spécifique.
+
+   >[!NOTE]
+   >
+   >L’équilibreur de charge de travail sur un profil utilisateur est en lecture seule et les affectations et les allocations ne peuvent pas être modifiées.
+
+1. Poursuivez la navigation dans l’équilibreur de charge de travail d’un utilisateur comme décrit dans la section [Naviguer dans l’équilibreur de charge de travail pour plusieurs projets](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de cet article.
+
+</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

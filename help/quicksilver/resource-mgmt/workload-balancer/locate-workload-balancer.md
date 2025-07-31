@@ -3,18 +3,20 @@ product-area: resource-management
 keywords: travail,équipe,personnel,ressources
 navigation-topic: the-workload-balancer
 title: Localiser l’équilibreur de charge de travail
-description: Utilisez l’équilibreur de charge de travail pour planifier le travail des ressources ou vérifier leur disponibilité et affectations actuelles.
+description: L’équilibreur de charge de travail est disponible pour plusieurs projets dans la zone Ressource, pour une équipe, pour un projet et pour un utilisateur.
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 92%
+source-wordcount: '841'
+ht-degree: 78%
 
 ---
 
 # Localiser l’équilibreur de charge de travail
+
+{{preview-fast-release-general}}
 
 Utilisez l’équilibreur de charge de travail pour planifier le travail des ressources ou vérifier leur disponibilité et affectations actuelles.
 
@@ -55,7 +57,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td><p>Nouveau : Standard</p>
        <p>ou</p>
        <p>Actuelle : planification, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource;</br>
-       Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+       Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
+       <p><span class="preview">Remarque : tous les utilisateurs peuvent accéder à l’équilibreur de charge de travail dans leurs propres profils utilisateur, sans aucune exigence de licence.</span></p></td>
   </tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès Affichage ou niveau supérieur aux éléments suivants :</p> 
@@ -137,6 +140,27 @@ La page de votre équipe interne s’affiche.
      >
      >Vous pouvez afficher tous les utilisateurs et utilisatrices du système au lieu d’afficher uniquement ceux du projet (dans la zone de travail attribuée) en activant l’option Afficher tous les utilisateurs et utilisatrices. Pour plus d’informations, voir [Naviguer dans l’équilibreur de charge de travail](../workload-balancer/navigate-the-workload-balancer.md).
 
+<div class="preview">
+
+### Accès à l’équilibreur de charge de travail pour un utilisateur
+
+Tous les utilisateurs ont accès à l’équilibreur de charge de travail sur leurs propres profils. Les données de l’équilibreur de charge de travail d’un utilisateur sont en lecture seule. Vous ne pouvez pas affecter de travail, annuler l’affectation d’un travail ou ajuster les allocations au niveau de l’utilisateur.
+
+Tous les paramètres d’affichage sont disponibles pour l’équilibreur de charge de travail pour un utilisateur ou une utilisatrice. Pour plus d’informations, voir [Naviguer dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+
+{{step1-click-profile-pic}}
+
+1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
+
+   L’équilibreur de charge de travail de l’utilisateur s’affiche.
+
+   ![Équilbreur de charge de travail pour un utilisateur](assets/workload-balancer-user.png)
+
+   L’équilibreur de charge de travail d’un utilisateur affiche les informations suivantes par défaut :
+
+   * **Travail affecté** : tâches et événements affectés à l’utilisateur spécifique.
+
+</div>
 
 ## Ajouter l’équilibreur de charge de travail à une section personnalisée
 
