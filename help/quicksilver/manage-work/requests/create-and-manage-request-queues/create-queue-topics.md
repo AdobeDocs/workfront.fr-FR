@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
+source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 84%
+source-wordcount: '937'
+ht-degree: 86%
 
 ---
 
@@ -183,5 +183,5 @@ Pour modifier une rubrique de file d&#39;attente existante :
 1. Accédez au projet ou au modèle contenant la rubrique de file d&#39;attente à modifier.
 1. Cliquez sur **Rubriques de file d’attente** dans le panneau de gauche.
 1. Dans l’environnement de production, sélectionnez la rubrique de file d’attente que vous souhaitez modifier. Sur la page Détails qui s&#39;ouvre, cliquez sur **Modifier rubrique de file d&#39;attente**.
-1. <span class="preview">Dans l’environnement Aperçu, sélectionnez la rubrique de file d’attente à modifier, puis cliquez sur l’icône Modifier ![icône Modifier](assets/edit-icon.png).</span>
+   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
 
