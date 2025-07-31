@@ -4,12 +4,11 @@ description: Améliorations de la gestion des ressources pour le quatrième trim
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 610066cc1b5703d048e867767474fb5335a2b0d5
+exl-id: c8c03cb5-0468-4c2b-b69e-70e4c1354514
+source-git-commit: 0dfeebeef4369a67072368eb4034e105818b99a5
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 17%
+source-wordcount: '311'
+ht-degree: 14%
 
 ---
 
@@ -19,11 +18,25 @@ Cette page décrit les améliorations apportées à la gestion des ressources av
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2025, voir [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## L’équilibreur de charge de travail est désormais disponible sur votre profil utilisateur
+
+>[!NOTE]
+>
+>* Aperçu : 31 juillet 2025
+>* Version rapide de production : 14 août 2025
+>* Version de production pour toute la clientèle : vendredi 16 octobre 2025
+
+Tous les utilisateurs peuvent désormais afficher leurs propres données de demande et de capacité dans l’équilibreur de charge de travail à partir de leur profil, quel que soit leur niveau d’accès. Lorsque vous accédez à votre profil utilisateur Workfront, l’équilibreur de charge de travail s’affiche dans le panneau de navigation de gauche.
+
+Les données de l’équilibreur de charge de travail d’un utilisateur sont en lecture seule. Vous ne pouvez pas affecter de travail, annuler l’affectation d’un travail ou ajuster les allocations au niveau de l’utilisateur.
+
+Pour plus d’informations, voir [Rechercher l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md).
+
 ## Les affectations de rôles s’affichent dans l’équilibreur de charge de travail
 
 >[!NOTE]
 >
->* Aperçu : 24 juillet 2025
+>* Aperçu : 31 juillet 2025
 >* Version rapide de production : 14 août 2025
 >* Version de production pour toute la clientèle : vendredi 16 octobre 2025
 

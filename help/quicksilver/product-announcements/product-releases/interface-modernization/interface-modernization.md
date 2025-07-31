@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '5961'
+source-wordcount: '6162'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,50 @@ Pour afficher cette modification, accédez à Configuration > Système > Mettre 
 
 ## Projets
 
+## Nouvelle apparence de la section Détails de la file d’attente sur un modèle
+
+**Version préliminaire : 31 juillet 2025 ; Version de production : 7 août 2025**
+
+Nous avons mis à jour l’aspect de la section Détails de la file d’attente d’un modèle. L’aspect de la section Détails de la file d’attente correspond désormais à d’autres zones de Workfront.
+
+Pour plus d’informations, voir [Créer une file d’attente des demandes](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+<!--## Interface updates when bulk editing templates
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+
+## Mises à jour de l’interface pour la zone Envoyer la mise à jour à l’utilisateur ou à l’utilisatrice sur un modèle
+
+**Version préliminaire : 31 juillet 2025 ; Version de production : 7 août 2025**
+
+Nous avons mis à jour l’aspect de la zone Envoyer la mise à jour aux utilisateurs lorsqu’ils y accèdent à partir de l’onglet Personnes d’un modèle. La zone Envoyer la mise à jour à l’utilisateur correspond désormais à d’autres zones de Workfront lorsque vous envoyez une mise à jour à un ou plusieurs utilisateurs.
+
+Pour plus d’informations, voir [Gérer l’équipe du projet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+
+<!--## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+
+## Mises à jour de l’interface pour les enregistrements de facturation
+
+**Version préliminaire : 31 juillet 2025 ; Version de production : 7 août 2025**
+
+Nous avons mis à jour l’aspect des pages Heures facturables, Dépenses facturables et Revenus fixes des enregistrements de facturation pour qu’elles correspondent à d’autres zones de l’application. Les boîtes de dialogue pour ajouter de nouvelles heures facturables, des dépenses facturables et des revenus fixes ont également été mises à jour.
+
+Pour afficher ces modifications, accédez à un projet > Enregistrements de facturation > sélectionnez un enregistrement de facturation > Heures facturables, Dépenses facturables ou Revenus fixes > ajouter de nouvelles heures facturables, des dépenses facturables ou des revenus fixes.
+
+Pour plus d’informations, voir [Créer des enregistrements de facturation](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
+
 ## Mises à jour de l’interface pour la zone Importer le fichier MS Project
 
 **Version préliminaire : 24 juillet 2025 ; Version de production : à annoncer**
@@ -84,7 +128,7 @@ Pour plus d’informations, voir [Gérer les dépenses des projets](/help/quicks
 
 Nous avons mis à jour l&#39;aspect d&#39;une règle de transmission lors de sa modification sur un modèle. La page de modification des règles de transmission correspond désormais à la conception d’autres zones de Workfront.
 
-Une petite modification de fonctionnalité a été appliquée à la liste des règles de transmission. Pour modifier une règle de transmission, sélectionnez-la dans la liste et cliquez sur l&#39;icône Modifier.
+Pour modifier une règle de transmission, sélectionnez-la dans la liste et cliquez sur l&#39;icône Modifier.
 
 Pour plus d’informations, voir la section [Créer des règles de transmission](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
@@ -98,7 +142,7 @@ Nous avons mis à jour l’aspect des listes suivantes dans les modèles :
 * Groupes de sujets
 * Règles de routage
 
-Une petite modification de fonctionnalité a été appliquée aux listes. Pour modifier ou supprimer un élément de l&#39;une de ces listes, sélectionnez-le et cliquez sur l&#39;icône appropriée.
+Pour modifier ou supprimer un élément de l&#39;une de ces listes, sélectionnez-le et cliquez sur l&#39;icône appropriée.
 
 Pour plus d’informations, voir
 
@@ -398,6 +442,11 @@ Pour plus d’informations, voir [ Copier un modèle de projet ](/help/quicksilv
 ### Mises à jour de l’apparence lors de l’ajout d’objets à des programmes et portfolios
 
 **Version préliminaire : 22 mai 2025 ; Version de production : 29 mai 2025**
+
+>[!NOTE]
+>
+>Temporairement supprimé de l’aperçu et de la production
+
 
 Nous avons mis à jour l’interface pour les zones Ajouter en procédant comme suit :
 

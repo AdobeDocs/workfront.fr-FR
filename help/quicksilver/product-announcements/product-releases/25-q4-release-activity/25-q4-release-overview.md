@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 29%
+source-wordcount: '1190'
+ht-degree: 23%
 
 ---
 
@@ -38,9 +38,30 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Améliorations apportées à Adobe Workfront
 
-* [Améliorations apportées aux documents et aux relectures](#document-and-proofing-enhancements)
-  <!--* [Resource Management enhancements](#resource-management-enhancements)-->
+* [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
+* [Améliorations des documents et des épreuves](#document-and-proofing-enhancements)
+<!--* [Home enhancements](#home-enhancements)
+* [Requests enhancements](#requests-enhancements)-->
+* [Amélioration apportées à la gestion des ressources.](#resource-management-enhancements)
 * [Autres améliorations](#other-enhancements)
+
+### Améliorations apportées aux administrateurs et administratrices
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Ajouter plusieurs options de valeur d’une API externe à un formulaire personnalisé</a><p></p>
+            <p>Un nouveau type de champ, Recherche externe à sélection multiple, est désormais disponible dans le concepteur de formulaire personnalisé. Lorsque des données sont stockées sur un système externe, ce type de champ vous permet de charger des options à partir d’une API externe et de filtrer en fonction d’autres valeurs de champ du formulaire personnalisé. Il s’agit de la même chose qu’une recherche externe à sélection unique.</p>
+            <p>Lorsque le formulaire est ajouté à un objet , les valeurs renvoyées par l’API apparaissent dans un champ déroulant et l’utilisateur peut sélectionner plusieurs valeurs.</p>
+        </td>
+        <td>vendredi 31 juillet 2025</td>
+        <td>vendredi 14 août 2025</td>
+        <td>vendredi 16 octobre 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
 
 ### Améliorations des documents et des épreuves
 
@@ -65,24 +86,77 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-
-
-<!--### Resource Management enhancements
+<!--### Home enhancements
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
-            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
-            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
+            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <ul>
+                <li>Improved layout and organization of request information</li>
+                <li>Enhanced filtering and sorting options</li>
+                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+            </ul>
+            </p>
         </td>
-        <td>July 24, 2025</td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
+            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <ul>
+                <li>View Workfront and Workfront Planning requests in a single list.</li>
+                <li>Filter submitted requests based on criteria you specify.</li>
+                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
+                <li>Hide and reorder columns in the submitted requests list.</li>
+            </ul>
+            </p>
+        </td>
+        <td>July 31, 2025</td>
         <td>August 14, 2025</td>
         <td>October 16, 2025</td>
     </tr>     
   </tbody>
 </table> -->
+
+### Amélioration apportées à la gestion des ressources.
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">L’équilibreur de charge de travail est désormais disponible sur votre profil utilisateur</a><p></p>
+            <p>Tous les utilisateurs peuvent désormais afficher leurs propres données de demande et de capacité dans l’équilibreur de charge de travail à partir de leur profil, quel que soit leur niveau d’accès. Lorsque vous accédez à votre profil utilisateur Workfront, l’équilibreur de charge de travail s’affiche dans le panneau de navigation de gauche.</p>
+            <p>Les données de l’équilibreur de charge de travail d’un utilisateur sont en lecture seule. Vous ne pouvez pas affecter de travail, annuler l’affectation d’un travail ou ajuster les allocations au niveau de l’utilisateur.</p>
+        </td>
+        <td>vendredi 31 juillet 2025</td>
+        <td>vendredi 14 août 2025</td>
+        <td>vendredi 16 octobre 2025</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Les affectations de rôles s’affichent dans la </a> de l’équilibreur de charge de travail<p></p>
+            <p>Les gestionnaires de ressources peuvent désormais consulter les affectations de fonction dans l’équilibreur de charge de travail. Les affectations s'affichent dans la zone Tâches non affectées, sous les tâches ou événements auxquels les rôles sont affectés. Seules les tâches affectées aux utilisateurs s’affichent dans la zone Tâches affectées . </p>
+            <p>Un nouveau paramètre de l’équilibreur de charge de travail, Afficher les affectations de rôles, détermine si les affectations de rôles s’affichent. Le paramètre est activé par défaut.</p>
+        </td>
+        <td>vendredi 31 juillet 2025</td>
+        <td>vendredi 14 août 2025</td>
+        <td>vendredi 16 octobre 2025</td>
+    </tr>     
+  </tbody>
+</table>
 
 ### Autres améliorations
 
@@ -133,7 +207,7 @@ Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’
 
 ### Améliorations de Workfront Fusion
 
-De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations apportées à Workfront Planning
 
@@ -144,6 +218,18 @@ Il n’existe aucune mise à jour pour les éléments suivants à ce stade de la
 * Planificateur de scénarios
 * Épreuve
 * Objectifs
+
+## Mises à jour du lecteur de vérification pour bureau
+
+### Version 2.1.52
+
+**Version de production pour tous les clients : 31 juillet 2025**
+
+Le lecteur de vérification pour bureau a été mis à jour vers la version 2.1.52, qui corrige les bugs.
+
+La mise à jour 2.1.51 incluait des mises à jour d’outils internes et n’avait aucune incidence sur les fonctionnalités de l’utilisateur final.
+
+Cette mise à jour concerne Mac et Windows.
 
 ## Annonces
 
@@ -170,7 +256,7 @@ Pour offrir des intégrations plus stables et plus évolutives, nous passons à 
 * Workfront pour Salesforce.
 
 Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
-Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Version 20 de l’API
 
@@ -182,7 +268,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
