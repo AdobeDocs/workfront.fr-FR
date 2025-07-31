@@ -3,19 +3,21 @@ title: Création d’un formulaire personnalisé
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Vous pouvez concevoir un formulaire personnalisé à l’aide du créateur de formulaire. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données en rapport avec ces objets.
+description: Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaires. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données en rapport avec ces objets.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
+source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
 workflow-type: tm+mt
-source-wordcount: '6589'
+source-wordcount: '6606'
 ht-degree: 52%
 
 ---
 
 # Créer un formulaire personnalisé
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -88,8 +90,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    * [Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes](#add-radio-buttons-checkbox-groups-and-drop-downs)
    * [Ajouter des champs de frappe continue et des champs de date](#add-typeahead-and-date-fields)
    * [Ajouter des champs de recherche externes](#add-external-lookup-fields)
-   * [&#128279;](#add-images-pdfs-and-videos)Ajouter des images, des fichiers PDF et des vidéos
-
+   * [Ajouter des images, des fichiers PDF et des vidéos
+](#add-images-pdfs-and-videos)
    * [Ajouter des champs natifs Workfront](#add-workfront-native-fields)
    * [Ajouter des fichiers Adobe XD](#add-adobe-xd-files)
    * [Ajouter des champs de connexion Planning](#add-planning-connection-fields)
@@ -134,7 +136,7 @@ Chaque nom de champ personnalisé doit être unique dans l’instance Workfront 
 >[!NOTE]
 >
 >Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom après que vous ou d’autres utilisateurs avez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé là où il peut être référencé actuellement dans d’autres zones de Workfront.
->&#x200B;>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement, à moins que vous ne le rajoutiez au rapport en utilisant le nouveau nom.
+>>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement, à moins que vous ne le rajoutiez au rapport en utilisant le nouveau nom.
 >
 >Nous vous recommandons de ne pas saisir un nom déjà utilisé pour les champs Workfront intégrés.
 >
@@ -294,7 +296,7 @@ Pour ajouter un champ de texte, procédez comme suit :
 
 Dans un formulaire personnalisé, vous pouvez ajouter un champ personnalisé calculé qui utilise les données existantes pour générer de nouvelles données lorsque le formulaire personnalisé est joint à un objet.
 
-Pour ajouter un champ calculé, consultez la section [Ajouter des champs calculés avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour ajouter un champ calculé, consultez la section [Ajouter des champs calculés avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 ### Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes
 
@@ -573,7 +575,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
 
 ### Ajouter des champs de recherche externe
 
-Un champ de recherche externe appelle une API externe et renvoie des valeurs sous forme d’options dans un champ déroulant. Les utilisateurs qui travaillent avec l’objet auquel le formulaire personnalisé est joint peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante. Le champ de recherche externe est également disponible dans les listes et les rapports.
+Un champ de recherche externe appelle une API externe et renvoie des valeurs sous forme d’options dans un champ déroulant. Les utilisateurs qui travaillent avec l’objet auquel le formulaire personnalisé est joint peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante, selon que le champ de recherche externe est un champ à sélection unique ou multiple. Les champs de recherche externe sont également disponibles dans les listes et les rapports.
 
 Pour obtenir des exemples d’utilisation du champ de recherche externe pour appeler la même instance de Workfront ou une API publique, voir [Exemples du champ de recherche externe dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
@@ -584,7 +586,7 @@ Pour obtenir des exemples d’utilisation du champ de recherche externe pour app
 
 Pour ajouter une recherche externe, procédez comme suit :
 
-1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez **Recherche externe** et faites-la glisser vers une section de la zone de travail.
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez **Recherche externe** ou <span class="preview">**Recherche externe à sélection multiple**</span>, puis faites-la glisser vers une section de la zone de travail.
 1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
 
    <table style="table-layout:auto"> 
@@ -633,12 +635,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Cela permet de sélectionner les valeurs à l’intérieur du fichier JSON qui apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si votre URL d’API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
       <pre>
-      &lbrace;
-data: &lbrace;
+      {
+data: {
 { name: "USA"},
 { name: "Canada"}
-&rbrace;
-&rbrace;
+}
+}
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -648,8 +650,8 @@ data: &lbrace;
       <td><p>Cliquez sur <strong>Ajouter un en-tête</strong>, puis saisissez ou collez la paire clé-valeur requise pour l’authentification avec l’API.</p><p><strong>Remarque :</strong> les champs d’en-tête ne sont pas un emplacement sécurisé pour stocker les informations d’identification. Vous devez faire attention à ce que vous saisissez et enregistrez.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">Menu déroulant multi-sélection</td>
-      <td><p>Sélectionnez cette option pour permettre à l’utilisateur de sélectionner plusieurs valeurs dans la liste déroulante.</p></td>
+      <td role="rowheader"><span class="preview">Menu déroulant multi-sélection</span></td>
+      <td><p><span class="preview">Sélectionnez cette option pour permettre à l’utilisateur de sélectionner plusieurs valeurs dans la liste déroulante.</span></p></td>
      </tr>
      </tr>
      <tr> 
@@ -856,7 +858,7 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
      </tr> 
      <tr> 
       <td role="rowheader">Champ de référence</td> 
-      <td><p>(Obligatoire) Sélectionnez un champ natif Workfront.<p><p>Seuls les champs natifs des objets du formulaire sont disponibles. Par exemple, si la liste des types d’objets en haut du créateur de formulaire affiche Projet, vous pourrez sélectionner des champs natifs pour les projets, mais pas des champs spécifiques aux tâches.</p></td>
+      <td><p>(Obligatoire) Sélectionnez un champ natif Workfront.<p><p>Seuls les champs natifs des objets du formulaire sont disponibles. Par exemple, si la liste des types d’objets en haut du concepteur de formulaires affiche Projet, vous pourrez sélectionner des champs natifs pour les projets, mais pas des champs spécifiques aux tâches.</p></td>
      </tr>
      <tr>
       <td role="rowheader">Ajouter filtre</td>

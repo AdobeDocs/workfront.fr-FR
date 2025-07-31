@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 0e7000597e2347bff0bc626d21aa9a6c9a839c0b
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 65%
@@ -17,7 +17,7 @@ ht-degree: 65%
 
 # Personnaliser les pages épinglées à l’aide d’un modèle de mise en page
 
-Dans un modèle de mise en page, vous pouvez épingler les pages que vous souhaitez que les utilisateurs et utilisatrices aient toujours à leur disposition en haut d’Adobe Workfront. Il peut s&#39;agir de pages accessibles via le menu principal ![icône du menu principal](assets/main-menu-icon.png) ou le menu principal ![icône du menu principal](assets/main-menu-icon.png) le cas échéant, ou de tableaux de bord.
+Dans un modèle de mise en page, vous pouvez épingler les pages que vous souhaitez que les utilisateurs et utilisatrices aient toujours à leur disposition en haut d’Adobe Workfront. Il peut s&#39;agir de pages accessibles via le menu principal ![icône du menu principal](assets/main-menu-icon.png) ou le menu principal ![icône du menu principal](assets/main-menu-icon-left-nav.png) le cas échéant, ou de tableaux de bord.
 
 Toutes les épingles que vos utilisateurs et utilisatrices ont ajoutées eux-mêmes sont affichées à droite des épingles que vous avez ajoutées dans le modèle de mise en page.
 
