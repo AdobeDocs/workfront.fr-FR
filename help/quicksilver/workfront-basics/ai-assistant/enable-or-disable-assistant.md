@@ -5,10 +5,10 @@ description: Vous pouvez contrôler les niveaux d’accès de votre organisation
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 0dcf12ed00c04e9d7acddfd034dbba6357bb1385
+source-git-commit: 7f5e054129a538ff8ac1ca82dc8c4564b22fa5ec
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 32%
+source-wordcount: '250'
+ht-degree: 33%
 
 ---
 
@@ -55,11 +55,10 @@ Pour activer l’assistant AI pour un niveau d’accès donné :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **Niveaux d’accès** dans le volet de navigation de gauche.
-1. Sélectionnez le niveau d’accès pour lequel vous souhaitez activer l’assistant AI.
-1. Dans la fenêtre Modifier le niveau d&#39;accès, faites défiler la page vers le bas de la fenêtre et cliquez sur **Définir des restrictions supplémentaires...**.
-1. Dans la zone Définir des restrictions supplémentaires , désactivez l’option **Désactiver les fonctionnalités d’IA**.
+1. Sélectionnez le niveau d’accès souhaité, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) au-dessus de la liste.
+1. Dans la zone **Définir des restrictions supplémentaires...** de la case **Modifier le niveau d’accès**, désélectionnez la case **Désactiver l’assistant Workfront AI**.
 1. Cliquer sur **Enregistrer**.
-1. Répétez les étapes 3 à 6 pour chaque niveau d’accès pour lequel vous souhaitez activer l’assistant d’IA.
+1. Répétez les étapes 3 à 6 pour chaque niveau d’accès pour lequel vous souhaitez activer l’assistant AI.
 
 >[!NOTE]
 >
