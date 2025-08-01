@@ -6,10 +6,10 @@ description: Recalculer les chronologies permet aux personnes chargées de la ge
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d846f2f90a8ca2a38c1b18897341cb50f4c5aef4
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 65%
+source-wordcount: '1060'
+ht-degree: 58%
 
 ---
 
@@ -27,7 +27,7 @@ Le recalcul automatique de la chronologie se produit sans accès spécial pour l
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,9 +39,8 @@ Le recalcul automatique de la chronologie se produit sans accès spécial pour l
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p> 
-   Ou
-   <p>Actuel : formule </p>
+   <td> <p>Standard </p> 
+    <p>Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -63,17 +62,21 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Par défaut, les chronologies des projets sont automatiquement recalculées tous les jours lorsque la portée des projets change ou toutes les nuits. L’administrateur Workfront détermine s’il faut calculer automatiquement les chronologies toutes les nuits ou avec chaque modification de la portée en gérant les paramètres des chronologies dans les Préférences du projet de la Configuration. Pour plus d’informations, voir [Configurer les nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Si la chronologie d&#39;un projet dépasse 15 ans, le recalcul automatique est désactivé pour ce projet et vous ne pouvez sélectionner qu&#39;un type de mise à jour manuelle. Si vous définissez les dates du projet sur moins de 15 ans, vous devez recalculer manuellement votre chronologie une fois avant qu’elle ne soit calculée automatiquement.
+>* Si la chronologie d&#39;un projet dépasse 15 ans, le recalcul automatique est désactivé pour ce projet et vous ne pouvez sélectionner qu&#39;un type de mise à jour manuelle. Si vous définissez les dates du projet sur moins de 15 ans, vous devez recalculer manuellement votre chronologie une fois avant qu’elle ne soit calculée automatiquement.
+>* Pour les environnements Sandbox de prévisualisation et d’actualisation personnalisée, le recalcul nocturne est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour les environnements de prévisualisation et de sandbox d’actualisation personnalisée.
+>* Si un projet est complexe, le recalcul automatique de la chronologie peut ne pas se produire.
+>  > Un exemple de projet complexe peut être un projet avec plusieurs dépendances, un grand nombre de tâches, plusieurs prédécesseurs interprojets ou plusieurs indentations de tâches.
+>  > Workfront place un avertissement à droite du nom du projet sur la page du projet pour informer les utilisateurs que la chronologie du projet doit être recalculée manuellement. Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour le projet peuvent recalculer manuellement la chronologie.
+>
+>   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>
 
 * [Recalcul automatique des chronologies des projets](#automatic-recalculation-of-project-timelines)
 * [Actions qui déclenchent un recalcul automatique des chronologies des projets.](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
 
->[!IMPORTANT]
->
->Pour les environnements Sandbox de prévisualisation et d’actualisation personnalisée, le recalcul nocturne est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour les environnements de prévisualisation et de sandbox d’actualisation personnalisée.
 
 ### Recalcul automatique des chronologies des projets {#automatic-recalculation-of-project-timelines}
 
@@ -86,7 +89,7 @@ Workfront recalcule les chronologies quotidiennement uniquement pour les projets
 
 * Disposer d’une date de dernière mise à jour au cours des 3 derniers mois. Un administrateur Workfront peut modifier cette fonctionnalité par défaut. Pour plus d’informations, voir [Configurer les nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-* La dernière date de calcul de la chronologie du projet ne se situe pas dans la journée calendaire en cours. Cela signifie que la date du dernier calcul de la chronologie du projet est antérieure à 00:00 du jour en cours.
+* La dernière date de calcul de la chronologie du projet ne se situe pas dans la journée calendaire en cours. Cela signifie que la dernière date de calcul de la chronologie du projet est antérieure à 00:00 du jour en cours.
 
 Vous pouvez configurer la fréquence de mise à jour de la chronologie de votre projet. Lorsque la chronologie du projet est mise à jour, elle est recalculée en fonction des modifications apportées au projet.
 
