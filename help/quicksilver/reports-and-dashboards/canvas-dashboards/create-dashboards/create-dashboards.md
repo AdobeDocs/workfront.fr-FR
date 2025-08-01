@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Créer un tableau de bord Zone de travail
+title: Créer un tableau de bord de zone de travail
 description: Grâce aux tableaux de bord de la zone de travail, vous pouvez créer et ajouter des rapports à un tableau de bord personnalisable pour visualiser rapidement les données de votre compte.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 16%
 
 ---
 
-# Créer un tableau de bord Zone de travail
+# Créer un tableau de bord de zone de travail
 
 >[!IMPORTANT]
 >
@@ -55,7 +55,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Créer un tableau de bord
 
-Les tableaux de bord de la zone de travail offrent un large éventail d’options et de configurations que vous pouvez utiliser lors de la création d’un tableau de bord. Dans cette section, nous vous guiderons à travers le processus général de création d’un tableau de bord.
+Les tableaux de bord de la zone de travail offrent une grande variété d’options et de configurations que vous pouvez utiliser lors de la création d’un tableau de bord. Dans cette section, nous vous guiderons à travers le processus général de création d’un tableau de bord.
 
 {{step1-to-dashboards}}
 

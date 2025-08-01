@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Organiser les rapports dans un tableau de bord
+title: Organiser les rapports dans un tableau de bord Zone de travail
 description: Vous pouvez organiser l’affichage des rapports dans un tableau de bord Zone de travail après les avoir ajoutés.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 18%
+source-wordcount: '258'
+ht-degree: 17%
 
 ---
 
-# Organiser les rapports dans un tableau de bord
+# Organiser les rapports dans un tableau de bord Zone de travail
 
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Une fois qu’un rapport est ajouté à un tableau de bord, il s’affiche sous la forme d’un widget de rapport dans le tableau de bord afin que vous puissiez rapidement visualiser ses données en un coup d’œil. Une fois que plusieurs rapports ont été ajoutés, il est recommandé de réorganiser la taille et l’ordre de chaque widget pour afficher plus efficacement les données du tableau de bord.
+Une fois qu’un rapport est ajouté à un tableau de bord Zone de travail, il s’affiche sous la forme d’un widget de rapport dans le tableau de bord afin que vous puissiez rapidement visualiser ses données en un coup d’œil. Une fois que plusieurs rapports ont été ajoutés, il est recommandé de réorganiser la taille et l’ordre de chaque widget pour afficher plus efficacement les données du tableau de bord.
 
 +++ Développez pour afficher les exigences d’accès.
 

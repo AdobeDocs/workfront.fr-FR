@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Création d’un rapport tabulaire
+title: Créer un rapport de tableau dans un tableau de bord de zones de travail
 description: Vous pouvez ajouter un rapport tabulaire à un tableau de bord Zone de travail afin de visualiser vos données dans un format de tableau.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 12%
+source-wordcount: '444'
+ht-degree: 15%
 
 ---
 
-# Création d’un rapport tabulaire
+# Créer un rapport de tableau dans un tableau de bord de zones de travail
 
 >[!IMPORTANT]
 >

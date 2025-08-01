@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Supprimer un tableau de bord
+title: Suppression d’un tableau de bord de zone de travail
 description: Vous pouvez organiser l’affichage des rapports dans un tableau de bord Zone de travail après les avoir ajoutés.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 29%
+source-wordcount: '198'
+ht-degree: 25%
 
 ---
 
-# Supprimer un tableau de bord
+# Suppression d’un tableau de bord de zone de travail
 
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Une fois que vous n’avez plus besoin d’un tableau de bord Zone de travail, vous pouvez le supprimer d’Adobe Workfront.
+Une fois que vous n’avez plus besoin d’un tableau de bord de zone de travail, vous pouvez le supprimer d’Adobe Workfront.
 
 
 +++ Développez pour afficher les exigences d’accès.

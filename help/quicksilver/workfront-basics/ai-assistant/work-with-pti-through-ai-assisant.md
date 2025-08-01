@@ -5,10 +5,10 @@ description: Vous pouvez résumer rapidement des éléments de travail et des do
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 22%
+source-wordcount: '182'
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ L’assistant AI peut vous aider à localiser des projets, des tâches et des pr
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
    <td><p>Nouveau : Tous</p>
-       <p>ou</p>
        <p>Current: Not available</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
-       <p>ou</p>
        <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
@@ -42,20 +40,23 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Localisation des éléments de travail
 
 1. Cliquez sur l’icône **Assistant AI** ![icône de l’assistant AI](assets/ai-assistant-icon.png) près du coin supérieur droit de l’écran.
-1. Saisissez une invite telle que
+1. Saisissez une invite telle que :
 
-   * Trouver mes tâches dues cette semaine
-   * Quels sont les événements du projet « Campagne de printemps » ?
-   * Rechercher les projets au statut actuel
+   * *Trouver mes tâches dues cette semaine*
+   * *Quels sont les problèmes rencontrés dans le projet « Campagne de printemps »*
+   * *Rechercher les projets au statut actuel*
 
-   L’assistant AI peut prendre quelques instants pour localiser les informations, selon la taille ou la complexité de l’invite et le nombre d’enregistrements qu’elle doit rechercher.
-1. Affichez la réponse dans le panneau de l’assistant d’IA.
-1. (Facultatif) Pour accéder à l’élément de travail, cliquez sur le lien dans le panneau de l’assistant AI.
+   >[!NOTE]
+   >
+   > L’assistant d’IA peut prendre quelques instants pour localiser les informations en fonction de la taille ou de la complexité de l’invite et du nombre d’enregistrements qu’elle doit rechercher.
+1. Affichez la réponse dans le panneau **Assistant IA**.
+1. (Facultatif) Pour accéder à l’élément de travail, cliquez sur le lien dans le panneau **Assistant IA**.
+
 
 <!--
 

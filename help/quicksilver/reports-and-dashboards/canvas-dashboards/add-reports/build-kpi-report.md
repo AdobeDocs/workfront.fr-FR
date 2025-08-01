@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Créer un rapport sur les indicateurs de performance clés
+title: Créer un rapport de KPI dans un tableau de bord de zones de travail
 description: Un rapport sur les indicateurs de performance clés qui affiche de manière bien visible un indicateur de performance clé agrégé unique peut être ajouté à un tableau de bord de zone de travail.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 9%
+source-wordcount: '587'
+ht-degree: 11%
 
 ---
 
-# Créer un rapport sur les indicateurs de performance clés
+# Créer un rapport de KPI dans un tableau de bord de zones de travail
 
 >[!IMPORTANT]
 >

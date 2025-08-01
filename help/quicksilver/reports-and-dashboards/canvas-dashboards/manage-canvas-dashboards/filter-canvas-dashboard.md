@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Filtrer un tableau de bord
-description: Vous pouvez appliquer un filtre à un tableau de bord Zone de travail une fois qu’il a été créé.
+title: Filtrer un tableau de bord de zone de travail
+description: Vous pouvez appliquer un filtre à un tableau de bord de la zone de travail après sa création.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 11%
 
 ---
 
-# Filtrer un tableau de bord
+# Filtrer un tableau de bord de zone de travail
 
 >[!IMPORTANT]
 >

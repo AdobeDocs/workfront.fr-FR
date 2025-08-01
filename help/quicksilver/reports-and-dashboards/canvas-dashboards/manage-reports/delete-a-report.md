@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Suppression d’un rapport
+title: Suppression d’un rapport dans un tableau de bord Zone de travail
 description: Vous pouvez supprimer un rapport d’un tableau de bord Zone de travail.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 20%
+source-wordcount: '235'
+ht-degree: 19%
 
 ---
 
-# Suppression d’un rapport
+# Suppression d’un rapport dans un tableau de bord Zone de travail
 
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Une fois qu’un tableau de bord est créé et que vous y avez ajouté des rapports, vous pouvez supprimer les rapports plus anciens qui ne sont plus applicables à ce tableau de bord spécifique.
+Une fois qu’un tableau de bord Zone de travail est créé et que vous y avez ajouté des rapports, vous pouvez supprimer les rapports plus anciens qui ne sont plus applicables à ce tableau de bord spécifique.
 
 La suppression d’un rapport est permanente. Si vous devez ajouter à nouveau un rapport après sa suppression, vous devrez recréer le rapport.
 

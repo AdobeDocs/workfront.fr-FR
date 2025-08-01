@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Modification d’un rapport
+title: Modification d’un rapport dans un tableau de bord Zone de travail
 description: Vous pouvez modifier un rapport de tableau de bord Zone de travail après sa création.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '444'
 ht-degree: 13%
 
 ---
 
-# Modification d’un rapport
+# Modification d’un rapport dans un tableau de bord Zone de travail
 
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Après avoir ajouté des rapports à un tableau de bord, vous pouvez modifier les informations du rapport pour modifier les données affichées dans le tableau de bord.
+Après avoir ajouté des rapports à un tableau de bord Zone de travail, vous pouvez modifier les informations du rapport pour modifier les données affichées dans le tableau de bord.
 
 Toute modification apportée à un rapport aura un impact sur tous les utilisateurs et utilisatrices ayant accès au tableau de bord qui le contient.
 

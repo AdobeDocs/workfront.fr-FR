@@ -1,26 +1,26 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Modifier les filtres de rapport
-description: Vous pouvez modifier les filtres de rapport après les avoir appliqués à un tableau de bord Zone de travail.
+title: Modification des filtres de rapport dans un tableau de bord Zone de travail
+description: Vous pouvez modifier les filtres de rapport après les avoir appliqués à un tableau de bord de zone de travail.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 20%
+source-wordcount: '244'
+ht-degree: 19%
 
 ---
 
-# Modifier les filtres de rapport
+# Modification des filtres de rapport dans un tableau de bord Zone de travail
 
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Vous pouvez modifier les filtres de rapport une fois que vous les avez appliqués à un tableau de bord Zone de travail afin de mettre à jour les données qui s’affichent au fur et à mesure de la progression du projet.
+Vous pouvez modifier les filtres de rapport une fois que vous les avez appliqués à un tableau de bord de la zone de travail afin de mettre à jour les données qui s’affichent au fur et à mesure de la progression du projet.
 
 +++ Développez pour afficher les exigences d’accès.
 
