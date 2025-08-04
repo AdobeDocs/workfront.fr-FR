@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1e8b25a0e6ff5c402bb662ef4b1831056e08c58b
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 87%
+source-wordcount: '873'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,8 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
 
 >[!NOTE]
 >
->Certains objets sont disponibles uniquement dans la version 2 des abonnements aux événements. Ces objets sont répertoriés dans le tableau.
+>* Certains objets sont disponibles uniquement dans la version 2 des abonnements aux événements. Ces objets sont répertoriés dans le tableau.
+>* Les champs répertoriés sur cette page seront toujours présents dans l’événement diffusé, même si la valeur de ce champ est nulle.
 
 <table style="table-layout:auto"> 
  <col> 

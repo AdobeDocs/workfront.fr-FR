@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
 source-wordcount: '2666'
 ht-degree: 75%
@@ -77,7 +77,9 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 * l’utilisateur ou de l’utilisatrice
 * Espace de travail
 
-Pour obtenir la liste des champs pris en charge par les objets d’abonnement aux événements, voir [Champs de ressource d’abonnement aux événements](../../wf-api/api/event-sub-resource-fields.md).
+>[!NOTE]
+>
+>Pour obtenir la liste des champs pris en charge par les objets d’abonnement aux événements, voir [Champs de ressource d’abonnement aux événements](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Authentification par abonnement aux événements
 
@@ -810,7 +812,7 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 >[!NOTE]
 >
 >L’abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur `oldState`, ce qu’il était avant qu’une mise à jour ne soit effectuée sur la tâche.
->&#x200B;>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
+>>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
 
 ```
 {
