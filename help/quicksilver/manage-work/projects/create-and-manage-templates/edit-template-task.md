@@ -7,10 +7,10 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 89%
+source-wordcount: '2493'
+ht-degree: 86%
 
 ---
 
@@ -31,9 +31,7 @@ Vous pouvez modifier la tâche de modèle ou modifier les tâches de modèle en 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +43,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Standard </p>
-   <p>Actuel : formule </p> </td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
@@ -80,7 +78,9 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
 1. Cliquez sur le nom d’un modèle pour l’ouvrir.
 1. Cliquez sur **Tâches de modèle** dans le panneau de gauche.
 1. Cliquez sur le nom d’une tâche de modèle dans la liste pour ouvrir la tâche de modèle.
-1. (Facultatif) Pour modifier plusieurs tâches de modèle en masse, sélectionnez plusieurs tâches de modèle, puis cliquez sur **Modifier** en haut de la liste des modèles.
+1. (Facultatif) Cliquez sur la section **Prédécesseurs** dans le panneau de gauche pour ajouter des prédécesseurs pour les tâches de modèle. L’ajout de prédécesseurs de tâche de modèle est similaire à l’ajout de prédécesseurs de tâche de projet. Pour plus d’informations, voir [Créer une relation de prédécesseur à l’aide de la zone Prédécesseurs](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+1. (Facultatif) Cliquez sur la section **Sous-tâches** dans le panneau de gauche pour ajouter des enfants à la tâche de modèle. L’ajout de sous-tâches pour les tâches de modèle est similaire à l’ajout de sous-tâches de projet. Pour plus d’informations, reportez-vous à la section « Création de sous-tâches à partir de la section Sous-tâches de la tâche » de l’article [Création de sous-tâches](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+
 1. (Le cas échéant) Pour modifier des informations limitées sur une tâche de modèle, cliquez sur **Détails sur la tâche de modèle** dans le panneau de gauche, puis accédez aux zones de la section Détails pour modifier les informations de chaque zone.
 1. (Facultatif) Cliquez sur l’icône **Tout réduire** ![Tout réduire](assets/collapse-all-icon.png) pour réduire toutes les zones.
 1. Pour modifier des informations dans la section Détails, cliquez sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png), puis sélectionnez l’une des zones ci-dessous, ou cliquez sur **Modifier tout** pour modifier des informations dans toutes les zones :
@@ -95,8 +95,8 @@ Vous pouvez modifier une tâche de modèle à l’aide des zones Modifier la tâ
    >[!TIP]
    >
    >Pour plus d’informations sur tous les champs qui s’affichent dans la zone Détails , continuez à modifier tous les champs à l’aide de la zone Modifier la tâche de modèle , comme décrit ci-dessous.
-
-1. (Conditionnel) Pour modifier toutes les informations relatives à la tâche de modèle, cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png) en regard du nom de la tâche de modèle, puis cliquez sur **Modifier**.
+1. (Facultatif) Pour modifier plusieurs tâches de modèle en masse, sélectionnez plusieurs tâches de modèle, puis cliquez sur **Modifier** en haut de la liste des modèles.
+1. (Conditionnel) Pour modifier toutes les informations relatives à la tâche du modèle ou à plusieurs tâches en même temps, cliquez sur les tâches pour les sélectionner dans une liste, puis cliquez sur l&#39;icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
 
    La zone **Modifier la tâche de modèle** s’affiche.
 

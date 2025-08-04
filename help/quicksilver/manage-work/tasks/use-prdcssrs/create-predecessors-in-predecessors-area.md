@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des tâches antérieures (ou simplement des pr
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 59%
+source-wordcount: '469'
+ht-degree: 46%
 
 ---
 
@@ -33,9 +33,7 @@ Pour plus d’informations sur les tâches antérieures, voir [Vue d’ensemble 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,9 +46,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Nouveau : Standard </p>
-   <p>Ou </p>
-   <p>Actuel : formule </p> </td> 
+   <p>Standard </p>
+    <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -69,15 +66,24 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 ## Créer une tâche antérieure pour une tâche
 
+La création d&#39;un prédécesseur pour une tâche de projet à l&#39;aide de la zone Prédécesseurs est similaire à la création de prédécesseurs pour un modèle de tâches sur un modèle.
+
+Pour créer une tâche antérieure pour une tâche de projet :
+
 1. Accédez à la tâche que vous souhaitez désigner comme tâche dépendante.
 
 1. Dans le panneau de gauche, cliquez sur **Prédécesseurs**.
 
-1. Dans la section **Prédécesseurs**, cliquez sur **+Ajouter le prédécesseur**. La boîte de dialogue **Ajouter un prédécesseur** s’ouvre.
+1. Dans la section **Prédécesseurs**, cliquez sur **Ajouter un prédécesseur**. La boîte de dialogue **Ajouter un prédécesseur** s’ouvre.
 
 1. (Facultatif) Pour ajouter un projet transversal antérieur, remplacez le nom du projet dans le champ **Projet parent** par un autre projet.
 
    Pour plus d’informations, voir [Création de projets transversaux antérieurs](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+
+   >[!TIP]
+   >
+   >Vous ne pouvez pas créer de prédécesseurs sur plusieurs modèles pour les tâches de modèle.
+
 
 1. Dans le champ **Tâches**, saisissez le nom de la ou des tâches que vous souhaitez désigner comme prédécesseurs, puis sélectionnez-les lorsqu’elles s’affichent dans la liste déroulante.
 
@@ -96,3 +102,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    Pour plus d’informations, voir [Appliquer les prédécesseurs](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Cliquer sur **Enregistrer**.
+
+1. (Facultatif) Pour supprimer un prédécesseur, sélectionnez-le dans la liste des prédécesseurs, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/remove-or-delete-icon.png).
+
+   La tâche antérieure est supprimée de la liste. La tâche antérieure n’est pas supprimée de son projet.

@@ -6,10 +6,10 @@ description: Un projet transversal antérieur est une tâche dont dépend une au
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 97%
+source-wordcount: '753'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur les relations entre les tâches antérieures, con
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès.
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -49,9 +49,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Standard </p> 
-   Ou
-   <p>Actuelle : formule </p>
+   <td> <p>Standard </p>
+
+<p>Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -70,6 +70,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 +++
 
 ## Créer un projet transversal antérieur
+
+>[!TIP]
+>
+>Bien que la création de prédécesseurs de tâches de modèle soit similaire à la création de prédécesseurs de tâches de projet, vous ne pouvez pas créer de prédécesseurs intermodèles pour les tâches de modèle.
+
 
 1. Accédez à la tâche qui sera votre tâche ultérieure (tâche dépendante).
 1. Cliquez sur **Tâches antérieures** dans le panneau de gauche.

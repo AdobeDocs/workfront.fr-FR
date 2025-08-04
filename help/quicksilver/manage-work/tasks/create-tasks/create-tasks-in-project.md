@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 68%
+source-wordcount: '1041'
+ht-degree: 59%
 
 ---
 
@@ -48,7 +48,7 @@ Vous pouvez également créer des tâches de la manière suivante :
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +60,9 @@ Vous pouvez également créer des tâches de la manière suivante :
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront</p> </td> 
-   <td><p>Actuellement : Travail ou licence supérieure</p> 
-   Ou
-   <p>Nouveau : Standard</p> </td> 
+   <td><p>Standard</p> 
+   <p>Travail ou supérieur</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
@@ -70,7 +70,7 @@ Vous pouvez également créer des tâches de la manière suivante :
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Contribuer pour le projet avec la capacité d’ajouter des tâches ou autorisations supérieures</p> <p>Lorsque vous créez une tâche, vous recevez automatiquement des autorisations de gestion de la tâche.</p> <p> Pour plus d’informations sur les autorisations de tâches, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Partager une tâche</a>. </p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations Contribuer pour le projet avec la capacité d’ajouter des tâches ou autorisations supérieures</p> <p>Lorsque vous créez une tâche, vous recevez automatiquement des autorisations de gestion de la tâche.</p> <p> Pour plus d’informations sur les autorisations de tâches, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Partager une tâche</a>. </p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets . </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,6 +80,10 @@ Pour plus d’informations sur ce tableau, consultez l’article [Conditions d�
 +++
 
 ## Créer des tâches dans un projet
+
+La création de tâches dans un projet est similaire à la création de tâches sur un modèle. Vous pouvez suivre les étapes décrites ci-dessous lors de l’ajout de tâches de modèle à un modèle.
+
+Pour créer des tâches dans un projet :
 
 1. Accédez au projet dans lequel vous souhaitez créer une tâche.
 1. Cliquez sur **Tâches** dans le panneau de gauche.
@@ -99,7 +103,7 @@ Pour plus d’informations sur ce tableau, consultez l’article [Conditions d�
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
-1. (Le cas échéant) Si vous avez cliqué sur **Nouvelle tâche**, procédez comme suit :
+1. (Conditionnel) Si vous avez cliqué sur **Nouvelle tâche** procédez comme suit :
 
    1. Spécifiez l’un des champs de la liste limitée de champs dans la zone **Nouvelle tâche**, puis cliquez sur **Créer une tâche** si vous souhaitez créer rapidement une tâche.
 
@@ -113,7 +117,6 @@ Pour plus d’informations sur ce tableau, consultez l’article [Conditions d�
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-       
 
       >[!NOTE]
       >
@@ -162,13 +165,15 @@ Pour plus d’informations sur ce tableau, consultez l’article [Conditions d�
 
          Cela fait de la nouvelle tâche un enfant ou une sous-tâche de la tâche précédente.
 
-         Pour plus d’informations sur les tâches enfant, voir [Créer des sous-tâches](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+         Pour plus d&#39;informations sur les tâches enfants, reportez-vous à la section « Créer des sous-tâches à partir de la section Tâches subordonnées » de l&#39;article [Créer des sous-tâches](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
-      1. (Le cas échéant) Si vous avez désactivé l’option **Enregistrement automatique** après avoir appuyé sur **Ajouter plus de tâches**, vous pouvez effectuer les opérations suivantes :
+      1. (Le cas échéant) Si vous avez désactivé l’option **Enregistrement automatique** après avoir appuyé sur **Ajouter des tâches**, vous pouvez effectuer les opérations suivantes :
 
          * Cliquez sur **Annuler la modification** à tout moment pour annuler votre dernière modification, ou sur **Annuler** pour annuler toutes les modifications que vous avez apportées à la liste des tâches.
          * Si vous avez cliqué précédemment sur **Annuler la modification**, cliquez sur **Rétablir** pour appliquer à nouveau la dernière modification que vous avez annulée.
          * Cliquez sur **Enregistrer** pour enregistrer vos modifications de la liste des tâches.
+   1. (Facultatif) Dans une liste de tâches, cliquez sur la section **Prédécesseur** pour ajouter des prédécesseurs à la tâche. Pour plus d&#39;informations, voir [Créer une relation de prédécesseur à l&#39;aide de la zone Prédécesseurs](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+   1. (Facultatif) Dans une liste de tâches, cliquez sur la section **Sous-tâches** pour ajouter des tâches enfants. Pour plus d’informations, voir [Créer des sous-tâches](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
 ## Créer des tâches en déplaçant une tâche personnelle vers un projet
 
@@ -184,6 +189,6 @@ Pour plus d’informations sur ce tableau, consultez l’article [Conditions d�
 
    Workfront enregistre les tâches personnelles dans un projet personnel non répertorié toujours nommé selon ce modèle : « &lt; Nom complet de l’utilisateur > Tâches de . Par exemple, un projet personnel peut être nommé « Tâches de Rick ».
 
-1. Sur la page de la tâche, cliquez sur le ![](assets/more-icon.png) **Plus**, puis sur **Déplacer**. Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. Sur la page de la tâche, cliquez sur le **** Plus![](assets/more-icon.png), puis sur **Déplacer**. Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    Une fois que vous avez déplacé la tâche, elle s’affiche dans le projet que vous avez sélectionné. La chronologie du projet peut être affectée par la chronologie de la nouvelle tâche.

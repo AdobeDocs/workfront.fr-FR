@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des tâches antérieures (ou plus simplement d
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 70%
+source-wordcount: '642'
+ht-degree: 69%
 
 ---
 
@@ -31,7 +31,7 @@ Pour plus d’informations, voir [Vue d’ensemble des tâches antérieures](../
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Pour plus d’informations, voir [Vue d’ensemble des tâches antérieures](../
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p><p>Actuel : formule </p> </td> 
+   <td> <p>Standard </p><p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 

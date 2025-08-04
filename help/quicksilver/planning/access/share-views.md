@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '1871'
-ht-degree: 16%
+source-wordcount: '1869'
+ht-degree: 17%
 
 ---
 
@@ -259,7 +259,7 @@ Cette section décrit comment partager une vue en interne.
 1. Dans l’onglet d’une vue, effectuez l’une des opérations suivantes :
 
    * Pointez sur l’onglet de la vue à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager** > **Copier le lien** dans la zone **Partager la vue**.
-   * Cliquez sur **Partager** > **Copier le lien d’affichage** > **Copier le lien** dans la zone **Partager l’affichage**.
+   * Cliquez sur **Partager** > **Copier le lien d’affichage** à partir de la page du type d’enregistrement.
 
    Un lien vers la vue est copié dans le presse-papiers et vous recevez une confirmation en bas de l’écran.
 
@@ -272,10 +272,8 @@ Les utilisateurs et utilisatrices qui accèdent à un lien vers une vue pour laq
 1. (Conditionnel) Si vous êtes le responsable d&#39;une vue, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les domaines suivants :
 
    * Une notification in-app
-
      ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
    * Notification par e-mail
-
      ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou
