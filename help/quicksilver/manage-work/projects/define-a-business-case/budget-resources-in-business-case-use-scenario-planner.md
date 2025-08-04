@@ -5,10 +5,10 @@ description: Dans le cadre de la planification des ressources, vous pouvez utili
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 87%
+source-wordcount: '964'
+ht-degree: 88%
 
 ---
 
@@ -127,7 +127,7 @@ Avant de commencer, vous devez effectuer les opérations suivantes :
 
    * Si vous venez de publier des informations à partir du planificateur de scénarios, sélectionnez le planificateur de scénarios dans le champ **Choisissez les heures à utiliser pour calculer le coût budgété de la main-d’oeuvre pour le projet** dans la zone Établissement du budget de ressources, puis cliquez sur **Choisir**.
 
-     ![Analyse de rentabilité dans le Planificateur de ressources avec le bouton Choisir](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     <!--![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
    * Si le planificateur de ressources a été précédemment sélectionné pour l’établissement du budget de ressources du projet, cliquez sur **Modifier** > **Planificateur de scénarios** > **Choisir**.
 

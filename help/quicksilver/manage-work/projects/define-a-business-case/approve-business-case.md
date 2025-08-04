@@ -5,7 +5,7 @@ description: Après avoir complété et soumis le business case d’une demande 
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 90%
@@ -126,7 +126,7 @@ Pour établir un rapport pour les projets dont le business case est en attente d
 1. Cliquez sur **Business case** dans le panneau de gauche.
 1. Cliquez sur **Approuver** ou **Rejeter** dans la zone Récapitulatif du business case pour approuver ou rejeter le business case.
 
-   ![Analyse de rentabilité](assets/business-case-summary-with-rp-information--1-.png)
+   &lt;!—![Analyse de rentabilité](assets/business-case-summary-with-rp-information--1-.png)—>
 
    Le statut du projet passe à **Approuvé** si le business case est approuvé.
 

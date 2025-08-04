@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6319'
 ht-degree: 2%
 
 ---
@@ -59,6 +59,16 @@ Nous avons mis à jour la page Mise à jour des utilisateurs pour l’authentifi
 Pour afficher cette modification, accédez à Configuration > Système > Mettre à jour les utilisateurs pour SSO
 
 ## Projets
+
+## Mises à jour de l’interface pour un business case de projet
+
+**Version préliminaire : 4 août 2025 ; Version de production : à annoncer**
+
+Nous avons mis à jour l’aspect de l’analyse de rentabilité du projet pour qu’elle corresponde à d’autres zones de l’application.
+
+Pour afficher cette modification, accédez à Projets > Sélectionner un projet > Business case.
+
+Pour plus d’informations, voir [Création d’un business case pour un projet](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Nouvelle apparence de la section Détails de la file d’attente sur un modèle
 
