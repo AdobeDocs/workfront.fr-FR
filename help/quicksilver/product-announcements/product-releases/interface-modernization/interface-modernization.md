@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
 workflow-type: tm+mt
 source-wordcount: '6319'
 ht-degree: 2%
@@ -72,7 +72,7 @@ Pour plus d’informations, voir [Création d’un business case pour un projet]
 
 ## Nouvelle apparence de la section Détails de la file d’attente sur un modèle
 
-**Version préliminaire : 31 juillet 2025 ; Version de production : 7 août 2025**
+**Version préliminaire : 31 juillet 2025 ; Version de production : 14 août 2025**
 
 Nous avons mis à jour l’aspect de la section Détails de la file d’attente d’un modèle. L’aspect de la section Détails de la file d’attente correspond désormais à d’autres zones de Workfront.
 
