@@ -444,7 +444,7 @@ Vous devez disposer de tous les éléments suivants :
 
 * Une licence Plan avec un accès administratif aux feuilles de temps et aux heures. Pour plus d&#39;informations sur l&#39;octroi d&#39;un accès administratif aux feuilles de temps et aux heures, voir [Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * L&#39;autorisation Contribuer ou une autorisation supérieure pour le projet avec accès à la consignation des heures. Pour plus d&#39;informations sur l&#39;octroi d&#39;autorisations sur les projets, voir [Partager un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **** Pour plus d&#39;informations sur la possibilité pour les utilisateurs et utilisatrices de consigner des heures directement dans des projets, voir [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **&#x200B;**&#x200B;Pour plus d&#39;informations sur la possibilité pour les utilisateurs et utilisatrices de consigner des heures directement dans des projets, voir [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâche ou d&#39;un problème :
 
@@ -566,7 +566,7 @@ Pour modifier les types d&#39;heures dans un rapport ou une liste d&#39;heures :
 
 1. Accédez à la liste ou au rapport d’une heure.
 1. Cliquez sur la case à gauche d’une ou de plusieurs entrées d’heure pour les sélectionner.
-1. Cliquez sur le **** icône Modifier![](assets/edit-icon.png) en haut de la liste.
+1. Cliquez sur le **&#x200B;**&#x200B;icône Modifier![](assets/edit-icon.png) en haut de la liste.
 
    La boîte de dialogue **Modifier l’heure** ou **Modifier les heures** s’ouvre.
 1. Mettez à jour l’un des champs disponibles suivants :
