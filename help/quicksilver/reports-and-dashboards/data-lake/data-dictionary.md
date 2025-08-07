@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Dictionnaire de données de Workfront Data Connect
 description: Cette page contient des informations sur la structure et le contenu des données dans Workfront Data Connect.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
+source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
 workflow-type: tm+mt
-source-wordcount: '8129'
+source-wordcount: '8114'
 ht-degree: 7%
 
 ---
@@ -24,7 +24,7 @@ Cette page contient des informations sur la structure et le contenu des données
 
 ## Types de table
 
-Il existe plusieurs types de tableau que vous pouvez utiliser dans Data Connect pour afficher vos données Workfront de manière à fournir le plus d’informations possible.
+Il existe plusieurs types de tableau que vous pouvez utiliser dans Data Connect pour afficher vos données Workfront de manière à fournir le plus d’insight.
 
 * **Table actuelle**
 
@@ -54,8 +54,8 @@ Les objets dans Workfront (et, par conséquent, dans votre lac de données Data 
 
 Plusieurs objets de date fournissent des informations sur le moment où des événements spécifiques se produisent.
 
-* `DL_LOAD_TIMESTAMP` : cette date sert de référence interne et indique le moment où les données ont été chargées dans la table En cours, Événement ou Historique quotidien. Cette date ne doit pas être utilisée pour l’analyse des données et doit être supprimée pendant la phase bêta du lac de données Workfront.
-* `CALENDAR_DATE` : cette date est uniquement présente dans le tableau Historique quotidien. Ce tableau fournit un enregistrement de l’aspect des données à 11 h 59 UTC pour chaque date spécifiée dans `CALENDAR_DATE`.
+* `DL_LOAD_TIMESTAMP` : cette date est mise à jour une fois l’actualisation des données terminée avec succès et inclut l’horodatage du début de la tâche d’actualisation qui a fourni la dernière version d’un enregistrement.
+* `CALENDAR_DATE` : cette date est uniquement présente dans le tableau Historique quotidien. Ce tableau fournit un enregistrement de l’aspect des données à 11 :59 UTC pour chaque date spécifiée dans `CALENDAR_DATE`.
 * `BEGIN_EFFECTIVE_TIMESTAMP` : cette date est présente dans les tableaux Événement et Historique quotidien et enregistre exactement quand un enregistrement est modifié _en_ la valeur qu&#39;il a dans la ligne active.
 * `END_EFFECTIVE_TIMESTAMP` : Cette date est présente dans les tables Historique des événements et Historique quotidien et enregistre exactement le moment où un enregistrement est passé _de_ la valeur de la ligne active à une valeur d&#39;une autre ligne. Pour permettre la comparaison entre les requêtes sur `BEGIN_EFFECTIVE_TIMESTAMP` et `END_EFFECTIVE_TIMESTAMP`, cette valeur n’est jamais nulle, même s’il n’existe aucune nouvelle valeur. Dans le cas où un enregistrement est toujours valide (c’est-à-dire, que la valeur n’a pas changé), `END_EFFECTIVE_TIMESTAMP` aura une valeur de 2300-01-01.
 
