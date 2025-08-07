@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
 workflow-type: tm+mt
-source-wordcount: '6584'
+source-wordcount: '6617'
 ht-degree: 2%
 
 ---
@@ -106,13 +106,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### Mises à jour de l’interface pour la zone Envoyer la mise à jour à l’utilisateur ou à l’utilisatrice sur un modèle
+### Mises à jour des interfaces pour la zone Envoyer la mise à jour à l’utilisateur sur plusieurs objets
 
-**Version préliminaire : 31 juillet 2025 ; Version de production : à déterminer, 2025**
+**Version préliminaire : 31 juillet 2025 ; Version de production : 7 août 2025**
 
-Nous avons mis à jour l’aspect de la zone Envoyer la mise à jour aux utilisateurs lorsqu’ils y accèdent à partir de l’onglet Personnes d’un modèle. La zone Envoyer la mise à jour à l’utilisateur correspond désormais à d’autres zones de Workfront lorsque vous envoyez une mise à jour à un ou plusieurs utilisateurs.
+Nous avons mis à jour l’aspect de la zone Envoyer la mise à jour aux utilisateurs lorsqu’ils y accèdent à partir des zones suivantes :
 
-Pour plus d’informations, voir [Gérer l’équipe du projet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+* La section Personnes d’un modèle
+* La section Personnes d’un projet
+* Liste d’utilisateurs d’une entreprise
+* Liste des utilisateurs dans la zone Utilisateurs
+
+La zone Envoyer la mise à jour à l’utilisateur correspond désormais à d’autres zones de Workfront lorsque vous envoyez une mise à jour à un ou plusieurs utilisateurs.
+
+Pour plus d’informations, voir les articles suivants :
+
+* [Envoyer des messages directs à d’autres utilisateurs et utilisatrices](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [Gérer l’équipe de projet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [Gérer les adhésions des entreprises](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### Mise à jour de l’expérience lors de la modification d’une rubrique de file d’attente dans un projet ou modèle
 
