@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '4064'
-ht-degree: 80%
+source-wordcount: '4160'
+ht-degree: 78%
 
 ---
 
@@ -21,16 +21,13 @@ ht-degree: 80%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
 <div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 </div>
-
--->
 
 Vous pouvez consigner les heures passées sur un élément de travail dans Adobe Workfront pour refléter le fruit de vos efforts. Vous pouvez également consigner les heures qui ne sont pas liées au travail, comme les vacances, les congés maladie ou le temps passé en réunion. Les heures que vous consignez s’affichent dans votre feuille de temps.
 
@@ -447,7 +444,7 @@ Vous devez disposer de tous les éléments suivants :
 
 * Une licence Plan avec un accès administratif aux feuilles de temps et aux heures. Pour plus d&#39;informations sur l&#39;octroi d&#39;un accès administratif aux feuilles de temps et aux heures, voir [Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * L&#39;autorisation Contribuer ou une autorisation supérieure pour le projet avec accès à la consignation des heures. Pour plus d&#39;informations sur l&#39;octroi d&#39;autorisations sur les projets, voir [Partager un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **&#x200B;**&#x200B;Pour plus d&#39;informations sur la possibilité pour les utilisateurs et utilisatrices de consigner des heures directement dans des projets, voir [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **** Pour plus d&#39;informations sur la possibilité pour les utilisateurs et utilisatrices de consigner des heures directement dans des projets, voir [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâche ou d&#39;un problème :
 
@@ -455,13 +452,13 @@ Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâc
 1. Dans le panneau de gauche, cliquez sur **Heures**.
 1. Cliquez sur **Consigner les heures**.
 
-   La zone **Consigner le temps** s’affiche.
+   <span class="preview">La zone **Consigner le temps** s’affiche.</span>
 
-   <!--<div class="preview">
-  
-   ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
+   <div class="preview">
 
-   </div>-->
+   ![Consigner le temps dans la section Heures d’une tâche](assets/log-time-box-in-hours-section-on-task.png)
+
+   </div>
 
 1. Indiquez les informations suivantes :
 
@@ -475,7 +472,7 @@ Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâc
      Pour plus d&#39;informations sur la configuration des types d&#39;heures, voir [Définir les types d&#39;heures et la disponibilité](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Fonction** : (conditionnel) si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre **Affecter manuellement des fonctions aux entrées d&#39;heure**, sélectionnez une **Fonction** dans le menu déroulant. Le rôle spécifié lors de votre affectation à l’objet s’affiche par défaut. Si aucun rôle ne vous est attribué sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d&#39;informations sur ce paramètre, voir l&#39;article [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-   * **Heures** : saisissez le nombre d’heures allouées au projet, à la tâche ou à l’événement. <!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **Heures** ou <span class="preview">calendrier hebdomadaire</span> : saisissez le nombre d’heures allouées au projet, à la tâche ou à l’événement. <span class="preview">Dans le calendrier hebdomadaire, saisissez le nombre d&#39;heures pour le projet, la tâche ou l&#39;événement.</span> Le calendrier hebdomadaire s’affiche dans la zone **Heures** de la zone **Consigner le temps** de l’environnement de production.
    * **Note** : ajoutez une note pour expliquer à quoi servent les heures. Elle est enregistrée sous la forme d&#39;une note **heure** ou d&#39;une description **heure**.
 
 1. Cliquez sur **Consigner des heures**.
@@ -569,7 +566,7 @@ Pour modifier les types d&#39;heures dans un rapport ou une liste d&#39;heures :
 
 1. Accédez à la liste ou au rapport d’une heure.
 1. Cliquez sur la case à gauche d’une ou de plusieurs entrées d’heure pour les sélectionner.
-1. Cliquez sur le **&#x200B;**&#x200B;icône Modifier![](assets/edit-icon.png) en haut de la liste.
+1. Cliquez sur le **** icône Modifier![](assets/edit-icon.png) en haut de la liste.
 
    La boîte de dialogue **Modifier l’heure** ou **Modifier les heures** s’ouvre.
 1. Mettez à jour l’un des champs disponibles suivants :

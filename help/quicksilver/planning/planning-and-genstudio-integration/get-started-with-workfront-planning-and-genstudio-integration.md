@@ -4,10 +4,10 @@ description: L’espace de travail GenStudio for Performance Marketing est dispo
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: b366841f3994468624a0c9b07d9de6f2f274cbe0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 9%
+source-wordcount: '1029'
+ht-degree: 8%
 
 ---
 
@@ -42,6 +42,22 @@ Grâce à l’intégration entre Workfront Planning et GenStudio for Performance
 * Affichez l’espace de travail GenStudio dans Workfront Planning.
 * Modifiez vos campagnes dans GenStudio et disposez des mises à jour en temps réel des mêmes informations dans Workfront Planning.
 * Modifiez vos campagnes dans Workfront Planning et disposez des mises à jour en temps réel des mêmes informations dans GenStudio.
+
+## Exigences d’intégration
+
+* Workfront et GenStudio for Performance Marketing doivent être activés pour la même organisation.
+
+  Pour plus d’informations sur GenStudio, consultez le [Guide de l’utilisateur d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+
+* GenStudio n’est pas disponible dans Workfront Planning lorsque votre société dispose de plusieurs instances Workfront. <!--this will change-->
+
+* L’instance Workfront fait partie de l’expérience unifiée Adobe, y compris l’utilisation du système Identity Management (IMS).
+
+  Pour plus d’informations, voir [Expérience unifiée Adobe pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+* Les utilisateurs qui utilisent à la fois Planning et GenStudio ne peuvent appartenir qu’à une seule instance Workfront au sein de l’organisation IMS.
+
+<!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
 ## Conditions d’accès
 
@@ -105,44 +121,34 @@ Grâce à l’intégration entre Workfront Planning et GenStudio for Performance
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-## Exigences d’intégration
+## Présentation de l’intégration de Workfront Planning et GenStudio
 
-* Workfront et GenStudio for Performance Marketing doivent être activés pour la même organisation.
-* GenStudio n’est pas disponible dans Workfront Planning lorsque votre société dispose de plusieurs instances Workfront. <!--this will change-->
+Les sections suivantes décrivent ce qui suit :
 
-* L’instance Workfront fait partie de l’expérience unifiée Adobe, y compris l’utilisation du système Identity Management (IMS).
+* Fonctionnalités de mise à jour des informations de planification Workfront depuis GenStudio
+* Fonctionnalités de mise à jour des informations GenStudio à partir de Workfront Planning
+* Limites de ce que vous pouvez et ne pouvez pas gérer dans un espace de travail GenStudio à partir de Workfront Planning.
 
-  Pour plus d’informations, voir [Expérience unifiée Adobe pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-* Les utilisateurs qui utilisent à la fois Planning et GenStudio ne peuvent appartenir qu’à une seule instance Workfront au sein de l’organisation IMS.
-
-<!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
-
-
-## Considérations relatives à la gestion d’un espace de travail GenStudio dans Workfront Planning
-
-* Votre entreprise doit acheter Adobe GenStudio for Performance Marketing avant de pouvoir afficher un espace de travail GenStudio dans Workfront Planning.
-
-  Pour plus d’informations sur GenStudio, consultez le [Guide de l’utilisateur d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home).
-
-  Pour plus d’informations sur l’intégration de GenStudio à Workfront Planning, consultez la section [Prise en main de l’intégration de Workfront Planning et GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-
-* Les utilisateurs de Workfront doivent avoir accès à GenStudio pour pouvoir voir l’espace de travail GenStudio dans Workfront Planning.
-
-
-* Les sections suivantes décrivent certaines limites de ce que vous pouvez et ne pouvez pas gérer dans un espace de travail GenStudio à partir de Workfront Planning.
+<!--add here a link from the GenS articles about what you can/ cannot do from GenStudio that might in the end reflect in Planning - this should come from the GenS team-->
 
 ### Espace de travail GenStudio dans Workfront Planning
 
-* Si votre organisation dispose de plusieurs instances Workfront, une seule instance de Workfront peut afficher votre espace de travail GenStudio.
-* L’espace de travail GenStudio affiche un indicateur visuel qui indique clairement qu’il est importé depuis GenStudio.
+* Si votre organisation dispose de plusieurs instances Workfront, l’espace de travail GenStudio n’est visible depuis aucune de vos instances Workfront. <!-- this might change-->
+* L’espace de travail GenStudio affiche un indicateur visuel qui indique clairement qu’il est importé depuis GenStudio. Pour plus d’informations, voir [Gérer l’espace de travail GenStudio dans Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
+* Tous les utilisateurs ayant accès à GenStudio et à Workfront Planning peuvent également voir l’espace de travail GenStudio dans Workfront Planning.
+* Les utilisateurs de Workfront Planning doivent être gérés par le biais du système Adobe Identity Management System (IMS) pour pouvoir afficher et utiliser l’espace de travail GenStudio depuis Workfront.
+
+  Les utilisateurs Workfront uniquement ne peuvent pas voir l’espace de travail GenStudio, même s’il est disponible dans Workfront.
+
+  Pour plus d’informations, voir [Expérience unifiée Adobe pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
 
 ### Types d’enregistrements
 
-* Vous ne pouvez pas modifier les types d’enregistrements à partir de GenStudio dans Workfront Planning.
-* Vous ne pouvez pas partager des types d’enregistrements de GenStudio avec d’autres utilisateurs. Les administrateurs et administratrices de Workfront peuvent afficher l’espace de travail GenStudio dans leur zone Planning .
+* Vous pouvez modifier les informations sur les types d’enregistrements (par exemple, leur apparence) à partir de GenStudio dans Workfront Planning.
+* Vous pouvez partager des types d&#39;enregistrements GenStudio avec d&#39;autres utilisateurs dans Planning.  <!--checking with Ani H.-->
+* Vous pouvez créer des types d’enregistrements à partir de Planning dans l’espace de travail GenStudio. <!-- checking with Ani where these show up in GenS-->
 * Les types d’enregistrements synchronisés avec GenStudio affichent un indicateur visuel qui indique clairement que les types d’enregistrements sont importés à partir de GenStudio.
-* Les utilisateurs qui consultent l’espace de travail GenStudio dans Planning peuvent partager ses types d’enregistrements avec d’autres utilisateurs.
 
 ### Enregistrements
 
@@ -150,20 +156,24 @@ Grâce à l’intégration entre Workfront Planning et GenStudio for Performance
 Vous pouvez ajouter ou supprimer des enregistrements dans Workfront Planning. Ils seront visibles dans GenStudio (ou en seront supprimés).
 * Vous pouvez ajouter des enregistrements à partir de Workfront Planning des manières suivantes :
 
-   * Manuellement, à partir de zéro
+   * Manuellement, à partir de zéro, depuis n’importe quel affichage à l’aide du bouton Nouvel enregistrement .
    * En les important au moyen d’un fichier CSV ou Excel
+   * Manuellement, en ligne, en mode Tableau
+   * Manuellement, directement en mode Chronologie
 
   Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 * Vous ne pouvez pas créer ni supprimer des enregistrements d&#39;activation de Workfront Planning.
-* Vous pouvez modifier les informations d’enregistrement de tous les enregistrements de l’espace de travail GenStudio dans n’importe quel champ visible de Workfront Planning.
+* Vous pouvez modifier les informations d’enregistrement de tous les enregistrements de l’espace de travail GenStudio dans Planning, dans n’importe quel champ visible de Workfront Planning.
 
   Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
+  <!--asking Ani if I delete a record in GS - will it move to Recovery box in Planning?-->
+
 ### Champs
 
-* Tous les champs d’enregistrement sont importés à partir de GenStudio et les paramètres du champ ne peuvent pas être modifiés.
-* Vous ne pouvez créer des champs pour les types d’enregistrements GenStudio dans Workfront Planning que si vous disposez d’un accès d’administrateur système dans GenStudio.
-* Vous pouvez créer des champs pour les types d&#39;enregistrements GenStudio dans Planning. Ces champs seront visibles à partir des zones suivantes :
+* Les champs d’enregistrement sont importés depuis GenStudio. Vous pouvez modifier les paramètres de champ dans Workfront Planning.
+* Vous pouvez créer d’autres champs pour les types d’enregistrements GenStudio dans Workfront Planning si vous disposez d’un accès de niveau Gérer dans Gen Studio.
+* Lorsque vous créez des champs pour des types d&#39;enregistrements GenStudio dans Planning, ils sont visibles à partir des zones suivantes :
    * Vues Planning
    * Pages de détails des enregistrements de planification
    * Pages de détails des enregistrements GenStudio
@@ -183,16 +193,17 @@ I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - onl
 
 ### Vues
 
-* Vous pouvez créer des vues pour les types d’enregistrements GenStudio. Vous ne pouvez pas modifier les vues automatiquement importées depuis GenStudio, mais vous pouvez modifier les éléments de vue pour la vue Tableau GenStudio. Par exemple, vous pouvez modifier les filtres, le tri, les regroupements, les couleurs des lignes et la hauteur des lignes en mode Tableau.
+* Vous pouvez créer des vues pour les types d’enregistrements GenStudio.
 
   Pour plus d’informations, consultez la section [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
-* Vous pouvez partager la vue d’un type d’enregistrement GenStudio des manières suivantes :
-
-   * Copier le lien d’affichage
-   * Exporter la vue vers un fichier (disponible uniquement pour la vue Tableau)
+* Vous pouvez partager la vue d&#39;un type d&#39;enregistrement GenStudio comme vous le feriez pour un type d&#39;enregistrement Planning.
 
 ### Connexions
 
-* Dans Planning, vous ne pouvez pas connecter d&#39;autres types d&#39;enregistrements ou d&#39;objets à partir de types d&#39;enregistrements GenStudio.
-* Vous pouvez vous connecter à des types d&#39;enregistrements GenStudio à partir d&#39;autres types d&#39;enregistrements dans Planning.
+* Dans Workfront Planning, vous pouvez établir les connexions suivantes entre les types d&#39;enregistrements GenStudio et d&#39;autres types d&#39;enregistrements ou d&#39;objets :
+
+   * Deux types d’enregistrements GenStudio et
+   * Un type d’enregistrement GenStudio et un type d’enregistrement Planning du même espace de travail
+   * Un type d’enregistrement GenStudio et un type d’enregistrement Planning d’un autre espace de travail, si les types d’enregistrement sont configurés pour se connecter à partir d’un autre espace de travail.
+   * Un type d’enregistrement GenStudio et un type d’objet Workfront (projets, portfolios, programmes, sociétés, groupes)

@@ -7,7 +7,7 @@ description: Vous pouvez utiliser des expressions de données pour définir des 
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 88%
@@ -374,7 +374,7 @@ Vous pouvez créer un champ personnalisé calculé qui utilise certaines des exp
 
 Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au format texte à l’aide des expressions suivantes :
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto:fixed"> 
  <col> 
  <col> 
  <thead> 
@@ -555,7 +555,7 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
    <td> <p>Remplace les correspondances du modèle donné par la chaîne de remplacement. </p> 
    <p>L’expression est formatée comme suit :</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>Par exemple, REPLACEPATTERN(« foo123bar », « \d+ », « _ ») génère la chaîne « foo_bar ». 
+   <p>Par exemple, REPLACEPATTERN(« foo123bar », « \d+ », « _ ») génère la chaîne « foo_bar ».
    </td> 
   </tr> 
   <tr> 
