@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
+source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6618'
 ht-degree: 2%
 
 ---
@@ -72,11 +72,11 @@ Pour afficher cette modification, accédez à Configuration > Système > Mettre 
 
 ## Projets
 
-### Mises à jour de l’interface pour la journalisation du temps sur un projet, une tâche ou un événement dans l’onglet Heures
+### Mises à jour de l’interface pour la journalisation du temps sur un projet, une tâche ou un événement dans la section Heures
 
 **Version préliminaire : 7 août 2025 ; Version de production : 14 août 2025**
 
-Nous avons mis à jour l’aspect de la zone Enregistrer le temps lors de la journalisation du temps pour un projet, une tâche ou un problème dans l’onglet Heures , afin qu’elle corresponde à la conception d’autres zones de Workfront.
+Nous avons mis à jour l’aspect de la zone Enregistrer le temps lors de la journalisation du temps pour un projet, une tâche ou un problème dans la section Heures , afin qu’elle corresponde à la conception d’autres zones de Workfront.
 
 Pour plus d’informations, voir [Consigner le temps](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -112,9 +112,9 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 Nous avons mis à jour l’aspect de la zone Envoyer la mise à jour aux utilisateurs lorsqu’ils y accèdent à partir des zones suivantes :
 
-* La section Personnes d’un modèle
-* La section Personnes d’un projet
-* Liste d’utilisateurs d’une entreprise
+* Section Personnes d’un modèle
+* Section Personnes d’un projet
+* Section Membres de la société d’une société
 * Liste des utilisateurs dans la zone Utilisateurs
 
 La zone Envoyer la mise à jour à l’utilisateur correspond désormais à d’autres zones de Workfront lorsque vous envoyez une mise à jour à un ou plusieurs utilisateurs.
