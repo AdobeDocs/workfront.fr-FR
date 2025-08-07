@@ -7,24 +7,16 @@ description: Lors de la gestion des tâches et des affectations de problèmes, v
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 73%
+source-wordcount: '554'
+ht-degree: 77%
 
 ---
 
 # Vue d’ensemble des affectations intelligentes
 
 <!--Audited: 07/2024-->
-
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités disponibles uniquement dans l’environnement de prévisualisation.</span>
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 Lors de la gestion des affectations de tâches et d&#39;événements, vous pouvez utiliser les affectations intelligentes pour identifier la meilleure ressource pour effectuer le travail.
 
@@ -143,7 +135,7 @@ Workfront calcule les affectations intelligentes pour les tâches de la même ma
 
 <!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-Les affectations identifiées sont répertoriées dans les sections **Utilisateurs et équipes**, **Affectations de fonction** et <span class="preview">**Rôles de carte tarifaire**</span> du champ Affectations . <span class="preview">Pour plus d&#39;informations sur les cartes tarifaires, voir [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+Les affectations identifiées sont répertoriées dans les sections **Utilisateurs et équipes** et **Fonctions**<!--, and <span class="preview">**Rate card roles**</span>--> du champ Affectations. <!--<span class="preview">For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 <!--
 ### Smart assignments criteria for tasks and issues 

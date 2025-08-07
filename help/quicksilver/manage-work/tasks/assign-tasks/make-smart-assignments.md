@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des affectations intelligentes pour identifier
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 87%
+source-wordcount: '403'
+ht-degree: 91%
 
 ---
 
@@ -17,15 +17,7 @@ ht-degree: 87%
 
 <!--Audited: 07/2024-->
 
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités disponibles uniquement dans l’environnement de prévisualisation.</span>
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
-
-Vous pouvez utiliser des affectations intelligentes pour identifier la meilleure personne pour effectuer le travail.
+Tirez parti des affectations intelligentes pour identifier la personne idéale à la réalisation du travail.
 
 Les affectations intelligentes sont des suggestions destinées aux utilisateurs et utilisatrices, aux rôles ou aux équipes qu’Adobe Workfront vous présente lorsque vous affectez des éléments de travail à des ressources. Workfront base ses suggestions sur un algorithme qui détermine la ressource la plus appropriée pour le traitement.
 
@@ -90,7 +82,7 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
    Les affectations intelligentes s’affichent dans les sections suivantes <!--, depending on which phase of the algorithm's calculation identified the assignments-->
 
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
-   * **Utilisateurs et équipes**, **Fonctions** ou <span class="preview">**Fonctions de carte tarifaire**</span> : <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
+   * **Utilisateurs et équipes** ou **Fonctions** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
    ![Exemple d&#39;affectations intelligentes dans la liste des tâches](assets/smart-assignments-task-list.png)
 

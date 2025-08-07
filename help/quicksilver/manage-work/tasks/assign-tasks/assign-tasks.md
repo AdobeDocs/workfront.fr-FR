@@ -7,24 +7,18 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '2012'
-ht-degree: 97%
+source-wordcount: '1836'
+ht-degree: 95%
 
 ---
 
-# Affecter des tâches
+# Attribuer des tâches
+
+{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
-
-<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, consultez la section [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Vous pouvez affecter des tâches aux utilisateurs et aux utilisatrices, aux fonctions ou aux équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 
@@ -55,8 +49,6 @@ En plus de cet article, nous vous recommandons de lire les articles suivants pou
 * [Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Conditions d’accès
-
-<!-- Audited: 07/2024-->
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
@@ -152,23 +144,21 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Cliquez sur le nom des affectations si la tâche est déjà affectée.
 
-   ![Affectations](assets/assignments-box-in-task-header.png)
+   ![Affectations](assets/assignments-from-task-header-0825.png)
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’un rôle ou d’une équipe que vous souhaitez affecter, puis cliquez sur celui-ci lorsqu’il apparaît dans la liste.
-
+   * Commencez à saisir le nom d’un utilisateur, d’une fonction ou d’une équipe à affecter, puis cliquez dessus lorsqu’il apparaît dans la liste.
 
      >[!TIP]
      >
      >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, le rôle principal de l’utilisateur ou de l’utilisatrice ou son adresse e-mail, pour faire la distinction entre les utilisateurs et utilisatrices portant le même nom. Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
      >
-     >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez la section [Accorder l’accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-     >
-     ><span class="preview">Lors de l’ajout d’une affectation de fonction, vous pouvez rechercher la fonction ou l’emplacement. Sélectionnez une fonction parmi la liste des fonctions pour utiliser le taux de facturation par défaut pour l’affectation ou sélectionnez une fonction Carte tarifaire pour utiliser le taux de facturation de la carte tarifaire. Pour plus d’informations sur les cartes tarifaires, consultez la section [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
+     <!--When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). -->
 
-   * (Le cas échéant) Cliquez sur l’un des noms des listes <span class="preview">**Affectations suggérées**</span>, **Utilisateurs et utilisatrices et équipes**, ou **Fonctions**, ou <span class="preview">**Fonctions (carte tarifaire)**</span> lorsqu’elles s’affichent. Consultez [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) pour en savoir plus.
+   * (Conditionnel) Cliquez sur l’un des noms figurant dans les listes **Utilisateurs et équipes** ou **Fonctions** lorsqu’ils s’affichent. Consultez [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) pour en savoir plus.
 
      Vous pouvez commencer à saisir le nom d’un utilisateur ou d’une utilisatrice, d’une équipe, ou d’une fonction pour l’affecter à la tâche, puis sélectionner le nom lorsqu’il s’affiche dans la liste.
 
@@ -213,16 +203,12 @@ Pour affecter des tâches dans une liste, procédez comme suit :
      >
      >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, le rôle principal de l’utilisateur ou de l’utilisatrice ou son adresse e-mail, pour faire la distinction entre les utilisateurs et utilisatrices portant le même nom. Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
      >
-     >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir la section [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-     >
-     ><span class="preview">Lors de l’ajout d’une affectation de fonction, vous pouvez effectuer une recherche sur la fonction ou l’emplacement. Sélectionnez une fonction pour utiliser le taux de facturation par défaut pour l’affectation, ou sélectionnez une fonction de carte tarifaire pour utiliser le taux de facturation à partir de la carte tarifaire. Pour plus d’informations sur les cartes tarifaires, voir la section [Gérer des cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+
+     <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. (Le cas échéant) Lorsqu’elle est visible dans le champ **Affectations**, cliquez sur l’icône **Personnes** en haut à droite de la zone des affectations pour ouvrir la zone **Affectations avancées** et créer des affectations avancées.
-
-   <!--
-   there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
-   -->
+1. (Conditionnel) Dans le champ Affectations, cliquez sur <span class="preview">**Avancé**</span> ou sur l&#39;icône **Personnes** ![Icône Personnes](assets/teams.png) dans le coin supérieur droit de la zone Affectations pour ouvrir la zone **Affectations avancées** et créer des affectations avancées.
 
    Pour plus d’informations, voir la section [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

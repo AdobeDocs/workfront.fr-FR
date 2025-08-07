@@ -7,14 +7,16 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 88%
+source-wordcount: '1144'
+ht-degree: 84%
 
 ---
 
 # Créer des affectations avancées
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -84,7 +86,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    >[!TIP]
    >
-   >Vous pouvez effectuer des affectations avancées directement sur la liste de tâches ou de problèmes si au moins deux personnes sont affectées. Cliquez dans le champ **Affectations** sur la même ligne que la tâche ou le problème, puis cliquez sur l’**icône Personnes** pour ouvrir la fenêtre Affectations avancées. Passez à l’étape 5 pour continuer à créer des affectations avancées.\
+   >Vous pouvez effectuer des affectations avancées directement dans la liste des tâches ou des événements. Cliquez dans le champ **Affectations** sur la même ligne que la tâche ou l&#39;événement, puis cliquez sur <span class="preview">**Avancé**</span> ou sur l&#39;icône **Personnes** pour ouvrir la fenêtre Affectations avancées. Passez à l’étape 5 pour continuer à créer des affectations avancées.
+   ><span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   >![Cliquez sur Avancé ou sur l’icône Personnes](assets/access-aa-from-lists.png)
+   >Exemple d’image dans l’environnement de production :
    >![Cliquez sur l’icône Personnes](assets/nwe-advanced-assignments-350x55.png)
 
 1. Cliquez sur **Affecter à** dans le champ **Affectations** dans l’en-tête de la tâche ou du problème.
@@ -95,7 +100,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur **Avancé**.
 
-   ![Cliquez sur Avancé](assets/assignments-box-in-task-header.png)
+   ![Cliquez sur Avancé](assets/assignments-from-task-header-0825.png)
 
 1. Dans le champ **Rechercher des personnes, des rôles et des équipes**, commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
