@@ -7,10 +7,10 @@ description: Les personnes associées à un projet dans une certaine capacité f
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 48%
+source-wordcount: '476'
+ht-degree: 46%
 
 ---
 
@@ -18,9 +18,14 @@ ht-degree: 48%
 
 <!-- Audited: 6/2025 -->
 
-Une équipe de projet se compose d’utilisateurs associés à un projet à un titre ou à un autre. Les utilisateurs répertoriés dans la zone Personnes d’un projet constituent l’équipe du projet. Par exemple, les personnes qui sont affectées au projet ou la personne propriétaire du projet font partie de l’équipe du projet.
+Une équipe de projet se compose d’utilisateurs associés à un projet à un titre ou à un autre. Les utilisateurs répertoriés dans la section Personnes d’un projet constituent l’équipe du projet. Par exemple, les personnes qui sont affectées au projet ou la personne propriétaire du projet font partie de l’équipe du projet.
 
-Les utilisateurs associés au travail sur un modèle de projet ou qui sont le propriétaire ou le sponsor du modèle font partie de la future équipe de projet une fois le projet créé à l&#39;aide du modèle.
+Les utilisateurs suivants d’un modèle de projet font partie de la future équipe de projet une fois le projet créé à l’aide du modèle :
+
+* Utilisateurs assignés à travailler (tâches et événements) sur le modèle.
+* Propriétaire ou sponsor du modèle.
+
+Les utilisateurs qui font partie de la future équipe de projet sur un modèle s&#39;affichent dans la section Personnes du modèle.
 
 ## Personnes membres de l’équipe du projet
 

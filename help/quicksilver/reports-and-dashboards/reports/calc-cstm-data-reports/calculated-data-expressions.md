@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Vue d’ensemble des expressions de données calculées
 description: Vous pouvez utiliser des expressions de données pour définir des champs de données personnalisées calculés dans Adobe Workfront. Les expressions calculées connectent des champs Workfront existants dans des instructions qui génèrent un nouveau champ.
-author: Nolan
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '2463'
-ht-degree: 90%
+source-wordcount: '2551'
+ht-degree: 88%
 
 ---
 
@@ -414,23 +414,8 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
   </tr>
-  <tr> 
-   <td><strong> SORTASCARRAY </strong> </td> 
-   <td> <p>Classe les éléments du tableau dans l’ordre croissant et les convertit en type du premier élément.</p>
-   <p>L’expression est formatée comme suit :</p>
-   <p><code>SORTASCARRAY(array)</code></p>
-   <p>Par exemple, [« -12.6 », -13.0] devient [« -12.6 », « -13 »].</p>
-   <p>Remarque : cette expression n'est pas prise en charge dans Workfront Planning.</p></td> 
-  </tr>
-  <tr> 
-   <td><strong>SORTDESCARRAY </strong> </td> 
-   <td> <p>Classe les éléments du tableau dans l’ordre décroissant et les convertit en type du premier élément.</p>
-   <p>L’expression est formatée comme suit :</p>
-   <p><code>SORTDESCARRAY(array)</code></p>
-   <p>Par exemple, [« -12.6 », -13.0] devient [« -13 », « -12.6 »].</p>
-   <p>Remarque : cette expression n'est pas prise en charge dans Workfront Planning.</p></td> 
-  </tr>
-  <tr>   
+
+<tr>   
    <td><strong>CASE</strong> </td> 
    <td> <p>Utilisé avec d’autres expressions pour choisir une valeur dans une liste, en fonction d’un numéro d’index. </p>
    <p>Un numéro d’index est un champ ou une fonction qui renvoie une valeur numérique (généralement comprise dans une plage connue).</p> 
@@ -543,10 +528,35 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
+   <td><strong> PASCAL </strong> </td> 
+   <td> <p>Convertit la chaîne d’entrée en PascalCase en mettant en majuscule la première lettre de chaque mot et en supprimant tous les espaces. </p>
+   <p>L’expression est formatée comme suit :</p>
+   <p><code>PASCAL(string) </code></p>
+   <p>Par exemple, « hello world » devient « HelloWorld »</p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>REMOVEACCENTS</strong> </td> 
+   <td> <p>Supprime les signes diacritiques de tous les caractères accentués dans la chaîne d’entrée. </p> 
+   <p>L’expression est formatée comme suit :</p>
+   <p><code>REMOVEACCENTS(string)</code></p> 
+   <p>Par exemple, « Hello world with acénts » devient « Hello world with accents ». </p>
+   </td> 
+  </tr>
+  <tr> 
    <td><strong>REPLACE</strong> </td> 
    <td> <p>Remplace toutes les occurrences de string2 par string3 dans string1.</p> <p>L’expression est formatée comme suit :</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
+  </tr>
+
+<tr> 
+   <td><strong>REPLACEPATTERN</strong> </td> 
+   <td> <p>Remplace les correspondances du modèle donné par la chaîne de remplacement. </p> 
+   <p>L’expression est formatée comme suit :</p>
+   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
+   <p>Par exemple, REPLACEPATTERN(« foo123bar », « \d+ », « _ ») génère la chaîne « foo_bar ». 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>RIGHT</strong> </td> 
@@ -560,6 +570,22 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong> SORTASCARRAY </strong> </td> 
+   <td> <p>Classe les éléments du tableau dans l’ordre croissant et les convertit en type du premier élément.</p>
+   <p>L’expression est formatée comme suit :</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>Par exemple, [« -12.6 », -13.0] devient [« -12.6 », « -13 »].</p>
+   <p>Remarque : cette expression n'est pas prise en charge dans Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY </strong> </td> 
+   <td> <p>Classe les éléments du tableau dans l’ordre décroissant et les convertit en type du premier élément.</p>
+   <p>L’expression est formatée comme suit :</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>Par exemple, [« -12.6 », -13.0] devient [« -13 », « -12.6 »].</p>
+   <p>Remarque : cette expression n'est pas prise en charge dans Workfront Planning.</p></td> 
+  </tr>
   <tr> 
    <td><strong>STRING</strong> </td> 
    <td> <p>Convertit un nombre en chaîne au format suivant :</p>
@@ -603,3 +629,4 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
   </tr> 
  </tbody> 
 </table>
+
