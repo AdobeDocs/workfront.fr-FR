@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
+source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
 workflow-type: tm+mt
-source-wordcount: '6319'
+source-wordcount: '6584'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,19 @@ Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versio
 
 ## Administration et configuration
 
-## Mises à jour de l&#39;interface pour la liste Profils de feuille de temps dans un groupe
+## Mises à jour de l’interface pour la zone Conditions dans la Configuration
+
+**Version préliminaire : 7 août 2025 ; Version de production : 18 août 2025**
+
+Nous avons mis à jour la page Conditions avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Amélioration visible de l’interface : un bouton **Modifier** s’affiche désormais en regard des conditions que vous pouvez modifier et il n’est plus nécessaire de survoler une condition pour trouver l’icône Modifier.
+
+Pour afficher ces modifications, accédez à Configuration > Préférences du projet > Conditions.
+
+Pour plus d’informations, voir [Créer ou modifier une condition personnalisée](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+
+### Mises à jour de l&#39;interface pour la liste Profils de feuille de temps dans un groupe
 
 **Version préliminaire : 24 juillet 2025 ; Version de production : 28 juillet 2025**
 
@@ -32,7 +44,7 @@ Nous avons mis à jour l’aspect de la liste Profils de feuille de temps dans l
 
 Pour afficher ces modifications, accédez à Configuration > Groupes > sélectionner un groupe > Profils de feuilles de temps.
 
-## Modifications de l&#39;interface pour les zones Nouveau et Modifier le type d&#39;heures
+### Modifications de l&#39;interface pour les zones Nouveau et Modifier le type d&#39;heures
 
 **Version préliminaire : 24 juillet 2025 ; Version de production : 31 juillet 2025**
 
@@ -40,7 +52,7 @@ Nous avons mis à jour l&#39;aspect des zones Nouveau et Modifier le type d&#39;
 
 Pour plus d&#39;informations, voir [Gérer les types d&#39;heures](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-## Mises à jour de l’interface vers la page Journaux d’audit dans la configuration
+### Mises à jour de l’interface vers la page Journaux d’audit dans la configuration
 
 **Version préliminaire : 22 juillet 2025 ; Version de production : à annoncer**
 
@@ -50,7 +62,7 @@ Le bouton d’exportation a été déplacé vers la droite de la page.
 
 Pour afficher cette modification, accédez à Configuration > Suivi des modifications > Journaux d’audit.
 
-## Mises à jour de l’interface de la page Mettre à jour les utilisateurs pour SSO dans la configuration
+### Mises à jour de l’interface de la page Mettre à jour les utilisateurs pour SSO dans la configuration
 
 **Version préliminaire : 22 juillet 2025 ; Version de production : 28 juillet 2025**
 
@@ -60,9 +72,17 @@ Pour afficher cette modification, accédez à Configuration > Système > Mettre 
 
 ## Projets
 
-## Mises à jour de l’interface pour un business case de projet
+### Mises à jour de l’interface pour la journalisation du temps sur un projet, une tâche ou un événement dans l’onglet Heures
 
-**Version préliminaire : 4 août 2025 ; Version de production : à annoncer**
+**Version préliminaire : 7 août 2025 ; Version de production : 14 août 2025**
+
+Nous avons mis à jour l’aspect de la zone Enregistrer le temps lors de la journalisation du temps pour un projet, une tâche ou un problème dans l’onglet Heures , afin qu’elle corresponde à la conception d’autres zones de Workfront.
+
+Pour plus d’informations, voir [Consigner le temps](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+### Mises à jour de l’interface pour un business case de projet
+
+**Version préliminaire : 4 août 2025 ; Version de production : 18 août**
 
 Nous avons mis à jour l’aspect de l’analyse de rentabilité du projet pour qu’elle corresponde à d’autres zones de l’application.
 
@@ -70,7 +90,7 @@ Pour afficher cette modification, accédez à Projets > Sélectionner un projet 
 
 Pour plus d’informations, voir [Création d’un business case pour un projet](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
-## Nouvelle apparence de la section Détails de la file d’attente sur un modèle
+### Nouvelle apparence de la section Détails de la file d’attente sur un modèle
 
 **Version préliminaire : 31 juillet 2025 ; Version de production : 14 août 2025**
 
@@ -78,7 +98,7 @@ Nous avons mis à jour l’aspect de la section Détails de la file d’attente 
 
 Pour plus d’informations, voir [Créer une file d’attente des demandes](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--## Interface updates when bulk editing templates
+<!--### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
@@ -86,15 +106,15 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-## Mises à jour de l’interface pour la zone Envoyer la mise à jour à l’utilisateur ou à l’utilisatrice sur un modèle
+### Mises à jour de l’interface pour la zone Envoyer la mise à jour à l’utilisateur ou à l’utilisatrice sur un modèle
 
-**Version préliminaire : 31 juillet 2025 ; Version de production : 7 août 2025**
+**Version préliminaire : 31 juillet 2025 ; Version de production : à déterminer, 2025**
 
 Nous avons mis à jour l’aspect de la zone Envoyer la mise à jour aux utilisateurs lorsqu’ils y accèdent à partir de l’onglet Personnes d’un modèle. La zone Envoyer la mise à jour à l’utilisateur correspond désormais à d’autres zones de Workfront lorsque vous envoyez une mise à jour à un ou plusieurs utilisateurs.
 
 Pour plus d’informations, voir [Gérer l’équipe du projet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-## Mise à jour de l’expérience lors de la modification d’une rubrique de file d’attente dans un projet ou modèle
+### Mise à jour de l’expérience lors de la modification d’une rubrique de file d’attente dans un projet ou modèle
 
 **Version préliminaire : 31 juillet 2025 ; Version de production : 31 juillet 2025**
 
@@ -104,7 +124,7 @@ Une petite modification de fonctionnalité a été appliquée à la liste des r�
 
 Pour plus d’informations, voir [Créer des rubriques de file d’attente](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-## Mises à jour de l’interface pour les enregistrements de facturation
+### Mises à jour de l’interface pour les enregistrements de facturation
 
 **Version préliminaire : 31 juillet 2025 ; Version de production : 7 août 2025**
 
@@ -114,7 +134,7 @@ Pour afficher ces modifications, accédez à un projet > Enregistrements de fact
 
 Pour plus d’informations, voir [Créer des enregistrements de facturation](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
 
-## Mises à jour de l’interface pour la zone Importer le fichier MS Project
+### Mises à jour de l’interface pour la zone Importer le fichier MS Project
 
 **Version préliminaire : 24 juillet 2025 ; Version de production : à annoncer**
 
@@ -122,7 +142,7 @@ Nous avons mis à jour l’aspect de la zone Importer un fichier MS Project lors
 
 Pour afficher cette modification, accédez à Projets > Nouveau projet > Importer MS Project.
 
-## Mise à jour de l&#39;interface pour la zone Ajouter une dépense d&#39;un projet ou modèle
+### Mise à jour de l&#39;interface pour la zone Ajouter une dépense d&#39;un projet ou modèle
 
 **Version préliminaire : 24 juillet 2025 ; Version de production : 31 juillet 2025**
 
@@ -132,7 +152,15 @@ Pour plus d’informations, voir [Gérer les dépenses des projets](/help/quicks
 
 ## Modèles
 
-## Modifications de l&#39;interface lors de la modification d&#39;une règle de transmission pour un modèle
+### Mises à jour de l’interface pour la liste des prédécesseurs d’un modèle
+
+**Version préliminaire : 7 août 2025 ; Version de production : 14 août 2025**
+
+Nous avons mis à jour l’aspect des listes de tâches antérieures sur un modèle afin qu’elles correspondent à la conception d’autres zones de Workfront.
+
+L’ajout de prédécesseurs pour une tâche de modèle est similaire à l’ajout de prédécesseurs à une tâche de projet. Pour plus d’informations, voir [Créer une relation de prédécesseur à l’aide de la zone Prédécesseurs](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+
+### Modifications de l&#39;interface lors de la modification d&#39;une règle de transmission pour un modèle
 
 **Version préliminaire : 24 juillet 2025 ; Version de production : 31 juillet 2025**
 
@@ -142,7 +170,7 @@ Pour modifier une règle de transmission, sélectionnez-la dans la liste et cliq
 
 Pour plus d’informations, voir la section [Créer des règles de transmission](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-## Modifications de l’interface des zones de gestion des files d’attente des demandes d’un modèle
+### Modifications de l’interface des zones de gestion des files d’attente des demandes d’un modèle
 
 **Version préliminaire : 24 juillet 2025 ; Version de production : 31 juillet 2025**
 
@@ -160,6 +188,18 @@ Pour plus d’informations, voir
 * [Créer des groupes de sujets](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Créer des règles de transmission](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+## Utilisateurs
+
+### Mises à jour de l’interface dans la boîte de dialogue Importer des utilisateurs
+
+**Version préliminaire : 7 août 2025 ; Version de production pour tous les clients : 14 août 2025**
+
+Nous avons mis à jour la boîte de dialogue pour importer de nouveaux utilisateurs via un fichier de feuille de calcul, afin de correspondre à d&#39;autres zones de l&#39;application.
+
+Pour afficher cette modification, accédez à Utilisateurs > Nouvel utilisateur > Importer utilisateurs.
+
+Pour plus d’informations, voir [Importer des utilisateurs](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
 ## Mises à jour des interfaces effectuées au 3ème trimestre
 
 ### Administration et configuration
@@ -168,7 +208,7 @@ Pour plus d’informations, voir
 
 ### Mises à jour de l’interface pour la page Modèles de disposition
 
-**Version préliminaire : 17 juillet 2025 ; Version de production : 24 juillet 2025**
+**Version préliminaire : 17 juillet 2025 ; Version de production : à déterminer**
 
 Nous avons mis à jour la page Modèles de mise en page avec un design plus moderne et cohérent avec les autres zones de Workfront.
 
