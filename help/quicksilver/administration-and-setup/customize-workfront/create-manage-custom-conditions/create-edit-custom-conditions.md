@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 87%
 
 ---
 
 # Créer ou modifier une condition personnalisée
+
+{{highlighted-preview}}
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer ou modifier une condition personnalisée pour des projets, des tâches et des problèmes en fonction des besoins de votre entreprise.
 
@@ -60,12 +62,16 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur l’onglet du type d’objet (**Projet**, **Tâche**, ou **Problème**) que vous souhaitez associer à la condition.
 
-1. Pour créer une nouvelle condition, cliquez sur **Ajouter une nouvelle condition**.
+1. Pour créer une condition, cliquez sur **Ajouter une nouvelle condition**.
 
    Ou
 
-   Pour modifier une condition existante, passez la souris sur la condition que vous souhaitez modifier, puis cliquez sur le bouton **Modifier** qui s’affiche complètement à droite.
+   Pour modifier une condition existante, cliquez sur <span class="preview">**Modifier** en regard du nom de la condition</span> ou survolez la condition à modifier avec la souris, puis cliquez sur l’icône **Modifier** qui s’affiche à l’extrémité droite.
 
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   ![Modifier la condition personnalisée](assets/custom-conditions-0825.png)
+
+   Exemple d’image dans l’environnement de production :
    ![Condition personnalisée](assets/custom-condition-edit-nwe.jpg)
 
 1. Configurez votre condition personnalisée à l’aide des options suivantes :
@@ -99,7 +105,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <p>Vous ne pouvez pas modifier la clé d’une condition après avoir enregistré la condition. </p></td> 
      </tr> 
      <tr> 
-      <td>Masquer le statut</td> 
+      <td>Masquer la condition</td> 
       <td><p>(Facultatif) Cette option est disponible pour les conditions personnalisées que vous ne souhaitez plus que les personnes utilisent, mais que vous souhaitez conserver pour des raisons d’archivage. </p>
       <p>Si vous masquez une condition personnalisée qui est utilisée pour des éléments de travail, elle continue de s’afficher dans ces éléments de travail après que vous l’avez masquée. </p></td> 
      </tr> 
@@ -116,15 +122,17 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    * Lorsqu’un utilisateur ou une utilisatrice modifie un projet.
 
-     ![Modifier la condition lors de la modification du projet](assets/change-condition-edit-project.png)
+     ![Modifier la condition lors de la modification du projet](assets/change-condition-edit-project-0825.png)
 
-   * Lorsqu’un utilisateur ou une utilisatrice modifie la condition d’une tâche ou d’un problème dans l’onglet Mises à jour :
+<!-- 
+   * When a user is changing the condition for a task or issue on the Updates tab:
 
-     ![Modifier la condition lors de la mise à jour du commentaire](assets/change-condition-update-comment.png)
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+-->
 
-   * Lorsqu’une personne modifie la condition d’une tâche ou d’un problème en mode Liste :
+* Lorsqu’une personne modifie la condition d’une tâche ou d’un problème en mode Liste :
 
-     ![Modifier la condition dans la liste](assets/change-conditions-list-dropdown-only.png)
+  ![Modifier la condition dans la liste](assets/change-conditions-list-dropdown-only.png)
 
 1. Cliquer sur **Enregistrer**.
 

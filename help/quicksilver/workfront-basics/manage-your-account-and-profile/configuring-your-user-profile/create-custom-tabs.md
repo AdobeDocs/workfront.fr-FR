@@ -6,10 +6,10 @@ description: Les informations affichées dans l’application web  [!DNL Workfro
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 99%
 
 ---
 
@@ -35,8 +35,9 @@ Le tableau suivant répertorie toutes les zones et tous les objets [!DNL Workfro
 | [!UICONTROL Projet] | ✓ | ✓ |
 | [!UICONTROL Tâche] | ✓ |  ✓ |
 | [!UICONTROL Problème] |  ✓ |  ✓ |
-| [!UICONTROL Utilisateur et utilisatrice] |  ✓ |  ✓ |
+| [!UICONTROL Utilisateur ou utilisatrice] |  ✓ |  ✓ |
 | [!UICONTROL Document] |  ✓ |  ✓ |
+| Zone [!UICONTROL Ressources] | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -51,19 +52,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
    <td>[!UICONTROL Reviewer] ou supérieur</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
+   <td role="rowheader">Autorisations d’objet</td> 
    <td>Accès d’affichage au type d’objet</td> 
   </tr> 
  </tbody> 

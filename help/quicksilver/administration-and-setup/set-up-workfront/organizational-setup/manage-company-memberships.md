@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
-title: Gestion des adhésions aux entreprises
+title: Gérer les appartenances d’entreprise
 description: Dans la zone [!UICONTROL Entreprises] de la section Configuration, vous pouvez ajouter et supprimer des personnes membres d’une entreprise. Vous pouvez également modifier leur profil d’utilisateur ou d’utilisatrice, leur rappeler de s’inscrire dans le système  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] .
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 95%
+source-wordcount: '879'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Workfront] plan</p> </td> 
-   <td><p>Actuel : [!UICONTROL Équipe] ou version ultérieure</p>
+   <td><p>Actuel : [!UICONTROL Team] ou version ultérieure</p>
    <p>Ou</p>
    <p>Nouveau : Tous</p>
    </td> 
@@ -47,8 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader"><strong>Configurations du niveau d’accès</strong> </td> 
    <td> <p>Utilisez l’une des configurations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès [!UICONTROL Administrateur système] qui permet de modifier n’importe quelle entreprise du système.</p> </li> 
-     <li> <p>Accès administratif pour la gestion des entreprises, ce qui vous permet de modifier n’importe quelle entreprise du système.</p> </li> 
+     <li> <p>Le niveau d'accès [!UICONTROL System Administrator], qui permet de modifier n'importe quelle société du système.</p> </li> 
+     <li> <p>Accès administratif pour gérer les sociétés, ce qui vous permet de modifier n’importe quelle société du système.</p> </li> 
     </ul> <p><b>NOTE</b> :  
      <ul> 
       <li> <p>Vous pouvez également gérer les entreprises associées à un groupe pour lequel vous faites partie de l’équipe d’administration.</p> </li> 
@@ -73,7 +73,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur **[!UICONTROL Entreprises]**.
 1. Cliquez sur le nom de l’entreprise.
-1. La section **[!UICONTROL Personnes membres de l’entreprise]** étant sélectionnée dans le panneau de gauche, effectuez l’une des opérations suivantes :
+1. Cliquez sur **[!UICONTROL Membres de la société]** dans le panneau de gauche.
+1. Effectuez l’une des opérations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -125,9 +126,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <td role="rowheader">Envoyer un commentaire aux personnes et à leurs zones [!UICONTROL Updates]</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Sélectionnez au moins une personne, puis cliquez sur l’icône [!UICONTROL Comment] <img src="assets/comment-icon.png"> dans la barre d’outils.</p> </li> 
+        <li value="1"> <p>Sélectionnez au moins un utilisateur, puis cliquez sur <b>Envoyer la mise à jour à l’utilisateur</b> dans la barre d’outils.</p> </li> 
         <li value="2"> <p>Saisissez le commentaire à envoyer aux personnes et à la zone [!UICONTROL Updates] de leurs profils.</p> </li> 
-       </ol> </td> 
+       </ol>
+       <p>Pour plus d’informations, voir <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Envoi de messages directs à d’autres utilisateurs</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exporter la liste des personnes membres de l’entreprise</td> 
