@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 85%
+source-wordcount: '259'
+ht-degree: 65%
 
 ---
 
 # Supprimer une condition personnalisée
+
+{{highlighted-preview}}
 
 Vous pouvez supprimer une condition personnalisée si elle n’est plus nécessaire.
 
@@ -58,16 +60,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur **Préférences du projet** > **Conditions**.
 
-   <!--
-   <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
-   -->
-
 1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche**, ou **Problème**) dans lequel se trouve la condition à supprimer.
 
-1. Pointez sur la condition à supprimer, puis cliquez sur l’icône **Supprimer** ![Supprimer](assets/delete.png) qui s’affiche à l’extrémité droite.
-1. Dans le message de confirmation qui s’affiche, cliquez sur **Supprimer la condition**.
+1. Cliquez sur <span class="preview">**Supprimer** en regard du nom de la condition</span> vous souhaitez la supprimer, ou passez la souris sur la condition et cliquez sur l’icône **Supprimer** ![Supprimer](assets/delete.png) qui s’affiche à l’extrémité droite.
 
-1. Dans la boîte **Supprimer la condition** qui apparaît, sélectionnez une nouvelle condition dans la liste déroulante pour tous les projets qui utilisaient la condition que vous supprimez.
+1. Dans la zone **Supprimer la condition** qui s’affiche, sélectionnez une nouvelle condition dans la liste déroulante pour tous les projets, tâches ou événements qui utilisaient la condition que vous supprimez.
 
    Les conditions personnalisées ne sont disponibles dans la liste déroulante que si elles correspondent à la même condition intégrée que celle que vous supprimez. Par exemple, si vous supprimez une condition qui équivaut à À risque, seules les conditions personnalisées qui équivalent également à À risque peuvent être sélectionnées.
 
@@ -76,5 +73,5 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 >[!NOTE]
 >
 >Vous ne pouvez pas supprimer les conditions intégrées, qui sont Ciblé, À risque et À problème. Toutefois, vous pouvez modifier leurs noms et leurs couleurs.
-
-Pour plus d’informations sur les conditions personnalisées, voir [Conditions personnalisées](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+>
+>Pour plus d’informations sur la modification des conditions personnalisées, voir [Créer ou modifier une condition personnalisée](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).

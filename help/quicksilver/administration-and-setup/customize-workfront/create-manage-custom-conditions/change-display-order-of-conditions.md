@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 86%
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ Vous pouvez modifier l’ordre dans lequel les conditions s’affichent dans les
 
 * Lorsqu’un utilisateur ou une utilisatrice modifie un projet.
 
-  ![Modifier la condition lors de la modification du projet](assets/change-condition-edit-project.png)
+  ![Modifier la condition lors de la modification du projet](assets/change-condition-edit-project-0825.png)
 
 * Lorsqu’une personne modifie la condition d’une tâche ou d’un problème
 
@@ -64,9 +64,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Préférences du projet** > **Conditions**.
+1. Cliquez sur **Préférences du projet** > **Conditions**.
 
-1. Sélectionnez l’onglet **Projets**,**Tâches** ou **Problèmes**.
+1. Sélectionnez l’onglet **Projets**, **Tâches** ou **Événements**.
 
 1. Faites glisser ![icône Déplacer](assets/move-icon---dots.png) Conditions pour modifier leur ordre.
 
