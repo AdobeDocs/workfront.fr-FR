@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: 0239cad2d9173da20770934e6132b29301117cdf
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 82%
+source-wordcount: '503'
+ht-degree: 73%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 82%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -72,7 +72,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur la flèche déroulante **Nouvel utilisateur ou utilisatrice**, puis sur **Importer des utilisateurs et utilisatrices**.
 
-1. Dans la zone **Importer des utilisateurs et utilisatrices** qui s’affiche, téléchargez le fichier d’exemple, puis mettez-le à jour afin d’inclure les informations personnelles de votre utilisateur ou utilisatrice.
+1. Dans la zone **Importer des utilisateurs** qui s’affiche, téléchargez l’exemple de fichier, puis mettez à jour l’exemple de fichier pour inclure les informations personnelles de votre propre utilisateur.
 
    Chaque ligne comprend les champs suivants :
 
@@ -97,16 +97,20 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    ![importing-new-users.png](assets/importing-new-users.png)
 
 1. Enregistrez le fichier à un emplacement de votre poste de travail.
-1. Cliquez sur **Choisir un fichier** dans la zone **Importer des utilisateurs et utilisatrices**.
+1. Cliquez sur **Choisir un fichier** dans la zone **Importer des utilisateurs**.
 
 1. Accédez au fichier que vous avez enregistré et sélectionnez-le.
-1. (Facultatif) Sélectionnez l’option **Envoyer un e-mail d’invitation à cet utilisateur ou à cette utilisatrice** pour envoyer une invitation par e-mail à l’utilisateur ou à l’utilisatrice, l’informant qu’un compte Workfront a été créé et lui demandant de définir son mot de passe.
 
-   Désélectionnez cette option pour définir le mot de passe de l’utilisateur ou de l’utilisatrice.
+<!--
+1. (Optional) Select the **Send an invite email to this user** option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
+
+   Deselect this option if you want to set the password for the user.
+
+-->
 
 1. Cliquez sur **Importer**.
 
-   Vous recevez un message de confirmation en haut de l’écran pour confirmer que l’utilisateur ou l’utilisatrice a bien été importé.
+   Un message de confirmation s’affiche en haut de l’écran pour confirmer que l’importation des utilisateurs a réussi.
 
 >[!NOTE]
 >
@@ -114,4 +118,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 > 
 >Si un utilisateur ou une utilisatrice ne quitte pas le statut Désactivé et Approbation en attente dans les minutes qui suivent, et qu’une actualisation de l’écran ne supprime pas le badge Approbation en attente , vous pouvez ajouter directement le lot d’utilisateurs ou d’utilisatrices au Adobe Admin Console.
 >
->Pour obtenir des instructions, voir [Gérer plusieurs utilisateurs | Chargement CSV en masse](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html) dans la documentation d’Adobe.
+>Pour obtenir des instructions, voir la section [Gérer plusieurs utilisateurs et utilisatrices | Chargement CSV en masse](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html?lang=fr) dans la documentation Adobe.
