@@ -4,10 +4,11 @@ content-type: reference
 description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs de requête en saisissant une invite ou en fournissant un document.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 13%
+source-wordcount: '1093'
+ht-degree: 12%
 
 ---
 
@@ -62,6 +63,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Conditions préalables
 
 Pour remplir automatiquement les demandes à l’aide d’une invite ou d’un document, **toutes** les conditions suivantes doivent être remplies :
@@ -72,6 +75,9 @@ Pour remplir automatiquement les demandes à l’aide d’une invite ou d’un d
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans le fichier .
 
   Pour plus d’informations sur la signature du contrat, consultez [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) dans l’article Présentation de l’assistant AI.
+* L’assistant AI doit être activé dans les paramètres système de votre entreprise. Cette opération est gérée par votre administrateur Workfront.
+
+  Pour plus d’informations sur l’activation de l’assistant AI dans les paramètres système, voir [Activer ou désactiver l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Obtenir des suggestions à partir d’une invite de texte
 
@@ -252,4 +258,3 @@ Si vous n’obtenez pas les suggestions attendues, cela peut être dû à l’un
 
 * Vous devez disposer d’au moins un mois de données de requête dans le système avant de pouvoir suggérer des valeurs de champ à partir de requêtes précédentes.
 * Vous n’avez peut-être pas suivi les mécanismes de sécurisation de chargement de document lors du chargement d’un document à partir duquel extraire des suggestions. Pour plus d’informations, consultez la section [Mécanismes de sécurisation de chargement de document](#document-upload-guardrails) dans cet article.
-
