@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 100%
+source-wordcount: '1506'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Pour plus d’informations sur la conversion de problèmes en projets, voir [Con
    * Versions
    * Les épreuves ne sont incluses que lorsque l’option **Conserver le problème original et lier sa résolution à cette tâche** n’est pas sélectionnée.
    * Les approbations de documents ne sont pas incluses lorsque vous convertissez un problème auquel des documents et des liens de documents sont joints.
-
+* Le traitement d’un événement est limité à 5 minutes. Si le problème est associé à un grand nombre de documents et qu’il ne parvient pas à être converti, vous devrez peut-être supprimer certains des documents et réessayer.
 * Si vous avez décidé de conserver le problème dans la conversion et que des documents y sont joints, le document et ses versions sont copiés dans le projet ou la tâche. Les épreuves et les approbations de document ne sont pas copiés dans le projet ou la tâche.
 * Si vous avez décidé de ne pas conserver le problème dans la conversion et que des documents y sont joints, le document, ses versions et les épreuves sont transférés vers le projet ou la tâche. Les approbations de document ne seront pas transférées vers le projet ou la tâche.
 * Si des documents et des dossiers sont liés au problème original de services tiers, tels que Google Drive, que vous gardiez le problème ou non pendant la conversion, ces liens seront copiés dans le nouvel objet.

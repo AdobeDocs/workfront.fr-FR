@@ -6,10 +6,10 @@ description: Si vous devez fournir plus de travail pour résoudre un problème a
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 98%
+source-wordcount: '1081'
+ht-degree: 94%
 
 ---
 
@@ -47,6 +47,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 </table>
 
 *Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
+## Considérations
+
+* Le temps de traitement est limité à 5 minutes lors de la conversion d’un événement en tâche. Si le problème est associé à un grand nombre de documents et qu’il ne parvient pas à être converti, vous devrez peut-être supprimer certains des documents et réessayer.
 
 ## Convertir un problème en une tâche
 

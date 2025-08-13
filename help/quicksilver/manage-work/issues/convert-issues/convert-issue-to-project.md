@@ -6,10 +6,10 @@ description: Convertir un problème en projet dans Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 89%
+source-wordcount: '2017'
+ht-degree: 87%
 
 ---
 
@@ -61,6 +61,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Considérations
+
+* Le traitement d’un événement en projet est limité à 5 minutes. Si le problème est associé à un grand nombre de documents et qu’il ne parvient pas à être converti, vous devrez peut-être supprimer certains des documents et réessayer.
 
 ## Convertir un problème en projet
 
