@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: cbdc60db525dabb93e984dff7787a83edceb6c8c
+source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 21%
+source-wordcount: '1405'
+ht-degree: 20%
 
 ---
 
@@ -68,6 +68,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Nouveau réviseur de l’IA dédiée à Workfront</a><p></p>
+            <p>Remarque : cette fonctionnalité est actuellement en version bêta.</p>
+            <p>Le nouveau réviseur de l’IA pour Workfront assure la conformité de la marque des images en examinant automatiquement le contenu selon vos directives de marque, en commençant par les directives d’image. Il fournit un score et des commentaires exploitables pour rationaliser le processus d’approbation. </p>
+            <p>Vous pouvez ajouter l’IA Reviewer aux modèles d’approbation ou aux demandes individuelles de révision et d’approbation, ce qui permet une production plus rapide du contenu tout en maintenant les normes de la marque.</p>
+        </td>
+        <td>vendredi 14 août 2025</td>
+        <td>vendredi 14 août 2025</td>
+        <td>vendredi 14 août 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Nouvelle intégration de vérification pour Adobe Express</a><p></p>
@@ -238,7 +249,7 @@ Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’
 
 ### Améliorations de Workfront Fusion
 
-De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+De nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à une cadence en dehors du calendrier de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations apportées à Workfront Planning
 
@@ -287,7 +298,7 @@ Pour offrir des intégrations plus stables et plus évolutives, nous passons à 
 * Workfront pour Salesforce.
 
 Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
-Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Version 20 de l’API
 
@@ -299,7 +310,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

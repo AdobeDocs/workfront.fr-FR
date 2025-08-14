@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
+source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
 workflow-type: tm+mt
-source-wordcount: '6622'
+source-wordcount: '6687'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+### Mises à jour de l’interface pour les éléments récemment supprimés
+
+**Version préliminaire : 14 août 2025 ; Version de production : 21 août 2025**
+
+Nous avons mis à jour l’aspect des éléments récemment supprimés dans la zone Configuration , afin qu’ils correspondent à la conception d’autres zones de Workfront. Aucune fonctionnalité n’a été modifiée pour les projets, tâches, demandes, documents ou modèles récemment supprimés.
+
+Pour afficher cette modification, accédez à Configuration > Corbeille > Récemment supprimés.
+
+Pour plus d’informations, voir [Restaurer les éléments supprimés](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ### Mises à jour de l’interface pour la zone Conditions dans la Configuration
 
@@ -82,7 +92,7 @@ Pour plus d’informations, voir [Consigner le temps](/help/quicksilver/timeshee
 
 ### Mises à jour de l’interface pour un business case de projet
 
-**Version préliminaire : 4 août 2025 ; Version de production : 18 août**
+**Version préliminaire : 4 août 2025 ; Version de production : 13 août 2025**
 
 Nous avons mis à jour l’aspect de l’analyse de rentabilité du projet pour qu’elle corresponde à d’autres zones de l’application.
 
@@ -125,15 +135,14 @@ Pour plus d’informations, voir les articles suivants :
 * [Gérer l’équipe de projet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [Gérer les adhésions des entreprises](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### Mise à jour de l’expérience lors de la modification d’une rubrique de file d’attente dans un projet ou modèle
+### Mise à jour de l’expérience lors de la modification d’un groupe de rubriques dans un projet ou un modèle
 
 **Version préliminaire : 31 juillet 2025 ; Version de production : 31 juillet 2025**
 
-Nous avons mis à jour l’aspect d’une rubrique de file d’attente lors de sa modification sur un modèle. La page Modification de la rubrique de file d’attente correspond désormais à la conception d’autres zones de Workfront.
+Nous avons mis à jour l’aspect d’un groupe de rubriques lors de sa modification sur un modèle. La page de modification du groupe de sujets correspond désormais à la conception d&#39;autres zones de Workfront.
+Une petite modification de fonctionnalité a été appliquée au groupe de sujets. Pour modifier un groupe de sujets, sélectionnez-le dans la liste et cliquez sur l&#39;icône Modifier. Vous n’êtes plus dirigé vers la page Détails du groupe de sujets avant de pouvoir le modifier.
 
-Une petite modification de fonctionnalité a été appliquée à la liste des règles de transmission. Pour modifier une rubrique de file d&#39;attente, sélectionnez-la dans la liste et cliquez sur l&#39;icône Modifier. Vous n’êtes plus dirigé vers la page Détails de la rubrique de file d’attente avant de pouvoir la modifier.
-
-Pour plus d’informations, voir [Créer des rubriques de file d’attente](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Pour plus d’informations, voir [Créer des groupes de rubriques](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 ### Mises à jour de l’interface pour les enregistrements de facturation
 
@@ -215,11 +224,11 @@ Pour plus d’informations, voir [Importer des utilisateurs](/help/quicksilver/a
 
 ### Administration et configuration
 
-+++Développez pour afficher les mises à jour de l’interface d’administration et de configuration effectuées au 3e trimestre.
++++Développez pour afficher les mises à jour de l’interface d’administration et de configuration effectuées au 3e trimestre
 
 ### Mises à jour de l’interface pour la page Modèles de disposition
 
-**Version préliminaire : 17 juillet 2025 ; Version de production : à déterminer**
+**Version préliminaire : 17 juillet 2025 ; Version de production : 14 août 2025**
 
 Nous avons mis à jour la page Modèles de mise en page avec un design plus moderne et cohérent avec les autres zones de Workfront.
 
@@ -416,7 +425,7 @@ Nous avons mis à jour la boîte de dialogue de partage pour permettre aux utili
 
 ### Navigation et recherche
 
-+++Développez pour afficher les mises à jour de l’interface de navigation et de recherche effectuées au 3e trimestre.
++++Développez pour afficher les mises à jour de la navigation et de l’interface de recherche effectuées au 3e trimestre.
 
 ### Mise à jour de l’interface pour la recherche avancée
 
@@ -526,7 +535,7 @@ Pour plus d’informations, voir les articles suivants :
 
 ### Rapports et tableaux de bord
 
-+++Développez pour afficher les mises à jour de l’interface Rapports et tableaux de bord effectuées au 3e trimestre.
++++Développez pour afficher les mises à jour de l’interface Rapports et tableaux de bord effectuées au 3e trimestre
 
 ### Mises à jour de l&#39;interface pour l&#39;état de dépenses
 
@@ -891,7 +900,7 @@ Pour afficher cette modification, accédez à Équipes > choisir une équipe > L
 
 ### Documents
 
-+++Développer pour afficher les mises à jour de l’interface Documents effectuées au 2e trimestre
++++Développez pour afficher les mises à jour de l’interface Documents effectuées au 2e trimestre
 
 ### Mises à jour de l’interface lors de la demande d’un document
 
@@ -958,7 +967,7 @@ Pour plus d’informations, voir [Créer un chemin jalonné](/help/quicksilver/a
 
 ### Rapports et tableaux de bord
 
-+++Développez pour afficher les mises à jour de l’interface Rapports et tableaux de bord effectuées au 2e trimestre.
++++Développez pour afficher les mises à jour de l’interface Rapports et tableaux de bord effectuées au 2e trimestre
 
 ### Mises à jour de l’apparence d’un rapport Chemin jalonné
 
@@ -1095,7 +1104,7 @@ Nous avons ajouté un nouveau bouton Modifier le mode Texte et modifié la boît
 
 ### Mises à jour et commentaires
 
-+++Développez pour afficher les mises à jour de l’interface Mises à jour et commentaires effectuées au 2e trimestre.
++++Développez pour afficher les mises à jour de l’interface Mises à jour et commentaires effectuées au 2e trimestre
 
 ### Mise à jour de l’interface pour les options du menu Plus pour les commentaires
 

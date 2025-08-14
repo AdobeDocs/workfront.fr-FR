@@ -4,10 +4,11 @@ description: Améliorations des documents et des relectures du quatrième trimes
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0babf2c4028ee0c45258ec3490bab336fd05a68b
+exl-id: f4615994-8a56-482c-b033-62e719be152e
+source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 18%
+source-wordcount: '281'
+ht-degree: 12%
 
 ---
 
@@ -17,7 +18,27 @@ Cette page décrit les améliorations apportées au document et à la relecture 
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2025, voir [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Nouvel évaluateur Workfront AI
+
+>[!NOTE]
+>
+>Disponible pour tous les clients le 14 août 2025
+
+Le nouveau réviseur de l’IA pour Workfront assure la conformité de la marque des images en examinant automatiquement le contenu selon vos directives de marque, en commençant par les directives d’image. Il fournit un score et des commentaires exploitables pour rationaliser le processus d’approbation.
+
+Vous pouvez ajouter l’IA Reviewer aux modèles d’approbation ou aux demandes individuelles de révision et d’approbation, ce qui permet une production plus rapide du contenu tout en maintenant les normes de la marque.
+
+Pour plus d’informations, voir [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
+Cette fonctionnalité est actuellement en version bêta.
+
+
 ## Nouvelle intégration de relecture pour Adobe Express
+
+>[!NOTE]
+>
+>Disponible pour tous les clients le 28 juillet 2025
+
 
 Nous sommes ravis d’annoncer une nouvelle intégration entre Adobe Express et Workfront Proof.
 
