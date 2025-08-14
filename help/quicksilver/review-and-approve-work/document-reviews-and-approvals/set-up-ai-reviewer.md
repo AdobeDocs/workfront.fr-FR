@@ -57,7 +57,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 Avant de commencer, vous devez configurer des directives relatives à la marque d’image dans GenStudio Foundations.
 
-Pour en savoir plus sur les directives relatives aux marques d’images, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Pour en savoir plus sur les directives relatives aux marques d’images, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Ajouter un réviseur d’IA
 
