@@ -6,17 +6,19 @@ description: Quelques secondes après l’envoi de la demande d’approbation, v
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-
 # Afficher le score et le retour d’informations du réviseur de l’IA
+
+>[!NOTE]
+>
+>Cette fonctionnalité est actuellement en version bêta.
 
 Quelques secondes après l’envoi de la demande de révision et d’approbation, vous pouvez afficher le score et le retour d’informations du réviseur de l’IA dans le panneau Résumé du document .
 
