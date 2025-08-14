@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
+source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6776'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+### Mises à jour de l’interface pour la zone Envoyer la mise à jour aux utilisateurs dans les groupes
+
+**Version préliminaire : 14 août 2025 ; Version de production : 14 août 2025**
+
+Nous avons mis à jour l’aspect de la zone Envoyer la mise à jour à l’utilisateur ou à l’utilisatrice lors de l’accès à partir de la liste des membres du groupe et de la liste des membres du sous-groupe.
+
+La zone Envoyer la mise à jour à l’utilisateur correspond désormais à d’autres zones de Workfront lorsque vous envoyez une mise à jour à un ou plusieurs utilisateurs.
+
+Pour plus d’informations, voir [Afficher et gérer les appartenances d’un groupe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) et [Afficher et gérer les membres des sous-groupes](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Mises à jour de l’interface pour les éléments récemment supprimés
 
@@ -85,6 +95,10 @@ Pour afficher cette modification, accédez à Configuration > Système > Mettre 
 ### Mises à jour de l’interface pour la journalisation du temps sur un projet, une tâche ou un événement dans la section Heures
 
 **Version préliminaire : 7 août 2025 ; Version de production : 14 août 2025**
+
+>[!NOTE]
+>
+>Temporairement supprimé de l’aperçu et de la production
 
 Nous avons mis à jour l’aspect de la zone Enregistrer le temps lors de la journalisation du temps pour un projet, une tâche ou un problème dans la section Heures , afin qu’elle corresponde à la conception d’autres zones de Workfront.
 
