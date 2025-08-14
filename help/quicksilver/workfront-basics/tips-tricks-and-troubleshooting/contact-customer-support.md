@@ -82,7 +82,7 @@ Vous pouvez envoyer un ticket d’assistance depuis le portail libre-service [!D
 >Seuls les contacts d’assistance autorisés (ou les utilisateurs et utilisatrices autorisés de l’assistance) peuvent envoyer des tickets d’assistance en ligne.
 
 
-1. Depuis le site web [[!DNL Experience League]](https://experienceleague.adobe.com), cliquez sur **[!UICONTROL Assistance]** en haut de la page.
+1. Depuis le site web [[!DNL Experience League]](https://experienceleague.adobe.com/fr), cliquez sur **[!UICONTROL Assistance]** en haut de la page.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -137,7 +137,7 @@ Si vous avez des questions ou des problèmes lors de l’envoi d’une demande, 
 1. (Facultatif) Pour fermer la casse, cliquez sur le bouton **[!UICONTROL Fermer la casse]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=fr)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 
