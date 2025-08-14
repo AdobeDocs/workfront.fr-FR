@@ -4,9 +4,9 @@ description: Vous pouvez activer l’ajout d’un type d’enregistrement à un 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1030'
 ht-degree: 11%
 
 ---
@@ -22,15 +22,37 @@ recommendations: noDisplay, noCatalog
 
 <!--*******************THIS TITLE MIGHT NEED TO CHANGE WHEN WE HAVE THE FINAL NAME FOR THE "GLOBAL" RECORD TYPE - NOT SURE IF WE ARE GOING TO USE "GLOBAL" OR "DYNAMIC", OR ???? ***************; also update TOC file, the miniTOC,  etc when this is finalized-->
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+
+
+<!--this article is linked to the UI - do not delete or change the URL-->
+<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this imported record type - this info is in the UI - this is what she sent in figma:
+
+Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
+
+So we'd have the "Allow adding this record type to other workspaces" setting in enabled or disabled state, and display an explanation text below it explaining the capability, as well as a link to help articles for more context. I'd like to include the following key points in the message:  
+
+Once enabled, this record type can be added in other workspaces by designated people 
+
+Members of those workspaces can create and manage records in scope of their workspace 
+
+Any records added by other workspace members will be rolled up to this workspace with view access so members of the current workspace can create views for cross-workspace records.  
+
+Then for the second setting for cross-workspace connections, we'll need a similar explanation text would highlight that the other workspaces can create connections and gain view access to the records in this record type, but will not see the record type in their workspace. (not sure what she means by this last bit, asking in figma also)
+
+-->
 
 # Configurer les fonctionnalités de l’espace de travail croisé pour les types d’enregistrements
+
+<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Vous pouvez désigner un type d’enregistrement à ajouter à un autre espace de travail ou à connecter à partir d’un autre espace de travail, dans Adobe Workfront Planning.
+Vous trouverez ci-dessous des fonctionnalités inter-espaces de travail de types d’enregistrements :
+
+* Vous pouvez désigner un type d’enregistrement comme centralisé. Les utilisateurs peuvent ajouter des types d’enregistrements centralisés à d’autres espaces de travail qu’ils peuvent gérer.
+* Vous pouvez désigner un type d’enregistrement comme pouvant être connecté. Les utilisateurs peuvent se connecter à ce type d’enregistrement à partir d’autres espaces de travail.
 
 Vous devez d&#39;abord définir les fonctionnalités inter-espaces de travail d&#39;un type d&#39;enregistrement avant que les responsables d&#39;espace de travail puissent le connecter ou l&#39;importer dans d&#39;autres espaces de travail.
 
@@ -43,7 +65,7 @@ Pour plus d’informations, consultez l’un des articles suivants :
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -103,7 +125,7 @@ Pour plus d’informations, consultez l’un des articles suivants :
 
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Configuration de l’ajout d’un type d’enregistrement à d’autres espaces de travail
 

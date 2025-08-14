@@ -6,10 +6,10 @@ description: Les portfolios sont des collections de projets ou de programmes dan
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 90%
+source-wordcount: '441'
+ht-degree: 69%
 
 ---
 
@@ -23,9 +23,7 @@ Plutôt que de supprimer un portfolio qui n’a plus besoin d’être associé �
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,11 +35,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard] </p>
-   <p>Actuelle : [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès [!UICONTROL Edit] aux projets et aux portfolios</p>  </td> 
   </tr> 
   <tr> 
@@ -68,6 +66,7 @@ Tenez compte des éléments suivants lorsque vous décidez de supprimer ou de d�
 * La suppression d’un portfolio ne supprime pas les projets qui lui sont associés.
 * Vous ne pouvez pas récupérer les portfolios supprimés.
 * La désactivation d’un portfolio garantit que son nom et ses programmes ne peuvent plus être attribués aux projets lors de la création d’un projet.
+* La désactivation d’un portfolio déjà associé à un projet ne le supprime pas du projet. Si vous supprimez un portfolio désactivé d’un projet, vous devez le réactiver avant de pouvoir le joindre à nouveau au projet.
 
 ## Désactiver un portfolio
 
@@ -82,11 +81,17 @@ Lorsque vous désactivez un portfolio, vous pouvez toujours y accéder à partir
 1. Cliquez sur **[!UICONTROL Portfolios]**.
 1. Cliquez sur le nom du portfolio.
 1. Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom du portfolio, puis cliquez sur **[!UICONTROL Désactiver Portfolio]**.
+Le portfolio est immédiatement désactivé.
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom du portfolio, puis cliquez sur **[!UICONTROL Activer Portfolio]** pour le réactiver.
 
 ## Supprimer un portfolio
 
-{{step1-click-main-menu}}
+{{step1-to-portfolios}}
 
-1. Cliquez sur **[!UICONTROL Portfolios]**.
-1. Sélectionnez le portfolio, puis cliquez sur **[!UICONTROL Supprimer]**&#x200B; l’icône [!UICONTROL Supprimer] ![Icône Supprimer](assets/delete.png).
+1. Utilisez l’une des méthodes suivantes :
+
+   * Sélectionnez le portfolio dans la liste, puis cliquez sur l&#39;icône **[!UICONTROL Supprimer]** ![Icône Supprimer](assets/delete.png).
+   * Cliquez sur le portfolio pour l’ouvrir, puis sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom du portfolio, puis sur **Supprimer Portfolio**.
 1. Cliquez sur **[!UICONTROL Oui, supprimer]** pour confirmer.
+
+   Le portefeuille est supprimé et ne peut pas être récupéré.

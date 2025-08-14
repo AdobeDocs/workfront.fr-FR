@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 43%
+source-wordcount: '736'
+ht-degree: 40%
 
 ---
 
@@ -29,7 +29,7 @@ Pour plus d’informations, consultez la section « Formule » de l’article [C
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ Pour plus d’informations, consultez la section « Formule » de l’article [C
 
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Remarques sur les champs de formule
 
@@ -112,6 +112,10 @@ Pour plus d’informations, consultez la section « Formule » de l’article [C
 
   Pour plus d’informations, consultez la section « Formule » de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 * Vous pouvez référencer des champs de formule dans de nouvelles formules. Une fois que la valeur est mise à jour dans un champ référencé dans un champ de formule, tous les champs suivants référençant ce champ ou les champs de formule qui contiennent ce champ sont automatiquement mis à jour.
+* Les champs de formule peuvent s’afficher comme `#ERROR!` dans les cas suivants :
+   * Lorsqu’un champ utilisé dans une formule est supprimé.
+   * Lorsqu’un champ utilisé dans un champ de recherche agrégé s’affiche sous la forme `#ERROR!`.
+Par exemple, si vous affichez un champ de recherche qui contient des champs de formule de recherche agrégés et que l&#39;un des champs de formule référencés s&#39;affiche sous la forme `#ERROR!`.
 
 ## Formules prises en charge
 

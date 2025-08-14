@@ -4,9 +4,9 @@ description: Les types d’enregistrements sont les types d’objets d’Adobe 
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '599'
 ht-degree: 17%
 
 ---
@@ -27,15 +27,15 @@ recommendations: noDisplay, noCatalog
 
 En tant que responsable d&#39;espace de travail, vous pouvez importer ou ajouter un type d&#39;enregistrement existant dans un autre espace de travail.
 
-Vous devez d&#39;abord définir les fonctionnalités inter-espaces de travail d&#39;un type d&#39;enregistrement avant que les responsables d&#39;espace de travail puissent l&#39;importer dans d&#39;autres espaces de travail.
+Vous devez d&#39;abord désigner un type d&#39;enregistrement comme centralisé avant que les responsables d&#39;espace de travail puissent l&#39;importer dans d&#39;autres espaces de travail.
 
-Vous définissez les fonctionnalités inter-espaces de travail d’un type d’enregistrement lorsque vous créez ou modifiez un type d’enregistrement.
+Vous pouvez désigner un type d’enregistrement comme centralisé lorsque vous le créez ou le modifiez, car vous définissez ses paramètres sur plusieurs espaces de travail.
 
 Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,9 +95,11 @@ Pour plus d’informations, voir [Configuration des fonctionnalités de plusieur
 
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
-## Remarques concernant l’ajout de types d’enregistrements existants depuis un autre espace de travail
+## Présentation des types d’enregistrements centralisés
+
+Remarques concernant l’ajout de types d’enregistrements existants depuis un autre espace de travail
 
 * Lorsqu’aucun type d’enregistrement n’est configuré pour être ajouté à un autre espace de travail, l’option permettant de les importer depuis un autre espace de travail ne s’affiche pas lors de la création d’un type d’enregistrement. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
 * Après avoir ajouté le type d’enregistrement à partir d’un autre espace de travail, les informations suivantes sont également ajoutées à partir du type d’enregistrement existant :
