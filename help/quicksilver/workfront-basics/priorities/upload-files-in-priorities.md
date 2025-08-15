@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 30%
+source-wordcount: '337'
+ht-degree: 29%
 
 ---
 
@@ -54,9 +54,10 @@ Pour connaître le forfait, le type de licence ou l’accès dont vous disposez,
 
 {{step1-to-priorities}}
 
-1. Pointez sur le nom, puis cliquez sur **Charger**.
+1. Pointez sur le nom, puis cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png).
+1. Cliquez sur **Charger**.
    ![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
-1. (Facultatif) Sélectionnez un dossier.
+1. (Facultatif) Dans la zone **Télécharger des fichiers**, sélectionnez un dossier.
 1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
 ou
 Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
@@ -68,16 +69,14 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
    >
    >Les fichiers supplémentaires sont chargés en tant que documents distincts.
 1. Cliquez sur **Charger**.
-   ![Charger un fichier](assets/upload-file-module.png)
-
 
 ## Charger un fichier dans un élément de travail
 
 {{step1-to-priorities}}
 
-1. Cliquez sur le nom d’un élément de travail pour ouvrir la page Aperçu .
-1. Dans la section **Actions rapides**, cliquez sur **Télécharger**.
-1. (Facultatif) Sélectionnez un dossier.
+1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
+1. Dans la section **Actions rapides**, cliquez sur **Charger** puis sélectionnez **Document**.
+1. (Facultatif) Dans la zone **Télécharger des fichiers**, sélectionnez un dossier.
 1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
 ou
 Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
@@ -89,4 +88,3 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
    >
    >Les fichiers supplémentaires sont chargés en tant que documents distincts.
 1. Cliquez sur **Charger**.
-   ![Charger un fichier](assets/upload-file-module.png)

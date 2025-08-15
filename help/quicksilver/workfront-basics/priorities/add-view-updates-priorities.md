@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 12%
 
 ---
@@ -87,9 +87,9 @@ Vous pouvez ajouter des commentaires et afficher des commentaires et des mises �
 
 1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Recherchez la zone **Mises à jour** dans le coin inférieur droit de l’écran.
-1. (Facultatif) Utilisez l’onglet **Commentaires** pour mettre à jour d’autres personnes sur l’élément de travail.
+1. (Facultatif) Utilisez l’onglet **Commentaires** pour afficher les mises à jour effectuées par d’autres personnes sur l’élément de travail.
 1. (Facultatif) Utilisez l’onglet **Activité du système** pour afficher l’activité du système associée à l’élément de travail.
-1. (Facultatif) Pour ajouter un commentaire, accédez à l’onglet **Commentaire** et commencez à saisir du texte dans la zone Nouveau commentaire. Cliquez sur **Soumettre** lorsque vous avez terminé.
+1. (Facultatif) Pour ajouter un commentaire, accédez à l’onglet **Commentaire** et commencez la saisie dans la zone **Nouveau commentaire**. Cliquez sur **Soumettre** lorsque vous avez terminé.
    ![Zone des mises à jour](assets/updates-area-in-overview.png)
 
 ## Répondre à un commentaire
@@ -101,12 +101,12 @@ Vous pouvez répondre à un commentaire dans un élément de travail :
 1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Recherchez la zone **Mises à jour** dans le coin inférieur droit de l’écran.
 1. Dans l’onglet **Commentaires**, recherchez le commentaire auquel vous souhaitez répondre, puis cliquez sur **Répondre**.
-1. (Conditionnel) Si vous souhaitez répondre pour apporter le contenu d’un message dans votre réponse, cliquez sur l’icône de menu **Plus** ![Menu Plus](assets/more-icon.png) à côté du corps du message et choisissez **Citer la réponse**.
+1. (Conditionnel) Si vous souhaitez importer le contenu d’un message dans votre réponse, cliquez sur l’icône de menu **Plus** ![Menu Plus](assets/more-icon.png) à côté du corps du message et choisissez **Citer la réponse**.
 
 1. Saisissez votre réponse, puis cliquez sur **Envoyer**.
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission. Pour modifier un commentaire, cliquez sur le menu Plus dans le coin supérieur droit du commentaire, puis cliquez sur Modifier.
+   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
    ![Répondre au commentaire](assets/reply-to-comment.png)

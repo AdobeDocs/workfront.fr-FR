@@ -6,24 +6,24 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 22%
+source-wordcount: '186'
+ht-degree: 25%
 
 ---
 
 # Rattrapage du travail dans les priorités
 
-Avec l’assistant d’IA Workfront, Catch me up résume les mises à jour, les documents chargés et d’autres modifications notables concernant vos projets dans les délais suivants : 24 heures, 3 jours, 7 jours, ce qui permet de réduire le temps consacré à la recherche d’informations sur les projets actifs.
+Avec l’assistant d’IA Workfront, Catch me up résume les mises à jour, les documents chargés et d’autres modifications notables concernant vos projets dans les délais suivants : 24 heures, 3 jours, 7 jours. Cela permet de réduire le temps nécessaire à la recherche d’informations sur les projets actifs.
 
 >[!NOTE]
 >
->Cette fonctionnalité n’est disponible que pour les clients disposant d’une expérience d’Adobe unifié à l’aide de l’assistant AI. Pour plus d’informations sur l’assistant AI, voir [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Cette fonctionnalité est uniquement disponible pour les clients disposant d’une expérience Adobe unifiée à l’aide de l’assistant AI. Pour plus d’informations sur l’assistant AI, voir [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 ## Conditions d’accès
 
-+++Vous devez disposer des droits d’accès suivants pour exécuter les étapes de cet article :
++++Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article : 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,9 +55,12 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. En haut de la page, cliquez sur le bouton **Me rattraper**.
    ![bouton rattraper](assets/catch-me-up-button.png)
-1. Choisissez la période que vous souhaitez résumer :
-   1. 24 heures
-   1. 3 jours
-   1. 7 jours
+1. Sélectionnez la période souhaitée :
+   * **Résumé des dernières 24 heures**
+   * **Résumer les 3 derniers jours**
+   * **Résumer les 7 derniers jours**
 
-   Si vous ne pouvez pas interagir avec ce panneau, votre organisation n’a pas de contrat d’IA généralisée d’Adobe signé dans son fichier.
+   >[!NOTE]
+   >
+   > Si vous ne pouvez pas interagir avec ce panneau, cela signifie que votre organisation ne dispose pas d’un contrat Adobe Gen AI signé dans ce fichier.
+

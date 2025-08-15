@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '653'
 ht-degree: 15%
 
 ---
@@ -64,11 +64,10 @@ Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
 {{step1-to-priorities}}
 
 1. Cliquez sur **Filtres** en haut à gauche de la liste de travail.
-1. Cliquez sur **Filtres standard**.
-1. Sélectionnez un ou plusieurs filtres pour affiner vos éléments de travail.
+1. Dans la section **Filtres standard**, sélectionnez un ou plusieurs filtres pour affiner vos éléments de travail.
    ![Filtre](assets/filter-new.png)
 
-+++Développer pour afficher des informations détaillées sur les filtres disponibles
++++Développez pour afficher des informations détaillées sur les filtres disponibles
 <table>
   <tbody>
    <tr>
@@ -116,12 +115,12 @@ Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
     <td>Affiche le travail par date d'achèvement prévue</td>
     </tr>
     <tr>
-    <td>Statut</td>
-    <td>Affiche les tâches ou les événements dont le statut est nouveau, en cours ou terminé</td>
+    <td>Mon focus</td>
+    <td>Affiche les tâches ou les événements auxquels des niveaux de focus ont été affectés. Les niveaux de focus sont attribués et gérés par l’utilisateur individuel.</td>
     </tr>
     <tr>
-    <td>Mon focus</td>
-    <td>Affiche les tâches ou les événements dans auxquels des niveaux de focus ont été affectés. Les niveaux de focus sont attribués et gérés par l’utilisateur individuel.</td>
+    <td>Statut</td>
+    <td>Affiche les tâches ou les événements dont le statut est nouveau, en cours ou terminé.</td>
     </tr>
   </tbody>
 </table>
@@ -136,7 +135,7 @@ Utilisez le langage naturel pour filtrer rapidement le travail.
 
 >[!NOTE]
 >
->Cette fonctionnalité est uniquement disponible pour les clients disposant d’une expérience Adobe unifiée à l’aide de l’assistant AI. Pour plus d’informations sur l’assistant AI, voir [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Cette fonctionnalité n’est disponible que pour les clients et clientes disposant de l’expérience Adobe unifiée à l’aide de l’assistant AI. Pour plus d’informations sur l’assistant AI, voir [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -146,18 +145,16 @@ Utilisez le langage naturel pour filtrer rapidement le travail.
 
    Vous pouvez saisir des éléments tels que :
 
-   * Afficher les tâches en retard
-   * Afficher mes principales priorités
-   * Afficher le travail dû aujourd&#39;hui
-
-</div>
+   * *Me montrer les tâches en retard*
+   * *Afficher mes principales priorités*
+   * *Afficher le travail dû aujourd&#39;hui*
 
 ## Regrouper votre travail
 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Groupes** en haut à gauche de la liste de travail.
-1. Sélectionner un groupe pour organiser votre liste de travail
+1. Sélectionnez un groupe pour organiser votre liste de travail.
    ![Groupes](assets/groups-new.png)
 
 +++Développer pour afficher des informations détaillées sur les groupes disponibles
@@ -165,9 +162,9 @@ Utilisez le langage naturel pour filtrer rapidement le travail.
 | Groupe | Description |
 |-----------|-------------|
 | Projet | Cette option regroupe les éléments par projet. |
+| Date d’échéance | Cette option regroupe les éléments en fonction de leur échéance. Les dates d&#39;échéance sont déterminées par la date d&#39;achèvement prévue. |
 | Mon focus | Cette option regroupe les éléments en fonction du niveau de focus que vous affectez. |
-| Semaine d’échéance | Cette option regroupe les éléments en fonction de la semaine à laquelle ils sont dus. Les dates d&#39;échéance sont déterminées par la date d&#39;achèvement prévue. |
-| Statut | Cette opération regroupe les éléments selon les statuts suivants : Nouveau, En cours, Terminé. <br>Remarque : pour le moment, vous ne pouvez pas utiliser de statuts personnalisés dans Priorités. |
+| Statut | Cette opération regroupe les éléments selon les statuts suivants : Nouveau, En cours, Terminé. <br><b>Remarque </b> : vous ne pouvez pas utiliser de statuts personnalisés dans Priorités pour le moment. |
 
 +++
 
@@ -176,14 +173,14 @@ Utilisez le langage naturel pour filtrer rapidement le travail.
 Vous pouvez faire glisser et déposer des éléments de travail individuels entre les catégories lors du regroupement par Ma priorité ou Statut.
 
 1. Regroupez vos travaux par **Statut** ou **Ma priorité**.
-2. Pointez sur l’élément de travail pour trouver l’icône Déplacer et faites-la glisser vers la catégorie souhaitée.
+2. Pointez sur l’élément de travail pour cliquer sur l’icône **Faire glisser** et déplacez-le vers la catégorie souhaitée.
    ![icône glisser](assets/drag-and-drop.png)
 
 ## Trier votre travail
 
 ### Tri par groupes
 
-Pour trier votre travail au sein d’un groupe, ouvrez **Groupe** et cliquez sur **Tri croissant** ou **Tri décroissant**.
+Pour trier votre travail au sein d’un groupe, ouvrez **Groupe** et choisissez si vous souhaitez effectuer un tri par ordre croissant ou décroissant.
 
 ![Trier en groupes](assets/sort-in-groups.png)
 

@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 37%
+source-wordcount: '599'
+ht-degree: 29%
 
 ---
 
@@ -72,13 +72,18 @@ Vous pouvez charger un document vers un élément de travail à partir de la lis
 {{step1-to-priorities}}
 
 1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
-1. Vérifiez que vous êtes sur l’onglet Tâche ou Événements dans le panneau.
-1. Cliquez sur l’icône Document dans le rail latéral droit.
-1. Cliquez sur l’icône Télécharger le fichier et sélectionnez le fichier.
-1. (Facultatif) Effectuez l’une des opérations suivantes :
-   1. Sélectionnez un dossier.
-   1. Ajouter un commentaire
-   1. Ajoutez des fichiers supplémentaires.
+1. Vérifiez que vous êtes sur l’onglet **Tâche** ou **Événements** dans le panneau de résumé.
+1. Cliquez sur l’icône **Télécharger le fichier** ![Télécharger le fichier](assets/upload-file-icon.png).
+1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
+ou
+Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
+   ![Ajouter des fichiers](assets/add-files.png)
+1. (Facultatif) Ajoutez un commentaire.
+1. (Facultatif) Ajoutez d’autres fichiers.
+
+   >[!NOTE]
+   >
+   >Les fichiers supplémentaires sont chargés en tant que documents distincts.
 1. Cliquez sur **Charger**.
 
 ### Détails de l’élément de travail
@@ -86,12 +91,18 @@ Vous pouvez charger un document vers un élément de travail à partir de la lis
 {{step1-to-priorities}}
 
 1. Dans la liste des tâches, cliquez sur le nom de l’élément de travail.
-1. Cliquez sur l’onglet Document en haut de l’écran.
-1. Cliquez sur le **Charger le document** > **Document**.
-1. (Facultatif) Effectuez l’une des opérations suivantes :
-   1. Sélectionnez un dossier.
-   1. Ajouter un commentaire
-   1. Ajoutez des fichiers supplémentaires.
+1. Cliquez sur l’onglet **Documents** en haut de l’écran.
+1. Cliquez sur **Charger le document** dans le coin supérieur droit, puis sélectionnez **Document**.
+1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
+ou
+Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
+   ![Ajouter des fichiers](assets/add-files.png)
+1. (Facultatif) Ajoutez un commentaire.
+1. (Facultatif) Ajoutez d’autres fichiers.
+
+   >[!NOTE]
+   >
+   >Les fichiers supplémentaires sont chargés en tant que documents distincts.
 1. Cliquez sur **Charger**.
 
 
@@ -105,16 +116,17 @@ Vous pouvez créer un BAT à partir d’un document de la liste de travail ou de
 {{step1-to-priorities}}
 
 1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
-1. Vérifiez que vous êtes sur l’onglet Tâche ou Événements dans le panneau.
-1. Cliquez sur l’icône **Document** dans le rail latéral droit.
-1. Cliquez sur l&#39;icône **Télécharger un fichier**, puis choisissez le fichier.
+1. Vérifiez que vous êtes sur l’onglet **Tâche** ou **Événements** dans le panneau de résumé.
+1. Cliquez sur l’icône **Documents** ![icône Documents](assets/show-document-icon.png) dans le rail latéral droit.
+1. Cliquez sur l’icône **Télécharger le fichier** ![Télécharger le fichier](assets/upload-file-icon.png), puis sélectionnez le fichier.
 
    >[!NOTE]
    >
    >Vous devez charger le document avant de pouvoir créer l’épreuve.
 
 
-1. Une fois le fichier chargé, cliquez sur **Créer une épreuve**.
+1. Une fois le fichier chargé, sélectionnez-le dans la section **Documents**.
+1. Cliquez sur **Créer une épreuve** dans le coin supérieur droit de la zone des détails du fichier.
 1. Choisissez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
@@ -122,11 +134,11 @@ Vous pouvez créer un BAT à partir d’un document de la liste de travail ou de
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Épreuve simple</td> 
+      <td role="rowheader"><b>Épreuve simple</b></td> 
       <td>Cette option crée une épreuve sans workflow associé et applique les paramètres d’épreuve par défaut. Vous pouvez mettre à jour les paramètres par défaut de l’épreuve ou ajouter un workflow après avoir créé l’épreuve. Pour plus d’informations sur les paramètres d’épreuve, consultez <a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Modification des paramètres d’épreuve</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Épreuve avancée</td> 
+      <td role="rowheader"><b>Épreuve avancée</b></td> 
       <td> <p>Cette option vous permet de configurer un workflow de base ou avancé et de modifier les paramètres de l’épreuve que vous créez. Pour plus d’informations, consultez les ressources suivantes : </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Créer une épreuve avancée avec un workflow de base</a> </p> </li> 
@@ -142,8 +154,8 @@ Vous pouvez créer un BAT à partir d’un document de la liste de travail ou de
 {{step1-to-priorities}}
 
 1. Dans la liste des tâches, cliquez sur le nom de l’élément de travail.
-1. Cliquez sur l’onglet **Document** en haut de l’écran.
-1. Cliquez sur **Charger le document** > **Épreuve**.
+1. Cliquez sur l’onglet **Documents** en haut de l’écran.
+1. Cliquez sur **Charger le document** dans le coin supérieur droit, puis sélectionnez **Épreuve**.
 1. Créez un BAT, comme décrit dans la section
    [Créer une épreuve avancée avec un workflow de base](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [Créer une épreuve avancée avec un workflow automatisé](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

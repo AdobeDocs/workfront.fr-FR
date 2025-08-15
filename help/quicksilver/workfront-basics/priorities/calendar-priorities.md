@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 17%
+source-wordcount: '524'
+ht-degree: 15%
 
 ---
 
@@ -30,8 +30,6 @@ Suivez facilement votre travail grâce à un calendrier visuel clair. Avec le ca
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,28 +37,28 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
    <p>Current : Reviewer ou supérieur</p>
    <p>Nouveau : Light ou supérieur</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès Afficher ou Modifier à l’objet mis à jour</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
+   <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Accès Afficher à l’objet</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,11 +68,11 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
 
 {{step1-to-priorities}}
 
-1. Cliquez sur l’icône Calendrier en haut de la liste de travail.
+1. Cliquez sur l’icône **Calendrier** en haut de la liste de travail.
    ![icône de calendrier](assets/calendar-tab.png)
 1. Sélectionnez un ou plusieurs filtres pour affiner vos éléments de travail.
 
-   +++Développer pour afficher des informations détaillées sur les filtres disponibles
+   +++Développez pour afficher des informations détaillées sur les filtres disponibles
    <table>
     <tbody>
     <tr>
@@ -83,7 +81,7 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
     </tr>
         <tr>
         <td>Travail en cours</td>
-        <td>Affiche les éléments sur lesquels vous travaillez actuellement</td>
+        <td>Affiche les éléments sur lesquels vous travaillez actuellement.</td>
         </tr>
         <tr>
         <td>Démarrage possible</td>
@@ -101,28 +99,28 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
         <ul>
         <li>Prédécesseurs incomplets ou contraintes de tâche empêchant le traitement de l'élément</li>
         <p>ou</p>
-        <li>La date de début prévue est dans le futur depuis plus de deux semaines</li>
+        <li>La date de début planifiée remonte à plus de deux semaines.</li>
         </ul>
         </td>
         </tr>
         <tr>
         <td>Demandé</td>
-        <td>Affiche les problèmes sur lesquels vous n'avez pas encore commencé à travailler</td>
+        <td>Affiche les problèmes sur lesquels vous n'avez pas encore commencé à travailler.</td>
         </tr>
         <td>Terminé</td>
         <td>Affiche le travail effectué au cours des deux dernières semaines. Cette option de filtre n’inclut pas les validations.</td>
         </tr>
         <tr>
         <td>Projet</td>
-        <td>Affiche les projets contenant des tâches ou des événements qui vous ont été affectés</td>
+        <td>Affiche les projets contenant des tâches ou des événements qui vous ont été affectés.</td>
         </tr>
         <tr>
         <td>Date d’échéance</td>
-        <td>Affiche le travail par date d'achèvement prévue</td>
+        <td>Affiche le travail par date d'achèvement prévue.</td>
         </tr>
         <tr>
         <td>Statut</td>
-        <td>Affiche les tâches ou les événements dont le statut est nouveau, en cours ou terminé</td>
+        <td>Affiche les tâches ou les événements dont le statut est nouveau, en cours ou terminé.</td>
         </tr>
         <tr>
         <td>Mon focus</td>
@@ -135,14 +133,14 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
 
 1. Cliquez sur la barre d’éléments de travail du calendrier pour ouvrir le résumé latéral. Le résumé latéral vous permet d’effectuer les opérations suivantes :
 
-* Afficher et modifier les détails des projets et des éléments de travail
-* Ajouter et afficher des commentaires
-* Affichage et chargement de documents
-* Créer une épreuve
-* Accédez à la page du projet dans Workfront
-* Accédez à la page Détails de l’élément de travail dans Priorités
-* Enregistrer des heures
-* Ajout de liens rapides
+   * Afficher et modifier les détails des projets et des éléments de travail
+   * Ajouter et afficher des commentaires
+   * Affichage et chargement de documents
+   * Créer une épreuve
+   * Accédez à la page du projet dans Workfront
+   * Accédez à la page Détails de l’élément de travail dans Priorités
+   * Enregistrer des heures
+   * Ajout de liens rapides
 
 1. (Facultatif) Cliquez sur **Créer** pour ajouter un nouvel élément de travail au calendrier. Pour plus d’informations, voir [Créer une nouvelle tâche ou un nouvel événement dans Priorités](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md).
 
@@ -150,12 +148,12 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
 
 {{step1-to-priorities}}
 
-1. Cliquez sur l’icône Calendrier en haut de la liste de travail.
+1. Cliquez sur l’icône **Calendrier** en haut de la liste de travail.
    ![icône de calendrier](assets/calendar-tab.png)
 1. Cliquez sur l’icône **Paramètres** dans le coin droit du calendrier.
 
 1. Dans l’onglet **Style de barre**, choisissez jusqu’à 5 champs à afficher dans la barre d’éléments de travail du calendrier.
    ![exemple de barre](assets/sample-task-for-field-config.png)
 
-1. Dans l’onglet **Couleur**, choisissez comment vous souhaitez que vos éléments de travail s’affichent. Par exemple, si vous choisissez Projet, vos éléments de travail s’affichent en fonction de la couleur affectée au projet dans la liste de travail.
+1. Dans l’onglet **Couleur**, choisissez comment vous souhaitez que vos éléments de travail s’affichent. Par exemple, si vous choisissez **Projet**, vos éléments de travail s’affichent en fonction de la couleur affectée au projet dans la liste des tâches.
    ![exemple de projet de couleur](assets/sample-calendar-projects.png)

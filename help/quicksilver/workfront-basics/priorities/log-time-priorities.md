@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 44%
 
 ---
@@ -35,10 +35,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : </p>
-   <p>Léger ou supérieur pour consigner les heures d’une tâche ou d’un problème</p>
-   <p>Actuel : 
-   <p>Travail ou version ultérieure pour consigner les heures d'une tâche ou d'un événement</p> </td> 
+   <td> <p>Nouveau : léger ou supérieur pour consigner les heures d’une tâche ou d’un problème</p>
+   <p>En cours : travail ou supérieur pour consigner les heures d’une tâche ou d’un événement</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
@@ -61,7 +59,8 @@ Vous pouvez saisir le temps directement à partir de la liste de travail :
 
 {{step1-to-priorities}}
 
-1. Pointez sur le nom, puis cliquez sur **Consigner l’heure**.
+1. Pointez sur le nom, puis cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png).
+1. Sélectionnez **Enregistrer le temps**.
    ![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
 1. Dans le menu déroulant **Type d’heure**, sélectionnez le type d’heure approprié. Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section Définir les types d’heures et la disponibilité.
 
@@ -77,7 +76,7 @@ Vous pouvez enregistrer le temps dans un élément de travail individuel :
 
 {{step1-to-priorities}}
 
-1. Cliquez sur le nom d’un élément de travail pour ouvrir la page Aperçu .
+1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Dans la section **Actions rapides**, cliquez sur **Enregistrer le temps**.
 1. Dans le menu déroulant **Type d’heure**, sélectionnez le type d’heure approprié. Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section Définir les types d’heures et la disponibilité.
 1. (Sous condition) Si votre administrateur Workfront ou de groupe a activé le paramètre Affecter manuellement des fonctions aux entrées d’heure , sélectionnez une fonction dans le menu déroulant. La fonction qui vous a été affectée pour l’élément de travail s’affiche par défaut. Si aucun rôle ne vous est attribué sur l’objet, votre rôle principal s’affiche par défaut. Si aucun rôle de Principal n’est affecté, Aucune fonction ne s’affiche.

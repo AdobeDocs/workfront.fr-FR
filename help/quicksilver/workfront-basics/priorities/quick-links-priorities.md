@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 21%
@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 {{step1-to-priorities}}
 
-1. Cliquez sur le nom d’un élément de travail pour ouvrir la page Aperçu .
+1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Dans la section **Liens rapides**, cliquez sur **Ajouter un lien**.
 1. Collez l’URL dans la zone **Ajouter un lien**.
 1. Cliquer sur **Enregistrer**.
@@ -71,16 +71,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 {{step1-to-priorities}}
 
-1. Cliquez sur le nom d’un élément de travail pour ouvrir la page Aperçu .
+1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Dans la section **Liens rapides**, recherchez le lien à copier.
-1. Cliquez sur l’icône Copier ![icône Copier](assets/copy-icon.png).
+1. Cliquez sur l’icône **Copier**![ Copier](assets/copy-icon.png).
    ![Copier le lien](assets/copy-link.png)
 
 ## Ouvrir un lien rapide
 
 {{step1-to-priorities}}
 
-1. Cliquez sur le nom d’un élément de travail pour ouvrir la page Aperçu .
+1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Dans la section **Liens rapides**, recherchez le lien que vous souhaitez ouvrir.
 1. Cliquez sur le lien. Le lien s’ouvre dans un nouvel onglet.
    ![Ouvrir le lien](assets/open-link.png)
@@ -89,7 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 {{step1-to-priorities}}
 
-1. Cliquez sur le nom d’un élément de travail pour ouvrir la page Aperçu .
+1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Cliquez sur **Modifier les détails** dans le coin supérieur droit de l’écran.
    ![Modifier les détails](assets/edit-details.png)
-1. Recherchez le lien à supprimer, puis cliquez sur l’icône Supprimer ![icône Supprimer](assets/delete-icon.png).
+1. Recherchez le lien à supprimer, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png).

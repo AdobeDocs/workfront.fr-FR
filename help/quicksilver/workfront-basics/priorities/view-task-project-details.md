@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -74,7 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Afficher et ajouter des commentaires sur le projet
    * Enregistrer des heures
    * Ajouter un fichier
-   * <span class="preview">Accéder directement au projet</span>
+   * Accéder directement au projet
 
    ![détails du projet ](assets/project-details-new.png)
 
@@ -101,7 +101,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
 
-1. L&#39;événement est sélectionné par défaut. Ici, vous pouvez
+1. L&#39;événement est sélectionné par défaut. Dans cette section, vous pouvez :
    * Afficher et modifier les détails et la description des projets et des événements
    * Afficher et ajouter des commentaires sur le projet
    * Afficher et ajouter des documents
@@ -116,7 +116,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 Vous pouvez afficher des mises à jour en temps réel sur la page Détails d’une tâche ou d’un événement. Vous pouvez également voir si d’autres personnes consultent la page en même temps que vous avec des indicateurs de présence en temps réel.
 
-## Afficher les détails de l’élément de travail
+### Afficher les détails de l’élément de travail
 
 {{step1-to-priorities}}
 
