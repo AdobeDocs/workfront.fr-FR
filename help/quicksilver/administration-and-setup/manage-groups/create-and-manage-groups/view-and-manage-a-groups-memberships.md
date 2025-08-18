@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
+source-git-commit: c23b3967cf06aaff1bcd7465ce6c7a0c7b7fe9af
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '750'
 ht-degree: 91%
 
 ---
@@ -73,18 +73,18 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      <tr> 
       <td role="rowheader">Ajouter un utilisateur ou une utilisatrice au groupe</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Cliquez sur <strong>Ajouter des membres</strong> <img src="assets/add-icon-plus-in-circle.png">, commencez à saisir le nom de l’utilisateur ou de l’utilisatrice, puis sélectionnez-le lorsqu’il apparaît.</li> 
-        <li value="2"> <p>Répétez cette opération pour les autres utilisateurs et utilisatrices que vous souhaitez ajouter.</p> <p>Vous pouvez cliquer sur le X situé à droite d’un nom si vous décidez de ne pas ajouter cet utilisateur ou cette utilisatrice.</p> </li> 
-        <li value="3">Cliquez sur <strong>Terminé</strong> lorsque vous avez terminé.</li> 
+       <ol> 
+        <li>Cliquez sur <strong>Ajouter des membres</strong> <img src="assets/add-icon-plus-in-circle.png">, commencez à saisir le nom de l’utilisateur ou de l’utilisatrice, puis sélectionnez-le lorsqu’il apparaît.</li>
+        <li> <p>Répétez cette opération pour les autres utilisateurs et utilisatrices que vous souhaitez ajouter.</p> <p>Vous pouvez cliquer sur le X situé à droite d’un nom si vous décidez de ne pas ajouter cet utilisateur ou cette utilisatrice.</p> </li>
+        <li>Cliquez sur <strong>Terminé</strong> lorsque vous avez terminé.</li>
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Supprimer un utilisateur ou une utilisatrice du groupe</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur ou d’utilisatrice, puis cliquez sur <strong>Supprimer une personne membre</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
-        <li value="2"> <p>Cliquez sur <strong>Supprimer</strong> dans le message d’avertissement qui s’affiche.</p> <p>Vous pouvez trouver un utilisateur ou une utilisatrice à supprimer de la liste en cliquant sur <strong>Rechercher des personnes et des groupes dans la liste</strong>. Saisissez alors son nom dans la zone, puis sélectionnez-le lorsqu’il apparaît.</p> <p><b>REMARQUE</b> :  
+       <ol> 
+        <li>Sélectionnez un ou plusieurs noms d’utilisateur ou d’utilisatrice, puis cliquez sur <strong>Supprimer une personne membre</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
+        <li> <p>Cliquez sur <strong>Supprimer</strong> dans le message d’avertissement qui s’affiche.</p> <p>Vous pouvez trouver un utilisateur ou une utilisatrice à supprimer de la liste en cliquant sur <strong>Rechercher des personnes et des groupes dans la liste</strong>. Saisissez alors son nom dans la zone, puis sélectionnez-le lorsqu’il apparaît.</p> <p><b>REMARQUE</b> :  
           <ul> 
            <li>Si ce groupe est le groupe principal d’un utilisateur ou d’une utilisatrice que vous souhaitez supprimer, vous devez d’abord attribuer un autre groupe principal dans le profil de cette personne. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">Vue d’ensemble des groupes principaux</a> et <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.</li> 
            <li>Si le groupe n’a qu’un seul administrateur ou une seule administratrice de groupes et que vous devez le ou la supprimer du groupe, vous devez d’abord affecter un autre administrateur ou administratrice au groupe.</li> 
@@ -95,17 +95,17 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      <tr> 
       <td role="rowheader">Modifier les informations de profil d’un utilisateur ou d’une utilisatrice</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur le <strong> </strong>Modifier<img src="assets/edit-icon.png">.</li> 
-        <li value="2"> <p>Modifiez les informations de profil de l’utilisateur ou l’utilisatrice.</p> <p>Pour plus d’informations sur les modifications que vous pouvez apporter, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.</p> </li> 
+       <ol> 
+        <li>Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur le <strong> </strong>Modifier<img src="assets/edit-icon.png">.</li> 
+        <li> <p>Modifiez les informations de profil de l’utilisateur ou l’utilisatrice.</p> <p>Pour plus d’informations sur les modifications que vous pouvez apporter, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exporter les données d’appartenance de l’utilisateur ou l’utilisatrice</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur <strong>Exporter</strong> <img src="assets/export.png">.</li> 
-        <li value="2"> <p>Exportez les données sous la forme d’un fichier PDF, Excel ou délimité par des tabulations.</p> <p>Pour plus d’informations sur l’exportation de données, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exporter des données</a>.</p> </li> 
+       <ol> 
+        <li>Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur <strong>Exporter</strong> <img src="assets/export.png">.</li> 
+        <li> <p>Exportez les données sous la forme d’un fichier PDF, Excel ou délimité par des tabulations.</p> <p>Pour plus d’informations sur l’exportation de données, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exporter des données</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -115,9 +115,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      <tr> 
       <td role="rowheader">Envoyer un commentaire à des membres du groupe</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Sélectionnez au moins un membre du groupe, puis cliquez sur <strong>Envoyer la mise à jour à l’utilisateur</strong> dans la barre d’outils.</li> 
-        <li value="2"><p>Saisissez le commentaire à envoyer aux personnes et à la zone Mises à jour de leurs profils.</p>
+       <ol> 
+        <li>Sélectionnez au moins un membre du groupe, puis cliquez sur <strong>Envoyer la mise à jour à l’utilisateur</strong> dans la barre d’outils.</li> 
+        <li><p>Saisissez le commentaire à envoyer aux personnes et à la zone Mises à jour de leurs profils.</p>
         <p>Pour plus d’informations, voir <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Envoi de messages directs à d’autres utilisateurs</a>.</p></li> 
        </ol> </td> 
      </tr> 
