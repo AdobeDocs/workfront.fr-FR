@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: ajouter,utilisateurs,utilisatrices,groupe,ajouter,autre,attribuer,administrateur,administratrice,supprimer,utilisateur,utilisatrice,afficher,rôles,membres,exporter,appartenance,données
 navigation-topic: create-and-manage-groups
-title: Affichage et gestion des adhésions d’un groupe
+title: Afficher et gérer les adhésions d'un groupe
 description: En tant qu’administrateur ou administratrice d’Adobe Workfront, vous pouvez afficher, ajouter, supprimer, exporter, activer et désactiver les personnes membres des groupes que vous gérez. Vous pouvez également modifier leur profil, ajouter des mises à jour à leur profil et les affecter en tant qu’administrateurs ou administratrices de groupes supplémentaires pour le groupe.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 97%
+source-wordcount: '761'
+ht-degree: 91%
 
 ---
 
@@ -96,7 +96,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <td role="rowheader">Modifier les informations de profil d’un utilisateur ou d’une utilisatrice</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur ou d’utilisatrice, puis cliquez sur <strong>Modifier</strong> <img src="assets/edit-icon.png">.</li> 
+        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur le <strong> </strong>Modifier<img src="assets/edit-icon.png">.</li> 
         <li value="2"> <p>Modifiez les informations de profil de l’utilisateur ou l’utilisatrice.</p> <p>Pour plus d’informations sur les modifications que vous pouvez apporter, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -104,7 +104,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <td role="rowheader">Exporter les données d’appartenance de l’utilisateur ou l’utilisatrice</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur ou d’utilisatrice, puis cliquez sur <strong>Exporter</strong> <img src="assets/export.png">.</li> 
+        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur <strong>Exporter</strong> <img src="assets/export.png">.</li> 
         <li value="2"> <p>Exportez les données sous la forme d’un fichier PDF, Excel ou délimité par des tabulations.</p> <p>Pour plus d’informations sur l’exportation de données, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exporter des données</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -116,8 +116,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <td role="rowheader">Envoyer un commentaire à des membres du groupe</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur ou d’utilisatrice, puis cliquez sur <strong>Mettre à jour</strong> <img src="assets/comment-icon.png">.</li> 
-        <li value="2">Saisissez le commentaire.</li> 
+        <li value="1">Sélectionnez au moins un membre du groupe, puis cliquez sur <strong>Envoyer la mise à jour à l’utilisateur</strong> dans la barre d’outils.</li> 
+        <li value="2"><p>Saisissez le commentaire à envoyer aux personnes et à la zone Mises à jour de leurs profils.</p>
+        <p>Pour plus d’informations, voir <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Envoi de messages directs à d’autres utilisateurs</a>.</p></li> 
        </ol> </td> 
      </tr> 
      <tr> 

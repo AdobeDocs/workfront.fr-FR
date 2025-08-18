@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 75%
+source-wordcount: '405'
+ht-degree: 73%
 
 ---
 
@@ -77,9 +77,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
      Pour plus d’informations, voir [Modifier le profil utilisateur/utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) ou [Modifier des profils utilisateur/utilisatrice en bloc](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
 
-   * Sélectionnez un nombre illimité de membres dans la liste, puis cliquez sur Mettre à jour ![icône de commentaire](assets/comment-icon.png) pour ajouter un commentaire à leurs profils utilisateur.
+   * Sélectionnez un nombre illimité de membres de sous-groupe dans la liste, puis cliquez sur **Envoyer la mise à jour à l’utilisateur** pour ajouter un commentaire à leurs profils utilisateur.
 
      Les personnes reçoivent une notification in-app ainsi qu’une notification par e-mail avec votre commentaire. Le commentaire s’affiche dans la zone Mises à jour du profil de l’utilisateur ou de l’utilisatrice.
+
+     Pour plus d’informations, voir [Envoi de messages directs à d’autres utilisateurs](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md).
 
    * Sélectionnez un nombre quelconque de membres dans la liste, puis cliquez sur Désactiver ![Désactiver l’utilisateur](assets/deactivate-user.png) ou Activer ![Activer l’utilisateur](assets/activate-user.png).
 
