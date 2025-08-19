@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 65%
+source-wordcount: '242'
+ht-degree: 70%
 
 ---
 
 # Supprimer une condition personnalisée
-
-{{highlighted-preview}}
 
 Vous pouvez supprimer une condition personnalisée si elle n’est plus nécessaire.
 
@@ -62,8 +60,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche**, ou **Problème**) dans lequel se trouve la condition à supprimer.
 
-1. Cliquez sur <span class="preview">**Supprimer** en regard du nom de la condition</span> vous souhaitez la supprimer, ou passez la souris sur la condition et cliquez sur l’icône **Supprimer** ![Supprimer](assets/delete.png) qui s’affiche à l’extrémité droite.
-
+1. Cliquez sur **Supprimer** en regard du nom de la condition à supprimer.
 1. Dans la zone **Supprimer la condition** qui s’affiche, sélectionnez une nouvelle condition dans la liste déroulante pour tous les projets, tâches ou événements qui utilisaient la condition que vous supprimez.
 
    Les conditions personnalisées ne sont disponibles dans la liste déroulante que si elles correspondent à la même condition intégrée que celle que vous supprimez. Par exemple, si vous supprimez une condition qui équivaut à À risque, seules les conditions personnalisées qui équivalent également à À risque peuvent être sélectionnées.

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 87%
+source-wordcount: '601'
+ht-degree: 91%
 
 ---
 
 # Créer ou modifier une condition personnalisée
-
-{{highlighted-preview}}
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer ou modifier une condition personnalisée pour des projets, des tâches et des problèmes en fonction des besoins de votre entreprise.
 
@@ -66,13 +64,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Ou
 
-   Pour modifier une condition existante, cliquez sur <span class="preview">**Modifier** en regard du nom de la condition</span> ou survolez la condition à modifier avec la souris, puis cliquez sur l’icône **Modifier** qui s’affiche à l’extrémité droite.
+   Pour modifier une condition existante, cliquez sur **Modifier** en regard du nom de la condition.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
    ![Modifier la condition personnalisée](assets/custom-conditions-0825.png)
-
-   Exemple d’image dans l’environnement de production :
-   ![Condition personnalisée](assets/custom-condition-edit-nwe.jpg)
 
 1. Configurez votre condition personnalisée à l’aide des options suivantes :
 

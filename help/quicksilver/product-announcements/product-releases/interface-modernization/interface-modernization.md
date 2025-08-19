@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
+source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
 workflow-type: tm+mt
-source-wordcount: '6776'
+source-wordcount: '6894'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,24 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+### Mises à jour de l’interface pour la page Notifications de révision et d’approbation dans la Configuration
+
+**Version préliminaire : 18 août 2025 ; Version de production : 18 août 2025**
+
+Nous avons mis à jour la page Notification de révision et d’approbation avec une conception plus moderne et cohérente avec d’autres zones de Workfront.
+
+Pour afficher ces modifications, accédez à Configuration > E-mail > Révision et approbation.
+
+### Mises à jour de l’interface pour les boîtes de dialogue Ajouter et modifier des enregistrements de facturation
+
+**Version préliminaire : 14 août 2025 ; Version de production : 18 août 2025**
+
+Nous avons mis à jour les boîtes de dialogue pour ajouter et modifier des enregistrements de facturation avec une conception plus moderne et cohérente avec d’autres zones de Workfront.
+
+Pour afficher ces modifications, accédez à Projets > Sélectionner un projet > Enregistrements de facturation > ajouter un enregistrement de facturation ou modifier un enregistrement de facturation
+
+Pour plus d’informations, voir [Créer des enregistrements de facturation](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
 
 ### Mises à jour de l’interface pour la zone Envoyer la mise à jour aux utilisateurs dans les groupes
 
@@ -43,6 +61,7 @@ Nous avons mis à jour l’aspect des éléments récemment supprimés dans la z
 Pour afficher cette modification, accédez à Configuration > Corbeille > Récemment supprimés.
 
 Pour plus d’informations, voir [Restaurer les éléments supprimés](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
 
 ### Mises à jour de l’interface pour la zone Conditions dans la Configuration
 
@@ -84,7 +103,7 @@ Pour afficher cette modification, accédez à Configuration > Suivi des modifica
 
 ### Mises à jour de l’interface de la page Mettre à jour les utilisateurs pour SSO dans la configuration
 
-**Version préliminaire : 22 juillet 2025 ; Version de production : 28 juillet 2025**
+**Version préliminaire : 22 juillet 2025 ; Version de production : 18 août 2025**
 
 Nous avons mis à jour la page Mise à jour des utilisateurs pour l’authentification unique avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 

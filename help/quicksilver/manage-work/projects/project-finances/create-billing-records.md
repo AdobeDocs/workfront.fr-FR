@@ -5,10 +5,10 @@ description: En plus de définir les revenus et de suivre les dépenses, vous po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
+source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
 workflow-type: tm+mt
 source-wordcount: '1645'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -76,7 +76,7 @@ Tenez compte des éléments suivants lorsque vous envisagez d’utiliser les enr
 1. Sélectionnez un projet sur la page **Projets**.
 1. Cliquez sur **Enregistrements de facturation** dans le panneau de gauche.
 1. Cliquez sur **Nouvel enregistrement de facturation**.
-1. Dans la zone **Nouvel enregistrement de facturation** qui s’affiche, spécifiez les informations suivantes :
+1. Dans la zone **Nouvel enregistrement de facturation** qui s&#39;affiche, saisissez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
