@@ -6,10 +6,10 @@ description: Pour que les modifications que vous avez apportées aux profils de 
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
+source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 79%
+source-wordcount: '467'
+ht-degree: 78%
 
 ---
 
@@ -66,6 +66,8 @@ Vous pouvez générer manuellement des feuilles de temps au niveau du système o
    Si vous générez des feuilles de temps utilisées par un groupe spécifique, cliquez sur **Groupes**, puis cliquez sur le nom du groupe.
 
 1. Cliquez sur **Profils de feuilles de temps**.
+1. Cliquez sur l’icône plus ![icône plus](assets/more-icon.png), puis **Générer des feuilles de temps**.
+
 1. En haut de la liste des profils de feuille de temps, cliquez sur l&#39;icône **Plus** ![icône Plus](assets/more-icon.png) pour les profils de feuille de temps au niveau du système, ou **Plus** pour les profils de feuille de temps de groupe, puis cliquez sur **Générer des feuilles de temps**.
 
    De nouvelles feuilles de temps sont créées pour un maximum de deux périodes pour les utilisateurs et les utilisatrices à qui un profil de feuille de temps est affecté.

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 98%
+source-wordcount: '330'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    >Les options du menu déroulant Type d’action varient en fonction du journal d’audit sélectionné.
 
-   ![Journaux d’audit](assets/audit-logs.jpg)
+   ![Journaux d’audit](assets/audit-logs.png)
 
 1. Cliquez sur **Appliquer**.
 1. (Facultatif) Cliquez sur **Effacer les filtres** pour réinitialiser les modifications apportées aux filtres.
@@ -86,7 +86,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Système > Journaux d’audit**.
+1. Dans le panneau de gauche, cliquez sur **Système > Suivi des modifications > Journaux d’audit**.
 
 1. Dans le menu déroulant **Type de journal**, sélectionnez un journal d’audit.
 

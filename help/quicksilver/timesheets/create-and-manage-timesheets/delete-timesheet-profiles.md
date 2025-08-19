@@ -6,10 +6,10 @@ description: Vous pouvez supprimer un profil de feuille de temps qui n’est peu
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: a94f358e7d4b8a23ff37d1adc0644f4e3ee6f013
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 26%
+source-wordcount: '289'
+ht-degree: 25%
 
 ---
 
@@ -25,7 +25,7 @@ Pour plus d’informations sur les profils de feuille de temps, voir [Créer, mo
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,9 +63,10 @@ Pour plus d’informations sur les profils de feuille de temps, voir [Créer, mo
    Si vous supprimez un profil de feuille de temps pour un groupe, cliquez sur **Groupes** > cliquez sur le nom du groupe, puis sur **Profils de feuille de temps**.
 1. Sélectionnez au moins un profil de feuille de temps à supprimer, puis cliquez sur l’icône **Plus** ![](assets/more-icon.png) > **Supprimer** pour le profil de feuille de temps à l’échelle du système
 
-   Ou
-
-   Cliquez sur **Plus** > **Supprimer** pour le profil de feuille de temps au niveau du groupe.
+1. Cliquez sur **Profils de feuilles de temps**.
+1. Sélectionnez au moins un profil de feuille de temps à supprimer, puis cliquez sur l’icône Plus ![icône Plus](assets/more-icon.png) > **Supprimer**.
+Ou
+Cliquez sur **Plus** > **Supprimer** pour le profil de feuille de temps au niveau du groupe.
 1. (Conditionnel) Si le profil de feuille de temps est déjà attribué aux utilisateurs, la zone **Profil de feuille de temps de remplacement** s’affiche. Procédez comme suit :
    1. Sélectionnez un autre profil de feuille de temps dans la liste déroulante. Le profil de feuille de temps que vous supprimez sera remplacé par le profil de feuille de temps avec lequel vous le remplacez pour tous les utilisateurs affectés. Les feuilles de temps seront générées en fonction du profil nouvellement affecté dans le cycle de génération de feuilles de temps suivant.
    1. Cliquez sur **Supprimer** pour confirmer la suppression.
