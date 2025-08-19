@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 629e7943e7f14e555bf658d6b5c04c2b647b6f83
 workflow-type: tm+mt
-source-wordcount: '13424'
+source-wordcount: '13427'
 ht-degree: 86%
 
 ---
@@ -475,7 +475,7 @@ ht-degree: 86%
 
    * Gestion des utilisateurs et utilisatrices {#add-users}
       * [Gestion des utilisateurs et utilisatrices index des articles](administration-and-setup/add-users/add-users.md)
-      * Créer et gérer des utilisateurs {#create-manage-users}
+      * Créer et gérer des utilisateurs et utilisatrices {#create-manage-users}
          * [Créer et gérer des utilisateurs et utilisatrices : index des articles](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Ajouter des utilisateurs](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [Importer des utilisateurs et utilisatrices](administration-and-setup/add-users/create-and-manage-users/import-users.md)
@@ -885,6 +885,7 @@ ht-degree: 86%
       * [Utiliser l’assistant d’IA pour travailler sur des projets, des tâches et des événements](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Activer ou désactiver l’assistant IA.](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [Remplir automatiquement une demande à l’aide de l’IA](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
+      * [Présentation de l’intégrité du projet](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
    * Mettre à jour des éléments de travail et afficher les mises à jour {#update-work-items-view-updates}
       * [Mettre à jour des éléments de travail et afficher les mises à jour : index des articles](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Vue d’ensemble de la section Mises à jour](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
