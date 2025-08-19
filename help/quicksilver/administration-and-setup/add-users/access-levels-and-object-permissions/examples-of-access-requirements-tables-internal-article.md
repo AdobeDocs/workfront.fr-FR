@@ -4,9 +4,9 @@ description: Il s’agit d’un article interne permettant à notre équipe de t
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 1d7b6c280586f03277f1cce6cea3f8e8110fc602
+source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '630'
 ht-degree: 46%
 
 ---
@@ -213,12 +213,9 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
 <tr> 
    <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
    <td> 
-<p>Tout package Adobe Workfront ou package de workflow Adobe Workfront</p> (***c'est trop**&#x200B;**)
-
-Et
-<p>Tout package Adobe Workfront Planning</p> 
+<p>Tout package de workflow Adobe Workfront et tout package Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Plateforme Adobe Workfront (**&#x200B;**&#x200B;voulons-nous l’appeler ou simplement l’inclure dans l’article lié en bas ???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Plateforme Adobe Workfront (****voulons-nous l’appeler ou simplement l’inclure dans l’article lié en bas ???*****)</p></td> 
    <td> 
 <p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
@@ -262,12 +259,7 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
  <col> 
  <tbody>
 
-<tr> 
-   <td> <p>Produits</p> </td> 
-   <td> <p>Adobe Workfront</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Adobe Workfront] Package</p> </td> 
+<td> <p>[!DNL Adobe Workfront] Package</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 

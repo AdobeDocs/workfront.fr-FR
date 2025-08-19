@@ -7,10 +7,10 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 86%
+source-wordcount: '2491'
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez modifier la tâche de modèle ou modifier les tâches de modèle en 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Vous pouvez modifier la tâche de modèle ou modifier les tâches de modèle en 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet </td> 
-   <td> <p>Autorisations de gestion pour un modèle. </p> <p>Autorisations Contribuer ou supérieures pour la tâche de modèle.</p> </td> 
+   <td> <p>Autorisations de gestion pour un modèle. </p> <p>Vous ne pouvez pas partager une tâche de modèle. </p> </td> 
   </tr> 
  </tbody> 
 </table>
