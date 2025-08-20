@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2005'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ Pour plus d’informations sur la manière dont un gestionnaire d’espace de tr
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto">
  <col>
@@ -61,8 +61,8 @@ Pour plus d’informations sur la manière dont un gestionnaire d’espace de tr
    <td>
 <p>L’un des plans Workfront suivants :</p>
 <ul><li>Sélectionner</li>
-<li>Principal</li>
-<li>Final</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p>
    </td>
 <tr>
@@ -162,7 +162,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
 1. Cliquez sur **Nouvelle demande**.
 
-   ![Nouvelle boîte de requête avec des cartes Workfront et Planning unifiées](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
    La boîte de dialogue **Nouvelle demande** s’ouvre avec les informations suivantes :
 
@@ -171,7 +171,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur la carte de l&#39;un des formulaires de demande Planning dans les sections Formulaires de demande récents ou Tous les formulaires de demande
+   * Sélectionnez les formulaires de demande Planning dans les sections Formulaires récents ou Tous les formulaires de demande
    * Commencez à saisir le nom d&#39;un formulaire de demande Planning dans la zone de recherche, puis cliquez sur la carte lorsqu&#39;elle s&#39;affiche dans la liste.
 
    Le formulaire de demande s’ouvre.
