@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
+source-git-commit: ff0567aabcf885d3bee6c1808302a9cd9445ed04
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 20%
+source-wordcount: '1425'
+ht-degree: 21%
 
 ---
 
@@ -50,6 +50,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Fonctionnalité</strong>
+        </td>
+        <td><strong>Aperçu</strong></td>
+        <td><strong>Version rapide</strong></td>
+        <td><strong>Tous les trimestres</strong></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Ajouter plusieurs options de valeur d’une API externe à un formulaire personnalisé</a><p></p>
@@ -68,6 +75,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Fonctionnalité</strong>
+        </td>
+        <td><strong>Aperçu</strong></td>
+        <td><strong>Version rapide</strong></td>
+        <td><strong>Tous les trimestres</strong></td>
+    </tr>
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Nouveau réviseur de l’IA dédiée à Workfront</a><p></p>
@@ -102,6 +116,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
@@ -124,6 +145,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
@@ -147,6 +175,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Fonctionnalité</strong>
+        </td>
+        <td><strong>Aperçu</strong></td>
+        <td><strong>Version rapide</strong></td>
+        <td><strong>Tous les trimestres</strong></td>
+    </tr>
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Nouvelles expressions ajoutées aux champs de formule dans Planning et aux champs personnalisés calculés dans Workfront</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
@@ -177,6 +212,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Fonctionnalité</strong>
+        </td>
+        <td><strong>Aperçu</strong></td>
+        <td><strong>Version rapide</strong></td>
+        <td><strong>Tous les trimestres</strong></td>
+    </tr>
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">L’équilibreur de charge de travail est désormais disponible sur votre profil utilisateur</a><p></p>
@@ -263,7 +305,7 @@ Il n’existe aucune mise à jour pour les éléments suivants à ce stade de la
 
 ## Mises à jour du lecteur de vérification pour bureau
 
-### Version 2.1.52
+### Version 2.1.52
 
 **Version de production pour tous les clients : 31 juillet 2025**
 
@@ -298,7 +340,7 @@ Pour offrir des intégrations plus stables et plus évolutives, nous passons à 
 * Workfront pour Salesforce.
 
 Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
-Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Version 20 de l’API
 
@@ -310,7 +352,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
