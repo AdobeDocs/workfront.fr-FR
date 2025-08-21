@@ -5,13 +5,13 @@ title: Utiliser le widget Mes requêtes
 description: Vous pouvez envoyer des requêtes dans le widget Mes requêtes . Vous pouvez également personnaliser le widget avec des filtres et des colonnes.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 68379a6c41db1b694e2968d93de259cb7b0d8bc4
+exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 19%
+source-wordcount: '825'
+ht-degree: 18%
 
 ---
-
 
 # Utiliser le widget Mes requêtes
 
@@ -19,11 +19,16 @@ ht-degree: 19%
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
+>[!IMPORTANT]
+>
+>Cet article décrit le nouveau widget Mes requêtes . La nouvelle expérience de demande doit être activée pour afficher le nouveau widget.
+>>Vous pouvez activer la nouvelle expérience de demande dans la zone des Demandes .
+
 Le widget Mes demandes affiche les demandes qui ont été envoyées à votre organisation. Vous pouvez filtrer les requêtes, rechercher des requêtes spécifiques ou ajuster l’ordre et la visibilité des colonnes. Vous pouvez également créer une requête à partir du widget Mes requêtes .
 
 >[!NOTE]
 >
->Lorsque le widget Mes requêtes se charge, il affiche jusqu’à 50 requêtes. Pour afficher davantage de requêtes, faites défiler la liste vers le bas.
+>* Lorsque le widget Mes requêtes se charge, il affiche jusqu’à 50 requêtes. Pour afficher davantage de requêtes, faites défiler la liste vers le bas.
 
 ## Conditions d’accès
 
@@ -137,8 +142,3 @@ Pour rechercher des requêtes spécifiques dans le widget Mes requêtes :
    Les requêtes qui contiennent le terme sont surlignées en orange.
 
 1. (Facultatif) Pour accéder directement aux requêtes en surbrillance, cliquez sur les flèches haut ou bas de la barre de recherche.
-
-
-
-
-
