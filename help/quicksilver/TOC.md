@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 6ad5c482e8c1638612d46d4287bda27466acef3f
+source-git-commit: aa1c75263b23389b2a98cb6f10d7cd76515612d8
 workflow-type: tm+mt
-source-wordcount: '13436'
+source-wordcount: '13445'
 ht-degree: 86%
 
 ---
@@ -1948,6 +1948,11 @@ Assistant IA  {#ai-assistant}
          * [Le nom du document a changé après le chargement et contient un caractère non valide](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Relire un PowerPoint avec une vidéo incorporée](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [Les versions d’épreuve ne peuvent pas être téléchargées ou prévisualisées lorsqu’une épreuve interactive est ajoutée en tant que nouvelle version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+   * Intégrations natives {#native-integrations}
+   * [Révision et approbation des intégrations natives : index des articles](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+   * [Prise en main de la relecture et de l’intégration de GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+   * [Prise en main de la relecture et de Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+   * [Prise en main de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
    * Conseils, astuces et dépannage pour les approbations {#ttt-approvals}
       * [Conseils, astuces et dépannage pour les approbations : index des articles](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Afficher le nombre de décisions d’épreuve et de document pour tous les utilisateurs et utilisatrices](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2147,9 +2152,6 @@ Assistant IA  {#ai-assistant}
    * [Vue d’ensemble des intégrations intégrées d’Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Méthodes d’intégration d’Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
    * Intégrations de révision et d’approbation {#review-approval-integrations}
-      * [Intégrations de révision et d’approbation : index des articles](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/review-approval-integrations-toc.md)
-      * [Prise en main de la relecture et de l’intégration de GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-      * [Prise en main de la relecture et de Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
    * Adobe Workfront pour Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront pour Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Installation du plug-in Adobe Workfront pour les applications Creative Cloud {#install-wf-cc}
