@@ -4,9 +4,9 @@ description: Vous pouvez activer l’ajout d’un type d’enregistrement à un 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1021'
 ht-degree: 11%
 
 ---
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # Configurer les fonctionnalités de l’espace de travail croisé pour les types d’enregistrements
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -86,8 +86,8 @@ Pour plus d’informations, consultez l’un des articles suivants :
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -127,7 +127,9 @@ Pour plus d’informations, consultez l’un des articles suivants :
 
 +++   
 
-## Configuration de l’ajout d’un type d’enregistrement à d’autres espaces de travail
+## Configuration des types d’enregistrements centralisés
+
+<!--this is a UI term; don't change the title of this section-->
 
 En tant que gestionnaire d’espace de travail, vous pouvez configurer un type d’enregistrement à ajouter à d’autres espaces de travail lorsque vous créez ou modifiez un type d’enregistrement.
 
@@ -180,7 +182,9 @@ Ou
 
      Ce champ est en lecture seule et ne peut pas être supprimé.
 
-## Configuration de la connexion à un type d&#39;enregistrement à partir d&#39;autres espaces de travail
+## Configuration des types d’enregistrements connectables
+
+<!--this is a UI term; don't change the title of this section-->
 
 Vous pouvez configurer un type d’enregistrement auquel se connecter à partir d’autres espaces de travail lorsque vous créez ou modifiez le type d’enregistrement.
 

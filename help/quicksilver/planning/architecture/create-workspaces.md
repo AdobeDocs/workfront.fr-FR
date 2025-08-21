@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 43%
+source-wordcount: '694'
+ht-degree: 37%
 
 ---
 
@@ -31,7 +31,7 @@ Pour obtenir des informations générales sur les espaces de travail, voir [Pré
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -54,8 +54,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -92,7 +92,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Créer un espace de travail
 
@@ -154,5 +154,15 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
    Pour plus d’informations, voir [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
    Pour plus d’informations sur la modification et la suppression des types d’enregistrements dans un espace de travail, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+1. (Facultatif) Cliquez sur la flèche vers l&#39;arrière à gauche du nouvel espace de travail pour ouvrir la page principale Planification. Une nouvelle carte d’espace de travail est créée pour le nouvel espace de travail dans l’onglet **Espaces de travail sur lesquels je me trouve**.
+
+   Le nom de l’utilisateur qui a créé l’espace de travail est enregistré sur la carte de l’espace de travail en tant que Propriétaire.
+
+   >[!NOTE]
+   >
+   >Pour les utilisateurs en cours de transition vers le système Adobe Identity Management (IMS), les espaces de travail créés par des utilisateurs Workfront uniquement qui ne sont pas des utilisateurs IMS s’affichent tels que créés par le **système**.
+   >
+   >Pour plus d’informations sur IMS, voir [Expérience unifiée Adobe pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 

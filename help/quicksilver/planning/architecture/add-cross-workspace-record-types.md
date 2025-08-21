@@ -1,13 +1,13 @@
 ---
-title: Ajouter des types d’enregistrements sur plusieurs espaces de travail
+title: Ajouter des types d’enregistrements existants
 description: Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning. Dans Workfront Planning, vous pouvez importer un type d’enregistrement existant à partir d’un autre espace de travail.
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 17%
+source-wordcount: '635'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# Ajouter des types d’enregistrements entre les espaces de travail
+# Ajouter des types d’enregistrements existants
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -35,7 +35,7 @@ Pour plus d’informations, voir [Configuration des fonctionnalités de plusieur
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.  
++++ Développez pour afficher les conditions d’accès requises pour la fonctionnalité de cet article.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,8 +56,8 @@ Pour plus d’informations, voir [Configuration des fonctionnalités de plusieur
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -109,6 +109,7 @@ Remarques concernant l’ajout de types d’enregistrements existants depuis un 
    * Connexions d’enregistrement
 
 * Vous ne pouvez modifier le type d’enregistrement, y compris ses champs, que dans son espace de travail d’origine. Vous ne pouvez pas le modifier à partir des espaces de travail où il a été ajouté.
+* Les enregistrements ajoutés à partir de tous les espaces de travail seront visibles pour tous les utilisateurs qui y accèdent à partir de tous les espaces de travail, même s&#39;ils sont créés dans un espace de travail où ils ne disposent d&#39;aucune autorisation.
 
 ## Créer un type d’enregistrement à partir d’un type d’enregistrement existant
 

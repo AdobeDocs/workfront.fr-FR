@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2814'
 ht-degree: 18%
 
 ---
@@ -35,6 +35,14 @@ Vous pouvez créer des enregistrements en effectuant l’une des opérations sui
 
 </div>
 
+<!--
+<div class="preview">
+
+* [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
+
+</div>
+-->
+
 * [Copier-coller une liste d&#39;enregistrements depuis une liste externe](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Dupliquer les enregistrements depuis une vue Tableau](#create-records-by-duplicating-them)
 * [Les connecter à partir d&#39;autres enregistrements](#create-records-as-you-connect-them)
@@ -49,7 +57,7 @@ Pour plus d’informations sur la gestion des enregistrements dans les vues « 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,8 +78,8 @@ Pour plus d’informations sur la gestion des enregistrements dans les vues « 
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -248,7 +256,7 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    >[!NOTE]
    >
-   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 
@@ -272,6 +280,7 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    * Ctrl + Z (⌘ + Z pour Mac) pour annuler une modification
    * Ctrl+Maj+Z (⌘+Maj+Z pour Mac) pour rétablir une modification
+
 
 <div class="preview">
 
@@ -303,7 +312,12 @@ Pour plus d’informations sur la création d’une vue chronologique, voir [Gé
    ![Nouvelle zone d’enregistrement dans la chronologie avec une barre d’enregistrement sans nom](assets/new-record-small-box-on-timeline.png)
 1. Mettez à jour les informations suivantes :
 
-   * **Nom** : saisissez le nom de l’enregistrement. Si vous le laissez vide, Workfront le nomme **Sans titre** par défaut. Le nom ne sera pas visible dans la barre d’enregistrement s’il est vide.
+   * **Nom** : saisissez le nom de l’enregistrement. Si vous le laissez vide, Workfront le nomme **Sans titre** par défaut.
+
+     >[!TIP]
+     >
+     >Si vous affichez le Nom de l’enregistrement dans les barres d’enregistrement en fonction des paramètres de la chronologie, le nom n’est pas visible dans la barre d’enregistrement s’il est laissé vide.
+
    * **Champs de date d’enregistrement** : mettez à jour les dates de l’enregistrement.
 
      Les noms des champs de date sont personnalisés en fonction des champs sélectionnés pour les dates de début et de fin au moment de la création de la vue chronologique.
@@ -331,6 +345,74 @@ Pour plus d’informations sur la création d’une vue chronologique, voir [Gé
    >La miniature s’affiche dans la vue Chronologie uniquement lorsqu’elle est activée dans les Paramètres de la vue.
 
 </div>
+
+<!--
+
+<div class="preview">
+
+## Create records by adding them in the record type calendar view
+
+You can create records in the calendar view of a record type page, by double-clicking anywhere on the calendar. 
+
+For information about creating a calendar view, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
+
+    The record type page opens in the view that you last accessed. 
+
+1. Click to open a calendar view, or create a calendar view.
+
+    >[!NOTE]
+    >
+    >You can create a calendar view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere on the calendar. 
+
+    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********)
+
+    ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
+
+1. Update the following information:
+
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
+    
+        >[!TIP]
+        >
+        >If you display the Name of the record in the record bars according to the calendar settings, the name is not visible in the record bar if left empty. 
+
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+
+        * By **Month**: The record start and end dates span one day.
+        * By **Week**: The record start and end dates span two days.
+
+1. (Optional) Click one of the following icons: 
+
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+
+    The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
+
+1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
+
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
+
+</div>
+
+-->
 
 ## Créer des enregistrements en les copiant et en les collant depuis une liste externe
 
