@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 26%
+source-wordcount: '1193'
+ht-degree: 25%
 
 ---
 
@@ -47,7 +47,7 @@ Vous pouvez gérer les utilisateurs dans les équipes du projet et du modèle en
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -186,14 +186,14 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Pour plus d’informations, consultez la section « Approbations basées sur les rôles » de l’article [Présentation de l’équipe de projet](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
-1. Sélectionnez un ou plusieurs utilisateurs dans la liste, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/remove-icon.png) pour les supprimer de l’équipe.
+1. Sélectionnez un ou plusieurs utilisateurs dans la liste, puis cliquez sur l&#39;icône **Supprimer** ![Icône Supprimer](assets/remove-icon.png) pour les supprimer de l&#39;équipe.
 
 1. Cliquez sur **Oui, supprimer les utilisateurs sélectionnés** pour confirmer et supprimer les utilisateurs.
 
    L’affectation des utilisateurs est supprimée des éléments de travail incomplets.
 
    Pour plus d’informations, reportez-vous à la section [Considérations relatives à la suppression d’utilisateurs d’une équipe de projet](#considerations-for-removing-users-from-a-project-team) de cet article.
-1. (Facultatif) Pour envoyer une mise à jour de ce projet aux utilisateurs, cliquez sur Mettre à jour tout pour envoyer la mise à jour à tous les membres de l&#39;équipe
+1. (Facultatif) Pour envoyer une mise à jour de ce projet aux utilisateurs, cliquez sur **Tout mettre à jour** pour envoyer la mise à jour à tous les membres de l&#39;équipe
 
    Ou
 
@@ -235,7 +235,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Cliquez sur **Personnes** dans le panneau de gauche.
 
-1. Sélectionnez un ou plusieurs utilisateurs dans la liste, puis cliquez sur **Supprimer** pour les supprimer de l’équipe.
+1. Sélectionnez un ou plusieurs utilisateurs dans la liste, puis cliquez sur l&#39;icône **Supprimer** pour les supprimer de l&#39;équipe.
 
 1. Cliquez sur **Oui, supprimer les utilisateurs sélectionnés** pour confirmer et supprimer les utilisateurs.
 
@@ -243,11 +243,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Pour plus d’informations, reportez-vous à la section [Considérations relatives à la suppression d’utilisateurs d’une équipe de projet](#considerations-for-removing-users-from-a-project-team) de cet article.
 
-1. (Facultatif) Pour envoyer une mise à jour aux utilisateurs, cliquez sur Tout mettre à jour pour envoyer la mise à jour à tous les utilisateurs de la liste
+1. (Facultatif) Pour envoyer une mise à jour aux utilisateurs, cliquez sur **Tout mettre à jour** pour envoyer la mise à jour à tous les utilisateurs de la liste
 
    Ou
 
-   Sélectionnez un ou plusieurs utilisateurs dans la liste, puis cliquez sur **Mettre à jour**.
+   Sélectionnez un ou plusieurs utilisateurs dans la liste, puis cliquez sur **Envoyer la mise à jour à l’utilisateur**.
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
@@ -266,11 +266,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Les utilisateurs peuvent recevoir une notification par e-mail, s’ils sont activés pour eux, ainsi qu’une notification in-app de la nouvelle mise à jour.
 
-1. (Facultatif) Cliquez sur **Exporter** pour exporter la liste des utilisateurs vers un fichier
+1. Cliquez sur l’icône **Exporter** ![icône Exporter](assets/export-icon.png) pour exporter la liste des utilisateurs vers un fichier
 
    Ou
 
-   Sélectionnez des utilisateurs, puis cliquez sur **Exporter** pour n’exporter que des utilisateurs spécifiques.
+   Sélectionnez des utilisateurs, puis cliquez sur l’icône **Exporter** pour n’exporter que des utilisateurs spécifiques.
 
 ## Considérations relatives à la suppression d&#39;utilisateurs d&#39;une équipe de projet
 
