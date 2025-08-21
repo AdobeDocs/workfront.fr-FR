@@ -6,14 +6,18 @@ description: Vous pouvez choisir parmi plusieurs widgets pour personnaliser le c
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 17%
+source-wordcount: '1092'
+ht-degree: 18%
 
 ---
 
 # Présentation des filtres du widget d’accueil
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Vous pouvez utiliser des filtres sur les widgets suivants pour rechercher et organiser le travail :
 
@@ -242,6 +246,8 @@ Vous pouvez utiliser les filtres suivants dans le widget Mes événements :
 
 ## Mes demandes
 
+Dans l’environnement de production :
+
 <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -277,6 +283,16 @@ Vous pouvez utiliser les filtres suivants dans le widget Mes événements :
      </tr> 
     </tbody> 
    </table>
+
+<div class="preview">
+
+Dans l’environnement de Prévisualisation :
+
+Le widget Mes requêtes comprend un filtre personnalisable qui vous permet de contrôler les requêtes qui apparaissent dans le widget. Vous pouvez configurer ce filtre pour différents champs et valeurs et empiler des conditions à l’aide des opérateurs AND et OR.
+
+Pour obtenir des instructions sur la configuration du filtre dans le widget Mes requêtes, voir [Filtrer les requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) dans l’article Utilisation du widget Mes requêtes.
+
+</div>
 
 ## Mon travail
 

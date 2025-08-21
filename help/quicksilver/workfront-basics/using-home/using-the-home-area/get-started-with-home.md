@@ -6,10 +6,10 @@ description: La page d’accueil vous aide à gérer votre travail. Vous pouvez 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 78%
+source-wordcount: '1093'
+ht-degree: 73%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 78%
 >[!IMPORTANT]
 >
 >Le contenu de cet article a été remplacé par le contenu de l’article Prise en main du nouvel Accueil . La nouvelle page d’accueil sera désormais appelée Page d’accueil.
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
 La nouvelle expérience d’accueil d’Adobe Workfront vise à améliorer l’expérience d’accueil actuelle tout en offrant un moyen plus flexible de se concentrer sur le bon travail.
 
@@ -54,6 +56,9 @@ Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un
 
 * **Mes demandes**\
     Affiche toutes les demandes que vous avez envoyées, un filtre pour afficher uniquement les demandes ouvertes et un bouton qui ouvre le panneau de résumé d’une demande.
+
+  <span class="preview">Dans l’environnement Aperçu , ce widget affiche toutes les requêtes que vous avez envoyées, un filtre pour afficher uniquement les requêtes qui répondent aux critères que vous spécifiez et un bouton qui vous permet de réorganiser les colonnes du widget.</span>
+
 
 * **Demandes de l’équipe**\
     Affiche toutes les demandes en attente classées par équipe pour les équipes dont vous faites partie, ainsi que des boutons permettant d’attribuer directement une demande à un utilisateur ou à une utilisatrice ou d’y travailler soi-même.

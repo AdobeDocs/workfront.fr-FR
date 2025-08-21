@@ -7,10 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f112e1f2778f28ec23cdd56c6b6dae3ac46f3eec
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 75%
+source-wordcount: '129'
+ht-degree: 72%
 
 ---
 
@@ -29,5 +29,6 @@ Consultez ces articles pour savoir comment utiliser la zone Accueil dans Adobe 
 * [Mettre à jour ou modifier un élément de travail dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Créer des éléments de travail et des projets à partir de la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [Créer et gérer des tâches personnelles](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
+* [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
 * [Consigner les heures consacrées à un élément de travail dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Marquer un élément comme [!UICONTROL Terminé] dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)

@@ -7,13 +7,13 @@ author: Courtney
 hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
-source-git-commit: 28bb652f371d3168ffe03c39fc33e29d710605db
+exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
+source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 32%
+source-wordcount: '1632'
+ht-degree: 31%
 
 ---
-
 
 # Passer de la page d’accueil héritée à la nouvelle page d’accueil
 
@@ -163,6 +163,8 @@ Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un
 * **Mes demandes**\
     Affiche toutes les demandes que vous avez envoyées, un filtre pour afficher uniquement les demandes ouvertes et un bouton qui ouvre le panneau de résumé d’une demande.
 
+  <span class="preview">Dans l’environnement Aperçu , ce widget affiche toutes les requêtes que vous avez envoyées, un filtre pour afficher uniquement les requêtes qui répondent aux critères que vous spécifiez et un bouton qui vous permet de réorganiser les colonnes du widget.</span>
+
 * **Demandes de l’équipe**\
     Affiche toutes les demandes en attente classées par équipe pour les équipes dont vous faites partie, ainsi que des boutons permettant d’attribuer directement une demande à un utilisateur ou à une utilisatrice ou d’y travailler soi-même.
 
@@ -270,7 +272,7 @@ Si vous effectuez cette opération dès que possible, vos utilisateurs auront le
 
 **Formation**
 
-* [Tutoriel sur la suppression, l’ajout et la réorganisation des widgets dans l’Accueil](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Tutoriel sur la suppression, l’ajout et la réorganisation des widgets dans l’Accueil](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Principes fondamentaux des programmes de travail dans Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

@@ -6,9 +6,9 @@ description: Vous pouvez créer des éléments de travail et des projets à part
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
+source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '878'
 ht-degree: 16%
 
 ---
@@ -25,7 +25,7 @@ De chez vous, vous pouvez
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -52,10 +52,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
    <td> <p>Accès [!UICONTROL Edit] ou supérieur aux tâches</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
+   <td> <ul><li>Adobe Workfront</li><li>Vous devez disposer d’Adobe Workfront Planning pour afficher les demandes Planning ou les formulaires de demande</td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
+&#42;Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice [!DNL Workfront].
 
 +++
 
@@ -130,11 +134,11 @@ Vous pouvez ajouter un événement à un projet existant directement depuis la z
 Vous pouvez créer une requête directement depuis la zone d’Accueil :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Ajoutez le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**.
+1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**.
 1. Accédez au widget **Mes requêtes**, puis cliquez sur **Nouveau**.
-   ![Créer une demande](assets/create-new-request.png)
+   ![Créer une demande](assets/create-new-request-new.png)
 
-1. Dans la boîte de dialogue **Nouvelle demande**, commencez à saisir le nom de la file d’attente des demandes.
+1. Dans la boîte de dialogue **Nouvelle demande**, commencez à saisir le nom de la file d’attente des demandes Workfront ou du formulaire de demande Workfront Planning dans la barre de recherche, puis sélectionnez-le lorsqu’il apparaît.
 1. Renseignez les champs appropriés.
 1. Cliquez sur **Soumettre**.
 

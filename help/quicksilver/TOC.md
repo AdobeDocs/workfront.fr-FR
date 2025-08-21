@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
+source-git-commit: 6ad5c482e8c1638612d46d4287bda27466acef3f
 workflow-type: tm+mt
-source-wordcount: '13431'
+source-wordcount: '13436'
 ht-degree: 86%
 
 ---
@@ -325,45 +325,45 @@ ht-degree: 86%
          * version 2018.3 {#release-18-3}
             * [Activité Version 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [Vue d’ensemble de l’activité de la version 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
-            * [Activité Version 2018.3, version bêta 1](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
-            * [Activité Version 2018.3, version bêta 2](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
-            * [Activité Version 2018.3, version bêta 3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
-            * [Activité Version 2018.3 bêta 4](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
-            * [Activité Version 2018.3, bêta 5](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
-            * [Version bêta finale 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
+            * [Activité de la version 2018.3 Beta 1](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
+            * [Activité de la version 2018.3 Beta 2](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
+            * [Activité de la version 2018.3 Beta 3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
+            * [Activité de la version 2018.3 Beta 4](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
+            * [Activité de la version 2018.3 Beta 5](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
+            * [Version Beta finale 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
          * version 2018.2 {#release-18-2}
             * [Activité Version 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [Vue d’ensemble de l’activité Version 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
-            * [Activité Version 2018.2, version bêta 1](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
-            * [Activité Version 2018.2, version bêta 2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
-            * [Activité Version 2018.2 bêta 3](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
-            * [Activité Version 2018.2, version bêta 4](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
-            * [Activité Version 2018.2 bêta 5](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
-            * [Activité Version finale bêta de la version 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
+            * [Activité de la version 2018.2 Beta 1](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
+            * [Activité de la version 2018.2 Beta 2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
+            * [Activité de la version 2018.2 Beta 3](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
+            * [Activité de la version 2018.2 Beta 4](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
+            * [Activité de la version 2018.2 Beta 5](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
+            * [Activité de la version Beta finale 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
          * version 2018.1 {#release-18-1}
             * [Activité Version 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
             * [Vue d’ensemble de l’activité Version 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
-            * [Activité Version bêta 1 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
-            * [Activité de la version 2018.1 bêta 2](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
-            * [Activité Version 2018.1 bêta 3](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
-            * [Activité Version 2018.1 bêta 4](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
-            * [Activité de la version bêta finale 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
+            * [Activité de la version 2018.1 Beta 1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
+            * [Activité de la version 2018.1 Beta 2](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
+            * [Activité de la version 2018.1 Beta 3](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
+            * [Activité de la version 2018.1 Beta 4](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
+            * [Activité de la version Beta finale 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
          * version 2017.3 {#release-17-3}
             * [Activité Version 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
             * [Vue d’ensemble des activités de la version 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
-            * [Activité Version 2017.3, version bêta 1](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
-            * [Activité Version 2017.3, version bêta 2](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
+            * [Activité de la version 2017.3 Beta 1](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
+            * [Activité de la version 2017.3 Beta 2](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
             * [Activité de version 2017.3 Beta 3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
-            * [Activité Version 2017.3, version bêta 4](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
-            * [Activité Version 2017.3, version bêta finale](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
+            * [Activité de la version 2017.3 Beta 4](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
+            * [Activité de la version Beta finale 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
             * [Webinaires de la version 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
          * version 2017.2 {#release-17-2}
             * [Activité Version 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
             * [Vue d’ensemble de l’activité Version 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
-            * [Activité Version 2017.2, version bêta 1](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
-            * [Activité Version 2017.2 bêta 2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
-            * [Activité Version 2017.2, version bêta 3](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
-            * [Activité Version 2017.2, version bêta finale](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
+            * [Activité de la version 2017.2 Beta 1](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
+            * [Activité de la version 2017.2 Beta 2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
+            * [Activité de la version 2017.2 Beta 3](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
+            * [Version Beta finale 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
             * [Webinaires de la version 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
          * Version Workfront R1 {#r1-release}
             * [Version R1 de Workfront](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
@@ -394,14 +394,14 @@ ht-degree: 86%
          * [Usurpation d’adresses e-mail et suppression des réponses POP](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
          * [Les clientes et clients des clusters 1, 2 et 3 doivent mettre à jour tous les blocs d’adresses IP de liste autorisée pour empêcher le blocage des services Adobe Workfront.](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
          * [Supprimer le serveur SMTP personnalisé en tant qu’option d’e-mail sortant](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
-   * Programmes bêta {#beta}
-      * [Programmes bêta](product-announcements/betas/betas.md)
+   * Programmes Beta {#beta}
+      * [Programmes Beta](product-announcements/betas/betas.md)
       * Beta des tableaux de bord de la zone de travail {#canvas-dashboards-beta}
-         * [Informations sur la version bêta des tableaux de bord Zone de travail](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
-         * [Vue d’ensemble de la zone de travail de reporting bêta](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
-         * [Tableaux de bord de zone de travail bêta : activité version](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
+         * [Informations sur la version Beta des tableaux de bord Zone de travail](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+         * [Vue d’ensemble de la version Beta des zones de travail de création de rapports](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * [Version Beta des tableaux de bord Zone de travail : activité de la version](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * Nouvelle expérience de commentaires bêta {#new-commenting-experience-beta}
-         * [Informations sur la nouvelle expérience de commentaire bêta](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+         * [Informations sur la nouvelle version Beta de l’expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Nouvelle expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Activité Version de la nouvelle expérience de commentaire bêta](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Questions fréquentes sur la nouvelle expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
@@ -448,7 +448,7 @@ ht-degree: 86%
       * Structure organisationnelle {#organization-setup}
          * [Structure organisationnelle](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
          * [Gérer des entreprises](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
-         * [Gérer les adhésions des entreprises](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
+         * [Gérer les appartenances à une entreprise](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [Désactiver ou réactiver une entreprise](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [Fonction](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
          * [Créer et gérer des fonctions](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
@@ -707,7 +707,7 @@ ht-degree: 86%
          * [Gérer un groupe](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
          * [Notifications d’événements de groupe](administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
          * [Afficher et gérer les détails d’un groupe](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
-         * [Consulter et gérer les appartenances à un groupe](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
+         * [Afficher et gérer les appartenances à un groupe](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
          * [Afficher les licences de groupe attribuées](administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md)
          * [Configurer les préférences des projets de groupe](administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
          * [Configurer les préférences des groupes en matière de tâches et de problèmes](administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
@@ -876,7 +876,8 @@ ht-degree: 86%
          * [Consigner les heures passées sur un élément de travail à partir de la zone Accueil](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Marquer un élément comme Terminé dans la zone Accueil](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Utiliser la zone Mes mises à jour](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-   * Assistant IA {#ai-assistant}
+         * [Utiliser le widget Mes requêtes](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+Assistant IA  {#ai-assistant}
       * [Assistant IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Résumer à l’aide de l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
@@ -963,9 +964,9 @@ ht-degree: 86%
       * Utilisation des applications mobiles Adobe Workfront {#use-workfront-mobile-app}
          * [Utiliser l’application mobile Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
          * [Adobe Workfront pour Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-         * [Devenir bêta-testeur sur Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+         * [Devenir Beta-testeur ou Beta-testeuse Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
          * [Adobe Workfront pour iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
-         * [Devenir bêta-testeur ou bêta-testeuse iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+         * [Devenir Beta-testeur ou Beta-testeuse iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
          * [Widgets de la zone d’accueil](workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
          * [Section Mon travail dans l’application mobile](workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
          * [Panoramas Adobe Workfront pour mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
@@ -1114,7 +1115,7 @@ ht-degree: 86%
       * [Copier et partager un lien vers un dossier de document](documents/managing-documents/copy-a-doc-folder-url.md)
       * [Charger une nouvelle version d’un document](documents/managing-documents/upload-new-document-version.md)
       * [Gérer les versions de documents](documents/managing-documents/manage-document-versions.md)
-      * [Vérifier les documents](documents/managing-documents/check-out-documents.md)
+      * [Extraire des documents](documents/managing-documents/check-out-documents.md)
       * [Télécharger les documents](documents/managing-documents/download-documents.md)
       * [Déplacer des documents](documents/managing-documents/move-documents.md)
       * [Vérifier les limites de stockage des documents](documents/managing-documents/check-document-storage.md)
