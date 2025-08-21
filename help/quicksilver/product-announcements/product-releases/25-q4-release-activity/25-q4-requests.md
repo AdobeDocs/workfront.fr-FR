@@ -3,10 +3,9 @@ title: Améliorations des demandes pour le quatrième trimestre 2025
 description: Améliorations des demandes pour le quatrième trimestre 2025
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 21%
@@ -23,8 +22,8 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 
 >[!NOTE]
 >
->* Aperçu : 31 juillet 2025
->* Version rapide de production : 14 août 2025
+>* Aperçu : 21 août 2025
+>* Mise à jour rapide de la production : 11 septembre 2025
 >* Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Pour améliorer l’expérience utilisateur lors de la réalisation de requêtes dans Workfront et Workfront Planning, nous avons mis à jour l’expérience de requête. Vous pouvez désormais effectuer les opérations suivantes :

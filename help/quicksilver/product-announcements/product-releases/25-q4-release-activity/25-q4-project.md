@@ -6,7 +6,8 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
+source-git-commit: 4b708e10e54a0a7ef9d305bbcfd8cf80a82d0376
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 32%
@@ -18,6 +19,23 @@ ht-degree: 32%
 Cette page décrit les améliorations apportées par Project à l’environnement de prévisualisation avec la version du quatrième trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2025, voir [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+<!--
+## Create project intake forms in Workfront
+
+>[!NOTE]
+>
+>* Preview: August 21, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.
+
+Previously, requests were entered into Workfront as issues, which had to be converted to projects.
+
+For information and instructions about project intake forms, see [Create project intake forms](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-project-intake-form.md).
+
+-->
 
 ## Nouvelles expressions ajoutées aux champs personnalisés calculés dans Workfront
 
@@ -48,4 +66,3 @@ Un bouton **Avancé** est désormais disponible pour les affectations dans les l
 Cette modification s&#39;applique à la fois aux affectations de tâches et d&#39;événements.
 
 Pour plus d’informations, voir la section [Créer des affectations avancées](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-

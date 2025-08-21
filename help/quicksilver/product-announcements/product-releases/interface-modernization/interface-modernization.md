@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '6892'
+source-wordcount: '7094'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,17 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+<!--
+### Interface updates when editing a Scorecard
+
+**Preview release: August 21, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+
+A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+
+-->
 
 ### Mises à jour de l’interface pour la page Notifications de révision et d’approbation dans la Configuration
 
@@ -111,6 +122,54 @@ Pour afficher cette modification, accédez à Configuration > Système > Mettre 
 
 ## Projets
 
+### Mises à jour de l’interface lors de l’ajout d’objets à des programmes et des portfolios
+
+**Version préliminaire : 22 mai 2025 ; Version de production : 29 mai 2025**
+
+>[!NOTE]
+>
+>Cette fonctionnalité a été temporairement supprimée de l’aperçu et de la production et ajoutée à nouveau le 21 août 2025.
+
+
+Nous avons mis à jour l’interface pour les zones Ajouter en procédant comme suit :
+
+* Ajouter des projets aux programmes
+* Ajouter des projets aux portefeuilles
+* Ajouter des programmes aux portefeuilles
+
+Pour plus d’informations, voir les articles suivants :
+
+* [Ajouter un programme existant à un portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Ajouter des projets à un portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Ajouter un projet à un programme](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+### Mises à jour de l’interface vers la zone Nouvelle rubrique de file d’attente des projets et modèles
+
+**Version préliminaire : 21 août 2025 ; Version de production : 28 août 2025**
+
+Nous avons mis à jour l’aspect de la zone Nouvelle rubrique de file d’attente lorsque vous ajoutez une nouvelle rubrique de file d’attente à un projet ou un modèle, afin de correspondre à la conception d’autres zones de Workfront.
+
+Pour plus d&#39;informations, voir [Création de rubriques de file d&#39;attente](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+### Mises à jour de l’interface lors de la modification d’une rubrique de file d’attente sur un projet ou un modèle
+
+**Version préliminaire : 21 août 2025 ; Version de production : 28 août 2025**
+
+Nous avons mis à jour l’expérience lors de la modification d’une rubrique de file d’attente sur des projets et des modèles, afin de correspondre à d’autres zones de Workfront.
+
+Cette mise à jour a entraîné une légère modification des fonctionnalités. Désormais, lorsque vous cliquez sur une rubrique de file d’attente, vous êtes dirigé directement vers la page de modification de la rubrique de file d’attente, au lieu d’une page pour les Détails de la rubrique de file d’attente.
+
+Pour plus d&#39;informations, voir [Création de rubriques de file d&#39;attente](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+<!--### Interface update for the Edit Expense box of a project
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+-->
+
 ### Mises à jour de l’interface pour la journalisation du temps sur un projet, une tâche ou un événement dans la section Heures
 
 **Version préliminaire : 7 août 2025 ; Version de production : 14 août 2025**
@@ -166,7 +225,7 @@ Pour plus d’informations, voir les articles suivants :
 
 * [Envoyer des messages directs à d’autres utilisateurs et utilisatrices](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
 * [Gérer l’équipe de projet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
-* [Gérer les adhésions des entreprises](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
+* [Gérer les appartenances à une entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### Mise à jour de l’expérience lors de la modification d’un groupe de rubriques dans un projet ou un modèle
 
@@ -204,6 +263,14 @@ Nous avons mis à jour la boîte de dialogue pour l’ajout d’une nouvelle dé
 Pour plus d’informations, voir [Gérer les dépenses des projets](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
 ## Modèles
+
+### Mises à jour de l’interface pour la liste Personnes d’un modèle
+
+**Version préliminaire : 21 août 2025 ; Version de production : 28 août 2025**
+
+Nous avons mis à jour l’aspect de la liste Personnes sur un modèle afin qu’elle corresponde à la conception d’autres zones de Workfront.
+
+Travailler avec des personnes sur un modèle est similaire à travailler avec des personnes sur un projet. Pour plus d’informations, voir [Gérer l’équipe du projet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
 ### Mises à jour de l’interface pour la liste des prédécesseurs d’un modèle
 
@@ -542,26 +609,6 @@ Nous avons mis à jour l’aspect de la zone Copier le modèle pour qu’elle co
 
 Pour plus d’informations, voir [ Copier un modèle de projet ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
-### Mises à jour de l’apparence lors de l’ajout d’objets à des programmes et portfolios
-
-**Version préliminaire : 22 mai 2025 ; Version de production : 29 mai 2025**
-
->[!NOTE]
->
->Temporairement supprimé de l’aperçu et de la production
-
-
-Nous avons mis à jour l’interface pour les zones Ajouter en procédant comme suit :
-
-* Ajouter des projets aux programmes
-* Ajouter des projets aux portefeuilles
-* Ajouter des programmes aux portefeuilles
-
-Pour plus d’informations, voir les articles suivants :
-
-* [Ajouter un programme existant à un portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [Ajouter des projets à un portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [Ajouter un projet à un programme](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 
 +++
 
