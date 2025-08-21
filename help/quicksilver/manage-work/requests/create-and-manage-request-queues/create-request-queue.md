@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
 workflow-type: tm+mt
-source-wordcount: '2845'
-ht-degree: 66%
+source-wordcount: '2868'
+ht-degree: 65%
 
 ---
 
@@ -47,6 +47,8 @@ Pour configurer un projet ou un modèle en tant que file d’attente des demande
 Cet article décrit comment configurer un projet en tant que file d’attente des demandes dans laquelle les utilisateurs peuvent envoyer des demandes. La configuration des Détails de la file d’attente pour un modèle est similaire à leur configuration pour le projet.
 
 Pour plus d’informations sur la manière de soumettre une nouvelle demande à une file d’attente, voir [Copier et soumettre des demandes](../create-requests/copy-and-submit-requests.md).
+
+Pour plus d’informations sur la configuration d’un formulaire de demande dans Workfront Planning, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Conditions d’accès
 

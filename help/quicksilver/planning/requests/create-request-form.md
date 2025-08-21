@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
+source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2568'
 ht-degree: 7%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 {{planning-important-intro}}
 
-Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;enregistrement dans Adobe Workfront Planning. Vous pouvez ensuite partager le formulaire avec d’autres utilisateurs qui peuvent envoyer des requêtes pour créer des enregistrements.
+Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;enregistrement dans Adobe Workfront Planning. Vous pouvez ensuite partager le formulaire avec d’autres utilisateurs qui peuvent envoyer des demandes pour créer des enregistrements de ce type.
 
 Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto">
  <col>
@@ -55,8 +55,8 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
    <td>
 <p>L’un des plans Workfront suivants :</p>
 <ul><li>Sélectionner</li>
-<li>Principal</li>
-<li>Final</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p>
    </td>
 
@@ -134,7 +134,11 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
    * Les champs de formule qui font référence à des champs Devise affichent les valeurs sans tenir compte des taux de change.
    * Les valeurs des champs de paragraphe affichent une valeur « S/O » sur le formulaire de demande et affichent des balises HTML au lieu du texte formaté dans la page des détails de la demande.
 
-## Création d’un formulaire de demande pour un type d’enregistrement
+## Commencer à créer un formulaire de demande
+
+Vous pouvez créer un formulaire de demande à partir du type d’enregistrement associé au formulaire, <span class="preview">ou à partir de la zone Demandes de Workfront.</span>
+
+### Création d’un formulaire de demande à partir d’un type d’enregistrement
 
 {{step1-to-planning}}
 
@@ -148,12 +152,51 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
 1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Créer un formulaire de demande** ou **Gérer les formulaires de demande**, si vous disposez déjà d’un formulaire et que vous souhaitez en créer d’autres.
 1. (Conditionnel) Si vous souhaitez ajouter un autre formulaire, cliquez sur **Nouveau formulaire de demande**.
-1. Mettez à jour le nom du formulaire de demande. Par défaut, le nom du formulaire est **Formulaire sans titre**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+
+   La zone Créer un formulaire de demande s’ouvre.
+
+1. Dans la zone Créer un formulaire de demande, mettez à jour le nom du formulaire de demande. Par défaut, le nom du formulaire est **Formulaire sans titre**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facultatif) Ajoutez une **Description** pour le formulaire de demande.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Cliquez sur **Créer**. Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
+1. Cliquez sur **Créer**.
+
+   Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
+1. Passez à [ Configurer le formulaire ](#configure-the-form).
+
+<div class="preview">
+
+### Création d’un formulaire de demande à partir de la zone des Demandes de Workfront
+
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Requêtes**.
+1. Dans le coin supérieur droit de l’écran, cliquez sur **Formulaires de demande**.
+1. (Conditionnel) Si vous modifiez un formulaire de demande existant, sélectionnez-le dans la liste, puis continuez à [Configurer le formulaire](#confgure-the-form).
+1. Si vous créez un formulaire de demande, dans le coin supérieur droit de l’écran, cliquez sur **Nouveau formulaire de demande**.
+
+   La zone Créer un formulaire de demande s’ouvre
+
+1. Dans la zone Créer un formulaire de demande, mettez à jour le nom du formulaire de demande. Par défaut, le nom du formulaire est **Formulaire sans titre**.
+1. Dans le champ Types d’objet , sélectionnez le type d’enregistrement auquel le formulaire de demande sera associé. Les types d’enregistrements sont regroupés dans l’espace de travail dans lequel ils existent.
+1. (Facultatif) Ajoutez une **Description** pour le formulaire de demande.
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. Cliquez sur **Créer**.
+
+   Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
+1. Passez à [ Configurer le formulaire ](#configure-the-form).
+
+</div>
+
+## Configuration du formulaire
+
+1. Commencez à créer ou modifier un formulaire de demande, comme décrit dans l’une des sections suivantes :
+
+   * [Création d’un formulaire de demande à partir d’un type d’enregistrement](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[Créez un formulaire de demande à partir de la zone Demandes de Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+
+   Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
 
    ![Mode de modification du formulaire de demande de campagne](assets/campaigns-request-form-edit-mode.png)
 
