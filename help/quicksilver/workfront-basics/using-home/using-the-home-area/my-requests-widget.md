@@ -22,7 +22,7 @@ ht-degree: 18%
 >[!IMPORTANT]
 >
 >Cet article décrit le nouveau widget Mes requêtes . La nouvelle expérience de demande doit être activée pour afficher le nouveau widget.
->>Vous pouvez activer la nouvelle expérience de demande dans la zone des Demandes .
+>&#x200B;>Vous pouvez activer la nouvelle expérience de demande dans la zone des Demandes .
 
 Le widget Mes demandes affiche les demandes qui ont été envoyées à votre organisation. Vous pouvez filtrer les requêtes, rechercher des requêtes spécifiques ou ajuster l’ordre et la visibilité des colonnes. Vous pouvez également créer une requête à partir du widget Mes requêtes .
 
