@@ -6,10 +6,10 @@ description: Vous pouvez ajouter un rapport tabulaire à un tableau de bord Zone
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 15%
+source-wordcount: '761'
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez ajouter un rapport tabulaire à un tableau de bord Zone de travail a
 
 ![Exemple de rapport de tableau](assets/table-example-main.png)
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -111,3 +111,82 @@ De nombreuses options de configuration sont disponibles pour créer un rapport t
    1. Cliquez sur le bouton **Ajouter un regroupement** puis sélectionnez le champ à créer en tant que regroupement. La colonne de regroupement s’affiche dans la section de prévisualisation à droite.
 
 1. Cliquez sur **Enregistrer** pour créer le rapport et l’ajouter au tableau de bord.
+
+## Création d’un exemple de rapport tabulaire
+
+Dans cette section, nous allons passer en revue les étapes de création d&#39;un rapport tabulaire qui affiche les approbations de documents en attente.
+
+Pour plus d&#39;informations sur les exemples de rapports de table, voir [Créer un tableau de bord de rapport pour révision et approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
+
+1. Cliquez sur **Nouveau tableau de bord** dans le coin supérieur droit.
+
+1. Dans la zone **Créer un tableau de bord**, saisissez les **Nom** et **Description** du tableau de bord.
+
+1. Cliquez sur **Créer**.
+
+1. Dans la zone **Ajouter un rapport**, sélectionnez **Créer un rapport**.
+
+1. Sur le côté gauche, sélectionnez **Tableau**.
+
+1. Dans le coin supérieur droit, cliquez sur **Créer un rapport**.
+
+1. Pour configurer la section **Détails**, procédez comme suit :
+
+   1. Saisissez _Approbations en attente_ dans le champ **Nom**.
+   1. Saisissez une description dans le champ **Description**. Ce texte s’affiche sous forme d’info-bulle en regard du nom du graphique.
+
+1. Pour configurer la section **Créer une table**, procédez comme suit :
+
+   1. Dans le panneau de gauche, cliquez sur l’icône **Colonnes du tableau** ![Icône Colonnes du tableau](assets/drilldown-column.png).
+   1. Cliquez sur **Ajouter une colonne**.
+   1. Faites défiler vers le bas et sélectionnez **Approbations de documents** > **Statut**.
+   1. Ajoutez les colonnes suivantes :
+
+   <table>
+    <tr>
+    <td><strong>Nom du projet</strong></td>
+    <td>Version du document &gt; Document &gt; Projet &gt; Nom</td>
+    </tr>
+    <tr>
+    <td><strong>Nom du document</strong></td>
+    <td>Version du document &gt; Document &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
+    </tr>
+    <tr>
+    <td><strong>Version du document</strong></td>
+    <td>Version Du Document &gt; Document &gt; Version</td>
+    </tr>
+    <tr>
+    <td><strong>Échéance</strong></td>
+    <td>Approbation du document &gt; Étape d’approbation &gt; Échéance</td>
+    </tr>
+    <tr>
+    <td><strong>Demandé par</strong></td>
+    <td>Approbation du document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Demandeur &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
+    </tr>
+    <tr>
+    <td><strong>Date demandée</strong></td>
+    <td>Approbation du document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Créé le</td>
+    </tr>
+    <tr>
+    <td><strong>Approbateur</strong></td>
+    <td>Approbation du document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Utilisateur participant &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
+    </tr>
+    </table>
+
+
+   *Les participants à l&#39;étape d&#39;approbation sont tronqués à _Pa étape d&#39;approbation_.
+
+
+1. Pour configurer la section **Filtre**, procédez comme suit :
+   1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer** ![icône de l’onglet Filtrer](assets/filter-tab.png).
+   1. Cliquez sur **Modifier le filtre**, puis **Ajouter une condition**.
+   1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
+   1. Sélectionnez **Statut**.
+   1. Remplacez l’opérateur par **Égal**, puis saisissez _en attente d’approbation_ dans la zone de texte.
+      ![exemple de filtre de table d&#39;approbation en attente](assets/pending-approval-table-filter.png)
+   1. (Facultatif) Ajoutez des filtres supplémentaires comme décrit dans la section **Filtres facultatifs** ci-dessous.
+1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.

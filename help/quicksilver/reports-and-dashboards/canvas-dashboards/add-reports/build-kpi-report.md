@@ -6,10 +6,10 @@ description: Un rapport sur les indicateurs de performance clés qui affiche de 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 11%
+source-wordcount: '809'
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez créer et ajouter un rapport sur les indicateurs de performance clé
 
 ![Exemple de rapport sur les KPI](assets/kpi-example-main.png)
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,5 +122,57 @@ De nombreuses options de configuration sont disponibles pour créer un rapport s
    1. Cliquez sur le bouton **Ajouter un regroupement** puis sélectionnez le champ à créer en tant que regroupement.
 
 1. Cliquez sur **Enregistrer** pour créer le rapport et l’ajouter au tableau de bord.
+
+## Création d’un exemple de rapport sur les indicateurs de performance clés
+
+Dans cette section, nous allons passer en revue les étapes pour créer un rapport sur les indicateurs de performance clés qui affiche les approbations de documents en attente.
+
+Pour plus d’informations sur les exemples de rapports d’indicateurs clés de performance, voir [Créer un tableau de bord de rapport pour révision et approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
+
+1. Cliquez sur **Nouveau tableau de bord** dans le coin supérieur droit.
+
+1. Dans la zone **Créer un tableau de bord**, saisissez les **Nom** et **Description** du tableau de bord.
+
+1. Cliquez sur **Créer**.
+
+1. Dans la zone **Ajouter un rapport**, sélectionnez **Créer un rapport**.
+
+1. Sur le côté gauche, sélectionnez **KPI**.
+
+1. Dans le coin supérieur droit, cliquez sur **Créer un rapport**.
+
+1. Pour configurer la section **Détails**, procédez comme suit :
+
+   1. Saisissez *En attente* dans le champ **Nom**.
+   1. Saisissez *Approbations en attente* dans le champ **Description**. S’affiche sous la valeur de l’indicateur de performance clé sous forme de légende.
+
+1. Suivez les étapes ci-dessous pour configurer la section **Créer un KPI** :
+
+   1. Dans le panneau de gauche, cliquez sur l’icône **Créer un KPI** ![Créer un KPI](assets/build-kpi-icon.png).
+
+   1. Cliquez sur **Sélectionner un champ**.
+
+   1. Recherchez et sélectionnez le dossier **Approbation du document**.
+
+   1. Sélectionnez **Statut**.
+
+   1. Dans le menu déroulant **Type d’agrégation**, sélectionnez **Comptage**.
+
+1. Pour configurer la section **Filtre**, procédez comme suit :
+
+   1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png).
+
+   1. Sélectionnez **Modifier le filtre**.
+
+   1. Cliquez sur **Ajouter une condition**.
+
+   1. Cliquez dans le filtre de condition vide, cliquez sur **Choisir un champ**, puis choisissez **Statut**.
+   1. Laissez l’opérateur sur **Égal**, puis saisissez _en attente de révision_ dans la zone de texte.
+      ![Exemple de filtre KPI en attente](assets/pending-kpi-filter.png)
+1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
 
