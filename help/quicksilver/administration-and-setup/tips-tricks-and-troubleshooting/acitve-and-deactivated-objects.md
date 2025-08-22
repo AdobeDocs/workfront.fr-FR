@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Objets actifs et désactivée
+title: Objets actifs et désactivés
 description: En tant qu’administrateur ou administratrice  [!DNL Adobe Workfront] , vous pouvez activer ou désactiver des objets dans le système. Nous vous recommandons de ne jamais supprimer les objets que vous pouvez désactiver. Il vous suffit de désactiver l’objet pour l’empêcher d’être utilisé ultérieurement et de le retirer des menus déroulants d’autres objets.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 96%
+source-wordcount: '687'
+ht-degree: 94%
 
 ---
 
@@ -82,7 +82,7 @@ Un formulaire personnalisé doit être actif pour apparaître sur le champ [!UIC
 
 Vous pouvez activer un formulaire personnalisé lors de sa modification.
 
-Pour plus d’informations sur la modification de formulaires personnalisés et pour obtenir la liste des objets auxquels vous pouvez les associer, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur la modification des formulaires personnalisés et pour obtenir la liste des objets auxquels vous pouvez les associer, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Entreprises
 
@@ -96,17 +96,9 @@ Pour plus d’informations, voir [Créer et modifier des entreprises](../../admi
 
 Une personne doit être active pour apparaître dans n’importe quel champ de saisie de tous les autres objets lors d’affectations ou de partages.
 
-Vous pouvez désactiver une personne à partir de sa page ou lors de sa modification.
+Vous devez désactiver les utilisateurs via [!UICONTROL Adobe Admin Console].
 
-Pour plus d’informations sur la désactivation d’utilisateurs et d’utilisatrices, voir la section [Désactiver ou réactiver un utilisateur ou une utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
-
->[!IMPORTANT]
->
->Si votre organisation a été intégrée à [!DNL Adobe Business Platform], vous devez désactiver les utilisateurs et utilisatrices via [!UICONTROL Adobe Admin Console].
->
->Pour plus d’informations sur la désactivation d’un utilisateur ou d’une utilisatrice dans [!UICONTROL Adobe Admin Console], voir la section « Supprimer des utilisateurs et utilisatrices » dans l’article [Gérer les utilisateurs et utilisatrices individuellement](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) ou contactez votre équipe d’administration [!UICONTROL Adobe Admin Console].
->
->Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a ou non été intégrée à [!DNL Adobe Business Platform], voir la section [Différences d’administration en fonction des plateformes (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+Pour plus d’informations sur la désactivation d’un utilisateur ou d’une utilisatrice dans [!UICONTROL Adobe Admin Console], voir la section « Supprimer des utilisateurs et utilisatrices » dans l’article [Gérer les utilisateurs et utilisatrices individuellement](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) ou contactez votre équipe d’administration [!UICONTROL Adobe Admin Console].
 
 ## Équipes
 
