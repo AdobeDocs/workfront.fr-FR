@@ -32,7 +32,7 @@ Si vous activez l’authentification SAML 2.0 et que vous souhaitez que vos uti
 >[!NOTE]
 >
 >Cette option n’est pas disponible si l’instance Workfront de votre organisation utilise un portail SSO personnalisé.
->>Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+>&#x200B;>Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
 <!--
 or is enabled with Adobe IMS-->
 
