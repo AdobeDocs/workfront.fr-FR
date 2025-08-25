@@ -6,9 +6,9 @@ description: Lorsqu’un administrateur ou une administratrice  [!DNL Workfront]
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
@@ -42,6 +42,7 @@ Pour connaître la formule ou le type de licence dont vous disposez, contactez v
 
 Lorsqu’un administrateur ou une administratrice [!DNL Workfront] crée un utilisateur ou une utilisatrice, cette personne peut recevoir un e-mail d’invitation en fonction de plusieurs facteurs :
 
+* Si l’organisation de la personne a été intégrée à [!DNL Adobe Admin Console].
 * Si la personne a été ajoutée dans [!DNL Workfront] ou dans [!DNL Admin Console].
 * Si la personne a accès à d’autres produits [!DNL Adobe] ou si elle est nouvelle utilisatrice d’[!DNL Adobe].
 * Si l’administrateur ou l’administratrice a choisi d’envoyer une invitation par e-mail à la personne (s’applique uniquement aux organisations qui ne sont pas encore sur [!DNL Admin Console]).
