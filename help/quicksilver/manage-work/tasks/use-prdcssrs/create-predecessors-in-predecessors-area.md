@@ -6,7 +6,7 @@ description: Vous pouvez utiliser des tâches antérieures (ou simplement des pr
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 46%
@@ -66,7 +66,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 ## Créer une tâche antérieure pour une tâche
 
-La création d&#39;un prédécesseur pour une tâche de projet à l&#39;aide de la zone Prédécesseurs est similaire à la création de prédécesseurs pour un modèle de tâches sur un modèle.
+La création d’un prédécesseur pour une tâche de projet à l’aide de la zone Prédécesseurs est similaire à la création de prédécesseurs pour une tâche de modèle sur un modèle.
 
 Pour créer une tâche antérieure pour une tâche de projet :
 

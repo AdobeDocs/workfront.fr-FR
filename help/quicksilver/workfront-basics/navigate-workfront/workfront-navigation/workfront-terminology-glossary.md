@@ -6,9 +6,9 @@ description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couram
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '21141'
+source-wordcount: '21167'
 ht-degree: 94%
 
 ---
@@ -50,7 +50,9 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Cost]</td> 
-   <td> <p>Pour les tâches et les problèmes, il s’agit du coût associé aux heures effectives consignées par rapport au coût par heure de la ressource affectée à la tâche ou au problème. Pour les projets, il s’agit du total des [!UICONTROL Actual Costs] provenant des tâches et des problèmes du projet. Pour plus d’informations, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivre les coûts</a>.</p> </td> 
+   <td> <p>Pour les tâches et les problèmes, il s’agit du coût associé aux heures effectives consignées par rapport au coût par heure de la ressource affectée à la tâche ou au problème. Pour les projets, il s’agit du total des [!UICONTROL Actual Costs] provenant des tâches et des problèmes du projet. Pour plus d’informations, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivre les coûts</a>.</p>
+
+<p>Les calculs de [!UICONTROL Actual Cost] prennent en compte les [!UICONTROL Legacy Actual Hours]. Pour plus d'informations, consultez la section « [!UICONTROL Heures réelles] » ou « [!UICONTROL Heures réelles héritées] » de ce tableau. </p>   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Expense Cost]</td> 
@@ -68,7 +70,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
     </ul> 
-   <p>Voir aussi <strong>Heures effectives héritées</strong>.
+   <p>Voir aussi <strong>[!UICONTROL Heures effectives héritées]</strong>.
     <p>Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Afficher les heures réelles</a>.</p>
     </td> 
   </tr> 
@@ -1464,7 +1466,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[!UICONTROL User] qui affiche et permet de définir les relations de l’[!UICONTROL Company] et du [!UICONTROL Reporting] de l’[!UICONTROL User].</td> 
+   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[UICONTROL User] qui affiche et permet de définir les relations de l’[UICONTROL Company] et du [UICONTROL Reporting] de l’[UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 
@@ -2067,7 +2069,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (dans [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
+   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (dans le [!DNL Workfront Scenario Planner]) </td> 
@@ -2184,7 +2186,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
       <li>[!UICONTROL Inactive]</li> 
       <li>[!UICONTROL Closed]</li> 
      </ul> 
-     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « &lbrack;!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
+     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « [!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
      <p>Pour les objectifs stratégiques, ce champ n’est visible que si votre entreprise a acheté [!DNL Workfront Goals]. Pour plus d’informations sur la gestion des objectifs stratégiques à l’aide de [!DNL Workfront Goals], voir Vue d’ensemble de <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals]</a>. </p>
     </td> 
   </tr> 

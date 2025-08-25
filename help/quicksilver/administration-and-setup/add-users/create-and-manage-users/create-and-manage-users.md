@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 94%
+source-wordcount: '104'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ Cette section contient les articles suivants :
 * [Mapper les attributs de l’utilisateur ou de l’utilisatrice et auto-allouer de nouvelles personnes](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
 * [Désactiver ou réactiver un utilisateur ou une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [Supprimer des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-* [Journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* [Présentation des journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [Afficher et exporter des journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [Afficher les informations de connexion de l’utilisateur ou de l’utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Gérer les utilisateurs dans Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

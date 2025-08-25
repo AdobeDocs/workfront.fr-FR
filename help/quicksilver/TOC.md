@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: cfec7f1b3001b0fe78534c33c3a10c70f5f64c3f
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '13445'
-ht-degree: 86%
+source-wordcount: '13449'
+ht-degree: 85%
 
 ---
 
@@ -489,7 +489,7 @@ ht-degree: 86%
          * [Mapper les attributs utilisateur](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
          * [Désactiver un utilisateur ou une utilisatrice](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
          * [Supprimer des utilisateurs et utilisatrices](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-         * [Journaux d’audit](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+         * [Présentation des journaux d’audit](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [Afficher et exporter des journaux d’audit](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Afficher les informations de connexion de l’utilisateur ou de l’utilisatrice](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Gérer les utilisateurs dans Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
@@ -2069,6 +2069,7 @@ ht-degree: 86%
       * [Architecture : index des articles](planning/architecture/architecture-information.md)
       * [Présentation des espaces de travail](planning/architecture/workspaces-overview.md)
       * [Créer des espaces de travail](planning/architecture/create-workspaces.md)
+      * [Créer des hiérarchies d’espace de travail](planning/architecture/create-workspace-hierarchies.md)
       * [Vue d’ensemble des types d’enregistrement](planning/architecture/overview-of-record-types.md)
       * [Créer des types d’enregistrements](planning/architecture/create-record-types.md)
       * [Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](planning/architecture/import-file-to-create-record-types.md)

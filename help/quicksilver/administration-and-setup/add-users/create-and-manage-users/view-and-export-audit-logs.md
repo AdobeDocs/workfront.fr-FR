@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 66%
+source-wordcount: '426'
+ht-degree: 58%
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez afficher tous les journaux d’audit du système ou ceux qui répond
 
 Les journaux d’audit répertorient les modifications apportées par un utilisateur ou une utilisatrice déclenchées dans le système au cours des 90 derniers jours.
 
-Pour plus d’informations sur tous les types de journaux d’audit et sur leur génération, consultez l’article [Journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Pour plus d’informations sur tous les types de journaux d’audit et sur ce qui les génère, voir [Présentation des journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Conditions d’accès
 
@@ -74,7 +74,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    **Tous les types de journaux** est le choix sélectionné par défaut.
 
-   Pour obtenir la liste de tous les types de journaux d’audit que vous pouvez afficher et les informations incluses, consultez l’article [Journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   Pour obtenir la liste de tous les types de journaux d’audit que vous pouvez afficher et les informations qu’ils incluent, voir [Présentation des journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Facultatif) Définissez l’un des filtres disponibles pour les champs suivants :
 

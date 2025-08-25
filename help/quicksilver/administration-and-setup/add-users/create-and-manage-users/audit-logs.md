@@ -1,5 +1,5 @@
 ---
-title: Journaux d’audit
+title: Vue d’ensemble des journaux d’audit
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 94%
+source-wordcount: '1522'
+ht-degree: 93%
 
 ---
 
-# Journaux d’audit
+# Présentation des journaux d’audit
 
 <!--Audited: 01/2024-->
 
@@ -73,14 +73,14 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit 
 * [Section personnalisée](#custom-section)
 * [Taux de change](#exchange-rate)
 * [Groupe](#group)
-* [Fonctions](#job-roles)
-* [Tentative de connexion](#login-attempt)
+* [Fonction](#job-role)
 * [Priorité](#priority)
 * [Préférence du projet](#project-preference)
 * [Gravité](#severity)
 * [Statut](#status)
 * [Préférences des tâches et des problèmes](#tasks-issues-preferences)
 * [l’utilisateur ou de l’utilisatrice](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### Niveau d’accès {#access-level}
 
@@ -236,7 +236,7 @@ Le système génère une entrée de journal d’audit Groupe lorsqu’un utilisa
    * Ajoute ou supprime des utilisateurs et utilisatrices.
    * Ajoute ou supprime des sous-groupes.
 
-### Fonctions {#job-roles}
+### s {#job-role}
 
 Le système génère une entrée de journal d’audit Fonctions lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 40%
+source-wordcount: '791'
+ht-degree: 37%
 
 ---
 
@@ -50,8 +50,8 @@ Pour plus d’informations, consultez la section « Formule » de l’article [C
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -115,7 +115,11 @@ Pour plus d’informations, consultez la section « Formule » de l’article [C
 * Les champs de formule peuvent s’afficher comme `#ERROR!` dans les cas suivants :
    * Lorsqu’un champ utilisé dans une formule est supprimé.
    * Lorsqu’un champ utilisé dans un champ de recherche agrégé s’affiche sous la forme `#ERROR!`.
-Par exemple, si vous affichez un champ de recherche qui contient des champs de formule de recherche agrégés et que l&#39;un des champs de formule référencés s&#39;affiche sous la forme `#ERROR!`.
+
+     Par exemple, si vous affichez un champ de recherche qui contient des champs de formule de recherche agrégés et que l&#39;un des champs de formule référencés s&#39;affiche sous la forme `#ERROR!`.
+   * Lorsqu’une valeur de formule ne peut pas être affichée au format sélectionné.
+
+     Par exemple, si je sélectionne Nombre pour le Format d&#39;un champ de formule et que les champs utilisés dans la formule sont des champs de texte qui affichent uniquement des valeurs non numériques, le résultat de la formule s&#39;affichera sous la forme `#ERROR!`, car il ne peut pas analyser le texte en un nombre.
 
 ## Formules prises en charge
 
