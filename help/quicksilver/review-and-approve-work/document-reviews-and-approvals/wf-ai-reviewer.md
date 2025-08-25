@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 6%
+source-wordcount: '611'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,9 @@ Tout utilisateur peut ajouter le réviseur d’IA à une demande de révision et
 
 ## Conditions préalables
 
-* Votre organisation doit avoir migré vers Adobe IMS (système Identity Management).
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System).-->
 * Les approbations unifiées doivent être activées pour votre instance Workfront.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
 Pour plus d’informations sur la signature du contrat, voir [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
@@ -53,7 +55,7 @@ Le réviseur de l’IA peut examiner les types de fichiers suivants :
 
 ## Configurer des directives de marque
 
-Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio pour le marketing de performance lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio pour le marketing de performance lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Créer des réviseurs d’IA

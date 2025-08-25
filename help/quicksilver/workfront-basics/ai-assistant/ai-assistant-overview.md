@@ -5,9 +5,9 @@ description: Présentation de l’assistant AI
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '807'
 ht-degree: 6%
 
 ---
@@ -49,8 +49,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Pour activer l’assistant AI pour votre entreprise, **toutes** les conditions suivantes doivent être remplies :
 
-* Votre organisation doit avoir migré vers Adobe IMS (système Identity Management)
-* L’expérience unifiée Adobe doit être activée
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled-->
 * Votre organisation doit disposer d’un plan Select, Prime ou Ultimate Workfront
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans le fichier .
 
@@ -113,7 +115,7 @@ L’assistant AI peut interroger les données associées aux types d’objets su
 * Enregistrements Workfront Planning
 
 
-## Accéder à l’assistant AI
+## Accéder à l’assistant IA
 
 1. En haut d’une page Workfront, cliquez sur l’icône de l’assistant AI ![icône de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Saisissez votre question ou votre invite dans le panneau situé à droite de l’écran.
