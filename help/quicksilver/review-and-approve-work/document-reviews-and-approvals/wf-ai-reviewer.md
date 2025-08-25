@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 619bc09a226c6023ff653557dc6e049b2d177722
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '609'
 ht-degree: 7%
 
 ---
@@ -55,7 +55,7 @@ Le réviseur de l’IA peut examiner les types de fichiers suivants :
 
 ## Configurer des directives de marque
 
-Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio pour le marketing de performance lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio Foundations lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Créer des réviseurs d’IA
