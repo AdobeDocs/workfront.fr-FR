@@ -3,20 +3,28 @@ user-type: administrator
 product-area: system-administration
 keywords: SAML 2.0,sécurité,certificat,administration,exemption,configuration,métadonnées
 navigation-topic: security
-title: Renouvellement du certificat de métadonnées Adobe Workfront SAML 2.0
+title: Renouveler le certificat de métadonnées Adobe Workfront SAML 2.0
 description: Les serveurs Adobe Workfront utilisent le protocole SAML 2.0 pour l’authentification et l’autorisation. Une fois mis à jour, le nouveau certificat reste valide pendant un an. Lorsque le moment est venu de renouveler le certificat de votre fournisseur d’identité, vous recevez un avertissement dans Workfront vous informant que ce changement doit être effectué. En tant qu’administrateur ou administratrice de Workfront, vous pouvez gérer ce changement au niveau du système.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '713'
+ht-degree: 90%
 
 ---
 
 # Renouveler le certificat de métadonnées SAML 2.0 d’Adobe Workfront
+
+>[!IMPORTANT]
+>
+>La procédure décrite sur cette page a été supprimée, car elle s’appliquait uniquement aux organisations qui n’avaient pas encore intégré Adobe Admin Console. Cette procédure n’est pas nécessaire pour les organisations sur le Adobe Admin Console.
+>
+>Comme toutes les organisations Workfront ont maintenant été intégrées à Adobe Admin Console, cet article sera supprimé prochainement.
+
+<!--DELETE ME MARCH 2026-->
 
 >[!IMPORTANT]
 >

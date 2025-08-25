@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1167'
 ht-degree: 15%
 
 ---
@@ -28,11 +28,7 @@ Lorsqu’un projet Workfront est connecté à Frame.io, vous pouvez :
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
->[!IMPORTANT]
->
->Cette fonctionnalité n’est disponible que pour les organisations qui ont été intégrées à l’[!DNL Adobe Admin Console].
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 Vous devez disposer des éléments suivants :
 
