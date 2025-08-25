@@ -5,9 +5,9 @@ description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1093'
 ht-degree: 12%
 
 ---
@@ -69,7 +69,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 Pour remplir automatiquement les demandes à l’aide d’une invite ou d’un document, **toutes** les conditions suivantes doivent être remplies :
 
-* Votre entreprise doit utiliser Adobe IMS (système Identity Management)
+* Votre organisation doit avoir migré vers Adobe IMS (système Identity Management)
 * L’expérience unifiée Adobe doit être activée
 * Votre organisation doit disposer d’un plan Select, Prime ou Ultimate Workfront
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans le fichier .

@@ -5,9 +5,9 @@ description: Présentation de l’assistant AI
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '825'
 ht-degree: 6%
 
 ---
@@ -49,10 +49,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Pour activer l’assistant AI pour votre entreprise, **toutes** les conditions suivantes doivent être remplies :
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
-* The Adobe Unified Experience must be enabled-->
+* Votre organisation doit avoir migré vers Adobe IMS (système Identity Management)
+* L’expérience unifiée Adobe doit être activée
 * Votre organisation doit disposer d’un plan Select, Prime ou Ultimate Workfront
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans le fichier .
 

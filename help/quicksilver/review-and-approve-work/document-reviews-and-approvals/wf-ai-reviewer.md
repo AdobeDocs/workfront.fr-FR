@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 619bc09a226c6023ff653557dc6e049b2d177722
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 7%
+source-wordcount: '620'
+ht-degree: 6%
 
 ---
 
@@ -31,9 +31,7 @@ Tout utilisateur peut ajouter le réviseur d’IA à une demande de révision et
 
 ## Conditions préalables
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--* Your organization must have migrated to Adobe IMS (Identity Management System).-->
+* Votre organisation doit avoir migré vers Adobe IMS (système Identity Management).
 * Les approbations unifiées doivent être activées pour votre instance Workfront.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
 Pour plus d’informations sur la signature du contrat, voir [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
@@ -55,7 +53,7 @@ Le réviseur de l’IA peut examiner les types de fichiers suivants :
 
 ## Configurer des directives de marque
 
-Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio Foundations lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio Foundations lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Créer des réviseurs d’IA

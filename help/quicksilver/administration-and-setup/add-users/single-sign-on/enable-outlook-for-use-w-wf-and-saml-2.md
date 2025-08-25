@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 9fa4f85c914121adddcba4189af1398021544776
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 70%
@@ -25,16 +25,15 @@ ht-degree: 70%
 >
 >Dans le cadre de cette modification, Microsoft a pris la décision de modifier la manière dont les jetons sont réactivés. Après le **30 juin 2025**, les administrateurs ne pourront plus réactiver les jetons eux-mêmes. Seule la prise en charge de Microsoft peut accorder des exceptions. **Le 1er octobre 2025, les jetons hérités seront désactivés pour tous les clients. Les exceptions ne seront pas accordées.**
 
-<!--DELETE ME MARCH 2026-->
-
 Si vous activez l’authentification SAML 2.0 et que vous souhaitez que vos utilisateurs et utilisatrices puissent se connecter à Workfront à partir de Microsoft Outlook en utilisant leurs informations d’identification SAML 2.0, vous devez activer SAML 2.0 pour l’authentification dans les modules complémentaires d’Office.
 
 >[!NOTE]
 >
->Cette option n’est pas disponible si l’instance Workfront de votre organisation utilise un portail SSO personnalisé.
->&#x200B;>Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
-<!--
-or is enabled with Adobe IMS-->
+>Cette option n’est pas disponible si l’instance Workfront de votre organisation utilise un portail SSO personnalisé.>
+><!--
+>or is enabled with Adobe IMS>
+>-->
+>Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
 
 ## Conditions d’accès
 

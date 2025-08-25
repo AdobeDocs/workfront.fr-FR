@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 88%
+source-wordcount: '1336'
+ht-degree: 92%
 
 ---
 
@@ -92,47 +92,39 @@ Vous pouvez générer, réinitialiser ou supprimer la clé API pour votre compt
 
    Pour supprimer la clé API : dans la section **Paramètres de la clé API**, cliquez sur **Supprimer**, puis sur **Supprimer**.
 
-## Générer une clé API pour les utilisateurs non-administrateurs—>
+## Générer une clé API pour les personnes non administratrices
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
->[!IMPORTANT]
->
->La procédure décrite dans cette section a été supprimée, car elle s’appliquait uniquement aux organisations qui n’avaient pas encore intégré Adobe Admin Console.
->
->Toutes les organisations Workfront ont désormais été intégrées à Adobe Admin Console.
-
-<!--You can generate and manage API Keys for users in roles other than Workfront administrator.
+Vous pouvez générer et gérer des clés API pour les personnes ayant un rôle autre que celui d’administrateur ou administratrice Workfront.
 
 >[!NOTE]
 >
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>Cette option n’est pas disponible si l’instance Workfront de votre organisation repose sur Adobe IMS. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
 
-1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
-
-   {{step-1-to-setup}} 
-   
-   1. Expand **System**, then click **Single Sign-on (SSO)**. 
-   1. In the **Type** field, select the type of SSO your organization uses.
-   1. With the type selected, scroll down and clear the **Enable** checkbox. 
-      ![Enable SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)  
-   1. Click **Save**.
-
-
-1. In the address bar of a browser, enter the following API call:
-
-   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
-
-   Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
-
-1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
+1. (Le cas échéant) Si votre organisation utilise la gestion des accès par authentification unique (SSO), désactivez temporairement l’option nécessitant l’authentification SSO.
 
    {{step-1-to-setup}}
-   
-   1. Expand **System**, then click **Single Sign-on (SSO)**.
-   
-   1. Select your SSO method in the **Type** drop down menu.
-   1. Check the checkbox requiring SSO authentication.-->
+
+   1. Développez **Système**, puis cliquez sur **Authentification unique (SSO)**.
+   1. Dans le champ **Type**, sélectionnez le type de SSO utilisé par votre entreprise.
+   1. Avec le type sélectionné, faites défiler l’écran vers le bas et décochez la case **Activer**.
+      ![Activer SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
+   1. Cliquer sur **Enregistrer**.
+
+
+1. Dans la barre d’adresse d’un navigateur, saisissez l’appel API suivant :
+
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**username**&amp;password=**password**&amp;method=PUT
+
+   Remplacez `<domain>` par votre nom de domaine Workfront, et le nom d’utilisateur ou d’utilisatrice et le mot de passe par les informations d’identification Workfront de la personne.
+
+1. (Le cas échéant) Activez l’option nécessitant une authentification SSO si vous l’avez désactivée à l’étape 1.
+
+   {{step-1-to-setup}}
+
+   1. Développez **Système**, puis cliquez sur **Authentification unique (SSO)**.
+
+   1. Sélectionnez votre méthode SSO dans le menu déroulant **Type**.
+   1. Cochez la case demandant l’authentification SSO.
 
 ## Configurer l’expiration des clés API
 
