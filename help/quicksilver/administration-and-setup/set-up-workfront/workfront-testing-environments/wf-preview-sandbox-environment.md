@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 89%
+source-wordcount: '1302'
+ht-degree: 93%
 
 ---
 
@@ -156,28 +156,18 @@ Pour plus d’informations sur l’authentification unique, voir [Vue d’ensemb
 
 >[!IMPORTANT]
 >
->La procédure décrite dans cette section a été supprimée, car elle s’appliquait uniquement aux organisations qui n’avaient pas encore intégré Adobe Admin Console.
+>La procédure décrite sur cette page ne s’applique qu’aux organisations qui n’ont pas encore été intégrées à l’[!DNL Adobe Admin Console]. Si votre organisation a été intégrée à l’[!DNL Adobe Admin Console], aucune action n’est nécessaire.
 >
->Toutes les organisations Workfront ont désormais été intégrées à Adobe Admin Console.
-
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the [!DNL Adobe Admin Console]. If your organization has been onboarded to the [!DNL Adobe Admin Console], no action is necessary.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Admin Console], see [Platform-based administration differences ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à l’[!DNL Adobe Admin Console], voir [Différences d’administration en fonction de la plateforme ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
-If you want to configure your Preview Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Preview Sandbox is independent from your SSO configuration in the Production environment.
+Si vous souhaitez configurer votre prévisualisation de sandbox pour qu’elle fonctionne avec une solution d’authentification unique, vous pouvez le faire en la configurant séparément de votre environnement de production. La configuration SSO dans la prévisualisation de sandbox est indépendante de votre configuration SSO dans l’environnement de production.
 
-When your Preview Sandbox refreshes (every weekend), the SSO information is not copied from your Production environment to overwrite the Preview Sandbox configuration.
+Lors de l’actualisation de votre prévisualisation de sandbox (chaque week-end), les informations SSO ne sont pas copiées depuis votre environnement de production pour écraser la configuration de la prévisualisation de sandbox.
 
-The steps for configuring single sign-on in the Preview Sandbox are similar to those for configuring it in the Production environment.
+Les étapes de la configuration de l’authentification unique dans la prévisualisation de sandbox sont similaires à celles de la configuration dans l’environnement de production.
 
-For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).-->
+Pour plus d’informations sur la configuration de [!DNL Workfront] avec l’authentification unique, voir [Vue d’ensemble de l’authentification unique dans Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Recalcul automatique des chronologies des projets
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 75%
+source-wordcount: '1299'
+ht-degree: 80%
 
 ---
 
@@ -21,22 +21,28 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->* **Vous devez créer des administrateurs système via Adobe Admin Console.**
+>* **Si votre organisation a intégré Adobe Admin Console, vous devez créer des administrateurs système via Adobe Admin Console.**
 >
 >   Pour obtenir des instructions sur la création d’administrateurs système dans Adobe Admin Console, voir [Gérer les utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->   Les administrateurs de groupe peuvent utiliser cette procédure pour créer des utilisateurs et soumettre l’utilisateur pour approbation administrative.
+>   Les administrateurs et administratrices de groupes des organisations qui ont été intégrées à Adobe Admin console peuvent utiliser cette procédure pour créer des utilisateurs et utilisatrices et les soumettre à l’approbation de l’administrateur ou de l’administratrice.
+>
+>   Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à Adobe Admin Console, consultez la section [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >* **Si votre entreprise utilise l’authentification unique (SSO)** nous vous recommandons de créer des utilisateurs et de les affecter à Workfront dans Adobe Admin Console. La création de ces utilisateurs dans Workfront est possible, mais il peut y avoir des problèmes de transfert de ces informations vers Adobe Admin Console, en fonction de la configuration d’Admin Console dans votre organisation.
->  &#x200B;>   Après avoir créé l’utilisateur dans le Adobe Admin Console, vous pouvez configurer ses informations dans Workfront, telles que l’attribution de rôles, de groupes, d’équipes et de niveaux d’accès.
+>  >   Après avoir créé l’utilisateur dans le Adobe Admin Console, vous pouvez configurer ses informations dans Workfront, telles que l’attribution de rôles, de groupes, d’équipes et de niveaux d’accès.
 >* **Si votre entreprise n’utilise pas l’authentification unique (SSO)** vous pouvez ajouter des utilisateurs qui ne sont pas administrateurs système directement dans Workfront. Vous pouvez ajouter des utilisateurs et utilisatrices dans Adobe Admin Console, mais les ajouter dans Workfront permet de définir leur niveau d’accès lors de leur création, ce qui peut vous faire gagner du temps.
 
 
 
 Vous pouvez ajouter des utilisateurs dans Adobe Workfront en créant des utilisateurs individuels à partir de zéro ou en copiant des utilisateurs existants.
 
-Pour plus d’informations sur l’importation simultanée de plusieurs utilisateurs, voir [Importer des utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
-—>
+Pour plus d’informations sur l’import simultané de plusieurs utilisateurs et utilisatrices, voir [Importer des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
+<!--
+Replace this intro with something like the following when we switch to Admin Console:
+As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
+-->
 
 ## Conditions d’accès
 
@@ -132,7 +138,7 @@ Avant d’ajouter une personne, rassemblez les informations sur elle énumérée
 
    >[!NOTE]
    >
-   >* Si vous êtes un administrateur de groupes qui ajoute un utilisateur, les options de cette étape sont **Soumettre l’utilisateur à l’approbation de l’administrateur** et **Soumettre à approbation et en démarrer un autre**. L’utilisateur est créé avec le statut Désactivé et Approbation en attente .
+   >* Si vous êtes un administrateur ou une administratrice de groupe et que vous ajoutez une personne à une organisation qui a été intégrée à Adobe Admin Console, vous disposez des options suivantes pour cette étape : **Soumettre une personne pour approbation par l’administration** et **Soumettre pour approbation et en créer une autre**. L’utilisateur est créé avec le statut Désactivé et Approbation en attente .
    > 
    >* Si l’utilisateur ne quitte pas le statut Désactivé et Approbation en attente dans les minutes qui suivent, et qu’une actualisation d’écran ne supprime pas le badge Approbation en attente , vous pouvez approuver l’utilisateur manuellement.
    >

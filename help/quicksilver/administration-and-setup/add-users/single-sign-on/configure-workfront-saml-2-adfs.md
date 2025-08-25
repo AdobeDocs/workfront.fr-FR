@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 68%
+source-wordcount: '882'
+ht-degree: 98%
 
 ---
 
@@ -19,161 +19,159 @@ ht-degree: 68%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez intégrer Workfront à une solution SAML 2.0 pour une authentification unique à l’aide d’ADFS.
 
-<!--As an Adobe Workfront administrator, you can integrate Workfront with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on while using Active Directory Federation Services (ADFS).
+Ce guide aborde la configuration d’ADFS sans approvisionnement automatique ni mappage d’attributs. Nous vous recommandons de terminer la configuration et de la tester avant de mettre en place l’approvisionnement automatique.
 
-This guide focuses on setting up ADFS without auto provisioning or attribute mappings. We recommend that you complete the setup and test it prior to setting up any auto provisioning.
+## Conditions d’accès
 
-## Access requirements
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article: 
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Enable authentication to Workfront with SAML 2.0
+## Activer l’authentification à Workfront avec SAML 2.0
 
-To enable authentication to the Workfront web application and the Workfront mobile application with SAML 2.0, complete the following sections:
+Pour activer l’authentification à l’application web Workfront et à l’application mobile Workfront avec SAML 2.0, accomplissez les sections suivantes :
 
-* [Retrieve the Workfront SSO metadata file](#retrieve-the-workfront-sso-metadata-file) 
-* [Configure Relying Party Trusts](#configure-relying-party-trusts) 
-* [Configure Claim Rules](#configure-claim-rules) 
-* [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection)
+* [Récupérer le fichier de métadonnées Workfront SSO](#retrieve-the-workfront-sso-metadata-file)
+* [Configurer les parties de confiance](#configure-relying-party-trusts)
+* [Configurer les règles de revendication](#configure-claim-rules)
+* [Charger le fichier de métadonnées et tester la connexion](#upload-the-metadata-file-and-test-the-connection)
 
-### Retrieve the Workfront SSO metadata file {#retrieve-the-workfront-sso-metadata-file}
+### Récupérer le fichier de métadonnées Workfront SSO {#retrieve-the-workfront-sso-metadata-file}
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **System** > **Single Sign-On (SSO)**.
-1. In the **Type** drop-down menu, click **SAML 2.0** to display additional information and options.  
-1. Copy the URL that displays after **Metadata URL**. 
-1. Continue to the following section, [Configure Relying Party Trusts](#configure-relying-party-trusts).
+1. Dans le panneau de gauche, cliquez sur **Système** > **Authentification unique (SSO)**.
+1. Dans le menu déroulant **Type**, cliquez sur **SAML 2.0** pour afficher des informations et des options supplémentaires.
+1. Copiez l’URL qui s’affiche après **URL de métadonnées**.
+1. Poursuivez vers la section suivante, [Configurer les parties de confiance](#configure-relying-party-trusts).
 
-### Configure Relying Party Trusts {#configure-relying-party-trusts}
+### Configurer les parties de confiance {#configure-relying-party-trusts}
 
-1. Open the **ADFS Manager** using the Windows server 2008 R2 (version may vary).
-1. Go to **Start.**
-1. Click **Administration Tools.**
-1. Click **ADFS 2.0 Management.**
-1. Select **ADFS** and expand **Trust Relationships**.
-1. Right-click **Relying Party Trusts**, then select **Add Relying Party Trust** to launch the Add Relying Party Trust Wizard.
-1. From the **Welcome Page**, select **Start**. 
-1. In the **Select Date Source** section, paste the metadata URL from Workfront.
-1. Click **Next**.
-1. Click **OK** to acknowledge the warning message.
-1. In the **Specify Display Name** section, add a **Display Name** and **Notes** to distinguish the Trust, then click **Next**.
-1. Select **Permit all user to access this relying party** (Or **None** if you want to configure this later).
-1. Click **Next**.
+1. Ouvrez le **Gestionnaire ADFS** via Windows Server 2008 R2 (la version peut varier).
+1. Accédez à **Démarrer.**
+1. Cliquez sur **Outils d’administration.**
+1. Cliquez sur **Gestion d’ADFS 2.0.**
+1. Sélectionnez **ADFS** et développez **Relations de confiance**.
+1. Cliquez avec le bouton droit de la souris sur **Parties de confiance**, puis sélectionnez **Ajouter une partie de confiance** pour lancer l’assistant d’ajout de partie de confiance.
+1. À partir de la **Page d’accueil**, sélectionnez **Démarrer**.
+1. Dans la section **Sélectionner une source de données**, collez l’URL de métadonnées de Workfront.
+1. Cliquez sur **Suivant**.
+1. Cliquez sur **OK** pour confirmer le message d’avertissement.
+1. Dans la section **Spécifier le nom d’affichage**, ajoutez un **Nom d’affichage** et des **Notes** pour pouvoir distinguer la partie de confiance, puis cliquez sur **Suivant**.
+1. Sélectionnez **Autoriser tous les utilisateurs et utilisatrices à accéder à cette partie de confiance** (ou **Aucun** si vous souhaitez configurer cette option ultérieurement).
+1. Cliquez sur **Suivant**.
 
-   This takes you to the **Ready to Add Trust** section.
+   Vous accédez alors à la section **Partie de confiance prête à être ajoutée**.
 
-1. Continue to the following section [Configure Claim Rules](#configure-claim-rules).
+1. Poursuivez vers la section suivante [Configurer les règles de revendication](#configure-claim-rules).
 
-### Configure Claim Rules {#configure-claim-rules}
+### Configurer les règles de revendication {#configure-claim-rules}
 
-1. Click **Next** in the **Ready to Add Trust** section, then ensure that the **Open the Edit Claim Rules dialog box** option is selected.
-    
-    This will allow you to edit Claim Rules in a future step.
-    
-1. Click **Close**.
-1. Click **Add Rule.**
-1. Select **Send LDAP Attribute as Claims**.    
-1. Click **Next** to display the **Configure Claim Rule** step.  
-1. Specify the following minimum requirements to configure the claim rule: (This will go in the **Federation ID** on the user setup and is used to distinguish who is logging in.)
-    
+1. Cliquez sur **Suivant** dans la section **Partie de confiance prête à être ajoutée**, puis vérifiez que l’option **Ouvrir la boîte de dialogue Modifier les règles de revendication** est sélectionnée.
+
+   Cela vous permet de modifier les règles de revendication lors d’une étape ultérieure.
+
+1. Cliquez sur **Fermer**.
+1. Cliquez sur **Ajouter une règle.**
+1. Sélectionnez **Envoyer les attributs LDAP en tant que revendications**.
+1. Cliquez sur **Suivant** pour afficher l’étape **Configurer une règle de revendication**.
+1. Spécifiez les conditions minimales requises suivantes pour configurer la règle de revendication : (celles-ci vont dans l’**ID de fédération** dans la configuration de l’utilisateur ou de l’utilisatrice et sont utilisées pour identifier la personne qui se connecte).
+
 
    <table >                
       <tbody>
             <tr>
-               <td>Claim rule name
+               <td>Nom de la règle de revendication
                </td>
-               <td>Specify a name for the claim rule. For example, "Workfront."</td>
+               <td>Spécifiez un nom pour la règle de revendication. Par exemple, « Workfront ».</td>
             </tr>
             <tr>
-               <td>Attribute store</td>
-               <td >Select <b>Active Directory</b> from the drop-down menu.</td>
+               <td>Magasin d’attributs</td>
+               <td >Sélectionnez <b>Active Directory</b> dans le menu déroulant.</td>
             </tr>
             <tr>
-               <td>LDAP Attribute</td>
-               <td>This can be any type of attribute. We recommend using <b>SAM-Account-Name</b> for this attribute.</td>
+               <td>Attribut LDAP</td>
+               <td>Il peut s’agir de n’importe quel type d’attribut. Nous vous recommandons d’utiliser <b>SAM-Account-Name</b> pour cet attribut.</td>
             </tr>
             <tr>
-               <td>Outgoing Claim Type</td>
-               <td>You must select <b>Name ID</b> as the outgoing claim type</td>
+               <td>Type de revendication sortante</td>
+               <td>Vous devez sélectionner <b>Identifiant de nom</b> comme type de revendication sortante.</td>
             </tr>
       </tbody>
    </table>
 
-1. (Optional) In order to establish auto provisioning, add the following additional claims in both the LDAP Attribute and Outgoing Claim Type:
-    
-    * Given Name
-    * Surname
-    * E-Mail Address
+1. (Facultatif) Afin de mettre en place l’approvisionnement automatique, ajoutez les revendications supplémentaires suivantes dans l’attribut LDAP et dans le type de revendication sortante :
 
-1. Click **Finish**, then click **OK** on the next screen.
-1. Right-click the new **Relying Party Trust**, then select **Properties**.    
-1. Select the**Advanced Tab**. And under **Secure Hash Algorithm** select SHA-1 or SHA-256.
+   * Prénom
+   * Nom
+   * Adresse e-mail
 
-   >[!NOTE]
-   >
-   >The option that you select under Secure Hash Algorithm must match the Secure Hash Algorithm field in Workfront under Setup > System > Single Sign-ON (SSO).
-
-1. Continue to the following section [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection).
-
-### Upload the metadata file and test the connection {#upload-the-metadata-file-and-test-the-connection}
-
-1. Open a browser and navigate to `https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml` .
-
-   This should download a Metadata file FederationMetadata.xml file.
-
-1. Click **Choose File** under **Populate fields from Identity Provider Metadata**, and select the **FederationMetadata.xml** file.
-
-1. (Optional) If the certificate information did not populate with the metadata file, you can upload a file separately. Select **Choose File** in the **Certificate** section.
-
-1. Click **Test Connection**. If set up correctly, you should see a page similar to the one shown below:
-
-   ![SAML 2 success message](assets/success-saml-2.png)
+1. Cliquez sur **Terminé**, puis sur **OK** sur l’écran suivant.
+1. Cliquez avec le bouton droit de la souris sur la nouvelle **Partie de confiance**, puis sélectionnez **Propriétés**.
+1. Sélectionnez l’**onglet Avancé**. Puis, dans **Algorithme de hachage sécurisé**, sélectionnez SHA-1 ou SHA-256.
 
    >[!NOTE]
    >
-   >If you want to set up attribute mapping, ensure that you copy the attributes from the Test Connection into the Directory Attribute. For more information, see Mapping User Attributes.
+   >L’option que vous sélectionnez pour l’algorithme de hachage sécurisé doit correspondre au champ Algorithme de hachage sécurisé dans Workfront situé dans Configuration > Système > Authentification unique (SSO).
 
-1. Select **Admin Exemption** to allow Workfront administrators to log in using Workfront credentials with the bypass url.
+1. Poursuivez vers la section suivante [Charger le fichier de métadonnées et tester la connexion](#upload-the-metadata-file-and-test-the-connection).
 
-   Bookmarks pointing to `<yourdomain>`.my.workfront.com/login bypass the redirect.
+### Charger le fichier de métadonnées et tester la connexion {#upload-the-metadata-file-and-test-the-connection}
 
-1. Select the **Enable** box to enable the configuration.
-1. Click **Save**.
+1. Ouvrez un navigateur et accédez à `https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml`.
 
-## About updating users for SSO
+   Cela doit lancer le téléchargement d’un fichier de métadonnées nommé FederationMetadata.xml.
 
-Following this guide, the **SSO Username** will be their **Active Directory Username**.
+1. Cliquez sur **Choisir un fichier** dans **Renseigner les champs à partir des métadonnées du fournisseur d’identité** et sélectionnez le fichier **FederationMetadata.xml**.
 
-As a Workfront administrator, you can bulk update users for SSO. For more information about updating users for SSO, see [Update users for single sign-on](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+1. (Facultatif) Si les informations relatives au certificat n’ont pas été renseignées à l’aide du fichier de métadonnées, vous pouvez charger un autre fichier séparément. Sélectionnez **Choisir un fichier** dans la section **Certificat**.
 
-As a Workfront administrator, you can also manually assign a Federation ID editing the user's profile and completing the Federation ID field. For more information about editing a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+1. Cliquez sur **Tester la connexion**. Si la configuration est correcte, vous devez voir apparaître une page similaire à celle présentée ci-dessous :
+
+   ![Message de réussite SAML 2](assets/success-saml-2.png)
+
+   >[!NOTE]
+   >
+   >Si vous souhaitez mettre en place un mappage d’attributs, veillez à copier les attributs de la connexion de test dans le répertoire Attributs. Pour plus d’informations, voir Mappage des attributs des utilisateurs et des utilisatrices.
+
+1. Sélectionnez **Exception pour les administrateurs et les administratrices** pour permettre aux administrateurs et aux administratrices Workfront de se connecter à l’aide des informations d’identification de Workfront via l’URL de contournement.
+
+   Les marque-pages qui dirigent vers `<yourdomain>`.my.workfront.com/login contournent la redirection.
+
+1. Cochez la case **Activer** pour activer la configuration.
+1. Cliquer sur **Enregistrer**.
+
+## À propos de la mise à jour des utilisateurs et des utilisatrices pour l’authentification unique
+
+En suivant ce guide, le **nom d’utilisateur ou d’utilisatrice pour l’authentification unique** devient le **nom d’utilisateur ou d’utilisatrice pour Active Directory**.
+
+En tant qu’administrateur ou administratrice Workfront, vous pouvez mettre à jour en masse les utilisateurs et les utilisatrices pour l’authentification unique. Pour plus d’informations sur la mise à jour des utilisateurs et des utilisatrices pour l’authentification unique, voir [Mettre à jour les utilisateurs et les utilisatrices pour l’authentification unique](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+
+En tant qu’administrateur ou administratrice Workfront, vous pouvez également attribuer manuellement un identifiant de fédération en modifiant le profil de l’utilisateur ou de l’utilisatrice et en renseignant le champ ID de fédération. Pour plus d’informations sur la modification d’un utilisateur ou d’une utilisatrice, voir [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 >[!NOTE]
 >
->When editing users' profiles to include a Federation ID, selecting **Only Allow SAML 2.0 Authentication** removes the ability to log in to Workfront using the bypass url (`<yourdomain>`.my.workfront.com/login).-->
+>Lorsque vous modifiez des profils d’utilisateurs et d’utilisatrices pour inclure un ID de fédération, sélectionner **Autoriser uniquement l’authentification SAML 2.0** supprime la possibilité de se connecter à Workfront en utilisant l’URL de contournement (`<yourdomain>`.my.workfront.com/login).
