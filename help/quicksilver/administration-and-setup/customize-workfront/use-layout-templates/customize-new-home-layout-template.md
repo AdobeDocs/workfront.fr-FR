@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 39%
+source-wordcount: '844'
+ht-degree: 38%
 
 ---
 
@@ -130,14 +130,12 @@ Pour personnaliser l’Accueil à l’aide d’un modèle de mise en page :
       <p> Vous pouvez :</p>
       <ul>
       <li><p>Sélectionnez et classez les filtres, colonnes ou groupes disponibles pour les utilisateurs en cochant la case en regard des options de la liste. Les options non cochées ne s’affichent pas pour les utilisateurs et utilisatrices.</p></li>
-      <li> <p>Faites glisser les options de la liste pour définir un ordre.</p></li>
       <p>
 
    >[!IMPORTANT]
    >
    >* Les options Filtre, Colonnes et Groupe sont liées aux options de personnalisation de la liste dans le modèle de mise en page. Les modifications apportées ici s’appliqueront également à ces paramètres.
    >* Les utilisateurs doivent au moins disposer d’un accès de type Créer aux vues pour que la configuration des colonnes de l’administrateur s’applique correctement à leurs pages d’accueil.
-
    </p>
       <li><p>Définissez un filtre ou un groupe par défaut pour le widget, en pointant sur une option et en cliquant sur <b>Définir comme valeur par défaut</b>. La valeur par défaut actuelle affiche un badge bleu <b>Default</b> à sa droite.</p></li>
       <li><p>Ajoutez un filtre, une colonne ou un groupe existant à la liste des options disponibles en cliquant sur le bouton représentant un signe plus au bas de chaque liste pour ajouter une option à cette liste. Notez que seuls les filtres, champs (pour les colonnes) ou groupes existants peuvent être ajoutés de cette manière.</p></li>

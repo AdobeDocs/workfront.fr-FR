@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '319'
 ht-degree: 12%
 
 ---
@@ -54,7 +54,11 @@ Pour plus d’informations, voir [Utiliser la zone Mes mises à jour](/help/quic
 >* Version rapide de production : 12 juin 2025
 >* Production pour tous les clients : 17 juillet 2025
 
-Nous avons mis à jour le widget Mes approbations dans l’accueil pour trier par échéance (décroissant) par défaut. Cela permet aux approbations les plus urgentes d’apparaître en haut de la liste.
+Nous avons mis à jour le widget Mes approbations dans l’accueil pour trier par date limite (ascendante) par défaut. Cela permet aux approbations les plus urgentes d’apparaître en haut de la liste. Les validations sont classées de la manière suivante :
+
+* Échéances échues
+* Prochaines échéances
+* Éléments sans échéance
 
 Actuellement, seules les approbations d’épreuve peuvent être triées par échéance dans le widget Mes approbations .
 

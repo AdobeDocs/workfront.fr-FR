@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 401d6a25cb23ebd28960ea866e7308142107a891
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '1879'
 ht-degree: 17%
 
 ---
@@ -160,7 +160,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Le widget Mes approbations trie désormais automatiquement par date limite </a><p></p>
-            <p>Nous avons mis à jour le widget Mes approbations dans l’accueil pour trier par échéance (décroissant) par défaut. Cela permet aux approbations les plus urgentes d’apparaître en haut de la liste. </p><p><b>Remarque :</b> actuellement, seules les approbations d’épreuve peuvent être triées par échéance dans le widget Mes approbations.</p>
+            <p>Nous avons mis à jour le widget Mes approbations dans l’accueil pour trier par date limite (ascendante) par défaut. Cela permet aux approbations les plus urgentes d’apparaître en haut de la liste. Les validations sont classées de la manière suivante :</p>
+            <ul>
+                <li>Échéances échues</li>
+                <li>Prochaines échéances</li>
+                <li>Éléments sans échéance</li>
+            </ul>
+            <p><b>Remarque :</b> actuellement, seules les approbations d’épreuve peuvent être triées par échéance dans le widget Mes approbations.</p>
         </td>
         <td>29 mai 2025</td>
         <td>vendredi 12 juin 2025</td>
@@ -381,7 +387,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

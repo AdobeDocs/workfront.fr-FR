@@ -6,10 +6,10 @@ description: Vous pouvez choisir parmi plusieurs widgets pour personnaliser le c
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 51%
+source-wordcount: '1111'
+ht-degree: 48%
 
 ---
 
@@ -95,7 +95,7 @@ Pour ajouter un widget :
    ![Bouton Personnaliser](assets/customize-button.png)
 1. Faites défiler l’écran jusqu’à la section **Widgets**, puis sélectionnez les widgets à ajouter.
 
-+++ Développez pour afficher une liste détaillée des widgets disponibles
+   +++ Développez pour afficher une liste détaillée des widgets disponibles
 
    * **Mes tâches**\
        Affiche toutes les tâches, événements et demandes qui vous ont été affectés au même endroit. Vous pouvez cliquer sur le bouton Travailler sur ce projet pour commencer à travailler sur un élément ou sur le bouton Terminé pour le marquer comme terminé. Vous pouvez également mettre à jour des informations (statut, condition, pourcentage terminé) sur les tâches et les problèmes, consigner des heures et ajouter des mises à jour à partir du widget Mon travail.
@@ -119,7 +119,10 @@ Pour ajouter un widget :
        Affiche toutes les demandes en attente classées par équipe pour les équipes dont vous faites partie, ainsi que des boutons permettant d’attribuer directement une demande à un utilisateur ou à une utilisatrice ou d’y travailler soi-même.
 
    * **Mes approbations**\
-       Affiche toutes les approbations affectées ou déléguées en attente, un bouton pour déléguer des approbations et des boutons pour prendre des décisions d’approbation directement dans le widget.
+       Affiche toutes vos approbations affectées ou déléguées en attente, un bouton pour déléguer les approbations et des boutons pour prendre des décisions d’approbation directement dans le widget. Les validations sont classées de la manière suivante :
+      * Échéances échues
+      * Prochaines échéances
+      * Éléments sans échéance
 
    * **Mesures d’approbation des documents**\
            Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des vues de liste des approbations en attente et en retard. Pour utiliser ce widget, vous devez avoir activé [Approbations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
@@ -134,7 +137,7 @@ Pour ajouter un widget :
      >
      >Vous devez disposer des autorisations nécessaires pour créer des tâches dans le widget Tâches, et seules les tâches personnelles saisies par l’utilisateur actuel s’affichent.
 
-+++
+   +++
 
 1. Cliquez sur **Ajouter un widget**.
 
