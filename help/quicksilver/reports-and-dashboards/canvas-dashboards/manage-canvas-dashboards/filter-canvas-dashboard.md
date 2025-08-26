@@ -5,12 +5,10 @@ title: Filtrer un tableau de bord de zone de travail
 description: Vous pouvez appliquer un filtre à un tableau de bord de la zone de travail après sa création.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 11%
+source-wordcount: '806'
+ht-degree: 8%
 
 ---
 
@@ -20,9 +18,9 @@ ht-degree: 11%
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Vous pouvez appliquer un filtre au tableau de bord qui contient des invites __________
+Vous pouvez appliquer un filtre à un tableau de bord Zone de travail qui contient des invites. Une invite fonctionne comme un modificateur de filtre qui applique des critères de filtrage supplémentaires afin que vous puissiez réduire encore davantage vos résultats. Ces invites peuvent être modifiées à chaque application du filtre, ce qui permet d&#39;ajuster les résultats affichés sans avoir à modifier les principaux critères de filtre du tableau de bord ou de chaque rapport.
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,6 +67,26 @@ Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/he
 
 ## Filtrer un tableau de bord
 
+Pour filtrer un tableau de bord, procédez comme suit dans l’ordre indiqué :
+
+* [Partie 1 : création d’un filtre de tableau de bord](#part-1-create-a-dashboard-filter)
+* [Partie 2 : créer une invite de tableau de bord](#part-2-define-a-dashboard-prompt)
+* [Partie 3 : appliquer une invite de tableau de bord](#step-3-apply-a-dashboard-prompt)
+
+>[!NOTE]
+>
+>Le filtre de tableau de bord s’applique à tous les rapports pour lesquels les filtres au niveau du tableau de bord ne sont pas désactivés.  Vous pouvez exclure des rapports individuels de l’application des filtres au niveau du tableau de bord en développant le menu d’actions pour chaque rapport et en sélectionnant l’option **Désactiver les filtres**.
+
+
+### Partie 1 : création d’un filtre de tableau de bord
+
+Un filtre de tableau de bord permet d’appliquer un filtre commun à tous les rapports disponibles sur un tableau de bord sans avoir à modifier les filtres de chaque rapport individuel.
+
+>[!NOTE]
+>
+>Ces filtres ne peuvent être configurés que par un utilisateur disposant d’un accès de niveau Gérer au tableau de bord.
+
+
 {{step1-to-dashboards}}
 
 1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
@@ -85,9 +103,22 @@ Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/he
 
       ![icône Modifier](assets/edit-icon.png)
 
-   1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre.
+   1. Cliquez sur **Ajouter une condition** puis ajoutez les informations suivantes :
+      * Sélectionnez un champ en fonction duquel effectuer le filtrage.
+      * Sélectionnez une option (ou un modificateur de filtre) pour définir le type de condition auquel le champ doit répondre.
 
    1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
+
+1. Passez à [Partie 2 : créer une invite de tableau de bord](#part-2-define-a-dashboard-prompt).
+
+
+### Partie 2 : définir une invite de tableau de bord
+
+Une invite de tableau de bord permet aux utilisateurs et utilisatrices d’appliquer des filtres personnalisés supplémentaires aux rapports disponibles sur le tableau de bord.
+
+>[!NOTE]
+>
+>Les options d’invite du tableau de bord ne peuvent être configurées que par un utilisateur disposant de l’autorisation Gérer l’accès au tableau de bord.
 
 1. Pour ajouter une invite, procédez comme suit :
 
@@ -95,7 +126,7 @@ Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/he
 
    1. Saisissez un libellé dans le champ **Personnaliser le libellé**.
 
-   1. Cliquez sur **Sélectionner un champ**, puis spécifiez le champ à ________.
+   1. Sélectionnez le champ sur lequel vous souhaitez baser l’invite en saisissant le nom du champ, puis en le sélectionnant lorsqu’il apparaît dans la liste. 
 
 1. Pour ajouter une invite personnalisée, procédez comme suit :
 
@@ -105,10 +136,34 @@ Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/he
 
    1. Cliquez sur **Ajouter une nouvelle option**.
 
-   1. Saisissez _____ dans le champ **Valeur de l’option**.
+   1. Saisissez le nom de l’invite dans le champ **Valeur de l’option**.
 
    1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre.
+
+      >[!NOTE]
+      >
+      >La condition d’une invite personnalisée ne peut être modifiée qu’en mode texte. Cela permet d’appliquer plusieurs conditions dans un seul champ.
+
 
    1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
 
 1. Cliquez sur **Enregistrer** pour appliquer le filtre au tableau de bord.
+
+1. Passez à [Partie 3 : appliquer une invite de tableau de bord](#step-3-apply-a-dashboard-prompt).
+
+### Étape 3 : appliquer une invite de tableau de bord
+
+Tous les utilisateurs ayant accès à un tableau de bord peuvent appliquer une invite de tableau de bord à un tableau de bord de la zone de travail une fois le filtre et les invites créés.
+
+{{step1-to-dashboards}}
+
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
+
+1. Sur la page **Tableaux de bord de la zone de travail**, sélectionnez le tableau de bord auquel vous souhaitez appliquer l’invite.
+
+1. Dans le coin supérieur gauche de la page des détails du tableau de bord, cliquez sur **Filtres**. Le panneau latéral Filtres s’ouvre.
+
+1. Dans la section **Afficher les enregistrements où...**, choisissez une condition pour une ou toutes les invites affichées. L’invite est appliquée et une balise **Filtres de tableau de bord appliqués** s’affiche dans le coin du widget de rapport.
+   ![Sélectionner la condition](assets/prompts-list.png)
+
+1. Cliquez sur l’icône **Fermer** ![Icône Fermer](assets/close-icon.png) dans le coin supérieur droit pour masquer le panneau.

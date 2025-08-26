@@ -7,10 +7,10 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
-source-git-commit: d9b99257041a98eca7bb0e8c38861cbdf96594bd
+source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 14%
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
@@ -24,6 +24,8 @@ Cette section contient les articles suivants :
 
 * [Partager un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
 * [Organiser les rapports dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+* [Filtrer un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
 * [Modification du nom ou de la description d’un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
 * [Suppression d’un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+* [Ajout d’un tableau de bord Zone de travail à un modèle de disposition](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template)
 
