@@ -6,14 +6,23 @@ description: Lorsqu’une tâche d’un projet nécessite plus d’efforts que p
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 95%
+source-wordcount: '1198'
+ht-degree: 84%
 
 ---
 
 # Convertir une tâche en projet
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div>-->
 
 Lorsqu’une tâche d’un projet nécessite plus d’efforts que prévu, vous pouvez la convertir en projet.
 
@@ -166,7 +175,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Cliquez sur l’icône **Plus** ![](assets/more-icon.png), puis **Convertir en projet**.
 1. Choisissez l’une des options suivantes :
 
-   * **Nouveau projet**
+   * **Nouveau projet**, pour créer un projet sans utiliser de modèle
    * Un modèle dans la section **Sélectionner à partir des modèles** 
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
@@ -174,15 +183,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Cliquez sur **Continuer** dans la notification qui s’affiche.
 1. Dans la boîte **Convertir en projet**, indiquez ce qui suit :
 
-   * **Nom** : attribuez un nom à votre projet. Le nom par défaut est le nom de la tâche.
-   * (Facultatif) **Description** : décrivez l’objectif de ce projet.
-   * (Facultatif et le cas échéant) Si vous avez choisi de créer un projet à partir d’un modèle, mettez à jour les champs disponibles dans la boîte de dialogue **Convertir en projet**.
+   * **Nom** : attribuez un nom à votre projet. Le nom par défaut est le nom de la tâche. Champ obligatoire.
+   * **Description** : Décrivez l&#39;objectif de ce projet.
+   * (Conditionnel) Si vous avez choisi de créer un projet à partir d’un modèle, mettez à jour les champs disponibles dans la zone **Convertir en projet**.
 
      Pour plus d’informations sur la modification des champs des projets, voir [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     >Pour mettre à jour les champs de la section Finances dans la boîte de dialogue Convertir en projet, vous devez avoir un accès Modifier aux données financières dans votre niveau d’accès. Si votre niveau d’accès vous donne un accès Afficher aux données financières, toutes les informations financières du modèle sont transférées dans le nouveau projet et vous ne pouvez pas les modifier pendant que vous convertissez le problème. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) et [Partager un modèle](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Pour mettre à jour les champs de la section Finances de la zone Convertir en projet , vous devez disposer d’un accès en modification aux données financières dans votre niveau d’accès. Si vous avez un accès en lecture seule aux données financières dans votre niveau d&#39;accès, toutes les informations financières du modèle sont transférées vers le nouveau projet et vous ne pouvez pas les modifier pendant la conversion de l&#39;événement. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) et [Partager un modèle](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * (Facultatif) Ajoutez des **formulaires personnalisés** au nouveau projet.
 
@@ -191,6 +200,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
      >Si un formulaire personnalisé multi-objets joint à la tâche est configuré pour être utilisé à la fois avec les tâches et les projets, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion.
      >
      >
-     >Si vous utilisez un modèle pour la conversion et qu&#39;un formulaire personnalisé joint au modèle contient un champ personnalisé qui se trouve également dans un formulaire personnalisé joint à la tâche, la valeur du champ de la tâche est utilisée pour le nouveau projet. Cependant, si le champ personnalisé est vide dans la tâche, la valeur du modèle est utilisée.
+     >Si vous utilisez un modèle pour la conversion et qu&#39;un formulaire personnalisé joint au modèle contient un champ personnalisé qui se trouve également dans un formulaire personnalisé joint à la tâche, la valeur du champ de la tâche est utilisée pour le nouveau projet. Cependant, si le champ personnalisé est vide sur la tâche, la valeur du modèle est utilisée.
 
-1. Cliquez sur **Enregistrer les modifications**.
+1. Cliquez sur **Enregistrer les modifications** <!--<span class="preview">or **Convert to Project**</span>-->.
