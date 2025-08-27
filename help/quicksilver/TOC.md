@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
+source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
 workflow-type: tm+mt
 source-wordcount: '13461'
 ht-degree: 85%
@@ -1527,7 +1527,7 @@ ht-degree: 85%
          * [Filtrer un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
          * [Modification du nom ou de la description d’un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
          * [Suppression d’un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
-         * [Ajout d’un tableau de bord Zone de travail à un modèle de disposition](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template)
+         * [Ajout d’un tableau de bord Zone de travail à un modèle de disposition](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
       * Gérer les rapports {#manage-reports}
          * [Gérer les rapports : index des articles](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
          * [Modification d’un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
