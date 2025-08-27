@@ -6,10 +6,10 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 78%
+source-wordcount: '2841'
+ht-degree: 77%
 
 ---
 
@@ -17,9 +17,17 @@ ht-degree: 78%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
+<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
+</div>
+-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Le travail prévu est représenté dans Adobe Workfront par des projets et des tâches. Cependant, il se peut que vous travailliez dans un environnement où du travail non prévu, sous forme de demandes, peut arriver à tout moment. Workfront fournit un workflow permettant de répondre à ce type d’environnement grâce à l’utilisation de files d’attente des demandes.
 
@@ -50,6 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <col> 
  <tbody> 
+ <tbody> 
   <tr> 
    <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
@@ -64,6 +73,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux problèmes</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Produit</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Vous devez disposer d’Adobe Workfront Planning pour afficher les demandes Planning ou les formulaires de demande</td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,18 +149,20 @@ Pour créer une demande dans l’application web Workfront :
 
 1. (Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning et que vous vous trouvez dans l’environnement de production, la zone **Nouvelle demande** affiche les informations suivantes </span>
 
-   * Les 6 dernières files d’attente de demandes Workfront consultées et les formulaires de demandes Planning s’affichent dans la section Récent .
-   * 50 files d’attente de demandes Workfront supplémentaires et les formulaires de demandes Planning s’affichent par ordre alphabétique dans la section **Tous les formulaires de demandes**. Vous pouvez rechercher une file d’attente de demandes qui ne s’affiche pas par défaut.
-
-   ![Nouvelle zone de demande avec workflow unifié pour la planification des demandes](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
-
-   Cliquez sur l’une des cartes de file d’attente des demandes de Workfront ou recherchez-en une, puis cliquez dessus lorsqu’elle s’affiche dans la liste.
-1. (Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning et que vous vous trouvez dans l’environnement de prévisualisation, la zone **Nouvelle demande** affiche les informations suivantes :
-
    <ul><li>Les 6 dernières files d’attente de demandes Workfront consultées et les formulaires de demandes Planning s’affichent dans la section Récent . </li>
     <li>Section Tous les formulaires de demande Workfront et Planning supplémentaires <b>Tous les formulaires de demande</b>. Vous pouvez rechercher des formulaires de demande qui ne s’affichent pas par défaut. </li>
     <li>Tous les chemins supplémentaires des files d'attente des demandes de Workfront et Planning s'affichent dans la section <b>Tous les chemins des demandes</b>. Vous pouvez rechercher une file d’attente de demandes qui ne s’affiche pas par défaut.</li></ul>
    Cliquez sur l’un des chemins ou formulaires de file d’attente des demandes de Workfront, ou recherchez-en un, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. <span class="preview">(Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning, sélectionnez l’un des chemins d’accès ou formulaires de file d’attente des demandes Workfront, ou cliquez sur la barre de recherche. </span>
+
+   <span class="preview">Lorsque vous cliquez sur la barre de recherche, une liste déroulante s’affiche, affichant d’abord les files d’attente et les formulaires les plus récemment utilisés. Sélectionnez-en un dans la liste ou commencez à taper et sélectionnez la file d’attente ou la liste lorsqu’elle apparaît.</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">Tenez compte des points suivants concernant la nouvelle expérience de demande actuellement disponible dans la Prévisualisation :</span>
+   >* <span class="preview">La liste comprend les files d’attente des demandes de Workfront et les formulaires de demande de Workfront Planning.</span>
+   >* <span class="preview">Vous pouvez filtrer la liste par type d’objet.</span>
+   >* <span class="preview">Pour afficher uniquement les files d’attente des demandes Workfront, filtrez les types d’objets `Issue`.</span>
 
 1. (Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning, sélectionnez vos groupes de rubriques et rubriques de file d’attente et continuez à mettre à jour le formulaire.
 

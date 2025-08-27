@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2047'
 ht-degree: 4%
 
 ---
@@ -30,9 +30,10 @@ Vous pouvez envoyer une demande Workfront Planning à partir des zones suivantes
 
 * Dans la zone Demandes de Workfront.
 * D’un lien direct vers le formulaire de demande qui a été partagé.
-
-  Cet article décrit comment envoyer une demande d’ajout de nouveaux enregistrements à un type d’enregistrement à partir de la zone des Demandes de Workfront ou d’un lien partagé.
 * Sur la page Type d’enregistrement , lorsque vous ajoutez ou demandez un nouvel enregistrement. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+
+Cet article décrit comment envoyer une demande d’ajout de nouveaux enregistrements à un type d’enregistrement à partir de la zone des Demandes de Workfront ou d’un lien partagé.
+
 
 Les utilisateurs de Workfront et les utilisateurs externes peuvent envoyer des demandes aux types d&#39;enregistrements Planning et créer des enregistrements. <!--double check on the external users-->
 
@@ -160,7 +161,9 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >* Vous avez accès à l’affichage d’au moins un espace de travail.
    >
 
-1. Cliquez sur **Nouvelle demande**.
+<!--Production-->
+
+1. Dans l’environnement de production, cliquez sur **Nouvelle demande**.
 
    <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
@@ -169,12 +172,15 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    * Les 6 dernières files d’attente de demandes Workfront consultées et les formulaires de demandes Planning s’affichent dans la section Récent .
    * 50 files d’attente de demandes Workfront supplémentaires et les formulaires de demandes Planning s’affichent par ordre alphabétique dans la section **Tous les formulaires de demandes**. Vous pouvez rechercher une file d’attente de demandes qui ne s’affiche pas par défaut.
 
-1. Utilisez l’une des méthodes suivantes :
+1. Dans l’environnement de production, effectuez l’une des opérations suivantes :
 
    * Sélectionnez les formulaires de demande Planning dans les sections Formulaires récents ou Tous les formulaires de demande
    * Commencez à saisir le nom d&#39;un formulaire de demande Planning dans la zone de recherche, puis cliquez sur la carte lorsqu&#39;elle s&#39;affiche dans la liste.
 
    Le formulaire de demande s’ouvre.
+
+<!-- Put preview section here-->
+1. <span class="preview">Dans l’environnement Aperçu, sélectionnez un formulaire de demande ou une file d’attente dans la zone Formulaires de demande récemment consultés, ou commencez à saisir le nom du formulaire ou de la file d’attente dans la liste, puis sélectionnez-le lorsqu’il apparaît.
 
 1. Mettez à jour les champs disponibles dans le formulaire de demande. Les champs avec un astérisque rouge sont obligatoires.
 1. Cliquez sur **Soumettre**.

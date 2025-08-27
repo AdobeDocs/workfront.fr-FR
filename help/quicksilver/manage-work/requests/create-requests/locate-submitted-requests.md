@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 85%
+source-wordcount: '978'
+ht-degree: 84%
 
 ---
 
@@ -65,6 +65,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   <tr>
    <td role="rowheader">Autorisations d’objet</td> 
    <td><p>Autorisations d’affichage ou supérieures pour les requêtes</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Produit</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Vous devez disposer d’Adobe Workfront Planning pour afficher les demandes Planning ou les formulaires de demande</td> 
   </tr> 
  </tbody> 
 </table>
