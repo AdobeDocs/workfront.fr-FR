@@ -1,0 +1,163 @@
+---
+navigation-topic: get-started-with-workfront
+title: Utiliser des listes améliorées
+description: Les listes améliorées utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard
+author: Lisa
+feature: Get Started with Workfront
+source-git-commit: 8e88db186c574ea57dd609301b816d57636b125b
+workflow-type: tm+mt
+source-wordcount: '1038'
+ht-degree: 7%
+
+---
+
+# Utiliser des listes améliorées
+
+{{preview-fast-release-general}}
+
+Des listes améliorées sont disponibles dans certaines parties d’Adobe Workfront. Ces listes utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard.
+
+Pour plus d’informations sur les listes standard, voir [Prise en main des listes dans Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+
+>[!NOTE]
+>
+>Chaque liste améliorée peut être configurée différemment pour vous aider à afficher les données dont vous avez besoin. Chaque liste n’utilise pas toutes les fonctionnalités décrites dans cet article. En outre, certaines listes peuvent comporter des fonctionnalités spécifiques qui s’appliquent uniquement à cette liste.
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+<table style="table-layout:auto">
+ <col> 
+ <col>
+ <tbody> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
+  </tr> 
+  <tr> 
+   <td>Licence Adobe Workfront</td> 
+   <td>
+   <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p></td>
+  </tr>
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+## Objets utilisant des listes améliorées
+
+Vous trouverez ci-dessous certains types de listes d’objets Workfront qui utilisent le format de liste amélioré et certaines des zones où elles s’affichent par défaut lorsque vous disposez des droits pour afficher l’objet.
+
+>[!NOTE]
+>
+>Cette liste n’est pas exhaustive. Chacune de ces listes d’objets peut également apparaître dans un rapport ou un tableau de bord. Par exemple, un rapport de projet ou un tableau de bord contenant un rapport de projet affiche également une liste de projets.
+
+| Liste Workfront | Emplacement de la liste d’objets |
+|--- |--- |
+| Priorités | <ul><li>Accueil > sélectionnez l’icône Priorités dans le menu de gauche</li><li>Menu principal > Priorités</li></ul> |
+| Liste des requêtes | <ul><li>Demandes (nouvelle expérience uniquement)</li><li>Widget Mes demandes sur l’Accueil</li></ul> |
+| Liste des taux de change | <ul><li>Configuration > Préférences du projet > Taux de change</li></ul> |
+
+## Ajout et modification d’éléments dans une liste améliorée
+
+Selon la configuration de la liste améliorée, il peut y avoir deux façons d’ajouter un élément à la liste :
+
+* Cliquez sur un bouton au-dessus de la liste. Cette option ouvre une boîte de dialogue dans laquelle vous saisissez des informations et les enregistrez.
+* Cliquez sur **Nouvelle ligne** au bas de la liste. Cette option ajoute une nouvelle ligne au tableau et vous saisissez des informations dans chaque cellule. Si une cellule est limitée à un jeu de données spécifique (tel qu’un nom de devise), vous pouvez être invité à effectuer une sélection dans une liste ou à rechercher le nom.
+
+Pour modifier un élément de la liste, double-cliquez dans la cellule à modifier et tapez les informations. Certaines cellules peuvent être en lecture seule.
+
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
+
+## Utiliser la barre d’actions et le menu Plus dans une liste améliorée
+
+Lorsque vous cochez une case en regard d’un élément de la liste améliorée, la barre d’actions s’affiche en bas de l’écran et indique les actions que vous pouvez effectuer sur l’élément. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
+
+Cliquez sur un bouton de la barre d’actions pour effectuer cette action, par exemple afficher l’élément de liste, le supprimer ou en faire l’élément par défaut.
+
+Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
+
+![ Exemple de barre d’actions ](assets/glist-action-bar-exchange-rates.png)
+
+Le menu **Plus** est le menu à trois points qui s’affiche en regard d’un élément de liste lorsque vous le survolez avec votre curseur. Cliquez sur le menu pour afficher les actions supplémentaires pour l’élément. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
+
+![Exemple de menu Plus](assets/glist-more-menu-exchange-rates.png)
+
+## Personnalisation des colonnes d’une liste améliorée
+
+Certaines listes améliorées vous permettent de masquer et d’afficher des colonnes, ainsi que de les réorganiser.
+
+1. Cliquez sur **Colonnes** au-dessus de la liste.
+
+   ![Exemple d’affichage des colonnes](assets/glist-display-move-columns.png)
+
+1. Utilisez les boutons pour afficher ou masquer des colonnes dans la liste.
+1. Pour réorganiser les colonnes, cliquez sur l’icône **Faire glisser** et déplacez une colonne vers l’emplacement souhaité. Le déplacement de colonnes modifie automatiquement la liste.
+
+   >[!NOTE]
+   >
+   >Un champ peut toujours être affiché ou fixé à la première position et vous ne pouvez pas modifier sa colonne.
+
+   <span class="preview">Un indicateur s’affiche sur le bouton **Colonnes** lorsque des colonnes sont masquées. L’indicateur n’apparaît pas lorsque vous réorganisez les colonnes.</span>
+
+   ![Indicateur des colonnes masquées](assets/glist-columns-hidden-indicator.png)
+
+## Filtrer et regrouper des éléments dans une liste améliorée
+
+Les filtres vous aident à réduire la quantité d’informations que vous affichez dans la liste. Les regroupements permettent de séparer les objets de la liste dans des zones selon des critères spécifiques.
+
+### Utiliser des filtres
+
+1. Cliquez sur **Filtrer** au-dessus de la liste.
+1. Dans la zone Filtre, cliquez sur **Ajouter une condition**.
+1. Sélectionnez un champ en fonction duquel effectuer le filtrage.
+1. Sélectionnez un modificateur de filtre, tel que « A l’un des », « N’a aucun des », « Est avant » ou « Est après ». Les options des modificateurs sont différentes selon le type de champ en fonction duquel vous effectuez le filtrage.
+1. Sélectionnez la ou les valeurs du champ. Selon le type de champ en fonction duquel vous effectuez le filtrage, vous pouvez être invité à sélectionner l’élément dans une liste, à le rechercher ou à utiliser un calendrier pour sélectionner une période.
+
+   ![Filtrer dans des listes améliorées](assets/glist-filter-with-options.png)
+
+   Le filtre est automatiquement appliqué à la liste.
+
+1. Cliquez sur **Ajouter une condition** pour ajouter une autre condition au filtre sous la forme d’une instruction OR.
+1. Lorsque le filtre est appliqué, vous pouvez ouvrir à nouveau les options **Filtre** pour modifier les options de filtre ou effacer tous les filtres.
+
+   <span class="preview">Un indicateur apparaît sur le bouton **Filtrer** lorsqu’un filtre est appliqué à la liste.</span>
+
+   ![Indicateur de filtre appliqué](assets/glist-filter-applied-indicator.png)
+
+### Utiliser les regroupements
+
+1. Cliquez sur **Grouper** au-dessus de la liste.
+1. Sélectionnez un regroupement pour organiser votre liste.
+
+   ![Sélectionner un regroupement](assets/glist-grouping-choose-a-group-by.png)
+
+1. Lorsque le regroupement est appliqué, vous pouvez ouvrir à nouveau les options Regrouper pour réduire ou développer tous les regroupements à la fois, modifier le regroupement pour les regrouper selon un autre champ ou effacer tous les regroupements.
+
+   ![Regroupement dans des listes améliorées](assets/glist-group-by-due-date-priorities.png)
+
+   <span class="preview">Un indicateur apparaît sur le bouton **Grouper** lorsqu&#39;un regroupement est appliqué à la liste.</span>
+
+   ![Indicateur de groupement appliqué](assets/glist-grouping-applied-indicator.png)
+
+## Tri et recherche dans une liste améliorée
+
+Pour trier des colonnes individuelles, accédez à la colonne et cliquez sur la flèche vers le bas. Une icône en regard d’un nom de colonne indique que la liste est triée en fonction des valeurs de cette colonne et du sens du tri.
+
+>[!NOTE]
+>
+>Si la liste comporte un élément par défaut, cet élément sera toujours en tête de liste, quelle que soit la manière dont la liste est triée.
+
+![Trier par colonne](assets/glist-sort-by-column.png)
+
+Pour trier votre travail au sein d’un regroupement, ouvrez **Groupe** et choisissez si vous souhaitez effectuer un tri par ordre croissant ou décroissant.
+
+![Trier dans un regroupement](assets/sort-in-groups.png)
+
+Pour effectuer une recherche, saisissez le terme à rechercher dans le champ de recherche situé au-dessus de la liste. Les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous saisissez.
+
+![Terme de recherche mis en surbrillance](assets/glist-search-highlighted.png)
