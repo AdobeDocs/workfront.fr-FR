@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 12%
+source-wordcount: '394'
+ht-degree: 8%
 
 ---
 
@@ -17,6 +17,26 @@ ht-degree: 12%
 Cette page décrit les améliorations apportées au document et à la relecture avec la version du quatrième trimestre 2025 dans l’environnement de Prévisualisation. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2025, voir [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Déploiement échelonné des approbations unifiées
+
+>[!NOTE]
+>
+>Version de production pour les clients : déploiement échelonné à partir du 17 juillet 2025
+
+
+Nous activons les approbations unifiées, précédemment appelées nouvelles approbations de document, dans un déploiement échelonné. Cette fonctionnalité sera automatiquement activée dans votre instance Workfront au cours des six prochains mois.
+
+Les approbations unifiées remplacent les approbations de documents héritées et fournissent les fonctionnalités suivantes directement sur un document :
+
+* Désigner une équipe Workfront entière comme réviseurs ou approbateurs
+* Définir une date limite pour la révision ou l’approbation
+* Créer et réutiliser des modèles d&#39;approbation
+* Utiliser les nouvelles versions
+* Affichage de plusieurs indicateurs clés de performances pour vos approbations dans les widgets de l’accueil de Workfront
+* Utiliser les tableaux de bord de la zone de travail pour afficher les détails de rapports sur les approbations unifiées
+
+Pour plus d&#39;informations, voir [Aperçu des approbations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 ## Nouvel évaluateur Workfront AI
 
