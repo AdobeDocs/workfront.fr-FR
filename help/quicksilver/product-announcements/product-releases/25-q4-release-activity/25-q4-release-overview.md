@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a7f368f605851d01293715e67c165c36d4e2ec48
+source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1871'
 ht-degree: 17%
 
 ---
@@ -57,11 +57,20 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Activer les fonctionnalités AI Beta pour votre organisation</a><p></p>
+            <p>Pour que vous puissiez plus facilement voir et influencer les fonctionnalités d’IA à venir, nous vous avons permis d’activer la version bêta de ces fonctionnalités pour votre organisation. Vous pouvez désormais choisir d’activer une ou plusieurs des fonctionnalités d’AI Beta actuellement disponibles dans vos préférences système.</p>
+        </td>
+        <td>vendredi 28 août 2025</td>
+        <td>vendredi 11 septembre 2025</td>
+        <td>vendredi 16 octobre 2025</td>
+    </tr>     
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Mises à jour du profil utilisateur de Workfront</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Mises à jour du profil utilisateur de Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Nous avons mis à jour l’aspect du profil utilisateur de Workfront vers une conception moderne cohérente avec les autres aspects de Workfront. Ces mises à jour s’appliquent à la fois à un administrateur qui modifie un seul profil ou plusieurs profils en masse, ou à un utilisateur qui modifie son propre profil.</p>
-            <p>Il existe de petites différences de fonctionnalité par rapport au profil utilisateur actuel, notamment :</p>
+            <p>Il existe quelques petites différences de fonctionnalité par rapport au profil utilisateur actuel, notamment :</p>
             <ul>
                 <li>Certaines cases à cocher (telles que le marquage de l’utilisateur comme actif) ont été remplacées par des bascules ou des boutons.</li>
                 <li>L’option « Envoyer le travail que je me suis affecté dans mon onglet Travailler sur » sous Préférences a été supprimée, car elle fait référence à une fonctionnalité obsolète.</li>
@@ -73,7 +82,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Ajouter plusieurs options de valeur d’une API externe à un formulaire personnalisé</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Ajouter plusieurs options de valeur d’une API externe à un formulaire personnalisé</a><p></p>
             <p>Un nouveau type de champ, Recherche externe à sélection multiple, est désormais disponible dans le concepteur de formulaire personnalisé. Lorsque des données sont stockées sur un système externe, ce type de champ vous permet de charger des options à partir d’une API externe et de filtrer en fonction d’autres valeurs de champ du formulaire personnalisé. Il s’agit de la même chose qu’une recherche externe à sélection unique.</p>
             <p>Lorsque le formulaire est ajouté à un objet , les valeurs renvoyées par l’API apparaissent dans un champ déroulant et l’utilisateur peut sélectionner plusieurs valeurs.</p>
         </td>
@@ -380,7 +389,7 @@ Pour offrir des intégrations plus stables et plus évolutives, nous passons à 
 * Workfront pour Salesforce.
 
 Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
-Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Version 20 de l’API
 
@@ -392,7 +401,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
