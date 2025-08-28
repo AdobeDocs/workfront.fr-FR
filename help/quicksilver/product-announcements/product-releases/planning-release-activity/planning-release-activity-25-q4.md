@@ -60,8 +60,8 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >[!NOTE]
 >
 >Aperçu : 7 août 2025
->>Production pour tous les clients :August 2025
->>[!BADGE Hors programme ]{type=Neutral}
+>&#x200B;>Production pour tous les clients :August 2025
+>&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 Nous avons ajouté de nouvelles expressions avec l’utilisation suivante aux champs de formule dans Workfront Planning et aux champs calculés personnalisés dans Workfront :
 
@@ -76,8 +76,8 @@ Pour plus d’informations, voir [Vue d’ensemble des expressions de données c
 >[!NOTE]
 >
 >Aperçu : 31 juillet 2025
->>Production pour tous les clients : 31 juillet 2025
->>[!BADGE Hors programme ]{type=Neutral}
+>&#x200B;>Production pour tous les clients : 31 juillet 2025
+>&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 Nous avons ajouté un bouton Maximiser pour agrandir le champ de formule lors de la création ou de la modification du champ dans une vue de tableau d&#39;enregistrements. De plus, nous avons ajouté un bouton Réduire dans la nouvelle fenêtre agrandie pour revenir à la zone de création de champ.
 
@@ -126,8 +126,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->>Version rapide de production : 14 août 2025
->>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>&#x200B;>Version rapide de production : 14 août 2025
+>&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais créer des enregistrements dans la vue chronologique d’un type d’enregistrement en double-cliquant n’importe où sur la chronologie.
 
@@ -142,8 +142,8 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->>Version rapide de production : 14 août 2025
->>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>&#x200B;>Version rapide de production : 14 août 2025
+>&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais partager un type d’enregistrement à partir du menu Plus de la carte de type d’enregistrement de la page de l’espace de travail. Avant cette amélioration, l’option Partager n’était disponible que dans la page du type d’enregistrement.
 
@@ -154,8 +154,8 @@ Pour plus d’informations, voir [Partager les types d’enregistrements](/help/
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->>Version rapide de production : 14 août 2025
->>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>&#x200B;>Version rapide de production : 14 août 2025
+>&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais afficher toutes les vues Planification de Workfront (tableau, chronologie et calendrier) en mode plein écran. La fonctionnalité d’affichage est conservée et vous pouvez également modifier l’affichage en plein écran.
 
@@ -168,8 +168,8 @@ Pour plus d’informations, consultez la section [Gérer les vues d’enregistre
 >[!NOTE]
 >
 >Aperçu : 22 juillet 2025
->>Production pour la version rapide : vendredi 14 août 2025
->>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>&#x200B;>Production pour la version rapide : vendredi 14 août 2025
+>&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Pour rendre le processus d&#39;approbation plus flexible, nous avons ajouté la possibilité d&#39;ajouter des équipes en tant qu&#39;approbateurs sur les formulaires de demande Planning. Vous pouvez désormais saisir et sélectionner des noms d’équipe lors de la définition des approbateurs. N’importe quel membre de l’équipe peut prendre une décision, qui compte comme la décision d’approbation de l’ensemble de l’équipe.
 
@@ -182,8 +182,8 @@ Pour plus d’informations, voir [Ajouter une approbation à un formulaire de de
 >[!NOTE]
 >
 >Aperçu : 17 juillet 2025
->>Production pour la version rapide : vendredi 14 août 2025
->>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>&#x200B;>Production pour la version rapide : vendredi 14 août 2025
+>&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Les champs suivants sont introduits afin de capturer les informations d&#39;approbation des enregistrements créés lors de l&#39;envoi d&#39;une demande avec approbation :
 
@@ -197,8 +197,8 @@ Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/plan
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->>Version rapide de production : 14 août 2025
->>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>&#x200B;>Version rapide de production : 14 août 2025
+>&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 
 Désormais, lorsque des regroupements sont appliqués à une vue Tableau, l’ajout d’un enregistrement au tableau renseigne automatiquement les champs associés aux regroupements auxquels vous ajoutez l’enregistrement.
