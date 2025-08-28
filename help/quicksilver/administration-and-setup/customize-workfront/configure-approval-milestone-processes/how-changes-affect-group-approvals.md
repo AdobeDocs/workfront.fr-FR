@@ -1,15 +1,15 @@
 ---
-title: Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation attribués
+title: Comment les modifications apportées aux groupes et aux processus d'approbation affectent-elles les processus d'approbation affectés
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Cet article explique ce qui se passe lorsqu’un processus d’approbation est déjà utilisé lorsqu’un administrateur ou une administratrice Workfront (ou un utilisateur ou une utilisatrice ayant un accès administratif aux processus d’approbation) modifie son association avec un groupe.
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 99%

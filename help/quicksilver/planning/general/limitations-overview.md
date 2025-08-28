@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 31%
+source-wordcount: '441'
+ht-degree: 28%
 
 ---
 
 
 # Présentation des limitations d’objet d’Adobe Workfront Planning
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -46,11 +46,9 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Taille du fichier CSV Excel que vous pouvez importer pour créer des types d’enregistrements | 5 Mo |
 | Nombre de lignes que vous pouvez importer dans un fichier CSV ou Excel pour créer des types d’enregistrements | 25 000 |
 | Nombre de colonnes que vous pouvez importer dans un fichier CSV ou Excel pour créer des types d’enregistrements | 500 |
+| <span class="preview">Nombre de champs de formule pour un type d&#39;enregistrement</span> | <span class="preview">20</span> |
+| <span class="preview">Nombre de caractères dans une expression de champ de formule</span> | 50 000 <span class="preview"></span> |
 
-<!--
-| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
-| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
--->
 
 *Nous vous recommandons de ne pas avoir trop d’espaces de travail, car ils pourraient devenir difficiles à gérer et vos workflows pourraient être trop fragmentés.
 

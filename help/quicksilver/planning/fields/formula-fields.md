@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 43%
+source-wordcount: '889'
+ht-degree: 34%
 
 ---
 
 # Vue d’ensemble des champs de formule
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -114,30 +114,26 @@ Pour plus d’informations, consultez la section « Formule » de l’article [C
 * Vous pouvez référencer des champs de formule dans de nouvelles formules. Une fois que la valeur est mise à jour dans un champ référencé dans un champ de formule, tous les champs suivants référençant ce champ ou les champs de formule qui contiennent ce champ sont automatiquement mis à jour.
 
 
-<!--
-
 <div class="preview">
 
-## Limitations of formula fields
+## Limites des champs de formule
 
-* You can add a maximum of 20 formula fields for one record type. 
+* Vous pouvez ajouter un maximum de 20 champs de formule pour un type d’enregistrement.
 
-   Formula lookup fields added from connected record types do not count against this limit. 
+  Les champs de recherche de formule ajoutés à partir des types d’enregistrements connectés ne sont pas comptabilisés par rapport à cette limite.
 
-* The formula expression cannot exceed 50,000 characters. 
+* L’expression de la formule ne peut pas dépasser 50 000 caractères.
 
-* Formula fields might display as `#ERROR!` in the following cases:
-   * When a field used in a formula is deleted.
-   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
-   
-      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
-   *  When a formula value cannot be displayed in the selected format. 
-   
-      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
- 
- </div>
- 
- -->
+* Les champs de formule peuvent s’afficher comme `#ERROR!` dans les cas suivants :
+   * Lorsqu’un champ utilisé dans une formule est supprimé.
+   * Lorsqu’un champ utilisé dans un champ de recherche agrégé s’affiche sous la forme `#ERROR!`.
+
+     Par exemple, si vous affichez un champ de recherche qui contient des champs de formule de recherche agrégés et que l&#39;un des champs de formule référencés s&#39;affiche sous la forme `#ERROR!`.
+   * Lorsqu’une valeur de formule ne peut pas être affichée au format sélectionné.
+
+     Par exemple, si je sélectionne Nombre pour le Format d&#39;un champ de formule et que les champs utilisés dans la formule sont des champs de texte qui affichent uniquement des valeurs non numériques, le résultat de la formule s&#39;affichera sous la forme `#ERROR!`, car il ne peut pas analyser le texte en un nombre.
+
+</div>
 
 ## Formules prises en charge
 
