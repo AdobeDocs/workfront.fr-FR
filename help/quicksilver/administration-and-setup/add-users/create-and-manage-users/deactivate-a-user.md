@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: b235945deb3254feaf671083fc992786851a3286
+source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 62%
+source-wordcount: '1116'
+ht-degree: 60%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 62%
 >title="Désactiver un utilisateur ou une utilisatrice"
 >abstract="La désactivation d’une personne la supprime de Workfront et Frame.io. Les personnes désactivées peuvent être réactivées ultérieurement."
 
+{{highlighted-preview}}
+
 <!--Audited 5/2025-->
 
 <!--
@@ -30,7 +32,7 @@ ht-degree: 62%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -88,7 +90,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 Avant de désactiver un administrateur ou une administratrice Workfront, ou un utilisateur ou une utilisatrice de licence Standard ou Plan, vous devez associer ses objets et activités à une autre personne.
 
-Pour plus d’informations, voir [À propos de la désactivation d’administrateurs ou d’administratrices Workfront et d’utilisateurs ou d’utilisatrices de licence Plan](#about-deactivating-workfront-administrators-and-plan-license-users) dans cet article.
+Pour plus d’informations, voir [À propos de la désactivation des administrateurs Workfront et des utilisateurs de licences Standard ou Plan](#about-deactivating-workfront-administrators-and-plan-license-users) dans cet article.
 
 ## Désactiver un utilisateur ou une utilisatrice
 
@@ -127,17 +129,17 @@ Pour planifier la désactivation d’une personne :
 
 1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png).
 1. Dans le panneau de gauche de la zone **Modifier l’utilisateur**, cliquez sur **Planification des ressources**.
-1. Cochez la case **Planifier la désactivation**.
+1. Cochez la case **Planifier la désactivation**, <span class="preview"> ou cliquez sur **Définir la date de désactivation**</span>.
 
-1. Sélectionnez la date et l’heure de la **Date de désactivation planifiée**.
+1. Sélectionnez la date et l’heure de la **Date de désactivation planifiée** / <span class="preview">**Date de désactivation**</span>.
 
    >[!NOTE]
    >
    >* Dans la zone de l’heure, vous ne pouvez sélectionner que des incréments d’heures entières, et non des minutes.
-   >* Si vous sélectionnez une heure pour le jour en cours qui s’est écoulé, Workfront planifie la désactivation le lendemain à 00 h 00.
+   >* Si vous sélectionnez une heure pour le jour en cours qui s’est écoulé, Workfront planifie la désactivation le lendemain à 00:00.
    >* L’heure sélectionnée correspond au fuseau horaire de l’ordinateur de l’utilisateur ou l’utilisatrice qui planifie la désactivation.
 
-1. Cliquez sur **Enregistrer les modifications**.
+1. Cliquez sur **Enregistrer les modifications** <span class="preview">ou **Enregistrer**</span>.
 
 La personne est désactivée le jour choisi, quelque temps après l’heure sélectionnée. Si vous avez sélectionné plusieurs utilisateurs ou utilisatrices à désactiver en bloc, toutes les personnes sélectionnées sont désactivées le jour choisi, quelque temps après l’heure sélectionnée.
 

@@ -3,22 +3,24 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Configurer Mes paramètres
 description: Votre profil  [!DNL Adobe Workfront]  contient des informations vous concernant (par exemple, votre nom, votre e-mail, votre adresse, votre numéro de téléphone, votre titre, etc.). Il contient également des informations sur vos interactions avec  [!DNL Workfront]  et d’autres utilisateurs et utilisatrices de votre entreprise.
-author: Courtney
+author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
 workflow-type: tm+mt
-source-wordcount: '3303'
-ht-degree: 97%
+source-wordcount: '3288'
+ht-degree: 95%
 
 ---
 
 # Configurer Mes paramètres
 
+{{highlighted-preview}}
+
 <!-- Audited: 01/2024 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
+<p>Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
 -->
 
 Votre profil [!DNL Adobe Workfront] contient des informations vous concernant (par exemple, votre nom, votre e-mail, votre adresse, votre numéro de téléphone, votre titre, etc.). Il contient également des informations sur vos interactions avec [!DNL Workfront] et d’autres utilisateurs et utilisatrices de votre entreprise (par exemple, vos paramètres de notification, les onglets que vous souhaitez afficher dans [!DNL Workfront], ou votre fonction, votre personne responsable, et vos appartenances à un groupe et à une équipe).
@@ -246,7 +248,7 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
    <td> Mettez à jour votre adresse e-mail. Champ obligatoire. Gardez à l’esprit que votre adresse e-mail est également votre nom d’utilisateur ou d’utilisatrice pour [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Reset password]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Reset password]</strong> / <span class="preview"><strong>Modifier le mot de passe</strong></span></td> 
    <td>Réinitialisez votre mot de passe dans cette section. Pour plus d’informations sur la réinitialisation de votre mot de passe, voir <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Réinitialiser votre mot de passe</a>.</td> 
   </tr> 
   <tr> 
@@ -313,8 +315,8 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Profile Picture]</strong></td>
-        <td>Votre image de profil devient votre avatar et elle est visible dans tout le système [!DNL Workfront], où votre nom s’affiche.</td>
+        <td><strong>[!UICONTROL Photo de profil]</strong></td>
+        <td>La photo de votre profil devient votre avatar et est visible dans tout le système [!DNL Workfront], où que votre nom soit affiché.</td>
     </tr>
 </table>
 
@@ -340,13 +342,8 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>Indiquez ici votre langue préférée. Cela contrôle le format de la langue, de la date et des chiffres utilisé dans les e-mails sortants.</p>
-   <p><strong>REMARQUE :</strong> Lorsque votre organisation se trouve dans l’expérience unifiée Adobe, les préférences de langue sont stockées dans votre profil d’Adobe et la langue de l’email n’est pas utilisée. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Modification de la langue Adobe Experience Cloud</a> dans l’article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Langues prises en charge dans Adobe Workfront</a>.</p></td> 
+   <p><strong>REMARQUE :</strong> lorsque votre organisation se trouve sur l’expérience unifiée Adobe, les préférences linguistiques sont stockées dans votre profil Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Pour plus d’informations, consultez la section <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Modification de la langue Adobe Experience Cloud</a> dans l’article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Langues prises en charge dans Adobe Workfront</a>.</p></td> 
   </tr>
-
-<tr> 
-   <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 
-   <td>Ce champ fait référence à une fonctionnalité obsolète qui a été supprimée de [!DNL Workfront].</td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><strong>(Le cas échéant) Générer des épreuves automatiquement lors du chargement de documents</strong></td> 
    <td>Sélectionnez ce champ pour commencer à générer une épreuve immédiatement après le chargement du document dans [!DNL Workfront]. Ce champ est désactivé par défaut et ne peut être mis à jour que par un administrateur ou une administratrice Workfront.<br>Ce champ n’est disponible que si votre entreprise a acheté le composant Workfront Proof pour Workfront et si votre activation en tant qu’utilisateur ou utilisatrice d’épreuve est effective. Pour plus d’informations sur Workfront Proof, voir <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gérer des épreuves dans Adobe Workfront</a>.
@@ -373,7 +370,7 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Is Active]</strong> </td> 
-   <td>Ce champ est visible uniquement pour un utilisateur ou une utilisatrice qui est également un administrateur ou une administratrice [!DNL Workfront] et doit être coché par défaut. Cela signifie que la personne est active et peut se connecter à [!DNL Workfront]</td> 
+   <td>Ce champ est visible uniquement par un utilisateur qui est également un administrateur [!DNL Workfront] et il doit être activé par défaut. Cela signifie que la personne est active et peut se connecter à [!DNL Workfront]</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Access Level]</strong> </td> 
@@ -459,8 +456,8 @@ Utilisez l’une des méthodes suivantes de cette section :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong></td> 
-   <td>Cochez cette case si vous souhaitez planifier la désactivation de votre compte au bout d’un certain temps. Dans la <p><strong>[!UICONTROL Scheduled Deactivation Date]</strong> qui s’affiche, indiquez la date à laquelle votre compte sera désactivé. Pour plus d’informations sur la désactivation des utilisateurs et utilisatrices, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Planifier la désactivation d’utilisateurs et d’utilisatrices</a> dans <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactiver ou réactiver un utilisateur ou une utilisatrice</a>.</p><p>Vous pouvez modifier les champs de désactivation de votre compte si vous disposez d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] ou si vous êtes l’administrateur ou l’administratrice [!DNL Workfront].</p></td> 
+   <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong> / <span class="preview"><strong>Définir la date de désactivation</strong></span></td> 
+   <td><p>Cochez cette case / <span class="preview">cliquez sur ce bouton</span> si vous souhaitez planifier la désactivation de votre compte après un certain temps. Dans la <strong>[!UICONTROL Scheduled Deactivation Date]</strong> qui s’affiche, indiquez la date à laquelle votre compte sera désactivé. Pour plus d’informations sur la désactivation des utilisateurs et utilisatrices, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Planifier la désactivation d’utilisateurs et d’utilisatrices</a> dans <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactiver ou réactiver un utilisateur ou une utilisatrice</a>.</p><p>Vous pouvez modifier les champs de désactivation de votre compte si vous disposez d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] ou si vous êtes l’administrateur ou l’administratrice [!DNL Workfront].</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 
@@ -524,7 +521,7 @@ Pour joindre un formulaire personnalisé à votre profil d’utilisateur ou d’
 
 Tous les utilisateurs et utilisatrices peuvent voir les formulaires personnalisés qui ont été associés à leurs profils.
 
-Votre administrateur ou administratrice [!DNL Workfront] doit configurer des formulaires personnalisés pour l’objet utilisateur ou utilisatrice afin que vous puissiez joindre un formulaire personnalisé à votre profil d’utilisateur ou d’utilisatrice. Pour plus d’informations sur la création de formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Votre administrateur ou administratrice [!DNL Workfront] doit configurer des formulaires personnalisés pour l’objet utilisateur ou utilisatrice afin que vous puissiez joindre un formulaire personnalisé à votre profil d’utilisateur ou d’utilisatrice. Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### [!UICONTROL Commentaire]
 
