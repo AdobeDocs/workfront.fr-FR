@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 92%
+source-wordcount: '832'
+ht-degree: 75%
 
 ---
 
@@ -22,6 +22,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{important-admin-console-onboard}}
 
@@ -107,29 +111,37 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
         <li>Calendrier</li>
        </ul><p>Cette option est activée par défaut.</p> <p><b>Important</b> : le niveau d’accès Utilisateur ou utilisatrice externe n’est pas disponible dans votre instance Workfront si cette option est désactivée. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Niveaux d’accès intégrés</a>.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Demander aux utilisateurs et aux utilisatrices externes de s’inscrire avec un mot de passe</td> 
-      <td> <p>Exige que les utilisateurs et utilisatrices externes s’inscrivent avant de pouvoir afficher des éléments dans Workfront. Cette option est désactivée par défaut. Lorsque vous activez cette option, les personnes sans compte Workfront qui sont incluses dans certaines mises à jour via leurs adresses e-mail sont invitées à créer un compte avant de pouvoir afficher l’élément dans lequel elles sont incluses. Cela leur crée un compte d’utilisateur ou d’utilisatrice externe.</p> <p>Cette option est désactivée par défaut.</p> </td> 
+     <!--<tr> 
+      <td role="rowheader">Require external users to register with a password</td> 
+      <td> <p>Requires external users to register before they are able to view items in Workfront. By default, this option is disabled. When you enable this option, people without a Workfront account who are included in certain updates by their email address, will be prompted to create an account before they can view the item they are included on. This creates an External User account for them.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Déconnecte automatiquement les utilisateurs après</td> 
-      <td> Vous permet de spécifier le moment où une personne est déconnectée de Workfront après une période d’inactivité. Par défaut, les utilisateurs et utilisatrices sont déconnectés après 8 heures d’inactivité. <p>Cette option affecte également les clientes et clients Workfront qui utilisent une solution d’authentification unique.</p> <p>Ce paramètre n’est pas disponible pour les organisations qui ont été migrées vers Adobe IMS.</p></td> 
+      <td role="rowheader">Automatically log users out after</td> 
+      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Déconnecter automatiquement les utilisateurs mobiles après </td> 
-      <td>Vous permet de spécifier le moment où une personne est déconnectée de l’application Workfront après une période d’inactivité. Par défaut, les utilisateurs et utilisatrices sont déconnectés après 7 jours d’inactivité. <p>Cette option affecte également les clientes et clients Workfront qui utilisent une solution d’authentification unique.</p> <p>Ce paramètre n’est pas disponible pour les organisations qui ont été migrées vers Adobe IMS.</p></td> 
-     </tr> 
+      <td role="rowheader">Automatically log mobile users out after </td> 
+      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> -->
      <tr> 
       <td role="rowheader">URL Aide</td> 
       <td>Vous permet de définir un site d’aide personnalisé interne vers lequel l’icône d’aide du menu principal redirigera. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configurer une URL d’aide personnalisée</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Les utilisateurs et utilisatrices du système voient par défaut la nouvelle expérience d’accueil. </td> 
-      <td>Vous permet de spécifier si les utilisateurs et les utilisatrices voient la nouvelle expérience d’accueil par défaut. Lorsque cette option est activée, les utilisateurs et les utilisatrices voient la nouvelle expérience d’accueil par défaut, mais peuvent toujours individuellement choisir d’activer ou de désactiver cette dernière. Lorsque cette option est désactivée, les utilisateurs et les utilisatrices ne voient pas la bannière qui leur permet de basculer vers la nouvelle page d’accueil. Toutefois, ils peuvent toujours accéder à la nouvelle page d’accueil en saisissant manuellement <code>/home/workspaces</code> à la fin de l’URL de leur instance. Ce paramètre est activé par défaut.</td> 
-     </tr>
-     <tr> 
       <td role="rowheader">Activer la liste de travail Priorités </td> 
       <td>Permet de choisir d’activer ou de désactiver l’expérience de la liste de travail Priorités pour vos utilisateurs. Les utilisateurs verront toujours les icônes Priorités dans Workfront, mais ils n’auront pas accès à la fonctionnalité. Pour plus d'informations sur les priorités, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Prise en main des priorités</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Activer l’IA </td> 
+      <td>Permet de choisir d’activer l’IA, y compris l’assistant IA. <p><b>Remarque </b> : votre entreprise doit répondre à des exigences spécifiques pour activer l’IA. Pour plus d’informations sur l’IA, y compris ses exigences, consultez <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md"> Présentation de l’assistant IA</a>.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Saisie automatique de formulaire </td> 
+      <td>Permet de choisir d’activer la possibilité de remplir automatiquement les formulaires de demande en fonction des données de demande précédentes. Pour plus d’informations sur la saisie automatique des formulaires, voir <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Saisie automatique d’une demande à partir de données précédentes</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Accès aux versions bêta de l’IA </td> 
+      <td>Permet de choisir d’activer les fonctionnalités d’IA actuellement dans Beta. Si vous activez cette option, vous pouvez sélectionner les fonctionnalités d’IA Beta à activer. Pour plus d’informations sur chaque fonctionnalité AI Beta, cliquez sur l’icône d’information en regard de cette fonctionnalité.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Environnements de test</td> 
