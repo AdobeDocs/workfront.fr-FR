@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 909236983b7eefa25ea7961a2f760d87cae23132
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 91%
+source-wordcount: '382'
+ht-degree: 73%
 
 ---
 
@@ -70,15 +70,15 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
      Ou
 
-     Pour créer un modèle pour le groupe basé sur un modèle existant, sélectionnez le modèle existant, puis cliquez sur **Copier**.
+     Pour créer un modèle pour le groupe basé sur un modèle existant, sélectionnez le modèle existant, puis cliquez sur l’icône **Copier** ![Icône Copier](assets/copy-icon.png).
 
      Pour plus d’informations sur la création d’un modèle de disposition, voir [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
      Pour plus d’informations sur la copie d’un modèle de disposition pour en créer un nouveau, voir [Copier un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
-   * Pour modifier un modèle de disposition de groupe existant, sélectionnez-le, puis cliquez sur **Modifier**.
+   * Pour modifier un modèle de mise en page de groupe existant, sélectionnez-le, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png).
 
      Pour plus d’informations sur la modification d’un modèle de disposition, voir [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-   * Pour supprimer un ou plusieurs modèles de disposition, sélectionnez-les, puis cliquez sur **Supprimer**.
-   * **Exportez** la liste des modèles de disposition.
+   * Pour supprimer un ou plusieurs modèles de mise en page, sélectionnez-les puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png).
+   * Pour exporter la liste des modèles de mise en page, cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export-icon.png).
