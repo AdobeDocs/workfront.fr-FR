@@ -2,13 +2,13 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Langues prises en charge dans Adobe Workfront
-description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe Workfront et les e-mails provenant de Workfront en ajustant les préférences linguistiques de votre navigateur et votre langue par défaut dans Workfront.
+description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe Workfront et les e-mails provenant de Workfront en ajustant les préférences linguistiques de votre navigateur et vos paramètres régionaux d’e-mail par défaut dans Workfront.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1156'
 ht-degree: 66%
 
 ---
@@ -72,9 +72,8 @@ La visionneuse de relecture web de Workfront prend en charge la plupart des lang
 
 Les langues suivantes ne sont pas prises en charge dans l’outil de relecture :
 
-* Chinois - simplifié (zh-CN)
 * Chinois - traditionnel (zh-TW)
-* Portugais (pt-BR)
+* Coréen (ko-KR)
 
 Votre entreprise doit acheter une licence de relecture afin d’accéder à la visionneuse de relecture web.
 
@@ -93,7 +92,7 @@ Actuellement, Workfront Fusion ne prend en charge que l’anglais.
 * Workfront Fusion ne prend pas en charge l’utilisation de caractères de texte autres que l’anglais dans les champs saisis par l’utilisateur ou l’utilisatrice.
 
 Votre entreprise doit acheter une licence Workfront Fusion pour pouvoir y accéder.\
-Pour plus d’informations sur Workfront Fusion, voir [Vue d’ensemble d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Pour plus d’informations sur Workfront Fusion, voir [Vue d’ensemble d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Modifier la langue
 
@@ -103,7 +102,7 @@ Vous pouvez modifier la langue dans laquelle vous affichez Workfront et la langu
 * Langue principale et secondaire de votre profil AEM (pour les utilisateurs et utilisatrices de l’Admin Console Adobe)
 * Informations client et paramètres régionaux des e-mails utilisateur de votre compte Workfront.
 
-Pour afficher toutes les traductions disponibles dans la langue de votre choix, le paramètre local Workfront et le paramètre local du navigateur doivent être définis sur la même langue.
+Pour afficher toutes les traductions disponibles dans la langue de votre choix, les paramètres régionaux Workfront et les paramètres régionaux du navigateur doivent être définis sur la même langue.
 
 Pour déterminer si votre organisation a été migrée vers Adobe Admin Console, examinez l’URL que vous utilisez pour afficher Workfront.
 
