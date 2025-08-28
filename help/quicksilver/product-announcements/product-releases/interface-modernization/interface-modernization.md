@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
 workflow-type: tm+mt
-source-wordcount: '7094'
+source-wordcount: '7449'
 ht-degree: 2%
 
 ---
@@ -24,16 +24,26 @@ Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versio
 
 ## Administration et configuration
 
-<!--
-### Interface updates when editing a Scorecard
+### Mises à jour de l’interface pour la liste des modèles de mise en page dans un groupe
 
-**Preview release: August 21, 2025; Production release: August 21, 2025**
+**Version préliminaire : 28 août 2025 ; Version de production : 4 septembre 2025**
 
-We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+Nous avons mis à jour l’aspect de la liste des modèles de mise en page dans le panneau de gauche dans un groupe pour qu’elle corresponde aux autres zones de l’application.
 
-A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+Pour afficher ces modifications, accédez à Configuration > Groupes > sélectionner un groupe > Modèles de mise en page.
 
--->
+Pour plus d’informations, voir [Création et modification des modèles de disposition d’un groupe](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+
+### Mises à jour de l’interface lors de la modification d’une carte de performance
+
+**Version préliminaire : 28 août 2025 ; Version de production : 28 août 2025**
+
+Nous avons mis à jour l’aspect de lors de la modification d’une carte de performance pour qu’elle corresponde à la conception dans d’autres zones de l’application. Vous pouvez afficher la conception mise à jour lors de la modification d’une carte de performance dans la zone Configuration de Workfront.
+
+Une petite modification de fonctionnalité a été appliquée à la carte de performance. Pour modifier une carte de performance, sélectionnez-la dans la liste et cliquez sur l’icône Modifier . Vous n’êtes plus dirigé vers la page Détails de la carte de performance avant de pouvoir la modifier.
+
+
 
 ### Mises à jour de l’interface pour la page Notifications de révision et d’approbation dans la Configuration
 
@@ -120,7 +130,30 @@ Nous avons mis à jour la page Mise à jour des utilisateurs pour l’authentifi
 
 Pour afficher cette modification, accédez à Configuration > Système > Mettre à jour les utilisateurs pour SSO
 
+## Portefeuilles
+
+### Mises à jour de l’interface pour la modification des portfolios
+
+**Version préliminaire : 28 août 2025 ; Version de production : 4 septembre 2025**
+
+Nous avons introduit des mises à jour d’interface lors de la modification de portfolios dans la zone Modifier Portfolio . Les zones Modifier le portfolio et Modifier les portfolios ont désormais une conception plus récente qui correspond à d’autres zones de Workfront.
+
+>[!NOTE]
+>
+>Le paramètre Recalculer les expressions a été supprimé lors de la modification en masse de portfolios. Vous pouvez toujours recalculer les expressions personnalisées en bloc lorsque vous sélectionnez plusieurs portfolios dans une liste et cliquez sur l’option Recalculer les expressions dans le menu Plus de la barre d’outils.
+
+
+Pour plus d’informations, voir [Modifier des portefeuilles](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
+
 ## Projets
+
+### Modifications de l’interface pour Convertir une tâche en projet sans modèle
+
+**Version préliminaire : 28 août 2025 ; Version de production : 4 septembre 2025**
+
+Nous avons introduit des mises à jour de l&#39;interface dans la zone Convertir en projet lors de la conversion d&#39;une tâche en projet sans modèle. La zone correspond désormais à la conception d’autres zones de Workfront.
+
+Pour plus d’informations, voir [Convertir une tâche en projet](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
 ### Mises à jour de l’interface lors de l’ajout d’objets à des programmes et des portfolios
 
@@ -161,14 +194,14 @@ Cette mise à jour a entraîné une légère modification des fonctionnalités. 
 
 Pour plus d&#39;informations, voir [Création de rubriques de file d&#39;attente](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-<!--### Interface update for the Edit Expense box of a project
+### Mise à jour de l&#39;interface pour la zone Modifier la dépense d&#39;un projet
 
-**Preview release: August 21, 2025; Production release: August 28, 2025**
+**Version préliminaire : 28 août 2025 ; Version de production : 4 septembre 2025**
 
-We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+Nous avons mis à jour la boîte de dialogue pour la modification d&#39;une dépense de projet, afin de correspondre à d&#39;autres zones de l&#39;application. La boîte de dialogue mise à jour est disponible lors de la modification des dépenses dans les projets ou modèles.
 
-For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
--->
+Pour plus d’informations, voir [Gérer les dépenses des projets](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
 
 ### Mises à jour de l’interface pour la journalisation du temps sur un projet, une tâche ou un événement dans la section Heures
 
