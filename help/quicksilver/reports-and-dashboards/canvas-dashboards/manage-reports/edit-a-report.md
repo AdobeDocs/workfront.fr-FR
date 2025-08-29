@@ -5,10 +5,11 @@ title: Modification d’un rapport dans un tableau de bord Zone de travail
 description: Vous pouvez modifier un rapport de tableau de bord Zone de travail après sa création.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 13%
+source-wordcount: '499'
+ht-degree: 12%
 
 ---
 
@@ -16,14 +17,19 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>
+>* Apporter votre propre clé pour Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Après avoir ajouté des rapports à un tableau de bord Zone de travail, vous pouvez modifier les informations du rapport pour modifier les données affichées dans le tableau de bord.
 
 Toute modification apportée à un rapport aura un impact sur tous les utilisateurs et utilisatrices ayant accès au tableau de bord qui le contient.
 
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 

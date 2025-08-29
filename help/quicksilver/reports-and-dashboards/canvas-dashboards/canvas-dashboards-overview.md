@@ -7,10 +7,10 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 10%
+source-wordcount: '497'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,12 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>
+>* Apporter votre propre clé pour Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Les tableaux de bord de la zone de travail vous permettent de visualiser facilement les données Adobe Workfront en ajoutant des types de rapports à une zone de travail qui offre de nombreuses options de disposition flexibles, notamment le redimensionnement, le glisser-déposer, etc.
 
@@ -32,6 +37,29 @@ Grâce aux tableaux de bord de la zone de travail, vous pouvez créer des rappor
 * Pour créer un tableau de bord de zone de travail, vous devez disposer d’une licence de plan (licences actuelles) ou d’une licence standard (nouvelles licences). Pour plus d’informations sur les types de licences Workfront, voir [Présentation des licences](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) ou [Présentation des nouvelles licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 * Votre administrateur Workfront doit vous accorder un accès en modification aux tableaux de bord dans votre niveau d’accès pour créer ou modifier un tableau de bord de zone de travail. Pour plus d’informations sur l’octroi de l’accès en modification, voir [Octroi de l’accès aux rapports, tableaux de bord et calendriers](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+
+## Articles du tableau de bord Zone de travail
+
+* Beta des tableaux de bord de la zone de travail
+   * [Informations sur la version Beta des tableaux de bord Zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+* Créer des tableaux de bord
+   * [Créer un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
+* Ajout de rapports
+   * [Ajouter un rapport existant à un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+   * [Créer un rapport de KPI dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+   * [Créer un rapport de graphique dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+   * [Créer un rapport de tableau dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+* Gérer les tableaux de bord de zones de travail
+   * [Partager un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+   * [Organiser les rapports dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+   * [Filtrer un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
+   * [Modification du nom ou de la description d’un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+   * [Suppression d’un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+   * [Ajout d’un tableau de bord Zone de travail à un modèle de disposition](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
+* Gérer les rapports
+   * [Modification d’un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+   * [Modification des filtres de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+   * [Suppression d’un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
 
 ## Fonctionnalités actuelles et prévues
 
@@ -67,6 +95,10 @@ Vous trouverez ci-dessous une liste des types de rapports actuellement pris en c
 * Optimisation des performances
 
 ### Fonctionnalités futures incluses dans la feuille de route
+
+>[!NOTE]
+>
+>Les priorités de la feuille de route répertoriées ci-dessous seront ajustées en fonction des commentaires reçus pendant la période bêta.
 
 * Vues web intégrées
 * Calendriers

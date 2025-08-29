@@ -6,10 +6,10 @@ description: Vous pouvez ajouter un rapport tabulaire à un tableau de bord Zone
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 11%
+source-wordcount: '1045'
+ht-degree: 8%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>
+>* Apporter votre propre clé pour Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Vous pouvez ajouter un rapport tabulaire à un tableau de bord Zone de travail afin de visualiser vos données dans un format de tableau.
 
 ![Exemple de rapport de tableau](assets/table-example-main.png)
+
+## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès. 
 
@@ -60,6 +67,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 Vous devez créer un tableau de bord avant de pouvoir créer un rapport tabulaire.
 
+
 ## Créer un rapport de tableau dans un tableau de bord de zones de travail
 
 De nombreuses options de configuration sont disponibles pour créer un rapport tabulaire. Dans cette section, nous vous guiderons à travers le processus général de création d’un rapport.
@@ -91,6 +99,8 @@ De nombreuses options de configuration sont disponibles pour créer un rapport t
    1. Dans le panneau de gauche, cliquez sur l’icône **Colonnes du tableau** ![Icône Créer un tableau](assets/drilldown-column.png).
 
    1. Cliquez sur **Ajouter une colonne** puis sélectionnez le champ à afficher en tant que colonne dans le tableau. La colonne s’affiche dans la section de prévisualisation à droite.
+
+
 
    1. Répétez l’étape ci-dessus pour chaque colonne à ajouter.
 
@@ -190,3 +200,35 @@ Pour plus d&#39;informations sur les exemples de rapports de table, voir [Créer
       ![exemple de filtre de table d&#39;approbation en attente](assets/pending-approval-table-filter.png)
    1. (Facultatif) Ajoutez des filtres supplémentaires comme décrit dans la section **Filtres facultatifs** ci-dessous.
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
+
+## Remarques concernant la création d&#39;un rapport tabulaire
+
+### Utilisation du sélecteur de champ
+
+La liste déroulante **Sections** de la section **Créer un tableau** est conçue pour limiter les choix d&#39;un sélecteur de champ afin de faciliter la recherche d&#39;un objet lors de la création d&#39;un rapport de tableau. Pour commencer, sélectionnez un objet d’entité de base.
+
+* **Toutes les sections** : tous les types d’objet dans Workfront Workflow et Workfront Planning.
+* **Objets Workfront** : objets de workflow Workfront natifs.
+* **Types d’enregistrements Planning** : types d’enregistrements personnalisés définis dans Workfront Planning.
+
+![Liste déroulante Sections](assets/sections-dropdown.png)
+
+Une fois l’objet d’entité de base sélectionné, la liste déroulante **Sections** est mise à jour avec les options de type de champ applicables parmi lesquelles choisir.
+
+* **Toutes les sections** : champs natifs, champs personnalisés et objets associés.
+* **Tous les champs** : champs natifs et personnalisés (sans les relations).
+* **Champs personnalisés** : champs définis par le client sur un formulaire personnalisé ou un enregistrement Planning.
+* **Champs Workfront** : champs natifs uniquement.
+* **Relations** : enregistrements connectés.
+
+![Sélection d&#39;objets à déclarer](assets/reportable-objects-selection.png)
+
+### Référencer des objets enfants
+
+Les relations disponibles pour les colonnes supplémentaires, les options de filtre et les attributs de regroupement sont généralement limitées aux objets situés plus haut dans la hiérarchie d&#39;objets Workfront ou comportent une seule sélection sur l&#39;objet d&#39;entité de base du rapport. Il existe certaines exceptions à cette règle, notamment :
+
+* Projet > Tâches
+* Approbation de document > Étapes d&#39;approbation de document
+* Étapes d&#39;approbation du document > Participants à l&#39;étape d&#39;approbation du document
+
+Lors de l’utilisation de l’une des relations parent-enfant répertoriées ci-dessus, une ligne s’affiche dans le tableau pour chaque enregistrement enfant connecté à l’objet parent.

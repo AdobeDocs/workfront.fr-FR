@@ -5,9 +5,10 @@ title: Ajout d’un tableau de bord Zone de travail à un modèle de disposition
 description: Vous pouvez ajouter un tableau de bord Zone de travail à un modèle de mise en page pour qu’il remplace la page de destination d’accueil, qu’il apparaisse dans le panneau de gauche d’un objet ou qu’il soit épinglé sur la barre supérieure.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '547'
 ht-degree: 9%
 
 ---
@@ -16,11 +17,18 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>
+>* Apporter votre propre clé pour Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Vous pouvez ajouter un tableau de bord Zone de travail à un modèle de mise en page pour qu’il remplace la page de destination Accueil, qu’il s’affiche dans le panneau de gauche d’un objet ou qu’il soit épinglé dans la barre supérieure dans Adobe Workfront.
 
 ![Panneau de gauche](assets/left-panel.png)
+
+## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès. 
 

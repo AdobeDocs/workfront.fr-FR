@@ -5,9 +5,10 @@ title: Filtrer un tableau de bord de zone de travail
 description: Vous pouvez appliquer un filtre à un tableau de bord de la zone de travail après sa création.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
+exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '863'
 ht-degree: 8%
 
 ---
@@ -16,9 +17,17 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>
+>* Apporter votre propre clé pour Amazon Web Services
+>* Azure
+>* Google Cloud Platform
+
 
 Vous pouvez appliquer un filtre à un tableau de bord Zone de travail qui contient des invites. Une invite fonctionne comme un modificateur de filtre qui applique des critères de filtrage supplémentaires afin que vous puissiez réduire encore davantage vos résultats. Ces invites peuvent être modifiées à chaque application du filtre, ce qui permet d&#39;ajuster les résultats affichés sans avoir à modifier les principaux critères de filtre du tableau de bord ou de chaque rapport.
+
+## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès. 
 

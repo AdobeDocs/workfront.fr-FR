@@ -6,10 +6,10 @@ description: Un rapport sur les indicateurs de performance clés qui affiche de 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 9%
+source-wordcount: '1106'
+ht-degree: 7%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>
+>* Apporter votre propre clé pour Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Vous pouvez créer et ajouter un rapport sur les indicateurs de performance clés à un tableau de bord de la zone de travail, qui représente visuellement les données de vos indicateurs clés de performance sous la forme d’un nombre, que vous pouvez ensuite utiliser pour voir comment se portent vos projets et vos équipes.
 
 ![Exemple de rapport sur les KPI](assets/kpi-example-main.png)
+
+## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès. 
 
@@ -107,6 +114,8 @@ De nombreuses options de configuration sont disponibles pour créer un rapport s
 
    1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
 
+      Pour plus d’informations sur les filtres, voir [Modifier les filtres de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+
 1. Suivez les étapes ci-dessous pour configurer la section **Paramètres des colonnes d’analyse** :
 
    1. Dans le panneau de gauche, cliquez sur l’icône **Colonnes d’analyse** ![Icône Colonnes d’analyse](assets/drilldown-column.png). Les champs de votre graphique s’affichent automatiquement sous forme de colonnes dans la section de prévisualisation à droite.
@@ -174,5 +183,37 @@ Pour plus d’informations sur les exemples de rapports d’indicateurs clés de
    1. Laissez l’opérateur sur **Égal**, puis saisissez _en attente de révision_ dans la zone de texte.
       ![Exemple de filtre KPI en attente](assets/pending-kpi-filter.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
+
+## Remarques concernant la création d’un rapport sur les indicateurs de performance clés
+
+### Utilisation du sélecteur de champ
+
+La liste déroulante **Sections** de la section **Créer un indicateur de performance clé** est conçue pour limiter les choix d&#39;un sélecteur de champ afin de faciliter la recherche d&#39;un objet lors de la création d&#39;un rapport de tableau. Pour commencer, sélectionnez un objet d’entité de base.
+
+* **Toutes les sections** : tous les types d’objet dans Workfront Workflow et Workfront Planning.
+* **Objets Workfront** : objets de workflow Workfront natifs.
+* **Types d’enregistrements Planning** : types d’enregistrements personnalisés définis dans Workfront Planning.
+
+![Liste déroulante Sections](assets/sections-dropdown.png)
+
+Une fois l’objet d’entité de base sélectionné, la liste déroulante **Sections** est mise à jour avec les options de type de champ applicables parmi lesquelles choisir.
+
+* **Toutes les sections** : champs natifs, champs personnalisés et objets associés.
+* **Tous les champs** : champs natifs et personnalisés (sans les relations).
+* **Champs personnalisés** : champs définis par le client sur un formulaire personnalisé ou un enregistrement Planning.
+* **Champs Workfront** : champs natifs uniquement.
+* **Relations** : enregistrements connectés.
+
+![Sélection d&#39;objets à déclarer](assets/reportable-objects-selection.png)
+
+### Référencer des objets enfants
+
+Les relations disponibles pour les colonnes supplémentaires, les options de filtre et les attributs de regroupement sont généralement limitées aux objets situés plus haut dans la hiérarchie d&#39;objets Workfront ou comportent une seule sélection sur l&#39;objet d&#39;entité de base du rapport. Il existe certaines exceptions à cette règle, notamment :
+
+* Projet > Tâches
+* Approbation de document > Étapes d&#39;approbation de document
+* Étapes d&#39;approbation du document > Participants à l&#39;étape d&#39;approbation du document
+
+Lors de l’utilisation de l’une des relations parent-enfant répertoriées ci-dessus, une ligne s’affiche dans le tableau pour chaque enregistrement enfant connecté à l’objet parent.
 
 

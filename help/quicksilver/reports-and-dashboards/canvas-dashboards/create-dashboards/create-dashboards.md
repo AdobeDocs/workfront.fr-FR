@@ -5,10 +5,11 @@ title: Créer un tableau de bord de zone de travail
 description: Grâce aux tableaux de bord de la zone de travail, vous pouvez créer et ajouter des rapports à un tableau de bord personnalisable pour visualiser rapidement les données de votre compte.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 16%
+source-wordcount: '398'
+ht-degree: 15%
 
 ---
 
@@ -16,11 +17,18 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>
+>* Apporter votre propre clé pour Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Grâce aux tableaux de bord de la zone de travail, vous pouvez créer et ajouter des rapports à un tableau de bord personnalisable pour visualiser rapidement les données de votre compte.
 
-+++ Développez pour afficher les exigences d’accès.
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -50,8 +58,12 @@ Grâce aux tableaux de bord de la zone de travail, vous pouvez créer et ajouter
 </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
+
+## Conditions préalables
+
+Les tableaux de bord de la zone de travail doivent être activés dans la configuration du modèle de mise en page des éléments de navigation de gauche de la page Tableaux de bord.
 
 ## Créer un tableau de bord
 

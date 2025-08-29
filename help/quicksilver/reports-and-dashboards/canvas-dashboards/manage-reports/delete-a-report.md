@@ -5,10 +5,11 @@ title: Suppression d’un rapport dans un tableau de bord Zone de travail
 description: Vous pouvez supprimer un rapport d’un tableau de bord Zone de travail.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
+source-git-commit: 68a4a9d1c3980fd947b5fefef19cdfa09591e849
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 19%
+source-wordcount: '292'
+ht-degree: 17%
 
 ---
 
@@ -16,14 +17,20 @@ ht-degree: 19%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>
+>* Apporter votre propre clé pour Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Une fois qu’un tableau de bord Zone de travail est créé et que vous y avez ajouté des rapports, vous pouvez supprimer les rapports plus anciens qui ne sont plus applicables à ce tableau de bord spécifique.
 
 La suppression d’un rapport est permanente. Si vous devez ajouter à nouveau un rapport après sa suppression, vous devrez recréer le rapport.
 
+## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 

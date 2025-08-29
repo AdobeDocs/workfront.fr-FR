@@ -6,10 +6,10 @@ description: Vous pouvez ajouter à un tableau de bord de la zone de travail un 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 7%
+source-wordcount: '1352'
+ht-degree: 6%
 
 ---
 
@@ -17,13 +17,20 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>
+>* Apporter votre propre clé pour Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Vous pouvez créer et ajouter un rapport sous forme de graphique à un tableau de bord Zone de travail pour visualiser vos données sous la forme d’un graphique à barres, à colonnes, en courbes ou en secteurs.
 
 ![Rapport de graphique](assets/chart-report-main.png)
 
-+++ Développez pour afficher les exigences d’accès.
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +97,7 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 
       >[!NOTE]
       >
-      >Un graphique peut afficher un nombre maximal de séries. Lorsque cette case est cochée, toutes les séries au-dessus de la limite sont consolidées dans un regroupement **Autre** dans le graphique.
+      >Vous pouvez afficher un nombre maximal de 60 séries dans un graphique. Lorsque cette case est cochée, toutes les séries au-dessus de la limite sont consolidées dans un regroupement **Autre** dans le graphique.
 
 1. Pour configurer la section **Créer un graphique**, procédez comme suit :
 
@@ -204,6 +211,8 @@ Dans cette section, nous allons passer en revue les étapes pour créer un graph
 
    1. Saisissez *$$TODAY* dans le champ évaluateur.
 
+      Pour plus d’informations sur les caractères génériques, consultez la section Variables de filtre de caractères génériques basés sur la date dans l’article [Modifier les filtres de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+
       ![Champ évaluateur](assets/add-condition.png)
 
 1. Suivez les étapes ci-dessous pour configurer la section **Paramètres des colonnes d’analyse** :
@@ -227,3 +236,35 @@ Dans cette section, nous allons passer en revue les étapes pour créer un graph
    1. Cliquez sur le bouton **Ajouter un regroupement** puis sélectionnez le champ **Projet** > **Nom**.
 
 1. Cliquez sur **Enregistrer** pour créer le rapport et l’ajouter au tableau de bord.
+
+## Remarques concernant la création d’un rapport de graphique
+
+### Utilisation du sélecteur de champ
+
+La liste déroulante **Sections** de la section **Créer un graphique** est conçue pour limiter les choix d&#39;un sélecteur de champ afin de faciliter la recherche d&#39;un objet lors de la création d&#39;un rapport de tableau. Pour commencer, sélectionnez un objet d’entité de base.
+
+* **Toutes les sections** : tous les types d’objet dans Workfront Workflow et Workfront Planning.
+* **Objets Workfront** : objets de workflow Workfront natifs.
+* **Types d’enregistrements Planning** : types d’enregistrements personnalisés définis dans Workfront Planning.
+
+![Liste déroulante Sections](assets/sections-dropdown.png)
+
+Une fois l’objet d’entité de base sélectionné, la liste déroulante **Sections** est mise à jour avec les options de type de champ applicables parmi lesquelles choisir.
+
+* **Toutes les sections** : champs natifs, champs personnalisés et objets associés.
+* **Tous les champs** : champs natifs et personnalisés (sans les relations).
+* **Champs personnalisés** : champs définis par le client sur un formulaire personnalisé ou un enregistrement Planning.
+* **Champs Workfront** : champs natifs uniquement.
+* **Relations** : enregistrements connectés.
+
+![Sélection d&#39;objets à déclarer](assets/reportable-objects-selection.png)
+
+### Référencer des objets enfants
+
+Les relations disponibles pour les colonnes supplémentaires, les options de filtre et les attributs de regroupement sont généralement limitées aux objets situés plus haut dans la hiérarchie d&#39;objets Workfront ou comportent une seule sélection sur l&#39;objet d&#39;entité de base du rapport. Il existe certaines exceptions à cette règle, notamment :
+
+* Projet > Tâches
+* Approbation de document > Étapes d&#39;approbation de document
+* Étapes d&#39;approbation du document > Participants à l&#39;étape d&#39;approbation du document
+
+Lors de l’utilisation de l’une des relations parent-enfant répertoriées ci-dessus, une ligne s’affiche dans le tableau pour chaque enregistrement enfant connecté à l’objet parent.

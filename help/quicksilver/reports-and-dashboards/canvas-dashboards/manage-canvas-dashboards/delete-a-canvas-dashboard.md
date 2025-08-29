@@ -5,10 +5,11 @@ title: Suppression d’un tableau de bord de zone de travail
 description: Vous pouvez organiser l’affichage des rapports dans un tableau de bord Zone de travail après les avoir ajoutés.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 25%
+source-wordcount: '282'
+ht-degree: 19%
 
 ---
 
@@ -16,12 +17,19 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>
+>* Apporter votre propre clé pour Amazon Web Services
+>* Azure
+>* Google Cloud Platform
+
 
 Une fois que vous n’avez plus besoin d’un tableau de bord de zone de travail, vous pouvez le supprimer d’Adobe Workfront.
 
+## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +78,8 @@ Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/he
 
 >[!WARNING]
 >
->Une fois qu’un tableau de bord est supprimé, il ne peut pas être récupéré.
+> Une fois qu’un tableau de bord est supprimé, il est impossible de récupérer le tableau de bord et tous ses rapports et/ou visualisations personnalisés.<br>
+> > Si vous supprimez un tableau de bord qui contient un rapport classique, ce dernier ne sera pas supprimé.
 
 {{step1-to-dashboards}}
 

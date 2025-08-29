@@ -6,10 +6,10 @@ description: Les rapports créés à l’aide de l’outil Rapports Adobe Workfr
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 27%
+source-wordcount: '349'
+ht-degree: 21%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>
+>* Apporter votre propre clé pour Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Les rapports créés à l’aide de l’outil Rapports Adobe Workfront peuvent être ajoutés à un tableau de bord de zone de travail. Pour plus d’informations sur la création de rapports, voir [Prise en main des rapports](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
-+++ Développez pour afficher les exigences d’accès.
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,6 +63,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Ajouter un rapport existant à un tableau de bord de zones de travail
 
+
 {{step1-to-dashboards}}
 
 1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
@@ -76,9 +84,15 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
      >[!NOTE]
      >
-     > À ce stade de la version bêta, le widget d’accueil **Toutes les approbations** est le seul disponible. Cette liste s’agrandira au fur et à mesure de la progression de l’étape bêta.
+     > À ce stade de la version bêta, le widget **Mesures d’approbation des documents** d’accueil est le seul disponible. Cette liste s’agrandira au fur et à mesure de la progression de l’étape bêta.
 
 1. (Facultatif) Pour afficher les détails d’un rapport avant de l’ajouter au tableau de bord, cliquez sur **Afficher** en ligne avec le rapport souhaité.
 
 1. Cliquez sur **Ajouter** en ligne avec le rapport que vous souhaitez ajouter.
+
+   >[!NOTE]
+   >
+   > Si vous souhaitez ajouter un rapport existant supplémentaire à un tableau de bord après sa création, cliquez sur le bouton **Ajouter un rapport** dans le coin supérieur droit de la page des détails du tableau de bord, puis répétez les étapes 6 à 9.
+
+
 
