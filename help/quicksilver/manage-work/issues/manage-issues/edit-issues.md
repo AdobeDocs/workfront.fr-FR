@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 90%
+source-wordcount: '2618'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez modifier un seul problème ou modifier des problèmes dans une liste
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -163,11 +163,9 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
      <tr> 
       <td role="rowheader">Description</td> 
       <td> <p>Ajoutez des informations supplémentaires sur le problème.</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Section Informations de base</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Statut</td> 
       <td> <p>Sélectionnez le statut du problème. Pour plus d’informations sur les statuts des problèmes, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Accéder à la liste des statuts des problèmes du système</a>. </p> </td> 
      </tr> 
@@ -192,8 +190,24 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
         <li> <p style="font-weight: bold;">Bogue sans solution</p> </li> 
         <li> <p style="font-weight: bold;">Erreur fatale</p> </li> 
        </ul> <p>Selon les préférences de projet sélectionnées par votre administrateur ou administratrice Workfront, les noms des gravités peuvent être différents pour vous. Pour plus d’informations sur la modification des gravités, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">Créer ou personnaliser des gravités pour les problèmes</a>.</p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">Condition de l’événement</td> 
+   <td> <p>La condition d'un problème est un indicateur placé sur celui-ci pour indiquer comment il se passe.</p> 
+   <p>Vous pouvez définir la condition d’une tâche ou d’un problème automatiquement ou manuellement.</p>
+   <p>Vous devez être affecté à l'événement pour modifier son statut.</p>
+   <p>Sélectionnez l’une des options suivantes :</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">Tout est en ordre</p> </li> 
+   <li> <p style="font-weight: bold;">Certaines inquiétudes</p> </li> 
+   <li> <p style="font-weight: bold;">Obstacles majeurs</p> </li> 
+   </ul> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Saisissez un lien web qui se rapporte aux informations sur le problème.</p> </td> 
      </tr> 
