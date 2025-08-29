@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
+source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
 workflow-type: tm+mt
-source-wordcount: '7449'
+source-wordcount: '7469'
 ht-degree: 2%
 
 ---
@@ -180,6 +180,10 @@ Pour plus d’informations, voir les articles suivants :
 
 **Version préliminaire : 21 août 2025 ; Version de production : 28 août 2025**
 
+>[!NOTE]
+>
+>Cette fonctionnalité a été temporairement supprimée de l’environnement de production.
+
 Nous avons mis à jour l’aspect de la zone Nouvelle rubrique de file d’attente lorsque vous ajoutez une nouvelle rubrique de file d’attente à un projet ou un modèle, afin de correspondre à la conception d’autres zones de Workfront.
 
 Pour plus d&#39;informations, voir [Création de rubriques de file d&#39;attente](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -187,6 +191,10 @@ Pour plus d&#39;informations, voir [Création de rubriques de file d&#39;attente
 ### Mises à jour de l’interface lors de la modification d’une rubrique de file d’attente sur un projet ou un modèle
 
 **Version préliminaire : 21 août 2025 ; Version de production : 28 août 2025**
+
+>[!NOTE]
+>
+>Cette fonctionnalité a été temporairement supprimée de l’environnement de production.
 
 Nous avons mis à jour l’expérience lors de la modification d’une rubrique de file d’attente sur des projets et des modèles, afin de correspondre à d’autres zones de Workfront.
 

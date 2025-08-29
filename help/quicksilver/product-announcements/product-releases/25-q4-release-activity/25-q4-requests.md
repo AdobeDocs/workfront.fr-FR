@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 21%
+source-wordcount: '263'
+ht-degree: 18%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 21%
 Cette page décrit les améliorations apportées aux demandes à l’environnement de Prévisualisation avec la version du quatrième trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2025, voir [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Nouvelle colonne Statut combinée dans la liste des demandes unifiées
+
+>[!NOTE]
+>
+>* Aperçu : 28 août 2025
+>* Mise à jour rapide de la production : 11 septembre 2025
+>* Version de production pour toute la clientèle : vendredi 16 octobre 2025
+
+Pour simplifier l’expérience de demande unifiée, la colonne Statut affiche désormais à la fois le statut de la demande et le statut d’approbation, selon ce qui s’applique à une demande donnée.
+
+Pour plus d’informations sur la création de requêtes, voir :
+
+* Pour Workfront : [création et envoi de requêtes](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Pour Workfront Planning : [envoi de demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## Mises à jour de la demande d’expérience
 
