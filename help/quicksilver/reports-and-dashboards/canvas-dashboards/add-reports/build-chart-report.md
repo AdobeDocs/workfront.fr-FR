@@ -18,7 +18,7 @@ ht-degree: 6%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>&#x200B;>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
