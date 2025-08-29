@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 57%
+source-wordcount: '650'
+ht-degree: 56%
 
 ---
 
@@ -89,6 +89,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    * Pointez sur le nom de la devise et cliquez sur le menu **Plus** qui s’affiche. Sélectionnez ensuite **Rendre par défaut**.
 
      La nouvelle devise par défaut est mise à jour avec l’icône .
+
+     >[!NOTE]
+     >
+     >La devise par défaut apparaît toujours en premier dans la liste, quelle que soit la manière dont la liste est triée.
 
 1. (Facultatif) Pour supprimer une devise, cochez la case en regard du nom de la devise et sélectionnez **Supprimer** dans la barre d’actions située en bas de l’écran. Impossible de supprimer la devise par défaut.
 

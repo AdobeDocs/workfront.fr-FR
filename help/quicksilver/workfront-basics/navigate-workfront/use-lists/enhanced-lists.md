@@ -4,9 +4,10 @@ title: Utiliser des listes améliorées
 description: Les listes améliorées utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 8e88db186c574ea57dd609301b816d57636b125b
+exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1124'
 ht-degree: 7%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 7%
 
 {{preview-fast-release-general}}
 
-Des listes améliorées sont disponibles dans certaines parties d’Adobe Workfront. Ces listes utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard.
+Des listes améliorées sont disponibles dans certaines parties d’Adobe Workfront. Ces listes utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard. La gestion des vues est également améliorée, notamment le filtrage, le regroupement, la gestion des colonnes et la recherche.
 
 Pour plus d’informations sur les listes standard, voir [Prise en main des listes dans Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -67,7 +68,22 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 Selon la configuration de la liste améliorée, il peut y avoir deux façons d’ajouter un élément à la liste :
 
 * Cliquez sur un bouton au-dessus de la liste. Cette option ouvre une boîte de dialogue dans laquelle vous saisissez des informations et les enregistrez.
-* Cliquez sur **Nouvelle ligne** au bas de la liste. Cette option ajoute une nouvelle ligne au tableau et vous saisissez des informations dans chaque cellule. Si une cellule est limitée à un jeu de données spécifique (tel qu’un nom de devise), vous pouvez être invité à effectuer une sélection dans une liste ou à rechercher le nom.
+* Cliquez sur **Nouvelle ligne** au bas de la liste. Cette option ajoute une nouvelle ligne au tableau et vous saisissez des informations dans chaque cellule.
+
+  Les listes améliorées prennent en charge les types de champs suivants :
+
+   * Texte
+   * Nombre
+   * Devise
+   * Date
+   * Date et heure
+   * Listes déroulantes à sélection unique/multiple
+   * Frappe continue
+   * Paragraphe
+   * Personne désignée (une ou plusieurs)
+   * Sélecteur de couleurs
+
+  Lorsque vous modifiez une cellule, chaque type de champ possède ses propres options de modification.
 
 Pour modifier un élément de la liste, double-cliquez dans la cellule à modifier et tapez les informations. Certaines cellules peuvent être en lecture seule.
 
@@ -77,13 +93,19 @@ Pour modifier un élément de la liste, double-cliquez dans la cellule à modifi
 
 Lorsque vous cochez une case en regard d’un élément de la liste améliorée, la barre d’actions s’affiche en bas de l’écran et indique les actions que vous pouvez effectuer sur l’élément. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
 
-Cliquez sur un bouton de la barre d’actions pour effectuer cette action, par exemple afficher l’élément de liste, le supprimer ou en faire l’élément par défaut.
+>[!NOTE]
+>
+>Différentes listes améliorées peuvent permettre de sélectionner un seul élément, de modifier en bloc (en sélectionnant plusieurs éléments) ou de ne pas sélectionner d’élément.
+
+Cliquez sur un bouton de la barre d’actions pour effectuer cette action, par exemple afficher l’élément de liste, le supprimer ou le modifier.
 
 Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
 ![ Exemple de barre d’actions ](assets/glist-action-bar-exchange-rates.png)
 
-Le menu **Plus** est le menu à trois points qui s’affiche en regard d’un élément de liste lorsque vous le survolez avec votre curseur. Cliquez sur le menu pour afficher les actions supplémentaires pour l’élément. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
+Le menu **Plus** est le menu à trois points qui s’affiche en regard d’un champ principal d’un élément de liste lorsque vous le survolez avec votre souris. (Le champ principal est la colonne située le plus à gauche du tableau.)
+
+Cliquez sur le menu pour afficher les actions supplémentaires pour l’élément. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
 
 ![Exemple de menu Plus](assets/glist-more-menu-exchange-rates.png)
 
@@ -100,7 +122,9 @@ Certaines listes améliorées vous permettent de masquer et d’afficher des col
 
    >[!NOTE]
    >
-   >Un champ peut toujours être affiché ou fixé à la première position et vous ne pouvez pas modifier sa colonne.
+   >Le champ principal est la colonne située le plus à gauche du tableau. Il est fixe en première position et vous ne pouvez pas modifier sa colonne. Si le nombre de colonnes est important, le champ principal est figé à gauche et lorsque vous faites défiler l’écran horizontalement, il est toujours visible.
+   >
+   >L’icône en regard d’un nom de champ affiche le type de champ, tel que du texte ou un champ de date.
 
    <span class="preview">Un indicateur s’affiche sur le bouton **Colonnes** lorsque des colonnes sont masquées. L’indicateur n’apparaît pas lorsque vous réorganisez les colonnes.</span>
 
@@ -150,7 +174,7 @@ Pour trier des colonnes individuelles, accédez à la colonne et cliquez sur la 
 
 >[!NOTE]
 >
->Si la liste comporte un élément par défaut, cet élément sera toujours en tête de liste, quelle que soit la manière dont la liste est triée.
+>Certaines colonnes ne peuvent pas être triées.
 
 ![Trier par colonne](assets/glist-sort-by-column.png)
 
