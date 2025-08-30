@@ -6,7 +6,7 @@ description: Vous pouvez organiser l’affichage des rapports dans un tableau de
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 15%
@@ -18,14 +18,14 @@ ht-degree: 15%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->&#x200B;>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
 >* Google Cloud Platform
 
 
-Une fois qu’un rapport est ajouté à un tableau de bord Zone de travail, il s’affiche sous la forme d’un widget de rapport dans le tableau de bord afin que vous puissiez rapidement visualiser ses données en un coup d’œil. Une fois que plusieurs rapports ont été ajoutés, vous pouvez définir la taille de chaque widget pour qu’il s’adapte au contenu du rapport dans le tableau de bord, puis ajuster la position de chaque widget pour afficher les données plus efficacement.
+Une fois qu’un rapport est ajouté à un tableau de bord Zone de travail, il s’affiche sous la forme d’un widget de rapport dans le tableau de bord afin que vous puissiez rapidement visualiser ses données en un coup d’œil. Une fois que plusieurs rapports ont été ajoutés, vous pouvez définir la taille de chaque widget pour qu’elle s’adapte au contenu du rapport dans le tableau de bord, puis ajuster la position de chaque widget pour afficher les données plus efficacement.
 
 ## Conditions d’accès
 
