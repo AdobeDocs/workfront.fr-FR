@@ -4,10 +4,10 @@ description: Il s’agit d’un article interne permettant à notre équipe de t
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
+source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 46%
+source-wordcount: '752'
+ht-degree: 44%
 
 ---
 
@@ -208,36 +208,59 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
 </col> 
 <tbody> 
 <tr> 
-<td> 
-   <p> Produits</p> </td> 
-   <td> 
-   <p> Adobe Workfront</p>
-   </td> 
-  </tr>
-
-<tr> 
    <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
    <td> 
-<p>Tout package de workflow Adobe Workfront et tout package Adobe Workfront Planning</p> 
+<ul><li><p>Tout package Workfront</p></li>
+Et
+<li><p>N’importe quel package Planning</p></li></ul>
+Ou
+<ul><li><p>N’importe quel package de workflow</p></li>
+Et
+<li><p>N’importe quel package Planning</p></li></ul>
    </td> </tr>
-<td role="rowheader"><p>Plateforme Adobe Workfront (**&#x200B;**&#x200B;voulons-nous l’appeler ou simplement l’inclure dans l’article lié en bas ???**&#x200B;***)</p></td> 
-   <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
+
+</tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p> Standard</p> 
+   <td><p>Standard</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>   
-</td> 
-  </tr> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
+   <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Exigences d’accès pour les types d’enregistrements centralisés dans Workfront Planning
+
+Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
 <tr> 
+   <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
+   <td>
+
+<ul><li><p>Tout package de Workfront ou de workflow</p></li>
+Et
+<li><p>Un package Prime ou Ultimate Planning</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
@@ -248,14 +271,11 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-
-
 ## Conditions d’accès requises pour la plupart des planificateurs de scénarios
 
 >[!NOTE]
 >
 >Si votre société a acheté le planificateur de scénarios Adobe par le passé, il bénéficie d’une clause d’antériorité. Le planificateur de scénarios ne peut plus être acheté.
-
 
 Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
@@ -264,24 +284,61 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
  <col> 
  <tbody>
 
-<td> <p>[!DNL Adobe Workfront] Package</p> </td> 
+<td> <p>Package Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
+   <td> <p>Licence Adobe Workfront</p> </td> 
    <td> <p>Léger ou supérieur</p> 
    Ou
-   <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
+   <p>Révision ou supérieur</p> </td> 
   </tr>
 
 <td><p>Configurations des niveaux d’accès</p> </td> 
-   <td> <p>Accès [!UICONTROL Edit] à [!DNL Scenario Planner]</p> </td> 
+   <td> <p>Modifier l’accès au planificateur de scénarios</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorisations d’objet </p> </td> 
-   <td> <p>Autorisations [!UICONTROL Manage] pour un plan</p>  </td> 
+   <td> <p>Gérer les autorisations d’un plan</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Conditions d’accès requises pour la plupart des objectifs Workfront
+
+>[!NOTE]
+>
+>Si votre société a acheté les objectifs Adobe Workfront par le passé, elle bénéficie de droits acquis. Les Objectifs Adobe Workfront ne peuvent plus être achetés.
+
+Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody>
+
+<td> <p>Package Adobe Workfront</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Licence Adobe Workfront</p> </td> 
+   <td> <p>Contributeur ou version ultérieure</p> 
+   Ou
+   <p>Demandeur ou supérieur</p> </td> 
+  </tr>
+
+<td><p>Configurations des niveaux d’accès</p> </td> 
+   <td> <p>Modifier l’accès aux Objectifs</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Autorisations d’objet </p> </td> 
+   <td> <p>Gestion des autorisations relatives à un objectif</p>  </td> 
   </tr> 
  </tbody> 
 </table>

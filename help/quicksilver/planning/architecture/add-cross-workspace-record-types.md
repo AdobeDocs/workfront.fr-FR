@@ -4,10 +4,10 @@ description: Les types d’enregistrements sont les types d’objets d’Adobe 
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 15%
+source-wordcount: '584'
+ht-degree: 11%
 
 ---
 
@@ -44,48 +44,28 @@ Pour plus d’informations, voir [Configuration des fonctionnalités de plusieur
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Produits</p> </td> 
+   <td role="rowheader"><p>Package Adobe Workfront*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td> 
-<p>L’un des plans Workfront suivants :</p> 
-<ul><li>Sélectionner</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Tous </p> 
+<ul><li><p>Tout package Workfront</p></li>
+Et
+<li><p>Package Planning Plus</p></li></ul>
+Ou :
+<ul><li><p>N’importe quel package de workflow</p> </li>
+Et
+<li><p>Package Planning Prime ou Ultimate</p></li></ul>
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
-   <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
@@ -105,8 +85,9 @@ Remarques concernant l’ajout de types d’enregistrements existants depuis un 
 * Après avoir ajouté le type d’enregistrement à partir d’un autre espace de travail, les informations suivantes sont également ajoutées à partir du type d’enregistrement existant :
 
    * Champs
-   * Enregistrements
    * Connexions d’enregistrement
+
+* Vous pouvez afficher les enregistrements ajoutés à partir d’autres espaces de travail uniquement lorsque vous disposez d’autorisations sur ces espaces de travail.
 
 * Vous ne pouvez modifier le type d’enregistrement, y compris ses champs, que dans son espace de travail d’origine. Vous ne pouvez pas le modifier à partir des espaces de travail où il a été ajouté.
 * Les enregistrements ajoutés à partir de tous les espaces de travail seront visibles pour tous les utilisateurs qui y accèdent à partir de tous les espaces de travail, même s&#39;ils sont créés dans un espace de travail où ils ne disposent d&#39;aucune autorisation.

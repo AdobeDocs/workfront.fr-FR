@@ -4,10 +4,10 @@ description: Vous pouvez activer l’ajout d’un type d’enregistrement à un 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 11%
+source-wordcount: '1052'
+ht-degree: 9%
 
 ---
 
@@ -65,7 +65,7 @@ Pour plus d’informations, consultez l’un des articles suivants :
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.  
++++ Développez pour afficher les conditions d’accès requises pour la fonctionnalité de cet article.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -74,52 +74,32 @@ Pour plus d’informations, consultez l’un des articles suivants :
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Produits</p> </td> 
+   <td role="rowheader"><p>Package Adobe Workfront*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td> 
-<p>L’un des plans Workfront suivants :</p> 
-<ul><li>Sélectionner</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Tous </p> 
+<ul><li><p>Tout package Workfront</p></li>
+Et
+<li><p>Package Planning Plus</p></li></ul>
+Ou :
+<ul><li><p>N’importe quel package de workflow</p> </li>
+Et
+<li><p>Package Planning Prime ou Ultimate</p></li></ul>
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
-   <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -130,12 +110,15 @@ Pour plus d’informations, consultez l’un des articles suivants :
 ## Configuration des types d’enregistrements centralisés
 
 <!--this is a UI term; don't change the title of this section-->
+<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-En tant que gestionnaire d’espace de travail, vous pouvez configurer un type d’enregistrement à ajouter à d’autres espaces de travail lorsque vous créez ou modifiez un type d’enregistrement.
+En tant que gestionnaire d’espace de travail, vous pouvez configurer un type d’enregistrement comme étant un type d’enregistrement centralisé. Un type d’enregistrement centralisé peut être ajouté à d’autres espaces de travail.
 
-Lorsque vous configurez l’ajout d’un type d’enregistrement à d’autres espaces de travail, un gestionnaire d’espace de travail peut importer le type d’enregistrement et toutes ses informations dans l’un des espaces de travail qu’il gère.
+Un gestionnaire d’espace de travail peut ajouter un type d’enregistrement centralisé à un espace de travail qu’il gère. Les champs d’origine du type d’enregistrement sont également ajoutés.
 
-Pour configurer l’ajout d’un type d’enregistrement à un autre espace de travail lorsque vous modifiez le type d’enregistrement :
+Les utilisateurs peuvent ajouter des enregistrements à un type d’enregistrement centralisé à partir de n’importe quel espace de travail auquel ils ont accès pour contribuer là où ce type d’enregistrement est ajouté, y compris son espace de travail principal. Ils ne peuvent afficher que les enregistrements de l’espace de travail qu’ils sont autorisés à afficher.
+
+Pour configurer l’ajout d’un type d’enregistrement en tant que type d’enregistrement centralisé :
 
 {{step1-to-planning}}
 
@@ -181,6 +164,9 @@ Ou
      Le champ Workspace affiche l’espace de travail à partir duquel chaque enregistrement a été créé.
 
      Ce champ est en lecture seule et ne peut pas être supprimé.
+1. (Facultatif) Accédez à un autre espace de travail et créez un type d’enregistrement à l’aide d’un type d’enregistrement existant. Sélectionnez le type d’enregistrement que vous avez activé dans les étapes ci-dessus.
+
+   Pour plus d’informations, voir [ Ajouter des types d’enregistrements existants ](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
 ## Configuration des types d’enregistrements connectables
 
@@ -222,6 +208,9 @@ Ou
    * La carte de type d’enregistrement affiche une icône de connexion entre espaces de travail ![icône de connexion entre espaces de travail](assets/connect-from-other-workspaces-icon.png) pour indiquer que le type d’enregistrement peut être connecté à partir de n’importe quel espace de travail que vous avez désigné dans votre configuration.
 
    Le type d’enregistrement peut être connecté à partir des espaces de travail désignés.
+1. (Facultatif) Accédez à un autre espace de travail et ajoutez une connexion au type d’enregistrement que vous avez activé pour la connectabilité entre les espaces de travail dans les étapes ci-dessus.
+
+   Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 
