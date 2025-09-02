@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: e835f3721f8d732780ab199fd6da47f563004077
+source-git-commit: ab70d832c7c03f116d68f8bad394f44f5ecca8cf
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1901'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>25.8 (Août 2025)</li><li>25.9 (Septembre 2025)</li><li>25H10 (Octobre 2025)</li></ul> | <ul><li>25H10 (Octobre 2025)</li></ul> |
+>| <ul><li>25.8 (14 Août 2025)</li><li>25,9 (11 septembre 2025)</li><li>25H10 (16 Octobre 2025)</li></ul> | <ul><li>25H10 (16 Octobre 2025)</li></ul> |
 >
 >Notez que pour la version finale de chaque trimestre (25.10 ce trimestre), les utilisateurs disposant du calendrier de publication rapide recevront la version un jour plus tôt que prévu.
 >
@@ -398,7 +398,7 @@ Pour offrir des intégrations plus stables et plus évolutives, nous passons à 
 * Workfront pour Salesforce.
 
 Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
-Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Version 20 de l’API
 
@@ -410,7 +410,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
