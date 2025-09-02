@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '2666'
-ht-degree: 75%
+source-wordcount: '2739'
+ht-degree: 73%
 
 ---
 
@@ -89,6 +89,10 @@ Pour créer, interroger ou supprimer un abonnement à un événement, l’utilis
 * Un en-tête `sessionID` est requis pour utiliser l’API d’abonnement aux événements.
 
   Pour plus d’informations, consultez la section [Authentification](api-basics.md#authentication) dans [Concepts de base de l’API](api-basics.md).
+
+## Éviter de surcharger les abonnements aux événements
+
+Le service d’abonnement aux événements est conçu pour fournir une diffusion fiable des événements à tous les utilisateurs. Pour ce faire, des mesures de protection ont été mises en place pour éviter une production excessive d’événements par un seul utilisateur, ce qui pourrait entraîner des problèmes potentiels de qualité de service pour tous les utilisateurs. Par conséquent, un utilisateur ou une utilisatrice qui produit trop d’événements à un taux élevé sur une courte période peut faire l’objet de sandbox et de retards de diffusion d’événements.
 
 ## Créer la ressource d’abonnement
 
@@ -812,7 +816,7 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 >[!NOTE]
 >
 >L’abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur `oldState`, ce qu’il était avant qu’une mise à jour ne soit effectuée sur la tâche.
->&#x200B;>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
+>>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
 
 ```
 {

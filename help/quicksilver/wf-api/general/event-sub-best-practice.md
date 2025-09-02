@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 97%
+source-wordcount: '355'
+ht-degree: 77%
 
 ---
 
@@ -29,6 +29,10 @@ Assurez-vous que tous les champs du corps de requête obligatoires sont fournis 
 ## Éviter d’inclure des champs de corps supplémentaires
 
 N’incluez pas de champs de corps supplémentaires dans la requête, car cela entraînera l’échec de l’API lors de la création de l’abonnement.
+
+## Éviter de surcharger les abonnements aux événements
+
+Le service d’abonnement aux événements est conçu pour fournir une diffusion fiable des événements à tous les utilisateurs. Pour ce faire, des mesures de protection ont été mises en place pour éviter une production excessive d’événements par un seul utilisateur, ce qui pourrait entraîner des problèmes potentiels de qualité de service pour tous les utilisateurs. Par conséquent, un utilisateur ou une utilisatrice qui produit trop d’événements à un taux élevé sur une courte période peut faire l’objet de sandbox et de retards de diffusion d’événements.
 
 ## Terminer le test dans le délai de grâce
 
