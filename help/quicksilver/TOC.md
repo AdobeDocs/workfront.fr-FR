@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 9b09452cbde87f0903283eca2021e9aef4b67e59
+source-git-commit: ae8ef9f24b8c641f4e4f456d4a05107a10dd7cb1
 workflow-type: tm+mt
 source-wordcount: '13469'
 ht-degree: 85%
@@ -555,9 +555,9 @@ ht-degree: 85%
       * Modèles de mise en page {#layout-templates}
          * [Modèles de mise en page](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [Disposition Workfront par défaut](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-         * [Créer et gérer des modèles de disposition](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
+         * [Créer et gérer des modèles de mise en page](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
          * [Personnaliser le menu principal](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-         * [Personnaliser les en-têtes d’objet avec un modèle de disposition](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
+         * [Personnaliser les en-têtes d’objet avec un modèle de mise en page](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [Personnaliser le panneau de gauche](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [Personnaliser la vue Détails](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [Personnalisation du panneau Résumé à l’aide d’un modèle de mise en page](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
@@ -567,11 +567,11 @@ ht-degree: 85%
          * [Personnaliser la terminologie de l’interface utilisateur](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
          * [Personnaliser la page de destination](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
          * [Personnaliser le branding de Workfront](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
-         * [Tester un modèle de disposition](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
-         * [Accès administratif pour les modèles de disposition](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
-         * [Affecter des utilisateurs et des utilisatrices à des modèles de disposition](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
-         * [Copier un modèle de disposition](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-         * [Supprimer des modèles de disposition classiques à l’aide d’un appel API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+         * [Tester un modèle de mise en page](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+         * [Accès administratif pour les modèles de mise en page](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
+         * [Affecter des utilisateurs et des utilisatrices à des modèles de mise en page](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+         * [Copier un modèle de mise en page](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+         * [Supprimer les modèles de mise en page classiques à l’aide d’un appel API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Formulaires personnalisés {#custom-forms}
          * [Formulaires personnalisés : index des articles](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Vue d’ensemble des formulaires personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
@@ -743,7 +743,7 @@ ht-degree: 85%
       * Utiliser des objets d’un groupe {#group-objects}
          * [Gérer les objets des groupes](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
          * [Gérer les entreprises des groupes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
-         * [Gérer les modèles de disposition des groupes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
+         * [Gérer les modèles de mise en page des groupes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
          * [Gérer les portfolios des groupes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
          * [Gérer les programmes des groupes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)
          * [Gérer les équipes des groupes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
@@ -1617,14 +1617,14 @@ ht-degree: 85%
          * [Regroupement : afficher le résultat de l’agrégation de plusieurs valeurs calculées dans un regroupement.](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
          * [Regroupement : indiquer si les résultats d’un regroupement doivent être réduits ou développés en mode texte](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
          * [Regroupement : répartition en pourcentage du projet 1](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
-         * [Regroupement : ventilation en pourcentage des projets (2)](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
+         * [Regroupement : répartition en pourcentage des projets (2)](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
          * [Regroupement : projets par date d’entrée](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
          * [Regroupement : sponsor du projet pour les heures](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
          * [Regroupement : sponsor du projet pour une liste de tâches](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
          * [Regroupement : modifier le nom d’affichage dans un regroupement](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
          * [Regroupement : groupe principal de la personne propriétaire de projet dans une liste d’heures](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
          * [Regroupement : répartition 1 du pourcentage de tâche](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
-         * [Regroupement : ventilation en pourcentage des tâches (2)](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
+         * [Regroupement : répartition en pourcentage des tâches (2)](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
          * [Regroupement : tâches par portfolio, programme et projet](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
          * [Rapport : heure budgétée](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
          * [Rapport : vue et regroupement des tâches et des problèmes combinés](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
@@ -1952,10 +1952,10 @@ ht-degree: 85%
          * [Relire un PowerPoint avec une vidéo incorporée](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [Les versions d’épreuve ne peuvent pas être téléchargées ou prévisualisées lorsqu’une épreuve interactive est ajoutée en tant que nouvelle version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Intégrations natives {#native-integrations}
-   * [Révision et approbation des intégrations natives : index des articles](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-   * [Prise en main de la relecture et de l’intégration de GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-   * [Prise en main de la relecture et de Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
-   * [Prise en main de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+      * [Révision et approbation des intégrations natives : index des articles](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+      * [Prise en main de la relecture et de l’intégration de GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+      * [Prise en main de la relecture et de Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+      * [Prise en main de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
    * Conseils, astuces et dépannage pour les approbations {#ttt-approvals}
       * [Conseils, astuces et dépannage pour les approbations : index des articles](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Afficher le nombre de décisions d’épreuve et de document pour tous les utilisateurs et utilisatrices](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
