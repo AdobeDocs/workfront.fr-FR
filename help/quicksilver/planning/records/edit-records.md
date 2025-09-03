@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '2192'
-ht-degree: 44%
+source-wordcount: '2332'
+ht-degree: 41%
 
 ---
 
@@ -108,8 +108,16 @@ Pour plus d’informations sur la création d’enregistrements, voir [Créer de
    * En ligne, dans une vue de tableau
 <!--* You can edit a record's dates from the following areas:
         * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * <span class="preview">In a timeline view, by resizing the record bars</span>
+         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+<!-- when drag and drop is available replace the last 2 points with this:
+
+* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
+* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
+    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+-->
 
 * Lorsque l’utilisateur modifie un enregistrement dans une vue, les modifications sont immédiatement visibles dans toutes les vues et dans les pages d’enregistrement pour tous les autres utilisateurs.
 
@@ -127,10 +135,16 @@ Pour plus d’informations sur la création d’enregistrements, voir [Créer de
 
 Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
-* [Vue Tableau d’un type d’enregistrement](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Vue Tableau](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [La vue Chronologie](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [La vue Calendrier](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [Aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view)
 * [La page de l’enregistrement](#edit-a-record-from-the-records-page)
 * [Objet Workfront dans la section Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+
+Pour modifier les dates des enregistrements, procédez comme suit :
+
+* [Redimensionner les barres des enregistrements en mode Chronologie et Calendrier]
 
 ### Modifier un enregistrement en ligne dans la vue de tableau d’un type d’enregistrement
 
@@ -222,6 +236,39 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. (Facultatif) Ajoutez une miniature à un enregistrement. Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
+
+### Modifier un enregistrement dans la vue chronologique d’un type d’enregistrement
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Ouvrez la page de type d’enregistrement dans une vue chronologique. Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+<!--
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+-->
+
+1. Cliquez sur la barre d’un enregistrement pour ouvrir sa zone de détails et modifier tous les champs.
+
+   Pour plus d&#39;informations, consultez la section [Modifier un enregistrement à partir de l&#39;aperçu de l&#39;enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view) de cet article.
+
+### Modifier un enregistrement dans la vue Calendrier d’un type d’enregistrement
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Ouvrez la page de type d’enregistrement dans une vue Calendrier. Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+<!--
+1. (Conditional) Select **Month** in the upper-right dropdown menu.
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+-->
+
+1. Cliquez sur la barre d’un enregistrement pour ouvrir sa zone de détails et modifier tous les champs.
+
+   Pour plus d&#39;informations, consultez la section [Modifier un enregistrement à partir de l&#39;aperçu de l&#39;enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view) de cet article.
+
 ### Modifier un enregistrement à partir de l&#39;aperçu de l&#39;enregistrement dans une vue
 
 {{step1-to-planning}}
@@ -244,7 +291,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
-   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 

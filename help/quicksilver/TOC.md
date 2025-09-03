@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ae8ef9f24b8c641f4e4f456d4a05107a10dd7cb1
+source-git-commit: 0d6550a8f456d1e4c21406fbaf1baf9c632c48e2
 workflow-type: tm+mt
-source-wordcount: '13469'
+source-wordcount: '13473'
 ht-degree: 85%
 
 ---
@@ -2076,6 +2076,7 @@ ht-degree: 85%
       * [Vue d’ensemble des types d’enregistrement](planning/architecture/overview-of-record-types.md)
       * [Créer des types d’enregistrements](planning/architecture/create-record-types.md)
       * [Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](planning/architecture/import-file-to-create-record-types.md)
+      * [Types d’enregistrements centralisés - Aperçu](planning/architecture/centralized-record-types-overview.md)
       * [Configurer les fonctionnalités de l’espace de travail croisé pour les types d’enregistrements](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
       * [Ajouter des types d’enregistrements existants](planning/architecture/add-cross-workspace-record-types.md)
       * [Présentation des types d’enregistrements Connect](planning/architecture/connect-record-types-overview.md)

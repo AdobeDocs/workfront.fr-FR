@@ -4,9 +4,9 @@ description: Il s’agit d’un article interne permettant à notre équipe de t
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 45%
 
 ---
@@ -249,9 +249,13 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
    <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
    <td>
 
-<ul><li><p>Tout package de Workfront ou de workflow</p></li>
-Et
-<li><p>Un package Prime ou Ultimate Planning</p></li></ul>
+<ul><li><p>Tout package Workfront</p></li>
+  Et
+  <li><p>Package Planning Plus</p></li></ul>
+  Ou :
+  <ul><li><p>N’importe quel package de workflow</p> </li>
+  Et
+  <li><p>Package Planning Prime ou Ultimate</p></li></ul>
    </td> </tr>
 
 </tr> 
