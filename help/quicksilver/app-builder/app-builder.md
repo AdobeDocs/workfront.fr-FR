@@ -154,13 +154,13 @@ Pour autoriser les applications personnalisées dans le menu principal de Workfr
 Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce code a été créé pour vous par le modèle. Ce code peut être ajouté pour créer des éléments de menu supplémentaires. Veillez à remplacer les identifiants et les URL.
 
     «
-    mainMenu: {
+    mainMenu: &lbrace;
     
-    getItems() {
+    getItems() &lbrace;
     
-    return [
+    return &lbrack;
     
-    {
+    &lbrace;
     
     id: &#39;main-menu-label&#39;,
     
@@ -170,13 +170,13 @@ Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce co
     
     icon: icon1,
     
-    },
+    &rbrace;,
     
-    ];
+    &rbrack;;
     
-    },
+    &rbrace;,
     
-    }
+    &rbrace;
     «
 
 1. Ajoutez le fragment de code suivant :
