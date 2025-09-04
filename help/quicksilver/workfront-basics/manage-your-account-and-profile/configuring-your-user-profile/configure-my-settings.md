@@ -6,16 +6,14 @@ description: Votre profil  [!DNL Adobe Workfront]  contient des informations vou
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3288'
-ht-degree: 95%
+source-wordcount: '3317'
+ht-degree: 94%
 
 ---
 
 # Configurer Mes paramètres
-
-{{highlighted-preview}}
 
 <!-- Audited: 01/2024 -->
 
@@ -248,7 +246,7 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
    <td> Mettez à jour votre adresse e-mail. Champ obligatoire. Gardez à l’esprit que votre adresse e-mail est également votre nom d’utilisateur ou d’utilisatrice pour [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Reset password]</strong> / <span class="preview"><strong>Modifier le mot de passe</strong></span></td> 
+   <td role="rowheader"><strong>[!UICONTROL Modifier le mot de passe]</strong></td> 
    <td>Réinitialisez votre mot de passe dans cette section. Pour plus d’informations sur la réinitialisation de votre mot de passe, voir <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Réinitialiser votre mot de passe</a>.</td> 
   </tr> 
   <tr> 
@@ -344,6 +342,9 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
    <td><p>Indiquez ici votre langue préférée. Cela contrôle le format de la langue, de la date et des chiffres utilisé dans les e-mails sortants.</p>
    <p><strong>REMARQUE :</strong> lorsque votre organisation se trouve sur l’expérience unifiée Adobe, les préférences linguistiques sont stockées dans votre profil Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Pour plus d’informations, consultez la section <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Modification de la langue Adobe Experience Cloud</a> dans l’article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Langues prises en charge dans Adobe Workfront</a>.</p></td> 
   </tr>
+  <tr><td><strong>[!UICONTROL Envoyer le travail que je m'attribue dans mon onglet Travailler sur]</strong> </td>
+  <td>Sélectionnez cette option si vous souhaitez que le statut du travail que vous vous affectez soit automatiquement défini sur En cours au lieu de Nouveau.</td>
+  </tr>
   <tr> 
    <td role="rowheader"><strong>(Le cas échéant) Générer des épreuves automatiquement lors du chargement de documents</strong></td> 
    <td>Sélectionnez ce champ pour commencer à générer une épreuve immédiatement après le chargement du document dans [!DNL Workfront]. Ce champ est désactivé par défaut et ne peut être mis à jour que par un administrateur ou une administratrice Workfront.<br>Ce champ n’est disponible que si votre entreprise a acheté le composant Workfront Proof pour Workfront et si votre activation en tant qu’utilisateur ou utilisatrice d’épreuve est effective. Pour plus d’informations sur Workfront Proof, voir <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gérer des épreuves dans Adobe Workfront</a>.
@@ -428,7 +429,7 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Home Team]</strong> </td> 
-   <td> <p>Sélectionnez une <strong>[!UICONTROL Home Team]</strong> dans le menu déroulant. Ce champ est visible pour les personnes disposant d’un niveau d’accès [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL System Administrator]. Il n’est modifiable que pour les administrateurs, administratrices, utilisateurs et utilisatrices [!DNL Workfront] disposant d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] qui disposent également d’un accès administrateur. Pour plus d’informations sur la configuration des personnes disposant d’un accès administrateur, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurer l’accès des personnes à la modification des utilisateurs et utilisatrices à l’aide d’un niveau d’accès personnalisé</a> dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.<br></p> <p>Votre <strong>équipe interne</strong> peut affecter l’aspect de votre interface [!DNL Workfront], si un modèle de disposition est associé à l’équipe. </p> <p>Pour plus d’informations sur les équipes, voir <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Vue d’ensemble des équipes</a>.</p> </td>
+   <td> <p>Sélectionnez une <strong>[!UICONTROL Home Team]</strong> dans le menu déroulant. Ce champ est visible pour les personnes disposant d’un niveau d’accès [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL System Administrator]. Il n’est modifiable que pour les administrateurs, administratrices, utilisateurs et utilisatrices [!DNL Workfront] disposant d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] qui disposent également d’un accès administrateur. Pour plus d’informations sur la configuration des personnes disposant d’un accès administrateur, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurer l’accès des personnes à la modification des utilisateurs et utilisatrices à l’aide d’un niveau d’accès personnalisé</a> dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.<br></p> <p>Votre <strong>équipe interne</strong> peut affecter l’aspect de votre interface [!DNL Workfront], si un modèle de mise en page est associé à l’équipe. </p> <p>Pour plus d’informations sur les équipes, voir <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Vue d’ensemble des équipes</a>.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Other Teams]</strong> </td> 
@@ -456,8 +457,8 @@ Utilisez l’une des méthodes suivantes de cette section :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong> / <span class="preview"><strong>Définir la date de désactivation</strong></span></td> 
-   <td><p>Cochez cette case / <span class="preview">cliquez sur ce bouton</span> si vous souhaitez planifier la désactivation de votre compte après un certain temps. Dans la <strong>[!UICONTROL Scheduled Deactivation Date]</strong> qui s’affiche, indiquez la date à laquelle votre compte sera désactivé. Pour plus d’informations sur la désactivation des utilisateurs et utilisatrices, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Planifier la désactivation d’utilisateurs et d’utilisatrices</a> dans <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactiver ou réactiver un utilisateur ou une utilisatrice</a>.</p><p>Vous pouvez modifier les champs de désactivation de votre compte si vous disposez d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] ou si vous êtes l’administrateur ou l’administratrice [!DNL Workfront].</p></td> 
+   <td role="rowheader"><strong>[!UICONTROL Set deactivation date]</strong></td>
+   <td><p>Cliquez sur ce bouton si vous souhaitez planifier la désactivation de votre compte après un certain temps. Dans la <strong>[!UICONTROL Scheduled Deactivation Date]</strong> qui s’affiche, indiquez la date à laquelle votre compte sera désactivé. Pour plus d’informations sur la désactivation des utilisateurs et utilisatrices, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Planifier la désactivation d’utilisateurs et d’utilisatrices</a> dans <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactiver ou réactiver un utilisateur ou une utilisatrice</a>.</p><p>Vous pouvez modifier les champs de désactivation de votre compte si vous disposez d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] ou si vous êtes l’administrateur ou l’administratrice [!DNL Workfront].</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3425'
 ht-degree: 70%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 70%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -75,7 +75,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    La zone Modifier l’utilisateur ou l’utilisatrice s’affiche.
 
-1. Dans la zone **Modifier l’utilisateur**, modifiez les informations de l’une des sections, puis cliquez sur **Enregistrer les modifications** <span class="preview">ou **Enregistrer**</span> à tout moment.
+1. Dans la zone **Modifier l’utilisateur**, modifiez les informations de l’une des sections, puis cliquez sur **Enregistrer** à tout moment.
 
 ### Infos personnelles
 
@@ -94,7 +94,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
   Si votre organisation a été migrée vers Adobe Admin Console, vous ne pouvez pas modifier l’adresse e-mail d’un utilisateur dans Workfront. L’adresse e-mail de l’utilisateur est définie dans le Adobe Admin Console.
 
-* **Réinitialiser le mot de passe** / <span class="preview">**Modifier le mot de passe**</span> : cliquez sur ce lien pour réinitialiser le mot de passe de l’utilisateur. Vous devez saisir votre propre mot de passe avant de pouvoir réinitialiser le mot de passe d’un autre utilisateur ou d’une autre utilisatrice.
+* **Modifier le mot de passe** : cliquez sur ce bouton pour réinitialiser le mot de passe de l’utilisateur. Vous devez saisir votre propre mot de passe avant de pouvoir réinitialiser le mot de passe d’un autre utilisateur ou d’une autre utilisatrice.
 
   Pour réinitialiser le mot de passe d’une autre personne, vous devez être administrateur ou administratrice Workfront ou de groupes.
 
@@ -121,7 +121,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
   >
   >Si vous êtes administrateur ou administratrice de groupes et que l’autorisation Administration des utilisateurs et utilisatrices (tous les utilisateurs et utilisatrices) est activée dans votre niveau d’accès, vous pouvez modifier les champs &lt;SSO Configuration> pour tous les utilisateurs et toutes les utilisatrices.
 
-* **Photo de profil** : cliquez sur **Télécharger la photo** / <span class="preview">**Télécharger une nouvelle photo**</span> pour charger la photo de profil de l’utilisateur. Vous pouvez charger un fichier JPG, GIF ou PNG. La limite de taille de fichier est de 4 Mo.
+* **Photo de profil** : cliquez sur **Charger nouveau** pour charger la photo de profil de l’utilisateur. Vous pouvez charger un fichier JPG, GIF ou PNG. La limite de taille de fichier est de 4 Mo.
 
   L’image de profil devient l’avatar de l’utilisateur et elle est visible dans tout le système Workfront, quel que soit l’endroit où le nom d’utilisateur est affiché.
 
@@ -148,7 +148,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
   >
   >Cette option n’est actuellement disponible que dans les environnements Prévisualisation et Sandbox. Par défaut, les notifications par e-mail sont activées dans l’environnement de production.
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **Envoyer le travail que je me suis affecté dans l’onglet Travailler sur** : lorsque cette option est sélectionnée, le travail que l’utilisateur s’affecte automatiquement est défini sur le statut En cours au lieu de Nouveau. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **Générer automatiquement des épreuves lors du chargement de documents** : cochez cette option si vous souhaitez que les documents que l’utilisateur ou l’utilisatrice charge génèrent immédiatement une épreuve.
 
@@ -162,7 +162,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
 
 ### Accès
 
-* **Est actif** / <span class="preview">**L’utilisateur est actif**</span> : activez cette option pour indiquer que l’utilisateur est actif. Les utilisateurs et utilisatrices actifs utilisent une licence Workfront. La désactivation du champ désactive l’utilisateur et l’empêche de se connecter à Workfront.
+* **L’utilisateur est actif** : activez cette option pour indiquer que l’utilisateur est actif. Les utilisateurs et utilisatrices actifs utilisent une licence Workfront. La désactivation du champ désactive l’utilisateur et l’empêche de se connecter à Workfront.
 
 * **Niveau d’accès** : sélectionnez le niveau d’accès à affecter à cet utilisateur.
 
@@ -187,7 +187,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
   La liste suivante décrit la manière dont la liste des modèles disponibles dans ce champ dépend de votre accès :
 
    * En tant qu’administrateur ou administratrice Workfront, vous pouvez consulter tous les modèles de mise en page au niveau du système et du groupe.
-   * En tant qu’administrateur ou administratrice de groupes, vous pouvez voir le modèle de disposition au niveau du système, ainsi que ceux associés aux groupes que vous gérez.
+   * En tant qu’administrateur ou administratrice de groupes, vous pouvez voir le modèle de mise en page au niveau du système, ainsi que ceux associés aux groupes que vous gérez.
    * Les utilisateurs disposant d’une licence Standard ou Plan et ayant accès à la modification d’utilisateurs ne peuvent afficher que des modèles de mise en page au niveau du système.
 
      Pour plus d’informations sur les modèles de mise en page au niveau du groupe, voir [Création et modification de modèles de mise en page d’un groupe](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
@@ -197,9 +197,9 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
 * **Entreprise** : entreprise des utilisateurs et utilisatrices. Les personnes ne peuvent être associées qu’à une seule entreprise. Vous devez créer une entreprise avant de pouvoir l’associer à une personne. Seules les entreprises actives sont affichées dans la liste. Pour plus d’informations sur la création d’entreprises, voir [Créer et modifier des entreprises](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 * **Rend compte à** : si vous avez spécifié une société pour l’utilisateur, vous pouvez également spécifier le responsable direct de l’utilisateur dans ce champ. Un utilisateur ou une utilisatrice ne peut avoir qu’une seule personne responsable. Ce champ ne s’affiche pas si l’utilisateur ou utilisatrice n’est pas d’abord associé à une entreprise.
 * **Rapports directs** : si vous avez spécifié une société pour l’utilisateur, vous pouvez également spécifier les rapports directs de l’utilisateur. Un utilisateur ou une utilisatrice peut avoir plusieurs rapports directs. Ce champ ne s’affiche pas si l’utilisateur ou utilisatrice n’est pas d’abord associé à une entreprise.
-* **Équipe principale** : indiquez l’équipe principale de l’utilisateur ou utilisatrice. Les personnes ne peuvent avoir qu’une seule équipe principale. L’équipe principale est importante lors de l’attribution d’un modèle de disposition ou de la définition du bouton Travailler dessus pour les tâches et les problèmes assignés à l’utilisateur ou utilisatrice.
+* **Équipe principale** : indiquez l’équipe principale de l’utilisateur ou utilisatrice. Les personnes ne peuvent avoir qu’une seule équipe principale. L’équipe principale est importante lors de l’attribution d’un modèle de mise en page ou de la définition du bouton Travailler sur ce projet pour les tâches et les problèmes affectés à l’utilisateur ou à l’utilisatrice.
 * **Autres équipes** : les personnes peuvent appartenir à plusieurs équipes. Un utilisateur ou une utilisatrice peut afficher les éléments de travail affectés à l’une de ses équipes dans sa zone d’accueil.
-* **Groupe principal** / <span class="preview">**Groupe principal actuel**</span> : sélectionnez un groupe approprié pour affecter l’utilisateur. La personne peut ainsi accéder aux objets partagés avec le groupe. Vous pouvez également partager des modèles de disposition avec le groupe principal de l’utilisateur ou utilisatrice.
+* **Groupe principal actuel** : sélectionnez un groupe approprié pour affecter l’utilisateur. La personne peut ainsi accéder aux objets partagés avec le groupe. Vous pouvez également partager des modèles de mise en page avec le groupe principal de l’utilisateur ou de l’utilisatrice.
 
   Champ obligatoire. Chaque utilisateur et utilisatrice doit être associé à un groupe principal. Si vous n’en sélectionnez pas un, votre groupe principal est affecté comme groupe principal du nouvel utilisateur.
 
@@ -237,8 +237,8 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
   >
   >Définissez la valeur Temps de travail sur 1 pour indiquer que la personne est disponible pour effectuer le travail lié au projet pendant la totalité de son équivalent temps plein.
 
-* **Planifier la désactivation** / <span class="preview">**Définir la date de désactivation**</span> : cochez cette case / <span class="preview">cliquez sur ce bouton</span> si vous souhaitez planifier la désactivation de cet utilisateur à une certaine date et à une certaine heure.
-* **Date de désactivation planifiée** / <span class="preview">**Date de désactivation**</span> : date et heure de désactivation de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [ Planification de la désactivation d’utilisateurs ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [ Désactiver ou réactiver un utilisateur ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Définir la date de désactivation** : cliquez sur ce bouton si vous souhaitez planifier la désactivation de cet utilisateur à une certaine date et à une certaine heure.
+* **Date de désactivation** : date et heure auxquelles l’utilisateur ou l’utilisatrice est désactivé(e). Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [ Planification de la désactivation d’utilisateurs ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [ Désactiver ou réactiver un utilisateur ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Rôle principal** : le rôle principal de tâche que l’utilisateur ou l’utilisatrice peut remplir dans Workfront. Chaque tâche et chaque problème affecté à un utilisateur ou à une utilisatrice est également affecté à cette fonction. Les fonctions sont essentielles à la gestion des ressources. Vous ne pouvez mettre à jour ce champ que si vous disposez d’une licence Standard ou Plan avec un accès utilisateur administratif ou si vous êtes un administrateur Workfront. Pour plus d’informations sur la configuration des utilisateurs et des utilisatrices disposant d’un accès d’administration, consultez la section [Accorder un accès aux utilisateurs et aux utilisatrices](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Seules les fonctions actives s’affichent dans la liste.
@@ -256,11 +256,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
 
   si d’autres rôles ont une disponibilité équivalent temps complet de 0 %, ils ne s’affichent pas dans le planificateur de ressources, sauf si ces rôles comprennent des tâches affectées à la personne.
 
-  <span class="preview">Dans l’aperçu :</span>
   ![Rôles utilisateur et équivalent temps complet](assets/user-roles-fte-2025.png)
-
-  En production :
-  ![Rôles utilisateur et équivalent temps complet](assets/user-settings-roles-and-dte-boxes-rp-story.png)
 
   La somme de tous les **pourcentages de disponibilité de l’équivalent temps complet** pour toutes les fonctions, doit être égale à 100 %. Chaque pourcentage de disponibilité équivalent temps complet calcule les heures disponibles pour chaque rôle par personne dans le planificateur de ressources. Les heures disponibles pour chaque rôle par personne dépendent du temps disponible pour la personne.
 
@@ -328,11 +324,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
 
   Certaines dates sont ajoutées automatiquement. Par exemple, si le taux de facturation 1 ne comporte pas de date de fin et que vous en ajoutez une seconde avec une date de début au 1er mai 2023, une date de fin au 30 avril 2023 est ajoutée au taux de facturation 1 afin qu’il n’y ait aucun trou.
 
-  <span class="preview">Dans l’aperçu :</span>
   ![Coût utilisateur et taux de facturation](assets/user-cost-billing-rates-2025.png)
-
-  En production :
-  ![Coût utilisateur et taux de facturation](assets/edit-user-cost-billing-rate-2.png)
 
 ### Formulaires personnalisés
 

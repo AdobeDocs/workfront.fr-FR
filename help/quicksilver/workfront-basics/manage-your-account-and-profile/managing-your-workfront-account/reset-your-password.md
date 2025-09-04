@@ -6,10 +6,10 @@ description: Vous pouvez réinitialiser votre mot de passe  [!DNL Adobe Workfron
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0df2a474fe1c29faca580088289d04ce9d1ef7f5
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 82%
+source-wordcount: '235'
+ht-degree: 73%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez réinitialiser votre mot de passe [!DNL Adobe Workfront]. Il est rec
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 Vous devez disposer des éléments suivants :
 
@@ -63,17 +63,17 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Réinitialiser votre mot de passe dans [!DNL Adobe Workfront]
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur votre nom d&#39;utilisateur à côté de l&#39;image de votre profil.
+{{step1-click-profile-pic}}
 
-   ![Ouvrez le menu principal et sélectionnez votre nom d’utilisateur ou d’utilisatrice.](assets/main-menu-options-350x481.png)
+![Ouvrez le menu principal et sélectionnez votre nom d’utilisateur ou d’utilisatrice.](assets/main-menu-options-350x481.png)
 
 1. Cliquez sur le **[!UICONTROL menu Plus]** ![icône Plus](assets/more-icon.png), puis sur **[!UICONTROL Modifier]**.
 
-1. Dans la zone **[!UICONTROL Modifier la personne]** qui s’affiche, sous **[!UICONTROL Informations personnelles]**, cliquez sur **[!UICONTROL Réinitialiser le mot de passe]**.
+1. Dans la zone **[!UICONTROL Modifier la personne]** qui s’affiche, sous **[!UICONTROL Informations personnelles]**, cliquez sur **[!UICONTROL Modifier le mot de passe]**.
 
-   ![Modifier la personne](assets/edit-person-box-350x196.jpg)
+   ![Cliquez sur Modifier le mot de passe](assets/edit-user-change-password.png)
 
-   Si votre organisation a intégré [!DNL Workfront] à une solution d’authentification unique, vous devrez peut-être réinitialiser vos mots de passe via votre système d’authentification unique lorsque vous cliquerez sur **[!UICONTROL Réinitialiser le mot de passe]**. L’opération réinitialise votre mot de passe SSO, ce qui influe sur la connexion à toutes les autres applications de votre organisation.
+   Si votre entreprise a intégré [!DNL Workfront] à une solution SSO, il se peut que vous soyez invité à réinitialiser vos mots de passe via votre système SSO lorsque vous cliquez sur **[!UICONTROL Modifier le mot de passe]**. L’opération réinitialise votre mot de passe SSO, ce qui influe sur la connexion à toutes les autres applications de votre organisation.
 
 1. Saisissez votre ancien mot de passe, puis le nouveau mot de passe choisi deux fois.
 
@@ -86,4 +86,4 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Les règles de mot de passe peuvent être plus strictes que cela, en fonction des paramètres de configuration définis par votre administrateur ou administratrice [!DNL Workfront].
 
-1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
+1. Cliquer sur **[!UICONTROL Enregistrer]**.

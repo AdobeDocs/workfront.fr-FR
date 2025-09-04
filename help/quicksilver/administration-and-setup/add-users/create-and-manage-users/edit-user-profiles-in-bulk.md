@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2610'
 ht-degree: 64%
 
 ---
 
 # Modifier en masse des profils d’utilisateurs et d’utilisatrices
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 64%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -77,7 +75,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Sélectionnez plusieurs utilisateurs, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png).
 
-1. Dans la zone **Modifier l’utilisateur**, modifiez les informations de l’une des sections, puis cliquez sur **Enregistrer les modifications** <span class="preview">ou **Enregistrer**</span> à tout moment.
+1. Dans la zone **Modifier l’utilisateur**, modifiez les informations de l’une des sections, puis cliquez sur **Enregistrer** à tout moment.
 
 ### Préférences
 
@@ -101,7 +99,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
 
 ### Accès
 
-* **Est actif** / <span class="preview">**L’utilisateur est actif**</span> : activez cette option pour indiquer que les utilisateurs sont actifs. Les utilisateurs et utilisatrices actifs utilisent une licence Workfront. La désactivation du champ désactive les utilisateurs et les empêche de se connecter à Workfront.
+* **L’utilisateur est actif** : activez cette option pour indiquer que les utilisateurs sont actifs. Les utilisateurs et utilisatrices actifs utilisent une licence Workfront. La désactivation du champ désactive les utilisateurs et les empêche de se connecter à Workfront.
 
 * **Niveau d’accès** : sélectionnez le niveau d’accès à affecter à ces utilisateurs. Tous les utilisateurs sélectionnés auront le même niveau d&#39;accès.
 
@@ -121,12 +119,12 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
   >
   >Pour plus d’informations sur les limites de décision, voir [Vue d’ensemble du statut de décision limitée des documents et de l’épreuve pour les utilisateurs et utilisatrices non payants](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-* **Modèle de disposition** : choisissez un modèle de disposition pour les utilisateurs et les utilisatrices. ce modèle de mise en page est prioritaire sur tout modèle de mise en page affecté à son groupe principal, à son équipe interne ou à son rôle de Principal. Pour plus d’informations sur la priorité d’affectation des modèles de mise en page, voir [Création et gestion des modèles de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+* **Modèle de mise en page** : choisissez un modèle de mise en page pour les utilisateurs et les utilisatrices. ce modèle de mise en page est prioritaire sur tout modèle de mise en page affecté à son groupe principal, à son équipe interne ou à son rôle de Principal. Pour plus d’informations sur la priorité d’affectation des modèles de mise en page, voir [Création et gestion des modèles de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
   La liste suivante décrit la manière dont la liste des modèles disponibles dans ce champ dépend de votre accès :
 
    * En tant qu’administrateur ou administratrice Workfront, vous pouvez consulter tous les modèles de mise en page au niveau du système et du groupe.
-   * En tant qu’administrateur ou administratrice de groupes, vous pouvez voir le modèle de disposition au niveau du système, ainsi que ceux associés aux groupes que vous gérez.
+   * En tant qu’administrateur ou administratrice de groupes, vous pouvez voir le modèle de mise en page au niveau du système, ainsi que ceux associés aux groupes que vous gérez.
    * Les utilisateurs disposant d’une licence Standard ou Plan et ayant accès à la modification d’utilisateurs ne peuvent afficher que des modèles de mise en page au niveau du système.
 
      Pour plus d’informations sur les modèles de mise en page au niveau du groupe, voir [Création et modification de modèles de mise en page d’un groupe](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
@@ -136,7 +134,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
 * **Entreprise** : entreprise des utilisateurs et utilisatrices. Les personnes ne peuvent être associées qu’à une seule entreprise. Vous devez créer une entreprise avant de pouvoir l’associer à une personne. Seules les entreprises actives sont affichées dans la liste. Pour plus d’informations sur la création d’entreprises, voir [Créer et modifier des entreprises](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 * **Équipe principale** : indiquez l’équipe principale des utilisateurs et utilisatrices. Les personnes ne peuvent avoir qu’une seule équipe principale.
 * **Autres équipes** : les personnes peuvent appartenir à plusieurs équipes.
-* **Groupe principal** / <span class="preview">**Groupe principal actuel**</span> : sélectionnez un groupe approprié pour affecter les utilisateurs. Cela permet aux utilisateurs d’accéder aux objets partagés avec le groupe. Vous pouvez également partager des modèles de mise en page avec un groupe principal.
+* **Groupe principal actuel** : sélectionnez un groupe approprié pour affecter les utilisateurs. Cela permet aux utilisateurs d’accéder aux objets partagés avec le groupe. Vous pouvez également partager des modèles de mise en page avec un groupe principal.
 
   Champ obligatoire. Chaque utilisateur et utilisatrice doit être associé à un groupe principal. Si vous ne sélectionnez pas de groupe principal, celui-ci est affecté comme groupe principal.
 
@@ -174,8 +172,8 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
   >
   >Définissez la valeur Temps de travail sur 1 pour indiquer que la personne est disponible pour effectuer le travail lié au projet pendant la totalité de son équivalent temps plein.
 
-* **Planifier la désactivation** / <span class="preview">**Définir la date de désactivation**</span> : cochez cette case / <span class="preview">cliquez sur ce bouton</span> si vous souhaitez planifier la désactivation de ces utilisateurs à une certaine date et à une certaine heure.
-* **Date de désactivation planifiée** / <span class="preview">**Date de désactivation**</span> : date et heure de désactivation des utilisateurs. Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [ Planification de la désactivation d’utilisateurs ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [ Désactiver ou réactiver un utilisateur ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Définir la date de désactivation** : cliquez sur ce bouton si vous souhaitez planifier la désactivation de ces utilisateurs à une certaine date et à une certaine heure.
+* **Date de désactivation** : date et heure de désactivation des utilisateurs. Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [ Planification de la désactivation d’utilisateurs ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [ Désactiver ou réactiver un utilisateur ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Rôle de Principal** : il s’agit de la fonction principale que les utilisateurs peuvent remplir dans Workfront. Chaque tâche et événement affecté aux utilisateurs est également affecté à cette fonction. Les fonctions sont essentielles à la gestion des ressources. Vous ne pouvez mettre à jour ce champ que si vous disposez d’une licence Standard ou Plan avec un accès utilisateur administratif ou si vous êtes un administrateur Workfront. Pour plus d’informations sur la configuration des utilisateurs et des utilisatrices disposant d’un accès d’administration, consultez la section [Accorder un accès aux utilisateurs et aux utilisatrices](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Seules les fonctions actives s’affichent dans la liste.

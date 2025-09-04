@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1104'
 ht-degree: 60%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 60%
 >title="Désactiver un utilisateur ou une utilisatrice"
 >abstract="La désactivation d’une personne la supprime de Workfront et Frame.io. Les personnes désactivées peuvent être réactivées ultérieurement."
 
-{{highlighted-preview}}
-
 <!--Audited 5/2025-->
 
 <!--
@@ -32,7 +30,7 @@ ht-degree: 60%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -129,9 +127,9 @@ Pour planifier la désactivation d’une personne :
 
 1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png).
 1. Dans le panneau de gauche de la zone **Modifier l’utilisateur**, cliquez sur **Planification des ressources**.
-1. Cochez la case **Planifier la désactivation**, <span class="preview"> ou cliquez sur **Définir la date de désactivation**</span>.
+1. Cliquez sur **Définir la date de désactivation**.
 
-1. Sélectionnez la date et l’heure de la **Date de désactivation planifiée** / <span class="preview">**Date de désactivation**</span>.
+1. Sélectionnez la date et l’heure de la **Date de désactivation**.
 
    >[!NOTE]
    >
@@ -139,7 +137,7 @@ Pour planifier la désactivation d’une personne :
    >* Si vous sélectionnez une heure pour le jour en cours qui s’est écoulé, Workfront planifie la désactivation le lendemain à 00:00.
    >* L’heure sélectionnée correspond au fuseau horaire de l’ordinateur de l’utilisateur ou l’utilisatrice qui planifie la désactivation.
 
-1. Cliquez sur **Enregistrer les modifications** <span class="preview">ou **Enregistrer**</span>.
+1. Cliquer sur **Enregistrer**.
 
 La personne est désactivée le jour choisi, quelque temps après l’heure sélectionnée. Si vous avez sélectionné plusieurs utilisateurs ou utilisatrices à désactiver en bloc, toutes les personnes sélectionnées sont désactivées le jour choisi, quelque temps après l’heure sélectionnée.
 
