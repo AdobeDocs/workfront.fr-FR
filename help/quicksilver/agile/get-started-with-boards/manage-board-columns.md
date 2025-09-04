@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Gestion des colonnes du panorama
+title: Gérer les colonnes du panorama
 description: Un nouveau panorama contient trois colonnes par défaut. Vous pouvez ajouter d’autres colonnes, modifier l’ordre des colonnes, les renommer et supprimer celles dont vous n’avez pas besoin. Vous pouvez également définir des stratégies de colonne.
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 99%
+source-wordcount: '1094'
+ht-degree: 96%
 
 ---
 
@@ -121,12 +121,6 @@ La politique de mise à jour du statut fonctionne automatiquement pour la carte 
 
 Une carte reste dans la colonne où elle a été placée si le statut de la carte ne correspond à aucun statut défini dans les politiques de colonne existantes.
 
->[!NOTE]
->
->Les panoramas dynamiques placent toujours des cartes dans la colonne qui correspond à leur statut, que les politiques de colonnes soient activées ou désactivées. Lorsque vous actualisez le panorama, les cartes reviennent dans les colonnes qui leur sont affectées.
-> 
->En outre, pour tous les types de panoramas, si vous déplacez une carte d’une colonne à une autre colonne au statut identique, la carte revient dans la colonne d’origine lorsque vous actualisez le panorama.
-
 1. Accédez au panorama.
 1. Cliquez sur le menu **[!UICONTROL Plus]** ![menu Plus](assets/more-icon-spectrum.png) dans la colonne, puis sélectionnez **[!UICONTROL Modifier]**.
 
@@ -144,7 +138,7 @@ Une carte reste dans la colonne où elle a été placée si le statut de la cart
 
       ![Statut des colonnes](assets/boards-column-status.png)
 
-      Les options de traduction du statut des cartes connectées s’affichent également. (La traduction du statut ne s’applique pas aux cartes ad hoc.) Ces options déterminent le statut personnalisé appliqué à la tâche ou au problème dans [!DNL Workfront] lorsqu’une carte connectée est déplacée vers cette colonne.
+      Les options de traduction du statut des cartes connectées s’affichent également. (La traduction du statut ne s’applique pas aux cartes ad hoc.) Ces options déterminent le statut personnalisé appliqué à la tâche ou à l’événement dans [!DNL Workfront] lorsqu’une carte connectée est déplacée vers cette colonne.
 
    1. Sélectionnez un statut [!UICONTROL **personnalisé**] à appliquer à la carte pour les tâches et les problèmes.
 

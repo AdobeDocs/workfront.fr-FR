@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1862'
 ht-degree: 2%
 
 ---
@@ -68,14 +68,18 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Pour utiliser l’intégrité du projet, l’assistant AI doit être activé pour votre organisation.
 
-Pour activer l’assistant AI pour votre organisation, toutes les conditions suivantes doivent être remplies :
+Pour activer l’assistant AI et l’intégrité du projet pour votre organisation, toutes les conditions suivantes doivent s’appliquer :
 
 * Votre organisation doit avoir migré vers Adobe IMS (système Identity Management).
+* Votre organisation doit disposer d’un plan Select, Prime ou Ultimate Workfront
 * L’expérience unifiée Adobe doit être activée.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
 * L’administrateur Workfront doit activer l’assistant AI pour les utilisateurs de votre entreprise. L’assistant AI est activé par le biais des niveaux d’accès.
+* Les options Activer l’IA et Intégrité du projet doivent être sélectionnées dans la section Préférences de l’IA sous Configuration > Préférences.
 
-Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+  ![section Préférences IA](assets/ai-preferences.png)
+
+Pour plus d’informations, consultez [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) et [Configuration des préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Liste des invites de l&#39;assistant AI
 
