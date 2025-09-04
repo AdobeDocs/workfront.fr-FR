@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7542'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,13 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+### Mises à jour de l’interface pour les zones Nouveau et Copier la carte de performance
+
+**Version préliminaire : 4 septembre 2025 ; Version de production : 11 septembre 2025**
+
+Nous avons mis à jour l’aspect des zones Nouveau et Copier la carte de performance pour qu’elles correspondent à la conception dans d’autres zones de l’application. Vous pouvez afficher la conception mise à jour lors de la création ou de la copie d’une carte de performance dans la zone Configuration de Workfront.\
+Pour plus d’informations, voir [Créer une carte de performance](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Mises à jour de l’interface pour la liste des modèles de mise en page dans un groupe
 
@@ -217,7 +224,7 @@ Pour plus d’informations, voir [Gérer les dépenses des projets](/help/quicks
 
 >[!NOTE]
 >
->Temporairement supprimé de l’aperçu et de la production
+>Disponible en aperçu et sera disponible en production dans le cadre d’un déploiement échelonné à partir du 4 septembre 2025.
 
 Nous avons mis à jour l’aspect de la zone Enregistrer le temps lors de la journalisation du temps pour un projet, une tâche ou un problème dans la section Heures , afin qu’elle corresponde à la conception d’autres zones de Workfront.
 
@@ -377,7 +384,7 @@ Cette mise à jour inclut des modifications visuelles de la liste des modèles d
 
 Pour afficher la modification, accédez à Configuration > Interface > Modèles de mise en page.
 
-Pour plus d’informations, voir [Créer et gérer des modèles de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Pour plus d’informations, voir [Créer et gérer des modèles de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ### Mises à jour de l’interface vers l’onglet Portfolios dans un groupe
 
