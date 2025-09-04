@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: ab70d832c7c03f116d68f8bad394f44f5ecca8cf
+source-git-commit: 7eef99ed854beb8b737238ff9c08313e057ef5ac
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1951'
 ht-degree: 17%
 
 ---
@@ -39,6 +39,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
+* [Améliorations des tableaux de bord](#dashboards)
 * [Améliorations des documents et des épreuves](#document-and-proofing-enhancements)
 * [Amélioration de l’accueil](#home-enhancements)
 * [Améliorations apportées aux projets](#project-enhancements)
@@ -93,6 +94,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+### Améliorations des tableaux de bord
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Fonctionnalité</strong>
+        </td>
+        <td><strong>Aperçu</strong></td>
+        <td><strong>Version rapide</strong></td>
+        <td><strong>Tous les trimestres</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-dashboards.md" class="MCXref xref" xrefformat="{para}">Nouvelle version Beta ouverte des tableaux de bord de la zone de travail</a>
+            <p>La nouvelle fonctionnalité Tableaux de bord de la zone de travail vous permet de visualiser facilement vos données Adobe Workfront en ajoutant des types de rapports à une zone de travail qui offre de nombreuses options de disposition flexibles, notamment le redimensionnement, le glisser-déposer, etc.</p>
+        </td>
+        <td>mercredi 26 août 2025</td>
+        <td>mercredi 26 août 2025</td>
+        <td>mercredi 26 août 2025</td>
+    </tr> 
+</table>
 
 ### Améliorations des documents et des épreuves
 
@@ -398,7 +420,7 @@ Pour offrir des intégrations plus stables et plus évolutives, nous passons à 
 * Workfront pour Salesforce.
 
 Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
-Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Version 20 de l’API
 
@@ -410,7 +432,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

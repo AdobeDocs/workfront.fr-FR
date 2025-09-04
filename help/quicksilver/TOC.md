@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0d6550a8f456d1e4c21406fbaf1baf9c632c48e2
+source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
 workflow-type: tm+mt
-source-wordcount: '13473'
+source-wordcount: '13478'
 ht-degree: 85%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 85%
       * Version Du T4 2025 {#release-25-q4}
          * [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
          * [Améliorations apportées à l’administration du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)
+         * [Améliorations des tableaux de bord pour le quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-dashboards.md)
          * [Améliorations des documents et des relectures du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md)
          * [Améliorations apportées à la page d’accueil (quatrième trimestre 2025)](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md)
          * [Améliorations apportées aux projets du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
