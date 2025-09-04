@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '3872'
-ht-degree: 39%
+source-wordcount: '3910'
+ht-degree: 38%
 
 ---
 
@@ -117,14 +117,9 @@ Tenez compte des points suivants :
 <div class="preview">
 
 * Vous pouvez créer et modifier des enregistrements dans la vue Chronologie. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+* Vous pouvez redimensionner les barres des enregistrements dans la vue chronologique en cliquant sur leurs marges, puis en les faisant glisser et en les déposant à un nouvel emplacement. Le redimensionnement des barres des enregistrements met immédiatement à jour leurs dates de début et de fin. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 </div>
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the timeline view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 Pour gérer une vue chronologique :
 

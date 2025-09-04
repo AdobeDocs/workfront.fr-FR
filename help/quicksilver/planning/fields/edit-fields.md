@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 34%
+source-wordcount: '960'
+ht-degree: 24%
 
 ---
 
@@ -30,7 +30,7 @@ Cet article décrit comment modifier les paramètres des champs Workfront Plann
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -51,8 +51,8 @@ Cet article décrit comment modifier les paramètres des champs Workfront Plann
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -90,7 +90,7 @@ Cet article décrit comment modifier les paramètres des champs Workfront Plann
 
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Considérations relatives à la modification des paramètres de champ
@@ -98,7 +98,7 @@ Cet article décrit comment modifier les paramètres des champs Workfront Plann
 Vous devez tenir compte des points suivants avant d’apporter des modifications à la configuration d’un champ :
 
 * Vous ne pouvez modifier les paramètres de champ qu’à partir du tableau de type d’enregistrement.
-* Vous ne pouvez pas modifier un champ sur la page d’enregistrement ou dans un autre affichage, en dehors de la vue Tableau.
+* Vous ne pouvez pas modifier les paramètres d’un champ sur la page d’enregistrement ou dans tout autre affichage, en dehors de la vue Tableau.
 * Une fois le champ enregistré, vous ne pouvez plus le modifier.
 * Vous ne pouvez pas désélectionner le paramètre Autoriser les nombres négatifs précédemment sélectionné pour un champ Nombre, Pourcentage ou Devise si des valeurs négatives sont déjà stockées dans les enregistrements auxquels il est joint.
 * Vous pouvez modifier la configuration des éléments de champ suivants après avoir enregistré le champ :
@@ -116,6 +116,7 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
   >Les autres utilisateurs ne sont pas informés que la configuration du champ a changé.
 
 * Vous pouvez modifier des champs de recherche existants à partir d’enregistrements connectés.
+* Outre la modification du champ décrite dans la section [Modifier les paramètres de champ](#edit-field-settings-1) de cet article, <span class="preview">vous pouvez modifier les choix d’un champ à sélection unique ou multiple lorsque vous modifiez un enregistrement dans la vue Tableau, lorsque vous mettez à jour les valeurs de champ. Pour plus d&#39;informations, reportez-vous à la section [Ajouter de nouveaux choix à un champ de sélection existant lors de la modification d&#39;enregistrements en mode Tableau](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) de cet article.</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -163,3 +164,36 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
 1. (Conditionnel) Pour les champs d’enregistrement connectés, cliquez sur **Modifier les champs de recherche** et ajoutez ou supprimez l’un des champs de recherche du type d’enregistrement connecté.
 
    Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
+<div class="preview">
+
+## Ajouter de nouveaux choix à un champ de sélection existant lors de la modification d’enregistrements en mode Tableau
+
+<!--some of this information is also available in Edit records article - update both when necessary-->
+
+Vous pouvez ajouter de nouveaux choix à un champ à sélection unique ou multiple existant lors de la modification d’enregistrements en mode Tableau.
+
+>[!IMPORTANT]
+>
+>La fonctionnalité décrite dans cette section n’est disponible que dans la vue Tableau. Il n’est disponible dans aucune autre zone où des champs à sélection unique ou multiple s’affichent.
+
+**EXEMPLE**
+
+Vous pouvez avoir un champ à sélection unique appelé Statut qui comporte les choix Nouveau et Fermé, et vous souhaitez ajouter un choix pour un statut En cours . Vous pouvez ajouter ce choix en effectuant l’une des opérations suivantes :
+
+* Modification du champ. Pour plus d’informations, consultez la section [Modifier les paramètres de champ](#edit-field-settings-1) de cet article.
+* Ajout d’une nouvelle option lors de la modification de l’enregistrement en mode Tableau, comme décrit ci-dessous.
+
+Pour ajouter un nouveau choix à un champ de sélection existant lors de la modification d’un enregistrement :
+
+1. Accédez à une page de type d’enregistrement et ouvrez la vue Tableau .
+1. Ajoutez le champ à sélection unique ou multiple auquel vous souhaitez ajouter un choix en mode Tableau sous la forme d’une nouvelle colonne. Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+1. Commencez à modifier le champ en ligne en double-cliquant sur la cellule du champ.
+1. Saisissez le nom du choix à ajouter, puis cliquez sur **Ajouter un choix**.
+
+   ![Ajouter un choix dans un champ à sélection unique en mode Tableau](assets/add-choice-in-table-view-for-single-select-field.png)
+
+   Le nouveau choix est ajouté immédiatement au champ à sélection unique.
+
+</div>

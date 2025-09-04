@@ -6,22 +6,22 @@ description: Vous pouvez modifier les informations des portefeuilles que vous av
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 59%
+source-wordcount: '1047'
+ht-degree: 61%
 
 ---
 
 # Modifier les portfolios
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Vous pouvez modifier des informations sur les portfolios que vous avez créés ou que d’autres personnes ont créés si elles les ont partagés avec vous.
 
@@ -109,9 +109,9 @@ Vous pouvez modifier un portefeuille dans la page de portefeuille ou modifier de
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
-   <span class="preview">La zone **[!UICONTROL Modifier Portfolio]** s’affiche.</span>
+   La zone **[!UICONTROL Modifier Portfolio]** s’affiche.
 
-   <span class="preview">![Boîte Modifier le portfolio](assets/edit-portfolio-box-classic-350x224.png)</span>
+   ![Boîte Modifier le portfolio](assets/edit-portfolio-box-classic-350x224.png)
 
    Tous les champs de portfolio sont disponibles dans la zone [!UICONTROL Modifier le portfolio] et sont regroupés en fonction des zones répertoriées dans le panneau de gauche.
 
@@ -169,15 +169,12 @@ Vous pouvez modifier un portefeuille dans la page de portefeuille ou modifier de
     </tbody> 
    </table>
 
-1. Cliquez sur **[!UICONTROL Enregistrer les modifications]** <span class="preview">ou [!UICONTROL **Enregistrer**]</span> et continuez à modifier les sections suivantes.
+1. Cliquez sur [!UICONTROL **Enregistrer**] et continuez à modifier les sections suivantes.
 
 ### Formulaires personnalisés
 
 1. Commencez à modifier le portfolio comme décrit ci-dessus.
-1. Cliquez sur le menu déroulant **[!UICONTROL Ajouter des formulaires]** pour sélectionner un formulaire personnalisé et l’ajouter au portfolio.
-
-   Ou
-   <span class="preview">Commencez à saisir le nom d’un formulaire dans le champ [!UICONTROL **Ajouter un formulaire personnalisé**].</span>
+1. Commencez à saisir le nom d’un formulaire dans le champ [!UICONTROL **Ajouter un formulaire personnalisé**].
 
    Vous devez créer des formulaires personnalisés de portfolio avant qu’ils ne puissent être ajoutés.
 
@@ -185,16 +182,16 @@ Vous pouvez modifier un portefeuille dans la page de portefeuille ou modifier de
    >
    >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé, tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le portfolio lui-même. Pour plus d’informations sur la définition des autorisations pour les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Cliquez sur **[!UICONTROL Enregistrer les modifications]** <span class="preview">ou [!UICONTROL **Enregistrer**]</span> et continuez à modifier les sections suivantes.
+1. Cliquez sur [!UICONTROL **Enregistrer**] et continuez à modifier les sections suivantes.
 
 ### Commentaire {#comment}
 
 1. Commencez à modifier un portfolio, tel que décrit ci-dessus.
 1. Cliquez sur **[!UICONTROL Commentaire]**.
 
-   <span class="preview">![zone de commentaire Modifier le portfolio](assets/comment-box-edit-portfolio-classic-350x227.png)</span>
+   ![zone de commentaire Modifier le portfolio](assets/comment-box-edit-portfolio-classic-350x227.png)
 
-1. <span class="preview">Ajoutez un commentaire dans le champ **[!UICONTROL Ajouter une mise à jour au portfolio]**.</span>
+1. Ajoutez un commentaire dans le champ **[!UICONTROL Ajouter une mise à jour au portfolio]**.
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Personnes]** pour ajouter un utilisateur ou une utilisatrice ou une équipe au commentaire.
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Verrouiller]** pour verrouiller le commentaire et le rendre privé uniquement pour les utilisateurs et utilisatrices de votre entreprise.
-1. Cliquez sur **[!UICONTROL Enregistrer les modifications]** <span class="preview">ou [!UICONTROL **Enregistrer**]</span>.
+1. Cliquer sur [!UICONTROL **Enregistrer**].

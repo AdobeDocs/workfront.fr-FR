@@ -6,10 +6,10 @@ description: Un projet est une grande unité de travail dans Adobe Workfront. V
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 85%
+source-wordcount: '1263'
+ht-degree: 92%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 85%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Les projets représentent une grande quantité de travail à effectuer dans Adobe Workfront.
 
@@ -116,16 +116,11 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 
 * Publiez une initiative à partir d’un scénario dans le Planificateur de scénarios Adobe Workfront.
 
-  Le planificateur de scénarios nécessite l’un des éléments suivants :
+  Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
-   * Une licence supplémentaire pour la structure de licence Workfront actuelle.
-   * Une licence Ultimate pour la nouvelle structure de licence Workfront.
+  Pour plus d’informations sur la création de projets à partir de la publication d’initiatives, consultez la section [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-  Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md). Pour plus d’informations sur la création de projets à partir de la publication d’initiatives, consultez la section [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../../../scenario-planner/publish-scenarios-update-projects.md).
-
-* Ajoutez des projets au fur et à mesure que vous les connectez à partir d’un type d’enregistrement dans Workfront Planning. Dans l’environnement de production, vous ne pouvez créer que des projets sans modèle à partir de Workfront Planning. <span class="preview">Vous pouvez créer des projets à l’aide d’un modèle dans l’environnement Aperçu.</span>
-
-  Vous devez disposer d’une nouvelle licence Workfront et d’une licence Workfront Planning supplémentaire pour Workfront Planning.
+* Ajoutez des projets au fur et à mesure que vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
 
   Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
 

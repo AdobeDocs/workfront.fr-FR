@@ -4,9 +4,9 @@ description: Il s’agit d’un article interne permettant à notre équipe de t
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1063'
 ht-degree: 41%
 
 ---
@@ -195,6 +195,33 @@ Package : sélection de workflow, Workflow principal, Workflow ultime
 packages de planification 2025
 Licences : contributeur, léger, standard
 Package : sélection de planification, planification principale, planification finale
+
+## Conditions d’accès requises pour Portfolio Optimizer
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Workfront Prime ou version ultérieure</p> 
+   <p>Workflow Prime ou version ultérieure</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l'accès aux portefeuilles et projets</p>  </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Gérer les autorisations pour le portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 ## Conditions d’accès requises pour la plupart des services de planification Workfront
@@ -391,9 +418,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
  </tbody> 
 </table>
 
-Pour plus d’informations sur les informations contenues dans ce tableau, voir [Conditions d’accès requises dans la documentation](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Pour plus d’informations sur les informations contenues dans ce tableau, voir [Conditions d’accès requises dans la documentation](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Pour plus d’informations sur les licences Adobe Workfront Fusion, voir [Licences Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Pour plus d’informations sur les licences Adobe Workfront Fusion, voir [Licences Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Contrôles d’entreprise avancés
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 28%
+source-wordcount: '1860'
+ht-degree: 26%
 
 ---
 
@@ -111,19 +111,12 @@ Tenez compte des points suivants :
    * Lorsque les dates de début et de fin n’ont aucune valeur, l’enregistrement s’affiche sous la forme d’un événement d’un jour
    * Lorsque la date de début est postérieure à la date de fin, l&#39;enregistrement ne s&#39;affiche pas dans le calendrier.
 
-<!--
 <div class="preview">
 
-* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+* Vous pouvez créer et modifier des enregistrements dans la vue Calendrier. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+* Vous pouvez redimensionner les barres des enregistrements dans la vue Calendrier mensuelle en cliquant sur leurs marges, puis en les faisant glisser et en les déposant à un nouvel emplacement. Le redimensionnement des barres des enregistrements met immédiatement à jour leurs dates de début et de fin. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 </div>
--->
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 Pour gérer une vue Calendrier :
 
@@ -151,7 +144,7 @@ Pour gérer une vue Calendrier :
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
+   * <span class="preview">[Hauteur de ligne](#modify-row-height)</span>
    * [Paramètres](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -275,80 +268,72 @@ Pour ajouter un filtre à une vue Calendrier :
 1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
 1. (Facultatif) Cliquez sur **Filtres** pour fermer la zone des filtres. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!--
 <span class="preview">
 
-### Modify row height
+### Modifier la hauteur de ligne
 
-You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+Vous pouvez modifier la hauteur de ligne d’une cellule de calendrier pour augmenter ou réduire le nombre de barres d’enregistrement affichées dans chaque cellule.
 
-The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+Le nombre d’enregistrements affichés dans le calendrier varie en fonction du nombre de champs que vous affichez sur les barres des enregistrements.
 
 >[!TIP]
 >
->This setting is available only when viewing the calendar by month. 
+>Ce paramètre est disponible uniquement lors de l’affichage du calendrier par mois.
 
 
-1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
-1. Choose from the following options: 
+1. Créez une vue Calendrier pour une page de type enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. (Conditionnel) Afficher la vue Calendrier par mois, puis cliquer sur **Hauteur de ligne** dans la barre d’outils du calendrier.
+1. Choisissez l’une des options suivantes :
 
-<table>
-<thead>
-<tr>
-    <th><b>Row height option</b></th>
-    <th><b>Number of records</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Short</td>
-    <td><p>Contains:</p>
+   <table>
+    <thead>
+    <tr>
+        <th><b>Option de hauteur de ligne</b></th>
+        <th><b>Nombre maximal d’enregistrements par défaut</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Court</td>
+        <td><p>Contient :</p>
 
-<ul><li>2 records displaying 1 field</li>
-<li>1 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr><td>Standard</td>
-    <td><p>Contains:</p>
+   <ul><li>2 enregistrements affichant 1 champ</li>
+    <li>1 enregistrement affichant plus d’un champ</li></ul>
+        </td>
+    </tr>
+    <tr><td>Standard</td>
+        <td><p>Contient :</p>
 
-<ul><li>4 records displaying 1 field</li>
-<li>2 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Medium</td>
-    <td><p>Contains:</p>
+   <ul><li>4 enregistrements affichant 1 champ</li>
+    <li>2 enregistrement(s) affichant plus d’1 champ</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Moyen</td>
+        <td><p>Contient :</p>
 
-<ul><li>8 records displaying 1 field</li>
-<li>4 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Tall</td>
-    <td><p>Contains:</p>
+   <ul><li>8 enregistrements affichant 1 champ</li>
+    <li>4 enregistrement affichant plus d’un champ</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Grand</td>
+        <td><p>Contient :</p>
 
-<ul><li>12 records displaying 1 field</li>
-<li>6 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Fit to content</td>
-    <td><p>All records are visible, up to 500 records</p></td>
-</tr>
-</tbody>
-</table> 
+   <ul><li>12 enregistrements affichant 1 champ</li>
+    <li>6 enregistrement affichant plus d’un champ</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Ajuster au contenu</td>
+        <td><p>Tous les enregistrements sont visibles, jusqu’à 500 enregistrements</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
-
-    >[!TIP]
-    >
-    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
-
+1. (Facultatif) Cliquez sur **plus** s’il existe des enregistrements non visibles dans le calendrier.
 
 </span>
-
--->
 
 ### Modifier les paramètres de la vue Calendrier
 

@@ -6,22 +6,22 @@ description: Lorsqu’une tâche d’un projet nécessite plus d’efforts que p
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 80%
+source-wordcount: '1190'
+ht-degree: 83%
 
 ---
 
 # Convertir une tâche en projet
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Lorsqu’une tâche d’un projet nécessite plus d’efforts que prévu, vous pouvez la convertir en projet.
 
@@ -203,4 +203,4 @@ Lorsqu’une tâche d’un projet nécessite plus d’efforts que prévu, vous p
      >
      >Si vous utilisez un modèle pour la conversion et qu&#39;un formulaire personnalisé joint au modèle contient un champ personnalisé qui se trouve également dans un formulaire personnalisé joint à la tâche, la valeur du champ de la tâche est utilisée pour le nouveau projet. Cependant, si le champ personnalisé est vide sur la tâche, la valeur du modèle est utilisée.
 
-1. Cliquez sur **Enregistrer les modifications** <span class="preview">ou **Convertir en projet**.</span>
+1. Cliquez sur **Convertir en projet**.

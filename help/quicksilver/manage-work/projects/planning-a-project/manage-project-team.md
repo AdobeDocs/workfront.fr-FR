@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 25%
+source-wordcount: '1399'
+ht-degree: 36%
 
 ---
 
@@ -107,41 +107,41 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
 
-## Add users to a Project Team
+## Ajouter des utilisateurs et utilisatrices à l’équipe de projet
 
-When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Lorsque vous ajoutez des utilisateurs et utilisatrices à l’équipe de projet, ils obtiennent des autorisations d’affichage sur le projet et sur les tâches, les problèmes et les documents du projet. Pour plus d’informations, voir l’article [Vue d’ensemble de l’équipe de projet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->Users on the Project Team are not automatically added to the resource management tools for the project.
+>Les utilisateurs et utilisatrices de l’équipe de projet ne sont pas automatiquement ajoutés aux outils de gestion des ressources du projet.
 
-You can add users to the project team in the following ways:
+Vous pouvez ajouter des utilisateurs et utilisatrices à l’équipe de projet de la manière suivante :
 
-* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
-* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
+* [Ajouter automatiquement des utilisateurs et utilisatrices à une équipe de projet](#automatically-add-users-to-a-project-team)
+* [Ajouter manuellement des utilisateurs et utilisatrices à une équipe de projet](#manually-add-users-to-a-project-team)
 
-### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
+### Ajouter automatiquement des utilisateurs et utilisatrices à une équipe de projet {#automatically-add-users-to-a-project-team}
 
-The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
+Les utilisateurs et utilisatrices qui remplissent les rôles suivants dans le projet sont automatiquement ajoutés à l’équipe de projet et apparaissent dans la section Personnes lors de la création du projet :
 
-* The creator of the project
-* The project owner
-* The project sponsor
+* Le créateur ou la créatrice du projet
+* Le ou la propriétaire du projet
+* Le sponsor du projet
 
-Users are also automatically added to the project team when they are assigned to the following:
+Les utilisateurs et utilisatrices sont également automatiquement ajoutés à l’équipe de projet lorsqu’ils sont affectés aux éléments suivants :
 
-* Tasks
-* Issues
+* Tâches
+* Problèmes
 
-### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
+### Ajouter manuellement des utilisateurs et utilisatrices à une équipe de projet {#manually-add-users-to-a-project-team}
 
-If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
+Si des utilisateurs et utilisatrices n’ayant aucun rôle dans le projet souhaitent être informés de certaines mises à jour ou modifications pendant la durée du projet, vous pouvez les ajouter manuellement à l’équipe de projet.
 
- For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
+Pour plus d’informations sur les notifications qui peuvent être activées pour les utilisateurs et utilisatrices de l’équipe de projet, voir [Types de notifications d’événement](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >

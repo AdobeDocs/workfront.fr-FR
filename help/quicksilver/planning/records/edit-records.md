@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2332'
-ht-degree: 41%
+source-wordcount: '2688'
+ht-degree: 37%
 
 ---
 
 
 # Modifier des enregistrements
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -242,12 +242,10 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 <!--add another step about drag and drop here when that is available-->
 
 1. Ouvrez la page de type d’enregistrement dans une vue chronologique. Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-<!--
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
 
-    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+1. <span class="preview">Pointez sur les extrémités de la barre d&#39;un enregistrement, cliquez, faites glisser et déposez sa marge sur une autre date. Cette opération met automatiquement à jour la date de début ou de fin de l’enregistrement.</span>
 
--->
+   <span class="preview">![Barre à gauche en mode Chronologie à redimensionner](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
 1. Cliquez sur la barre d’un enregistrement pour ouvrir sa zone de détails et modifier tous les champs.
 
@@ -258,12 +256,10 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 <!--add another step about drag and drop here when that is available-->
 
 1. Ouvrez la page de type d’enregistrement dans une vue Calendrier. Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-<!--
-1. (Conditional) Select **Month** in the upper-right dropdown menu.
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+1. (Conditionnel) Sélectionnez **Mois** dans le menu déroulant en haut à droite.
+1. <span class="preview">Pointez sur les extrémités de la barre d&#39;un enregistrement, cliquez, faites glisser et déposez ses marges sur une autre date. Cette opération met automatiquement à jour la date de début ou de fin de l’enregistrement.</span>
 
-    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
--->
+   <span class="preview">![Barre à gauche de la vue Calendrier à redimensionner](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
 1. Cliquez sur la barre d’un enregistrement pour ouvrir sa zone de détails et modifier tous les champs.
 
@@ -291,7 +287,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
-   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 
@@ -389,39 +385,34 @@ Après avoir connecté des enregistrements à des objets Workfront, vous pouvez 
 
 Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-
-<!--
-
 <div class="preview">
 
-## Add new choices to an existing select field when editing records in the table view
+## Modifier des informations sur des champs à sélection unique ou multiple
 
-You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+<!--some of this information is also available in Edit fields article - update both when necessary-->
+
+Lors de la modification d’informations dans un champ à sélection unique ou multiple, vous pouvez ajouter de nouveaux choix au champ, sans avoir à modifier le champ.
 
 >[!IMPORTANT]
 >
->The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
+>La fonctionnalité décrite dans cette section n’est disponible que dans la vue Tableau. Il n’est disponible dans aucune autre zone où des champs à sélection unique ou multiple s’affichent.
 
+**EXEMPLE**
 
-**EXAMPLE**
+Vous pouvez avoir un champ à sélection unique appelé Statut qui comporte les choix Nouveau et Fermé, et vous souhaitez ajouter un choix pour un statut En cours . Vous pouvez ajouter ce choix en effectuant l’une des opérations suivantes :
 
-You might have a single-select field called Status that has the choices New and Closed, and you want to add a choice for an In progress status. You can add the choice by doing one of the following things:
+* Modification du champ. Pour plus d’informations, voir [Modifier les champs](/help/quicksilver/planning/fields/edit-fields.md)
+* Ajout d’une nouvelle option lors de la modification de l’enregistrement en mode Tableau, comme décrit ci-dessous.
 
-* Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
-* Adding a new option while editing the record in the table view, as described below. 
+Pour ajouter un nouveau choix à un champ de sélection existant lors de la modification d’un enregistrement :
 
+1. Accédez à une page de type d’enregistrement et ouvrez la vue Tableau .
+1. Ajoutez le champ à sélection unique ou multiple auquel vous souhaitez ajouter un choix en mode Tableau sous la forme d’une nouvelle colonne. Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+1. Commencez à modifier le champ en ligne en double-cliquant sur la cellule du champ.
+1. Saisissez le nom du choix à ajouter, puis cliquez sur **Ajouter un choix**.
 
-To add a new choice to an existing select field when editing a record: 
+   ![Ajouter un choix dans un champ à sélection unique en mode Tableau](assets/add-choice-in-table-view-for-single-select-field.png)
 
-1. Go to a record type page and open the table view. 
-1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-1. Start editing the field inline by double-clicking the cell for the field. 
-1. Type the name of the choice you want to add, then click **Add choice**.
-
-    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)
-
-    The new choice is added immediately to the single-select field. 
+   Le nouveau choix est ajouté immédiatement au champ à sélection unique.
 
 </div>
-
--->
