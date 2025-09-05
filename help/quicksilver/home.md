@@ -3,10 +3,10 @@ title: Documentation de [!DNL Adobe Workfront]
 description: Documentation pour  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
+source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 86%
+source-wordcount: '426'
+ht-degree: 83%
 
 ---
 
@@ -45,7 +45,7 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
 * [Activité Version Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Activité de mise à jour de la planification du quatrième trimestre 2025 d’Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
->[!TAB Versions bêta]
+>[!TAB Versions Beta]
 
 * [Vue d’ensemble des tableaux de bord de zone de travail](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 
@@ -70,7 +70,8 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Commencer avec l’administration Workfront</a></li>
-    <li><a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Commencer avec Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Commencer avec Workfront Fusion</li>
+    <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Acquisition et installation d’applications à partir d’Adobe Exchange</a></li>
     </ul>
  </td>
     <td>
@@ -91,6 +92,7 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
         <li><a href="/help/quicksilver/wf-api/general/api-basics.md">Bases des API</a></li>
         <li><a href="https://developer.adobe.com/workfront/api-explorer/">Explorateur d’API</a></li>
         <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Intégrations Workfront</a></li>
+        <li><a href="/help/quicksilver/app-builder/app-builder.md">Création d’applications personnalisées pour Workfront avec Adobe App Builder</a></li>
         </ul></td>
   </tr>
 </table>
@@ -108,8 +110,8 @@ La recherche documentaire peut être plus efficace avec quelques approches strat
 
 ### Explorer les sections d’apprentissage et de formation
 
-* **Supports de formation : accédez à la page Formation Workfront et découvrez une bibliothèque de vidéos et d’articles de formation conçus pour vous aider à mieux comprendre les fonctionnalités et les paramètres de Workfront.**&#x200B;[&#128279;](https://experienceleague.adobe.com/fr/browse/workfront) Vous pouvez également accéder à des supports de formation payants à l’adresse [learning.adobe.com](https://learning.adobe.com/).
-* **Cours** : recherchez des [cours d’apprentissage structuré](https://experienceleague.adobe.com/home?lang=fr&Solution=Workfront#courses) qui vous guident tout au long de l’utilisation de différentes fonctionnalités Workfront suivant une séquence logique.
+* **Supports de formation : accédez à la page Formation Workfront et découvrez une bibliothèque de vidéos et d’articles de formation conçus pour vous aider à mieux comprendre les fonctionnalités et les paramètres de Workfront.**[](https://experienceleague.adobe.com/fr/browse/workfront) Vous pouvez également accéder à des supports de formation payants à l’adresse [learning.adobe.com](https://learning.adobe.com/).
+* **Cours** : recherchez des [cours d’apprentissage structuré](https://experienceleague.adobe.com/home?Solution=Workfront#courses) qui vous guident tout au long de l’utilisation de différentes fonctionnalités Workfront suivant une séquence logique.
 
 ### Trouver des réponses dans les forums de la Communauté
 
