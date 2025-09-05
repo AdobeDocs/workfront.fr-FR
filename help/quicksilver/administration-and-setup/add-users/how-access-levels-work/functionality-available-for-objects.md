@@ -4,16 +4,16 @@ content-type: reference
 product-area: system-administration
 keywords: accès,modèle,entonnoir,diagramme,niveaux,autorisations
 navigation-topic: access-levels
-title: Fonctionnalité disponible pour chaque type d’objet pour les nouveaux niveaux d’accès
+title: Fonction disponible pour chaque type d'objet pour les nouveaux niveaux d'accès
 description: Les tableaux suivants répertorient les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
+source-git-commit: db9db8d03c8caeef95fb7cf873ee242f29b00efa
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 95%
+source-wordcount: '1313'
+ht-degree: 94%
 
 ---
 
@@ -27,8 +27,8 @@ Ils indiquent également les actions que les administrateurs et administratrices
 
 >[!NOTE]
 >
->* Cet article décrit les fonctionnalités disponibles pour accéder aux niveaux dans le nouveau modèle de plan Workfront. Pour afficher la fonctionnalité disponible dans le modèle de plan actuel, voir [Fonctionnalité disponible pour chaque type d’objet pour différents niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Pour obtenir la liste des fonctionnalités disponibles pour les différents plans du nouveau modèle de plan, voir [Tarification et mise en package Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+>* Cet article décrit les fonctionnalités disponibles pour les niveaux d’accès dans le nouveau modèle de plan Workfront. Pour consulter les fonctionnalités disponibles dans le modèle de plan actuel, reportez-vous à la section [Fonctionnalité disponible pour chaque type d&#39;objet pour différents niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* Pour obtenir la liste des fonctionnalités disponibles pour les différents plans dans le nouveau modèle de plan, voir [Tarification et emballage Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projets
 
@@ -49,7 +49,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 | Ajouter des tâches | ✓ |   |   |   |
 | Envoyer des mises à jour/commentaires | ✓ | ✓ | ✓ |   |
 | Modifier le statut | ✓ |   |   |   |
-| Consigner les heures | ✓ | ✓ |   |   |
+| Consigner les heures | ✓ |   |   |   |
 | Modifier les affectations | ✓ |   |   |   |
 | Gérer un niveau de référence | ✓ |   |   |   |
 | Gérer les risques | ✓ |   |   |   |
@@ -239,7 +239,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avo
 | Supprimer une version | ✓ | ✓ | ✓ |   |
 | Aperçu | ✓ | ✓ | ✓ | ✓ |
 | Approuver les épreuves | ✓ | ✓ | ✓ | ✓ |
-| Générer des bons à tirer | ✓ |   |   |   |
+| Générer des BAT | ✓ |   |   |   |
 | Supprimer l’épreuve | ✓ | ✓ | ✓ |   |
 | Ajouter/Supprimer&#42;&#42; | ✓ | ✓ | ✓ |   |
 | Renommer&#42;&#42; | ✓ | ✓ | ✓ |   |
@@ -330,7 +330,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Modifier les priorités et les heures budgétées dans le Planificateur | ✓&#42; |   |   |   |
 | Créer, modifier et supprimer des groupes de ressources&#42;&#42; | ✓&#42; |   |   |   |
-| Mise à jour des heures planifiées dans l’équilibreur de charge de travail&#42;&#42;&#42; | ✓&#42; |   |   |   |
+| Mettez à jour les heures prévues dans l’équilibreur de charge de travail&#42;&#42;&#42; | ✓&#42; |   |   |   |
 | Afficher les priorités du projet dans le planificateur de ressources | ✓&#42; |   |   |   |
 | Afficher l’allocation des ressources dans les outils de planification des ressources | ✓&#42; | ✓&#42; |   |   |
 | Afficher les groupes de ressources | ✓&#42; | ✓&#42; |   |   |
