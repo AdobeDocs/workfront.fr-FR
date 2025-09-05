@@ -6,10 +6,10 @@ description: La condition d’un projet est un indicateur placé sur celui-ci po
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -61,9 +61,9 @@ Pour les licences actuelles :
 
 ## Définir automatiquement la condition
 
-La définition automatique de la condition d’un projet est déterminée par le type de condition du projet.Le type de condition doit être défini sur « Statut de progression » pour que Workfront définisse automatiquement la condition du projet.
+La définition automatique de la condition d’un projet est déterminée par le type de condition du projet. Le type de condition doit être défini sur Statut de progression pour que Workfront définisse automatiquement la condition du projet.
 
-L’équipe d’administration de Workfront ou de groupes détermine la valeur par défaut du champ « Type de condition » pour les nouveaux projets de votre système lors de la définition des préférences du projet dans la zone « Configuration ».Pour plus d’informations, consultez la section [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Votre administrateur Workfront ou de groupe détermine la valeur par défaut du champ Type de condition pour les nouveaux projets de votre système lors de la définition des préférences du projet dans la zone Configuration . Pour plus d’informations, consultez la section [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Lorsque vous créez un projet, la condition du projet est automatiquement définie pour correspondre au statut de la progression du projet à ce moment-là. Le statut de la progression du projet est basé sur la progression des tâches du projet.
 
@@ -78,7 +78,7 @@ Si vous définissez le type de condition de votre projet sur « Manuel » au l
 
 1. Assurez-vous que le champ **Type de condition** est défini sur **Manuel**.
 
-   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
+   ![](assets/project-details-overview-select-condition.png)
 
 1. Dans le champ **Condition**, sélectionnez parmi les options suivantes celle qui correspond à votre compréhension du bon déroulement du travail ou des retards :
 

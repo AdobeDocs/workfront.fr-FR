@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Mise à jour de la condition pour les tâches et les problèmes
+title: Mettre à jour la condition pour les tâches et les événements
 description: La condition d’une tâche ou d’un problème est un indicateur qui y est placé pour indiquer son déroulement. Il s’agit d’un statut différent de celui de l’élément de travail, qui indique l’étape actuelle du développement de l’élément.
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 82%
+source-wordcount: '1060'
+ht-degree: 79%
 
 ---
 
@@ -31,7 +31,7 @@ Les valeurs de condition auxquelles nous faisons référence dans cet article so
 
 ## Conditions d’accès {#access-requirements}
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,13 +59,13 @@ Les valeurs de condition auxquelles nous faisons référence dans cet article so
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Autorisations d’affichage ou supérieures sur les tâches et les problèmes afin de visualiser leur condition</p>
-   <p>Autorisations Contribute sur les tâches et problèmes pour mettre à jour la condition</p>
+   <p>Autorisations de contribution sur les tâches et les événements pour mettre à jour la condition</p>
   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,11 +79,11 @@ Les conditions s’affichent sous la forme d’un indicateur associé à des tâ
 
 Vous pouvez retrouver la condition des tâches et des problèmes dans les zones suivantes de Workfront :
 
-* La page Détails , une fois qu’un administrateur de Workfront ou de groupe l’a ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+* La page Détails, une fois qu’un administrateur Workfront ou de groupe l’a ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-* L’en-tête d’une tâche ou d’un problème, après qu’un administrateur de Workfront ou de groupe l’ait ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser les en-têtes d’objets à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+* En-tête d’une tâche ou d’un événement, ajouté par un administrateur Workfront ou un administrateur de groupes à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser les en-têtes d’objets à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-* Panneau Résumé, une fois qu’un administrateur ou une administratrice Workfront ou de groupes l’a ajouté à votre modèle de mise en page. Pour plus d’informations, voir [Personnalisation du panneau Résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Panneau Résumé, une fois qu’un administrateur ou une administratrice Workfront ou de groupes l’a ajouté à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser le panneau Résumé à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 * Rapports et listes lorsque vous affichez le champ Condition dans une vue ou un regroupement.
 
@@ -111,12 +111,12 @@ Vous pouvez mettre à jour manuellement la condition d’une tâche ou d’un pr
 
 >[!NOTE]
 >
->Vous pouvez demander à votre administrateur système ou de groupe d’ajouter le champ Condition à votre panneau Résumé, ou l’en-tête de la tâche ou du problème ou les pages Détails.
+>Vous pouvez demander à l’administrateur de votre système ou de votre groupe d’ajouter le champ Condition à votre panneau Résumé ou aux pages d’en-tête de tâche ou d’événement ou de Détails.
 >
 >Pour plus d’informations, consultez les articles suivants :
 >
 >* [Vue d’ensemble du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Personnalisez le panneau Résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Personnaliser le panneau Résumé à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 
@@ -125,40 +125,44 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-Vous pouvez mettre à jour manuellement la condition des tâches et des problèmes dans différentes zones de Workfront. Les sections suivantes décrivent comment mettre à jour manuellement la condition des tâches et des problèmes.
+Vous pouvez mettre à jour manuellement le statut des tâches et des événements dans différentes zones de Workfront. Les sections suivantes décrivent comment mettre à jour manuellement le statut des tâches et des événements.
 
-### Mettre à jour la condition d’une tâche ou d’un problème dans l’en-tête de la tâche ou du problème
+### Mettre à jour la condition d’une tâche ou d’un événement dans l’en-tête de la tâche ou de l’événement
 
 1. (Le cas échéant) Si votre administrateur ou administratrice Workfront ou de groupes a ajouté le champ Condition à l’en-tête de la tâche ou du problème de votre modèle de mise en page, cliquez sur le champ **Condition** dans l’en-tête et sélectionnez l’une des options suivantes :
    * Tout est en ordre
    * Certaines inquiétudes
    * Obstacles majeurs
 
-   ![](assets/condition-in-task-header.png)
-1. Cliquez sur Entrée pour enregistrer la condition.
+   ![](assets/condition-in-task-header-0925.png)
 
-### Mettre à jour la condition d’une tâche ou d’un problème dans la section Détails de la tâche ou du problème
+<!--1. Click Enter to save the Condition.-->
+
+### Mettez à jour le statut d’une tâche ou d’un événement dans la section Détails de la tâche ou de l’événement
 
 1. (Le cas échéant) Si votre administrateur ou administratrice Workfront ou de groupes a ajouté le champ Condition à la section Détails d’une tâche ou d’un problème dans votre modèle de mise en page, cliquez sur **Détails** dans le panneau de gauche, puis cliquez sur **Condition de tâche** ou **Condition de problème** et sélectionnez l’une des options suivantes :
    * Tout est en ordre
    * Certaines inquiétudes
    * Obstacles majeurs
-1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;La condition de la tâche ou du problème est mise à jour.
+1. Cliquez sur Enregistrer les modifications. **** La condition de la tâche ou du problème est mise à jour.
 
-### Mettre à jour la condition d’une tâche ou d’un problème dans un rapport ou une liste
+### Mettre à jour le statut d&#39;une tâche ou d&#39;un événement dans un rapport ou une liste
 
 1. Accédez à la liste des tâches ou problèmes auxquels vous disposez des autorisations de gestion. Assurez-vous que le champ **Condition** est visible dans la vue de la liste.
 
 1. Mettez à jour la **Condition** du problème ou de la tâche en ligne, en double-cliquant sur la condition existante et en sélectionnant une nouvelle valeur dans le menu déroulant.
 
-   ![](assets/condition-drop-down-values-in-task-list.png)
+   ![](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >
    >Les conditions peuvent être personnalisées en fonction de votre environnement. Il est donc possible que vous trouviez plus de trois options pour les conditions dans votre environnement. Les noms des conditions peuvent être différents de ceux énumérés ci-dessus. Pour plus d’informations sur la personnalisation des conditions dans Workfront, voir [Créer ou modifier une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-
 1. Appuyez sur la touche **Entrée** de votre clavier ou cliquez en dehors du champ Condition pour enregistrer la nouvelle condition de la tâche ou du problème.
+
+   >[!NOTE]
+   >
+   >Dans l’affichage Condition par défaut, le champ **Condition** est un type de champ qui ne peut pas être modifié en ligne. Lorsque vous ajoutez le champ **Condition** séparément à une vue, il est modifiable. Pour plus d’informations sur la modification en ligne, voir [Modification en ligne d’éléments d’une liste dans Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

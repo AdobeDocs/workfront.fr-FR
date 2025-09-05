@@ -6,10 +6,10 @@ description: Votre profil  [!DNL Adobe Workfront]  contient des informations vou
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
+source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
 workflow-type: tm+mt
-source-wordcount: '3317'
-ht-degree: 94%
+source-wordcount: '3149'
+ht-degree: 95%
 
 ---
 
@@ -249,16 +249,19 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
    <td role="rowheader"><strong>[!UICONTROL Modifier le mot de passe]</strong></td> 
    <td>Réinitialisez votre mot de passe dans cette section. Pour plus d’informations sur la réinitialisation de votre mot de passe, voir <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Réinitialiser votre mot de passe</a>.</td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>(Le cas échéant) &lt;SSO Configuration&gt; [!UICONTROL Username]</strong></td> 
-   <td> Si votre administrateur ou administratrice [!DNL Workfront] a activé une intégration SSO avec [!DNL Workfront], votre nom d’utilisateur ou d’utilisatrice SSO s’affiche dans ce champ. Le type de configuration SSO activé pour votre [!DNL Workfront] est visible dans ce champ.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>(Le cas échéant) [!UICONTROL Only Allow &lt;SSO Configuration&gt; Authentication]</strong></td> 
-   <td> <p> Si votre administrateur ou administratrice [!DNL Workfront] a activé une intégration SSO avec [!DNL Workfront] et a mis à jour des utilisateurs et utilisatrices pour SSO, ce champ est sélectionné par défaut. Le type de configuration SSO activé pour votre [!DNL Workfront] est visible dans ce champ.</p> <p>Lorsque ce champ est sélectionné, vous devez vous connecter à [!DNL Workfront] avec vos informations d’identification SSO. Si vous le décochez, vous pourrez vous connecter à [!DNL Workfront] avec vos informations d’identification [!DNL Workfront].</p> <p>Pour plus d’informations sur la configuration de [!DNL Workfront] avec une solution d’authentification unique (SSO), voir <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Authentification unique dans [!DNL Workfront] : index des articles</a>. Pour plus d’informations sur la mise à jour des utilisateurs et utilisatrices pour SSO, voir <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Mettre à jour des utilisateurs et utilisatrices pour l’authentification unique</a>.</p> </td> 
-  </tr> 
  </tbody> 
 </table>
+
+<!--
+  <tr> 
+   <td role="rowheader"><strong>(Conditional) &lt;SSO Configuration> [!UICONTROL Username]</strong></td> 
+   <td> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront], your SSO Username displays in this field. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>(Conditional) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
+   <td> <p> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront] and has updated users for SSO, this field is selected by default. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</p> <p>When this field is selected, you are required you to log into [!DNL Workfront] with your SSO credentials. Unchecking it will allow you to log in to [!DNL Workfront] with your [!DNL Workfront] credentials.</p> <p>For more information about configuring [!DNL Workfront] with an SSO solution, see <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single sign-on in [!DNL Workfront]: article index</a>. For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> </td> 
+  </tr>
+-->
 
 #### [!UICONTROL Informations sur la fonction]
 
@@ -342,9 +345,6 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
    <td><p>Indiquez ici votre langue préférée. Cela contrôle le format de la langue, de la date et des chiffres utilisé dans les e-mails sortants.</p>
    <p><strong>REMARQUE :</strong> lorsque votre organisation se trouve sur l’expérience unifiée Adobe, les préférences linguistiques sont stockées dans votre profil Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Pour plus d’informations, consultez la section <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Modification de la langue Adobe Experience Cloud</a> dans l’article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Langues prises en charge dans Adobe Workfront</a>.</p></td> 
   </tr>
-  <tr><td><strong>[!UICONTROL Envoyer le travail que je m'attribue dans mon onglet Travailler sur]</strong> </td>
-  <td>Sélectionnez cette option si vous souhaitez que le statut du travail que vous vous affectez soit automatiquement défini sur En cours au lieu de Nouveau.</td>
-  </tr>
   <tr> 
    <td role="rowheader"><strong>(Le cas échéant) Générer des épreuves automatiquement lors du chargement de documents</strong></td> 
    <td>Sélectionnez ce champ pour commencer à générer une épreuve immédiatement après le chargement du document dans [!DNL Workfront]. Ce champ est désactivé par défaut et ne peut être mis à jour que par un administrateur ou une administratrice Workfront.<br>Ce champ n’est disponible que si votre entreprise a acheté le composant Workfront Proof pour Workfront et si votre activation en tant qu’utilisateur ou utilisatrice d’épreuve est effective. Pour plus d’informations sur Workfront Proof, voir <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gérer des épreuves dans Adobe Workfront</a>.
@@ -352,6 +352,14 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   </tr> 
  </tbody> 
 </table>
+
+<!--
+  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
+  <td>Select this option if you want the status of work you assign to yourself to automatically be set to In Progress instead of New.</td>
+
+  <strong>[!UICONTROLAutomatically set the task status to In Progress when tasks are self-assigned]</strong>: When this option is selected, work that you assign to yourself is automatically set to In Progress status instead of New.
+  </tr>
+-->
 
 ### [!UICONTROL Notifications]
 

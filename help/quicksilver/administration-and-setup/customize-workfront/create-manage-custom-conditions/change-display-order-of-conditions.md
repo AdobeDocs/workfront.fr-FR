@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 82%
+source-wordcount: '222'
+ht-degree: 61%
 
 ---
 
@@ -25,7 +25,11 @@ Vous pouvez modifier l’ordre dans lequel les conditions s’affichent dans les
 
 * Lorsqu’une personne modifie la condition d’une tâche ou d’un problème
 
-  ![Modifier la condition dans la liste](assets/change-conditions-list-dropdown-only.png)
+  ![Modifier la condition dans la liste](assets/change-conditions-list-dropdown-0925.png)
+
+  >[!NOTE]
+  >
+  >Dans l’affichage Condition par défaut, le champ **Condition** est un type de champ qui ne peut pas être modifié en ligne. Lorsque vous ajoutez le champ **Condition** séparément à une vue, il est modifiable. Pour plus d’informations sur la modification en ligne, voir [Modification en ligne d’éléments d’une liste dans Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 ## Conditions d’accès
 
@@ -68,8 +72,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Sélectionnez l’onglet **Projets**, **Tâches** ou **Événements**.
 
-1. Faites glisser ![icône Déplacer](assets/move-icon---dots.png) Conditions pour modifier leur ordre.
+1. Faites glisser ![Icône Déplacer](assets/move-icon---dots.png) les conditions pour modifier leur ordre.
 
    Le nouvel ordre est enregistré automatiquement.
 
-Pour plus d’informations sur la personnalisation des conditions, voir [Personnaliser les conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Pour plus d’informations sur la personnalisation des conditions, voir [ Conditions personnalisées ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

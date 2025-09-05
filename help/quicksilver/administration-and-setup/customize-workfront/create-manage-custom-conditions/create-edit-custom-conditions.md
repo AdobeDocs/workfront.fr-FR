@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 91%
+source-wordcount: '647'
+ht-degree: 84%
 
 ---
 
@@ -88,7 +88,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td>Équivaut à </td> 
-      <td><p>(Obligatoire, pour les projets uniquement) Cliquez sur l’option de la liste déroulante qui décrit le mieux la fonction de votre nouvelle condition. Par exemple, pour une condition nommée Progresse bien, cliquez sur En bonne voie. Cela détermine le fonctionnement de vos conditions par défaut. Chaque condition que vous créez doit correspondre à l’une des options du menu déroulant.</p>
+      <td><p>(Obligatoire, pour les projets uniquement) Cliquez sur l’option de la liste déroulante qui décrit le mieux la fonction de votre nouvelle condition. Par exemple, pour une condition nommée Progresse bien, cliquez sur Dans les temps. Cela détermine le fonctionnement de vos conditions par défaut. Chaque condition que vous créez doit correspondre à l’une des options du menu déroulant.</p>
       <p>Pour plus d’informations sur les conditions par défaut, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Définir une condition personnalisée comme condition par défaut pour les projets</a> et <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Définir une condition personnalisée comme condition par défaut pour les tâches et les problèmes</a>.</p>
       <p>Cette option ne peut pas être modifiée une fois la création de la condition terminée.</p></td> 
      </tr> 
@@ -118,18 +118,23 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
      ![Modifier la condition lors de la modification du projet](assets/change-condition-edit-project-0825.png)
 
-   <!-- 
-   * When a user is changing the condition for a task or issue on the Updates tab:
-
-     ![Change condition when updating comment](assets/change-condition-update-comment.png)
-   -->
-
    * Lorsqu’une personne modifie la condition d’une tâche ou d’un problème en mode Liste :
 
-     ![Modifier la condition dans la liste](assets/change-conditions-list-dropdown-only.png)
+     ![Modifier la condition dans la liste](assets/change-conditions-list-dropdown-0925.png)
+
+     >[!NOTE]
+     >
+     >Dans l’affichage Condition par défaut, le champ **Condition** est un type de champ qui ne peut pas être modifié en ligne. Lorsque vous ajoutez le champ **Condition** séparément à une vue, il est modifiable. Pour plus d’informations sur la modification en ligne, voir [Modification en ligne d’éléments d’une liste dans Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 1. Cliquer sur **Enregistrer**.
 
 Vous pouvez définir votre condition personnalisée comme condition par défaut pour les projets ou pour les tâches et les problèmes. Pour plus d’informations, voir la section [Définir une condition personnalisée comme condition par défaut pour les projets](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) et [Définir une condition personnalisée comme condition par défaut pour les tâches et les problèmes](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
 Pour plus d’informations sur les conditions personnalisées, voir la section [Conditions personnalisées](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+
+<!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   * When a user is changing the condition for a task or issue on the Updates tab:
+
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+   -->
