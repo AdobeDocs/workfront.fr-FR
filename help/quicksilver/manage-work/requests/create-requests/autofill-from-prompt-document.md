@@ -5,10 +5,10 @@ description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
+source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 11%
+source-wordcount: '1336'
+ht-degree: 10%
 
 ---
 
@@ -121,41 +121,54 @@ Pour utiliser des suggestions basées sur une invite de texte collée :
 
 Ces exemples affichent des invites pour différentes manières dont l&#39;IA peut référencer d&#39;autres projets.
 
-* Référencer une ancienne campagne client
+#### Référencer une ancienne campagne client
 
-  ```
-  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
-  ```
+>[!BEGINSHADEBOX]
 
-* S’appuyer sur un projet existant
+Créez une requête de campagne similaire à celle que nous avons créée pour le lancement du 2e trimestre de (société cliente), mais cette fois pour sa division Automobile. Conservez le même jeu de livrable et le même profil d&#39;audience.
 
-  ```
-  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
-  ```
+>[!ENDSHADEBOX]
 
-* Réutilisation d&#39;un style d&#39;un livrable précédent
+#### S’appuyer sur un projet existant
 
-  ```
-  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
-  ```
+>[!BEGINSHADEBOX]
 
-* Développement d’un type de campagne plus ancien
+Utilisez la même configuration que lors du lancement du projet (Société cliente) le printemps dernier. Je souhaite lancer une campagne publicitaire numérique ciblant la même audience de dirigeants, mais avec des dates mises à jour pour ce trimestre.
 
-  ```
-  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
-  ```
+>[!ENDSHADEBOX]
 
-* Répétition d’une demande pour un autre produit
+#### Réutilisation d&#39;un style d&#39;un livrable précédent
 
-  ```
-  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
-  ```
+>[!BEGINSHADEBOX]
 
-* Style narratif avec références implicites
+Préparez une demande similaire à la campagne de promotion d’été de (Société cliente) que nous avons menée l’année dernière. Concentrez-vous sur les médias sociaux, gardez l&#39;espagnol comme langue principale et ajustez le budget à 75 000 $.
 
-  ```
-  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
-  ```
+>[!ENDSHADEBOX]
+
+#### Développement d’un type de campagne plus ancien
+
+>[!BEGINSHADEBOX]
+
+Prenez comme référence la campagne de la série de webinaires (Société cliente) du 1er trimestre. Je veux le même processus d&#39;enregistrement et les mêmes actifs, mais cette fois le sujet est « L&#39;IA dans la planification financière » et l&#39;audience est composée de jeunes professionnels.
+
+>[!ENDSHADEBOX]
+
+#### Répétition d’une demande pour un autre produit
+
+>[!BEGINSHADEBOX]
+
+Configurez une demande de campagne comme le projet de changement d’image de marque (société cliente) que nous avons géré, mais remplacez par (nouvelle société cliente) en tant que client. Veiller à ce que tous les livrables soient conformes à l’image de marque de l’entreprise.
+
+>[!ENDSHADEBOX]
+
+#### Style narratif avec références implicites
+
+>[!BEGINSHADEBOX]
+
+Nous prévoyons une campagne similaire aux publicités sociales de vacances que nous avons lancées l&#39;année dernière. Le budget doit être d’environ 50 000, l’objectif est la génération de pistes et les livrables doivent inclure les ressources Instagram et TikTok.
+
+>[!ENDSHADEBOX]
+
 
 ## Obtenir des suggestions basées sur un document que vous téléchargez
 
