@@ -3,10 +3,10 @@ title: Types d’enregistrements centralisés - Aperçu
 description: Les types d’enregistrements centralisés peuvent être ajoutés à plusieurs espaces de travail à partir d’un espace de travail principal ou central dans Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 0%
+source-wordcount: '1019'
+ht-degree: 1%
 
 ---
 
@@ -20,120 +20,109 @@ recommendations: noDisplay, noCatalog
 
 # Types d’enregistrements centralisés - Aperçu
 
-
 Les types d’enregistrements centralisés peuvent être ajoutés à plusieurs espaces de travail à partir d’un espace de travail principal ou central dans Adobe Workfront Planning.
 
 ## Présentation des types d’enregistrements centralisés
 
 Lors de l’implémentation de Workfront Planning pour une organisation multi-équipes avec des workflows communs, vous devrez peut-être définir une structure et des métadonnées cohérentes pour les types d’enregistrements clés (tels que les campagnes ou les éléments livrables) qui peuvent être ajoutés aux espaces de travail de chaque équipe pour capturer et gérer leur travail.
 
-En outre, vous aurez peut-être besoin du travail de chaque équipe pour atteindre un niveau central, plus global.
+En outre, vous aurez peut-être besoin du travail de chaque équipe pour atteindre un niveau central.
 
-Dans ce workflow, vous pouvez vous assurer que les équipes capturent leur travail de manière cohérente tout en déverrouillant la visibilité entre les équipes, sans avoir à ajouter tous les membres de l’organisation à un seul espace de travail.
+Dans un tel workflow, vous pouvez vous assurer que les équipes capturent leur travail de manière cohérente tout en déverrouillant la visibilité entre les équipes, sans avoir à tout ajouter à un espace de travail ou à tous les membres de l’organisation à chaque espace de travail. Pour ce faire, vous pouvez utiliser des types d’enregistrements centralisés.
 
 Pour utiliser des types d’enregistrements centralisés, procédez comme suit :
 
-1. Configurez un type d’enregistrement à centraliser.
+1. Configurez un type d’enregistrement à centraliser dans un espace de travail spécifique.
 
-   Pour plus d’informations, consultez [Configuration des fonctionnalités de l’espace de travail croisé pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-1. Ajouter un type d’enregistrement existant à partir d’un enregistrement centralisé.
+   Un responsable d’espace de travail peut sélectionner des utilisateurs disposant d’une licence standard, des équipes, des groupes, des rôles ou des sociétés afin d’ajouter un type d’enregistrement sélectionné aux espaces de travail qu’il gère.
+
+   Le type d’enregistrement d’origine existe dans son espace de travail d’origine, mais est rendu visible à partir de tous les autres espaces de travail.
+
+   Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+1. Ajoutez un type d’enregistrement existant à partir d’un type existant qui a été configuré en tant que type centralisé dans l’espace de travail d’une équipe.
+
+   Le type d’enregistrement existe dans les espaces de travail suivants :
+
+   * Son espace de travail d’origine où il a été désigné comme type d’enregistrement centralisé.
+   * Espace de travail de l’équipe.
 
    Pour plus d’informations, voir [ Ajouter des types d’enregistrements existants ](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
+   Les sections suivantes décrivent les points à prendre en compte concernant les types d’enregistrements centralisés dans leurs espaces de travail d’origine ou après leur ajout aux espaces de travail d’une équipe.
 
+## Considérations sur les types d’enregistrements centralisés dans leur espace de travail d’origine
 
+Le type d’enregistrement configuré pour être centralisé présente les propriétés suivantes :
 
-· Un nouveau paramètre « Autoriser l’ajout du type d’enregistrement dans d’autres espaces de travail » est disponible dans les Paramètres avancés pour les types d’enregistrement.
+* Toutes ses informations ne peuvent être modifiées que dans l’espace de travail d’origine.
 
-· Si cette option est activée, le responsable d’espace de travail peut sélectionner des utilisateurs disposant d’une licence standard, des équipes, des groupes, des rôles ou des sociétés qui peuvent ajouter le type d’enregistrement dans les espaces de travail qu’ils gèrent.
+* Vous pouvez effectuer les actions suivantes sur le type d’enregistrement centralisé à partir de l’espace de travail d’origine d’un type d’enregistrement centralisé :
 
-· Le gestionnaire d’espace de travail qui modifie le paramètre sera automatiquement ajouté par défaut à la liste des utilisateurs sélectionnés
+   * Le modifier.
 
-o Le gestionnaire d’espace de travail peut supprimer son propre nom après avoir ajouté au moins une autre entité
+     La modification d’un type d’enregistrement centralisé comprend la modification de son apparence, des fonctionnalités de plusieurs espaces de travail et de tous les champs créés dans l’espace de travail d’origine.
+   * Création de formulaires de demande
+   * Gérer les formulaires de demande
 
-o Au moins 1 utilisateur/équipe/... doit être sélectionné(e) pour enregistrer le paramètre
+* Vous ne pouvez supprimer un type d’enregistrement centralisé que s’il n’a pas été ajouté à un espace de travail d’équipe. Une fois qu’il a été ajouté à l’espace de travail d’une équipe, essayer de le supprimer de l’espace de travail d’origine génère une erreur.
 
-o Une fois le type d’enregistrement ajouté dans au moins 1 autre espace de travail, tous les utilisateurs sélectionnés peuvent être supprimés
+  Cela permet au type d’enregistrement centralisé de rester dans les espaces de travail où il a déjà été ajouté.
+* Les enregistrements que vous ajoutez à un type d&#39;enregistrement centralisé ne sont visibles que par les utilisateurs qui disposent des autorisations d&#39;affichage sur son espace de travail d&#39;origine.
+* Les enregistrements que vous ajoutez à partir de l’espace de travail de l’équipe sont cumulés et affichés dans l’espace de travail d’origine. Tous les membres de l’espace de travail d’origine y obtiennent des autorisations d’affichage.
 
-§ Cela permet d’éviter d’ajouter le type d’enregistrement global dans de nouveaux espaces de travail, mais de le conserver dans les espaces de travail qui l’utilisent déjà.
+* Les types d’enregistrement connectés d’un type d’enregistrement centralisé seront disponibles pour la connexion à partir des espaces de travail où ce type d’enregistrement est ajouté.
 
-· Lors de la phase 1, tous les enregistrements des types d’enregistrements connectés sont automatiquement partagés avec tout espace de travail où le type d’enregistrement a été ajouté.
+* Les champs créés pour un type d’enregistrement centralisé à partir de l’espace de travail d’origine sont visibles de tous les espaces de travail où le type d’enregistrement est ajouté.
 
-· Une fois que le type d’enregistrement est activé pour l’espace de travail, un champ « Workspace » généré par le système est ajouté au type d’enregistrement
+## Considérations sur les types d’enregistrements centralisés après les avoir ajoutés à l’espace de travail d’une équipe
 
-o Affiche l’espace de travail à partir duquel chaque enregistrement a été créé.
+* Les contributeurs à l’espace de travail d’équipe obtiennent l’autorisation Contribuer au type d’enregistrement centralisé dans l’espace de travail d’équipe. Il peut y ajouter et y gérer des enregistrements.
 
-o Ce champ est en lecture seule et ne peut pas être supprimé.
+* Les observateurs de l’espace de travail d’équipe obtiennent l’autorisation d’affichage du type d’enregistrement centralisé dans l’espace de travail d’équipe. Ils ne peuvent pas ajouter ni gérer d’enregistrements dans .
 
-o Il peut être masqué des champs d’affichage.
+* Les responsables d&#39;espace de travail d&#39;équipe peuvent effectuer les actions suivantes sur le type d&#39;enregistrement ajouté à partir d&#39;un type d&#39;enregistrement centralisé dans l&#39;espace de travail d&#39;une équipe :
 
-o Le champ de l’espace de travail peut être utilisé à des fins de filtrage, de regroupement et de tri, ainsi que dans n’importe quel paramètre d’affichage, comme d’autres champs.
+   * Ajouter de nouveaux champs
 
+     Les champs ajoutés à un enregistrement centralisé à partir de l’espace de travail d’équipe sont visibles uniquement à partir de l’espace de travail de l’équipe.
+   * Partager
+   * Supprimez-le.
 
-Types d’enregistrements cross-Workspace dans les espaces de travail locaux
+     La suppression du type d’enregistrement de l’espace de travail d’une équipe le supprime uniquement de l’espace de travail de l’équipe. Les enregistrements qui y ont été ajoutés à partir de l’espace de travail de l’équipe sont également supprimés. Cela ne supprime pas le type d’enregistrement de son espace de travail d’origine ou de tout autre espace de travail d’équipe où il a été ajouté.
 
-· Lorsque vous essayez d’ajouter un nouveau type d’enregistrement à leur espace de travail, les responsables locaux de l’espace de travail voient une option permettant de sélectionner les types d’enregistrement globaux disponibles pour eux
+     Cette opération est effectuée de sorte qu’il soit possible de conserver le type d’enregistrement centralisé déjà ajouté dans les espaces de travail qui l’utilisent déjà.
 
-· Lorsqu’ils sélectionnent l’un des types d’enregistrements globaux, il est immédiatement ajouté à l’espace de travail
+* Vous ne pouvez pas effectuer les actions suivantes sur le type d’enregistrement ajouté à partir d’un type d’enregistrement centralisé dans l’espace de travail d’une équipe :
 
-· Il est possible de déplacer le type d’enregistrement global vers n’importe quelle section et position dans l’espace de travail local
+   * Le modifier.
 
+     Vous ne pouvez pas modifier son apparence, les fonctionnalités de l’espace de travail croisé ou les champs importés de l’espace de travail d’origine.
+   * Création de formulaires de demande
+   * Gérer les formulaires de demande
 
-Autorisations relatives au type d’enregistrement global dans les espaces de travail locaux
+* Les enregistrements ajoutés dans les espaces de travail d&#39;une équipe sont visibles à partir des espaces de travail suivants, si vous disposez d&#39;autorisations d&#39;affichage ou supérieures pour ces espaces de travail :
 
-Dans les espaces de travail locaux, les membres obtiennent l’accès suivant au type d’enregistrement global :
+   * Espace de travail de l’équipe dans lequel ils sont ajoutés.
+   * Espace de travail d’origine du type d’enregistrement centralisé.
+   * Tous les autres espaces de travail auxquels l’espace de travail centralisé est ajouté.
 
-· Au cours de la phase 1, les responsables locaux de l’espace de travail obtiennent l’autorisation Contribuer. Cela signifie :
+* Les scénarios suivants existent pour les enregistrements créés dans les espaces de travail des équipes :
 
-o Les responsables de l’espace de travail local peuvent :
+   * Si vous disposez des autorisations de niveau Gérer sur l’espace de travail d’origine et pas d’autorisations sur les espaces de travail des équipes, vous pouvez afficher les enregistrements ajoutés depuis les espaces de travail de l’équipe dans l’espace de travail d’origine, mais vous ne pouvez pas les gérer depuis l’espace de travail d’origine.
+   * Si vous disposez des autorisations de niveau Gérer sur l’espace de travail de l’équipe, vous pouvez gérer les enregistrements dans l’espace de travail d’origine du type d’enregistrement centralisé ou à partir de l’espace de travail où ils ont été ajoutés.
 
-§ Ajouter le type d’enregistrement global
+     Vous pouvez afficher les enregistrements dans des espaces de travail d&#39;équipe supplémentaires où le type d&#39;enregistrement centralisé est ajouté uniquement si vous disposez des autorisations d&#39;affichage sur ces espaces de travail.
 
-§ Ajouter/modifier/supprimer des enregistrements dans le type d’enregistrement global, quel que soit l’espace de travail à partir duquel l’enregistrement a été ajouté.
+## Accès aux connexions
 
-§ Supprimer le type d’enregistrement global de leur espace de travail local
+Les types d’enregistrement connectés au type d’enregistrement centralisé dans l’espace de travail d’origine deviennent visibles pour les espaces de travail d’équipe où le type d’enregistrement centralisé est ajouté.
 
-o Les gestionnaires de l’espace de travail local ne peuvent pas :
+## Comportement de l’API
 
-§ Ajouter, modifier et supprimer des champs
+Lors de l’ajout d’enregistrements à un type d’enregistrement centralisé à partir d’un espace de travail d’équipe à l’aide de l’API Workfront Planning, le système vérifie si l’utilisateur a accès à la création d’enregistrements dans l’espace de travail d’origine du type d’enregistrement centralisé.
 
-§ Mettre à jour l’apparence et le libellé du type d’enregistrement
+Les cas suivants existent :
 
-§ Voir les paramètres avancés pour le type d’enregistrement
+* Si l’utilisateur y a accès, l’enregistrement est créé dans l’espace de travail d’origine des types d’enregistrements centralisés.
 
-§ Gérer les automatisations
-
-§ Gérer les formulaires de demande
-
-§ Ajuster le partage du type d’enregistrement pour la portée de leur espace de travail
-
-§ Désactivez le paramètre de type d’enregistrement global dans les paramètres avancés.
-
-· Les contributeurs de l’espace de travail local obtiennent l’autorisation de Contribuer au type d’enregistrement global et peuvent y ajouter et gérer des enregistrements
-
-· Les observateurs de l’espace de travail local obtiennent l’autorisation d’affichage sur le type d’enregistrement global
-
-· Dès qu’un enregistrement est ajouté au type d’enregistrement global à partir de l’un des espaces de travail locaux, le champ Workspace affiche ce nom d’espace de travail
-
-o Pour l’instant, il n’est pas possible de modifier le champ Workspace
-
-· Les enregistrements ajoutés aux espaces de travail locaux sont tous cumulés et affichés dans l’espace de travail principal, et tous les membres de l’espace de travail principal y ont accès en affichage.
-
-· Les enregistrements ajoutés dans les espaces de travail locaux ne sont pas affichés dans d&#39;autres espaces de travail locaux utilisant le même type d&#39;enregistrement global et leurs membres n&#39;ont pas accès aux enregistrements.
-
-
-
-Accès aux connexions :
-
-· Portée du MVP
-
-o Les types d’enregistrement connectés au type d’enregistrement global seront visibles pour les espaces de travail locaux où le type d’enregistrement global est ajouté, afin qu’ils puissent utiliser les champs de connexion pour marquer
-
-
-Comportement de l’API
-
-Si l’utilisateur tente de créer des enregistrements dans un type d’enregistrement global via l’API sans fournir l’identifiant de l’espace de travail, le système vérifie si l’utilisateur a accès à la création d’enregistrements dans l’espace de travail principal (où le type d’enregistrement global est créé)
-
-· Si oui, l&#39;enregistrement est créé dans l&#39;espace de travail principal
-
-· Si la réponse est non, l’utilisateur ou l’utilisatrice reçoit une erreur de validation indiquant qu’il n’a pas accès à l’espace de travail principal et qu’il doit fournir l’identifiant de l’espace de travail où il est autorisé à créer.
+* Si l’utilisateur n’y a pas accès, il est prévenu qu’il n’a pas accès à l’espace de travail d’origine du type d’enregistrement centralisé et qu’il doit fournir l’identifiant de l’espace de travail auquel il a accès pour créer des enregistrements.

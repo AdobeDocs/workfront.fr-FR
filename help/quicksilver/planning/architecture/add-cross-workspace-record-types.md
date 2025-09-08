@@ -4,10 +4,10 @@ description: Les types d’enregistrements sont les types d’objets d’Adobe 
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 11%
+source-wordcount: '651'
+ht-degree: 9%
 
 ---
 
@@ -33,6 +33,8 @@ Vous pouvez désigner un type d’enregistrement comme centralisé lorsque vous 
 
 Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+Avant d’ajouter des enregistrements à un espace de travail à partir d’un type d’enregistrement centralisé, consultez l’article [Présentation des types d’enregistrements centralisés](/help/quicksilver/planning/architecture/centralized-record-types-overview.md).
+
 ## Conditions d’accès
 
 +++ Développez pour afficher les conditions d’accès requises pour la fonctionnalité de cet article.
@@ -48,7 +50,7 @@ Pour plus d’informations, voir [Configuration des fonctionnalités de plusieur
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Tout package Workfront</p></li>
 Et
@@ -73,24 +75,9 @@ Et
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
-
-## Présentation des types d’enregistrements centralisés
-
-Remarques concernant l’ajout de types d’enregistrements existants depuis un autre espace de travail
-
-* Lorsqu’aucun type d’enregistrement n’est configuré pour être ajouté à un autre espace de travail, l’option permettant de les importer depuis un autre espace de travail ne s’affiche pas lors de la création d’un type d’enregistrement. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
-* Après avoir ajouté le type d’enregistrement à partir d’un autre espace de travail, les informations suivantes sont également ajoutées à partir du type d’enregistrement existant :
-
-   * Champs
-   * Connexions d’enregistrement
-
-* Vous pouvez afficher les enregistrements ajoutés à partir d’autres espaces de travail uniquement lorsque vous disposez d’autorisations sur ces espaces de travail.
-
-* Vous ne pouvez modifier le type d’enregistrement, y compris ses champs, que dans son espace de travail d’origine. Vous ne pouvez pas le modifier à partir des espaces de travail où il a été ajouté.
-* Les enregistrements ajoutés à partir de tous les espaces de travail seront visibles pour tous les utilisateurs qui y accèdent à partir de tous les espaces de travail, même s&#39;ils sont créés dans un espace de travail où ils ne disposent d&#39;aucune autorisation.
 
 ## Créer un type d’enregistrement à partir d’un type d’enregistrement existant
 
@@ -101,21 +88,41 @@ Remarques concernant l’ajout de types d’enregistrements existants depuis un 
 1. Cliquez sur **Continuer**.
 1. Dans la zone **Choisir le type d’enregistrement**, cliquez sur la carte correspondant au type d’enregistrement à ajouter à partir d’un espace de travail existant, puis cliquez sur **Ajouter**.
 
-   Le type d’enregistrement est ajouté à l’espace de travail que vous avez sélectionné et les événements suivants se produisent :
+   Le type d’enregistrement est ajouté à l’espace de travail que vous avez sélectionné.
 
-   * L’icône **type d’enregistrement entre espaces de travail** ![icône de connexion entre espaces de travail](assets/global-icon.png) est ajoutée à la carte du type d’enregistrement importé.
-   * Le champ en lecture seule **Workspace** est ajouté au type d’enregistrement importé. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
+   >[!TIP]
+   >
+   >Lorsqu’aucun type d’enregistrement n’est configuré pour être ajouté à un autre espace de travail, l’option permettant de les importer depuis un autre espace de travail ne s’affiche pas lors de la création d’un type d’enregistrement.
+
+   Les événements suivants se produisent :
+
+   * Les informations suivantes sont également ajoutées à partir du type d’enregistrement centralisé existant :
+
+      * Tous les champs d’origine
+      * Toutes les connexions aux enregistrements
+   * Vous pouvez afficher les enregistrements ajoutés à partir d&#39;autres espaces de travail uniquement si vous disposez au moins des autorisations d&#39;affichage pour ces espaces de travail.
+   * L’icône **type d’enregistrement centralisé** ![icône de type d’enregistrement centralisé](assets/global-icon.png) est ajoutée à la carte du type d’enregistrement importé.
+   * Le champ en lecture seule **Workspace** est ajouté à la vue de tableau du type d&#39;enregistrement importé. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
 
      >[!NOTE]
      >
-     >* Vous ne pouvez pas modifier le type d&#39;enregistrement importé ou ses champs. Vous pouvez modifier le type d’enregistrement et ses champs à partir de l’espace de travail d’origine.
+     >* Vous ne pouvez pas modifier l’aspect, les paramètres avancés ou les champs d’origine du type d’enregistrement importé. Vous ne pouvez modifier le type d’enregistrement et tous ses champs et paramètres d’origine qu’à partir de l’espace de travail d’origine.
+
+1. (Facultatif) Cliquez sur le type d’enregistrement nouvellement ajouté et déposez-le dans n’importe quelle section de l’espace de travail.
+
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans la carte du type d’enregistrement importé, ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur **Partager** pour le partager avec d’autres utilisateurs dans le même espace de travail.
 
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans la carte du type d’enregistrement importé, ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur **Supprimer**.
 1. (Conditionnel) Saisissez **delete** dans le champ fourni, puis cliquez sur **Supprimer définitivement**.
 
-   Le type d’enregistrement importé est alors supprimé de l’espace de travail sélectionné. Le type d’enregistrement d’origine et ses champs restent dans leur espace de travail d’origine.
+   Les événements suivants se produisent :
 
-   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+   * Le type d’enregistrement créé à partir d’un type d’enregistrement centralisé est supprimé de l’espace de travail sélectionné.
+   * Le type d’enregistrement d’origine et ses champs restent dans leur espace de travail d’origine.
+   * Tous les autres types d&#39;enregistrements importés à partir du même enregistrement centralisé restent dans leurs espaces de travail.
+   * Les enregistrements ajoutés au type d’enregistrement de l’espace de travail actuel sont supprimés. Tous les autres enregistrements ajoutés à partir d’espaces de travail supplémentaires où le type d’enregistrement centralisé a été ajouté sont conservés.
+
+
 
 
 

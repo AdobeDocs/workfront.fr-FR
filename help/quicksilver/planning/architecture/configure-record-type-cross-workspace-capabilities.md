@@ -4,10 +4,10 @@ description: Vous pouvez activer l’ajout d’un type d’enregistrement à un 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 9%
+source-wordcount: '1131'
+ht-degree: 7%
 
 ---
 
@@ -78,7 +78,7 @@ Pour plus d’informations, consultez l’un des articles suivants :
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Tout package Workfront</p></li>
 Et
@@ -103,7 +103,7 @@ Et
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -116,7 +116,9 @@ En tant que gestionnaire d’espace de travail, vous pouvez configurer un type d
 
 Un gestionnaire d’espace de travail peut ajouter un type d’enregistrement centralisé à un espace de travail qu’il gère. Les champs d’origine du type d’enregistrement sont également ajoutés.
 
-Les utilisateurs peuvent ajouter des enregistrements à un type d’enregistrement centralisé à partir de n’importe quel espace de travail auquel ils ont accès pour contribuer là où ce type d’enregistrement est ajouté, y compris son espace de travail principal. Ils ne peuvent afficher que les enregistrements de l’espace de travail qu’ils sont autorisés à afficher.
+Les utilisateurs peuvent ajouter des enregistrements à un type d&#39;enregistrement centralisé à partir de n&#39;importe quel espace de travail disposant d&#39;autorisations Contribute et où le type d&#39;enregistrement centralisé est ajouté, y compris son espace de travail d&#39;origine. Ils peuvent afficher les enregistrements de l’espace de travail pour lequel ils disposent uniquement des autorisations d’affichage.
+
+Pour plus d’informations, voir [ Présentation des types d’enregistrements centralisés ](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
 
 Pour configurer l’ajout d’un type d’enregistrement en tant que type d’enregistrement centralisé :
 
@@ -134,18 +136,29 @@ Ou
 
    ![Autres options de menu de la carte de type d’enregistrement](assets/more-menu-options-from-record-type-card.png)
 
+   >[!TIP]
+   >
+   >Si un type d’enregistrement a déjà été désigné comme type d’enregistrement centralisé et qu’il a été ajouté à d’autres espaces de travail, l’option Modifier est grisée.
+
 1. Dans la zone **Modifier le type d’enregistrement**, sélectionnez l’onglet **Paramètres avancés**.
 1. Activez le paramètre **Autoriser l’ajout de ce type d’enregistrement à d’autres espaces de travail**.
 
    ![Modifier les paramètres avancés du type d’enregistrement avec Ajouter aux autres espaces de travail active](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. Dans le champ **Sélectionner les personnes autorisées à ajouter ce type d’enregistrement aux espaces de travail qu’elles gèrent**, ajoutez les utilisateurs autorisés à ajouter ce type d’enregistrement aux espaces de travail qu’elles gèrent.
+   >[!TIP]
+   >
+   >Après avoir ajouté un type d’enregistrement centralisé à un autre espace de travail, ce paramètre ne peut plus être désactivé.
+
+1. Dans le champ **Sélectionner les personnes autorisées à ajouter ce type d’enregistrement aux espaces de travail qu’elles gèrent**, ajoutez les entités que vous souhaitez autoriser à ajouter ce type d’enregistrement aux espaces de travail qu’elles gèrent.
 
    Votre nom est automatiquement ajouté au champ.
 
    Vous pouvez ajouter des utilisateurs individuels, ou des groupes, des équipes, des fonctions ou des sociétés dont vous souhaitez autoriser les utilisateurs à ajouter ce type d’enregistrement aux espaces de travail qu’ils gèrent.
 
+   Vous devez désigner au moins une entité (utilisateur, équipe, groupe, rôle ou entreprise) pour pouvoir activer ce paramètre.
+
    Vous pouvez modifier ce champ après avoir enregistré le type d’enregistrement.
+
 1. (Facultatif) Supprimez votre nom du champ **Sélectionner qui peut ajouter ce type d’enregistrement aux espaces de travail qu’il gère**.
 
 1. Cliquer sur **Enregistrer**.
@@ -156,12 +169,12 @@ Ou
 
    >[!NOTE]
    >
-   >Vous ne pouvez modifier le type d’enregistrement et ses champs qu’à partir de l’espace de travail d’origine.
+   >Vous ne pouvez modifier l’aspect et les paramètres du type d’enregistrement, ainsi que ses champs d’origine, qu’à partir de son espace de travail d’origine.
 
-   * La carte de type d’enregistrement affiche une icône globale ![icône de type d’enregistrement global](assets/global-icon.png) pour indiquer que le type d’enregistrement peut être ajouté à n’importe quel espace de travail dont vous avez désigné le responsable dans votre configuration.
-   * Un champ **Workspace** généré par le système est ajouté au type d’enregistrement.
+   * La carte Type d’enregistrement affiche une icône centralisée ![icône de type d’enregistrement centralisé](assets/global-icon.png) pour indiquer que le type d’enregistrement peut être ajouté à d’autres espaces de travail.
+   * Un champ **Workspace** généré par le système est ajouté à la vue Tableau du type d&#39;enregistrement et des détails de ses enregistrements.
 
-     Le champ Workspace affiche l’espace de travail à partir duquel chaque enregistrement a été créé.
+     Le champ Workspace affiche l’espace de travail à partir duquel chaque enregistrement est créé.
 
      Ce champ est en lecture seule et ne peut pas être supprimé.
 1. (Facultatif) Accédez à un autre espace de travail et créez un type d’enregistrement à l’aide d’un type d’enregistrement existant. Sélectionnez le type d’enregistrement que vous avez activé dans les étapes ci-dessus.
@@ -178,7 +191,7 @@ Pour configurer un type d’enregistrement auquel se connecter à partir d’aut
 
 {{step1-to-planning}}
 
-1. Cliquez sur l’espace de travail dont vous souhaitez modifier les types d’enregistrements,
+1. Cliquez sur l’espace de travail dont vous souhaitez modifier les types d’enregistrements.
 
    La page Workspace s’ouvre et les types d’enregistrements s’affichent.
 1. Utilisez l’une des méthodes suivantes :
@@ -194,17 +207,17 @@ Ou
 
    ![Modifier l’onglet Paramètres avancés de type d’enregistrement avec la connexion depuis d’autres espaces de travail activée](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
-   Lorsqu’il est activé, le type d’enregistrement est accessible et peut être connecté à partir d’autres espaces de travail.
+   Lorsqu’il est activé, le type d’enregistrement est accessible et peut être connecté à à partir d’autres espaces de travail.
 
 1. Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
 
-   * **À l’échelle du système** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations de gestion.
+   * **À l’échelle du système** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations Gérer.
    * **Espaces de travail spécifiques** : ajoutez les noms des espaces de travail auxquels les responsables d’espace de travail peuvent se connecter à ce type d’enregistrement.
-1. Cliquez sur **Modifier**.
+1. Cliquer sur **Enregistrer**.
 
    Les événements suivants se produisent :
 
-   * Le type d’enregistrement et ses champs sont désormais disponibles pour se connecter à partir des espaces de travail que vous avez désignés.
+   * Le type d’enregistrement et ses champs sont désormais disponibles pour la connexion à partir des espaces de travail que vous avez désignés.
    * La carte de type d’enregistrement affiche une icône de connexion entre espaces de travail ![icône de connexion entre espaces de travail](assets/connect-from-other-workspaces-icon.png) pour indiquer que le type d’enregistrement peut être connecté à partir de n’importe quel espace de travail que vous avez désigné dans votre configuration.
 
    Le type d’enregistrement peut être connecté à partir des espaces de travail désignés.
