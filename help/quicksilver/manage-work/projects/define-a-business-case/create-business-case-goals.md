@@ -5,9 +5,9 @@ description: Dans le cadre de la création d’un business case, vous pouvez cr�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '445'
 ht-degree: 53%
 
 ---
@@ -81,9 +81,10 @@ Tenez compte des éléments suivants lorsque vous définissez les objectifs de b
 {{step1-to-projects}}
 
 1. Dans la liste des projets, sélectionnez le projet pour lequel vous souhaitez définir des objectifs d&#39;analyse de rentabilité.
+
 1. Dans le volet de gauche, cliquez sur **Analyse de rentabilité**. La section **Analyse de rentabilité** s’affiche.
 
-   <!--![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)-->
+   ![Informations sur le business case](assets/business-case-info.png)
 
 1. Dans la section **Objectifs**, cliquez sur **Modifier les objectifs**.
 
@@ -97,11 +98,11 @@ Tenez compte des éléments suivants lorsque vous définissez les objectifs de b
    * Faible
    * Le plus faible
 
-     <!--![Importance](assets/g1-350x76.png)-->
+   ![Importance](assets/goals-section.png)
 
-     >[!NOTE]
-     >
-     >Vous ne pouvez pas personnaliser les niveaux d’importance des objectifs.
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas personnaliser les niveaux d’importance des objectifs.
 
 1. (Facultatif) Pour ajouter un autre objectif, cliquez sur **Ajouter un autre objectif** et répétez les étapes 5 à 6.
 

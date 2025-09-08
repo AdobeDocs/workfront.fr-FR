@@ -6,10 +6,10 @@ description: Les risques sont des événements ou des facteurs possibles qui emp
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 61%
+source-wordcount: '1103'
+ht-degree: 52%
 
 ---
 
@@ -37,7 +37,7 @@ Les risques peuvent être associés au coût, mais le coût réel des risques n�
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,18 +86,18 @@ Pour créer ou modifier un risque dans le business case :
 1. Dans la section **Risques**, cliquez sur **Modifier les risques**.
 1. Saisissez ou modifiez les informations suivantes :
 
-   * **Description :** décrivez le risque.
+   * **Description :** décrire le risque.
 
-   * **Coût potentiel** : indiquez le coût estimé si le risque doit se produire.
+   * **Coût potentiel** : saisissez le coût estimé si le risque doit se produire.
 
-   * **Probabilité** : indiquez la probabilité que le risque se produise en pourcentage.
+   * **Probabilité** : saisissez la probabilité que le risque se produise sous la forme d’une valeur de pourcentage.
 
-   * **Type** : indiquez à quelle catégorie le risque appartient.
-   * **Plan de réduction des risques** : mettez à jour la description du plan pour atténuer le risque.
+   * **Type :** sélectionnez la catégorie à laquelle le risque appartient.
+   * **Plan d’atténuation** : mettez à jour la description du plan pour atténuer le risque.
 
-   * **Coût de réduction** : indiquez le coût du plan de réduction des risques que vous devez mettre en place pour éviter que le risque ne se produise.
+   * **Coût de l&#39;atténuation** : saisissez le coût du plan d&#39;atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
 
-   <!--![Risks](assets/crp1-350x117.png)-->
+   ![Risques](assets/edit-risk.png)
 
 1. (Facultatif) Cliquez sur **Ajouter un autre risque** pour ajouter des risques supplémentaires.
 1. Cliquer sur **Enregistrer**.
@@ -115,13 +115,11 @@ Vous pouvez créer et modifier des risques dans la section Risques d&#39;un proj
 
    ![Section Risques de la tâche](assets/risks-section-on-project-2022.png)
 
-1. Cliquez sur **Commencer à ajouter des risques** et créez des risques en modifiant leurs informations en ligne. **Description** est un champ obligatoire
+1. Cliquez sur **Commencer à ajouter des risques** et créez des risques en modifiant en ligne leurs informations.
 
    Ou
 
-   Cliquez sur **Nouveau risque**.
-
-   La boîte de dialogue **Nouveau risque** s’ouvre.
+   Cliquez sur **Nouveau risque** pour ouvrir la boîte **Nouveau risque**.
 
    ![Nouvelle catégorie de risque](assets/new-risk-box.png)
 
@@ -149,9 +147,9 @@ Vous pouvez créer et modifier des risques dans la section Risques d&#39;un proj
 
 ### Modifier des risques dans la zone Risques {#edit-risks-in-the-risks-area}
 
-Vous pouvez modifier les risques pendant la durée de vie d’un projet, lorsque des changements se produisent dans leur probabilité, leur coût potentiel ou leur statut, par exemple.
+Vous pouvez modifier les risques pendant la durée de vie d&#39;un projet ou lorsque des changements se produisent (par exemple, un changement dans leur probabilité, leur coût potentiel ou leur statut).
 
-Vous pouvez modifier un risque à la fois ou plusieurs risques en bloc.
+Vous pouvez modifier un risque à la fois ou modifier plusieurs risques en bloc.
 
 Pour modifier les risques :
 
@@ -172,7 +170,7 @@ Pour modifier les risques :
    Envisagez de modifier les champs suivants :
 
    * **Description** : modifiez la description du risque.
-   * **Type de risque** : indiquez à quelle catégorie le risque appartient.
+   * **Type de risque** : mettez à jour la catégorie à laquelle le risque appartient.
    * **Probabilité** : indiquez la probabilité que le risque se produise sous la forme d’une valeur de pourcentage.
    * **Coût potentiel** : indiquez le coût estimé si le risque doit se produire.
    * **Coût de l’atténuation** : indiquez le coût du plan d’atténuation que vous devez mettre en place pour éviter que le risque ne se produise.

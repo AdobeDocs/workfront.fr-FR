@@ -6,16 +6,16 @@ description: Vous pouvez exporter le business case vers un fichier PDF, au cas o
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 67%
+source-wordcount: '183'
+ht-degree: 46%
 
 ---
 
 # Exporter le business case d’un projet
 
-Vous pouvez exporter le business case vers un fichier PDF, au cas où vous auriez besoin de l’imprimer ou de le joindre à un e-mail dans un format plus condensé.
+Vous pouvez exporter le business case vers un fichier PDF au cas où vous auriez besoin de l&#39;imprimer ou de le joindre à un e-mail dans un format plus condensé.
 
 ## Conditions d’accès
 
@@ -52,13 +52,12 @@ Vous pouvez exporter le business case vers un fichier PDF, au cas où vous aurie
 
 ## Exporter le business case
 
-1. Accédez au projet à partir duquel vous souhaitez exporter le business case.
+{{step1-to-projects}}
+
+1. Sur la page **Projets**, sélectionnez le projet à partir duquel vous souhaitez exporter l&#39;Analyse de rentabilité.
 1. Cliquez sur **Business case** dans le panneau de gauche.
-1. Dans la zone supérieure droite **Résumé de l’analyse de rentabilité**, cliquez sur **Exporter**.
+1. Dans le coin supérieur droit de la zone **Résumé de l’analyse de rentabilité**, cliquez sur **Exporter**. Un fichier PDF est téléchargé sur votre ordinateur.
 
-   &lt;!—![Récapitulatif de l’analyse de rentabilité](assets/bc-summary--350x587.png)—>\
-   Un PDF   Le fichier est téléchargé sur votre ordinateur. Le fichier contient toutes les zones du business case dans un format facile à lire.
+   ![Résumé de l’analyse de rentabilité](assets/bc-summary.png)
 
-   <!--![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)-->
 
-1. (Facultatif) Joignez le fichier PDF à un e-mail ou imprimez-le pour le partager avec d’autres personnes.

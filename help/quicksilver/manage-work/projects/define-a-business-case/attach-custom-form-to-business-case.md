@@ -5,10 +5,10 @@ description: Les formulaires personnalisés sont utilisés pour collecter des in
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 89%
+source-wordcount: '332'
+ht-degree: 65%
 
 ---
 
@@ -70,19 +70,19 @@ Pour plus d’informations sur la façon de joindre des formulaires personnalis�
 
 ## Joindre des formulaires personnalisés au business case
 
-Pour joindre un formulaire personnalisé à un business case, votre administrateur ou administratrice Workfront doit sélectionner cette option dans « Configuration ». Pour plus d’informations sur l’activation des formulaires personnalisés dans la configuration, consultez la section [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) dans l’article [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Pour joindre un formulaire personnalisé à un business case, votre administrateur ou administratrice Workfront doit sélectionner cette option dans « Configuration ». Pour plus d’informations sur l’activation des formulaires personnalisés dans la configuration, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Pour joindre un formulaire personnalisé :
 
-1. Accédez au projet auquel vous souhaitez joindre le formulaire, puis cliquez sur **Business case** dans le panneau de gauche.
+1. Accédez au projet auquel vous souhaitez joindre le formulaire, puis cliquez sur **Analyse de rentabilité** dans le panneau de gauche. Le business case s’affiche.
 
-   Le business case s’affiche.
+1. Dans la section **Formulaire personnalisé**, sélectionnez le formulaire personnalisé à joindre dans le menu déroulant. Le formulaire personnalisé apparaît dans la section **Formulaires ajoutés** ci-dessous.
 
-1. Dans la section **Formulaire personnalisé**, sélectionnez le formulaire personnalisé à joindre dans le menu déroulant.
+1. (Facultatif) Pour développer les détails du formulaire personnalisé, cliquez sur la flèche à gauche du nom du formulaire personnalisé.
 
-   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
+   ![Développer les détails du formulaire personnalisé](assets/expand-custom-form-details.png)
 
-1. (Facultatif) Sélectionnez **Modifier le formulaire personnalisé**.\
-   <!--![Edit custom form](assets/acf1-350x122.png)-->
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Facultatif) Indiquez les informations dans les champs du formulaire personnalisé, puis cliquez sur **Enregistrer**.
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->

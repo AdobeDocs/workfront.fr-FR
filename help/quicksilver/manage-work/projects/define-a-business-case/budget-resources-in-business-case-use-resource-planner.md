@@ -5,10 +5,10 @@ description: Dans le cadre de la planification des ressources, vous pouvez utili
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 96%
+source-wordcount: '1224'
+ht-degree: 81%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez également budgétiser les ressources dans l’analyse de rentabilit
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,13 +106,13 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
 
 1. (Facultatif et le cas échéant) Si les informations sur le projet ont été publiées à partir d’une initiative sur le planificateur de scénarios, effectuez l’une des opérations suivantes :
 
-   * Sélectionnez le planificateur de ressources dans le champ **Choisir les heures à utiliser pour calculer le coût budgétisé de la main d’œuvre du projet**, puis cliquez sur **Choisir > Modifier l’établissement du budget de ressources**.
+   * Sélectionnez Planificateur de ressources dans le champ **Choisir les heures à utiliser pour calculer le coût budgété de la main-d&#39;œuvre du projet** puis cliquez sur **Choisir** > **Modifier l&#39;établissement du budget de ressources**.
 
-     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
+   <!-- ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * Si le planificateur de scénarios a été sélectionné pour l’établissement du budget de ressources du projet, cliquez sur **Modifier** > **Modifier l’établissement du budget de resources**.
 
-     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
+     <!-- ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    Cette fonction utilise les heures budgétées du projet pour calculer les coûts budgétés de main-d’œuvre pour le projet.
 
@@ -157,8 +157,8 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
     
 
 1. Cliquez sur **Aujourd’hui** pour revenir à la période d’aujourd’hui.
-1. (Facultatif) Cliquez sur **Semaine**, **Mois** ou **Trimestre** pour afficher les informations relatives au projet dans des périodes différentes.
-1. (Facultatif) Cliquez sur le menu déroulant **Heures** et sélectionnez **Heures**,**Équivalent temps complet** ou **Coût** pour modifier l’affichage des informations dans le planificateur de ressources. Les heures sont affichées par défaut.
+1. (Facultatif) Cliquez sur **Semaine**, **Mois** ou **Trimestre** pour afficher les informations relatives au projet selon différentes périodes.
+1. (Facultatif) Cliquez sur le menu déroulant **Heures**, puis sélectionnez **Heures**, **équivalent temps complet** ou **Coût** pour modifier l’affichage des informations dans le planificateur de ressources. Les heures sont affichées par défaut.
 
 1. (Facultatif) Cliquez sur **Exporter** pour exporter le planificateur de ressources vers un fichier Excel.
 
@@ -172,7 +172,7 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
 
    * Estimez manuellement le nombre d’heures, d’équivalent temps complet ou les valeurs de coût pour les rôles, les personnes ou le projet.
 
-     Ou
+     ou
 
    * Cliquez sur l’icône **Options** pour le projet ou les fonctions et sélectionnez une option pour budgétiser automatiquement les heures pour les rôles, les personnes ou le projet.
 
@@ -180,9 +180,9 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
 
    >[!NOTE]
    >
-   >Vous pouvez budgétiser les heures, les équivalents temps complet ou les coûts de vos ressources pour n’importe quelle période affichée dans la zone Établissement du budget de ressources, indépendamment de la chronologie du projet. Par exemple, si vous souhaitez indiquer que vos ressources peuvent ne pas être disponibles pendant la durée du projet (où elles sont associées à un nombre d’heures prévues), mais qu’elles peuvent être disponibles à un autre moment, vous pouvez le faire en les budgétisant pour des périodes où le nombre d’heures prévues est zéro, si c’est à ce moment-là qu’elles deviennent disponibles pour le travail.
+   >Vous pouvez budgéter des heures, des équivalents temps plein ou des coûts pour vos ressources pour n&#39;importe quelle période affichée dans la zone de budgétisation des ressources, indépendamment de la chronologie du projet. Par exemple, si vous souhaitez indiquer que vos ressources peuvent ne pas être disponibles pendant la chronologie du projet (où elles sont associées aux heures planifiées), mais qu&#39;elles peuvent être disponibles à un autre moment, vous pouvez les budgéter pour des périodes où les heures planifiées sont nulles, si c&#39;est à ce moment qu&#39;elles deviennent disponibles pour travailler.
 
-1. (Facultatif) Pour savoir si vous pouvez déplacer les heures, les équivalents temps complet ou les coûts budgétés vers une autre période, cliquez sur l’icône **Options**, puis sur **Ajuster les dates de budget**.
+1. (Facultatif) Pour savoir si vous pouvez déplacer les heures budgétées, les équivalents temps plein ou les coûts vers une autre période, cliquez sur l&#39;icône **Options**, puis **Ajuster les dates de budget**.
 
    Pour plus d’informations sur l’ajustement des dates budgétées, voir [Ajuster les dates de budgétisation dans le planificateur de ressources](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md).
 

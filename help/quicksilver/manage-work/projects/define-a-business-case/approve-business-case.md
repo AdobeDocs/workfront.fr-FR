@@ -5,10 +5,10 @@ description: Après avoir complété et soumis le business case d’une demande 
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 90%
+source-wordcount: '690'
+ht-degree: 83%
 
 ---
 
@@ -80,15 +80,15 @@ Pour établir un rapport pour les projets dont le business case est en attente d
 
 1. Sélectionnez l’onglet **Vue** du rapport, puis cliquez sur **Ajouter une colonne**.
 
-1. Commencez à taper « Statut » dans le champ **Afficher dans cette colonne**, et sélectionnez ce champ lorsqu’il apparaît dans la liste.
+1. Commencez à saisir *Statut* dans le champ **Afficher dans cette colonne** et sélectionnez ce champ lorsqu’il apparaît dans la liste.
 
    Cette colonne affiche le statut des projets.
 
 1. Sélectionnez l’onglet **Filtres** du rapport, puis cliquez sur **Ajouter une règle de filtrage**.
 
-1. Commencez à taper « Statut » dans le champ **Afficher seulement les projets dans lesquels le...** et sélectionnez-le lorsqu’il apparaît dans la liste.
+1. Commencez à saisir *Statut* dans le champ **Afficher uniquement les projets dans lesquels le champ ...** et sélectionnez-le lorsqu’il apparaît dans la liste.
 1. Sélectionnez **Égal** pour le modificateur de filtre.
-1. Commencez à saisir « Demandé » dans le champ disponible.
+1. Commencez à saisir *Demandé* dans le champ disponible.
 
    Cela permet de s&#39;m’assurer que le rapport n’inclut que les projets dont le statut est Demandé.
 
@@ -126,15 +126,15 @@ Pour établir un rapport pour les projets dont le business case est en attente d
 1. Cliquez sur **Business case** dans le panneau de gauche.
 1. Cliquez sur **Approuver** ou **Rejeter** dans la zone Récapitulatif du business case pour approuver ou rejeter le business case.
 
-   &lt;!—![Analyse de rentabilité](assets/business-case-summary-with-rp-information--1-.png)—>
+<!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
 
-   Le statut du projet passe à **Approuvé** si le business case est approuvé.
+Le statut du projet passe à **Approuvé** si le business case est approuvé.
 
-   Le statut du projet passe à **Rejeté** si le business case est rejeté.
+Le statut du projet passe à **Rejeté** si le business case est rejeté.
 
-   >[!NOTE]
-   >
-   >L’utilisateur ou utilisatrice qui a soumis l’approbation du business case ne reçoit aucune notification si sa demande de projet a été approuvée ou rejetée.
+>[!NOTE]
+>
+>L’utilisateur ou utilisatrice qui a soumis l’approbation du business case ne reçoit aucune notification si sa demande de projet a été approuvée ou rejetée.
 
 ## Approuver le business case en accédant aux projets demandés dans un portfolio
 

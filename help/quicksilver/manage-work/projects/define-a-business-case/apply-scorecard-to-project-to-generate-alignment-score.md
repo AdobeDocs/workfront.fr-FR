@@ -5,10 +5,10 @@ description: Tirez parti des cartes de performance pour mesurer l’alignement d
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 98%
+source-wordcount: '1220'
+ht-degree: 94%
 
 ---
 
@@ -91,7 +91,7 @@ Pour appliquer une carte de performance à un projet, procédez comme suit :
 
 1. Sélectionnez une carte de performance dans le menu déroulant.
 
-   <!--![New scorecard](assets/new-scorecard.png)-->
+   ![Nouvelle carte de performance](assets/scorecard-section.png)
 
 1. Saisissez une réponse pour toutes les questions de la carte de performance.
 
@@ -160,31 +160,27 @@ Si vous disposez des droits de contribution au projet, vous pouvez afficher le s
 
 1. Accédez au projet dont vous souhaitez afficher le score d’alignement.
 1. Cliquez sur **Business case** dans le panneau de gauche.
-1. Accédez au **Récapitulatif du business case** sur le côté droit de l’écran.
+1. Accédez au **Résumé de l’analyse de rentabilité** sur le côté droit de l’écran. Le score d’alignement se trouve dans le récapitulatif du business case, dans la valeur **Aligné**.
 
-   Le score d’alignement se trouve dans le récapitulatif du business case, dans la valeur **Aligné**.
-
-   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
+   ![Score d’alignement sur un projet](assets/aligned-section.png)
 
 ### Afficher les scores d’alignement du projet et du portfolio dans l’optimisateur de portfolio
 
-Si vous disposez d’un accès en gestion au portfolio, vous pouvez afficher le score d’alignement d’un projet ou d’un portfolio dans l’optimisateur de portfolio.
+Vous pouvez afficher le score d’alignement d’un projet ou d’un portfolio dans Portfolio Optimizer si vous disposez d’un accès de niveau Gérer au portfolio.
 
 Pour plus d’informations sur les informations affichées dans l’optimisateur de portfolio, consultez la section [Vue d’ensemble de l’optimisateur de portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * [Localiser le score d’alignement du projet dans l’optimisateur de portfolio](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Localiser le score d’alignement du portfolio dans l’optimisateur de portfolio](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
+  ![Score d’alignement dans dans l’optimisateur de portfolio](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Localiser le score d’alignement du projet dans dans l’optimisateur de portfolio {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Cliquez sur le nom d’un portfolio.
-1. Cliquez sur l’**optimisateur de portfolio** dans le panneau de gauche.
-
-   L’optimisateur de portfolio s’affiche.
+1. Cliquez sur **Optimisation de Portfolio** dans le panneau de gauche. L’optimisateur de portfolio s’affiche.
 
    Le score d’alignement d’un projet s’affiche en pourcentage dans la colonne **Alignement** de l’optimisateur de portfolio.
 
