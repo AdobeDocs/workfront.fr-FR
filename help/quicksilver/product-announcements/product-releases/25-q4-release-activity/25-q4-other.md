@@ -4,10 +4,11 @@ description: Autres améliorations apportées au cours de la période de publica
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f7dcae5e6bcc8674ef37ef94282c50dc9ffe951d
+exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
+source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 25%
+source-wordcount: '155'
+ht-degree: 26%
 
 ---
 
@@ -25,9 +26,8 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 >* Mise à jour rapide de la production : 11 septembre 2025
 >* Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
-Grâce à notre disposition de listes avancées, vous pouvez utiliser des filtres et des regroupements pour afficher votre travail et le garder mieux organisé. Un indicateur à points bleus s’affiche désormais au-dessus d’un widget pour vous informer lorsque le filtre ou le regroupement a été appliqué à une liste dans les zones suivantes :
+Grâce à notre disposition de listes avancées, vous pouvez utiliser des filtres et des regroupements pour afficher votre travail et le garder mieux organisé. Un indicateur à points bleus s’affiche désormais au-dessus d’un widget pour vous informer lorsqu’un filtre ou un regroupement a été appliqué à une liste dans les zones suivantes :
 
-* Taux de change dans la configuration
 * Widget Mes demandes
 * Priorités
 

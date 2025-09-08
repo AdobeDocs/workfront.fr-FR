@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 8eba03938e4e6e97afd2bc4b3a65db1c39d16b8c
+source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1949'
 ht-degree: 17%
 
 ---
@@ -332,9 +332,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Mises à jour des listes améliorées</a><p></p>
-            <p>Grâce à notre disposition de listes avancées, vous pouvez utiliser des filtres et des regroupements pour afficher votre travail et le garder mieux organisé. Un indicateur à points bleus s’affiche désormais au-dessus d’un widget pour vous informer lorsque le filtre ou le regroupement a été appliqué à une liste dans les zones suivantes :</p>
+            <p>Grâce à notre disposition de listes avancées, vous pouvez utiliser des filtres et des regroupements pour afficher votre travail et le garder mieux organisé. Un indicateur à points bleus s’affiche désormais au-dessus d’un widget pour vous informer lorsqu’un filtre ou un regroupement a été appliqué à une liste dans les zones suivantes :</p>
             <ul>
-                <li>Taux de change dans la configuration</li>
                 <li>Widget Mes demandes</li>
                 <li>Priorités</li>
             </ul>
@@ -420,7 +419,7 @@ Pour offrir des intégrations plus stables et plus évolutives, nous passons à 
 * Workfront pour Salesforce.
 
 Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
-Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Version 20 de l’API
 
@@ -432,7 +431,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
