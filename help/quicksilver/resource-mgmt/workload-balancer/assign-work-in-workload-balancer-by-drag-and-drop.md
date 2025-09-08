@@ -6,7 +6,7 @@ description: Vous pouvez affecter des éléments de travail à l’aide de l’�
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
+source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 69%
@@ -23,7 +23,7 @@ Pour des informations générales sur l’attribution de travail aux utilisateur
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -95,7 +95,7 @@ Vous pouvez affecter un élément depuis la zone Travail non affecté à un util
    >* L’option Afficher tous les utilisateurs et utilisatrices n’est disponible que dans l’équilibreur de charge de travail d’un projet.
    >* Utilisez des filtres pour afficher uniquement les utilisateurs et utilisatrices qui sont importants pour vous. Par exemple, utilisez un filtre pour afficher uniquement les utilisateurs et utilisatrices de vos équipes ou groupes.
 
-1. Cliquez sur la barre d’une tâche <span class="preview">ou d’une affectation de rôle</span> qui indique la chronologie prévue ou projetée et faites-la glisser sur le nom d’un utilisateur dans la zone **Affecté**.
+1. Cliquez sur la barre d’une tâche <span class="preview">ou d’une affectation de rôle</span> qui indique la chronologie prévue ou projetée et faites-la glisser sur les heures pour un utilisateur dans la zone **Affecté**.
 
    L’utilisateur ou l’utilisatrice que vous survolez pour déposer l’élément de travail est mis en surbrillance.
 
