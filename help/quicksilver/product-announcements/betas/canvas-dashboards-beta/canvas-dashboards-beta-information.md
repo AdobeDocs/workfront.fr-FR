@@ -7,10 +7,10 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 32%
+source-wordcount: '538'
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 32%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](#provide-feedback) ci-dessous.<br>
->&#x200B;>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
@@ -55,7 +55,7 @@ Pour plus d’informations, voir [ Présentation des tableaux de bord de la zone
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurations des niveaux d’accès</p></td> 
-   <td><p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p>
+   <td><p>Accès de l’administrateur système pour activer les tableaux de bord de la zone de travail</p>
   </td> 
   </tr>  
 </tbody> 
@@ -73,9 +73,15 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    >[!NOTE]
    >
-   > Le bouton **Rejoindre la version Beta des tableaux de bord de la zone de travail** n’est disponible que si votre organisation a été invitée à la version Beta.
+   > Le bouton **Joindre la version Beta des tableaux de bord de la zone de travail** n’est accessible que par les administrateurs système. Tous les autres utilisateurs verront ce bouton dans un état désactivé.
 
 1. Vérifiez les conditions du contrat **Beta** puis cliquez sur **Accepter**. Vous êtes maintenant inscrit à la version bêta. Notez que l’accessibilité complète de vos données Workfront dans les tableaux de bord de la zone de travail peut prendre quelques minutes.
+
+   >[!NOTE]
+   >
+   >Une fois les conditions Beta acceptées, les fonctionnalités du tableau de bord de la zone de travail sont activées pour tous les utilisateurs dans l’environnement Workfront. Tout utilisateur disposant d’un accès d’affichage et de gestion aux tableaux de bord peut afficher et modifier les tableaux de bord de la zone de travail en fonction de son niveau d’accès.<br>
+   >Notez que la visibilité de la page de destination Tableaux de bord de la zone de travail est contrôlée par le modèle de mise en page affecté à l’utilisateur. Pour plus d&#39;informations, voir [Créer et gérer des modèles de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 
 ## Fournir des commentaires
 
