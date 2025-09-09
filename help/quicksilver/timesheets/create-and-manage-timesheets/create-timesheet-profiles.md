@@ -182,7 +182,7 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
     </tbody> 
     </table>
 
-1. <!--In the Production environment, or when creating group-level timesheet profiles,--> Cliquez sur l’onglet **Affecter des personnes** pour associer le profil de feuille de temps à des utilisateurs, des groupes ou des équipes spécifiques (si vous êtes un administrateur Workfront). <!--Keep the reference to the group upon release to Prod-->
+1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> Cliquez sur l’onglet **Affecter des personnes** pour associer le profil de feuille de temps à des utilisateurs, des groupes ou des équipes spécifiques (si vous êtes un administrateur Workfront). <!--Keep the reference to the group upon release to Prod-->
 
    <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
 
