@@ -6,10 +6,10 @@ description: Les rapports créés à l’aide de l’outil Rapports Adobe Workfr
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 21%
+source-wordcount: '374'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 21%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->&#x200B;>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
