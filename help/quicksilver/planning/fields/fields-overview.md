@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 78%
+source-wordcount: '481'
+ht-degree: 72%
 
 ---
 
@@ -94,3 +94,5 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Planning qui refl�
 * Les noms de champ peuvent contenir jusqu’à 250 caractères.
 
 * Lors de la suppression d’un type d’enregistrement ou d’un espace de travail, tous les champs qui y sont associés, ainsi que les valeurs des champs, sont également supprimés et ne peuvent pas être récupérés. <!-- this might change with a possible recycle bin solution?!-->
+* Lorsque vous supprimez des champs qui font partie d&#39;une expression de formule, le champ de formule change.
+* Lorsque vous modifiez une expression de formule et que ce champ de formule est référencé dans d&#39;autres champs de formule, les formules supplémentaires sont également affectées.

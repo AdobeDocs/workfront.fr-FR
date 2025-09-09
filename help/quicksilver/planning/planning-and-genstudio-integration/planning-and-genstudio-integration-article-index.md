@@ -4,10 +4,10 @@ description: L’espace de travail GenStudio for Performance Marketing est dispo
 hide: true
 hidefromtoc: true
 exl-id: 2fb8fcb4-eb82-4ac5-8b09-8577fecb9bc4
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
@@ -26,5 +26,5 @@ recommendations: noDisplay, noCatalog
 # Adobe Workfront Planning et intégration à Adobe GenStudio for Performance Marketing : index des articles
 
 * [Prise en main](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-* [Gestion de l’espace de travail GenStudio dans Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-* [Promouvoir l’espace de travail Adobe Workfront Planning pour GenStudio](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
+* [Gérer l’espace de travail GenStudio dans Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
+  <!--* [Promote Adobe Workfront Planning workspace to GenStudio](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)-->

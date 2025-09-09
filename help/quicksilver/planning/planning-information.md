@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 6705e9437d8e562dd43b8f530be90ee401042c80
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 28%
@@ -88,7 +88,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 
 * [Notifications : index des articles](/help/quicksilver/planning/notifications/notifications-information.md) contient les informations suivantes :
 
-   * Gérer les préférences de notification
+   * Gestion des préférences de notification
    * Planification de notifications in-app
    * Planification des notifications par e-mail
 
@@ -96,17 +96,20 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 
 * [Principes de base de l’API Adobe Workfront Planning ](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API Adobe Workfront Planning est de simplifier la création d’intégrations avec Planning en introduisant une architecture REST-ful qui fonctionne via HTTP.
 
-* [Modules Adobe Workfront Planning pour Workfront Fusion ](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
+* [Modules Adobe Workfront Planning pour Workfront Fusion ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
 
 * [Aperçu de l&#39;assistant IA Planning d&#39;Adobe Workfront ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l&#39;assistant AI Workfront pour Planning, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l&#39;aide de commandes et laisser l&#39;assistant faire le travail à votre place.
 
-<!--
-    >[!NOTE]
-    >
-    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
-    -->
-
 * [Configurer les automatisations d’Adobe Workfront Planning ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) : vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu’elles sont activées, créent des objets dans Workfront ou des enregistrements dans Workfront Planning lorsqu’ils sont déclenchés à partir d’un enregistrement Planning.
+
+<!--
+<div class="preview">
+
+* [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): You can manage records from GenStudio for Performance Marketing in the GenStudio workspace in Workfront Planning.
+
+</div>
+
+-->
 
 * **Fonctionnalités de création de rapports de Workfront Planning** : vous pouvez désormais afficher les informations de Workfront Planning dans un rapport à l’aide du tableau de bord de la zone de travail Workfront. Pour plus d’informations, voir [ Présentation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
