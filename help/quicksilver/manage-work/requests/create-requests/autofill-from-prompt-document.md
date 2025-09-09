@@ -5,7 +5,7 @@ description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
+source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 10%
@@ -133,7 +133,7 @@ Créez une requête de campagne similaire à celle que nous avons créée pour l
 
 >[!BEGINSHADEBOX]
 
-Utilisez la même configuration que lors du lancement du projet (Société cliente) le printemps dernier. Je souhaite lancer une campagne publicitaire numérique ciblant la même audience de dirigeants, mais avec des dates mises à jour pour ce trimestre.
+Utilisez la même configuration que lors du lancement du projet (nom du projet) le printemps dernier. Je souhaite lancer une campagne publicitaire numérique ciblant la même audience de dirigeants, mais avec des dates mises à jour pour ce trimestre.
 
 >[!ENDSHADEBOX]
 
@@ -141,7 +141,7 @@ Utilisez la même configuration que lors du lancement du projet (Société clien
 
 >[!BEGINSHADEBOX]
 
-Préparez une demande similaire à la campagne de promotion d’été de (Société cliente) que nous avons menée l’année dernière. Concentrez-vous sur les médias sociaux, gardez l&#39;espagnol comme langue principale et ajustez le budget à 75 000 $.
+Préparez une demande similaire à la campagne de promotion d’été (entreprise cliente) que nous avons menée l’année dernière. Concentrez-vous sur les médias sociaux, gardez l&#39;espagnol comme langue principale et ajustez le budget à 75 000 $.
 
 >[!ENDSHADEBOX]
 
@@ -149,7 +149,7 @@ Préparez une demande similaire à la campagne de promotion d’été de (Socié
 
 >[!BEGINSHADEBOX]
 
-Prenez comme référence la campagne de la série de webinaires (Société cliente) du 1er trimestre. Je veux le même processus d&#39;enregistrement et les mêmes actifs, mais cette fois le sujet est « L&#39;IA dans la planification financière » et l&#39;audience est composée de jeunes professionnels.
+Prenez la campagne de la série de webinaires (nom de la campagne) du 1er trimestre comme référence. Je veux le même processus d&#39;enregistrement et les mêmes actifs, mais cette fois le sujet est « L&#39;IA dans la planification financière » et l&#39;audience est composée de jeunes professionnels.
 
 >[!ENDSHADEBOX]
 
