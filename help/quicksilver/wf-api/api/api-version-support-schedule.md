@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 74714ce45c815afc9cff1360fd3542fa15763907
+source-git-commit: 8c2afe56a815969a266b40f5feff5ccdfa4ab61c
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 90%
+source-wordcount: '349'
+ht-degree: 99%
 
 ---
 
@@ -70,86 +70,86 @@ Le tableau suivant présente le planning de publication et d’assistance pour l
    <td>15</td> 
    <td>Premier semestre 2022</td> 
    <td>en 2025</td> 
-   <td>Décembre 2025</td> 
+   <td>vendredi 18 décembre 2025</td> 
   </tr> 
   <tr> 
    <td>14</td> 
    <td> <p>Octobre 2021</p> <p>(avec la version 21.10)</p> </td> 
-   <td> <p>Octobre 2024</p> <p>(avec la version 24.10)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td> <p>Octobre 2024</p> <p>(avec la version 24.10)</p> </td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>13</td> 
    <td> <p>Juin 2021</p> <p>(avec la version 2021.2)</p> </td> 
-   <td> <p>Octobre 2024</p> <p>(avec la version 2024.10)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td> <p>Octobre 2024</p> <p>(avec la version 2024.10)</p> </td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>12</td> 
    <td> <p>Deuxième semestre 2020</p> <p>(avec la version 2020.4)</p> </td> 
    <td> <p>Octobre 2023</p> <p>(avec la version 2023.4)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>11</td> 
    <td> <p>Premier semestre 2020</p> <p>(avec la version 2020.2)</p> </td> 
    <td> <p>Avril 2023</p> <p>(avec la version 2023.2)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>10</td> 
    <td> <p>Novembre 2018</p> <p>(avec la version 2018.3)</p> </td> 
    <td> <p>Novembre 2021</p> <p>(avec la version 2022.1)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>9</td> 
    <td> <p>Mars 2018</p> <p>(avec la version 2018.1)</p> </td> 
    <td> <p>Mars 2021</p> <p>(avec la version 2021.3)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>8</td> 
    <td>Novembre 2017</td> 
    <td> <p>Novembre 2020</p> <p>(avec la version 2021.1)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>7</td> 
    <td>Avril 2017</td> 
    <td> <p>Avril 2020</p> <p>(avec la version 2020.2)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>6</td> 
    <td>Novembre 2015</td> 
    <td><strong>Novembre 2019</strong> <p>(avec la version 2019.4)</p> 
-   <td>Septembre 2025</td> 
+   <td>mercredi 30 septembre 2025</td> 
    </td> 
   </tr> 
   <tr> 
    <td>5</td> 
    <td>Avril 2014</td> 
    <td> <p>Avril 2019</p> <p>(avec la version 2019.2)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>4</td> 
    <td>2012</td> 
    <td> <p>Janvier 2019</p> <p>(avec la version 2019.1)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>3</td> 
    <td>2011</td> 
    <td> <p>Novembre 2018</p> <p>(avec la version 2018.3)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>2</td> 
    <td>2009</td> 
    <td> <p>Août 2018</p> <p>(avec la version 2018.2)</p> </td> 
-   <td>Septembre 2025</td> 
+   <td>mercredi 30 septembre 2025</td> 
   </tr> 
   <tr> 
    <td>1</td> 
