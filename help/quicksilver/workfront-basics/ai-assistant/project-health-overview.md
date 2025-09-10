@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 16e8213197e881d4d7b1a4b1bf8d3a43438ab938
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 2%
+source-wordcount: '1488'
+ht-degree: 4%
 
 ---
 
@@ -121,18 +121,47 @@ Vous trouverez ci-dessous les conditions disponibles que l’assistant AI attrib
     <tr>
         <td><b>Statut du projet</b></td>
         <td><b>Statut de la progression du projet</b></td>
+        <td><b>Facteurs de statut du projet</b></td>
     </tr>
     <tr>
         <td>Dans les temps</td>
-        <td>Lorsque le statut d'avancement du projet est Dans les délais, le statut du projet est Dans les délais.</td>
+        <td>Cette analyse est attribuée lorsque le niveau de risque moyen pour les facteurs suivants se situe dans le seuil sain.
+        </td>
+        <td> 
+        <ul><li>Dérive des objectifs</li>
+        <li>Champs manquants</li>
+        <li>Planifier les modifications</li>
+        <li>Travail sous-estimé</li>
+        <li>Progression du projet</li>
+        <li>Tâches en retard</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     <tr>
         <td>En danger</td>
-        <td>Lorsque le statut d'avancement du projet est En retard ou À risque, le statut du projet est À risque.</td>
+        <td>Cette analyse est effectuée lorsque le niveau de risque moyen pour les facteurs suivants tombe juste en dessous du seuil sain.</td>
+        <td>
+        <ul><li>Dérive des objectifs</li>
+        <li>Champs manquants</li>
+        <li>Planifier les modifications</li>
+        <li>Travail sous-estimé</li>
+        <li>Progression du projet</li>
+        <li>Tâches en retard</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     <tr>
         <td>En difficulté</td>
-        <td>Lorsque le statut d'avancement du projet est En retard, le statut du projet est En danger.</td>
+        <td>Cette analyse est effectuée lorsque le niveau de risque moyen pour les facteurs suivants est inférieur au seuil sain.</td>
+        <td>
+        <ul><li>Dérive des objectifs</li>
+        <li>Champs manquants</li>
+        <li>Planifier les modifications</li>
+        <li>Travail sous-estimé</li>
+        <li>Progression du projet</li>
+        <li>Tâches en retard</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     </tr>
    </table>
@@ -264,57 +293,60 @@ Un projet ne sera inclus dans l&#39;évaluation combinée de l&#39;état de sant
 
 1. Après avoir consulté les détails d’intégrité du projet, cliquez sur l’icône **Fermer** ![Icône Fermer](assets/close-icon.png) dans le coin supérieur droit de l’assistant AI pour la fermer.
 
+<!--
 
-## Créer un rapport Tableau d’intégrité du projet dans un tableau de bord Zone de travail
+## Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
 
-Vous pouvez ajouter un rapport tabulaire à un tableau de bord Zone de travail afin de visualiser facilement les données d’intégrité de votre projet au format tableau.
+You can add a table report to a Canvas Dashboard in order to easily visualize your Project Health data in a table format.  
 
-### Conditions préalables
+### Prerequisites 
 
-Vous devez créer un tableau de bord avant de pouvoir créer un rapport tabulaire.
+You must create a dashboard before you can build a table report. 
 
-Pour plus d’informations, consultez la section [Créer un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+For more, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-### Créer un rapport Tableau d’intégrité du projet
+### Build a Project Health table report 
 
-De nombreuses options de configuration sont disponibles pour créer un rapport Tableau d’intégrité du projet. Dans cette section, nous vous guiderons tout au long du processus de création d’un rapport qui affiche les colonnes suivantes :
+There are many configuration options available for building a Project Health table report. In this section, we'll walk you through the process of creating one that displays the following columns: 
 
-* **Nom** : contient le nom du projet.
-* **Analyse de l’intégrité du projet** : contient un résumé de l’évaluation de l’intégrité du projet.
-* **Intégrité du projet créée à** : contient la date/l’heure de la dernière génération de l’évaluation de l’intégrité du projet.
-* **Étiquette d&#39;intégrité du projet** : contient l&#39;étiquette du projet (par exemple, Ciblés, à risque ou en difficulté).
+* **Name**: Contains the project name. 
+* **Project Health Analysis**: Contains a summary of the Project Health assessment. 
+* **Project Health Created At**: Contains the date/time when the Project Health assessment was last generated. 
+* **Project Health Label**: Contains the project's label (e.g. On Target, At Risk, or In Trouble).
 
 {{step1-to-dashboards}}
 
-1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
-1. Dans le coin supérieur droit, cliquez sur **Nouveau tableau de bord**.
-1. Dans la zone **Créer un tableau de bord**, saisissez les **Nom** et **Description** du tableau de bord.
-1. Cliquez sur **Créer**.
-1. Dans la zone **Ajouter un rapport**, sélectionnez **Créer un rapport**.
-1. Sur le côté gauche, sélectionnez **Tableau**.
-1. Dans le coin supérieur droit, cliquez sur **Créer un rapport**.
-1. (Facultatif) Suivez les étapes ci-dessous pour configurer la section **Détails** ![Icône Détails](assets/details-icon.png) :
-   1. Saisissez un rapport **Nom**.
-   1. Saisissez un état **Description**.
-1. Pour configurer la section **Créer le tableau** ![Icône Créer le tableau](assets/drilldown-column.png), procédez comme suit :
-   1. Dans le panneau de gauche, cliquez sur l’icône **Colonnes du tableau**.
-   1. Cliquez sur **Ajouter une colonne**, puis sélectionnez **Projet** > **Nom**.
-   1. Cliquez sur **Ajouter une colonne**, puis sélectionnez **Projet** > **Intégrité du projet** > **Analyse de l’intégrité**.
-   1. Cliquez sur **Ajouter une colonne**, puis sélectionnez **Projet** > **Intégrité du projet** > **Créé à**.
-   1. Cliquez sur **Ajouter une colonne**, puis sélectionnez **Projet** > **Intégrité du projet** > **Étiquette d’intégrité**.
+1. In the left panel, click **Canvas Dashboards**. 
+1. In the upper-right corner, click **New Dashboard**. 
+1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**. 
+1. Click **Create**. 
+1. In the **Add report** box, select **Create report**. 
+1. On the left side, select **Table**. 
+1. In the upper-right corner, click **Create report**. 
+1. (Optional) Follow the steps below to configure the **Details** ![Details icon](assets/details-icon.png) section: 
+    1. Enter a report **Name**. 
+    1. Enter a report **Description**. 
+1. Follow the steps below to configure the **Build table** ![Build table icon](assets/drilldown-column.png) section: 
+    1. In the left panel, click the **Table columns** icon. 
+    1. Click **Add column**, then select **Project** > **Name**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Analysis**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Created At**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Label**. 
 
-1. Pour configurer la section **Filtre** ![Icône Filtre](assets/filter-icon.png), procédez comme suit :
-   1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**.
-   1. Sélectionnez **Modifier le filtre**.
-   1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre. La colonne s’affiche dans la section de prévisualisation à droite.
-   1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
+1. Follow the steps below to configure the **Filter** ![Filter icon](assets/filter-icon.png) section: 
+    1. In the left panel, click the **Filter** icon. 
+    1. Select **Edit filter**. 
+    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet. The column appears in the preview section on the right.
+    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
 
-1. Suivez les étapes ci-dessous pour configurer la section **Paramètres du groupe d’analyse** ![Paramètres du groupe](assets/drilldown-group-icon.png) :
-   1. Dans le panneau de gauche, cliquez sur l’icône **Paramètres du groupe**.
-   1. Cliquez sur le bouton **Ajouter un regroupement** puis sélectionnez le champ à créer en tant que regroupement. La colonne de regroupement s’affiche dans la section de prévisualisation à droite.
+1. Follow the steps below to configure the **Drilldown Group Settings** ![Group settings](assets/drilldown-group-icon.png) section: 
+    1. In the left panel, click the **Group Settings** icon. 
+    1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
-1. Cliquez sur **Enregistrer** pour créer le rapport.
+1. Click **Save** to create the report.
+
+-->
