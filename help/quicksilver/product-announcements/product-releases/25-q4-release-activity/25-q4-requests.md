@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 18%
+source-wordcount: '318'
+ht-degree: 15%
 
 ---
 
@@ -49,6 +49,11 @@ Pour améliorer l’expérience utilisateur lors de la réalisation de requêtes
 * Masquez et réorganisez les colonnes dans la liste des requêtes envoyées.
 
 Cette mise à jour comprend également des modifications de l’aspect de la page.
+
+Tenez compte des points suivants lors de l’utilisation de la nouvelle expérience Requête :
+
+* Les brouillons se trouvent désormais dans la même liste que les requêtes envoyées
+* Actuellement, la nouvelle expérience affiche uniquement les requêtes créées au cours des 1,5 dernier mois. Pour afficher les requêtes plus anciennes, vous pouvez temporairement désactiver la nouvelle expérience et accéder aux requêtes plus anciennes via l’ancienne expérience.
 
 Auparavant, les demandes Workfront et Workfront Planning se trouvaient sur des onglets distincts et les filtres n’étaient pas personnalisables.
 
