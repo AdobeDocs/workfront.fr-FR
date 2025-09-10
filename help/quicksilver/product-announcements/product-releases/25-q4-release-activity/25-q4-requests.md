@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
+source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 15%
+source-wordcount: '341'
+ht-degree: 14%
 
 ---
 
@@ -52,7 +52,7 @@ Cette mise à jour comprend également des modifications de l’aspect de la pag
 
 Tenez compte des points suivants lors de l’utilisation de la nouvelle expérience Requête :
 
-* Les brouillons se trouvent désormais dans la même liste que les requêtes envoyées
+* Actuellement, vous ne trouvez des brouillons que dans l’expérience de demande héritée. Dans la nouvelle expérience , vous ne pouvez voir les brouillons que dans une file d’attente de workflows si vous en avez un dans le même chemin.
 * Actuellement, la nouvelle expérience affiche uniquement les requêtes créées au cours des 1,5 dernier mois. Pour afficher les requêtes plus anciennes, vous pouvez temporairement désactiver la nouvelle expérience et accéder aux requêtes plus anciennes via l’ancienne expérience.
 
 Auparavant, les demandes Workfront et Workfront Planning se trouvaient sur des onglets distincts et les filtres n’étaient pas personnalisables.
