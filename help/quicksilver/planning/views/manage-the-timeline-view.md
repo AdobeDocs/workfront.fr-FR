@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '3910'
+source-wordcount: '3920'
 ht-degree: 38%
 
 ---
@@ -114,13 +114,6 @@ Tenez compte des points suivants :
    * Lorsque les dates de début ou de fin n’ont pas de valeur.
    * Lorsque la date de début est postérieure à la date de fin.
 
-<div class="preview">
-
-* Vous pouvez créer et modifier des enregistrements dans la vue Chronologie. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-* Vous pouvez redimensionner les barres des enregistrements dans la vue chronologique en cliquant sur leurs marges, puis en les faisant glisser et en les déposant à un nouvel emplacement. Le redimensionnement des barres des enregistrements met immédiatement à jour leurs dates de début et de fin. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
-
-</div>
-
 Pour gérer une vue chronologique :
 
 1. Accédez à la page du type d’enregistrement pour lequel vous souhaitez consulter la chronologie.
@@ -203,6 +196,20 @@ Pour gérer une vue chronologique :
 1. (Facultatif) Cliquez sur **Répartition** pour afficher les enregistrements connectés sur le journal.
 
    Pour plus d’informations, reportez-vous à la section [Utilisation de la fonction Répartition pour afficher les enregistrements connectés en mode Chronologie](#break-down-connected-records-in-the-timeline-view) de cet article.
+1. <span class="preview">Pour créer des enregistrements dans la vue Chronologie ou modifier leurs dates, effectuez l’une des opérations suivantes :</span>
+
+   * <span class="preview">Double-cliquez n’importe où sur le journal pour créer un enregistrement. </span>
+
+     <span class="preview">Pour plus d’informations, voir [Création d’enregistrements](/help/quicksilver/planning/records/create-records.md).</span>
+
+   * <span class="preview">Cliquez sur l’extrémité d’une barre d’enregistrement, puis faites-la glisser et déposez-la à un nouvel emplacement. Le redimensionnement des barres des enregistrements met immédiatement à jour leurs dates de début et de fin. </span>
+
+     <span class="preview">Pour plus d’informations, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+
+
 
 ### Ajouter des filtres
 

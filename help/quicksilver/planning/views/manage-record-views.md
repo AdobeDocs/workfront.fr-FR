@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1216'
 ht-degree: 44%
 
 ---
@@ -52,7 +52,7 @@ Pour plus d’informations sur la gestion des vues d’enregistrement Workfront 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -73,8 +73,8 @@ Pour plus d’informations sur la gestion des vues d’enregistrement Workfront 
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -119,7 +119,7 @@ Pour plus d’informations sur la gestion des vues d’enregistrement Workfront 
 
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Remarques concernant l’utilisation des vues d’enregistrement
 
@@ -170,6 +170,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 | Afficher les enregistrements par semaine |           |               | ✓ |
 | Exporter les informations d’une vue | ✓ |               |    |
 | <span class="preview">Affichage en plein écran</span> | ✓ | ✓ | ✓ |
+| <span class="preview">Créer des enregistrements dans la vue</span> | ✓ | ✓ | ✓ |
 
 ## Créer ou modifier des vues {#create-or-edit-views}
 
@@ -187,6 +188,12 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
    Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.
 
 1. Cliquez sur **+ Affichage** pour ajouter une nouvelle vue.
+
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+
 1. Choisissez parmi les types de vues suivants :
 
    * Tableau
@@ -206,6 +213,8 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 >
 >Dans le cas contraire, les options Chronologie et Calendrier sont grisées.
 >
+
+<!-- replace screen shot at production??-->
 
 ![Liste déroulante Afficher les types de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)
 

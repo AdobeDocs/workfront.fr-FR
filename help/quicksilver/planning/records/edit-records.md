@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 37%
@@ -247,6 +247,8 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    <span class="preview">![Barre à gauche en mode Chronologie à redimensionner](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
+<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+
 1. Cliquez sur la barre d’un enregistrement pour ouvrir sa zone de détails et modifier tous les champs.
 
    Pour plus d&#39;informations, consultez la section [Modifier un enregistrement à partir de l&#39;aperçu de l&#39;enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view) de cet article.
@@ -287,7 +289,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
-   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 

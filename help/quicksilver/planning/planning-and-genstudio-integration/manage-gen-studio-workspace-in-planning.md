@@ -4,9 +4,9 @@ description: L’espace de travail GenStudio for Performance Marketing est dispo
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1335'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Pour obtenir des informations générales sur l’intégration de GenStudio à W
 >[!IMPORTANT]
 >
 >Les étapes décrites dans cet article illustrent comment mettre à jour l’espace de travail GenStudio à partir de Workfront Planning lorsque vous disposez des autorisations de gestion pour celui-ci.
->&#x200B;> Toutes les fonctionnalités ne sont pas disponibles lorsque vous disposez des autorisations de niveau Contribution pour l’espace de travail GenStudio.
+>> Toutes les fonctionnalités ne sont pas disponibles lorsque vous disposez des autorisations de niveau Contribution pour l’espace de travail GenStudio.
 >
 >Si votre société dispose de plusieurs instances de Workfront, tous les utilisateurs disposent des autorisations de niveau Contribution sur l’espace de travail GenStudio dans Workfront Planning.
 
@@ -78,8 +78,8 @@ Pour obtenir des informations générales sur l’intégration de GenStudio à W
 <tr> 
    <td role="rowheader"><p>Rôles utilisateur Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Tout rôle d’utilisateur GenStudio pour accéder aux campagnes, aux produits et aux rôles</li>
-   <li>GenStudio System Manager pour accéder aux activations et aux événements</li></ul>
-   Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> Rôles utilisateur et autorisations </a>. 
+   <li>GenStudio System Manager pour accéder aux activations <!--and Events--></li></ul>
+   Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> Rôles utilisateur et autorisations </a>. 
    </p>
   </td> 
   </tr>   

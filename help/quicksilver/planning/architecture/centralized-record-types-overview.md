@@ -3,7 +3,7 @@ title: Types d’enregistrements centralisés - Aperçu
 description: Les types d’enregistrements centralisés peuvent être ajoutés à plusieurs espaces de travail à partir d’un espace de travail principal ou central dans Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -96,7 +96,7 @@ Le type d’enregistrement configuré pour être centralisé présente les propr
 
    * Le modifier.
 
-     Vous ne pouvez pas modifier son apparence, les fonctionnalités de l’espace de travail croisé ou les champs importés de l’espace de travail d’origine.
+     Vous ne pouvez pas modifier son apparence, les fonctionnalités de l’espace de travail croisé ou les champs ajoutés à partir de l’espace de travail d’origine.
    * Création de formulaires de demande
    * Gérer les formulaires de demande
 

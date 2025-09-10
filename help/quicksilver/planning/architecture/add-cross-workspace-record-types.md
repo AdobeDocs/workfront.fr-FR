@@ -1,12 +1,12 @@
 ---
 title: Ajouter des types d’enregistrements existants
-description: Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning. Dans Workfront Planning, vous pouvez importer un type d’enregistrement existant à partir d’un autre espace de travail.
+description: Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning. Dans Workfront Planning, vous pouvez ajouter un type d’enregistrement existant créé dans un autre espace de travail.
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '666'
 ht-degree: 9%
 
 ---
@@ -25,9 +25,9 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-En tant que responsable d&#39;espace de travail, vous pouvez importer ou ajouter un type d&#39;enregistrement existant dans un autre espace de travail.
+En tant que gestionnaire d&#39;espace de travail, vous pouvez ajouter un type d&#39;enregistrement qui existe dans un espace de travail à un espace de travail que vous gérez dans Adobe Workfront Planning.
 
-Vous devez d&#39;abord désigner un type d&#39;enregistrement comme centralisé avant que les responsables d&#39;espace de travail puissent l&#39;importer dans d&#39;autres espaces de travail.
+Vous devez d’abord désigner un type d’enregistrement comme centralisé avant que les responsables d’espace de travail puissent l’ajouter à d’autres espaces de travail en tant que type d’enregistrement existant.
 
 Vous pouvez désigner un type d’enregistrement comme centralisé lorsque vous le créez ou le modifiez, car vous définissez ses paramètres sur plusieurs espaces de travail.
 
@@ -83,7 +83,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 1. Commencez à créer un type d’enregistrement, comme décrit dans l’article [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md), puis cliquez sur **Ajouter un existant**. <!--check this - the option might have been renamed in the UI-->
 
-   ![Boîte de dialogue modale pour ajouter un type d’enregistrement avec la possibilité d’importer depuis un autre espace de travail](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![Modal pour ajouter un type d’enregistrement avec la possibilité d’ajouter depuis un autre espace de travail](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
 1. Cliquez sur **Continuer**.
 1. Dans la zone **Choisir le type d’enregistrement**, cliquez sur la carte correspondant au type d’enregistrement à ajouter à partir d’un espace de travail existant, puis cliquez sur **Ajouter**.
@@ -92,7 +92,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    >[!TIP]
    >
-   >Lorsqu’aucun type d’enregistrement n’est configuré pour être ajouté à un autre espace de travail, l’option permettant de les importer depuis un autre espace de travail ne s’affiche pas lors de la création d’un type d’enregistrement.
+   >Lorsqu’aucun type d’enregistrement n’est configuré pour être ajouté à un autre espace de travail, l’option permettant de les ajouter à partir d’un autre espace de travail ne s’affiche pas lors de la création d’un type d’enregistrement.
 
    Les événements suivants se produisent :
 
@@ -101,25 +101,25 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
       * Tous les champs d’origine
       * Toutes les connexions aux enregistrements
    * Vous pouvez afficher les enregistrements ajoutés à partir d&#39;autres espaces de travail uniquement si vous disposez au moins des autorisations d&#39;affichage pour ces espaces de travail.
-   * L’icône **type d’enregistrement centralisé** ![icône de type d’enregistrement centralisé](assets/global-icon.png) est ajoutée à la carte du type d’enregistrement importé.
-   * Le champ en lecture seule **Workspace** est ajouté à la vue de tableau du type d&#39;enregistrement importé. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
+   * L’icône **type d’enregistrement centralisé** ![icône de type d’enregistrement centralisé](assets/global-icon.png) est ajoutée à la carte du nouveau type d’enregistrement.
+   * Le champ en lecture seule **Workspace** est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
 
      >[!NOTE]
      >
-     >* Vous ne pouvez pas modifier l’aspect, les paramètres avancés ou les champs d’origine du type d’enregistrement importé. Vous ne pouvez modifier le type d’enregistrement et tous ses champs et paramètres d’origine qu’à partir de l’espace de travail d’origine.
+     >* Vous ne pouvez pas modifier l’aspect, les paramètres avancés ou les champs d’origine du nouveau type d’enregistrement. Vous ne pouvez modifier le type d’enregistrement et tous ses champs et paramètres d’origine qu’à partir de l’espace de travail d’origine.
 
 1. (Facultatif) Cliquez sur le type d’enregistrement nouvellement ajouté et déposez-le dans n’importe quelle section de l’espace de travail.
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans la carte du type d’enregistrement importé, ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur **Partager** pour le partager avec d’autres utilisateurs dans le même espace de travail.
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans la carte du nouveau type d’enregistrement ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur **Partager** pour le partager avec d’autres utilisateurs dans le même espace de travail.
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans la carte du type d’enregistrement importé, ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur **Supprimer**.
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans la carte du nouveau type d’enregistrement ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur **Supprimer**.
 1. (Conditionnel) Saisissez **delete** dans le champ fourni, puis cliquez sur **Supprimer définitivement**.
 
    Les événements suivants se produisent :
 
    * Le type d’enregistrement créé à partir d’un type d’enregistrement centralisé est supprimé de l’espace de travail sélectionné.
    * Le type d’enregistrement d’origine et ses champs restent dans leur espace de travail d’origine.
-   * Tous les autres types d&#39;enregistrements importés à partir du même enregistrement centralisé restent dans leurs espaces de travail.
+   * Tous les autres types d’enregistrements ajoutés à partir du même type d’enregistrement centralisé restent dans leurs espaces de travail.
    * Les enregistrements ajoutés au type d’enregistrement de l’espace de travail actuel sont supprimés. Tous les autres enregistrements ajoutés à partir d’espaces de travail supplémentaires où le type d’enregistrement centralisé a été ajouté sont conservés.
 
 
