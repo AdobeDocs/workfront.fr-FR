@@ -6,10 +6,10 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '2841'
-ht-degree: 77%
+source-wordcount: '2856'
+ht-degree: 76%
 
 ---
 
@@ -163,6 +163,7 @@ Pour créer une demande dans l’application web Workfront :
    >* <span class="preview">La liste comprend les files d’attente des demandes de Workfront et les formulaires de demande de Workfront Planning.</span>
    >* <span class="preview">Vous pouvez filtrer la liste par type d’objet.</span>
    >* <span class="preview">Pour afficher uniquement les files d’attente des demandes Workfront, filtrez les types d’objets `Issue`.</span>
+   >* <span class="preview">Dans la nouvelle expérience de demande, les brouillons se trouvent dans la même liste que les demandes envoyées.</span>
 
 1. (Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning, sélectionnez vos groupes de rubriques et rubriques de file d’attente et continuez à mettre à jour le formulaire.
 
