@@ -4,9 +4,9 @@ description: Vous pouvez activer l’ajout d’un type d’enregistrement à un 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1134'
 ht-degree: 7%
 
 ---
@@ -118,7 +118,7 @@ Un gestionnaire d’espace de travail peut ajouter un type d’enregistrement ce
 
 Les utilisateurs peuvent ajouter des enregistrements à un type d&#39;enregistrement centralisé à partir de n&#39;importe quel espace de travail disposant d&#39;autorisations Contribute et où le type d&#39;enregistrement centralisé est ajouté, y compris son espace de travail d&#39;origine. Ils peuvent afficher les enregistrements de l’espace de travail pour lequel ils disposent uniquement des autorisations d’affichage.
 
-Pour plus d’informations, voir [ Présentation des types d’enregistrements centralisés ](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
+Pour plus d’informations, voir [Présentation des types d’enregistrements de l’espace de travail](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Pour configurer l’ajout d’un type d’enregistrement en tant que type d’enregistrement centralisé :
 
@@ -179,7 +179,7 @@ Ou
      Ce champ est en lecture seule et ne peut pas être supprimé.
 1. (Facultatif) Accédez à un autre espace de travail et créez un type d’enregistrement à l’aide d’un type d’enregistrement existant. Sélectionnez le type d’enregistrement que vous avez activé dans les étapes ci-dessus.
 
-   Pour plus d’informations, voir [ Ajouter des types d’enregistrements existants ](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+   Pour plus d’informations, voir [Ajouter des types d’enregistrements existants depuis un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 ## Configuration des types d’enregistrements connectables
 

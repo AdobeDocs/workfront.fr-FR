@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 26%
+source-wordcount: '1874'
+ht-degree: 25%
 
 ---
 
@@ -111,13 +111,6 @@ Tenez compte des points suivants :
    * Lorsque les dates de début et de fin n’ont aucune valeur, l’enregistrement s’affiche sous la forme d’un événement d’un jour
    * Lorsque la date de début est postérieure à la date de fin, l&#39;enregistrement ne s&#39;affiche pas dans le calendrier.
 
-<div class="preview">
-
-* Vous pouvez créer et modifier des enregistrements dans la vue Calendrier. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-* Vous pouvez redimensionner les barres des enregistrements dans la vue Calendrier mensuelle en cliquant sur leurs marges, puis en les faisant glisser et en les déposant à un nouvel emplacement. Le redimensionnement des barres des enregistrements met immédiatement à jour leurs dates de début et de fin. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
-
-</div>
-
 Pour gérer une vue Calendrier :
 
 1. Accédez à la page de type d’enregistrement pour laquelle vous souhaitez afficher le calendrier.
@@ -141,6 +134,25 @@ Pour gérer une vue Calendrier :
          * Les enregistrements d&#39;une durée inférieure ou égale à un jour s&#39;affichent dans la moitié inférieure de la vue Calendrier. Si vous avez choisi d&#39;afficher l&#39;heure des dates de début et de fin, l&#39;enregistrement s&#39;affiche à l&#39;heure appropriée dans la journée où il se produit.
 
 1. <span class="preview">(Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.  </span>
+
+1. <span class="preview">Pour créer des enregistrements dans la vue Calendrier ou modifier leurs dates, effectuez l&#39;une des opérations suivantes :</span>
+
+   * <span class="preview">Double-cliquez n’importe où sur le calendrier pour créer un enregistrement. </span>
+
+     <span class="preview">Pour plus d’informations, voir [Création d’enregistrements](/help/quicksilver/planning/records/create-records.md).</span>
+
+   * <span class="preview">Dans l’affichage mensuel du calendrier, cliquez sur la fin d’une barre d’enregistrement, puis faites-la glisser et déposez-la à un nouvel emplacement. Le redimensionnement des barres des enregistrements met immédiatement à jour leurs dates de début et de fin. </span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+
+     <span class="preview">Pour plus d’informations, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
+    Scenario 1: drag and drop in the calendar weekly view: 
+    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 2: drag and drop in the calendar monthly view: 
+    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
+    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
