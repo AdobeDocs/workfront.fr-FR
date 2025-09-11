@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 16%
+source-wordcount: '473'
+ht-degree: 15%
 
 ---
 
@@ -17,6 +17,18 @@ ht-degree: 16%
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du quatrième trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2025, voir [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Nouvelle vue d’administration des forums
+
+>[!NOTE]
+>
+>* Aperçu : 11 septembre 2025
+>* Version rapide de production : 15 octobre 2025
+>* Version de production pour toute la clientèle : vendredi 16 octobre 2025
+
+La vue Administrateur des forums contient une liste de chaque forum de votre compte que les administrateurs système peuvent utiliser pour obtenir un instantané rapide des détails globaux des forums, y compris la date de leur dernière mise à jour, le nombre de cartes dont chacun dispose, etc.
+
+Pour plus d’informations, voir [Gérer la vue d’administration des tableaux](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md).
 
 ## Activer les fonctionnalités d’AI Beta pour votre organisation
 

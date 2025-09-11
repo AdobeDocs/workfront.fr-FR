@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: 1dc8591dd0da3c3b6030bd643bf80dbe1ee97ea9
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 32%
+source-wordcount: '305'
+ht-degree: 24%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 32%
 Cette page décrit les améliorations apportées par Project à l’environnement de prévisualisation avec la version du quatrième trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2025, voir [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Nouvelle version bêta de l&#39;intégrité du projet
+
+>[!NOTE]
+>
+>* Aperçu : 11 septembre 2025
+>* Production pour tous les clients : 11 septembre 2025
+
+La nouvelle fonctionnalité d’intégrité du projet utilise la puissance de l’assistant d’IA pour vous donner instantanément une évaluation des performances de vos projets et des domaines qui nécessitent votre attention.
+
+L’assistant AI peut générer une évaluation de l’intégrité d’un projet, d’un programme et de plusieurs projets.
+
+Pour plus d’informations, voir [Présentation de l’intégrité du projet](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+Cette fonctionnalité est actuellement en version bêta.
 
 <!--
 ## Create project intake forms in Workfront

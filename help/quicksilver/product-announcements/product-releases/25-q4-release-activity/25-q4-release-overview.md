@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2077'
 ht-degree: 16%
 
 ---
@@ -58,6 +58,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nouvelle vue d’administration des forums</a><p></p>
+            <p>La vue Administrateur des forums contient une liste de chaque forum de votre compte que les administrateurs système peuvent utiliser pour obtenir un instantané rapide des détails globaux des forums, y compris la date de leur dernière mise à jour, le nombre de cartes dont chacun dispose, etc.</p>
+        </td>
+        <td>vendredi 11 septembre 2025</td>
+        <td>jeudi 15 octobre 2025</td>
+        <td>vendredi 16 octobre 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Activer les fonctionnalités AI Beta pour votre organisation</a><p></p>
@@ -219,6 +228,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
     </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Nouvelle version bêta de l’intégrité du projet</a>
+            <p>La nouvelle fonctionnalité d’intégrité du projet utilise la puissance de l’assistant d’IA pour vous donner instantanément une évaluation des performances de vos projets et des domaines qui nécessitent votre attention.</p>
+            <p>L’assistant AI peut générer une évaluation de l’intégrité d’un projet, d’un programme et de plusieurs projets.</p>
+        </td>
+        <td>vendredi 11 septembre 2025</td>
+        <td>vendredi 11 septembre 2025</td>
+        <td>vendredi 11 septembre 2025</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Nouvelles expressions ajoutées aux champs de formule dans Planning et aux champs personnalisés calculés dans Workfront</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
@@ -421,7 +440,7 @@ Pour offrir des intégrations plus stables et plus évolutives, nous passons à 
 * Workfront pour Salesforce.
 
 Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
-Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Version 20 de l’API
 
@@ -433,7 +452,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

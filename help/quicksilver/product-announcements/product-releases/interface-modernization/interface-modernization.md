@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7673'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+### Mises à jour de l’interface lors de l’ajout ou de la modification du profil de feuille de temps dans la zone Configuration
+
+**Version préliminaire : 11 septembre 2025 ; Version de production : 18 septembre 2025**
+
+Nous avons mis à jour l&#39;aspect de la page Profil de feuille de temps lors de la modification ou de l&#39;ajout d&#39;un profil de feuille de temps à l&#39;échelle du système.
+
+Pour afficher ces modifications, accédez à Configuration > Feuilles de temps et heures > Profils de feuilles de temps et ajoutez un nouveau profil ou modifiez un profil existant.
+
+Pour plus d’informations, voir la section [Créer, modifier et affecter des profils de feuille de temps](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Mises à jour de l’interface pour les zones Nouveau et Copier la carte de performance
 
@@ -153,6 +163,14 @@ Nous avons introduit des mises à jour d’interface lors de la modification de 
 Pour plus d’informations, voir [Modifier des portefeuilles](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
 ## Projets
+
+### Mises à jour de l’interface pour une liste de projets ou un rapport lors de l’application de la vue Jalon
+
+**Version préliminaire : 11 septembre 2025 ; Version de production : 18 septembre 2025**
+
+Nous avons mis à jour l&#39;aspect d&#39;une liste de projets ou d&#39;un rapport lorsque vous leur appliquez la vue Jalon.
+
+La liste ou le rapport de projet correspond désormais à la conception d’autres zones de Workfront. Pour plus d’informations, voir [Utilisation de la vue Jalon](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 ### Modifications de l’interface pour Convertir une tâche en projet sans modèle
 
@@ -357,6 +375,18 @@ Pour plus d’informations, voir
 * [Créer des règles de transmission](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 ## Utilisateurs
+
+<!--
+### Interface updates for the New User dialog
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+
+To view this change, go to Users > New User > New User.
+
+For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+-->
 
 ### Mises à jour de l’interface dans la boîte de dialogue Importer des utilisateurs
 
