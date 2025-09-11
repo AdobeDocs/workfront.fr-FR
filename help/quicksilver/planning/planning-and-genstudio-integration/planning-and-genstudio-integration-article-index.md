@@ -1,13 +1,15 @@
 ---
 title: 'Planification Adobe Workfront et intégration d’Adobe GenStudio for Performance Marketing : index des articles'
-description: L’espace de travail GenStudio for Performance Marketing est disponible dans Adobe Workfront Planning lorsque votre société a acheté les deux produits. Les articles de cette liste décrivent les fonctionnalités disponibles pour cette intégration.
-hide: true
-hidefromtoc: true
+description: L’espace de travail GenStudio est disponible dans Adobe Workfront Planning lorsque votre société a acheté Adobe GenStudio for Performance Marketing et Adobe Workfront. Les articles de cette section décrivent les fonctionnalités disponibles pour cette intégration.
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 2fb8fcb4-eb82-4ac5-8b09-8577fecb9bc4
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '101'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +26,10 @@ recommendations: noDisplay, noCatalog
 -->
 
 # Adobe Workfront Planning et intégration à Adobe GenStudio for Performance Marketing : index des articles
+
+L’espace de travail GenStudio est disponible dans Adobe Workfront Planning lorsque votre société a acheté Adobe GenStudio for Performance Marketing et Adobe Workfront.
+
+Les articles de cette section décrivent les fonctionnalités disponibles pour cette intégration.
 
 * [Prise en main](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
 * [Gérer l’espace de travail GenStudio dans Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)

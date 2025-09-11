@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 34%
+source-wordcount: '990'
+ht-degree: 31%
 
 ---
 
@@ -113,17 +113,16 @@ Pour plus d’informations, consultez la section « Formule » de l’article [C
   Pour plus d’informations, consultez la section « Formule » de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 * Vous pouvez référencer des champs de formule dans de nouvelles formules. Une fois que la valeur est mise à jour dans un champ référencé dans un champ de formule, tous les champs suivants référençant ce champ ou les champs de formule qui contiennent ce champ sont automatiquement mis à jour.
 
-<!--
 <div class="preview">
 
-* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+* Lorsque vous mettez à jour un champ de formule ou un champ susceptible de l’impacter, une alerte vous informe de l’impact de votre modification. L’alerte s’affiche dans les cas suivants :
 
-   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+   * Lorsque vous mettez à jour un champ de formule (à l’exclusion des modifications de nom et de description) lorsque ce champ comporte des champs de formule ou de recherche dépendants. L’alerte répertorie ces champs dépendants et vous demande si vous souhaitez continuer.
 
-   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+   * Lorsque vous supprimez un champ utilisé dans une expression de formule ou comme champ de recherche. L’alerte répertorie la formule dépendante et les champs de recherche et vous demande si vous souhaitez continuer la suppression.
 
 </div>
--->
+
 
 
 <div class="preview">

@@ -6,10 +6,10 @@ description: Vous pouvez créer, modifier et attribuer des profils de feuilles d
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 80%
+source-wordcount: '1695'
+ht-degree: 76%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 80%
 
 <!--at the Prod release, remove the Production and Preview references from this article-->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients après une semaine à compter de la version préliminaire.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> -->
+</div>
 
 Vous pouvez créer, modifier et attribuer des profils de feuilles de temps qui génèrent des feuilles de temps récurrentes pour les utilisateurs et utilisatrices sans autre intervention de votre part. Vous gagnez ainsi du temps et vous vous assurez que les éléments suivants sont cohérents entre les utilisateurs et utilisatrices :
 
@@ -67,7 +67,7 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
 
 ## Créer ou modifier un profil de feuille de temps
 
-<!--
+<!--Old info: 
 <div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
 <p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
@@ -182,9 +182,9 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
     </tbody> 
     </table>
 
-1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> Cliquez sur l’onglet **Affecter des personnes** pour associer le profil de feuille de temps à des utilisateurs, des groupes ou des équipes spécifiques (si vous êtes un administrateur Workfront). <!--Keep the reference to the group upon release to Prod-->
+1. Dans l’environnement de production ou lors de la création de profils de feuille de temps au niveau du groupe, cliquez sur l’onglet **Affecter des personnes** pour associer le profil de feuille de temps à des utilisateurs, des groupes ou des équipes spécifiques (si vous êtes un administrateur Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+   <span class="preview">Dans l’environnement Aperçu lors de la création de profils de feuille de temps pour le système, faites défiler la page vers le bas et recherchez la section **Affecter des personnes**.</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    Commencez à taper le nom de l’utilisateur ou de l’utilisatrice, du groupe ou de l’équipe, puis cliquez dessus lorsqu’il ou elle apparaît dans la liste déroulante.
 
