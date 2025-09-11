@@ -240,7 +240,7 @@ Pour configurer si les icônes de statut du projet et du pourcentage d’achève
 1. Cliquez sur le bouton **Affichage**, puis cliquez sur **Jalon**.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. <!--In the Production environment,--> Cliquez sur **Options** dans le coin supérieur droit de la vue jalonnée.
+1. &#x200B;<!--In the Production environment,--> Cliquez sur **Options** dans le coin supérieur droit de la vue jalonnée.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ Pour ajuster le pourcentage d’achèvement d’une tâche dans la vue jalonnée
 
 1. (Conditionnel) Si les pourcentages d&#39;achèvement ne sont pas affichés actuellement dans la vue Jalon, activez l&#39;affichage du Pourcentage d&#39;achèvement des tâches et des projets, comme décrit dans la section [Configurer les informations affichées dans la vue Jalon](#configure-what-information-displays-in-the-milestone-view) de cet article.
 
-1. <!--In the Production environment,--> Cliquez sur le pourcentage d’achèvement sous une tâche, indiquez un nouveau pourcentage, puis appuyez sur « Entrée ».
+1. &#x200B;<!--In the Production environment,--> Cliquez sur le pourcentage d’achèvement sous une tâche, indiquez un nouveau pourcentage, puis appuyez sur « Entrée ».
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
