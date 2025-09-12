@@ -5,10 +5,10 @@ title: Gérer la vue d’administration des tableaux
 description: La vue Administrateur des forums contient une liste de tous les forums dans votre compte que les administrateurs système peuvent utiliser pour obtenir un instantané rapide des détails généraux des forums.
 author: Jenny
 feature: Agile
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 6%
+source-wordcount: '618'
+ht-degree: 7%
 
 ---
 
@@ -37,9 +37,14 @@ Dans cette zone, vous pouvez effectuer les actions suivantes :
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure </p>
-        <p> Requête ou supérieure </p></td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+        <p> Plan </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Administrateur ou administratrice système </p>
+        </td> 
   </tr> 
  </tbody> 
 </table>
