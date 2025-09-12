@@ -4,9 +4,9 @@ description: Les types d’enregistrements sont les types d’objets d’Adobe 
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '620'
 ht-degree: 9%
 
 ---
@@ -55,11 +55,11 @@ Avant d’ajouter des enregistrements à un espace de travail à partir d’un t
 <ul><li><p>Tout package Workfront</p></li>
 Et
 <li><p>Package Planning Plus</p></li></ul>
-Ou :
-<ul><li><p>N’importe quel package de workflow</p> </li>
-Et
-<li><p>Package Planning Prime ou Ultimate</p></li></ul>
-<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre gestionnaire de compte Workfront. </p> 
    </td>
 
 <tr> 

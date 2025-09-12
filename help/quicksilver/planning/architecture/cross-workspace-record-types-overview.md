@@ -3,9 +3,9 @@ title: Types d’enregistrements de l’espace de travail croisé - Aperçu
 description: Les types d’enregistrements centralisés peuvent être ajoutés à plusieurs espaces de travail à partir d’un espace de travail principal ou central dans Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1356'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,13 @@ Dans Adobe Workfront Planning, vous pouvez activer les fonctionnalités inter-es
 Vous trouverez ci-dessous des fonctionnalités inter-espaces de travail de types d’enregistrements :
 
 * Vous pouvez désigner un type d’enregistrement comme centralisé. Les utilisateurs peuvent ajouter des types d’enregistrements centralisés à d’autres espaces de travail qu’ils peuvent gérer.
+
+  >[!IMPORTANT]
+  >
+  >Vous devez disposer d’un package Workfront Planning Plus, en plus d’un package Workfront pour utiliser les types d’enregistrements centralisés.
+  >
+  >Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre gestionnaire de compte Workfront.
+
 * Vous pouvez désigner un type d’enregistrement comme connectable. Les utilisateurs peuvent se connecter à ce type d’enregistrement à partir d’autres espaces de travail.
 
 Cet article vous donne un aperçu des types d’enregistrements de l’ensemble des espaces de travail. Pour plus d’informations sur la définition des fonctionnalités inter-espaces de travail d’un type d’enregistrement, voir [Configuration des fonctionnalités inter-espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
