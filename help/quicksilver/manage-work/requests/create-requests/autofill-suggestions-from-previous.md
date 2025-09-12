@@ -1,18 +1,18 @@
 ---
-title: Remplir automatiquement une demande à partir des données précédentes
+title: Renseigner automatiquement une requête avec les données des requêtes précédentes
 content-type: reference
-description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs de requête à l’aide des données de requêtes précédentes.
+description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs de la requête à l’aide des données de requêtes précédentes.
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
+source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '350'
 ht-degree: 27%
 
 ---
 
-# Remplir automatiquement une demande à partir des données précédentes
+# Renseigner automatiquement une requête avec les données des requêtes précédentes
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 27%
 
 L’IA peut vous aider à remplir automatiquement les champs de requête en fonction des requêtes précédentes. Vous pouvez approuver ou rejeter ces suggestions avant d’envoyer la demande.
 
-Le remplissage automatique ne remplace aucun champ que vous avez déjà renseigné.
+La saisie automatique ne remplace aucun champ que vous avez déjà rempli.
 
 Les utilisateurs ne reçoivent pas de suggestions de données auxquelles ils n’ont pas accès autrement.
 
@@ -65,7 +65,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Obtention de suggestions lors du remplissage du formulaire
 
-Le remplissage automatique peut suggérer des valeurs de champ lorsque vous remplissez le formulaire. Lorsque vous saisissez des valeurs dans les champs de requête, Workfront compare ces valeurs aux requêtes précédentes. Si la valeur saisie est étroitement corrélée à d’autres valeurs de champ dans des contextes similaires dans des requêtes précédentes, Workfront suggère ces valeurs.
+La saisie automatique peut suggérer des valeurs de champ lorsque vous remplissez le formulaire. Lorsque vous saisissez des valeurs dans les champs de requête, Workfront compare ces valeurs aux requêtes précédentes. Si la valeur saisie est étroitement corrélée à d’autres valeurs de champ dans des contextes similaires dans des requêtes précédentes, Workfront suggère ces valeurs.
 
 Par exemple, si une clinique utilise toujours le même code de facturation, Workfront suggère ce code de facturation dans le champ approprié lorsque le nom de la clinique est saisi.
 

@@ -1,18 +1,18 @@
 ---
-title: Remplir automatiquement une demande à l’aide d’invites ou de documents
+title: Utiliser le remplissage de formulaire AI pour remplir une demande à l’aide d’invites ou de documents
 content-type: reference
 description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs de requête en saisissant une invite ou en fournissant un document.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
+source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1368'
 ht-degree: 10%
 
 ---
 
-# Remplir automatiquement une demande à l’aide d’invites ou de documents
+# Utiliser le remplissage de formulaire AI pour remplir une demande à l’aide d’invites ou de documents
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ ht-degree: 10%
 >
 >* Pour utiliser cette fonctionnalité, votre entreprise doit répondre aux exigences requises pour utiliser l’assistant Workfront AI. Pour plus d’informations, consultez [Conditions préalables pour l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-L’IA peut vous aider à remplir automatiquement les champs de requête en fonction d’une invite que vous saisissez. Il peut également remplir des champs basés sur du texte, tels que des e-mails ou des documents chargés. Vous pouvez approuver ou rejeter ces suggestions avant d’envoyer la demande.
+Le remplissage de formulaire par l’IA peut vous aider à remplir automatiquement les champs de demande en fonction d’une invite que vous saisissez. Il peut également remplir des champs basés sur du texte, tels que des e-mails ou des documents chargés. Vous pouvez approuver ou rejeter ces suggestions avant d’envoyer la demande.
 
-Le remplissage automatique ne remplace aucun champ que vous avez déjà renseigné.
+Le remplissage de formulaire AI ne remplace aucun champ que vous avez déjà rempli.
 
 Les utilisateurs ne reçoivent pas de suggestions de données auxquelles ils n’ont pas accès autrement.
 
@@ -67,7 +67,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 ## Conditions préalables
 
-Pour remplir automatiquement les demandes à l’aide d’une invite ou d’un document, **toutes** les conditions suivantes doivent être remplies :
+Pour utiliser le remplissage de formulaire par l’IA pour remplir des demandes à l’aide d’une invite ou d’un document, **toutes** les conditions suivantes doivent s’appliquer :
 
 * Votre organisation doit avoir migré vers Adobe IMS (système Identity Management)
 * L’expérience unifiée Adobe doit être activée
@@ -81,11 +81,11 @@ Pour remplir automatiquement les demandes à l’aide d’une invite ou d’un d
 
 ## Obtenir des suggestions à partir d’une invite de texte
 
-Le remplissage automatique peut suggérer des valeurs de champ en fonction du texte, tel que les e-mails. Vous collez dans un bloc de texte et Workfront traite le texte pour suggérer des valeurs de champ en fonction du texte.
+Le remplissage de formulaire par l’IA peut suggérer des valeurs de champ en fonction du texte tel que les e-mails. Vous collez dans un bloc de texte et Workfront traite le texte pour suggérer des valeurs de champ en fonction du texte.
 
-Par exemple, si l’e-mail inclut « L’échéance est le 1er juin » et que le formulaire de demande comporte un champ pour la date d’échéance, Workfront suggère le 1er juin pour cette valeur de champ.
+Par exemple, si l’e-mail inclut « L’échéance est le 1er juin » et que le formulaire de demande comporte un champ pour la date d’échéance, le remplissage du formulaire d’IA suggère le 1er juin pour cette valeur de champ.
 
-Ce type de suggestion vérifie également les demandes précédentes pour des contextes similaires. Par exemple, si l’invite indique que la demande concerne un certain client, Workfront peut localiser et saisir automatiquement l’adresse de facturation de ce client, en fonction des demandes précédentes.
+Lors du remplissage d’un formulaire, Workfront vérifie également les requêtes précédentes à la recherche de contextes similaires. Par exemple, si l’invite indique que la demande concerne un certain client, Workfront peut localiser et saisir automatiquement l’adresse de facturation de ce client, en fonction des demandes précédentes.
 
 Vous pouvez coller du texte à appliquer à l’ensemble du formulaire ou à une seule section du formulaire.
 
@@ -263,11 +263,11 @@ Les types de champs Workfront affectent la possibilité de remplir automatiqueme
 
 #### Autres bonnes pratiques
 
-Tenez compte des points suivants lors du chargement d’un document pour le remplissage automatique de la demande :
+Tenez compte des points suivants lors du chargement d’un document dans le remplissage de formulaire AI :
 
-* Le remplissage automatique est actuellement optimisé pour l’alphabet latin.
+* Le remplissage du formulaire AI est actuellement optimisé pour l’alphabet latin.
 * Nous vous recommandons d’utiliser une taille de texte de 8 points ou plus.
-* Le remplissage automatique peut présenter des difficultés avec les images du document, telles que les images pivotées ou déformées, les graphiques, le comptage ou l&#39;utilisation de raisons spatiales sur des objets dans les images.
+* Le remplissage de formulaire par l&#39;IA peut présenter des difficultés avec les images du document, telles que les images tournées ou déformées, les graphiques, le comptage ou l&#39;utilisation de raisons spatiales sur les objets dans les images.
 * Comme toujours, nous vous recommandons de vérifier l’exactitude des résultats avant d’envoyer la requête.
 
 ### Chargement d’un document pour remplir automatiquement une demande
