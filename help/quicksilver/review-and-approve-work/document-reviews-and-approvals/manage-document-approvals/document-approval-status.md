@@ -6,10 +6,10 @@ description: Les statuts de décision des documents sont répertoriés et expliq
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 92%
+source-wordcount: '178'
+ht-degree: 83%
 
 ---
 
@@ -98,6 +98,7 @@ Les statuts possibles sont les suivants :
                                 <p>Au moins une personne approbatrice a pris la décision « Approuvé avec des modifications ».</p>
                                 <p>D’autres personnes approbatrices peuvent avoir pris des décisions « Approuvé ».
                             </li>
+                            <p>Remarque : cette option n’est pas disponible si vous utilisez l’intégration Frame.io pour la révision et l’approbation.</p>
                         </ul>
                     </td>
                 </tr>
@@ -106,9 +107,9 @@ Les statuts possibles sont les suivants :
                     </td>
                     <td>
                         <ul>
-                            <li>
-                                <p>Toutes les approbations et révisions sont terminées.</p>
-                            </li>
+                           <!--<li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>-->
                             <li>
                                 <p>Toutes les personnes approbatrices peuvent avoir pris des décisions « Approuvé ».
                             </li>

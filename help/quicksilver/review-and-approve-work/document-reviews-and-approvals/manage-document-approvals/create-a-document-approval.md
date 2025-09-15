@@ -6,7 +6,7 @@ description: Vous pouvez demander l’approbation d’un document à d’autres 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 3fc3b1421882261a58a1984c9df410896d596062
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 85%
@@ -59,7 +59,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Pointez sur le document, puis cliquez sur sélectionnez Détails du document.
    ![ Détails du document ](assets/doc-details.png)
-
 
 1. À côté du nom du document, sélectionnez la version du document pour laquelle créer une approbation dans le menu déroulant de la version. La version la plus récente est sélectionnée par défaut.
 

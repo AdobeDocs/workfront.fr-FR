@@ -6,10 +6,10 @@ description: Vous pouvez charger une nouvelle version du document et demander l�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 53%
+source-wordcount: '488'
+ht-degree: 28%
 
 ---
 
@@ -23,12 +23,9 @@ Lorsqu&#39;une nouvelle version est ajoutée à un document avec des approbation
 
 Si la dernière version du document est supprimée, les versions précédentes restent verrouillées. Si vous devez modifier une version précédente, vous devez la déverrouiller manuellement.
 
-
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,27 +34,26 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
-   <td> <p>Actuelle : demande ou niveau supérieur</p>
-   ou
-   <p>Nouvelle : contributeur ou supérieure</p> </td> 
+   <td> <p>Requête ou supérieure</p>
+   <p>Contributeur ou version ultérieure</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Accès Modifier à l’objet associé au document</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Accès Modifier à l’objet associé au document</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, consultez la section <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,26 +63,36 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 >
 >Glisser-déposer ne fonctionne pas avec Internet Explorer.
 
-1. Accédez à la zone Documents dans laquelle le document est chargé.
-1. Depuis votre poste de travail ou un onglet de navigateur distinct, faites glisser la nouvelle version du document au-dessus de la version existante dans Workfront.
 
-   Lorsque vous faites glisser la nouvelle version, vous pouvez pointer sur un dossier de documents Workfront pour l’ouvrir. Vous pouvez ensuite faire défiler vers le haut ou vers le bas en faisant glisser les fichiers vers le haut ou le bas de l’écran.
+Si vous avez besoin d’une autre phase de révision et d’approbation d’un document, vous pouvez créer une nouvelle version du document dans Workfront.
 
-1. Déposez la nouvelle version au-dessus du fichier existant sur l’onglet **Documents**.
+Vous pouvez ajouter les participants précédents, de nouveaux participants ou une combinaison des deux. Vous pouvez afficher des informations sur les versions précédentes et les participants sur la page Détails du document .
 
-1. Une fois le document téléchargé, cliquez dessus et ouvrez le panneau Résumé du document .
+Pour ajouter une nouvelle version :
 
-1. Faites défiler la page jusqu’à la section **Approbations** dans le volet Résumé du document, puis cliquez sur **Ajouter**.
+1. Accédez au document dans Workfront.
+1. Glissez-déposez le nouveau fichier en haut du document précédent. Une nouvelle version est automatiquement créée.
 
-![Ajouter des approbateurs dans le résumé du document](assets/doc-summary-add-approvers.png)
+1. Une fois le téléchargement terminé, sélectionnez le document, puis cliquez sur **Détails du document**.
+   ![Ouvrir la page des détails du document](assets/open-doc-details.png)
+
+
+1. Dans le volet de gauche, cliquez sur **Validations**, puis sur **Ajouter**.
+
+1. Pour ajouter tous les participants précédents, cliquez sur **Ajouter tout**. Vous pouvez également ajouter de nouveaux participants ou supprimer des participants précédents selon vos besoins.
+
+
+1. Pour ajouter un modèle d’approbation existant, cliquez sur le bouton Modèle et commencez à saisir le nom d’un modèle.
+
+   >[!TIP]
+   >
+   >   Les utilisateurs disposant d&#39;une licence Standard peuvent créer des modèles d&#39;approbation réutilisables à partir de la zone Configuration. Pour plus d’informations, voir [Créer un modèle d’approbation pour les ressources et les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
 
 1. (Facultatif) Définissez une date limite pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.
 
-1. Pour ajouter rapidement des réviseurs et des approbateurs à partir de la version précédente, cliquez sur le bouton d’ajout en regard de leurs noms répertoriés ci-dessous.
-   <!--need screenshot when working-->
+1. Une fois que vous avez ajouté tous les réviseurs et approbateurs, cliquez sur **Soumettre la demande**. Les participants sont avertis par e-mail.
 
-1. (Facultatif) modifiez le rôle de l’approbateur/réviseur.
+   ![soumettre la nouvelle version à approbation](assets/add-previous-participants.png)
 
-1. Pour ajouter de nouveaux approbateurs et validants, cliquez sur **Réviseur** ou **Approbateur** et commencez à saisir l’utilisateur, l’utilisatrice ou l’équipe.
 
-   ![Ajouter un approbateur et une date limite](assets/add-approver-and-deadline.png)

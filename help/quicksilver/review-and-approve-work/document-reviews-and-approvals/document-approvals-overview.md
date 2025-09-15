@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Aperçu des approbations de documents unifiés
+title: Aperçu des validations unifiées
 description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateurs et approbatrices supplémentaires à un document ayant déjà des approbations en attente.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 37%
+source-wordcount: '324'
+ht-degree: 31%
 
 ---
 
@@ -49,30 +49,33 @@ Avec les approbations unifiées, vous pouvez :
 
 ## Utilisation des validations unifiées
 
-Pour les utilisateurs qui souhaitent créer ou gérer des approbations de document, consultez les articles répertoriés dans [Configurer et gérer les approbations de ressources et de documents : index des articles](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+Pour les utilisateurs qui souhaitent créer ou gérer des approbations de document, consultez les articles répertoriés dans [Configurer et gérer les approbations unifiées : index des articles](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
 Pour les utilisateurs qui souhaitent réviser ou approuver des documents pour lesquels ils ont reçu une demande, reportez-vous aux articles répertoriés dans la section [Approuver et réviser des documents : index des articles](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-## Nouvelles fonctionnalités et objectifs de conception
+<!--
 
->[!VIDEO](https://video.tv.adobe.com/v/3420544/)
+## New features and design goals
 
-* **Participation inclusive des parties prenantes**\
-    Les approbations unifiées permettent d’inclure les contributeurs individuels et des équipes entières dans le processus d’approbation. Faciliter une telle participation plus large garantit un engagement complet des parties prenantes et favorise un environnement décisionnel mieux informé et plus collaboratif.
+>[!VIDEO](https://video.tv.adobe.com/v/3420544/)  
 
-* **Rôles de révision et d’approbation différenciés**\
-     Les approbations unifiées sont conçues pour reconnaître et respecter les différents rôles dans le processus d&#39;approbation. En offrant la possibilité d’identifier et de désigner des réviseurs et des réviseuses (c’est-à-dire des utilisateurs et des utilisatrices qui reçoivent une notification leur enjoignant à laisser des commentaires mais qui n’ont pas de pouvoir de décision), la qualité des commentaires est améliorée et la clarté concernant l’autorité d’approbation finale est conservée.
+* **Inclusive stakeholder participation**\
+    Unified Approvals allow the inclusion of both individual contributors and entire teams in the approval process. Facilitating this broader participation ensures comprehensive stakeholder engagement and fosters a more informed and collaborative decision-making environment.
 
-* **Approbations spécifiques à une version**\
-    La nature itérative de l’élaboration des documents conduit souvent à de multiples versions d’un même document. Les approbations unifiées tiennent compte de cette réalité en fournissant des chaînes d’approbation uniques pour chaque version d’un document. Cela permet aux utilisateurs et aux utilisatrices de charger une nouvelle version et d’ajouter de nouveaux approbateurs et approbatrices, ou de nouveaux réviseurs et réviseuses si nécessaire, pour ainsi garantir que les commentaires et l’approbation sont spécifiques à la version du document, éliminant toute confusion potentielle.
+* **Differentiated review and approval roles**\
+     Unified Approvals is designed to recognize and respect the varying roles within the approval process. By providing the ability to identify and designate reviewers—users who are notified to provide feedback but do not have decision-making authority—the quality of feedback is enhanced while maintaining clarity of final approval authority.
 
-* **Journaux d’audit**\
-    Grâce aux approbations unifiées, un journal d’audit de toutes les activités d’approbation est conservé dans le flux d’activités, fournissant ainsi une ressource précieuse pour la référence et la conformité futures.
+* **Version-specific approvals**\
+    The iterative nature of document development often leads to multiple versions of the same document. Unified Approvals accommodates this reality by providing unique approval chains for each version of a document. This allows users to upload a new version and add new approvers or reviewers as needed, ensuring that feedback and approval are specific to the document version and eliminating potential confusion.
 
-## Plan de publication
+* **Audit trails**\
+    With Unified Approvals, an audit trail of all approval activities is maintained in the activity stream, providing a valuable resource for future reference and compliance.
 
-Nous mettons les approbations unifiées à la disposition des utilisateurs au cours de plusieurs versions. En plus d’ajouter de nouvelles fonctionnalités, nous augmenterons également le nombre de comptes pour lesquels les approbations unifiées sont disponibles avec chaque version.
+## Release plan
 
-Si vous souhaitez que les approbations unifiées soient activées dans votre environnement de production, contactez votre service client ou votre gestionnaire de compte stratégique.
+We are making Unified Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which Unified Approvals are available with each release.
+
+If you would like to have Unified Approvals enabled in your production environment, please reach out to your Customer Success or Strategic Account Manager.
 
 
+-->
