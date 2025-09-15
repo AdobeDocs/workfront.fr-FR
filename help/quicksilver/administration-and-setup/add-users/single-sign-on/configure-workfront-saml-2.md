@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 100%
+source-wordcount: '1061'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,13 @@ ht-degree: 100%
 
 <!-- Audited: 12/2023 -->
 
-{{important-admin-console-onboard}}
+
+
+>[!IMPORTANT]
+>
+>La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Admin Console.
+>
+>Pour mapper les attributs utilisateur dans les organisations qui ont été intégrées à Adobe Admin Console, consultez [Mappage des attributs utilisateur dans l’expérience unifiée Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) dans l’article Mappage des attributs utilisateur.
 
 En tant qu’administrateur ou administratrice d’Adobe Workfront, vous pouvez configurer les applications web et mobile de Workfront afin de les intégrer à une solution SAML 2.0 (Security Assertion Markup Language) pour l’authentification unique (SSO).
 

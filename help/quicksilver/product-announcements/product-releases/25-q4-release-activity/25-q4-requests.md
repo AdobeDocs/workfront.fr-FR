@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
+source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 14%
+source-wordcount: '367'
+ht-degree: 12%
 
 ---
 
@@ -41,7 +41,11 @@ Pour plus d’informations sur la création de requêtes, voir :
 >* Mise à jour rapide de la production : 11 septembre 2025
 >* Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
-Pour améliorer l’expérience utilisateur lors de la réalisation de requêtes dans Workfront et Workfront Planning, nous avons mis à jour l’expérience de requête. Vous pouvez désormais effectuer les opérations suivantes :
+Pour améliorer l’expérience utilisateur lors de la réalisation de requêtes dans Workfront et Workfront Planning, nous avons mis à jour l’expérience de requête.
+
+Pour utiliser la nouvelle expérience de demande, dans la zone des Demandes, activez le bouton (bascule) Utiliser la nouvelle expérience dans le coin supérieur droit de l’écran.
+
+Dans la nouvelle expérience , vous pouvez :
 
 * Affichez les demandes Workfront et Workfront Planning dans une seule liste.
 * Filtrez les demandes envoyées en fonction des critères que vous spécifiez.
