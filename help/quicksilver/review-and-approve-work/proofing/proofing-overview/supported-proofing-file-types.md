@@ -136,7 +136,7 @@ Workfront présente les limites suivantes :
 
   >[!NOTE]
   >
-  >Il existe un problème connu en raison duquel le chargement des fichiers de présentation PowerPoint échoue pour le moment. Si vous rencontrez ce problème, convertissez le fichier en PDF et chargez le PDF à la place. Pour plus d’informations, voir [Épreuves : impossible de générer une épreuve à partir d’un fichier PowerPoint](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+  >Il existe un problème connu en raison duquel le chargement des fichiers de présentation PowerPoint échoue pour le moment. Si vous rencontrez ce problème, convertissez le fichier en PDF et chargez le PDF à la place. Pour plus d’informations, voir [Épreuves : impossible de générer une épreuve à partir d’un fichier PowerPoint](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
 
 
 * PPTX - Présentation PowerPoint 2007 PS - Fichier PostScript
