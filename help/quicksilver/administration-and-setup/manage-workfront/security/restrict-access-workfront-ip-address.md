@@ -8,18 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 65121fae364683373d2bc9abbe6672755d0cd09c
+source-git-commit: 03c17f2a09f4b2e00a4a03a177ce241b38b9ea7e
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 92%
+source-wordcount: '447'
+ht-degree: 93%
 
 ---
 
 # Limiter l’accès à Adobe Workfront en fonction de l’adresse IP
 
+<!--
 >[!IMPORTANT]
 >
->Cette fonctionnalité n’est actuellement pas disponible pour les organisations qui ont été intégrées à Adobe Admin Console. Il sera disponible dans Adobe Admin Console dans une version ultérieure.
+>This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release. -->
 
 Vous pouvez configurer une liste autorisée d’adresses IP d’Adobe Workfront qui limite l’accès à Workfront à 75 adresses IP ou plages d’adresses IP que vous spécifiez. Cela fournit une couche supplémentaire de sécurité pour l’application Workfront.
 
@@ -45,7 +46,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont l’administrateur ou l’administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> <p><b>Remarque </b> : si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il a défini des restrictions supplémentaires pour votre niveau d’accès. Pour plus d’informations sur la façon dont l’administrateur ou l’administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
