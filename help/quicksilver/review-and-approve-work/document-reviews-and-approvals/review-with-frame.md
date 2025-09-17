@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 16%
+source-wordcount: '570'
+ht-degree: 17%
 
 ---
 
@@ -81,8 +81,6 @@ Les commentaires et les balises de ressources ne sont visibles que dans la visio
 En tant qu’approbateur/approbatrice, vous pouvez ajouter des commentaires et marquer les éléments comme étant des ressources. Vous devez prendre une décision pour faire avancer le processus d’approbation.
 
 Le document ne passe pas à un statut approuvé tant que tous les approbateurs affectés n&#39;ont pas choisi « approuvé ».
-
-Si un approbateur choisit « Travail nécessaire », le statut du document passe immédiatement à Travail nécessaire. Le document doit être révisé et téléchargé en tant que nouvelle version avec un nouveau workflow d’approbation.
 
 Pour prendre une décision sur un document :
 

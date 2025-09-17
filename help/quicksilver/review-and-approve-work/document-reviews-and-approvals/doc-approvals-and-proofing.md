@@ -6,10 +6,10 @@ description: Vous pouvez utiliser les approbations unifiées avec la relecture.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 4%
+source-wordcount: '847'
+ht-degree: 5%
 
 ---
 
@@ -97,8 +97,6 @@ Pour ajouter une nouvelle version :
 ## Examinez le BAT et prenez une décision
 
 Le document ne passe pas à un statut approuvé tant que tous les approbateurs affectés n&#39;ont pas choisi « approuvé ».
-
-Si l&#39;un des approbateurs choisit « Travail nécessaire », le statut du document passe immédiatement à Travail nécessaire. Le document doit être révisé et téléchargé en tant que nouvelle version avec un nouveau workflow d’approbation.
 
 Pour réviser et approuver un document :
 
