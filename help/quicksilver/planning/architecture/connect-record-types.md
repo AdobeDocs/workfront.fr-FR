@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 30%
+source-wordcount: '2752'
+ht-degree: 28%
 
 ---
 
 
 # Connecter des types d’enregistrements
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -172,50 +172,45 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
 
    ![Nouvelle connexion pour autoriser plusieurs enregistrements](assets/new-connection-allow-multiple-records-box.png)
 
-1. (Conditionnel) Lorsque vous connectez des types d’enregistrement à partir du même espace de travail ou d’un type d’enregistrement Planning avec un type d’objet Workfront, sélectionnez l’une des options **Type de connexion** suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et depuis :
+1. (Conditionnel) Lorsque vous connectez des types d’enregistrement à partir du même espace de travail ou d’un type d’enregistrement Planning à un type d’objet Workfront, effectuez l’une des opérations suivantes, en fonction de l’environnement utilisé :
 
-   * Multiple-à-multiple
-   * Un à plusieurs
-   * Multiple-à-un
-   * Un à un
+   * Dans l’environnement de production, sélectionnez l’une des options **Type de connexion** suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et à partir desquels :
 
-   ![Sélecteur de connexion plusieurs à plusieurs](assets/many-to-many-connection-picker.png)
+      * Multiple-à-multiple
+      * Un à plusieurs
+      * Multiple-à-un
+      * Un à un
 
-   Pour plus d’informations sur les types de connexion, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+     ![Sélecteur de connexion plusieurs à plusieurs](assets/many-to-many-connection-picker.png)
 
-   >[!NOTE]
-   >
-   > Si vous sélectionnez Un à plusieurs ou Un à un pour le type Connexion et que vous souhaitez par la suite connecter un enregistrement ou un objet déjà connecté ailleurs, vous recevrez un avertissement indiquant que le connecter à nouveau supprimera la connexion d&#39;origine. Vous pouvez autoriser la suppression ou sélectionner un autre enregistrement.
+   <div class="preview">
 
+   * Dans l’environnement de Prévisualisation, procédez comme suit :
+      1. Sélectionnez l’une des options suivantes :
 
-   <!-- 
-        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
-    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
-        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
-            * Many to many
-            * One to many
-            * Many to one
-            * One to one      
-            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
-        <div class="preview">
-        * In the Preview environment, do the following: 
-            1. Select one of the following:
-                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
-                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
-            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
-                    >[!TIP]
-                    >
-                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
-            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
-                * Many to many
-                * One to many
-                * Many to one
-                * One to one  
-            </div>       
-             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-                >[!NOTE]
-                >
-                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
+         * **Sélection multiple** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à plusieurs enregistrements du type d’enregistrement de connexion.
+         * **Sélection unique** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à un enregistrement du type d’enregistrement de connexion.
+
+      2. Activez l’option **Créer le champ correspondant sur le type d’enregistrement lié**. Lorsqu’il est activé, un champ de connexion est créé sur le type d’enregistrement auquel vous êtes connecté, en plus du champ de connexion ajouté au type d’enregistrement actuel. Cette option est désactivée par défaut.
+
+         >[!TIP]
+         >
+         >La limite est de 500 connexions pour un type d’enregistrement. Nous vous recommandons de conserver ce paramètre désactivé, en particulier pour les types d’enregistrements taxonomiques, afin d’éviter d’atteindre cette limite.
+
+      3. (Conditionnel) Si vous avez activé **Créer le champ correspondant sur le type d’enregistrement lié**, choisissez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et à partir desquels :
+
+         * Multiple-à-multiple
+         * Un à plusieurs
+         * Multiple-à-un
+         * Un à un
+
+     </div>
+
+     Pour plus d’informations sur les types de connexion, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+     >[!NOTE]
+     >
+     >Si vous sélectionnez Un à plusieurs ou Un à un pour le type Connexion et que vous souhaitez par la suite connecter un enregistrement ou un objet déjà connecté ailleurs, vous recevrez un avertissement indiquant que le connecter à nouveau supprimera la connexion d&#39;origine. Vous pouvez autoriser la suppression ou sélectionner un autre enregistrement.
 
 1. (Conditionnel et facultatif) Lorsque vous choisissez de connecter un objet Workfront, choisissez un **Formulaire personnalisé** dans la section **Lier uniquement les objets correspondant à ces critères**. Seuls les objets auxquels sont attachés les formulaires personnalisés sélectionnés peuvent être liés au type d’enregistrement sélectionné. Vous pouvez sélectionner plusieurs formulaires.
 
@@ -227,7 +222,7 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
 
    >[!NOTE]
    >
-   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Conditionnel) Lorsque vous choisissez de vous connecter à Experience Manager Assets ou à un type d’enregistrement Workfront Planning, choisissez l’une des options suivantes dans la zone **Apparence des enregistrements** :
@@ -242,7 +237,7 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
    >
    >* Lorsque vous autorisez la liaison de plusieurs enregistrements, l’affichage de la miniature seule peut permettre de gagner de l’espace dans des zones plus petites, comme les vues d’enregistrement.
    >
-   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
    >

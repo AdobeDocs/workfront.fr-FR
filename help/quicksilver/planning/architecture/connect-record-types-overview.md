@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 17%
+source-wordcount: '1976'
+ht-degree: 15%
 
 ---
 
 # Types d’enregistrements connectés - Aperçu
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Vous pouvez indiquer que des types d’enregistrements individuels sont liés les uns aux autres ou à des objets d’autres applications en les connectant.
 
@@ -75,12 +75,12 @@ Tenez compte des points suivants concernant la connexion des types d’enregistr
 
      Par exemple, si vous connectez le type d’enregistrement « Campaign » au type d’enregistrement « Product », un champ d’enregistrement lié (champ de connexion) que vous nommez « Produit lié » est créé sur le type d’enregistrement Campaign. Un type d’enregistrement lié automatiquement nommé « Campagne » est créé sur le type d’enregistrement Produit .
 
-     <!--<div class="preview">
-        
-        For example, the following scenarios exist: 
-        * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
-        * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
-        </div>-->
+     <div class="preview">
+
+     Par exemple, les scénarios suivants existent :
+      * Lorsque vous activez le paramètre Créer le champ correspondant sur le type d’enregistrement lié et que vous connectez le type d’enregistrement « Campaign » au type d’enregistrement « Produit », un champ d’enregistrement lié (champ de connexion) que vous nommez « Produit lié » est créé sur le type d’enregistrement Campaign. Un type d’enregistrement lié automatiquement nommé « Campagne » est créé sur le type d’enregistrement Produit .
+      * Lorsque vous désactivez le paramètre Créer le champ correspondant sur le type d’enregistrement lié et que vous connectez le type d’enregistrement « Campaign » au type d’enregistrement « Product », un champ d’enregistrement lié (champ de connexion) que vous nommez « Produit lié » est créé sur le type d’enregistrement Campaign. Un type d’enregistrement lié automatiquement nommé « Campaign » n’est pas créé sur le type d’enregistrement Produit .
+     </div>
 
      Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -90,7 +90,7 @@ Tenez compte des points suivants concernant la connexion des types d’enregistr
       * Les champs Enregistrements Planning ne sont pas accessibles à partir des objets Workfront.
       * Les enregistrements Planning sont visibles à partir de l&#39;onglet Planning de l&#39;objet Workfront. Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Vous pouvez créer un champ personnalisé de connexion Planning et le joindre au formulaire personnalisé d’un objet Workfront. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
    * **Lorsque vous ajoutez des champs de recherche à partir de l’enregistrement ou de l’objet auquel vous vous connectez** : en plus de créer un champ d’enregistrement lié, vous pouvez également vous connecter aux champs du type d’enregistrement ou d’objet connecté qui sont appelés champs de recherche. Un champ lié (ou de recherche) contenant des informations de l&#39;enregistrement auquel vous vous connectez s&#39;affiche sur l&#39;enregistrement auquel vous vous connectez.
@@ -132,66 +132,65 @@ Après avoir établi une connexion entre deux types d&#39;enregistrements ou ent
 
 Vous pouvez choisir de connecter un enregistrement à plusieurs enregistrements à la fois, ou un enregistrement à la fois les uns aux autres.
 
-Selon le nombre d’enregistrements que vous pouvez ajouter à un champ d’enregistrement connecté <!--and the environment you use to create the connected fields-->, voici les types de connexion que vous pouvez choisir lors de la connexion des types d’enregistrements :
-
-<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+Selon le nombre d&#39;enregistrements que vous pouvez ajouter à un champ d&#39;enregistrement connecté et l&#39;environnement que vous utilisez pour créer les champs connectés, voici les types de connexion que vous pouvez choisir lors de la connexion des types d&#39;enregistrement :
 
 <div class="preview">
 
-* In the Preview environment: 
+* Dans l’environnement de Prévisualisation :
 
-    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
+   * Lorsque le paramètre Créer le champ correspondant sur le type d’enregistrement lié est désactivé, vous pouvez choisir parmi les options suivantes :
 
-        * [Multi-select](#multi-select-connection-type)
-        * [Single-select](#single-select-connection-type)
+      * [Sélection multiple](#multi-select-connection-type)
+      * [Sélection unique](#single-select-connection-type)
 
 </div>
 
-* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+* <span class="preview">Dans l’environnement de Prévisualisation, lorsque le paramètre Créer le champ correspondant sur le type d’enregistrement lié est activé</span> ou dans l’environnement de Production, vous pouvez choisir parmi les options suivantes :
 
-    * [Many to many](#many-to-many-connection-type)
-    * [One to many](#one-to-many-connection-type)
-    * [Many to one](#many-to-one-connection-type)
-    * [One to one](#many-to-one-connection-type) 
+   * [Multiple-à-multiple](#many-to-many-connection-type)
+   * [Un à plusieurs](#one-to-many-connection-type)
+   * [Multiple-à-un](#many-to-one-connection-type)
+   * [Un à un](#many-to-one-connection-type)
 
 <div class="preview">
 
-### Multi-select connection type
+### Type de connexion à sélection multiple
 
-![Multi-select connection type](assets/multi-select-connection-picker.png)
+![Type de connexion à sélection multiple](assets/multi-select-connection-picker.png)
 
-When you create a multi-select connection between record types, you can then select multiple connected records in the connection field from the original record type. 
+Lorsque vous créez une connexion à sélection multiple entre des types d’enregistrements, vous pouvez ensuite sélectionner plusieurs enregistrements connectés dans le champ de connexion à partir du type d’enregistrement d’origine.
 
-For example, if you create a multi-select connection between campaigns and projects, you can select multiple projects for one campaign. A Campaign connected record type is not created for the Project object type.
+Par exemple, si vous créez une connexion à sélection multiple entre des campagnes et des projets, vous pouvez sélectionner plusieurs projets pour une campagne. Aucun type d’enregistrement connecté à Campaign n’est créé pour le type d’objet Projet.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following types:
+Après avoir sélectionné ce type de connexion, vous ne pouvez pas le modifier après l’avoir enregistré dans l’un des types suivants :
 
-    * Single-select
-    * One to many
-    * Many to one
-    * One to one
+    * Sélection unique
+    * Un à plusieurs
+    * Plusieurs à un
+    * Un à un
 
-### Single-select connection type
+### Type de connexion à sélection unique
 
-![Single select connection type](assets/single-select-connection-picker.png)
+![Type de connexion à sélection unique](assets/single-select-connection-picker.png)
 
-When you create a single-select connection between record types, you can then select one record in the connection field from the original record type. 
+Lorsque vous créez une connexion à sélection unique entre les types d’enregistrements, vous pouvez ensuite sélectionner un enregistrement dans le champ de connexion à partir du type d’enregistrement d’origine.
 
-For example, if you create a single-select connection between campaigns and companies, you can select one company for one campaign. A Campaign connected record type is not created for the Company object type.
+Par exemple, si vous créez une connexion à sélection unique entre des campagnes et des sociétés, vous pouvez sélectionner une société pour une campagne. Aucun type d’enregistrement connecté à Campaign n’est créé pour le type d’objet Société.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following:
+Après avoir sélectionné ce type de connexion, vous ne pouvez pas le modifier après l’avoir enregistré dans l’une des options suivantes :
 
-    * One to many
-    * One to one
+* Un à plusieurs
+* Un à un
 
 </div>
 
+
+<!--
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 -->
-
-* [Multiple-à-multiple](#many-to-many-connection-type)
-* [Un à plusieurs](#one-to-many-connection-type)
-* [Multiple-à-un](#many-to-one-connection-type)
-* [Un à un](#many-to-one-connection-type)
 
 ### Type de connexion plusieurs à plusieurs
 
