@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
+source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
 workflow-type: tm+mt
-source-wordcount: '7673'
+source-wordcount: '7834'
 ht-degree: 2%
 
 ---
@@ -162,7 +162,25 @@ Nous avons introduit des mises à jour d’interface lors de la modification de 
 
 Pour plus d’informations, voir [Modifier des portefeuilles](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
+## Programmes
+
+### Mises à jour de l’interface vers la zone Modifier le programme
+
+**Version préliminaire : 18 septembre 2025 ; Version de production : 25 septembre 2025**
+
+Nous avons mis à jour l’aspect de la zone Modifier le programme pour qu’elle corresponde à la conception d’autres zones de Workfront.
+
+Pour plus d’informations, voir [Modifier des programmes](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md).
+
 ## Projets
+
+### Mise à jour de l’interface lors de la modification en bloc de modèles
+
+**Version préliminaire : 18 septembre 2025 ; Version de production : 25 septembre 2025**
+
+Nous avons mis à jour l’aspect de la zone Modifier les modèles lors de la modification de modèles en bloc à partir d’une liste de modèles. L&#39;organisation des informations dans la zone de modification des modèles correspond désormais à la zone de modification à modèle unique.
+
+Pour plus d’informations, voir [Modifier les modèles de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ### Mises à jour de l’interface pour une liste de projets ou un rapport lors de l’application de la vue Jalon
 
@@ -376,17 +394,16 @@ Pour plus d’informations, voir
 
 ## Utilisateurs
 
-<!--
-### Interface updates for the New User dialog
+### Mises à jour de l’interface pour la boîte de dialogue Nouvel utilisateur
 
-**Preview release: September 11, 2025; Production release: September 18, 2025**
+**Version préliminaire : 18 septembre 2025 ; Version de production : 18 septembre 2025**
 
-We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+Nous avons mis à jour l’aspect de la boîte de dialogue Nouvel utilisateur pour qu’elle corresponde à la conception dans d’autres zones de l’application.
 
-To view this change, go to Users > New User > New User.
+Pour afficher cette modification, accédez à Utilisateurs > Nouvel utilisateur > Nouvel utilisateur.
 
-For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
--->
+Pour plus d’informations, consultez les sections [Ajouter des utilisateurs](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) et [Mises à jour du profil utilisateur de Workfront](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) sur la page Améliorations de l’administration du [Quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+
 
 ### Mises à jour de l’interface dans la boîte de dialogue Importer des utilisateurs
 
