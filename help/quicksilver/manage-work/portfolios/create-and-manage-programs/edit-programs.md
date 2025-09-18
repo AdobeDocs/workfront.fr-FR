@@ -6,14 +6,16 @@ description: Vous pouvez modifier les informations des programmes que vous avez 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 82%
+source-wordcount: '1059'
+ht-degree: 76%
 
 ---
 
 # Modifier des programmes
+
+{{highlighted-preview}}
 
 Vous pouvez modifier les informations sur les programmes que vous avez créés ou que d’autres utilisateurs et utilisatrices ont créés et partagés avec vous.
 
@@ -104,6 +106,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    La boîte de dialogue **[!UICONTROL Modifier le programme]** s’affiche.
 
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   ![Zone Modifier le programme](assets/edit-program-0925.png)
+
+   Exemple d’image dans l’environnement de production :
    ![Zone Modifier le programme](assets/edit-program-box-nwe-350x236.png)
 
    Tous les champs de programme sont disponibles dans la zone [!UICONTROL Modifier le programme] et sont regroupés par zones répertoriées dans le panneau de gauche.
@@ -157,7 +163,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     </tbody> 
    </table>
 
-1. Cliquez sur **[!UICONTROL Enregistrer les modifications]** ou continuez à modifier les sections suivantes.
+1. Cliquez sur <span class="preview">**Enregistrer**</span> ou **[!UICONTROL Enregistrer les modifications]**, ou continuez à modifier les sections suivantes.
 
 ### [!UICONTROL Formulaires personnalisés]
 
@@ -170,17 +176,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé. tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le programme lui-même. Pour plus d’informations sur la définition des autorisations pour les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Mettez à jour les champs des formulaires personnalisés, puis cliquez sur **[!UICONTROL Enregistrer les modifications]** ou passez à la section suivante.
+1. Mettez à jour les champs des formulaires personnalisés, puis cliquez sur <span class="preview">**Enregistrer**</span> ou **[!UICONTROL Enregistrer les modifications]**, ou passez à la section suivante.
 
 ### [!UICONTROL Commentaire] {#comment}
 
 1. Commencez à modifier un programme comme décrit ci-dessus.
-1. Cliquez sur **[!UICONTROL Commentaire]**.
-
-   ![Zone Commentaire dans la zone Modifier le programme](assets/comment-box-in-program-edit-box-classic-350x195.png)
-
-1. Ajoutez un commentaire dans le champ **[!UICONTROL Publier une mise à jour du programme]**.
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Personnes]** pour ajouter un utilisateur, une utilisatrice ou une équipe au commentaire.
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Verrouiller]** pour verrouiller le commentaire et le rendre privé uniquement pour les utilisateurs et utilisatrices de votre entreprise.
+1. Cliquez sur **[!UICONTROL Commentaire]**.
+1. Ajoutez un commentaire dans le **[!UICONTROL Publier une mise à jour pour le programme]** / <span class="preview">**Ajouter une mise à jour à chaque champ de programme**</span>.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Personnes]** pour ajouter un utilisateur ou une utilisatrice ou une équipe au commentaire.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Verrouiller]** <span class="preview">ou sélectionnez [!UICONTROL **Privé à mon entreprise**]</span> pour verrouiller le commentaire et le rendre privé uniquement pour les utilisateurs de votre entreprise.
 
    Une fois les modifications enregistrées, le commentaire que vous ajoutez s’affiche dans l’onglet [!UICONTROL Mises à jour] et envoie un e-mail aux utilisateurs et utilisatrices qui y sont inclus.
+
+
+   <!--THIS IMAGE GOES AFTER "CLICK COMMENT." I had to move it to get rid of blank lines. Lisa ![Comment box in edit program box](assets/comment-box-in-program-edit-box-classic-350x195.png)-->
