@@ -6,10 +6,10 @@ description: En tant qu’utilisateur ou utilisatrice disposant d’une licence 
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
+source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 95%
 
 ---
 
@@ -54,9 +54,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    * **Si vous êtes un administrateur ou une administratrice système configurant la consignation du temps pour d’autres utilisateurs et utilisatrices :** commencez à modifier un ou plusieurs comptes d’utilisateurs et d’utilisatrices, comme décrit dans la section [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Dans la boîte de dialogue qui s’affiche, dans la section **Planification des ressources**, recherchez l’option **Consigner le temps**.
+1. Dans la boîte de dialogue qui s’affiche, dans la section **Planification des ressources**, recherchez l’option **Enregistrer le temps dans**.
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![Options de connexion](assets/user-profile-log-time-options.png)
 
 1. (Le cas échéant) Si vous êtes un administrateur ou une administratrice système modifiant plusieurs utilisateurs et utilisatrices simultanément, sélectionnez **Consigner le temps en**.
 1. Sélectionnez l’une des options suivantes pour la consignation du temps :
