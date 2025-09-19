@@ -6,7 +6,7 @@ description: Avec Data Connect, les administrateurs et administratrices de Workf
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Dans la vue Historique des tâches, les administrateurs et administratrices de Workfront peuvent accéder à des enregistrements détaillés de chaque tâche d’actualisation des données. Ces enregistrements fournissent de précieuses informations insight sur les tâches qui maintiennent vos données à jour et vous aident à établir des délais idéaux pour exécuter les processus et actualiser vos visualisations d’entreprise.
 
-![Vue Historique des tâches](assets/job-history-tab.png)
+![Vue Historique des tâches](assets/job-history-overview.png)
 
 Les colonnes de la vue Historique des tâches contiennent les informations suivantes :
 
