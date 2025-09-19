@@ -2,12 +2,12 @@
 product-area: documents
 navigation-topic: approvals
 title: Créer des réviseurs d’IA
-description: Une fois qu’au moins une marque est configurée dans GenStudio Foundations, vous pouvez créer plusieurs réviseurs d’IA, que vous pouvez ensuite affecter aux modèles d’approbation et aux demandes individuelles de révision et d’approbation.
+description: Une fois qu’au moins une marque est configurée dans GenStudio Foundation, vous pouvez créer plusieurs réviseurs d’IA, que vous pouvez ensuite affecter aux modèles d’approbation et aux demandes individuelles de révision et d’approbation.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 22%
@@ -20,7 +20,7 @@ ht-degree: 22%
 >
 >Cette fonctionnalité est actuellement en version bêta.
 
-Une fois qu’au moins une marque est configurée dans GenStudio Foundations, vous pouvez créer plusieurs réviseurs d’IA, que vous pouvez ensuite affecter aux modèles d’approbation et aux demandes individuelles de révision et d’approbation.
+Une fois qu’au moins une marque est configurée dans GenStudio Foundation, vous pouvez créer plusieurs réviseurs d’IA, que vous pouvez ensuite affecter aux modèles d’approbation et aux demandes individuelles de révision et d’approbation.
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 ## Conditions préalables
 
-Avant de commencer, vous devez configurer des directives relatives à la marque d’image dans GenStudio Foundations.
+Avant de commencer, vous devez configurer des directives relatives à la marque d’image dans GenStudio Foundation.
 
-Pour en savoir plus sur les directives relatives aux marques d’images, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Pour en savoir plus sur les directives relatives aux marques d’images, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Ajouter un réviseur d’IA
 

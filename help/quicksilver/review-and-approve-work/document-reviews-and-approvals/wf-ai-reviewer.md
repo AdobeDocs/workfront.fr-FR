@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 6%
@@ -55,12 +55,12 @@ Si vous téléchargez un type de fichier non pris en charge, l’option Réviseu
 
 ## Configurer des directives de marque
 
-Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio Foundations lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio Foundation lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Créer des réviseurs d’IA
 
-Une fois qu’il existe au moins une marque configurée dans GenStudio Foundations, les administrateurs Workfront peuvent commencer à créer des réviseurs d’IA dans la zone Configuration . Ces réviseurs d’IA peuvent ensuite être affectés à des modèles d’approbation et à des demandes de révision et d’approbation individuelles. Actuellement, les réviseurs d’IA peuvent uniquement effectuer des révisions par rapport aux directives de marque des images.
+Une fois qu’il existe au moins une marque configurée dans GenStudio Foundation, les administrateurs Workfront peuvent commencer à créer des réviseurs d’IA dans la zone Configuration . Ces réviseurs d’IA peuvent ensuite être affectés à des modèles d’approbation et à des demandes de révision et d’approbation individuelles. Actuellement, les réviseurs d’IA peuvent uniquement effectuer des révisions par rapport aux directives de marque des images.
 
 Pour plus d’informations, voir [Création de réviseurs d’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
