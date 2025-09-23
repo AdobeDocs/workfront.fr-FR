@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: bea983292d33a50bbe27bd116a74aba33e4c69dd
 workflow-type: tm+mt
-source-wordcount: '2057'
-ht-degree: 80%
+source-wordcount: '2082'
+ht-degree: 79%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 80%
 <!-- Audited: 5/2025 -->
 
 Les plans directeurs [!DNL Adobe Workfront] suivants peuvent être installés par les administrateurs et administratrices système. Pour plus d’informations sur les plans directeurs, voir [Vue d’ensemble des plans directeurs](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
+
+**Rapports d’analyse des utilisateurs actifs (NOUVEAU)** ce plan directeur contient un tableau de bord pour aider les administrateurs à valider la configuration des utilisateurs, à identifier les désalignements et à s’assurer que les configurations prennent en charge l’utilisation prévue des applications&#x200B;
 
 **[!UICONTROL Ajouter une nouvelle liste de contrôle informatique du personnel]**
 Ce plan directeur contient un modèle que l’organisation des services professionnels [!DNL Workfront] a utilisé pendant des années durant les engagements de mise en œuvre avec les équipes informatiques de l’entreprise pour organiser de nouvelles activités d’intégration des employés. L’utilisation de ce modèle permet aux équipes informatiques de travailler efficacement, ce qui se traduit par une expérience positive pour les nouvelles personnes employées et un accès plus rapide à la productivité.
