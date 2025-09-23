@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2125'
 ht-degree: 16%
 
 ---
@@ -351,6 +351,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience est désormais disponible pour plus d’organisations Workfront</a>.<p></p>
+            <p>Pour permettre aux entreprises d’accéder aux avantages de l’expérience unifiée Adobe, nous continuons à la rendre disponible pour les clients Workfront existants.</p><p><span style="color: #ff0000;">L’expérience unifiée d’Adobe est mise à disposition dans le cadre d’un déploiement échelonné.</span> </p>
+        </td>
+        <td><p>vendredi 11 septembre 2025</p><p>Ou</p><p>vendredi 11 décembre 2025</p></td>
+        <td><p>vendredi 16 octobre 2025</p><p>Ou</p><p>vendredi 15 janvier 2026</p></td>
+        <td><p>vendredi 16 octobre 2025</p><p>Ou</p><p>vendredi 15 janvier 2026</p></td>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Mises à jour des listes améliorées</a><p></p>
             <p>Grâce à notre disposition de listes avancées, vous pouvez utiliser des filtres et des regroupements pour afficher votre travail et le garder mieux organisé. Un indicateur à points bleus s’affiche désormais au-dessus d’un widget pour vous informer lorsqu’un filtre ou un regroupement a été appliqué à une liste dans les zones suivantes :</p>
             <ul>
@@ -451,7 +459,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
