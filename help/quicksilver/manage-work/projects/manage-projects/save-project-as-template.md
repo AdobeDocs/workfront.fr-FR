@@ -2,14 +2,14 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Enregistrer un projet en tant que modèle
-description: Enregistrer un projet en tant que modèle Enregistrer en tant que modèle au niveau du projet, afin que les utilisateurs et utilisatrices puissent le voir dans l’IU. Il existe un autre article que vous pouvez consulter pour plus de détails (étape par étape). Cette fonctionnalité doit rester dans les zones de projets ET de modèles.
+description: Enregistrez un projet en tant que modèle au niveau du projet, pour que les utilisateurs le voient dans l’interface utilisateur. Un autre article fournit des liens plus détaillés (pas à pas). Cette fonctionnalité doit rester dans les zones de projets ET de modèles.)
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 62%
+source-wordcount: '487'
+ht-degree: 53%
 
 ---
 
@@ -35,7 +35,7 @@ Si vous décidez qu’un projet va être reproduit à l’avenir, vous pouvez cr
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 

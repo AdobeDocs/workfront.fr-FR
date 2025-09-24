@@ -2,15 +2,15 @@
 content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
-title: Afficher les heures disponibles, planifiées et réelles ou l’éditeur de texte enrichi dans le planificateur de ressources lors de l’utilisation de la vue utilisateur
-description: Affichez les heures disponibles, prévues et effectives ou le temps complet dans le planificateur de ressources lors de l’utilisation de la vue utilisateur du planificateur de ressources, par exemple « Planification dans le planificateur de ressources », « Établissement du budget des ressources dans le planificateur de ressources » ou « Gérer les ressources dans le planificateur de ressources », etc. Peut nécessiter une définition à partir d’un autre point de vue.
+title: Afficher les heures disponibles, prévues et effectives ou l'équivalent temps complet dans le planificateur de ressources lors de l'utilisation de la vue Utilisateur
+description: Afficher les heures disponibles, prévues et effectives ou l'équivalent temps complet dans le planificateur de ressources lors de l'utilisation de la vue utilisateurPlanification dans le PR - peut-être « budgétisation des ressources dans le PR » ou « Gestion des ressources dans le PR ». etc... - ou doit être réutilisé à partir d’un autre PDV?!)
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '1739'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
