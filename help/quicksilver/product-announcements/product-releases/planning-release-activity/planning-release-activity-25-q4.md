@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: a7dc4a24163f6c161362744d2ecb302fb2506dc2
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '2016'
 ht-degree: 8%
 
 ---
@@ -36,6 +36,59 @@ Previously, request forms were located only on the object for which they were cr
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
 
+## Refonte des barres d&#39;outils et des points d&#39;accès des vues Planning
+
+>[!NOTE]
+>
+>* Aperçu : 25 septembre 2025
+>* Version rapide de production : 15 octobre 2025
+>* Production complète : 16 octobre 2025
+
+Nous avons repensé l&#39;affichage, l&#39;accès et la gestion des vues sur une page de type enregistrement.
+
+Les améliorations suivantes ont été apportées à cette mise à jour :
+
+* Les onglets Vue ont été remplacés par un menu déroulant dans le coin supérieur gauche de la page Type d’enregistrement. Le menu affiche désormais une liste de toutes les vues.
+* Vous pouvez réorganiser les vues en les faisant glisser et en les déposant dans l’ordre de vos préférences.
+* La plupart des icônes de la barre d’outils, à l’exception du mode Plein écran, se sont déplacées du côté droit vers le côté gauche de la page.
+* La zone de recherche a été déplacée vers la droite de la barre d’outils.
+La fonctionnalité de chaque vue n’a pas changé.
+
+Pour plus d’informations, consultez la section [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+
+<!--## Enhancements to request forms in Workfront Planning
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+To make the request process simpler, we've made some enhancements to request forms. Now, when configuring a request form, you can configure the following:
+
+* Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
+* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Redimensionner les enregistrements dans la vue Calendrier hebdomadaire
+
+>[!NOTE]
+>
+>* Aperçu : 25 septembre 2025
+>* Version rapide de production : 15 octobre 2025
+>* Production complète : 16 octobre 2025
+
+Dans la vue Calendrier hebdomadaire d&#39;une page de type enregistrement, vous pouvez maintenant cliquer sur les marges gauche ou droite d&#39;un enregistrement et les maintenir enfoncées afin de modifier sa durée.
+
+Le déplacement des marges d&#39;un enregistrement modifie également immédiatement ses dates de début et de fin.
+
+Un plan s’affiche pour vous guider vers le nouvel emplacement avant que l’événement ne soit redimensionné.
+
+Cette fonctionnalité existe déjà dans la vue mensuelle du calendrier.
+
+Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+
 ## Nouvelle zone d&#39;informations affichée lors de la modification ou suppression d&#39;un champ
 
 >[!NOTE]
@@ -57,8 +110,8 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >[!NOTE]
 >
 >Aperçu : 11 septembre 2025
->&#x200B;>Production pour tous les clients : 11 septembre 2025
->&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
+>>Production pour tous les clients : 11 septembre 2025
+>>[!BADGE Hors programme ]{type=Neutral}
 
 Si votre entreprise utilise à la fois Adobe Workfront Planning et Adobe GenStudio for Performance Marketing, vous pouvez définir des concepts marketing tels que des campagnes, des produits et des rôles de manière plus détaillée que les concepts pris en charge par défaut par GenStudio.
 
@@ -223,8 +276,8 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >[!NOTE]
 >
 >Aperçu : 7 août 2025
->&#x200B;>Production pour tous les clients : août 2025
->&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
+>>Production pour tous les clients : août 2025
+>>[!BADGE Hors programme ]{type=Neutral}
 
 Nous avons ajouté de nouvelles expressions avec l’utilisation suivante aux champs de formule dans Workfront Planning et aux champs calculés personnalisés dans Workfront :
 
@@ -239,8 +292,8 @@ Pour plus d’informations, voir [Vue d’ensemble des expressions de données c
 >[!NOTE]
 >
 >Aperçu : 31 juillet 2025
->&#x200B;>Production pour tous les clients : 31 juillet 2025
->&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
+>>Production pour tous les clients : 31 juillet 2025
+>>[!BADGE Hors programme ]{type=Neutral}
 
 Nous avons ajouté un bouton Maximiser pour agrandir le champ de formule lors de la création ou de la modification du champ dans une vue de tableau d&#39;enregistrements. De plus, nous avons ajouté un bouton Réduire dans la nouvelle fenêtre agrandie pour revenir à la zone de création de champ.
 
@@ -289,8 +342,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais créer des enregistrements dans la vue chronologique d’un type d’enregistrement en double-cliquant n’importe où sur la chronologie.
 
@@ -305,8 +358,8 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais partager un type d’enregistrement à partir du menu Plus de la carte de type d’enregistrement de la page de l’espace de travail. Avant cette amélioration, l’option Partager n’était disponible que dans la page du type d’enregistrement.
 
@@ -317,8 +370,8 @@ Pour plus d’informations, voir [Partager les types d’enregistrements](/help/
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais afficher toutes les vues Planification de Workfront (tableau, chronologie et calendrier) en mode plein écran. La fonctionnalité d’affichage est conservée et vous pouvez également modifier l’affichage en plein écran.
 
@@ -331,8 +384,8 @@ Pour plus d’informations, consultez la section [Gérer les vues d’enregistre
 >[!NOTE]
 >
 >Aperçu : 22 juillet 2025
->&#x200B;>Production pour la version rapide : vendredi 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Production pour la version rapide : vendredi 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Pour rendre le processus d&#39;approbation plus flexible, nous avons ajouté la possibilité d&#39;ajouter des équipes en tant qu&#39;approbateurs sur les formulaires de demande Planning. Vous pouvez désormais saisir et sélectionner des noms d’équipe lors de la définition des approbateurs. N’importe quel membre de l’équipe peut prendre une décision, qui compte comme la décision d’approbation de l’ensemble de l’équipe.
 
@@ -345,8 +398,8 @@ Pour plus d’informations, voir [Ajouter une approbation à un formulaire de de
 >[!NOTE]
 >
 >Aperçu : 17 juillet 2025
->&#x200B;>Production pour la version rapide : vendredi 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Production pour la version rapide : vendredi 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Les champs suivants sont introduits afin de capturer les informations d&#39;approbation des enregistrements créés lors de l&#39;envoi d&#39;une demande avec approbation :
 
@@ -360,8 +413,8 @@ Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/plan
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 
 Désormais, lorsque des regroupements sont appliqués à une vue Tableau, l’ajout d’un enregistrement au tableau renseigne automatiquement les champs associés aux regroupements auxquels vous ajoutez l’enregistrement.

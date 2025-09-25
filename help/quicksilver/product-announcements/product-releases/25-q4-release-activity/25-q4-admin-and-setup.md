@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 15%
+source-wordcount: '591'
+ht-degree: 13%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 15%
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du quatrième trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2025, voir [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Confirmation lors de la suppression d’un formulaire personnalisé d’un objet
+
+>[!NOTE]
+>
+>* Aperçu : 25 septembre 2025
+>* Version rapide de production : 15 octobre 2025
+>* Version de production pour toute la clientèle : vendredi 16 octobre 2025
+
+Pour vous assurer de conserver l’accès aux données dont vous avez besoin, nous avons ajouté une boîte de dialogue de confirmation lors de la suppression d’un formulaire personnalisé d’un objet . La suppression d’un formulaire personnalisé d’un objet supprime définitivement les données de ce formulaire de l’objet . Désormais, la boîte de dialogue vous permet de confirmer que vous comprenez que ces données seront supprimées, en veillant à ne pas supprimer les données dont vous avez besoin.
+
+Auparavant, le seul avertissement de suppression de données était le texte à proximité de l’option de suppression.
+
+Pour plus d’informations sur la suppression d’un formulaire personnalisé, voir [Supprimer un formulaire personnalisé d’un objet](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object) dans l’article Gestion des formulaires personnalisés joints à des objets.
 
 ## Mises à jour du profil utilisateur de Workfront
 

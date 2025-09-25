@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
+source-git-commit: 3a976c2d2254ba92c0bd28d7037ea2ced09098d8
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2204'
 ht-degree: 16%
 
 ---
@@ -60,10 +60,19 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmation lors de la suppression d’un formulaire personnalisé d’un objet</a><p></p>
+            <p>Pour vous assurer de conserver l’accès aux données dont vous avez besoin, nous avons ajouté une boîte de dialogue de confirmation lors de la suppression d’un formulaire personnalisé d’un objet . La suppression d’un formulaire personnalisé d’un objet supprime définitivement les données de ce formulaire de l’objet . Désormais, la boîte de dialogue vous permet de confirmer que vous comprenez que ces données seront supprimées, en veillant à ne pas supprimer les données dont vous avez besoin. </p>
+        </td>
+        <td>vendredi 25 septembre 2025</td>
+        <td>jeudi 15 octobre 2025</td>
+        <td>vendredi 16 octobre 2025</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nouvelle vue d’administration des forums</a><p></p>
             <p>La vue Administrateur des forums contient une liste de chaque forum de votre compte que les administrateurs système peuvent utiliser pour obtenir un instantané rapide des détails globaux des forums, y compris la date de leur dernière mise à jour, le nombre de cartes dont chacun dispose, etc.</p>
         </td>
-        <td>vendredi 11 septembre 2025</td>
+        <td>11 septembre 2025</td>
         <td>jeudi 15 octobre 2025</td>
         <td>vendredi 16 octobre 2025</td>
     </tr> 
@@ -73,7 +82,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Pour que vous puissiez plus facilement voir et influencer les fonctionnalités d’IA à venir, nous vous avons permis d’activer la version bêta de ces fonctionnalités pour votre organisation. Vous pouvez désormais choisir d’activer une ou plusieurs des fonctionnalités d’AI Beta actuellement disponibles dans vos préférences système.</p>
         </td>
         <td>vendredi 28 août 2025</td>
-        <td>vendredi 11 septembre 2025</td>
+        <td>11 septembre 2025</td>
         <td>vendredi 16 octobre 2025</td>
     </tr>     
      <tr>
@@ -201,7 +210,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Le nouveau widget Mes requêtes affiche uniquement les requêtes qui ont été créées dans la nouvelle expérience de requête.</p>
         </td>
         <td>vendredi 21 août 2025</td>
-        <td>vendredi 11 septembre 2025</td>
+        <td>11 septembre 2025</td>
         <td>vendredi 16 octobre 2025</td>
     </tr>     
   </tbody>
@@ -233,9 +242,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>La nouvelle fonctionnalité d’intégrité du projet utilise la puissance de l’assistant d’IA pour vous donner instantanément une évaluation des performances de vos projets et des domaines qui nécessitent votre attention.</p>
             <p>L’assistant AI peut générer une évaluation de l’intégrité d’un projet, d’un programme et de plusieurs projets.</p>
         </td>
-        <td>vendredi 11 septembre 2025</td>
-        <td>vendredi 11 septembre 2025</td>
-        <td>vendredi 11 septembre 2025</td>
+        <td>11 septembre 2025</td>
+        <td>11 septembre 2025</td>
+        <td>11 septembre 2025</td>
     </tr> 
   <tr>
         <td>
@@ -257,7 +266,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Un bouton <b>Avancé</b> est désormais disponible pour les affectations dans les listes, ce qui vous permet d'accéder plus rapidement à la page Affectations avancées. L'icône <b>Personnes</b> permettant d'accéder aux affectations avancées est également disponible dans les affectations des listes.</p>
         </td>
         <td>vendredi 7 août 2025</td>
-        <td>vendredi 11 septembre 2025</td>
+        <td>11 septembre 2025</td>
         <td>vendredi 16 octobre 2025</td>
     </tr> 
   </tbody>
@@ -314,7 +323,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Pour simplifier l’expérience de demande unifiée, la colonne Statut affiche désormais à la fois le statut de la demande et le statut d’approbation, selon ce qui s’applique à une demande donnée.</p>
         </td>
         <td>vendredi 28 août 2025</td>
-        <td>vendredi 11 septembre 2025</td>
+        <td>11 septembre 2025</td>
         <td>vendredi 16 octobre 2025</td>
     </tr>     
     <tr>
@@ -330,7 +339,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </p>
         </td>
         <td>vendredi 21 août 2025</td>
-        <td>vendredi 11 septembre 2025</td>
+        <td>11 septembre 2025</td>
         <td>vendredi 16 octobre 2025</td>
     </tr>     
   </tbody>
@@ -354,7 +363,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience est désormais disponible pour plus d’organisations Workfront</a>.<p></p>
             <p>Pour permettre aux entreprises d’accéder aux avantages de l’expérience unifiée Adobe, nous continuons à la rendre disponible pour les clients Workfront existants.</p><p><span style="color: #ff0000;">L’expérience unifiée d’Adobe est mise à disposition dans le cadre d’un déploiement échelonné.</span> </p>
         </td>
-        <td><p>vendredi 11 septembre 2025</p><p>Ou</p><p>vendredi 11 décembre 2025</p></td>
+        <td><p>11 septembre 2025</p><p>Ou</p><p>vendredi 11 décembre 2025</p></td>
         <td><p>vendredi 16 octobre 2025</p><p>Ou</p><p>vendredi 15 janvier 2026</p></td>
         <td><p>vendredi 16 octobre 2025</p><p>Ou</p><p>vendredi 15 janvier 2026</p></td>
     <tr>
@@ -367,7 +376,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </ul>
         </td>
         <td>vendredi 28 août 2025</td>
-        <td>vendredi 11 septembre 2025</td>
+        <td>11 septembre 2025</td>
         <td>vendredi 16 octobre 2025</td>
     </tr>     
                  <tr>
@@ -459,7 +468,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '7834'
+source-wordcount: '8092'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,40 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+<!--### Interface updates when adding or editing group timesheet profiles
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+
+To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+
+### Mises à jour de l’interface pour la zone Gravités dans la configuration
+
+**Version préliminaire : 25 septembre 2025 ; Version de production : 2 octobre 2025**
+
+Nous avons mis à jour la page Gravités avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Une modification visible dans l’interface est que pour définir une gravité par défaut ou pour supprimer une gravité, vous devez cocher la case en regard du nom de la gravité et choisir une option dans la barre d’actions située dans la partie inférieure de l’écran.
+
+Pour afficher ces modifications, accédez à Configuration > Préférences du projet > Gravités.
+
+Pour plus d&#39;informations, voir [Créer ou personnaliser la gravité des problèmes](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+
+### Mises à jour de l’interface pour la zone Priorités dans la configuration
+
+**Version préliminaire : 25 septembre 2025 ; Version de production : 2 octobre 2025**
+
+Nous avons mis à jour la page Priorités avec une conception plus moderne et cohérente avec les autres zones de Workfront.
+
+Une modification visible dans l’interface est que pour définir une priorité sur la valeur par défaut ou pour supprimer une priorité, vous devez cocher la case en regard du nom de la priorité et choisir une option dans la barre d’actions située en bas de l’écran.
+
+Pour afficher ces modifications, accédez à Configuration > Préférences du projet > Priorités.
+
+Pour plus d’informations, voir [Création et personnalisation de priorités](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 ### Mises à jour de l’interface lors de l’ajout ou de la modification du profil de feuille de temps dans la zone Configuration
 
@@ -392,7 +426,27 @@ Pour plus d’informations, voir
 * [Créer des groupes de sujets](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Créer des règles de transmission](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+
+
 ## Utilisateurs
+
+<!--### Interface updates for the User Details page
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the User Details page to match other areas of the application.
+
+You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+
+### Mises à jour de l’interface pour les congés personnels
+
+**Version préliminaire : 25 septembre 2025 ; Version de production : 2 octobre 2025**
+
+Nous avons mis à jour l’aspect du calendrier des congés personnels, y compris la possibilité de déléguer les approbations, pour qu’il corresponde aux autres zones de la demande.
+
+Pour afficher ces modifications, accédez à votre profil utilisateur et cliquez sur **Congés** dans le panneau de gauche.
+
+Pour plus d’informations, voir [Configurer des congés personnels](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) et [Déléguer la demande d’approbation](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Mises à jour de l’interface pour la boîte de dialogue Nouvel utilisateur
 
