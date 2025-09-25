@@ -7,10 +7,10 @@ description: Il existe plusieurs façons d’utiliser les priorités des projets
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 97%
+source-wordcount: '668'
+ht-degree: 96%
 
 ---
 
@@ -132,7 +132,7 @@ Tenez compte des points suivants lorsque vous sélectionnez une priorité pour v
    * Élevé
    * Urgent
 
-   ![](assets/project-priority-picker-list-on-project-details-nwe-350x192.png)
+   ![Liste des priorités d&#39;un projet](assets/project-priority-picker-list.png)
 
 1. Cliquez sur **Enregistrer les modifications**.
 

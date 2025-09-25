@@ -6,10 +6,10 @@ description: Vous pouvez définir une priorité pour un problème afin d’indiq
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 99%
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 Vous pouvez définir une priorité pour un problème afin d’indiquer son importance.
 
-Vous devez avoir les autorisations de gestion du problème pour modifier sa priorité.[Mettez à jour la priorité d’un problème](#update-the-priority-of-an-issue).
+Vous devez disposer des autorisations de niveau Gérer pour le problème afin de modifier sa Priorité. [Mettre à jour la priorité d&#39;un événement](#update-the-priority-of-an-issue).
 
 ## Conditions d’accès
 
@@ -103,7 +103,7 @@ Reportez-vous au tableau suivant pour comprendre chaque libellé de priorité pa
 
 1. Cliquez sur le champ **Priorité** dans la zone **Informations de base**.
 
-   ![Priorité des événements](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![Priorité des événements](assets/issue-priority-field.png)
 
 1. Sélectionnez une valeur pour le champ **Priorité**.
 
