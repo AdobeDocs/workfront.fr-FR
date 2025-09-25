@@ -1,5 +1,5 @@
 ---
-title: Création ou personnalisation des gravité de problème
+title: Créer ou personnaliser des gravités de problèmes
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 99%
+source-wordcount: '665'
+ht-degree: 66%
 
 ---
 
 # Créer ou personnaliser la gravité des problèmes
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -72,7 +74,7 @@ Workfront comporte cinq gravités de problème intégrées :
 * Bogue sans solution
 * Erreur fatale
 
-<p>Vous pouvez modifier les éléments suivants pour ces gravités :</p>
+Vous pouvez modifier les éléments suivants pour ces gravités :
 
 * Nom
 * Couleur
@@ -82,10 +84,11 @@ Workfront comporte cinq gravités de problème intégrées :
 * Gravité par défaut
 
   Pour plus d’informations sur les gravités par défaut, voir [Créer ou modifier une gravité de problème](#create-or-edit-an-issue-severity) dans cet article.
+
 * Description
 * Gravité masquée ou non dans Workfront
 
-  Pour plus d’informations sur le masquage d’une gravité, voir [Créer ou modifier une gravité de problème](#create-or-edit-an-issue-severity")
+  Pour plus d’informations sur le masquage d’une gravité, voir [Création ou modification d’une gravité de problème](#create-or-edit-an-issue-severity) dans cet article.
 
 * Supprimer une gravité
 
@@ -99,44 +102,45 @@ En tant qu’administrateur ou administratrice de Workfront, vous pouvez créer 
 
 1. Dans le panneau de gauche, cliquez sur **Préférences du projet** > **Gravités**.
 
-1. Si vous créez une gravité, cliquez sur **Ajouter une nouvelle gravité**.
+1. Si vous créez une nouvelle gravité, cliquez sur <span class="preview">**Nouvelle ligne** au bas du tableau</span> ou **Ajouter une nouvelle gravité**.
 1. Configurez les options suivantes pour la nouvelle gravité ou modifiez-les pour une gravité existante :
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Nom de la gravité</td> 
-      <td>Saisir le nom de la gravité</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Importance</td> 
-      <td>Augmentez ou diminuez le degré de sévérité, initialement attribué par Workfront, pour la gravité.
-      <p>Le numéro d’importance pour chaque gravité doit être unique. Le nombre le plus élevé correspond au niveau de gravité le plus sévère.</p> <p>Vous ne pouvez pas modifier ce nombre après avoir enregistré la gravité.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Couleur</td> 
-      <td> <p>Choisissez une couleur pour la gravité.</p> 
-      <p>La couleur de la gravité est utilisée dans les rapports graphiques lorsque vous regroupez vos résultats par gravité de problème. Pour plus d’informations sur les rapports sous forme de graphique, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Ajouter un graphique à un rapport</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Gravité par défaut</td> 
-      <td>Sélectionnez la gravité que vous souhaitez que Workfront sélectionne automatiquement pour tous les problèmes nouvellement créés.</p>
-      <p>Décoratif est la gravité par défaut des problèmes dans Workfront.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Description</td> 
-      <td>Saisissez une description de la gravité pour expliquer sa fonction.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Masquer</td> 
-      <td> Masquez une gravité qui n’est plus nécessaire. 
-      <p>Une gravité masquée ne s’affiche nulle part dans Workfront, de sorte que les utilisateurs et utilisatrices ne peuvent pas la choisir pour leurs problèmes.</p> 
-      <p><b>IMPORTANT</b> : au lieu de supprimer les gravités que vous ne souhaitez plus utiliser, nous vous suggérons de les masquer. De cette façon, vous conservez toutes vos données historiques sur les objets déjà terminés avec leurs gravités, tout en empêchant les personnes d’utiliser ces gravités à l’avenir.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Nom de la gravité** : saisissez un nom pour la gravité.
+   * **Importance** : augmente ou réduit le niveau de gravité attribué initialement par Workfront à la gravité.
+
+     Le numéro d’importance pour chaque gravité doit être unique. Le nombre le plus élevé correspond au niveau de gravité le plus sévère.
+
+     Vous ne pouvez pas modifier ce nombre après avoir enregistré la gravité.
+
+   * **Couleur** : choisissez une couleur pour la gravité.
+
+     La couleur de la gravité est utilisée dans les rapports graphiques lorsque vous regroupez vos résultats par gravité de problème. Pour plus d’informations sur les rapports sous forme de graphiques, voir [Ajouter un graphique à un rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+
+   * **Gravité par défaut** : sélectionnez la gravité que Workfront doit appliquer automatiquement à tous les problèmes nouvellement créés.
+
+     **Cosmétique** est la gravité par défaut des problèmes dans Workfront.
+
+     Vous ne pouvez pas définir une gravité masquée comme gravité par défaut.
+
+     <div class="preview">
+
+     La gravité par défaut est indiquée par une icône ![Icône de gravité par défaut](assets/default-icon.png). Pour choisir une nouvelle valeur par défaut, effectuez l’une des opérations suivantes :
+
+      * Cochez la case en regard du nom de la gravité et sélectionnez **Rendre par défaut** dans la barre d’actions située en bas de l’écran.
+      * Passez la souris sur le nom de la gravité et cliquez sur le menu **Plus** qui s’affiche. Sélectionnez ensuite **Rendre par défaut**.
+
+        La nouvelle gravité par défaut est étiquetée avec l’icône .
+
+     </div>
+
+   * **Description** : saisissez une description de la gravité pour expliquer sa fonction.
+   * <span class="preview">**Masquer le choix**</span> ou **Masquer** : <span class="preview">Choisissez **Oui**</span> ou cochez la case pour masquer une gravité qui n’est plus nécessaire.
+
+     Une gravité masquée ne s’affiche nulle part dans Workfront, de sorte que les utilisateurs et utilisatrices ne peuvent pas la choisir pour leurs problèmes.
+
+     >[!IMPORTANT]
+     >
+     >Au lieu de supprimer les gravités que vous ne souhaitez plus utiliser, nous vous suggérons de les masquer. De cette façon, vous conservez toutes vos données historiques sur les objets déjà terminés avec leurs gravités, tout en empêchant les personnes d’utiliser ces gravités à l’avenir.
 
 1. (Facultatif) Modifiez l’ordre de classement de vos gravités en les faisant glisser et en les déposant dans l’ordre souhaité.
 

@@ -6,7 +6,7 @@ description: Vous pouvez attribuer une gravité aux problèmes dans Adobe Workf
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 99%
@@ -70,7 +70,7 @@ Pour indiquer la gravité d’un problème dans la zone Détails du problème d�
 
 1. Cliquez sur le champ **Gravité** dans la zone **Informations de base**.
 
-   ![Gravité du problème](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
+   ![Gravité du problème](assets/issue-severity-field.png)
 
 1. Sélectionnez la **Gravité** appropriée dans le menu déroulant.
 
