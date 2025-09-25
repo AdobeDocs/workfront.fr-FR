@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 44%
+source-wordcount: '1260'
+ht-degree: 42%
 
 ---
 
@@ -185,15 +185,14 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
    La page de type d’enregistrement s’ouvre.
 
-   Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.
+   Par défaut, tous les enregistrements du type sélectionné s’affichent dans la vue tableau.
 
-1. Cliquez sur **+ Affichage** pour ajouter une nouvelle vue.
+1. Selon l’environnement utilisé, procédez comme suit :
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+   * Dans l’environnement de production, cliquez sur l’onglet **+Affichage**.
+   * <span class="preview">Dans l’environnement de Prévisualisation, cliquez sur l’icône déroulante ![Icône déroulante](assets/drop-down-icon.png) en regard du nom de la vue actuelle, puis cliquez sur **+Nouvelle vue**.</span>
+
+1. <span class="preview">Dans le menu déroulant des vues, faites glisser et déposez les vues par ordre de préférence.</span>
 1. Choisissez parmi les types de vues suivants :
 
    * Tableau
