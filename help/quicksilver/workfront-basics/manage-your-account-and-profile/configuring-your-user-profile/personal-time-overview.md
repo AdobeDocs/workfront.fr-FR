@@ -4,17 +4,19 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Configurer les congés
 description: Dans Adobe Workfront, il est important d’indiquer les congés approuvés, car ils ont une incidence sur votre planning et sur les dates d’achèvement prévues des tâches qui vous ont été affectées.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 92%
 
 ---
 
 # Configurer les congés
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -70,14 +72,17 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 >[!NOTE]
 >
->Si vous utilisez l’expérience unifiée d’Adobe, vous pouvez accéder à votre profil Workfront en cliquant sur le menu Compte d’Adobe (l’image de votre profil) dans la zone de navigation supérieure, puis en choisissant Profil Workfront.
+>Si vous utilisez l’expérience unifiée Adobe, vous pouvez accéder à votre profil Workfront en cliquant sur le menu Compte Adobe (l’image de votre profil) dans la zone de navigation supérieure, puis en choisissant Profil Workfront.
 >
 >![profil workfront ](assets/aue-profile.png)
-
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Congés]**.
 1. Sélectionnez la date souhaitée pour vos congés.
 
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   ![Calendrier des congés](assets/personal-time-off-calendar-0925.png)
+
+   Exemple d’image dans l’environnement de production :
    ![Calendrier des congés](assets/personal-time-off-calendar.png)
 
 1. Sélectionnez **[!UICONTROL Toute la journée]**, si vous prenez une journée entière de congés.

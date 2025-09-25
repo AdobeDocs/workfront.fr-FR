@@ -6,10 +6,10 @@ description: La délégation des demandes d’approbation vous permet de confier
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 79%
+ht-degree: 75%
 
 ---
 
@@ -117,10 +117,10 @@ Pour déléguer des approbations à une autre personne, procédez comme suit :
 1. Spécifiez les informations suivantes dans la section Déléguer mes approbations :
 
    * **Nom** : commencez à saisir le nom de la personne à laquelle vous souhaitez déléguer des approbations, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
-   * **Date de début** : sélectionnez la date à laquelle les approbations doivent commencer à être transférées. Le transfert des approbations commence à 00 h 00 à la date que vous avez choisie.\
+   * **Date de début** : sélectionnez la date à laquelle les approbations doivent commencer à être transférées. Le transfert commence à 12 :00 le matin à la date que vous avez choisie.\
      La date de début doit être la date actuelle ou une date dans le futur.
    * **Date de fin** : effectuez l’une des opérations suivantes :
-      * Sélectionnez la date à laquelle les approbations cesseront d’être transférées. Le transfert prend fin à 23 h 59 à la date que vous avez choisie.
+      * Sélectionnez la date à laquelle les approbations cesseront d’être transférées. Le transfert se termine à 23 :59 à la date que vous avez choisie.
       * Sélectionnez **Aucune date de fin** pour que Workfront délègue les approbations pour une durée indéfinie.
 
 1. Cliquer sur **Enregistrer**.
@@ -133,13 +133,14 @@ Pour déléguer des approbations à une autre personne, procédez comme suit :
    >[!NOTE]
    >
    >Les administrateurs Workfront peuvent désactiver les délégations d’approbation dans la zone de configuration. Si les délégations d&#39;approbation sont désactivées, le bouton Déléguer les approbations ne s&#39;affiche pas.
+
 1. Spécifiez les informations suivantes dans la section Déléguer mes approbations :
 
    * **Nom** : commencez à saisir le nom de la personne à laquelle vous souhaitez déléguer des approbations, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
-   * **Date de début** : sélectionnez la date à laquelle les approbations doivent commencer à être transférées. Le transfert des approbations commence à 00 h 00 à la date que vous avez choisie.\
+   * **Date de début** : sélectionnez la date à laquelle les approbations doivent commencer à être transférées. Le transfert commence à 12 :00 le matin à la date que vous avez choisie.\
      La date de début doit être la date actuelle ou une date dans le futur.
    * **Date de fin** : effectuez l’une des opérations suivantes :
-      * Sélectionnez la date à laquelle les approbations cesseront d’être transférées. Le transfert prend fin à 23 h 59 à la date que vous avez choisie.
+      * Sélectionnez la date à laquelle les approbations cesseront d’être transférées. Le transfert se termine à 23 :59 à la date que vous avez choisie.
       * Sélectionnez **Aucune date de fin** pour que Workfront délègue les approbations pour une durée indéfinie.
 
 ## Mettre à jour ou arrêter une délégation d’approbation {#update-or-stop-an-approval-delegation}
