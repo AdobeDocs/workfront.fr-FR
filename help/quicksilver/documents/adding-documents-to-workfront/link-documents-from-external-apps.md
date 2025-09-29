@@ -6,10 +6,10 @@ description: Vous pouvez lier des documents et des dossiers à Adobe Workfront 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
 workflow-type: tm+mt
-source-wordcount: '2620'
-ht-degree: 96%
+source-wordcount: '2568'
+ht-degree: 94%
 
 ---
 
@@ -39,19 +39,16 @@ Vous pouvez lier des documents et des dossiers à Adobe Workfront à partir des
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Vous pouvez rendre les épreuves créées à l’origine dans Workfront Proof disponibles dans Workfront. Pour les licences actuelles, une formule Pro Workfront ou supérieure est nécessaire pour utiliser cette fonctionnalité. Pour les nouvelles licences, toutes les formules incluent cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Formules Workfront</a>.</td> 
+   <td>Vous pouvez rendre les épreuves créées à l’origine dans Workfront Proof disponibles dans Workfront.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>Vous pouvez lier des documents à Workfront depuis Experience Manager Assets Essentials. Pour plus d’informations, voir <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref">Adobe Workfront pour Experience Manager Assets Essentials</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM </td> 
-   <td>Nécessite un achat supplémentaire. </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader">Autres fournisseurs de documents (par le biais d’intégrations de documents personnalisées)</td> 
-   <td> <p class="workfront_plans">Pour les licences actuelles, une formule Pro Workfront ou supérieure est nécessaire pour utiliser cette fonctionnalité. Pour les nouvelles licences, toutes les formules incluent cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Formules Workfront</a>.</p> </td>
+   <td> <p class="workfront_plans">Ces intégrations peuvent être configurées dans la zone Configuration .</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,6 +96,13 @@ Les exceptions suivantes s’appliquent :
 
 * Lorsqu’elles sont fournies par le service documentaire, les miniatures et les images de prévisualisation peuvent être stockées sur les serveurs de Workfront.
 * Lorsque vous utilisez la relecture dans Workfront, le document est copié et ajouté aux serveurs de relecture.
+
+## Limites de taille de fichier
+
+Fournisseurs de cloud tiers :
+
+* Fichier unique : 5 Go ou moins
+* Plusieurs fichiers : 1 Go ou moins (total de tous les fichiers)
 
 ## Lier un document provenant d’une application externe à Workfront
 
@@ -223,7 +227,7 @@ Vous ne pouvez lier que les épreuves pour lesquelles vous avez un accès en aff
 
 ### Créer un document Google à partir de Workfront {#create-a-google-document-from-within-workfront}
 
-Vous pouvez créer un document Google dans Workfront. Cette fonctionnalité n’est pas disponible pour d’autres fournisseurs cloud.
+Vous pouvez créer un document Google dans Workfront. Cette fonctionnalité n’est pas disponible pour d’autres fournisseurs de services cloud.
 
 1. Allez dans la zone **Documents** de Workfront où vous souhaitez créer le document.
 1. Cliquez sur **Ajouter** > **Fichier Google**, puis sélectionnez le type de document Google que vous souhaitez créer.
@@ -235,9 +239,9 @@ Vous pouvez créer un document Google dans Workfront. Cette fonctionnalité n’
    >
    > Mon Drive et Partagés avec moi affichent deux résultats différents. Si vous ne parvenez pas à localiser un fichier dans Mon Drive, vérifiez dans le dossier Partagés avec moi.
 
-## Charger et lier un document de Workfront à un fournisseur cloud externe
+## Charger et lier un document depuis Workfront à un fournisseur de services cloud externe
 
-Vous pouvez charger et lier un document Workfront à un fournisseur cloud externe. Le stockage du document est alors transféré de Workfront au fournisseur cloud externe. Lorsque le document est modifié dans l&#39;application externe, il est automatiquement mis à jour dans Workfront.
+Vous pouvez charger et lier un document depuis Workfront à un fournisseur de services cloud externe. Le stockage du document est alors transféré de Workfront au fournisseur de services cloud externe. Lorsque le document est modifié dans l&#39;application externe, il est automatiquement mis à jour dans Workfront.
 
 >[!NOTE]
 >
@@ -246,7 +250,7 @@ Vous pouvez charger et lier un document Workfront à un fournisseur cloud extern
 Les personnes qui n’ont pas accès à Workfront peuvent voir le document dans l’application externe s’ils ont accès à l’application.
 
 1. Sélectionnez un document chargé dans Workfront.
-1. Cliquez sur **Plus** >**Envoyer à**, puis sélectionnez le fournisseur cloud dans lequel vous souhaitez stocker le document lié.
+1. Cliquez sur **Plus** > **Envoyer à**, puis sélectionnez le fournisseur de services cloud dans lequel vous souhaitez stocker le document lié.
 
    Pour ce faire, vous pouvez également utiliser le menu Plus ![menu Plus](assets/more-icon.png) sur la page Détails du document.
 
@@ -256,13 +260,13 @@ Les personnes qui n’ont pas accès à Workfront peuvent voir le document dans 
 
 1. Cliquer sur **Enregistrer**.
 
-   Le logo du fournisseur externe apparaît à côté du nom du document pour indiquer que le document est maintenant lié à Workfront et stocké par le fournisseur cloud externe.
+   Le logo du fournisseur externe apparaît à côté du nom du document pour indiquer que le document est maintenant lié à Workfront et stocké par le fournisseur de services cloud externe.
 
    ![doc_with_google_drive_link_highlight__1_.png](assets/doc-with-google-drive-link-highlight--1--350x66.png)
 
 ## Lier des dossiers
 
-Lorsque vous liez un dossier entre Workfront et un fournisseur cloud externe, le dossier et tout son contenu sont liés. Si des personnes n’ayant pas accès à Workfront ajoutent, suppriment et modifient des fichiers à partir de l’application de documents externe, leurs modifications sont synchronisées avec Workfront.
+Lorsque vous liez un dossier entre Workfront et un fournisseur de services cloud externe, le dossier et tout son contenu sont liés. Si des personnes n’ayant pas accès à Workfront ajoutent, suppriment et modifient des fichiers à partir de l’application de documents externe, leurs modifications sont synchronisées avec Workfront.
 
 ### Droits d’accès au dossier {#folder-access-rights}
 
