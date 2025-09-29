@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 2fd35bef86be0728b346cb116f8f37662f84bc77
+source-git-commit: 4146dd1d11b54155ad5510625c761d66dd649245
 workflow-type: tm+mt
-source-wordcount: '2076'
-ht-degree: 8%
+source-wordcount: '2235'
+ht-degree: 7%
 
 ---
 
@@ -27,8 +27,8 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >[!NOTE]
 >
 >Aperçu : 25 septembre 2025
->&#x200B;>Version rapide de production : 15 octobre 2025
->&#x200B;>Production complète : 16 octobre 2025
+>>Version rapide de production : 15 octobre 2025
+>>Production complète : 16 octobre 2025
 
 Vous pouvez désormais modifier sur la ligne les objets connectés Workfront dans la page Enregistrements connectés . Vous pouvez également modifier l’ordre des objets connectés, copier et coller des lignes et d’autres fonctions d’une vue de tableau.
 
@@ -101,6 +101,30 @@ Cette fonctionnalité existe déjà dans la vue mensuelle du calendrier.
 
 Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
+## Nouveau paramètre pour empêcher la création d’une connexion bidirectionnelle à partir d’un type d’enregistrement
+
+>[!NOTE]
+>
+>* Aperçu : 18 septembre 2025
+>* Version rapide de production : 15 octobre 2025
+>* Production complète : 16 octobre 2025
+
+Pour éviter de créer trop de champs de connexion et d’avoir un impact potentiel sur les performances, nous avons introduit un nouveau paramètre pour permettre aux gestionnaires d’espace de travail de créer éventuellement des champs connectés correspondants sur un type d’enregistrement connecté. Lorsqu’elles sont activées, les connexions dépendent des deux enregistrements, ce qui augmente les chances d’atteindre la limite de 500 connexions. Pour éviter cela, nous vous recommandons de conserver ce paramètre, en particulier lors de la liaison à des types d’enregistrements taxonomiques.
+
+Les fonctionnalités suivantes font partie de cette amélioration :
+
+* Un nouveau paramètre pour « Créer le champ correspondant sur le type d’enregistrement lié » a été ajouté à l’onglet Nouvelle connexion.
+
+* La zone Type de connexion de l&#39;onglet Nouvelle connexion a été repensée.
+
+* Il existe une limite de 500 connexions pour chaque type d’enregistrement.
+
+* Le nouveau paramètre peut être modifié après la création et l’enregistrement d’une nouvelle connexion.
+
+
+
+Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 ## Nouvelle zone d&#39;informations affichée lors de la modification ou suppression d&#39;un champ
 
 >[!NOTE]
@@ -122,8 +146,8 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >[!NOTE]
 >
 >Aperçu : 11 septembre 2025
->&#x200B;>Production pour tous les clients : 11 septembre 2025
->&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
+>>Production pour tous les clients : 11 septembre 2025
+>>[!BADGE Hors programme ]{type=Neutral}
 
 Si votre entreprise utilise à la fois Adobe Workfront Planning et Adobe GenStudio for Performance Marketing, vous pouvez définir des concepts marketing tels que des campagnes, des produits et des rôles de manière plus détaillée que les concepts pris en charge par défaut par GenStudio.
 
@@ -288,8 +312,8 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >[!NOTE]
 >
 >Aperçu : 7 août 2025
->&#x200B;>Production pour tous les clients : août 2025
->&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
+>>Production pour tous les clients : août 2025
+>>[!BADGE Hors programme ]{type=Neutral}
 
 Nous avons ajouté de nouvelles expressions avec l’utilisation suivante aux champs de formule dans Workfront Planning et aux champs calculés personnalisés dans Workfront :
 
@@ -304,8 +328,8 @@ Pour plus d’informations, voir [Vue d’ensemble des expressions de données c
 >[!NOTE]
 >
 >Aperçu : 31 juillet 2025
->&#x200B;>Production pour tous les clients : 31 juillet 2025
->&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
+>>Production pour tous les clients : 31 juillet 2025
+>>[!BADGE Hors programme ]{type=Neutral}
 
 Nous avons ajouté un bouton Maximiser pour agrandir le champ de formule lors de la création ou de la modification du champ dans une vue de tableau d&#39;enregistrements. De plus, nous avons ajouté un bouton Réduire dans la nouvelle fenêtre agrandie pour revenir à la zone de création de champ.
 
@@ -354,8 +378,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais créer des enregistrements dans la vue chronologique d’un type d’enregistrement en double-cliquant n’importe où sur la chronologie.
 
@@ -370,8 +394,8 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais partager un type d’enregistrement à partir du menu Plus de la carte de type d’enregistrement de la page de l’espace de travail. Avant cette amélioration, l’option Partager n’était disponible que dans la page du type d’enregistrement.
 
@@ -382,8 +406,8 @@ Pour plus d’informations, voir [Partager les types d’enregistrements](/help/
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais afficher toutes les vues Planification de Workfront (tableau, chronologie et calendrier) en mode plein écran. La fonctionnalité d’affichage est conservée et vous pouvez également modifier l’affichage en plein écran.
 
@@ -396,8 +420,8 @@ Pour plus d’informations, consultez la section [Gérer les vues d’enregistre
 >[!NOTE]
 >
 >Aperçu : 22 juillet 2025
->&#x200B;>Production pour la version rapide : vendredi 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Production pour la version rapide : vendredi 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Pour rendre le processus d&#39;approbation plus flexible, nous avons ajouté la possibilité d&#39;ajouter des équipes en tant qu&#39;approbateurs sur les formulaires de demande Planning. Vous pouvez désormais saisir et sélectionner des noms d’équipe lors de la définition des approbateurs. N’importe quel membre de l’équipe peut prendre une décision, qui compte comme la décision d’approbation de l’ensemble de l’équipe.
 
@@ -410,8 +434,8 @@ Pour plus d’informations, voir [Ajouter une approbation à un formulaire de de
 >[!NOTE]
 >
 >Aperçu : 17 juillet 2025
->&#x200B;>Production pour la version rapide : vendredi 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Production pour la version rapide : vendredi 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Les champs suivants sont introduits afin de capturer les informations d&#39;approbation des enregistrements créés lors de l&#39;envoi d&#39;une demande avec approbation :
 
@@ -425,8 +449,8 @@ Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/plan
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 
 Désormais, lorsque des regroupements sont appliqués à une vue Tableau, l’ajout d’un enregistrement au tableau renseigne automatiquement les champs associés aux regroupements auxquels vous ajoutez l’enregistrement.
