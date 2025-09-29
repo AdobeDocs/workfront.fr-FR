@@ -5,9 +5,9 @@ author: Lisa
 hide: true
 hidefromtoc: true
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: e94cbfd9c503936539dbe011e787533222896202
+source-git-commit: 1342574cb5f410d92ad4bce369c9804d3129e656
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1167'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Vous pouvez utiliser un fichier modèle pour créer vos cartes tarifaires dans Excel et les importer dans Adobe Workfront, au lieu d’ajouter manuellement toutes les fonctions et tous les taux.
 
-Pour afficher les exemples de cartes tarifaires décrits dans cet article, téléchargez le [fichier d’exemple](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip).
+Pour afficher les exemples de cartes tarifaires décrits dans cet article, téléchargez le [fichier d’exemple](assets/rate-cards-sample.zip).
 
 ## Règles importantes pour l’utilisation du fichier de modèle
 
