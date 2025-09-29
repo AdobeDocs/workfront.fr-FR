@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
 workflow-type: tm+mt
-source-wordcount: '8092'
+source-wordcount: '8031'
 ht-degree: 2%
 
 ---
@@ -216,13 +216,13 @@ Nous avons mis à jour l’aspect de la zone Modifier les modèles lors de la mo
 
 Pour plus d’informations, voir [Modifier les modèles de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-### Mises à jour de l’interface pour une liste de projets ou un rapport lors de l’application de la vue Jalon
+<!--### Interface updates for a project list or report when applying the Milestone view
 
-**Version préliminaire : 11 septembre 2025 ; Version de production : 18 septembre 2025**
+**Preview release: September 11, 2025; Production release: September 18, 2025**
 
-Nous avons mis à jour l&#39;aspect d&#39;une liste de projets ou d&#39;un rapport lorsque vous leur appliquez la vue Jalon.
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-La liste ou le rapport de projet correspond désormais à la conception d’autres zones de Workfront. Pour plus d’informations, voir [Utilisation de la vue Jalon](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Modifications de l’interface pour Convertir une tâche en projet sans modèle
 
