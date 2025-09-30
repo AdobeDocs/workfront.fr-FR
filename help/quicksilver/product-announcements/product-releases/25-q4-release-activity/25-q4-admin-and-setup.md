@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 13%
+source-wordcount: '601'
+ht-degree: 12%
 
 ---
 
@@ -44,7 +44,7 @@ Nous avons mis à jour l’aspect du profil utilisateur de Workfront vers une co
 Il existe quelques petites différences de fonctionnalité par rapport au profil utilisateur actuel, notamment :
 
 * Certaines cases à cocher (telles que le marquage de l’utilisateur comme actif) ont été remplacées par des bascules ou des boutons.
-* L’option « Envoyer le travail que je me suis affecté dans mon onglet Travailler sur » sous Préférences a été supprimée, car elle fait référence à une fonctionnalité obsolète.
+* L’option « Envoyer le travail que je me suis affecté dans l’onglet Travailler sur » dans les Préférences a été renommée afin de « Définir automatiquement l’état de la tâche sur En cours lorsque les tâches sont auto-affectées » pour refléter son objectif.
 
 Pour plus d’informations, voir [Modifier le profil d’un utilisateur ou d’une utilisatrice](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 3a976c2d2254ba92c0bd28d7037ea2ced09098d8
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2214'
 ht-degree: 16%
 
 ---
@@ -92,7 +92,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Il existe quelques petites différences de fonctionnalité par rapport au profil utilisateur actuel, notamment :</p>
             <ul>
                 <li>Certaines cases à cocher (telles que le marquage de l’utilisateur comme actif) ont été remplacées par des bascules ou des boutons.</li>
-                <li>L’option « Envoyer le travail que je me suis affecté dans mon onglet Travailler sur » sous Préférences a été supprimée, car elle fait référence à une fonctionnalité obsolète.</li>
+                <li>L’option « Envoyer le travail que je me suis affecté dans l’onglet Travailler sur » dans les Préférences a été renommée afin de « Définir automatiquement l’état de la tâche sur En cours lorsque les tâches sont auto-affectées » pour refléter son objectif.</li>
             </ul>
         </td>
         <td>vendredi 28 août 2025</td>
@@ -468,7 +468,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
