@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 5%
+source-wordcount: '1878'
+ht-degree: 6%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 5%
 
 # Gérer les connexions d’enregistrement à partir d’objets Workfront
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -31,7 +31,7 @@ Vous pouvez afficher les enregistrements Workfront Planning dans Workfront dans 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto">
  <col>
@@ -52,8 +52,8 @@ Vous pouvez afficher les enregistrements Workfront Planning dans Workfront dans 
    <td>
 <p>L’un des plans Workfront suivants :</p>
 <ul><li>Sélectionner</li>
-<li>Principal</li>
-<li>Final</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p>
    </td>
 
@@ -127,6 +127,9 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
    * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 * Vous pouvez afficher la section Planning à partir d&#39;un objet Workfront, même si aucun enregistrement n&#39;est associé à l&#39;objet Workfront.
+* <span class="preview">Un type d&#39;enregistrement ne s&#39;affiche dans la zone Planning d&#39;un objet Workfront que lorsque vous activez le champ Créer correspondant dans le paramètre de type d&#39;enregistrement lié lors de la création de la connexion entre deux types d&#39;enregistrement.</span>
+
+  Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Gérer les connexions aux enregistrements à partir de la section Planification
 
@@ -214,6 +217,9 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
 
   Par exemple, vous pouvez joindre aux tâches un formulaire personnalisé avec un champ de connexion Planning, mais vous ne pouvez pas connecter les objets Workfront Planning aux tâches.
 * Vous ne pouvez pas modifier un champ de connexion Planning lors de la modification en bloc d’objets Workfront.
+* <span class="preview">Un type d&#39;enregistrement ne s&#39;affiche dans un champ personnalisé de connexion Planning d&#39;un objet Workfront que lorsque vous activez le paramètre Créer le champ correspondant dans le type d&#39;enregistrement lié lors de la création de la connexion entre deux types d&#39;enregistrement.</span>
+
+  Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Gérer les connexions d&#39;enregistrement à partir du type de champ de connexion Planning
 

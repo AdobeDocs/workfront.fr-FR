@@ -6,10 +6,10 @@ description: Vous pouvez modifier les informations des programmes que vous avez 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b47c87a1a3d7516f7b1fed6e1abf84a84c453609
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 77%
+source-wordcount: '988'
+ht-degree: 66%
 
 ---
 
@@ -99,14 +99,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Pour modifier toutes les informations sur un ou plusieurs programmes, effectuez l’une des opérations suivantes :
 
-   * Cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-icon.png) en regard du nom du programme, puis&#x200B;**[!UICONTROL Modifier].**
+   * Cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-icon.png) en regard du nom du programme, puis sur **[!UICONTROL Modifier].**
    * Accédez à une liste de programmes et sélectionnez un ou plusieurs programmes à modifier, puis cliquez sur l’icône **[!UICONTROL Modifier]** ![Icône Modifier](assets/edit-icon.png) en haut de la liste.
 
-   La boîte de dialogue **[!UICONTROL Modifier le programme]** s’affiche.
+     La zone **[!UICONTROL Modifier le programme]** s’affiche.
 
-   ![Zone Modifier le programme](assets/edit-program-0925.png)
+     ![Zone Modifier le programme](assets/edit-program-0925.png)
 
-   Tous les champs de programme sont disponibles dans la zone [!UICONTROL Modifier le programme] et sont regroupés par zones répertoriées dans le panneau de gauche.
+     Tous les champs de programme sont disponibles dans la zone [!UICONTROL Modifier le programme] et sont regroupés par zones répertoriées dans le panneau de gauche.
 
 1. Pensez à spécifier des informations dans l’une des sections suivantes :
 
@@ -136,26 +136,29 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Mettez à jour le nom du programme. </p> <p>Conseil : cette option n’est pas disponible si vous avez sélectionné plusieurs programmes. </p> </td> 
+      <td> <p>Mettez à jour le nom du programme. </p> <p><b>CONSEIL</b></p><p>Cette option n’est pas disponible lorsque vous avez sélectionné plusieurs programmes.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td> <p>Saisissez une description du portfolio afin d’indiquer ce qui le distingue des autres. </p> </td> 
+      <td> <p>Tapez une description du portefeuille pour indiquer ce qui est unique à son sujet. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
-      <td> <p>Commencez à saisir le nom d’un utilisateur ou d’une utilisatrice que vous souhaitez indiquer en tant que gestionnaire de programmes, puis sélectionnez-le lorsqu’il apparaît dans la liste. Il s’agit de la personne qui peut superviser le travail défini dans les projets du programme. </p> <p>Important : lorsque vous désignez une personne comme gestionnaire de programme, elle obtient automatiquement les autorisations [!UICONTROL Manage] pour le programme et ses projets. </p> <p>Conseil : vous pouvez rapidement mettre à jour la personne gestionnaire de programme dans l’en-tête du programme. </p> </td> 
+      <td> <p>Commencez à saisir le nom d’un utilisateur ou d’une utilisatrice que vous souhaitez indiquer en tant que gestionnaire de programmes, puis sélectionnez-le lorsqu’il apparaît dans la liste. Il s’agit de la personne qui peut superviser le travail défini dans les projets du programme. </p> <p><b><p>IMPORTANT</b></p> <p>Lorsque vous désignez une personne comme responsable de programme, elle obtient automatiquement les autorisations [!UICONTROL Manager] pour le programme et les projets du programme. </p> <p><b>CONSEIL</b></p> <p>Vous pouvez rapidement mettre à jour le gestionnaire de programme dans l’en-tête du programme. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Ajoutez le nom d’un seul groupe si celui-ci est associé au programme ou s’il est responsable de son exécution. </p> <p>Conseil :  <p>Lors de l’accès au champ [!UICONTROL Group] à partir de la page [!UICONTROL Program Details], procédez comme suit : </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en pointant dessus et en cliquant sur l’icône [!UICONTROL information] <img src="assets/info-icon.png"> qui s’affiche à coté. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Cette option n’est pas disponible dans la zone [!UICONTROL Edit Program]. </p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Is Active]</td> 
-      <td> <p> Cochez cette case si vous souhaitez que le programme soit actif. D’autres utilisateurs et utilisatrices peuvent rechercher des programmes actifs et les joindre à des projets ou les ajouter à des portfolios. Les programmes inactifs ne peuvent pas être joints à des projets ou à des portfolios. Cette option est activée par défaut.</p> </td> 
+      <td> <p>Ajoutez le nom d’un seul groupe si celui-ci est associé au programme ou s’il est responsable de son exécution. </p> <p><b>CONSEIL</b></p>  <p>Lorsque vous accédez au champ [!UICONTROL Group] à partir de la page [!UICONTROL Program Details], procédez comme suit pour vous assurer que vous sélectionnez le groupe approprié : </p> <p>Pointez sur le nom du groupe et cliquez sur l’icône [!UICONTROL information] <img src="assets/info-icon.png"> regard. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Cette option n’est pas disponible dans la zone [!UICONTROL Edit Program]. </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
+
+   <!--this was removed from the unshimmed version - asking on the epic:
+   <tr> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
+     </tr> -->
+
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou continuez à modifier les sections suivantes.
 
@@ -184,4 +187,5 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. (Facultatif) Sélectionnez [!UICONTROL **Privé à mon entreprise**] pour verrouiller le commentaire et le rendre privé pour les utilisateurs de votre entreprise uniquement.
 
    Une fois les modifications enregistrées, le commentaire que vous ajoutez s’affiche dans l’onglet [!UICONTROL Mises à jour] et envoie un e-mail aux utilisateurs et utilisatrices qui y sont inclus.
+1. Cliquer sur **[!UICONTROL Enregistrer]**.
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '3494'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,8 +55,8 @@ Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -100,7 +100,7 @@ Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier
 
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Modifier des enregistrements à l’aide de la vue Tableau
 
@@ -114,9 +114,9 @@ Lors de la création d’une vue tableau, tous les enregistrements du type séle
 
 Pour gérer une vue tableau :
 
-1. Créez une vue tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Créez une vue de tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).</span>
 
-   ![Exemple de vue Tableau](assets/table-view-example.png)
+   <span class="preview">![Exemple de vue Tableau](assets/table-view-example.png)</span>
 
 1. (Facultatif) Cliquez sur **Hauteur de ligne**, puis sélectionnez l’une des options suivantes pour modifier la hauteur des lignes du tableau :
    * Court
@@ -159,7 +159,11 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    * Cliquez sur **Champs** dans la barre d’outils du tableau, puis faites glisser les champs dans l’ordre souhaité et cliquez en dehors de la case **Visibilité et ordre des champs** pour la fermer.
 
+     <div class="preview">
+
      ![Barre d’outils du mode Tableau des champs développée](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     </div>
 
 
      >[!TIP]
@@ -180,7 +184,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -203,9 +207,9 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
 1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
-   1. Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de recherche et le champ correspondant est mis en surbrillance.
+   1. <span class="preview">Dans la zone **Rechercher** ![Icône Rechercher](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran.</span> Le nombre de correspondances correctes s’affiche en regard de l’élément de recherche et le champ avec la correspondance correcte est mis en surbrillance.
 
-      ![Zone de recherche avec le contour bleu des résultats en mode Tableau](assets/search-box-with-results-blue-outline-table-view.png)
+      <span class="preview">![Zone de recherche avec le contour bleu des résultats en mode Tableau](assets/search-box-with-results-blue-outline-table-view.png)</span>
 
       Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
 
@@ -410,7 +414,7 @@ Pour trier les enregistrements <!--ungrouped (add this when sorting for grouping
 
    Le nombre de champs que vous triez s’affiche à gauche de l’icône de tri dans le coin supérieur droit de la barre d’outils. Vous ne pouvez sélectionner que les champs qui s’affichent dans les colonnes de la vue de tableau.
 
-1. (Facultatif) Dans la zone **Trier les enregistrements par**, sélectionnez l’icône **x** en regard d’un champ de tri pour supprimer le tri.
+1. (Facultatif) Dans la zone **Trier les enregistrements par**, cliquez sur l’icône **x** en regard d’un champ de tri pour supprimer le tri.
 
    Ou
 
@@ -459,9 +463,13 @@ Pour ajouter un regroupement :
 
 1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 
+   <div class="preview">
+
    Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
 
    ![Regroupement appliqué en mode Tableau](assets/grouping-applied-in-table-view.png)
+
+   </div>
 
 1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
 

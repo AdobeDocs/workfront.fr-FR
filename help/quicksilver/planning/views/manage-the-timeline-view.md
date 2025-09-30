@@ -6,14 +6,16 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '3920'
-ht-degree: 38%
+source-wordcount: '3935'
+ht-degree: 36%
 
 ---
 
 # Gérer la vue chronologique
+
+<!--remove preview and production references at production-->
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -117,9 +119,9 @@ Tenez compte des points suivants :
 Pour gérer une vue chronologique :
 
 1. Accédez à la page du type d’enregistrement pour lequel vous souhaitez consulter la chronologie.
-1. Créez une vue chronologique, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Créez une vue chronologique, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md). </span>
 
-   ![Exemple de vue Chronologie](assets/timeline-view-example.png)
+   <span class="preview">![Exemple de vue Chronologie](assets/timeline-view-example.png)</span>
 
    Les enregistrements associés au type d’enregistrement que vous avez sélectionné s’affichent sous forme de barres dans une chronologie et sont triés par ordre chronologique de leur date de début, par défaut.
 
@@ -173,9 +175,9 @@ Pour gérer une vue chronologique :
 
 1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
-   1. Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de la recherche et l’enregistrement correspondant est surligné.
+   1. <span class="preview">Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) et commencez à saisir un mot-clé associé à un champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche en regard de l’élément de recherche et l’enregistrement avec la correspondance correcte est mis en surbrillance. </span>
 
-      ![Zone de recherche et vue chronologique des résultats](assets/search-box-and-results-timeline-view.png)
+      <span class="preview">![Zone de recherche et vue chronologique des résultats](assets/search-box-and-results-timeline-view.png)</span>
 
       Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
 
@@ -353,23 +355,21 @@ Tenez compte des points suivants lorsque vous utilisez des regroupements dans la
 Pour ajouter un regroupement dans la vue chronologique :
 
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
-1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.
+1. <span class="preview">Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.</span>
 
-   ![Regroupement de la vue chronologique de l’interface utilisateur avec des champs liés](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![Regroupement de la vue chronologique de l’interface utilisateur avec des champs liés](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    Le regroupement est appliqué automatiquement à la chronologie et les enregistrements s’affichent dans la zone de regroupement.
 
-   <!-- add a step that you can rearrange the groupings here, when this will be possible-->
-
 1. (Facultatif) Répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 
-   Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
+   <span class="preview">Le nombre de champs sélectionnés pour le regroupement s’affiche en regard de l’icône Regroupement.</span>
 
-   <!-- update screen shot with view redesign-->
+   <span class="preview">![Regroupement appliqué en mode Chronologie](assets/grouping-applied-in-timeline-view.png)</span>
 
-   ![Le regroupement s’applique dans la vue Chronologie](assets/grouping-applied-in-timeline-view.png)
+1. Dans la zone **Regrouper les enregistrements par**, effectuez un glisser-déposer des regroupements dans l’ordre approprié.
 
 1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
 
@@ -530,7 +530,11 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
 1. En mode **Standard** ou **Compact**, cliquez sur **Répartition** dans le coin supérieur droit de la vue chronologique.
 1. Développez la zone **Sélectionner un type d’enregistrement lié** et sélectionnez un type d’enregistrement connecté. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
+   <div class="preview">
+
    ![Sélecteur de répartition et bouton en mode Chronologie](assets/breakdown-picker-and-button-on-timeline.png)
+
+   </div>
 
    >[!TIP]
    >
@@ -543,7 +547,7 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
    >    Les dates de début et de fin doivent être séquentielles. Si la date de fin est antérieure à la date de début, aucun enregistrement ne s’affiche dans le journal.
 
    Une flèche pointant vers la droite s&#39;affiche sur la barre de l&#39;enregistrement sélectionné dans la chronologie, s&#39;ils sont connectés à d&#39;autres enregistrements.
-1. Cliquez sur la flèche pointant vers la droite pour développer un type d’enregistrement et afficher ses connexions.
+1. Cliquez sur la flèche pointant vers la droite pour développer un type d’enregistrement et afficher ses connexions. <!--update screen shot at production-->
 
    ![Campagnes réparties par programmes dans la vue Chronologie](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 

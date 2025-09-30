@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 42%
+source-wordcount: '1287'
+ht-degree: 40%
 
 ---
 
 
 # Gérer les vues d’enregistrement
+
+<!-- take preview and production references out at production-->
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -192,30 +194,32 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
    * Dans l’environnement de production, cliquez sur l’onglet **+Affichage**.
    * <span class="preview">Dans l’environnement de Prévisualisation, cliquez sur l’icône déroulante ![Icône déroulante](assets/drop-down-icon.png) en regard du nom de la vue actuelle, puis cliquez sur **+Nouvelle vue**.</span>
 
-1. <span class="preview">Dans le menu déroulant des vues, faites glisser et déposez les vues par ordre de préférence.</span>
 1. Choisissez parmi les types de vues suivants :
 
    * Tableau
    * Journal
    * Calendrier
 
-   Un nouvel onglet est créé avec la vue sélectionnée.
+   Dans l’environnement de production , un nouvel onglet est créé avec la vue sélectionnée.
 
    Selon la largeur de l’écran, d’autres vues peuvent s’afficher dans le menu **Plus** ![Plus](assets/more-menu.png).
 
+   >[!TIP]
+   >
+   >Lorsque vous créez un type d’enregistrement, la vue de tableau est également créée par défaut.
+   >
+   >Pour créer une vue de calendrier ou de chronologie, le type d’enregistrement pour lequel vous créez la vue doit comporter au moins deux champs de date.
+   >
+   >Dans le cas contraire, les options Chronologie et Calendrier sont grisées.
+   >
 
->[!TIP]
->
->Lorsque vous créez un type d’enregistrement, la vue de tableau est également créée par défaut.
->
->Pour créer une vue de calendrier ou de chronologie, le type d’enregistrement pour lequel vous créez la vue doit comporter au moins deux champs de date.
->
->Dans le cas contraire, les options Chronologie et Calendrier sont grisées.
->
+   <span class="preview">Dans l&#39;environnement Aperçu, choisissez un type de vue puis cliquez sur **Créer**. Une nouvelle vue est ajoutée au menu déroulant. </span>
 
-<!-- replace screen shot at production??-->
+   <span class="preview">![Créer une zone de vue](assets/create-view-box.png)</span>
 
-![Liste déroulante Afficher les types de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview">Dans le menu déroulant des vues, faites glisser et déposez les vues par ordre de préférence.</span>
+
+   <span class="preview">![Liste déroulante Afficher les types de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. (Le cas échéant) Cliquez sur **Suivant** lors de la création d’une vue chronologique ou de calendrier.
 

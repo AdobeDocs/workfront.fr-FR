@@ -6,7 +6,7 @@ description: Les portfolios sont des collections de projets ou de programmes dan
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 69%
@@ -68,22 +68,6 @@ Tenez compte des éléments suivants lorsque vous décidez de supprimer ou de d�
 * La désactivation d’un portfolio garantit que son nom et ses programmes ne peuvent plus être attribués aux projets lors de la création d’un projet.
 * La désactivation d’un portfolio déjà associé à un projet ne le supprime pas du projet. Si vous supprimez un portfolio désactivé d’un projet, vous devez le réactiver avant de pouvoir le joindre à nouveau au projet.
 
-## Désactiver un portfolio
-
-Lorsque vous désactivez un portfolio, vous pouvez toujours y accéder à partir de la zone [!UICONTROL Portfolios], mais il ne s’affiche plus dans la liste des portfolios lorsque les utilisateurs et utilisatrices tentent de l’ajouter à un projet.
-
->[!NOTE]
->
->Selon la manière dont votre administrateur ou administratrice de groupes [!DNL Workfront] configure votre modèle de disposition, la zone [!UICONTROL Portfolios] peut ne pas s’afficher dans le [!UICONTROL Menu principal]. Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-
-{{step1-click-main-menu}}
-
-1. Cliquez sur **[!UICONTROL Portfolios]**.
-1. Cliquez sur le nom du portfolio.
-1. Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom du portfolio, puis cliquez sur **[!UICONTROL Désactiver Portfolio]**.
-Le portfolio est immédiatement désactivé.
-1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom du portfolio, puis cliquez sur **[!UICONTROL Activer Portfolio]** pour le réactiver.
-
 ## Supprimer un portfolio
 
 {{step1-to-portfolios}}
@@ -95,3 +79,21 @@ Le portfolio est immédiatement désactivé.
 1. Cliquez sur **[!UICONTROL Oui, supprimer]** pour confirmer.
 
    Le portefeuille est supprimé et ne peut pas être récupéré.
+
+## Désactiver un portfolio
+
+Lorsque vous désactivez un portfolio, vous pouvez toujours y accéder à partir de la zone [!UICONTROL Portfolios], mais il ne s’affiche plus dans la liste des portfolios lorsque les utilisateurs et utilisatrices tentent de l’ajouter à un projet.
+
+>[!NOTE]
+>
+>Selon la manière dont votre administrateur ou administratrice de groupes ou [!DNL Workfront] configure votre modèle de mise en page, la zone [!UICONTROL Portfolios] peut ne pas s’afficher dans le [!UICONTROL Menu principal]. Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+{{step1-click-main-menu}}
+
+1. Cliquez sur **[!UICONTROL Portfolios]**.
+1. Cliquez sur le nom du portfolio.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom du portfolio, puis cliquez sur **[!UICONTROL Désactiver Portfolio]**.
+Le portfolio est immédiatement désactivé.
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom du portfolio, puis cliquez sur **[!UICONTROL Activer Portfolio]** pour le réactiver.
+
+

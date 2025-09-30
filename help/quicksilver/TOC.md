@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 74bdbaa0dd4df7b11a96105ad4258b06317b2510
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '13516'
+source-wordcount: '13520'
 ht-degree: 85%
 
 ---
@@ -883,7 +883,7 @@ ht-degree: 85%
          * [Utiliser le widget Mes requêtes](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
    * Assistant IA {#ai-assistant}
       * [Assistant IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
-      * [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
+      * [Vue d’ensemble de l’Assistant IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Résumer à l’aide de l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [Obtenir de l’aide à partir de l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [L’assistant AI invite les bonnes pratiques](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)
@@ -1453,6 +1453,7 @@ ht-degree: 85%
          * [Ajouter un programme existant à un portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [Ajouter un projet à un programme](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [Supprimer un projet d’un programme](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+         * [Supprimer et désactiver des programmes](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
       * Gérer des projets dans l’optimiseur de portfolio {#manage-projects-in-portfolio-optimizer}
          * [Gérer des projets dans l’optimiseur de portfolio](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Vue d’ensemble de l’optimiseur de portfolio](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)

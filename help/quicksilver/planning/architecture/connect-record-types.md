@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 28%
@@ -195,7 +195,7 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
 
          >[!TIP]
          >
-         >La limite est de 500 connexions pour un type d’enregistrement. Nous vous recommandons de conserver ce paramètre désactivé, en particulier pour les types d’enregistrements taxonomiques, afin d’éviter d’atteindre cette limite.
+         >Un type d’enregistrement est limité à 500 champs. Nous vous recommandons de conserver ce paramètre désactivé, en particulier pour les types d’enregistrements taxonomiques, afin d’éviter d’atteindre cette limite.
 
       3. (Conditionnel) Si vous avez activé **Créer le champ correspondant sur le type d’enregistrement lié**, choisissez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et à partir desquels :
 
@@ -222,7 +222,7 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
 
    >[!NOTE]
    >
-   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Conditionnel) Lorsque vous choisissez de vous connecter à Experience Manager Assets ou à un type d’enregistrement Workfront Planning, choisissez l’une des options suivantes dans la zone **Apparence des enregistrements** :
@@ -237,7 +237,7 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
    >
    >* Lorsque vous autorisez la liaison de plusieurs enregistrements, l’affichage de la miniature seule peut permettre de gagner de l’espace dans des zones plus petites, comme les vues d’enregistrement.
    >
-   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
    >
@@ -346,7 +346,7 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
 
      >[!TIP]
      >
-     > Un champ d&#39;enregistrement lié n&#39;est pas créé pour les objets d&#39;une autre application vers le type d&#39;enregistrement que vous liez dans Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>-->
+     > Un champ d&#39;enregistrement lié n&#39;est pas créé pour les objets d&#39;une autre application vers le type d&#39;enregistrement que vous liez dans Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields for every record type.</span>-->
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

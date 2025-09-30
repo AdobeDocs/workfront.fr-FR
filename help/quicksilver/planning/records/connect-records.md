@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3371'
 ht-degree: 38%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 38%
 
 # Connect records
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -84,8 +84,8 @@ Vous pouvez connecter les éléments suivants :
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -337,7 +337,7 @@ Après avoir créé une connexion entre un type d’enregistrement et Adobe Exp
 
 >[!NOTE]
 >
->Les enregistrements Planning et leurs champs sont accessibles depuis Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Les enregistrements Planning et leurs champs sont accessibles depuis Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Pour connecter des enregistrements à des ressources Experience Manager :
 
@@ -354,7 +354,7 @@ Pour connecter des enregistrements à des ressources Experience Manager :
 
    >[!TIP]
    >
-   >  Vous pouvez ajouter l’icône **+** dans le champ d’objet lié de la page d’enregistrement pour connecter les ressources à l’enregistrement.
+   >  Vous pouvez cliquer sur l’icône **+** dans le champ d’objet lié de la page d’enregistrement pour connecter les ressources à l’enregistrement.
 
    La zone **Sélectionner les ressources** s’affiche. <!--we might change this to Connect assets-->
 
@@ -462,14 +462,16 @@ Les enregistrements et les objets sont immédiatement ajoutés.
 
    La page d’aperçu s’ouvre.
 1. Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement.
-1. Cliquez sur un onglet existant de la page Enregistrements connectés dans la page de l’enregistrement. Vous devez d’abord créer une page Enregistrements connectés . Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Cliquez sur un onglet existant de la page Enregistrements connectés dans la page de l’enregistrement. Vous devez d’abord créer une page Enregistrements connectés .
 
    Une page de type d’enregistrement connectée s’affiche en mode Tableau.
 
    Tous les enregistrements connectés d’un type s’affichent dans le tableau.
-1. Cliquez sur **Connexion** pour ajouter ou supprimer des enregistrements.
+1. Cliquez sur **Connecter**, <span class="preview">**Connecter des enregistrements** ou **Nouvelle ligne**</span> pour ajouter ou supprimer des enregistrements.
 
    ![Bouton Connexion mis en surbrillance dans l’onglet Détails de l’enregistrement connecté](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+
+   Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
 1. (Facultatif) Si vous ne trouvez pas d’enregistrement connecté, cliquez sur **+ Ajouter** pour les créer et les connecter.
 
 ## Connecter des enregistrements à partir d’objets Workfront

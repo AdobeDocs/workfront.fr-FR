@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour l’ordre dans lequel les formulaires pe
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
+source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 95%
+source-wordcount: '1088'
+ht-degree: 87%
 
 ---
 
@@ -28,25 +28,25 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux objets pour lesquels vous gérez des formulaires personnalisés</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux objets pour lesquels vous gérez des formulaires personnalisés</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de contribution ou supérieures aux objets pour lesquels vous gérez des formulaires personnalisés</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets </a>.</p> </td> 
+   <td> <p>Autorisations de contribution ou supérieures aux objets pour lesquels vous gérez des formulaires personnalisés</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -73,18 +73,13 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
 >
 >Lorsque vous supprimez un formulaire personnalisé d’un objet, toutes les informations saisies dans les champs personnalisés du formulaire sont perdues et ne peuvent pas être récupérées.
 
-1. Accédez à l’objet dans lequel vous souhaitez supprimer le formulaire personnalisé et commencez à modifier l’objet.
+1. Accédez à l’objet où vous souhaitez supprimer le formulaire personnalisé, puis cliquez sur la section **Détails** dans le panneau de gauche pour l’objet.
 
-   Par exemple, accédez à un projet, cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Modifier**.
+   Par exemple, accédez à un projet, puis cliquez sur la section **Détails du projet**.
 
-1. Cliquez sur **Formulaires personnalisés**.
-1. Pour les projets, tâches et problèmes de formulaires personnalisés, cliquez sur l’icône **X** à droite d’un formulaire pour le supprimer de l’objet.
-
-   Pour tous les autres objets, cliquez sur **Gérer les formulaires**, puis cliquez sur le bouton **X** à droite d’un formulaire pour le supprimer de l’objet.
-
-1. <span class="preview">Dans la boîte de dialogue qui s’ouvre, cliquez sur **Supprimer**.</span>
-
-1. Cliquer sur **Enregistrer**.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la page de l’objet, puis cliquez sur **Tout modifier**.
+1. Cliquez sur l’icône **Supprimer** ![](assets/delete-icon.png) à droite du nom d’un formulaire personnalisé, puis cliquez sur **Supprimer** pour confirmer et supprimer le formulaire de l’objet, ou sur **Annuler** pour empêcher la suppression.
+1. Cliquez sur **Enregistrer les modifications** .
 
 ## Gérer plusieurs formulaires personnalisés contenant les mêmes champs personnalisés
 

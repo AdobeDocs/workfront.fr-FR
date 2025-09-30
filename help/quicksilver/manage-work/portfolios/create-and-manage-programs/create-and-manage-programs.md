@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 29%
+source-wordcount: '107'
+ht-degree: 28%
 
 ---
 
@@ -29,3 +29,4 @@ Cette section contient les articles suivants :
 * [Ajouter un programme existant à un portfolio](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)
 * [Ajouter un projet à un programme](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 * [Supprimer un projet d’un programme](../../../manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+* [Supprimer et désactiver des programmes](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
