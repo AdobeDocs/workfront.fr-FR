@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2219'
 ht-degree: 16%
 
 ---
@@ -60,12 +60,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmation lors de la suppression d’un formulaire personnalisé d’un objet</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmation lors de la suppression d’un formulaire personnalisé d’un objet</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Pour vous assurer de conserver l’accès aux données dont vous avez besoin, nous avons ajouté une boîte de dialogue de confirmation lors de la suppression d’un formulaire personnalisé d’un objet . La suppression d’un formulaire personnalisé d’un objet supprime définitivement les données de ce formulaire de l’objet . Désormais, la boîte de dialogue vous permet de confirmer que vous comprenez que ces données seront supprimées, en veillant à ne pas supprimer les données dont vous avez besoin. </p>
         </td>
+        <td>jeudi 24 septembre 2025</td>
         <td>vendredi 25 septembre 2025</td>
-        <td>jeudi 15 octobre 2025</td>
-        <td>vendredi 16 octobre 2025</td>
+        <td>vendredi 25 septembre 2025</td>
     </tr> 
     <tr>
         <td>
@@ -468,7 +468,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 12%
 
 ---
@@ -22,9 +22,8 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 
 >[!NOTE]
 >
->* Aperçu : 25 septembre 2025
->* Version rapide de production : 15 octobre 2025
->* Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>* Aperçu : 24 septembre 2025
+>* Production pour tous les clients : 25 septembre 2025
 
 Pour vous assurer de conserver l’accès aux données dont vous avez besoin, nous avons ajouté une boîte de dialogue de confirmation lors de la suppression d’un formulaire personnalisé d’un objet . La suppression d’un formulaire personnalisé d’un objet supprime définitivement les données de ce formulaire de l’objet . Désormais, la boîte de dialogue vous permet de confirmer que vous comprenez que ces données seront supprimées, en veillant à ne pas supprimer les données dont vous avez besoin.
 
