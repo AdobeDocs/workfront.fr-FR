@@ -5,21 +5,14 @@ description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
+source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 27%
+source-wordcount: '331'
+ht-degree: 29%
 
 ---
 
 # Renseigner automatiquement une requête avec les données des requêtes précédentes
-
->[!NOTE]
->
->* Cette fonctionnalité sera disponible en version Beta ouverte selon le planning suivant :
->
->   * Version mensuelle : 11 septembre 2025
->   * Version trimestrielle : 16 octobre 2025
 
 L’IA peut vous aider à remplir automatiquement les champs de requête en fonction des requêtes précédentes. Vous pouvez approuver ou rejeter ces suggestions avant d’envoyer la demande.
 
