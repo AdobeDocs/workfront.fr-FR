@@ -6,16 +6,16 @@ description: Vous pouvez mettre à jour l’ordre dans lequel les formulaires pe
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 97%
+source-wordcount: '1147'
+ht-degree: 95%
 
 ---
 
 # Gérer les formulaires personnalisés associés à des objets
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible pour tous les clients dans l’environnement de prévisualisation et pour un groupe restreint de clients dans l’environnement de production.</span>
 
 Vous pouvez mettre à jour l’ordre dans lequel les formulaires personnalisés associés à un objet s’affichent, les supprimer ou modifier en masse la manière dont les formulaires personnalisés s’affichent sur plusieurs objets.
 
@@ -50,7 +50,7 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
 
 ## Conditions préalables
 
-* L’équipe d’administration Workfront ou l’utilisateur ou utilisatrice Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* L’équipe d’administration Workfront ou l’utilisateur ou utilisatrice Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Vous devez avoir des formulaires personnalisés joints à un objet.
 
   Pour plus d’informations sur l’application de formulaires personnalisés à un objet, voir [Ajouter un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -82,6 +82,8 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
 
    Pour tous les autres objets, cliquez sur **Gérer les formulaires**, puis cliquez sur le bouton **X** à droite d’un formulaire pour le supprimer de l’objet.
 
+1. <span class="preview">Dans la boîte de dialogue qui s’ouvre, cliquez sur **Supprimer**.</span>
+
 1. Cliquer sur **Enregistrer**.
 
 ## Gérer plusieurs formulaires personnalisés contenant les mêmes champs personnalisés
@@ -92,7 +94,7 @@ Il se peut que le même champ s’affiche sur plusieurs formulaires personnalis�
 
   Vous ne pouvez pas avoir de valeurs différentes pour les mêmes champs sur différents formulaires attachés au même objet.
 
-* Si vous disposez des mêmes champs calculés sur deux objets différents, leurs calculs doivent être identiques pour éviter toute erreur. Pour plus d’informations sur l’ajout de champs calculés à des formulaires personnalisés, y compris plusieurs formulaires, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+* Si vous disposez des mêmes champs calculés sur deux objets différents, leurs calculs doivent être identiques pour éviter toute erreur. Pour plus d’informations sur l’ajout de champs calculés à des formulaires personnalisés, y compris plusieurs formulaires, voir [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 ## Gérer plusieurs formulaires personnalisés lors de la modification en masse d’objets
 
