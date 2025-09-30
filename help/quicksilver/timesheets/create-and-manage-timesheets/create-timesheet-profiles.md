@@ -6,14 +6,16 @@ description: Vous pouvez créer, modifier et attribuer des profils de feuilles d
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
+source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 79%
+source-wordcount: '1641'
+ht-degree: 77%
 
 ---
 
 # Créer, modifier et attribuer des profils de feuilles de temps
+
+{{highlighted-preview}}
 
 <!--Audited: 06/2025-->
 
@@ -85,8 +87,7 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
 
    La page de profil de feuille de temps nouvelle ou existante s’affiche.
 
-
-1. Cliquez sur l&#39;onglet **Définir les détails**, puis mettez à jour les informations suivantes : <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
+1. Mettez à jour les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -112,7 +113,7 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
      <ul> 
       <li> <p>Si vous créez un profil de feuille de temps pour un groupe que vous administrez, identifiez le groupe ici.</p> <p>Cela n’affecte pas le profil de feuille de temps aux utilisateurs et utilisatrices du groupe ; cela permet seulement aux administrateurs et administratrices du groupe de modifier le profil de feuille de temps. Vous attribuerez le profil aux utilisateurs et utilisatrices à l’étape 6.</p>
 
-   <p><b>NOTE</b> : lorsque des utilisateurs et utilisatrices extérieurs au groupe attachent des profils de feuilles de temps à d’autres personnes, ils ne pourront pas voir ou attacher ce profil de feuille de temps.</p> </li> 
+   <p><b>REMARQUE </b> : lorsque des utilisateurs extérieurs au groupe joignent des profils de feuille de temps à d’autres utilisateurs, ils ne peuvent pas voir ni joindre ce profil de feuille de temps.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -155,6 +156,10 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
    <b>NOTE</b> : une fois que vous avez soumis une feuille de temps pour approbation, vous ne pouvez plus modifier les heures. Pour remettre une feuille de temps soumise à l’état modifiable, rappelez la feuille de temps ou demandez à l’approbateur ou à l’approbatrice de rejeter la feuille de temps. Pour plus d’informations, voir <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Soumettre une feuille de temps pour approbation</a> et <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approuver une feuille de temps</a>.</p> </p> </td>
    </tr> 
      <tr> 
+      <td role="rowheader"><strong>Heures supplémentaires</strong> </td> 
+      <td>Vous pouvez masquer la case Heures supplémentaires dans les feuilles de temps. Cette option est désactivée par défaut.</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Types d’heures disponibles</strong> </td> 
       <td><p>Ce paramètre ne concerne que les types d’heures généraux, et non les types d’heures spécifiques à un projet. </p>
       <p>Par défaut, les utilisateurs et utilisatrices voient toutes les heures générales d’une feuille de temps. Toutefois, si votre organisation souhaite que seules des heures générales spécifiques s’affichent pour un groupe particulier d’utilisateurs et utilisatrices, vous pouvez choisir les heures générales qu’ils doivent voir sur leurs feuilles de temps en les sélectionnant dans leur profil de feuille de temps dans ce champ. Si vous souhaitez désactiver toutes les heures générales, désélectionnez tous les types d’heures pour générer la feuille de temps sans section pour les heures générales.</p></td> 
@@ -165,14 +170,9 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
       <td> <p> Ajoutez une notification de rappel. Workfront enverra des rappels aux utilisateurs pour leur demander de remplir ou d’approuver leurs feuilles de temps. Vous devez créer des notifications de rappel avant de pouvoir les associer à un profil de feuille de temps.  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Heures supplémentaires</span> </td> 
-      <td>Vous pouvez masquer la case Heures supplémentaires dans les feuilles de temps. Cette option est désactivée par défaut.</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. Lors de la création de profils de feuille de temps au niveau du groupe dans l’environnement de production, cliquez sur l’onglet **Affecter des personnes** pour associer le profil de feuille de temps à des utilisateurs, des groupes ou des équipes spécifiques (si vous êtes un administrateur Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. Lors de la création de profils de feuille de temps au niveau du groupe, cliquez sur l’onglet **Affecter des personnes** pour associer le profil de feuille de temps à des utilisateurs, des groupes ou des équipes spécifiques (si vous êtes un administrateur Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview">Lors de la création de profils de feuille de temps au niveau du groupe dans la Prévisualisation, faites défiler la page vers le bas et recherchez la section **Attribuer des personnes**.</span>
 
    Lors de la création de profils de feuille de temps pour le système, faites défiler la page vers le bas et recherchez la section **Affecter des personnes**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
@@ -188,13 +188,13 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
 
 1. Cliquer sur **Enregistrer**.
 
-1. En haut de la liste des profils de feuille de temps, cliquez sur l&#39;icône **Plus** ![icône Plus](assets/more-icon.png) pour les profils de feuille de temps au niveau du système, ou **Plus** pour les profils de feuille de temps de groupe, puis cliquez sur **Générer des feuilles de temps**.
+1. En haut de la liste des profils de feuilles de temps, cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis sur **Générer des feuilles de temps**.
 
    Une confirmation s’affiche en bas de l’écran indiquant que les feuilles de temps ont bien été générées. De nouvelles feuilles de temps sont générées en fonction des nouveaux profils que vous avez créés.
 
    Pour plus d’informations, voir [ Générer manuellement des feuilles de temps ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-   La première fois que le profil de feuille de temps génère des feuilles de temps, 2 feuilles de temps sont créées pour chaque utilisateur, tant pour la période qui inclut l’heure actuelle que pour la période suivante.
+   La première fois que le profil de feuille de temps génère des feuilles de temps, deux feuilles de temps sont créées pour chaque utilisateur, pour la période qui inclut l’heure actuelle ainsi que pour la période suivante.
 
    Ensuite, chaque fois qu’elle génère de nouvelles feuilles de temps, une feuille de temps est créée par utilisateur.
 
