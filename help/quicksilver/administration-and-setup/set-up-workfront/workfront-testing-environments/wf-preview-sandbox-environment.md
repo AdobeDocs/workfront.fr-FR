@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
+source-git-commit: 6aa0aa5b8ffd088e3d79e7d1be66373a7f753f99
 workflow-type: tm+mt
 source-wordcount: '1310'
 ht-degree: 92%
@@ -30,7 +30,7 @@ Il existe deux environnements de test pour [!DNL Workfront] qui sont des répliq
 
 * Environnement de sandbox à actualisation personnalisée
 
-  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -192,4 +192,4 @@ Pour l’environnement de Prévisualisation, le recalcul nocturne est désactiv�
 
 * Toute interruption de l’environnement de prévisualisation [!DNL Workfront] pendant les week-ends (samedi et dimanche) sera résolue de manière à ce que l’environnement soit opérationnel pendant les heures de bureau le lundi.
 
-* La relecture n&#39;est pas disponible dans les environnements de prévisualisation.
+* La relecture n&#39;est pas disponible dans l&#39;environnement Aperçu .
