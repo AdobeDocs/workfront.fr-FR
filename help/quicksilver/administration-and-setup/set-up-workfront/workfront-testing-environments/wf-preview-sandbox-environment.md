@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 93%
+source-wordcount: '1310'
+ht-degree: 92%
 
 ---
 
@@ -65,7 +65,7 @@ L’environnement de prévisualisation de sandbox contient vos données de produ
 
 Les données circulent de manière unidirectionnelle, de la production à la prévisualisation, et non en sens inverse. Une mise à jour de l’environnement de prévisualisation est toujours prévue par [!DNL Workfront] chaque week-end.
 
-L’environnement de prévisualisation de sandbox permet également à [!DNL Workfront] de déployer de nouvelles fonctionnalités dans un environnement sûr, avant qu’elles ne soient prêtes à être déployées en production. Vous pouvez tester les nouvelles fonctionnalités et donner votre avis sur leur fonctionnement à [!DNL Workfront] en accédant à l’environnement de prévisualisation de sandbox. Ainsi, le code de l’environnement de prévisualisation de sandbox est toujours en avance sur celui de production, même si vos données sont actualisées chaque semaine.
+L’environnement de prévisualisation de sandbox permet également à [!DNL Workfront] de déployer de nouvelles fonctionnalités dans un environnement sûr, avant qu’elles ne soient prêtes à être déployées en production. Vous pouvez tester les nouvelles fonctionnalités et laisser des commentaires sur leur fonctionnement à [!DNL Workfront] en accédant à l’environnement de prévisualisation de sandbox. Ainsi, le code de l’environnement de prévisualisation de sandbox est toujours en avance sur celui de production, même si vos données sont actualisées chaque semaine.
 
 L’environnement de prévisualisation est idéal pour organiser des formations, tester de nouvelles fonctionnalités et déterminer les fonctions de configuration.
 
@@ -191,3 +191,5 @@ Pour l’environnement de Prévisualisation, le recalcul nocturne est désactiv�
 * Toute interruption d’un environnement de prévisualisation [!DNL Workfront] pendant les heures de bureau sera traitée en priorité, immédiatement après que les problèmes de production auront été résolus, le cas échéant.
 
 * Toute interruption de l’environnement de prévisualisation [!DNL Workfront] pendant les week-ends (samedi et dimanche) sera résolue de manière à ce que l’environnement soit opérationnel pendant les heures de bureau le lundi.
+
+* La relecture n&#39;est pas disponible dans les environnements de prévisualisation.
