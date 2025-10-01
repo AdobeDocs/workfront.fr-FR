@@ -30,7 +30,7 @@ Il existe deux environnements de test pour [!DNL Workfront] qui sont des répliq
 
 * Environnement de sandbox à actualisation personnalisée
 
-  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
