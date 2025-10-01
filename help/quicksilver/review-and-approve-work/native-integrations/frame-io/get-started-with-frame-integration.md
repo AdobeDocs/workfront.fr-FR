@@ -6,12 +6,10 @@ description: Commencez avec l’intégration Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '784'
 ht-degree: 3%
 
 ---
@@ -42,7 +40,7 @@ Une fois le processus d’approbation créé, les réviseurs et les approbateurs
 Pour plus d’informations sur la configuration des projets, voir
 
 * [Créer un projet](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-  <!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [Présentation de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Lancement des révisions et des approbations formelles dans Workfront
 
@@ -72,7 +70,7 @@ Les réviseurs et approbateurs peuvent être ajoutés à un workflow d’approba
 
 Une fois que le workflow de révision et d’approbation a été lancé dans Workfront, les réviseurs et les approbateurs peuvent accéder à la visionneuse Frame.io pour ajouter des commentaires, baliser la ressource et prendre une décision.
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+Pour plus d&#39;informations, voir [Vérifier et approuver avec la visionneuse Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
 
 #### Accès à la visionneuse Frame.io
 
@@ -83,7 +81,7 @@ Les utilisateurs peuvent accéder à la visionneuse Frame.io des manières suiva
 
 >[!NOTE]
 >
->Les utilisateurs Workfront externes sont avertis par e-mail et sont invités à créer une connexion Frame.io pour examiner et approuver les ressources. <!--is this still accurate?-->
+>Les utilisateurs Workfront externes sont avertis par e-mail et sont invités à créer une connexion Frame.io pour examiner et approuver les ressources.
 
 ![ouvrez la visionneuse d’images depuis l’Accueil](assets/open-fio-viewwer.png)
 

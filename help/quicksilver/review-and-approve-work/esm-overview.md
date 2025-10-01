@@ -5,16 +5,14 @@ title: Présentation du stockage d’entreprise dans Adobe
 description: Présentation du stockage d’entreprise dans Adobe
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d24773df7eede3140eeecdea7f1c33b8466e887a
+exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
+source-git-commit: e908d0ffd1a3397dead5909942b2b0bedb91ae1c
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
-
 
 # Présentation du stockage d’entreprise dans Adobe
 
@@ -40,4 +38,4 @@ Cela ouvre également la voie à de futures intégrations de la gestion des ress
 
 L’intégration de Workfront et Frame.io utilise le stockage d’entreprise d’Adobe pour fournir une expérience de révision et d’approbation unifiée. Cette intégration permet aux coordinateurs de projet de gérer les projets et de planifier le travail dans Workfront, tandis que les créatifs, les spécialistes marketing et les parties prenantes peuvent examiner et approuver les ressources dans Frame.io. Cela permet de s’assurer que toutes les parties prenantes ont accès aux dernières versions des ressources et que les commentaires sont centralisés au même endroit.
 
-<!--For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Pour plus d’informations sur l’intégration de Workfront et de Frame.io, voir [Présentation de l’intégration de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
