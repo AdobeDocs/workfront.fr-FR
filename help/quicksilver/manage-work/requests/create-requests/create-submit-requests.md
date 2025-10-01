@@ -6,10 +6,10 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
 workflow-type: tm+mt
-source-wordcount: '2856'
-ht-degree: 76%
+source-wordcount: '2840'
+ht-degree: 77%
 
 ---
 
@@ -147,13 +147,13 @@ Pour créer une demande dans l’application web Workfront :
 
    La boîte de dialogue **Nouvelle demande** s’ouvre.
 
-1. (Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning et que vous vous trouvez dans l’environnement de production, la zone **Nouvelle demande** affiche les informations suivantes </span>
+1. (Conditionnel) Si vous êtes passé à la nouvelle expérience et que vous vous trouvez dans l’environnement de production, la zone **Nouvelle requête** affiche les informations suivantes </span>
 
    <ul><li>Les 6 dernières files d’attente de demandes Workfront consultées et les formulaires de demandes Planning s’affichent dans la section Récent . </li>
     <li>Section Tous les formulaires de demande Workfront et Planning supplémentaires <b>Tous les formulaires de demande</b>. Vous pouvez rechercher des formulaires de demande qui ne s’affichent pas par défaut. </li>
     <li>Tous les chemins supplémentaires des files d'attente des demandes de Workfront et Planning s'affichent dans la section <b>Tous les chemins des demandes</b>. Vous pouvez rechercher une file d’attente de demandes qui ne s’affiche pas par défaut.</li></ul>
    Cliquez sur l’un des chemins ou formulaires de file d’attente des demandes de Workfront, ou recherchez-en un, puis cliquez dessus lorsqu’il s’affiche dans la liste.
-1. <span class="preview">(Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning, sélectionnez l’un des chemins d’accès ou formulaires de file d’attente des demandes Workfront, ou cliquez sur la barre de recherche. </span>
+1. <span class="preview">(Conditionnel) Si vous êtes passé à la nouvelle expérience , sélectionnez l’un des chemins d’accès ou formulaires de file d’attente des demandes Workfront, ou cliquez sur la barre de recherche. </span>
 
    <span class="preview">Lorsque vous cliquez sur la barre de recherche, une liste déroulante s’affiche, affichant d’abord les files d’attente et les formulaires les plus récemment utilisés. Sélectionnez-en un dans la liste ou commencez à taper et sélectionnez la file d’attente ou la liste lorsqu’elle apparaît.</span>
 
@@ -165,7 +165,7 @@ Pour créer une demande dans l’application web Workfront :
    >* <span class="preview">Pour afficher uniquement les files d’attente des demandes Workfront, filtrez les types d’objets `Issue`.</span>
    >* <span class="preview">Dans la nouvelle expérience de demande, les brouillons se trouvent dans la même liste que les demandes envoyées.</span>
 
-1. (Conditionnel) Si vous passez à la nouvelle expérience qui inclut Workfront Planning, sélectionnez vos groupes de rubriques et rubriques de file d’attente et continuez à mettre à jour le formulaire.
+1. (Conditionnel) Si vous passez à la nouvelle expérience , sélectionnez vos groupes de rubriques et rubriques de file d’attente et continuez à mettre à jour le formulaire.
 
    Sinon, cliquez dans le champ **Type de requête** et effectuez l’une des opérations suivantes :
 
@@ -348,7 +348,7 @@ Pour créer une demande dans l’application web Workfront :
 
    Lorsque vous soumettez la demande, le brouillon est automatiquement supprimé et ne peut pas être restauré.
 
-   Les demandes envoyées sont répertoriées dans la section **Soumises** de la zone des Demandes . Si vous utilisez la nouvelle expérience qui inclut Workfront Planning, les demandes envoyées par Workfront s’affichent dans l’onglet **Workfront** de la zone des Demandes .
+   Les demandes envoyées sont répertoriées dans la section **Soumises** de la zone des Demandes . Si vous utilisez la nouvelle expérience , les demandes envoyées par Workfront s’affichent dans l’onglet **Workfront** de la zone des Demandes .
 
    Pour plus d’informations sur le traitement des demandes entrantes, consultez l’article [Gérer les demandes de travail et d’équipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
