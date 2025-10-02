@@ -6,7 +6,7 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
+source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
 workflow-type: tm+mt
 source-wordcount: '2840'
 ht-degree: 77%
@@ -155,7 +155,7 @@ Pour créer une demande dans l’application web Workfront :
    Cliquez sur l’un des chemins ou formulaires de file d’attente des demandes de Workfront, ou recherchez-en un, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 1. <span class="preview">(Conditionnel) Si vous êtes passé à la nouvelle expérience , sélectionnez l’un des chemins d’accès ou formulaires de file d’attente des demandes Workfront, ou cliquez sur la barre de recherche. </span>
 
-   <span class="preview">Lorsque vous cliquez sur la barre de recherche, une liste déroulante s’affiche, affichant d’abord les files d’attente et les formulaires les plus récemment utilisés. Sélectionnez-en un dans la liste ou commencez à taper et sélectionnez la file d’attente ou la liste lorsqu’elle apparaît.</span>
+   <span class="preview">Lorsque vous cliquez sur la barre de recherche, une liste déroulante s’affiche, affichant d’abord les files d’attente et les formulaires les plus récemment utilisés. Sélectionnez-en un dans la liste ou commencez à saisir et sélectionnez la file d’attente ou le formulaire lorsqu’il apparaît.</span>
 
    >[!NOTE]
    >

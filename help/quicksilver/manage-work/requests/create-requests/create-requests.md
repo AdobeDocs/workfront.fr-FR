@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 7eb5b40c92ed743a665f6c38ce6d09db7d9a2ddb
+source-git-commit: 8c5f98bc48b644d8d15c320b2a6ca709eda775b7
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 91%
+source-wordcount: '176'
+ht-degree: 88%
 
 ---
 
@@ -40,3 +40,4 @@ Pour plus d’informations sur la création, la soumission ou l’envoi de deman
 * [Supprimer un brouillon de demande](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [Remplir automatiquement une demande à partir des données précédentes](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [Remplir automatiquement une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Création de vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
