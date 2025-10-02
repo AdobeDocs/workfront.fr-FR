@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 793a856a963060cbade33a1c29f002cecf7f7e47
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 21%
 
 ---
@@ -30,7 +30,7 @@ Vous pouvez également modifier les entités avec lesquelles vous partagez un fo
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -53,8 +53,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td>
 <p>L’un des plans Workfront suivants :</p>
 <ul><li>Sélectionner</li>
-<li>Principal</li>
-<li>Final</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p>
    </td>
 
@@ -96,7 +96,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Dans l’environnement de production, tous les utilisateurs, y compris les administrateurs système, doivent être affectés à un modèle de mise en page qui inclut Planning.</p>
 <p><span class="preview">Dans l’environnement de Prévisualisation, les utilisateurs et utilisatrices standard et les administrateurs et administratrices système ont Planning activé par défaut.</span></p>  
 </td>
@@ -116,7 +116,7 @@ Pour modifier le partage d’un formulaire de demande :
 
 {{step1-to-planning}}
 
-1. Cliquez sur l’espace de travail dans lequel vous souhaitez ajouter des enregistrements.
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez partager un formulaire.
 
    L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
 

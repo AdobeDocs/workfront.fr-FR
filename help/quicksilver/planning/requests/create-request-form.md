@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
+source-git-commit: de42feb0d5a349e6b4b403b790b4759f693f7f4c
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '3138'
 ht-degree: 7%
 
 ---
@@ -134,11 +134,15 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
    * Les champs de formule qui font référence à des champs Devise affichent les valeurs sans tenir compte des taux de change.
    * Les valeurs des champs de paragraphe affichent une valeur « S/O » sur le formulaire de demande et affichent des balises HTML au lieu du texte formaté dans la page des détails de la demande.
 
-## Commencer à créer un formulaire de demande
+## Création d’un formulaire de demande
+
+Pour créer un formulaire de demande, vous devez commencer par créer le formulaire, configurer les détails du formulaire et terminer en publiant et en partageant le formulaire.
+
+### Commencer à créer un formulaire de demande
 
 Vous pouvez créer un formulaire de demande à partir du type d’enregistrement associé au formulaire, <span class="preview">ou à partir de la zone Demandes de Workfront.</span>
 
-### Création d’un formulaire de demande à partir d’un type d’enregistrement
+#### Création d’un formulaire de demande à partir d’un type d’enregistrement
 
 {{step1-to-planning}}
 
@@ -167,7 +171,7 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 
 <div class="preview">
 
-### Création d’un formulaire de demande à partir de la zone des Demandes de Workfront
+#### Création d’un formulaire de demande à partir de la zone des Demandes de Workfront
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Requêtes**.
 1. Dans le coin supérieur droit de l’écran, cliquez sur **Formulaires de demande**.
@@ -185,16 +189,21 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur **Créer**.
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [ Configurer le formulaire ](#configure-the-form).
+1. Passez à [ Configurer les détails du formulaire de demande ](#set-up-details-for-the-request-form).
 
 </div>
 
-## Configuration du formulaire
+### Configurer les détails du formulaire de demande
 
-1. Commencez à créer ou modifier un formulaire de demande, comme décrit dans l’une des sections suivantes :
+Les détails du formulaire sont divisés en onglets.
 
-   * [Création d’un formulaire de demande à partir d’un type d’enregistrement](#create-a-request-form-from-a-record-type)
-   * <span class="preview">[Créez un formulaire de demande à partir de la zone Demandes de Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+* L’onglet **Formulaire** vous permet d’ajouter des champs et des éléments de contenu au formulaire
+* L’onglet **Configuration** vous permet de définir un processus d’approbation du formulaire <span class="preview">et de définir les options de remplissage de la demande</span>.
+* <span class="preview">L’onglet **Automatisations** vous permet d’automatiser ce qui se produira en fonction des fonctionnalités de la requête effectuée avec le formulaire.</span>
+
+#### Configurer les détails du formulaire
+
+1. Commencez à créer ou à modifier un formulaire de demande, comme décrit dans la section [Commencer à créer un formulaire de demande](#begin-creating-a-request-form).
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
 
@@ -247,6 +256,16 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
    Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Facultatif) Cliquez sur **Aperçu** pour voir comment le formulaire s’affichera pour les autres utilisateurs lorsqu’ils l’utiliseront pour envoyer un nouvel enregistrement.
+1. Passez à [Configurer les détails de configuration](#set-up-configuration-details) si vous souhaitez configurer plus de détails pour le formulaire, ou accédez à [Terminer la création du formulaire de demande](#complete-request-form-creation).
+
+#### Configurer les détails de configuration
+
+Dans l’onglet Configuration , vous pouvez définir le processus d’approbation <span class="preview">et configurer le moment où une demande créée à partir de ce formulaire sera marquée comme Terminée</span>.
+
+1. Commencez à créer ou à modifier un formulaire de demande, comme décrit dans la section [Commencer à créer un formulaire de demande](#begin-creating-a-request-form).
+
+   Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
+1. (Facultatif) Configurez tous les détails du formulaire, comme décrit dans la section [Configurer les détails du formulaire](#set-up-form-details).
 
 1. (Facultatif) Cliquez sur l’onglet **Configuration**, puis ajoutez au moins un utilisateur <span class="preview">ou une équipe</span>au champ **Approbateurs** pour approuver de nouvelles demandes pour ce formulaire d’enregistrement.
 
@@ -262,6 +281,39 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 
      Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
+1. <span class="preview">(Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise** </span>.
+
+1. <span class="preview">Choisissez si vous souhaitez qu&#39;une demande créée à partir de ce formulaire soit marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet demandé est terminé.</span>
+1. <span class="preview">(Conditionnel) Si vous avez sélectionné que la demande soit marquée comme terminée une fois l’objet demandé terminé, sélectionnez le champ et la valeur qui indiquent quand l’objet est terminé. Par exemple, vous pouvez sélectionner le champ Statut et la valeur Terminé pour terminer la demande lorsque le statut de l’objet créé est défini sur Terminé.</span>
+1. Passez à [Configurer les détails de l’automatisation](#set-up-configuration-details) si vous souhaitez configurer plus de détails pour le formulaire, ou accédez à [Terminer la création du formulaire de demande](#complete-request-form-creation).
+
+<div class="preview">
+
+#### Configurer les automatisations
+
+Vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu&#39;elles sont activées, créent des objets dans Workfront ou des enregistrements dans Workfront Planning lorsqu&#39;ils sont déclenchés à partir d&#39;un enregistrement Planning.
+
+Pour plus d’informations sur la création d’automatisations dans d’autres domaines de Workfront Planning, consultez [Configuration des automatisations d’Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+1. Sur la page des détails de l&#39;automatisation, mettez à jour les champs suivants dans la section **Triggers** :
+
+   * **Déclencheur** : sélectionnez l’action qui déclenchera l’automatisation. Actuellement, le seul déclencheur disponible pour l’automatisation des formulaires de demande est `When request object status equals pending creation`.
+
+1. Mettez à jour les champs suivants dans la section **Actions** : <!--submitted bugs for these fields - see if they need changing here-->
+   * **Actions** : sélectionnez l’action que Workfront doit effectuer lors du déclenchement de l’automatisation. Ce champ est obligatoire.
+Actuellement, la seule action disponible pour l’automatisation des formulaires de demande est `Create record`.
+
+     >[!TIP]
+     >
+     >Après avoir enregistré l’automatisation, vous ne pouvez plus modifier l’action sélectionnée dans ce champ.
+1. Passez à [Terminer la création du formulaire de demande](#complete-request-form-creation).
+
+
+</div>
+
+### Terminer la création du formulaire de demande
+
+1. Créez et configurez le formulaire comme décrit dans [Commencer à créer un formulaire de demande](#begin-creating-a-request-form) et [Configurer les détails du formulaire de demande](#set-up-details-for-the-request-form).
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire.
 
 1. Cliquez sur **Publier** pour publier le formulaire et obtenir un lien unique pour celui-ci.
@@ -279,6 +331,21 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur la flèche pointant vers la gauche du nom du formulaire dans l’en-tête pour fermer le formulaire.
 
    La vue du tableau **Formulaires de demande** s’ouvre et le formulaire y est ajouté.
+
+## Gestion des formulaires de demande existants
+
+
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez gérer les formulaires de demande.
+
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
+
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
+
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Gérer les formulaires de demande**.
+
+   Tous les formulaires de demande associés au type d’enregistrement s’affichent dans une vue tabulaire.
 
 1. (Facultatif) Passez la souris sur le nom d’un formulaire de demande en mode Tableau, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire, puis cliquez sur l’une des options suivantes :
 
