@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 9%
+source-wordcount: '1380'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 9%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -35,30 +35,44 @@ Vous pouvez créer des objets Adobe Workfront à partir de Workfront Planning de
 
   Pour plus d’informations sur la création d’objets Workfront à l’aide d’automatisations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
-Vous pouvez créer les types d&#39;objets Workfront suivants à partir de Workfront Planning lorsque vous connectez un enregistrement Workfront Planning aux types d&#39;objets Workfront suivants :
-
-* Projets
-* Portefeuilles
-* Programmes
-
 >[!IMPORTANT]
 >
->* Vous ne pouvez créer que des projets, portfolios et programmes dans Workfront lors de leur connexion à partir d’un enregistrement.
+>Vous pouvez créer les objets Workfront suivants à partir de Workfront Planning lorsque vous les connectez à des enregistrements Planning :
 >
->* Vous ne pouvez pas créer de groupes ou de sociétés lors de leur connexion à partir d&#39;un enregistrement dans Workfront Planning.
+>* Projets
+>* Portefeuilles
+>* Programmes
+>
+>Vous pouvez connecter les objets Workfront suivants aux enregistrements Planning, mais vous ne pouvez pas les créer dans le processus de connexion :
+>
+>* Groupes
+>* Entreprises
 >
 
-Vous pouvez connecter des projets, des portfolios et des programmes à partir d’un champ de connexion dans les zones suivantes de Workfront Planning :
+Tenez compte des points suivants lors de la connexion et de la création d’objets Workfront à des enregistrements Workfront Planning :
 
-* Vue Tableau d’un type d’enregistrement
-* Page de détails ou zone de prévisualisation d’un enregistrement
-* Onglet Connexions d’un enregistrement
+* Vous pouvez connecter des projets, portfolios, programmes, groupes et sociétés Workfront à partir d’un champ de connexion provenant des zones suivantes de Workfront Planning :
+
+   * Vue Tableau d’un type d’enregistrement
+   * Page de détails ou zone de prévisualisation d’un enregistrement
+   * Onglet Connexions d’un enregistrement
+
+* Vous pouvez créer des projets à partir des zones suivantes de Workfront Planning :
+
+   * Vue Tableau d’un type d’enregistrement
+   * La zone Détails d’un enregistrement dans le champ de connexion
+   * <span class="preview">Page Enregistrement connecté d’un enregistrement, dans la zone Détails </span>
+
+* Vous pouvez créer des portfolios et des programmes à partir des zones suivantes de Workfront Planning :
+
+   * Vue Tableau d’un type d’enregistrement
+   * La zone Détails d’un enregistrement dans le champ de connexion
 
 Pour plus d&#39;informations sur la connexion des enregistrements Planning aux objets Workfront, voir [Connexion des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +93,8 @@ Pour plus d&#39;informations sur la connexion des enregistrements Planning aux o
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -128,10 +142,17 @@ Pour plus d&#39;informations sur la connexion des enregistrements Planning aux o
 Vous devez disposer des éléments suivants avant de pouvoir ajouter de nouveaux projets ou portfolios en les connectant à partir d’enregistrements existants :
 
 * Types d’enregistrements liés aux projets, portfolios ou programmes Workfront. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Enregistrements. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+* Enregistrements pour les types d’enregistrements connectés aux objets Workfront. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 * L’accès et les autorisations appropriés dans Workfront Planning et Workfront, comme décrit dans la section [Exigences d’accès](#access-requirements) de cet article.
 
 ## Créer des projets en les connectant à des enregistrements de Workfront Planning
+
+Vous pouvez créer des projets en les connectant à des enregistrements dans Workfront Planning dans les domaines suivants de Workfront Planning :
+
+* Vue tabulaire d’un type d’enregistrement ou zone Détails d’un enregistrement dans le champ de connexion
+* <span class="preview">Page Enregistrement connecté d’un enregistrement, dans la zone Détails d’un </span> d’enregistrement
+
+### Créer des projets à partir de la zone Détails d&#39;un enregistrement ou de la vue Tableau d&#39;un type d&#39;enregistrement
 
 Pour créer des projets au fur et à mesure que vous les connectez à partir d’autres enregistrements :
 
@@ -154,7 +175,34 @@ Commencez à saisir le nom d’un projet, puis cliquez sur **Ajouter un projet**
 
 1. (Facultatif) Cliquez sur le nom du nouveau projet dans Workfront Planning pour ouvrir la page du projet dans Workfront et apporter des mises à jour supplémentaires au projet.
 
+<div class="preview">
+
+### Créer des projets à partir de la page Enregistrements connectés d’un enregistrement
+
+1. Connectez le type d&#39;objet Project à un type d&#39;enregistrement Workfront Planning en mode Tableau.
+
+   Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+1. Cliquez sur le nom d’un enregistrement dans n’importe quel affichage. La zone d’aperçu Détails s’ouvre.
+
+1. Ajoutez une **Page Enregistrements connectés** pour les projets.
+
+   Pour plus d’informations, consultez la section « Ajouter une page Enregistrements connectés à un enregistrement » de l’article [Gérer la mise en page de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+   La page Enregistrements connectés s’affiche en mode Tableau. Les projets connectés s’affichent dans le tableau.
+
+   ![Vue Tableau Projets dans la page Enregistrements connectés](assets/projects-connected-records-page-table.png)
+
+1. Cliquez sur **Nouvelle ligne** dans le tableau Projets pour ajouter un projet.
+
+   Vous pouvez uniquement ajouter un projet vierge dans cette zone. Vous ne pouvez pas ajouter un projet à l’aide d’un modèle.
+1. (Facultatif) Cliquez sur le nom du projet dans la vue Tableau pour ouvrir le projet dans Workfront et ajouter plus d’informations.
+
+</div>
+
 ## Créer des portfolios en les connectant à des enregistrements de Workfront Planning
+
+Vous pouvez créer des portfolios à partir de la vue Tableau d’un type d’enregistrement ou de la page Détails d’un enregistrement.
 
 Pour créer des portefeuilles au fur et à mesure que vous les connectez à partir d&#39;enregistrements Planning :
 
@@ -173,6 +221,8 @@ Pour créer des portefeuilles au fur et à mesure que vous les connectez à part
 1. (Facultatif) Cliquez sur le nom du nouveau portefeuille dans Workfront Planning pour ouvrir la page du portefeuille dans Workfront et effectuer des mises à jour supplémentaires sur le portefeuille.
 
 ## Créer des programmes en les connectant à des enregistrements de Workfront Planning
+
+Vous pouvez créer des programmes à partir de la vue Tableau d’un type d’enregistrement ou de la page Détails d’un enregistrement.
 
 Pour créer des programmes au fur et à mesure que vous les connectez à partir des enregistrements Planning :
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2308'
-ht-degree: 7%
+source-wordcount: '2434'
+ht-degree: 6%
 
 ---
 
@@ -332,7 +332,22 @@ Tous les champs de l&#39;enregistrement connecté s&#39;affichent dans la vue Ta
 
      Pour plus d&#39;informations sur la modification des enregistrements en mode Tableau, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-   * Modifiez sur la ligne l’un des enregistrements de la table de la page Enregistrements connectés . Dans l’environnement de production, tous les objets Workfront s’affichent dans une vue de tableau en lecture seule et vous ne pouvez pas les modifier. <span class="preview">Vous pouvez modifier les projets Workfront sur la ligne dans l’environnement de prévisualisation.</span>
+   * Modifiez sur la ligne l’un des enregistrements de la table de la page Enregistrements connectés .
+
+     Dans l’environnement de production, tous les objets Workfront s’affichent dans une vue de tableau en lecture seule et vous ne pouvez pas les modifier.
+
+     <span class="preview">Dans l’environnement de Prévisualisation, vous pouvez modifier les projets sur la ligne dans la page des enregistrements connectés.</span>
+
+1. <span class="preview">(Conditionnel) Lors de l’affichage d’une liste de projets connectés, effectuez l’une des opérations suivantes </span>
+
+   * <span class="preview">Cliquez sur **Connecter des enregistrements** dans le coin supérieur droit de la page d’enregistrement connectée pour connecter des projets existants.</span>
+   * <span class="preview">Modification en ligne des informations du projet dans le tableau.</span>
+   * <span class="preview">Cliquez sur **Nouvelle ligne** pour créer un projet sans modèle.</span>
+
+     Pour plus d’informations, voir [Création d’objets Workfront à partir de Workfront Planning lorsque vous les connectez à des enregistrements](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   * <span class="preview">Pointez sur un projet, cliquez sur le menu **Plus** [Plus](assets/more-menu.png), puis sur l’une des options suivantes :</span>
+      * <span class="preview">**Supprimer** pour supprimer le projet. La suppression d’un projet le déconnecte de l’enregistrement et le déplace vers la corbeille de Workfront. </span>
+      * <span class="preview">**Déconnecter** pour déconnecter le projet de l’enregistrement. Déconnexion d’un projet</span>
 
 1. (Facultatif) Double-cliquez sur le nom de l’onglet Page Enregistrements connectés
 
@@ -356,7 +371,7 @@ Tous les champs de l&#39;enregistrement connecté s&#39;affichent dans la vue Ta
 1. (Conditionnel) Pour connecter d’autres enregistrements ou objets, effectuez l’une des opérations suivantes :
 
    * Cliquez sur **Connexion** au bas du tableau, pour ajouter ou supprimer des enregistrements ou tout objet Workfront <span class="preview">à l’exception des projets</span>.
-   * <span class="preview">Dans l’environnement Aperçu, cliquez sur **Connecter des enregistrements** dans le coin supérieur droit de la page des enregistrements connectés, ou **Nouvelle ligne** au bas du tableau pour ajouter ou supprimer des projets.</span>
+   * <span class="preview">Dans l’environnement Aperçu, cliquez sur **Connecter des enregistrements** dans le coin supérieur droit de la page Enregistrements connectés pour connecter des projets existants ou cliquez sur **Nouvelle ligne** au bas du tableau pour créer des projets et les connecter automatiquement à l’enregistrement actif.</span>
 
    Pour plus d’informations, consultez la section [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
 1. (Facultatif) Pointez sur le nom de l’onglet Page Enregistrements connectés , cliquez sur **Plus** ![Menu Plus](assets/more-menu.png), puis cliquez sur **Supprimer** pour supprimer de l’onglet.

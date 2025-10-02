@@ -6,10 +6,10 @@ description: Vous pouvez appliquer la vue Jalon à une liste de projets ou à un
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 67%
+source-wordcount: '1638'
+ht-degree: 57%
 
 ---
 
@@ -19,15 +19,13 @@ ht-degree: 67%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Vous pouvez appliquer la vue Jalon à une liste de projets ou à un rapport. Vous pouvez utiliser la vue Jalon pour afficher tous les jalons associés aux tâches dans les projets que vous consultez.
 
@@ -95,8 +93,13 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Vue d’ensemble de la vue Jalon {#milestone-view-overview}
 
+<div class="preview">
+
 La vue Jalon est disponible dans les listes de projets et les rapports de projet. Vous pouvez afficher rapidement tous les jalons associés aux tâches dans les projets que vous consultez.
 
+![Projet avec vue Jalon](assets/project-with-milestone-view-with-complete.png)
+
+</div>
 
 >[!NOTE]
 >
@@ -106,9 +109,6 @@ La vue Jalon est disponible dans les listes de projets et les rapports de projet
 
 Pour plus d’informations sur la façon de basculer vers la vue Jalon, voir la section [Basculer vers la vue Jalon](#switch-to-the-milestone-view) dans cet article.
 
-<!--add new screen shot for preview or production release-->
-
-![Projet avec vue Jalon](assets/project-with-milestone-view-with-complete.png)
 
 ### Sections de la vue Jalon
 
@@ -145,26 +145,34 @@ Lors de l’affichage d’une liste de projets ou d’un rapport de projet dans 
 
   Vous pouvez ajuster le pourcentage d’achèvement directement à partir de la vue Jalon, comme décrit dans la section [Ajuster le pourcentage terminé pour les tâches dans la vue Jalon](#adjust-percent-complete-for-tasks-in-the-milestone-view) dans cet article.
 
-* **Icônes de statut de progression de la tâche :** une icône de statut s’affiche en regard de chaque projet et tâche dans la vue Jalon. <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **Icônes de statut d’avancement de la tâche :** selon l’environnement utilisé pour afficher la vue jalon, les icônes suivantes indiquent le statut d’avancement de la tâche :
 
-  <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
-   * On Time - green
-   * Behind - yellow
-   * At Risk - blue
-   * Late - red-->
+   * Dans l’environnement de production, les icônes de statut suivantes s’affichent en regard de chaque projet et tâche dans la vue Jalon :
 
+      * À l’heure\
+        ![Icône Heure d’activation](assets/gantt-ontime.png)
 
-   * À l’heure\
-     ![Icône Heure d’activation](assets/gantt-ontime.png)
+      * En retard\
+        ![Icône Derrière](assets/gantt-behind.png)
 
-   * En retard\
-     ![Icône Derrière](assets/gantt-behind.png)
+      * En danger\
+        ![ Icône En danger ](assets/gantt-atrisk.png)
 
-   * En danger\
-     ![ Icône En danger ](assets/gantt-atrisk.png)
+      * En retard\
+        ![Icône de retard](assets/gantt-late.png)
 
-   * En retard\
-     ![Icône de retard](assets/gantt-late.png)
+     <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+
+  <div class="preview">
+
+   * Dans l’environnement de prévisualisation, les cercles colorés suivants s’affichent en regard de chaque projet et tâche dans la vue Jalon :
+
+      * À l’heure - vert
+      * Derrière - jaune
+      * À risque - bleu
+      * En retard - rouge
+
+  </div>
 
   Vous pouvez désactiver l’affichage de ces icônes de statut, comme décrit dans cet article à la section [Configurer les informations qui s’affichent dans la vue « Jalon »](#configure-what-information-displays-in-the-milestone-view).
 
@@ -200,27 +208,29 @@ Lors de l’affichage d’une liste de projets ou d’un rapport de projet dans 
 
    * Aucune couleur d’ombrage n’est attribuée aux colonnes « Début » et « Achèvement » lorsque le statut de progression des tâches est « En danger » ou « En retard ».
 
-  <!--add new screen shot for preview or production release-->
+  <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
   ![Vue jalonnée avec ombrage](assets/milestone-view-with-shading.png)
 
 * **Nom du projet** : le nom du projet s’affiche avec un lien vers le projet.
-* **Icône de statut du projet** : une icône s’affiche en regard du nom du projet, indiquant le statut du projet.
+* **Icône Statut du projet** : selon l’environnement auquel vous accédez à la vue Jalon, les indicateurs suivants affichent le statut du projet :
 
-  <!--
-   <div class="preview">
-   A condition icon in the shape of a colored circle displays next to each project in the Milestone view. The possible project conditions and circle colors are: 
-   * On Target - green
-   * At Risk - yellow
-   * In Trouble - red
-   </div>
-   -->
+   * Dans l’environnement de production , une icône s’affiche en regard du nom du projet, indiquant la condition du projet. Le statut du projet peut être l&#39;un des suivants :
 
-  Le statut du projet peut être l&#39;un des suivants :
+      * Dans les temps
+      * En danger
+      * En difficulté
 
-   * Dans les temps
-   * En danger
-   * En difficulté
+  <div class="preview">
+
+   * Dans l’environnement de Prévisualisation, une icône de condition sous la forme d’un cercle coloré s’affiche en regard de chaque projet. Les conditions possibles du projet et les couleurs du cercle sont les suivantes :
+
+      * Dans les temps - vert
+      * À risque - jaune
+      * En difficulté - rouge
+
+     </div>
+
 
 ## Configurer les informations à afficher dans la vue jalonnée {#configure-what-information-displays-in-the-milestone-view}
 
@@ -238,15 +248,15 @@ Pour configurer si les icônes de statut du projet et du pourcentage d’achève
 {{step1-to-projects}}
 
 1. Cliquez sur le bouton **Affichage**, puis cliquez sur **Jalon**.
-   <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. &#x200B;<!--In the Production environment,--> Cliquez sur **Options** dans le coin supérieur droit de la vue jalonnée.
+1. Dans l’environnement de production, cliquez sur **Options** dans le coin supérieur droit de la vue Jalon, puis sélectionnez l’une des options de l’étape suivante.
 
-   <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
+   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
+
+   <div class="preview">Dans l’environnement de Prévisualisation, sélectionnez l’une des options de l’étape suivante, dans le coin supérieur droit de la vue Jalon .</div>
 
    <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
 
-   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
 
 1. Sélectionnez l’une des options suivantes :
 
@@ -277,6 +287,6 @@ Pour ajuster le pourcentage d’achèvement d’une tâche dans la vue jalonnée
 
 1. (Conditionnel) Si les pourcentages d&#39;achèvement ne sont pas affichés actuellement dans la vue Jalon, activez l&#39;affichage du Pourcentage d&#39;achèvement des tâches et des projets, comme décrit dans la section [Configurer les informations affichées dans la vue Jalon](#configure-what-information-displays-in-the-milestone-view) de cet article.
 
-1. &#x200B;<!--In the Production environment,--> Cliquez sur le pourcentage d’achèvement sous une tâche, indiquez un nouveau pourcentage, puis appuyez sur « Entrée ».
+1. Dans l’environnement de production, cliquez sur le pourcentage d’achèvement sous une tâche, spécifiez un nouveau pourcentage, puis appuyez sur Entrée.
 
-   <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
+   <div class="preview">Dans l’environnement de Prévisualisation, déplacez la diapositive Pourcentage terminé vers le nouveau Pourcentage terminé pour la mettre à jour. </div>

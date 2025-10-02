@@ -4,9 +4,9 @@ description: Vous pouvez activer l’ajout d’un type d’enregistrement à un 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1143'
 ht-degree: 7%
 
 ---
@@ -49,6 +49,8 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+Vous pouvez configurer des types d’enregistrements pour qu’ils fonctionnent sur plusieurs espaces de travail.
+
 Vous trouverez ci-dessous des fonctionnalités inter-espaces de travail de types d’enregistrements :
 
 * Vous pouvez désigner un type d’enregistrement comme centralisé. Les utilisateurs peuvent ajouter des types d’enregistrements centralisés à d’autres espaces de travail qu’ils peuvent gérer.
@@ -81,8 +83,10 @@ Pour plus d’informations, consultez l’un des articles suivants :
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Tout package Workfront</p></li>
-Et
-<li><p>Package Planning Plus</p></li></ul>
+<p>Et</p>
+<li><p>Tout package Planning permettant de créer des types d'enregistrements connectables</p></li>
+<li><p>Package Planning Plus pour créer des types d'enregistrements centralisés</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -118,19 +122,18 @@ Un gestionnaire d’espace de travail peut ajouter un type d’enregistrement ce
 
 Les utilisateurs peuvent ajouter des enregistrements à un type d&#39;enregistrement centralisé à partir de n&#39;importe quel espace de travail disposant d&#39;autorisations Contribute et où le type d&#39;enregistrement centralisé est ajouté, y compris son espace de travail d&#39;origine. Ils peuvent afficher les enregistrements de l’espace de travail pour lequel ils disposent uniquement des autorisations d’affichage.
 
-Pour plus d’informations, voir [Présentation des types d’enregistrements de l’espace de travail](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+Pour plus d’informations, voir [Présentation des types d’enregistrements de l’espace de travail](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-Pour configurer l’ajout d’un type d’enregistrement en tant que type d’enregistrement centralisé :
+Pour configurer un type d’enregistrement comme centralisé :
 
 {{step1-to-planning}}
 
-1. Cliquez sur l’espace de travail dont vous souhaitez modifier les types d’enregistrements.
+1. Cliquez sur l’espace de travail dont vous souhaitez configurer les types d’enregistrements comme centralisés.
 
    La page Workspace s’ouvre et les types d’enregistrements s’affichent.
 1. Utilisez l’une des méthodes suivantes :
 
    * Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte du type d’enregistrement
-Ou
    * Cliquez sur une carte de type d’enregistrement pour ouvrir la page de type d’enregistrement, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement.
 1. Cliquez sur **Modifier**.
 
@@ -140,7 +143,7 @@ Ou
    >
    >Si un type d’enregistrement a déjà été désigné comme type d’enregistrement centralisé et qu’il a été ajouté à d’autres espaces de travail, l’option Modifier est grisée.
 
-1. Dans la zone **Modifier le type d’enregistrement**, sélectionnez l’onglet **Paramètres avancés**.
+1. Dans la zone **Modifier le type d’enregistrement**, cliquez sur l’onglet **Paramètres avancés**.
 1. Activez le paramètre **Autoriser l’ajout de ce type d’enregistrement à d’autres espaces de travail**.
 
    ![Modifier les paramètres avancés du type d’enregistrement avec Ajouter aux autres espaces de travail active](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
@@ -197,12 +200,11 @@ Pour configurer un type d’enregistrement auquel se connecter à partir d’aut
 1. Utilisez l’une des méthodes suivantes :
 
    * Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte du type d’enregistrement, puis cliquez sur **Modifier**
-Ou
    * Cliquez sur une carte de type d’enregistrement pour ouvrir la page de type d’enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Modifier**.
 
    ![Autres options de menu de la carte de type d’enregistrement](assets/more-menu-options-from-record-type-card.png)
 
-1. Dans la zone **Modifier le type d’enregistrement**, sélectionnez l’onglet **Paramètres avancés**.
+1. Dans la zone **Modifier le type d’enregistrement**, cliquez sur l’onglet **Paramètres avancés**.
 1. Activez le paramètre **Autoriser la connexion à ce type d’enregistrement dans d’autres espaces de travail**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![Modifier l’onglet Paramètres avancés de type d’enregistrement avec la connexion depuis d’autres espaces de travail activée](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)

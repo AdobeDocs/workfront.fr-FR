@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '3723'
-ht-degree: 88%
+source-wordcount: '3810'
+ht-degree: 87%
 
 ---
 
@@ -26,12 +26,22 @@ ht-degree: 88%
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 Vous pouvez modifier les détails des tâches que vous avez créées ou pour lesquelles vous disposez des autorisations « Contribuer » ou « Gérer ».
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +53,8 @@ Vous pouvez modifier les détails des tâches que vous avez créées ou pour les
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Standard</p>
-   <p>Actuellement : Travail ou licence supérieure</p> </td> 
+   <td> <p>Standard</p>
+   <p>Travail ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
@@ -183,6 +193,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
    * [Formulaires personnalisés](#Custom%C2%A0F)
    * [Finances](#finance)
    * [Paramètres](#settings)
+   * [Commentaire](#comment)
 
    >[!NOTE]
    >
@@ -605,9 +616,23 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
    </table>
     </li>
 
-1. Cliquer sur **Enregistrer**.
+1. Cliquez sur **Enregistrer** ou passez à la section suivante.
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### Commentaire
+
+1. Commencez à modifier votre tâche, comme décrit dans la section [Modifier les tâches](#Edit2) de cet article.
+1. Cliquez sur **Commentaire** dans le panneau de gauche.
+
+   ![Section Commentaire sur la zone Modifier la tâche](assets/comment-section-on-edit-task-box.png)
+
+1. Ajoutez une mise à jour dans l&#39;espace prévu à cet effet.
+1. (Facultatif) Ajoutez l’un des éléments suivants à votre mise à jour :
+
+   * Ajoutez des utilisateurs ou des équipes à votre mise à jour dans la zone **Taguer des personnes** ou utilisez @ pour les inclure dans votre mise à jour.
+   * Cochez la case **Privé à ma société** pour que la mise à jour reste privée pour les personnes de votre société.
+1. Cliquer sur **Enregistrer**.
 
 ## Modifier une tâche dans l’en-tête de la tâche (limité)
 

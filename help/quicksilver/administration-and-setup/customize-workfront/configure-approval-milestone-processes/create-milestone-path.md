@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 64%
+source-wordcount: '889'
+ht-degree: 52%
 
 ---
 
@@ -26,6 +26,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+<div class="preview">
+
+Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+
+Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des chemins jalonnés qui peuvent ensuite être appliqués à n’importe quel projet du système. Les modifications apportées aux chemins jalonnés dans cette zone affectent l’ensemble du système Workfront.
 
@@ -45,14 +53,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +84,18 @@ Pour plus d’informations sur l’association d’un chemin jalonné à un proj
 
 1. Cliquez sur **Processus** > **Chemins jalonnés**.
 1. Cliquez sur **Nouveau chemin jalonné**.
-1. Indiquez les informations suivantes dans la zone **Informations de base** :
+
+   <div class="preview">
+
+   La boîte Nouveau chemin jalonné s’ouvre.
+
+   ![Nouvelle zone de chemin jalonné](assets/new-milestone-path-box.png)
+
+   </div>
+
+1. Cliquez sur **Informations de base** dans le panneau de gauche.
+
+   Mettez à jour les informations suivantes :
 
    <table style="table-layout:auto">
     <tr>
@@ -93,7 +116,10 @@ Pour plus d’informations sur l’association d’un chemin jalonné à un proj
     </tr>
    </table>
 
-1. Indiquez les informations suivantes dans la zone **Jalons** :
+1. Cliquez sur **Jalons** dans le panneau de gauche.
+1.Dans l’environnement de production, cliquez sur **Ajouter un jalon** pour ajouter des jalons au chemin d’accès.
+   <span class="preview">Dans l’environnement Aperçu, cliquez sur **Nouvelle ligne** pour ajouter des jalons au chemin d’accès.</span>
+1. Mettez à jour les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,15 +140,14 @@ Pour plus d’informations sur l’association d’un chemin jalonné à un proj
     </tbody> 
    </table>
 
-1. Cliquez sur **Ajouter le jalon** et continuez à ajouter des jalons, si nécessaire, jusqu’à ce que le chemin soit terminé.
-
+1. (Facultatif) Faites glisser et déposez chaque jalon pour les réorganiser.
 1. Cliquez sur **Créer un chemin jalonné** pour enregistrer vos modifications.
 
    Votre chemin jalonné est prêt à être associé à un projet.
 
    Pour plus d’informations sur l’association des chemins jalonnés à des projets et des jalons à des tâches, voir [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-
+1. (Facultatif) Dans la liste Chemins jalonnés , sélectionnez un jalon, puis cliquez sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png) pour ouvrir le chemin jalonné et modifier ses informations.
 1. (Facultatif) Cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export-icon.png), puis sélectionnez l’un des formats suivants pour exporter la liste de chemins jalonnés vers un fichier :
 
    * PDF
@@ -130,10 +155,12 @@ Pour plus d’informations sur l’association d’un chemin jalonné à un proj
    * Excel (xlsx)
    * Délimité par des tabulations
 
-1. (Facultatif) Sélectionnez un jalon dans la liste des jalons, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) pour modifier les informations du jalon.
-1. (Facultatif) Sélectionnez un jalon dans la liste des jalons, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) pour le supprimer.
+1. (Facultatif) Sélectionnez un ou plusieurs jalons dans la liste de jalons, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) pour le supprimer.
 1. Cliquez sur **Oui, supprimer**.
-Le jalon est supprimé et ne peut pas être récupéré. Toutes les informations de projet associées au jalon et toutes les informations de tâche associées aux chemins jalonnés sont également supprimées.
+
+   Le jalon est supprimé et ne peut pas être récupéré. Le chemin jalonné est supprimé de tout projet qui lui était précédemment associé et tous les jalons sont supprimés des tâches qui leur sont associées.
+
+   Les jalons supprimés ne peuvent pas être récupérés.
 
 
 ## Affichage des détails du chemin jalonné dans un rapport de projet

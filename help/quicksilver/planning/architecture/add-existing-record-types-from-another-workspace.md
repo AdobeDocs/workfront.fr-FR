@@ -4,10 +4,10 @@ description: Les types d’enregistrements sont les types d’objets d’Adobe 
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 9%
+source-wordcount: '744'
+ht-degree: 8%
 
 ---
 
@@ -25,15 +25,18 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-En tant que gestionnaire d&#39;espace de travail, vous pouvez ajouter un type d&#39;enregistrement qui existe dans un espace de travail à un espace de travail que vous gérez dans Adobe Workfront Planning.
+En tant que responsable d’espace de travail, vous pouvez ajouter un type d’enregistrement qui existe dans un autre espace de travail à un espace de travail que vous gérez dans Adobe Workfront Planning.
 
-Vous devez d’abord désigner un type d’enregistrement comme centralisé avant que les responsables d’espace de travail puissent l’ajouter à d’autres espaces de travail en tant que type d’enregistrement existant.
+Cet article décrit comment ajouter un type d’enregistrement à partir d’un enregistrement existant et comment le supprimer, s’il n’est plus nécessaire.
 
-Vous pouvez désigner un type d’enregistrement comme centralisé lorsque vous le créez ou le modifiez, car vous définissez ses paramètres sur plusieurs espaces de travail.
+Un gestionnaire d’espace de travail doit d’abord désigner un type d’enregistrement comme centralisé avant de pouvoir l’ajouter aux espaces de travail que vous gérez en tant que type d’enregistrement existant.
+
+Vous pouvez désigner un type d&#39;enregistrement comme centralisé lorsque vous le créez ou le modifiez, au fur et à mesure que vous définissez ses paramètres avancés.
 
 Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 Avant d’ajouter des enregistrements à un espace de travail à partir d’un type d’enregistrement centralisé, consultez l’article [Présentation des types d’enregistrements sur l’ensemble des espaces de travail](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 
 ## Conditions d’accès
 
@@ -53,8 +56,10 @@ Avant d’ajouter des enregistrements à un espace de travail à partir d’un t
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Tout package Workfront</p></li>
-Et
-<li><p>Package Planning Plus</p></li></ul>
+<p>Et</p>
+<li><p>Tout package Planning permettant de créer des types d'enregistrements connectables</p></li>
+<li><p>Package Planning Plus pour créer des types d'enregistrements centralisés</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -92,7 +97,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    >[!TIP]
    >
-   >Lorsqu’aucun type d’enregistrement n’est configuré pour être ajouté à un autre espace de travail, l’option permettant de les ajouter à partir d’un autre espace de travail ne s’affiche pas lors de la création d’un type d’enregistrement.
+   >Si aucun type d’enregistrement n’est configuré pour être ajouté à un autre espace de travail, l’option permettant de les ajouter à partir d’un autre espace de travail ne s’affiche pas.
 
    Les événements suivants se produisent :
 
@@ -100,19 +105,27 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
       * Tous les champs d’origine
       * Toutes les connexions aux enregistrements
-   * Vous pouvez afficher les enregistrements ajoutés à partir d&#39;autres espaces de travail uniquement si vous disposez au moins des autorisations d&#39;affichage pour ces espaces de travail.
+   * Vous pouvez afficher les enregistrements ajoutés à partir d&#39;autres espaces de travail qui utilisent le même type d&#39;enregistrement centralisé, uniquement si vous disposez au moins des autorisations d&#39;affichage pour ces espaces de travail.
    * L’icône **type d’enregistrement centralisé** ![icône de type d’enregistrement centralisé](assets/global-icon.png) est ajoutée à la carte du nouveau type d’enregistrement.
    * Le champ en lecture seule **Workspace** est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
 
      >[!NOTE]
      >
-     >* Vous ne pouvez pas modifier l’aspect, les paramètres avancés ou les champs d’origine du nouveau type d’enregistrement. Vous ne pouvez modifier le type d’enregistrement et tous ses champs et paramètres d’origine qu’à partir de l’espace de travail d’origine.
+     >Vous ne pouvez pas modifier l’aspect, les paramètres avancés ou les champs d’origine du nouveau type d’enregistrement. Vous ne pouvez modifier le type d’enregistrement et tous ses champs et paramètres d’origine qu’à partir de l’espace de travail d’origine.
 
 1. (Facultatif) Cliquez sur le type d’enregistrement nouvellement ajouté et déposez-le dans n’importe quelle section de l’espace de travail.
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans la carte du nouveau type d’enregistrement ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur **Supprimer**.
+## Supprimer un type d’enregistrement centralisé d’un espace de travail secondaire
+
+Vous pouvez supprimer un type d’enregistrement que vous avez ajouté à partir d’un autre espace de travail si nécessaire. Si vous le supprimez, il sera uniquement supprimé de l’espace de travail secondaire et les enregistrements ajoutés à partir de cet espace de travail. Le type d’enregistrement d’origine reste dans son espace de travail d’origine et dans les autres espaces de travail où il a été ajouté.
+
+Pour supprimer un type d’enregistrement centralisé d’un espace de travail secondaire :
+
+1. Accédez au type d’enregistrement centralisé dans l’espace de travail secondaire.
+
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) sur la carte du type d’enregistrement ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur **Supprimer**.
 1. (Conditionnel) Saisissez **delete** dans le champ fourni, puis cliquez sur **Supprimer définitivement**.
 
    Les événements suivants se produisent :

@@ -3,9 +3,10 @@ title: Types d’enregistrements de l’espace de travail croisé - Aperçu
 description: Les types d’enregistrements centralisés peuvent être ajoutés à plusieurs espaces de travail à partir d’un espace de travail principal ou central dans Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1349'
 ht-degree: 1%
 
 ---
@@ -24,7 +25,7 @@ Dans Adobe Workfront Planning, vous pouvez activer les fonctionnalités inter-es
 
 Vous trouverez ci-dessous des fonctionnalités inter-espaces de travail de types d’enregistrements :
 
-* Vous pouvez désigner un type d’enregistrement comme centralisé. Les utilisateurs peuvent ajouter des types d’enregistrements centralisés à d’autres espaces de travail qu’ils peuvent gérer.
+* Vous pouvez désigner un type d’enregistrement comme centralisé. Les utilisateurs peuvent ajouter des types d’enregistrements centralisés aux autres espaces de travail qu’ils gèrent.
 
   >[!IMPORTANT]
   >
@@ -39,7 +40,7 @@ Cet article vous donne un aperçu des types d’enregistrements de l’ensemble 
 
 ## Présentation des types d’enregistrements centralisés
 
-Les types d’enregistrements centralisés peuvent être ajoutés à plusieurs espaces de travail à partir d’un espace de travail principal ou central dans Adobe Workfront Planning.
+Les types d’enregistrements centralisés peuvent être ajoutés à plusieurs espaces de travail à partir d’un espace de travail principal ou central dans Workfront Planning.
 
 Lors de l’implémentation de Workfront Planning pour une organisation multi-équipes avec des workflows communs, vous devrez peut-être définir une structure et des métadonnées cohérentes pour les types d’enregistrements clés (tels que les campagnes ou les éléments livrables) qui peuvent être ajoutés aux espaces de travail de chaque équipe pour capturer et gérer leur travail.
 
@@ -51,12 +52,12 @@ Pour utiliser des types d’enregistrements centralisés, procédez comme suit :
 
 1. Configurez un type d’enregistrement à centraliser dans un espace de travail spécifique.
 
-   Un responsable d’espace de travail peut sélectionner des utilisateurs disposant d’une licence standard, des équipes, des groupes, des rôles ou des sociétés afin d’ajouter un type d’enregistrement sélectionné aux espaces de travail qu’il gère.
+   Un gestionnaire d’espace de travail peut accorder des autorisations aux utilisateurs disposant d’une licence Standard, ou aux équipes, groupes, rôles et sociétés pour ajouter un type d’enregistrement choisi aux espaces de travail qu’ils gèrent.
 
-   Le type d’enregistrement d’origine existe dans son espace de travail d’origine, mais est rendu visible à partir de tous les autres espaces de travail.
+   Le type d’enregistrement d’origine existera dans son espace de travail d’origine, mais sera rendu visible dans d’autres espaces de travail.
 
    Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-1. Ajoutez un type d’enregistrement existant à partir d’un type d’enregistrement existant qui a été configuré en tant que type d’enregistrement centralisé vers un espace de travail secondaire.
+1. Ajoutez un type d’enregistrement à un espace de travail secondaire à partir d’un espace existant qui a été configuré comme un type d’enregistrement centralisé.
 
    Le type d’enregistrement existe dans les espaces de travail suivants :
 
@@ -71,7 +72,7 @@ Pour utiliser des types d’enregistrements centralisés, procédez comme suit :
 
 Le type d’enregistrement configuré pour être centralisé présente les propriétés suivantes :
 
-* Toutes ses informations ne peuvent être modifiées que dans l’espace de travail d’origine.
+* Toutes ses informations (aspect, champs d’origine) ne peuvent être modifiées que dans l’espace de travail d’origine.
 
 * Vous pouvez effectuer les actions suivantes sur le type d’enregistrement centralisé à partir de l’espace de travail d’origine d’un type d’enregistrement centralisé :
 
@@ -85,21 +86,21 @@ Le type d’enregistrement configuré pour être centralisé présente les propr
 
   Cela permet au type d’enregistrement centralisé de rester dans les espaces de travail où il a déjà été ajouté.
 * Les enregistrements que vous ajoutez à un type d&#39;enregistrement centralisé sont visibles uniquement pour les utilisateurs qui disposent des autorisations d&#39;affichage de l&#39;espace de travail dans lequel ils ont été ajoutés.
-* Les enregistrements que vous ajoutez à partir d’un espace de travail secondaire sont cumulés et affichés dans l’espace de travail d’origine. Tous les membres de l’espace de travail d’origine y obtiennent des autorisations d’affichage.
+* Les enregistrements que vous ajoutez à partir d’un espace de travail secondaire sont cumulés et affichés dans l’espace de travail d’origine. Tous les membres de l’espace de travail d’origine obtiennent des autorisations d’affichage.
 
 * Les types d’enregistrement connectés d’un type d’enregistrement centralisé seront disponibles pour la connexion à partir des espaces de travail où ce type d’enregistrement est ajouté.
 
   Par exemple, si vous disposez d’un type d’enregistrement Campaign ayant une connexion avec le type d’enregistrement Régions et que vous ajoutez le type d’enregistrement Campaign à un espace de travail secondaire, les régions pourront être connectées sur plusieurs espaces de travail pour l’espace de travail secondaire. Les membres secondaires de l’espace de travail peuvent désormais créer des campagnes et les lier à des régions.
 
-* Les champs créés pour un type d’enregistrement centralisé à partir de l’espace de travail d’origine sont visibles de tous les espaces de travail où le type d’enregistrement est ajouté. Les champs d’un espace de travail d’origine sont en lecture seule dans les espaces de travail secondaires.
+* Les champs créés pour un type d’enregistrement centralisé à partir de l’espace de travail d’origine sont visibles de tous les espaces de travail où le type d’enregistrement est ajouté. Les paramètres de champ d’un espace de travail d’origine sont en lecture seule dans les espaces de travail secondaires.
 
 ### Considérations relatives aux types d’enregistrements centralisés après les avoir ajoutés à un espace de travail secondaire
 
-* Les contributeurs à l’espace de travail Secondaire obtiennent l’autorisation de contribution pour le type d’enregistrement centralisé dans l’espace de travail de leur équipe. Il peut y ajouter et y gérer des enregistrements.
+* Les contributeurs à l’espace de travail Secondaire obtiennent l’autorisation de contribution pour le type d’enregistrement centralisé dans l’espace de travail de leur équipe. Ils peuvent y ajouter et y gérer des enregistrements à partir de l’espace de travail secondaire.
 
-* Les visionneuses d’espace de travail Secondaire obtiennent l’autorisation d’affichage du type d’enregistrement centralisé dans l’espace de travail de leur équipe. Ils ne peuvent pas ajouter ni gérer d’enregistrements dans .
+* Les visionneuses d’espace de travail Secondaire obtiennent l’autorisation d’affichage du type d’enregistrement centralisé dans l’espace de travail de leur équipe. Ils ne peuvent pas y ajouter ni y gérer des enregistrements.
 
-* Les gestionnaires d’espace de travail Secondaire peuvent effectuer les actions suivantes sur le type d’enregistrement ajouté à partir d’un type d’enregistrement centralisé dans un espace de travail secondaire :
+* Les gestionnaires d’espace de travail Secondaire peuvent effectuer les actions supplémentaires suivantes sur le type d’enregistrement ajouté à partir d’un type d’enregistrement centralisé dans un espace de travail secondaire :
 
    * Supprimez-le.
 
@@ -110,26 +111,25 @@ Le type d’enregistrement configuré pour être centralisé présente les propr
         Fields added to a centralized record from a secondary workspace are visible only from the secondary workspace. 
     * Share it-->
 
-* Vous ne pouvez pas effectuer les actions suivantes sur le type d’enregistrement ajouté à partir d’un type d’enregistrement centralisé dans un espace de travail secondaire :
+* Aucun utilisateur ne peut effectuer les actions suivantes sur le type d’enregistrement ajouté à partir d’un type d’enregistrement centralisé dans un espace de travail secondaire :
 
    * Le modifier.
 
      Vous ne pouvez pas modifier son apparence, les fonctionnalités de l’espace de travail croisé ou les champs ajoutés à partir de l’espace de travail d’origine.
    * Créer et gérer des formulaires de demande
-   * Création et gestion de formulaires de demande
+   * Création et gestion des automatisations
 
-* Les enregistrements ajoutés dans un espace de travail secondaire sont visibles à partir des espaces de travail suivants, si vous disposez d&#39;autorisations d&#39;affichage ou supérieures pour ces espaces de travail :
+* Les enregistrements ajoutés dans un espace de travail secondaire sont visibles à partir des espaces de travail suivants uniquement si vous disposez d&#39;autorisations d&#39;affichage ou supérieures pour ces espaces de travail :
 
    * Espace de travail secondaire dans lequel ils sont ajoutés.
    * Espace de travail d’origine du type d’enregistrement centralisé.
    * Tous les autres espaces de travail auxquels l’espace de travail centralisé est ajouté.
 
-* Les scénarios suivants existent pour les enregistrements créés dans les espaces de travail des équipes :
+* Les scénarios suivants existent pour les enregistrements créés dans les espaces de travail secondaires :
 
    * Si vous disposez d’autorisations de niveau Gérer sur l’espace de travail d’origine et d’aucune autorisation sur un espace de travail secondaire, vous pouvez afficher les enregistrements ajoutés à partir des espaces de travail secondaires dans l’espace de travail d’origine, mais vous ne pouvez pas les gérer à partir de l’espace de travail d’origine.
    * Si vous disposez des autorisations de niveau Gérer sur l’espace de travail secondaire, vous pouvez gérer les enregistrements dans l’espace de travail d’origine du type d’enregistrement centralisé ou à partir de l’espace de travail où ils ont été ajoutés.
-
-     Vous pouvez afficher les enregistrements dans des espaces de travail secondaires supplémentaires où le type d&#39;enregistrement centralisé est ajouté uniquement si vous disposez des autorisations d&#39;affichage pour ces espaces de travail.
+   * Vous pouvez afficher les enregistrements dans des espaces de travail secondaires supplémentaires où le type d&#39;enregistrement centralisé est ajouté uniquement si vous disposez des autorisations d&#39;affichage pour ces espaces de travail.
 
 ### Accès aux connexions d&#39;un type d&#39;enregistrement centralisé
 
@@ -155,7 +155,7 @@ Pour utiliser des types d’enregistrements connectables, procédez comme suit :
 
 1. Configurez un type d’enregistrement à connecter dans un espace de travail spécifique.
 
-   Un gestionnaire d’espace de travail peut sélectionner les espaces de travail auxquels un type d’enregistrement désigné peut se connecter.
+   Un gestionnaire d’espace de travail peut sélectionner les espaces de travail auxquels un type d’enregistrement désigné peut se connecter à partir d’autres espaces de travail.
 
    Le type d’enregistrement d’origine existe dans son espace de travail d’origine et est ajouté en tant que type d’enregistrement connecté à un autre espace de travail.
 
@@ -163,5 +163,3 @@ Pour utiliser des types d’enregistrements connectables, procédez comme suit :
 1. Connectez-vous à un type d’enregistrement désigné comme connectable à partir d’un autre espace de travail que vous gérez.
 
    Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-   Les sections suivantes présentent des considérations sur les types d’enregistrements centralisés et leur fonctionnement dans leurs espaces de travail d’origine ou secondaires.
