@@ -7,28 +7,32 @@ description: Votre équipe d’administration Adobe Workfront accorde aux utili
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
+source-git-commit: 48c0f5c617f41a4ce51ea45c17817aa869ba5adb
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 57%
+source-wordcount: '1392'
+ht-degree: 45%
 
 ---
 
 # Partager un document
 
-Votre équipe d’administration Adobe Workfront accorde aux utilisateurs et utilisatrices l’accès en affichage ou en modification des documents lorsqu’elle attribue des niveaux d’accès, comme expliqué dans la section [Accorder l’accès aux documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
+L&#39;administrateur Workfront contrôle qui peut afficher ou modifier des documents dans la zone Niveaux d&#39;accès de la configuration. Pour plus d’informations, voir [Accorder l’accès aux documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
-Le niveau d’accès que l’équipe d’administration Workfront accorde aux utilisateurs et utilisatrices leur permet de consulter ou de modifier des documents. En outre, d’autres utilisateurs et utilisatrices peuvent également accorder à d’autres des autorisations pour consulter ou gérer des documents spécifiques qu’ils ont eux-mêmes chargés ou qu’ils peuvent partager.
+Les utilisateurs peuvent également partager des documents qu’ils ont chargés ou auxquels ils ont accès, ce qui leur donne l’autorisation de les afficher ou de les gérer.
 
-Les autorisations sont spécifiques à un élément dans Workfront et définissent les actions que vous pouvez effectuer sur cet élément. Pour plus d’informations sur les autorisations relatives aux objets, voir [Vue d’ensemble du partage des autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+* Les autorisations s’appliquent à des éléments individuels et définissent les actions qu’une personne peut entreprendre.
+* La personne qui charge un document obtient automatiquement un contrôle total (Gestion des autorisations).
+* Pour partager un dossier entier, voir [Partager un dossier de documents](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-L’utilisateur ou utilisatrice qui charge un document dans Workfront dispose par défaut d’autorisations de gestion.
+>[!NOTE]
+>
+>Si votre instance Workfront utilise le stockage d’entreprise Adobe, vous ne pouvez pas partager des documents individuels. Au lieu de cela, vous obtenez un accès global au niveau du projet. Gardez à l’esprit que le partage d’un projet peut autoriser l’accès à des informations sensibles, telles que des données financières, en fonction du niveau d’autorisation choisi.
 
-Pour plus d’informations sur le partage d’un dossier de documents entier, voir [Partager un dossier de documents](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 Pour partager des objets, vous devez disposer des éléments suivants :
 
@@ -62,39 +66,11 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-## Remarques sur le partage de documents
 
-Outre les considérations ci-dessous, voir également [Vue d’ensemble du partage des autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
->[!NOTE]
->
->Une équipe d’administration Workfront peut ajouter ou supprimer des autorisations à tous les éléments du système, pour toutes les personnes, sans être la personne propriétaire de ces éléments.
-
-* Le partage d’un document est similaire au partage de tout autre objet dans Workfront. Pour plus d’informations sur le partage de documents dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Vous pouvez accorder les autorisations suivantes aux documents :
-
-   * Afficher
-   * Gérer
-
-* Vous pouvez également partager un document publiquement ou à l’échelle du système.
-
-  >[!CAUTION]
-  >
-  >Nous avisons la prudence lors du partage d’un objet contenant des informations confidentielles avec des utilisateurs et utilisatrices externes. Cette fonction leur permet d’afficher des informations sans être un utilisateur ou une utilisatrice Workfront ou une personne membre de votre organisation.
-
-* Vous pouvez partager un document avec une personne qui n’a pas de compte Workfront, en ajoutant son adresse e-mail dans le champ Accorder l’accès au document à.
-* Lorsque vous partagez un document, les utilisateurs et utilisatrices ont le même accès à toutes les versions et toutes les épreuves du document.\
-  Pour plus d’informations sur la relecture dans Workfront, voir la section [Relecture](../../review-and-approve-work/proofing/proofing.md).
-
-* Vous pouvez hériter des autorisations sur les documents à partir des objets auxquels ils sont associés. Votre équipe d’administration Workfront peut limiter l’héritage des autorisations pour les documents de votre niveau d’accès.
-
-  Pour plus d’informations sur la limitation des autorisations héritées sur les documents, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-
-  Vous pouvez supprimer manuellement les autorisations héritées sur les documents. Pour plus d’informations, voir [Supprimer les autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-
-* Un document joint n’hérite des autorisations que de l’objet auquel il a été joint. Si vous créez un dossier sur l’objet et que vous déplacez le document dans le dossier, il hérite des autorisations du dossier. En revanche, si vous créez un dossier sur un objet parent ou grand-parent et que vous déplacez le document dans ce dossier, il n’hérite pas des autorisations de ce dossier.
 
 ## Partager un document
+
+L’utilisateur ou utilisatrice qui charge un document dans Workfront dispose par défaut d’autorisations de gestion.
 
 {{step1-to-documents}}
 
@@ -172,8 +148,21 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble du parta
 
 1. Cliquer sur **Enregistrer**.
 
+## Partage de documents avec le stockage d’entreprise Adobe
+
+Workfront passe à la solution de stockage d’entreprise Adobe afin de fournir une meilleure connectivité avec les produits Adobe Creative Cloud. Les clients existants seront déplacés vers le nouveau modèle par phases. Pour plus d’informations sur les avantages du stockage d’entreprise Adobe, consultez la [présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Si votre instance Workfront utilise le stockage d’entreprise Adobe, vous ne pouvez pas partager directement des documents individuels. Au lieu de cela, vous devez accorder l’accès au niveau du projet.
+
+>[!IMPORTANT]
+>
+>Le partage d’un projet peut également donner aux utilisateurs l’accès à des informations sensibles concernant le projet, telles que des données financières, en fonction du niveau d’autorisation choisi.
+>
+>Assurez-vous de consulter attentivement les paramètres d’autorisation avant de partager.
 
 ## Autorisations de documents
+
+Les autorisations sont spécifiques à un élément dans Workfront et définissent les actions que vous pouvez effectuer sur cet élément. Pour plus d’informations sur les autorisations relatives aux objets, voir [Vue d’ensemble du partage des autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 Le tableau suivant indique les autorisations que vous pouvez accorder aux utilisateurs et utilisatrices lorsqu’ils sont autorisés à consulter ou à gérer des documents :
 
@@ -330,3 +319,35 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux utilis
 &#42; L’action est partagée par les documents et les dossiers de documents.
 
 &#42;&#42; Vous devez disposer d’une licence de relecture distincte associée à votre compte Workfront pour pouvoir relire des documents. Contactez votre personne gestionnaire de compte pour obtenir une licence de relecture. Pour plus d’informations sur la relecture dans Workfront, voir [Relecture](../../review-and-approve-work/proofing/proofing.md).
+
+## Remarques sur le partage de documents
+
+Outre les considérations ci-dessous, voir également [Vue d’ensemble du partage des autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+>[!NOTE]
+>
+>Une équipe d’administration Workfront peut ajouter ou supprimer des autorisations à tous les éléments du système, pour toutes les personnes, sans être la personne propriétaire de ces éléments.
+
+* Le partage d’un document est similaire au partage de tout autre objet dans Workfront. Pour plus d’informations sur le partage de documents dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Vous pouvez accorder les autorisations suivantes aux documents :
+
+   * Afficher
+   * Gérer
+
+* Vous pouvez également partager un document publiquement ou à l’échelle du système.
+
+  >[!CAUTION]
+  >
+  >Nous avisons la prudence lors du partage d’un objet contenant des informations confidentielles avec des utilisateurs et utilisatrices externes. Cette fonction leur permet d’afficher des informations sans être un utilisateur ou une utilisatrice Workfront ou une personne membre de votre organisation.
+
+* Vous pouvez partager un document avec une personne qui n’a pas de compte Workfront, en ajoutant son adresse e-mail dans le champ Accorder l’accès au document à.
+* Lorsque vous partagez un document, les utilisateurs et utilisatrices ont le même accès à toutes les versions et toutes les épreuves du document.\
+  Pour plus d’informations sur la relecture dans Workfront, voir la section [Relecture](../../review-and-approve-work/proofing/proofing.md).
+
+* Vous pouvez hériter des autorisations sur les documents à partir des objets auxquels ils sont associés. Votre équipe d’administration Workfront peut limiter l’héritage des autorisations pour les documents de votre niveau d’accès.
+
+  Pour plus d’informations sur la limitation des autorisations héritées sur les documents, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+  Vous pouvez supprimer manuellement les autorisations héritées sur les documents. Pour plus d’informations, voir [Supprimer les autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+
+* Un document joint n’hérite des autorisations que de l’objet auquel il a été joint. Si vous créez un dossier sur l’objet et que vous déplacez le document dans le dossier, il hérite des autorisations du dossier. En revanche, si vous créez un dossier sur un objet parent ou grand-parent et que vous déplacez le document dans ce dossier, il n’hérite pas des autorisations de ce dossier.
