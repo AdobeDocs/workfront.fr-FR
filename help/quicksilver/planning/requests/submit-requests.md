@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2075'
 ht-degree: 4%
 
 ---
@@ -251,7 +251,14 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 
    ![Page de détails de la demande](assets/request-details-page.png)
 
+   <div class="preview">
+      Dans l’aperçu :
 
+   ![Demander une page avec des commentaires](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">(Facultatif) Entrez un commentaire dans la zone Commentaires.
 1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Enregistrement**.
 
    La page de l’enregistrement s’ouvre dans Workfront Planning.
@@ -315,6 +322,14 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 
    ![Page de détails de la demande](assets/request-details-page.png)
 
+   <div class="preview">
+   Dans l’aperçu :
+
+   ![Demander une page avec des commentaires](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">(Facultatif) Entrez un commentaire dans la zone Commentaires.
 1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Enregistrement**.
 
    La page de l’enregistrement s’ouvre dans Workfront Planning.
