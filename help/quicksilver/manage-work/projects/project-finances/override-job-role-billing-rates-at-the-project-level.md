@@ -6,14 +6,16 @@ description: En tant que personne gestionnaire de projet, vous pouvez spécifier
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '866'
 ht-degree: 93%
 
 ---
 
 # Remplacer les taux de facturation des fonctions au niveau du projet
+
+{{highlighted-preview}}
 
 En tant que personne gestionnaire de projet, vous pouvez spécifier le taux de facturation d’une fonction sur un projet spécifique. Ce taux de facturation au niveau du projet remplace le taux de facturation au niveau du système pour cette fonction. Workfront utilise le taux de facturation au niveau de la fonction pour calculer les revenus, au lieu d’utiliser le taux de facturation au niveau du système.
 
@@ -89,8 +91,6 @@ Pour remplacer un taux de facturation dans un projet, procédez comme suit :
 
 1. Sélectionnez dans le champ **Fonction** la fonction dont vous souhaitez modifier le taux de facturation.
 
-   ![Remplacer le taux de facturation pour le projet](assets/override-billing-rate-on-project-nwe-350x310.png)
-
    Le champ **Taux de facturation par défaut** affiche le taux pour cette fonction au niveau du système.
 
 1. Dans le champ **Taux de facturation 1**, saisissez le taux de facturation de remplacement à utiliser une fois, puis cliquez sur **Enregistrer** pour remplacer le taux de facturation.
@@ -105,7 +105,11 @@ Pour remplacer un taux de facturation dans un projet, procédez comme suit :
    * **Date de début** : il s’agit de la date à laquelle la validité du taux par défaut se termine.
    * **Date de fin**: il s’agit de la date à laquelle le remplacement du nouveau de taux de facturation se termine.
 
-   ![new_billing_rate_with_adapt_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   ![Taux de facturation avec dates de remplacement](assets/billing-rates-093025.png)
+
+   Exemple d’image dans l’environnement de production :
+   ![Taux de facturation avec dates de remplacement](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
 1. Le fuseau horaire des dates que vous sélectionnez s’affiche au bas de la zone Nouveau taux de facturation. Il s’agit du fuseau horaire associé à votre instance Workfront, comme indiqué dans la zone Infos client de la configuration. Pour plus d’informations, voir [Configurer les informations de base pour votre système](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 1. Workfront applique le taux de fonction de remplacement aux heures qui se produisent pendant les périodes spécifiées lors du calcul des revenus du projet.
