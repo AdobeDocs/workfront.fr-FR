@@ -5,7 +5,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 46%
@@ -136,7 +136,7 @@ En plus des priorités par défaut fournies dans Workfront, vous pouvez ajouter 
      </div>
 
    * **Description** : saisissez une description de la priorité pour expliquer sa fonction.
-   * <span class="preview">**Masquer le choix**</span> ou **Masquer** : <span class="preview">Choisissez **Oui**</span> ou cochez la case pour masquer une priorité qui n’est plus nécessaire.
+   * <span class="preview">**Masquer le choix**</span> ou **Masquer** : <span class="preview">Sélectionnez **Oui**</span> ou cochez la case pour masquer une priorité qui n’est plus nécessaire.
 
      Une priorité masquée ne s’affiche nulle part dans Workfront. Les utilisateurs ne peuvent donc pas la choisir pour leurs projets, tâches ou événements.
 

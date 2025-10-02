@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 66%
@@ -134,7 +134,7 @@ En tant qu’administrateur ou administratrice de Workfront, vous pouvez créer 
      </div>
 
    * **Description** : saisissez une description de la gravité pour expliquer sa fonction.
-   * <span class="preview">**Masquer le choix**</span> ou **Masquer** : <span class="preview">Choisissez **Oui**</span> ou cochez la case pour masquer une gravité qui n’est plus nécessaire.
+   * <span class="preview">**Masquer le choix**</span> ou **Masquer** : <span class="preview">Sélectionnez **Oui**</span> ou cochez la case pour masquer une gravité qui n’est plus nécessaire.
 
      Une gravité masquée ne s’affiche nulle part dans Workfront, de sorte que les utilisateurs et utilisatrices ne peuvent pas la choisir pour leurs problèmes.
 
