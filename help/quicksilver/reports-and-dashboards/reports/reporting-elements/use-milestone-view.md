@@ -156,7 +156,7 @@ Lors de l’affichage d’une liste de projets ou d’un rapport de projet dans 
         ![Icône Derrière](assets/gantt-behind.png)
 
       * En danger\
-        ![ Icône En danger ](assets/gantt-atrisk.png)
+        ![&#x200B; Icône En danger &#x200B;](assets/gantt-atrisk.png)
 
       * En retard\
         ![Icône de retard](assets/gantt-late.png)
