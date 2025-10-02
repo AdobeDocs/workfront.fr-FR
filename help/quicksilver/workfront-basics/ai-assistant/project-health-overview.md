@@ -5,9 +5,9 @@ description: La fonctionnalité d’intégrité du projet utilise la puissance d
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 1b0d47178085b6d971342a6a77d3341776ef62e6
+source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1487'
 ht-degree: 4%
 
 ---
@@ -128,7 +128,7 @@ Vous trouverez ci-dessous les conditions disponibles que l’assistant AI attrib
         <td> 
         <ul><li>Dérive des objectifs</li>
         <li>Champs manquants</li>
-        <li>Planifier les modifications</li>
+        <li>Modifications de planning</li>
         <li>Travail sous-estimé</li>
         <li>Progression du projet</li>
         <li>Tâches en retard</li>
@@ -141,7 +141,7 @@ Vous trouverez ci-dessous les conditions disponibles que l’assistant AI attrib
         <td>
         <ul><li>Dérive des objectifs</li>
         <li>Champs manquants</li>
-        <li>Planifier les modifications</li>
+        <li>Modifications de planning</li>
         <li>Travail sous-estimé</li>
         <li>Progression du projet</li>
         <li>Tâches en retard</li>
@@ -154,7 +154,7 @@ Vous trouverez ci-dessous les conditions disponibles que l’assistant AI attrib
         <td>
         <ul><li>Dérive des objectifs</li>
         <li>Champs manquants</li>
-        <li>Planifier les modifications</li>
+        <li>Modifications de planning</li>
         <li>Travail sous-estimé</li>
         <li>Progression du projet</li>
         <li>Tâches en retard</li>
