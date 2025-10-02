@@ -173,7 +173,7 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
 
    Une confirmation s’affiche en bas de l’écran indiquant que les feuilles de temps ont bien été générées. De nouvelles feuilles de temps sont générées en fonction des nouveaux profils que vous avez créés.
 
-   Pour plus d’informations, voir [ Générer manuellement des feuilles de temps ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+   Pour plus d’informations, voir [&#x200B; Générer manuellement des feuilles de temps &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
    La première fois que le profil de feuille de temps génère des feuilles de temps, deux feuilles de temps sont créées pour chaque utilisateur, pour la période qui inclut l’heure actuelle ainsi que pour la période suivante.
 
