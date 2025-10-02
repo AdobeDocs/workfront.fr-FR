@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 4146dd1d11b54155ad5510625c761d66dd649245
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2508'
 ht-degree: 7%
 
 ---
@@ -22,15 +22,110 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Modification en ligne des connexions Workfront dans la page Enregistrements connectés de l’enregistrement
+<!--## Centralized record types
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+When implementing Workfront Planning for a multi-team organization with common workflows, you might need to define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work.  
+
+ Also, you might need each team's work to roll up to a central level.  
+
+ In such a workflow, you can ensure that teams capture their work consistently while unlocking cross-team visibility, without the need to add everything to one workspace, or everyone in the organization to every workspace. You can use centralized record types to achieve this. 
+
+You can now enable record types to be centralized and use them across multiple workspaces. Users can use the same field structure and connections that are already configured in a central workspace.  
+
+For more information, see the following articles:  
+
+* [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) 
+
+* [Configure record type cross-workspace capabilities](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) 
+
+* [Add existing record types from another workspace](help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+
+## New limit for connection fields for one record type
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+We have introduced a limit of 30 connection fields for each record type.  
+
+If your organization currently has more than 30 connection fields for one record type, the additional connections will be inherited going forward. However, you cannot add more connection fields. For new record types, the new limit of 30 connection fields will be enforced.  
+
+For more information, see [Connected Record Types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+
+## Améliorations apportées aux formulaires de demande dans Workfront Planning
+
+>[!NOTE]
+>
+>Aperçu : 2 octobre 2025
+>>Version rapide de production : 15 octobre 2025
+>>Production pour tous : 16 octobre 2025
+
+Pour simplifier le processus de demande, nous avons apporté quelques améliorations aux formulaires de demande. Désormais, lors de la configuration d’un formulaire de demande, vous pouvez configurer les éléments suivants :
+
+* Activez une option pour n’autoriser qu’une seule décision lorsqu’une demande comporte plusieurs approbateurs.
+* Configurez le moment où les requêtes créées à partir du formulaire seront automatiquement marquées comme terminées. Vous pouvez définir la demande pour qu&#39;elle soit marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet demandé est terminé selon des critères que vous spécifiez.
+* Configurer une automatisation qui est déclenchée lorsqu’une demande est envoyée à partir du formulaire. Actuellement, vous pouvez créer automatiquement des enregistrements lors de l’envoi de la demande.
+
+Pour plus d’informations sur la création d’un formulaire de demande et la configuration de ces options, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Fonctionnalité de glisser-déposer dans les vues Chronologie et Calendrier
+
+>[!NOTE]
+>
+>Aperçu : 2 octobre 2025
+>>Version rapide de production : 15 octobre 2025
+>>Production pour tous : 16 octobre 2025
+
+
+Vous pouvez désormais faire glisser et déposer des enregistrements dans les vues Chronologie et Calendrier. Faire glisser les enregistrements dans une autre période met automatiquement à jour leurs dates de début et de fin.
+
+Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+
+## Commentaire sur les demandes dans Workfront Planning
+
+>[!NOTE]
+>
+>Aperçu : 2 octobre 2025
+>>Version rapide de production : 15 octobre 2025
+>>Production pour tous : 16 octobre 2025
+
+Pour faciliter la communication avec les demandes effectuées dans Workfront Planning, nous avons ajouté une zone Commentaires à la page Détails de la demande . Cela s’avère utile, par exemple, si la personne à laquelle la demande est affectée a des questions pour la personne qui a effectué la demande.
+
+Auparavant, les commentaires sur les demandes n’étaient pas disponibles dans Workfront Planning.
+
+Pour plus d’informations sur les demandes, y compris les commentaires, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+
+<!--## Approve a Workfront Planning request in the My Approvals widget
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make it easier to approve Workfront Planning requests, we've added them to the My Approvals widget in Home. Now, you can approve or reject these requests directly from the widget, allowing you to manage these approvals without leaving Home.
+
+Previously, Workfront approvals could be managed only within Workfront Planning.
+
+For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).-->
+
+## Modification en ligne de projets Workfront dans la page Enregistrements connectés de l’enregistrement
 
 >[!NOTE]
 >
 >Aperçu : 25 septembre 2025
->&#x200B;>Version rapide de production : 15 octobre 2025
->&#x200B;>Production complète : 16 octobre 2025
+>>Version rapide de production : 15 octobre 2025
+>>Production complète : 16 octobre 2025
 
-Vous pouvez désormais modifier sur la ligne les objets connectés Workfront dans la page Enregistrements connectés . Vous pouvez également modifier l’ordre des objets connectés, copier et coller des lignes et d’autres fonctions d’une vue de tableau.
+Vous pouvez désormais modifier sur la ligne les projets connectés Workfront dans la page Enregistrements connectés . Vous pouvez également créer des projets sans modèle à partir de la page des enregistrements connectés.
 
 Pour plus d’informations, voir [ Gérer la page d’enregistrement ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
@@ -146,8 +241,8 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >[!NOTE]
 >
 >Aperçu : 11 septembre 2025
->&#x200B;>Production pour tous les clients : 11 septembre 2025
->&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
+>>Production pour tous les clients : 11 septembre 2025
+>>[!BADGE Hors programme ]{type=Neutral}
 
 Si votre entreprise utilise à la fois Adobe Workfront Planning et Adobe GenStudio for Performance Marketing, vous pouvez définir des concepts marketing tels que des campagnes, des produits et des rôles de manière plus détaillée que les concepts pris en charge par défaut par GenStudio.
 
@@ -312,8 +407,8 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >[!NOTE]
 >
 >Aperçu : 7 août 2025
->&#x200B;>Production pour tous les clients : août 2025
->&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
+>>Production pour tous les clients : août 2025
+>>[!BADGE Hors programme ]{type=Neutral}
 
 Nous avons ajouté de nouvelles expressions avec l’utilisation suivante aux champs de formule dans Workfront Planning et aux champs calculés personnalisés dans Workfront :
 
@@ -328,8 +423,8 @@ Pour plus d’informations, voir [Vue d’ensemble des expressions de données c
 >[!NOTE]
 >
 >Aperçu : 31 juillet 2025
->&#x200B;>Production pour tous les clients : 31 juillet 2025
->&#x200B;>[!BADGE Hors programme &#x200B;]{type=Neutral}
+>>Production pour tous les clients : 31 juillet 2025
+>>[!BADGE Hors programme ]{type=Neutral}
 
 Nous avons ajouté un bouton Maximiser pour agrandir le champ de formule lors de la création ou de la modification du champ dans une vue de tableau d&#39;enregistrements. De plus, nous avons ajouté un bouton Réduire dans la nouvelle fenêtre agrandie pour revenir à la zone de création de champ.
 
@@ -378,8 +473,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais créer des enregistrements dans la vue chronologique d’un type d’enregistrement en double-cliquant n’importe où sur la chronologie.
 
@@ -394,8 +489,8 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais partager un type d’enregistrement à partir du menu Plus de la carte de type d’enregistrement de la page de l’espace de travail. Avant cette amélioration, l’option Partager n’était disponible que dans la page du type d’enregistrement.
 
@@ -406,8 +501,8 @@ Pour plus d’informations, voir [Partager les types d’enregistrements](/help/
 >[!NOTE]
 >
 >Aperçu : 24 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Vous pouvez désormais afficher toutes les vues Planification de Workfront (tableau, chronologie et calendrier) en mode plein écran. La fonctionnalité d’affichage est conservée et vous pouvez également modifier l’affichage en plein écran.
 
@@ -420,8 +515,8 @@ Pour plus d’informations, consultez la section [Gérer les vues d’enregistre
 >[!NOTE]
 >
 >Aperçu : 22 juillet 2025
->&#x200B;>Production pour la version rapide : vendredi 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Production pour la version rapide : vendredi 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Pour rendre le processus d&#39;approbation plus flexible, nous avons ajouté la possibilité d&#39;ajouter des équipes en tant qu&#39;approbateurs sur les formulaires de demande Planning. Vous pouvez désormais saisir et sélectionner des noms d’équipe lors de la définition des approbateurs. N’importe quel membre de l’équipe peut prendre une décision, qui compte comme la décision d’approbation de l’ensemble de l’équipe.
 
@@ -434,8 +529,8 @@ Pour plus d’informations, voir [Ajouter une approbation à un formulaire de de
 >[!NOTE]
 >
 >Aperçu : 17 juillet 2025
->&#x200B;>Production pour la version rapide : vendredi 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Production pour la version rapide : vendredi 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Les champs suivants sont introduits afin de capturer les informations d&#39;approbation des enregistrements créés lors de l&#39;envoi d&#39;une demande avec approbation :
 
@@ -449,8 +544,8 @@ Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/plan
 >[!NOTE]
 >
 >Aperçu : 10 juillet 2025
->&#x200B;>Version rapide de production : 14 août 2025
->&#x200B;>Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>>Version rapide de production : 14 août 2025
+>>Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 
 Désormais, lorsque des regroupements sont appliqués à une vue Tableau, l’ajout d’un enregistrement au tableau renseigne automatiquement les champs associés aux regroupements auxquels vous ajoutez l’enregistrement.

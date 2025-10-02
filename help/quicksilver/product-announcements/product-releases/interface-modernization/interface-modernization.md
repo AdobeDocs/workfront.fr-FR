@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '8031'
+source-wordcount: '8402'
 ht-degree: 2%
 
 ---
@@ -24,19 +24,39 @@ Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versio
 
 ## Administration et configuration
 
-<!--### Interface updates when adding or editing group timesheet profiles
+### Nouvelle interface et nouvelle fonctionnalité pour les zones Nouveau chemin jalonné et Modifier le chemin jalonné
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Version préliminaire : 2 octobre 2025 ; Version de production : à partir de la semaine du 9 octobre 2025**
 
-We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+Les zones Nouveau chemin jalonné et Modifier chemin jalonné possèdent désormais une nouvelle interface. La liste des chemins jalonnés a une nouvelle apparence et certaines fonctionnalités de cette zone ont peut-être changé.
 
-To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+Pour plus d’informations, voir [Créer un chemin jalonné](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+### Mises à jour de l’interface lors de l’ajout ou de la modification de profils de feuilles de temps de groupe
+
+**Version préliminaire : 30 septembre 2025 ; Version de production : à partir de la semaine du 2 octobre 2025**
+
+Nous avons mis à jour l’aspect de la page Profil de feuille de temps lors de la modification ou de l’ajout d’un profil de feuille de temps de groupe.
+
+Pour afficher ces modifications, accédez à Configuration > Groupes > sélectionner un nom de groupe > Profils de feuille de temps et ajoutez un nouveau profil ou modifiez un profil existant.
+
+Pour plus d’informations, voir la section [Créer, modifier et affecter des profils de feuille de temps](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+
+### Mises à jour de l’interface pour les listes de statut
+
+**Version préliminaire : 2 octobre 2025 ; Version de production : 9 octobre 2025**
+
+Nous avons mis à jour l’aspect des listes Status pour qu’elles correspondent à la conception dans d’autres zones de l’application.
+
+Cette mise à jour affecte :
+
+* La zone Statuts sous Configuration > Préférences du projet
+* Les statuts s’affichent lors de l’affichage d’un groupe
 
 ### Mises à jour de l’interface pour la zone Gravités dans la configuration
 
-**Version préliminaire : 25 septembre 2025 ; Version de production : 2 octobre 2025**
+**Version préliminaire : 25 septembre 2025 ; Version de production : 9 octobre 2025**
 
 Nous avons mis à jour la page Gravités avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -48,7 +68,7 @@ Pour plus d&#39;informations, voir [Créer ou personnaliser la gravité des prob
 
 ### Mises à jour de l’interface pour la zone Priorités dans la configuration
 
-**Version préliminaire : 25 septembre 2025 ; Version de production : 2 octobre 2025**
+**Version préliminaire : 25 septembre 2025 ; Version de production : 9 octobre 2025**
 
 Nous avons mis à jour la page Priorités avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -208,6 +228,38 @@ Pour plus d’informations, voir [Modifier des programmes](/help/quicksilver/man
 
 ## Projets
 
+### Mises à jour de l’interface pour les taux de facturation
+
+**Version préliminaire : 2 octobre 2025 ; Version de production : à partir de la semaine du 9 octobre 2025**
+
+Nous avons mis à jour l’aspect de la page Taux de facturation pour un projet afin qu’elle corresponde aux autres zones de l’application. Les boîtes de dialogue d’ajout et de modification des taux de facturation ont également été mises à jour.
+
+Pour afficher cette modification, accédez à un projet > Taux de facturation.
+
+Pour plus d’informations, voir [Remplacer les taux de facturation des fonctions au niveau du projet](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+### Mises à jour de l’interface pour une liste de projets ou un rapport lors de l’application de la vue Jalon
+
+**Version préliminaire : 2 octobre 2025 ; Version de production : à partir de la semaine du 9 octobre 2025**
+
+Nous avons mis à jour l&#39;aspect d&#39;une liste de projets ou d&#39;un rapport lorsque vous leur appliquez la vue Jalon.
+
+La liste ou le rapport de projet correspond désormais à la conception d’autres zones de Workfront. Pour plus d’informations, voir [Utilisation de la vue Jalon](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
+<!--### Interface updates for the Edit Tasks box
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+ We have updated the look and feel of the Edit Tasks box when editing tasks in bulk. The Edit Tasks box now matches the design of a single-task Edit box.   
+
+The following changes are included in this update: 
+
+*There is a new experience for assigning resources to tasks, when editing a single task and when editing tasks in bulk.  
+
+*The Resource Scope field has been removed from the Edit task box.  
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
 ### Mise à jour de l’interface lors de la modification en bloc de modèles
 
 **Version préliminaire : 18 septembre 2025 ; Version de production : 25 septembre 2025**
@@ -215,14 +267,6 @@ Pour plus d’informations, voir [Modifier des programmes](/help/quicksilver/man
 Nous avons mis à jour l’aspect de la zone Modifier les modèles lors de la modification de modèles en bloc à partir d’une liste de modèles. L&#39;organisation des informations dans la zone de modification des modèles correspond désormais à la zone de modification à modèle unique.
 
 Pour plus d’informations, voir [Modifier les modèles de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
-
-<!--### Interface updates for a project list or report when applying the Milestone view
-
-**Preview release: September 11, 2025; Production release: September 18, 2025**
-
-We have updated the look and feel of a project list or report when you apply the Milestone view to them.
-
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Modifications de l’interface pour Convertir une tâche en projet sans modèle
 
@@ -427,16 +471,15 @@ Pour plus d’informations, voir
 * [Créer des règles de transmission](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 
-
 ## Utilisateurs
 
-<!--### Interface updates for the User Details page
+### Mises à jour de l’interface pour la page Détails de l’utilisateur
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Version préliminaire : 2 octobre 2025 ; Version de production : 9 octobre 2025**
 
-We have updated the look and feel of the User Details page to match other areas of the application.
+Nous avons mis à jour l’aspect de la page Détails de l’utilisateur pour qu’elle corresponde aux autres zones de l’application.
 
-You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+Vous pouvez afficher la conception mise à jour en accédant à Utilisateurs , en sélectionnant un utilisateur et en cliquant sur Détails dans le panneau de gauche.
 
 ### Mises à jour de l’interface pour les congés personnels
 
@@ -791,7 +834,7 @@ Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksi
 
 ### Les URL avec /tile ou /qstile ne sont plus prises en charge dans les tableaux de bord Workfront
 
-**Version préliminaire : 13 mai ; Version de production : à annoncer**
+**Version préliminaire : 13 mai ; Version de production : à compter du 20 mai 2025**
 
 Si une page externe figure dans un tableau de bord avec une URL Workfront contenant des `/tile` ou des `/qstile`, cette page ne se charge plus.
 

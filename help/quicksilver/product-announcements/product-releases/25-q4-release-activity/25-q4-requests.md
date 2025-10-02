@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 12%
+source-wordcount: '388'
+ht-degree: 10%
 
 ---
 
@@ -18,20 +18,34 @@ Cette page décrit les améliorations apportées aux demandes à l’environneme
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2025, voir [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
-## Nouvelle colonne Statut combinée dans la liste des demandes unifiées
+## Création et enregistrement de vues dans la zone des Demandes
 
 >[!NOTE]
 >
->* Aperçu : 28 août 2025
->* Mise à jour rapide de la production : 11 septembre 2025
->* Version de production pour toute la clientèle : vendredi 16 octobre 2025
+>Aperçu : 2 octobre 2025
+>>Version rapide de production : 15 octobre 2025
+>>Production pour tous : 16 octobre 2025
 
-Pour simplifier l’expérience de demande unifiée, la colonne Statut affiche désormais à la fois le statut de la demande et le statut d’approbation, selon ce qui s’applique à une demande donnée.
+Pour faciliter la consultation des informations dont vous avez besoin, nous avons ajouté la possibilité de créer et d’enregistrer des vues dans la zone Demandes . Vous pouvez désormais enregistrer une vue, y compris les filtres et les configurations de colonne, et passer d’une vue à l’autre. Un administrateur Workfront peut ajouter la nouvelle vue aux modèles de mise en page.
 
-Pour plus d’informations sur la création de requêtes, voir :
+Auparavant, les filtres et les configurations de colonne ne pouvaient pas être enregistrés.
 
-* Pour Workfront : [création et envoi de requêtes](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* Pour Workfront Planning : [envoi de demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
+Pour obtenir des informations et des instructions, voir [Création de vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+<!--## New combined Status column in unified Request list 
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
+
+For more information on creating requests see:
+
+* For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
 
 ## Mises à jour de la demande d’expérience
 
