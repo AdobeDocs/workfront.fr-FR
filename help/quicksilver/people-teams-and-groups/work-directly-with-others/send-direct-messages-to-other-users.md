@@ -89,7 +89,7 @@ Cette option n&#39;est disponible que si vous disposez d&#39;une licence Standar
 1. Sélectionnez l’utilisateur ou les utilisateurs auxquels vous souhaitez envoyer un message, puis cliquez sur [!UICONTROL **Envoyer la mise à jour à l’utilisateur**].
 1. Saisissez votre message dans la fenêtre [!UICONTROL Envoyer la mise à jour à l’utilisateur]. Utilisez les options de formatage de texte selon vos besoins. Pour plus d’informations, consultez [Utilisation de texte enrichi dans un commentaire Workfront](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment) dans l’article [Mise à jour de travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![Envoyez un message à l’utilisateur dans la fenêtre Envoyer la mise à jour à l’utilisateur ](assets/send-update-to-user-072825.png)
+   ![Envoyez un message à l’utilisateur dans la fenêtre Envoyer la mise à jour à l’utilisateur &#x200B;](assets/send-update-to-user-072825.png)
 
 1. (Facultatif) Cliquez sur **Baliser les personnes** pour baliser d’autres utilisateurs dans le message. Pour plus d’informations, voir [Taguer d’autres personnes sur les mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Facultatif) Sélectionnez **[!UICONTROL Réservé à mon entreprise]** pour que ce message ne soit visible que par les autres personnes de votre entreprise.
