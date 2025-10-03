@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 27%
+source-wordcount: '422'
+ht-degree: 23%
 
 ---
 
 # Supprimer les vues d’enregistrement
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -104,18 +104,20 @@ La vue est supprimée pour tous les utilisateurs qui disposent des autorisations
 
    Par défaut, tous les enregistrements du type sélectionné s’affichent dans la vue tableau.
 
-1. Pointez sur l&#39;un des noms de la vue dans l&#39;onglet Vue, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png) à gauche du nom de la vue, puis cliquez sur **Supprimer**.
 
-   ![Menu Afficher plus sur une vue d’enregistrement](assets/view-more-menu-with-duplicate-option.png)
+1. Dans l’onglet de la vue, effectuez l’une des opérations suivantes :
 
-   >[!TIP]
-   >
-   >Vous devrez peut-être cliquer sur **Plus** à droite du dernier onglet pour trouver la vue à supprimer.
+   * Selon l’environnement à partir duquel vous accédez à la vue, procédez comme suit :
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
+      * Dans l’environnement de production, passez la souris sur le nom de l’onglet de la vue à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Supprimer**.
+
+     >[!TIP]
+     >
+     >Vous devrez peut-être cliquer sur **Plus** à droite du dernier onglet pour trouver la vue à supprimer.
+
+      * <span class="preview"> Dans l&#39;environnement Aperçu , cliquez sur l&#39;onglet de la vue, survolez la vue avec la souris dans le menu déroulant, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Supprimer**.</span>
+
+     ![Menu Plus avec options](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. Cliquez sur **Supprimer** pour confirmer. <!--ensure there is not another saving step here?!-->
 

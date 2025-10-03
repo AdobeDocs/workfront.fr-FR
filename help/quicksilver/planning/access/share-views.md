@@ -6,19 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1869'
-ht-degree: 17%
+source-wordcount: '1971'
+ht-degree: 16%
 
 ---
 
 
 # Partager des vues
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--take out preview and production references at production-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -38,7 +40,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -61,8 +63,8 @@ This article describes how you can share a view with others. For information abo
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -141,9 +143,13 @@ Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous dis
 
    La page du type d’enregistrement s’affiche.
 
-1. Dans l’onglet Affichage , effectuez l’une des opérations suivantes :
+1. Dans l’onglet de la vue, effectuez l’une des opérations suivantes :
 
-   * Pointez sur le nom de l’onglet de la vue à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
+   * Selon l’environnement à partir duquel vous accédez à la vue, procédez comme suit :
+
+      * Dans l’environnement de production, passez la souris sur le nom de l’onglet de la vue à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
+
+      * <span class="preview"> Dans l’environnement Aperçu , cliquez sur l’onglet de la vue, survolez la vue avec la souris dans le menu déroulant, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Partager**.</span>
 
      ![Menu Plus d’une vue](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -272,10 +278,8 @@ Les utilisateurs et utilisatrices qui accèdent à un lien vers une vue pour laq
 1. (Conditionnel) Si vous êtes le responsable d&#39;une vue, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les domaines suivants :
 
    * Une notification in-app
-
      ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
    * Notification par e-mail
-
      ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou

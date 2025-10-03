@@ -6,9 +6,9 @@ description: Vous pouvez modifier les modèles de projet pour refléter les modi
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '5658'
+source-wordcount: '5655'
 ht-degree: 88%
 
 ---
@@ -652,8 +652,6 @@ Editing templates in bulk differs depending on which environment you are using.
 
 *****************and hide the first line below************ -->
 
-Pour modifier des modèles en masse, procédez comme suit :
-
 {{step1-to-templates}}
 
 1. Sélectionnez plusieurs modèles dans la liste.
@@ -671,12 +669,11 @@ Pour modifier des modèles en masse, procédez comme suit :
 
    * Vue d’ensemble
    * Finances
-   * Portfolio
-   * Paramètres
-   * Accès
    * Formulaires personnalisés
-   * Tâches
-   * Problèmes
+   * Paramètres du modèle
+   * Paramètres de la tâche
+   * Paramètres de l&#39;événement
+   * Accès
    * Commentaire
 
 1. Cliquer sur **Enregistrer**.

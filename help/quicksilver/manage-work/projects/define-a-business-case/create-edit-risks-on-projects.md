@@ -6,10 +6,10 @@ description: Les risques sont des événements ou des facteurs possibles qui emp
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 52%
+source-wordcount: '1080'
+ht-degree: 51%
 
 ---
 
@@ -115,7 +115,7 @@ Vous pouvez créer et modifier des risques dans la section Risques d&#39;un proj
 
    ![Section Risques de la tâche](assets/risks-section-on-project-2022.png)
 
-1. Cliquez sur **Commencer à ajouter des risques** et créez des risques en modifiant en ligne leurs informations.
+1. Cliquez sur **Ajouter plus de risques** et créez des risques en modifiant leurs informations en ligne.
 
    Ou
 
@@ -131,15 +131,11 @@ Vous pouvez créer et modifier des risques dans la section Risques d&#39;un proj
 
    * **Probabilité** : indiquez la probabilité que le risque se produise sous la forme d’une valeur de pourcentage.
    * **Coût potentiel** : indiquez le coût estimé si le risque doit se produire.
-   * **Coût de l’atténuation** : indiquez le coût du plan d’atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
    * **Coût réel** : indiquez le coût réel du risque si le risque s&#39;est produit.
+   * **Coût de l’atténuation** : indiquez le coût du plan d’atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
    * **Plan d’atténuation** : mettez à jour la description du plan pour atténuer le risque.
 
-1. (Le cas échéant) Cliquez sur **Entrée** si vous créez le risque en ligne.
-
-   Ou
-
-   Cliquez sur **Enregistrer** si vous modifiez les informations dans la zone **Nouveau risque**.
+1. Cliquer sur **Enregistrer**.
 
 1. (Facultatif) Sélectionnez un **Statut** différent pour le risque, dans le menu déroulant du **Statut** lors de l’application de la vue **Standard** pour la liste des risques.
 
@@ -167,14 +163,14 @@ Pour modifier les risques :
 
 1. Si vous avez cliqué sur **Modifier**, la boîte de dialogue **Modifier le risque** ou **Modifier les risques** s&#39;ouvre.
 
-   Envisagez de modifier les champs suivants :
+   Mettez à jour les champs suivants :
 
    * **Description** : modifiez la description du risque.
    * **Type de risque** : mettez à jour la catégorie à laquelle le risque appartient.
    * **Probabilité** : indiquez la probabilité que le risque se produise sous la forme d’une valeur de pourcentage.
    * **Coût potentiel** : indiquez le coût estimé si le risque doit se produire.
-   * **Coût de l’atténuation** : indiquez le coût du plan d’atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
    * **Coût réel** : indiquez le coût réel du risque si le risque s&#39;est produit.
+   * **Coût de l’atténuation** : indiquez le coût du plan d’atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
    * **Plan d’atténuation** : mettez à jour la description du plan pour atténuer le risque.
 
 1. Cliquer sur **Enregistrer**.

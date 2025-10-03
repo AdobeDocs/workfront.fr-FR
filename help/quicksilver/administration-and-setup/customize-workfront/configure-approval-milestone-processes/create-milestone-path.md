@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 52%
@@ -117,7 +117,8 @@ Pour plus d’informations sur l’association d’un chemin jalonné à un proj
    </table>
 
 1. Cliquez sur **Jalons** dans le panneau de gauche.
-1.Dans l’environnement de production, cliquez sur **Ajouter un jalon** pour ajouter des jalons au chemin d’accès.
+
+1. Dans l’environnement de production, cliquez sur **Ajouter un jalon** pour ajouter des jalons au chemin d’accès.
    <span class="preview">Dans l’environnement Aperçu, cliquez sur **Nouvelle ligne** pour ajouter des jalons au chemin d’accès.</span>
 1. Mettez à jour les informations suivantes :
 

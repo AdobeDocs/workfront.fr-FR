@@ -6,18 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 35%
+source-wordcount: '454'
+ht-degree: 30%
 
 ---
 
 # Dupliquer les vues d’enregistrement
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--remove preview and production references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -107,12 +109,11 @@ La duplication des vues est identique pour tous les types de vues dans Workfront
    La page de type d’enregistrement s’ouvre.
 Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.
 
-1. Pointez sur l’onglet de la vue à dupliquer, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Dupliquer**.
+1. Selon l’environnement utilisé, procédez comme suit :
 
-   ![Menu Afficher plus sur une vue d’enregistrement](assets/view-more-menu-with-duplicate-option.png)
+   * Dans l’environnement de production, passez la souris sur l’un des noms de la vue dans l’onglet Vue, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png) à gauche du nom de la vue, puis cliquez sur **Dupliquer**.
+   * <span class="preview">Dans l’environnement de Prévisualisation, cliquez sur l’icône déroulante ![Icône déroulante](assets/drop-down-icon.png) en regard du nom de la vue actuelle, survolez le nom d’une vue avec la souris, cliquez sur **Plus**, puis **Dupliquer**.</span>
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Duplicate**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Duplicate**.</span>-->
-   La vue est dupliquée et le nom de la nouvelle vue suit le modèle suivant : `Original view's name (Copy)`. Le nouvel onglet de vue s’affiche à la fin de tous les onglets de vue.
+     ![Menu plus affiché avec des options](assets/more-menu-for-views-expanded-with-delete-option.png)
+
+     La vue est dupliquée et le nom de la nouvelle vue suit le modèle suivant : `Original view's name (Copy)`. Le nouvel onglet de vue s’affiche à la fin de tous les onglets de vue.

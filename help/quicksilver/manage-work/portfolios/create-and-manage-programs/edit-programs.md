@@ -6,10 +6,10 @@ description: Vous pouvez modifier les informations des programmes que vous avez 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 66%
+source-wordcount: '1070'
+ht-degree: 59%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 66%
 
 Vous pouvez modifier les informations sur les programmes que vous avez créés ou que d’autres utilisateurs et utilisatrices ont créés et partagés avec vous.
 
-Vous pouvez modifier un programme dans la page du programme ou modifier des programmes dans une liste.
+Vous pouvez modifier un programme dans la page du programme ou vous pouvez modifier un ou plusieurs programmes en bloc dans une liste.
 
 ## Conditions d’accès
 
@@ -36,7 +36,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard] </p><p>Ou </p><p>Actuelle : [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
@@ -188,4 +189,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Une fois les modifications enregistrées, le commentaire que vous ajoutez s’affiche dans l’onglet [!UICONTROL Mises à jour] et envoie un e-mail aux utilisateurs et utilisatrices qui y sont inclus.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
+
+
+## Modifier les programmes en bloc
+
+Lorsque vous modifiez des programmes en bloc, toutes les informations que vous mettez à jour s’appliquent à tous les programmes sélectionnés, en remplaçant les informations d’origine de chaque programme.
+
+1. Accédez à une liste de programmes et sélectionnez plusieurs programmes.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
+
+   La boîte de dialogue **Modifier les programmes** s’ouvre.
+1. Mettez à jour les informations dans les sections suivantes :
+
+   * Vue d’ensemble
+   * Formulaires personnalisés
+   * Commentaire
+
+   Pour plus d’informations, reportez-vous à la section [Modifier des programmes](#edit-programs-1) de cet article, en commençant par l’étape 4. <!--ensure this stays accurate-->
 

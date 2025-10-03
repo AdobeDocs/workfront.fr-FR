@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 36%
+source-wordcount: '2764'
+ht-degree: 35%
 
 ---
 
@@ -235,7 +235,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    <span class="preview">![Barre à gauche en mode Chronologie à redimensionner](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-1. <span class="preview">Cliquez sur une barre d’enregistrement, puis faites-la glisser et déposez-la à un autre emplacement pour mettre à jour sa chronologie et ses dates. Les dates de début et de fin de l’enregistrement sont mises à jour automatiquement.</span>
+1. <span class="preview">Cliquez et maintenez une barre d’enregistrement enfoncée, puis faites-la glisser et déposez-la à un autre emplacement pour mettre à jour sa chronologie et ses dates. Les dates de début et de fin de l’enregistrement sont mises à jour automatiquement.</span>
 
 1. Cliquez sur la barre d’un enregistrement pour ouvrir sa zone de détails et modifier tous les champs.
 
@@ -245,12 +245,12 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 <!--add another step about drag and drop here when that is available-->
 
-1. Ouvrez la page de type d’enregistrement dans une vue Calendrier. Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+1. Ouvrez la page de type d’enregistrement dans une vue Calendrier. Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 1. <span class="preview">(Conditionnel) Pointez sur les extrémités de la barre d’un enregistrement dans la vue Calendrier, puis cliquez sur ses marges, faites-les glisser et déposez-les vers une autre date. Cette opération met automatiquement à jour la date de début ou de fin de l’enregistrement.</span>
 
    <span class="preview">![Barre à gauche de la vue Calendrier à redimensionner](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-1. <span class="preview">Cliquez sur une barre d’enregistrement, puis faites-la glisser et déposez-la à un autre emplacement pour mettre à jour sa chronologie et ses dates. Les dates de début et de fin de l’enregistrement sont mises à jour automatiquement.</span>
+1. <span class="preview">Cliquez et maintenez une barre d’enregistrement enfoncée, puis faites-la glisser et déposez-la à un autre emplacement pour mettre à jour sa chronologie et ses dates. Les dates de début et de fin de l’enregistrement sont mises à jour automatiquement.</span>
 
 1. Cliquez sur la barre d’un enregistrement pour ouvrir sa zone de détails et modifier tous les champs.
 
@@ -278,7 +278,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
-   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 
@@ -378,11 +378,11 @@ Pour plus d’informations, voir [Gérer les connexions d’enregistrement à pa
 
 <div class="preview">
 
-## Modifier des informations sur des champs à sélection unique ou multiple
+## Modifier les paramètres de champ à sélection unique ou multiple lors de la mise à jour de leurs valeurs
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
 
-Lors de la modification d’informations dans un champ à sélection unique ou multiple, vous pouvez ajouter de nouveaux choix au champ, sans avoir à modifier le champ.
+Lorsque vous mettez à jour les informations d’un champ à sélection unique ou multiple, vous pouvez ajouter de nouveaux choix au champ, sans avoir à modifier le champ.
 
 >[!IMPORTANT]
 >

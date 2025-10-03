@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 6%
 
 ---
@@ -342,12 +342,12 @@ Tous les champs de l&#39;enregistrement connecté s&#39;affichent dans la vue Ta
 
    * <span class="preview">Cliquez sur **Connecter des enregistrements** dans le coin supérieur droit de la page d’enregistrement connectée pour connecter des projets existants.</span>
    * <span class="preview">Modification en ligne des informations du projet dans le tableau.</span>
-   * <span class="preview">Cliquez sur **Nouvelle ligne** pour créer un projet sans modèle.</span>
+   * <span class="preview">Cliquez sur **Nouvelle ligne** pour créer un projet sans modèle. Le nouveau projet est immédiatement connecté à l&#39;enregistrement actuel.</span>
 
      Pour plus d’informations, voir [Création d’objets Workfront à partir de Workfront Planning lorsque vous les connectez à des enregistrements](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
    * <span class="preview">Pointez sur un projet, cliquez sur le menu **Plus** [Plus](assets/more-menu.png), puis sur l’une des options suivantes :</span>
-      * <span class="preview">**Supprimer** pour supprimer le projet. La suppression d’un projet le déconnecte de l’enregistrement et le déplace vers la corbeille de Workfront. </span>
-      * <span class="preview">**Déconnecter** pour déconnecter le projet de l’enregistrement. Déconnexion d’un projet</span>
+      * <span class="preview">**Supprimer** pour supprimer le projet. La suppression d’un projet le déconnecte de l’enregistrement et le déplace vers la Corbeille de Workfront. </span>
+      * <span class="preview">**Déconnecter** pour déconnecter le projet de l’enregistrement. La déconnexion d’un projet supprime cet enregistrement et toutes les valeurs de ses champs de recherche de l’enregistrement actif. </span>
 
 1. (Facultatif) Double-cliquez sur le nom de l’onglet Page Enregistrements connectés
 
