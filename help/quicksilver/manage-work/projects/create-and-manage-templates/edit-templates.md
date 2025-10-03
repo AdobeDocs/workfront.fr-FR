@@ -6,9 +6,9 @@ description: Vous pouvez modifier les modèles de projet pour refléter les modi
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5674'
 ht-degree: 88%
 
 ---
@@ -640,6 +640,10 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 
    ![Section Commentaire de la zone Modifier le modèle](assets/edit-template-box-comment-section.png)
 1. Ajoutez un commentaire sur la mise à jour que vous effectuez, identifiez des utilisateurs supplémentaires ou sélectionnez la case **Privé à mon entreprise** pour que la mise à jour reste privée pour les utilisateurs de votre entreprise, puis cliquez sur **Enregistrer**.
+
+   >[!TIP]
+   >
+   >Le paramètre **Privé à ma société** n’est disponible que lorsque votre profil Workfront est associé à une société.
 
 ## Modifier des modèles en masse
 

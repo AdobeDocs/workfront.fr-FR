@@ -6,10 +6,10 @@ description: Vous pouvez faire des commentaires sur les feuilles de temps, sur l
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 85%
+source-wordcount: '920'
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez afficher les mises à jour à partir d&#39;une feuille de temps ou d
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -96,6 +96,10 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps. L’ajout
 1. Commencez à ajouter de nouveaux commentaires ou à répondre à des commentaires existants, comme décrit dans la section [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Ajoutez des personnes ou des équipes dans le champ **Taguer des personnes ou des équipes** pour inclure d’autres personnes à votre mise à jour. Pour plus d’informations, voir la section [Taguer d’autres personnes sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Facultatif) Sélectionnez l’option **Réservé à mon entreprise** si vous souhaitez que seules les personnes de votre société visualisent la mise à jour.
+
+   >[!TIP]
+   >
+   >Le paramètre **Privé à ma société** n’est disponible que lorsque votre profil Workfront est associé à une société.
 1. Saisissez votre commentaire, puis cliquez sur **Soumettre**.
 
    Votre commentaire s’affiche dans la section [!UICONTROL Mises à jour] de la feuille de temps, dans l’onglet Commentaires.

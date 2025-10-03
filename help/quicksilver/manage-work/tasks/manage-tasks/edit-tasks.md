@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '3810'
-ht-degree: 87%
+source-wordcount: '3829'
+ht-degree: 86%
 
 ---
 
@@ -632,6 +632,10 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
 
    * Ajoutez des utilisateurs ou des équipes à votre mise à jour dans la zone **Taguer des personnes** ou utilisez @ pour les inclure dans votre mise à jour.
    * Cochez la case **Privé à ma société** pour que la mise à jour reste privée pour les personnes de votre société.
+
+     >[!TIP]
+     >
+     >Le paramètre **Privé à ma société** n’est disponible que lorsque votre profil Workfront est associé à une société.
 1. Cliquer sur **Enregistrer**.
 
 ## Modifier une tâche dans l’en-tête de la tâche (limité)

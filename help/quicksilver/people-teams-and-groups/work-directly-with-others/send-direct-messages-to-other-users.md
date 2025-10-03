@@ -7,10 +7,10 @@ description: Adobe Workfront vous permet d’envoyer rapidement et facilement d
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: d16495a0686ae5e54d16b108c69645f8666b46bd
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 49%
+source-wordcount: '589'
+ht-degree: 46%
 
 ---
 
@@ -73,6 +73,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. (Facultatif) Sélectionnez **[!UICONTROL Réservé à mon entreprise]** pour que ce message ne soit visible que par les autres personnes de votre entreprise.
 
+   >[!TIP]
+   >
+   >Le paramètre [!UICONTROL **Privé à ma société**] n’est disponible que lorsque votre profil Workfront est associé à une société.
+
 1. Cliquez sur **[!UICONTROL Mettre à jour].**
 Le message est publié en haut de la liste des messages dans l’onglet **[!UICONTROL Mises à jour]** de la page de profil de l’utilisateur.
 
@@ -89,5 +93,9 @@ Cette option n&#39;est disponible que si vous disposez d&#39;une licence Standar
 
 1. (Facultatif) Cliquez sur **Baliser les personnes** pour baliser d’autres utilisateurs dans le message. Pour plus d’informations, voir [Taguer d’autres personnes sur les mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Facultatif) Sélectionnez **[!UICONTROL Réservé à mon entreprise]** pour que ce message ne soit visible que par les autres personnes de votre entreprise.
+
+   >[!TIP]
+   >
+   >Le paramètre [!UICONTROL **Privé à ma société**] n’est disponible que lorsque votre profil Workfront est associé à une société.
 1. Cliquez sur [!UICONTROL **Envoyer**].
 Le message est publié en haut de la liste des messages dans l’onglet **[!UICONTROL Mises à jour]** sur la page de profil de chaque utilisateur identifié.

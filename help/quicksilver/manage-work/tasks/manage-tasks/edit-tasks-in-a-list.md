@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Modifier les tâches dans une liste
-description: Vous pouvez modifier les informations d’une tâche dans une liste de tâches en modifiant les champs affichés dans la liste.
+description: Vous pouvez modifier les informations des tâches dans une liste de tâches en modifiant les champs affichés dans la liste. Vous devez définir le mode de planification dans une liste de tâches afin d’indiquer comment vous souhaitez que vos modifications soient enregistrées dans Workfront. Vous pouvez enregistrer vos modifications manuellement ou automatiquement.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 75%
+source-wordcount: '2822'
+ht-degree: 70%
 
 ---
 
@@ -50,7 +50,7 @@ Vous pouvez modifier les informations des tâches dans une liste de tâches en m
 
 Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ 
 
 ## Remarques concernant la modification des tâches dans une liste {#considerations-about-editing-tasks-in-a-list}
 
@@ -84,15 +84,20 @@ Tenez compte des points suivants lorsque vous modifiez des tâches dans une list
      >
      >Par défaut, Workfront enregistre automatiquement vos modifications apportées aux tâches dans la section Sous-tâches ou dans un rapport de tâche.
 
-* Vous pouvez contrôler le moment où Workfront enregistre les modifications que vous apportez aux tâches d’une liste. Vos modifications peuvent être enregistrées automatiquement ou vous pouvez les enregistrer manuellement.
+* Vous pouvez déterminer à quel moment Workfront enregistre les modifications apportées aux tâches dans une liste en définissant le mode de planification avant de commencer à modifier les tâches.
 
-  Pour plus d’informations sur le mode d’enregistrement des modifications que vous apportez aux tâches dans une liste, consultez la section [Sélectionner une option d’enregistrement lors de la modification de tâches dans une liste](#select-a-save-option-when-editing-tasks-in-a-list) de cet article.
+  Vous pouvez choisir entre l’enregistrement dans Workfront des modifications que vous apportez en procédant comme suit :
+
+      * Automatiquement, après chaque modification
+     * Manuellement, uniquement après avoir cliqué sur Enregistrer.
+  
+  Pour plus d’informations sur la configuration du moment où Workfront enregistre les modifications apportées aux tâches d’une liste, reportez-vous à la section [Modifier le mode de planification avant de modifier les tâches d’une liste](#modify-plan-mode-before-editing-tasks-in-a-list) de cet article.
 
 * Les autres personnes doivent actualiser leurs pages avant de pouvoir afficher les mises à jour apportées à une tâche.
 
-## Sélectionner une option d’enregistrement lors de la modification de tâches dans une liste {#select-a-save-option-when-editing-tasks-in-a-list}
+## Modifier le mode Plan avant de modifier des tâches dans une liste
 
-Vous pouvez décider si les modifications apportées aux tâches d&#39;une liste sont enregistrées automatiquement au fur et à mesure ou si vous souhaitez enregistrer manuellement chaque modification.
+Vous pouvez décider si les modifications apportées aux tâches d&#39;une liste sont enregistrées automatiquement au fur et à mesure ou si vous souhaitez enregistrer manuellement chaque modification. Pour ce faire, vous devez modifier le mode Plan dans une liste de tâches avant de modifier les tâches.
 
 >[!IMPORTANT]
 >
@@ -100,17 +105,17 @@ Vous pouvez décider si les modifications apportées aux tâches d&#39;une liste
 
 Lorsque vous enregistrez vos modifications dans une liste pour un projet pour lequel les options Automatique ou Automatique et En cas de modification sont sélectionnées comme Type de mise à jour, Workfront met à jour la chronologie du projet, ainsi que toutes les dépendances internes au projet et interprojets. Les calculs de chronologie peuvent prendre beaucoup de temps si le projet est volumineux ou s’il existe de nombreuses dépendances. Certaines méthodes de modification d’une liste de tâches peuvent être plus rapides que d’autres, selon la méthode que vous choisissez pour enregistrer vos modifications.
 
-Vous pouvez contrôler le moment où Workfront enregistre les modifications que vous apportez aux tâches d’une liste. Les scénarios suivants existent :
+Vous pouvez contrôler le moment où Workfront enregistre les modifications que vous apportez aux tâches d’une liste. Les scénarios suivants sont possibles :
 
 * Workfront peut enregistrer automatiquement les modifications après chaque mise à jour.
 
-  Pour plus d’informations, voir la section [Modifier les tâches dans une liste et enregistrer automatiquement les modifications](#edit-tasks-in-a-list-and-automatically-save-changes) dans cet article.
+  Pour plus d’informations, consultez la section [Définir le mode de planification pour enregistrer automatiquement les modifications](#set-the-plan-mode-to-automatically-save-changes) dans cet article.
 
 * Vous pouvez contrôler le moment où vous appliquez plusieurs modifications à la fois en utilisant manuellement le bouton Enregistrer.
 
-  Pour plus d’informations, voir la section [Modifier les tâches dans une liste et enregistrer manuellement les modifications](#edit-tasks-in-a-list-and-manually-save-changes) dans cet article.
+  Pour plus d’informations, consultez la section [Définir le mode de planification pour enregistrer manuellement les modifications](#set-the-plan-mode-to-manually-save-changes) dans cet article.
 
-### Modifier les tâches dans une liste et enregistrer automatiquement les modifications {#edit-tasks-in-a-list-and-automatically-save-changes}
+### Définir le mode Plan pour enregistrer automatiquement les modifications
 
 >[!TIP]
 >
@@ -192,7 +197,7 @@ Pour modifier les tâches dans une liste et enregistrer automatiquement les modi
     </tbody> 
    </table>
 
-### Modifier les tâches dans une liste et enregistrer manuellement les modifications {#edit-tasks-in-a-list-and-manually-save-changes}
+### Définir le mode Plan pour enregistrer manuellement les modifications {#edit-tasks-in-a-list-and-manually-save-changes}
 
 Vous pouvez enregistrer manuellement les modifications que vous apportez aux tâches dans une liste. Lorsque vous enregistrez les modifications de cette manière, vous pouvez les inverser avant de les enregistrer.
 
@@ -239,7 +244,7 @@ Pour modifier les tâches d’une liste en sélectionnant l’option standard En
 
 1. Dans le panneau de gauche, cliquez sur la section **Tâches**.
 
-1. Cliquez sur l’icône **Mode Plan** ![Icône Mode Plan](assets/plan-mode-icon.png) en haut de la liste.
+1. Cliquez sur l’icône **Mode de planification** ![Icône Mode de planification](assets/plan-mode-icon.png) en haut de la liste.
 
 1. Dans la boîte de dialogue **Mode Plan**, sélectionnez **Enregistrement manuel**, puis cliquez sur **Standard**.
 
@@ -327,7 +332,7 @@ Pour modifier des tâches dans une liste lors de l’utilisation de l’option d
 
 1. Dans le panneau de gauche, cliquez sur la section **Tâches**.
 
-1. Cliquez sur l’icône **Mode Plan** ![Icône Mode Plan](assets/plan-mode-icon.png) en haut de la liste.
+1. Cliquez sur l’icône **Mode de planification** ![Icône Mode de planification](assets/plan-mode-icon.png) en haut de la liste.
 
 1. Dans la boîte de dialogue **Mode Plan**, sélectionnez **Enregistrement manuel**, puis cliquez sur **Planification de la chronologie**.
 
@@ -487,6 +492,6 @@ Vous pouvez modifier plusieurs tâches à la fois. Assurez-vous que vous dispose
    Vous ne pouvez modifier que les champs des formulaires associés à toutes les tâches sélectionnées et que vous avez l’autorisation de modifier.
 
 1. (Facultatif) Dans la section Formulaires personnalisés, sélectionnez l’option **Recalculer les expressions personnalisées** pour vous assurer que tous les champs personnalisés calculés qui se trouvent sur les formulaires personnalisés joints aux tâches sélectionnées sont à jour.
-1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
+1. Cliquez sur Enregistrer les modifications. **** Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
 
 Pour plus d’informations sur la modification en bloc de formulaires personnalisés, voir [Gérer les formulaires personnalisés joints à des objets](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

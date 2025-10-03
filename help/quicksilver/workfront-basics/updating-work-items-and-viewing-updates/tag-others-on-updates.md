@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Balisage d’autres mises à jour
+title: Balisage d’autres utilisateurs sur les mises à jour
 description: Lorsque vous fournissez des commentaires de mise à jour sur un objet Adobe Workfront, tous les utilisateurs et utilisatrices du projet peuvent voir les informations envoyées. Cependant, il peut arriver que des utilisateurs et utilisatrices qui ne sont pas sur le projet aient intérêt à consulter ces informations. Plutôt que d’inclure ces utilisateurs et utilisatrices dans le projet, vous pouvez les taguer sur la mise à jour pour la partager avec eux. Les utilisateurs et utilisatrices tagués reçoivent une notification d’événement.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '996'
 ht-degree: 99%
 
 ---
@@ -55,7 +55,7 @@ Plutôt que d’inclure ces utilisateurs et utilisatrices dans l’objet en les 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -122,8 +122,7 @@ Vous pouvez également supprimer des utilisateurs et utilisatrices tagués par e
 
    >[!NOTE]
    >
-   >* Cette option s’affiche uniquement lorsque l’utilisateur ou l’utilisatrice est associé à une entreprise.
-   >* Les personnes taguées extérieures à l’entreprise peuvent toujours recevoir une notification in-app ou un e-mail, même si elles ne verront pas les commentaires privés sur l’onglet Mises à jour. Nous vous recommandons de ne pas taguer les personnes externes lors d’une mise à jour si vous ne souhaitez pas partager les informations avec elles.
+   >Les personnes taguées extérieures à l’entreprise peuvent toujours recevoir une notification in-app ou un e-mail, même si elles ne verront pas les commentaires privés sur l’onglet Mises à jour. Nous vous recommandons de ne pas taguer les personnes externes lors d’une mise à jour si vous ne souhaitez pas partager les informations avec elles.
 
 1. (Facultatif) Pour ajouter plusieurs personnes et équipes, répétez l’étape 2. <!--insure this stays accurate-->
 

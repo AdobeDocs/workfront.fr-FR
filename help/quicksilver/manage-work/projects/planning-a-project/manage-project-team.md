@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1418'
 ht-degree: 36%
 
 ---
@@ -261,6 +261,10 @@ Pour plus d’informations sur les notifications qui peuvent être activées pou
    * Cliquez sur **Taguer des personnes** pour taguer d’autres utilisateurs et utilisatrices afin de recevoir la même mise à jour.
    * Sélectionnez l’option **Privé à ma société** pour rendre la mise à jour privée pour les utilisateurs de votre société.
    * Cliquez sur **Envoyer**.
+
+     >[!TIP]
+     >
+     >Le paramètre **Privé à ma société** n’est disponible que lorsque votre profil Workfront est associé à une société.
 
    La mise à jour est ajoutée à la section **Mises à jour** du profil de chaque utilisateur balisé.
 
