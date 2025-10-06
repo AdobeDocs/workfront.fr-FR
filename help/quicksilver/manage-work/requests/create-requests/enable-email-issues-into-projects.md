@@ -6,10 +6,10 @@ description: Vous pouvez configurer un projet pour permettre aux utilisateurs d�
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 85%
+source-wordcount: '812'
+ht-degree: 83%
 
 ---
 
@@ -79,7 +79,7 @@ Les conditions suivantes sont requises pour configurer un projet afin de permett
 >* Workfront autorise un e-mail unique par file d’attente des demandes dans tous les clusters. Si vous choisissez de désactiver la file d’attente des demandes, vous conserverez l’adresse e-mail que vous avez créée tant qu’elle se trouve toujours dans la zone Adresse e-mail de réception. Si vous choisissez d’arrêter l’utilisation de l’adresse e-mail de réception, vous devez la supprimer du champ Adresse e-mail de réception afin qu’elle puisse être utilisée ultérieurement.
 >
 >* Si la file d’attente des demandes comporte plusieurs rubriques ou groupes de rubriques de file d’attente, Workfront sélectionne aléatoirement la rubrique de file d’attente à laquelle les demandes envoyées par e-mail seront envoyées, ce qui rend les demandes envoyées par e-mail difficiles à gérer.
->  &#x200B;>Nous recommandons que le projet que vous configurez pour recevoir des demandes par e-mail ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
+>  >Nous recommandons que le projet que vous configurez pour recevoir des demandes par e-mail ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
 
 1. Accédez au projet sur lequel vous souhaitez activer la réception des problèmes par e-mail.
 1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche.
@@ -119,6 +119,11 @@ Lorsqu’un utilisateur ou une utilisatrice Workfront envoie un e-mail à Workfr
 * La ligne Objet de l’e-mail devient le Nom du problème.
 * Le corps de l’e-mail devient la Description du problème.
 * Si l’e-mail contient des documents en pièces jointes, ces documents sont joints au problème dans Workfront.
+
+  >[!NOTE]
+  >
+  > Les fichiers MSG ne sont pas pris en charge et ne seront pas joints au problème dans Workfront.
+
 * La personne qui envoie l’e-mail devient le contact principal du nouveau problème dans Workfront.
 * Le corps du texte de l’e-mail ne peut pas dépasser 4 000 caractères.
 * Les pièces jointes aux e-mails ne doivent pas dépasser 7 Mo au total.
