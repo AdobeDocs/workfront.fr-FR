@@ -6,7 +6,7 @@ description: Vous pouvez faire des commentaires sur les feuilles de temps, sur l
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 84%
@@ -100,6 +100,7 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps. L’ajout
    >[!TIP]
    >
    >Le paramètre **Privé à ma société** n’est disponible que lorsque votre profil Workfront est associé à une société.
+
 1. Saisissez votre commentaire, puis cliquez sur **Soumettre**.
 
    Votre commentaire s’affiche dans la section [!UICONTROL Mises à jour] de la feuille de temps, dans l’onglet Commentaires.

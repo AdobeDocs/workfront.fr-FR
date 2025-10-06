@@ -6,7 +6,7 @@ description: Vous pouvez modifier les modèles de projet pour refléter les modi
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 88%
@@ -162,65 +162,65 @@ Vous pouvez modifier un modèle à la fois ou modifier des modèles en bloc.
    <p>Vous pouvez désactiver un modèle à partir de l’en-tête du modèle, comme décrit dans la section « Activer ou désactiver un modèle » de cet article.</p></td> 
      </tr>
 
-<tr> 
-<td role="rowheader"><strong>Type de condition</strong></td> 
-   <td><p>Effectuez une sélection parmi les types de condition suivants :</p> 
-   <ul> 
-   <li><strong>Manuel :</strong> la personne propriétaire du projet définit manuellement les conditions du projet. <strong></strong></li> 
-   <li><strong>Statut de la progression :</strong> Workfront définit automatiquement les conditions du futur projet en fonction du statut de progression des tâches sur le chemin critique. Pour plus d’informations sur le statut de la progression, voir la section <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Vue d’ensemble du statut de progression des tâches</a>.</li> 
-   </ul>
-   </td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Mode horaire</strong></td> 
-   <td><p>Indiquez si le projet utilisant ce modèle est prévu à partir de la <strong>date de début</strong> ou à partir de la <strong>date d’achèvement</strong>. Cette sélection détermine les dates prévues des futures tâches du projet utilisant ce modèle. </p><p>Sélectionnez l’une des options suivantes : </p> 
-   <ul> 
-   <li><p><strong>Planifier à partir de la date de début</strong> : la date de début du modèle correspond au jour du début. Lorsque vous planifiez un modèle à partir de la date de début, Adobe Workfront en calcule le jour d’achèvement en fonction de la durée de toutes les tâches du modèle. Le jour du début du modèle devient la date de début prévue du futur projet.</p></li> 
-   <li><p><strong>Planifier à partir de la date d’achèvement</strong> : la date d’achèvement du modèle correspond au jour d’achèvement. Lorsque vous planifiez un modèle à partir de la date d’achèvement, Workfront calcule le jour du début du modèle en fonction de la durée de toutes les tâches du modèle. Le jour d’achèvement du modèle devient la date d’achèvement prévue du futur projet. </p></li> 
-   </ul><p>Pour plus d’informations sur les jours de début et d’achèvement des tâches du modèle, voir la section <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Vue d’ensemble des jours de début et d’achèvement dans un modèle</a>. </p><p>Le paramètre « Planifier à partir de » des modèles est similaire à celui des projets. Votre équipe d’administration Workfront sélectionne le paramètre « Planifier à partir de » par défaut pour les projets de votre système. Pour plus d’informations sur la définition des valeurs par défaut des projets, voir la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences des projets à l'échelle du système</a>.</p></td> 
-   </tr>
+   <td role="rowheader"><strong>Type de condition</strong></td> 
+      <td><p>Effectuez une sélection parmi les types de condition suivants :</p> 
+      <ul> 
+      <li><strong>Manuel :</strong> la personne propriétaire du projet définit manuellement les conditions du projet. <strong></strong></li> 
+      <li><strong>Statut de la progression :</strong> Workfront définit automatiquement les conditions du futur projet en fonction du statut de progression des tâches sur le chemin critique. Pour plus d’informations sur le statut de la progression, voir la section <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Vue d’ensemble du statut de progression des tâches</a>.</li> 
+      </ul>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Mode horaire</strong></td> 
+      <td><p>Indiquez si le projet utilisant ce modèle est prévu à partir de la <strong>date de début</strong> ou à partir de la <strong>date d’achèvement</strong>. Cette sélection détermine les dates prévues des futures tâches du projet utilisant ce modèle. </p><p>Sélectionnez l’une des options suivantes : </p> 
+      <ul> 
+      <li><p><strong>Planifier à partir de la date de début</strong> : la date de début du modèle correspond au jour du début. Lorsque vous planifiez un modèle à partir de la date de début, Adobe Workfront en calcule le jour d’achèvement en fonction de la durée de toutes les tâches du modèle. Le jour du début du modèle devient la date de début prévue du futur projet.</p></li> 
+      <li><p><strong>Planifier à partir de la date d’achèvement</strong> : la date d’achèvement du modèle correspond au jour d’achèvement. Lorsque vous planifiez un modèle à partir de la date d’achèvement, Workfront calcule le jour du début du modèle en fonction de la durée de toutes les tâches du modèle. Le jour d’achèvement du modèle devient la date d’achèvement prévue du futur projet. </p></li> 
+      </ul><p>Pour plus d’informations sur les jours de début et d’achèvement des tâches du modèle, voir la section <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Vue d’ensemble des jours de début et d’achèvement dans un modèle</a>. </p><p>Le paramètre « Planifier à partir de » des modèles est similaire à celui des projets. Votre équipe d’administration Workfront sélectionne le paramètre « Planifier à partir de » par défaut pour les projets de votre système. Pour plus d’informations sur la définition des valeurs par défaut des projets, voir la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences des projets à l'échelle du système</a>.</p></td> 
+      </tr>
 
-<tr> 
-   <td role="rowheader"><strong>Portfolio</strong></td> 
-   <td><p>Spécifiez un portfolio pour les projets créés à partir de ce modèle. Vous devez d’abord créer un portfolio avant qu’il n’apparaisse dans la liste déroulante. </p><p>Seuls les portfolios actifs sont affichés dans la liste. Pour plus d’informations sur la création de portfolios, voir la section <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Créer un portfolio</a>.</p></td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Programme</strong></td> 
-   <td><p>Si vous avez sélectionné un portfolio pour le modèle, indiquez un <strong>programme</strong> pour le futur projet. Certains portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme avant qu’il n’apparaisse dans cette liste déroulante. Seuls les programmes actifs sont affichés dans la liste.</p><p>Pour plus d’informations sur la création de programmes, voir la section <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p></td> 
-   </tr>  
-   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td role="rowheader"><strong>Groupe</strong></td> 
-   <td><p>Dans la liste déroulante, sélectionnez le groupe que vous souhaitez associer aux projets créés à partir du modèle. Il peut s’agir d’un groupe de n’importe quel niveau. </p><p>Vous pouvez vous assurer que vous sélectionnez le bon groupe en pointant dessus et en cliquant sur l’icône d’information <img src="assets/info-icon.png"> qui s’affiche à côté. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p><b>NOTES</b>
+      <td role="rowheader"><strong>Portfolio</strong></td> 
+      <td><p>Spécifiez un portfolio pour les projets créés à partir de ce modèle. Vous devez d’abord créer un portfolio avant qu’il n’apparaisse dans la liste déroulante. </p><p>Seuls les portfolios actifs sont affichés dans la liste. Pour plus d’informations sur la création de portfolios, voir la section <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Créer un portfolio</a>.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Programme</strong></td> 
+      <td><p>Si vous avez sélectionné un portfolio pour le modèle, indiquez un <strong>programme</strong> pour le futur projet. Certains portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme avant qu’il n’apparaisse dans cette liste déroulante. Seuls les programmes actifs sont affichés dans la liste.</p><p>Pour plus d’informations sur la création de programmes, voir la section <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p></td> 
+      </tr>  
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><strong>Groupe</strong></td> 
+      <td><p>Dans la liste déroulante, sélectionnez le groupe que vous souhaitez associer aux projets créés à partir du modèle. Il peut s’agir d’un groupe de n’importe quel niveau. </p><p>Vous pouvez vous assurer que vous sélectionnez le bon groupe en pointant dessus et en cliquant sur l’icône d’information <img src="assets/info-icon.png"> qui s’affiche à côté. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p><b>NOTES</b>
 
-<ul> 
-   <li><p>Dans la zone Projets de la page d’un groupe, lorsqu’une personne crée un projet à l’aide d’un modèle pour lequel aucun groupe n’a été sélectionné, le système associe le groupe actuellement ouvert au projet.</p><p>Cela diffère des autres zones où le système associe le groupe principal d’une personne au projet lorsque la personne crée le projet à l’aide d’un modèle pour lequel aucun groupe n’a été sélectionné.</p></li> 
-   <li><p>Si une personne sélectionne un modèle dont le groupe est sélectionné lors de la création d’un projet - ou lors de la conversion d’une tâche ou d’un problème en projet - elle peut choisir un groupe différent pour le projet.</p></li> 
-   <li>Bien que ce champ ne soit disponible dans les modèles que dans la nouvelle version d’Adobe Workfront, vous pouvez le voir dans les listes et les rapports à la fois dans cette version et dans Adobe Workfront Classic. </li> 
-   </ul> </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Entreprise</strong></td> 
-   <td><p>Indiquez l’entreprise que vous souhaitez associer au modèle. Seules les entreprises actives sont affichées dans la liste.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Propriétaire du modèle</strong></td> 
-   <td><p>La personne désignée comme propriétaire du modèle doit être disposer d’un compte actif dans Workfront. </p><p>Tenez compte des points suivants à propos de la personne désignée comme propriétaire du modèle : </p> 
    <ul> 
-   <li>Elle reçoit automatiquement l’autorisation de gérer le modèle. </li> 
-   <li>Elle est ajoutée à l’équipe de projet et reçoit automatiquement des autorisations de gestion pour le projet créé à partir du modèle. </li> 
-   <li>Elle devient propriétaire du projet lorsque le projet est créé à partir de ce modèle. </li> 
-   <li> Si la personne désignée comme propriétaire du modèle a un accès limité aux modèles ou aux projets à partir de son niveau d’accès, ses autorisations de gestion sur le modèle et sur les projets seront limitées. Par exemple, si elle n’a qu’un accès Afficher pour les modèles ou les projets dans son niveau d’accès, elle recevra automatiquement des autorisations Afficher pour le modèle et le projet lorsqu’elle sera désignée comme propriétaire du modèle.</li>
-   </ul></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Sponsor du modèle</strong></td> 
-   <td><p>La personne spécifiée dans ce champ devient sponsor du projet lorsque le modèle est ajouté au projet. Cette personne est ajoutée à l’équipe de projet et reçoit automatiquement des autorisations Afficher sur le projet. La personne désignée comme sponsor du modèle doit disposer d’un compte actif dans Workfront. </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Gestionnaire des ressources</strong></td> 
-   <td><p>Les personnes spécifiées reçoivent automatiquement des autorisations de gestion pour les futurs projets et peuvent attribuer des ressources aux tâches et aux problèmes des projets. Vous pouvez spécifier plusieurs personnes gestionnaires de ressources. </p></td> 
-   </tr> 
-</table>
+      <li><p>Dans la zone Projets de la page d’un groupe, lorsqu’une personne crée un projet à l’aide d’un modèle pour lequel aucun groupe n’a été sélectionné, le système associe le groupe actuellement ouvert au projet.</p><p>Cela diffère des autres zones où le système associe le groupe principal d’une personne au projet lorsque la personne crée le projet à l’aide d’un modèle pour lequel aucun groupe n’a été sélectionné.</p></li> 
+      <li><p>Si une personne sélectionne un modèle dont le groupe est sélectionné lors de la création d’un projet - ou lors de la conversion d’une tâche ou d’un problème en projet - elle peut choisir un groupe différent pour le projet.</p></li> 
+      <li>Bien que ce champ ne soit disponible dans les modèles que dans la nouvelle version d’Adobe Workfront, vous pouvez le voir dans les listes et les rapports à la fois dans cette version et dans Adobe Workfront Classic. </li> 
+      </ul> </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Entreprise</strong></td> 
+      <td><p>Indiquez l’entreprise que vous souhaitez associer au modèle. Seules les entreprises actives sont affichées dans la liste.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Propriétaire du modèle</strong></td> 
+      <td><p>La personne désignée comme propriétaire du modèle doit être disposer d’un compte actif dans Workfront. </p><p>Tenez compte des points suivants à propos de la personne désignée comme propriétaire du modèle : </p> 
+      <ul> 
+      <li>Elle reçoit automatiquement l’autorisation de gérer le modèle. </li> 
+      <li>Elle est ajoutée à l’équipe de projet et reçoit automatiquement des autorisations de gestion pour le projet créé à partir du modèle. </li> 
+      <li>Elle devient propriétaire du projet lorsque le projet est créé à partir de ce modèle. </li> 
+      <li> Si la personne désignée comme propriétaire du modèle a un accès limité aux modèles ou aux projets à partir de son niveau d’accès, ses autorisations de gestion sur le modèle et sur les projets seront limitées. Par exemple, si elle n’a qu’un accès Afficher pour les modèles ou les projets dans son niveau d’accès, elle recevra automatiquement des autorisations Afficher pour le modèle et le projet lorsqu’elle sera désignée comme propriétaire du modèle.</li>
+      </ul></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Sponsor du modèle</strong></td> 
+      <td><p>La personne spécifiée dans ce champ devient sponsor du projet lorsque le modèle est ajouté au projet. Cette personne est ajoutée à l’équipe de projet et reçoit automatiquement des autorisations Afficher sur le projet. La personne désignée comme sponsor du modèle doit disposer d’un compte actif dans Workfront. </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Gestionnaire des ressources</strong></td> 
+      <td><p>Les personnes spécifiées reçoivent automatiquement des autorisations de gestion pour les futurs projets et peuvent attribuer des ressources aux tâches et aux problèmes des projets. Vous pouvez spécifier plusieurs personnes gestionnaires de ressources. </p></td> 
+      </tr> 
+      </table>
 
 1. (Facultatif) Continuez à modifier les sections suivantes, en fonction des informations que vous souhaitez modifier.
 
@@ -260,72 +260,72 @@ Vous pouvez modifier un modèle à la fois ou modifier des modèles en bloc.
        <td role="rowheader"><strong>URL</strong></td> 
          <td>Indiquez un lien web qui renvoie à des informations sur ce modèle.</td> 
        </tr>
-   <tr> 
+      <tr> 
       <td role="rowheader"><strong>Est active</strong></td> 
       <td><p>Activez cette option si vous souhaitez que le modèle soit actif. D’autres utilisateurs peuvent trouver ce modèle et l’associer à des projets lors de la création de projets. Désactivez cette option si vous souhaitez désactiver les modèles qui ne sont plus utilisés. Les modèles désactivés ne peuvent pas être associés à des projets. Cette option est activée par défaut. </p><p><b>CONSEIL</b></p>
 
    <p>Vous pouvez désactiver un modèle à partir de l’en-tête du modèle, comme décrit dans la section « Activer ou désactiver un modèle » de cet article.</p></td> 
      </tr>
 
-<tr> 
-<td role="rowheader"><strong>Type de condition</strong></td> 
-   <td><p>Effectuez une sélection parmi les types de condition suivants :</p> 
-   <ul> 
-   <li><strong>Manuel :</strong> la personne propriétaire du projet définit manuellement les conditions du projet. <strong></strong></li> 
-   <li><strong>Statut de la progression :</strong> Workfront définit automatiquement les conditions du futur projet en fonction du statut de progression des tâches sur le chemin critique. Pour plus d’informations sur le statut de la progression, voir la section <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Vue d’ensemble du statut de progression des tâches</a>.</li> 
-   </ul>
-   </td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Mode horaire</strong></td> 
-   <td><p>Indiquez si le projet utilisant ce modèle est prévu à partir de la <strong>date de début</strong> ou à partir de la <strong>date d’achèvement</strong>. Cette sélection détermine les dates prévues des futures tâches du projet utilisant ce modèle. </p><p>Sélectionnez l’une des options suivantes : </p> 
-   <ul> 
-   <li><p><strong>Planifier à partir de la date de début</strong> : la date de début du modèle correspond au jour du début. Lorsque vous planifiez un modèle à partir de la date de début, Adobe Workfront en calcule le jour d’achèvement en fonction de la durée de toutes les tâches du modèle. Le jour du début du modèle devient la date de début prévue du futur projet.</p></li> 
-   <li><p><strong>Planifier à partir de la date d’achèvement</strong> : la date d’achèvement du modèle correspond au jour d’achèvement. Lorsque vous planifiez un modèle à partir de la date d’achèvement, Workfront calcule le jour du début du modèle en fonction de la durée de toutes les tâches du modèle. Le jour d’achèvement du modèle devient la date d’achèvement prévue du futur projet. </p></li> 
-   </ul><p>Pour plus d’informations sur les jours de début et d’achèvement des tâches du modèle, voir la section <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Vue d’ensemble des jours de début et d’achèvement dans un modèle</a>. </p><p>Le paramètre « Planifier à partir de » des modèles est similaire à celui des projets. Votre équipe d’administration Workfront sélectionne le paramètre « Planifier à partir de » par défaut pour les projets de votre système. Pour plus d’informations sur la définition des valeurs par défaut des projets, voir la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences des projets à l'échelle du système</a>.</p></td> 
-   </tr>
+      <td role="rowheader"><strong>Type de condition</strong></td> 
+      <td><p>Effectuez une sélection parmi les types de condition suivants :</p> 
+      <ul> 
+      <li><strong>Manuel :</strong> la personne propriétaire du projet définit manuellement les conditions du projet. <strong></strong></li> 
+      <li><strong>Statut de la progression :</strong> Workfront définit automatiquement les conditions du futur projet en fonction du statut de progression des tâches sur le chemin critique. Pour plus d’informations sur le statut de la progression, voir la section <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Vue d’ensemble du statut de progression des tâches</a>.</li> 
+      </ul>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Mode horaire</strong></td> 
+      <td><p>Indiquez si le projet utilisant ce modèle est prévu à partir de la <strong>date de début</strong> ou à partir de la <strong>date d’achèvement</strong>. Cette sélection détermine les dates prévues des futures tâches du projet utilisant ce modèle. </p><p>Sélectionnez l’une des options suivantes : </p> 
+      <ul> 
+      <li><p><strong>Planifier à partir de la date de début</strong> : la date de début du modèle correspond au jour du début. Lorsque vous planifiez un modèle à partir de la date de début, Adobe Workfront en calcule le jour d’achèvement en fonction de la durée de toutes les tâches du modèle. Le jour du début du modèle devient la date de début prévue du futur projet.</p></li> 
+      <li><p><strong>Planifier à partir de la date d’achèvement</strong> : la date d’achèvement du modèle correspond au jour d’achèvement. Lorsque vous planifiez un modèle à partir de la date d’achèvement, Workfront calcule le jour du début du modèle en fonction de la durée de toutes les tâches du modèle. Le jour d’achèvement du modèle devient la date d’achèvement prévue du futur projet. </p></li> 
+      </ul><p>Pour plus d’informations sur les jours de début et d’achèvement des tâches du modèle, voir la section <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Vue d’ensemble des jours de début et d’achèvement dans un modèle</a>. </p><p>Le paramètre « Planifier à partir de » des modèles est similaire à celui des projets. Votre équipe d’administration Workfront sélectionne le paramètre « Planifier à partir de » par défaut pour les projets de votre système. Pour plus d’informations sur la définition des valeurs par défaut des projets, voir la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences des projets à l'échelle du système</a>.</p></td> 
+      </tr>
 
-<tr> 
-   <td role="rowheader"><strong>Portfolio</strong></td> 
-   <td><p>Spécifiez un portfolio pour les projets créés à partir de ce modèle. Vous devez d’abord créer un portfolio avant qu’il n’apparaisse dans la liste déroulante. </p><p>Seuls les portfolios actifs sont affichés dans la liste. Pour plus d’informations sur la création de portfolios, voir la section <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Créer un portfolio</a>.</p></td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Programme</strong></td> 
-   <td><p>Si vous avez sélectionné un portfolio pour le modèle, indiquez un <strong>programme</strong> pour le futur projet. Certains portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme avant qu’il n’apparaisse dans cette liste déroulante. Seuls les programmes actifs sont affichés dans la liste.</p><p>Pour plus d’informations sur la création de programmes, voir la section <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p></td> 
-   </tr>  
-   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td role="rowheader"><strong>Groupe</strong></td> 
-   <td><p>Dans la liste déroulante, sélectionnez le groupe que vous souhaitez associer aux projets créés à partir du modèle. Il peut s’agir d’un groupe de n’importe quel niveau. </p><p>Vous pouvez vous assurer que vous sélectionnez le bon groupe en pointant dessus et en cliquant sur l’icône d’information <img src="assets/info-icon.png"> qui s’affiche à côté. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p><b>NOTES</b>
+      <td role="rowheader"><strong>Portfolio</strong></td> 
+      <td><p>Spécifiez un portfolio pour les projets créés à partir de ce modèle. Vous devez d’abord créer un portfolio avant qu’il n’apparaisse dans la liste déroulante. </p><p>Seuls les portfolios actifs sont affichés dans la liste. Pour plus d’informations sur la création de portfolios, voir la section <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Créer un portfolio</a>.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Programme</strong></td> 
+      <td><p>Si vous avez sélectionné un portfolio pour le modèle, indiquez un <strong>programme</strong> pour le futur projet. Certains portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme avant qu’il n’apparaisse dans cette liste déroulante. Seuls les programmes actifs sont affichés dans la liste.</p><p>Pour plus d’informations sur la création de programmes, voir la section <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p></td> 
+      </tr>  
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><strong>Groupe</strong></td> 
+      <td><p>Dans la liste déroulante, sélectionnez le groupe que vous souhaitez associer aux projets créés à partir du modèle. Il peut s’agir d’un groupe de n’importe quel niveau. </p><p>Vous pouvez vous assurer que vous sélectionnez le bon groupe en pointant dessus et en cliquant sur l’icône d’information <img src="assets/info-icon.png"> qui s’affiche à côté. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p><b>NOTES</b>
 
-<ul> 
-   <li><p>Dans la zone Projets de la page d’un groupe, lorsqu’une personne crée un projet à l’aide d’un modèle pour lequel aucun groupe n’a été sélectionné, le système associe le groupe actuellement ouvert au projet.</p><p>Cela diffère des autres zones où le système associe le groupe principal d’une personne au projet lorsque la personne crée le projet à l’aide d’un modèle pour lequel aucun groupe n’a été sélectionné.</p></li> 
-   <li><p>Si une personne sélectionne un modèle dont le groupe est sélectionné lors de la création d’un projet - ou lors de la conversion d’une tâche ou d’un problème en projet - elle peut choisir un groupe différent pour le projet.</p></li> 
-   <li>Bien que ce champ ne soit disponible dans les modèles que dans la nouvelle version d’Adobe Workfront, vous pouvez le voir dans les listes et les rapports à la fois dans cette version et dans Adobe Workfront Classic. </li> 
-   </ul> </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Entreprise</strong></td> 
-   <td><p>Indiquez l’entreprise que vous souhaitez associer au modèle. Seules les entreprises actives sont affichées dans la liste.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Propriétaire du modèle</strong></td> 
-   <td><p>La personne désignée comme propriétaire du modèle doit être disposer d’un compte actif dans Workfront. </p><p>Tenez compte des points suivants à propos de la personne désignée comme propriétaire du modèle : </p> 
    <ul> 
-   <li>Elle reçoit automatiquement l’autorisation de gérer le modèle. </li> 
-   <li>Elle est ajoutée à l’équipe de projet et reçoit automatiquement des autorisations de gestion pour le projet créé à partir du modèle. </li> 
-   <li>Elle devient propriétaire du projet lorsque le projet est créé à partir de ce modèle. </li> 
-   <li> Si la personne désignée comme propriétaire du modèle a un accès limité aux modèles ou aux projets à partir de son niveau d’accès, ses autorisations de gestion sur le modèle et sur les projets seront limitées. Par exemple, si elle n’a qu’un accès Afficher pour les modèles ou les projets dans son niveau d’accès, elle recevra automatiquement des autorisations Afficher pour le modèle et le projet lorsqu’elle sera désignée comme propriétaire du modèle.</li>
-   </ul></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Sponsor du modèle</strong></td> 
-   <td><p>La personne spécifiée dans ce champ devient sponsor du projet lorsque le modèle est ajouté au projet. Cette personne est ajoutée à l’équipe de projet et reçoit automatiquement des autorisations Afficher sur le projet. La personne désignée comme sponsor du modèle doit disposer d’un compte actif dans Workfront. </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Gestionnaire des ressources</strong></td> 
-   <td><p>Les personnes spécifiées reçoivent automatiquement des autorisations de gestion pour les futurs projets et peuvent attribuer des ressources aux tâches et aux problèmes des projets. Vous pouvez spécifier plusieurs personnes gestionnaires de ressources. </p></td> 
-   </tr> 
-</table>
+      <li><p>Dans la zone Projets de la page d’un groupe, lorsqu’une personne crée un projet à l’aide d’un modèle pour lequel aucun groupe n’a été sélectionné, le système associe le groupe actuellement ouvert au projet.</p><p>Cela diffère des autres zones où le système associe le groupe principal d’une personne au projet lorsque la personne crée le projet à l’aide d’un modèle pour lequel aucun groupe n’a été sélectionné.</p></li> 
+      <li><p>Si une personne sélectionne un modèle dont le groupe est sélectionné lors de la création d’un projet - ou lors de la conversion d’une tâche ou d’un problème en projet - elle peut choisir un groupe différent pour le projet.</p></li> 
+      <li>Bien que ce champ ne soit disponible dans les modèles que dans la nouvelle version d’Adobe Workfront, vous pouvez le voir dans les listes et les rapports à la fois dans cette version et dans Adobe Workfront Classic. </li> 
+      </ul> </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Entreprise</strong></td> 
+      <td><p>Indiquez l’entreprise que vous souhaitez associer au modèle. Seules les entreprises actives sont affichées dans la liste.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Propriétaire du modèle</strong></td> 
+      <td><p>La personne désignée comme propriétaire du modèle doit être disposer d’un compte actif dans Workfront. </p><p>Tenez compte des points suivants à propos de la personne désignée comme propriétaire du modèle : </p> 
+      <ul> 
+      <li>Elle reçoit automatiquement l’autorisation de gérer le modèle. </li> 
+      <li>Elle est ajoutée à l’équipe de projet et reçoit automatiquement des autorisations de gestion pour le projet créé à partir du modèle. </li> 
+      <li>Elle devient propriétaire du projet lorsque le projet est créé à partir de ce modèle. </li> 
+      <li> Si la personne désignée comme propriétaire du modèle a un accès limité aux modèles ou aux projets à partir de son niveau d’accès, ses autorisations de gestion sur le modèle et sur les projets seront limitées. Par exemple, si elle n’a qu’un accès Afficher pour les modèles ou les projets dans son niveau d’accès, elle recevra automatiquement des autorisations Afficher pour le modèle et le projet lorsqu’elle sera désignée comme propriétaire du modèle.</li>
+      </ul></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Sponsor du modèle</strong></td> 
+      <td><p>La personne spécifiée dans ce champ devient sponsor du projet lorsque le modèle est ajouté au projet. Cette personne est ajoutée à l’équipe de projet et reçoit automatiquement des autorisations Afficher sur le projet. La personne désignée comme sponsor du modèle doit disposer d’un compte actif dans Workfront. </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Gestionnaire des ressources</strong></td> 
+      <td><p>Les personnes spécifiées reçoivent automatiquement des autorisations de gestion pour les futurs projets et peuvent attribuer des ressources aux tâches et aux problèmes des projets. Vous pouvez spécifier plusieurs personnes gestionnaires de ressources. </p></td> 
+      </tr> 
+      </table>
 
 1. (Facultatif) Continuez à modifier les sections suivantes, en fonction des informations que vous souhaitez modifier.
 
@@ -460,24 +460,24 @@ Vous pouvez modifier un modèle à la fois ou modifier des modèles en bloc.
       <td role="rowheader"><strong>L'approbation pour ce projet demande du temps</strong></td>
 
    <td><p>Sélectionnez cette option pour demander au futur propriétaire du projet créé à partir de ce modèle d'approuver le temps enregistré dans le projet.</p> 
-   <p>Si vous utilisez des enregistrements de facturation et que vous sélectionnez cette option, seules les heures approuvées du projet apparaissent comme heures facturables disponibles pour les enregistrements de facturation. </p>
-   <p>Approuver le temps consigné d’un projet ne nécessite pas l’approbation des feuilles de temps. Pour plus d’informations sur la demande d’approbation du temps d’un projet, consultez la section <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Demander l’approbation du temps d’un projet</a>.</p>
-   </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Filtrer les types d’heures</strong> </td> 
-   <td> <p>Tenez compte des points suivants :</p> <p>Sélectionnez <strong>Non</strong> pour que tous les types d’heures spécifiques au projet soient disponibles pour le futur projet. (Il s’agit de la sélection par défaut.)</p> <p>Ou</p> <p>Sélectionnez <strong>Oui</strong> pour que seul un sous-ensemble des types d’heures spécifiques au projet soit disponible dans le futur projet, puis sélectionnez les types d’heures que vous souhaitez rendre disponibles. (Maintenez la touche Maj enfoncée pour sélectionner plusieurs types d’heures.)</p> <p>Si vous sélectionnez cette option, seuls les types d’heures que vous avez sélectionnés seront disponibles lors de l’enregistrement des heures sur le projet (ou sur les tâches et les problèmes au sein du projet). Vous devez sélectionner au moins un type d’heure ; si vous sélectionnez cette option et que vous ne sélectionnez aucun type d’heure, tous les types d’heures sont disponibles sur le projet.</p> <p>Les mêmes sélections de type d’heure doivent être effectuées au niveau de l’utilisateur ou de l’utilisatrice au niveau individuel pour que la personne puisse voir ces options de type d’heure sur le projet. </p> <p>Pour plus d’informations sur la définition des types d’heures au niveau de l’utilisateur ou de l’utilisatrice, voir la section <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Consigner des heures</a> dans <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Consigner des heures</a>.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Notification de rappel</strong> </td> 
-   <td>Sélectionnez la notification de rappel qui doit être associée au futur projet. Vous devez configurer les notifications de rappel pour les projets pour que ce champ apparaisse lors de la modification d’un modèle. <br>Pour plus d’informations sur la configuration des notifications de rappel, voir <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurer les notifications de rappel</a>.</td> 
-   </tr>
-   <tr> 
-   <td role="rowheader"><strong>Processus d’approbation</strong> </td> 
-   <td> <p>Sélectionnez le processus d’approbation que vous souhaitez associer au modèle. Votre équipe d’administration Workfront ou une personne disposant d’un accès administratif aux processus d’approbation doit définir des processus d’approbation de projet au niveau du système ou du groupe avant que vous ne puissiez les associer à un modèle. Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les éléments de travail</a>.</p> <p>Tenez compte des éléments suivants lorsque vous ajoutez des processus d’approbation : </p> 
-   <ul> 
-   <li>Seuls les processus d’approbation actifs sont affichés dans la liste. </li> 
-   <li> <p>Les processus d’approbation à l’échelle du système et spécifiques au groupe s’affichent dans la liste. Un processus d’approbation associé à un groupe autre que celui du modèle ne s’affiche pas dans la liste.</p> <p><b>IMPORTANT</b>
+      <p>Si vous utilisez des enregistrements de facturation et que vous sélectionnez cette option, seules les heures approuvées du projet apparaissent comme heures facturables disponibles pour les enregistrements de facturation. </p>
+      <p>Approuver le temps consigné d’un projet ne nécessite pas l’approbation des feuilles de temps. Pour plus d’informations sur la demande d’approbation du temps d’un projet, consultez la section <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Demander l’approbation du temps d’un projet</a>.</p>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Filtrer les types d’heures</strong> </td> 
+      <td> <p>Tenez compte des points suivants :</p> <p>Sélectionnez <strong>Non</strong> pour que tous les types d’heures spécifiques au projet soient disponibles pour le futur projet. (Il s’agit de la sélection par défaut.)</p> <p>Ou</p> <p>Sélectionnez <strong>Oui</strong> pour que seul un sous-ensemble des types d’heures spécifiques au projet soit disponible dans le futur projet, puis sélectionnez les types d’heures que vous souhaitez rendre disponibles. (Maintenez la touche Maj enfoncée pour sélectionner plusieurs types d’heures.)</p> <p>Si vous sélectionnez cette option, seuls les types d’heures que vous avez sélectionnés seront disponibles lors de l’enregistrement des heures sur le projet (ou sur les tâches et les problèmes au sein du projet). Vous devez sélectionner au moins un type d’heure ; si vous sélectionnez cette option et que vous ne sélectionnez aucun type d’heure, tous les types d’heures sont disponibles sur le projet.</p> <p>Les mêmes sélections de type d’heure doivent être effectuées au niveau de l’utilisateur ou de l’utilisatrice au niveau individuel pour que la personne puisse voir ces options de type d’heure sur le projet. </p> <p>Pour plus d’informations sur la définition des types d’heures au niveau de l’utilisateur ou de l’utilisatrice, voir la section <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Consigner des heures</a> dans <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Consigner des heures</a>.</p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Notification de rappel</strong> </td> 
+      <td>Sélectionnez la notification de rappel qui doit être associée au futur projet. Vous devez configurer les notifications de rappel pour les projets pour que ce champ apparaisse lors de la modification d’un modèle. <br>Pour plus d’informations sur la configuration des notifications de rappel, voir <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurer les notifications de rappel</a>.</td> 
+      </tr>
+      <tr> 
+      <td role="rowheader"><strong>Processus d’approbation</strong> </td> 
+      <td> <p>Sélectionnez le processus d’approbation que vous souhaitez associer au modèle. Votre équipe d’administration Workfront ou une personne disposant d’un accès administratif aux processus d’approbation doit définir des processus d’approbation de projet au niveau du système ou du groupe avant que vous ne puissiez les associer à un modèle. Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les éléments de travail</a>.</p> <p>Tenez compte des éléments suivants lorsque vous ajoutez des processus d’approbation : </p> 
+      <ul> 
+      <li>Seuls les processus d’approbation actifs sont affichés dans la liste. </li> 
+      <li> <p>Les processus d’approbation à l’échelle du système et spécifiques au groupe s’affichent dans la liste. Un processus d’approbation associé à un groupe autre que celui du modèle ne s’affiche pas dans la liste.</p> <p><b>IMPORTANT</b>
 
    Si le groupe associé au modèle change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la manière dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Comment les modifications apportées au groupe et au processus d’approbation affectent les processus d’approbation attribués</a>. </p> </li>
    <li> <p>Si vous avez ajouté un processus d’approbation à usage unique, celui-ci s’affiche comme « personnalisé »dans ce champ. Pour plus d’informations, voir <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associer un processus d’approbation nouveau ou existant au travail</a>. </p> 
