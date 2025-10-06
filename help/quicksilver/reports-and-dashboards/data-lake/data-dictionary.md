@@ -7,10 +7,10 @@ description: Cette page contient des informations sur la structure et le contenu
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
+source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
 workflow-type: tm+mt
-source-wordcount: '8114'
-ht-degree: 7%
+source-wordcount: '8733'
+ht-degree: 10%
 
 ---
 
@@ -22,23 +22,23 @@ Cette page contient des informations sur la structure et le contenu des données
 >
 >Les données de Data Connect sont actualisées toutes les quatre heures, de sorte que les modifications récentes peuvent ne pas être immédiatement répercutées.
 
-## Types de table
+## Types de vue
 
-Il existe plusieurs types de tableau que vous pouvez utiliser dans Data Connect pour afficher vos données Workfront de manière à fournir le plus d’insight.
+Il existe plusieurs types de vues que vous pouvez utiliser dans Data Connect pour afficher vos données Workfront de manière à fournir le plus d’insight.
 
-* **Table actuelle**
+* **Vue actuelle**
 
-  Le tableau actuel reflète les données de la même manière qu’il existe dans Workfront, chaque objet et son état actuel. Cependant, la latence de navigation est bien inférieure dans Workfront.
+  La vue actuelle reflète les données de la même manière qu’elles existent dans Workfront, dans chaque objet et dans leur état actuel. Cependant, la latence de navigation est bien inférieure dans Workfront.
 
-* **Tableau des événements**
+* **Vue Événement**
 
-  Le tableau Événement suit chaque enregistrement de modification dans Workfront : en d’autres termes, chaque fois qu’un objet change d’état, un enregistrement est créé pour indiquer la date de la modification, l’auteur de la modification et ce qui a été modifié. Par conséquent, ce tableau est utile pour les comparaisons ponctuelles. Ce tableau ne comprend que les enregistrements des trois dernières années.
+  L’affichage Événement suit chaque enregistrement de modification dans Workfront : en d’autres termes, chaque fois qu’un objet change d’état, un enregistrement est créé pour indiquer la date de la modification, l’auteur de la modification et ce qui a été modifié. Par conséquent, cette vue est utile pour les comparaisons ponctuelles. Cette vue inclut uniquement les enregistrements des trois dernières années.
 
-* **Tableau Historique quotidien**
+* **Vue Historique quotidien**
 
-  Le tableau Historique quotidien offre une version abrégée du tableau Événement , dans la mesure où il indique l’état de chaque objet sur une base quotidienne plutôt que la date à laquelle chaque événement individuel s’est produit. Par conséquent, ce tableau est utile pour l’analyse des tendances.
+  La vue Historique quotidien offre une version abrégée de la vue Événement, dans la mesure où elle affiche l&#39;état de chaque objet sur une base quotidienne plutôt que lorsque chaque événement individuel s&#39;est produit. Cette vue est donc utile pour l’analyse des tendances.
 
-<!-- Custom table -->
+<!-- Custom view -->
 
 ## Diagramme de relation d’entité
 
@@ -48,20 +48,25 @@ Les objets dans Workfront (et, par conséquent, dans votre lac de données Data 
 
 >[!IMPORTANT]
 >
->Le diagramme de relation d’entité est un travail en cours. Il est fourni à titre de référence uniquement et peut faire l’objet de modifications.
+>Le diagramme de relation d’entité est un travail en cours. À ce titre, il est fourni à titre de référence uniquement et peut faire l’objet de modifications.
 
 ## Types de date
 
 Plusieurs objets de date fournissent des informations sur le moment où des événements spécifiques se produisent.
 
 * `DL_LOAD_TIMESTAMP` : cette date est mise à jour une fois l’actualisation des données terminée avec succès et inclut l’horodatage du début de la tâche d’actualisation qui a fourni la dernière version d’un enregistrement.
-* `CALENDAR_DATE` : cette date est uniquement présente dans le tableau Historique quotidien. Ce tableau fournit un enregistrement de l’aspect des données à 11 :59 UTC pour chaque date spécifiée dans `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP` : cette date est présente dans les tableaux Événement et Historique quotidien et enregistre exactement quand un enregistrement est modifié _en_ la valeur qu&#39;il a dans la ligne active.
-* `END_EFFECTIVE_TIMESTAMP` : Cette date est présente dans les tables Historique des événements et Historique quotidien et enregistre exactement le moment où un enregistrement est passé _de_ la valeur de la ligne active à une valeur d&#39;une autre ligne. Pour permettre la comparaison entre les requêtes sur `BEGIN_EFFECTIVE_TIMESTAMP` et `END_EFFECTIVE_TIMESTAMP`, cette valeur n’est jamais nulle, même s’il n’existe aucune nouvelle valeur. Dans le cas où un enregistrement est toujours valide (c’est-à-dire, que la valeur n’a pas changé), `END_EFFECTIVE_TIMESTAMP` aura une valeur de 2300-01-01.
+* `CALENDAR_DATE` : cette date est uniquement présente dans la vue Historique quotidien. La vue Historique quotidien fournit un enregistrement de l’aspect des données à 11 :59 UTC pour chaque date spécifiée dans `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP` : cette date est présente dans les vues Événement et Historique quotidien et représente l&#39;heure à laquelle un enregistrement devient la valeur actuelle dans l&#39;application.
+* `END_EFFECTIVE_TIMESTAMP` : Cette date est présente dans les vues Événement et Historique quotidien et enregistre exactement le moment où un enregistrement est passé _de_ la valeur de la ligne active à une valeur d&#39;une autre ligne. Pour permettre la comparaison entre les requêtes sur `BEGIN_EFFECTIVE_TIMESTAMP` et `END_EFFECTIVE_TIMESTAMP`, cette valeur n’est jamais nulle, même s’il n’existe aucune nouvelle valeur. Dans le cas où un enregistrement est toujours valide (c’est-à-dire, que la valeur n’a pas changé), `END_EFFECTIVE_TIMESTAMP` aura une valeur de 2300-01-01.
 
 ## Table de terminologie
 
-Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi que leurs noms dans l’interface et l’API) avec leurs noms équivalents dans Data Connect.
+Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi que leurs noms dans l’interface et l’API) avec leurs noms équivalents dans Data Connect et inclut des champs de référence pour chaque objet avec d’autres objets Workfront.
+
+>[!NOTE]
+>
+>De nouveaux champs peuvent être ajoutés aux vues d’objet sans préavis pour prendre en charge l’évolution des besoins en données de l’application Workfront. Nous vous déconseillons d’utiliser des requêtes « SELECT » lorsque le destinataire des données en aval n’est pas prêt à gérer des colonnes supplémentaires au fur et à mesure de leur ajout.<br>
+>>Si le changement de nom ou la suppression d’une colonne est nécessaire, nous vous avertirons à l’avance de ces modifications.
 
 ### Niveau d’accès
 
@@ -553,6 +558,12 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
              <td>FK</td>
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
+        </tr>
+      <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>OPTASKID</td>
@@ -3882,7 +3893,6 @@ Self</td>
         </tr>
 
 
-    &lt;/tbody>
 </table>
 
 ### Intégration d’objet
@@ -3941,7 +3951,6 @@ Self</td>
              <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### Catégorie d&#39;objets
@@ -5303,7 +5312,6 @@ Self</td>
              <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### Dossier des rapports
@@ -6003,6 +6011,178 @@ Self</td>
              <td>-</td>
              <td colspan="2">Pas une relation ; utilisé à des fins d’application interne.</td>
         </tr>
+    </tbody>
+</table>
+
+### Plan de recrutement
+
+Disponibilité limitée des clients
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Plan de recrutement</td>
+            <td>Plan de recrutement</td>
+            <td>PERSONNEL</td>
+            <td>Plan de recrutement</td>
+            <td>STAFFING_PLAN_CURRENT<br>STAFFING_PLAN_DAILY_HISTORY<br>STAFFING_PLAN_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT </td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>        
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>       
+         <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID
+</td>
+        </tr>        
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID
+</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Ressource du plan de recrutement
+
+Disponibilité limitée des clients
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Ressource du plan de recrutement</td>
+            <td>Ressource du plan de recrutement</td>
+            <td>PERSONNEL</td>
+            <td>Ressource du plan de recrutement</td>
+            <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>       
+         <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>        
     </tbody>
 </table>
 
@@ -6956,6 +7136,146 @@ Self</td>
     </tbody>
 </table>
 
+### KPI par étapes combinés
+
+Disponibilité limitée des clients
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>KPI par étapes combinés</td>
+            <td>KPI chronologique</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_COMBINED_CURRENT<br>TIMEPHASED_COMBINED_DAILY_HISTORY<br>TIMEPHASED_COMBINED_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+                <tr>
+             <td>EVENT_ID    </td>
+             <td>PK</td>
+             <td>Il s’agit d’une clé naturelle pour l’entrée d’indicateur de performance clé temporel</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+                        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+                        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>Le tableau METADATA n’est pas fourni</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+                        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMMES_ACTUELS</td>
+             <td>PROGRAMID</td>
+        </tr>
+                        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+                        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE
+</td>
+        </tr>
+                        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>Le tableau SCHEMA n’est pas fourni ; la valeur de ce tableau est fournie dans la colonne SCHEMANAME . Le SCHEMANAME identifie l'indicateur de performance clé (par exemple, les heures prévues, les heures estimées et les heures réelles) auquel l'enregistrement est connecté.</td>
+             <td>-</td>
+        </tr>
+                                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Devise des indicateurs de performance clés temporels
 
 Disponibilité limitée des clients
@@ -7008,6 +7328,12 @@ Disponibilité limitée des clients
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>Le tableau METADATA n’est pas fourni</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7047,7 +7373,7 @@ Disponibilité limitée des clients
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>À ajouter sous peu</td>
+             <td>Le tableau SCHEMA n’est pas fourni ; la valeur de ce tableau est fournie dans la colonne SCHEMANAME . Le SCHEMANAME identifie l'indicateur de performance clé (par exemple, scheduledRevenueRate, scheduledCostRate, realRevenue, etc.) auquel l'enregistrement est connecté.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7055,6 +7381,18 @@ Disponibilité limitée des clients
              <td>FK</td>
              <td>TASKS_CURRENT</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+          <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7134,6 +7472,12 @@ Disponibilité limitée des clients
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>Le tableau METADATA n’est pas fourni</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7173,7 +7517,7 @@ Disponibilité limitée des clients
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>À ajouter sous peu</td>
+             <td>Le tableau SCHEMA n’est pas fourni ; la valeur de ce tableau est fournie dans la colonne SCHEMANAME . Le SCHEMANAME identifie l'indicateur de performance clé (par exemple, les heures prévues, les heures estimées et les heures réelles) auquel l'enregistrement est connecté.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7181,6 +7525,18 @@ Disponibilité limitée des clients
              <td>FK</td>
              <td>TASKS_CURRENT</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID </td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+           <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7200,6 +7556,151 @@ Disponibilité limitée des clients
              <td>-</td>
         </tr>
         <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Numéros d’indicateurs de performance clés temporels
+
+Disponibilité limitée des clients
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom de l’entité Workfront</th>
+            <th>Références d’interface</th>
+            <th>Référence d’API</th>
+            <th>Libellé de l’API</th>
+            <th>Vues du lac de données</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Numéros d’indicateurs de performance clés temporels</td>
+            <td>KPI chronologique</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_NUMBERS_CURRENT<br>TIMEPHASED_NUMBERS_DAILY_HISTORY<br>TIMEPHASED_NUMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Principal/Clé étrangère</th>
+            <th>Type</th>
+            <th>Table connexe</th>
+            <th>Champ associé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>EVENT_ID</td>
+             <td>PK</td>
+             <td>Il s’agit d’une clé naturelle pour l’entrée d’indicateur de performance clé temporel</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>Le tableau METADATA n’est pas fourni</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMMES_ACTUELS</td>
+             <td>PROGRAMID</td>
+        </tr>
+                <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+                <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variable, basée sur OBJCODE</td>
+             <td>Clé primaire/ID de l’objet identifié dans le champ OBJCODE</td>
+        </tr>
+                <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>Le tableau SCHEMA n’est pas fourni ; la valeur de ce tableau est fournie dans la colonne SCHEMANAME . Le SCHEMANAME identifie l'indicateur de performance clé (par exemple, les heures prévues, les heures estimées et les heures réelles) auquel l'enregistrement est connecté.</td>
+             <td>-</td>
+        </tr>
+                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>TIMEPHASEDNUMBERSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+                <tr>
              <td>USERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
@@ -7990,7 +8491,7 @@ Disponibilité limitée des clients
     </tbody>
 </table>
 
-### Rôle utilisateur
+### Rôle d’utilisateur
 
 <table>
     <thead>
@@ -8004,10 +8505,10 @@ Disponibilité limitée des clients
       </thead>
       <tbody>
         <tr>
-            <td>Rôle utilisateur</td>
+            <td>Rôle d’utilisateur</td>
             <td>Autres rôles</td>
             <td>USROL</td>
-            <td>Rôle utilisateur</td>
+            <td>Rôle d’utilisateur</td>
             <td>USERSROLES_CURRENT<br>USERSROLES_DAILY_HISTORY<br>USERSROLES_EVENT</td>
         </tr>
       </tbody>
