@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 2a30a58f4206d5a4455ed5939c9f3fb54cce6d29
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Pour charger des documents, voir les instructions pour **Charger des documents**
 
 **Lorsque vous utilisez les outils d’API pour charger des fichiers, suivez les instructions suivantes :**
 
-* Utilisez l’option de votre outil d’API pour charger votre fichier. Il y a souvent un bouton **Choisir un fichier** sur l’écran de la requête.
+* Utilisez l’option de votre outil d’API pour charger votre fichier. L’écran de la requête contient souvent un bouton **Choisir un fichier**.
 
 * Utilisez la méthode HTTP POST pour demander le chargement du fichier.
 
