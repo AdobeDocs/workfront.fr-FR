@@ -75,7 +75,7 @@ Le panneau de gauche est disponible pour les objets suivants :
 >[!IMPORTANT]
 >
 >Si le panneau de gauche n’affiche qu’une seule section par défaut, comme **[!UICONTROL Tous les projets]** dans la zone **[!UICONTROL Projets]**, un administrateur de [!DNL Workfront] doit ajouter au moins un tableau de bord dans cette zone lors de la création d’un modèle de mise en page et vous affecter à ce modèle avant que le panneau de gauche ne s’affiche dans cette zone.
->>Pour plus d’informations sur la manière dont une équipe d’administration [!DNL Workfront] personnalise le panneau de gauche dans un modèle de mise en page, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>&#x200B;>Pour plus d’informations sur la manière dont une équipe d’administration [!DNL Workfront] personnalise le panneau de gauche dans un modèle de mise en page, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Le panneau de gauche est disponible pour les zones suivantes :
 
@@ -84,7 +84,7 @@ Le panneau de gauche est disponible pour les zones suivantes :
 * [Sections par défaut de la zone [!UICONTROL Ressources]](#default-sections-in-the-resourcing-area)
 * [Sections par défaut de la zone [!UICONTROL Projets]](#default-sections-in-the-projects-area)
 * [Sections par défaut de la zone [!UICONTROL Feuilles de temps]](#default-sections-in-the-timesheets-area)
-* [Sections par défaut de la zone  [!DNL Goals] ](#default-sections-in-the-goals-area)
+* [Sections par défaut de la zone  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
 
 ### Sections par défaut de la zone [!UICONTROL Tableaux de bord]
 
@@ -195,7 +195,7 @@ Pour savoir comment utiliser le panneau de gauche dans la zone [!UICONTROL Feuil
 
 >[!NOTE]
 >
->L’accès aux objectifs nécessite une licence supplémentaire. Pour plus d’informations sur [!DNL Workfront Goals], voir Vue d’ensemble d’[[!DNL Adobe Workfront Goals] ](../../workfront-goals/goal-management/wf-goals-overview.md).
+>L’accès aux objectifs nécessite une licence supplémentaire. Pour plus d’informations sur [!DNL Workfront Goals], voir Vue d’ensemble d’[[!DNL Adobe Workfront Goals] &#x200B;](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Les sections suivantes s’affichent dans le panneau de gauche de la zone **[!UICONTROL Objectifs]** :
 
