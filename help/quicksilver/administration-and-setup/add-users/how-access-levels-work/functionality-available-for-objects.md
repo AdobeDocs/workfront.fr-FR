@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 82b184e18aa5520eb97aa9ac2f7ac84b251aca58
+source-git-commit: 02ca85404dfc2a00c94e21a6642748ab3ee39015
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 94%
@@ -145,7 +145,7 @@ Seules les personnes disposant d’une licence standard peuvent avoir un accès 
 | Ajouter et supprimer des projets | ✓ |   |   |   |
 | Approuver des projets | ✓ |   |   |   |
 | Optimisation du portfolio | ✓ |   |   |   |
-| Ajouter des documents | ✓ | ✓ |   |   |
+| Ajouter des documents | ✓ | ✓ | ✓ |   |
 | Ajouter des mises à jour et des commentaires | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
@@ -169,7 +169,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 | Ajouter et supprimer des projets | ✓ |   |   |   |
 | Approuver des projets | ✓ |   |   |   |
 | Optimisation du portfolio | ✓ |   |   |   |
-| Ajouter des documents | ✓ | ✓ |   |   |
+| Ajouter des documents | ✓ | ✓ | ✓ |   |
 | Ajouter des mises à jour et des commentaires | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
