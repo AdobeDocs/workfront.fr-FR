@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: db9db8d03c8caeef95fb7cf873ee242f29b00efa
+source-git-commit: 82b184e18aa5520eb97aa9ac2f7ac84b251aca58
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 94%
@@ -81,7 +81,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 | Ajouter des problèmes | ✓ | ✓ |   |   |
 | Modifier une tâche (à l’exception du statut) | ✓ |   |   |   |
 | Modifier le statut de la tâche | ✓ |   |   |   |
-| Ajouter des documents | ✓ | ✓ |   |   |
+| Ajouter des documents | ✓ | ✓ | ✓ |   |
 | Copier une tâche | ✓ |   |   |   |
 | Déplacer une tâche | ✓ |   |   |   |
 | Consigner les heures | ✓ | ✓ |   |   |
