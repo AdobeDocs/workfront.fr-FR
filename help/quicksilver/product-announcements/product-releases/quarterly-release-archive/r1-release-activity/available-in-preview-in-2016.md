@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '709'
 ht-degree: 100%
 
 ---
@@ -60,13 +60,12 @@ Pour configurer Workfront de manière à afficher le nouveau calendrier dans la 
 
 Pour plus d’informations sur la configuration du modèle de mise en page, voir [Créer et gérer des modèles de mise en page](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) dans [Créer et gérer des modèles de mise en page](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-## Outlook 365 version bêta
+## Outlook 365 Beta
 
-**Version bêta : à déterminer ; disponibilité publique : à déterminer**
+**Beta : à déterminer ; disponibilité publique : à déterminer**
 
 Vous pouvez utiliser Workfront à partir d’Outlook pour Office 365, comme décrit dans les sections suivantes :
 
-* [Configurer Adobe Workfront pour Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * « Mettre à jour un élément existant à partir d’un e-mail avec Outlook 365 »
 
 ## Réorganiser les colonnes dans n’importe quelle liste par glisser-déposer

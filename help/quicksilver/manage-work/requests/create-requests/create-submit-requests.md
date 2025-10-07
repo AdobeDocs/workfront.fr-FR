@@ -6,10 +6,10 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '2840'
-ht-degree: 77%
+source-wordcount: '2790'
+ht-degree: 76%
 
 ---
 
@@ -369,12 +369,6 @@ Le corps de texte de l’e-mail est ajouté à la description de la demande.
 >Le formatage HTML est supprimé lorsque la demande entre dans Workfront, mais les signatures et le contenu du fil de réponse existant ne sont pas supprimés et apparaissent dans la description de la demande.
 
 Pour plus d’informations sur la manière d’activer une file d’attente des demandes pour recevoir des demandes par e-mail, consultez [Permettre aux utilisateurs et utilisatrices d’envoyer par e-mail un problème dans un projet de la file d’attente des demandes](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
-
-## Créer des demandes à l’aide du client Outlook
-
-Vous pouvez soumettre des demandes à l’aide du client Outlook. Vous pouvez créer une demande ou convertir un e-mail en demande.
-
-Pour plus d’informations sur l’envoi de demandes à l’aide du client Outlook, consultez l’article [Créer une demande Adobe Workfront à partir d’un e-mail Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
 ## Création de requêtes à l’aide de l’application mobile Workfront
 

@@ -1,22 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2017.3, version bêta finale
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2017.3, version bêta finale. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 12 septembre 2017. Elles ont été rendues disponibles dans l’environnement de production début novembre 2017.
+title: Activité de la version Beta finale 2017.3
+description: Cette page décrit toutes les modifications récentes disponibles dans l’environnement de prévisualisation avec la version Beta finale 2017.3. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 12 septembre 2017. Elles ont été rendues disponibles dans l’environnement de production début novembre 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3791'
 ht-degree: 100%
 
 ---
 
-# Activité Version 2017.3, version bêta finale
+# Activité de la version Beta finale 2017.3
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2017.3, version bêta finale. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 12 septembre 2017. Elle ont été rendues disponibles dans l’environnement de production début novembre 2017.
+Cette page décrit toutes les modifications récentes disponibles dans l’environnement de prévisualisation avec la version Beta finale 2017.3. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 12 septembre 2017. Elle ont été rendues disponibles dans l’environnement de production début novembre 2017.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ Cette page décrit toutes les modifications les plus récentes disponibles dans 
 
 Pour obtenir la liste de toutes les modifications apportées à la version 2017.3, voir [Vue d’ensemble de l’activité Version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-La version 2017.3, version bêta finale contient des améliorations pour les administrateurs et administratrices de Workfront et d’autres personnes :
+La version Beta finale 2017.3 contient des améliorations pour les administrateurs et administratrices de Workfront et d’autres personnes :
 
 **Pour les administrateurs et administratrices**
 
@@ -453,13 +453,11 @@ Nous avons apporté les améliorations suivantes au module complémentaire Workf
 * Ajouter une tâche ou un problème à un projet dans Workfront : vous pouvez désormais convertir un e-mail en tâche ou en problème dans Workfront à l’aide du module complémentaire Outlook 365. Au cours de ce processus, vous pouvez spécifier un projet auquel vous souhaitez ajouter la tâche ou le problème, ainsi qu’une personne cessionnaire et une date d’échéance. Avant cette amélioration, vous ne pouviez envoyer qu’une demande à une file d’attente de demandes ou ajouter une tâche personnelle à votre liste En train de travailler sur à partir d’Outlook 365. 
 * Conserver un lien vers les objets Workfront dans l’e-mail d’origine converti en tâches, problèmes ou demandes : lorsque vous convertissez un e-mail d’Outlook 365 en tâche, problème ou demande, Outlook 365 conserve un lien vers la tâche convertie ou le problème converti à partir de cet e-mail dans l’e-mail d’origine. Avant cette modification, Outlook n’indiquait pas si un e-mail avait été converti en tâche ou envoyé en tant que demande. 
 
-  Pour plus d’informations sur la conversion d’un e-mail en tâche ou en problème à partir d’Outlook 365, voir [Ajouter un e-mail Outlook à un projet en tant que tâche ou problème](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
-
 ## Modifications des API {#api-changes}
 
 * [API 8 désormais disponible](#api-8-now-available)
 * [Versions supprimées et obsolètes de l’API](#removed-and-deprecated-versions-of-the-api)
-* [Activité Version finale 2017.3 bêta](#updated-message-format-for-event-subscriptions)
+* [Activité de la version Beta finale 2017.3](#updated-message-format-for-event-subscriptions)
 * [Reprises pour les abonnements aux événements pour les messages non distribuables](#event-subscription-retries-for-undeliverable-messages)
 
 ### API 8 désormais disponible {#api-8-now-available}

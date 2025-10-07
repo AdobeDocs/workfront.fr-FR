@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
+source-git-commit: f5b9f7eac2dd5bdc1f9634777b91737a8cc7fc53
 workflow-type: tm+mt
-source-wordcount: '13526'
+source-wordcount: '13436'
 ht-degree: 85%
 
 ---
@@ -2219,16 +2219,6 @@ ht-degree: 85%
       * [Mettre à jour un élément Adobe Workfront à partir de G Suite à l’aide du contenu d’un e-mail](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Adobe Workfront pour Outlook {#workfront-for-outlook}
       * [Adobe Workfront pour Outlook : index des articles](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
-      * [Configurer Adobe Workfront pour Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [Niveaux des autorisations de Workfront pour Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
-      * [Répondre à un commentaire à partir d’Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
-      * [Mettre à jour un objet existant à partir d’un e-mail Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
-      * [Ajouter un e-mail Outlook à un projet en tant que tâche ou problème](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
-      * [Créer une requête Adobe Workfront à partir d’un e-mail Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
-      * [Ajouter un e-mail Outlook en tant que tâche à votre liste de travail](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
-      * [Afficher des informations supplémentaires sur Adobe Workfront pour Outlook et se déconnecter](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
-      * [Activer Outlook pour Office pour une utilisation avec Adobe Workfront et SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
-      * [Dépannage : erreur outlookIdentityToken lors de l’utilisation de Workfront pour Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
    * Adobe Workfront pour Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams] : index des articles](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Vue d’ensemble d’Adobe Workfront pour Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
@@ -2434,7 +2424,7 @@ ht-degree: 85%
       * [Modifier les paramètres d’alerte par e-mail pour une épreuve dans Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
    * Gérer les utilisateurs et les utilisatrices ainsi que les contacts dans Workfront Proof {#managing-users-in-wf-proof}
       * [Gérer les utilisateurs et les utilisatrices ainsi que les contacts dans Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-      * Utilisateurs {#users}
+      * Utilisateurs et utilisatrices {#users}
          * [Utilisateurs](workfront-proof/wp-mnguserscontacts/users/users.md)
          * [Créer des utilisateurs et des utilisatrices à l’aide de Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-users.md)
          * [Configurer des informations sur l’utilisateur ou l’utilisatrice à l’aide de Workfront Proof](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
@@ -2516,7 +2506,7 @@ ht-degree: 85%
       * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 20](wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
