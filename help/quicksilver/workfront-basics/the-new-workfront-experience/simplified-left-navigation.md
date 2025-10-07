@@ -3,13 +3,13 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Panneau de navigation de gauche dans  [!DNL Adobe Workfront]
 description: Le panneau de navigation de gauche dans  [!DNL Workfront]  facilite la navigation dans le système.
-author: Courtney
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 98%
+source-wordcount: '1375'
+ht-degree: 83%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 98%
 La plupart des zones et des objets de Workfront utilisent un simple panneau de navigation sur le côté gauche de l’écran. Les avantages de la navigation dans le panneau de gauche sont les suivants :
 
 * Elle permet de mieux gérer l’espace de l’écran.
-* Votre équipe d’administration [!DNL Workfront] peut masquer n’importe quelle section du panneau de gauche, à l’exception des détails de l’objet, à l’aide de modèles de disposition.
+* Votre équipe d’administration [!DNL Workfront] peut masquer n’importe quelle section du panneau de gauche, à l’exception des détails de l’objet, à l’aide de modèles de mise en page.
 
-  Pour plus d’informations sur l’utilisation des modèles de disposition, voir l’article [Créer et gérer des modèles de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+  Pour plus d’informations sur l’utilisation des modèles de mise en page, voir l’article [Créer et gérer des modèles de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 * Vous pouvez facilement modifier l’ordre des sections dans le panneau de navigation de gauche sans ouvrir d’autres écrans en les faisant glisser et en les déposant dans l’ordre de votre choix.
 
@@ -74,8 +74,8 @@ Le panneau de gauche est disponible pour les objets suivants :
 
 >[!IMPORTANT]
 >
->Si le panneau de gauche n’affiche qu’une seule section par défaut (par exemple **[!UICONTROL Tous les projets]** dans la zone **[!UICONTROL Projets]**) l’équipe d’administration [!DNL Workfront] doit ajouter au moins une section personnalisée à cette zone lors de la création d’un modèle de disposition et vous affecter à ce modèle avant que le panneau de gauche ne s’affiche dans cette zone.\
->Pour plus d’informations sur la manière dont une équipe d’administration [!DNL Workfront] personnalise le panneau de gauche dans un modèle de disposition, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Si le panneau de gauche n’affiche qu’une seule section par défaut, comme **[!UICONTROL Tous les projets]** dans la zone **[!UICONTROL Projets]**, un administrateur de [!DNL Workfront] doit ajouter au moins un tableau de bord dans cette zone lors de la création d’un modèle de mise en page et vous affecter à ce modèle avant que le panneau de gauche ne s’affiche dans cette zone.
+>>Pour plus d’informations sur la manière dont une équipe d’administration [!DNL Workfront] personnalise le panneau de gauche dans un modèle de mise en page, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Le panneau de gauche est disponible pour les zones suivantes :
 
@@ -163,8 +163,8 @@ Les sections suivantes s’affichent dans le panneau de gauche de la zone **[!UI
         <td>Affiche tous les projets que vous pouvez consulter. Utilisez le menu déroulant [!UICONTROL Filter] pour changer la liste des projets que vous souhaitez consulter.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Custom sections]</strong></td>
-        <td>Vous pouvez voir toutes les sections personnalisées que votre administrateur ou administratrice [!DNL Workfront] a ajoutées au panneau de gauche de la zone [!UICONTROL Projects] de votre modèle de mise en page. Les sections personnalisées portent des noms adaptés à votre environnement.</td>
+        <td><strong>[!UICONTROL Dashboards]</strong></td>
+        <td>Vous pouvez afficher tous les tableaux de bord que votre administrateur [!DNL Workfront] a ajoutés au panneau de gauche pour la zone [!UICONTROL Projects] dans votre modèle de mise en page. Ces tableaux de bord portent des noms qui ont été personnalisés en fonction de votre environnement.</td>
     </tr>
 </table>
 
@@ -239,14 +239,16 @@ La recherche et la modification d’informations dans le panneau de gauche sont 
 
 Pour savoir quelles sections sont disponibles pour des zones spécifiques, voir [[!UICONTROL Sections par défaut] dans le panneau de navigation de gauche](#default-sections-in-the-left-navigation-panel).
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon-16x12.png), puis cliquez sur le nom d’un objet pour y accéder.
+{{step1-click-main-menu}}
+
+1. Cliquez sur le nom d’un objet pour y accéder.
 
    La page de l’objet s’affiche.
 
 1. (Le cas échéant) Si vous avez sélectionné une zone contenant une liste d’objets, telle que **[!UICONTROL Projets]** ou **[!UICONTROL Portfolios]**, vous devez procéder comme suit pour accéder au panneau de navigation de gauche :
 
    1. Cliquez sur un objet de la liste.
-   1. (Facultatif) Dans le panneau de navigation de gauche, vous pouvez sélectionner un autre objet, tel que **[!UICONTROL Tâches]** ou **[!UICONTROL Problème]** dans un projet, pour accéder à une liste d’objets, puis cliquer sur le nom de l’objet.
+   1. (Facultatif) Dans le volet de navigation de gauche, vous pouvez sélectionner un autre objet, tel que **[!UICONTROL Tâches]** ou **[!UICONTROL Événements]** au sein d’un projet, dans le volet de gauche pour accéder à une liste d’objets, puis cliquer sur le nom de l’objet spécifique.
 
       La page de l’objet s’affiche.
 
@@ -254,9 +256,9 @@ Pour savoir quelles sections sont disponibles pour des zones spécifiques, voir 
 
    Vous devez disposer d’autorisations de modification sur l’objet pour modifier les informations.
 
-   ![Sections du panneau de gauche](assets/NWE-left-navigation-panel.png)
+   ![Sections du panneau de gauche](assets/left-navigation-panel.png)
 
-1. (Facultatif) Pour ajouter un lien rapide au tableau de bord, cliquez sur **[!UICONTROL Ajouter un tableau de bord]** en bas du panneau de gauche, puis procédez comme suit :
+1. (Facultatif) Pour ajouter un lien rapide vers un tableau de bord, cliquez sur **[!UICONTROL Ajouter un tableau de bord]** en bas du panneau de gauche, puis procédez comme suit :
 
    1. Saisissez le nom du tableau de bord dans le champ **[!UICONTROL Nom de lien rapide]**.
    1. Commencez à saisir le nom d’un tableau de bord existant dans le champ **[!UICONTROL Choisir un tableau de bord]**, puis cliquez sur le tableau de bord lorsqu’il s’affiche dans la liste.
@@ -267,9 +269,9 @@ Pour savoir quelles sections sont disponibles pour des zones spécifiques, voir 
 
 1. (Facultatif) Pour supprimer un lien rapide de tableau de bord, passez la souris sur le tableau de bord dans le volet de navigation de gauche, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/remove-dashboard-from-left.png) lorsqu’elle s’affiche.
 
-1. (Facultatif) Pour modifier l’ordre d’une section dans le panneau de gauche, cliquez sur l’icône **[!UICONTROL Faire glisser]** ![](assets/drag-icon.png) à droite d’une section et faites-la glisser vers le haut ou vers le bas.
+1. (Facultatif) Pour modifier l’ordre d’une section dans le panneau de gauche, cliquez sur l’icône **[!UICONTROL Faire glisser]** ![](assets/drag-icon.png) à côté d’une section et faites-la glisser vers le haut ou vers le bas.
 
-   ![Faire glisser une section](assets/drag-section-right.png)
+   ![Faire glisser une section](assets/drag-section.png)
 
 1. (Facultatif) Pour fermer le panneau de gauche, cliquez sur l’icône **[!UICONTROL Réduire]** ![](assets/left-panel-collapse-icon.png).
 

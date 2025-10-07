@@ -7,10 +7,10 @@ description: Questions fréquentes sur les rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 87%
+source-wordcount: '1509'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ Vous trouverez ci-dessous les questions fréquentes sur les rapports.
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -210,8 +210,7 @@ Pour en savoir plus sur le champ **Exécuter ce rapport avec les droits d’acc�
 
 Lorsque vous supprimez une personne, vous pouvez toujours accéder aux rapports qu’elle a créés. Toutefois, les tableaux de bord qui incluaient le rapport sont également supprimés. Cela signifie que vous ne pouvez plus accéder aux éléments suivants :
 
-* Tableau de bord contenant le rapport
-* Section personnalisée contenant un tableau de bord du rapport
+* Tableau de bord contenant le rapport, y compris les tableaux de bord du panneau de gauche d’un objet
 
 Pour en savoir plus sur les implications de la suppression d’une personne, voir [Supprimer des personnes](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 

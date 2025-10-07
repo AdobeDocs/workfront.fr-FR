@@ -6,10 +6,10 @@ description: Vous pouvez partager l’équilibreur de charge de travail avec d�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 82%
+ht-degree: 75%
 
 ---
 
@@ -130,10 +130,10 @@ Vous avez besoin de l’accès suivant pour afficher les informations dans l’�
 1. Pour partager le lien avec d’autres personnes, effectuez l’une des opérations suivantes :
 
    * Collez-le dans un e-mail, un message de chat ou toute autre application, puis partagez-le avec d’autres utilisateurs et utilisatrices.
-   * Ajoutez-le à une section personnalisée en tant que page externe, ajoutez la section personnalisée à un profil d’utilisateur ou utilisatrice ou à un modèle de disposition, puis partagez le modèle de disposition avec des utilisateurs, des utilisatrices, des équipes, des fonctions ou des groupes.
+   * Ajoutez-le à un tableau de bord en tant que page externe, ajoutez le tableau de bord au profil d’un utilisateur ou à un modèle de mise en page, puis partagez le modèle de mise en page avec des utilisateurs, des équipes, des fonctions ou des groupes.
 
-     Pour plus d’informations sur la création d’une page externe, voir [Incorporer une page web externe dans un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Pour plus d’informations sur l’ajout de sections personnalisées à un modèle de disposition, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Pour plus d’informations sur la création d’une page externe, voir [Incorporer une page web externe dans un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Pour plus d’informations sur l’ajout de tableaux de bord à un modèle de mise en page, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >
-     >Lorsque vous ajoutez l’équilibreur de charge de travail à la section personnalisée d’un objet, les informations de l’équilibreur de charge de travail ne sont pas filtrées par l’objet . L’équilibreur de charge de travail affiche les informations filtrées par les filtres appliqués à l’origine.
+     >Lorsque vous ajoutez l’équilibreur de charge de travail sous la forme d’un tableau de bord dans le panneau de gauche d’un objet, les informations de l’équilibreur de charge de travail ne sont pas filtrées par l’objet. L’équilibreur de charge de travail affiche les informations filtrées par les filtres appliqués à l’origine.

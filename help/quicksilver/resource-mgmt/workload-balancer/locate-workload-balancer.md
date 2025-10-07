@@ -7,10 +7,10 @@ description: L’équilibreur de charge de travail est disponible pour plusieurs
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 78%
+source-wordcount: '868'
+ht-degree: 64%
 
 ---
 
@@ -23,7 +23,7 @@ Utilisez l’équilibreur de charge de travail pour planifier le travail des res
 Vous pouvez accéder à l’équilibreur de charge de travail de différentes façons :
 
 * Dans plusieurs zones prédéfinies par Adobe Workfront
-* En l’ajoutant à une section personnalisée
+* En l’ajoutant au panneau de gauche sous forme de tableau de bord
 
 Cet article décrit les zones à partir desquelles vous pouvez accéder à l’équilibreur de charge de travail.
 
@@ -162,11 +162,11 @@ Tous les paramètres d’affichage sont disponibles pour l’équilibreur de cha
 
 </div>
 
-## Ajouter l’équilibreur de charge de travail à une section personnalisée
+## Ajoutez l’équilibreur de charge de travail au panneau de gauche sous forme de tableau de bord
 
-Vous pouvez ajouter l’équilibreur de charge de travail à n’importe quelle section personnalisée.
+Vous pouvez ajouter l’équilibreur de charge de travail sous forme de tableau de bord au panneau de gauche des objets permettant la personnalisation.
 
-La plupart des personnalisations que vous avez déjà appliquées à l’équilibreur de charge de travail sont conservées lors de son ajout à une section personnalisée.
+La plupart des personnalisations que vous avez déjà appliquées à l’équilibreur de charge de travail sont conservées lors de son ajout au panneau de gauche.
 
 1. Accédez à l’équilibreur de charge de travail en vous rendant dans l’une des zones suivantes :
 
@@ -181,15 +181,15 @@ La plupart des personnalisations que vous avez déjà appliquées à l’équili
       (NOTE: ensure this stays correct)
       -->
 
-1. Créez une section personnalisée comme décrit dans [Créer des onglets ou des sections personnalisés](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) pour placer le tableau de bord dans l’onglet personnalisé.
+1. Ajoutez un tableau de bord au panneau de navigation de gauche d’un objet, comme décrit dans la section [Ajouter un tableau de bord dans le panneau de gauche d’un objet ou d’une zone Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) pour placer le tableau de bord sur l’onglet personnalisé.
 
-   Lorsque vous accédez à l’équilibreur de charge de travail à partir de la section personnalisée, vous pouvez l’afficher comme si vous y accédiez directement à partir de l’une de ses zones d’origine répertoriées à l’étape 1.
+   Lors de l’accès à l’équilibreur de charge de travail à partir du tableau de bord, vous pouvez l’afficher comme si vous y accédiez directement à partir de l’une de ses zones d’origine répertoriées à l’étape 1.
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. (Facultatif) Partagez l’onglet personnalisé dans un modèle de disposition, comme décrit dans [Personnaliser le panneau de gauche à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+1. (Facultatif) Partagez le tableau de bord dans un modèle de mise en page comme décrit dans [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
 
 
 <!--

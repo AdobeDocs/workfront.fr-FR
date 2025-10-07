@@ -7,10 +7,10 @@ description: Le tableau de bord permet d’accéder rapidement aux informations.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 97%
+source-wordcount: '694'
+ht-degree: 89%
 
 ---
 
@@ -86,8 +86,8 @@ Vous pouvez partager un tableau de bord avec des utilisateurs et utilisatrices d
 * Partage individuel.\
   Pour plus d’informations sur le partage des tableaux de bord, consultez les sections [Partager des rapports, tableaux de bord et calendriers](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) et [Partager un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
-* Ajouter un tableau de bord à n’importe quelle zone ou objet de Workfront avec une section personnalisée\
-  Pour plus d’informations sur la création de sections personnalisées, consultez la section [Navigation de gauche dans Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Ajoutez un tableau de bord à n’importe quelle zone ou objet de Workfront dans le panneau de gauche.\
+  Pour plus d’informations sur l’ajout de tableaux de bord au panneau de gauche, voir [Volet de navigation de gauche dans Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Placez les tableaux de bord dans des modèles de mise en page que vous pouvez partager avec les utilisateurs et les utilisatrices.\
   Pour plus d’informations sur le partage de tableaux de bord par le biais de modèles de mise en page, consultez la section [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
@@ -108,8 +108,8 @@ Quand vous partagez un tableau de bord avec des utilisateurs et des utilisatrice
 
 Vous pouvez afficher un tableau de bord comme suit :
 
-* Accédez à la section personnalisée où se trouve le tableau de bord.\
-  Pour plus d’informations sur le placement de tableaux de bord dans des sections personnalisées, consultez la section [Navigation de gauche dans Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Accédez au tableau de bord via le panneau de gauche d’un objet.
+Pour plus d’informations sur le placement des tableaux de bord dans le panneau de gauche, voir [Volet de navigation de gauche dans Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Rechercher et accéder manuellement au tableau de bord
 

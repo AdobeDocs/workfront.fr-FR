@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 59%
+source-wordcount: '1120'
+ht-degree: 51%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 59%
 
 Dans un modèle de mise en page, vous pouvez personnaliser ce que les personnes voient dans la zone du panneau de gauche dans l’ensemble d’[!DNL Adobe Workfront].
 
-Par exemple, vous pouvez déterminer les éléments suivants que les personnes voient dans le panneau de gauche lorsqu’elles affichent une tâche :
+Par exemple, vous pouvez déterminer lequel des éléments suivants les utilisateurs voient dans le panneau de gauche lors de l’affichage d’un projet :
 
-![Image de marque du panneau de gauche](assets/left-panel-adobe-branding.png)
+![Panneau de gauche d’un projet](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -31,9 +31,9 @@ Par exemple, vous pouvez déterminer les éléments suivants que les personnes v
 
 Pour plus d’informations sur la création de modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Pour plus d’informations sur les modèles de disposition pour les groupes, voir [Créer et modifier des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Créer et modifier des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs et utilisatrices pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de disposition aux utilisateurs et utilisatrices, voir [Affecter des utilisateurs et utilisatrices à un modèle de disposition](../use-layout-templates/assign-users-to-layout-template.md).
+Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs et utilisatrices pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de mise en page à des utilisateurs et utilisatrices, voir [Attribuer un modèle de mise en page à des utilisateurs et utilisatrices](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Conditions d’accès
 
@@ -147,7 +147,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
       <td>Nom d’un tableau de bord</td> 
-      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>NOTE</b> : si vous avez créé des onglets personnalisés pour la zone [!UICONTROL Reports] à l’aide d’un modèle de mise en page dans [!DNL Adobe Workfront Classic], ils s’affichent au bas de cette liste. Pour les utilisateurs et utilisatrices, ils s’affichent au bas du panneau de gauche dans la zone [!UICONTROL Dashboards].</p> </td> 
+      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Scrum Team]</td> 
@@ -227,13 +227,15 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
    >* [Personnaliser le branding Adobe  [!DNL Workfront]  à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Facultatif) Si vous souhaitez ajouter un élément du panneau de gauche lié à l’un des tableaux de bord de votre entreprise, cliquez sur **[!UICONTROL Ajouter une section personnalisée]**, saisissez un **[!UICONTROL titre de la section personnalisée]** pour l’élément, puis ajoutez le tableau de bord.
+1. (Facultatif) Si vous souhaitez ajouter un élément du panneau de gauche qui pointe vers l’un des tableaux de bord de votre organisation, cliquez sur **[!UICONTROL Ajouter un tableau de bord]**, saisissez le **[!UICONTROL nom du lien rapide]** de l’élément, puis choisissez le tableau de bord.
 
-   Les éléments du tableau de bord s’affichent au bas du panneau de gauche. Les utilisateurs voient le titre de la section Personnalisée que vous saisissez en regard de l’élément de tableau de bord lorsqu’ils le survolent dans le panneau de gauche.
+   Vous devez créer le tableau de bord pour qu’il apparaisse dans la liste.
+
+   Les éléments du tableau de bord s’affichent en bas du panneau de gauche.
 
    >[!NOTE]
    >
-   >Les utilisateurs et utilisatrices peuvent ajouter des éléments de tableau de bord personnalisés à leur propre panneau de gauche. Lorsque vous ajoutez des éléments de tableau de bord personnalisés à un modèle de mise en page, vos éléments s’affichent en plus de ceux qu’ils ajoutent, sans les remplacer ni les réinitialiser. Cela est également vrai si vous affectez des utilisateurs et utilisatrices à un nouveau modèle de mise en page avec des éléments de tableau de bord personnalisés. Pour plus d’informations sur la personnalisation du panneau de gauche par les utilisateurs et utilisatrices, voir [Créer des onglets ou sections personnalisés](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Les utilisateurs et utilisatrices peuvent ajouter des éléments de tableau de bord personnalisés à leur propre panneau de gauche. Lorsque vous ajoutez des éléments de tableau de bord personnalisés à un modèle de mise en page, vos éléments s’affichent en plus de ceux qu’ils ajoutent, sans les remplacer ni les réinitialiser. Cela est également vrai si vous affectez des utilisateurs et utilisatrices à un nouveau modèle de mise en page avec des éléments de tableau de bord personnalisés. Pour plus d’informations sur la personnalisation du panneau de gauche, voir [Ajouter un tableau de bord dans le panneau de gauche d’un objet ou d’une zone Workfront](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
    >
    >Pour plus d’informations sur les tableaux de bord, voir [Tableaux de bord](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 

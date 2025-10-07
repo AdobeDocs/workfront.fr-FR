@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f5b9f7eac2dd5bdc1f9634777b91737a8cc7fc53
+source-git-commit: 30b99255a2178f972f9a9f3f7eda5f2929a24978
 workflow-type: tm+mt
-source-wordcount: '13436'
+source-wordcount: '13446'
 ht-degree: 85%
 
 ---
@@ -842,7 +842,7 @@ ht-degree: 85%
       * [Vue d’ensemble des chemins de navigation](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
       * [Vue d’ensemble des en-têtes d’objets](workfront-basics/the-new-workfront-experience/new-object-headers.md)
       * [Épingler des pages pour personnaliser votre espace de travail](workfront-basics/the-new-workfront-experience/pin-pages.md)
-      * [Créer des sections personnalisées](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+      * [Ajouter un tableau de bord dans le panneau de gauche d’un objet ou d’une zone Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Accéder à l’aide d’Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
       * [Vue d’ensemble des objets [!DNL Adobe Workfront]](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [Comprendre la navigation pour un utilisateur ou une utilisatrice de licence de travail](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
@@ -2506,7 +2506,7 @@ ht-degree: 85%
       * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 20](wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
