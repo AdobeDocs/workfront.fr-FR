@@ -23,8 +23,8 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 >[!NOTE]
 >
 >Aperçu : 2 octobre 2025
->>Version rapide de production : 15 octobre 2025
->>Production pour tous : 16 octobre 2025
+>&#x200B;>Version rapide de production : 15 octobre 2025
+>&#x200B;>Production pour tous : 16 octobre 2025
 
 Pour faciliter la consultation des informations dont vous avez besoin, nous avons ajouté la possibilité de créer et d’enregistrer des vues dans la zone Demandes . Vous pouvez désormais enregistrer une vue, y compris les filtres et les configurations de colonne, et passer d’une vue à l’autre. Un administrateur Workfront peut ajouter la nouvelle vue aux modèles de mise en page.
 
