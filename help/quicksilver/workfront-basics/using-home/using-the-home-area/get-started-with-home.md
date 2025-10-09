@@ -6,10 +6,10 @@ description: La page d’accueil vous aide à gérer votre travail. Vous pouvez 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 73%
+source-wordcount: '1106'
+ht-degree: 72%
 
 ---
 
@@ -57,7 +57,7 @@ Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un
 * **Mes demandes**\
     Affiche toutes les demandes que vous avez envoyées, un filtre pour afficher uniquement les demandes ouvertes et un bouton qui ouvre le panneau de résumé d’une demande.
 
-  <span class="preview">Dans l’environnement Aperçu , ce widget affiche toutes les requêtes que vous avez envoyées, un filtre pour afficher uniquement les requêtes qui répondent aux critères que vous spécifiez et un bouton qui vous permet de réorganiser les colonnes du widget.</span>
+  <span class="preview">Dans l’environnement Aperçu , ce widget affiche toutes les requêtes que vous avez envoyées, un filtre pour afficher uniquement les requêtes qui répondent aux critères que vous spécifiez et un bouton qui vous permet de réorganiser les colonnes du widget. Si vous avez accès à Workfront Planning, vos demandes Planning s’affichent également à cet emplacement.</span>
 
 
 * **Demandes de l’équipe**\
