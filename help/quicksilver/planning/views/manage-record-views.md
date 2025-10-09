@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1308'
 ht-degree: 40%
 
 ---
@@ -217,6 +217,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
    <span class="preview">![Créer une zone de vue](assets/create-view-box.png)</span>
 
+1. <span class="preview">Pour modifier une vue existante, saisissez son nom dans le champ **Rechercher** et appuyez sur la touche Entrée du clavier.</span>
 1. <span class="preview">Dans le menu déroulant des vues, faites glisser et déposez les vues par ordre de préférence.</span>
 
    <span class="preview">![Liste déroulante Afficher les types de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)</span>

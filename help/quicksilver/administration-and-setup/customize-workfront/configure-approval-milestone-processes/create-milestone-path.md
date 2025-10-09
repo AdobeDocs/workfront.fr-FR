@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 52%
+source-wordcount: '820'
+ht-degree: 56%
 
 ---
 
@@ -27,13 +27,13 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des chemins jalonnés qui peuvent ensuite être appliqués à n’importe quel projet du système. Les modifications apportées aux chemins jalonnés dans cette zone affectent l’ensemble du système Workfront.
 
@@ -85,13 +85,9 @@ Pour plus d’informations sur l’association d’un chemin jalonné à un proj
 1. Cliquez sur **Processus** > **Chemins jalonnés**.
 1. Cliquez sur **Nouveau chemin jalonné**.
 
-   <div class="preview">
-
    La boîte Nouveau chemin jalonné s’ouvre.
 
    ![Nouvelle zone de chemin jalonné](assets/new-milestone-path-box.png)
-
-   </div>
 
 1. Cliquez sur **Informations de base** dans le panneau de gauche.
 
@@ -118,8 +114,7 @@ Pour plus d’informations sur l’association d’un chemin jalonné à un proj
 
 1. Cliquez sur **Jalons** dans le panneau de gauche.
 
-1. Dans l’environnement de production, cliquez sur **Ajouter un jalon** pour ajouter des jalons au chemin d’accès.
-   <span class="preview">Dans l’environnement Aperçu, cliquez sur **Nouvelle ligne** pour ajouter des jalons au chemin d’accès.</span>
+1. Cliquez sur **Nouvelle ligne** pour ajouter des jalons au chemin d’accès.
 1. Mettez à jour les informations suivantes :
 
    <table style="table-layout:auto"> 

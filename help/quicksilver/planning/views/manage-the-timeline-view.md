@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3985'
 ht-degree: 36%
 
 ---
@@ -198,14 +198,23 @@ Pour gérer une vue chronologique :
 
      <span class="preview">Pour plus d’informations, voir [Création d’enregistrements](/help/quicksilver/planning/records/create-records.md).</span>
 
+   <!--Andrea verifying>[!TIP]
+    >
+    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
+
    * <span class="preview">Cliquez sur la marge gauche ou droite d’une barre d’enregistrement, puis faites-la glisser et déposez-la à un nouvel emplacement. Le redimensionnement des barres des enregistrements met immédiatement à jour leurs dates de début ou de fin. </span>
 
    * <span class="preview">Glisser-déposer des enregistrements pour mettre à jour leur position et leurs dates dans la chronologie. Le déplacement des barres des enregistrements met immédiatement à jour leurs dates de début et de fin.</span>
      <span class="preview">Pour plus d’informations, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).</span>
 
+   >[!TIP]
+   >
+   ><span class="preview"> le redimensionnement et le glisser-déposer des enregistrements n’est pas possible dans la chronologie pour les types d’objets Workfront et AEM Assets affichés dans la répartition.</span>
+
+
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-   * [Regroupement &#x200B;](#add-grouping)
+   * [Regroupement ](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 

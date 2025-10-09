@@ -1,25 +1,38 @@
 ---
 navigation-topic: betas
-title: Programmes bêta
-description: Découvrez les versions bêta actuelles d’Adobe Workfront.
+title: Programmes Beta
+description: Découvrez les nouvelles fonctionnalités d’Adobe Workfront actuellement disponibles pour l’ensemble de la clientèle ou un nombre limité de clientes et clients dans une version bêta.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 16%
 
 ---
 
-# Programmes bêta
+# Programmes Beta
 
-Les articles liés à cette page décrivent les programmes en version bêta actuels disponibles dans Adobe Workfront. Les fonctionnalités disponibles en version bêta peuvent ne pas être disponibles pour toutes les clientes et tous les clients.
+Les articles liés à cette page décrivent les programmes bêta actuellement disponibles dans Adobe Workfront.
 
-Les articles suivants contiennent des informations sur les fonctionnalités actuellement en version bêta :
+Les programmes Beta qui s’exécutent dans une version limitée et sont gérés de manière privée peuvent ne pas être répertoriés sur cette page.
 
-* [Informations sur la version bêta des tableaux de bord Zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+Les fonctionnalités disponibles en version Beta peuvent ne pas être disponibles pour l’ensemble des clientes et clients.
+
+Les fonctionnalités suivantes sont actuellement disponibles en version bêta :
+
+* Tableau de bord de la zone de travail
+
+  Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+* Intégrité du projet
+
+  Pour plus d’informations, voir [ Présentation de l’intégrité du projet ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+* Le réviseur Workfront AI
+Pour plus d’informations, voir [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 <!--
