@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 10%
 
 ---
@@ -23,8 +23,8 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 >[!NOTE]
 >
 >Aperçu : 2 octobre 2025
->&#x200B;>Version rapide de production : 15 octobre 2025
->&#x200B;>Production pour tous : 16 octobre 2025
+>>Version rapide de production : 15 octobre 2025
+>>Production pour tous : 16 octobre 2025
 
 Pour faciliter la consultation des informations dont vous avez besoin, nous avons ajouté la possibilité de créer et d’enregistrer des vues dans la zone Demandes . Vous pouvez désormais enregistrer une vue, y compris les filtres et les configurations de colonne, et passer d’une vue à l’autre. Un administrateur Workfront peut ajouter la nouvelle vue aux modèles de mise en page.
 
@@ -71,7 +71,7 @@ Cette mise à jour comprend également des modifications de l’aspect de la pag
 Tenez compte des points suivants lors de l’utilisation de la nouvelle expérience Requête :
 
 * Actuellement, vous ne trouvez des brouillons que dans l’expérience de demande héritée. Dans la nouvelle expérience , vous ne pouvez voir les brouillons que dans une file d’attente de workflows si vous en avez un dans le même chemin.
-* Actuellement, la nouvelle expérience affiche uniquement les requêtes créées au cours des 1,5 dernier mois. Pour afficher les requêtes plus anciennes, vous pouvez temporairement désactiver la nouvelle expérience et accéder aux requêtes plus anciennes via l’ancienne expérience.
+* Actuellement, la nouvelle expérience affiche uniquement les requêtes créées après juillet 2025. Pour afficher les requêtes plus anciennes, vous pouvez temporairement désactiver la nouvelle expérience et accéder aux requêtes plus anciennes via l’ancienne expérience.
 
 Auparavant, les demandes Workfront et Workfront Planning se trouvaient sur des onglets distincts et les filtres n’étaient pas personnalisables.
 
