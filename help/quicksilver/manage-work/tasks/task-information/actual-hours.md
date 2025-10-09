@@ -7,10 +7,10 @@ description: Les heures que vous enregistrez pour vos tâches dans Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d577fb1f84c2a91c7b4a37be271235ffa338c9fd
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 32%
+source-wordcount: '1253'
+ht-degree: 30%
 
 ---
 
@@ -75,11 +75,14 @@ En fonction de la zone du Workfront à partir de laquelle vous accédez aux heur
      >
      >Le coût réel du projet utilise les heures réelles héritées pour calculer.
 
+* Dans la zone Détails du projet, de la tâche ou de l’événement , les heures réelles peuvent s’afficher dans les champs suivants :
 
-* Dans la zone Détails du projet, de la tâche ou de l’événement :
+   * **Heures réelles** : dans l’onglet Détails , il s’agit des heures enregistrées pour des projets, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
+   * **Heures réelles** : dans un formulaire personnalisé de projet, de tâche ou d’événement, lorsqu’ils sont accessibles à l’aide d’un champ personnalisé de référence de champ natif qui fait référence au champ natif des heures réelles. Il s’agit d’heures enregistrées pour des projets, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
 
-   * **Heures réelles** : heures enregistrées pour des projets, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
-   * **Heures réelles** : lorsqu’elles sont accessibles à l’aide d’un champ personnalisé de référence de champ natif dans un formulaire personnalisé de projet, de tâche ou d’événement.
+>[!NOTE]
+>
+>Il est recommandé d’utiliser le champ Heures réelles autant que possible, car le champ Héritées des heures réelles peut afficher des heures inexactes en raison de la manière dont les incréments sont arrondis.
 
 ## Heures effectives sur les tâches et les problèmes ou heures effectives sur les projets
 
