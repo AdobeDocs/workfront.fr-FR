@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
+source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
 workflow-type: tm+mt
-source-wordcount: '8402'
+source-wordcount: '8483'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,14 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+### Mises à jour de l’interface de la boîte de dialogue Importer des utilisateurs dans Entreprises
+
+**Version préliminaire : 9 octobre 2025 ; Version de production pour tous les clients : à partir de la semaine du 16 octobre 2025**
+
+Nous avons mis à jour la boîte de dialogue pour importer de nouveaux utilisateurs sur une entreprise via un fichier de feuille de calcul, afin de correspondre à d&#39;autres zones de l&#39;application.
+
+Pour afficher cette modification, accédez à Configuration > Sociétés > sélectionner une société > Membres de la société > Ajouter un membre > Importer des utilisateurs.
 
 ### Nouvelle interface et nouvelle fonctionnalité pour les zones Nouveau chemin jalonné et Modifier le chemin jalonné
 
@@ -56,7 +64,7 @@ Cette mise à jour affecte :
 
 ### Mises à jour de l’interface pour la zone Gravités dans la configuration
 
-**Version préliminaire : 25 septembre 2025 ; Version de production : 9 octobre 2025**
+**Version préliminaire : 25 septembre 2025 ; Version de production : à annoncer**
 
 Nous avons mis à jour la page Gravités avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -68,7 +76,7 @@ Pour plus d&#39;informations, voir [Créer ou personnaliser la gravité des prob
 
 ### Mises à jour de l’interface pour la zone Priorités dans la configuration
 
-**Version préliminaire : 25 septembre 2025 ; Version de production : 9 octobre 2025**
+**Version préliminaire : 25 septembre 2025 ; Version de production : à annoncer**
 
 Nous avons mis à jour la page Priorités avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -471,7 +479,7 @@ Pour plus d’informations, voir
 * [Créer des règles de transmission](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 
-## Utilisateurs
+## Utilisateurs et utilisatrices
 
 ### Mises à jour de l’interface pour la page Détails de l’utilisateur
 
@@ -484,6 +492,11 @@ Vous pouvez afficher la conception mise à jour en accédant à Utilisateurs , e
 ### Mises à jour de l’interface pour les congés personnels
 
 **Version préliminaire : 25 septembre 2025 ; Version de production : 2 octobre 2025**
+
+>[!NOTE]
+>
+>Cette fonctionnalité a été temporairement supprimée des environnements de prévisualisation et de production le 9 octobre 2025.
+
 
 Nous avons mis à jour l’aspect du calendrier des congés personnels, y compris la possibilité de déléguer les approbations, pour qu’il corresponde aux autres zones de la demande.
 
@@ -644,7 +657,7 @@ Pour plus d’informations, voir [Configurer les informations de base de votre s
 
 Nous avons mis à jour la page Importer des données (Kick-Starts) dans la zone Configuration avec une conception plus moderne et cohérente avec les autres zones de Workfront. En outre, le processus d’importation Kickstart a été simplifié afin que le fichier sélectionné soit chargé immédiatement. Il n’est plus nécessaire de cliquer sur un bouton **Charger** distinct pour terminer l’importation après avoir choisi le fichier.
 
-Pour plus d’informations, voir [&#x200B; Importer des données dans Workfront à l’aide d’un modèle Kickstart &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Pour plus d’informations, voir [ Importer des données dans Workfront à l’aide d’un modèle Kickstart ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Mises à jour de l&#39;interface de la liste des types de dépenses
 
@@ -799,7 +812,7 @@ Pour plus d’informations, voir [Créer et modifier des risques dans les projet
 
 Nous avons mis à jour l’aspect de la zone Copier le modèle pour qu’elle corresponde à la conception d’autres zones de Workfront.
 
-Pour plus d’informations, voir [&#x200B; Copier un modèle de projet &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+Pour plus d’informations, voir [ Copier un modèle de projet ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
 
 +++
@@ -845,7 +858,7 @@ Nous vous recommandons de remplacer l’URL pour accéder à une page prise en c
 +++
 
 
-## Utilisateurs
+## Utilisateurs et utilisatrices
 
 +++Développez pour afficher les mises à jour de l’interface utilisateur effectuées au 3e trimestre.
 
