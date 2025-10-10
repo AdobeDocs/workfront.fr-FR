@@ -5,9 +5,9 @@ description: La fonctionnalité d’intégrité du projet utilise la puissance d
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
+source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 4%
 
 ---
@@ -73,7 +73,7 @@ Pour activer l’assistant AI et l’intégrité du projet pour votre organisati
 * L’expérience unifiée Adobe doit être activée.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
 * L’administrateur Workfront doit activer l’assistant AI pour les utilisateurs de votre entreprise. L’assistant AI est activé par le biais des niveaux d’accès.
-* Les options Activer l’IA et Intégrité du projet doivent être sélectionnées dans la section Préférences de l’IA sous Configuration > Préférences.
+* Les options Activer l’IA et Intégrité du projet doivent être sélectionnées dans la section Préférences de l’IA sous Configuration > Système > Préférences.
 
   ![section Préférences IA](assets/ai-preferences.png)
 
