@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 0e6b43d0d9ca416fdd67907457e3b0afec66db63
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 6%
+source-wordcount: '657'
+ht-degree: 7%
 
 ---
 
@@ -36,6 +36,10 @@ Tout utilisateur peut ajouter le réviseur d’IA à une demande de révision et
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
 Pour plus d’informations sur la signature du contrat, voir [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
+## Rejoindre la version Beta
+
+Pour rejoindre la version bêta, accédez à **Configuration** > **Révision et approbation** > **Réviseurs d’IA**, puis cliquez sur **Accepter les conditions**.
+
 
 ## Types de fichier pris en charge {#supported-file-types-ai-reviewer}
 
@@ -55,7 +59,7 @@ Si vous téléchargez un type de fichier non pris en charge, l’option Réviseu
 
 ## Configurer des directives de marque
 
-Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio Foundation lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio Foundation lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Créer des réviseurs d’IA
