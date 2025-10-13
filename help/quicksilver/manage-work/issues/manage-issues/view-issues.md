@@ -6,14 +6,16 @@ description: Vous pouvez afficher les problèmes associés à un projet, une tâ
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 98%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
 # Afficher les problèmes
+
+<!--Audited: 10/2025-->
 
 Vous pouvez afficher les problèmes associés à un projet, une tâche ou une itération.
 
@@ -138,11 +140,14 @@ Pour accéder à un problème et afficher les informations le concernant,procéd
 
 ## Afficher les projets et les tâches ayant des problèmes
 
-Vous pouvez ajouter des icônes dans la vue d’un projet, d’un rapport de tâche ou d’une liste pour indiquer si des problèmes y sont associés. L’ajout d’icônes à la vue de rapport ou de liste est similaire pour les projets et les tâches.
+Vous pouvez ajouter des icônes dans l&#39;affichage d&#39;un rapport ou d&#39;une liste de projet ou de tâche pour indiquer si des problèmes sont associés.
+
+L’ajout d’icônes à la vue de rapport ou de liste est similaire pour les projets et les tâches.
 
 Pour ajouter des icônes qui indiquent si un projet présente des problèmes dans un rapport de projet :
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-click-main-menu}}
+
 1. Cliquez sur **Rapports** > **Nouveau rapport** > **Rapport de projet**.
 1. Dans le champ **Afficher dans cette colonne**, commencer à saisir **Icônes de statut**, puis sélectionnez-la lorsqu’elle apparaît dans la liste.
 
@@ -150,4 +155,4 @@ Pour ajouter des icônes qui indiquent si un projet présente des problèmes dan
 
    Les icônes de problème s’affichent sur les projets qui rencontrent des problèmes dans la colonne **Icônes de statut**.
 
-   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
+   ![Liste de projets avec icône événement](assets/project-list-with-issue-icon-350x132.png)
