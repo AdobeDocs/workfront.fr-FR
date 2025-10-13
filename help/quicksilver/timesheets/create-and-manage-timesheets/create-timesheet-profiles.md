@@ -6,18 +6,16 @@ description: Vous pouvez créer, modifier et attribuer des profils de feuilles d
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
+source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 66%
+source-wordcount: '1597'
+ht-degree: 68%
 
 ---
 
 # Créer, modifier et attribuer des profils de feuilles de temps
 
 <!--Audited: 06/2025-->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement d’aperçu de Sandbox et est publiée dans le cadre d’un déploiement échelonné en production.</span>
 
 Vous pouvez créer, modifier et attribuer des profils de feuilles de temps qui génèrent des feuilles de temps récurrentes pour les utilisateurs et utilisatrices sans autre intervention de votre part. Vous gagnez ainsi du temps et vous vous assurez que les éléments suivants sont cohérents entre les utilisateurs et utilisatrices :
 
@@ -151,13 +149,11 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
 
    * **Notifications de rappel** : ajoutez une notification de rappel. Workfront enverra des rappels aux utilisateurs pour leur demander de remplir ou d’approuver leurs feuilles de temps. Vous devez créer des notifications de rappel avant de pouvoir les associer à un profil de feuille de temps.
 
-1. Lors de la création de profils de feuille de temps au niveau du groupe dans l’environnement de production, cliquez sur l’onglet **Affecter des personnes** pour associer le profil de feuille de temps à des utilisateurs, des groupes ou des équipes spécifiques (si vous êtes un administrateur Workfront). <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
-
-   <span class="preview">Lors de la création de profils de feuille de temps au niveau du groupe dans la Prévisualisation, faites défiler la page vers le bas et recherchez la section **Attribuer des personnes**.</span>
-
-   Lors de la création de profils de feuille de temps pour le système, faites défiler la page vers le bas et recherchez la section **Affecter des personnes**.
+1. Pour associer le profil de feuille de temps à des utilisateurs, des groupes ou des équipes spécifiques (si vous êtes un administrateur Workfront), faites défiler la page vers le bas et recherchez la section **Attribuer des personnes**.
 
    Commencez à taper le nom de l’utilisateur ou de l’utilisatrice, du groupe ou de l’équipe, puis cliquez dessus lorsqu’il ou elle apparaît dans la liste déroulante.
+
+   <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    Si vous êtes administrateur ou administratrice de groupes, vous pouvez attribuer le profil de feuille de temps aux groupes que vous administrez, mais pas aux équipes. Pour plus d’informations, voir [Limites pour un administrateur ou une administratrice de groupes qui attribue un profil de feuille de temps](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) dans cet article.
 
@@ -173,7 +169,7 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
 
    Une confirmation s’affiche en bas de l’écran indiquant que les feuilles de temps ont bien été générées. De nouvelles feuilles de temps sont générées en fonction des nouveaux profils que vous avez créés.
 
-   Pour plus d’informations, voir [&#x200B; Générer manuellement des feuilles de temps &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+   Pour plus d’informations, voir [ Générer manuellement des feuilles de temps ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
    La première fois que le profil de feuille de temps génère des feuilles de temps, deux feuilles de temps sont créées pour chaque utilisateur, pour la période qui inclut l’heure actuelle ainsi que pour la période suivante.
 
