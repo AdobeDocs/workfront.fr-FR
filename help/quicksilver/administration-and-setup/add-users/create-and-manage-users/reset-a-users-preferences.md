@@ -1,5 +1,5 @@
 ---
-title: Réinitialisation des préférences d’un utilisateur
+title: Réinitialiser les préférences d’un utilisateur
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 88%
@@ -18,6 +18,8 @@ ht-degree: 88%
 # Réinitialiser les préférences d’un utilisateur ou d’une utilisatrice
 
 <!-- Audited: 12/2023 -->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez réinitialiser ou supprimer les paramètres des préférences d’un utilisateur ou d’une utilisatrice pour tout utilisateur ou toute utilisatrice du système Workfront.
 
@@ -98,10 +100,21 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
   </tr> 
   <tr> 
    <td>Options de navigation globale définies par l’utilisateur ou l’utilisatrice</td> 
-   <td>Reviennent à la définition du modèle de disposition ou à la valeur par défaut du système si aucun modèle de disposition n’est attribué.</td> 
+   <td>Reviennent à la définition du modèle de mise en page ou à la valeur par défaut du système si aucun modèle de mise en page n’est attribué.</td> 
   </tr> 
  </tbody> 
 </table>
+
+<!-- Display this table and hide the HTML table above, when the unshim is released.
+| Preference | Status after the reset |
+| --- | --- |
+| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
+| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
+| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
+| Recent items list | Cleared |
+| Favorites list | Unaffected |
+| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+-->
 
 ## Réinitialiser les préférences de l’utilisateur ou de l’utilisatrice
 
@@ -110,7 +123,7 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
 1. Sélectionnez **Connexion en tant que**.
 1. Commencez à saisir le nom de l’utilisateur ou de l’utilisatrice dont vous souhaitez réinitialiser les préférences, puis cliquez sur son nom lorsqu’il apparaît dans la liste déroulante.
 1. Sélectionnez **Se connecter**.
-1. Si votre entreprise n’a pas été intégrée à l’expérience unifiée Adobe, procédez comme suit :
+1. Si votre organisation n’a pas été intégrée à l’expérience unifiée Adobe, procédez comme suit :
 
    * Dans le champ de l’URL en haut de votre navigateur web, ajoutez `/resetUser` après `workfront.com`.
 
@@ -120,9 +133,9 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
      >
      >`https://company_domain.my.workfront.com/resetUser`
 
-1. Si votre entreprise a été intégrée à l’expérience unifiée Adobe, procédez comme suit :
+1. Si votre organisation a été intégrée à l’expérience unifiée Adobe, procédez comme suit :
 
-   * Dans le champ URL situé en haut de votre navigateur web, ajoutez `/resetUser` après `workfront`.
+   * Dans le champ URL situé en haut de votre navigateur web, ajoutez le `/resetUser` après la `workfront`.
 
      >[!NOTE]
      >
@@ -133,6 +146,7 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
 1. Appuyez sur **Entrée**.
 1. Pour réinitialiser toutes les préférences de l’utilisateur ou de l’utilisatrice, sélectionnez **Réinitialiser**.
 
-   Ou
+<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+Ou
 
-   Pour réinitialiser uniquement les onglets personnalisés, sélectionnez **Réinitialiser les onglets**.
+Pour réinitialiser uniquement les onglets personnalisés, sélectionnez **Réinitialiser les onglets**.
