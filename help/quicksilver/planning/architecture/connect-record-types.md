@@ -6,13 +6,15 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '2764'
-ht-degree: 27%
+source-wordcount: '2817'
+ht-degree: 26%
 
 ---
 
+
+<!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
 # Connecter des types d’enregistrements
 
@@ -28,24 +30,29 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 Vous pouvez connecter des types d&#39;enregistrements entre eux ou vous pouvez connecter des types d&#39;enregistrements à des types d&#39;objets provenant d&#39;autres applications.
 
-La connexion de types d’enregistrements s’avère utile lorsque plusieurs types d’objets de travail se touchent. Par exemple, vous pouvez utiliser des campagnes, chacune d’elles pouvant correspondre à plusieurs marques. Pour indiquer cette relation, vous pouvez connecter des campagnes à des marques. De plus, le travail de chaque campagne peut être planifié dans plusieurs projets dans Workfront. Pour indiquer cela, vous pouvez connecter les campagnes aux projets appropriés. La connexion de types d’enregistrements et, par la suite, de différents enregistrements permet d’établir cette relation dans Workfront Planning.
+La connexion de types d’enregistrements s’avère utile lorsque plusieurs types d’objets de travail se touchent. Par exemple, vous pouvez utiliser des campagnes, chacune d’elles pouvant correspondre à plusieurs marques. Pour indiquer cette relation, vous pouvez connecter des campagnes à des marques. Cela crée un champ de connexion pour les marques dans l’enregistrement Campaign.
+
+De plus, le travail de chaque campagne peut être planifié dans plusieurs projets dans Workfront. Pour indiquer cela, vous pouvez connecter les campagnes aux projets appropriés. Cela crée un champ de connexion pour les projets de l’enregistrement Campaign.
+
+Une fois les champs de connexion créés, vous pouvez connecter des enregistrements individuels entre les deux types d&#39;enregistrement ou d&#39;objet.
+
+<!--
+>[!NOTE]
+>
+><span class="preview">You can have up to 30 connection fields for one record type.</span>-->
 
 Cet article décrit comment connecter deux types d&#39;enregistrements Workfront Planning ou un type d&#39;enregistrement Workfront Planning à un objet provenant d&#39;une autre application.
 
 Après avoir établi la connexion entre les enregistrements ou les types d&#39;objet, un champ de connexion est ajouté à un type d&#39;enregistrement Planning. Dans le champ de connexion, vous pouvez connecter des enregistrements individuels les uns aux autres et afficher les champs des types d&#39;enregistrements ou d&#39;objets liés sur un enregistrement Workfront Planning.
 
-<!--
->[!CAUTION]
->
-><span class="preview">One record type can have up to 30 connection fields.</span>-->
-
-Pour obtenir des informations générales sur les types de connexion, voir [&#x200B; Présentation des types d’enregistrements connectés &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Pour obtenir des informations générales sur les types de connexion, voir [ Présentation des types d’enregistrements connectés ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 Pour plus d&#39;informations sur la connexion d&#39;enregistrements ou d&#39;enregistrements avec des objets provenant d&#39;autres applications, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
 Pour un exemple de connexion des types d&#39;enregistrements et des enregistrements, voir [Exemple de connexion des types d&#39;enregistrements et des enregistrements](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
+
 
 ## Conditions d’accès
 
@@ -146,6 +153,13 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
 
    * Type d’enregistrement d’un autre espace de travail configuré pour se connecter à partir d’autres espaces de travail.
 
+     <!--replace the tip below with this at the preview release for global RTs and replace screen shot in the tip:
+        >[!TIP]
+        >
+        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the <span class="preview">**Cross-workspace settings**</span> tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
+        >
+        >For information, see [Configure cross-workspace capabilities for record type](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).-->
+
      >[!TIP]
      >
      >Le paramètre **Autoriser la connexion à ce type d&#39;enregistrement dans d&#39;autres espaces de travail** doit être activé pour un type d&#39;enregistrement dans l&#39;onglet **Paramètres avancés** de la zone **Modifier le type d&#39;enregistrement**, pour qu&#39;un type d&#39;enregistrement soit accessible à partir d&#39;autres espaces de travail. Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’autres espaces de travail, la section espace de travail ne s’affiche pas.
@@ -228,7 +242,7 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
 
    >[!NOTE]
    >
-   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Conditionnel) Lorsque vous choisissez de vous connecter à Experience Manager Assets ou à un type d’enregistrement Workfront Planning, choisissez l’une des options suivantes dans la zone **Apparence des enregistrements** :
@@ -243,7 +257,7 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
    >
    >* Lorsque vous autorisez la liaison de plusieurs enregistrements, l’affichage de la miniature seule peut permettre de gagner de l’espace dans des zones plus petites, comme les vues d’enregistrement.
    >
-   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
    >
@@ -346,13 +360,13 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
 
      Par exemple, si vous avez lié un type d’enregistrement Campagne à un type d’enregistrement Programme et que vous avez nommé le champ d’enregistrement lié Programme « Informations sur le programme », puis sélectionné pour afficher également le champ Budget du programme dans la vue Tableau de la campagne, le champ lié est automatiquement nommé `Budget (from Program information)` dans la vue Tableau de la campagne.
 
-   * Lorsque vous liez des types d’enregistrement les uns aux autres, un champ d’enregistrement lié est également ajouté au type d’enregistrement auquel vous associez, <!--<span class="preview">only when you enable the Create corresponding field on linked record type setting.</span>--> Le nom du champ d’enregistrement lié sur le type d’enregistrement lié est le nom du type d’enregistrement à partir duquel vous effectuez le lien.
+   * Lorsque vous liez des types d’enregistrement les uns aux autres, un champ d’enregistrement lié est également ajouté au type d’enregistrement auquel vous vous liez, <span class="preview">uniquement lorsque vous activez le paramètre Créer un champ correspondant sur le type d’enregistrement lié .</span> Le nom du champ d’enregistrement lié sur le type d’enregistrement lié est le nom du type d’enregistrement à partir duquel vous effectuez le lien.
 
      Par exemple, si vous liez le type d’enregistrement « Produit » au type d’enregistrement « Campagne » et que vous nommez le champ connecté de la campagne « Produit lié », un champ d’enregistrement lié « Campagne » est créé pour le type d’enregistrement Produit .
 
      >[!TIP]
      >
-     > Un champ d&#39;enregistrement lié n&#39;est pas créé pour les objets d&#39;une autre application vers le type d&#39;enregistrement que vous liez dans Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields for every record type.</span>-->
+     > Un champ d’enregistrement lié n’est pas créé pour les objets d’une autre application dans leurs applications respectives. <span class="preview">Nous vous recommandons de ne pas créer de liens sur les types d’enregistrements taxonomiques, car il existe une limite de 500 champs <!--<span class="preview">and a limit of 30 connected fields</span>--> pour chaque type d’enregistrement.</span>
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

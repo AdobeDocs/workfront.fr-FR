@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '5332'
 ht-degree: 43%
@@ -14,13 +14,15 @@ ht-degree: 43%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # Créer des champs
+
+<!--information about choice values must stay in yellow till Jan 2026-->
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -249,7 +251,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Paragraphe**.
 
-   ![&#x200B; Type de champ de paragraphe &#x200B;](assets/paragraph-field-type.png)
+   ![ Type de champ de paragraphe ](assets/paragraph-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -294,6 +296,24 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
    Le nouveau champ à sélection multiple est ajouté sous la forme d’une colonne au type d’enregistrement et ses valeurs peuvent être associées aux enregistrements.
 
+<!--
+1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
+1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+
+    >[!NOTE]
+    >
+    >* <span class="preview">Workfront assigns unique values for each choice. </span>
+    >
+    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
+    >
+    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
+    >
+    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+
+1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
+
+-->
+
 ### Sélection unique {#single-select}
 
 Les champs à sélection unique capturent des informations supplémentaires dans n’importe quel format en sélectionnant une option dans un menu déroulant.
@@ -303,10 +323,9 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 ><span class="preview">En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection unique d’un enregistrement, en mode Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).</span>
 >
 
-
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection simple**.
 
-   ![&#x200B; Type de champ à sélection unique &#x200B;](assets/single-select-field-type.png)
+   ![ Type de champ à sélection unique ](assets/single-select-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -328,6 +347,25 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 1. Cliquez sur **Créer**.
 
    Le nouveau champ à sélection unique est ajouté sous la forme d’une colonne au type d’enregistrement et ses valeurs peuvent être associées aux enregistrements.
+
+<!--
+
+1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
+1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+
+    >[!NOTE]
+    >
+    >* <span class="preview">Workfront assigns unique values for each choice. </span>
+    >
+    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
+    >
+    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
+    >
+    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+
+1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
+
+-->
 
 ### Date {#date}
 
@@ -369,7 +407,7 @@ Les types de champ Nombre capturent les informations au format numérique.
 >Les champs numériques s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de nombres une fois la demande soumise, dans le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Nombre**.
@@ -399,7 +437,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 >Les champs de pourcentage s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de pourcentages une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Pourcentage**.
@@ -439,7 +477,7 @@ Les types de champ de devise capturent les informations dans un format numériqu
 >Les champs de devise s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent en tant que devise une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Devise**.
 
@@ -514,7 +552,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
    >
    >* Vous pouvez référencer un champ contenant jusqu’à 4 champs (et objets) différents du type d’enregistrement actuel. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité (1) et que l’Activité est connectée au type d’enregistrement Campagne (2) qui est connecté à un projet Workfront (3), vous pouvez référencer le champ Budget du projet (4) dans la formule que vous créez pour le type d’enregistrement Activité.
    >
-   >![Exemple de formule de budget de projet avec quatre champs supprimés &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemple de formule de budget de projet avec quatre champs supprimés ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facultatif) Cliquez sur **Agrandir** pour ouvrir la zone Formule dans une zone plus grande.

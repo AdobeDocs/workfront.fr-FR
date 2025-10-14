@@ -6,13 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 53%
 
 ---
 
+
+<!--keep the global record type reference in yellow till January 2026-->
 
 # Supprimer des types d’enregistrements
 
@@ -26,13 +28,13 @@ Vous pouvez supprimer des types d’enregistrement lorsqu’ils ne sont plus per
 
 Cependant, la suppression des types d’enregistrement supprime également toutes les informations associées aux types d’enregistrement. Pour plus d’informations, consultez la section [Remarques concernant la suppression de types d’enregistrement](#considerations-when-deleting-record-types) de cet article.
 
-Pour plus d’informations sur les types d’enregistrements, voir [&#x200B; Présentation des types d’enregistrements &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Pour plus d’informations sur les types d’enregistrements, voir [ Présentation des types d’enregistrements ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -53,8 +55,8 @@ Pour plus d’informations sur les types d’enregistrements, voir [&#x200B; Pr�
    <td> 
 <p>L’un des plans Workfront suivants :</p> 
 <ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
    </td> 
 <tr> 
@@ -92,7 +94,7 @@ Pour plus d’informations sur les types d’enregistrements, voir [&#x200B; Pr�
 
 * Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Remarques concernant la suppression de types d’enregistrement
@@ -108,6 +110,21 @@ Pour plus d’informations sur les types d’enregistrements, voir [&#x200B; Pr�
 * Le type d’enregistrement est supprimé pour toutes les personnes accédant à l’espace de travail.
 * La suppression des types d’enregistrements et leurs informations associées est irréversible.
 * Il est recommandé de recréer les champs et les enregistrements associés au type d’enregistrement que vous souhaitez supprimer sur un autre type d’enregistrement avant de les supprimer.
+
+<!--
+
+<div class="preview">
+
+* You cannot delete a global record type that has been added to other workspaces. 
+   
+   You must first delete it from the secondary workspaces where it's been added, before you can delete it from its original workspace. 
+
+   Deleting a global record type from their secondary workspaces only remove them, their records, and that workspace's fields from the secondary workspace. It does not delete the global record type from its original workspace.
+
+   For information, see the section "Delete a global record type from a secondary workspace" in the article [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
+
+</div>
+-->
 
 ## Supprimer des types d’enregistrements
 
@@ -127,6 +144,13 @@ Pour plus d’informations sur les types d’enregistrements, voir [&#x200B; Pr�
 
    ![Confirmation de suppression définitive du type d’enregistrement](assets/permanently-delete-record-type-confirmation.png)
 
+   <!--[!TIP]
+   >
+   ><span class="preview">You cannot delete global record types added to other workspaces. First, delete the global record types form their secondary workspaces before deleting them from the original workspace.</span>-->
+
+
 1. Saisissez **delete** dans la zone de confirmation, puis cliquez sur **Supprimer définitivement**. Cette opération n’est pas sensible à la casse.
 
    Le type d&#39;enregistrement sélectionné, ainsi que ses champs, les enregistrements associés et les vues sont supprimés et ne peuvent pas être récupérés.
+
+
