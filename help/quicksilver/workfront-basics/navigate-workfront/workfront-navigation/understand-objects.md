@@ -58,7 +58,7 @@ Pour obtenir la liste complète des objets dans [!DNL Workfront], consultez la s
 
 *Les plans sont les objets du [!DNL Adobe Workfront Scenario Planner]. Pour plus d’informations sur le [!DNL Scenario Planner], consultez la section [Vue d’ensemble du [!UICONTROL Planificateur de scénarios &#x200B;]](../../../scenario-planner/scenario-planner-overview.md).
 
-*[!UICONTROL Objectifs] sont les objets d’[!DNL Adobe Workfront Goals]. Pour plus d’informations sur [!DNL Workfront Goals], consultez la section Vue d’ensemble d’[[!DNL Adobe Workfront Goals] ](../../../workfront-goals/goal-management/wf-goals-overview.md).
+*[!UICONTROL Objectifs] sont les objets d’[!DNL Adobe Workfront Goals]. Pour plus d’informations sur [!DNL Workfront Goals], consultez la section Vue d’ensemble d’[[!DNL Adobe Workfront Goals] &#x200B;](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 
 ## Personnaliser les noms d’objet
@@ -268,8 +268,8 @@ Vous pouvez créer des rapports sur les objets suivants lorsque vous utilisez Re
 * [!UICONTROL Favori]
 * [!UICONTROL Filtre]
 * [!UICONTROL Objectif]
-   * Vous pouvez créer un rapport pour les objectifs stratégiques ou afficher des informations relatives aux objectifs dans un rapport de projet lorsque les projets sont associés aux objectifs en tant qu’activités d’objectifs. Vous ne pouvez créer des objectifs stratégiques et les connecter à des projets que si votre organisation a acheté une licence [!DNL Workfront Goals]. Pour plus d’informations sur [!DNL Workfront Goals], voir Vue d’ensemble des [[!DNL Workfront Goals] ](../../../workfront-goals/goal-management/wf-goals-overview.md). Pour plus d’informations sur la connexion des projets aux objectifs stratégiques, voir [Ajouter des projets aux objectifs dans Objectifs Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-* Vous ne pouvez pas établir de rapport sur les objectifs du projet qui sont associés à un [!UICONTROL business case]. Pour plus d’informations sur les objectifs de projet et les objectifs stratégiques, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   * Vous pouvez créer un rapport pour les objectifs stratégiques ou afficher des informations relatives aux objectifs dans un rapport de projet lorsque les projets sont associés aux objectifs en tant qu’activités d’objectifs. Vous ne pouvez créer des objectifs stratégiques et les connecter à des projets que si votre organisation a acheté une licence [!DNL Workfront Goals]. Pour plus d’informations sur [!DNL Workfront Goals], voir Vue d’ensemble des [[!DNL Workfront Goals] &#x200B;](../../../workfront-goals/goal-management/wf-goals-overview.md). Pour plus d’informations sur la connexion des projets aux objectifs stratégiques, voir [Ajouter des projets aux objectifs dans Objectifs Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+* Vous ne pouvez pas établir de rapport sur les objectifs du projet qui sont associés à un [!UICONTROL business case]. Pour plus d’informations sur les objectifs de projet et les objectifs stratégiques, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Groupe]
 * [!UICONTROL Regroupement]

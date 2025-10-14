@@ -151,7 +151,7 @@ Vous pouvez recalculer le financement lors de leur modification en masse. Pour p
 
 1. Accédez au projet pour lequel vous souhaitez recalculer les données financières et cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du projet.
 
-   ![Liste déroulante Niveau du projet plus ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Liste déroulante Niveau du projet plus &#x200B;](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 

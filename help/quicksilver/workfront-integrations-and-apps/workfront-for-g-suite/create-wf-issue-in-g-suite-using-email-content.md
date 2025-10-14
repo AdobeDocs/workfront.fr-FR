@@ -32,7 +32,7 @@ ht-degree: 69%
 
 Vous pouvez convertir un e-mail externe (non généré par [!DNL Adobe Workfront]) en problème [!DNL Workfront].
 
-Vous pouvez également convertir un e-mail externe en une mise à jour sur un problème existant. Pour plus d’informations, voir [ [!DNL Adobe Workfront]  Mettre à jour un élément à partir de [!DNL Google Workspace] utiliser le contenu de l’e-mail](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md).
+Vous pouvez également convertir un e-mail externe en une mise à jour sur un problème existant. Pour plus d’informations, voir [&#x200B; [!DNL Adobe Workfront]  Mettre à jour un élément à partir de [!DNL Google Workspace] utiliser le contenu de l’e-mail](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md).
 
 Pour plus d’informations sur l’utilisation de [!DNL Google Workspace] pour travailler avec les e-mails de notification envoyés par [!DNL Workfront], voir [Gérer [!DNL Adobe Workfront] les détails des notifications depuis [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
 

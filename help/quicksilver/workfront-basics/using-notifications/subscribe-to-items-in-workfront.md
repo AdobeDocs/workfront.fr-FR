@@ -199,7 +199,7 @@ Pour afficher les personnes abonnées à un élément, procédez comme suit :
 
    ![Voir les personnes abonnées](assets/bell-hover-for-list-qs-350x90.png)
 
-   Vous pouvez également afficher une liste des personnes abonnées en ajoutant un champ [!UICONTROL Personnes abonnées] comme colonne dans un rapport ou dans une vue de l’élément abonné. Pour plus d’informations, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Vous pouvez également afficher une liste des personnes abonnées en ajoutant un champ [!UICONTROL Personnes abonnées] comme colonne dans un rapport ou dans une vue de l’élément abonné. Pour plus d’informations, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Comment utiliser des abonnements
 

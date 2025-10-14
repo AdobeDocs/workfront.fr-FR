@@ -77,7 +77,7 @@ Vous pouvez ajouter un commentaire à partir de la liste de travail :
    >
    >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
-Pour plus d’informations sur l’ajout de mises à jour, voir [ Ajouter une mise à jour à un élément de travail ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations sur l’ajout de mises à jour, voir [&#x200B; Ajouter une mise à jour à un élément de travail &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Afficher et ajouter des commentaires et des mises à jour système dans un élément de travail
 

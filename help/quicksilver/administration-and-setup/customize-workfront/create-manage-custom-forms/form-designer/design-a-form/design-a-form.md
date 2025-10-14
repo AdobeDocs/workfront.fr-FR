@@ -436,7 +436,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
 
    Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
-   ![ Icône Copier ](assets/copy-field.png)
+   ![&#x200B; Icône Copier &#x200B;](assets/copy-field.png)
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 

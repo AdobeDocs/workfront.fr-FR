@@ -392,7 +392,7 @@ Pour en savoir plus sur les solutions de remplacement pour chaque outil Flash sp
 
 ### Webinaire sur la version 21.1 {#21-1-release-webinar}
 
-Le webinaire sur la version 21.1 de Workfront sera présenté le 3 février à 11 h 00 EDT / 16 h 00 BST. Inscrivez-vous au webinaire [ici](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register).
+Le webinaire sur la version 21.1 de Workfront sera présenté le 3 février à 11 h 00 EDT / 16 h 00 BST. Inscrivez-vous au webinaire [ici](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
 ### Modification de la cadence des versions préliminaires {#change-in-preview-release-cadence}
 

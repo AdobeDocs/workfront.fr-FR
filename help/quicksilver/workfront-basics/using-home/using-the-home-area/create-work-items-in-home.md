@@ -81,7 +81,7 @@ Pour créer une tâche, procédez comme suit :
 1. Accédez au widget **Tâches**, puis cliquez sur **Ajouter une tâche**.
 1. Saisissez le nom de votre élément de tâche personnel, puis cliquez sur Entrée.
 1. (Facultatif) Cliquez sur l’icône **Date** ![Icône de date](assets/date-icon.png) pour ajouter une date d’échéance à l’élément.
-   ![ Mes tâches de travail ](assets/my-work-to-dos.png)
+   ![&#x200B; Mes tâches de travail &#x200B;](assets/my-work-to-dos.png)
 1. (Facultatif) Créez un rapport ou un filtre de tâche personnel. Pour plus d’informations sur la création d’un filtre de tâche personnel, voir [Filtre : tâche personnelle](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 Vous pouvez afficher vos tâches, ainsi que les tâches des autres utilisateurs, dans le rapport de tâches personnelles.
 

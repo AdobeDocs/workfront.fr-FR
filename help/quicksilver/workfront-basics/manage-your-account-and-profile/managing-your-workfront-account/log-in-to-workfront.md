@@ -70,7 +70,7 @@ Pour vous connecter à [!DNL Workfront] en utilisant votre nom d’utilisateur o
 
 1. Ouvrez une fenêtre de navigateur, puis saisissez l’URL unique de votre entreprise, qui doit avoir le format suivant : **`yourCompanyDomain.my.workfront.com`**.
 
-   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] ](../../../workfront-basics/workfront-browser-requirements.md).
+   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).
 
 1. Dans l’écran de connexion, saisissez votre nom d’utilisateur ou d’utilisatrice et votre mot de passe.
 
@@ -87,7 +87,7 @@ Pour vous connecter à [!DNL Workfront] en utilisant votre nom d’utilisateur o
 
 1. Ouvrez une fenêtre de navigateur.
 
-   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] ](../../../workfront-basics/workfront-browser-requirements.md).
+   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).
 
 1. Saisissez l’URL unique de votre entreprise.
 

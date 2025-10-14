@@ -21,8 +21,8 @@ ht-degree: 84%
 
 Cette section contient les articles suivants :
 
-* [Environnement de sandbox de prévisualisaiton  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
-* [L’environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* [Environnement de sandbox de prévisualisaiton  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
+* [L’environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 * Promotion environnementale :
 
    * [Vue d’ensemble du déplacement d’objets entre les environnements Workfront (promotion environnementale)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
@@ -30,6 +30,6 @@ Cette section contient les articles suivants :
    * [Installer un package de promotion environnementale](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
    * [Restaurer un package de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
    * [Comparaison d’objets entre des environnements](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)
-   * [Déplacer des objets entre des environnements  [!DNL Workfront]  à l’aide de l’API de promotion environnementale  [!DNL Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+   * [Déplacer des objets entre des environnements  [!DNL Workfront]  à l’aide de l’API de promotion environnementale  [!DNL Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * [FAQ sur la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
    * [Résolution des problèmes liés à la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)

@@ -76,7 +76,7 @@ Pour plus d’informations sur les types de modèles de panorama, voir [Créer o
 
    1. (Facultatif) Dans la section **Est archivé**, indiquez si les tableaux archivés ou non s’affichent. Vous pouvez sélectionner plusieurs options.
 
-      ![Section archivée ](assets/is-archived-section.png)
+      ![Section archivée &#x200B;](assets/is-archived-section.png)
 
 1. Cliquez en dehors du panneau **Filtres** pour le fermer. Vos sélections de filtres resteront appliquées à la liste des tableaux jusqu’à ce qu’elle soit de nouveau dans la vue par défaut.
 

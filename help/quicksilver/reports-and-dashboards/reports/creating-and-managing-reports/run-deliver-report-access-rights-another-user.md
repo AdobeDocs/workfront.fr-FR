@@ -86,7 +86,7 @@ Pour exécuter un rapport avec les droits d’accès d’une autre personne, pro
 1. Cliquez sur **Paramètres du rapport**.
 
 1. Dans le champ **Exécuter ce rapport avec les droits d’accès suivants :**, commencez à saisir le nom de la personne pour laquelle vous souhaitez que le rapport s’affiche, puis sélectionnez-le lorsqu’il apparaît dans la liste.\
-   ![Exécuter avec les droits d’accès de ](assets/unshimmed-access-rights-of.png)
+   ![Exécuter avec les droits d’accès de &#x200B;](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -116,7 +116,7 @@ Pour remettre un rapport avec les droits d’accès d’une autre personne, proc
 1. Cliquez sur **Envoyer le rapport**.
 
 1. Dans le champ **Diffuser ce rapport avec les droits d’accès de :**, commencez à taper le nom de la personne sous lequelle vous souhaitez que le rapport s’affiche lorsqu’il est envoyé par e-mail, puis sélectionnez-le lorsqu’il apparaît dans la liste. La valeur par défaut est le nom de la personne qui crée le rapport.\
-   ![Rapport envoyé avec droits d’accès de ](assets/unshimmed-send-report-access-rights-of.png)
+   ![Rapport envoyé avec droits d’accès de &#x200B;](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

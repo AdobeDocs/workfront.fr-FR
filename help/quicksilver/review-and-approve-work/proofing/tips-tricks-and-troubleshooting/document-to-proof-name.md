@@ -34,6 +34,6 @@ Supprimez le caractère non valide du nom du document :
 
    Caractères non valides : `! # % * \ | ' " / ? < > { } [ ]`
 
-   ![ Nom du document ](assets/doc-name.png)
+   ![&#x200B; Nom du document &#x200B;](assets/doc-name.png)
 
 1. Actualisez la page et générez l’épreuve.

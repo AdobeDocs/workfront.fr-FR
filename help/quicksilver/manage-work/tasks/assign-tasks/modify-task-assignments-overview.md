@@ -67,7 +67,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
 ## Impact de la suppression des cessionnaires sur les heures de tâche et les pourcentages d’allocation
 
-La suppression de personnes peut affecter les heures de tâche et les pourcentages d’allocation. L’effet de la suppression d’une personne sur la tâche dépend du type de durée sélectionné pour la tâche. Pour plus d’informations sur les types de durée, voir [Vue d’ensemble de la Durée des tâches et du Type de durée ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+La suppression de personnes peut affecter les heures de tâche et les pourcentages d’allocation. L’effet de la suppression d’une personne sur la tâche dépend du type de durée sélectionné pour la tâche. Pour plus d’informations sur les types de durée, voir [Vue d’ensemble de la Durée des tâches et du Type de durée &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 
 Lorsque vous supprimez une personne d’une tâche avec les types de durée suivants :
 

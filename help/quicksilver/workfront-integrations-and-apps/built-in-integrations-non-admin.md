@@ -43,7 +43,7 @@ Les intégrations suivantes sont actuellement disponibles dans Workfront.
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Téléchargez/installez depuis <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <li><p>Téléchargez/installez depuis <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Pour plus d’informations et d’instructions, consultez <a href="https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installer le plug-in [!DNL Adobe Workfront] pour les applications [!DNL Creative Cloud]</a>.</p> </td> 
   </tr> 
   <tr> 

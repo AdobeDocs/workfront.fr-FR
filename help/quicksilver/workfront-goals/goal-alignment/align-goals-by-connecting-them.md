@@ -159,7 +159,7 @@ Aligning goals by connecting them differs depending on what environment you use.
    Les objectifs alignés s’affichent dans la section Alignement des objectifs, l’objectif 2 venant après l’objectif 1.
 L’objectif enfant s’affiche dans la section Indicateurs de progression de l’objectif parent lorsque sa progression met à jour la progression de l’objectif parent.
 
-   ![ Cartes alignées ](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![&#x200B; Cartes alignées &#x200B;](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. (Facultatif) Pour afficher les objectifs dans la section Alignement des objectifs, accédez à la zone Objectifs de Workfront, puis cliquez sur le bouton **Alignement des objectifs** dans le panneau de gauche. Pour plus d’informations sur la section Alignement des objectifs, voir [Accéder à la section Alignement des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 

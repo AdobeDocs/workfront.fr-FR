@@ -76,7 +76,7 @@ ht-degree: 53%
 
    * **De base :** sélectionnez cette option pour désigner les utilisateurs et utilisatrices qui doivent avoir accès à l’épreuve immédiatement après sa création. Vous pouvez également partager l’épreuve avec plusieurs utilisateurs et utilisatrices.
 
-     Pour plus d’informations sur le partage d’une épreuve, voir [ Partager une épreuve dans  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+     Pour plus d’informations sur le partage d’une épreuve, voir [&#x200B; Partager une épreuve dans  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
    * **Automatisé :** sélectionnez cette option pour gérer la révision et l’approbation du contenu lorsque vous disposez de processus de révision complexes, ou si vous envoyez régulièrement du contenu à des groupes de personnes identiques. Avec un workflow automatisé, le BAT passe d’une étape à l’autre jusqu’à l’approbation finale. Les utilisateurs concernés sont avertis à tout moment qu&#39;ils doivent donner leur accord.
 

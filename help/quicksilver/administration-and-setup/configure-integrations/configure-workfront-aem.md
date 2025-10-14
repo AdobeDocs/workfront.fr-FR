@@ -113,7 +113,7 @@ Pour installer le connecteur [!DNL Workfront for AEM Assets], vous devez importe
 
 Après avoir installé le connecteur, importez le package connecteur vers AEM et configurez l’application pour lier les documents dans [!DNL Workfront].
 
-Pour plus d’informations sur l’installation du connecteur, voir [Installer le package du connecteur  [!DNL Workfront for AEM Assets] ](#install-the-workfront-for-aem-assets-connector-package).
+Pour plus d’informations sur l’installation du connecteur, voir [Installer le package du connecteur  [!DNL Workfront for AEM Assets] &#x200B;](#install-the-workfront-for-aem-assets-connector-package).
 
 * [Conditions préalables](#prerequisites)
 * [Intégrer AEM à  [!DNL Workfront]](#integrate-aem-with-workfront)

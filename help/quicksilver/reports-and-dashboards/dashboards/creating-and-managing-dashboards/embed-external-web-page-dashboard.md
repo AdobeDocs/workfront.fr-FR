@@ -132,7 +132,7 @@ ou,\
 
       * URL HTTPS (chiffrée) vers une page web.\
         Seules les pages HTTPS (chiffrées) sont chargées avec l’URL.\
-        ![ Boîte de dialogue Ajouter une page externe ](assets/add-external-page-dialog-qs-350x247.png)
+        ![&#x200B; Boîte de dialogue Ajouter une page externe &#x200B;](assets/add-external-page-dialog-qs-350x247.png)
 
       * URL de modèle contenant des informations de session pour un site web spécifique.\
         Par exemple : *https://localhost/?session={!$$SESSION}*

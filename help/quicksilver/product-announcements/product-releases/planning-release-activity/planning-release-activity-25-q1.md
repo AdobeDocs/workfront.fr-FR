@@ -199,7 +199,7 @@ Pour plus d’informations, voir [Création et gestion d’un formulaire de dema
 
 Vous pouvez désormais afficher les enregistrements dans la vue Calendrier par semaine. Avant cette amélioration, vous ne pouviez afficher la vue Calendrier que par mois.
 
-Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Restaurer les enregistrements supprimés
 

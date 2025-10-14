@@ -112,6 +112,6 @@ Pour clarifier la manière dont l’assistant AI localise les réponses aux ques
 
 Auparavant, ces informations n’étaient pas disponibles dans la réponse de l’assistant d’IA.
 
-Pour plus d’informations sur l’utilisation de l’assistant AI afin d’obtenir des informations sur les éléments de Workfront, voir [ Utiliser l’assistant AI pour travailler sur des projets, des tâches et des événements](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+Pour plus d’informations sur l’utilisation de l’assistant AI afin d’obtenir des informations sur les éléments de Workfront, voir [&#x200B; Utiliser l’assistant AI pour travailler sur des projets, des tâches et des événements](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
 
 

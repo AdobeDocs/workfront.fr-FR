@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 ## Créer d’une demande de révision ou d’approbation de document à partir de la page du document
 
 1. Pointez sur le document, puis cliquez sur sélectionnez Détails du document.
-   ![ Détails du document ](assets/doc-details.png)
+   ![&#x200B; Détails du document &#x200B;](assets/doc-details.png)
 
 1. À côté du nom du document, sélectionnez la version du document pour laquelle créer une approbation dans le menu déroulant de la version. La version la plus récente est sélectionnée par défaut.
 

@@ -201,7 +201,7 @@ Cliquez sur **Annuler** pour arrêter l’ajout des éléments sélectionnés, p
    >   * Ctrl+Option+Touche « + » pour les ordinateurs Windows
    >   * Cmd+Option+Touche « + » pour les ordinateurs Mac
 
-   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [ Définir les types d’heures et la disponibilité ](define-hour-types-and-availability.md).
+   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [&#x200B; Définir les types d’heures et la disponibilité &#x200B;](define-hour-types-and-availability.md).
 
    Le type d’heure ne peut pas être modifié après la clôture d’une feuille de temps.
 

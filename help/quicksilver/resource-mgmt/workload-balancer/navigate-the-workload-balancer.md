@@ -245,7 +245,7 @@ Par défaut, la zone Travail non affecté n’affiche aucun élément de travail
    Le panneau Paramètres s’affiche sur la droite.
 
    <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-   ![ Panneau Paramètres de l’équilibreur de charge de travail ](assets/workload-balancer-settings.png)
+   ![&#x200B; Panneau Paramètres de l’équilibreur de charge de travail &#x200B;](assets/workload-balancer-settings.png)
 
    Exemple d’image dans l’environnement de production :
    ![Panneau Paramètres](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)

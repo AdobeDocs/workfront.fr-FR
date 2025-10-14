@@ -65,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Pour envoyer un message à l’ensemble des utilisateurs et utilisatrices de l’étape, cliquez sur le menu **Plus** sur l’étape et choisissez **Envoyer un message à tous**.
 
-   ![ Message sur l’étape ](assets/message-stage-350x122.png)
+   ![&#x200B; Message sur l’étape &#x200B;](assets/message-stage-350x122.png)
 
 1. Pour envoyer un message à une personne en particulier, cliquez sur le menu **Plus** à côté de la personne et choisissez **Envoyer un message**.
 

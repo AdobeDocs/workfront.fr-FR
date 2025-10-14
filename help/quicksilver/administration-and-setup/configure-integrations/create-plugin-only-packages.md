@@ -38,7 +38,7 @@ Vos utilisateurs et utilisatrices peuvent utiliser les plug-ins [!UICONTROL [!DN
 * Afficher des projets et des tâches
 * et plus...
 
-Pour plus d’informations sur les plug-ins [!UICONTROL [!DNL Adobe Workfront] pour [!DNL Creative Cloud]], voir Plug-in [[!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Pour plus d’informations sur les plug-ins [!UICONTROL [!DNL Adobe Workfront] pour [!DNL Creative Cloud]], voir Plug-in [[!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
 ## Créer des packages pour les plug-ins [!UICONTROL [!DNL Adobe Workfront] pour [!DNL Creative Cloud]]
 

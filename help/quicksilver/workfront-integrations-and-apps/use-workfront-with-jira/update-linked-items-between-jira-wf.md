@@ -213,7 +213,7 @@ Un commentaire est ajouté à l’onglet **[!DNL Workfront]** dans [!DNL Jira] e
 L’heure est également affichée dans l’onglet **[!UICONTROL Heures]** de l’élément [!DNL Workfront].
 
 * [Consigner les heures pour les éléments  [!DNL Jira]  et  [!DNL Workfront]  liés](#log-time-for-linked-jira-and-workfront-items)
-* [Consigner les heures à partir de  [!DNL Jira]  vers un élément  [!DNL Workfront] ](#log-time-from-jira-to-a-workfront-item)
+* [Consigner les heures à partir de  [!DNL Jira]  vers un élément  [!DNL Workfront] &#x200B;](#log-time-from-jira-to-a-workfront-item)
 
 ### Consigner les heures pour les éléments [!DNL Jira] et [!DNL Workfront] liés
 

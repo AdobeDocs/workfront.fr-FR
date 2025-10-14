@@ -790,7 +790,7 @@ L’en-tête de l’entreprise affiche les informations suivantes :
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Les plans sont les objets du [!DNL Workfront Scenario Planner]. Pour plus d’informations sur le [!DNL Scenario Planner], voir [Vue d’ensemble du  [!DNL Scenario Planner] ](../../scenario-planner/scenario-planner-overview.md).
+Les plans sont les objets du [!DNL Workfront Scenario Planner]. Pour plus d’informations sur le [!DNL Scenario Planner], voir [Vue d’ensemble du  [!DNL Scenario Planner] &#x200B;](../../scenario-planner/scenario-planner-overview.md).
 
 L’en-tête des plans affiche les informations suivantes :
 

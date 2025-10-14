@@ -67,7 +67,7 @@ Cette configuration vous permet de donner un tableau de bord à vos clientes et 
 
 Les vues personnalisées disponibles dans les éditions [!UICONTROL Entreprise] et [!UICONTROL Illimité] vous permettent de créer vos propres vues dans le compte. Vous pouvez choisir les informations que vous souhaitez inclure dans cette vue, les filtres que vous souhaitez utiliser et la manière de trier les informations. C’est un outil formidable pour suivre les épreuves et les fichiers de votre compte, mais il peut également être utilisé comme outil de création de rapports : les vues personnalisées peuvent être exportées vers un fichier [!DNL Excel], ce qui vous permet de traiter les données de manière plus approfondie.
 
-Des instructions détaillées sont disponibles sur la page [Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Des instructions détaillées sont disponibles sur la page [Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Que puis-je faire si une personne supprime une épreuve par accident ?
 

@@ -94,12 +94,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Cliquez sur **Géer les formulaires** pour supprimer ou réorganiser les formulaires. Pour plus d’informations sur la suppression et la réorganisation des formulaires personnalisés sur le modèle, voir [Formulaires personnalisés](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![Première étape Enregistrer en tant que modèle ](assets/save-as-template-first-step-350x159.png)
+   ![Première étape Enregistrer en tant que modèle &#x200B;](assets/save-as-template-first-step-350x159.png)
 
 1. Cliquez sur **Étape suivante.**
 1. Dans la section **Options**, cochez la case en regard des informations à effacer du modèle.
 
-   ![Options Enregistrer en tant que modèle ](assets/save-as-template-options-step-350x109.png)
+   ![Options Enregistrer en tant que modèle &#x200B;](assets/save-as-template-options-step-350x109.png)
 
 1. Cliquez sur **Étape suivante.**
 1. Dans la section **Exclure**, sélectionnez les tâches à exclure du projet.

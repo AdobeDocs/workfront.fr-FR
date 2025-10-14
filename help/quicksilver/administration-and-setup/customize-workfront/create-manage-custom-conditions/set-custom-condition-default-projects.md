@@ -19,7 +19,7 @@ ht-degree: 79%
 
 Si le type de condition d’un projet est défini sur Statut de la progression au lieu de Manuel, Adobe Workfront affiche automatiquement l’une des trois conditions par défaut intégrées au projet (Dans les temps, À risque ou En difficulté) au fur et à mesure de sa progression, comme expliqué dans [Vue d’ensemble de la condition du projet et du type de condition](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
-![Condition dans l’en-tête et les détails du projet ](assets/condition-of-project-0825.png)
+![Condition dans l’en-tête et les détails du projet &#x200B;](assets/condition-of-project-0825.png)
 
 Vous pouvez définir vos conditions personnalisées comme conditions par défaut au lieu d’utiliser ces trois conditions par défaut intégrées. Par exemple, vous pouvez modifier la condition par défaut Dans les temps pour qu’elle s’affiche comme Bon suivi dans tous les projets.
 

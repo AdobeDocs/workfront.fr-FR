@@ -82,7 +82,7 @@ Vous pouvez contrôler le volume de la lecture vidéo.
 
 1. Dans le coin inférieur droit de la visionneuse de relecture, placez le pointeur de la souris sur l’icône **Volume** puis faites glisser le curseur pour sélectionner un nouveau volume.
 
-   ![ Volume ](assets/phq-viewer-volume.png)
+   ![&#x200B; Volume &#x200B;](assets/phq-viewer-volume.png)
 
    Ou
 

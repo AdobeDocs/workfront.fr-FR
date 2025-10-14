@@ -42,4 +42,4 @@ Désormais, lorsque l’administrateur du Adobe Admin Console apporte une modifi
 
 Avant cette mise à jour, les modifications utilisateur effectuées par l’administrateur de l’Admin Console étaient enregistrées comme effectuées par l’administrateur système Workfront principal.
 
-Pour plus d’informations sur la gestion des utilisateurs dans Adobe Admin Console, voir [ Gérer les utilisateurs dans Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+Pour plus d’informations sur la gestion des utilisateurs dans Adobe Admin Console, voir [&#x200B; Gérer les utilisateurs dans Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)

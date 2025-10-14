@@ -106,7 +106,7 @@ Pour faciliter le fonctionnement indépendant des niveaux de votre organisation,
 
 Auparavant, seul un groupe de niveau supérieur pouvait avoir des administrateurs et des administratrices de groupes qui géraient tous les sous-groupes sous le groupe de niveau supérieur.
 
-Pour plus d’informations, consultez la section [Administrateurs et administratrices de groupes pour les sous-groupes ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) dans l’article [Vue d’ensemble des sous-groupes](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
+Pour plus d’informations, consultez la section [Administrateurs et administratrices de groupes pour les sous-groupes &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) dans l’article [Vue d’ensemble des sous-groupes](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes d’administration pour la nouvelle expérience Workfront, Partie 1 : organisation des utilisateurs et des utilisatrices](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home) de Workfront One.
 

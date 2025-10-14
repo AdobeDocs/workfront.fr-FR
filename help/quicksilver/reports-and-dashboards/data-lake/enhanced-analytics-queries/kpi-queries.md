@@ -40,7 +40,7 @@ L’indicateur Projets terminés indique le nombre de projets terminés au cours
 
 Vous pouvez également voir le nombre de projets terminés au cours de la période précédente, ainsi que le nombre de jours dans la période précédente.
 
-![ Projets d’indicateurs de performance clés terminés ](assets/kpi-projects-completed-350x182.png)
+![&#x200B; Projets d’indicateurs de performance clés terminés &#x200B;](assets/kpi-projects-completed-350x182.png)
 
 ### Requête
 

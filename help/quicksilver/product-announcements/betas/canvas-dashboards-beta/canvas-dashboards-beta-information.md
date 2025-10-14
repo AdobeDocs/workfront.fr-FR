@@ -28,7 +28,7 @@ ht-degree: 26%
 
 Les tableaux de bord de la zone de travail sont une fonctionnalité en cours de développement. Ils vous permettent de visualiser facilement vos données Adobe Workfront en ajoutant divers types de rapports à une zone de travail. Cette dernière offre de nombreuses options de disposition flexibles, notamment le redimensionnement, le glisser-déposer, etc.
 
-Pour plus d’informations, voir [ Présentation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Pour plus d’informations, voir [&#x200B; Présentation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Conditions d’accès
 

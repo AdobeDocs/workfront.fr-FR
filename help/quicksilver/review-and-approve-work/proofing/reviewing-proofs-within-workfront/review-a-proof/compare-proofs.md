@@ -80,4 +80,4 @@ Vous pouvez comparer deux épreuves dans n’importe quelle liste de documents, 
 
 ## Comparer deux versions de la même épreuve
 
-Pour plus d’informations sur la comparaison de deux versions d’une même épreuve, voir [Comparer des versions d’épreuves ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) dans [Comparer des épreuves dans la visionneuse de relecture](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+Pour plus d’informations sur la comparaison de deux versions d’une même épreuve, voir [Comparer des versions d’épreuves &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) dans [Comparer des épreuves dans la visionneuse de relecture](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).

@@ -87,7 +87,7 @@ Pour accéder à la section Planificateur dans la zone Ressources :
 
 Le planificateur s’affiche par défaut.  Pour plus d’informations sur l’établissement d’un budget des ressources dans le planificateur de ressources, consultez l’article [Établir un budget des ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![ Planificateur de ressources par défaut ](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![&#x200B; Planificateur de ressources par défaut &#x200B;](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Cliquez sur **Pools de ressources** dans le panneau de gauche.
 Pour plus d’informations sur la création de groupes de ressources, consultez l’article [Créer des groupes de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).

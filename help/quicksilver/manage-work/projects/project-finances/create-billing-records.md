@@ -162,7 +162,7 @@ Vous pouvez ajouter des heures à un enregistrement de facturation lorsque les c
 
    >[!NOTE]
    >
-   >Si aucune heure n&#39;est consignée ou si les heures consignées ne remplissent pas les conditions requises pour être ajoutées à un enregistrement de facturation, le bouton **Ajouter des heures** ne s&#39;affiche pas. Pour plus d’informations, reportez-vous à la section suivante de cet article : [quelles heures peuvent être ajoutées à un enregistrement de facturation ](#what-hours-can-be-added-to-a-billing-record).
+   >Si aucune heure n&#39;est consignée ou si les heures consignées ne remplissent pas les conditions requises pour être ajoutées à un enregistrement de facturation, le bouton **Ajouter des heures** ne s&#39;affiche pas. Pour plus d’informations, reportez-vous à la section suivante de cet article : [quelles heures peuvent être ajoutées à un enregistrement de facturation &#x200B;](#what-hours-can-be-added-to-a-billing-record).
 
 1. Sélectionnez les entrées d&#39;heures à inclure dans l&#39;enregistrement de facturation, puis cliquez sur **Ajouter des heures**. Le coût réel des heures est ajouté en tant que montant des **heures facturables** au total de l’**enregistrement de facturation**.
 

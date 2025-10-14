@@ -25,7 +25,7 @@ Vous pouvez désormais classer et rechercher rapidement des ressources en foncti
 
 Auparavant, le mappage des données Workfront aux balises Experience Manager Assets n’était pas disponible.
 
-Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets as a Cloud Service, consultez la section [Configurer l’intégration d’[!UICONTROL Experience Manager Assets as a Cloud Service] ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets as a Cloud Service, consultez la section [Configurer l’intégration d’[!UICONTROL Experience Manager Assets as a Cloud Service] &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets Essentials, consultez la section [Configurer l’intégration d’Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 

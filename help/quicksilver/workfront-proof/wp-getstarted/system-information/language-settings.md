@@ -56,7 +56,7 @@ Pour modifier la langue par défaut de votre compte, procédez comme suit.
 Les utilisateurs et utilisatrices [!DNL Workfront Proof] individuels peuvent spécifier une langue différente de celle utilisée par défaut dans leur compte. Pour modifier votre langue par défaut, procédez comme suit.
 
 1. Accédez à l’onglet **[!UICONTROL Détails personnels]** de vos **[!UICONTROL Paramètres personnels]** dans [!DNL Workfront Proof].\
-   Pour plus d’informations, voir [Gérer les utilisateurs et utilisatrices  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md).
+   Pour plus d’informations, voir [Gérer les utilisateurs et utilisatrices  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md).
 
 1. Cliquez sur la langue visible dans le paramètre **[!UICONTROL Langue]**.
 1. Dans le menu déroulant, sélectionnez la langue de votre choix. Votre sélection sera enregistrée automatiquement.\

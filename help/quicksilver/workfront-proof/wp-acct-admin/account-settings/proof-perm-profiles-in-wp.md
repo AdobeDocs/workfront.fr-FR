@@ -64,7 +64,7 @@ Les sections suivantes décrivent chaque profil et ses autorisations associées 
 
 ## Personne responsable de la facturation {#billing-administrator}
 
-Les personnes responsables de facturation ont accès aux [paramètres du compte sur la page de facturation  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et disposent des autorisations suivantes :
+Les personnes responsables de facturation ont accès aux [paramètres du compte sur la page de facturation  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et disposent des autorisations suivantes :
 
 ![Coche](assets/cleaner2.png)Peut générer des épreuves, charger des fichiers et créer des dossiers. Pour plus d’informations, voir [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Charger des fichiers et du contenu web dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), et [Créer des dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
@@ -78,7 +78,7 @@ Les personnes responsables de facturation ont accès aux [paramètres du compte 
 
 ![Coche](assets/cleaner2.png)Peut être défini comme propriétaire de la zone de dépôt. Pour plus d’informations, voir [Configurer la zone de dépôt dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![Coche](assets/cleaner2.png)Peut accéder à la page de facturation et modifier les détails de facturation. Pour plus d’informations, voir [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Coche](assets/cleaner2.png)Peut accéder à la page de facturation et modifier les détails de facturation. Pour plus d’informations, voir [la page de facturation  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ![Coche](assets/cleaner2.png)Peut accéder à la page Paramètres du compte et modifier les détails du compte. Pour plus d’informations, voir [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
@@ -98,7 +98,7 @@ Les personnes responsables de facturation ont accès aux [paramètres du compte 
 
 Pour plus d’informations sur les paramètres du compte, voir [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-Pour plus d’informations sur la facturation, voir [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+Pour plus d’informations sur la facturation, voir [la page de facturation  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Administrateur ou administratrice {#administrator}
 
@@ -132,7 +132,7 @@ Les administrateurs et les administratrices ont accès aux [paramètres du compt
 
 ![Red X](assets/no2.png)Impossible de supprimer les dossiers privés des autres utilisateurs. Pour plus d’informations, voir [Gérer les dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![Rouge X](assets/no2.png)Impossible d’accéder à la page Facturation ou de modifier les détails de facturation. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Rouge X](assets/no2.png)Impossible d’accéder à la page Facturation ou de modifier les détails de facturation. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Superviseur {#supervisor}
 
@@ -160,7 +160,7 @@ Les personnes responsables disposent des autorisations suivantes :
 
 ![Red X](assets/no2.png)Impossible de supprimer les dossiers privés des autres utilisateurs. Pour plus d’informations, consultez la section [Dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-![Red X](assets/no2.png)Impossible d’accéder à la page Facturation ou aux paramètres du compte. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Red X](assets/no2.png)Impossible d’accéder à la page Facturation ou aux paramètres du compte. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
 ![Red X](assets/no2.png)Impossible d’ajouter, de modifier ou de supprimer des utilisateurs.
 
@@ -186,7 +186,7 @@ Les personnes gestionnaires disposent des autorisations suivantes :
 
 ![Red X](assets/no2.png)Impossible de supprimer les dossiers publics des autres utilisateurs. Pour plus d’informations, voir [Gérer les dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![Red X](assets/no2.png)Impossible d’accéder à la page Facturation ou aux paramètres du compte. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Red X](assets/no2.png)Impossible d’accéder à la page Facturation ou aux paramètres du compte. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
 ![Red X](assets/no2.png)Cannot be set as the Dropzone owner. Pour plus d’informations, voir [Configurer la zone de dépôt dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
@@ -214,7 +214,7 @@ Les observateurs et observatrices disposent des autorisations suivantes :
 
 ![Red X](assets/no2.png)Impossible de supprimer les éléments créés dans l’organisation.
 
-![Red X](assets/no2.png)Impossible d’accéder à la page Facturation ou aux paramètres du compte. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Red X](assets/no2.png)Impossible d’accéder à la page Facturation ou aux paramètres du compte. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
 ![Red X](assets/no2.png)Cannot be set as the Dropzone owner. Pour plus d’informations, voir [Configurer la zone de dépôt dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
@@ -252,7 +252,7 @@ Les visiteurs et visiteuses disposent des autorisations suivantes :
 
 ![Red X](assets/no2.png)Impossible de supprimer les éléments créés dans l’organisation.
 
-![Red X](assets/no2.png)Impossible d’accéder à la page Facturation ou aux paramètres du compte. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Red X](assets/no2.png)Impossible d’accéder à la page Facturation ou aux paramètres du compte. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
 ![Red X](assets/no2.png)Cannot be set as the Dropzone owner. Pour plus d’informations, voir [Configurer la zone de dépôt dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
@@ -318,4 +318,4 @@ Les administrateurs et administratrices de facturation peuvent modifier les prof
 >* Journal du profil de l’utilisateur ou de l’utilisatrice (accessible uniquement à cette personne)
 >
 
-Pour plus d’informations sur les journaux d’activité, voir [Comprendre le journal d’audit d’activité  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).
+Pour plus d’informations sur les journaux d’activité, voir [Comprendre le journal d’audit d’activité  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).

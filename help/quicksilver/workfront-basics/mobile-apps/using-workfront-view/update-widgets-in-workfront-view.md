@@ -46,7 +46,7 @@ Vous devez disposer des accès suivants dans [!DNL Workfront] pour suivre les é
 1. Appuyez sur l’onglet en bas au milieu de l’écran.\
    La zone [!UICONTROL Widget] s’affiche.\
    Faites défiler les widgets en glissant de gauche à droite.\
-   ![ Widgets ](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![&#x200B; Widgets &#x200B;](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. Faites glisser et déposez un widget pour personnaliser la disposition de votre page de projet.\
    Vous pouvez afficher jusqu’à quatre widgets simultanément.\

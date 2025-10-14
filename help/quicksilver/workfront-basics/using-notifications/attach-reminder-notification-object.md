@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    Dans cet exemple, l’objet en cours de modification est une tâche :
 
-   ![ Notification de rappel ](assets/reminder-notification-select-one-350x213.png)
+   ![&#x200B; Notification de rappel &#x200B;](assets/reminder-notification-select-one-350x213.png)
 
    Si l’administrateur ou l’administratrice [!DNL Workfront] a créé plusieurs notifications de rappel, vous pouvez joindre plusieurs notifications à un seul objet.
 

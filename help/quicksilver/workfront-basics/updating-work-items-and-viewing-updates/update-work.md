@@ -130,7 +130,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Dans un objet Workfront, dans la section Mises à jour (pour les projets, les tâches et les problèmes)
    * Dans la zone Accueil (pour les tâches et les problèmes)
 
-     Pour plus d’informations, voir [ Gérer votre travail avec le widget Mes tâches ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
+     Pour plus d’informations, voir [&#x200B; Gérer votre travail avec le widget Mes tâches &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
    * Dans le panneau Résumé des zones suivantes (pour les tâches, les problèmes et les documents) :
 
       * Une liste des objets
@@ -294,7 +294,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
 
    D’autres commentaires s’affichent en bas de l’écran.
 
-1. (Facultatif) Cliquez sur l’icône **J’aime** Icône ![ j’aime](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions « J’aime ».
+1. (Facultatif) Cliquez sur l’icône **J’aime** Icône ![&#x200B; j’aime](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions « J’aime ».
 1. (Le cas échéant - Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
 
    ![Icônes de membres développées](assets/members-icons-expanded-unshimmed.png)
@@ -325,7 +325,7 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
 1. Accédez à la zone **Mises à jour** d’un objet Workfront, ouvrez l’onglet **Commentaires** et commencez à saisir un commentaire.
 1. (Facultatif) Pour ajouter du texte enrichi à votre commentaire, utilisez les attributs de la barre d’outils **Texte enrichi** au fur et à mesure que vous tapez.
 
-   ![ Barre d’outils de texte enrichi ](assets/rich-text-toolbar.png)
+   ![&#x200B; Barre d’outils de texte enrichi &#x200B;](assets/rich-text-toolbar.png)
 
    | **Attribut** | **Bouton Barre d’outils** | **Raccourcis clavier Mac** | **Raccourcis clavier Windows** |
    |---|---|---|---|

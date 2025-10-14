@@ -32,7 +32,7 @@ Vous pouvez gérer, partager et afficher des informations sur les fichiers (pas 
 1. (Facultatif) Si vous disposez des droits de modification du fichier, utilisez les boutons d’action dans le coin supérieur droit pour gérer et partager le fichier :
 
 * **[!UICONTROL Balises]**. Gérez les balises appliquées au fichier.\
-   ![Bouton Balises ](assets/tags-button.png)\
+   ![Bouton Balises &#x200B;](assets/tags-button.png)\
    Sous les boutons d’action, vous pouvez voir toutes les balises appliquées au fichier. Vous pouvez supprimer une balise indésirable en cliquant sur le x situé à côté.\
    ![Afficher les balises de fichier](assets/view-file-tags-350x64.png)
 

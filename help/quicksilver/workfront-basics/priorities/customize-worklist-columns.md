@@ -66,7 +66,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Colonnes** sur le côté gauche de l’écran.
-   ![Colonnes ](assets/columns-new.png)
+   ![Colonnes &#x200B;](assets/columns-new.png)
 1. Utilisez les bascules pour activer ou désactiver les colonnes de la liste de travail.
 
 ### Réorganiser les colonnes

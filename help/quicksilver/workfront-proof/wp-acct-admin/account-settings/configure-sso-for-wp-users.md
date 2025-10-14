@@ -26,7 +26,7 @@ Cela signifie que vous vous authentifierez avec votre propre système de connexi
 
 >[!NOTE]
 >
->Un sous-domaine ou un domaine personnalisé doit être configuré sur votre compte [!DNL Workfront Proof] pour activer SAML. Les sous-domaines personnalisés peuvent être configurés gratuitement. Voir [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) pour plus d’informations. Pour en savoir plus sur les domaines entièrement personnalisés, consultez notre [ Marque du site  [!DNL Workfront Proof]  - avancé](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+>Un sous-domaine ou un domaine personnalisé doit être configuré sur votre compte [!DNL Workfront Proof] pour activer SAML. Les sous-domaines personnalisés peuvent être configurés gratuitement. Voir [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) pour plus d’informations. Pour en savoir plus sur les domaines entièrement personnalisés, consultez notre [&#x200B; Marque du site  [!DNL Workfront Proof]  - avancé](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Activation de l’authentification unique dans [!DNL Workfront Proof]
 

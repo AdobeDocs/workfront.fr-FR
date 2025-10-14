@@ -63,7 +63,7 @@ Pour plus d’informations sur la création d’un business case et d’une dema
 
 Après avoir soumis la demande de projet, la personne chargée de la gestion de portfolio ou une équipe de direction l’examine et décide d’approuver ou non le projet. Si le projet est approuvé, celui-ci est sélectionné pour le portfolio de projets de l’entreprise.
 
-Pour plus d’informations sur les portfolios, consultez la présentation de Portfolio dans [ [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Pour plus d&#39;informations sur l&#39;approbation d&#39;un business case, voir [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Pour plus d’informations sur les portfolios, consultez la présentation de Portfolio dans [&#x200B; [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Pour plus d&#39;informations sur l&#39;approbation d&#39;un business case, voir [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Optimisation du portfolio {#portfolio-optimization}
 

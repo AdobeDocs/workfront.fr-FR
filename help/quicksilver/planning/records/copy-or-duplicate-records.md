@@ -118,7 +118,7 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    * Sélectionnez un enregistrement, puis cliquez sur l&#39;icône **Dupliquer** ![Icône Dupliquer en blanc et bleu](assets/duplicate-icon-white-and-blue.png) dans la barre d&#39;outils située en bas de la page.
 
-     ![ Icône Dupliquer dans la barre d’outils en mode Tableau ](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![&#x200B; Icône Dupliquer dans la barre d’outils en mode Tableau &#x200B;](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Un enregistrement identique avec un nom identique est créé sous l’enregistrement d’origine. Tous les champs du nouvel enregistrement sont remplis avec les mêmes informations que dans l&#39;enregistrement d&#39;origine.
 

@@ -30,7 +30,7 @@ Cet article décrit les informations suivantes :
 * [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
 * [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
 
-Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [ Exporter des enregistrements de la vue Tableau ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [&#x200B; Exporter des enregistrements de la vue Tableau &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Conditions d’accès
 
@@ -130,7 +130,7 @@ Pour gérer une vue tableau :
    * [Lignes (ou enregistrements)](#add-rows-or-records)
    * [Filtres](#add-filters)
    * [Trier](#add-a-sort)
-   * [Regroupement ](#add-groupings)
+   * [Regroupement &#x200B;](#add-groupings)
    * [Couleurs de ligne](#add-row-colors)
    * [Indicateur de présence en temps réel](#enable-the-real-time-presence-indicator)
 

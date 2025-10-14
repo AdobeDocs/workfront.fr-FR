@@ -69,4 +69,4 @@ Vous pouvez désactiver le paramètre Épreuve publique pour les personnes de vo
 1. Cliquez sur le bouton **Utilisateurs et utilisatrices**, puis cliquez sur le nom d’un utilisateur ou d’une utilisatrice.
 1. Dans la section **Paramètres d’épreuve par défaut**, désactivez la case à cocher **Partage public**.
 
-   ![ Partage public ](assets/default-proof-settings--public-sharing-350x210.png)
+   ![&#x200B; Partage public &#x200B;](assets/default-proof-settings--public-sharing-350x210.png)

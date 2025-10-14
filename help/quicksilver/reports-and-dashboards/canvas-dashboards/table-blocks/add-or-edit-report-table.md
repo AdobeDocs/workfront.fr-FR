@@ -42,7 +42,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta de la zone de t
 
 1. Cliquez sur **Tableau sans titre** dans l’en-tête du tableau, puis saisissez le titre du tableau.
 
-   ![ Nom de la table ](assets/table-name-350x142.png)
+   ![&#x200B; Nom de la table &#x200B;](assets/table-name-350x142.png)
 
 1. Cliquez sur **Modifier** au centre du bloc de tableau pour configurer le tableau.
 

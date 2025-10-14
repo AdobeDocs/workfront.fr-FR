@@ -68,7 +68,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    1. Si vous souhaitez préciser la façon dont vous voulez partager l’élément, cliquez sur la liste déroulante à droite du nom, puis utilisez l’une des options suivantes :
 
-      ![Options de partage ](assets/share-field-view-mng-options.jpg)
+      ![Options de partage &#x200B;](assets/share-field-view-mng-options.jpg)
 
       <table style="table-layout:auto"> 
        <col> 
@@ -139,7 +139,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
      Limite l’accès aux seuls éléments que vous avez ajoutés à la liste.
 
-   ![Options de partage ](assets/share-field-in-designer.png)
+   ![Options de partage &#x200B;](assets/share-field-in-designer.png)
 
 1. Cliquer sur **Enregistrer**.
 

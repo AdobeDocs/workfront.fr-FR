@@ -21,10 +21,10 @@ En tant qu’administrateur ou administratrice d’[!DNL Adobe Workfront], vous 
 
 >[!NOTE]
 >
->* Dans le contexte d’OAuth2, « Application OAuth2 » fait référence à ce type de lien d’accès entre une application et un serveur tel que [!DNL Workfront]. Pour plus d’informations, voir [Créer des applications OAuth2 pour les intégrations de  [!DNL Workfront] ](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+>* Dans le contexte d’OAuth2, « Application OAuth2 » fait référence à ce type de lien d’accès entre une application et un serveur tel que [!DNL Workfront]. Pour plus d’informations, voir [Créer des applications OAuth2 pour les intégrations de  [!DNL Workfront] &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 >* Vous pouvez avoir jusqu’à dix applications OAuth2 à la fois.
 
-* Pour plus d’informations sur la création d’applications OAuth2 personnalisées, voir [Créer des applications OAuth2 pour les intégrations de  [!DNL Workfront] ](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+* Pour plus d’informations sur la création d’applications OAuth2 personnalisées, voir [Créer des applications OAuth2 pour les intégrations de  [!DNL Workfront] &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 * Pour obtenir des instructions sur la configuration et l’utilisation de l’application OAuth2 avec les informations d’identification de l’utilisateur ou utilisatrice (flux de code d’autorisation), voir [Configurer et utiliser des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux de code d’autorisation](../../wf-api/api/oauth-app-code-token-flow.md).
 * Pour plus d’informations sur la configuration et l’utilisation de l’application OAuth2 à l’aide de l’authentification du serveur (flux JWT), voir [Configurer et utiliser les applications OAuth2 personnalisées de votre entreprise à l’aide du flux JWT](../../wf-api/api/oauth-app-jwt-flow.md).
 * Pour obtenir des instructions sur la configuration et l’utilisation de l’application OAuth2 à l’aide de PKCE, voir [Configurer et utiliser des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux PKCE](../../wf-api/api/oauth-app-pkce-flow.md).
@@ -64,7 +64,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Vous devez créer les applications [!UICONTROL OAuth2] de votre entreprise avant de pouvoir les afficher ou les gérer.
 
-Pour plus d’informations, voir [Créer des applications OAuth2 pour les intégrations de  [!DNL Workfront] ](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Pour plus d’informations, voir [Créer des applications OAuth2 pour les intégrations de  [!DNL Workfront] &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Gérer des applications OAuth2 personnalisées
 
@@ -80,7 +80,7 @@ Pour plus d’informations, voir [Créer des applications OAuth2 pour les intég
 1. Pointez sur l’application et cliquez sur **[!UICONTROL Modifier]** ![Icône Modifier](assets/edit-icon.png) lorsqu’elle s’affiche à l’extrémité droite.
 1. (Facultatif) Modifiez les détails de l’application.
 
-   Pour les champs relatifs aux applications OAuth2 et JWT, voir [Créer des applications OAuth2 pour les intégrations de  [!DNL Workfront] ](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+   Pour les champs relatifs aux applications OAuth2 et JWT, voir [Créer des applications OAuth2 pour les intégrations de  [!DNL Workfront] &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ### Supprimer des applications OAuth2 personnalisées {#delete-custom-oauth2-applications}
 
@@ -102,7 +102,7 @@ Pour plus d’informations, voir [Créer des applications OAuth2 pour les intég
 >Vous ne pouvez pas afficher le secret client. Si vous avez perdu votre secret client, vous devez le supprimer et en créer un nouveau.
 >
 >* Pour supprimer un secret client, voir [Supprimer le secret client](#delete-client-secret) dans cet article.
->* Pour créer un secret client, voir [Créer une application OAuth2](../../administration-and-setup/configure-integrations/create-oauth-application.md#create) dans [Créer des applications OAuth2 pour les intégrations de  [!DNL Workfront] ](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+>* Pour créer un secret client, voir [Créer une application OAuth2](../../administration-and-setup/configure-integrations/create-oauth-application.md#create) dans [Créer des applications OAuth2 pour les intégrations de  [!DNL Workfront] &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 >
 
 {{step-1-to-setup}}

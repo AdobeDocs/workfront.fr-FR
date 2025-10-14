@@ -18,7 +18,7 @@ ht-degree: 91%
 
 # Rappels automatiques et notifications de rappel
 
-Cet article décrit les différences entre les rappels automatiques et les notifications de rappel et fournit des scénarios pour chacun d’entre eux. Pour plus d’informations sur toutes les notifications [!DNL Adobe Workfront], consultez les notifications [[!DNL Adobe Workfront] ](../../workfront-basics/using-notifications/wf-notifications.md).
+Cet article décrit les différences entre les rappels automatiques et les notifications de rappel et fournit des scénarios pour chacun d’entre eux. Pour plus d’informations sur toutes les notifications [!DNL Adobe Workfront], consultez les notifications [[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Rappels automatiques
 

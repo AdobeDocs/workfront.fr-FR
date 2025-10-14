@@ -254,7 +254,7 @@ Certains plans directeurs comportent des groupes prescrits. Un groupe est un gro
 
 Le plan directeur effectue des recherches par nom de groupe pour déterminer si des groupes existants correspondent. La recherche respectant la casse, les noms doivent correspondre exactement. Si aucun groupe existant ne correspond, le plan directeur peut les créer pour vous.
 
-Section ![[!UICONTROL Mapper des groupes] ](assets/Blueprints_GroupMapping.png)
+Section ![[!UICONTROL Mapper des groupes] &#x200B;](assets/Blueprints_GroupMapping.png)
 
 1. Si un groupe existe, vous pouvez sélectionner **[!UICONTROL Remapper un groupe]** et sélectionnez l’une des options suivantes :
 

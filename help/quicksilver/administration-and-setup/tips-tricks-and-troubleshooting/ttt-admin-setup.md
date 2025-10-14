@@ -38,7 +38,7 @@ Cette section contient les articles suivants :
 * [Erreur : [!UICONTROL les utilisateurs et les utilisatrices SSO ne peuvent pas se connecter à Adobe Workfront en raison de diverses erreurs.]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-sso-users-unable-log-in-various-errors.md)
 * [Type de licence d’utilisation [!UICONTROL externe] manquant dans les niveaux d’accès](../../administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
 * [Erreur de connexion : [!UICONTROL les champs suivants ne sont pas valides : emailAddr ne peut être nul.]](../../administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md)
-* [Prévenir l’usurpation d’identité et ajouter des enregistrements SPF  [!DNL Adobe Workfront] ](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
+* [Prévenir l’usurpation d’identité et ajouter des enregistrements SPF  [!DNL Adobe Workfront] &#x200B;](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
 * [Récupérer des données historiques à partir d’ [!DNL Adobe Workfront] : avantages et inconvénients](../../administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
 * [Enregistrer un fichier d’en-tête d’e-mail](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [Le partage affiche plusieurs autorisations.](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)

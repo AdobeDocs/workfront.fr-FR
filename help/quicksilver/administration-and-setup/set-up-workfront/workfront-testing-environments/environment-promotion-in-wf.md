@@ -161,6 +161,6 @@ Ces statuts sont les suivants :
 ## Ressources
 
 * Pour les questions fréquentes concernant la promotion de l’environnement, voir [FAQ sur la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
-* Pour obtenir des recommandations de dépannage, voir [ Dépannage de la promotion de l’environnement ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+* Pour obtenir des recommandations de dépannage, voir [&#x200B; Dépannage de la promotion de l’environnement &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
 

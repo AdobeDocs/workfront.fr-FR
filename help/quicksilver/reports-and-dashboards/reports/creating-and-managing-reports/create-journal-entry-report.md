@@ -283,7 +283,7 @@ Vous pouvez configurer le rapport d’entrée du journal de manière à ce qu’
 
 Pour savoir quand la suppression d’une tâche ou d’un problème est survenue :
 
-1. Cliquez sur l’icône du **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône du **[!UICONTROL Menu principal]** ![ Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône du **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône du **[!UICONTROL Menu principal]** ![&#x200B; Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![Sélectionner une entrée de journal](assets/nwe-select-journal-entry-350x273.png)

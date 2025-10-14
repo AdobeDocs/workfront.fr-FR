@@ -75,7 +75,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Ou
 
-   Cliquez sur l’icône **Modifier** ![ Modifier ](assets/edit-icon.png)
+   Cliquez sur l’icône **Modifier** ![&#x200B; Modifier &#x200B;](assets/edit-icon.png)
 
    pour modifier une vue existante, puis sélectionnez la vue.
 

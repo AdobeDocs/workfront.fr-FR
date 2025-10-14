@@ -24,7 +24,7 @@ ht-degree: 88%
 * [Vue d’ensemble des notifications pour les commentaires et les décisions relatifs à l’épreuve](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
 * [Vue d’ensemble des épreuves pour le contenu interactif](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
 * [Vue d’ensemble du retraitement des documents pour la relecture](../../../review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
-* [Vue d’ensemble des types et limites de taille de fichiers de relecture pris en charge ](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
+* [Vue d’ensemble des types et limites de taille de fichiers de relecture pris en charge &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
 * [Vue d’ensemble de la sécurité des épreuves](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
 * [Vue d’ensemble et statut de la progression de la relecture](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
 * [Vue d’ensemble des différences entre la visionneuse de relecture web et la visionneuse de relecture de bureau](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)

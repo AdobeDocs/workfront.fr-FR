@@ -164,7 +164,7 @@ Vous pouvez incorporer un lien vers la file d’attente des demandes ou vers une
 
 1. Cliquez sur **Ajouter une page externe**.
 
-   ![ Page externe ](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![&#x200B; Page externe &#x200B;](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. Dans la zone **Ajouter une page externe**, modifiez les champs suivants :
 

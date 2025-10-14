@@ -65,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Dans la section **Liens rapides**, cliquez sur **Ajouter un lien**.
 1. Collez l’URL dans la zone **Ajouter un lien**.
 1. Cliquer sur **Enregistrer**.
-   ![ Ajouter un lien ](assets/add-link.png)
+   ![&#x200B; Ajouter un lien &#x200B;](assets/add-link.png)
 
 ## Copier un lien rapide dans le presse-papiers
 
@@ -73,7 +73,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Dans la section **Liens rapides**, recherchez le lien à copier.
-1. Cliquez sur l’icône **Copier**![ Copier](assets/copy-icon.png).
+1. Cliquez sur l’icône **Copier**![&#x200B; Copier](assets/copy-icon.png).
    ![Copier le lien](assets/copy-link.png)
 
 ## Ouvrir un lien rapide

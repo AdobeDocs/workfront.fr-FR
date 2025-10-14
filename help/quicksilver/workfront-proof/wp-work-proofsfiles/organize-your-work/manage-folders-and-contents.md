@@ -111,7 +111,7 @@ Vous pouvez facilement gérer vos fichiers à partir de la page [!UICONTROL Dét
 1. (Facultatif) Cliquez sur **[!UICONTROL Activité]** pour afficher toutes les actions effectuées dans le dossier par ordre chronologique.
 1. (Facultatif) Cliquez sur la section **[!UICONTROL Messages]** pour afficher les messages qui ont été envoyés aux personnes du dossier.\
    Lorsque vous survolez un message, vous pouvez cliquer sur l’icône **i** à droite pour afficher le message complet.\
-   ![ Messages ](assets/messages-1-350x74.png)\
+   ![&#x200B; Messages &#x200B;](assets/messages-1-350x74.png)\
    Une fenêtre contextuelle contenant l’intégralité de l’e-mail s’affiche :\
    ![Fenêtre contextuelle de message](assets/messages-2-350x252.png)
 

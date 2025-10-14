@@ -85,7 +85,7 @@ L’application tierce peut avoir besoin d’être configurée. Le tableau suiva
 
 ## Configurer un flux de code d’autorisation
 
-![ Flux de code OAuth ](assets/oauth-2-authorization-code-flow.png)
+![&#x200B; Flux de code OAuth &#x200B;](assets/oauth-2-authorization-code-flow.png)
 
 Pour connecter vos utilisateurs et utilisatrices avec OAuth2, suivez le processus suivant :
 

@@ -76,7 +76,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Ajouter un fichier
    * Accéder directement au projet
 
-   ![détails du projet ](assets/project-details-new.png)
+   ![détails du projet &#x200B;](assets/project-details-new.png)
 
 ### Afficher les détails de la tâche
 
@@ -93,7 +93,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Ajout de liens rapides
 
 
-   ![ détails de la tâche ](assets/task-details-new.png)
+   ![&#x200B; détails de la tâche &#x200B;](assets/task-details-new.png)
 
 ### Afficher les détails de l&#39;événement
 

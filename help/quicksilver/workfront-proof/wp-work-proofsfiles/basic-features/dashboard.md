@@ -43,7 +43,7 @@ Le tableau de bord contient les éléments suivants :
 
 ![Tableau de bord](assets/dashboard-350x495.png)
 
-Vous pouvez personnaliser le branding de votre compte pour afficher le logo, les couleurs, les liens personnalisés, etc., de votre propre entreprise. Pour plus d’informations, voir [Personnaliser le branding du site  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Vous pouvez personnaliser le branding de votre compte pour afficher le logo, les couleurs, les liens personnalisés, etc., de votre propre entreprise. Pour plus d’informations, voir [Personnaliser le branding du site  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 Si vous ne personnalisez pas le branding de votre compte, le logo [!DNL Workfront Proof] et les couleurs standard apparaissent.
 
@@ -97,7 +97,7 @@ Pour ouvrir le nouveau menu,
    * Nouvel utilisateur ou nouvelle utilisatrice (12)
    * Nouveau groupe (13)
 
-![Nouvelle épreuve ](assets/new-proof-350x256.png)
+![Nouvelle épreuve &#x200B;](assets/new-proof-350x256.png)
 
 ## Menu « Tableau de bord »
 
@@ -181,7 +181,7 @@ La section [!UICONTROL Bienvenue] comporte les liens utiles suivants :
 * Coordonnées de l’assistance (3)
 * Lien « Ne plus afficher la section Bienvenue » (4)
 
-![Bienvenue ](assets/welcome-350x73.png)
+![Bienvenue &#x200B;](assets/welcome-350x73.png)
 
 ### Vue d’ensemble
 

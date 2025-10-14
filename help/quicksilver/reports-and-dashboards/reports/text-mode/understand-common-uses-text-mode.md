@@ -52,7 +52,7 @@ Vous pouvez utiliser le mode texte pour ajouter un champ personnalisé calculé 
 
 Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Pour plus d’informations sur la création d’un champ personnalisé calculé en mode texte, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour plus d’informations sur la création d’un champ personnalisé calculé en mode texte, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Par exemple, vous pouvez ajouter un champ personnalisé calculé qui affiche la date et l’heure du moment où un élément a été marqué comme En cours. Vous pouvez utiliser ce calcul pour d’autres statuts.
 

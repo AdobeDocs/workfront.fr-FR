@@ -34,7 +34,7 @@ Regardez la vidéo ci-dessous pour savoir comment vous pouvez vous préparer à 
 
 ## Comprendre le processus de version de [!DNL Workfront]
 
-Pour une description détaillée du processus de version de [!DNL Workfront], voir le planning et le processus de version d’[[!DNL Adobe Workfront] ](workfront-release-schedule.md).
+Pour une description détaillée du processus de version de [!DNL Workfront], voir le planning et le processus de version d’[[!DNL Adobe Workfront] &#x200B;](workfront-release-schedule.md).
 
 ## Se préparer pour une version de [!DNL Workfront]
 
@@ -48,7 +48,7 @@ Pour une description détaillée du processus de version de [!DNL Workfront], vo
 Nous vous recommandons d’envisager l’ensemble ou une partie des actions suivantes pour préparer votre organisation en vue des prochaines versions :
 
 * [Se tenir au courant grâce aux notes de mise à jour](#stay-up-to-date-with-release-notes)
-* [Surveiller le centre d’annonces de  [!DNL Workfront] ](#watch-the-workfront-announcement-center)
+* [Surveiller le centre d’annonces de  [!DNL Workfront] &#x200B;](#watch-the-workfront-announcement-center)
 * [Explorer l’environnement de [!UICONTROL prévisualisation de sandbox]](#explore-the-preview-sandbox-environment)
 * [Assister au webinaire de la version](#attend-the-release-webinar)
 * [Envoyer des commentaires à Workfront](#offer-feedback-to-workfront)

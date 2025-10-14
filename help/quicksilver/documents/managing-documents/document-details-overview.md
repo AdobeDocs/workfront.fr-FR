@@ -24,7 +24,7 @@ La page Détails du document permet de visualiser, de communiquer et de gérer l
 
 1. Pointez sur le document, puis cliquez sur **Détails du document**.
 
-   ![ Détails du document ](assets/document-details-350x179.png)
+   ![&#x200B; Détails du document &#x200B;](assets/document-details-350x179.png)
 
 ## Effectuer des actions de base pour les documents et les épreuves
 

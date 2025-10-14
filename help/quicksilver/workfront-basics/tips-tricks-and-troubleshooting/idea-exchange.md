@@ -24,7 +24,7 @@ Les utilisateurs et utilisatrices authentifiés peuvent :
 
 Pour voter sur une idée :
 
-1. Connectez-vous à la communauté [!DNL Adobe Workfront] sur le site [!DNL Adobe Experience League] à l’URL suivante : communauté [[!DNL Adobe Workfront] ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=fr).
+1. Connectez-vous à la communauté [!DNL Adobe Workfront] sur le site [!DNL Adobe Experience League] à l’URL suivante : communauté [[!DNL Adobe Workfront] &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=fr).
 
 1. Cliquez sur l’onglet **[!UICONTROL Idées]**.
 

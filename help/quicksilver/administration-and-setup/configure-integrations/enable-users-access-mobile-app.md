@@ -60,6 +60,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur **[!UICONTROL Enregistrer].**
 
-Pour plus d’informations sur l’utilisation de l’application mobile [!DNL Workfront] une fois qu’elle a été activée pour le site, consultez [Utiliser l’application mobile  [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Pour plus d’informations sur l’utilisation de l’application mobile [!DNL Workfront] une fois qu’elle a été activée pour le site, consultez [Utiliser l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
 Pour plus d’informations sur l’utilisation de [!DNL Workfront for Outlook], consultez la section [Utiliser  [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).

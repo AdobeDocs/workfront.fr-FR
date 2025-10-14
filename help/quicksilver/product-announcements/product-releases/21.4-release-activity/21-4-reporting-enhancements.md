@@ -40,7 +40,7 @@ Afin qu’il corresponde mieux à l’aspect moderne des autres zones de la nouv
 
 Pour plus d’informations sur les affectations dans les listes, voir [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md) ou [Affecter des problèmes](../../../manage-work/issues/manage-issues/assign-issues.md).
 
-![ Mises à jour des affectations ](assets/assignments-updates-350x193.png)
+![&#x200B; Mises à jour des affectations &#x200B;](assets/assignments-updates-350x193.png)
 
 ## Nouvel aspect des champs de saisie semi-automatique dans les listes et rapports mis à jour
 

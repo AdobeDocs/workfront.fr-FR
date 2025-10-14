@@ -22,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-Consultez la [ vidéo de démonstration des améliorations des priorités ](#priorities-enhancements-demo-video) ci-dessous pour une démonstration complète des fonctionnalités incluses dans cette présentation.
+Consultez la [&#x200B; vidéo de démonstration des améliorations des priorités &#x200B;](#priorities-enhancements-demo-video) ci-dessous pour une démonstration complète des fonctionnalités incluses dans cette présentation.
 
 ## Utiliser des filtres intelligents pour rechercher votre travail dans les priorités
 
@@ -77,7 +77,7 @@ Vous pouvez désormais interagir avec des documents et des BAT pour les tâches 
 * Lancer la visionneuse de relecture
 * Et plus encore
 
-Pour plus d’informations, voir [ Charger des documents et créer des épreuves dans Priorités ](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
+Pour plus d’informations, voir [&#x200B; Charger des documents et créer des épreuves dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
 
 ## La vue Calendrier est désormais disponible dans Priorités
 
@@ -92,7 +92,7 @@ Vous pouvez désormais suivre votre travail à l’aide d’un calendrier visuel
 * Appliquer des couleurs pour une organisation rapide
 * Et plus encore
 
-Pour plus d’informations, voir [ Gérer votre travail dans le calendrier Priorités ](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
+Pour plus d’informations, voir [&#x200B; Gérer votre travail dans le calendrier Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Mises à jour de la liste de travail des priorités
 
@@ -147,7 +147,7 @@ Nous avons mis à jour les options de la colonne Mon focus pour vous aider à hi
 * Normal
 * Faible
 
-Cette modification facilite l’affichage et l’organisation du travail en fonction de l’urgence. Pour plus d’informations, voir [ Hiérarchiser les éléments de travail importants ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+Cette modification facilite l’affichage et l’organisation du travail en fonction de l’urgence. Pour plus d’informations, voir [&#x200B; Hiérarchiser les éléments de travail importants &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ## Afficher les détails du projet dans Priorités
 

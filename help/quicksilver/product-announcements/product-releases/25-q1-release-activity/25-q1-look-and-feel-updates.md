@@ -89,7 +89,7 @@ Les changements les plus notables sont les suivants :
 
 Un nouveau format de liste est disponible dans la zone Configuration de Workfront. La liste Taux d’exchange est la première page à utiliser ce format de tableau. La fonctionnalité d’ajout de nouveaux taux d’exchange et de recherche de taux d’exchange n’a pas changé.
 
-Pour plus d&#39;informations sur les taux d&#39;exchange, voir [Configurer des taux d&#39;exchange ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Pour plus d&#39;informations sur les taux d&#39;exchange, voir [Configurer des taux d&#39;exchange &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Mises à jour de l’aspect de la page Exporter des données (Kick-Starts)
 

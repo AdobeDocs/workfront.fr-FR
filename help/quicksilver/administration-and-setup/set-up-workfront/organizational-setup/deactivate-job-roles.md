@@ -72,7 +72,7 @@ Si vous désactivez une fonction, elle ne s’affiche plus dans les zones suivan
 * La boîte de dialogue [!UICONTROL Ajouter une affectation au panorama Kanban] d’un projet
 * Le champ [!UICONTROL Fonction] d’un plan ou d’une initiative lorsqu’une personne utilise [!DNL Adobe Workfront Scenario Planner]
 
-  Le [!DNL Scenario Planner] n’est disponible que dans la nouvelle expérience d’[!DNL Adobe Workfront] et nécessite une licence supplémentaire. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], voir [Vue d’ensemble du  [!DNL Scenario Planner] ](../../../scenario-planner/scenario-planner-overview.md).
+  Le [!DNL Scenario Planner] n’est disponible que dans la nouvelle expérience d’[!DNL Adobe Workfront] et nécessite une licence supplémentaire. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], voir [Vue d’ensemble du  [!DNL Scenario Planner] &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >

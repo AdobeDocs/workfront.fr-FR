@@ -34,6 +34,6 @@ Pour plus d’informations sur l’utilisation d’un panorama sur un projet, vo
 
 Vous pouvez également accéder aux panoramas dans l’application mobile. Pour plus d’informations, voir la section Panoramas [[!DNL Adobe Workfront]  pour l’application mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-Pour consulter les vidéos explicatives des fonctionnalités des panoramas, voir les démonstrations vidéo des Panoramas [[!DNL Adobe Workfront] ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+Pour consulter les vidéos explicatives des fonctionnalités des panoramas, voir les démonstrations vidéo des Panoramas [[!DNL Adobe Workfront] &#x200B;](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
 Pour plus d’informations sur les outils agiles supplémentaires dans [!DNL Workfront], voir la section [Vue d’ensemble des outils agiles](../agile/agile-overview.md).

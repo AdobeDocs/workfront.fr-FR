@@ -30,7 +30,7 @@ Vous pouvez nous contacter via [!DNL support@proofhq.com] avec vos commentaires 
 
    Pour plus d’informations sur la page de facturation, consultez la section [Page de facturation de  [!DNL Workfront]  Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-   ![ Paramètres de facturation ](assets/upgradesdowngrades-billing-settings-350x168.png)
+   ![&#x200B; Paramètres de facturation &#x200B;](assets/upgradesdowngrades-billing-settings-350x168.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Fermer le compte]** (3).
 

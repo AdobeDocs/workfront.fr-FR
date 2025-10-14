@@ -148,7 +148,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
    Vous devez écrire les noms des objets et leurs attributs au format pris en charge par la base de données Workfront.
 
-   Pour plus d’informations sur la signification de ces objets, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Pour plus d’informations sur la signification de ces objets, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
    Pour plus d’informations sur les noms des objets dans la base de données Workfront, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 

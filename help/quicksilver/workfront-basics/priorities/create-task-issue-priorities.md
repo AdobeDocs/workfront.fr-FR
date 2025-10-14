@@ -68,7 +68,7 @@ Pour créer une tâche ou un événement dans un projet :
 {{step1-to-priorities}}
 
 1. Cliquez sur **Créer** dans le coin supérieur droit.
-   ![Créer (production) ](assets/create-new--.png)
+   ![Créer (production) &#x200B;](assets/create-new--.png)
 1. Indiquez les informations suivantes :
 
    | champ | Instructions |
