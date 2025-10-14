@@ -7,10 +7,10 @@ description: Dans Adobe Workfront, il est important d’indiquer les congés ap
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
+source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 88%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 88%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement d’aperçu de Sandbox et est publiée dans le cadre d’un déploiement échelonné en production.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] n’est pas conçu pour reproduire ou remplacer les systèmes existants de votre organisation pour la gestion, l’accumulation ou le suivi des congés personnels.
 
@@ -74,15 +74,15 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 >
 >Si vous utilisez l’expérience unifiée Adobe, vous pouvez accéder à votre profil Workfront en cliquant sur le menu Compte Adobe (l’image de votre profil) dans la zone de navigation supérieure, puis en choisissant Profil Workfront.
 >
->![profil workfront &#x200B;](assets/aue-profile.png)
+>![profil workfront ](assets/aue-profile.png)
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Congés]**.
 1. Sélectionnez la date souhaitée pour vos congés.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-   ![Calendrier des congés](assets/personal-time-off-calendar-0925.png)
+   <!--<span class="preview">Sample image in the Preview environment:</span>
+   ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)-->
 
-   Exemple d’image dans l’environnement de production :
+   <!--Sample image in the Production environment:-->
    ![Calendrier des congés](assets/personal-time-off-calendar.png)
 
 1. Sélectionnez **[!UICONTROL Toute la journée]**, si vous prenez une journée entière de congés.
