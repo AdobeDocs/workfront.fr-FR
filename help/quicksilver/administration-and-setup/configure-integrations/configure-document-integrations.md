@@ -74,7 +74,7 @@ Vous pouvez configurer les intégrations suivantes pour la gestion des documents
 
 * [!DNL Workfront Proof]
 
-  L’établissement d’un lien entre les épreuves de [!DNL Workfront Proof] vous permet de rendre accessibles à [!DNL Workfront] les épreuves qui ont été créées à l’origine à l’intérieur de [!DNL Workfront Proof]. Pour les plans actuels, un plan [!UICONTROL Pro] [!DNL Workfront] ou supérieur est nécessaire pour utiliser cette fonction. Pour les nouveaux plans, cette fonction est disponible pour tous les plans. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://business.adobe.com/products/workfront/pricing.html).
+  L’établissement d’un lien entre les épreuves de [!DNL Workfront Proof] vous permet de rendre accessibles à [!DNL Workfront] les épreuves qui ont été créées à l’origine à l’intérieur de [!DNL Workfront Proof]. Pour les plans actuels, un plan [!UICONTROL Pro] [!DNL Workfront] ou supérieur est nécessaire pour utiliser cette fonction. Pour les nouveaux plans, cette fonction est disponible pour tous les plans. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://business.adobe.com/fr/products/workfront/pricing.html).
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ Vous pouvez configurer les intégrations suivantes pour la gestion des documents
 
 * D’autres fournisseurs de documents (par le biais d’intégrations de documents personnalisés).
 
-  Pour les plans actuels, un plan [!UICONTROL Pro] [!DNL Workfront] ou supérieur est nécessaire pour utiliser cette fonction. Pour les nouveaux plans, cette fonction est disponible pour tous les plans. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://business.adobe.com/products/workfront/pricing.html).
+  Pour les plans actuels, un plan [!UICONTROL Pro] [!DNL Workfront] ou supérieur est nécessaire pour utiliser cette fonction. Pour les nouveaux plans, cette fonction est disponible pour tous les plans. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://business.adobe.com/fr/products/workfront/pricing.html).
 
 En outre, vous pouvez améliorer votre expérience de document [!DNL Workfront] avec des intégrations de gestion des ressources numériques tierces. Les administrateurs doivent activer ces fonctionnalités pour que les utilisateurs puissent lier le service à leur compte [!DNL Workfront].
 

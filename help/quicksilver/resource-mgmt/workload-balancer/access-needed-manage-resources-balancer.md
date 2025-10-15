@@ -52,7 +52,7 @@ Le tableau suivant illustre le lien entre le plan Workfront de votre entreprise 
  </tbody> 
 </table>
 
-Pour plus d’informations sur les plans Workfront, voir la section [Nos plans](https://business.adobe.com/products/workfront/pricing.html).
+Pour plus d’informations sur les plans Workfront, voir la section [Nos plans](https://business.adobe.com/fr/products/workfront/pricing.html).
 
 Pour plus d’informations sur l’emplacement possible de l’équilibreur de charge de travail dans Workfront, voir la section [Localiser l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

@@ -81,11 +81,11 @@ Les ressources suivantes peuvent vous aider à comprendre comment utiliser [!DNL
  <col> 
  <tbody> 
   <tr> 
-   <td>Ressources <a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] mettant en évidence la clientèle</a> </td> 
+   <td>Ressources <a href="https://business.adobe.com/fr/resources/main.html?Products=Workfront">[!DNL Workfront] mettant en évidence la clientèle</a> </td> 
    <td>Vous y trouverez des webinaires, des livres électroniques, des livres blancs, des vidéos et des rapports.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Etudes de cas </a></td> 
+   <td><a href="https://business.adobe.com/fr/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Etudes de cas </a></td> 
    <td>Parcourez une collection toujours plus importante de plus de 60 études de cas, qui mettent en lumière les défis de la clientèle et les solutions et avantages qu’elle retire de [!DNL Workfront].</td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ Les ressources suivantes peuvent vous aider à en savoir plus sur l’API [!DNL 
 
 | [[!DNL Adobe Workfront] Intégrations](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | Vous pouvez intégrer [!DNL Workfront] à des applications tierces. Les intégrations permettent d’étendre l’utilité de [!DNL Workfront] et de l’adapter aux besoins de votre organisation. Cet article de la base de connaissances couvre les options d’intégration et vous indique la marche à suivre. |
 |---|---|
-| [[!DNL Workfront] Intégrations incluses](https://business.adobe.com/products/workfront/integrations.html) | Les intégrations incluses gratuites de Workfront vous permettent, à vous et à votre équipe, d’effectuer une transition en douceur vers la plateforme Workfront tout en conservant les mêmes workflows et processus. |
+| [[!DNL Workfront] Intégrations incluses](https://business.adobe.com/fr/products/workfront/integrations.html) | Les intégrations incluses gratuites de Workfront vous permettent, à vous et à votre équipe, d’effectuer une transition en douceur vers la plateforme Workfront tout en conservant les mêmes workflows et processus. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/home) | Connecte [!DNL Workfront] à plus de 100 applications, ce qui facilite l’automatisation des processus critiques de l’entreprise sans avoir recours au codage. |
 
 {style="table-layout:auto"}

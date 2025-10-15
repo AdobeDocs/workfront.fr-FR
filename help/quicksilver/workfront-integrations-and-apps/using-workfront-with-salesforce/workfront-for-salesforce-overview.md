@@ -38,7 +38,7 @@ Pour plus d’informations sur la configuration de la section [!DNL Workfront] d
 
 >[!NOTE]
 >
->Une formule [!UICONTROL Pro] [!DNL Workfront] est nécessaire pour utiliser cette fonction. Pour plus d’informations sur les différentes formules disponibles, consultez la section [[!DNL Workfront] Formules.](https://business.adobe.com/products/workfront/pricing.html)
+>Une formule [!UICONTROL Pro] [!DNL Workfront] est nécessaire pour utiliser cette fonction. Pour plus d’informations sur les différentes formules disponibles, consultez la section [[!DNL Workfront] Formules.](https://business.adobe.com/fr/products/workfront/pricing.html)
 
 ## Conditions d’accès
 

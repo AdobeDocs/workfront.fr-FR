@@ -282,7 +282,7 @@ Pour plus d’informations, voir la section [Configurer la liste autorisée de v
 
 Avec Workfront One, vous découvrirez le contenu, les ressources et les nouveautés de Workfront les plus importants, le tout au même endroit, avec la même connexion. Nous avons unifié les sites Expérience, Communauté et Formation pour faciliter la recherche.
 
-[En savoir plus sur Workfront One](https://business.adobe.com/products/workfront.html).
+[En savoir plus sur Workfront One](https://business.adobe.com/fr/products/workfront.html).
 
 ### Webinaire sur la version 2020.1 {#2020-1-release-webinar}
 

@@ -20,7 +20,7 @@ ht-degree: 100%
 >
 >Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-Une formule Select ou Premium est requise pour utiliser cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir [[!DNL Workfront] Formules](https://business.adobe.com/products/workfront/pricing.html).
+Une formule Select ou Premium est requise pour utiliser cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir [[!DNL Workfront] Formules](https://business.adobe.com/fr/products/workfront/pricing.html).
 
 Vous pouvez créer des groupes d’utilisateurs et d’utilisatrices que vous pouvez ajouter en tant que réviseurs et réviseuses sur plusieurs épreuves. Cela s’avère utile si vous envoyez régulièrement du contenu à ces mêmes personnes.
 

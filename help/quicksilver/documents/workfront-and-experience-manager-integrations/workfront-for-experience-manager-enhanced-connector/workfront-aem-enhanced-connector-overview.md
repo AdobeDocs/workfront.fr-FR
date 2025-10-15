@@ -54,5 +54,5 @@ Le connecteur amélioré Workfront pour Experience Manager vous permet désorma
 
 ## Plus d’informations
 
-* Vue d’ensemble de [Workfront pour Adobe Experience Manager](https://business.adobe.com/products/workfront/aem-integration.html)
+* Vue d’ensemble de [Workfront pour Adobe Experience Manager](https://business.adobe.com/fr/products/workfront/aem-integration.html)
 * [Adobe Workfront pour Adobe Experience Manager Assets Essentials](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

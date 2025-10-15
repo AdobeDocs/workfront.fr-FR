@@ -22,7 +22,7 @@ ht-degree: 50%
 >
 >Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-Un plan [!DNL Workfront] Select ou Premium est requis pour utiliser cette fonctionnalité. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://business.adobe.com/products/workfront/pricing.html).
+Un plan [!DNL Workfront] Select ou Premium est requis pour utiliser cette fonctionnalité. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://business.adobe.com/fr/products/workfront/pricing.html).
 
 Les champs personnalisés vous permettent de capturer des données supplémentaires lors de la création d’une nouvelle épreuve, d’un nouvel utilisateur ou d’un nouvel invité. Par exemple, les utilisateurs et utilisatrices qui créent une épreuve peuvent inclure une section supplémentaire qui leur permettra de capturer un numéro de traitement, un code de service ou une référence du fournisseur.
 

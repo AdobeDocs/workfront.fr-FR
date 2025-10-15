@@ -438,7 +438,7 @@ Un article sur les administrateurs de groupe mentionne le package sur lequel le 
 * Workflow Prime et versions ultérieures
 * Workfront Prime et versions ultérieures
 
-Consultez la page de tarification et de conditionnement d’[Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) pour plus d’informations sur les packages.
+Consultez la page de tarification et de conditionnement d’[Adobe Workfront](https://business.adobe.com/fr/products/workfront/pricing.html) pour plus d’informations sur les packages.
 
 Contrôles d’entreprise avancés :
 
