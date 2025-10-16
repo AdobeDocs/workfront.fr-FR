@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2c9bf2eabfeaf3b67daca8b7f1bab8f867baec62
 workflow-type: tm+mt
-source-wordcount: '13454'
+source-wordcount: '13463'
 ht-degree: 84%
 
 ---
@@ -214,8 +214,9 @@ ht-degree: 84%
          * [Améliorations mobiles (version 21.1)](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 Autres améliorations](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Activité de version Adobe Workfront Planning{#planning-release-activity}
-         * [Activité de version d’Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-           [Activité de la version du quatrième trimestre 2025 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+         * [Activité de version Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Activité de la version du premier trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
+         * [Activité de mise à jour du quatrième trimestre 2025 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Activité de mise à jour du troisième trimestre 2025 pour Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Activité de mise à jour du deuxième trimestre 2025 pour Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Activité de la version du premier trimestre 2025 pour Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
@@ -2506,7 +2507,7 @@ ht-degree: 84%
       * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 20](wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
