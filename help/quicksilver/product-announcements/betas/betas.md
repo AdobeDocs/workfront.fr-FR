@@ -29,7 +29,7 @@ Les fonctionnalités suivantes sont actuellement disponibles en version bêta :
 
 * Intégrité du projet
 
-  Pour plus d’informations, voir [ Présentation de l’intégrité du projet ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+  Pour plus d’informations, voir [&#x200B; Présentation de l’intégrité du projet &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
 * Le réviseur Workfront AI
 Pour plus d’informations, voir [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
