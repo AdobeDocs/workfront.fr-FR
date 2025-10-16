@@ -167,7 +167,7 @@ Désélectionnez les notifications que vous souhaitez arrêter de recevoir.
       * Statut d’une demande Workfront Planning que vous avez soumise modifications
       * Demande, accorde ou rejette une approbation à une demande Workfront Planning
 
-   Pour plus d’informations sur la gestion des notifications, voir [ Préférences du compte et notifications ](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences).
+   Pour plus d’informations sur la gestion des notifications, voir [&#x200B; Préférences du compte et notifications &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 
