@@ -5,7 +5,7 @@ description: Les listes améliorées utilisent un format de tableau pour affiche
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # Utiliser des listes améliorées
-
-{{preview-fast-release-general}}
 
 Des listes améliorées sont disponibles dans certaines parties d’Adobe Workfront. Ces listes utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard. La gestion des vues est également améliorée, notamment le filtrage, le regroupement, la gestion des colonnes et la recherche.
 
@@ -87,7 +85,7 @@ Selon la configuration de la liste améliorée, il peut y avoir deux façons d�
 
 Pour modifier un élément de la liste, double-cliquez dans la cellule à modifier et tapez les informations. Certaines cellules peuvent être en lecture seule.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
 ## Utiliser la barre d’actions et le menu Plus dans une liste améliorée
 
@@ -101,7 +99,7 @@ Cliquez sur un bouton de la barre d’actions pour effectuer cette action, par e
 
 Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-exchange-rates.png)
+![ Exemple de barre d’actions ](assets/glist-action-bar-exchange-rates.png)
 
 Le menu **Plus** est le menu à trois points qui s’affiche en regard d’un champ principal d’un élément de liste lorsque vous le survolez avec votre souris. (Le champ principal est la colonne située le plus à gauche du tableau.)
 
@@ -126,7 +124,7 @@ Certaines listes améliorées vous permettent de masquer et d’afficher des col
    >
    >L’icône en regard d’un nom de champ affiche le type de champ, tel que du texte ou un champ de date.
 
-   <span class="preview">Un indicateur s’affiche sur le bouton **Colonnes** lorsque des colonnes sont masquées. L’indicateur n’apparaît pas lorsque vous réorganisez les colonnes.</span>
+   Un indicateur s’affiche sur le bouton **Colonnes** lorsque des colonnes sont masquées. L’indicateur n’apparaît pas lorsque vous réorganisez les colonnes.
 
    ![Indicateur des colonnes masquées](assets/glist-columns-hidden-indicator.png)
 
@@ -149,7 +147,7 @@ Les filtres vous aident à réduire la quantité d’informations que vous affic
 1. Cliquez sur **Ajouter une condition** pour ajouter une autre condition au filtre sous la forme d’une instruction OR.
 1. Lorsque le filtre est appliqué, vous pouvez ouvrir à nouveau les options **Filtre** pour modifier les options de filtre ou effacer tous les filtres.
 
-   <span class="preview">Un indicateur apparaît sur le bouton **Filtrer** lorsqu’un filtre est appliqué à la liste.</span>
+   Un indicateur apparaît sur le bouton **Filtrer** lorsqu&#39;un filtre est appliqué à la liste.
 
    ![Indicateur de filtre appliqué](assets/glist-filter-applied-indicator.png)
 
@@ -164,7 +162,7 @@ Les filtres vous aident à réduire la quantité d’informations que vous affic
 
    ![Regroupement dans des listes améliorées](assets/glist-group-by-due-date-priorities.png)
 
-   <span class="preview">Un indicateur apparaît sur le bouton **Grouper** lorsqu&#39;un regroupement est appliqué à la liste.</span>
+   Un indicateur apparaît sur le bouton **Regrouper** lorsqu&#39;un regroupement est appliqué à la liste.
 
    ![Indicateur de groupement appliqué](assets/glist-grouping-applied-indicator.png)
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '6583'
 ht-degree: 51%
@@ -16,8 +16,6 @@ ht-degree: 51%
 ---
 
 # Créer un formulaire personnalisé
-
-{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -86,8 +84,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * [Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes](#add-radio-buttons-checkbox-groups-and-drop-downs)
    * [Ajouter des champs de frappe continue et des champs de date](#add-typeahead-and-date-fields)
    * [Ajouter des champs de recherche externes](#add-external-lookup-fields)
-   * [&#128279;](#add-images-pdfs-and-videos)Ajouter des images, des fichiers PDF et des vidéos
-
+   * [Ajouter des images, des fichiers PDF et des vidéos
+](#add-images-pdfs-and-videos)
    * [Ajouter des champs natifs Workfront](#add-workfront-native-fields)
    * [Ajouter des fichiers Adobe XD](#add-adobe-xd-files)
    * [Ajouter des champs de connexion Planning](#add-planning-connection-fields)
@@ -132,7 +130,7 @@ Chaque nom de champ personnalisé doit être unique dans l’instance Workfront 
 >[!NOTE]
 >
 >Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom après que vous ou d’autres utilisateurs avez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé là où il peut être référencé actuellement dans d’autres zones de Workfront.
->&#x200B;>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement, à moins que vous ne le rajoutiez au rapport en utilisant le nouveau nom.
+>>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement, à moins que vous ne le rajoutiez au rapport en utilisant le nouveau nom.
 >
 >Nous vous recommandons de ne pas saisir un nom déjà utilisé pour les champs Workfront intégrés.
 >
@@ -432,7 +430,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
 
    Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
-   ![&#x200B; Icône Copier &#x200B;](assets/copy-field.png)
+   ![ Icône Copier ](assets/copy-field.png)
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
@@ -582,7 +580,7 @@ Pour obtenir des exemples d’utilisation du champ de recherche externe pour app
 
 Pour ajouter une recherche externe, procédez comme suit :
 
-1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez **Recherche externe** ou <span class="preview">**Recherche externe à sélection multiple**</span>, puis faites-la glisser vers une section de la zone de travail.
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez **Recherche externe** ou **Recherche externe à sélection multiple**, puis faites-la glisser vers une section de la zone de travail.
 1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
 
    <table style="table-layout:auto"> 
@@ -631,12 +629,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Cela permet de sélectionner les valeurs à l’intérieur du fichier JSON qui apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si votre URL d’API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
       <pre>
-      &lbrace;
-data: &lbrace;
+      {
+data: {
 { name: "USA"},
 { name: "Canada"}
-&rbrace;
-&rbrace;
+}
+}
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -646,8 +644,8 @@ data: &lbrace;
       <td><p>Cliquez sur <strong>Ajouter un en-tête</strong>, puis saisissez ou collez la paire clé-valeur requise pour l’authentification avec l’API.</p><p><strong>Remarque :</strong> les champs d’en-tête ne sont pas un emplacement sécurisé pour stocker les informations d’identification. Vous devez faire attention à ce que vous saisissez et enregistrez.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Menu déroulant multi-sélection</span></td>
-      <td><p><span class="preview">Sélectionnez cette option pour permettre à l’utilisateur de sélectionner plusieurs valeurs dans la liste déroulante.</span></p></td>
+      <td role="rowheader">Menu déroulant multi-sélection</td>
+      <td><p>Sélectionnez cette option pour permettre à l’utilisateur de sélectionner plusieurs valeurs dans la liste déroulante.</p></td>
      </tr>
      </tr>
      <tr> 

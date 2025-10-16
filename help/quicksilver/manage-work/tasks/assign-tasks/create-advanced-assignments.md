@@ -2,21 +2,19 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Créer des affectations avancées
-description: Vous pouvez gérer les affectations de tâche ou de problème à l’aide d’affectations avancées.
+description: Vous pouvez gérer les affectations de tâches ou d'événements à l'aide d'affectations avancées.
 author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 83%
+source-wordcount: '1118'
+ht-degree: 81%
 
 ---
 
 # Créer des affectations avancées
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -85,11 +83,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    >[!TIP]
    >
-   >Vous pouvez effectuer des affectations avancées directement dans la liste des tâches ou des événements. Cliquez dans le champ **Affectations** sur la même ligne que la tâche ou l&#39;événement, puis cliquez sur <span class="preview">**Avancé**</span> ou sur l&#39;icône **Personnes** pour ouvrir la fenêtre Affectations avancées. Passez à l’étape 5 pour continuer à créer des affectations avancées.
-   ><span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   >Vous pouvez effectuer des affectations avancées directement dans la liste des tâches ou des événements. Cliquez dans le champ **Affectations** sur la même ligne que la tâche ou l&#39;événement, puis cliquez sur **Avancé** au bas de la liste ou sur l&#39;icône **Personnes** dans le coin supérieur droit de la zone Affectations, pour ouvrir la fenêtre Affectations avancées. Passez à l’étape 5 pour continuer à créer des affectations avancées.
    >![Cliquez sur Avancé ou sur l’icône Personnes](assets/access-aa-from-lists.png)
-   >Exemple d’image dans l’environnement de production :
-   >![Cliquez sur l’icône Personnes](assets/nwe-advanced-assignments-350x55.png)
 
 1. Cliquez sur **Affecter à** dans le champ **Affectations** dans l’en-tête de la tâche ou du problème.
 

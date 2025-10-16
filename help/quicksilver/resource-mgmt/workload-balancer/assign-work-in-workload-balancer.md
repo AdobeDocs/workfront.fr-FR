@@ -6,7 +6,7 @@ description: En tant que personne gestionnaire de ressources, vous pouvez utilis
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 86%
@@ -14,8 +14,6 @@ ht-degree: 86%
 ---
 
 # Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -146,7 +144,7 @@ Le tableau suivant décrit les éléments qui s’affichent dans chaque zone en 
  </tbody> 
 </table>
 
-&#42;Lorsqu’une tâche est affectée à un utilisateur et à un rôle, elle s’affiche dans la zone Tâches non affectées uniquement lorsque le rôle est la personne désignée par Principal. <span class="preview">Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre **Afficher les affectations de rôles** est activé.</span>
+&#42;Lorsqu’une tâche est affectée à un utilisateur et à un rôle, elle s’affiche dans la zone Tâches non affectées uniquement lorsque le rôle est la personne désignée par Principal. Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre **Afficher les affectations de rôles** est activé.
 
 &#42;&#42;Lorsqu’un élément de travail est attribué à un utilisateur ou une utilisatrice et à une autre entité, il ne s’affiche dans la zone de travail attribué que si la personne est la personne cessionnaire principale.
 

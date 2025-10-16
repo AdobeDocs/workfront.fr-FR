@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 81%
@@ -15,8 +15,6 @@ ht-degree: 81%
 ---
 
 # Affecter manuellement du travail à l’aide de l’équilibreur de charge de travail
-
-{{preview-fast-release-general}}
 
 Vous pouvez affecter manuellement des tâches aux utilisateurs et aux utilisatrices à l’aide de l’équilibreur de charge de travail d’Adobe Workfront.
 
@@ -69,7 +67,7 @@ Vous pouvez affecter des tâches qui n’ont pas encore été attribuées à un 
 
    Vous pouvez attribuer du travail aux utilisateurs et utilisatrices à l’aide de l’équilibreur de charge de travail dans la zone Ressources, au niveau du projet ou de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localiser l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Facultatif) Accédez à la zone **Tâches non affectées** et appliquez un filtre pour afficher les tâches, les événements <span class="preview">ou les affectations de rôle</span>.
+1. (Facultatif) Accédez à la zone **Tâches non affectées** et appliquez un filtre pour afficher les tâches, les événements ou les affectations de rôle.
 
    Ou
 
@@ -77,9 +75,9 @@ Vous pouvez affecter des tâches qui n’ont pas encore été attribuées à un 
 
    >[!NOTE]
    >
-   ><span class="preview">Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre Afficher les affectations de rôles est activé. Pour plus d’informations, voir [Personnaliser la vue](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) dans [Accéder à l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   >Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre Afficher les affectations de rôles est activé. Pour plus d’informations, voir [Personnaliser la vue](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) dans [Accéder à l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Cliquez sur le **menu Plus** ![menu Plus](assets/qs-more-menu.png) à gauche d’un nom d’élément de travail <span class="preview">ou d’une affectation de rôle</span>, puis cliquez sur **Affecter ceci à**.
+1. Cliquez sur le **menu Plus** ![menu Plus](assets/qs-more-menu.png) à gauche d’un nom d’élément de travail ou d’une affectation de rôle, puis cliquez sur **Affecter ceci à**.
 
    ![Affecter ceci à](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

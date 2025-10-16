@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1424'
 ht-degree: 92%
 
 ---
 
 # Attribuer des problèmes
-
-{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -170,11 +168,7 @@ Pour affecter des problèmes dans une liste :
 
    * Cliquez dans le champ **Affectations** et commencez à saisir le nom d’une personne active, d’une fonction ou d’une équipe active que vous souhaitez affecter au problème, puis cliquez sur le nom lorsqu’il apparaît dans la liste.
 
-     <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
      ![Champ Affectations](assets/assignments-field-0825.png)
-
-     Exemple d’image dans l’environnement de production :
-     ![Champ Affectations](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >
@@ -184,7 +178,7 @@ Pour affecter des problèmes dans une liste :
    >
    >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. (Conditionnel) Dans le champ Affectations, cliquez sur <span class="preview">**Avancé**</span> ou sur l&#39;icône **Personnes** ![Personnes](assets/teams.png) dans le coin supérieur droit de la zone Affectations pour ouvrir la zone Affectations avancées et créer des affectations avancées. Pour plus d’informations, voir la section [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Conditionnel) Dans le champ Affectations, cliquez sur **Avancé** au bas de la liste, ou sur l&#39;**icône Personnes** ![icône Personnes](assets/teams.png) dans le coin supérieur droit de la zone Affectations, pour ouvrir la zone Affectations avancées et créer des affectations avancées. Pour plus d’informations, voir la section [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >

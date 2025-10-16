@@ -6,16 +6,14 @@ description: Utilisez l’équilibreur de charge de travail pour vérifier la di
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '4348'
+source-wordcount: '4334'
 ht-degree: 89%
 
 ---
 
 # Trouver l’équilibreur de charge de travail
-
-{{preview-fast-release-general}}
 
 <!--Audited: 12/2024-->
 
@@ -23,7 +21,7 @@ Utilisez l’équilibreur de charge de travail d’Adobe Workfront pour affecte
 
 L’équilibreur de charge de travail est disponible dans plusieurs zones d’Adobe Workfront. Son fonctionnement est similaire dans toutes les zones.
 
-Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, consultez la section [Localiser l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, consultez la section [Localiser l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Conditions d’accès
 
@@ -78,7 +76,7 @@ Tenez compte des éléments suivants lors de l’affichage de l’équilibreur d
   >* Les éléments de travail affectés à une fonction ou équipe et aussi à un utilisateur ou à une utilisatrice apparaissent simultanément dans la zone de travail non affecté et sous le nom de la personne affectée dans la zone de travail affecté.
   >* Les éléments de travail affectés simultanément à un utilisateur ou à une utilisatrice et à une fonction, avec cette dernière comme cessionnaire principale, sont visibles dans la zone de travail non affecté.
   >* Les éléments de travail affectés à plusieurs utilisateurs et utilisatrices s’affichent sous les noms de toutes les personnes affectées dans la zone de travail affecté.
-  >* <span class="preview">Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre Afficher les affectations de rôles est activé. Pour plus d’informations, consultez la section [Personnaliser la vue](#customize-the-view) de cet article.</span>
+  >* Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre Afficher les affectations de rôles est activé. Pour plus d’informations, voir la section [Personnaliser la vue](#customize-the-view) de cet article.
 
   Pour plus d’informations, voir [Zones d’affectation dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer) dans [Présentation de l’affectation de tâches dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
@@ -105,9 +103,8 @@ Pour plus d’informations sur l’affichage des informations dans l’équilibr
 
 Pour plus d’informations sur la gestion des ressources à l’aide de l’équilibreur de charge de travail, consultez également les articles suivants :
 
-* [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
-
+* [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Naviguer dans l’équilibreur de charge de travail pour plusieurs projets dans la zone Ressources
 
@@ -138,7 +135,7 @@ Par défaut, la zone Travail non affecté n’affiche aucun élément de travail
 
         Pour plus d’informations sur l’utilisation des filtres, voir [Filtrer les informations dans l’équilibreur de charge de travail](../workload-balancer/filter-information-workload-balancer.md).
 
-      * <span class="preview">Les affectations de rôles sous éléments de travail s’affichent uniquement lorsque vous activez le paramètre Afficher les affectations de rôles. Pour plus d’informations, consultez la section [Personnaliser la vue](#customize-the-view) de cet article.</span>
+      * Les affectations de rôles sous éléments de travail s’affichent uniquement lorsque vous activez le paramètre Afficher les affectations de rôles . Pour plus d’informations, voir la section [Personnaliser la vue](#customize-the-view) de cet article.
 
       * Les projets ne s’affichent que lorsque vous activez le paramètre Grouper par projet. Pour plus d’informations, voir la section [Personnaliser la vue](#customize-the-view) de cet article.
 
@@ -240,11 +237,7 @@ Par défaut, la zone Travail non affecté n’affiche aucun élément de travail
 
    Le panneau Paramètres s’affiche sur la droite.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-   ![&#x200B; Panneau Paramètres de l’équilibreur de charge de travail &#x200B;](assets/workload-balancer-settings.png)
-
-   Exemple d’image dans l’environnement de production :
-   ![Panneau Paramètres](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
+   ![ Panneau Paramètres de l’équilibreur de charge de travail ](assets/workload-balancer-settings.png)
 
    Sélectionnez l’une des options ci-dessous pour mettre à jour les informations affichées dans l’équilibreur de charge de travail, puis cliquez sur l’**icône X** en haut à droite de la zone Paramètres pour la fermer.
 
@@ -265,7 +258,7 @@ Par défaut, la zone Travail non affecté n’affiche aucun élément de travail
 
      Quand une tâche ou un problème est terminé(e), une icône en forme de coche verte apparaît dans le coin supérieur droit de leur barre respective. La même icône s’affiche pour un projet lorsque les tâches ou les problèmes de la période sélectionnée pour le projet sont terminés.
    * **Afficher le temps restant** : lorsque cette fonction est activée, Workfront affiche l’écart entre les heures de disponibilité journalière de l’utilisateur ou de l’utilisatrice, selon ses horaires, et les heures affectées dans la section de travail affecté pour ces personnes. Cette fonction est désactivée par défaut et le temps affecté s’affiche par défaut.
-   * <span class="preview">**Afficher les affectations de rôle** : lorsque cette option est activée, les affectations de rôle s’affichent dans la zone Tâches non affectées sous les éléments de travail qui leur sont affectés. Cette option est activée par défaut.</span>
+   * **Afficher les affectations de rôle** : lorsque cette option est activée, les affectations de rôle s’affichent dans la zone Tâches non affectées sous les éléments de travail qui leur sont affectés. Cette option est activée par défaut.
 
    * Dans la section **Sélectionner le thème de couleur**, sélectionnez la couleur que vous souhaitez pour les barres de projet et de tâches.
 
@@ -316,7 +309,7 @@ Par défaut, la zone Travail non affecté n’affiche aucun élément de travail
    ![Détails du temps affecté](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Facultatif) Cliquez sur l’icône **Masquer les allocations** ![Afficher les allocations](assets/show-allocations-icon-small.png) pour afficher le nom des tâches et des événements dans les barres des éléments de travail.
-1. Cliquez sur l’icône **Plus de menu** ![Plus d’icône](assets/more-icon.png) à droite d’une tâche, d’un événement <span class="preview">ou d’un rôle</span> nom, puis cliquez sur l’une des options ci-dessous.
+1. Cliquez sur l’icône **Plus de menu** ![Plus d’icône](assets/more-icon.png) à droite d’une tâche, d’un événement ou d’un nom de rôle, puis cliquez sur l’une des options ci-dessous.
 
    ![Menu Plus](assets/more-menu-right-of-task-350x104.png)
 
@@ -333,7 +326,7 @@ Par défaut, la zone Travail non affecté n’affiche aucun élément de travail
 
      >[!NOTE]
      >
-     ><span class="preview">Les affectations de rôles ne s’affichent sous éléments de travail dans la zone Tâches non affectées que lorsque le paramètre Afficher les affectations de rôles est activé. Pour plus d’informations, consultez la section [Personnaliser la vue](#customize-the-view) de cet article. Les affectations de rôles ne comportent que l’option **Affecter à** dans le menu **Plus**.</span>
+     >Les affectations de rôles ne s’affichent sous éléments de travail que dans la zone Tâches non affectées lorsque le paramètre Afficher les affectations de rôles est activé. Pour plus d’informations, consultez la section [Personnaliser la vue](#customize-the-view) de cet article. Les affectations de rôles ne comportent que l’option **Affecter à** dans le menu **Plus**.
 
      >[!TIP]
      >
@@ -423,7 +416,7 @@ La page de votre équipe interne s’affiche par défaut.
 
    L’équilibreur de charge de travail d’une équipe affiche par défaut les informations suivantes :
 
-   * Dans la zone **Tâches non affectées** : tâches affectées à l’équipe ou à l’équipe et fonctions et qui ne sont pas affectées aux utilisateurs. <span class="preview">Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre Afficher les affectations de rôles est activé.</span>
+   * Dans la zone **Tâches non affectées** : tâches affectées à l’équipe ou à l’équipe et fonctions et qui ne sont pas affectées aux utilisateurs. Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre Afficher les affectations de rôles est activé.
    * Dans la zone **Travail affecté** : les éléments de travail attribués aux personnes s’affichent sous le nom de ces dernières.
 
 1. Continuez à naviguer dans l’équilibreur de charge de travail d’une équipe comme décrit dans la section [Parcourir l’équilibreur de charge de travail de plusieurs projets dans la zone Ressources](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de cet article.
@@ -439,7 +432,7 @@ La page de votre équipe interne s’affiche par défaut.
 
    L’équilibreur de charge de travail du projet affiche par défaut les informations suivantes :
 
-   * Dans la zone **Tâches non affectées** : tâches du projet affectées à des rôles ou des équipes et non affectés à des utilisateurs. <span class="preview">Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre Afficher les affectations de rôles est activé.</span>
+   * Dans la zone **Tâches non affectées** : tâches du projet affectées à des rôles ou des équipes et non affectés à des utilisateurs. Les affectations de rôles sont affichées sous éléments de travail dans la zone Tâches non affectées lorsque le paramètre Afficher les affectations de rôles est activé.
    * Dans la zone **Travail affecté** : éléments de travail du projet qui sont affectés à au moins une personne.
 
    Nous vous recommandons d’utiliser des filtres pour n’afficher que les personnes qui sont importantes pour vous.
@@ -480,8 +473,6 @@ La page de votre équipe interne s’affiche par défaut.
 
 1. Continuez à parcourir l’équilibreur de charge de travail d’un projet comme décrit dans la section [Parcourir l’équilibreur de charge de travail de plusieurs projets](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de cet article.
 
-<div class="preview">
-
 ### Naviguer dans l’équilibreur de charge de travail d’un utilisateur
 
 Vous pouvez accéder à l’équilibreur de charge de travail à partir de votre propre profil utilisateur.
@@ -504,7 +495,6 @@ Vous pouvez accéder à l’équilibreur de charge de travail à partir de votre
 
 1. Poursuivez la navigation dans l’équilibreur de charge de travail d’un utilisateur comme décrit dans la section [Naviguer dans l’équilibreur de charge de travail pour plusieurs projets](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de cet article.
 
-</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
