@@ -201,7 +201,7 @@ Le tableau suivant affiche les similitudes et les différences entre les résult
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> ****
+  <tr> **&#x200B;**
    <td>Ils fournissent une plage de valeurs entre les valeurs de début et de fin qui indiquent à quel point vous êtes proche de les terminer. La proximité avec la valeur de fin calcule une valeur de progression pour votre objectif. </td> 
    <td>✔</td> 
    <td>✔</td> 

@@ -77,7 +77,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 1. En haut de la page **Détails du document**, cliquez sur le menu déroulant en regard du nom, puis cliquez sur le nom de la version que vous souhaitez afficher et gérer.
 
-   ![ Liste déroulante Version de la page Détails du document ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![&#x200B; Liste déroulante Version de la page Détails du document &#x200B;](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    En plus d’afficher les détails de la version, vous pouvez y apporter des modifications, comme son nom, ses métadonnées et ses paramètres de relecture (s’il s’agit d’une épreuve de document).
 

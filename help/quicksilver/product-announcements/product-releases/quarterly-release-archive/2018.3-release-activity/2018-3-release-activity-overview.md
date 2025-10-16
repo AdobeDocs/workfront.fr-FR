@@ -20,8 +20,8 @@ ht-degree: 96%
 >
 >La version 2018.3 a été mise à disposition dans l’environnement de production aux dates suivantes (pour obtenir des dates et heures détaillées, voir trust.workfront.com) :
 
-* * Environnement de production Workfront Proof - 6 novembre *
-* * Environnement de production Workfront pour les clusters 2 et 4 *
+* &#x200B;* Environnement de production Workfront Proof - 6 novembre *
+* &#x200B;* Environnement de production Workfront pour les clusters 2 et 4 *
 * *Environnement de production Workfront pour les clusters 1, 3 et 5*
 
 La version 2018.3 contient des améliorations à la fois pour les administrateurs et administratrices de Workfront et pour les autres personnes :

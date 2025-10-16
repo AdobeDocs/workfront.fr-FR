@@ -63,7 +63,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 {{step-1-to-setup}}
 
 1. Cliquez sur **Niveaux d’accès** dans le panneau de gauche.
-1. 
+1. &#x200B;
    * Dans l’environnement de production :
 Sélectionnez le niveau d’accès à copier et à personnaliser, puis cliquez sur **Copier**.
 

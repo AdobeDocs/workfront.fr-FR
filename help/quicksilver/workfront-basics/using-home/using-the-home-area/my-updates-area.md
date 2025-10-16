@@ -85,7 +85,7 @@ Les approbations et demandes d’accès qui vous sont affectées sont répertori
    >
    >Les cinq premières approbations ou demandes d’accès s’affichent par défaut. Les autres approbations s’affichent sur des pages supplémentaires. Vous pouvez afficher un maximum de 2000 approbations dans la zone [!UICONTROL Mes mises à jour].
 
-   ![ Pagination pour mes mises à jour ](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![&#x200B; Pagination pour mes mises à jour &#x200B;](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
 1. (Facultatif) Développez le menu déroulant **[!UICONTROL Filtre]** ![Icône Filtrer](assets/filter-nwepng.png) dans le coin supérieur droit de la section **[!UICONTROL Mes mises à jour]** et sélectionnez l’une des options suivantes :
 

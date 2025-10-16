@@ -25,7 +25,7 @@ Certains objets d’Adobe Workfront permettent d’enregistrer du texte avec un
 
 Un champ personnalisé avec mise en forme de texte enrichi est appelé Champ avec texte enrichi et peut être associé aux valeurs suivantes :
 
-![ Exemple de texte enrichi ](assets/rich-text-example-350x158.png)
+![&#x200B; Exemple de texte enrichi &#x200B;](assets/rich-text-example-350x158.png)
 
 Exemple : une requête GET de base pour récupérer la valeur du champ de formulaire personnalisé avec texte enrichi :
 
@@ -123,4 +123,4 @@ Pour enregistrer les valeurs suivantes d’un champ de texte enrichi à l’aide
 1. Utilisez la méthode stringify sur le fichier JSON décrit ci-dessus pour effectuer une requête PUT et envoyer des mises à jour.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

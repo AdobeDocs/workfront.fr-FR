@@ -212,7 +212,7 @@ Un commentaire est ajouté à l’onglet **[!DNL Workfront]** dans [!DNL Jira] e
 L’heure est également affichée dans l’onglet **[!UICONTROL Heures]** de l’élément [!DNL Workfront].
 
 * [Consigner les heures pour les éléments  [!DNL Jira]  et  [!DNL Workfront]  liés](#log-time-for-linked-jira-and-workfront-items)
-* [Consigner les heures à partir de  [!DNL Jira]  vers un élément  [!DNL Workfront] ](#log-time-from-jira-to-a-workfront-item)
+* [Consigner les heures à partir de  [!DNL Jira]  vers un élément  [!DNL Workfront] &#x200B;](#log-time-from-jira-to-a-workfront-item)
 
 ### Consigner les heures pour les éléments [!DNL Jira] et [!DNL Workfront] liés
 
@@ -220,7 +220,7 @@ Vous pouvez consigner les heures à partir d’un problème [!DNL Jira] lié à 
 
 >[!IMPORTANT]
 >
->Si la personne qui consigne les heures dans [!DNL Jira] n’existe pas dans [!DNL Workfront], l’intégration crée une personne active dans Workfront si l’option **[!UICONTROL Créer automatiquement un utilisateur ou une utilisatrice dans [!DNL Workfront] si l’utilisateur ou utilisatrice de [!DNL Jira] n’a pas de compte *[!DNL Workfront]]** est définie sur**[!UICONTROL  Toujours ]**. Cette personne ne dispose pas d’une licence [!DNL Workfront]. Vous pouvez affecter des personnes actives à des éléments de travail dans [!DNL Workfront], mais vous ne pouvez pas les inclure dans les mises à jour. Pour plus d’informations sur la configuration de la création automatique d’utilisateurs et utilisatrices [!DNL Workfront] à partir de [!DNL Jira], voir [Configurer  [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+>Si la personne qui consigne les heures dans [!DNL Jira] n’existe pas dans [!DNL Workfront], l’intégration crée une personne active dans Workfront si l’option **[!UICONTROL Créer automatiquement un utilisateur ou une utilisatrice dans [!DNL Workfront] si l’utilisateur ou utilisatrice de [!DNL Jira] n’a pas de compte *[!DNL Workfront]]** est définie sur&#x200B;**[!UICONTROL &#x200B; Toujours &#x200B;]**. Cette personne ne dispose pas d’une licence [!DNL Workfront]. Vous pouvez affecter des personnes actives à des éléments de travail dans [!DNL Workfront], mais vous ne pouvez pas les inclure dans les mises à jour. Pour plus d’informations sur la configuration de la création automatique d’utilisateurs et utilisatrices [!DNL Workfront] à partir de [!DNL Jira], voir [Configurer  [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 Pour consigner les heures d’un élément dans [!DNL Jira] et les faire enregistrer à la fois dans [!DNL Jira] et dans [!DNL Workfront], procédez comme suit :
 

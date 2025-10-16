@@ -29,7 +29,7 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents web, 
 >
 >
 >* Les pages de tableau de bord ne sont plus prises en charge en tant que pages externes incorporées dans les tableaux de bord. Bien que les tableaux de bord existants ne soient pas automatiquement modifiés pour supprimer ces pages externes, toute modification apportée à un tableau de bord contenant une telle référence ne pourra pas être enregistrée tant que la référence n’aura pas été supprimée ou modifiée.
->  > Plus précisément, les sous-domaines Workfront.com suivants ne sont plus pris en charge :
+>  &#x200B;> Plus précisément, les sous-domaines Workfront.com suivants ne sont plus pris en charge :
 >
 >     * /dashboards
 >     * /dashboard/:ID&#x200B;
@@ -125,7 +125,7 @@ ou,\
 
       * URL HTTPS (chiffrée) vers une page web.\
         Seules les pages HTTPS (chiffrées) sont chargées avec l’URL.\
-        ![ Boîte de dialogue Ajouter une page externe ](assets/add-external-page-dialog-qs-350x247.png)
+        ![&#x200B; Boîte de dialogue Ajouter une page externe &#x200B;](assets/add-external-page-dialog-qs-350x247.png)
 
       * URL de modèle contenant des informations de session pour un site web spécifique.\
         Par exemple : *https://localhost/?session={!$$SESSION}*

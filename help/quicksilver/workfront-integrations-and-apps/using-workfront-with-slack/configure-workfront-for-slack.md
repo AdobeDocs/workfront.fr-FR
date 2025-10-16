@@ -76,7 +76,7 @@ Suivez les étapes ci-dessous pour exécuter le processus d’installation et au
 >
 >Lorsqu’une nouvelle version de [!DNL Workfront] pour Slack est publiée, vous devez réautoriser l’application pour pouvoir continuer à l’utiliser.
 
-1. Localisez le module complémentaire [!DNL Adobe Workfront] dans la boutique [[!DNL Slack] ](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info).
+1. Localisez le module complémentaire [!DNL Adobe Workfront] dans la boutique [[!DNL Slack] &#x200B;](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info).
 
 1. Cliquez sur **[!UICONTROL Ouvrir dans[!DNL Slack]]**.
 

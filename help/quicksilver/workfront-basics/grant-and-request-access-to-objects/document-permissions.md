@@ -73,7 +73,7 @@ L’utilisateur ou utilisatrice qui charge un document dans Workfront dispose pa
 
 1. Sur la page **Documents**, passez la souris sur le document à partager et cliquez sur le lien **Détails du document** qui s’affiche. La page **Détails du document** s’ouvre.
 
-   ![Lien Détails du document ](assets/document-details-link.png)
+   ![Lien Détails du document &#x200B;](assets/document-details-link.png)
 
 1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) à droite du nom du document, puis cliquez sur **Partager**. La boîte de dialogue **Partager[Nom du document]** s’ouvre.
 

@@ -79,5 +79,5 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. (Facultatif) Pour exporter la liste complète des objets de l’onglet, cliquez sur l’icône **Exporter**. ![icône Exporter](assets/export-icon.png).
 1. (Facultatif) Modifiez l’affichage des informations dans la liste à l’aide d’un filtre, d’une vue ou d’un regroupement.
 
-   Pour plus d’informations, voir [ Présentation des éléments de rapports ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+   Pour plus d’informations, voir [&#x200B; Présentation des éléments de rapports &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 

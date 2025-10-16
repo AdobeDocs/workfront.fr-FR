@@ -136,7 +136,7 @@ Pour configurer [!DNL Workfront for Jira], procédez comme suit :
 
 1. Sélectionnez l’onglet **[!UICONTROL Configuration]** pour configurer la synchronisation des champs entre les éléments [!DNL Jira] et [!DNL Workfront] liés.
 
-   Pour plus d’informations sur la configuration de la synchronisation des champs entre [!DNL Jira] et [!DNL Workfront], voir [Configurer la synchronisation des champs entre les éléments  [!DNL Jira]  et  [!DNL Workfront] ](#configure-field-synchronization-between-jira-and-workfront-items).
+   Pour plus d’informations sur la configuration de la synchronisation des champs entre [!DNL Jira] et [!DNL Workfront], voir [Configurer la synchronisation des champs entre les éléments  [!DNL Jira]  et  [!DNL Workfront] &#x200B;](#configure-field-synchronization-between-jira-and-workfront-items).
 
    >[!NOTE]
    >
@@ -144,7 +144,7 @@ Pour configurer [!DNL Workfront for Jira], procédez comme suit :
 
 1. (Facultatif) Sélectionnez l’onglet **[!UICONTROL Journal d’activité]** pour passer en revue les erreurs qui se sont produites pendant l’intégration.
 
-   Pour plus d’informations sur le [!UICONTROL Journal d’activité], voir [Afficher le Journal d’activité  [!DNL Jira] ](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
+   Pour plus d’informations sur le [!UICONTROL Journal d’activité], voir [Afficher le Journal d’activité  [!DNL Jira] &#x200B;](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
 
 ## Configurer des déclencheurs pour la liaison automatique d’éléments entre [!DNL Jira] et [!DNL Workfront]
 

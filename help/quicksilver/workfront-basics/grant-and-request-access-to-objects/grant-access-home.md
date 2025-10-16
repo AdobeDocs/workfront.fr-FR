@@ -58,7 +58,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Autoriser l’accès aux objets de la zone d’accueil
 
-1. Cliquez sur le **** Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, ou sur le **** Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Accueil**
+1. Cliquez sur le **&#x200B;**&#x200B;Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, ou sur le **&#x200B;**&#x200B;Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Accueil**
 Ou
 Cliquez sur le **de l’icône** Accueil![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
@@ -87,7 +87,7 @@ Vous pouvez configurer la réception de notifications par e-mail pour les demand
 
 1. Accédez à votre profil utilisateur en effectuant l’une des opérations suivantes :
 
-   * Cliquez sur le **** Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, puis cliquez sur votre nom.
+   * Cliquez sur le **&#x200B;**&#x200B;Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, puis cliquez sur votre nom.
    * Cliquez sur Adobe **Menu principal** ![icône de profil](assets/adobe-blue-main-menu.png) dans le coin supérieur droit, le cas échéant, puis cliquez sur **Profil Workfront**.
 
 1. Cliquez sur le menu **Plus** ![icône plus](assets/more-icon.png) à droite de votre nom dans l’en-tête, puis cliquez sur **Modifier**.

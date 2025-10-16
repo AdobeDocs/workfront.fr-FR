@@ -150,7 +150,7 @@ Bien que vous ne puissiez pas afficher les informations sur les tâches dans le 
 
 Vous pouvez rencontrer les scénarios suivants lors du calcul du coût prévu pour les personnes, les rôles et le projet :
 
-* Lorsque le **Type de coût** est **Horaire par personne ** et qu’il n’y a **pas d’affectation** sur la tâche :
+* Lorsque le **Type de coût** est **Horaire par personne &#x200B;** et qu’il n’y a **pas d’affectation** sur la tâche :
 
    * **Coût prévu par rôle et personne** :
 

@@ -58,7 +58,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Création d’éléments à faire
 
-1. Cliquez sur le **** Menu principal![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur le **** Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur le **&#x200B;**&#x200B;Menu principal![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur le **&#x200B;**&#x200B;Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser**, puis sur **Tâches** pour ajouter le widget Tâches à votre écran d’accueil.
 1. Accédez au widget **Tâches**, puis cliquez sur **Ajouter une tâche**.
 1. Saisissez le nom de votre élément de tâche personnel, puis cliquez sur Entrée.
@@ -70,7 +70,7 @@ Vous pouvez afficher vos tâches, ainsi que les tâches des autres utilisateurs,
 
 ## Gestion des tâches
 
-1. Cliquez sur le **** Menu principal![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur le **** Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur le **&#x200B;**&#x200B;Menu principal![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur le **&#x200B;**&#x200B;Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser**, puis sur **Tâches** pour ajouter le widget Tâches à votre écran d’accueil.
 1. Accédez au widget **Tâches** et effectuez l’une des opérations suivantes :
    1. Pour modifier le nom d’un élément de la liste de tâches, cliquez dans l’espace de nom et apportez une modification.

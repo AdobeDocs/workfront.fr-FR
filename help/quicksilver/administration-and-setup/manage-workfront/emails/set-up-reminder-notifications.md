@@ -173,4 +173,4 @@ Pour déclencher manuellement une notification de rappel :
 
    Les personnes désignées dans la notification de rappel reçoivent un e-mail.
 
-![ Test de notification de rappel ](assets/reminder-test.png)
+![&#x200B; Test de notification de rappel &#x200B;](assets/reminder-test.png)

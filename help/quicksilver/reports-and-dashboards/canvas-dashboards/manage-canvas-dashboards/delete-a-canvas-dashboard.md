@@ -18,8 +18,8 @@ ht-degree: 19%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>&#x200B;>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>&#x200B;>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
@@ -80,7 +80,7 @@ Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/he
 >[!WARNING]
 >
 > Une fois qu’un tableau de bord est supprimé, il est impossible de récupérer le tableau de bord et tous ses rapports et/ou visualisations personnalisés.<br>
-> > Si vous supprimez un tableau de bord qui contient un rapport classique, ce dernier ne sera pas supprimé.
+> &#x200B;> Si vous supprimez un tableau de bord qui contient un rapport classique, ce dernier ne sera pas supprimé.
 
 {{step1-to-dashboards}}
 

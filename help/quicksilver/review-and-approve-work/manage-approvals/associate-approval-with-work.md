@@ -233,7 +233,7 @@ Pour retirer ou supprimer un processus d’approbation d’un élément de trava
 1. Cliquez sur l’une des icônes suivantes dans le coin supérieur droit de la section Approbations, en fonction du type d’approbation associé à l’élément :
 
    * **Icône Supprimer** Icône ![Supprimer](assets/remove-icon---x-in-circle.png) pour les approbations globales ou au niveau du groupe.
-   * **** Icône Supprimer ![Icône Supprimer](assets/delete.png) pour les validations à usage unique.
+   * **&#x200B;**&#x200B;Icône Supprimer ![Icône Supprimer](assets/delete.png) pour les validations à usage unique.
 
 1. Cliquez sur **Retirer** ou **Supprimer** pour confirmer.
 

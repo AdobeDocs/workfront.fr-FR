@@ -176,7 +176,7 @@ Pour plus d’informations sur les vues Agile, voir l’article [Gérer un proje
 Pour créer ou personnaliser une vue Agile :
 
 1. Accédez à la liste des tâches d’un projet.
-1. Cliquez sur l’icône **Panorama** ![ icône Panorama](assets/board-icon-for-agile-view.png), puis sur **Utiliser la méthode Agile héritée** dans la vue du tableau.
+1. Cliquez sur l’icône **Panorama** ![&#x200B; icône Panorama](assets/board-icon-for-agile-view.png), puis sur **Utiliser la méthode Agile héritée** dans la vue du tableau.
 
 1. (Le cas échéant) Pour personnaliser une vue Agile existante :
 

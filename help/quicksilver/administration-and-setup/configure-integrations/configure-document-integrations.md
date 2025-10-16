@@ -80,7 +80,7 @@ Vous pouvez configurer les intégrations suivantes pour la gestion des documents
 
 * [!DNL Microsoft SharePoint]
 
-  Pour plus d’informations sur l’intégration à [!DNL SharePoint], voir [Configurer l’intégration  [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Pour plus d’informations sur l’intégration à [!DNL SharePoint], voir [Configurer l’intégration  [!DNL SharePoint] &#x200B;](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * Fournisseurs tiers de documents en ligne :
 
@@ -213,7 +213,7 @@ Les informations ne sont mappées que dans un seul sens, de [!DNL Workfront] à 
 Vous pouvez mapper le même champ [!DNL Workfront] sur plusieurs champs [!DNL Workfront DAM], mais vous ne pouvez pas utiliser le même champ [!DNL Workfront DAM] pour plusieurs champs [!DNL Workfront].
 
 Si vous devez configurer plusieurs champs [!DNL Workfront] pour les exporter vers un champ [!DNL Workfront DAM], créez d’abord un champ personnalisé calculé dans [!DNL Workfront] pour afficher tous les champs personnalisés individuels d’un objet. Mappez ensuite le champ [!DNL Workfront] calculé sur un champ [!DNL Workfront DAM].\
-Pour plus d’informations sur les champs calculés personnalisés, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour plus d’informations sur les champs calculés personnalisés, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Le mappage affecte tous les documents chargés par n’importe quelle personne de [!DNL Workfront] à [!UICONTROL Workfront] DAM.
 

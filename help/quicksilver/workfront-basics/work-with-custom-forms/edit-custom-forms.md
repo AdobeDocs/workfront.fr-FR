@@ -174,7 +174,7 @@ Vous pouvez recalculer manuellement les champs personnalisés de plusieurs objet
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >Workfront calcule tous les champs personnalisés pour tous les projets sélectionnés.
->>Toutes les listes de tous les objets ne disposent pas de cette fonctionnalité.
+>&#x200B;>Toutes les listes de tous les objets ne disposent pas de cette fonctionnalité.
 >
 >En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lors du recalcul en bloc des champs personnalisés calculés afin de garantir des performances optimales. Un projet peut être trop complexe s’il comporte de multiples dépendances ou affectations ou un grand nombre de champs personnalisés.
 

@@ -44,7 +44,7 @@ La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Plan
   </tr> 
     <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td> <p>Accès à [!UICONTROL Edit] pour les projets [!DNL Scenario Planner] et [!UICONTROL]</p></td> 
+   <td> <p>Accès à [!UICONTROL Edit] pour les projets [!DNL Scenario Planner] et </p></td> 
   </tr> 
   <tr> 
    <td> <p>Autorisations d’objet </p> </td> 
@@ -56,7 +56,7 @@ La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Plan
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 

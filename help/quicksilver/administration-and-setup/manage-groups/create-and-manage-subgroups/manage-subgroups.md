@@ -180,7 +180,7 @@ Vous pouvez faire d’un sous-groupe un groupe de niveau supérieur en le retira
 >[!TIP]
 >
 >Lorsque vous désactivez un groupe qui a des sous-groupes sous-jacents, ces sous-groupes deviennent également inactifs. Si vous souhaitez que l’un d’entre eux soit actif, vous pouvez suivre ces instructions pour le retirer de son groupe parent, puis le réactiver.
->>Pour obtenir des instructions sur la désactivation et la réactivation de groupes, voir [ Désactiver ou réactiver un groupe ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>&#x200B;>Pour obtenir des instructions sur la désactivation et la réactivation de groupes, voir [&#x200B; Désactiver ou réactiver un groupe &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 

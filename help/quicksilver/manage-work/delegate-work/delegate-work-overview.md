@@ -39,7 +39,7 @@ Cet article contient des informations générales sur la délégation de tâches
 
 Pour plus d&#39;informations sur la délégation des approbations de projets, de tâches et d&#39;événements, voir [Déléguer la demande d&#39;approbation](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
-Pour plus d’informations sur la délégation de tâches et d’événements, voir [ Déléguer des tâches et des événements](../../manage-work/delegate-work/how-to-delegate-work.md).
+Pour plus d’informations sur la délégation de tâches et d’événements, voir [&#x200B; Déléguer des tâches et des événements](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 ## Vue d’ensemble de la délégation des tâches et des problèmes
 
@@ -67,7 +67,7 @@ Tenez compte des points suivants lorsque vous déléguez des tâches et des prob
 * Si d’autres tâches et problèmes vous sont affectés au cours de la période que vous avez sélectionnée pour que votre travail soit délégué à d’autres personnes, la nouvelle tâche affectée est automatiquement déléguée à la même personne pendant la période que vous avez sélectionnée si les dates pour la tâche ou le problème se situent dans la même période.
 * Une même personne déléguée peut être choisie par plusieurs personnes différentes.
 * Les tâches et problèmes délégués ne s’affichent pas dans les outils de gestion des ressources, tels que l’[!UICONTROL Équilibreur de charge de travail] ou le [!UICONTROL Planificateur de ressources] pour les personnes déléguées.
-* Vous pouvez afficher les noms des tâches déléguées et des personnes déléguées dans plusieurs zones de [!DNL Workfront]. Pour plus d’informations, consultez la section « Localiser le travail délégué et déléguer les informations » de l’article [ Déléguer des tâches et des événements](../delegate-work/how-to-delegate-work.md).
+* Vous pouvez afficher les noms des tâches déléguées et des personnes déléguées dans plusieurs zones de [!DNL Workfront]. Pour plus d’informations, consultez la section « Localiser le travail délégué et déléguer les informations » de l’article [&#x200B; Déléguer des tâches et des événements](../delegate-work/how-to-delegate-work.md).
 
 
   >[!IMPORTANT]

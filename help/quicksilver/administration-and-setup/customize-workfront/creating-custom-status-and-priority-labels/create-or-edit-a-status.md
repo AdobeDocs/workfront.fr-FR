@@ -83,7 +83,7 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
 
    Si vous modifiez un statut existant, survolez-le, puis cliquez sur l’icône **Modifier** qui s’affiche complètement à droite.
 
-   ![ Modifier le statut personnalisé ](assets/custom-status-edit.png)
+   ![&#x200B; Modifier le statut personnalisé &#x200B;](assets/custom-status-edit.png)
 
 1. Configurez le statut à l’aide des options suivantes :
 

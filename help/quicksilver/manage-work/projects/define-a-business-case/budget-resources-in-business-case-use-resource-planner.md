@@ -164,7 +164,7 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
    >
    >Vous pouvez exporter des données pour un maximum de 12 périodes à la fois.
 
-1. (Facultatif) Cliquez sur l’icône **Plein écran** ![ full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png) pour afficher le planificateur de ressources en mode plein écran.
+1. (Facultatif) Cliquez sur l’icône **Plein écran** ![&#x200B; full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png) pour afficher le planificateur de ressources en mode plein écran.
 
 1. Mettez à jour le champ **BDG** (heures budgétées) avec des valeurs d’heures, d’équivalent temps complet ou de coûts pour les personnes, les rôles ou le projet en effectuant l’une des opérations suivantes :
 

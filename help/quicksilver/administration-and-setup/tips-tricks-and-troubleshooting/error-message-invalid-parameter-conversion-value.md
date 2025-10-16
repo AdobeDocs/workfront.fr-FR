@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 'Message D’Erreur : Paramètre Non Valide : Valeur De Conversion'
-description: 'Vous recevez le message d’erreur suivant lorsque vous tentez de modifier le format d’un champ personnalisé sur un formulaire personnalisé existant : « Paramètre non valide : valeur de conversion `&lt;..&gt; »'
+description: 'Vous recevez le message d’erreur suivant lorsque vous tentez de modifier le format d’un champ personnalisé sur un formulaire personnalisé existant : « Paramètre non valide : valeur de conversion &grave;&lt;..&gt; »'
 author: Lisa
 feature: System Setup and Administration
 role: Admin

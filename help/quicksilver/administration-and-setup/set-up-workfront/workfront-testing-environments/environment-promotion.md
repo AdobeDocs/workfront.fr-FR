@@ -918,7 +918,7 @@ _Vide_
 Il s’agit d’un processus en 3 étapes.
 
 1. Créez une carte de traduction (analogue à la phase de « préparation de l’installation »).
-1. Modifiez la carte de traduction générée, en définissant les champs  et  pour tout objet qui doit être remplacé. `action``targetId` L’action doit être `OVERWRITING`, et le `targetId` doit être l’UUID de l’objet qui doit être remplacé.
+1. Modifiez la carte de traduction générée, en définissant les champs  et  pour tout objet qui doit être remplacé. `action` `targetId` L’action doit être `OVERWRITING`, et le `targetId` doit être l’UUID de l’objet qui doit être remplacé.
 1. Exécutez l’installation.
 
 * [Étape 1 : créer une carte de traduction](#step-1---create-a-translation-map)

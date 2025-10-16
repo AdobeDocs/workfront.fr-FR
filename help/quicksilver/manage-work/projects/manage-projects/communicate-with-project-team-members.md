@@ -89,7 +89,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
    Ou
 
-   Pour mettre à jour certaines personnes membres de l’équipe de projet, sélectionnez une ou plusieurs personnes dans la liste, puis cliquez sur **Envoyer la mise à jour à un utilisateur ou une utilisatrice******.\
+   Pour mettre à jour certaines personnes membres de l’équipe de projet, sélectionnez une ou plusieurs personnes dans la liste, puis cliquez sur **Envoyer la mise à jour à un utilisateur ou une utilisatrice**&#x200B;**&#x200B;**.\
    ![Commenting_1.png](assets/commenting-1-350x352.png)
 
 1. Saisissez votre mise à jour dans le champ **Publier une mise à jour sur ce projet**.

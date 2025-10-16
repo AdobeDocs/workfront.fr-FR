@@ -69,7 +69,7 @@ La personne propriétaire de l’équipe [!DNL Microsoft Teams] doit installer [
 1. (Facultatif) Sélectionnez un groupe de sujets ou une rubrique de file d’attente, s’ils sont disponibles dans la file d’attente des demandes.
 1. Indiquez les informations suivantes :
 
-   (Selon la façon dont la file d’attente des demandes a été configurée, les options et les cases que vous voyez peuvent varier. Pour une liste complète et une description des champs possibles, voir [Créer et soumettre des demandes  [!DNL Adobe Workfront] ](../../manage-work/requests/create-requests/create-submit-requests.md).)
+   (Selon la façon dont la file d’attente des demandes a été configurée, les options et les cases que vous voyez peuvent varier. Pour une liste complète et une description des champs possibles, voir [Créer et soumettre des demandes  [!DNL Adobe Workfront] &#x200B;](../../manage-work/requests/create-requests/create-submit-requests.md).)
 
    <table style="table-layout:auto"> 
     <col> 

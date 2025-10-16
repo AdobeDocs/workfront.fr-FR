@@ -19,7 +19,7 @@ ht-degree: 72%
 
 Les informations affichées dans l’application web [!DNL Workfront] sont souvent affichées par défaut dans les sections du panneau de gauche. Chaque section contient des informations différentes sur une zone ou un objet [!DNL Workfront].
 
-Pour plus d’informations sur les zones par défaut de [!DNL Workfront], voir l’article [À propos de la mise en page par d’ [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Pour plus d’informations sur les zones par défaut de [!DNL Workfront], voir l’article [À propos de la mise en page par d’ [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 Outre les sections fournies avec [!DNL Workfront] par défaut, vous pouvez ajouter un tableau de bord sur lequel afficher les informations relatives à votre workflow. Vous ne pouvez pas ajouter de tableau de bord à toutes les zones et tous les objets.
 

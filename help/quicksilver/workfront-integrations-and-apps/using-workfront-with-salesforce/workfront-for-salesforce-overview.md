@@ -34,7 +34,7 @@ En tant que personne membre de l’administration [!DNL Workfront], vous pouvez 
 
 Pour plus d’informations sur l’installation de [!DNL Workfront for Salesforce], consultez la section [Installer [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
-Pour plus d’informations sur la configuration de la section [!DNL Workfront] dans [!DNL Salesforce] pour l’ensemble des utilisateurs et des utilisatrices, consultez la section [Configurer  [!DNL Adobe Workfront]  pour les utilisateurs et les utilisatrices de  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+Pour plus d’informations sur la configuration de la section [!DNL Workfront] dans [!DNL Salesforce] pour l’ensemble des utilisateurs et des utilisatrices, consultez la section [Configurer  [!DNL Adobe Workfront]  pour les utilisateurs et les utilisatrices de  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 ## Conditions d’accès
 
@@ -70,7 +70,7 @@ Vous pouvez effectuer les opérations suivantes en utilisant [!DNL Workfront for
 
 * Déclenchez automatiquement la création de projets dans [!DNL Workfront] lorsque certains critères sont remplis dans [!DNL Salesforce]. Votre équipe d’administration système [!DNL Salesforce] doit configurer les déclencheurs pour la création de projets à partir de [!DNL Salesforce].
 
-  Pour plus d’informations sur la création de projets [!DNL Workfront] à partir de [!DNL Salesforce], consultez la section [Créer des projets  [!DNL Adobe Workfront]  à partir d’objets  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
+  Pour plus d’informations sur la création de projets [!DNL Workfront] à partir de [!DNL Salesforce], consultez la section [Créer des projets  [!DNL Adobe Workfront]  à partir d’objets  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
 Tenez compte des points suivants lorsque vous utilisez [!DNL Workfront] pour [!DNL Salesforce] :
 
@@ -78,7 +78,7 @@ Tenez compte des points suivants lorsque vous utilisez [!DNL Workfront] pour [!D
 * Les éléments ne peuvent être créés que de [!DNL Salesforce] à [!DNL Workfront].
 * Vous pouvez afficher quelques informations sur les éléments [!DNL Workfront] dans [!DNL Salesforce]. Ces informations ne peuvent pas être personnalisées.
 
-  Pour une liste des champs [!DNL Workfront] que vous pouvez afficher dans [!DNL Salesforce], consultez [Soumettre des requêtes  [!DNL Adobe Workfront]  à partir des objets  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md) et [Créer des projets  [!DNL Adobe Workfront]  à partir d’objets [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
+  Pour une liste des champs [!DNL Workfront] que vous pouvez afficher dans [!DNL Salesforce], consultez [Soumettre des requêtes  [!DNL Adobe Workfront]  à partir des objets  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md) et [Créer des projets  [!DNL Adobe Workfront]  à partir d’objets [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
 * Vous pouvez accéder directement aux éléments liés à [!DNL Salesforce] en cliquant sur le lien [!UICONTROL Aller à Salesforce] depuis Workfront.
 

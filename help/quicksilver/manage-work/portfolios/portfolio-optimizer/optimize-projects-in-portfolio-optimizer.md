@@ -88,7 +88,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’icône **[!UICONTROL Optimiser]**.
 
-   ![ Icône Optimiser ](assets/optimize-icon-portfolio-optimizer.png)
+   ![&#x200B; Icône Optimiser &#x200B;](assets/optimize-icon-portfolio-optimizer.png)
 
    Les catégories selon lesquelles un projet peut être noté s’affichent à gauche de l’icône [!UICONTROL Optimiser].
 

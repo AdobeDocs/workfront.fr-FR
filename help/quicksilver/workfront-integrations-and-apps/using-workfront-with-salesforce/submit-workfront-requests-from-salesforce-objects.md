@@ -59,7 +59,7 @@ Pour envoyer une demande [!DNL Workfront] à partir d’une opportunité ou d’
    Pour plus d’informations sur l’installation de [!DNL Workfront for Salesforce], voir [Installer [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
 * Votre équipe d’administration [!DNL Workfront] a ajouté la section [!DNL Workfront] à vos dispositions de page [!UICONTROL Opportunité] et [!UICONTROL Compte].\
-   Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à une disposition de page, voir [Configurer la section  [!DNL Adobe Workfront]  pour les utilisateurs et utilisatrices  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+   Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à une disposition de page, voir [Configurer la section  [!DNL Adobe Workfront]  pour les utilisateurs et utilisatrices  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 * Vous avez un compte [!DNL Workfront] et vous pouvez vous y connecter à partir de la section [!DNL Workfront] dans votre opportunité ou votre compte.\
    Après la connexion, vous pouvez voir l’onglet [!UICONTROL Nouvelles demandes] dans lequel vous pouvez commencer à saisir des demandes.
@@ -80,7 +80,7 @@ Pour envoyer une demande [!DNL Workfront] à partir d’une opportunité ou d’
    >
    >Le chargement d’un document à l’aide du plug-in [!DNL Workfront] dans [!DNL Salesforce] est temporairement indisponible.
 
-   Continuez à suivre les étapes décrites dans [Créer et soumettre des demandes  [!DNL Adobe Workfront] ](../../manage-work/requests/create-requests/create-submit-requests.md).
+   Continuez à suivre les étapes décrites dans [Créer et soumettre des demandes  [!DNL Adobe Workfront] &#x200B;](../../manage-work/requests/create-requests/create-submit-requests.md).
 
 1. Cliquez sur **[!UICONTROL Soumettre]**.
 

@@ -74,7 +74,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 >
 >Si vous utilisez l’expérience unifiée Adobe, vous pouvez accéder à votre profil Workfront en cliquant sur le menu Compte Adobe (l’image de votre profil) dans la zone de navigation supérieure, puis en choisissant Profil Workfront.
 >
->![profil workfront ](assets/aue-profile.png)
+>![profil workfront &#x200B;](assets/aue-profile.png)
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Congés]**.
 1. Sélectionnez la date souhaitée pour vos congés.

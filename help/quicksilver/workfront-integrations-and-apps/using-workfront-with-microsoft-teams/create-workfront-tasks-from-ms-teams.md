@@ -88,7 +88,7 @@ Pour plus d’informations sur l’installation de [!DNL Workfront for Microsoft
 
    La nouvelle tâche personnelle est créée dans [!DNL Workfront]. Un [!UICONTROL numéro de référence] y est affecté et est visible dans la carte de la [!UICONTROL nouvelle tâche].
 
-   Pour plus d’informations sur les numéros de référence, consultez la section [[!UICONTROL Numéros de référence] des objets ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) dans l’article [Comprendre les objets dans  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Pour plus d’informations sur les numéros de référence, consultez la section [[!UICONTROL Numéros de référence] des objets &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) dans l’article [Comprendre les objets dans  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Modifier]** pour modifier les informations de la tâche.
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher dans[!DNL Workfront]]** pour ouvrir la tâche dans un nouvel onglet dans [!DNL Workfront] et la modifier, la déplacer vers un projet ou l’affecter à une autre personne.

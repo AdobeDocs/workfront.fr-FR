@@ -40,7 +40,7 @@ Vous pouvez désactiver les équipes que vous n’utilisez plus tout en conserva
  </tbody> 
 </table>
 
-Les équipes désactivées n’apparaissent pas lorsque vous recherchez une équipe, mais s’affichent toujours dans [!UICONTROL  Équipe interne ] et Autres équipes si l’utilisateur a été affecté à l’équipe avant la désactivation.
+Les équipes désactivées n’apparaissent pas lorsque vous recherchez une équipe, mais s’affichent toujours dans [!UICONTROL &#x200B; Équipe interne &#x200B;] et Autres équipes si l’utilisateur a été affecté à l’équipe avant la désactivation.
 
 ## Conditions d’accès
 

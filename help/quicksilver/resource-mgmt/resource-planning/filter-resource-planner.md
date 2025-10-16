@@ -249,7 +249,7 @@ Vous pouvez dupliquer un filtre existant. Les critères de filtre d’origine re
 1. Pointez sur le nom d’un filtre enregistré que vous souhaitez dupliquer.
 1. Cliquez sur l’icône **Dupliquer**.
 
-   ![ Dupliquer le filtre ](assets/rp-filter-options---duplicate-350x154.png)\
+   ![&#x200B; Dupliquer le filtre &#x200B;](assets/rp-filter-options---duplicate-350x154.png)\
    La zone Dupliquer le filtre s’affiche.
 
 1. Dans le champ **Nom du filtre**, donnez un nouveau nom au filtre dupliqué.\

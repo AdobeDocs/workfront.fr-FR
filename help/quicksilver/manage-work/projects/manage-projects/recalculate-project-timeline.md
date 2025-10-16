@@ -93,8 +93,8 @@ Par défaut, les chronologies des projets sont automatiquement recalculées tous
 >* Si la chronologie d&#39;un projet dépasse 15 ans, le recalcul automatique est désactivé pour ce projet et vous ne pouvez sélectionner qu&#39;un type de mise à jour manuelle. Si vous définissez les dates du projet sur moins de 15 ans, vous devez recalculer manuellement votre chronologie une fois avant qu’elle ne soit calculée automatiquement.
 >* Pour les environnements Sandbox de prévisualisation et d’actualisation personnalisée, le recalcul nocturne est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour les environnements de prévisualisation et de sandbox d’actualisation personnalisée.
 >* Si un projet est complexe, le recalcul automatique de la chronologie peut ne pas se produire.
->  > Un exemple de projet complexe peut être un projet avec plusieurs dépendances, un grand nombre de tâches, plusieurs prédécesseurs interprojets ou plusieurs indentations de tâches.
->  > Workfront place un avertissement à droite du nom du projet sur la page du projet pour informer les utilisateurs que la chronologie du projet doit être recalculée manuellement. Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour le projet peuvent recalculer manuellement la chronologie.
+>  &#x200B;> Un exemple de projet complexe peut être un projet avec plusieurs dépendances, un grand nombre de tâches, plusieurs prédécesseurs interprojets ou plusieurs indentations de tâches.
+>  &#x200B;> Workfront place un avertissement à droite du nom du projet sur la page du projet pour informer les utilisateurs que la chronologie du projet doit être recalculée manuellement. Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour le projet peuvent recalculer manuellement la chronologie.
 >
 >   ![](assets/project-warning-to-manually-recalculate-timeline.png)
 >

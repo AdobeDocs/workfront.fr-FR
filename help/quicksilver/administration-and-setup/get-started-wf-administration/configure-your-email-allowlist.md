@@ -31,7 +31,7 @@ Cela s’avère utile si la politique de sécurité de votre entreprise empêche
 >Tous les e-mails provenant de Workfront sont envoyés à partir de cette adresse afin d’augmenter le succès de la diffusion des e-mails et d’éliminer les usurpations des e-mails. Cela inclut les alertes automatisées et la communication entre utilisateurs et utilisatrices.
 >
 >Par exemple, la ligne De dans un e-mail Workfront que vous recevez d’une utilisatrice nommée Joan Harris ressemblerait à ceci :
->>`Joan Harris <notifications@my.workfront.com>`
+>&#x200B;>`Joan Harris <notifications@my.workfront.com>`
 
 Pour plus d’informations sur la configuration du pare-feu de votre entreprise pour ouvrir la communication entre votre environnement et les serveurs Adobe Workfront, consultez [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
