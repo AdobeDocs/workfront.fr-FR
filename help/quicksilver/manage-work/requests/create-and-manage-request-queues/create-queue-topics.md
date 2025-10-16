@@ -7,18 +7,16 @@ author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 77%
+source-wordcount: '964'
+ht-degree: 79%
 
 ---
 
 # Créer des rubriques de file d’attente
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Les rubriques de file d’attente fonctionnent conjointement avec les règles de transmission pour affecter automatiquement le travail entrant à une personne, une fonction, une équipe ou pour le placer sur un projet. Les rubriques de la file d’attente définissent les conditions nécessaires à la mise en œuvre de la règle de transmission.
 
@@ -179,8 +177,7 @@ Pour modifier une rubrique de file d&#39;attente existante :
 
 1. Accédez au projet ou au modèle contenant la rubrique de file d&#39;attente à modifier.
 1. Cliquez sur **Rubriques de file d’attente** dans le panneau de gauche.
-1. Dans l’environnement de production, sélectionnez la rubrique de file d’attente que vous souhaitez modifier. Sur la page Détails qui s&#39;ouvre, cliquez sur **Modifier rubrique de file d&#39;attente**.
-1. <span class="preview">Dans l’environnement Aperçu, cliquez sur la rubrique de file d’attente que vous souhaitez modifier.
+1. Cliquez sur la rubrique de file d’attente que vous souhaitez modifier.
 
 Pour plus d’informations sur les options de modification disponibles, voir [Création d’une rubrique de file d’attente](#create-a-queue-topic) dans cet article.
 

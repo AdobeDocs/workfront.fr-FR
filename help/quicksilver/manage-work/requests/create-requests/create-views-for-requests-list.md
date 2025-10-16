@@ -5,16 +5,15 @@ title: Création de vues dans la zone des Demandes
 description: Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes.
 author: Becky
 feature: Work Management
-source-git-commit: 1c7e2fb7de500083f0f7e42f1016323305054d88
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 10%
+source-wordcount: '587'
+ht-degree: 7%
 
 ---
 
 # Créer ou modifier des vues dans la zone des Demandes
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes. Ces vues incluent des filtres et des dispositions de colonnes.
 

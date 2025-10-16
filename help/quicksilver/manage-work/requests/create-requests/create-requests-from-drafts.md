@@ -6,16 +6,14 @@ description: En plus d’utiliser les brouillons disponibles, suggérés par Wor
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 84%
+source-wordcount: '618'
+ht-degree: 88%
 
 ---
 
 # Créer des demandes à partir de brouillons
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
 En plus d’utiliser les brouillons disponibles, suggérés par Workfront, lorsque vous saisissez une nouvelle demande, vous pouvez accéder à un brouillon de demande à partir de la section Brouillons et finir de l’envoyer à partir de là.
 
@@ -107,6 +105,6 @@ Avant de créer une demande à partir d’un brouillon, vous devez effectuer les
 
    >[!NOTE]
    >
-   >* <span class="preview">Dans la nouvelle expérience de demande, les brouillons figurent dans la même liste que les demandes envoyées.</span>
-   ><span class="preview">Pour plus d’informations sur la création de requêtes dans la nouvelle expérience , consultez la section [Création de requêtes et génération de brouillons dans l’application web Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) dans l’article Création et envoi de requêtes</span>.
+   >Dans la nouvelle expérience de demande, les brouillons figurent dans la même liste que les demandes envoyées.
+   >Pour plus d’informations sur la création de requêtes dans la nouvelle expérience , consultez la section [Créer des requêtes et générer des brouillons dans l’application web Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) dans l’article Création et envoi de requêtes.
 

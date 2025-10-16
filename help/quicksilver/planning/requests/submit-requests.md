@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1996'
-ht-degree: 2%
+source-wordcount: '1933'
+ht-degree: 3%
 
 ---
 
@@ -144,15 +144,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    * Les 6 dernières files d’attente de demandes Workfront consultées et les formulaires de demandes Planning s’affichent dans la section Récent .
    * 50 files d’attente de demandes Workfront supplémentaires et les formulaires de demandes Planning s’affichent par ordre alphabétique dans la section **Tous les formulaires de demandes**. Vous pouvez rechercher une file d’attente de demandes qui ne s’affiche pas par défaut.
 
-1. Dans l’environnement de production, effectuez l’une des opérations suivantes :
-
-   * Sélectionnez les formulaires de demande Planning dans les sections Formulaires récents ou Tous les formulaires de demande
-   * Commencez à saisir le nom d&#39;un formulaire de demande Planning dans la zone de recherche, puis cliquez sur la carte lorsqu&#39;elle s&#39;affiche dans la liste.
-
-   Le formulaire de demande s’ouvre.
-
-<!-- Put preview section here-->
-1. <span class="preview">Dans l’environnement Aperçu, sélectionnez un formulaire de demande ou une file d’attente dans la zone Formulaires de demande récemment consultés, ou commencez à saisir le nom du formulaire ou de la file d’attente dans la liste, puis sélectionnez-le lorsqu’il apparaît.
+1. Sélectionnez un formulaire de demande ou une file d’attente dans la zone Formulaires de demande récemment consultés ou commencez à saisir le nom du formulaire ou de la file d’attente dans la liste, puis sélectionnez-le lorsqu’il apparaît.
 
 1. Mettez à jour les champs disponibles dans le formulaire de demande. Les champs avec un astérisque rouge sont obligatoires.
 1. Cliquez sur **Soumettre**.
@@ -221,16 +213,9 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 
    La page des détails de la requête s’ouvre.
 
-   ![Page de détails de la demande](assets/request-details-page.png)
-
-   <div class="preview">
-      Dans l’aperçu :
-
    ![Demander une page avec des commentaires](assets/new-request-page-with-comment.png)
 
-   </div>
-
-1. <span class="preview">(Facultatif) Entrez un commentaire dans la zone Commentaires.
+1. (Facultatif) Saisissez un commentaire dans la zone Commentaires.
 1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Enregistrement**.
 
    La page de l’enregistrement s’ouvre dans Workfront Planning.
@@ -292,16 +277,11 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 
    La page des détails de la requête s’ouvre.
 
-   ![Page de détails de la demande](assets/request-details-page.png)
-
-   <div class="preview">
-   Dans l’aperçu :
-
    ![Demander une page avec des commentaires](assets/new-request-page-with-comment.png)
 
-   </div>
 
-1. <span class="preview">(Facultatif) Entrez un commentaire dans la zone Commentaires.
+
+1. (Facultatif) Saisissez un commentaire dans la zone Commentaires.
 1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Enregistrement**.
 
    La page de l’enregistrement s’ouvre dans Workfront Planning.

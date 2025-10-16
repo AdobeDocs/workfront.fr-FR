@@ -6,23 +6,20 @@ description: Vous pouvez envoyer des requêtes dans le widget Mes requêtes . Vo
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '734'
 ht-degree: 14%
 
 ---
 
 # Utiliser le widget Mes requêtes
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 >[!IMPORTANT]
 >
 >Cet article décrit le nouveau widget Mes requêtes . La nouvelle expérience de demande doit être activée pour afficher le nouveau widget.
->&#x200B;>Vous pouvez activer la nouvelle expérience de demande dans la zone des Demandes .
+>>Vous pouvez activer la nouvelle expérience de demande dans la zone des Demandes .
 
 Le widget Mes demandes affiche les demandes qui ont été envoyées à votre organisation. Vous pouvez filtrer les requêtes, rechercher des requêtes spécifiques ou ajuster l’ordre et la visibilité des colonnes. Vous pouvez également créer une requête à partir du widget Mes requêtes .
 

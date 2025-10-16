@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 74%
+source-wordcount: '735'
+ht-degree: 79%
 
 ---
 
@@ -22,10 +22,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{important-admin-console-onboard}}
 
@@ -128,16 +124,16 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td>Permet de choisir d’activer ou de désactiver l’expérience de la liste de travail Priorités pour vos utilisateurs. Les utilisateurs verront toujours les icônes Priorités dans Workfront, mais ils n’auront pas accès à la fonctionnalité. Pour plus d'informations sur les priorités, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Prise en main des priorités</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Activer AI</span> </td> 
-      <td><span class="preview">Permet de choisir d’activer l’IA, y compris l’assistant IA. <p><b>Remarque </b> : votre entreprise doit répondre à des exigences spécifiques pour activer l’IA. Pour plus d’informations sur l’IA, y compris ses exigences, consultez <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md"> Présentation de l’assistant IA</a>.</p></span></td> 
+      <td role="rowheader">Activer l’IA </td> 
+      <td>Permet de choisir d’activer l’IA, y compris l’assistant IA. <p><b>Remarque </b> : votre entreprise doit répondre à des exigences spécifiques pour activer l’IA. Pour plus d’informations sur l’IA, y compris ses exigences, consultez <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md"> Présentation de l’assistant IA</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Saisie automatique de formulaire </span></td> 
-      <td><span class="preview">Permet de choisir d’activer la possibilité de remplir automatiquement les formulaires de demande en fonction des données de demande précédentes. Pour plus d’informations sur la saisie automatique des formulaires, voir <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Saisie automatique d’une demande à partir de données précédentes</a>.</span></td> 
+      <td role="rowheader">Saisie automatique de formulaire </td> 
+      <td>Permet de choisir d’activer la possibilité de remplir automatiquement les formulaires de demande en fonction des données de demande précédentes. Pour plus d’informations sur la saisie automatique des formulaires, voir <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Saisie automatique d’une demande à partir de données précédentes</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Participer aux programmes Beta de l’IA </span></td> 
-      <td><span class="preview">Permet de choisir d’activer les fonctionnalités d’IA actuellement dans Beta. Si vous activez cette option, vous pouvez sélectionner les fonctionnalités d’IA Beta à activer. Pour plus d’informations sur chaque fonctionnalité AI Beta, cliquez sur l’icône d’information en regard de cette fonctionnalité.</span></td> 
+      <td role="rowheader">Participer aux programmes Beta de l’IA </td> 
+      <td>&gt;Permet de choisir d’activer les fonctionnalités d’IA actuellement dans Beta. Si vous activez cette option, vous pouvez sélectionner les fonctionnalités d’IA Beta à activer. Pour plus d’informations sur chaque fonctionnalité AI Beta, cliquez sur l’icône d’information en regard de cette fonctionnalité.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Environnements de test</td> 

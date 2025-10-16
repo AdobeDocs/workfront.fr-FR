@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 7%
@@ -31,7 +31,7 @@ Cet article décrit comment un responsable d’espace de travail peut ajouter un
 
 Pour plus d’informations sur la création d’un formulaire de demande dans Workfront Planning, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -90,11 +90,11 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    La zone **Configuration** s’affiche.
 
    ![Onglet Configuration](assets/configuration-tab.png)
-1. Dans le champ **Approbateurs**, cliquez sur l&#39;icône déroulante et sélectionnez un ou plusieurs utilisateurs <span class="preview">ou équipes</span> dans la liste
+1. Dans le champ **Approbateurs**, cliquez sur l&#39;icône déroulante et sélectionnez un ou plusieurs utilisateurs ou équipes dans la liste
 
    Ou
 
-   Commencez à saisir le nom d’un utilisateur <span class="preview">ou d’une équipe</span> que vous souhaitez définir en tant qu’approbateur, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+   Commencez à saisir le nom d’un utilisateur ou d’une équipe que vous souhaitez définir en tant qu’approbateur, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -109,7 +109,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    >
    >* Tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
    >
-   >* <span class="preview">Si une équipe est définie comme approbateur, une seule décision est requise de la part de l’équipe.</span>
+   >* Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
 
 1. (Facultatif) Cliquez sur **Publier** si vous n’avez jamais partagé le formulaire de demande auparavant
@@ -124,4 +124,4 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    >   L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
 
 
-   Pour plus d’informations sur l’approbation des demandes, voir [&#x200B; Approuver une demande &#x200B;](/help/quicksilver/planning/requests/approve-request.md).
+   Pour plus d’informations sur l’approbation des demandes, voir [ Approuver une demande ](/help/quicksilver/planning/requests/approve-request.md).

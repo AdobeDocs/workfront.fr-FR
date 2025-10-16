@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '2686'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,7 @@ Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;e
 
 Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -107,7 +107,7 @@ Pour créer un formulaire de demande, vous devez commencer par créer le formula
 
 ### Commencer à créer un formulaire de demande
 
-Vous pouvez créer un formulaire de demande à partir du type d’enregistrement associé au formulaire, <span class="preview">ou à partir de la zone Demandes de Workfront.</span>
+Vous pouvez créer un formulaire de demande à partir du type d’enregistrement associé au formulaire<!--span class="preview">, or from the Requests area of Workfront.</span>-->.
 
 #### Création d’un formulaire de demande à partir d’un type d’enregistrement
 
@@ -134,39 +134,43 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur **Créer**.
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [&#x200B; Configurer le formulaire &#x200B;](#configure-the-form).
+1. Passez à [ Configurer le formulaire ](#configure-the-form).
+
+<!--
 
 <div class="preview">
 
-#### Création d’un formulaire de demande à partir de la zone des Demandes de Workfront
+#### Create a request form from the Requests area of Workfront
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Requêtes**.
-1. Dans le coin supérieur droit de l’écran, cliquez sur **Formulaires de demande**.
-1. (Conditionnel) Si vous modifiez un formulaire de demande existant, sélectionnez-le dans la liste, puis continuez à [Configurer le formulaire](#confgure-the-form).
-1. Si vous créez un formulaire de demande, dans le coin supérieur droit de l’écran, cliquez sur **Nouveau formulaire de demande**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**.
+1. In the upper-right corner of the screen, click **Request forms**.
+1. (Conditional) If you are editing an existing request form, select it from the list, then continue to [Configure the form](#confgure-the-form).
+1. If you are creating a new request form, in the upper-right corner of the screen, click **New request form**.
 
-   La zone Créer un formulaire de demande s’ouvre
+   The Create request form box opens
 
-1. Dans la zone Créer un formulaire de demande, mettez à jour le nom du formulaire de demande. Par défaut, le nom du formulaire est **Formulaire sans titre**.
-1. Dans le champ Types d’objet , sélectionnez le type d’enregistrement auquel le formulaire de demande sera associé. Les types d’enregistrements sont regroupés dans l’espace de travail dans lequel ils existent.
-1. (Facultatif) Ajoutez une **Description** pour le formulaire de demande.
+1. In the Create request form box, update the name of the request form. By default, the name of the form is **Untitled form**. 
+1. In the Object types field, select the record type that the request form will be associated with. Record types are grouped into the workspace that they exist within.
+1. (Optional) Add a **Description** for the request form. 
 
-   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+1. Click **Create**. 
 
-1. Cliquez sur **Créer**.
+   The request form for the selected record type opens in the Form tab.
+1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
 
-   Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [&#x200B; Configurer les détails du formulaire de demande &#x200B;](#set-up-details-for-the-request-form).
+
 
 </div>
+
+-->
 
 ### Configurer les détails du formulaire de demande
 
 Les détails du formulaire sont divisés en onglets.
 
 * L’onglet **Formulaire** vous permet d’ajouter des champs et des éléments de contenu au formulaire
-* L’onglet **Configuration** vous permet de définir un processus d’approbation du formulaire <span class="preview">et de définir les options de remplissage de la demande</span>.
-* <span class="preview">L’onglet **Automatisations** vous permet d’automatiser ce qui se produira en fonction des fonctionnalités de la requête effectuée avec le formulaire.</span>
+* L’onglet **Configuration** vous permet de définir un processus de validation du formulaire et de définir les options de fin de la demande&lt;.
+  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Configurer les détails du formulaire
 
@@ -227,14 +231,14 @@ Les détails du formulaire sont divisés en onglets.
 
 #### Configurer les détails de configuration
 
-Dans l’onglet Configuration , vous pouvez définir le processus d’approbation <span class="preview">et configurer le moment où une demande créée à partir de ce formulaire sera marquée comme Terminée</span>.
+Dans l’onglet Configuration , vous pouvez définir le processus d’approbation et configurer le moment où une demande créée à partir de ce formulaire sera marquée comme Terminée.
 
 1. Commencez à créer ou à modifier un formulaire de demande, comme décrit dans la section [Commencer à créer un formulaire de demande](#begin-creating-a-request-form).
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
 1. (Facultatif) Configurez tous les détails du formulaire, comme décrit dans la section [Configurer les détails du formulaire](#set-up-form-details).
 
-1. (Facultatif) Cliquez sur l’onglet **Configuration**, puis ajoutez au moins un utilisateur <span class="preview">ou une équipe</span>au champ **Approbateurs** pour approuver de nouvelles demandes pour ce formulaire d’enregistrement.
+1. (Facultatif) Cliquez sur l’onglet **Configuration**, puis ajoutez au moins un utilisateur ou une équipe au champ **Approbateurs** pour approuver de nouvelles demandes pour ce formulaire d’enregistrement.
 
    ![Onglet Configuration](assets/configuration-tab.png)
 
@@ -244,39 +248,44 @@ Dans l’onglet Configuration , vous pouvez définir le processus d’approbatio
    * Vous pouvez ajouter un ou plusieurs approbateurs à un formulaire de demande.
    * Si au moins un approbateur rejette la demande, celle-ci est rejetée et l&#39;enregistrement n&#39;est pas créé.
    * Tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
-   * <span class="preview">Si une équipe est définie comme approbateur, une seule décision est requise de la part de l’équipe.</span>
+   * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. <span class="preview">(Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise** </span>.
+1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
 
-1. <span class="preview">Choisissez si vous souhaitez qu&#39;une demande créée à partir de ce formulaire soit marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet demandé est terminé.</span>
-1. <span class="preview">(Conditionnel) Si vous avez sélectionné que la demande soit marquée comme terminée une fois l’objet demandé terminé, sélectionnez le champ et la valeur qui indiquent quand l’objet est terminé. Par exemple, vous pouvez sélectionner le champ Statut et la valeur Terminé pour terminer la demande lorsque le statut de l’objet créé est défini sur Terminé.</span>
-1. Passez à [Configurer les détails de l’automatisation](#set-up-configuration-details) si vous souhaitez configurer plus de détails pour le formulaire, ou accédez à [Terminer la création du formulaire de demande](#complete-request-form-creation).
+1. Choisissez si vous souhaitez qu&#39;une demande créée à partir de ce formulaire soit marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet demandé est terminé.
+1. (Conditionnel) Si vous avez sélectionné pour que la demande soit marquée comme terminée une fois l’objet demandé terminé, sélectionnez le champ et la valeur qui indiquent quand l’objet est terminé. Par exemple, vous pouvez sélectionner le champ Statut et la valeur Terminé pour terminer la demande lorsque le statut de l&#39;objet créé est défini sur Terminé.
+1. Passez à <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Terminer la création du formulaire de demande](#complete-request-form-creation).
 
+<!--
+ 
 <div class="preview">
 
-#### Configurer les automatisations
+#### Set up Automations
 
-Vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu&#39;elles sont activées, créent des objets dans Workfront ou des enregistrements dans Workfront Planning lorsqu&#39;ils sont déclenchés à partir d&#39;un enregistrement Planning.
+You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
 
-Pour plus d’informations sur la création d’automatisations dans d’autres domaines de Workfront Planning, consultez [Configuration des automatisations d’Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+For information on creating automations in other areas of Workfront Planning, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-1. Sur la page des détails de l&#39;automatisation, mettez à jour les champs suivants dans la section **Triggers** :
+1. On the automation's details page, update the following fields in the **Triggers** section: 
 
-   * **Déclencheur** : sélectionnez l’action qui déclenchera l’automatisation. Actuellement, le seul déclencheur disponible pour l’automatisation des formulaires de demande est `When request object status equals pending creation`.
+   * **Trigger**: Select the action that will trigger the automation. Currently, the only available trigger for request form automation is `When request object status equals pending creation`.
 
-1. Mettez à jour les champs suivants dans la section **Actions** : <!--submitted bugs for these fields - see if they need changing here-->
-   * **Actions** : sélectionnez l’action que Workfront doit effectuer lors du déclenchement de l’automatisation. Ce champ est obligatoire.
-Actuellement, la seule action disponible pour l’automatisation des formulaires de demande est `Create record`.
+1. Update the following fields in the **Actions** section: 
+
+   * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
+   Currently, the only available Action for request form automation is `Create record`.
 
      >[!TIP]
      >
-     >Après avoir enregistré l’automatisation, vous ne pouvez plus modifier l’action sélectionnée dans ce champ.
-1. Passez à [Terminer la création du formulaire de demande](#complete-request-form-creation).
+     >After you saved the automation, you can no longer change the action selected in this field.
+1. Continue to  [Complete request form creation](#complete-request-form-creation).
 
 
 </div>
+
+-->
 
 ### Terminer la création du formulaire de demande
 

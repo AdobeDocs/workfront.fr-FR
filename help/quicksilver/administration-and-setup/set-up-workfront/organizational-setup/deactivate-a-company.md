@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
+source-git-commit: 8fb17d1008b00bc0701ce6e2f06c59d020510e90
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 63%
+ht-degree: 57%
 
 ---
 
@@ -44,7 +44,7 @@ Vous pouvez désactiver une entreprise que vous n’utilisez plus tout en conser
     <ul> 
      <li> <p>Le niveau d'accès [!UICONTROL System Administrator], qui permet de modifier n'importe quelle société du système.</p> </li> 
      <li> <p>Accès administratif pour gérer les sociétés, ce qui vous permet de modifier n’importe quelle société du système.</p> </li> 
-    </ul> <p><b>NOTE</b> :  
+    </ul> <p><b>NOTE</b> :
      <ul> 
       <li> <p>Vous pouvez également gérer les entreprises associées à un groupe pour lequel vous faites partie de l’équipe d’administration.</p> </li> 
       <li> <p>Pour ajouter et supprimer des utilisateurs du système [!DNL Workfront], vous devez disposer de l’un des éléments suivants :</p> 
@@ -70,7 +70,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Sélectionnez une ou plusieurs entreprises à désactiver ou réactiver.
 1. Cliquez sur **[!UICONTROL Modifier]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
-1. &#x200B;<!--In the Production environment, -->Pour une seule entreprise, désactivez l’option **[!UICONTROL Est active]** pour la désactiver ou activez l’option pour l’activer.
+1. Pour une seule société, désactivez l’option **[!UICONTROL Est actif]** pour la désactiver, ou activez l’option pour l’activer. <!--ADD TO THE FRONT OF THIS SENTENCE In the Production environment, -->
 
    Ou
 
