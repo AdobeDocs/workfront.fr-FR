@@ -85,7 +85,7 @@ Selon la configuration de la liste améliorée, il peut y avoir deux façons d�
 
 Pour modifier un élément de la liste, double-cliquez dans la cellule à modifier et tapez les informations. Certaines cellules peuvent être en lecture seule.
 
-![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
+![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
 
 ## Utiliser la barre d’actions et le menu Plus dans une liste améliorée
 
@@ -99,7 +99,7 @@ Cliquez sur un bouton de la barre d’actions pour effectuer cette action, par e
 
 Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-![ Exemple de barre d’actions ](assets/glist-action-bar-exchange-rates.png)
+![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-exchange-rates.png)
 
 Le menu **Plus** est le menu à trois points qui s’affiche en regard d’un champ principal d’un élément de liste lorsque vous le survolez avec votre souris. (Le champ principal est la colonne située le plus à gauche du tableau.)
 
