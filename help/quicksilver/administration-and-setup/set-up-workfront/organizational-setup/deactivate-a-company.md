@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
 # Désactiver ou réactiver une entreprise
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Vous pouvez désactiver une entreprise que vous n’utilisez plus tout en conservant toutes les données historiques qui lui sont associées. Si vous désactivez une entreprise déjà utilisée quelque part dans le système, elle continue à fonctionner comme avant. Elle n’est ni supprimée ni bloquée.
 
@@ -67,8 +69,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Entreprises]** ![Icône Entreprises](assets/companies-icon-left-panel.png).
 
 1. Sélectionnez une ou plusieurs entreprises à désactiver ou réactiver.
-1. Cliquez sur **[!UICONTROL Modifier]**.
-1. Pour une seule entreprise, désactivez l’option **[!UICONTROL Est active]** pour la désactiver ou activez l’option pour l’activer.
+1. Cliquez sur **[!UICONTROL Modifier]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
+1. <!--In the Production environment, -->Pour une seule entreprise, désactivez l’option **[!UICONTROL Est active]** pour la désactiver ou activez l’option pour l’activer.
 
    Ou
 

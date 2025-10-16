@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 87%
+source-wordcount: '1399'
+ht-degree: 74%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 87%
 <!--Audited: 01/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Une entreprise est une entité organisationnelle dans [!DNL Adobe Workfront] qui peut représenter votre organisation, un service au sein de l’organisation ou une clientèle avec laquelle vous travaillez. Vous pouvez ajouter des entreprises à [!DNL Workfront] et les utiliser à des fins de planification financière, de création de rapports, pour définir des autorisations liées à des objets et pour préserver la confidentialité des informations.
 
@@ -101,35 +103,49 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
 
    Si vous modifiez une société existante, sélectionnez-la, puis cliquez sur l’icône **[!UICONTROL Modifier]** ![Modifier](assets/edit-icon.png) en haut de la liste des sociétés.
 
-1. Mettez à jour les informations suivantes :
+1. Mettez à jour les informations suivantes dans la section **Informations de base** :
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Section [!UICONTROL Basic Info]</td> 
-      <td> 
-       <ul> 
-        <li> <p><b>[!UICONTROL Company Name]</b> : saisissez le nom de l’entreprise.</p> </li> 
-        <li> <p><b>[!UICONTROL Is Active]</b> : lorsque cette option est activée, les utilisateurs et utilisatrices peuvent rechercher l’entreprise et la joindre aux projets qu’ils créent et modifient. Une société inactive ne peut pas être jointe aux projets. Cette option est activée par défaut.</p> </li> 
-        <li> <p><b>[!UICONTROL This is the Primary Company]</b> : affecte l’entreprise en tant qu’entreprise principale de votre organisation. L’entreprise principale représente généralement votre compte [!DNL Workfront] où la plupart de vos utilisateurs et utilisatrices travaille.</p> <p>Vous pouvez désigner une entreprise, ou aucune, comme entreprise principale, mais vous ne pouvez pas en désigner plusieurs à la fois. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> <p><b>NOTE</b> : modifier les niveaux d’accès vous permet d’empêcher les utilisateurs et utilisatrices d’afficher d’autres personnes, que ce soit uniquement dans leur entreprise principale ou dans celle-ci ainsi que dans leur entreprise associée. Pour plus d’informations sur le fonctionnement de l’entreprise principale avec les niveaux d’accès des utilisateurs et utilisatrices, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </li> 
-        <li> <p><b>[!UICONTROL Group]</b> : si un groupe traite avec l’entreprise, vous pouvez ajouter le nom du groupe ici. Cette fonction peut s’avérer utile pour les administrateurs et administratrices de groupes qui doivent créer des rapports et gérer toutes les entreprises avec lesquelles leurs groupes traitent.</p> <p><b>IMPORTANT</b> : si vous n’associez pas le groupe qui travaillera avec cette entreprise, les administrateurs et administratrices de groupes ne peuvent pas accéder à l’entreprise à moins que leurs niveaux d’accès comportent un accès administratif aux entreprises. Pour plus d’informations sur la manière dont cet accès est accordé, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Accorder un accès administratif à certaines zones aux utilisateurs et utilisatrices</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Commencez à saisir le nom du groupe, puis appuyez sur <strong>[!UICONTROL Enter]</strong> lorsqu’il apparaît.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Lorsque vous affectez un groupe à une entreprise, les administrateurs et administratrices de groupes obtiennent l’accès [!UICONTROL Manage] à l’entreprise. Pour plus d’informations, voir <a href="#group-administrators-and-companies" class="MCXref xref">Administrateurs et administratrices de groupes et entreprises</a> dans cet article.</p> </li> 
-        <li> <p><b>[!UICONTROL Company Members]</b> : ajoutez des utilisateurs et utilisatrices existants à l’entreprise. Ce faisant, vous associez ces utilisateurs et utilisatrices à cette entreprise.</p> <p>Le nombre d’utilisateurs et d’utilisatrices que vous pouvez associer à une entreprise est illimité, mais une personne ne peut pas être associée à plusieurs sociétés.</p> </li> 
-       </ul> </td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">Section [!UICONTROL Custom Forms]</td> 
-      <td> <p>Si des champs que vous souhaitez ajouter à votre entreprise ne sont pas disponibles dans [!DNL Workfront], vous pouvez créer un formulaire personnalisé et l’associer à votre entreprise. </p> <p>Vous pouvez joindre ce formulaire à votre entreprise en le sélectionnant dans le menu déroulant. Seuls les formulaires personnalisés actifs sont répertoriés dans le menu.</p> <p><strong>Remarque :</strong> les fonctions avancées de formulaires personnalisés telles que les champs de recherche externe et les champs natifs de Workfront ne sont disponibles que lorsque vous ouvrez l’enregistrement de la société sur la page de détails, et non dans la boîte de dialogue Modifier la société . (Dans la liste des entreprises, cliquez sur le nom de l’entreprise pour ouvrir les détails.)</p> <p> Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Créer un formulaire personnalisé</a>. </p> </td>
-     </tr> 
-    </tbody> 
-   </table>
+   * **Nom de l’entreprise**<!--<span class="preview">or **Name**</span>--> : saisissez le nom de l’entreprise.
+   * **Est active** : lorsque cette option est activée, il est possible de trouver l’entreprise et de la joindre aux projets créés et modifiés. Une société inactive ne peut pas être jointe aux projets. Cette option est activée par défaut.
+   * **Ceci est l’entreprise principale**<!--<span class="preview">or **Is Primary**</span>--> : désigne l’entreprise comme entreprise principale de votre organisation. L’entreprise principale représente généralement votre compte Workfront où travaillent la plupart de vos utilisateurs et utilisatrices.
 
-1. (Le cas échéant) Si vous créez une entreprise, cliquez sur **[!UICONTROL Créer une entreprise]**.
+     Vous pouvez désigner une entreprise, ou aucune, comme entreprise principale, mais vous ne pouvez pas en désigner plusieurs à la fois. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+     >[!NOTE]
+     >
+     >En modifiant leurs niveaux d’accès, vous pouvez empêcher les utilisateurs de voir d’autres utilisateurs : uniquement dans leur entreprise principale, ou dans leur entreprise associée et l’entreprise principale. Pour plus d’informations sur le fonctionnement de l’entreprise principale avec les niveaux d’accès des utilisateurs, voir [Créer et modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+   * **Groupe** : s’il existe un groupe qui traite avec l’entreprise, vous pouvez y ajouter le nom du groupe. Cette fonction peut s’avérer utile pour les administrateurs et administratrices de groupes qui doivent créer des rapports et gérer toutes les entreprises avec lesquelles leurs groupes traitent.
+
+     Si vous n’associez pas le groupe qui travaillera avec cette entreprise, les administrateurs du groupe ne pourront pas accéder à l’entreprise à moins d’avoir un accès administratif aux entreprises dans leur niveau d’accès. Pour plus d’informations sur la manière dont cet accès est accordé, voir [Accorder un accès administratif à certaines zones aux utilisateurs et utilisatrices](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+     Commencez à saisir le nom du groupe, puis sélectionnez-le lorsqu’il apparaît.
+
+     Lorsque vous affectez un groupe à une entreprise, les administrateurs du groupe obtiennent un accès de niveau Gérer à l’entreprise. Pour plus d’informations, voir [Administrateurs et administratrices de groupes et entreprises](#group-administrators-and-companies) dans cet article.
+
+   * **Membres de l’entreprise** : ajoutez des personnes à l’entreprise. Ce faisant, vous associez ces utilisateurs et utilisatrices à cette entreprise.
+
+     Commencez à saisir le nom d’un utilisateur, puis sélectionnez-le lorsqu’il apparaît.
+
+     Le nombre d’utilisateurs et d’utilisatrices que vous pouvez associer à une entreprise est illimité, mais une personne ne peut pas être associée à plusieurs sociétés.
+
+1. Ajoutez ou mettez à jour des formulaires personnalisés dans la section **Custom Forms**.
+
+   Si vous souhaitez ajouter des champs à votre société qui ne sont pas disponibles dans Workfront, vous pouvez créer un formulaire personnalisé et l’associer à votre société.
+
+   Vous pouvez joindre ce formulaire à votre entreprise en le sélectionnant dans le menu déroulant. Seuls les formulaires personnalisés actifs sont répertoriés dans le menu.
+
+   >[!NOTE]
+   >
+   >Les fonctionnalités avancées des formulaires personnalisés, telles que les champs de recherche externe et les champs natifs de Workfront, ne sont disponibles que lorsque vous ouvrez l’enregistrement de la société sur la page de détails, et non dans la boîte de dialogue Modifier la société . (Dans la liste des entreprises, cliquez sur le nom de l’entreprise pour ouvrir les détails.)
+
+   Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+1. (Le cas échéant) Si vous créez une entreprise, cliquez sur **[!UICONTROL Créer une entreprise]**<!--<span class="preview">or **Save**</span>-->.
 
    Ou
 
-   Si vous modifiez une société existante, cliquez sur **[!UICONTROL Enregistrer les modifications]**.
+   Si vous modifiez une société existante, cliquez sur **[!UICONTROL Enregistrer les modifications]**<!--<span class="preview">or **Save**</span>-->.
 
 ## Gérer les appartenances à une entreprise
 
@@ -158,3 +174,27 @@ Grâce à l’accès à la page [!UICONTROL Entreprises], un administrateur ou u
 Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices obtiennent un accès administratif aux entreprises pour leur niveau d’accès, voir [Accorder un accès administratif à certaines zones aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 Pour plus d’informations sur la gestion d’une entreprise dans la zone [!UICONTROL Configuration], consultez dans cet article la section [Créer ou modifier une entreprise dans  [!DNL Workfront]](#create-or-edit-a-company-in-workfront).
+
+<!-- OLD HTML TABLE
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Basic Info] section</td> 
+      <td> 
+       <ul> 
+        <li> <p><b>[!UICONTROL Company Name]</b>: Type a name for the company.</p> </li> 
+        <li> <p><b>[!UICONTROL Is Active]</b>: When this option is enabled, users can find the company and attach it to projects that they create and edit. An inactive company cannot be attached to projects. This option is enabled by default.</p> </li> 
+        <li> <p><b>[!UICONTROL This is the Primary Company]</b>: Assigns the company as your organization's primary company. The primary company typically represents your [!DNL Workfront] account where most of your users work.</p> <p>You can have one company or no company designated as a primary company, but you cannot have multiple companies designated as primary companies. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <p><b>NOTE</b>: By modifying their access levels, you can restrict users to see other users: only in their primary company, or in their associated company and the primary company. For information about how the primary company works with users' access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </li> 
+        <li> <p><b>[!UICONTROL Group]</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for group administrators who need to report on and manage all the companies that their groups do business with.</p> <p><b>IMPORTANT</b>: If you don't associate the group that will be working with this company, administrators for the group can't access the company unless they have administrative access to companies in their access level. For information about how this access is granted, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Start typing the name of the group, then press <strong>[!UICONTROL Enter]</strong> when it appears.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">When you assign a group to a company, the group administrators for the group gain [!UICONTROL Manage] access to the company. For more information, see <a href="#group-administrators-and-companies" class="MCXref xref">Group administrators and companies</a> in this article.</p> </li> 
+        <li> <p><b>[!UICONTROL Company Members]</b>: Add existing users to the company. By doing this, you are associating these users with this company.</p> <p>There is no limit to how many users you associate with one company, but a user cannot be associated with more than one company.</p> </li> 
+       </ul> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">[!UICONTROL Custom Forms] section</td> 
+      <td> <p>If there are fields that you want to add to your company that are not available in [!DNL Workfront], you can build a custom form and associate it with your company. </p> <p>You can attach this form to your company by selecting it from the drop-down menu. Only active custom forms are listed in the menu.</p> <p><strong>Note:</strong> Advanced custom form features such as External lookup fields and Workfront native fields are only available when you open the company record on the details page, not on the Edit Company dialog. (From the list of companies, click the company name to open the details.)</p> <p> For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>. </p> </td>
+     </tr> 
+    </tbody> 
+   </table>
+   -->
