@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: fdfb1ecb61fd85fa927fc7c3443c2a7f23409873
+source-git-commit: ac079ad7cb4b696cb54ff5ad8ff34940d0d62913
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
@@ -27,8 +27,8 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >[!NOTE]
 >
 >Aperçu : 16 octobre 2025
->&#x200B;>Version rapide de production : 13 novembre 2025
->&#x200B;>Production pour tous : 15 janvier 2026
+>>Version rapide de production : 13 novembre 2025
+>>Production pour tous : 15 janvier 2026
 
 Lors de l’implémentation de Workfront Planning pour une organisation multi-équipes avec des workflows communs, vous devrez peut-être définir une structure et des métadonnées cohérentes pour les types d’enregistrements clés (tels que les campagnes ou les éléments livrables) qui peuvent être ajoutés aux espaces de travail de chaque équipe pour capturer et gérer leur travail.
 
@@ -51,8 +51,8 @@ Pour plus d’informations, consultez les articles suivants :
 >[!NOTE]
 >
 >Aperçu : 16 octobre 2025
->&#x200B;>Version rapide de production : 13 novembre 2025
->&#x200B;>Production pour tous : 15 janvier 2026
+>>Version rapide de production : 13 novembre 2025
+>>Production pour tous : 15 janvier 2026
 
 Nous avons introduit une limite de 30 champs de connexion pour chaque type d’enregistrement.
 
@@ -65,8 +65,8 @@ Pour plus d’informations, voir [Présentation des types d’enregistrements co
 >[!NOTE]
 >
 >Aperçu : 16 octobre 2025
->&#x200B;>Version rapide de production : 13 novembre 2025
->&#x200B;>Production pour tous : 15 janvier 2026
+>>Version rapide de production : 13 novembre 2025
+>>Production pour tous : 15 janvier 2026
 
 Lors de l’ajout de choix de champs à un champ à sélection unique ou multiple, Workfront attribue désormais des valeurs conviviales uniques à chaque choix. Avant cette amélioration, Workfront générait un identifiant alphanumérique difficile à comprendre et à utiliser dans les appels d’API et d’autres intégrations.
 
