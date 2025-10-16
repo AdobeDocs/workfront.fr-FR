@@ -4,13 +4,13 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Impossible de consigner des heures pour des dates ultérieures
 description: Vous ne pouvez pas enregistrer des heures pour des dates futures sur des projets, des tâches ou des problèmes car les champs sont désactivés.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '135'
+ht-degree: 91%
 
 ---
 
@@ -30,11 +30,11 @@ L’équipe d’aministration système peut mettre à jour un paramètre afin de
 
 En tant qu’administrateur ou administratrice système, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Développez **Feuilles de temps et heures**, puis cliquez sur **Préférences**.
 
-1. Dans la section **Préférences générales**, sélectionnez **Consigner des heures pour des dates futures**.
+1. Dans la section **Préférences générales**, sélectionnez **Enregistrer les heures pour les dates futures**.
 
 1. Cliquer sur **Enregistrer**.
 

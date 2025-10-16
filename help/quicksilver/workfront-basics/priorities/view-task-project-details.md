@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 21%
+source-wordcount: '407'
+ht-degree: 17%
 
 ---
 
@@ -28,8 +28,6 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,14 +35,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
-   <p>Current : Reviewer ou supérieur</p>
-   <p>Nouveau : Light ou supérieur</p> 
+   <p>Réviseur ou supérieur</p>
+   <p>Léger ou supérieur</p> 
    </td> 
   </tr> 
   <tr> 
@@ -58,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Ajouter un fichier
    * Accéder directement au projet
 
-   ![détails du projet &#x200B;](assets/project-details-new.png)
+   ![détails du projet ](assets/project-details-new.png)
 
 ### Afficher les détails de la tâche
 
@@ -93,7 +91,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    * Ajout de liens rapides
 
 
-   ![&#x200B; détails de la tâche &#x200B;](assets/task-details-new.png)
+   ![ détails de la tâche ](assets/task-details-new.png)
 
 ### Afficher les détails de l&#39;événement
 

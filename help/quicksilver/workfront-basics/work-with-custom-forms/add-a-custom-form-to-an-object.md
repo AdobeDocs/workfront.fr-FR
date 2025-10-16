@@ -7,10 +7,10 @@ description: Vous pouvez ajouter un formulaire personnalisé existant à l’un 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 99%
+source-wordcount: '730'
+ht-degree: 95%
 
 ---
 
@@ -41,42 +41,68 @@ Vous pouvez ajouter un formulaire personnalisé uniquement aux types d’objets 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
+  </tr> 
+<tr> 
+  <td role="rowheader">Licence Adobe Workfront</td> 
+  <td> <p>Contributeur ou version ultérieure</p>
+ <p>Requête ou supérieure</p> 
+</td> 
+ </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux objets pour lesquels vous gérez des formulaires personnalisés</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Autorisations de gestion pour l’objet pour lequel vous souhaitez joindre un formulaire personnalisé.</p> <p>Autorisations d’affichage ou supérieures pour le formulaire personnalisé, avec autorisation d’<b>Joindre aux données personnalisées</b> objets (projets, tâches et événements).</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Licence Adobe Workfront</td> 
-  <td> <p>Nouvelle : contributeur ou supérieure </p>
- <p>ou</p> 
-<p>Actuelle : demande ou niveau supérieur </p> 
+  <td role="rowheader">Adobe Workfront license</td> 
+  <td> <p>New: Contributor or higher </p>
+ <p>or</p> 
+<p>Current: Request or higher </p> 
 </td> 
  </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux objets pour lesquels vous gérez des formulaires personnalisés</p>
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion pour l’objet pour lequel vous souhaitez joindre un formulaire personnalisé.</p> <p>Autorisations Afficher ou supérieures sur le formulaire personnalisé, avec l’autorisation de <b>Joindre aux données personnalisées</b> des objets (projets, tâches et problèmes). Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Partager un formulaire personnalisé</a>.</p> <p>Important : si vous ne disposez pas d’une licence Plan avec accès administratif aux formulaires personnalisés, vous devez disposer d’autorisations spécifiques pour au moins afficher le formulaire personnalisé, comme décrit dans la section <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Partager un formulaire personnalisé</a>. Ces autorisations doivent vous être accordées même si le formulaire est visible à l’échelle du système. </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Conditions préalables
 
-Votre administrateur ou administratrice Workfront ou une personne disposant d’une licence Plan et d’un accès administratif à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement avant que vous ne puissiez les ajouter aux objets. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Votre administrateur ou administratrice Workfront ou une personne disposant d’une licence Plan et d’un accès administratif à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement avant que vous ne puissiez les ajouter aux objets. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Ajouter un formulaire personnalisé à un objet
 

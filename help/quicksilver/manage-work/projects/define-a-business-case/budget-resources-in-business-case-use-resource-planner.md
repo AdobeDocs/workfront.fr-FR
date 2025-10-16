@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Budgétiser les ressources dans l’analyse de rentabilité à l’aide du planificateur de ressources
 description: Dans le cadre de la planification des ressources, vous pouvez utiliser le planificateur de ressources au niveau du projet pour budgétiser les fonctions nécessaires à la réalisation des travaux d’un projet lors de l’élaboration de l’analyse de rentabilité.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 81%
+source-wordcount: '1206'
+ht-degree: 83%
 
 ---
 
@@ -35,19 +35,17 @@ Vous pouvez également budgétiser les ressources dans l’analyse de rentabilit
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td> <p>Current : Prime ou version ultérieure</p>
-   <p>Hérité : Pro ou supérieur</p> 
+   <td role="rowheader"><p>Formule Adobe Workfront</p></td> 
+   <td> <p>Prime ou version ultérieure</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td> <p>Courant : Léger ou supérieur</p>
-   <p>Hérité : révision ou version supérieure</p>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td> <p>Léger ou supérieur</p>
+   <p>Révision ou supérieur</p>
 
 <p><b>IMPORTANT :</b></p> 
-   <p>Actuel : Vous devez disposer d'une licence Standard pour modifier les informations de budget des ressources. </p> 
-   <p>Hérité : Vous devez disposer d'une licence de plan pour modifier les informations de budget des ressources. </p>
+   <p>Vous devez disposer d'une licence Standard ou Plan pour modifier les informations de budget des ressources. </p> 
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Vous pouvez également budgétiser les ressources dans l’analyse de rentabilit
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -166,7 +164,7 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
    >
    >Vous pouvez exporter des données pour un maximum de 12 périodes à la fois.
 
-1. (Facultatif) Cliquez sur l’icône **Plein écran** ![&#x200B; full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png) pour afficher le planificateur de ressources en mode plein écran.
+1. (Facultatif) Cliquez sur l’icône **Plein écran** ![ full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png) pour afficher le planificateur de ressources en mode plein écran.
 
 1. Mettez à jour le champ **BDG** (heures budgétées) avec des valeurs d’heures, d’équivalent temps complet ou de coûts pour les personnes, les rôles ou le projet en effectuant l’une des opérations suivantes :
 

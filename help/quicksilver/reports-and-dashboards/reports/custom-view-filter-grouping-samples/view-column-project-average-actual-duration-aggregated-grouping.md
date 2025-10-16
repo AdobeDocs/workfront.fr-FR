@@ -2,23 +2,23 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Affichage et regroupement : afficher la durée réelle du projet agrégée par la moyenne d’un groupement"
+title: 'Afficher et regrouper : affiche la durée réelle du projet agrégée par la moyenne dans un regroupement.'
 description: Vous pouvez ajouter la colonne suivante dans un rapport sur les projets afin d’afficher la durée effective agrégée sous la forme d’une moyenne dans un regroupement.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 41%
+source-wordcount: '264'
+ht-degree: 36%
 
 ---
 
-# Afficher et regrouper : afficher la durée réelle du projet agrégée par la moyenne dans un groupement
+# Afficher et regrouper : affiche la durée réelle du projet agrégée par la moyenne dans un regroupement.
 
 <!--Audited: 11/2024-->
 
-Vous pouvez ajouter la colonne suivante dans une vue de projet afin d’afficher la Durée réelle agrégée sous la forme d’une moyenne dans un regroupement.
+Vous pouvez ajouter la colonne suivante dans une vue de projet pour afficher la durée réelle agrégée en moyenne dans un regroupement.
 
 ![project_with_aggregate_actual_duration_in_grouping_view.png](assets/project-with-aggregate-actual-duration-in-grouping-view-350x65.png)
 
@@ -26,26 +26,19 @@ Vous pouvez ajouter la colonne suivante dans une vue de projet afin d’afficher
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
-   <li><p>Standard pour modifier un rapport</p></li> </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Demande de modification d’un filtre </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
+   <p>Contributeur ou demande de modification d’un filtre </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -58,21 +51,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Afficher la durée réelle du projet agrégée par la moyenne dans un groupement
+## Afficher la durée réelle du projet agrégée par la moyenne dans un regroupement
 
 Pour ajouter cette colonne à une vue de projet, procédez comme suit :
 
 1. Accédez à une liste de projets.
-1. (Obligatoire) Pour afficher la valeur moyenne agrégée de la durée réelle du projet, un regroupement doit être ajouté à la liste de vos projets.\
-   Pour plus d’informations sur la création de groupes, consultez l’article [Présentation des groupes dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-1. Développez le menu déroulant **Affichage**, puis sélectionnez **Personnaliser la vue**.
+1. (Obligatoire) Pour afficher la valeur moyenne agrégée de la durée réelle du projet, vous devez ajouter un regroupement à votre liste de projets.\
+   Pour plus d’informations sur la création de regroupements, consultez l’article [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+1. Développez le menu déroulant **Affichage** et sélectionnez **Personnaliser l’affichage**.
 1. Cliquez sur **Ajouter une colonne**.
-1. Cliquez sur **Passer en mode Texte**, puis sur **Modifier le mode Texte**.
-1. Supprimez tout le texte de la zone **Modifier le mode de texte** et remplacez-le par le code suivant :
+1. Cliquez sur **Basculer en mode texte**, puis sur **Modifier le mode texte**.
+1. Supprimez tout le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
    ```
    aggregator.displayformat=compound 

@@ -5,10 +5,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 96%
+source-wordcount: '604'
+ht-degree: 92%
 
 ---
 
@@ -20,56 +20,35 @@ Vous pouvez afficher et modifier la page Détails du groupe d’un groupe ou d�
 * Noms du chef ou de la cheffe d’entreprise et des administrateurs et administratrices de groupe.
 * Option vous permettant de rendre le groupe et ses sous-groupes publics ou privés.
 
-  <!--
-  <li>An option that allows you to deactivate or reactivate a group and its subgroups.
-  DRAFTED IN FLARE:
-  Make this change when Callisto adds the
-  <b>Is active</b>
-   option to the Details pag
-  </li>
-  -->
-
 Pour plus d’informations sur les autres méthodes de gestion d’un groupe, voir [Créer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Pour plus d’informations sur la désactivation ou la réactivation d’un groupe, voir [Désactiver ou réactiver un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
-<!--
-DRAFTED IN FLARE:
-Delete this paragraph when Callisto adds the
-<b>Is active</b>
- option to the Details pag
--->
-
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>Ou</p>
-       <p>Actuel : formule</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,7 +78,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader">Accessibilité du groupe</td> 
-      <td> <p>(Disponible uniquement si vous consultez les détails d’un groupe et non d’un sous-groupe.) Activez ou désactivez l’option <strong>Rendre ce groupe et ses sous-groupes privés</strong>.</p> <p>Pour un groupe public, toute personne (faisant partie ou non du groupe) disposant d’un accès d’édition peut ajouter le groupe au profil d’autres utilisateurs et utilisatrices. Cette personne ne peut pas effectuer cette action pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que pour le groupe parent situé au niveau le plus haut d’une hiérarchie de groupes à plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de ce paramètre.</p> </td> 
+      <td> <p>(Disponible uniquement si vous affichez les détails d’un groupe et non d’un sous-groupe.) Activez ou désactivez l’option <strong>Rendre ce groupe et ces sous-groupes privés</strong>.</p> <p>Pour un groupe public, toute personne (faisant partie ou non du groupe) disposant d’un accès d’édition peut ajouter le groupe au profil d’autres utilisateurs et utilisatrices. Cette personne ne peut pas effectuer cette action pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que pour le groupe parent situé au niveau le plus haut d’une hiérarchie de groupes à plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de ce paramètre.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Parties prenantes du groupe</td> 

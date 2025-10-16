@@ -2,15 +2,15 @@
 content-type: overview
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Vue d’ensemble du planificateur de scénarios
+title: Présentation Du Planificateur De Scénarios
 description: Le planificateur de scénarios nécessite une licence distincte en plus de la licence Adobe Workfront.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 90%
+source-wordcount: '514'
+ht-degree: 99%
 
 ---
 
@@ -19,13 +19,6 @@ ht-degree: 90%
 <!-- Audited: 1/2024 -->
 
 [!DNL Workfront Scenario Planner] sert à accélérer l’exécution des plans au niveau de l’organisation et à vous aider à prendre des décisions cruciales qui favorisent la diffusion de résultats prévisibles et escomptés pour votre entreprise.
-
-Vous devez avoir le plan [!DNL Workfront] suivant pour accéder à [!DNL Workfront Scenario Planner] :
-
-* Pour le nouveau plan Workfront : un plan [!UICONTROL Ultimate].
-* Pour le plan actuel [!DNL Workfront] : vous devez disposer d&#39;un plan d&#39;entreprise ou d&#39;un plan supérieur, en plus de l&#39;achat d&#39;une licence [!DNL Scenario Planner].
-
-Pour plus d’informations sur l’accès nécessaire à l’utilisation de [!DNL Workfront Scenario Planner], voir [Accès requis pour utiliser le [!DNL Scenario Planner]](access-needed-to-use-sp.md).
 
 ## Vue d’ensemble du [!DNL Scenario Planner]
 

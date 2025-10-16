@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Créer des objectifs d’analyse de rentabilité
 description: Dans le cadre de la création d’un business case, vous pouvez créer une série d’objectifs pour définir les objectifs d’un projet. Les objectifs du business case sont utilisés pour communiquer à la personne gestionnaire du portfolio ou à la personne sponsor du projet l’objectif de la réalisation d’un projet.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '431'
 ht-degree: 53%
 
 ---
@@ -50,15 +50,14 @@ Tenez compte des éléments suivants lorsque vous définissez les objectifs de b
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td> <p>Current : Prime ou version ultérieure</p>
-   <p>Hérité : Pro ou supérieur</p>  </td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td> <p>Prime ou version ultérieure</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td> 
-   <p>Actuel : Standard</p> 
-   <p>Hérité : plan </p> 
+   <p>Standard</p> 
+   <p>Plan </p> 
    </td> 
   </tr> 
   <tr> 
@@ -72,7 +71,7 @@ Tenez compte des éléments suivants lorsque vous définissez les objectifs de b
  </tbody> 
 </table>
 
-* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

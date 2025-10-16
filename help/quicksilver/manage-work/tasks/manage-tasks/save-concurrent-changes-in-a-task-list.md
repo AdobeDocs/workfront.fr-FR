@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Vue d’ensemble de l’enregistrement des modifications simultanées dans une liste de tâches
+title: Présentation de l'enregistrement des modifications simultanées dans une liste de tâches
 description: Lorsque vous modifiez des tâches dans une liste, vous pouvez utiliser des paramètres d’enregistrement distincts pour indiquer si vous souhaitez que vos modifications soient enregistrées automatiquement ou manuellement lorsque vous modifiez les tâches d’une liste.
 author: Alina
 feature: Work Management
 exl-id: dff52425-4711-40a8-8f40-205d75c506ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

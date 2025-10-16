@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
+source-git-commit: e50afb39f151ae8663ca2903454b475b21aa6f83
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 61%
+source-wordcount: '198'
+ht-degree: 55%
 
 ---
 
@@ -35,32 +35,27 @@ Vous pouvez modifier l’ordre dans lequel les conditions s’affichent dans les
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>Ou</p>
-       <p>Actuel : formule</p></td>
-  </tr> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configurations des niveaux d’accès</td> 
+   <td>Administrateur ou administratrice système</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,4 +71,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Le nouvel ordre est enregistré automatiquement.
 
-Pour plus d’informations sur la personnalisation des conditions, voir [&#x200B; Conditions personnalisées &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Pour plus d’informations sur la personnalisation des conditions, voir [ Conditions personnalisées ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

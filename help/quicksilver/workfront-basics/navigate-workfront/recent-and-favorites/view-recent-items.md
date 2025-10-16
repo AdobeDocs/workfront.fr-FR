@@ -6,20 +6,20 @@ description: Le menu [!UICONTROL Récents] se trouve sur la barre de navigation 
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 82%
+source-wordcount: '216'
+ht-degree: 80%
 
 ---
 
 # Afficher les éléments récents
 
-Le menu [!UICONTROL Récents] se trouve sur la barre de navigation supérieure. Ce menu affiche les projets, rapports, tableaux de bord, tâches, problèmes récemment consultés, etc. Seuls les objets consultés au cours des deux dernières semaines sont inclus, jusqu’à vingt par type d’objet, et sont répertoriés dans l’ordre du plus récent affichage.
+Le menu [!UICONTROL Récents] se trouve sur la barre de navigation supérieure. Ce menu affiche les projets, rapports, tableaux de bord, tâches, événements récemment consultés, etc. Seuls les objets consultés au cours des deux dernières semaines sont inclus, jusqu’à vingt par type d’objet, et sont répertoriés dans l’ordre de consultation le plus récent.
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,17 +28,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+   <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le type de plan ou de licence dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Afficher les éléments récents
 

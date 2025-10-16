@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtre : créer plusieurs règles de filtrage qui référencent le même champ (’instructions AND’)"
+title: 'Filtre : Créez Plusieurs Règles De Filtrage Qui Font Référence Au Même Champ (Instructions « AND »)'
 description: Dans l’interface en mode standard, lorsque vous essayez de créer plusieurs filtres qui font référence au même champ (en utilisant le qualificateur AND), l’un des filtres est supprimé lorsque vous enregistrez le rapport et que vous quittez Report Builder.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 89%
+source-wordcount: '381'
+ht-degree: 87%
 
 ---
 
@@ -29,28 +29,21 @@ Toutefois, vous pouvez créer ce filtre en mode texte.
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
-   <li><p>Standard pour modifier un rapport</p></li> </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Demande de modification d’un filtre </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
+   <p>Contributeur ou demande de modification d’un filtre </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -63,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,8 +64,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 1. Accédez à une liste de tâches.
 1. Dans le menu déroulant **Filtre**, sélectionnez **Nouveau filtre**.
-1. Cliquez sur **Text Mode**.
-1. Dans la zone qui s&#39;affiche, ajoutez le code suivant :
+1. Cliquez sur **Mode texte**.
+1. Dans la boîte qui s’affiche, ajoutez le code suivant :
 
    ```
    name=green
@@ -98,4 +91,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >   
    >Ces instructions respectent la casse.
 
-1. Cliquez sur **Apply**, puis sur **Save as new**.
+1. Cliquez sur **Appliquer**, puis **Enregistrer en tant que nouveau**.

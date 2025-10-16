@@ -6,10 +6,10 @@ description: Vous pouvez connecter votre travail à votre contenu dans  [!DNL Ex
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 94%
+source-wordcount: '1702'
+ht-degree: 93%
 
 ---
 
@@ -39,34 +39,35 @@ Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manag
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] plan
+   <td>Package Adobe Workfront
    </td>
-   <td>Tous
+   <td> <p>Prime ou Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Licences Adobe Workfront
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+  </tr>
+    <tr>
+   <td>Licences Adobe Experience Manager
+   </td>
+   <td>Standard
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] licence
-   </td>
-   <td><p>Actuelle : [!UICONTROL Plan]</p>
-   <p>Nouvelle : [!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] licence
-   </td>
-   <td>[!UICONTROL Standard]
-   </td>
-  </tr>
-  <tr>
-   <td>Produit
+   <td>Produits supplémentaires
    </td>
    <td>Vous devez avoir [!DNL Experience Manager Assets as a Cloud Service], et vous devez faire l’objet d’un ajout au produit en tant qu’utilisateur ou utilisatrice.
    </td>
   </tr>
-  <tr>
+   <tr>
    <td>Configurations des niveaux d’accès
    </td>
    <td>Vous devez être administrateur ou administratrice [!DNL Workfront].
@@ -121,7 +122,7 @@ Avant de commencer à mapper les champs de métadonnées, vous devez configurer 
 
 Pour configurer les champs de métadonnées, procédez comme suit :
 
-1. Configurez un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe  [!DNL Workfront]  et  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configurez un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe  [!DNL Workfront]  et  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configurez les champs de formulaire personnalisés dans Workfront. [!DNL Workfront] comporte de nombreux champs personnalisés intégrés que vous pouvez utiliser. Cependant, vous pouvez également créer vos propres champs personnalisés, comme expliqué dans la section [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -151,7 +152,7 @@ Vous pouvez mapper n’importe quel champ pris en charge par Workfront à une ba
 
 Une fois les balises créées dans Experience Manager Assets, elles s’affichent dans la liste déroulante Balises de la section Métadonnées. Pour lier un champ à une balise, sélectionnez `xcm:keywords` dans la liste déroulante du champ Experience Manager Assets de la zone de mappage des métadonnées.
 
-Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/fr/docs/experience-manager-64/administering/contentmanagement/tags).
+Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Champs de schéma de métadonnées personnalisés Experience Manager Assets**
 
@@ -177,7 +178,7 @@ Vous pouvez mapper des champs Workfront intégrés et personnalisés à Experien
 > Pour vérifier si les valeurs de champ correspondent exactement, accédez à :
 >
 > * Configuration > Formulaires personnalisés dans Workfront ou le champ dans l’objet.
-> * Ressources > Schémas de métadonnées dans Experience Manager Assets.
+> * Ressources > Schémas de métadonnées dans Experience Manager Assets
 
 +++
 
@@ -276,7 +277,7 @@ Vous pouvez créer jusqu’à 100 dossiers liés par arborescence de dossiers.
       >
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
-   1. Pour ajouter un dossier imbriqué à l’arborescence de dossiers, cliquez sur le menu à trois points en regard du dossier dans lequel vous souhaitez créer un dossier imbriqué, puis sélectionnez Ajouter un dossier. **&#x200B;**&#x200B;Renseignez les champs comme décrit à l’étape précédente.
+   1. Pour ajouter un dossier imbriqué à l’arborescence de dossiers, cliquez sur le menu à trois points en regard du dossier dans lequel vous souhaitez créer un dossier imbriqué, puis sélectionnez Ajouter un dossier. **** Renseignez les champs comme décrit à l’étape précédente.
    1. Pour lier un dossier à Workfront, sélectionnez-le et cliquez sur l’icône **Créer un dossier lié** ![Link folder](assets/link-folder.png).
    1. (Facultatif) Pour modifier un dossier, sélectionnez-le, puis cliquez sur l’icône **Modifier le dossier** ![Edit icon](assets/edit-icon.png).
    1. (Facultatif) Pour supprimer un dossier, sélectionnez-le et cliquez sur l’icône **Supprimer le dossier** ![Delete folder](assets/delete-folder.png).

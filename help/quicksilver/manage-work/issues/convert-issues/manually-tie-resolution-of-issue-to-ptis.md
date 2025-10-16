@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Lier manuellement la résolution d’un problème à d’autres problèmes, tâches ou projets
+title: Lier manuellement la résolution d'un problème à d'autres problèmes, tâches ou projets
 description: Vous pouvez lier manuellement la résolution d’un problème à la résolution d’un projet, d’une tâche ou d’un problème sans le convertir. Le problème devient l’un des objets résolvables du projet, de la tâche ou du problème que vous sélectionnez. Lorsque vous procédez de la sorte, une modification du statut du projet, de la tâche ou du problème déclenche une modification du statut du problème d’origine.
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 99%
+source-wordcount: '518'
+ht-degree: 94%
 
 ---
 
 # Lier manuellement la résolution d’un problème à d’autres problèmes, tâches ou projets
+
+<!--Audited: 08/2025-->
 
 Vous pouvez lier manuellement la résolution d’un problème à la résolution d’un projet, d’une tâche ou d’un problème sans le convertir. Le problème devient l’un des objets résolvables du projet, de la tâche ou du problème que vous sélectionnez. Lorsque vous procédez de la sorte, une modification du statut du projet, de la tâche ou du problème déclenche une modification du statut du problème d’origine.
 
@@ -25,32 +27,60 @@ Pour plus d’informations sur les objets de résolution et les objets résolvab
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes, tâches et projets</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l'accès aux événements, tâches, projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’accès au problème lié à un autre problème, une autre tâche ou un autre projet</p> <p>Autorisations Afficher ou autorisations supérieures au problème, à la tâche ou au projet que vous ajoutez au problème existant.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’accès au problème lié à un autre problème, une autre tâche ou un autre projet</p> <p>Autorisations Afficher ou autorisations supérieures au problème, à la tâche ou au projet que vous ajoutez au problème existant.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues,&nbsp;Tasks, Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue you link to another issue, task, or project</p> <p>View or higher permissions to the issue, task, or project you add to the existing issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Conditions préalables
 

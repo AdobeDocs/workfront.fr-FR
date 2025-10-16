@@ -6,10 +6,10 @@ description: Vous pouvez appliquer la vue Jalon à une liste de projets ou à un
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 57%
+source-wordcount: '1623'
+ht-degree: 56%
 
 ---
 
@@ -41,38 +41,30 @@ La vue Jalon est disponible lors de l’affichage d’une liste de projets ou d�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td role="rowheader">Licence Adobe Workfront</strong></td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Travail ou supérieur</p></li>
-         </ul>
+    <p>Standard</p>
+    <p>Travail ou supérieur</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Accès en affichage ou supérieur aux rapports, au tableau de bord et aux calendriers</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en affichage ou supérieur aux rapports, au tableau de bord et aux calendriers</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations d’affichage d’un rapport de projet pour appliquer la vue Jalon à un rapport</p> </td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+    <td> <p>Autorisations d’affichage d’un rapport de projet pour appliquer la vue Jalon à un rapport</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,7 +148,7 @@ Lors de l’affichage d’une liste de projets ou d’un rapport de projet dans 
         ![Icône Derrière](assets/gantt-behind.png)
 
       * En danger\
-        ![&#x200B; Icône En danger &#x200B;](assets/gantt-atrisk.png)
+        ![ Icône En danger ](assets/gantt-atrisk.png)
 
       * En retard\
         ![Icône de retard](assets/gantt-late.png)

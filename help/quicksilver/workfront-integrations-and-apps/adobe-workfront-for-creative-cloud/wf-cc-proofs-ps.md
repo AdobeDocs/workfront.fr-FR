@@ -6,10 +6,10 @@ description: Vous pouvez charger des paramètres prédéfinis de document photo 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 9cbf1706e6c535ff7f52627d2c6e13de65ec76d0
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 85%
+source-wordcount: '648'
+ht-degree: 83%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez charger certains types de paramètres prédéfinis de document Photo
 
 >[!IMPORTANT]
 >
->Le fichier doit être un paramètre prédéfini de document photo, comme décrit dans [Modèles et paramètres prédéfinis dans Photoshop](https://helpx.adobe.com/fr/photoshop/using/create-documents.html).
+>Le fichier doit être un paramètre prédéfini de document photo, comme décrit dans [Modèles et paramètres prédéfinis dans Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
 
 
 
@@ -27,22 +27,22 @@ Vous pouvez charger certains types de paramètres prédéfinis de document Photo
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>Formule actuelle : [!UICONTROL Pro] ou version ultérieure</p> <p>ou</p> <p>Formule héritée : [!UICONTROL Premium]</p> <p>Pour plus d’informations sur l’accès en relecture avec les différentes formules, voir .</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td> 
+   <td> Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>Formule actuelle : [!UICONTROL Work] ou [!UICONTROL Proof]</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Travail ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produit</td> 
+   <td role="rowheader">Produits supplémentaires</td> 
    <td>Vous devez disposer d’une licence [!DNL Adobe Creative Cloud] en plus d’une licence [!DNL Workfront].</td> 
   </tr> 
   <tr> 
@@ -51,12 +51,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Modifier l’accès aux [!UICONTROL Documents]</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux [!UICONTROL Documents]</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation d’épreuve dont vous disposez, contactez votre administrateur ou administratrice de Workfront ou Workfront Proof.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -137,7 +137,7 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
 1. Cliquez sur **[!UICONTROL Nouvelle version]** en bas du panneau [!DNL Workfront].
 1. Activez le bouton (bascule) **[!UICONTROL Créer une épreuve]**.
 
-1. Dans la section *[!UICONTROL *Approbation d’épreuve]&#x200B;**, choisissez &#x200B;** [!UICONTROL De base] **&#x200B; ou &#x200B;** [!UICONTROL Automatique]**.
+1. Dans la section *[!UICONTROL *Approbation d’épreuve]**, choisissez **[!UICONTROL De base]** ou **[!UICONTROL Automatique]**.
 
 1. Ajoutez des **[!UICONTROL Réviseurs ou réviseuses]** ou un **[!UICONTROL Modèle de workflow]** en fonction du type d’approbation que vous avez sélectionné lors de l’étape 7.
 

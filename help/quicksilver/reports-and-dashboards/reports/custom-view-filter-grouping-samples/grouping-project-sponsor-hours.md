@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Groupement : sponsor du projet pour les heures"
+title: 'Regroupement : sponsor du projet pour les heures'
 description: Ce regroupement d’heures organise les heures en fonction du sponsor du projet dans lequel les heures sont consignées. L’interface du Report Builder standard pour les regroupements d’heures ne fournit pas de mappage au champ Sponsor du projet. Vous devez utiliser l’interface Mode texte pour accéder à ce champ.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: bc99e303047b989b972974b398420a9180e40874
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 83%
+source-wordcount: '234'
+ht-degree: 80%
 
 ---
 
@@ -24,28 +24,21 @@ Ce regroupement d’heures organise les heures en fonction du sponsor du projet 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
-   <li><p>Standard pour modifier un rapport</p></li> </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Demande de modification d’un filtre </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
+   <p>Contributeur ou demande de modification d’un filtre </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -58,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,4 +74,4 @@ Pour appliquer ce regroupement :
 ```
 
 1. Cliquez sur **Terminé**.
-1. Mettez à jour le nom du groupement, puis cliquez sur **Enregistrer le groupement**.
+1. Mettez à jour le nom du regroupement, puis cliquez sur **Enregistrer le regroupement**.

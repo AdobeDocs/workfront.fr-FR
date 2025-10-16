@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '446'
 ht-degree: 98%
 
 ---
@@ -19,37 +19,33 @@ ht-degree: 98%
 
 Lorsque vous travaillez sur un projet, des événements inattendus peuvent survenir. Vous pouvez enregistrer ces événements inattendus en tant que problèmes pour un projet ou une tâche spécifique. Vous pouvez également soumettre des requêtes, qui sont enregistrées en tant que problèmes sur un projet désigné comme file d’attente des demandes. Les problèmes et les requêtes sont considérés comme interchangeables dans Adobe Workfront.
 
-Pour plus d’informations sur la création de problèmes dans [!DNL Workfront], consultez la section [Créer des problèmes](../../../manage-work/issues/manage-issues/create-issues.md). Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], consultez la section [Créer et soumettre des requêtes  [!DNL Adobe Workfront] &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md). Pour plus d’informations sur l’association de types de requêtes à des projets, consultez la section [Définir des types de requêtes pour un projet](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+Pour plus d’informations sur la création de problèmes dans [!DNL Workfront], consultez la section [Créer des problèmes](../../../manage-work/issues/manage-issues/create-issues.md). Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], consultez la section [Créer et soumettre des requêtes  [!DNL Adobe Workfront] ](../../../manage-work/requests/create-requests/create-submit-requests.md). Pour plus d’informations sur l’association de types de requêtes à des projets, consultez la section [Définir des types de requêtes pour un projet](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td>[!DNL Adobe Workfront] paquet</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td><p>Nouvelle : [!UICONTROL Standard]</p>
-   Ou
-   <p>Actuelle : [!UICONTROL Plan]</p>
-   </td> 
-  </tr>
+   <td>[!DNL Adobe Workfront] licence</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
+  </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configurations des niveaux d’accès</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +75,7 @@ En tant que personne membre de l’équipe d’administration de [!DNL Workfront
 
   Pour plus d’informations sur la création de problèmes dans [!DNL Workfront], consultez la section [Créer des problèmes](../../../manage-work/issues/manage-issues/create-issues.md).
 
-  Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], consultez la section [Créer et soumettre des requêtes  [!DNL Adobe Workfront] &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], consultez la section [Créer et soumettre des requêtes  [!DNL Adobe Workfront] ](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * Sur le formulaire **[!UICONTROL Détails de la rubrique de file d’attente]**, lorsque vous configurez la rubrique de file d’attente.\
    Pour plus d’informations sur la création de rubriques de file d’attente, consultez la section [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -90,7 +86,7 @@ Pour personnaliser les noms des types de requête, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Statuts]**.
 
-1. Sélectionnez l’onglet **[!UICONTROL Problèmes]**.
+1. Cliquez sur l’onglet **[!UICONTROL Problèmes]**.
 1. En haut de l’onglet **[!UICONTROL Problèmes]**, pointez sur le nom d’un type de requête, puis cliquez sur l’icône **[!UICONTROL Modifier]** qui apparaît.
 
    ![Modifier le nom du type de demande](assets/edit-request-type-name-nwe.png)

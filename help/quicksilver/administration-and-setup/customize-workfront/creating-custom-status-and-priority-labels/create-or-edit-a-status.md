@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 98%
 
 ---
@@ -31,32 +31,27 @@ En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez cr�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>
-     <p>Nouveau : Standard</p>
-     <p>ou</p>
-     <p>Actuel : formule</p>
-   </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configurations des niveaux d’accès</td> 
+   <td>Administrateur ou administratrice système</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +83,7 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
 
    Si vous modifiez un statut existant, survolez-le, puis cliquez sur l’icône **Modifier** qui s’affiche complètement à droite.
 
-   ![&#x200B; Modifier le statut personnalisé &#x200B;](assets/custom-status-edit.png)
+   ![ Modifier le statut personnalisé ](assets/custom-status-edit.png)
 
 1. Configurez le statut à l’aide des options suivantes :
 

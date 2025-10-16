@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 96%
+source-wordcount: '2213'
+ht-degree: 92%
 
 ---
 
 # Créer un processus d’approbation pour les éléments de travail
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 08/2025-->
 
 <!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
@@ -44,35 +44,65 @@ Pour plus d’informations sur les approbations associées aux documents ou aux 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Package Adobe Workfront*</td> 
+   <td><p>Pour le processus de validation au niveau du système ou à usage unique :</p><ul><li><p>N’importe quel package</p></li></ul>
+   <p>Pour le processus d’approbation au niveau du groupe :</p>
+   <ul><li><p>Prime de workflow ou Ultimate</p></li>
+   <li><p>Workfront Prime ou Ultimate</p></li></ul>
+   </td>
+
+</tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+ <p>Plan</p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Si vous êtes un administrateur système ou que vous disposez d'un accès administratif aux processus d'approbation, vous pouvez créer un processus d'approbation au niveau du système ou un processus d'approbation au niveau du groupe pour un groupe particulier.</p> 
+   <p>Si vous êtes un administrateur de groupes et que vous disposez d'un accès administratif aux processus d'approbation, vous pouvez créer des processus d'approbation au niveau du groupe pour les groupes que vous gérez.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Processus de validation au niveau du système ou à usage unique : tout</p>
-   <p>Processus de validation au niveau du groupe : Prime ou Ultimate</p></td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>System-level or single-use approval process: Any</p>
+   <p>Group-level approval process: Prime or Ultimate</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p>
- <p>ou</p> 
-<p>Actuel : formule </p> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p>
+ <p>or</p> 
+<p>Current: Plan </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Si vous êtes un administrateur système ou que vous disposez d'un accès administratif aux processus d'approbation, vous pouvez créer un processus d'approbation au niveau du système ou un processus d'approbation au niveau du groupe pour un groupe particulier.</p> 
-   <p>Si vous êtes administrateur ou administratrice de groupes, vous pouvez créer des processus d’approbation au niveau du groupe pour les groupes que vous gérez.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>If you are a system administrator or you have administrative access to approval processes, you can create a system-level approval process, or a group-level approval process for a particular group.</p> 
+   <p>If you are a group administrator, you can create group-level approval processes for groups that you manage.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## Créer un processus d’approbation global au niveau du système ou du groupe pour les éléments de travail
 
@@ -99,7 +129,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
     <tbody> 
      <tr> 
       <td role="rowheader">Nom du processus d'approbation</td> 
-      <td><p>Saisissez un nom explicite pour le processus d’approbation. Les utilisateurs et utilisatrices voient ce nom lorsqu’ils appliquent le processus d’approbation à un objet, comme décrit dans <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associer un processus d’approbation nouveau ou existant au travail</a>.</p></td> 
+      <td><p>Saisissez un nom explicite pour le processus d’approbation. Les utilisateurs et utilisatrices voient ce nom lorsqu’ils appliquent le processus d’approbation à un objet, comme décrit dans <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associer un processus d’approbation nouveau ou existant au travail</a>.</p> <p> Champ obligatoire. </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
@@ -116,8 +146,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
        <li>Si vous êtes administrateur ou administratrice système ou si vous disposez d’un accès administratif aux processus d’approbation, vous pouvez voir n’importe quel groupe dans le système lorsque vous saisissez son nom. <b>Tous les groupes</b> est sélectionné par défaut. </li> 
        <li>Si vous êtes un administrateur ou une administratrice de groupes sans accès administratif aux processus d’approbation, vous pouvez attribuer le processus d’approbation à n’importe quel groupe que vous gérez lorsque vous saisissez son nom. L’option <b>Tous les groupes</b> n’est pas disponible.</li> 
        </ul> 
+       <p>Champ obligatoire.</p>
        <p>Cette option n’est pas disponible pour les processus d’approbation à usage unique.</p> 
-       <p><b>AVERTISSEMENT</b> : lorsque vous modifiez le processus d’approbation spécifique au groupe, les processus d’approbation existants qui ont déjà été associés aux éléments de travail peuvent changer. Pour plus d’informations sur ces modifications, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications des groupes et des processus d’approbation affectent les processus d’approbation attribués</a>.</p> 
+       <p><b>ATTENTION</b></p> <p> Lorsque vous apportez des modifications au processus d'approbation spécifique à un groupe, les processus d'approbation existants déjà associés aux éléments de travail peuvent changer. Pour plus d’informations sur ces modifications, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications des groupes et des processus d’approbation affectent les processus d’approbation attribués</a>.</p> 
        <p>Pour plus d’informations sur la manière de répertorier et de gérer les processus d’approbation de votre groupe à partir de sa page, voir <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processus d’approbation au niveau du groupe</a>. </p> 
        <p>Pour plus d’informations sur l’accès administratif aux processus d’approbation, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> </td> 
      </tr> 
@@ -134,7 +165,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Démarrer un processus d’approbation lorsque le statut est défini sur</p> </td> 
-      <td> <p>Sélectionnez le statut qui déclenchera le processus d’approbation des éléments de travail. Lorsqu’un élément de travail est mis à jour dans ce statut, le processus d’approbation démarre. </p> <p>Le même statut ne peut pas être sélectionné pour plusieurs processus d’approbation.</p> <p>Les statuts disponibles sont basés sur ce qui est sélectionné sous l’option <b>Ce processus d’approbation peut être utilisé par</b> (expliqué dans le tableau ci-dessus) :</p> 
+      <td> <p>Sélectionnez le statut qui déclenchera le processus d’approbation des éléments de travail. Lorsqu’un élément de travail est mis à jour dans ce statut, le processus d’approbation démarre. </p> 
+      <p>Champ obligatoire. </p>
+      <p>Le même statut ne peut pas être sélectionné pour plusieurs processus d’approbation.</p> <p>Les statuts disponibles sont basés sur ce qui est sélectionné sous l’option <b>Ce processus d’approbation peut être utilisé par</b> (expliqué dans le tableau ci-dessus) :</p> 
        <ul> 
        <li> Si l’option <b>Tous les groupes</b> est sélectionnée, seuls les statuts de l’ensemble du système sont disponibles.
        <li> <p>Si un groupe spécifique est sélectionné, seuls les statuts disponibles pour ce groupe le sont.</p> </li> 
@@ -146,18 +179,19 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
      </tr> 
      <tr> 
       <td role="rowheader">Approbateurs</td> 
-      <td> <p>Commencez à saisir le nom de l’utilisateur ou de l’utilisatrice, de l’équipe ou de la fonction que vous souhaitez désigner comme personne responsable de l’approbation pour cette étape, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante. Vous ne pouvez ajouter que des personnes, des <span>fonctions</span> et des équipes actives. </p>
+      <td> <p>Commencez à saisir le nom de l’utilisateur ou de l’utilisatrice, de l’équipe ou de la fonction que vous souhaitez désigner comme personne responsable de l’approbation pour cette étape, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante. Vous ne pouvez ajouter que des personnes, des <span>fonctions</span> et des équipes actives. </p> 
+      <p>Champ obligatoire.</p>
 
-   <p><b>CONSEIL</b> :</p>
+   <p><b>CONSEIL</b></p>
 
    <p>Lorsque vous ajoutez un utilisateur ou une utilisatrice comme personne responsable de l’approbation, vérifiez son avatar, son rôle principal ou son adresse e-mail pour distinguer les doublons. Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.</p>
-      <p>Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez la section <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Accorder l’accès aux utilisateurs et aux utilisatrices</a>. </p>
+      <p>Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Accorder l’accès aux utilisateurs et aux utilisatrices</a>. </p>
 
-   <p><b>NOTE</b> :
+   <p><b>NOTE</b>
 
    l’ajout d’un utilisateur ou d’une utilisatrice, d’une équipe ou d’un rôle en tant que responsable de l’approbation ne lui donne pas automatiquement des droits sur l’objet associé à cette approbation. Les autorisations sur l’objet leur sont accordées lorsque l’étape d’approbation est déclenchée. Sinon, les objets doivent être partagés avant qu’une décision d’approbation ne puisse être prise. </p> <p>Vous pouvez également désigner une personne comme responsable de l’approbation en précisant sa fonction spécifique. Par exemple, une personne peut être affectée comme responsable de l’approbation, qu’elle soit gestionnaire, propriétaire ou sponsor d’un projet, d’un programme ou d’un portfolio. Ces options apparaissent automatiquement lorsque vous commencez à saisir du texte.</p>
 
-   <p><b>IMPORTANT</b> :  
+   <p><b>IMPORTANT</b>  
        <ul> 
        <li> <p>si aucune personne sponsor de projet n’est désignée et que vous accordez une approbation à la personne sponsor du projet, celle-ci est alors accordée à la personne propriétaire du projet. Si aucune personne propriétaire de projet n’est désignée, l’approbation est accordée à la personne chargée de l’administration de Workfront. </p> </li> 
       </ul> 
@@ -166,7 +200,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
        </ul> 
        <ul> 
        <li> <p>Lorsque vous accordez une approbation à la personne propriétaire du projet et qu’il n’existe pas de personne propriétaire de projet, l’approbation est alors accordée à l’équipe principale d’administration de Workfront, comme indiqué dans la section de la section Infos client de la zone de configuration. Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurer les informations de base de votre système</a>.  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Vous pouvez répéter ce processus pour ajouter, à cette étape, plusieurs personnes chargées de l’approbation. Une étape unique peut inclure une combinaison d’utilisateurs et d’utilisatrices, d’équipes et de fonctions en tant que responsables de l’approbation. Il n’y a pas de limite au nombre de personnes chargées de l’approbation que vous pouvez ajouter à une étape.</p> <p><b>IMPORTANT</b> :  <p>Quand des fonctions se voient accorder une responsabilité d’approbation, tous les utilisateurs et utilisatrices ayant cette fonction et faisant partie de l’équipe de projet peuvent prendre une décision d’approbation. </p> <p>Lorsque vous désignez une équipe comme responsable de l’approbation, chaque personne de cette équipe peut prendre une décision d’approbation. </p> <p>Pour plus d’informations sur l’équipe du projet, voir <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Vue d’ensemble de l’équipe du projet</a>. Pour plus d’informations sur l’approbation du travail, consultez la section <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approbation du travail</a>.</p> </p> </td> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Vous pouvez répéter ce processus pour ajouter, à cette étape, plusieurs personnes chargées de l’approbation. Une étape unique peut inclure une combinaison d’utilisateurs et d’utilisatrices, d’équipes et de fonctions en tant que responsables de l’approbation. Il n’y a pas de limite au nombre de personnes chargées de l’approbation que vous pouvez ajouter à une étape.</p> <p><b>IMPORTANT</b></p> <p>Quand des fonctions se voient accorder une responsabilité d’approbation, tous les utilisateurs et utilisatrices ayant cette fonction et faisant partie de l’équipe de projet peuvent prendre une décision d’approbation. </p> <p>Lorsque vous désignez une équipe comme responsable de l’approbation, chaque personne de cette équipe peut prendre une décision d’approbation. </p> <p>Pour plus d’informations sur l’équipe du projet, voir <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Vue d’ensemble de l’équipe du projet</a>. Pour plus d’informations sur l’approbation du travail, consultez la section <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approbation du travail</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Une seule décision est requise <br> <br>(ne s’affiche que si vous ajoutez à l’étape plusieurs personnes chargées de l’approbation). </td> 
@@ -223,4 +257,4 @@ Pour savoir comment associer un processus d’approbation à un élément de tra
 
 Par défaut, les utilisateurs et utilisatrices disposant des droits de gestion sur les projets, les tâches et les problèmes peuvent créer des processus d’approbation à usage unique. Pour plus d’informations sur l’ajout de processus d’approbation à usage unique aux projets, tâches et problèmes, voir la section [Associer un processus d’approbation à usage unique à un projet, une tâche, un problème, un modèle ou une tâche de modèle](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) dans l’article [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-Les utilisateurs et utilisatrices peuvent également modifier les paramètres d’un processus d’approbation global associé à un élément de travail. Ces modifications n’affectent que le projet, la tâche ou le problème associé(e) au processus d’approbation à l’échelle du système. Pour plus d’informations, voir la section [Modifier un processus d’approbation global pour l’utiliser sur un objet spécifique](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#modifying-a-global-approval-process) dans l’article [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)).
+Les utilisateurs et utilisatrices peuvent également modifier les paramètres d’un processus d’approbation global associé à un élément de travail. Ces modifications n’affectent que le projet, la tâche ou le problème associé(e) au processus d’approbation à l’échelle du système. Pour plus d&#39;informations, reportez-vous à la section « Modifier un processus d&#39;approbation global pour l&#39;utiliser sur un objet spécifique » de l&#39;article [Associer un processus d&#39;approbation nouveau ou existant à un travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).

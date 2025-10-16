@@ -6,10 +6,10 @@ description: Vous pouvez affecter des éléments de travail à l’aide de l’�
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
+source-git-commit: 2a52b1e401eae79c55076afd352cc83e1829140a
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 69%
+source-wordcount: '964'
+ht-degree: 68%
 
 ---
 
@@ -23,27 +23,23 @@ Pour des informations générales sur l’attribution de travail aux utilisateur
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Actuel : planifier l’affectation des tâches dans l’équilibreur de charge de travail de la zone Ressource ; </br>
-       Tâches, pour affecter des tâches dans l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ; Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+  </tr>
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Modifiez l’accès aux éléments suivants :</p> 
     <ul> 
      <li>Gestion des ressources</li> 
@@ -54,13 +50,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Autorisations d’objet</td> 
    <td>Autorisations Contribuer ou supérieures aux projets, tâches et problèmes qui incluent la création d’affectations.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

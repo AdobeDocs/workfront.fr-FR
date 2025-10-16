@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '714'
 ht-degree: 62%
 
 ---
@@ -48,31 +48,31 @@ Some users, such as executives, need to be able to control which administrators 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard</p>
-   <p>Ou</p>
-   <p>Actuel : formule</p></td> 
-  </tr> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
+  </tr>
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Avec le niveau d'accès Administrateur système, vous pouvez vous connecter en tant que personne.</p> <p>Avec un niveau d’accès Standard ou Planificateur, vous pouvez vous connecter en tant qu’utilisateur avec un niveau de licence inférieur si le paramètre Utilisateurs du niveau d’accès est configuré sur Modifier l’accès, avec l’option Créer et au moins l’une des deux options d’administration des utilisateurs activées sous Affiner vos paramètres <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p>REMARQUE : de ces deux options, si l’option Administration des utilisateurs (utilisateurs du groupe) est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p></td>
+   <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
+    <ul> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. Vous pouvez ainsi vous connecter en tant que personne.</li> 
+     <li> <p>Le paramètre <b>Utilisateurs</b> dans votre niveau d’accès configuré sur <b>Modifier</b> l’accès, avec <b>Créer</b> et au moins l’une des deux options <b>Administrateur d’utilisateurs</b> activées sous <b>Ajustez vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. Vous pouvez ainsi vous connecter en tant qu’utilisateur avec un niveau de licence inférieur. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

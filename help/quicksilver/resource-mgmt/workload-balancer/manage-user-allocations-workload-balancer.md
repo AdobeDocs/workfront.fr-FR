@@ -6,10 +6,10 @@ description: En tant que personne gestionnaire de ressources, vous pouvez affect
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2886'
-ht-degree: 90%
+source-wordcount: '2864'
+ht-degree: 88%
 
 ---
 
@@ -23,25 +23,21 @@ En tant que gestionnaire de ressources, vous pouvez affecter du travail aux util
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Actuelle : planification, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource;</br>
-       Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ; Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+  </tr>
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Modifiez l’accès aux éléments suivants :</p> 
     <ul> 
      <li>Gestion des ressources</li> 
@@ -52,13 +48,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Autorisations d’objet</td> 
    <td> <p>Autorisations « Contribuer » ou supérieures qui incluent « Créer des affectations » pour les tâches et problèmes dont vous souhaitez gérer les affectations. </p> <p>Ou </p> <p>Autorisations de gestion pour les tâches pour lesquelles vous souhaitez mettre à jour le nombre d’heures prévues, en plus de modifier les affectations. Pour plus d’informations sur la mise à jour du nombre d’heures prévues dans l’équilibreur de charge de travail, consultez dans cet article la section <a href="#update-task-planned-hours-when-managing-user-allocations">Mettre à jour le nombre d’heures prévues de la tâche lors de la gestion des affectations aux utilisateurs et aux utilisatrices</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +90,7 @@ Tenez compte des points suivants lorsque vous localisez des affectations quotidi
 
   >[!INFO]
   >
-  > Par exemple, une tâche peut avoir une durée de 2 jours et 2 heures en nombre d’heures prévues et une heure de début prévue de 12 h 00 le premier jour de la durée pour un utilisateur ou une utilisatrice et un planning de projet qui se termine à 17 h 00. La capacité de l’utilisateur ou de l’utilisatrice pour le premier jour est de 5 heures. La capacité de l’utilisateur ou de l’utilisatrice pour le deuxième jour est de 8 heures (si le planning commence à 9 h 00).
+  > Par exemple, une tâche peut avoir une durée de 2 jours et 2 heures prévues et une heure de début prévue de 12 :00 le premier jour de la durée avec un utilisateur et un planning de projet qui se termine à 17 heures. La capacité de l’utilisateur ou de l’utilisatrice pour le premier jour est de 5 heures. La capacité de l’utilisateur ou de l’utilisatrice pour le deuxième jour est de 8 heures (si le planning commence à 9 h 00).
   >
   >Workfront calcule l’affectation des 2 heures sur les 2 jours de la durée à l’aide de la formule suivante :
   >

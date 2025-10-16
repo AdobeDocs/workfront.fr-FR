@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 44%
+source-wordcount: '509'
+ht-degree: 43%
 
 ---
 
@@ -30,13 +30,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : léger ou supérieur pour consigner les heures d’une tâche ou d’un problème</p>
-   <p>En cours : travail ou supérieur pour consigner les heures d’une tâche ou d’un événement</p> </td> 
+   <td> <p>Léger ou supérieur pour consigner les heures d’une tâche ou d’un problème</p>
+   <p>Travail ou version ultérieure pour consigner les heures d'une tâche ou d'un événement</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 

@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
-title: Configuration des emplacements
+title: Configurer les emplacements
 description: En tant que personne chargée de l’administration d’Adobe Workfront, vous pouvez configurer les emplacements par défaut disponibles pour les fonctions affectées dans les cartes tarifaires.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 99%
+source-wordcount: '183'
+ht-degree: 98%
 
 ---
 
@@ -25,31 +25,27 @@ Les cartes tarifaires permettent à votre organisation de gérer facilement les 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td>[!DNL Adobe Workfront] paquet</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td><p>Nouvelle : [!UICONTROL Standard]</p>
-   Ou
-   <p>Actuelle : [!UICONTROL Plan]</p>
-   </td> 
-  </tr>  
+   <td>[!DNL Adobe Workfront] licence</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
+  </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configurations des niveaux d’accès</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

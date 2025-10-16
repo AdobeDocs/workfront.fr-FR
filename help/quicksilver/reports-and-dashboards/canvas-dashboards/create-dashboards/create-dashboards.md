@@ -6,10 +6,10 @@ description: Grâce aux tableaux de bord de la zone de travail, vous pouvez cré
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 14%
+source-wordcount: '427'
+ht-degree: 15%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 14%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->&#x200B;>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
@@ -29,7 +29,7 @@ Grâce aux tableaux de bord de la zone de travail, vous pouvez créer et ajouter
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -38,7 +38,7 @@ Grâce aux tableaux de bord de la zone de travail, vous pouvez créer et ajouter
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tous </p> 
    </td> 
@@ -46,8 +46,8 @@ Grâce aux tableaux de bord de la zone de travail, vous pouvez créer et ajouter
  <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td> 
-<p>Actuelle : formule </p> 
-<p>Nouveau : Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -87,7 +87,7 @@ Une fois qu’un tableau de bord est créé, l’étape suivante consiste à y a
 Vous pouvez créer trois types de rapports dans les tableaux de bord de la zone de travail :
 
 * **ICP** : ce rapport affiche les données de vos indicateurs clés de performance sous la forme d’un nombre.
-Pour plus d’informations, consultez la section [&#x200B; Créer un rapport sur les indicateurs de performance clés &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md).
+Pour plus d’informations, consultez la section [ Créer un rapport sur les indicateurs de performance clés ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md).
 
 * **Graphique** : ce rapport affiche vos données sous la forme d’un graphique à barres, en colonnes, en courbes ou en secteurs.
 Pour plus d&#39;informations, voir [Créer un rapport de graphique](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
@@ -95,4 +95,4 @@ Pour plus d&#39;informations, voir [Créer un rapport de graphique](/help/quicks
 * **Tableau** : ce rapport affiche vos données sous la forme d’un tableau.
 Pour plus d&#39;informations, voir [Créer un rapport de tableau](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
-Pour plus d’informations sur l’ajout d’un rapport existant à un tableau de bord, voir [&#x200B; Ajouter un rapport existant à un tableau de bord &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md).
+Pour plus d’informations sur l’ajout d’un rapport existant à un tableau de bord, voir [ Ajouter un rapport existant à un tableau de bord ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md).

@@ -6,9 +6,9 @@ description: En tant que personne gestionnaire de projet, vous pouvez configurer
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '509'
 ht-degree: 98%
 
 ---
@@ -23,35 +23,32 @@ Avant de pouvoir utiliser d’autres devises comme décrit dans cette section, l
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td>Tous </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td>Accès en modification aux projets</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td>Autorisations de gestion d’un projet</td> 
+   <td>Autorisations d’objet</td> 
+   <td>Autorisations de gestion pour le projet</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

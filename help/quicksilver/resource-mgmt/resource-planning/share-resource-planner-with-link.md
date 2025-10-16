@@ -6,9 +6,9 @@ description: Adobe Workfront peut générer une URL unique pour la vue Utilisat
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '637'
 ht-degree: 95%
 
 ---
@@ -23,36 +23,32 @@ Adobe Workfront peut générer une URL unique pour la vue Utilisateur ou utilis
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-    <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Actuel : Pro ou supérieur</p> </td> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Actuel : formule</p></td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Accès Afficher ou supérieur à la gestion des ressources, aux projets et aux personnes</p> <p>Accès Afficher aux données financières pour afficher les informations sur les coûts</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Autorisations d’objet</td> 
    <td> <p>Autorisations d’affichage ou supérieures sur les projets que vous souhaitez afficher dans le planificateur de ressources.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

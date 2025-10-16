@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 95%
+source-wordcount: '705'
+ht-degree: 92%
 
 ---
 
@@ -53,22 +53,28 @@ Cet article décrit comment répondre aux commentaires de la plupart des objets 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Nouveau : licence de contribution ou supérieure pour les problèmes et les documents ; licence légère (Light) ou supérieure pour tous les autres objets</p> 
-   <p>Actuel : licence de demande ou supérieure pour les problèmes et les documents ; licence de révision ou supérieure pour tous les autres objets</p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td> <p>Pour les événements et les documents :</p>
+
+<ul><li><p>Contributeur ou version ultérieure</p></li>
+   <li><p>Requête ou supérieure</p></li></ul>
+
+<p>Pour tous les autres objets :</p>
+   <ul><li><p>Léger ou supérieur</p></li>
+   <li><p>Révision ou supérieur</p></li></ul>
+
+</td>  
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
@@ -76,14 +82,41 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Accès Afficher à l’objet</p> </td> 
+   <td> <p>Autorisations d’affichage pour l’objet</p> </td> 
+  </tr> 
+ </tbody> 
+   </table>
+
+Pour plus d’informations, consultez les [Conditions d’accès de la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p> 
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez les [Conditions d’accès de la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Répondre à une mise à jour ou à une réponse dans Workfront
 
@@ -98,9 +131,9 @@ La réponse à un commentaire dans la section Mises à jour d’un objet est sim
 
    Ou
 
-   Sélectionnez l’onglet Tous, puis cliquez sur Répondre dans les commentaires pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. **&#x200B;**&#x200B;**&#x200B;** Vous ne pouvez pas répondre dans l’onglet Tous.
+   Sélectionnez l’onglet Tous, puis cliquez sur Répondre dans les commentaires pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. ******** Vous ne pouvez pas répondre dans l’onglet Tous.
 
-1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu Plus dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur Citer la réponse. **&#x200B;**&#x200B;**&#x200B;** Le texte de la mise à jour précédente apparaît dans la zone de saisie, marqué d’une ligne grise verticale.
+1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu Plus dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur Citer la réponse. ******** Le texte de la mise à jour précédente apparaît dans la zone de saisie, marqué d’une ligne grise verticale.
 1. Cliquez sur **Répondre**.
 
    ![Répondre pour mettre à jour la zone vide](assets/reply-to-update-empty-box.png)

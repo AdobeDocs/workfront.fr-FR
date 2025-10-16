@@ -1,21 +1,21 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Modifier les paramètres de l’équipe
+title: Modifier paramètres d'équipe
 description: Les administrateurs et administratrices et les utilisateurs et utilisatrices de Workfront disposant d’une licence Plan ou Travail peuvent modifier les paramètres des équipes.
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '479'
 ht-degree: 92%
 
 ---
 
 # Modifier les paramètres des équipes
 
-En tant qu&#39;administrateur [!DNL Adobe Workfront] ou utilisateur disposant d&#39;une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Travail], vous pouvez modifier les [!UICONTROL Paramètres de l&#39;équipe].
+En tant qu’administrateur [!DNL Adobe Workfront] ou utilisateur disposant d’une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Travail], vous pouvez modifier les [!UICONTROL Paramètres de l’équipe].
 
 Vous pouvez ajouter des utilisateurs et utilisatrices à une équipe, définir le modèle de mise en page de l’équipe et définir la manière dont le statut est enregistré lorsque des éléments de travail sont terminés par une équipe.
 
@@ -23,22 +23,19 @@ Vous pouvez ajouter des utilisateurs et utilisatrices à une équipe, définir l
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuellement : Travail ou licence supérieure</p></td>
+   <p>Standard</p>
+   <p>Travail ou supérieur</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +52,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-icon.png), puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Seuls les membres de l’équipe possédant une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] peuvent voir cette option.
+   Seuls les membres de l&#39;équipe disposant d&#39;une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] voient cette option.
 
    Au cas où vous devriez voir l’option [!UICONTROL Modifier] mais qu’elle n’est pas visible, demandez à votre administrateur ou administratrice Workfront de vérifier que [!UICONTROL Paramètres d’équipe] est visible dans le modèle de mise en page pour [!UICONTROL Équipe Scrum], [!UICONTROL Équipe Kanban] ou [!UICONTROL Équipe Waterfall].
 

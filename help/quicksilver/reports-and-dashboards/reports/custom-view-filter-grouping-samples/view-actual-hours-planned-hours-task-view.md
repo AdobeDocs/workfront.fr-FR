@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Affichage : heures effectives par rapport au nombre d’heures prévues dans la même colonne d’un affichage de tâche »'
-description: Dans cette vue de tâche, le nombre réel d’heures enregistrées sur une tâche s’affiche au-delà des heures prévues pour chaque tâche. L’écart des heures entre les heures prévues et les heures réelles s’affiche également dans une colonne distincte.
+title: 'Affichage : heures effectives par rapport au nombre d’heures prévues dans la même colonne d’un affichage de tâche'
+description: Dans cet affichage des tâches, le nombre réel d'heures enregistrées sur une tâche s'affiche par rapport au nombre d'heures prévues pour chaque tâche. La variation des heures entre les heures prévues et les heures réelles s'affiche également dans une colonne distincte.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 56%
+source-wordcount: '269'
+ht-degree: 53%
 
 ---
 
 # Affichage : heures effectives par rapport au nombre d’heures prévues dans la même colonne d’un affichage de tâche
 
-Dans cette vue de tâche, le nombre réel d’heures enregistrées sur une tâche s’affiche au-delà des heures prévues pour chaque tâche. L’écart des heures entre les heures prévues et les heures réelles s’affiche également dans une colonne distincte.
+Dans cet affichage des tâches, le nombre réel d&#39;heures enregistrées sur une tâche s&#39;affiche par rapport au nombre d&#39;heures prévues pour chaque tâche. La variation des heures entre les heures prévues et les heures réelles s&#39;affiche également dans une colonne distincte.
 
 ![real_vs_scheduled_in_task_report.png](assets/actual-vs-planned-in-task-report-350x58.png)
 
@@ -24,28 +24,21 @@ Dans cette vue de tâche, le nombre réel d’heures enregistrées sur une tâch
 
 <!--Audited: 10/2024-->
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
-   <li><p>Standard pour modifier un rapport</p></li> </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Demande de modification d’un filtre </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
+   <p>Contributeur ou demande de modification d’un filtre </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -58,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,8 +63,8 @@ Pour appliquer cet affichage :
 1. Dans le menu déroulant **Affichage**, sélectionnez **Nouvel affichage**.
 1. Dans la zone **Prévisualisation de la colonne**, éliminez toutes les colonnes sauf une.
 1. Cliquez sur l’en-tête de la colonne restante, puis cliquez sur **Basculer en mode texte**.
-1. Placez le pointeur de la souris sur la zone de mode Texte, puis cliquez sur **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone de mode de texte et remplacez-le par le code suivant :
+1. Placez le pointeur de la souris sur la zone de mode texte, puis cliquez sur **Modifier le mode texte**.
+1. Supprimez le texte de la zone Mode texte et remplacez-le par le code suivant :
 
    ```
    column.0.descriptionkey=name

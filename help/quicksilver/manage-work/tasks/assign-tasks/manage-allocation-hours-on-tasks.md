@@ -6,10 +6,10 @@ description: Lors de l’affectation de personnes ou de rôles à une tâche, un
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 83%
+source-wordcount: '544'
+ht-degree: 82%
 
 ---
 
@@ -25,33 +25,33 @@ Les heures d&#39;affectation représentent le temps total prévu pour qu&#39;une
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p>
-   <p>Actuellement : Travail ou licence supérieure</p> </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Travail ou supérieur</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux tâches</p> </td> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td>Modifier l’accès aux tâches</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de contribution ou de niveau supérieur pour une tâche</p> <p>Modifier les autorisations pour mettre à jour les heures d’affectation dans la boîte de modification de la tâche</p> </td> 
-  </tr> 
- </tbody> 
+   <td>Autorisations d’objet</td>
+   <td><p>Autorisations de contribution ou de niveau supérieur pour une tâche</p>
+   <p>Modifier les autorisations pour mettre à jour les heures d’affectation dans la boîte de modification de la tâche</p></td>
+  </tr>
+ </tbody>
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

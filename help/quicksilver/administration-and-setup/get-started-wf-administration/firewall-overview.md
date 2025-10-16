@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -53,11 +53,11 @@ Fournissez les informations suivantes à votre administrateur ou administratrice
   </tr> 
   <tr> 
    <td role="rowheader">Votre cluster</td> 
-   <td>Pour localiser le cluster de votre entreprise, consultez la section <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Afficher le cluster et le plan Workfront de votre entreprise</a>.</td> 
+   <td>Pour localiser le cluster de votre organisation, voir <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">Afficher le cluster de votre organisation et le package Workfront</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Votre plan Workfront</td> 
-   <td> <p>Pour localiser le plan de votre entreprise, voir <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Afficher le cluster et le plan Workfront de votre entreprise.</a></p> </td> 
+   <td role="rowheader">Votre package Workfront</td> 
+   <td> <p>Pour localiser le package de votre organisation, voir <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">Afficher le cluster de votre organisation et le package Workfront.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Votre domaine</td> 
@@ -93,7 +93,7 @@ Fournissez les informations suivantes à votre administrateur ou administratrice
 >
 >Si vous ajoutez l’un de ces produits ou l’une de ces intégrations ou fonctionnalités ultérieurement, vous devez contacter l’administration réseau afin qu’elle puisse mettre à jour la liste autorisée.
 
-### Afficher le cluster et la formule Workfront de votre entreprise {#view-your-organization-s-cluster-and-workfront-plan}
+### Afficher le package Workfront et cluster de votre organisation {#view-your-organization-s-cluster-and-workfront-package}
 
 {{step-1-to-setup}}
 
@@ -104,8 +104,8 @@ Fournissez les informations suivantes à votre administrateur ou administratrice
 
    ![Localiser le cluster](assets/locate-cluster.png)
 
-1. Pour afficher votre formule Workfront, sélectionnez **Licences**.
+1. Pour afficher votre package Workfront, sélectionnez **Licences**.
 
-   Votre plan s’affiche dans le coin supérieur droit de la page.
+   Votre package s’affiche dans le coin supérieur droit de la page.
 
    ![Localiser le plan](assets/locate-plan.png)

@@ -2,16 +2,16 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Définir la date d’achèvement prévue du projet
+title: Définir la date d'achèvement prévue du projet
 description: La date d’achèvement prévue d’un projet est la date à laquelle le projet doit être achevé.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 79%
+source-wordcount: '523'
+ht-degree: 75%
 
 ---
 
@@ -27,25 +27,60 @@ La date d’achèvement prévue d’un projet peut être définie manuellement o
 
 ## Conditions d’accès
 
-<!--drafted for P&P:
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux projets</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Autorisations de gestion pour le projet</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>
+   New: Standard
+
+   Or
+
+   Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
@@ -55,48 +90,7 @@ La date d’achèvement prévue d’un projet peut être définie manuellement o
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>
-   Nouveau : Standard
-
-Ou
-
-Actuel : formule </p>
-
-</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification aux projets</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Définir manuellement la date d’achèvement prévue d’un projet
 
@@ -111,7 +105,7 @@ Pour planifier un projet à partir de la date d’achèvement, procédez comme s
 
 {{step1-to-projects}}
 
-1. Cliquez sur **Nouveau projet**, puis sélectionnez **Nouveau projet** dans la liste déroulante qui s’affiche.
+1. Cliquez sur **Nouveau projet**, puis sélectionnez **Nouveau projet** dans la liste déroulante.
 
    Pour plus d’informations sur la création de projets, voir l’article [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 

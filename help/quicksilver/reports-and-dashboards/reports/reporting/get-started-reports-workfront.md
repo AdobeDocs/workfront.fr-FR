@@ -7,10 +7,10 @@ description: Les rapports offrent de la visibilité sur ce qui se passe concerna
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '3293'
-ht-degree: 98%
+source-wordcount: '3292'
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Pour améliorer vos rapports, vous pouvez ajouter les éléments suivants :
 
 Lors de la création d’un rapport, vous pouvez modifier individuellement chacun de ces éléments dans Report Builder.
 
-Une autre manière d’améliorer la pertinence des informations incluses dans vos rapports consiste à appliquer une mise en forme conditionnelle à vos vues. Pour plus d’informations sur l’utilisation d’une mise en forme conditionnelle, consultez [Utilisation d’une mise en forme conditionnelle dans les vues](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+L&#39;application d&#39;une mise en forme conditionnelle à vos vues constitue un autre moyen d&#39;améliorer la pertinence des informations contenues dans vos rapports. Pour plus d’informations sur l’utilisation d’une mise en forme conditionnelle, consultez [Utilisation d’une mise en forme conditionnelle dans les vues](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Rapports système
 
@@ -88,7 +88,7 @@ Pour plus d’informations sur la création de rapports, voir [Créer un rapport
 
 ### Conditions préalables à la création de rapports {#prerequisites-for-creating-reports}
 
-* Pour créer vos propres rapports, vous devez disposer d’une licence Plan (licences actuelles) ou d’une licence Standard (nouvelles licences).
+* Vous devez disposer d’une licence Standard ou Plan pour créer vos propres rapports.
 
   Pour plus d’informations sur les types de licence Workfront, consultez [Vue d’ensemble des licences](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) pour les licences actuelles, et [Vue d’ensemble des nouvelles licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) pour les nouvelles licences.
 
@@ -177,7 +177,7 @@ L’onglet Détails d’un rapport affiche sous forme de liste l’objet des rap
 >[!IMPORTANT]
 >
 >Les informations de l’onglet Détails peuvent s’afficher différemment de celles de l’onglet Graphique en fonction de votre fuseau horaire.\
->Par exemple, une personne située en Californie a effectué une tâche à 21 h 30 (heure du Pacifique) le 12 février. Lorsqu’une personne à New York affiche un rapport qui inclut la fin de la tâche, la date d’achèvement réelle s’affiche le 13 février dans l’onglet Détails et dans les détails du graphique, car elle a été complétée à 00 h 30 (heure de l’Est) le 13 février. Cependant, elle est incluse dans le regroupement du 12 février du graphique, jusqu’à ce que vous développiez l’élément du graphique.
+>Par exemple, un utilisateur californien a terminé une tâche à 21 :30 (heure du Pacifique) le 12 février. Lorsque l’utilisateur consulte à New York un rapport contenant cette tâche terminée, la date d’achèvement effective est le 13 février dans l’onglet Détails et dans les détails du graphique, car elle a été achevée le 13 février à 12 :30 HNE. Cependant, elle est incluse dans le regroupement du 12 février du graphique, jusqu’à ce que vous développiez l’élément du graphique.
 
 ### Onglet Résumé {#summary-tab}
 
@@ -206,7 +206,7 @@ Pensez à inclure un graphique dans vos rapports pour créer des tableaux de bor
 >[!IMPORTANT]
 >
 >Lorsque vous cliquez sur un élément de graphique, les informations développées peuvent s’afficher différemment du graphique en fonction de votre fuseau horaire.\
->Par exemple, une personne située en Californie a effectué une tâche à 21 h 30 (heure du Pacifique) le 12 février. Lorsqu’une personne à New York affiche un rapport qui inclut la fin de la tâche, la date d’achèvement réelle s’affiche le 13 février dans l’onglet Détails et dans les détails du graphique, car elle a été complétée à 00 h 30 (heure de l’Est) le 13 février. Cependant, elle est incluse dans le regroupement du 12 février du graphique, jusqu’à ce que vous développiez l’élément du graphique.
+>Par exemple, un utilisateur californien a terminé une tâche à 21 :30 (heure du Pacifique) le 12 février. Lorsque l’utilisateur consulte à New York un rapport contenant cette tâche terminée, la date d’achèvement effective est le 13 février dans l’onglet Détails et dans les détails du graphique, car elle a été achevée le 13 février à 12 :30 HNE. Cependant, elle est incluse dans le regroupement du 12 février du graphique, jusqu’à ce que vous développiez l’élément du graphique.
 
 Pour plus d’informations sur la création d’un rapport avec un graphique, consultez l’article [Ajouter un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
@@ -325,10 +325,10 @@ Les termes suivants sont utilisés en référence aux rapports Workfront :
   </tr> 
   <tr> 
    <td>Champs</td> 
-   <td> <p>Fait référence aux attributs de vos objets. Par exemple, « Statut » est un champ pour les projets, les tâches ou les problèmes. « Gestionnaire de portefeuille » est un champ destiné à l’objet Portfolio.</p> <p>Vous pouvez également avoir des champs personnalisés que vous créez vous-même et ajoutez à des formulaires personnalisés.<br>Pour plus d’informations sur la création de formulaires personnalisés, reportez-vous à l’article <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d’un formulaire personnalisé</a>.</p> </td> 
+   <td> <p>Fait référence aux attributs de vos objets. Par exemple, « Statut » est un champ pour les projets, les tâches ou les problèmes. « Gestionnaire de portefeuille » est un champ destiné à l’objet Portfolio.</p> <p>Vous pouvez également avoir des champs personnalisés que vous créez vous-même et ajoutez à des formulaires personnalisés.<br>Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d’un formulaire personnalisé</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Nom de champ </td> 
+   <td>Nom du champ </td> 
    <td>Valeur d’un attribut qui s’affiche dans une vue ou qui est utilisée dans la condition d’un filtre, ou encore comme élément commun d’un regroupement. Les options du champ Nom dépendent de la sélection de la source du champ.</td> 
   </tr> 
   <tr> 

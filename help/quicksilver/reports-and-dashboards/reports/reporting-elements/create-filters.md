@@ -6,9 +6,9 @@ description: Vous pouvez avec un filtre, limiter la quantité d’informations a
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2375'
 ht-degree: 96%
 
 ---
@@ -35,48 +35,35 @@ Vous pouvez appliquer les types de filtres suivants dans Adobe Workfront :
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licence Adobe Workfront</strong></td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Contributeur à la modification d’un filtre</p></li>
-         <li><p>Standard pour modifier un filtre dans un rapport</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Demande de modification d’un filtre</p></li>
-         <li><p>Prévoir de modifier un filtre dans un rapport</p></li>
-         </ul>
+    <p>Contributeur ou demande de modification d’un filtre</p>
+    <p>Standard ou Plan pour modifier un filtre dans un rapport</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <ul><li><p>Modifier l’accès aux filtres, aux vues et aux regroupements</p></li></ul>
-
-Pour modifier un filtre dans un rapport, vous devez disposer de la configuration de niveau d’accès suivante, en plus de l’accès en modification des filtres, vues et regroupements :
-
-<ul><li><p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p></li></ul>   
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet*</strong></td> 
-   <td> <p>Gérer les autorisations d’un filtre</p></td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Gérer les autorisations d’un filtre</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -363,7 +350,7 @@ Vous pouvez créer des filtres hérités dans des listes et des rapports de la f
 Quelle que soit la méthode utilisée pour créer des filtres, la création d’un filtre à partir de zéro ou d’un filtre existant est similaire.
 
 1. Accédez à une liste ou à un rapport contenant le filtre que vous souhaitez personnaliser.
-1. Cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-nwepng.png), puis sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) et cliquez sur **Revenir aux filtres hérités**.
+1. Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-nwepng.png), puis sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) et cliquez sur **Revenir aux filtres hérités**.
 
    >[!TIP]
    >
@@ -373,7 +360,7 @@ Quelle que soit la méthode utilisée pour créer des filtres, la création d’
 
    Ou
 
-   Pointez sur le filtre à modifier, puis cliquez sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png).
+   Pointez sur le filtre à modifier, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png).
 
    Le constructeur de personnalisation des filtres se lance.
 
@@ -415,7 +402,7 @@ Quelle que soit la méthode utilisée pour créer des filtres, la création d’
 
    Ou
 
-   Cliquez sur **Enregistrer comme nouveau filtre** pour créer un nouveau filtre à partir de celui sélectionné.
+   Cliquez sur **Enregistrer en tant que nouveau filtre** pour créer un filtre à partir du filtre sélectionné.
 
    Le nouveau filtre s’affiche dans la liste des filtres et est automatiquement appliqué à la liste ou au rapport que vous avez sélectionné.
 

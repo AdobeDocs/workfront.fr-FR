@@ -6,7 +6,7 @@ description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couram
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
 source-wordcount: '21167'
 ht-degree: 94%
@@ -1046,7 +1046,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Group]</td> 
-   <td> <p>Collection d’utilisateurs et utilisatrices (provenant éventuellement du même service ou unité opérationnelle) ayant accès aux mêmes objets. Outre les utilisateurs et utilisatrices, les groupes peuvent être associés à des portfolio, des programmes, projets, <span>modèles de projet,</span> entreprises, équipes, plannings, modèles de disposition et profils de feuille de temps.</p> <p>Vous pouvez également accorder des autorisations aux objets par groupe. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Vue d’ensemble des groupes</a>.</p> <p>Dans une liste ou un rapport d’objets de l’un des types suivants, vous pouvez utiliser le champ [!UICONTROL Group] pour répertorier les objets de ce type associés à un groupe particulier : utilisateur ou utilisatrice, portfolio, programme, projet, <span>modèle de projet</span>, entreprise, équipe, planning, modèle de mise en page ou profil de feuille de temps.</p> </td> 
+   <td> <p>Collection d’utilisateurs et utilisatrices (provenant éventuellement du même service ou unité opérationnelle) ayant accès aux mêmes objets. Outre les utilisateurs et utilisatrices, les groupes peuvent être associés à des portfolios, des programmes, projets,<span> modèles de projet,</span> entreprises, équipes, plannings, modèles de mise en page et profils de feuille de temps.</p> <p>Vous pouvez également accorder des autorisations aux objets par groupe. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Vue d’ensemble des groupes</a>.</p> <p>Dans une liste ou un rapport d’objets de l’un des types suivants, vous pouvez utiliser le champ [!UICONTROL Group] pour répertorier les objets de ce type associés à un groupe particulier : utilisateur ou utilisatrice, portfolio, programme, projet, <span>modèle de projet</span>, entreprise, équipe, planning, modèle de mise en page ou profil de feuille de temps.</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Group Administrator]</td> 
@@ -1054,7 +1054,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Group with Administration Access]</td> 
-   <td> <p> Dans un [!UICONTROL Layout Template], un [!UICONTROL Timesheet Profile] ou un [!UICONTROL Schedule report], ce champ affiche les groupes auxquels les administrateurs et administratrices de groupe ont un accès en modification du modèle. Vous pouvez également filtrer ce rapport selon ce champ. </p> <p> Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Créer et gérer des modèles de disposition</a>.</p> </td> 
+   <td> <p> Dans un [!UICONTROL Layout Template], un [!UICONTROL Timesheet Profile] ou un [!UICONTROL Schedule report], ce champ affiche les groupes auxquels les administrateurs et administratrices de groupe ont un accès en modification du modèle. Vous pouvez également filtrer ce rapport selon ce champ. </p> <p> Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Créer et gérer des modèles de mise en page</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Grouping]</td> 
@@ -1466,7 +1466,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[!UICONTROL User] qui affiche et permet de définir les relations de l’[!UICONTROL Company] et du [!UICONTROL Reporting] de l’[!UICONTROL User].</td> 
+   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[UICONTROL User] qui affiche et permet de définir les relations de l’[UICONTROL Company] et du [UICONTROL Reporting] de l’[UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 
@@ -1688,7 +1688,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Portfolio]</td> 
-   <td> <p>Collection de projets présentant des caractéristiques communes. Ces projets sont généralement en concurrence pour les mêmes ressources, le même budget ou le même créneau horaire. Vous pouvez diviser les portfolios en programmes et associer les projets aux programmes avant de les ajouter à un portfolio.</p> <p>Pour plus d’informations sur les portfolio, voir <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Vue d’ensemble des portfolios dans [!DNL Adobe Workfront]</a>.</p> 
+   <td> <p>Collection de projets présentant des caractéristiques communes. Ces projets sont généralement en concurrence pour les mêmes ressources, le même budget ou le même créneau horaire. Vous pouvez diviser les portfolios en programmes et associer les projets aux programmes avant de les ajouter à un portfolio.</p> <p>Pour plus d’informations sur les portefeuilles, voir <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Comprendre la méthodologie du portefeuille</a>.</p> 
    </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
@@ -2069,7 +2069,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (dans [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
+   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (dans le [!DNL Workfront Scenario Planner]) </td> 
@@ -2186,7 +2186,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
       <li>[!UICONTROL Inactive]</li> 
       <li>[!UICONTROL Closed]</li> 
      </ul> 
-     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « &lbrack;!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
+     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « [!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
      <p>Pour les objectifs stratégiques, ce champ n’est visible que si votre entreprise a acheté [!DNL Workfront Goals]. Pour plus d’informations sur la gestion des objectifs stratégiques à l’aide de [!DNL Workfront Goals], voir Vue d’ensemble de <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals]</a>. </p>
     </td> 
   </tr> 

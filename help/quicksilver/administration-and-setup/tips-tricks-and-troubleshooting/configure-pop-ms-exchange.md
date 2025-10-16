@@ -5,14 +5,14 @@ product-area: system-administration;setup
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Configurer POP dans Microsoft Exchange
 description: Un compte e-mail POP dans  [!DNL Microsoft Exchange]  est désactivé.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 99%
 
 ---
 
@@ -26,39 +26,31 @@ Un compte e-mail POP dans [!DNL Microsoft Exchange] est désactivé.
 
 Avant de passer du temps à résoudre le problème, assurez-vous que le compte POP de la personne est correctement configuré. Si vous continuez à rencontrer des problèmes après avoir confirmé que le compte POP est correctement configuré, contactez l’assistance de [!DNL Microsoft] ou l’un de ses partenaires pour obtenir une aide supplémentaire.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions on integrating a POP account in Adobe Workfront, see .</p>
--->
-
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td>[!DNL Adobe Workfront] paquet</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td> 
+   <td>[!DNL Adobe Workfront] licence</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

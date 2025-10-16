@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 84%
+source-wordcount: '1121'
+ht-degree: 83%
 
 ---
 
@@ -49,33 +49,32 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard</p>
-    <p>Actuellement : Travail ou licence supérieure</p> </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Travail ou supérieur</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td role>Configurations des niveaux d’accès</td> 
    <td> <p>Accès en modification aux tâches et aux problèmes</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de contribution ou supérieures à une tâche ou à un problème</p>  </td> 
+   <td>Autorisations d’objet</td> 
+   <td> <p>Autorisations de niveau Contributeur ou supérieur pour la tâche ou l’événement</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

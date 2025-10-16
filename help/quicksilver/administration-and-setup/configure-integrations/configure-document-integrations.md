@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 87%
+source-wordcount: '1114'
+ht-degree: 84%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-En tant qu’administrateur ou administratrice [!DNL Adobe Workfront], vous pouvez configurer les intégrations de documents pour gérer les documents dans [!UICONTROL Workfront]. Vous pouvez également configurer [!UICONTROL Workfront] pour que les documents soient stockés uniquement dans les applications de services documentaires et non dans [!UICONTROL Workfront]. Pour plus d’informations, voir [Mettre à jour et lier un document de [!UICONTROL Workfront] à un fournisseur de cloud externe](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) dans [Lier des documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+En tant qu’administrateur ou administratrice [!DNL Adobe Workfront], vous pouvez configurer les intégrations de documents pour gérer les documents dans [!UICONTROL Workfront]. Vous pouvez également configurer [!UICONTROL Workfront] pour que les documents soient stockés uniquement dans les applications de services documentaires et non dans [!UICONTROL Workfront]. Pour plus d’informations, voir [Mettre à jour et lier un document à partir de [!UICONTROL Workfront] vers un fournisseur de services cloud externe](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) dans [Lier des documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 >[!NOTE]
 >
@@ -33,32 +33,34 @@ En tant qu’administrateur ou administratrice [!DNL Adobe Workfront], vous pouv
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td><p>Nouvelle : [!UICONTROL Standard]</p>
-       <p>ou</p>
-       <p>Actuelle : [!UICONTROL Plan]</p></td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être administrateur ou administratrice [!DNL Workfront].</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Package Adobe Workfront
+   </td>
+   <td> <p>Prime ou Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Licences Adobe Workfront
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configurations des niveaux d’accès
+   </td>
+   <td>Vous devez être administrateur ou administratrice [!DNL Workfront].
+   </td>
+  </tr>
 </table>
 
 Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
 
 ## Intégrations prises en charge
 
@@ -74,11 +76,11 @@ Vous pouvez configurer les intégrations suivantes pour la gestion des documents
 
 * [!DNL Workfront Proof]
 
-  L’établissement d’un lien entre les épreuves de [!DNL Workfront Proof] vous permet de rendre accessibles à [!DNL Workfront] les épreuves qui ont été créées à l’origine à l’intérieur de [!DNL Workfront Proof]. Pour les plans actuels, un plan [!UICONTROL Pro] [!DNL Workfront] ou supérieur est nécessaire pour utiliser cette fonction. Pour les nouveaux plans, cette fonction est disponible pour tous les plans. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://business.adobe.com/fr/products/workfront/pricing.html).
+  La liaison d’épreuves à partir de [!DNL Workfront Proof] vous permet de rendre les épreuves créées à l’origine dans [!DNL Workfront Proof] disponibles dans [!DNL Workfront].
 
 * [!DNL Microsoft SharePoint]
 
-  Pour plus d’informations sur l’intégration à [!DNL SharePoint], voir [Configurer l’intégration  [!DNL SharePoint] &#x200B;](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Pour plus d’informations sur l’intégration à [!DNL SharePoint], voir [Configurer l’intégration  [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * Fournisseurs tiers de documents en ligne :
 
@@ -93,11 +95,9 @@ Vous pouvez configurer les intégrations suivantes pour la gestion des documents
 
   >[!TIP]
   >
-  >Vous pouvez vérifier et approuver les documents liés à partir d’un fournisseur de cloud externe de la même manière que vous vérifiez et approuvez les documents téléchargés directement sur [!DNL Workfront].
+  >Vous pouvez relire et approuver les documents liés depuis un fournisseur de services cloud externe de la même manière que vous testez et approuvez les documents chargés directement dans [!DNL Workfront].
 
 * D’autres fournisseurs de documents (par le biais d’intégrations de documents personnalisés).
-
-  Pour les plans actuels, un plan [!UICONTROL Pro] [!DNL Workfront] ou supérieur est nécessaire pour utiliser cette fonction. Pour les nouveaux plans, cette fonction est disponible pour tous les plans. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://business.adobe.com/fr/products/workfront/pricing.html).
 
 En outre, vous pouvez améliorer votre expérience de document [!DNL Workfront] avec des intégrations de gestion des ressources numériques tierces. Les administrateurs doivent activer ces fonctionnalités pour que les utilisateurs puissent lier le service à leur compte [!DNL Workfront].
 
@@ -105,7 +105,7 @@ En outre, vous pouvez améliorer votre expérience de document [!DNL Workfront] 
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Fournisseurs cloud].**
+1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Fournisseurs de services cloud].**
 
 1. (Facultatif) Pour stocker les documents dans une application de services documentaires et non dans [!DNL Workfront], sélectionnez **[!UICONTROL Empêcher les utilisateurs et utilisatrices de stocker des documents dans [!DNL Workfront]].**
 
@@ -213,7 +213,7 @@ Les informations ne sont mappées que dans un seul sens, de [!DNL Workfront] à 
 Vous pouvez mapper le même champ [!DNL Workfront] sur plusieurs champs [!DNL Workfront DAM], mais vous ne pouvez pas utiliser le même champ [!DNL Workfront DAM] pour plusieurs champs [!DNL Workfront].
 
 Si vous devez configurer plusieurs champs [!DNL Workfront] pour les exporter vers un champ [!DNL Workfront DAM], créez d’abord un champ personnalisé calculé dans [!DNL Workfront] pour afficher tous les champs personnalisés individuels d’un objet. Mappez ensuite le champ [!DNL Workfront] calculé sur un champ [!DNL Workfront DAM].\
-Pour plus d’informations sur les champs calculés personnalisés, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour plus d’informations sur les champs calculés personnalisés, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Le mappage affecte tous les documents chargés par n’importe quelle personne de [!DNL Workfront] à [!UICONTROL Workfront] DAM.
 

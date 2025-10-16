@@ -6,10 +6,10 @@ description: Vous pouvez déplacer une histoire agile vers une itération diffé
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 68aafe63ff8b60a542ed9dd0900b3742c26a1e4f
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 76%
+source-wordcount: '349'
+ht-degree: 73%
 
 ---
 
@@ -21,8 +21,6 @@ Vous pouvez déplacer une histoire agile vers une itération différente (pour l
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,18 +28,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
-   ou
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Accès [!UICONTROL Manage] à l’histoire</td> 
+   <td>Gérer l’accès à l’histoire</td> 
   </tr> 
  </tbody> 
 </table>

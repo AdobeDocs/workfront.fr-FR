@@ -6,9 +6,9 @@ description: Vous pouvez lier des documents et des dossiers à Adobe Workfront 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2545'
 ht-degree: 94%
 
 ---
@@ -61,21 +61,18 @@ Vous pouvez relire et approuver les documents liés à un fournisseur de service
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td>
+   <td role="rowheader">Package Adobe Workfront</td>
    <td> <p> Tous</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td>
-   <td><p>Nouvelle : contributeur ou supérieure</p>
-    <p>ou</p>
-    <p>Actuelle : demande ou niveau supérieur</p> </td>
+   <td><p>Contributeur ou version ultérieure</p>
+    <p>Requête ou supérieure</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -84,7 +81,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -307,7 +304,7 @@ Lors de la synchronisation du contenu d’un dossier à partir d’une applicati
 
 1. (Facultatif) Pour renommer le dossier de sorte que son nom dans Workfront soit différent de celui du dossier dans l’application de document externe, sélectionnez le dossier dans la section **Dossiers**, cliquez sur le menu Plus ![Plus](assets/more-icon.png) qui s’affiche en regard du nom du dossier, puis cliquez sur **Renommer**.
 
-   ![&#x200B; Renommer le dossier &#x200B;](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![ Renommer le dossier ](assets/documents-folderlink-rename-nwe-350x154.png)
 
 Cette opération ne renomme pas le dossier dans l’application externe.
 

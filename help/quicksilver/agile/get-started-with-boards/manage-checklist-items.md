@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Gestion des éléments de liste de contrôle sur les cartes
+title: Gérer les éléments de la liste de contrôle sur les cartes
 description: L’utilisation d’une liste de contrôle sur une carte vous permet de ventiler le travail par groupes plus petits ou d’ajouter des notes à la carte. Les éléments de la liste de contrôle sont disponibles à la fois sur les cartes ad hoc et sur les cartes connectées.
 author: Lisa
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 98%
+source-wordcount: '423'
+ht-degree: 97%
 
 ---
 
@@ -23,28 +23,25 @@ Pour plus d’informations sur les cartes, voir [Ajouter une carte ad hoc à un 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
-   <p>ou</p>
-   <p>Actuelle : [!UICONTROL Request] ou supérieure</p>
+   <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

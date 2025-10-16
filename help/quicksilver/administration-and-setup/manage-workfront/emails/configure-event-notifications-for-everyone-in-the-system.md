@@ -5,10 +5,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 88%
+source-wordcount: '548'
+ht-degree: 85%
 
 ---
 
@@ -36,32 +36,28 @@ Pour plus d’informations sur le déverrouillage d’une notification d’évé
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard</p>
- <p>ou</p> 
-<p>Actuel : formule</p> 
+   <td> <p>Standard</p>
+<p>Plan</p> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Planificateur ou version ultérieure, avec accès administratif aux notifications de rappel</p> </td> 
+   <td> <p>Planificateur ou version ultérieure avec accès administratif aux notifications de rappel</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Configurer les notifications d’événements pour tous les utilisateurs et utilisatrices

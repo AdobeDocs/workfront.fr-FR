@@ -6,10 +6,11 @@ title: Supprimer une tâche de modèle
 description: Vous pouvez supprimer un modèle de tâches s’il n’est plus nécessaire. Les tâches de modèles supprimées ne peuvent pas être récupérées. Les tâches de projet créées à partir de la tâche de modèle ne sont ni supprimées ni modifiées.
 author: Alina
 feature: Work Management
-source-git-commit: bbf2d987bf3267117ab61b123141dd2cb2f82fc3
+exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 19%
+source-wordcount: '275'
+ht-degree: 23%
 
 ---
 
@@ -24,7 +25,7 @@ Vous pouvez supprimer un modèle de tâches s’il n’est plus nécessaire. Les
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +36,12 @@ Vous pouvez supprimer un modèle de tâches s’il n’est plus nécessaire. Les
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td> <p>Standard </p>
-   <p>Plan </p> </td> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Niveau d’accès</p></td> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
    <td> <p>Modifier l’accès aux modèles</p>  </td> 
   </tr> 
   <tr> 
@@ -50,9 +51,35 @@ Vous pouvez supprimer un modèle de tâches s’il n’est plus nécessaire. Les
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level</p></td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p> </td> 
+   <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Supprimer une tâche de modèle
 
@@ -76,7 +103,3 @@ Vous pouvez supprimer une ou plusieurs tâches de modèles en bloc.
 >Vous pouvez cliquer sur les sections Prédécesseurs ou Sous-tâches dans le panneau de gauche d’une tâche de modèle pour supprimer un prédécesseur ou une sous-tâche.
 >
 >Répétez les étapes ci-dessus pour supprimer les tâches antérieures ou les sous-tâches de modèles.
-
-
-
-

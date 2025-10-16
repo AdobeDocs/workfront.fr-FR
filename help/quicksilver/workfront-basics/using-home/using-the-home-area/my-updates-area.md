@@ -6,9 +6,9 @@ description: Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour co
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '779'
 ht-degree: 88%
 
 ---
@@ -33,21 +33,18 @@ Si vous disposez d’un type de licence différent de Révision, l’administrat
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p>
-   Ou   
-   <p>Actuel : [!UICONTROL Request] ou supérieure</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
+   <td> <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
@@ -55,12 +52,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations d’[!UICONTROL View] ou supérieures pour les projets, les tâches, les problèmes et les documents où vous êtes tagué dans une conversation ou devez résoudre une approbation</p> </td> 
+   <td> <p>Autorisations [!UICONTROL View] ou supérieures pour les projets, les tâches, les problèmes, les documents pour lesquels vous faites l’objet d’un tag dans une conversation ou pour lesquels devez résoudre une approbation.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice . [!DNL Workfront] Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +85,7 @@ Les approbations et demandes d’accès qui vous sont affectées sont répertori
    >
    >Les cinq premières approbations ou demandes d’accès s’affichent par défaut. Les autres approbations s’affichent sur des pages supplémentaires. Vous pouvez afficher un maximum de 2000 approbations dans la zone [!UICONTROL Mes mises à jour].
 
-   ![&#x200B; Pagination pour mes mises à jour &#x200B;](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![ Pagination pour mes mises à jour ](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
 1. (Facultatif) Développez le menu déroulant **[!UICONTROL Filtre]** ![Icône Filtrer](assets/filter-nwepng.png) dans le coin supérieur droit de la section **[!UICONTROL Mes mises à jour]** et sélectionnez l’une des options suivantes :
 

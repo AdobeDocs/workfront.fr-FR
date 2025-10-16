@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 25%
+source-wordcount: '174'
+ht-degree: 22%
 
 ---
 
@@ -23,28 +23,24 @@ Avec l’assistant d’IA Workfront, Catch me up résume les mises à jour, les 
 
 ## Conditions d’accès
 
-+++Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article : 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Current: Not available</p></td>
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td>Tous</td>
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Current: Not available</p></td>
+   <td><p>Standard</td>
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

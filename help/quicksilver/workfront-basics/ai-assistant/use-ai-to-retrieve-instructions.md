@@ -1,67 +1,66 @@
 ---
 title: Obtenir de l’aide à partir de l’assistant IA
 content-type: reference
-description: Vous pouvez rapidement résumer les éléments de travail et les documents à l’aide de la fonctionnalité Résumer .
+description: Vous pouvez résumer rapidement des éléments de travail et des documents à l'aide de la fonctionnalité Résumer cette tâche.
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 17%
+source-wordcount: '278'
+ht-degree: 13%
 
 ---
 
 # Obtenir de l’aide à partir de l’assistant IA
 
-L’assistant d’IA peut rechercher des informations dans la documentation de Workfront, ce qui évite d’avoir à vous rendre sur Adobe Experience League pour obtenir l’aide dont vous avez besoin.
+L’assistant d’IA recherche des informations dans la documentation de Workfront, ce qui évite d’avoir à se rendre sur Adobe Experience League pour obtenir l’aide dont vous avez besoin.
 
-Par exemple, si vous demandez à l’assistant d’IA &quot;Comment créer une file d’attente de requêtes&quot;, il renvoie des instructions pour créer la requête, extraites de l’article [Créer et gérer des files d’attente de requêtes](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Par exemple, si vous demandez à l’assistant AI « Comment créer une file d’attente des demandes ? », il renvoie les instructions de création de la demande, extraites de l’article [ Créer et gérer des files d’attente des demandes ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Actuel : non disponible</p></td>
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Actuel : non disponible</p></td>
+   <td><p>Tous</p>
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
-* Votre administrateur Workfront doit avoir activé l’assistant d’IA pour votre entreprise.
+* Votre administrateur Workfront doit avoir activé l’assistant AI pour votre organisation.
 
-  Pour plus d’informations, voir [Conditions préalables à l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) dans l’article Présentation de l’assistant d’IA.
-* Votre administrateur Workfront doit avoir activé l’assistant d’IA pour votre niveau d’accès.
+  Pour plus d’informations, consultez [Conditions préalables pour l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) dans la présentation de l’assistant AI.
+* Votre administrateur Workfront doit avoir activé AI Assistant pour votre niveau d’accès.
 
-  Pour plus d’informations, voir [Activation ou désactivation de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Pour plus d’informations, voir [Activer ou désactiver l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-## Obtenir des informations sur l’assistant d’IA
+## Obtenir des informations à partir de l’assistant AI
 
-Pour obtenir des informations ou des instructions à partir de la documentation de Workfront à l’aide de l’assistant d’IA :
+Pour obtenir des informations ou des instructions à partir de la documentation Workfront à l’aide de l’assistant AI :
 
-1. Cliquez sur l’icône **Assistant IA** ![Icône Assistant IA](assets/ai-assistant-icon.png) près du coin supérieur droit de l’écran.
-1. Dans le panneau Assistant d’IA, saisissez votre invite dans la zone de texte située en bas du panneau.
+1. Cliquez sur l’icône **Assistant AI** ![icône de l’assistant AI](assets/ai-assistant-icon.png) près du coin supérieur droit de l’écran.
+1. Dans le panneau de l’assistant d’IA, saisissez l’invite dans la zone de texte située en bas du panneau.
 
-   L’assistant d’IA peut prendre quelques instants pour localiser les informations, selon la taille ou la complexité de l’invite. Nous vous recommandons des invites simples.
+   L’assistant AI peut prendre quelques instants pour localiser les informations, selon la taille ou la complexité de l’invite. Nous recommandons les invites simples.
 
 1. Affichez la réponse dans le panneau de l’assistant d’IA.
-1. (Facultatif) Si la réponse ne contient pas les informations dont vous avez besoin, affinez votre réponse et réessayez.
+1. (Facultatif) Si la réponse ne contient pas les informations dont vous avez besoin, affinez-la et réessayez.
 1. (Facultatif et conditionnel) Si la réponse inclut un lien vers un article Adobe Experience League, cliquez sur le lien pour ouvrir l’article dans une nouvelle fenêtre.
 

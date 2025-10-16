@@ -1,51 +1,80 @@
 ---
 navigation-topic: use-the-gantt-chart
-title: Afficher les informations dans le [!UICONTROL graphique de Gantt]
-description: Le graphique de Gantt de la liste des tâches et le graphique de Gantt de la liste des projets affichent des informations sur les projets et les tâches.
+title: Afficher des informations dans le [!UICONTROL graphique Gantt]
+description: Les tâches et projets Adobe Workfront [!UICONTROL graphiques Gantt] affichent des informations sur les tâches et les projets.
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 98%
+source-wordcount: '882'
+ht-degree: 89%
 
 ---
 
 # Afficher les informations dans le [!UICONTROL graphique de Gantt]
 
-Le [!UICONTROL graphique de Gantt] de la liste des tâches et le [!UICONTROL graphique de Gantt] de la liste des projets affichent des informations sur les projets et les tâches.
+<!--Audited: 08/2025-->
+
+Les tâches et projets Adobe Workfront [!UICONTROL graphiques Gantt] affichent des informations sur les tâches et les projets.
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants pour suivre les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Vue d’ensemble des licences*</td> 
-   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td><p>[!UICONTROL Light] ou version ultérieure</p>
+    <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès [!UICONTROL View] ou un accès supérieur aux projets et aux tâches.</p> <p><b>NOTE</b>
-
-Si vous ne disposez toujours pas d’un accès, demandez à votre équipe d’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires pour votre niveau d’accès. Pour plus d’informations sur la manière dont un un administrateur ou une administratrice de [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès [!UICONTROL View] ou un accès supérieur aux projets et aux tâches.</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Accès [!UICONTROL View] ou un accès supérieur au projet.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, consultez la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] ou un accès supérieur au projet et aux tâches</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez l’administration de [!DNL Workfront].
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenses overview*</td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Localiser le [!UICONTROL graphique de Gantt]
 
@@ -75,17 +104,13 @@ Pour afficher les tâches d’un projet à partir d’une liste de projets, proc
 
 1. Accédez à l’une des zones mentionnées ci-dessus.
 
-   Par exemple, à partir du [!UICONTROL Menu principal], cliquez sur **[!UICONTROL Projets]**.
+   Par exemple, dans l’icône [!UICONTROL **Menu principal**] ![Icône du menu principal](assets/lines-main-menu.png) de Workfront, cliquez sur **[!UICONTROL Projets]**.
 
    Une liste de projets s’affiche.
 
 1. Cliquez sur l’icône **[!UICONTROL Graphique Gantt]** ![Icône Gantt](assets/gantt-icon-nwe.png) dans le coin supérieur droit de l’écran.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
-   -->
-
-1. Cliquez sur l’icône **[!UICONTROL Afficher la liste des tâches]**.
+1. Cliquez sur l’icône **[!UICONTROL Afficher la liste des tâches]** ![Afficher la liste des tâches](assets/show-task-list-icon.png).
 
 1. Dans la liste des projets située à gauche, cliquez sur la flèche de liste déroulante en regard du nom du projet pour afficher toutes les tâches qu’il contient.\
    Cette opération affiche des informations concernant la tâche sur le [!UICONTROL graphique de Gantt].\
@@ -132,7 +157,7 @@ Vous pouvez ajuster la période affichée sur le [!UICONTROL graphique de Gantt]
    >
    >L’instantané de chronologie ne s’affiche qu’après que vous avez cliqué sur la barre de défilement horizontale.
 
-   ![extended_gantt_minimap_with_composition__1_.png](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![Mini-carte d’instantané de chronologie](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. (Facultatif) Cliquez n’importe où dans l’instantané de chronologie pour accéder à un point spécifique de la durée du projet.\
    Ou\

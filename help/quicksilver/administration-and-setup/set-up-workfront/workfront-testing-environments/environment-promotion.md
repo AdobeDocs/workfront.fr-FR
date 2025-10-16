@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '2095'
-ht-degree: 100%
+source-wordcount: '2088'
+ht-degree: 99%
 
 ---
 
@@ -32,26 +32,26 @@ Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td>Plan <strong>[!DNL Adobe Workfront]</strong>
+   <td>Package Adobe Workfront
    </td>
-   <td> Prime ou Ultimate (nouveaux plans uniquement)
+   <td> <p>Prime ou Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td>Licences <strong>[!DNL Adobe Workfront]</strong>
+   <td><strong>Licences Workfront</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Configurations des niveaux d’accès
    </td>
-   <td>Vous devez être administrateur ou administratrice [!DNL Workfront].
+   <td><p>Vous devez être un administrateur ou une administratrice Workfront.</p>
    </td>
   </tr>
 </table>
 
-Pour plus d’informations sur ce tableau, voir la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -1018,7 +1018,7 @@ Il n’existe aucun point d’entrée pour cette étape.
 
 1. Dans la carte de traduction renvoyée dans l’[Étape 1 : créer une carte de traduction](#step-1---create-a-translation-map), examinez la liste des objets qui seront installés.
 1. Mettez à jour le champ d’action sur chaque objet en fonction de l’action d’installation souhaitée.
-1. Validez `targetId` sur chaque objet. Si l’action définie est `USEEXISTING` ou `OVERWRITING`, `targetId` doit être défini sur l’UUID de l’objet cible dans l’environnement de destination. Pour toute autre action, le targetId doit être une chaîne vide.
+1. Validez `targetId` sur chaque objet. Si l’action définie est `USEEXISTING` ou `OVERWRITING`, `targetId` doit être défini sur l’UUID de l’objet cible dans l’environnement de destination. Pour toute autre action, l’ID de cible doit être une chaîne vide.
 
    >[!NOTE]
    >

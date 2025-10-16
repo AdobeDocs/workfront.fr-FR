@@ -2,19 +2,19 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Configuration de l’effet sur les heures lorsqu’un objet est supprimé et restauré
+title: Configurer l’effet sur les heures de suppression et de restauration d’un objet
 description: Vous pouvez configurer ce qui arrive aux heures lorsqu’une personne supprime un projet, une tâche ou un problème sur lequel des heures sont consignées. L’option choisie détermine également le sort des heures si le projet, la tâche ou le problème est restauré(e) ultérieurement. (Pour plus d’informations sur la restauration d’éléments dans Workfront, consultez la section « Restaurer des éléments supprimés ».)
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 94%
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
-# Configurer l’effet sur les heures lorsqu’un objet est supprimé et restauré
+# Configurer l’effet sur les heures de suppression et de restauration d’un objet
 
 Vous pouvez configurer ce qui arrive aux heures lorsqu’une personne supprime un projet, une tâche ou un problème sur lequel des heures sont consignées. L’option choisie détermine également le sort des heures si le projet, la tâche ou le problème est restauré(e) ultérieurement. (Pour plus d’informations sur la restauration d’éléments dans Workfront, consultez la section [Restaurer des éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).)
 
@@ -22,32 +22,27 @@ Vous pouvez configurer ce qui arrive aux heures lorsqu’une personne supprime u
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>Ou</p>
-       <p>Actuel : formule</p></td>
-  </tr> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configurations des niveaux d’accès</td> 
+   <td>Administrateur ou administratrice système</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

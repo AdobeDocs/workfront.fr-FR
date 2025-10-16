@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Vue : afficher le résultat d’un calcul entre deux champs d’une colonne »'
+title: 'Vue : afficher le résultat d’un calcul entre deux champs d’une colonne'
 description: Vous pouvez utiliser le mode texte dans une colonne pour afficher un calcul entre deux champs.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 91%
+source-wordcount: '323'
+ht-degree: 89%
 
 ---
 
@@ -28,28 +28,21 @@ Pour plus d’informations sur les expressions de données calculées, consultez
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
-   <li><p>Standard pour modifier un rapport</p></li> </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Demande de modification d’un filtre </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
+   <p>Contributeur ou demande de modification d’un filtre </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -62,7 +55,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +67,7 @@ Pour ajouter cette colonne à une vue de tâche, procédez comme suit :
 1. Accédez à une liste de tâches.
 1. Dans le menu déroulant **Vue**, cliquez sur **Nouvelle vue**.
 
-1. Cliquez sur **Ajouter une colonne**, puis **Basculer vers le mode Texte** > **Modifier le mode Texte**.
+1. Cliquez sur **Ajouter une colonne**, puis **Passer en mode Texte** > **Modifier le mode Texte**.
 1. Supprimez le texte qui se trouve dans la zone **Mode texte** et remplacez-le par le code suivant :
 
    ```

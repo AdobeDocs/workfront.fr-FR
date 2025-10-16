@@ -5,10 +5,10 @@ description: 'Les notifications in-app vous donnent deux types d’informations�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 86%
+source-wordcount: '966'
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ Pour obtenir une liste des notifications d’éléments de travail et d’annonc
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +37,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] paquet</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
+   <td> 
+   <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le type de plan ou de licence dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Afficher les notifications
 

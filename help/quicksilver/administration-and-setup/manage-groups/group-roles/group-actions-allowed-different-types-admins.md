@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 416be55e172e2e2f0a1d8b593fdcb27d123e2fcb
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 93%
+source-wordcount: '514'
+ht-degree: 86%
 
 ---
 
@@ -98,7 +98,7 @@ Ce tableau répertorie les activités d’administration disponibles pour :
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td>Créer et gérer des modèles de disposition</td> 
+   <td>Créer et gérer des modèles de mise en page</td> 
    <td>✓ </td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -230,7 +230,14 @@ Ce tableau répertorie les activités d’administration disponibles pour :
 
 &#42;&#42; Dans le niveau d’accès de l’administrateur ou de l’administratrice du groupe, l’accès à cette action doit être activé. Pour plus d’informations, voir [Accorder aux utilisateurs et aux utilisatrices un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; Les activités suivantes font partie des Contrôles d’entreprise avancés et ne sont pas disponibles pour la formule Select. Seules les organisations ayant acheté les formules Prime ou Ultimate peuvent accéder à ces fonctionnalités. Voir la page de la tarification et de packaging Adobe Workfront pour plus d’informations sur les formules. [&#128279;](https://business.adobe.com/fr/products/workfront/pricing.html) (Pour les organisations qui utilisent les anciennes formules, le tableau ci-dessus indique les activités pour les administrateurs et les administratrices de groupes et de sous-groupes.)
+&#42;&#42;&#42; Ces packages incluent les fonctionnalités Contrôles avancés d’entreprise répertoriées ci-dessous :
+
+* Workflow Prime et versions ultérieures
+* Workfront Prime et versions ultérieures
+
+Consultez la page de tarification et de conditionnement d’[Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) pour plus d’informations sur les packages.
+
+Contrôles d’entreprise avancés :
 
 * Configurer les préférences de projet, de tâche et de problème au niveau du groupe
 * Configurer les préférences des feuilles de temps et des heures au niveau du groupe

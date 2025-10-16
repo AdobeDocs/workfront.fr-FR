@@ -6,10 +6,10 @@ description: Si vous n’avez plus besoin d’un tableau de bord, vous pouvez le
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -21,43 +21,36 @@ Si vous n’avez plus besoin d’un tableau de bord, vous pouvez le supprimer d�
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+      <p>Standard</p>
+      <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p></td> 
-  </tr> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
+   <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Autorisations en gestion pour le tableau de bord</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

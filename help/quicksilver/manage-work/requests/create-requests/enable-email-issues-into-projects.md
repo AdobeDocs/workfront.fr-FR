@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-requests
 title: Autoriser les utilisateurs à envoyer par e-mail un événement dans un projet de file d'attente des demandes
 description: Vous pouvez configurer un projet pour permettre aux utilisateurs d’ajouter des problèmes au projet par e-mail.
-author: Alina, Courtney
+author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 83%
+source-wordcount: '789'
+ht-degree: 82%
 
 ---
 
@@ -27,21 +27,18 @@ Vous pouvez configurer un projet pour permettre aux utilisateurs et utilisatrice
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouvelle : contributeur ou supérieure</p>
-   Ou
-   <p>Actuelle : demande ou supérieure</p>
+   <td> <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p>
     </td> 
   </tr> 
   <tr> 
@@ -55,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +76,7 @@ Les conditions suivantes sont requises pour configurer un projet afin de permett
 >* Workfront autorise un e-mail unique par file d’attente des demandes dans tous les clusters. Si vous choisissez de désactiver la file d’attente des demandes, vous conserverez l’adresse e-mail que vous avez créée tant qu’elle se trouve toujours dans la zone Adresse e-mail de réception. Si vous choisissez d’arrêter l’utilisation de l’adresse e-mail de réception, vous devez la supprimer du champ Adresse e-mail de réception afin qu’elle puisse être utilisée ultérieurement.
 >
 >* Si la file d’attente des demandes comporte plusieurs rubriques ou groupes de rubriques de file d’attente, Workfront sélectionne aléatoirement la rubrique de file d’attente à laquelle les demandes envoyées par e-mail seront envoyées, ce qui rend les demandes envoyées par e-mail difficiles à gérer.
->  &#x200B;>Nous recommandons que le projet que vous configurez pour recevoir des demandes par e-mail ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
+>  >Nous recommandons que le projet que vous configurez pour recevoir des demandes par e-mail ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
 
 1. Accédez au projet sur lequel vous souhaitez activer la réception des problèmes par e-mail.
 1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche.

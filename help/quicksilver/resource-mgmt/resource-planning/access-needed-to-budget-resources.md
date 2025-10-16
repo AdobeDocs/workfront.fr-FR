@@ -2,19 +2,19 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: Accès aux ressources de budget nécessaires dans Workfront
+title: Accès nécessaire pour budgéter les ressources dans Workfront
 description: Vous pouvez afficher et gérer des informations sur la planification des ressources pour les projets auxquels vous avez accès lorsque vous disposez de certains paramètres de niveau d’accès et des autorisations pour vos tâches, utilisateurs et utilisatrices, fonctions et équipes.
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 83%
+source-wordcount: '330'
+ht-degree: 63%
 
 ---
 
-# Accès aux ressources de budget nécessaires dans Workfront
+# Accès nécessaire pour budgéter les ressources dans Workfront
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -30,35 +30,32 @@ Lorsque votre entreprise a acheté une licence Adobe Workfront qui inclut la pl
 
 Pour plus d’informations sur les conditions préalables requises pour utiliser les outils de budgétisation dans Workfront, voir [Commencer avec la planification des ressources](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-Pour budgétiser les ressources, gérer les groupes de ressources et consulter les informations de coûts dans les outils de planification des ressources, votre entreprise et vous devez disposer de l’accès suivant :
+Pour budgéter les ressources, gérer les pools de ressources et afficher les informations sur les coûts dans les outils de planification des ressources, votre société et vous devez disposer des droits d&#39;accès suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Actuel : Pro ou supérieur</p> </td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Actuel : formule</p></td>
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr>  
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> 
     <ul> 
-     <li> <p>Modifiez l’accès à la gestion des ressources dans votre niveau d’accès qui comprend :</p> 
+     <li> <p>Modifier l’accès à la gestion des ressources dans votre niveau d’accès qui inclut :</p> 
       <ul> 
        <li> <p>L’accès pour modifier les priorités du projet et les heures budgétées. </p> </li> 
-       <li> <p>Accédez à la gestion des groupes de ressources, si vous devez gérer les groupes de ressources.</p> </li> 
+       <li> <p>Accès à la gestion des pools de ressources, si vous devez gérer des pools de ressources.</p> </li> 
       </ul> <p>Pour plus d’informations sur le niveau d’accès à la gestion des ressources, reportez-vous à l’article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Accorder l’accès à la gestion des ressources</a>.</p> </li> 
      <li> <p>Modifiez l’accès aux projets et aux personnes. </p> </li> 
-     <li> <p> Modifiez l’accès aux données financières de votre niveau d’accès, si vous devez afficher ou gérer les informations par coût.</p> <p>Pour plus d’informations sur le niveau d’accès aux données financières, consultez l’article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Accorder l’accès aux données financières</a>.</p> </li> 
+     <li> <p> Modifiez l'accès aux données financières dans votre niveau d'accès, si vous devez afficher ou gérer les informations par coût.</p> <p>Pour plus d’informations sur le niveau d’accès aux données financières, consultez l’article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Accorder l’accès aux données financières</a>.</p> </li> 
     </ul> 
    </td> 
   </tr> 
@@ -66,11 +63,9 @@ Pour budgétiser les ressources, gérer les groupes de ressources et consulter l
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Gérez les autorisations sur le projet qui incluent les autorisations de gestion financière.</p> <p>Pour plus d’informations sur les autorisations de projet, voir l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur les autorisations financières d’un projet, reportez-vous à l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Partager les autorisations financières sur un objet</a></a>.</p>
 
-<p><b>NOTE</b>
-
-Lors de l’établissement du budget des ressources dans la vue Rôle, si vous disposez de droits inférieurs à Gérer pour au moins un projet répertorié sous le rôle, vous ne pouvez pas budgéter les heures, les équivalents temps complet ou le coût du rôle. Vous pouvez budgéter uniquement les projets pour lesquels vous disposez des autorisations de gestion.</p> </td>
-</tr> 
+<p><b>REMARQUE :</b> lors de l'établissement du budget des ressources dans la vue Rôle, si vous disposez de moins que Gérer les autorisations pour au moins un projet répertorié sous le rôle, vous ne pouvez pas budgéter les heures, l'équivalent temps complet ou le coût pour le rôle. Vous pouvez budgéter uniquement les projets pour lesquels vous disposez des autorisations de gestion.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

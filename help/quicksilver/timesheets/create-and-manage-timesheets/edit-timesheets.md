@@ -2,20 +2,20 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Modifier les informations de la feuille de temps
-description: En tant qu’utilisateur ou utilisatrice disposant d’un accès administratif aux feuilles de temps, vous pouvez modifier les informations relatives aux feuilles de temps existantes dans Adobe Workfront. Vous pouvez par exemple modifier la personne propriétaire, les approbateurs et approbatrices ou la période de la feuille de temps.
-author: Alina
+description: Les utilisateurs disposant d’un accès administratif aux feuilles de temps peuvent modifier les informations des feuilles de temps existantes dans Adobe Workfront. Vous pouvez par exemple modifier la personne propriétaire, les approbateurs et approbatrices ou la période de la feuille de temps.
+author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '757'
+ht-degree: 94%
 
 ---
 
 # Modifier les informations de la feuille de temps
 
-En tant qu’utilisateur ou utilisatrice disposant d’un accès administratif aux feuilles de temps, vous pouvez modifier les informations relatives aux feuilles de temps existantes dans Adobe Workfront. Vous pouvez par exemple modifier la personne propriétaire, les approbateurs et approbatrices ou la période de la feuille de temps.
+Les utilisateurs disposant d’un accès administratif aux feuilles de temps peuvent modifier les informations des feuilles de temps existantes dans Adobe Workfront. Vous pouvez par exemple modifier la personne propriétaire, les approbateurs et approbatrices ou la période de la feuille de temps.
 
 Vous pouvez modifier les informations d’une seule feuille de temps ou modifier plusieurs feuilles de temps en masse.
 
@@ -23,33 +23,34 @@ Vous pouvez modifier les informations d’une seule feuille de temps ou modifier
 >
 >Si des utilisateurs et utilisatrices sont associés aux profils de feuille de temps et que les feuilles de temps sont générées automatiquement, les modifications que vous apportez aux feuilles de temps existantes ne se répercutent pas sur les feuilles de temps qui seront générées pour les dates futures. Les paramètres de toutes les feuilles de temps générées automatiquement sont définis dans les profils de feuille de temps. Pour plus d’informations, voir [Créer des profils de feuille de temps](../create-and-manage-timesheets/create-timesheet-profiles.md)
 
-
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Vous devez disposer d’un accès administratif aux feuilles de temps. </p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td><p>Accès administratif aux feuilles de temps</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modifier les feuilles de temps
 

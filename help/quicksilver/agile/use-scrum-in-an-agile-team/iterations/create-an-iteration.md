@@ -6,9 +6,9 @@ description: Les itérations sont un élément clé pour les équipes Agile Scru
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1022'
 ht-degree: 79%
 
 ---
@@ -21,8 +21,6 @@ Les itérations sont un élément clé pour les équipes Agile Scrum dans la pla
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouveau : [!UICONTROL Light] ou version ultérieure</p> 
-   ou
-   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Léger ou supérieur</p> 
+   <p>Révision ou supérieur</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -164,6 +161,6 @@ Lorsque vous ajoutez une tâche en tant qu’histoire à une itération, la cont
 
 [!UICONTROL Date de fin de l’itération] moins (-) [!UICONTROL Durée de la tâche] égal (=) [!UICONTROL Date de début prévue de la tâche]
 
-La [!UICONTROL &#x200B; Date de fin du projet &#x200B;] est utilisée à la place de la Date de fin de l&#39;itération si la date de début du projet est postérieure à la date de début de l&#39;itération et si la date de fin du projet est postérieure à la date de fin de l&#39;itération.
+La [!UICONTROL  Date de fin du projet ] est utilisée à la place de la Date de fin de l&#39;itération si la date de début du projet est postérieure à la date de début de l&#39;itération et si la date de fin du projet est postérieure à la date de fin de l&#39;itération.
 
 Vous pouvez configurer des équipes Scrum individuelles de manière à utiliser les dates du projet par défaut plutôt que les dates d’itération. Pour plus d’informations, consultez la section [Configurer la façon dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) dans l’article [Configurer Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

@@ -5,9 +5,9 @@ description: Vous pouvez consulter des listes d’objets sur  [!DNL Adobe Workfr
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '2290'
+source-wordcount: '2275'
 ht-degree: 94%
 
 ---
@@ -31,28 +31,22 @@ Voici quelques caractéristiques des listes dans [!DNL Workfront] :
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur ou version ultérieure </p></li>
-   </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Requête ou supérieure</p></li>
-    </ul></td> 
+   <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -65,7 +59,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -283,7 +277,7 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
     </ul> </td> 
   </tr>
   <tr> 
-   <td>Liste des modèles de disposition</td> 
+   <td>Liste des modèles de mise en page</td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Layout Templates]</p> </li> 
@@ -495,7 +489,7 @@ Le tableau suivant répertorie un grand nombre d’icônes disponibles dans la b
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
    <td>[!UICONTROL Remove]</td> 
-   <td>Supprimez un élément de la liste. Par exemple, en tant qu’administrateur ou administratrice de groupes gérant les personnes membres d’un groupe ou d’un sous-groupe, vous pouvez supprimer une personne membre d’un groupe comme expliqué dans <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">Afficher et gérer les personnes membres d’un groupe</a>.</td> 
+   <td>Supprimez un élément de la liste. Par exemple, en tant qu’administrateur ou administratrice de groupes gérant les personnes membres d’un groupe ou d’un sous-groupe, vous pouvez supprimer une personne membre d’un groupe comme expliqué dans <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">Afficher et gérer les appartenances à un groupe</a>.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 

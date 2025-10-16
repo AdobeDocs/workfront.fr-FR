@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 95%
+source-wordcount: '956'
+ht-degree: 92%
 
 ---
 
@@ -26,28 +26,26 @@ Grâce à l’authentification unique (SSO), vous pouvez transmettre des attribu
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p><p>Ou</p><p>Actuel : formule</p></td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td><p>Vous devez être un administrateur Workfront</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,7 +89,7 @@ Pour déterminer si votre organisation est sur Adobe Unified Experience, exami
 
    Vous pouvez mapper des attributs tels que l’adresse, la personne gestionnaire, la fonction, le groupe principal, etc.
 
-   Les mappages d’attributs fonctionnent selon un rapport 1:1. Par exemple, vous ne pouvez pas définir tous les groupes auxquels appartient un utilisateur ou une utilisatrice ; vous ne pouvez en définir qu’un seul par utilisateur ou utilisatrice.
+   Les mappages d’attributs fonctionnent avec un rapport de 1:1. Par exemple, vous ne pouvez pas définir tous les groupes auxquels appartient un utilisateur ou une utilisatrice ; vous ne pouvez en définir qu’un seul par utilisateur ou utilisatrice.
 
    >[!IMPORTANT]
    >

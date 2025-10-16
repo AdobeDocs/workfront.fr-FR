@@ -6,10 +6,10 @@ description: Avec l’accès à  [!DNL Workfront]  grâce à Adobe Experience 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 68%
+source-wordcount: '683'
+ht-degree: 67%
 
 ---
 
@@ -30,25 +30,23 @@ Si votre organisation utilise l’expérience unifiée Adobe, l’URL que vous u
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
-   <p>Actuelle : [!UICONTROL Request] ou supérieure</p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td> <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -125,7 +123,7 @@ Si votre organisation utilise une application distincte pour gérer les mots de 
 
 Si votre mot de passe est géré par [!DNL Adobe], vous pouvez modifier le mot de passe de votre compte Adobe.
 
-[Voir cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/fr/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Voir cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Pour plus d’informations sur la modification de votre mot de passe, contactez votre administrateur ou administratrice.
 

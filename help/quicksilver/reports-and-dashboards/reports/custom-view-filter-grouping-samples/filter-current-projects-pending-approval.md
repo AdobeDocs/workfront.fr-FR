@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Filtre : afficher les projets en cours en attente d’approbation »'
+title: 'Filtre : afficher les projets en cours en attente d’approbation'
 description: Le filtre de projet suivant affiche les projets dans le statut actuel - En attente d’approbation, où la personne connectée est sponsor du projet ou responsable de Portfolio.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 81%
+source-wordcount: '197'
+ht-degree: 78%
 
 ---
 
@@ -22,28 +22,21 @@ Le filtre de projet suivant affiche les projets dans le statut actuel - En atten
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
-   <li><p>Standard pour modifier un rapport</p></li> </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Demande de modification d’un filtre </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
+   <p>Contributeur ou demande de modification d’un filtre </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -56,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,8 +60,8 @@ Pour appliquer ce filtre :
 1. Accédez à une liste de projets.
 1. Dans le menu déroulant **Filtre**, sélectionnez **Nouveau filtre**.
 
-1. Cliquez sur **Mode Texte**.
+1. Cliquez sur **Mode texte**.
 1. Dans la zone affichée, copiez et collez le code suivant :
    <pre>status=CUR:A<br>sponsorID=$$USER.ID<br>OR:a:status=CUR:A<br>OR:a:portfolio:ownerID=$$USER.ID</pre>
 
-1. Cliquez sur **Apply** > **Save as new**.
+1. Cliquez sur **Appliquer** > **Enregistrer comme nouveau**.

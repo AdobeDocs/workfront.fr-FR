@@ -1,5 +1,5 @@
 ---
-title: Désactivation de l’option de mise à niveau automatique pour les utilisateurs non payés du nouveau plan de licence
+title: Désactivez l’option de mise à niveau automatique pour les utilisateurs non payants dans le nouveau plan de licence
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 94%
+source-wordcount: '198'
+ht-degree: 92%
 
 ---
 
@@ -31,21 +31,18 @@ Vous pouvez désactiver l’option de mise à niveau automatique dans la zone de
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Nouveau plan : standard
-   <p>ou</p>
-   <p>Plan actuel : plan</p></td> 
+   <td>Standard
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 

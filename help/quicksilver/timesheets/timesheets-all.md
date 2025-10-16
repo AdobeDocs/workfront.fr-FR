@@ -2,12 +2,12 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: '« Feuilles de temps : index des articles »'
+title: 'Feuilles de temps : index des articles'
 description: Pour en savoir plus sur la création, la modification, l’approbation et la gestion des feuilles de temps, des profils de feuille de temps et des types d’heure, consultez les sections suivantes.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: aff5e7a9-e1a0-460e-bb6b-be9c50db5755
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 100%

@@ -6,10 +6,10 @@ description: Vous pouvez modifier les paramètres d’un rapport afin de défini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 97%
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -21,43 +21,35 @@ Vous pouvez modifier les paramètres d’un rapport afin de définir comment il 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-      <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p></td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p></td> 
+ <td> <p>Gérer les autorisations d’un rapport</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -130,7 +122,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Cliquez sur **Invite de rapports** pour configurer les invites du rapport.\
    Pour plus d’informations sur l’ajout d’invites à un rapport, consultez l’article [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Cliquez sur **Terminé,** puis sur **Enregistrer + Fermer**.
+1. Cliquez sur **Terminé** puis sur **Enregistrer + Fermer**.
 
 ## Informations supplémentaires
 

@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Copier les problèmes
+title: Copier événements
 description: Vous pouvez copier un problème ou une demande et les enregistrer dans le même projet ou dans un autre. Vous pouvez également copier un problème d’une tâche vers un autre projet.
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 96%
+source-wordcount: '1006'
+ht-degree: 91%
 
 ---
 
 # Copier les problèmes
+
+<!--Audited: 08/2025-->
 
 Vous pouvez copier un problème ou une demande et les enregistrer dans le même projet ou dans un autre. Vous pouvez également copier un problème d’une tâche vers un autre projet.
 
@@ -30,32 +32,64 @@ Vous pouvez copier des problèmes à partir des objets suivants :
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> <p>Licence de révision ou supérieure pour copier un problème dans la section Problèmes d’un projet.</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+   <ul><li><p>Contributeur ou version ultérieure</p> </li>
+   <li><p>Licence légère ou supérieure pour copier un événement dans la section Événements d'un projet</p></li></ul>
+   Ou
+   <ul><li><p>Demandeur ou supérieur</p> </li>
+   <li><p>Licence de réviseur ou d'une licence supérieure permettant de copier un événement dans la section Événements d'un projet</p></li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur aux Projets et aux Tâches</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur l’accès aux problèmes liés à votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a>. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>. </p> </td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur aux Projets et aux Tâches</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations liées aux problèmes</p> <p>Autorisations de contribution à l’élément dans lequel vous copiez le problème avec la possibilité d’ajouter des problèmes.</p> <p> Pour plus d’informations sur l’octroi d’autorisations aux problèmes, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partager un problème</a></p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations liées aux problèmes</p> <p>Autorisations de contribution à l’élément dans lequel vous copiez le problème avec la possibilité d’ajouter des problèmes.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to copy an issue in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying the issue to with the ability to Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Considérations relatives à la copie de problèmes
 
@@ -109,7 +143,7 @@ Vous pouvez copier un ou plusieurs problèmes à partir d’une liste de problè
 
 Vous pouvez copier un problème lorsque vous le consultez.
 
-1. Accédez à un événement à copier, puis cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom de l’événement, puis sur **Copier** dans.
+1. Accédez à un événement à copier, puis cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom de l’événement, puis sur **Copier dans**.
 
    ![Copier au niveau de l&#39;événement](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 

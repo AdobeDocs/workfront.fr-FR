@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Affichage : détails du prédécesseur'
+title: 'Afficher : détails de la tâche antérieure'
 description: Cette vue de tâche affiche les détails des tâches antérieures à l’aide d’une vue de collection. Dans une vue de collection, vous pouvez afficher des informations sur les objets qui se trouvent dans une relation « un-à-multiple ». Dans ce cas, chaque tâche (un) peut avoir plusieurs tâches antérieures (multiple). La vue affiche les noms des tâches, des tâches antérieures et des projets des tâches antérieures, ainsi que les dates d’achèvement prévues et les statuts des tâches antérieures.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 87%
+source-wordcount: '297'
+ht-degree: 80%
 
 ---
 
@@ -28,44 +28,33 @@ Pour plus d’informations sur le référencement des collections dans les rappo
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p> Actuel : 
-   <ul>
-   <li>Demander la modification d’un affichage</li> 
-   <li>Prévoir de modifier un rapport</li>
-   </ul>
-     </p>
-     <p> Nouveau : 
-   <ul>
-   <li>Contributeur à la modification d’une vue</li> 
-   <li>Standard pour modifier un rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Contributeur ou demande de modification d’une vue </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, affichages et groupes pour modifier un affichage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -75,8 +64,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Dans le menu déroulant **Affichage**, sélectionnez **Nouvel affichage**.
 
 1. Dans la zone **Prévisualisation de la colonne**, éliminez toutes les colonnes sauf une.
-1. Cliquez sur l’en-tête de la colonne restante et cliquez sur **Passer en mode Texte** > **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Edit Text Mode** et remplacez-le par le code suivant :
+1. Cliquez sur l’en-tête de la colonne restante, puis sur **Passer en mode Texte** > **Modifier le mode Texte**.
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
    ```
    column.0.displayname=

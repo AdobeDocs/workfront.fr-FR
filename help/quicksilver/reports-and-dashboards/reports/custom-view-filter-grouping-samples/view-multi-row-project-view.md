@@ -7,10 +7,10 @@ description: Découvrez la vue d’un projet à plusieurs lignes dans les rappor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 65%
+source-wordcount: '254'
+ht-degree: 56%
 
 ---
 
@@ -33,39 +33,27 @@ Dans cette vue Projet, vous pouvez :
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p> Actuel : 
-   <ul>
-   <li>Demander la modification d’un affichage</li> 
-   <li>Prévoir de modifier un rapport</li>
-   </ul>
-     </p>
-     <p> Nouveau : 
-   <ul>
-   <li>Contributeur à la modification d’une vue</li> 
-   <li>Standard pour modifier un rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Contributeur ou demande de modification d’une vue </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, affichages et groupes pour modifier un affichage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>

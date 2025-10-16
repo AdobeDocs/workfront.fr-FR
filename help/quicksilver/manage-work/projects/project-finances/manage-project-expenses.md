@@ -6,10 +6,10 @@ description: Le processus de création et de gestion des dépenses est le même 
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e1884aa7975018a737538d909954319e6feee318
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 41%
+source-wordcount: '495'
+ht-degree: 36%
 
 ---
 
@@ -30,27 +30,27 @@ Le montant total de vos dépenses pour toutes les tâches et tous les projets co
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
-   <p>Actuellement : Travail ou licence supérieure</p></td> 
+   <p>Standard</p>
+   <p>Travail ou supérieur</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td>Accès en modification aux projets et aux données financières</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td>Autorisations de contribution ou de niveau supérieur sur le projet avec des autorisations d’affichage ou de gestion sur les finances</td> 
+   <td>Autorisations d’objet</td> 
+   <td>Autorisations de niveau Contribution ou supérieur au projet, avec autorisations pour Afficher ou Gérer les finances</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

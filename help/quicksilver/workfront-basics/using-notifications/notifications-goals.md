@@ -6,10 +6,10 @@ description: 'Notifications : Objectifs'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 94%
+source-wordcount: '388'
+ht-degree: 92%
 
 ---
 
@@ -23,39 +23,34 @@ Vous pouvez activer vos notifications par e-mail pour les événements qui se pr
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
+   <td>
+   <p>Contributeur ou version ultérieure</p>
+    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Produit</strong></td> 
+   <td role="rowheader"><strong>Produits supplémentaires</strong></td> 
    <td>[!DNL Workfront Goals] <p>Pour plus d’informations sur [!DNL Workfront Goals], voir <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals]Vue d’ensemble</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Accès [!UICONTROL View] à [!DNL Goals] ou accès supérieur</p> <p>Note : si vous ne disposez toujours pas d’accès, demandez à votre administration de [!DNL Workfront] si elle a défini des restrictions supplémentaires pour votre niveau d’accès. Pour plus d’informations sur la manière dont l’administration [!DNL Workfront] peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> 
+   <td> <p>Accès [!UICONTROL View] à [!DNL Goals] ou accès supérieur</p></td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

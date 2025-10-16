@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Vue d’ensemble de la Date de début prévue de la tâche
+title: Aperçu de la date de début prévue de la tâche
 description: La date de début prévue d’une tâche est la date à laquelle vous, en tant que personne à l’origine de la tâche, décidez que le travail sur la tâche doit commencer. Les dates des tâches prévues influencent les dates et la chronologie du projet. Pour plus d’informations sur la date de début prévue du projet, consultez la section « Vue d’ensemble de la date de début prévue du projet ».
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 63%
+ht-degree: 62%
 
 ---
 

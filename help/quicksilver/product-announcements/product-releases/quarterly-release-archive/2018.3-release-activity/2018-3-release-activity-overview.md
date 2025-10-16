@@ -2,15 +2,15 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: Vue d’ensemble de l’activité de la version 2018.3
-description: '« Note : la version 2018.3 a été mise à disposition dans l’environnement de production aux dates suivantes (pour obtenir des dates et heures détaillées, voir trust.workfront.com) ».'
+description: 'Remarque : la version 2018.3 a été mise à disposition dans l’environnement de production aux dates suivantes (pour obtenir les dates et heures détaillées, voir trust.workfront.com)'
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 100%
+source-wordcount: '1126'
+ht-degree: 96%
 
 ---
 
@@ -138,7 +138,7 @@ Pour plus d’informations, consultez la section [TLS 1.2 requis dans Adobe Wo
 
 ### Fin de la prise en charge de JSONP {#jsonp-support-is-ending}
 
-Parce que JSONP (Javascript with Padding) est une ancienne norme avec des vulnérabilités de sécurité connues, Workfront ne prendra plus en charge JSONP à partir de novembre 2018. Pour plus d’informations, consultez la section [Fin de la prise en charge de JSONP](../../../../wf-api/api/ending-support-jsonp.md).
+Comme JSONP (JavaScript avec remplissage) est un ancien standard avec des vulnérabilités de sécurité connues, Workfront ne prendra plus en charge JSONP à compter de novembre 2018.
 
 ### Suppression de l’application Flash {#flash-application-removal}
 

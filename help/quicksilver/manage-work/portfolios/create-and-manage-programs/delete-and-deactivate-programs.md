@@ -5,7 +5,7 @@ title: Supprimer et désactiver des programmes
 description: Un programme représente un ensemble de projets qui partagent une stratégie ou un objectif commun qui transcende les limites du projet. Les programmes sont une subdivision des portefeuilles et ils ne peuvent pas exister en dehors d'un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille. Vous pouvez supprimer ou désactiver un programme lorsqu’il devient inutile.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 22%
@@ -32,7 +32,7 @@ Nous vous recommandons de désactiver un portfolio, plutôt que de le supprimer,
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td>
 
 <td> <p>Tous</p> </td> 
   </tr> 

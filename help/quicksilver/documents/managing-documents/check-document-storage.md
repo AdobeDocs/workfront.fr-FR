@@ -6,10 +6,10 @@ description: Bien qu’il n’existe aucune restriction quant aux types et taill
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 84%
+source-wordcount: '239'
+ht-degree: 82%
 
 ---
 
@@ -21,24 +21,23 @@ Bien qu’il n’existe aucune restriction quant aux types et tailles de fichier
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://business.adobe.com/fr/products/workfront/pricing.html" target="_blank">Formule Workfront</a>*</td> 
+   <td role="rowheader">Plan Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences héritées</a>*</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice Workfront. Pour plus d’informations sur les administrateurs et administratrices Workfront, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder un accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

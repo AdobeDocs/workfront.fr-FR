@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: manage-rate-cards
-title: Gestion des cartes de taux
+title: Gérer les cartes tarifaires
 description: Les cartes tarifaires vous permettent de définir plusieurs taux de facturation par rôle, en fonction de l’emplacement.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '622'
 ht-degree: 99%
 
 ---
@@ -25,35 +25,27 @@ Les cartes tarifaires vous permettent de définir plusieurs taux de facturation 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td>[!DNL Adobe Workfront] paquet</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td><p>Nouvelle : [!UICONTROL Standard]</p>
-   Ou
-   <p>Actuelle : [!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licence</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>Modifier l’accès aux [!UICONTROL Financial Data]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td>Pour modifier une carte tarifaires partagée avec vous, vous devez disposer des autorisations Gérer sur la carte tarifaire.</td> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

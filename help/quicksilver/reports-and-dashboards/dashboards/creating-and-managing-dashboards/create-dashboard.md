@@ -6,10 +6,10 @@ description: Vous pouvez créer des tableaux de bord pour accéder rapidement au
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 84%
+source-wordcount: '494'
+ht-degree: 83%
 
 ---
 
@@ -25,36 +25,33 @@ Pour en savoir plus sur les tableaux de bord, voir [Commencer avec les tableaux 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Formule Adobe Workfront</strong></p> </td> 
-   <td>Tous</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licence Adobe Workfront</strong></p> </td> 
-   <td> <p>Actuelle : formule </p>
-   Ou
-   <p>Nouveau : Standard </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td><strong>Configurations du niveau d’accès</strong> </td> 
-   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>Autorisations d’objet</strong> </p> </td> 
+   <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Vous obtiendrez les autorisations de gestion pour les tableaux de bord que vous créez.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +63,7 @@ Vous devez créer l’un des objets suivants avant de pouvoir l’ajouter à un 
 
 * **Calendriers** : pour plus d’informations sur la création de calendriers, voir [Vue d’ensemble des rapports sur les calendriers](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-Vous pouvez ajouter des pages externes existantes à un tableau de bord ou en créer une à partir du nouveau tableau de bord. Pour plus d’informations sur la création de pages externes, voir [Intégrer une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+Vous pouvez ajouter des pages externes existantes à un tableau de bord ou en créer une à partir du nouveau tableau de bord. Pour plus d’informations sur la création de pages externes, voir [Incorporer une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 ## Créer un tableau de bord
 

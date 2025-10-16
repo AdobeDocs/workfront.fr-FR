@@ -2,18 +2,22 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: Niveler les ressources dans le [!UICONTROL Diagramme de Gantt]
-description: Informations sur la manière de niveler les ressources dans le diagramme de Gantt.
+description: Si la même ressource est affectée à deux tâches différentes, vous pouvez utiliser l'audit des ressources pour ajuster la chronologie des tâches afin qu'elles ne se produisent pas en même temps. Cet article fournit des informations sur la façon d'niveler des ressources dans le graphique Gantt.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: '620'
+ht-degree: 81%
 
 ---
 
 # Niveler les ressources dans le [!UICONTROL Diagramme de Gantt]
+
+<!--Audited: 08/2025-->
+
+Vous pouvez utiliser l&#39;audit des ressources pour ajuster la chronologie des tâches afin qu&#39;elles ne se produisent pas en même temps, au cas où les mêmes ressources seraient affectées à plusieurs tâches en même temps.
 
 Le nivellement de vos ressources sur un projet a deux buts :
 
@@ -22,34 +26,62 @@ Le nivellement de vos ressources sur un projet a deux buts :
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] licence*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Workfront] licence</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>[!UICONTROL Edit] l’accès aux Projets</p> <p><b>NOTE</b>
-
-Si vous ne disposez toujours pas d’un accès, demandez à votre équipe d’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires pour votre niveau d’accès. Pour plus d’informations sur la manière dont un un administrateur ou une administratrice de [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>[!UICONTROL Edit] l’accès aux Projets</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>[!UICONTROL Manage] l’accès au projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] l’accès au projet</p>
+</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table> -->
 
 ## Vue d’ensemble du nivellement des ressources
 
@@ -98,7 +130,7 @@ Vous pouvez utiliser le [!UICONTROL Diagramme de Gantt] de la liste des tâches 
    >
    >Vos ressources peuvent être surchargées si elles sont affectées à plusieurs tâches qui se produisent au cours de la même période.
 
-1. (Le cas échéant et facultatif) Si vous avez désactivé l’option d’enregistrement automatique, cliquez sur les icônes **[!UICONTROL Annuler]** ou **[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer une modification.
+1. (Facultatif et conditionnel) Si vous avez désactivé l’option Enregistrement automatique, cliquez sur les icônes **[!UICONTROL Annuler]** ou **[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
 
    >[!TIP]
    >

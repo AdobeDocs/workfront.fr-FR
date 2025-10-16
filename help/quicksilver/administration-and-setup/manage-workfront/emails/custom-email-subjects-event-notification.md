@@ -6,10 +6,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 97%
+source-wordcount: '575'
+ht-degree: 88%
 
 ---
 
@@ -35,8 +35,6 @@ Certaines notifications d’événement ont plusieurs lignes d’objet, ce qui s
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -44,21 +42,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Planificateur ou version ultérieure, avec accès administratif aux notifications de rappel</p> <p>Pour plus d’informations sur l’octroi d’un accès administratif à un utilisateur ou une utilisatrice de plan, voir la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroyer un accès administratif à certaines zones</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Planificateur ou version ultérieure, avec accès administratif aux notifications de rappel</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,9 +85,9 @@ Par exemple, « Quelqu’un m’a inclus dans une mise à jour dirigée » com
 
 ![L’événement ne comporte pas plusieurs lignes d’objet](assets/ev-multiple-subject.png)
 
-Si une personne est incluse dans une conversation sur la tâche, le problème, la tâche de modèle ou le document, un e-mail est généré avec la première ligne d’objet. La ligne d’objet contient « referenceObject:name » et le système définit l’objet et affiche le nom approprié dans le champ d’objet. La ligne d’objet de l’e-mail ressemblerait à ceci : « Commentaire sur la tâche 123 sur le projet ABC ».
+Si une personne est incluse dans une conversation sur la tâche, le problème, la tâche de modèle ou le document, un e-mail est généré avec la première ligne d’objet. La ligne d’objet contient « referenceObject :name » et le système définit l’objet et affiche le nom approprié dans le champ d’objet. La ligne d’objet de l’e-mail ressemblerait à ceci : « Commentaire sur la tâche 123 sur le projet ABC ».
 
-Si elle est ajoutée à une conversation de projet, un e-mail contenant le second objet est généré. Ici, la ligne d’objet contient « topReferenceObject:name » et de nouveau Workfront identifie l’objet référencé et renvoie ce nom d’objet au lieu de « topReferenceObject:name » dans l’objet. La ligne d’objet de l’e-mail ressemble à ceci : « Commentaire sur le projet ABC ».
+Si elle est ajoutée à une conversation de projet, un e-mail contenant le second objet est généré. Ici, la ligne d’objet contient « topReferenceObject :name » et, encore une fois, Workfront identifie l’objet qui a été référencé et renvoie ce nom d’objet au lieu de « topReferenceObject :name » dans l’objet. La ligne d’objet de l’e-mail ressemble à ceci : « Commentaire sur le projet ABC ».
 
 Pour modifier les lignes d’objet de l’e-mail et ajouter des champs supplémentaires à l’une des lignes d’objet, voir la section [Personnaliser les lignes d’objet des e-mails pour les notifications d’événement](#customize-email-subject-lines-for-event-notifications) dans cet article.
 

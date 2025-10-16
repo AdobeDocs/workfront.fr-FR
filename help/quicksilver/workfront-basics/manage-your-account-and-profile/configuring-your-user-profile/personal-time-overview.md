@@ -7,10 +7,10 @@ description: Dans Adobe Workfront, il est important d’indiquer les congés ap
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
+source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 92%
+source-wordcount: '433'
+ht-degree: 74%
 
 ---
 
@@ -38,33 +38,33 @@ Les outils de gestion des ressources utilisent également vos congés pour indiq
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td> Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouveau : licence Standard (pour configurer vos congés)</p>
-        <p>ou</p>
-        <p>Actuellement : licence Travail ou licence supérieure (pour configurer vos congés)</p> </td>
+   <td>Licence Adobe Workfront</td> 
+   <td> <p>Pour configurer vos congés personnels, vous devez disposer des éléments suivants :</p>
+        <p>Standard (pour configurer vos congés personnels)</p>
+        <p>Travail ou version ultérieure (pour configurer vos congés personnels)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL Manager] avec accès en [!UICONTROL Edit User] (pour modifier le calendrier des congés d’autres utilisateurs ou utilisatrices)<br>
-   <strong>NOTE :</strong> si une personne responsable de la gestion modifie le calendrier des congés d’un autre utilisateur ou d’une autre utilisatrice, toutes les entrées sont affichées dans le fuseau horaire de l’utilisateur ou de l’utilisatrice et non dans celui de la personne responsable.</td> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td><p>Pour apporter des modifications au calendrier des congés d’un autre utilisateur, vous devez être le responsable de cet utilisateur et disposer d’un accès Modifier l’utilisateur.</p>
+   <p><strong>REMARQUE :</strong> si un responsable modifie le calendrier des congés personnels d’un autre utilisateur, toutes les entrées sont affichées dans le fuseau horaire de l’utilisateur et non dans celui du responsable.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configurer les congés dans [!DNL Workfront]
 
@@ -74,7 +74,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 >
 >Si vous utilisez l’expérience unifiée Adobe, vous pouvez accéder à votre profil Workfront en cliquant sur le menu Compte Adobe (l’image de votre profil) dans la zone de navigation supérieure, puis en choisissant Profil Workfront.
 >
->![profil workfront &#x200B;](assets/aue-profile.png)
+>![profil workfront ](assets/aue-profile.png)
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Congés]**.
 1. Sélectionnez la date souhaitée pour vos congés.

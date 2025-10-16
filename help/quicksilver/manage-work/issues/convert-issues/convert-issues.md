@@ -1,27 +1,29 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Vue d’ensemble des problèmes de conversion dans Adobe Workfront
+title: Présentation de la conversion des problèmes dans Adobe Workfront
 description: Si vous devez travailler plus pour résoudre un problème après sa soumission, vous pouvez convertir ce problème en projet ou en tâche.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 97%
+source-wordcount: '1497'
+ht-degree: 94%
 
 ---
 
 # Vue d’ensemble des problèmes de conversion dans Adobe Workfront
 
+<!--Audited: 08/2025-->
+
 Si vous devez travailler plus pour résoudre un problème après sa soumission, vous pouvez convertir ce problème en projet ou en tâche.
 
-Pour plus d’informations sur la conversion de problèmes en tâches, voir [Convertir un problème en tâche dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+Pour plus d’informations sur la conversion d’événements en tâches, voir [Convertir un événement en tâche](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
-Pour plus d’informations sur la conversion de problèmes en projets, voir [Convertir un problème en projet dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Pour plus d’informations sur la conversion d’événements en projets, voir [Convertir un événement en projet](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Considérations relatives à la conversion de problèmes
 
@@ -62,7 +64,7 @@ Pour plus d’informations sur la conversion de problèmes en projets, voir [Con
 
 Lors de la conversion d’un problème en projet, vous pouvez le convertir en projet vierge ou utiliser un modèle.
 
-Pour plus d’informations, voir [Convertir un problème en projet dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Pour plus d’informations, voir [Convertir un événement en projet](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 Lors de l’utilisation d’un modèle, certains champs renseignés sur le modèle sont transférés vers le projet créé à partir du problème converti. D’autres champs sont transférés vers le projet à partir du problème converti.
 

@@ -5,10 +5,10 @@ description: En plus de définir les revenus et de suivre les dépenses, vous po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '1645'
-ht-degree: 39%
+source-wordcount: '1635'
+ht-degree: 38%
 
 ---
 
@@ -29,28 +29,27 @@ Vous ne pouvez pas créer d&#39;enregistrements de facturation pour les tâches 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td>Accès en modification aux projets et aux données financières</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Autorisations d’objet</td> 
    <td>Autorisations de gestion pour le projet avec les autorisations de gestion financière</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -162,7 +161,7 @@ Vous pouvez ajouter des heures à un enregistrement de facturation lorsque les c
 
    >[!NOTE]
    >
-   >Si aucune heure n&#39;est consignée ou si les heures consignées ne remplissent pas les conditions requises pour être ajoutées à un enregistrement de facturation, le bouton **Ajouter des heures** ne s&#39;affiche pas. Pour plus d’informations, reportez-vous à la section suivante de cet article : [quelles heures peuvent être ajoutées à un enregistrement de facturation &#x200B;](#what-hours-can-be-added-to-a-billing-record).
+   >Si aucune heure n&#39;est consignée ou si les heures consignées ne remplissent pas les conditions requises pour être ajoutées à un enregistrement de facturation, le bouton **Ajouter des heures** ne s&#39;affiche pas. Pour plus d’informations, reportez-vous à la section suivante de cet article : [quelles heures peuvent être ajoutées à un enregistrement de facturation ](#what-hours-can-be-added-to-a-billing-record).
 
 1. Sélectionnez les entrées d&#39;heures à inclure dans l&#39;enregistrement de facturation, puis cliquez sur **Ajouter des heures**. Le coût réel des heures est ajouté en tant que montant des **heures facturables** au total de l’**enregistrement de facturation**.
 

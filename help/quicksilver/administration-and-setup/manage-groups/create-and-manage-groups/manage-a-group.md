@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1292'
 ht-degree: 97%
 
 ---
@@ -32,40 +32,35 @@ En tant qu’administrateur ou administratrice de groupe, vous pouvez gérer un 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>Ou</p>
-       <p>Actuel : formule</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Gérer les membres d’un groupe
+## Gérer les appartenances à un groupe
 
 Vous pouvez ajouter et supprimer des personnes et d’autres groupes d’un groupe que vous administrez. Vous pouvez également affecter des membres du groupe en tant qu’administrateurs et administratrices du groupe et gérer les informations du profil d’utilisation des membres du groupe.
 
-Pour plus d’informations, voir [Afficher et gérer les membres d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+Pour plus d’informations, voir [Afficher et gérer les appartenances à un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
 
 ## Gérer les détails d’un groupe
 
@@ -136,11 +131,11 @@ Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouve
 
 Pour plus d’informations, voir [Processus d’approbation au niveau du groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
-## Afficher et gérer les modèles de disposition d’un groupe
+## Afficher et gérer les modèles de mise en page d’un groupe
 
-Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher et utiliser le modèle de disposition pour lequel l’équipe d’administration du groupe, ou de l’un de ses sous-groupes, dispose d’un accès administratif.
+Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher et utiliser le modèle de mise en page pour lequel l’équipe d’administration du groupe, ou de l’un de ses sous-groupes, dispose d’un accès administratif.
 
-Pour plus d’informations, voir [Créer et modifier les modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Pour plus d’informations, voir [Créer et modifier les modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Afficher et gérer les plannings des membres du groupe
 

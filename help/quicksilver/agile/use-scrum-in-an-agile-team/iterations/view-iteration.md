@@ -6,10 +6,10 @@ description: Vous pouvez afficher toutes les itérations d’une équipe donnée
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 88%
+source-wordcount: '222'
+ht-degree: 90%
 
 ---
 
@@ -21,8 +21,6 @@ Vous pouvez afficher toutes les itérations d’une équipe donnée ou une itér
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouveau : [!UICONTROL Light] ou version ultérieure</p> 
-   ou
-   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Léger ou supérieur</p> 
+   <p>Révision ou supérieur</p> </td> 
   </tr>
  </tbody> 
 </table>

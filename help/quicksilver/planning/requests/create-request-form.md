@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: de42feb0d5a349e6b4b403b790b4759f693f7f4c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '3138'
-ht-degree: 7%
+source-wordcount: '3046'
+ht-degree: 5%
 
 ---
 
@@ -30,80 +30,47 @@ Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;e
 
 Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Produits</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
+   <td> 
+<ul><li><p>Tout package Workfront</p></li>
+Et
+<li><p>N’importe quel package Planning</p></li></ul>
+Ou
+<ul><li><p>N’importe quel package de workflow</p></li>
+Et
+<li><p>N’importe quel package Planning</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
+   <td>   <p>Gérez les autorisations d’un espace de travail ou d’un type d’enregistrement</a> </p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
-   <td>
-<p>L’un des plans Workfront suivants :</p>
-<ul><li>Sélectionner</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td>
-   <td>
-<p>Tous </p>  
-<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </td>
-
-<tr>
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
-   <td>
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p>
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
-   </td>
-
-</tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
-   <td>
-   <p>Standard</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Autorisations d’objet</p></td>
-   <td>
-   <ul>
-   <li><p>Gestion des autorisations relatives à un espace de travail et à un type d’enregistrement</p></li>
-    <li><p>L’administration système peut gérer les espaces de travail qu’elle n’a pas créés. </p></li>
-    </ul>
-   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning</a>. 
-  </td>
-  </tr>
- </tbody>
+</tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Limites d’affichage des champs et des valeurs dans les formulaires de demande
 
@@ -167,7 +134,7 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur **Créer**.
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [&#x200B; Configurer le formulaire &#x200B;](#configure-the-form).
+1. Passez à [ Configurer le formulaire ](#configure-the-form).
 
 <div class="preview">
 
@@ -189,7 +156,7 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur **Créer**.
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [&#x200B; Configurer les détails du formulaire de demande &#x200B;](#set-up-details-for-the-request-form).
+1. Passez à [ Configurer les détails du formulaire de demande ](#set-up-details-for-the-request-form).
 
 </div>
 
@@ -279,7 +246,7 @@ Dans l’onglet Configuration , vous pouvez définir le processus d’approbatio
    * Tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
    * <span class="preview">Si une équipe est définie comme approbateur, une seule décision est requise de la part de l’équipe.</span>
 
-     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. <span class="preview">(Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise** </span>.
 

@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Configurer l’accès aux plans directeurs
+title: Configuration de l’accès aux plans directeurs
 description: En tant qu’administrateur ou administratrice système, vous pouvez autoriser les utilisateurs et utilisatrices à demander l’installation de plans directeurs en configurant une file d’attente de demandes pour stocker les demandes. Vous disposez d’un emplacement unique pour effectuer le suivi et la mise à jour des demandes.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 99%
+source-wordcount: '512'
+ht-degree: 98%
 
 ---
 
@@ -36,31 +36,28 @@ En tant qu’administrateur ou administratrice système, vous pouvez :
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>Vous devez être administrateur ou administratrice [!DNL Workfront]. </td> 
+   <td>Administrateur ou administratrice Workfront </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -5,35 +5,35 @@ description: Vous pouvez exporter le graphique Gantt vers un PDF. Ensuite, vous 
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 41%
+ht-degree: 40%
 
 ---
 
 # Exporter le [!UICONTROL graphique de Gantt] au format PDF
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 Vous pouvez exporter le [!UICONTROL graphique Gantt] vers un PDF. Ensuite, vous pouvez l’imprimer ou le joindre à un e-mail pour le partager avec d’autres utilisateurs.
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan [!UICONTROL Adobe Workfront]</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package [!UICONTROL Adobe Workfront]</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront]</td> 
-   <td> <p>Nouveau :[!UICONTROL Light] ou version ultérieure</p>
-   <p>Actuel :[!UICONTROL Review] ou supérieur</p> </td> 
+   <td> <p>[!UICONTROL Light] ou version ultérieure</p>
+   <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -41,7 +41,7 @@ Vous pouvez exporter le [!UICONTROL graphique Gantt] vers un PDF. Ensuite, vous 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Accès [!UICONTROL View] ou un accès supérieur au projet.</p> </td> 
+   <td> <p>[!UICONTROL View] ou un accès supérieur au projet et aux tâches</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,6 +49,34 @@ Vous pouvez exporter le [!UICONTROL graphique Gantt] vers un PDF. Ensuite, vous 
 Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license</td> 
+   <td> <p>New:[!UICONTROL Light] or higher</p>
+   <p>Current:[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
 
 ## Exporter le [!UICONTROL graphique de Gantt]
 
@@ -102,7 +130,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. (Facultatif) Pour n’inclure que certaines tâches dans le PDF exporté, sélectionnez celles que vous souhaitez inclure. Si vous ne sélectionnez aucune tâche, toutes les tâches sont incluses dans le PDF exporté.
 
-   Par exemple, si vous affichez le [!UICONTROL graphique de Gantt] pour un projet contenant 50 tâches, mais que vous souhaitez afficher uniquement 10 tâches sur le [!UICONTROL graphique de Gantt], sélectionnez les dix tâches à afficher.
+   Par exemple, si vous affichez le [!UICONTROL graphique de Gantt] pour un projet contenant 50 tâches, mais que vous souhaitez afficher uniquement 10 tâches sur le [!UICONTROL graphique de Gantt] exporté, sélectionnez les dix tâches à afficher.
 
 1. Cliquez sur l’icône d’imprimante ![icône d’imprimante](assets/printer-icon.png) dans le coin supérieur droit du graphique Gantt.
 La boîte de dialogue **[!UICONTROL Exporter vers PDF]** s’affiche.

@@ -7,10 +7,10 @@ description: L’équilibreur de charge de travail est disponible pour plusieurs
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 64%
+source-wordcount: '845'
+ht-degree: 62%
 
 ---
 
@@ -42,25 +42,21 @@ Cet article décrit les zones à partir desquelles vous pouvez accéder à l’�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Actuelle : planification, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource;</br>
-       Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ; Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p>
        <p><span class="preview">Remarque : tous les utilisateurs peuvent accéder à l’équilibreur de charge de travail dans leurs propres profils utilisateur, sans aucune exigence de licence.</span></p></td>
   </tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Accès Affichage ou niveau supérieur aux éléments suivants :</p> 
     <ul> 
      <li>Gestion des ressources</li> 
@@ -70,13 +66,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Autorisations d’objet</td> 
    <td>Autorisations d’affichage ou supérieures aux projets, tâches et problèmes</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

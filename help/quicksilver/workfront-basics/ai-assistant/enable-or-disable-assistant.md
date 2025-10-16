@@ -5,10 +5,10 @@ description: Vous pouvez contrôler les niveaux d’accès de votre organisation
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d929599ccdbfb90d731a3dfb9d83d3eb54d345ea
+source-git-commit: 8a0923bbdc8731652e59647409ef9b32e802e895
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 38%
+source-wordcount: '201'
+ht-degree: 37%
 
 ---
 
@@ -18,32 +18,31 @@ En tant qu’administrateur ou administratrice Workfront, vous pouvez contrôler
 
 ## Conditions d’accès
 
-Pour activer ou désactiver l’assistant AI, vous devez disposer des droits d’accès suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Current: Not available</p></td>
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Current: Not available</p></td>
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Activation ou désactivation de l’assistant AI dans Workfront
 

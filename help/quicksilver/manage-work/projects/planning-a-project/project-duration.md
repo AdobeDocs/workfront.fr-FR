@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Vue d’ensemble de la durée du projet
+title: Présentation de la durée du projet
 description: Adobe Workfront calcule la durée d’un projet en prenant en compte la date de début de la tâche la plus ancienne et la date d’achèvement de la tâche la plus récente et compte le nombre de jours entre ces deux dates.
 author: Alina
 feature: Work Management
 exl-id: b558eaad-669b-4079-b61a-07df227edfa2
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

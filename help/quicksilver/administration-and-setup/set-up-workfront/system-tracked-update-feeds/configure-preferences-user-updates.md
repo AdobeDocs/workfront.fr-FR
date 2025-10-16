@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 91%
+source-wordcount: '270'
+ht-degree: 80%
 
 ---
 
 # Configurer les préférences pour les mises à jour des utilisateurs et utilisatrices
 
-<!--Audited: 06/2025-->
+<!--Audited: 08/2025-->
 
 Vous pouvez configurer des préférences permettant aux utilisateurs et aux utilisatrices d’accéder à certaines fonctionnalités lorsqu’ils ajoutent des commentaires dans la zone [!UICONTROL Mises à jour] d’un objet.
 
@@ -25,26 +25,24 @@ Vous pouvez configurer des préférences permettant aux utilisateurs et aux util
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td><p>Nouvelle : [!UICONTROL Standard]</p>
-   Ou
-   <p>Actuelle : [!UICONTROL Plan]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td><p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td><p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès [!UICONTROL System Administrator].</p><p>Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p></td>
+   <td><p>Administrateur système, pour effectuer ces étapes au niveau du système. </p>
+   <p>Planificateur, pour effectuer ces étapes pour un groupe, en plus d’être le responsable de ce groupe.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +50,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.</p><p>To perform them for a group, you must be a manager of that group.</p></td>
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Autoriser les utilisateurs et les utilisatrices à ajouter des images dans les mises à jour
 

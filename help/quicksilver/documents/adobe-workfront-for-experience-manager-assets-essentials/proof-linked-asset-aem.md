@@ -6,10 +6,10 @@ description: Après avoir lié une ressource à partir d’Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 84%
+source-wordcount: '441'
+ht-degree: 81%
 
 ---
 
@@ -23,36 +23,32 @@ Après avoir lié une ressource à partir d’Experience Manager Assets Essen
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront</td> 
    <td> 
-   <p>Nouvelle : standard</p>
-   <p>Ou</p>
-   <p>Actuellement : Travail ou licence supérieure</p>
-   <p>La relecture doit être activée pour votre utilisateur ou utilisatrice.</p>
+   <p>Standard</p>
+   <p>Travail ou supérieur</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produit</td> 
+   <td role="rowheader">Produits supplémentaires</td> 
    <td>Vous devez disposer d’Experience Manager as a Cloud Service ou d’Assets Essentials, et quelqu’un doit vous ajouter au produit en tant qu’utilisateur ou utilisatrice dans l’Admin Console. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Accès en modification aux documents</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher accès ou version ultérieure</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Afficher accès ou version ultérieure</p>  </td> 
   </tr> 
  </tbody> 
 </table>

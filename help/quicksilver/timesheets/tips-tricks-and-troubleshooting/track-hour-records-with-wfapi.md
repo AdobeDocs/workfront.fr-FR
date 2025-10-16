@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Suivre les relevés d’heures avec l’API Adobe Workfront
 description: Si votre organisation utilise Adobe Workfront pour saisir les heures travaillées, mais utilise un autre outil comme système d’enregistrement pour ces données, vous pouvez utiliser l’API Workfront pour synchroniser les données entre les deux systèmes.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b26f8156-f9dc-43e7-8e0d-8c0905dc7a12
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%

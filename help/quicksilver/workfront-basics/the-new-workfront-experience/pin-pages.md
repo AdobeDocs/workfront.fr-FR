@@ -5,10 +5,10 @@ description: Vous pouvez épingler votre travail le plus important dans  [!DNL A
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 65%
+source-wordcount: '400'
+ht-degree: 64%
 
 ---
 
@@ -24,8 +24,6 @@ Un modèle de mise en page peut vous être attribué avec des pages déjà épin
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -33,20 +31,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] paquet</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
-   <td> <p>Nouveau : contributeur</p> 
-   <p>Ou</p>
-     <p>Actuel : demande</p>
+   <td> <p>Contributeur</p> 
+     <p>Demande</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

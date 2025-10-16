@@ -6,9 +6,9 @@ description: Vous pouvez modifier les informations des programmes que vous avez 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1077'
 ht-degree: 58%
 
 ---
@@ -23,15 +23,12 @@ Vous pouvez modifier un programme dans la page du programme ou vous pouvez modif
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +37,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès [!UICONTROL Edit] aux programmes</p>  </td> 
   </tr> 
   <tr> 

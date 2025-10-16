@@ -6,9 +6,9 @@ description: Lisez cet article pour savoir comment vous connecter à Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '885'
 ht-degree: 75%
 
 ---
@@ -37,28 +37,24 @@ Vous avez besoin des informations suivantes pour vous connecter à [!DNL Adobe W
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
+   <td>Licence Adobe Workfront</td> 
    <td> 
-   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p>
-   <p>Actuelle : [!UICONTROL Request] ou supérieure</p> </td> 
+   <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +66,7 @@ Pour vous connecter à [!DNL Workfront] en utilisant votre nom d’utilisateur o
 
 1. Ouvrez une fenêtre de navigateur, puis saisissez l’URL unique de votre entreprise, qui doit avoir le format suivant : **`yourCompanyDomain.my.workfront.com`**.
 
-   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).
+   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] ](../../../workfront-basics/workfront-browser-requirements.md).
 
 1. Dans l’écran de connexion, saisissez votre nom d’utilisateur ou d’utilisatrice et votre mot de passe.
 
@@ -87,7 +83,7 @@ Pour vous connecter à [!DNL Workfront] en utilisant votre nom d’utilisateur o
 
 1. Ouvrez une fenêtre de navigateur.
 
-   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).
+   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] ](../../../workfront-basics/workfront-browser-requirements.md).
 
 1. Saisissez l’URL unique de votre entreprise.
 

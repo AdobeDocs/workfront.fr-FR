@@ -4,9 +4,9 @@ title: Vue d’ensemble des chemins de navigation
 description: Les chemins de navigation affichent la hiérarchie de navigation complète pour tous les types d’objets.
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '291'
 ht-degree: 100%
 
 ---
@@ -42,30 +42,7 @@ Vous pouvez également utiliser les touches suivantes pour parcourir les chemins
  </tbody> 
 </table>
 
-+++Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
-   <td> <p>Tous</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-* Pour connaître le plan ou le type de licence dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
-
-+++
 
 <!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 

@@ -6,10 +6,10 @@ description: La condition d’un projet est un indicateur placé sur celui-ci po
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
+source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 88%
+source-wordcount: '526'
+ht-degree: 86%
 
 ---
 
@@ -23,25 +23,21 @@ L’équipe d’administration d’Adobe Workfront peut créer des conditions p
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>
-
-Pour les nouvelles licences :
-<p>Standard</p>
-
-Pour les licences actuelles :
-<ul><li><p>Plan</p>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+  <p>Standard</p>
+   <p>Plan</p>
     </td> 
   </tr> 
   <tr> 
@@ -57,7 +53,43 @@ Pour les licences actuelles :
  </tbody> 
 </table>
 
-* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, consultez la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   
+   For the new licenses:
+  <p>Standard</p>
+   
+   For current licenses:
+   <ul><li><p>Plan</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
+   <p>Manage permissions on tasks and issues to update the Condition</p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Définir automatiquement la condition
 

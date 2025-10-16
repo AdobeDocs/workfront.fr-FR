@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 4fbf88c544cd56887e6f6f36d7aabfa0668a2a05
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 48%
+source-wordcount: '801'
+ht-degree: 47%
 
 ---
 
@@ -33,32 +33,27 @@ Notez que les filtres, vues et regroupements à l’échelle du système que vou
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td>[!DNL Adobe Workfront] paquet</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td><p>Nouvelle : [!UICONTROL Standard]</p>
-   Ou
-   <p>Actuelle : [!UICONTROL Plan]</p>
-   </td> 
-  </tr>
+   <td>[!DNL Adobe Workfront] licence</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
+  </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configurations des niveaux d’accès</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +85,7 @@ Vous pouvez mettre le filtre, la vue ou le regroupement à la disposition des pe
 
 ## Mettre les filtres, les vues ou les regroupements à la disposition de toutes les personnes {#make-filters-views-or-groupings-available-to-users}
 
-Vous pouvez choisir d’afficher ou de masquer des filtres, des vues ou des regroupements dans le système. Les filtres visibles sont disponibles pour tous les utilisateurs à l’échelle du système. Ce paramètre agit comme un interrupteur marche/arrêt pour l’ensemble du système, y compris le modèle de disposition.
+Vous pouvez choisir d’afficher ou de masquer des filtres, des vues ou des regroupements dans le système. Les filtres visibles sont disponibles pour tous les utilisateurs à l’échelle du système. Ce paramètre agit comme un interrupteur marche/arrêt pour l’ensemble du système, y compris le modèle de mise en page.
 
 Si vous souhaitez masquer des filtres, des vues ou des regroupements à des utilisateurs spécifiques, nous vous recommandons d’utiliser un modèle de mise en page plutôt que de le désactiver dans tout le système.
 
@@ -111,7 +106,7 @@ Pour afficher ou masquer des filtres, des vues ou des regroupements :
 
    >[!TIP]
    >
-   >Si vous souhaitez que le filtre, la vue ou le regroupement reste disponible pour la plupart des utilisateurs, mais qu&#39;il soit masqué pour les autres, vous pouvez utiliser le modèle de mise en page. Pour plus d’informations, voir [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >Si vous souhaitez que le filtre, la vue ou le regroupement reste disponible pour la plupart des utilisateurs, mais qu&#39;il soit masqué pour les autres, vous pouvez utiliser le modèle de mise en page. Pour plus d’informations, voir [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Conditionnel) Sélectionnez le filtre, la vue ou le regroupement que vous souhaitez masquer aux utilisateurs, puis cliquez sur **[!UICONTROL Désactiver à l’échelle du système]**. Le filtre, la vue ou le regroupement est maintenant masqué pour le modèle de mise en page et pour les utilisateurs du système.
 

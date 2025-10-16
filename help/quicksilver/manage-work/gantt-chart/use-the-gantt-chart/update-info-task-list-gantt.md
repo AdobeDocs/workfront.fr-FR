@@ -1,23 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-the-gantt-chart
-title: Mettre à jour des informations dans le graphique de Gantt de la liste des tâches
-description: Le graphique de Gantt de la liste des tâches présente les détails des tâches d’un projet ou d’un modèle.
+title: Mettre à jour les informations dans le graphique Gantt de la liste des tâches
+description: Le graphique Gantt d’une liste de tâches Adobe Workfront affiche des détails sur les tâches d’un projet ou d’un modèle.
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 98%
+source-wordcount: '1006'
+ht-degree: 91%
 
 ---
 
 # Mettre à jour des informations dans le [!UICONTROL graphique de Gantt] de la liste des tâches
 
-Le [!UICONTROL graphique de Gantt] de la liste des tâches montre les détails des tâches d’un projet ou d’un modèle.
+<!--Audited: 08/2025-->
 
-Dans un modèle, le [!UICONTROL graphique de Gantt] de la liste des tâches reflète les mises à jour effectuées dans la liste des tâches du modèle au niveau des tâches. Vous ne pouvez pas modifier le [!UICONTROL graphique de Gantt] associé à un modèle.
+Le [!UICONTROL graphique Gantt] d’une liste de tâches Adobe Workfront affiche des détails sur les tâches d’un projet ou d’un modèle.
+
+Dans un modèle, la liste des tâches [!UICONTROL graphique Gantt] reflète les mises à jour apportées à la liste des tâches du modèle au niveau de la tâche du modèle. Vous ne pouvez pas modifier le [!UICONTROL graphique de Gantt] associé à un modèle.
 
 Dans un projet, vous pouvez mettre à jour les informations relatives aux tâches directement dans le [!UICONTROL graphique de Gantt] de la liste des tâches.
 
@@ -31,32 +33,60 @@ Cet article décrit les actions suivantes que vous pouvez effectuer directement 
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants pour suivre les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès [!UICONTROL Edit] aux projets et aux tâches</p> <p>Note : si vous n’avez toujours pas d’accès, demandez à votre administrateur ou administratrice [!DNL Workfront] si des restrictions supplémentaires ont été définies dans votre niveau d’accès. Pour plus d’informations sur la manière dont l’administration [!DNL Workfront] peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès [!UICONTROL Edit] aux projets et aux tâches</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Accès [!UICONTROL Manage] au projet et aux tâches </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
+   <td> <p>Accès [!UICONTROL Manage] au projet et aux tâches</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le type de licence, le type de plan ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project and tasks </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Modifier la durée d’une tâche
 

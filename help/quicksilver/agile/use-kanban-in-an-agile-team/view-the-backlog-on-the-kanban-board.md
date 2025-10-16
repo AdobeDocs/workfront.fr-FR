@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Ajout du journal en souffrance au panorama Kanban
+title: Ajouter la liste d’attente au tableau Kanban
 description: Vous pouvez afficher une colonne [!UICONTROL Liste d’attente] directement sur votre panorama Kanban. La colonne [!UICONTROL Liste d’attente] du panorama  [!DNL Kanban]  contient les 20 premiers éléments de votre liste d’attente sur le panorama  [!DNL Kanban] . Les tâches et les problèmes doivent appartenir à un projet dont le statut correspond à « Actif » pour apparaître dans la liste d’attente.
 author: Lisa
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 97%
+source-wordcount: '250'
+ht-degree: 96%
 
 ---
 
@@ -21,8 +21,6 @@ Vous pouvez afficher une colonne [!UICONTROL Liste d’attente] directement sur 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
-   ou
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr>
  </tbody> 
 </table>

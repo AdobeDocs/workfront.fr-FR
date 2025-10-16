@@ -6,10 +6,10 @@ description: Vous pouvez appliquer un filtre à un tableau de bord de la zone de
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 7%
+source-wordcount: '892'
+ht-degree: 8%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 7%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->&#x200B;>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
@@ -30,7 +30,7 @@ Vous pouvez appliquer un filtre à un tableau de bord Zone de travail qui contie
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -39,7 +39,7 @@ Vous pouvez appliquer un filtre à un tableau de bord Zone de travail qui contie
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tous </p> 
    </td> 
@@ -47,8 +47,8 @@ Vous pouvez appliquer un filtre à un tableau de bord Zone de travail qui contie
  <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td> 
-<p>Actuelle : formule </p> 
-<p>Nouveau : Standard</p> 
+<p>Standard</p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 

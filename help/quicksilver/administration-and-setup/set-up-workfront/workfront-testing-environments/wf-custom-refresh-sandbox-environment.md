@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '1763'
-ht-degree: 93%
+source-wordcount: '1719'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ Le sandbox à actualisation personnalisée est un environnement dans lequel vous
 >
 >  De plus, l’obtention du sandbox à actualisation personnalisée nécessite un coût supplémentaire, qui n’est pas nécessaire pour le sandbox de prévisualisation.
 >
->  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Conditions d’accès
 
@@ -42,21 +42,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] plan</td> 
-   <td> <p>[!UICONTROL Business] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Package Workfront</td> 
+   <td> <p>Prime ou Ultimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] licence</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations sur les administrateurs et administratrices [!DNL Workfront], voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>.</p> </td> 
+   <td role="rowheader"> Licence Workfront</td> 
+   <td> <p>Standard</p><p>Plan</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Package de prise en charge</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred] ou [!UICONTROL Enterprise]</p> <p>Le package de prise en charge standard n’inclut pas l’accès au sandbox à actualisation personnalisée, mais il inclut l’accès au sandbox de prévisualisation.</p> </td> 
-  </tr> 
+  </tr>
+   <tr>
+   <td>Configurations des niveaux d’accès
+   </td>
+   <td><p>Vous devez être un administrateur ou une administratrice Workfront.</p>
+   </td>
+  </tr>
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

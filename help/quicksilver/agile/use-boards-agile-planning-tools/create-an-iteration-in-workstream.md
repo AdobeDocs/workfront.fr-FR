@@ -7,10 +7,10 @@ description: Une itération est la durée affectée à la réalisation d’un tr
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 98%
+source-wordcount: '399'
+ht-degree: 96%
 
 ---
 
@@ -26,28 +26,25 @@ Une itération est la durée affectée à la réalisation d’un travail. Certai
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
-   <p>ou</p>
-   <p>Actuelle : [!UICONTROL Request] ou supérieure</p>
+   <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p>
    </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -123,6 +120,6 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 ## Supprimer une itération
 
-1. Sélectionnez l’onglet [!UICONTROL **Liste des cartes**] dans le flux de travail et ouvrez la vue de l’itération.
+1. Cliquez sur l’onglet [!UICONTROL **Liste des cartes**] dans le flux de travail et ouvrez la vue de l’itération.
 1. Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) en regard de l’itération.
 1. Cliquez sur [!UICONTROL **Supprimer l’itération**] dans le message de confirmation qui s’affiche.

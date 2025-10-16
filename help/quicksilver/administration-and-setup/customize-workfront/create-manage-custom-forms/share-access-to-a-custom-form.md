@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: a7be72f0a594a21baed2592d8a2e467118ab1b7f
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1508'
 ht-degree: 89%
 
 ---
@@ -23,31 +23,27 @@ Vous pouvez configurer l’accès à un formulaire personnalisé pour contrôler
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
-   <td>Tous</td> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td>
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -115,13 +111,13 @@ Plutôt que de laisser un formulaire personnalisé dans le statut de partage par
 
 1. Cliquer sur **Enregistrer**.
 
-## Partager un formulaire personnalisé à partir du créateur de formulaire
+## Partager un formulaire personnalisé à partir du concepteur de formulaires
 
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Formulaires personnalisés**.
 1. Ouvrez un formulaire personnalisé ou créez un formulaire personnalisé.
-1. Cliquez sur **Partager** en haut à droite du créateur de formulaire lorsque le formulaire est prêt à être partagé.
+1. Cliquez sur **Partager** en haut à droite du concepteur de formulaires lorsque le formulaire est prêt à être partagé.
 1. Dans la zone qui s’affiche, sous **Accorder l’accès à un formulaire personnalisé**, commencez à saisir le nom de la personne, de l’équipe, de la fonction, du groupe ou de l’entreprise avec lequel vous souhaitez partager le formulaire personnalisé, puis appuyez sur **Entrée** lorsque le nom s’affiche.
 1. Pour ajuster l’accès de l’utilisateur ou de l’utilisatrice, de l’équipe, de la fonction, du groupe ou de la société que vous venez d’ajouter, cliquez sur le menu déroulant à droite du nom, puis configurez l’une des options disponibles suivantes, ainsi que l’un de ses paramètres avancés :
 

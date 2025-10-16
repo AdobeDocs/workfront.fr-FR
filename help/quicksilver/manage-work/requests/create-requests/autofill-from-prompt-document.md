@@ -5,10 +5,10 @@ description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 10%
+source-wordcount: '1345'
+ht-degree: 8%
 
 ---
 
@@ -33,8 +33,6 @@ Les utilisateurs ne reçoivent pas de suggestions de données auxquelles ils n�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -45,9 +43,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouvelle : contributeur ou supérieure</p>
-   Ou
-   <p>Actuelle : demande ou supérieure</p>
+   <td> <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p>
     </td> 
   </tr> 
   <tr> 
@@ -61,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

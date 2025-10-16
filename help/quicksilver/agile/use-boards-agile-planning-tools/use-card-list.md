@@ -2,15 +2,15 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: Utilisation de la liste de cartes
+title: Utiliser la liste de cartes
 description: Vous pouvez créer une liste de cartes sur un flux de travail et ajouter les cartes aux itérations.
 author: Lisa
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 99%
+source-wordcount: '632'
+ht-degree: 98%
 
 ---
 
@@ -28,28 +28,25 @@ La liste des cartes peut servir de liste d’attente des travaux pour le flux de
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
-   <p>ou</p>
-   <p>Actuelle : [!UICONTROL Request] ou supérieure</p>
+   <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

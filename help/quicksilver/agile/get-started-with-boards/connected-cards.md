@@ -6,9 +6,9 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1430'
 ht-degree: 96%
 
 ---
@@ -30,7 +30,7 @@ Lorsque l’un des détails suivants est mis à jour pour la carte à un emplace
 * [!UICONTROL Sous-tâches]
 * [!UICONTROL Documents]
 
-Pour synchroniser les cartes connectées avec Workfront, cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Plus de menu]](assets/more-icon-spectrum.png) en regard du nom du panorama et sélectionnez **[!UICONTROL Synchroniser les éléments connectés]**. Les cartes archivées ne sont pas synchronisées avec les tâches et les problèmes Workfront. Si vous restaurez une carte, elle sera à nouveau synchronisée.
+Pour synchroniser les cartes connectées avec Workfront, cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Plus]](assets/more-icon-spectrum.png) en regard du nom du panorama et sélectionnez **[!UICONTROL Synchroniser les éléments connectés]**. Les cartes archivées ne sont pas synchronisées avec les tâches et les événements Workfront. Si vous restaurez une carte, elle sera à nouveau synchronisée.
 
 >[!NOTE]
 >
@@ -40,21 +40,18 @@ Pour synchroniser les cartes connectées avec Workfront, cliquez sur le menu **[
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td>
-   <p>Nouvelle : contributeur ou supérieure</p>
-   <p>Ou</p>
-   <p>Actuelle : demande ou supérieure</p>
- </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+   <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p>
+   </td> 
   </tr> 
   <tr>
    <td role="rowheader">Configurations du niveau d’accès</td>
@@ -63,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader">Autorisations d’objet</td>
    <td><p>Autorisations d’affichage ou supérieures à une tâche ou à un problème Workfront</p>
-   <p><strong>Note : les personnes disposant d’autorisations d’affichage pour une tâche ou un problème ne peuvent pas agir sur les cartes qui y sont connectées, y compris déplacer la carte vers une autre colonne du panorama. </strong> Les personnes avec un accès en affichage peuvent uniquement ouvrir la carte pour afficher ses propriétés et ouvrir la tâche ou le problème connecté. Pour demander un accès supplémentaire, ouvrez la tâche ou le problème et demandez l’accès.</td>
+</td>
   </tr>
  </tbody> 
 </table>
@@ -169,7 +166,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Cliquez sur dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme. Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. La personne n’a pas à être membre du panorama. Les utilisateurs et utilisatrices tagués sur des cartes connectées recevront des notifications par e-mail.</p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
+      <td><p>Cliquez sur dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de mise en forme pour mettre le texte en forme. Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. La personne n’a pas à être membre du panorama. Les utilisateurs et utilisatrices tagués sur des cartes connectées recevront des notifications par e-mail.</p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
       <p>Pour plus d’informations sur les commentaires, consultez la section <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mettre à jour le travail</a>.</p></td>
      </tr>
      <tr> 

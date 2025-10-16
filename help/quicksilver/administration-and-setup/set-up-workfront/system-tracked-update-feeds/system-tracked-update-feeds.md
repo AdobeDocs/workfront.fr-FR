@@ -9,7 +9,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 95%
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 # Présentation des mises à jour suivies par le système
 
-<!-- Audited: 06/2025-->
+<!-- Audited: 08/2025-->
 
 [!DNL Adobe Workfront] capture l’activité qui se produit sur certains objets en consignant des informations relatives au statut dans la section [!UICONTROL Mises à jour] de l’objet.
 
@@ -36,7 +36,7 @@ La zone [!UICONTROL Mises à jour] comprend les types de mises à jour suivants�
 
   Pour plus d’informations sur les flux de mise à jour système et leur activation, consultez la section [Configurer les mises à jour système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  ![&#x200B; Exemple de mises à jour système &#x200B;](assets/system-updates-example-unified-stream.png)
+  ![ Exemple de mises à jour système ](assets/system-updates-example-unified-stream.png)
 
 
   <!--

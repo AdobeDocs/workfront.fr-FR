@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: manage-issues
 title: Attribuer des problèmes
 description: Vous pouvez affecter des problèmes aux utilisateurs et utilisatrices, aux rôles et aux équipes afin d’indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la Vue d’ensemble de la modification des affectations de problèmes.
-author: Alina
+author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1432'
 ht-degree: 92%
 
 ---
@@ -47,35 +47,33 @@ L’affectation d’événements et de tâches est similaire dans Adobe Workfron
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle : contributeur ou supérieure</p>
-   <p>Actuel : Révision ou supérieur</p> </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td> <p>Contributeur ou version ultérieure</p>
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux problèmes</p> <p>Accédez en lecture seule ou à un niveau supérieur aux Projets et Tâches pour affecter un événement.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Autorisations d’objet</td> 
    <td> <p>Gérer les autorisations liées aux problèmes</p> <p> Afficher les autorisations ou supérieures pour le projet ou la tâche contenant l’événement lors de l’affectation d’un événement</p><p>Accordez des autorisations ou supérieures au projet ou à la tâche où se trouve le problème lors de l’affectation de plusieurs problèmes.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

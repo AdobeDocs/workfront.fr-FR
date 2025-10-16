@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Convertir un problème en projet dans Adobe Workfront
-description: Convertir un problème en projet dans Adobe Workfront
+title: Convertir un événement en projet
+description: Si du travail supplémentaire doit être effectué pour résoudre un problème après l’envoi du problème, vous pouvez convertir le problème en projet dans Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '2017'
-ht-degree: 87%
+source-wordcount: '2009'
+ht-degree: 84%
 
 ---
 
-# Convertir un problème en projet dans Adobe Workfront
+# Convertir un problème en projet
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 Si un travail supplémentaire doit être effectué pour compléter un problème après sa soumission, vous pouvez convertir le problème en projet.
 
-Vous pouvez convertir un problème en nouveau projet ou en projet à partir d’un modèle. Cet article décrit les deux façons de convertir les problèmes en projets.
+Vous pouvez convertir un événement en projet avec ou sans utiliser de modèle de projet. Cet article décrit les deux façons de convertir les problèmes en projets.
 
 >[!IMPORTANT]
 >
@@ -31,29 +31,27 @@ Lors de la création d’un projet à partir d’un problème, certains champs d
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard </p> 
-    <p>Actuel : formule </p> </td> 
+   <p>Standard</p> 
+    <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux problèmes, aux tâches et aux projets</p> <p>Modifiez l’accès aux données financières pour mettre à jour les informations financières d’un projet converti à partir d’un problème.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher les autorisations relatives au problème</p> <p>Vous obtenez les autorisations de gestion du projet après la conversion du problème.</p> </td> 
+   <td> <p>Afficher les autorisations relatives au problème</p> <p>Vous obtenez des autorisations de niveau Gérer pour le projet après avoir converti l’événement</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,6 +59,34 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard </p> 
+    <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues, Tasks, and Projects</p> <p>Edit access to Financial Data to update financial information for a projected converted from the issue</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p>You obtain Manage permissions to the project after the issue is converted</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## Considérations
 
@@ -133,7 +159,7 @@ Vous pouvez convertir un problème en un projet vide.
      >[!TIP]
      >
      >* Si un formulaire personnalisé multi-objets attaché au problème est configuré pour être utilisé à la fois avec les problèmes et les projets, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois dans le problème et dans les formulaires personnalisés du projet.
-     >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, reportez-vous à la section « Champs calculés personnalisés dans les formulaires personnalisés à plusieurs objets » de la section [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+     >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, reportez-vous à la section « Champs calculés personnalisés dans les formulaires personnalisés à plusieurs objets » de la section [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 1. Cliquez sur [!UICONTROL **Convertir en un projet**].
 
@@ -194,13 +220,13 @@ Vous pouvez convertir un problème en projet à l’aide d’un modèle.
 
    La zone [!UICONTROL Convertir en un projet] s’ouvre.
 
-   ![&#x200B; Convertir en projet &#x200B;](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![ Convertir en projet ](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. Si un champ est déjà rempli dans le modèle, il est pré-rempli dans la zone [!UICONTROL Convertir en un projet]. Vous pouvez modifier les valeurs pré-remplies pour qu’elles correspondent mieux à votre projet. Pour plus d’informations, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    >[!TIP]
    >
-   >* L’administrateur ou l’administratrice système ou de groupes peut ajouter ou supprimer des champs dans la zone [!UICONTROL Convertir en un projet] en mettant à jour les informations sur les détails du projet dans votre [!UICONTROL Modèle de disposition].
+   >* L’administrateur ou l’administratrice système ou de groupes peut ajouter ou supprimer des champs dans la zone [!UICONTROL Convertir en un projet] en mettant à jour les informations sur les détails du projet dans votre [!UICONTROL Modèle de mise en page].
    >
    >* Pour mettre à jour les champs de la section [!UICONTROL Finance] dans la zone [!UICONTROL Convertir en un projet], vous devez disposer d’un niveau d’accès en [!UICONTROL modification] et pouvoir accéder aux [!UICONTROL données financières]. Si vous disposez d’un niveau d’accès en [!UICONTROL affichage] aux [!UICONTROL données financières], toutes les informations financières du modèle sont transférées vers le nouveau projet et vous ne pouvez pas les modifier pendant la conversion du problème. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) et [Partager un modèle](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
@@ -241,7 +267,7 @@ Vous pouvez convertir un problème en projet à l’aide d’un modèle.
         >[!TIP]
         >
         >* Si un formulaire personnalisé multi-objets attaché au problème est configuré pour être utilisé à la fois avec les problèmes et les projets, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois dans le problème et dans les formulaires personnalisés du projet.
-        >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+        >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
         >* Si un formulaire personnalisé joint au modèle contient un champ personnalisé qui se trouve également dans un formulaire personnalisé joint au problème, la valeur du champ du problème est utilisée pour le nouveau projet. Cependant, si le champ personnalisé est vide sur le problème, la valeur du modèle est utilisée.
 
 1. (Facultatif) Définissez d’autres détails du projet (personne propriétaire du projet, dates du projet) et des tâches si nécessaire.

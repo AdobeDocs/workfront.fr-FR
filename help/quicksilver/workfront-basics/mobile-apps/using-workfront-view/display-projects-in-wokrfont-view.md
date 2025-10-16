@@ -7,10 +7,10 @@ description: Par défaut, la liste des projets affichée dans  [!DNL Adobe Workf
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '360'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Par défaut, la liste des projets affichée dans [!DNL Adobe Workfront View] aff
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants dans [!DNL Workfront] pour suivre les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,17 +29,21 @@ Vous devez disposer des accès suivants dans [!DNL Workfront] pour suivre les é
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td> 
+   <p>Contributeur ou version ultérieure</p>
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modifier le regroupement dans votre liste de projets
 

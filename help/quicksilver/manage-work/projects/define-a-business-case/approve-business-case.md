@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Approuver une analyse de rentabilité
 description: Après avoir complété et soumis le business case d’une demande de projet, le business case doit être approuvé. Cela dépend du workflow dans votre organisation. Un projet peut être lancé sans que le business case ne soit approuvé, mais l’administrateur ou administratrice Adobe Workfront et les responsables du projet ne considèrent peut-être pas qu’il s’agit là de la meilleure solution.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 83%
+source-wordcount: '682'
+ht-degree: 85%
 
 ---
 
@@ -29,18 +29,16 @@ Pour plus d’informations sur la façon de remplir et de soumettre un business 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-   <p>Current : Prime ou version ultérieure</p>
-   <p>ou</p>
-   <p>Hérité : Professionnel ou supérieur</p> 
+   <p>Prime ou version ultérieure</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Actuel : Standard </p> 
-   <p>Hérité : plan </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -53,7 +51,7 @@ Pour plus d’informations sur la façon de remplir et de soumettre un business 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

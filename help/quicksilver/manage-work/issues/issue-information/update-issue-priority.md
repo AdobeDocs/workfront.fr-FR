@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Mettre à jour la priorité du problème
+title: Mettre à jour la priorité des événements
 description: Vous pouvez définir une priorité pour un problème afin d’indiquer son importance.
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 93%
+source-wordcount: '295'
+ht-degree: 88%
 
 ---
 
@@ -17,45 +17,46 @@ ht-degree: 93%
 
 Vous pouvez définir une priorité pour un problème afin d’indiquer son importance.
 
-Vous devez disposer des autorisations de niveau Gérer pour le problème afin de modifier sa Priorité. [Mettre à jour la priorité d&#39;un événement](#update-the-priority-of-an-issue).
-
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux problèmes</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations liées aux problèmes</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations liées aux problèmes</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vue d’ensemble des priorités d’un problème
 
-Chaque libellé de priorité est associé à un numéro qui ne peut pas être modifié.
+Le numéro associé à chaque libellé de priorité ne peut pas être modifié.
 
-Les administrateurs et administratrices d’Adobe Workfront peuvent modifier les libellés de priorité dans Workfront ou créer des priorités. Par conséquent, les options que vous pouvez avoir pour le champ des priorités dans votre instance Workfront peuvent différer de celles énumérées ci-dessous.
+Les administrateurs et administratrices Adobe Workfront peuvent modifier les libellés de priorité dans Workfront ou créer des priorités. Par conséquent, les options disponibles pour le champ Priorité dans votre instance Workfront peuvent différer de celles répertoriées ci-dessous.
 
-Familiarisez-vous avec la séquence de numérotation des priorités utilisée dans votre organisation.\
-Par exemple, votre organisation peut utiliser le chiffre 1 pour désigner les tâches urgentes, si le libellé de la priorité a été modifié.
+Vous devez vous familiariser avec la séquence de numérotation des priorités utilisées dans votre organisation.\
+Par exemple, votre organisation peut utiliser le numéro 1 pour faire référence à des tâches urgentes, si le libellé de la priorité a été modifié.
 
 Pour plus d’informations sur la personnalisation des noms de priorités dans votre instance, consultez la section [Créer et personnaliser des priorités](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 

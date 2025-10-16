@@ -2,15 +2,15 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Gérer les requêtes de travail et d’équipe
+title: Gérer les demandes de travail et d'équipe
 description: Une demande représente une tâche ou une affectation de problème en attente. Les demandes de travail sont faites aux personnes et les demandes d’équipe sont faites aux équipes.
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 93%
+source-wordcount: '486'
+ht-degree: 95%
 
 ---
 
@@ -26,27 +26,23 @@ Une demande représente une tâche ou une affectation de problème en attente. L
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Pour affecter ou travailler sur une requête :
-   <p>Nouveau : clair ou supérieur</br>
-    or</br>
-   Actuel : révision ou version ultérieure</p>
-   <p>Pour réaffecter une requête :
-   <p>Nouveau : Standard</br>
-    or</br>
-   Actuel : travail ou plus élevé</p></td>
+   <p>Pour affecter ou traiter une demande :
+   <p>Léger ou supérieur</p>
+  <p>Révision ou supérieur</p>
+   <p>Pour réaffecter une demande :
+   <p>Standard</p>
+   <p>Travail ou supérieur</p></td>
   </tr> 
  </tbody> 
 </table>

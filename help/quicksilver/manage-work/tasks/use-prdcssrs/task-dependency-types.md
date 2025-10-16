@@ -2,15 +2,15 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: use-predecessors
-title: Vue d’ensemble des types de dépendances de tâches
+title: Présentation des types de dépendance de tâche
 description: Les types de dépendances se rapportent aux relations d’antériorité entre les tâches. Ils définissent le moment où la tâche dépendante peut commencer ou se terminer en fonction du début ou de la fin de sa tâche antérieure.
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

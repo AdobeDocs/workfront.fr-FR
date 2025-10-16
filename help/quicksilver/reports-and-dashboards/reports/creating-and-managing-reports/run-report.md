@@ -6,9 +6,9 @@ description: Vous pouvez exécuter tous les rapports que vous pouvez afficher.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '497'
 ht-degree: 83%
 
 ---
@@ -28,45 +28,35 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-      <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès à l’affichage de rapports, tableaux de bord, calendriers</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en affichage aux rapports, tableaux de bord et calendriers</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage pour un rapport</p></td> 
+     <td> <p>Autorisations d’affichage pour un rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +76,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    Pour plus d’informations sur les invites, consultez la section [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).\
    L’horodatage du rapport s’affiche dans le coin supérieur droit, comprenant la date, l’heure et le fuseau horaire de l’exécution du rapport à partir du contexte de l’utilisateur ou de l’utilisatrice à l’origine de l’exécution du rapport.
 
-1. (Facultatif) Cliquez sur l’icône **&#x200B;**&#x200B;![Icône Recharger](assets/unshimmed-report-refresh-icon.png) pour actualiser les résultats dans un rapport si le rapport s’affiche dans votre navigateur depuis un certain temps.
+1. (Facultatif) Cliquez sur l’icône **Recharger** ![Icône Recharger](assets/unshimmed-report-refresh-icon.png) pour actualiser les résultats d’un rapport si celui-ci a été affiché dans votre navigateur pendant un certain temps.
 
 1. (Le cas échéant) Si le rapport utilise des filtres ou des invites, cliquez sur **Afficher les filtres et les invites** pour afficher la liste des filtres et des invites utilisés sur le rapport que vous consultez. Si le rapport ne comporte que des filtres ou des invites, le choix **Afficher les filtres** ou **Afficher les invites** apparaît à la place.
 
@@ -102,7 +92,7 @@ Votre rapport peut être mis en cache s’il est resté affiché dans votre navi
 
 * Modifiez les paramètres du rapport et enregistrez-le.
 * Modifiez l’affichage, le groupe ou le filtre.
-* Cliquez sur l&#39;**icône de rechargement** ![icône de rechargement](assets/unshimmed-report-refresh-icon.png)
-Cette option est disponible dans le coin supérieur droit de la page, dans la zone de message, pour indiquer l’heure d’enregistrement du rapport ou dans le coin supérieur droit du tableau de bord sur lequel le rapport est placé. Pour plus d’informations sur la façon de charger à nouveau des tableaux de bord, consultez la section « Afficher les tableaux de bord » de l’article [Commencer avec les tableaux de bord](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+* Cliquez sur l’**icône Recharger** ![icône Recharger](assets/unshimmed-report-refresh-icon.png)
+Cette option est disponible dans le coin supérieur droit de la page dans la zone de message qui indique l’heure d’enregistrement du rapport, ou elle est disponible dans le coin supérieur droit du tableau de bord sur lequel le rapport est placé. Pour plus d’informations sur la façon de charger à nouveau des tableaux de bord, consultez la section « Afficher les tableaux de bord » de l’article [Commencer avec les tableaux de bord](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 * Naviguez vers les onglets Résumé, Matrice ou Graphique pour accéder à n’importe quelle page du rapport au-delà de la première.

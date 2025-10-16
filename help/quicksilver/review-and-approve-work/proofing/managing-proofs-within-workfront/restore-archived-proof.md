@@ -6,10 +6,10 @@ description: Une épreuve est automatiquement archivée lorsqu’elle n’est pa
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 100%
+source-wordcount: '164'
+ht-degree: 98%
 
 ---
 
@@ -21,25 +21,28 @@ Une épreuve est automatiquement archivée lorsqu’elle n’est pas ouverte pen
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Formule héritée : Select ou Premium</p> <p>Pour plus d’informations sur la relecture de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
-  </tr>
-
-<tr> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"> <p>Licence Adobe Workfront</p> </td> 
+   <td> 
+   <p>Tous</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Accès à l’épreuve </td> 
    <td>Invité ou invitée ou niveau supérieur</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître la formule ou l’accès à l’épreuve dont vous disposez, contactez l’équipe d’administration de Workfront ou de Workfront Proof.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

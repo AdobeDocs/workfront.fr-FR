@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Vue d’ensemble du mode de suivi des tâches
+title: Aperçu du mode de suivi des tâches
 description: Vous pouvez régler le paramètre Mode de suivi d’une tâche lors de la création ou de la modification d’une tâche afin de contrôler comment et à quel moment les indicateurs Statut de la progression d’une tâche s’affichent. Adobe Workfront affiche des indicateurs de statut de la progression lorsque vous configurez certains paramètres pour le suivi de la progression des tâches.
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

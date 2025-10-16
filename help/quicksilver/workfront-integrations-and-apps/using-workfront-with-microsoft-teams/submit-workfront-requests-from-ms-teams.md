@@ -6,10 +6,10 @@ description: Une fois que la personne propriétaire de votre équipe a installé
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 83%
+source-wordcount: '598'
+ht-degree: 81%
 
 ---
 
@@ -28,26 +28,31 @@ Une fois que la personne propriétaire de votre équipe a installé [!DNL Adobe 
 >[!DNL Microsoft Teams] ne prend plus en charge [!DNL Internet Explorer]. Pour utiliser [!DNL Adobe Workfront for Microsoft Teams integration], vous devez utiliser un navigateur web autre qu’[!DNL Internet Explorer].
 
 
+
+
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>Travail, plan, révision, demande</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Contributeur ou version ultérieure</p>
+   <p>Demandeur ou supérieur</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez l’administration de [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -64,7 +69,7 @@ La personne propriétaire de l’équipe [!DNL Microsoft Teams] doit installer [
 1. (Facultatif) Sélectionnez un groupe de sujets ou une rubrique de file d’attente, s’ils sont disponibles dans la file d’attente des demandes.
 1. Indiquez les informations suivantes :
 
-   (Selon la façon dont la file d’attente des demandes a été configurée, les options et les cases que vous voyez peuvent varier. Pour une liste complète et une description des champs possibles, voir [Créer et soumettre des demandes  [!DNL Adobe Workfront] &#x200B;](../../manage-work/requests/create-requests/create-submit-requests.md).)
+   (Selon la façon dont la file d’attente des demandes a été configurée, les options et les cases que vous voyez peuvent varier. Pour une liste complète et une description des champs possibles, voir [Créer et soumettre des demandes  [!DNL Adobe Workfront] ](../../manage-work/requests/create-requests/create-submit-requests.md).)
 
    <table style="table-layout:auto"> 
     <col> 

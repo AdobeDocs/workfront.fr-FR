@@ -9,9 +9,9 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: b57dd3a93b84fb78fb697e1fb18352809f0987f8
+source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '185'
 ht-degree: 93%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 93%
 Cette section contient les articles suivants :
 
 * [Charger des fichiers via l’API](../../wf-api/api/uploading-files-api.md)
-* [Fin de la prise en charge de JSONP](../../wf-api/api/ending-support-jsonp.md)
 * [Filtrer les messages d’abonnement aux événements](../../wf-api/api/filter-event-sub-messages.md)
 * [Reprises pour les abonnements aux événements](../../wf-api/api/event-sub-retries.md)
 * [Certificats d’abonnement à des événements](../../wf-api/api/event-sub-certs.md)
@@ -36,7 +35,7 @@ Cette section contient les articles suivants :
 * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux JWT](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configurer et utiliser les applications OAuth2 personnalisées de votre organisation à l’aide du flux PKCE](../../wf-api/api/oauth-app-pkce-flow.md)
 * [Nouveautés de l’API version 20](../../wf-api/api/new-api-version-20.md)
-* [Nouveautés de la version 19 de l’API &#x200B;](../../wf-api/api/new-api-version-19.md)
+* [Nouveautés de la version 19 de l’API ](../../wf-api/api/new-api-version-19.md)
 * [Nouveautés de la version 18 de l’API](../../wf-api/api/new-api-version-18.md)
 * [Nouveautés de la version 17 de l’API](../../wf-api/api/new-api-version-17.md)
 * [Nouveautés de la version 16 de l’API](../../wf-api/api/new-api-version-16.md)

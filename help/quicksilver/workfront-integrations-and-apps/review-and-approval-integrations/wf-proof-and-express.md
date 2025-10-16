@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 7%
+source-wordcount: '504'
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ Utilisez Workfront Proof avec Adobe Express pour :
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> 
    <p>Tous</p> 
    </td> 
@@ -51,15 +51,14 @@ Utilisez Workfront Proof avec Adobe Express pour :
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produit</td> 
+   <td role="rowheader">Produits supplémentaires</td> 
    <td> 
    <p> Vous devez disposer d’Adobe Express et être ajouté au produit en tant qu’utilisateur dans Admin Console. </p> </td> 
   </tr>
-
-</tbody> 
+ </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +89,7 @@ Lorsqu’un modèle Express est mélangé, une approbation est requise avant la 
 
 Les utilisateurs doivent disposer d’une licence Workfront standard pour demander l’approbation d’Adobe Express.
 
-Découvrez comment [&#x200B; obtenir l’approbation des conceptions &#x200B;](https://helpx.adobe.com/fr/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Découvrez comment [ obtenir l’approbation des conceptions ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remix des modèles Express et envoi pour révision et approbation

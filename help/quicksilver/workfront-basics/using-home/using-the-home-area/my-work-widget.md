@@ -6,10 +6,10 @@ description: Le widget Mon travail affiche toutes les tâches, tous les événem
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 13%
+source-wordcount: '722'
+ht-degree: 11%
 
 ---
 
@@ -25,8 +25,6 @@ Le widget Mon travail affiche toutes les tâches, tous les événements et toute
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,16 +32,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
-   <td> <p>Actif : Contribuer</p>
-   <p>Ou</p> 
-   <p>Nouveau :[!UICONTROL Light] ou version ultérieure<p> 
+   <td> 
+      <p>Léger ou supérieur</p>
+   <p>Contribuer ou version ultérieure</p>
   </td> 
-  </tr> </ul>
+  </tr>
   <tr> 
    <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
    <td> <p>Accès en [!UICONTROL View] ou de niveau supérieur aux projets, tâches, problèmes et documents</p> </td> 
@@ -55,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +76,7 @@ Vous pouvez affiner les filtres Mon travail pour qu’ils se concentrent sur des
       <td>Affiche les éléments avec 
       <ul>
       <li>Aucune contrainte de tâches ou de prédécesseurs incomplète</li>
-      <p>et</p>
+      <p>and</p>
       <li>La date de début prévue est dans le passé ou peut être dans les deux semaines à venir</li>
       </ul>
       </td>

@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: plan-a-project
 title: Voir les heures prévues du projet dans le panneau Affectation des rôles
 description: Vous pouvez visualiser l’affectation des rôles pour toutes les fonctions affectées aux éléments de travail d’un projet dans le panneau Affectation des rôles du projet.
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 78%
+source-wordcount: '476'
+ht-degree: 61%
 
 ---
 
@@ -24,14 +24,50 @@ Vous pouvez visualiser l’affectation des rôles pour toutes les fonctions affe
 >* [Afficher l’affectation des rôles pour les projets et les initiatives dans la liste des tâches](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
 >* [Afficher l’affectation des rôles pour les projets et les initiatives dans l’équilibreur de charge de travail](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  Vous devez disposer d’une licence Planificateur de scénarios pour voir les heures d’initiative dans le panneau d’affectation des rôles.Pour plus d’informations sur le planificateur de scénarios, voir [Commencer avec le planificateur de scénarios](../../../scenario-planner/get-started-with-scenario-planning.md).
+>  Vous devez disposer d’une licence de Planificateur de scénarios pour afficher les heures d’initiative dans le panneau Attribution des rôles. Pour plus d’informations sur le planificateur de scénarios, voir [Prise en main du planificateur de scénarios](../../../scenario-planner/get-started-with-scenario-planning.md).
 >
+>Si votre société a acheté le planificateur de scénarios Adobe par le passé, il bénéficie d’une clause d’antériorité. Le planificateur de scénarios ne peut plus être acheté.
 
 ## Conditions d’accès
 
-<!--drafted for P&P:
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workflow Ultimate</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+   <p>Léger ou supérieur</p>
+   <p>Révision ou supérieur</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en affichage ou supérieur aux projets</p>
+   <p>Modifier l’accès au planificateur de scénarios pour mettre à jour les heures des initiatives</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Autorisations en affichage ou autorisations supérieures sur le projet</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+able style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -41,10 +77,7 @@ Vous pouvez visualiser l’affectation des rôles pour toutes les fonctions affe
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Light or higher</p> 
-   Or
-   <p>Legacy license: Review or higher</p> 
-   </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,36 +88,7 @@ Vous pouvez visualiser l’affectation des rôles pour toutes les fonctions affe
    <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
--->
-
-Vous devez disposer des éléments suivants :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou supérieur</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès en affichage ou supérieur aux projets</p> <p>Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations en affichage ou autorisations supérieures sur le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+</table>-->
 
 ## Conditions préalables
 

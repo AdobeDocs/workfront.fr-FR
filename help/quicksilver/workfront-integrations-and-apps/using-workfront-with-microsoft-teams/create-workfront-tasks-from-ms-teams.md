@@ -6,10 +6,10 @@ description: Si une personne responsable d’une équipe a installé et configur
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 77%
+source-wordcount: '443'
+ht-degree: 76%
 
 ---
 
@@ -21,26 +21,31 @@ ht-degree: 77%
 >
 >L’intégration Workfront mise à jour est désormais disponible et entièrement compatible avec la nouvelle expérience Équipes . Dans la plupart des cas, Workfront s’affiche automatiquement une fois la transition effectuée. Si ce n’est pas le cas, l’intégration peut être installée manuellement à partir de Microsoft Teams App Store. Pour installer ou vérifier l’intégration de Workfront dans le client New Teams, voir [Installer [!DNL Adobe Workfront] pour Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
+
+
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
-  </tr>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Travail ou supérieur</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -83,7 +88,7 @@ Pour plus d’informations sur l’installation de [!DNL Workfront for Microsoft
 
    La nouvelle tâche personnelle est créée dans [!DNL Workfront]. Un [!UICONTROL numéro de référence] y est affecté et est visible dans la carte de la [!UICONTROL nouvelle tâche].
 
-   Pour plus d’informations sur les numéros de référence, consultez la section [[!UICONTROL Numéros de référence] des objets &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) dans l’article [Comprendre les objets dans  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Pour plus d’informations sur les numéros de référence, consultez la section [[!UICONTROL Numéros de référence] des objets ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) dans l’article [Comprendre les objets dans  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Modifier]** pour modifier les informations de la tâche.
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher dans[!DNL Workfront]]** pour ouvrir la tâche dans un nouvel onglet dans [!DNL Workfront] et la modifier, la déplacer vers un projet ou l’affecter à une autre personne.

@@ -7,10 +7,10 @@ description: Si vous recevez une erreur indiquant que le nom d’utilisateur ou 
 author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 98%
+source-wordcount: '295'
+ht-degree: 97%
 
 ---
 
@@ -20,31 +20,28 @@ ht-degree: 98%
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
-   <td>Tous</td> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Administrateur ou administratrice système</p> </td> 
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td><p>Administrateur ou administratrice système</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

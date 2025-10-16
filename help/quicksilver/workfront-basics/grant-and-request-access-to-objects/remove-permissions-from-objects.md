@@ -6,10 +6,10 @@ description: Vous pouvez supprimer les autorisations d’autres utilisateurs et 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 85%
+source-wordcount: '767'
+ht-degree: 82%
 
 ---
 
@@ -23,31 +23,21 @@ Les mêmes remarques que pour le partage d’objets s’appliquent à la suppres
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-
-Pour partager des objets, vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Workfront*</td> 
-   <td> <p>Nouvelle licence : contribution ou niveau supérieur</p>
-   Ou  
-   <p>Licence actuelle : demande ou niveau supérieur</p>
-   <p><b>NOTE</b></p>
-
-<p>Certains objets nécessitent un accès plus élevé que le niveau de demande. </p>
-
-<p>Par exemple, pour la nouvelle licence, un contributeur ou une contributrice peut partager des problèmes, mais seuls les utilisateurs et utilisatrices de la licence Standard peuvent partager un projet.</p>
-
-<p>Pour la licence actuelle, une personne titulaire d’une licence de demande peut partager des problèmes, mais seules les personnes titulaires d’une licence de travail ou de plan peuvent partager un projet.</p> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p>
+   <p><strong>Remarque </strong> : certains objets nécessitent un accès supérieur à celui de la demande.</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,11 +47,11 @@ Pour partager des objets, vous devez disposer des éléments suivants :
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Autorisations d’affichage ou supérieures pour les objets que vous souhaitez partager.</p> <p>Autorisations de gestion pour supprimer les autorisations héritées sur les objets</p>  </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,10 +6,10 @@ description: Vous pouvez créer et supprimer des modèles à partir de la zone M
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 97%
+source-wordcount: '566'
+ht-degree: 96%
 
 ---
 
@@ -41,22 +41,20 @@ Vous pouvez créer un modèle des manières suivantes :
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p><p>Ou </p><p>Actuel : formule </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Vous devez être un administrateur ou une administratrice système pour importer des modèles à partir de plans directeurs.</p> </td> 
+   <td> <p>Standard </p><p>Plan</p> <p>Vous devez être un administrateur ou une administratrice système pour importer des modèles à partir de plans directeurs.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux modèles</p> </td> 
   </tr> 
   <tr> 
@@ -69,6 +67,30 @@ Vous devez disposer des éléments suivants :
 Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p><p>Or </p><p>Current: Plan </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You must be a system administrator to import templates from Blueprints</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>You have Manage permissions to the templates you create, by default</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Créer un modèle
 

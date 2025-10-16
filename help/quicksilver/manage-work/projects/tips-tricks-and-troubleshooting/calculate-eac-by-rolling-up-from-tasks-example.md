@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: Exemple de calcul - Calculer l’estimation à l’achèvement en tant que cumul à partir des tâches
-description: PIM = basé sur les heures
-author: Alina
+title: Exemple de calcul - Calculer CRE comme un cumul à partir des tâches
+description: Cet article donne un exemple de calcul de l’Estimation à l’achèvement (EAC) d’un projet comme cumul de toutes les tâches du projet dans Adobe Workfront.
+author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 100%
+source-wordcount: '1134'
+ht-degree: 96%
 
 ---
 

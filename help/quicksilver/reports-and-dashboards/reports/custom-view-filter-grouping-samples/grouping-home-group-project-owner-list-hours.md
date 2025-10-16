@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Groupement : groupe d’accueil du propriétaire du projet dans une liste d’heures"
+title: 'Regroupement : groupe principal du propriétaire du projet dans une liste d''heures'
 description: Vous pouvez afficher le nom du groupe principal de la personne propriétaire du projet dans une liste d’heures ou un rapport.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 80%
+source-wordcount: '222'
+ht-degree: 77%
 
 ---
 
@@ -26,28 +26,21 @@ Le regroupement regroupe également les résultats en fonction du nom de la pers
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
-   <li><p>Standard pour modifier un rapport</p></li> </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Demande de modification d’un filtre </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
+   <p>Contributeur ou demande de modification d’un filtre </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -60,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +65,7 @@ Pour appliquer ce regroupement :
 1. Dans le menu déroulant **Regroupement**, sélectionnez **Nouveau regroupement**.
 
 1. Cliquez sur **Basculer en mode texte**.
-1. Supprimez le texte dans la zone **Group by**.
+1. Supprimez le texte de la zone **Regrouper par**.
 1. Remplacez le texte par le code suivant :
 
 ```
@@ -96,5 +89,5 @@ group.2.valueformat=string
 textmode=true
 ```
 
-1. Cliquez sur **Done** > **Save Grouping**.
-1. (Facultatif) Mettez à jour le nom du groupement, puis cliquez sur **Enregistrer le groupement**.
+1. Cliquez sur **Terminé** > **Enregistrer le regroupement**.
+1. (Facultatif) Mettez à jour le nom du regroupement, puis cliquez sur **Enregistrer le regroupement**.

@@ -7,9 +7,9 @@ description: Questions fréquentes sur les rapports
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1500'
 ht-degree: 86%
 
 ---
@@ -28,8 +28,6 @@ Vous trouverez ci-dessous les questions fréquentes sur les rapports.
 
 +++ Développez pour afficher les exigences d’accès. 
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,13 +35,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td><p>Nouveau : Standard</p> 
-   <p>Actuellement : Travail ou licence supérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -56,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -168,7 +166,7 @@ Toutefois, certains éléments peuvent empêcher l’affichage de ces liens :
 * Si vous avez un **Vue** appliquée à ces listes dans lesquelles une devise est sélectionnée autre que la devise par défaut du projet, les liens ne s’affichent pas. Modifiez la **Vue** en **Devise originale du projet** et les liens devraient s’afficher afin que vous puissiez ajouter des problèmes et des tâches à vos projets.\
   Pour plus d’informations sur la modification de la devise dans votre vue, voir [Créer des rapports de données financières avec des taux de change uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-![Devise du projet &#x200B;](assets/nwe-project-original-currency-350x229.png)
+![Devise du projet ](assets/nwe-project-original-currency-350x229.png)
 
 ## Les informations de mon rapport ou de mon tableau de bord sont-elles actualisées automatiquement ?
 

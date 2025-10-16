@@ -9,14 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 95%
+source-wordcount: '494'
+ht-degree: 94%
 
 ---
 
-# Créer et gérer des modèles de disposition
+# Créer et gérer des modèles de mise en page
 
 <!--Audited: 12/2023-->
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-En tant qu’administrateur ou administratrice Adobe Workfront ou administrateur ou administratrice de groupes, vous pouvez créer et modifier des modèles de disposition pour personnaliser les éléments de disposition suivants dans Workfront pour vos utilisateurs et utilisatrices :
+En tant qu’administrateur ou administratrice Adobe Workfront ou administrateur ou administratrice de groupes, vous pouvez créer et modifier des modèles de mise en page pour personnaliser les éléments de disposition suivants dans Workfront pour vos utilisateurs et utilisatrices :
 
 * Menu principal
 * Panneau de navigation de gauche
@@ -42,31 +42,29 @@ La disposition par défaut de Workfront de chaque personne dépend de son niveau
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td><p>Nouveau : Standard</p>
-  <p> Actuel : formule</p>
-   </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.
-Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> </td> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.</p>
+        <p>Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,27 +84,27 @@ Pour plus d’informations sur les modèles de mise en page, voir [Modèles de m
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Interface** > **Modèles de mise en page**.
+1. Dans le panneau de gauche, cliquez sur **Interface** > **Modèles de mise en page**.
 
 1. Cliquez sur **Nouveau modèle de mise en page**.
 
    Ou
 
-   Cliquez sur le nom du modèle de disposition que vous souhaitez modifier.
+   Cliquez sur le nom du modèle de mise en page que vous souhaitez modifier.
 
 1. Si vous créez un nouveau modèle de mise en page, saisissez le **nom du modèle de mise en page** et (facultatif) sa **description**.
 
 1. Personnalisez des zones de l’interface d’utilisation, tel que décrit dans les articles suivants :
 
    * [Personnaliser le menu principal à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-   * [Personnaliser le panneau de gauche à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
-   * [Personnaliser des pages épinglées à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-   * [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+   * [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+   * [Personnaliser les pages épinglées à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+   * [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
    * [Personnalisation du panneau Résumé à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Personnaliser l’accueil à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   * [Personnaliser la page de destination à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-   * [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   * [Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+   * [Personnaliser la page de destination à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+   * [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   * [Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
 1. Continuez à tester votre modèle de mise en page et mettez-le à la disposition des personnes, comme décrit dans les articles ci-dessous :
 

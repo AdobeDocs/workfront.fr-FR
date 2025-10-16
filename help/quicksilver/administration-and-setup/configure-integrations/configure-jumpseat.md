@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 93%
+source-wordcount: '257'
+ht-degree: 91%
 
 ---
 
@@ -23,32 +23,37 @@ Vous pouvez intégrer [!DNL JumpSeat] à [!DNL Workfront] pour créer des consei
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>[!UICONTROL Enterprise] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produit</td> 
-   <td>Vous devez avoir un plan [!DNL JumpSeat] actif.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p> Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations sur les administrateurs et les administratrices [!DNL Workfront], voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder à un utilisateur ou à une utilisatrice un accès administratif complet</a>.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Package Adobe Workfront
+   </td>
+    <p>Workflow Ultimate</p>
+   <td> <p>Prime ou Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Licences Adobe Workfront
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+  </tr>
+  <tr>
+   <td>Produit
+   </td>
+   <td>Vous devez avoir un plan [!DNL JumpSeat] actif.
+   </td>
+  </tr>
+   <tr>
+   <td>Configurations des niveaux d’accès
+   </td>
+   <td>Vous devez être administrateur ou administratrice [!DNL Workfront].
+   </td>
+  </tr>
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, voir la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,9 +88,9 @@ Pour configurer l’intégration de [!DNL JumpSeat] :
 
 **Exemple :**
 
-https://{mycompanyname}.jumpsièges.io
+https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 

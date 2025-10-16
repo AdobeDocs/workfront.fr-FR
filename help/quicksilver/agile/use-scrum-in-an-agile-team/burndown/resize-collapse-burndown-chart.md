@@ -6,10 +6,10 @@ description: Vous pouvez redimensionner ou réduire le graphique d’avancement 
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 92%
+source-wordcount: '244'
+ht-degree: 93%
 
 ---
 
@@ -23,8 +23,6 @@ Toute modification apportée à la taille ou à la visibilité du graphique d’
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouveau : [!UICONTROL Light] ou version ultérieure</p> 
-   ou
-   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Léger ou supérieur</p> 
+   <p>Révision ou supérieur</p> </td> 
   </tr>
  </tbody> 
 </table>

@@ -3,19 +3,19 @@ product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
 title: Indiquer si le temps est consigné en heures ou en jours
 description: En tant qu’utilisateur ou utilisatrice disposant d’une licence de plan, vous pouvez indiquer si vous consignez le temps dans Adobe Workfront en heures ou en jours. Les administrateurs et administratrices système peuvent configurer ce paramètre pour des utilisateurs et utilisatrices individuels ou pour plusieurs utilisateurs et utilisatrices de leur organisation. Par défaut, les utilisateurs et utilisatrices consignent le temps en heures.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
+source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 95%
+source-wordcount: '457'
+ht-degree: 74%
 
 ---
 
 # Indiquer si le temps est consigné en heures ou en jours
 
-En tant qu’utilisateur ou utilisatrice disposant d’une licence de plan, vous pouvez indiquer si vous consignez le temps dans Adobe Workfront en heures ou en jours. Les administrateurs et administratrices système peuvent configurer ce paramètre pour des utilisateurs et utilisatrices individuels ou pour plusieurs utilisateurs et utilisatrices de leur organisation. Par défaut, les utilisateurs et utilisatrices consignent le temps en heures. Pour plus d’informations sur la consignation du temps dans Workfront, consultez [Consigner le temps](../../timesheets/create-and-manage-timesheets/log-time.md).
+En tant qu’utilisateur disposant d’une licence Standard ou Plan, vous pouvez choisir de consigner le temps dans Adobe Workfront en heures ou en jours. Les administrateurs et administratrices système peuvent configurer ce paramètre pour des utilisateurs et utilisatrices individuels ou pour plusieurs utilisateurs et utilisatrices de leur organisation. Par défaut, les utilisateurs et utilisatrices consignent le temps en heures. Pour plus d’informations sur la journalisation du temps dans Workfront, voir [Enregistrer le temps](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!NOTE]
 >
@@ -23,34 +23,36 @@ En tant qu’utilisateur ou utilisatrice disposant d’une licence de plan, vous
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Les planificateurs et planificatrices peuvent configurer le temps pour eux-mêmes. Seul un administrateur ou une administratrice Workfront peut configurer le temps pour d’autres utilisateurs ou utilisatrices.</p> </td> 
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td><p>Les utilisateurs de Standard et de Plan peuvent configurer du temps pour eux-mêmes. Seul un administrateur ou une administratrice Workfront peut configurer le temps pour d’autres utilisateurs ou utilisatrices.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 1. Selon votre objectif et votre niveau d’accès au système, effectuez l’une des opérations suivantes :
 
-   * **Si vous êtes un planificateur ou une planificatrice configurant la consignation du temps pour vous-même :** cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur votre nom d’utilisateur en regard de votre image de profil. Cliquez ensuite sur l’icône **Plus** en regard de votre nom et sélectionnez **Modifier**.
+   * **Utilisateur standard ou de plan configurant la journalisation du temps pour vous-même :** cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur votre nom d’utilisateur en regard de l’image de votre profil. Ou (le cas échéant), cliquez sur l&#39;image de votre profil dans la zone de navigation supérieure, puis cliquez sur **[!UICONTROL Profil Workfront]**. Cliquez ensuite sur l’icône **Plus** en regard de votre nom et sélectionnez **Modifier**.
 
    * **Si vous êtes un administrateur ou une administratrice système configurant la consignation du temps pour d’autres utilisateurs et utilisatrices :** commencez à modifier un ou plusieurs comptes d’utilisateurs et d’utilisatrices, comme décrit dans la section [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -58,7 +60,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
    ![Options de connexion](assets/user-profile-log-time-options.png)
 
-1. (Le cas échéant) Si vous êtes un administrateur ou une administratrice système modifiant plusieurs utilisateurs et utilisatrices simultanément, sélectionnez **Consigner le temps en**.
 1. Sélectionnez l’une des options suivantes pour la consignation du temps :
 
    | Option | Description |

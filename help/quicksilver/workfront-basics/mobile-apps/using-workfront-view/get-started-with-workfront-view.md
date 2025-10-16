@@ -6,10 +6,10 @@ description: Vous pouvez suivre la progression de vos projets lorsque vous êtes
 author: Nolan
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,11 @@ Si vous devez terminer le travail, vous devez utiliser l’application mobile [!
 
 L’application [!DNL Workfront View] est prise en charge uniquement pour [!DNL iPads].
 
-Vous devez disposer de l’accès suivant dans [!DNL Workfront] pour accéder aux informations dans [!DNL Workfront View] et suivre les étapes décrites dans cet article :
+Les utilisateurs et les utilisatrices avec des licences [!UICONTROL Demande] et [!UICONTROL Externe] ne peuvent pas accéder à [!DNL Workfront] en utilisant l’application mobile [!DNL Workfront View].
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,19 +38,21 @@ Vous devez disposer de l’accès suivant dans [!DNL Workfront] pour accéder au
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td> 
+   <p>Contributeur ou version ultérieure</p>
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Les utilisateurs et les utilisatrices avec des licences [!UICONTROL Demande] et [!UICONTROL Externe] ne peuvent pas accéder à [!DNL Workfront] en utilisant l’application mobile [!DNL Workfront View].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-&#42;Pour connaître le type de licence, le type de plan ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
++++
 
 ## Télécharger l’application [!DNL Workfront View]
 

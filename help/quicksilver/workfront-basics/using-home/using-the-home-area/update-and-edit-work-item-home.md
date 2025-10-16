@@ -6,10 +6,10 @@ description: Vous pouvez consulter et ajouter des mises à jour à un élément 
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 29%
+source-wordcount: '837'
+ht-degree: 26%
 
 ---
 
@@ -27,8 +27,6 @@ Vous pouvez consulter et ajouter des mises à jour à un élément de travail da
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -36,15 +34,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>Nouvelle : standard</p>
-   Ou
-
-<p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
+   <td> <p>Standard</p>
+   <p>Travail ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
@@ -57,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-* Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice . [!DNL Workfront] Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,7 +98,7 @@ Vous pouvez modifier des éléments de travail dans les widgets suivants de la z
 
 ## Ajouter un commentaire à un élément de travail dans le widget Mes tâches
 
-Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL &#x200B; Mon travail &#x200B;] :
+Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL  Mon travail ] :
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Icône des lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget [!UICONTROL **Mon travail**].

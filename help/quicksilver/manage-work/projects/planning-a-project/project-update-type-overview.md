@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Vue d’ensemble du type de mise à jour du projet
+title: Aperçu du type de mise à jour du projet
 description: Le type de mise à jour d’un projet indique comment Adobe Workfront calcule la chronologie d’un projet. Les modifications apportées au plan du projet peuvent entraîner des changements dans la chronologie du projet. La chronologie du projet doit être recalculée automatiquement ou manuellement pour s’assurer qu’elle est à jour par rapport à ces changements.
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

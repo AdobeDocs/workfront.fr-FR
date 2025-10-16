@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Exporter une liste de feuilles de temps
 description: En tant que personne responsable du personnel ou de l’approbation des feuilles de temps, vous devrez peut-être télécharger une liste des feuilles de temps pour consulter rapidement des informations sur les feuilles de temps des personnes dont vous êtes responsable. Pour ce faire, vous pouvez exporter une liste de feuilles de temps.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 97%
+source-wordcount: '466'
+ht-degree: 96%
 
 ---
 
@@ -23,33 +23,31 @@ En tant que personne responsable du personnel ou de l’approbation des feuilles
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Light ou supérieur </p>
-   <p>Actuel : Révision ou supérieur </p>
+   <td>Licence Adobe Workfront</td> 
+   <td> <p>Léger ou supérieur </p>
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Affichage ou accès supérieur aux tâches et aux problèmes </p> </td> 
+   <td>Configuration du niveau d’accès</td> 
+   <td> <p>Afficher ou un accès supérieur aux tâches et aux événements</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage ou autorisations supérieures de la feuille de temps</p> </td> 
+   <td>Autorisations d’objet</td> 
+   <td> <p>Autorisations Affichage ou supérieures pour les tâches et problèmes</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +82,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step1-to-timesheets}}
 
-La zone **Fiches horaires** s’ouvre.
+La zone **Feuilles de temps** s’ouvre.
 
 
 ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)

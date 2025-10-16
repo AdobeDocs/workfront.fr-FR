@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Utiliser « opTask » et « issue » pour faire référence à des problèmes
+title: Utiliser « opTask » et « issue » lors du référencement des événements
 description: Le nom d’un problème apparaît comme opTask dans la base de données Adobe Workfront. Bien qu’il soit parfois nécessaire d’utiliser le nom du champ « issue » pour faire référence à des problèmes, la plupart du temps, vous devez utiliser le nom du champ « opTask » au lieu d’« issue » pour faire référence à des problèmes.
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
 # Utiliser « opTask » et « issue » pour faire référence à des problèmes
+
+<!--Audited: 08/2025-->
 
 Le nom d’un problème apparaît comme `opTask` dans la base de données Adobe Workfront. Bien qu’il soit parfois nécessaire d’utiliser le nom de champ `issue` pour faire référence à des problèmes, la plupart du temps, vous devez utiliser le nom de champ `opTask` au lieu d’`issue` pour faire référence à des problèmes.
 

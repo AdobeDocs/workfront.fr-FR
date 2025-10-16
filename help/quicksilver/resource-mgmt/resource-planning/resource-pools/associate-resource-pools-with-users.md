@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: Association des groupes de ressources aux utilisateurs
-description: Vous devez créer un pool de ressources avant de pouvoir l’associer à des utilisateurs. Vous pouvez associer des utilisateurs et utilisatrices à des groupes de ressources lorsque vous créez vos groupes de ressources.
+title: Associer des pools de ressources à des utilisateurs
+description: Vous devez créer un pool de ressources avant de pouvoir l'associer à des utilisateurs. Vous pouvez associer des utilisateurs et utilisatrices à des groupes de ressources lorsque vous créez vos groupes de ressources.
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 89%
+source-wordcount: '435'
+ht-degree: 88%
 
 ---
 
@@ -35,36 +35,31 @@ Pour plus d’informations sur la création de groupes de ressources, voir [Cré
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Actuel : Pro ou supérieur</p> </td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Actuel : formule</p></td>
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès à la gestion des ressources qui inclut l’accès à Gérer les groupes de ressources</p> <p>Modifier l’accès aux projets, aux modèles et aux utilisateurs et utilisatrices</p></td> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès à la gestion des ressources qui inclut l’accès à la gestion des pools de ressources</p> <p>Modifier l’accès aux projets, aux modèles et aux utilisateurs et utilisatrices</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td>Gérez les autorisations des projets, modèles et utilisateurs auxquels vous souhaitez associer les groupes de ressources.</td> 
+  <tr> 
+   <td>Autorisations d’objet</td> 
+   <td>Gérez les autorisations des projets, modèles et utilisateurs auxquels vous souhaitez associer les pools de ressources</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

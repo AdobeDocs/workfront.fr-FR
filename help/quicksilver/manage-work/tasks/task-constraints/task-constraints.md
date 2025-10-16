@@ -2,16 +2,16 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: '« Contraintes de tâches : index des articles »'
+title: 'Contraintes de tâche : index des articles'
 description: Les contraintes de tâches déterminent quand une tâche doit commencer et se terminer dans un projet. Vous pouvez utiliser plusieurs contraintes de tâche pour indiquer quand une tâche doit commencer et se terminer. Pour plus d’informations sur toutes les contraintes de tâche dans Workfront, consultez les articles suivants.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2e37b051-00ff-4784-bd8b-1897bb4ac80b
-source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

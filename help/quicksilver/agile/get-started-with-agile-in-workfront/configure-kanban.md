@@ -2,14 +2,14 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configurer Kanban
-description: Vous pouvez configurer les options suivantes pour les équipes agiles de Kanban pendant ou après la création de l’équipe.
+description: Vous pouvez configurer les options suivantes pour les équipes agiles Kanban pendant ou après la création de l’équipe.
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 96%
+source-wordcount: '1484'
+ht-degree: 95%
 
 ---
 
@@ -37,8 +37,6 @@ Pour plus d’informations sur la configuration d’une équipe Scrum, consulte
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,15 +44,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
-   ou
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr>
 
 <tr> 
@@ -83,7 +80,7 @@ Pour configurer l’estimation des histoires pour votre équipe agile :
 
    ![Modifier l’équipe](assets/edit-team-settings-350x205.png)
 
-1. Dans la section **[!UICONTROL Agile]**, dans la zone **[!UICONTROL Estimer des histoires dans]**, choisissez si vous souhaitez utiliser des points ou des heures pour estimer la taille (charge de travail) des histoires. Si vous sélectionnez Points, indiquez le nombre d’heures égal à 1 point. (La valeur par défaut est de 1 point = 8 heures.) Il s’agit du nombre d’heures prévues ajoutées à l’histoire.
+1. Dans la section **[!UICONTROL Agile]**, dans la zone **[!UICONTROL Estimer des histoires dans]**, choisissez si vous souhaitez utiliser des points ou des heures pour estimer la taille (charge de travail) des histoires. Si vous sélectionnez Points, indiquez le nombre d’heures égal à 1 point. (La valeur par défaut est 1 point = 8 heures.) Il s’agit du nombre d’heures planifiées qui sont ajoutées à l’histoire.
 
    **Exemple :** si vous avez choisi d’estimer les histoires en points et qu’un point équivaut à 8 heures, et qu’une histoire est estimée à 3 points, 24 heures prévues sont ajoutées à l’histoire.
 
@@ -180,7 +177,7 @@ Pour limiter le travail en cours pour votre équipe Kanban, procédez comme suit
 1. Dans la section **[!UICONTROL Agile]**, dans la section **[!UICONTROL Méthodologie]**, vérifiez que Kanban est sélectionné.
 
 1. Dans la section **[!UICONTROL Storyboard]**, dans le champ **[!UICONTROL Limite du travail en cours]**, indiquez le nombre maximal d’éléments autorisés dans chaque colonne du storyboard [!UICONTROL Kanban] Agile. Vous pouvez définir une limite différente pour chaque colonne. La limite maximale que vous pouvez définir pour chaque colonne est de 100.
-Lorsqu’elle est définie, la limite du travail en cours affiche un message d’avertissement sur le storyboard [!UICONTROL Kanban] Agile chaque fois que la limite est dépassée pour n’importe quelle colonne du storyboard. Ce message d’avertissement s’affiche uniquement la première fois que la limite du travail en cours est dépassée. Ce message d’avertissement ne s’affiche sur aucune colonne dont l’état est égal à [!UICONTROL Complete].
+Lorsqu’elle est définie, la limite du travail en cours affiche un message d’avertissement sur le storyboard [!UICONTROL Kanban] Agile chaque fois que la limite est dépassée pour n’importe quelle colonne du storyboard. Ce message d’avertissement s’affiche uniquement la première fois que la limite du travail en cours est dépassée. Ce message d&#39;avertissement ne s&#39;affiche dans aucune colonne dont le statut est égal à [!UICONTROL Terminé].
 La limite WIP est simplement un avertissement visuel et ne limite pas votre équipe à un nombre d’éléments d’une colonne supérieur à la limite que vous avez définie.
 
    ![Limite WIP](assets/wip-limit-350x193.png)

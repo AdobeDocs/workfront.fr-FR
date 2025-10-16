@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: a7be72f0a594a21baed2592d8a2e467118ab1b7f
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1073'
 ht-degree: 69%
 
 ---
@@ -25,31 +25,27 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
-   <td>Tous</td> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td>
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +64,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    1. Si vous souhaitez préciser la façon dont vous voulez partager l’élément, cliquez sur la liste déroulante à droite du nom, puis utilisez l’une des options suivantes :
 
-      ![Options de partage &#x200B;](assets/share-field-view-mng-options.jpg)
+      ![Options de partage ](assets/share-field-view-mng-options.jpg)
 
       <table style="table-layout:auto"> 
        <col> 
@@ -139,7 +135,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
      Limite l’accès aux seuls éléments que vous avez ajoutés à la liste.
 
-   ![Options de partage &#x200B;](assets/share-field-in-designer.png)
+   ![Options de partage ](assets/share-field-in-designer.png)
 
 1. Cliquer sur **Enregistrer**.
 

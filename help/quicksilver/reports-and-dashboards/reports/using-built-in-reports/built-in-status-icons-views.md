@@ -6,10 +6,10 @@ description: Vous pouvez ajouter le champ Icônes de statut intégrées sous for
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 97%
+source-wordcount: '1205'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez ajouter le champ Icônes de statut intégrées sous forme de colonne
 * Un objet est associé à des notes supplémentaires
 * Une dépense est facturable ou remboursable
 * Une tâche est sur un chemin critique
-* Un utilisateur appartient à une entreprise, à une équipe ou se trouve personnellement dans un autre fuseau horaire.
+* Un utilisateur appartient à une entreprise, à une équipe ou se trouve personnellement dans un fuseau horaire différent
 
 Tenez compte des points suivants :
 
@@ -45,33 +45,25 @@ Tenez compte des points suivants :
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Contributeur ou version ultérieure</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Requête ou supérieure</p></li>
-         </ul>
+      <p>Contributeur ou version ultérieure</p>
+      <p>Requête ou supérieure</p>
    </td>
   </tr>
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour ajouter des colonnes à un rapport</p></td> 
   </tr> 
   <tr> 
@@ -81,7 +73,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

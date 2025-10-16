@@ -6,10 +6,10 @@ description: Collections de référence dans un rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2615'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -25,32 +25,24 @@ Pour plus d’informations sur la création d’un rapport dans Workfront, voir 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+     <p>Standard</p>
+     <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> </td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -59,7 +51,7 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -274,7 +266,7 @@ Les lignes d’une collection en mode Texte sont décrites dans le tableau suiva
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Il s’agit du délimiteur utilisé pour séparer les valeurs de votre liste.<br>Nous vous recommandons d’utiliser <code>&lt;p&gt;</code> qui ajoute un saut de ligne entre les valeurs.</p> <p>Vous pouvez également utiliser les éléments suivants :</p> <p><code>&zwj;</code> (jointure à largeur nulle).Les valeurs de la collection ne sont pas séparées entre elles.<br><strong>,</strong> =séparateur Virgule.Les valeurs de la collection sont séparées par une virgule suivie d’un espace vide.<br><strong>/</strong> = séparateur Barre oblique.Les valeurs de la collection sont séparées par une barre oblique.<br><strong>-</strong> = séparateur Tiret. Les valeurs de la collection sont séparées par un tiret.<br>Si vous laissez cette ligne vide, une virgule est ajoutée, suivie par défaut d’un espace entre les valeurs de la collection.</p> </td> 
+   <td> <p>Il s’agit du délimiteur utilisé pour séparer les valeurs de votre liste.<br>Nous vous recommandons d’utiliser <code>&lt;p&gt;</code> qui ajoute un saut de ligne entre les valeurs.</p> <p>Vous pouvez également utiliser les éléments suivants :</p> <p><code>&amp;zwj;</code> (jointure à largeur nulle).Les valeurs de la collection ne sont pas séparées entre elles.<br><strong>,</strong> =séparateur Virgule.Les valeurs de la collection sont séparées par une virgule suivie d’un espace vide.<br><strong>/</strong> = séparateur Barre oblique.Les valeurs de la collection sont séparées par une barre oblique.<br><strong>-</strong> = séparateur Tiret. Les valeurs de la collection sont séparées par un tiret.<br>Si vous laissez cette ligne vide, une virgule est ajoutée, suivie par défaut d’un espace entre les valeurs de la collection.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Nom de la.colonne</em> </td> 
@@ -403,7 +395,7 @@ Pour ajouter une référence à une collection dans l’invite personnalisée d�
 1. Cliquez sur **Invites de rapports**.
 1. Cliquez sur **Ajouter une invite**.
 1. Cliquez sur **Invite personnalisée**.
-1. Indiquez le nom de l’invite dans le champ **Field**&#x200B;**name**.
+1. Indiquez le nom de l’invite dans le champ **Field****name**.
 
 1. Indiquez un **Libellé de l’élément de liste déroulante**.
 1. Indiquez les éléments suivants dans le champ **Condition** :

@@ -3,65 +3,63 @@ title: Personnaliser des filtres, des vues et des regroupements à l'aide d'un m
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: En tant qu’administrateur ou administratrice Workfront, vous pouvez utiliser un modèle de disposition pour spécifier les contrôles de listes qui apparaissent dans les menus déroulants Filtre, Vue et Regroupement. Ces menus apparaissent au-dessus des listes dans Workfront, telles que la liste des tâches d’un projet.
+description: En tant qu’administrateur ou administratrice Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier les contrôles de listes qui apparaissent dans les menus déroulants Filtre, Vue et Regroupement. Ces menus apparaissent au-dessus des listes dans Workfront, telles que la liste des tâches d’un projet.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 87%
+source-wordcount: '768'
+ht-degree: 85%
 
 ---
 
-# Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de disposition
+# Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page
 
-En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un modèle de disposition pour spécifier les contrôles de listes qui s’affichent dans les menus déroulants Filtre, Vue et Regroupement. Ces menus apparaissent au-dessus des listes dans Workfront, telles que la liste des tâches d’un projet :
+En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier les contrôles de listes qui s’affichent dans les menus déroulants Filtre, Vue et Regroupement. Ces menus apparaissent au-dessus des listes dans Workfront, telles que la liste des tâches d’un projet :
 
 ![Filtrer afficher les modèles de disposition de regroupement](assets/filter-view-grouping-layout-templates.png)
 
-Pour plus d’informations sur les modèles de disposition, consultez [Création et gestion des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Pour plus d’informations sur les modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Pour plus d’informations sur les modèles de disposition pour les groupes, consultez [Création et modification des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Créer et modifier des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs et utilisatrices pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de disposition aux utilisateurs et utilisatrices, voir [Affecter des utilisateurs et utilisatrices à un modèle de disposition](../use-layout-templates/assign-users-to-layout-template.md).
+Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs et utilisatrices pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de mise en page à des utilisateurs et utilisatrices, voir [Attribuer un modèle de mise en page à des utilisateurs et utilisatrices](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td><p>Nouveau : Standard</p>
-  <p> Actuel : formule</p>
-   </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.
-Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> </td> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.</p>
+        <p>Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Personnaliser les contrôles de listes Filtrer, Vue et Regroupement :
+## Personnaliser les contrôles de liste Filtrer, Afficher et Regrouper
 
-1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/down-arrow-blue.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Listes** dans le menu déroulant qui s’affiche.
 
    ![Personnaliser ce que voient les utilisateurs](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
@@ -82,9 +80,9 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
    >   
    >  ![Bouton Désactiver les filtres](assets/disable-filter-pills.png)
 
-1. (Facultatif) Si vous souhaitez modifier le filtre, la vue ou le regroupement par défaut du modèle de disposition, pointez sur le filtre, la vue ou le regroupement, puis cliquez sur **Définir comme valeur par défaut**.
+1. (Facultatif) Si vous souhaitez modifier le filtre, la vue ou le regroupement par défaut du modèle de mise en page, pointez sur le filtre, la vue ou le regroupement, puis cliquez sur **Définir comme valeur par défaut**.
 
-   Les valeurs par défaut que vous choisissez déterminent le filtre, la vue et le regroupement que les personnes verront dans les listes de Workfront lorsque le modèle de disposition leur sera attribué. Si vous ne modifiez pas ces valeurs par défaut, les personnes voient toutes les listes comme suit :
+   Les valeurs par défaut que vous choisissez déterminent le filtre, la vue et le regroupement que les personnes verront dans les listes de Workfront lorsque le modèle de mise en page leur sera attribué. Si vous ne modifiez pas ces valeurs par défaut, les personnes voient toutes les listes comme suit :
 
    * **Filtres** : tous
    * **Vue** : standard (le cas échéant, certaines listes n’ont pas cette vue).
@@ -111,7 +109,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
       <td> <p> 
         <ol> 
          <li value="1"> Cliquez sur <strong>Ajouter un filtre</strong>, <strong>Ajouter une vue</strong>, ou <strong>Ajouter un regroupement</strong> au bas de la liste Filtre, Vue ou Regroupement. Dans la zone qui s’affiche, commencez à saisir le nom d’un contrôle de listes personnalisé existant précédemment créé pour votre organisation, puis cliquez sur le nom lorsqu’il apparaît.</li> 
-         <li value="2"> Si vous souhaitez que le nouveau contrôle de listes personnalisé soit défini comme filtre, vue ou regroupement par défaut pour le modèle de disposition, cliquez sur <strong>Définir comme valeur par défaut</strong>. </li> 
+         <li value="2"> Si vous souhaitez que le nouveau contrôle de listes personnalisé soit défini comme filtre, vue ou regroupement par défaut pour le modèle de mise en page, cliquez sur <strong>Définir comme valeur par défaut</strong>. </li> 
          <li value="3"> <p>Cliquez sur <strong>Ajouter</strong> lorsque vous avez terminé.</p> <p><b>NOTE</b> : <p>Les utilisateurs et utilisatrices peuvent ajouter des contrôles de listes personnalisés à leurs propres listes. Si vous ajoutez des contrôles de listes personnalisés dans un modèle de mise en page, vos contrôles de listes sont ajoutés et les leurs sont déplacés vers le bas du panneau ; les vôtres ne remplacent pas les leurs.</p> <p>Cela est également vrai si vous affectez l’utilisateur ou l’utilisatrice à un nouveau modèle de mise en page qui comporte des contrôles de liste personnalisés. </p> <p>Pour plus d’informations sur la personnalisation des contrôles de listes, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Vue d’ensemble des filtres</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Vue d’ensemble des vues dans Adobe Workfront</a>, et <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Vue d’ensemble des regroupements dans Adobe Workfront</a>.</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 

@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Créer des rubriques de file d’attente
 description: Les rubriques de file d’attente fonctionnent conjointement avec les règles de transmission pour affecter automatiquement le travail entrant à une personne, une fonction, une équipe ou pour le placer sur un projet. Les rubriques de la file d’attente définissent les conditions nécessaires à la mise en œuvre de la règle de transmission.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 613904bd75aabe3062c5ab50f28cf44eb62919e8
+source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 78%
+source-wordcount: '1013'
+ht-degree: 77%
 
 ---
 
@@ -60,22 +60,19 @@ Une fois créées, vous ne pouvez pas déplacer les rubriques de file d’attent
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-    <p>Nouveau : Standard</p>
-    <p>ou</p>
-    <p>Actuel : formule</p></td>  
+    <p>Standard</p>
+    <p>Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -88,7 +85,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

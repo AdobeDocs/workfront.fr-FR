@@ -6,10 +6,10 @@ description: Vous pouvez gérer plusieurs versions d’un document dans Workfron
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 53%
+source-wordcount: '607'
+ht-degree: 47%
 
 ---
 
@@ -23,33 +23,28 @@ Vous pouvez gérer plusieurs versions d’un document dans Workfront.
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront</td> 
    <td> 
-   <p>Nouvelle : contributeur ou supérieure<p>
-   <p>Ou</p>
-   <p>Actuelle : demande ou supérieure </p>
-
-
-</td> 
+   <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en affichage aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Afficher l’accès aux documents</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Accès en affichage au document</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Accès en affichage au document</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,7 +77,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 1. En haut de la page **Détails du document**, cliquez sur le menu déroulant en regard du nom, puis cliquez sur le nom de la version que vous souhaitez afficher et gérer.
 
-   ![&#x200B; Liste déroulante Version de la page Détails du document &#x200B;](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ Liste déroulante Version de la page Détails du document ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    En plus d’afficher les détails de la version, vous pouvez y apporter des modifications, comme son nom, ses métadonnées et ses paramètres de relecture (s’il s’agit d’une épreuve de document).
 

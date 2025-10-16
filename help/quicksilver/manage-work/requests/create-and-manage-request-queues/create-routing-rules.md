@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Créer des règles de routage
 description: Les règles de transmission contrôlent ce qu’Adobe Workfront fait des problèmes lorsqu’ils sont envoyés à une file d’attente des demandes.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '494'
 ht-degree: 86%
 
 ---
@@ -34,14 +34,13 @@ Une fois créées, vous ne pouvez pas déplacer les règles de transmission d&#3
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle licence : Standard </p> 
-   Ou
-   <p>Licence actuelle : plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -54,7 +53,7 @@ Une fois créées, vous ne pouvez pas déplacer les règles de transmission d&#3
  </tbody> 
 </table>
 
-* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

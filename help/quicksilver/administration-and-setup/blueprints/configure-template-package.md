@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '1856'
-ht-degree: 99%
+source-wordcount: '1841'
+ht-degree: 97%
 
 ---
 
@@ -23,26 +23,23 @@ Vous pouvez configurer les détails d’un plan directeur avant de l’installer
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>Vous devez être administrateur ou administratrice [!DNL Workfront]. </td> 
+   <td>Administrateur ou administratrice Workfront </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,7 +132,7 @@ Vous pouvez également désigner la propriété du modèle avant d’installer l
 
    >[!INFO]
    >
-   >**Exemple :** les nouvelles préférences de problème de ce plan directeur fournissent quatre rubriques de file d’attente. La personne sélectionne l’une de ces rubriques lors de la création d’un problème. (Puisqu’il n’existe qu’un seul groupe de rubriques, celui-ci est automatiquement appliqué et la personne n’a pas à le sélectionner.) Lorsque la personne termine et envoie le problème, les règles de routage déterminent à quelle fonction ou équipe il est affecté.
+   >**Exemple :** les nouvelles préférences de problème de ce plan directeur fournissent quatre rubriques de file d’attente. La personne sélectionne l’une de ces rubriques lors de la création d’un problème. (Puisqu&#39;il n&#39;existe qu&#39;un seul groupe de sujets, il est automatiquement appliqué et l&#39;utilisateur n&#39;a pas à le sélectionner.) Lorsque l’utilisateur termine et soumet le problème, les règles de transmission déterminent la fonction ou l’équipe à laquelle il est affecté.
    >![Exemples de préférences de nouveau problème](assets/Blueprints_IssuePrefsDetails.png)
    >![Rubriques de file d’attente pour le nouveau problème](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![Problème transmis à la fonction](assets/Blueprints_ProjectShowsIssueAssignment.png)
@@ -254,7 +251,7 @@ Certains plans directeurs comportent des groupes prescrits. Un groupe est un gro
 
 Le plan directeur effectue des recherches par nom de groupe pour déterminer si des groupes existants correspondent. La recherche respectant la casse, les noms doivent correspondre exactement. Si aucun groupe existant ne correspond, le plan directeur peut les créer pour vous.
 
-Section ![[!UICONTROL Mapper des groupes] &#x200B;](assets/Blueprints_GroupMapping.png)
+Section ![[!UICONTROL Mapper des groupes] ](assets/Blueprints_GroupMapping.png)
 
 1. Si un groupe existe, vous pouvez sélectionner **[!UICONTROL Remapper un groupe]** et sélectionnez l’une des options suivantes :
 

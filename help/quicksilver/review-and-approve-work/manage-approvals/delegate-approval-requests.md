@@ -6,10 +6,10 @@ description: La délégation des demandes d’approbation vous permet de confier
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: 14360a82b0de65587a9413b58d9c69abb55fa29d
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 75%
+source-wordcount: '1193'
+ht-degree: 76%
 
 ---
 
@@ -37,8 +37,6 @@ Vous ne pouvez pas déléguer l’approbation des feuilles de temps, des documen
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,17 +44,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td> <p>Révision ou supérieur</p> </td> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td>
+   <p>Contribuer ou version ultérieure</p>
+   <p>Révision ou supérieur</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le type de licence ou de plan dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

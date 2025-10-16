@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
-title: Parcourir le catalogue des plans directeurs et demander l’installation des plans directeurs
+title: Parcourir le catalogue de plans directeurs et demander l’installation de plans directeurs
 description: Les plans directeurs fournissent des éléments de base pour vous aider à créer un système de gestion du travail qui évolue avec vous. Tous les utilisateurs et utilisatrices d’ [!DNL Adobe Workfront]  peuvent parcourir le catalogue de plans directeurs. Vous pouvez également demander à votre administrateur ou administratrice  [!DNL Workfront]  d’installer pour vous un plan directeur spécifique, si votre administrateur ou administratrice a activé les demandes de plans directeurs.
 author: Becky, Lisa
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 97%
+source-wordcount: '369'
+ht-degree: 95%
 
 ---
 
@@ -24,27 +24,23 @@ Seule la personne chargée de l’administration système peut installer des pla
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td>
-   <p>Nouvelle : contributeur ou supérieure</p>
-   <p>ou</p>
-   <p>Actuelle : demande ou niveau supérieur</p></td> 
-  </tr>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Contributeur ou version ultérieure</p><p>Demandeur ou supérieur</p>
+  </td> 
+  </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

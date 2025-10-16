@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 88%
+source-wordcount: '143'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 <!-- Audited: 5/2025 -->
 
-Cette section contient les articles suivants :
+Les tâches sont des éléments de travail qui contribuent à l’achèvement d’un projet dans Adobe Workfront. Découvrez les informations sur les tâches dans les articles suivants :
 
 * [Vue d’ensemble des tâches](../../../manage-work/tasks/task-information/tasks-overview.md)
 * [Afficher les heures effectives](../../../manage-work/tasks/task-information/actual-hours.md)

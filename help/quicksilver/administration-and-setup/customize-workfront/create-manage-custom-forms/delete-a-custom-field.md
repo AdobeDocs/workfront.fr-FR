@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 94%
+source-wordcount: '556'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Afin d’améliorer les performances du système et de faciliter l’utilisation
 
 >[!CAUTION]
 >
->La suppression d’un champ personnalisé entraîne celle de toutes les données personnalisées que les utilisateurs et les utilisatrices ont entrées dans ce champ lors du remplissage de formulaires associés à des objets. Ces données supprimées ne peuvent pas être récupérées. En outre, il n’existe aucun système de notification pour avertir les personnes qui utilisent le formulaire personnalisé qu’il a été supprimé.
+>La suppression d’un champ personnalisé entraîne celle de toutes les données personnalisées que les utilisateurs et les utilisatrices ont entrées dans ce champ lors du remplissage de formulaires associés à des objets. Les données supprimées ne peuvent pas être récupérées. En outre, il n’existe aucun système de notification pour avertir les personnes qui utilisent le formulaire personnalisé qu’il a été supprimé.
 >
 >Il est possible d’afficher tous les formulaires et rapports personnalisés utilisant un champ personnalisé que vous envisagez de supprimer, afin d’évaluer les conséquences potentielles. Pour plus d’informations, consultez les sections [Afficher tous les formulaires personnalisés qui utilisent un champ personnalisé ou un widget particulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) et [Afficher tous les rapports qui utilisent un champ personnalisé ou un widget particulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >
@@ -31,31 +31,27 @@ Afin d’améliorer les performances du système et de faciliter l’utilisation
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
-   <td>Tous</td> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td>
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +75,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
 
    1. Ajoutez les champs personnalisés au nouveau formulaire à supprimer du formulaire personnalisé d’origine.
 
-      Pour plus d’informations, voir la section [Ajouter des champs nouveaux ou existants à votre formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) personnalisé dans [Créer un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) personnalisé.
+      Pour plus d’informations, consultez la section [Ajouter des champs nouveaux ou existants à votre formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) dans [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    1. Enregistrez le nouveau formulaire personnalisé.
 

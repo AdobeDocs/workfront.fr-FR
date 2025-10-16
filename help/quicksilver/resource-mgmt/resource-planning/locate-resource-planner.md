@@ -6,10 +6,10 @@ description: Vous pouvez utiliser le planificateur de ressources pour gérer l�
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 91%
+source-wordcount: '471'
+ht-degree: 92%
 
 ---
 
@@ -25,38 +25,31 @@ Vous pouvez utiliser le planificateur de ressources pour gérer l’affectation 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Actuel : Pro ou supérieur</p> </td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Léger ou supérieur;</br>
-          Standard pour localiser le planificateur de ressources dans le menu principal</p>
-       <p>ou</p>
-       <p>En cours : révision ou version ultérieure;</br>
-       Planifier pour localiser le planificateur de ressources dans le menu principal</p></td>
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Léger ou supérieur pour un projet ; standard pour plusieurs projets</p>
+       <p>Réviser ou plus pour un projet ; planifier plusieurs projets</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Accès Afficher ou supérieur à la gestion des ressources</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Autorisations d’objet</td> 
    <td> <p>Visualiser les autorisations pour les projets et les utilisateurs et utilisatrices </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,10 +60,6 @@ Assurez-vous que toutes les conditions préalables à l’accès et à l’utili
 Pour plus d’informations sur les conditions préalables à l’utilisation du planificateur de ressources, consultez l’article [Commencer avec le planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 ## Rechercher le planificateur de ressources
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this was moved from the get-started-resource-planner article)</p>
--->
 
 Vous pouvez localiser le planificateur de ressources dans deux zones de Workfront, selon que vous souhaitez établir le budget de vos ressources pour un ou plusieurs projets.
 
@@ -87,7 +76,7 @@ Pour accéder à la section Planificateur dans la zone Ressources :
 
 Le planificateur s’affiche par défaut.  Pour plus d’informations sur l’établissement d’un budget des ressources dans le planificateur de ressources, consultez l’article [Établir un budget des ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![&#x200B; Planificateur de ressources par défaut &#x200B;](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![ Planificateur de ressources par défaut ](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Cliquez sur **Pools de ressources** dans le panneau de gauche.
 Pour plus d’informations sur la création de groupes de ressources, consultez l’article [Créer des groupes de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).

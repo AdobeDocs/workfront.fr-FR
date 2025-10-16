@@ -6,9 +6,9 @@ description: Vous pouvez exporter des données Adobe Workfront à partir de list
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2252'
 ht-degree: 81%
 
 ---
@@ -46,29 +46,20 @@ Les informations contenues dans cet article ne s’appliquent pas aux exports su
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>
-    <p>Nouveau :</p>
-      <ul>
-      <li>Léger ou supérieur</li>
-      </ul>
-    <p>Actuel :</p>
-      <ul>
-      <li>Révision ou supérieur</li>
-    </td> 
+   <td> 
+      <p>Léger</p>
+      <p>Vérifier</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -81,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -117,8 +108,8 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
 * **50 000 cellules :** nombre maximal de cellules autorisées dans un rapport exporté pour des fichiers Excel.
 * **50 000 lignes :** nombre de lignes de données autorisées dans une exportation de rapport pour les fichiers PDF et délimités par des tabulations.
 
-   * Pour les fichiers Excel, cette limite est de 65 000 lignes **&#x200B;**.
-   * Pour les fichiers Excel(.xlsx), cette limite est de 100 000 lignes **&#x200B;**.
+   * Pour les fichiers Excel, cette limite est de 65 000 lignes ****.
+   * Pour les fichiers Excel(.xlsx), cette limite est de 100 000 lignes ****.
    * Ces limites excluent les en-têtes de colonne, ainsi que les lignes des regroupements dans le rapport. Par exemple, si un rapport comporte 6 regroupements et 50 000 lignes de données, le fichier exporté contiendra 50 000 lignes.
 
   >[!IMPORTANT]

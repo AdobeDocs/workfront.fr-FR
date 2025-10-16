@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 36%
+source-wordcount: '838'
+ht-degree: 23%
 
 ---
 
@@ -47,24 +47,24 @@ Vous pouvez gérer les utilisateurs dans les équipes du projet et du modèle en
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Standard </p>
-    <p>Plan </p>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+    <p>Plan</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès Modifier aux projets et aux modèles</p> <p>Accès en affichage de niveau supérieur aux utilisateurs et utilisatrices</p> </td> 
   </tr> 
   <tr> 
@@ -74,13 +74,11 @@ Vous pouvez gérer les utilisateurs dans les équipes du projet et du modèle en
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 <!--Old access: 
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,121 +90,123 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Standard </p>
+    <p>Plan </p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>View or higher access to Users</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects and Templates</p> <p>View or higher access to Users</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions to a project or to a template</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Ajouter des utilisateurs et utilisatrices à l’équipe de projet
 
-Lorsque vous ajoutez des utilisateurs et utilisatrices à l’équipe de projet, ils obtiennent des autorisations d’affichage sur le projet et sur les tâches, les problèmes et les documents du projet. Pour plus d’informations, voir l’article [Vue d’ensemble de l’équipe de projet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+
+## Add users to a Project Team
+
+When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->Les utilisateurs et utilisatrices de l’équipe de projet ne sont pas automatiquement ajoutés aux outils de gestion des ressources du projet.
+>Users on the Project Team are not automatically added to the resource management tools for the project.
 
-Vous pouvez ajouter des utilisateurs et utilisatrices à l’équipe de projet de la manière suivante :
+You can add users to the project team in the following ways:
 
-* [Ajouter automatiquement des utilisateurs et utilisatrices à une équipe de projet](#automatically-add-users-to-a-project-team)
-* [Ajouter manuellement des utilisateurs et utilisatrices à une équipe de projet](#manually-add-users-to-a-project-team)
+* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
+* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
 
-### Ajouter automatiquement des utilisateurs et utilisatrices à une équipe de projet {#automatically-add-users-to-a-project-team}
+### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
 
-Les utilisateurs et utilisatrices qui remplissent les rôles suivants dans le projet sont automatiquement ajoutés à l’équipe de projet et apparaissent dans la section Personnes lors de la création du projet :
+The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
 
-* Le créateur ou la créatrice du projet
-* Le ou la propriétaire du projet
-* Le sponsor du projet
+* The creator of the project
+* The project owner
+* The project sponsor
 
-Les utilisateurs et utilisatrices sont également automatiquement ajoutés à l’équipe de projet lorsqu’ils sont affectés aux éléments suivants :
+Users are also automatically added to the project team when they are assigned to the following:
 
-* Tâches
-* Problèmes
+* Tasks
+* Issues
 
-### Ajouter manuellement des utilisateurs et utilisatrices à une équipe de projet {#manually-add-users-to-a-project-team}
+### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
 
-Si des utilisateurs et utilisatrices n’ayant aucun rôle dans le projet souhaitent être informés de certaines mises à jour ou modifications pendant la durée du projet, vous pouvez les ajouter manuellement à l’équipe de projet.
+If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
 
-Pour plus d’informations sur les notifications qui peuvent être activées pour les utilisateurs et utilisatrices de l’équipe de projet, voir [Types de notifications d’événement](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+ For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
-<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+ <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
 >You can add to the Project Team only users that belong to the Group associated with the project. You cannot add users that belong to the Subgroups of the project's group. 
 
--->
 
-## Gérer les personnes d’un projet
 
-1. Accédez au projet pour lequel vous souhaitez gérer l’équipe de projet.
+## Manage people on a project
+
+1. Go to the project you want to manage the project team for.
 
    >[!TIP]
    >
-   >Des utilisateurs doivent être affectés à des tâches, des événements ou en tant que parties prenantes du projet pour qu&#39;ils s&#39;affichent dans la section Personnes .
+   >You must have users assigned to tasks, issues or as stakeholders on the project to have them display in the People section.
 
-1. Cliquez sur **Personnes** dans le panneau de gauche.
+1. Click **People** in the left panel. 
 
-1. Cliquez sur **Ajouter des utilisateurs et utilisatrices**.
+1. Click **Add users**. 
 
-   La zone **Ajouter des utilisateurs à l’équipe de projet** s’affiche.
+   The **Add users to Project Team** box displays.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. Dans la zone **Ajouter des utilisateurs**, commencez à saisir le nom d’un utilisateur Workfront actif que vous souhaitez ajouter à l’équipe du projet, puis cliquez sur le nom lorsqu’il apparaît dans la liste.
+1. In the **Add users** box, begin typing the name of an active Workfront user that you want to add to the project team, then click the name when it appears in the list.
 
-   Répétez cette étape pour ajouter plusieurs utilisateurs et utilisatrices à l’équipe de projet. Les utilisateurs et utilisatrices doivent appartenir au groupe associé au projet.
+   Repeat this step to add multiple users to the project team. The users must belong to the group associated with the project. 
 
    >[!TIP]
    >
-   >* Vous ne pouvez pas ajouter des utilisateurs et utilisatrices en ajoutant leurs équipes, groupes, entreprises ou fonctions.
-   >* Au fur et à mesure que vous ajoutez des personnes, observez l’avatar, le rôle principal de la personne et son adresse e-mail afin de distinguer les personnes au nom identique. Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
+   >* You cannot add users by adding their teams, groups, companies, or job roles.
+   >* As you add the users, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
    >
-   >  Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez la section [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. Cliquez sur **Ajouter**.
+1. Click **Add**.
 
-   Les personnes obtiennent des autorisations de visualisation du projet et reçoivent des notifications sur le projet en tant que membres de l’équipe de projet.
+   The users gain View permissions to the project and receive notifications about the project as part of the project team.
 
-1. (Facultatif) Si vous souhaitez qu’un utilisateur reçoive une notification lorsque sa fonction est ajoutée à l’approbation d’une tâche, d’un événement ou d’un projet, cliquez dans la colonne **Fonction** pour l’utilisateur et sélectionnez une fonction qui sera associée à l’approbation.
+1. (Optional) If you want a user to receive a  notification when their job role is added to a task, issue, or project approval, click inside the **Job Role** column for the user, and select a job role that will be associated with the approval. 
 
-   Les utilisateurs recevront des notifications relatives aux approbations affectées à la fonction sélectionnée.
+   The users will receive notifications related to the approvals assigned to the selected job role. 
 
-   Pour plus d’informations, consultez la section « Approbations basées sur les rôles » de l’article [Présentation de l’équipe de projet](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
+   For more information see the "Role-based approvals" section in the article [Project Team overview](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
-1. Sélectionnez un ou plusieurs utilisateurs dans la liste, puis cliquez sur l&#39;icône **Supprimer** ![Icône Supprimer](assets/remove-icon.png) pour les supprimer de l&#39;équipe.
+1. Select one or several users in the list, then click the **Remove** icon ![Remove icon](assets/remove-icon.png) to remove them from the team. 
+ 
+1. Click **Yes, Remove Selected Users** to confirm and remove the users.
 
-1. Cliquez sur **Oui, supprimer les utilisateurs sélectionnés** pour confirmer et supprimer les utilisateurs.
+   Users are removed and unassigned from incomplete work items.
 
-   L’affectation des utilisateurs est supprimée des éléments de travail incomplets.
+   For more information, see the [Considerations for removing users from a project team](#considerations-for-removing-users-from-a-project-team) section in this article.
+1. (Optional) To send an update for this project to users, click **Update All** to send the update to everyone on the team
 
-   Pour plus d’informations, reportez-vous à la section [Considérations relatives à la suppression d’utilisateurs d’une équipe de projet](#considerations-for-removing-users-from-a-project-team) de cet article.
-1. (Facultatif) Pour envoyer une mise à jour de ce projet aux utilisateurs, cliquez sur **Tout mettre à jour** pour envoyer la mise à jour à tous les membres de l&#39;équipe
+   Or 
 
-   Ou
-
-   Sélectionnez un ou plusieurs utilisateurs dans la liste, puis cliquez sur **Envoyer la mise à jour à l’utilisateur**.
+   Select one or multiple users in the list, then click **Send Update to User**.
 
    <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
 
-   ![Envoyer la mise à jour à la zone utilisateur du projet](assets/send-update-to-user-on-project-box-2025.png)
+![Envoyer la mise à jour à la zone utilisateur du projet](assets/send-update-to-user-on-project-box-2025.png)
 
-   <!--Old UI for projects but the text above the comment box is right and matches the functionality):
+<!--Old UI for projects but the text above the comment box is right and matches the functionality):
    ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
 
-   La boîte de dialogue **Envoyer la mise à jour à l’utilisateur** s’ouvre.
+La boîte de dialogue **Envoyer la mise à jour à l’utilisateur** s’ouvre.
 
 1. Utilisez l’une des méthodes suivantes :
 

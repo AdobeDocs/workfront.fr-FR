@@ -6,10 +6,10 @@ description: Vous pouvez supprimer un filtre, une vue ou un regroupement des lis
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 94%
+source-wordcount: '801'
+ht-degree: 95%
 
 ---
 
@@ -21,46 +21,37 @@ Vous pouvez supprimer un filtre, une vue ou un regroupement des listes et des ra
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licence Adobe Workfront</strong></td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Contributeur ou version ultérieure</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Requête ou supérieure</p></li>
-         </ul>
+    <p>Contributeur ou version ultérieure</p>
+    <p>Requête ou supérieure</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td><p>Accès en affichage ou accès supérieur aux filtres, aux vues et aux regroupements</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td><p>Autorisations en affichage avec accès au partage du filtre, de la vue ou du regroupement que vous souhaitez supprimer.</p>
+   <td role="rowheader">Autorisations d’objet</td> 
+    <td> <p>Autorisations en affichage avec accès au partage du filtre, de la vue ou du regroupement que vous souhaitez supprimer.</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

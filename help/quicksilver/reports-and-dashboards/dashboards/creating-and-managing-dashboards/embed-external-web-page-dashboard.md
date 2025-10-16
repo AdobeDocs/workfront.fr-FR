@@ -6,10 +6,10 @@ description: Vous pouvez incorporer une page web externe dans un tableau de bord
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 91%
+source-wordcount: '1017'
+ht-degree: 87%
 
 ---
 
@@ -29,22 +29,22 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents web, 
 >
 >
 >* Les pages de tableau de bord ne sont plus prises en charge en tant que pages externes incorporées dans les tableaux de bord. Bien que les tableaux de bord existants ne soient pas automatiquement modifiés pour supprimer ces pages externes, toute modification apportée à un tableau de bord contenant une telle référence ne pourra pas être enregistrée tant que la référence n’aura pas été supprimée ou modifiée.
-> Plus précisément, les sous-domaines Workfront.com suivants ne sont plus pris en charge :
+>  > Plus précisément, les sous-domaines Workfront.com suivants ne sont plus pris en charge :
 >
 >     * /dashboards
->     * /dashboard/:ID
->     * /portfolio/:ID/content-dashboard__:dashboardID
->     * /program/:ID/content-dashboard__:dashboardID
->     * /project/:ID/content-dashboard__:dashboardID
->     * /task/:ID/content-dashboard__:dashboardID
->     * /template/:ID/content-dashboard__:dashboardID
->     * /templatetask/:ID/content-dashboard__:dashboardID
+>     * /dashboard/:ID&#x200B;
+>     * /portfolio/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /program/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /project/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /task/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /template/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /templatetask/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /resourcemanagement/:ID/
->     * content-dashboard__:dashboardID
->     * /team/:ID/content-dashboard__:dashboardID
->     * /iteration/:ID/content-dashboard__:dashboardID
->     * /requests/:ID/content-dashboard__:dashboardID
->     * /group/:ID/content-dashboard__:dashboardID
+>     * content-dashboard__:dashboardID&#x200B;
+>     * /team/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /itération/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /requests/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /group/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /billingrecord/:ID/content-dashboard__:dashboardID
 >
 >Vous pouvez également envisager d’inclure un rapport de liste dans votre tableau de bord, comme décrit dans [Ajouter un rapport à un tableau de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
@@ -53,41 +53,34 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents web, 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+      <p>Standard</p>
+      <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
-   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
+   <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Modifier l’accès au tableau de bord</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -132,7 +125,7 @@ ou,\
 
       * URL HTTPS (chiffrée) vers une page web.\
         Seules les pages HTTPS (chiffrées) sont chargées avec l’URL.\
-        ![&#x200B; Boîte de dialogue Ajouter une page externe &#x200B;](assets/add-external-page-dialog-qs-350x247.png)
+        ![ Boîte de dialogue Ajouter une page externe ](assets/add-external-page-dialog-qs-350x247.png)
 
       * URL de modèle contenant des informations de session pour un site web spécifique.\
         Par exemple : *https://localhost/?session={!$$SESSION}*

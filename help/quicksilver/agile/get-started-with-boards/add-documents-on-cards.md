@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Ajouter des documents sur les cartes
+title: Ajouter des documents sur des cartes
 description: Vous pouvez ajouter des documents aux cartes connectées sur les panoramas Adobe Workfront.
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '263'
 ht-degree: 96%
 
 ---
@@ -25,27 +25,24 @@ Vous pouvez ajouter des documents aux cartes connectées sur les panoramas Adobe
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
-   <p>ou</p>
-   <p>Actuelle : [!UICONTROL Request] ou supérieure</p>
+   <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p>
    </td> 
   </tr> 
    <tr>
    <td role="rowheader">Configurations des niveaux d’accès</td>
-   <td>Accès aux documents à l’aide de l’option [!UICONTROL Modifier]</td>
+   <td>Modifier l’accès aux documents</td>
   </tr>
  </tbody> 
 </table>

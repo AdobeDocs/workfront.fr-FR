@@ -6,9 +6,9 @@ description: Après l’installation d’ [!DNL Adobe Workfront] pour Salesforce
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1573'
 ht-degree: 94%
 
 ---
@@ -23,30 +23,33 @@ ht-degree: 94%
 >
 >Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Après l’installation d’[!DNL Adobe Workfront] pour Salesforce, vous pouvez définir des déclencheurs qui créent des projets [!DNL Workfront] lorsque certains critères sont remplis sur [!UICONTROL Opportunités] et [!UICONTROL Comptes] [!DNL Salesforce].
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des accès suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -56,7 +59,7 @@ Pour envoyer une demande [!DNL Workfront] à partir d’une [!UICONTROL Opportun
    Pour plus d’informations sur l’installation de [!DNL Workfront for Salesforce], voir [Installer  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
 * Votre administrateur ou administratrice [!DNL Workfront] a ajouté la section [!DNL Workfront] à vos dispositions de page [!UICONTROL Opportunité] et Compte.\
-   Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à une disposition de page, voir [Configurer la section  [!DNL Adobe Workfront]  pour les utilisateurs et utilisatrices de  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+   Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à une disposition de page, voir [Configurer la section  [!DNL Adobe Workfront]  pour les utilisateurs et utilisatrices de  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 * Vous avez un compte [!DNL Workfront] et vous pouvez vous y connecter à partir de la section [!DNL Workfront] dans votre [!UICONTROL Opportunité] ou Compte.
 
@@ -193,7 +196,7 @@ Selon le déclencheur qui a généré les projets, les noms des projets dans [!D
 ## Afficher les projets [!DNL Workfront]
 
 Si votre équipe d’administration [!DNL Workfront] a ajouté la section [!DNL Workfront] à votre disposition de page d’[!UICONTROL Opportunité] ou de compte, vous pouvez voir les projets créés automatiquement dans l’onglet [!UICONTROL Projets] de cette section.\
-Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à la disposition de la page d’une [!UICONTROL Opportunité] ou d’un compte, voir [Configurer la section  [!DNL Adobe Workfront]  pour les utilisateurs et utilisatrices de  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à la disposition de la page d’une [!UICONTROL Opportunité] ou d’un compte, voir [Configurer la section  [!DNL Adobe Workfront]  pour les utilisateurs et utilisatrices de  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 Vous devez disposer d’un compte [!DNL Workfront] et d’une connexion à [!DNL Workfront] pour afficher l’onglet [!UICONTROL Projets].
 

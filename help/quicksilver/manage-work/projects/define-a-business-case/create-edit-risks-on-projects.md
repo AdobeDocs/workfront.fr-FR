@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Créer et modifier des risques dans les projets
 description: Les risques sont des événements ou des facteurs possibles qui empêchent un projet de se terminer à temps ou dans les limites du budget. Vous pouvez enregistrer les risques du projet dans le cadre de la création de l’Analyse de rentabilité d’un projet ou en utilisant l’onglet Risques . Vous pouvez ajouter des risques aux projets et aux modèles. Vous ne pouvez pas associer des risques à des tâches ou des problèmes.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 51%
+source-wordcount: '1059'
+ht-degree: 52%
 
 ---
 
@@ -35,8 +35,6 @@ Les risques peuvent être associés au coût, mais le coût réel des risques n�
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
@@ -44,17 +42,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td> <p>Plans actuels :</p>
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <ul><li>Tout plan permettant d’ajouter des risques dans la zone Risques du projet.</p></li>
    <li><p>Prime ou version ultérieure, pour ajouter des risques dans l’analyse de rentabilité du projet</p></li></ul>
-   <p>Plans hérités : tous les plans</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td> <p>Actuel : Standard </p>
-   <p>Hérité : plan </p> </td> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurations des niveaux d’accès</p></td> 
@@ -67,7 +63,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

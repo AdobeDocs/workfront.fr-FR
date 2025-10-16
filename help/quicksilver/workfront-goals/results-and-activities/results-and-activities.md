@@ -8,32 +8,42 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 95%
+source-wordcount: '180'
+ht-degree: 80%
 
 ---
 
 
 # Résultats et activités dans Objectifs Adobe Workfront
 
+>[!NOTE]
+>
+>Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>
+>Adobe Workfront Goals ne peut plus être acheté.
+>
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->Votre organisation doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
+>Your organization must have the following to use the functionality described in this article:
 >
->* Pour la nouvelle structure de forfait et de licence :
+>* For the new plan and license structure:
 >
->   * Formule Workfront ultime
+>   * The Ultimate Workfront plan 
 >    
->* Pour la structure de forfait et de licence actuelle :
+>* For the current plan and license structure: 
 >
->   * Formule Workfront Pro ou ultérieure
->   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 Pour enregistrer la progression par rapport aux Objectifs Workfront, vous devez associer des indicateurs de progression aux objectifs. Outre les résultats et les activités, vous pouvez également associer des projets ou des objectifs enfant à un objectif pour enregistrer une progression.
 

@@ -6,10 +6,10 @@ description: La fonctionnalité d’organigramme vous permet de visualiser l’o
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 97%
+source-wordcount: '124'
+ht-degree: 88%
 
 ---
 
@@ -21,27 +21,24 @@ L’organigramme permet de visualiser l’organigramme associé à un utilisateu
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
-   <td>Tous</td> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Light ou supérieur</p>
-   <p>ou</p>
-   <p>Actuel : Révision ou supérieur</p></td>
+   <p>Léger ou supérieur</p>
+   <p>Révision ou supérieur</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -51,3 +48,5 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Organigramme]**.
    ![Organigramme](assets/org-chart-2025.png)
+
+   L’organigramme s’affiche.

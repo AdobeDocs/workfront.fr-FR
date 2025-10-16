@@ -5,10 +5,10 @@ description: Adobe Workfront envoie des notifications sur les éléments qui vou
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 91%
+source-wordcount: '1556'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur l’utilisation des abonnements, consultez [À pr
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,16 +43,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan [!UICONTROL Adobe Workfront]*</strong></td> 
+   <td role="rowheader"><strong>Package [!UICONTROL Adobe Workfront]</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
+   <td> 
+   <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Si votre administrateur ou administratrice [!DNL Workfront] a activé <strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong> dans votre niveau d’accès, vous ne pouvez pas vous abonner à des éléments dans [!DNL Workfront].</p> <p>Note : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice [!UICONTROL Workfront] s’il ou elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!UICONTROL Workfront] peut modifier votre niveau d’accès, consultez <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
+   <td> <p>Si votre administrateur ou administratrice [!DNL Workfront] a activé <strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong> dans votre niveau d’accès, vous ne pouvez pas vous abonner à des éléments dans [!DNL Workfront].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
@@ -61,7 +63,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration de [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## S’abonner à un élément
 
@@ -199,7 +203,7 @@ Pour afficher les personnes abonnées à un élément, procédez comme suit :
 
    ![Voir les personnes abonnées](assets/bell-hover-for-list-qs-350x90.png)
 
-   Vous pouvez également afficher une liste des personnes abonnées en ajoutant un champ [!UICONTROL Personnes abonnées] comme colonne dans un rapport ou dans une vue de l’élément abonné. Pour plus d’informations, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Vous pouvez également afficher une liste des personnes abonnées en ajoutant un champ [!UICONTROL Personnes abonnées] comme colonne dans un rapport ou dans une vue de l’élément abonné. Pour plus d’informations, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Comment utiliser des abonnements
 

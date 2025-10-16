@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Saisir du temps
 description: Vous pouvez consigner les heures passées sur un élément de travail dans&nbsp;Adobe Workfront pour refléter le fruit de vos efforts. Vous pouvez également consigner les heures qui ne sont pas liées au travail, comme les vacances, les congés maladie ou le temps passé en réunion. Les heures que vous consignez s’affichent dans votre feuille de temps.
-author: Alina
+author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '4075'
+source-wordcount: '4080'
 ht-degree: 80%
 
 ---
@@ -35,39 +35,39 @@ Pour plus d’informations sur les types d’heures que vous pouvez consigner da
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <ul><li> Léger ou supérieur pour enregistrer des heures sur une tâche, un événement ou des heures générales sur une feuille de temps</li>
-   <li>Standard pour enregistrer des heures sur des projets</li></ul>
+   <ul><li><p>Léger ou supérieur pour enregistrer des heures sur une tâche, un événement ou des heures générales sur une feuille de temps</p></li>
+   <li><p>Standard pour enregistrer des heures sur des projets</p></li></ul>
 
 <p>Ou : </p>
 
-<ul><li>Autorisations Réviser ou supérieures pour consigner les heures générales dans une feuille de temps.</li>
-   <li>Travail ou supérieur pour consigner les heures liées à un projet, à une tâche ou à un problème</li></ul> </td> 
+<ul><li><p>Autorisations Réviser ou supérieures pour consigner les heures générales dans une feuille de temps.</p></li>
+   <li><p>Travail ou supérieur pour consigner les heures liées à un projet, à une tâche ou à un problème</p></li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Accès à la modification pour le type d’élément de travail pour lequel vous consignez les heures. </p> <p>Par exemple, pour consigner les heures consacrées à un problème, vous avez besoin d’un accès en modification aux problèmes.</p> </td> 
+   <td>Configurations du niveau d’accès</td> 
+   <td> <p>Accès à la modification pour le type d’élément de travail pour lequel vous consignez les heures. </p> <p>Par exemple, pour consigner les heures consacrées à un problème, vous avez besoin d’un accès en modification aux problèmes.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Contribuer ou supérieures pour l’élément de travail pour lequel vous consignez les heures, avec les autorisations permettant de consigner les heures.</p> </td> 
+   <td>Autorisations d’objet</td>
+   <td> <p>Autorisations Contribuer ou supérieures pour l’élément de travail pour lequel vous consignez les heures, avec les autorisations permettant de consigner les heures.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -201,7 +201,7 @@ Cliquez sur **Annuler** pour arrêter l’ajout des éléments sélectionnés, p
    >   * Ctrl+Option+Touche « + » pour les ordinateurs Windows
    >   * Cmd+Option+Touche « + » pour les ordinateurs Mac
 
-   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [&#x200B; Définir les types d’heures et la disponibilité &#x200B;](define-hour-types-and-availability.md).
+   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [ Définir les types d’heures et la disponibilité ](define-hour-types-and-availability.md).
 
    Le type d’heure ne peut pas être modifié après la clôture d’une feuille de temps.
 
@@ -444,7 +444,7 @@ Vous devez disposer de tous les éléments suivants :
 
 * Une licence Plan avec un accès administratif aux feuilles de temps et aux heures. Pour plus d&#39;informations sur l&#39;octroi d&#39;un accès administratif aux feuilles de temps et aux heures, voir [Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * L&#39;autorisation Contribuer ou une autorisation supérieure pour le projet avec accès à la consignation des heures. Pour plus d&#39;informations sur l&#39;octroi d&#39;autorisations sur les projets, voir [Partager un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **&#x200B;**&#x200B;Pour plus d&#39;informations sur la possibilité pour les utilisateurs et utilisatrices de consigner des heures directement dans des projets, voir [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **** Pour plus d&#39;informations sur la possibilité pour les utilisateurs et utilisatrices de consigner des heures directement dans des projets, voir [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâche ou d&#39;un problème :
 
@@ -562,7 +562,7 @@ Pour modifier les types d&#39;heures dans un rapport ou une liste d&#39;heures :
 
 1. Accédez à la liste ou au rapport d’une heure.
 1. Cliquez sur la case à gauche d’une ou de plusieurs entrées d’heure pour les sélectionner.
-1. Cliquez sur le **&#x200B;**&#x200B;icône Modifier![](assets/edit-icon.png) en haut de la liste.
+1. Cliquez sur le **** icône Modifier![](assets/edit-icon.png) en haut de la liste.
 
    La boîte de dialogue **Modifier l’heure** ou **Modifier les heures** s’ouvre.
 1. Mettez à jour l’un des champs disponibles suivants :

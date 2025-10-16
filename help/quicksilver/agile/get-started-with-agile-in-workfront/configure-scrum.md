@@ -6,10 +6,10 @@ description: Vous pouvez configurer les options suivantes pour les équipes agil
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 96%
+source-wordcount: '1725'
+ht-degree: 94%
 
 ---
 
@@ -34,8 +34,6 @@ Pour plus d’informations sur la configuration d’une équipe Kanban, voir [Co
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -43,15 +41,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
-   ou
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr>
 
 <tr> 
@@ -82,10 +79,10 @@ Pour configurer l’estimation des histoires pour votre équipe agile :
 1. Sélectionnez l’équipe agile à gérer.
 1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Seuls les membres de l’équipe disposant d’une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] peuvent voir cette option.
+   Seuls les membres de l&#39;équipe disposant d&#39;une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] voient cette option.
    ![Modifier une équipe](assets/edit-team-settings-350x205.png)
 
-1. Dans la section **[!UICONTROL Agile]**, dans la zone **[!UICONTROL Estimer des histoires dans]**, choisissez si vous souhaitez utiliser des points ou des heures pour estimer la taille (charge de travail) des histoires. Si vous sélectionnez Points, indiquez le nombre d’heures égal à 1 point. (La valeur par défaut est de 1 point = 8 heures.) Il s’agit du nombre d’heures prévues ajoutées à l’histoire.
+1. Dans la section **[!UICONTROL Agile]**, dans la zone **[!UICONTROL Estimer des histoires dans]**, choisissez si vous souhaitez utiliser des points ou des heures pour estimer la taille (charge de travail) des histoires. Si vous sélectionnez Points, indiquez le nombre d’heures égal à 1 point. (La valeur par défaut est 1 point = 8 heures.) Il s’agit du nombre d’heures planifiées qui sont ajoutées à l’histoire.
 
    **Exemple :** si vous avez choisi d’estimer les histoires en points et qu’un point équivaut à 8 heures, et qu’une histoire est estimé à 3 points, 24 heures prévues sont ajoutées à l’histoire.
 
@@ -167,7 +164,7 @@ Pour configurer les cartes d’histoire affectées à l’équipe agile afin d�
 1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez-en une dans la barre de recherche.
 
 1. Sélectionnez l’équipe agile à gérer.
-1. Cliquez sur le menu **[!UICONTROL Plus]** , puis sélectionnez **[!UICONTROL Modifier]**.
+1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 Seuls les membres de l’équipe qui disposent d’une licence [!UICONTROL Plan] ou [!UICONTROL Travail] peuvent voir cette option.
 
    ![Modifier équipe](assets/edit-team-settings-350x205.png)
@@ -197,7 +194,7 @@ Pour modifier le comportement de l’affectation des couleurs aux histoires pour
 
    ![Modifier une équipe](assets/edit-team-settings-350x205.png)
 
-1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Associer la couleur de la carte à &#x200B;], sélectionnez l’une des options suivantes :
+1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Associer la couleur de la carte à ], sélectionnez l’une des options suivantes :
 
    * **[!UICONTROL Projet]** : les couleurs sont associées au projet auquel l’histoire est liée. (Lorsqu’une histoire est créée, elle doit être associée à un projet, comme décrit dans [Créer une histoire agile](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Toutes les tâches d’un même projet s’affichent avec la même couleur.
    * **[!UICONTROL Formulaire libre]** : toutes les cartes sont affichées en bleu par défaut jusqu’à ce que quelqu’un modifie manuellement la couleur, comme décrit dans [[!UICONTROL Catégoriser les histoires par couleur] sur le panorama Scrum](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
@@ -215,19 +212,19 @@ Pour modifier le comportement de l’affectation des couleurs aux histoires pour
 
 ## Configurer l’application des dates lors de l’ajout d’éléments de travail à une itération
 
-Par défaut, lorsque vous ajoutez un élément de travail à une itération Scrum, la date de début prévue et la date d’achèvement prévue de l’élément de travail sont modifiées pour correspondre aux dates de début et d’achèvement de l’itération. Vous pouvez choisir de conserver les dates d’origine sur tous les éléments de travail de l’équipe.
+Par défaut, lorsque vous ajoutez un élément de travail à une itération Scrum, la date de début prévue et la date d’achèvement prévue de l’élément de travail sont modifiées pour correspondre aux dates de début et de fin de l’itération. Vous pouvez choisir de conserver les dates d’origine sur tous les éléments de travail de l’équipe.
 
 {{step1-to-team}}
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
-1. Cliquez sur le menu **[!UICONTROL Plus]** , puis sélectionnez **[!UICONTROL Modifier]**.
+1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 Seuls les membres de l’équipe qui disposent d’une licence [!UICONTROL Plan] ou [!UICONTROL Travail] peuvent voir cette option.
 1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Lorsqu’un élément de travail est ajouté à une itération], sélectionnez l’une des options suivantes :
 
-   * **[!UICONTROL Modifiez la date de début planifiée et la date de fin planifiée pour qu’elles correspondent aux dates de début et de fin de l’itération]** : lorsque des éléments de travail sont ajoutés à une itération, les dates de l’élément de travail sont remplacées par les dates d’itération.
+   * **[!UICONTROL Modifiez la Date de début prévue et la Date d’achèvement prévue pour qu’elles correspondent aux dates de début et de fin de l’itération]** : lorsque des éléments de travail sont ajoutés à une itération, les dates des éléments de travail sont remplacées par les dates d’itération.
 
      Pour plus d’informations sur la façon dont les dates sont modifiées, voir la section [Comprendre comment l’ajout d’histoires affecte les dates des tâches](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) dans l’article [Ajouter des histoires à une itération existante](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
-   * **[!UICONTROL Ne pas modifier la date de début prévue et la date d’achèvement prévue pour qu’elles ne correspondent pas aux dates de début et d’achèvement de l’itération.]** : lorsque des éléments de travail sont ajoutés à une itération, ils conservent leurs dates d’origine.
+   * **[!UICONTROL Ne pas modifier la date de début prévue et la date d’achèvement prévue pour qu’elles ne correspondent pas aux dates de début et de fin de l’itération]** : lorsque des éléments de travail sont ajoutés à une itération, ils conservent leurs dates d’origine.
 
    Si vous modifiez l’option de date, les dates des éléments de travail déjà en itération ne sont pas ajustées.
 

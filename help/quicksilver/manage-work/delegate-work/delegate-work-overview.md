@@ -4,10 +4,10 @@ content-type: overview
 navigation-topic: delegate-work
 title: Vue d’ensemble de la délégation de travail
 description: Lorsque vous prévoyez de quitter le bureau pendant une courte période, vous pouvez temporairement déléguer votre travail à d’autres personnes afin de vous assurer que votre absence ne devienne pas un obstacle à la réalisation de vos travaux.
-author: Lisa
+author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 91%
@@ -28,18 +28,18 @@ Vous pouvez déléguer les objets suivants dans [!DNL Adobe Workfront] :
 
 * Tâches qui vous sont affectées.
 * Problèmes qui vous sont affectés.
-* Approbations de projet, de tâche ou d’émission qui vous ont été affectées.
+* Approbations de projets, tâches ou événements qui vous sont affectées.
 
   >[!TIP]
   >
   >   Vous ne pouvez pas déléguer l’approbation des feuilles de temps, des documents ou des épreuves.
 
 
-Cet article contient des informations générales sur la délégation des tâches et des problèmes qui vous sont affectés.
+Cet article contient des informations générales sur la délégation de tâches et les événements qui vous sont assignés.
 
-Pour plus d’informations sur la délégation des approbations de projet, de tâche et de problème, voir [Déléguer la demande d’approbation](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Pour plus d&#39;informations sur la délégation des approbations de projets, de tâches et d&#39;événements, voir [Déléguer la demande d&#39;approbation](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
-Pour plus d’informations sur la façon de déléguer des tâches et des problèmes, voir [Délégation de tâches et de problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
+Pour plus d’informations sur la délégation de tâches et d’événements, voir [ Déléguer des tâches et des événements](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 ## Vue d’ensemble de la délégation des tâches et des problèmes
 
@@ -50,7 +50,7 @@ Tenez compte des points suivants lorsque vous déléguez des tâches et des prob
   Pour plus d’informations, consultez la section [Configurer des préférences de tâche et de problème à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Vous ne pouvez déléguer des tâches et des problèmes qu’à partir de la zone [!UICONTROL Accueil].
-* Lors de la délégation de travail, il existe des exceptions pour les types de licence suivants :
+* Lors de la délégation de travail, des exceptions existent pour les types de licence suivants :
 
    * Vous pouvez déléguer du travail aux personnes réviseuses ou demandeuses, bien que [!DNL Workfront] ne le recommande pas.
    * Les personnes réviseuses peuvent déléguer du travail à d’autres personnes. Elles ne peuvent pas afficher les éléments de travail dans leur zone [!UICONTROL Accueil]. Elles ne peuvent afficher que les approbations.
@@ -67,7 +67,7 @@ Tenez compte des points suivants lorsque vous déléguez des tâches et des prob
 * Si d’autres tâches et problèmes vous sont affectés au cours de la période que vous avez sélectionnée pour que votre travail soit délégué à d’autres personnes, la nouvelle tâche affectée est automatiquement déléguée à la même personne pendant la période que vous avez sélectionnée si les dates pour la tâche ou le problème se situent dans la même période.
 * Une même personne déléguée peut être choisie par plusieurs personnes différentes.
 * Les tâches et problèmes délégués ne s’affichent pas dans les outils de gestion des ressources, tels que l’[!UICONTROL Équilibreur de charge de travail] ou le [!UICONTROL Planificateur de ressources] pour les personnes déléguées.
-* Vous pouvez afficher les noms des tâches déléguées et des personnes déléguées dans plusieurs zones de [!DNL Workfront]. Pour plus d’informations, voir la section &quot;Localisation du travail délégué et informations sur les délégués&quot; dans l’article [Déléguer les tâches et problèmes](../delegate-work/how-to-delegate-work.md).
+* Vous pouvez afficher les noms des tâches déléguées et des personnes déléguées dans plusieurs zones de [!DNL Workfront]. Pour plus d’informations, consultez la section « Localiser le travail délégué et déléguer les informations » de l’article [ Déléguer des tâches et des événements](../delegate-work/how-to-delegate-work.md).
 
 
   >[!IMPORTANT]

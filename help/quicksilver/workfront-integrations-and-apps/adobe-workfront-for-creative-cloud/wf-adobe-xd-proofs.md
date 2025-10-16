@@ -6,10 +6,10 @@ description: Vous pouvez charger vos plans de travail en tant qu’épreuves dir
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 94%
+source-wordcount: '1000'
+ht-degree: 93%
 
 ---
 
@@ -21,22 +21,20 @@ Vous pouvez charger vos plans de travail en tant qu’épreuves directement sur 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>Formule actuelle : [!UICONTROL Pro] ou version ultérieure</p> <p>ou</p> <p>Formule héritée : [!UICONTROL Premium]</p> <p>Pour plus d’informations sur l’accès en relecture avec les différentes formules, voir .</p> </td> 
+ <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td> 
+   <td>Tous </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>Formule actuelle : [!UICONTROL Work] ou [!UICONTROL Proof]</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Standard</p> <p>Travail ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produit</td> 
+   <td role="rowheader">Produits supplémentaires</td> 
    <td>Vous devez disposer d’une licence [!DNL Adobe Creative Cloud] en plus d’une licence [!DNL Workfront].</td> 
   </tr> 
   <tr> 
@@ -50,7 +48,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, rôle ou profil d’autorisation d’épreuve dont vous disposez, contactez l’administration [!DNL Workfront] ou [!DNL Workfront Proof].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -108,7 +107,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Facultatif) Apportez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![Validations de BAT en XD](assets/proof-approvals-xd-350x396.png)
+   ![Validations d’épreuves dans XD](assets/proof-approvals-xd-350x396.png)
 
 1. Choisissez le format d’export dans le menu déroulant **[!UICONTROL Type de ressource]**.
 
@@ -117,7 +116,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Facultatif) Nommez le PDF.
 
-   ![options du PDF &#x200B;](assets/pdf-options.png)
+   ![Options PDF](assets/pdf-options.png)
 
 1. Cliquez sur **[!UICONTROL Charger]**.\
    Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’application de bureau.
@@ -139,7 +138,7 @@ Vous pouvez créer une épreuve interactive pour vos tableaux de bord à l’aid
 
    1. Cliquez sur **[!UICONTROL Créer un lien]**.
 
-1. Revenez à **[!UICONTROL Conception]** dans la zone supérieure gauche de l’écran. Passez à la section [Charger une épreuve interactive](#upload-an-interactive-proof) ci-dessous.
+1. Cliquez pour revenir à **[!UICONTROL Conception]** dans la zone supérieure gauche de l’écran. Passez à la section [Charger une épreuve interactive](#upload-an-interactive-proof) ci-dessous.
 
    >[!NOTE]
    >
@@ -184,10 +183,10 @@ Vous pouvez créer une épreuve interactive pour vos tableaux de bord à l’aid
 
 1. (Facultatif) Apportez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![Validations de BAT en XD](assets/proof-approvals-xd-350x396.png)
+   ![Validations d’épreuves dans XD](assets/proof-approvals-xd-350x396.png)
 
 1. Dans le menu déroulant **[!UICONTROL Type de ressource]**, sélectionnez le lien que vous venez de créer sous l’onglet **Liens partagés**. Pour plus d’informations, voir [Créer un lien interactif pour votre plan de travail](#create-an-interactive-link-for-your-artboard).\
-   ![Liens partagés dans XD](assets/shared-links-xd-350x870.png)
+   ![Liens partagés dans XDS](assets/shared-links-xd-350x870.png)
 
 1. Cliquez sur **[!UICONTROL Charger]**.
 
@@ -247,13 +246,13 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
 
 1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![Validations de BAT en XD](assets/proof-approvals-xd-350x396.png)
+   ![Validations d’épreuves dans XD](assets/proof-approvals-xd-350x396.png)
 
 1. (Facultatif) Si vous sélectionnez le type de ressource PDF et que plusieurs plans de travail sont sélectionnés, choisissez si vous souhaitez exporter vos plans de travail en tant que **[!UICONTROL Fichiers PDF uniques]** ou en tant que **[!UICONTROL Plusieurs fichiers PDF]**.
 
 1. (Facultatif) Nommez le PDF.
 
-   Options du PDF
+   Options de PDF
 
 1. Cliquez sur **[!UICONTROL Charger]**.\
    Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’appli de bureau.

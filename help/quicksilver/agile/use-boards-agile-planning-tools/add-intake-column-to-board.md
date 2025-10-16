@@ -7,7 +7,7 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 69%
@@ -57,21 +57,20 @@ Pour plus d’informations sur les colonnes, voir [Gérer des colonnes de panora
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
-   <p>ou</p>
-   <p>Actuelle : [!UICONTROL Request] ou supérieure</p>
+   <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -119,7 +118,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
 
    ![Créateur de filtres](assets/intake-filter-dialog6.png)
 
-   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL &#x200B; Nouveau &#x200B;] ou [!UICONTROL &#x200B; En cours &#x200B;].
+   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL  Nouveau ] ou [!UICONTROL  En cours ].
 
    >[!NOTE]
    >

@@ -5,9 +5,9 @@ description: La fonctionnalité d’intégrité du projet utilise la puissance d
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
+source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1508'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,8 @@ L’assistant AI peut générer une évaluation de l’intégrité du projet pou
 
 Pour plus d’informations sur l’assistant AI, voir [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -36,9 +37,10 @@ Pour plus d’informations sur l’assistant AI, voir [Présentation de l’assi
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Select, Prime ou Ultimate </p> 
+<p>Sélectionner ou supérieur </p> 
+<p>Workflow Select ou version ultérieure</p>
    </td> 
 <tr> 
  <tr> 
@@ -50,9 +52,9 @@ Pour plus d’informations sur l’assistant AI, voir [Présentation de l’assi
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurations des niveaux d’accès</p></td> 
-   <td><p>L’administrateur doit gérer les configurations d’intégrité du projet </p>
-   <p>Modifier pour appliquer les configurations d’intégrité du projet </p>
-     <p>Afficher pour afficher les configurations d’intégrité du projet </p>
+   <td><p>Vous devez être administrateur système pour gérer les configurations d’intégrité du projet </p>
+   <p>Modifier l’accès aux projets pour appliquer les configurations d’intégrité des projets </p>
+     <p>Afficher l’accès aux projets pour afficher les configurations d’intégrité du projet </p>
   </td> 
   </tr>  
     </tr>  

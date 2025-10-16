@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Recalculer les chronologies des projets
+title: Recalculer les chronologies de projet
 description: Recalculer les chronologies permet aux personnes chargées de la gestion de déterminer l’impact de différents facteurs liés au projet sur la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévisionnelles.
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: d846f2f90a8ca2a38c1b18897341cb50f4c5aef4
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1066'
 ht-degree: 58%
 
 ---
@@ -27,20 +27,20 @@ Le recalcul automatique de la chronologie se produit sans accès spécial pour l
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Standard </p> 
-    <p>Plan </p>
+   <td> <p>Standard</p> 
+    <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -58,6 +58,32 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard </p> 
+    <p>Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> <p>System administrator to recalculate timeline for all projects in the system</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Recalcul automatique
 
 Par défaut, les chronologies des projets sont automatiquement recalculées tous les jours lorsque la portée des projets change ou toutes les nuits. L’administrateur Workfront détermine s’il faut calculer automatiquement les chronologies toutes les nuits ou avec chaque modification de la portée en gérant les paramètres des chronologies dans les Préférences du projet de la Configuration. Pour plus d’informations, voir [Configurer les nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
@@ -67,8 +93,8 @@ Par défaut, les chronologies des projets sont automatiquement recalculées tous
 >* Si la chronologie d&#39;un projet dépasse 15 ans, le recalcul automatique est désactivé pour ce projet et vous ne pouvez sélectionner qu&#39;un type de mise à jour manuelle. Si vous définissez les dates du projet sur moins de 15 ans, vous devez recalculer manuellement votre chronologie une fois avant qu’elle ne soit calculée automatiquement.
 >* Pour les environnements Sandbox de prévisualisation et d’actualisation personnalisée, le recalcul nocturne est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour les environnements de prévisualisation et de sandbox d’actualisation personnalisée.
 >* Si un projet est complexe, le recalcul automatique de la chronologie peut ne pas se produire.
->  &#x200B;> Un exemple de projet complexe peut être un projet avec plusieurs dépendances, un grand nombre de tâches, plusieurs prédécesseurs interprojets ou plusieurs indentations de tâches.
->  &#x200B;> Workfront place un avertissement à droite du nom du projet sur la page du projet pour informer les utilisateurs que la chronologie du projet doit être recalculée manuellement. Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour le projet peuvent recalculer manuellement la chronologie.
+>  > Un exemple de projet complexe peut être un projet avec plusieurs dépendances, un grand nombre de tâches, plusieurs prédécesseurs interprojets ou plusieurs indentations de tâches.
+>  > Workfront place un avertissement à droite du nom du projet sur la page du projet pour informer les utilisateurs que la chronologie du projet doit être recalculée manuellement. Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour le projet peuvent recalculer manuellement la chronologie.
 >
 >   ![](assets/project-warning-to-manually-recalculate-timeline.png)
 >

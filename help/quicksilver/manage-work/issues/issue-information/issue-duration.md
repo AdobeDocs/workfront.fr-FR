@@ -6,18 +6,20 @@ description: La durée d’un problème est le nombre de jours entre la date de 
 author: Alina
 feature: Work Management
 exl-id: 5a8f7c74-21e4-4e90-bb55-b4ff6e35a751
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 97%
+source-wordcount: '102'
+ht-degree: 82%
 
 ---
 
 # Vue d’ensemble de la durée des problèmes
 
+<!--Audited: 08/2025-->
+
 La durée d’un problème est le nombre de jours entre la date de début prévue et la date d’achèvement prévue du problème.
 
-La durée d’un problème est calculée automatiquement par Adobe Workfront et ne peut pas être modifiée manuellement.
+Adobe Workfront calcule automatiquement la durée d’un événement et ne peut pas être modifié manuellement.
 
 Vous pouvez afficher la durée d’un problème dans un rapport sur les problèmes ou dans la vue d’une liste de problèmes.
 

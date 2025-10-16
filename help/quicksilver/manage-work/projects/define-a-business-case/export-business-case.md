@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Exporter le business case d’un projet
 description: Vous pouvez exporter le business case vers un fichier PDF, au cas où vous auriez besoin de l’imprimer ou de le joindre à un e-mail dans un format plus condensé.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 46%
+source-wordcount: '176'
+ht-degree: 53%
 
 ---
 
@@ -26,14 +26,14 @@ Vous pouvez exporter le business case vers un fichier PDF au cas où vous auriez
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td> <p>Current : Prime ou version ultérieure </p> <p>Hérité : Pro ou supérieur </p> </td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td> <p>Prime ou version ultérieure </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td> 
-   <p>Courant : Léger ou supérieur</p>
-   <p>Hérité : révision ou version supérieure</p> </td> 
+   <p>Léger ou supérieur</p>
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -46,7 +46,7 @@ Vous pouvez exporter le business case vers un fichier PDF au cas où vous auriez
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

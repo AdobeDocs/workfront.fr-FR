@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Vue d’ensemble des types de décalage
+title: Types de décalage - Aperçu
 description: Le décalage correspond au temps qui doit s’écouler après la fin d’une tâche antérieure imposée jusqu’à ce que la tâche dépendante puisse commencer (décalage positif), ou au temps pendant lequel une tâche dépendante peut commencer avant le début de la tâche antérieure (décalage négatif).
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 100%
+source-wordcount: '1444'
+ht-degree: 99%
 
 ---
 
@@ -31,29 +31,55 @@ Les dates Prévues, Prévisionnelles et Estimées des tâches ultérieures sont 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Actuel : formule </p> </td>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux tâches et aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations sur les tâches et le projet</p> </td> 
+   <td> <p>Gérer les autorisations sur les tâches et le projet</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan </p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks and the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Types de décalage {#lag-types}
 

@@ -1,5 +1,5 @@
 ---
-title: Création d’applications OAuth2 pour les intégrations  [!DNL Workfront]
+title: 'Création d’applications OAuth2 pour les intégrations  [!DNL Workfront] '
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 09f7e854c2df1291feb150d2169fa6ccd5cdb1d6
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1960'
 ht-degree: 98%
 
 ---
@@ -33,30 +33,26 @@ Lorsque vous créez une application [!UICONTROL OAuth2], vous générez un ID et
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Package Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td><p>Nouvelle : [!UICONTROL Standard]</p>
-   Ou
-   <p>Actuelle : [!UICONTROL Plan]</p></td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> Vous devez être administrateur ou administratrice [!DNL Workfront]. </td> 
+   <td>Vous devez être un administrateur ou une administratrice Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -183,7 +179,7 @@ Pour plus d’informations sur la configuration et l’utilisation de l’applic
 >Si vous créez une application pour vous connecter à Workfront Fusion, utilisez l’une des URL de redirection suivantes :
 >
 >* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront`
->* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (centre de données de l’UE)
+>* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (centre de données de l&#39;UE)
 >* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Azure Data Center)
 
 {{step-1-to-setup}}

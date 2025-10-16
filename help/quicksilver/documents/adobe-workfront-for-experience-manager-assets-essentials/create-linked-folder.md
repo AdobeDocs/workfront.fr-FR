@@ -7,10 +7,10 @@ description: Vous pouvez créer un dossier lié à Experience Manager Assets o
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 89%
+source-wordcount: '436'
+ht-degree: 87%
 
 ---
 
@@ -24,23 +24,23 @@ Si une ressource est supprimée ou déplacée d’un dossier lié dans Experienc
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
 <table>
   <tr>
-   <td><strong>Plan Adobe Workfront*</strong>
+   <td><strong>Package Adobe Workfront</strong>
    </td>
    <td>Tous
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Adobe Workfront*</strong>
+   <td><strong>Licences Adobe Workfront</strong>
    </td>
-   <td>Plan
+   <td>
+   <p>Standard</p>
+   <p>Plan</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Produit</strong>
+   <td><strong>Produits supplémentaires</strong>
    </td>
    <td>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials et faire l’objet d’un ajout au produit en tant qu’utilisateur ou utilisatrice.
    </td>
@@ -59,8 +59,7 @@ Vous devez disposer des éléments suivants :
   </tr>
 </table>
 
-
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

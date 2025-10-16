@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Créer des tâches dans un projet
+title: Création de tâches dans un projet
 description: Vous ne pouvez créer des tâches dans un projet qu’après avoir créé le projet.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1021'
 ht-degree: 59%
 
 ---
@@ -48,36 +48,65 @@ Vous pouvez également créer des tâches de la manière suivante :
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront</p> </td> 
-   <td><p>Standard</p> 
-   <p>Travail ou supérieur</p>
-   </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux tâches et aux projets</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux tâches et aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Contribuer pour le projet avec la capacité d’ajouter des tâches ou autorisations supérieures</p> <p>Lorsque vous créez une tâche, vous recevez automatiquement des autorisations de gestion de la tâche.</p> <p> Pour plus d’informations sur les autorisations de tâches, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Partager une tâche</a>. </p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets . </a></p> </td> 
+   <td> <p>Autorisations Contribuer pour le projet avec la capacité d’ajouter des tâches ou autorisations supérieures</p> 
+   <p>Lorsque vous créez une tâche, vous recevez automatiquement des autorisations de gestion de la tâche.</p> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez l’article [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license</p> </td> 
+   <td><p>Standard</p> 
+   <p>Work or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Tasks and Projects</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects. </a></p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## Créer des tâches dans un projet
 
@@ -189,6 +218,6 @@ Pour créer des tâches dans un projet :
 
    Workfront enregistre les tâches personnelles dans un projet personnel non répertorié toujours nommé selon ce modèle : « &lt; Nom complet de l’utilisateur > Tâches de . Par exemple, un projet personnel peut être nommé « Tâches de Rick ».
 
-1. Sur la page de la tâche, cliquez sur le **&#x200B;**&#x200B;Plus![](assets/more-icon.png), puis sur **Déplacer**. Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. Sur la page de la tâche, cliquez sur le **** Plus![](assets/more-icon.png), puis sur **Déplacer**. Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    Une fois que vous avez déplacé la tâche, elle s’affiche dans le projet que vous avez sélectionné. La chronologie du projet peut être affectée par la chronologie de la nouvelle tâche.

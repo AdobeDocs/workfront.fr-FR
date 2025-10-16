@@ -1,24 +1,23 @@
 ---
-title: Commencer avec le planificateur de scénarios
+title: Prise en main du planificateur de scénarios
 description: Vous pouvez utiliser le planificateur de scénarios Adobe Workfront pour créer des plans au niveau de l’entreprise qui exposent les résultats stratégiques globaux de votre entreprise. Vous pouvez définir plusieurs initiatives pour un plan et les placer dans divers scénarios afin de trouver la solution optimale pour l’exécution du plan.
 author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 100%
+source-wordcount: '774'
+ht-degree: 99%
 
 ---
 
 # Commencer avec le [!DNL Scenario Planner]
 
-Le [!DNL Scenario Planner] nécessite une licence supplémentaire pour la licence [!DNL Adobe Workfront]. Pour plus d’informations sur le [!DNL Scenario Planner] de Workfront, voir [Vue d’ensemble du  [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md).
-
 Vous pouvez utiliser le [!DNL Adobe Workfront Scenario Planner] élaborer des plans au niveau de l’entreprise qui exposent les résultats stratégiques globaux de votre entreprise. Vous pouvez définir plusieurs initiatives pour un plan et les placer dans divers scénarios afin de trouver la solution optimale pour l’exécution du plan.
 
 Pour une vue d’ensemble du [!DNL Workfront Scenario Planner], voir [Vue d’ensemble du  [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md).
+
 
 ## Approches d’utilisation du [!DNL Workfront Scenario Planner]
 
@@ -63,7 +62,7 @@ Le [!DNL Workfront Scenario Planner] s’affiche.
 
 ## Objets du [!DNL Workfront Scenario Planner]
 
-Le tableau ci-dessous décrit les objets du [!DNL Workfront Scenario Planner]. Votre administrateur ou administratrice [!DNL Workfront] peut personnaliser son nom dans votre système en modifiant un modèle de disposition et en l’affectant à des personnes, des équipes ou des groupes. Pour plus d’informations sur la personnalisation des noms d’objet à l’aide d’un modèle de disposition, voir [Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de disposition](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Le tableau ci-dessous décrit les objets du [!DNL Workfront Scenario Planner]. Votre administrateur ou administratrice [!DNL Workfront] peut personnaliser son nom dans votre système en modifiant un modèle de mise en page et en l’affectant à des personnes, des équipes ou des groupes. Pour plus d’informations sur la personnalisation des noms d’objet à l’aide d’un modèle de mise en page, voir [Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de mise en page](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
 Pour plus d’informations sur les.objets du [!DNL Workfront], voir [Vue d’ensemble des objets dans Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 

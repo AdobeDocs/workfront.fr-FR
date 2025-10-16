@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 86%
+source-wordcount: '333'
+ht-degree: 64%
 
 ---
 
@@ -23,45 +23,40 @@ Vous pouvez désactiver une entreprise que vous n’utilisez plus tout en conser
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] plan</p> </td> 
-   <td><p>Actuel : [!UICONTROL Team] ou version ultérieure</p>
-   <p>Ou</p>
-   <p>Nouveau : Tous</p>
+   <td> <p>[!DNL Workfront] paquet</p> </td> 
+   <td><p>Tous</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] licence</p> </td> 
-   <td><p>Actuelle : [!UICONTROL Plan]</p>
-   <p>Ou</p>
-   <p>Nouvelle : [!UICONTROL Standard]</p>
+   <td> <p>[!DNL Adobe Workfront] licence</p> </td> 
+   <td><p>[!UICONTROL Plan]</p>
+   <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès</strong> </td> 
-   <td> <p>Utilisez l’une des configurations suivantes :</p> 
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
+  <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
      <li> <p>Le niveau d'accès [!UICONTROL System Administrator], qui permet de modifier n'importe quelle société du système.</p> </li> 
      <li> <p>Accès administratif pour gérer les sociétés, ce qui vous permet de modifier n’importe quelle société du système.</p> </li> 
     </ul> <p><b>NOTE</b> :  
      <ul> 
       <li> <p>Vous pouvez également gérer les entreprises associées à un groupe pour lequel vous faites partie de l’équipe d’administration.</p> </li> 
-      <li> <p>Pour pouvoir ajouter ou supprimer des utilisateurs et utilisatrices du système [!DNL Workfront], vous devez disposer de l’un des éléments suivants :</p> 
+      <li> <p>Pour ajouter et supprimer des utilisateurs du système [!DNL Workfront], vous devez disposer de l’un des éléments suivants :</p> 
        <ul> 
-        <li> <p>Niveau d’accès [!UICONTROL System Administrator].</p> </li> 
-        <li> <p>Dans votre niveau d’accès, [!UICONTROL Edit] doit être sélectionné pour le paramètre [!UICONTROL Users]. De même, pour le paramètre [!UICONTROL Users], sous [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png">, l’option [!UICONTROL Create] et au moins l’une des deux options [!UICONTROL User Admin] doivent être activées. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Si vous utilisez l’option [!UICONTROL User Admin (Group Users)], vous devez faire partie de l’équipe d’administration du groupe dont la personne est membre.</p> </li> 
+        <li> <p>Niveau d’accès [!UICONTROL System Administrator]. </p> </li> 
+        <li> <p><b>[!UICONTROL Users]</b> paramètre de votre niveau d'accès configuré pour <b> l'accès à[!UICONTROL Edit]</b>, avec <b>[!UICONTROL Create]</b> et au moins l'une des deux options <b>[!UICONTROL User Admin]</b> activées sous <b>[!UICONTROL Affiner vos paramètres]</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p> <img src="assets/access-req-users.png"> </p> <p>De ces deux options, si <b>[!UICONTROL User Admin (Group Users)]</b> est activé, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
        </ul>
        </li> 
-     </ul> </p> </td> 
+     </ul> </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -3,10 +3,10 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Déléguer des tâches et problèmes
 description: Vous pouvez déléguer temporairement le travail qui vous est confié pendant que vous n’êtes pas au bureau. Cet article décrit comment déléguer des attributions de tâches et de problèmes.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '1547'
 ht-degree: 80%
@@ -56,12 +56,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p><p>Ou</p><p>Actuel : Révision ou supérieur</p>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Contributeur ou version ultérieure</p><p>Révision ou supérieur</p>
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

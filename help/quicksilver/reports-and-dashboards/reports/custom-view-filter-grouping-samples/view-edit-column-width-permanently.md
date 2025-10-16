@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Afficher : modifiez définitivement la largeur d’une colonne"
+title: 'Affichage : modification permanente de la largeur d’une colonne'
 description: Vous pouvez temporairement modifier la largeur des colonnes en les faisant glisser et en les déposant sur les marges correspondant à la largeur souhaitée. Pour plus d’informations, consultez la section « Modifier la largeur et l’ordre des colonnes ».
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 95%
+source-wordcount: '381'
+ht-degree: 90%
 
 ---
 
@@ -26,27 +26,27 @@ Pour modifier définitivement la largeur d’une colonne dans une vue, vous deve
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau :<ul><li>Contributeur à la modification d’une vue</li><li>Standard pour modifier un rapport</li></ul></p><p>Ou</p>Actuel :<ul><li>Demander la modification d’un affichage</li><li>Prévoir de modifier un rapport</li></ul></p> </td> 
+   <td> 
+   <p>Contributeur ou demande de modification d’une vue </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, affichages et groupes pour modifier un affichage</p> </td> 
-  </tr>  
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +73,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
    Cliquez sur l’en-tête de colonne d’une colonne existante.
 
 1. Cliquez sur **Basculer en mode texte**.
-1. Cliquez sur **Modifier le mode Texte**.T
+1. Cliquez Sur **Modifier Le Mode Texte**.T
 1. Ajoutez le code suivant au mode texte de la colonne :
 
    ```

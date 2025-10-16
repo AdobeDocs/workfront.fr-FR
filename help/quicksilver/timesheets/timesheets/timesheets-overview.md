@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Vue d’ensemble des feuilles de temps
 description: Les feuilles de temps vous permettent de suivre les heures que vous consacrez au travail, dans et en dehors d’Adobe Workfront.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%
@@ -47,7 +47,7 @@ Les feuilles de temps offrent aux utilisateurs et utilisatrices un moyen simple 
 
 ## Accéder aux feuilles de temps dans la zone Feuilles de temps
 
-La zone des feuilles de temps est accessible par défaut à tous les utilisateurs et utilisatrices. L’administration Workfront peut modifier ce paramètre dans le modèle de disposition, si nécessaire. Pour plus d’informations, consultez la section [Personnaliser le menu principal à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+La zone des feuilles de temps est accessible par défaut à tous les utilisateurs et utilisatrices. L’administration Workfront peut modifier ce paramètre dans le modèle de mise en page, si nécessaire. Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 Pour accéder à une feuille de temps :
 

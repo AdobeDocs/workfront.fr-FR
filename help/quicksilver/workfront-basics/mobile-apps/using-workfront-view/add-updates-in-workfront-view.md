@@ -7,10 +7,10 @@ description: Vous pouvez réviser et ajouter des mises à jour aux projets que v
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 97%
+source-wordcount: '182'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Vous ne pouvez pas ajouter de mises à jour aux tâches ou aux problèmes sur [!
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants dans [!DNL Workfront] pour suivre les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,17 +31,21 @@ Vous devez disposer des accès suivants dans [!DNL Workfront] pour suivre les é
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td> 
+   <p>Contributeur ou version ultérieure</p>
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajouter des mises à jour à un projet dans [!DNL Workfront View]
 

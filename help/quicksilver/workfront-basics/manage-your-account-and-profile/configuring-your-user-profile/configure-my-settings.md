@@ -6,10 +6,10 @@ description: Votre profil  [!DNL Adobe Workfront]  contient des informations vou
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 00162e3d20ab541f3233afd5d0c5d90b4c4d6309
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
 source-wordcount: '3318'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -392,13 +392,13 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   --> 
   <tr> 
    <td role="rowheader"><strong>(Le cas échéant) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
-   <td>Ce champ n’est disponible que si votre entreprise utilise un plan [!DNL Workfront] hérité et a acheté le composant [!DNL Workfront Proof]. Lorsqu’il est sélectionné, votre activation en tant qu’utilisateur ou utilisatrice de relecture est effective. Il affiche également le nombre de licences d’épreuve utilisées dans votre système sur le nombre total de licences d’épreuve achetées. Ce champ est visible et modifiable uniquement pour les utilisateurs et utilisatrices qui sont également administrateurs et administratrices [!DNL Workfront]. Pour plus d’informations sur les options de plan pour la relecture dans [!DNL Workfront], voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Accéder aux fonctionnalités de relecture dans [!DNL Workfront]</a>.</td>
+   <td>Ce champ n’est disponible que si votre société utilise un package de [!DNL Workfront] hérité et a acheté le composant [!DNL Workfront Proof]. Lorsqu’il est sélectionné, votre activation en tant qu’utilisateur ou utilisatrice de relecture est effective. Il affiche également le nombre de licences d’épreuve utilisées dans votre système sur le nombre total de licences d’épreuve achetées. Ce champ est visible et modifiable uniquement pour les utilisateurs et utilisatrices qui sont également administrateurs et administratrices [!DNL Workfront]. Pour plus d’informations sur les options de plan pour la relecture dans [!DNL Workfront], voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Accéder aux fonctionnalités de relecture dans [!DNL Workfront]</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Le cas échéant) [!UICONTROL Permission Profile]</strong></td> 
    <td> <p>Ce champ affiche le niveau d’accès que vous avez dans [!DNL Workfront Proof]. Il n’est disponible que si les conditions suivantes sont respectées :</p> 
     <ul> 
-     <li>Votre entreprise utilise un plan [!DNL Workfront] hérité et a acheté le composant [!DNL Workfront Proof] ou vous disposez d’une licence [!UICONTROL Standard], [!UICONTROL Work] ou [!UICONTROL Plan] sur un plan [!DNL Workfront] plus récent.</li> 
+     <li>Votre entreprise utilise un ancien package [!DNL Workfront] et a acheté le composant [!DNL Workfront Proof], ou vous disposez d’une licence [!UICONTROL Standard], [!UICONTROL Work] ou [!UICONTROL Plan] sur un nouveau package [!DNL Workfront].</li> 
      <li>Vous êtes utilisateur ou utilisatrice d’épreuves.</li> 
     </ul> <p>[!DNL Workfront] Les administrateurs et administratrices peuvent modifier le champ pour toutes.les.personnes, à l’exception d’eux-mêmes et d’elles-mêmes, de sorte que toutes les personnes voient le champ en vue seulementsur leurs propres profils. Pour plus d’informations sur le profil d’autorisation, voir <a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">Vue d’ensemble du profil d’autorisation des épreuves</a>.</p> </td> 
   </tr> 

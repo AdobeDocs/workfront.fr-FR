@@ -6,10 +6,10 @@ description: Lorsque vous supprimez une carte d’un panorama, elle est supprim�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 94%
+source-wordcount: '516'
+ht-degree: 95%
 
 ---
 
@@ -23,34 +23,31 @@ Lorsque vous supprimez une carte connectée d’un autre type de panorama compor
 
 L’archivage d’une carte l’envoie dans les archives et vous pouvez la restaurer dans le panorama ultérieurement.
 
-Les cartes archivées ne sont pas synchronisées avec les tâches et les problèmes Workfront. Si vous restaurez une carte, elle sera à nouveau synchronisée.
+Les cartes archivées ne sont pas synchronisées avec les tâches et les événements Workfront. Si vous restaurez une carte, elle sera à nouveau synchronisée.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
-   <p>ou</p>
-   <p>Actuelle : [!UICONTROL Request] ou supérieure</p>
+   <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +66,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, voir [Cond
 
    Les cartes archivées sont cachées dans le panorama à moins que vous n’appliquiez un filtre pour les afficher. Pour plus d’informations, consultez dans cet article la section [Filtrer une carte pour afficher les cartes archivées](#filter-a-board-to-show-archived-cards).
 
-   Une icône [!UICONTROL Archiver] ![&#x200B; Archiver](assets/archive-icon-spectrum-25x20.png) apparaît sur les cartes archivées. Vous ne pouvez pas modifier une carte archivée, mais vous pouvez la supprimer ou la déplacer vers une autre colonne.
+   Une icône [!UICONTROL Archiver] ![ Archiver](assets/archive-icon-spectrum-25x20.png) apparaît sur les cartes archivées. Vous ne pouvez pas modifier une carte archivée, mais vous pouvez la supprimer ou la déplacer vers une autre colonne.
 
 1. Pour restaurer une carte archivée, cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) sur la carte et sélectionnez **[!UICONTROL Restaurer]**.
 

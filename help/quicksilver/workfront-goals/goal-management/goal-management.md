@@ -8,36 +8,47 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 76%
+source-wordcount: '247'
+ht-degree: 64%
 
 ---
 
 # Gestion des objectifs dans Adobe Workfront Objectifs : index des articles
 
-<!--Audited: 4/2025-->
+<!--Audited: 10/2025-->
+
+>[!NOTE]
+>
+>Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>
+>Adobe Workfront Goals ne peut plus être acheté.
+>
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
 
 >[!IMPORTANT]
 >
->Votre organisation doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
+>Your organization must have the following to use the functionality described in this article:
 >
->* Pour la nouvelle structure de plan et de licence* :
+>* For the new plan and license structure*:
 >
->   * Un forfait Ultimate
+>   * An Ultimate plan 
 >    
->* Pour la structure de forfait et de licence actuelle :
+>* For the current plan and license structure: 
 >
->   * Un forfait Pro ou supérieur
->   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+>*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 >
 >
->Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
+>Contact your Workfront account manager to learn about a Workfront Goals license.
 >
->Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Consultez les articles suivants pour savoir comment commencer avec les Objectifs Workfront, l’importance de l’utilisation des objectifs, comment créer, éditer, commenter et gérer des objectifs, ainsi que comment filtrer et imprimer les informations relatives aux objectifs :
 

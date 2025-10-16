@@ -6,10 +6,10 @@ description: La zone Mises à jour d’un objet comprend un bouton qui utilise l
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: 440d9af6915184b7e91ca257e02be4a234fb91e0
+source-git-commit: cf3d5daa739fa6ab413ee82a9f465441ef61ae6d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 11%
+source-wordcount: '388'
+ht-degree: 7%
 
 ---
 
@@ -27,42 +27,70 @@ Vous pouvez utiliser le bouton Résumer le contenu pour générer un résumé ou
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Current: Not available</p></td>
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td><p>N’importe quel package de workflow</p>
+      </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
+   <td><p>Standard</p>
+   </td>
+  </tr>
+
+<tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td><p>Autorisations d'affichage ou supérieures aux objets dont vous souhaitez afficher les mises à jour</p>
+   </td>
+  </tr>
+
+</tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
        <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
-</table>
-
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+</table>-->
 
 ## Conditions préalables
 
-* Votre administrateur Workfront doit avoir activé l’assistant AI pour votre organisation.
+* Votre administrateur Workfront doit activer l’assistant d’IA pour votre entreprise.
 
   Pour plus d’informations, consultez [Conditions préalables pour l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) dans la présentation de l’assistant AI.
-* Votre administrateur Workfront doit avoir activé AI Assistant pour votre niveau d’accès.
+* Votre administrateur Workfront doit activer l’assistant AI pour votre niveau d’accès.
 
   Pour plus d’informations, voir [Activer ou désactiver l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-## Résumer à l’aide du bouton Résumer le contenu
+## Résumer à l’aide du bouton Résumer les commentaires
 
-1. Accédez au flux de mise à jour que vous souhaitez synthétiser.
-1. Cliquez sur le bouton **Résumer le contenu**.
+1. Accédez à l’objet dont vous souhaitez synthétiser les mises à jour.
+1. Cliquez sur **Mises à jour** dans le panneau de gauche.
+1. Cliquez sur le bouton **Résumer les commentaires** en haut de la zone **Mises à jour**.
 
    L’assistant AI s’ouvre et vous invite à résumer les 7 derniers jours de commentaires sur le flux de mise à jour.
 

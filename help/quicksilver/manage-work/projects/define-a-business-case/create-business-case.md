@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Créer une analyse de rentabilité pour un projet
 description: Vous pouvez utiliser le business case pour demander un projet et définir l’objectif, le budget et le bénéfice potentiel du projet. La personne gestionnaire de portfolio ou la personne sponsor de projet utilise les informations du business case pour analyser le projet et établir sa priorité avant de l’approuver.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 63%
+source-wordcount: '777'
+ht-degree: 64%
 
 ---
 
@@ -27,17 +27,16 @@ Vous pouvez utiliser le business case pour demander un projet et définir l’ob
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront</p></td> 
    <td> 
-   <p>Current : Prime ou version ultérieure</p> 
-   <p>Hérité : Pro ou supérieur</p> 
+   <p>Prime ou version ultérieure</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td> 
-   <p>Actuel : Standard </p> 
-   <p>Hérité : plan </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurations des niveaux d’accès</p></td> 
@@ -50,7 +49,7 @@ Vous pouvez utiliser le business case pour demander un projet et définir l’ob
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

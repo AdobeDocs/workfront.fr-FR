@@ -7,10 +7,10 @@ description: 'Afficher : Congés Personnels De L''Utilisateur'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 91%
+source-wordcount: '239'
+ht-degree: 83%
 
 ---
 
@@ -28,39 +28,27 @@ Vous avez la possibilité de générer un rapport de congés afin de rassembler 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p> Actuel : 
-   <ul>
-   <li>Demander la modification d’un affichage</li> 
-   <li>Prévoir de modifier un rapport</li>
-   </ul>
-     </p>
-     <p> Nouveau : 
-   <ul>
-   <li>Contributeur à la modification d’une vue</li> 
-   <li>Standard pour modifier un rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Contributeur ou demande de modification d’une vue </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, affichages et groupes pour modifier un affichage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>

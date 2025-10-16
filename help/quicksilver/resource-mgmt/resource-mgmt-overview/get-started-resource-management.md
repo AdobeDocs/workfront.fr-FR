@@ -7,9 +7,9 @@ description: La gestion des ressources vous permet de configurer votre système 
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 96%
 
 ---
@@ -119,7 +119,7 @@ Le processus de gestion des ressources dans Workfront comprend les étapes suiva
   Pour plus d’informations sur la planification des ressources et l’affectation du travail, consultez les sections suivantes :
 
    * [Planification des ressources : index des articles](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [Planificateur de scénarios Adobe Workfront](../../scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner] : index des articles](../../scenario-planner/scenario-planning.md)
    * [Équilibreur de charge de travail : index des articles](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
@@ -137,11 +137,11 @@ Les types d’utilisateurs et d’utilisatrices suivants ont accès aux outils d
 Pour accéder aux outils de gestion des ressources, vous devez appartenir à l’un des types d’utilisateurs et d’utilisatrices suivants et disposer des accès et autorisations présentés ci-dessous :
 
 * Personne responsable de l’administration du système.
-* Un utilisateur disposant d’une licence Standard ou Plan.
+* Utilisateur disposant d’une licence Standard ou Plan.
 
   Un utilisateur ou une utilisatrice disposant d’une licence Travail peut utiliser l’équilibreur de charge de travail d’un projet et gérer les affectations et les allocations.
 
-  En plus d’avoir une licence Work ou supérieure (ou une licence Standard), vous devez disposer des éléments suivants pour utiliser des outils de gestion de ressources spécifiques :
+  Outre une licence de travail ou supérieure (ou une licence standard), vous devez disposer des éléments suivants pour utiliser des outils de gestion des ressources spécifiques :
 
    * Modifier l’accès à la gestion des ressources (non nécessaire pour effectuer des affectations dans l’équilibreur de charge de travail)
    * Modifier l’accès aux données financières pour afficher les informations sur les coûts dans le planificateur de ressources

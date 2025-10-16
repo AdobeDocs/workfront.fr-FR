@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '529'
 ht-degree: 12%
 
 ---
@@ -23,8 +23,6 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
-   <p>Actuel : demande ou supérieure pour les problèmes <!--and documents--> ; révision ou supérieure pour tous les autres objets</p>
-   <p>Nouveau : Contributeur ou version ultérieure pour les problèmes <!--and documents--> : Léger ou version ultérieure pour tous les autres objets</p> 
+   <p>Demande ou niveau supérieur pour les problèmes et les documents ; Révision ou niveau supérieur pour tous les autres objets</p>
+   <p>Contributeur ou version ultérieure pour les événements et les documents : légère ou supérieure pour tous les autres objets</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +75,7 @@ Vous pouvez ajouter un commentaire à partir de la liste de travail :
    >
    >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
-Pour plus d’informations sur l’ajout de mises à jour, voir [&#x200B; Ajouter une mise à jour à un élément de travail &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations sur l’ajout de mises à jour, voir [ Ajouter une mise à jour à un élément de travail ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Afficher et ajouter des commentaires et des mises à jour système dans un élément de travail
 

@@ -6,10 +6,10 @@ description: La progression de l’objectif dépend d’indicateurs de progressi
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 98%
+source-wordcount: '795'
+ht-degree: 93%
 
 ---
 
@@ -17,23 +17,31 @@ ht-degree: 98%
 
 <!--Audited for P&P only: 4/2025-->
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Votre organisation doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
+>Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
 >
->
->* Pour la nouvelle structure de forfait et de licence :
->
->   * Un forfait Ultimate
->    
->* Pour la structure de forfait et de licence actuelle :
->
->   * Un forfait Pro ou supérieur
->   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
->
-> Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
+>Adobe Workfront Goals ne peut plus être acheté.
 >
 >Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>
+>* For the new plan and license structure:
+>
+>   * An Ultimate plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+
 
 Adobe Workfront calcule automatiquement la progression de l’objectif en fonction de la progression de ses indicateurs de progression.
 
@@ -97,7 +105,7 @@ Par exemple, si un objectif doit être achevé dans 90 jours, et qu’aujourd�
 
 La solution Objectifs Workfront calcule un pourcentage de progression et attribue un libellé de progression aux objectifs en fonction du pourcentage terminé prévu qui a été atteint à ce moment précis. La barre de pourcentage terminé de l’objectif change de couleur pour indiquer la progression de l’objectif.
 
-La condition de l’objectif est également mise à jour en conséquence, afin d’indiquer si l’objectif est en passe d’être terminé à temps ou s’il est en retard.
+La condition de l’objectif est également mise à jour en conséquence, afin d’indiquer si l’objectif est dans les temps pour être atteint ou s’il est en retard.
 
 La solution Objectifs Workfront calcule le pourcentage de progression d’un objectif à l’aide de la formule suivante :
 

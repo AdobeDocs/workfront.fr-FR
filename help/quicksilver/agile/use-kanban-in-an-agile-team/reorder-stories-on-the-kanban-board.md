@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
-title: Réorganiser les articles sur la planche de Kanban
+title: Réorganiser les histoires sur le tableau Kanban
 description: Vous pouvez modifier l’ordre dans lequel les histoires sont affichées dans les colonnes de statut du tableau Kanban.
 author: Lisa
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 97%
+source-wordcount: '253'
+ht-degree: 96%
 
 ---
 
@@ -31,8 +31,6 @@ Lorsque vous réorganisez les colonnes du tableau [!DNL Kanban], toutes les modi
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,14 +38,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
-   ou
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -56,9 +53,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Réorganiser les histoires sur le tableau [!UICONTROL Kanban]
-
-Pour modifier l’ordre des histoires, procédez comme suit :
+## Réorganiser les histoires sur le panorama [!UICONTROL Kanban]
 
 {{step1-to-team}}
 

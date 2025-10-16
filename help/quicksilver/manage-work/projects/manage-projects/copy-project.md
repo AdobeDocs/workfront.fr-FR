@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 63%
+source-wordcount: '712'
+ht-degree: 62%
 
 ---
 
@@ -52,61 +52,28 @@ Veuillez noter que vous ne pouvez pas copier des projets en bloc.
 
 ## Conditions d’accès
 
-<!-- drafted for P&P:
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-+++ Développez pour afficher les exigences d’accès pour la fonctionnalité de cet article.
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Formule Adobe Workfront</p> </td> 
+   <td> <p>Package Adobe Workfront</p> </td>  
    <td>Tous</td> 
   </tr> 
   <tr> 
    <td> <p>Licence Adobe Workfront</p> </td> 
-   <td> <p>Nouveau : Standard </p> 
-   <p>Ou</p>
-   <p>Actuel : formule </p>
+   <td> <p>Standard</p> 
+   <p>Plan</p>
+      </td> 
+  </tr> 
+     <td>Configurations des niveaux d’accès </td> 
+   <td> <p>Modifier l’accès aux projets avec la possibilité de Créer et de copier des projets</p> </td> 
+  </tr>
 
-</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Configurations des niveaux d’accès </td> 
-   <td> <p>Accès Modifier aux projets avec la possibilité de créer <span>et copier</span> des projects</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p>Autorisations d’objet </p> </td> 
+<td> <p>Autorisations d’objet </p> </td> 
    <td> <p>Accès en affichage ou accès supérieur au projet</p>  </td> 
   </tr> 
  </tbody> 
@@ -115,6 +82,35 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Copier un seul projet
 

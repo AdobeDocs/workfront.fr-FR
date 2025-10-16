@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Empêcher l’action Recalculer les finances d’affecter les heures historiques lorsque les taux changent
 description: Vous devez mettre à jour le coût horaire d’une personne ou d’une fonction (en raison d’une augmentation ou d’une autre circonstance), mais vous ne souhaitez pas que cette modification affecte les heures qui ont été précédemment consignées sur des projets ou que cela affecte uniquement une partie des heures historiques.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 29d3124b-cf7a-4a47-95c4-cd5379489810
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%

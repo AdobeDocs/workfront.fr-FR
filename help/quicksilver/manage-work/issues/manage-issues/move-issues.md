@@ -6,10 +6,10 @@ description: Vous pouvez déplacer des problèmes entre des projets et des tâch
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 86%
+source-wordcount: '873'
+ht-degree: 85%
 
 ---
 
@@ -30,26 +30,23 @@ Vous pouvez déplacer des problèmes entre les objets suivants :
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau :</p> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
    <ul><li>Contributeur ou version ultérieure</li>
    <li>Léger ou supérieur pour déplacer les problèmes dans la section Problèmes d’un projet</li></ul>
-   <p>Actuel :</p>
-   <ul>
-   <li><p>Requête ou supérieure</p></li>
+   Ou :
+   <ul>   <li><p>Requête ou supérieure</p></li>
    <li><p>Licence de révision ou une licence supérieure pour déplacer les problèmes dans la section Problèmes d’un projet.</p></li></ul>   
      </td> 
   </tr> 
@@ -67,6 +64,38 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New:</p> 
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to move issues in the Issues section of a project</li></ul>
+   <p>Current:</p>
+   <ul>
+   <li><p>Request or higher</p></li>
+   <li><p>Review or higher license to move issues in the Issues section of a project.</p></li></ul>   
+     </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to Add Issues.</td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Remarques relatives au déplacement de problèmes
 

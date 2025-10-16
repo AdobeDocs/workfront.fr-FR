@@ -7,10 +7,10 @@ description: Certains objets affichés dans une vue renvoient par défaut à la 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 83%
+source-wordcount: '371'
+ht-degree: 75%
 
 ---
 
@@ -26,44 +26,33 @@ Vous pouvez supprimer ce lien en mode texte dans les colonnes qui s’affichent 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p> Actuel : 
-   <ul>
-   <li>Demander la modification d’un affichage</li> 
-   <li>Prévoir de modifier un rapport</li>
-   </ul>
-     </p>
-     <p> Nouveau : 
-   <ul>
-   <li>Contributeur à la modification d’une vue</li> 
-   <li>Standard pour modifier un rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Contributeur ou demande de modification d’une vue </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, affichages et groupes pour modifier un affichage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -75,9 +64,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Ou
 
-   Cliquez sur l’icône **Modifier** ![&#x200B; Modifier &#x200B;](assets/edit-icon.png)
-
-   pour modifier une vue existante, puis sélectionnez la vue.
+   Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) pour modifier une vue existante, puis sélectionnez la vue.
 
 1. Cliquez sur **Ajouter une colonne** pour ajouter une nouvelle colonne.
 

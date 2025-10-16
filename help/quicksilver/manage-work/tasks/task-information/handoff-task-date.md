@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Vue d’ensemble de la date de remise de la tâche
+title: Aperçu de la date de remise de la tâche
 description: La date de remise est la date à laquelle une tâche est disponible pour le travail. Cela signifie généralement que ses tâches antérieures sont terminées et que la personne cessionnaire de la tâche peut commencer à travailler dessus.
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

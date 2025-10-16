@@ -3,12 +3,12 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Définir les types d'heures et la disponibilité
 description: Un type d’heure est une étiquette qui vous permet de classer les heures saisies par catégorie. Selon les exigences de votre organisation en matière de rapports sur les heures, il peut s’agir d’un élément essentiel de la consignation des heures.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1479'
 ht-degree: 28%
 
 ---
@@ -36,32 +36,30 @@ Une fois les types d’heures appropriés configurés, vous pouvez consigner le 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Standard</p> 
-   <p>Actuel : formule</p>
+   <td>Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Accès d’administrateur ou administratrice système pour définir les types d’heures à l’échelle du système et pour modifier tous les utilisateurs et utilisatrices</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Autorisations d’objet</td> 
    <td>Accès en gestion au projet pour définir les types d’heures sur un projet</td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -131,7 +129,7 @@ Pour définir les types d’heure disponibles pour un utilisateur ou une utilisa
 
 1. (Facultatif) Dans le menu déroulant **Type d’heure par défaut**, sélectionnez un type d’heure. Lorsque le type d’heure par défaut de l’utilisateur et un type d’heure filtré de projet correspondent, ce type d’heure est sélectionné par défaut lors de la journalisation de l’heure.
 
-1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;Désormais, lorsque vous consignez des heures pour un projet, une tâche ou un événement, les types d’heures que vous sélectionnez sont disponibles si ces mêmes types d’heures ont été rendus disponibles au niveau du projet.
+1. Cliquez sur Enregistrer les modifications. **** Désormais, lorsque vous consignez des heures pour un projet, une tâche ou un événement, les types d’heures que vous sélectionnez sont disponibles si ces mêmes types d’heures ont été rendus disponibles au niveau du projet.
 
 ## Fonctionnement des types d’heures au niveau de l’utilisateur ou de l’utilisatrice et au niveau du projet
 

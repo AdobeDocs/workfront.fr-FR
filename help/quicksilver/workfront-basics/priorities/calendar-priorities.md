@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 15%
+source-wordcount: '522'
+ht-degree: 13%
 
 ---
 
@@ -37,14 +37,14 @@ Suivez facilement votre travail grâce à un calendrier visuel clair. Avec le ca
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Current : Reviewer ou supérieur</p>
-   <p>Nouveau : Light ou supérieur</p> 
+   <p>Réviseur ou supérieur</p>
+   <p>Léger ou supérieur</p> 
    </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
         <td>Affiche les éléments avec 
         <ul>
         <li>Aucune contrainte de tâches ou de prédécesseurs incomplète</li>
-        <p>et</p>
+        <p>and</p>
         <li>La date de début prévue est dans le passé ou peut être dans les deux semaines à venir</li>
         </ul>
         </td>

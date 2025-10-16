@@ -6,10 +6,10 @@ description: Vous pouvez afficher les rapports de calendrier et les détails des
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 74%
+source-wordcount: '576'
+ht-degree: 73%
 
 ---
 
@@ -21,8 +21,6 @@ Vous pouvez afficher les rapports de calendrier et les détails des événements
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,22 +28,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td><p>Nouveau : contributeur</p>
-       <p>ou</p>
-       <p>Actuel : demande</p></td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Contributeur</p>
+       <p>Demande</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>[!UICONTROL View] ou un accès supérieur à [!UICONTROL Reports], [!UICONTROL Dashboards] et [!UICONTROL Calendars]</p></td> 
+   <td> <p>Accès supérieur ou égal à Rapports, Tableaux de bord et Calendriers</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Autorisations [!UICONTROL View] ou de niveau supérieur au rapport de calendrier</td> 
+   <td>Autorisations d’affichage ou supérieures pour le rapport de calendrier</td> 
   </tr> 
  </tbody> 
 </table>

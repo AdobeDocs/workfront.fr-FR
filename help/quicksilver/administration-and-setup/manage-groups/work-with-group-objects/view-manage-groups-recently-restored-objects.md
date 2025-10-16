@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
+source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 71%
+source-wordcount: '310'
+ht-degree: 68%
 
 ---
 
@@ -30,34 +30,31 @@ Pour plus d’informations sur les éléments restaurés, voir [Restaurer les é
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td>
-   <td><p>Nouveau : Standard</p>
-       <p>Ou</p>
-       <p>Actuel : formule</p></td>
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
   </tr>
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td>
+   <td>Autorisations d’objet</td>
    <td>Les éléments restaurés doivent être associés au groupe ou à l’un de ses sous-groupes.</td> 
-  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,5 +79,5 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. (Facultatif) Pour exporter la liste complète des objets de l’onglet, cliquez sur l’icône **Exporter**. ![icône Exporter](assets/export-icon.png).
 1. (Facultatif) Modifiez l’affichage des informations dans la liste à l’aide d’un filtre, d’une vue ou d’un regroupement.
 
-   Pour plus d’informations, voir [&#x200B; Présentation des éléments de rapports &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+   Pour plus d’informations, voir [ Présentation des éléments de rapports ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 

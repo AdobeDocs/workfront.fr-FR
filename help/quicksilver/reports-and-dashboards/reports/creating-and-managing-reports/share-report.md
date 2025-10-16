@@ -6,10 +6,10 @@ description: Votre administrateur ou administratrice Adobe Workfront accorde au
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 73%
+source-wordcount: '817'
+ht-degree: 72%
 
 ---
 
@@ -29,43 +29,35 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Pour partager des objets, vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-      <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Léger ou supérieur</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Révision ou supérieur</p></li>
-         </ul>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+      <p>Léger</p>
+      <p>Vérifier</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès en affichage ou supérieur aux rapports, tableaux de bord et calendriers</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Afficher l'accès ou supérieur aux rapports, tableaux de bord, calendriers</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Afficher ou supérieures sur le rapport</p></td> 
+   <td> <p>Autorisations d’affichage ou supérieures pour le rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +84,7 @@ Le partage d’un ou de plusieurs rapports d’une liste est identique.
 
    Ou
 
-   Cliquez sur le nom d’un rapport, puis sur **Actions du rapport >**&#x200B;**Partage**.
+   Cliquez sur le nom d’un rapport, puis sur **Actions du rapport >****Partage**.
 
    ![](assets/unshimmed-report-actions-sharing.png)
 

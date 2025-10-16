@@ -5,9 +5,9 @@ description: Vous pouvez facilement localiser des éléments dans  [!DNL Adobe W
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1570'
 ht-degree: 63%
 
 ---
@@ -33,17 +33,14 @@ Vous devez disposer des autorisations nécessaires pour afficher un objet avant 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : contributeur ou supérieure<p>
-   <p>Ou</p>
-   <p>Actuelle : demande ou supérieure </p>
-
-
-</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Contributeur ou version ultérieure<p>
+   <p>Requête ou supérieure </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -207,7 +204,7 @@ Pour plus d’informations sur les champs recherchés dans [!DNL Workfront], con
 
    Appuyez sur Entrée (Mac) ou [!UICONTROL Entrée] (Windows) sur votre clavier pour effectuer une recherche complète. Cette recherche interroge l’ensemble de la base de données au lieu des éléments que vous avez consultés le plus récemment et ouvre la page **Search**.
 
-   Si vous avez effectué une recherche générale, [!DNL Workfront] renvoie des résultats pour tout objet qui correspond au terme recherché dans l’un des champs recherchés, comme décrit dans la section [Comprendre le fonctionnement de la recherche](#understand-search). Les objets correspondant à votre recherche s’affichent dans une liste.
+   Si vous avez effectué une recherche générale, [!DNL Workfront] renvoie des résultats pour tout objet qui correspond au terme de recherche dans l’un des champs recherchés, comme décrit dans la section [Comprendre le fonctionnement de la recherche](#understand-search). Les objets correspondant à votre recherche s’affichent dans une liste.
 
    >[!NOTE]
    >

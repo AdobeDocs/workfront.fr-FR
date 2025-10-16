@@ -1,5 +1,5 @@
 ---
-title: Supprimer des projets
+title: Supprimer projets
 product-area: projects
 navigation-topic: manage-projects
 description: Vous pouvez supprimer un projet si celui-ci et ses données ne sont plus nécessaires. Au lieu de supprimer un projet, nous vous recommandons de le modifier et de changer son statut sur Terminé ou Inactif. Cette opération supprime de la liste de tâches d’un utilisateur ou d’une utilisatrice toutes les tâches en cours liées au projet, mais enregistre toutes les données qui y sont associées.
@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '878'
 ht-degree: 94%
 
 ---
@@ -28,36 +28,59 @@ Vous pouvez supprimer un projet dans une liste de projets ou au niveau du projet
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Package Adobe Workfront</p> </td> 
+   <td>Tous</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Licence Adobe Workfront</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> 
+   </td> 
+  </tr> 
+    <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux projets avec la possibilité de créer et de supprimer des projets</p> </td> 
+  </tr> 
+    <td> <p>Autorisations d’objet</p> </td> 
+   <td> <p>Modifier l’accès aux projets, tâches et problèmes avec la possibilité de supprimer des projets, des tâches et des problèmes</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Formule Adobe Workfront</p> </td> 
-   <td>Tous</td> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Licence Adobe Workfront*</p> </td> 
-   <td> <p>Nouvelle licence : Standard </p>
-   <p>Licence actuelle : plan </p> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>New license: Standard </p>
+   <p>Current license: Plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Configuration du niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux projets avec la possibilité de créer et de supprimer des projets</p> </td> 
+   <td>Access level configuration</td> 
+   <td> <p>Edit access to Projects with ability to Create and Delete projects</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Autorisations d’objet </p> </td> 
-   <td> <p>Modifier l’accès aux projets, tâches et problèmes avec la possibilité de supprimer des projets, des tâches et des problèmes</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Comprendre le processus de suppression de projets
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1505'
 ht-degree: 93%
 
 ---
@@ -34,21 +34,18 @@ En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez cr�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Nouveau : Standard
-   <p>ou</p>
-   <p>Actuel : formule</p></td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -66,7 +63,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 {{step-1-to-setup}}
 
 1. Cliquez sur **Niveaux d’accès** dans le panneau de gauche.
-1. &#x200B;
+1. 
    * Dans l’environnement de production :
 Sélectionnez le niveau d’accès à copier et à personnaliser, puis cliquez sur **Copier**.
 

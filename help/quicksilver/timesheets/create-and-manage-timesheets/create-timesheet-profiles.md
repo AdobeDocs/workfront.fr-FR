@@ -6,10 +6,10 @@ description: Vous pouvez créer, modifier et attribuer des profils de feuilles d
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
+source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 68%
+source-wordcount: '1584'
+ht-degree: 67%
 
 ---
 
@@ -29,29 +29,28 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
-  </tr> 
-   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Standard </p>
- <p>ou</p> 
-<p>Actuel : formule </p> 
-</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez disposer d’un accès administratif aux feuilles de temps. </p> </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
+  </tr> 
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td><p>Accès administratif aux feuilles de temps</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -169,7 +168,7 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, c
 
    Une confirmation s’affiche en bas de l’écran indiquant que les feuilles de temps ont bien été générées. De nouvelles feuilles de temps sont générées en fonction des nouveaux profils que vous avez créés.
 
-   Pour plus d’informations, voir [&#x200B; Générer manuellement des feuilles de temps &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+   Pour plus d’informations, voir [ Générer manuellement des feuilles de temps ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
    La première fois que le profil de feuille de temps génère des feuilles de temps, deux feuilles de temps sont créées pour chaque utilisateur, pour la période qui inclut l’heure actuelle ainsi que pour la période suivante.
 

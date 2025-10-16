@@ -5,9 +5,9 @@ description: Vous pouvez utiliser le panneau Résumé pour examiner et mettre à
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '893'
 ht-degree: 93%
 
 ---
@@ -103,36 +103,6 @@ Pour plus d’informations sur l’accès au [!UICONTROL Résumé] dans l’[!UI
 
 Pour plus d’informations sur l’accès au [!UICONTROL Résumé] des documents, voir [[!UICONTROL Vue d’ensemble du résumé] des documents](../../documents/managing-documents/summary-for-documents.md).
 
-## Conditions d’accès
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Tous</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p>
-   Ou
-   <p>Actuel :[!UICONTROL Request] ou version ultérieure</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
-   <td> <p>Accès [!UICONTROL View] ou supérieur aux tâches, problèmes, documents</p> <p>Accès [!UICONTROL View] ou supérieur à tout objet pour lequel vous souhaitez afficher le [!UICONTROL Summary] de documents</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations [!UICONTROL View] ou supérieures sur une tâche, un problème ou un document</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-* Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront]. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Afficher le panneau [!UICONTROL Résumé] dans une liste de tâches ou de problèmes
 

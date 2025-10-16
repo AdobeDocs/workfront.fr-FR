@@ -2,20 +2,20 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: "Créer des tâches : index de l’article"
-description: Vous pouvez créer des tâches dans un projet spécifique.
+title: 'Créer des tâches : index d’article'
+description: Vous pouvez créer des tâches dans un projet spécifique dans Adobe Workfront.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 41%
+source-wordcount: '49'
+ht-degree: 38%
 
 ---
 
-# Créer des tâches : index de l’article
+# Créer des tâches : index d’article
 
 <!--Audited: 10/2024-->
 

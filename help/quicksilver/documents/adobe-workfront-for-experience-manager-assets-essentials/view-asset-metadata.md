@@ -7,10 +7,10 @@ description: Vous pouvez obtenir une vue en temps réel des métadonnées mappé
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 96%
 
 ---
 
@@ -22,47 +22,43 @@ Vous pouvez obtenir une vue en temps réel des métadonnées mappées dans les p
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
 <table>
   <tr>
-   <td><strong>Plan Adobe Workfront*</strong>
+   <td><strong>Package Adobe Workfront</strong>
    </td>
    <td>Tous
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Adobe Workfront*</strong>
+   <td><strong>Licences Adobe Workfront</strong>
    </td>
-   <td>Requête ou supérieure
+   <td>
+   <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Produit</strong>
+   <td><strong>Produits supplémentaires</strong>
    </td>
    <td>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et quelqu’un doit vous ajouter au produit en tant qu’utilisateur ou utilisatrice dans Admin Console.
    </td>
   </tr>
   <tr>
-   <td><strong>Configurations du niveau d’accès*</strong>
+   <td><strong>Configurations du niveau d’accès</strong>
    </td>
-   <td>Modifier l’accès aux documents
-<p>
-<strong>Remarque :</strong> si vous ne disposez toujours pas d’un accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été configurées pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <strong>Créer ou modifier des niveaux d’accès personnalisés</strong>.
+   <td><p>Modifier l’accès aux documents</p>
    </td>
   </tr>
   <tr>
    <td><strong>Autorisations d’objets</strong>
    </td>
    <td>Afficher accès ou version ultérieure
-<p>
-Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <strong>Demander un accès aux objets</strong>.
    </td>
   </tr>
 </table>
 
 
-*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

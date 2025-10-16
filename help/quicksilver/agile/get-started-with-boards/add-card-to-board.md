@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Ajout d’une carte ad hoc à un panorama
+title: Ajouter une carte ad hoc à un panorama
 description: Vous pouvez rapidement ajouter une carte ad hoc à un panorama et l’affecter à une personne membre du panorama. La carte peut représenter une tâche, un problème, une personne, un groupe ou tout type d’élément que vous souhaitez inclure dans le panorama.
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 97%
+source-wordcount: '879'
+ht-degree: 94%
 
 ---
 
@@ -25,28 +25,25 @@ Vous pouvez ajouter rapidement une carte à un panorama et l’affecter à une p
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
-   <p>ou</p>
-   <p>Actuelle : [!UICONTROL Request] ou supérieure</p>
+   <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -113,7 +110,7 @@ Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Ad
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Cliquez sur dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme. (Les images ne sont pas disponibles dans les commentaires sur les cartes ad hoc.) Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. La personne n’a pas à être membre du panorama.</p><p><strong>NOTE :</strong> actuellement, les personnes identifiées dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par e-mail.
+      <td><p>Cliquez sur dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de mise en forme pour mettre le texte en forme. (Les images ne sont pas disponibles dans les commentaires des cartes ad hoc.) Pour baliser une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaires. La personne n’a pas à être membre du panorama.</p><p><strong>NOTE :</strong> actuellement, les personnes identifiées dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par e-mail.
       </p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
       <p>Pour plus d’informations sur les commentaires, consultez la section <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mettre à jour le travail</a>.</p></td>
      </tr>

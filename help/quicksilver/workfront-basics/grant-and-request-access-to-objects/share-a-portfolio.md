@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 47%
+source-wordcount: '870'
+ht-degree: 45%
 
 ---
 
@@ -23,23 +23,20 @@ Les autorisations sont spécifiques à un élément de Workfront et définissent
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Pour partager des objets, vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard</p> 
-   Ou
-   <p>Actuellement : Travail ou licence supérieure</p>
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +50,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,16 +6,16 @@ description: Si vous êtes une personne contributrice individuelle avec un objec
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 95%
+source-wordcount: '726'
+ht-degree: 87%
 
 ---
 
 # Aligner des objectifs en les connectant dans les Objectifs Adobe Workfront
 
-<!--Audited P&P only: 04/2025-->
+<!--Audited P&P only: 10/2025-->
 
 Si vous êtes une personne contributrice individuelle avec un objectif personnel, vous pouvez l’aligner sur les objectifs de votre équipe afin d’afficher efficacement la progression de votre propre objectif dans le contexte plus général de la stratégie de votre organisation.
 
@@ -35,10 +35,50 @@ Cet article décrit comment aligner des objectifs en les connectant les uns aux 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+>[!NOTE]
+>
+>Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>
+>Adobe Workfront Goals ne peut plus être acheté.
 
-Vous devez disposer des éléments suivants :
++++Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody>
+
+<td> <p>Package Adobe Workfront</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Licence Adobe Workfront</p> </td> 
+   <td> <p>Contributeur ou version ultérieure</p> 
+     <p>Demandeur ou supérieur</p> </td> 
+  </tr>
+
+<td><p>Configurations des niveaux d’accès</p> </td> 
+   <td> <p>Modifier l’accès aux Objectifs</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Autorisations d’objet </p> </td> 
+   <td> <p>Gestion des autorisations relatives à un objectif</p>  </td> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> <p>Un modèle de mise en page comprenant la zone Objectifs du menu principal doit être affecté à tous les utilisateurs, y compris les administrateurs système. </p>  
+</td>
+  </tr>
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -46,54 +86,50 @@ Vous devez disposer des éléments suivants :
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Forfait Adobe Workfront*</td>
+ <td role="rowheader">Adobe Workfront plan*</td>
  <td> 
-   <p>Pour la nouvelle structure de forfait et de licence :
-  <ul><li>Un forfait Ultimate </li></ul>
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
    </p>
-<p>Pour la structure de forfait et de licence actuelle : 
-<ul><li> Un forfait Pro ou supérieur </li>
-  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
    </td> 
  </tr>
  <tr>
- <td role="rowheader">Licence Adobe Workfront*</td>
+ <td role="rowheader">Adobe Workfront license*</td>
  <td>
- <p>Nouvelle licence : contributeur ou contributrice ou niveau supérieur</p>
- Ou
- <p>Licence actuelle : demande ou niveau supérieur</p> </td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> </td>
  </tr>
  <tr>
- <td role="rowheader">Produit*</td>
+ <td role="rowheader">Product*</td>
  <td>
-  <p> Nouvelle exigence de produit : Workfront</p>
-  Ou
-  <p>Configuration requise actuelle du produit : en plus d’une licence Workfront, vous devez acheter une licence pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+  <p> New product requirement: Workfront</p>
+  Or
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader">Niveau d’accès</td>
- <td> <p>Modifier l’accès aux Objectifs</p> </td>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
  </tr>
  <tr>
- <td role="rowheader">Autorisations d’objet</td>
+ <td role="rowheader">Object permissions</td>
  <td>
-
-<p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
-  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
-  <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
+  
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
    </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
   </tr>
 </tbody>
-</table>
-
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Aligner des objectifs en les connectant les uns aux autres
 
@@ -159,7 +195,7 @@ Aligning goals by connecting them differs depending on what environment you use.
    Les objectifs alignés s’affichent dans la section Alignement des objectifs, l’objectif 2 venant après l’objectif 1.
 L’objectif enfant s’affiche dans la section Indicateurs de progression de l’objectif parent lorsque sa progression met à jour la progression de l’objectif parent.
 
-   ![&#x200B; Cartes alignées &#x200B;](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![ Cartes alignées ](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. (Facultatif) Pour afficher les objectifs dans la section Alignement des objectifs, accédez à la zone Objectifs de Workfront, puis cliquez sur le bouton **Alignement des objectifs** dans le panneau de gauche. Pour plus d’informations sur la section Alignement des objectifs, voir [Accéder à la section Alignement des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 

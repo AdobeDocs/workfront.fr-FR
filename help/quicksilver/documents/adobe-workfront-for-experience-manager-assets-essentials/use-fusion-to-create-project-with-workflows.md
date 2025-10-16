@@ -6,10 +6,10 @@ description: Si vous créez un projet par le biais de Workfront Fusion et que vo
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 6a21465ab8c92888c83344f33574302c5cc446e8
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 21%
+source-wordcount: '877'
+ht-degree: 16%
 
 ---
 
@@ -26,16 +26,14 @@ Si vous créez un projet par le biais de Workfront Fusion et que vous souhaitez 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
 <table>
   <tr>
-    <td><strong>Formule Adobe Workfront*</strong></td>
-    <td>Tous</td>
+    <td><strong>Package Adobe Workfront</strong></td>
+   <td> <p>Tout package de workflow Adobe Workfront et tout package d’automatisation et d’intégration Adobe Workfront</p><p>Workfront Ultimate</p><p>les packages Workfront Prime et Select, avec un achat supplémentaire de Workfront Fusion.</p> </td> 
   </tr>
   <tr>
-   <td><strong>Licences Adobe Workfront*</strong></td>
-   <td>Requête ou supérieure</td>
+   <td><strong>Licences Adobe Workfront</strong></td>
+   <td><p>Contributeur ou version ultérieure</p><p>Requête ou supérieure</p></td>
   </tr>
   <tr>
    <td><strong>Produit</strong></td>
@@ -50,26 +48,17 @@ Vous devez disposer des éléments suivants :
        </li>
      </ul>
      <p><b>Workfront Fusion :</b></p>
-     <p>Nouveau :</p>
      <ul>
        <li>
-         <p>Sélectionnez ou Prime Workfront Plan : votre entreprise doit acheter Adobe Workfront Fusion.</p>
-       </li>
-       <li> 
-         <p>Plan Ultimate Workfront : Workfront Fusion est inclus.</p>
+        <p>Si votre entreprise dispose d’un package Select ou Prime Workfront qui n’inclut pas l’automatisation et l’intégration de Workfront, elle doit acheter Adobe Workfront Fusion.</li></ul>
        </li>
      </ul>
-     <p>Ou</p>
-     <p>Actuel : votre entreprise doit acheter Adobe Workfront Fusion.</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Configurations du niveau d’accès*</strong>
+   <td><strong>Configurations du niveau d’accès</strong>
    </td>
-   <td>Modifier l’accès aux documents
-     <p>
-       <strong>Remarque :</strong> si vous ne disposez toujours pas d’un accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été configurées pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <strong>Créer ou modifier des niveaux d’accès personnalisés</strong>.
-     </p>
+   <td><p>Modifier l’accès aux documents</p>
    </td>
   </tr>
 </table>
@@ -93,7 +82,7 @@ Dans Workfront Fusion, si vous souhaitez créer un projet qui inclut des workflo
 1. Ajoutez le module **Workfront** > **Misc Action** à votre scénario.
 1. Dans le champ **Connexion**, sélectionnez la connexion Workfront qui se connecte au compte que ce module utilisera.
 
-   Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
+   Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
 
    Pour obtenir des instructions sur la création de l’ID client et du secret client, vous devez créer une connexion, voir [Création d’une application OAuth](#create-an-oauth-application) dans cet article.
 
@@ -175,4 +164,4 @@ Vous devez configurer une application OAuth dans Workfront pour la connexion de 
 
 Vous utiliserez cet ID client et ce secret client lors de la configuration de la connexion du module dans Fusion.
 
-Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
+Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.

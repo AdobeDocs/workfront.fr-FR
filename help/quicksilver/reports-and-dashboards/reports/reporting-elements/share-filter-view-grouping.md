@@ -6,9 +6,9 @@ description: Vous pouvez partager des filtres, des vues et des regroupements aux
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1170'
 ht-degree: 99%
 
 ---
@@ -36,43 +36,37 @@ Pour plus d’informations sur la création d’un filtre, d’une vue ou d’un
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licence Adobe Workfront</strong></td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Contributeur ou version ultérieure</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Requête ou supérieure</p></li>
-         </ul>
+    <p>Contributeur ou version ultérieure</p>
+    <p>Requête ou supérieure</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Accès en affichage ou accès supérieur aux filtres, aux vues et aux regroupements</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en affichage ou accès supérieur aux filtres, aux vues et aux regroupements</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td><p>Autorisations en affichage ou supérieures pour partager une vue, un filtre ou un regroupement</p></td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+    <td> <p>Autorisations en affichage ou supérieures pour partager une vue, un filtre ou un regroupement</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

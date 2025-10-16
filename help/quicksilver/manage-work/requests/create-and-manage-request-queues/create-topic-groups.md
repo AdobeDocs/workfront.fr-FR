@@ -3,15 +3,15 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Créer des groupes de sujets
 description: Les groupes de sujets sont associés aux files d’attente des demandes. Ils vous permettent de classer vos files d’attente des demandes en plusieurs catégories, en fonction de la nature des demandes.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 84%
+source-wordcount: '463'
+ht-degree: 83%
 
 ---
 
@@ -25,22 +25,19 @@ Les groupes de sujets sont associés aux files d’attente des demandes. Vous po
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront</p> </td> 
    <td>   
-      <p>Nouveau : Standard</p>
-      <p>Ou</p> 
-      <p>Actuel : formule</p>
+      <p>Standard</p>
+      <p>Plan</p>
  </td> 
   </tr> 
   <tr> 
@@ -54,11 +51,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Vue d’ensembe des groupes de rubriques
+## Vue d’ensemble des groupes de sujets
 
 Si, par exemple, vous disposez d’une file d’attente des demandes pour des requêtes marketing, vous pouvez avoir un groupe de sujets « Campagne Fête des mères », avec deux groupes de sujets de second niveau : l’un intitulé « Médias numériques » et l’autre « Médias imprimés ». Vous pouvez ensuite avoir plusieurs rubriques de file d’attente dans chaque groupe de sujets. Par exemple, « Bannière publicitaire » et « Blog » peuvent être des rubriques de file d’attente pour le groupe de sujets « Médias numériques ».
 

@@ -1,16 +1,16 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Modifier des problèmes
+title: Modifier événements
 description: Vous pouvez modifier les informations relatives aux problèmes que vous avez créés, ou que d’autres utilisateurs ont créés s’ils ont partagé les problèmes avec vous. Cet article décrit comment rechercher, rechercher et modifier un problème, si vous disposez des autorisations nécessaires.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
+source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
 workflow-type: tm+mt
-source-wordcount: '2618'
+source-wordcount: '2602'
 ht-degree: 89%
 
 ---
@@ -27,23 +27,20 @@ Vous pouvez modifier un seul problème ou modifier des problèmes dans une liste
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle licence :</p>
-   <ul><li>Contributeur ou version ultérieure</li>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <ul><li>Contributeur ou version ultérieure</li>
    <li>Léger ou supérieur pour modifier les événements dans la section Événements d’une tâche ou d’un projet</li></ul>
-   <p>Licence actuelle :</p>
-  <ul><li>Requête ou supérieure</li> <li>Consultez ou une version ultérieure pour modifier les événements dans la section Événements d’une tâche ou d’un projet</li></ul> </td> 
+   Ou :
+   <ul><li>Requête ou supérieure</li> <li>Consultez ou une version ultérieure pour modifier les événements dans la section Événements d’une tâche ou d’un projet</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
@@ -65,6 +62,42 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license:</p>
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to edit issues in the Issues section of a task or project</li></ul>
+   <p>Current license:</p>
+  <ul><li>Request or higher</li> <li>Review or higher to edit issues in the Issues section of a task or a project</li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Issues</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to an issue to edit the following fields in the Details area: </p>
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   <li>Severity</li>
+   </ul>
+   <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Limites lors de la modification de problèmes
 
@@ -88,7 +121,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 
    >[!NOTE]
    >
-   >Les champs de la zone des détails du problème peuvent être réorganisés ou pas, selon les modifications apportées par l’administration de Workfront ou de groupes à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Les champs de la zone des détails du problème peuvent être réorganisés ou pas, selon les modifications apportées par l’administration de Workfront ou de groupes à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    Pour modifier les informations de la section Détails, procédez comme suit :
 
@@ -133,7 +166,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 
    >[!NOTE]
    >
-   >Selon la manière dont votre administrateur ou admiinistratrice Workfront configure le modèle de disposition, les champs de la zone Modifier le problème peuvent être différents dans votre environnement. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la manière dont votre administrateur ou administratrice Workfront configure le modèle de mise en page, les champs de la zone Modifier le problème peuvent être différents dans votre environnement. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
    >
    >La plupart des champs répertoriés dans les sections ci-dessous sont également accessibles à partir de la zone Nouveau problème lorsque vous créez un problème. Les sections sous lesquelles se trouvent les champs ne correspondent pas à la zone Nouveau problème. Pour plus d’informations sur la création de problèmes, voir [Créer des problèmes](../../issues/manage-issues/create-issues.md).
 

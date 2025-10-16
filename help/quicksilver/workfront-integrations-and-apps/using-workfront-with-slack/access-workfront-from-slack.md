@@ -6,10 +6,10 @@ description: Intégrer  [!DNL Adobe Workfront]  avec  [!DNL Slack]  vous permet 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 100%
+source-wordcount: '1106'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,29 @@ ht-degree: 100%
 L’intégration de [!DNL Adobe Workfront] à [!DNL Slack] vous permet d’accéder à [!DNL Workfront] à partir de [!DNL Slack] ou d’effectuer certaines actions dans [!DNL Workfront] à l’aide d’une commande de barre oblique. L’intégration peut être utilisée à partir de n’importe quel environnement [!DNL Slack], notamment l’application mobile [!DNL Slack].
 
 Vous ou votre administrateur ou administratrice [!DNL Slack] devez installer l’application [!DNL Workfront] dans votre instance [!DNL Slack] avant de pouvoir utiliser [!DNL Workfront] à partir de [!DNL Slack]. Pour plus d’informations, consultez la section [Configurer Adobe Workfront pour Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Tous</p>
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## À propos des commandes de barre oblique {#about-slash-commands}
 

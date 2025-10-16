@@ -6,10 +6,10 @@ description: Vous pouvez installer  [!DNL Adobe Workfront for design and video] 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 83%
+source-wordcount: '616'
+ht-degree: 81%
 
 ---
 
@@ -41,28 +41,30 @@ Vous pouvez installer [!DNL Adobe Workfront for design and video] à partir d’
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
  <!-- <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package/td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td>
+   <p>Standard</p>
+    <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Produit</td> 
-   <td><p>Vous devez disposer d’une licence [!DNL Adobe Creative Cloud] en plus d’une licence [!DNL Workfront].</p><p>Pour plus d’informations, voir <a href="https://helpx.adobe.com/fr/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Politique de prise en charge Creative Cloud</a>.</p></td> 
+   <td role="rowheader">Produits supplémentaires</td> 
+   <td><p>Vous devez disposer d’une licence [!DNL Adobe Creative Cloud] en plus d’une licence [!DNL Workfront].</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +76,7 @@ Pour connaître la formule, le type de licence ou l’accès dont vous disposez,
 
 Si vous êtes un administrateur ou une administratrice [!DNL Adobe Admin Console], vous pouvez inclure [!DNL Adobe Workfront for design and video] dans des packages de déploiement [!DNL Creative Cloud]. Pour plus d’informations, voir [Inclure des plug-ins dans votre package](https://helpx.adobe.com/fr/enterprise/using/manage-extensions.html).
 
-[Regardez un tutoriel vidéo ici](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[Voir un tutoriel vidéo ici](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
 Les administrateurs et administratrices [!DNL Adobe Admin Console] peuvent également créer des packages de plug-ins seuls à distribuer aux utilisateurs et utilisatrices. Pour plus d’informations, voir [Créer des packages [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]]  pour vos utilisateurs et utilisatrices dans  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md).
 

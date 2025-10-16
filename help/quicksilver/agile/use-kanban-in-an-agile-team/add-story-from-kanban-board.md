@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: Ajout d’articles et de problèmes sur le panorama Kanban
+title: Ajouter des histoires et des événements à partir du tableau Kanban
 description: Vous pouvez rapidement créer une histoire ou un problème directement à partir du tableau Kanban.
 author: Lisa
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 96%
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
@@ -21,8 +21,6 @@ Vous pouvez créer rapidement une histoire ou un problème directement à partir
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,18 +28,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
-   ou
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Accès en [!UICONTROL Manage] à la tâche ou au problème </td> 
+   <td>Gérer l’accès à la tâche ou à l’événement </td> 
   </tr> 
  </tbody> 
 </table>

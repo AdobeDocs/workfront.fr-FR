@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Budgétiser les ressources dans l’analyse de rentabilité à l’aide du planificateur de scénarios
 description: Dans le cadre de la planification des ressources, vous pouvez utiliser le planificateur de scénarios Adobe Workfront pour budgéter les fonctions nécessaires à l’exécution du travail dans un projet lorsque vous créez le business case.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '959'
 ht-degree: 88%
 
 ---
@@ -35,7 +35,7 @@ Vous pouvez également budgéter des ressources dans le business case à l’aid
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,13 @@ Vous pouvez également budgéter des ressources dans le business case à l’aid
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td><p>Actuel : Ultimate</p> 
-   <p>Hérité : Professionnel ou supérieur</p> </td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td><p>Prime ou version ultérieure</p> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p>Courant : Léger ou supérieur 
-   <p>Hérité : révision ou version supérieure</p> </td> 
+   <td><p>Léger ou supérieur 
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Produit</p></td> 

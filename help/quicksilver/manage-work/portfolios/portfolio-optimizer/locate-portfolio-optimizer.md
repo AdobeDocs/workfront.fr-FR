@@ -6,10 +6,10 @@ description: Vous trouvez l’[!UICONTROL optimisateur de portfolio] lorsque vou
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 93%
+source-wordcount: '138'
+ht-degree: 79%
 
 ---
 
@@ -19,26 +19,26 @@ Vous trouvez l’[!UICONTROL optimisateur de portfolio] lorsque vous accédez à
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td> 
+   <td> <p>Workfront Prime ou version ultérieure</p>
+      <p>Workflow Prime ou version ultérieure</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>Nouveau : Standard</p>
-   <p>Actuelle : [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Accès [!UICONTROL Edit] aux portfolios et aux projets</p>  </td>
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès de [!UICONTROL Edit] aux [!UICONTROL Portfolios] et aux [!UICONTROL Projects]</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -50,6 +50,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Projects</p>  </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Localiser l’[!UICONTROL optimisateur de portfolio]
 

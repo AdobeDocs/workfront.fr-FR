@@ -6,10 +6,10 @@ description: Vous pouvez afficher des informations supplémentaires sur le [!UIC
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 99%
+source-wordcount: '517'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez afficher des informations supplémentaires sur le [!UICONTROL projet
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants dans [!DNL Workfront] pour suivre les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,17 +28,21 @@ Vous devez disposer des accès suivants dans [!DNL Workfront] pour suivre les é
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td> 
+   <p>Contributeur ou version ultérieure</p>
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Mettre à jour des widgets dans la vue [!UICONTROL Détails du projet]
 
@@ -46,7 +50,7 @@ Vous devez disposer des accès suivants dans [!DNL Workfront] pour suivre les é
 1. Appuyez sur l’onglet en bas au milieu de l’écran.\
    La zone [!UICONTROL Widget] s’affiche.\
    Faites défiler les widgets en glissant de gauche à droite.\
-   ![&#x200B; Widgets &#x200B;](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![ Widgets ](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. Faites glisser et déposez un widget pour personnaliser la disposition de votre page de projet.\
    Vous pouvez afficher jusqu’à quatre widgets simultanément.\
@@ -68,7 +72,7 @@ Vous devez disposer des accès suivants dans [!DNL Workfront] pour suivre les é
       * tout d’abord, par [!UICONTROL Échéance estimée]
       * ensuite, par [!UICONTROL Structure de répartition du travail]
 
-     Il affiche les deux dernières tâches complètes (le cas échéant) et les quatre tâches suivantes. Pour comprendre les tâches qui s’afficheront dans l’application mobile [!DNL Workfront] View, vous pouvez créer un rapport de tâche pour le projet que vous affichez et le trier selon la date d’échéance estimée, puis selon la structure de ventilation [!DNL Workfront]. Les 6 premières tâches seront les tâches répertoriées dans l’application mobile Workfront View, dans le widget Tâches [!UICONTROL à venir].
+     Il affiche les deux dernières tâches complètes (le cas échéant) et les quatre tâches suivantes. Pour comprendre les tâches qui s’afficheront dans l’application mobile [!DNL Workfront] View, vous pouvez créer un rapport de tâche pour le projet que vous affichez et le trier selon la date d’échéance estimée, puis selon la structure de répartition [!DNL Workfront]. Les 6 premières tâches seront les tâches répertoriées dans l’application mobile Workfront View, dans le widget Tâches [!UICONTROL à venir].
 
    * **[!UICONTROL Tâches restantes]** : affiche les tâches incomplètes dans un graphique en courbes.
    * **[!UICONTROL Documents]** : affiche une liste des documents associés au projet.\

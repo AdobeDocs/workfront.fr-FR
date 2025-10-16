@@ -6,10 +6,10 @@ description: Les utilisateurs et utilisatrices peuvent demander l’accès aux o
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 2c94dd423cfffc7685f24699fa73fb6a48cf2806
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 62%
+source-wordcount: '479'
+ht-degree: 60%
 
 ---
 
@@ -25,22 +25,21 @@ Si vous êtes la ou le propriétaire d’un objet, vous pouvez accorder ou refus
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Standard</p> 
-   <p>Actuellement : Travail ou licence supérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -53,15 +52,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Autoriser l’accès aux objets de la zone d’accueil
 
-1. Cliquez sur le ![](assets/dots-main-menu.png) **Menu principal** dans le coin supérieur droit de l’écran, ou sur le ![](assets/lines-main-menu.png) **Menu principal** dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Accueil**
+1. Cliquez sur le **** Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, ou sur le **** Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Accueil**
 Ou
-Cliquez sur le ![](assets/home-icon-30x29.png) de l’icône **Accueil** dans le coin supérieur gauche d’Adobe Workfront.
+Cliquez sur le **de l’icône** Accueil![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
@@ -88,7 +87,7 @@ Vous pouvez configurer la réception de notifications par e-mail pour les demand
 
 1. Accédez à votre profil utilisateur en effectuant l’une des opérations suivantes :
 
-   * Cliquez sur le ![](assets/dots-main-menu.png) **Menu principal** dans le coin supérieur droit de l’écran, puis cliquez sur votre nom.
+   * Cliquez sur le **** Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, puis cliquez sur votre nom.
    * Cliquez sur Adobe **Menu principal** ![icône de profil](assets/adobe-blue-main-menu.png) dans le coin supérieur droit, le cas échéant, puis cliquez sur **Profil Workfront**.
 
 1. Cliquez sur le menu **Plus** ![icône plus](assets/more-icon.png) à droite de votre nom dans l’en-tête, puis cliquez sur **Modifier**.

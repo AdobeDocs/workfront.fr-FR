@@ -3,51 +3,47 @@ title: Ajouter ou supprimer des types d’objet d’un formulaire personnalisé 
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Vous pouvez ajouter ou supprimer des types d’objet de formulaires personnalisés à l’aide du créateur de formulaire.
+description: Vous pouvez ajouter ou supprimer des types d’objets de formulaires personnalisés à l’aide du concepteur de formulaires.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 94%
+source-wordcount: '461'
+ht-degree: 93%
 
 ---
 
 # Ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant
 
-Vous pouvez ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant à l’aide du créateur de formulaire.
+Vous pouvez ajouter ou supprimer des types d’objets d’un formulaire personnalisé existant à l’aide du concepteur de formulaires.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
-   <td>Tous</td> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td><p>Accès administratif aux formulaires personnalisés</p></td> 
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

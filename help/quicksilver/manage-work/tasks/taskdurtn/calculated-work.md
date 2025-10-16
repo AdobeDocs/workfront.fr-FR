@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '« Vue d’ensemble du type de durée : calcul de travail »'
+title: 'Vue d''ensemble du type de durée : Travail calculé'
 description: Le calcul de travail est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour des informations générales sur les types de durée dans Workfront, voir Vue d’ensemble de la durée de la tâche et du type de durée.
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Le calcul de travail est un type de durée que vous pouvez définir pour une tâ
 
 Le calcul de travail détermine la quantité de travail (nombre d’heures prévues) nécessaire pour que la tâche soit terminée. Nous vous recommandons d’utiliser le type durée Calcul de travail lorsque les ressources affectées à la tâche sont allouées pour toute la durée de la tâche.
 
-Votre administrateur ou administratrice Workfront ou de groupes peut définir le type de durée par défaut de votre système ou groupe sur Calcul de travail.Dans ce cas, toutes les nouvelles tâches seront créées avec ce type de durée. Pour plus d’informations sur la modification de votre tâche et les préférences de problème dans le cadre de vos préférences de projet à l’échelle du système ou du groupe, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Votre Workfront ou un administrateur de groupes peut définir le type de durée par défaut de votre système ou de votre groupe comme Travail calculé. Dans ce cas, toutes les nouvelles tâches seront créées avec ce type de durée. Pour plus d’informations sur la modification de votre tâche et les préférences de problème dans le cadre de vos préférences de projet à l’échelle du système ou du groupe, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 À mesure que des ressources sont ajoutées à une tâche, la personne responsable du projet peut s’attendre à une augmentation de l’effort prévu. Pour illustrer cela, une réunion de planification d’une heure avec trois ressources représente un nombre total de trois heures de travail requises, et une réunion de planification d’une heure avec dix ressources représente dix heures de travail requises. Cela suppose que chaque ressource est affectée à la tâche avec une affectation de 100 %.
 

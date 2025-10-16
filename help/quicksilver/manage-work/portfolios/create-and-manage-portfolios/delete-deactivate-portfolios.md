@@ -1,21 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Supprimer et désactiver des portfolios
+title: Supprimer et désactiver les portefeuilles
 description: Les portfolios sont des collections de projets ou de programmes dans Adobe Workfront. Vous pouvez supprimer ou désactiver un portefeuille si vous estimez qu’il n’est pas pertinent pour votre système.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 69%
+source-wordcount: '451'
+ht-degree: 66%
 
 ---
 
 # Supprimer et désactiver des portfolios
 
-<!--Audited: 2/2024-->
+<!--Audited: 08/2025-->
 
 Les portefeuilles sont des collections de projets ou de programmes dans [!DNL Adobe Workfront]. Vous pouvez supprimer ou désactiver un portefeuille si vous estimez qu’il n’est pas pertinent pour votre système.
 
@@ -23,15 +23,15 @@ Plutôt que de supprimer un portfolio qui n’a plus besoin d’être associé �
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. Développez pour afficher les exigences d’accès pour la fonctionnalité de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
@@ -52,6 +52,35 @@ Plutôt que de supprimer un portfolio qui n’a plus besoin d’être associé �
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions on the portfolio </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Vue d’ensemble de la suppression et de la désactivation de portfolios
 

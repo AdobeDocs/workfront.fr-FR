@@ -2,23 +2,23 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Groupement : ventilation en pourcentage du projet 2"
-description: '« Dans ce regroupement personnalisé de projets, vous pouvez afficher les projets regroupés selon une plage de valeurs de pourcentage terminé. » « Les ventilations indiquent la valeur de pourcentage terminé par incréments de 10 points de pourcentage : 0 à 10 %, 11 à 20 %, 21 à 30 %, etc. »'
+title: 'Regroupement : Répartition en pourcentage du projet 2'
+description: 'Dans ce regroupement de projets personnalisé, vous pouvez afficher les projets regroupés selon une plage de valeurs de pourcentage terminé. Les répartitions affichent une valeur de pourcentage d’achèvement de 10 incréments de point de pourcentage : 0 à 10 %, 11 à 20 %, 21 à 30 %, etc.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 81%
+source-wordcount: '257'
+ht-degree: 71%
 
 ---
 
-# Regroupement : ventilation en pourcentage des projets (2)
+# Regroupement : répartition en pourcentage des projets (2)
 
 <!--Audited: 10/2024-->
 
-Dans ce regroupement de projets personnalisé, vous pouvez afficher les projets regroupés selon une plage de valeurs de pourcentage terminé. Les ventilations présentent une valeur de 10 % d’incréments de point de pourcentage : 0 à 10 %, 11 à 20 %, 21 à 30 %, etc.
+Dans ce regroupement de projets personnalisé, vous pouvez afficher les projets regroupés selon une plage de valeurs de pourcentage terminé. Les répartitions affichent une valeur de pourcentage d’achèvement de 10 incréments de point de pourcentage : 0 à 10 %, 11 à 20 %, 21 à 30 %, etc.
 
 Le regroupement suivant classe les projets par valeur de pourcentage terminé dans l’un de ces regroupements :
 
@@ -39,28 +39,21 @@ Le regroupement suivant classe les projets par valeur de pourcentage terminé da
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
-   <li><p>Standard pour modifier un rapport</p></li> </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Demande de modification d’un filtre </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
+   <p>Contributeur ou demande de modification d’un filtre </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -73,7 +66,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,5 +88,5 @@ Pour appliquer ce regroupement :
    textmode=true
    ```
 
-1. Cliquez sur **Done** > **Save Grouping**.
-1. (Facultatif) Mettez à jour le nom du groupement, puis cliquez sur **Enregistrer le groupement**.
+1. Cliquez sur **Terminé** > **Enregistrer le regroupement**.
+1. (Facultatif) Mettez à jour le nom du regroupement, puis cliquez sur **Enregistrer le regroupement**.

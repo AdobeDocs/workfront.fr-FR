@@ -1,15 +1,15 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Envoyer une feuille de temps pour approbation
+title: Soumettre une feuille de temps pour approbation
 description: En soumettant votre feuille de temps à l’approbation de votre supérieur ou supérieure, vous lui donnez une visibilité sur vos heures de travail. Les personnes approbatrices peuvent vérifier que toutes les heures enregistrées ont été affectées aux domaines corrects et qu’un nombre suffisant d’heures a été enregistré pour la période concernée.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 84%
+source-wordcount: '839'
+ht-degree: 83%
 
 ---
 
@@ -23,33 +23,31 @@ En soumettant votre feuille de temps à l’approbation de votre supérieur ou s
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Léger ou supérieur </p>
-   <p>Actuel : Révision ou supérieur </p>
+   <td>Licence Adobe Workfront</td> 
+   <td> <p>Léger ou supérieur </p>
+   <p>Révision ou supérieur </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations du niveau d’accès</td> 
    <td> <p>Affichage ou accès supérieur aux tâches et aux problèmes </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage ou autorisations supérieures de la feuille de temps</p> </td> 
+   <td>Autorisations d’objet</td> 
+   <td> <p>Autorisations d’affichage ou supérieures pour la feuille de temps</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 ### Soumettre une feuille de temps pour approbation
 
-Une fois qu’un approbateur de feuille de temps est défini (comme décrit dans la section [Désigner les approbateurs de feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) de l’article [Approuver une feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), le bouton **Fermer** au bas de la feuille de temps se transforme en bouton **Soumettre à approbation**.
+Une fois qu’un approbateur de feuille de temps est défini (comme décrit dans la section [Désigner des approbateurs de feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) dans l’article [Approuver une feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), le bouton **Fermer** situé au bas de la feuille de temps se transforme en bouton **Soumettre à approbation**.
 
 Pour soumettre une feuille de temps à l’approbation :
 
@@ -70,12 +68,12 @@ Pour soumettre une feuille de temps à l’approbation :
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   Le bouton **Soumettre pour approbation** est remplacé par les boutons **Approuver**, **Rejeter** et **Rappeler**. Le statut de la feuille de temps devient **Soumis**.
+   Le bouton **Envoyer pour approbation** est remplacé par les boutons **Approuver**, **Rejeter** et **Rappeler**. Le statut de la feuille de temps devient **Soumis**.
 
    Lorsque votre feuille de temps est soumise à approbation, l’approbateur voit la feuille de temps répertoriée dans le widget **Mes approbations** de la zone **Accueil**. Les choses suivantes peuvent se produire :
 
    * Si elle l’approuve, le bouton **Rappeler** devient **Réouvrir** et le statut de la feuille de temps devient **Ouvrir**.
-   * S’ils le rejettent, le bouton **Soumettre pour approbation** remplace le bouton **Rappeler** et l’état de la feuille de temps est mis à jour vers **Refusé**.
+   * S’il la rejette, le bouton **Soumettre à approbation** remplace le bouton **Rappeler** et le statut de la feuille de temps passe à **Rejeté**.
 
 1. (Facultatif) Cliquez sur **Rappeler** si vous devez rouvrir la feuille de temps et mettre à jour votre temps. Pour plus d’informations, voir la section [Rappeler une feuille de temps](#recall-a-timesheet) de cet article.
 
@@ -110,15 +108,15 @@ Pour consulter le statut d’une feuille de temps :
 
    >[!NOTE]
    >
-   >Les options Mes approbations de feuille de temps et Mes feuilles de temps ne s’affichent pas en haut de la liste de feuille de temps ni dans la liste des filtres si votre administrateur ou admnistratrice ou un administrateur ou une administratrice de groupes Workfront a supprimé les filtres Mes approbations de feuille de temps et Mes feuilles de temps des contrôles de liste de la zone Configuration ou de votre modèle de disposition. Pour plus d’informations, voir les articles suivants :
+   >Les options Mes approbations de feuille de temps et Mes feuilles de temps ne s’affichent pas en haut de la liste de feuille de temps ni dans la liste des filtres si votre administrateur ou administratrice Workfront ou un administrateur ou une administratrice de groupes a supprimé les filtres Mes approbations de feuille de temps et Mes feuilles de temps des contrôles de liste de la zone Configuration ou de votre modèle de mise en page. Pour plus d’informations, voir les articles suivants :
    >
    >   
    >   
-   >   * [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Conditionnel) Si vous avez sélectionné **Mes feuilles de calcul**, assurez-vous que la vue **Standard** est appliquée et notez la colonne **État**.
+1. (Conditionnel) Si vous avez sélectionné **Mes feuilles de temps**, assurez-vous que la vue **Standard** est appliquée et notez la colonne **Statut**.
 
    Les feuilles de temps peuvent avoir les statuts suivants :
 

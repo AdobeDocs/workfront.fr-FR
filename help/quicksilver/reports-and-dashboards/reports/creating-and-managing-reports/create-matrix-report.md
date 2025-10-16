@@ -6,10 +6,10 @@ description: Les rapports de matrice présentent des informations récapitulativ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 97%
+source-wordcount: '1083'
+ht-degree: 98%
 
 ---
 
@@ -34,43 +34,35 @@ Cependant, d’autres colonnes (comme Statut) peuvent toujours être affichées 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-      <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td><p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p></td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p></td> 
+ <td> <p>Gérer les autorisations d’un rapport</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -134,8 +126,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
      >   * Les champs de données personnalisées de valeurs numériques et de devise regroupent toutes les tâches : parents, enfants, parents de parents et tâches autonomes. Si vous avez créé le rapport de matrice pour afficher le nombre d’heures prévues ou les heures effectives dans la colonne **Valeur**, sachez que les informations sur les heures ou les coûts de tout objet parent (telles que les tâches parent) ne sont pas affichées dans le rapport de matrice. Pour afficher les heures sur les objets parent, vous devez afficher l’onglet **Détails**.
      >   
      >   
-     >**Règles conditionnelles :** configurez toute règle de mise en forme pour les valeurs qui sont agrégées.\
+     >
 
+   **Règles conditionnelles :** configurez toute règle de mise en forme pour les valeurs qui sont agrégées.\
    Après avoir ajouté une règle, vous pouvez définir des styles de champ et de texte définissant le mode d’affichage des champs correspondant à cette règle. Après avoir défini la règle, cliquez sur **Ajouter une règle**, puis sur **Terminé** pour l’enregistrer.
 
 1. Cliquez sur l’onglet **Filtres** pour définir les informations qui s’afficheront dans le rapport.

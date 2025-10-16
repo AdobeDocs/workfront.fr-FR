@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 72%
+source-wordcount: '716'
+ht-degree: 73%
 
 ---
 
@@ -47,26 +47,21 @@ Vous pouvez créer une carte de performance de la manière suivante :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>Nouveau : Ultimate</p>
-   <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p> 
-   </td> 
+   <td role="rowheader">Package Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td><p>Nouvelle : [!UICONTROL Standard]</p>
-   <p>Actuelle : [!UICONTROL Plan]</p>
-   </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
-   <tr> 
-   <td role="rowheader"><p>Niveau d’accès</p></td> 
-   <td><p>Administrateur ou administratrice système</p>
-   </td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Vous devez être un administrateur ou une administratrice Workfront. </td> 
+  </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

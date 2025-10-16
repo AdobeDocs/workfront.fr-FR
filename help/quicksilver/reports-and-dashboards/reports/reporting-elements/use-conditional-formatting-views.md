@@ -6,10 +6,10 @@ description: À mesure que vous partagez vos rapports avec d’autres personnes 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 97%
+source-wordcount: '1146'
+ht-degree: 96%
 
 ---
 
@@ -39,38 +39,35 @@ Les modifications que vous apportez dans la vue du rapport ne prennent effet que
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Nouveau :</p> 
-   <ul><li>Standard pour les vues de rapport</li>
-  <li> Contribution ou supérieur pour les vues de liste</li></ul>
-   <p>Actuel :</p>
-   <ul>
-    <li> Plan pour les vues de rapport </li>
-    <li> Requête ou supérieur pour les vues de liste </li> </ul></td> 
+   <td role="rowheader">Licence Adobe Workfront</strong></td> 
+   <td> 
+    <p>Standard ou Planifier pour les vues de rapport</p>
+    <p>Contributeur ou demande de vues de liste</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux Rapports, tableaux de bord et calendriers pour modifier une vue dans un rapport</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux Rapports, tableaux de bord et calendriers pour modifier une vue dans un rapport</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gérer les autorisations pour une vue</p></td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+    <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gérer les autorisations pour une vue</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -138,7 +135,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Couleur du texte</strong></td> 
-      <td> <p>Sélectionnez la couleur d’affichage du texte à l’aide du sélecteur de couleurs.</p> <p><b>NOTE</b></p> <p> Si le champ contient un lien hypertexte, les sélections de couleur du texte ne sont pas appliquées à ce champ.</p> </td> 
+      <td> <p>Sélectionnez la couleur dans laquelle le texte est affiché à l’aide du sélecteur de couleurs.</p> <p><b>NOTE</b></p> <p> Si le champ contient un lien hypertexte, les sélections de couleur du texte ne sont pas appliquées à ce champ.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Format du texte</strong></td> 
@@ -150,7 +147,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Contexte</strong></td> 
-      <td>Sélectionnez la couleur de fond du texte à l’aide du sélecteur de couleurs.</td> 
+      <td>Sélectionnez la couleur d’arrière-plan du texte à l’aide du sélecteur de couleurs.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Afficher l’icône</strong></td> 

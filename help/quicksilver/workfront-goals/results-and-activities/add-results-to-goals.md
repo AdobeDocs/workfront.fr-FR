@@ -7,20 +7,72 @@ description: Les résultats mesurent la progression d’un objectif. L’activat
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 97%
+source-wordcount: '527'
+ht-degree: 85%
 
 ---
 
 # Ajouter des résultats aux objectifs dans les Objectifs Adobe Workfront
 
+<!--Audited for P&P only: 10/2025-->
+
 Les résultats mesurent la progression d’un objectif. L’activation de l’objectif et l’enregistrement des progrès réalisés ne sont possibles que si des résultats, des activités ou des objectifs alignés sont associés à l’objectif.
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+>[!NOTE]
+>
+>Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>
+>Adobe Workfront Goals ne peut plus être acheté.
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
+
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+  <td> <p>Package Adobe Workfront</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Licence Adobe Workfront</td>
+ <td>
+ <p>Contributeur ou version ultérieure</p>
+<p>Requête ou supérieure</p></td>
+ </tr>
+  <tr>
+ <td role="rowheader">Configuration du niveau d’accès</td>
+ <td> <p>Modifier l’accès aux Objectifs</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Autorisations d’objet</td>
+ <td>
+  <div>
+  <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
+  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> <p>Un modèle de mise en page comprenant la zone Objectifs du menu principal doit être affecté à tous les utilisateurs, y compris les administrateurs système. </p>  
+</td>
+  </tr>
+</tbody>
+</table>
+
+Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto">
 <col>
@@ -29,61 +81,59 @@ Vous devez disposer des éléments suivants :
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> 
-   <p>Pour la nouvelle structure de forfait et de licence :
-  <ul><li>Un forfait Ultimate </li></ul>
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
    </p>
-<p>Pour la structure de forfait et de licence actuelle : 
-<ul><li> Un forfait Pro ou supérieur </li>
-  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Licence Adobe Workfront*</td>
+ <td role="rowheader">Adobe Workfront license*</td>
  <td>
- <p>Nouvelle licence : contributeur ou contributrice ou niveau supérieur</p>
- Ou
- <p>Licence actuelle : demande ou niveau supérieur</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
  </tr>
  <tr>
- <td role="rowheader">Produit*</td>
+ <td role="rowheader">Product*</td>
  <td>
- <p> Nouvelle exigence de produit, une des options suivantes : </p>
+ <p> New product requirement, one of the following: </p>
 <ul>
-<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
-<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
- <p>Ou</p>
- <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
+<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+ <p>Or</p>
+ <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader"><p>Niveau d’accès</p></td>
- <td> <p>Modifier l’accès aux Objectifs</p>  </td>
+ <td role="rowheader"><p>Access level</p></td>
+ <td> <p>Edit access to Goals</p>  </td>
  </tr>
  <tr data-mc-conditions="">
- <td role="rowheader">Autorisations d’objet</td>
+ <td role="rowheader">Object permissions</td>
  <td>
   <div>
-  <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
-  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
-  <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
   </tr>
 </tbody>
-</table>
-
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+</table>-->
 
 ## Conditions préalables
 
 Vous devez disposer des éléments suivants avant de pouvoir démarrer :
 
-* Un modèle de disposition qui inclut la zone Objectifs dans le menu principal.
+* Un modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
 * Objectif existant.
 
   Pour plus d’informations sur la création d’objectifs, consultez la section [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).

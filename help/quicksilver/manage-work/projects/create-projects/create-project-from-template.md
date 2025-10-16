@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des modèles en tant que cadre pour créer des
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 93%
+source-wordcount: '1159'
+ht-degree: 92%
 
 ---
 
@@ -45,29 +45,24 @@ Vous disposez des options suivantes pour créer un projet à partir d’un modè
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Workfront*</td> 
-   <td> <p>Nouveau : Standard</p>
-        <p>ou</p>
-        <p>Actuel : formule </p> </td> 
+   <td role="rowheader">Licence Workfront</td> 
+   <td> <p>Standard</p>
+        <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux projets et aux modèles</p>
-
-<p>Modifier l’accès aux Portfolios et Programmes, si le modèle que vous utilisez contient un Portfolio et un Programme</p>
-
-</td> 
+   <p>Modifiez l’accès aux Portfolios et Programmes si le modèle que vous utilisez contient un Portfolio et un Programme</p>  
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -78,9 +73,42 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Standard</p>
+        <p>or</p>
+        <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects and to Templates</p>
+   
+   <p>edit access to Portfolios and Programs, if the template you use contains a Portfolio and a Program</p>
+   
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a template</p> 
+  <p>If the template you use contains a Portfolio and a Program, you must have Manage permissions to the portfolio and program to create the project </p> 
+   <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Créer un projet à partir d’un modèle dans la zone Projets
 
@@ -88,7 +116,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 
 >[!NOTE]
 >
->Votre administrateur ou administratrice système ou administrateur ou administratrice de groupes peut modifier votre interface à l’aide d’un modèle de disposition. Dans ce cas, certains noms de sections et de zones mentionnées dans les étapes suivantes peuvent être différents dans votre instance de Workfront.
+>Votre administrateur ou administratrice système ou administrateur ou administratrice de groupes peut modifier votre interface à l’aide d’un modèle de mise en page. Dans ce cas, certains noms de sections et de zones mentionnées dans les étapes suivantes peuvent être différents dans votre instance de Workfront.
 
 1. Utilisez l’une des méthodes suivantes :
 

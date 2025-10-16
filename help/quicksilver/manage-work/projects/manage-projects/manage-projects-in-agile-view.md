@@ -1,15 +1,15 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: Gérer un projet en vue Agile
+title: Gestion d’un projet dans la vue Agile
 description: Vous pouvez tirer parti des fonctionnalités Agile dans votre projet sans les difficultés administratives qui accompagnent généralement les pratiques Agile (comme la gestion des listes d’attente des équipes ou la création d’itérations).
-author: Alina and Lisa
+author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 37c75806c268af034cf801ae62fcab546fdf5dc9
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 94%
 
 ---
 
@@ -25,28 +25,29 @@ Si vous souhaitez travailler dans un environnement Agile qui utilise une liste d
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Actuel : Révision ou supérieur</p> 
-   <p>Nouvelle : contributeur ou supérieure</p> </td> 
+   <td> <p>Léger ou supérieur</p>
+   <p>Révision ou supérieur</p> 
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès en modification aux zones suivantes :</p> 
     <ul> 
      <li> <p>Projets</p> </li> 
      <li> <p>Rapports, tableaux de bord, calendriers</p> </li> 
-     <li> <p>Filtres, Vues, Regroupements</p> </li> 
+     <li> <p>Filtres, vues, regroupements</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -59,6 +60,37 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Current: Review or higher</p> 
+   <p>New: Contributor or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to the following areas:</p> 
+    <ul> 
+     <li> <p>Projects</p> </li> 
+     <li> <p>Reports, Dashboards, Calendars</p> </li> 
+     <li> <p>Filters, Views,&nbsp;Groupings</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 
 ## Afficher un projet dans la vue Agile

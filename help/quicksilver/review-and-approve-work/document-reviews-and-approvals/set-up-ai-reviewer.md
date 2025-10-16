@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -35,11 +35,11 @@ Une fois qu’au moins une marque est configurée dans GenStudio Foundation, vou
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Standard</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 Avant de commencer, vous devez configurer des directives relatives à la marque d’image dans GenStudio Foundation.
 
-Pour en savoir plus sur les directives relatives aux marques d’images, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Pour en savoir plus sur les directives relatives aux marques d’images, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Ajouter un réviseur d’IA
 

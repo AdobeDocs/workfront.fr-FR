@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 10780ff51d5b1d9d73cb0a6fb0982abc320b0313
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 86%
+source-wordcount: '1241'
+ht-degree: 85%
 
 ---
 
@@ -25,34 +25,31 @@ S’il existe des groupes au-dessus de votre groupe, leurs administrateurs et ad
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td>
-   <td><p>Nouveau : Standard</p>
-       <p>Ou</p>
-       <p>Actuel : formule</p></td>
-  <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
+  <tr>
+   <td>Configurations des niveaux d’accès</td> 
    <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
   </tr>
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td>
+   <td>Autorisations d’objet</td>
    <td>Accès en affichage ou de niveau supérieur pour les modèles que vous souhaitez afficher et utiliser.</td> 
-  </tr> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

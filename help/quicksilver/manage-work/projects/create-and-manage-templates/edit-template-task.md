@@ -7,9 +7,9 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2498'
 ht-degree: 85%
 
 ---
@@ -28,26 +28,25 @@ Vous pouvez modifier la tâche de modèle ou modifier les tâches de modèle en 
 >
 >Vous ne pouvez pas modifier en masse des tâches de modèle qui appartiennent à différents modèles. Vous ne pouvez modifier en masse que les tâches de modèle appartenant au même modèle.
 
-
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Standard </p>
-   <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Plan </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux modèles</p>  </td> 
   </tr> 
   <tr> 
@@ -57,9 +56,35 @@ Vous pouvez modifier la tâche de modèle ou modifier les tâches de modèle en 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions </td> 
+   <td> <p>Manage permissions for a template. </p> <p>You cannot share a template task. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Conditions préalables
 

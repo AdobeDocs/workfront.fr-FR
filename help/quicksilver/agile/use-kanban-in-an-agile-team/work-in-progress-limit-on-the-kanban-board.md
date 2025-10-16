@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
-title: Gestion de la limite de travail en cours sur le conseil d’administration de Kanban
+title: Gérer la limite de travail en cours (WIP) sur le tableau kanban
 description: Vous pouvez configurer une limite du travail en cours pour chaque colonne du tableau Kanban. La limite du travail en cours est simplement un avertissement visuel et n’empêche pas votre équipe d’avoir un nombre d’éléments dans chaque colonne de statut supérieur à la limite que vous avez définie.
 author: Lisa
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 89%
+source-wordcount: '327'
+ht-degree: 88%
 
 ---
 
@@ -23,8 +23,6 @@ La limite du travail en cours est simplement un avertissement visuel et n’emp�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
-   ou
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -52,7 +49,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Lorsqu’une limite du travail en cours est configurée pour votre équipe Agile, elle s’affiche dans le coin supérieur droit de chaque colonne du tableau Kanban (à l’exception de la colonne [!UICONTROL Terminer]).
 
-Chaque fois que la limite est dépassée pour une colonne de la carte [!UICONTROL Kanban], la limite est mise en surbrillance en rouge et un message s’affiche.
+Chaque fois que la limite est dépassée pour une colonne du panorama [!UICONTROL Kanban], la limite est mise en surbrillance en rouge et un message s’affiche.
 ![Limite du travail en cours](assets/kanban-wip.png)
 
 ## Mettre à jour la limite du [!UICONTROL travail en cours] (WIP) du tableau [!UICONTROL Kanban]

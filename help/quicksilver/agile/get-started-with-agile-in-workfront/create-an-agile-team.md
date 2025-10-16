@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
-title: Créer une équipe agile
+title: Créer une équipe Agile
 description: Adobe Workfront permet aux équipes Agile d’effectuer leur travail de manière progressive et organisée.
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 90%
+source-wordcount: '990'
+ht-degree: 88%
 
 ---
 
@@ -31,8 +31,6 @@ Tout utilisateur ou utilisatrice de l’entreprise peut voir l’équipe Agile e
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,15 +38,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouveau : Standard</p>
-   Actuel : 
-   <ul><li><p>[!UICONTROL Plan] pour créer une nouvelle équipe Agile</p></li> 
-   <li><p>[!UICONTROL Work] ou supérieure pour convertir une équipe en équipe Agile</p></li></ul> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Planifiez la création d’une équipe agile.</p>
+  <p>Travail ou version ultérieure pour convertir une équipe en équipe agile</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,13 +68,13 @@ La méthodologie Agile [!DNL Kanban] dans [!DNL Workfront] vous permet de dépla
 
 Les fonctionnalités suivantes prennent en charge cette méthodologie :
 
-* Affichez le journal en souffrance sur le tableau de bord agile [!DNL Kanban].
+* Affichez la liste d’attente sur le storyboard agile [!DNL Kanban].
 Pour plus d’informations, voir [Ajouter la liste d’attente au storyboard [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
-* Configurez les éléments sur le journal en attente pour qu’ils soient automatiquement ajoutés au panorama d’articles agile [!UICONTROL Kanban] lorsque d’autres éléments sont déplacés vers un état qui correspond à Terminé.
+* Configurez les éléments de la liste d’attente pour qu’ils soient automatiquement ajoutés au storyboard agile [!UICONTROL Kanban] lorsque d’autres éléments sont déplacés vers un statut équivalent à Terminé.
 Pour plus d’informations, voir la section [Configurer des histoires à ajouter automatiquement à partir de la liste d’attente](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) dans l’article [Configurer Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configurez une limite de travail en cours (WIP) à afficher sur le panorama dynamique [!UICONTROL Kanban].
+* Configurez une limite de travail en cours (WIP) à afficher sur le storyboard agile [!UICONTROL Kanban].
 Pour plus d’informations, voir [Gérer la limite de travail en cours (WIP) sur le storyboard Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Avantages de l’utilisation de Scrum dans [!DNL Workfront]
@@ -89,8 +86,8 @@ Les fonctionnalités suivantes prennent en charge cette méthodologie :
 * Inclure les problèmes sur le storyboard [!UICONTROL Scrum]
 * Inclure les problèmes sur la liste d’attente d’une équipe Agile
 * Les sous-tâches peuvent être affichées sur le storyboard [!UICONTROL Scrum]
-* Affichage d’un graphique de condensation pour voir la progression par rapport aux histoires lors de l’itération
-Pour plus d’informations, consultez la [présentation d’un graphique de condensation agile](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+* Afficher un graphique d’avancement pour voir la progression par rapport aux histoires pendant l’itération
+Pour plus d&#39;informations, voir [Présentation des graphiques d&#39;avancement Agile](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
 ## Créer une équipe Agile
 
@@ -98,7 +95,7 @@ Pour plus d’informations, consultez la [présentation d’un graphique de cond
 
 1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]**![Icône Changer d’équipe](assets/switch-team-icon.png), puis cliquez sur **[!UICONTROL Créer une nouvelle équipe]**.
 
-   ![Sélectionner Créer une nouvelle équipe](assets/create-new-team.png)
+   ![Sélectionnez Créer une équipe](assets/create-new-team.png)
 
    La zone Nouvelle équipe s’affiche.
 
@@ -157,8 +154,8 @@ Vous pouvez convertir une équipe existante en équipe agile :
 1. Sélectionnez l’équipe que vous souhaitez convertir en équipe agile.
 1. Cliquez sur le bouton **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Seuls les membres de l’équipe disposant d’une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] peuvent voir cette option.
-   ![Sélectionner Modifier](assets/edit-team-settings.png)
+   Seuls les membres de l&#39;équipe disposant d&#39;une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] voient cette option.
+   ![Sélectionnez Modifier](assets/edit-team-settings.png)
 
 1. Dans la section **[!UICONTROL Agile]**, sélectionnez **[!UICONTROL Ceci est une équipe agile]**.
 

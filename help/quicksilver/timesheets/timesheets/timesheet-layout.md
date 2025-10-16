@@ -2,12 +2,12 @@
 content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Aperçu de la mise en page de la feuille de temps
+title: Présentation de la mise en page de la feuille de temps
 description: Cet article décrit la disposition des feuilles de temps dans Adobe Workfront, ce qui vous permettra de mieux comprendre comment personnaliser et utiliser les feuilles de temps pour enregistrer les heures.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 99%

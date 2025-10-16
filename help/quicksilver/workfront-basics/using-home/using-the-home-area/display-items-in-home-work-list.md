@@ -6,10 +6,10 @@ description: Chaque widget contient sa propre liste de tâches. Les listes de tr
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 17%
+source-wordcount: '994'
+ht-degree: 15%
 
 ---
 
@@ -28,8 +28,6 @@ Chaque widget contient sa propre liste de tâches. Les listes de travail affiche
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,13 +35,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
-   <td> <p>Nouveau :</p><ul><li>[!UICONTROL Contributor] pour les approbations uniquement</li> <li>[!UICONTROL Standard] ou de niveau supérieur pour tous les autres objets</li> <p>Ou</p> 
-  </ul><p>Actuel :</p><ul><li>[!UICONTROL Review] pour les approbations uniquement</li> <li>[!UICONTROL Work] ou de niveau supérieur pour tous les autres objets</li> </td> 
+   <td><ul><li>[!UICONTROL Contributor] pour les approbations uniquement</li> <li>[!UICONTROL Standard] ou de niveau supérieur pour tous les autres objets</li> <p>Ou</p> 
+  </ul><ul><li>[!UICONTROL Review] pour les approbations uniquement</li> <li>[!UICONTROL Work] ou de niveau supérieur pour tous les autres objets</li> </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
@@ -56,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

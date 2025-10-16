@@ -5,7 +5,8 @@ title: Gérer la vue d’administration des tableaux
 description: La vue Administrateur des forums contient une liste de tous les forums dans votre compte que les administrateurs système peuvent utiliser pour obtenir un instantané rapide des détails généraux des forums.
 author: Jenny
 feature: Agile
-source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
+exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 7%
@@ -33,7 +34,7 @@ Dans cette zone, vous pouvez effectuer les actions suivantes :
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +77,7 @@ Pour plus d’informations sur les types de modèles de panorama, voir [Créer o
 
    1. (Facultatif) Dans la section **Est archivé**, indiquez si les tableaux archivés ou non s’affichent. Vous pouvez sélectionner plusieurs options.
 
-      ![Section archivée &#x200B;](assets/is-archived-section.png)
+      ![Section archivée ](assets/is-archived-section.png)
 
 1. Cliquez en dehors du panneau **Filtres** pour le fermer. Vos sélections de filtres resteront appliquées à la liste des tableaux jusqu’à ce qu’elle soit de nouveau dans la vue par défaut.
 

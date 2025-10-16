@@ -6,10 +6,10 @@ description: Les tâches et les problèmes peuvent être affectés à une équip
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 91%
+source-wordcount: '1334'
+ht-degree: 90%
 
 ---
 
@@ -30,8 +30,6 @@ Les tâches ou les problèmes peuvent être affectés à l’équipe (et ensuite
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,18 +37,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
-   ou
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>[!UICONTROL Manage] l’accès au projet sur lequel se trouve l’histoire </td> 
+   <td>Gérer l’accès au projet sur lequel porte l’histoire </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +93,7 @@ Pour ventiler une histoire :
 1. Allez dans la liste d’attente qui contient l’histoire que vous voulez ventiler.
 1. Sélectionnez l’histoire à répartir, puis cliquez sur **[!UICONTROL Répartir l’histoire]**.
 La boîte de dialogue [!UICONTROL Répartition de l’histoire] s’affiche.
-   ![Boîte de dialogue pour la ventilation d’histoires](assets/backlog-breakdown-dialog.png)
+   ![Boîte de dialogue pour la répartition d’histoires](assets/backlog-breakdown-dialog.png)
 
 1. Spécifiez un nom et une estimation pour l’histoire, et indiquez si l’histoire est prête.
 1. Cliquez sur **[!UICONTROL Ajouter une histoire]** pour créer une autre histoire à partir de l’histoire originale.

@@ -7,10 +7,10 @@ description: Workfront Data Connect vous permet d’utiliser les données Workfr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 9%
+source-wordcount: '570'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 Workfront Data Connect vous permet d’utiliser les données Workfront de votre organisation avec des outils de Business Intelligence ou de les stocker dans un entrepôt de données externe.
 
-Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord créer une connexion comme décrit dans la section [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Vous devez ensuite ajouter les adresses IP requises à la place sur la liste autorisée de données, comme décrit dans la section [Ajouter des adresses IP à la liste autorisée &#x200B;](#add-ips-to-the-allowlist) ci-dessous.
+Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord créer une connexion comme décrit dans la section [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Vous devez ensuite ajouter les adresses IP requises à la place sur la liste autorisée de données, comme décrit dans la section [Ajouter des adresses IP à la liste autorisée ](#add-ips-to-the-allowlist) ci-dessous.
 
 La plupart des produits nécessitent les informations suivantes sur votre lac de données pour établir une connexion :
 
@@ -43,40 +43,32 @@ La plupart des produits nécessitent les informations suivantes sur votre lac de
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Inclus dans les plans suivants :</p>
-    <ul>
-        <li><p>Final</p></li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect n’est pas disponible pour les plans Workfront hérités.</p> 
-   </td> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Plan</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p></td> 
+   <td> <p>Vous devez être un administrateur Workfront</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -115,5 +107,5 @@ Vous trouverez ci-dessous un certain nombre d’outils courants de Business Inte
 
 Vous trouverez ci-dessous un certain nombre d’entrepôts de données courants ; consultez leurs sites de documentation pour en savoir plus sur la connexion à votre lac de données.
 
-* Briques de données
+* Databricks
 * AWS Redshift

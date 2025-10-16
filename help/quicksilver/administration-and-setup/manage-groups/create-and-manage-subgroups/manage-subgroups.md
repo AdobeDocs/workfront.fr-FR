@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 6c3f5ee43040f81dac734c5e0b4def9021a0d737
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 53%
+source-wordcount: '1386'
+ht-degree: 52%
 
 ---
 
@@ -42,32 +42,27 @@ Pour plus d’informations sur les sous-groupes, voir [Vue d’ensemble des sous
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>Ou</p>
-       <p>Actuel : formule</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -185,7 +180,7 @@ Vous pouvez faire d’un sous-groupe un groupe de niveau supérieur en le retira
 >[!TIP]
 >
 >Lorsque vous désactivez un groupe qui a des sous-groupes sous-jacents, ces sous-groupes deviennent également inactifs. Si vous souhaitez que l’un d’entre eux soit actif, vous pouvez suivre ces instructions pour le retirer de son groupe parent, puis le réactiver.
->&#x200B;>Pour obtenir des instructions sur la désactivation et la réactivation de groupes, voir [&#x200B; Désactiver ou réactiver un groupe &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>>Pour obtenir des instructions sur la désactivation et la réactivation de groupes, voir [ Désactiver ou réactiver un groupe ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 

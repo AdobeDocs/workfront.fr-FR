@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1422'
 ht-degree: 99%
 
 ---
@@ -24,32 +24,27 @@ Vous pouvez utiliser le statut d’un problème pour montrer à quel stade de d�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>Ou</p>
-       <p>Actuel : formule</p></td>
-  </tr> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configurations des niveaux d’accès</td> 
+   <td>Administrateur ou administratrice système</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -116,8 +111,8 @@ Les statuts de problèmes suivants sont fournis avec votre instance Workfront :
   </tr> 
   <tr> 
    <td>En attente de commentaires (équivaut à En suspens)</td> 
-   <td>Vous pouvez placer un problème dans ce statut pour indiquer que vous attendez un commentaire (généralement de la part du contact principal) avant de pouvoir continuer à travailler sur le problème. </td> 
-   <td> <p>Si le problème se trouve sur un projet dont le statut est Actuel, le problème s’affiche dans l’onglet En train de travailler sur des personnes qui sont assignées au problème.</p> <p>Si un problème est en attente de commentaire, un projet ne peut pas être achevé.</p> <p>Ce statut est important dans les rapports, pour faire la différence entre les problèmes qui sont actuellement ouverts mais sur lesquels quelqu’un travaille (généralement dans le statut En cours) et les problèmes qui sont actuellement ouverts mais sur lesquels personne ne travaille parce qu’un commentaire supplémentaire est nécessaire pour les achever (généralement dans le statut En attente d’un commentaire).</p> </td> 
+   <td>Vous pouvez placer un problème dans ce statut pour indiquer que vous attendez du feedback (généralement de la part du contact principal) avant de pouvoir continuer à travailler sur le problème. </td> 
+   <td> <p>Si le problème se trouve sur un projet dont le statut est Actuel, le problème s’affiche dans l’onglet En train de travailler sur des personnes qui sont assignées au problème.</p> <p>Si un problème est en attente de feedback, un projet ne peut pas être achevé.</p> <p>Ce statut est important dans les rapports, pour faire la différence entre les problèmes qui sont actuellement ouverts mais sur lesquels quelqu’un travaille (généralement dans le statut En cours) et les problèmes qui sont actuellement ouverts, mais sur lesquels personne ne travaille parce que du feedback supplémentaire est nécessaire pour les achever (généralement dans le statut En attente de feedback).</p> </td> 
   </tr> 
   <tr> 
    <td>Impossible à dupliquer (équivaut à Fermé)</td> 

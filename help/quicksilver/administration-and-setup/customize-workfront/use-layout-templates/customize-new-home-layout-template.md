@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 38%
+source-wordcount: '828'
+ht-degree: 37%
 
 ---
 
@@ -33,41 +33,39 @@ Vous pouvez configurer les éléments suivants :
 
 Pour plus d’informations sur l’Accueil, voir [Prise en main de l’Accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-Pour plus d’informations sur la création de modèles de disposition, voir [Créer et gérer des modèles de disposition](../use-layout-templates/create-and-manage-layout-templates.md).
+Pour plus d’informations sur la création de modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Pour plus d’informations sur les modèles de disposition pour les groupes, voir [Créer et modifier des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Créer et modifier des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs et utilisatrices pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de disposition aux utilisateurs et utilisatrices, voir [Affecter des utilisateurs et utilisatrices à un modèle de disposition](../use-layout-templates/assign-users-to-layout-template.md).
+Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs et utilisatrices pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de mise en page à des utilisateurs et utilisatrices, voir [Attribuer un modèle de mise en page à des utilisateurs et utilisatrices](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td><p>Nouveau : Standard</p>
-  <p> Actuel : formule</p>
-   </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.
-Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> </td> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.</p>
+        <p>Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +73,7 @@ Pour les exécuter pour un groupe, vous devez être une personne responsable de 
 
 Pour personnaliser l’Accueil à l’aide d’un modèle de mise en page :
 
-1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/dropdown-arrow.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Workspace d’accueil**.
 
@@ -136,11 +134,11 @@ Pour personnaliser l’Accueil à l’aide d’un modèle de mise en page :
    >
    >* Les options Filtre, Colonnes et Groupe sont liées aux options de personnalisation de la liste dans le modèle de mise en page. Les modifications apportées ici s’appliqueront également à ces paramètres.
    >* Les utilisateurs doivent au moins disposer d’un accès de type Créer aux vues pour que la configuration des colonnes de l’administrateur s’applique correctement à leurs pages d’accueil.
-   ></p>
-   >   <li><p>Définissez un filtre ou un groupe par défaut pour le widget, en pointant sur une option et en cliquant sur <b>Définir comme valeur par défaut</b>. La valeur par défaut actuelle affiche un badge bleu <b>Default</b> à sa droite.</p></li>
-   >   <li><p>Ajoutez un filtre, une colonne ou un groupe existant à la liste des options disponibles en cliquant sur le bouton représentant un signe plus au bas de chaque liste pour ajouter une option à cette liste. Notez que seuls les filtres, champs (pour les colonnes) ou groupes existants peuvent être ajoutés de cette manière.</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>Définissez un filtre ou un groupe par défaut pour le widget, en pointant sur une option et en cliquant sur <b>Définir comme valeur par défaut</b>. La valeur par défaut actuelle affiche un badge bleu <b>Default</b> à sa droite.</p></li>
+      <li><p>Ajoutez un filtre, une colonne ou un groupe existant à la liste des options disponibles en cliquant sur le bouton représentant un signe plus au bas de chaque liste pour ajouter une option à cette liste. Notez que seuls les filtres, champs (pour les colonnes) ou groupes existants peuvent être ajoutés de cette manière.</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >

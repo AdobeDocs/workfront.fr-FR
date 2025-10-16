@@ -8,10 +8,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 80%
 
 ---
 
@@ -28,25 +28,25 @@ Pour désactiver un utilisateur ou une utilisatrice via l’API :
 
 1. Générez une clé API à l’aide de la requête API suivante :
 
-```
-<domain>.my.workfront.com/attask/api/v15.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
-```
+   ```
+   <domain>.my.workfront.com/attask/api/v15.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
+   ```
 
 1. Recherchez le GUID de l’utilisateur ou de l’utilisatrice que vous souhaitez désactiver.
 
-   1. Utilisez la requête d’API suivante pour récupérer le GUID de tous les utilisateurs et utilisatrices de votre système. Notez que le champ **isActive** affiche **true** pour les utilisateurs et les utilisatrices actuellement actifs et **false** pour les utilisateurs et les utilisatrices qui ont été désactivés :
+   Utilisez la requête d’API suivante pour récupérer le GUID de tous les utilisateurs et utilisatrices de votre système. Notez que le champ **isActive** affiche **true** pour les utilisateurs et les utilisatrices actuellement actifs et **false** pour les utilisateurs et les utilisatrices qui ont été désactivés :
 
-```
-<domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
-```
+   ```
+   <domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
+   ```
 
-1. Localisez le GUID de l’utilisateur ou de l’utilisatrice que vous souhaitez désactiver. Utilisez la requête **PUT** pour modifier la valeur du champ **isActive** de l’utilisateur ou de l’utilisatrice en **false** :
+1. Utilisez la requête **PUT** suivante pour modifier la valeur du champ **isActive** de l’utilisateur en **false** :
 
-```
-<domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
-```
+   ```
+   <domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
+   ```
 
-1. La réponse indique que la valeur du champ **isActive** est passée de **true** à **false**, indiquant que l’utilisateur ou l’utilisatrice a été désactivé :
+1. La réponse indique que la valeur du champ **isActive** est passée de **true** à **false**, ce qui indique que l’utilisateur a été désactivé :
 
-<!-- [Copy](javascript:void(0);) -->
-<pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;"592125e60089b88fae8b51c08383e144",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;"Tyler Reid",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objCode:&nbsp;"USER",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isActive:&nbsp;false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br></code></pre>
+   <!-- [Copy](javascript:void(0);) -->
+   <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;"592125e60089b88fae8b51c08383e144",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;"Tyler Reid",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objCode:&nbsp;"USER",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isActive:&nbsp;false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br></code></pre>

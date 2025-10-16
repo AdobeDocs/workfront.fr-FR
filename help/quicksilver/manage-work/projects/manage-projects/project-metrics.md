@@ -3,41 +3,41 @@ content-type: overview;how-to-procedural
 product-area: projects
 keywords: analytics,mesures,projet,tâches,cessionnaire,terminé,statut,en retard,à venir
 navigation-topic: manage-projects
-title: Vue d’ensemble des mesures du projet
+title: Comprendre les mesures du projet
 description: Les mesures de projet vous permettent de visualiser le déroulement d’un projet et ainsi d’évaluer rapidement ses besoins et son statut d’avancement. Découvrez comment interpréter la zone Mesures dans le panneau de gauche d’un projet.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 99%
+source-wordcount: '1161'
+ht-degree: 98%
 
 ---
 
-# Vue d’ensemble des mesures du projet
+# Comprendre les mesures du projet
 
 Les mesures de projet vous offrent une vue d’ensemble, sous forme de graphique, du déroulement d’un projet.
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Workfront*</td> 
-   <td> <p>Nouveau : Léger ou supérieur </p>
-   <p>Actuel : révision ou supérieur </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Léger ou supérieur</p>
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Afficher l’accès aux projets</p>  </td> 
   </tr> 
   <tr> 
@@ -50,6 +50,32 @@ Les mesures de projet vous offrent une vue d’ensemble, sous forme de graphique
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Conditions préalables
 

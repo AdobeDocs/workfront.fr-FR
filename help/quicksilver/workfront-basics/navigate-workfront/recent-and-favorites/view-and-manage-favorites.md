@@ -6,10 +6,10 @@ description: Le menu Favoris vous permet d’accéder rapidement aux éléments.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 71%
+source-wordcount: '370'
+ht-degree: 69%
 
 ---
 
@@ -23,8 +23,6 @@ Le menu [!UICONTROL Favoris] vous permet d’accéder rapidement aux éléments.
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,15 +30,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>
-      <p>Nouvelle : contributeur ou supérieure<p>
-      <p>Ou</p>
-      <p>Actuelle : demande ou niveau supérieur</p> </td> 
+      <p>Contributeur ou version ultérieure<p>
+      <p>Requête ou supérieure</td> 
   </tr> 
  </tbody> 
 </table>

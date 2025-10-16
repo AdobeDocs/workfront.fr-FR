@@ -2,14 +2,14 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Enregistrer un projet en tant que modèle
-description: Enregistrez un projet en tant que modèle au niveau du projet, pour que les utilisateurs le voient dans l’interface utilisateur. Un autre article fournit des liens plus détaillés (pas à pas). Cette fonctionnalité doit rester dans les zones de projets ET de modèles.)
+description: « Enregistrer un projet en tant que modèle » au niveau du projet, pour que les utilisateurs puissent le voir dans l’interface utilisateur. Un autre article auquel ce lien renvoie est plus détaillé (détaillé).
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 53%
+source-wordcount: '475'
+ht-degree: 55%
 
 ---
 
@@ -42,14 +42,13 @@ Si vous décidez qu’un projet va être reproduit à l’avenir, vous pouvez cr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Standard </p>
-   Ou 
-   <p>Actuel : formule </p> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> 
    </td> 
   </tr> 
   <tr> 
@@ -63,9 +62,37 @@ Si vous décidez qu’un projet va être reproduit à l’avenir, vous pouvez cr
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard </p>
+   Or 
+   <p>Current: Plan </p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates</p> /td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Enregistrer un projet en tant que modèle
 

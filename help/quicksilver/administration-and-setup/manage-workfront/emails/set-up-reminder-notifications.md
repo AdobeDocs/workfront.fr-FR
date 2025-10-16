@@ -5,10 +5,10 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 99%
+source-wordcount: '1209'
+ht-degree: 98%
 
 ---
 
@@ -35,21 +35,18 @@ An example of how this can be used would be helpful here and/or in the section <
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p>
- <p>ou</p> 
-<p>Actuel : formule</p> 
+   <td> <p>Standard </p>
+<p>Plan</p> 
 </td> 
   </tr> 
   <tr> 
@@ -59,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -176,4 +173,4 @@ Pour déclencher manuellement une notification de rappel :
 
    Les personnes désignées dans la notification de rappel reçoivent un e-mail.
 
-![&#x200B; Test de notification de rappel &#x200B;](assets/reminder-test.png)
+![ Test de notification de rappel ](assets/reminder-test.png)

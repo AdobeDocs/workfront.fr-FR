@@ -6,10 +6,10 @@ description: Vous pouvez utiliser  [!DNL Adobe Workfront for Jira]  pour intégr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 064418302767ad20e176080ba9a12db548750f3c
+source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
 workflow-type: tm+mt
-source-wordcount: '2470'
-ht-degree: 96%
+source-wordcount: '2454'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 >
 >Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Jira, voir [Modules logiciels Jira](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Jira, voir [Modules logiciels Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 <!--
 
@@ -38,9 +38,9 @@ ht-degree: 96%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -58,38 +58,33 @@ Pour une liste de versions [!DNL Jira] que [!DNL Workfront for Jira] prend actue
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL [!DNL Adobe Workfront] plan]</td> 
-   <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Actuelle : [!UICONTROL Pro] ou licence supérieure</p>
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td><p>Tous</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td><p>Nouvelle : [!UICONTROL Standard] </p>
-       <p>ou</p> 
-       <p>Actuelle : [!UICONTROL Plan] </p>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard </p>
+       <p>Plan </p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Jira] accès</td> 
-   <td> <p>Accès pour l’administration système</p> <p>Important : nous vous recommandons de créer des comptes d’administration système distincts dans [!DNL Jira] et [!DNL Workfront] qui seront dédiés à cette intégration, plutôt que d’utiliser des comptes existants qui peuvent être associés à des utilisateurs et utilisatrices existants.</p> </td> 
+   <td role="rowheader">Accès Jira</td> 
+   <td> <p>Accès pour l’administration système</p> <p>Important : nous vous recommandons de créer des comptes d’administrateur système distincts dans Jira et Workfront à dédier à cette intégration, plutôt que d’utiliser des comptes existants qui peuvent être associés aux utilisateurs.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être administrateur ou administratrice [!DNL Workfront].</p> </td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -141,7 +136,7 @@ Pour configurer [!DNL Workfront for Jira], procédez comme suit :
 
 1. Sélectionnez l’onglet **[!UICONTROL Configuration]** pour configurer la synchronisation des champs entre les éléments [!DNL Jira] et [!DNL Workfront] liés.
 
-   Pour plus d’informations sur la configuration de la synchronisation des champs entre [!DNL Jira] et [!DNL Workfront], voir [Configurer la synchronisation des champs entre les éléments  [!DNL Jira]  et  [!DNL Workfront] &#x200B;](#configure-field-synchronization-between-jira-and-workfront-items).
+   Pour plus d’informations sur la configuration de la synchronisation des champs entre [!DNL Jira] et [!DNL Workfront], voir [Configurer la synchronisation des champs entre les éléments  [!DNL Jira]  et  [!DNL Workfront] ](#configure-field-synchronization-between-jira-and-workfront-items).
 
    >[!NOTE]
    >
@@ -149,7 +144,7 @@ Pour configurer [!DNL Workfront for Jira], procédez comme suit :
 
 1. (Facultatif) Sélectionnez l’onglet **[!UICONTROL Journal d’activité]** pour passer en revue les erreurs qui se sont produites pendant l’intégration.
 
-   Pour plus d’informations sur le [!UICONTROL Journal d’activité], voir [Afficher le Journal d’activité  [!DNL Jira] &#x200B;](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
+   Pour plus d’informations sur le [!UICONTROL Journal d’activité], voir [Afficher le Journal d’activité  [!DNL Jira] ](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
 
 ## Configurer des déclencheurs pour la liaison automatique d’éléments entre [!DNL Jira] et [!DNL Workfront]
 

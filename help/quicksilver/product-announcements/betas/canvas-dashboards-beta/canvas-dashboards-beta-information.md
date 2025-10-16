@@ -7,9 +7,9 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '567'
 ht-degree: 26%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 26%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](#provide-feedback) ci-dessous.<br>
->&#x200B;>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
@@ -28,11 +28,11 @@ ht-degree: 26%
 
 Les tableaux de bord de la zone de travail sont une fonctionnalité en cours de développement. Ils vous permettent de visualiser facilement vos données Adobe Workfront en ajoutant divers types de rapports à une zone de travail. Cette dernière offre de nombreuses options de disposition flexibles, notamment le redimensionnement, le glisser-déposer, etc.
 
-Pour plus d’informations, voir [&#x200B; Présentation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Pour plus d’informations, voir [ Présentation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -41,7 +41,7 @@ Pour plus d’informations, voir [&#x200B; Présentation des tableaux de bord de
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tous </p> 
    </td> 
@@ -49,8 +49,8 @@ Pour plus d’informations, voir [&#x200B; Présentation des tableaux de bord de
  <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td> 
-<p>Actuelle : formule </p> 
-<p>Nouveau : Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 

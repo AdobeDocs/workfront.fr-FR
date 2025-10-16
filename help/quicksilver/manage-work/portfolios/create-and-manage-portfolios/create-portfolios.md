@@ -1,21 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Créer un portfolio
+title: Création d’un Portfolio
 description: Un portfolio est un ensemble de projets qui se partagent les mêmes ressources, le même budget et le même planning. Les projets d’un portfolio sont suffisamment similaires pour utiliser le même groupe de ressources et être mesurés par rapport à la même carte de performance.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 80%
+source-wordcount: '667'
+ht-degree: 77%
 
 ---
 
 # Créer un portfolio
 
-<!--Audited: 7/2024-->
+<!--Audited: 08/2025-->
 
 Un portfolio est un ensemble de projets qui se partagent les mêmes ressources, le même budget et le même planning. Les projets d’un portfolio sont suffisamment similaires pour utiliser le même groupe de ressources et être mesurés par rapport à la même carte de performance.
 
@@ -23,20 +23,20 @@ Vous pouvez utiliser des portfolios pour regrouper des projets qui appartiennent
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td> 
    <td> <p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p>
-   <p>Actuelle : [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -44,7 +44,7 @@ Vous pouvez utiliser des portfolios pour regrouper des projets qui appartiennent
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Après avoir créé un portfolio, vous disposez par défaut des autorisations de gestion qui lui sont associées.</p>  </td> 
+   <td> <p>Après avoir créé un portfolio, vous disposez des autorisations de niveau Gérer</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +52,34 @@ Vous pouvez utiliser des portfolios pour regrouper des projets qui appartiennent
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current:[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>After you create a portfolio, you have Manage permissions to it, by default</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Création de portefeuilles
 

@@ -6,10 +6,10 @@ description: Vous pouvez importer des projets de Microsoft Project dans Adobe W
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 67%
+source-wordcount: '563'
+ht-degree: 61%
 
 ---
 
@@ -27,30 +27,34 @@ Vous pouvez importer des projets de Microsoft Project dans Adobe Workfront et g
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p> 
-   Ou
-   <p>Actuelle : formule </p>
+   <td> <p>Standard</p> 
+    <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
-   <td> <p>Accès en modification aux projets</p> </td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td> <p>Accès en modification aux projets</p> 
+   <p>Si vous ajoutez un projet à un portefeuille ou à un programme, vous devez disposer d'un accès en modification aux portefeuilles et programmes.</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Lorsque vous créez un projet, vous recevez automatiquement les droits de gestion du projet. </p> </td> 
+   <td> <p>Lorsque vous créez un projet, vous recevez automatiquement les droits de gestion du projet.</p>
+   <p>Si vous ajoutez un projet à un portfolio ou à un programme, vous devez disposer des autorisations de gestion pour le portfolio et le programme.</p>
+   </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,29 +65,28 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 <!--old permissions model: 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>When you create a project you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>When you create a project you automatically receive Manage permissions to the project </p> </td> 
   </tr> 
  </tbody> 
 </table>

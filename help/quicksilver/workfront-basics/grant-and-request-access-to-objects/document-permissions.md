@@ -7,9 +7,9 @@ description: Votre équipe d’administration Adobe Workfront accorde aux utili
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 48c0f5c617f41a4ce51ea45c17817aa869ba5adb
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1387'
 ht-degree: 45%
 
 ---
@@ -34,21 +34,18 @@ Les utilisateurs peuvent également partager des documents qu’ils ont chargés
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
-Pour partager des objets, vous devez disposer des éléments suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard</p> 
-   Ou
-   <p>Actuellement : Travail ou licence supérieure</p>
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p>
    </td> 
   </tr> 
   <tr> 
@@ -62,7 +59,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +73,7 @@ L’utilisateur ou utilisatrice qui charge un document dans Workfront dispose pa
 
 1. Sur la page **Documents**, passez la souris sur le document à partager et cliquez sur le lien **Détails du document** qui s’affiche. La page **Détails du document** s’ouvre.
 
-   ![Lien Détails du document &#x200B;](assets/document-details-link.png)
+   ![Lien Détails du document ](assets/document-details-link.png)
 
 1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) à droite du nom du document, puis cliquez sur **Partager**. La boîte de dialogue **Partager[Nom du document]** s’ouvre.
 

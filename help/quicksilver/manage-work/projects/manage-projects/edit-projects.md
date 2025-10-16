@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '7643'
+source-wordcount: '7642'
 ht-degree: 94%
 
 ---
@@ -47,14 +47,13 @@ Idéalement, vous devez modifier un projet lorsque celui-ci est au statut Planif
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td><p>Nouveau : Standard </p> 
-   Ou
-   <p>Actuel : formule </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -63,7 +62,7 @@ Idéalement, vous devez modifier un projet lorsque celui-ci est au statut Planif
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> 
-     <p>Autorisations de gestion d’un projet </p> 
+     <p>Autorisations de gestion d’un projet</p> 
      </td> 
   </tr> 
  </tbody> 
@@ -72,6 +71,37 @@ Idéalement, vous devez modifier un projet lorsque celui-ci est au statut Planif
 * Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+     <p>Manage permissions to a project </p> 
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Limites de modification des projets
 
@@ -114,7 +144,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
 
    >[!NOTE]
    >
-   >Selon la manière dont votre administrateur ou administratrice Workfront ou de groupes a modifié votre modèle de disposition, les champs de la zone Détails du projet peuvent être réorganisés ou ne pas s’afficher. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la manière dont votre équipe d’administration Workfront ou de groupes a modifié votre modèle de mise en page, les champs de la zone Détails du projet peuvent être réorganisés ou masqués. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    Pour modifier les informations de la section Détails, procédez comme suit :
 
@@ -157,7 +187,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
 
    >[!NOTE]
    >
-   >Selon la manière dont l’administrateur ou l’administratrice Workfront ou l’administrateur ou l’administratrice de groupes a modifié votre modèle de disposition, les zones du panneau de gauche de la zone Modifier le projet ou les champs répertoriés dans ces zones peuvent être réorganisés ou ne pas s’afficher. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la façon dont l’administrateur ou l’administratrice Workfront ou de groupe a modifié votre modèle de mise en page, les zones du panneau de gauche de la section Modifier le projet ou les champs répertoriés dans ces zones peuvent être réorganisés ou ne pas s’afficher. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. (Le cas échéant) Si vous avez cliqué sur le menu **Plus** puis sur **Modifier**, mettez à jour les informations dans l’une des zones suivantes du panneau de gauche :
 
@@ -174,7 +204,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
 
    >[!NOTE]
    >
-   >Selon la manière dont votre administrateur ou administratrice Workfront configure le modèle de disposition de la zone Détails du projet, les sections et les champs de la zone Modifier le projet peuvent être différents dans votre environnement. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la manière dont votre administrateur ou administratrice Workfront configure le modèle de mise en page pour la zone Détails du projet, les sections et les champs de la zone Modifier le projet peuvent être différents dans votre environnement. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 ### Nom du projet {#project-name}
 
@@ -404,7 +434,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Bénéfice prévu</strong> </td> 
-      <td> <p>Estimez le bénéfice prévu du projet. Il est utilisé dans le business case du projet et dans l’optimisateur de portfolio. Pour plus d’informations sur le bénéfice prévu d’un projet, voir <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Vue d’ensemble du bénéfice prévu du projet</a>. Le bénéfice prévu d’un projet est pris en compte lors du calcul de la valeur nette d’un projet. </p> <p>Pour plus d’informations, voir <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gérer les projets dans l’optimisateur de portfolio</a>.<br></p> </td> 
+      <td> <p>Estimez le bénéfice prévu du projet. Il est utilisé dans le business case du projet et dans l’optimisateur de portfolio. Pour plus d’informations sur le bénéfice prévu d’un projet, voir <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Vue d’ensemble du bénéfice prévu du projet</a>. Le bénéfice prévu d’un projet est pris en compte lors du calcul de la valeur nette d’un projet. </p> <p>Pour plus d’informations, voir <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gérer les projets dans Portfolio Optimizer : index d’article</a> .<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Bénéfice réel</strong> </td> 
@@ -754,7 +784,7 @@ La boîte de dialogue **Modifier les projets** s’affiche.
 
    ![Modification de projets dans la fenêtre modale en bloc](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
-Selon la manière dont l’administrateur ou l’administratrice Workfront ou l’administrateur ou l’administratrice de groupes a modifié votre modèle de disposition, les zones du panneau de gauche de la zone Modifier le projet ou les champs répertoriés dans ces zones peuvent être réorganisés ou ne pas s’afficher. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+Selon la façon dont l’administrateur ou l’administratrice Workfront ou de groupe a modifié votre modèle de mise en page, les zones du panneau de gauche de la section Modifier le projet ou les champs répertoriés dans ces zones peuvent être réorganisés ou ne pas s’afficher. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. Cliquez sur **Vue d’ensemble** pour modifier des informations générales sur les projets sélectionnés.  Pour plus d’informations sur la modification de la zone Vue d’ensemble, voir la section [Vue d’ensemble](#overview) de cet article.
 
@@ -781,7 +811,7 @@ Selon la manière dont l’administrateur ou l’administratrice Workfront ou l�
 
    Les formulaires personnalisés supplémentaires qui peuvent être associés à des projets mais qui ne sont associés à aucun des projets sélectionnés s’affichent dans la sous-section **Formulaires à ajouter** du champ **Ajouter un formulaire personnalisé**.
 
-1. Sélectionnez d’autres formulaires personnalisés dans les sous-sections **Ajouter un formulaire personnalisé** ou **Formulaires à ajouter** en parcourant les listes.
+1. Cliquez sur d’autres formulaires personnalisés dans les sous-sections **Ajouter un formulaire personnalisé** ou **Formulaires à ajouter** en parcourant les listes.
 
    Lorsqu’un formulaire personnalisé est déjà associé à certains des projets sélectionnés, le nombre de projets auxquels le formulaire est déjà associé s’affiche en regard du nom du formulaire, lors de l’ajout d’un formulaire.
 

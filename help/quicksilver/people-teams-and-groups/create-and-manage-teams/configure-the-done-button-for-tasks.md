@@ -1,25 +1,25 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
-title: Configuration du bouton Terminé pour les tâches
+title: Configurer le bouton Terminé pour les tâches
 description: Le bouton Terminé permet de définir automatiquement le statut d’une tâche ou d’un problème. Par défaut, Adobe Workfront marque une tâche comme terminée lorsqu’une personne cessionnaire clique sur Terminé sur son élément de travail.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '759'
 ht-degree: 92%
 
 ---
 
 # Configurer le bouton [!UICONTROL Terminé] pour les tâches
 
-Le bouton [!UICONTROL Terminer] permet de définir automatiquement le statut d’une tâche ou d’un problème. Par défaut, [!UICONTROL Adobe Workfront] marque une tâche comme [!UICONTROL Terminée] lorsqu’un cessionnaire clique sur Marquer comme fait sur son élément de travail.
+Le bouton [!UICONTROL Terminer] permet de définir automatiquement le statut d’une tâche ou d’un problème. Par défaut, [!UICONTROL Adobe Workfront] marque une tâche comme [!UICONTROL Terminée] lorsqu&#39;une personne désignée clique sur Marquer comme terminé pour son élément de travail.
 
 >[!NOTE]
 >
->Le bouton Terminé s’affiche sous la forme Marquer comme prévu dans toutes les zones de Workfront.
+>Le bouton Terminé affiche Marquer comme Terminé dans toutes les zones de Workfront.
 
 ## Vue d’ensemble
 
@@ -33,23 +33,20 @@ Les utilisateurs disposant de certaines autorisations peuvent configurer le bout
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td>
-  </tr> 
+   <p>Standard</p>
+   <p>Plan</p></td>
+  </tr>  
  </tbody> 
 </table>
 

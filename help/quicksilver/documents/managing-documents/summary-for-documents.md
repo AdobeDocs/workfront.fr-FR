@@ -7,10 +7,10 @@ description: Le résumé permet d’interagir avec des informations importantes,
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 63%
+source-wordcount: '441'
+ht-degree: 62%
 
 ---
 
@@ -35,13 +35,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront</td> 
-   <td> <p>Nouvelle : contributeur ou supérieure</p> 
-   <p>Actuelle : demande ou supérieure</p>
+   <td> <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 

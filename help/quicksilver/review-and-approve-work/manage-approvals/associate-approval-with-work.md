@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 3d12c144552474439b247739b47de9454a2233f2
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1822'
 ht-degree: 92%
 
 ---
@@ -40,32 +40,32 @@ Pour plus d’informations sur la création d’un processus d’approbation glo
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Travail ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Accès en modification ou supérieur aux projets, tâches, problèmes ou modèles</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Niveau d’accès</td> 
+   <td> <p>Accès en modification ou supérieur aux projets, tâches, problèmes ou modèles</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion pour le projet, la tâche, le problème ou le modèle</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations de gestion pour le projet, la tâche, le problème ou le modèle</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -233,7 +233,7 @@ Pour retirer ou supprimer un processus d’approbation d’un élément de trava
 1. Cliquez sur l’une des icônes suivantes dans le coin supérieur droit de la section Approbations, en fonction du type d’approbation associé à l’élément :
 
    * **Icône Supprimer** Icône ![Supprimer](assets/remove-icon---x-in-circle.png) pour les approbations globales ou au niveau du groupe.
-   * **&#x200B;**&#x200B;Icône Supprimer ![Icône Supprimer](assets/delete.png) pour les validations à usage unique.
+   * **** Icône Supprimer ![Icône Supprimer](assets/delete.png) pour les validations à usage unique.
 
 1. Cliquez sur **Retirer** ou **Supprimer** pour confirmer.
 

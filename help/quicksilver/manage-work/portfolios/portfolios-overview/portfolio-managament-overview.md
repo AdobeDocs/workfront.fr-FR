@@ -6,9 +6,9 @@ description: La gestion de portfolio ou de portfolio de projets (PPM) est le pro
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '648'
 ht-degree: 86%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 86%
 
 Portfolio La gestion des Portfolio de projet (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets afin d’atteindre des objectifs commerciaux spécifiques.
 
-Cet article décrit les concepts généraux de la gestion de portefeuille. Pour obtenir des informations générales sur la gestion des portfolios dans Adobe Workfront, consultez la présentation de [Portfolio dans Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Cet article décrit les concepts généraux de la gestion de portefeuille. Pour obtenir des informations générales sur la gestion des portefeuilles dans Adobe Workfront, voir [Comprendre la méthodologie des portefeuilles](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 Un portefeuille est un ensemble de projets ayant des objectifs commerciaux communs. Le résultat d’une méthodologie de PPM efficace permet à la direction d’effectuer les opérations suivantes :
 
@@ -63,7 +63,7 @@ Pour plus d’informations sur la création d’un business case et d’une dema
 
 Après avoir soumis la demande de projet, la personne chargée de la gestion de portfolio ou une équipe de direction l’examine et décide d’approuver ou non le projet. Si le projet est approuvé, celui-ci est sélectionné pour le portfolio de projets de l’entreprise.
 
-Pour plus d’informations sur les portfolios, consultez la présentation de Portfolio dans [&#x200B; [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Pour plus d&#39;informations sur l&#39;approbation d&#39;un business case, voir [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Pour plus d’informations sur les portefeuilles, voir [Comprendre la méthodologie du portefeuille](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Pour plus d&#39;informations sur l&#39;approbation d&#39;un business case, voir [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Optimisation du portfolio {#portfolio-optimization}
 

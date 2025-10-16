@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 13%
+source-wordcount: '519'
+ht-degree: 9%
 
 ---
 
@@ -40,9 +40,7 @@ Pour plus d’informations sur l’octroi d’autorisations aux vues et aux espa
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -52,41 +50,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produits</p> </td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
-  </tr>   
+<p>Tout package Workfront and Planning</p> 
+Ou
+<p>Tout package Workflow et Planning</p> 
+ </tr>
+
 <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td> 
-<p>L’un des plans Workfront suivants :</p> 
-<ul><li>Sélectionner</li> 
-<li>Principal</li> 
-<li>Final</li></ul> 
-<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Tous </p> 
-<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
-   <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
-<p><b>IMPORTANT</b></p>
-<p>Les utilisateurs de votre organisation peuvent demander des autorisations pour les vues et les espaces de travail uniquement lorsque votre organisation a intégré l’expérience unifiée Adobe. </p>
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p> Standard, Léger ou Contributeur</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td><p>Tous</p> 
   </td> 
   </tr> 
   <tr> 
@@ -112,9 +85,79 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p><b>IMPORTANT</b></p>
+<p>The users in your organization can request permissions for views and workspaces only when your organization is onboarded to the Adobe Unified Experience. </p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard, Light, or Contributor</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>After your request for permission is granted, you could gain the following permissions:</p>
+   <ul><li><p>View or Manage for a view</p></li>
+   <li><p>View, Contribute, or Manage to a workspace</p></li></ul>  
+   <p>Only users with Manage permissions to a workspace and a view can share a view publicly.</p></td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+  
+</td>
+  </tr>
+ 
+</tbody> 
+</table> -->
 
 
 ## Demander des autorisations pour une vue ou un espace de travail
@@ -135,10 +178,8 @@ Lorsqu&#39;une personne partage avec vous un lien vers un espace de travail ou u
 
    Tous les utilisateurs disposant d’autorisations de niveau Gérer pour l’affichage ou l’espace de travail reçoivent les notifications suivantes pour la demande d’accès :
    * Une notification in-app
-
      ![Notification in-app pour la demande d’accès](assets/in-app-notification-for-access-request.png)
    * Notification par e-mail
-
      ![Notification électronique pour la demande d’accès](assets/email-notification-for-access-request.png)
 
 1. (Conditionnel) Lorsque le gestionnaire de l’affichage ou de l’espace de travail vous accorde des autorisations pour l’affichage ou l’espace de travail, vous recevez une notification par e-mail et une notification in-app avec une confirmation que l’autorisation a été accordée. <!--check this - I was not able to test this, but Isk confirmed.-->

@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 15%
+source-wordcount: '651'
+ht-degree: 14%
 
 ---
 
@@ -23,7 +23,7 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,14 +32,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
-   <p>Actuelle : demande ou niveau supérieur</p>
-   <p>Nouvelle : contributeur ou supérieure</p> 
+   <p>Requête ou supérieure</p>
+   <p>Contributeur ou version ultérieure</p> 
    </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
       <td>Affiche les éléments avec 
       <ul>
       <li>Aucune contrainte de tâches ou de prédécesseurs incomplète</li>
-      <p>et</p>
+      <p>and</p>
       <li>La date de début prévue est dans le passé ou peut être dans les deux semaines à venir</li>
       </ul>
       </td>

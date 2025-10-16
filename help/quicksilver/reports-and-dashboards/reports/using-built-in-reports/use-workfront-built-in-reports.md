@@ -6,9 +6,9 @@ description: Adobe Workfront dispose d’une liste exhaustive de rapports intég
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2978'
 ht-degree: 56%
 
 ---
@@ -23,31 +23,23 @@ Les administrateurs et administratrices de Workfront peuvent masquer les rapport
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Contributeur ou version ultérieure</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Requête ou supérieure</p></li>
-         </ul>
+      <p>Contributeur ou version ultérieure</p>
+      <p>Requête ou supérieure</p>
    </td>
-  </tr> 
+  </tr>
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Accès supérieur ou égal à Rapports, Tableaux de bord, Calendriers</p> </td> 
@@ -59,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

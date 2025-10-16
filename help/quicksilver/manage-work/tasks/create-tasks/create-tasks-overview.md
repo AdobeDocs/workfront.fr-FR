@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Créer une vue d’ensemble des tâches
+title: Présentation de la création de tâches
 description: Vous ne pouvez créer des tâches dans un projet qu’après avoir créé le projet.
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez créer des tâches dans un projet des manières suivantes :
 
 Lorsque vous disposez des accès et des autorisations nécessaires, vous pouvez créer des tâches dans un projet. Toutefois, dans les cas suivants, il se peut que vous ne puissiez pas créer de tâches :
 
-* Votre administrateur ou administratrice Adobe Workfront ou un administrateur ou une administratrice de groupes doit autoriser l’ajout de tâches à un projet dont le statut est Terminé ou Immobilisé dans la zone Préférences du projet. Pour plus d’informations sur la définition des préférences du projet, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Votre administrateur ou administratrice Adobe Workfront ou un administrateur ou une administratrice de groupes doit activer l’ajout de tâches à un projet dont le statut est Terminé ou Immobilisé dans la zone Préférences du projet. Pour plus d’informations sur la définition des préférences du projet, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Vous ne pouvez pas ajouter de tâches à un projet dont l’approbation est en cours.
 
 ## Nombre maximum de tâches autorisées pour un projet
@@ -86,7 +86,7 @@ Lorsque vous définissez les informations par défaut à associer aux tâches aj
 * Lorsque vous copiez des tâches d’un projet à un autre et que le projet de destination a des paramètres par défaut différents pour les tâches, les tâches copiées conservent les paramètres par défaut du projet original, à moins que ceux-ci ne soient effacés au cours du processus de copie.
 * Lorsque vous dupliquez une tâche sur le même projet, les formulaires personnalisés et le processus d’approbation sont transférés à la tâche dupliquée.
 
-  Pour plus d’informations sur la copie et la duplication des tâches, consultez la section [[Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Pour plus d’informations sur la copie et la duplication de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * Lorsque vous déplacez la tâche vers un autre projet, les paramètres par défaut de la tâche sont enregistrés sur les tâches du projet d’origine, quels que soient les paramètres par défaut de la tâche sur le nouveau projet.
 

@@ -6,9 +6,9 @@ description: Vous pouvez voir l’utilisation de vos ressources dans le rapport 
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '7285'
+source-wordcount: '7259'
 ht-degree: 99%
 
 ---
@@ -46,26 +46,22 @@ Vous pouvez voir l’utilisation de vos ressources dans le rapport d’utilisati
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Pour accéder au rapport d’utilisation, vous devez disposer des éléments suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Nouveau : Tous</p>
-       <p>Ou</p>
-       <p>Actuel : Pro ou supérieur</p> </td> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>Ou</p>
-       <p>Actuel : formule</p> </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Accès Affichage ou niveau supérieur aux éléments suivants :</p> 
     <ul> 
      <li> <p>Gestion des ressources </p> </li> 
@@ -76,13 +72,13 @@ Pour accéder au rapport d’utilisation, vous devez disposer des éléments sui
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Autorisations d’objet</td> 
    <td> <p>Accès Affichage aux projets, portfolios et programmes pour accéder à la section Utilisation dans la zone Ressources</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Accès Gestion à un projet pour accéder à la section Utilisation du projet</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -334,7 +330,7 @@ Contrairement à d’autres zones de Workfront, le rapport d’utilisation calcu
 <li> <p><strong>Personne, par heure plus fixe :</strong> taux de facturation défini pour une personne spécifique, multiplié par le nombre d’heures prévues de la tâche de cette personne. En outre, un montant fixe spécifié dans la tâche est ajouté au taux de la personne. Workfront utilise la formule suivante :</p> <p><code>Revenus prévus de personne, par heure plus fixe = [SOMME(Heures prévues de la personne sur toutes les tâches) * Taux de facturation de la personne] + SOMME(Limite ou montant fixe de la tâche / Heures prévues de la tâche)</code> </p> </li>
 </ul> <p><b>Rôle par heure avec limite ou personne, par heure avec limite</b> </p> <p><b>IMPORTANT</b>
 
-Contrairement à d’autres zones de Workfront, si les revenus prévus dépassent la limite, le montant par rapport au montant de la limite est considéré comme des revenus fixes. Les revenus prévus sont calculés en divisant les revenus fixes de manière égale par le nombre d’heures prévues sur la tâche, puis en y ajoutant le montant maximal et les revenus du rôle ou de la personne, par heure. <br></p> <p>Les cas suivants existent : </p>
+Contrairement à d’autres zones de Workfront, si les revenus prévus dépassent la limite, le montant par rapport au montant de la limite est considéré comme des revenus fixes. Les revenus prévus sont calculés en divisant équitablement les revenus fixes par le nombre d’heures prévues sur la tâche, puis en y ajoutant le montant de la limite et les revenus par heure du rôle ou de la personne.<br></p> <p>Les cas suivants existent : </p>
 <ul>
 <li> <p><strong>Rôle par heure avec limite :</strong> les tâches sont facturées toutes les heures comme dans l’option Rôle par heure, mais vous pouvez spécifier un montant maximal. Workfront utilise la formule suivante :</p> <p><code>Revenus prévus de rôle par heure avec limite = [SOMME(Heures prévues du rôle sur toutes les tâches et tous les problèmes) * Taux de facturation du rôle] + Montant de limite de la tâche + SOMME(Montant par rapport au montant de limite / Heures prévues de la tâche)</code> </p> </li>
 <li> <p><strong>Personne, par heure avec limite :</strong> les tâches sont facturées toutes les heures comme dans Personne, par heure, mais vous pouvez spécifier un montant de limite maximal. Workfront utilise la formule suivante : </p> <p><code>Revenus prévus de Personne, par heure avec limite = [SOMME(Heures prévues de la personne pour toutes les tâches) * Taux de facturation de la personne] + Montant de limite maximal de la tâche + SOMME(Montant par rapport au montant de limite / Heures prévues de la tâche)</code> </p> </li>
@@ -353,10 +349,10 @@ Si vous avez une tâche de revenus fixes et qu’il n’y a pas d’heures effec
 Contrairement à d’autres zones de Workfront, le rapport d’utilisation calcule les revenus réels en divisant équitablement les revenus fixes par le nombre d’heures consignées sur la tâche. </p> <p>Les cas suivants existent : </p>
 <ul>
 <li> <p><strong>Rôle par heure plus fixe :</strong> taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’heures enregistrées sur la tâche par une personne disposant de ce rôle. En outre, un montant fixe spécifié sur la tâche est ajouté au taux du rôle. </p> <p>Workfront utilise la formule suivante :</p> <p><code>Revenus réels de rôle par heure plus fixe = [SOMME(Heures effectives du rôle sur toutes les tâches) * Taux de facturation du rôle] + SOMME(Limite ou montant fixe de la tâche / Heures effectives de la tâche)</code> </p> </li>
-<li> <p><strong>Personne, par heure plus fixe :</strong> taux de facturation défini pour une personne spécifique, multiplié par le nombre d’heures consignées pour la tâche par cette personne. En outre, un montant fixe spécifié dans la tâche est ajouté au taux de la personne. </p> <p>Workfront utilise la formule suivante :</p> <p><code>Revenus réels de la personne, par heure plus fixe = [SOMME(Heures effectives du rôle sur toutes les tâches) * Taux de facturation de la personne] + SOMME(Montant maximal ou fixe de la tâche / Heures de la personne de la tâche)</code> </p> </li>
+<li> <p><strong>Personne, par heure plus fixe :</strong> taux de facturation défini pour une personne spécifique, multiplié par le nombre d’heures consignées pour la tâche par cette personne. En outre, un montant fixe spécifié dans la tâche est ajouté au taux de la personne. </p> <p>Workfront utilise la formule suivante :</p> <p><code>Revenus réels de la personne, par heure plus fixe = [SOMME(Heures effectives du rôle sur toutes les tâches) * Taux de facturation de la personne] + SOMME(Montant limite ou fixe de la tâche / Heures de la personne de la tâche)</code> </p> </li>
 </ul> <p><b>Rôle par heure avec limite ou personne, par heure avec limite</b> </p> <p><b>IMPORTANT</b>
 
-Contrairement à d’autres zones de Workfront, si les revenus prévus dépassent la limite, le montant par rapport au montant de la limite est considéré comme des revenus fixes. Les revenus prévus sont calculés en divisant les revenus fixes de manière égale par le nombre d’heures prévues sur la tâche, puis en y ajoutant le montant maximal et les revenus du rôle ou de la personne, par heure. <br></p> <p>Les cas suivants existent :</p>
+Contrairement à d’autres zones de Workfront, si les revenus prévus dépassent la limite, le montant par rapport au montant de la limite est considéré comme des revenus fixes. Les revenus prévus sont calculés en divisant équitablement les revenus fixes par le nombre d’heures prévues sur la tâche, puis en y ajoutant le montant de la limite et les revenus par heure du rôle ou de la personne.<br></p> <p>Les cas suivants existent :</p>
 <ul>
 <li> <p><strong>Rôle par heure avec limite :</strong> les tâches sont facturées toutes les heures comme dans l’option Rôle par heure, mais vous pouvez spécifier un montant maximal. Workfront utilise la formule suivante :</p> <p><code>Revenus réels du rôle, par heure et avec limite = [SOMME(heures effectives du rôle sur toutes les tâches et tous les problèmes) * Taux de facturation du rôle] + Montant de limite maximal de la tâche + SOMME(Montant supérieur au montant maximal / Heures effectives de la tâche).</code></p> </li>
 <li> <p><strong>Personne, par heure avec limite :</strong> les tâches sont facturées toutes les heures comme dans l’option Personne, par heure, mais vous pouvez spécifier un montant maximal.</p> <p> Workfront utilise la formule suivante :</p> <p><code>Revenus réels de la personne, par heure avec limite = [SOMME(Heures effectives du rôle sur toutes les tâches et tous les problèmes) * Taux de facturation de la personne] + Montant de limite maximal de la tâche + SOMME(Montant supérieur au montant maximal / Heures effectives de la tâche)</code> </p> </li>

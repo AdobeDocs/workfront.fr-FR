@@ -3,51 +3,47 @@ title: Organisation et prévisualisation d’un formulaire
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Vous pouvez organiser un formulaire personnalisé avec le créateur de formulaire.
+description: Vous pouvez organiser un formulaire personnalisé avec le concepteur de formulaires.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1318'
 ht-degree: 87%
 
 ---
 
 # Organisation et prévisualisation d’un formulaire
 
-Vous pouvez organiser un formulaire personnalisé avec le créateur de formulaires et le prévisualiser pour vérifier qu’il est correctement configuré.
+Vous pouvez organiser un formulaire personnalisé avec le concepteur de formulaires et le prévisualiser pour vérifier qu’il est correctement configuré.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
-   <td>Tous</td> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td>
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -116,7 +112,7 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
      </tr> 
      <tr> 
       <td role="rowheader"><p>Ajouter une logique</p></td> 
-      <td><p>Utilisez la logique d’affichage pour indiquer si la section doit s’afficher sur le formulaire, en fonction des sélections effectuées par les utilisateurs et utilisatrices dans les champs personnalisés à choix multiples lorsqu’ils remplissent le formulaire.</p><p><strong>NOTE :</strong> si tous les champs individuels d’un saut de section sont soumis à une logique d’affichage et qu’ils sont tous masqués à la suite de cette logique, la section entière sera masquée dans le formulaire personnalisé. Cela se produit même si la logique d’affichage n’est pas appliquée au saut de section.</p><p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Ajouter une logique d’affichage et de saut à l’aide du créateur de formulaire</a>.</p></td> 
+      <td><p>Utilisez la logique d’affichage pour indiquer si la section doit s’afficher sur le formulaire, en fonction des sélections effectuées par les utilisateurs et utilisatrices dans les champs personnalisés à choix multiples lorsqu’ils remplissent le formulaire.</p><p><strong>NOTE :</strong> si tous les champs individuels d’un saut de section sont soumis à une logique d’affichage et qu’ils sont tous masqués à la suite de cette logique, la section entière sera masquée dans le formulaire personnalisé. Cela se produit même si la logique d’affichage n’est pas appliquée au saut de section.</p><p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Ajouter une logique d’affichage et de saut à l’aide du concepteur de formulaires</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

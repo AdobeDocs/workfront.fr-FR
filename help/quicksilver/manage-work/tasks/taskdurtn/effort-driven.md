@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '« Vue d’ensemble du type de durée : piloté par l’effort »'
+title: 'Présentation du type de durée : piloté par l''effort'
 description: « Piloté par l’effort » est un type de durée qui peut être défini pour une tâche dans Adobe Workfront. Pour des informations générales sur les types de durée dans Workfront, voir Vue d’ensemble de la durée de la tâche et du type de durée.
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

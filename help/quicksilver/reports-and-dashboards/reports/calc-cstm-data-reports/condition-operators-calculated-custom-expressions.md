@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Opérateurs de condition dans les expressions personnalisées calculées
 description: Vous pouvez utiliser des opérateurs ou des modificateurs de condition lors de la création de données calculées personnalisées dans Adobe Workfront lors de l’utilisation du mode texte.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 98%

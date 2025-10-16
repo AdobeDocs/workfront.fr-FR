@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '2075'
-ht-degree: 4%
+source-wordcount: '1996'
+ht-degree: 2%
 
 ---
 
@@ -41,70 +41,42 @@ Pour plus d’informations sur la manière dont un gestionnaire d’espace de tr
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Produits</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
+   <td> 
+<ul><li><p>Tout package Workfront</p></li>
+Et
+<li><p>N’importe quel package Planning</p></li></ul>
+Ou
+<ul><li><p>N’importe quel package de workflow</p></li>
+Et
+<li><p>N’importe quel package Planning</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td><p>Licence externe, contributeur, light ou standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
+   <td>   <p>Autorisations d’affichage ou supérieures pour un espace de travail et un type d’enregistrement, si vous êtes un utilisateur Workfront</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
-   <td>
-<p>L’un des plans Workfront suivants :</p>
-<ul><li>Sélectionner</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p>
-   </td>
-<tr>
-   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td>
-   <td>
-<p>Tous </p>  
-<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </td>
-<tr>
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
-   <td>
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p>
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
-   </td>
-
-</tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
-   <td>
-   <p>Licence externe, contributeur, light ou standard</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Autorisations d’objet</p></td>
-   <td>
-   <p>Autorisations d’affichage ou supérieures pour un espace de travail et un type d’enregistrement, si vous êtes un utilisateur Workfront</p> 
-  </td>
-  </tr>
- </tbody>
+</tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Conditions préalables
 

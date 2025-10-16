@@ -2,16 +2,16 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: '« Tâches : index des articles »'
+title: 'Tâches : index des articles'
 description: Les tâches sont des éléments à plus petite échelle dans Adobe Workfront qui contribuent à l’accomplissement d’un projet. Pour plus d’informations sur la gestion des tâches, consultez les articles suivants.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 95%
+source-wordcount: '89'
+ht-degree: 86%
 
 ---
 
@@ -27,5 +27,5 @@ Les tâches sont des éléments à plus petite échelle dans Adobe Workfront qu
 * [Gérer des tâches](../../manage-work/tasks/manage-tasks/manage-tasks.md)
 * [Contraintes de tâches](../../manage-work/tasks/task-constraints/task-constraints.md)
 * [Durée des tâches et types de durée : index des articles](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
-* [Utiliser des tâches antérieures](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+* [Utiliser les tâches antérieures : index des articles](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
 * [Conseils, astuces et résolution des problèmes pour les tâches](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)

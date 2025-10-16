@@ -1,23 +1,25 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Supprimer des événements
-description: Vous pouvez supprimer des problèmes ou des requêtes dans Adobe Workfront si vous disposez des droits d’accès et des autorisations appropriés.
+title: Supprimer événements
+description: Vous pouvez supprimer des problèmes ou des demandes dans Adobe Workfront si vous disposez des droits d’accès et des autorisations appropriés pour le faire et lorsque vous constatez qu’ils ne sont plus nécessaires. Nous vous recommandons de les fermer au lieu de les supprimer afin de préserver la précision de vos projets.
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 79%
+source-wordcount: '757'
+ht-degree: 67%
 
 ---
 
 # Supprimer des événements
 
-<!--Audited: 05/2025-->
+<!--Audited: 08/2025-->
 
-Vous pouvez supprimer des problèmes ou des requêtes dans Adobe Workfront si vous disposez des droits d’accès et des autorisations appropriés.
+Vous pouvez supprimer des problèmes ou des demandes dans Adobe Workfront si vous disposez des droits d’accès et des autorisations appropriés pour le faire et lorsque vous constatez qu’ils ne sont plus nécessaires. Nous vous recommandons de les fermer au lieu de les supprimer afin de préserver la précision de vos projets.
+
+Les administrateurs et administratrices de Workfront peuvent restaurer les problèmes supprimés.
 
 >[!TIP]
 >
@@ -25,22 +27,20 @@ Vous pouvez supprimer des problèmes ou des requêtes dans Adobe Workfront si v
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle : contributeur ou supérieure</p>
-   <p>Actuelle : demande ou niveau supérieur</p>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p>
  </td> 
   </tr> 
   <tr> 

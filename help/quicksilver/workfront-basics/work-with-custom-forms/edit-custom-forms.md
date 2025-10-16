@@ -7,54 +7,88 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 95%
+source-wordcount: '985'
+ht-degree: 93%
 
 ---
 
 # Modifier les informations dans les champs des formulaire personnalisés
 
+<!--Audited: 10/2025-->
+
 Vous pouvez modifier les informations d’un formulaire personnalisé après l’avoir joint à un objet. Pour plus d’informations sur l’ajout de formulaires personnalisés aux objets, voir [Ajouter un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Équipe ou supérieure</td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Licences Adobe Workfront*</p> </td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td role="rowheader"> <p>Licence Adobe Workfront</p> </td> 
+   <td> <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Accédez à l’objet pour lequel vous souhaitez modifier des informations sur le formulaire personnalisé.</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accédez à l’objet pour lequel vous souhaitez modifier des informations sur le formulaire personnalisé.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Autorisations d’objet</p> </td> 
    <td> 
     <ul> 
      <li> <p>Autorisation de contribution ou supérieure sur l’objet dont vous souhaitez modifier le formulaire personnalisé.</p> </li> 
-     <li>Afficher les autorisations sur les champs que vous souhaitez modifier. Pour plus d’informations sur le partage des autorisations pour les champs personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Configuration du partage pour les champs et widgets personnalisés</a>.</li> 
-     <li> <p>Autorisations de modification pour les sections du formulaire qui contiennent les champs à modifier.</p> </li> 
-    </ul> <p>Pour plus d’informations sur la demande d’accès supplémentaire aux objets, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+     <li><p>Autorisations d’affichage des champs que vous souhaitez modifier.</p></li> 
+     <li><p>Autorisations de modification pour les sections du formulaire qui contiennent les champs à modifier.</p></li> 
+    </ul></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Team or higher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront licenses*</p> </td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access to the object for which you want to edit the custom form</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute or higher permissions on the object for which you want to edit the custom form</p> </li> 
+     <li>View permissions on the fields you want to edit. For information about sharing permissions for custom fields, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</li> 
+     <li> <p>Edit permissions for the sections on the form where the fields you want to edit are located</p> </li> 
+    </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Conditions préalables
 
-* L’équipe d’administration Workfront ou l’utilisateur ou utilisatrice Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* L’équipe d’administration Workfront ou l’utilisateur ou utilisatrice Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Vous devez avoir des formulaires personnalisés joints à un objet.
 
   Pour plus d’informations sur l’application de formulaires personnalisés à un objet, voir [Ajouter un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -132,9 +166,7 @@ Vous pouvez recalculer manuellement les champs personnalisés de plusieurs objet
 
 >[!TIP]
 >
->En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lors du recalcul en bloc des champs personnalisés calculés afin de garantir des performances optimales. Un projet peut être trop complexe s’il comporte de multiples dépendances ou affectations ou un grand nombre de champs personnalisés.
->
->Pour recalculer en bloc des expressions personnalisées à partir d’une liste de projets :
+>Vous pouvez également recalculer des expressions personnalisées à partir d’une liste d’objets. Par exemple, pour recalculer des expressions personnalisées en bloc à partir d’une liste de projets :
 >
 >1. Accédez à une liste de projets ou à un rapport et sélectionnez un ou plusieurs projets.
 >1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Recalculer les expressions personnalisées**.
@@ -142,3 +174,7 @@ Vous pouvez recalculer manuellement les champs personnalisés de plusieurs objet
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >Workfront calcule tous les champs personnalisés pour tous les projets sélectionnés.
+>>Toutes les listes de tous les objets ne disposent pas de cette fonctionnalité.
+>
+>En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lors du recalcul en bloc des champs personnalisés calculés afin de garantir des performances optimales. Un projet peut être trop complexe s’il comporte de multiples dépendances ou affectations ou un grand nombre de champs personnalisés.
+

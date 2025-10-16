@@ -6,10 +6,10 @@ description: Par défaut, les utilisateurs et utilisatrices ne peuvent voir que 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 96%
+source-wordcount: '1185'
+ht-degree: 95%
 
 ---
 
@@ -30,43 +30,36 @@ Si vous exécutez un rapport avec les droits d’accès d’un autre utilisateur
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-      <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Afficher pour un rapport (pour afficher le rapport remis)</p><p>Autorisations Gérer pour un rapport (pour exécuter le rapport)</p></td> 
+     <td> <p>Autorisations d’affichage d’un rapport pour afficher le rapport diffusé</p>
+     <p>Gérer les autorisations d’un rapport pour exécuter le rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +79,7 @@ Pour exécuter un rapport avec les droits d’accès d’une autre personne, pro
 1. Cliquez sur **Paramètres du rapport**.
 
 1. Dans le champ **Exécuter ce rapport avec les droits d’accès suivants :**, commencez à saisir le nom de la personne pour laquelle vous souhaitez que le rapport s’affiche, puis sélectionnez-le lorsqu’il apparaît dans la liste.\
-   ![Exécuter avec les droits d’accès de &#x200B;](assets/unshimmed-access-rights-of.png)
+   ![Exécuter avec les droits d’accès de ](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -116,7 +109,7 @@ Pour remettre un rapport avec les droits d’accès d’une autre personne, proc
 1. Cliquez sur **Envoyer le rapport**.
 
 1. Dans le champ **Diffuser ce rapport avec les droits d’accès de :**, commencez à taper le nom de la personne sous lequelle vous souhaitez que le rapport s’affiche lorsqu’il est envoyé par e-mail, puis sélectionnez-le lorsqu’il apparaît dans la liste. La valeur par défaut est le nom de la personne qui crée le rapport.\
-   ![Rapport envoyé avec droits d’accès de &#x200B;](assets/unshimmed-send-report-access-rights-of.png)
+   ![Rapport envoyé avec droits d’accès de ](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

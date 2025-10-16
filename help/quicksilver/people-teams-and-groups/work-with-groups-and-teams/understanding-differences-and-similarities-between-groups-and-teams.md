@@ -2,19 +2,19 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
-title: Groupes et équipes dans Adobe Workfront
-description: Les groupes et les équipes sont des collections d’utilisateurs et d’utilisatrices dans Adobe Workfront.
+title: Groupes ou équipes dans Workfront
+description: Les groupes et les équipes sont des ensembles d’utilisateurs dans Adobe Workfront. Découvrez les différences et les similitudes entre les groupes et les équipes.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 98%
+source-wordcount: '373'
+ht-degree: 80%
 
 ---
 
-# Groupes par rapport aux équipes dans [!DNL Adobe Workfront]
+# Groupes ou équipes dans Workfront
 
 <!-- Audited: 12/2023 -->
 
@@ -32,11 +32,11 @@ Par exemple, vous pouvez avoir un groupe Finances qui contient des utilisateurs 
 
 Pour plus d’informations sur la création et la gestion de groupes, voir [Créer un groupe](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) et [Gérer un groupe](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
-## Utiliser des équipes pour représenter la structure de travail au sein d’un service
+## Utilisation d’équipes pour représenter la structure de travail au sein d’un service
 
-Nous vous recommandons de configurer des équipes pour qu’elles correspondent à la structure de travail quotidien des équipes de votre service.
+Nous vous recommandons de configurer les équipes en fonction de la structure de travail quotidienne de vos équipes départementales.
 
-Par exemple, vous pouvez avoir une équipe de paie, une équipe de comptes payables et une équipe de comptes débiteurs. En règle générale, les personnes membres de chacune de ces équipes travaillent sur des projets, des tâches ou des problèmes similaires pour ces équipes.
+Par exemple, vous pouvez avoir une équipe Paie, une équipe Comptes fournisseurs et une équipe Comptes clients. En règle générale, les personnes membres de chacune de ces équipes travaillent sur des projets, des tâches ou des problèmes similaires pour ces équipes.
 
 Pour plus d’informations sur la création et la gestion des équipes, voir [Création et gestion des équipes](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 

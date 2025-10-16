@@ -6,10 +6,10 @@ description: Les informations affichées dans l’application web  [!DNL Workfro
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 0efbc6051443d8e0ed96512b72d0949b288f7c2d
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 73%
+source-wordcount: '638'
+ht-degree: 72%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 73%
 
 Les informations affichées dans l’application web [!DNL Workfront] sont souvent affichées par défaut dans les sections du panneau de gauche. Chaque section contient des informations différentes sur une zone ou un objet [!DNL Workfront].
 
-Pour plus d’informations sur les zones par défaut de [!DNL Workfront], voir l’article [À propos de la mise en page par d’ [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Pour plus d’informations sur les zones par défaut de [!DNL Workfront], voir l’article [À propos de la mise en page par d’ [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 Outre les sections fournies avec [!DNL Workfront] par défaut, vous pouvez ajouter un tableau de bord sur lequel afficher les informations relatives à votre workflow. Vous ne pouvez pas ajouter de tableau de bord à toutes les zones et tous les objets.
 
@@ -44,34 +44,32 @@ Le tableau suivant répertorie toutes les zones et tous les objets [!DNL Workfro
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>Tous</p> </td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td>
+   <p>Léger ou supérieur</p>
+   <p>Révision ou supérieur</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td>[!UICONTROL Reviewer] ou supérieur</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td>Accès d’affichage au type d’objet</td> 
+   <td>Autorisations d’objet</td> 
+   <td><p>Accès d’affichage au type d’objet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan ou le type de licence dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajouter un tableau de bord dans le panneau de gauche d’un objet ou d’une zone [!DNL Workfront]
 

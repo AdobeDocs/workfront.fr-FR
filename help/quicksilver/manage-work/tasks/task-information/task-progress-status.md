@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Vue d’ensemble du statut de progression de la tâche
+title: Aperçu de l'état d'avancement de la tâche
 description: Adobe Workfront détermine le statut de progression d’une tâche en examinant l’avancement de sa chronologie. Vous pouvez configurer Workfront pour qu’il détermine la condition d’un projet en fonction de la valeur du statut de progression des tâches. Pour plus d’informations sur la configuration du statut du projet, consultez l’article « Vue d’ensemble du statut et du type de statut du projet ».
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 97%

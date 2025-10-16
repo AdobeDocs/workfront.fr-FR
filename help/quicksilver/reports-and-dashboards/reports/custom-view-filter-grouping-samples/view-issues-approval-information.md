@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '"View : Issues with Approval Information" (Afficher : problèmes avec informations d’approbation)'
+title: 'Afficher : Événements contenant des informations d''approbation'
 description: La vue suivante d’un problème montre le processus d’approbation, l'étape, les noms des approbateurs et approbatrices, et le statut du problème avant que l’approbation ne soit accordée. Certains de ces champs ne sont pas accessibles via le constructeur d’interface standard.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4e123844-a0d6-474b-87fb-d30ed391ad07
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 75%
+source-wordcount: '239'
+ht-degree: 66%
 
 ---
 
@@ -26,32 +26,33 @@ La vue suivante d’un problème montre le processus d’approbation, l&#39;éta
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau :<ul><li>Contributeur à la modification d’une vue</li><li>Standard pour modifier un rapport</li></ul></p><p>Ou</p>Actuel :<ul><li>Demander la modification d’un affichage</li><li>Prévoir de modifier un rapport</li></ul></p> </td> 
+   <td> 
+   <p>Contributeur ou demande de modification d’une vue </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, affichages et groupes pour modifier un affichage</p> </td> 
-  </tr>  
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -60,9 +61,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Accédez à une liste des problèmes.
 1. Dans le menu déroulant **Affichage**, sélectionnez **Nouvel affichage**.
 
-1. Dans la zone **Aperçu des colonnes**, supprimez toutes les colonnes sauf une.
-1. Cliquez sur l’en-tête de la colonne restante, puis sur **Passer en mode Texte**, puis **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Edit Text Mode** et remplacez-le par le code suivant :
+1. Dans la zone **Aperçu des colonnes**, éliminez toutes les colonnes à l’exception d’une seule.
+1. Cliquez sur l’en-tête de la colonne restante, puis sur **Passer en mode Texte** et **Modifier le mode Texte**.
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
    ```
    column.0.descriptionkey=name

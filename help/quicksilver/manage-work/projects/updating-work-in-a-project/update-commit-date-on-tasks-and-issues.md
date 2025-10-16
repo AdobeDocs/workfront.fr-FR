@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour manuellement la date d’engagement d’
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 81%
+source-wordcount: '565'
+ht-degree: 80%
 
 ---
 
@@ -30,25 +30,24 @@ Vous pouvez mettre à jour manuellement la date d’engagement d’un objet (tâ
 
 <!--Audited: 01/2024-->
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   Nouveau :
    <ul>
    <li><p>Standard pour les tâches</p> </li>
    <li><p>Contribution ou licence supérieure pour les problèmes</p></li>
    </ul>
-   Actuel :
+   <p>Ou</p>
 <ul>
    <li><p>Travail ou licence supérieure plus pour les tâches</p></li> 
    <li><p>Demande ou niveau supérieur pour les problèmes</p></li>
@@ -69,9 +68,47 @@ Vous pouvez mettre à jour manuellement la date d’engagement d’un objet (tâ
  </tbody> 
 </table>
 
-* Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   New:
+   <ul>
+   <li><p>Standard for tasks</p> </li>
+   <li><p>Contributor or higher for issues</p></li>
+   </ul>
+   Current:
+<ul>
+   <li><p>Work or higher for tasks</p></li> 
+   <li><p>Request or higher for issues</p></li>
+</ul>
+
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the task or issue</p>
+   <p> You must be assigned to the task or issue to update the commit date </p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Conditions préalables
 

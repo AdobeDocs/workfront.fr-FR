@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '643'
 ht-degree: 98%
 
 ---
@@ -23,33 +23,31 @@ Vous pouvez également réactiver les fonctions précédemment désactivées.
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Tous </p> </td> 
+   <td>[!DNL Adobe Workfront] paquet</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td>
-   <p>Nouvelle : [!UICONTROL Standard]</p>
-   <p>Ou</p>
-   <p>Actuelle : [!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] licence</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>Accès administratif aux fonctions</td> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td>Accès administratif aux fonctions</td>
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +70,7 @@ Si vous désactivez une fonction, elle ne s’affiche plus dans les zones suivan
 * La boîte de dialogue [!UICONTROL Ajouter une affectation au panorama Kanban] d’un projet
 * Le champ [!UICONTROL Fonction] d’un plan ou d’une initiative lorsqu’une personne utilise [!DNL Adobe Workfront Scenario Planner]
 
-  Le [!DNL Scenario Planner] n’est disponible que dans la nouvelle expérience d’[!DNL Adobe Workfront] et nécessite une licence supplémentaire. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], voir [Vue d’ensemble du  [!DNL Scenario Planner] &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
+  Le [!DNL Scenario Planner] n’est disponible que dans la nouvelle expérience d’[!DNL Adobe Workfront] et nécessite une licence supplémentaire. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], voir [Vue d’ensemble du  [!DNL Scenario Planner] ](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >
@@ -118,4 +116,4 @@ Nous vous recommandons d’effectuer les opérations suivantes avant de désacti
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
-   La fonction est désactivée et ne peut plus être attribuée au travail, associée aux modèles de disposition, etc. Pour plus d’informations sur toutes les utilisations des fonctions dans [!DNL Workfront], voir [Vue d’ensemble des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+   La fonction est désactivée et ne peut plus être attribuée au travail, associée aux modèles de mise en page, etc. Pour plus d’informations sur toutes les utilisations des fonctions dans [!DNL Workfront], voir [Vue d’ensemble des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).

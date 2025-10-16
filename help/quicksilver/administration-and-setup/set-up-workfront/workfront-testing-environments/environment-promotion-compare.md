@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 15%
+source-wordcount: '460'
+ht-degree: 12%
 
 ---
 
@@ -28,30 +28,30 @@ Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td>Plan <strong>[!DNL Adobe Workfront]</strong>
+   <td>Package Adobe Workfront
    </td>
-   <td> Prime ou Ultimate (nouveaux plans uniquement)
+   <td> <p>Prime ou Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td>Licences <strong>[!DNL Adobe Workfront]</strong>
+   <td><strong>Licences Workfront</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Configurations des niveaux d’accès
    </td>
-   <td>Vous devez être administrateur ou administratrice [!DNL Workfront].
+   <td><p>Vous devez être un administrateur ou une administratrice Workfront.</p>
    </td>
   </tr>
 </table>
 
-Pour plus d’informations sur ce tableau, voir la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
-Votre organisation doit se trouver sur la plateforme d’entreprise Adobe pour comparer des objets entre les environnements.
+Votre organisation doit se trouver sur la plateforme Adobe Business pour comparer des objets entre les environnements.
 
 ## Générer une comparaison d’objets
 
@@ -59,7 +59,7 @@ Votre organisation doit se trouver sur la plateforme d’entreprise Adobe pour c
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **Système** dans le volet de navigation de gauche, puis sélectionnez **Promotion de l’environnement**.
 1. Cliquez sur **Comparer les environnements** dans le coin supérieur droit de l’écran.
-1. Dans le champ Environnement **Source**, sélectionnez l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets **&#x200B;**.
+1. Dans le champ Environnement **Source**, sélectionnez l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets ****.
 1. Dans le champ **Environnement cible**, sélectionnez l’environnement dans lequel vous souhaitez installer le package. Il s’agit de l’environnement dans lequel vous copiez des objets **vers**.
 1. Dans la zone **Objets à comparer**, sélectionnez les types d’objets à comparer entre les environnements.
 1. Cliquez sur **Générer la comparaison** dans le coin supérieur droit de l’écran.

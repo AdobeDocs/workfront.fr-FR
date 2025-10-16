@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: c2ce6776ceebe3c1d3915e3791fc84eb0245ba4d
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '186'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,35 @@ Pour savoir si votre entreprise se trouve sur Adobe Unified Shell, examinez l�
 |---|---|
 | `<yourdomain>.my.workfront.com` | `<yourdomain>.my.workfront.com` |
 | `experience.adobe.com` | `<yourdomain>.my.workfront.adobe.com` |
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur Workfront</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 Pour localiser votre domaine :
 

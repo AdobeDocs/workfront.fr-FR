@@ -1,20 +1,24 @@
 ---
 content-type: overview
 navigation-topic: gantt-chart
-title: Vue d’ensemble du graphique de Gantt
-description: Les articles suivants fournissent des informations sur le graphique de [!UICONTROL Gantt].
+title: 'Graphique Gantt : index des articles'
+description: Les graphiques de Gantt d’Adobe Workfront fournissent une représentation visuelle de la chronologie d’une liste de tâches ou de projets. Les articles suivants fournissent des informations sur le graphique de [!UICONTROL Gantt].
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: b4dc991e-d89c-4167-ac9c-54bda23d08d8
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 100%
+source-wordcount: '104'
+ht-degree: 73%
 
 ---
 
-# Vue d’ensemble du [!UICONTROL graphique de Gantt]
+# [!UICONTROL Graphique Gantt] : index des articles
+
+<!--Audited: 08/2025-->
+
+Les graphiques de Gantt dans Adobe Workfront fournissent une représentation visuelle de la chronologie d’une liste de tâches ou de projets.
 
 Cette section contient les articles suivants :
 

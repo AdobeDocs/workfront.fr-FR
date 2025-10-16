@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
+source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 12%
+source-wordcount: '690'
+ht-degree: 7%
 
 ---
 
@@ -31,77 +31,45 @@ Cet article décrit comment un responsable d’espace de travail peut ajouter un
 
 Pour plus d’informations sur la création d’un formulaire de demande dans Workfront Planning, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Produits</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
+   <td> 
+<ul><li><p>Tout package Workfront</p></li>
+Et
+<li><p>N’importe quel package Planning</p></li></ul>
+Ou
+<ul><li><p>N’importe quel package de workflow</p></li>
+Et
+<li><p>N’importe quel package Planning</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
+   <td>   <p>Gérez les autorisations d’un espace de travail et d’un type d’enregistrement</a> </p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
-   <td>
-<p>L’un des plans Workfront suivants :</p>
-<ul><li>Sélectionner</li>
-<li>Principal</li>
-<li>Final</li></ul>
-<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td>
-   <td>
-<p>Tous </p>  
-<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </td>
-
-<tr>
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
-   <td>
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p>
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
-   </td>
-  </tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
-   <td>
-   <p>Standard</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Autorisations d’objet</p></td>
-   <td>
-   <ul>
-   <li><p>Gestion des autorisations relatives à un espace de travail et à un type d’enregistrement</p></li>
-    <li><p>L’administration système peut gérer les espaces de travail qu’elle n’a pas créés. </p></li>
-    </ul>
-   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning</a>. 
-  </td>
-  </tr>
-
-</tbody>
+</tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -156,4 +124,4 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
    >   L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
 
 
-   Pour plus d’informations sur l’approbation des demandes, voir [&#x200B; Approuver une demande &#x200B;](/help/quicksilver/planning/requests/approve-request.md).
+   Pour plus d’informations sur l’approbation des demandes, voir [ Approuver une demande ](/help/quicksilver/planning/requests/approve-request.md).

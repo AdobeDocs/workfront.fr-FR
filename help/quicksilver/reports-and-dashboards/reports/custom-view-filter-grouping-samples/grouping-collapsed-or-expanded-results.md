@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Regroupement : indique si les résultats d’un groupement doivent être réduits ou développés en mode Texte"
-description: '« Regroupement : indiquer si les résultats d’un regroupement doivent être réduits ou développés en mode texte. »'
+title: 'Regroupement : indiquez si les résultats d’un regroupement doivent être réduits ou développés à l’aide du mode Texte'
+description: 'Regroupement : indiquer si les résultats d’un regroupement doivent être réduits ou développés en mode texte'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 85%
+source-wordcount: '329'
+ht-degree: 83%
 
 ---
 
@@ -38,28 +38,21 @@ Vous pouvez également indiquer si un regroupement doit s’afficher développé
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
-   <li><p>Standard pour modifier un rapport</p></li> </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Demande de modification d’un filtre </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
+   <p>Contributeur ou demande de modification d’un filtre </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -72,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,7 +74,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Accédez à une liste d’objets.
 1. Dans le menu déroulant **Regroupement**, sélectionnez **Nouveau regroupement**.
 
-1. Ajoutez un groupement, puis cliquez sur **Passer en mode Texte**.
+1. Ajoutez un regroupement, puis cliquez sur **Basculer en mode Texte**.
 
    Ou
 
@@ -94,4 +87,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    `group.0.iscollapsed=false`
 
 1. Cliquez sur **Terminé**, puis sur **Enregistrer le regroupement**.
-1. (Facultatif) Mettez à jour le nom du groupement, puis cliquez sur **Enregistrer le groupement**.
+1. (facultatif) Mettez à jour le nom du regroupement, puis cliquez sur **Enregistrer le regroupement**.

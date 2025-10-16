@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 100%
+source-wordcount: '1202'
+ht-degree: 99%
 
 ---
 
@@ -103,7 +103,7 @@ Vous pouvez désormais accéder plus facilement à votre liste de favoris imméd
 
 L’interface reconçue correspond à l’expérience de création d’un projet à partir d’un modèle que nous avons mis à jour récemment.
 
-Pour plus d’informations, voir [Convertir un problème en projet dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Pour plus d’informations, voir [Convertir un événement en projet](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Convertir des problèmes en projets à l’aide d’un modèle à partir de listes, de rapports et de tableaux de bord
 

@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: Suppression d’utilisateurs des groupes de ressources
+title: Supprimer des utilisateurs des pools de ressources
 description: Même si un groupe de ressources peut contenir un nombre illimité de personnes, la liste des personnes n’affiche que les 2 000 premières personnes, classées par ordre alphabétique.
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 85%
+source-wordcount: '289'
+ht-degree: 83%
 
 ---
 
@@ -25,32 +25,27 @@ Pour plus d’informations sur les groupes de ressources, voir [Vue d’ensemble
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Actuel : Pro ou supérieur</p> </td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Actuel : formule</p></td>
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès à la gestion des ressources qui inclut l’accès à Gérer les groupes de ressources</p> <p>Accès en affichage de niveau supérieur aux utilisateurs et utilisatrices</p></td> 
-  </tr> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès à la gestion des ressources qui inclut l’accès à la gestion des pools de ressources</p> <p>Accès en affichage de niveau supérieur aux utilisateurs et utilisatrices</p></td> 
+  </tr>
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

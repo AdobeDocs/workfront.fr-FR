@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Affichage et gestion des commentaires sur une feuille de temps
 description: Vous pouvez faire des commentaires sur les feuilles de temps, sur les tâches incluses dans les feuilles de temps, ainsi que sur chaque entrée d’heure que vous consignez.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 84%
+source-wordcount: '889'
+ht-degree: 82%
 
 ---
 
@@ -29,37 +29,35 @@ Vous pouvez afficher les mises à jour à partir d&#39;une feuille de temps ou d
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Léger ou supérieur </p>
-   <p>Actuel : révision ou supérieur</p> </td> 
+   <td>Licence Adobe Workfront</td> 
+   <td> <p>Léger ou supérieur </p>
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td>Configuration du niveau d’accès</td> 
    <td> <p>Afficher ou un accès supérieur aux tâches et aux événements</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage ou autorisations supérieures pour les tâches et les problèmes</p> </td> 
+   <td>Autorisations d’objet</td> 
+   <td> <p>Autorisations Affichage ou supérieures pour les tâches et problèmes</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Afficher les saisies d’heures sur une feuille de temps {#view-hour-entry-comments-on-a-timesheet}
+## Afficher les commentaires d’entrée d’heure sur une feuille de temps {#view-hour-entry-comments-on-a-timesheet}
 
 Vous pouvez configurer les commentaires sur les entrées d’heure individuelles à afficher dans la feuille de temps. L’option d’affichage et de masquage des commentaires n’a aucune incidence sur les commentaires laissés sur la feuille de temps globale ou sur les commentaires effectués sur des éléments individuels. Pour plus d’informations, voir [Ajouter des commentaires à une feuille de temps](#make-comments-on-a-timesheet).
 

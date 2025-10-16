@@ -6,10 +6,10 @@ description: Connectez votre travail à votre contenu dans Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 97%
+source-wordcount: '651'
+ht-degree: 96%
 
 ---
 
@@ -29,37 +29,37 @@ Connectez votre travail à votre contenu dans Experience Manager Assets Essen
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] plan
+   <td><strong>Package Adobe Workfront</strong>
    </td>
    <td>Tous
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] licence
+   <td><strong>Licences Adobe Workfront</strong>
    </td>
-   <td><p>Actuelle : [!UICONTROL Plan]</p>
-   <p>Nouvelle : [!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] licence
-   </td>
-   <td>[!UICONTROL Standard]
+   <td>
+   <p>Standard</p>
+   <p>Plan</p>
    </td>
   </tr>
   <tr>
-   <td>Produit
+   <td><strong>Produits supplémentaires</strong>
    </td>
-   <td>Vous devez disposer d’Experience Manager Assets Essentials, et faire l’objet d’un ajout en tant qu’utilisateur ou utilisatrice du produit dans l’Admin Console.
+   <td>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials et faire l’objet d’un ajout au produit en tant qu’utilisateur ou utilisatrice.
    </td>
   </tr>
   <tr>
-   <td>Configurations des niveaux d’accès
+   <td><strong>Autorisations pour Experience Manager</strong>
    </td>
-   <td>Vous devez être administrateur ou administratrice [!DNL Workfront].
+   <td>Vous devez disposer d’un accès en écriture au dossier de destination dans l’intégration d’Experience Manager.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Configurations du niveau d’accès</strong>
+   </td>
+   <td>Pour configurer une intégration d’Experience Manager, vous devez être un administrateur ou une administratrice de Workfront. Une fois la configuration effectuée, les utilisateurs et utilisatrices disposant d’une licence de plan peuvent configurer des dossiers liés sur des projets individuels.
    </td>
   </tr>
 </table>
@@ -111,7 +111,7 @@ Mappez les données de l’objet Workfront aux champs de média de la ressource 
 
 Avant de commencer, vous devez
 
-* Configurez un schéma de métadonnées dans Experience Manager Assets Essentials comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+* Configurez un schéma de métadonnées dans Experience Manager Assets Essentials comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 * (Facultatif) Configurer les champs de formulaire personnalisés dans Workfront. Workfront dispose de nombreux champs personnalisés intégrés que vous pouvez utiliser. Vous pouvez également créer vos propres champs personnalisés. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Champs Workfront et Experience Manager Assets pris en charge
@@ -126,7 +126,7 @@ Pour mapper plusieurs champs de texte d’une seule ligne à des mots-clés, sai
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=fr).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 

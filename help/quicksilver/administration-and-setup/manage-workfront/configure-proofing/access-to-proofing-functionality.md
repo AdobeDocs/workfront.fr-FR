@@ -3,34 +3,30 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;setup;user-management
 navigation-topic: configure-proofing-functionality
-title: Accès aux fonctionnalités de vérification dans Workfront
+title: Accès à la fonctionnalité de relecture dans Workfront
 description: La fonctionnalité de relecture disponible pour vos utilisateurs et utilisatrices dépend de la formule Workfront que votre organisation a achetée.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 882c3e58e0e47c549be70dff3f5ac410b34a090f
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 98%
+source-wordcount: '397'
+ht-degree: 87%
 
 ---
 
 # Accéder à la fonctionnalité de relecture dans Workfront
 
-La fonctionnalité de relecture disponible pour vos utilisateurs et utilisatrices dépend de la formule Workfront que votre organisation a achetée.
+La relecture est automatiquement incluse pour toutes les licences dans le Workfront. Les licences déterminent ce que les utilisateurs peuvent faire.
 
-## Relecture dans Workfront
+<!--Workfront instances using enterprise storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
 
-Il existe actuellement trois options de formule pour la relecture dans Workfront :
+Les packages Workfront hérités de 2017 incluent la relecture automatique pour les licences de travail et de planification si vous disposez de plans Workfront professionnels, professionnels ou d’entreprise. Ces plans sont progressivement éliminés.
 
-* **Nouvelles formules Workfront** : la relecture est automatiquement incluse pour toutes les licences dans les nouvelles formules Workfront.
-* **Formules Workfront Pro+ actuels** : la relecture est automatiquement incluse pour les licences Travail et Plan si vous avez une formule pro, entreprise ou grands comptes Workfront.
-* **Formules Premium Workfront héritées** : cette option concerne les formules Workfront héritées – Select, Enterprise, Premium. La relecture n’est pas automatiquement incluse dans les licences de cette formule. Vous devez accorder l’accès à la relecture à des utilisateurs et utilisatrices spécifiques dans leur profil d’utilisateur ou d’utilisatrice.
+Si vous êtes un administrateur ou une administratrice Workfront, vous pouvez vérifier et voir sur quelle formule votre instance se trouve en allant dans Configuration > Système > Licences.
 
-  Si vous êtes un administrateur ou une administratrice Workfront, vous pouvez vérifier et voir sur quelle formule votre instance se trouve en allant dans Configuration > Système > Licences.
-
-### Capacités de relecture dans Workfront
+## Capacités de relecture dans Workfront
 
 Pour plus d’informations sur l’octroi et la révocation de l’accès d’un utilisateur ou d’une utilisatrice à la création et à l’affichage d’épreuves dans Workfront, voir [Configurer l’accès d’un utilisateur ou d’une utilisatrice à la relecture](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 

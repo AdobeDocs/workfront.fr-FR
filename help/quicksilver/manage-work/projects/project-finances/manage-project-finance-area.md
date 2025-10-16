@@ -6,9 +6,9 @@ description: Vous pouvez afficher ou modifier les informations financières d’
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1274'
 ht-degree: 94%
 
 ---
@@ -25,22 +25,19 @@ Vous pouvez afficher ou modifier les données financières d’un projet en acc�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td>
    <td>
-   <p>Nouveau : Light ou supérieur</p>
-   <p>ou</p>
-   <p>Actuel : Révision ou supérieur</p></td> 
+   <p>Léger ou supérieur</p>
+   <p>Révision ou supérieur</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -53,7 +50,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -130,7 +127,7 @@ Tenez compte des points suivants lors de l’affichage ou de la modification de 
      </tr> 
      <tr> 
       <td role="rowheader">Revenus facturés</td> 
-      <td> <p>Revenus facturés aux clients ou à d’autres parties capturées dans les enregistrements de facturation. Pour plus d’informations sur les enregistrements de facturation, consultez l’article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Créer des enregistrements de facturation</a>. </p> </td> 
+      <td> <p>Revenus facturés aux clients ou à d’autres parties capturées dans les enregistrements de facturation. Pour plus d’informations sur les enregistrements de facturation, voir l’article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Créer des enregistrements de facturation</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
@@ -169,7 +166,7 @@ Pour modifier les informations sur le sous-onglet Finances du projet :
 
    >[!NOTE]
    >
-   >Selon la manière dont votre administrateur ou administratrice Workfront configure notre modèle de disposition, les champs de la section Détails du projet peuvent être différents dans votre environnement. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la manière dont votre administrateur ou administratrice Workfront configure notre modèle de mise en page, les champs de la section Détails du projet peuvent être différents dans votre environnement. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 

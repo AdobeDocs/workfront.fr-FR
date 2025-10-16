@@ -6,10 +6,10 @@ description: Après l’installation d’ [!DNL Adobe Workfront]  pour Salesforc
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 89%
+source-wordcount: '762'
+ht-degree: 87%
 
 ---
 
@@ -23,9 +23,7 @@ ht-degree: 89%
 >
 >Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
-
-Une formule [!UICONTROL Pro] [!DNL Workfront] est nécessaire pour utiliser cette fonction. Pour plus d’informations sur les différents plans disponibles, voir [[!DNL Workfront] Plans](https://business.adobe.com/fr/products/workfront/pricing.html).
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Après l’installation d’[!DNL Adobe Workfront] pour [!DNL Salesforce] en tant qu’administrateur ou administratrice de [!DNL Workfront], vous pouvez le mettre à la disposition de vos utilisateurs et utilisatrices en l’ajoutant dans une nouvelle section de leurs dispositions de page [!UICONTROL Opportunité] et [!UICONTROL Compte] dans [!UICONTROL Salesforce].
 
@@ -33,26 +31,31 @@ Pour plus d’informations sur l’installation de [!DNL Workfront for Salesforc
 
 Afin que les utilisateurs et utilisatrices puissent disposer à la fois des frameworks [!DNL Classic] et [!DNL Lightning Experience] de [!DNL Workfront], vous devez ajouter les pages [!DNL WorkfrontOpportunities] et [!UICONTROL Visualforce] [!DNL WorkfrontAccounts] aux dispositions des pages [!UICONTROL Opportunité] et [!UICONTROL Comptes], respectivement.
 
+
+
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des accès suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 

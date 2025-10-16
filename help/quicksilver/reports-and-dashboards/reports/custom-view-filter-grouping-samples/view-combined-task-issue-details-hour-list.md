@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Afficher : détails sur la tâche combinée et le problème dans une liste horaire"
+title: 'Afficher : détails de tâches et d''événements combinés dans une liste d''heures'
 description: Cette vue Heure combine les colonnes Nom de la tâche et du problème, ainsi que le nombre d’heures prévues de la tâche et du problème à l’aide de la balise sharecol. Une entrée d’heure ne pouvant appartenir qu’à une tâche ou à un problème, les deux objets ne peuvent pas apparaître simultanément dans la même colonne. Chaque ligne de la vue est renseignée avec les informations d’une tâche ou d’un problème.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 67%
+source-wordcount: '326'
+ht-degree: 65%
 
 ---
 
@@ -18,36 +18,29 @@ ht-degree: 67%
 
 <!--Audited:11/2024-->
 
-Cette vue d’heure combine les colonnes Tâche et Nom du problème , ainsi que les heures planifiées de la tâche et du problème à l’aide de la balise `sharecol` . Une entrée d’heure ne pouvant appartenir qu’à une tâche ou à un problème, les deux objets ne peuvent pas apparaître simultanément dans la même colonne. Chaque ligne de la vue est renseignée avec les informations d’une tâche ou d’un problème.
+Cet affichage des heures combine les colonnes Nom de la tâche et de l&#39;événement, ainsi que les heures planifiées de la tâche et de l&#39;événement à l&#39;aide de la balise `sharecol`. Une entrée d’heure ne pouvant appartenir qu’à une tâche ou à un problème, les deux objets ne peuvent pas apparaître simultanément dans la même colonne. Chaque ligne de la vue est renseignée avec les informations d’une tâche ou d’un problème.
 
-Pour en savoir plus sur la balise `sharecol`, voir [Affichage : fusionner les informations de plusieurs colonnes dans une seule colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Pour en savoir plus sur la balise `sharecol`, voir [Affichage : fusionner les informations de plusieurs colonnes dans une colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 ![custom_view_hours_with_task_and_issue_information.png](assets/custom-view-hours-with-350x48.png)
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
-   <li><p>Standard pour modifier un rapport</p></li> </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Demande de modification d’un filtre </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
+   <p>Contributeur ou demande de modification d’un filtre </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -60,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Dans le menu déroulant de la **Vue**, cliquez sur **Nouvelle vue**.
 1. Dans la zone **Prévisualisation de la colonne**, éliminez toutes les colonnes sauf une.
 1. Cliquez sur l’en-tête de la colonne restante, puis sur **Passer en mode Texte** > **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Edit Text Mode** et remplacez-le par le code suivant :
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
    ```
    column.1.querysort=project:name

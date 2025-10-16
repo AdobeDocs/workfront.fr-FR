@@ -6,10 +6,10 @@ description: Lorsque vous fournissez des commentaires de mise à jour sur un obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 99%
+source-wordcount: '955'
+ht-degree: 93%
 
 ---
 
@@ -57,35 +57,65 @@ Plutôt que d’inclure ces utilisateurs et utilisatrices dans l’objet en les 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Nouveau : licence de contribution ou supérieure pour les problèmes et les documents ; licence légère (Light) ou supérieure pour tous les autres objets</p>
-   <p>Actuel : licence de demande ou supérieure pour les problèmes et les documents ; licence de révision ou supérieure pour tous les autres objets</p> </td> 
-  </tr> 
-  <tr> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td> <p>Pour les événements et les documents :</p>
+
+<ul><li><p>Contributeur ou version ultérieure</p></li>
+   <li><p>Requête ou supérieure</p></li></ul>
+
+<p>Pour tous les autres objets :</p>
+   <ul><li><p>Léger ou supérieur</p></li>
+   <li><p>Révision ou supérieur</p></li></ul>
+
+</td>  
+  </tr>
    <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
-   <td> <p>Accès en affichage ou supérieur aux objets dans lesquels vous souhaitez publier la réponse</p> </td> 
+   <td> <p>Accès en affichage ou supérieur aux objets où vous souhaitez baliser les utilisateurs</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisation d’objet</strong></td> 
-   <td> <p>Autorisations d’affichage ou supérieures sur les objets dans lesquels vous souhaitez publier la réponse</p> </td> 
+   <td> <p>Autorisations d’affichage ou supérieures aux objets dans lesquels vous souhaitez baliser les utilisateurs</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises pour la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to post the reply</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Baliser d’autres personnes sur les mises à jour
 
@@ -118,7 +148,9 @@ Vous pouvez également supprimer des utilisateurs et utilisatrices tagués par e
 
    ![Baliser un utilisateur ou une utilisatrice](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (Facultatif) Pour rendre la mise à jour privée, activez **Réservé à mon entreprise** dans le coin inférieur droit de la zone de mise à jour. La mise à jour est ainsi visible uniquement par les personnes de votre entreprise. L’option **Réservé à mon entreprise** est disponible uniquement lorsqu’une entreprise est spécifiée dans votre profil Workfront.
+1. (Facultatif) Pour rendre la mise à jour privée, activez **Réservé à mon entreprise** dans le coin inférieur droit de la zone de mise à jour. Cela rend la mise à jour visible uniquement pour les utilisateurs de votre entreprise.
+
+   L’option **Réservé à mon entreprise** est disponible uniquement lorsqu’une entreprise est spécifiée dans votre profil Workfront.
 
    >[!NOTE]
    >

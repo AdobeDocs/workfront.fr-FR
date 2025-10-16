@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour le statut d’un problème pour informer
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 99%
 
 ---
 
@@ -21,23 +21,20 @@ Vous pouvez mettre à jour le statut d’un problème pour informer les autres p
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle : contributeur ou supérieure</p>
-   Ou
-   <p>Actuelle : demande ou supérieure</p>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p>
    </td> 
   </tr> 
   <tr> 
@@ -55,13 +52,41 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Contributor or higher</p>
+   Or
+   <p>Current: Request or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Statuts des problèmes
 
 Les statuts par défaut des problèmes dans Workfront sont les suivants :
 
 * Nouveau
 * En cours
-* Réaction en attente
+* En attente de feedback
 * Suspendu
 * Impossible de résoudre
 * Rouvert

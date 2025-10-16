@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Appliquer une carte de performance à un projet et générer un score d’alignement
 description: Tirez parti des cartes de performance pour mesurer l’alignement d’un projet avec les critères précédemment définis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 94%
+source-wordcount: '1211'
+ht-degree: 95%
 
 ---
 
@@ -29,18 +29,15 @@ Pour plus d’informations sur les cartes de performance et sur leur mode de cr�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>
-   <p>Current : Prime ou version ultérieure</p>
-   <p>ou</p>
-   <p>Hérité : Professionnel ou supérieur</p> </td>
+   <p>Prime ou version ultérieure</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Actuel : Standard</p>
-   <p>ou</p>
-   <p>Hérité : plan</p></td>  
+   <p>Standard</p>
+   <p>Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -53,7 +50,7 @@ Pour plus d’informations sur les cartes de performance et sur leur mode de cr�
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

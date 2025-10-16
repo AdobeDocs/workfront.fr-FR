@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Vue d’ensemble de la date d’engagement
+title: Aperçu de la date d'engagement
 description: La date d’engagement correspond à la date à laquelle un utilisateur affecté à une tâche ou à un événement s’engage à terminer la tâche ou l’événement. Cette date est différente de la date d’achèvement prévue, car il s’agit d’une estimation plus réaliste de la date d’achèvement fournie par l’utilisateur ou l’utilisatrice directement en charge du travail.
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 38%

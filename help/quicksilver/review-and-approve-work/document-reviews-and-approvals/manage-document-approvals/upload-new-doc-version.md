@@ -6,10 +6,10 @@ description: Vous pouvez charger une nouvelle version du document et demander l�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 28%
+source-wordcount: '455'
+ht-degree: 19%
 
 ---
 
@@ -38,17 +38,19 @@ Si la dernière version du document est supprimée, les versions précédentes r
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licences Adobe Workfront*</td> 
+   <td role="rowheader">Licences Adobe Workfront</td> 
    <td> <p>Requête ou supérieure</p>
-   <p>Contributeur ou version ultérieure</p> </td> 
+   <p>Contributeur ou version ultérieure</p>
+   <p>Si vous utilisez l'intégration Frame.io, vous devez disposer d'une licence Standard pour créer des workflows d'approbation.</p>
+    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Accès en modification aux documents</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Accès Modifier à l’objet associé au document</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, consultez la section <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
+   <td> <p>Accès Modifier à l’objet associé au document</p> </td> 
   </tr> 
  </tbody> 
 </table>

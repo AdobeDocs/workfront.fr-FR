@@ -6,10 +6,10 @@ description: Votre administrateur ou administratrice Adobe Workfront accorde au
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 57%
+source-wordcount: '1237'
+ht-degree: 56%
 
 ---
 
@@ -24,23 +24,20 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Pour partager des objets, vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard</p> 
-   Ou
-   <p>Actuellement : Travail ou licence supérieure</p>
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> 
    </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +85,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
    * Spécifier les autorisations sur l’un des objets parents du problème : projet, programme ou portfolio. Les problèmes héritent des autorisations de leurs objets parents. Pour plus d’informations sur l’affichage des autorisations héritées sur les objets, voir [Afficher les autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Ajouter des entités au partage de projet sur un modèle utilisé pour créer le projet sur lequel porte le problème. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partager un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Spécifier les autorisations sur tous les problèmes d’un projet lorsque vous modifiez le projet. Pour plus d’informations sur la gestion de l’accès aux problèmes ou aux demandes sur le projet en fonction des autorisations d’un utilisateur ou d’une utilisatrice sur le projet, voir la section [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Spécifier les autorisations sur tous les problèmes d’un projet lorsque vous modifiez le projet. Pour plus d’informations sur la gestion de l’accès aux problèmes ou aux demandes sur le projet en fonction des autorisations d’un utilisateur ou d’une utilisatrice sur le projet, voir la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >

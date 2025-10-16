@@ -1,21 +1,21 @@
 ---
 content-type: overview
 navigation-topic: use-the-gantt-chart
-title: Commencer avec le graphique de [!UICONTROL Gantt]
+title: Prise en main du graphique [!UICONTROL Gantt]
 description: Les graphiques de Gantt dans Adobe Workfront fournissent une représentation visuelle de la chronologie d’une liste de tâches ou de projets.
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
 # Commencer avec le [!UICONTROL graphique de Gantt]
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 08/2025 -->
 
 Les graphiques de Gantt dans Adobe Workfront fournissent une représentation visuelle de la chronologie d’une liste de tâches ou de projets.
 

@@ -6,10 +6,10 @@ description: Vous pouvez utiliser la mise en forme conditionnelle pour comparer 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 89%
+source-wordcount: '468'
+ht-degree: 83%
 
 ---
 
@@ -21,29 +21,21 @@ Vous pouvez utiliser la mise en forme conditionnelle pour comparer deux champs d
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+     <p>Standard</p>
+     <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +49,7 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,7 +89,7 @@ Pour comparer la date de début prévue et la date de début effective d’une t
 
    >[!NOTE]
    >
-   >Si vous comparez un champ natif de Workfront, utilisez la syntaxe camel case pour le nom du champ. Si vous comparez un champ personnalisé, utilisez **DE:Actual Name of the Field** pour le champ de nom que vous comparez au premier champ.\
+   >Si vous comparez un champ natif de Workfront, utilisez la syntaxe camel case pour le nom du champ. Si vous comparez un champ personnalisé, utilisez **DE:Actual Nom du champ** pour le champ de nom que vous comparez au premier champ.\
    >Par exemple, si vous comparez le champ **Date de début effective** avec un champ personnalisé intitulé **Date de diffusion**, ajoutez la déclaration suivante dans votre code en mode texte :
    >
    >`styledef.case.0.comparison.rightmethod=DE:Delivery Date`

@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 29%
+source-wordcount: '247'
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,6 @@ Vous pouvez créer de nouvelles tâches et de nouveaux événements directement 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +29,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
-   <p>Actuel : Demander ou supérieur pour les demandes ; Vérifier ou supérieur pour les problèmes ; Travailler ou supérieur pour les tâches</p>
-   <p>Nouveau : Contributeur ou version ultérieure pour les demandes ; Léger ou version ultérieure pour les problèmes et documents : Tâches standard ou version ultérieure.</p> 
+   <p>Demande ou supérieure pour les demandes ; Vérification ou supérieure pour les événements ; Travail ou supérieur pour les tâches</p>
+   <p>Contributeur ou version ultérieure pour les demandes ; Léger ou version ultérieure pour les événements et les documents : Tâches standard ou version ultérieure</p> 
    </td> 
   </tr> 
   <tr> 
@@ -68,7 +67,7 @@ Pour créer une tâche ou un événement dans un projet :
 {{step1-to-priorities}}
 
 1. Cliquez sur **Créer** dans le coin supérieur droit.
-   ![Créer (production) &#x200B;](assets/create-new--.png)
+   ![Créer (production) ](assets/create-new--.png)
 1. Indiquez les informations suivantes :
 
    | champ | Instructions |

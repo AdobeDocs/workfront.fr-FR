@@ -2,15 +2,15 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Vue d’ensemble des contraintes de tâches : « Il faut commencer le »'
+title: 'Vue D''Ensemble De La Contrainte De Tâche : Doit Commencer Le'
 description: Utilisez la contrainte de tâche Il faut commencer le (MSO) pour planifier une tâche de manière à ce qu’elle commence exactement à une date spécifique.
 author: Alina
 feature: Work Management
 exl-id: 09062d46-2b80-4758-946e-d6dec0f7a7c0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

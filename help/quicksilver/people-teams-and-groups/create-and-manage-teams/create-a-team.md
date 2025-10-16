@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Créer une équipe
+title: Création d’une équipe
 description: Lorsque vous créez une équipe, vous en devenez la personne propriétaire par défaut.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 99%
+source-wordcount: '471'
+ht-degree: 98%
 
 ---
 
@@ -25,22 +25,19 @@ Pour plus d’informations sur la manière dont l’équipe d’administration [
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
  </tbody> 
 </table>

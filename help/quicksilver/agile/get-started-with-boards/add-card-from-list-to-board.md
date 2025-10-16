@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Ajout de tâches ou de problèmes existants à un panorama Workfront
+title: Ajouter des tâches ou des événements existants à un tableau Workfront
 description: Vous pouvez ajouter une tâche ou un problème à un panorama dans Adobe Workfront à partir d’une vue de liste ou de rapport.
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 95%
+source-wordcount: '585'
+ht-degree: 93%
 
 ---
 
-# Ajout de tâches ou de problèmes existants à un panorama [!DNL Workfront]
+# Ajouter des tâches ou des événements existants à un tableau de [!DNL Workfront]
 
 >[!IMPORTANT]
 >
@@ -25,27 +25,24 @@ Vous pouvez ajouter une tâche ou un problème à un panorama ou à un flux de t
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto">
  <col>
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td role="rowheader">Package Adobe Workfront</td>
    <td> <p>Tous</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td>
+   <td role="rowheader">Licence Adobe Workfront</td>
    <td>
-   <p>Nouvelle : [!UICONTROL Standard]</p> 
-   <p>ou</p>
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p>
+   <p>Standard</p> 
+   <p>Travail ou supérieur</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader">Autorisations d’objet</td>
-   <td>Autorisations [!UICONTROL View] ou supérieures pour la tâche ou le problème </td>
+   <td>Autorisations d’affichage ou supérieures pour la tâche ou l’événement </td>
   </tr>
  </tbody>
 </table>

@@ -6,10 +6,10 @@ description: Vous pouvez créer un regroupement personnalisé à partir de zéro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 92%
+source-wordcount: '446'
+ht-degree: 91%
 
 ---
 
@@ -25,43 +25,37 @@ Vous pouvez créer un regroupement personnalisé à partir de zéro ou personnal
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licence Adobe Workfront</strong></td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Contributeur ou version ultérieure</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Requête ou supérieure</p></li>
-         </ul>
+    <p>Contributeur</p>
+    <p>Demande</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Accès Modifier aux Rapports, Tableaux de bord et Calendriers pour créer un regroupement dans un rapport</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour créer un regroupement dans un rapport</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
+   <td role="rowheader">Autorisations d’objet</td> 
    <td><p>Autorisations de gestion relatives à un rapport pour modifier un regroupement dans un rapport</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 1. Cliquez sur **+ Nouveau regroupement**.
 Le créateur d’interface pour la création du regroupement s’ouvre.
 
-1. Dans la zone **Aperçu du groupement**, cliquez sur **Ajouter un groupement** pour définir comment vous souhaitez que les informations du rapport soient organisées. Vous trouverez ci-dessous un aperçu de ce à quoi ressemble un regroupement dans le rapport.
+1. Dans la zone **Aperçu du regroupement**, cliquez sur **Ajouter un regroupement** pour définir l&#39;organisation des informations du rapport. Vous trouverez ci-dessous un aperçu de ce à quoi ressemble un regroupement dans le rapport.
 
 1. Commencez à saisir le nom du champ qui représente la manière dont vous souhaitez organiser les informations dans le rapport, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
 1. (Facultatif et le cas échéant) Lors de la création d’un regroupement dans une liste mise à jour, sélectionnez **Réduire ce regroupement par défaut** si vous souhaitez que les résultats du regroupement s’affichent de manière réduite plutôt que développée.Ce paramètre est désactivé par défaut et les résultats du regroupement s’affichent toujours dans la liste étendue.

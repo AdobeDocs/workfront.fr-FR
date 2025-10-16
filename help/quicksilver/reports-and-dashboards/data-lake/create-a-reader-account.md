@@ -7,10 +7,10 @@ description: Pour accéder aux données de Data Connect, vous devez d’abord cr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 8%
+source-wordcount: '629'
+ht-degree: 5%
 
 ---
 
@@ -18,46 +18,38 @@ ht-degree: 8%
 
 Pour accéder aux données Data Connect, vous devez d’abord créer un compte de lecteur (ou de service) Snowflake pour votre organisation, puis établir une nouvelle connexion pour chaque utilisateur ou outil que vous souhaitez voir accéder à Data Connect.
 
-Après avoir créé une connexion, vous pouvez trouver l’URL et le nom d’utilisateur associés en cliquant dessus sur la page **Data Connect** (**Menu principal** > **Configuration** > **Système** > **Data Connect**) sous l’onglet **Existing Connections**.
+Après avoir créé une connexion, vous pouvez trouver l’URL et le nom d’utilisateur associés en cliquant dessus sur la page Data Connect (menu principal > Configuration > Système > Data Connect) sous l’onglet Connexions existantes .
 
 Pour plus d’informations sur l’utilisation d’une nouvelle connexion avec un produit externe, voir [Établir une connexion à Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Inclus dans les plans suivants :</p>
-    <ul>
-        <li>Final</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect n’est pas disponible pour les plans Workfront hérités.</p> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Plan</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p></td> 
+   <td> <p>Vous devez être un administrateur Workfront</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

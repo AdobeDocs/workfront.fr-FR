@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Utilisation d’une autre planification d’équipe pour les graphiques de Burndown
+title: Utiliser un calendrier d'équipe alternatif pour les graphiques d'avancement
 description: Les plannings définis dans  [!DNL Adobe Workfront]  affectent le graphique d’avancement en excluant les jours de congé (week-ends et jours fériés) de l’avancement.
 author: Lisa
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 97%
+source-wordcount: '306'
+ht-degree: 96%
 
 ---
 
@@ -27,8 +27,6 @@ Pour plus d’informations sur l’utilisation du graphique d’avancement, voir
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -36,14 +34,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
-   ou
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr>
  </tbody> 
 </table>

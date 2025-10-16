@@ -6,10 +6,10 @@ description: Pour rechercher efficacement des éléments de travail et vous conc
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 51%
+source-wordcount: '2437'
+ht-degree: 50%
 
 ---
 
@@ -36,27 +36,21 @@ Cet article contient des informations sur les filtres dans l’équilibreur de c
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>Actuel : Planifier (lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource)</p>
-       <p>Ou</p>
-       <p>Travail (lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet)</p></td>
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan, lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource ; Travail, lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></td>
+  </tr>
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Accès Affichage ou niveau supérieur aux éléments suivants :</p> 
     <ul> 
      <li>Gestion des ressources</li> 
@@ -68,7 +62,7 @@ Cet article contient des informations sur les filtres dans l’équilibreur de c
     <p>Modifier l’accès aux filtres, vues et regroupements lors de la création ou de la modification de filtres </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Autorisations d’objet</td> 
    <td> <p>Autorisations d’affichage ou supérieures pour les projets, tâches et problèmes</p>
    <p>Autorisations de gestion pour les filtres que vous souhaitez modifier ou supprimer.</p>
    </td> 
@@ -76,7 +70,7 @@ Cet article contient des informations sur les filtres dans l’équilibreur de c
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +78,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Tenez compte des points suivants lorsque vous utilisez des filtres dans l’équilibreur de charge de travail :
 
-* Selon le point d’accès à l’équilibreur de charge de travail, il se peut que Workfront filtre déjà les informations pour vous. Pour plus d’informations, consultez la section suivante de cet article : [&#x200B; Filtres préappliqués dans l’équilibreur de charge de travail &#x200B;](#pre-applied-filters-in-the-workload-balancer).
+* Selon le point d’accès à l’équilibreur de charge de travail, il se peut que Workfront filtre déjà les informations pour vous. Pour plus d’informations, consultez la section suivante de cet article : [ Filtres préappliqués dans l’équilibreur de charge de travail ](#pre-applied-filters-in-the-workload-balancer).
 * Vous pouvez créer et appliquer un filtre sans l’enregistrer, ou enregistrer un filtre pour le réutiliser ultérieurement.
 * Lorsque vous appliquez un filtre sans l’enregistrer, vous pouvez revenir aux listes d’origine en actualisant votre page.
 * Vous pouvez afficher les filtres que vous avez créés ou ceux que d’autres utilisateurs et utilisatrices ont créés et partagés avec vous.

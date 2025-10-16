@@ -6,10 +6,10 @@ description: Vous pouvez exporter des informations à partir de n’importe quel
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 96%
+source-wordcount: '599'
+ht-degree: 93%
 
 ---
 
@@ -25,36 +25,32 @@ Vous pouvez exporter des informations à partir de n’importe quelle vue du pla
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Actuel : Pro ou supérieur</p> </td> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Light ou supérieur</p>
-       <p>ou</p>
-       <p>Actuel : Révision ou supérieur</p></td>
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Léger ou supérieur</p>
+       <p>Révision ou supérieur</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Afficher l'accès ou supérieur à Projets, Utilisateurs et Gestion des ressources</p> </td> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Afficher l'accès ou supérieur à Projets, Utilisateurs et Gestion des ressources</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage ou niveau supérieur pour les projets</p> </td> 
+   <td>Autorisations d’objet</td> 
+   <td> <p>Autorisations d’affichage ou supérieures pour les projets</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

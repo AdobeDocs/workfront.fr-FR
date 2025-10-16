@@ -1,73 +1,66 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Intégrer une file d’attente des demandes dans un tableau de bord
-description: Vous pouvez intégrer une nouvelle file d’attente des demandes dans un tableau de bord pour fournir un accès direct à la file d’attente des demandes à vos utilisateurs et utilisatrices, sans avoir à accéder à la zone Demandes.
+title: Incorporer une file d’attente des demandes dans un tableau de bord
+description: Vous pouvez incorporer une nouvelle file d’attente des demandes dans un tableau de bord pour fournir un accès direct à la file d’attente des demandes à vos utilisateurs et utilisatrices, sans avoir à accéder à la zone Demandes.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 98%
+source-wordcount: '1143'
+ht-degree: 97%
 
 ---
 
-# Intégrer une file d’attente des demandes dans un tableau de bord
+# Incorporer une file d’attente des demandes dans un tableau de bord
 
 <!-- Audited: 1/2025 -->
 
-Vous pouvez intégrer une nouvelle file d’attente des demandes dans un tableau de bord pour fournir un accès direct à la file d’attente des demandes à vos utilisateurs et utilisatrices, sans avoir à accéder à la zone Demandes.
+Vous pouvez incorporer une nouvelle file d’attente des demandes dans un tableau de bord pour fournir un accès direct à la file d’attente des demandes à vos utilisateurs et utilisatrices, sans avoir à accéder à la zone Demandes.
 
 Par exemple, si vous disposez d’une file d’attente des demandes ouverte à l’ensemble de l’organisation, telle qu’une file d’attente du centre d’assistance ou une file d’attente des demandes de congés à laquelle tout le monde doit accéder régulièrement, il peut s’avérer pratique d’insérer la file d’attente des demandes directement dans l’un de leurs tableaux de bord pour un accès rapide et facile. Le processus de configuration est similaire à celui de la création d’une page externe sur un tableau de bord.
 
-Tout d’abord, vous devez obtenir une URL vers la file d’attente des demandes. Ensuite, vous pouvez intégrer l’URL dans un tableau de bord en ajoutant une page externe.
+Tout d’abord, vous devez obtenir une URL vers la file d’attente des demandes. Ensuite, vous pouvez incorporer l’URL dans un tableau de bord en ajoutant une page externe.
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+      <p>Standard</p>
+      <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
-   <td> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
+   <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Autorisations en gestion pour le tableau de bord</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
 ## Conditions préalables
 
-Vous devez créer les deux éléments suivants avant d’intégrer une file d’attente des demandes dans un tableau de bord :
+Vous devez créer les deux éléments suivants avant d’incorporer une file d’attente des demandes dans un tableau de bord :
 
 * **Tableau de bord** : pour plus d’informations sur la création de tableaux de bord, voir [Créer un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
@@ -152,7 +145,7 @@ Lorsque vous partagez un lien vers un type de demande présélectionné, le type
 
    ![Code de file d’attente de demandes](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
-## Intégrer une file d’attente des demandes dans un tableau de bord
+## Incorporer une file d’attente des demandes dans un tableau de bord
 
 Vous pouvez incorporer un lien vers la file d’attente des demandes ou vers une rubrique de la file d’attente imbriquée sous une file d’attente des demandes dans un tableau de bord pour donner aux utilisateurs et utilisatrices un accès direct à la saisie des demandes.
 
@@ -164,7 +157,7 @@ Vous pouvez incorporer un lien vers la file d’attente des demandes ou vers une
 
 1. Cliquez sur **Ajouter une page externe**.
 
-   ![&#x200B; Page externe &#x200B;](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![ Page externe ](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. Dans la zone **Ajouter une page externe**, modifiez les champs suivants :
 

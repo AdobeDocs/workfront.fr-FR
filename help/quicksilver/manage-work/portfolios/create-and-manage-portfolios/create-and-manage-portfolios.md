@@ -2,20 +2,22 @@
 content-type: reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
-title: Créer et gérer des portfolios
+title: 'Créer et gérer des portefeuilles : index des articles'
 description: Un portfolio est un ensemble de projets qui se partagent les mêmes ressources, le même budget et le même planning. Les projets d’un portfolio sont suffisamment similaires pour utiliser le même groupe de ressources et être mesurés par rapport à la même carte de performance.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: eea47cc9-becb-4617-b49c-265c20753908
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 100%
+source-wordcount: '117'
+ht-degree: 89%
 
 ---
 
-# Créer et gérer des portfolios
+# Créer et gérer des portfolios : index des articles
+
+<!--Audited: 08/2025-->
 
 Un portfolio est un ensemble de projets qui se partagent les mêmes ressources, le même budget et le même planning. Les projets d’un portfolio sont suffisamment similaires pour utiliser le même groupe de ressources et être mesurés par rapport à la même carte de performance.
 

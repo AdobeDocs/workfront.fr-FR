@@ -6,10 +6,10 @@ description: Les tâches personnelles sont des demandes de travail ad hoc que vo
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 7%
+source-wordcount: '655'
+ht-degree: 5%
 
 ---
 
@@ -47,8 +47,6 @@ Quelle que soit la manière dont vous ajoutez une tâche personnelle, vous pouve
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -56,14 +54,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
-   <p>Nouveau : standard pour envoyer des requêtes à d’autres utilisateurs. Tous les utilisateurs peuvent créer une demande de travail pour eux-mêmes.</p> 
-   <p>En cours : prévoyez d’envoyer des requêtes à d’autres utilisateurs. Tous les utilisateurs peuvent créer une demande de travail pour eux-mêmes.</p>
+   <p>Standard<p>
+   <p>Plan</p>
+   <p>Il s’agit de la licence nécessaire pour envoyer des requêtes à d’autres utilisateurs. Tous les utilisateurs peuvent créer une demande de travail pour eux-mêmes.</p> 
     </td> 
   </tr> 
   <tr> 
@@ -75,9 +74,36 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Standard to send requests to other users. All users can create a work request for themselves.</p> 
+   <p>Current: Plan to send requests to other users. All users can create a work request for themselves.</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>Edit access to Users to create a work request for them. View access to create a personal work request for yourself. </p>
+   </td> 
+  </tr> 
+ 
+ </tbody> 
+</table>-->
 
 
 ## Créer une demande de travail personnelle
@@ -88,7 +114,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >
    >Votre administrateur Workfront peut vous empêcher de voir certains utilisateurs lorsqu’ils configurent votre niveau d’accès.
 
-1. Cliquez sur le ![](assets/more-menu.png) **Plus** situé à droite du nom de l’utilisateur dans l’en-tête.
+1. Cliquez sur le **** Plus![](assets/more-menu.png) situé à droite du nom de l’utilisateur dans l’en-tête.
 1. Cliquez sur **Envoyer la demande de travail**.
 La zone **Envoyer une demande de travail à l&#39;utilisateur** s&#39;affiche.
 

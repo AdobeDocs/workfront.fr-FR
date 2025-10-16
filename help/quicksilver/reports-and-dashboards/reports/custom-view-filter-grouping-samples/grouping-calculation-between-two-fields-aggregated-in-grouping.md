@@ -3,15 +3,15 @@ content-type: reference
 product-area: reporting;projects
 keywords: calculé, agrégats, avancé, vues
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Regroupement : affiche le résultat de l’agrégation de plusieurs valeurs calculées dans un groupement"
+title: 'Regroupement : affiche le résultat de l’agrégation de plusieurs valeurs calculées dans un regroupement'
 description: Vous pouvez utiliser le mode texte dans une colonne pour afficher un calcul entre deux champs dans la vue d’un rapport ou d’une liste. Chaque ligne affiche le calcul pour chaque objet du rapport ou de la liste.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 83%
+source-wordcount: '530'
+ht-degree: 82%
 
 ---
 
@@ -27,28 +27,21 @@ Vous pouvez afficher la valeur agrégée de plusieurs éléments d’affichage c
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-    <p>Nouveau :</p>
-   <ul><li><p>Contributeur à la modification d’un filtre </p></li>
-   <li><p>Standard pour modifier un rapport</p></li> </ul>
-
-<p>Actuel :</p>
-   <ul><li><p>Demande de modification d’un filtre </p></li>
-   <li><p>Prévoir de modifier un rapport</p></li> </ul></td> 
+   <p>Contributeur ou demande de modification d’un filtre </p>
+   <p>Standard ou Plan pour modifier un rapport</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -61,14 +54,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Afficher le résultat de l’agrégation de plusieurs valeurs calculées dans un regroupement
 
 1. Accédez à un rapport de tâches, cliquez sur **Actions de rapport** > **Modifier**.
-1. Dans l&#39;onglet **Groupings**, cliquez sur **Ajouter un groupement**, puis commencez à saisir **Nom du projet** dans le champ **Grouper par**, puis sélectionnez **Projet > Nom** lorsqu&#39;il s&#39;affiche dans la liste.
+1. Dans l&#39;onglet **Regroupements**, cliquez sur **Ajouter un regroupement** et commencez à saisir **Nom du projet** dans le champ **Regrouper par**, puis sélectionnez **Projet > Nom** lorsqu&#39;il s&#39;affiche dans la liste.
 
 1. Dans l’onglet **Colonnes (Affichage)**, cliquez sur **Ajouter une colonne**, puis saisissez le **Nombre d’heures prévues** dans le champ **Afficher dans cette colonne**, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
@@ -76,9 +69,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    >
    >Commencez toujours par ajouter autant d’informations que possible à l’aide de l’interface standard avant de modifier les informations en mode texte. Ajoutez les champs qui se rapprochent le plus du calcul que vous essayez d’effectuer ou qui contiennent le plus d’informations sur celui-ci.
 
-1. Dans le champ **Résumer cette colonne par** , sélectionnez **Somme**.
-1. Cliquez sur **Passer en mode Texte** dans la colonne que vous avez ajoutée, puis cliquez sur **Modifier le mode Texte**.
-1. Remplacez le texte de la zone par l’exemple de mode de texte suivant :
+1. Dans le champ **Résumer cette colonne par**, sélectionnez **Somme**.
+1. Cliquez sur **Passer en mode texte** dans la colonne que vous avez ajoutée, puis cliquez sur **Modifier le mode texte**.
+1. Remplacez le texte de la zone par l’exemple de mode texte suivant :
 
    ```
    valueformat=compound

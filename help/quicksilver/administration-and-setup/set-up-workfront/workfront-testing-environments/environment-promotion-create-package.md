@@ -9,16 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 15%
+source-wordcount: '792'
+ht-degree: 13%
 
 ---
 
 # Créer ou modifier un package de promotion environnementale
 
-Vous devez créer un package dans l’environnement à partir duquel vous souhaitez copier les objets **&#x200B;**. Par exemple, si vous configurez un projet dans votre environnement de sandbox d’actualisation personnalisée et que vous le promouvez dans votre environnement de production, vous devez créer le package dans votre environnement de sandbox d’actualisation personnalisée.
+Vous devez créer un package dans l’environnement à partir duquel vous souhaitez copier les objets ****. Par exemple, si vous configurez un projet dans votre environnement de sandbox d’actualisation personnalisée et que vous le promouvez dans votre environnement de production, vous devez créer le package dans votre environnement de sandbox d’actualisation personnalisée.
 
 >[!IMPORTANT]
 >
@@ -30,30 +30,30 @@ Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td>Plan <strong>[!DNL Adobe Workfront]</strong>
+   <td>Package Adobe Workfront
    </td>
-   <td> Prime ou Ultimate (nouveaux plans uniquement)
+   <td> <p>Prime ou Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td>Licences <strong>[!DNL Adobe Workfront]</strong>
+   <td><strong>Licences Workfront</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Configurations des niveaux d’accès
    </td>
-   <td>Vous devez être administrateur ou administratrice [!DNL Workfront].
+   <td><p>Vous devez être un administrateur ou une administratrice Workfront.</p>
    </td>
   </tr>
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Créer un package
 
-1. Accédez à l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets **&#x200B;**.
+1. Accédez à l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets ****.
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **Système** dans le volet de navigation de gauche, puis sélectionnez **Promotion de l’environnement**.
 1. Cliquez sur **Créer un package**.

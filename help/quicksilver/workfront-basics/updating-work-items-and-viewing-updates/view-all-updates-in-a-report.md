@@ -6,16 +6,16 @@ description: Pour afficher toutes les mises à jour que l’un des utilisateurs 
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 63%
+source-wordcount: '373'
+ht-degree: 62%
 
 ---
 
 # Afficher toutes les mises à jour dans un rapport de note
 
-<!-- Audited: 6/2025 -->
+<!-- Audited: 10/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
@@ -29,7 +29,7 @@ La zone Mises à jour d’un objet affiche, par défaut, un maximum de 200 mise
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,31 +38,65 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p>
-   <p>Actuel : formule</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification aux éléments suivants :</p> 
+   <td> <p>Modifier l’accès avec la possibilité de créer les éléments suivants :</p> 
     <ul> 
-     <li> <p>Créer des rapports, des tableaux de bord et des calendriers</p> </li> 
-     <li> <p>Créer des filtres, des vues et des regroupements</p> </li> 
+     <li> <p>Rapports, tableaux de bord et calendriers</p> </li> 
+     <li> <p>Filtres, vues et regroupements</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher</p>
-    <p>Remarque : Si vous ne disposez pas d'une autorisation d'affichage ou d'une autorisation supérieure pour un objet, les informations relatives à cet objet ne s'affichent pas dans l'état.</p>  </td> 
+   <td> <p>Afficher les autorisations sur les objets du rapport</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p>
+   <p>Current: Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to:</p> 
+    <ul> 
+     <li> <p>Create Reports, Dashboards, and Calendars</p> </li> 
+     <li> <p>Create Filters, Views, and Groupings</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View</p>
+    <p>Note: If you do not have View permission or higher to an object, information for that object doesn't display in the report.</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Créer un rapport de notes
 

@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1542'
 ht-degree: 93%
 
 ---
@@ -38,20 +38,18 @@ En tant que personne membre de l’administration Adobe Workfront, vous pouvez 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Standard</p>
-   <p>Actuel : formule</p></td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -60,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Accorder un accès administratif complet au système à un utilisateur ou à une utilisatrice unique
@@ -290,9 +288,9 @@ Les utilisateurs et les utilisatrices disposant d’une licence Plan qui peuvent
    <td> <p>Pas d’accès</p> </td> 
   </tr> 
   <tr> 
-   <td>Documents : fournisseurs cloud</td> 
+   <td>Documents : fournisseurs de services cloud</td> 
    <td>Accès complet</td> 
-   <td> <p>Pas d’accès à la configuration des fournisseurs cloud.</p> <p>Accès à la liaison de documents vers et depuis les fournisseurs cloud à partir de l’onglet Documents, une fois que les fournisseurs cloud ont été intégrés à Workfront.</p> </td> 
+   <td> <p>Pas d’accès à la configuration des fournisseurs de services cloud.</p> <p>Accès à la liaison de documents vers et depuis les fournisseurs de services cloud à partir de l’onglet Documents, une fois que les fournisseurs de services cloud ont été intégrés à Workfront.</p> </td> 
   </tr> 
   <tr> 
    <td>Documents : mappage des métadonnées</td> 

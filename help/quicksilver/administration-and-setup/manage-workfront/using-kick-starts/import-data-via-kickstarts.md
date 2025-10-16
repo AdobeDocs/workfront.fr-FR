@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2851'
-ht-degree: 92%
+source-wordcount: '2828'
+ht-degree: 91%
 
 ---
 
@@ -34,31 +34,27 @@ Chacune de ces procédures est décrite dans l’ordre approprié dans le prése
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>
-   <p> Nouveau : Standard</p>
-   ou
-   <p>Actuel : formule</p></td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td>Administrateur ou administratrice système</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -360,7 +356,7 @@ Chaque ligne de la feuille correspond à un objet unique.
    * Dans la colonne **setCategoryID**, saisissez le GUID du formulaire personnalisé existant sur lequel réside ce champ personnalisé. Ce champ est obligatoire lors de l’import de données personnalisées.
    * Si vous devez ajouter plusieurs valeurs de données dans un champ personnalisé (comme des cases d’option, des cases à cocher ou des listes), utilisez le délimiteur de données personnalisées à barre verticale « | » répertorié dans l’onglet Préférences pour séparer les valeurs.
 
-     **Exemple :** saisissez A|D sous la colonne DE:Departments pour renseigner les services A et D dans votre formulaire personnalisé.
+     **Exemple :** Tapez A|D sous la colonne DE:Departments pour renseigner les départements A et D dans votre formulaire personnalisé.
 
      >[!NOTE]
      >
@@ -378,11 +374,11 @@ Workfront peut traiter la plupart des formats de date. Cependant, vous devez vou
 
 Workfront accepte également que l’heure soit incluse avec la date.
 
-Par exemple : 07/10/2022 01:30 ou 07/10/2022 1:00 PM (au format 12 heures).
+Par exemple : 07/10/2022 01:30 ou 07/10/2022 13:00.
 
 Si vous ne mettez pas d’heure avec la date, Workfront effectue l’une des opérations suivantes :
 
-* Workfront suppose que l’heure est 12:00 AM (minuit). Pour que le résultat de la date soit visible, le fuseau horaire du système doit correspondre à votre fuseau horaire.
+* Suppose qu’il est 12 :00. Pour que le résultat de la date soit visible, le fuseau horaire du système doit correspondre à votre fuseau horaire.
 * S’il se trouve sur un objet associé à un planning, l’heure est décalée au premier moment autorisé par le planning.
 
 >[!NOTE]

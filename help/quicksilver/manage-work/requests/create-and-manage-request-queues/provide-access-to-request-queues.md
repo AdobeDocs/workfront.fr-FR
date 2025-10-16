@@ -3,13 +3,13 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Fournir l’accès aux files d’attente des demandes
 description: Lorsque vous accordez l’accès à une file d’attente des demandes, vous déterminez qui, au sein de votre organisation, peut afficher la file d’attente des demandes dans la zone Demandes d’Adobe Workfront.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 55%
+source-wordcount: '474'
+ht-degree: 53%
 
 ---
 
@@ -32,14 +32,14 @@ Cela s’avère utile dans les organisations qui invitent des parties prenantes 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Nouveau : Standard </p>
-   <p>Actuel : formule </p> </td> 
+   <p>Standard </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -52,7 +52,7 @@ Cela s’avère utile dans les organisations qui invitent des parties prenantes 
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

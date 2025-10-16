@@ -3,11 +3,11 @@ product-area: timesheets
 navigation-topic: configure-timesheet-preferences
 title: 'Créer et gérer des feuilles de temps : index de l’article'
 description: Vous pouvez créer des feuilles de temps dans Adobe Workfront et garder une trace du temps que vous passez à réaliser le travail. Pour en savoir plus sur la création, la modification et la gestion des feuilles de temps, consultez les articles suivants.
-author: Alina
+author: Lisa
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 95%

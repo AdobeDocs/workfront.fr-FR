@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Joindre un formulaire personnalisé à un business case
 description: Les formulaires personnalisés sont utilisés pour collecter des informations qui ne sont pas affichées dans les champs existants d’Adobe Workfront.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 65%
+source-wordcount: '326'
+ht-degree: 67%
 
 ---
 
@@ -29,15 +29,14 @@ Pour plus d’informations sur la création d’un Forms personnalisé, consulte
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td> <p>Current : Prime ou version ultérieure</p>
-   <p>Hérité : Pro ou supérieur</p> </td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td> <p>Prime ou version ultérieure</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licence Adobe Workfront/p&gt;</td> 
    <td> 
-   <p>Actuel : Standard </p> 
-   <p>Hérité : plan </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
@@ -50,7 +49,7 @@ Pour plus d’informations sur la création d’un Forms personnalisé, consulte
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

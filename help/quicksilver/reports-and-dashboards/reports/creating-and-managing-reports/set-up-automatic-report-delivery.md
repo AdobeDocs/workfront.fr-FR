@@ -6,10 +6,10 @@ description: Planifier la remise automatique d’un rapport
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 66%
+source-wordcount: '1293'
+ht-degree: 65%
 
 ---
 
@@ -27,35 +27,32 @@ Pour plus d’informations, y compris les limites de taille qui peuvent affecter
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-      <td> 
-      <p>Nouveau : Standard</p>
-      <p>Ou</p>
-
-<p>Actuel : formule</p>
-
-</td>
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et regroupements</p> </td> 
+   <td> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p>
+   <p>Modifier l’accès aux filtres, vues et regroupements</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p></td> 
+     <td> <p>Gérer les autorisations d’un rapport</p></td> 
   </tr> 
  </tbody> 
 </table>

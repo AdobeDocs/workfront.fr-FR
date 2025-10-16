@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Créer une relation d’antériorité à l’aide de la zone Tâches antérieures
+title: Créer une relation de prédécesseur à l’aide de la zone Prédécesseurs
 description: Vous pouvez utiliser des tâches antérieures (ou simplement des prédécesseurs) pour lier des tâches qui dépendent d'autres tâches à démarrer ou à terminer.
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 46%
+source-wordcount: '419'
+ht-degree: 39%
 
 ---
 
@@ -33,34 +33,33 @@ Pour plus d’informations sur les tâches antérieures, voir [Vue d’ensemble 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> 
-   <p>Standard </p>
-    <p>Plan </p> </td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux tâches et aux projets</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux tâches et aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations sur les tâches et le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations sur les tâches et le projet</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,7 +92,7 @@ Pour créer une tâche antérieure pour une tâche de projet :
 
 1. Saisissez un montant **Décalage**.
 
-   &#x200B; Pour plus d’informations, voir Présentation [&#x200B; types décalage](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   &#x200B; Pour plus d’informations, voir Présentation [ types décalage](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
    ![Boîte de dialogue Ajouter le prédécesseur](assets/add-predecessor-dialog-box.png)
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 65%
+source-wordcount: '1682'
+ht-degree: 64%
 
 ---
 
@@ -29,39 +29,35 @@ Par exemple, vous pouvez afficher ou ignorer des champs ou des sections dans un 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Formule Adobe Workfront </td> 
-   <td>Tous</td> 
+  <tr> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td>Accès administratif aux formulaires personnalisés </td> 
+  <tr> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Icônes de logique d’affichage et de saut
 
-Les formulaires personnalisés affichent des icônes pour indiquer quand la logique d’affichage ou d’omission est appliquée à certains champs. Les icônes sur un champ dans le créateur de formulaire indiquent que la logique est appliquée au champ.
+Les formulaires personnalisés affichent des icônes pour indiquer quand la logique d’affichage ou d’omission est appliquée à certains champs. Les icônes d’un champ dans le concepteur de formulaires indiquent que la logique est appliquée au champ.
 
-| Icône | Emplacement du champ dans le créateur de formulaire | Définition |
+| Icône | Emplacement sur le champ dans le concepteur de formulaires | Définition |
 |--- |--- |--- |
 | ![Logique d’affichage pour le champ cible](assets/display-logic-bottom-left.png) | En bas à gauche | Le champ est le champ cible pour la logique d’affichage. Si une sélection spécifique est effectuée dans le formulaire, ce champ est affiché. |
 | ![Définition de l’icône de la logique d’affichage](assets/display-logic-bottom-right.png) | En bas à droite | Le champ définit la logique d’affichage. Une sélection ou une valeur spécifique dans ce champ affiche le champ cible. |
@@ -128,7 +124,7 @@ La logique d’affichage définit les champs personnalisés qui apparaissent dan
 
 1. Cliquez sur **Appliquer** lorsque vous avez fini de créer l’instruction logique.
 
-   Les icônes de logique d’affichage sont ajoutées au champ cible et au champ de définition dans le créateur de formulaire.
+   Les icônes de logique d’affichage sont ajoutées au champ cible et au champ de définition dans le concepteur de formulaires.
 
 <!--
 <div class="preview">
@@ -213,7 +209,7 @@ La logique de saut définit des champs de formulaire personnalisés qui sont ign
 
 1. Cliquez sur **Appliquer** lorsque vous avez fini de créer l’instruction logique.
 
-   Les icônes de logique de saut sont ajoutées au champ cible et au champ de définition dans le créateur de formulaire.
+   Les icônes de logique de saut sont ajoutées au champ cible et au champ de définition dans le concepteur de formulaires.
 
 ## Ajouter une logique de validation à un formulaire personnalisé
 

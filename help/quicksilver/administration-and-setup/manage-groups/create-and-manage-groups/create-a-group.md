@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1633'
 ht-degree: 91%
 
 ---
@@ -32,32 +32,27 @@ Si vous faites partie de l’équipe d’administration de groupes ou Workfront,
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>Ou</p>
-       <p>Actuel : formule</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,7 +104,7 @@ Vous devez faire partie de l’équipe d’administration de Workfront pour cré
       <td> <p>Vous pouvez désigner un utilisateur ou une utilisatrice responsable commercial d’un groupe que vous gérez. La ou le responsable commercial est la personne qui prend des décisions commerciales pour le groupe. Pour plus d’informations, voir l’article <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Vue d’ensemble des responsables commerciaux</a><span>.</span></p> <p>Si la personne n’est pas encore membre du groupe, l’ajout de son nom dans ce champ l’ajoute également au groupe.</p> <p><b>NOTE</b> :  
         <ul> 
          <li>avant de pouvoir retirer la ou le responsable commercial d’un groupe, vous devez supprimer son nom du champ Responsable commercial.</li> 
-         <li>Si vous supprimez le nom du champ Responsable commercial, cette personne reste membre du groupe à moins que vous ne l’en retiriez. Pour savoir comment retirer une personne d’un groupe, voir la section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Gérer les membres d’un groupe</a> dans l’article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Gérer un groupe</a>.</li> 
+         <li>Si vous supprimez le nom du champ Responsable commercial, cette personne reste membre du groupe à moins que vous ne l’en retiriez. Pour savoir comment retirer une personne d’un groupe, voir la section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Gérer les appartenances à un groupe</a> dans l’article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Gérer un groupe</a>.</li> 
         </ul> </p> <p>Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Vue d‘ensemble du rôle de chef d’entreprise</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -179,7 +174,7 @@ Pour créer un nouveau groupe de premier niveau en copiant un groupe ou un sous-
       <td> <p>Vous pouvez désigner un utilisateur ou une utilisatrice responsable commercial d’un groupe que vous gérez. La ou le responsable commercial est la personne qui prend des décisions commerciales pour le groupe. Pour plus d’informations, voir l’article <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Vue d’ensemble des responsables commerciaux</a><span>.</span></p> <p>Si la personne n’est pas encore membre du groupe, l’ajout de son nom dans ce champ l’ajoute également au groupe.</p> <p><b>NOTE</b> :  
         <ul> 
          <li>avant de pouvoir retirer la ou le responsable commercial d’un groupe, vous devez supprimer son nom du champ Responsable commercial.</li> 
-         <li>Si vous supprimez le nom du champ Responsable commercial, cette personne reste membre du groupe à moins que vous ne l’en retiriez. Pour savoir comment retirer une personne d’un groupe, voir la section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Gérer les membres d’un groupe</a> dans l’article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Gérer un groupe</a>.</li> 
+         <li>Si vous supprimez le nom du champ Responsable commercial, cette personne reste membre du groupe à moins que vous ne l’en retiriez. Pour savoir comment retirer une personne d’un groupe, voir la section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Gérer les appartenances à un groupe</a> dans l’article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Gérer un groupe</a>.</li> 
         </ul> </p> <p>Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Vue d‘ensemble du rôle de chef d’entreprise</a>.</p> </td> 
      </tr> 
      <tr> 

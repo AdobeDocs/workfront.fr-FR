@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 description: Par défaut,  [!DNL Adobe Workfront]  View affiche la liste [!UICONTROL Tous les projets] dans  [!DNL Workfront], de sorte que tous les projets auxquels vous avez accès sont répertoriés, quel que soit leur statut.
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez filtrer la liste des projets dans [!DNL Workfront View] pour affiche
 
 ## Conditions d’accès
 
-Vous devez disposer de l’accès suivant dans [!DNL Workfront] pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,17 +31,21 @@ Vous devez disposer de l’accès suivant dans [!DNL Workfront] pour effectuer l
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan <strong>[!DNL Adobe Workfront]*</strong>/td&gt; 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td> 
+   <p>Contributeur ou version ultérieure</p>
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez l’administration de [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Filtrer la liste de [!UICONTROL projets] dans [!UICONTROL Workfront View]
 

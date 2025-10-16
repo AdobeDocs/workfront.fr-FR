@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Vue d’ensemble du nombre d’heures prévues
+title: Aperçu des heures planifiées
 description: Le nombre d’heures prévues associées à une tâche, à un problème ou à un projet représentent le temps nécessaire aux utilisateurs et utilisatrices affectés pour terminer la tâche, le problème ou le projet.
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 48efc796923079622ce4bc1c2bddb2429915c9a1
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '2815'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

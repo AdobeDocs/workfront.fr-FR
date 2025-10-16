@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
-title: Vue d’ensemble de l’équipe d’un projet
+title: Vue d'ensemble de l'équipe du projet
 description: Les personnes associées à un projet dans une certaine capacité forment l’équipe du projet. Les utilisateurs répertoriés dans la zone Personnes d’un projet ou d’un modèle sont les utilisateurs qui composent l’équipe du projet.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 46%
+ht-degree: 45%
 
 ---
 

@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Vue d’ensemble du type de durée : calcul d’affectation'
+title: 'Présentation du type de durée : affectation calculée'
 description: Le calcul d’affectation est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour des informations générales sur les types de durée dans Workfront, voir Vue d’ensemble de la durée de la tâche et du type de durée.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 

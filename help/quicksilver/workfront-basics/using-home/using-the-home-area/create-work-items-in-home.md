@@ -6,10 +6,10 @@ description: Vous pouvez créer des éléments de travail et des projets à part
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 16%
+source-wordcount: '816'
+ht-degree: 9%
 
 ---
 
@@ -27,39 +27,36 @@ De chez vous, vous pouvez
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
    <td>
-    <p>Nouvelle : [!UICONTROL Standard]</p> 
-    <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+    <p>Standard</p> 
+    <p>Travail ou supérieur</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p><b>NOTE</b></p> 
-   <p>Si vous ne disposez toujours pas d’un accès, demandez à votre équipe d’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires pour votre niveau d’accès. Pour plus d’informations sur la manière dont un un administrateur ou une administratrice de [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+    <tr> 
+   <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
+   <td> <p>Accès Afficher ou Modifier à l’objet mis à jour</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Produits supplémentaires</strong></td> 
+   <td>Vous devez disposer d’Adobe Workfront Planning pour afficher les demandes Planning ou les formulaires de demande</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Accès [!UICONTROL Edit] ou supérieur aux tâches</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
-   <td> <ul><li>Adobe Workfront</li><li>Vous devez disposer d’Adobe Workfront Planning pour afficher les demandes Planning ou les formulaires de demande</td> 
+   <td> <p>Accès [!UICONTROL Edit] ou supérieur aux tâches</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,7 +78,7 @@ Pour créer une tâche, procédez comme suit :
 1. Accédez au widget **Tâches**, puis cliquez sur **Ajouter une tâche**.
 1. Saisissez le nom de votre élément de tâche personnel, puis cliquez sur Entrée.
 1. (Facultatif) Cliquez sur l’icône **Date** ![Icône de date](assets/date-icon.png) pour ajouter une date d’échéance à l’élément.
-   ![&#x200B; Mes tâches de travail &#x200B;](assets/my-work-to-dos.png)
+   ![ Mes tâches de travail ](assets/my-work-to-dos.png)
 1. (Facultatif) Créez un rapport ou un filtre de tâche personnel. Pour plus d’informations sur la création d’un filtre de tâche personnel, voir [Filtre : tâche personnelle](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 Vous pouvez afficher vos tâches, ainsi que les tâches des autres utilisateurs, dans le rapport de tâches personnelles.
 

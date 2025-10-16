@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Mettre à jour automatiquement les statuts des problèmes de Commentaires en attente à En cours.
+title: Mettre automatiquement à jour les statuts des événements de En attente de commentaires à En cours
 description: Lorsque le contact principal d’un problème effectue une mise à jour du problème en mettant à jour un champ (y compris un champ personnalisé) ou en ajoutant un commentaire, le statut du problème est automatiquement mis à jour vers En cours.
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 80%
+ht-degree: 76%
 
 ---
 

@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Remplacement du bouton Travailler dessus par un bouton Démarrer
+title: Remplacer le bouton « Travailler sur ce projet » par un bouton « Démarrer »
 description: La configuration par défaut d’Adobe Workfront comprend un bouton Travailler sur ce projet pour les tâches et les problèmes qui s’affiche pour les éléments qui vous ont été attribués.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '778'
 ht-degree: 96%
 
 ---
@@ -27,22 +27,19 @@ Vous pouvez remplacer le bouton [!DNL Work On It] par un bouton [!UICONTROL Dém
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
-   <p>ou</p>
-   <p>Actuel : formule</p></td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +72,7 @@ Pour configurer le bouton Démarrer :
 
 1. Dans le menu déroulant **[!UICONTROL Équipes]**, sélectionnez une équipe.\
    ou\
-   Cliquez sur **[!UICONTROL Créer une nouvelle équipe]**.
+   Cliquez sur **[!UICONTROL Créer une équipe]**.
 
 1. Cliquez sur l’icône **[!UICONTROL Plus]** ![](assets/more-icon.png), puis cliquez sur **[!UICONTROL Modifier]**.
 
@@ -94,7 +91,7 @@ Pour associer des utilisateurs et des utilisatrices à une équipe d’accueil 
 
 {{step-1-to-users}}
 
-1. Sélectionnez le ou les utilisateurs que vous souhaitez associer à une équipe d’accueil.
+1. Sélectionnez l’utilisateur ou les utilisateurs à associer à une équipe interne.
 1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.\
    ![](assets/user-settings-nwe-350x291.png)
 

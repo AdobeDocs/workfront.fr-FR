@@ -7,20 +7,21 @@ description: Un programme est un ensemble de projets qui ont des caractéristiqu
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 17%
+source-wordcount: '495'
+ht-degree: 15%
 
 ---
 
 # Présentation des programmes
 
-<!-- Audited: 09/2024 -->
+<!-- Audited: 08/2025 -->
 
 Dans Adobe Workfront, un programme est un ensemble de projets qui ont des caractéristiques communes. Par exemple, ils peuvent se disputer le même budget, les mêmes ressources ou le même délai. Les programmes sont un sous-groupe de portefeuilles.
 
 Cet article contient des informations générales sur les programmes dans Workfront.
+
 
 ## Accès nécessaire pour créer des programmes
 
@@ -33,18 +34,18 @@ Pour créer et gérer des portfolios, vous devez disposer des accès suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Nouveau : Tous</p>
-   <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquet</td> 
+   <td> <p>Tous</p>
+   <p>[!UICONTROL Business] ou niveau supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p>
-   <p>Actuelle : [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Accès [!UICONTROL Edit] aux portfolios et aux programmes</p>  </td> 
+   <td> <p>Accès de [!UICONTROL Edit] aux [!UICONTROL Portfolios] et [!UICONTROL Programmes]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -58,6 +59,36 @@ Pour créer et gérer des portfolios, vous devez disposer des accès suivants :
 </table>
 
 Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>New: Any</p>
+   <p>Current: [!UICONTROL Business] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to edit a program or add projects to it</p>
+   <p>Manage permissions to the portfolio that the program belongs to </p>
+   <p>View permissions to a program to view it</p>
+   <p>After you create a program, you have Manage permissions to it, by default</p> 
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 
 ## Considérations relatives à l’utilisation des programmes

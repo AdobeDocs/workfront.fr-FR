@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des commentaires à tous les objectifs que vous
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 71%
+source-wordcount: '238'
+ht-degree: 47%
 
 ---
 
@@ -34,9 +34,13 @@ Vous pouvez ajouter des commentaires à tous les objectifs que vous pouvez affic
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+>[!NOTE]
+>
+>Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>
+>Adobe Workfront Goals ne peut plus être acheté.
 
-Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto">
 <col>
@@ -44,53 +48,91 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
+ <tr>
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
-   <p>Pour la nouvelle structure de forfait et de licence :
-  <ul><li>Un forfait Ultimate </li></ul>
-   </p>
-<p>Pour la structure de forfait et de licence actuelle : 
-<ul><li> Un forfait Pro ou supérieur </li>
-  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront</td>
  <td>
- <p>Tous</td>
+ <p>Tous</p></td>
  </tr>
- <tr>
- <td role="rowheader">Produit*</td>
- <td>
- <p> Nouvelle exigence de produit : Workfront</p>
- Ou
- <p>Configuration requise actuelle du produit : en plus d’une licence Workfront, vous devez acheter une licence pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Conditions d’utilisation des Objectifs Workfront</a>. </p> </td>
- </tr>
- <tr>
+  <tr>
  <td role="rowheader">Configuration du niveau d’accès</td>
- <td> <p>Accès en affichage ou accès supérieur aux Objectifs</p> </td>
+ <td> <p>Accès en affichage ou accès supérieur aux Objectifs</p> 
+ </td>
  </tr>
- <tr data-mc-conditions="">
+ <tr>
  <td role="rowheader">Autorisations d’objet</td>
  <td>
   <div>
   <p>Autorisations d’affichage ou autorisations supérieures pour l’objectif</p>
-  <p>Par défaut, les utilisateurs et les utilisatrices n’ont pas accès aux objectifs. </p>
- <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td> <p>Un modèle de mise en page comprenant la zone Objectifs du menu principal doit être affecté à tous les utilisateurs, y compris les administrateurs système. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license</td>
+ <td>
+ <p>Any</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> New product requirement: Workfront</p>
+ Or
+ <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level configuration</td>
+ <td> <p>View or higher access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal</p>
+  <p>By default, users get No Access to goals </p>
+ <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## Gérer les commentaires des objectifs
 

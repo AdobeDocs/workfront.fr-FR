@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: manage-issues
 title: Vue d’ensemble de la modification des affectations de problèmes
 description: Vous pouvez affecter des problèmes à des utilisateurs et utilisatrices, des équipes ou des fonctions ou en annuler l’affectation. Vous pouvez affecter plusieurs ressources simultanément ou une seule ressource. Vous pouvez affecter un problème à la fois ou plusieurs problèmes en masse.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%

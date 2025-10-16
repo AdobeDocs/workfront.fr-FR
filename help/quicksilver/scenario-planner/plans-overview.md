@@ -2,12 +2,12 @@
 content-type: overview
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Vue d’ensemble des plans dans le planificateur de scénarios
+title: Présentation des plans dans le planificateur de scénarios
 description: En tant que personne à la tête d’une entreprise, vous pouvez utiliser le planificateur de scénarios Adobe Workfront pour définir la stratégie de votre organisation à court et à long terme en décrivant ses plans sur un, trois ou cinq ans.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: 3f53cb49bbe8de21c42ec557fd367490f8ae8956
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 97%

@@ -6,9 +6,9 @@ description: Vous pouvez personnaliser le type d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1713'
 ht-degree: 84%
 
 ---
@@ -25,44 +25,35 @@ Cet article explique comment créer et modifier des vues standard pour les liste
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licence Adobe Workfront</strong></td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Contributeur ou version ultérieure</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Requête ou supérieure</p></li>
-         </ul>
+    <p>Contributeur ou version ultérieure</p>
+    <p>Requête ou supérieure</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, aux tableaux de bord et aux calendriers pour créer une vue dans un rapport</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet*</strong></td> 
+   <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gérer les autorisations d’une vue pour la modifier</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Créer ou personnaliser une vue
@@ -90,7 +81,6 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
    * Ajustez l’ordre d’apparition des colonnes en faisant glisser le titre de la colonne vers un nouvel emplacement.
 
    * Dans la zone **Paramètres de colonne**, cliquez sur **Résumer cette colonne par** et choisissez comment vous souhaitez que les données s’affichent dans la colonne. Cette option est disponible pour les types de colonnes suivants :
-
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -186,7 +176,7 @@ Pour plus d’informations sur les vues Agile, voir l’article [Gérer un proje
 Pour créer ou personnaliser une vue Agile :
 
 1. Accédez à la liste des tâches d’un projet.
-1. Cliquez sur l’icône **Panorama** ![&#x200B; icône Panorama](assets/board-icon-for-agile-view.png), puis sur **Utiliser la méthode Agile héritée** dans la vue du tableau.
+1. Cliquez sur l’icône **Panorama** ![ icône Panorama](assets/board-icon-for-agile-view.png), puis sur **Utiliser la méthode Agile héritée** dans la vue du tableau.
 
 1. (Le cas échéant) Pour personnaliser une vue Agile existante :
 

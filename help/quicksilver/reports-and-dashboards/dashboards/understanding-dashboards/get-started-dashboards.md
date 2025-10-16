@@ -7,10 +7,10 @@ description: Le tableau de bord permet d’accéder rapidement aux informations.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 89%
+source-wordcount: '693'
+ht-degree: 88%
 
 ---
 
@@ -24,43 +24,34 @@ Le tableau de bord permet d’accéder rapidement aux informations issues de plu
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Formule Adobe Workfront</strong></p> </td> 
-   <td>Tous</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licence Adobe Workfront</strong></p> </td> 
-      <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Contributeur ou version ultérieure</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Révision ou supérieur</p></li>
-         </ul>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+      <p>Contributeur ou version ultérieure</p>
+      <p>Révision ou supérieur</p>
    </td> 
   </tr> 
   <tr> 
-   <td><strong>Niveau d’accès</strong> </td> 
-   <td> <p>Accès en affichage ou supérieur aux rapports, tableaux de bord et calendriers</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Afficher l’accès aux rapports, aux tableaux de bord et aux calendriers</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>Autorisations d’objet</strong> </p> </td> 
-   <td> <p>Afficher des autorisations pour le tableau de bord</p>  </td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Afficher des autorisations pour le tableau de bord</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

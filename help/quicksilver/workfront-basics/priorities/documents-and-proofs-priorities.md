@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 29%
+source-wordcount: '589'
+ht-degree: 25%
 
 ---
 
@@ -23,28 +23,21 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> 
-   <p>Nouveau : Tous </p>
-   <p>Actuel : Pro ou supérieur</p>
+   <p>Tous</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-      <p><strong>Charger les documents</strong></p>
-   <p>Nouveau : contributeur</p>
-   <p>Actuel : demande</p>
-      <p><strong>Créer des épreuves</strong></p>
-        <p>Nouveau : Standard</p>
-     <p>Actuelle : Travail ou Plan</p>
+   <p>Contributeur ou version ultérieure pour charger des documents ; Standard pour créer des épreuves</p>
+   <p>Demander ou plus pour charger des documents ; Travailler ou plus pour créer des épreuves</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +45,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td>Manager ou version supérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux documents</p> </td> 
   </tr> 
  </tbody> 

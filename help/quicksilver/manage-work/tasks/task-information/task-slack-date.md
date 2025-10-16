@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Vue d’ensemble de la date de marge de la tâche
-description: Les tâches peuvent parfois commencer et se terminer en retard sans que cela ait une incidence sur la date d’achèvement du projet.
+title: Aperçu de la date de Slack de la tâche
+description: Les tâches peuvent parfois démarrer et se terminer en retard sans que la Date d'achèvement du projet ne soit affectée. La date de marge affiche la date exacte à laquelle une tâche pourrait avoir un impact certain sur la date d’achèvement du projet.
 author: Alina
 feature: Work Management
 exl-id: ccdaa27d-e212-45dc-afca-08539f2b4001
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '273'
+ht-degree: 93%
 
 ---
 

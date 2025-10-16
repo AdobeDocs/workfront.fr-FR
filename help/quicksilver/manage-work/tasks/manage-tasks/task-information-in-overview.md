@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Gérer des informations sur la tâche dans la zone Vue d’ensemble des détails de la tâche
-description: Gérer des informations sur la tâche dans la zone Vue d’ensemble des détails de la tâche
+title: Gérer les informations sur la tâche dans la zone Aperçu des détails de la tâche
+description: Vous pouvez afficher ou modifier les informations d’une tâche en accédant à la zone Aperçu de la section Détails de la tâche. Vous pouvez afficher ou modifier un nombre limité de champs dans la section Détails de la tâche.
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '2089'
-ht-degree: 100%
+source-wordcount: '2102'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 100%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-Vous pouvez afficher ou modifier les informations d’une tâche en accédant à la zone Vue d’ensemble de la section Détails de la tâche. Il existe un nombre limité de champs que vous pouvez afficher ou modifier dans cette zone. Pour plus d’informations sur la modification de toutes les informations relatives à une tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Vous pouvez afficher ou modifier les informations d’une tâche en accédant à la zone Aperçu de la section Détails de la tâche. Vous pouvez afficher ou modifier un nombre limité de champs dans la section Détails de la tâche.
+
+Pour plus d’informations sur la modification de toutes les informations relatives à une tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 Cet article décrit comment afficher ou modifier des informations dans la zone Vue d’ensemble des Détails de la tâche. Pour plus d’informations sur la mise à jour d’autres zones des Détails de la tâche, voir les articles suivants :
 
@@ -29,31 +31,29 @@ Cet article décrit comment afficher ou modifier des informations dans la zone V
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. 
- </caption> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><b>Formule </b>Adobe Workfront* </p> </td> 
+   <td> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td> <p><b>Licence</b> Adobe Workfront* </p> </td> 
-   <td> <p>Travail ou supérieur</p> </td> 
+   <td> <p>Licence Adobe Workfront </p> </td> 
+   <td><p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurations des niveaux d’accès*</strong> </td> 
-   <td> <p>Affichage ou accès supérieur aux Projets et aux Tâches</p> <p>Si vous avez le niveau d’accès correct mais que vous ne pouvez toujours pas modifier la section Détails de la tâche, demandez à votre administrateur ou administratrice Adobe Workfront si des restrictions supplémentaires ont été définies pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Affichage ou accès supérieur aux Projets et aux Tâches</p> <p>Si vous disposez du niveau d’accès correct, mais que vous ne pouvez toujours pas modifier la section Détails de la tâche, demandez à votre Adobe Workfront si elle a défini des restrictions supplémentaires dans votre niveau d’accès. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Autorisations d’objet</strong> </p> </td> 
+   <td> <p>Autorisations d’objet</p> </td> 
    <td> <p>Autorisations Contribuer ou supérieures pour le projet</p> <p>Autorisations Afficher pour la tâche afin d’afficher les informations dans la section Détails. </p> 
-   <p>Autorisations Contribuer pour la tâche afin de mettre à jour les informations suivantes dans la section Détails :</p>
+   <p>Autorisations de contribution pour la tâche afin de mettre à jour les informations suivantes dans la section Détails :</p>
 
 <ul>
    <li>Description</li>
@@ -64,6 +64,42 @@ Vous devez disposer des éléments suivants :
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information  in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Modifier les informations relatives à la tâche dans la section Vue d’ensemble des Détails de la tâche
 

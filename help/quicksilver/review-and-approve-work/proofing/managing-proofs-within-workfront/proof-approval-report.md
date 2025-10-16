@@ -6,10 +6,10 @@ description: Vous pouvez utiliser le rapport d’approbation des épreuves pour 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 98%
+source-wordcount: '249'
+ht-degree: 96%
 
 ---
 
@@ -21,32 +21,33 @@ Vous pouvez utiliser le rapport d’approbation des épreuves pour afficher des 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Forfait Workfront*</p> </td> 
+   <td role="rowheader"> <p>Package Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Vue d’ensemble des licences Adobe Workfront*</p> </td> 
-   <td> <p>Plan</p> </td> 
+   <td role="rowheader"> <p>Licence Adobe Workfront</p> </td> 
+   <td> 
+   <p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Niveau d’accès*</strong> </td> 
+   <td role="rowheader"><strong>Configuration du niveau d'accès</strong> </td> 
    <td> <p>Accès en modification aux éléments suivants :</p> 
     <ul> 
      <li> <p>Créer des rapports, des tableaux de bord et des calendriers</p> </li> 
      <li> <p>Créer des filtres, des vues et des regroupements</p> </li> 
-    </ul> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

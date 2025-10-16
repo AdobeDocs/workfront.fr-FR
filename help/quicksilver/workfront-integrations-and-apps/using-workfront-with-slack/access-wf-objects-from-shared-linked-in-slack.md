@@ -6,10 +6,10 @@ description: Lorsque les liens aux objets  [!DNL Adobe Workfront]  sont partagé
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 100%
+source-wordcount: '1107'
+ht-degree: 98%
 
 ---
 
@@ -25,24 +25,26 @@ Lorsqu’une personne partage avec vous un lien vers un objet dans [!DNL Workfro
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des accès suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
-   <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Tous</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -70,7 +72,7 @@ Avant de pouvoir accéder à vos favoris et à vos éléments récents à partir
 
    * **[!UICONTROL Date d’achèvement prévue]** : pour plus d’informations sur la date d’achèvement prévue, voir [Définir la date d’achèvement prévue du projet](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
-   * Nom du **[!UICONTROL portfolio]** : pour plus d’informations sur les portfolios, voir [Vue d’ensemble du portfolio dans Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+   * **[!UICONTROL Portfolio]** Nom : pour plus d’informations sur les portefeuilles, voir [Comprendre la méthodologie des portefeuilles](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
    * **[!UICONTROL Condition]** : pour plus d’informations sur la condition du projet, voir [Vue d’ensemble de la condition du projet et du type de condition](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 

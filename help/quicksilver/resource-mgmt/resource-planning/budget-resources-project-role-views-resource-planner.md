@@ -6,9 +6,9 @@ description: Vous pouvez budgétiser les ressources dans le planificateur de res
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2098'
 ht-degree: 96%
 
 ---
@@ -35,36 +35,31 @@ Avant de commencer à budgétiser les informations dans le planificateur de ress
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-    <td><p>Nouveau : Tous</p>
-       <p>ou</p>
-       <p>Actuel : Pro ou supérieur</p> </td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Tous</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Actuel : formule</p></td> 
+   <td>Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Accès en modification à la gestion des ressources qui inclut l’accès en modification des priorités et des heures du budget dans le planificateur de ressources.</p> <p>Modifier l'accès aux données financières pour budgéter les ressources par coût</p> <p>Accès Modifier aux projets et aux utilisateurs et utilisatrices</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Autorisations d’objet</td> 
    <td> <p>Autorisations Gérer pour les projets dont vous souhaitez budgétiser les informations.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,7 +104,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    * Cliquez sur le menu **Plus** du projet, puis sur **Définir les heures prévues des rôles comme budgété**.\
      Les heures budgétées de chaque rôle sont calculées à l’aide de la formule suivante :\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -158,7 +153,7 @@ Vous devez disposer de l’accès Modifier à la gestion des ressources et aux d
 
 Pour plus d’informations sur l’accès nécessaire à l’établissement d’un budget pour des ressources, voir l’article [Accès nécessaire pour budgéter les ressources dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Pour budgéter les affectations dans le planificateur de ressources dans la&#x200B;**&#x200B;** vue Rôle, procédez comme suit :
+Pour budgéter les affectations dans le planificateur de ressources dans la**** vue Rôle, procédez comme suit :
 
 1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
@@ -180,7 +175,7 @@ Pour budgéter les affectations dans le planificateur de ressources dans la&#x20
      Cette option répartit les heures budgétées du rôle sur les heures budgétées du projet pour les projets pour lesquels vous avez accès en gestion.
 
    * Cliquez sur le menu **Plus** pour la fonction, puis cliquez sur **Définir les heures prévuees des projets comme budgétées.** Les heures budgétées du rôle sont calculées à l’aide de la formule suivante :\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

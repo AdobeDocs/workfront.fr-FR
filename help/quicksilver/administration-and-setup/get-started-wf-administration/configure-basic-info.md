@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '805'
 ht-degree: 97%
 
 ---
@@ -27,30 +27,26 @@ Dans le cadre de la configuration de votre système Adobe Workfront, vous pouve
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
-<table style="table-layout:auto"> <col> 
+<table style="table-layout:auto"> 
+ <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Package Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>
-   <p>Nouveau : Standard</p>
-   Ou
-   <p>Actuel : formule</p></td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p></td> 
+   <td>Vous devez être un administrateur ou une administratrice Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -131,7 +127,7 @@ Pour configurer votre section Informations de base dans votre zone Infos client�
      </tr> 
      <tr> 
       <td role="rowheader">Paramètres régionaux d’e-mail par défaut</td> 
-      <td>Contrôle les formats de langue, de date et de nombres utilisés dans les e-mails sortants. Le paramètre régional sélectionné ici est le paramètre régional par défaut lors de la création de nouveaux utilisateurs et de nouvelles utilisatrices. Les utilisateurs et les utilisatrices peuvent modifier leurs paramètres régionaux dans leur profil d’utilisateur ou d’utilisatrice. Lorsque les utilisateurs et les utilisatrices modifient leurs paramètres régionaux, les formats de langue, de date et de nombres dans leurs e-mails envoyés à partir de Workfront correspondent à leurs préférences de profil. Pour plus d’informations sur la modification de vos préférences de profil, voir <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurer mes paramètres</a>.</td> 
+      <td>Contrôle les formats de langue, de date et de nombres utilisés dans les e-mails sortants. Les paramètres régionaux sélectionnés ici sont utilisés par défaut lors de la création de nouveaux utilisateurs et de nouvelles utilisatrices. Les utilisateurs et les utilisatrices peuvent modifier leurs paramètres régionaux dans leur profil d’utilisateur ou d’utilisatrice. Lorsque les utilisateurs et les utilisatrices modifient leurs paramètres régionaux, les formats de langue, de date et de nombres dans leurs e-mails envoyés à partir de Workfront correspondent à leurs préférences de profil. Pour plus d’informations sur la modification de vos préférences de profil, voir <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurer mes paramètres</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Pourcentage de stockage</td> 

@@ -6,10 +6,10 @@ description: Vous pouvez réinitialiser votre mot de passe  [!DNL Adobe Workfron
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
+source-git-commit: 80897b9b7752283ec985611e349e4180e48b224a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 73%
+source-wordcount: '232'
+ht-degree: 71%
 
 ---
 
@@ -27,32 +27,21 @@ Vous pouvez réinitialiser votre mot de passe [!DNL Adobe Workfront]. Il est rec
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
-
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
+   <td>Licence Adobe Workfront</td> 
    <td> 
-      <p>Nouveau :</p>
-         <ul>
-         <li><p>Contributeur ou version ultérieure</p></li>
-         </ul>
-      <p>Actuel :</p>
-         <ul>
-         <li><p>Requête ou supérieure</p></li>
-         </ul>
-   </td>
+   <p>Contributeur ou version ultérieure</p>
+   <p>Requête ou supérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>

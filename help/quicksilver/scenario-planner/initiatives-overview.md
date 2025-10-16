@@ -2,15 +2,15 @@
 content-type: overview
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Vue d’ensemble des initiatives dans le planificateur de scénarios
+title: Présentation des initiatives dans le planificateur de scénarios
 description: Le planificateur de scénarios n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, consultez la Vue d’ensemble du planificateur de scénario.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -45,11 +45,6 @@ Tenez compte des points suivants lors de la création d’initiatives :
 * Vous pouvez créer plusieurs initiatives dans un plan. Avec chaque initiative, vous pouvez définir une stratégie de haut niveau pour accomplir le travail dans votre service.
 * Vous pouvez hiérarchiser les initiatives au sein d’un plan, afin de vous assurer que l’initiative la plus importante reçoive le plus de budget et de ressources.
 * Lorsque vous créez des initiatives au sein d’un plan, toutes les personnes consultent ce dernier peuvent également voir toutes les initiatives du plan.
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change when we add to the access levels granularity)</p>
-  -->
-
 * Vous pouvez publier des initiatives pour créer des projets ou pour mettre à jour les projets qui leur sont liés. Pour plus d’informations sur la publication d’initiatives, voir [Mettre à jour ou créer des projets en publiant des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Informations financières sur les initiatives

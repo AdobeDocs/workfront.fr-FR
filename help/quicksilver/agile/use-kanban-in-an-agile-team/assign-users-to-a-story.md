@@ -1,27 +1,25 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: Affectation d’utilisateurs à un article sur le panorama Kanban
-description: Vous pouvez affecter des utilisateurs à des articles directement sur le panorama Kanban.
+title: Affecter des utilisateurs à une histoire sur le tableau kanban
+description: Vous pouvez affecter des utilisateurs à des histoires directement sur le tableau kanban.
 author: Lisa
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 86%
+source-wordcount: '214'
+ht-degree: 84%
 
 ---
 
 # Affecter des utilisateurs et des utilisatrices à une histoire sur le tableau [!UICONTROL Kanban]
 
-Vous pouvez affecter des utilisateurs à des articles directement sur le panorama Kanban.
+Vous pouvez affecter des utilisateurs à des histoires directement sur le tableau kanban.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +28,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
-   ou
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr>
  </tbody> 
 </table>

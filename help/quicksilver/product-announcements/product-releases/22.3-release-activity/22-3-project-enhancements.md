@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 100%
+source-wordcount: '1535'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Cette mise à jour comprend ce qui suit :
 * Les formulaires personnalisés par défaut définis dans la zone Paramètres des tâches du projet de destination sont ajoutés à la nouvelle tâche.
 
 
-Pour plus d’informations, voir [Convertir un problème en tâche dans Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+Pour plus d’informations, voir [Convertir un événement en tâche](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
 
 ## Nouvelle expérience lors de la conversion d’un problème en projet sans modèle
 
@@ -64,7 +64,7 @@ En plus d’une interface utilisateur mise à jour qui correspond au reste de la
 
 Pour plus d’informations, voir [Convertir un problème en projet dans Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-## Tags intelligents dans le flux de mises à jour
+## Balises intelligentes dans le flux de mises à jour
 
 Nous avons amélioré la façon de taguer des personnes dans le flux de mises à jour lorsque vous créez une mise à jour ou répondez à une mise à jour existante. Désormais, lorsque vous taguez une personne pour l’inclure dans une mise à jour, en plus de son nom et de son avatar, nous affichons également son rôle principal et son e-mail. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.
 
@@ -139,7 +139,7 @@ Chaque dossier du sixième niveau ou d’un niveau inférieur hérite ses config
 
 Pour plus d’informations sur le partage de dossiers, voir [Partager un dossier de documents de premier niveau](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-## Campagnes Workfront (version bêta) : une nouvelle façon de gérer votre travail
+## Campagnes Workfront (version Beta) : une nouvelle façon de gérer votre travail
 
 >[!NOTE]
 >
@@ -152,7 +152,7 @@ Pour plus d’informations sur le partage de dossiers, voir [Partager un dossier
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible uniquement en version bêta et est actuellement en cours de construction. Nous continuerons à ajouter des fonctionnalités pour le workflow Campagnes avec les prochaines versions. La participation au programme bêta de Campagnes de Workfront est volontaire.
+>Cette fonctionnalité est disponible uniquement en version Beta et est actuellement en cours de construction. Nous continuerons à ajouter des fonctionnalités pour le workflow Campagnes avec les prochaines versions. La participation au programme Beta de Campagnes de Workfront se fait sur une base volontaire.
 
 Nous introduisons un nouvel objet dans Adobe Workfront qui a le potentiel de modifier la façon dont vous gérez le travail.
 
@@ -162,7 +162,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 
 * Nouvel objet Workfront appelé « Campagnes »
 
-* Nouvelle zone « Campagnes » (version bêta) dans le menu principal
+* Nouvelle zone « Campagnes » (Beta) dans le menu principal
 
 * Liste des campagnes dans la zone « Campagnes »
 
@@ -174,7 +174,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 
 * Possibilité de renommer l’objet Campagne à partir du modèle de mise en page
 
-  Les personnes chargées de l’administration du système et des groupes Workfront peuvent ajouter la zone « Campagnes » (version bêta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour l’ensemble des utilisateurs et des utilisatrices à qui le modèle est affecté. Une fois disponible, n’importe quelle personne dans Workfront peut créer une campagne.
+  Les personnes chargées de l’administration du système et des groupes Workfront peuvent ajouter la zone « Campagnes » (Beta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour l’ensemble des utilisateurs et des utilisatrices à qui le modèle est affecté. Une fois disponible, n’importe quelle personne dans Workfront peut créer une campagne.
 
 
 

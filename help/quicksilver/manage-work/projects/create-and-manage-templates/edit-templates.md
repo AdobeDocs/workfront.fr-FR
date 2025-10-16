@@ -6,9 +6,9 @@ description: Vous pouvez modifier les modèles de projet pour refléter les modi
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '5674'
+source-wordcount: '5672'
 ht-degree: 88%
 
 ---
@@ -48,27 +48,25 @@ Vous pouvez modifier un modèle à la fois ou modifier des modèles en bloc.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licences Adobe Workfront*</td> 
+   <td role="rowheader">Licences Adobe Workfront</td> 
    <td>
-      <p>Nouveau : Standard</p>
-      <p>Ou</p>
-      <p>Actuelle : formule</p>
+      <p>Standard</p>
+      <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux modèles</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> 
-    <ul> 
-     <li> <p>Attribuer des autorisations sur un modèle pour le modifier dans l’onglet Détails du modèle</p> </li> 
-     <li> <p>Gérer les autorisations d’un modèle pour le modifier dans la zone Modifier le modèle</p> </li> 
+    <p>Attribuer des autorisations sur un modèle pour le modifier dans l’onglet Détails du modèle</p> 
+     <p>Gérer les autorisations d’un modèle pour le modifier dans la zone Modifier le modèle</p>
    </td> 
   </tr> 
  </tbody> 
@@ -77,6 +75,39 @@ Vous pouvez modifier un modèle à la fois ou modifier des modèles en bloc.
 * Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td>
+      <p>New: Standard</p>
+      <p>Or</p>
+      <p>Current: Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute permissions to a template to edit it in the Template Details tab</p> </li> 
+     <li> <p>Manage permissions to a template to edit it in the Edit Template box</p> </li> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Modifier un modèle {#edit-a-template}
 

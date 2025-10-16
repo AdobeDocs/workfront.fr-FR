@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Modifier les problèmes dans une liste
+title: Modifier des événements dans une liste
 description: Vous pouvez modifier un problème spécifique ou modifier des problèmes dans une liste de problèmes ou un rapport. Cet article décrit comment modifier des problèmes dans les listes.
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 90%
+source-wordcount: '882'
+ht-degree: 82%
 
 ---
 
 # Modifier les problèmes dans une liste
+
+<!--Audited: 08/2025-->
 
 Vous pouvez modifier un problème spécifique ou modifier des problèmes dans une liste de problèmes ou un rapport. Cet article décrit comment modifier des problèmes dans les listes.
 
@@ -21,19 +23,26 @@ Pour plus d’informations sur la modification d’un problème individuel, voir
 
 ## Conditions d’accès
 
-Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> <p>Licence de révision ou de niveau supérieur pour modifier les problèmes dans la section Problèmes d’un projet.</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+
+<ul><li><p>Contributeur ou version ultérieure</p> </li>
+   <li><p>Licence légère ou supérieure permettant de modifier un événement dans la section Événements d'un projet</p></li></ul> 
+    Ou
+   <ul><li><p>Demandeur ou supérieur</p> </li>
+   <li><p>Réviseur ou licence supérieure pour modifier un événement dans la section Événements d'un projet</p></li></ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès*</td> 
@@ -46,7 +55,34 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
+Pour plus d’informations sur ce tableau, consultez l’article [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Modifier des problèmes en ligne
 
@@ -71,40 +107,40 @@ Pour modifier en ligne un problème, procédez comme suit :
 
    Pour plus d’informations sur les objets de modification intégrés, voir [Modifier en ligne les éléments d’une liste dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-## Modifier les problèmes dans une liste
+## Modifier des événements d&#39;une liste
 
 1. Accédez à une liste de problèmes dans un projet ou une tâche.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Sélectionnez l’événement dans la liste, puis cliquez sur l’icône Modifier ![icône Modifier](assets/qs-edit-icon.png) dans la barre d’outils.
-   * Cliquez sur le **menu Plus** ![menu Plus](assets/more-icon-task-list.png) à droite du nom de l’événement, puis cliquez sur **Ouvrir dans un nouvel onglet**. Cette opération ouvre la page des problèmes dans un nouvel onglet. Cliquez sur **Plus** > **Modifier** sur la page de problèmes.
-   * Cliquez sur le **menu Plus** ![menu Plus](assets/more-icon-task-list.png) à droite du nom de l’événement, puis cliquez sur **Modifier**.
+   * Sélectionnez l’événement dans la liste, puis cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png) dans la barre d’outils.
+   * Cliquez sur le nom de l&#39;événement, puis sur **Modifier**.
 
-     L’une de ces actions ouvre la zone Modifier le problème.
+     L&#39;une de ces actions ouvre la boîte **Modifier l&#39;événement**.
 
-     Pour plus d’informations sur la modification des problèmes dans la zone Modifier le problème, voir [Modifier des problèmes](../../../manage-work/issues/manage-issues/edit-issues.md).
+     Pour plus d&#39;informations sur la modification des événements dans la zone **Modifier l&#39;événement**, voir [Modifier les événements](../../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Modifier des problèmes à l’aide du résumé
 
-Vous pouvez modifier un problème dans une liste à l’aide du Résumé.
+Vous pouvez modifier un événement dans une liste à l’aide du panneau Résumé .
 
 1. Accédez au projet dont vous souhaitez modifier les problèmes.
 1. Cliquez sur **Problèmes** dans le panneau de gauche.
 
    La liste des problèmes du projet s’affiche.
 
-1. Sélectionnez un événement à modifier, puis cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir le résumé](assets/qs-open-summary-icon-in-new-toolbar-small.png) dans le coin supérieur droit de la liste des événements.
+1. Sélectionnez un événement à modifier, puis cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir l’icône de résumé](assets/qs-open-summary-icon-in-new-toolbar-small.png) dans le coin supérieur droit de la liste des événements.
 
    Le **Résumé** s’ouvre.
 
 1. (Facultatif) Commencez à saisir une mise à jour pour le problème dans la zone **Mises à jour**.
 1. Cliquez sur l’une des icônes ou zones suivantes pour accéder au problème et modifier les informations au niveau du problème :
 
-   | Documents | Cliquez sur **Cliquez ici pour ajouter** pour ajouter des documents au problème. |
+   | Icône | Action |
    |---|---|
-   | Détails | Cliquez pour mettre à jour les informations sur le problème. |
-   | Heures | Cliquez pour consigner des heures. |
-   | Approbations | Cliquez pour ajouter les approbations de problèmes. |
+   | Documents ![icône Documents](assets/documents-icon-in-summary.png) | Cliquez sur **Cliquez ici pour ajouter** pour ajouter des documents au problème. |
+   | Détails ![icône Détails](assets/details-icon-in-summary.png) | Cliquez pour mettre à jour les informations sur le problème. |
+   | Heures ![Consigner le temps](assets/log-time-icon-in-summary.png) | Cliquez pour consigner des heures. |
+   | Validations ![icône Validations](assets/approvals-icon-in-summary.png) | Cliquez pour ajouter les approbations de problèmes. |
 
 1. (Facultatif) Cliquez à nouveau sur l’icône **Ouvrir le Résumé**, ou sur l’**Icône X** dans le coin supérieur droit du résumé pour fermer le panneau et modifier le problème en ligne.
 

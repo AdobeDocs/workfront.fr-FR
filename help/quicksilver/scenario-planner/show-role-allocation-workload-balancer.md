@@ -1,15 +1,15 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Afficher l’affectation des rôles pour les projets et les initiatives dans l’équilbreur de charge de travail
+title: Afficher l’affectation des rôles pour les projets et initiatives dans l’équilibreur de charge de travail
 description: Une fois que vous avez connecté les projets et les initiatives, vous pouvez gérer l’affectation de leurs ressources en parallèle pour vous assurer qu’elles
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 86%
+source-wordcount: '800'
+ht-degree: 84%
 
 ---
 
@@ -25,47 +25,79 @@ Pour des informations générales sur la réconciliation des ressources entre le
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
-   <td> <ul></li>
-   <li><p>Nouveau : Ultimate </p></li>
-   <p>Le planificateur de scénarios n’est pas disponible pour les nouveaux plans Workfront Select ou Workfront Prime. </p>
-   <li><p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p></ul>
+   <td> <p>[!DNL Adobe Workfront] paquet</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTE</b></p>
+<p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
-   <td> <p>Nouveau : Light ou supérieur</p> 
-   <p>Actuel : [!UICONTROL Review] ou version ultérieure</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licence</p> </td> 
+   <td> <p>[!UICONTROL Light] ou version ultérieure</p> 
+   <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en affichage ou supérieur aux projets.</p></td> 
   </tr> 
   <tr> 
-   <td>Produit* </td> 
-   <td> <ul><li><p>Pour les nouveaux plans Workfront :</p><p> Adobe Workfront</li></p>
-   <li><p>Pour les plans Workfront actuels : </p>
-   <p>Adobe Workfront</p> <p>Planificateur de scénarios Adobe Workfront</p></li></ul>
-
-<p>Pour plus d’informations, voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Niveau d’accès </td> 
-   <td> <p>Accès en affichage ou supérieur aux projets.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>Autorisations d’objet </p> </td> 
-   <td> <p> Autorisation Afficher ou supérieur pour un projet.</p> </td> 
+   <td> <p> Autorisation Afficher ou supérieur pour un projet.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès à la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>View or higher access to Projects.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p> View or higher permission to a project.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Afficher l’affectation des rôles pour les projets et les initiatives dans l’[!UICONTROL équilibreur de charge de travail]
 

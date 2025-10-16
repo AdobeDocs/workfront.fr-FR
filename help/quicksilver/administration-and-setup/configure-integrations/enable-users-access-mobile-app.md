@@ -1,5 +1,5 @@
 ---
-title: Activation de l’accès des utilisateurs à l’application mobile
+title: Autoriser les utilisateurs à accéder à l’application mobile
 product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
@@ -9,10 +9,10 @@ author: Nolan
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 96%
+source-wordcount: '161'
+ht-degree: 94%
 
 ---
 
@@ -24,26 +24,26 @@ Vous pouvez activer ou désactiver l’accès à l’application mobile [!DNL Ad
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Package Workfront</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations, consultez <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder à un utilisateur ou à une utilisatrice un accès d’administration complet</a>.</p> <p><b>REMARQUE</b> : si vous ne disposez toujours pas de l’accès, demandez à votre administrateur ou administratrice [!DNL Workfront] si des restrictions supplémentaires ont été définies concernant votre niveau d’accès. Pour plus d’informations sur la manière dont l’administration [!DNL Workfront]  peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td>Vous devez être un administrateur ou une administratrice Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,6 +60,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur **[!UICONTROL Enregistrer].**
 
-Pour plus d’informations sur l’utilisation de l’application mobile [!DNL Workfront] une fois qu’elle a été activée pour le site, consultez [Utiliser l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Pour plus d’informations sur l’utilisation de l’application mobile [!DNL Workfront] une fois qu’elle a été activée pour le site, consultez [Utiliser l’application mobile  [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
 Pour plus d’informations sur l’utilisation de [!DNL Workfront for Outlook], consultez la section [Utiliser  [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).

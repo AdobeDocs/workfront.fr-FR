@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Activation ou désactivation de versions rapides pour votre organisation
+title: Activation ou désactivation des versions rapides pour votre organisation
 description: Vous pouvez indiquer si vous souhaitez recevoir de nouvelles fonctionnalités Workfront sur une base mensuelle ou trimestrielle.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '406'
 ht-degree: 97%
 
 ---
@@ -30,6 +30,33 @@ Exemple :
 >
 >* Les clientes et clients qui ont acheté Workfront après la version 23.3 (juillet 2023) ont activé par défaut le processus de fréquence rapide et peuvent se désabonner.
 >* Les clientes et clients qui ont acheté Workfront avant la version 23.3 ont le processus de fréquence rapide désactivé par défaut et peuvent s’inscrire.
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Package Workfront</td> 
+   <td><p>Tous</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Vous devez être un administrateur ou une administratrice Workfront. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remarques concernant l’activation ou la désactivation du processus de fréquence rapide
 

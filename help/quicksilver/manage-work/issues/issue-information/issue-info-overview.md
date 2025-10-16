@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: Informations sur les problèmes
+title: 'Informations sur le problème : index des articles'
 description: Les problèmes sont des tâches qui représentent un travail imprévu sur un projet. Les articles suivants contiennent des informations sur les problèmes.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 95ea93d7-6cc3-4aaa-a8f7-8a59dda6b5f1
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 100%
+source-wordcount: '125'
+ht-degree: 93%
 
 ---
 
-# Informations sur les problèmes
+# Informations sur le problème : index des articles
+
+<!--Audited: 08/2025-->
 
 Lorsque vous travaillez sur un projet, des événements inattendus peuvent survenir. Vous pouvez enregistrer ces événements imprévus comme problèmes pour un projet particulier ou pour une tâche.
 

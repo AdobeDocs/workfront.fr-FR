@@ -6,10 +6,10 @@ description: Vous pouvez supprimer un calendrier que vous possédez ou que d’a
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 82%
+source-wordcount: '188'
+ht-degree: 76%
 
 ---
 
@@ -23,8 +23,6 @@ Vous ne pouvez pas supprimer votre calendrier par défaut, sauf si vous disposez
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,22 +30,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td><p>Nouveau : Standard</p>
-       <p>ou</p>
-       <p>Actuel : formule</p></td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Accès [!UICONTROL Edit] aux [!UICONTROL Reports], [!UICONTROL Dashboards] et [!UICONTROL Calendars]</p></td> 
+   <td> <p> Modifier l’accès aux rapports, tableaux de bord et calendriers</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>[!UICONTROL Manage] Accès au rapport de calendrier, avec accès pour le supprimer</td> 
+   <td>Gérer l’accès au rapport de calendrier, avec un accès pour le supprimer</td> 
   </tr> 
  </tbody> 
 </table>

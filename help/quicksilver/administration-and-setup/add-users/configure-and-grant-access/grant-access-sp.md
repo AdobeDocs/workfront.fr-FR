@@ -1,14 +1,14 @@
 ---
-title: Accorder l’accès au planificateur de scénario
+title: Octroi de l’accès au planificateur de scénarios
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’une personne au planificateur de scénarios.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 99%
+source-wordcount: '609'
+ht-degree: 96%
 
 ---
 
@@ -22,36 +22,36 @@ Outre l’accès au planificateur de scénarios, une personne disposant d’un n
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
    <td>Entreprises ou niveau supérieur</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou niveau supérieur Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">Vue d’ensemble des licences</a>.</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+   <p>Léger ou supérieur</p>
+   <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td> <p>Vous devez acheter une licence supplémentaire pour le planificateur de scénarios Adobe Workfront pour accéder aux fonctionnalités décrites dans cet article.</p> <p>Pour plus d’informations sur l’obtention du planificateur de scénarios Workfront, voir <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref" data-mc-variable-override="">Accès nécessaire pour utiliser le planificateur de scénarios</a>. </p> </td> 
+   <td> <p>Vous devez acheter une licence supplémentaire pour le planificateur de scénarios Adobe Workfront.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Accès Affichage ou niveau supérieur au planificateur de scénarios</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas accès, demandez à votre équipe d’administration Workfront si des restrictions supplémentaires sont définies à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès Affichage ou niveau supérieur au planificateur de scénarios</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Autorisations d’objet</p> </td> 
-   <td> <p>Autorisations d’affichage ou niveau supérieur pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à un plan, voir <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref" data-mc-variable-override="">Demander l’accès à un plan dans le planificateur de scénarios</a>.</p> </td> 
+   <td> <p>Autorisations d’affichage ou niveau supérieur pour un plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,7 +81,7 @@ Les informations suivantes peuvent vous aider à comprendre comment utiliser les
 
 ### Pas d’accès {#no-access}
 
-Une personne n’ayant pas accès au planificateur de scénarios ne peut pas voir l’icône Scénarios dans le menu principal lorsqu’il est ajouté à son modèle de disposition, ni afficher les plans et les initiatives qui sont partagés avec elle. Si le lien vers un plan est partagé avec une personne qui n’a pas accès au planificateur de scénarios, la personne ne peut pas afficher ni modifier le plan.
+Une personne n’ayant pas accès au planificateur de scénarios ne peut pas voir l’icône Scénarios dans le menu principal lorsqu’il est ajouté à son modèle de mise en page, ni afficher les plans et les initiatives qui sont partagés avec elle. Si le lien vers un plan est partagé avec une personne qui n’a pas accès au planificateur de scénarios, la personne ne peut pas afficher ni modifier le plan.
 
 ### Accès en affichage {#view-access}
 

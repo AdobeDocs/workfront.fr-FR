@@ -6,10 +6,10 @@ description: Vous pouvez demander l’approbation d’un projet avant de commenc
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 92%
+source-wordcount: '570'
+ht-degree: 86%
 
 ---
 
@@ -34,37 +34,68 @@ Vous pouvez demander un projet en l’ajoutant dans les zones suivantes d’Adob
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront*</p> </td> 
-   <td> <p>Nouveau : Standard </p>
-   Ou
-   <p>Actuelle : formule </p>
+   <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
-   <td> <p>Accès en modification aux projets</p> </td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td> <p>Accès en modification aux projets</p>
+   <p>Si vous demandez un projet à partir d'un portefeuille ou d'un programme, vous devez disposer d'un accès en modification aux portefeuilles et programmes</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Lorsque vous créez une demande de projet, vous recevez automatiquement les droits de gestion du projet. </p> </td> 
+   <td> <p>Lorsque vous créez une demande de projet, vous recevez automatiquement les droits de gestion du projet. </p> 
+   <p>Si vous demandez un projet à partir d’un portfolio ou d’un programme, vous devez disposer des autorisations de niveau Gérer sur le portfolio et le programme.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>New: Standard </p>
+   Or
+   <p>Current: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Demander un projet
 

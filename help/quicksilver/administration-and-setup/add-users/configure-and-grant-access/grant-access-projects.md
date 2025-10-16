@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '634'
 ht-degree: 93%
 
 ---
@@ -29,25 +29,21 @@ Pour plus d’informations sur l’utilisation des niveaux d’accès personnali
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
     <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p>
- <p>ou</p> 
-<p>Actuel : formule </p> 
+   <td> <p>Standard</p>
+   <p>Plan</p>
 </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> </td> 
   </tr> 

@@ -2,16 +2,16 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: '« Durée des tâches et types de durée : index des articles »'
+title: 'Durée de la tâche et types de durée : index des articles'
 description: Le type de durée d’une tâche identifie la relation entre le nombre de ressources affectées à une tâche, l’effort total et la durée totale de la tâche. Pour en savoir plus sur la durée des tâches et le type de durée, consultez les articles suivants.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 

@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: « Vue d’ensemble des tâches "Peut démarrer" »
+title: Aperçu « Peut démarrer » pour les tâches
 description: Lorsqu’une tâche peut être commencée, Adobe Workfront ajoute un indicateur « Peut démarrer » à la tâche afin d’indiquer clairement que vous pouvez commencer à travailler sur cette tâche. Vous pouvez visualiser cet indicateur dans la vue d’une liste de tâches ou d’un rapport.
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 78%
+ht-degree: 77%
 
 ---
 
@@ -20,13 +20,13 @@ Lorsqu’une tâche peut être commencée, Adobe Workfront ajoute un indicateur
 
 Lorsque la tâche peut être commencée, le champ « Peut démarrer » de la tâche adopte la valeur « True ».
 
-## Comment Workfront marque une tâche comme &quot;Peut démarrer&quot;
+## Comment Workfront marque une tâche comme « Peut démarrer »
 
 Workfront vérifie les éléments suivants avant de marquer une tâche comme « True » dans le champ « Peut démarrer » :
 
-* Si la valeur de Peut démarrer pour le parent est définie sur True, si la tâche possède un parent. Si la valeur du parent est « False », l’indicateur « Peut démarrer » de toutes les sous-tâches est également défini sur « False ».
-* Si les prédécesseurs de la tâche ainsi que les prédécesseurs de leurs parents sont terminés. Si elles sont terminées, la valeur « Peut démarrer » de la tâche est définie sur « True ». Si l’une des tâches antérieures à la tâche ou les tâches antérieures de leurs parents ne sont pas terminées ou ont un statut Terminé - En attente d’approbation, la valeur de « Peut démarrer » pour la tâche est définie sur « False ».
-* Si le type de dépendance de tâche est Démarrage-Démarrage ou Démarrage-Terminaison. Si le type de dépendance est Début/Début ou Fin, l’indicateur &quot;Peut démarrer&quot; de la tâche dépendante sera défini sur True une fois la tâche du prédécesseur en cours (ou une fois que le pourcentage d’achèvement de la tâche du prédécesseur est supérieur à 1 %).
+* Si la valeur de Peut démarrer pour le parent est définie sur True, si la tâche a un parent. Si la valeur du parent est « False », l’indicateur « Peut démarrer » de toutes les sous-tâches est également défini sur « False ».
+* Indique si les prédécesseurs de la tâche, ainsi que les prédécesseurs de leurs parents, sont terminés. Si elles sont terminées, la valeur « Peut démarrer » de la tâche est définie sur « True ». Si l’une des tâches antérieures à la tâche ou les tâches antérieures de leurs parents ne sont pas terminées ou ont un statut Terminé - En attente d’approbation, la valeur de « Peut démarrer » pour la tâche est définie sur « False ».
+* Indique si le type de dépendance de la tâche est Début-Début ou Début-Fin. Si le type de dépendance est Début-Début ou Début-Fin, l&#39;indicateur « Peut démarrer » est défini sur True pour la tâche dépendante une fois que la tâche antérieure est en cours (ou lorsque le pourcentage d&#39;achèvement de la tâche antérieure est supérieur à 1 %).
 
   Pour plus d’informations sur les tâches antérieures, consultez la section [Vue d’ensemble des tâches antérieures](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

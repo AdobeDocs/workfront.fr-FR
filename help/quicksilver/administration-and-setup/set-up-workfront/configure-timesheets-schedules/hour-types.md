@@ -9,10 +9,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 25%
+source-wordcount: '1127'
+ht-degree: 26%
 
 ---
 
@@ -45,7 +45,7 @@ Il existe deux catégories de types d&#39;heures :
    * Durée de la tâche
    * Heure de l’événement
 
-  L’administrateur [!DNL Workfront] détermine les types d’heures disponibles spécifiques au projet, comme décrit dans la section [&#x200B; Définir les types d’heures et la disponibilité](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+  L’administrateur [!DNL Workfront] détermine les types d’heures disponibles spécifiques au projet, comme décrit dans la section [ Définir les types d’heures et la disponibilité](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
   >[!NOTE]
   >
@@ -57,29 +57,29 @@ Pour plus d’informations sur la journalisation des heures et leur association 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>[!DNL Adobe Workfront] paquet</td> 
+   <td><p>Tous</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Standard ou Plan</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licence</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès</td> 
-   <td>Administrateur ou administratrice système</td>
+   <td>Configurations des niveaux d’accès</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

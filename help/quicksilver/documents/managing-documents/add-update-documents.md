@@ -6,10 +6,10 @@ description: Vous pouvez ajouter une mise à jour ou répondre aux mises à jour
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 91%
+source-wordcount: '365'
+ht-degree: 89%
 
 ---
 
@@ -23,20 +23,19 @@ Vous pouvez ajouter une mise à jour ou répondre aux mises à jour d’un docum
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licences Adobe Workfront*</td> 
-   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p> 
-   <p>Actuelle : demande ou niveau supérieur</p>
+   <td role="rowheader">Licences Adobe Workfront</td> 
+   <td> <p>Contributeur ou version ultérieure</p> 
+   <p>Requête ou supérieure</p>
    </td> 
   </tr> 
   <tr> 
@@ -51,11 +50,11 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ajouter une mise à jour à un document ou y répondre
+## Ajouter une mise à jour ou répondre à une mise à jour sur un document
 
 1. Accédez à l’objet qui contient le document, puis sélectionnez **Documents** dans le panneau de gauche.
 1. Recherchez le document dont vous avez besoin et effectuez l’une des opérations suivantes :

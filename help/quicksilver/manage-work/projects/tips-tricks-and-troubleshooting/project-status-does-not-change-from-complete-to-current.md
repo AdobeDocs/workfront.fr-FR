@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: Le statut du projet ne passe pas de Terminé à Actuel.
-description: (Bien que ce point puisse être ajouté aux questions fréquentes, je l’ai laissé dans son propre article pour des raisons de facilité de recherche.)
+title: Le statut du projet ne changera pas de Terminé à Actuel
+description: Cet article décrit un scénario dans lequel vous ne pouvez pas mettre à jour le statut du projet de Terminé à Actuel.
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 91%
+source-wordcount: '182'
+ht-degree: 77%
 
 ---
 

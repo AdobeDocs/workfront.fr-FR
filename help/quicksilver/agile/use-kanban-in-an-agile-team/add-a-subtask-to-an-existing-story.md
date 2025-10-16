@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Ajout d’une sous-tâche à un article existant sur le panorama Kanban
+title: Ajouter une sous-tâche à une histoire existante sur le tableau kanban
 description: Consultez cet article pour savoir comment créer des sous-tâches pour les histoires existantes sur le tableau Kanban.
 author: Lisa
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 96%
+source-wordcount: '312'
+ht-degree: 91%
 
 ---
 
@@ -31,8 +31,6 @@ Lors de la création de sous-tâches pour des histoires existantes, tenez compte
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,18 +38,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
-   ou
-   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Travail ou supérieur</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Accès [!UICONTROL Contribute] ou [!UICONTROL Manage] à la tâche sur laquelle se trouve la sous-tâche</td> 
+   <td>Contribuer ou gérer l’accès à la tâche sur laquelle se trouve la sous-tâche</td> 
   </tr> 
  </tbody> 
 </table>

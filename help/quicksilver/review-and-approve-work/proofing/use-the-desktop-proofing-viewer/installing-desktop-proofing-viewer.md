@@ -6,10 +6,10 @@ description: La visionneuse de relecture de bureau, conçue principalement pour 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 99%
+source-wordcount: '550'
+ht-degree: 98%
 
 ---
 
@@ -32,15 +32,14 @@ Cette application est compatible avec les systèmes d’exploitation suivants :
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Nouveau : Tous</p> <p>ou</p> <p>Actuel : Pro ou supérieur</p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 

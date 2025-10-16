@@ -2,10 +2,10 @@
 navigation-topic: business-case-and-scorecards
 title: Budgétiser les ressources dans l’analyse de rentabilité
 description: Dans le cadre de la planification des ressources, vous pouvez budgéter les fonctions nécessaires pour effectuer le travail dans un projet lorsque vous créez l’analyse de rentabilité. Pour plus d’informations sur la création d’une analyse de rentabilité, voir Créer une analyse de rentabilité pour un projet.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%

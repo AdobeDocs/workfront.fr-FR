@@ -6,10 +6,10 @@ description: Vous pouvez partager un document révisé dans Adobe Workfront en p
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1231'
-ht-degree: 95%
+source-wordcount: '1157'
+ht-degree: 94%
 
 ---
 
@@ -27,19 +27,19 @@ Si vous partagez l’épreuve, comme expliqué dans cet article, votre destinata
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Formule héritée : Select ou Premium</p> <p>Pour plus d’informations sur la relecture de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan actuel : travail ou plan</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Travail ou plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
@@ -50,13 +50,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td>Auteur ou autrice, ou modérateur ou modératrice</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander un accès aux objets</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation d’épreuve dont vous disposez, contactez votre administrateur ou administratrice de Workfront ou Workfront Proof.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -172,6 +172,6 @@ Pour plus d’informations sur le rapport d’objet des approbations d’épreuv
 
 ## Approuver une épreuve partagée
 
-Lorsqu’un utilisateur vous ajoute à un BAT et accorde le rôle d’approbateur ou de réviseur et d’approbateur à l’aide d’un workflow automatisé, la demande d’approbation s’affiche dans le widget Mes approbations de la zone Accueil. Vous pouvez ensuite afficher l’épreuve et prendre une décision d’approbation sur l’épreuve directement à partir de Workfront.
+Lorsque l’utilisateur vous ajoute à un BAT et accorde le rôle d’approbateur ou le rôle de réviseur et d’approbateur à l’aide du workflow automatisé, la demande d’approbation s’affiche dans le widget Mes approbations de la zone Accueil . Vous pouvez ensuite afficher l’épreuve et prendre une décision d’approbation sur l’épreuve directement à partir de Workfront.
 
-Pour plus d’informations sur la manière de prendre des décisions d’approbation à partir du widget Mes approbations, voir [Approuver le travail à partir de la zone d’accueil](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ou [Approbation du travail](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) dans [Approbation du travail](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Pour plus d’informations sur la manière de prendre des décisions d’approbation à partir du widget Mes approbations , voir [Approuver le travail depuis la zone d’Accueil](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ou [Approuver le travail](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) dans [Approuver le travail](../../../review-and-approve-work/manage-approvals/approving-work.md).
