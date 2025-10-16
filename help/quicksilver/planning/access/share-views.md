@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1785'
 ht-degree: 16%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 16%
 
 # Partager des vues
 
-<!--take out preview and production references at production-->
+<!--
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -40,7 +42,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -52,41 +54,16 @@ This article describes how you can share a view with others. For information abo
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produits</p> </td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
-  </tr>   
+<p>Tout package Workfront and Planning</p> 
+Ou
+<p>Tout package Workflow et Planning</p> 
+ </tr>
+
 <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td> 
-<p>L’un des plans Workfront suivants :</p> 
-<ul><li>Sélectionner</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Tous </p> 
-<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
-   <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
-<p>Votre organisation doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent demander et accorder des autorisations pour une vue à partir d’une demande d’autorisation. </p>
-<p>Les utilisateurs doivent être ajoutés au Adobe Admin Console afin d’obtenir des autorisations pour les vues Workfront Planning.</p>
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td><p>Tous</p> 
   </td> 
   </tr> 
   <tr> 
@@ -96,16 +73,84 @@ This article describes how you can share a view with others. For information abo
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>  <p>Gérer les autorisations pour une vue</p>  
+   <td>  <p>Gérer les autorisations pour une vue</p> 
+   <p><b>IMPORTANT</b></p> 
    <p>Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espace de travail peuvent partager une vue publiquement.</p></td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
+   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
+
+</td>
   </tr>
 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a view from a permission request. </p>
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning views.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to a view</p>  
+   <p>Only users with Manage permissions to a workspace can share a view publicly.</p></td> 
+  </tr> 
+
+</tbody> 
+</table> -->
 
 ## Remarques concernant le partage de vues
 
@@ -145,15 +190,11 @@ Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous dis
 
 1. Dans l’onglet de la vue, effectuez l’une des opérations suivantes :
 
-   * Selon l’environnement à partir duquel vous accédez à la vue, procédez comme suit :
-
-      * Dans l’environnement de production, passez la souris sur le nom de l’onglet de la vue à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
-
-      * <span class="preview"> Dans l’environnement Aperçu , cliquez sur l’onglet de la vue, survolez la vue avec la souris dans le menu déroulant, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Partager**.</span>
+   * Cliquez sur l’onglet de la vue, survolez la vue avec la souris dans le menu déroulant, cliquez sur le menu **Plus** ![Menu Plus](assets/more-menu.png), puis cliquez sur **Partager**.
 
      ![Menu Plus d’une vue](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   * Cliquez sur **Partager** > **Partager la vue actuelle**
+   * Cliquez sur **Partager** dans le coin supérieur droit de l&#39;écran, puis **Partager l&#39;affichage actuel**.
 
      ![Bouton Partager avec type d’enregistrement et options de partage d’affichage](assets/share-button-with-record-type-and-view-sharing-options.png)
 
@@ -278,9 +319,9 @@ Les utilisateurs et utilisatrices qui accèdent à un lien vers une vue pour laq
 1. (Conditionnel) Si vous êtes le responsable d&#39;une vue, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les domaines suivants :
 
    * Une notification in-app
-     ![&#x200B; Notification in-app pour la demande d’accès à la vue &#x200B;](assets/in-app-notification-for-access-request-for-view.png)
+     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
    * Notification par e-mail
-     ![&#x200B; Notification in-app pour la demande d’accès à la vue &#x200B;](assets/in-app-notification-for-access-request-for-view.png)
+     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou
 Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications**, puis cliquez sur la notification dans la liste.

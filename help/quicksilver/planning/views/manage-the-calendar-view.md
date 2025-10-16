@@ -6,18 +6,21 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 25%
+source-wordcount: '1772'
+ht-degree: 24%
 
 ---
 
 # Gérer la vue de calendrier
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -27,7 +30,7 @@ Pour plus d’informations sur les vues Adobe Workfront Planning et leur gestion
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les conditions d’accès requises pour la fonctionnalité de cet article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -37,47 +40,23 @@ Pour plus d’informations sur les vues Adobe Workfront Planning et leur gestion
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produits</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>L’un des plans Workfront suivants :</p> 
-<ul><li>Sélectionner</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
+<ul> 
+<li><p>Tout Workfront et tout package Planning</p></li>
+Ou
+<li><p>Tout workflow et tout package Planning</p></li></ul>
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Tous </p> 
-<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
-   <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p> Standard pour créer et supprimer des vues</p>
    <p>Contributeur ou version ultérieure pour mettre à jour les éléments d’affichage</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
    <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage ou la dupliquer</p> </td> 
@@ -87,14 +66,77 @@ Pour plus d’informations sur les vues Adobe Workfront Planning et leur gestion
    <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
    <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
 </td>
-  </tr>
-
+  </tr> 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++ 
+
+<!--Old:
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+
+</tbody> 
+</table> -->
 
 ## Gérer une vue Calendrier {#manage-a-calendar-view}
 
@@ -116,13 +158,9 @@ Pour gérer une vue Calendrier :
 1. Accédez à la page de type d’enregistrement pour laquelle vous souhaitez afficher le calendrier.
 1. Créez une vue Calendrier, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <div class="preview">
-
    ![Exemple de vue Calendrier](assets/calendar-view-example.png)
 
    Les enregistrements associés au type d&#39;enregistrement que vous avez sélectionné s&#39;affichent sous forme de barres dans un calendrier. Par défaut, la couleur des barres correspond à celle de l’icône d’enregistrement.
-
-   </div>
 
 1. Effectuez l’une des opérations suivantes pour parcourir le calendrier :
 
@@ -137,23 +175,23 @@ Pour gérer une vue Calendrier :
          * Les enregistrements qui s&#39;étendent sur plusieurs jours s&#39;affichent en haut du calendrier.
          * Les enregistrements d&#39;une durée inférieure ou égale à un jour s&#39;affichent dans la moitié inférieure de la vue Calendrier. Si vous avez choisi d&#39;afficher l&#39;heure des dates de début et de fin, l&#39;enregistrement s&#39;affiche à l&#39;heure appropriée dans la journée où il se produit.
 
-1. <span class="preview">(Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.  </span>
+1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.
 
-1. <span class="preview">Pour créer des enregistrements dans la vue Calendrier ou modifier leurs dates, effectuez l&#39;une des opérations suivantes :</span>
+1. Pour créer des enregistrements dans la vue Calendrier ou modifier leurs dates, effectuez l&#39;une des opérations suivantes :
 
-   * <span class="preview">Double-cliquez n’importe où sur le calendrier pour créer un enregistrement. </span>
+   * Double-cliquez n&#39;importe où sur le calendrier pour créer un enregistrement.
 
-     <span class="preview">Pour plus d’informations, voir [Création d’enregistrements](/help/quicksilver/planning/records/create-records.md).</span>
+     Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
-   * <span class="preview">Cliquez sur la marge gauche ou droite d’une barre d’enregistrement, puis faites-la glisser et déposez-la à un nouvel emplacement. Le redimensionnement des barres des enregistrements met immédiatement à jour leurs dates de début ou de fin. </span>
+   * Cliquez sur la marge gauche ou droite d’une barre d’enregistrement, puis faites-la glisser et déposez-la à un nouvel emplacement. Le redimensionnement des barres des enregistrements met immédiatement à jour leurs dates de début ou de fin.
 
-   * <span class="preview">Glissez-déposez les barres d’enregistrement pour mettre à jour leur position et leurs dates. Le déplacement des barres des enregistrements met immédiatement à jour leurs dates de début et de fin.</span>
+   * Faites glisser et déposez les barres d’enregistrement pour mettre à jour leur position et leurs dates. Le déplacement des barres des enregistrements met immédiatement à jour leurs dates de début et de fin.
 
-     <span class="preview">Pour plus d’informations, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).</span>
+     Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-   * <span class="preview">[Hauteur de ligne](#modify-row-height)</span>
+   * [Hauteur de ligne](#modify-row-height)
    * [Paramètres](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -277,7 +315,6 @@ Pour ajouter un filtre à une vue Calendrier :
 1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
 1. (Facultatif) Cliquez sur **Filtres** pour fermer la zone des filtres. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<span class="preview">
 
 ### Modifier la hauteur de ligne
 

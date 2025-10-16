@@ -1,11 +1,11 @@
 ---
-title: Configurer les paramètres de type d’enregistrement
+title: Configuration de la zone Paramètres d’un type d’enregistrement
 description: Vous pouvez modifier les types d’enregistrements après les avoir enregistrés dans la page Paramètres.
 hide: true
 hidefromtoc: true
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '443'
 ht-degree: 10%
 
 ---
@@ -22,7 +22,7 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-# Configurer les paramètres de type d’enregistrement
+# Configuration de la zone Paramètres d’un type d’enregistrement
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -66,10 +66,8 @@ Selon les fonctionnalités que vous souhaitez définir pour un type d’enregist
 <li><p>Tout package Planning permettant de créer des types d'enregistrements connectables</p></li>
 <li><p>Package Planning Plus pour créer des types d'enregistrements centralisés</p></li>
 </ul>
-Ou :
-<ul><li><p>N’importe quel package de workflow</p> </li>
-Et
-<li><p>Package Planning Prime ou Ultimate</p></li></ul>
+<p>Ou :</p>
+<ul><li><p>Un package Workflow and Planning Prime ou Ultimate</p> </li></ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre gestionnaire de compte Workfront. </p> 
    </td>
 

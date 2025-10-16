@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3985'
-ht-degree: 36%
+source-wordcount: '3876'
+ht-degree: 37%
 
 ---
 
@@ -17,9 +17,12 @@ ht-degree: 36%
 
 <!--remove preview and production references at production-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -29,7 +32,7 @@ Pour plus d’informations sur les vues d’enregistrement, consultez la section
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les conditions d’accès requises pour la fonctionnalité de cet article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -39,47 +42,23 @@ Pour plus d’informations sur les vues d’enregistrement, consultez la section
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produits</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>L’un des plans Workfront suivants :</p> 
-<ul><li>Sélectionner</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
+<ul> 
+<li><p>Tout Workfront et tout package Planning</p></li>
+Ou
+<li><p>Tout workflow et tout package Planning</p></li></ul>
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Tous </p> 
-<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
-   <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p> Standard pour créer et supprimer des vues</p>
    <p>Contributeur ou version ultérieure pour mettre à jour les éléments d’affichage</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
    <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage ou la dupliquer</p> </td> 
@@ -89,13 +68,76 @@ Pour plus d’informations sur les vues d’enregistrement, consultez la section
    <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
    <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++     
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table> -->
 
 ## Gérer une vue chronologique {#manage-a-timeline-view}
 
@@ -119,9 +161,9 @@ Tenez compte des points suivants :
 Pour gérer une vue chronologique :
 
 1. Accédez à la page du type d’enregistrement pour lequel vous souhaitez consulter la chronologie.
-1. <span class="preview">Créez une vue chronologique, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Créez une vue chronologique, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Exemple de vue Chronologie](assets/timeline-view-example.png)</span>
+   ![Exemple de vue Chronologie](assets/timeline-view-example.png)
 
    Les enregistrements associés au type d’enregistrement que vous avez sélectionné s’affichent sous forme de barres dans une chronologie et sont triés par ordre chronologique de leur date de début, par défaut.
 
@@ -175,9 +217,9 @@ Pour gérer une vue chronologique :
 
 1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
-   1. <span class="preview">Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) et commencez à saisir un mot-clé associé à un champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche en regard de l’élément de recherche et l’enregistrement avec la correspondance correcte est mis en surbrillance. </span>
+   1. Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de la recherche et l’enregistrement correspondant est surligné.
 
-      <span class="preview">![Zone de recherche et vue chronologique des résultats](assets/search-box-and-results-timeline-view.png)</span>
+      ![Zone de recherche et vue chronologique des résultats](assets/search-box-and-results-timeline-view.png)
 
       Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
 
@@ -187,34 +229,34 @@ Pour gérer une vue chronologique :
    1. (Facultatif) S’il y a plus d’une correspondance, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour accéder à l’ensemble des correspondances dans le tableau.
    1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer le mot-clé de recherche.
 
-   1. <span class="preview">(Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.  </span>
+   1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.
 
 1. (Facultatif) Cliquez sur **Répartition** pour afficher les enregistrements connectés sur le journal.
 
    Pour plus d’informations, reportez-vous à la section [Utilisation de la fonction Répartition pour afficher les enregistrements connectés en mode Chronologie](#break-down-connected-records-in-the-timeline-view) de cet article.
-1. <span class="preview">Pour créer des enregistrements dans la vue Chronologie ou modifier leurs dates, effectuez l’une des opérations suivantes :</span>
+1. Pour créer des enregistrements dans la vue Chronologie ou modifier leurs dates, effectuez l’une des opérations suivantes :
 
-   * <span class="preview">Double-cliquez n’importe où sur le journal pour créer un enregistrement. </span>
+   * Double-cliquez n’importe où sur la chronologie pour créer un enregistrement.
 
-     <span class="preview">Pour plus d’informations, voir [Création d’enregistrements](/help/quicksilver/planning/records/create-records.md).</span>
-
-   <!--Andrea verifying>[!TIP]
-    >
-    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
-
-   * <span class="preview">Cliquez sur la marge gauche ou droite d’une barre d’enregistrement, puis faites-la glisser et déposez-la à un nouvel emplacement. Le redimensionnement des barres des enregistrements met immédiatement à jour leurs dates de début ou de fin. </span>
-
-   * <span class="preview">Glisser-déposer des enregistrements pour mettre à jour leur position et leurs dates dans la chronologie. Le déplacement des barres des enregistrements met immédiatement à jour leurs dates de début et de fin.</span>
-     <span class="preview">Pour plus d’informations, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).</span>
+     Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
-   ><span class="preview"> le redimensionnement et le glisser-déposer des enregistrements n’est pas possible dans la chronologie pour les types d’objets Workfront et AEM Assets affichés dans la répartition.</span>
+   >Un double-clic pour créer des enregistrements dans la chronologie n’est pas possible à l’intérieur d’un regroupement.
 
+   * Cliquez sur la marge gauche ou droite d’une barre d’enregistrement, puis faites-la glisser et déposez-la à un nouvel emplacement. Le redimensionnement des barres des enregistrements met immédiatement à jour leurs dates de début ou de fin.
+
+   * Effectuez un glisser-déposer des enregistrements pour mettre à jour leur position et leurs dates dans la chronologie. Le déplacement des barres des enregistrements met immédiatement à jour leurs dates de début et de fin.
+
+     Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+
+   >[!TIP]
+   >
+   >Le redimensionnement et le glisser-déposer des enregistrements ne sont pas possibles dans la chronologie pour les types d’objet Workfront et AEM Assets affichés dans la répartition.
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-   * [Regroupement &#x200B;](#add-grouping)
+   * [Regroupement ](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
@@ -362,9 +404,9 @@ Tenez compte des points suivants lorsque vous utilisez des regroupements dans la
 Pour ajouter un regroupement dans la vue chronologique :
 
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
-1. <span class="preview">Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.</span>
+1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.
 
-   <span class="preview">![Regroupement de la vue chronologique de l’interface utilisateur avec des champs liés](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![Regroupement de la vue chronologique de l’interface utilisateur avec des champs liés](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
@@ -372,9 +414,9 @@ Pour ajouter un regroupement dans la vue chronologique :
 
 1. (Facultatif) Répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 
-   <span class="preview">Le nombre de champs sélectionnés pour le regroupement s’affiche en regard de l’icône Regroupement.</span>
+   Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
 
-   <span class="preview">![Regroupement appliqué en mode Chronologie](assets/grouping-applied-in-timeline-view.png)</span>
+   ![Regroupement appliqué en mode Chronologie](assets/grouping-applied-in-timeline-view.png)
 
 1. Dans la zone **Regrouper les enregistrements par**, effectuez un glisser-déposer des regroupements dans l’ordre approprié.
 
@@ -537,11 +579,7 @@ Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&
 1. En mode **Standard** ou **Compact**, cliquez sur **Répartition** dans le coin supérieur droit de la vue chronologique.
 1. Développez la zone **Sélectionner un type d’enregistrement lié** et sélectionnez un type d’enregistrement connecté. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   <div class="preview">
-
    ![Sélecteur de répartition et bouton en mode Chronologie](assets/breakdown-picker-and-button-on-timeline.png)
-
-   </div>
 
    >[!TIP]
    >

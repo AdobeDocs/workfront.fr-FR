@@ -4,9 +4,9 @@ description: Dans Adobe Workfront Planning, vous pouvez activer un type d'enregi
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1337'
 ht-degree: 5%
 
 ---
@@ -66,22 +66,24 @@ Pour plus d’informations, consultez l’un des articles suivants :
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Tout package Workfront</p></li>
-<p>Et</p>
-<li><p>Tout package Planning permettant de créer des types d'enregistrements connectables</p></li>
-<li><p>Un package Planning Plus pour créer des types d'enregistrements globaux</p></li>
-</ul>
-Ou :
-<ul><li><p>Un workflow Prime ou un package Ultimate</p> </li>
-Et
-<li><p>Un package Planning Prime ou Ultimate</p></li></ul>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre gestionnaire de compte Workfront. </p> 
+<p>Pour configurer les types d’enregistrements connectables : </p>
+<ul> 
+<li><p>Tout package Workfront et tout package Planning</p></li>
+<p>Ou</p>
+<li><p>Packages Prime et Ultimate de workflow et de planification</p></li></ul>
+
+<p>Pour configurer les types d’enregistrements globaux :</p>
+
+<ul> 
+<li><p>Tout package Workfront et un package Planning Plus</p></li>
+<p>Ou</p>
+<li><p>Packages Prime et Ultimate de workflow et de planification</p></li></ul>
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
@@ -90,7 +92,7 @@ Et
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Gérez les autorisations sur un espace de travail et sur le type d’enregistrement</a> </p>  
+   <td>   <p>Gérer les autorisations d’un espace de travail</p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
   </tr>  
 </tbody> 
@@ -100,7 +102,46 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++   
 
-## Configuration des types d’enregistrements globaux
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Workflow Prime or Ultimate package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> -- >
+
+## Configure global record types
 
 <!--this is a UI term; don't change the title of this section-->
 
@@ -121,7 +162,7 @@ Pour configurer un type d’enregistrement comme global :
    La page Workspace s’ouvre et les types d’enregistrements s’affichent.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte du type d’enregistrement
+   * Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte du type d’enregistrement. <!--add new screen shot without Share for now-->
 
      ![Autres options de menu de la carte de type d’enregistrement](assets/more-menu-options-from-record-type-card.png)
 
@@ -179,7 +220,7 @@ Pour configurer un type d’enregistrement comme global :
 
    Le type d’enregistrement ajouté à partir d’un type d’enregistrement global dans l’espace de travail secondaire affiche également une icône **type d’enregistrement global** ![icône de type d’enregistrement global](assets/global-icon.png).
 1. (Facultatif) Revenez à l’espace de travail d’origine où vous avez créé le type d’enregistrement global et modifiez le type d’enregistrement en suivant les étapes 1 à 4 ci-dessus <!--ensure this stays accurate-->
-1. (Facultatif) Consultez la liste des espaces de travail où l’enregistrement global a été ajouté dans la section **Espaces de travail où ce type d’enregistrement est utilisé**.
+1. (Facultatif) Consultez la liste des espaces de travail où l’enregistrement global a été ajouté dans la section **Espaces de travail où ce type d’enregistrement est utilisé**. Le propriétaire de l’espace de travail est également répertorié en regard du nom de l’espace de travail.
 
    ![Espaces de travail dans lesquels ce type d’enregistrement est utilisé](assets/workspaces-where-this-record-type-is-used.png)
 
@@ -201,7 +242,7 @@ Pour configurer un type d’enregistrement comme connectable :
 
    * Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte du type d’enregistrement
 
-     ![Autres options de menu de la carte de type d’enregistrement](assets/more-menu-options-from-record-type-card.png)
+     ![Plus d’options de menu à partir de la carte de type d’enregistrement](assets/more-menu-options-from-record-type-card.png) <!--add new screen shot without Share for now-->
 
    * Cliquez sur une carte de type d’enregistrement pour ouvrir la page de type d’enregistrement, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement.
 1. Cliquez sur **Modifier** ou **Paramètres**.

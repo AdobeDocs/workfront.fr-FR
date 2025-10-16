@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1145'
 ht-degree: 40%
 
 ---
@@ -16,12 +16,14 @@ ht-degree: 40%
 
 # Gérer les vues d’enregistrement
 
-<!-- take preview and production references out at production-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -54,7 +56,7 @@ Pour plus d’informations sur la gestion des vues d’enregistrement Workfront 
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès. 
++++ Développez pour afficher les conditions d’accès requises pour la fonctionnalité de cet article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -64,48 +66,23 @@ Pour plus d’informations sur la gestion des vues d’enregistrement Workfront 
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produits</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>L’un des plans Workfront suivants :</p> 
-<ul><li>Sélectionner</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning n’est pas disponible pour les plans Workfront hérités</p> 
+<ul> 
+<li><p>Tout Workfront et tout package Planning</p></li>
+Ou
+<li><p>Tout workflow et tout package Planning</p></li></ul>
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Package Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Tous </p> 
-<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, contactez votre gestionnaire de compte Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
-   <td> 
-<p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p> Standard pour créer et supprimer des vues</p>
    <p>Contributeur ou version ultérieure pour mettre à jour les éléments d’affichage</p>
-   <p>Workfront Planning n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
    <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage ou la dupliquer</p> </td> 
@@ -115,13 +92,78 @@ Pour plus d’informations sur la gestion des vues d’enregistrement Workfront 
    <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
    <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table>-->
 
 ## Remarques concernant l’utilisation des vues d’enregistrement
 
@@ -171,8 +213,8 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 | Afficher les enregistrements par mois |           | ✓ | ✓ |
 | Afficher les enregistrements par semaine |           |               | ✓ |
 | Exporter les informations d’une vue | ✓ |               |    |
-| <span class="preview">Affichage en plein écran</span> | ✓ | ✓ | ✓ |
-| <span class="preview">Créer des enregistrements dans la vue</span> | ✓ | ✓ | ✓ |
+| Afficher en plein écran | ✓ | ✓ | ✓ |
+| Créer des enregistrements dans la vue | ✓ | ✓ | ✓ |
 
 ## Créer ou modifier des vues {#create-or-edit-views}
 
@@ -189,10 +231,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
    Par défaut, tous les enregistrements du type sélectionné s’affichent dans la vue tableau.
 
-1. Selon l’environnement utilisé, procédez comme suit :
-
-   * Dans l’environnement de production, cliquez sur l’onglet **+Affichage**.
-   * <span class="preview">Dans l’environnement de Prévisualisation, cliquez sur l’icône déroulante ![Icône déroulante](assets/drop-down-icon.png) en regard du nom de la vue actuelle, puis cliquez sur **+Nouvelle vue**.</span>
+1. Cliquez sur l’icône déroulante ![Icône déroulante](assets/drop-down-icon.png) en regard du nom de la vue actuelle, puis cliquez sur **+Nouvelle vue**.
 
 1. Choisissez parmi les types de vues suivants :
 
@@ -200,9 +239,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
    * Journal
    * Calendrier
 
-   Dans l’environnement de production , un nouvel onglet est créé avec la vue sélectionnée.
-
-   Selon la largeur de l’écran, d’autres vues peuvent s’afficher dans le menu **Plus** ![Plus](assets/more-menu.png).
+1. Choisissez un type de vue, puis cliquez sur **Créer**. Une nouvelle vue est ajoutée au menu déroulant.
 
    >[!TIP]
    >
@@ -211,16 +248,14 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
    >Pour créer une vue de calendrier ou de chronologie, le type d’enregistrement pour lequel vous créez la vue doit comporter au moins deux champs de date.
    >
    >Dans le cas contraire, les options Chronologie et Calendrier sont grisées.
-   >
+   >  
 
-   <span class="preview">Dans l&#39;environnement Aperçu, choisissez un type de vue puis cliquez sur **Créer**. Une nouvelle vue est ajoutée au menu déroulant. </span>
+   ![Créer une zone de vue](assets/create-view-box.png)
 
-   <span class="preview">![Créer une zone de vue](assets/create-view-box.png)</span>
+1. (Facultatif) Pour modifier une vue existante, cliquez sur le menu déroulant situé à droite du nom de la vue actuelle, puis tapez le nom d&#39;une vue dans le champ **Rechercher** et appuyez sur la touche Entrée du clavier.
+1. (Facultatif) Dans le menu déroulant Affichage , faites glisser et déposez les vues dans l’ordre de votre préférence.
 
-1. <span class="preview">Pour modifier une vue existante, saisissez son nom dans le champ **Rechercher** et appuyez sur la touche Entrée du clavier.</span>
-1. <span class="preview">Dans le menu déroulant des vues, faites glisser et déposez les vues par ordre de préférence.</span>
-
-   <span class="preview">![Liste déroulante Afficher les types de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)</span>
+   ![Liste déroulante Afficher les types de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Le cas échéant) Cliquez sur **Suivant** lors de la création d’une vue chronologique ou de calendrier.
 
@@ -254,7 +289,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
    Double-cliquez sur le nom de la vue et commencez à saisir le nouveau nom. <!--ensure there is not another saving step here?!-->
 
-1. <span class="preview">(Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir un affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.  </span>
+1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir un affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.
 
 1. (Facultatif) Pour gérer un type de vue spécifique, consultez les articles suivants :
 

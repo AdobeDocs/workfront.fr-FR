@@ -3,13 +3,13 @@ title: Création de hiérarchies Workspace
 description: Vous pouvez créer plusieurs hiérarchies d’espace de travail entre les types d’enregistrements d’un espace de travail.
 hide: true
 hidefromtoc: true
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 20%
+source-wordcount: '117'
+ht-degree: 23%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 
@@ -34,6 +34,8 @@ Vous pouvez créer plusieurs hiérarchies d’espace de travail entre les types 
 
 <!--check the access to see if you oversimplified???-->
 
+<!--Update the TOC for this to publish-->
+
 +++ Développez pour afficher les exigences d’accès afin d’effectuer les étapes de cet article :  
 
 <table style="table-layout:auto"> 
@@ -41,27 +43,32 @@ Vous pouvez créer plusieurs hiérarchies d’espace de travail entre les types 
 </col> 
 <col> 
 </col> 
-<tbody>
-
+<tbody> 
+    <tr> 
 <tr> 
-   <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout package de workflow Workfront</p> 
-<p>Tout package Workfront Planning</p> 
+<ul> 
+<li><p>Tout Workfront et tout package Planning</p></li>
+<p>Ou</p>
+<li><p>Tout workflow et tout package Planning</p></li></ul>
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p>Standard</p>
-  </td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td><p>Vous recevez des autorisations de gestion pour les espaces de travail que vous créez. </p> </td> 
-  </tr> 
+   <td>   <p>Gérer les autorisations d’un espace de travail</p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
+  </tr>  
 </tbody> 
 </table>
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++
