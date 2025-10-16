@@ -6,16 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1144'
 ht-degree: 40%
 
 ---
 
 
 # Gérer les vues d’enregistrement
-
 
 <!--
 
@@ -70,10 +69,8 @@ Pour plus d’informations sur la gestion des vues d’enregistrement Workfront 
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Tout Workfront et tout package Planning</p></li>
-Ou
-<li><p>Tout workflow et tout package Planning</p></li></ul>
+<p>Tout Workfront et tout package Planning</p>
+<p>Tout workflow et tout package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
   <tr> 

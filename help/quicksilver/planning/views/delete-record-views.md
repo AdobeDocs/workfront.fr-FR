@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 15%
+source-wordcount: '222'
+ht-degree: 18%
 
 ---
 
 # Supprimer les vues d’enregistrement
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -42,11 +42,10 @@ La vue est supprimée pour tous les utilisateurs qui disposent des autorisations
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Tout Workfront et tout package Planning</p></li>
-Ou
-<li><p>Tout workflow et tout package Planning</p></li></ul>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+   <p>Tout Workfront et tout package Planning</p>
+
+<p>Tout workflow et tout package Planning</p>
+   <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
@@ -139,20 +138,10 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    Par défaut, tous les enregistrements du type sélectionné s’affichent dans la vue tableau.
 
 
-1. Dans l’onglet de la vue, effectuez l’une des opérations suivantes :
+1. Dans l’onglet de la vue, cliquez sur l’onglet de la vue, survolez la vue avec la souris dans le menu déroulant, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Supprimer**.</span>
 
-   * Selon l’environnement à partir duquel vous accédez à la vue, procédez comme suit :
+   ![Menu Plus avec options](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-      * Dans l’environnement de production, passez la souris sur le nom de l’onglet de la vue à partager et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Supprimer**.
-
-     >[!TIP]
-     >
-     >Vous devrez peut-être cliquer sur **Plus** à droite du dernier onglet pour trouver la vue à supprimer.
-
-      * <span class="preview"> Dans l&#39;environnement Aperçu , cliquez sur l&#39;onglet de la vue, survolez la vue avec la souris dans le menu déroulant, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Supprimer**.</span>
-
-     ![Menu Plus avec options](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-1. Cliquez sur **Supprimer** pour confirmer. <!--ensure there is not another saving step here?!-->
+1. Cliquez sur **Supprimer** pour confirmer.
 
    La vue est supprimée pour tous les utilisateurs qui peuvent accéder à la zone des enregistrements.

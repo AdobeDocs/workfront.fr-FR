@@ -6,18 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '779'
 ht-degree: 29%
 
 ---
 
 # Vue d’ensemble des champs de formule
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -27,9 +29,11 @@ Les champs de type formule génèrent une nouvelle valeur en utilisant des valeu
 
 Pour plus d’informations, consultez la section « Formule » de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-## Conditions d’accès
+<!--do we need these for an overview article?
 
-+++ Développez pour afficher les conditions d’accès requises pour la fonctionnalité de cet article. 
+## Access requirements
+
++++ Expand to view the access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -41,30 +45,30 @@ Pour plus d’informations, consultez la section « Formule » de l’article [C
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Tout Workfront et tout package Planning</p></li>
-Ou
-<li><p>Tout workflow et tout package Planning</p></li></ul>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Gérer les autorisations d’un espace de travail</p>  
-   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table>
+</table> 
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+-->
 
 <!--Old:
 
@@ -146,19 +150,11 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
   Pour plus d’informations, consultez la section « Formule » de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 * Vous pouvez référencer des champs de formule dans de nouvelles formules. Une fois que la valeur est mise à jour dans un champ référencé dans un champ de formule, tous les champs suivants référençant ce champ ou les champs de formule qui contiennent ce champ sont automatiquement mis à jour.
 
-<div class="preview">
-
 * Lorsque vous mettez à jour un champ de formule ou un champ susceptible de l’impacter, une alerte vous informe de l’impact de votre modification. L’alerte s’affiche dans les cas suivants :
 
    * Lorsque vous mettez à jour un champ de formule (à l’exclusion des modifications de nom et de description) lorsque ce champ comporte des champs de formule ou de recherche dépendants. L’alerte répertorie ces champs dépendants et vous demande si vous souhaitez continuer.
 
    * Lorsque vous supprimez un champ utilisé dans une expression de formule ou comme champ de recherche. L’alerte répertorie la formule dépendante et les champs de recherche et vous demande si vous souhaitez continuer la suppression.
-
-</div>
-
-
-
-<div class="preview">
 
 ## Limites des champs de formule
 
@@ -177,7 +173,6 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
      Par exemple, si je sélectionne Nombre pour le Format d&#39;un champ de formule et que les champs utilisés dans la formule sont des champs de texte qui affichent uniquement des valeurs non numériques, le résultat de la formule s&#39;affichera sous la forme `#ERROR!`, car il ne peut pas analyser le texte en un nombre.
 
-</div>
 
 ## Formules prises en charge
 

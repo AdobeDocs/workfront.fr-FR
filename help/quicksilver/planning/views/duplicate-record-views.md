@@ -6,20 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 24%
+source-wordcount: '286'
+ht-degree: 28%
 
 ---
 
 # Dupliquer les vues d’enregistrement
 
-<!--remove preview and production references-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -48,10 +46,9 @@ La duplication des vues est identique pour tous les types de vues dans Workfront
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Tout Workfront et tout package Planning</p></li>
-Ou
-<li><p>Tout workflow et tout package Planning</p></li></ul>
+<p>Tout Workfront et tout package Planning</p>
+
+<p>Tout workflow et tout package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
   <tr> 
@@ -141,11 +138,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    La page de type d’enregistrement s’ouvre.
 Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.
 
-1. Selon l’environnement utilisé, procédez comme suit :
+1. Cliquez sur l’icône de liste déroulante ![Icône de liste déroulante](assets/drop-down-icon.png) en regard du nom de la vue actuelle, survolez le nom d’une vue avec la souris, cliquez sur **Plus**, puis **Dupliquer**.
 
-   * Dans l’environnement de production, passez la souris sur l’un des noms de la vue dans l’onglet Vue, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png) à gauche du nom de la vue, puis cliquez sur **Dupliquer**.
-   * <span class="preview">Dans l’environnement de Prévisualisation, cliquez sur l’icône déroulante ![Icône déroulante](assets/drop-down-icon.png) en regard du nom de la vue actuelle, survolez le nom d’une vue avec la souris, cliquez sur **Plus**, puis **Dupliquer**.</span>
+   ![Menu plus affiché avec des options](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-     ![Menu plus affiché avec des options](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-     La vue est dupliquée et le nom de la nouvelle vue suit le modèle suivant : `Original view's name (Copy)`. Le nouvel onglet de vue s’affiche à la fin de tous les onglets de vue.
+   La vue est dupliquée et le nom de la nouvelle vue suit le modèle suivant : `Original view's name (Copy)`. Le nouvel onglet de vue s’affiche à la fin de tous les onglets de vue.
