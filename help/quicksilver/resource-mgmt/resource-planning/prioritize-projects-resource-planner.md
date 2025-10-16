@@ -107,7 +107,7 @@ Pour modifier la priorité de planification de projet :
 >
 >Votre entreprise doit disposer d’une formule Workfront d’entreprise ou supérieure pour hiérarchiser les projets dans l’optimisateur de porfolio.
 >
->Pour plus d’informations sur les formules de Workfront, voir [Nos formules](https://business.adobe.com/products/workfront/pricing.html).
+>Pour plus d’informations sur les formules de Workfront, voir [Nos formules](https://business.adobe.com/fr/products/workfront/pricing.html).
 >
 >Pour plus d’informations sur la hiérarchisation des projets dans l’optimisateur de portfolio, voir [Hiérarchiser des projets dans l’optimisateur de portfolio](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

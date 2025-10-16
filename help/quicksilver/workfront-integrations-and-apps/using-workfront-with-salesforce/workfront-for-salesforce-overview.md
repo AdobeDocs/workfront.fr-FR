@@ -26,7 +26,7 @@ ht-degree: 63%
 >
 >Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Vous pouvez installer [!DNL Adobe Workfront for Salesforce] pour permettre aux personnes utilisant [!DNL Salesforce] de soumettre des requêtes [!DNL Workfront] et de créer automatiquement des projets sans jamais quitter [!DNL Salesforce].
 

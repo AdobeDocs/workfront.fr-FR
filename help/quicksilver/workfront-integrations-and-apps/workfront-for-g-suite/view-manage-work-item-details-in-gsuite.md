@@ -28,7 +28,7 @@ ht-degree: 60%
 >
 >Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Google Workspace, voir [Modules Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) et [Modules de calendrier Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Google Workspace, voir [Modules Gmail](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) et [Modules de calendrier Google](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Vous pouvez afficher et gérer les détails d’un élément de travail sans quitter [!DNL Google Workspace]. Par exemple, vous pouvez lire la description d’une tâche, afficher son objet parent, modifier son statut et la marquer comme terminée, le tout dans [!DNL Adobe Workfront for Google Workspace].
 

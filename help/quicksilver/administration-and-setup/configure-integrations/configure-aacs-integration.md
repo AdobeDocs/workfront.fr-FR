@@ -122,7 +122,7 @@ Avant de commencer à mapper les champs de métadonnées, vous devez configurer 
 
 Pour configurer les champs de métadonnées, procédez comme suit :
 
-1. Configurez un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe  [!DNL Workfront]  et  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configurez un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe  [!DNL Workfront]  et  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configurez les champs de formulaire personnalisés dans Workfront. [!DNL Workfront] comporte de nombreux champs personnalisés intégrés que vous pouvez utiliser. Cependant, vous pouvez également créer vos propres champs personnalisés, comme expliqué dans la section [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -152,7 +152,7 @@ Vous pouvez mapper n’importe quel champ pris en charge par Workfront à une ba
 
 Une fois les balises créées dans Experience Manager Assets, elles s’affichent dans la liste déroulante Balises de la section Métadonnées. Pour lier un champ à une balise, sélectionnez `xcm:keywords` dans la liste déroulante du champ Experience Manager Assets de la zone de mappage des métadonnées.
 
-Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
+Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/fr/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Champs de schéma de métadonnées personnalisés Experience Manager Assets**
 

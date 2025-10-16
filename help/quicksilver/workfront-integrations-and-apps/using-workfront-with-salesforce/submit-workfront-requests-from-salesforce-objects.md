@@ -23,7 +23,7 @@ ht-degree: 82%
 >
 >Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Après avoir installé [!DNL Adobe Workfront for Salesforce], vous pouvez soumettre des demandes [!DNL Workfront] à partir d’opportunités et de comptes [!DNL Salesforce]. Cette fonctionnalité est disponible dans les frameworks [!DNL Classic] et [!DNL Lightning Experience].
 

@@ -303,4 +303,4 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 > 
 >Si votre organisation a été migrée vers Adobe Admin Console et qu’un utilisateur ne quitte pas le statut Désactivé et Approbation en attente dans les minutes qui suivent, vous pouvez ajouter directement le lot d’utilisateurs au Adobe Admin Console.
 >
->Pour obtenir des instructions, voir la section [Gérer plusieurs utilisateurs et utilisatrices | Chargement CSV en masse](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html?lang=fr) dans la documentation Adobe.
+>Pour obtenir des instructions, voir la section [Gérer plusieurs utilisateurs et utilisatrices | Chargement CSV en masse](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html?lang=fr) dans la documentation Adobe.

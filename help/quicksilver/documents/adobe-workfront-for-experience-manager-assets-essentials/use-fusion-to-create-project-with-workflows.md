@@ -82,7 +82,7 @@ Dans Workfront Fusion, si vous souhaitez créer un projet qui inclut des workflo
 1. Ajoutez le module **Workfront** > **Misc Action** à votre scénario.
 1. Dans le champ **Connexion**, sélectionnez la connexion Workfront qui se connecte au compte que ce module utilisera.
 
-   Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
+   Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
 
    Pour obtenir des instructions sur la création de l’ID client et du secret client, vous devez créer une connexion, voir [Création d’une application OAuth](#create-an-oauth-application) dans cet article.
 
@@ -164,4 +164,4 @@ Vous devez configurer une application OAuth dans Workfront pour la connexion de 
 
 Vous utiliserez cet ID client et ce secret client lors de la configuration de la connexion du module dans Fusion.
 
-Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
+Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
