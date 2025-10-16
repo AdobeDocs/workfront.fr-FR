@@ -1,26 +1,17 @@
 ---
 title: Configuration de la zone Paramètres d’un type d’enregistrement
-description: Vous pouvez modifier les types d’enregistrements après les avoir enregistrés dans la page Paramètres.
-hide: true
-hidefromtoc: true
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 10%
-
----
-
-
-<!--add better metadata at release:
-
-title: Configure Record Type Settings
-description: You can edit record types after they have been saved in the Settings page. 
+description: Outre la modification d’un type d’enregistrement dans la zone Modifier le type d’enregistrement , vous pouvez également modifier les types d’enregistrement dans la page Paramètres .
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-recommendations: noDisplay, noCatalog 
+recommendations: noDisplay, noCatalog
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 9%
 
--->
+---
+
 
 # Configuration de la zone Paramètres d’un type d’enregistrement
 
@@ -32,7 +23,7 @@ recommendations: noDisplay, noCatalog
 
 Vous pouvez configurer des paramètres supplémentaires pour un type d’enregistrement après les avoir enregistrés dans Adobe Workfront Planning.
 
-Selon les fonctionnalités que vous souhaitez définir pour un type d’enregistrement, vous pouvez configurer des paramètres supplémentaires pour celui-ci en effectuant l’une des opérations suivantes :
+Selon les fonctionnalités que vous souhaitez définir pour un type d’enregistrement, vous pouvez configurer des paramètres supplémentaires en effectuant l’une des opérations suivantes :
 
 <!--the above will need to be reworded when we add automations and manage request forms to this area-->
 
@@ -46,7 +37,7 @@ Selon les fonctionnalités que vous souhaitez définir pour un type d’enregist
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les conditions d’accès requises pour la fonctionnalité de cet article.
++++ Développez pour afficher les conditions d’accès requises pour la fonctionnalité de cet article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,30 +46,36 @@ Selon les fonctionnalités que vous souhaitez définir pour un type d’enregist
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Tout package Workfront</p></li>
-<p>Et</p>
-<li><p>Tout package Planning permettant de créer des types d'enregistrements connectables</p></li>
-<li><p>Package Planning Plus pour créer des types d'enregistrements centralisés</p></li>
-</ul>
-<p>Ou :</p>
-<ul><li><p>Un package Workflow and Planning Prime ou Ultimate</p> </li></ul>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre gestionnaire de compte Workfront. </p> 
-   </td>
+<p>Tout package Workfront and Planning</p>
+<p>Tout package Workfront and Planning</p>
+<p><b>NOTE</b></p>
+<p>Pour configurer les types d’enregistrements connectables : </p>
+<ul> 
+<li><p>Tout package Workfront et tout package Planning</p></li>
+<p>Ou</p>
+<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 
-<tr> 
+<p>Pour configurer les types d’enregistrements globaux :</p>
+
+<ul> 
+<li><p>Tout package Workfront et un package Planning Plus</p></li>
+<p>Ou</p>
+<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p>
+   </td> </tr>
+  <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Gérer des autorisations relatives à un espace de travail</a> </p>  
+   <td>   <p>Gérer les autorisations d’un espace de travail</p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
   </tr>  
 </tbody> 
@@ -86,7 +83,7 @@ Selon les fonctionnalités que vous souhaitez définir pour un type d’enregist
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++    
 
 <!--Old:
 
@@ -164,12 +161,16 @@ Vous pouvez définir des fonctionnalités inter-espaces de travail pour un type 
 1. Utilisez l’une des méthodes suivantes :
 
    * Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte de type d’enregistrement, puis cliquez sur **Paramètres**
-Ou
+
+     ![Autres options de menu de la carte de type d’enregistrement](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+
+     Ou
+
    * Cliquez sur une carte de type d’enregistrement pour ouvrir la page de type d’enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Paramètres**.
 
-   <!--update screen shot at release-->
+   <!--update screen shot at prod??-->
 
-   ![Autres options de menu de la carte de type d’enregistrement](assets/more-menu-options-from-record-type-card.png)
+   ![Paramètres de plusieurs espaces de travail sur la page Paramètres](assets/settings-page-cross-workspace-settings.png)
 
 1. La section **Paramètres de l’espace de travail croisé** est sélectionnée par défaut.
 1. Activez ou désactivez l’un des paramètres suivants :
@@ -179,4 +180,4 @@ Ou
 
    Les paramètres sont désactivés par défaut.
 
-   Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+   Pour plus d’informations, voir [Configuration des fonctionnalités de l’espace de travail croisé pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)

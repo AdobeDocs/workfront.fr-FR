@@ -1,23 +1,18 @@
 ---
 title: Ajouter des types d’enregistrements existants à partir d’un autre Workspace
 description: Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning. Dans Workfront Planning, vous pouvez ajouter un type d’enregistrement existant créé dans un autre espace de travail.
-hidefromtoc: true
-hide: true
-exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 9%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 8%
+
+---
+
 
 # Ajouter des types d’enregistrements existants depuis un autre espace de travail
 
@@ -56,7 +51,7 @@ Avant d’ajouter des enregistrements à un espace de travail à partir d’un t
    <td> 
 <ul><li><p>Tout package Workfront et un package Planning Plus</p></li>
 <p>Ou</p>
-<li><p>Packages Prime et Ultimate de workflow et de planification</p></p></li></ul>
+<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></p></li></ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
   <tr> 
@@ -120,6 +115,8 @@ And
 >[!NOTE]
 >
 >Assurez-vous qu’au moins un type d’enregistrement est désigné comme global dans au moins un autre espace de travail.
+>
+>Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 1. Commencez à créer un type d’enregistrement, comme décrit dans l’article [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md), puis cliquez sur **Ajouter un existant**. <!--check this - the option might have been renamed in the UI-->
 

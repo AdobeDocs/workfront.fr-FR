@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '2782'
-ht-degree: 25%
+source-wordcount: '2766'
+ht-degree: 26%
 
 ---
 
@@ -36,16 +36,15 @@ De plus, le travail de chaque campagne peut être planifié dans plusieurs proje
 
 Une fois les champs de connexion créés, vous pouvez connecter des enregistrements individuels entre les deux types d&#39;enregistrement ou d&#39;objet.
 
-<!--
 >[!NOTE]
 >
-><span class="preview">You can have up to 30 connection fields for one record type.</span>-->
+><span class="preview">Vous pouvez avoir jusqu’à 30 champs de connexion pour un type d’enregistrement.</span>
 
 Cet article décrit comment connecter deux types d&#39;enregistrements Workfront Planning ou un type d&#39;enregistrement Workfront Planning à un objet provenant d&#39;une autre application.
 
 Après avoir établi la connexion entre les enregistrements ou les types d&#39;objet, un champ de connexion est ajouté à un type d&#39;enregistrement Planning. Dans le champ de connexion, vous pouvez connecter des enregistrements individuels les uns aux autres et afficher les champs des types d&#39;enregistrements ou d&#39;objets liés sur un enregistrement Workfront Planning.
 
-Pour obtenir des informations générales sur les types de connexion, voir [&#x200B; Présentation des types d’enregistrements connectés &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Pour obtenir des informations générales sur les types de connexion, voir [ Présentation des types d’enregistrements connectés ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 Pour plus d&#39;informations sur la connexion d&#39;enregistrements ou d&#39;enregistrements avec des objets provenant d&#39;autres applications, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
@@ -74,14 +73,14 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
 <ul> 
 <li><p>Tout Workfront et tout package Planning</p></li>
 <p>Ou</p>
-<li><p>Tout package Workflow et Planning</li></ul>
+<li><p>Tout workflow et tout package Planning</li></ul>
 
 <p>Pour connecter des types d’enregistrements à partir de différents espaces de travail :</p>
 
 <ul> 
 <li><p>Tout Workfront et tout package Planning</p></li>
 <p>Ou</p>
-<li><p>Packages Prime et Ultimate de workflow et de planification</p></li></ul>
+<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
 <tr> 
@@ -191,9 +190,9 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 1. Recherchez un type d’enregistrement ou sélectionnez l’une des options suivantes :
 
-   * <span class="preview">Type d’enregistrement de l’espace de travail actuel</span>
+   * Type d’enregistrement de l’espace de travail actuel
 
-     <span class="preview">![Sélecteur de connexion à sélection multiple pour le même type d’enregistrement d’espace de travail](assets/multi-select-connection-picker-record-type.png)</span>
+     ![Sélecteur de connexion à sélection multiple pour le même type d’enregistrement d’espace de travail](assets/multi-select-connection-picker-record-type.png)
 
      >[!TIP]
      >
@@ -202,27 +201,27 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    * Type d’enregistrement d’un autre espace de travail configuré pour se connecter à partir d’autres espaces de travail.
 
-     <!--replace the tip below with this at the preview release for global RTs and replace screen shot in the tip:
-        >[!TIP]
-        >
-        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the <span class="preview">**Cross-workspace settings**</span> tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
-        >
-        >For information, see [Configure cross-workspace capabilities for record type](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).-->
-
      >[!TIP]
      >
-     >Le paramètre **Autoriser la connexion à ce type d&#39;enregistrement dans d&#39;autres espaces de travail** doit être activé pour un type d&#39;enregistrement dans l&#39;onglet **Paramètres avancés** de la zone **Modifier le type d&#39;enregistrement**, pour qu&#39;un type d&#39;enregistrement soit accessible à partir d&#39;autres espaces de travail. Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’autres espaces de travail, la section espace de travail ne s’affiche pas.
-     > ![Onglet Paramètres avancés de la zone Modifier le type d’enregistrement](assets/edit-record-type-box-advanced-settings-tab.png)
+     >Le paramètre **Autoriser la connexion à ce type d&#39;enregistrement dans d&#39;autres espaces de travail** doit être activé pour un type d&#39;enregistrement dans l&#39;onglet **Paramètres avancés** <span class="preview">ou **Paramètres de l&#39;espace de travail**</span> de la zone **Modifier le type d&#39;enregistrement**, pour qu&#39;un type d&#39;enregistrement soit accessible à partir d&#39;autres espaces de travail. Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’autres espaces de travail, la section espace de travail ne s’affiche pas.
+     >
+     >Pour plus d’informations, voir [Configuration des fonctionnalités entre espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
+     >
+     >![Onglet Paramètres avancés de la zone Modifier le type d’enregistrement](assets/edit-record-type-box-advanced-settings-tab.png)
 
-     Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
+     <!--Old:
+        [!TIP]
+        The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+        -->
 
-     ![Nouvelle connexion pour autoriser plusieurs enregistrements](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-   * <span class="preview">Un **Projet, Portfolio, Programme** Société ou **Groupe** de la section **Types d’objets Workfront**.</span>
+   * Un **projet, un portfolio, un programme, une entreprise** ou un **groupe** depuis la section **Types d’objets Workfront**.
 
-     Sélection de la connexion au projet Workfront <span class="preview">![](assets/multi-select-connection-picker-project.png)</span>
+     Sélection de la connexion au projet Workfront ![](assets/multi-select-connection-picker-project.png)
 
-   * **Experience Manager Assets** à partir de la section **Applications Adobe**. <!--update screen shot??-->
+   * **Experience Manager Assets** depuis la section **Adobe Applications**.
 
      ![Sélection de la connexion AEM Assets](assets/aem-assets-connection-selection.png)
 
@@ -239,47 +238,30 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    ![Nouvelle connexion au type d’enregistrement depuis un autre espace de travail](assets/new-connection-allow-multiple-records-box.png)
 
-1. (Conditionnel) Lorsque vous connectez des types d’enregistrement à partir du même espace de travail ou d’un type d’enregistrement Planning à un type d’objet Workfront, effectuez l’une des opérations suivantes, en fonction de l’environnement utilisé :
+1. (Conditionnel) Lorsque vous connectez des types d&#39;enregistrements à partir du même espace de travail ou d&#39;un type d&#39;enregistrement Planning à un type d&#39;objet Workfront, sélectionnez l&#39;une des options suivantes :
 
-   * Dans l’environnement de production, sélectionnez l’une des options **Type de connexion** suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et à partir desquels :
+   * **Sélection multiple** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à plusieurs enregistrements du type d’enregistrement de connexion.
+   * **Sélection unique** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à un enregistrement du type d’enregistrement de connexion.
 
-      * Multiple-à-multiple
-      * Un à plusieurs
-      * Multiple-à-un
-      * Un à un
+1. Sélectionnez l’option **Créer le champ correspondant sur le type d’enregistrement lié**. Lorsque cette option est sélectionnée, un champ de connexion est créé sur le type d’enregistrement auquel vous êtes connecté, en plus du champ de connexion ajouté au type d’enregistrement actuel. Cette option est désactivée par défaut.
 
-     ![Sélecteur de connexion plusieurs à plusieurs](assets/many-to-many-connection-picker.png)
+   >[!TIP]
+   >
+   >Outre la <span class="preview">limite de 30 champs de connexion pour un type d’enregistrement</span>, il existe une limite de 500 champs pour un type d’enregistrement. Nous vous recommandons de conserver ce paramètre désactivé, en particulier pour les types d’enregistrements taxonomiques, afin d’éviter d’atteindre cette limite.
+   >
 
-   <div class="preview">
+1. (Conditionnel) Si vous avez activé **Créer le champ correspondant sur le type d’enregistrement lié**, choisissez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et à partir desquels :
 
-   * Dans l’environnement de Prévisualisation, procédez comme suit :
-      1. Sélectionnez l’une des options suivantes :
+   * Multiple-à-multiple
+   * Un à plusieurs
+   * Multiple-à-un
+   * Un à un
 
-         * **Sélection multiple** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à plusieurs enregistrements du type d’enregistrement de connexion.
-         * **Sélection unique** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à un enregistrement du type d’enregistrement de connexion.
+   Pour plus d’informations sur les types de connexion, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-      2. Activez l’option **Créer le champ correspondant sur le type d’enregistrement lié**. Lorsqu’il est activé, un champ de connexion est créé sur le type d’enregistrement auquel vous êtes connecté, en plus du champ de connexion ajouté au type d’enregistrement actuel. Cette option est désactivée par défaut.
-
-         >[!TIP]
-         >
-         >Un type d’enregistrement est limité à 500 champs. Nous vous recommandons de conserver ce paramètre désactivé, en particulier pour les types d’enregistrements taxonomiques, afin d’éviter d’atteindre cette limite.
-
-         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
-
-      3. (Conditionnel) Si vous avez activé **Créer le champ correspondant sur le type d’enregistrement lié**, choisissez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et à partir desquels :
-
-         * Multiple-à-multiple
-         * Un à plusieurs
-         * Multiple-à-un
-         * Un à un
-
-     </div>
-
-     Pour plus d’informations sur les types de connexion, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-
-     >[!NOTE]
-     >
-     >Si vous sélectionnez Un à plusieurs ou Un à un pour le type Connexion et que vous souhaitez par la suite connecter un enregistrement ou un objet déjà connecté ailleurs, vous recevrez un avertissement indiquant que le connecter à nouveau supprimera la connexion d&#39;origine. Vous pouvez autoriser la suppression ou sélectionner un autre enregistrement.
+   >[!NOTE]
+   >
+   >Si vous sélectionnez Un à plusieurs ou Un à un pour le type Connexion et que vous souhaitez par la suite connecter un enregistrement ou un objet déjà connecté ailleurs, vous recevrez un avertissement indiquant que le connecter à nouveau supprimera la connexion d&#39;origine. Vous pouvez autoriser la suppression ou sélectionner un autre enregistrement.
 
 1. (Conditionnel et facultatif) Lorsque vous choisissez de connecter un objet Workfront, choisissez un **Formulaire personnalisé** dans la section **Lier uniquement les objets correspondant à ces critères**. Seuls les objets auxquels sont attachés les formulaires personnalisés sélectionnés peuvent être liés au type d’enregistrement sélectionné. Vous pouvez sélectionner plusieurs formulaires.
 
@@ -291,7 +273,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    >[!NOTE]
    >
-   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Conditionnel) Lorsque vous choisissez de vous connecter à Experience Manager Assets ou à un type d’enregistrement Workfront Planning, choisissez l’une des options suivantes dans la zone **Apparence des enregistrements** :
@@ -306,7 +288,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    >
    >* Lorsque vous autorisez la liaison de plusieurs enregistrements, l’affichage de la miniature seule peut permettre de gagner de l’espace dans des zones plus petites, comme les vues d’enregistrement.
    >
-   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
    >
@@ -409,13 +391,14 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
      Par exemple, si vous avez lié un type d’enregistrement Campagne à un type d’enregistrement Programme et que vous avez nommé le champ d’enregistrement lié Programme « Informations sur le programme », puis sélectionné pour afficher également le champ Budget du programme dans la vue Tableau de la campagne, le champ lié est automatiquement nommé `Budget (from Program information)` dans la vue Tableau de la campagne.
 
-   * Lorsque vous liez des types d’enregistrement les uns aux autres, un champ d’enregistrement lié est également ajouté au type d’enregistrement auquel vous vous liez, <span class="preview">uniquement lorsque vous activez le paramètre Créer un champ correspondant sur le type d’enregistrement lié .</span> Le nom du champ d’enregistrement lié sur le type d’enregistrement lié est le nom du type d’enregistrement à partir duquel vous effectuez le lien.
+   * Lorsque vous liez des types d’enregistrement les uns aux autres, un champ d’enregistrement lié est également ajouté au type d’enregistrement à lier, uniquement lorsque vous activez le paramètre **Créer un champ correspondant sur le type d’enregistrement lié**. Le nom du champ de l’enregistrement lié sur le type d’enregistrement lié est le nom du type d’enregistrement à partir duquel vous établissez le lien.
 
      Par exemple, si vous liez le type d’enregistrement « Produit » au type d’enregistrement « Campagne » et que vous nommez le champ connecté de la campagne « Produit lié », un champ d’enregistrement lié « Campagne » est créé pour le type d’enregistrement Produit .
 
      >[!TIP]
      >
-     > Un champ d’enregistrement lié n’est pas créé pour les objets d’une autre application dans leurs applications respectives. <span class="preview">Nous vous recommandons de ne pas créer de liens sur les types d’enregistrements taxonomiques, car il existe une limite de 500 champs <!--<span class="preview">and a limit of 30 connected fields</span>--> pour chaque type d’enregistrement.</span>
+     > Un champ d’enregistrement lié n’est pas créé pour les objets d’une autre application dans leurs applications respectives.
+     >Nous vous recommandons de ne pas créer de liens vers des types d’enregistrements taxonomiques, car il existe une limite de 500 champs, <span class="preview"> en plus de la limite de 30 champs connectés</span> pour chaque type d’enregistrement.
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

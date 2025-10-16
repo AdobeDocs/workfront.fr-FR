@@ -1,25 +1,24 @@
 ---
 title: Présentation du type d’enregistrement de l’espace de travail croisé
-description: Les types d’enregistrements globaux peuvent être ajoutés à plusieurs espaces de travail à partir d’un espace de travail principal ou central dans Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
-exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
-workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 1%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
+description: Vous pouvez activer les types d’enregistrements pour qu’ils soient globaux ou connectables. Les types d'enregistrements globaux peuvent être ajoutés à plusieurs espaces de travail à partir d'un espace de travail principal ou central dans Adobe Workfront Planning, tandis que les types d'enregistrements connectables peuvent être connectés à partir d'autres espaces de travail que le leur.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 3%
+
+---
+
 
 # Présentation du type d’enregistrement de l’espace de travail croisé
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -32,11 +31,13 @@ Vous pouvez activer les fonctionnalités inter-espaces de travail pour un type d
 
 Vous trouverez ci-dessous des fonctionnalités inter-espaces de travail de types d’enregistrements :
 
-* **Types d’enregistrements globaux** : les utilisateurs peuvent ajouter des types d’enregistrements globaux à d’autres espaces de travail qu’ils gèrent.
+* <span class="preview">**Types d’enregistrements globaux** : les utilisateurs peuvent ajouter des types d’enregistrements globaux à d’autres espaces de travail qu’ils gèrent.</span>
 
 * **Types d’enregistrement connectables** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir d’autres espaces de travail.
 
 Cet article vous donne un aperçu des types d’enregistrements de l’ensemble des espaces de travail. Pour plus d’informations sur la définition des fonctionnalités inter-espaces de travail d’un type d’enregistrement, voir [Configuration des fonctionnalités inter-espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+
+<div class="preview">
 
 ## Présentation des types d’enregistrements globaux
 
@@ -118,11 +119,12 @@ Le type d’enregistrement configuré pour être global possède les propriété
     * Add request forms to it
     * Add automations to it-->
 
-* Aucun utilisateur ne peut effectuer les actions suivantes sur le type d’enregistrement ajouté à partir d’un type d’enregistrement global dans un espace de travail secondaire :
+* Aucun utilisateur ne peut effectuer les actions suivantes sur un type d’enregistrement global dans un espace de travail secondaire :
 
    * Le modifier.
 
      Vous ne pouvez pas modifier son apparence, les fonctionnalités de l’espace de travail croisé ou les champs ajoutés à partir de l’espace de travail d’origine.
+   * Partager
    * Créer et gérer des formulaires de demande
    * Création et gestion des automatisations
 
@@ -151,6 +153,8 @@ Les cas suivants existent :
 * Si l’utilisateur y a accès, l’enregistrement est créé dans l’espace de travail d’origine des types d’enregistrements globaux.
 
 * Si l’utilisateur n’y a pas accès, il est prévenu qu’il n’a pas accès à l’espace de travail d’origine du type d’enregistrement global et doit fournir l’identifiant de l’espace de travail auquel il a accès pour créer des enregistrements.
+
+</div>
 
 ## Présentation des types d’enregistrements connectables
 

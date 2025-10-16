@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1513'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Vous pouvez partager un type d’enregistrement avec d’autres utilisateurs pou
 >[!IMPORTANT]
 >
 >Les utilisateurs ayant accès à un espace de travail obtiennent automatiquement au moins des autorisations d’affichage pour tous les types d’enregistrements de l’espace de travail.
->&#x200B;>Le partage de vues ne donne pas aux utilisateurs les autorisations pour les types d’enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations pour les types d’enregistrements.
+>>Le partage de vues ne donne pas aux utilisateurs les autorisations pour les types d’enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations pour les types d’enregistrements.
 >
 >* Pour obtenir des informations générales sur le partage d’objets dans Workfront Planning, consultez également la section [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Pour plus d’informations, consultez la section [Considérations lors du partage de types d’enregistrements](#considerations-when-sharing-record-types) de cet article.
@@ -181,6 +181,17 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * Vous ne pouvez pas partager des types d’enregistrements en externe, avec des utilisateurs en dehors de Workfront.
 * Pour accorder à un utilisateur qui ne dispose pas d’autorisations d’espace de travail supérieures aux autorisations d’affichage d’un type d’enregistrement, vous devez d’abord partager l’espace de travail avec lui avec une autorisation supérieure à Affichage. Les autorisations plus élevées pour l’espace de travail s’appliqueront alors aux types d’enregistrements.
 
+<div class="preview">
+
+* Les scénarios suivants existent lors du partage de types d’enregistrements globaux :
+
+   * Vous pouvez partager des types d’enregistrements globaux à partir de leur espace de travail d’origine.
+   * Vous ne pouvez pas partager des types d’enregistrements globaux après les avoir ajoutés à un espace de travail secondaire.
+
+  Pour plus d’informations, voir [Présentation du type d’enregistrement de l’espace de travail](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
+</div>
+
 ## Partage des autorisations sur un type d’enregistrement
 
 Vous pouvez ajuster les autorisations aux types d’enregistrements individuels d’un espace de travail si vous disposez de l’autorisation Gérer sur l’espace de travail.
@@ -191,12 +202,12 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * <span class="preview">Dans la vignette Type d’enregistrement , cliquez sur le menu **Plus** > **Partager**.</span>
+   * Dans la carte Type d’enregistrement , cliquez sur le menu **Plus** > **Partager**.
    * Cliquez sur une carte de type d’enregistrement pour ouvrir la page du type d’enregistrement, puis cliquez sur **Partager** > **Partager le type d’enregistrement** dans n’importe quelle vue de type d’enregistrement.
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations d’affichage ou supérieures pour l’espace de travail peuvent afficher le type d’enregistrement.
 

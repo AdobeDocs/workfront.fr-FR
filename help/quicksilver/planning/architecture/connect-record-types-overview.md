@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1973'
 ht-degree: 15%
 
 ---
@@ -40,7 +40,7 @@ Dans Workfront Planning, les connexions se font en deux étapes :
 
 Tenez compte des points suivants concernant la connexion des types d’enregistrements :
 
-<!--* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>-->
+* <span class="preview">Dans Workfront Planning, vous pouvez avoir jusqu’à 30 champs connectés pour un type d’enregistrement.</span>
 
 * Vous pouvez connecter les entités suivantes dans Adobe Workfront Planning :
 
@@ -76,16 +76,14 @@ Tenez compte des points suivants concernant la connexion des types d’enregistr
 
 * Lorsque vous connectez un type d’enregistrement à un autre type d’enregistrement ou à un type d’objet provenant d’une autre application, les scénarios suivants se présentent :
 
-   * **Lorsque vous connectez deux types d&#39;enregistrements Planning** : Un champ d&#39;enregistrement lié est créé sur le type d&#39;enregistrement à partir duquel vous vous connectez. Un champ d’enregistrement lié similaire est créé sur le type d’enregistrement auquel vous vous connectez <!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->.
+   * **Lorsque vous connectez deux types d&#39;enregistrements Planning** : Un champ d&#39;enregistrement lié est créé sur le type d&#39;enregistrement à partir duquel vous vous connectez. Un champ d’enregistrement lié similaire est créé sur le type d’enregistrement auquel vous vous connectez, uniquement lorsque vous activez le paramètre Créer le champ correspondant sur le type d’enregistrement lié sur l’onglet Nouvelle connexion .
 
      Par exemple, si vous connectez le type d’enregistrement « Campaign » au type d’enregistrement « Product », un champ d’enregistrement lié (champ de connexion) que vous nommez « Produit lié » est créé sur le type d’enregistrement Campaign. Un type d’enregistrement lié automatiquement nommé « Campagne » est créé sur le type d’enregistrement Produit .
 
-     <div class="preview">
-
      Par exemple, les scénarios suivants existent :
+
       * Lorsque vous activez le paramètre Créer le champ correspondant sur le type d’enregistrement lié et que vous connectez le type d’enregistrement « Campaign » au type d’enregistrement « Produit », un champ d’enregistrement lié (champ de connexion) que vous nommez « Produit lié » est créé sur le type d’enregistrement Campaign. Un type d’enregistrement lié automatiquement nommé « Campagne » est créé sur le type d’enregistrement Produit .
       * Lorsque vous désactivez le paramètre Créer le champ correspondant sur le type d’enregistrement lié et que vous connectez le type d’enregistrement « Campaign » au type d’enregistrement « Product », un champ d’enregistrement lié (champ de connexion) que vous nommez « Produit lié » est créé sur le type d’enregistrement Campaign. Un type d’enregistrement lié automatiquement nommé « Campaign » n’est pas créé sur le type d’enregistrement Produit .
-     </div>
 
      Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -95,7 +93,7 @@ Tenez compte des points suivants concernant la connexion des types d’enregistr
       * Les champs Enregistrements Planning ne sont pas accessibles à partir des objets Workfront.
       * Les enregistrements Planning sont visibles à partir de l&#39;onglet Planning de l&#39;objet Workfront. Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Vous pouvez créer un champ personnalisé de connexion Planning et le joindre au formulaire personnalisé d’un objet Workfront. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
    * **Lorsque vous ajoutez des champs de recherche à partir de l’enregistrement ou de l’objet auquel vous vous connectez** : en plus de créer un champ d’enregistrement lié, vous pouvez également vous connecter aux champs du type d’enregistrement ou d’objet connecté qui sont appelés champs de recherche. Un champ lié (ou de recherche) contenant des informations de l&#39;enregistrement auquel vous vous connectez s&#39;affiche sur l&#39;enregistrement auquel vous vous connectez.
@@ -137,27 +135,19 @@ Après avoir établi une connexion entre deux types d&#39;enregistrements ou ent
 
 Vous pouvez choisir de connecter un enregistrement à plusieurs enregistrements à la fois, ou un enregistrement à la fois les uns aux autres.
 
-Selon le nombre d&#39;enregistrements que vous pouvez ajouter à un champ d&#39;enregistrement connecté et l&#39;environnement que vous utilisez pour créer les champs connectés, voici les types de connexion que vous pouvez choisir lors de la connexion des types d&#39;enregistrement :
+Voici les types de connexion que vous pouvez choisir lors de la connexion des types d’enregistrement :
 
-<div class="preview">
+* Lorsque le paramètre **Créer le champ correspondant sur le type d’enregistrement lié** est désactivé, vous pouvez choisir parmi les options suivantes :
 
-* Dans l’environnement de Prévisualisation :
+   * [Sélection multiple](#multi-select-connection-type)
+   * [Sélection unique](#single-select-connection-type)
 
-   * Lorsque le paramètre Créer le champ correspondant sur le type d’enregistrement lié est désactivé, vous pouvez choisir parmi les options suivantes :
-
-      * [Sélection multiple](#multi-select-connection-type)
-      * [Sélection unique](#single-select-connection-type)
-
-</div>
-
-* <span class="preview">Dans l’environnement de Prévisualisation, lorsque le paramètre Créer le champ correspondant sur le type d’enregistrement lié est activé</span> ou dans l’environnement de Production, vous pouvez choisir parmi les options suivantes :
+* Lorsque le paramètre **Créer le champ correspondant sur le type d’enregistrement lié** est activé, vous pouvez choisir parmi les options suivantes :
 
    * [Multiple-à-multiple](#many-to-many-connection-type)
    * [Un à plusieurs](#one-to-many-connection-type)
    * [Multiple-à-un](#many-to-one-connection-type)
    * [Un à un](#many-to-one-connection-type)
-
-<div class="preview">
 
 ### Type de connexion à sélection multiple
 

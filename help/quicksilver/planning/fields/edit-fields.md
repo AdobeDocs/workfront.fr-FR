@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 22%
+source-wordcount: '980'
+ht-degree: 21%
 
 ---
 
@@ -200,8 +200,6 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
    Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
-<div class="preview">
-
 ## Ajouter de nouveaux choix à un champ de sélection existant lors de la modification d’enregistrements en mode Tableau
 
 <!--some of this information is also available in Edit records article - update both when necessary-->
@@ -230,6 +228,5 @@ Pour ajouter un nouveau choix à un champ de sélection existant lors de la modi
 
    Le nouveau choix est ajouté immédiatement au champ à sélection unique.
 
-   <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
+   <span class="preview">Une nouvelle valeur est également ajoutée à chaque choix. Vous pouvez utiliser les valeurs de choix dans les appels API ou d’autres intégrations. Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).</span>
 
-</div>

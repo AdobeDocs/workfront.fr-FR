@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '5253'
-ht-degree: 42%
+source-wordcount: '5463'
+ht-degree: 41%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -238,8 +238,8 @@ Pour plus d’informations, voir [Importer des champs depuis Workfront](/help/qu
    * [Date de création](#created-date)
    * [Dernière modification par](#last-modified-by)
    * [Date de dernière modification](#last-modified-date)
-   * <span class="preview">[Date approuvée](#approved-date)</span>
-   * <span class="preview">[Approuvé par](#approved-by)</span>
+   * [Date d’approbation](#approved-date)
+   * [Approuvé par](#approved-by)
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -282,7 +282,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Paragraphe**.
 
-   ![&#x200B; Type de champ de paragraphe &#x200B;](assets/paragraph-field-type.png)
+   ![ Type de champ de paragraphe ](assets/paragraph-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -299,7 +299,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
 >[!NOTE]
 >
-><span class="preview">En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).</span>
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection multiple**.
@@ -327,23 +327,20 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
    Le nouveau champ à sélection multiple est ajouté sous la forme d’une colonne au type d’enregistrement et ses valeurs peuvent être associées aux enregistrements.
 
-<!--
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+1. <span class="preview">(Facultatif) Pointez sur le nom du champ dans la vue Tableau, cliquez sur le menu déroulant à droite du nom du champ, puis cliquez sur **Modifier le champ**.</span>
+1. <span class="preview">Activez le paramètre **Afficher les valeurs** pour afficher les valeurs de chaque choix. Les valeurs sont les noms de chaque choix, tels qu’ils apparaissent dans la base de données Workfront. </span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront attribue des valeurs uniques pour chaque choix. </span>
+   >
+   >* <span class="preview">Les valeurs correspondent au nom du choix au format minuscule. Plusieurs mots sont séparés par un trait de soulignement. </span>
+   >
+   >* <span class="preview">Les valeurs peuvent être répétées entre plusieurs champs, mais elles doivent être uniques pour un champ.</span>
+   >
+   ><span class="preview"> ![Bouton bascule Afficher la valeur](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
-
--->
+1. <span class="preview">(Facultatif) Utilisez les valeurs de choix dans vos appels API et autres intégrations. </span>
 
 ### Sélection unique {#single-select}
 
@@ -351,13 +348,12 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
 >[!NOTE]
 >
-><span class="preview">En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection unique d’un enregistrement, en mode Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).</span>
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur de champ à sélection unique d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection simple**.
 
-   ![&#x200B; Type de champ à sélection unique &#x200B;](assets/single-select-field-type.png)
-
+   ![ Type de champ à sélection unique ](assets/single-select-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du champ tel qu&#39;il apparaîtra dans une table ou dans la page Détails de l&#39;enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -379,24 +375,20 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
    Le nouveau champ à sélection unique est ajouté sous la forme d’une colonne au type d’enregistrement et ses valeurs peuvent être associées aux enregistrements.
 
-<!--
+1. <span class="preview">(Facultatif) Pointez sur le nom du champ dans la vue Tableau, cliquez sur le menu déroulant à droite du nom du champ, puis cliquez sur **Modifier le champ**.</span>
+1. <span class="preview">Activez le paramètre **Afficher les valeurs** pour afficher les valeurs de chaque choix. Les valeurs sont les noms de chaque choix, tels qu’ils apparaissent dans la base de données Workfront. </span>
 
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront attribue des valeurs uniques pour chaque choix. </span>
+   >
+   >* <span class="preview">Les valeurs correspondent au nom du choix au format minuscule. Plusieurs mots sont séparés par un trait de soulignement. </span>
+   >
+   >* <span class="preview">Les valeurs peuvent être répétées entre plusieurs champs, mais elles doivent être uniques pour un champ.</span>
+   >
+   ><span class="preview"> ![Bouton bascule Afficher la valeur](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
-
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
-
--->
+1. <span class="preview">(Facultatif) Utilisez les valeurs de choix dans vos appels API et autres intégrations. </span>
 
 ### Date {#date}
 
@@ -438,7 +430,7 @@ Les types de champ Nombre capturent les informations au format numérique.
 >Les champs numériques s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de nombres une fois la demande soumise, dans le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Nombre**.
@@ -468,7 +460,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 >Les champs de pourcentage s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de pourcentages une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Pourcentage**.
@@ -508,7 +500,7 @@ Les types de champ de devise capturent les informations dans un format numériqu
 >Les champs de devise s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent en tant que devise une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Devise**.
 
@@ -583,7 +575,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
    >
    >* Vous pouvez référencer un champ contenant jusqu’à 4 champs (et objets) différents du type d’enregistrement actuel. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité (1) et que l’Activité est connectée au type d’enregistrement Campagne (2) qui est connecté à un projet Workfront (3), vous pouvez référencer le champ Budget du projet (4) dans la formule que vous créez pour le type d’enregistrement Activité.
    >
-   >![Exemple de formule de budget de projet avec quatre champs supprimés &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemple de formule de budget de projet avec quatre champs supprimés ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facultatif) Cliquez sur **Agrandir** pour ouvrir la zone Formule dans une zone plus grande.
@@ -696,7 +688,6 @@ Vous pouvez utiliser le type de champ Date de création pour ajouter la date à 
 
    Le nouveau champ de type Date de création est ajouté en tant que colonne au type d’enregistrement et ses valeurs sont préremplies avec la date (ou la date et l’heure) de création de l’enregistrement.
 
-
 ### Dernière modification par
 
 Vous pouvez utiliser le champ Dernière modification par type pour ajouter à un enregistrement la personne qui a modifié l’enregistrement pour la dernière fois. Il s’agit d’un champ en lecture seule qui se remplit automatiquement avec le nom de la personne connectée lors de la dernière mise à jour de l’enregistrement.
@@ -713,7 +704,6 @@ Vous pouvez utiliser le champ Dernière modification par type pour ajouter à un
 1. Cliquez sur **Créer**.
 
    Le nouveau champ de type Dernière modification par est ajouté en colonne au type d’enregistrement et ses valeurs sont préremplies avec le nom de la personne qui a modifié chaque enregistrement pour la dernière fois.
-
 
 ### Date de dernière modification
 
@@ -748,8 +738,6 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
 
    Le nouveau champ de type Date de la dernière modification est ajouté en tant que colonne au type d’enregistrement et ses valeurs sont préremplies avec la date (ou la date et l’heure) de la dernière modification de l’enregistrement.
 
-<div class="preview">
-
 ### Date d’approbation
 
 Vous pouvez utiliser le type de champ Date d’approbation pour ajouter la date à laquelle une demande a été approuvée et a entraîné la création de l’enregistrement. Il s’agit d’un champ en lecture seule qui est automatiquement renseigné avec la date (et éventuellement l’heure) à laquelle la demande a été approuvée par le dernier approbateur. Dans ce cas, la date de validation doit correspondre à la date de création de l&#39;enregistrement.
@@ -759,7 +747,6 @@ Vous pouvez utiliser le type de champ Date d’approbation pour ajouter la date 
 >Le champ Date d&#39;approbation est renseigné avec des informations uniquement pour les enregistrements créés par l&#39;envoi d&#39;un formulaire de demande associé aux approbateurs.
 >
 >Si le formulaire est associé à plusieurs approbateurs, seule la date de la dernière décision d’approbation est enregistrée dans le champ Date d’approbation .
-
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Date de création**.
 
@@ -810,8 +797,6 @@ Vous pouvez utiliser le type de champ Approuvé par pour ajouter le dernier util
 1. Cliquez sur **Créer**.
 
    Le nouveau champ Approuvé par type est ajouté sous forme d’une colonne au type d’enregistrement et ses valeurs sont préremplies avec le nom de l’utilisateur qui a modifié chaque enregistrement pour la dernière fois.
-
-</div>
 
 <!--
 

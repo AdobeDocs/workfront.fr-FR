@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '450'
 ht-degree: 28%
 
 ---
@@ -48,13 +48,9 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Taille du fichier CSV Excel que vous pouvez importer pour créer des types d’enregistrements | 5 Mo |
 | Nombre de lignes que vous pouvez importer dans un fichier CSV ou Excel pour créer des types d’enregistrements | 25 000 |
 | Nombre de colonnes que vous pouvez importer dans un fichier CSV ou Excel pour créer des types d’enregistrements | 500 |
-| <span class="preview">Nombre de champs de formule pour un type d&#39;enregistrement</span> | <span class="preview">20</span> |
-| <span class="preview">Nombre de caractères dans une expression de champ de formule</span> | 50 000 <span class="preview"></span> |
-
-
-<!-- Add this after the formula fields limit above:
-
-| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
+| Nombre de champs de formule pour un type d&#39;enregistrement | 20 |
+| <span class="preview">Nombre de champs de connexion pour un type d’enregistrement</span> | 30 <span class="preview"></span> |
+| Nombre de caractères dans une expression de champ de formule | 50 000 |
 
 *Nous vous recommandons de ne pas avoir trop d’espaces de travail, car ils pourraient devenir difficiles à gérer et vos workflows pourraient être trop fragmentés.
 
