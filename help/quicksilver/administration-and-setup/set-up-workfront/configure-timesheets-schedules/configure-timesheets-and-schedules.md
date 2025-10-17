@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
-title: Configuration des planifications et des préférences de feuille de temps
+title: Configurer les horaires et les préférences de feuille de temps
 description: En tant qu’administrateur ou administratrice de  [!DNL Workfront] , vous pouvez définir votre semaine de travail à l’aide de plannings et en associer un à un utilisateur ou une utilisatrice ou à un projet. Cette fonction permet à  [!DNL Adobe Workfront]  de calculer les chronologies et la disponibilité de l’utilisateur ou de l’utilisatrice. Vous pouvez également configurer les préférences de feuille de temps et d’heures.
-author: Lisa and Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: eb3e58d4-a8c6-4b5c-a045-742509f2b5c6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 93%

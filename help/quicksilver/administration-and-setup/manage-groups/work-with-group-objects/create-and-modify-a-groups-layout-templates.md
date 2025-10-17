@@ -5,11 +5,11 @@ keywords: groupe,disposition,modèles
 navigation-topic: work-with-a-groups-objects
 title: Création et modification de modèles de mise en page d’un groupe
 description: Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher et utiliser le modèle de mise en page pour lequel l’équipe d’administration du groupe, ou de l’un de ses sous-groupes, dispose d’un accès administratif.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 71%

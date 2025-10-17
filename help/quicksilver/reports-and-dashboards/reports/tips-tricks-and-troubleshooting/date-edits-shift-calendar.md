@@ -4,10 +4,10 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Les dates de modification en ligne décalent l’affichage du calendrier en dehors de la zone.
 description: Lors de la modification en ligne de dates dans une liste d’objets, le calendrier affiche plus de dates que prévu. Les jours s’affichent alors en dehors de la zone de calendrier.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 98%

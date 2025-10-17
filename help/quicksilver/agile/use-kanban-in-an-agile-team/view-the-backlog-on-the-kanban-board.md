@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Ajouter la liste d’attente au tableau Kanban
 description: Vous pouvez afficher une colonne [!UICONTROL Liste d’attente] directement sur votre panorama Kanban. La colonne [!UICONTROL Liste d’attente] du panorama  [!DNL Kanban]  contient les 20 premiers éléments de votre liste d’attente sur le panorama  [!DNL Kanban] . Les tâches et les problèmes doivent appartenir à un projet dont le statut correspond à « Actif » pour apparaître dans la liste d’attente.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 96%

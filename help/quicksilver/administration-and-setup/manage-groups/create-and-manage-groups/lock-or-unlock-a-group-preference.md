@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Verrouiller ou déverrouiller une préférence de projet, de tâche ou d'événement pour des sous-groupes
 description: En tant qu’administrateur ou administratrice de groupes, vous pouvez configurer puis verrouiller une préférence de projet, de tâche ou de problème si un administrateur ou une administratrice Workfront l’a déverrouillée au niveau du système.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 87%

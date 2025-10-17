@@ -3,13 +3,13 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Présentation des états
+title: Présentation des statuts
 description: Pour connaître l’état actuel du développement d’un projet, d’une tâche ou d’un problème, l’utilisateur ou l’utilisatrice peut consulter son statut.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 73%
@@ -26,15 +26,15 @@ Par exemple, dans ce projet, le statut Planification indique que la personne res
 
 ![Exemples de statuts de projet](assets/statuses-overview.png)
 
-Pour afficher leur état, vous devez disposer des droits et autorisations suivants sur un projet, une tâche ou un problème :
+Pour afficher leur statut, vous devez disposer des autorisations et des droits d’accès suivants sur un projet, une tâche ou un événement :
 
-* Afficher ou un accès supérieur dans votre niveau d’accès aux projets, tâches et problèmes
-* Affichage ou autorisations supérieures sur l’objet
+* Afficher ou un accès supérieur dans votre niveau d&#39;accès aux projets, tâches et événements
+* Autorisations d’affichage ou supérieures sur l’objet
 
-Pour modifier manuellement leur état, vous devez disposer des droits et autorisations suivants sur un projet, une tâche ou un problème :
+Vous devez disposer des autorisations et des droits d’accès suivants sur un projet, une tâche ou un événement pour modifier manuellement leur statut :
 
-* Modifiez l’accès à votre niveau d’accès à Projets, tâches et problèmes.
-* Autorisations Contribute ou supérieures pour la tâche ou le problème
+* Modifier l&#39;accès dans votre niveau d&#39;accès aux projets, tâches et événements
+* Autorisations de niveau Contribution ou supérieur sur la tâche ou l’événement
 * Gérez les autorisations du projet.
 
 La modification du statut d’un projet, d’une tâche ou d’un problème est généralement un processus manuel. Cependant, il arrive que le statut d’un problème soit automatiquement modifié, en fonction d’autres facteurs se produisant dans le système.

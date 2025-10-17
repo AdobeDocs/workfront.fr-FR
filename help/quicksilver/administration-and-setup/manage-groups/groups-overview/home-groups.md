@@ -1,14 +1,14 @@
 ---
-title: Présentation des groupes d’accueil
+title: Présentation des groupes principaux
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: Les groupe principaux sont attribués dans les profils des utilisateurs et utilisatrices. Tous les utilisateurs doivent disposer d’un groupe d’accueil.
-author: Lisa
+description: Les groupe principaux sont attribués dans les profils des utilisateurs et utilisatrices. Tous les utilisateurs doivent disposer d’un groupe principal.
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 96%
@@ -35,13 +35,13 @@ Lors de la création de groupes principaux, tenez compte de la manière dont vot
 >1. réaffecter le nouveau groupe en tant que groupe principal de l’utilisateur ou de l’utilisatrice, comme expliqué à la section [Modifier le profil d’une personne](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 >
 
-## Gestion des modèles de disposition
+## Gestion des modèles de mise en page
 
-Lorsque vous attribuez un modèle de disposition à un groupe, toutes les personnes affectées à ce groupe en tant que groupe principal peuvent voir les paramètres spécifiés dans le modèle de disposition.
+Lorsque vous attribuez un modèle de mise en page à un groupe, toutes les personnes affectées à ce groupe en tant que groupe principal peuvent voir les paramètres spécifiés dans le modèle de mise en page.
 
-Si un modèle de disposition est affecté à un groupe principal, il n’est visible que par les personnes affectées à ce groupe.
+Si un modèle de mise en page est affecté à un groupe principal, il n’est visible que par les personnes affectées à ce groupe.
 
-Pour plus d’informations, consultez la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) de l’article [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Pour plus d’informations, consultez la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) de l’article [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Gestion des licences
 

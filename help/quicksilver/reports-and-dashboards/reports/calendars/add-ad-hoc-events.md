@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Ajout d’événements ad hoc à un rapport de calendrier
 description: Vous pouvez ajouter des événements ad hoc à un calendrier. Un événement ad hoc sert simplement de rappel dans votre calendrier et n’est pas associé à un projet, une tâche ou un problème.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 59%

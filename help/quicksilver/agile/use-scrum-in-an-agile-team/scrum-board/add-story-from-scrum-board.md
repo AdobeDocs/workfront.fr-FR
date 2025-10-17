@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Ajout d’articles et de problèmes à partir du panorama de défilement
+title: Ajouter des histoires et des événements à partir du scrum board
 description: Vous pouvez rapidement créer une histoire ou un problème directement à partir du panorama Scrum, ou ajouter une histoire existante ou un problème existant à partir du panorama.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 98%

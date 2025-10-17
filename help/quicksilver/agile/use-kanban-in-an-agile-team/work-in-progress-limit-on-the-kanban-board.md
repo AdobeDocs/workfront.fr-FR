@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Gérer la limite de travail en cours (WIP) sur le tableau kanban
 description: Vous pouvez configurer une limite du travail en cours pour chaque colonne du tableau Kanban. La limite du travail en cours est simplement un avertissement visuel et n’empêche pas votre équipe d’avoir un nombre d’éléments dans chaque colonne de statut supérieur à la limite que vous avez définie.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 88%

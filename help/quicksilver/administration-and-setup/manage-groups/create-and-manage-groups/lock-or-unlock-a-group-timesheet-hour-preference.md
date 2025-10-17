@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Verrouiller ou déverrouiller une feuille de temps de groupe et une préférence horaire
 description: Si vous êtes administrateur ou administratrice de groupes, vous pouvez configurer et verrouiller les préférences en matière de feuilles de temps et d’heures pour votre groupe après qu’un administrateur ou une administratrice Workfront a déverrouillé cette fonctionnalité au niveau du système.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 87%

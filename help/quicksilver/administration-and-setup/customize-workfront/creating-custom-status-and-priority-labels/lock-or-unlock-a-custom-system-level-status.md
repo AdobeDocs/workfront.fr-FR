@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Statuts système verrouillés et déverrouillés
 description: Le verrouillage des statuts personnalisés permet de s’assurer que les personnes de votre entreprise utilisent les mêmes processus dans leur flux de travail. Lorsqu’un statut est verrouillé, il est disponible pour l’ensemble des utilisateurs et utilisatrices du système. Bien que vous puissiez le modifier ou le supprimer, les administrateurs et administratrices de groupes ne peuvent pas le faire pour leurs groupes. À l’inverse, le déverrouillage des statuts personnalisés permet aux administrateurs et administratrices de groupes de gérer avec plus de souplesse les workflows uniques utilisés dans leurs groupes. Les attributs d’un statut déverrouillé peuvent être modifiés ou supprimés pour leurs groupes.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 98%

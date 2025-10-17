@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: groups-overview
 title: Présentation des sous-groupes
 description: Vous pouvez créer jusqu’à 14 niveaux de sous-groupes dans un même groupe. Dans chaque niveau, vous pouvez créer un nombre illimité de sous-groupes parallèles.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 99%
@@ -54,7 +54,7 @@ Tout groupe que vous ajoutez à un groupe existant devient automatiquement un so
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-Vous pouvez définir des personnes membres de sous-groupe en tant qu’administrateurs et administratrices au sous-groupe lorsque vous le créez ou que vous le modifiez. Pour obtenir des instructions, voir [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) dans l’article [Créer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Vous pouvez définir des personnes membres de sous-groupe en tant qu’administrateurs et administratrices au sous-groupe lorsque vous le créez ou que vous le modifiez. Pour obtenir des instructions, voir [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) dans l’article [Créer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Vous pouvez également laisser l’administration du sous-groupe aux administrateurs et administratrices affectés aux groupes de niveau supérieur. Lorsque vous créez un sous-groupe, les administrateurs et administratrices des groupes de niveau supérieur disposent automatiquement d’un accès pour le gérer.
 

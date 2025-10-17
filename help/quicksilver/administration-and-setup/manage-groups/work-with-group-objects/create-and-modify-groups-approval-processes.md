@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Processus d’approbation au niveau du groupe
+title: Processus d'approbation au niveau du groupe
 description: Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher et utiliser les processus d’approbation pour lesquels les administrateurs et administratrices du groupe, ou l’un de ses sous-groupes, ont un accès administratif.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d43e7488-28e5-47d2-9401-e3d20e0d0256
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 97%

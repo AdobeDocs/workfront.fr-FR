@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Création ou modification du statut d’un groupe
 description: En tant qu’administrateur ou administratrice de groupe, vous pouvez créer des statuts personnalisés pour un groupe que vous gérez. Cela permet d’éliminer le besoin de dizaines de statuts personnalisés à l’échelle de l’entreprise et d’accroître l’autonomie de vos hiérarchies de groupe.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 97%
@@ -83,7 +83,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Le cas échéant, si le statut concerne un problème, assurez-vous que la **Liste principale** est sélectionnée.
 
-   ![Liste de Principal &#x200B;](assets/master-list.png)
+   ![Liste de Principal ](assets/master-list.png)
 
    Pour plus d’informations sur la personnalisation des autres types de problèmes (rapport de bugs, ordre de modification, problème, requête), voir [Personnaliser les types de problèmes par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -169,7 +169,7 @@ Si vous êtes administrateur ou administratrice de groupe (ou administrateur/adm
 1. Dans la zone située dans le coin supérieur droit, supprimez **Statuts du système**, commencez à saisir le nom d’un groupe dans lequel vous souhaitez masquer le statut, puis cliquez sur le nom qui s’affiche.
 1. Placez la souris sur le statut que vous souhaitez masquer dans le groupe, puis cliquez sur **Modifier** lorsqu’il apparaît.
 
-   ![Modifier le statut &#x200B;](assets/hover-click-edit.jpg)
+   ![Modifier le statut ](assets/hover-click-edit.jpg)
 
 1. Activez l’option **Masquer le statut** qui s’affiche.
 

@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configuration d’un plan directeur
 description: Vous pouvez configurer les détails du modèle de projet ou de la structure organisationnelle avant d’installer le plan directeur.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1841'
 ht-degree: 97%
@@ -251,7 +251,7 @@ Certains plans directeurs comportent des groupes prescrits. Un groupe est un gro
 
 Le plan directeur effectue des recherches par nom de groupe pour déterminer si des groupes existants correspondent. La recherche respectant la casse, les noms doivent correspondre exactement. Si aucun groupe existant ne correspond, le plan directeur peut les créer pour vous.
 
-Section ![[!UICONTROL Mapper des groupes] &#x200B;](assets/Blueprints_GroupMapping.png)
+Section ![[!UICONTROL Mapper des groupes] ](assets/Blueprints_GroupMapping.png)
 
 1. Si un groupe existe, vous pouvez sélectionner **[!UICONTROL Remapper un groupe]** et sélectionnez l’une des options suivantes :
 

@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Vos utilisateurs et utilisatrices peuvent utiliser des gravités pour définir la sévérité d’un problème. Vous pouvez personnaliser l’une des cinq gravités par défaut d’Adobe Workfront ou créer une gravité pour vos utilisateurs et utilisatrices.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 64%

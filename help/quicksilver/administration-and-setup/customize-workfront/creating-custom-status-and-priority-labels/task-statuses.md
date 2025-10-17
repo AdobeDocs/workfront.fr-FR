@@ -5,11 +5,11 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Vous pouvez utiliser le statut d’une tâche pour montrer aux personnes à quel stade de développement se trouve une tâche à un moment donné.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 95%
@@ -60,7 +60,7 @@ Pour plus d’informations sur la modification des statuts du système ou la cr�
 
    Les statuts des tâches disponibles dans Workfront sont répertoriés dans cet onglet.
 
-   ![&#x200B; Statut de la tâche &#x200B;](assets/task-status.png)
+   ![ Statut de la tâche ](assets/task-status.png)
 
    Pour plus d’informations sur chacun des statuts des tâches système intégrés, voir [Statuts des tâches système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
 

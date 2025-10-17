@@ -5,11 +5,11 @@ keywords: gérer, sous-groupe, modifier
 navigation-topic: create-and-manage-subgroups
 title: Gestion d’un sous-groupe
 description: En tant qu’administrateur ou administratrice de groupes d’un sous-groupe, vous pouvez créer, déplacer, afficher, modifier, copier, renommer, exporter et supprimer le sous-groupe. Vous pouvez également faire d’un sous-groupe un groupe de niveau supérieur en le supprimant de son groupe parent.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 52%
@@ -180,7 +180,7 @@ Vous pouvez faire d’un sous-groupe un groupe de niveau supérieur en le retira
 >[!TIP]
 >
 >Lorsque vous désactivez un groupe qui a des sous-groupes sous-jacents, ces sous-groupes deviennent également inactifs. Si vous souhaitez que l’un d’entre eux soit actif, vous pouvez suivre ces instructions pour le retirer de son groupe parent, puis le réactiver.
->&#x200B;>Pour obtenir des instructions sur la désactivation et la réactivation de groupes, voir [&#x200B; Désactiver ou réactiver un groupe &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>>Pour obtenir des instructions sur la désactivation et la réactivation de groupes, voir [ Désactiver ou réactiver un groupe ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 

@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Présentation des panoramas
+title: Présentation des tableaux
 description: Les panoramas Adobe Workfront sont des outils flexibles qui permettent aux équipes de collaborer entre elles. Ils permettent d’accéder à un panorama partagé contenant des colonnes et des cartes.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 99%
@@ -34,6 +34,6 @@ Pour plus d’informations sur l’utilisation d’un panorama sur un projet, vo
 
 Vous pouvez également accéder aux panoramas dans l’application mobile. Pour plus d’informations, voir la section Panoramas [[!DNL Adobe Workfront]  pour l’application mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-Pour consulter les vidéos explicatives des fonctionnalités des panoramas, voir les démonstrations vidéo des Panoramas [[!DNL Adobe Workfront] &#x200B;](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+Pour consulter les vidéos explicatives des fonctionnalités des panoramas, voir les démonstrations vidéo des Panoramas [[!DNL Adobe Workfront] ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
 Pour plus d’informations sur les outils agiles supplémentaires dans [!DNL Workfront], voir la section [Vue d’ensemble des outils agiles](../agile/agile-overview.md).

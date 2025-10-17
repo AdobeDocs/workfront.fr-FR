@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Rapports ou listes : afficher les utilisateurs et utilisatrices associés à un objet'
 description: Vous pouvez afficher les utilisateurs et les utilisatrices, les fonctions et les équipes associés aux objets dans les rapports ou les listes, et les référencer dans les filtres. Vous ne pouvez pas les regrouper par utilisateurs et utilisatrices, fonctions ou équipes associés à des objets.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 97%

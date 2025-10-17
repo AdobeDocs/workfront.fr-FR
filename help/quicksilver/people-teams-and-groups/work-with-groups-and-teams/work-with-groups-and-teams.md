@@ -2,13 +2,13 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Utilisation de groupes et d’équipes
+title: Utilisation des groupes et des équipes
 description: Consultez ces articles pour en savoir plus sur l’utilisation des groupes et des équipes dans Workfront.
-author: Lisa
+author: Jenny and Becky
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: f5357f8d-9fa0-46f2-9ae5-7fc224c52fc1
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 85%

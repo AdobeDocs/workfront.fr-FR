@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Modifier l’ordre des histoires sur le scrum board
 description: L’ordre dans lequel les histoires apparaissent sur le storyboard n’est pas lié à leur priorité. Cependant, cela peut affecter la priorité perçue en rendant les histoires plus visibles. Par défaut, les histoires s’affichent par ordre alphabétique dans chaque colonne [!UICONTROL Statut] sur le storyboard.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 80%
@@ -59,4 +59,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Contrairement aux itérations Agile, vous ne pouvez pas modifier l’ordre des histoires lors de l’affichage d’un projet dans une vue Agile. Pour modifier l’ordre des histoires d’un projet, vous devez afficher le projet dans une vue standard.
 
-Pour savoir comment modifier l’affichage du projet, voir [[!UICONTROL Gérer un projet] en [!UICONTROL vue &#x200B;]Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Au lieu de sélectionner une vue Agile, sélectionnez une vue standard.
+Pour savoir comment modifier l’affichage du projet, voir [[!UICONTROL Gérer un projet] en [!UICONTROL vue ]Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Au lieu de sélectionner une vue Agile, sélectionnez une vue standard.

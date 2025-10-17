@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
-title: Présentation des chefs d’entreprise
+title: Présentation du chef d’entreprise
 description: Dans un groupe, la personne responsable commerciale est celle qui prend les décisions pour le groupe concernant les objectifs, les stratégies, le budget, l’embauche, etc. Par exemple, dans une organisation qui dispose d’un directeur ou d’une directrice du marketing, cette personne sera probablement la personne responsable commerciale pour le marketing.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 99%
@@ -25,7 +25,7 @@ Si vous avez besoin d’informations générales sur les groupes, voir [Vue d’
 
 >[!NOTE]
 >
->Contrairement à l’administrateur ou l’administratrice de groupes, la personne responsable commerciale n’a pas la possibilité d’afficher ou de modifier des configurations ou des appartenances pour le groupe.
+>Contrairement à l’administrateur ou l’administratrice de groupes, la personne responsable commerciale n’a pas la possibilité d’afficher ou de modifier des configurations ou des abonnements pour le groupe.
 
 <!--
 >DRAFTED IN FLARE:

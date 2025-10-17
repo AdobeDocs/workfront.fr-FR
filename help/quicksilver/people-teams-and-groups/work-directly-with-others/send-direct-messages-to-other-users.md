@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: people-teams-and-groups
 title: Envoyer des messages directs à d'autres utilisateurs
 description: Adobe Workfront vous permet d’envoyer rapidement et facilement des messages qui ne sont pas liés à un élément de travail directement à d’autres personnes de Workfront.
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 45%
@@ -85,7 +85,7 @@ Cette option n&#39;est disponible que si vous disposez d&#39;une licence Standar
 1. Sélectionnez l’utilisateur ou les utilisateurs auxquels vous souhaitez envoyer un message, puis cliquez sur [!UICONTROL **Envoyer la mise à jour à l’utilisateur**].
 1. Saisissez votre message dans la fenêtre [!UICONTROL Envoyer la mise à jour à l’utilisateur]. Utilisez les options de formatage de texte selon vos besoins. Pour plus d’informations, consultez [Utilisation de texte enrichi dans un commentaire Workfront](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment) dans l’article [Mise à jour de travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![Envoyez un message à l’utilisateur dans la fenêtre Envoyer la mise à jour à l’utilisateur &#x200B;](assets/send-update-to-user-072825.png)
+   ![Envoyez un message à l’utilisateur dans la fenêtre Envoyer la mise à jour à l’utilisateur ](assets/send-update-to-user-072825.png)
 
 1. (Facultatif) Cliquez sur **Baliser les personnes** pour baliser d’autres utilisateurs dans le message. Pour plus d’informations, voir [Taguer d’autres personnes sur les mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Facultatif) Sélectionnez **[!UICONTROL Réservé à mon entreprise]** pour que ce message ne soit visible que par les autres personnes de votre entreprise.

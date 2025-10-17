@@ -5,11 +5,11 @@ product-area: system-administration;user-management;setup
 keywords: groupe,préférences,tâche,problème,déverrouiller
 navigation-topic: create-and-manage-groups
 description: Si des groupes de votre entreprise doivent configurer une préférence de tâche ou de problème indépendamment de sa configuration au niveau du système, un administrateur ou une administratrice Adobe Workfront peut déverrouiller la préférence. Ensuite, en tant qu’administrateur ou administratrice de groupes, vous pouvez configurer les préférences de votre groupe, ce qui aura une incidence sur toutes les tâches associées ou tous les problèmes associés à votre groupe.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 85%

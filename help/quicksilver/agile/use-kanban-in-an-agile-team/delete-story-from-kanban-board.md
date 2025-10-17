@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Supprimer l'histoire du tableau kanban
 description: Vous pouvez supprimer une histoire ou un problème sur le tableau Kanban. Lorsque vous supprimez une histoire ou un problème, l’élément est placé dans la Corbeille pendant 30 jours et ne peut être récupéré que par l’administrateur ou l’administratrice système.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 5e838f0a-b26d-4bbe-b9e9-3161e3958b58
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 92%

@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des statuts personnalisés pour les projets, les tâches et les problèmes.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 98%
@@ -83,7 +83,7 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
 
    Si vous modifiez un statut existant, survolez-le, puis cliquez sur l’icône **Modifier** qui s’affiche complètement à droite.
 
-   ![&#x200B; Modifier le statut personnalisé &#x200B;](assets/custom-status-edit.png)
+   ![ Modifier le statut personnalisé ](assets/custom-status-edit.png)
 
 1. Configurez le statut à l’aide des options suivantes :
 

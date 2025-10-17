@@ -4,10 +4,10 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Joindre une notification de rappel à un objet
 description: 'Vous pouvez associer des notifications de rappel à plusieurs types d’objets différents : projets, tâches, problèmes, feuilles de temps, modèles, tâches de modèle et profils de feuilles de temps récurrentes.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 96%
@@ -63,7 +63,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Dans cet exemple, l’objet en cours de modification est une tâche :
 
-   ![&#x200B; Notification de rappel &#x200B;](assets/reminder-notification-select-one-350x213.png)
+   ![ Notification de rappel ](assets/reminder-notification-select-one-350x213.png)
 
    Si l’administrateur ou l’administratrice [!DNL Workfront] a créé plusieurs notifications de rappel, vous pouvez joindre plusieurs notifications à un seul objet.
 

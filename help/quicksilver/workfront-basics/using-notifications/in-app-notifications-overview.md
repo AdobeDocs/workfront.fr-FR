@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: notifications
 title: Vue d’ensemble des notifications in-app
 description: 'Cet article répertorie les notifications in-app que vous pouvez recevoir. Les notifications in-app vous donnent deux types d’informations : les notifications d’annonce et les notifications d’élément de travail. Elles sont disponibles à la fois dans l’application web et dans l’application mobile.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 32%
@@ -31,7 +31,7 @@ Les annonces peuvent se présenter de deux façons :
 
 Dans les deux cas, lorsque l’administrateur ou l’utilisateur clique sur l’icône numérotée ![Icône de notifications](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir sa liste de notifications, l’objet du message s’affiche avec une icône de mégaphone ![Icône d’annonce](assets/announcement.png) et le mot « [!UICONTROL Annonce] ».
 
-Notification d’![[!UICONTROL annonce] &#x200B;](assets/notification-list-announcement-350x271.png)
+Notification d’![[!UICONTROL annonce] ](assets/notification-list-announcement-350x271.png)
 
 Pour plus d’informations sur la page [!UICONTROL Annonces], consultez [Afficher et gérer les notifications in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 

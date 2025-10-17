@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '« Notifications : informations sur les projets dont je suis propriétaire »'
+title: 'Notifications : informations sur les projets dont je suis propriétaire'
 description: Les notifications suivantes vous alertent sur les activités qui ont lieu sur un projet dont vous êtes propriétaire. Pour plus d’informations sur la configuration des notifications que vous recevez, voir Modifier vos propres notifications par e-mail.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: cf605849-bcc0-4982-b8fa-f69eef7a4fb6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 100%

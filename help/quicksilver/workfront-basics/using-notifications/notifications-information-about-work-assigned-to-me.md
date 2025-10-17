@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '« Notifications : Informations sur le travail qui m’a été affecté »'
+title: 'Notifications : Informations sur le travail qui m’a été affecté'
 description: Les notifications suivantes vous alertent sur les activités qui se produisent sur un élément de travail qui vous est affecté.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '2088'
 ht-degree: 100%

@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '« Notifications : informations diverses »'
+title: 'Notifications : informations diverses'
 description: Les notifications suivantes vous alertent sur les activités qui se produisent sur un projet que vous sponsorisez.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%

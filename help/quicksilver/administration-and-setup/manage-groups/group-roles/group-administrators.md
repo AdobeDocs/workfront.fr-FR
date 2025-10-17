@@ -5,11 +5,11 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Les administrateurs et administratrices Adobe Workfront d’une grande entreprise comportant de nombreux services ne souhaitent peut-être pas gérer tous les services de l’entreprise et les groupes au sein de ces services. Au lieu de cela, ils peuvent créer un groupe pour chaque service et des sous-groupes au sein de ce groupe, chacun étant géré par un administrateur ou une administratrice de groupes.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
@@ -66,7 +66,7 @@ Nous recommandons que les administrateurs et administratrices de groupes aient u
 >[!IMPORTANT]
 >
 >Les administrateurs et administratrices de groupes doivent disposer d’un accès supérieur par rapport aux personnes qu’ils gèrent ; dans le cas contraire, ils ne pourront pas consulter ou modifier les niveaux d’accès inférieurs.
->Pour savoir comment accorder cet accès, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>>Pour savoir comment accorder cet accès, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Pour un administrateur ou une administratrice de groupes qui doit attribuer des profils de feuilles de temps aux personnes de ses groupes et sous-groupes, nous recommandons également l’accès administratif aux feuilles de temps et aux heures. Pour savoir comment accorder cet accès, voir [Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -104,7 +104,7 @@ En tant qu’administrateur ou administratrice de groupes, vous pouvez effectuer
 
 ### Gérer les objets des groupes {#manage-group-objects}
 
-* Créez des modèles de mise en page au niveau du groupe et associez-les aux groupes et sous-groupes que vous gérez. Pour plus d’informations, consultez [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+* Créez des modèles de mise en page au niveau du groupe et associez-les aux groupes et sous-groupes que vous gérez. Pour plus d’informations, voir [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 * Créez des profils de feuille de temps au niveau du groupe, associez-les aux utilisateurs et utilisatrices et aux groupes que vous gérez et générez manuellement des feuilles de temps. Pour plus d’informations, consultez [Créer, modifier et attribuer des profils de feuille de temps](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 * Sans accès administratif aux processus d’approbation, créez et modifiez les processus d’approbation pour les groupes et sous-groupes que vous gérez. Pour plus d’informations, consultez [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

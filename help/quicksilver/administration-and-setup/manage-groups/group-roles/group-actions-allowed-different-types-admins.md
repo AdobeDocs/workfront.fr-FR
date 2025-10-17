@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Actions autorisées pour les administrateurs de groupe
 description: Ce tableau compare les activités d’administration disponibles pour un administrateur ou une administratrice Adobe Workfront gérant le système Workfront, un administrateur ou une administratrice de groupes gérant un groupe de niveau supérieur et un administrateur ou une administratrice de groupes gérant un sous-groupe.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 416be55e172e2e2f0a1d8b593fdcb27d123e2fcb
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 86%
@@ -235,7 +235,7 @@ Ce tableau répertorie les activités d’administration disponibles pour :
 * Workflow Prime et versions ultérieures
 * Workfront Prime et versions ultérieures
 
-Consultez la page de tarification et de conditionnement d’[Adobe Workfront](https://business.adobe.com/fr/products/workfront/pricing.html) pour plus d’informations sur les packages.
+Consultez la page de tarification et de conditionnement d’[Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) pour plus d’informations sur les packages.
 
 Contrôles d’entreprise avancés :
 

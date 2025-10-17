@@ -4,11 +4,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Utiliser les statuts personnalisés comme statuts par défaut
 description: Lorsqu’un statut personnalisé est défini comme statut par défaut, le nouveau statut par défaut est utilisé dans l’ensemble du système de diverses manières. L’utilisation du statut varie selon s’il est le statut par défaut au niveau du système ou au niveau du groupe.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 97%

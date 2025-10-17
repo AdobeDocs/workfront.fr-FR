@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Création et modification des portefeuilles d’un groupe
 description: En tant qu’administrateur ou administratrice de groupes, lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher et utiliser ses portfolios.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 91%

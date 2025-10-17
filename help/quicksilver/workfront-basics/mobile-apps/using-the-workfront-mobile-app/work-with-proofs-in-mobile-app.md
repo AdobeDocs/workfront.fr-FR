@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 'Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] '
 description: Lorsqu’une épreuve vous est assignée pour approbation, elle apparaît dans votre liste d’approbations dans l’application mobile. Vous pouvez réviser l’épreuve directement dans l’application et prendre une décision dessus.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 97%
@@ -79,7 +79,7 @@ Après avoir révisé l’épreuve de document, vous pouvez prendre une décisio
 ### Prendre une décision dans l’épreuve
 
 1. Ouvrez l’épreuve de document.
-1. Sélectionnez l’icône de décision ![[!UICONTROL Icône de décision] &#x200B;](assets/mobile-proofcheckmarkdecisionicon-30x30.png) en haut à droite du document.
+1. Sélectionnez l’icône de décision ![[!UICONTROL Icône de décision] ](assets/mobile-proofcheckmarkdecisionicon-30x30.png) en haut à droite du document.
 1. Sélectionnez une décision dans la zone [!UICONTROL Prendre une décision].
 
    Quelques options de décision courantes sont présentées ci-dessous. L’administrateur ou l’administratrice [!DNL Adobe Workfront] ou l’administrateur ou l’administratrice [!UICONTROL Workfront Proof] peut configurer la liste des options de décision. Pour plus d’informations sur la manière dont les administrateurs et les administratrices peuvent configurer les décisions, voir [Configurer les options de décision d’approbation dans Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
@@ -114,7 +114,7 @@ Après avoir révisé l’épreuve de document, vous pouvez prendre une décisio
 ### Modifier votre décision dans l’épreuve
 
 1. Ouvrez l’épreuve de document.
-1. Sélectionnez l’icône de décision ![[!UICONTROL Icône de décision] &#x200B;](assets/mobile-proofcheckmarkdecisionicon-30x30.png) en haut à droite du document.
+1. Sélectionnez l’icône de décision ![[!UICONTROL Icône de décision] ](assets/mobile-proofcheckmarkdecisionicon-30x30.png) en haut à droite du document.
 
    La zone [!UICONTROL Prendre une décision] affiche votre décision actuelle.
 

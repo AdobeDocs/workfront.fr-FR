@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Statuts personnalisés sur une tâche ou un problème déplacé ou copié
+title: Statuts personnalisés sur une tâche ou un événement déplacé ou copié
 description: Lorsque vous déplacez ou copiez une tâche ou un problème vers un autre projet, certains statuts de la tâche ou du problème peuvent se mettre à jour pour correspondre aux statuts utilisés par le groupe du projet de destination.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4bd9b89d-9c66-4af7-97bf-f9518ad55d7c
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 94%

@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Répertorier les objets avec un processus d'approbation en attente utilisant un certain statut
 description: Si vous essayez de supprimer un statut, un message d’erreur peut vous indiquer qu’il ne peut pas être supprimé, car il est utilisé dans les processus d’approbation en attente sur les objets de votre système.Si vous souhaitez rechercher et consulter ces objets afin de décider des actions appropriées, vous pouvez exécuter un rapport qui les répertorie.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 89%

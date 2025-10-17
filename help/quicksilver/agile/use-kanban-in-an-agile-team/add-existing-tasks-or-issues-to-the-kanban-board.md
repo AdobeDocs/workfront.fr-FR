@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Ajouter des tâches ou des événements existants au tableau Kanban
 description: Si vous disposez de l’accès en gestion au projet, vous pouvez ajouter n’importe quelle tâche ou n’importe quel problème à un tableau Kanban.
-author: Courtney
+author: Jenny
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 31%

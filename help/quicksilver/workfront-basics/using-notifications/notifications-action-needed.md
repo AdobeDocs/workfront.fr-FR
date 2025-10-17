@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '« Notifications : action nécessaire »'
+title: 'Notifications : action nécessaire'
 description: Les notifications suivantes vous permettent de savoir si vous devez réaliser une action sur un élément de travail. Pour plus d’informations sur la configuration des notifications que vous recevez, voir Modifier vos propres notifications par e-mail.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: dd383bd4-da30-45ea-889e-e6b49416974b
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 100%

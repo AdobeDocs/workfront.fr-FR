@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Actions à entreprendre après l’installation d’un plan directeur
 description: Cet article décrit ce que vous devez faire après avoir installé un plan directeur dans  [!DNL Adobe Workfront]  pour déployer complètement le plan directeur aux utilisateurs et utilisatrices de votre système.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 98%
@@ -85,11 +85,11 @@ Les rapports distribués par le biais d’un plan directeur de tableau de bord n
 
 ### Partager les tableaux de bord ou les rapports avec les utilisateurs et utilisatrices
 
-Si vous n’envisagez pas de placer le tableau de bord sur un modèle de disposition, vous devrez le partager les personnes qui en feront usage. Pour plus d’informations, voir [Partager un tableau de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) et [Partager un rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+Si vous n’envisagez pas de placer le tableau de bord sur un modèle de mise en page, vous devrez le partager avec les personnes qui en feront usage. Pour plus d’informations, voir [Partager un tableau de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) et [Partager un rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
-### Ajouter des tableaux de bord aux modèles de disposition
+### Ajouter des tableaux de bord aux modèles de mise en page
 
-La meilleure façon de mettre des informations à la disposition d’autres personnes est d’ajouter des tableaux de bord aux modèles de disposition. Identifiez les modèles de disposition des personnes qui ont le plus besoin de consulter régulièrement le tableau de bord et ajoutez-le à ces modèles. Pour plus d’informations, voir [Créer et gérer des modèles de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+La meilleure façon de mettre des informations à la disposition d’autres personnes est d’ajouter des tableaux de bord aux modèles de mise en page. Identifiez les modèles de mise en page des personnes qui ont le plus besoin de consulter régulièrement le tableau de bord et ajoutez-le à ces modèles. Pour plus d’informations, voir [Créer et gérer des modèles de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ### Mettre à jour d’autres tableaux de bord et rapports
 
@@ -97,4 +97,4 @@ L’introduction d’un nouveau tableau de bord et de ses rapports peut permettr
 
 ### Distribuer les données personnalisées dans les formulaires appropriés
 
-Certains rapports inclus dans le plan directeur d’un tableau de bord comportent des champs de données personnalisés dans la vue, le filtre ou le regroupement du rapport. Dans certains cas, le plan directeur comporte également un formulaire auquel ces champs sont associés. Cependant, le plus souvent, les champs personnalisés ne sont pas appliqués à un formulaire personnalisé. Pour que les colonnes, les filtres ou les regroupements fonctionnent correctement, ces champs doivent être associés à des formulaires liés à un enregistrement d’utilisateur ou utilisatrice, de projet, de tâche ou d’un autre objet. Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Certains rapports inclus dans le plan directeur d’un tableau de bord comportent des champs de données personnalisés dans la vue, le filtre ou le regroupement du rapport. Dans certains cas, le plan directeur comporte également un formulaire auquel ces champs sont associés. Cependant, le plus souvent, les champs personnalisés ne sont pas appliqués à un formulaire personnalisé. Pour que les colonnes, les filtres ou les regroupements fonctionnent correctement, ces champs doivent être associés à des formulaires liés à un enregistrement d’utilisateur ou utilisatrice, de projet, de tâche ou d’un autre objet. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
-title: Présentation de Kanban
+title: Présentation De Kanban
 description: Consultez cet article pour mieux comprendre le fonctionnement du tableau Kanban.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 99%
@@ -22,7 +22,7 @@ Les sections suivantes permettent de mieux comprendre le fonctionnement du panor
 
 Pour obtenir une description de la méthodologie [!UICONTROL Kanban], voir la section [Créer une équipe agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-Si la migration d’un panorama [!UICONTROL Kanban] d’équipe agile vers des [!UICONTROL panoramas] [!DNL Workfront] vous intéresse, voir la sections [Migrer des cartes [!UICONTROL Kanban] d’équipe agile vers des panoramas  [!DNL Workfront] &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Si la migration d’un panorama [!UICONTROL Kanban] d’équipe agile vers des [!UICONTROL panoramas] [!DNL Workfront] vous intéresse, voir la sections [Migrer des cartes [!UICONTROL Kanban] d’équipe agile vers des panoramas  [!DNL Workfront] ](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## Disposition et fonctions des panoramas [!UICONTROL Kanban]
 

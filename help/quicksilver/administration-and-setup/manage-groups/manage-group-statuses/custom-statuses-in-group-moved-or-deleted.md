@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Statuts personnalisés dans un groupe déplacé ou supprimé
+title: Statuts personnalisés dans un groupe qui est déplacé ou supprimé
 description: Cet article explique ce qu’il advient des statuts personnalisés des groupes lorsque vous déplacez ou supprimez un groupe.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 98%

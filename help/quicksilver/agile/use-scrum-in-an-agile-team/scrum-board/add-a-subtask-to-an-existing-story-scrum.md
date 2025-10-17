@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Ajout d’une sous-tâche à un article existant sur le panorama de défilement
+title: Ajouter une sous-tâche à une histoire existante sur le scrum board
 description: Lors de la création de sous-tâches pour les histoires existantes, gardez à l’esprit le paramètre « Mode d’achèvement » du projet, car cela affecte la manière dont les articles sont mis à jour.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 98%

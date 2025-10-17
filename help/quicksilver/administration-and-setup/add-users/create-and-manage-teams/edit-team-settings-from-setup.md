@@ -1,11 +1,11 @@
 ---
 title: Modifier les paramètres d'une équipe à partir de la zone Configuration
-description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez modifier les paramètres d’une équipe dans la zone Configuration. Vous pouvez ajouter des personnes à une équipe, définir le modèle de disposition d’une équipe et définir comment le statut est enregistré lorsqu’une équipe termine des éléments de travail.
-author: Lisa
+description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez modifier les paramètres d’une équipe dans la zone Configuration. Vous pouvez ajouter des personnes à une équipe, définir le modèle de mise en page d’une équipe et définir comment le statut est enregistré lorsqu’une équipe termine des éléments de travail.
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 94%
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 # Modifier les paramètres d’une équipe à partir de la zone Configuration
 
-En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez modifier les paramètres d’une équipe dans la zone Configuration. Vous pouvez ajouter des personnes à une équipe, définir le modèle de disposition d’une équipe et définir comment le statut est enregistré lorsqu’une équipe termine des éléments de travail.
+En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez modifier les paramètres d’une équipe dans la zone Configuration. Vous pouvez ajouter des personnes à une équipe, définir le modèle de mise en page d’une équipe et définir comment le statut est enregistré lorsqu’une équipe termine des éléments de travail.
 
 Pour plus d’informations sur les équipes, voir [Vue d’ensemble des équipes](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 

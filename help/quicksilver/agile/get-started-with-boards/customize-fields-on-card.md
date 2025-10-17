@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
 title: Personnaliser les champs affichés sur une carte
 description: Vous pouvez personnaliser les champs affichés sur une carte en désactivant un champ pour qu’il ne soit pas affiché dans la carte complète ou dans l’affichage condensé, ou en masquant un champ dans l’affichage condensé de la carte.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 97%

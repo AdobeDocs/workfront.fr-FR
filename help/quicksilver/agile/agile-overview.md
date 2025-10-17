@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Aperçu agile
+title: Présentation d’Agile
 description: Agile est une méthodologie de travail qui permet aux équipes d’effectuer de petites quantités de travail gérables à un rythme cohérent. Dans Agile, les équipes gèrent les histoires sur une liste d’attente ou un storyboard, et non les tâches d’un projet. [!DNL Adobe Workfront]  fournit des outils qui aident les équipes à travailler de manière Agile.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 99%

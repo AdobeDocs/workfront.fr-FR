@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Modifier le mot de passe d’un utilisateur configuré automatiquement
 description: Nous vous recommandons de remplacer le nom d’utilisateur d’un nouvel utilisateur par son adresse e-mail Workfront, puis de lui permettre de modifier son mot de passe.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 87%

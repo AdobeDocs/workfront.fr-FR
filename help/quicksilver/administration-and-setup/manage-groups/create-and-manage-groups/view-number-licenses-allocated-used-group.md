@@ -1,11 +1,11 @@
 ---
 title: Afficher le nombre de licences attribuées et utilisées dans un groupe
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez afficher le décompte des différents types de licences actuellement utilisées dans votre groupe et ses sous-groupes. Cette fonction est utile lorsque vous devez déterminer s’il convient de redistribuer les licences.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 89%

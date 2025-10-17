@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: Comprendre la navigation pour un utilisateur ou une utilisatrice de licence de révision
 description: Le menu principal change en fonction du niveau d’accès qui vous a été attribué par votre administrateur ou administratrice  [!DNL Adobe Workfront] . Par défaut, vous n’avez accès qu’aux zones qui incluent les fonctionnalités autorisées par votre niveau d’accès.
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 98%

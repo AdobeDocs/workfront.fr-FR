@@ -5,11 +5,11 @@ keywords: vue,groupe,événement,notifications,configurer,activer,désactiver
 navigation-topic: create-and-manage-groups
 title: Affichage et configuration des notifications d’événement pour un groupe
 description: En tant qu’administrateur ou administratrice de groupes, vous pouvez afficher les notifications d’événement qui sont activées pour un groupe que vous gérez. En outre, si un administrateur ou une administratrice Adobe Workfront déverrouille une notification d’événement, vous pouvez la configurer pour un groupe de niveau supérieur que vous gérez. La configuration d’une notification d’événement consiste à l’activer ou à la désactiver.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 83%

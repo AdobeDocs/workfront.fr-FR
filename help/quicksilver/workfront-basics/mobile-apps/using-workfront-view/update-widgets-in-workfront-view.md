@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: Mettre à jour des widgets dans la vue Détails du projet
 description: Vous pouvez afficher des informations supplémentaires sur le [!UICONTROL projet] une fois que vous y avez accédé depuis la liste des projets en ajoutant des widgets à votre écran [!UICONTROL Détails du projet]. Chaque personne peut personnaliser ses propres widgets.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 98%
@@ -50,7 +50,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Appuyez sur l’onglet en bas au milieu de l’écran.\
    La zone [!UICONTROL Widget] s’affiche.\
    Faites défiler les widgets en glissant de gauche à droite.\
-   ![&#x200B; Widgets &#x200B;](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![ Widgets ](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. Faites glisser et déposez un widget pour personnaliser la disposition de votre page de projet.\
    Vous pouvez afficher jusqu’à quatre widgets simultanément.\

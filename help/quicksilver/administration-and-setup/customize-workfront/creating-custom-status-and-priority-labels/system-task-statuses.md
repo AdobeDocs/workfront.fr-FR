@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: États des tâches du système
+title: Statuts des tâches système
 description: Les trois statuts de tâches du système intégrés dans Workfront sont obligatoires, ce qui signifie que vous pouvez les déverrouiller, les renommer et les réorganiser, mais vous ne pouvez pas les masquer ou les supprimer. Vous pouvez également ajouter de nouveaux statuts de tâches du système pour répondre aux besoins de votre organisation. La modification du statut d’une tâche est généralement un processus manuel, mais il arrive que le statut d’une tâche soit modifié automatiquement, en fonction d’autres facteurs intervenant dans le système.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 94%
@@ -51,7 +51,7 @@ Les statuts de tâches suivants sont fournis avec votre instance Workfront :
   <tr> 
    <td>Terminée (statut obligatoire)</td> 
    <td> <p>Vous pouvez marquer manuellement une tâche comme terminée lorsque le travail est achevé.</p> <p>Lorsque le mode de suivi d’une tâche est défini sur Achèvement automatique, la tâche est automatiquement marquée comme terminée lorsqu’elle atteint la date d’achèvement prévue.</p> </td> 
-   <td> <p>Lorsqu’une tâche est achevée, le pourcentage terminé de la tâche apparaît sur 100 %. La tâche est supprimée de la liste Mon travail de la personne désignée dans la zone Accueil une fois qu’elle est terminée.</p> <p>Lorsque vous marquez une tâche comme Terminée, la tâche affiche une valeur pour la date d’achèvement effective.</p> <p><b>NOTE</b> : si la tâche a des problèmes incomplets et que vous changez le statut de la tâche sur Terminée, le statut devient automatiquement Terminée - Problèmes en attente.</p> </td> 
+   <td> <p>Lorsqu’une tâche est achevée, le pourcentage terminé de la tâche apparaît sur 100 %. Une fois terminée, la tâche est supprimée de la liste Mes tâches de la personne désignée dans la zone d’Accueil.</p> <p>Lorsque vous marquez une tâche comme Terminée, la tâche affiche une valeur pour la date d’achèvement effective.</p> <p><b>NOTE</b> : si la tâche a des problèmes incomplets et que vous changez le statut de la tâche sur Terminée, le statut devient automatiquement Terminée - Problèmes en attente.</p> </td> 
   </tr> 
  </tbody> 
 </table>

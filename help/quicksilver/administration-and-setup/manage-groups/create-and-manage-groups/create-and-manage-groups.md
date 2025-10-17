@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Créer et gérer des groupes
 description: Un administrateur ou une administratrice Workfront peut créer des groupes d’utilisateurs ou d’utilisatrices qui correspondent à la structure des services de votre entreprise. Les groupes, les équipes et les entreprises partagent des points communs, mais se distinguent par certains aspects.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8f2996a-89cb-4929-ad04-ab84c7bd66fc
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%

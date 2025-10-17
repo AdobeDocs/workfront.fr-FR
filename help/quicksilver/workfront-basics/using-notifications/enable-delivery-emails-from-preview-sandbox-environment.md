@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: Activer l’envoi d’e-mails à partir de l’environnement Sandbox de prévisualisation
 description: Si vous souhaitez recevoir des notifications par e-mail de l’environnement de sandbox de prévisualisation, vous devez activer cette fonctionnalité dans vos paramètres utilisateur lorsque vous accédez à l’environnement de prévisualisation.
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 88%

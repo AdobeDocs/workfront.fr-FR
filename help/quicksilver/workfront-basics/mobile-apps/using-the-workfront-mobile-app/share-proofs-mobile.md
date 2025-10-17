@@ -1,12 +1,12 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Partager et télécharger des épreuves dans l’application mobile  [!DNL Adobe Workfront]
+title: 'Partager et télécharger des épreuves dans l’application mobile  [!DNL Adobe Workfront] '
 description: Vous pouvez partager un document d’épreuve avec des destinataires internes et externes directement à partir de l’application mobile. Vous pouvez également télécharger un document d’épreuve sur votre appareil mobile.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 95%
@@ -77,7 +77,7 @@ Cette option envoie un e-mail avec un lien d’épreuve public à un contact dep
 
 ## Télécharger l’épreuve
 
-Vous pouvez télécharger une copie du document de BAT sur votre périphérique mobile. Notez que même si vous ne pouvez pas prévisualiser de fichiers vidéo, vous pouvez toujours les télécharger.
+Vous pouvez télécharger une copie du document de BAT sur votre appareil mobile. Notez que même si vous ne pouvez pas prévisualiser les fichiers vidéo, vous pouvez toujours les télécharger.
 
 1. Ouvrez l’épreuve de document et sélectionnez le menu **[!UICONTROL Plus]** ![Menu Plus](assets/mobile-verticalmoremenu-20x33.png) dans le coin supérieur droit du document. Sélectionnez ensuite **[!UICONTROL Plus]**.
 1. Sélectionnez **[!UICONTROL Télécharger]**.

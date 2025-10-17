@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Panoramas Adobe Workfront pour mobile
 description: Dans l’application mobile  [!DNL Workfront] , vous pouvez voir tous les panoramas que vous avez créés ou auxquels vous avez accès dans la version de bureau de  [!DNL Workfront].
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 100%
@@ -132,7 +132,7 @@ Lorsque des filtres sont appliqués, un indicateur s’affiche sur le tableau ![
 1. Sélectionnez l’icône de filtre et de recherche ![Filtre et recherche](assets/filter-search-icon-mobile-boards.png).
 1. Tapez un terme de recherche dans la zone et sélectionnez [!UICONTROL **Terminé**] ou ![Icône Terminé](assets/mobile-apply-icon-checkmark.png).
 
-   Toutes les cartes dont le titre contient le terme recherché sont affichées.
+   Toutes les cartes dont le titre contient le terme de recherche sont affichées.
 Sélectionnez le X pour effacer la recherche.
 
    ![Rechercher une carte](assets/mobile-search-for-card.png)

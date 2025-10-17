@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Synchronisation des données dans le graphique d'avancement
 description: Le graphique d’avancement est automatiquement synchronisé avec les données de votre projet ou de votre itération. Si le graphique d’avancement ne synchronise plus les données du projet ou de l’itération, vous pouvez les synchroniser manuellement.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 93%

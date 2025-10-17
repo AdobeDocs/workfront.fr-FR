@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '« Notifications : informations sur les projets auxquels je participe »'
+title: 'Notifications : informations sur les projets auxquels je participe'
 description: Les notifications suivantes vous alertent sur les activités qui se produisent dans les projets sur lesquels vous travaillez.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 100%

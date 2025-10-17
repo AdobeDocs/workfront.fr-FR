@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Commenter sur les épreuves dans Android
 description: Vous pouvez consulter et résoudre des commentaires existants sur une épreuve, ainsi qu’ajouter des commentaires et annotations au document de l’épreuve.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 100%

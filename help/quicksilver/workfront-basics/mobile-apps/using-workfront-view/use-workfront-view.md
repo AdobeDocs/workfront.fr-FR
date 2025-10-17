@@ -4,11 +4,11 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Utiliser Adobe Workfront View
 description: Consultez ces articles pour savoir comment utiliser la vue  [!DNL Adobe Workfront] .
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c86aa07d-e260-495b-84b4-d661a2ac6dda
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 100%

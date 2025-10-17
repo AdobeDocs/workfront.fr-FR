@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: "Groupes : index de l’article"
-description: Les groupes, les équipes et les entreprises partagent des points communs, mais se distinguent par certains aspects. L’administrateur Workfront accorde aux groupes l’accès aux zones Workfront dans lesquelles ils doivent travailler et communiquer.
-author: Lisa
+title: 'Groupes : index des articles'
+description: Les groupes, les équipes et les entreprises partagent des points communs, mais se distinguent par certains aspects. L’administrateur Workfront accorde aux groupes l’accès aux zones Workfront où ils doivent travailler et communiquer.
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: afbbdda2-095b-429d-a672-2f53c541273c
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 81%

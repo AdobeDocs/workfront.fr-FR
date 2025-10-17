@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Gérer les éléments de la liste de contrôle sur les cartes
 description: L’utilisation d’une liste de contrôle sur une carte vous permet de ventiler le travail par groupes plus petits ou d’ajouter des notes à la carte. Les éléments de la liste de contrôle sont disponibles à la fois sur les cartes ad hoc et sur les cartes connectées.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 97%

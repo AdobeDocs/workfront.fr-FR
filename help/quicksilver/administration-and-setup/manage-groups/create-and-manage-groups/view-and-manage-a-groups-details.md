@@ -1,11 +1,11 @@
 ---
 title: Affichage et gestion des détails d’un groupe
 description: Vous pouvez afficher et modifier la page Détails du groupe d’un groupe ou d’un sous-groupe que vous gérez.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 92%

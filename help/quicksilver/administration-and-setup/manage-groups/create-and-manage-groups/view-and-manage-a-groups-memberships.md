@@ -5,11 +5,11 @@ keywords: ajouter,utilisateurs,utilisatrices,groupe,ajouter,autre,attribuer,admi
 navigation-topic: create-and-manage-groups
 title: Afficher et gérer les adhésions d'un groupe
 description: En tant qu’administrateur ou administratrice d’Adobe Workfront, vous pouvez afficher, ajouter, supprimer, exporter, activer et désactiver les personnes membres des groupes que vous gérez. Vous pouvez également modifier leur profil, ajouter des mises à jour à leur profil et les affecter en tant qu’administrateurs ou administratrices de groupes supplémentaires pour le groupe.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 91%

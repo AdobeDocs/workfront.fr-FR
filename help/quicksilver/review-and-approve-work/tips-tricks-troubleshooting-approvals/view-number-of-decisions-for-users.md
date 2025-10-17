@@ -3,10 +3,10 @@ product-area: documents
 navigation-topic: approvals
 title: Afficher le nombre de décisions d’épreuve et de document pour tous les utilisateurs et utilisatrices
 description: Vous pouvez afficher le nombre de décisions d’épreuve et de document prises par les utilisateurs et utilisatrices dans votre instance Workfront.
-author: Courtney and Lisa
+author: Courtney and Jenny
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: 551426cd26aece0d15304a9ac4b88329bacbd29b
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%

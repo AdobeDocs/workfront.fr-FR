@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Afficher et gérer les éléments récemment restaurés d'un groupe
 description: Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouvez afficher, filtrer, regrouper et restaurer ses éléments de travail, documents et modèles récemment restaurés.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 68%
@@ -79,5 +79,5 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. (Facultatif) Pour exporter la liste complète des objets de l’onglet, cliquez sur l’icône **Exporter**. ![icône Exporter](assets/export-icon.png).
 1. (Facultatif) Modifiez l’affichage des informations dans la liste à l’aide d’un filtre, d’une vue ou d’un regroupement.
 
-   Pour plus d’informations, voir [&#x200B; Présentation des éléments de rapports &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+   Pour plus d’informations, voir [ Présentation des éléments de rapports ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 

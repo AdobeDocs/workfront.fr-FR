@@ -5,11 +5,11 @@ keywords: gérer,regrouper,modifier,
 navigation-topic: create-and-manage-groups
 title: Gestion d’un groupe
 description: En tant qu’administrateur ou administratrice de groupe, vous pouvez gérer un groupe que vous administrez à partir de la zone Groupes dans la Configuration. S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrateurs et administratrices peuvent également le faire pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe).
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 97%

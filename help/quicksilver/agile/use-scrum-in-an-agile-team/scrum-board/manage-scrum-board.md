@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Gérer les histoires et les événements sur le scrum board
 description: Vous pouvez déplacer une histoire ou un problème du panorama Scrum vers une autre itération ou vers la liste d’attente ou supprimer l’élément du panorama Scrum. Lorsque vous supprimez une histoire ou un problème, l’élément est placé dans la Corbeille pendant 30 jours et ne peut être récupéré que par l’administrateur ou l’administratrice système.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 84%

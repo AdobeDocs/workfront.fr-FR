@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Désactiver ou supprimer une équipe
 description: Vous pouvez désactiver les équipes que vous n’utilisez plus tout en conservant les données historiques associées. Les administrateurs et administratrices d’Adobe Workfront peuvent réactiver une équipe à tout moment à partir de la zone Équipes dans Configuration.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 68%
@@ -40,7 +40,7 @@ Vous pouvez désactiver les équipes que vous n’utilisez plus tout en conserva
  </tbody> 
 </table>
 
-Les équipes désactivées n’apparaissent pas lorsque vous recherchez une équipe, mais s’affichent toujours dans [!UICONTROL &#x200B; Équipe interne &#x200B;] et Autres équipes si l’utilisateur a été affecté à l’équipe avant la désactivation.
+Les équipes désactivées n’apparaissent pas lorsque vous recherchez une équipe, mais s’affichent toujours dans [!UICONTROL  Équipe interne ] et Autres équipes si l’utilisateur a été affecté à l’équipe avant la désactivation.
 
 ## Conditions d’accès
 

@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Vous pouvez modifier l’ordre d’affichage des conditions lorsqu’une personne modifie un projet ou la condition d’une tâche ou d’un problème.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: e50afb39f151ae8663ca2903454b475b21aa6f83
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 55%
@@ -71,4 +71,4 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Le nouvel ordre est enregistré automatiquement.
 
-Pour plus d’informations sur la personnalisation des conditions, voir [&#x200B; Conditions personnalisées &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Pour plus d’informations sur la personnalisation des conditions, voir [ Conditions personnalisées ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

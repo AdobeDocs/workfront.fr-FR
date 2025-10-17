@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: Comprendre la navigation pour un utilisateur ou une utilisatrice de licence de travail
 description: Le menu principal change en fonction du niveau d’accès qui vous a été attribué par votre administrateur ou administratrice  [!DNL Adobe Workfront] . Par défaut, vous n’avez accès qu’aux zones qui incluent les fonctionnalités autorisées par votre niveau d’accès.
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 93%
@@ -54,4 +54,4 @@ Les zones suivantes sont incluses dans la disposition par défaut [!UICONTROL d�
 
 ## Personnaliser votre [!UICONTROL Menu principal] par défaut
 
-Votre administrateur ou administratrice [!DNL Workfront] peut modifier votre disposition [!DNL Workfront] par défaut en vous affectant un modèle de disposition. Pour plus d’informations sur l’utilisation de modèles de disposition, consultez [Personnaliser le [!UICONTROL Menu principal] à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Votre administrateur ou administratrice [!DNL Workfront] peut modifier votre mise en page [!DNL Workfront] par défaut en vous affectant un modèle de mise en page. Pour plus d’informations sur l’utilisation de modèles de mise en page, consultez [Personnaliser le [!UICONTROL Menu principal] à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).

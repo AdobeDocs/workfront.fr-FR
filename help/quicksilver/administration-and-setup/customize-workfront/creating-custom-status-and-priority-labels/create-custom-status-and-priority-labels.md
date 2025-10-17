@@ -1,23 +1,23 @@
 ---
-title: "Créer des états personnalisés et des étiquettes de priorité : index de l’article"
+title: 'Création de statuts personnalisés et de libellés de priorité : index des articles'
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des statuts personnalisés pour les projets, les tâches et les problèmes. Ils peuvent s’appliquer aux utilisateurs et utilisatrices de l’ensemble du système Workfront ou à des groupes ou sous-groupes spécifiques. Le statut d’un élément de travail représente l’état actuel de son développement.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 88%
 
 ---
 
-# Créer des états personnalisés et des libellés de priorité : index de l’article
+# Créer des statuts personnalisés et des libellés de priorité : index d’article
 
 Cette section contient les articles suivants :
 

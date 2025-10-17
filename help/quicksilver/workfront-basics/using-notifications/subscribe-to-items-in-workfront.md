@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: S’abonner aux éléments dans Adobe Workfront
 description: Adobe Workfront envoie des notifications sur les éléments qui vous sont affectés ou qui vous appartiennent. Si vous souhaitez suivre la communication sur des éléments qui ne vous sont pas affectés mais qui peuvent avoir un impact sur votre travail, vous pouvez vous y abonner.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 90%
@@ -203,7 +203,7 @@ Pour afficher les personnes abonnées à un élément, procédez comme suit :
 
    ![Voir les personnes abonnées](assets/bell-hover-for-list-qs-350x90.png)
 
-   Vous pouvez également afficher une liste des personnes abonnées en ajoutant un champ [!UICONTROL Personnes abonnées] comme colonne dans un rapport ou dans une vue de l’élément abonné. Pour plus d’informations, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Vous pouvez également afficher une liste des personnes abonnées en ajoutant un champ [!UICONTROL Personnes abonnées] comme colonne dans un rapport ou dans une vue de l’élément abonné. Pour plus d’informations, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Comment utiliser des abonnements
 
