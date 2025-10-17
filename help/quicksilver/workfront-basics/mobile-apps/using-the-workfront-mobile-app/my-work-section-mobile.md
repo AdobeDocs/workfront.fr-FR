@@ -36,4 +36,4 @@ Vous pouvez choisir les éléments de menu à afficher dans [!UICONTROL Mon trav
    >
    >L’élément de menu [!UICONTROL Tâches et problèmes] est toujours affiché et vous ne pouvez pas le masquer.
 
-   ![ Paramètres mobiles ](assets/mobile-settings-338x366.png)
+   ![&#x200B; Paramètres mobiles &#x200B;](assets/mobile-settings-338x366.png)

@@ -114,7 +114,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    >
    >Votre administrateur Workfront peut vous empêcher de voir certains utilisateurs lorsqu’ils configurent votre niveau d’accès.
 
-1. Cliquez sur le **** Plus![](assets/more-menu.png) situé à droite du nom de l’utilisateur dans l’en-tête.
+1. Cliquez sur le **&#x200B;**&#x200B;Plus![](assets/more-menu.png) situé à droite du nom de l’utilisateur dans l’en-tête.
 1. Cliquez sur **Envoyer la demande de travail**.
 La zone **Envoyer une demande de travail à l&#39;utilisateur** s&#39;affiche.
 

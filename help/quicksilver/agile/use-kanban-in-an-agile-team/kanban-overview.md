@@ -22,7 +22,7 @@ Les sections suivantes permettent de mieux comprendre le fonctionnement du panor
 
 Pour obtenir une description de la méthodologie [!UICONTROL Kanban], voir la section [Créer une équipe agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-Si la migration d’un panorama [!UICONTROL Kanban] d’équipe agile vers des [!UICONTROL panoramas] [!DNL Workfront] vous intéresse, voir la sections [Migrer des cartes [!UICONTROL Kanban] d’équipe agile vers des panoramas  [!DNL Workfront] ](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Si la migration d’un panorama [!UICONTROL Kanban] d’équipe agile vers des [!UICONTROL panoramas] [!DNL Workfront] vous intéresse, voir la sections [Migrer des cartes [!UICONTROL Kanban] d’équipe agile vers des panoramas  [!DNL Workfront] &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## Disposition et fonctions des panoramas [!UICONTROL Kanban]
 

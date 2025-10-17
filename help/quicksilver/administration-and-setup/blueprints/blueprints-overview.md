@@ -22,7 +22,7 @@ ht-degree: 99%
 
 Les plans directeurs sont des ensembles d’objets Workfront qui répondent à des cas d’utilisation communs dans Workfront. Vous pouvez télécharger et installer un plan directeur, puis configurer les objets en fonction de votre cas d’utilisation spécifique.
 
-![ Page principale des plans directeurs ](assets/blueprints-main-page-catalog.png)
+![&#x200B; Page principale des plans directeurs &#x200B;](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >
