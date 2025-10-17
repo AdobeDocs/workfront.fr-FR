@@ -54,12 +54,12 @@ Le champ Heures réelles visible dans la section Détails du projet, des tâches
 >[!IMPORTANT]
 >
 >Selon le moment où les heures ont été consignées, il peut y avoir une incohérence entre les heures réelles et les heures réelles héritées pour un projet, une tâche ou un événement.<br>
->>Les scénarios suivants sont possibles :
+>&#x200B;>Les scénarios suivants sont possibles :
 >
 >* Les heures réelles représentent les heures enregistrées pour les projets, tâches et événements depuis mai 2021.
 >* Les heures effectives héritées représentent les heures enregistrées pour les projets, les tâches et les événements pendant la durée de vie du projet, de la tâche ou de l&#39;événement. Cela inclut les heures enregistrées avant mai 2021 jusqu’à l’heure actuelle.
->  ><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
->  ><br>Workfront utilise les heures réelles héritées pour calculer les coûts réels de main-d&#39;œuvre.
+>  &#x200B;><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
+>  &#x200B;><br>Workfront utilise les heures réelles héritées pour calculer les coûts réels de main-d&#39;œuvre.
 
 Pour plus d&#39;informations, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
@@ -114,6 +114,6 @@ Pour clarifier la manière dont l’assistant AI localise les réponses aux ques
 
 Auparavant, ces informations n’étaient pas disponibles dans la réponse de l’assistant d’IA.
 
-Pour plus d’informations sur l’utilisation de l’assistant AI afin d’obtenir des informations sur les éléments de Workfront, voir [ Utiliser l’assistant AI pour travailler sur des projets, des tâches et des événements](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+Pour plus d’informations sur l’utilisation de l’assistant AI afin d’obtenir des informations sur les éléments de Workfront, voir [&#x200B; Utiliser l’assistant AI pour travailler sur des projets, des tâches et des événements](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
 
 
