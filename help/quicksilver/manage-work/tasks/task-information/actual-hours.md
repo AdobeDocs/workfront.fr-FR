@@ -7,10 +7,10 @@ description: Les heures que vous enregistrez pour vos tâches dans Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 055228fd15d670a214039575dc076ab36f6e99eb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 28%
+source-wordcount: '1231'
+ht-degree: 27%
 
 ---
 
@@ -202,11 +202,13 @@ La publication de la version suivante de l’API Workfront est prévue pour fin 
 * **Heures réelles** : heures enregistrées pour un projet, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
 * **Heures réelles héritées** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, y compris avant mai 2021. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.
 
-  >[!IMPORTANT]
-  >
-  >Le coût réel du projet utilise les heures réelles héritées pour calculer.
+Pour plus d’informations sur les versions des API, voir [Contrôle de version des API et planning de prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-  Pour plus d&#39;informations sur l&#39;utilisation des heures réelles dans les colonnes ou champs calculés, voir [FAQ sur les rapports](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+>[!IMPORTANT]
+>
+>Le coût réel du projet utilise les heures réelles héritées pour calculer.
+
+Pour plus d&#39;informations sur l&#39;utilisation des heures réelles dans les colonnes ou champs calculés, voir [FAQ sur les rapports](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Enregistrer des heures
 

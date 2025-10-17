@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 8%
+source-wordcount: '647'
+ht-degree: 6%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 8%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -31,7 +33,7 @@ Cet article décrit comment un responsable d’espace de travail peut ajouter un
 
 Pour plus d’informations sur la création d’un formulaire de demande dans Workfront Planning, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -46,13 +48,11 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
 <tr> 
    <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Tout package Workfront</p></li>
-Et
-<li><p>N’importe quel package Planning</p></li></ul>
+<p>Tout package Workfront et tout package Planning</p>
 Ou
-<ul><li><p>N’importe quel package de workflow</p></li>
-Et
-<li><p>N’importe quel package Planning</p></li></ul>
+<p>Tout package de workflow et tout package Planning</p>
+
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront.</p>
    </td> </tr>
 
 </tr> 
@@ -124,4 +124,4 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    >   L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
 
 
-   Pour plus d’informations sur l’approbation des demandes, voir [&#x200B; Approuver une demande &#x200B;](/help/quicksilver/planning/requests/approve-request.md).
+   Pour plus d’informations sur l’approbation des demandes, voir [ Approuver une demande ](/help/quicksilver/planning/requests/approve-request.md).

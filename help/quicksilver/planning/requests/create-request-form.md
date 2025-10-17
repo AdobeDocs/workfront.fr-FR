@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '2686'
-ht-degree: 5%
+source-wordcount: '2643'
+ht-degree: 4%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 5%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -30,7 +30,7 @@ Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;e
 
 Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -45,13 +45,10 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
 <tr> 
    <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Tout package Workfront</p></li>
-Et
-<li><p>N’importe quel package Planning</p></li></ul>
+<p>Tout package Workfront et tout package Planning</p>
 Ou
-<ul><li><p>N’importe quel package de workflow</p></li>
-Et
-<li><p>N’importe quel package Planning</p></li></ul>
+<p>Tout package de workflow et tout package Planning</p>
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront.</p>
    </td> </tr>
 
 </tr> 
@@ -134,7 +131,7 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur **Créer**.
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [&#x200B; Configurer le formulaire &#x200B;](#configure-the-form).
+1. Passez à [ Configurer le formulaire ](#configure-the-form).
 
 <!--
 
@@ -250,7 +247,7 @@ Dans l’onglet Configuration , vous pouvez définir le processus d’approbatio
    * Tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
    * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
 

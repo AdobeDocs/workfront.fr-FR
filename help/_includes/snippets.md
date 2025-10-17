@@ -1,5 +1,5 @@
 ---
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 92%
@@ -291,7 +291,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 >
 >Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Présentation de l&#39;accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
->Pour plus d’informations sur Workfront Planning, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour obtenir des informations générales sur Workfront Planning, consultez la [présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 <!--Old - before Oct. 15, 2025:
 >[!IMPORTANT]

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 32%
@@ -39,10 +39,9 @@ Les types d’enregistrements sont les types d’objets d’Adobe Workfront Pl
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Tout Workfront et tout package Planning</p></li>
+<p>Tout Workfront et tout package Planning</p>
 <p>Ou</p>
-<li><p>Tout workflow et tout package Planning</p></li></ul>
+<p>Tout workflow et tout package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
   <tr> 

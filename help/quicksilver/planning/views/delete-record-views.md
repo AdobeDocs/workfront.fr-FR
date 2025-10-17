@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 18%
+source-wordcount: '233'
+ht-degree: 17%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 18%
 Vous pouvez supprimer une vue d&#39;enregistrement que vous n&#39;utilisez plus dans Adobe Workfront Planning.
 
 La vue est supprimée pour tous les utilisateurs qui disposent des autorisations pour y accéder. Les vues supprimées ne peuvent pas être récupérées.
+
+Vous ne pouvez pas supprimer la vue de table d&#39;origine d&#39;un type d&#39;enregistrement.
 
 ## Conditions d’accès
 

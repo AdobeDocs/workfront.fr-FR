@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3875'
+source-wordcount: '3874'
 ht-degree: 37%
 
 ---
@@ -250,11 +250,11 @@ Pour gérer une vue chronologique :
 
    >[!TIP]
    >
-   >Le redimensionnement et le glisser-déposer des enregistrements ne sont pas possibles dans la chronologie pour les types d’objet Workfront et AEM Assets affichés dans la répartition.
+   >Le redimensionnement et le glisser-déposer d’enregistrements n’est pas possible dans la chronologie pour les types d’objets Workfront et AEM Assets affichés dans les répartitions.
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-   * [Regroupement &#x200B;](#add-grouping)
+   * [Regroupement ](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 

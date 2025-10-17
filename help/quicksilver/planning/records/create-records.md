@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3147'
 ht-degree: 15%
 
 ---
@@ -193,9 +193,9 @@ Le formulaire de demande du type d’enregistrement s’ouvre.
         >
         >Certains types d’enregistrements peuvent avoir plusieurs formulaires. Cliquez dessus pour l’ouvrir.
 
-        Ajoutez l’enregistrement, comme décrit dans l’article [&#x200B; Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements &#x200B;](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
+        Ajoutez l’enregistrement, comme décrit dans l’article [ Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements ](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
 
-      ![Trois manières de créer le choix d’enregistrements modal &#x200B;](assets/three-ways-to-create-records-choice-modal.png)
+      ![Trois manières de créer le choix d’enregistrements modal ](assets/three-ways-to-create-records-choice-modal.png)
 
 1. (Conditionnel) Si vous avez cliqué sur **Demander un enregistrement**, procédez comme suit :
 
@@ -278,7 +278,7 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    >[!NOTE]
    >
-   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 
@@ -330,7 +330,12 @@ Pour plus d’informations sur la création d’une vue chronologique, voir [Gé
    La boîte de dialogue **Nouvel enregistrement** s’ouvre. <!--might need a new screen shot for Production - might add a title etc-->
 
    ![Nouvelle zone d’enregistrement dans la chronologie avec une barre d’enregistrement sans nom](assets/new-record-small-box-on-timeline.png)
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas créer d&#39;enregistrements dans la vue Chronologie lorsque les barres d&#39;enregistrements s&#39;affichent dans un regroupement nommé.
 1. Mettez à jour les informations suivantes :
+
 
    * **Nom** : saisissez le nom de l’enregistrement. Si vous le laissez vide, Workfront le nomme **Sans titre** par défaut.
 

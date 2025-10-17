@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 17%
+source-wordcount: '680'
+ht-degree: 16%
 
 ---
 
@@ -45,13 +45,10 @@ Vous pouvez également modifier les entités avec lesquelles vous partagez un fo
 <tr> 
    <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Tout package Workfront</p></li>
-Et
-<li><p>N’importe quel package Planning</p></li></ul>
+<p>Tout package Workfront et tout package Planning</p>
 Ou
-<ul><li><p>N’importe quel package de workflow</p></li>
-Et
-<li><p>N’importe quel package Planning</p></li></ul>
+<p>Tout package de workflow et tout package Planning</p>
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront.</p>
    </td> </tr>
 
 </tr> 

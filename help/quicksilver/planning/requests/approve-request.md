@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 6%
+source-wordcount: '813'
+ht-degree: 5%
 
 ---
 
@@ -60,13 +60,10 @@ Nous vous recommandons de consulter également les articles suivants :
 <tr> 
    <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Tout package Workfront</p></li>
-Et
-<li><p>N’importe quel package Planning</p></li></ul>
+<p>Tout package Workfront et tout package Planning</p>
 Ou
-<ul><li><p>N’importe quel package de workflow</p></li>
-Et
-<li><p>N’importe quel package Planning</p></li></ul>
+<p>Tout package de workflow et tout package Planning</p>
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront.</p>
    </td> </tr>
 
 </tr> 
@@ -104,7 +101,7 @@ Pour approuver une demande :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision **&#x200B;**.
+   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision ****.
 
      >[!TIP]
      >
