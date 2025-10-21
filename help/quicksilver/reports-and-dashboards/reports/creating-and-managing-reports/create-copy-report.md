@@ -7,7 +7,7 @@ description: Vous pouvez créer une copie de tout rapport auquel vous avez accè
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 76%
@@ -71,7 +71,7 @@ Si vous souhaitez faire une copie d’un rapport personnalisé, procédez comme 
 
    ![Copier le rapport](assets/unshimmed-report-actions-copy.png)
 
-   Une copie du rapport d’origine est créée avec le nom par défaut _[Nom du rapport d’origine ] (Copier)_. Par exemple, une copie du rapport « Tâches terminées du 4e trimestre » serait nommée « Tâches terminées du 4e trimestre (copie) ».
+   Une copie du rapport d’origine est créée avec le nom par défaut _[Nom du rapport d’origine]_ _(Copier)_. Par exemple, une copie du rapport « Tâches terminées du 4e trimestre » serait nommée « Tâches terminées du 4e trimestre (copie) ».
 
 1. (Facultatif) Pour renommer le rapport, cliquez sur **Actions du rapport** puis **Modifier**. Saisissez un nouveau nom dans la zone de texte située dans le coin supérieur gauche, puis cliquez sur **Enregistrer + Fermer** lorsque vous avez terminé.
 

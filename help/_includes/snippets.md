@@ -1,5 +1,5 @@
 ---
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 92%
@@ -170,6 +170,7 @@ Pour configurer les dossiers liés, procédez comme suit :
 ## Conditions préalables {#cc-install-prereq}
 
 Vous devez installer le plug-in approprié pour l’application Adobe Creative Cloud que vous utilisez :
+
 * Pour Photoshop, voir [Installer Adobe Workfront pour Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * Pour XD, voir [Installer Adobe Workfront pour XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * Pour InDesign, Illustrator, Premiere Pro et After Effects, voir [Installer Adobe Workfront pour la conception et la vidéo](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -369,6 +370,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 ## Dernière version DPV {#latest-version}
 
 **Dernière version** :
+
 * Mac : 2.1.52 au 7/31/2025
 * Windows : 2.1.52 du 7/31/2025
 
