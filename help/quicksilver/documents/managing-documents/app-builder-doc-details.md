@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 1%
@@ -92,41 +92,56 @@ Si AppBuilder est correctement configuré, vous devriez voir « Créer un projet
 Adobe fournit une interface de ligne de commande open source qui peut être utilisée pour créer des applications App Builder. La documentation se trouve ici : [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) ainsi que les instructions Adobe App Builder [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
 
 1. Installation
-   1. Pour installer l’outil (assurez-vous d’être sur le nœud v18), exécutez : `npm install -g @adobe/aio-cli `.
+
+   1. Pour installer l’outil (assurez-vous d’être sur le nœud v18), exécutez : `npm install -g @adobe/aio-cli`.
 
 1. S’authentifier dans Terminal
+
    1. Lancez votre terminal et connectez-vous à l’AIO avec la commande : `aio login`.
 
 1. Initialisation De L’Application
+
    1. Commencez à configurer votre application en exécutant : `aio app init example-app`.
 
 1. Sélection de la configuration
-   1. Sélectionnez ensuite votre organisation et votre projet dans les options fournies.\
+
+   1. Sélectionnez ensuite votre organisation et votre projet dans les options fournies.
+
       ![Sélectionner l’organisation](assets/select-org.png)
+
       ![Sélectionner un projet](assets/select-project.png)
 
 1. Sélection et configuration de modèles
+
    1. Parcourez tous les modèles disponibles et choisissez le modèle **@adobe/aem-cf-editor-ui-ext-tpl** pour votre projet.
+
       ![Modèle de recherche](assets/search-template.png)
+
       ![Sélectionner le modèle](assets/select-template.png)
 
 1. Définition De Votre Extension
+
    1. Nommez votre extension.
    1. Fournissez un résumé descriptif des fonctionnalités de votre extension.
    1. Sélectionnez un numéro de version initial pour commencer.
    1. Confirmez l’achèvement en sélectionnant **J’ai terminé**.
-      ![Définir l’extension](assets/define-extension.png)
+
+   ![Définir l’extension](assets/define-extension.png)
 
 1. Accédez au dossier du projet
+
    1. Accéder au dossier src
+
    1. Renommez le dossier `aem-cf-editor-1` en `workfront-doc-details-1`.
 
 1. Modifier les fichiers de configuration
+
    1. Ouvrez app.config.yaml.
    1. Mettez à jour la ligne de `aem/cf-editor/1` à `workfront/doc-details/1`.
    1. Ajustez le chemin d’inclusion de `src/aem-cf-editor-1/ext.config.yaml` à `src/workfront-doc-details-1/ext.config.yaml`.
 
 1. Modifier le composant Enregistrement d’extension
+
    1. Ouvrez `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
    1. Dans la section des méthodes , ajoutez un `secondaryNav` de fonction contenant un `getButtons` de fonction asynchrone.
    1. `getButtons` doit recevoir un objet avec la structure suivante :
@@ -317,20 +332,22 @@ Adobe fournit une interface de ligne de commande open source qui peut être util
 Pour qu’une application invitée soit chargée dans Workfront, elle doit être envoyée à l’espace de travail de production et soumise pour approbation.
 
 1. Déployez l’application dans l’espace de travail de production.
-   1. `aio app use -w Production `
-   1. `aio app deploy `
+
+   1. `aio app use -w Production`
+   1. `aio app deploy`
 
 1. Accédez à [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) ou [https://developer.adobe.com/](https://developer.adobe.com/).
+
    1. Cliquez sur **Console** dans le coin supérieur droit.
 
 1. Recherchez le projet que vous avez utilisé pour créer l’application AppBuilder.
-
 1. Sélectionnez le Workspace de production.
+
    ![Sélectionner l’espace de travail de production](assets/find-application.png)
 
 1. Envoyez la demande pour examen privé (vous recevrez des avertissements indiquant que nous ne publions pas sur le marketplace d&#39;échange d&#39;applications, ce qui est correct).
-
 1. Remplissez le formulaire (titre, description, icône et note au réviseur).
+
    ![Remplissez le formulaire pour une révision privée](assets/submission-details.png)
 
 >[!IMPORTANT]

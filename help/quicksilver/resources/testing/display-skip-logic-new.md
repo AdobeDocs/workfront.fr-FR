@@ -2,10 +2,10 @@
 title: Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé
 description: Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé
 draft: Probably
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1475'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -141,7 +141,7 @@ Pour en savoir plus, continuez à travailler sur l’exemple de formulaire perso
 
    *Abonnement*
 
-1. Ouvrez l’onglet **Ajouter un champ**, créez un champ **Champ de texte avec mise en forme** appelé *Quel est l’objectif du site web ?*, puis cliquez sur **Appliquer**.
+1. Ouvrez l&#39;onglet **Ajouter un champ**, créez un champ **Champ de texte avec formatage** appelé *Quel est l&#39;objectif du site web ?*, puis cliquez sur **Appliquer**.
 
    Dans cette organisation, un site de documentation d’aide est créé par l’équipe d’écriture technique et non par le service marketing. Par conséquent, aucune information supplémentaire n’est nécessaire de la part d’un utilisateur ou une utilisatrice qui sélectionne la documentation d’aide dans le deuxième champ. Nous allons créer une ligne de texte (un champ de texte descriptif) qui lui indiquera de consulter plutôt l’équipe d’écriture technique. Et nous utiliserons une règle de logique de saut qui ignore cet utilisateur ou cette utilisatrice dans cette ligne de texte.
 

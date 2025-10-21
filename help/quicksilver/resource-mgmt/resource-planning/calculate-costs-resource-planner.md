@@ -6,10 +6,10 @@ description: Vous pouvez budgétiser vos ressources dans le planificateur de res
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -150,7 +150,7 @@ Bien que vous ne puissiez pas afficher les informations sur les tâches dans le 
 
 Vous pouvez rencontrer les scénarios suivants lors du calcul du coût prévu pour les personnes, les rôles et le projet :
 
-* Lorsque le **Type de coût** est **Horaire par personne &#x200B;** et qu’il n’y a **pas d’affectation** sur la tâche :
+* Lorsque le **Type de coût** est **Utilisateur par heure** et qu’il n’y a **aucune affectation** pour la tâche :
 
    * **Coût prévu par rôle et personne** :
 

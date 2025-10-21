@@ -5,7 +5,7 @@ description: En savoir plus sur l’assistant IA dans Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 7%
@@ -109,7 +109,7 @@ L’assistant AI peut interroger les données associées aux types d’objets su
 * Tâches
 * Problèmes
 * Formulaires personnalisés
-* Utilisateurs
+* Utilisateurs et utilisatrices
 * Enregistrements Workfront Planning
 
 
@@ -149,7 +149,7 @@ Lorsque vous saisissez votre invite, incluez l’expression `using (keyword)`.
 | Mot-clé | Effet |
 |---|---|
 | `workfront` | Interagit avec Workfront. |
-| `planning ` | Interagit avec Workfront Planning. |
+| `planning` | Interagit avec Workfront Planning. |
 | `help` | Renvoie des informations issues de la documentation Experience League. |
 | `formula` | Vérifie et renvoie les formules à utiliser dans Planning, Setup ou les formulaires personnalisés. |
 | `health` | Vérifie l’intégrité du projet auprès du conseiller d’intégrité du projet. |

@@ -6,7 +6,7 @@ description: Vous pouvez installer le plug-in Adobe Workfront for XD depuis Ado
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 83%
@@ -105,7 +105,7 @@ Fenêtre du plug-in XD ![](assets/xd-plugin-window-350x620.png)
    >* Pour trouver votre domaine, ouvrez un navigateur, accédez à votre instance [!DNL Workfront] et copiez la première partie de l’URL :\
    >![Localiser le domaine](assets/domain-350x50.png)
    >
-   > * Si votre instance Workfront est intégrée à Experience Cloud, demandez à votre équipe d’administration de vous fournir le domaine Workfront situé sous Produit > Workfront dans l’Admin Console.
+   >* Si votre instance Workfront est intégrée à Experience Cloud, demandez à votre équipe d’administration de vous fournir le domaine Workfront situé sous Produit > Workfront dans l’Admin Console.
 
 1. Dans le navigateur, saisissez vos informations d’identification [!DNL Workfront], puis cliquez sur **[!DNL Log in]**. Si votre entreprise utilise une authentification unique (SSO), vous accédez à la page de votre fournisseur d’authentification unique pour vous connecter.
 

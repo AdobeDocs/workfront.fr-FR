@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1653'
 ht-degree: 70%
 
 ---
@@ -34,7 +34,7 @@ Si les dates de début et d’achèvement effectives de la tâche ne corresponde
 >[!BEGINSHADEBOX]
 
 **EXEMPLE**
-Si vous avez une planification qui commence à 9 h 00 et se termine à 12 h 00 et une tâche qui est planifiée pour commencer à 14 h 00 et se terminer à 16 h 00, la durée de la tâche est nulle.
+Si vous avez une planification qui commence à 9 :00 et se termine à 12 :00 et une tâche qui est planifiée pour commencer à 14 :00 et se terminer à 16 :00, la durée de la tâche est nulle.
 
 
 >[!ENDSHADEBOX]

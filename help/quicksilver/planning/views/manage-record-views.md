@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 40%
@@ -199,11 +199,11 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 | Afficher des enregistrements dans une chronologie |            | ✓ |             |
 | Filtrer des enregistrements | ✓ | ✓ | ✓ |
 | Afficher des enregistrements sur un calendrier |           |              | ✓ |
-| Regrouper les enregistrements | ✓ | ✓ |
-| Trier les enregistrements | ✓ |              |
+| Regrouper les enregistrements | ✓ | ✓ |  |
+| Trier les enregistrements | ✓ |              |  |
 | Attribuer des couleurs aux enregistrements | ✓ | ✓ | ✓ |
-| Attribuer des couleurs aux regroupements |           | ✓ |
-| Rechercher des enregistrements spécifiques | ✓ | ✓ |
+| Attribuer des couleurs aux regroupements |           | ✓ |  |
+| Rechercher des enregistrements spécifiques | ✓ | ✓ |  |
 | Partager la vue avec d&#39;autres personnes | ✓ | ✓ | ✓ |
 | Ouvrir la page de l’enregistrement à partir de la vue. | ✓ | ✓ |    |
 | Afficher les enregistrements par année et par trimestre |           | ✓ |    |

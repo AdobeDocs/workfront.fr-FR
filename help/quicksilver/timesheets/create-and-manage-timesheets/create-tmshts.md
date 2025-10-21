@@ -6,7 +6,7 @@ description: Vous pouvez créer manuellement une feuille de temps à usage uniqu
 author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 90%
@@ -26,13 +26,9 @@ Pour plus d&#39;informations sur la génération manuelle de feuilles de temps p
 >[!NOTE]
 >
 >* Il n’est pas possible de créer des feuilles de temps à usage unique pour les groupes.
->  <!--
->  <span>Making sure with Lilit that this is correct</span>>
->  -->
 >* Lors de la création d’une feuille de temps à usage unique, vous ne pouvez pas sélectionner de types d’heures généraux spécifiques à inclure dans votre feuille de temps. Tous les types d’heures généraux activés dans votre système s’affichent dans les feuilles de temps créées manuellement.
 >
->  Si vous souhaitez sélectionner uniquement certains types d’heures généraux à afficher dans vos feuilles de temps, utilisez un profil de feuille de temps. Pour plus d’informations sur les profils de feuille de temps, voir [Créer, modifier et affecter des profils de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
->
+>Si vous souhaitez sélectionner uniquement certains types d’heures généraux à afficher dans vos feuilles de temps, utilisez un profil de feuille de temps. Pour plus d’informations sur les profils de feuille de temps, voir [Créer, modifier et affecter des profils de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Conditions d’accès
 

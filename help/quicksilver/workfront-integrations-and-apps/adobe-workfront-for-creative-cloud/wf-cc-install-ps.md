@@ -6,7 +6,7 @@ description: Vous pouvez installer le plug-in Adobe Workfront pour Photoshop à
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 97%
@@ -36,16 +36,6 @@ Vous pouvez installer le plug-in [!DNL Adobe Workfront for Photoshop] à partir 
  <col> 
  <col> 
  <tbody> 
-  <!--<tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
-   <td>Any</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> 
-   <p>Standard</p>
-   <p>Work or higher</p> </td> 
-  </tr> -->
   <tr> 
    <td role="rowheader">Produits supplémentaires</td> 
    <td><p>Vous devez disposer d’une licence [!DNL Adobe Creative Cloud] en plus d’une licence [!DNL Workfront].</p></td> 
@@ -109,7 +99,7 @@ Vous pouvez installer le plug-in [!DNL Adobe Workfront for Photoshop] individuel
    >* Pour trouver votre domaine, ouvrez un navigateur, accédez à l’instance [!DNL Workfront] et copiez la première partie de l’URL :\
    >![Localiser le domaine](assets/domain-350x50.png)
    >
-   > * Si votre instance Workfront est intégrée à Experience Cloud, demandez à votre équipe d’administration de vous fournir le domaine Workfront situé sous Produit > Workfront dans l’Admin Console.
+   >* Si votre instance Workfront est intégrée à Experience Cloud, demandez à votre équipe d’administration de vous fournir le domaine Workfront situé sous Produit > Workfront dans l’Admin Console.
 
 1. Dans le navigateur, saisissez vos informations d’identification [!DNL Workfront], puis cliquez sur **[!UICONTROL Connexion]**. Si votre entreprise utilise une authentification unique (SSO), vous accédez à la page de votre fournisseur d’authentification unique pour vous connecter.
 

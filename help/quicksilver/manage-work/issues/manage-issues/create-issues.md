@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 89%
@@ -173,8 +173,9 @@ La boîte de dialogue Nouveau problème s’affiche.
    >[!TIP]
    >
    >Les types de demande doivent être activés dans les détails de la file d’attente et lors de la création de la rubrique de file d’attente afin d’être affichés comme sélection dans le formulaire Nouveau problème. Pour plus d’informations, voir les articles suivants :
+   >
    >* [Créer une file d’attente des demandes](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Créer des rubriques de file d’attente](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >* [Créer des rubriques de file d’attente](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 1. Continuez à spécifier les champs disponibles dans le formulaire **Nouveau problème**. Pour plus d’informations sur les champs disponibles lors de la saisie d’un nouveau problème, voir [Modifier les problèmes](../../../manage-work/issues/manage-issues/edit-issues.md).
 

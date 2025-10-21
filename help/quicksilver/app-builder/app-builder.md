@@ -4,7 +4,7 @@ description: Les extensions d’interface d’utilisation de Workfront, optimis�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 1%
@@ -112,12 +112,16 @@ Des instructions supplémentaires sont disponibles sur GitHub et sur le site d�
 1. Lancez votre terminal et connectez-vous à l’AIO avec la commande : `aio login`. Si vous rencontrez des problèmes lors de la connexion à l’organisation IMS appropriée, `aio login -f` à forcer une invite de connexion. Utilisez `aio where` pour voir quelle organisation vous êtes connecté à l’organisation IMS appropriée. pour plus d’informations, utilisez `aio config`.
 1. Commencez à configurer votre application en exécutant : `aio app init example-app` à remplacer « example-app » par le nom de votre application. Si vous n’êtes pas sûr des noms d’application, vous pouvez voir une liste de noms d’application avec la commande `aio console project list`.
 1. Sélectionnez votre organisation et votre projet dans les options fournies.
+
    ![résultat de la commande](assets/1-command-result.png)
    ![Sélectionner un projet](assets/2-select-a-project.png)
 
 1. Parcourez tous les modèles disponibles et choisissez le **@adobe/workfront-ui-ext-tpl** pour votre projet.
+
    ![Choisir un modèle](assets/3-choose-template.png)
+
 1. Sélectionnez et saisissez le nom du projet que vous avez créé dans le Adobe Developer Console.
+
    ![sélectionnez et saisissez le nom du projet](assets/4-select-and-enter-project-name.png)
 
 1. Répondez aux invites de l&#39;application :
@@ -130,7 +134,9 @@ Des instructions supplémentaires sont disponibles sur GitHub et sur le site d�
    ![sélectionnez terminé](assets/5-select-done.png)
 
 1. Confirmez l’achèvement en sélectionnant J’ai terminé. La génération du code à partir du modèle est en cours.
+
    ![génération en cours](assets/6-generation-in-process.png)
+
 1. Patientez jusqu’à ce qu’un message indiquant que l’initialisation de l’application est terminée s’affiche. Vous pouvez ensuite ouvrir le projet dans un IDE (Visual Studio Code est recommandé) et accéder au dossier src.
 
    Pour plus d’informations sur les dossiers et fichiers de votre projet, consultez le [site du développeur Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
@@ -154,13 +160,13 @@ Pour autoriser les applications personnalisées dans le menu principal de Workfr
 Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce code a été créé pour vous par le modèle. Ce code peut être ajouté pour créer des éléments de menu supplémentaires. Veillez à remplacer les identifiants et les URL.
 
     «
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -170,18 +176,20 @@ Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce co
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     «
 
 1. Ajoutez le fragment de code suivant :
+
    ![](assets/7-extension-registration-step1-from-sam.png) de fragment de code
-Cet exemple montre un élément du menu principal. Vous devez mettre à jour l’identifiant, le libellé, l’icône et l’URL vers les noms corrects pour votre application. Lors de l’ajout de plusieurs éléments, assurez-vous que l’identifiant est unique.
+
+   Cet exemple montre un élément du menu principal. Vous devez mettre à jour l’identifiant, le libellé, l’icône et l’URL vers les noms corrects pour votre application. Lors de l’ajout de plusieurs éléments, assurez-vous que l’identifiant est unique.
 
 1. Enregistrez votre travail.
 
@@ -193,7 +201,7 @@ Pour autoriser les applications personnalisées dans le volet de navigation de g
 1. Dans la fonction ExtensionRegistration, ajoutez le fragment de code suivant :
 
    ```
-   secondaryNav: {  
+   secondaryNav: {
    
    TASK: {  
    
@@ -215,7 +223,6 @@ Pour autoriser les applications personnalisées dans le volet de navigation de g
    ![enregistrement de l’extension](assets/8-extension-registration-file-step2.png)
 
    * Cet exemple montre un élément de navigation du panneau de gauche appelé Ma tâche. Vous devez mettre à jour l’identifiant, le libellé, l’icône et l’URL vers les noms corrects pour votre application.
-
    * Cet exemple montre un élément de navigation du panneau de gauche pour le type d&#39;objet Projet. Vous devez créer ces éléments séparément pour chaque objet pour lequel ils sont pris en charge dans Workfront. Les objets suivants sont disponibles : projet, tâche, problème, portefeuille et programme.
 
 1. Enregistrez votre travail.
@@ -395,7 +402,7 @@ Une application peut être incorporée dans un formulaire personnalisé Workfron
            /> 
    ```
 
-   ![&#x200B; exemple de code &#x200B;](assets/9-app-file-step-1-from-sam.png)
+   ![ exemple de code ](assets/9-app-file-step-1-from-sam.png)
 1. Enregistrez votre travail.
 
 Pour plus d’informations sur le développement et l’exécution de l’application, consultez le [site du développeur Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
@@ -410,7 +417,7 @@ Le contexte partagé est utilisé pour partager des données de Workfront vers u
 
 Les extensions d’interface utilisateur de Workfront partagent des données utilisateur. L’objet utilisateur disponible via le contexte partagé comprend un ID utilisateur Workfront et l’adresse électronique de l’utilisateur.
 
-`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email `
+`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email`
 
 ### Contexte applicatif
 
@@ -418,7 +425,7 @@ Lors de l’ajout d’une application personnalisée à l’aide d’un point d�
 
 Voici un exemple d&#39;obtention du contexte applicatif pour les documents :
 
-`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails); `
+`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails);`
 
 ## Tester l’application dans Workfront
 

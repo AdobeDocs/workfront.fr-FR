@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -36,9 +36,9 @@ La valeur par défaut de ce champ est 1, ce qui indique que la personne consacre
 Suite à cette mise à jour, Workfront calcule la disponibilité de l’utilisateur ou l’utilisatrice à l’aide des formules ci-dessous, en fonction de votre sélection dans la zone des préférences de la gestion des ressources :
 
 * Planning par défaut :
-* Capacité de l’utilisateur ou l’utilisatrice = [(Heures du planning - Exceptions du planning) * ETC - Congés] * Durée de travail
+* Capacité utilisateur = [(heures planifiées - exceptions d&#39;horaire) `*` ETP - Congés] `*` Temps de travail
 * Planning de l’utilisateur ou l’utilisatrice :
-* Capacité de l’utilisateur ou l’utilisatrice = (Heures du planning - Exceptions au planning - Congés) * Temps de travail.
+* Capacité utilisateur = (Heures planifiées - Exceptions d&#39;horaire - Congés) `*` Temps de travail.
 
 Pour plus d’informations, voir la section [Configurer les préférences de [!UICONTROL gestion des ressources]](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

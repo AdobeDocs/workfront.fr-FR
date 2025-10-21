@@ -6,7 +6,7 @@ description: Vous pouvez importer des projets existants dans un plan. Les projet
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 91%
@@ -57,7 +57,7 @@ Vous pouvez importer des projets existants dans un plan. Les projets importés s
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -180,15 +180,9 @@ Lorsque vous importez un projet dans un plan, certaines informations sur le proj
 >Les événements suivants se produisent :
 >
 >* Les modifications apportées au projet n’ont aucune incidence sur l’initiative une fois le projet importé dans le plan. Ces modifications incluent les modifications apportées aux affectations de fonctions.
->
->  <!--
->  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change if projects will ever affect initiatives automatically) </p>>
->  -->
->
 >* Les modifications apportées à l’initiative affectent les informations de la zone [!DNL Scenario Planner] sur le projet uniquement lorsque vous publiez l’initiative sur le projet correspondant. Sinon, elles n’affectent pas les informations sur les [!UICONTROL Heures prévues] relatives aux tâches et aux problèmes du projet.
 >
 >  Pour plus d’informations sur l’impact de la publication des initiatives sur les projets liés, voir [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../scenario-planner/publish-scenarios-update-projects.md).
->
 
 {{step1-to-scenario-planner}}
 

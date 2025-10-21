@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 98%
@@ -34,9 +34,7 @@ Vous pouvez utiliser les statuts verrouillés et déverrouillés dans le cadre d
 Les messages d’avertissement s’affichent dans les scénarios suivants pour vous aider, ainsi que vos utilisateurs et utilisatrices, à vous assurer que vous comprenez les résultats de ces scénarios :
 
 * Un administrateur ou une administratrice déverrouille un statut au niveau du système utilisé dans un processus d’approbation. Un message l’avertit que le statut de déverrouillage de ses groupes est susceptible d’être supprimé, ce qui empêcherait les personnes membres de ces groupes d’utiliser correctement ce processus d’approbation pour les objets qui leur sont affectés.
-
 * Une personne commence à modifier un processus d’approbation qui utilise le statut déverrouillé. Un message l’avertit du statut déverrouillé afin qu’elle puisse déterminer s’il est préférable de le reverrouiller ou de le remplacer.
-
 * Un processus d’approbation au niveau du système avec un statut déverrouillé est associé à un objet et le statut a été supprimé pour le groupe affecté à l’objet. Lorsqu’une personne membre du groupe accède à la section Approbations de l’objet, un message explique que le processus d’approbation ne peut pas être lancé pour l’objet.
 
 Vous pouvez utiliser les statuts verrouillés et déverrouillés dans un processus d’approbation de groupe. Si vous créez un processus d’approbation de groupe avec un statut de groupe déverrouillé, les utilisateurs et utilisatrices peuvent associer le processus d’approbation à n’importe quel projet, tâche ou problème associé au groupe.

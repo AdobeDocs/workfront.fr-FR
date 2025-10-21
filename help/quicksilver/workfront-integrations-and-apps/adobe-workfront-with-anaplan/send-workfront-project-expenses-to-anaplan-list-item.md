@@ -6,9 +6,9 @@ description: Ce scénario d’intégration partage les détails relatifs aux dé
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: d3f234313677d916318c181c91cb951948454006
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '974'
 ht-degree: 88%
 
 ---
@@ -55,7 +55,7 @@ Ce scénario d’intégration partage les détails relatifs aux dépenses d’un
 
 Pour plus d’informations sur les informations contenues dans ce tableau, voir [Conditions d’accès requises dans la documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Pour plus d’informations sur les licences Adobe Workfront Fusion, voir [Licences Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Pour plus d’informations sur les licences Adobe Workfront Fusion, voir [Licences Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Événement de déclenchement
 
@@ -65,7 +65,7 @@ Ce scénario est planifié pour s’exécuter toutes les 15 minutes.
 
 Pour utiliser ce scénario, vous devez disposer des éléments suivants dans [!DNL Workfront] :
 
-* Un profil d’utilisateur ou d’utilisatrice dans [!DNL Workfront] nommé *[!UICONTROL *Intégration [!DNL Anaplan]]** disposant de droits d’administration système.
+* Un profil d’utilisateur ou d’utilisatrice dans [!DNL Workfront] nommé *Intégration Anaplan*, disposant de droits d’administration système.
 
   Pour plus d’informations sur la création d’un utilisateur ou d’une utilisatrice dans [!DNL Workfront], voir [Ajouter des utilisateurs ou des utilisatrices](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -228,15 +228,15 @@ Procédez comme suit pour déployer ce scénario d’intégration dans votre com
 
 Ce modèle de scénario est complété par les modèles de scénario d’optimisation des dépenses suivants qui peuvent également être déployés :
 
-* [[!UICONTROL Envoyer des mises à jour de projet  [!DNL Adobe Workfront]  à un élément de liste  [!DNL Anaplan] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
-* [[!UICONTROL Envoyer des mises à jour des heures effectives  [!DNL Adobe Workfront]  à un élément de liste  [!DNL Anaplan] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Envoyer des mises à jour de projet  [!DNL Adobe Workfront]  à un élément de liste  [!DNL Anaplan] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Envoyer des mises à jour des heures effectives  [!DNL Adobe Workfront]  à un élément de liste  [!DNL Anaplan] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 Scénarios supplémentaires pour lier les demandes de budget :
 
-* [[!UICONTROL Créer un élément de liste  [!DNL Anaplan]  à partir d’une demande de budget  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [[!UICONTROL Appliquer une allocation de budget  [!DNL Anaplan]  à un projet  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL Créer un élément de liste  [!DNL Anaplan]  à partir d’une demande de budget  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [[!UICONTROL Appliquer une allocation de budget  [!DNL Anaplan]  à un projet  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 Scénarios supplémentaires pour lier des demandes de campagne :
 
-* [[!UICONTROL Créer un élément de liste  [!DNL Anaplan]  à partir d’une demande de campagne  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [[!UICONTROL Appliquer une allocation de budget  [!DNL Anaplan]  à une demande ou un projet de campagne  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [[!UICONTROL Créer un élément de liste  [!DNL Anaplan]  à partir d’une demande de campagne  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL Appliquer une allocation de budget  [!DNL Anaplan]  à une demande ou un projet de campagne  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)

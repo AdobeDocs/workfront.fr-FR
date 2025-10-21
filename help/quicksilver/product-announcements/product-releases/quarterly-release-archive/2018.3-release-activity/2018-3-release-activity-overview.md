@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 96%
 >
 >La version 2018.3 a été mise à disposition dans l’environnement de production aux dates suivantes (pour obtenir des dates et heures détaillées, voir trust.workfront.com) :
 
-* &#x200B;* Environnement de production Workfront Proof - 6 novembre *
-* &#x200B;* Environnement de production Workfront pour les clusters 2 et 4 *
+* *Environnement de production Workfront Proof - 6 novembre*
+* *Environnement de production Workfront pour les clusters 2 et 4*
 * *Environnement de production Workfront pour les clusters 1, 3 et 5*
 
 La version 2018.3 contient des améliorations à la fois pour les administrateurs et administratrices de Workfront et pour les autres personnes :

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 12%
@@ -94,7 +94,7 @@ Workfront Planning prend en charge les modificateurs de recherche suivants :
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
         <td>Retourne les enregistrements dont la valeur du champ n’est pas vide  </td>
-        <td><ul><li>« » </li><li>nul </li><ul>  </td>
+        <td><ul><li>« » </li><li>null </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotEmpty </td>
@@ -318,7 +318,7 @@ Vous pouvez trier vos résultats selon n’importe quel champ si vous ajoutez le
 
 `/v1/records/search`
 
-Corps de la requête :
+Contenu de la requête :
 
 ```
 {
@@ -349,11 +349,11 @@ Nous vous recommandons d’envisager d’utiliser des réponses paginées pour l
 
 Par exemple, si vous souhaitez renvoyer les résultats 2001-4000, vous pouvez utiliser la requête suivante. Cet exemple renvoie 2 000 enregistrements dont le statut est actif, à partir du résultat 2001 :
 
-`POST /v1/records/search `
+`POST /v1/records/search`
 
 
 
-Corps de la requête :
+Contenu de la requête :
 
 ```
 { 

@@ -6,10 +6,10 @@ description: Lorsque vous commentez une épreuve dans la visionneuse de relectur
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -64,10 +64,10 @@ Les personnes disposant du profil d’autorisation pour l’épreuve ou le rôle
 
 >[!NOTE]
 >
->Vous ne pouvez taguer un collaborateur ou une collaboratrice externe à l’aide de son adresse e-mail que si l’une des conditions suivantes est vraie :>
+>Vous pouvez taguer un collaborateur externe à l’aide de son adresse e-mail uniquement si l’une des conditions suivantes est vraie :
+>
 >* Un utilisateur ou une utilisatrice du compte Workfront de votre entreprise a précédemment ajouté l’adresse e-mail du collaborateur ou de la collaboratrice à une épreuve.
 >* Le collaborateur ou la collaboratrice a déjà utilisé l’adresse e-mail pour s’abonner à une épreuve dans le compte Workfront de votre entreprise.
->
 
 Pour taguer quelqu’un et partager une épreuve dans un commentaire :
 

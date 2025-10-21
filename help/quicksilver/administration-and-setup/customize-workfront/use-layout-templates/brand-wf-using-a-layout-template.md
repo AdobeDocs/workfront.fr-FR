@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 95%
@@ -32,9 +32,8 @@ Pour plus d’informations sur les modèles de mise en page pour les groupes, vo
 >[!NOTE]
 >
 >Une équipe d’administration Workfront peut apporter les mêmes personnalisations d’image de marque à l’ensemble de l’organisation au niveau du système, comme expliqué dans [Appliquer une image de marque dans votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Toutefois, l’image de marque appliquée dans un modèle de mise en page a la priorité sur l’image de marque appliquée au niveau du système.
-><!--
->Maybe add a section about deleting these 2 settings to revert to default branding?
->-->
+
+<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
 
 ## Conditions d’accès
 

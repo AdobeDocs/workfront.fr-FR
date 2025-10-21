@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -30,10 +30,10 @@ Lors de la création de groupes principaux, tenez compte de la manière dont vot
 
 >[!NOTE]
 >
->Si vous devez réorganiser vos groupes principaux en entités organisationnelles, vous devez :
+>Si vous devez réorganiser vos groupes principaux en entités organisationnelles, vous devez :
+>
 >1. créer un groupe en suivant la procédure décrite à la section [Créer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) ;
 >1. réaffecter le nouveau groupe en tant que groupe principal de l’utilisateur ou de l’utilisatrice, comme expliqué à la section [Modifier le profil d’une personne](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
->
 
 ## Gestion des modèles de mise en page
 

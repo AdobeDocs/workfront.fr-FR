@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 25%
+ht-degree: 29%
 
 ---
 
@@ -75,14 +75,19 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
 1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Dans la section **Actions rapides**, cliquez sur **Charger** puis sélectionnez **Document**.
 1. (Facultatif) Dans la zone **Télécharger des fichiers**, sélectionnez un dossier.
-1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
-ou
-Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
+1. Glissez et déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V.
+
+   ou
+
+   Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
+
    ![Ajouter des fichiers](assets/add-files.png)
+
 1. (Facultatif) Ajoutez un commentaire.
 1. (Facultatif) Ajoutez d’autres fichiers.
 
    >[!NOTE]
    >
    >Les fichiers supplémentaires sont chargés en tant que documents distincts.
+
 1. Cliquez sur **Charger**.

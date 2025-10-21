@@ -6,7 +6,7 @@ description: Si davantage de travail doit être effectué pour résoudre un prob
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 87%
@@ -146,7 +146,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >[!TIP]
    >
    >* Si un formulaire personnalisé contenant plusieurs objets associés au problème est configuré pour être utilisé avec les problèmes et les tâches, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion, si les champs existent à la fois sur le problème et sur les formulaires personnalisés de la tâche.
-   >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est joint au problème et à la tâche, l’un comme l’autre doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+   >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est joint au problème et à la tâche, l’un comme l’autre doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
    >* Si le projet de destination comporte des formulaires par défaut définis dans le champ Formulaires personnalisés par défaut de la tâche lors de la modification du projet, ces formulaires de tâche sont également ajoutés à la nouvelle tâche. Tous les champs personnalisés communs au problème d’origine et les champs des formulaires de tâches par défaut sont préremplis avec les informations des champs de problème.
 
 
@@ -171,8 +171,8 @@ Le tableau suivant illustre les champs du problème visibles à partir des proje
 | Champs du problème | Champ du projet ou de la tâche | Liste ou rapport de projet | Zone Détails du projet | Liste ou rapport de tâche | Zone Détails de la tâche |
 |---|---|---|---|---|---|
 | [!UICONTROL Nom du problème] | [!UICONTROL Nom du problème converti] | ✔ | ✔ | ✔ | ✔ |
-| [!UICONTROL Contact principal] | [!UICONTROL Nom du créateur ou de la créatrice du problème converti] | ✔ | ✔ | ✔ |
-| [!UICONTROL Date d’entrée] | [!UICONTROL Date d&#39;entrée de l&#39;événement converti] | ✔ |  | ✔ |
+| [!UICONTROL Contact principal] | [!UICONTROL Nom du créateur ou de la créatrice du problème converti] | ✔ | ✔ | ✔ |  |
+| [!UICONTROL Date d’entrée] | [!UICONTROL Date d&#39;entrée de l&#39;événement converti] | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]

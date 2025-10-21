@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 97%
@@ -48,10 +48,8 @@ Vous pouvez également modifier l’image d’arrière-plan et la couleur de l�
 >[!NOTE]
 >
 >* La modification de l’image d’arrière-plan et de la couleur de connexion n’est pas disponible si l’instance Workfront de votre entreprise utilise un portail d’authentification unique personnalisé. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
+>
+><!-- or is enabled with Adobe IMS -->
 >
 >* Un administrateur ou administratrice Workfront ou un administrateur ou administratrice de groupes peut également personnaliser Workfront pour certains groupes et personnes utilisant un modèle de mise en page. Le branding dans un modèle de mise en page remplace le branding au niveau du système décrit dans cet article. Pour obtenir des instructions sur le branding dans un modèle de mise en page, voir [Personnaliser Adobe Workfront avec un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
@@ -134,10 +132,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >[!NOTE]
    >
    >Cette option n’est pas disponible si l’instance Workfront de votre organisation utilise un portail SSO personnalisé.
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->
+   >
+   ><!--  or is enabled with Adobe IMS -->
    >
    >Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
 

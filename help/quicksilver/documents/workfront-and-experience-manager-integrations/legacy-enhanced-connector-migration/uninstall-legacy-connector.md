@@ -6,7 +6,7 @@ description: Texte
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
@@ -22,7 +22,9 @@ Vous devez désinstaller Workfront avec le connecteur hérité Adobe Experience 
 1. Ouvrez Adobe Experience Manager.
 1. Dans Experience Manager, accédez à **Outils** > **Cloud Service** > **Configuration de l’intégration Workfront**.
 1. Sélectionnez votre configuration (global-workfront par défaut), puis cliquez sur **Propriétés**.
+
    ![se désabonner de workfront](assets/unsubscribe-from-workfront.png)
+
 1. Désactivez la synchronisation du document, des commentaires et des métadonnées. Le libellé doit dire Désactivé.
 Cela supprime les abonnements dans Workfront et permet à l’utilisateur ou l’utilisatrice de créer un abonnement à l’aide de l’URL définie dans Day CQ Link Externalizer.
 
@@ -31,6 +33,7 @@ Cela supprime les abonnements dans Workfront et permet à l’utilisateur ou l�
 Après la suppression de l’abonnement, il est alors possible de supprimer la configuration de l’intégration Workfront en toute sécurité.
 
 1. Ouvrez la configuration, puis sélectionnez **Supprimer**.
+
    ![supprimer la configuration](assets/delete-wf-configuration.png)
 
 ## Supprimer le mappage

@@ -6,7 +6,7 @@ description: Un client Workfront qui est, comme défini dans la loi HIPAA, un as
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Un client Workfront qui est, comme défini dans la loi HIPAA, un associé commer
 | **Paramètre de sécurité** | **Qu&#39;Est-Ce Que C&#39;Est ?** | **Exigence** |
 |----------------------|------------------|------------------|
 | Efficacité minimale du mot de passe pour les contrats | Quelle est la force minimale des mots de passe d&#39;accord ? | Pas moins de 8 caractères |
-| Efficacité minimale du mot de passe pour les mots de passe utilisateur | Quelle est la force minimale des mots de passe des utilisateurs ? | Caractères appartenant à trois des catégories suivantes :<br>* Lettres majuscules (alphabet latin)<br>* Lettres minuscules (alphabet latin)<br>* Base 10 chiffres<br>* Caractères non alphanumériques |
+| Efficacité minimale du mot de passe pour les mots de passe utilisateur | Quelle est la force minimale des mots de passe des utilisateurs ? | Caractères appartenant à trois des catégories suivantes : <br> lettres majuscules (alphabet latin)<br> lettres minuscules (alphabet latin)<br> base 10 chiffres<br> Caractères non alphanumériques |
 | Durée du mot de passe | Pendant combien de temps les mots de passe doivent-ils rester inchangés ? | Les mots de passe doivent être modifiés au moins tous les 90 jours |
 | Historique du mot de passe | Combien de mots de passe passés doivent être mémorisés et interdits ? | Pas moins de 5 |
 

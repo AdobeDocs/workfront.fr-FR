@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 99%
@@ -26,11 +26,8 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous 
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations de la gestion des projets et des ressources](#project-and-resource-management-enhancements)
-
 * [Améliorations de la méthode Agile](#agile-enhancements)
-
 * [Améliorations mobiles](#mobile-enhancements)
-
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations de la gestion des projets et des ressources
@@ -382,7 +379,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous 
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Expérience de filtrage améliorée disponible dans Adobe Workfront</a></p>
-                        <p>Une mise à niveau de l’expérience de filtrage a été publiée en version bêta publique sur les listes des projets, des tâches et des problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés.</p>
+                        <p>Une mise à niveau de l’expérience de filtrage a été publiée en version Beta publique sur les listes des projets, des tâches et des problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés.</p>
                         <p>Dans le cadre d’une « suite rapide » à la version 23.1, l’expérience de filtrage améliorée sera généralement disponible et deviendra la créatrice de filtres standard en février/mars 2023.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -524,7 +521,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, consultez [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, consultez [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Mise à jour des formations
 
@@ -534,14 +531,14 @@ Découvrez les dernières mises à jour des programmes et parcours de formation,
 
 Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
 
-#### **Obsolescence et suppression de la zone Campagnes (version bêta) dans l’environnement de prévisualisation**
+#### **Obsolescence et suppression de la zone Campagnes (version Beta) dans l’environnement de prévisualisation**
 
-Nous supprimons la zone Campagnes (version bêta) de l’environnement de prévisualisation le 9 janvier 2023. Notre équipe produit va passer en revue cette fonctionnalité et l’inclure dans une prochaine version du produit.
+Nous supprimons la zone Campagnes (Beta) de l’environnement de prévisualisation le 9 janvier 2023. Notre équipe produit va passer en revue cette fonctionnalité et l’inclure dans une prochaine version du produit.
 
 À l’heure actuelle, nous apportons les modifications suivantes :
 
-* Suppression de la zone Campagnes (version bêta) du menu principal et des modèles de mise en page de l’environnement de prévisualisation.
-* Suppression de la zone Campagnes (version bêta) du menu principal et des modèles de mise en page dans l’environnement de production pour les clientes et clients qui l’ont activée sur demande.
+* Suppression de la zone Campagnes (Beta) du menu principal et des modèles de mise en page de l’environnement de prévisualisation.
+* Suppression de la zone Campagnes (Beta) du menu principal et des modèles de mise en page dans l’environnement de production pour les clientes et clients qui l’ont activée sur demande.
 
 En outre, tous les articles décrivant cette fonctionnalité seront également supprimés.
 
@@ -556,6 +553,7 @@ Certaines fonctionnalités de contrôle de listes sont déplacées vers les zone
 Nous remplaçons l’[extension Workfront pour Illustrator et InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) avec les plug-ins de Creative Cloud mis à jour. À partir de fin de 2022, cette extension ne pourra plus être installée dans Adobe Exchange.
 
 La fonctionnalité de cette extension, ainsi que plusieurs améliorations, sont disponibles dans les plug-ins Adobe Workfront pour Creative Cloud mis à jour :
+
 * [Adobe Workfront pour Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront pour XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Analytics pour la conception et la vidéo](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

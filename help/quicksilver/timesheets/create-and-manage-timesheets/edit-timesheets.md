@@ -6,7 +6,7 @@ description: Les utilisateurs disposant d’un accès administratif aux feuilles
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 94%
@@ -112,8 +112,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
       <td role="rowheader"><strong>Date de fin</strong> </td> 
       <td> Il s’agit de la date de fin de la feuille de temps.</td> 
-     </tr>
-<tr> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Statut</strong> </td> 
       <td> Il s’agit du statut de la feuille de temps.
       Voici les options de statut possibles de la feuille de temps : 
@@ -121,7 +121,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <li><b>Envoyée</b> : la feuille de temps est soumise pour approbation aux approbateurs et approbatrices désignés.</li>
       <li><b>Rejetée</b> : la feuille de temps n’a pas été approuvée par les approbateurs et approbatrices et est à nouveau disponible pour que l’utilisateur ou l’utilisatrice puisse modifier les entrées de temps.</li>
       <li><b>Fermée</b> : la feuille de temps est fermée par l’utilisateur ou l’utilisatrice,ou approuvée par l’approbateur ou l’approbatrice ; elle est donc maintenant fermée. Vous ne pouvez pas ajouter d’heures à une feuille de temps fermée.</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approbateurs et approbatrices</strong> </td> 

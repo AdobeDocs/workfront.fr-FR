@@ -7,7 +7,7 @@ description: Appellé également Valeur acquise, le coût budgété du travail e
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 98%
@@ -85,7 +85,7 @@ Vous pouvez configurer le calcul du BCWP en heures ou en coûts en configurant l
 
 1. Cliquez sur **Enregistrer les modifications**.
 
-Le BCWP des tâches du projet est calculé en heures ou en coûts.
+   Le BCWP des tâches du projet est calculé en heures ou en coûts.
 
 ## Calculer le BCWP
 

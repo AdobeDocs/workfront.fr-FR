@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -113,17 +113,14 @@ Si vous utilisez le serveur d’autorisation personnalisé par défaut, l’URL 
 
 Notez les paramètres qui sont transmis :
 
-* `client_id` correspond à l’identifiant du client de l’application OAuth2 que vous avez créée lors de la configuration de l’application.
+* `client_id` correspond à l’ID client de l’application OAuth2 que vous avez créé dans lors de la configuration de l’application.
 
   Pour obtenir des instructions, voir la section Créer une application web OAuth2 d’une seule page à l’aide de PKCE dans Créer des applications OAuth2 pour les intégrations Workfront.
 
-* Le `response_type` est `code`, car l’application utilise le type d’octroi Code d’autorisation.
-
-* `redirect_uri` est l’emplacement de rappel vers lequel l’agent de l’utilisateur ou l’utilisatrice est dirigé en même temps que le `code`. Il doit correspondre à l’un des URI de redirection que vous avez spécifiés lors de la création de votre application OAuth2.
-
-* `code_challenge_method` est la méthode de hachage utilisée pour générer le code_challenge, qui est toujours `S256` pour les applications Workfront Oauth2 qui utilisent PKCE.
-
-* `code_challenge` est le code_challenge utilisé pour PKCE.
+* `response_type` est `code`, car l’application utilise le type d’octroi Code d’autorisation .
+* `redirect_uri` est l’emplacement de rappel vers lequel l’agent utilisateur est dirigé avec le `code`. Il doit correspondre à l’un des URI de redirection que vous avez spécifiés lors de la création de votre application OAuth2.
+* `code_challenge_method` est la méthode de hachage utilisée pour générer le défi, qui est toujours `S256` pour les applications Workfront Oauth2 qui utilisent PKCE.
+* `code_challenge` est le défi de code utilisé pour PKCE.
 
 
 ## Échanger le code contre des jetons

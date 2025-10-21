@@ -7,7 +7,7 @@ description: Une fois que votre administrateur ou administratrice Adobe Workfro
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 83%
@@ -241,9 +241,10 @@ Editing activities differs depending on which environment you use.
    ![Zone Modifier l’activité](assets/edit-activity-box-unshimmed.png)
 
 1. Modifiez les informations suivantes :
+
    * **Nom de l’activité** : nom de l’activité. Utilisez un nom explicite qui illustre l’activité que vous devez exécuter pour indiquer que l’objectif va être atteint.
-   * **Personne propriétaire de l’activité :**: personne propriétaire de l’activité. La personne propriétaire doit être active sur Workfront.\
-     Pour plus d’informations sur les champs d’activité, voir [Ajouter des activités aux objectifs](../results-and-activities/add-activities-to-goals.md).
+   * **Personne propriétaire de l’activité :**: personne propriétaire de l’activité. La personne propriétaire doit être active sur Workfront.
+
+   Pour plus d’informations sur les champs d’activité, voir [Ajouter des activités aux objectifs](../results-and-activities/add-activities-to-goals.md).
+
 1. Cliquer sur **Enregistrer**.
-
-

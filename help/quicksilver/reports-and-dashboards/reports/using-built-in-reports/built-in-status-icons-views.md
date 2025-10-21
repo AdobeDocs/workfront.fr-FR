@@ -6,10 +6,10 @@ description: Vous pouvez ajouter le champ Icônes de statut intégrées sous for
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ Pour ajouter le champ Icônes de statut à une vue personnalisée créée entiè
 
    * *Icônes de statut*
    * *Indicateurs*
-   * *Icônes de vue * (uniquement dans les vues Document).
+   * *Afficher les icônes* (uniquement dans les vues de document).
 
    Les icônes intégrées sont répertoriées sous l’un de ces noms.\
    Une vue de modèle contient les champs **Icônes de statut** et **Indicateurs**. Dans ce cas, les deux colonnes contiennent des icônes identiques.\

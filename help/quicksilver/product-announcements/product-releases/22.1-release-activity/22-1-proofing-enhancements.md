@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -31,11 +31,11 @@ Pour consulter la liste de tous les changements disponibles avec la version 22.
 
 >[!NOTE]
 >
->Disponible pour les clientes et clients de la zone EMEA avec une relecture intégrée créée avant le 6 juillet 2021 uniquement. Ces fonctionnalités seront disponibles en prévisualisation dans un déploiement progressif débutant le 13 janvier et se terminant le 17 janvier pour les clientes et clients suivants :
+>Disponible pour les clientes et clients de la zone EMEA avec une relecture intégrée créée avant le 6 juillet 2021 uniquement. Cette fonctionnalité est disponible en aperçu dans un déploiement échelonné allant du 13 janvier au 17 janvier pour les clients suivants :
+>
 >* Clientes et clients de la zone EMEA avec une relecture intégrée et autonome
 >* Clientes et clients de la zone EMEA avec une relecture intégrée créée après le 6 juillet 2021
 >* L’ensemble des clientes et clients américains
->
 
 Afin d’offrir une expérience plus intégrée entre Workfront et Workfront Proof, nous avons apporté plusieurs améliorations concernant les capacités de relecture pour les personnes réviseuses et demandeuses :
 

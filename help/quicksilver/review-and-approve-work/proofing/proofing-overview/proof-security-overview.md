@@ -7,10 +7,10 @@ description: Vous pouvez ajouter des mesures de sécurité supplémentaires aux 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -32,10 +32,10 @@ Lorsque l’option de connexion obligatoire est activée, les réviseurs et les 
 
 >[!TIP]
 >
->Pour rationaliser le processus de connexion, nous recommandons de mettre en place l’authentification unique (SSO) dans Workfront et Workfront Proof. Pour plus d’informations sur l’activation de l’authentification unique, voir ce qui suit :
+>Pour rationaliser le processus de connexion, nous recommandons de mettre en place l’authentification unique (SSO) dans Workfront et Workfront Proof. Pour plus d’informations sur l’activation de la connexion unique, voir
+>
 >* [Authentification unique dans Workfront : index des articles](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Configurer l’authentification unique pour les utilisateurs et les utilisatrices de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
->
 
 ## Signature électronique
 
@@ -47,6 +47,6 @@ Lorsque le paramètre de signature électronique est activé sur une épreuve, u
 
 >[!IMPORTANT]
 >
->Pour signer électroniquement une épreuve avec des informations d’identification SSO, vous devez configurer le SSO dans Workfront Proof. Pour plus d’informations sur l’activation de l’authentification unique, voir :
->* [Configurer l’authentification unique pour les utilisateurs et les utilisatrices de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>Pour signer électroniquement une épreuve avec des informations d’identification SSO, vous devez configurer le SSO dans Workfront Proof. Pour plus d’informations sur l’activation de la connexion unique, voir
 >
+>* [Configurer l’authentification unique pour les utilisateurs de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)

@@ -6,10 +6,10 @@ description: Vous pouvez voir l’utilisation de vos ressources dans le rapport 
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '7259'
-ht-degree: 99%
+source-wordcount: '7099'
+ht-degree: 98%
 
 ---
 
@@ -339,29 +339,22 @@ Contrairement à d’autres zones de Workfront, si les revenus prévus dépassen
   <tr> 
    <td><strong>Revenus réels</strong> </td>
    <td> <p>Les revenus réels correspondent au revenu associé aux heures effectives des tâches et du projet. Pour plus d’informations sur les revenus réels, consultez <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">Suivre les montants de revenu</a> dans <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Vue d’ensemble de la facturation et des revenus</a>.</p>
-
-<p>La manière selon laquelle le rapport d’utilisation calcule les revenus réels pour les projets inclus varie en fonction du type de revenu défini sur la tâche, comme suit :</p> <p><strong>Revenus fixes :</strong> quelles que soient les affectations de tâche, le revenu de la tâche est toujours calculé à l’aide du montant fixe spécifié sur la tâche.</p> <p><b>IMPORTANT</b>
-
-Contrairement à d’autres zones de Workfront, le rapport d’utilisation calcule les revenus réels en divisant équitablement les revenus fixes par le nombre d’heures consignées sur la tâche. </p> <p> </p> <p>Par exemple, les revenus réels d’une tâche sont de 200 $. Si la tâche comporte 4 heures effectives, chaque heure équivaudrait à 50 $. Cette répartition se fait au niveau de l’utilisateur ou l’utilisatrice et du rôle. Cette répartition est propre au rapport d’utilisation.</p> <p><b>REMARQUE</b>
-
-Si vous avez une tâche de revenus fixes et qu’il n’y a pas d’heures effectives sur la tâche, les revenus réels n’apparaissent pas dans le rapport d’utilisation, car il n’existe aucun moyen de répartir les heures. </p> <p><strong>Rôle par heure :</strong> le revenu de la tâche est calculé à l’aide du taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’heures effectives.</p> <p>Workfront utilise la formule suivante :</p> <p><code>Revenus réels de rôle par heure = SOMME(Heures effectives du rôle sur toutes les tâches) * Taux de facturation du rôle</code> </p> <p><b>NOTE :</b> le taux de facturation par heure dans la formule prend en compte toute modification apportée à la date d’entrée en vigueur du taux.</p> <p><strong>Personne, par heure :</strong> le revenu de la tâche est calculé à l’aide du taux de facturation défini pour une personne spécifique, multiplié par le nombre d’heures enregistrées sur la tâche par cette personne. Workfront utilise la formule suivante :</p> <p><code>Revenus réels de personne, par heure = SOMME(Heures effectives de la personne sur toutes les tâches) * Taux de facturation de la personne</code></p> <p><b>NOTE :</b> le taux de facturation par heure dans la formule prend en compte toute modification apportée à la date d’entrée en vigueur du taux.</p> <p><b>Rôle par heure plus fixe ou personne, par heure plus fixe</b> </p> <p><b>IMPORTANT</b>
-
-Contrairement à d’autres zones de Workfront, le rapport d’utilisation calcule les revenus réels en divisant équitablement les revenus fixes par le nombre d’heures consignées sur la tâche. </p> <p>Les cas suivants existent : </p>
-<ul>
-<li> <p><strong>Rôle par heure plus fixe :</strong> taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’heures enregistrées sur la tâche par une personne disposant de ce rôle. En outre, un montant fixe spécifié sur la tâche est ajouté au taux du rôle. </p> <p>Workfront utilise la formule suivante :</p> <p><code>Revenus réels de rôle par heure plus fixe = [SOMME(Heures effectives du rôle sur toutes les tâches) * Taux de facturation du rôle] + SOMME(Limite ou montant fixe de la tâche / Heures effectives de la tâche)</code> </p> </li>
-<li> <p><strong>Personne, par heure plus fixe :</strong> taux de facturation défini pour une personne spécifique, multiplié par le nombre d’heures consignées pour la tâche par cette personne. En outre, un montant fixe spécifié dans la tâche est ajouté au taux de la personne. </p> <p>Workfront utilise la formule suivante :</p> <p><code>Revenus réels de la personne, par heure plus fixe = [SOMME(Heures effectives du rôle sur toutes les tâches) * Taux de facturation de la personne] + SOMME(Montant limite ou fixe de la tâche / Heures de la personne de la tâche)</code> </p> </li>
-</ul> <p><b>Rôle par heure avec limite ou personne, par heure avec limite</b> </p> <p><b>IMPORTANT</b>
-
-Contrairement à d’autres zones de Workfront, si les revenus prévus dépassent la limite, le montant par rapport au montant de la limite est considéré comme des revenus fixes. Les revenus prévus sont calculés en divisant équitablement les revenus fixes par le nombre d’heures prévues sur la tâche, puis en y ajoutant le montant de la limite et les revenus par heure du rôle ou de la personne.<br></p> <p>Les cas suivants existent :</p>
-<ul>
-<li> <p><strong>Rôle par heure avec limite :</strong> les tâches sont facturées toutes les heures comme dans l’option Rôle par heure, mais vous pouvez spécifier un montant maximal. Workfront utilise la formule suivante :</p> <p><code>Revenus réels du rôle, par heure et avec limite = [SOMME(heures effectives du rôle sur toutes les tâches et tous les problèmes) * Taux de facturation du rôle] + Montant de limite maximal de la tâche + SOMME(Montant supérieur au montant maximal / Heures effectives de la tâche).</code></p> </li>
-<li> <p><strong>Personne, par heure avec limite :</strong> les tâches sont facturées toutes les heures comme dans l’option Personne, par heure, mais vous pouvez spécifier un montant maximal.</p> <p> Workfront utilise la formule suivante :</p> <p><code>Revenus réels de la personne, par heure avec limite = [SOMME(Heures effectives du rôle sur toutes les tâches et tous les problèmes) * Taux de facturation de la personne] + Montant de limite maximal de la tâche + SOMME(Montant supérieur au montant maximal / Heures effectives de la tâche)</code> </p> </li>
-</ul>
-<p><strong>Revenus du projet</strong> : les revenus pour les heures consignées dans le projet sont calculés en tenant compte du montant de la facturation par heure pour la fonction principale de la personne qui consigne l’heure. Il n’est pas recommandé de consigner les heures consacrées au projet. </p>
-<p><b>NOTE</b>
-
-Si la personne n’est pas associé à une fonction ou si la facturation par heure du rôle principal est égale à zéro, Workfront calcule les revenus réels à l’aide du montant de la facturation par heure pour la personne. Si le profil d’utilisateur ou d’utilisatrice ne comporte pas de montant de facturation par heure, les revenus réels sont nuls. </p>
-</td> 
+   <p>La manière selon laquelle le rapport d’utilisation calcule les revenus réels pour les projets inclus varie en fonction du type de revenu défini sur la tâche, comme suit :</p> <p><strong>Revenus fixes :</strong> quelles que soient les affectations de tâche, le revenu de la tâche est toujours calculé à l’aide du montant fixe spécifié sur la tâche.</p> <p><b>IMPORTANT</b></p>
+   <p>Contrairement à d’autres zones de Workfront, le rapport d’utilisation calcule les revenus réels en divisant équitablement les revenus fixes par le nombre d’heures consignées sur la tâche. </p> <p> </p> <p>Par exemple, les revenus réels d’une tâche sont de 200 $. Si la tâche comporte 4 heures effectives, chaque heure équivaudrait à 50 $. Cette répartition se fait au niveau de l’utilisateur ou l’utilisatrice et du rôle. Cette répartition est propre au rapport d’utilisation.</p> <p><b>NOTE</b></p></p>
+   <p>Si vous avez une tâche de revenus fixes et qu’il n’y a pas d’heures effectives sur la tâche, les revenus réels n’apparaissent pas dans le rapport d’utilisation, car il n’existe aucun moyen de répartir les heures. </p> <p><strong>Rôle par heure :</strong> le revenu de la tâche est calculé à l’aide du taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’heures effectives.</p> <p>Workfront utilise la formule suivante :</p> <p><code>Role Hourly Actual Revenue = SUM(Actual Hours from role on all tasks) * Role Billing Rate</code> </p> <p><b>NOTE :</b> le taux de facturation par heure dans la formule prend en compte toute modification apportée à la date d’entrée en vigueur du taux.</p> <p><strong>Personne, par heure :</strong> le revenu de la tâche est calculé à l’aide du taux de facturation défini pour une personne spécifique, multiplié par le nombre d’heures enregistrées sur la tâche par cette personne. Workfront utilise la formule suivante :</p> <p><code>User Hourly Actual Revenue = SUM(Actual Hours from user on all tasks) * User Billing Rate</code></p> <p><b>NOTE :</b> le taux de facturation par heure dans la formule prend en compte toute modification apportée à la date d’entrée en vigueur du taux.</p> <p><b>Rôle par heure plus fixe ou personne, par heure plus fixe</b> </p> <p><b>IMPORTANT</b>
+   <p>Contrairement à d’autres zones de Workfront, le rapport d’utilisation calcule les revenus réels en divisant équitablement les revenus fixes par le nombre d’heures consignées sur la tâche. </p> <p>Les cas suivants existent : </p> </p>
+   <ul> 
+     <li> <p><strong>Rôle par heure plus fixe :</strong> taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’heures enregistrées sur la tâche par une personne disposant de ce rôle. En outre, un montant fixe spécifié sur la tâche est ajouté au taux du rôle. </p> <p>Workfront utilise la formule suivante :</p> <p><code>Role Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * Role Billing Rate] + SUM(Cap or Fixed Amount of the task / Actual Hours of the task)</code> </p> </li>
+     <li> <p><strong>Personne, par heure plus fixe :</strong> taux de facturation défini pour une personne spécifique, multiplié par le nombre d’heures consignées pour la tâche par cette personne. En outre, un montant fixe spécifié dans la tâche est ajouté au taux de la personne. </p> <p>Workfront utilise la formule suivante :</p> <p><code>User Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * User Billing Rate] + SUM(Cap or Fixed Amount of the task / User Hours of the task)</code> </p> </li> 
+   </ul> <p><b>Rôle par heure avec limite ou personne, par heure avec limite</b> </p> <p><b>IMPORTANT</b>
+   <p>Contrairement à d’autres zones de Workfront, si les revenus prévus dépassent la limite, le montant par rapport au montant de la limite est considéré comme des revenus fixes. Le chiffre d’affaires prévu est calculé en divisant le chiffre d’affaires fixe de manière égale par le nombre d’heures prévues sur la tâche, puis en ajoutant à cela le montant de la limite et le rôle du chiffre d’affaires horaire de l’utilisateur. <br></p> <p>Les cas suivants existent :</p></p>
+    <ul> 
+     <li> <p><strong>Rôle par heure avec limite :</strong> les tâches sont facturées toutes les heures comme dans l’option Rôle par heure, mais vous pouvez spécifier un montant maximal. Workfront utilise la formule suivante :</p> <p><code>Role Hourly w/ Cap Actual Revenue = [SUM(Actual Hours from role on all tasks and issues) * Role Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Actual Hours of the task)</code></p> </li>
+     <li> <p><strong>Personne, par heure avec limite :</strong> les tâches sont facturées toutes les heures comme dans l’option Personne, par heure, mais vous pouvez spécifier un montant maximal.</p> <p> Workfront utilise la formule suivante :</p> <p><code>User Hourly w/ Cap Actual Revenue = [SUM(Actual Hours from role on all tasks and issues) * User Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Actual Hours of the task)</code> </p> </li> 
+    </ul>
+     <p><strong>Revenus du projet</strong> : les revenus pour les heures consignées dans le projet sont calculés en tenant compte du montant de la facturation par heure pour la fonction principale de la personne qui consigne l’heure. Il n’est pas recommandé de consigner les heures consacrées au projet. </p> 
+     <p><b>REMARQUE</b>Si l’utilisateur n’est pas associé à une fonction ou si la Facturation par heure du rôle de Principal est égale à zéro, Workfront calcule le revenu réel à l’aide du montant Facturation par heure pour l’utilisateur. Si le profil d’utilisateur ou d’utilisatrice ne comporte pas de montant de facturation par heure, les revenus réels sont nuls. </p> 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Variance budgétée (concernant les revenus)</strong> </td> 
@@ -467,7 +460,7 @@ Vous devez spécifier un ou plusieurs projets dans le filtre avant d’exécuter
 
      {{step1-to-utilization-report}}
 
-      1. Cliquez sur **Afficher** > **Programmes**.
+      1. Cliquez sur **Afficher** > **Programmes**.
       1. Appliquez un filtre au rapport d’utilisation, puis cliquez sur **Exécuter**.\
          Vous devez spécifier un ou plusieurs programmes dans le filtre avant d’exécuter le rapport d’utilisation. Pour plus d’informations sur le filtrage du rapport d’utilisation, consultez [Filtrer les informations d’utilisation](#filter-utilization-information) dans cet article.\
          Les informations d’utilisation s’affichent pour les projets et programmes individuels (les projets sont regroupés dans le programme qui leur est associé).
@@ -476,7 +469,7 @@ Vous devez spécifier un ou plusieurs projets dans le filtre avant d’exécuter
 
      {{step1-to-utilization-report}}
 
-      1. Cliquez sur **Afficher** > **Portfolios**.
+      1. Cliquez sur **Afficher** > **Portefeuilles**.
       1. Appliquez un filtre du rapport d’utilisation, puis cliquez sur **Exécuter**.\
          Vous devez spécifier un ou plusieurs portfolios dans le filtre avant d’exécuter le rapport d’utilisation. Pour plus d’informations sur le filtrage du rapport d’utilisation, consultez [Filtrer les informations d’utilisation](#filter-utilization-information) dans cet article.\
          Les informations d’utilisation s’affichent pour les projets, programmes et portfolios individuels (les projets sont regroupés dans le programme qui leur est associé et les programmes sont regroupés dans le portfolio qui leur est associé).
@@ -492,7 +485,8 @@ Vous devez spécifier un ou plusieurs projets dans le filtre avant d’exécuter
    L’option sélectionnée détermine les colonnes et les informations disponibles dans le rapport.
    ![Options d’affichage](assets/utilization-view-dropdown.png)
 
-1. (Facultatif) Sélectionnez la période pour laquelle les informations d’utilisation s’affichent. Vous pouvez afficher les informations d’une semaine ou d’un mois spécifique à gauche de la colonne **Général**. Les informations relatives au projet, au programme ou au portfolio global sont toujours affichées dans la colonne **Général**.\
+1. (Facultatif) Sélectionnez la période pour laquelle les informations d’utilisation s’affichent. Vous pouvez afficher les informations d’une semaine ou d’un mois spécifique à gauche de la colonne **Général**. Les informations relatives au projet, au programme ou au portfolio global sont toujours affichées dans la colonne **Général**.
+
    Pour plus d’informations, voir [Ajuster la période pour laquelle les informations sont affichées](#adjust-the-date-range-for-which-information-is-displayed) dans cet article.
 
 1. (Facultatif) Cliquez sur le titre d’une colonne pour trier le rapport d’utilisation en fonction des informations qu’elle contient. Le tri ne fonctionne que lorsque vous incluez plusieurs éléments dans votre rapport. Vous pouvez, par exemple, trier les résultats de votre rapport lorsque vous observez plusieurs projets (ou portfolios ou programmes). Vous ne pouvez pas trier les résultats lorsque vous ne vous intéressez qu’à un seul projet (ou à un seul portfolio ou un seul programme) à la fois.
@@ -511,7 +505,8 @@ Lorsque vous créez un filtre, les utilisateurs et utilisatrices de Workfront ay
 Pour créer et modifier un filtre :
 
 1. Ouvrez le rapport Utilisation.
-Pour ce faire, voir [Suivre la progression, les coûts et les revenus à l’aide du rapport Utilisation](#track-progress-cost-and-revenue-with-the-utilization-report).
+
+   Pour ce faire, voir [Suivre la progression, les coûts et les revenus à l’aide du rapport Utilisation](#track-progress-cost-and-revenue-with-the-utilization-report).
 
 1. Cliquez sur l’icône **Filtrer** pour afficher les options de filtrage.
 1. (Le cas échéant) Pour modifier un filtre existant, cliquez sur le menu déroulant **Filtrer**, puis sélectionnez le filtre à modifier.

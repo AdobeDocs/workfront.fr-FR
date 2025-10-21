@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 45%
@@ -157,12 +157,15 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 {{step1-to-planning}}
 
 L’espace de travail auquel vous avez accédé en dernier s’ouvre.
+
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
    La page de type d’enregistrement s’ouvre.
+
 1. (Le cas échéant) Dans le menu déroulant **Vue** situé dans le coin supérieur droit du tableau, sélectionnez la vue en tableau. Il doit s’agir de la vue par défaut, sauf si vous avez affiché le type d’enregistrement dans la vue chronologique la dernière fois que vous y avez accédé.
 
    Les enregistrements associés au type d’enregistrement sélectionné s’affichent dans la vue de tableau.
+
 1. Effectuez un clic droit sur une ligne d’enregistrement
 
    Ou
