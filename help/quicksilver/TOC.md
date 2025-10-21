@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2c9bf2eabfeaf3b67daca8b7f1bab8f867baec62
+source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
 workflow-type: tm+mt
-source-wordcount: '13463'
+source-wordcount: '13471'
 ht-degree: 84%
 
 ---
@@ -873,6 +873,7 @@ ht-degree: 84%
          * [Ajouter, modifier ou supprimer des widgets dans la nouvelle page d’accueil](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Afficher les éléments de la liste de travail dans la zone d’accueil](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Présentation des filtres du widget d’accueil](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [Gérer vos approbations à l’aide du widget Mes approbations](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
          * [Gérer votre travail à l’aide du widget Mes tâches](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [Gérer les demandes de travail et d’équipe dans la zone d’accueil](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Mettre à jour ou modifier un élément de travail dans la zone d’accueil](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
@@ -2507,7 +2508,7 @@ ht-degree: 84%
       * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 20](wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
