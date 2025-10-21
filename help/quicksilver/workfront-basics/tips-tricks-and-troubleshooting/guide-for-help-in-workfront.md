@@ -151,7 +151,7 @@ Les ressources suivantes peuvent vous aider à en savoir plus sur l’API [!DNL 
 
 Abonnez-vous à [status.adobe.com](https://status.adobe.com/fr/) pour vous informer sur les programmes de maintenance et les problèmes d’interruption.
 
-Pour en savoir plus sur le site des statuts [!DNL Workfront], consultez [le site des statuts  [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
+Pour en savoir plus sur le site des statuts [!DNL Workfront], consultez [le site des statuts  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
 Pour savoir ce qui a été corrigé lors de la mise à jour d’une maintenance hebdomadaire, consultez [Mises à jour de la maintenance](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
