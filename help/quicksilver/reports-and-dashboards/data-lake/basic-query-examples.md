@@ -182,10 +182,10 @@ Examiner la requête de l’intérieur vers l’extérieur : 
 >[!NOTE]
 >
 >Il est recommandé d&#39;utiliser cette requête comme sa propre « Vue » dans PowerBI ou Tableau.  Si vous souhaitez importer d’autres champs du `<object>_event view`, rejoignez la sortie de cette requête sur le `<object>_event view` .  Les champs de jointure seraient les suivants : <br>
->>Pour projects_event : 
->>`From projects_event p`
->>`Join <above query> c on c.projectid = p.projectid  `
->>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>&#x200B;>Pour projects_event : 
+>&#x200B;>`From projects_event p`
+>&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
+>&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 
