@@ -5,7 +5,7 @@ description: La fonctionnalité d’intégrité du projet utilise la puissance d
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
+source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 4%
@@ -257,7 +257,7 @@ Pour plus d’informations, consultez la section suivante de cet article : [Gér
    >Si vous accédez à l’assistant AI à partir d’une autre page de Workfront, vous pouvez saisir *Quel est l’intégrité du projet [NOM DU PROJET] ?* ou *Quel est l&#39;état du programme [NOM DU PROGRAMME] ?* <br>
    >Pour obtenir la liste complète des invites actuelles que vous pouvez saisir, reportez-vous à la section suivante de cet article : [Liste des invites de l&#39;assistant AI](#ai-assistant-prompts-list).
 
-1. Appuyez sur l’icône **Envoyer** ![Icône Envoyer](assets/send-icon.png). L’évaluation de l’intégrité du projet génère et s’affiche dans le panneau. Un badge s’affiche en haut de chaque évaluation de l’intégrité du projet, qui reflète l’état actuel du projet.
+1. Cliquez sur l’icône **Envoyer** ![Icône Envoyer](assets/send-icon.png). L’évaluation de l’intégrité du projet génère et s’affiche dans le panneau. Un badge s’affiche en haut de chaque évaluation de l’intégrité du projet, qui reflète l’état actuel du projet.
 
    ![Évaluation de l’intégrité du projet](assets/health-assessment.png)
 
@@ -283,7 +283,7 @@ Un projet ne sera inclus dans l&#39;évaluation combinée de l&#39;état de sant
 
    Pour obtenir la liste complète des invites actuelles que vous pouvez saisir, reportez-vous à la section suivante de cet article : [Liste des invites de l&#39;assistant AI](#ai-assistant-prompts-list).
 
-1. Appuyez sur l’icône **Envoyer** ![Icône Envoyer](assets/send-icon.png). L’évaluation de l’intégrité du projet génère et s’affiche dans le panneau.
+1. Cliquez sur l’icône **Envoyer** ![Icône Envoyer](assets/send-icon.png). L’évaluation de l’intégrité du projet génère et s’affiche dans le panneau.
 
    ![Évaluation de projets multiples](assets/multiple-projects-assessment.png)
 
