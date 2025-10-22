@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
+source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 95%
@@ -22,7 +22,6 @@ Pour savoir si votre entreprise se trouve sur Adobe Unified Shell, examinez l�
 
 | L’URL Workfront commence par : | URL des appels API : |
 |---|---|
-| `<yourdomain>.my.workfront.com` | `<yourdomain>.my.workfront.com` |
 | `experience.adobe.com` | `<yourdomain>.my.workfront.adobe.com` |
 
 ## Conditions d’accès
