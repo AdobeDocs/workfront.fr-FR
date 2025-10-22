@@ -8,16 +8,26 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '2602'
-ht-degree: 89%
+source-wordcount: '2578'
+ht-degree: 87%
 
 ---
 
 # Modifier des problèmes
 
 <!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Vous pouvez modifier les informations sur les problèmes que vous avez créés ou que d’autres personnes ont créés si elles ont partagé les problèmes avec vous.
 
@@ -238,8 +248,6 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
    </ul> </td> 
      </tr>
 
-
-
    <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Saisissez un lien web qui se rapporte aux informations sur le problème.</p> </td> 
@@ -262,7 +270,6 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 
    <p>Lorsque vous ajoutez un utilisateur ou une utilisatrice comme contact principal, vérifiez son avatar, son rôle principal et son adresse e-mail pour distinguer les doublons. Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.</p>
       <p> Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Accorder l’accès aux utilisateurs et aux utilisatrices</a>.</p>
-
 
    </td> 
      </tr> 
@@ -323,7 +330,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
 
    ![Section Affectations d&#39;événement](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. Cliquez sur **Rechercher des personnes, des rôles et des équipes** et commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’un rôle ou d’une équipe que vous souhaitez affecter à la tâche, puis cliquez dessus ou appuyez sur « Entrée » lorsqu’il s’affiche dans la liste.
+1. Cliquez sur **Rechercher des personnes, des rôles et des équipes** et commencez à saisir le nom d&#39;un utilisateur, d&#39;un rôle ou d&#39;une équipe que vous souhaitez affecter à l&#39;événement, puis cliquez dessus ou appuyez sur Entrée lorsqu&#39;il s&#39;affiche dans la liste.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -333,9 +340,9 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
    >
    >Si le nom de l’utilisateur ou utilisatrice contient un caractère spécial, vous devez l’inclure dans le champ de recherche.
 
+   Vous pouvez affecter plusieurs utilisateurs et utilisatrices, fonctions ou équipes. Vous pouvez affecter uniquement les utilisateurs et utilisatrices, fonctions et équipes actifs.
+
    >[!TIP]
-   >
-   >Vous pouvez affecter plusieurs utilisateurs et utilisatrices, fonctions ou équipes. Vous pouvez affecter uniquement les utilisateurs et utilisatrices, fonctions et équipes actifs.
    >
    >
    >Si une personne, une fonction ou une équipe a été affectée avant d’être désactivée, elle reste affectée à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
@@ -343,7 +350,10 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
    >* Réaffectez la tâche aux ressources actives.
    >* Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 
-1. (Facultatif) Indiquez si une personne cessionnaire est la personne cessionnaire principale du problème, en pointant la souris sur le nom de la personne cessionnaire et en cliquant sur **Principal**. Une équipe ne peut pas être cessionnaire principale pour un problème.
+   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
+
+   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+
 1. Mettez à jour les champs suivants :
 
    <table style="table-layout:auto"> 
@@ -354,7 +364,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
     <tbody> 
      <tr> 
       <td role="rowheader">Heures prévues</td> 
-      <td> <p>Il s’agit de la durée réelle nécessaire aux personnes cessionnaires du problème pour l’exécuter. Saisissez le nombre d’heures prévues pour le problème.<br></p> <p>Note : modifier le nombre d’heures prévues du problème ne modifie pas la date d’achèvement prévue du problème. </p> </td> 
+      <td> <p>Il s’agit de la durée réelle nécessaire aux personnes cessionnaires du problème pour l’exécuter. Saisissez le nombre d’heures prévues pour le problème.<br></p> <p><b>NOTE</b></p>  <p>La modification des heures prévues de l'événement ne modifie pas la date d'achèvement prévue de l'événement. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Rôle du cessionnaire</td> 
@@ -364,6 +374,15 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
    </tr> 
     </tbody> 
    </table>
+
+   <!--
+   <div class="preview">
+   1. (Conditional) In the Preview environment, update the **Planned Hours** field
+      Or 
+      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   </div> -->
+
+1. Pour supprimer des affectations de tous les événements, voir [Affecter des événements](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
 1. Cliquez sur **Enregistrer** ou continuez à modifier les sections suivantes.
 

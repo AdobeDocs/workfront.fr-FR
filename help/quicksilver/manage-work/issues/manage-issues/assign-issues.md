@@ -7,16 +7,26 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '1424'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
 # Attribuer des problèmes
 
 <!--Audited: 07/2024-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Vous pouvez affecter des problèmes aux utilisateurs et utilisatrices, aux rôles et aux équipes afin d’indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la [Vue d’ensemble de la modification des affectations de problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -188,6 +198,11 @@ Pour affecter des problèmes dans une liste :
 
 ## Affecter des problèmes en bloc
 
+<!--
+Assigning issues in bulk is different depending on what environment you choose to do this. 
+
+### Assign issues in bulk in the Production environment -->
+
 1. Accédez à la liste des problèmes que vous souhaitez affecter en bloc.
 1. Sélectionnez plusieurs problèmes dans la liste.
 1. Cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png).
@@ -201,12 +216,43 @@ Pour affecter des problèmes dans une liste :
    >Si l’un des problèmes est déjà affecté, les ressources que vous indiquez ici y sont ajoutées. Les ressources existantes ne sont pas remplacées sur les problèmes.
 
 1. (Facultatif) Lorsque vous affectez plusieurs ressources au problème, sélectionnez la case d’option dans la colonne **Personne propriétaire du problème** pour indiquer la ressource qui est la personne cessionnaire principale ou la personne propriétaire du problème. Cette option n’est pas disponible pour les équipes.
-1. (Facultatif) Lorsque vous attribuez des personnes à des problème, sélectionnez un rôle que la personne doit remplir sur le problème dans **Choisir un rôle** à partir du menu déroulant **Rôle de la personne cessionnaire**. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle principal de la personne.
+1. (Facultatif) Lorsque vous attribuez des personnes à des problème, sélectionnez un rôle que la personne doit remplir sur le problème dans **Choisir un rôle** à partir du menu déroulant **Rôle de la personne cessionnaire**. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle principal de l’utilisateur ou l’utilisatrice.
 
 1. (Facultatif) Pour supprimer des personnes cessionnaires de tous les problèmes, effectuez l’une des opérations suivantes :
 
    1. Commencez à saisir le nom d’une personne, d’un rôle ou d’une équipe à supprimer du problème. Sélectionnez-le lorsqu’il apparaît dans la liste, puis cliquez sur **Supprimer la personne cessionnaire** pour ajouter d’autres personnes cessionnaires à supprimer.
-   1. Cliquez sur **Supprimer toutes les personnes cessionnaires existantes** pour supprimer toutes les personnes cessionnaires de tous les problèmes sélectionnés.
+   1. Cliquez sur **Supprimer tous les cessionnaires existants** pour supprimer tous les cessionnaires de tous les événements sélectionnés.
 
 1. Cliquez sur **Enregistrer les modifications**.
 1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans votre liste de problèmes, cliquez dans l’une des colonnes de problème, puis cliquez sur l’**icône X** en regard du nom d’une personne cessionnaire pour la supprimer du problème.
+
+<!--
+<div class="preview">
+
+### Assign issues in bulk in the Preview environment
+
+1. Go to a list of issues that you want to assign in bulk. 
+1. Select several issues in the list. 
+1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+
+   The **Edit Issues** dialog box opens.
+
+1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+
+   Or
+
+   Click **Assign to me** to assign the issues to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
+   
+1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+
+1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+
+1. Click **Save**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+
+</div>
+-->

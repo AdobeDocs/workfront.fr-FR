@@ -7,10 +7,10 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 93%
+source-wordcount: '1039'
+ht-degree: 86%
 
 ---
 
@@ -143,6 +143,11 @@ La modification des informations sur un formulaire personnalisé joint à un obj
 
 ## Recalculer tous les champs personnalisés calculés pour un objet  {#recalculate-all-calculated-custom-fields-for-an-object}
 
+>[!IMPORTANT]
+>
+>Vous devez disposer d’un formulaire personnalisé avec des champs calculés joints à l’objet avant de pouvoir suivre les étapes de cette section.
+
+
 1. Accédez à la page principale de l’objet dont vous souhaitez recalculer les champs personnalisés.
 1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom de l’objet, puis cliquez sur **Recalculer les expressions**.
 
@@ -154,7 +159,12 @@ La modification des informations sur un formulaire personnalisé joint à un obj
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-Vous pouvez recalculer manuellement les champs personnalisés de plusieurs objets en les modifiant en bloc à partir d’une liste ou d’un rapport.
+Selon les objets pour lesquels vous souhaitez recalculer les expressions personnalisées, vous pouvez le faire dans les zones suivantes :
+
+* Dans une liste d’objets, à partir du menu Plus en haut de la liste.
+* Dans la zone Modifier, lors de la sélection et de la modification de plusieurs objets en bloc.
+
+Pour recalculer manuellement les champs personnalisés de plusieurs objets en les modifiant en bloc depuis une liste ou un rapport :
 
 1. Accédez à une liste d’objets contenant des formulaires personnalisés avec des champs calculés.
 1. Sélectionnez les objets dont vous souhaitez mettre à jour les champs personnalisés calculés.
@@ -164,17 +174,17 @@ Vous pouvez recalculer manuellement les champs personnalisés de plusieurs objet
 
    Workfront calcule tous les champs personnalisés pour tous les objets sélectionnés.
 
->[!TIP]
->
->Vous pouvez également recalculer des expressions personnalisées à partir d’une liste d’objets. Par exemple, pour recalculer des expressions personnalisées en bloc à partir d’une liste de projets :
->
->1. Accédez à une liste de projets ou à un rapport et sélectionnez un ou plusieurs projets.
->1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Recalculer les expressions personnalisées**.
->
->![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
->
->Workfront calcule tous les champs personnalisés pour tous les projets sélectionnés.
->&#x200B;>Toutes les listes de tous les objets ne disposent pas de cette fonctionnalité.
+Pour recalculer des expressions personnalisées à partir d’une liste d’objets :
+
+1. Accédez à une liste de projets ou à un rapport et sélectionnez un ou plusieurs projets.
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Recalculer les expressions personnalisées**.
+
+![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+Workfront calcule immédiatement tous les champs personnalisés pour tous les projets sélectionnés.
+Toutes les listes de tous les objets ne disposent pas de cette fonctionnalité.
+
+>[!NOTE]
 >
 >En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lors du recalcul en bloc des champs personnalisés calculés afin de garantir des performances optimales. Un projet peut être trop complexe s’il comporte de multiples dépendances ou affectations ou un grand nombre de champs personnalisés.
 

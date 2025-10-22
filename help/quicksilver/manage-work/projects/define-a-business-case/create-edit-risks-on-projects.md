@@ -6,10 +6,10 @@ description: Les risques sont des événements ou des facteurs possibles qui emp
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 52%
+source-wordcount: '1062'
+ht-degree: 47%
 
 ---
 
@@ -80,7 +80,7 @@ Pour créer ou modifier un risque dans le business case :
 
 1. Accédez au projet pour lequel vous souhaitez créer des risques.
 1. Cliquez sur **Business case** dans le panneau de gauche.
-1. Dans la section **Risques**, cliquez sur **Modifier les risques**.
+1. Dans la section **Risques**, cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png)
 1. Saisissez ou modifiez les informations suivantes :
 
    * **Description :** décrire le risque.
@@ -96,7 +96,7 @@ Pour créer ou modifier un risque dans le business case :
 
    ![Risques](assets/edit-risk.png)
 
-1. (Facultatif) Cliquez sur **Ajouter un autre risque** pour ajouter des risques supplémentaires.
+1. (Facultatif) Cliquez sur **Ajouter un autre risque** pour ajouter d’autres risques.
 1. Cliquer sur **Enregistrer**.
 
 ## Créer et modifier des risques dans la zone Risques
@@ -104,8 +104,6 @@ Pour créer ou modifier un risque dans le business case :
 Outre la création et la modification de risques dans le business case, vous pouvez le faire à l’aide de la section **Risques** d’un projet.
 
 Vous pouvez créer et modifier des risques dans la section Risques d&#39;un projet ou d&#39;un modèle. La création de risques pour les modèles est identique à la création de risques pour les projets.
-
-### Créer des risques dans la zone Risques {#create-risks-in-the-risks-area}
 
 1. Accédez au projet pour lequel vous souhaitez créer des risques.
 1. Cliquez sur **Risques** dans le panneau de gauche.
@@ -146,19 +144,19 @@ Vous pouvez modifier un risque à la fois ou modifier plusieurs risques en bloc.
 
 Pour modifier les risques :
 
-1. Accédez à un projet pour lequel vous souhaitez modifier les risques existants.
+1. Accédez à un projet pour lequel vous souhaitez modifier des risques existants.
 1. Cliquez sur **Risques** dans le panneau de gauche.
 1. Commencez à modifier en ligne les champs correspondant aux risques que vous voyez dans la liste pour modifier un risque à la fois.
 
    Ou
 
-   Sélectionnez un ou plusieurs risques, puis cliquez sur **Modifier** pour modifier plusieurs risques en même temps.
+   Sélectionnez un ou plusieurs risques, puis cliquez sur l&#39;icône **Modifier** ![Modifier](assets/edit-icon-on-white.png) pour modifier plusieurs risques en même temps.
 
    >[!NOTE]
    >
    >Vous appliquez les mêmes informations à tous les risques sélectionnés lorsque vous modifiez plusieurs risques à la fois. Les informations associées à chaque risque avant vos modifications sont remplacées par une modification en bloc.
 
-1. Si vous avez cliqué sur **Modifier**, la boîte de dialogue **Modifier le risque** ou **Modifier les risques** s&#39;ouvre.
+1. Si vous avez cliqué sur l&#39;icône **Modifier**, la boîte de dialogue **Modifier le risque** ou **Modifier les risques** s&#39;ouvre.
 
    Mettez à jour les champs suivants :
 
