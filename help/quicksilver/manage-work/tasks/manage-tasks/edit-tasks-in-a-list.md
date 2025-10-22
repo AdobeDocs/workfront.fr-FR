@@ -538,6 +538,6 @@ Vous pouvez modifier plusieurs tâches à la fois. Assurez-vous que vous dispose
    1. In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. 
 
    -->
-1. Cliquez sur Enregistrer les modifications. **** Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
+1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
 
 Pour plus d’informations sur la modification en bloc de formulaires personnalisés, voir [Gérer les formulaires personnalisés joints à des objets](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
