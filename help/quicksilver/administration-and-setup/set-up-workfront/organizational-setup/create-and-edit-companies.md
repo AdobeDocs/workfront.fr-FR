@@ -141,11 +141,11 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
 
    Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Conditionnel) Si vous créez une entreprise, cliquez sur **[!UICONTROL Créer une entreprise]**<span class="preview">ou** Enregistrer **.</span>
+1. (Conditionnel) Si vous créez une entreprise, cliquez sur **[!UICONTROL Créer une entreprise]**<span class="preview">ou **&#x200B; Enregistrer &#x200B;**.</span>
 
    Ou
 
-   Si vous modifiez une société existante, cliquez sur **[!UICONTROL Enregistrer les modifications]**<span class="preview">ou** Enregistrer **.</span>
+   Si vous modifiez une société existante, cliquez sur **[!UICONTROL Enregistrer les modifications]**<span class="preview">ou **&#x200B; Enregistrer &#x200B;**.</span>
 
 ## Gérer les appartenances à une entreprise
 
