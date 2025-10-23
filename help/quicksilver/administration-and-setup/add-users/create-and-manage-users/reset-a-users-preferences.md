@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 86%
+source-wordcount: '390'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement d’aperçu de Sandbox et est publiée dans le cadre d’un déploiement échelonné en production.</span>
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez réinitialiser ou supprimer les paramètres des préférences d’un utilisateur ou d’une utilisatrice pour tout utilisateur ou toute utilisatrice du système Workfront.
 
@@ -57,61 +57,67 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une utilisatrice, certaines préférences sont ramenées à la valeur par défaut du système, tandis que d’autres sont effacées ou supprimées :
 
+<!--
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Préférence</strong> </th> 
-   <th><strong>Statut après la réinitialisation</strong> </th> 
+   <th><strong>Preference</strong> </th> 
+   <th><strong>Status after the reset</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Vues</td> 
-   <td> <p> Revient à la valeur par défaut du système</p> <p>Les vues existantes ne sont pas supprimées. Vous pouvez les sélectionner à nouveau.</p> </td> 
+   <td>Views</td> 
+   <td> <p> Reverted to the system default</p> <p>Existing views are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>Filtres</td> 
-   <td> <p>Revient à la valeur par défaut du système</p> <p>Les filtres existants ne sont pas supprimés. Vous pouvez les sélectionner à nouveau.</p> </td> 
+   <td>Filters</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing filters are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>Regroupements</td> 
-   <td> <p>Revient à la valeur par défaut du système</p> <p>Les regroupements existants ne sont pas supprimés. Vous pouvez les sélectionner à nouveau.</p> </td> 
+   <td>Groupings</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing groupings are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>Liste des éléments récents</td> 
-   <td>Effacée</td> 
+   <td>Recent Items list</td> 
+   <td>Cleared</td> 
   </tr> 
   <tr> 
-   <td>Liste des favoris</td> 
-   <td>Non affectée</td> 
+   <td>Favorites list</td> 
+   <td>Unaffected</td> 
   </tr> 
   <tr> 
-   <td>Préférences de l’utilisateur ou de l’utilisatrice</td> 
-   <td> <p>Revient à la valeur par défaut du système</p> <p>Les notifications par e-mail reviennent aux valeurs par défaut du système. Les notifications par défaut sont répertoriées dans <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Notifications d’événements disponibles dans Adobe Workfront</a>.</p> </td> 
+   <td>User Preferences</td> 
+   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults. The default notifications are listed in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Event notifications available in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Onglets personnalisés définis par l’utilisateur ou l’utilisatrice</td> 
-   <td>Supprimés</td> 
+   <td>User-Defined Custom Tabs</td> 
+   <td>Removed</td> 
   </tr> 
   <tr> 
-   <td>Options de navigation globale définies par l’utilisateur ou l’utilisatrice</td> 
-   <td>Reviennent à la définition du modèle de mise en page ou à la valeur par défaut du système si aucun modèle de mise en page n’est attribué.</td> 
+   <td>User-Defined Global Navigation Options</td> 
+   <td>Set back to layout template definition, or system default if no layout template is assigned.</td> 
   </tr> 
  </tbody> 
 </table>
-
-<!-- Display this table and hide the HTML table above, when the unshim is released.
-| Preference | Status after the reset |
-| --- | --- |
-| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
-| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
-| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
-| Recent items list | Cleared |
-| Favorites list | Unaffected |
-| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
 -->
+
+<!--Display this table and hide the HTML table above, when the unshim is released.-->
+
+<div class="preview">
+
+| Préférence | Statut après la réinitialisation |
+| --- | --- |
+| Vues | Revient à la valeur par défaut du système <p>Les vues existantes ne sont pas supprimées. Vous pouvez les sélectionner à nouveau.</p> |
+| Filtres | Revient à la valeur par défaut du système <p>Les filtres existants ne sont pas supprimés. Vous pouvez les sélectionner à nouveau.</p> |
+| Regroupements | Revient à la valeur par défaut du système <p>Les regroupements existants ne sont pas supprimés. Vous pouvez les sélectionner à nouveau.</p> |
+| Liste d&#39;éléments récents | Effacée |
+| Liste des favoris | Non affectée |
+| Préférences de l’utilisateur ou de l’utilisatrice | Revient à la valeur par défaut du système <p>Les notifications par e-mail reviennent aux valeurs par défaut du système. Les notifications par défaut sont répertoriées dans [Notifications d’événements disponibles dans Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+
+</div>
 
 ## Réinitialiser les préférences de l’utilisateur ou de l’utilisatrice
 
@@ -141,9 +147,13 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
      >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Appuyez sur **Entrée**.
-1. Pour réinitialiser toutes les préférences de l’utilisateur ou de l’utilisatrice, sélectionnez **Réinitialiser**.
 
-   <!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
-Ou
+<div class="preview">
 
-   Pour réinitialiser uniquement les onglets personnalisés, sélectionnez **Réinitialiser les onglets**.
+1. Pour réinitialiser toutes les préférences utilisateur, cliquez sur **Réinitialiser**.
+
+   Ou
+
+   Pour réinitialiser uniquement les onglets personnalisés, cliquez sur **Réinitialiser la navigation de gauche**.
+
+</div>

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 74%
+source-wordcount: '1440'
+ht-degree: 70%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 74%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement d’aperçu de Sandbox et est publiée dans le cadre d’un déploiement échelonné en production.</span>
 
 Une entreprise est une entité organisationnelle dans [!DNL Adobe Workfront] qui peut représenter votre organisation, un service au sein de l’organisation ou une clientèle avec laquelle vous travaillez. Vous pouvez ajouter des entreprises à [!DNL Workfront] et les utiliser à des fins de planification financière, de création de rapports, pour définir des autorisations liées à des objets et pour préserver la confidentialité des informations.
 
@@ -105,9 +105,9 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
 
 1. Mettez à jour les informations suivantes dans la section **Informations de base** :
 
-   * **Nom de l’entreprise**<!--<span class="preview"> or **Name**</span>--> : saisissez le nom de l’entreprise.
+   * **Nom de la société**<span class="preview"> ou **Nom**</span> : saisissez un nom pour la société.
    * **Est active** : lorsque cette option est activée, il est possible de trouver l’entreprise et de la joindre aux projets créés et modifiés. Une société inactive ne peut pas être jointe aux projets. Cette option est activée par défaut.
-   * **Ceci est l’entreprise principale**<!--<span class="preview">or **Is Primary**</span>--> : désigne l’entreprise comme entreprise principale de votre organisation. L’entreprise principale représente généralement votre compte Workfront où travaillent la plupart de vos utilisateurs et utilisatrices.
+   * **Société par Principal**<span class="preview"> ou **Est un Principal**</span> : affecte la société en tant que société principale de votre organisation. L’entreprise principale représente généralement votre compte Workfront où travaillent la plupart de vos utilisateurs et utilisatrices.
 
      Vous pouvez désigner une entreprise, ou aucune, comme entreprise principale, mais vous ne pouvez pas en désigner plusieurs à la fois. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,11 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
 
    Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Le cas échéant) Si vous créez une entreprise, cliquez sur **[!UICONTROL Créer une entreprise]**<!--<span class="preview">or **Save**</span>-->.
+1. (Conditionnel) Si vous créez une entreprise, cliquez sur **[!UICONTROL Créer une entreprise]**<span class="preview">ou** Enregistrer **.</span>
 
    Ou
 
-   Si vous modifiez une société existante, cliquez sur **[!UICONTROL Enregistrer les modifications]**<!--<span class="preview">or **Save**</span>-->.
+   Si vous modifiez une société existante, cliquez sur **[!UICONTROL Enregistrer les modifications]**<span class="preview">ou** Enregistrer **.</span>
 
 ## Gérer les appartenances à une entreprise
 
