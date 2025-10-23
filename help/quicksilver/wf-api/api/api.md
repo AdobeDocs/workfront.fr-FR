@@ -36,7 +36,7 @@ Cette section contient les articles suivants :
 * [Configurer et utiliser les applications OAuth2 personnalisées de votre organisation à l’aide du flux PKCE](../../wf-api/api/oauth-app-pkce-flow.md)
 * [Nouveautés de l’API version 21](../../wf-api/api/new-api-version-20.md)
 * [Nouveautés de l’API version 20](../../wf-api/api/new-api-version-21.md)
-* [Nouveautés de la version 19 de l’API ](../../wf-api/api/new-api-version-19.md)
+* [Nouveautés de la version 19 de l’API &#x200B;](../../wf-api/api/new-api-version-19.md)
 * [Nouveautés de la version 18 de l’API](../../wf-api/api/new-api-version-18.md)
 * [Nouveautés de la version 17 de l’API](../../wf-api/api/new-api-version-17.md)
 * [Nouveautés de la version 16 de l’API](../../wf-api/api/new-api-version-16.md)
