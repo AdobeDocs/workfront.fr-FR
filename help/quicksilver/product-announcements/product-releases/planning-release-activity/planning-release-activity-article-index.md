@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 6708a22841bb20bd7bb62c76699276df9315611a
+source-git-commit: e8d0b180e39025e3d6775d1f90dbd5c8fad9025e
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 0%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Cet article contient une liste d’articles relatifs aux activités de publicati
 Pour plus d’informations sur l’activité de version actuelle de Workfront Planning, reportez-vous à l’article suivant :
 
 * [Activité de la version du premier trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
-* [Activité de mise à jour du quatrième trimestre 2025 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+
 
 >[!ENDSHADEBOX]
 
@@ -31,9 +31,13 @@ Pour plus d’informations sur l’activité de version actuelle de Workfront Pl
 
 Pour plus d’informations sur les fonctionnalités publiées avant la version de production du 10 avril 2025, consultez les articles suivants :
 
-* [Activité de mise à jour du troisième trimestre 2025 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
-* [Activité de mise à jour du deuxième trimestre 2025 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
-* [Activité de la version du premier trimestre 2025 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
-* [Activité de mise à jour du quatrième trimestre 2024 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
-* [Activité de publication de la planification Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md)
-* [Activité de publication de la planification Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* 2025
+   * [Activité de mise à jour du quatrième trimestre 2025 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+   * [Activité de mise à jour du troisième trimestre 2025 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
+   * [Activité de mise à jour du deuxième trimestre 2025 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
+   * [Activité de la version du premier trimestre 2025 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+* 2024
+   * [Activité de mise à jour du quatrième trimestre 2024 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+   * [Activité de publication de la planification Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md)
+* 2023
+   * [Activité de publication de la planification Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)

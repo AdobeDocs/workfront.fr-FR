@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5e81e18ef667af3e4d08f4fc8987f7a3b6617971
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 70%
@@ -105,9 +105,9 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
 
 1. Mettez à jour les informations suivantes dans la section **Informations de base** :
 
-   * **Nom de la société**<span class="preview"> ou **Nom**</span> : saisissez un nom pour la société.
+   * **Nom de la société** <span class="preview"> ou **Nom**</span> : saisissez un nom pour la société.
    * **Est active** : lorsque cette option est activée, il est possible de trouver l’entreprise et de la joindre aux projets créés et modifiés. Une société inactive ne peut pas être jointe aux projets. Cette option est activée par défaut.
-   * **Société par Principal**<span class="preview"> ou **Est un Principal**</span> : affecte la société en tant que société principale de votre organisation. L’entreprise principale représente généralement votre compte Workfront où travaillent la plupart de vos utilisateurs et utilisatrices.
+   * **Société par Principal** <span class="preview">ou **Est un Principal**</span> : affecte la société en tant que société principale de votre organisation. L’entreprise principale représente généralement votre compte Workfront où travaillent la plupart de vos utilisateurs et utilisatrices.
 
      Vous pouvez désigner une entreprise, ou aucune, comme entreprise principale, mais vous ne pouvez pas en désigner plusieurs à la fois. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,11 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
 
    Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Conditionnel) Si vous créez une entreprise, cliquez sur **[!UICONTROL Créer une entreprise]**<span class="preview">ou **&#x200B; Enregistrer &#x200B;**.</span>
+1. (Conditionnel) Si vous créez une entreprise, cliquez sur **[!UICONTROL Créer une entreprise]**<span class="preview">ou** Enregistrer **.</span>
 
    Ou
 
-   Si vous modifiez une société existante, cliquez sur **[!UICONTROL Enregistrer les modifications]**<span class="preview">ou **&#x200B; Enregistrer &#x200B;**.</span>
+   Si vous modifiez une société existante, cliquez sur **[!UICONTROL Enregistrer les modifications]**<span class="preview">ou** Enregistrer **.</span>
 
 ## Gérer les appartenances à une entreprise
 

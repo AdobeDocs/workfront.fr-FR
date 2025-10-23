@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
+source-git-commit: bf4764cc1e20bf87fb1069ca432ee6303096313c
 workflow-type: tm+mt
-source-wordcount: '8497'
+source-wordcount: '8788'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,44 @@ Cette page répertorie les mises à jour de l’interface que nous effectuons da
 Pour toutes les autres modifications apportées à Adobe Workfront, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration et configuration
+
+### Mises à jour de l’interface pour les boîtes de dialogue Ajouter et modifier des sociétés
+
+**Version préliminaire : 23 octobre 2025 ; Version de production : à partir du 30 octobre 2025**
+
+Nous avons mis à jour les boîtes de dialogue pour ajouter et modifier des sociétés avec une conception plus moderne et cohérente avec d’autres zones de Workfront.
+
+Pour plus d’informations, consultez la section [Créer et modifier des entreprises](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+
+## Projets
+
+### Mises à jour des interfaces pour les zones Nouveau et Modifier le risque dans un tableau de bord personnalisé d’un projet
+
+**Version préliminaire : 16 octobre 2025 ; Version de production pour tous les clients : à partir de la semaine du 23 octobre 2025**
+
+Nous avons mis à jour l’aspect des zones Nouveau et Modifier les risques lorsque vous créez ou mettez à jour un risque existant . La nouvelle conception correspond désormais à d’autres zones de Workfront.  Pour accéder à la nouvelle conception, créez un rapport des risques et placez-le sur un tableau de bord, puis ajoutez le tableau de bord à un projet et gérez les risques depuis le tableau de bord.
+
+Pour plus d’informations, voir [Créer et modifier des risques sur les projets](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+
+## Utilisateurs et utilisatrices
+
+### Mises à jour de l’interface pour les congés personnels
+
+**Version préliminaire : 23 octobre 2025 ; Version de production pour tous les clients : à partir de la semaine du 30 octobre 2025**
+
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+
+Nous avons mis à jour l’aspect du calendrier des congés personnels, y compris la possibilité de déléguer les approbations, pour qu’il corresponde aux autres zones de la demande.
+
+Pour afficher ces modifications, accédez à votre profil utilisateur et cliquez sur **Congés** dans le panneau de gauche.
+
+Pour plus d’informations, voir [Configurer des congés personnels](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) et [Déléguer la demande d’approbation](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+
+## Mises à jour des interfaces effectuées au 4ème trimestre
+
+## Administration et configuration
+
++++Développez pour afficher les mises à jour de l’interface Administration et Configuration effectuées au 4e trimestre
 
 ### Mises à jour de l’interface de la boîte de dialogue Importer des utilisateurs dans Entreprises
 
@@ -64,7 +102,7 @@ Cette mise à jour affecte :
 
 ### Mises à jour de l’interface pour la zone Gravités dans la configuration
 
-**Version préliminaire : 25 septembre 2025 ; Version de production : à annoncer**
+**Version préliminaire : 25 septembre 2025 ; Version de production : à partir de la semaine du 23 octobre 2025**
 
 Nous avons mis à jour la page Gravités avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -76,7 +114,7 @@ Pour plus d&#39;informations, voir [Créer ou personnaliser la gravité des prob
 
 ### Mises à jour de l’interface pour la zone Priorités dans la configuration
 
-**Version préliminaire : 25 septembre 2025 ; Version de production : à annoncer**
+**Version préliminaire : 25 septembre 2025 ; Version de production : à partir de la semaine du 23 octobre 2025**
 
 Nous avons mis à jour la page Priorités avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -209,7 +247,11 @@ Nous avons mis à jour la page Mise à jour des utilisateurs pour l’authentifi
 
 Pour afficher cette modification, accédez à Configuration > Système > Mettre à jour les utilisateurs pour SSO
 
++++
+
 ## Portefeuilles
+
++++Développez pour afficher les mises à jour de l’interface de Portfolio effectuées au 4e trimestre
 
 ### Mises à jour de l’interface pour la modification des portfolios
 
@@ -224,7 +266,11 @@ Nous avons introduit des mises à jour d’interface lors de la modification de 
 
 Pour plus d’informations, voir [Modifier des portefeuilles](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
++++
+
 ## Programmes
+
++++Développez pour afficher les mises à jour de l’interface du programme effectuées au 4e trimestre.
 
 ### Mises à jour de l’interface vers la zone Modifier le programme
 
@@ -234,7 +280,11 @@ Nous avons mis à jour l’aspect de la zone Modifier le programme pour qu’ell
 
 Pour plus d’informations, voir [Modifier des programmes](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md).
 
++++
+
 ## Projets
+
++++Développez pour afficher les mises à jour de l’interface du projet effectuées au 4e trimestre.
 
 ### Mises à jour de l’interface pour les taux de facturation
 
@@ -436,7 +486,11 @@ Nous avons mis à jour la boîte de dialogue pour l’ajout d’une nouvelle dé
 
 Pour plus d’informations, voir [Gérer les dépenses des projets](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
++++
+
 ## Modèles
+
++++Développez pour afficher les mises à jour de l’interface des modèles effectuées au 4e trimestre.
 
 ### Mises à jour de l’interface pour la liste Personnes d’un modèle
 
@@ -482,8 +536,12 @@ Pour plus d’informations, voir
 * [Créer des groupes de sujets](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Créer des règles de transmission](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
++++
+
 
 ## Utilisateurs et utilisatrices
+
++++Développez pour afficher les mises à jour de l’interface utilisateur effectuées au 4e trimestre.
 
 ### Mises à jour de l’interface pour la page Détails de l’utilisateur
 
@@ -528,6 +586,8 @@ Nous avons mis à jour la boîte de dialogue pour importer de nouveaux utilisate
 Pour afficher cette modification, accédez à Utilisateurs > Nouvel utilisateur > Importer utilisateurs.
 
 Pour plus d’informations, voir [Importer des utilisateurs](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
++++
 
 ## Mises à jour des interfaces effectuées au 3ème trimestre
 
@@ -661,7 +721,7 @@ Pour plus d’informations, voir [Configurer les informations de base de votre s
 
 Nous avons mis à jour la page Importer des données (Kick-Starts) dans la zone Configuration avec une conception plus moderne et cohérente avec les autres zones de Workfront. En outre, le processus d’importation Kickstart a été simplifié afin que le fichier sélectionné soit chargé immédiatement. Il n’est plus nécessaire de cliquer sur un bouton **Charger** distinct pour terminer l’importation après avoir choisi le fichier.
 
-Pour plus d’informations, voir [&#x200B; Importer des données dans Workfront à l’aide d’un modèle Kickstart &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Pour plus d’informations, voir [ Importer des données dans Workfront à l’aide d’un modèle Kickstart ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Mises à jour de l&#39;interface de la liste des types de dépenses
 
@@ -816,7 +876,7 @@ Pour plus d’informations, voir [Créer et modifier des risques dans les projet
 
 Nous avons mis à jour l’aspect de la zone Copier le modèle pour qu’elle corresponde à la conception d’autres zones de Workfront.
 
-Pour plus d’informations, voir [&#x200B; Copier un modèle de projet &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+Pour plus d’informations, voir [ Copier un modèle de projet ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
 
 +++

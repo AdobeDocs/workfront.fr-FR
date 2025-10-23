@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 144d11dfae949e11d86750e59951038ecabc13ab
+source-git-commit: f468c1a7a99e057f4bc392bf8197ec8bedfa3e96
 workflow-type: tm+mt
-source-wordcount: '13471'
+source-wordcount: '13485'
 ht-degree: 84%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 84%
       * [Vue d’ensemble des versions de produit](product-announcements/product-releases/product-releases.md)
       * [Calendrier des versions d’Adobe Workfront et processus](product-announcements/product-releases/workfront-release-schedule.md)
       * [Préparation pour une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+      * Version Du 1Er Trimestre 2026 {#release-26-q1}
+         * [Vue d’ensemble de la version du premier trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
       * Version Du T4 2025 {#release-25-q4}
          * [Vue d’ensemble de la version du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
          * [Améliorations apportées à l’administration du quatrième trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)
@@ -2507,8 +2509,9 @@ ht-degree: 84%
       * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
-      * [Nouveautés de l’API version 20](wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
+      * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
