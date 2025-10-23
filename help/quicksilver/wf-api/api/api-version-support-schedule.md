@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 3bb51eacc60d3c04885e2fcd23cacef805ff27ba
+source-git-commit: cccef57d9a83fa138282200d85c2851570a4b9b1
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 75%
+source-wordcount: '448'
+ht-degree: 76%
 
 ---
 
@@ -37,6 +37,12 @@ Le tableau suivant présente le planning de publication et d’assistance pour l
   </tr> 
  </thead> 
  <tbody> 
+ <tr>
+   <td>21</td> 
+   <td> <p>vendredi 23 octobre 2025</p> </td> 
+   <td> <p>** au cours de l’année 2028</p> <p>(avec la version 28.10)</p> </td> 
+   <td></td> 
+  </tr> 
  <tr>
    <td>20</td> 
    <td> <p>lundi 4 mai 2025</p> </td> 
