@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: f6f3df61286a360324963c872718be224a7ab413
 workflow-type: tm+mt
-source-wordcount: '2739'
-ht-degree: 73%
+source-wordcount: '3054'
+ht-degree: 67%
 
 ---
 
@@ -92,7 +92,7 @@ Pour créer, interroger ou supprimer un abonnement à un événement, l’utilis
 
 ## Éviter de surcharger les abonnements aux événements
 
-Le service d’abonnement aux événements est conçu pour fournir une diffusion fiable des événements à tous les utilisateurs. Pour ce faire, des mesures de protection ont été mises en place pour éviter une production excessive d’événements par un seul utilisateur, ce qui pourrait entraîner des problèmes potentiels de qualité de service pour tous les utilisateurs. Par conséquent, un utilisateur ou une utilisatrice qui produit trop d’événements à un taux élevé sur une courte période peut faire l’objet de sandbox et de retards de diffusion d’événements.
+Le service d’abonnement aux événements est conçu pour fournir une diffusion fiable des événements à tous les utilisateurs. Pour ce faire, des mesures de protection ont été mises en place pour éviter une production excessive d’événements par une seule personne, qui pourrait entraîner des problèmes de qualité de service pour tout le monde. Par conséquent, un utilisateur ou une utilisatrice qui produit trop d’événements à un taux élevé sur une courte période peut faire l’objet de mise en sandbox et de retards de diffusion d’événements.
 
 ## Créer la ressource d’abonnement
 
@@ -816,7 +816,7 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 >[!NOTE]
 >
 >L’abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur `oldState`, ce qu’il était avant qu’une mise à jour ne soit effectuée sur la tâche.
->&#x200B;>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
+>>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
 
 ```
 {
@@ -904,6 +904,86 @@ Le champ `filterConnector` sur le payload de l’abonnement vous permet de chois
     "filterConnector": "AND"
 }
 ```
+
+### Utilisation de groupes de filtres
+
+Les groupes de filtres vous permettent de créer des conditions logiques (ET/OU) imbriquées dans vos filtres d’abonnement aux événements.
+
+Chaque groupe de filtres peut présenter les caractéristiques suivantes :
+
+* Son propre connecteur (AND ou OR).
+* Plusieurs filtres, chacun respectant la même syntaxe et le même comportement que les filtres autonomes.
+
+>[!IMPORTANT]
+>
+>Un groupe doit comporter au moins 2 filtres.
+
+
+Tous les filtres d’un groupe prennent en charge les éléments suivants :
+
+* Opérateurs de comparaison : eq, ne, gt, gte, lt, lte, contains, notContains, containsOnly, changed.
+* Options d’état : newState, oldState.
+* Ciblage du champ : tout nom de champ d’objet valide.
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+L’exemple ci-dessus contient les composants suivants :
+
+1. Le filtre de niveau supérieur (hors du groupe) :
+   * { « fieldName »: « percentComplete », « fieldValue »: « 100 », « comparaison »: « lt » }
+   * Ce filtre vérifie si le champ percentComplete de la tâche mise à jour est inférieur à 100.
+
+1. Groupe de filtres (filtres imbriqués avec OU) :
+   * { « type »: « group », « connector »: « OR », « filters »: [{ « fieldName »: « status », « fieldValue »: « CUR », « comparaison »: « eq » }, { « fieldName »: « priority », « fieldValue »: « 1 », « comparaison »: « eq » }] }
+   * Ce groupe évalue deux filtres internes :
+      * Le premier vérifie si le statut de la tâche est « CUR » (current).
+      * La seconde vérifie si la priorité est égale à « 1 » (priorité élevée).
+   * Comme le connecteur est « OR », ce groupe transmet si l’une des conditions est vraie.
+
+1. Connecteur de niveau supérieur (filterConnector : AND) :
+   * Le connecteur le plus à l’extérieur entre les filtres de niveau supérieur est « AND ». Cela signifie que le filtre de niveau supérieur et le groupe doivent transmettre pour que l’événement corresponde.
+
+1. L’abonnement se déclenche lorsque les conditions suivantes sont remplies :
+   * Le pourcentage d&#39;achèvement est inférieur à 100.
+   * Soit le statut est « CUR », soit la priorité est égale à « 1 ».
+
+>[!NOTE]
+>
+>Des limites sont en place pour garantir des performances système cohérentes lors de l’utilisation de groupes de filtres, notamment les suivantes :<br>
+>* Chaque abonnement prend en charge jusqu’à dix groupes de filtres (chaque groupe contenant plusieurs filtres).
+>* Chaque groupe de filtres peut inclure jusqu’à 5 filtres pour éviter une dégradation potentielle des performances lors du traitement des événements.
+>* Bien qu’il soit pris en charge d’avoir jusqu’à 10 groupes de filtres (chacun avec 5 filtres), un grand nombre d’abonnements actifs avec une logique de filtre complexe peut entraîner un retard lors de l’évaluation des événements.
 
 ## Supprimer des abonnements aux événements
 
