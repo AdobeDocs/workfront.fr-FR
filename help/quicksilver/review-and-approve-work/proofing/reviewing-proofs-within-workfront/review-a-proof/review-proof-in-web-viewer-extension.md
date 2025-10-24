@@ -6,10 +6,10 @@ description: L’outil de révision Adobe Workfront est une extension de navigat
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
+source-git-commit: 78d9e8e47f8f6777f9211d8f85a3dfbc9405d798
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 1%
+source-wordcount: '607'
+ht-degree: 2%
 
 ---
 
@@ -27,21 +27,24 @@ L’outil de révision Adobe Workfront est une extension de navigateur web qui v
 * Edge
 * Safari
 
-## Installation de l’extension
+## Installation l’extension
 
 ### Conditions préalables
 
 * Vous devez supprimer l’ancienne extension Visionneuse web pour utiliser l’outil Adobe Workfront Review.
 
-### Installation de l’extension
+### Installation l’extension
 
 Les réviseurs et approbateurs doivent installer l’outil de révision Adobe Workfront. dans l’un des navigateurs suivants :
 
-* [Extension Firefox &#x200B;](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+* [Extension Firefox ](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
 * [Extension Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
 * [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+* [Extension Safari ](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
+
 
 
 Pour que les épreuves interactives s’ouvrent automatiquement dans l’outil de révision Adobe Workfront, un administrateur Workfront doit mettre à jour les paramètres de relecture dans Workfront, comme décrit dans les sections ci-dessous.
