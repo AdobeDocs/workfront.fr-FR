@@ -37,13 +37,13 @@ L’outil de révision Adobe Workfront est une extension de navigateur web qui v
 
 Les réviseurs et approbateurs doivent installer l’outil de révision Adobe Workfront. dans l’un des navigateurs suivants :
 
-* [Extension Firefox ](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+* [Extension Firefox &#x200B;](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
 * [Extension Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
 * [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
 
-* [Extension Safari ](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
+* [Extension Safari &#x200B;](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
 
 
 
