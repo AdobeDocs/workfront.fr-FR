@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f6f3df61286a360324963c872718be224a7ab413
+source-git-commit: 35fbf2f5792edb844264b15e298411819c0f5081
 workflow-type: tm+mt
 source-wordcount: '3054'
 ht-degree: 67%
@@ -816,7 +816,7 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 >[!NOTE]
 >
 >L’abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur `oldState`, ce qu’il était avant qu’une mise à jour ne soit effectuée sur la tâche.
->&#x200B;>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
+>>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
 
 ```
 {
@@ -961,6 +961,7 @@ Tous les filtres d’un groupe prennent en charge les éléments suivants :
 L’exemple ci-dessus contient les composants suivants :
 
 1. Le filtre de niveau supérieur (hors du groupe) :
+
    * { « fieldName »: « percentComplete », « fieldValue »: « 100 », « comparaison »: « lt » }
    * Ce filtre vérifie si le champ percentComplete de la tâche mise à jour est inférieur à 100.
 
