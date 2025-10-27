@@ -49,7 +49,7 @@ Les objets dans Workfront (et, par conséquent, dans votre lac de données Data 
 >[!IMPORTANT]
 >
 >Le diagramme de relation d’entité (ERD) fourni est délibérément incomplet, car un ERD complet deviendrait illisible en raison du nombre élevé de relations dans l’application.<br>
->>Ce diagramme fournit un exemple de la manière dont les relations documentées dans le tableau Projet de la section [Tableau de terminologie](#terminology-table) ci-dessous peuvent être utilisées pour joindre des données de la vue de données Projet à des objets adjacents. Un ERD complet n’est pas nécessaire une fois que ce modèle est compris pour les relations d’objet du projet
+>&#x200B;>Ce diagramme fournit un exemple de la manière dont les relations documentées dans le tableau Projet de la section [Tableau de terminologie](#terminology-table) ci-dessous peuvent être utilisées pour joindre des données de la vue de données Projet à des objets adjacents. Un ERD complet n’est pas nécessaire une fois que ce modèle est compris pour les relations d’objet du projet
 
 ## Types de date
 
@@ -67,7 +67,7 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
 >[!NOTE]
 >
 >De nouveaux champs peuvent être ajoutés aux vues d’objet sans préavis pour prendre en charge l’évolution des besoins en données de l’application Workfront. Nous vous déconseillons d’utiliser des requêtes « SELECT » lorsque le destinataire des données en aval n’est pas prêt à gérer des colonnes supplémentaires au fur et à mesure de leur ajout.<br>
->>Si le changement de nom ou la suppression d’une colonne est nécessaire, nous vous avertirons à l’avance de ces modifications.
+>&#x200B;>Si le changement de nom ou la suppression d’une colonne est nécessaire, nous vous avertirons à l’avance de ces modifications.
 
 ### Niveau d’accès
 
