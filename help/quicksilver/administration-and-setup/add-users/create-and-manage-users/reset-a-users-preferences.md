@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 76%
+source-wordcount: '397'
+ht-degree: 74%
 
 ---
 
@@ -148,12 +148,8 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
 
 1. Appuyez sur **Entrée**.
 
-<div class="preview">
+1. <span class="preview">Pour réinitialiser toutes les préférences utilisateur, cliquez sur **Réinitialiser**.</span>
 
-1. Pour réinitialiser toutes les préférences utilisateur, cliquez sur **Réinitialiser**.
+   <span class="preview">Ou</span>
 
-   Ou
-
-   Pour réinitialiser uniquement les onglets personnalisés, cliquez sur **Réinitialiser la navigation de gauche**.
-
-</div>
+   <span class="preview">Pour réinitialiser le volet de navigation de gauche de l’utilisateur à la configuration du modèle de mise en page d’origine, cliquez sur **Réinitialiser le volet de navigation de gauche**.</span>
