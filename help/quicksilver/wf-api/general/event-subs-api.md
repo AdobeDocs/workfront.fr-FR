@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 987eea4d0ad7f8e30b944418836280728ee63812
+source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
 workflow-type: tm+mt
-source-wordcount: '3054'
-ht-degree: 67%
+source-wordcount: '3031'
+ht-degree: 68%
 
 ---
 
@@ -816,7 +816,7 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 >[!NOTE]
 >
 >L’abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur `oldState`, ce qu’il était avant qu’une mise à jour ne soit effectuée sur la tâche.
->&#x200B;>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
+>>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
 
 ```
 {
@@ -962,12 +962,14 @@ L’exemple ci-dessus contient les composants suivants :
 
 1. Le filtre de niveau supérieur (hors du groupe) :
 
-   * { « fieldName »: « percentComplete », « fieldValue »: « 100 », « comparaison »: « lt » }
+   * `{ "fieldName": "percentComplete", "fieldValue": "100", "comparison": "lt" }`
    * Ce filtre vérifie si le champ percentComplete de la tâche mise à jour est inférieur à 100.
 
 1. Groupe de filtres (filtres imbriqués avec OU) :
-   * { « type »: « group », « connector »: « OR », « filters »: [{ « fieldName »: « status », « fieldValue »: « CUR », « comparaison »: « eq » }, { « fieldName »: « priority », « fieldValue »: « 1 », « comparaison »: « eq » }] }
+
+   * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * Ce groupe évalue deux filtres internes :
+
       * Le premier vérifie si le statut de la tâche est « CUR » (current).
       * La seconde vérifie si la priorité est égale à « 1 » (priorité élevée).
    * Comme le connecteur est « OR », ce groupe transmet si l’une des conditions est vraie.
@@ -981,7 +983,8 @@ L’exemple ci-dessus contient les composants suivants :
 
 >[!NOTE]
 >
->Des limites sont en place pour garantir des performances système cohérentes lors de l’utilisation de groupes de filtres, notamment les suivantes :<br>
+>Des limites sont en place pour garantir des performances système cohérentes lors de l’utilisation de groupes de filtres, notamment les suivantes :
+>
 >* Chaque abonnement prend en charge jusqu’à dix groupes de filtres (chaque groupe contenant plusieurs filtres).
 >* Chaque groupe de filtres peut inclure jusqu’à 5 filtres pour éviter une dégradation potentielle des performances lors du traitement des événements.
 >* Bien qu’il soit pris en charge d’avoir jusqu’à 10 groupes de filtres (chacun avec 5 filtres), un grand nombre d’abonnements actifs avec une logique de filtre complexe peut entraîner un retard lors de l’évaluation des événements.
