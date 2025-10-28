@@ -6,14 +6,14 @@ description: Adobe Workfront a publié la verison 21 de l’API le vendredi 23
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: d72c5b4337ea04dbfef4622908824a0bd138b551
+source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 84%
 
 ---
 
-# Nouveautés de la version 20 de l’API
+# Nouveautés de la version 21 de l’API
 
 Adobe Workfront a publié la verison 21 de l’API le vendredi 23 octobre 2025. La version 21 de l’API présente les changements suivants par rapport à la version 20.
 
