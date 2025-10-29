@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 40%
+source-wordcount: '1181'
+ht-degree: 39%
 
 ---
 
@@ -171,8 +171,13 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * Bien que certains éléments de vue puissent être appliqués à plusieurs vues pour le même enregistrement, ils sont propres à chaque vue d’enregistrement :
 
    * Filtre
+   * Tri (pour la vue Tableau)
+   * Couleurs des lignes (pour la vue Tableau)
+   * Champs (pour la vue Tableau)
+   * Répartition (pour la vue Chronologie)
    * Regroupement (pour les vues Tableau et Chronologie)
    * Apparence des barres (pour les vues Chronologie et Calendrier)
+   * Hauteur de ligne (pour le tableau et la vue Calendrier mensuelle)
 
   Par exemple, lors de la création d’un filtre dans une vue Tableau, les résultats du filtre sont visibles uniquement dans la vue sélectionnée (vue Tableau) et pas dans toutes les vues associées au type d’enregistrement.
 
@@ -212,6 +217,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 | Exporter les informations d’une vue | ✓ |               |    |
 | Afficher en plein écran | ✓ | ✓ | ✓ |
 | Créer des enregistrements dans la vue | ✓ | ✓ | ✓ |
+| Répartir les enregistrements en fonction de leurs connexions |          | ✓ |    |
 
 ## Créer ou modifier des vues {#create-or-edit-views}
 

@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 91%
+source-wordcount: '1465'
+ht-degree: 87%
 
 ---
 
 # Attribuer des problèmes
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
 
 <!--
 <div class="preview"> 
@@ -116,7 +116,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 </div>
 -->
 
-## Affecter un seul problème
+## Attribuer un seul événement dans l’en-tête de l’événement
 
 1. Accédez au problème que vous souhaitez affecter.
 1. Cliquez sur **Affecter à** dans le coin supérieur droit de l’en-tête du problème, dans la zones **Affectations**.
@@ -155,9 +155,9 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 1. Cliquez sur **Enregistrer** pour terminer l’affectation du problème.
 1. (Facultatif) Cliquez sur l’**icône X** en regard du nom des affectations dans la zone Affectations de l’en-tête du problème pour supprimer une affectation.
 
-## Affecter un problème dans une liste
+## Attribuer un événement en le modifiant sur la ligne dans une liste
 
-Vous pouvez affecter des problèmes dans une liste ou un rapport lorsque l’un des champs d’affectation est visible dans la vue de la liste. Il s’agit de la méthode d’affectation de problèmes la plus rapide.
+Vous pouvez affecter des problèmes dans une liste ou un rapport lorsque l’un des champs d’affectation est visible dans la vue de la liste. Il s’agit d’une méthode plus rapide pour attribuer des problèmes.
 
 Selon le champ visible dans la vue, vous pouvez affecter les entités suivantes au problème :
 
@@ -195,6 +195,12 @@ Pour affecter des problèmes dans une liste :
    >Vous ne pouvez pas créer d’affectations avancées à partir des champs Affecté à ou Affecté.
 
 1. Après avoir ajouté les personnes désignées au problème, appuyez sur la touche Entrée ou cliquez n’importe où sur la page pour enregistrer vos modifications.
+
+## Attribuer un événement dans la zone Modifier l&#39;événement
+
+Vous pouvez affecter un événement lors de sa modification dans la zone Modifier l&#39;événement .
+
+Pour plus d’informations, consultez la section « Affectations » de l’article [Modifier les événements](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 ## Affecter des problèmes en bloc
 
