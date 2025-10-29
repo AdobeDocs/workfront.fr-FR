@@ -6,10 +6,10 @@ description: Adobe Workfront a publié la verison 21 de l’API le vendredi 23
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
+source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 84%
+source-wordcount: '833'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Workfront a publié la verison 21 de l’API le vendredi 23 octobre 2025
 
 ## Ressources ajoutées
 
-### StaffingPlanTemplate (SPTMPL)
+### OriginalRequest (ORGREQ)
 
 <table>
   <col/>
@@ -29,8 +29,10 @@ Adobe Workfront a publié la verison 21 de l’API le vendredi 23 octobre 2025
       <td role="rowheader">Champs directs</td>
       <td>
         <ul>
+          <li>entryDate</li>
           <li>ID</li>
-          <li>name</li>
+          <li>requestID</li>
+          <li>requestName</li>
         </ul>
       </td>
     </tr>
@@ -39,17 +41,45 @@ Adobe Workfront a publié la verison 21 de l’API le vendredi 23 octobre 2025
       <td>
         <ul>
           <li>ID</li>
+          <li>objCode</li>
+        </ul>
+      </td>
+ </tbody>
+</table>
+
+<!--
+
+### StaffingPlanTemplate (SPTMPL)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
+          <li>name</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
           <li>name</li>
           <li>objCode</li>
         </ul>
       </td>
    <tr>
-      <td role="rowheader">Opérations</td>
+      <td role="rowheader">Operations</td>
       <td>
         <ul>
           <li>ADD</li>
           <li>COUNT</li>
-          <li>SUPPRIMER</li>
+          <li>DELETE</li>
           <li>EDIT</li>
           <li>GET</li>
           <li>REPORT</li>
@@ -60,6 +90,8 @@ Adobe Workfront a publié la verison 21 de l’API le vendredi 23 octobre 2025
     </tr>
  </tbody>
 </table>
+
+-->
 
 ## Ressources supprimées
 
@@ -710,30 +742,32 @@ Un objet ScoreCardQuestion représente une question qui a été ajoutée à une 
  </tbody>
 </table>
 
-### Plan de dotation en personnel
+<!--
+
+### StaffingPlan
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Champs directs</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>Ajouté(e)(s)</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>Ajouté(e)(s)</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>Ajouté(e)(s)</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -741,6 +775,10 @@ Un objet ScoreCardQuestion représente une question qui a été ajoutée à une 
     </tr>
   </tbody>
 </table>
+
+-->
+
+<!--
 
 ### StaffingPlanResource
 
@@ -749,23 +787,23 @@ Un objet ScoreCardQuestion représente une question qui a été ajoutée à une 
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Champs directs</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>Ajouté(e)(s)</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>Ajouté(e)(s)</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>Ajouté(e)(s)</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -773,6 +811,8 @@ Un objet ScoreCardQuestion représente une question qui a été ajoutée à une 
     </tr>
   </tbody>
 </table>
+
+-->
 
 ### Tâche (TASK)
 
