@@ -23,8 +23,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >[!NOTE]
 >
 >Aperçu : 30 octobre 2025
->>Version rapide de production : 13 novembre 2025
->>Production pour tous : 15 janvier 2026
+>&#x200B;>Version rapide de production : 13 novembre 2025
+>&#x200B;>Production pour tous : 15 janvier 2026
 
 Les champs qui autorisent plusieurs sélections, tels que les cases à cocher et les listes déroulantes à sélection multiple, sont désormais limités à 5 000 sélections lorsqu’un utilisateur remplit le formulaire.
 

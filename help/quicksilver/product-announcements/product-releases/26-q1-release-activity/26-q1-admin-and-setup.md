@@ -23,8 +23,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >[!NOTE]
 >
 >Aperçu : 30 octobre 2025
->>Version rapide de production : 13 novembre 2025
->>Production pour tous : 15 janvier 2026
+>&#x200B;>Version rapide de production : 13 novembre 2025
+>&#x200B;>Production pour tous : 15 janvier 2026
 
 Pour plus de cohérence avec d’autres zones de la configuration telles que le concepteur de formulaire personnalisé, les boutons affichés lors de la modification d’un modèle de mise en page ont été modifiés en **Appliquer**, **Enregistrer et fermer** et **Annuler**. La nouvelle option, **Appliquer**, vous permet d’enregistrer vos modifications dans le modèle de mise en page et de continuer la modification. Auparavant, les options disponibles étaient **Enregistrer** et **Annuler**.
 
@@ -36,8 +36,8 @@ Pour plus d’informations, voir [Créer et gérer des modèles de mise en page]
 >[!NOTE]
 >
 >Aperçu : 30 octobre 2025
->>Version rapide de production : 13 novembre 2025
->>Production pour tous : 15 janvier 2026
+>&#x200B;>Version rapide de production : 13 novembre 2025
+>&#x200B;>Production pour tous : 15 janvier 2026
 
 Lorsque le système comporte un grand nombre de champs personnalisés, la gestion de ces champs dans les formulaires et les rapports personnalisés peut s’avérer difficile. Vous pouvez désormais marquer les champs personnalisés comme inactifs avec le nouvel indicateur **Actif**. Cet indicateur est disponible lors de l’utilisation d’un champ dans un formulaire personnalisé ou lors de l’ajout ou de la modification d’un champ de la liste Champs .
 
