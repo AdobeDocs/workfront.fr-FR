@@ -6,14 +6,16 @@ description: Adobe Workfront a publié la verison 21 de l’API le vendredi 23
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
+source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '893'
 ht-degree: 85%
 
 ---
 
 # Nouveautés de la version 21 de l’API
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Adobe Workfront a publié la verison 21 de l’API le vendredi 23 octobre 2025. La version 21 de l’API présente les changements suivants par rapport à la version 20.
 
@@ -673,6 +675,42 @@ Un objet Rate représente un taux de facturation dans Workfront.
     </tr>
   </tbody>
 </table>
+
+### Rôle (ROLE)
+
+Un objet Rôle (fonction) représente une capacité fonctionnelle ou un ensemble de compétences qu’un utilisateur ou une utilisateur peut remplir, tel que Designer ou Chef ou Cheffe de produits.
+
+<div class="preview">
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Champs directs</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>Remplacer la devise</b>
+            </p>
+            <p>Supprimés</p>
+              </li>
+          <li>
+            <p><b>Remplacer le taux de coût</b>
+            </p>
+            <p>Supprimés</p>
+              </li>
+          <li>
+            <p><b>Remplacer le taux de facturation</b>
+            </p>
+            <p>Supprimés</p>
+              </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ### Rapport planifié (SCHREP)
 
