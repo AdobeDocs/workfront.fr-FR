@@ -7,14 +7,16 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: 53269f4932a752a833df8e41891706934214e062
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 86%
+source-wordcount: '1062'
+ht-degree: 84%
 
 ---
 
 # Modifier les informations dans les champs des formulaire personnalisés
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -124,6 +126,10 @@ La modification des informations sur un formulaire personnalisé joint à un obj
    * Vous pouvez sélectionner une ou plusieurs options dans un champ déroulant à sélection multiple, en fonction de la manière dont le créateur ou la créatrice du formulaire a configuré le champ.
    * Vous ne pouvez formater les champs de texte (gras, italique ou souligné) que si la personne qui a créé le formulaire les a configurés en tant que type de champ Champ de texte avec formatage. Les types Champs de texte à ligne simple et Champs de texte de paragraphe ne peuvent pas être formatés.
    * Vous pouvez mettre à jour l’heure dans un champ de type de champ Date uniquement si la personne qui a créé le formulaire l’a indiqué lors de la création du champ.
+
+   >[!NOTE]
+   >
+   ><span class="preview">Les champs qui autorisent plusieurs sélections peuvent limiter le nombre d’options que vous pouvez choisir. Les cases à cocher et les listes déroulantes à sélection multiple sont limitées à 5 000 sélections.</span>
 
    Pour plus d’informations sur tous les types de champ, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
