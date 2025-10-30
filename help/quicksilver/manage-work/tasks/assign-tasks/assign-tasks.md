@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 94%
+source-wordcount: '1829'
+ht-degree: 93%
 
 ---
 
 # Attribuer des tâches
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -175,7 +175,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. Cliquer sur **Enregistrer**.
 1. (Facultatif et le cas échéant) Cliquez sur l’**icône X** à côté du nom de l’affectation dans le panneau de droite de la tâche pour supprimer une affectation, si vous avez cliqué sur **Avancé**.
 
-## Affecter une tâche dans une liste
+## Affectation d’une tâche dans une liste lors de sa modification sur la ligne
 
 Vous pouvez affecter des tâches dans une liste ou un rapport lorsque l’un des champs d’affectation est visible dans la vue de la liste. C’est un moyen plus rapide d’affecter des tâches. Cet article décrit comment modifier des affectations pour une tâche dans une liste. Pour plus d’informations sur la modification de plusieurs affectations pour plusieurs tâches dans une liste, consultez la section [Modifier plusieurs affectations d’utilisateurs et d’utilisatrices dans une liste de tâches](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
@@ -224,7 +224,7 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 
 1. Après avoir ajouté les personnes cessionnaires à la tâche, appuyez sur Entrée ou cliquez n’importe où sur la page pour enregistrer vos modifications si vous avez sélectionné Enregistrement automatique. Sinon, cliquez sur **Enregistrer**.
 
-## Affecter plusieurs tâches à une personne
+## Affectation en bloc de plusieurs tâches à un utilisateur à partir d’une liste
 
 <!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
 
