@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 63%
+source-wordcount: '629'
+ht-degree: 65%
 
 ---
 
 # Créer ou personnaliser la gravité des problèmes
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement d’aperçu de Sandbox et est publiée dans le cadre d’un déploiement échelonné en production.
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -97,7 +95,7 @@ En tant qu’administrateur ou administratrice de Workfront, vous pouvez créer 
 
 1. Dans le panneau de gauche, cliquez sur **Préférences du projet** > **Gravités**.
 
-1. Si vous créez une nouvelle gravité, cliquez sur <span class="preview">**Nouvelle ligne** au bas du tableau</span> ou **Ajouter une nouvelle gravité**.
+1. Si vous créez une gravité, cliquez sur **Nouvelle ligne** au bas du tableau.
 1. Configurez les options suivantes pour la nouvelle gravité ou modifiez-les pour une gravité existante :
 
    * **Nom de la gravité** : saisissez un nom pour la gravité.
@@ -117,8 +115,6 @@ En tant qu’administrateur ou administratrice de Workfront, vous pouvez créer 
 
      Vous ne pouvez pas définir une gravité masquée comme gravité par défaut.
 
-     <div class="preview">
-
      La gravité par défaut est indiquée par une icône ![Icône de gravité par défaut](assets/default-icon.png). Pour choisir une nouvelle valeur par défaut, effectuez l’une des opérations suivantes :
 
       * Cochez la case en regard du nom de la gravité et sélectionnez **Rendre par défaut** dans la barre d’actions située en bas de l’écran.
@@ -126,10 +122,8 @@ En tant qu’administrateur ou administratrice de Workfront, vous pouvez créer 
 
         La nouvelle gravité par défaut est étiquetée avec l’icône .
 
-     </div>
-
    * **Description** : saisissez une description de la gravité pour expliquer sa fonction.
-   * <span class="preview">**Masquer le choix**</span> ou **Masquer** : <span class="preview">Sélectionnez **Oui**</span> ou cochez la case pour masquer une gravité qui n’est plus nécessaire.
+   * **Masquer le choix** : sélectionnez **Oui** pour masquer une gravité qui n’est plus nécessaire.
 
      Une gravité masquée ne s’affiche nulle part dans Workfront, de sorte que les utilisateurs et utilisatrices ne peuvent pas la choisir pour leurs problèmes.
 

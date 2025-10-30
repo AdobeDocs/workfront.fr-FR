@@ -5,16 +5,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 44%
+source-wordcount: '725'
+ht-degree: 45%
 
 ---
 
 # Créer et personnaliser les priorités
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement d’aperçu de Sandbox et est publiée dans le cadre d’un déploiement échelonné en production.</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -99,7 +97,7 @@ En plus des priorités par défaut fournies dans Workfront, vous pouvez ajouter 
 1. Dans le panneau de gauche, cliquez sur **Préferences du projet** > **Priorités**.
 
 1. Cliquez sur l’onglet correspondant au type d’objet pour lequel vous souhaitez créer une priorité (**Projet**, **Tâche** ou **Problème**).
-1. Cliquez sur <span class="preview">**Nouvelle ligne** au bas du tableau</span> ou **Ajouter une nouvelle priorité**.
+1. Cliquez sur **Nouvelle ligne** au bas du tableau.
 1. Configurez les options suivantes pour la priorité :
 
    * **Nom de la priorité** : saisissez un nom pour la priorité.
@@ -119,8 +117,6 @@ En plus des priorités par défaut fournies dans Workfront, vous pouvez ajouter 
 
      Vous ne pouvez pas définir une priorité masquée comme priorité par défaut.
 
-     <div class="preview">
-
      La priorité par défaut est indiquée par une icône ![Icône de priorité par défaut](assets/default-icon.png). Pour choisir une nouvelle valeur par défaut, effectuez l’une des opérations suivantes :
 
       * Cochez la case en regard du nom de la priorité et sélectionnez **Rendre par défaut** dans la barre d’actions située en bas de l’écran.
@@ -128,10 +124,8 @@ En plus des priorités par défaut fournies dans Workfront, vous pouvez ajouter 
 
         La nouvelle priorité par défaut est étiquetée avec l’icône .
 
-     </div>
-
    * **Description** : saisissez une description de la priorité pour expliquer sa fonction.
-   * <span class="preview">**Masquer le choix**</span> ou **Masquer** : <span class="preview">Sélectionnez **Oui**</span> ou cochez la case pour masquer une priorité qui n’est plus nécessaire.
+   * **Masquer le choix** : sélectionnez **Oui** pour masquer une priorité qui n’est plus nécessaire.
 
      Une priorité masquée ne s’affiche nulle part dans Workfront. Les utilisateurs ne peuvent donc pas la choisir pour leurs projets, tâches ou événements.
 
