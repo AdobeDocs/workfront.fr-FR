@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 55%
+source-wordcount: '806'
+ht-degree: 53%
 
 ---
 
@@ -19,10 +19,7 @@ ht-degree: 55%
 
 <!--Audited: 11/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
-
+{{preview-fast-release-general}}
 
 Vous pouvez utiliser un modèle de mise en page pour configurer ce que les utilisateurs voient dans le panneau Résumé lorsqu’ils cliquent sur une tâche ou un événement. Chaque configuration effectuée à l’aide des étapes ci-dessous affecte le panneau Résumé . Ces personnalisations ne s’appliquent pas au panneau Résumé du document.
 
@@ -171,10 +168,20 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     </tbody> 
    </table>
 
-1. Poursuivez la personnalisation du modèle de mise en page.
+1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
+
+1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
 
    Ou
 
-   Si vous avez terminé de personnaliser, cliquez sur **Enregistrer**.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
+
+   >[!TIP]
+   >
+   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
 
 Pour plus d’informations sur les modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

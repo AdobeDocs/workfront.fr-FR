@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 95%
+source-wordcount: '548'
+ht-degree: 86%
 
 ---
 
 # Personnaliser les en-têtes d’objet avec un modèle de mise en page
+
+{{preview-fast-release-general}}
 
 En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, vous pouvez utiliser un modèle de mise en page pour configurer les champs que les personnes voient dans l’en-tête de l’objet lorsqu’elles ouvrent la page d’un objet.
 
@@ -95,14 +97,20 @@ Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ av
    ![Ajouter un champ à l’en-tête](assets/add-field-to-header-in-lt-list.png)
 
 
-1. (Facultatif) Faites glisser et déposez les champs ajoutés dans un ordre différent.
+1. (Facultatif) Faites glisser et déposez les champs dans un ordre différent.
 
-1. Poursuivez la personnalisation du modèle de mise en page.
+1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
+
+1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
 
    Ou
 
-   Si vous avez terminé de personnaliser, cliquez sur **Enregistrer**.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
 
    >[!TIP]
    >
-   >Vous pouvez cliquer à tout moment sur Enregistrer pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
+   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 39b3ecde744625c070a5c4378938e297f50feeaa
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 66%
+source-wordcount: '695'
+ht-degree: 62%
 
 ---
 
 # Personnaliser le menu principal à l’aide d’un modèle de mise en page
+
+{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -131,7 +133,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Cliquez également sur **Annuler** à tout moment si vous souhaitez ignorer vos modifications.
 
-1. Poursuivez la personnalisation du modèle de mise en page.
+1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
+
+1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
 
    Ou
 

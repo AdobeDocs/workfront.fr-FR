@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 64%
+source-wordcount: '572'
+ht-degree: 59%
 
 ---
 
 # Personnaliser les pages épinglées à l’aide d’un modèle de mise en page
+
+{{preview-fast-release-general}}
 
 Dans un modèle de mise en page, vous pouvez épingler les pages que vous souhaitez que les utilisateurs et utilisatrices aient toujours à leur disposition en haut d’Adobe Workfront. Il peut s&#39;agir de pages accessibles via le menu principal ![icône du menu principal](assets/main-menu-icon.png) ou le menu principal ![icône du menu principal](assets/main-menu-icon-left-nav.png) le cas échéant, ou de tableaux de bord.
 
@@ -111,7 +113,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. (Facultatif) Pour supprimer une épingle, pointez sur l’épingle et cliquez sur l’icône du menu Plus ![icône Plus](assets/more-icon.png) à côté du nom de l’épingle, puis cliquez sur **Supprimer l’épingle**.
 
-1. Poursuivez la personnalisation du modèle de mise en page.
+1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
+
+1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
 
    Ou
 

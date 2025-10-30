@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1132'
 ht-degree: 50%
 
 ---
 
 # Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -237,12 +239,18 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >
    >Pour plus d’informations sur les tableaux de bord, voir [Tableaux de bord](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. Poursuivez la personnalisation du modèle de mise en page.
+1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
+
+1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
 
    Ou
 
-   Si vous avez terminé de personnaliser, cliquez sur **[!UICONTROL Enregistrer]**.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
 
    >[!TIP]
    >
-   >Vous pouvez cliquer à tout moment sur [!UICONTROL **Enregistrer**] pour enregistrer votre progression. L’éditeur de modèles de mise en page se ferme alors et vous pouvez continuer à modifier le modèle ultérieurement.
+   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.

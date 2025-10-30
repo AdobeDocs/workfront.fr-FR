@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 93%
+source-wordcount: '861'
+ht-degree: 91%
 
 ---
 
 # Affecter des utilisateurs et utilisatrices à un modèle de mise en page
+
+{{preview-fast-release-general}}
 
 Vous pouvez affecter un modèle de mise en page que vous avez créé à tout utilisateur ou utilisatrice, fonction, équipe ou groupe qui doit l’utiliser.
 
@@ -78,7 +80,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Vous pouvez affecter jusqu’à 100 personnes à la fois.
 
-1. Cliquez sur **Terminé**, puis sur **Enregistrer** dans le coin inférieur gauche.
+1. Cliquez sur **Terminé**, puis sur **Enregistrer** ou <span class="preview">**Enregistrer et fermer**</span> dans le coin inférieur gauche.
 
    Cette étape complète le processus de création et d’attribution d’un modèle de mise en page.
 

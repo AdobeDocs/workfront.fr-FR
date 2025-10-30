@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 93%
+source-wordcount: '659'
+ht-degree: 88%
 
 ---
 
 # Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de mise en page
+
+{{preview-fast-release-general}}
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour modifier les libellés de certains objets qui s’affichent dans Workfront afin de correspondre aux termes utilisés dans votre organisation.
 
@@ -137,7 +139,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >
    >Après avoir cliqué sur Terminé (et même après avoir enregistré votre modèle de mise en page), vous pouvez toujours revenir aux paramètres Définir la terminologie et cliquer sur Réinitialiser en regard des termes personnalisés pour les renvoyer à leur statut par défaut.
 
-1. Poursuivez la personnalisation du modèle de mise en page.
+1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
+
+1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
 
    Ou
 
