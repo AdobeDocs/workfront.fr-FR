@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 87%
+source-wordcount: '1731'
+ht-degree: 79%
 
 ---
 
@@ -18,15 +18,13 @@ ht-degree: 87%
 
 <!--Audited: 10/2024-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Vous pouvez affecter des problèmes aux utilisateurs et utilisatrices, aux rôles et aux équipes afin d’indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la [Vue d’ensemble de la modification des affectations de problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -204,10 +202,9 @@ Pour plus d’informations, consultez la section « Affectations » de l’artic
 
 ## Affecter des problèmes en bloc
 
-<!--
-Assigning issues in bulk is different depending on what environment you choose to do this. 
+L’affectation de problèmes en bloc est différente selon l’environnement que vous choisissez pour ce faire.
 
-### Assign issues in bulk in the Production environment -->
+### Affecter des problèmes en bloc dans l’environnement de production
 
 1. Accédez à la liste des problèmes que vous souhaitez affecter en bloc.
 1. Sélectionnez plusieurs problèmes dans la liste.
@@ -232,33 +229,32 @@ Assigning issues in bulk is different depending on what environment you choose t
 1. Cliquez sur **Enregistrer les modifications**.
 1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans votre liste de problèmes, cliquez dans l’une des colonnes de problème, puis cliquez sur l’**icône X** en regard du nom d’une personne cessionnaire pour la supprimer du problème.
 
-<!--
 <div class="preview">
 
-### Assign issues in bulk in the Preview environment
+### Affectation en bloc d’événements dans l’environnement de prévisualisation
 
-1. Go to a list of issues that you want to assign in bulk. 
-1. Select several issues in the list. 
-1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+1. Accédez à la liste des problèmes que vous souhaitez affecter en bloc.
+1. Sélectionnez plusieurs problèmes dans la liste.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png).
 
-   The **Edit Issues** dialog box opens.
+   La boîte de dialogue **Modifier les problèmes** s’ouvre.
 
-1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+1. Cliquez sur **Affectations** dans le panneau de gauche, et dans la zone **Affectations**, commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe dans le champ **Rechercher des personnes, des rôles ou des équipes**, puis cliquez dessus lorsqu’il s’affiche dans la liste
 
-   Or
+   Ou
 
-   Click **Assign to me** to assign the issues to yourself.
+   Cliquez sur **Me l’affecter** pour vous affecter les problèmes.
 
    >[!IMPORTANT]
    >
-   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
-   
-1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+   >Si l’un des problèmes est déjà affecté, les ressources que vous indiquez ici y sont ajoutées. Les ressources existantes ne sont pas remplacées sur les problèmes.
 
-1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+1. (Facultatif) Si vous souhaitez supprimer des personnes désignées existantes de tous les événements, cliquez sur le **x** en regard de leur nom.
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+1. (Facultatif) Mettez à jour le champ Heures prévues . Pour plus d’informations, voir [Modifier les événements](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+
+1. Cliquer sur **Enregistrer**.
+1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans votre liste de problèmes, cliquez dans l’une des colonnes de problème, puis cliquez sur l’**icône X** en regard du nom d’une personne cessionnaire pour la supprimer du problème.
 
 </div>
--->
+

@@ -6,14 +6,16 @@ description: Les demandes de projet s’affichent en tant que projets avec le st
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 96%
+ht-degree: 78%
 
 ---
 
 # Réviser des projets demandés
+
+<!--Audited: 10/2025-->
 
 Lorsque plusieurs demandes de projet sont soumises pour examen, le bureau de gestion de projets ou le comité du portfolio peut se réunir pour examiner les demandes envoyées et décider des approbations des demandes de projet. Les demandes de projet s’affichent en tant que projets avec le statut [!UICONTROL Demandé] dans [!DNL Adobe Workfront].
 
@@ -89,25 +91,25 @@ Vous pouvez examiner les projets demandés dans les zones suivantes d’[!DNL Ad
 
 Vous pouvez créer un rapport de projets afin d’afficher les projets dont le statut est [!UICONTROL Demandé].
 
-Pour plus d’informations sur l’approbation des demandes de projet en créant un rapport de projet, voir la section [[!UICONTROL Approuver le business case en créant un rapport de projet]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) dans [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Pour plus d’informations sur l’approbation des demandes de projet par la création d’un rapport de projet, consultez la section [[!UICONTROL Approuver l’analyse de rentabilité par la création d’un rapport de projet]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) dans [Approuver une analyse de rentabilité](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ## Vérifier les projets demandés dans un portfolio
 
 1. Accédez au portfolio dont vous souhaitez vérifier les projets demandés.
-1. Cliquez sur **[!UICONTROL Projets]** dans le panneau de gauche.
+1. Cliquez sur **[!UICONTROL Projets]** dans le panneau de gauche
 1. Dans le menu déroulant **[!UICONTROL Filtre]**, sélectionnez **[!UICONTROL Demandé]**.
 
    Seuls les projets dont le statut est **[!UICONTROL Demandé]** s’affichent dans la liste.
 
    >[!TIP]
    >
-   >En plus de disposer d’un statut **[!UICONTROL Demandé]**, les projets doivent être associés au portfolio sélectionné pour s’afficher dans cette liste.
+   > En plus d’avoir le statut **[!UICONTROL Demandé]**, les projets doivent être associés au Portfolio sélectionné pour s’afficher dans cette liste.
 
 1. Cliquez sur le nom d’un projet dans la liste pour l’ouvrir.
 1. Cliquez sur **[!UICONTROL Détails du projet]** dans le panneau de gauche.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur **[!UICONTROL Business case]**, puis sur **[!UICONTROL Approuver]** ou **[!UICONTROL Rejeter]** dans la zone [!UICONTROL Récapitulatif du business case] pour approuver ou rejeter le business case.
+   * Cliquez sur **[!UICONTROL Analyse de rentabilité]**, puis sur **[!UICONTROL Approuver]** ou **[!UICONTROL Rejeter]** dans la zone [!UICONTROL Résumé de l&#39;analyse de rentabilité] pour approuver ou rejeter l&#39;analyse de rentabilité.
 
      ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 
@@ -117,13 +119,13 @@ Pour plus d’informations sur l’approbation des demandes de projet en créant
 
      >[!NOTE]
      >
-     >L’utilisateur ou utilisatrice qui a soumis l’approbation du business case ne reçoit aucune notification si sa demande de projet a été approuvée ou rejetée.-
+     >L’utilisateur ou utilisatrice qui a soumis l’approbation du business case ne reçoit aucune notification si sa demande de projet a été approuvée ou rejetée.
 
      Ou
 
    * Remplacez le statut du projet par un autre statut dans le menu déroulant **[!UICONTROL Statut]**.
 
      ![Modifier le statut du projet dans la liste déroulante](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
- 
 
- 
+
+

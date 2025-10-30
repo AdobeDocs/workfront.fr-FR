@@ -6,7 +6,7 @@ description: Vous pouvez joindre un modèle à un projet pendant la phase de cr�
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 48%
@@ -15,7 +15,7 @@ ht-degree: 48%
 
 # Joindre un modèle à un projet
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 Vous pouvez joindre un modèle à un projet pendant la phase de création initiale du projet ou après sa création.
 
@@ -115,16 +115,15 @@ Vous pouvez joindre un modèle à un projet à partir de la page du projet, d’
 
 1. Sur la page **Projets**, sélectionnez le projet auquel vous souhaitez joindre un modèle.
 
-1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du projet.
+1. Cliquez sur l’icône **Plus** dans le menu déroulant ![Plus](assets/more-dropdown.png) à droite du nom du projet.
 
-   ![Liste déroulante supplémentaire](assets/more-dropdown.png)
+   ![icône Plus](assets/qs-more-icon-on-an-object.png)
 
    Ou
 
-   Accédez à une liste ou à un rapport de projet et sélectionnez un projet, puis cliquez sur l’icône **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png) en haut de la liste.
+   Accédez à une liste ou à un rapport de projet et sélectionnez un projet, puis cliquez sur l’icône **Plus** dans le menu déroulant ![Plus](assets/more-dropdown.png) en haut de la liste.
 
    ![Menu Plus développé](assets/more-menu-expanded.png)
-
 
 1. Cliquez sur **Joindre un modèle**. La zone **Joindre le modèle** s’affiche.
 

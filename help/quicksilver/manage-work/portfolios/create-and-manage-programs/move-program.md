@@ -6,7 +6,7 @@ description: Vous pouvez ajouter des programmes existants à un portfolio. Les p
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 53%
@@ -15,7 +15,7 @@ ht-degree: 53%
 
 # Ajouter un programme existant à un portfolio
 
-<!--Audited: 5/2025-->
+<!--Audited: 10/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -93,12 +93,12 @@ Vous pouvez ajouter des programmes existants à un portfolio. Les programmes ne 
    >
    >L’ajout d’un programme existant transfère tous les projets associés à ce programme dans le portfolio. Veillez à ne pas déplacer involontairement des projets de cette manière.
 
-1. Dans le champ **[!UICONTROL Ajouter des programmes à ce Portfolio]**, saisissez le nom d’un programme, puis sélectionnez-le lorsqu’il s’affiche dans la liste. <!--see the name of this field, I suggested changes here-->
+1. Dans le champ **[!UICONTROL Ajouter des programmes à ce portefeuille]**, saisissez le nom d&#39;un programme, puis sélectionnez-le lorsqu&#39;il s&#39;affiche dans la liste. <!--see the name of this field, I suggested changes here-->
 
    Vous pouvez ajouter plusieurs programmes.
 
 1. (Facultatif) Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) en regard du nom d’un programme si vous décidez de ne pas l’ajouter au portfolio.
 
-1. Cliquez sur **[!UICONTROL Ajouter des programmes]**. <!--check this button in the UI after they implemented the changes??-->
+1. Cliquez sur **[!UICONTROL Ajouter des programmes]**.
 
    Le programme s’affiche dans l’onglet **[!UICONTROL Programmes]** du portefeuille que vous avez sélectionné.

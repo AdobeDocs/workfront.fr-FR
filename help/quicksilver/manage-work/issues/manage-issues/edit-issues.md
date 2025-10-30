@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 87%
+source-wordcount: '2741'
+ht-degree: 82%
 
 ---
 
@@ -19,15 +19,13 @@ ht-degree: 87%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Vous pouvez modifier les informations sur les problèmes que vous avez créés ou que d’autres personnes ont créés si elles ont partagé les problèmes avec vous.
 
@@ -350,41 +348,45 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
    >* Réaffectez la tâche aux ressources actives.
    >* Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 
-   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
-   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+1. (Conditionnel) Selon l’environnement dans lequel vous modifiez des événements, effectuez l’une des opérations suivantes :
 
-1. Mettez à jour les champs suivants :
+   1. Dans l’environnement de production :
 
-   <table style="table-layout:auto"> 
-    <col> 
-    </col> 
-    <col> 
-    </col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Heures prévues</td> 
-      <td> <p>Il s’agit de la durée réelle nécessaire aux personnes cessionnaires du problème pour l’exécuter. Saisissez le nombre d’heures prévues pour le problème.<br></p> <p><b>NOTE</b></p>  <p>La modification des heures prévues de l'événement ne modifie pas la date d'achèvement prévue de l'événement. </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Rôle du cessionnaire</td> 
-      <td> <p>Sélectionnez un rôle dans le menu déroulant <strong>Rôle de la personne cessionnaire</strong> lorsque vous avez sélectionné une personne comme cessionnaire. Il s’agit du rôle que la personne cessionnaire peut remplir sur ce problème. </p> <p><b>CONSEIL</b>
+      1. Indiquez si une personne désignée est la personne désignée principale sur le problème, en pointant la souris sur son nom et en cliquant sur **Effectuer un Principal**. Une équipe ne peut pas être cessionnaire principale pour un problème.
 
-   Seules les fonctions associées à chaque personne cessionnaire dans son profil s’affichent dans le menu déroulant.</p> </td>
-   </tr> 
-    </tbody> 
-   </table>
+      1. Mettez à jour les champs suivants :
 
-   <!--
-   <div class="preview">
-   1. (Conditional) In the Preview environment, do one of the following:
-         * Click **Assign to me** to assign the issue to yourself
-      * Update the **Planned Hours** field.
-         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
-         >[!NOTE]
-         >
-         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
-   </div> -->
+         <table style="table-layout:auto"> 
+         <col> 
+         </col> 
+         <col> 
+         </col> 
+         <tbody> 
+         <tr> 
+            <td role="rowheader">Heures prévues</td> 
+            <td> <p>Il s’agit de la durée réelle nécessaire aux personnes cessionnaires du problème pour l’exécuter. Saisissez le nombre d’heures prévues pour le problème.<br></p> <p><b>NOTE</b></p>  <p>La modification des heures prévues de l'événement ne modifie pas la date d'achèvement prévue de l'événement. </p> </td> 
+         </tr> 
+         <tr data-mc-conditions=""> 
+            <td role="rowheader">Rôle du cessionnaire</td> 
+            <td> <p>Sélectionnez un rôle dans le menu déroulant <strong>Rôle de la personne cessionnaire</strong> lorsque vous avez sélectionné une personne comme cessionnaire. Il s’agit du rôle que la personne cessionnaire peut remplir sur ce problème. </p> <p><b>CONSEIL</b>
 
+         Seules les fonctions associées à chaque personne cessionnaire dans son profil s’affichent dans le menu déroulant.</p> </td>
+         </tr> 
+         </tbody> 
+         </table>
+
+
+
+   1. <span class="preview">(Conditionnel) Dans l’environnement de prévisualisation, effectuez l’une des opérations suivantes :</span>
+
+      * <span class="preview">Cliquez sur **M’affecter** pour vous affecter le problème </span>
+      * <span class="preview">Mettez à jour le champ **Heures prévues**.</span>
+
+        Le **Nombre d&#39;heures prévues** correspond au nombre d&#39;heures nécessaires aux personnes désignées pour résoudre le problème.
+
+        >[!NOTE]
+        >
+        >La modification des heures prévues de l&#39;événement ne modifie pas la date d&#39;achèvement prévue de l&#39;événement.
 
 1. Pour supprimer des affectations de tous les événements, voir [Affecter des événements](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
