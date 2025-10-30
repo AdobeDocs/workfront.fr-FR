@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 0e6b43d0d9ca416fdd67907457e3b0afec66db63
+source-git-commit: 0a6e94c285cc5aaea97d840d644dc9b3ceea305e
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 7%
+source-wordcount: '663'
+ht-degree: 6%
 
 ---
 
@@ -33,6 +33,7 @@ Tout utilisateur peut ajouter le réviseur d’IA à une demande de révision et
 
 * Votre organisation doit avoir migré vers Adobe IMS (système Identity Management).
 * Les approbations unifiées doivent être activées pour votre instance Workfront.
+* Votre organisation doit disposer de GenStudio Foundation.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
 Pour plus d’informations sur la signature du contrat, voir [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -59,7 +60,7 @@ Si vous téléchargez un type de fichier non pris en charge, l’option Réviseu
 
 ## Configurer des directives de marque
 
-Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio Foundation lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio Foundation lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Créer des réviseurs d’IA
