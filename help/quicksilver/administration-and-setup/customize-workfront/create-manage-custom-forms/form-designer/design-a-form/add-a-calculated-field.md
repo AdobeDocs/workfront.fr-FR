@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '2412'
-ht-degree: 80%
+source-wordcount: '2446'
+ht-degree: 79%
 
 ---
 
 # Ajout de champs calculés à un formulaire
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -102,7 +104,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 1. Dans la boîte de dialogue **Nouveau formulaire personnalisé**, sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
-   ![&#x200B; Bibliothèque de champs &#x200B;](assets/field-library.png)
+   ![ Bibliothèque de champs ](assets/field-library.png)
 
 1. Utilisez la zone de recherche ou développez la section **Calculé** pour localiser le champ calculé dont vous avez besoin, puis faites glisser le champ où vous souhaitez qu’il apparaisse dans le formulaire personnalisé.
 
@@ -169,6 +171,10 @@ Pour réutiliser un champ personnalisé calculé existant :
       <p><b>IMPORTANT</b> : avant de choisir un format, tenez compte du format correct pour le nouveau champ. Le champ de format ne peut pas être modifié une fois le formulaire personnalisé enregistré. Sélectionner le mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p>
       <p><strong>REMARQUE </strong> : les champs calculés au format <strong>Devise</strong> ne doivent pas contenir de guillemets. (Par exemple, utilisez 800 000 au lieu de « 800,00 ».) L’utilisation de guillemets peut entraîner des conséquences inattendues en raison de nuances liées au formatage de la langue pour les types de devise.</p></td>
      </tr> 
+     <tr>
+      <td><span class="preview">Actif</span></td>
+      <td><span class="preview"><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -278,7 +284,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
            >
            ><div>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont traitées et enregistrées en fonction du temps universel coordonné (UTC), et non en fonction des configurations de fuseau horaire définies pour l’instance de votre organisation et votre profil d’utilisateur ou d’utilisatrice. Les calculs dans un formulaire personnalisé sont générés en fonction des fuseaux horaires individuels de chaque personne.</div>
 
-      +++
+        +++
 
    1. Cliquez dans la zone de texte de grande taille, puis cliquez sur **Expressions** et **Champs** qui sont disponibles pour les ajouter à votre calcul.
 

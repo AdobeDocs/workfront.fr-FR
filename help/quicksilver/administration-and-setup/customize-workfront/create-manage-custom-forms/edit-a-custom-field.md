@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 64%
+source-wordcount: '367'
+ht-degree: 58%
 
 ---
 
 # Ajouter ou modifier un champ personnalisé, un saut de section ou un widget
 
+{{preview-fast-release-general}}
+
 Vous pouvez ajouter un nouveau champ personnalisé ou widget directement à partir de la zone Champs dans Workfront, sans ouvrir de formulaire personnalisé pour créer le champ.
 
 Vous pouvez modifier les propriétés d’un champ personnalisé, d’un saut de section ou d’un widget utilisé dans des formulaires personnalisés. Il s’agit notamment du libellé, du nom, des instructions de l’élément, etc.
+
+<span class="preview">La définition d’un champ personnalisé sur Inactif l’exclut des rapports, filtres et affichages, et le champ n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés. Tous les nouveaux champs sont définis sur Actif par défaut. </span>
 
 Si vous supprimez un champ personnalisé d’un formulaire personnalisé, il existe toujours dans tous les autres formulaires auxquels il a été ajouté et vous pouvez le modifier dans un formulaire ou dans la zone Champs . Pour plus d’informations sur la suppression d’un champ, voir [Suppression d’un champ personnalisé ou d’un widget du système](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
