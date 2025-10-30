@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '631'
 ht-degree: 68%
 
 ---
@@ -38,7 +38,7 @@ Les modifications apportées à la vue Détails d’un objet déterminent égale
 
 * Zones « Créer un objet », telles que Créer une tâche
 
-  ![&#x200B; Boîte de dialogue Nouvelle tâche &#x200B;](assets/new-task-dialog.png)
+  ![ Boîte de dialogue Nouvelle tâche ](assets/new-task-dialog.png)
 
 
 * Écrans « Modifier un objet » lors de la modification d’un objet, tels que Modifier une tâche, Modifier un problème et Modifier un projet
@@ -98,11 +98,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Personnaliser ce que voient les utilisateurs et utilisatrices dans la vue Détails.
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créet et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/dropdown-arrow-12x12.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Projet**, **Tâche**, **Problème**, **Program** ou **Portfolio.**
-<!--
-, or billing record
--->
-
+1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/dropdown-arrow-12x12.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Projet**, **Tâche**, **Problème**, **Program** ou **Portfolio.**<!--, or billing record-->
 1. Dans la section **Détails**, pour personnaliser ce que voient les utilisateurs et utilisatrices dans la vue Détails, effectuez l’une des opérations suivantes :
 
    * Faites glisser les en-têtes de section ![icône Déplacer](assets/move-icon---dots.png) pour modifier leur ordre.
@@ -112,6 +108,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
      Tous les champs sont activés par défaut. Vous pouvez cocher ou décocher la case **Tout sélectionner** dans une zone pour afficher ou masquer tous les champs de cette zone.
 
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   ![Vue Détails dans le modèle de mise en page](assets/layout-template-details-view-updated-save-buttons.png)
+
+   Exemple d’image dans l’environnement de production :
    ![Vue Détails dans le modèle de mise en page](assets/layout-template-details-view.png)
 
 1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
