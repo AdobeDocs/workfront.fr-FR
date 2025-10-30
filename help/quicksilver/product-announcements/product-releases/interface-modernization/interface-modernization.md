@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bf4764cc1e20bf87fb1069ca432ee6303096313c
+source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8978'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,54 @@ Nous avons mis à jour les boîtes de dialogue pour ajouter et modifier des soci
 Pour plus d’informations, consultez la section [Créer et modifier des entreprises](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 ## Projets
+
+### Mise à jour de l’interface lors de la conversion d’une tâche en projet avec un modèle
+
+**Version préliminaire : 30 octobre 2025 ; Version de production : à partir du 6 novembre 2025**
+
+Nous avons mis à jour la zone Convertir en projet lors de la conversion d’une tâche en projet à l’aide d’un modèle. La conception de la zone correspond désormais à la zone Modifier le projet .
+
+Pour plus d’informations, voir [Convertir une tâche en projet](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
+
+<!--### New experience when bulk editing and single- or bulk-assigning tasks
+
+**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
+
+We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
+
+* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
+
+* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
+
+* Allocations
+* Owner or Task Owner
+* Assignee's Role
+
+You can still find the removed fields when making advanced assignments on tasks.
+
+You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
+### Nouvelle expérience lors de la modification en bloc et des problèmes d’affectation en bloc ou unique
+
+**Version préliminaire : 30 octobre 2025 ; Version de production : à partir du 6 novembre 2025**
+
+Nous avons mis à jour la zone Modifier les événements lors de la modification d&#39;événements uniques ou de leur modification en bloc.
+
+Les modifications suivantes sont incluses dans cette mise à jour :
+
+* L’option Recalculer les expressions personnalisées a été supprimée lors de la mise à jour des problèmes en bloc. L’option a été ajoutée au menu Plus dans une liste d’événements, après avoir sélectionné plusieurs événements.
+
+* Une nouvelle expérience est disponible pour l’affectation de ressources à des événements. Cette option est désormais disponible lors de la modification d’un événement ou de plusieurs événements en bloc. Les champs suivants ont été supprimés de la zone Modifier les événements :
+
+* Allocations
+* Propriétaire ou propriétaire de l&#39;événement
+* Rôle du cessionnaire
+
+Vous pouvez mettre à jour les champs supprimés lors d&#39;affectations avancées sur des événements.
+
+Pour plus d’informations, voir [Modifier des problèmes](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 ### Mises à jour des interfaces pour les zones Nouveau et Modifier le risque dans un tableau de bord personnalisé d’un projet
 
@@ -721,7 +769,7 @@ Pour plus d’informations, voir [Configurer les informations de base de votre s
 
 Nous avons mis à jour la page Importer des données (Kick-Starts) dans la zone Configuration avec une conception plus moderne et cohérente avec les autres zones de Workfront. En outre, le processus d’importation Kickstart a été simplifié afin que le fichier sélectionné soit chargé immédiatement. Il n’est plus nécessaire de cliquer sur un bouton **Charger** distinct pour terminer l’importation après avoir choisi le fichier.
 
-Pour plus d’informations, voir [&#x200B; Importer des données dans Workfront à l’aide d’un modèle Kickstart &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Pour plus d’informations, voir [ Importer des données dans Workfront à l’aide d’un modèle Kickstart ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Mises à jour de l&#39;interface de la liste des types de dépenses
 
@@ -876,7 +924,7 @@ Pour plus d’informations, voir [Créer et modifier des risques dans les projet
 
 Nous avons mis à jour l’aspect de la zone Copier le modèle pour qu’elle corresponde à la conception d’autres zones de Workfront.
 
-Pour plus d’informations, voir [&#x200B; Copier un modèle de projet &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+Pour plus d’informations, voir [ Copier un modèle de projet ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
 
 +++
