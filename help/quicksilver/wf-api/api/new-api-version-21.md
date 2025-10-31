@@ -6,9 +6,9 @@ description: Adobe Workfront a publié la verison 21 de l’API le vendredi 23
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
+source-git-commit: 155323314712e020a638619d9bf10d678078645e
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '891'
 ht-degree: 85%
 
 ---
@@ -343,9 +343,6 @@ Un objet Category est un formulaire personnalisé.
             <p>Ajout des valeurs possibles suivantes :</p>
              <ul>
               <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.statisingplantemplate)</p>
-              </li>
-              <li>
                 <p><code>TEAMOB</code> (Équipe)</p>
               </li>
             </ul>
@@ -355,9 +352,6 @@ Un objet Category est un formulaire personnalisé.
             </p>
             <p>Ajout des valeurs possibles suivantes :</p>
              <ul>
-              <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.statisingplantemplate)</p>
-              </li>
               <li>
                 <p><code>TEAMOB</code> (Équipe)</p>
               </li>
