@@ -6,7 +6,7 @@ description: Nous vous recommandons de désactiver les modèles que vous n’uti
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 90%
@@ -95,6 +95,6 @@ La liste des modèles s’ouvre.
 
    Ou
 
-   Cliquez sur le nom d’un modèle pour y accéder, puis sur le menu **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png) , **Supprimer le modèle > Oui, le supprimer**.
+   Cliquez sur le nom d’un modèle pour y accéder, puis sur le menu **Plus** ![Icône Plus](assets/more-icon.png), **Supprimer le modèle > Oui, le supprimer**.
 
    Le modèle ne peut plus être associé à aucun projet.

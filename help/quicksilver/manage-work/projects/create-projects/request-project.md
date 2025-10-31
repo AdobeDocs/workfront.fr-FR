@@ -6,16 +6,16 @@ description: Vous pouvez demander l’approbation d’un projet avant de commenc
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 86%
+source-wordcount: '557'
+ht-degree: 77%
 
 ---
 
 # Demander un projet
 
-<!--Audited: April 2024-->
+<!--Audited: 10/2025-->
 
 Vous pouvez demander l’approbation d’un projet avant de commencer à travailler dessus.
 
@@ -114,10 +114,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * Suivez les mêmes étapes que pour créer un projet lors de la définition d’une analyse de rentabilité. (Recommandé)
 
-     Pour plus d’informations sur la définition d’une analyse de rentabilité et la demande d’un projet, voir [Créer une analyse de rentabilité pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     Pour plus d’informations, voir [Création d’un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
    * Créez un projet à partir de zéro ou en utilisant un modèle et modifiez le statut en **Demandé**.
 
-     Pour plus d’informations sur la création d’un projet, voir [Créer un projet](../../../manage-work/projects/create-projects/create-project.md) ou [Créer un projet à partir d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Pour plus d’informations, voir [Créer un projet](../../../manage-work/projects/create-projects/create-project.md) ou [Créer un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   Le projet que vous demandez a le statut **Demandé** et s’affiche dans l’onglet **Projets demandés** d’un portfolio, si vous l’avez associé à un portfolio. Une personne gestionnaire du portfolio peut désormais le réviser et l’approuver ou le rejeter, auquel cas le statut du projet passe à **Approuvé** ou **Rejeté**.
+   Le statut du projet que vous demandez est **Demandé** et il s’affiche dans l’onglet **Projets demandés** d’un Portfolio, si vous l’avez associé à un Portfolio.
+
+   Toute personne gestionnaire de portefeuille peut désormais le réviser et l’approuver ou le rejeter, auquel cas le statut du projet passe à **Approuvé** ou **Rejeté**.

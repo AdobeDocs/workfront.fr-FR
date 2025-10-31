@@ -6,7 +6,7 @@ description: Vous pouvez modifier les modèles de projet pour refléter les modi
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 88%
@@ -126,7 +126,7 @@ Vous pouvez modifier un modèle à la fois ou modifier des modèles en bloc.
    >
    >Pour obtenir des informations sur tous les champs qui s’affichent dans la zone Détails, continuez à modifier tous les champs à l’aide de la zone Modifier le modèle ci-dessous.
 
-1. (Conditionnel) Pour modifier toutes les informations relatives au modèle, cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png) en regard du nom du modèle, puis cliquez sur **Modifier**.
+1. (Conditionnel) Pour modifier toutes les informations relatives au modèle, cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) en regard du nom du modèle, puis cliquez sur **Modifier**.
 
    La zone **Modifier le modèle** s’ouvre. Les sections de cette zone contiennent les champs disponibles dans la section Détails du modèle, ainsi que des champs supplémentaires.
 
@@ -820,12 +820,12 @@ Les modèles désactivés n’affectent pas les projets existants qui ont été 
 
 Pour désactiver un modèle :
 
-1. Accédez à un modèle actif, puis cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png) en regard du nom du modèle, puis cliquez sur **Désactiver**.
+1. Accédez à un modèle actif, puis cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) en regard du nom du modèle, puis cliquez sur **Désactiver**.
 
    ![Désactiver le modèle](assets/deactivate-template-link-in-more-menu.png)
 
    Le modèle n’est plus actif et les utilisateurs ou les utilisatrices ne peuvent plus le trouver pour créer des projets en l’utilisant.
-1. (Facultatif) Pour activer le modèle, cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png) en regard du nom du modèle, puis cliquez sur **Activer**.
+1. (Facultatif) Pour activer le modèle, cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) en regard du nom du modèle, puis cliquez sur **Activer**.
 
    Le modèle est maintenant actif et peut être joint à des projets ou utilisé pour créer des projets.
 
@@ -850,7 +850,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/more-icon.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 

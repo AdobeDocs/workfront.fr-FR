@@ -6,10 +6,10 @@ description: Un projet est une grande unité de travail dans Adobe Workfront. V
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 92%
+source-wordcount: '1295'
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 <!--remove Preview and Production references-->
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 110/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -169,7 +169,7 @@ Tenez compte des points suivants :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche. Cliquez sur **Projets**, puis développez **Nouveau projet**.
+   * Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, ou sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, si disponible, puis cliquez sur **Projets** et développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
    * Accédez à un programme, puis développez **Nouveau projet**.
    * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier les projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
@@ -191,13 +191,21 @@ Tenez compte des points suivants :
 
    Pour plus d’informations sur l’ajout de tâches à un projet, voir [Créer des tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Modifiez les détails du projet en cliquant sur le menu **Plus** puis sur **Modifier** ![Icône Modifier](assets/qs-edit-icon.png) en regard du nom du projet.
+1. Modifiez les détails du projet en cliquant sur le menu **Plus** à droite du nom du projet, dans l’en-tête, puis **Modifier** ![Icône Modifier](assets/qs-edit-icon.png) en regard du nom du projet.
 
-   La boîte de dialogue **Modifier le projet** s’ouvre.
+   La zone **Modifier le projet** s’ouvre.
+
+1. Ajoutez des informations sur le projet.
 
    Pour plus d’informations sur la modification d’un projet, voir [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Facultatif) Après avoir configuré les paramètres du projet et ajouté les tâches, vous pouvez modifier le statut du projet en **Actuel**.
+   >[!TIP]
+   >
+   >Le statut du projet doit être Planification ou un autre statut qui n&#39;est pas Actuel. Vous pouvez ainsi apporter des modifications au projet sans générer de notifications aux participants du projet.
+
+1. Cliquez sur **Enregistrer** pour enregistrer les modifications.
+
+1. (Facultatif) Après avoir configuré les paramètres du projet et ajouté les tâches, vous pouvez modifier le statut du projet en **Actuel** dans l’en-tête du projet.
 
    Cela indique que le projet est maintenant prêt à démarrer et que les personnes affectées aux tâches peuvent maintenant commencer à travailler dessus.
 

@@ -6,16 +6,16 @@ description: Vous pouvez utiliser des modèles en tant que cadre pour créer des
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 92%
+source-wordcount: '1150'
+ht-degree: 81%
 
 ---
 
 # Créer un projet à partir d’un modèle
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 10/2025 -->
 
 Vous pouvez utiliser des modèles comme cadre pour créer des projets dans Adobe Workfront. Si certains de vos projets se répètent fréquemment, vous pouvez utiliser des modèles pour la chronologie générale du nouveau projet pour éviter de créer le même projet à nouveau.
 
@@ -120,7 +120,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche. Cliquez sur **Projets**, puis développez **Nouveau projet**.
+   * Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, ou sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, si disponible, puis cliquez sur **Projets** et développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
 
      >[!TIP]
@@ -153,7 +153,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 
    Procédez comme suit :
 
-   1. Sélectionnez **Nouveau projet à partir d’un modèle**.
+   1. Cliquez sur **Nouveau projet à partir d’un modèle**.
    1. Dans le champ **Modèles de recherche**, commencez à saisir le nom d’un modèle et cliquez dessus lorsqu’il s’affiche dans la liste.
    1. Examinez les détails du modèle sur la droite.
 
@@ -179,19 +179,25 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 
       ![Détails du modèle](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
+      <!--no longer available, after unshimming - Oct 2025:
       >[!NOTE]
       >
-      >Si la vue Jalon est appliquée à la liste des projets, cliquez sur le nom d’un modèle dans la section **Créer à partir d’un modèle**.
+      >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.
       >
       >
-      >![Vue Jalon de la création d’un projet à partir d’un modèle](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![Milestone view of creating a project from a template](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
+      -->
 
    La boîte de dialogue **Nouveau projet** s’ouvre.
 
    ![Boîte de dialogue Nouveau projet](assets/new-project-from-template-box.png)
 
-1. Si un champ est déjà rempli dans le modèle, il sera pré-rempli dans la boîte de dialogue **Nouveau projet**. Vous pouvez modifier les valeurs pré-remplies pour qu’elles correspondent mieux à votre projet. Pour plus d’informations, consultez [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. (Conditionnel) Si un champ est déjà renseigné dans le modèle, le champ est pré-renseigné dans la zone **Nouveau projet**.
+
+   Modifiez les valeurs pré-renseignées pour mieux les faire correspondre à votre projet.
+
+   Pour plus d’informations, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 1. Cliquez sur **Créer un projet**.
 
    Tous les détails définis dans le modèle sont associés automatiquement au nouveau projet si vous ne les avez pas modifiés à l’étape précédente.
@@ -203,17 +209,21 @@ Au lieu de commencer dans la zone Projets, vous pouvez créer un projet à parti
 {{step1-to-templates}}
 
 1. Cliquez sur le nom du modèle à utiliser.
-1. Cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png), puis sur **Créer un projet**.
+1. Cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon.png) à droite du nom du modèle dans l’en-tête, puis cliquez sur **Créer un projet**.
 
    ![Créer un projet à partir d’un modèle](assets/project-sharing-on-template.png)
 
    La boîte de dialogue **Nouveau projet** s’ouvre.
 
-1. Saisissez un nom pour le projet, puis passez en revue chaque section et apportez les modifications nécessaires.
+1. Saisissez un nom pour le projet. Workfront utilise le nom du modèle pour nommer le nouveau projet.
+
+1. Passez en revue chaque section de la zone **Nouveau projet** et apportez les modifications nécessaires.
 
    ![Boîte de dialogue Nouveau projet](assets/new-project-from-template-box.png)
 
-   Si un champ est déjà rempli dans le modèle, il sera pré-rempli dans la boîte de dialogue **Nouveau projet**. Vous pouvez modifier les valeurs pré-remplies pour qu’elles correspondent mieux à votre projet. Pour plus d’informations, consultez [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Si un champ est déjà rempli dans le modèle, il sera pré-rempli dans la boîte de dialogue **Nouveau projet**. Vous pouvez modifier les valeurs préremplies pour mieux les faire correspondre à votre projet.
+
+   Pour plus d’informations, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Cliquez sur **Créer un projet**.
 

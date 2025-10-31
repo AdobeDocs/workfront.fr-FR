@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 94%
+source-wordcount: '470'
+ht-degree: 60%
 
 ---
 
 # Créer un modèle à partir d’un projet
+
+<!--Audited: 10/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
@@ -89,7 +91,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 ## Créer un modèle à partir d’un projet
 
 1. Accédez au projet que vous souhaitez enregistrer en tant que modèle.
-1. Cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png), puis sur **Enregistrer en tant que modèle**.
+1. Cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png), puis sur **Enregistrer en tant que modèle**.
 1. Indiquez les informations suivantes pour le modèle :
 
    <table style="table-layout:auto"> 
@@ -97,7 +99,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Nom</td> 
+      <td role="rowheader">Nom de modèle</td> 
       <td>Attribuez un nom au modèle.</td> 
      </tr> 
      <tr> 
@@ -112,29 +114,32 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
         <li><strong>Non</strong> : les autres utilisateurs et utilisatrices ne peuvent pas trouver le modèle et ne peuvent pas le joindre aux projets.</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Formulaires personnalisés</td> 
-      <td>Utilisez la liste déroulante pour sélectionner les formulaires personnalisés à joindre au modèle. Si des formulaires personnalisés ont déjà été associés au projet, tous les champs de données de ces formulaires personnalisés s’affichent.<br>Vous pouvez inclure jusqu’à 10 formulaires personnalisés sur un seul modèle.</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. Cliquez sur **Géer les formulaires** pour supprimer ou réorganiser les formulaires. Pour plus d’informations sur la suppression et la réorganisation des formulaires personnalisés sur le modèle, voir [Formulaires personnalisés](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
+1. Cliquez sur le champ **Ajouter un formulaire personnalisé** et commencez à saisir le nom d’un projet personnalisé pour ou sélectionnez-en un dans la liste.
 
-   ![Première étape Enregistrer en tant que modèle &#x200B;](assets/save-as-template-first-step-350x159.png)
+   Si des formulaires personnalisés sont déjà associés au projet, toutes les informations contenues dans les champs existants de ces formulaires personnalisés s’affichent dans les formulaires.
 
-1. Cliquez sur **Étape suivante.**
-1. Dans la section **Options**, cochez la case en regard des informations à effacer du modèle.
+   Vous pouvez inclure jusqu’à 10 formulaires personnalisés sur un seul modèle.
 
-   ![Options Enregistrer en tant que modèle &#x200B;](assets/save-as-template-options-step-350x109.png)
+1. Pointez sur le nom d’un formulaire, puis cliquez pour le faire glisser et le déposer à un nouvel emplacement.
 
-1. Cliquez sur **Étape suivante.**
-1. Dans la section **Exclure**, sélectionnez les tâches à exclure du projet.
+   ![Enregistrer le projet en tant que modèle prêt à l’emploi](assets/save-project-as-template-top-of-the-form.png)
 
-   ![Enregistrer en tant que modèle à exclure](assets/save-as-template-exclude-350x205.png)
+1. Cliquez sur **Options** dans le panneau de gauche, puis sélectionnez les champs ou les éléments à transférer au modèle.
+
+   Tous les éléments sont cochés par défaut. Les éléments désélectionnés ne sont pas transférés vers le modèle.
+
+   ![Options Enregistrer en tant que modèle ](assets/save-project-as-template-options-area.png)
+
+1. Cliquez sur **Exclure** dans le panneau de gauche, puis sélectionnez les tâches à exclure du projet.
+
+   ![Enregistrer en tant que modèle à exclure](assets/save-project-as-template-exclude-area.png)
 
 1. Cliquez sur **Terminer et enregistrer le modèle**.
 
-   Votre modèle apparaît désormais dans la liste des modèles disponibles et peut être joint à un projet existant ou utilisé pour en créer un nouveau.
+   Votre modèle apparaît désormais dans la liste des modèles disponibles. Les utilisateurs peuvent joindre le nouveau modèle à un projet existant ou l’utiliser pour créer un projet.
 
- 
+

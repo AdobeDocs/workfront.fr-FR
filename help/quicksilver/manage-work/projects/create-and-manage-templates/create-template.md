@@ -6,16 +6,16 @@ description: Vous pouvez créer et supprimer des modèles à partir de la zone M
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 96%
+source-wordcount: '648'
+ht-degree: 61%
 
 ---
 
 # Créer un modèle de projet
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2025 -->
 
 Vous pouvez créer et supprimer des modèles à partir de la zone Modèles. Lorsque vous créez un modèle, vous pouvez saisir les informations pour toutes les tâches et pour les paramètres de votre futur projet. Ces informations seront ensuite transférées à tout projet que vous créerez à partir du modèle.
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 ## Créer un modèle
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Modèles**.
+{{step1-to-templates}}
 
 1. Cliquez sur **Nouveau modèle**.
 
@@ -103,34 +103,70 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    ![Nouveau modèle](assets/create-template-nwe-2022-350x102.png)
 
 1. Spécifiez un nom pour le nouveau modèle dans l’en-tête du modèle, puis appuyez sur **Entrée.**
-1. Cliquez sur la section **Tâches de modèles** dans le panneau de gauche.
-1. Cliquez sur **Commencer à ajouter des tâches de modèles**
+1. Cliquez sur la section **Tâches du modèle** dans le panneau de gauche.
+1. Cliquez sur **Commencer à ajouter des tâches de modèles** pour ajouter des tâches en ligne
 
    Ou
 
-   Cliquez sur **Nouvelle tâche de modèle** pour commencer à ajouter des tâches à votre modèle.
+   Cliquez sur **Nouvelle tâche de modèle** pour commencer à ajouter des tâches à votre modèle dans la zone **Nouvelle tâche de modèle**.
 
-   L’ajout de tâches à un modèle est identique à l’ajout de tâches à un projet.
+   ![Nouvelle zone de tâche de modèle](assets/new-template-task-box.png)
 
-   Pour plus d’informations sur l’ajout de tâches à un projet, voir [Créer des tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+1. Mettez à jour les informations dans les domaines suivants :
+
+   * Vue d’ensemble
+   * Finances
+   * Paramètres
+   * Affectations
+   * Formulaires personnalisés
+   * Joindre le document
+
+     La mise à jour des informations d’une tâche de modèle est similaire à la modification des tâches d’un projet. Pour plus d’informations, voir [Modifier des tâches](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
    >[!NOTE]
    >
    >Vous ne pouvez pas ajouter de tâches récurrentes à un modèle.
 
-1. (Le cas échéant) Cliquez sur l’icône **graphique de Gantt** dans le coin supérieur droit de la liste des tâches pour obtenir une représentation visuelle de la liste des tâches du modèle.
+1. Cliquez sur l’une des options suivantes :
+
+   * **Enregistrer la tâche de modèle** pour enregistrer la tâche de modèle en cours et ferme la boîte de dialogue Nouvelle tâche de modèle.
+   * **Enregistrer la tâche de modèle et en démarrer une autre** pour enregistrer la tâche de modèle en cours et ouvrir une autre boîte de dialogue Nouvelle tâche de modèle pour ajouter une autre tâche.
+   * **Annuler** pour fermer la boîte sans enregistrer la tâche de modèle.
+1. (Facultatif) Après avoir ajouté les tâches de modèle, dans la section Tâches de modèle, cliquez sur l’icône **Diagramme de Gantt** dans le coin supérieur droit de la Liste des tâches pour afficher une représentation visuelle de la liste des tâches du modèle.
 
    >[!TIP]
    >
    >Vous ne pouvez pas modifier les tâches directement à partir de ce graphique de Gantt.
 
-1. Pour ajouter des informations à votre nouveau modèle, cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png), puis sur **Modifier**.
+1. Pour ajouter des informations à votre nouveau modèle, cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) à gauche du nom du modèle dans l’en-tête, puis cliquez sur **Modifier**.
 
    Pour plus d’informations sur la modification d’un modèle, voir [Modifier les modèles de projet](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. Cliquez sur **Enregistrer les modifications**.
-1. (Le cas échéant) Si vous souhaitez ajouter des éléments supplémentaires au modèle, consultez la section [Ajouter des éléments supplémentaires à un modèle](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) dans l’article [Modifier les modèles de projet](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   >[!NOTE]
+   >
+   >   L’association d’un modèle de projet à un groupe (ou son absence) affecte la manière dont les préférences du projet, de la tâche et du problème déterminent certains paramètres du modèle.
+   >
+   >Pour plus d’informations, reportez-vous à la section « Application des préférences aux modèles et aux tâches de modèles » de l’article [Création et modification de modèles de projet d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
-## Paramètres du modèle déterminés par l’association à un groupe
+1. Cliquer sur **Enregistrer**.
+1. (Facultatif) Ajoutez les éléments suivants au modèle
 
-L’association d’un modèle de projet avec un groupe (ou l’absence de groupe) affecte la façon dont les préférences de projet, de tâche et de problème déterminent certains paramètres du modèle. Pour plus d’informations, voir la section [Créer et modifier les modèles de projet d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) dans l’article [Créer et modifier les modèles de projet d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+   * Documents
+   * Risques
+   * Processus d’approbation
+   * Taux de facturation
+   * Frais
+   * Détails de la file d&#39;attente
+   * Groupes de sujets et rubriques de file d’attente
+
+1. (Facultatif) Ajoutez les éléments suivants aux tâches dans le modèle :
+
+   * Documents
+   * Frais
+   * Approbations
+
+   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [ Modifier les modèles de projet ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+
+
+
