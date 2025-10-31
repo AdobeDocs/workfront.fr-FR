@@ -384,7 +384,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 
    &lt;!-mettez en retrait les puces ci-dessous une fois de plus à la libération pour afficher Prod, puis une autre nouvelle puce pour l&#39;aperçu :
    1. (Conditionnel) Selon l’environnement à partir duquel vous accédez à la tâche, procédez comme suit :
-   1. <!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
+   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
 
 1. Cliquez sur **Rechercher des personnes, des rôles et des équipes** et commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’un rôle ou d’une équipe que vous souhaitez affecter à la tâche, puis cliquez dessus ou appuyez sur « Entrée » lorsqu’il s’affiche dans la liste.
 

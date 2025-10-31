@@ -132,7 +132,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Tous les éléments sont cochés par défaut. Les éléments désélectionnés ne sont pas transférés vers le modèle.
 
-   ![Options Enregistrer en tant que modèle ](assets/save-project-as-template-options-area.png)
+   ![Options Enregistrer en tant que modèle &#x200B;](assets/save-project-as-template-options-area.png)
 
 1. Cliquez sur **Exclure** dans le panneau de gauche, puis sélectionnez les tâches à exclure du projet.
 
