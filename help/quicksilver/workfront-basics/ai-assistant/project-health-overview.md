@@ -5,9 +5,9 @@ description: La fonctionnalité d’intégrité du projet utilise la puissance d
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1965'
 ht-degree: 3%
 
 ---
@@ -89,7 +89,7 @@ L’assistant AI vous donne une évaluation rapide de l’état global d’un pr
 * En danger
 * En difficulté
 
-Cet état est calculé à l’aide des composants du projet et du programme, tels que l’avancement du projet, le travail sous-estimé, etc. Pour obtenir la liste complète des composants utilisés pour mesurer l’intégrité du projet, reportez-vous à la section [Liste des états du projet et du programme](#project-and-program-states-list).
+Cet état est calculé à l’aide des composants du projet, tels que l’avancement du projet, le travail sous-estimé, etc. Pour obtenir la liste complète des composants utilisés pour mesurer l’intégrité du projet, reportez-vous à la section [Liste des états du projet et du programme](#project-and-program-states-list).
 
 Chaque composant de projet se voit attribuer une note de risque numérique comprise entre (0 et 100), qui est ensuite moyennée pour créer l’état d’intégrité global du projet :
 
@@ -110,7 +110,7 @@ Dans le premier exemple, quatre composantes du projet sont évaluées et leurs s
 * 1 À Risque (45 score de risque)
 * 1 En difficulté (20 score de risque)
 
-Si vous faites la moyenne de ces scores, le résultat est de 61. En utilisant les critères d’état d’intégrité du projet répertoriés ci-dessus, ce projet est à l’état En danger.
+Si vous faites la moyenne de ces scores, le résultat est de 61. En utilisant les critères d’intégrité du projet répertoriés ci-dessus, ce projet est à l’état En danger.
 
 Dans l’exemple suivant, une modification de planification d’un jour s’est produite au début de la chronologie du projet. Dans ce scénario, l’assistant AI évalue à la fois le calendrier et l’impact de la modification par rapport à la durée globale du projet :
 
