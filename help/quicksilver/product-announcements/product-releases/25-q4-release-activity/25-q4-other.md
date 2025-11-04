@@ -25,7 +25,7 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 >* Aperçu : 13 octobre 2025
 >* Version rapide de production : 13 octobre 2025
 >* Version de production pour toute la clientèle : mardi 13 octobre 2025
->[!BADGE Hors programme ]{type=Neutral}
+>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 L&#39;onglet Résumé d&#39;un rapport a été mis à jour avec les améliorations suivantes :
 
