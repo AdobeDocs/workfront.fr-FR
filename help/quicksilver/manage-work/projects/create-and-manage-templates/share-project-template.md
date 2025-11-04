@@ -6,10 +6,10 @@ description: Vous pouvez partager un modèle avec des personnes ou définir comm
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 93%
+source-wordcount: '720'
+ht-degree: 94%
 
 ---
 
@@ -90,7 +90,7 @@ Vous pouvez partager vos modèles avec d’autres personnes à l’aide du parta
 
 Pour partager un modèle :
 
-1. Dans l&#39;icône **Menu principal** icône ![icône du menu principal](assets/main-menu-icon.png), cliquez sur **Modèles**.
+{{step1-to-templates}}
 
 1. Utilisez l’une des méthodes suivantes :\
    Cliquez sur le nom d’un modèle pour l’ouvrir, puis cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon.png), puis sur **Partage de modèles**.

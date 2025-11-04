@@ -6,9 +6,9 @@ description: Le mode de suivi d’une tâche détermine la manière dont le stat
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '194'
 ht-degree: 75%
 
 ---
@@ -85,8 +85,6 @@ Pour plus d’informations sur le mode de suivi des tâches, consultez la sectio
 -->
 
 ## Définir le mode de suivi des tâches
-
-Pour définir le mode de suivi, procédez comme suit :
 
 1. Accédez à la tâche pour laquelle vous souhaitez définir le mode de suivi.
 1. Cliquez sur l’icône **Plus** ![](assets/qs-more-icon-on-an-object.png)en regard du nom de la tâche, puis cliquez sur **Modifier**.

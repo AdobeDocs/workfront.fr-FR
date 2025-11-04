@@ -6,10 +6,10 @@ description: « Enregistrer un projet en tant que modèle » au niveau du projet
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 55%
+source-wordcount: '485'
+ht-degree: 54%
 
 ---
 
@@ -159,7 +159,7 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. Accédez au projet que vous souhaitez enregistrer en tant que modèle.
-1. Cliquez sur le menu **Plus** ![icône Plus](assets/qs-more-icon-on-an-object.png), puis sur **Enregistrer en tant que modèle**.
+1. Cliquez sur le menu **Plus** ![Icône Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du projet dans l’en-tête, puis sur **Enregistrer comme modèle**.
 1. Dans la section **Enregistrer en tant que modèle**, spécifiez les informations suivantes pour le modèle :
 
    <table style="table-layout:auto"> 

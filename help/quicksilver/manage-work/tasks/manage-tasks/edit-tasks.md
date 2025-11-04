@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
 workflow-type: tm+mt
-source-wordcount: '3862'
+source-wordcount: '3828'
 ht-degree: 85%
 
 ---
@@ -380,161 +380,14 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 1. Commencez à modifier votre tâche comme décrit ci-dessus.
 1. Cliquez sur **Affectations** dans le panneau de gauche.
 
-   ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   <!--<span class="preview">The Assignments area opens in the new experience.</span>-->
 
-   &lt;!-mettez en retrait les puces ci-dessous une fois de plus à la libération pour afficher Prod, puis une autre nouvelle puce pour l&#39;aperçu :
-   1. (Conditionnel) Selon l’environnement à partir duquel vous accédez à la tâche, procédez comme suit :
-   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
-
-1. Cliquez sur **Rechercher des personnes, des rôles et des équipes** et commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’un rôle ou d’une équipe que vous souhaitez affecter à la tâche, puis cliquez dessus ou appuyez sur « Entrée » lorsqu’il s’affiche dans la liste.
-
-   >[!NOTE]
-   >
-   >Si le nom de l’utilisateur ou utilisatrice contient un caractère spécial, vous devez l’inclure dans le champ de recherche.
-
-   >[!TIP]
-   >
-   >Vous pouvez affecter plusieurs utilisateurs et utilisatrices, fonctions ou équipes. Vous pouvez affecter uniquement les utilisateurs et utilisatrices, fonctions et équipes actifs.
-   >
-   >Si une personne, une fonction ou une équipe a été affectée avant d’être désactivée, elle reste affectée à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
-   >
-   >* Réaffectez la tâche aux ressources actives.
-   >* Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
-
-1. (Facultatif) Indiquez si une personne cessionnaire est la personne cessionnaire principale de la tâche en sélectionnant la case d’option **Personne propriétaire** en regard de son nom. Une équipe ne peut pas être l’entité cessionnaire principale d’une tâche.
-1. (Le cas échéant et facultatif) Mettez à jour les champs suivants :
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Type de durée</td> 
-      <td> <p>Cela identifie la relation entre les éléments suivants : </p> 
-       <ul> 
-      <li> <p>Nombre de ressources affectées à une tâche </p> </li> 
-      <li> <p>Effort total requis pour terminer la tâche </p> </li> 
-      <li> <p> Durée totale de la tâche. </p> </li> 
-       </ul> <p>Votre administrateur Workfront ou un administrateur de groupes sélectionne le paramètre Type de durée par défaut pour les tâches de votre système ou de votre groupe. Pour plus d'informations sur la définition des paramètres par défaut du projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurer les préférences de tâches et de problèmes à l'échelle du système</a>. </p> <p>Les types de durée vous permettent de définir des affectations de ressources cohérentes en fonction des besoins de la tâche. Pour plus d’informations sur le type de durée d’une tâche, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>. </p> <p>Sélectionnez l’une des options suivantes : </p> 
-       <ul> 
-      <li> <p>Calcul d'affectation </p> </li> 
-      <li> <p> Calcul de travail </p> </li> 
-      <li> <p>Piloté par l'effort </p> </li> 
-      <li> <p>Simple</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Durée par occurrence</td> 
-      <td> <p>Cela s’affiche uniquement sur le parent des tâches récurrentes. La durée de chaque tâche récurrente est affichée, telle que définie lors de la création de la tâche. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>. </p> <p> <b>NOTE</b>
-
-   Les durées modifiées dans des tâches récurrentes individuelles n’affichent pas la valeur indiquée dans ce champ. </p> </td>
-   </tr> 
-     <tr> 
-      <td role="rowheader">Durée</td> 
-      <td> 
-      <div> 
-      <div> 
-      <p>Il s’agit de la durée pendant laquelle vous laissez une tâche ouverte avant qu’elle soit terminée. </p> 
-      <p><b>IMPORTANT</b>
-
-   Comme la durée de la tâche correspond généralement à la durée entre les dates de début et d’achèvement prévues, elle affecte la chronologie du projet.</p>
-
-   <p>Pour indiquer la durée de la tâche et l’unité de temps, procédez comme suit :</p> 
-      <ul> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Saisissez la durée et sélectionnez l’unité de temps disponible dans le menu déroulant.</p> <p><b>CONSEIL</b></p>
-      Lorsque vous mettez à jour la durée des tâches dans une liste de tâches, vous pouvez utiliser l’abréviation pour l’unité de temps. </p> </li> 
-      </ul> 
-      <p> Vous pouvez choisir parmi les options de temps normal ou de temps écoulé dans le tableau suivant : </p> 
-      <table style="table-layout:auto"> 
-      <col> 
-      <col data-mc-conditions=""> 
-      <tbody> 
-      <tr> 
-      <td>Unité de temps</td> 
-      <td>Abréviation</td> 
-      </tr> 
-      <tr> 
-      <td>Minutes</td> 
-      <td>L</td> 
-      </tr> 
-      <tr> 
-      <td>Heures</td> 
-      <td>H</td> 
-      </tr> 
-      <tr> 
-      <td>Jours. Il s’agit de la valeur par défaut. </td> 
-      <td>Dés</td> 
-      </tr> 
-      <tr> 
-      <td>Semaines</td> 
-      <td>S</td> 
-      </tr> 
-      <tr> 
-      <td>Mois</td> 
-      <td>M</td> 
-      </tr> 
-      <tr> 
-      <td>Minutes écoulées</td> 
-      <td>ME</td> 
-      </tr> 
-      <tr> 
-      <td>Heures écoulées</td> 
-      <td>HE</td> 
-      </tr> 
-      <tr> 
-      <td>Jours écoulés</td> 
-      <td>JE</td> 
-      </tr> 
-      <tr> 
-      <td>Semaines écoulées</td> 
-      <td>SE</td> 
-      </tr> 
-      <tr> 
-      <td>Mois écoulés</td> 
-      <td>TE</td> 
-      </tr> 
-      </tbody> 
-   </table>
-
-   <p><b>NOTE</b>
-
-   <p>Le temps écoulé est une unité de temps pour la durée d’une tâche. Il s’agit de la durée entre la date de début et la date d’achèvement prévues d’une tâche qui comprend les jours fériés, les week-ends et les jours de congé. En d’autres termes, le temps écoulé est le nombre de jours calendaires écoulés.
-
-   Le temps normal prend en compte les jours fériés, les week-ends et les jours de congé et les exclut de la durée de la tâche. Pour plus d’informations sur la durée de la tâche, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>. </p>
-   </div> 
-      </div> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Heures prévues</td> 
-      <td> <p>Spécifiez le nombre d’heures prévues pour la tâche, en heures. Il s’agit de la quantité de temps réel nécessaire aux personnes assignées à la tâche pour la terminer. Vous ne pouvez spécifier le nombre d'heures prévues pour une tâche que lorsque le type de durée est défini sur Calcul d'affectation. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>.</p> 
-      <b>NOTE</b>
-      <p>
-      Lors de la création de tâches récurrentes, les heures prévues sont celles de chaque occurrence. Les heures prévues des tâches parent correpondent au nombre total d’heures prévues de toutes les occurrences. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>.
-      </p>
-
-   </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Allocation</td> 
-      <td> <p>Si la contrainte de tâche est Calcul de travail ou Piloté par l’effort, spécifiez la variable <strong>% d’affectation</strong> (pourcentage d’affectation) pour chaque personne cessionnaire. Il s’agit de la durée dans le planning de la personne cessionnaire qui peut être consacrée à cette tâche. La modification du pourcentage d’affectation d’une personne cessionnaire modifie le nombre d’heures prévues d’une tâche. </p> <p>Lorsque la contrainte de tâche est simple, vous pouvez spécifier les éléments suivants :</p> 
-         <ul> 
-         <li> <p>Nombre d’heures d’affectation de chaque personne cessionnaire.</p> </li> 
-         <li> <p>Nombre d’heures prévues de la tâche.</p> </li> 
-         <li> <p>Durée de la tâche.</p> </li> 
-         </ul> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Rôle du cessionnaire</td> 
-      <td> <p>Sélectionnez un rôle dans le menu déroulant <strong>Rôle de la personne cessionnaire</strong> lorsque vous avez sélectionné une personne comme personne cessionnaire. Il s’agit du rôle que la personne cessionnaire peut remplir pour cette tâche. </p> <p><b>CONSEIL</b>
-
-   Seules les fonctions associées à chaque personne cessionnaire dans son profil s’affichent dans le menu déroulant.</p> </td>
-   </tr>
-   </tbody>
-   </table>
+   <!--indent the bullets below to show new experience functionality:
+      1. (Conditional) Using the new experience, do the following:-->
 
    <!--Indent this according to what you did above: 
 
-      1. <span class="preview">In the Preview environment, start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
+      1. <span class="preview">Start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
 
       Or
 
@@ -667,10 +520,159 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
       <tr> 
       <td role="rowheader">Assignee's Role</td> 
       <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
-            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+         Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr>
          </tbody> 
          </table>************)-->
+   <!--1. <span class="preview">(Optional) Click Switch to old experience at the bottom of the **Edit Task** box. </span>
+      <span class="preview">The Assignments area opens in the old experience. </span>
+      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)-->
+
+1. Cliquez sur **Rechercher des personnes, des rôles ou des équipes** et commencez à saisir le nom d&#39;un utilisateur, d&#39;un rôle ou d&#39;une équipe que vous souhaitez affecter à la tâche, puis cliquez dessus ou appuyez sur Entrée lorsqu&#39;elle s&#39;affiche dans la liste.
+
+   >[!NOTE]
+   >
+   >Si le nom de l’utilisateur ou utilisatrice contient un caractère spécial, vous devez l’inclure dans le champ de recherche.
+
+   >[!TIP]
+   >
+   >Vous pouvez affecter plusieurs utilisateurs et utilisatrices, fonctions ou équipes. Vous pouvez affecter uniquement les utilisateurs et utilisatrices, fonctions et équipes actifs.
+   >
+   >Si une personne, une fonction ou une équipe a été affectée avant d’être désactivée, elle reste affectée à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
+   >
+   >* Réaffectez la tâche aux ressources actives.
+   >* Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
+
+1. (Facultatif) Indiquez si une personne cessionnaire est la personne cessionnaire principale de la tâche en sélectionnant la case d’option **Personne propriétaire** en regard de son nom. Une équipe ne peut pas être l’entité cessionnaire principale d’une tâche.
+1. (Facultatif) Mettez à jour les champs suivants :
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Type de durée</td> 
+      <td> <p>Cela identifie la relation entre les éléments suivants : </p> 
+       <ul> 
+      <li> <p>Nombre de ressources affectées à une tâche </p> </li> 
+      <li> <p>Effort total requis pour terminer la tâche </p> </li> 
+      <li> <p> Durée totale de la tâche. </p> </li> 
+       </ul> <p>Votre administrateur Workfront ou un administrateur de groupes sélectionne le paramètre Type de durée par défaut pour les tâches de votre système ou de votre groupe. Pour plus d'informations sur la définition des paramètres par défaut du projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurer les préférences de tâches et de problèmes à l'échelle du système</a>. </p> <p>Les types de durée vous permettent de définir des affectations de ressources cohérentes en fonction des besoins de la tâche. Pour plus d’informations sur le type de durée d’une tâche, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>. </p> <p>Sélectionnez l’une des options suivantes : </p> 
+       <ul> 
+      <li> <p>Calcul d'affectation </p> </li> 
+      <li> <p> Calcul de travail </p> </li> 
+      <li> <p>Piloté par l'effort </p> </li> 
+      <li> <p>Simple</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader">Durée par occurrence</td> 
+      <td> <p>Cela s’affiche uniquement sur le parent des tâches récurrentes. La durée de chaque tâche récurrente est affichée, telle que définie lors de la création de la tâche. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>. </p> <p> <b>NOTE</b>
+
+   Les durées modifiées dans des tâches récurrentes individuelles n’affichent pas la valeur indiquée dans ce champ. </p> </td>
+   </tr> 
+     <tr> 
+      <td role="rowheader">Durée</td> 
+      <td> 
+      <div> 
+      <div> 
+      <p>Il s’agit de la durée pendant laquelle vous laissez une tâche ouverte avant qu’elle soit terminée. </p> 
+      <p><b>IMPORTANT</b>
+
+   Comme la durée de la tâche correspond généralement à la durée entre les dates de début et d’achèvement prévues, elle affecte la chronologie du projet.</p>
+
+   <p>Pour indiquer la durée de la tâche et l’unité de temps, procédez comme suit :</p> 
+      <ul> 
+      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Saisissez la durée et sélectionnez l’unité de temps disponible dans le menu déroulant.</p> <p><b>CONSEIL</b></p>
+      Lorsque vous mettez à jour la durée des tâches dans une liste de tâches, vous pouvez utiliser l’abréviation pour l’unité de temps. </p> </li> 
+      </ul> 
+      <p> Vous pouvez choisir parmi les options de temps normal ou de temps écoulé dans le tableau suivant : </p> 
+      <table style="table-layout:auto"> 
+      <col> 
+      <col data-mc-conditions=""> 
+      <tbody> 
+      <tr> 
+      <td>Unité de temps</td> 
+      <td>Abréviation</td> 
+      </tr> 
+      <tr> 
+      <td>Minutes</td> 
+      <td>L</td> 
+      </tr> 
+      <tr> 
+      <td>Heures</td> 
+      <td>H</td> 
+      </tr> 
+      <tr> 
+      <td>Jours. Il s’agit de la valeur par défaut. </td> 
+      <td>Dés</td> 
+      </tr> 
+      <tr> 
+      <td>Semaines</td> 
+      <td>S</td> 
+      </tr> 
+      <tr> 
+      <td>Mois</td> 
+      <td>M</td> 
+      </tr> 
+      <tr> 
+      <td>Minutes écoulées</td> 
+      <td>ME</td> 
+      </tr> 
+      <tr> 
+      <td>Heures écoulées</td> 
+      <td>HE</td> 
+      </tr> 
+      <tr> 
+      <td>Jours écoulés</td> 
+      <td>JE</td> 
+      </tr> 
+      <tr> 
+      <td>Semaines écoulées</td> 
+      <td>SE</td> 
+      </tr> 
+      <tr> 
+      <td>Mois écoulés</td> 
+      <td>TE</td> 
+      </tr> 
+      </tbody> 
+   </table>
+
+   <p><b>NOTE</b>
+
+   <p>Le temps écoulé est une unité de temps pour la durée d’une tâche. Il s’agit de la durée entre la date de début et la date d’achèvement prévues d’une tâche qui comprend les jours fériés, les week-ends et les jours de congé. En d’autres termes, le temps écoulé est le nombre de jours calendaires écoulés.
+
+   Le temps normal prend en compte les jours fériés, les week-ends et les jours de congé et les exclut de la durée de la tâche. Pour plus d’informations sur la durée de la tâche, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>. </p>
+   </div> 
+      </div> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Heures prévues</td> 
+      <td> <p>Spécifiez le nombre d’heures prévues pour la tâche, en heures. Il s’agit de la quantité de temps réel nécessaire aux personnes assignées à la tâche pour la terminer. Vous ne pouvez spécifier le nombre d'heures prévues pour une tâche que lorsque le type de durée est défini sur Calcul d'affectation. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>.</p> 
+      <b>NOTE</b>
+      <p>
+      Lors de la création de tâches récurrentes, les heures prévues sont celles de chaque occurrence. Les heures prévues des tâches parent correpondent au nombre total d’heures prévues de toutes les occurrences. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>.
+      </p>
+
+   </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Allocation</td> 
+      <td> <p>Si la contrainte de tâche est Calcul de travail ou Piloté par l’effort, spécifiez la variable <strong>% d’affectation</strong> (pourcentage d’affectation) pour chaque personne cessionnaire. Il s’agit de la durée dans le planning de la personne cessionnaire qui peut être consacrée à cette tâche. La modification du pourcentage d’affectation d’une personne cessionnaire modifie le nombre d’heures prévues d’une tâche. </p> <p>Lorsque la contrainte de tâche est simple, vous pouvez spécifier les éléments suivants :</p> 
+         <ul> 
+         <li> <p>Nombre d’heures d’affectation de chaque personne cessionnaire.</p> </li> 
+         <li> <p>Nombre d’heures prévues de la tâche.</p> </li> 
+         <li> <p>Durée de la tâche.</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Rôle du cessionnaire</td> 
+      <td> <p>Sélectionnez un rôle dans le menu déroulant <strong>Rôle de la personne cessionnaire</strong> lorsque vous avez sélectionné une personne comme personne cessionnaire. Il s’agit du rôle que la personne cessionnaire peut remplir pour cette tâche. </p> <p><b>CONSEIL</b>
+
+   Seules les fonctions associées à chaque personne cessionnaire dans son profil s’affichent dans le menu déroulant.</p> </td>
+   </tr>
+   </tbody>
+   </table>
 
 1. Cliquez sur **Enregistrer les modifications** <!--<span class="preview"> or **Save** </span> --> ou reportez-vous aux sections suivantes.
 

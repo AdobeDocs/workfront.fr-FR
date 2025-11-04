@@ -6,10 +6,10 @@ description: Vous pouvez créer et supprimer des modèles à partir de la zone M
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 61%
+source-wordcount: '654'
+ht-degree: 59%
 
 ---
 
@@ -112,7 +112,25 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
    ![Nouvelle zone de tâche de modèle](assets/new-template-task-box.png)
 
-1. Mettez à jour les informations dans les domaines suivants :
+   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+
+   <!--
+   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+   <div class="preview">
+   * Template Task Name
+   * Overview
+   * Assignments
+   * Finance
+   * Custom Forms
+   * Documents
+   * Settings 
+   </div>
+   1. Click **Save**
+   Or (*******remove the 1. from the step below and continue with those steps here*********)
+   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
+   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. Mettez à jour les informations dans les zones suivantes de la zone **Nouvelle tâche de modèle** :
 
    * Vue d’ensemble
    * Finances
@@ -121,7 +139,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    * Formulaires personnalisés
    * Joindre le document
 
-     La mise à jour des informations d’une tâche de modèle est similaire à la modification des tâches d’un projet. Pour plus d’informations, voir [Modifier des tâches](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+     La mise à jour des informations d’une tâche de modèle est similaire à la modification des tâches d’un projet. Pour plus d&#39;informations, voir [Modifier les tâches](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). <!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
 
    >[!NOTE]
    >
@@ -165,7 +183,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    * Frais
    * Approbations
 
-   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [&#x200B; Modifier les modèles de projet &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [ Modifier les modèles de projet ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 
 
