@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
+source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
 workflow-type: tm+mt
-source-wordcount: '8980'
+source-wordcount: '8992'
 ht-degree: 2%
 
 ---
@@ -96,7 +96,11 @@ Pour plus d’informations, voir [Créer et modifier des risques sur les projets
 
 **Version préliminaire : 23 octobre 2025 ; Version de production pour tous les clients : à partir de la semaine du 30 octobre 2025**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
+
+>[!NOTE]
+>
+>Cette fonctionnalité a été temporairement supprimée de l’environnement de production le 4 novembre 2025.
 
 Nous avons mis à jour l’aspect du calendrier des congés personnels, y compris la possibilité de déléguer les approbations, pour qu’il corresponde aux autres zones de la demande.
 
@@ -769,7 +773,7 @@ Pour plus d’informations, voir [Configurer les informations de base de votre s
 
 Nous avons mis à jour la page Importer des données (Kick-Starts) dans la zone Configuration avec une conception plus moderne et cohérente avec les autres zones de Workfront. En outre, le processus d’importation Kickstart a été simplifié afin que le fichier sélectionné soit chargé immédiatement. Il n’est plus nécessaire de cliquer sur un bouton **Charger** distinct pour terminer l’importation après avoir choisi le fichier.
 
-Pour plus d’informations, voir [&#x200B; Importer des données dans Workfront à l’aide d’un modèle Kickstart &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Pour plus d’informations, voir [ Importer des données dans Workfront à l’aide d’un modèle Kickstart ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Mises à jour de l&#39;interface de la liste des types de dépenses
 
@@ -924,7 +928,7 @@ Pour plus d’informations, voir [Créer et modifier des risques dans les projet
 
 Nous avons mis à jour l’aspect de la zone Copier le modèle pour qu’elle corresponde à la conception d’autres zones de Workfront.
 
-Pour plus d’informations, voir [&#x200B; Copier un modèle de projet &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+Pour plus d’informations, voir [ Copier un modèle de projet ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
 
 +++
