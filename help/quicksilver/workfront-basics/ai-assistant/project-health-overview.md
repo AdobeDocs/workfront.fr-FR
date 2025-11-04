@@ -5,10 +5,10 @@ description: La fonctionnalité d’intégrité du projet utilise la puissance d
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
+source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 4%
+source-wordcount: '1969'
+ht-degree: 3%
 
 ---
 
@@ -81,6 +81,107 @@ Pour activer l’assistant AI et l’intégrité du projet pour votre organisati
 
 Pour plus d’informations, consultez [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) et [Configuration des préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
+## Méthode de calcul de l’intégrité du projet
+
+L’assistant AI vous donne une évaluation rapide de l’état global d’un projet en lui affectant l’un des états d’intégrité de projet disponibles :
+
+* Dans les temps
+* En danger
+* En difficulté
+
+Cet état est calculé à l’aide des composants du projet et du programme, tels que l’avancement du projet, le travail sous-estimé, etc. Pour obtenir la liste complète des composants utilisés pour mesurer l’intégrité du projet, reportez-vous à la section [Liste des états du projet et du programme](#project-and-program-states-list).
+
+Chaque composant de projet se voit attribuer une note de risque numérique comprise entre (0 et 100), qui est ensuite moyennée pour créer l’état d’intégrité global du projet :
+
+* Respect de l’objectif (75 ans ou plus) : les performances du projet se situent dans les seuils prévus.
+* En danger (50-74) : des problèmes émergents sont détectés qui peuvent avoir une incidence sur la performance du projet.
+* En difficulté (49 ans ou moins) : les performances du projet sont inférieures aux seuils acceptables et nécessitent une attention immédiate.
+
+>[!NOTE]
+>
+>* Actuellement, l’assistant AI évalue uniquement les données du projet sélectionné.
+>* L’analyse transversale ou historique n’est pas encore incluse dans le calcul de l’intégrité du projet.
+
+### Exemples de calcul de l’intégrité d’un projet
+
+Dans le premier exemple, quatre composantes du projet sont évaluées et leurs scores de risque individuels sont calculés comme suit :
+
+* 2 Dans les temps (score de risque de 90)
+* 1 À Risque (45 score de risque)
+* 1 En difficulté (20 score de risque)
+
+Si vous faites la moyenne de ces scores, le résultat est de 61. En utilisant les critères d’état d’intégrité du projet répertoriés ci-dessus, ce projet est à l’état En danger.
+
+Dans l’exemple suivant, une modification de planification d’un jour s’est produite au début de la chronologie du projet. Dans ce scénario, l’assistant AI évalue à la fois le calendrier et l’impact de la modification par rapport à la durée globale du projet :
+
+* Un changement de planning d’un jour au début d’un calendrier de projet de 60 jours est mineur et généralement noté comme Atteint la cible.
+* Un changement de calendrier d’un jour proche de la date d’achèvement d’un projet est plus perturbateur et peut être noté En danger ou En difficulté.
+
+Étant donné que la modification était mineure et s’est produite au début de la chronologie du projet, le projet est ainsi à l’état Ciblé.
+
+Si plusieurs modifications de planification se produisent dans la chronologie d’un projet, elles sont notées puis moyennées avant d’être appliquées au calcul de l’intégrité du projet.
+
+## Comprendre la différence entre les conditions du projet et l&#39;intégrité du projet
+
+Les conditions du projet et l&#39;intégrité du projet sont des concepts similaires dans Workfront et portent les mêmes noms par défaut pour décrire la condition ou l&#39;état du projet (Ciblé, À risque et À problème), mais ils ont des objectifs différents.
+
+Les conditions d’un projet donnent un aperçu de base des performances actuelles d’un projet, en fonction uniquement des dates prévues, prévues et estimées. Il peut être défini manuellement par le propriétaire du projet ou automatiquement par Workfront en fonction des tâches du projet. L’intégrité du projet est également plus complète et évalue des facteurs supplémentaires, ce qui vous permet de mieux comprendre ses performances.
+
+Pour plus d’informations sur les conditions du projet, voir [Conditions personnalisées](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Liste des états de projet et de programme
+
+Le tableau ci-dessous contient une répartition des états disponibles que l’assistant AI attribuera à votre projet ou programme lors de la génération d’une évaluation de l’intégrité du projet.
+
+<table>
+    <tr>
+        <td><b>Statut du projet</b></td>
+        <td><b>Définition</b></td>
+        <td><b>Facteurs</b></td>
+    </tr>
+    <tr>
+        <td>Dans les temps</td>
+        <td>Ce niveau de risque est attribué lorsque le niveau de risque moyen pour les facteurs suivants se situe à l’intérieur du seuil sain.
+        </td>
+        <td> 
+        <ul><li>Dérive des objectifs</li>
+        <li>Champs manquants</li>
+        <li>Modifications de planning</li>
+        <li>Travail sous-estimé</li>
+        <li>Progression du projet</li>
+        <li>Tâches en retard</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>En danger</td>
+        <td>Ce niveau de risque est attribué lorsque le niveau de risque moyen pour les facteurs suivants tombe juste en dessous du seuil sain.</td>
+        <td>
+        <ul><li>Dérive des objectifs</li>
+        <li>Champs manquants</li>
+        <li>Modifications de planning</li>
+        <li>Travail sous-estimé</li>
+        <li>Progression du projet</li>
+        <li>Tâches en retard</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>En difficulté</td>
+        <td>Ce niveau de risque est attribué lorsque le niveau de risque moyen pour les facteurs suivants est inférieur au seuil sain.</td>
+        <td>
+        <ul><li>Dérive des objectifs</li>
+        <li>Champs manquants</li>
+        <li>Modifications de planning</li>
+        <li>Travail sous-estimé</li>
+        <li>Progression du projet</li>
+        <li>Tâches en retard</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    </tr>
+   </table>
+
 ## Liste des invites de l&#39;assistant AI
 
 Vous trouverez ci-dessous une liste d’invites que vous pouvez utiliser pour demander à AI Assessment de générer une évaluation de l’intégrité d’un projet, d’un programme ou de tous les projets de votre compte.
@@ -109,60 +210,6 @@ Vous trouverez ci-dessous une liste d’invites que vous pouvez utiliser pour de
        <tr>
         <td>N’importe quelle page dans Workfront </td>
         <td><em>Quelle est la santé du programme [NOM DU PROGRAMME] ?</em></td>
-    </tr>
-   </table>
-
-
-## Liste des conditions du projet et du programme
-
-Vous trouverez ci-dessous les conditions disponibles que l’assistant AI attribuera à votre projet ou programme lors de la génération d’une évaluation de l’intégrité du projet.
-
-<table>
-    <tr>
-        <td><b>Statut du projet</b></td>
-        <td><b>Statut de la progression du projet</b></td>
-        <td><b>Facteurs de statut du projet</b></td>
-    </tr>
-    <tr>
-        <td>Dans les temps</td>
-        <td>Cette analyse est attribuée lorsque le niveau de risque moyen pour les facteurs suivants se situe dans le seuil sain.
-        </td>
-        <td> 
-        <ul><li>Dérive des objectifs</li>
-        <li>Champs manquants</li>
-        <li>Modifications de planning</li>
-        <li>Travail sous-estimé</li>
-        <li>Progression du projet</li>
-        <li>Tâches en retard</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>En danger</td>
-        <td>Cette analyse est effectuée lorsque le niveau de risque moyen pour les facteurs suivants tombe juste en dessous du seuil sain.</td>
-        <td>
-        <ul><li>Dérive des objectifs</li>
-        <li>Champs manquants</li>
-        <li>Modifications de planning</li>
-        <li>Travail sous-estimé</li>
-        <li>Progression du projet</li>
-        <li>Tâches en retard</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>En difficulté</td>
-        <td>Cette analyse est effectuée lorsque le niveau de risque moyen pour les facteurs suivants est inférieur au seuil sain.</td>
-        <td>
-        <ul><li>Dérive des objectifs</li>
-        <li>Champs manquants</li>
-        <li>Modifications de planning</li>
-        <li>Travail sous-estimé</li>
-        <li>Progression du projet</li>
-        <li>Tâches en retard</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
     </tr>
    </table>
 
@@ -261,7 +308,7 @@ Pour plus d’informations, consultez la section suivante de cet article : [Gér
 
    ![Évaluation de l’intégrité du projet](assets/health-assessment.png)
 
-   Si vous générez une évaluation pour un portefeuille, plusieurs badges seront répertoriés indiquant l&#39;état de chaque projet dans le programme. Pour plus d’informations sur les libellés des badges, consultez la section suivante de cet article : [Liste des conditions du projet et du programme](#project-and-program-conditions-list).
+   Si vous générez une évaluation pour un portefeuille, plusieurs badges seront répertoriés indiquant l&#39;état de chaque projet dans le programme. Pour plus d’informations sur les libellés des badges, consultez la section suivante de cet article : [Liste des états des projets et des programmes](#project-and-program-states-list).
 
 1. (Facultatif) Cliquez sur l’un des points d’évaluation pour en développer les détails.
 
