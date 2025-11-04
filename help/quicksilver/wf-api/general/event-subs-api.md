@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '3031'
+source-wordcount: '3060'
 ht-degree: 68%
 
 ---
@@ -60,6 +60,7 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 * Entreprise
 * Tableau de bord
 * Document
+* Version du document
 * Frais
 * champ
 * Heure
@@ -68,9 +69,16 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 * Portfolio
 * Programme
 * Projet
+* Approbation d&#39;épreuve
 * Enregistrement
 * Type d’enregistrement
 * Rapport
+* Plan de recrutement
+* Valeur du paramètre du plan d&#39;affectation de personnel
+* Ressource du plan de recrutement
+* Valeur D&#39;Attribut De Ressource Du Plan De Dotation En Personnel
+* Valeur D&#39;Attribut De Ressource Du Plan De Dotation En Personnel Définie
+* Valeur du paramètre de ressource du plan d&#39;affectation de personnel
 * Tâche
 * Modèle
 * Feuille de temps
@@ -816,7 +824,7 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 >[!NOTE]
 >
 >L’abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur `oldState`, ce qu’il était avant qu’une mise à jour ne soit effectuée sur la tâche.
->&#x200B;>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
+>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
 
 ```
 {

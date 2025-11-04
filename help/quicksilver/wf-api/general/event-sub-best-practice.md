@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 77%
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ N’incluez pas de champs de corps supplémentaires dans la requête, car cela e
 
 ## Éviter de surcharger les abonnements aux événements
 
-Le service d’abonnement aux événements est conçu pour fournir une diffusion fiable des événements à tous les utilisateurs. Pour ce faire, des mesures de protection ont été mises en place pour éviter une production excessive d’événements par un seul utilisateur, ce qui pourrait entraîner des problèmes potentiels de qualité de service pour tous les utilisateurs. Par conséquent, un utilisateur ou une utilisatrice qui produit trop d’événements à un taux élevé sur une courte période peut faire l’objet de sandbox et de retards de diffusion d’événements.
+Le service d’abonnement aux événements est conçu pour fournir une diffusion fiable des événements à tous les utilisateurs. Pour ce faire, des mesures de protection ont été mises en place pour éviter une production excessive d’événements par une seule personne, qui pourrait entraîner des problèmes de qualité de service pour tout le monde. Par conséquent, un utilisateur ou une utilisatrice qui produit trop d’événements à un taux élevé sur une courte période peut faire l’objet de mise en sandbox et de retards de diffusion d’événements.
 
 ## Terminer le test dans le délai de grâce
 
@@ -53,6 +53,4 @@ Pour créer, interroger ou supprimer un abonnement à un événement, votre util
 * Un niveau d’accès **Administrateur ou administratrice système**
 Pour en savoir plus, consultez [Attribuer un accès administratif complet à un utilisateur ou une utilisatrice](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) ou [Attribuer aux utilisateurs et utilisatrices un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* Un en-tête `sessionID` est requis pour utiliser l’API d’abonnement aux événements.
-
-  Pour plus d’informations, consultez la section [Authentification](api-basics.md#authentication) dans [Concepts de base de l’API](api-basics.md).
+* Si votre organisation utilise Adobe IMS (système Identity Management), incluez un jeton d’utilisateur IMS transmis dans l’en-tête `X-User-Token`.

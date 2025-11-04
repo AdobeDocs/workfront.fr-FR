@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 85%
+source-wordcount: '1043'
+ht-degree: 75%
 
 ---
 
@@ -487,7 +487,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>Note : LastUpdateDate ne déclenche un événement que la première fois qu’il est mis à jour chaque jour. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>REMARQUE : LastUpdateDate ne déclenche un événement que la première fois qu'elle est mise à jour au cours de chaque journée. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -527,12 +527,32 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>checkoutByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>currentVersionID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>customer:ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>customer:isAdvancedDocMgmtEnabled</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customer:name</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customer:objCode</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -633,6 +653,16 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
    <td> </td> 
    <td> </td> 
    <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>project:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>projet : portfolioID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -762,6 +792,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
+   <td><span>parameterValues</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
    <td><span>proofApprovalStatusID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -817,6 +852,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   <tr> 
    <td>Frais</td> 
    <td>EXPNS</td> 
+   <td>accessorIDs </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> actualAmount </td> 
   </tr> 
   <tr> 
@@ -1117,7 +1157,22 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>assignedApproverID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>billingRecordID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>classifierID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1212,6 +1267,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>changedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>roleID</td> 
   </tr> 
   <tr> 
@@ -1223,6 +1283,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
    <td> </td> 
    <td> </td> 
    <td>statut</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>submittedByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1577,6 +1642,16 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>project:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>projet : portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>proofActionID</td> 
   </tr> 
   <tr> 
@@ -1797,6 +1872,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>aemNativeFolderTreesRefID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>alignmentScoreCardID</td> 
   </tr> 
   <tr> 
@@ -1808,6 +1888,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
    <td> </td> 
    <td> </td> 
    <td>attachedRateCardID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachmentRateCard:sourceID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1952,12 +2037,22 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>preserveBilling</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
    <td>priorité</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>privateRateCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2128,6 +2223,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
    <td> </td> 
    <td> </td> 
    <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedBy</td> 
   </tr> 
   <tr> 
    <td>Type d’enregistrement<p><p>(Sous-sections Événement v2)</p> </td> 
@@ -2340,6 +2440,413 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
    <td>viewID</td> 
   </tr> 
   <tr> 
+   <td>Plan de recrutement<p>(Sous-sections Événement v2)</p></td> 
+   <td>PERSONNEL</td> 
+   <td>accessorIDs</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachedRateCardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> companyID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> currency </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> customerID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>description</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>endDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>enteredByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>entryDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>groupID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>name</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ownerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterValues</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>privateRateCardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>referenceNumber</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>startDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedCost</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedHours</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedRevenue</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>url</td> 
+  </tr> 
+  <tr> 
+   <td>Valeur du paramètre du plan d'affectation de personnel <p>(Sous-sections Événement v2)</p></td> 
+   <td>SPVAL</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>dateVal</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> numberVal </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterName</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>richTextID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>textVal</td> 
+  </tr> 
+  <tr> 
+   <td>Ressource du plan de recrutement <p>(Sous-sections Événement v2)</p></td> 
+   <td>PERSONNEL</td> 
+   <td>accessorIDs</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>assignedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>assignedToID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> categoryID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> customerID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> entryDate </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>olv</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterValues</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>roleID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>staffPlanID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedCost</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedHours</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedRevenue</td> 
+  </tr> 
+  <tr> 
+   <td>Valeur D'Attribut De Ressource Du Plan De Dotation En Personnel<p>(Sous-sections Événement v2)</p></td> 
+   <td>SPAVAL</td> 
+   <td>attributeAttachableID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attributeValueSetID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> rateAttributeID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refClassifierID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refCompanyID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refGroupID</td> 
+  </tr> 
+  <tr> 
+   <td>Valeur D'Attribut De Ressource Du Plan De Dotation En Personnel Définie <p>(Sous-sections Événement v2)</p></td> 
+   <td>SAVSET</td> 
+   <td>attributeAttachableID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> systemGenerated </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td>Valeur du paramètre de ressource du plan d'affectation de personnel <p>(Sous-sections Événement v2)</p></td> 
+   <td>VALIDATION</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>dateVal</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> numberVal </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objID</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterName</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>richTextID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>textVal</td> 
+  </tr> 
+  <tr> 
    <td>Tâche</td> 
    <td>TASK</td> 
    <td>accessorIDs</td> 
@@ -2488,6 +2995,16 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
    <td> </td> 
    <td> </td> 
    <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>project:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>projet : portfolioID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2978,6 +3495,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
    <td> </td> 
    <td> </td> 
    <td>uumUserID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>userRoles <p>REMARQUE : peut uniquement utiliser l’opérateur de comparaison modifié pour ce champ</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
