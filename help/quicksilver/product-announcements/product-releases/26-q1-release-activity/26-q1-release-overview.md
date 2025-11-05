@@ -4,7 +4,7 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1c4f81babf6cdc6579fa633c1a776c151219a6bf
+source-git-commit: 7900629ccffae809ed97dbeae5d27ddff69536d5
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 22%
@@ -31,7 +31,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >|----|----|
 >| <ul><li>Version 25.11 (13 Novembre 2025)</li><li>Version 25.12 (11 Décembre 2025)</li><li>26.1 (14 janvier 2026)</li></ul> | <ul><li>26.1 (15 janvier 2026)</li></ul> |
 >
->Notez que pour la version finale de chaque trimestre (25.10 ce trimestre), les utilisateurs disposant du planning de publication rapide recevront la version un jour plus tôt (15 octobre 2025).
+>Notez que pour la version finale de chaque trimestre (26.1 ce trimestre), les utilisateurs disposant du planning de publication rapide recevront la version un jour plus tôt (14 janvier 2026).
 >
 >Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -236,7 +236,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
