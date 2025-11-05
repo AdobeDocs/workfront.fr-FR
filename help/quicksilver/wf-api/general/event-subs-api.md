@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
 workflow-type: tm+mt
-source-wordcount: '3060'
-ht-degree: 68%
+source-wordcount: '3097'
+ht-degree: 67%
 
 ---
 
@@ -153,6 +153,10 @@ La ressource d&#39;abonnement contient les champs suivants.
         <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Version du document</p></td> 
+        <td scope="col">DOCV </td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>Frais</p></td> 
         <td scope="col">EXPNS</td> 
        </tr> 
@@ -185,6 +189,10 @@ La ressource d&#39;abonnement contient les champs suivants.
         <td scope="col"><p>PROJ</p></td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Approbation d'épreuve</p></td> 
+        <td scope="col"><p>PRFAPL</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>Enregistrement</p></td> 
         <td scope="col"><p>RECORD</p></td> 
        </tr> 
@@ -195,6 +203,30 @@ La ressource d&#39;abonnement contient les champs suivants.
        <tr> 
         <td scope="col"><p>Rapport</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Plan de recrutement</p></td> 
+        <td scope="col"><p>PERSONNEL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Valeur du paramètre du plan d'affectation de personnel</p></td> 
+        <td scope="col"><p>SPVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Ressource du plan de recrutement</p></td> 
+        <td scope="col"><p>PERSONNEL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Valeur D'Attribut De Ressource Du Plan De Dotation En Personnel</p></td> 
+        <td scope="col"><p>SPAVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Valeur D'Attribut De Ressource Du Plan De Dotation En Personnel Définie</p></td> 
+        <td scope="col"><p>SAVSET</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Valeur du paramètre de ressource du plan d'affectation de personnel</p></td> 
+        <td scope="col"><p>VALIDATION</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Tâche</p></td> 
