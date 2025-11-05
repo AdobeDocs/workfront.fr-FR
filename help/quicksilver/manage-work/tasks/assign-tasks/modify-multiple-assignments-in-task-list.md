@@ -7,20 +7,28 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 93%
+source-wordcount: '932'
+ht-degree: 92%
 
 ---
 
 # Modifier plusieurs affectations d’utilisateurs et utilisatrices dans une liste de tâches
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2025-->
 
 <!--
-<p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
+this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
+
+<!--<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 Lors de la gestion des affectations de tâche, vous pouvez simultanément les modifier pour plusieurs tâches à la fois à l’aide de la fonction de modification en masse d’une liste de tâches.
 
@@ -117,14 +125,17 @@ When assigning users to work, their availability according to their schedules af
 
 1. Sélectionnez les tâches pour lesquelles vous souhaitez modifier les affectations, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
 
-   La page Modifier les tâches s’affiche. Les éléments que vous modifiez s’affichent dans le coin supérieur gauche de la page.
+   La boîte de dialogue **Modifier les tâches** s’ouvre <!--<span class="preview">in the new experience</span>-->.
+
+   <!--1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
+   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>-->
 
 1. Accédez à la section **Affectations**.
-1. Pour ajouter ou supprimer des cessionnaires, effectuez l’une des opérations suivantes :
 
    >[!IMPORTANT]
    >
    >La suppression de cessionnaires peut affecter les heures de la tâche et les pourcentages d’allocation. Pour plus d’informations, voir la section [Impact de la suppression de cessionnaires sur les heures de tâche et les pourcentages d’allocation](#how-removing-assignees-affects-task-hours-and-allocation-percentages) dans cet article.
+1. Pour ajouter ou supprimer des cessionnaires, effectuez l’une des opérations suivantes :
 
    * Pour ajouter un ou une cessionnaire :
 
@@ -180,3 +191,17 @@ When assigning users to work, their availability according to their schedules af
    * **Rôle de la personne cessionnaire** : sélectionnez un rôle dans la liste déroulante. Si cette option n’est pas sélectionnée, Adobe Workfront sélectionne automatiquement le rôle principal de la personne.
 
 1. Cliquez sur **Enregistrer les modifications.**
+
+<!--
+1. <span class="preview"> (Optional) Click **Try new experience** in the upper-right corner of the **Edit Tasks** box. The Edit Tasks box opens in the new experience. Do one of the following:</span>
+
+   <div class="preview">
+
+   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+   * Click Assign to me to assign the selected tasks to yourself.
+
+   </div>
+1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
+
+-->

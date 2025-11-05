@@ -2,19 +2,19 @@
 product-area: templates
 keywords: task,defaults,automate,creation
 navigation-topic: templates-navigation-topic
-title: Modifier une tâche de modèle
+title: Modifier la tâche de modèle
 description: Après avoir créé un modèle, vous pouvez modifier les informations relatives aux tâches du modèle. Les informations que vous mettez à jour sur une tâche de modèle sont associées à des tâches de projet une fois que vous avez utilisé le modèle pour créer un projet ou que vous avez joint le modèle à un projet.
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2629'
 ht-degree: 78%
 
 ---
 
-# Modifier une tâche de modèle
+# Modifier les tâches de modèles
 
 <!--Audited: 11/2025-->
 

@@ -7,16 +7,18 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 81%
+ht-degree: 80%
 
 ---
 
 # Créer des affectations avancées
 
-<!-- Audited: 07/2024-->
+<!-- Audited: 11/2025-->
+
+<!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
 <!--
 <div class="preview"> 
@@ -49,8 +51,7 @@ Cet article décrit comment accéder à des affectations avancées dans l’en-t
 En outre, vous pouvez effectuer des affectations avancées dans les zones suivantes de Workfront :
 
 * Dans les listes et les rapports lorsque le champ Affectations s’affiche dans la vue.
-* Dans la section Affectations lors de la modification d’une tâche. Pour plus d’informations, voir [Modifier des tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-  <!--* In the Production environment, in the Assignments section when editing a task. <span class="preview">This has been removed from the Preview environment.</span> For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).-->
+* Dans la section Affectations lors de la modification d’une tâche. Pour plus d&#39;informations, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
 * Dans l’en-tête de la tâche ou du problème, dans la zone Affectations.
 * Dans l’équilibreur de charge de travail. Pour plus d’informations, voir [Attribuer manuellement du travail à l’aide de l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 

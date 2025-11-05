@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 3d12c144552474439b247739b47de9454a2233f2
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1821'
 ht-degree: 92%
 
 ---
@@ -208,7 +208,7 @@ Pour créer un processus d’approbation à usage unique :
    >Une fois que vous avez joint le processus d’approbation à usage unique, il s’affiche comme « `<Custom>` » dans le champ Processus d’approbation à l’intérieur de la zone Modifier des modèles et des tâches de modèle. Pour plus d’informations sur la modification des modèles ou des tâches de modèle, voir les articles suivants :
    >
    >* [Modifier les modèles de projet](../../manage-work/projects/create-and-manage-templates/edit-templates.md)
-   >* [Modifier une tâche de modèle](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
+   >* [Modifier les tâches de modèles](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
 
    <!--
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be removed when they bring the new Edit Template/ Template Task boxes to NWE) </p>   >
@@ -233,7 +233,7 @@ Pour retirer ou supprimer un processus d’approbation d’un élément de trava
 1. Cliquez sur l’une des icônes suivantes dans le coin supérieur droit de la section Approbations, en fonction du type d’approbation associé à l’élément :
 
    * **Icône Supprimer** Icône ![Supprimer](assets/remove-icon---x-in-circle.png) pour les approbations globales ou au niveau du groupe.
-   * **&#x200B;**&#x200B;Icône Supprimer ![Icône Supprimer](assets/delete.png) pour les validations à usage unique.
+   * **** Icône Supprimer ![Icône Supprimer](assets/delete.png) pour les validations à usage unique.
 
 1. Cliquez sur **Retirer** ou **Supprimer** pour confirmer.
 

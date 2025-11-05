@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 69d3b6d93ce4ceaf66a7886704023de494cde35d
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '13516'
+source-wordcount: '13515'
 ht-degree: 84%
 
 ---
@@ -1247,7 +1247,7 @@ ht-degree: 84%
          * [Joindre un modèle à un projet](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
          * [Copier et déplacer les tâches du modèle](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [Modifier les modèles de projet](manage-work/projects/create-and-manage-templates/edit-templates.md)
-         * [Modifier une tâche de modèle](manage-work/projects/create-and-manage-templates/edit-template-task.md)
+         * [Modifier les tâches de modèles](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [Supprimer une tâche de modèle](manage-work/projects/create-and-manage-templates/delete-template-tasks.md)
          * [Créer un modèle à partir d’un projet](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
          * [Partager des modèles de projet](manage-work/projects/create-and-manage-templates/share-project-template.md)
@@ -2516,7 +2516,7 @@ ht-degree: 84%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)

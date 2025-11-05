@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1826'
 ht-degree: 93%
 
 ---
@@ -224,11 +224,7 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 
 1. Après avoir ajouté les personnes cessionnaires à la tâche, appuyez sur Entrée ou cliquez n’importe où sur la page pour enregistrer vos modifications si vous avez sélectionné Enregistrement automatique. Sinon, cliquez sur **Enregistrer**.
 
-## Affectation en bloc de plusieurs tâches à un utilisateur à partir d’une liste
-
-<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
-
-### Assign multiple tasks to a user in the Production environment-->
+## Affecter plusieurs tâches en bloc à partir d’une liste
 
 1. Accédez à la liste des tâches que vous souhaitez affecter en masse.
 1. (Le cas échéant) Assurez-vous que l’option **Enregistrement automatique** est sélectionnée si vous vous trouvez dans la liste des tâches d’un projet.
@@ -240,7 +236,11 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 1. Sélectionnez plusieurs tâches dans la liste des tâches.
 1. Cliquez sur **Modifier**.
 
-   La boîte de dialogue **Modifier les tâches** s’ouvre.
+   La boîte de dialogue **Modifier les tâches** s’ouvre <!--<span class="preview">in the new experience</span>-->.
+
+   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
 
 1. Dans la zone **Affectations**, sélectionnez la zone **Personne cessionnaire**, puis commencez à saisir le nom d’une personne, d’une fonction ou d’une équipe que vous souhaitez affecter à toutes les tâches.
 
@@ -274,7 +274,7 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 <!--
 <div class="preview">
 
-### Assign multiple tasks to a user in the Preview environment
+### Assign multiple tasks in bulk from a list in the new experience
 
 1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.

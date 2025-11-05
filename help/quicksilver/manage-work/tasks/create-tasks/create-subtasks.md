@@ -6,10 +6,10 @@ description: Dans Adobe Workfront, les tâches peuvent avoir des relations paren
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 83%
+source-wordcount: '572'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 
 <!-- Audited: 01/2025 -->
 
-Dans Adobe Workfront, les tâches peuvent avoir des relations parent-enfant. Les tâches enfant sont appelées sous-tâches. Vous pouvez créer des sous-tâches dans la liste des tâches en convertissant une tâche principale en sous-tâche. L’opération inverse est également possible.
+Dans Adobe Workfront, les tâches peuvent avoir des relations parent-enfant. Les tâches enfant sont appelées sous-tâches. Vous pouvez créer des sous-tâches dans la liste des tâches en faisant d&#39;une tâche principale une sous-tâche d&#39;une autre tâche. L’opération inverse est également possible.
 
 ## Conditions d’accès
 
@@ -84,6 +84,11 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 Vous pouvez créer des sous-tâches à partir de la liste des tâches ou de la section Sous-tâches de tâche.
 
+>[!TIP]
+>
+>La création de sous-tâches pour un projet est similaire à la création de sous-tâches de modèle pour des tâches de modèle sur un modèle.
+
+
 ### Créer des sous-tâches à partir de la liste des tâches {#create-subtasks-from-the-task-list}
 
 1. Accédez au projet dans lequel vous souhaitez créer des sous-tâches.
@@ -116,9 +121,11 @@ Vous pouvez créer des sous-tâches à partir de la liste des tâches ou de la s
 1. Cliquez sur la section **Sous-tâches** dans le panneau de gauche, le cas échéant.
 1. Cliquez sur **Nouvelle tâche.**
 
-   Suivez la procédure décrite dans l’article suivant pour continuer à créer la sous-tâche : [Créer des tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Pour plus d’informations sur la création de tâches, voir [Créer des tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 1. Cliquez sur **Créer une tâche.**
+
+   La nouvelle tâche est créée en tant que sous-tâche de la tâche que vous avez sélectionnée à l&#39;étape 3. <!--ensure this is accurate-->
 
 ## Convertir une sous-tâche en tâche principale
 
