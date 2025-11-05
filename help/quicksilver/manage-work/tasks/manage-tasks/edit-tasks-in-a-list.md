@@ -528,7 +528,7 @@ Pour plus d’informations sur la modification d’une tâche, voir [Modifier le
       </div>-->
    <!--<span class="preview">1. Click **Save**.</span>
    <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
-1. <!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Indiquez les informations à modifier pour toutes les tâches sélectionnées dans l’une des zones suivantes :
+1. &#x200B;<!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Indiquez les informations à modifier pour toutes les tâches sélectionnées dans l’une des zones suivantes :
 
    * Vue d’ensemble
    * Paramètres
@@ -548,5 +548,5 @@ Pour plus d’informations sur la modification d’une tâche, voir [Modifier le
 
 
 1. (Facultatif) Dans la section **Custom Forms**, sélectionnez l’option **Recalculer les expressions personnalisées** pour vous assurer que tous les champs calculés personnalisés des formulaires personnalisés joints aux tâches sélectionnées sont à jour.
-1. Cliquez sur Enregistrer les modifications. **** Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
+1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
 
