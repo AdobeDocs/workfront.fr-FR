@@ -8,18 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 74%
+source-wordcount: '365'
+ht-degree: 78%
 
 ---
 
 # Réinitialiser les préférences d’un utilisateur ou d’une utilisatrice
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement d’aperçu de Sandbox et est publiée dans le cadre d’un déploiement échelonné en production.</span>
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez réinitialiser ou supprimer les paramètres des préférences d’un utilisateur ou d’une utilisatrice pour tout utilisateur ou toute utilisatrice du système Workfront.
 
@@ -106,8 +104,6 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | Préférence | Statut après la réinitialisation |
 | --- | --- |
 | Vues | Revient à la valeur par défaut du système <p>Les vues existantes ne sont pas supprimées. Vous pouvez les sélectionner à nouveau.</p> |
@@ -116,8 +112,6 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
 | Liste d&#39;éléments récents | Effacée |
 | Liste des favoris | Non affectée |
 | Préférences de l’utilisateur ou de l’utilisatrice | Revient à la valeur par défaut du système <p>Les notifications par e-mail reviennent aux valeurs par défaut du système. Les notifications par défaut sont répertoriées dans [Notifications d’événements disponibles dans Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
-
-</div>
 
 ## Réinitialiser les préférences de l’utilisateur ou de l’utilisatrice
 
@@ -148,8 +142,8 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
 
 1. Appuyez sur **Entrée**.
 
-1. <span class="preview">Pour réinitialiser toutes les préférences utilisateur, cliquez sur **Réinitialiser**.</span>
+1. Pour réinitialiser toutes les préférences utilisateur, cliquez sur **Réinitialiser**.
 
-   <span class="preview">Ou</span>
+   Ou
 
-   <span class="preview">Pour réinitialiser le volet de navigation de gauche de l’utilisateur à la configuration du modèle de mise en page d’origine, cliquez sur **Réinitialiser le volet de navigation de gauche**.</span>
+   Pour réinitialiser le volet de navigation de gauche de l’utilisateur à la configuration du modèle de mise en page d’origine, cliquez sur **Réinitialiser le volet de navigation de gauche**.
