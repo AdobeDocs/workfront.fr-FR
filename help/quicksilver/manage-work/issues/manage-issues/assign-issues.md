@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 79%
+source-wordcount: '1366'
+ht-degree: 78%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 79%
 
 <!--Audited: 10/2024-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Vous pouvez affecter des problèmes aux utilisateurs et utilisatrices, aux rôles et aux équipes afin d’indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la [Vue d’ensemble de la modification des affectations de problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -202,36 +202,39 @@ Pour plus d’informations, consultez la section « Affectations » de l’artic
 
 ## Affecter des problèmes en bloc
 
-L’affectation de problèmes en bloc est différente selon l’environnement que vous choisissez pour ce faire.
+<!--
+Assigning issues in bulk is different depending on what environment you choose to do this. 
 
-### Affecter des problèmes en bloc dans l’environnement de production
+### Assign issues in bulk in the Production environment 
 
-1. Accédez à la liste des problèmes que vous souhaitez affecter en bloc.
-1. Sélectionnez plusieurs problèmes dans la liste.
-1. Cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png).
+1. Go to a list of issues that you want to assign in bulk. 
+1. Select several issues in the list. 
+1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
 
-   La boîte de dialogue **Modifier les problèmes** s’ouvre.
+   The **Edit Issues** dialog box opens.
 
-1. Dans la zone **Affectations**, sélectionnez la zone **Personne cessionnaire**, puis commencez à saisir le nom d’une personne, d’une fonction ou d’une équipe à affecter à tous les problèmes.
+1. In the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the issues.
 
    >[!IMPORTANT]
    >
-   >Si l’un des problèmes est déjà affecté, les ressources que vous indiquez ici y sont ajoutées. Les ressources existantes ne sont pas remplacées sur les problèmes.
+   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
+   
+1. (Optional) Select the radio button in the **Issue Owner** column to indicate which resource is the primary assignee or the Owner of the issue, when you assign more than one resource to the issue. This is not available for teams. 
+1. (Optional) Select a role that the user should fulfill on the issue from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary Role. 
 
-1. (Facultatif) Lorsque vous affectez plusieurs ressources au problème, sélectionnez la case d’option dans la colonne **Personne propriétaire du problème** pour indiquer la ressource qui est la personne cessionnaire principale ou la personne propriétaire du problème. Cette option n’est pas disponible pour les équipes.
-1. (Facultatif) Lorsque vous attribuez des personnes à des problème, sélectionnez un rôle que la personne doit remplir sur le problème dans **Choisir un rôle** à partir du menu déroulant **Rôle de la personne cessionnaire**. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle principal de l’utilisateur ou l’utilisatrice.
+1. (Optional) If you want to remove existing assignees from all issues do one of the following:
 
-1. (Facultatif) Pour supprimer des personnes cessionnaires de tous les problèmes, effectuez l’une des opérations suivantes :
+   1. Start typing the name of a user, role, or team you want to remove from the issue, then select it when it appears on the list and click **Remove Assignee** to add additional assignees to remove. 
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected issues.
 
-   1. Commencez à saisir le nom d’une personne, d’un rôle ou d’une équipe à supprimer du problème. Sélectionnez-le lorsqu’il apparaît dans la liste, puis cliquez sur **Supprimer la personne cessionnaire** pour ajouter d’autres personnes cessionnaires à supprimer.
-   1. Cliquez sur **Supprimer tous les cessionnaires existants** pour supprimer tous les cessionnaires de tous les événements sélectionnés.
-
-1. Cliquez sur **Enregistrer les modifications**.
-1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans votre liste de problèmes, cliquez dans l’une des colonnes de problème, puis cliquez sur l’**icône X** en regard du nom d’une personne cessionnaire pour la supprimer du problème.
+1. Click **Save Changes**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
 
 <div class="preview">
 
-### Affectation en bloc d’événements dans l’environnement de prévisualisation
+### Assign issues in bulk in the Preview environment
+
+-->
 
 1. Accédez à la liste des problèmes que vous souhaitez affecter en bloc.
 1. Sélectionnez plusieurs problèmes dans la liste.
@@ -251,10 +254,9 @@ L’affectation de problèmes en bloc est différente selon l’environnement qu
 
 1. (Facultatif) Si vous souhaitez supprimer des personnes désignées existantes de tous les événements, cliquez sur le **x** en regard de leur nom.
 
-1. (Facultatif) Mettez à jour le champ Heures prévues . Pour plus d’informations, voir [Modifier les événements](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+1. (Facultatif) Mettez à jour le champ **heures prévues**. Pour plus d’informations, voir [Modifier les événements](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 1. Cliquer sur **Enregistrer**.
-1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans votre liste de problèmes, cliquez dans l’une des colonnes de problème, puis cliquez sur l’**icône X** en regard du nom d’une personne cessionnaire pour la supprimer du problème.
+1. (Facultatif et conditionnel) Lorsque les champs **Affecté à** ou **Affectations** s’affichent dans votre liste d’événements, cliquez dans l’une de ces colonnes pour un événement, puis cliquez sur l’icône **X** en regard du nom d’une personne désignée pour le supprimer de l’événement.
 
-</div>
 

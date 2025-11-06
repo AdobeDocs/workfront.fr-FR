@@ -6,10 +6,10 @@ description: Vous pouvez modifier un problème spécifique ou modifier des probl
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 70%
+source-wordcount: '875'
+ht-degree: 79%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 70%
 <!--Audited: 10/2025-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Vous pouvez modifier un problème spécifique ou modifier des problèmes dans une liste de problèmes ou un rapport. Cet article décrit comment modifier des problèmes dans les listes.
 
@@ -172,15 +172,11 @@ Pour modifier les problèmes en masse, procédez comme suit :
 
    La modification des informations sur tous les problèmes est identique à la modification des informations sur un problème lors de la modification des zones suivantes :
 
-   <div class="preview">
-
    * Vue d’ensemble
    * Affectations
    * Formulaires personnalisés
    * Paramètres
    * Commentaire
-
-   </div>
 
    Pour plus d’informations sur la modification d’un problème, voir [Modifier des problèmes](../../../manage-work/issues/manage-issues/edit-issues.md).
 
@@ -194,16 +190,16 @@ Pour modifier les problèmes en masse, procédez comme suit :
 
    Vous ne pouvez modifier que les champs des formulaires associés à tous les problèmes sélectionnés et que vous pouvez modifier.
 
-1. (Facultatif et conditionnel) Selon l’environnement que vous utilisez pour modifier les événements, effectuez l’une des opérations suivantes pour recalculer les expressions personnalisées pour tous les événements :
+   <!--1. In the Production environment, in the **Custom Forms** area, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.-->
 
-   1. Dans l’environnement de production, dans la zone **Custom Forms**, sélectionnez l’option **Recalculer les expressions personnalisées** pour vous assurer que tous les champs calculés personnalisés du Forms personnalisé joints aux problèmes sélectionnés sont à jour.
+1. Cliquer sur **Enregistrer**.
 
-   1. <span class="preview">Dans l&#39;environnement Aperçu, avec tous les événements sélectionnés dans la liste, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) en haut de la liste des événements, puis cliquez sur **Recalculer les expressions**. </span>
+   Toutes les modifications que vous avez apportées sont désormais visibles pour tous les problèmes sélectionnés.
+
+1. (Facultatif) Avec tous les événements sélectionnés dans la liste, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) en haut de la liste des événements, puis cliquez sur **Recalculer les expressions**.
 
    >[!IMPORTANT]
    >
    >Nous vous recommandons de ne pas sélectionner plus de 500 problèmes à la fois lorsque vous recalculez les expressions personnalisées.
 
-1. Cliquez sur **Enregistrer les modifications**.
 
-   Toutes les modifications que vous avez apportées sont désormais visibles pour tous les problèmes sélectionnés.
