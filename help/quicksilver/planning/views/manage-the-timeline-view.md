@@ -6,22 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '3874'
-ht-degree: 37%
+source-wordcount: '3951'
+ht-degree: 36%
 
 ---
 
 # Gérer la vue chronologique
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
 
 {{planning-important-intro}}
 
@@ -254,7 +251,7 @@ Pour gérer une vue chronologique :
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-   * [Regroupement &#x200B;](#add-grouping)
+   * [Regroupement ](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
@@ -285,9 +282,7 @@ Pour ajouter un filtre à une vue chronologique :
 1. Sélectionnez une vue chronologique, puis cliquez sur **Filtres** dans le coin supérieur droit du tableau.
 1. Cliquez sur **Ajouter une condition** et ajoutez les informations suivantes :
 
-   * **Sélectionnez un champ** que vous souhaitez filtrer par <!-- the tip below might change-->
-
-     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
+   * **Sélectionner un champ** pour <span class="preview">Rechercher un champ ou </span> cliquer sur le menu déroulant pour afficher une liste de champs et le sélectionner dans la liste
 
    * **Sélectionnez une option** (ou un modificateur de filtre) pour définir le type de condition auquel le champ doit répondre
 
@@ -408,9 +403,9 @@ Pour ajouter un regroupement dans la vue chronologique :
 
    ![Regroupement de la vue chronologique de l’interface utilisateur avec des champs liés](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. Cliquez sur l&#39;un des champs suggérés ou cliquez sur **Choisir un autre champ** et recherchez un autre champ, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
 
-   Le regroupement est appliqué automatiquement à la chronologie et les enregistrements s’affichent dans la zone de regroupement.
+   Le regroupement est appliqué automatiquement à la chronologie et les enregistrements s’affichent à l’intérieur de la zone de regroupement.
 
 1. (Facultatif) Répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 

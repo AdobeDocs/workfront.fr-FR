@@ -6,10 +6,10 @@ description: Lors de l’affectation de personnes ou de rôles à une tâche, un
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 82%
+source-wordcount: '625'
+ht-degree: 62%
 
 ---
 
@@ -17,17 +17,20 @@ ht-degree: 82%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+<div class="preview">
 
-</div> 
--->
+Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+
+Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Les heures d&#39;affectation représentent le temps total prévu pour qu&#39;une ressource affectée travaille sur une tâche. Les heures représentent le temps alloué à un utilisateur un jour donné ou un jour de la semaine, une semaine ou un mois pendant toute la durée de la tâche.
+
+Vous pouvez modifier les heures de répartition lorsque vous effectuez des affectations avancées sur une tâche.
 
 >[!NOTE]
 >
@@ -58,7 +61,7 @@ Les heures d&#39;affectation représentent le temps total prévu pour qu&#39;une
   <tr> 
    <td>Autorisations d’objet</td>
    <td><p>Autorisations de contribution ou de niveau supérieur pour une tâche</p>
-   <p>Modifier les autorisations pour mettre à jour les heures d’affectation dans la boîte de modification de la tâche</p></td>
+   <p>Modifiez les autorisations pour mettre à jour les heures d’affectation dans la zone Modifier la tâche lors de la modification des tâches <span class="preview">à l’aide de l’ancienne expérience). Vous ne pouvez plus gérer les heures d’affectation dans la zone Modifier la tâche lors de la modification de tâches dans la nouvelle expérience </span>.</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifier les tâches</a></p>.</td>
   </tr>
  </tbody>
 </table>
@@ -67,12 +70,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation hours in the Edit Task box</p>
-To this:
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
+<!--Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.-->
+
 
 ## Considérations relatives à la modification des heures allouées à une tâche
 
@@ -95,14 +96,9 @@ To this:
 ## Modifier les heures allouées à une personne ou un rôle pour une tâche
 
 1. Accédez à une tâche pour laquelle vous souhaitez modifier les heures allouées.
-1. Cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png) à côté du nom de la tâche, puis cliquez sur **Modifier**, puis sur **Affectations**.
-
-   Ou
-
-   Cliquez sur la zone **Affectations** dans l’en-tête de la tâche, puis cliquez sur **Avancé**.
-
+1. Cliquez sur la zone **Affectations** dans l&#39;en-tête de la tâche, puis sur **Avancé**.
 1. Assurez-vous que le **type de durée** de la tâche est **Simple**.
-1. Modifiez les **Allocations** pour chaque cessionnaire de tâche. Il s’agit d’allocations globales pour chaque affectation à cette tâche, pour toute la durée de la tâche. Cela peut également mettre à jour le nombre total d’heures prévues de la tâche.
+1. Modifiez le champ **Allocations** pour chaque personne désignée à la tâche. Il s’agit d’allocations globales pour chaque affectation à cette tâche, pour toute la durée de la tâche. Cette opération peut également mettre à jour le **nombre d’heures prévues** global de la tâche.
 
    ![Modifier les attributions](assets/advanced-assignments-duration-type-allocations.png)
 

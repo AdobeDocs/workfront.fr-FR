@@ -7,7 +7,7 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 74%
@@ -155,7 +155,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
    * [Formulaires personnalisés](#custom-forms)
    * [Commentaire](#comment)
 
-1. Continuez à modifier la tâche de modèle comme décrit dans la section [&#x200B; Modifier une tâche de modèle à l’aide de l’ancienne expérience &#x200B;](#edit-a-template-task-using-the-old-experience) de cet article.
+1. Continuez à modifier la tâche de modèle comme décrit dans la section [ Modifier une tâche de modèle à l’aide de l’ancienne expérience ](#edit-a-template-task-using-the-old-experience) de cet article.
 
 1. <span class="preview">(Conditionnel) Dans l’environnement de Prévisualisation, la boîte de dialogue Modifier la tâche de modèle s’ouvre dans la nouvelle expérience. Continuez à modifier la tâche de modèle comme décrit dans la section [Modifier une tâche de modèle à l’aide de la nouvelle expérience](#edit-a-template-task-using-the-new-experience) de cet article.</span>
 1. <span class="preview">(Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier la tâche de modèle** pour ouvrir la zone **Modifier la tâche de modèle** dans l’ancienne expérience. Continuez à modifier la tâche de modèle comme décrit dans la section [Modifier une tâche de modèle à l’aide de l’ancienne expérience](#edit-a-template-task-using-the-old-experience) de cet article.</span>
@@ -576,35 +576,35 @@ Après avoir ouvert la zone **Modifier la tâche de modèle** dans la nouvelle e
    Cliquez sur **Me l’affecter** pour vous affecter la tâche de modèle.
 1. Pensez à mettre à jour les informations suivantes :
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody>
 
-<tr> 
-      <td role="rowheader"><strong>Type de durée</strong> </td> 
-      <td> <p>La future tâche créée à partir de ce modèle aura ce type de durée. <br> Le type de durée identifie la relation entre les éléments suivants :</p> 
-      <ul>
-      <li><p>Nombre de ressources affectées à une tâche</p> </li>
-      <li><p>Effort total requis pour terminer la tâche</p></li> 
-      <li><p>Durée totale de la tâche </p></li></ul> <p>Les types de durée vous permettent de définir des affectations de ressources cohérentes en fonction des besoins de la tâche. Pour plus d’informations sur le type de durée d’une tâche, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>.</p> <p>Sélectionnez l’une des options suivantes :</p> 
-       <ul> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Calcul d’affectation</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Calcul de travail</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Piloté par l’effort</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Simple</span> <br> </p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Durée</strong> </td> 
-      <td> <p>Indiquez la durée des tâches futures, en minutes, heures, jours, semaines ou mois. La durée de la tâche créée à partir de ce modèle sera spécifiée ici.</p> <p>Par défaut, Workfront mesure la durée en jours. Il s’agit de la durée pendant laquelle vous laissez la tâche incomplète avant qu’elle soit terminée. Vous ne pouvez pas spécifier la durée d’une tâche lorsque le <strong>Type de durée</strong> de la tâche est <strong>Simple</strong>, ou lorsque la <strong>Contrainte de tâche</strong> est <strong>Dates fixes</strong>.</p> <p><b>IMPORTANT</b></p> <p>La durée correspond généralement au temps écoulé entre les dates de début et d’achèvement prévues d’une tâche de modèle. Elle affecte donc la chronologie du modèle. Cela détermine la chronologie du futur projet créé à partir du modèle. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Nombre d’heures prévues</strong> </td> 
-      <td> <p>Indiquez le nombre d’heures prévues pour la tâche à venir sur le projet créé avec ce modèle. Il s’agit de la durée réelle nécessaire aux personnes cessionnaires de la tâche pour l’exécuter. Vous pouvez uniquement spécifier le nombre d’heures prévues d’une tâche lorsque le <strong>type de durée</strong> est défini sur <strong>Calcul d’affectation</strong>. </p> </td> 
-     </tr> 
-  </tbody> 
-   </table>
+   <tr> 
+         <td role="rowheader"><strong>Type de durée</strong> </td> 
+         <td> <p>La future tâche créée à partir de ce modèle aura ce type de durée. <br> Le type de durée identifie la relation entre les éléments suivants :</p> 
+         <ul>
+         <li><p>Nombre de ressources affectées à une tâche</p> </li>
+         <li><p>Effort total requis pour terminer la tâche</p></li> 
+         <li><p>Durée totale de la tâche </p></li></ul> <p>Les types de durée vous permettent de définir des affectations de ressources cohérentes en fonction des besoins de la tâche. Pour plus d’informations sur le type de durée d’une tâche, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>.</p> <p>Sélectionnez l’une des options suivantes :</p> 
+         <ul> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Calcul d’affectation</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Calcul de travail</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Piloté par l’effort</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Simple</span> <br> </p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Durée</strong> </td> 
+         <td> <p>Indiquez la durée des tâches futures, en minutes, heures, jours, semaines ou mois. La durée de la tâche créée à partir de ce modèle sera spécifiée ici.</p> <p>Par défaut, Workfront mesure la durée en jours. Il s’agit de la durée pendant laquelle vous laissez la tâche incomplète avant qu’elle soit terminée. Vous ne pouvez pas spécifier la durée d’une tâche lorsque le <strong>Type de durée</strong> de la tâche est <strong>Simple</strong>, ou lorsque la <strong>Contrainte de tâche</strong> est <strong>Dates fixes</strong>.</p> <p><b>IMPORTANT</b></p> <p>La durée correspond généralement au temps écoulé entre les dates de début et d’achèvement prévues d’une tâche de modèle. Elle affecte donc la chronologie du modèle. Cela détermine la chronologie du futur projet créé à partir du modèle. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Nombre d’heures prévues</strong> </td> 
+         <td> <p>Indiquez le nombre d’heures prévues pour la tâche à venir sur le projet créé avec ce modèle. Il s’agit de la durée réelle nécessaire aux personnes cessionnaires de la tâche pour l’exécuter. Vous pouvez uniquement spécifier le nombre d’heures prévues d’une tâche lorsque le <strong>type de durée</strong> est défini sur <strong>Calcul d’affectation</strong>. </p> </td> 
+      </tr> 
+   </tbody> 
+      </table>
 
 1. (Facultatif) Continuez à modifier les sections suivantes, en fonction des informations que vous souhaitez modifier.
 

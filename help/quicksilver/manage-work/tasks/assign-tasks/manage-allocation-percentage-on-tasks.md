@@ -6,26 +6,29 @@ description: La durée quotidienne prévue pour qu’une ressource dédiée trav
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 97%
+source-wordcount: '509'
+ht-degree: 72%
 
 ---
 
 # Gérer le pourcentage d’affectation des utilisateurs et des utilisatrices ou des rôles pour les tâches
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
 
-</div> 
--->
+Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
+
 
 La durée quotidienne prévue pour qu’une ressource dédiée travaille sur une tâche est exprimée par le pourcentage d’affectation. Il s’agit du pourcentage d’une journée de travail (selon le planning de l’utilisateur ou de l’utilisatrice ou du projet) auquel une ressource est affectée pendant toute la durée de la tâche.
+
+Vous pouvez modifier le pourcentage de répartition lorsque vous effectuez des affectations avancées sur une tâche.
 
 >[!NOTE]
 >
@@ -56,7 +59,7 @@ La durée quotidienne prévue pour qu’une ressource dédiée travaille sur une
   <tr> 
    <td>Autorisations d’objet</td>
    <td><p>Autorisations de contribution ou de niveau supérieur pour une tâche</p>
-   <p>Modifier les autorisations pour mettre à jour le pourcentage d’affectation dans la zone de modification de la tâche</p></td>
+   <p>Modifiez les autorisations pour mettre à jour le pourcentage d’affectation dans la zone Modifier la tâche lors de la modification <span class="preview"> tâches à l’aide de l’ancienne expérience. Vous ne pouvez plus gérer le pourcentage de répartition dans la zone Modifier la tâche lors de la modification de tâches dans la nouvelle expérience.</span></p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifier les tâches</a></p>.</td>
   </tr>
  </tbody>
 </table>
@@ -66,9 +69,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 +++
 
 <!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation percentage in the Edit Task box</p>
-To this:
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
 <p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
 -->
 
@@ -85,11 +87,7 @@ To this:
 ## Modifier l’affectation de pourcentage de l’utilisateur ou de l’utilisatrice ou l’affectation de rôle pour une tâche
 
 1. Accédez à une tâche dont vous souhaitez modifier l’affectation de pourcentage des ressources.
-1. Cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png) à côté du nom de la tâche, puis cliquez sur **Modifier**.
-
-   Ou
-
-   Cliquez sur la zone des **affectations** dans l’en-tête de la tâche, puis cliquez sur **Avancé**.
+1. Cliquez sur la zone **Affectations** dans l&#39;en-tête de la tâche, puis sur **Avancé**.
 
 1. Assurez-vous que le **type de durée** de la tâche est l’un des suivants :
 
@@ -101,7 +99,7 @@ To this:
    >* Pour le type de durée « Calcul d’affectation », Workfront utilise la formule suivante pour calculer le pourcentage d’affectation de chaque personne cessionnaire : `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* Pour le type de durée « Simple », vous pouvez estimer les heures affectées à chaque ressource et non le pourcentage d’affectation.
 
-1. Cliquez sur **Affectations**, puis modifiez les **Allocations** pour chaque personne cessionnaire de la tâche.
+1. Modifiez le champ **Allocations** pour chaque personne désignée à la tâche.
 
    Vous ne pouvez modifier le pourcentage d’affectation que pour les affectations d’utilisateurs et d’utilisatrices et pour les affectations de fonctions.
 

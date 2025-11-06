@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 92%
+source-wordcount: '1110'
+ht-degree: 77%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 92%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> -->
+</div>
 
 Lors de la gestion des affectations de tâche, vous pouvez simultanément les modifier pour plusieurs tâches à la fois à l’aide de la fonction de modification en masse d’une liste de tâches.
 
@@ -125,83 +125,88 @@ When assigning users to work, their availability according to their schedules af
 
 1. Sélectionnez les tâches pour lesquelles vous souhaitez modifier les affectations, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
 
-   La boîte de dialogue **Modifier les tâches** s’ouvre <!--<span class="preview">in the new experience</span>-->.
-
-   <!--1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
-   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>-->
-
-1. Accédez à la section **Affectations**.
-
-   >[!IMPORTANT]
-   >
-   >La suppression de cessionnaires peut affecter les heures de la tâche et les pourcentages d’allocation. Pour plus d’informations, voir la section [Impact de la suppression de cessionnaires sur les heures de tâche et les pourcentages d’allocation](#how-removing-assignees-affects-task-hours-and-allocation-percentages) dans cet article.
-1. Pour ajouter ou supprimer des cessionnaires, effectuez l’une des opérations suivantes :
-
-   * Pour ajouter un ou une cessionnaire :
-
-      1. Dans la section **Affectations**, sélectionnez **Cessionnaire**.
-
-         Les informations communes à toutes les tâches sélectionnées s’affichent. Par exemple, si la même personne est affectée à toutes les tâches, elle s’affiche dans la colonne **Cessionnaire**. Si des informations ne sont pas communes aux tâches sélectionnées, aucune information ne s’affiche.
-
-      1. Commencez à saisir le nom d’une personne, d’un rôle ou d’une équipe, puis sélectionnez-le lorsqu’il s’affiche dans la liste. L’affectation est ajoutée et ne remplace pas les affectations actuelles sur les tâches sélectionnées.
-
-
-     >[!TIP]
-     >
-     > * Vous pouvez affecter plusieurs utilisateurs et utilisatrices, fonctions ou équipes. Vous pouvez affecter uniquement les utilisateurs et utilisatrices, fonctions et équipes actifs.
-     >   
-     > * Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, le rôle principal de l’utilisateur ou de l’utilisatrice ou son adresse e-mail, pour faire la distinction entre les utilisateurs et utilisatrices portant le même nom. Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez. Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez la section [Accorder l’accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-     > 
-     >   Si une personne, une fonction ou une équipe a été affectée avant d’être désactivée, elle reste affectée à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
-     >   
-     >     * Réaffectez la tâche aux ressources actives.
-     >     * Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
-
-
-   * Pour supprimer des personnes cessionnaires :
-
-      1. Cliquez sur l’**icône X** en regard du nom de la personne cessionnaire que vous souhaitez supprimer si cette dernière s’affiche dans la liste Affectations.
-
-         Ou
-
-         (le cas échéant) Si la personne cessionnaire à supprimer ne s’affiche pas dans la section Affectations, car elle n’est affectée qu’à certaines des tâches que vous avez sélectionnées, cliquez sur **Supprimer la personne cessionnaire** et commencez à saisir le nom de la personne cessionnaire à supprimer, puis cliquez sur le nom qui apparaît dans la liste déroulante.
-
-   * Pour supprimer toutes les personnes cessionnaires existantes :
-
-      1. Cliquez sur **Supprimer toutes les personnes cessionnaires existantes**, puis sur **Oui, supprimer toutes les personnes cessionnaires**.
-
-         Cela supprime non seulement les délégataires communs (délégataires affichés dans la boîte de dialogue de modification), mais aussi tous les délégataires pour toutes les tâches sélectionnées.
-
-     La suppression des personnes des tâches peut affecter les heures de la tâche et les pourcentages d’attribution.
-
-     Pour plus d’informations, voir [Vue d’ensemble de la modification des affectations de tâche](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
-
-1. (facultatif) Modifiez l’une des options suivantes pour les personnes cessionnaires :
-
-   * (le cas échéant) **% d’attribution ou heures** : spécifiez un nouveau pourcentage d’attribution ou de nouvelles heures.
-
-     >[!NOTE]
-     >
-     >Cette option ne peut être modifiée que si le type de durée est le même pour toutes les tâches en cours de modification. Lorsque le Type de durée est Calcul de travail ou Piloté par l’effort, vous pouvez mettre à jour le % d’allocation. Lorsque le type de durée est Simple, vous pouvez mettre à jour les heures. Pour plus d&#39;informations sur le type de durée, voir [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-     >
-     >
-     >Si le champ est vide, cela signifie que la valeur est différente d’une tâche à l’autre ; toutefois, vous pouvez toujours la modifier.
-
-   * **Propriétaire de la tâche** : sélectionnez cette option pour que la personne cessionnaire soit le propriétaire de la tâche pour toutes les tâches en cours de modification.
-   * **Rôle de la personne cessionnaire** : sélectionnez un rôle dans la liste déroulante. Si cette option n’est pas sélectionnée, Adobe Workfront sélectionne automatiquement le rôle principal de la personne.
-
-1. Cliquez sur **Enregistrer les modifications.**
-
-<!--
-1. <span class="preview"> (Optional) Click **Try new experience** in the upper-right corner of the **Edit Tasks** box. The Edit Tasks box opens in the new experience. Do one of the following:</span>
+   La zone **Modifier les tâches** s’ouvre <span class="preview">dans la nouvelle expérience . Effectuez l’une des opérations suivantes </span>
 
    <div class="preview">
 
-   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
-   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
-   * Click Assign to me to assign the selected tasks to yourself.
+   * Pour ajouter des personnes désignées, commencez à saisir leur nom dans le champ **Rechercher des personnes, des rôles ou des équipes**, puis sélectionnez-les lorsqu’elles s’affichent dans la liste.
+   * Pour supprimer des personnes désignées, cliquez sur l’icône **x** à droite de leur nom. Seules les personnes désignées qui sont communes à toutes les tâches s&#39;affichent dans la liste.
+   * Cliquez sur M’affecter pour vous affecter les tâches sélectionnées.
 
    </div>
-1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
 
--->
+1. <span class="preview">(Conditionnel) Lors de l’utilisation de la nouvelle expérience, cliquez sur **Enregistrer**.</span>
+
+1. <span class="preview">(Facultatif) Cliquez sur **Passer à l’ancienne expérience** au bas de la zone **Modifier les tâches**.</span>
+
+   <span class="preview">La zone **Modifier les tâches** s’ouvre dans l’ancienne expérience.</span>
+
+   >[!TIP]
+   >
+   >L’ancienne expérience est disponible par défaut dans l’environnement de production.
+
+1. (Conditionnel) Dans l’ancienne expérience, procédez comme suit pour modifier les personnes désignées :
+
+   1. Accédez à la section **Affectations**.
+
+      >[!IMPORTANT]
+      >
+      >La suppression de cessionnaires peut affecter les heures de la tâche et les pourcentages d’allocation. Pour plus d’informations, voir la section [Impact de la suppression de cessionnaires sur les heures de tâche et les pourcentages d’allocation](#how-removing-assignees-affects-task-hours-and-allocation-percentages) dans cet article.
+
+   1. Pour ajouter ou supprimer des cessionnaires, effectuez l’une des opérations suivantes :
+
+      * Pour ajouter un ou une cessionnaire :
+
+         1. Dans la section **Affectations**, sélectionnez **Cessionnaire**.
+
+            Les informations communes à toutes les tâches sélectionnées s’affichent. Par exemple, si la même personne est affectée à toutes les tâches, elle s’affiche dans la colonne **Cessionnaire**. Si des informations ne sont pas communes aux tâches sélectionnées, aucune information ne s’affiche.
+
+         1. Commencez à saisir le nom d’une personne, d’un rôle ou d’une équipe, puis sélectionnez-le lorsqu’il s’affiche dans la liste. L’affectation est ajoutée et ne remplace pas les affectations actuelles sur les tâches sélectionnées.
+
+
+        >[!TIP]
+        >
+        > * Vous pouvez affecter plusieurs utilisateurs et utilisatrices, fonctions ou équipes. Vous pouvez affecter uniquement les utilisateurs et utilisatrices, fonctions et équipes actifs.
+        >   
+        > * Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, le rôle principal de l’utilisateur ou de l’utilisatrice ou son adresse e-mail, pour faire la distinction entre les utilisateurs et utilisatrices portant le même nom. Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez. Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez la section [Accorder l’accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+        > 
+        >   Si une personne, une fonction ou une équipe a été affectée avant d’être désactivée, elle reste affectée à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
+        >   
+        >     * Réaffectez la tâche aux ressources actives.
+        >     * Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
+
+
+      * Pour supprimer des personnes cessionnaires :
+
+         1. Cliquez sur l’**icône X** en regard du nom de la personne cessionnaire que vous souhaitez supprimer si cette dernière s’affiche dans la liste Affectations.
+
+            Ou
+
+            (le cas échéant) Si la personne cessionnaire à supprimer ne s’affiche pas dans la section Affectations, car elle n’est affectée qu’à certaines des tâches que vous avez sélectionnées, cliquez sur **Supprimer la personne cessionnaire** et commencez à saisir le nom de la personne cessionnaire à supprimer, puis cliquez sur le nom qui apparaît dans la liste déroulante.
+
+      * Pour supprimer toutes les personnes cessionnaires existantes :
+
+         1. Cliquez sur **Supprimer toutes les personnes cessionnaires existantes**, puis sur **Oui, supprimer toutes les personnes cessionnaires**.
+
+            Cela supprime non seulement les délégataires communs (délégataires affichés dans la boîte de dialogue de modification), mais aussi tous les délégataires pour toutes les tâches sélectionnées.
+
+        La suppression des personnes des tâches peut affecter les heures de la tâche et les pourcentages d’attribution.
+
+        Pour plus d’informations, voir [Vue d’ensemble de la modification des affectations de tâche](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+
+   1. (facultatif) Modifiez l’une des options suivantes pour les personnes cessionnaires :
+
+      * (le cas échéant) **% d’attribution ou heures** : spécifiez un nouveau pourcentage d’attribution ou de nouvelles heures.
+
+      >[!NOTE]
+      >
+      >Cette option ne peut être modifiée que si le type de durée est le même pour toutes les tâches en cours de modification. Lorsque le Type de durée est Calcul de travail ou Piloté par l’effort, vous pouvez mettre à jour le % d’allocation. Lorsque le type de durée est Simple, vous pouvez mettre à jour les heures. Pour plus d&#39;informations sur le type de durée, voir [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+      >
+      >
+      >Si le champ est vide, cela signifie que la valeur est différente d’une tâche à l’autre ; toutefois, vous pouvez toujours la modifier.
+
+      * **Propriétaire de la tâche** : sélectionnez cette option pour que la personne cessionnaire soit le propriétaire de la tâche pour toutes les tâches en cours de modification.
+      * **Rôle de la personne cessionnaire** : sélectionnez un rôle dans la liste déroulante. Si cette option n’est pas sélectionnée, Adobe Workfront sélectionne automatiquement le rôle principal de la personne.
+
+   1. Cliquez sur **Enregistrer les modifications.**
+

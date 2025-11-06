@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 80%
@@ -20,15 +20,14 @@ ht-degree: 80%
 
 <!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
-<!--
-<div class="preview"> 
+
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
--->
+</div> -->
 
 Vous pouvez gérer les affectations de tâches ou d&#39;événements à l&#39;aide d&#39;affectations avancées.
 
@@ -136,7 +135,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     -->
 
 1. Pour chaque utilisateur ou utilisatrice de la colonne **Personne cessionnaire**, indiquez les informations suivantes :
-
 
    * **Personne propriétaire** : passez la souris sur le nom de la personne cessionnaire et cliquez sur **Principal** dans le champ Personne propriétaire si vous souhaitez marquer la personne cessionnaire comme propriétaire de la tâche ou du problème. Une case à cocher verte indique que la personne en question est le Contact principal de la tâche ou du problème. Adobe Workfront marque la première personne ou fonction que vous affectez à une tâche ou à un problème comme propriétaire ou affectation principale. Une équipe ne peut pas être désignée comme propriétaire principal d’une tâche ou d’un problème.
 
