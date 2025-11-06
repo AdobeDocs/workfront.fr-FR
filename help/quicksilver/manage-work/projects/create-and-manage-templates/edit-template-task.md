@@ -155,7 +155,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
    * [Formulaires personnalisés](#custom-forms)
    * [Commentaire](#comment)
 
-1. Continuez à modifier la tâche de modèle comme décrit dans la section [ Modifier une tâche de modèle à l’aide de l’ancienne expérience ](#edit-a-template-task-using-the-old-experience) de cet article.
+1. Continuez à modifier la tâche de modèle comme décrit dans la section [&#x200B; Modifier une tâche de modèle à l’aide de l’ancienne expérience &#x200B;](#edit-a-template-task-using-the-old-experience) de cet article.
 
 1. <span class="preview">(Conditionnel) Dans l’environnement de Prévisualisation, la boîte de dialogue Modifier la tâche de modèle s’ouvre dans la nouvelle expérience. Continuez à modifier la tâche de modèle comme décrit dans la section [Modifier une tâche de modèle à l’aide de la nouvelle expérience](#edit-a-template-task-using-the-new-experience) de cet article.</span>
 1. <span class="preview">(Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier la tâche de modèle** pour ouvrir la zone **Modifier la tâche de modèle** dans l’ancienne expérience. Continuez à modifier la tâche de modèle comme décrit dans la section [Modifier une tâche de modèle à l’aide de l’ancienne expérience](#edit-a-template-task-using-the-old-experience) de cet article.</span>
