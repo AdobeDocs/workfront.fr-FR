@@ -5,10 +5,10 @@ description: Les listes améliorées utilisent un format de tableau pour affiche
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
+source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 7%
+source-wordcount: '1288'
+ht-degree: 6%
 
 ---
 
@@ -59,7 +59,7 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 |--- |--- |
 | Priorités | <ul><li>Accueil > sélectionnez l’icône Priorités dans le menu de gauche</li><li>Menu principal > Priorités</li></ul> |
 | Liste des requêtes | <ul><li>Demandes (nouvelle expérience uniquement)</li><li>Widget Mes demandes sur l’Accueil</li></ul> |
-| Liste des taux de change | <ul><li>Configuration > Préférences du projet > Taux de change</li></ul> |
+| Listes de statuts, priorités, gravités et taux de change dans la configuration | <ul><li>Configuration > Préférences du projet > Statuts</li><li>Configuration > Préférences du projet > Priorités</li><li>Configuration > Préférences du projet > Gravités</li><li>Configuration > Préférences du projet > Taux de change</li></ul> |
 
 ## Ajout et modification d’éléments dans une liste améliorée
 
@@ -85,7 +85,7 @@ Selon la configuration de la liste améliorée, il peut y avoir deux façons d�
 
 Pour modifier un élément de la liste, double-cliquez dans la cellule à modifier et tapez les informations. Certaines cellules peuvent être en lecture seule.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
 ## Utiliser la barre d’actions et le menu Plus dans une liste améliorée
 
@@ -99,13 +99,13 @@ Cliquez sur un bouton de la barre d’actions pour effectuer cette action, par e
 
 Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-exchange-rates.png)
+![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
 
 Le menu **Plus** est le menu à trois points qui s’affiche en regard d’un champ principal d’un élément de liste lorsque vous le survolez avec votre souris. (Le champ principal est la colonne située le plus à gauche du tableau.)
 
 Cliquez sur le menu pour afficher les actions supplémentaires pour l’élément. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
 
-![Exemple de menu Plus](assets/glist-more-menu-exchange-rates.png)
+![Exemple de menu Plus](assets/glist-more-menu-priorities.png)
 
 ## Personnalisation des colonnes d’une liste améliorée
 
@@ -127,6 +127,23 @@ Certaines listes améliorées vous permettent de masquer et d’afficher des col
    Un indicateur s’affiche sur le bouton **Colonnes** lorsque des colonnes sont masquées. L’indicateur n’apparaît pas lorsque vous réorganisez les colonnes.
 
    ![Indicateur des colonnes masquées](assets/glist-columns-hidden-indicator.png)
+
+## Application d’une vue à une liste améliorée
+
+Une vue est un ensemble personnalisé de dispositions de colonnes et de filtres que vous pouvez appliquer à une liste. Vous pouvez créer des vues et modifier des vues existantes.
+
+Pour appliquer une vue, cliquez sur la liste déroulante **Vues** et sélectionnez la vue à appliquer à la liste.
+
+Pour créer une vue :
+
+1. Cliquez sur la liste déroulante **Vues** et sélectionnez **Nouvelle vue**.
+1. Attribuez un nom à la vue, puis cliquez sur **Créer**.
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Filtrez et regroupez les éléments de liste. Pour plus d’informations, voir [Filtrer et regrouper des éléments dans une liste améliorée](#filter-and-group-items-in-an-enhanced-list).
+
+   Les modifications apportées aux vues sont enregistrées automatiquement et sont visibles par toute personne utilisant la vue.
+
+   La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
 
 ## Filtrer et regrouper des éléments dans une liste améliorée
 
