@@ -50,7 +50,7 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
 >[!TAB Problèmes connus]
 
 * [Problèmes connus](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/issues/overview)
-* [&#x200B; Mises à jour de maintenance &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
+* [&#x200B; Mises à jour de maintenance &#x200B;](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates)
 
 
 >[!ENDTABS]
@@ -69,7 +69,7 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Commencer avec l’administration Workfront</a></li>
-    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Commencer avec Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Commencer avec Workfront Fusion</li>
     <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Acquisition et installation d’applications à partir d’Adobe Exchange</a></li>
     </ul>
  </td>
@@ -110,7 +110,7 @@ La recherche documentaire peut être plus efficace avec quelques approches strat
 ### Explorer les sections d’apprentissage et de formation
 
 * **Supports de formation : accédez à la page Formation Workfront et découvrez une bibliothèque de vidéos et d’articles de formation conçus pour vous aider à mieux comprendre les fonctionnalités et les paramètres de Workfront.**&#x200B;[&#128279;](https://experienceleague.adobe.com/fr/browse/workfront) Vous pouvez également accéder à des supports de formation payants à l’adresse [learning.adobe.com](https://learning.adobe.com/).
-* **Cours** : recherchez des [cours d’apprentissage structuré](https://experienceleague.adobe.com/home?Solution=Workfront#courses) qui vous guident tout au long de l’utilisation de différentes fonctionnalités Workfront suivant une séquence logique.
+* **Cours** : recherchez des [cours d’apprentissage structuré](https://experienceleague.adobe.com/home?lang=fr&Solution=Workfront#courses) qui vous guident tout au long de l’utilisation de différentes fonctionnalités Workfront suivant une séquence logique.
 
 ### Trouver des réponses dans les forums de la Communauté
 
