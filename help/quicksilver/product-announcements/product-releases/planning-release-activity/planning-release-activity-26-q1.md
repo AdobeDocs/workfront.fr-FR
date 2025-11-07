@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 3ba6468327ca390ddc75ff1c18440283daa6eee4
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 2%
+source-wordcount: '585'
+ht-degree: 3%
 
 ---
 
@@ -22,19 +22,19 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
-<!--## New field search box in the Filters, Fields, and Row colors icons in Planning views
+## Nouvelle zone de recherche de champs dans les icônes Filtres, Champs et Couleurs de ligne dans les vues Planning
 
 >[!NOTE]
 >
->Preview: October 30, 2025 
->Production fast release: November 13, 2025 
->Production for everyone:  January 15, 2026 
+>Aperçu : 6 novembre 2025
+>Version rapide de production : 11 décembre 2025
+>Production pour tous : 15 janvier 2026
 
+Vous pouvez désormais rechercher un champ spécifique lors de la création d’un élément de vue dans une vue de type enregistrement. Nous avons ajouté des zones de recherche lorsque vous créez un filtre, un tri, un regroupement ou lorsque vous configurez vos champs ou les couleurs des lignes. Avant cette amélioration, il vous suffisait de faire défiler la liste des champs disponibles.
 
-You can now search for a specific field when building a view element in record type view. The new search boxes have been added when you build a filter, sort, grouping, or when you configure your fields or row colors. Prior to this enhancement, you could simply scroll through the list of available fields.
-This improvement is available in all views.
+Cette amélioration est disponible dans toutes les vues de type d’enregistrement.
 
-For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).-->
+Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
 ## Types d’enregistrements globaux et possibilité de les ajouter en tant que types d’enregistrements existants à d’autres espaces de travail
@@ -42,8 +42,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Aperçu : 16 octobre 2025
->&#x200B;>Version rapide de production : 13 novembre 2025
->&#x200B;>Production pour tous : 15 janvier 2026
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 15 janvier 2026
 
 Lors de l’implémentation de Workfront Planning pour une organisation multi-équipes avec des workflows communs, vous devrez peut-être définir une structure et des métadonnées cohérentes pour les types d’enregistrements clés (tels que les campagnes ou les éléments livrables) qui peuvent être ajoutés aux espaces de travail de chaque équipe pour capturer et gérer leur travail.
 
@@ -66,8 +66,8 @@ Pour plus d’informations, consultez les articles suivants :
 >[!NOTE]
 >
 >Aperçu : 16 octobre 2025
->&#x200B;>Version rapide de production : 13 novembre 2025
->&#x200B;>Production pour tous : 15 janvier 2026
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 15 janvier 2026
 
 Nous avons introduit une limite de 30 champs de connexion pour chaque type d’enregistrement.
 
@@ -80,8 +80,8 @@ Pour plus d’informations, voir [Présentation des types d’enregistrements co
 >[!NOTE]
 >
 >Aperçu : 16 octobre 2025
->&#x200B;>Version rapide de production : 13 novembre 2025
->&#x200B;>Production pour tous : 15 janvier 2026
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 15 janvier 2026
 
 Lors de l’ajout de choix de champs à un champ à sélection unique ou multiple, Workfront attribue désormais des valeurs conviviales uniques à chaque choix. Avant cette amélioration, Workfront générait un identifiant alphanumérique difficile à comprendre et à utiliser dans les appels d’API et d’autres intégrations.
 

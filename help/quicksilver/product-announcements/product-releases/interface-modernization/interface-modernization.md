@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
+source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
 workflow-type: tm+mt
-source-wordcount: '8992'
+source-wordcount: '9336'
 ht-degree: 2%
 
 ---
@@ -34,33 +34,68 @@ Pour plus d’informations, consultez la section [Créer et modifier des entrepr
 
 ## Projets
 
+### Nouvelle expérience lors de l’utilisation de tâches de modèles
+
+**Version préliminaire : 6 novembre 2025 ; Version de production : à partir de la semaine du 13 novembre 2025**
+
+Nous avons mis à jour l’expérience lors de l’utilisation de modèles de tâches.
+
+>[!NOTE]
+>
+>Vous aurez la possibilité de basculer entre l’ancienne et la nouvelle expérience d’ajout ou de modification de tâches de modèles pendant une durée limitée.
+
+Les modifications suivantes sont incluses dans cette mise à jour :
+
+* La liste des tâches de modèles de la section Sous-tâches d’une tâche de modèle correspond désormais à la plupart des listes dans Workfront
+
+* Les zones Nouveau et Modifier la tâche de modèle ont une nouvelle apparence
+
+* Vous pouvez désormais mettre à jour les champs personnalisés de recherche externe lors de la modification des tâches de modèles
+
+* Une nouvelle expérience est disponible concernant l’affectation de ressources à des tâches de modèles. La nouvelle expérience est désormais disponible lors de la modification d’une tâche ou de la modification de plusieurs tâches en bloc. Les champs suivants ont été supprimés de la zone Modifier les tâches :
+
+* Allocations
+   * Propriétaire ou propriétaire de la tâche
+   * Rôle du cessionnaire
+
+Vous pouvez toujours trouver les champs supprimés lors d&#39;affectations avancées sur des tâches de modèle.
+
+Pour plus d’informations, voir [Modifier les tâches de modèle](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
+
+
+### Nouvelle expérience lors de la modification en bloc et de l’affectation en bloc de tâches uniques ou
+
+**Version préliminaire : 6 novembre 2025 ; Version de production : à partir de la semaine du 13 novembre 2025**
+
+Nous avons mis à jour la zone Modifier les tâches lors de la modification de tâches uniques ou de leur modification en bloc.
+
+>[!NOTE]
+>
+>Vous aurez la possibilité de basculer entre l’ancienne et la nouvelle expérience de modification des tâches pendant une durée limitée.
+
+Les modifications suivantes sont incluses dans cette mise à jour :
+
+* L’option Recalculer les expressions personnalisées a été supprimée lors de la mise à jour des tâches en bloc et a été ajoutée au menu Plus dans une liste de tâches, après la sélection de plusieurs tâches.
+
+* Vous pouvez désormais mettre à jour les champs personnalisés de recherche externe
+
+* Une nouvelle expérience est disponible pour l’affectation de ressources à des tâches. Cette option est désormais disponible lors de la modification d’une tâche ou de plusieurs tâches en bloc. Les champs suivants ont été supprimés de la zone Modifier les tâches :
+
+   * Allocations
+   * Propriétaire ou propriétaire de la tâche
+   * Rôle du cessionnaire
+
+Vous pouvez toujours trouver les champs supprimés lors d&#39;affectations avancées à des tâches.
+
+Pour plus d’informations, voir [Modifier les tâches](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
 ### Mise à jour de l’interface lors de la conversion d’une tâche en projet avec un modèle
 
-**Version préliminaire : 30 octobre 2025 ; Version de production : à partir du 6 novembre 2025**
+**Version préliminaire : 30 octobre 2025 ; Version de production : à partir de la semaine du 6 novembre 2025**
 
 Nous avons mis à jour la zone Convertir en projet lors de la conversion d’une tâche en projet à l’aide d’un modèle. La conception de la zone correspond désormais à la zone Modifier le projet .
 
 Pour plus d’informations, voir [Convertir une tâche en projet](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
-
-<!--### New experience when bulk editing and single- or bulk-assigning tasks
-
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
-
-We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
-
-* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
-
-* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
-
-* Allocations
-* Owner or Task Owner
-* Assignee's Role
-
-You can still find the removed fields when making advanced assignments on tasks.
-
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
-
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### Nouvelle expérience lors de la modification en bloc et des problèmes d’affectation en bloc ou unique
 
@@ -72,11 +107,13 @@ Les modifications suivantes sont incluses dans cette mise à jour :
 
 * L’option Recalculer les expressions personnalisées a été supprimée lors de la mise à jour des problèmes en bloc. L’option a été ajoutée au menu Plus dans une liste d’événements, après avoir sélectionné plusieurs événements.
 
+* Vous pouvez désormais mettre à jour les champs personnalisés de recherche externe lors de la modification de problèmes.
+
 * Une nouvelle expérience est disponible pour l’affectation de ressources à des événements. Cette option est désormais disponible lors de la modification d’un événement ou de plusieurs événements en bloc. Les champs suivants ont été supprimés de la zone Modifier les événements :
 
-* Allocations
-* Propriétaire ou propriétaire de l&#39;événement
-* Rôle du cessionnaire
+   * Allocations
+   * Propriétaire ou propriétaire de l&#39;événement
+   * Rôle du cessionnaire
 
 Vous pouvez mettre à jour les champs supprimés lors d&#39;affectations avancées sur des événements.
 
@@ -773,7 +810,7 @@ Pour plus d’informations, voir [Configurer les informations de base de votre s
 
 Nous avons mis à jour la page Importer des données (Kick-Starts) dans la zone Configuration avec une conception plus moderne et cohérente avec les autres zones de Workfront. En outre, le processus d’importation Kickstart a été simplifié afin que le fichier sélectionné soit chargé immédiatement. Il n’est plus nécessaire de cliquer sur un bouton **Charger** distinct pour terminer l’importation après avoir choisi le fichier.
 
-Pour plus d’informations, voir [&#x200B; Importer des données dans Workfront à l’aide d’un modèle Kickstart &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Pour plus d’informations, voir [ Importer des données dans Workfront à l’aide d’un modèle Kickstart ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Mises à jour de l&#39;interface de la liste des types de dépenses
 
@@ -928,7 +965,7 @@ Pour plus d’informations, voir [Créer et modifier des risques dans les projet
 
 Nous avons mis à jour l’aspect de la zone Copier le modèle pour qu’elle corresponde à la conception d’autres zones de Workfront.
 
-Pour plus d’informations, voir [&#x200B; Copier un modèle de projet &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+Pour plus d’informations, voir [ Copier un modèle de projet ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
 
 +++
