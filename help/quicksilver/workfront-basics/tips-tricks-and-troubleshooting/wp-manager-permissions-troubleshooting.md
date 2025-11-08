@@ -6,8 +6,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Résolution des problèmes d’autorisations de gestion Workfront Proof
 description: Les profils d’autorisation disponibles dans  [!DNL Adobe]  Workfront pour les utilisateurs et utilisatrices de la relecture Workfront sont Administration, Supervision et Gestion.
 feature: Get Started with Workfront
+auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%

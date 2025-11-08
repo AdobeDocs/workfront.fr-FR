@@ -7,10 +7,10 @@ description: Adobe Workfront détermine le statut de progression d’un projet 
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 94%
+ht-degree: 81%
 
 ---
 
@@ -28,15 +28,16 @@ Voici les statuts de progression des projets dans Workfront :
  <tbody> 
   <tr> 
    <td>À l’heure</td> 
-   <td> Le statut de progression d’un projet est <strong>À l’heure</strong> si :<ul><li>Si les dates d’achèvement estimées et projetées sont toutes deux antérieures ou égales à la date d’achèvement prévue du projet.</li></ul> <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p> </td> 
+   <td> Le statut de progression d’un projet est <strong>À l’heure</strong> si :<ul><li>Si les dates d'échéance prévisionnelle et estimée sont antérieures ou égales à la date d'achèvement prévue du projet <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>En danger</td> 
-   <td> Le statut de progression d’un projet est <strong>En danger</strong> si <strong>tous</strong> les éléments suivants sont vrais :<ul><li>Les dates d’achèvement estimées et projetées se situent toutes deux dans le futur.</li><li> La date d'achèvement estimée est postérieure à la fois à la date d'achèvement prévue et à la date d'achèvement prévisionnelle </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> Le statut de progression d’un projet est <strong>En danger</strong> si <strong>tous</strong> les éléments suivants sont vrais :<ul><li>Les dates d’achèvement estimées et projetées se situent toutes deux dans le futur.</li><li> La date d'échéance estimée est postérieure à la fois à la date d'achèvement prévue et à la date d'achèvement prévisionnelle <p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul> </td> 
   </tr> 
   <tr> 
    <td>En retard</td> 
-   <td> Le statut de progression d’un projet est <strong>Retardé</strong> si <strong>tous</strong> les éléments suivants sont vrais :<ul><li>Les dates d’achèvement estimées et projetées se situent toutes deux dans le futur.</li><li> Les dates d’achèvement estimées et projetées sont toutes deux postérieures à la date d’achèvement prévue du projet.</li><li> La date d’achèvement estimée n’est pas postérieure à la date d’achèvement projetée.</li></ul> <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> Le statut de progression d’un projet est <strong>Retardé</strong> si <strong>tous</strong> les éléments suivants sont vrais :<ul><li>Les dates d’achèvement estimées et projetées se situent toutes deux dans le futur.</li><li> Les dates d’achèvement estimées et projetées sont toutes deux postérieures à la date d’achèvement prévue du projet.</li><li> La date d'échéance estimée n'est pas postérieure à la date d'achèvement prévisionnelle
+   <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>En retard</td> 
@@ -51,7 +52,7 @@ Voici les statuts de progression des projets dans Workfront :
 Tenez compte des points suivants :
 
 * La date d’achèvement projetée du projet est déterminée par la tâche du chemin critique dont la date d’achèvement projetée est la plus tardive.
-* La date d’achèvement estimée du projet est déterminée par la tâche du chemin critique dont la date d’achèvement estimée est la plus tardive.
+* La date d&#39;échéance estimée du projet est déterminée par la tâche sur le chemin critique avec la dernière date d&#39;échéance estimée.
 
 Pour plus d’informations sur le chemin critique du projet, voir [Vue d’ensemble du chemin critique du projet](../../../manage-work/tasks/manage-tasks/critical-path.md).
 

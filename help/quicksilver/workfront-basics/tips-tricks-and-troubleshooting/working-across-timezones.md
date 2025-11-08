@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Travailler sur plusieurs fuseaux horaires
 description: Il peut être utile de comprendre comment  [!DNL Adobe Workfront]  utilise les fuseaux horaires pour calculer les champs horaires des objets et les heures dans d’autres domaines tels que les e-mails.
 feature: Get Started with Workfront
+author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 70%

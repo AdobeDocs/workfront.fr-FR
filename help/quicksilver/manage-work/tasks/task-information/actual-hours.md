@@ -7,10 +7,10 @@ description: Les heures que vous enregistrez pour vos tâches dans Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '1231'
-ht-degree: 27%
+source-wordcount: '1276'
+ht-degree: 26%
 
 ---
 
@@ -93,8 +93,10 @@ En fonction de la zone du Workfront à partir de laquelle vous accédez aux heur
 
 * Dans les rapports et listes de projets, de tâches et d’événements :
 
-   * **Heures réelles** : heures enregistrées pour un projet, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
-   * **Heures réelles héritées** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, y compris avant mai 2021. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.
+   * **Heures réelles** : heures enregistrées pour un projet, des tâches ou des événements entre mai 2021 et aujourd’hui. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
+   * **Heures réelles héritées** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, entre une date antérieure à mai 2021 et aujourd’hui. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.
+
+     Les heures consignées actuellement mettront à jour les heures réelles et les anciennes heures réelles.
 
      >[!IMPORTANT]
      >
@@ -102,12 +104,14 @@ En fonction de la zone du Workfront à partir de laquelle vous accédez aux heur
 
 * Dans la zone Détails du projet, de la tâche ou de l’événement , les heures réelles peuvent s’afficher dans les champs suivants :
 
-   * **Heures réelles** : dans l’onglet Détails , il s’agit des heures enregistrées pour des projets, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
-   * **Heures réelles** : dans un formulaire personnalisé de projet, de tâche ou d’événement, lorsqu’ils sont accessibles à l’aide d’un champ personnalisé de référence de champ natif qui fait référence au champ natif des heures réelles. Il s’agit d’heures enregistrées pour des projets, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
+   * **Heures réelles** : dans l’onglet Détails , il s’agit des heures enregistrées pour des projets, des tâches ou des événements entre mai 2021 et aujourd’hui. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
+   * **Heures réelles** : dans un formulaire personnalisé de projet, de tâche ou d’événement, lorsqu’ils sont accessibles à l’aide d’un champ personnalisé de référence de champ natif qui fait référence au champ natif des heures réelles. Il s’agit d’heures enregistrées pour des projets, des tâches ou des événements entre une date antérieure à mai 2021 et aujourd’hui. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
+
+     Les heures consignées actuellement mettront à jour les heures réelles et les anciennes heures réelles.
 
 >[!NOTE]
 >
->Il est recommandé d’utiliser le champ Heures réelles autant que possible, car le champ Héritées des heures réelles peut afficher des heures inexactes en raison de la manière dont les incréments sont arrondis.
+>Il est recommandé d’utiliser le champ Heures réelles autant que possible, car le champ Anciennes heures réelles peut afficher des heures inexactes en raison de la manière dont les incréments sont arrondis lorsque les heures sont stockées en minutes.
 
 ## Heures effectives sur les tâches et les problèmes ou heures effectives sur les projets
 

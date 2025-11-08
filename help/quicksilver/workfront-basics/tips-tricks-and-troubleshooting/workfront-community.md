@@ -1,11 +1,12 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Communauté  [!DNL Adobe Workfront]
+title: 'Communauté  [!DNL Adobe Workfront] '
 description: La communauté Adobe  [!DNL Workfront]  est un groupe en ligne de plus de 10 000 utilisateurs et utilisatrices  [!DNL Workfront] . Grâce à cette communauté, vous vous tenez à jour sur les versions de produits, découvrez les événements clients et échangez avec d’autres personnes sur les produits et services  [!DNL Workfront] . Vous trouvez ainsi des réponses à vos questions et établissez des liens avec d’autres personnes clientes de  [!DNL Workfront] .
 feature: Get Started with Workfront
+author: Becky
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -53,7 +54,7 @@ Si vous ne vous souvenez pas de votre mot de passe pour accéder au site de la c
 
 ### Quelle est l’URL de la communauté [!DNL Workfront] ?
 
-La communauté [!DNL Workfront] est disponible sur le site web [!DNL Adobe Experience League] à l’adresse suivante : [[!DNL Workfront] Communauté](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=fr).
+La communauté [!DNL Workfront] est disponible sur le site web [!DNL Adobe Experience League] à l’adresse suivante : [[!DNL Workfront] Communauté](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### Quel est mon sous-domaine ? {#what-s-my-subdomain}
 

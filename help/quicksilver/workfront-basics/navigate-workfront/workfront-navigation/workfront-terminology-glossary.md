@@ -6,10 +6,10 @@ description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couram
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '21167'
-ht-degree: 94%
+source-wordcount: '21526'
+ht-degree: 93%
 
 ---
 
@@ -716,8 +716,26 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Cost]</td> 
    <td> <p>Le montant à dépenser pour la réalisation d’un projet, d’une tâche ou d’un problème. </p> <p>Vous pouvez suivre différents types de coûts de la main-d’œuvre, des dépenses et les risques liés au projet. Pour plus d’informations sur le suivi des coûts dans [!DNL Workfront], consultez la section <a href="../../../manage-work/projects/project-finances/track-costs.md">Suivre les coûts</a>.</p> 
    </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Cost Performance Index (CPI)]</td> 
+   <td> <p>L’[!UICONTROL Cost Performance Index (CPI)] décrit la relation au niveau du projet ou de la tâche entre le coût prévu et le coût réel. Les personnes responsables de projet examinent cette mesure pour identifier les tâches ou les projets qui effectuent actuellement le suivi de sous ou sur-coût à un moment donné. Le coût peut être mesuré en heures ou en dollars, selon votre méthode d'indice de performance [!UICONTROL (PIM)].</p> 
+    <p> Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">Calculer l'indice Coûts Performance (ICP)</a>.</p>
+
+</td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Cost Schedule Performance Index (CSI)]</td> 
+   <td> <p>L’[!UICONTROL Cost Schedule Performance Index (CSI)] est un calcul automatique qui combine l’[!UICONTROL Cost Performance Index (CPI)] et l’[!UICONTROL Schedule Performance Index (SPI)] en une mesure générale qui équilibre les coûts et le planning. Si vous multipliez ces valeurs, une seule mesure peut expliquer un planning prolongé à un budget réduit ou vice versa. Les chefs de projet peuvent l’utiliser pour déterminer l’intégrité générale d’un projet ou d’une tâche lorsque le coût est sacrifié pour établir un calendrier à mi-parcours d’un projet.</p> 
+    <p> Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-csi.md">Calculer l'indice Coûts Horaire Performance</a>.</p>
+    </td> 
+  </tr>
+
+
+
+<tr> 
    <td>[!UICONTROL Cost Type]</td> 
    <td>Pour une tâche, le [!UICONTROL Cost Type] détermine la manière dont la tâche produira les coûts. Voici quelques exemples : [!UICONTROL Fixed Hourly], [!UICONTROL User Hourly], et [!UICONTROL User Hourly plus Fixed]. </td> 
   </tr> 
@@ -894,8 +912,23 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Enterprise Goals]</td> 
    <td>Objectifs interfonctionnels qui contribuent aux mesures des objectifs de l’entreprise.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Estimate at Completion]</td> 
+   <td><p>En tant que mesure de performances du projet, l'Estimation à l'achèvement représente le coût total projeté de votre projet ou tâche une fois qu'il est terminé.</p>
+   <p>En tant que paramètre de projet, il vous permet de définir comment la valeur CRE doit être calculée.</p>
+   <p>Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-eac.md">Calculer l'estimation à l'achèvement (CRE)</a>. </p>
+   </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Estimated Due Date]</td> 
+   <td>Dans les rapports de projet, de tâche et d'événement, l'Échéance estimée correspond à la date à laquelle Workfront estime que l'élément doit être terminé.</td> 
+  </tr>
+
+
+<tr> 
    <td>[!UICONTROL Event]</td> 
    <td>Toute modification dans un projet ou une tâche.</td> 
   </tr> 
@@ -1466,7 +1499,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[!UICONTROL User] qui affiche et permet de définir les relations de l’[!UICONTROL Company] et du [!UICONTROL Reporting] de l’[!UICONTROL User].</td> 
+   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[UICONTROL User] qui affiche et permet de définir les relations de l’[UICONTROL Company] et du [UICONTROL Reporting] de l’[UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 
@@ -1557,7 +1590,14 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
    <td>[!UICONTROL Percent Complete]</td> 
    <td> <p>Un champ de projet, de tâche ou de problème qui indique le pourcentage de travail associé à la tâche, au projet ou au problème qui est terminé.</p> <p>Vous pouvez mettre à jour ce champ manuellement pour les problèmes et les tâches de travail. </p> <p>Pour les projets et les tâches parents, ce champ est un cumul de toutes les tâches opérationnelles et il ne peut être mis à jour manuellement. </p> <p>Pour plus d’informations, consultez la section <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Vue d’ensemble du [!UICONTROL Percent Complete] du projet</a>.</p> </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td>[!UICONTROL Performance Index Method (PIM)]</td> 
+   <td> <p>La méthode [!UICONTROL Performance Index Method (PIM)] pour le projet contrôle la méthode utilisée par Adobe Workfront pour calculer les mesures de performances du projet, telles que l’indice de performance des coûts (ICP), l’indice de performance des prévisions de coûts (CSI), l’indice de performance des prévisions (SPI) et l’estimation à l’achèvement (EAC).</p> 
+   <p>Workfront calcule ces valeurs à l’aide des heures ou du coût.</p>
+   <p>Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/set-pim.md">Définir la méthode d'indice de performance (PIM)</a>.</p>
+   </td> 
+  </tr>
+ <tr> 
    <td>[!UICONTROL Permission]</td> 
    <td> <p>Droits accordés à un utilisateur ou à une utilisatrice sur un objet, généralement donnés pour lui permettre de terminer le travail sur l’élément ou de l’afficher. Vous pouvez octroyer des autorisations aux :</p> 
     <ul> 
@@ -1606,11 +1646,8 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
    <td> <p>Total du [!UICONTROL Planned Labor Cost] et du [!UICONTROL Planned Expense Cost] du projet. Cela n’inclut pas le [!UICONTROL Planned Risk Cost] du projet. </p> </td> 
-  </tr>
-
-
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Planned Date Alignment]</td> 
    <td> <p>Il s’agit d’un indicateur automatique que Workfront affecte des projets, des tâches et des événements pour indiquer quand un élément sera terminé par rapport à sa date d’achèvement prévue. </p>
    <p>Les valeurs suivantes sont des valeurs possibles pour l’indicateur Alignement de date prévu : </p>
@@ -2069,7 +2106,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (dans [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
+   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (dans le [!DNL Workfront Scenario Planner]) </td> 
@@ -2078,6 +2115,13 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   <tr> 
    <td>[!UICONTROL Schedule]</td> 
    <td>Planning de travail hebdomadaire, y compris les horaires de travail, combiné avec les jours de congé (par exemple les jours fériés) et les jours exceptionnels (par exemple, un samedi travaillé). Vous pouvez associer des plannings à des projets et des utilisateurs et utilisatrices.</td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL Schedule Performance Index (SPI)]</td> 
+   <td><p>L’[!UICONTROL Schedule Performance Index (SPI)] décrit la relation entre le planning prévu et le planning réel. Adobe Workfront calcule le SPI au niveau du projet et des tâches. Les responsables de projet examinent cette mesure pour déterminer si les tâches ou les projets sont actuellement en avance ou en retard sur le planning.</p>
+  <p>Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-spi.md">Calculer l'indice de performance horaire (IHP)</a>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 
@@ -2186,7 +2230,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
       <li>[!UICONTROL Inactive]</li> 
       <li>[!UICONTROL Closed]</li> 
      </ul> 
-     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « &lbrack;!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
+     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « [!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
      <p>Pour les objectifs stratégiques, ce champ n’est visible que si votre entreprise a acheté [!DNL Workfront Goals]. Pour plus d’informations sur la gestion des objectifs stratégiques à l’aide de [!DNL Workfront Goals], voir Vue d’ensemble de <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals]</a>. </p>
     </td> 
   </tr> 

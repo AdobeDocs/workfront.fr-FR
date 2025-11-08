@@ -5,8 +5,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Modifier le format des dates dans  [!DNL Adobe Workfront]
 description: Pour modifier le format des dates dans  [!DNL Adobe Workfront] , vous devez modifier les paramètres de langue dans votre navigateur.
 feature: Get Started with Workfront
+author: Becky
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 85%
@@ -45,13 +46,13 @@ Vous pouvez modifier les formats de date dans Workfront comme suit, selon les mo
 
   Pour plus d’informations, voir [Créer un rapport personnalisé](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Pour modifier le format de date dans toutes les notifications par e-mail sortantes pour l’ensemble de l’entreprise, vous devez mettre à jour le paramètre [!UICONTROL Locale d’e-mail par défaut] dans la zone [!UICONTROL Infos client] dans [!UICONTROL Configuration].
+* Pour modifier le format de date dans toutes les notifications par e-mail sortantes pour l’ensemble de l’entreprise, vous devez mettre à jour les [!UICONTROL Paramètres régionaux d’e-mail par défaut] dans la zone [!UICONTROL Infos client] dans [!UICONTROL Configuration].
 
   ![](assets/default-email-locale-field.png)
 
   Pour plus d’informations, voir [Configurer les informations de base pour votre système](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
-* Pour modifier le format de toutes les dates dans toutes les notifications par e-mail sortantes pour un seul utilisateur ou une seule utilisatrice, vous devez mettre à jour le paramètre [!UICONTROL Locale d’e-mail] dans la zone [!UICONTROL Modifier la personne] lors de la modification du profil d’un utilisateur ou d’une utilisatrice.
+* Pour modifier le format de toutes les dates dans toutes les notifications par e-mail sortantes pour un seul utilisateur ou une seule utilisatrice, vous devez mettre à jour les [!UICONTROL Paramètres régionaux d’e-mail] dans la zone [!UICONTROL Modifier la personne] lors de la modification du profil d’un utilisateur ou d’une utilisatrice.
 
   ![](assets/email-locale-for-user-profile-highlighted.png)
 

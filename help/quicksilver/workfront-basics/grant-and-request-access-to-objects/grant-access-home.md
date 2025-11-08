@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 title: Autoriser l’accès aux objets de la zone d’accueil
 description: Les utilisateurs et utilisatrices peuvent demander l’accès aux objets dans Adobe Workfront. Pour plus d’informations sur la demande d’accès, voir Demander l’accès aux objets.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 60%
@@ -58,7 +58,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Autoriser l’accès aux objets de la zone d’accueil
 
-1. Cliquez sur le **&#x200B;**&#x200B;Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, ou sur le **&#x200B;**&#x200B;Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Accueil**
+1. Cliquez sur le **** Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, ou sur le **** Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Accueil**
 Ou
 Cliquez sur le **de l’icône** Accueil![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
@@ -87,7 +87,7 @@ Vous pouvez configurer la réception de notifications par e-mail pour les demand
 
 1. Accédez à votre profil utilisateur en effectuant l’une des opérations suivantes :
 
-   * Cliquez sur le **&#x200B;**&#x200B;Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, puis cliquez sur votre nom.
+   * Cliquez sur le **** Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, puis cliquez sur votre nom.
    * Cliquez sur Adobe **Menu principal** ![icône de profil](assets/adobe-blue-main-menu.png) dans le coin supérieur droit, le cas échéant, puis cliquez sur **Profil Workfront**.
 
 1. Cliquez sur le menu **Plus** ![icône plus](assets/more-icon.png) à droite de votre nom dans l’en-tête, puis cliquez sur **Modifier**.

@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: Vue d’ensemble du partage des autorisations sur les objets
 description: Vous pouvez partager ou supprimer des autorisations pour un objet que vous avez créé ou un objet qui a été partagé avec vous.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 89%
@@ -90,12 +90,12 @@ Vous pouvez partager les objets suivants dans Workfront avec d’autres personne
   >* [Partager un plan dans le planificateur de scénarios](../../scenario-planner/share-a-plan.md)
   >* [Partager un objectif dans les Objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
-* Workfront envoie des notifications aux utilisateurs lorsque vous partagez un objet avec eux. Les notifications sortent lorsque ces deux paramètres sont activés :
+* Workfront envoie des notifications aux utilisateurs lorsque vous partagez un objet avec eux. Les notifications sont envoyées lorsque ces deux paramètres sont activés :
 
-   * Les notifications électroniques **Partage d’objet avec l’utilisateur** et **Partage d’objet avec l’équipe** sont activées dans la zone Configuration par un administrateur système ou groupe. Pour plus d’informations, consultez l’article [Configurer les notifications d’événements pour tous les utilisateurs et les utilisatrices du système](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-   * Les **Quelqu&#39;un partage un objet avec moi** et **Quelqu&#39;un partage un objet avec mon équipe** les notifications sont activées dans la page de profil de l&#39;utilisateur. Pour plus d’informations, voir [Modification de vos propres notifications électroniques](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   * Les notifications électroniques **Partage d’objet pour l’utilisateur** et **Partage d’objet pour l’équipe** sont activées dans la zone Configuration par un administrateur système ou un administrateur de groupe. Pour plus d’informations, consultez l’article [Configurer les notifications d’événements pour tous les utilisateurs et les utilisatrices du système](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   * Les notifications **Quelqu&#39;un partage un objet avec moi** et **Quelqu&#39;un partage un objet avec mon équipe** sont activées dans la page de profil de l&#39;utilisateur. Pour plus d’informations, voir [Modifier vos propres notifications par e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-  Les paramètres au niveau du système ou du groupe doivent être activés avant de pouvoir activer les paramètres de notification pour l’utilisateur.
+  Les paramètres au niveau du système ou du groupe doivent d’abord être activés avant de pouvoir activer les paramètres de notification pour l’utilisateur.
 
 ## Limites du partage
 
@@ -115,7 +115,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
     <ul> 
      <li><p>Afficher l’objet</p></li> 
      <li><p>Ajouter des documents à l’objet</p></li> 
-     <li><p>Ajout de problèmes à l’objet (s’il s’agit d’une tâche ou d’un projet)</p></li> 
+     <li><p>Ajoutez les problèmes à l’objet (s’il s’agit d’une tâche ou d’un projet)</p></li> 
      <li><p>Afficher des informations financières sur l’objet</p></li> 
      <li> <p>Partager l’objet<br></p> <p>Lorsque vous partagez l’objet, vous pouvez octroyer à d’autres personnes le même niveau d’autorisation que celui dont vous disposez sur l’objet, et non pas un niveau supérieur.</p> </li> 
     </ul> </td> 
@@ -147,7 +147,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Rendre ceci visible sur tout le système.</strong></td> 
-   <td> <p>L’objet peut être trouvé dans les recherches et affiché par les utilisateurs disposant d’un compte Workfront.</p><p><b>Remarque</b> : Les utilisateurs disposant de licences de contributeur ou de demandeur ne peuvent pas voir les projets, même si ce paramètre est activé. </td> 
+   <td> <p>L’objet se trouve dans les recherches et est visible par les utilisateurs disposant d’un compte Workfront.</p><p><b>Remarque </b> : les utilisateurs disposant de licences de contributeur ou de demandeur ne peuvent pas voir les projets, même si ce paramètre est activé. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Pour plus d’informations sur la hiérarchie et l’interdépendance des objets
 >
 >Votre administrateur ou administratrice Workfront peut désactiver les autorisations héritées pour les documents de votre niveau d’accès.Pour plus d’informations sur la désactivation des autorisations héritées pour les documents à ce niveau d’accès, voir la section [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-### Autorisations acquises grâce aux appartenances organisationnelles {#permissions-acquired-through-organizational-memberships}
+### Autorisations acquises par le biais d’appartenances organisationnelles {#permissions-acquired-through-organizational-memberships}
 
 Si vous accordez des autorisations de gestion à un groupe de personnes sur un objet et des autorisations d’affichage à une personne de ce groupe sur le même objet, la personne dispose du niveau d’autorisation le plus élevé (Gérer) accordé sur l’objet via l’appartenance au groupe. 
 

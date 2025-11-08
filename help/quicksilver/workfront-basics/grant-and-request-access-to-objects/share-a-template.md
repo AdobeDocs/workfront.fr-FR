@@ -3,10 +3,10 @@ title: Partager un modèle
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
 description: En tant que personne membre de l’administration Adobe Workfront, vous pouvez accorder aux utilisateurs et aux utilisatrices l’accès à l’affichage ou à la modification des modèles lorsque vous leur attribuez un niveau d’accès. Un utilisateur ou une utilisatrice doit disposer d’une licence Plan pour avoir accès à l’option de modification des modèles.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 95%

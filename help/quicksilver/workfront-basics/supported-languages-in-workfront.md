@@ -4,9 +4,9 @@ navigation-topic: get-started-with-workfront
 title: Langues prises en charge dans Adobe Workfront
 description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe Workfront et les e-mails provenant de Workfront en ajustant les préférences linguistiques de votre navigateur et vos paramètres régionaux d’e-mail par défaut dans Workfront.
 feature: Get Started with Workfront
-author: Nolan
+author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 66%

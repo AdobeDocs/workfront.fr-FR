@@ -6,10 +6,10 @@ description: La durée quotidienne prévue pour qu’une ressource dédiée trav
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -59,7 +59,7 @@ Vous pouvez modifier le pourcentage de répartition lorsque vous effectuez des a
   <tr> 
    <td>Autorisations d’objet</td>
    <td><p>Autorisations de contribution ou de niveau supérieur pour une tâche</p>
-   <p>Modifiez les autorisations pour mettre à jour le pourcentage d’affectation dans la zone Modifier la tâche lors de la modification <span class="preview"> tâches à l’aide de l’ancienne expérience. Vous ne pouvez plus gérer le pourcentage de répartition dans la zone Modifier la tâche lors de la modification de tâches dans la nouvelle expérience.</span></p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifier les tâches</a></p>.</td>
+   <p>Modifiez les autorisations pour mettre à jour le pourcentage d’affectation dans la zone Modifier la tâche lors de la modification <span class="preview"> tâches à l’aide de l’ancienne expérience. Vous ne pouvez plus gérer le pourcentage de répartition dans la zone Modifier la tâche lors de la modification de tâches dans la nouvelle expérience.</span></p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifier les tâches</a>.</p></td>
   </tr>
  </tbody>
 </table>

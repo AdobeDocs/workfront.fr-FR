@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '5463'
-ht-degree: 41%
+source-wordcount: '5487'
+ht-degree: 40%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -282,7 +282,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Paragraphe**.
 
-   ![&#x200B; Type de champ de paragraphe &#x200B;](assets/paragraph-field-type.png)
+   ![ Type de champ de paragraphe ](assets/paragraph-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -299,7 +299,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
 >[!NOTE]
 >
->En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [&#x200B; Modifier des enregistrements &#x200B;](/help/quicksilver/planning/records/edit-records.md).
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection multiple**.
@@ -348,12 +348,12 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
 >[!NOTE]
 >
->En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur de champ à sélection unique d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [&#x200B; Modifier des enregistrements &#x200B;](/help/quicksilver/planning/records/edit-records.md).
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur de champ à sélection unique d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection simple**.
 
-   ![&#x200B; Type de champ à sélection unique &#x200B;](assets/single-select-field-type.png)
+   ![ Type de champ à sélection unique ](assets/single-select-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du champ tel qu&#39;il apparaîtra dans une table ou dans la page Détails de l&#39;enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -410,7 +410,7 @@ Vous pouvez utiliser un champ de date pour capturer des informations supplément
       * **Long** : 16 mai 2023
       * **Européen** : 16/05/2023
       * **ISO** : 2023-05-16
-      * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après avoir enregistré le champ.
+   * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
 
      Sélectionnez l’une des options suivantes :
 
@@ -430,7 +430,7 @@ Les types de champ Nombre capturent les informations au format numérique.
 >Les champs numériques s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de nombres une fois la demande soumise, dans le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Nombre**.
@@ -460,7 +460,7 @@ Les types de champ en pourcentage capturent les informations au format numériqu
 >Les champs de pourcentage s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent sous forme de pourcentages une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Pourcentage**.
@@ -500,7 +500,7 @@ Les types de champ de devise capturent les informations dans un format numériqu
 >Les champs de devise s’affichent sous la forme d’un type de champ de texte monoligne dans un créateur de formulaires de demande.
 >
 >Cependant, le format des champs est conservé et les valeurs de ces champs s’affichent en tant que devise une fois la demande soumise, sur le type d’enregistrement et dans la page des détails de la demande.
->&#x200B;>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Devise**.
 
@@ -575,7 +575,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
    >
    >* Vous pouvez référencer un champ contenant jusqu’à 4 champs (et objets) différents du type d’enregistrement actuel. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité (1) et que l’Activité est connectée au type d’enregistrement Campagne (2) qui est connecté à un projet Workfront (3), vous pouvez référencer le champ Budget du projet (4) dans la formule que vous créez pour le type d’enregistrement Activité.
    >
-   >![Exemple de formule de budget de projet avec quatre champs supprimés &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemple de formule de budget de projet avec quatre champs supprimés ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facultatif) Cliquez sur **Agrandir** pour ouvrir la zone Formule dans une zone plus grande.
@@ -677,7 +677,7 @@ Vous pouvez utiliser le type de champ Date de création pour ajouter la date à 
       * **Long** : 16 mai 2023
       * **Européen** : 16/05/2023
       * **ISO** : 2023-05-16
-   * **Inclure un champ de l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--submitted a UI text change for this - check the UI-->
+   * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
 
      Sélectionnez l’une des options suivantes :
 
@@ -726,8 +726,7 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
       * **Long** : 16 mai 2023
       * **Européen** : 16/05/2023
       * **ISO** : 2023-05-16
-
-   * **Inclure un champ de l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--submitted a UI text change for this - check the UI-->
+   * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
 
      Sélectionnez l’une des options suivantes :
 
@@ -764,7 +763,7 @@ Vous pouvez utiliser le type de champ Date d’approbation pour ajouter la date 
       * **Européen** : 16/05/2023
       * **ISO** : 2023-05-16
 
-   * **Inclure un champ de l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut.
+   * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
 
      Sélectionnez l’une des options suivantes :
 

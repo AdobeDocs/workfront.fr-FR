@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Plusieurs onglets de navigateur entraînent la déconnexion de Workfront
 description: Lorsqu’une personne a plusieurs onglets de navigateur ouverts, Workfront peut se déconnecter automatiquement.
 feature: Get Started with Workfront
+author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 30%
