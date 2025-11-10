@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7900629ccffae809ed97dbeae5d27ddff69536d5
+source-git-commit: e92910e553f08aea12e9e1b17a17413731c37d2f
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 22%
+source-wordcount: '1331'
+ht-degree: 21%
 
 ---
 
@@ -204,6 +204,12 @@ Cette mise à jour concerne Mac et Windows.
 
 L’API Workfront version 21 a été publiée le 23 octobre 2025. Pour la version 21 de l’API, nous avons modifié certaines ressources et certains points d’entrée. Certains des changements prennent en charge de nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
 
+>[!IMPORTANT]
+>
+>Cette modification de version de l’API comprend une modification avec rupture qui peut affecter vos appels API existants. Cela est dû au fait que l’API version 21 utilise la version 2 des abonnements aux événements.
+>
+> Pour les champs à sélection multiple, la version 2 des abonnements aux événements envoie toujours sous la forme d’un tableau. La version 1 a envoyé un tableau si plusieurs valeurs ont été sélectionnées. Si une seule valeur a été sélectionnée, une chaîne a été envoyée.
+
 Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 21 de l’API](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
 Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions et de la prise en charge de l’API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
@@ -236,7 +242,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

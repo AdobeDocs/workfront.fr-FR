@@ -6,16 +6,22 @@ description: Adobe Workfront a publié la verison 21 de l’API le vendredi 23
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 155323314712e020a638619d9bf10d678078645e
+source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 85%
+source-wordcount: '954'
+ht-degree: 79%
 
 ---
 
 # Nouveautés de la version 21 de l’API
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
+
+>[!IMPORTANT]
+>
+>Cette modification de version de l’API comprend une modification avec rupture qui peut affecter vos appels API existants. Cela est dû au fait que l’API version 21 utilise la version 2 des abonnements aux événements.
+>
+> Pour les champs à sélection multiple, la version 2 des abonnements aux événements envoie toujours sous la forme d’un tableau. La version 1 a envoyé un tableau si plusieurs valeurs ont été sélectionnées. Si une seule valeur a été sélectionnée, une chaîne a été envoyée.
 
 Adobe Workfront a publié la verison 21 de l’API le vendredi 23 octobre 2025. La version 21 de l’API présente les changements suivants par rapport à la version 20.
 
