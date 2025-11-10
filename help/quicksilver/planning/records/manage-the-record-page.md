@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2261'
 ht-degree: 5%
 
 ---
@@ -362,10 +362,10 @@ Pour ajouter une page Enregistrements connectés :
 
      Pour plus d&#39;informations sur la modification des enregistrements en mode Tableau, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-         >[!TIP]
-         >
-         >Vous pouvez sélectionner plusieurs enregistrements ou objets pour les supprimer.
-     
+     >[!TIP]
+     >
+     >Vous pouvez sélectionner plusieurs enregistrements ou objets pour les supprimer.
+
    * Modifiez sur la ligne l&#39;un des enregistrements Planning de la table de la page Enregistrements connectés .
 
      Tous les autres objets Workfront s’affichent en lecture seule dans un tableau et vous ne pouvez pas les modifier.
