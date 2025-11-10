@@ -6,10 +6,10 @@ description: Vous pouvez installer le plug-in Adobe Workfront pour Photoshop à
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 61e5b763ec527aeb846e975e06842dc2c4c69918
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 97%
+source-wordcount: '581'
+ht-degree: 71%
 
 ---
 
@@ -66,7 +66,7 @@ Vous pouvez installer le plug-in [!DNL Adobe Workfront for Photoshop] individuel
 1. Accédez à la [Page d’installation d’Adobe Workfront pour Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share) sur Adobe Exchange.
 1. Dans la boîte de dialogue qui apparaît, cliquez sur **Ouvrir l’application de bureau [!DNL Adobe Creative Cloud]**.
 1. Lorsque le gestionnaire des plug-ins [!DNL Adobe Photoshop] est ouvert, cliquez sur **[!UICONTROL Installer]**.
-1. Lisez les informations de la boîte de dialogue, puis cliquez sur **[!UICONTROL OK]**.
+1. Lisez les informations de la boîte de dialogue, puis cliquez sur **[!UICONTROL OK]** et suivez les instructions à l’écran pour terminer l’installation.
 
 1. Pour plus d’informations sur l’ouverture du plug-in, reportez-vous à la section suivante.
 
@@ -99,20 +99,43 @@ Vous pouvez installer le plug-in [!DNL Adobe Workfront for Photoshop] individuel
    >* Pour trouver votre domaine, ouvrez un navigateur, accédez à l’instance [!DNL Workfront] et copiez la première partie de l’URL :\
    >![Localiser le domaine](assets/domain-350x50.png)
    >
-   >* Si votre instance Workfront est intégrée à Experience Cloud, demandez à votre équipe d’administration de vous fournir le domaine Workfront situé sous Produit > Workfront dans l’Admin Console.
+   >* Si votre instance Workfront est intégrée à Experience Cloud et que le domaine commence par `experience.adobe.com`, demandez à votre administrateur de vous fournir le domaine Workfront qui se trouve sous Produit > Workfront dans Admin Console.
 
-1. Dans le navigateur, saisissez vos informations d’identification [!DNL Workfront], puis cliquez sur **[!UICONTROL Connexion]**. Si votre entreprise utilise une authentification unique (SSO), vous accédez à la page de votre fournisseur d’authentification unique pour vous connecter.
+1. Dans le navigateur, saisissez vos informations d’identification [!DNL Adobe], puis cliquez sur **[!UICONTROL Connexion]**. Si votre entreprise utilise une authentification unique (SSO), vous accédez à la page de votre fournisseur d’authentification unique pour vous connecter.
 
    >[!NOTE]
    >
    >Vous n’aurez peut-être pas besoin de saisir vos informations d’identification [!DNL Workfront] si votre connexion est récente.
 
-   Suivez les invites pour vous connecter à [!DNL Workfront].
+1. Suivez les invites pour vous connecter à [!DNL Workfront].
 
    >[!NOTE]
    >
    >* [!DNL Workfront] se connecte à [!DNL Adobe Creative Cloud] en utilisant OAuth 2.0, une norme sécurisée utilisée par la plupart des intégrations web pour l’authentification et l’autorisation des utilisateurs et utilisatrices.
-   >* Lorsqu’on vous invite à saisir [le domaine ou l’hôte] de votre compte [!DNL Workfront], saisissez-le au format suivant : *domainedevotreentreprise.my.workfront.com*. Le domaine de votre entreprise est généralement le nom de votre entreprise.
+
 
 1. Cliquez sur **[!UICONTROL Autoriser l’accès]** pour terminer la connexion.
 1. Revenez à [!UICONTROL Adobe Photoshop] pour voir votre travail.
+
+### Dépannage des erreurs de connexion
+
+**’erreur « Un problème est survenu » s’affiche lors de la tentative de connexion**
+
+
+Vous ne pouvez pas utiliser une URL commençant par `experience.adobe.com` pour vous connecter au plug-in.
+
+![erreur de connexion](assets/plugin-log-in-error.png) ![domaine](assets/incorrect-domain.png)
+
+
+Pour résoudre ce problème, procédez comme suit :
+
+1. Supprimez le dossier qui stocke le domaine pour le plug-in .
+
+   >[!TIP]
+   >
+   >Sur un Mac, accédez au Finder, appuyez sur **Commande+Maj+.** afficher les dossiers masqués, accédez à **/Users//Library/Application Support**, puis supprimez le dossier **Workfront**.
+
+
+1. Revenez au plug-in et saisissez votre domaine Workfront. Le domaine doit être `company-name.my.workfront.com` et non `experience.adobe.com`.
+
+   Pour [rechercher votre domaine Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) si vous utilisez l’expérience unifiée Adobe, accédez à Configuration, Informations sur le client.
