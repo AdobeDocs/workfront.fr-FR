@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 3838e355c16275b9e10fb92497f1698ac99c4fa4
+source-git-commit: c6adce09acf993ae00b080ac5177dabd953d69a1
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 44%
+source-wordcount: '1461'
+ht-degree: 43%
 
 ---
 
@@ -55,7 +55,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Vous pouvez utiliser la recherche externe pour importer les données de votre instance Workfront dans le formulaire personnalisé.
 
-<!--When someone accesses the field in the custom form, they will only see in the list of options what they have permissions to see in Workfront. For example, if you are showing a list of projects, the user would only see projects that are shared with them.-->
+Lorsqu’une personne accède au champ dans le formulaire personnalisé, elle ne voit dans la liste des options que ce qu’elle est autorisée à voir dans Workfront. Par exemple, si vous affichez une liste de projets, l’utilisateur ne verra que les projets qui sont partagés avec lui.
 
 ### Utiliser des valeurs de champ Workfront natives dans la recherche externe
 
