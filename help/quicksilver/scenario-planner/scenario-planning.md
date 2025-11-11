@@ -19,7 +19,7 @@ ht-degree: 90%
 
 Cette section contient les articles suivants :
 
-* [Vue d’ensemble du  [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)
+* [Vue d’ensemble du  [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)
 * [Commencer avec le  [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
 * [Accès requis pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
 * [Vue d’ensemble des plans dans le  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)
