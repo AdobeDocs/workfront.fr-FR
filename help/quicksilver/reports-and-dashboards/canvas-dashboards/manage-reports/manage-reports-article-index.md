@@ -7,7 +7,7 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2ed58b15-098a-4937-86e6-2a8444389c00
-source-git-commit: a48d7691d64a561bdef8a6bad506a3ce0c4f839e
+source-git-commit: 7e14f7224b5383f94c330a1543b9e01b651ed821
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 8%
@@ -24,5 +24,5 @@ Cette section contient les articles suivants :
 
 * [Modification d’un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
 * [Modification des filtres de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
-* [Duplication d’un rapport dans un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report)
+* [Duplication d’un rapport dans un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
 * [Suppression d’un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
