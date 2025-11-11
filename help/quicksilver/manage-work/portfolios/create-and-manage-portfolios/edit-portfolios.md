@@ -6,10 +6,10 @@ description: Vous pouvez modifier les informations des portefeuilles que vous av
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: cfbd38d9ab8f1976f891164a2572bb929339477d
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 61%
+source-wordcount: '1080'
+ht-degree: 59%
 
 ---
 
@@ -149,6 +149,12 @@ Vous pouvez modifier un portefeuille dans la page de portefeuille ou modifier de
    * [[!UICONTROL Vue d’ensemble]](#overview)
    * [Formulaires personnalisés](#custom-forms)
    * [Commentaire](#comment)
+
+
+   >[!TIP]
+   >
+   >Pour recalculer des champs personnalisés pour plusieurs portfolios à la fois, sélectionnez plusieurs portfolios dans une liste, puis cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) en haut de la liste, puis **Recalculer les expressions**.
+
 
 ### [!UICONTROL Vue d’ensemble] {#overview}
 

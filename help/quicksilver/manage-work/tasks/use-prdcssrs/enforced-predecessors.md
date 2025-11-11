@@ -6,16 +6,16 @@ description: Les tâches antérieures sont des tâches dont dépendent d’autre
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 97%
+source-wordcount: '475'
+ht-degree: 94%
 
 ---
 
 # Appliquer les tâches antérieures
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Les tâches antérieures sont des tâches dont dépendent d’autres tâches pour se terminer. Les relations antérieures affectent les dates de début et d’achèvement des tâches et ont une incidence sur la chronologie du projet.
 
@@ -119,4 +119,6 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 1. Dans la colonne **Tâches antérieures**, commencez à saisir le numéro de la tâche antérieure suivie de « e ». Par exemple, saisissez « 1e » pour ajouter la tâche numéro 1 en tant que tâche antérieure à la tâche sélectionnée.
 1. Cliquez sur Entrée pour enregistrer les informations de votre tâche antérieure.
 
-   ![predecessor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![Liste des tâches antérieures appliquées](assets/predecessor-enforced-in-list-350x308.png)
+
+   Les informations sur la tâche antérieure en cours d&#39;application sont immédiatement enregistrées.

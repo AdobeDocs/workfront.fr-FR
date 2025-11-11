@@ -2,21 +2,23 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: plan, permissions, partage, initiatives, scénarios, scénario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Demander l’accès à un plan dans le planificateur de scénarios
+title: Demander des autorisations pour un plan dans le planificateur de scénarios
 description: Vous pouvez demander l’accès à un plan dans le planificateur de scénarios Adobe Workfront lorsque le lien vers le plan vous est communiqué.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 85%
+ht-degree: 78%
 
 ---
 
-# Demander l’accès à un plan dans le [!DNL Scenario Planner]
+# Demande d’autorisations pour un plan dans l’[!DNL Scenario Planner]
 
-Vous pouvez demander l’accès à un plan sur le [!DNL Adobe Workfront Scenario Planner] lorsque le lien vers le plan vous est communiqué.
+<!--Audited: 11/2025-->
+
+Vous pouvez demander des autorisations pour un plan dans le [!DNL Adobe Workfront Scenario Planner] lorsque le lien vers le plan est partagé avec vous.
 
 ## Conditions d’accès
 
@@ -46,7 +48,7 @@ Vous pouvez demander l’accès à un plan sur le [!DNL Adobe Workfront Scenario
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -95,7 +97,7 @@ Avant de pouvoir demander l’accès à un plan sur le [!DNL Scenario Planner], 
 >
 >Si vous n’avez pas de droits de niveau d’accès au [!DNL Scenario Planner] et que vous essayez d’accéder à un plan à partir d’un lien, vous ne pouvez pas demander l’accès au plan. Au lieu de cela, un écran s’affiche et vous invite à contacter l’administrateur ou l’administratrice de [!DNL Workfront].
 
-## Demander l’accès aux plans dans le [!DNL Workfront Scenario Planner]
+## Demander des autorisations pour les plans dans le [!DNL Workfront Scenario Planner]
 
 Si vous n’avez pas encore d’autorisations pour un plan et que vous y accédez à partir d’un lien partagé avec vous, un écran s’affiche pour vous informer que vous n’avez pas les autorisations nécessaires pour consulter le plan. Vous recevez une invitation à demander des autorisations au créateur ou à la créatrice du plan.
 
@@ -107,7 +109,7 @@ Pour demander des autorisations :
 
 1. Cliquez sur un lien vers un plan.
 
-   ![Demander l’accès au plan](assets/request-access-to-plan-350x277.png)
+   ![Demande d’autorisations pour le plan](assets/request-access-to-plan-350x277.png)
 
 1. Dans le menu déroulant **[!UICONTROL Demander l’accès à]**, indiquez le niveau d’autorisation que vous souhaitez obtenir. Sélectionnez l’une des options suivantes :
 

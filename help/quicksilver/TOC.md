@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ddbee8110fbfb76a3a6bfe8bca66e1ba1cc40fb4
+source-git-commit: 52c907abde5c96ad50e4ccb031414baf6475186c
 workflow-type: tm+mt
 source-wordcount: '13522'
 ht-degree: 84%
@@ -2025,7 +2025,7 @@ ht-degree: 84%
    * [Mettre à jour les priorités de l’initiative dans le planificateur de scénarios](scenario-planner/prioritize-initiatives.md)
    * [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](scenario-planner/publish-scenarios-update-projects.md)
    * [Vue d’ensemble de la réconciliation des affectations de ressources entre les projets et les initiatives](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-   * [Demander l’accès à un plan dans le planificateur de scénarios](scenario-planner/request-access-to-plan.md)
+   * [Demander des autorisations pour un plan dans le planificateur de scénarios](scenario-planner/request-access-to-plan.md)
    * [Résoudre les conflits d’initiative dans le planificateur de scénarios](scenario-planner/resolve-conflicts-in-sp.md)
    * [Partager un plan dans le planificateur de scénarios](scenario-planner/share-a-plan.md)
    * [Afficher l’attribution des rôles pour les projets et les initiatives dans la liste des tâches](scenario-planner/show-role-allocation-task-list-nwe.md)
@@ -2517,7 +2517,7 @@ ht-degree: 84%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)

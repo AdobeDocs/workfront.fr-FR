@@ -7,16 +7,16 @@ description: La date d’achèvement prévisionnelle est un indicateur calculé 
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '867'
 ht-degree: 69%
 
 ---
 
 # Vue d’ensemble de la date d’achèvement prévue pour les projets, les tâches et les problèmes
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2025 -->
 
 La date d’achèvement prévisionnelle est un indicateur calculé en temps réel de la date d’achèvement du projet, de la tâche ou du problème. Lorsque le projet, la tâche ou le problème est marqué comme terminé, la date d’achèvement prévisionnelle devient la date d’achèvement effective.
 
@@ -122,6 +122,9 @@ Pour créer un rapport de problème qui inclut la date d’achèvement prévisio
 1. Sélectionnez-le lorsqu’il apparaît dans la liste, sous l’objet **Problème**.
 1. Cliquez sur **Enregistrer + Fermer**.
 
+   ![Date d&#39;achèvement prévue de l&#39;événement dans la colonne du rapport](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+
+
    La colonne **Date d’achèvement prévue** du rapport est renseignée.
 
-   ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+

@@ -7,10 +7,10 @@ description: Vous pouvez partager un plan que vous avez créé dans le planifica
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -56,7 +56,7 @@ Vous pouvez partager un plan dans le [!DNL Adobe Workfront Scenario Planner] ave
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -118,7 +118,7 @@ Pour plus d’informations sur l’accès au [!DNL Scenario Planner] pour diffé
 * Vous ne pouvez pas afficher les plans que vous n’avez pas créés ou qui ne sont pas partagés avec vous.
 * Vous pouvez uniquement partager un plan avec d’autres personnes. Vous ne pouvez pas partager des plans avec des groupes, des équipes ou des entreprises.
 * Vous devez enregistrer le plan avant de pouvoir le partager.
-* Vous pouvez partager une URL vers un plan avec une autre personne. Si la personne ne dispose pas des autorisations nécessaires pour au moins afficher le plan, elle peut demander l’accès au plan à une autre personne lorsqu’elle reçoit l’URL. Pour plus d’informations sur la demande d’accès à un plan, voir [Demander l’accès à un plan dans le  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+* Vous pouvez partager une URL vers un plan avec une autre personne. Si la personne ne dispose pas des autorisations nécessaires pour au moins afficher le plan, elle peut demander l’accès au plan à une autre personne lorsqu’elle reçoit l’URL. Pour plus d’informations sur la demande d’accès à un plan, consultez [Demande d’autorisations pour un plan dans le [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 * Lors du partage de plusieurs plans qui ont déjà été partagés avec d’autres personnes, les personnes avec lesquelles vous partagez ne remplacent personne mais sont ajoutées aux personnes existantes de chaque plan que vous avez sélectionné.
 
 ## Options d’autorisation pour les plans

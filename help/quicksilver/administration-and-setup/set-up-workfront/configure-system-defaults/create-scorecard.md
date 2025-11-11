@@ -8,16 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 73%
+source-wordcount: '721'
+ht-degree: 72%
 
 ---
 
 # Créer une carte de performance
 
-<!--Audited: 05/2025-->
+<!--Audited: 11/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -48,7 +48,7 @@ Vous pouvez créer une carte de performance de la manière suivante :
  <tbody> 
   <tr> 
    <td role="rowheader">Package Workfront</td> 
-   <td><p>Tous</p></td> 
+   <td><p>Workfront ou Workflow Prime ou version ultérieure</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 

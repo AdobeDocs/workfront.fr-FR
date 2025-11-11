@@ -8,10 +8,10 @@ author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 Cette section contient les articles suivants :
 
-* [Vue d’ensemble du  [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)
+* [Vue d’ensemble du  [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)
 * [Commencer avec le  [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
 * [Accès requis pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
 * [Vue d’ensemble des plans dans le  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)
@@ -33,7 +33,7 @@ Cette section contient les articles suivants :
 * [Supprimer des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)
 * [Résoudre les conflits d’initiative dans le  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
 * [Importer des projets dans des plans dans le  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
-* [Demander l’accès à un plan dans le  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
+* [Demande d’autorisations pour un plan dans le [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
 * [Partager un plan dans le  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)
 * [Mettre à jour ou créer des projets en publiant des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
 * [Vue d’ensemble de la réconciliation des allocations de ressources entre les projets et les initiatives](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)

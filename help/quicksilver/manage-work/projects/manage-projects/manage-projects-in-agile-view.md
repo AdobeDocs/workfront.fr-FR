@@ -6,20 +6,22 @@ description: Vous pouvez tirer parti des fonctionnalités Agile dans votre proje
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 94%
+source-wordcount: '311'
+ht-degree: 62%
 
 ---
 
 # Gérer un projet en vue Agile
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Vous pouvez tirer parti des fonctionnalités Agile dans votre projet sans les difficultés administratives qui accompagnent généralement les pratiques Agile (comme la gestion des listes d’attente des équipes ou la création d’itérations).
 
-Si vous souhaitez travailler dans un environnement Agile qui utilise une liste d’attente d’équipe et vous permet de créer des itérations à partir des tâches de la liste d’attente, suivez les instructions de la section [Travailler dans un environnement Agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+Vous pouvez travailler dans un environnement agile qui utilise une liste d’attente d’équipe et vous permet de créer des itérations à partir des tâches de la liste d’attente.
+
+Pour plus d’informations, voir [Travailler dans un environnement agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Conditions d’accès
 
@@ -95,7 +97,9 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 ## Afficher un projet dans la vue Agile
 
-1. Accédez au projet que vous souhaitez afficher dans une vue Agile, soit via la liste des tâches, soit via la liste des problèmes.
+Vous pouvez afficher les tâches ou les événements d’un projet dans une vue agile au lieu d’une liste, afin d’utiliser les fonctionnalités agiles pour le développement de votre projet.
+
+1. Accédez au projet à afficher dans une vue agile, puis cliquez sur **Tâches** ou **Événements** dans le panneau de gauche.
 1. Cliquez sur l’icône **Vue panorama** ![Icône panorama](assets/board-icon-for-agile-view.png).
 
    La vue panorama du projet s’affiche par défaut.
@@ -107,4 +111,6 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
    Pour plus d’informations, voir [Gérer les colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) et [Personnaliser les champs à afficher sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Vous ne pouvez pas définir de politiques de colonne dans la vue panorama d’un projet.
 
-1. (Facultatif) Pour revenir à la vue Liste, cliquez sur l’icône **Liste**.
+1. (Facultatif) Pour revenir à la vue Liste, cliquez sur l’icône **Liste** ![Icône Liste](assets/list-icon.png).
+
+   La liste des tâches ou des événements s’affiche.

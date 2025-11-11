@@ -7,10 +7,10 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 53269f4932a752a833df8e41891706934214e062
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 84%
+source-wordcount: '1207'
+ht-degree: 57%
 
 ---
 
@@ -97,27 +97,20 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Modifier les informations d’un formulaire personnalisé
 
-La modification des informations sur un formulaire personnalisé joint à un objet est identique pour tous les objets. Pour plus d’informations sur les objets pouvant avoir un formulaire personnalisé, voir [Vue d’ensemble des formulaires personnalisés](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+La modification des informations d’un formulaire personnalisé joint à un objet est similaire pour la plupart des objets.
 
-1. Accédez à l’objet pour lequel vous souhaitez modifier des informations sur le formulaire personnalisé.
-1. Cliquez sur **`<Object type>`Détails** dans le panneau de gauche.
+Pour plus d’informations sur les objets pouvant avoir un formulaire personnalisé, voir [Vue d’ensemble des formulaires personnalisés](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
-   Par exemple, lorsque vous modifiez les informations d’un formulaire personnalisé de projet, cliquez sur **Détails du projet**.
+1. Accédez à n’importe quelle liste d’objets pour lesquels vous souhaitez modifier des informations sur le formulaire personnalisé, à l’exception d’une liste d’itérations.
+1. Sélectionnez un ou plusieurs objets dans la liste, puis cliquez sur l&#39;icône **Modifier** ![Icône Modifier](assets/edit-icon.png) en haut de la liste.
+1. Cliquez sur **Custom Forms** dans le panneau de gauche, dans la zone **Edit &lt; object >**.
 
-1. Faites défiler jusqu’au formulaire personnalisé. Lorsqu’un formulaire personnalisé est joint à l’objet, le nom du formulaire s’affiche comme une zone de la section Détails.
-1. Si nécessaire, cliquez sur la flèche ![](assets/expand-arrow-right.png) à gauche du nom du formulaire personnalisé pour la développer.
-1. Dans le coin supérieur droit de la page, cliquez sur l’icône Modifier ![](assets/edit-icon.png).
+   Lorsqu’un formulaire personnalisé est joint à l’objet , le nom du formulaire s’affiche sous forme de zone dans la section **Custom Forms**.
 1. Commencez à saisir des informations dans les champs auxquels vous avez accès.
 
-   ![](assets/click-in-field-to-edit-info-350x132.png)
+   ![Zone de modification avec formulaires personnalisés sur l’enregistrement de facturation](assets/edit-box-with-custom-forms-on-billing-record.png)
 
-   Ou
-
-   Si aucune information n’a encore été saisie dans le formulaire, cliquez sur **Ajouter+** pour les champs auxquels vous avez accès et commencez à saisir des informations.
-
-   ![](assets/plus-add-to-edit-info-350x180.png)
-
-   Si plusieurs formulaires personnalisés sont joints à l’objet, vous pouvez le faire pour chaque formulaire.
+   Si plusieurs formulaires personnalisés sont joints à l’objet , faites-le pour chaque formulaire.
 
    Selon le type de champ dans lequel vous travaillez, tenez compte des éléments suivants :
 
@@ -133,7 +126,7 @@ La modification des informations sur un formulaire personnalisé joint à un obj
 
    Pour plus d’informations sur tous les types de champ, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Cliquez sur **Enregistrer les modifications**.
+1. Cliquer sur **Enregistrer**.
 
    >[!IMPORTANT]
    >
@@ -147,19 +140,50 @@ La modification des informations sur un formulaire personnalisé joint à un obj
 
    Vous pouvez également mettre à jour manuellement tous les champs personnalisés calculés pour un objet lorsque vous modifiez l’objet en bloc avec d’autres objets dans une liste. Pour les instructions, voir [Recalculer tous les champs personnalisés calculés pour plusieurs objets d’une liste lors de la modification des objets](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) dans cet article.
 
-## Recalculer tous les champs personnalisés calculés pour un objet  {#recalculate-all-calculated-custom-fields-for-an-object}
+1. (Conditionnel) Pour mettre à jour les champs personnalisés d’un formulaire personnalisé d’itération, procédez comme suit :
+
+   1. Accédez à une itération.
+   1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
+   1. Pour ajouter des formulaires personnalisés, commencez à saisir le nom d’un formulaire dans le champ **Ajouter un formulaire personnalisé** dans le coin supérieur droit de la page
+
+      Ou
+
+      Cliquez sur l’icône **Modifier** dans la même zone pour commencer à modifier les champs des formulaires joints.
+
+      ![Modifier le formulaire personnalisé d’itération](assets/edit-iteration-custom-form.png)
+
+   1. Cliquez sur **Enregistrer les modifications**.
+
+## Recalculer les champs personnalisés pour les objets
+
+Régulièrement, en fonction des modifications susceptibles d’être apportées aux formulaires personnalisés ou aux modifications apportées aux champs référencés dans les champs personnalisés, les valeurs des champs personnalisés calculés peuvent être obsolètes. Dans ce cas, vous devrez peut-être recalculer les champs personnalisés ou recalculer les expressions personnalisées pour les objets.
+
+Les sections suivantes décrivent comment recalculer des expressions personnalisées pour des objets avec des formulaires personnalisés.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas recalculer les expressions personnalisées pour les groupes.
+
+### Recalculer tous les champs personnalisés calculés à partir de la page d’un objet
 
 >[!IMPORTANT]
 >
 >Vous devez disposer d’un formulaire personnalisé avec des champs calculés joints à l’objet avant de pouvoir suivre les étapes de cette section.
 
+1. Accédez à la page principale de l’un des objets suivants dont vous souhaitez recalculer les champs personnalisés :
 
-1. Accédez à la page principale de l’objet dont vous souhaitez recalculer les champs personnalisés.
+   * Projet
+   * Tâche
+   * Problème
+   * Portfolio
+   * Programme
+   * Document
+
 1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom de l’objet, puis cliquez sur **Recalculer les expressions**.
 
    Cela permet de recalculer tous les champs personnalisés du formulaire de l’objet.
 
-## Recalculer tous les champs personnalisés calculés pour plusieurs objets d’une liste lors de la modification des objets {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
+### Recalculer tous les champs personnalisés calculés pour plusieurs objets d’une liste lors de la modification des objets {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
@@ -172,17 +196,29 @@ Selon les objets pour lesquels vous souhaitez recalculer les expressions personn
 
 Pour recalculer manuellement les champs personnalisés de plusieurs objets en les modifiant en bloc depuis une liste ou un rapport :
 
-1. Accédez à une liste d’objets contenant des formulaires personnalisés avec des champs calculés.
+1. Accédez à une liste des types d’objets suivants dont les objets contiennent des formulaires personnalisés avec des champs calculés :
+
+   * Utilisateurs et utilisatrices
+   * Entreprises
+   * Enregistrements de facturation
+
 1. Sélectionnez les objets dont vous souhaitez mettre à jour les champs personnalisés calculés.
 1. Cliquez sur l’**icône Modifier**.
 1. Cliquez sur **Formulaires personnalisés** dans le menu de gauche, puis sélectionnez **Recalculer les expressions personnalisées**.
-1. Cliquez sur **Enregistrer** **les modifications**.
+1. Cliquez sur **Enregistrer** ou **Enregistrer les modifications**.
 
    Workfront calcule tous les champs personnalisés pour tous les objets sélectionnés.
 
 Pour recalculer des expressions personnalisées à partir d’une liste d’objets :
 
-1. Accédez à une liste de projets ou à un rapport et sélectionnez un ou plusieurs projets.
+1. Dans une liste de projets ou un rapport, sélectionnez un ou plusieurs des types d&#39;objets suivants :
+
+   * Projets
+   * Tâches
+   * Problèmes
+   * Portefeuilles
+   * Programmes
+   * Frais
 1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Recalculer les expressions personnalisées**.
 
 ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
@@ -192,5 +228,7 @@ Toutes les listes de tous les objets ne disposent pas de cette fonctionnalité.
 
 >[!NOTE]
 >
->En fonction de la complexité de vos projets, nous vous recommandons de ne pas sélectionner un grand nombre de projets lors du recalcul en bloc des champs personnalisés calculés afin de garantir des performances optimales. Un projet peut être trop complexe s’il comporte de multiples dépendances ou affectations ou un grand nombre de champs personnalisés.
+>Lors du recalcul d&#39;expressions pour plusieurs projets, en fonction de leur complexité, nous vous recommandons de ne pas sélectionner un trop grand nombre de projets pour assurer une performance optimale.
+>
+>Un projet peut être trop complexe s’il comporte de multiples dépendances ou affectations ou un grand nombre de champs personnalisés.
 

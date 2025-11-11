@@ -7,10 +7,10 @@ description: Pour aggréger plusieurs champs dans Adobe Workfront et afficher c
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 95%
+source-wordcount: '834'
+ht-degree: 90%
 
 ---
 
@@ -87,8 +87,9 @@ Pour plus d’informations sur la syntaxe que vous devez utiliser dans une colon
 
 * Sur la page principale d&#39;un objet, cliquez sur l&#39;icône Plus ![icône Plus](assets/more-icon.png), puis sur **Recalculer les expressions**
 
-* Modifier en masse plusieurs objets lorsque **Recalculer des expressions personnalisées** est activé
-* Modifier un formulaire personnalisé lorsque **Mettre à jour des calculs précédents** est activé pour le champ personnalisé calculé
+* La modification en masse de plusieurs objets lorsque l’option **Recalculer les expressions personnalisées** est activée.
+* Modification en masse de plusieurs objets lorsque vous cliquez sur **Recalculer les expressions** dans le menu Plus d’une liste d’objets.
+* La modification d’un formulaire personnalisé lorsque l’option **Mettre à jour les calculs précédents** est activée pour le champ personnalisé calculé.
 
 ## Quand utiliser les colonnes calculées dans une vue ?
 

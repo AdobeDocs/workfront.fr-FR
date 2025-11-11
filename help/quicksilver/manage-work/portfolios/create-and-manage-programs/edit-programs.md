@@ -6,10 +6,10 @@ description: Vous pouvez modifier les informations des programmes que vous avez 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 58%
+source-wordcount: '1109'
+ht-degree: 57%
 
 ---
 
@@ -111,6 +111,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * [[!UICONTROL Vue d’ensemble]](#overview)
    * [[!UICONTROL Formulaires personnalisés]](#Custom%C2%A0F)
    * [[!UICONTROL Commentaire]](#comment)
+
+
+   >[!TIP]
+   >
+   >Pour recalculer des champs personnalisés pour plusieurs programmes à la fois, sélectionnez plusieurs programmes dans une liste, puis cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) en haut de la liste, puis **Recalculer les expressions**.
 
 ### [!UICONTROL Vue d’ensemble] {#overview}
 
