@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,13 +64,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Exigences d’intégration
 
-* Workfront et Adobe Express doivent être déployés dans la même organisation IMS.
-
-* L’intégration doit être activée pour vos comptes par l’équipe produit d’Adobe.
-
-  >[!IMPORTANT]
-  >
-  >L’intégration d’Adobe Express et de Workfront Proof sera disponible pour les utilisateurs au cours de plusieurs versions, en commençant par les comptes disposant de Workfront et d’Adobe Express associés au même ID d’organisation dans le Adobe Admin Console, suivis des clients dont les utilisateurs travaillent dans l’ensemble des organisations IMS. Si vous souhaitez que l’intégration soit activée, contactez votre service client ou votre gestionnaire de compte stratégique.
+* Vous devez disposer de droits d’accès à Adobe Express et à au moins un environnement Workfront avec une licence Workfront Standard.
 
 * Les utilisateurs doivent installer le [Révision de contenu interactif avec l’outil de révision Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) avant de pouvoir commencer à réviser les brouillons dans Adobe Express.
 
@@ -89,7 +83,7 @@ Lorsqu’un modèle Express est mélangé, une approbation est requise avant la 
 
 Les utilisateurs doivent disposer d’une licence Workfront standard pour demander l’approbation d’Adobe Express.
 
-Découvrez comment [&#x200B; obtenir l’approbation des conceptions &#x200B;](https://helpx.adobe.com/fr/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Découvrez comment [ obtenir l’approbation des conceptions ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remix des modèles Express et envoi pour révision et approbation

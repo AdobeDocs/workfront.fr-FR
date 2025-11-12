@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e92910e553f08aea12e9e1b17a17413731c37d2f
+source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,6 +84,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Prise en charge inter-organisations d’Adobe Express avec la relecture Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>Nous introduisons la prise en charge inter-organisations d’Adobe Express avec la relecture Workfront. Cette amélioration permet aux clients qui travaillent dans plusieurs organisations IMS d’utiliser et de gérer facilement les workflows de relecture.</p>
+        </td>
+        <td>vendredi 13 novembre 2025</td>
+        <td>vendredi 13 novembre 2025</td>
+        <td>vendredi 13 novembre 2025</td>
+    </tr>   
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager désormais disponible avec l'intégration Frame.io <p>[!BADGE Off schedule]{type=Neutral}</p> </a>
@@ -242,7 +251,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

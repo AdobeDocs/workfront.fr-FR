@@ -4,10 +4,10 @@ description: Améliorations des documents et approbations du premier trimestre 2
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +17,25 @@ Cette page décrit les améliorations apportées aux documents et à l’approba
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2026, consultez l’article [Vue d’ensemble de la version du premier trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Prise en charge inter-organisations d’Adobe Express avec la relecture Workfront
+
+>[!NOTE]
+>
+>Aperçu : 13 novembre 2025
+>Version rapide de production : 13 novembre 2025\
+>Production pour tous : 13 novembre 2025
+
+Nous introduisons la prise en charge inter-organisations d’Adobe Express avec la relecture Workfront. Cette amélioration permet aux clients qui travaillent dans plusieurs organisations IMS d’utiliser et de gérer facilement les workflows de relecture.
+
+Pour plus d’informations, voir [Prise en main de l’intégration d’Adobe Express et de Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+
 
 ## Adobe Experience Manager désormais disponible avec l’intégration Frame.io
 
 >[!NOTE]
 >
 >Aperçu : 30 octobre 2025
->&#x200B;>Version rapide de production : 30 octobre 2025\
+>Version rapide de production : 30 octobre 2025\
 >Production pour tous : 30 octobre 2025
 
 Vous pouvez désormais utiliser Experience Manager Assets&#x200B; pour gérer et stocker vos ressources numériques qui ont passé le cycle de révision et d’approbation. Cette intégration vous permet d’exploiter les fonctionnalités de Adobe Experience Manager, Frame.io et Workfront afin de rationaliser vos processus de gestion de contenu et de collaboration.
