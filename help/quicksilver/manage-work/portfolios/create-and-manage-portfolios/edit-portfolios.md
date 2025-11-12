@@ -6,10 +6,10 @@ description: Vous pouvez modifier les informations des portefeuilles que vous av
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
 source-wordcount: '1080'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -177,28 +177,28 @@ Vous pouvez modifier un portefeuille dans la page de portefeuille ou modifier de
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Name**]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td> <p>Mettez à jour le nom du portfolio. </p> <p><b>CONSEIL</b></p> 
-      <p>Le champ **Nom** n’est pas disponible lorsque vous sélectionnez plusieurs portefeuilles. </p> </td> 
+      <p>Le champ Nom n’est pas disponible lorsque vous sélectionnez plusieurs portfolios. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Description**]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td> <p>Saisissez une description du portfolio afin d’indiquer ce qui le distingue des autres. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Portfolio Manager**]</td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
       <td> <p>Commencez à saisir le nom d’un utilisateur ou d’une utilisatrice que vous souhaitez indiquer en tant que personne gestionnaire de portfolio, puis sélectionnez-le lorsqu’il apparaît dans la liste. Il s’agit du même nom que la [!UICONTROL Portfolio Owner]. Il s’agit de la personne qui peut superviser le travail défini dans les projets du portfolio et approuver le business case.</p> <p>Important : lorsque vous désignez une personne comme gestionnaire de portfolio, elle obtient automatiquement les autorisations [!UICONTROL Manage] du portfolio, des programmes et des projets du portfolio. </p> <p>Conseil : vous pouvez rapidement mettre à jour la personne gestionnaire de portfolio dans l’en-tête du portfolio. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Group**]</td> 
+      <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>Ajoutez le nom d’un groupe unique si le groupe est associé au portfolio ou a la responsabilité de le terminer. </p> <p>Conseil :  <p>Lors de l’accès au champ [!UICONTROL Group] à partir de la page [!UICONTROL Portfolio Details], procédez comme suit : </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en le survolant et en cliquant sur l’icône [!UICONTROL information] <img src="assets/info-icon.png"> qui s’affiche en regard de celui-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Cette option n’est pas disponible dans la zone [!UICONTROL Edit Portfolio]. </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Carte de performance d’alignement**]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
       <td> <p>Sélectionnez la carte de performance d’alignement que vous souhaitez utiliser dans la liste déroulante. Une carte de performance permet de mesurer dans quelle mesure un projet s’aligne sur les critères établis d’un portfolio et reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation. Pour plus d’informations, voir <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Appliquer une carte de performance à un projet et générer un score d’alignement</a> et <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Créer une carte de performance</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Est Actif**]</td> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
       <td> <p> Cochez cette case si vous souhaitez que le portfolio soit actif. D’autres utilisateurs et utilisatrices peuvent trouver des portfolios actifs et les joindre à des projets lors de la création ou de la modification de projets. Les portfolios inactifs ne peuvent pas être joints aux projets. Cette option est activée par défaut.</p> </td> 
      </tr> 
     </tbody> 

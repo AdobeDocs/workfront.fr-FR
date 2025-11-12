@@ -7,9 +7,9 @@ description: Pour aggréger plusieurs champs dans Adobe Workfront et afficher c
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '844'
 ht-degree: 90%
 
 ---
@@ -90,6 +90,8 @@ Pour plus d’informations sur la syntaxe que vous devez utiliser dans une colon
 * La modification en masse de plusieurs objets lorsque l’option **Recalculer les expressions personnalisées** est activée.
 * Modification en masse de plusieurs objets lorsque vous cliquez sur **Recalculer les expressions** dans le menu Plus d’une liste d’objets.
 * La modification d’un formulaire personnalisé lorsque l’option **Mettre à jour les calculs précédents** est activée pour le champ personnalisé calculé.
+
+Pour plus d’informations, voir [Modifier les informations dans les champs de formulaire personnalisés](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ## Quand utiliser les colonnes calculées dans une vue ?
 
