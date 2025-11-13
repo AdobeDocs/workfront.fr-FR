@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 77%
+source-wordcount: '1047'
+ht-degree: 82%
 
 ---
 
@@ -18,17 +18,19 @@ ht-degree: 77%
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Lors de la gestion des affectations de tâche, vous pouvez simultanément les modifier pour plusieurs tâches à la fois à l’aide de la fonction de modification en masse d’une liste de tâches.
 
@@ -125,25 +127,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. Sélectionnez les tâches pour lesquelles vous souhaitez modifier les affectations, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
 
-   La zone **Modifier les tâches** s’ouvre <span class="preview">dans la nouvelle expérience . Effectuez l’une des opérations suivantes </span>
-
-   <div class="preview">
+   La zone **Modifier les tâches** s’ouvre dans la nouvelle expérience . Utilisez l’une des méthodes suivantes :
 
    * Pour ajouter des personnes désignées, commencez à saisir leur nom dans le champ **Rechercher des personnes, des rôles ou des équipes**, puis sélectionnez-les lorsqu’elles s’affichent dans la liste.
    * Pour supprimer des personnes désignées, cliquez sur l’icône **x** à droite de leur nom. Seules les personnes désignées qui sont communes à toutes les tâches s&#39;affichent dans la liste.
    * Cliquez sur M’affecter pour vous affecter les tâches sélectionnées.
 
-   </div>
+1. (Conditionnel) Lors de l’utilisation de la nouvelle expérience, cliquez sur **Enregistrer**.
 
-1. <span class="preview">(Conditionnel) Lors de l’utilisation de la nouvelle expérience, cliquez sur **Enregistrer**.</span>
+1. (Facultatif) Cliquez sur **Passer à l’ancienne expérience** au bas de la zone **Modifier les tâches**.
 
-1. <span class="preview">(Facultatif) Cliquez sur **Passer à l’ancienne expérience** au bas de la zone **Modifier les tâches**.</span>
+   La zone **Modifier les tâches** s’ouvre dans l’ancienne expérience.
 
-   <span class="preview">La zone **Modifier les tâches** s’ouvre dans l’ancienne expérience.</span>
-
+   <!--
    >[!TIP]
    >
-   >L’ancienne expérience est disponible par défaut dans l’environnement de production.
+   >The old experience is available by default in the Production environment.-->
 
 1. (Conditionnel) Dans l’ancienne expérience, procédez comme suit pour modifier les personnes désignées :
 

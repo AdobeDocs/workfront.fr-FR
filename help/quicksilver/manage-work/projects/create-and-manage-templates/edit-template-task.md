@@ -7,10 +7,10 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4716'
-ht-degree: 74%
+source-wordcount: '4633'
+ht-degree: 76%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 74%
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Après avoir créé un modèle, vous pouvez modifier les informations des tâches de modèle. Les informations que vous mettez à jour sur une tâche de modèle sont associées à des tâches de projet une fois que vous avez utilisé le modèle pour créer un projet ou que vous avez joint le modèle à un projet.
 
@@ -138,15 +138,21 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
 1. (Facultatif) Pour modifier plusieurs tâches de modèle en masse, sélectionnez plusieurs tâches de modèle, puis cliquez sur **Modifier** en haut de la liste des modèles.
 1. (Conditionnel) Pour modifier toutes les informations relatives à la tâche du modèle ou à plusieurs tâches en même temps, cliquez sur les tâches pour les sélectionner dans une liste, puis cliquez sur l&#39;icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
 
-   La zone **Modifier la tâche de modèle** s’affiche.
+   La zone **Modifier la tâche de modèle** s’affiche dans la nouvelle expérience.
+
+   ![Nouvelle expérience pour Modifier la tâche de modèle](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
    >Vous pouvez également sélectionner une tâche de modèle dans une liste, puis cliquer sur **Modifier** à droite du nom de la tâche de modèle dans l’en-tête, pour ouvrir la zone **Modifier la tâche de modèle**.
 
+   Continuez à modifier la tâche de modèle comme décrit dans la section [ Modifier une tâche de modèle à l’aide de la nouvelle expérience ](#edit-a-template-task-using-the-new-experience) de cet article.
+
+1. (Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier la tâche de modèle** pour ouvrir la zone **Modifier la tâche de modèle** dans l’ancienne expérience.
+
    ![Modifier la tâche de modèle](assets/edit-template-tasks-box-classic-350x356.png)
 
-1. (Conditionnel) Dans l’environnement de production, pensez à spécifier des informations dans l’une des sections suivantes :
+1. Pensez à spécifier des informations dans l’une des sections suivantes :
 
    * [Vue d’ensemble](#overview)
    * [Finances](#finance)
@@ -155,10 +161,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
    * [Formulaires personnalisés](#custom-forms)
    * [Commentaire](#comment)
 
-1. Continuez à modifier la tâche de modèle comme décrit dans la section [&#x200B; Modifier une tâche de modèle à l’aide de l’ancienne expérience &#x200B;](#edit-a-template-task-using-the-old-experience) de cet article.
-
-1. <span class="preview">(Conditionnel) Dans l’environnement de Prévisualisation, la boîte de dialogue Modifier la tâche de modèle s’ouvre dans la nouvelle expérience. Continuez à modifier la tâche de modèle comme décrit dans la section [Modifier une tâche de modèle à l’aide de la nouvelle expérience](#edit-a-template-task-using-the-new-experience) de cet article.</span>
-1. <span class="preview">(Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier la tâche de modèle** pour ouvrir la zone **Modifier la tâche de modèle** dans l’ancienne expérience. Continuez à modifier la tâche de modèle comme décrit dans la section [Modifier une tâche de modèle à l’aide de l’ancienne expérience](#edit-a-template-task-using-the-old-experience) de cet article.</span>
+1. Continuez à modifier la tâche de modèle comme décrit dans la section [ Modifier une tâche de modèle à l’aide de l’ancienne expérience ](#edit-a-template-task-using-the-old-experience) de cet article.
 
 ### Modifier une tâche de modèle à l’aide de l’ancienne expérience
 
@@ -438,8 +441,6 @@ Les formulaires sont automatiquement ajoutés aux tâches créées à partir du 
 1. Cliquez sur **Enregistrer les modifications**.
 
    Lorsque vous ou une autre personne créez un projet à partir de ce modèle, tous les paramètres que vous avez appliqués aux tâches de modèle deviennent les paramètres des tâches du projet.
-
-<div class="preview">
 
 ### Modifier une tâche de modèle à l’aide de la nouvelle expérience
 
@@ -767,4 +768,3 @@ Les formulaires sont automatiquement ajoutés aux tâches créées à partir du 
 
    Lorsque vous ou une autre personne créez un projet à partir de ce modèle, tous les paramètres que vous avez appliqués aux tâches de modèle deviennent les paramètres des tâches du projet.
 
-</div>

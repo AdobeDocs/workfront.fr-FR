@@ -6,10 +6,10 @@ description: Vous pouvez modifier les informations des tâches dans une liste de
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2903'
-ht-degree: 62%
+source-wordcount: '2851'
+ht-degree: 63%
 
 ---
 
@@ -17,13 +17,15 @@ ht-degree: 62%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+<div class="preview"> 
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 Vous pouvez modifier les informations des tâches dans une liste de tâches en modifiant les champs affichés dans la liste. Pour obtenir des informations sur d’autres façons de modifier des tâches, voir la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -507,18 +509,16 @@ Vous pouvez modifier plusieurs tâches à la fois. Assurez-vous que vous dispose
    >Vous ne pouvez pas modifier des tâches en bloc lors de l’enregistrement manuel de tâches.
 
 1. Sélectionnez plusieurs tâches dans la liste des tâches.
-1. <span class="preview">(Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) en haut de la liste des tâches, puis sur **Recalculer les expressions** pour mettre à jour toutes les informations des champs calculés personnalisés.</span>
-1. Cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png). La boîte de dialogue **Modifier les tâches** s’ouvre <span class="preview">dans la nouvelle expérience</span>.
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) en haut de la liste des tâches, puis **Recalculer les expressions** pour mettre à jour toutes les informations des champs calculés personnalisés.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png). La boîte de dialogue **Modifier les tâches** s’ouvre dans la nouvelle expérience .
 
    La modification des informations de toutes les tâches est identique à la modification des informations d’une tâche.
 
    Pour plus d’informations sur la modification d’une tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Conditionnel) Dans la nouvelle expérience, procédez comme suit :</span>
+1. (Conditionnel) Dans la nouvelle expérience, procédez comme suit :
 
    1. Indiquez les informations à modifier pour toutes les tâches sélectionnées dans l’une des zones suivantes :
-
-      <div class="preview">
 
       * Vue d’ensemble
       * Affectations
@@ -528,9 +528,6 @@ Vous pouvez modifier plusieurs tâches à la fois. Assurez-vous que vous dispose
       * Paramètres
       * Commentaire
 
-      </div>
-
-
       >[!NOTE]
       >
       >* Les informations que vous modifiez sur toutes les tâches sélectionnées remplacent les informations existantes sur chaque tâche, à l’exception du champ **Affectations**. L’ajout d’une nouvelle personne cessionnaire dans la modification en masse l’ajoute à toutes les tâches sélectionnées. Si d’autres personnes cessionnaires sont affectées aux tâches sélectionnées, elles restent affectées en plus de celle ajoutée par modification en bloc.
@@ -539,10 +536,10 @@ Vous pouvez modifier plusieurs tâches à la fois. Assurez-vous que vous dispose
       >* Seuls les formulaires personnalisés actifs sont affichés dans la liste. Si les tâches sélectionnées ne comportent aucun formulaire personnalisé commun, aucun formulaire n’est répertorié dans cette section.
       >* Vous ne pouvez modifier que les champs des formulaires joints à toutes les tâches sélectionnées et que vous êtes autorisé à modifier.  Pour plus d’informations sur la modification en bloc de formulaires personnalisés, voir [Gérer les formulaires personnalisés joints à des objets](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
 
-   1. <span class="preview">Cliquez sur **Enregistrer**.</span>
-   1. <span class="preview">(Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone Modifier les tâches.</span>
+   1. Cliquer sur **Enregistrer**.
+   1. (Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier les tâches**.
 
-1. <span class="preview">(Conditionnel) Dans l’ancienne expérience, procédez comme suit :</span>
+1. (Conditionnel) Dans l’ancienne expérience, procédez comme suit :
 
    1. Indiquez les informations à modifier pour toutes les tâches sélectionnées dans l’une des zones suivantes :
 
@@ -553,5 +550,5 @@ Vous pouvez modifier plusieurs tâches à la fois. Assurez-vous que vous dispose
       * Commentaire
 
    1. (Facultatif) Dans la section **Custom Forms**, sélectionnez l’option **Recalculer les expressions personnalisées** pour vous assurer que tous les champs calculés personnalisés des formulaires personnalisés joints aux tâches sélectionnées sont à jour.
-   1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
+   1. Cliquez sur Enregistrer les modifications. **** Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
 

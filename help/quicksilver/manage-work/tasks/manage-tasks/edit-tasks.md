@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4464'
-ht-degree: 82%
+source-wordcount: '4416'
+ht-degree: 83%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 82%
 </div>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Vous pouvez modifier les détails des tâches que vous avez créées ou pour lesquelles vous disposez des autorisations « Contribuer » ou « Gérer ».
 
@@ -377,19 +377,17 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 1. Commencez à modifier votre tâche comme décrit ci-dessus.
 1. Cliquez sur **Affectations** dans le panneau de gauche.
 
-   <span class="preview">La zone Affectations s’ouvre dans la nouvelle expérience.</span>
+   La zone Affectations s’ouvre dans la nouvelle expérience .
 
 1. (Conditionnel) À l’aide de la nouvelle expérience, procédez comme suit :
 
-   1. <span class="preview">Commencez à saisir le nom d’un utilisateur, d’une fonction ou d’une équipe dans le champ **Rechercher des personnes, un rôle ou une équipe**, puis sélectionnez-les lorsqu’elles s’affichent dans la liste</span>
+   1. Commencez à saisir le nom d’un utilisateur, d’une fonction ou d’une équipe dans le champ **Rechercher des personnes, un rôle ou une équipe**, puis sélectionnez-les lorsqu’elles s’affichent dans la liste
 
       Ou
 
-      <span class="preview">Cliquez sur **M’affecter** pour vous affecter la tâche. </span>
+      Cliquez sur **Me l’affecter** pour vous affecter la tâche.
 
-   1. <span class="preview">Mettez à jour les informations suivantes :</span>
-
-      <div class="preview">
+   1. Mettez à jour les informations suivantes :
 
       <table style="table-layout:auto"> 
          <col> 
@@ -501,7 +499,6 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
          </tbody> 
          </table>
 
-      </div>
 
       <!--<tr> 
       <td role="rowheader">Allocation</td> 
@@ -520,9 +517,9 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
          </tbody> 
          </table>-->
 
-   1. <span class="preview">(Facultatif) Cliquez sur **Passer à l’ancienne expérience** au bas de la zone **Modifier la tâche**. </span>
-      <span class="preview">La zone Affectations s’ouvre dans l’ancienne expérience. </span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   1. (Facultatif) Cliquez sur **Passer à l’ancienne expérience** au bas de la zone **Modifier la tâche**.
+La zone Affectations s’ouvre dans l’ancienne expérience .
+      ![Section Affectations de la zone Modifier la tâche](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Cliquez sur **Rechercher des personnes, des rôles ou des équipes** et commencez à saisir le nom d&#39;un utilisateur, d&#39;un rôle ou d&#39;une équipe que vous souhaitez affecter à la tâche, puis cliquez dessus ou appuyez sur Entrée lorsqu&#39;elle s&#39;affiche dans la liste.
 
@@ -670,7 +667,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
    </tbody>
    </table>
 
-1. Cliquez sur **Enregistrer les modifications** <span class="preview"> ou **Enregistrer** </span> ou continuez avec les sections suivantes.
+1. Cliquez sur **Enregistrer** ou passez aux sections suivantes.
 
 ### Formulaires personnalisés
 

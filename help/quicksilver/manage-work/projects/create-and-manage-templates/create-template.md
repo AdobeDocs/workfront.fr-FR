@@ -6,10 +6,10 @@ description: Vous pouvez créer et supprimer des modèles à partir de la zone M
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 51%
+source-wordcount: '734'
+ht-degree: 54%
 
 ---
 
@@ -17,13 +17,15 @@ ht-degree: 51%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+<!--<div class="preview"> 
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 Vous pouvez créer et supprimer des modèles à partir de la zone Modèles. Lorsque vous créez un modèle, vous pouvez saisir les informations pour toutes les tâches et pour les paramètres de votre futur projet. Ces informations seront ensuite transférées à tout projet que vous créerez à partir du modèle.
 
@@ -118,13 +120,11 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
    Cliquez sur **Nouvelle tâche de modèle** pour commencer à ajouter des tâches à votre modèle dans la zone **Nouvelle tâche de modèle**.
 
-   ![Nouvelle zone de tâche de modèle](assets/new-template-task-box.png)
+   La zone **Créer une tâche de modèle** s’ouvre dans la nouvelle expérience.
 
-   <span class="preview">La boîte de dialogue **Créer une tâche de modèle** s’ouvre dans la nouvelle expérience.</span>
+   ![Nouvelle expérience pour la nouvelle tâche de modèle](assets/new-template-task-box-unshimmed.png)
 
-1. <span class="preview">(Conditionnel) Dans la nouvelle expérience, mettez à jour les informations des zones suivantes dans la zone **Créer une tâche de modèle** :</span>
-
-   <div class="preview">
+1. (Conditionnel) Dans la nouvelle expérience, mettez à jour les informations dans les zones suivantes de la zone **Créer une tâche de modèle** :
 
    * Nom de tâche de modèle
    * Vue d’ensemble
@@ -134,14 +134,15 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    * Documents
    * Paramètres
 
-   </div>
-
 1. Cliquez sur **Créer une tâche de modèle**
 
    Ou
 
-   <span class="preview">Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Créer une tâche de modèle**.</span>
-   <span class="preview">La **nouvelle tâche de modèle** s’ouvre dans l’ancienne expérience.</span>
+   Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Créer une tâche de modèle**.
+
+   La **nouvelle tâche de modèle** s’ouvre dans l’ancienne expérience.
+
+   ![Nouvelle zone de tâche de modèle](assets/new-template-task-box.png)
 
    >[!TIP]
    >
@@ -200,7 +201,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    * Frais
    * Approbations
 
-   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [&#x200B; Modifier les modèles de projet &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [ Modifier les modèles de projet ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 
 

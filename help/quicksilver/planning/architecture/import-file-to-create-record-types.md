@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 32%
 
 ---
@@ -134,8 +134,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * Les feuilles vides ne sont pas prises en charge.
 * Les champs des types suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
 
-   * Champs de connexion aux types d’objet Workfront et AEM Assets.
-   * Champs de recherche des enregistrements Planning connectés ou des objets Workfront et AEM Assets
+   * Champs de connexion à Workfront, aux types d’objets AEM Assets ou aux marques GenStudio.
+   * Champs de recherche des enregistrements Planning connectés, des objets Workfront, AEM Assets ou des marques GenStudio.
    * Champs de formule
    * Date de création, Créé par
    * Date de dernière modification, Dernière modification par
@@ -190,7 +190,7 @@ Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Exc
 
    >[!TIP]
    >
-   >Vous ne pouvez mapper qu’aux champs des enregistrements connectés de Workfront Planning. Vous ne pouvez pas mapper aux champs des connexions Workfront ou AEM Assets. Pour plus d’informations, consultez la section [Considérations relatives à l’importation de types d’enregistrements à l’aide d’un fichier Excel ou CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) dans cet article.
+   >Vous ne pouvez mapper qu’aux champs des enregistrements connectés de Workfront Planning. Vous ne pouvez pas mapper aux champs des connexions Workfront, AEM Assets ou GenStudio Brands . Pour plus d’informations, consultez la section [Considérations relatives à l’importation de types d’enregistrements à l’aide d’un fichier Excel ou CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) dans cet article.
 
 1. (Conditionnel) Après avoir mis à jour les informations sur le champ, cliquez sur **Enregistrer**.
 

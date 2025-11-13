@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1271'
 ht-degree: 5%
 
 ---
@@ -87,15 +87,8 @@ Pour plus d&#39;informations sur la connexion des enregistrements Planning aux o
    <td> 
 <p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
-   </td> 
-<tr> 
-<td> 
-   <p> Produits supplémentaires</p> </td> 
-   <td> 
-    <p>Outre Adobe Workfront, vous devez disposer d’une licence Adobe Experience Manager Assets et d’une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux enregistrements Planning.</p>
-    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p>
-   </td> 
-  </tr>   
+   </td>
+
 <tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 

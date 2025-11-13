@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '523'
 ht-degree: 16%
 
 ---
@@ -49,11 +49,11 @@ Pour plus d&#39;informations sur la façon de connecter des enregistrements entr
 
 Vous pouvez connecter des enregistrements à d&#39;autres enregistrements ou à des objets à partir d&#39;une autre application dans les domaines suivants :
 
-* Vous pouvez connecter des enregistrements de Workfront Planning à des objets Workfront ou Experience Manager Assets dans les zones suivantes d&#39;un enregistrement Planning :
+* Vous pouvez connecter des enregistrements de Workfront Planning à des objets Workfront, Experience Manager Assets ou GenStudio Brands dans les zones suivantes d&#39;un enregistrement Planning :
 
    * Champs d&#39;enregistrement connectés dans la vue Table d&#39;un type d&#39;enregistrement dans Planning.
-   * L&#39;aperçu ou la page de l&#39;enregistrement dans les champs d&#39;enregistrement connectés sur l&#39;onglet Détails.
-   * L&#39;aperçu ou la page de l&#39;enregistrement dans l&#39;onglet Connexions.
+   * la page d’aperçu ou de détails de l’enregistrement dans les champs d’enregistrement connectés sur l’onglet Détails .
+   * La page d&#39;aperçu ou de détails de l&#39;enregistrement dans l&#39;onglet Connexions.
    * Page de l’enregistrement dans l’onglet Page Enregistrements connectés d’un enregistrement connecté.
 
 * Vous pouvez connecter des objets Workfront à des enregistrements Workfront Planning dans les zones suivantes de Workfront :

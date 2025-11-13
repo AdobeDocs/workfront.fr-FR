@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 80%
+source-wordcount: '2156'
+ht-degree: 83%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 80%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Vous pouvez affecter des tâches aux utilisateurs et aux utilisatrices, aux fonctions ou aux équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 
@@ -236,13 +236,13 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 1. Sélectionnez plusieurs tâches dans la liste des tâches.
 1. Cliquez sur **Modifier**.
 
-   La boîte de dialogue **Modifier les tâches** s’ouvre <span class="preview">dans la nouvelle expérience</span>.
+   La boîte de dialogue **Modifier les tâches** s’ouvre dans la nouvelle expérience .
 
-1. Poursuivez l’affectation des tâches <span class="preview">à l’aide de la nouvelle expérience</span>.
+1. Continuez à affecter les tâches à l’aide de la nouvelle expérience.
 
-   <span class="preview">Pour plus d’informations, consultez la section [Affecter plusieurs tâches en bloc à partir d’une liste dans la nouvelle expérience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) dans cet article.</span>
+   Pour plus d’informations, consultez la section [Affecter plusieurs tâches en bloc à partir d’une liste dans la nouvelle expérience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) dans cet article.
 
-1. <span class="preview">(Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier les tâches** pour ouvrir l’ancienne expérience.</span>
+1. (Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier les tâches** pour ouvrir l’ancienne expérience.
 
    >[!TIP]
    >
@@ -279,11 +279,9 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans la liste des tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur **l’Icône X** en regard du nom d’une personne cessionnaire pour la supprimer de la tâche.
 
 
-<div class="preview">
-
 ### Affectez plusieurs tâches en bloc à partir d’une liste dans la nouvelle expérience
 
-1. Accédez à une liste de tâches à affecter en bloc dans l’environnement Prévisualisation .
+1. Accédez à la liste des tâches que vous souhaitez affecter en masse.
 1. (Le cas échéant) Assurez-vous que l’option **Enregistrement automatique** est sélectionnée si vous vous trouvez dans la liste des tâches d’un projet.
 
    >[!IMPORTANT]
@@ -319,10 +317,7 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 1. (Facultatif) Si vous souhaitez supprimer des personnes désignées existantes de toutes les tâches, cliquez sur le **x** en regard de leur nom dans le champ **Rechercher des personnes, des rôles ou des équipes**.
 
 1. Cliquer sur **Enregistrer**.
-1. (Facultatif et conditionnel) Lorsque les champs **Affecté à** ou **Affectations** s’affichent dans votre liste de tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur l’icône **X** en regard du nom d’une personne désignée pour la supprimer de la tâche.
-
-
-</div>
+1. (Facultatif et conditionnel) Lorsque les champs **Affecté à** ou **Affectations** s’affichent dans votre liste de tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur l’icône **X** en regard du nom d’une personne désignée pour la supprimer de la tâche
 
 
 <!--

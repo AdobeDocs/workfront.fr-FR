@@ -6,10 +6,10 @@ description: Lors de l’affectation de personnes ou de rôles à une tâche, un
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 63%
+source-wordcount: '573'
+ht-degree: 69%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 63%
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Les heures d&#39;affectation représentent le temps total prévu pour qu&#39;une ressource affectée travaille sur une tâche. Les heures représentent le temps alloué à un utilisateur un jour donné ou un jour de la semaine, une semaine ou un mois pendant toute la durée de la tâche.
 
@@ -61,7 +61,7 @@ Vous pouvez modifier les heures de répartition lorsque vous effectuez des affec
   <tr> 
    <td>Autorisations d’objet</td>
    <td><p>Autorisations de contribution ou de niveau supérieur pour une tâche</p>
-   <p>Modifiez les autorisations pour mettre à jour les heures d’affectation dans la zone Modifier la tâche lors de la modification des tâches <span class="preview">à l’aide de l’ancienne expérience). Vous ne pouvez plus gérer les heures d’affectation dans la zone Modifier la tâche lors de la modification de tâches dans la nouvelle expérience </span>.</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifier les tâches</a>.</p></td>
+   <p>Modifiez les autorisations pour mettre à jour les heures d’affectation dans la zone Modifier la tâche lors de la modification de tâches à l’aide de l’ancienne expérience. Vous ne pouvez plus gérer les heures d’affectation dans la zone Modifier la tâche lors de la modification de tâches dans la nouvelle expérience .</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifier les tâches</a>.</p></td>
   </tr>
  </tbody>
 </table>

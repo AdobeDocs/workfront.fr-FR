@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2050'
 ht-degree: 70%
 
 ---
@@ -53,7 +53,7 @@ Pour ce faire :
 
      >[!NOTE]
      >
-     >L’option **Type de connexion** n’est pas disponible lors de la connexion d’enregistrements à partir de différents espaces de travail ou lors de la connexion de ressources Experience Manager. Pour plus d’informations, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+     >L’option **Type de connexion** n’est pas disponible lors de la connexion d’enregistrements à partir de différents espaces de travail ou lors de la connexion de ressources Experience Manager ou de marques GenStudio. Pour plus d’informations, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
    * **Apparence de l’enregistrement** : choisissez l’une des options suivantes :
       * **Nom et image** : affiche le nom et la miniature ou l&#39;icône des enregistrements connectés. Cette option est sélectionnée par défaut.
