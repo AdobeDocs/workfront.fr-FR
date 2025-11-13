@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
+source-git-commit: c13c8e2b9b6d50f9abf1d61fad904aa68abb44c5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1450'
+ht-degree: 19%
 
 ---
 
@@ -52,6 +52,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Date de saisie et ID Entré par stocké dans des objets personnalisés</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>La date de saisie et l’ID saisi par sont désormais stockés dans des formulaires, champs et sections personnalisés. Vous pouvez utiliser ces options de données dans les rapports sous la forme de filtres, de vues ou de regroupements. Pour les afficher dans la liste des formulaires, champs ou sections personnalisés de la configuration, ajoutez Date de saisie et Nom saisi comme colonnes dans une vue nouvelle ou existante.</p>
+        </td>
+        <td>vendredi 13 novembre 2025</td>
+        <td>vendredi 13 novembre 2025</td>
+        <td>vendredi 13 novembre 2025</td>
+    </tr>  
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Met à jour les noms de bouton lors de la modification d’un modèle de mise en page</a>
@@ -251,7 +260,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

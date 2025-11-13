@@ -4,10 +4,10 @@ description: Améliorations de l’équipe d’aministration au premier trimestr
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ff9f69c3b71b7b9d161684d8f4af13e577106c7
+source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 21%
+source-wordcount: '355'
+ht-degree: 16%
 
 ---
 
@@ -17,18 +17,29 @@ Cette page décrit les améliorations apportées par l’administrateur à l’e
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2026, consultez l’article [Vue d’ensemble de la version du premier trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Date d&#39;entrée et ID Entré par stockés dans des objets personnalisés
+
+>[!NOTE]
+>
+>Aperçu : 13 novembre 2025
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 13 novembre 2025
+
+La date de saisie et l’ID saisi par sont désormais stockés dans des formulaires, champs et sections personnalisés. Vous pouvez utiliser ces options de données dans les rapports sous la forme de filtres, de vues ou de regroupements. Pour les afficher dans la liste des formulaires, champs ou sections personnalisés de la configuration, ajoutez Date de saisie et Nom saisi comme colonnes dans une vue nouvelle ou existante.
+
 
 ## Mises à jour des noms de bouton lors de la modification d’un modèle de mise en page
 
 >[!NOTE]
 >
 >Aperçu : 30 octobre 2025
->&#x200B;>Version rapide de production : 13 novembre 2025
->&#x200B;>Production pour tous : 15 janvier 2026
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 15 janvier 2026
 
 Pour plus de cohérence avec d’autres zones de la configuration telles que le concepteur de formulaire personnalisé, les boutons affichés lors de la modification d’un modèle de mise en page ont été modifiés en **Appliquer**, **Enregistrer et fermer** et **Annuler**. La nouvelle option, **Appliquer**, vous permet d’enregistrer vos modifications dans le modèle de mise en page et de continuer la modification. Auparavant, les options disponibles étaient **Enregistrer** et **Annuler**.
 
 Pour plus d’informations, voir [Créer et gérer des modèles de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 
 
 ## Amélioration de la gestion des champs avec l’indicateur Actif sur les champs personnalisés
@@ -36,8 +47,8 @@ Pour plus d’informations, voir [Créer et gérer des modèles de mise en page]
 >[!NOTE]
 >
 >Aperçu : 30 octobre 2025
->&#x200B;>Version rapide de production : 13 novembre 2025
->&#x200B;>Production pour tous : 15 janvier 2026
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 15 janvier 2026
 
 Lorsque le système comporte un grand nombre de champs personnalisés, la gestion de ces champs dans les formulaires et les rapports personnalisés peut s’avérer difficile. Vous pouvez désormais marquer les champs personnalisés comme inactifs avec le nouvel indicateur **Actif**. Cet indicateur est disponible lors de l’utilisation d’un champ dans un formulaire personnalisé ou lors de l’ajout ou de la modification d’un champ de la liste Champs .
 
