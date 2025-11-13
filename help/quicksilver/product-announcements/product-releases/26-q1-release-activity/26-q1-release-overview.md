@@ -4,7 +4,7 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c13c8e2b9b6d50f9abf1d61fad904aa68abb44c5
+source-git-commit: b0fb8f0ca72800c2befe4f1f8194be17c4f75c95
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 19%
@@ -152,10 +152,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Mises à jour techniques au cours du quatrième trimestre de 2025</a>
-                        <p>Des mises à jour mineures de l’aspect de diverses zones de l’application Adobe Workfront sont apportées dans le délai imparti pour la publication de la version du quatrième trimestre 2025. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Mises à jour en fonction de l’apparence au cours du premier trimestre de 2026</a>
+                        <p>Des mises à jour mineures de l’aspect de diverses zones de l’application Adobe Workfront sont apportées dans le cadre de la publication de la version du premier trimestre 2026. </p>
                     </td>
-                    <td><p>Tout au long de la période de publication du quatrième trimestre de 2025<br /></p>
+                    <td><p>Tout au long de la période de publication du premier trimestre 2026<br /></p>
                     <td colspan="2"><p>Version rapide : au moins 1 semaine après la publication dans l’aperçu (sauf indication contraire).</p>
                             </li>
                         </ul>
@@ -260,7 +260,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
