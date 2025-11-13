@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b0fb8f0ca72800c2befe4f1f8194be17c4f75c95
+source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 19%
+source-wordcount: '1680'
+ht-degree: 18%
 
 ---
 
@@ -39,6 +39,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations des documents et des approbations](#documents-and-approvals-enhancements)
+* [Améliorations de l’intégration](#integration-enhancements)
+* [Amélioration des rapports](#reporting-enhancements)
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations apportées aux administrateurs et administratrices
@@ -133,6 +135,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>vendredi 30 octobre 2025</td>
         <td>vendredi 30 octobre 2025</td>
         <td>vendredi 30 octobre 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Amélioration des rapports
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Fonctionnalité</strong>
+        </td>
+        <td><strong>Aperçu</strong></td>
+        <td><strong>Version rapide</strong></td>
+        <td><strong>Tous les trimestres</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplication d’un rapport dans un tableau de bord Zone de travail</a><p>![BADGE Off schedule]{type=Neutral}</p>
+            <p>Vous pouvez désormais dupliquer un rapport d’indicateur de performance clé, de tableau ou de graphique dans un tableau de bord de zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant d’enregistrer.</p>
+        </td>
+        <td>vendredi 23 octobre 2025</td>
+        <td>vendredi 23 octobre 2025</td>
+        <td>vendredi 23 octobre 2025</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Suppression des options de champ des filtres de rapport</a>
+            <p>Nous avons supprimé les options de champ suivantes qui étaient auparavant disponibles lors de l’application d’un filtre à un rapport :
+            <ul>
+            <li>Autres ID de groupe</li>
+            <li>ID d'autres rôles</li>
+            <li>Autres ID d'équipe</li>
+            </ul>
+            </p>
+        </td>
+        <td>vendredi 6 novembre 2025</td>
+        <td>vendredi 13 novembre 2025</td>
+        <td>vendredi 15 janvier 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Affichage amélioré du nombre de regroupements dans les tableaux de bord de la zone de travail</a>
+            <p>Lorsqu’un rapport tabulaire comporte plusieurs pages de résultats et que le tableau est configuré avec des regroupements, le tableau affiche désormais à la fois la quantité d’enregistrements de la page active et le nombre total d’enregistrements de toutes les pages. Par exemple, si votre rapport de tableau comporte 7 regroupements et que la première page affiche 3, le tableau affiche 3 de 7.</p>
+        </td>
+       <td>vendredi 6 novembre 2025</td>
+        <td>vendredi 13 novembre 2025</td>
+        <td>vendredi 15 janvier 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nouveaux mécanismes de sécurisation pour améliorer les temps de chargement dans les tableaux de bord de la zone de travail</a>
+            <p>Pour éviter les retards de chargement et améliorer les performances globales dans les tableaux de bord de la zone de travail, nous avons appliqué des limites au nombre de composants de tableau de bord pouvant être ajoutés à un tableau de bord :
+            <ul>
+            <li>Rapports par tableau de bord : limite de 25</li>
+            <li>Regroupements sur les vues de la table : 5 limite</li>
+            <li>Distance par rapport à l'objet de base du rapport : limite de 10</li>
+            <li>Colonnes dans une vue Tableau : limite de 25</li>
+            <li>Invites de filtre au niveau du tableau de bord : limite de 10</li>
+            </ul></p>
+        </td>
+       <td>vendredi 6 novembre 2025</td>
+        <td>vendredi 13 novembre 2025</td>
+        <td>vendredi 15 janvier 2026</td>
     </tr>   
   </tbody>
 </table>
@@ -260,7 +325,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
