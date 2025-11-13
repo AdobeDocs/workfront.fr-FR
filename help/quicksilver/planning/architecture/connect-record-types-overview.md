@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 16%
+source-wordcount: '2020'
+ht-degree: 13%
 
 ---
 
@@ -64,11 +64,17 @@ Tenez compte des points suivants concernant la connexion des types d’enregistr
       * Images
       * Dossiers
 
+   * Adobe GenStudio for Performance Marketing
+
+      * Marques
+
      >[!IMPORTANT]
      >
-     >Vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance Workfront de votre organisation doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour connecter les enregistrements Workfront Planning à Adobe Experience Manager Assets.
-     >
-     >Si vous avez des questions relatives à l’intégration à Adobe Admin Console, voir les [questions fréquentes Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+     >Vous devez disposer des éléments suivants pour vous connecter aux marques Adobe Experience Manager Assets et GenStudio :
+     >* Une licence Adobe Experience Manager Assets
+     >* Une licence Adobe GenStudio for Performance Marketing
+     >* L’instance de Workfront de votre organisation doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour connecter les enregistrements Workfront Planning à Adobe Experience Manager Assets.
+     >Pour plus d’informations sur Adobe Admin Console, consultez la [FAQ sur l’expérience unifiée Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * Après avoir créé des enregistrements pour les types d’enregistrements, vous pouvez les lier les uns aux autres par le biais du champ d’enregistrement connecté.
 
@@ -93,7 +99,8 @@ Tenez compte des points suivants concernant la connexion des types d’enregistr
       * Les champs Enregistrements Planning ne sont pas accessibles à partir des objets Workfront.
       * Les enregistrements Planning sont visibles à partir de l&#39;onglet Planning de l&#39;objet Workfront. Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Vous pouvez créer un champ personnalisé de connexion Planning et le joindre au formulaire personnalisé d’un objet Workfront. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Les champs d’enregistrement Planning ne sont pas accessibles à partir des marques dans GenStudio for Performance Marketing.
 
 
    * **Lorsque vous ajoutez des champs de recherche à partir de l’enregistrement ou de l’objet auquel vous vous connectez** : en plus de créer un champ d’enregistrement lié, vous pouvez également vous connecter aux champs du type d’enregistrement ou d’objet connecté qui sont appelés champs de recherche. Un champ lié (ou de recherche) contenant des informations de l&#39;enregistrement auquel vous vous connectez s&#39;affiche sur l&#39;enregistrement auquel vous vous connectez.
@@ -127,11 +134,13 @@ Après avoir établi une connexion entre deux types d&#39;enregistrements ou ent
 
 >[!WARNING]
 >
->Ces options ne sont pas disponibles lors de la connexion des éléments suivants :
+>Les options décrites dans cette section ne sont pas disponibles lors de la connexion des éléments suivants :
 >
 >* Deux enregistrements provenant d’espaces de travail différents
 >
 >* Un type d’enregistrement et des ressources Experience Manager
+>
+>* Un type d’enregistrement et une marque Adobe GenStudio
 
 Vous pouvez choisir de connecter un enregistrement à plusieurs enregistrements à la fois, ou un enregistrement à la fois les uns aux autres.
 
