@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 83%
+source-wordcount: '784'
+ht-degree: 77%
 
 ---
 
@@ -90,6 +90,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >Si vous disposez d’un accès administratif aux entreprises de votre niveau d’accès, vous pouvez également cliquer sur Ajouter d’autres entreprises au bas de la liste. Une ligne est ajoutée et permet de configurer rapidement la nouvelle entreprise.
 
 1. (Facultatif) Pour modifier ou supprimer des sociétés, sélectionnez au moins une société, puis utilisez les boutons de la barre d’outils pour la modifier ![icône Modifier](assets/edit-icon.png) ou la supprimer ![icône Supprimer](assets/delete.png).
+
+   >[!NOTE]
+   >
+   >Si vous supprimez une société et que cette société est définie comme société de Principal ou est utilisée dans un autre objet, vous êtes invité à choisir une autre société pour remplacer celle que vous supprimez. La société que vous sélectionnez devient la société par Principal ou remplace la société supprimée dans les objets auxquels elle est affectée.
 
    Pour plus d’informations sur la modification d’une entreprise, voir la section [Créer ou modifier une entreprise dans Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) dans l’article [Créer et modifier des entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 

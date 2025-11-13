@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 67%
+source-wordcount: '1549'
+ht-degree: 64%
 
 ---
 
@@ -146,6 +146,18 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
    Ou
 
    Si vous modifiez une société existante, cliquez sur **[!UICONTROL Enregistrer les modifications]** <span class="preview">ou **Enregistrer**.</span>
+
+## Supprimer des sociétés
+
+{{step-1-to-setup}}
+
+1. Cliquez sur **[!UICONTROL Entreprises]**.
+
+   Une liste des entreprises s’affiche.
+
+1. Cochez la case en regard de la société à supprimer, puis cliquez sur l’icône Supprimer ![icône Supprimer](assets/delete-icon.png) en haut de la page.
+1. Si vous supprimez une société définie en tant que société de Principal ou utilisée dans un autre objet, sélectionnez une société pour remplacer celle que vous supprimez. La société que vous sélectionnez devient la société par Principal ou remplace la société supprimée dans les objets auxquels elle est affectée.
+1. Cliquez sur **Supprimer**.
 
 ## Gérer les appartenances à une entreprise
 
