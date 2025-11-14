@@ -7,10 +7,10 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '4633'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -47,7 +47,7 @@ Vous pouvez modifier une tâche de modèle à la fois ou modifier des tâches de
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -146,7 +146,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
    >
    >Vous pouvez également sélectionner une tâche de modèle dans une liste, puis cliquer sur **Modifier** à droite du nom de la tâche de modèle dans l’en-tête, pour ouvrir la zone **Modifier la tâche de modèle**.
 
-   Continuez à modifier la tâche de modèle comme décrit dans la section [&#x200B; Modifier une tâche de modèle à l’aide de la nouvelle expérience &#x200B;](#edit-a-template-task-using-the-new-experience) de cet article.
+   Continuez à modifier la tâche de modèle comme décrit dans la section [ Modifier une tâche de modèle à l’aide de la nouvelle expérience ](#edit-a-template-task-using-the-new-experience) de cet article.
 
 1. (Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier la tâche de modèle** pour ouvrir la zone **Modifier la tâche de modèle** dans l’ancienne expérience.
 
@@ -161,7 +161,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
    * [Formulaires personnalisés](#custom-forms)
    * [Commentaire](#comment)
 
-1. Continuez à modifier la tâche de modèle comme décrit dans la section [&#x200B; Modifier une tâche de modèle à l’aide de l’ancienne expérience &#x200B;](#edit-a-template-task-using-the-old-experience) de cet article.
+1. Continuez à modifier la tâche de modèle comme décrit dans la section [ Modifier une tâche de modèle à l’aide de l’ancienne expérience ](#edit-a-template-task-using-the-old-experience) de cet article.
 
 ### Modifier une tâche de modèle à l’aide de l’ancienne expérience
 
@@ -382,14 +382,14 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
 
 1. Cliquez sur **Ajouter une personne cessionnaire** pour ajouter une nouvelle personne cessionnaire à la tâche de modèle. Vous pouvez affecter des personnes, des rôles ou des équipes à une tâche. Vous pouvez avoir plusieurs personnes cessionnaires sur une tâche. Les tâches futures auront les mêmes ressources qui leur seront affectées lorsqu’elles seront créées à partir de cette tâche de modèle.
 1. (Facultatif) Si vous avez plusieurs personnes cessionnaires, sélectionnez le bouton radio **Propriétaire** pour indiquer quel personne ou rôle est considéré comme propriétaire de la tâche ou cessionnaire principal. Workfront marque la première personne ou fonction que vous affectez à une tâche de modèle comme propriétaire ou cessionnaire principal.
-1. (Le cas échéant et facultatif) Si votre contrainte de tâche est Calcul de travail ou Piloté par l’effort, indiquez le **pourcentage d’affectation** pour chaque personne cessionnaire. Il s’agit de la durée dans le planning de la personne cessionnaire qui peut être consacrée à cette tâche. La modification du pourcentage d’affectation d’une personne cessionnaire modifie le nombre d’heures prévues d’une tâche.
-1. (Le cas échéant et facultatif) Si votre contrainte de tâche est simple, spécifiez les **Heures** de chaque personne cessionnaire.
+1. (Conditionnel et facultatif) Si votre **Type de durée** est **Calcul de travail** ou **Piloté par l&#39;effort**, spécifiez le **Pourcentage d&#39;affectation** (pourcentage d&#39;affectation) pour chaque personne désignée. Il s’agit de la durée dans le planning de la personne cessionnaire qui peut être consacrée à cette tâche. La modification du pourcentage d’affectation d’une personne cessionnaire modifie le nombre d’heures prévues d’une tâche.
+1. (Conditionnel et facultatif) Si votre **Type de durée** est **Simple**, spécifiez les **Heures** de chaque personne désignée
 
    Ou
 
    Indiquez le nombre total d’**heures prévues** pour la tâche de modèle. Cela répartit le nombre total d’heures de manière égale entre toutes les personnes cessionnaires.
 
-1. (Le cas échéant et facultatif) Si votre contrainte de tâche est simple, spécifiez la **Durée** de la tâche de modèle en jours. Cela deviendra la durée de la tâche créée à partir de ce modèle.
+1. (Conditionnel et facultatif) Si votre **Type de durée** est Simple, spécifiez le **Durée** de la tâche de modèle en jours. Cela deviendra la durée de la tâche créée à partir de ce modèle.
 1. (Facultatif) Sélectionnez un rôle dans le menu déroulant des **rôles de la personne cessionnaire**. Il s’agit du rôle que la personne cessionnaire peut remplir pour cette tâche future. Seules les fonctions associées à chaque personne cessionnaire dans son profil s’affichent dans le menu déroulant.
 1. (Facultatif) Continuez à modifier les sections suivantes, en fonction des informations que vous souhaitez modifier.
 
@@ -570,7 +570,7 @@ Après avoir ouvert la zone **Modifier la tâche de modèle** dans la nouvelle e
 
    ![La tâche de modèle modifie les affectations](assets/template-task-edit-assignments.png)
 
-1. Dans le champ Rechercher des personnes, des rôles ou des équipes , commencez à saisir le nom d’une personne désignée, puis sélectionnez-la lorsqu’elle s’affiche dans la liste
+1. Dans le champ **Rechercher des personnes, des rôles ou des équipes**, commencez à saisir le nom d’une personne désignée, puis sélectionnez-la lorsqu’elle s’affiche dans la liste
 
    Ou
 

@@ -6,10 +6,10 @@ description: Les projets sont répertoriés par ordre de priorité dans le plani
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 98%
+source-wordcount: '1282'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Les projets sont répertoriés par ordre de priorité dans le planificateur de r
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr> 
   <tr> 
@@ -105,9 +105,9 @@ Pour modifier la priorité de planification de projet :
 
 >[!IMPORTANT]
 >
->Votre entreprise doit disposer d’une formule Workfront d’entreprise ou supérieure pour hiérarchiser les projets dans l’optimisateur de porfolio.
+>Votre société doit disposer d’un package Prime ou d’un package Workfront supérieur pour donner la priorité aux projets dans Portfolio Optimizer.
 >
->Pour plus d’informations sur les formules de Workfront, voir [Nos formules](https://business.adobe.com/fr/products/workfront/pricing.html).
+>Pour plus d’informations sur les packages Workfront, voir [Packages Adobe Workfront et tarification](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Pour plus d’informations sur la hiérarchisation des projets dans l’optimisateur de portfolio, voir [Hiérarchiser des projets dans l’optimisateur de portfolio](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

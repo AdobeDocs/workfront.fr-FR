@@ -6,9 +6,9 @@ description: Lors de l’affectation de personnes ou de rôles à une tâche, un
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 69%
 
 ---
@@ -45,7 +45,7 @@ Vous pouvez modifier les heures de répartition lorsque vous effectuez des affec
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,10 @@ Vous pouvez modifier les heures de répartition lorsque vous effectuez des affec
   <tr> 
    <td>Autorisations d’objet</td>
    <td><p>Autorisations de contribution ou de niveau supérieur pour une tâche</p>
-   <p>Modifiez les autorisations pour mettre à jour les heures d’affectation dans la zone Modifier la tâche lors de la modification de tâches à l’aide de l’ancienne expérience. Vous ne pouvez plus gérer les heures d’affectation dans la zone Modifier la tâche lors de la modification de tâches dans la nouvelle expérience .</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifier les tâches</a>.</p></td>
+   <p>Modifiez les autorisations pour mettre à jour les heures d’affectation dans la zone Modifier la tâche lors de la modification de tâches à l’aide de l’ancienne expérience.</p> 
+   <p><b>NOTE</b></p>
+   <p>
+   Vous ne pouvez plus gérer les heures d’affectation dans la zone Modifier la tâche lors de la modification de tâches dans la nouvelle expérience .</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifier les tâches</a>.</p></td>
   </tr>
  </tbody>
 </table>

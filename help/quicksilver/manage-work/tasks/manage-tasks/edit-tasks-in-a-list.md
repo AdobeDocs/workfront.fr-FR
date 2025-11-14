@@ -6,7 +6,7 @@ description: Vous pouvez modifier les informations des tâches dans une liste de
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 63%
@@ -38,7 +38,7 @@ Vous pouvez modifier les informations des tâches dans une liste de tâches en m
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -124,9 +124,9 @@ Tenez compte des points suivants lorsque vous modifiez des tâches dans une list
 
   Vous pouvez choisir entre l’enregistrement dans Workfront des modifications que vous apportez en procédant comme suit :
 
-      * Automatiquement, après chaque modification
-     * Manuellement, uniquement après avoir cliqué sur Enregistrer.
-  
+   * Automatiquement, après chaque modification
+   * Manuellement, uniquement après avoir cliqué sur Enregistrer.
+
   Pour plus d’informations sur la configuration du moment où Workfront enregistre les modifications apportées aux tâches d’une liste, reportez-vous à la section [Modifier le mode de planification avant de modifier les tâches d’une liste](#modify-plan-mode-before-editing-tasks-in-a-list) de cet article.
 
 * Les autres personnes doivent actualiser leurs pages avant de pouvoir afficher les mises à jour apportées à une tâche.
@@ -550,5 +550,5 @@ Vous pouvez modifier plusieurs tâches à la fois. Assurez-vous que vous dispose
       * Commentaire
 
    1. (Facultatif) Dans la section **Custom Forms**, sélectionnez l’option **Recalculer les expressions personnalisées** pour vous assurer que tous les champs calculés personnalisés des formulaires personnalisés joints aux tâches sélectionnées sont à jour.
-   1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
+   1. Cliquez sur Enregistrer les modifications. **** Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
 

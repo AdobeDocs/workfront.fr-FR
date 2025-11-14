@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 82%
 
 ---
@@ -36,7 +36,7 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
 |   | Plan | Travail | Vérifier | Demande | Externe |
 |---|---|---|---|---|---|
 | Projets | Modifier | Modifier (sans autorisations Créer) | Afficher | Afficher (uniquement la page des détails) | Pas d’accès |
-| Tâches | Modifier | Modifier | Afficher | Afficher | Afficher |
+| Tâches | Modifier | Modifier | Afficher | Afficher | Pas d’accès |
 | Problèmes | Modifier | Modifier | Modifier | Modifier | Pas d’accès |
 | Portefeuilles | Modifier | Afficher | Afficher | Pas d’accès | Pas d’accès |
 | Programmes | Modifier | Afficher | Afficher | Pas d’accès | Pas d’accès |

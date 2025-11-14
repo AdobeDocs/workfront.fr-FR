@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 84%
 
 ---
 
@@ -30,29 +30,49 @@ Pour accorder aux utilisateurs et utilisatrices l’accès à Objectifs Workfro
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan Workfront</td> 
-   <td> <p>Pro ou niveau supérieur</p> </td> 
+   <td role="rowheader">Package Workfront</td> 
+   <td> <p>Workfront ou Workflow Ultimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produit</td> 
-   <td>Objectifs Workfront <p>Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront. </p> <p>Objectifs Workfront n’est disponible que dans la nouvelle expérience Adobe Workfront.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuration du niveau d’accès*</td> 
-   <td> <p>Vous devez disposer du niveau d’accès d’administrateur ou d’administratrice système.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configuration du niveau d’accès</td> 
+   <td> <p>Vous devez disposer du niveau d’accès d’administrateur ou d’administratrice système.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou le niveau d’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
-
-Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Pro or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Goals <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration*</td> 
+   <td> <p>You must have the System Administrator access level.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Accorder à l’utilisateur ou à l’utilisatrice l’accès à Objectifs Workfront à l’aide d’un niveau d’accès personnalisé
 
@@ -69,4 +89,9 @@ Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditi
 
 ## Accès à Objectifs Workfront par type de licence
 
-Un administrateur ou une administratrice Workfront peut utiliser un niveau d’accès pour accorder l’accès à Objectifs Workfront aux utilisateurs et utilisatrices disposant d’une licence Plan, Travail, Demande ou Révision.
+Un administrateur Workfront peut utiliser un niveau d’accès pour accorder l’accès aux objectifs Workfront aux utilisateurs disposant des licences suivantes :
+
+* Standard, Léger, Contributeur
+* Licence de planification, de travail, de demande ou de révision.
+
+Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
