@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Gestion des licences disponibles dans votre système
 description: En tant que membre de l’administration Adobe Workfront, vous pouvez accéder aux informations relatives à votre compte Workfront, y compris le nombre de licences achetées pour votre organisation, et le nombre de ces licences en cours d’utilisation.
-author: Lisa, Becky
+author: Lisa, Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 98%
+source-wordcount: '1180'
+ht-degree: 97%
 
 ---
 
@@ -49,15 +49,15 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 >[!NOTE]
 >
->Les instructions suivantes s’appliquent aux nouveaux forfaits uniquement.
+>Les instructions suivantes s’appliquent aux packages Select, Prime et Ultimate.
 >
->Pour le forfait Select :
+>Pour le package Select :
 >
 >1. Les administrateurs et administratrices système ne peuvent pas définir de limites pour les groupes principaux.
 >2. Les administrateurs et administratrices système ne peuvent afficher que le nombre total de licences utilisées par tous les groupes principaux.
 >3. Les administrateurs et administratrices de groupes ne peuvent pas du tout accéder à la page Licences.
 >
->Pour les forfaits Prime et Ultimate :
+>Pour les packages Prime et Ultimate :
 >
 >1. Les administrateurs et administratrices système peuvent ajouter des groupes principaux à la page Licences pour afficher l’utilisation des licences de ces groupes. Ils peuvent également définir des limites de licence.
 >2. Les administrateurs et administratrices de groupes peuvent accéder à la page Licences et afficher l’utilisation des licences dans les groupes qu’ils gèrent et qui ont été ajoutées à la page Licences par les administrateurs et administratrices système.
@@ -133,8 +133,6 @@ Pour plus d’informations sur les limites de décision en matière d’épreuve
 ![Allocation de décision mensuelle](assets/monthly-decision-allotment.png)
 
 ## Ajouter ou supprimer un groupe principal à la page des licences {#add-or-remove-a-home-group-to-the-licenses-page}
-
-<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 Chaque utilisateur ou utilisatrice ne peut être affecté qu’à un seul groupe principal. Workfront fournit un nombre de licences orienté groupe en calculant le nombre de licences allouées et actuellement utilisées dans chaque groupe principal.
 

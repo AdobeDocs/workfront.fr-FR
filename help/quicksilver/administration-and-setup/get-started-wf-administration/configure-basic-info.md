@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
@@ -60,7 +60,7 @@ Pour accéder à la page Infos client :
 
 1. Dans le panneau de gauche, cliquez sur **Système** > **Infos client**.
 
-   Selon le plan Workfront que vous avez acheté, il se peut que certaines sections ne figurent pas dans la page Infos client. Contactez votre représentant ou représentante de compte si vous devez déterminer le plan Workfront utilisé par votre organisation.
+   Selon le package Workfront que vous avez acheté, certaines sections peuvent être manquantes dans la page Informations sur le client. Contactez votre représentant de compte si vous avez besoin de connaître le package Workfront utilisé par votre organisation.
 
    Les sections disponibles dans la zone Infos client sont les suivantes :
 
