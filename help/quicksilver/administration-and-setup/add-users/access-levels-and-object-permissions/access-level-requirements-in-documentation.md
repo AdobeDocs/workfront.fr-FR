@@ -44,7 +44,7 @@ Si une ligne est absente du tableau des conditions d’accès dans un article do
   <p>Votre entreprise a peut-être acheté un package Workfront dans une ou plusieurs de ces zones.</p>
   <p>Auparavant, Workfront offrait des packages Workfront Select, Workfront Prime et Workfront Ultimate, sans faire de distinction entre les workflows, la planification, l’automatisation et l’intégration. Votre entreprise peut se trouver sur l’un de ces packages hérités. 
    <ul><li>Pour savoir quel package Adobe Workfront votre organisation utilise, et notamment si votre organisation dispose du modèle de package actuel ou hérité, contactez votre administrateur Workfront.</li>
-   <li>Pour obtenir des instructions sur la manière dont un administrateur Workfront peut localiser le package Workfront de votre organisation, voir <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Afficher le cluster et le package Workfront de votre organisation</a>.</li><li>Pour plus d’informations sur les packages Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Tarification et package Adobe Workfront</a>.</li></ul> </td> 
+   <li>Pour obtenir des instructions sur la manière dont un administrateur Workfront peut localiser le package Workfront de votre organisation, voir <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Afficher le cluster et le package Workfront de votre organisation</a>.</li><li>Pour plus d’informations sur les packages Workfront, voir <a href="https://business.adobe.com/fr/products/workfront/pricing.html">Tarification et package Adobe Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -95,7 +95,7 @@ Si une ligne est absente du tableau des conditions d’accès dans un article do
    <ul><li>Le modèle de licence actuel est basé sur le nombre d’opérations effectuées et n’a aucune limitation sur les actions qu’une organisation peut effectuer. </li>
    <li>Les licences héritées dépendent de la possibilité ou non pour les scénarios de se connecter à des applications tierces, ou de l’utilisation ou non des scénarios pour l’automatisation de Workfront uniquement. </li>
    </ul>
-   Pour plus d’informations sur l’attribution de licence Fusion, voir <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Licences Workfront Fusion</a>.
+   Pour plus d’informations sur l’attribution de licence Fusion, voir <a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Licences Workfront Fusion</a>.
    </td> 
   </tr> 
  </tbody> 
