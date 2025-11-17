@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: bbc0654cfff35f29c32005619aec433372267529
+source-git-commit: bda5c6057b51f6ead5424b6a7563b6d83f2a5bca
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1046'
 ht-degree: 75%
 
 ---
@@ -2453,6 +2453,11 @@ Le tableau suivant r√©pertorie les champs disponibles pour les ressources de l‚Ä
    <td> </td> 
    <td> </td> 
    <td>attachmentRateCard:sourceID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>availableEstimatedHours</td> 
   </tr> 
   <tr> 
    <td> </td> 
