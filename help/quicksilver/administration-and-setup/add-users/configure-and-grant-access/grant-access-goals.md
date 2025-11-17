@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur ou d’une utilisatrice à Objectifs Workfront.
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 84%
+source-wordcount: '267'
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ Pour accorder aux utilisateurs et utilisatrices l’accès à Objectifs Workfro
  <tbody> 
   <tr> 
    <td role="rowheader">Package Workfront</td> 
-   <td> <p>Workfront ou Workflow Ultimate</p> </td> 
+   <td> <p>Workfront Ultimate</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 

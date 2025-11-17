@@ -6,10 +6,10 @@ description: Naviguer dans un portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 72%
+source-wordcount: '583'
+ht-degree: 73%
 
 ---
 
@@ -88,9 +88,8 @@ Pour plus d’informations sur les portefeuilles, voir [Comprendre la méthodolo
 
 ## Naviguer dans un portfolio
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront].
+{{step1-to-portfolios}}
 
-1. Cliquez sur [!UICONTROL Portfolios].
 1. Dans le menu déroulant **[!UICONTROL Filtrer]**, sélectionnez les options suivantes :
 
    * **[!UICONTROL Portfolios m’appartenant]** : inclut une liste des portfolios pour lesquels vous êtes [!UICONTROL Gestionnaire de portfolios].

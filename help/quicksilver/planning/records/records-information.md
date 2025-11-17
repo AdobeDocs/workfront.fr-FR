@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 65%
+source-wordcount: '172'
+ht-degree: 62%
 
 ---
 
@@ -45,3 +45,4 @@ Les articles suivants décrivent comment créer et gérer des enregistrements et
 * [Gérer la mise en page de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md)
 * [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md)
 * [Exporter les enregistrements de la vue Tableau](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
+* [Ajouter une page d’enregistrement connecté à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
