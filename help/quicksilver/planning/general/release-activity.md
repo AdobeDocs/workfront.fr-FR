@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '7386'
+source-wordcount: '7392'
 ht-degree: 37%
 
 ---
@@ -28,7 +28,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 Le tableau ci-dessous présente la chronologie de la publication de Workfront Planning :
 
-| Heure | Libération |
+| Heure | Version |
 |--------------------|-----------------------------------------|
 | Août - Décembre 2023 | Version bêta de Workfront Planning* |
 | Janvier - Août 2024 | Version préliminaire de Workfront Planning* |
@@ -188,7 +188,7 @@ Pour plus d’informations sur l’assistant Workfront Planning AI Assistant, co
 
 Prévisualisation et production : jeudi 28 août 2024
 
-Vous pouvez désormais afficher les informations de planification Workfront dans un rapport à l’aide du tableau de bord de la zone de travail Workfront. Pour plus d’informations, voir [&#x200B; Présentation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Vous pouvez désormais afficher les informations de planification Workfront dans un rapport à l’aide du tableau de bord de la zone de travail Workfront. Pour plus d’informations, voir [ Présentation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Semaine du mardi 19 août 2024
 
@@ -294,8 +294,8 @@ Désormais, lorsque vous configurez une connexion entre deux types d’enregistr
 Vous pouvez désormais choisir parmi les types de connexion suivants lorsque vous liez deux types d’enregistrements :
 
 * Plusieurs à plusieurs. Lorsque vous sélectionnez ce type de connexion, il n’est pas possible de le modifier après l’avoir enregistré.
-* Un-à-multiple
-* Un-à-un
+* Un à plusieurs
+* Un à un
 * Plusieurs contre un.
 
 Vous pouvez ainsi définir le nombre d’enregistrements des types d’enregistrements connectés auxquels les utilisateurs peuvent se connecter lorsqu’une connexion est établie.
@@ -615,7 +615,7 @@ Voici quelques-unes des informations de la page de destination :
 
 * Tutoriel de prise en main pour Workfront Planning
 
-Pour plus d’informations, voir [Vue d’ensemble d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nouvelle expérience d’intégration pour Workfront Planning
 
@@ -663,7 +663,7 @@ Production : vendredi 30 mai 2024
 
 Prévisualisation : à déterminer
 
-Nous avons mis à jour l&#39;aspect de l&#39;icône de la zone Planification dans le menu principal. Pour plus d’informations, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Nous avons mis à jour l&#39;aspect de l&#39;icône de la zone Planification dans le menu principal. Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Changement du nom du programme Workfront Planning
 
@@ -800,7 +800,7 @@ Production : jeudi 8 mai 2024
 
 Aperçu : à déterminer
 
-Si vous êtes un client Adobe Unified Experience et que quelqu’un vous ajoute à un commentaire sur la page d’enregistrement, vous recevez une notification in-app et un e-mail concernant le commentaire. Vous pouvez gérer vos préférences de notification dans la zone Préférences de votre profil Adobe Experience Cloud. Pour plus d’informations, voir [&#x200B; Préférences et notifications du compte &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences).
+Si vous êtes un client Adobe Unified Experience et que quelqu’un vous ajoute à un commentaire sur la page d’enregistrement, vous recevez une notification in-app et un e-mail concernant le commentaire. Vous pouvez gérer vos préférences de notification dans la zone Préférences de votre profil Adobe Experience Cloud. Pour plus d’informations, voir [ Préférences et notifications du compte ](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences).
 
 Pour plus d’informations sur les notifications de planification Workfront, voir [Notifications Adobe Workfront Planning : index des articles](/help/quicksilver/planning/notifications/notifications-information.md).
 
@@ -918,7 +918,7 @@ Prévisualisation : à déterminer
 
 La zone Maestro du menu principal s’appelle désormais Planification.
 
-Pour une vue d’ensemble d’Adobe Workfront Planning, consultez la section [Vue d’ensemble d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Pour obtenir un aperçu d’Adobe Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nouvelle expérience lors de la suppression d’un type d’enregistrement
 

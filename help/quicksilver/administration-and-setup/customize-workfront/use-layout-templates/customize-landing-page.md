@@ -1,5 +1,5 @@
 ---
-title: Personnalisation de la page de destination à l’aide d’un modèle de mise en page
+title: Personnalisation de la page d’entrée à l’aide d’un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '434'
 ht-degree: 78%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 78%
 
 En tant qu’administrateur ou administratrice Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier la zone que les utilisateurs et utilisatrices doivent voir chaque fois qu’ils se connectent à Workfront.
 
-Les utilisateurs peuvent ouvrir l’un des éléments suivants :
+Les utilisateurs peuvent ouvrir l’un des fichiers suivants :
 
 * Une zone Workfront désignée
-* Tableau de bord personnalisé.
+* d’un tableau de bord personnalisé.
 
 Pour plus d’informations sur la création de modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -45,7 +45,7 @@ Après avoir configuré un modèle de mise en page, vous devez l’affecter aux 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -71,7 +71,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Dans le **zone de navigation supérieure**, cliquez sur **Sélectionner une page de destination**, puis sélectionnez la zone que les utilisateurs et utilisatrices doivent voir lorsqu’ils se connectent.
 
-   Faites votre choix parmi les zones suivantes ou ajoutez un tableau de bord personnalisé :
+   Sélectionnez l’une des zones suivantes ou ajoutez un tableau de bord personnalisé :
 
    * Calendriers
    * Tableaux de bord
@@ -95,21 +95,21 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    >[!IMPORTANT]
    >
-   >Pour afficher les zones Scénarios, Objectifs et Planification, des licences supplémentaires sont nécessaires.
+   >L’affichage des zones Scénarios, Objectifs et Planification nécessite des licences supplémentaires.
    >
    >* Pour plus d’informations sur les Objectifs Workfront, voir [Vue d’ensemble des Objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
    >
    >* Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
    >
-   >* Pour plus d’informations sur Workfront Planning, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+   >* Pour plus d’informations sur Workfront Planning, consultez [Prise en main de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
+1. <span class="preview">Dans l’environnement d’aperçu : Poursuivez la personnalisation du modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
 
    <span class="preview">Ou</span>
 
    <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
 
-1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
+1. Dans l’environnement de production : Poursuivez la personnalisation du modèle de mise en page.
 
    Ou
 

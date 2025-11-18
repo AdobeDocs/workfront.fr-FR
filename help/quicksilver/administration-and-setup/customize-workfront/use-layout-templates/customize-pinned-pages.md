@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 59%
+source-wordcount: '574'
+ht-degree: 60%
 
 ---
 
@@ -40,7 +40,7 @@ Après avoir configuré un modèle de mise en page, vous devez l’affecter aux 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      >
      >* Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
      >
-     >* Pour plus d’informations sur Workfront Planning, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+     >* Pour plus d’informations sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
    * Cliquez sur **Ajouter un tableau de bord**
       * Saisissez un nom explicite dans le champ <!--**Quick link name**-->**Nom personnalisé**

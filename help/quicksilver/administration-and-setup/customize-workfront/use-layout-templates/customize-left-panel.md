@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1134'
 ht-degree: 50%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 50%
 
 Dans un modèle de mise en page, vous pouvez personnaliser ce que les personnes voient dans la zone du panneau de gauche dans l’ensemble d’[!DNL Adobe Workfront].
 
-Par exemple, vous pouvez déterminer lequel des éléments suivants les utilisateurs voient dans le panneau de gauche lors de l’affichage d’un projet :
+Par exemple, vous pouvez déterminer les éléments suivants que les utilisateurs voient dans le panneau de gauche lors de l’affichage d’un projet :
 
 ![Panneau de gauche d’un projet](assets/left-panel-in-project.png)
 
@@ -46,9 +46,9 @@ Après avoir configuré un modèle de mise en page, vous devez l’affecter aux 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p>
-       <p>L’ajout d’applications personnalisées au menu principal n’est disponible que pour les organisations sous licence Adobe App Builder.</p></td> 
+       <p>L’ajout d’applications personnalisées au menu principal n’est disponible que pour les organisations sous licence pour Adobe générateur d’applications.</p></td> 
   </tr> 
   <tr> 
    <td>Licence Adobe Workfront</td> 
@@ -71,9 +71,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Personnaliser le panneau de gauche d’une zone dans [!DNL Workfront] :
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/dropdown-arrow.png) sous **[!UICONTROL Personnaliser ce que voient les utilisateurs]**, puis cliquez sur le nom d’un type d’objet ou d’une zone de [!DNL Workfront] dont vous souhaitez personnaliser le panneau de gauche.
+1. Cliquez sur la flèche ![](assets/dropdown-arrow.png) vers le bas sous **[!UICONTROL Personnaliser ce que voient]** les utilisateurs, puis cliquez sur le nom d’un type d’objet ou d’une [!DNL Workfront] zone dont vous souhaitez personnaliser le panneau de gauche.
 
-   Les types d’objet et les zones de [!DNL Workfront] dont vous pouvez personnaliser le panneau de gauche sont répertoriés dans le tableau suivant :
+   Les types d’objets et [!DNL Workfront] les zones dont vous pouvez personnaliser le panneau de gauche sont répertoriés dans le tableau suivant :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -95,7 +95,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
       <td>[!UICONTROL Task]</td> 
       <td>Nom d’une tâche</td> 
-      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Task Details], [!UICONTROL Subtask], [!UICONTROL Issues], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL Expenses], [!UICONTROL Predecessors], [!UICONTROL Custom Application]**</td> 
+      <td> [! Mises à jour UICONTROL], [ ! UICONTROL Documents], [ ! UICONTROL Task Details], [ ! UICONTROL Subtask], [ ! Problèmes UICONTROL], [ ! UICONTROL Hours], [ ! UICONTROL Approvals], [ ! Dépenses UICONTROL], [ ! UICONTROL Prédécesseurs], [ ! UICONTROL Application personnalisée]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Issue]</td> 
@@ -200,7 +200,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     </tbody> 
    </table>
 
-   *Votre société doit acheter une licence supplémentaire pour que Workfront Planning puisse ajouter cette zone au panneau de gauche des projets, portfolios et programmes. Pour plus d’informations, consultez [Présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md)
+   *Votre entreprise doit acheter une licence supplémentaire pour Workfront Planning afin de pouvoir ajouter cette zone au panneau de gauche des projets, portefeuilles et programmes. Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
    **Les applications personnalisées doivent être créées séparément avant d&#39;être disponibles en tant qu&#39;options du menu principal. Pour plus d’informations, voir [Création d’une application personnalisée pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
@@ -231,11 +231,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Vous devez créer le tableau de bord pour qu’il apparaisse dans la liste.
 
-   Les éléments du tableau de bord s’affichent en bas du panneau de gauche.
+   Les éléments du tableau de bord s’affichent dans la partie inférieure du panneau de gauche.
 
    >[!NOTE]
    >
-   >Les utilisateurs et utilisatrices peuvent ajouter des éléments de tableau de bord personnalisés à leur propre panneau de gauche. Lorsque vous ajoutez des éléments de tableau de bord personnalisés à un modèle de mise en page, vos éléments s’affichent en plus de ceux qu’ils ajoutent, sans les remplacer ni les réinitialiser. Cela est également vrai si vous affectez des utilisateurs et utilisatrices à un nouveau modèle de mise en page avec des éléments de tableau de bord personnalisés. Pour plus d’informations sur la personnalisation du panneau de gauche, voir [Ajouter un tableau de bord dans le panneau de gauche d’un objet ou d’une zone Workfront](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Les utilisateurs et utilisatrices peuvent ajouter des éléments de tableau de bord personnalisés à leur propre panneau de gauche. Lorsque vous ajoutez des éléments de tableau de bord personnalisés dans un modèle de mise en page, vos éléments s’affichent en plus de ceux qu’ils ajoutent, sans les écraser ou les réinitialiser. Cela est également vrai si vous affectez des utilisateurs et utilisatrices à un nouveau modèle de mise en page avec des éléments de tableau de bord personnalisés. Pour plus d’informations sur la façon dont les utilisateurs peuvent personnaliser le panneau de gauche, voir [Ajouter un tableau de bord dans le panneau gauche d’un objet ou d’une zone](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) Workfront.
    >
    >Pour plus d’informations sur les tableaux de bord, voir [Tableaux de bord](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 

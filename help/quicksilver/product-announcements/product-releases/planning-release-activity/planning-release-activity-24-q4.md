@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 16%
+source-wordcount: '382'
+ht-degree: 15%
 
 ---
 
@@ -46,7 +46,7 @@ Pour plus d’informations, voir [Connecter les types d’enregistrements](/help
 >
 >Version préliminaire : 3 septembre 2024 ; Production pour la version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour la version trimestrielle : avec la version 24.10 (octobre 2024)
 
-Vous pouvez désormais exporter la page de détails d’un enregistrement ou l’aperçu vers un document de PDF.
+Vous pouvez désormais exporter la page de détails d’un enregistrement ou l’aperçu vers un document PDF.
 
 Avant cette amélioration, vous pouviez exporter l’onglet Détails d’un enregistrement uniquement vers un fichier Word (.docx).
 
@@ -68,4 +68,4 @@ Voici quelques-unes des principales fonctionnalités d’Adobe Workfront Plannin
 
 * Connectez-vous à des types d’objet d’autres systèmes, créant ainsi une structure cohérente pour tous vos processus.
 
-Pour plus d’informations sur Workfront Planning, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Pour plus d’informations sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).

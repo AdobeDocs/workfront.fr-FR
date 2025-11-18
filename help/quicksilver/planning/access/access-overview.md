@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 24%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 24%
 >
 >Pour plus d’informations, contactez votre gestionnaire de compte
 >
->Pour plus d’informations sur Workfront Planning, consultez [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour plus d’informations sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Des restrictions de licence et de partage s’appliquent à l’utilisation d’Adobe Workfront Planning.
 
@@ -54,7 +54,7 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
  <tbody>
     <tr>
  <tr>
-   <td role="rowheader"><p>Package Adobe Workfront</p></td>
+   <td role="rowheader"><p>Package Adobe Workfront</p></td>
    <td>
    <p>Tout package Workfront and Planning</p>
    <p>Tout package Workflow et Planning</p>

@@ -3,15 +3,15 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Accès aux objets et zones par de nouvelles licences
+title: Accès aux objets et aux zones par de nouvelles licences
 description: Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou Afficher) que chacune des licences Adobe Workfront autorise pour les objets et les zones de Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
+source-git-commit: 29af5a01c1d5fcec35ac0061a478e5721f6770c0
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 93%
 
 ---
@@ -50,7 +50,7 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
         <td>Modifier</td>
         <td>Afficher</td>
         <td>Afficher</td>
-        <td>Afficher</td>
+        <td>Pas d’accès</td>
     </tr>
     <tr>
         <td>Problèmes</td>
@@ -153,7 +153,7 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
 >
 >* Les utilisateurs et utilisatrices externes ne peuvent pas rechercher des éléments dans Workfront. Ces personnes peuvent consulter les documents et les calendriers qui sont spécifiquement partagés avec elles. Elles peuvent également voir les utilisateurs et utilisatrices qui partagent des éléments avec elles.
 >
->* Les utilisateurs contributeurs et les utilisateurs externes ne peuvent pas voir le contenu partagé à l’échelle du système.  Il doit être partagé explicitement avec eux.
+>* Les utilisateurs contributeurs et externes ne peuvent pas voir le contenu partagé à l’échelle du système.  Il doit être partagé avec eux explicitement.
 
 Vous trouverez des informations détaillées sur les niveaux d’accès autorisés pour chaque objet et zone dans les articles suivants :
 
