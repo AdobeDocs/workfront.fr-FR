@@ -95,7 +95,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
       <td>[!UICONTROL Task]</td> 
       <td>Nom d’une tâche</td> 
-      <td> [! Mises à jour UICONTROL], [ ! UICONTROL Documents], [ ! UICONTROL Task Details], [ ! UICONTROL Subtask], [ ! Problèmes UICONTROL], [ ! UICONTROL Hours], [ ! UICONTROL Approvals], [ ! Dépenses UICONTROL], [ ! UICONTROL Prédécesseurs], [ ! UICONTROL Application personnalisée]**</td> 
+      <td> [!UICONTROL Mises à jour], [!UICONTROL Documents], [!UICONTROL Task Details], [!UICONTROL Subtask], [!UICONTROL Problèmes], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL Dépenses], [!UICONTROL Prédécesseurs], [!UICONTROL Application personnalisée]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Issue]</td> 
