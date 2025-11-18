@@ -87,7 +87,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 
 * [Adobe Principes de base](/help/quicksilver/planning/general/planning-api-basics.md) de l’API Workfront Planning : L’objectif de l’API Adobe Workfront Planning est de simplifier les intégrations de création avec Planning en introduisant une architecture REST-ful qui fonctionne via HTTP.
 
-* [Adobe des modules Workfront Planning pour Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : avec les modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel d’API personnalisé à votre compte Adobe Workfront Planning.
+* [Adobe des modules Workfront Planning pour Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : avec les modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel d’API personnalisé à votre compte Adobe Workfront Planning.
 
 * [Adobe Présentation de Workfront Planning AI Assistant](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec Workfront AI Assistant for Planning pour la planification, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et en laissant l’assistant faire le travail pour vous.
 
