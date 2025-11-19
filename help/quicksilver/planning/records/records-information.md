@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 62%
+source-wordcount: '175'
+ht-degree: 60%
 
 ---
 
@@ -34,7 +34,7 @@ Les articles suivants décrivent comment créer et gérer des enregistrements et
 * [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md)
 * [Supprimer des enregistrements](/help/quicksilver/planning/records/delete-records.md)
 * [Restaurer les enregistrements supprimés](/help/quicksilver/planning/records/restore-deleted-records.md)
-* [Partager des enregistrements](/help/quicksilver/planning/records/share-records.md)
+* [Partage d’enregistrements à l’aide d’un lien](/help/quicksilver/planning/records/share-records.md)
 * [Présentation des enregistrements connectés](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 * [Dupliquer les enregistrements](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
