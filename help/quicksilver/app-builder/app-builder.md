@@ -4,9 +4,9 @@ description: Les extensions d’interface d’utilisation de Workfront, optimis�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2285'
 ht-degree: 1%
 
 ---
@@ -160,13 +160,13 @@ Pour autoriser les applications personnalisées dans le menu principal de Workfr
 Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce code a été créé pour vous par le modèle. Ce code peut être ajouté pour créer des éléments de menu supplémentaires. Veillez à remplacer les identifiants et les URL.
 
     «
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -176,13 +176,13 @@ Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce co
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     «
 
 1. Ajoutez le fragment de code suivant :
@@ -402,7 +402,7 @@ Une application peut être incorporée dans un formulaire personnalisé Workfron
            /> 
    ```
 
-   ![&#x200B; exemple de code &#x200B;](assets/9-app-file-step-1-from-sam.png)
+   ![ exemple de code ](assets/9-app-file-step-1-from-sam.png)
 1. Enregistrez votre travail.
 
 Pour plus d’informations sur le développement et l’exécution de l’application, consultez le [site du développeur Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
@@ -438,6 +438,19 @@ Ensuite, accédez à la page spécifique sur laquelle vous souhaitez développer
 Si la configuration a été correctement effectuée, les boutons de votre application App Builder s’affichent lorsque vous rechargez la page du modèle de mise en page dans Workfront. Ajoutez les boutons d’application au menu principal et au panneau de gauche d’un objet et vérifiez qu’ils s’affichent correctement dans ces zones.
 
 Des instructions supplémentaires sont disponibles sur le site d’Adobe Developer, à l’aide d’un exemple d’AEM : https://developer.adobe.com/uix/docs/guides/preview-extension-locally/ .
+
+### Désactivez l’indicateur pour autoriser les tests locaux sur Chrome version 142 et ultérieures.
+
+La version 142 de Chrome introduit des restrictions d’accès au réseau local. Ces restrictions peuvent interférer avec les environnements de test locaux.
+
+Pour résoudre le problème, vous devez désactiver la vérification d’accès au réseau local en désactivant l’indicateur correspondant dans les paramètres de Chrome : `chrome://flags/#local-network-access-check`.
+
+Pour désactiver l’indicateur
+
+1. Ouvrez Chrome et saisissez `chrome://flags` dans la barre d’adresse, puis appuyez sur **Entrée**.
+1. Dans la barre de recherche supérieure, tapez **Vérifications d’accès au réseau local**.
+1. Cliquez sur le menu déroulant en regard de l’indicateur **Contrôles d’accès réseau local** et sélectionnez Désactivé.
+1. Cliquez sur le bouton **Relancer** qui s’affiche en bas de l’écran pour appliquer les modifications.
 
 ## Publier les demandes et approuver l&#39;envoi
 
