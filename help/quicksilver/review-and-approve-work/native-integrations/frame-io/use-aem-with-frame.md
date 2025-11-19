@@ -6,10 +6,10 @@ description: Utilisation de Adobe Experience Manager avec l’intégration Frame
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cb2a17991a5562c6e734eaa0ada781d706dc5a77
+source-git-commit: 8c5202bcdb367266d31a2e056eed9a286f286518
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 79%
+source-wordcount: '1615'
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manag
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
    <td> <p>Prime ou Ultimate</p>
     <p>Workflow Ultimate</p>
@@ -121,7 +121,7 @@ Avant de commencer à mapper les champs de métadonnées, vous devez configurer 
 
 Pour configurer les champs de métadonnées, procédez comme suit :
 
-1. Configurez un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe  [!DNL Workfront]  et  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configurez un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe  [!DNL Workfront]  et  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configurez les champs de formulaire personnalisés dans Workfront. [!DNL Workfront] comporte de nombreux champs personnalisés intégrés que vous pouvez utiliser. Cependant, vous pouvez également créer vos propres champs personnalisés, comme expliqué dans la section [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -151,7 +151,7 @@ Vous pouvez mapper n’importe quel champ pris en charge par Workfront à une ba
 
 Une fois les balises créées dans Experience Manager Assets, elles s’affichent dans la liste déroulante Balises de la section Métadonnées. Pour lier un champ à une balise, sélectionnez `xcm:keywords` dans la liste déroulante du champ Experience Manager Assets de la zone de mappage des métadonnées.
 
-Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/fr/docs/experience-manager-64/administering/contentmanagement/tags).
+Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Champs de schéma de métadonnées personnalisés Experience Manager Assets**
 
@@ -221,11 +221,11 @@ Lorsque cette option est activée, toute ressource qui a été transmise à Adob
 
 Vous pouvez envoyer des documents depuis Workfront vers Experience Manager Assets ou Assets Essentials. Les documents chargés et envoyés de Workfront vers Assets Essentials sont toujours comptabilisés dans votre stockage global de documents.
 
-Les ressources envoyées vers Experience Manager par le biais de cette intégration sont limitées à une taille de **5 Go**.
+Les Assets envoyées à Experience Manager par le biais de cette intégration ont une taille maximale de **5 To**.
 
 <!--In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.-->
 
-Les champs de métadonnées sont mappés pour la première fois lorsque vous envoyez une ressource depuis Workfront vers Experience Manager Assets ou Assets Essentials. Toutes les métadonnées configurées pour mapper des objets parent sont également envoyées. Pour plus d’informations sur la configuration du mappage des métadonnées, voir [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurer l’intégration d’Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Les champs de métadonnées sont mappés pour la première fois lorsque vous envoyez une ressource de Workfront vers Experience Manager Assets ou Assets Essentials. Toutes les métadonnées configurées pour mapper des objets parent sont également envoyées. Pour plus d’informations sur la configuration du mappage des métadonnées, voir [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurer l’intégration d’Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 >[!INFO]
 >
