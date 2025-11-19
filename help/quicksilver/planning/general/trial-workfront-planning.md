@@ -7,10 +7,10 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 1%
+source-wordcount: '604'
+ht-degree: 0%
 
 ---
 
@@ -19,11 +19,16 @@ ht-degree: 1%
 
 Adobe Workfront offre actuellement une version d’essai gratuite de 60 jours d’Adobe Workfront Planning.
 
-L’essai est disponible entre les dates suivantes : 1er février - 1er avril 2025.
+L’essai est disponible entre les dates suivantes : du 1er mars au 1er mai 2026.
 
-Cet essai vous donne l&#39;occasion de voir comment Planning relie la stratégie globale au travail quotidien qui permet sa réalisation.
+>[!NOTE]
+>
+>La version d’essai de Workfront Planning n’est pas disponible pour les clients Workfront Planning actuels. Cette version d’essai est une opportunité pour les clients Workfront qui ne sont pas des clients Planning de découvrir Workfront Planning et de voir comment il peut associer la stratégie d’ensemble au travail quotidien qui permet de le réaliser.
 
-La planification offre une visibilité centralisée sur votre cycle de vie marketing, ce qui permet une meilleure collaboration entre les équipes, un suivi en temps réel des campagnes et des workflows automatisés. Vous pouvez créer des espaces de travail personnalisés et visualiser le travail à l’aide de calendriers et de chronologies interactifs. Grâce à cette version d&#39;essai, vous constaterez directement comment Planning permet d&#39;aligner le travail quotidien sur les objectifs stratégiques, de rationaliser l&#39;exécution et de générer des résultats mesurables pour votre organisation.
+
+La planification offre une visibilité centralisée sur votre cycle de vie marketing, ce qui permet une meilleure collaboration entre les équipes, un suivi en temps réel des campagnes et des workflows automatisés. Vous pouvez créer des espaces de travail personnalisés et visualiser le travail à l’aide de calendriers et de chronologies interactifs.
+
+Grâce à cette version d&#39;essai, vous constaterez directement comment Planning permet d&#39;aligner le travail quotidien sur les objectifs stratégiques, de rationaliser l&#39;exécution et de générer des résultats mesurables pour votre organisation.
 
 La version d’essai gratuite de Workfront Planning offre les avantages suivants :
 
@@ -36,10 +41,10 @@ La version d’essai gratuite de Workfront Planning offre les avantages suivants
 
 Votre société doit disposer des éléments suivants pour pouvoir participer à l’essai gratuit de Workfront Planning :
 
-* Tout package Prime ou version ultérieure d’Adobe Workfront ou de workflow.
-* Accès au Adobe Admin Console.
-* Faire partie du système Identity Management (IMS).
-* Contrat légal signé disponible dans l’instance Workfront de votre organisation.
+* Tout package Adobe Workfront ou Workflow
+* Accès au Adobe Admin Console
+* Faire partie du système Identity Management (IMS)
+* Contrat légal signé disponible dans l’instance Workfront de votre entreprise
 
 ## Comment s’inscrire à l’évaluation
 
@@ -48,7 +53,7 @@ L’un de vos administrateurs Workfront doit consulter et signer un accord jurid
 Pour vérifier et accepter l’accord juridique, procédez comme suit :
 
 1. Connectez-vous à Adobe Workfront en tant qu’administrateur système.
-1. (Conditionnel) Lorsque l’essai est ouvert, les administrateurs système reçoivent une invitation à l’essai avec un lien vers l’endroit où ils acceptent l’accord légal.
+1. (Sous condition) Une fois l’essai ouvert, Workfront enverra une invitation in-app aux administrateurs système pour qu’ils rejoignent l’essai avec un lien permettant de consulter et d’accepter l’accord légal.
 
    Ou
 
@@ -56,7 +61,7 @@ Pour vérifier et accepter l’accord juridique, procédez comme suit :
 1. Cliquez sur **Consulter l’accord d’évaluation** dans la section **Autres préférences**.
 1. Cliquez sur **Accepter** après avoir consulté le contrat.
 
-   Votre entreprise est maintenant inscrite à l’essai de planification de Workfront jusqu’au 1er avril 2025.
+   Votre entreprise est maintenant inscrite à l’essai de planification de Workfront jusqu’au 1er mai 2026.
 
    Les autorisations suivantes sont accordées aux données disponibles dans l’onglet **Espaces de travail des bonnes pratiques** de la zone **Évaluation de Planning** :
 
@@ -66,15 +71,17 @@ Pour vérifier et accepter l’accord juridique, procédez comme suit :
 
    Pour plus d’informations sur l’utilisation de Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
+   Pour connaître les bonnes pratiques relatives à l&#39;utilisation de Workfront Planning, consultez [Bonnes pratiques de planification d&#39;Adobe Workfront](/help/quicksilver/planning/general/planning-best-practices.md).
+
 <!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps aboe - ???  -->
 
 ## Aperçu des dates importantes
 
 Vous trouverez ci-dessous quelques dates importantes associées à l’offre d’évaluation gratuite Adobe Workfront Planning :
 
-* 1er février 2025 - Lancement de la version d’essai de Workfront Planning
-* 1er avril 2025 - clôture du procès de Workfront Planning. Workfront sécurise vos données pendant 6 mois après la fin de l’essai.
-* 30 novembre 2025 - Workfront ne met plus vos données à disposition après cette date.
+* **1er mars 2026** - Lancement de l’essai Workfront Planning.
+* **1er mai 2026** - La version d’essai de Workfront Planning se termine et votre accès à Planning est supprimé. Workfront sécurise vos données pendant 6 mois après la fin de l’essai. Si vous achetez Workfront Planning pendant cette période, vous pouvez à nouveau accéder à Planning et à vos données.
+* **1er novembre 2026** - Workfront ne met plus vos données à disposition après cette date. Vous pouvez toujours acheter Workfront Planning, mais vos données seront supprimées après cette date.
 
 <!--## Overview of the access to Workfront Planning -->
 
