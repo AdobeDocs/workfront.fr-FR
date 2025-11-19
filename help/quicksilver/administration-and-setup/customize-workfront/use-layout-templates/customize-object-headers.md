@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 86%
+source-wordcount: '537'
+ht-degree: 65%
 
 ---
 
@@ -42,7 +42,7 @@ Après avoir configuré un modèle de mise en page, vous devez l’affecter aux 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. Dans la section [!UICONTROL Champs d’en-tête], pointez sur les champs affichés et effectuez l’une des opérations suivantes :
+1. Dans la section [!UICONTROL Champs d’en-tête], passez la souris sur les champs actifs et effectuez l’une des opérations suivantes :
    * Cliquez sur l’icône **x** pour supprimer un champ.
 
      Ou
@@ -83,19 +83,15 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. L’en-tête d’un objet peut comporter jusqu’à cinq champs.
 Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ avant d’en ajouter un nouveau.
-1. Dans la case **Ajouter un champ**, commencez à saisir le nom d’un champ Workfront non modifiable que vous souhaitez ajouter, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Le champ est ajouté immédiatement à droite de la zone Ajouter un champ et s’affiche comme le premier champ dans le coin supérieur gauche de l’en-tête de l’objet.
+1. Dans la zone **Ajouter un champ**, commencez à saisir le nom d’un champ personnalisé ou d’un champ Workfront natif que vous souhaitez ajouter, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Le champ est ajouté à droite immédiate de la zone Ajouter un champ et s’affiche comme le premier champ dans le coin supérieur droit de l’en-tête de l’objet .
 
    >[!TIP]
    >
-   >* Vous ne pouvez ajouter que des champs qui s’affichent dans la zone Vue d’ensemble de la section Détails de l’objet et qui ne sont pas modifiables. Les champs non modifiables sont des champs que les personnes ne peuvent pas modifier manuellement. Ils sont calculés automatiquement par Workfront.
-   >
-   >* Vous pouvez ajouter des champs modifiables qui font déjà partie des en-têtes par défaut (par exemple, Personne propriétaire du projet, Statut, Pourcentage terminé, Affectations).
+   >* Vous pouvez ajouter n’importe quel champ personnalisé ou n’importe quel champ natif disponible dans la zone Aperçu de la section Détails d’un objet. Par exemple, seuls les problèmes comportent le champ Gravité et ce champ n’est pas disponible pour être ajouté aux projets ou aux tâches.
    >
    >* Lorsque vous ajoutez le champ « Résolu par » à l’en-tête d’un problème, le champ devient « Résolution du problème, de la tâche ou du projet », lorsqu’un objet de résolution est associé au problème.
 
-
    ![Ajouter un champ à l’en-tête](assets/add-field-to-header-in-lt-list.png)
-
 
 1. (Facultatif) Faites glisser et déposez les champs dans un ordre différent.
 
