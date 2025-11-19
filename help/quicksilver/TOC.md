@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: e73965653f1923168ff331dfdf05713f1902ba5a
 workflow-type: tm+mt
-source-wordcount: '13547'
+source-wordcount: '13556'
 ht-degree: 84%
 
 ---
@@ -921,6 +921,7 @@ ht-degree: 84%
       * [Gérer les formulaires personnalisés associés à des objets](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Utiliser les notifications {#use-notifications}
       * [Utiliser les notifications : index des articles](workfront-basics/using-notifications/use-notifications.md)
+      * [Présentation Des Notifications Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [Vue d’ensemble des notifications](workfront-basics/using-notifications/wf-notifications.md)
       * [Modifier vos propres notifications électroniques](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [S’abonner aux éléments dans Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -2126,6 +2127,7 @@ ht-degree: 84%
       * [Partager des espaces de travail](planning/access/share-workspaces.md)
       * [Partage des types d’enregistrements](planning/access/share-record-types.md)
       * [Partager des affichages](planning/access/share-views.md)
+      * [Partager des enregistrements](planning/access/share-records.md)
       * [Demander des autorisations pour une vue ou un espace de travail](planning/access/request-permissions.md)
    * Enregistrements d’Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Enregistrements : index des articles](planning/records/records-information.md)
@@ -2136,7 +2138,7 @@ ht-degree: 84%
       * [Modifier des enregistrements](planning/records/edit-records.md)
       * [Supprimer des enregistrements](planning/records/delete-records.md)
       * [Restaurer les enregistrements supprimés](planning/records/restore-deleted-records.md)
-      * [Partager des enregistrements](planning/records/share-records.md)
+      * [Partage d’enregistrements à l’aide d’un lien](planning/records/share-records.md)
       * [Dupliquer les enregistrements](planning/records/copy-or-duplicate-records.md)
       * [Gérer les commentaires des enregistrements](planning/records/manage-record-comments.md)
       * [Vue d’ensemble de la section Historique](planning/records/history-section-overview.md)
@@ -2520,7 +2522,7 @@ ht-degree: 84%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
