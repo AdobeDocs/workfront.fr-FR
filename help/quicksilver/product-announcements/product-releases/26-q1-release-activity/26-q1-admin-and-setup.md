@@ -4,10 +4,10 @@ description: Améliorations de l’équipe d’aministration au premier trimestr
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
+source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 16%
+source-wordcount: '376'
+ht-degree: 15%
 
 ---
 
@@ -27,6 +27,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 La date de saisie et l’ID saisi par sont désormais stockés dans des formulaires, champs et sections personnalisés. Vous pouvez utiliser ces options de données dans les rapports sous la forme de filtres, de vues ou de regroupements. Pour les afficher dans la liste des formulaires, champs ou sections personnalisés de la configuration, ajoutez Date de saisie et Nom saisi comme colonnes dans une vue nouvelle ou existante.
 
+>[!NOTE]
+>
+>La date de saisie et l’ID saisi par sont disponibles uniquement sur les formulaires, champs et sections personnalisés créés le 13 novembre 2025 ou après cette date.
 
 ## Mises à jour des noms de bouton lors de la modification d’un modèle de mise en page
 
