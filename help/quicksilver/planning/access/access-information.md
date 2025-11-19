@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 59%
@@ -33,6 +33,7 @@ Les articles suivants contiennent des informations sur l’accès dont vos utili
 * [Demander des autorisations pour une vue ou un espace de travail](/help/quicksilver/planning/access/request-permissions.md)
 * [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
 * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
-* [Partage des types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md)
+* [Partager les types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md)
+  <!--* <span class="preview">[Share records](/help/quicksilver/planning/access/share-records.md)</span>-->
 
 
