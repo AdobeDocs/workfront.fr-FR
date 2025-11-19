@@ -7,10 +7,10 @@ description: L’Indice Coûts Performances (ICP) décrit la relation au niveau 
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-L’Indice Coûts Performances (ICP) décrit la relation au niveau du projet ou de la tâche entre le coût prévu et le coût réel. Les personnes responsables de projet examinent cette mesure pour identifier les tâches ou les projets qui effectuent actuellement le suivi de sous ou sur-coût à un moment donné. Le coût peut être mesuré en heures ou en dollars, selon votre méthode d’indice de performances (PIM). Pour plus d’informations sur la définition de la méthode d’indice de performances, voir [Définition de la méthode d’indice de performances (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+L’Indice Coûts Performances (ICP) décrit la relation au niveau du projet ou de la tâche entre le coût prévu et le coût réel. Les personnes responsables de projet examinent cette mesure pour identifier les tâches ou les projets qui effectuent actuellement le suivi de sous ou sur-coût à un moment donné. Le coût peut être mesuré en heures ou en devise, selon votre méthode d&#39;indice de performance (PIM). Pour plus d’informations sur la définition de la méthode d’indice de performances, voir [Définition de la méthode d’indice de performances (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 Seules les organisations qui ont besoin d’une saisie des heures peuvent utiliser l’ICP. En outre, les valeurs de la PIM basées sur les coûts ne sont exactes que dans les organisations qui ont défini des taux de coût pour les personnes cessionnaires de tâches (fonctions ou utilisateurs et utilisatrices).
 
@@ -35,7 +35,7 @@ Seules les organisations qui ont besoin d’une saisie des heures peuvent utilis
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
