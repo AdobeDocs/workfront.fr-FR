@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
+source-git-commit: 203ff7855649c968c52d74ef0ee7581a1439aa47
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 18%
+source-wordcount: '1740'
+ht-degree: 17%
 
 ---
 
@@ -40,7 +40,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations des documents et des approbations](#documents-and-approvals-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
-* [Amélioration des rapports](#reporting-enhancements)
+* [Améliorations des rapports](#reporting-enhancements)
+  <!--* [Requests enhancements](#requests-enhancements)-->
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations apportées aux administrateurs et administratrices
@@ -127,6 +128,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Mise à jour du sélecteur de ressources pour le </a> d’intégration natif d’Adobe Workfront for Experience Manager Assets
+            <p>Nous avons mis à niveau le sélecteur de ressources dans l’intégration Adobe Workfront for Experience Manager Assets. Grâce à cette mise à niveau, vous pouvez désormais sélectionner et extraire des collections AEM directement dans Workfront. </p>
+        </td>
+        <td>vendredi 20 novembre 2025</td>
+        <td>vendredi 11 décembre 2025</td>
+        <td>vendredi 15 janvier 2026</td>
+    </tr>   
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Nouvelle version de l’intégration Salesforce désormais disponible </a>
@@ -152,7 +162,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplication d’un rapport dans un tableau de bord Zone de travail</a><p>![!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplication d’un rapport dans un tableau de bord Zone de travail</a><p>![BADGE Off schedule]{type=Neutral}</p>
             <p>Vous pouvez désormais dupliquer un rapport d’indicateur de performance clé, de tableau ou de graphique dans un tableau de bord de zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant d’enregistrer.</p>
         </td>
         <td>vendredi 23 octobre 2025</td>
@@ -201,6 +211,56 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
   </tbody>
 </table>
+
+<!--### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Save drafts of requests in the new requesting experience</a>
+            <p>To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found in your request list. You can then reopen, update, and submit the draft at your convenience. </p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>  
+        <tr>
+        <td>
+            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Delete submitted requests in the new requesting experience</a>
+            <p>To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.</p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+        <tr>
+        <td>
+            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
+            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+        <tr>
+        <td>
+            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create new requests by copying previously submitted requests in the new requesting experience</a>
+            <p>To make it easier to submit requests, we've added the ability to copy requests to the new requesting experience. Now, you can copy a request, edit any fields, and submit it as a new request. </p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>    
+  </tbody>
+</table> -->
 
 ### Autres améliorations
 
@@ -325,7 +385,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
