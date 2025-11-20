@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f4043daeb7a7dad84b6232b5ac133fd59ca64292
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 88%
+source-wordcount: '360'
+ht-degree: 66%
 
 ---
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -51,8 +51,25 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Découvrir quels formulaires personnalisés utilisent un champ personnalisé ou un widget particulier.
 
+Pour afficher l’utilisation d’un champ dans la liste de tous les champs personnalisés :
+
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Formulaires personnalisés**.
 1. Cliquez sur **Champs**, recherchez le champ ou le widget dans la colonne **Nom**, puis consultez la colonne **Formulaires** pour voir quels formulaires personnalisés utilisent le champ ou le widget.
 1. (Facultatif) Cliquez sur le nom d’un formulaire personnalisé pour l’ouvrir et décider des changements nécessaires en cas de modification du champ ou du widget.
+
+Pour afficher l’utilisation d’un champ dans un formulaire personnalisé :
+
+{{step-1-to-setup}}
+
+1. Dans le panneau de gauche, cliquez sur **Formulaires personnalisés**.
+1. Ouvrez un formulaire personnalisé et ajoutez un champ de la bibliothèque, ou sélectionnez un champ existant dans le formulaire.
+
+   L’indicateur d’utilisation situé à droite du concepteur de formulaire indique le nombre d’autres formulaires personnalisés qui utilisent ce champ.
+
+1. Cliquez sur **Afficher le Forms associé**.
+
+   Dans la liste des formulaires, vous pouvez cliquer sur n’importe quel nom de formulaire pour ouvrir le formulaire et voir comment le champ est utilisé. Un indicateur indique si chaque formulaire est actif ou inactif.
+
+
