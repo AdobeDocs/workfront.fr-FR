@@ -60,7 +60,7 @@ Vous pourrez examiner et signer l’accord avant le début de l’essai, le 1er 
 
    1. Avant le 1er mars 2026, procédez comme suit :
       1. Connectez-vous à Adobe Workfront en tant qu’administrateur système.
-      1. Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
+      1. Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
 
          Ou
 
@@ -71,7 +71,7 @@ Vous pourrez examiner et signer l’accord avant le début de l’essai, le 1er 
    1. Après le 1er mars 2026, lorsque le procès démarrera, procédez comme suit :
 
       1. Connectez-vous à Adobe Workfront en tant qu’administrateur système.
-      1. Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
+      1. Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
 
          Ou
 
