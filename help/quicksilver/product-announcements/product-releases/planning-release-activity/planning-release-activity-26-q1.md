@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 21cab3964ffd79b4b58835fcb992f59eefee78ee
+source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 4%
@@ -27,7 +27,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >
 >Aperçu : 13 novembre 2025
 >Version rapide de production : 13 novembre 2025
->Production pour tous : 13 novembre 2026
+>Production pour tous : 13 novembre 2025
 
 Vous pouvez désormais connecter les types d’enregistrements Workfront Planning aux marques à partir d’Adobe GenStudio for Performance Marketing. Votre organisation doit disposer de Workfront Planning et d’Adobe GenStudio for Performance Marketing.
 
