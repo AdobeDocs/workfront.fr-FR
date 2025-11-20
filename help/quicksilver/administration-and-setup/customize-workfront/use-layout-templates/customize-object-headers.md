@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
+source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 65%
+source-wordcount: '571'
+ht-degree: 61%
 
 ---
 
@@ -88,6 +88,8 @@ Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ av
    >[!TIP]
    >
    >* Vous pouvez ajouter n’importe quel champ personnalisé ou n’importe quel champ natif disponible dans la zone Aperçu de la section Détails d’un objet. Par exemple, seuls les problèmes comportent le champ Gravité et ce champ n’est pas disponible pour être ajouté aux projets ou aux tâches.
+   >
+   >* Lorsque l’utilisateur modifie un champ personnalisé dans l’en-tête qui est contenu dans un formulaire personnalisé non joint à l’objet , le formulaire personnalisé est automatiquement ajouté à l’objet .
    >
    >* Lorsque vous ajoutez le champ « Résolu par » à l’en-tête d’un problème, le champ devient « Résolution du problème, de la tâche ou du projet », lorsqu’un objet de résolution est associé au problème.
 
