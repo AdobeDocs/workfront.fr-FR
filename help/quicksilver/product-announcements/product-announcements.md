@@ -15,8 +15,8 @@ ht-degree: 100%
 
 # Annonces sur les produits
 
-Cette section contient les sous-sections suivantes qui décrivent les prochaines versions de produit, les annonces et les programmes bêta actuels.
+Cette section contient les sous-sections suivantes qui décrivent les prochaines versions de produit, les annonces et les programmes Beta actuels.
 
 * [Versions de produit](../product-announcements/product-releases/product-releases.md)
 * [Annonces](../product-announcements/announcements/announcements.md)
-* [Programmes bêta](../product-announcements/betas/betas.md)
+* [Programmes Beta](../product-announcements/betas/betas.md)
