@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 64%
+source-wordcount: '1465'
+ht-degree: 67%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 64%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement d’aperçu de Sandbox et est publiée dans le cadre d’un déploiement échelonné en production.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Une entreprise est une entité organisationnelle dans [!DNL Adobe Workfront] qui peut représenter votre organisation, un service au sein de l’organisation ou une clientèle avec laquelle vous travaillez. Vous pouvez ajouter des entreprises à [!DNL Workfront] et les utiliser à des fins de planification financière, de création de rapports, pour définir des autorisations liées à des objets et pour préserver la confidentialité des informations.
 
@@ -105,9 +105,9 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
 
 1. Mettez à jour les informations suivantes dans la section **Informations de base** :
 
-   * **Nom de la société** <span class="preview"> ou **Nom**</span> : saisissez un nom pour la société.
+   * **Nom** : saisissez le nom de la société.
    * **Est active** : lorsque cette option est activée, il est possible de trouver l’entreprise et de la joindre aux projets créés et modifiés. Une société inactive ne peut pas être jointe aux projets. Cette option est activée par défaut.
-   * **Société par Principal** <span class="preview">ou **Est un Principal**</span> : affecte la société en tant que société principale de votre organisation. L’entreprise principale représente généralement votre compte Workfront où travaillent la plupart de vos utilisateurs et utilisatrices.
+   * **Est Principal** : Affecte la société en tant que société principale de votre organisation. L’entreprise principale représente généralement votre compte Workfront où travaillent la plupart de vos utilisateurs et utilisatrices.
 
      Vous pouvez désigner une entreprise, ou aucune, comme entreprise principale, mais vous ne pouvez pas en désigner plusieurs à la fois. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,7 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
 
    Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Conditionnel) Si vous créez une entreprise, cliquez sur **[!UICONTROL Créer une entreprise]** <span class="preview">ou **Enregistrer**.</span>
-
-   Ou
-
-   Si vous modifiez une société existante, cliquez sur **[!UICONTROL Enregistrer les modifications]** <span class="preview">ou **Enregistrer**.</span>
+1. Cliquer sur **Enregistrer**.
 
 ## Supprimer des sociétés
 
@@ -179,13 +175,9 @@ Pour plus d’informations sur le partage d’objets, voir [Vue d’ensemble du 
 
 Lorsque l’administration de [!DNL Workfront] affecte un groupe à une entreprise, les administrateurs et administratrices de groupes obtiennent un accès [!UICONTROL Gérer] à l’entreprise dans [!UICONTROL Configuration]. Cela inclut l’accès à la page [!UICONTROL Entreprises] dans [!UICONTROL Configuration], où ils peuvent consulter et gérer l’entreprise associée à leur groupe.
 
-Grâce à l’accès à la page [!UICONTROL Entreprises], un administrateur ou une administratrice de groupes peut affecter un groupe à une entreprise, à condition que celle-ci ait été créée par l’administrateur ou l’administratrice de groupes. Si le niveau d&#39;accès de l&#39;administrateur de groupes n&#39;est pas configuré avec un accès administratif aux sociétés, le champ [!UICONTROL Groupe] est obligatoire lorsque l&#39;administrateur de groupes crée la société ; son <span class="preview">astérisque</span> ou son titre en gras l&#39;indique :
+Grâce à l’accès à la page [!UICONTROL Entreprises], un administrateur ou une administratrice de groupes peut affecter un groupe à une entreprise, à condition que celle-ci ait été créée par l’administrateur ou l’administratrice de groupes. Si le niveau d&#39;accès de l&#39;administrateur de groupes n&#39;est pas configuré avec un accès administratif aux sociétés, le champ [!UICONTROL Groupe] est obligatoire lorsque l&#39;administrateur de groupes crée la société, comme l&#39;indique l&#39;astérisque :
 
-<span class="preview">Exemple d’image dans l’environnement Aperçu :</span>
 ![Nouvelle boîte de dialogue d’entreprise avec groupe obligatoire](assets/group-admin-add-company-group-required.png)
-
-Exemple d’image dans l’environnement de production :
-![Le groupe est requis pour l’entreprise](assets/group-admin-add-company.png)
 
 Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices obtiennent un accès administratif aux entreprises pour leur niveau d’accès, voir [Accorder un accès administratif à certaines zones aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
