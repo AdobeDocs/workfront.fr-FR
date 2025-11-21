@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: f3016e77f086d221dc11398ec06cc7435ad82278
 workflow-type: tm+mt
-source-wordcount: '5201'
+source-wordcount: '5237'
 ht-degree: 99%
 
 ---
@@ -599,6 +599,13 @@ Voir aussi [Notifications : informations sur les projets sur lesquels je travai
    <td> <p>Changement de statut d’un projet</p> </td> 
    <td> <p>Membres de l’équipe de projet</p> </td> 
    <td> <p>Le statut est modifié sur un projet sur lequel je travaille.</p> <p>Les personnes de l’équipe de projet reçoivent une notification par e-mail lorsque le statut du projet est modifié. </p> </td> 
+   <td> <p>Inactif</p> </td> 
+  </tr> 
+     <tr> 
+   <td> <p>Projet</p> </td> 
+   <td> <p>Statut actuel du projet</p> </td> 
+   <td> <p>Membres de l’équipe affectée</p> </td> 
+   <td> <p>Un projet auquel mon équipe participe est devenu actif.</p> <p>Les membres d’une équipe Workfront affectée reçoivent une notification par e-mail lorsque le projet qui leur a été affecté devient actif.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
