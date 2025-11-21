@@ -1,15 +1,16 @@
 ---
 title: Informations générales sur Adobe Workfront Planning
 description: En tant que personne responsable des opérations marketing, vous pouvez utiliser Adobe Workfront Planning pour organiser le travail de toutes vos équipes au cours du cycle de vie marketing. Les articles de cette section expliquent comment configurer la fonctionnalités de planification et comment commencer à les utiliser dans le cadre de vos opérations de gestion de campagne.
+short-description: Utilisez les documents et les ressources supplémentaires pour apprendre à mettre en œuvre et à utiliser efficacement Adobe Workfront Planning dans votre entreprise.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: ddb72bcf8e1a330e39f1e52a1d89d9478a7afb98
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 22%
+source-wordcount: '549'
+ht-degree: 21%
 
 ---
 
@@ -29,71 +30,71 @@ Vous pouvez utiliser cette page comme point de départ pour toute la documentati
 
 Les articles des sections répertoriées ci-dessous décrivent comment configurer Workfront Planning et comment commencer à l’utiliser.
 
-Pour obtenir des informations générales et comprendre la terminologie de Adobe Workfront Planning, voir [Prise en main de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+Pour obtenir des informations générales et comprendre la terminologie d’Adobe Workfront Planning, consultez [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
 ## Architecture et fonctionnalité de Workfront Planning
 
 Les sections suivantes contiennent des articles qui décrivent en détail les fonctionnalités actuellement disponibles pour Workfront Planning :
 
-* [Informations d’accès et d’autorisation : l’index de l’article](/help/quicksilver/planning/access/access-information.md) contient les informations suivantes :
+* [Informations d’accès et d’autorisation : index d’article](/help/quicksilver/planning/access/access-information.md) contient les informations suivantes :
 
-   * Licences Workfront et autorisations de planification
-   * Autorisations de partage de planification
+   * Licences Workfront et autorisations Planning
+   * Autorisations de partage Planning
    * Partager des affichages
-   * Partager des espaces de travail (enregistrements et champs)
-   * Partager les types d’enregistrements (enregistrements et champs)
+   * Partage des espaces de travail (enregistrements et champs)
+   * Partage des types d’enregistrements (enregistrements et champs)
 
-* [Architecture : l’index de l’article](/help/quicksilver/planning/architecture/architecture-information.md) contient les informations suivantes :
+* [Architecture : index d’article](/help/quicksilver/planning/architecture/architecture-information.md) contient les informations suivantes :
 
-   * Création, modification et suppression d’espaces de travail
-   * Création, modification et suppression de types d’enregistrements
+   * Créer, modifier et supprimer des espaces de travail
+   * Créer, modifier et supprimer des types d’enregistrements
    * Création de types d’enregistrements globaux
-   * Connecter des types d’enregistrements et des exemples de connexion de types d’enregistrements
-   * Workspace modèles
+   * Connecter des types d’enregistrements et des exemples de types d’enregistrements connectés
+   * Modèles Workspace
 
-* [Champs : l’index de l’article](/help/quicksilver/planning/fields/fields-information.md) contient les informations suivantes :
+* [Champs : index d’article](/help/quicksilver/planning/fields/fields-information.md) contient les informations suivantes :
 
    * Créer, modifier et supprimer des champs
    * Champs de formule
-   * Champs principaux
+   * Champs de Principal
 
-* [Enregistrements : l’index](/help/quicksilver/planning/records/records-information.md) des articles contient les informations suivantes :
+* [Enregistrements : index d’article](/help/quicksilver/planning/records/records-information.md) contient les informations suivantes :
 
    * Créer, modifier et supprimer des enregistrements
    * Connect records
-   * Ajouter une image de couverture ou une miniature à un enregistrement
-   * Gestion de la mise en page d’une page d’enregistrement
+   * Ajout d’une image de couverture ou d’une miniature à un enregistrement
+   * Gérer la mise en page d’une page d’enregistrement
    * Section Enregistrer les commentaires et l’historique
    * Partager des enregistrements
    * Gérer les enregistrements Workfront Planning à partir de Workfront
 
-* [Adobe Demandes de planification Workfront : L’index](/help/quicksilver/planning/requests/requests-article-index.md) d’article contient les informations suivantes :
+* [Demandes Adobe Workfront Planning : index d&#39;article](/help/quicksilver/planning/requests/requests-article-index.md) contient les informations suivantes :
 
-   * Comment créer un formulaire de demande pour un type d’enregistrement.
-   * Comment les utilisateurs peuvent soumettre une demande à un type d’enregistrement, formulaire de demande et créer des enregistrements.
+   * Création d’un formulaire de demande pour un type d’enregistrement.
+   * Comment les utilisateurs peuvent-ils envoyer une demande à un formulaire de demande de type enregistrement et créer des enregistrements ?
 
-* [Vues : l’index de l’article](/help/quicksilver/planning/views/views-information.md) contient les informations suivantes :
+* [Vues : index d’article](/help/quicksilver/planning/views/views-information.md) contient les informations suivantes :
 
-   * Création de vues d’enregistrement
+   * Créer des vues d’enregistrement
    * Gérer les vues Tableau, Chronologie et Calendrier
 
-* [Notifications : l’index](/help/quicksilver/planning/notifications/notifications-information.md) des articles contient les informations suivantes :
+* [Notifications : index des articles](/help/quicksilver/planning/notifications/notifications-information.md) contient les informations suivantes :
 
    * Gestion des préférences de notification
-   * Planification des notifications in-app
-   * Planification des notifications par courrier électronique
+   * Planification de notifications in-app
+   * Planification des notifications par e-mail
 
 ## Fonctionnalités supplémentaires disponibles pour Workfront Planning
 
-* [Adobe Principes de base](/help/quicksilver/planning/general/planning-api-basics.md) de l’API Workfront Planning : L’objectif de l’API Adobe Workfront Planning est de simplifier les intégrations de création avec Planning en introduisant une architecture REST-ful qui fonctionne via HTTP.
+* [Principes de base de l’API Adobe Workfront Planning ](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API Adobe Workfront Planning est de simplifier la création d’intégrations avec Planning en introduisant une architecture REST-ful qui fonctionne via HTTP.
 
-* [Adobe des modules Workfront Planning pour Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : avec les modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel d’API personnalisé à votre compte Adobe Workfront Planning.
+* [Modules Adobe Workfront Planning pour Workfront Fusion ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
 
-* [Adobe Présentation de Workfront Planning AI Assistant](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec Workfront AI Assistant for Planning pour la planification, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et en laissant l’assistant faire le travail pour vous.
+* [Aperçu de l&#39;assistant IA Planning d&#39;Adobe Workfront ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l&#39;assistant AI Workfront pour Planning, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l&#39;aide de commandes et laisser l&#39;assistant faire le travail à votre place.
 
-* [Configurer Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md) : vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu’elles sont activées, créent des objets dans Workfront ou des enregistrements dans Workfront Planning lorsqu’elles sont déclenchées à partir d’un enregistrement de planification.
+* [Configurer les automatisations d’Adobe Workfront Planning ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) : vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu’elles sont activées, créent des objets dans Workfront ou des enregistrements dans Workfront Planning lorsqu’ils sont déclenchés à partir d’un enregistrement Planning.
 
-* [Prise en main de l’intégration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) Adobe Workfront Planning et Adobe GenStudio for Performance Marketing : vous pouvez gérer les enregistrements de GenStudio for Performance Marketing dans l’espace de travail GenStudio dans Workfront Planning.
+* [Prise en main de l’intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) : vous pouvez gérer les enregistrements de GenStudio for Performance Marketing dans l’espace de travail GenStudio de Workfront Planning.
 
-* **Fonctionnalités** de création de rapports Workfront Planning : vous pouvez désormais afficher les informations Workfront Planning dans un rapport à l’aide du tableau de bord Workfront Canvas. Pour plus d’informations, voir [Vue d’ensemble](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) des tableaux de bord du canevas.
+* **Fonctionnalités de création de rapports de Workfront Planning** : vous pouvez désormais afficher les informations de Workfront Planning dans un rapport à l’aide du tableau de bord de la zone de travail Workfront. Pour plus d’informations, voir [ Présentation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
