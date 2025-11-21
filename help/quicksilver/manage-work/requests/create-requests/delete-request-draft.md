@@ -1,28 +1,30 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Supprimer un brouillon de demande
-description: Vous pouvez supprimer les brouillons de demande au fur et à mesure que vous les créez en les rejetant.
+title: Supprimer une demande envoyée en tant que brouillon de demande
+description: Vous pouvez supprimer des demandes envoyées ou des brouillons de demandes.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 8b08336431d2e4ebfcb078d8329f8748fac66eda
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 87%
+source-wordcount: '619'
+ht-degree: 44%
 
 ---
 
-# Supprimer un brouillon de demande
+# Supprimer une demande soumise ou un brouillon de demande
 
-Vous pouvez supprimer les brouillons de demande au fur et à mesure que vous les créez en les rejetant.
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
+
+Vous pouvez supprimer des demandes envoyées ou des brouillons de demandes que vous avez créés dans la nouvelle expérience de demande. Les administrateurs Workfront et les administrateurs de Planning Workspace peuvent également supprimer des requêtes.
+
+Dans l’expérience de requête héritée, vous pouvez supprimer des brouillons de demandes. Vous ne pouvez pas supprimer les demandes envoyées.
 
 Pour plus d’informations, voir :
 
 * [Créer et soumettre des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Créer des demandes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
-
-Vous pouvez supprimer des demandes rédigées après qu’elles ont été enregistrées en tant que brouillons si vous ne les trouvez plus pertinentes. Vous ne pouvez pas récupérer les brouillons de demande supprimés.
 
 ## Conditions d’accès
 
@@ -33,7 +35,7 @@ Vous pouvez supprimer des demandes rédigées après qu’elles ont été enregi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +46,11 @@ Vous pouvez supprimer des demandes rédigées après qu’elles ont été enregi
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux problèmes</p>  </td> 
+   <td> <p>Vous devez être un administrateur Workfront ou un administrateur de l’espace de travail Planning pour supprimer les requêtes que vous n’avez pas créées.</p><p>Vous devez disposer d’un accès en modification aux événements pour supprimer les brouillons dans l’expérience de demande héritée.</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Vous devez avoir créé la demande ou le brouillon pour le supprimer dans la nouvelle expérience de demande.</p><p>Vous devez disposer d’un accès en modification aux événements pour supprimer les brouillons dans l’expérience de demande héritée.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> Produit</td> 
@@ -57,7 +63,54 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Conditions préalables à la suppression des brouillons de demande
+
+<div class="preview">
+
+## Supprimer les requêtes <!--or request drafts -->dans la nouvelle expérience de requête)
+
+Vous pouvez supprimer des requêtes dans la zone des Requêtes de Workfront ou dans le widget Mes requêtes de l’Accueil.
+
+* Les administrateurs et administratrices de Workfront peuvent supprimer des requêtes<!-- and drafts--> au sein de leur organisation.
+* Les administrateurs de l’espace de travail Workfront Planning peuvent supprimer les requêtes <!--and drafts--> dans l’espace de travail Planning qu’ils administrent.
+* Les utilisateurs et utilisatrices peuvent supprimer les demandes <!--and drafts-->’ils ou elles ont envoyées.
+
+Pour supprimer une demande ou un brouillon dans la nouvelle expérience de demande :
+
+1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
+
+1. Pour accéder au widget Mes requêtes dans l’Accueil :
+
+   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   1. Recherchez le widget Mes requêtes .
+
+      Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Dans la liste des Demandes ou le widget Mes demandes , pointez sur la demande <!--or draft -->que vous souhaitez supprimer.
+
+   Un menu Plus à trois points s’affiche.
+   ![](assets/more-menu.png)
+
+1. Cliquez sur le menu **Plus** situé à droite du nom du <!--or draft--> de la demande, puis cliquez sur **Supprimer**.
+
+   Ou
+
+   Cliquez avec le bouton droit sur la demande sélectionnée, puis cliquez sur **Supprimer**.
+
+   >[!TIP]
+   >
+   >Lorsque vous n’avez pas accès à la création des problèmes, vous recevez un avertissement indiquant que votre administrateur ou administratrice vous a interdit de créer des demandes.
+
+1. Dans la boîte de dialogue qui s’ouvre, cliquez sur **Supprimer**.
+
+   La demande <!--or draft--> est supprimée.
+
+</div>
+
+## Supprimer les brouillons de demande dans l’expérience de demande héritée
+
+Vous pouvez supprimer des demandes rédigées après qu’elles ont été enregistrées en tant que brouillons si vous ne les trouvez plus pertinentes. Vous ne pouvez pas récupérer les brouillons de demande supprimés.
+
+### Conditions préalables à la suppression des brouillons de demande
 
 Vous devez effectuer les opérations suivantes avant de pouvoir supprimer un brouillon de demande :
 
@@ -65,7 +118,7 @@ Vous devez effectuer les opérations suivantes avant de pouvoir supprimer un bro
 
   Pour plus d’informations sur la création de demandes, voir [Créer et soumettre des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-## Supprimer un brouillon de demande
+### Supprimer un brouillon de demande
 
 {{step1-to-requests}}
 

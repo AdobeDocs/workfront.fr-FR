@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: 0c13d3da9e42085bfa1db5a0fb2227c23b8b40be
 workflow-type: tm+mt
-source-wordcount: '13594'
+source-wordcount: '13597'
 ht-degree: 84%
 
 ---
@@ -1493,7 +1493,7 @@ ht-degree: 84%
          * [Permettre aux utilisateurs et utilisatrices d’envoyer par e-mail un problème dans un projet de la file d’attente des demandes](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [Localiser les demandes envoyées](manage-work/requests/create-requests/locate-submitted-requests.md)
          * [Partager un lien vers une file d’attente des demandes](manage-work/requests/create-requests/share-link-to-request-queue.md)
-         * [Supprimer un brouillon de demande](manage-work/requests/create-requests/delete-request-draft.md)
+         * [Supprimer une demande soumise ou un brouillon de demande](manage-work/requests/create-requests/delete-request-draft.md)
          * [Copier et soumettre les demandes](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [Remplir automatiquement une demande à partir des données précédentes](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
          * [Remplir automatiquement une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
@@ -2527,7 +2527,7 @@ ht-degree: 84%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
