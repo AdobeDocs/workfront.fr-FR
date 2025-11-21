@@ -6,20 +6,21 @@ description: Vous pouvez envoyer des requêtes dans le widget Mes requêtes . Vo
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 14%
+source-wordcount: '798'
+ht-degree: 16%
 
 ---
 
 # Utiliser le widget Mes requêtes
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 >[!IMPORTANT]
 >
 >Cet article décrit le nouveau widget Mes requêtes . La nouvelle expérience de demande doit être activée pour afficher le nouveau widget.
->&#x200B;>Vous pouvez activer la nouvelle expérience de demande dans la zone des Demandes .
+>Vous pouvez activer la nouvelle expérience de demande dans la zone des Demandes .
 
 Le widget Mes demandes affiche les demandes qui ont été envoyées à votre organisation. Vous pouvez filtrer les requêtes, rechercher des requêtes spécifiques ou ajuster l’ordre et la visibilité des colonnes. Vous pouvez également créer une requête à partir du widget Mes requêtes .
 
@@ -63,11 +64,21 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Création d’une requête
+## Créer une requête
 
 Vous pouvez créer une demande directement à partir du widget Mes demandes .
 
 Pour plus d’informations, consultez la section [Créer une demande](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) de l’article Création d’éléments de travail et de projets à partir de la zone Accueil.
+
+<div class="preview">
+
+## Copier une requête
+
+Vous pouvez copier une demande dans le widget Mes demandes, la modifier et l’envoyer en tant que nouvelle demande.
+
+Pour obtenir des instructions, consultez [ Copier et envoyer des requêtes dans la nouvelle expérience de requête ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
+
+</div>
 
 ## Filtrage des requêtes
 

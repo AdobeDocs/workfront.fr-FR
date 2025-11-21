@@ -6,14 +6,17 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 98%
+source-wordcount: '1588'
+ht-degree: 88%
 
 ---
 
 # Copier et soumettre les demandes
+
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Lorsque vous soumettez fréquemment des demandes similaires, vous pouvez copier une demande déjà soumise. Dans ce cas, vous pouvez copier une demande existante, y apporter des modifications minimes et la soumettre à nouveau en tant que nouvelle demande.
 
@@ -26,7 +29,7 @@ Lorsque vous soumettez fréquemment des demandes similaires, vous pouvez copier 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +94,7 @@ Vous devez avoir une demande que vous ou une personne membre de votre organisati
   >
   >La demande copiée n’est pas liée à un objet de résolution.
 
-## Copier et soumettre les demandes
+## Copier et envoyer des requêtes dans l’expérience de requête héritée
 
 {{step1-to-requests}}
 
@@ -220,3 +223,44 @@ Vous devez avoir une demande que vous ou une personne membre de votre organisati
 1. Cliquez sur **Soumettre**.
 
    La demande copiée est soumise en tant que nouvelle demande dans la file d’attente des demandes que vous avez spécifiée.
+
+<div class="preview">
+
+## Copiez et envoyez des demandes dans la nouvelle expérience de demande
+
+Vous pouvez copier et envoyer des requêtes dans la zone des Requêtes de Workfront, ou à partir du widget Mes requêtes dans l’Accueil.
+
+1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
+
+1. Pour accéder au widget Mes requêtes dans l’Accueil :
+
+   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   1. Recherchez le widget Mes requêtes .
+
+      Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Dans la liste des Demandes ou le widget Mes demandes , placez le pointeur de la souris sur la demande à copier.
+
+   Un menu Plus à trois points s’affiche.
+   ![](assets/more-menu.png)
+
+1. Cliquez sur le menu **Plus** à droite du nom de la requête, puis cliquez sur **Copier**.
+
+   Ou
+
+   Cliquez avec le bouton droit sur la demande sélectionnée, puis cliquez sur **Copier**.
+
+   >[!TIP]
+   >
+   >Lorsque vous n’avez pas accès à la création des problèmes, vous recevez un avertissement indiquant que votre administrateur ou administratrice vous a interdit de créer des demandes.
+
+1. (Facultatif) Mettez à jour les informations de la demande copiée. Les champs disponibles dépendent de la file d’attente des demandes ou du formulaire de demande utilisé pour la demande.
+
+   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+
+1. Cliquez sur **Soumettre**.
+
+   La demande copiée est envoyée en tant que nouvelle demande.
+
+</div>
+
