@@ -6,14 +6,16 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 8851a67e992152b05c44063e67070c0942a463bc
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2607'
 ht-degree: 81%
 
 ---
 
 # Créer et soumettre des demandes
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 <!--Audited: 12/2023-->
 
@@ -55,7 +57,7 @@ Vous pouvez créer entièrement une demande Workfront Planning pour créer des e
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -107,7 +109,7 @@ Un administrateur ou une administratrice Workfront doit créer les composants su
 
 Lorsque vous créez une demande dans l’application web Workfront, Workfront enregistre la demande en tant que brouillon avant que vous ne l’envoyiez. Workfront crée un brouillon dès que vous sélectionnez votre file d’attente des demandes et que vous commencez à saisir des informations.
 
-Vous pouvez continuer à soumettre la demande ou compléter les informations dont vous disposez pour le moment puis quitter la demande pour revenir la terminer plus tard. Workfront enregistre le projet de demande que vous avez commencé dans le dossier Brouillons.
+Vous pouvez continuer à soumettre la demande ou compléter les informations dont vous disposez pour le moment puis quitter la demande pour revenir la terminer plus tard. Workfront enregistre le brouillon de demande que vous avez démarré dans le dossier Brouillons <span class="preview">ou dans la liste des demandes</span>.
 
 >[!IMPORTANT]
 >
@@ -141,7 +143,7 @@ Pour créer une demande dans l’application web Workfront :
 
    La boîte de dialogue **Nouvelle demande** s’ouvre.
 
-1. (Conditionnel) Si vous êtes passé à la nouvelle expérience , sélectionnez l’un des chemins d’accès ou formulaires de file d’attente des demandes Workfront, ou cliquez sur la barre de recherche.
+1. (Conditionnel) Si vous passez à la nouvelle expérience , sélectionnez l’un des chemins d’accès ou formulaires de file d’attente des demandes Workfront, ou cliquez sur la barre de recherche.
 
    Lorsque vous cliquez sur la barre de recherche, une liste déroulante s’affiche, affichant d’abord les files d’attente et les formulaires les plus récemment utilisés. Sélectionnez-en un dans la liste ou commencez à saisir et sélectionnez la file d’attente ou le formulaire lorsqu’il apparaît.
 
@@ -150,7 +152,7 @@ Pour créer une demande dans l’application web Workfront :
    >Tenez compte des points suivants concernant la nouvelle expérience de demande :
    >* La liste comprend les files d’attente des demandes de Workfront et les formulaires de demande de Workfront Planning.
    >* Vous pouvez filtrer la liste par type d’objet.
-   >* Dans la nouvelle expérience de demande, les brouillons se trouvent dans la même liste que les demandes envoyées.
+   >* <span class="preview">Dans la nouvelle expérience de demande, les brouillons se trouvent dans la même liste que les demandes envoyées</span>.
 
 1. (Conditionnel) Si vous passez à la nouvelle expérience , sélectionnez vos groupes de rubriques et rubriques de file d’attente et continuez à mettre à jour le formulaire.
 

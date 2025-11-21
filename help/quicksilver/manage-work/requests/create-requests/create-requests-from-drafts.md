@@ -6,14 +6,16 @@ description: En plus d’utiliser les brouillons disponibles, suggérés par Wor
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 88%
+source-wordcount: '840'
+ht-degree: 72%
 
 ---
 
 # Créer des demandes à partir de brouillons
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 En plus d’utiliser les brouillons disponibles, suggérés par Workfront, lorsque vous saisissez une nouvelle demande, vous pouvez accéder à un brouillon de demande à partir de la section Brouillons et finir de l’envoyer à partir de là.
 
@@ -26,7 +28,7 @@ En plus d’utiliser les brouillons disponibles, suggérés par Workfront, lorsq
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -52,13 +54,55 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Conditions préalables à la création de demandes à partir de brouillons
 
-Avant de créer une demande à partir d’un brouillon, vous devez effectuer les opérations suivantes :
+Vous devez effectuer les opérations suivantes avant de pouvoir créer une demande à partir d’un brouillon :
 
 * Commencez à créer une demande. Cette opération enregistre automatiquement la demande sous forme de brouillon dans la section Brouillons.
 
   Pour plus d’informations sur la création de demandes, voir la section [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Créer des demandes à partir de brouillons
+
+La procédure de création de requêtes à partir de brouillons diffère entre la nouvelle expérience de requête et l’expérience héritée.
+
+* <span class="preview">[Créer des requêtes à partir de brouillons dans la nouvelle expérience de requête](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Créer des requêtes à partir de brouillons dans l’expérience de requête héritée](#create-requests-from-drafts-in-the-legacy-requesting-experience)
+
+<div class="preview">
+
+### Créer des requêtes à partir de brouillons dans la nouvelle expérience de requête
+
+
+
+<!--
+   
+1. Open the draft.
+
+   Drafts can be found in the following locations:
+
+   * In the requests list in the Requests area
+   * In the requests list in the My Requests widget in Home
+   * In the New request dialog (includes only drafts of requests created with the selected form)
+   
+-->
+1. Ouvrez le brouillon.
+
+   Les brouillons se trouvent dans la boîte de dialogue Nouvelle demande (ne comprend que les brouillons des demandes créées avec le formulaire sélectionné).
+1. Mettez à jour les informations relatives à la demande, tel que décrit dans la section [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. (Facultatif et le cas échéant) À tout moment au cours de la saisie de la demande, cliquez sur **Ignorer** le brouillon si vous souhaitez supprimer le brouillon. Le brouillon est supprimé.
+
+   Si vous avez ignoré votre brouillon par erreur, vous pouvez immédiatement cliquer sur **Annuler** dans le message en bas de l’écran. Cette option n’est disponible que pendant quelques secondes.
+
+   Pour plus d’informations sur la suppression des brouillons, voir [Supprimer une demande envoyée ou demander un brouillon](../../../manage-work/requests/create-requests/delete-request-draft.md).
+
+1. (Facultatif) Pour enregistrer les modifications apportées au brouillon sans l’envoyer, quittez la page Nouvelle demande . Les modifications sont enregistrées automatiquement.
+
+1. Une fois les informations de la demande renseignées, cliquez sur **Soumettre**.
+
+   Lorsque vous envoyez la demande, le brouillon est supprimé et ne peut pas être restauré.
+
+</div>
+
+### Créer des requêtes à partir de brouillons dans l’expérience de requête héritée
 
 {{step1-to-requests}}
 
