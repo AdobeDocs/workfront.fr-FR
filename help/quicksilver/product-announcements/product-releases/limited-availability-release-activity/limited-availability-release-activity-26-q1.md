@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: a335b035e82ebe3daa6a9687b362a9117f348e0e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Pour obtenir une liste de toutes les fonctionnalités de disponibilité limitée
 
 >[!NOTE]
 >
->Date de publication de la production : xx novembre 2025
+>Date de publication de la production : 20 novembre 2025
 
 Vous pouvez désormais appliquer des modifications basées sur un pourcentage à un ou plusieurs taux de facturation des fonctions dans une carte tarifaire. Au lieu de mettre à jour manuellement chaque taux un par un, vous pouvez appliquer des modifications à tous les taux sélectionnés en une seule opération.
 
