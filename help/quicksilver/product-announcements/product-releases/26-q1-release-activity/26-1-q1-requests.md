@@ -4,9 +4,7 @@ description: Améliorations des demandes du premier trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: f38c10a187367570739f65961f945450b7b9b5de
+source-git-commit: 93f01b5eed702565f31086a8e66777200f8204a2
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 10%
@@ -79,4 +77,4 @@ Pour faciliter l’envoi de demandes, nous avons ajouté la possibilité de copi
 
 Auparavant, cette fonctionnalité n’était pas disponible dans la nouvelle expérience de demande.
 
-Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [&#x200B; Copier et envoyer des traitements &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [ Copier et envoyer des traitements ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
