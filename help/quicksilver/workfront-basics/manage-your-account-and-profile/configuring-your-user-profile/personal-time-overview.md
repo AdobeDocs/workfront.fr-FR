@@ -7,18 +7,18 @@ description: Dans Adobe Workfront, il est important d’indiquer les congés ap
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 73%
+source-wordcount: '431'
+ht-degree: 75%
 
 ---
 
 # Configurer les congés
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 12/2025 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement d’aperçu de Sandbox et est publiée dans le cadre d’un déploiement échelonné en production.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] n’est pas conçu pour reproduire ou remplacer les systèmes existants de votre organisation pour la gestion, l’accumulation ou le suivi des congés personnels.
 
@@ -45,7 +45,7 @@ Les outils de gestion des ressources utilisent également vos congés pour indiq
  </col>
  <tbody> 
   <tr> 
-   <td> Package Adobe Workfront</td> 
+   <td> Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -72,18 +72,17 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 >[!NOTE]
 >
->Si vous utilisez l’expérience unifiée Adobe, vous pouvez accéder à votre profil Workfront en cliquant sur le menu Compte Adobe (l’image de votre profil) dans la zone de navigation supérieure, puis en choisissant Profil Workfront.
+>Si votre organisation se trouve dans l’expérience unifiée Adobe, cliquez sur le menu du compte **Adobe** (image de votre profil) dans le coin supérieur droit de la zone de navigation supérieure, puis cliquez sur **Profil Workfront**.
 >
->![profil workfront &#x200B;](assets/aue-profile.png)
+>![profil workfront ](assets/aue-profile.png)
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Congés]**.
 1. Sélectionnez la date souhaitée pour vos congés.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
    ![Calendrier des congés](assets/personal-time-off-calendar-0925.png)
 
-   Exemple d’image dans l’environnement de production :
-   ![Calendrier des congés](assets/personal-time-off-calendar.png)
+   <!--Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
 
 1. Sélectionnez **[!UICONTROL Toute la journée]**, si vous prenez une journée entière de congés.
 

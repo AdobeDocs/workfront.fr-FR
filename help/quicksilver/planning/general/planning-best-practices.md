@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3344'
 ht-degree: 2%
 
 ---
@@ -44,16 +44,15 @@ Vous trouverez ci-dessous quelques questions fréquentes sur la configuration de
 Campagnes ? Tactiques ? Initiatives ? Activités ? Événements ?
    * À quels types de questions veulent-ils répondre avec ce calendrier ?
    * Y a-t-il des campagnes qui se chevauchent pour la même audience ?
-   * Quel est notre budget pour cette campagne, tactique, activité ou événement ?
+   * Quel est le budget de cette campagne, tactique, activité ou événement ?
 
   Les réponses à ces questions dictent ce que vous devez créer dans Workfront Planning.
 
-  N’oubliez pas non plus que d’autres planificateurs ne sont pas des utilisateurs de Workfront pour le moment. Ces planificateurs peuvent utiliser des feuilles de calcul Excel, des documents Word, des PowerPoints, etc. Réfléchissez à la manière dont ils peuvent accéder à vos informations dans Workfront Planning.
+  N’oubliez pas non plus que d’autres planificateurs ne sont pas des utilisateurs de Workfront pour le moment. Ces planificateurs peuvent utiliser des feuilles de calcul Excel, des documents Word, des présentations PowerPoint, etc. Réfléchissez à la manière dont ils peuvent accéder à vos informations dans Workfront Planning.
 
-* ✅ Pour tirer pleinement parti de Workfront Planning, envisagez de remplacer l’utilisation des Portfolios et Programmes dans Workfront Workflow par une autre structure de niveau supérieur dans Workfront Planning.
+* ✅ Pour tirer pleinement parti de Workfront Planning, envisagez de remplacer l’utilisation des Portfolios et Programmes dans Workfront par une autre structure de niveau supérieur dans Workfront Planning.
 
   Aujourd’hui, les clients de Workfront représentent leur travail stratégique par le biais de portefeuilles et de programmes, dans certains cas sous la forme de projets de différents types. Avec l’introduction de Planning, tous ces travaux stratégiques doivent être gérés par le biais de types d’enregistrements personnalisés dans Workfront Planning, tandis que Workfront sera centré sur la phase d’exécution des travaux, représentée sous la forme de projets et de tâches.
-
 
 #### Quand dois-je créer un nouvel espace de travail ou en modifier un existant ?
 
@@ -86,15 +85,13 @@ Campagnes ? Tactiques ? Initiatives ? Activités ? Événements ?
 
 Les types d’enregistrements sont les blocs de construction d’un Workspace Workfront Planning. Vous pouvez définir la manière dont les types d’enregistrements sont interconnectés.
 
-
 #### Comment dois-je définir les types d’enregistrements dans mon espace de travail ?
 
 * ✅ Prenez le temps d’identifier les informations que vous devez suivre (quels types d’enregistrements sont nécessaires) et comment ces informations doivent être connectées. Discutez avec les parties prenantes qui utiliseront l’espace de travail pour prendre en compte tous leurs besoins. Vous pouvez également créer des sections personnalisées avec différents types d’enregistrements pour présenter les informations de manière très comestible.
 
-
 * ⛔ Ne dupliquez pas les types d&#39;enregistrement pour une période différente (par exemple, ne créez pas de types d&#39;enregistrement distincts pour **Campagnes 2024** et **Campagnes 2025**).
 
-  La création de différents types d’enregistrements interrompt le flux de données chaque fois que vous souhaitez comparer des données sur plusieurs années. Les vues aujourd&#39;hui sont par type d&#39;enregistrement, de sorte que dès la fin de l&#39;année, la vue de ce type d&#39;enregistrement n&#39;affichera plus les éléments futurs. La bonne pratique consiste à disposer d’un type d’enregistrement pour le type de travail et à segmenter les données à l’aide de filtres ou à les archiver, si nécessaire.
+  La création de différents types d’enregistrements interrompt le flux de données chaque fois que vous souhaitez comparer des données sur plusieurs années. Les vues aujourd&#39;hui sont par type d&#39;enregistrement, de sorte que dès la fin de l&#39;année, la vue de ce type d&#39;enregistrement n&#39;affichera plus les éléments futurs. La bonne pratique consiste à disposer d’un type d’enregistrement pour le type de travail et à segmenter les données à l’aide de filtres basés sur différents champs ou à les archiver, si nécessaire.
 
 #### Quand dois-je utiliser un champ à sélection unique ou multiple par rapport à un type d’enregistrement lié ?
 
@@ -107,7 +104,7 @@ Les types d’enregistrements sont les blocs de construction d’un Workspace Wo
   Par exemple, un type d’enregistrement de canal tel que **E-mail** peut stocker une liste de livrables pris en charge, sous la forme de métadonnées natives ou d’une connexion à un type d’enregistrement autonome **Livrables**.
 * ⛔ N’ajoutez pas de nouveau type d’enregistrement si les données que vous stockez ne sont pertinentes que pour un seul type d’enregistrement.
 
-  Par exemple, un type d’enregistrement **Campagne** peut comporter un champ à sélection unique appelé **Taille de la campagne** qui n’est pertinent que lorsqu’il est directement associé à une campagne spécifique.
+  Par exemple, un type d’enregistrement **Campagne** peut comporter un champ à sélection unique appelé **Taille de la campagne** qui n’est pertinent que lorsqu’il est directement associé à une campagne spécifique. Créez plutôt un champ pour capturer ces informations.
 
 #### Comment dois-je libeller mes types d’enregistrements ?
 
@@ -120,9 +117,7 @@ Les types d’enregistrements sont les blocs de construction d’un Workspace Wo
 
 Les champs sont des attributs de types d’enregistrement et sont affichés sous forme de colonnes dans la vue Tableau. Vous pouvez créer des champs personnalisés pour les types d’enregistrements, puis associer les champs aux enregistrements Workfront Planning afin d’améliorer les informations d’enregistrement.
 
-
 #### Quel champ est recommandé de définir comme champ de Principal ?
-
 
 * ✅ Utilisez des valeurs de champ principal uniques pour faciliter la recherche et le « choix » de ces enregistrements lors de l’établissement de connexions. 
 
@@ -135,7 +130,7 @@ Les champs sont des attributs de types d’enregistrement et sont affichés sous
 
 #### Comment dois-je commencer à connecter les données de mon espace de travail ?
 
-* ✅ La création de connexions est l&#39;une des fonctionnalités les plus puissantes de Workfront Planning. Vous pouvez connecter des types d’enregistrements les uns aux autres ou avec des types d’objets provenant d’autres applications telles qu’Adobe Workfront (connexion à des projets, des portfolios, des programmes, des entreprises et des groupes) et avec Adobe Experience Manager Assets (connexion à des ressources et des dossiers).
+* ✅ La création de connexions est l&#39;une des fonctionnalités les plus puissantes de Workfront Planning. Vous pouvez connecter des types d’enregistrements les uns aux autres ou des types d’enregistrements à des types d’objets provenant d’autres applications telles qu’Adobe Workfront (connexion à des projets, des portfolios, des programmes, des entreprises et des groupes), Adobe Experience Manager Assets (connexion à des ressources et des dossiers) et Adobe GenStudio for Performance Marketing.
 
   La connexion des types d’objet et d’enregistrement vous donne un aperçu complet de la manière dont tout est connecté dans votre entreprise.
 
@@ -147,11 +142,11 @@ Les champs sont des attributs de types d’enregistrement et sont affichés sous
 
 * ✅ Après avoir établi la connexion entre les enregistrements ou les types d&#39;objet, vous pouvez connecter des enregistrements individuels entre eux et afficher les champs de l&#39;enregistrement ou des types d&#39;objet liés sur un enregistrement Workfront Planning. Vous réduirez le nombre d’emplacements où vous devez mettre à jour la même information et vous vous assurerez qu’ils correspondent parfaitement.
 
-  Par exemple, une fois que vous disposez d’une connexion entre un type d’enregistrement **Campaign** et un type d’enregistrement **Tactique**, les informations du champ principal s’affichent, mais lorsque vous ajoutez des champs de recherche, vous pouvez apporter des informations supplémentaires à partir de ce type d’enregistrement, comme la **Date de lancement** pour ce **Tactique**. Les données de ces champs de recherche sont automatiquement renseignées une fois les enregistrements ajoutés.
+  Par exemple, une fois que vous disposez d’une connexion entre un type d’enregistrement **Campaign** et un type d’enregistrement **Tactique**, les informations du champ principal s’affichent, mais lorsque vous ajoutez des champs de recherche, vous pouvez apporter des informations supplémentaires à partir de ce type d’enregistrement, comme la **Date de lancement** pour un **Tactique**. Les données de ces champs de recherche sont automatiquement renseignées une fois les enregistrements ajoutés.
 
 #### Quel type de champ est recommandé pour les URL ? 
 
-* ✅ N’utilisez pas de champ de texte monoligne pour ajouter des données d’URL à un enregistrement.
+* ✅ Utilisez un champ de texte d’une seule ligne pour ajouter des données d’URL à un enregistrement.
 
 ### Vues
 
@@ -175,9 +170,9 @@ Les champs sont des attributs de types d’enregistrement et sont affichés sous
 
 #### Pourquoi tous les enregistrements ne s’affichent-ils pas dans ma vue chronologique ?
 
-* ✅ N’oubliez pas de définir 2 champs de date pour vos enregistrements. Vous ne pouvez créer une vue chronologique que lorsque vous disposez d’au moins deux champs de date associés à un type d’enregistrement. Certains enregistrements peuvent ne pas s&#39;afficher dans la vue chronologique lorsque les dates de début ou de fin, ou les deux, n&#39;ont aucune valeur et lorsque la date de début est postérieure à la date de fin.
+* ✅ N’oubliez pas de définir 2 champs de date pour vos enregistrements. Vous ne pouvez créer une vue chronologique que lorsque vous disposez d’au moins deux champs de date associés à un type d’enregistrement. Certains enregistrements peuvent ne pas s&#39;afficher dans la vue chronologique lorsque les dates de début ou de fin ou les deux n&#39;ont aucune valeur ou lorsque la date de début est postérieure à la date de fin.
 
-#### Comment utiliser les paramètres de la vue Chronologie ?
+#### Comment dois-je utiliser les paramètres de la vue Chronologie ?
 
 * ✅ Définissez les paramètres de votre vue chronologique, tels que le style **Barre** et la **Couleur** pour obtenir une vue plus enrichissante visuellement. Vous pouvez personnaliser le style **Barre** en définissant si vous souhaitez afficher une miniature avec une image significative et ajouter d’autres champs à afficher sur la barre (par exemple, **Propriétaire** ou **Statut**).
 
@@ -187,15 +182,15 @@ Les champs sont des attributs de types d’enregistrement et sont affichés sous
 
 ### Autorisations et partage
 
-Utilisez la fonction de partage pour accorder aux employés les autorisations appropriées pour accéder aux vues et aux espaces de travail.
+Utilisez la fonction de partage pour accorder aux autres utilisateurs les autorisations appropriées pour les vues et les espaces de travail.
 
 #### Comment dois-je gérer les autorisations relatives aux espaces de travail ?
 
-* ✅ Lorsque vous créez un **espace de travail**, il n’est disponible que pour vous. Tous les autres utilisateurs, à l’exception des administrateurs système, ne pourront pas le trouver. Une fois l’espace de travail défini et que vous êtes prêt(e) à inviter votre équipe à démarrer la collaboration, vous devez le partager avec elle et définir son niveau d’autorisation.
+* ✅ Lorsque vous créez un **espace de travail**, il n’est disponible que pour vous. Toute autre personne qui n’est pas un administrateur système ne pourra pas le trouver. Une fois l’espace de travail défini et que vous êtes prêt(e) à inviter votre équipe à démarrer la collaboration, vous devez le partager avec elle et définir son niveau d’autorisation.
 
   Vous pouvez choisir parmi les niveaux d’autorisation suivants :
 
-   * **Gérer** : les personnes peuvent modifier, supprimer et partager l’espace de travail.
+   * **Gérer** : les personnes peuvent modifier, supprimer et partager l’espace de travail, les types d’enregistrements, ainsi que modifier, supprimer et créer des enregistrements.
    * **Contribuer** : les utilisateurs peuvent créer, modifier et supprimer des enregistrements.
    * **Afficher** : les utilisateurs peuvent afficher les enregistrements.
 
@@ -203,16 +198,11 @@ Utilisez la fonction de partage pour accorder aux employés les autorisations ap
 
   Une licence utilisateur standard est requise pour qu&#39;une personne dispose des autorisations de niveau Gérer sur un espace de travail.
 
-* ✅ Donnez aux utilisateurs des autorisations **Contribuer** si vous souhaitez qu&#39;ils puissent simplement créer, modifier et supprimer des enregistrements, mais que vous ne souhaitiez pas qu&#39;ils modifient la structure et le schéma de l&#39;espace de travail. Avec les autorisations **Contribute**, ils ne peuvent pas créer de types d’enregistrements ni modifier les champs sur les types d’enregistrements existants.
+* ✅ Autorisez les utilisateurs **Contribuer** à créer, modifier et supprimer des enregistrements uniquement si vous ne souhaitez pas qu&#39;ils modifient la structure de l&#39;espace de travail. Avec les autorisations **Contribute**, ils ne peuvent pas créer de types d’enregistrements ni modifier les champs sur les types d’enregistrements existants.
 
   Une licence utilisateur standard est requise pour qu&#39;une personne dispose des autorisations **Contribute** pour accéder à un espace de travail.
 
 * ✅ Donnez aux utilisateurs des autorisations **Affichage** s’ils souhaitent uniquement afficher les enregistrements.
-
-  >[!NOTE]
-  >
-  >À l’heure actuelle, nous ne disposons pas d’autorisations spécifiques pour les types d’enregistrements ou les enregistrements. Cela signifie que tous les enregistrements de l’un des types d’enregistrements sont visibles si vous accordez à une personne l’accès **Affichage** à l’espace de travail.
-
 
 #### Comment dois-je gérer les autorisations pour les types d’enregistrements ?
 
@@ -222,18 +212,17 @@ Utilisez la fonction de partage pour accorder aux employés les autorisations ap
 
 #### Comment dois-je gérer les autorisations pour les vues ?
 
-* ✅ Restreindre les autorisations **Gérer** aux personnes que vous souhaitez pouvoir modifier, supprimer et partager la vue. Cela signifie qu’ils peuvent modifier les filtres, les champs de regroupement ou une configuration de la vue. Ces modifications auront un impact sur la configuration principale de la vue pour toutes les autres personnes qui utilisent également la vue.
+* ✅ Réservez les autorisations **Gérer** aux personnes que vous souhaitez pouvoir modifier, supprimer et partager la vue. Cela signifie qu’ils peuvent modifier les filtres, les champs de regroupement ou une configuration de la vue. Ces modifications auront un impact sur la configuration principale de la vue pour toutes les autres personnes qui utilisent également la vue.
 
   Une licence utilisateur standard est requise pour qu&#39;une personne dispose des autorisations de niveau Gérer pour une vue.
 
-* ✅ Donnez aux utilisateurs un accès **Affichage** pour pouvoir appliquer l’affichage. Ils pourront modifier certains filtres ou regroupements et tris, mais ces modifications ne seront que temporaires ; les modifications ne sont pas enregistrées pour tous les autres utilisateurs accédant à la vue. Ces modifications n’affecteront pas la configuration principale de la vue pour toutes les autres personnes qui utilisent également la vue.  Leurs modifications ne sont visibles que par l’utilisateur ou l’utilisatrice qui applique les paramètres modifiés. Après actualisation de l’écran, les modifications sont réinitialisées à la valeur par défaut.
+* ✅ Donnez aux utilisateurs les autorisations **Affichage** pour pouvoir appliquer l’affichage. Ils pourront modifier certains filtres ou regroupements et tris, mais ces modifications ne seront que temporaires ; les modifications ne sont pas enregistrées pour tous les autres utilisateurs accédant à la vue. Ces modifications n’affecteront pas la configuration principale de la vue pour toutes les autres personnes qui utilisent également la vue.  Leurs modifications ne sont visibles que par l’utilisateur ou l’utilisatrice qui applique les paramètres modifiés. Après actualisation de l’écran, les modifications sont réinitialisées à la valeur par défaut.
 
 * ✅ Accorder des autorisations **Tout le monde peut afficher dans l’espace de travail** lorsque vous souhaitez que toute personne pouvant afficher l’espace de travail puisse afficher les enregistrements et leurs champs dans cette vue spécifique. Ainsi, vous n’avez pas besoin d’ajouter manuellement qui que ce soit à la zone d’autorisation de partage pour la vue.
 
   >[!NOTE]
   >
   >Si une vue n&#39;a pas été partagée et que vous partagez un lien vers cette vue avec d&#39;autres personnes, ces dernières pourront voir les enregistrements dans la **Vue Tableau par défaut**. S’ils disposent d’une licence Workfront standard, ils peuvent créer leur propre vue.
-
 
 #### En quoi le partage de **Workspace** est-il différent du partage de **Afficher** ?
 
@@ -245,8 +234,7 @@ Utilisez la fonction de partage pour accorder aux employés les autorisations ap
 
 * Pour le partage de **Workspace** : les utilisateurs disposant d&#39;une licence Light et Contribute peuvent uniquement obtenir un accès en affichage à un espace de travail. Pour accorder à une personne l’autorisation Contribuer ou Gérer d’un espace de travail, elle doit disposer d’une licence Standard.
 
-* **Partage de vues** : les utilisateurs sous licence standard disposant d’autorisations de niveau Gérer pour un espace de travail pourront créer une vue. Les utilisateurs de licences Light et Contribute ne peuvent utiliser que les vues créées et partagées par les utilisateurs standard. Sinon, si rien n’a été partagé, les utilisateurs pourront voir la **Vue du tableau par défaut**.
-
+* **Partage de vues** : les utilisateurs sous licence standard disposant d’autorisations de niveau Gérer sur un espace de travail peuvent créer une vue. Les utilisateurs de licences Light et Contribute ne peuvent utiliser que les vues créées et partagées par les utilisateurs standard. Sinon, si rien n’a été partagé, les utilisateurs pourront voir la **Vue du tableau par défaut**.
 
 #### Que dois-je faire lorsqu’un propriétaire Workspace change ?
 
@@ -260,13 +248,13 @@ Vous pouvez créer un formulaire de demande pour chaque type d’enregistrement 
 
 #### Quand dois-je commencer à créer un formulaire de demande pour un type d’enregistrement ?
 
-* ✅ Vous devez vous assurer que la structure du type d’enregistrement est configurée en premier lieu en ajoutant les champs nécessaires à la table. Ces champs décrivent vos enregistrements et seront accessibles dans le créateur de formulaires.
+* ✅ Vous devez vous assurer que la structure du type d’enregistrement est configurée en premier lieu en ajoutant les champs nécessaires à la table. Ces champs décrivent vos enregistrements et peuvent être accessibles dans le créateur de formulaires.
 
   Idéalement, créez le formulaire de demande ou de réception une fois la structure de type d’enregistrement finalisée afin d’éviter de manquer des champs clés.
 
 #### Qui peut créer des formulaires de demande ?
 
-* ✅ Tout utilisateur disposant d’un accès de niveau Gérer à l’espace de travail peut créer ou modifier un formulaire de demande. Assurez-vous que les autorisations de l’utilisateur sont correctement attribuées pour autoriser cette fonctionnalité.
+* ✅ Tout utilisateur disposant d’un accès de niveau Gérer à l’espace de travail peut créer ou modifier un formulaire de demande pour un type d’enregistrement. Assurez-vous que les autorisations de l’utilisateur sont correctement attribuées pour autoriser cette fonctionnalité.
 
 #### Comment créer ou modifier un formulaire de demande pour un type d’enregistrement ?
 
@@ -279,12 +267,16 @@ Vous pouvez créer un formulaire de demande pour chaque type d’enregistrement 
 
   Dans le créateur de formulaires, une fois le formulaire publié, vous pouvez gérer les autorisations pour contrôler qui peut envoyer des requêtes.
 
-  Vous pouvez choisir parmi les trois options de partage suivantes :
+  Vous pouvez choisir parmi les options de partage suivantes :
 
-   * **Toute personne disposant d’un accès en affichage ou d’un niveau supérieur à l’espace de travail :** autorise tous les utilisateurs disposant d’autorisations en affichage ou d’un niveau supérieur à l’espace de travail à soumettre une requête qui crée un enregistrement.
-   * **Toute personne disposant d’un accès de niveau Contributeur ou supérieur à l’espace de travail** : limite les envois aux utilisateurs disposant d’autorisations de niveau Contributeur ou supérieur à l’espace de travail.
-   * **Personne disposant du lien :** permet à toute personne disposant du lien du formulaire de soumettre une demande.
-   * **Date d’expiration :** assurez-vous de définir une date d’expiration pour le lien public afin de renforcer la sécurité.
+   * Pour le partage interne avec des personnes dans Workfront :
+
+      * **Toute personne disposant d’un accès en affichage ou d’un niveau supérieur à l’espace de travail :** autorise tous les utilisateurs disposant d’autorisations en affichage ou d’un niveau supérieur à l’espace de travail à soumettre une requête qui crée un enregistrement.
+      * **Toute personne disposant d’un accès de niveau Contributeur ou supérieur à l’espace de travail** : limite les envois aux utilisateurs disposant d’autorisations de niveau Contributeur ou supérieur à l’espace de travail.
+      * **Seules les personnes invitées peuvent y accéder** : ajoutez des personnes, des équipes, des rôles, des groupes ou des entreprises qui peuvent envoyer des demandes au formulaire.
+   * Pour le partage externe avec des personnes qui ne disposent pas d’un compte Workfront :
+      * **Création d’un lien public**, puis copie et partage avec tout le monde, même les personnes sans compte Workfront : permet à toute personne disposant du lien de formulaire de soumettre une demande.
+      * **Date d’expiration du lien :** assurez-vous de définir une date d’expiration pour le lien public afin de renforcer la sécurité.
 
 ### Bonnes pratiques relatives à la gestion des formulaires de demande
 
@@ -294,6 +286,8 @@ Voici des recommandations pour la gestion des formulaires de demande :
 * Utiliser des libellés clairs : assurez-vous que les libellés et les descriptions des champs sont clairs et compréhensibles pour tous les utilisateurs et utilisatrices.
 * Tester les formulaires : avant de déployer les nouveaux formulaires auprès d’une audience plus large, testez-les à l’aide du lien du formulaire et de l’option de prévisualisation de formulaire pour vous assurer que tous les champs et toute la logique fonctionnent comme prévu.
 * Conserver les formulaires à jour : révisez régulièrement les formulaires et mettez-les à jour pour tenir compte des modifications apportées à la structure du type d’enregistrement ou aux processus opérationnels.
+
+<!--do we need to add anything for the Configuration tab of a request form?? -->
 
 <!-- this is hidden, per Andrea:  
 
@@ -349,10 +343,10 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
-* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
+* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
 
      
 
@@ -360,7 +354,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
      
 
-* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
+* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
 
      
 
