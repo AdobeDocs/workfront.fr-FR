@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 6%
+source-wordcount: '688'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ Cet article décrit comment un responsable d’espace de travail peut ajouter un
 
 Pour plus d’informations sur la création d’un formulaire de demande dans Workfront Planning, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -90,11 +90,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    La zone **Configuration** s’affiche.
 
    ![Onglet Configuration](assets/configuration-tab.png)
-1. Dans le champ **Approbateurs**, cliquez sur l&#39;icône déroulante et sélectionnez un ou plusieurs utilisateurs ou équipes dans la liste
-
-   Ou
-
-   Commencez à saisir le nom d’un utilisateur ou d’une équipe que vous souhaitez définir en tant qu’approbateur, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+1. Dans le champ **Approbateurs**, commencez à saisir le nom d’un utilisateur ou d’une équipe que vous souhaitez définir en tant qu’approbateur, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+1. (Facultatif et conditionnel) Si vous avez défini plusieurs approbateurs et que vous n’en avez besoin que d’un seul pour prendre une décision, activez l’option **Une seule décision est requise**.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -103,11 +100,11 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    >
    >* Vous pouvez ajouter un ou plusieurs approbateurs à un formulaire de demande.
    >
-   >* Si vous ajoutez plusieurs approbateurs, tous doivent approuver la demande avant que Workfront Planning ne crée un enregistrement.
+   >* Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent approuver la demande avant que Workfront Planning ne crée un enregistrement.
    >
    >* Si au moins un approbateur rejette la demande, celle-ci est rejetée et l&#39;enregistrement n&#39;est pas créé. La demande reste dans l’onglet Planification de la section Soumis de la zone Demandes de Workfront.
    >
-   >* Tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
+   >* Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
    >
    >* Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
@@ -124,4 +121,4 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    >   L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
 
 
-   Pour plus d’informations sur l’approbation des demandes, voir [&#x200B; Approuver une demande &#x200B;](/help/quicksilver/planning/requests/approve-request.md).
+   Pour plus d’informations sur l’approbation des demandes, voir [ Approuver une demande ](/help/quicksilver/planning/requests/approve-request.md).
