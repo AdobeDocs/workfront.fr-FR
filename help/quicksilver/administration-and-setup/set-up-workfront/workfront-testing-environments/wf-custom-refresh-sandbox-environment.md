@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 92%
+source-wordcount: '1741'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ Le sandbox à actualisation personnalisée est un environnement dans lequel vous
 >
 >  De plus, l’obtention du sandbox à actualisation personnalisée nécessite un coût supplémentaire, qui n’est pas nécessaire pour le sandbox de prévisualisation.
 >
->  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Conditions d’accès
 
@@ -223,3 +223,8 @@ Pour l’environnement de sandbox d’actualisation personnalisée, le recalcul 
 * Les environnements de sandbox à actualisation personnalisée [!DNL Workfront] sont conçus pour être toujours disponibles. Toute interruption d’un environnement de sandbox à actualisation personnalisée Workfront pendant les heures de bureau sera traitée en priorité, immédiatement après la résolution des problèmes de production, le cas échéant. Toute panne d’un sandbox à actualisation personnalisée Workfront le week-end (le samedi et le dimanche) sera résolue afin d’assurer son fonctionnement pendant les heures de travail le lundi.
 
 * La relecture n’est pas disponible dans les sandbox à actualisation personnalisée.
+
+* Les notifications suivantes ne sont pas disponibles pour une utilisation dans les environnements de sandbox d’actualisation personnalisée :
+
+   * Notifications de rappel
+   * Notifications automatiques de rappel de retard ou d’avance
