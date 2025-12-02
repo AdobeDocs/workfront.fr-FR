@@ -7,9 +7,9 @@ description: Cette page contient des informations sur la structure et le contenu
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
+source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8878'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,7 @@ Cette page contient des informations sur la structure et le contenu des données
 
 >[!NOTE]
 >
->Les données de Data Connect sont actualisées toutes les quatre heures, de sorte que les modifications récentes peuvent ne pas être immédiatement répercutées.
+>Les données de Data Connect sont actualisées toutes les 4 heures, de sorte que les modifications récentes peuvent ne pas être immédiatement répercutées.
 
 ## Types de vue
 
@@ -49,7 +49,7 @@ Les objets dans Workfront (et, par conséquent, dans votre lac de données Data 
 >[!IMPORTANT]
 >
 >Le diagramme de relation d’entité (ERD) fourni est délibérément incomplet, car un ERD complet deviendrait illisible en raison du nombre élevé de relations dans l’application.<br>
->&#x200B;>Ce diagramme fournit un exemple de la manière dont les relations documentées dans le tableau Projet de la section [Tableau de terminologie](#terminology-table) ci-dessous peuvent être utilisées pour joindre des données de la vue de données Projet à des objets adjacents. Un ERD complet n’est pas nécessaire une fois que ce modèle est compris pour les relations d’objet du projet
+>Ce diagramme fournit un exemple de la manière dont les relations documentées dans le tableau Projet de la section [Tableau de terminologie](#terminology-table) ci-dessous peuvent être utilisées pour joindre des données de la vue de données Projet à des objets adjacents. Un ERD complet n’est pas nécessaire une fois que ce modèle est compris pour les relations d’objet du projet
 
 ## Types de date
 
@@ -67,7 +67,7 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
 >[!NOTE]
 >
 >De nouveaux champs peuvent être ajoutés aux vues d’objet sans préavis pour prendre en charge l’évolution des besoins en données de l’application Workfront. Nous vous déconseillons d’utiliser des requêtes « SELECT » lorsque le destinataire des données en aval n’est pas prêt à gérer des colonnes supplémentaires au fur et à mesure de leur ajout.<br>
->&#x200B;>Si le changement de nom ou la suppression d’une colonne est nécessaire, nous vous avertirons à l’avance de ces modifications.
+>Si le changement de nom ou la suppression d’une colonne est nécessaire, nous vous avertirons à l’avance de ces modifications.
 
 ### Niveau d’accès
 
@@ -1660,17 +1660,21 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
         </tr>
     </tbody>
 </table>
-<div>* Le type d’enregistrement est identifié via la propriété « enumClass ». Voici les types attendus :<br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJ</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>STATUS_TASK</li></ul></div>
+
+>[!NOTE]
+>
+>Le type d’enregistrement est identifié via la propriété `enumClass` . Voici les types attendus :<br>
+><ul><li>CONDITION_OPTASK</li>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
+
 
 ### Document
 
@@ -6601,6 +6605,11 @@ Disponibilité limitée des clients
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>Trois types d&#39;équipe sont stockés dans les tables d&#39;objets d&#39;équipe : PROJECT, TEMPLATE et ADHOC. <br>
+>Chacun de ces types d’équipes est représenté ensemble dans les vues du lac de données Data Connect. Pour isoler le type spécifique d&#39;équipe que vous souhaitez renvoyer, vous devez appliquer un filtre sur la colonne `teamtype`. Par exemple, si vous souhaitez uniquement les équipes traditionnelles qui font partie de vos structures organisationnelles, configurées dans la zone Équipes de l’application, vous pouvez avoir une requête qui ressemble à ceci : <code>select * from team_current where teamtype = &#39;ADHOC&#39;;</code>
 
 ### Membre d&#39;équipe
 
