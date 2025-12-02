@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
@@ -38,7 +38,7 @@ Les types d’enregistrements sont les types d’objets d’Adobe Workfront Pl
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout package Workfront and Planning</p>
 <p>Tout package Workfront and Planning</p>
@@ -46,7 +46,7 @@ Les types d’enregistrements sont les types d’objets d’Adobe Workfront Pl
 <p>Pour configurer les types d’enregistrements connectables : </p>
 <ul> 
 <li><p>Tout package Workfront et tout package Planning</p></li>
-<p>Ou</p>
+Ou
 <li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 
 <div class="preview">
@@ -54,7 +54,7 @@ Les types d’enregistrements sont les types d’objets d’Adobe Workfront Pl
 
 <ul> 
 <li><p>Tout package Workfront et un package Planning Plus</p></li>
-<p>Ou</p>
+Ou
 <li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p>
 
@@ -154,7 +154,7 @@ Ou
 
 1. Dans la zone **Modifier le type d’enregistrement**, l’onglet **Apparence** s’ouvre par défaut. <!--update screen shot below at production-->
 
-   ![Onglet Apparence de la zone Modifier le type d’enregistrement &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Onglet Apparence de la zone Modifier le type d’enregistrement ](assets/edit-record-type-box-appearance-tab.png)
 
    Mettez à jour les informations suivantes dans l’onglet **Apparence** :
 

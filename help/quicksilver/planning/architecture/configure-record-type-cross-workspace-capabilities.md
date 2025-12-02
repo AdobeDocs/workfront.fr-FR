@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1650'
 ht-degree: 5%
 
 ---
@@ -56,20 +56,20 @@ Pour plus d’informations, consultez l’un des articles suivants :
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Pour configurer les types d’enregistrements connectables : </p>
 <ul> 
 <li><p>Tout package Workfront et tout package Planning</p></li>
-<p>Ou</p>
-<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
+Ou
+<li><p>N’importe quel workflow et n’importe quelle planification</p></li></ul>
 
 <div class="preview">
 <p>Pour configurer les types d’enregistrements globaux :</p>
 
 <ul> 
 <li><p>Tout package Workfront et un package Planning Plus</p></li>
-<p>Ou</p>
+Ou
 <li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p>
 

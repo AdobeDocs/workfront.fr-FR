@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 9%
+source-wordcount: '462'
+ht-degree: 10%
 
 ---
 
@@ -49,24 +49,20 @@ Selon les fonctionnalités que vous souhaitez définir pour un type d’enregist
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout package Workfront and Planning</p>
-<p>Tout package Workfront and Planning</p>
+<p>Tout package Workflow et Planning</p>
+<div class="preview">
 <p><b>NOTE</b></p>
-<p>Pour configurer les types d’enregistrements connectables : </p>
-<ul> 
-<li><p>Tout package Workfront et tout package Planning</p></li>
-<p>Ou</p>
-<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
-
 <p>Pour configurer les types d’enregistrements globaux :</p>
 
 <ul> 
 <li><p>Tout package Workfront et un package Planning Plus</p></li>
-<p>Ou</p>
-<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p>
+Ou
+<li><p>Tout package de workflow et un package Planning Prime ou Ultimate</p></li></ul>
+<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+</div>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 

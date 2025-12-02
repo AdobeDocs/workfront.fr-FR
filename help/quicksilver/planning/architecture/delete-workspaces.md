@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 44%
@@ -43,11 +43,11 @@ Avant de supprimer un espace de travail, nous vous recommandons de créer à nou
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <ul> 
 <li><p>Tout Workfront et tout package Planning</p></li>
-<p>Ou</p>
+Ou
 <li><p>Tout workflow et tout package Planning</p></li></ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
@@ -142,7 +142,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 1. Pour supprimer un espace de travail, effectuez l’une des opérations suivantes :
 
    * Pointez sur la carte de l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte
-Ou
+Ou <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
    * Cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’espace de travail.
 1. Cliquez sur **Supprimer**.
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 48%
+source-wordcount: '1199'
+ht-degree: 44%
 
 ---
 
@@ -44,7 +44,7 @@ Pour plus d’informations sur les types d’enregistrements, voir [Présentatio
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout package Workfront and Planning</p>
 <p>Tout package Workflow et Planning</p>
@@ -52,7 +52,7 @@ Pour plus d’informations sur les types d’enregistrements, voir [Présentatio
 <p>Pour configurer les types d’enregistrements connectables : </p>
 <ul> 
 <li><p>Tout package Workfront et tout package Planning</p></li>
-<p>Ou</p>
+Ou
 <li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 
 <div class="preview">
@@ -60,7 +60,7 @@ Pour plus d’informations sur les types d’enregistrements, voir [Présentatio
 
 <ul> 
 <li><p>Tout package Workfront et un package Planning Plus</p></li>
-<p>Ou</p>
+Ou
 <li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p>
 
@@ -163,9 +163,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
         Cet article décrit comment créer des types d’enregistrements à partir de zéro.
 
-     <!--
-        * <span class="preview">By adding them from another workspace</span>
-            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
+      * <span class="preview">En les ajoutant depuis un autre espace de travail</span>
+        <span class="preview">Pour plus d’informations, voir [Ajouter des types d’enregistrements existants à partir d’un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>
 
 
 * Vous pouvez déplacer des types d’enregistrements dans une section et d’une section d’un espace de travail vers une autre. Vous ne pouvez pas déplacer des types d’enregistrements d’un espace de travail vers un autre.
@@ -197,7 +196,7 @@ Vous pouvez ajouter manuellement des types d’enregistrements dans les sections
 1. (Facultatif) Cliquez sur **Ajouter une section** pour ajouter une section à l’espace de travail.
 1. Cliquez sur **Ajouter un type d’enregistrement** puis **Ajouter manuellement**.
 
-   La zone Ajouter un type d’enregistrement s’ouvre. <!--update screen shot for preview-->
+   La boîte de dialogue Ajouter un type d’enregistrement s’ouvre.
 
    ![Ajout d’une zone de type d’enregistrement avec des options d’apparence](assets/add-record-type-box-with-appearance-options.png)
 
@@ -207,13 +206,11 @@ Vous pouvez ajouter manuellement des types d’enregistrements dans les sections
    * **Description** : ajoutez des informations supplémentaires sur le type d’enregistrement.
    * Sélectionnez une couleur et une forme pour l’icône associée au type d’enregistrement. Procédez comme suit :
       * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. Le gris est sélectionné par défaut.
-      * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
+      * Sélectionnez une icône dans la liste ou commencez à saisir son nom dans le champ de recherche pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
-1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres avancés** <span class="preview">ou **Paramètres de l’espace de travail croisé**</span> et mettez à jour les informations sur les fonctionnalités de l’espace de travail croisé du type d’enregistrement.
+1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres avancés** <span class="preview">ou **Paramètres de l’espace de travail croisé**</span> et <span class="preview">mettez à jour les informations sur les fonctionnalités de l’espace de travail croisé du type d’enregistrement.
 
-   Pour plus d’informations, voir [Configuration des fonctionnalités entre espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production - Jan 2026-->
-
-   ![Zone Modifier le type d’enregistrement avec l’onglet Paramètres avancés](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Zone Modifier le type d’enregistrement avec l’onglet Paramètres avancés](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
@@ -280,16 +277,12 @@ Vous pouvez importer les éléments suivants lors de l’importation d’informa
 
 Pour plus d’informations, voir [Création de types d’enregistrements à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-<!--
-
 <div class="preview">
 
-## Create record types by adding existing ones from another workspace 
+## Créer des types d’enregistrements en ajoutant des types existants depuis un autre espace de travail
 
-You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
+Vous pouvez ajouter des types d’enregistrements à un espace de travail en ajoutant des types existants à partir d’un autre espace de travail. Vous pouvez uniquement ajouter des types d’enregistrements qui ont été configurés en tant que types d’enregistrements globaux.
 
-For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+Pour plus d’informations, voir [Ajouter des types d’enregistrements existants depuis un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 </div>
-
--->

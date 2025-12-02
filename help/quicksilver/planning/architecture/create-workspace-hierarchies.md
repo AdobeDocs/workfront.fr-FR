@@ -4,10 +4,10 @@ description: Vous pouvez créer plusieurs hiérarchies d’espace de travail ent
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -48,11 +48,11 @@ Vous pouvez créer plusieurs hiérarchies d’espace de travail entre les types 
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <ul> 
 <li><p>Tout Workfront et tout package Planning</p></li>
-<p>Ou</p>
+Ou
 <li><p>Tout workflow et tout package Planning</p></li></ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 

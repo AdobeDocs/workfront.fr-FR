@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1165'
 ht-degree: 22%
 
 ---
@@ -66,21 +66,6 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
   Pour plus d’informations, consultez la section [Partager des vues](/help/quicksilver/planning/access/share-views.md).
 
-En interne, vous pouvez partager un espace de travail, une vue ou un type d’enregistrement avec les entités Workfront suivantes :
-
-* Utilisateurs
-* Groupes
-* Équipes
-* Entreprises
-* Fonctions
-
-Lorsque vous partagez des espaces de travail et des types d’enregistrements avec d’autres personnes, le niveau d’autorisation du type d’enregistrement est automatiquement hérité des enregistrements et des champs qui leur sont associés.
-
->[!IMPORTANT]
->
->Si l’instance de Workfront de votre organisation a été intégrée à l’expérience unifiée Adobe, les utilisateurs avec lesquels vous souhaitez partager des objets Planning doivent être ajoutés au Adobe Admin Console. Vous ne pouvez pas partager des objets Planning avec des utilisateurs de Workfront qui n&#39;ont pas été ajoutés au Adobe Admin Console.
-
-
 ## Considérations sur le partage d’objets dans Adobe Workfront Planning
 
 * Votre type de licence Adobe Workfront fonctionne de concert avec vos autorisations Workfront Planning pour vous donner l’accès à l’affichage, à la contribution ou à la gestion des espaces de travail et de leurs objets.
@@ -88,14 +73,30 @@ Lorsque vous partagez des espaces de travail et des types d’enregistrements av
   Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation pour Workfront Planning, voir [Vue d’ensemble du type de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 * Les administrateurs système peuvent gérer tous les espaces de travail du système, y compris ceux qu’ils n’ont pas créés.
 * Les autres utilisateurs et utilisatrices, y compris les administrateurs et administratrices système, ne peuvent accéder qu’aux vues qu’ils ont créées ou qui ont été partagées avec eux. Les administrateurs système ne peuvent être autorisés qu&#39;à gérer une vue.
-* Vous pouvez partager un lien vers un espace de travail ou une vue avec d’autres personnes.
 
-  Les scénarios suivants sont possibles :
-   * Les utilisateurs recevant le lien vers un espace de travail doivent être des utilisateurs actifs et se connecter à Workfront pour pouvoir accéder à l’espace de travail.
-   * Les utilisateurs et utilisatrices qui reçoivent le lien vers une vue peuvent accéder à la vue des manières suivantes :
+* Lorsque vous partagez des espaces de travail et des types d’enregistrements avec d’autres personnes, le niveau d’autorisation du type d’enregistrement est automatiquement hérité des enregistrements et des champs qui leur sont associés.
 
-      * Doit être un utilisateur actif et se connecter à Workfront, si le lien vers la vue a été partagé en interne.
-      * Peuvent être des utilisateurs externes à Workfront et accéder à la vue à partir d’un lien partagé publiquement, sans se connecter à Workfront.
+  >[!IMPORTANT]
+  >
+  >Si l’instance de Workfront de votre organisation a été intégrée à l’expérience unifiée Adobe, les utilisateurs avec lesquels vous souhaitez partager des objets Planning doivent être ajoutés au Adobe Admin Console. Vous ne pouvez pas partager des objets Planning avec des utilisateurs de Workfront qui n&#39;ont pas été ajoutés au Adobe Admin Console.
+
+* Vous pouvez partager des objets Planning des manières suivantes :
+
+   * En interne, vous pouvez partager un espace de travail, une vue ou un type d’enregistrement avec les entités Workfront suivantes :
+
+      * Utilisateurs
+      * Groupes
+      * Équipes
+      * Entreprises
+      * Fonctions
+
+     Vous pouvez partager un objet Planning avec un maximum de 100 entités par objet.
+
+   * En interne, en partageant un lien vers un espace de travail ou une vue avec d&#39;autres utilisateurs de Planning. Les scénarios suivants sont possibles :
+
+      * Les utilisateurs recevant le lien vers un espace de travail doivent être des utilisateurs actifs et se connecter à Workfront pour accéder à l’espace de travail.
+      * Les utilisateurs et utilisatrices qui reçoivent un lien de partage interne pour une vue doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour accéder à la vue.
+   * En externe, en partageant un lien de partage public vers une vue avec des utilisateurs externes qui ne disposent pas d’un compte Workfront.
 
 ## Partager des autorisations pour les objets Adobe Workfront Planning
 
@@ -169,7 +170,7 @@ Les scénarios suivants sont possibles :
 
 >[!NOTE]
 >
->*Lorsque vous supprimez des autorisations d’un type d’enregistrement, les utilisateurs conservent toujours les autorisations d’affichage de l’espace de travail et de tous les types d’enregistrements, sauf si vous supprimez leurs autorisations de l’espace de travail.
+>Lorsque vous supprimez des autorisations d’un type d’enregistrement, les utilisateurs conservent toujours les autorisations d’affichage de l’espace de travail et de tous les types d’enregistrements, sauf si vous supprimez leurs autorisations de l’espace de travail.
 
 ### Autorisations aux enregistrements
 
