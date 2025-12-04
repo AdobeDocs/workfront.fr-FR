@@ -1,18 +1,18 @@
 ---
-title: Utiliser le remplissage de formulaire AI pour remplir une demande à l’aide d’invites ou de documents
+title: Utilisez le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents
 content-type: reference
 description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs de requête en saisissant une invite ou en fournissant un document.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1370'
 ht-degree: 8%
 
 ---
 
-# Utiliser le remplissage de formulaire AI pour remplir une demande à l’aide d’invites ou de documents
+# Utilisez le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ Nous prévoyons une campagne similaire aux publicités sociales de vacances que 
 
 ## Obtenir des suggestions basées sur un document que vous téléchargez
 
-Le remplissage automatique peut suggérer des valeurs de champ en fonction d’un document que vous téléchargez.
+Le remplissage de formulaire optimisé par l’IA peut remplir une requête à l’aide d’invites ou les documents peuvent suggérer des valeurs de champ en fonction d’un document que vous chargez.
 
 Ce type de suggestion vérifie également les demandes précédentes pour des contextes similaires. Par exemple, si l’invite indique que la demande concerne un certain client, Workfront peut localiser et saisir automatiquement l’adresse de facturation de ce client, en fonction des demandes précédentes.
 
@@ -234,8 +234,8 @@ Les types de champs Workfront affectent la possibilité de remplir automatiqueme
 
 <table>
 <tr>
-<td><b>Pris en charge </b><br> le remplissage automatique peut remplir</td>
-<td><b>Non pris en charge</b> <br>le remplissage automatique ne se remplit pas</td>
+<td><b>Le remplissage de formulaire </b><br> pris en charge par l’IA peut remplir</td>
+<td><b>Non pris en charge</b> <br>le remplissage de formulaire optimisé par l’IA ne se remplit pas</td>
 </tr>
 <tr>
 <td>

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '13601'
+source-wordcount: '13609'
 ht-degree: 83%
 
 ---
@@ -1496,7 +1496,7 @@ ht-degree: 83%
          * [Supprimer une demande soumise ou un brouillon de demande](manage-work/requests/create-requests/delete-request-draft.md)
          * [Copier et soumettre les demandes](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [Remplir automatiquement une demande à partir des données précédentes](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
-         * [Remplir automatiquement une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+         * [Utilisez le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
          * [Création de vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
    * Déléguer le travail {#delegate-work}
       * [Déléguer le travail](manage-work/delegate-work/delegate-work.md)
@@ -2528,7 +2528,7 @@ ht-degree: 83%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
