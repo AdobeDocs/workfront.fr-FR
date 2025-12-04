@@ -1,13 +1,13 @@
 ---
 title: Création de hiérarchies Workspace
-description: Vous pouvez créer plusieurs hiérarchies d’espace de travail entre les types d’enregistrements d’un espace de travail.
+description: En tant que gestionnaire d'espace de travail, vous pouvez créer plusieurs hiérarchies d'espaces de travail entre les types d'enregistrements dans Adobe Workfront Planning. Après avoir connecté des types d’enregistrements dans un espace de travail et créé une hiérarchie, les types d’enregistrements sont connectés les uns aux autres, un type d’enregistrement étant désigné comme parent et jusqu’à 6 autres types d’enregistrements étant configurés comme enfants.
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 26%
+source-wordcount: '248'
+ht-degree: 12%
 
 ---
 
@@ -28,7 +28,14 @@ hidefromtoc: yes
 
 # Créer des hiérarchies d’espace de travail
 
-Vous pouvez créer plusieurs hiérarchies d’espace de travail entre les types d’enregistrements d’un espace de travail.
+En tant que gestionnaire d&#39;espace de travail, vous pouvez créer plusieurs hiérarchies d&#39;espaces de travail entre les types d&#39;enregistrements dans Adobe Workfront Planning.
+
+Après avoir connecté des types d’enregistrements dans un espace de travail et créé une hiérarchie, les types d’enregistrements sont connectés les uns aux autres, un type d’enregistrement étant désigné comme parent et jusqu’à 6 autres types d’enregistrements étant configurés comme enfants. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Les hiérarchies génèrent des chemins de navigation pour les types d’enregistrements et les <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> d’enregistrements qui s’affichent dans leurs en-têtes. Ainsi, les utilisateurs savent où ils se trouvent dans la hiérarchie à n’importe quelle étape de leur workflow.
+
+Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [ Présentation des hiérarchies et des chemins de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Conditions d’accès
 
@@ -72,3 +79,5 @@ Ou
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Créer une hiérarchie d’espace de travail

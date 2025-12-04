@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1586'
 ht-degree: 3%
 
 ---
@@ -113,7 +113,7 @@ Le type d’enregistrement configuré pour être global possède les propriété
      Pour plus d’informations, consultez la section [Supprimer des types d’enregistrement](/help/quicksilver/planning/architecture/delete-record-types.md).
    * Partagez les vues des types d’enregistrements.
 
-     Vous ne pouvez pas partager une vue publiquement à partir d’un type d’enregistrement global dans un espace de travail secondaire. Vous pouvez uniquement partager des vues en interne à partir d’un espace de travail secondaire.
+     Vous ne pouvez pas partager une vue publiquement à partir d’un type d’enregistrement global dans un espace de travail secondaire. Vous pouvez uniquement partager des vues en interne à partir d’un espace de travail secondaire. Vous pouvez partager une vue en interne et publiquement pour un type d’enregistrement global dans son espace de travail d’origine.
 
      Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
 
