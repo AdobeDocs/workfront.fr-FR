@@ -6,10 +6,10 @@ description: Vous pouvez afficher ou modifier les informations financières d’
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 94%
+source-wordcount: '1275'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez afficher ou modifier les données financières d’un projet en acc�
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Tenez compte des points suivants lors de l’affichage ou de la modification de données dans la zone Finances :
 
-* Les données financières disponibles dans la zone Finances des Détails du projet représentent les valeurs cumulées au niveau du projet à partir des tâches, ainsi que les données saisies directement dans le projet. Certaines données financières peuvent être gérées au niveau du projet ainsi qu’au niveau de la tâche.
+* Les informations financières que vous pouvez trouver dans la zone Finances des Détails du projet représentent les valeurs qui sont cumulées au niveau du projet à partir des tâches, ainsi que les informations saisies directement dans le projet. Certaines données financières peuvent être gérées au niveau du projet ainsi qu’au niveau de la tâche.
 * Vous devez disposer des autorisations d’affichage sur le projet ainsi que de l’accès aux données financières à partir de votre niveau d’accès afin de pouvoir afficher la zone Finances sur un projet.
 * Vous devez disposer des autorisations de gestion sur le projet ainsi que de l’accès aux données financières à partir de votre niveau d’accès afin de pouvoir modifier les informations de la zone Finances. Cependant, nous recommandons que seules les personnes propriétaires du projet modifient les informations dans cette zone.
 
@@ -153,7 +153,7 @@ Pour modifier les informations sur le sous-onglet Finances du projet :
    >Pour effectuer les étapes suivantes, vous devez disposer des autorisations de gestion sur le projet. Nous recommandons également que seule la personne propriétaire du projet modifie le sous-onglet Finances du projet.
 
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finance** . La zone Finances s’ouvre alors pour modification.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finance**. La zone Finances s’ouvre alors pour modification.
 1. Modifier un champ qui peut être modifié en cliquant sur le champ ou cliquez sur **+Ajouter** pour ajouter des informations dans un champ vide.
 
    >[!TIP]
@@ -166,7 +166,7 @@ Pour modifier les informations sur le sous-onglet Finances du projet :
 
    >[!NOTE]
    >
-   >Selon la manière dont votre administrateur ou administratrice Workfront configure notre modèle de mise en page, les champs de la section Détails du projet peuvent être différents dans votre environnement. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la manière dont votre administrateur Workfront a configuré votre modèle de mise en page, les champs de la section Détails du projet peuvent être différents dans votre environnement. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 

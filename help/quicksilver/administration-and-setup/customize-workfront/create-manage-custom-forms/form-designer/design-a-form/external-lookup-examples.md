@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: c6adce09acf993ae00b080ac5177dabd953d69a1
+source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1462'
 ht-degree: 43%
 
 ---
@@ -32,7 +32,7 @@ Pour plus d’informations sur l’ajout d’un champ Recherche externe à un fo
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ Cet exemple montre comment appeler l’API Workfront et renseigner une liste de 
 
 ### Utiliser des valeurs de champ personnalisé dans la recherche externe
 
-Cet exemple montre comment appeler l’API Workfront et importer les données d’un champ personnalisé dans votre champ de recherche externe. L’exemple de champ personnalisé s’appelle « Couleurs personnalisées ».
+Cet exemple montre comment appeler l’API Workfront et importer des données d’un champ personnalisé dans votre champ de recherche externe. L’exemple de champ personnalisé s’appelle « Couleurs personnalisées ».
 
 1. Ouvrez le formulaire personnalisé.
 1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites glisser le champ vers une section du canevas.
