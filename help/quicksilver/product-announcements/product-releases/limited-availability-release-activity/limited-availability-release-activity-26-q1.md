@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bc222ec76ac94a44c33ee166036d84c164b1da01
+source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,19 @@ Dans la recherche avancée Affectations avancées, la sélection d&#39;une optio
 
 L’indicateur de performance clé Heures planifiées de l’écran Affectations avancées n’est plus modifiable lorsque la durée de la tâche est de 0. Auparavant, vous pouviez modifier les heures prévues, mais les modifications n’étaient pas enregistrées.
 
-<!--### Maintenance Updates week of November 30-December 6, 2025
+### Semaine des mises à jour de maintenance du 30 novembre au 6 décembre 2025
+
+**Le champ Date du taux de change est masqué lorsque les taux de change effectifs à la date ne sont pas utilisés**
+
+Le champ **Date du taux de change** de la zone Détails du projet > Finances est désormais masqué lorsque la case **Utiliser des taux de change effectifs à la date du système** n&#39;est pas cochée. Auparavant, lors de la modification d’un projet, le champ de date s’affichait dans les détails du projet même lorsque les taux de change en vigueur à la date n’étaient pas activés.
+
+<!--### Maintenance Updates week of December 7-13, 2025
 
 **Title**
 
 text
 
-### Maintenance Updates week of December 7-13, 2025
+### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
