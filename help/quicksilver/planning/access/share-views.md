@@ -330,9 +330,9 @@ Les utilisateurs et utilisatrices qui accèdent à un lien vers une vue pour laq
 1. (Conditionnel) Si vous êtes le responsable d&#39;une vue, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les domaines suivants :
 
    * Une notification in-app
-     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
+     ![&#x200B; Notification in-app pour la demande d’accès à la vue &#x200B;](assets/in-app-notification-for-access-request-for-view.png)
    * Notification par e-mail
-     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
+     ![&#x200B; Notification in-app pour la demande d’accès à la vue &#x200B;](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou
 Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications**, puis cliquez sur la notification dans la liste.
