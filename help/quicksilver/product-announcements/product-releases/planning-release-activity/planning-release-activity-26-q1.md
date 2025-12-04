@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 4%
+source-wordcount: '724'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,21 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Suppression du partage public de vues sur un type d’enregistrement global dans un espace de travail secondaire
+
+
+>[!NOTE]
+>
+>Aperçu : 3 décembre 2025
+>Version rapide de production : 4 décembre 2025
+>Production pour tous : 15 janvier 2026
+
+
+Nous avons supprimé l&#39;onglet Partage public lors du partage d&#39;une vue pour un enregistrement global dans un espace de travail secondaire. Vous ne pouvez pas partager publiquement une vue à partir d’un type d’enregistrement global ajouté à un autre espace de travail à partir d’un type d’enregistrement global existant. Vous pouvez partager publiquement une vue de type enregistrement global à partir de son espace de travail d’origine.
+
+Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
+
 
 ## Connecter des marques GenStudio for Performance Marketing à des types d’enregistrements Workfront Planning
 
