@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
+source-git-commit: 364d1263070c0249d13290700d705e29eb646012
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 96%
+source-wordcount: '1691'
+ht-degree: 93%
 
 ---
 
@@ -101,7 +101,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets a
 | Modèles |   |   | ✓ |
 | Données financières |   |   | ✓ |
 | Gestion des ressources |   |   | ✓ |
-| Planificateur de scénarios |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
+| Planificateur de scénarios |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
 | Panneaux |   |   | ✓ |
 | Page d’accueil |   |   | ✓ |
 | Objectifs |   |   | ✓ |
@@ -263,6 +263,11 @@ Ce qui suit est vrai pour les utilisateurs et utilisatrices disposant de ce nive
 * peuvent effectuer des demandes et les mettre à jour ;
 * peuvent charger et approuver des documents ;
 * peuvent approuver des projets, des tâches et des problèmes ;
+
+  >[!NOTE]
+  >
+  >Les contributeurs peuvent participer aux validations mais ne peuvent pas accéder à l&#39;onglet Validations pour afficher ou gérer les processus de validation.
+
 * peuvent examiner le statut des problèmes qu’elles ont soumis ;
 * Ils peuvent être affectés à des tâches, mais ne peuvent pas les terminer.
 * Ils ne peuvent accéder aux demandes qu’à partir du menu principal. Pour plus d’informations sur les files d’attente des demandes, voir [Créer une file d’attente des demande](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -333,9 +338,9 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Problème | ✓ |   |   |
 | Portefeuilles | ✓ |   |   |
 | Programmes | ✓ |   |   |
-| Rapports (y compris les tableaux de bord et les rapports de calendrier) |   | ✓ (Uniquement pour les rapports de calendrier, impossible de partager les rapports) |   |
+| Rapports (y compris les tableaux de bord et les rapports de calendrier) |   | ✓ (uniquement pour les rapports de calendrier ; pas de possibilité de partager des rapports) |   |
 | Filtres, vues et regroupements | ✓ |   |   |
-| Document |   | ✓ (impossible de partager des documents) |   |
+| Document |   | ✓ (pas de possibilité de partager des documents) |   |
 | l’utilisateur ou de l’utilisatrice |   | ✓ |   |
 | Équipes | ✓ |   |   |
 | Modèle | ✓ |   |   |
