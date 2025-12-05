@@ -137,7 +137,7 @@ Les conditions d’un projet donnent un aperçu de base des performances actuell
 Pour plus d’informations sur les conditions du projet, consultez les articles suivants :
 
 * [Mettre à jour la condition d’un projet](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-* [ Conditions personnalisées ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+* [&#x200B; Conditions personnalisées &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 ## Liste des états d’intégrité des projets et programmes
 
