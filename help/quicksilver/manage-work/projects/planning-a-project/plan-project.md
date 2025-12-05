@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: fb57f04a4031eaf38f88c3a1b2542d64ee230a8c
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 79%
+source-wordcount: '1673'
+ht-degree: 75%
 
 ---
 
@@ -85,27 +85,6 @@ Vous pouvez créer plusieurs planifications dans votre instance Workfront et app
 
 Pour plus d’informations sur les plannings, consultez l’article [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-### Gérer les informations supplémentaires nécessaires à la planification du projet {#manage-additional-information-needed-for-planning-the-project}
-
-Lors de la planification d’un projet, d’autres informations doivent être configurées avant de pouvoir commencer à travailler sur le projet.
-
-Envisagez de poser les questions suivantes :
-
-* Y a-t-il une réglementation qui vous impose de conserver un enregistrement des événements et des processus ? Si tel est le cas, quels sont les éléments que vous avez l’obligation de suivre ?
-
-  Workfront vous permet d’enregistrer les modifications, les changements de portée, les changements de statut et les actions afin que vous puissiez vous conformer aux réglementations spécifiques à votre secteur d’activité.\
-  Pour plus d’informations sur la définition des mises à jour à suivre dans Workfront, consultez l’article [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-* Existe-t-il des informations que vous devez suivre et qui n’ont pas de champ dans Workfront où les stocker ?
-
-  Si oui, créez des formulaires personnalisés pour les projets ou les tâches dans lesquels vous pouvez stocker ces informations.
-
-  Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-* Des points de contrôle d’approbation doivent-ils être accordés avant de pouvoir poursuivre le travail ? Si oui, créez des processus d’approbation pour les projets ou les tâches que vous pouvez utiliser lors de la création de votre projet.
-
-  Pour plus d’informations sur la création de processus d’approbation, voir l’article [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-
 ## Créer la chronologie du projet
 
 Une fois que vous avez déterminé les principaux objectifs d’un projet et que vous avez décidé que celui-ci vaut la peine d’être poursuivi, vous devez calculer la chronologie de chaque objectif. Chaque objectif peut devenir l’une de vos tâches sur le projet.
@@ -172,3 +151,32 @@ Lors de la définition de tâches, tenez compte des points suivants :
    * Réaffectez les tâches aux utilisateurs et utilisatrices qui sont disponibles sans aucune autre contrainte.\
      Pour plus d’informations sur la planification des ressources de votre projet, voir l’article [Planification des ressources : index des articles](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      Pour plus d’informations sur la planification de vos ressources pour accomplir le travail sur un projet, voir [Vue d’ensemble de l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
+## Gérer les informations supplémentaires nécessaires à la planification du projet {#manage-additional-information-needed-for-planning-the-project}
+
+Lors de la planification d’un projet, d’autres informations doivent être configurées avant de pouvoir commencer à travailler sur le projet.
+
+Envisagez de poser les questions suivantes :
+
+* Y a-t-il une réglementation qui vous impose de conserver un enregistrement des événements et des processus ? Si tel est le cas, quels sont les éléments que vous avez l’obligation de suivre ?
+
+  Workfront vous permet d’enregistrer les modifications, les changements de portée, les changements de statut et les actions afin que vous puissiez vous conformer aux réglementations spécifiques à votre secteur d’activité.\
+  Pour plus d’informations sur la définition des mises à jour à suivre dans Workfront, consultez l’article [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+* Existe-t-il des informations que vous devez suivre et qui n’ont pas de champ dans Workfront où les stocker ?
+
+  Si oui, créez des formulaires personnalisés pour les projets ou les tâches dans lesquels vous pouvez stocker ces informations.
+
+  Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+* Avez-vous besoin de documenter les processus et travaillez-vous avec des ressources qui font partie du travail quotidien ou qui déterminent la résolution du projet ? Si oui, créez un système de stockage des documents.
+
+  Pour plus d’informations, voir [Documents : index des articles](/help/quicksilver/documents/documents-overview.md).
+
+* Des points de contrôle d’approbation doivent-ils être accordés avant de pouvoir poursuivre le travail ? Si oui, créez des processus d&#39;approbation pour les projets ou les tâches que vous pouvez utiliser pendant la création de votre projet et faites l&#39;inventaire des documents ou épreuves qui doivent être approuvés avant que le travail puisse continuer.
+
+  Pour plus d’informations sur les approbations, consultez les articles suivants :
+
+   * [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+   * [Vérifier et approuver du travail](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
+   * [Fonctionnalité disponible pour les approbations de documents unifiés](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)

@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 364d1263070c0249d13290700d705e29eb646012
+source-git-commit: 5cea1b349867dbb408af97e6c2402a0d799af87b
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 93%
+source-wordcount: '1698'
+ht-degree: 92%
 
 ---
 
@@ -102,8 +102,6 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets a
 | Données financières |   |   | ✓ |
 | Gestion des ressources |   |   | ✓ |
 | Planificateur de scénarios |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
-| Panneaux |   |   | ✓ |
-| Page d’accueil |   |   | ✓ |
 | Objectifs |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -155,8 +153,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
   <tr> 
    <td>Tâches</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td> </td> 
+   <td></td> 
+   <td>✓ (limité)</td> 
   </tr> 
   <tr> 
    <td>Problèmes</td> 
@@ -215,7 +213,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
   <tr> 
    <td>Données financières</td> 
    <td></td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (le paramètre par défaut est Aucun accès)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -229,23 +227,13 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
    <td> </td> 
    <td> </td> 
    <td>✓ (Le paramètre par défaut est Pas d’accès.)</td> 
-  </tr> 
-  <tr> 
-   <td>Panneaux </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-     <tr> 
-   <td>Page d’accueil </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr>   
+  </tr>
+
+<tr>   
    <td>Objectifs </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (le paramètre par défaut est Aucun accès)</td> 
  </tbody> 
 </table>
 
@@ -282,8 +270,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 
 | Types d’objets Workfront | Pas d’accès | Accès en affichage | Accès en modification |
 |---|---|---|---|
-| Projet |   | ✓ |   |
-| Tâche |   | ✓ |   |
+| Projet |   | ✓ (limité) |   |
+| Tâche |   | ✓(limité) |   |
 | Problème |   |   | ✓ |
 | Portefeuilles |   | ✓ |   |
 | Programmes |   | ✓ |   |
@@ -292,13 +280,11 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Document |   |   | ✓ |
 | l’utilisateur ou de l’utilisatrice |   | ✓ |   |
 | Équipes |   | ✓ |   |
-| Modèle | ✓ |   |   |
+| Modèles | ✓ |   |   |
 | Données financières | ✓ |   |   |
 | Gestion des ressources | ✓ |   |   |
 | Planificateur de scénarios | ✓ |   |   |
-| Panneaux |   |   | ✓ (cartes simples) |
-| Page d’accueil |   | ✓ (Mes mises à jour) |   |
-| Objectifs |   |   | ✓ |
+| Objectifs |   |   | ✓ (le paramètre par défaut est Aucun accès) |
 
 {style="table-layout:auto"}
 
@@ -343,12 +329,10 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Document |   | ✓ (pas de possibilité de partager des documents) |   |
 | l’utilisateur ou de l’utilisatrice |   | ✓ |   |
 | Équipes | ✓ |   |   |
-| Modèle | ✓ |   |   |
+| Modèles | ✓ |   |   |
 | Données financières | ✓ |   |   |
 | Gestion des ressources | ✓ |   |   |
 | Planificateur de scénarios | ✓ |   |   |
-| Panneaux | ✓ |   |   |
-| Page d’accueil | ✓ |   |   |
 | Objectifs | ✓ |   |   |
 
 
