@@ -6,10 +6,10 @@ description: En plus d’utiliser les brouillons disponibles, suggérés par Wor
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
+source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 72%
+source-wordcount: '863'
+ht-degree: 70%
 
 ---
 
@@ -73,20 +73,15 @@ La procédure de création de requêtes à partir de brouillons diffère entre l
 
 
 
-<!--
-   
-1. Open the draft.
 
-   Drafts can be found in the following locations:
-
-   * In the requests list in the Requests area
-   * In the requests list in the My Requests widget in Home
-   * In the New request dialog (includes only drafts of requests created with the selected form)
-   
--->
 1. Ouvrez le brouillon.
 
-   Les brouillons se trouvent dans la boîte de dialogue Nouvelle demande (ne comprend que les brouillons des demandes créées avec le formulaire sélectionné).
+   Les brouillons se trouvent aux emplacements suivants :
+
+   * Dans la liste des demandes de la zone des Demandes
+   * Dans la liste des requêtes du widget Mes requêtes de l’Accueil
+   * Dans la boîte de dialogue Nouvelle demande (inclut uniquement les brouillons de demandes créées avec le formulaire sélectionné)
+
 1. Mettez à jour les informations relatives à la demande, tel que décrit dans la section [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Facultatif et le cas échéant) À tout moment au cours de la saisie de la demande, cliquez sur **Ignorer** le brouillon si vous souhaitez supprimer le brouillon. Le brouillon est supprimé.
 

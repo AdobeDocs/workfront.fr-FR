@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 88%
+source-wordcount: '1606'
+ht-degree: 87%
 
 ---
 
@@ -256,7 +256,7 @@ Vous pouvez copier et envoyer des requêtes dans la zone des Requêtes de Workfr
 
 1. (Facultatif) Mettez à jour les informations de la demande copiée. Les champs disponibles dépendent de la file d’attente des demandes ou du formulaire de demande utilisé pour la demande.
 
-   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+   Lorsque vous saisissez ou modifiez des valeurs de champ dans la demande copiée, elle est enregistrée en tant que brouillon.
 
 1. Cliquez sur **Soumettre**.
 
