@@ -5,10 +5,10 @@ description: Vous pouvez contrôler les niveaux d’accès de votre organisation
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 8a0923bbdc8731652e59647409ef9b32e802e895
+source-git-commit: 184636b0d8df85e75502fc3650900244cfbd0e80
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 37%
+source-wordcount: '245'
+ht-degree: 31%
 
 ---
 
@@ -25,7 +25,7 @@ En tant qu’administrateur ou administratrice Workfront, vous pouvez contrôler
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -46,10 +46,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Activation ou désactivation de l’assistant AI dans Workfront
 
->[!NOTE]
->
->L’assistant AI est désactivé par défaut pour les utilisateurs non-administrateurs.
-
 Pour activer l’assistant AI pour un niveau d’accès donné :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
@@ -58,4 +54,11 @@ Pour activer l’assistant AI pour un niveau d’accès donné :
 1. Dans la zone **Définir des restrictions supplémentaires...** de la case **Modifier le niveau d’accès**, désélectionnez la case **Désactiver l’assistant Workfront AI**.
 1. Cliquer sur **Enregistrer**.
 1. Répétez les étapes 3 à 5 pour chaque niveau d’accès pour lequel vous souhaitez activer l’assistant AI.
+
+
+
+>[!NOTE]
+>
+>* L’assistant AI est désactivé par défaut pour les utilisateurs non-administrateurs.
+>* Si un non-administrateur interagit avec l’icône de l’assistant AI dans Workfront, le contrat de l’assistant AI s’affiche, demandant au non-administrateur d’accepter les conditions générales. S’ils acceptent le contrat, ils peuvent utiliser l’assistant AI même si celui-ci est désactivé dans leur modèle de mise en page.
 
