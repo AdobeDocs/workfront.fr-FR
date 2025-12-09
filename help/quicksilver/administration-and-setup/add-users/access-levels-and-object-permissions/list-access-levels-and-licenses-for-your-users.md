@@ -1,5 +1,5 @@
 ---
-title: Liste des niveaux d’accès et des licences de vos utilisateurs
+title: Répertorier les niveaux d'accès et les licences de vos utilisateurs
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 97%
+source-wordcount: '334'
+ht-degree: 91%
 
 ---
 
 # Liste des niveaux d’accès et des licences de vos utilisateurs et utilisatrices
+
+>[!NOTE]
+>
+>Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les nouveaux niveaux d’accès, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Vous pouvez voir le niveau d’accès et la licence attribués à chaque utilisateur et utilisatrice dans une liste ou un rapport.
 

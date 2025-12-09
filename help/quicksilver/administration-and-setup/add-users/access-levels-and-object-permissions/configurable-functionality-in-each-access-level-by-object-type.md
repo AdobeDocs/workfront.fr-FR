@@ -5,20 +5,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3508'
 ht-degree: 97%
 
 ---
 
 # Accès configurable aux fonctionnalités pour chaque type d’objet
 
-Lors de la configuration d’un niveau d’accès pour votre organisation, vous pouvez déterminer les actions spécifiques disponibles pour le niveau d’accès.
+>[!NOTE]
+>
+>Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les nouveaux niveaux d’accès, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
-Cet article explique les options qu’un administrateur Adobe Workfront peut sélectionner pour chaque type d’objet, à chaque niveau d’accès. Il explique également quelle est la configuration par défaut pour chaque type de niveau d’accès.
+Lors de la configuration d’un niveau d’accès pour votre organisation, vous pouvez déterminer quelles actions spécifiques sont disponibles pour le niveau d’accès.
 
-Par exemple, si un administrateur Workfront sélectionne &quot;Afficher&quot; pour les projets d’un niveau d’accès donné, les utilisateurs disposant de ce niveau d’accès pourront uniquement afficher les projets et non les modifier.
+Cet article explique les options qu’un administrateur Adobe Workfront peut sélectionner pour chaque type d’objet, dans chaque niveau d’accès. Il explique également quelle est la configuration par défaut pour chaque type de niveau d’accès.
+
+Par exemple, si un administrateur Workfront sélectionne « Afficher » pour les projets avec un niveau d’accès donné, les utilisateurs disposant de ce niveau d’accès ne pourront afficher que les projets, et non les modifier.
 
 Pour plus d’informations sur toutes les fonctionnalités disponibles pour un type d’objet à chaque niveau d’accès, voir [Fonctionnalités disponibles pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 

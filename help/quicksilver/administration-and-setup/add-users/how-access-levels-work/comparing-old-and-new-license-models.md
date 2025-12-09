@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 44%
+source-wordcount: '349'
+ht-degree: 41%
 
 ---
 
 # Comparaison des fonctionnalités entre les modèles de licence
 
-Ce tableau présente les fonctionnalités disponibles pour les licences dans l’ancien et le nouveau modèle de licence.
+Il existe deux types de niveaux d&#39;accès dans Adobe Workfront :
+
+* Nouveaux niveaux d&#39;accès. Pour plus d’informations, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+* Niveaux d’accès hérités. Pour plus d&#39;informations, voir [Présentation des niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+
+Le tableau suivant présente les fonctionnalités disponibles pour les licences dans les modèles de licence hérité et nouveau.
 
 <table style="table-layout:auto"> 
  <col> 

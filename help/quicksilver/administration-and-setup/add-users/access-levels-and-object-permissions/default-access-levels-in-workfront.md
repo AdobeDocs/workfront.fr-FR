@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 92%
+source-wordcount: '1654'
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->Cet article décrit les niveaux d’accès intégrés actuels dans Adobe Workfront. Pour plus d’informations sur les nouveaux niveaux d’accès intégrés, voir [Vue d’ensemble des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les nouveaux niveaux d’accès, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Chacun des six niveaux d’accès intégrés actuels est conçu pour un type particulier d’utilisateur ou d’utilisatrice. Ces niveaux d’accès vous permettent de contrôler ce que les personnes peuvent modifier et afficher dans le système.
@@ -107,8 +107,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets a
 | Modèles |   |   | ✓ |
 | Données financières |   |   | ✓ |
 | Gestion des ressources |   |   | ✓ |
-| Planificateur de scénarios |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
-| Objectifs Workfront |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
+| Planificateur de scénarios |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
+| Objectifs Workfront |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
 
 {style="table-layout:auto"}
 
@@ -131,21 +131,21 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 
 | Types d’objets Workfront | Pas d’accès | Accès en affichage | Accès en modification |
 |---|---|---|---|
-| Projets |   |   | ✓ (Limité : les personnes peuvent uniquement partager le projet, créer des tâches et des problèmes et modifier les données dans des formulaires personnalisés qui y sont déjà associés.) |
+| Projets |   |   | ✓ (Limité : les utilisateurs peuvent uniquement partager le projet, y créer des tâches et des événements, et modifier les données de formulaires personnalisés déjà joints à celui-ci.) |
 | Tâches |   |   | ✓ |
 | Problèmes |   |   | ✓ |
-| Portefeuilles |   | ✓ (Le paramètre par défaut est Pas d’accès.) |   |
-| Programmes |   | ✓ (Le paramètre par défaut est Pas d’accès.) |   |
+| Portefeuilles |   | ✓ (le paramètre par défaut est Aucun accès.) |   |
+| Programmes |   | ✓ (le paramètre par défaut est Aucun accès.) |   |
 | Rapports, tableaux de bord et calendriers |   | ✓ |   |
 | Filtres, vues et regroupements |   |   | ✓ |
 | Documents |   |   | ✓ |
 | Utilisateurs |   |   | ✓ |
 | Équipes |   |   | ✓ (Accès limité) |
 | Modèles | ✓ |   |   |
-| Données financières |   | ✓ (Le paramètre par défaut est Pas d’accès. Le paramètre Vue permet à la personne de n’afficher que la zone Finance dans les détails du projet.) |   |
+| Données financières |   | ✓ (Le paramètre par défaut est Aucun accès. Le paramètre Vue permet à la personne de n’afficher que la zone Finance dans les détails du projet.) |   |
 | Gestion des ressources |   | ✓ |   |
-| Planificateur de scénarios |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
-| Objectifs Workfront |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
+| Planificateur de scénarios |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
+| Objectifs Workfront |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
 
 {style="table-layout:auto"}
 
@@ -293,8 +293,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 
 | Types d’objets Workfront | Pas d’accès | Accès en affichage | Accès en modification |
 |---|---|---|---|
-| Projet |   | ✓ (Page Détails du projet uniquement) |   |
-| Tâche |   | ✓(Page Détails de la tâche uniquement) |   |
+| Projet |   | ✓ (uniquement la page Détails du projet) |   |
+| Tâche |   | ✓(uniquement la page Détails de la tâche) |   |
 | Problème |   |   | ✓ |
 | Portefeuilles | ✓ |   |   |
 | Programmes | ✓ |   |   |
@@ -307,7 +307,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Données financières | ✓ |   |   |
 | Gestion des ressources | ✓ |   |   |
 | Planificateur de scénarios | ✓ |   |   |
-| Objectifs Workfront |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
+| Objectifs Workfront |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
 
 {style="table-layout:auto"}
 
@@ -338,9 +338,9 @@ Bien que ces paramètres ne soient pas visibles dans la zone Niveaux d’accès 
 | Problème | ✓ |   |   |
 | Portefeuilles | ✓ |   |   |
 | Programmes | ✓ |   |   |
-| Rapports, tableaux de bord et calendriers |   | ✓ (Uniquement pour les rapports de calendrier, impossible de partager les rapports) |   |
+| Rapports, tableaux de bord et calendriers |   | ✓ (uniquement pour les rapports de calendrier ; pas de possibilité de partager des rapports) |   |
 | Filtres, vues et regroupements | ✓ |   |   |
-| Documents |   | ✓ (Sans possibilité de partager des documents) |   |
+| Documents |   | ✓ (sans possibilité de partager des documents) |   |
 | Utilisateurs |   | ✓ |   |
 | Équipes |   | ✓ |   |
 | Modèles | ✓ |   |   |

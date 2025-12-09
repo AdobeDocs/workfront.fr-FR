@@ -3,22 +3,26 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Accès aux objets et aux zones par de nouvelles licences
+title: Accès aux objets et zones par de nouvelles licences
 description: Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou Afficher) que chacune des licences Adobe Workfront autorise pour les objets et les zones de Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 29af5a01c1d5fcec35ac0061a478e5721f6770c0
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 93%
+source-wordcount: '433'
+ht-degree: 88%
 
 ---
 
 # Accéder aux objets et aux zones avec de nouvelles licences
 
 <!-- Audited: 2/2024 -->
+
+>[!NOTE]
+>
+>Les informations contenues dans cet article se rapportent aux nouveaux niveaux d’accès. Pour plus d&#39;informations sur les niveaux d&#39;accès hérités, voir [Présentation des niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou Afficher) que chacune des licences Adobe Workfront autorise pour les objets et les zones de Workfront.
 
@@ -153,7 +157,7 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
 >
 >* Les utilisateurs et utilisatrices externes ne peuvent pas rechercher des éléments dans Workfront. Ces personnes peuvent consulter les documents et les calendriers qui sont spécifiquement partagés avec elles. Elles peuvent également voir les utilisateurs et utilisatrices qui partagent des éléments avec elles.
 >
->* Les utilisateurs contributeurs et externes ne peuvent pas voir le contenu partagé à l’échelle du système.  Il doit être partagé avec eux explicitement.
+>* Les utilisateurs contributeurs et les utilisateurs externes ne peuvent pas voir le contenu partagé à l’échelle du système.  Il doit être partagé explicitement avec eux.
 
 Vous trouverez des informations détaillées sur les niveaux d’accès autorisés pour chaque objet et zone dans les articles suivants :
 

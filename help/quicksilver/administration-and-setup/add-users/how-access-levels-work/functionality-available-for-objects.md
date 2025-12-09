@@ -10,16 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 02ca85404dfc2a00c94e21a6642748ab3ee39015
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 94%
+source-wordcount: '1335'
+ht-degree: 92%
 
 ---
 
 # Fonctionnalités disponibles pour chaque type d’objet pour les nouveaux niveaux d’accès
 
 {{highlighted-preview}}
+
+>[!NOTE]
+>
+>Les informations contenues dans cet article se rapportent aux nouveaux niveaux d’accès. Pour plus d&#39;informations sur les niveaux d&#39;accès hérités, voir [Présentation des niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Les tableaux suivants répertorient les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 
@@ -28,7 +32,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 >[!NOTE]
 >
 >* Cet article décrit les fonctionnalités disponibles pour les niveaux d’accès dans le nouveau modèle de plan Workfront. Pour consulter les fonctionnalités disponibles dans le modèle de plan actuel, reportez-vous à la section [Fonctionnalité disponible pour chaque type d&#39;objet pour différents niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Pour obtenir la liste des fonctionnalités disponibles pour les différents plans dans le nouveau modèle de plan, voir [Tarification et emballage Adobe Workfront](https://business.adobe.com/fr/products/workfront/pricing.html).
+>* Pour obtenir la liste des fonctionnalités disponibles pour les différents plans dans le nouveau modèle de plan, voir [Tarification et emballage Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projets
 

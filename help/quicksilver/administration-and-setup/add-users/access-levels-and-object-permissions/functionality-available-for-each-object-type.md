@@ -10,16 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: e894c1e2134d025420205c6575329a2a9079fadf
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 94%
+source-wordcount: '1586'
+ht-degree: 93%
 
 ---
 
 # Fonctionnalités disponibles pour chaque type d’objet pour différents niveaux d’accès
 
 {{highlighted-preview}}
+
+>[!NOTE]
+>
+>Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les nouveaux niveaux d’accès, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Les tableaux suivants répertorient les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 

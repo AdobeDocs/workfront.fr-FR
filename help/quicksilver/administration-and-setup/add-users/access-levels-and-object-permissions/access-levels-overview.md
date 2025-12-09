@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 97%
+source-wordcount: '328'
+ht-degree: 81%
 
 ---
 
 # Vue d’ensemble des niveaux d’accès
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les nouveaux niveaux d’accès, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous attribuez un niveau d’accès à un utilisateur ou une utilisatrice à deux fins :
 
@@ -57,8 +62,18 @@ Pour plus d’informations sur les sujets liés aux niveaux d’accès, voir les
    <td> <p>Pour savoir comment attribuer un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Niveaux d’accès Standard, Light, Contribution</td> 
-   <td> <p>Si vous voyez ces niveaux d’accès dans votre environnement au lieu de Plan, Travail, Révision ou Demande, c’est que votre organisation utilise le nouveau modèle de niveaux d’accès. Pour plus d’informations sur le nouveau modèle, voir <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Vue d’ensemble des nouveaux niveaux d’accès</a>.</p> </td> 
+   <td><b>Types de niveaux d’accès</b></td> 
+   <td><p>Il existe deux types de niveaux d'accès dans Workfront :</p>
+   <ul><li>Niveaux d'accès hérités</li>
+   <ul><li>Plan</li>
+   <li>Travail</li>
+   <li>Vérifier</li>
+   <li>Demande</li></ul>
+   <li>Nouveaux niveaux d'accès :</li>
+   <ul><li>Standard</li>
+   <li>Léger</li>
+   <li>Contributeur</li></ul></ul> 
+   <p>Pour plus d'informations sur les nouveaux niveaux d'accès, voir <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Présentation des nouveaux niveaux d'accès</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 
