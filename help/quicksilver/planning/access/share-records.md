@@ -177,7 +177,7 @@ Vous pouvez ajuster les autorisations sur des enregistrements individuels, si vo
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les enregistrements avec des autorisations héritées sur ](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Autorisations pour les enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations de niveau Affichage ou supérieur sur l’espace de travail et le type d’enregistrement peuvent afficher l’enregistrement.
 
@@ -230,7 +230,7 @@ Vous pouvez ajuster les autorisations sur des enregistrements individuels, si vo
 
 1. Partagez le lien copié avec d’autres personnes. Les utilisateurs et utilisatrices qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à la page du type d’enregistrement et l’afficher dans la vue sélectionnée. Ils doivent disposer d’autorisations sur le type d’enregistrement pour pouvoir l’afficher. Pour plus d’informations, voir également [Partager des enregistrements à l’aide d’un lien](/help/quicksilver/planning/records/share-records.md).
 
-## Supprimer des autorisations d’un enregistrement (************** CECI A ÉTÉ COPIÉ À PARTIR DES TYPES D’ENREGISTREMENTS, IL DOIT ÊTRE MODIFIÉ POUR LES ENREGISTREMENTS, MAIS ATTENDEZ LA RÉPONSE SLACK DE LA LISTE **********)
+## Supprimer des autorisations d’un enregistrement (**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B; CECI A ÉTÉ COPIÉ À PARTIR DES TYPES D’ENREGISTREMENTS, IL DOIT ÊTRE MODIFIÉ POUR LES ENREGISTREMENTS, MAIS ATTENDEZ LA RÉPONSE SLACK DE LA LISTE &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**)
 
 Vous pouvez supprimer les autorisations des utilisateurs d’un enregistrement. Cependant, ils conserveront au moins les autorisations d’affichage sur l’espace de travail d’enregistrement, qui leur donnent également au moins les autorisations d’affichage sur le type d’enregistrement. Vous devez supprimer leur accès de l’espace de travail si vous souhaitez qu’ils ne disposent d’aucune autorisation sur les types d’enregistrements de l’espace de travail.
 
