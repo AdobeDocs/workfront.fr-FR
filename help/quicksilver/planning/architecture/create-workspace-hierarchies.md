@@ -34,7 +34,7 @@ Après avoir connecté des types d’enregistrements dans un espace de travail e
 
 Les hiérarchies génèrent des chemins de navigation pour les types d’enregistrements et les <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> d’enregistrements qui s’affichent dans leurs en-têtes. Ainsi, les utilisateurs savent où ils se trouvent dans la hiérarchie à n’importe quelle étape de leur workflow.
 
-Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [ Présentation des hiérarchies et des chemins de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [&#x200B; Présentation des hiérarchies et des chemins de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Conditions d’accès
 
