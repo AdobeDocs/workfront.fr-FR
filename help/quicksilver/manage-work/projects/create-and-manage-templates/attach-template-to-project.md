@@ -6,10 +6,10 @@ description: Vous pouvez joindre un modèle à un projet pendant la phase de cr�
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 48%
+source-wordcount: '1126'
+ht-degree: 46%
 
 ---
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -159,15 +159,23 @@ Vous pouvez joindre un modèle à un projet à partir de la page du projet, d’
      </tr> 
      <tr> 
       <td role="rowheader">Les tâches de modèle sélectionnées ci-dessous sont importées dans le projet.Désélectionnez celles que vous souhaitez exclure. </td> 
-      <td>Désélectionnez les tâches à exclure du modèle avant de l’associer au projet.</td> 
+      <td><p>Désélectionnez les tâches à exclure du modèle avant de l’associer au projet.</p>
+      <p><b>CONSEIL</b></p>
+      <p>Vous ne pouvez choisir qu'une seule tâche.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Sélectionnez la tâche de projet que vous souhaitez désigner comme tâche antérieure pour ce modèle.</td> 
-      <td> <p>Cliquez sur le champ pour afficher la liste des tâches du projet, puis sélectionnez la tâche qui doit se terminer avant que les tâches du modèle puissent commencer. Vous pouvez également ignorer cette étape et configurer des relations au sein du projet une fois le modèle joint. </p> <p> Sélectionnez les informations <strong>Type de dépendance</strong>, <strong>Délai</strong> et si vous souhaitez que le prédécesseur soit appliqué en cochant la case <strong>Appliquer le prédécesseur</strong>. </p> </td> 
+      <td> <p>Cliquez dans la zone de champ pour afficher la liste des tâches du projet, puis sélectionnez la tâche qui doit se terminer avant que les tâches du modèle puissent commencer. Vous pouvez également ignorer cette étape et configurer des relations au sein du projet une fois le modèle joint. </p> <p> Sélectionnez les informations <strong>Type de dépendance</strong>, <strong>Délai</strong> et si vous souhaitez que le prédécesseur soit appliqué en cochant la case <strong>Appliquer le prédécesseur</strong>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Sélectionnez la tâche du projet que vous souhaitez comme parent dans ce modèle.</td> 
-      <td> Sélectionnez la tâche de projet que vous souhaitez désigner comme tâche parent pour toutes les tâches du modèle. Si vous ne faites pas de sélection, toutes les tâches de modèles apparaissent à la fin de vos tâches de projet actuelles. Vous pouvez ignorer cette étape et déplacer les tâches dans le projet une fois le modèle joint.</td> 
+      <td> <p>Sélectionnez la tâche de projet que vous souhaitez désigner comme tâche parent pour toutes les tâches du modèle. Si vous ne faites pas de sélection, toutes les tâches de modèles apparaissent à la fin de vos tâches de projet actuelles. Vous pouvez ignorer cette étape et déplacer les tâches dans le projet une fois le modèle joint.</p>
+      <p><b>NOTE</b></p>
+      <p>Si vous avez sélectionné une tâche de modèle parent avec des enfants supplémentaires, seul le parent affichera la tâche du projet comme son prédécesseur une fois qu'elle aura été ajoutée au projet. Les tâches de modèles enfants n’affichent pas de prédécesseur.</p>
+      <p>Si vous avez sélectionné uniquement une tâche de modèle enfant, la tâche de projet s'affichera comme son prédécesseur une fois qu'elle aura été ajoutée au projet. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Section Options</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 

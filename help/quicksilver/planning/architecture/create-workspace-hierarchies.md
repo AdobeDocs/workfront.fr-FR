@@ -4,10 +4,10 @@ description: En tant que gestionnaire d'espace de travail, vous pouvez créer pl
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 12%
+source-wordcount: '619'
+ht-degree: 6%
 
 ---
 
@@ -34,8 +34,7 @@ Après avoir connecté des types d’enregistrements dans un espace de travail e
 
 Les hiérarchies génèrent des chemins de navigation pour les types d’enregistrements et les <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> d’enregistrements qui s’affichent dans leurs en-têtes. Ainsi, les utilisateurs savent où ils se trouvent dans la hiérarchie à n’importe quelle étape de leur workflow.
 
-Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [&#x200B; Présentation des hiérarchies et des chemins de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
+Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [ Présentation des hiérarchies et des chemins de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Conditions d’accès
 
@@ -81,3 +80,58 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 +++
 
 ## Créer une hiérarchie d’espace de travail
+
+{#step1-to-planning}
+
+1. Cliquez sur une carte d’espace de travail.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’espace de travail, puis cliquez sur **Paramètres**.
+La section **Hiérarchies** s’ouvre par défaut.
+1. Cliquez sur **Nouvelle hiérarchie** dans le coin supérieur droit de la page **Hiérarchies**.
+1. Cliquez sur **Ajouter un objet** et sélectionnez un objet dans le menu déroulant. Il s’agira de l’objet parent dans votre hiérarchie.
+Vous pouvez sélectionner un type d’enregistrement dans l’espace de travail actuel ou un projet dans Workfront.
+1. Cliquez sur **Ajouter un objet** pour ajouter un second objet qui est le premier enfant de votre hiérarchie, puis sélectionnez un autre objet dans le menu déroulant.
+   ![Nouvelle zone de hiérarchie sans champ sélectionné](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+1. Cliquez sur **Sélectionner le champ connecté** pour indiquer quel champ connecte les deux objets.
+1. (Conditionnel) S’il existe un champ connecté entre les deux types d’objet, sélectionnez-le dans la liste. Sinon, cliquez sur **Ajouter une nouvelle connexion**.
+
+   >[!WARNING]
+   >
+   >Si le champ **Créer le champ correspondant sur le type d’enregistrement lié** n’a pas été sélectionné lors de la création du champ connecté, vous devez d’abord modifier le champ avant de pouvoir continuer.
+
+1. (Conditionnel) Si vous ajoutez une nouvelle connexion, procédez comme suit :
+
+   1. Ajoutez un nom pour votre champ connecté dans la zone **Nom**.
+   1. Sélectionnez l’un des types de connexion suivants :
+
+      * **Plusieurs à plusieurs**
+      * **Un à plusieurs**
+      * **Plusieurs à un**
+      * **Un à un**
+   1. Sélectionnez l’un des types d’apparences d’enregistrement suivants :
+
+      * **Nom et image**
+      * **Nom**
+      * **Image**
+Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+   1. Cliquer sur **Enregistrer**.
+1. (Facultatif) Continuez à ajouter jusqu’à 4 types d’objets à vos hiérarchies en suivant les étapes ci-dessus. Vous pouvez d’abord ajouter tous vos types d’objets, puis ajouter les champs de connexion entre eux.
+1. (Facultatif) Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/minus-icon.png) pour supprimer une connexion.
+1. Cliquez sur **Enregistrer** pour enregistrer votre hiérarchie.
+
+   >[!TIP]
+   >
+   >Le bouton **Enregistrer** est grisé si tous les champs connectés ne sont pas en place.
+
+   Les événements suivants se produisent :
+
+   * La hiérarchie est ajoutée à la section **Hiérarchies** de l’espace de travail.
+   * Les enregistrements qui renseignent les champs de connexion affichent toutes les connexions dans leurs chemins de navigation, lorsque vous accédez à la page d&#39;un enregistrement.
+1. (Facultatif) Pointez sur une hiérarchie, puis cliquez sur le menu **Plus**, puis sur l’une des options suivantes :
+
+   * **Modifier** : permet d’ouvrir la boîte de dialogue **Modifier la hiérarchie** dans laquelle vous pouvez apporter des modifications.
+   * **Supprimer** : supprime définitivement la hiérarchie. Les hiérarchies supprimées ne peuvent pas être récupérées. Les champs de connexion ne sont pas supprimés.
+
+
+
+
+
