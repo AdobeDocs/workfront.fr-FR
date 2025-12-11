@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2170'
 ht-degree: 1%
 
 ---
@@ -29,8 +29,6 @@ recommendations: noDisplay, noCatalog
 
 
 # Prise en main de l’intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing
-
-<!--update the text in the title everywhere this article is linked from - it changed a few times-->
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -109,7 +107,7 @@ Le tableau suivant décrit les exigences en matière d’accès et d’autorisat
    <td role="rowheader"><p>Rôles utilisateur Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Tout rôle d’utilisateur GenStudio pour accéder aux campagnes, aux produits et aux rôles</li>
    <li>GenStudio System Manager pour accéder aux activations <!--and Events--></li></ul>
-   Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> Rôles utilisateur et autorisations </a>. 
+   Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> Rôles utilisateur et autorisations </a>. 
    </p>
   </td> 
   </tr>   
@@ -164,7 +162,7 @@ Pour plus d’informations sur Adobe GenStudio for Performance Marketing, consul
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -243,19 +241,18 @@ Les sections ci-dessous décrivent les éléments suivants :
 
   Pour plus d’informations, voir [Gérer l’espace de travail GenStudio dans Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 * L’espace de travail GenStudio est automatiquement partagé avec tous les utilisateurs de GenStudio qui ont également accès à Workfront lors de sa création dans Workfront Planning.
-* Lorsque vous disposez d’autorisations de niveau Gérer pour l’espace de travail GenStudio dans Planning, vous pouvez :
+* En tant que gestionnaire d’espace de travail pour l’espace de travail GenStudio dans Planning, vous pouvez :
 
    * Mise à jour de l’espace de travail GenStudio dans Planning (nom, description, icône)
    * Créer des sections
    * Ajouter des types d’enregistrements
    * Partager avec d’autres personnes
 
-     Vous pouvez partager l’espace de travail GenStudio avec d’autres personnes qui ne disposent pas d’un compte GenStudio. Vous ne pouvez le partager qu’avec les utilisateurs disponibles dans le système Identity Management (IMS) de votre organisation.
+     >[!NOTE]
+     >
+     >* Vous pouvez partager l’espace de travail GenStudio avec d’autres personnes qui ne disposent pas d’un compte GenStudio. Vous ne pouvez le partager qu’avec les utilisateurs disponibles dans le système Identity Management (IMS) de votre organisation.
+     >* Vous ne pouvez pas supprimer des utilisateurs GenStudio de l’espace de travail GenStudio ou du partage de ses types d’enregistrements.
 
-     <!--
-        >[!NOTE]
-        >
-        >You cannot remove GenStudio users from the GenStudio workspace or its record types'sharing. -->
   <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * Si vous disposez des autorisations de niveau Contribution pour l&#39;espace de travail GenStudio dans Planning, vous ne pouvez pas modifier l&#39;espace de travail à partir de Workfront Planning.
@@ -268,7 +265,7 @@ Les sections ci-dessous décrivent les éléments suivants :
 * Les types d’enregistrements de l’espace de travail GenStudio sont automatiquement partagés avec tous les utilisateurs de GenStudio qui ont également accès à Workfront lorsque l’espace de travail est créé dans Planning.
 * Lorsque vous disposez d’autorisations de niveau Gérer pour l’espace de travail GenStudio dans Planning, vous pouvez effectuer les opérations suivantes à partir de Workfront Planning :
    * Modifier les informations sur les types d’enregistrements GenStudio (leur apparence, paramètres avancés).
-   * Partagez des types d’enregistrements GenStudio avec d’autres utilisateurs.
+   * Partagez des types d’enregistrements GenStudio avec d’autres utilisateurs. Vous ne pouvez pas supprimer des utilisateurs GenStudio du partage des types d’enregistrements GenStudio.
    * Créer des types d’enregistrements. Ces types d’enregistrements restent uniquement dans Workfront Planning. Elles ne s’affichent pas dans GenStudio.
    * Activez les types d’enregistrements de l’espace de travail GenStudio pour vous connecter à partir d’autres espaces de travail.
    * Activez l’ajout des types d’enregistrements de l’espace de travail GenStudio à d’autres espaces de travail.
@@ -372,6 +369,7 @@ Dans Workfront Planning, vous pouvez établir les connexions suivantes entre les
 * Un type d’enregistrement GenStudio et un type d’enregistrement Planning d’un autre espace de travail, si les types d’enregistrement sont configurés pour se connecter à partir d’un autre espace de travail.
 * Un type d’enregistrement GenStudio et un type d’objet Workfront (projets, portfolios, programmes, sociétés, groupes)
 * Un type d’enregistrement GenStudio et un type d’objet AEM Assets.
+* Types d’enregistrements GenStudio et marques GenStudio. La connexion Marques est ajoutée aux types d’enregistrements Produits et Personnes par défaut.
 
 ### Formulaires de demande et automatisations dans le type d’enregistrement GenStudio
 
@@ -386,18 +384,12 @@ Dans Workfront Planning, vous pouvez établir les connexions suivantes entre les
 
 Lorsque votre entreprise dispose d’une intégration entre Workfront Planning et Adobe GenStudio, vous pouvez connecter les types d’enregistrements Planning aux marques GenStudio à partir de n’importe quel type d’enregistrement dans n’importe quel espace de travail de Workfront Planning.
 
-Les marques ne sont pas visibles en tant que cartes de type enregistrement dans l’espace de travail GenStudio. Les marques sont disponibles pour créer de nouvelles connexions à partir de n’importe quel type d’enregistrement Workfront Planning, y compris celles de l’espace de travail GenStudio.
+Les marques sont connectées par défaut aux types d’enregistrements de l’espace de travail GenStudio suivants :
 
-<!-- when this releases, replace the paragraph above with these:
+* Produits
+* Personas
 
-Brands are connected by default to the following GenStudio workspace record types:
-
-    * Products
-    * Personas
-
-Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
-
--->
+Les marques sont disponibles pour la connexion manuelle à tous les autres types d’enregistrements de l’espace de travail GenStudio, ou à partir de tous les autres espaces de travail que vous êtes autorisé à gérer.
 
 ## Environnement de prévisualisation
 

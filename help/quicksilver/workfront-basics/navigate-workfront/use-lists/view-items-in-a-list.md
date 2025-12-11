@@ -5,10 +5,10 @@ description: Vous pouvez consulter des listes d’objets sur  [!DNL Adobe Workfr
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '2275'
-ht-degree: 94%
+source-wordcount: '2405'
+ht-degree: 69%
 
 ---
 
@@ -29,6 +29,13 @@ Voici quelques caractéristiques des listes dans [!DNL Workfront] :
 
   Pour plus d’informations sur la création de listes au niveau du système, voir l’article [Créer, modifier et partager des filtres, des vues et des regroupements par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
+* Voici les types de listes disponibles dans Workfront :
+
+   * Listes standard
+   * Listes améliorées
+
+  Pour plus d’informations, consultez la section [La différence entre les listes standard et améliorées](#the-difference-between-the-standard-and-the-enhanced-lists) dans cet article.
+
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
@@ -38,7 +45,7 @@ Voici quelques caractéristiques des listes dans [!DNL Workfront] :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -99,8 +106,8 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
 
 >[!NOTE]
 >
->* Cette liste n’est pas exhaustive. Chacune de ces listes d’objets peut également apparaître dans un rapport ou un tableau de bord. Par exemple, un rapport de projet ou un tableau de bord contenant un rapport de projet affiche également une liste de projets.
->* Dans cette liste, « sélectionner » signifie que vous devez cliquer sur le nom de l’élément, et non sur la case à cocher située à gauche du nom.
+>Cette liste n’est pas exhaustive. Chacune de ces listes d’objets peut également apparaître dans un rapport ou un tableau de bord. Par exemple, un rapport de projet ou un tableau de bord contenant un rapport de projet affiche également une liste de projets.
+
 
 
 <table style="table-layout:auto"> 
@@ -124,7 +131,7 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
    <td>Liste de programmes</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt; [!UICONTROL Programs]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL cliquer sur un portfolio] &gt;[!UICONTROL Programmes]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programs]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -133,26 +140,26 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt; [!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt; [!UICONTROL Programs] &gt; [!UICONTROL select a program] &gt; [!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL cliquer sur un portfolio] &gt;[!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL cliquer sur un portfolio] &gt;[!UICONTROL Programmes] &gt;[!UICONTROL cliquer sur un programme] &gt;[!UICONTROL Projets]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste de tâches</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Tasks]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Tasks] &gt; [!UICONTROL select a task] &gt; [!UICONTROL Subtasks]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Tasks] &gt; [!UICONTROL select a task] &gt; [!UICONTROL Predecessors*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt; [!UICONTROL Tasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Subtasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Predecessors*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste de problèmes</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] a project &gt; [!UICONTROL Issues]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Tasks] &gt; [!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Tasks] &gt; [!UICONTROL select a task] &gt; [!UICONTROL Subtasks] &gt; [!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click] a project &gt;[!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Subtasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Issues]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -188,11 +195,11 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL select a portfolio] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL select a program] &gt;[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Issues] &gt;[!UICONTROL select an issue] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL cliquer sur un portfolio] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL cliquer sur un portfolio] &gt;[!UICONTROL Programmes] &gt;[!UICONTROL cliquer sur un programme] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click] a project &gt; [!UICONTROL Issues] &gt;[!UICONTROL click an issue] &gt; [!UICONTROL Documents]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -206,38 +213,38 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
    <td>Liste des taux de facturation</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Billing Rates*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Billing Rates*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des enregistrements de facturation</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Billing Records]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click a project] &gt; [!UICONTROL Billing Records]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des risques</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Risks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Risks]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des dépenses</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select] a project &gt;[!UICONTROL Expenses]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] a project &gt;[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des entrées d’heure</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Hours]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Issues] &gt;[!UICONTROL select an issue] &gt;[!UICONTROL Hours]</p> </li>
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] un projet</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Hours]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] un projet &gt;[!UICONTROL Issues] &gt;[!UICONTROL click] un événement &gt;[!UICONTROL Hours]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
@@ -252,7 +259,7 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups]</p> </li>
-     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL select the parent group] &gt;[!UICONTROL Subgroups] </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL click the parent group] &gt;[!UICONTROL Subgroups] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -600,11 +607,11 @@ Le tableau suivant présente les similitudes et les différences entre les liste
  </tbody> 
 </table>
 
-Vous devez avoir accès aux filtres, aux vues et aux regroupements pour pouvoir les créer. Pour plus d’informations, voir [Accorder l’accès aux filtres, aux vues et aux regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+*Vous devez avoir accès aux filtres, vues et regroupements pour pouvoir les créer. Pour plus d’informations, voir [Accorder l’accès aux filtres, vues et regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-Vous devez avoir accès aux filtres, aux vues et aux regroupements ainsi qu’aux rapports, aux tableaux de bord et aux calendriers pour pouvoir les créer. Pour plus d’informations, voir [Accorder l’accès aux rapports, tableaux de bord et calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+**Pour pouvoir créer des filtres, des vues et des regroupements, ainsi que des rapports, des tableaux de bord et des calendriers, vous devez y avoir accès. Pour plus d’informations, voir [Accorder l’accès aux rapports, tableaux de bord et calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-Vous pouvez personnaliser les listes des rapports placés sur un tableau de bord uniquement si la personne qui a créé le rapport a configuré les éléments de la liste pour qu’ils soient visibles sur le tableau de bord.
+***Vous pouvez personnaliser des listes pour les rapports placés sur un tableau de bord uniquement si le créateur du rapport a configuré les éléments de liste pour qu’ils soient visibles sur le tableau de bord.
 
 >[!NOTE]
 >
@@ -612,46 +619,88 @@ Vous pouvez personnaliser les listes des rapports placés sur un tableau de bord
 
 Pour plus d’informations sur la création d’un rapport, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Pour plus d’informations sur la création de sections personnalisées, voir [Créer des onglets ou des sections personnalisés](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
-## Différence entre les listes mises à jour et les listes héritées
+## La différence entre les listes standard et améliorées
 
 Il existe deux types de listes dans [!DNL Workfront] :
 
-* Listes héritées
+* Listes standard
 
-  ![Regroupements bleus](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![Liste de projets standard](assets/standard-list-screen-shot-gray-groupings.png)
 
-* Listes mises à jour
+* Listes améliorées
 
-  ![Regroupements gris](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![Listes améliorées](assets/enhanced-status-list.png)
 
-Le tableau suivant présente certaines des différences entre les listes héritées et les listes mises à jour dans [!DNL Workfront] :
+Les fonctionnalités de chaque liste améliorée varient en fonction de la page à partir de laquelle vous y accédez.
 
-<!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
--->
+Pour plus d’informations sur les listes améliorées, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+
+Le tableau suivant présente quelques-unes des différences entre les listes standard et améliorées dans [!DNL Workfront] :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><b>Listes héritées</b></td> 
-   <td><b>Listes mises à jour</b></td> 
+   <td><b>Listes standard</b></td> 
+   <td><b>Listes améliorées</b></td> 
   </tr> 
-  <td> <p>Afficher <strong>100</strong> éléments par défaut</p> </td> 
-   <td> <p>Afficher <strong>Tous</strong> ou jusqu’à <strong>2 000</strong> éléments par défaut</p> </td> 
+  <tr>
+  <td> <p>Afficher <strong>Tous</strong> ou jusqu’à <strong>2 000</strong> éléments par défaut</p> </td> 
+   <td> Afficher jusqu’à 100 éléments par défaut, et jusqu’à 2 000 après le défilement </td> 
+  </tr>
+
+<tr> 
+   <td>Les icônes situées en haut de la liste sont assez identiques dans toutes les listes, quel que soit l’endroit où vous y accédez. Certaines listes, tâches, événements ou documents comportent des icônes uniques se rapportant à la fonctionnalité de ces types d’objets. </td> 
+   <td>Les icônes en haut de la liste varient selon l’endroit d’où vous accédez à la liste. En outre, une barre bleue s’affiche au bas de la liste lorsque vous sélectionnez des éléments dans la liste.</td> 
+  </tr>
+
+<tr> 
+   <td> <p>Utilisez les icônes de la barre d’outils située en haut de la liste pour interagir avec les éléments de la liste</p> </td> 
+   <td> <p>Effectuez l’une des opérations suivantes pour interagir avec les éléments de la liste, selon ce que vous souhaitez mettre à jour :</p>
+   <ul><li>Utilisez les icônes de la barre d’outils supérieure pour certaines actions telles que la recherche, l’ajout de nouveaux éléments, le tri ou le filtrage</li>
+   <li>Sélectionnez un élément dans la liste et utilisez les icônes de la barre d’outils bleue située en bas de la liste pour effectuer des actions telles que la suppression ou l’affichage d’éléments</li></ul> 
+   </tr>   
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>Utiliser CTRL + F pour rechercher des éléments dans une liste</p> </td> 
-   <td> <p>Utiliser des filtres rapides pour trouver rapidement des informations dans une grande liste</p> <p>Pour plus d’informations sur l’utilisation des filtres rapides dans les listes, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Appliquer le filtre rapide à une liste</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Vous ne pouvez pas modifier en ligne les champs personnalisés avec un formatage de texte riche.</td> 
-   <td> <p>Le texte des champs personnalisés avec mise en forme peut être configuré pour autoriser les caractères gras, italiques, soulignés, les puces, la numérotation, les liens hypertextes et les guillemets.</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Créer un formulaire personnalisé</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>La mise en forme conditionnelle permet de modifier la couleur du texte des liens dans une liste.</td> 
-   <td>Impossible d’appliquer des changements de couleur de texte aux liens d’une liste</td> 
+   <td><p>Vous pouvez appliquer des modifications de couleur de cellule aux éléments d’une liste</p></td>
+   <td><p>Vous pouvez appliquer des modifications de couleur de cellule aux éléments d'une liste uniquement dans Workfront Planning. </p></td>
+   </td> 
+   <td></td> 
   </tr> 
  </tbody> 
 </table>
+
+<!--
+consider adding things like adding fields on the fly in an enhanced list when we will be able to do this-->
+
+<!--old table: 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><b>Legacy lists</b></td> 
+   <td><b>Updated lists</b></td> 
+  </tr> 
+  <td> <p>Display <strong>100</strong> items by default</p> </td> 
+   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Use CTRL+F to find items in a list</p> </td> 
+   <td> <p>Use quick filters to quickly find information in a large list</p> <p>For information about using quick filters in lists, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>You can't inline edit custom fields with rich text formatting.</td> 
+   <td> <p>Text in custom fields with formatting can be configured to allow bold, italics, underline, bullets, numbering, hyperlinks, and block quotes.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Conditional formatting can change the text color of links in a list</td> 
+   <td>Cannot apply text color changes to links in a list</td> 
+  </tr> 
+ </tbody> 
+</table>
+-->

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: bedfd278f59f8cd8ba287cca1d68a7ec3371c7fd
+source-git-commit: df508366dd8cd1c237ad1beffcf86bfb6392c8bb
 workflow-type: tm+mt
-source-wordcount: '13621'
+source-wordcount: '13623'
 ht-degree: 83%
 
 ---
@@ -2182,7 +2182,7 @@ ht-degree: 83%
       * [Gérer les notifications in-app d’Adobe Workfront Planning](planning/notifications/manage-planning-in-app-notifications.md)
    * Adobe Workfront Planning and Gen Studio pour l’intégration du marketing de performances {#planning-and-genstudio-integration}
       * [Intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing : index des articles](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
-      * [Prise en main de l’intégration de Workfront Planning and GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+      * [Prise en main de l’intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Gestion de l’espace de travail GenStudio dans Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Promouvoir un espace de travail Workfront Planning pour GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
 * Intégrations Adobe Workfront {#adobe-workfront-integrations}
@@ -2530,7 +2530,7 @@ ht-degree: 83%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
