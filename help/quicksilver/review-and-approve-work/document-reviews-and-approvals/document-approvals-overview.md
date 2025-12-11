@@ -6,7 +6,7 @@ description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
+source-git-commit: 72915fc9f3c262d9c90fd205c6be3776ac20e303
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 31%
@@ -19,7 +19,7 @@ ht-degree: 31%
 >
 >Le contenu de cet article fait référence à la fonctionnalité d’approbation de document mise à jour, disponible uniquement pour des comptes spécifiques. Pour plus d’informations sur les processus d’approbation standard, reportez-vous aux articles répertoriés dans la section [Approbations de travail](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Les approbations unifiées, précédemment appelées nouvelles approbations de document, constituent une refonte globale du processus d’approbation existant actuellement en cours de développement pour Adobe Workfront. Actuellement disponible en version limitée, celle-ci est conçue comme une solution pratique et efficace pour les entreprises qui ont besoin d’un engagement complet de la part des parties prenantes et d’approbations de documents spécifiques à une version. Sa conception réfléchie et ses nouvelles fonctionnalités simplifient la collaboration, la clarté des rôles et le contrôle des versions dans le processus d’approbation, améliorant ainsi l’efficacité et la prise de responsabilité.
+Les approbations unifiées, précédemment appelées nouvelles approbations de document, constituent une refonte holistique du processus d’approbation existant actuellement en cours de développement pour Adobe Workfront. Actuellement disponible en version limitée, celle-ci est conçue comme une solution pratique et efficace pour les entreprises qui ont besoin d’un engagement complet de la part des parties prenantes et d’approbations de documents spécifiques à une version. Sa conception réfléchie et ses nouvelles fonctionnalités simplifient la collaboration, la clarté des rôles et le contrôle des versions dans le processus d’approbation, améliorant ainsi l’efficacité et la prise de responsabilité.
 
 ## Principales différences par rapport aux validations de relecture et de documents hérités
 
