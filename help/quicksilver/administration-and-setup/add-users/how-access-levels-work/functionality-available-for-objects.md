@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 527a5de08a89bdd4d27d508113b8b0f4b2d73089
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1334'
 ht-degree: 92%
 
 ---
@@ -31,8 +31,8 @@ Ils indiquent également les actions que les administrateurs et administratrices
 
 >[!NOTE]
 >
->* Cet article décrit les fonctionnalités disponibles pour les niveaux d’accès dans le nouveau modèle de plan Workfront. Pour consulter les fonctionnalités disponibles dans le modèle de plan actuel, reportez-vous à la section [Fonctionnalité disponible pour chaque type d&#39;objet pour différents niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Pour obtenir la liste des fonctionnalités disponibles pour les différents plans dans le nouveau modèle de plan, voir [Tarification et emballage Adobe Workfront](https://business.adobe.com/fr/products/workfront/pricing.html).
+>* Cet article décrit les fonctionnalités disponibles pour l’accès aux niveaux dans le nouveau modèle de package Workfront. Pour consulter les fonctionnalités disponibles dans le modèle de package actuel, consultez [Fonctionnalité disponible pour chaque type d’objet pour différents niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* Pour obtenir la liste des fonctionnalités disponibles pour les différents packages dans le dernier modèle, voir [Tarifs et package Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projets
 
@@ -53,7 +53,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 | Ajouter des tâches | ✓ |   |   |   |
 | Envoyer des mises à jour/commentaires | ✓ | ✓ | ✓ |   |
 | Modifier le statut | ✓ |   |   |   |
-| Consigner les heures | ✓ |   |   |   |
+| Consigner les heures | ✓ | <span class="preview">✓</span> |   |   |
 | Modifier les affectations | ✓ |   |   |   |
 | Gérer un niveau de référence | ✓ |   |   |   |
 | Gérer les risques | ✓ |   |   |   |

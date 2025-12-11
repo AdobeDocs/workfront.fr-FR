@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 88%
+source-wordcount: '468'
+ht-degree: 81%
 
 ---
 
 # Accéder aux objets et aux zones avec de nouvelles licences
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -44,7 +46,7 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
     <tr>
         <td>Projets</td>
         <td>Modifier</td>
-        <td>Afficher</td>
+        <td><span class="preview">Modifier **</span></td>
         <td>Afficher</td>
         <td>Pas d’accès
 </td>
@@ -150,6 +152,8 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
 </table>
 
 &#42; Les personnes disposant d’une licence Contributeur ne peuvent consulter que les rapports, les tableaux de bord et les calendriers qui sont partagés avec elles.
+
+<span class="preview">&#42;&#42; Les utilisateurs disposant d’une licence light ne peuvent enregistrer le temps au niveau du projet que lorsque l’accès en modification est activé. Ils ne peuvent pas créer, modifier, supprimer ni partager des projets. Le niveau par défaut pour les utilisateurs et utilisatrices légers est Affichage.</span>
 
 >[!NOTE]
 >
