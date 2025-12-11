@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 82%
+source-wordcount: '1249'
+ht-degree: 63%
 
 ---
 
@@ -43,7 +43,7 @@ Vous pouvez localiser les types de demandes suivants que vous ou une autre perso
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,44 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Localiser les demandes envoyées
 
-Pour localiser les demandes que vous ou d’autres utilisateurs et utilisatrices avez envoyées :
+La localisation des requêtes envoyées diffère selon que vous utilisez l’expérience de requête nouvelle ou héritée.
+
+### Localiser les demandes envoyées dans la nouvelle expérience de demande
+
+Pour localiser les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans la nouvelle expérience de requête :
+
+{{step1-to-requests}}
+
+1. Assurez-vous que le bouton (bascule) **Utiliser une nouvelle expérience** dans le coin supérieur droit de l’écran est activé.
+
+   La liste Demandes s’affiche.
+
+1. (Facultatif) Pour rechercher une requête, commencez à saisir du texte dans la barre de recherche située en haut à droite de la liste. Les résultats de la recherche s’affichent au fur et à mesure que vous tapez.
+1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez localiser.
+
+   Vous pouvez filtrer selon les champs suivants :
+
+   * **Workspace** : espace de travail auquel le formulaire de demande est associé.
+   * **Type d’enregistrement** : type d’enregistrement auquel le formulaire de demande est associé.
+   * **Date d’entrée** : date à laquelle la demande a été soumise.
+   * **Formulaire de demande** : nom du formulaire de demande utilisé pour soumettre la demande.
+   * **Statut** : statut de la demande.
+   * **Saisi par** : nom de l’utilisateur qui a ajouté la demande. Si la demande a été ajoutée par une personne extérieure à Workfront, le champ **Saisi par** affiche `N/A`.
+
+   Plusieurs filtres peuvent être joints par **Et** ou **Ou**.
+La liste des demandes est automatiquement filtrée à mesure que vous ajoutez les conditions de filtrage.
+1. (Facultatif) Utilisez des vues pour placer le focus sur les requêtes que vous souhaitez localiser.
+
+   Pour obtenir des instructions, voir [Création ou modification de vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+>[!NOTE]
+>
+>* Si vous disposez de Workfront Planning, vos demandes Workfront et Planning apparaissent dans la même liste. Les requêtes Workfront affichent la valeur `Issue` dans la colonne Type d’objet .
+>* La liste Demandes s’affiche avec 50 demandes. Pour afficher plus de requêtes, faites défiler la liste vers le bas.
+
+### Localiser les requêtes envoyées dans l’expérience de requête héritée
+
+Pour localiser les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans l’expérience de requête héritée :
 
 {{step1-to-requests}}
 
