@@ -6,10 +6,10 @@ description: Vous pouvez supprimer les tâches qui pourraient être des doublons
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 96%
+source-wordcount: '810'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Pour les tâches qui contiennent des informations historiques (mises à jour, ch
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -98,37 +98,40 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 La suppression d’une tâche a un impact sur les autres objets liés à cette tâche.
 
-Les objets suivants attachés à une tâche sont également supprimés lorsque vous supprimez une tâche :
+Tenez compte des points suivants :
 
-* Documents
+* Les objets suivants attachés à une tâche sont également supprimés lorsque vous supprimez une tâche :
+
+   * Documents
 
   Vous ne pouvez pas supprimer une tâche à laquelle est joint un document qui a été extrait. Pour plus d’informations sur l’extraction de documents, voir [Extraire des documents](../../../documents/managing-documents/check-out-documents.md).
 
-* Problèmes
-* Sous-tâches
-* Notes
-* Approbations
+   * Problèmes
+   * Sous-tâches
+   * Notes
+   * Approbations
 
-Selon la façon dont votre administrateur ou administratrice Workfront configure les préférences de suppression de projet, de tâche ou de problème dans les préférences de feuille de temps et d’heures de votre instance Workfront, les heures consignées pour les tâches sont traitées de l’une des façons suivantes lors de la suppression d’une tâche :
+* Selon la façon dont votre administrateur ou administratrice Workfront configure les préférences de suppression de projet, de tâche ou de problème dans les préférences de feuille de temps et d’heures de votre instance Workfront, les heures consignées pour les tâches sont traitées de l’une des façons suivantes lors de la suppression d’une tâche :
 
-* Les heures consignées sont déplacées vers le projet et ne seront pas restaurées sur la tâche si celle-ci est restaurée ultérieurement.
-* Les heures consignées sont supprimées et seront restaurées sur la tâche, si celle-ci est restaurée ultérieurement.
+   * Les heures consignées sont déplacées vers le projet et ne seront pas restaurées sur la tâche si celle-ci est restaurée ultérieurement.
+   * Les heures consignées sont supprimées et seront restaurées sur la tâche, si celle-ci est restaurée ultérieurement.
 
   Cela s’applique également lorsque vous essayez de supprimer des projets dans lesquels se trouvent des tâches avec des heures consignées.
 
-  <!--
+  Pour plus d’informations sur la configuration des préférences de suppression des heures consignées sur les problèmes, voir [Configurer les préférences de feuilles de temps et d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * Les dépenses relatives à la tâche seront transférées au projet.
+
+   * Les utilisateurs et utilisatrices affectés à la tâche ou à l’approbation de la tâche restent dans l’équipe de projet.
+
+  Pour plus d’informations sur les équipes de projet, voir [Vue d’ensemble de l’équipe de projet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+
+* Lorsque vous supprimez une tâche enfant et que vous déplacez son parent vers un autre projet, puis que vous restaurez la tâche enfant supprimée, la tâche est de nouveau ajoutée au projet d’origine en tant que tâche principale.
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  Pour plus d’informations sur la configuration des préférences de suppression des heures consignées sur les problèmes, voir [Configurer les préférences de feuilles de temps et d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-* Les dépenses relatives à la tâche seront transférées au projet.
-
-* Les utilisateurs et utilisatrices affectés à la tâche ou à l’approbation de la tâche restent dans l’équipe de projet.
-
-  Pour plus d’informations sur les équipes de projet, voir [Vue d’ensemble de l’équipe de projet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Supprimer des tâches
 

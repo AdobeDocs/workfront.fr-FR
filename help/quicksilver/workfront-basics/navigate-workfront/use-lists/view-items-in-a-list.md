@@ -5,16 +5,16 @@ description: Vous pouvez consulter des listes d’objets sur  [!DNL Adobe Workfr
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 69%
+source-wordcount: '2301'
+ht-degree: 72%
 
 ---
 
 # Commencer avec les listes dans [!DNL Adobe Workfront]
 
-<!--Audited: 11/2024-->
+<!--Audited: 12/2025-->
 
 Vous pouvez consulter des listes d’objets sur [!DNL Adobe Workfront] pour obtenir des informations sur ces derniers, telles que leurs dates de début et d’échéance, les utilisateurs et utilisatrices qui leur sont affectés et les autres objets qui leur sont associés.
 
@@ -206,7 +206,7 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
    <td>Liste des feuilles de temps</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Timesheet] s  &gt; [!UICONTROL All Timesheets]*</p> </li> 
+     <li> <p>[!UICONTROL Feuilles de temps] &gt; [!UICONTROL Toutes les feuilles de temps]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -293,7 +293,7 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
  </tbody> 
 </table>
 
-Vous ne pouvez pas personnaliser la liste dans la zone spécifiée. Un administrateur ou une administratrice [!DNL Workfront] peut créer une liste personnalisée au niveau du système, ou vous pouvez créer un rapport pour cet objet si votre niveau d’accès vous permet de modifier des rapports.
+*Vous ne pouvez pas personnaliser la liste dans la zone spécifiée. Un administrateur ou une administratrice [!DNL Workfront] peut créer une liste personnalisée au niveau du système, ou vous pouvez créer un rapport pour cet objet si votre niveau d’accès vous permet de modifier des rapports.
 
 ## Éléments de liste
 
@@ -649,25 +649,19 @@ Le tableau suivant présente quelques-unes des différences entre les listes sta
   </tr> 
   <tr>
   <td> <p>Afficher <strong>Tous</strong> ou jusqu’à <strong>2 000</strong> éléments par défaut</p> </td> 
-   <td> Afficher jusqu’à 100 éléments par défaut, et jusqu’à 2 000 après le défilement </td> 
+   <td> Afficher tous les éléments de la liste après un défilement manuel </td> 
   </tr>
 
 <tr> 
-   <td>Les icônes situées en haut de la liste sont assez identiques dans toutes les listes, quel que soit l’endroit où vous y accédez. Certaines listes, tâches, événements ou documents comportent des icônes uniques se rapportant à la fonctionnalité de ces types d’objets. </td> 
-   <td>Les icônes en haut de la liste varient selon l’endroit d’où vous accédez à la liste. En outre, une barre bleue s’affiche au bas de la liste lorsque vous sélectionnez des éléments dans la liste.</td> 
+   <td>L’interaction avec les éléments de la liste est cohérente pour tous les types d’objet. Pour ce faire, utilisez les icônes situées en haut de la liste.  </td> 
+   <td>L’interaction avec les éléments de la liste peut varier en fonction du type d’objet. Pour ce faire, utilisez les icônes situées en haut de la liste ou la barre d’outils bleue activée après avoir sélectionné les éléments de la liste. </td> 
   </tr>
 
-<tr> 
-   <td> <p>Utilisez les icônes de la barre d’outils située en haut de la liste pour interagir avec les éléments de la liste</p> </td> 
-   <td> <p>Effectuez l’une des opérations suivantes pour interagir avec les éléments de la liste, selon ce que vous souhaitez mettre à jour :</p>
-   <ul><li>Utilisez les icônes de la barre d’outils supérieure pour certaines actions telles que la recherche, l’ajout de nouveaux éléments, le tri ou le filtrage</li>
-   <li>Sélectionnez un élément dans la liste et utilisez les icônes de la barre d’outils bleue située en bas de la liste pour effectuer des actions telles que la suppression ou l’affichage d’éléments</li></ul> 
-   </tr>   
-   </td> 
+</td> 
   </tr> 
   <tr> 
    <td><p>Vous pouvez appliquer des modifications de couleur de cellule aux éléments d’une liste</p></td>
-   <td><p>Vous pouvez appliquer des modifications de couleur de cellule aux éléments d'une liste uniquement dans Workfront Planning. </p></td>
+   <td><p>Vous ne pouvez pas appliquer de modifications de la couleur des cellules aux éléments d’une liste. </p></td>
    </td> 
    <td></td> 
   </tr> 
