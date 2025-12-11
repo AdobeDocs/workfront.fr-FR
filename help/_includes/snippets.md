@@ -1,5 +1,5 @@
 ---
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: b2d495496f61c88e5b454073f77e3836c129513b
 workflow-type: tm+mt
 source-wordcount: '2609'
 ht-degree: 92%
@@ -371,8 +371,8 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 **Dernière version** :
 
-* Mac : 2.1.52 au 7/31/2025
-* Windows : 2.1.52 du 7/31/2025
+* Mac : 2.1.54 au 12/11/2025
+* Windows : 2.1.54 du 12/11/2025
 
 <!-- Release -->
 
