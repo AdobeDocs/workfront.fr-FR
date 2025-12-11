@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '2108'
 ht-degree: 16%
 
 ---
@@ -40,6 +40,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations des documents et des approbations](#documents-and-approvals-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
+* [Améliorations apportées aux projets](#project-enhancements)
 * [Amélioration des rapports](#reporting-enhancements)
 * [Améliorations des demandes](#requests-enhancements)
 * [Autres améliorations](#other-enhancements)
@@ -149,6 +150,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+### Améliorations apportées aux projets
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Fonctionnalité</strong>
+        </td>
+        <td><strong>Aperçu</strong></td>
+        <td><strong>Version rapide</strong></td>
+        <td><strong>Tous les trimestres</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-projects.md" class="MCXref xref" xrefformat="{para}">Les utilisateurs légers peuvent enregistrer le temps passé sur les projets</a>
+            <p>Les utilisateurs de Light peuvent désormais consigner le temps directement dans les projets. Auparavant, seuls les utilisateurs de licence standard pouvaient enregistrer des heures sur les projets.</p>
+        </td>
+        <td>vendredi 11 décembre 2025</td>
+        <td>vendredi 15 janvier 2026</td>
+        <td>vendredi 15 janvier 2026</td>
+    </tr>   
+  </tbody>
+</table>
+
 ### Amélioration des rapports
 
 <table style="table-layout:auto">
@@ -162,7 +186,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplication d’un rapport dans un tableau de bord Zone de travail</a><p>![!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplication d’un rapport dans un tableau de bord Zone de travail</a><p>![BADGE Off schedule]{type=Neutral}</p>
             <p>Vous pouvez désormais dupliquer un rapport d’indicateur de performance clé, de tableau ou de graphique dans un tableau de bord de zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant d’enregistrer.</p>
         </td>
         <td>vendredi 23 octobre 2025</td>
@@ -223,6 +247,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Le remplissage de formulaire optimisé par l’IA est désormais disponible pour les requêtes</a>
+            <p>Pour faciliter la création de requêtes, nous avons créé un remplissage de formulaire optimisé par l’IA. Désormais, vous pouvez coller une invite ou charger un document dans un formulaire de demande, et AI extraira les informations pertinentes et remplira le formulaire.  </p>
+        </td>
+        <td>vendredi 11 décembre 2025</td>
+        <td>vendredi 11 décembre 2025</td>
+        <td>vendredi 11 décembre 2025</td>
+    </tr> 
     <tr>
         <!--<td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
@@ -295,6 +328,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>vendredi 13 novembre 2025</td>
         <td>vendredi 15 janvier 2026</td>
              </tr>   
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience est désormais disponible pour plus d’organisations Workfront</a>.<p></p>
+            <p>Pour permettre aux entreprises d’accéder aux avantages de l’expérience unifiée Adobe, nous continuons à la rendre disponible pour les clients Workfront existants.</p>
+        </td>
+        <td><p>vendredi 11 décembre 2025</p></td>
+        <td><p>vendredi 15 janvier 2026</p></td>
+        <td><p>vendredi 15 janvier 2026</p></td>
+    <tr>
             </tbody>
         </table>
 
@@ -330,6 +372,16 @@ Il n’existe aucune mise à jour pour les éléments suivants à ce stade de la
 * Objectifs
 
 ## Mises à jour du lecteur de vérification pour bureau
+
+### Version 2.1.54
+
+**Version de production pour tous les clients : 11 décembre 2025**
+
+Le lecteur de vérification pour bureau a été mis à jour et passe de la version 2.1.52 à la version 2.1.54. Cette mise à jour incluait des mises à jour d’outils internes et n’avait aucune incidence sur les fonctionnalités des utilisateurs finaux.
+
+La version 2.1.53 incluait également des modifications d’outils internes.
+
+Cette mise à jour concerne Mac et Windows.
 
 ### Version 2.1.52
 
@@ -385,7 +437,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
+source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 24%
@@ -25,7 +25,7 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 >* Aperçu : 13 octobre 2025
 >* Version rapide de production : 13 octobre 2025
 >* Version de production pour toute la clientèle : mardi 13 octobre 2025
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>[!BADGE Hors programme ]{type=Neutral}
 
 L&#39;onglet Résumé d&#39;un rapport a été mis à jour avec les améliorations suivantes :
 
@@ -69,7 +69,9 @@ Votre administrateur Workfront recevra un message du Centre d’annonces concern
 
 Pour plus d’informations, voir [Adobe Unified Experience pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}## Mises à jour des listes améliorées
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+
+## Mises à jour des listes améliorées
 
 >[!NOTE]
 >

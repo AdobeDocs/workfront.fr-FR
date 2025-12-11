@@ -4,10 +4,10 @@ description: Améliorations des demandes du premier trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 10%
+source-wordcount: '452'
+ht-degree: 7%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 10%
 Cette page décrit les améliorations apportées aux demandes à l’environnement Aperçu dans la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2026, consultez l’article [Vue d’ensemble de la version du premier trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Le remplissage de formulaire optimisé par l’IA est désormais disponible pour les requêtes.
+
+>[!NOTE]
+>
+>Aperçu : 11 décembre 2025
+>Version rapide de production : 11 décembre 2025\
+>Production pour tous : 11 décembre 2025
+
+Pour faciliter la création de requêtes, nous avons créé un remplissage de formulaire optimisé par l’IA. Désormais, vous pouvez coller une invite ou charger un document dans un formulaire de demande, et AI extraira les informations pertinentes et remplira le formulaire.
+
+L’IA doit être activée pour que votre entreprise puisse accéder à cette fonctionnalité.
+
+Pour plus d’informations sur le remplissage de formulaire optimisé par l’IA, notamment sur ce qui est nécessaire pour activer l’IA pour votre organisation, consultez la section [ Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 <!--## Share views in the Requests area and the My Requests widget
 
@@ -37,8 +51,8 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >Aperçu : 20 novembre 2025
->Version rapide de production : 11 décembre 2025\
->Production pour tous : 16 janvier 2026
+>Version rapide de production : 14 janvier 2026\
+>Production pour tous : 15 janvier 2026
 
 Pour faciliter la création et l’envoi de demandes, nous avons ajouté la possibilité d’enregistrer des brouillons dans la nouvelle expérience de demande. Désormais, lorsque vous commencez à remplir une demande et que vous la fermez, la demande est enregistrée au statut Brouillon et figure sur le formulaire de demande utilisé pour créer le brouillon. Vous pouvez ensuite rouvrir, mettre à jour et envoyer le brouillon à votre convenance.
 
@@ -53,8 +67,8 @@ Pour plus d’informations sur les brouillons de demandes, voir [Création de de
 >[!NOTE]
 >
 >Aperçu : 20 novembre 2025
->Version rapide de production : 11 décembre 2025\
->Production pour tous : 16 janvier 2026
+>Version rapide de production : 14 janvier 2026\
+>Production pour tous : 15 janvier 2026
 
 Pour que vos requêtes restent plus faciles à organiser et à gérer, nous avons ajouté la possibilité de supprimer des requêtes à la nouvelle expérience de requête. Désormais, vous pouvez supprimer les requêtes que vous avez envoyées. Les administrateurs de Workfront et les administrateurs de Workfront Planning Workspace peuvent également supprimer des requêtes.
 
@@ -69,10 +83,17 @@ Pour plus d’informations et d’instructions, voir [Supprimer une demande soum
 >
 >Aperçu : 20 novembre 2025
 >Version rapide de production : 11 décembre 2025\
->Production pour tous : 16 janvier 2026
+>Production pour tous : 15 janvier 2026
 
 Pour faciliter l’envoi de demandes, nous avons ajouté la possibilité de copier des demandes dans la nouvelle expérience de demande. Vous pouvez désormais copier une demande, modifier n’importe quel champ et l’envoyer en tant que nouvelle demande.
 
 Auparavant, cette fonctionnalité n’était pas disponible dans la nouvelle expérience de demande.
 
-Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [&#x200B; Copier et envoyer des traitements &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [ Copier et envoyer des traitements ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+
+
+
+
+
+
+
