@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 36%
+source-wordcount: '789'
+ht-degree: 35%
 
 ---
 
@@ -44,7 +44,7 @@ This article describes how you can share a view with others. For information abo
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout package Workfront and Planning</p> 
 Ou
@@ -210,3 +210,5 @@ Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications
 1. Cliquer sur **Enregistrer**.
 
    Les utilisateurs supprimés n’ont plus accès à l’espace de travail ou à ses objets.
+
+   Les utilisateurs qui n’ont plus accès à l’espace de travail ne reçoivent aucune notification les informant qu’ils ne disposent plus de ces autorisations.

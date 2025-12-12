@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 9%
+source-wordcount: '359'
+ht-degree: 10%
 
 ---
 
@@ -23,8 +23,8 @@ Vous pouvez recevoir des notifications in-app de Workfront Planning lorsque les 
 * Quelqu’un vous identifie ou identifie vos équipes dans un commentaire d’enregistrement.
 
   Pour plus d’informations sur le balisage d’autres utilisateurs dans un commentaire d’enregistrement, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
-* Quelqu&#39;un vous demande votre autorisation pour accéder à une vue ou à un espace de travail
-* Quelqu&#39;un confirme que votre accès a été accordé pour une vue ou un espace de travail <!--Isk confirmed there is no notification for denying permissions - did not test-->
+* Quelqu&#39;un vous demande l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail <!--<span class="preview">or record</span>-->
+* Quelqu&#39;un confirme que votre accès a été accordé pour une vue ou un espace de travail <!--<span class="preview">or record</span>--> <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Conditions d’accès
 
@@ -40,7 +40,7 @@ Vous pouvez recevoir des notifications in-app de Workfront Planning lorsque les 
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
@@ -144,7 +144,7 @@ OLD:
 
 1. (Conditionnel) Lorsqu’un utilisateur vous a identifié ou identifié vos équipes dans un commentaire sur un enregistrement, accédez à l’icône in-app **Notifications** ![icône de notifications Experience Cloud](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
 
-   ![&#x200B; Exemple de notification in-app &#x200B;](assets/in-app-notification-example.png)
+   ![ Exemple de notification in-app ](assets/in-app-notification-example.png)
 
 1. Cliquez sur la notification.
 
@@ -155,8 +155,8 @@ OLD:
 
 ## Gérer les notifications in-app lors de la demande et de l’octroi d’autorisations
 
-Vous recevez des notifications in-app lorsqu’une personne vous demande ou vous accorde des autorisations pour une vue ou un espace de travail.
+Vous recevez des notifications in-app lorsqu’une personne vous demande ou vous accorde des autorisations pour une vue ou un espace de travail. <!--<span class="preview">or record</span>-->
 
-Pour plus d&#39;informations sur la demande, l&#39;octroi ou le refus d&#39;autorisations pour une vue ou un espace de travail, voir [Demander des autorisations pour une vue ou un espace de travail](/help/quicksilver/planning/access/request-permissions.md).
+Pour plus d’informations sur la demande, l’octroi ou le refus d’autorisations, voir [Demander des autorisations pour une vue ou un espace de travail](/help/quicksilver/planning/access/request-permissions.md).
 
 Pour plus d’informations sur la gestion des notifications Workfront Planning, voir [Gérer les préférences de notification Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

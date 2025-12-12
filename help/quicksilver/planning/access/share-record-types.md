@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1514'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ Vous pouvez partager un type d’enregistrement avec d’autres utilisateurs pou
 >[!IMPORTANT]
 >
 >Les utilisateurs ayant accès à un espace de travail obtiennent automatiquement au moins des autorisations d’affichage pour tous les types d’enregistrements de l’espace de travail.
->&#x200B;>Le partage de vues ne donne pas aux utilisateurs les autorisations pour les types d’enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations pour les types d’enregistrements.
+>Le partage de vues ne donne pas aux utilisateurs les autorisations pour les types d’enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations pour les types d’enregistrements.
 >
 >* Pour obtenir des informations générales sur le partage d’objets dans Workfront Planning, consultez également la section [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Pour plus d’informations, consultez la section [Considérations lors du partage de types d’enregistrements](#considerations-when-sharing-record-types) de cet article.
@@ -52,7 +52,7 @@ Vous pouvez partager un type d’enregistrement avec d’autres utilisateurs pou
 <tbody> 
     <tr> 
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout package Workfront and Planning</p> 
 Ou
@@ -209,7 +209,7 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations d’affichage ou supérieures pour l’espace de travail peuvent afficher le type d’enregistrement.
 
@@ -275,7 +275,7 @@ Vous pouvez supprimer les autorisations des utilisateurs d’un type d’enregis
 
    Les personnes ne disposent plus des autorisations indiquées pour le type d’enregistrement. Toutefois, ils disposent toujours des autorisations pour l’espace de travail, sauf si vous les supprimez également des autorisations d’espace de travail.
 
-   Les utilisateurs qui ont été supprimés de l’accès à l’affichage ne sont pas avertis qu’ils ne disposent plus de cet accès.
+   Les utilisateurs qui ont été supprimés de l’accès au type d’enregistrement ne reçoivent aucune notification indiquant qu’ils ne disposent plus de ces autorisations.
 
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 

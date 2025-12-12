@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 6%
@@ -25,7 +25,7 @@ ht-degree: 6%
 Votre type de licence Adobe Workfront fonctionne de concert avec vos autorisations Adobe Workfront Planning pour donner les accès suivants :
 
 * Afficher, contribuer ou gérer des espaces de travail ou des types d’enregistrements
-* Afficher ou gérer des vues.
+* Afficher ou gérer des vues. <!--<span class="preview">and records</span>-->
 
 Pour plus d’informations sur les autorisations sur les objets Workfront Planning, consultez [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
@@ -48,7 +48,7 @@ Tenez compte des points suivants lorsque vous utilisez des autorisations de type
 
 | Type de licence Adobe Workfront | Autorisations les plus élevées autorisées dans Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standard | <p>Les utilisateurs peuvent gérer les espaces de travail, les types d’enregistrements et les vues. Ils peuvent créer, modifier ou supprimer des espaces de travail, des types d’enregistrements, des enregistrements, des champs et des vues.</p> <br> <p>Les administrateurs système disposent des autorisations de niveau Gérer pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> |
+| Standard | <p>Les utilisateurs peuvent gérer les espaces de travail, les types d’enregistrements, les <!--<span class="preview">records</span>--> et les vues. Ils peuvent créer, modifier ou supprimer des espaces de travail, des types d’enregistrements, des enregistrements, des champs et des vues.</p><br><p>Les administrateurs système disposent des autorisations de niveau Gérer pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> |
 | Léger ou contributeur | <p>Les utilisateurs peuvent afficher les espaces de travail partagés avec eux, ainsi que les types d’enregistrements, les enregistrements et les champs de ces espaces de travail.</p> <br> <p>Les utilisateurs peuvent afficher les vues partagées avec eux, mais ils ne peuvent pas créer les leurs. </p><br> <p>Les utilisateurs ne peuvent pas créer, modifier ni supprimer des espaces de travail, des types d’enregistrements, des enregistrements ou des champs.</p> |
 
 <!--Old: 
