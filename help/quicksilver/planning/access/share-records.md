@@ -185,7 +185,7 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les enregistrements avec des autorisations héritées sur ](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Autorisations pour les enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations **Vue** ou supérieures sur l’espace de travail et le type d’enregistrement disposent des mêmes autorisations sur l’enregistrement.
 

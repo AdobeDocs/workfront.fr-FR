@@ -144,7 +144,7 @@ OLD:
 
 1. (Conditionnel) Lorsqu’un utilisateur vous a identifié ou identifié vos équipes dans un commentaire sur un enregistrement, accédez à l’icône in-app **Notifications** ![icône de notifications Experience Cloud](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
 
-   ![ Exemple de notification in-app ](assets/in-app-notification-example.png)
+   ![&#x200B; Exemple de notification in-app &#x200B;](assets/in-app-notification-example.png)
 
 1. Cliquez sur la notification.
 

@@ -209,7 +209,7 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations d’affichage ou supérieures pour l’espace de travail peuvent afficher le type d’enregistrement.
 
