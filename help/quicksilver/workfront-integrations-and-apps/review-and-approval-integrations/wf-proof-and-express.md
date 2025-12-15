@@ -83,7 +83,7 @@ Lorsqu’un modèle Express est mélangé, une approbation est requise avant la 
 
 Les utilisateurs doivent disposer d’une licence Workfront standard pour demander l’approbation d’Adobe Express.
 
-Découvrez comment [ obtenir l’approbation des conceptions ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Découvrez comment [&#x200B; obtenir l’approbation des conceptions &#x200B;](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remix des modèles Express et envoi pour révision et approbation
