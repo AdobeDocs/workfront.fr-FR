@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
+source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
@@ -83,7 +83,7 @@ Lorsqu’un modèle Express est mélangé, une approbation est requise avant la 
 
 Les utilisateurs doivent disposer d’une licence Workfront standard pour demander l’approbation d’Adobe Express.
 
-Découvrez comment [&#x200B; obtenir l’approbation des conceptions &#x200B;](https://helpx.adobe.com/fr/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Découvrez comment [ obtenir l’approbation des conceptions ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remix des modèles Express et envoi pour révision et approbation
@@ -97,8 +97,13 @@ Tout au long du processus de production, de révision et d’approbation du cont
 * Lire les commentaires
 * et plus...
 
-<!--Learn how to get approval on designs.   
-need link to help article-->
+### Choisir un projet Workfront lors de la demande d’approbation
+
+Lors de la demande d’approbation d’un modèle Express remixé, les utilisateurs et utilisatrices peuvent choisir un projet Workfront auquel envoyer le BAT. Cela permet de conserver toutes les ressources et épreuves associées organisées au sein d’un même projet.
+
+Si aucun projet n’est sélectionné, l’épreuve est définie par défaut dans un projet spécifique à Express.
+
+Pour plus d’informations, voir [Envoyer les modèles pour révision et approbation](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 ## Vérifier et approuver le fichier remixé Express
 

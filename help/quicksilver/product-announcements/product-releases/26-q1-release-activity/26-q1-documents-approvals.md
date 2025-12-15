@@ -4,10 +4,10 @@ description: Améliorations des documents et approbations du premier trimestre 2
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
+source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '278'
+ht-degree: 12%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 0%
 Cette page décrit les améliorations apportées aux documents et à l’approbation de l’environnement de Prévisualisation à la suite de la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2026, consultez l’article [Vue d’ensemble de la version du premier trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Choisir un projet Workfront lors de l’envoi d’une révision dans Creative Cloud Express
+
+>[!NOTE]
+>
+>Aperçu : 15 décembre 2025
+>Version rapide de production : 15 décembre 2025\
+>Production pour tous : 15 décembre 2025
+
+Vous pouvez choisir un projet Workfront auquel envoyer un BAT. Cela permet de conserver toutes les ressources et épreuves associées organisées au sein d’un même projet.
+
+Auparavant, l’épreuve était automatiquement ajoutée à un projet spécifique à Express.
+
+Pour plus d’informations, voir Intégration d’[Adobe Express avec Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 
 ## Prise en charge inter-organisations d’Adobe Express avec la relecture Workfront
 
