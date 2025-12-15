@@ -5,9 +5,9 @@ description: En savoir plus sur l’assistant IA dans Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 44db621643c76ab1f2c1b51d5e81cb0d1f827a58
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '851'
 ht-degree: 7%
 
 ---
@@ -139,6 +139,10 @@ Pour demander le contrat Adobe Gen AI :
 1. Saisissez le nom et l’adresse e-mail de la personne de votre entreprise qui signera le contrat Adobe Gen AI.
 
    L&#39;accord sera envoyé à cette personne pour signature. Une fois signé et renvoyé, le contrat est examiné par Adobe, puis l’assistant AI est activé pour votre organisation.
+
+   >[!NOTE]
+   >
+   >Veuillez patienter 1 à 3 jours ouvrables après la signature et le renvoi du contrat pour qu’Adobe examine et active l’assistant AI.
 
 ## Conseils pour la création d’invites dans l’assistant AI
 
