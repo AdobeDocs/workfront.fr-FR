@@ -3,9 +3,9 @@ title: Présentation de la hiérarchie et du chemin de navigation
 description: Vous pouvez créer plusieurs hiérarchies d’espace de travail entre les types d’enregistrements d’un espace de travail.
 hide: true
 hidefromtoc: true
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -45,19 +45,17 @@ L’utilisation de hiérarchies dans vos espaces de travail présente les avanta
 * Vous pouvez avoir jusqu&#39;à 4 types d&#39;enregistrements et d&#39;objets connectés dans une seule hiérarchie.
 * Vous ne pouvez connecter que les types d&#39;objets suivants dans une hiérarchie d&#39;espace de travail :
    * Types d’enregistrements appartenant à l’espace de travail dans lequel vous créez les hiérarchies.
-   * Projets Workfront.
+   * Projets Workfront. Les projets Workfront ne peuvent pas être ajoutés en tant que parents d’autres types d’enregistrements. Ils sont toujours le dernier enfant d&#39;une hiérarchie.
 * Vous ne pouvez pas ajouter les types d&#39;objets suivants dans une hiérarchie :
-   * Types d’enregistrements d’autres espaces de travail, même s’ils sont définis comme des types d’enregistrements connectables ou globaux.
+   * Types d’enregistrements d’autres espaces de travail, même s’ils sont définis comme des types d’enregistrements connectables ou globaux. Vous pouvez ajouter des types d&#39;enregistrements globaux aux hiérarchies uniquement lorsqu&#39;ils ont été ajoutés à l&#39;espace de travail à partir duquel vous créez la hiérarchie.
    * Tous les autres objets Workfront.
    * AEM Assets
-* Les hiérarchies peuvent inclure à la fois des types d&#39;enregistrements Planning et des types d&#39;objets Workfront.
+* Les hiérarchies peuvent inclure à la fois des types d&#39;enregistrements Planning et des projets Workfront.
 
       Par exemple, vous pouvez avoir un type d’enregistrement Campagne avec les Tactiques de planification et Projets Workfront comme enfants dans la même hiérarchie d’espace de travail.
   * Si une connexion entre les types d&#39;enregistrements sélectionnés existe déjà, le système réutilise la connexion existante.
 * S’il n’existe aucune connexion, Workfront en crée une dans le cadre de la configuration de la hiérarchie.
-* Le paramètre **Créer le champ correspondant sur le type d’enregistrement lié** doit être activé pour le champ connecté.
-
-  Les types d’enregistrement avec des connexions qui ne créent pas de champ correspondant sur leurs types d’enregistrement liés peuvent également faire partie de hiérarchies, mais lorsque vous créez une connexion pendant la configuration de la hiérarchie, vous devrez toujours créer un champ correspondant sur le type d’enregistrement lié.
+* Le paramètre **Créer le champ correspondant sur le type d&#39;enregistrement lié** doit être activé pour le champ connecté pour les enregistrements et objets que vous souhaitez inclure dans une hiérarchie.
 * Voici des règles pour la configuration de la hiérarchie :
    * Un type d’enregistrement ne peut avoir qu’un seul type d’enregistrement parent dans un espace de travail donné.
 
@@ -79,7 +77,7 @@ Par exemple, la tactique A peut appartenir à la fois à la campagne X et à la 
 
 Lorsque vous créez des hiérarchies entre les types d&#39;enregistrements, elles génèrent des chemins de navigation pour les enregistrements appartenant à ces types d&#39;enregistrements.
 
-Par exemple, si vous créez une hiérarchie et que vous connectez des campagnes à des tactiques, puis à des programmes et enfin à des projets, lorsque vous accédez à un enregistrement de l’un des types connectés dans la hiérarchie, vous pouvez voir où l’enregistrement est placé dans la hiérarchie.
+Par exemple, si vous créez une hiérarchie et que vous connectez des campagnes aux Tactiques, puis aux Activités et enfin aux Projets, lorsque vous accédez à un enregistrement de l’un des types connectés dans la hiérarchie, vous pouvez voir où l’enregistrement est placé dans la hiérarchie.
 
 Tenez compte des points suivants :
 

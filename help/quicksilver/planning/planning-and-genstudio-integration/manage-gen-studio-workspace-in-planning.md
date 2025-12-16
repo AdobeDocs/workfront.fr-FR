@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 78cf61d219cd1214a0846a45e2725fce7a8ebb2c
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1465'
 ht-degree: 3%
 
 ---
@@ -83,7 +83,7 @@ Pour obtenir des informations générales sur l’intégration de GenStudio à W
    <td role="rowheader"><p>Rôles utilisateur Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Tout rôle d’utilisateur GenStudio pour accéder aux campagnes, aux produits et aux rôles</li>
    <li>GenStudio System Manager pour accéder aux activations <!--and Events--></li></ul>
-   Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> Rôles utilisateur et autorisations </a>. 
+   Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> Rôles utilisateur et autorisations </a>. 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ Pour plus d’informations sur Adobe GenStudio for Performance Marketing, consul
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -218,7 +218,7 @@ CAN YOU DO THIS??
 
 1. Cliquez sur **Autres espaces de travail** et recherchez un espace de travail qui comporte une indication créée par le **Système** et la balise **GenStudio** sur sa carte.
 
-   ![Carte d’espace de travail GenStudio avec balise &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
+   ![Carte d’espace de travail GenStudio avec balise ](assets/genstudio-card-with-tag-highlighted.png)
 
 1. Cliquez sur la carte **Espace de travail GenStudio** pour ouvrir l’espace de travail GenStudio dans Workfront Planning.
 1. Par défaut, les types d’enregistrements GenStudio suivants sont créés et visibles à partir de Workfront Planning :
@@ -249,10 +249,13 @@ CAN YOU DO THIS??
 
    Pour plus d’informations, voir [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
 
-   <!--
    >[!NOTE]
    >
-   >You cannot remove GenStudio users from the GenStudio workspace, after you share that workspace with them.-->
+   >Les limites de partage suivantes existent :
+   >
+   >* Vous ne pouvez pas supprimer des utilisateurs GenStudio de l’espace de travail GenStudio après l’avoir partagé avec eux.
+   >* Si un utilisateur dispose d’autorisations dans GenStudio, son accès ne peut pas être remplacé par Affichage dans Workfront Planning. Ils doivent au moins disposer des autorisations de niveau Contribution dans l’espace de travail GenStudio de Planning.
+   >* Vous ne pouvez pas désactiver les autorisations héritées pour les types d’enregistrements GenStudio dans l’espace de travail GenStudio.
 
 1. Cliquez sur l’une des cartes de type d’enregistrement pour afficher les enregistrements de ce type.
 
@@ -349,15 +352,15 @@ Pour plus d’informations, voir [Exporter des enregistrements en mode Tableau](
    >
    >Les enregistrements supprimés peuvent être récupérés à partir de la vue Tableau bin Récemment supprimé dans Workfront Planning. Les enregistrements supprimés de GenStudio peuvent également être récupérés à partir de la classe Récemment supprimés dans Workfront Planning.
 
-   Pour plus d’informations, voir [&#x200B; Restaurer les enregistrements supprimés &#x200B;](/help/quicksilver/planning/records/restore-deleted-records.md)
+   Pour plus d’informations, voir [ Restaurer les enregistrements supprimés ](/help/quicksilver/planning/records/restore-deleted-records.md)
 
 1. Cliquez sur l’icône + dans le coin supérieur droit de la vue du tableau pour créer les éléments suivants :
 
-   * Champs d’enregistrement
+   * Champs
 
      Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md)
 
-   * Connexions d’enregistrement
+   * Connexions
 
      Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md)
 
@@ -369,6 +372,7 @@ Pour plus d’informations, voir [Exporter des enregistrements en mode Tableau](
 
      >[!NOTE]
      >
+     >* Vous ne pouvez ajouter d’autres champs que lorsque vous disposez des autorisations de niveau Gérer dans GenStudio.
      >* Les champs créés dans Workfront Planning ne sont pas visibles dans la vue Liste de GenStudio.
      >
      >* Vous pouvez connecter n’importe quel type d’enregistrement GenStudio au type d’enregistrement Brands GenStudio.
@@ -386,5 +390,6 @@ Pour plus d’informations, voir [Exporter des enregistrements en mode Tableau](
 
    >[!NOTE]
    >
-   >Vous pouvez modifier la configuration d’un champ et ajouter d’autres champs uniquement lorsque vous disposez des autorisations de niveau Gérer dans GenStudio.
+   >* Vous ne pouvez modifier la configuration d’un champ GenStudio que lorsque vous disposez des autorisations de niveau Gérer dans GenStudio.
+   >* Vous ne pouvez pas supprimer un champ GenStudio.
 

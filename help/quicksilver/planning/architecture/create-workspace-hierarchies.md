@@ -4,10 +4,10 @@ description: En tant que gestionnaire d'espace de travail, vous pouvez créer pl
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 6%
+source-wordcount: '662'
+ht-degree: 5%
 
 ---
 
@@ -30,11 +30,14 @@ hidefromtoc: yes
 
 En tant que gestionnaire d&#39;espace de travail, vous pouvez créer plusieurs hiérarchies d&#39;espaces de travail entre les types d&#39;enregistrements dans Adobe Workfront Planning.
 
-Après avoir connecté des types d’enregistrements dans un espace de travail et créé une hiérarchie, les types d’enregistrements sont connectés les uns aux autres, un type d’enregistrement étant désigné comme parent et jusqu’à 6 autres types d’enregistrements étant configurés comme enfants. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Une fois les types d’enregistrements connectés dans un espace de travail, vous pouvez créer une hiérarchie qui organise ces connexions. Les hiérarchies organisent les types d&#39;enregistrements en relations parent-enfant et peuvent contenir jusqu&#39;à quatre niveaux de types d&#39;objets.
+
+S’il n’existe pas encore de connexion entre deux types d’enregistrements, elle peut être créée lorsque vous configurez la hiérarchie. Une fois définie, la hiérarchie établit un chemin d’accès structuré entre les types d’enregistrements associés dans l’espace de travail.
 
 Les hiérarchies génèrent des chemins de navigation pour les types d’enregistrements et les <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> d’enregistrements qui s’affichent dans leurs en-têtes. Ainsi, les utilisateurs savent où ils se trouvent dans la hiérarchie à n’importe quelle étape de leur workflow.
 
-Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [&#x200B; Présentation des hiérarchies et des chemins de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [ Présentation des hiérarchies et des chemins de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Conditions d’accès
 
@@ -87,8 +90,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’espace de travail, puis cliquez sur **Paramètres**.
 La section **Hiérarchies** s’ouvre par défaut.
 1. Cliquez sur **Nouvelle hiérarchie** dans le coin supérieur droit de la page **Hiérarchies**.
-1. Cliquez sur **Ajouter un objet** et sélectionnez un objet dans le menu déroulant. Il s’agira de l’objet parent dans votre hiérarchie.
-Vous pouvez sélectionner un type d’enregistrement dans l’espace de travail actuel ou un projet dans Workfront.
+1. Cliquez sur **Ajouter un objet** et sélectionnez un objet dans le menu déroulant. Il s&#39;agira du premier objet parent dans votre hiérarchie.
+Le premier parent ne peut être qu&#39;un type d&#39;enregistrement Planning. Les projets Workfront ne peuvent pas être sélectionnés en tant que parents d&#39;autres types d&#39;objets dans une hiérarchie.
 1. Cliquez sur **Ajouter un objet** pour ajouter un second objet qui est le premier enfant de votre hiérarchie, puis sélectionnez un autre objet dans le menu déroulant.
    ![Nouvelle zone de hiérarchie sans champ sélectionné](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 1. Cliquez sur **Sélectionner le champ connecté** pour indiquer quel champ connecte les deux objets.
