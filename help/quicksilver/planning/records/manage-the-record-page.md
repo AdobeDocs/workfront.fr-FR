@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1417'
 ht-degree: 6%
 
 ---
@@ -142,9 +142,9 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
  </tbody>
 </table>-->
 
-## Considérations relatives à la modification des pages d’enregistrement
+## Considérations relatives à l’utilisation des pages d’enregistrement
 
-* Par défaut, les détails et les pages de prévisualisation d&#39;un enregistrement affichent tous les champs associés à l&#39;enregistrement.
+* Par défaut, la page de détails d’un enregistrement affiche tous les champs associés à l’enregistrement.
 
 * Vous ne pouvez pas ajouter de nouveaux champs pour un enregistrement dans la page de prévisualisation ou de détails. Vous devez ajouter de nouveaux champs en mode Tableau pour les afficher dans les pages de prévisualisation et de détails.
 
@@ -154,10 +154,17 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    * Réorganisation des champs
    * Ajout ou suppression de sections
+   * Ajouter ou supprimer des pages d’enregistrements connectés
 
 * Les modifications d’affichage effectuées dans la prévisualisation de l’enregistrement sont immédiatement visibles dans la page des détails de l’enregistrement. Les modifications apportées à la page d’enregistrement sont également visibles dans la zone d’aperçu de l’enregistrement.
 
 * L’ajout d’une image de couverture ou d’une miniature à un enregistrement ne fait pas partie de la mise en page globale de l’aperçu de l’enregistrement ou de la page. Vous pouvez ajouter des images de couverture ou des miniatures uniques à chaque enregistrement. Pour plus d’informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) et [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+* Vous pouvez ajouter des pages supplémentaires des types suivants à la page d&#39;un enregistrement :
+
+   * Page Enregistrements connectés
+
+     Pour plus d&#39;informations, consultez la section [Ajouter une page Enregistrements connectés à un enregistrement](#add-a-connected-records-page-to-a-record).
 
 ## Ajouter des sections à un aperçu d’enregistrement ou à une page
 

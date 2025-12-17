@@ -6,7 +6,7 @@ description: La page d’accueil vous aide à gérer votre travail. Vous pouvez 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 77%
@@ -16,6 +16,10 @@ ht-degree: 77%
 # Commencer avec la page d’accueil
 
 <!--Audited: 12/2023-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -66,7 +70,13 @@ Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un
         Affiche 2 graphiques avec des informations sur le temps moyen d&#39;approbation des documents et les décisions, ainsi que des vues de listes des approbations en attente et en retard. Pour utiliser ce widget, vous devez avoir activé [Approbations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 * **Mentions**\
-    Affiche les threads de commentaires récents de Workfront, comme la page Mes mises à jour . Vous pouvez utiliser le bouton de réponse pour rédiger une réponse dans le widget. Ce widget affiche également les commentaires sur les tâches et les problèmes qui vous sont affectés, que vous avez affectés à un autre utilisateur ou une autre utilisatrice, qui vous appartiennent, dont vous êtes le contact principal ou que vous avez créés, à condition que l’élément ait été mis à jour au cours des 30 derniers jours.
+    <!--In the Production environment, it--> Affiche les threads de commentaires récents de Workfront, comme la page Mes mises à jour . Vous pouvez utiliser le bouton de réponse pour rédiger une réponse dans le widget. Ce widget affiche également les commentaires sur les tâches et les problèmes qui vous sont affectés, que vous avez affectés à un autre utilisateur ou une autre utilisatrice, qui vous appartiennent, dont vous êtes le contact principal ou que vous avez créés, à condition que l’élément ait été mis à jour au cours des 30 derniers jours.
+
+  <!--<div class="preview">
+
+    In the Preview environment, it displays recent comments that you made or comments where other users tagged you that have been added in the past 2 weeks. You can use the reply button to compose a reply within the widget. 
+
+    </div>-->
 
 * **À faire**\
     Ce widget unique vous permet d’ajouter des éléments à une liste de contrôle personnelle que vous pouvez modifier librement. Les tâches À faire sont suivies en tant que tâches dans votre projet personnel et restent jusqu’à deux semaines après leur achèvement.

@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 4%
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-Vous pouvez afficher les informations des enregistrements ou objets connectés en ajoutant un onglet pour une page Enregistrements connectés à un enregistrement. Les enregistrements connectés dans une vue Tableau sont alors ajoutés à l’onglet.
+Vous pouvez afficher des informations provenant d&#39;enregistrements ou d&#39;objets connectés en ajoutant un onglet pour la page Enregistrements connectés à un enregistrement dans Adobe Workfront Planning. Les enregistrements connectés dans une vue Tableau sont alors ajoutés à l’onglet.
 
 Tenez compte des points suivants lors de l’ajout d’une page Enregistrements connectés à un enregistrement :
 
@@ -38,12 +38,17 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
    * Table
    * <span class="preview">Timeline</span>
    * <span class="preview">Calendar</span>
+
+* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
+
 -->
 
 * Vous pouvez ajouter des pages Enregistrements connectés pour les types d’objet ou d’enregistrement connectés suivants :
 
    * Types d’enregistrements Workfront Planning
-   * Projets, programmes, portfolios, groupes ou sociétés Workfront. Vous pouvez afficher les objets Workfront connectés même si vous ne disposez pas des autorisations nécessaires pour y accéder dans Workfront.
+   * Projets Workfront
+
+     Vous pouvez afficher les projets Workfront connectés même si vous ne disposez pas des autorisations pour y accéder dans Workfront.
 
 ## Conditions d’accès
 
@@ -73,7 +78,7 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
    <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -98,7 +103,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Ajouter une page Enregistrements connectés à un enregistrement
 
-Vous devez d&#39;abord connecter les types d&#39;enregistrements à d&#39;autres enregistrements ou types d&#39;objets avant d&#39;ajouter une page d&#39;enregistrements connectés à un enregistrement.
+Vous devez d’abord connecter les types d’enregistrements à d’autres types d’enregistrements ou à des projets Workfront avant d’ajouter une page d’enregistrements connectés à un enregistrement.
 
 1. Cliquez sur le nom de l’enregistrement pour l’ouvrir dans n’importe quelle vue d’une page de type d’enregistrement.
 1. Cliquez sur **Ajouter une page** dans l’une des zones suivantes :
