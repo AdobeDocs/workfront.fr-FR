@@ -4,7 +4,7 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
+source-git-commit: 8f126e75845e15ff5d4e0b327abcfafb1dbffd99
 workflow-type: tm+mt
 source-wordcount: '2152'
 ht-degree: 16%
@@ -195,7 +195,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplication d’un rapport dans un tableau de bord Zone de travail</a><p>![!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplication d’un rapport dans un tableau de bord Zone de travail</a><p>![BADGE Off schedule]{type=Neutral}</p>
             <p>Vous pouvez désormais dupliquer un rapport d’indicateur de performance clé, de tableau ou de graphique dans un tableau de bord de zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant d’enregistrer.</p>
         </td>
         <td>vendredi 23 octobre 2025</td>
@@ -289,7 +289,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Pour que vos requêtes restent plus faciles à organiser et à gérer, nous avons ajouté la possibilité de supprimer des requêtes à la nouvelle expérience de requête. Désormais, vous pouvez supprimer les requêtes que vous avez envoyées. Les administrateurs de Workfront et les administrateurs de Workfront Planning Workspace peuvent également supprimer des requêtes.</p>
         </td>
         <td>vendredi 20 novembre 2025</td>
-        <td>vendredi 11 décembre 2025</td>
+        <td>jeudi 14 janvier 2026</td>
         <td>vendredi 15 janvier 2026</td>
     </tr>   
         <tr>
@@ -446,7 +446,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
