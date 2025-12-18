@@ -6,14 +6,16 @@ description: Les processus d’approbation offrent une flexibilité permettant d
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 72%
+source-wordcount: '752'
+ht-degree: 73%
 
 ---
 
 # Afficher les approbations
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Les processus d’approbation offrent une flexibilité permettant de créer des approbations à plusieurs étapes pour des projets, des tâches et des problèmes. Les administrateurs et administratrices Adobe Workfront définissent les processus d’approbation pour assurer la cohérence de l’ensemble du système.
 
@@ -30,7 +32,7 @@ Pour plus d’informations sur l’association des approbations à du travail da
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +65,7 @@ Vous pouvez afficher ou gérer des approbations dans les zones suivantes :
 
 * Dans la zone Accueil
 
-   * Tous les projets, tâches, événements, feuilles de temps, documents et accès en attente de votre approbation sont affichés dans le widget Mes approbations de la zone Accueil.
+   * Tous les projets, tâches, événements, feuilles de temps, documents, accès et <span class="preview">demandes Workfront Planning</span> en attente de votre approbation, sont affichés dans le widget Mes approbations de la zone Accueil.
    * Les approbations que vous avez envoyées vous-même s’affichent également dans le widget Mes approbations de la zone Accueil lorsque vous sélectionnez l’option de filtre Mes approbations envoyées . Pour plus d’informations, voir la section [Réviser le travail que vous soumettez pour approbation dans la zone Accueil](#review-work-you-submit-for-approval-in-the-home-area) dans cet article.
    * Les approbations sont supprimées du widget Mes approbations de la zone d’Accueil lorsque le projet, la tâche ou l’événement associé est marqué comme Résolu, En attente, Fermé ou Annulé.
 

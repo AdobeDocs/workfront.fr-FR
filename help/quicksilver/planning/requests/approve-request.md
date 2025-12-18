@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 4%
+source-wordcount: '1116'
+ht-degree: 8%
 
 ---
 
@@ -97,11 +97,16 @@ Les approbateurs reçoivent les notifications suivantes sur une demande en atten
 >
 >L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
 
-Pour approuver une demande :
+Vous pouvez approuver des demandes de création d’enregistrements à partir de la demande elle-même <span class="preview">ou à partir du widget Mes approbations sur l’Accueil.</span>
+
+* [Approuver une demande à partir de la demande dans Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
+* [Approuver une demande à partir du widget Mes approbations de l’Accueil](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### Approuver une demande à partir de la demande dans Workfront Planning
 
 1. (Conditionnel) Si vous utilisez l’expérience de requête héritée dans Workfront, ouvrez la requête en effectuant l’une des opérations suivantes :
 
-   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision **&#x200B;**.
+   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision ****.
 
      >[!TIP]
      >
@@ -128,3 +133,31 @@ Pour approuver une demande :
    * **Rejeté** : la demande est rejetée.
 
    La demande reste dans l’onglet Planification de la section Soumis de la zone Demandes de Workfront.
+
+<div class="preview">
+
+### Approuver une demande à partir du widget Mes approbations de l’Accueil
+
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+
+   Ou
+
+   Cliquez sur l’icône [!UICONTROL Accueil] ![Icône Accueil](/help/_includes/assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+
+1. Recherchez l’objet à approuver ou à rejeter.
+
+1. (Facultatif) Ajoutez un commentaire en cliquant sur la flèche déroulante en regard de Approuver ou Rejeter, en saisissant la note, puis en cliquant sur Ajouter.
+
+1. Choisissez l’une des options suivantes :
+
+   * **Approuver** : permet d’approuver la demande. Un enregistrement est immédiatement créé pour le type d&#39;enregistrement associé au formulaire de demande une fois que tous les approbateurs ont approuvé la demande.
+   * **Rejeter** : la demande est rejetée, même si vous êtes le seul approbateur à la rejeter. Aucun enregistrement n&#39;est créé pour le type d&#39;enregistrement associé au formulaire de demande.
+
+   L’utilisateur qui a soumis la demande reçoit un e-mail et des notifications in-app lorsque sa demande est approuvée ou rejetée.
+
+   Le statut de la demande est alors modifié comme suit, selon la décision d’approbation :
+
+   * **Terminé** : la demande est approuvée.
+   * **Rejeté** : la demande est rejetée.
+
+</div>
