@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 54ba4509269784ebe25fb5283b539c440454362a
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1577'
 ht-degree: 4%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 4%
 
 # Ajouter une page Enregistrements connectés à un enregistrement
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Vous pouvez afficher des informations provenant d&#39;enregistrements ou d&#39;objets connectés en ajoutant un onglet pour la page Enregistrements connectés à un enregistrement dans Adobe Workfront Planning. Les enregistrements connectés dans une vue Tableau sont alors ajoutés à l’onglet.
 
@@ -78,7 +78,7 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
    <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -131,18 +131,21 @@ Vous devez d’abord connecter les types d’enregistrements à d’autres types
 
    ![Vue du tableau connecté à l’audience sous les détails de la campagne](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Facultatif) Cliquez sur le nom d&#39;un enregistrement ou d&#39;un type d&#39;objet connecté dans la liste ou recherchez-le, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
+1. (Facultatif) Cliquez sur le nom d&#39;un enregistrement ou d&#39;un type d&#39;objet connecté dans la liste, ou recherchez-le, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste pour créer la page de cet enregistrement ou de ce type d&#39;objet.
 
-1. (Facultatif et conditionnel) Si plusieurs champs connectés s&#39;affichent dans la vue Tableau ou la page de détails de l&#39;enregistrement, cliquez sur le champ dont vous souhaitez afficher les enregistrements dans la page Enregistrements connectés.
+1. (Facultatif et conditionnel) Si plusieurs champs connectés du type d’enregistrement pour lequel vous créez la page s’affichent, cliquez sur le champ dont vous souhaitez afficher les enregistrements dans la page enregistrements connectés.
 
-   La vue Tableau du type d’enregistrement connecté sélectionné est ajoutée à la page des enregistrements connectés.
+   L’une des pages suivantes est ajoutée à la page des enregistrements connectés :
+
+   * Vue Tableau d’un type d’enregistrement
+   * Vue Liste d’un type d’objet de projet
 
 1. (Facultatif et conditionnel) Lorsque vous créez une page Enregistrements connectés pour les enregistrements Planning connectés, effectuez l&#39;une des opérations suivantes : <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
    * Cliquez sur le nom d’un enregistrement. La page de l&#39;enregistrement s&#39;ouvre alors dans un nouvel onglet.
    * Cliquez sur **Connexion** au bas de la vue Tableau pour connecter des enregistrements existants, sélectionnez-les dans la zone de connexion, puis cliquez en dehors de la zone pour la fermer. Les enregistrements sont automatiquement ajoutés à la table. Les enregistrements doivent exister avant de pouvoir les ajouter.
 
-   Pour plus d’informations, consultez [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
+     Pour plus d’informations, consultez [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
    * Modifiez toutes les informations des enregistrements connectés en ligne dans la vue Tableau.
 
    * Pointez sur le nom d’un enregistrement connecté, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png)
@@ -164,37 +167,44 @@ Vous devez d’abord connecter les types d’enregistrements à d’autres types
         >
         >Vous pouvez sélectionner plusieurs enregistrements ou objets pour les supprimer.
 
-   * Modifiez sur la ligne l&#39;un des enregistrements Planning de la table de la page Enregistrements connectés .
+   * Modifiez sur la ligne l&#39;un des enregistrements Planning de la table de la page des enregistrements connectés.
+   * Utilisez l’un des éléments d’affichage suivants dans la barre d’outils d’une page d’enregistrement connectée pour gérer la vue du tableau :
 
-1. (Facultatif et conditionnel) Lorsque vous créez une page d’enregistrements connectés pour les types d’objets Workfront suivants :
+   * **Filtres**
+   * **Trier**. Non disponible pour les projets.
+   * **Regroupement**. Non disponible pour les projets.
+   * **Champs**, pour afficher, masquer ou réorganiser les champs
+   * **Hauteur de ligne**. Non disponible pour les projets.
+   * **Rechercher**
 
-   * Portefeuilles
-   * Programmes
-   * Groupes
-   * Entreprises
+     Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-   Effectuez l’une des opérations suivantes dans la vue Tableau de la page Enregistrements connectés :
+     >[!NOTE]
+     >
+     >Vous ne pouvez pas créer, modifier ou supprimer des champs dans la vue Tableau de l&#39;onglet d&#39;un enregistrement connecté.
 
-   * Cliquez sur le nom d’un objet. La page de l’objet s’ouvre alors dans un nouvel onglet.
-   * Cliquez sur **Connecter** au bas de la vue Tableau pour connecter des objets existants, sélectionnez-les dans la zone de connexion, puis cliquez en dehors de la zone pour la fermer. Les objets sont automatiquement ajoutés au tableau. Les objets doivent exister avant de pouvoir les ajouter.
-
-   Pour plus d’informations, consultez [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
-
-   * Sélectionnez l&#39;un des objets en mode Tableau, puis cliquez sur l&#39;une des options suivantes dans la barre bleue située en bas de la liste :
-
-   * **Afficher** pour ouvrir la page d’enregistrement dans un nouvel onglet
-   * **Copier le lien** pour copier un lien vers la page d’enregistrement
-   * **Déconnecter** pour déconnecter l’objet de l’enregistrement que vous consultez.
-
-   >[!TIP]
-   >
-   >Vous pouvez sélectionner plusieurs enregistrements ou objets pour les déconnecter.
-
-1. (Facultatif et conditionnel) Lorsque vous créez une page d’enregistrements connectés pour des projets Workfront connectés :
+   <!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+         * Portfolios
+         * Programs
+         * Groups
+         * Companies
+      Do any of the following in the table view of the connected records page: 
+      * Click the name of a object. This opens the object's page in a new tab. 
+      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
+      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
+      * **View** to open the record page in a new tab
+      * **Copy link** to copy a link to the record page
+      * **Disconnect** to disconnect the object from the record you are viewing. 
+      >[!TIP]
+      >
+      >You can select more than one record or object to disconnect them.
+      -->
+1. (Facultatif et conditionnel) Lorsque vous créez une page d’enregistrements connectés pour des projets Workfront connectés, effectuez l’une des opérations suivantes :
 
    * Cliquez sur **Connecter des enregistrements** dans le coin supérieur droit de la page d’enregistrement connectée pour connecter des projets existants.
 
-   Pour plus d’informations, consultez la section [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
+     Pour plus d’informations, consultez la section [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
    * Modifiez les informations du projet sur la ligne dans le tableau.
    * Cliquez sur **Nouvelle ligne** pour créer un projet sans modèle. Le nouveau projet est immédiatement connecté à l&#39;enregistrement actuel.
 
@@ -211,6 +221,29 @@ Vous devez d’abord connecter les types d’enregistrements à d’autres types
      >[!TIP]
      >
      >Vous pouvez sélectionner plusieurs projets à déconnecter ou à supprimer.
+   * Cliquez sur le menu déroulant des vues, puis sur **Nouvelle vue** pour ajouter une nouvelle vue à la page, puis procédez comme suit :
+      1. Ajoutez un **Nom de la vue**.
+      1. Sélectionnez **Liste** dans la zone **Type de vue**.
+      1. Cliquez sur **Créer**.
+Une nouvelle vue Liste est ajoutée au menu déroulant des vues.
+      1. (Facultatif) Pointez sur le nom d’une vue que vous avez créée, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes :
+
+         * **Renommer**, pour ajouter un nouveau nom à la vue.
+         * <span class="preview">**Partager**</span>
+Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
+         * **Supprimer**
+Pour plus d’informations, voir [Supprimer des vues d’enregistrement](/help/quicksilver/planning/views/delete-record-views.md).
+
+           ![](assets/view-more-menu-projects-connected-records-page.png)
+   * Cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png) et utilisez le filtre pour afficher des projets spécifiques.
+
+     >[!TIP]
+     >
+     ><span class="preview">Pour les champs de type personne, tels que **Propriétaire** ou **Sponsor**, vous pouvez utiliser un caractère générique pour afficher les projets dans lesquels l’utilisateur connecté est affecté à ces rôles.</span>
+     >
+     >![Filtrer avec le caractère générique utilisateur pour la page des enregistrements connectés au projet](assets/filter-with-user-wildcard-project-connected-records-page.png)
+     >
+   * Cliquez sur l’icône **Colonnes** ![Icône Colonnes](assets/columns-icon.png) pour masquer ou afficher les colonnes de la liste.
    * Cliquez sur l’icône **+** dans le coin supérieur droit de la vue du tableau pour ajouter des champs existants au tableau. Des champs doivent exister avant de pouvoir les ajouter.
 
      La boîte de dialogue **Gestionnaire de colonnes** s’ouvre. Procédez comme suit :
@@ -220,26 +253,12 @@ Vous devez d’abord connecter les types d’enregistrements à d’autres types
          Les champs que vous sélectionnez sont ajoutés à la vue Tableau dans la page enregistrements connectés.
       1. Cliquez sur **-** à droite d’un champ dans la colonne **Sélectionné** pour le supprimer de la vue Tableau.
       1. Cliquez sur **Enregistrer** pour enregistrer l’affichage du tableau de la page d’enregistrement connectée.
-
 1. (Facultatif) Double-cliquez sur le nom de l’onglet **Page des enregistrements connectés**
 
    Ou
 
    Pointez sur le nom de l’onglet, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png), puis cliquez sur **Renommer** pour renommer en nouvel onglet Vue connectée.
-1. (Facultatif) Utilisez l’un des éléments d’affichage suivants dans la barre d’outils d’une page d’enregistrement connectée pour gérer la vue du tableau :
 
-   * Filtres
-   * Trier. Non disponible pour les projets.
-   * Regroupement. Non disponible pour les projets.
-   * Colonnes, pour afficher, masquer ou réorganiser les champs
-   * Hauteur de ligne. Non disponible pour les projets.
-   * Recherche
-
-   Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
-
-   >[!NOTE]
-   >
-   >Vous ne pouvez pas créer, modifier ou supprimer des champs dans la vue Tableau de l&#39;onglet d&#39;un enregistrement connecté.
 
    <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
 

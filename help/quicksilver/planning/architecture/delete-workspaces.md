@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 44%
+source-wordcount: '428'
+ht-degree: 39%
 
 ---
 
 
 # Supprimer des espaces de travail
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -142,8 +142,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 1. Pour supprimer un espace de travail, effectuez l’une des opérations suivantes :
 
    * Pointez sur la carte de l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte
-Ou <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
-   * Cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’espace de travail.
+Ou
+   * <span class="preview"> Cliquez sur l’icône **rechercher** ![Icône Rechercher](assets/search-icon.png) dans le coin supérieur droit de la page Espaces de travail pour rechercher un espace de travail par nom</span> puis cliquez sur une vignette d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’espace de travail.
 1. Cliquez sur **Supprimer**.
 
    ![Confirmation de suppression définitive de l’espace de travail](assets/permanently-delete-workspace-confirmation.png)
@@ -151,3 +151,5 @@ Ou <!--Add this to the bullet below: <span class="preview">Search for a workspac
 1. Saisissez « **delete** » dans l’espace prévu à cet effet, puis cliquez sur **Supprimer définitivement**. Cette opération n’est pas sensible à la casse.
 
    L’espace de travail est supprimé de manière irréversible. Les types d’enregistrement, enregistrements, champs et vues qui leur sont associés sont également supprimés. <!--ensure this is right at or before GA-->
+
+

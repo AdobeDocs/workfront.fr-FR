@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1267'
 ht-degree: 5%
 
 ---
@@ -60,7 +60,7 @@ Tenez compte des points suivants lors de la connexion et de la création d’obj
 
    * Vue Tableau d’un type d’enregistrement
    * La zone Détails d’un enregistrement dans le champ de connexion
-   * Page Enregistrement connecté d’un enregistrement, dans la zone Détails
+   * Page d’enregistrement connecté d’un enregistrement
 
 * Vous pouvez créer des portfolios et des programmes à partir des zones suivantes de Workfront Planning :
 
@@ -83,7 +83,7 @@ Pour plus d&#39;informations sur la connexion des enregistrements Planning aux o
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
