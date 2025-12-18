@@ -1,22 +1,28 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Création de vues dans la zone des Demandes
+title: Créer et gérer des vues dans la zone des Demandes
 description: Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes.
 author: Becky
 feature: Work Management
-source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 9%
+source-wordcount: '1004'
+ht-degree: 16%
 
 ---
 
-# Créer ou modifier des vues dans la zone des Demandes
+# Créer et gérer des vues dans la zone des Demandes
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes. Ces vues incluent des filtres et des dispositions de colonnes.
+
+Les vues peuvent être créées et gérées dans la zone des Demandes de Workfront et dans le widget Mes demandes de l’Accueil. Les paramètres d’affichage sont conservés entre la zone des Requêtes et le widget.
+
+>[!IMPORTANT]
+>
+>Cette fonctionnalité n’est disponible que dans la nouvelle expérience de demande.
 
 ## Conditions d’accès
 
@@ -55,18 +61,18 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Créer une vue dans la zone des Demandes
 
-{{step1-to-requests}}
+Vous pouvez créer une vue dans la zone des Demandes de Workfront ou dans le widget Mes demandes de l’Accueil.
 
-1. (Facultatif et conditionnel) Sélectionnez le paramètre **Passer à une nouvelle expérience** dans le coin supérieur droit de l’écran, si les éléments suivants s’appliquent à votre organisation et à votre instance Workfront :
+1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
 
-   * Votre entreprise a acheté un package Workfront
-   * Votre organisation a intégré l’expérience unifiée Adobe.
-   * Votre administrateur vous a accordé l’accès à Workfront Planning
-   * Vous disposez au moins des autorisations d’affichage dans un espace de travail Workfront Planning
+1. Pour accéder au widget Mes requêtes dans l’Accueil :
 
-   Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
+   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   1. Recherchez le widget Mes requêtes .
 
-1. Cliquez sur la liste déroulante **Vues** ![Liste déroulante Vues](assets/view-icon-requests.png) et sélectionnez **Nouvelle vue**.
+      Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Dans la liste des Demandes ou dans le widget Mes demandes, cliquez sur la liste déroulante **Vues** ![Liste déroulante Vues](assets/view-icon-requests.png) et sélectionnez **Nouvelle vue**.
 
    ![Nouvel affichage](assets/create-new-view.png)
 
@@ -77,16 +83,16 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Vous pouvez modifier les vues existantes, y compris les vues que vous venez de créer.
 
-{{step1-to-requests}}
+1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
 
-1. (Facultatif et conditionnel) Sélectionnez le paramètre **Passer à une nouvelle expérience** dans le coin supérieur droit de l’écran, si les éléments suivants s’appliquent à votre organisation et à votre instance Workfront :
+1. Pour accéder au widget Mes requêtes dans l’Accueil :
 
-   * Votre entreprise a acheté un package Workfront
-   * Votre organisation a intégré l’expérience unifiée Adobe.
-   * Votre administrateur vous a accordé l’accès à Workfront Planning
-   * Vous disposez au moins des autorisations d’affichage dans un espace de travail Workfront Planning
+   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   1. Recherchez le widget Mes requêtes .
 
-   Pour plus d’informations, voir [Envoi de demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)1.
+      Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Dans la liste des Demandes ou dans le widget Mes demandes, recherchez la vue à modifier.
 
 1. (Facultatif) Pour renommer une vue, cliquez sur la liste déroulante **Vues** ![Liste déroulante des vues](assets/view-icon-requests.png), puis cliquez sur le menu à trois points en regard de la vue, sélectionnez **Renommer**, puis saisissez le nouveau nom de la vue.
 1. Cliquez sur la liste déroulante **Vues** ![Vues déroulantes](assets/view-icon-requests.png) et sélectionnez la vue à modifier.
@@ -135,3 +141,23 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 Un administrateur Workfront peut ajouter la nouvelle vue aux modèles de mise en page.
 
 Pour obtenir des instructions, voir [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+
+## Partager une vue
+
+Vous pouvez partager les vues que vous créez avec d&#39;autres utilisateurs, équipes ou groupes.
+
+1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
+
+1. Pour accéder au widget Mes requêtes dans l’Accueil :
+
+   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   1. Recherchez le widget Mes requêtes .
+
+      Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Dans la liste des Demandes ou dans le widget Mes demandes, recherchez la vue que vous souhaitez partager.
+1. Pointez sur la vue à partager, puis cliquez sur le menu à trois points lorsqu’il s’affiche.
+1. Sélectionnez **Partager**.
+1. Dans la boîte de dialogue qui s’ouvre, saisissez les noms des utilisateurs, des équipes ou des groupes avec lesquels vous souhaitez partager la vue, puis sélectionnez-les dans la liste lorsqu’ils apparaissent.
+1. Cliquer sur **Enregistrer**.
+

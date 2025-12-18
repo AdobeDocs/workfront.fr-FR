@@ -6,10 +6,10 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8851a67e992152b05c44063e67070c0942a463bc
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '2607'
-ht-degree: 81%
+source-wordcount: '2546'
+ht-degree: 83%
 
 ---
 
@@ -125,14 +125,7 @@ Pour créer une demande dans l’application web Workfront :
 
 {{step1-to-requests}}
 
-1. (Facultatif et conditionnel) Sélectionnez le paramètre **Passer à une nouvelle expérience** dans le coin supérieur droit de l’écran, si les éléments suivants s’appliquent à votre organisation et à votre instance Workfront :
-
-   * Votre entreprise a acheté un package Workfront
-   * Votre organisation a intégré l’expérience unifiée Adobe.
-   * Votre administrateur vous a accordé l’accès à Workfront Planning
-   * Vous disposez au moins des autorisations d’affichage dans un espace de travail Workfront Planning
-
-   Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
+1. (Facultatif et conditionnel) Sélectionnez le paramètre **Passer à une nouvelle expérience** dans le coin supérieur droit de l’écran.
 
 1. Cliquez sur **Nouvelle demande** dans le coin supérieur droit de la page.
 

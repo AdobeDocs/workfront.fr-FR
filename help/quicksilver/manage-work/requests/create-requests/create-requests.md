@@ -8,10 +8,10 @@ author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 80%
+source-wordcount: '189'
+ht-degree: 79%
 
 ---
 
@@ -39,5 +39,5 @@ Pour plus d’informations sur la création, la soumission ou l’envoi de deman
 * [Partager un lien vers une file d’attente des demandes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [Supprimer une demande soumise ou un brouillon de demande](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [Remplir automatiquement une demande à partir des données précédentes](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [Créer et gérer des vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
 * [Utilisez le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
-* [Création de vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
