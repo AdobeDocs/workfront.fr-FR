@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
+source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,17 @@ Cette section comprend les notes de mise à jour relatives à la nouvelle foncti
 
 Vous pouvez désormais appliquer des modifications basées sur un pourcentage à un ou plusieurs taux de facturation des fonctions dans une carte tarifaire. Au lieu de mettre à jour manuellement chaque taux un par un, vous pouvez appliquer des modifications à tous les taux sélectionnés en une seule opération.
 
+### Limites des KPI dans la recherche avancée
+
+>[!NOTE]
+>
+>Date de publication de la production : 18 décembre 2025
+
+Pour améliorer l&#39;utilisation de la recherche avancée dans les affectations avancées et les plans de dotation en personnel, la liste des indicateurs de performance clés que vous pouvez afficher dans les colonnes du tableau est maintenant limitée. Afficher uniquement les mesures clés vous permet de trouver des informations plus rapidement.
+
+* Dans la recherche avancée Affectations avancées, l&#39;indicateur de performance clé **Capacité disponible** est disponible. Cette mesure représente la capacité totale de base des utilisateurs.
+* Dans la recherche avancée du plan de dotation, l’indicateur **Capacité d’affectation de personnel restante** est disponible. Cette mesure reflète la capacité toujours disponible après les allocations.
+
 ## Mises à jour de maintenance pour les fonctionnalités à disponibilité limitée
 
 Cette section décrit les problèmes résolus dans les mises à jour Workfront hebdomadaires pour les fonctionnalités à disponibilité limitée.
@@ -56,13 +67,13 @@ L’indicateur de performance clé Heures planifiées de l’écran Affectations
 
 Le champ **Date du taux de change** de la zone Détails du projet > Finances est désormais masqué lorsque la case **Utiliser des taux de change effectifs à la date du système** n&#39;est pas cochée. Auparavant, lors de la modification d’un projet, le champ de date s’affichait dans les détails du projet même lorsque les taux de change en vigueur à la date n’étaient pas activés.
 
-<!--### Maintenance Updates week of December 7-13, 2025
+<!--### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 4-10, 2026
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
