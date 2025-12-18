@@ -6,10 +6,10 @@ description: Vous pouvez supprimer des demandes envoyées ou des brouillons de d
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 8b08336431d2e4ebfcb078d8329f8748fac66eda
+source-git-commit: d87df92f548b19901374e982d1759efade644e17
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 44%
+source-wordcount: '772'
+ht-degree: 39%
 
 ---
 
@@ -74,7 +74,7 @@ Vous pouvez supprimer des requêtes dans la zone des Requêtes de Workfront ou d
 * Les administrateurs de l’espace de travail Workfront Planning peuvent supprimer les requêtes <!--and drafts--> dans l’espace de travail Planning qu’ils administrent.
 * Les utilisateurs et utilisatrices peuvent supprimer les demandes <!--and drafts-->’ils ou elles ont envoyées.
 
-Pour supprimer une demande ou un brouillon dans la nouvelle expérience de demande :
+### Suppression d’une requête du menu à trois points
 
 1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
 
@@ -103,6 +103,24 @@ Pour supprimer une demande ou un brouillon dans la nouvelle expérience de deman
 1. Dans la boîte de dialogue qui s’ouvre, cliquez sur **Supprimer**.
 
    La demande <!--or draft--> est supprimée.
+
+### Requêtes de suppression en bloc
+
+1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
+
+1. Pour accéder au widget Mes requêtes dans l’Accueil :
+
+   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   1. Recherchez le widget Mes requêtes .
+
+      Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Dans la liste Demandes ou le widget Mes demandes , cliquez sur la case à gauche de chaque demande à supprimer.
+1. Dans la barre bleue située en bas de la page, cliquez sur **Supprimer**.
+
+   >[!NOTE]
+   >
+   >Si l’option Supprimer n’est pas visible dans la barre bleue, vous n’êtes pas autorisé à supprimer une ou plusieurs des requêtes sélectionnées.
 
 </div>
 
