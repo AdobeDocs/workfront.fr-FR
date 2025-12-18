@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2678'
 ht-degree: 4%
 
 ---
@@ -30,7 +30,7 @@ Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;e
 
 Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -131,7 +131,7 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur **Créer**.
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [&#x200B; Configurer le formulaire &#x200B;](#configure-the-form).
+1. Passez à [ Configurer le formulaire ](#configure-the-form).
 
 <!--
 
@@ -173,6 +173,10 @@ Les détails du formulaire sont divisés en onglets.
 
 1. Commencez à créer ou à modifier un formulaire de demande, comme décrit dans la section [Commencer à créer un formulaire de demande](#begin-creating-a-request-form).
 
+   Ou
+
+   Recherchez le formulaire dans la liste Formulaires de demande, cliquez sur la zone en regard du nom du formulaire, puis cliquez sur **Modifier le formulaire** dans la barre bleue en bas de l’écran.
+
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
 
    ![Mode de modification du formulaire de demande de campagne](assets/campaigns-request-form-edit-mode.png)
@@ -195,8 +199,6 @@ Les détails du formulaire sont divisés en onglets.
      Les champs contenus dans le formulaire de demande seront visibles pour toutes les personnes soumettant une demande à ce type d&#39;enregistrement.
 
 1. (Facultatif) Pointez sur un champ du formulaire à supprimer, puis cliquez sur l’icône **x** pour le supprimer. Elles sont ajoutées à l’onglet **Champs** situé à gauche du formulaire.
-
-   Par exemple, supprimez le champ **Objet**, car il n’est pas visible dans Workfront Planning. <!--remove this example if this becomes visible in Planning?-->
 
 1. (Facultatif) Pour supprimer la **section Par défaut** du formulaire, procédez comme suit :
 
@@ -235,19 +237,18 @@ Dans l’onglet Configuration , vous pouvez définir le processus d’approbatio
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
 1. (Facultatif) Configurez tous les détails du formulaire, comme décrit dans la section [Configurer les détails du formulaire](#set-up-form-details).
 
-1. (Facultatif) Cliquez sur l’onglet **Configuration**, puis ajoutez au moins un utilisateur ou une équipe au champ **Approbateurs** pour approuver de nouvelles demandes pour ce formulaire d’enregistrement.
+1. (Facultatif) Si vous souhaitez ajouter des approbateurs, cliquez sur l’onglet **Configuration**, puis ajoutez au moins un utilisateur ou une équipe au champ **Approbateurs** pour approuver les nouvelles demandes de ce formulaire d’enregistrement.
 
    ![Onglet Configuration](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
    * Vous pouvez ajouter un ou plusieurs approbateurs à un formulaire de demande.
-   * Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent approuver la demande avant que Workfront Planning ne crée un enregistrement.
    * Si au moins un approbateur rejette la demande, celle-ci est rejetée et l&#39;enregistrement n&#39;est pas créé. La demande reste dans l’onglet Planification de la section Soumis de la zone Demandes de Workfront.
    * Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
    * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-   Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
 

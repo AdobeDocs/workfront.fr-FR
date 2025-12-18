@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a58e7da96c43dd308a213c6d7ef74d5085a2e1ba
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 Pour vous assurer plus facilement de voir les informations dont vous avez besoin, nous avons ajouté la possibilité de partager des vues sur la page Enregistrements connectés aux projets . Vous pouvez désormais partager des vues avec d’autres utilisateurs, équipes ou groupes.
 
-Pour plus d’informations sur les vues de requête, notamment le partage, consultez [Création et gestion de vues dans la zone des Requêtes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Pour plus d’informations, voir [Ajouter une page Enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
 ## Le caractère générique de l’utilisateur actuel est désormais disponible dans les filtres d’affichage de connexion du projet
 
