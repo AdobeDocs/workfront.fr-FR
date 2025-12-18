@@ -94,7 +94,7 @@ Nous avons apporté des améliorations aux pages d’enregistrements connectées
 * Ajout du lien Nouvelle ligne au bas de la vue Tableau lors de l’affichage de projets connectés dans lequel vous pouvez ajouter de nouveaux projets sans modèle
 * Vous ne pouvez plus créer de pages d’enregistrement connectées pour les portfolios et programmes Workfront. Vous ne pouvez créer des pages d’enregistrements connectés que pour les projets Workfront.
 
-Pour plus d’informations, voir [ Gérer la page d’enregistrement ](/help/quicksilver/planning/records/manage-the-record-page.md).
+Pour plus d’informations, voir [&#x200B; Gérer la page d’enregistrement &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 <!--## Unified request form list now available
 
@@ -209,7 +209,7 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >
 >Aperçu : 11 septembre 2025
 >Production pour tous les clients : 11 septembre 2025
->[!BADGE Hors programme ]{type=Neutral}
+>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 Si votre entreprise utilise à la fois Adobe Workfront Planning et Adobe GenStudio for Performance Marketing, vous pouvez définir des concepts marketing tels que des campagnes, des produits et des rôles de manière plus détaillée que les concepts pris en charge par défaut par GenStudio.
 
@@ -375,7 +375,7 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >
 >Aperçu : 7 août 2025
 >Production pour tous les clients : août 2025
->[!BADGE Hors programme ]{type=Neutral}
+>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 Nous avons ajouté de nouvelles expressions avec l’utilisation suivante aux champs de formule dans Workfront Planning et aux champs calculés personnalisés dans Workfront :
 
@@ -391,7 +391,7 @@ Pour plus d’informations, voir [Vue d’ensemble des expressions de données c
 >
 >Aperçu : 31 juillet 2025
 >Production pour tous les clients : 31 juillet 2025
->[!BADGE Hors programme ]{type=Neutral}
+>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 Nous avons ajouté un bouton Maximiser pour agrandir le champ de formule lors de la création ou de la modification du champ dans une vue de tableau d&#39;enregistrements. De plus, nous avons ajouté un bouton Réduire dans la nouvelle fenêtre agrandie pour revenir à la zone de création de champ.
 

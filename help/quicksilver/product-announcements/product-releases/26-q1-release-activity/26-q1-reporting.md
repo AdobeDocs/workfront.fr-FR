@@ -130,7 +130,7 @@ Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau
 >
 >Version préliminaire : vendredi 23 octobre 2025
 >Version de production pour toute la clientèle : vendredi 23 octobre 2025
->[!BADGE Hors programme ]{type=Neutral}
+>[!BADGE Hors programme &#x200B;]{type=Neutral}
 
 Vous pouvez désormais dupliquer un rapport d’indicateur de performance clé, de tableau ou de graphique dans un tableau de bord de zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant d’enregistrer.
 

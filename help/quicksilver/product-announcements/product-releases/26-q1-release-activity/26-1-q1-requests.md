@@ -111,7 +111,7 @@ Pour faciliter la création de requêtes, nous avons créé un remplissage de fo
 
 L’IA doit être activée pour que votre entreprise puisse accéder à cette fonctionnalité.
 
-Pour plus d’informations sur le remplissage de formulaire optimisé par l’IA, notamment sur ce qui est nécessaire pour activer l’IA pour votre organisation, consultez la section [ Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+Pour plus d’informations sur le remplissage de formulaire optimisé par l’IA, notamment sur ce qui est nécessaire pour activer l’IA pour votre organisation, consultez la section [&#x200B; Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
 ## Enregistrer les brouillons des demandes dans la nouvelle expérience de demande
@@ -157,7 +157,7 @@ Pour faciliter l’envoi de demandes, nous avons ajouté la possibilité de copi
 
 Auparavant, cette fonctionnalité n’était pas disponible dans la nouvelle expérience de demande.
 
-Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [ Copier et envoyer des traitements ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [&#x200B; Copier et envoyer des traitements &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 
 
