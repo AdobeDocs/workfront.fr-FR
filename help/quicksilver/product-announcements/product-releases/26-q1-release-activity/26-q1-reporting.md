@@ -4,10 +4,10 @@ description: Améliorations des rapports du premier trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
+source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 11%
+source-wordcount: '871'
+ht-degree: 4%
 
 ---
 
@@ -17,13 +17,120 @@ Cette page décrit les améliorations apportées aux rapports avec la version du
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2026, consultez l’article [Vue d’ensemble de la version du premier trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+<!--
+
+## Currency updates in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
+We have made the following updates for currency fields:
+
+* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
+
+* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
+
+* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
+
+-->
+
+<!--
+
+## Quick search table results in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
+We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+
+-->
+
+## Nouvelle option Afficher le total pour les graphiques en secteurs
+
+>[!NOTE]
+>
+>Aperçu : 18 décembre 2025
+>Version rapide de production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
+
+Nous avons introduit une nouvelle option Afficher le total qui convertit les graphiques en secteurs en graphiques en anneau. Cette fonctionnalité permet aux utilisateurs d’afficher une valeur centrale qui représente le total de tous les segments du graphique.
+
+* Pour les types d’agrégation Comptage , la valeur centrale affichée est un comptage de tous les segments du graphique.
+* Pour les types d’agrégation de somme, la valeur centrale affichée est le total agrégé de la valeur numérique ou monétaire.
+* Pour les types d’agrégation moyenne, max et min, la valeur centrale affiche la valeur moyenne, maximale ou minimale en conséquence.
+
+Les utilisateurs ont également la possibilité d’afficher ou de masquer un libellé pour le total et de fournir une valeur de libellé personnalisée.
+
+Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+
+## Nouvelles options de configuration pour les graphiques en secteurs dans les tableaux de bord Zone de travail
+
+>[!NOTE]
+>
+>Aperçu : 18 décembre 2025
+>Version rapide de production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
+
+Nous avons introduit deux nouvelles options de configuration pour les graphiques en secteurs :
+
+* Masquer les libellés de segment : vous pouvez désormais choisir de masquer les libellés de segment dans un graphique en secteurs s’ils sont trop longs et ont un impact sur la lisibilité du graphique.
+* Masquer et repositionner la légende du graphique : vous pouvez désormais choisir de masquer une légende de graphique en secteurs. Vous pouvez également définir la position de la légende à droite (par défaut), à gauche, en haut ou en bas du graphique.
+
+Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+
+## Améliorations du nombre de regroupements de tableaux de bord de la zone de travail
+
+>[!NOTE]
+>
+>Aperçu : 18 décembre 2025
+>Version rapide de production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
+
+Nous avons mis à jour la barre de regroupement dans Tableaux de bord de la zone de travail afin d’afficher le nombre d’enregistrements pour la page active et le nombre total d’enregistrements pour le regroupement sur toutes les pages.
+
+Par exemple, la barre de regroupement affichera « 3 sur 7 » ou « 83 sur 21032 » pour fournir une vue claire de la répartition des données au sein du regroupement.
+
+Auparavant, la barre de regroupement ne fournissait pas ces informations détaillées sur le nombre, ce qui rendait difficile la compréhension du nombre total d’enregistrements au sein d’un regroupement lors de la navigation dans plusieurs pages.
+
+## Nouvelle fonctionnalité Ligne de référence dans les rapports des tableaux de bord Zone de travail
+
+>[!NOTE]
+>
+>Aperçu : 18 décembre 2025
+>Version rapide de production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
+
+Vous pouvez désormais définir une ligne de référence dans les graphiques à barres, en colonnes et linéaires pour définir une cible ou un seuil pour vos rapports basés sur des séries.
+
+Note : La ligne de référence n&#39;est pas dynamique et plusieurs lignes de référence ne peuvent pas être appliquées. Nous envisageons des améliorations futures, mais il n’y a pas de plan immédiat en place.
+
+Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+
+## Personnalisation des libellés d’axe sur les rapports de graphique dans les tableaux de bord Zone de travail
+
+>[!NOTE]
+>
+>Aperçu : 18 décembre 2025
+>Version rapide de production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
+
+Vous pouvez désormais personnaliser les libellés des axes sur les rapports Graphique. Cette nouvelle fonctionnalité vous permet de saisir un libellé d’axe de remplacement à afficher au lieu de l’objet et du chemin d’accès au champ par défaut. De plus, vous pouvez choisir de masquer entièrement les libellés de l’axe.
+
+Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+
 ## Duplication d’un rapport dans un tableau de bord de zone de travail
 
 >[!NOTE]
 >
 >Version préliminaire : vendredi 23 octobre 2025
 >Version de production pour toute la clientèle : vendredi 23 octobre 2025
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>[!BADGE Hors programme ]{type=Neutral}
 
 Vous pouvez désormais dupliquer un rapport d’indicateur de performance clé, de tableau ou de graphique dans un tableau de bord de zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant d’enregistrer.
 
@@ -75,3 +182,7 @@ Pour éviter les retards de chargement et améliorer les performances globales d
 * Distance par rapport à l&#39;objet de base du rapport : limite de 10
 * Colonnes dans une vue Tableau : limite de 25
 * Invites de filtre au niveau du tableau de bord : limite de 10
+
+
+
+

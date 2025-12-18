@@ -4,10 +4,10 @@ description: Améliorations de l’équipe d’aministration au premier trimestr
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
+source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 15%
+source-wordcount: '643'
+ht-degree: 11%
 
 ---
 
@@ -16,6 +16,36 @@ ht-degree: 15%
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2026, consultez l’article [Vue d’ensemble de la version du premier trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Gérer les priorités dans le modèle de mise en page
+
+>[!NOTE]
+>
+>Aperçu : 2 décembre 2025
+>Version rapide de production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
+
+Vous pouvez désormais activer ou désactiver les priorités pour des utilisateurs spécifiques dans le modèle de mise en page. Si les priorités étaient auparavant désactivées pour votre organisation, elles le resteront dans le modèle de mise en page avec cette modification.
+
+Les priorités seront automatiquement incluses pour les types de licence qui ont un accès par défaut aux demandes. Par exemple, une licence de contributeur verra les demandes, les tableaux et les priorités par défaut dans le menu principal, tandis qu’une licence externe ne verra que les documents et les tableaux parce qu’elle n’a pas accès à l’affichage ou à l’envoi des demandes.
+
+
+Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+## Rechercher les conflits de formulaires multiples pour les champs personnalisés calculés
+
+>[!NOTE]
+>
+>Aperçu : 18 décembre 2025
+>Version rapide de production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
+
+Un même champ calculé peut avoir différentes formules lorsqu’il est joint à différents formulaires personnalisés. Si plusieurs formulaires contenant le même champ calculé sont associés à un objet, les formules doivent être identiques sur tous les formulaires. La modification de la formule n’est pas autorisée si elle peut entraîner un conflit.
+
+Pour déterminer les objets susceptibles d’être affectés lors de la modification d’une expression dans des champs personnalisés, nous avons ajouté une option permettant de vérifier les conflits. Cette boîte de dialogue affiche tous les objets qui pourraient être affectés par la modification de la formule, regroupés par type d&#39;objet. Vous pouvez accéder aux détails de chaque objet et consulter les champs pour décider si le champ doit être supprimé de l’un des formulaires ou si l’expression doit rester inchangée.
+
+Pour plus d’informations, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+
 
 ## Date d&#39;entrée et ID Entré par stockés dans des objets personnalisés
 
@@ -61,3 +91,7 @@ Si vous marquez un champ comme inactif :
 * Il n’est pas disponible dans la bibliothèque de champs pour être ajouté à d’autres formulaires personnalisés
 
 Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+
+
+
