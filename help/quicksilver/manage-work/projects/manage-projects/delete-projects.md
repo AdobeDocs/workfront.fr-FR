@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 94%
+source-wordcount: '1067'
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez supprimer un projet dans une liste de projets ou au niveau du projet
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Package Adobe Workfront</p> </td> 
+   <td> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -174,6 +174,34 @@ Vous pouvez supprimer des projets d’une liste de projets.
 1. Cliquez sur **Oui, supprimer**.
 
    Le projet est supprimé et stocké dans la corbeille pendant 30 jours. Votre administrateur ou administratrice Workfront peut le restaurer à partir de la corbeille pendant cette période.
+
+## Supprimer un projet de la page des enregistrements connectés d&#39;un enregistrement Workfront Planning
+
+>[!NOTE]
+>
+>Les informations de cette section font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
+>
+>Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Présentation de l&#39;accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Pour pouvoir accéder aux projets et les supprimer d’une page d’enregistrements connectés Workfront Planning, vous devez disposer des éléments suivants :
+
+* Types d’enregistrements Planning connectés aux projets Workfront. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Enregistrements de planification. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+* Page Enregistrements connectés qui affiche les projets connectés à un enregistrement Planning. Pour plus d’informations, voir [Ajouter une page Enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+Pour supprimer un enregistrement d&#39;une page d&#39;enregistrements connectée :
+
+1. Sur la page Enregistrements connectés qui affiche les projets connectés à un enregistrement, passez la souris sur le nom d’un projet et cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png)
+
+   Ou
+
+   Sélectionnez un ou plusieurs projets dans la liste. Remarquez la barre bleue en bas de la liste des projets.
+
+1. Cliquez sur **Supprimer**, puis sur **Supprimer** pour confirmer.
+
+   Les projets sont supprimés et placés dans la corbeille de Workfront.
 
 ## Restauration des projets supprimés
 

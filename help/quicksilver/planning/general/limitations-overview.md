@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 27%
+source-wordcount: '467'
+ht-degree: 21%
 
 ---
 
@@ -41,8 +41,8 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Nombre de caractères d’un champ de texte monoligne | 1 000 caractères |
 | Nombre de caractères d’un champ de paragraphe | 10 000 caractères |
 | Nombre de champs de paragraphe pour un type d’enregistrement | 20 champs de paragraphe |
-| Taille du fichier que vous pouvez coller dans un tableau de type d’enregistrement | 1 Mo |
-| Taille du fichier que vous pouvez importer via l’API pour un tableau de type d’enregistrement | 1,5 Mo |
+| Taille du fichier que vous pouvez utiliser pour importer des informations dans une table de type enregistrement | 1 Mo |
+| Taille du fichier que vous pouvez utiliser pour importer des informations dans une table de type enregistrement via l’API | 1,5 Mo |
 | Vitesse à laquelle les demandes d’API peuvent être effectuées | 200 demandes par minute |
 | Nombre de vues qu’un utilisateur peut créer pour un type d’enregistrement | 100 |
 | Taille du fichier CSV Excel que vous pouvez importer pour créer des types d’enregistrements | 5 Mo |
