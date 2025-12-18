@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 79%
+source-wordcount: '2506'
+ht-degree: 77%
 
 ---
 
@@ -54,7 +54,7 @@ Un champ personnalisé calculé peut contenir :
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -104,9 +104,13 @@ Pour réutiliser un champ personnalisé calculé existant :
 1. Dans la boîte de dialogue **Nouveau formulaire personnalisé**, sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
-   ![&#x200B; Bibliothèque de champs &#x200B;](assets/field-library.png)
+   ![ Bibliothèque de champs ](assets/field-library.png)
 
 1. Utilisez la zone de recherche ou développez la section **Calculé** pour localiser le champ calculé dont vous avez besoin, puis faites glisser le champ où vous souhaitez qu’il apparaisse dans le formulaire personnalisé.
+
+1. <span class="preview">(Conditionnel) Cliquez sur **Rechercher les conflits** pour consulter tous les objets susceptibles d&#39;être affectés par la modification de la formule de ce champ calculé.</span>
+
+   <span class="preview">Si plusieurs formulaires contenant le même champ calculé sont joints à un objet, les formules doivent être identiques sur tous les formulaires. La modification de la formule n’est pas autorisée si elle peut entraîner un conflit.</span>
 
 1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs.
 
@@ -284,7 +288,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
            >
            ><div>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont traitées et enregistrées en fonction du temps universel coordonné (UTC), et non en fonction des configurations de fuseau horaire définies pour l’instance de votre organisation et votre profil d’utilisateur ou d’utilisatrice. Les calculs dans un formulaire personnalisé sont générés en fonction des fuseaux horaires individuels de chaque personne.</div>
 
-      +++
+        +++
 
    1. Cliquez dans la zone de texte de grande taille, puis cliquez sur **Expressions** et **Champs** qui sont disponibles pour les ajouter à votre calcul.
 
