@@ -6,10 +6,10 @@ description: Vous pouvez envoyer des requêtes dans le widget Mes requêtes . Vo
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
+source-git-commit: ef44dcdc88da66d9cf357be53270ec717c06efe7
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 15%
+source-wordcount: '957'
+ht-degree: 13%
 
 ---
 
@@ -76,7 +76,7 @@ Pour plus d’informations, consultez la section [Créer une demande](/help/quic
 
 Vous pouvez copier une demande dans le widget Mes demandes, la modifier et l’envoyer en tant que nouvelle demande.
 
-Pour obtenir des instructions, consultez [&#x200B; Copier et envoyer des requêtes dans la nouvelle expérience de requête &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
+Pour obtenir des instructions, consultez [ Copier et envoyer des requêtes dans la nouvelle expérience de requête ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
 
 </div>
 
@@ -152,3 +152,18 @@ Pour rechercher des requêtes spécifiques dans le widget Mes requêtes :
    Les requêtes qui contiennent le terme sont surlignées en orange.
 
 1. (Facultatif) Pour accéder directement aux requêtes en surbrillance, cliquez sur les flèches haut ou bas de la barre de recherche.
+
+<div class="preview">
+
+## Accéder à un objet créé par une requête
+
+Vous trouverez des objets créés par une requête dans le widget Mes requêtes .
+
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**.
+1. Recherchez la requête qui a créé l’objet .
+1. Cliquez sur le nom de l’objet dans la colonne **Objet créé** de cette requête.
+
+   La page de l’objet s’ouvre.
+
+</div>

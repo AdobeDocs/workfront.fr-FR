@@ -8,15 +8,16 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
+source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 63%
+source-wordcount: '1309'
+ht-degree: 61%
 
 ---
 
 # Localiser les demandes envoyées
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Vous pouvez localiser les types de demandes suivants que vous ou une autre personne avez soumises, ou les demandes que vous avez commencées mais que vous n’avez jamais terminé d’envoyer. Vous pouvez localiser ces demandes dans les zones suivantes d’Adobe Workfront :
 
@@ -71,11 +72,16 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Localiser les demandes envoyées
+## Recherchez les demandes envoyées dans la zone des Demandes .
 
 La localisation des requêtes envoyées diffère selon que vous utilisez l’expérience de requête nouvelle ou héritée.
 
-### Localiser les demandes envoyées dans la nouvelle expérience de demande
+* [Localiser les requêtes envoyées dans la nouvelle expérience de requête](#locate-submitted-requests-in-the-new-requesting-experience)
+* [Localiser les requêtes envoyées dans l’expérience de requête héritée](#locate-submitted-requests-in-the-legacy-requesting-experience)
+
+### Localiser les requêtes envoyées dans la nouvelle expérience de requête
+
+Vous pouvez localiser les demandes envoyées dans la zone des Demandes <span class="preview">qui incluent des liens vers les objets créés par ces demandes</span>.
 
 Pour localiser les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans la nouvelle expérience de requête :
 
