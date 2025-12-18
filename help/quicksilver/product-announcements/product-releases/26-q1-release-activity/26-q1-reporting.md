@@ -4,9 +4,9 @@ description: Améliorations des rapports du premier trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '1009'
 ht-degree: 4%
 
 ---
@@ -17,39 +17,35 @@ Cette page décrit les améliorations apportées aux rapports avec la version du
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2026, consultez l’article [Vue d’ensemble de la version du premier trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--
 
-## Currency updates in Canvas Dashboards
 
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
-
-We have made the following updates for currency fields:
-
-* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
-
-* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
-
-* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
-
--->
-
-<!--
-
-## Quick search table results in Canvas Dashboards
+## Mises à jour des devises dans les tableaux de bord de la zone de travail
 
 >[!NOTE]
 >
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
+>Aperçu : 18 décembre 2025
+>Version rapide de production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
 
-We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+Nous avons effectué les mises à jour suivantes pour les champs de devise :
 
--->
+* Lorsque plusieurs devises sont définies dans Workfront, vous pouvez désormais choisir une devise par défaut pour le tableau de bord lors de la création.
+
+* Lors de la création d’un rapport, vous pouvez verrouiller un champ de devise. Cela permet de s’assurer que la préférence de devise au niveau du tableau de bord n’affecte pas l’affichage de ces valeurs.
+
+* Lors de l’affichage d’un tableau de bord, les utilisateurs peuvent basculer entre les devises définies dans Workfront. Ces modifications s’appliquent à l’ensemble du tableau de bord, à l’exception des champs de devise verrouillés.
+
+
+## Résultats du tableau de recherche rapide dans les tableaux de bord de la zone de travail
+
+>[!NOTE]
+>
+>Aperçu : 18 décembre 2025
+>Version rapide de production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
+
+Nous avons ajouté une recherche rapide dans les rapports Tableau. Cette recherche fonctionne sur toutes les pages. Vous pouvez donc trouver des données même si elles ne sont pas actuellement visibles.
+
 
 ## Nouvelle option Afficher le total pour les graphiques en secteurs
 
@@ -130,7 +126,7 @@ Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau
 >
 >Version préliminaire : vendredi 23 octobre 2025
 >Version de production pour toute la clientèle : vendredi 23 octobre 2025
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>[!BADGE Hors programme ]{type=Neutral}
 
 Vous pouvez désormais dupliquer un rapport d’indicateur de performance clé, de tableau ou de graphique dans un tableau de bord de zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant d’enregistrer.
 

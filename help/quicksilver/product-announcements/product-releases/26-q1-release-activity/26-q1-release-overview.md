@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: db74f7a97174ce0bca30684bc0871cca4b6ae4d9
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '2890'
-ht-degree: 14%
+source-wordcount: '3014'
+ht-degree: 13%
 
 ---
 
@@ -247,24 +247,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
- <!--    <tr>
+ <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Currency updates in Canvas Dashboards</a>
-            <p>We have made the following updates for currency fields:<ul><li>When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. </li><li>When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.</li><li>When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields</li></ul></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Mises à jour des devises dans les tableaux de bord de la zone de travail</a>
+            <p>Nous avons effectué les mises à jour suivantes pour les champs de devise :<ul><li>Lorsque plusieurs devises sont définies dans Workfront, vous pouvez désormais choisir une devise par défaut pour le tableau de bord lors de la création. </li><li>Lors de la création d’un rapport, vous pouvez verrouiller un champ de devise. Cela permet de s’assurer que la préférence de devise au niveau du tableau de bord n’affecte pas l’affichage de ces valeurs.</li><li>Lors de l’affichage d’un tableau de bord, les utilisateurs peuvent basculer entre les devises définies dans Workfront. Ces modifications s’appliquent à l’ensemble du tableau de bord, à l’exception des champs de devise verrouillés</li></ul></p>
         </td>
-        <td>December 18, 2025</td>
-        <td>January 14, 2026</td>
-        <td>January 15, 2026</td>
-    </tr>-->
- <!--    <tr>
+        <td>vendredi 18 décembre 2025</td>
+        <td>jeudi 14 janvier 2026</td>
+        <td>vendredi 15 janvier 2026</td>
+    </tr>
+ <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> Quick search table results in Canvas Dashboards</a>
-            <p>We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> tableau de recherche rapide donne des résultats dans les tableaux de bord de la zone de travail</a>
+            <p>Nous avons ajouté une recherche rapide dans les rapports Tableau. Cette recherche fonctionne sur toutes les pages. Vous pouvez donc trouver des données même si elles ne sont pas actuellement visibles.</p>
         </td>
-        <td>December 18, 2025</td>
-        <td>January 14, 2026</td>
-        <td>January 15, 2026</td>
-    </tr>-->
+        <td>vendredi 18 décembre 2025</td>
+        <td>jeudi 14 janvier 2026</td>
+        <td>vendredi 15 janvier 2026</td>
+    </tr>
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nouvelle option Afficher le total pour les secteurs</a>
@@ -599,7 +599,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
