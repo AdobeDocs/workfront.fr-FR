@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: db74f7a97174ce0bca30684bc0871cca4b6ae4d9
 workflow-type: tm+mt
-source-wordcount: '2888'
-ht-degree: 13%
+source-wordcount: '2890'
+ht-degree: 14%
 
 ---
 
@@ -39,6 +39,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations des documents et des approbations](#documents-and-approvals-enhancements)
+* [Amélioration de l’accueil](#home-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
 * [Améliorations apportées aux projets](#project-enhancements)
 * [Amélioration des rapports](#reporting-enhancements)
@@ -147,7 +148,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 
 
-### Améliorations de l’intégration
+### Amélioration de l’accueil
 
 <table style="table-layout:auto">
   <tbody>
@@ -183,7 +184,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Choisir un projet Workfront lors de l’envoi d’une révision dans Creative Cloud Express</a><p>![!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Choisir un projet Workfront lors de l’envoi d’une révision dans Creative Cloud Express</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Vous pouvez choisir un projet Workfront auquel envoyer un BAT. Cela permet de conserver toutes les ressources et épreuves associées organisées au sein d’un même projet. </p>
         </td>
         <td>mardi 15 décembre 2025</td>
@@ -311,7 +312,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplication d’un rapport dans un tableau de bord Zone de travail</a><p>![!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplication d’un rapport dans un tableau de bord Zone de travail</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Vous pouvez désormais dupliquer un rapport d’indicateur de performance clé, de tableau ou de graphique dans un tableau de bord de zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant d’enregistrer.</p>
         </td>
         <td>vendredi 23 octobre 2025</td>
@@ -598,7 +599,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
