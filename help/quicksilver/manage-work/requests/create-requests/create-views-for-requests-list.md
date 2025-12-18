@@ -5,15 +5,16 @@ title: Création de vues dans la zone des Demandes
 description: Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes.
 author: Becky
 feature: Work Management
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 7%
+source-wordcount: '702'
+ht-degree: 9%
 
 ---
 
 # Créer ou modifier des vues dans la zone des Demandes
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes. Ces vues incluent des filtres et des dispositions de colonnes.
 
@@ -28,7 +29,7 @@ Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enreg
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -89,6 +90,21 @@ Vous pouvez modifier les vues existantes, y compris les vues que vous venez de c
 
 1. (Facultatif) Pour renommer une vue, cliquez sur la liste déroulante **Vues** ![Liste déroulante des vues](assets/view-icon-requests.png), puis cliquez sur le menu à trois points en regard de la vue, sélectionnez **Renommer**, puis saisissez le nouveau nom de la vue.
 1. Cliquez sur la liste déroulante **Vues** ![Vues déroulantes](assets/view-icon-requests.png) et sélectionnez la vue à modifier.
+1. <span class="preview">Pour ajouter un champ personnalisé sous forme d’une colonne, cliquez sur l’icône **Ajouter une colonne** ![Ajouter une colonne](assets/add-column.png) à droite de l’écran, puis cliquez sur l’icône plus en regard du champ de formulaire personnalisé que vous souhaitez ajouter en tant que colonne à l’affichage.</span>
+
+   <span class="preview">Vous pouvez ajouter des champs personnalisés sur les formulaires joints à l’objet dans la liste sous forme de colonnes.</span>
+
+   >[!TIP]
+   >
+   >Vous ne pouvez actuellement pas ajouter de colonnes dans l’environnement de production.
+1. (Facultatif) Cliquez sur **Colonnes** et masquez, affichez ou réorganisez les colonnes de la liste des demandes.
+
+   ![Zone Colonnes](assets/columns-editing-box-in-requests-planning-tab.png)
+
+   >[!TIP]
+   >
+   >Actuellement, vous ne pouvez plus ajouter de colonne dans l’environnement de production.
+
 1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez afficher dans l’onglet Planification.
 
    ![Modification de filtres dans l&#39;onglet Demandes Planning](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -102,16 +118,12 @@ Vous pouvez modifier les vues existantes, y compris les vues que vous venez de c
    * **Statut** : statut de la demande.
    * **Saisi par** : nom de l’utilisateur qui a ajouté la demande. Si la demande a été ajoutée par une personne extérieure à Workfront, le champ **Saisi par** affiche `N/A`.
 
+   <span class="preview">Dans l’environnement Aperçu , vous pouvez également filtrer selon les champs personnalisés qui ont été ajoutés à l’affichage.</span>
+
    Plusieurs filtres peuvent être joints par **Et** ou **Ou**.
 La liste des demandes est automatiquement filtrée à mesure que vous ajoutez les conditions de filtrage.
 
-1. (Facultatif) Cliquez sur **Colonnes** et masquez, affichez ou réorganisez les colonnes de la liste des demandes.
 
-   ![Zone Colonnes](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >Vous ne pouvez plus ajouter de colonnes.
 
 >[!IMPORTANT]
 >

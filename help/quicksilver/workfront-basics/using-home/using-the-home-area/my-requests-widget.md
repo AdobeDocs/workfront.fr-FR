@@ -6,10 +6,10 @@ description: Vous pouvez envoyer des requêtes dans le widget Mes requêtes . Vo
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 16%
+source-wordcount: '882'
+ht-degree: 15%
 
 ---
 
@@ -76,7 +76,7 @@ Pour plus d’informations, consultez la section [Créer une demande](/help/quic
 
 Vous pouvez copier une demande dans le widget Mes demandes, la modifier et l’envoyer en tant que nouvelle demande.
 
-Pour obtenir des instructions, consultez [&#x200B; Copier et envoyer des requêtes dans la nouvelle expérience de requête &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
+Pour obtenir des instructions, consultez [ Copier et envoyer des requêtes dans la nouvelle expérience de requête ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
 
 </div>
 
@@ -98,6 +98,8 @@ Pour configurer le filtre dans le widget Mes requêtes :
    * Statut
    * Saisie effectuée par
 
+   <span class="preview">Dans l’environnement Aperçu , vous pouvez également filtrer selon les champs personnalisés qui ont été ajoutés en tant que colonne      à la vue.</span>
+
 1. Dans le champ suivant, sélectionnez l’opérateur que vous souhaitez utiliser pour cette condition de filtre. Les opérateurs disponibles dépendent du champ sélectionné.
 1. (Conditionnel) Si un champ apparaît à droite de l’opérateur, sélectionnez la valeur en fonction de laquelle vous souhaitez appliquer un filtre.
 1. (Facultatif) Pour ajouter une autre condition de filtre, cliquez sur **Ajouter une condition** et répétez les étapes 4 à 6.
@@ -112,7 +114,7 @@ Le filtre est enregistré automatiquement.
 >* Pour filtrer uniquement les requêtes Workfront, définissez le filtre sur **Type d’objet** > **Comporte l’un des** > **Problèmes**.
 >* Pour filtrer uniquement les requêtes Workfront Planning, définissez le filtre sur **Type d’objet** > **N’a aucun des** > **Problèmes**.
 
-## Ajuster les colonnes
+## Ajuster ou ajouter des colonnes
 
 Vous pouvez choisir parmi les colonnes disponibles celles qui apparaissent dans le widget Mes requêtes et définir leur ordre.
 
@@ -133,6 +135,9 @@ Pour ajuster les colonnes du widget Mes requêtes :
 1. Dans le widget Mes requêtes, cliquez sur **Colonnes**.
 1. (Facultatif) Pour réorganiser les colonnes, cliquez sur la poignée de déplacement ![poignée](assets/drag-handle.png) de la colonne à déplacer et faites-la glisser aux emplacements souhaités. La colonne en haut de la liste apparaît dans le widget Mes requêtes en tant que colonne tout à gauche.
 1. (Facultatif) Utilisez le bouton (bascule) pour contrôler si une colonne est affichée dans le widget Mes requêtes .
+1. <span class="preview">Pour ajouter un champ personnalisé sous forme d’une colonne, cliquez sur l’icône **Ajouter une colonne** ![Ajouter une colonne](assets/add-column.png) à droite de l’écran, puis cliquez sur l’icône plus en regard du champ de formulaire personnalisé que vous souhaitez ajouter sous forme de colonne au widget.</span>
+
+   <span class="preview">Vous pouvez ajouter des champs personnalisés sur les formulaires joints à l’objet dans la liste sous forme de colonnes.</span>
 
 Les préférences de colonne sont enregistrées automatiquement.
 
