@@ -7,10 +7,10 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 17%
+source-wordcount: '528'
+ht-degree: 16%
 
 ---
 
@@ -40,6 +40,10 @@ Grâce aux tableaux de bord de la zone de travail, vous pouvez créer des rappor
 * Votre administrateur Workfront doit vous accorder un accès en modification aux tableaux de bord dans votre niveau d’accès pour créer ou modifier un tableau de bord de zone de travail. Pour plus d’informations sur l’octroi de l’accès en modification, voir [Octroi de l’accès aux rapports, tableaux de bord et calendriers](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Articles du tableau de bord Zone de travail
+
+* Utiliser les tableaux de bord de la zone de travail
+
+   * [Utiliser les tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
 * Beta des tableaux de bord de la zone de travail
 
