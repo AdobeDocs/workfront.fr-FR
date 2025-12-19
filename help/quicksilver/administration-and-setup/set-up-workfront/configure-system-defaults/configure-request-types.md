@@ -19,7 +19,7 @@ ht-degree: 93%
 
 Lorsque vous travaillez sur un projet, des événements inattendus peuvent survenir. Vous pouvez enregistrer ces événements inattendus en tant que problèmes pour un projet ou une tâche spécifique. Vous pouvez également soumettre des requêtes, qui sont enregistrées en tant que problèmes sur un projet désigné comme file d’attente des demandes. Les problèmes et les requêtes sont considérés comme interchangeables dans Adobe Workfront.
 
-Pour plus d’informations sur la création de problèmes dans [!DNL Workfront], consultez la section [Créer des problèmes](../../../manage-work/issues/manage-issues/create-issues.md). Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], consultez la section [Créer et soumettre des requêtes  [!DNL Adobe Workfront] ](../../../manage-work/requests/create-requests/create-submit-requests.md). Pour plus d’informations sur l’association de types de requêtes à des projets, consultez la section [Définir des types de requêtes pour un projet](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+Pour plus d’informations sur la création de problèmes dans [!DNL Workfront], consultez la section [Créer des problèmes](../../../manage-work/issues/manage-issues/create-issues.md). Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], consultez la section [Créer et soumettre des requêtes  [!DNL Adobe Workfront] &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md). Pour plus d’informations sur l’association de types de requêtes à des projets, consultez la section [Définir des types de requêtes pour un projet](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Conditions d’accès
 
@@ -75,7 +75,7 @@ En tant que personne membre de l’équipe d’administration de [!DNL Workfront
 
   Pour plus d’informations sur la création de problèmes dans [!DNL Workfront], consultez la section [Créer des problèmes](../../../manage-work/issues/manage-issues/create-issues.md).
 
-  Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], consultez la section [Créer et soumettre des requêtes  [!DNL Adobe Workfront] ](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], consultez la section [Créer et soumettre des requêtes  [!DNL Adobe Workfront] &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * Sur le formulaire **[!UICONTROL Détails de la rubrique de file d’attente]**, lorsque vous configurez la rubrique de file d’attente.\
    Pour plus d’informations sur la création de rubriques de file d’attente, consultez la section [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
