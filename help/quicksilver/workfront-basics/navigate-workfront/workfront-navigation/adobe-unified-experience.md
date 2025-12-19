@@ -6,10 +6,10 @@ description: Avec l’accès à  [!DNL Workfront]  grâce à Adobe Experience 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 67%
+source-wordcount: '718'
+ht-degree: 64%
 
 ---
 
@@ -35,7 +35,7 @@ Si votre organisation utilise l’expérience unifiée Adobe, l’URL que vous u
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -108,6 +108,9 @@ Ce menu vous permet d’effectuer les opérations suivantes :
 
 * Choisissez le formatage **[!UICONTROL mode sombre]** pour [!DNL Adobe Experience Cloud].
 * Définissez les **[!UICONTROL préférences]** pour [!DNL Adobe Experience Cloud], y compris les préférences de langue principale et secondaire.
+  >[!NOTE]
+  >
+  >Vos paramètres de date sont basés sur vos paramètres de langue principale. Par exemple, si vous sélectionnez **Anglais (États-Unis)** les dates sont au format MM/JJ/AAAA, tandis que si vous sélectionnez **Anglais (Royaume-Uni)** les dates sont au format JJ/MM/AAAA.
 * Accédez à votre profil **[!UICONTROL [!DNL Workfront]]**. Une fois que vous êtes sur le profil, cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/more-icon.png) et sélectionnez **[!UICONTROL Modifier]**. Pour plus d’informations sur le profil, voir [Configurer mes paramètres](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Déconnectez-vous]** d’Adobe Experience Cloud.
 
@@ -123,7 +126,7 @@ Si votre organisation utilise une application distincte pour gérer les mots de 
 
 Si votre mot de passe est géré par [!DNL Adobe], vous pouvez modifier le mot de passe de votre compte Adobe.
 
-[Voir cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/fr/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Voir cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Pour plus d’informations sur la modification de votre mot de passe, contactez votre administrateur ou administratrice.
 

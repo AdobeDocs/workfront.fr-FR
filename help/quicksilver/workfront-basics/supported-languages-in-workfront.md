@@ -6,10 +6,10 @@ description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe W
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 66%
+source-wordcount: '1168'
+ht-degree: 65%
 
 ---
 
@@ -106,10 +106,10 @@ Pour afficher toutes les traductions disponibles dans la langue de votre choix, 
 
 Pour déterminer si votre organisation a été migrée vers Adobe Admin Console, examinez l’URL que vous utilisez pour afficher Workfront.
 
-| URL | Adobe Experience |
-|---|---|
-| (Nom de l’entreprise).my.workfront.com | Non migré vers Adobe Admin Console |
-| experience.adobe.com | Migré vers Adobe Admin Console |
+| URL | Adobe Experience | Contrôle de la langue |
+|---|---|---|
+| (Nom de l’entreprise).my.workfront.com | Non migré vers Adobe Admin Console | [Modifier la langue du navigateur](#change-the-browser-language) |
+| experience.adobe.com | Migré vers Adobe Admin Console | [Modifier la langue du Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) |
 
 * [Modifier la langue du navigateur](#change-the-browser-language)
 * [Modification de la langue du Adobe Experience Cloud](#change-the-adobe-experience-cloud-language)
