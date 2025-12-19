@@ -6,9 +6,9 @@ description: Un rapport sur les indicateurs de performance clés qui affiche de 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1260'
 ht-degree: 7%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 7%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->&#x200B;>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
@@ -40,7 +40,7 @@ Vous pouvez créer et ajouter un rapport sur les indicateurs de performance clé
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tous </p> 
    </td> 
@@ -186,6 +186,16 @@ Pour plus d’informations sur les exemples de rapports d’indicateurs clés de
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
 ## Remarques concernant la création d’un rapport sur les indicateurs de performance clés
+
+### Rapports avec des données financières
+
+Les utilisateurs disposant d’un accès en affichage ou en modification aux données financières dans leur niveau d’accès verront toujours les données financières dans les visualisations du tableau de bord de la zone de travail, même si l’autorisation Afficher les données financières est supprimée au niveau de la tâche ou du projet.
+
+* Les utilisateurs ne disposant pas de droits d’accès aux données financières ne verront pas les données financières dans les rapports.
+* Les utilisateurs qui ne voient pas les données financières sont limités aux enregistrements qu&#39;ils sont déjà autorisés à afficher (projets, tâches, événements, etc.). Ils ne verront pas les valeurs financières des documents auxquels ils ne peuvent pas accéder.
+* Les créateurs de rapports doivent faire preuve de prudence lors de l’inclusion de données financières dans les tableaux de bord et garder à l’esprit les personnes avec lesquelles ils partagent les tableaux de bord afin d’éviter tout accès involontaire.
+
+Il s’agit d’une limite connue et nous prévoyons d’y remédier dès que possible.
 
 ### Utilisation du sélecteur de champ
 
