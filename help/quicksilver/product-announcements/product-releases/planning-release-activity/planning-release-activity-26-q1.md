@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 2%
+source-wordcount: '1497'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,23 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Améliorations apportées aux pages d’enregistrements connectés
+
+>[!NOTE]
+>
+>Aperçu : 19 décembre 2025
+>Production rapide : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
+
+Pour plus de flexibilité lors de l’utilisation de pages d’enregistrements connectées, nous avons amélioré la fonctionnalité des vues dans cette zone de la planification Workfront. Les améliorations suivantes ont été apportées aux pages d’enregistrements connectés d’un enregistrement :
+
+* Vous pouvez désormais ajouter une chronologie et une vue Calendrier à la page d’enregistrements connectés d’un enregistrement.
+* Vous pouvez désormais partager toutes les vues à partir d’une page d’enregistrements connectée. Les vues partagées à partir de ces pages sont visibles dans tout le système par tous les utilisateurs avec lesquels vous les partagez dans toute autre zone de Workfront Planning. Toutes les vues partagées dans d&#39;autres zones de Planning sont également visibles dans la page des enregistrements connectés pour les mêmes utilisateurs avec lesquels elles sont partagées.
+* Nous avons ajouté une restriction pour n&#39;autoriser qu&#39;une seule page d&#39;enregistrements connectés par type d&#39;enregistrement ou d&#39;objet. Avant cette amélioration, vous pouviez ajouter plusieurs pages pour le même type d’enregistrement ou d’objet. Désormais, vous pouvez utiliser plusieurs vues pour le même type d’enregistrement dans une page d’enregistrements connectée.
+* Nous avons ajouté un lien **Nouvelle ligne** au bas d’un tableau et un bouton **Connecter les enregistrements** dans la zone supérieure droite de la page des enregistrements connectés. Avant cette amélioration, le lien **Nouvelle ligne** et le bouton **Connecter des enregistrements** n’existaient que sur une page connectée au projet.
+
+Pour plus d’informations, voir [Ajouter une page Enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
 ## Partage de vues dans la page Projets - Enregistrements connectés
 
@@ -116,26 +133,7 @@ Les améliorations suivantes ont été apportées à la page principale Espaces 
 
 Pour plus d’informations, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
-<!--
 
-## Improvements to connected records pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
-
-* You can now add a timeline and a calendar view to a record's connected records page.
-* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
-* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
-* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
-
-For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-
--->
 
 ## Ajout par défaut du champ Connexion de marque aux produits et aux personnes dans l’espace de travail GenStudio
 
