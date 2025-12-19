@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,7 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 * Les éléments suivants doivent exister dans Workfront Planning :
 
    * Un espace de travail
-   * Un type d’enregistrement.
+   * Un type d’enregistrement
    * Formulaire de demande associé à un type d’enregistrement.
 
      Pour plus d’informations, voir [Création d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -162,7 +162,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 1. (Facultatif) Cliquez sur **Afficher votre demande** dans le message de confirmation, pour ouvrir la demande, ou cliquez sur l’icône **X** pour fermer la confirmation.
 1. (Facultatif) Effectuez l’une des opérations suivantes :
 
-   * Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez afficher dans l’onglet Planning.
+   * Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez afficher dans la liste des Requêtes.
 
      ![Modification de filtres dans l&#39;onglet Demandes Planning](assets/filters-editing-box-in-requests-planning-tab.png)
 
@@ -251,16 +251,14 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 
    <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
-1. (Facultatif) Cliquez sur **Menu principal** > **Demandes** > l’onglet **Planification** pour afficher votre demande, puis cliquez sur son nom.
+1. (Facultatif) Cliquez sur **Menu principal** > **Demandes** pour afficher votre demande, puis cliquez sur son nom.
 
    La page des détails de la requête s’ouvre.
 
    ![Demander une page avec des commentaires](assets/new-request-page-with-comment.png)
 
-
-
 1. (Facultatif) Saisissez un commentaire dans la zone Commentaires.
-1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Enregistrement**.
+1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Objet créé**.
 
    La page de l’enregistrement s’ouvre dans Workfront Planning.
 
@@ -270,7 +268,7 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
    >
    >* Si le formulaire de demande est associé à une approbation, l&#39;approbation doit être accordée avant que vous puissiez accéder à l&#39;enregistrement à partir de la page de demande.
 
-1. (Facultatif) Cliquez sur le nom du **Type d’enregistrement**.
+1. (Facultatif) Cliquez sur le nom du **Type d’objet**.
 
    La page de type d’enregistrement s’ouvre dans Workfront Planning.
 
@@ -282,7 +280,7 @@ Vous pouvez copier une demande dans la liste des demandes de Workfront, puis mod
 
 Cette option est disponible uniquement dans la nouvelle expérience de demande.
 
-Pour obtenir des instructions, voir [&#x200B; Copier et envoyer des demandes &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour obtenir des instructions, voir [ Copier et envoyer des demandes ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Créer des brouillons et des demandes à partir de brouillons existants
 

@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '2745'
 ht-degree: 4%
 
 ---
@@ -23,13 +23,24 @@ Vous pouvez afficher des informations provenant d&#39;enregistrements ou d&#39;o
 
 Tenez compte des points suivants lors de l’ajout d’une page Enregistrements connectés à un enregistrement :
 
-* Vous pouvez ajouter une page Enregistrements connectés à un enregistrement après avoir connecté des enregistrements ou des types d&#39;objet au type d&#39;enregistrement à partir de la vue Tableau d&#39;un type d&#39;enregistrement.
+* Vous pouvez ajouter une page Enregistrements connectés à un enregistrement après avoir connecté des enregistrements ou des types d&#39;objet au type d&#39;enregistrement à partir de sa vue Tableau.
 
 * Vous pouvez ajouter une page Enregistrements connectés à partir de la zone d&#39;aperçu d&#39;un enregistrement ou de la page de l&#39;enregistrement.
 
+* <span class="preview">Vous ne pouvez avoir qu’une seule page d’enregistrements connectée pour un type d’enregistrement spécifique.</span>
+
+  <span class="preview">Par exemple, si vous créez une page d’enregistrements connectés pour une campagne et que vous souhaitez afficher ses personas connectés, vous ne pouvez avoir qu’une seule page d’enregistrements connectés pour les personas.</span>
+
 * Les pages Enregistrements connectés affichent uniquement les objets connectés ou les enregistrements d’un type d’objet ou d’enregistrement. La page n’affiche pas tous les enregistrements de ce type.
 
-* Vous pouvez afficher les objets dans une page d’enregistrements connectés en mode Tableau.
+* Selon l’objet ou le type d’enregistrement que vous affichez sur la page enregistrements connectés, vous pouvez les afficher dans les vues suivantes :
+
+   * Vous pouvez afficher les enregistrements Planning connectés dans les vues suivantes :
+      * Tableau
+      * <span class="preview">Chronologie</span>
+      * <span class="preview">Calendrier</span>
+   * Vous pouvez afficher les projets Workfront connectés dans la vue Liste.
+
 
 <!--replace the above bullet with this: 
 
@@ -78,7 +89,7 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
    <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -118,6 +129,11 @@ Vous devez d’abord connecter les types d’enregistrements à d’autres types
 1. Ajoutez le **Nom de la page**, cliquez sur **Page des enregistrements connectés** pour le **Type de page**, puis cliquez sur **Créer**.
 1. (Facultatif) Cliquez sur le nom d&#39;un enregistrement ou d&#39;un type d&#39;objet connecté dans la liste, ou recherchez-le, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste pour créer la page de cet enregistrement ou de ce type d&#39;objet.
 
+   >[!TIP]
+   >
+   ><span class="preview">Vous pouvez créer une page d’enregistrements connectés par type d’enregistrement. Si un type d’enregistrement connecté comporte déjà une page, elle ne s’affiche plus comme une option.</span>
+
+
 1. (Facultatif et conditionnel) Si plusieurs champs connectés de l’enregistrement ou du type d’objet pour lequel vous créez la page s’affichent, cliquez sur le champ dont vous souhaitez afficher les enregistrements ou les objets dans la page des enregistrements connectés dans la liste **Sélectionner le champ de référence**.
 
    ![Sélectionner la liste des champs de référence](assets/select-reference-field-list-on-connected-records-page.png)
@@ -139,10 +155,10 @@ Vous devez d’abord connecter les types d’enregistrements à d’autres types
 
 1. (Conditionnel) Selon le type d’enregistrements affiché dans la page d’enregistrement connectée, effectuez l’une des opérations suivantes :
 
-   * Gestion de la vue Tableau des enregistrements
-Pour plus d’informations, consultez la section [Gérer la vue de la table des enregistrements dans la page des enregistrements connectés](#manage-the-record-table-view-in-the-connected-records-page) dans cet article.
-   * Gérer la vue Liste des projets
-Pour plus d’informations, reportez-vous à la section [Gérer la vue Liste de projets dans la page Enregistrements connectés](#manage-the-project-list-view-in-the-connected-records-page) de cet article.
+   * Gérer les enregistrements Planning
+Pour plus d&#39;informations, consultez la section [Gérer la page des enregistrements connectés pour les enregistrements Planning](#manage-the-connected-records-page-for-planning-records) dans cet article.
+   * Gestion de projets Workfront
+Pour plus d’informations, consultez la section [Gérer la page des enregistrements connectés pour les projets Workfront](#manage-the-connected-records-page-for-workfront-projects) dans cet article.
 
 1. (Facultatif) Double-cliquez sur le nom de l’onglet **Page des enregistrements connectés**
 
@@ -155,9 +171,13 @@ Pour plus d’informations, reportez-vous à la section [Gérer la vue Liste de 
 
 1. (Facultatif) Pointez sur le nom de l’onglet de la page enregistrements connectés, cliquez sur **Plus** ![Menu Plus](assets/more-menu.png), puis cliquez sur **Supprimer** pour supprimer de l’onglet.
 
-### Gérer la vue de la table des enregistrements dans la page des enregistrements connectés
+### Gérer la page des enregistrements connectés pour les enregistrements Planning
 
-Lorsque vous créez une page Enregistrements connectés pour les enregistrements Planning connectés, procédez comme suit : <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+La gestion de la page Enregistrements connectés pour les enregistrements Planning varie en fonction de l&#39;environnement utilisé.
+
+#### Gérer la page des enregistrements connectés pour les enregistrements Planning dans l&#39;environnement de production
+
+Lorsque vous créez une page Enregistrements connectés pour les enregistrements Planning connectés dans l&#39;environnement de production, procédez comme suit : <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
 1. Accédez à une page de type d’enregistrement et cliquez sur le nom d’un enregistrement. Cette action ouvre la page d&#39;aperçu de l&#39;enregistrement.
 1. Cliquez sur l&#39;onglet d&#39;une page d&#39;enregistrements connectée affichant les enregistrements Planning.
@@ -201,7 +221,89 @@ Les enregistrements liés à l&#39;enregistrement que vous avez sélectionné s&
    >
    >Vous ne pouvez pas créer, modifier ou supprimer des champs dans la vue Tableau de l&#39;onglet d&#39;un enregistrement connecté.
 
-   <!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+<div class="preview">
+
+#### Gérer la page des enregistrements connectés pour les enregistrements Planning dans l&#39;environnement de prévisualisation
+
+Lorsque vous créez une page d&#39;enregistrements connectés pour les enregistrements Planning connectés dans l&#39;environnement Aperçu, procédez comme suit : <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+
+1. Accédez à une page de type d’enregistrement et cliquez sur le nom d’un enregistrement. Cette action ouvre la page d&#39;aperçu de l&#39;enregistrement.
+1. Cliquez sur l&#39;onglet d&#39;une page d&#39;enregistrements connectée affichant les enregistrements Planning.
+Les enregistrements liés à l&#39;enregistrement que vous avez sélectionné s&#39;affichent dans la vue Tableau.
+1. Cliquez sur **Connecter des enregistrements** dans le coin supérieur droit de la page d&#39;enregistrement connectée. Pour connecter des enregistrements existants, sélectionnez-les dans la zone de connexion, puis cliquez en dehors de la zone pour la fermer. Les enregistrements sont automatiquement ajoutés à la table et connectés à l’enregistrement que vous avez sélectionné. Les enregistrements doivent exister avant de pouvoir les ajouter.
+
+   Pour plus d’informations, consultez [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
+1. Cliquez sur **Nouvelle ligne** au bas du tableau pour ajouter de nouveaux enregistrements. Les nouveaux enregistrements sont automatiquement connectés aux enregistrements que vous avez sélectionnés.
+1. Modifiez toutes les informations des enregistrements connectés en ligne dans la vue Tableau.
+1. Pointez sur le nom d’un enregistrement connecté, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png)
+
+   Ou
+
+   Sélectionnez l&#39;un des enregistrements, puis cliquez sur l&#39;une des options suivantes dans la barre bleue située en bas de la liste :
+
+   * **Afficher** pour ouvrir la page d’enregistrement dans un nouvel onglet
+   * **Copier le lien** pour copier un lien vers la page d’enregistrement
+   * **Modifier la miniature** pour ouvrir la zone **Miniature d’enregistrement** et modifier l’image de la miniature de l’enregistrement
+   * **Dupliquer** pour dupliquer l&#39;enregistrement connecté. L&#39;enregistrement dupliqué est également connecté à l&#39;enregistrement actif.
+   * **Insérez un enregistrement au-dessus ou en dessous** pour ajouter de nouveaux enregistrements au type d’enregistrement connecté. Les nouveaux enregistrements ajoutés ici sont également connectés à l’enregistrement actif. Cette option n’est pas disponible dans la barre bleue lors de la sélection d’un enregistrement dans le tableau.
+   * **Supprimer** pour supprimer l’enregistrement. La suppression d&#39;un enregistrement connecté le supprime de son type d&#39;enregistrement et de tous les endroits où l&#39;enregistrement est connecté. Les enregistrements supprimés se déplacent vers la classe **Récemment supprimés** de leur type d’enregistrement.
+
+     Pour plus d&#39;informations sur la modification des enregistrements en mode Tableau, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
+
+     >[!TIP]
+     >
+     >Vous pouvez sélectionner plusieurs enregistrements ou objets pour les supprimer.
+
+1. Modifiez sur la ligne l’un des enregistrements de la table de la page enregistrements connectés.
+1. Utilisez l’un des éléments d’affichage suivants dans la barre d’outils d’une page d’enregistrement connectée pour gérer la vue du tableau :
+
+   * **Filtres**
+   * **Trier**
+   * **Regroupement**
+   * **Champs**, pour afficher, masquer ou réorganiser les champs
+   * **Hauteur de ligne**
+   * **Rechercher**
+
+   Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas créer, modifier ou supprimer des champs dans la vue Tableau de l&#39;onglet d&#39;un enregistrement connecté.
+1. Cliquez sur le menu déroulant des vues, puis sur **Nouvelle vue** pour ajouter une nouvelle vue à la page, puis procédez comme suit :
+   1. Ajoutez un **Nom de la vue**.
+   1. Dans la zone **Type de vue**, sélectionnez l&#39;un des types de vues suivants :
+
+      * Tableau
+Pour plus d’informations, voir [Gérer la vue Tableau](/help/quicksilver/planning/views/manage-the-table-view.md)
+      * Chronologie
+Pour plus d’informations, voir [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+      * Calendrier
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+        Pour plus d’informations, consultez la section [Gérer plusieurs vues à partir de la page des enregistrements connectés](#manage-multiple-views-from-the-connected-records-page) dans cet article.
+
+   1. Cliquez sur **Créer**.
+Une nouvelle vue est ajoutée au menu déroulant des vues.
+   1. (Facultatif) Pointez sur le nom d’une vue que vous avez créée, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes :
+      * **Renommer**, pour ajouter un nouveau nom à la vue.
+      * **Partager**
+
+
+        Pour plus d’informations, consultez la section [Partager des vues](/help/quicksilver/planning/access/share-views.md).
+
+        >[!NOTE]
+        >
+        >Vous ne pouvez pas partager une vue système créée par Workfront.
+
+      * **Supprimer**
+Pour plus d’informations, voir [Supprimer des vues d’enregistrement](/help/quicksilver/planning/views/delete-record-views.md).
+
+        ![](assets/view-more-menu-projects-connected-records-page.png)
+
+</div>
+
+
+<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
          * Portfolios
          * Programs
          * Groups
@@ -214,12 +316,11 @@ Les enregistrements liés à l&#39;enregistrement que vous avez sélectionné s&
       * **View** to open the record page in a new tab
       * **Copy link** to copy a link to the record page
       * **Disconnect** to disconnect the object from the record you are viewing. 
-      >[!TIP]
-      >
-      >You can select more than one record or object to disconnect them.
+      TIP      
+      You can select more than one record or object to disconnect them.
       -->
 
-### Gérer la vue Liste de projets dans la page des enregistrements connectés
+### Gérer la page des enregistrements connectés pour les projets Workfront
 
 Lorsque vous créez une page d’enregistrements connectés pour les projets Workfront connectés, procédez comme suit :
 
@@ -242,14 +343,17 @@ Les projets connectés à l’enregistrement que vous avez sélectionné s’aff
    * **Supprimer** pour supprimer le projet. La suppression d’un projet le déconnecte de l’enregistrement et le déplace vers la Corbeille de Workfront. Les administrateurs et administratrices de Workfront peuvent récupérer les projets supprimés jusqu’à 30 jours après leur suppression.
    * **Déconnecter** pour déconnecter le projet de l’enregistrement. La déconnexion d’un projet supprime cet enregistrement et toutes les valeurs de ses champs de recherche de l’enregistrement actif.
 
-   >[!TIP]
-   >
-   >Vous pouvez sélectionner plusieurs projets à déconnecter ou à supprimer.
+     >[!TIP]
+     >
+     >Vous pouvez sélectionner plusieurs projets à déconnecter ou à supprimer.
 1. Cliquez sur le menu déroulant des vues, puis sur **Nouvelle vue** pour ajouter une nouvelle vue à la page, puis procédez comme suit :
    1. Ajoutez un **Nom de la vue**.
    1. Sélectionnez **Liste** dans la zone **Type de vue**.
    1. Cliquez sur **Créer**.
 Une nouvelle vue Liste est ajoutée au menu déroulant des vues.
+
+      Pour plus d’informations, consultez la section [Gérer plusieurs vues à partir de la page des enregistrements connectés](#manage-multiple-views-from-the-connected-records-page) dans cet article.
+
    1. (Facultatif) Pointez sur le nom d’une vue que vous avez créée, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes :
       * **Renommer**, pour ajouter un nouveau nom à la vue.
       * <span class="preview">**Partager**</span>
@@ -258,13 +362,13 @@ Une nouvelle vue Liste est ajoutée au menu déroulant des vues.
 
         >[!NOTE]
         >
-        >Vous ne pouvez pas partager une vue par défaut créée par Workfront.
+        >Vous ne pouvez pas partager une vue système créée par Workfront.
 
       * **Supprimer**
 Pour plus d’informations, voir [Supprimer des vues d’enregistrement](/help/quicksilver/planning/views/delete-record-views.md).
 
-
         ![](assets/view-more-menu-projects-connected-records-page.png)
+
    1. Cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png) et utilisez le filtre pour afficher des projets spécifiques.
 
       >[!TIP]
@@ -273,6 +377,7 @@ Pour plus d’informations, voir [Supprimer des vues d’enregistrement](/help/q
       >
       >![Filtrer avec le caractère générique utilisateur pour la page des enregistrements connectés au projet](assets/filter-with-user-wildcard-project-connected-records-page.png)
       >
+
    1. Cliquez sur l’icône **Colonnes** ![Icône Colonnes](assets/columns-icon.png) pour masquer ou afficher les colonnes de la liste.
    1. Cliquez sur l’icône **+** dans le coin supérieur droit de la vue du tableau pour ajouter des champs existants au tableau. Des champs doivent exister avant de pouvoir les ajouter.
 
@@ -285,38 +390,37 @@ Pour plus d’informations, voir [Supprimer des vues d’enregistrement](/help/q
       1. Cliquez sur **Enregistrer** pour enregistrer l’affichage du tableau de la page d’enregistrement connectée.
 
 
-<!--
 <div class="preview">
 
-## Manage multiple views from the connected records page
+## Gérer plusieurs vues à partir de la page des enregistrements connectés
 
-You can add and manage multiple view types from the connected records page of a record. 
+Vous pouvez ajouter et gérer plusieurs types d’affichage à partir de la page des enregistrements connectés d’un enregistrement.
 
-The views you create in the Connected records page of a record type are available everywhere in Workfront Planning where that record type page displays. Views created for the same record type anywhere else in Workfront Planning are also accessible in all connected records pages of that record type. 
+Les vues créées dans la page Enregistrements connectés d&#39;un type d&#39;enregistrement sont disponibles partout dans Workfront Planning où s&#39;affiche cette page de type d&#39;enregistrement. Les vues créées pour le même type d&#39;enregistrement n&#39;importe où ailleurs dans Workfront Planning sont également accessibles dans toutes les pages d&#39;enregistrements connectées de ce type d&#39;enregistrement.
 
-To manage multiple views from the connected records page: 
+Pour gérer plusieurs vues à partir de la page Enregistrements connectés :
 
-1. From the connected records page of a record, click the dropdown menu to the right of the view name, then click **New view** to add a view, then select from the following options: 
+1. Dans la page des enregistrements connectés d&#39;un enregistrement, cliquez sur le menu déroulant à droite du nom de la vue, puis cliquez sur **Nouvelle vue** pour ajouter une vue, puis sélectionnez l&#39;une des options suivantes :
 
-   * **Table**. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
-   * **Timeline**. For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-   * **Calendar**. For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+   * **Tableau**. Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+   * **Chronologie**. Pour plus d’informations, consultez la section [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+   * **Calendrier**. Pour plus d’informations, consultez la section [Gérer la vue de calendrier](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-1. (Optional) Hover over the name of a view in the Connected records page, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following: *************check to make sure these are all possible*********
+1. (Facultatif) Pointez sur le nom d’une vue dans la page Enregistrements connectés, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes : ************ vérifiez que toutes ces options sont possibles *********
 
-   * **Rename**
-   * **Share**. For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
+   * **Renommer**
+   * **Partager**. Pour plus d’informations, consultez la section [Partager des vues](/help/quicksilver/planning/access/share-views.md).
 
    >[!TIP]
    >
-   >Sharing views from Connected records pages makes them accessible to users in all areas of Workfront Planning where the view displays. 
-   >Also, if a view is shared from any other area of Workfront Planning, it is also available to the same users in Connected records pages. 
+   >Le partage de vues à partir des pages Enregistrements connectés les rend accessibles aux utilisateurs dans toutes les zones de Workfront Planning où la vue s&#39;affiche.
+   >En outre, si une vue est partagée à partir de toute autre zone de Workfront Planning, elle est également disponible pour les mêmes utilisateurs dans les pages Enregistrements connectés .
 
-   * **Export** 
-   * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
+   * **Exporter**
+   * **Dupliquer** Pour plus d’informations, voir [Dupliquer les vues d’enregistrement](/help/quicksilver/planning/views/duplicate-record-views.md).
 
-      >[!TIP]
-      >
-      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types. 
+     >[!TIP]
+     >
+     >La duplication d&#39;une vue à partir des pages Enregistrements connectés la rend disponible dans toutes les autres zones de la planification Workfront, lors de l&#39;affichage des mêmes types d&#39;enregistrements.
 
-</div> -->
+</div>

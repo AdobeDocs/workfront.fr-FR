@@ -6,10 +6,10 @@ description: Vous pouvez personnaliser le type d’informations affichées à l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 63%
+source-wordcount: '893'
+ht-degree: 61%
 
 ---
 
@@ -60,10 +60,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 ## Créer ou personnaliser une vue
 
-Le processus de création ou de personnalisation d’une vue diffère selon que vous créez ou personnalisez une vue standard, une vue Agile ou une vue de tableau.
-
-* [Créer ou personnaliser une vue standard](#create-or-customize-a-standard-view)
-* [Créer ou personnaliser une vue Agile](#create-or-customize-an-agile-view)
+Le processus de création ou de personnalisation d’une vue diffère selon que vous créez ou personnalisez une vue standard ou une vue de panorama.
 
 ### Créer ou personnaliser une vue standard {#create-or-customize-a-standard-view}
 
@@ -161,13 +158,15 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
 
    Votre accès détermine la manière selon laquelle la vue est enregistrée. Si vous avez créé la vue à l’origine, vous pouvez enregistrer les modifications ; sinon, vous recevez une invitation à enregistrer une version. Gardez à l’esprit que que les modifications que vous apportez à l’affichage ont un impact sur les utilisateurs et utilisatrices avec lesquels l’affichage a été partagé.
 
-### Créer ou personnaliser une vue Agile {#create-or-customize-an-agile-view}
+### Création ou personnalisation d’une vue de tableau {#create-or-customize-an-agile-view}
 
-Les vues Agile, également appelées vues de tableau, s’affichent uniquement pour les listes de tâches et d’événements d’un projet.
+Vous pouvez gérer les projets selon une méthodologie Agile à l’aide d’une vue Tableau.
+
+Les affichages du tableau ne sont disponibles que pour les listes de tâches et d’événements d’un projet.
 
 Ils sont préconfigurés, mais vous pouvez modifier certains paramètres pour eux.
 
-Pour plus d’informations sur les vues Agile ou Tableau, consultez l’article [Gérer un projet dans la vue Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Pour plus d’informations sur Agile ou les vues de tableau, consultez l’article [Gérer un projet Agile dans la vue Tableau](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

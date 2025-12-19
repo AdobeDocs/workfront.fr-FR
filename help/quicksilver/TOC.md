@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 8e5a35f20675e911a5ba7251b39ead7c1770b666
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '13630'
+source-wordcount: '13631'
 ht-degree: 83%
 
 ---
@@ -1241,7 +1241,7 @@ ht-degree: 83%
          * [Supprimer des utilisateurs et utilisatrices d’un projet](manage-work/projects/manage-projects/remove-users-from-projects.md)
          * [Planifier les ressources pour un projet](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [Communiquer avec les personnes membres de l’équipe de projet](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-         * [Gérer un projet en vue Agile](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+         * [Gérer un projet Agile dans la vue Tableau](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Comprendre les mesures du projet](manage-work/projects/manage-projects/project-metrics.md)
          * [Vue d’ensemble des limites du projet](manage-work/projects/manage-projects/project-maximums.md)
          * [Résumé des mises à jour avec l’assistant AI](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
@@ -2531,7 +2531,7 @@ ht-degree: 83%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)

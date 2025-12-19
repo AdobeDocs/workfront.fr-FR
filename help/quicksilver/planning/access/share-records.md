@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1838'
 ht-degree: 5%
 
 ---
@@ -117,6 +117,9 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 <!--checking on the below with Lilit-->
 
 * Vous pouvez partager des enregistrements avec les entités suivantes : personnes, groupes, équipes, entreprises ou fonctions.
+* Lorsque vous partagez un enregistrement, les utilisateurs ont le même accès partout où cet enregistrement apparaît dans le système.
+* Si vous limitez les autorisations à un enregistrement, les utilisateurs ne verront plus cet enregistrement et les valeurs de ses champs de recherche où que ce soit dans le système où cet enregistrement est ajouté.
+* Workfront vérifie les autorisations d’enregistrement dans les connexions jusqu’à 5 enregistrements, en s’assurant que les utilisateurs voient uniquement les enregistrements partagés avec eux.
 * Vous pouvez accorder les niveaux d’autorisation suivants à un enregistrement :
 
    * Afficher
@@ -187,7 +190,7 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Autorisations pour les enregistrements avec des autorisations héritées sur ](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations **Vue** ou supérieures sur l’espace de travail et le type d’enregistrement disposent des mêmes autorisations sur l’enregistrement.
 

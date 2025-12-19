@@ -7,10 +7,10 @@ description: Vous pouvez personnaliser le type d’informations affichées dans 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 70%
+source-wordcount: '591'
+ht-degree: 69%
 
 ---
 
@@ -42,8 +42,8 @@ Vous pouvez appliquer les types de vues suivants dans les listes ou les rapports
         <td>Vous pouvez les appliquer à n’importe quelle liste ou n’importe quel rapport d’objets. Les vues standard sont hautement personnalisables. Vous pouvez personnaliser et partager une vue standard avec d’autres personnes. Pour plus d’informations, consultez la section <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Créer ou modifier des vues dans Adobe Workfront</a>.</td>
     </tr>
     <tr>
-        <td><strong>Vue Agile</strong></td>
-        <td>Vous pouvez appliquer la vue Tableau ou Agile à une liste de tâches dans la section Tâches d’un projet ou à une liste d’événements dans la section Événements du projet. Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md"> Gérer un projet dans la vue Agile </a>.</td>
+        <td><strong>Vue Tableau</strong></td>
+        <td>Vous pouvez appliquer la vue Tableau à une liste de tâches dans la section Tâches d’un projet ou à une liste d’événements dans la section Événements du projet afin de gérer vos projets à l’aide d’une méthodologie Agile. Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md"> Gérer un projet Agile dans la vue Tableau </a>.</td>
     </tr>
     <tr>
         <td><strong>Vue Gantt</strong></td>
@@ -66,7 +66,7 @@ Vous pouvez partager les éléments d’une vue standard.
 
 Pour plus d’informations sur le partage d’un affichage standard, voir [Partage d’un filtre, d’une vue ou d’un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-Vous ne pouvez pas partager les vues Gantt et Agile. Toute personne ayant accès aux zones où s’affichent ces vues peut afficher les mêmes informations.
+Vous ne pouvez pas partager les vues du Gantt et du Conseil. Toute personne ayant accès aux zones où s’affichent ces vues peut afficher les mêmes informations.
 
 <!-- add something about the enhanced views here, when we have a link-->
 
@@ -74,7 +74,7 @@ Vous ne pouvez pas partager les vues Gantt et Agile. Toute personne ayant accès
 
 La possibilité de supprimer une vue fonctionne différemment selon que vous avez initialement créé la vue ou que celle-ci a été partagée avec vous. Vous ne pouvez pas supprimer une vue par défaut.
 
-Vous ne pouvez pas supprimer les vues Gantt ou Agile.
+Vous ne pouvez pas supprimer les vues Gantt ou Tableau.
 
 Pour plus d’informations sur la suppression d’une vue standard, voir [Supprimer des filtres, des vues et des regroupements](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
