@@ -278,7 +278,7 @@ Pour plus d’informations, voir [Gérer la vue Tableau](/help/quicksilver/plann
       * Chronologie
 Pour plus d’informations, voir [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
       * Calendrier
-Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
         Pour plus d’informations, consultez la section [Gérer plusieurs vues à partir de la page des enregistrements connectés](#manage-multiple-views-from-the-connected-records-page) dans cet article.
 
@@ -406,7 +406,7 @@ Pour gérer plusieurs vues à partir de la page Enregistrements connectés :
    * **Chronologie**. Pour plus d’informations, consultez la section [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
    * **Calendrier**. Pour plus d’informations, consultez la section [Gérer la vue de calendrier](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-1. (Facultatif) Pointez sur le nom d’une vue dans la page Enregistrements connectés, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes : ************ vérifiez que toutes ces options sont possibles *********
+1. (Facultatif) Pointez sur le nom d’une vue dans la page Enregistrements connectés, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes : **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;** vérifiez que toutes ces options sont possibles **&#x200B;**&#x200B;**&#x200B;***
 
    * **Renommer**
    * **Partager**. Pour plus d’informations, consultez la section [Partager des vues](/help/quicksilver/planning/access/share-views.md).
