@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
+source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1501'
 ht-degree: 1%
 
 ---
@@ -142,6 +142,7 @@ Pour plus d’informations, voir [Modifier les espaces de travail](/help/quicksi
 >Aperçu : 11 décembre 2025
 >Version rapide de production : 11 décembre 2025
 >Production pour tous : 11 décembre 2025
+>[!BADGE Hors programme ]{type=Neutral}
 
 Le champ de connexion avec la marque GenStudio for Performance Marketing est désormais ajouté par défaut aux types d’enregistrements Produits et Personnes dans l’espace de travail GenStudio de Workfront Planning.
 
@@ -158,6 +159,7 @@ Pour plus d’informations, voir [Prise en main de l’intégration d’Adobe Wo
 >Aperçu : 11 décembre 2025
 >Version rapide de production : 11 décembre 2025
 >Production pour tous : 11 décembre 2025
+>[!BADGE Hors programme ]{type=Neutral}
 
 Nous avons ajouté un mécanisme de sécurisation qui vous empêche de supprimer les autorisations des utilisateurs de GenStudio for Performance Marketing des objets Workfront Planning. Grâce à cette amélioration, vous ne pouvez plus supprimer les utilisateurs de GenStudio de l’espace de travail GenStudio dans Planning. Vous ne pouvez pas non plus désactiver les autorisations héritées pour les types d’enregistrements dans l’espace de travail GenStudio, si ces autorisations incluent les utilisateurs de GenStudio. Avant cette amélioration, lorsque vous supprimiez ces utilisateurs de l’espace de travail GenStudio dans Planning, ils perdaient également les autorisations pour les types d’enregistrements dans GenStudio.
 
