@@ -7,10 +7,10 @@ description: Vous pouvez personnaliser le type d’informations affichées dans 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 69%
+ht-degree: 67%
 
 ---
 
@@ -38,8 +38,8 @@ Vous pouvez appliquer les types de vues suivants dans les listes ou les rapports
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>Vues standard</strong></td>
-        <td>Vous pouvez les appliquer à n’importe quelle liste ou n’importe quel rapport d’objets. Les vues standard sont hautement personnalisables. Vous pouvez personnaliser et partager une vue standard avec d’autres personnes. Pour plus d’informations, consultez la section <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Créer ou modifier des vues dans Adobe Workfront</a>.</td>
+        <td><strong>Affichage standard</strong></td>
+        <td>Vous pouvez l’appliquer à n’importe quelle liste ou rapport d’objets. Les vues standard sont hautement personnalisables. Vous pouvez personnaliser et partager une vue standard avec d’autres personnes. Pour plus d’informations, consultez la section <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Créer ou modifier des vues dans Adobe Workfront</a>.</td>
     </tr>
     <tr>
         <td><strong>Vue Tableau</strong></td>

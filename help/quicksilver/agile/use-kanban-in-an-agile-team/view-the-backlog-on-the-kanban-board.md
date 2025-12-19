@@ -6,10 +6,10 @@ description: Vous pouvez afficher une colonne [!UICONTROL Liste d’attente] dir
 author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez afficher une colonne [!UICONTROL Liste d’attente] directement sur 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -58,4 +58,4 @@ Par défaut, la colonne [!UICONTROL Liste d’attente] est masquée. Pour affich
 >
 >Si vous ajoutez plusieurs équipes à un élément de liste d’attente, la tâche ou le problème ne s’affiche que dans la liste d’attente de l’équipe principale. L’équipe principale est celle qui reçoit l’affectation en premier lieu.
 
-Pour plus d&#39;informations sur la liste d’attente, voir [Gérer la liste d’attente agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur la liste d’attente, voir [ Gérer la liste d’attente Agile ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

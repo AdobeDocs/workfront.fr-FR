@@ -2,23 +2,23 @@
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Gestion de la liste d’attente Agile
-description: Les tâches et les problèmes peuvent être affectés à une équipe Agile et ajoutés à la liste d’attente de cette équipe en tant qu’histoires, en fonction de la méthodologie Agile utilisée par l’équipe.
+description: Les tâches et les événements peuvent être affectés à une équipe Agile et ajoutés à la liste d'attente de cette équipe sous forme d'histoires, selon la méthodologie Agile utilisée par l'équipe.
 author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 90%
+ht-degree: 69%
 
 ---
 
 # Gérer la liste d’attente Agile
 
-Les éléments de travail suivants peuvent être affectés à une équipe Agile et ajoutés à sa liste d’attente en tant qu’histoires, selon la méthodologie Agile utilisée par cette équipe :
+Les tâches suivantes peuvent être affectées à une équipe Agile et ajoutées à la liste d&#39;attente de cette équipe en tant qu&#39;histoires, selon la méthodologie Agile utilisée par l&#39;équipe :
 
-* **[!UICONTROL Équipes Agile Scrum] :** les tâches et les problèmes peuvent être affectés à l’équipe Agile et ajoutés à la liste d’attente.
-* **[!UICONTROL Équipes Agile Kanban] :** les tâches peuvent être affectées à l’équipe Agile et ajoutées à la liste d’attente. Les utilisateurs et les utilisatrices peuvent afficher la liste d’attente directement à partir du storyboard Agile, comme décrit dans [[!UICONTROL Ajouter la liste d’attente] au tableau Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). L’équipe utilise cette liste d’attente pour établir des priorités et gérer sa file d’attente de travail.
+* **[!UICONTROL Équipes Scrum Agile] :** les tâches et les événements peuvent être affectés à l’équipe Agile et ajoutés à la liste d’attente.
+* **[!UICONTROL Équipes Agile Kanban] :** les tâches peuvent être affectées à l’équipe Agile et ajoutées à la liste d’attente. Les utilisateurs peuvent afficher la liste d’attente directement à partir du storyboard agile, comme décrit dans [[!UICONTROL Ajouter la liste d’attente] au tableau kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). L’équipe utilise cette liste d’attente pour établir des priorités et gérer sa file d’attente de travail.
 
 Les tâches ou les problèmes peuvent être affectés à l’équipe (et ensuite ajoutés à la liste d’attente de l’équipe) à partir de n’importe quel emplacement d’[!DNL Adobe Workfront]. Du travail peut, par exemple, être affecté à une seule équipe dans le cadre de plusieurs projets.
 
@@ -37,7 +37,7 @@ Les tâches ou les problèmes peuvent être affectés à l’équipe (et ensuite
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -66,19 +66,19 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Vous pouvez réorganiser les histoires dans la liste d’attente en utilisant la méthode du glisser-déposer.
 
-1. Allez dans la liste d’attente Agile où vous souhaitez réorganiser les histoires.
+1. Accédez à la liste d’attente Agile dans laquelle vous souhaitez réorganiser les histoires.
 1. Dans le menu déroulant **[!UICONTROL Vue]**, sélectionnez la vue **[!UICONTROL Liste d’attente]** ou une vue personnalisée qui contient la colonne **[!UICONTROL Ordre]**.
 
    >[!NOTE]
    >
-   >Si une équipe Agile est affectée à une tâche ou à un problème et que le projet n’a pas un statut correspondant au statut actuel, alors ces tâches ou problèmes ne sont pas affichés dans la liste d’attente. Cela affecte cependant le chiffre dans la liste d’attente dans la colonne « Ordre ».
+   >Si une équipe Agile est affectée à une tâche ou à un événement et que le statut du projet n&#39;est pas égal à Actuel, elles ne s&#39;affichent pas dans la liste d&#39;attente. Cela affecte cependant le chiffre dans la liste d’attente dans la colonne « Ordre ».
 
 1. Sélectionnez une ou plusieurs histoires, puis faites glisser les histoires dans l’ordre dans lequel vous souhaitez qu’elles apparaissent dans la liste d’attente.
    ![Glisser-déposer des éléments de la liste d’attente](assets/agile-backlog-drag-and-drop.png)
 
 ### Ventiler les histoires {#break-down-stories}
 
-Puisque les histoires de la liste d’attente varient en taille, les utilisateurs et les utilisatrices peuvent les ventiler afin qu’elles soient exploitables dans une itération. En créant des sous-tâches sur la tâche qu’elle représente, la ventilation d’une histoire remplace la tâche originale dans la liste d’attente. Une tâche parent ou ses sous-tâches peuvent être affectées à une équipe Agile, mais les deux ne peuvent pas être affectées simultanément à une équipe.
+Puisque les histoires de la liste d’attente varient en taille, les utilisateurs et les utilisatrices peuvent les ventiler afin qu’elles soient exploitables dans une itération. En créant des sous-tâches sur la tâche qu’elle représente, la ventilation d’une histoire remplace la tâche originale dans la liste d’attente. Une tâche parent ou ses sous-tâches peuvent être affectées à une équipe Agile, mais les deux tâches ne peuvent pas être affectées à une équipe simultanément.
 
 >[!NOTE]
 >
@@ -105,10 +105,10 @@ Vous pouvez modifier les histoires directement à partir des onglets [!UICONTROL
 
 ## Créer des histoires dans la liste d’attente {#create-new-stories-on-the-backlog}
 
-Dans la liste d’attente, vous pouvez créer des histoires en créant l’histoire directement à partir de celle-ci, ou en assignant une tâche ou un problème existant à une équipe Agile.
+Vous pouvez créer de nouvelles histoires sur la liste d&#39;attente en créant l&#39;histoire directement à partir de la liste d&#39;attente, ou en affectant une tâche ou un événement existant à une équipe Agile.
 
 * [Créer une histoire à partir de la liste d’attente](#create-a-story-from-the-backlog)
-* [Attribuer une tâche ou un problème à une équipe agile](#assign-a-task-or-issue-to-an-agile-team)
+* [Affecter une tâche ou un événement à une équipe Agile](#assign-a-task-or-issue-to-an-agile-team)
 
 ### Créer une histoire à partir de la liste d’attente {#create-a-story-from-the-backlog}
 
@@ -168,11 +168,11 @@ Pour créer une histoire à partir de la liste d’attente :
 
 1. Cliquez sur **[!UICONTROL Enregistrer l’histoire]**.
 
-### Attribuer une tâche ou un problème à une équipe agile {#assign-a-task-or-issue-to-an-agile-team}
+### Affecter une tâche ou un événement à une équipe Agile {#assign-a-task-or-issue-to-an-agile-team}
 
-Vous pouvez attribuer une tâche ou un problème à une équipe agile. Une fois attribuée, la tâche ou le problème apparaît comme une nouvelle histoire dans la liste d’attente de l’équipe.
+Vous pouvez affecter une tâche ou un événement à une équipe Agile. Une fois attribuée, la tâche ou le problème apparaît comme une nouvelle histoire dans la liste d’attente de l’équipe.
 
-Pour attribuer une tâche ou un problème à une équipe agile :
+Pour affecter une tâche ou un événement à une équipe Agile :
 
 1. Accédez au projet contenant la tâche que vous souhaitez affecter.
 1. Sélectionnez la tâche ou le problème dans la liste.
@@ -180,7 +180,7 @@ Pour attribuer une tâche ou un problème à une équipe agile :
 1. Cliquez sur **[!UICONTROL Affectations]**.
 1. (Facultatif) Supprimez les personnes cessionnaires existantes.
 1. Cliquez sur **[!UICONTROL Ajouter une personne cessionnaire]**.
-1. Commencez à taper le nom de l’équipe agile que vous souhaitez voir affectée à la tâche ou au problème, puis cliquez sur le nom de l’équipe lorsqu’il apparaît dans la liste déroulante.
+1. Commencez à saisir le nom de l’équipe Agile qui doit être affectée à la tâche ou à l’événement, puis cliquez sur le nom de l’équipe lorsqu’il apparaît dans la liste déroulante.
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 La tâche ou le problème est maintenant disponible dans la liste d’attente de l’équipe.
 
@@ -192,7 +192,7 @@ La tâche ou le problème est maintenant disponible dans la liste d’attente de
 
 ### Déplacer des histoires de la liste d’attente vers une itération ou un panorama
 
-1. Rendez-vous dans la liste d’attente de l’équipe Agile.
+1. Accédez à la liste d’attente de l’équipe Agile.
 1. Sélectionnez les histoires à déplacer vers une itération ou un tableau kanban, puis cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Déplacer vers]**.
 Si vous déplacez l’histoire vers un tableau [!UICONTROL Kanban], le tableau [!UICONTROL Déplacer l’histoire vers le tableau Kanban] s’affiche.
 Si vous déplacez l’histoire vers une itération, la boîte de dialogue [!UICONTROL Déplacer l’histoire vers une itération] est affichée.
@@ -210,7 +210,7 @@ Si vous déplacez l’histoire vers une itération, la boîte de dialogue [!UICO
 
 Si vous décidez que votre équipe n’est pas encore prête à travailler sur une histoire, vous pouvez déplacer l’histoire dans la liste d’attente.
 
-Pour plus d’informations, voir la section [Déplacer une histoire Agile](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+Pour plus d’informations, voir [Déplacer une histoire agile](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
 ### Exporter les histoires de la liste d’attente {#export-stories-from-the-backlog}
 

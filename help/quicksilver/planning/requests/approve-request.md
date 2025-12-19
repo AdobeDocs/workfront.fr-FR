@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1103'
 ht-degree: 7%
 
 ---
@@ -37,7 +37,7 @@ Nous vous recommandons de consulter également les articles suivants :
 
 ## Considérations relatives à l’approbation des demandes
 
-* Les demandes envoyées s’affichent dans l’onglet Planification de la section Soumises de la zone des Demandes de Workfront avec l’un des statuts de demande suivants :
+* Les demandes envoyées s’affichent dans la zone des Demandes de Workfront avec l’un des statuts de demande suivants :
 
    * **Révision en attente** : ce statut s&#39;affiche lorsqu&#39;aucun approbateur n&#39;a ouvert l&#39;objet de la demande.
    * **En révision** : le statut **En attente de révision** passe à **En révision** lorsqu’au moins un approbateur ouvre l’objet de la demande. Le statut de la demande reste **En révision** jusqu&#39;à ce que tous les approbateurs aient approuvé la demande.
@@ -106,7 +106,7 @@ Vous pouvez approuver des demandes de création d’enregistrements à partir de
 
 1. (Conditionnel) Si vous utilisez l’expérience de requête héritée dans Workfront, ouvrez la requête en effectuant l’une des opérations suivantes :
 
-   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision **&#x200B;**.
+   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision ****.
 
      >[!TIP]
      >
@@ -118,7 +118,7 @@ Vous pouvez approuver des demandes de création d’enregistrements à partir de
    La page de requête s’ouvre en mode lecture seule.
 
    ![Page de requête en lecture seule au statut de révision](assets/read-only-reqeust-page-in-review-status.png)
-1. Si vous utilisez la nouvelle expérience de demande dans Workfront, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Demandes**, puis cliquez sur la demande à approuver avec le statut **En attente de révision** ou **En révision**.
+1. Si vous utilisez la nouvelle expérience de demande dans Workfront, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Demandes**, puis cliquez sur la demande que vous souhaitez approuver avec le statut **En attente de révision**.
 1. (Facultatif) Cliquez sur l’icône **Approbations** ![Icône Approbations](assets/approvals-icon.png) dans le coin supérieur droit de la demande pour afficher les approbateurs.
 1. Cliquez sur **Vérifier et approuver** puis choisissez l’une des options suivantes :
 
@@ -132,7 +132,7 @@ Vous pouvez approuver des demandes de création d’enregistrements à partir de
    * **Terminé** : la demande est approuvée.
    * **Rejeté** : la demande est rejetée.
 
-   La demande reste dans l’onglet Planification de la section Soumis de la zone Demandes de Workfront.
+   La demande reste dans la zone des Demandes de Workfront.
 
 <div class="preview">
 

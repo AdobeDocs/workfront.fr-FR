@@ -7,10 +7,10 @@ description: Consultez cet article pour mieux comprendre le fonctionnement du ta
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 99%
+ht-degree: 88%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 99%
 
 Les sections suivantes permettent de mieux comprendre le fonctionnement du panorama [!UICONTROL Kanban].
 
-Pour obtenir une description de la méthodologie [!UICONTROL Kanban], voir la section [Créer une équipe agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Pour une description de la méthodologie K[!UICONTROL anban], voir [Créer une équipe Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-Si la migration d’un panorama [!UICONTROL Kanban] d’équipe agile vers des [!UICONTROL panoramas] [!DNL Workfront] vous intéresse, voir la sections [Migrer des cartes [!UICONTROL Kanban] d’équipe agile vers des panoramas  [!DNL Workfront] &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Si vous souhaitez migrer d’une équipe agile [!UICONTROL tableau Kanban] vers des [!DNL Workfront] [!UICONTROL tableaux], consultez [Migrer les cartes de l’équipe agile [!UICONTROL Kanban] vers des  [!DNL Workfront] tableaux](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## Disposition et fonctions des panoramas [!UICONTROL Kanban]
 
 Le panorama [!UICONTROL Kanban] se compose des éléments suivants :
 
-**Colonne de liste d’attente** : affiche toutes les tâches actuellement en liste d’attente. Par défaut, cette colonne n’est pas affichée. Pour plus d’informations sur la liste d’attente, y compris sur la manière de l’afficher sur le panorama [!UICONTROL Kanban], voir la section [Gérer la liste d’attente agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+**Colonne de liste d’attente** : affiche toutes les tâches actuellement en liste d’attente. Par défaut, cette colonne n’est pas affichée. Pour plus d’informations sur la liste d’attente, y compris sur son affichage sur le panorama [!UICONTROL Kanban], voir [Gérer la liste d’attente Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 **Statuts de story** : indique le déroulement d’une story en fonction de la colonne de statut dans laquelle elle se trouve.
 

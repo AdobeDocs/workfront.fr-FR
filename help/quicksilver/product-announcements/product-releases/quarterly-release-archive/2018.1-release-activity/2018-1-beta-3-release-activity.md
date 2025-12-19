@@ -1,22 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2018.1 bêta 3
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.1 bêta 3. Cette fonctionnalité a été rendue disponible dans l’environnement de prévisualisation le 7 janvier 2018. Elle sera disponible dans l’environnement de production début 2018.
+title: Activité de la version 2018.1 Beta 3
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.1 Beta 3. Cette fonctionnalité a été rendue disponible dans l’environnement de prévisualisation le 7 janvier 2018. Elle sera disponible dans l’environnement de production début 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
-# Activité Version 2018.1 bêta 3
+# Activité de la version 2018.1 Beta 3
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.1 bêta 3. Cette fonctionnalité a été rendue disponible dans l’environnement de prévisualisation le 7 janvier 2018. Elle sera disponible dans l’environnement de production début 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.1 Beta 3. Cette fonctionnalité a été rendue disponible dans l’environnement de prévisualisation le 7 janvier 2018. Elle sera disponible dans l’environnement de production début 2018.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ Cette page décrit toutes les modifications les plus récentes disponibles dans 
 
 Pour obtenir la liste de toutes les modifications apportées dans la version 2018.1, consultez [Vue d’ensemble de l’activité de la version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La version 2018.1 bêta 3 contient des améliorations pour les administrateurs et administratrices Workfront et d’autres personnes :
+La version 2018.1 Beta 3 contient des améliorations pour les administrateurs et administratrices Workfront et les autres personnes :
 
 **Pour les administrateurs et administratrices**
 
@@ -52,7 +52,7 @@ En tant qu’administrateur ou administratrice de groupes, lorsque vous réiniti
 
 Pour plus d’informations sur la réinitialisation des mots de passe pour d’autres personnes, voir [Modifier le profil d’une personne](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Pour plus d’informations sur les fonctionnalités d’un administrateur ou d’une administratrice de groupes, voir la section « Fonctionnalités des administrateurs et administratrices de groupes » dans [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Pour plus d’informations sur les fonctionnalités d’un administrateur de groupes, consultez la section « Fonctionnalités des administrateurs de groupes » de la section [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ### Options de configuration de niveau d’accès pour les administrateurs et administratrices de groupes {#access-level-setup-options-for-group-administrators}
 
@@ -60,7 +60,7 @@ En tant qu’administrateur ou administratrice Workfront, vous pouvez désormais
 
 Pour plus d’informations sur la configuration du niveau d’accès pour les personnes, voir [Accorder l’accès aux utilisateurs et utilisatrices](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-Pour plus d’informations sur les fonctionnalités d’un administrateur ou d’une admistratrice de groupes, voir la section « Fonctionnalités des administrateurs et administratrices de groupes » dans [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Pour plus d’informations sur les fonctionnalités d’un administrateur de groupes, consultez la section « Fonctionnalités des administrateurs de groupes » de la section [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ### Créer des profils de feuille de temps pour les groupes {#create-timesheet-profiles-for-groups}
 
@@ -70,7 +70,7 @@ Avant cette modification, seulement un administrateur ou une administratrice Wor
 
 Pour plus d’informations sur la création de profils de feuille de temps, voir [Créer, modifier et affecter de profils de feuille de temps](../../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-Pour plus d’informations sur les fonctionnalités d’un administrateur ou d’une administratrice de groupes, voir la section « Fonctionnalités des administrateurs et administratrices de groupe » dans [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Pour plus d’informations sur les fonctionnalités d’un administrateur de groupes, consultez la section « Fonctionnalités des administrateurs de groupes » de la section [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ### Récupérer des éléments supprimés pour les utilisateurs et utilisatrices en tant qu’administrateur ou administratrice de groupes {#recover-deleted-items-for-users-as-a-group-administrator}
 
@@ -78,7 +78,7 @@ Si un projet est associé à un groupe pour lequel vous êtes l’administrateur
 
 Pour plus d’informations sur la récupération des éléments supprimés dans Workfront, voir [Restaurer des éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-Pour plus d’informations sur les fonctionnalités d’un administrateur ou d’une administratrice de groupe, voir la section « Fonctionnalités des administrateurs et administratrices de groupes » dans [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Pour plus d’informations sur les fonctionnalités d’un administrateur de groupes, consultez la section « Fonctionnalités des administrateurs de groupes » de la section [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 
 ## Améliorations apportées à la visionneuse de relecture HTML5 {#html5-proofing-viewer-improvements}
 
@@ -150,7 +150,7 @@ Il y a maintenant une animation rotative mise à jour lors de la génération d�
 Les améliorations suivantes ont été apportées à la zone d’accueil :
 
 * [Afficher les approbations d’épreuves à partir de la zone d’accueil](#view-proof-approvals-from-the-home-area)
-* [Les champs par défaut s’affichent lors de la configuration du modèle de disposition pour les éléments de la zone Page de départ.](#default-fields-are-displayed-when-configuring-the-layout-template-for-items-in-the-home-area)
+* [Les champs par défaut s’affichent lors de la configuration du modèle de mise en page pour les éléments de la zone Page de départ.](#default-fields-are-displayed-when-configuring-the-layout-template-for-items-in-the-home-area)
 
 ### Afficher les approbations d’épreuves à partir de la zone d’accueil {#view-proof-approvals-from-the-home-area}
 
@@ -160,7 +160,7 @@ Auparavant, vous pouviez afficher les approbations Workfront, mais pas les appro
 
 Pour plus d’informations, voir [Utiliser la zone d’accueil](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-### Les champs par défaut s’affichent lors de la configuration du modèle de disposition pour les éléments de la zone Page de départ. {#default-fields-are-displayed-when-configuring-the-layout-template-for-items-in-the-home-area}
+### Les champs par défaut s’affichent lors de la configuration du modèle de mise en page pour les éléments de la zone Page de départ. {#default-fields-are-displayed-when-configuring-the-layout-template-for-items-in-the-home-area}
 
 Auparavant, les champs par défaut n’étaient pas visibles à partir du modèle de mise en page.
 
@@ -176,7 +176,7 @@ Pour plus d’informations, voir « Créer et gérer des modèles de mise en pa
 
 ### Ajouter directement des tâches et des problèmes à l’itération à partir de la page Détails de la tâche ou du problème {#add-tasks-and-issues-to-the-iteration-directly-from-the-task-or-issue-details-page}
 
-Vous pouvez désormais ajouter des tâches et des problèmes actuellement affectés à une équipe Agile à une itération directement à partir de la tâche ou du problème.
+Vous pouvez désormais ajouter des tâches et des événements actuellement affectés à une équipe Agile à une itération directement à partir de la tâche ou de l’événement.
 
 Auparavant, vous pouviez ajouter des tâches à une itération uniquement à partir de la liste d’attente. 
 
@@ -184,19 +184,19 @@ Pour plus d’informations, voir [Créer une itération](../../../../agile/use-s
 
 ### Inclure des problèmes sur la liste d’attente et le storyboard Scrum d’une équipe Agile {#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team}
 
-Les problèmes sont désormais inclus par défaut dans la liste d’attente de votre équipe Agile lors de l’utilisation de la méthodologie Agile Scrum (les problèmes ne s’affichent pas dans la liste d’attente d’une équipe Agile lors de l’utilisation de la méthodologie Kanban).
+Les événements sont désormais inclus par défaut dans la liste d’attente de votre équipe Agile lors de l’utilisation de la méthodologie Scrum Agile (les événements ne s’affichent pas dans la liste d’attente d’une équipe Agile lors de l’utilisation de la méthodologie Kanban).
 
 Avant cette modification, seules les tâches pouvaient être ajoutées à la liste d’attente. Si vous vouliez ajouter un problème, vous deviez d’abord le convertir en une tâche avant de pouvoir l’ajouter.
 
-Pour plus d’informations sur l’utilisation des problèmes sur la liste d’attente, voir [Gérer la liste d’attente Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur l’utilisation des événements dans la liste d’attente, voir  [Gérer la liste d’attente Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Appliquer des regroupements et des filtres à la liste d’attente d’une équipe Agile {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
-Les options Regroupement et Filtre sont désormais disponibles sur la liste d’attente Agile, ce qui vous permet d’organiser votre liste d’attente par regroupements, ainsi que de filtrer les tâches et problèmes spécifiques.
+Les options Regroupement et Filtre sont désormais disponibles dans la liste d’attente Agile. Vous pouvez ainsi organiser votre liste d’attente par regroupements et filtrer des tâches et des événements spécifiques.
 
-Avant cette modification, vous pouviez appliquer les vues à la liste d’attente Agile.
+Avant cette modification, vous pouviez appliquer des vues à la liste d’attente Agile.
 
-Pour plus d’informations, voir [Gérer la liste d’attente Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) dans [Gérer la liste d’attente Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations, voir  [Gérer la liste d’attente Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) dans  [Gérer la liste d’attente Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Créer une itération vierge et la mettre à jour ultérieurement {#create-a-blank-iteration-and-update-it-later}
 

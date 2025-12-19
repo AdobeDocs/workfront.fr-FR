@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '13631'
 ht-degree: 83%
@@ -1111,9 +1111,9 @@ ht-degree: 83%
          * [Afficher et modifier les informations relatives aux histoires sur le panorama Scrum](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
    * Travailler dans un environnement Agile {#work-in-agile-environment}
       * [Travailler dans un environnement Agile](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
-      * [Créer une story agile](agile/work-in-an-agile-environment/create-an-agile-story.md)
+      * [Créer une histoire Agile](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [Gérer la liste d’attente Agile](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
-      * [Déplacer une story agile](agile/work-in-an-agile-environment/move-an-agile-story.md)
+      * [Déplacer une histoire Agile](agile/work-in-an-agile-environment/move-an-agile-story.md)
    * Conseils, astuces et dépannage pour Agile {#tips-tricks-agile}
       * [Conseils, astuces et dépannage pour Agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Les statuts personnalisés ne s’affichent pas sur le Storyboard Agile.](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
@@ -2531,7 +2531,7 @@ ht-degree: 83%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)

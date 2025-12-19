@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Déplacer une histoire agile
-description: Vous pouvez déplacer une histoire agile vers une itération différente (pour les équipes Scrum) ou vers la liste d’attente (pour les équipes Kanban et Scrum).
+description: Vous pouvez déplacer une histoire agile vers une autre itération (pour les équipes de Scrum) ou vers la liste d’attente (pour les équipes de Kanban et de Scrum).
 author: Jenny
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 73%
+ht-degree: 59%
 
 ---
 
-# Déplacer une story agile
+# Déplacer une histoire Agile
 
-Vous pouvez déplacer une histoire agile vers une itération différente (pour les équipes Scrum) ou vers la liste d’attente (pour les équipes Kanban et Scrum).
+Vous pouvez déplacer une histoire agile vers une autre itération (pour les équipes de Scrum) ou vers la liste d’attente (pour les équipes de Kanban et de Scrum).
 
 ## Conditions d’accès
 
@@ -28,7 +28,7 @@ Vous pouvez déplacer une histoire agile vers une itération différente (pour l
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

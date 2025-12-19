@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1875'
 ht-degree: 3%
 
 ---
@@ -186,7 +186,7 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
      >
      >Vous ne pouvez pas afficher le champ **Objet**.
 
-     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+     ![Zone d&#39;édition Colonnes de la zone Demandes](assets/columns-editing-box-in-requests-planning-tab.png)
 
 
 1. Cliquez sur le nom d’une requête dans la liste.
@@ -280,7 +280,7 @@ Vous pouvez copier une demande dans la liste des demandes de Workfront, puis mod
 
 Cette option est disponible uniquement dans la nouvelle expérience de demande.
 
-Pour obtenir des instructions, voir [&#x200B; Copier et envoyer des demandes &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour obtenir des instructions, voir [ Copier et envoyer des demandes ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Créer des brouillons et des demandes à partir de brouillons existants
 

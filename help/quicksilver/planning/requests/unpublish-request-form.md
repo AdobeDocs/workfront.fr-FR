@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '676'
 ht-degree: 16%
 
 ---
@@ -133,4 +133,4 @@ Le lien ou le bouton **Dépublier** devient **Publier**.
 
    Tous les enregistrements précédemment ajoutés à l’aide du formulaire de demande restent sur la page du type d’enregistrement.
 
-   Toutes les demandes précédemment ajoutées restent dans la zone des Demandes de Workfront, dans l’onglet Planification .
+   Toutes les requêtes précédemment ajoutées restent dans la zone des Requêtes de Workfront.

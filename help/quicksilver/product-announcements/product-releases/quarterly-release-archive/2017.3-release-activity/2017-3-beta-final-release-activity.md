@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '3791'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -94,29 +94,29 @@ Pour plus d’informations, consultez « Personnaliser l’accueil » dans «�
 
 ## Kanban pour Agile {#kanban-for-agile}
 
-Les équipes Agile peuvent désormais utiliser une méthodologie Kanban dans Workfront, en plus de la méthodologie Agile Scrum déjà prise en charge.
+Les équipes Agile peuvent désormais utiliser une méthodologie Kanban dans Workfront, en plus de la méthodologie Scrum Agile déjà prise en charge.
 
-Les méthodologies Agile Scrum et Kanban de Workfront diffèrent comme suit :
+Les méthodologies Scrum et Kanban Agile dans Workfront diffèrent des manières suivantes :
 
 **Avantages de l’utilisation de Kanban dans Workfront**
 
-* Affichez la liste d’attente sur le storyboard agile de Kanban.
+* Affichez la liste d’attente sur le storyboard Kanban Agile.
 
   Pour plus d’informations, voir :
 
-* Configurez les éléments dans la liste d’attente pour qu’ils soient automatiquement ajoutés au storyboard agile de Kanban lorsque d’autres éléments sont déplacés vers un état correspondant à Terminé.
+* Configurez les éléments de la liste d’attente pour qu’ils soient automatiquement ajoutés au storyboard agile kanban lorsque d’autres éléments sont déplacés vers un statut équivalent à Terminé.
 
   Pour plus d’informations, consultez [Configurer des histoires à ajouter automatiquement à partir de la liste d’attente](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) dans [Configurer Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configurez une limite de travail en cours à afficher sur le storyboard agile de Kanban.
+* Configurez une limite de travail en cours (WIP) à afficher sur le storyboard Kanban Agile.
 
   Pour plus d’informations, consultez [Configurer la limite de travail en cours](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) dans [Configurer Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 **Avantages de Scrum dans Workfront**
 
-* Ajoutez un ensemble d’histoires à une itération agile et créez un storyboard pour cette itération.
+* Ajoutez un ensemble d’histoires à une itération Agile et créez un storyboard pour cette itération.
 * Incluez des problèmes sur le storyboard Scrum.
-* Incluez des problèmes sur la liste d’attente d’une équipe agile.
+* Inclure les événements dans la liste d&#39;attente d&#39;une équipe Agile
 
   Pour plus d’informations, consultez [Configurer l’application des dates lors de l’ajout d’éléments de travail à une itération](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans [Configurer Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -125,7 +125,7 @@ Les méthodologies Agile Scrum et Kanban de Workfront diffèrent comme suit :
 
   Pour plus d’informations, consultez [Vue d’ensemble du graphique d’avancement agile](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-Pour plus d’informations sur l’activation et la configuration de Kanban pour une équipe agile, consultez [Choisir une méthodologie agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) dans [Créer une équipe agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Pour plus d’informations sur l’activation et la configuration de Kanban pour une équipe Agile, voir [Choisir une méthodologie Agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) dans [Créer une équipe Agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Inclure des problèmes dans la liste d’attente Scrum pour une équipe agile {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -133,15 +133,15 @@ Pour plus d’informations sur l’activation et la configuration de Kanban pour
 >
 >Cette fonctionnalité a été supprimée de l’environnement de production le 14 novembre 2017. Elle devrait être réintroduite dans l’environnement de prévisualisation début 2018 avec une conception améliorée et une stabilité accrue. Elle sera publiée dans l’environnement de production de la version 2018.1.
 
-Vous pouvez désormais inclure des problèmes dans la liste d’attente de votre équipe agile lors de l’utilisation de la méthodologie agile Scrum (les problèmes ne s’affichent pas dans la liste d’attente de l’équipe agile lors de l’utilisation de la méthodologie Kanban). Les équipes agiles de Scrum existantes doivent activer cette fonctionnalité pour que les problèmes soient inclus. Les problèmes sont automatiquement inclus dans la liste d’attente des équipes agiles Scrum créées après la version 2017.3.
+Vous pouvez désormais inclure des problèmes dans la liste d’attente de votre équipe Agile lors de l’utilisation de la méthodologie Scrum Agile (les problèmes ne s’affichent pas dans la liste d’attente d’une équipe Agile lors de l’utilisation de la méthodologie Kanban). Les équipes Scrum Agile existantes doivent activer cette fonctionnalité pour que les problèmes soient inclus. Les problèmes sont automatiquement inclus dans la liste d’attente pour les équipes Scrum Agile créées après la version 2017.3.
 
 Avant cette modification, seules les tâches pouvaient être ajoutées à la liste d’attente. Si vous vouliez ajouter un problème, vous deviez d’abord le convertir en une tâche avant de pouvoir l’ajouter.
 
 Comme vous avez désormais accès à plus que les tâches de la liste d’attente, toutes les vues de tâches personnalisées disponibles précédemment dans la liste d’attente sont copiées et ajoutées à la liste d’attente en tant que vues d’élément de travail de la liste d’attente personnalisées.
 
-Pour plus d’informations sur l’utilisation des problèmes dans la liste d’attente, consultez [Gérer la liste d’attente agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur l’utilisation des événements dans la liste d’attente, voir  [Gérer la liste d’attente Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Pour plus d’informations sur la manière de rendre les problèmes disponibles dans la liste d’attente d’une équipe agile Scrum, consultez [Configurer l’application des dates lors de l’ajout d’éléments de travail à une itération](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans [Configurer Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Pour plus d&#39;informations sur l&#39;activation de problèmes dans la liste d&#39;attente d&#39;une équipe Agile Scrum, voir  [Configurez comment les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans [Configurer Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Inclure les problèmes dans le storyboard Agile Scrum {#include-issues-on-the-scrum-agile-story-board}
 
@@ -149,9 +149,9 @@ Pour plus d’informations sur la manière de rendre les problèmes disponibles 
 >
 >Cette fonctionnalité a été supprimée de l’environnement de production le 14 novembre 2017. Elle devrait être réintroduite dans l’environnement de prévisualisation début 2018 avec une conception améliorée et une stabilité accrue. Elle sera publiée dans l’environnement de production de la version 2018.1.
 
-Vous pouvez désormais inclure des problèmes sur le storyboard lorsque vous utilisez la méthodologie agile Scrum.
+Vous pouvez désormais inclure des problèmes sur le storyboard lors de l’utilisation de la méthodologie Scrum Agile.
 
-Pour plus d’informations, consultez [Configurer des colonnes de statut sur le storyboard agile](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) dans [Configurer Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Pour plus d’informations, voir [Configurer les colonnes de statut sur le storyboard agile](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) dans [Configurer Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Appliquer des regroupements et des filtres à la liste d’attente d’une équipe Agile {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -159,11 +159,11 @@ Pour plus d’informations, consultez [Configurer des colonnes de statut sur le 
 >
 >Cette fonctionnalité a été supprimée de l’environnement de production le 14 novembre 2017. Elle devrait être réintroduite dans l’environnement de prévisualisation début 2018 avec une conception améliorée et une stabilité accrue. Elle sera publiée dans l’environnement de production de la version 2018.1.
 
-Les options Regroupement et Filtre sont désormais disponibles sur la liste d’attente Agile, ce qui vous permet d’organiser votre liste d’attente par regroupements, ainsi que de filtrer les tâches et problèmes spécifiques.
+Les options Regroupement et Filtre sont désormais disponibles dans la liste d’attente Agile. Vous pouvez ainsi organiser votre liste d’attente par regroupements et filtrer des tâches et des événements spécifiques.
 
-Avant cette modification, vous pouviez appliquer les vues à la liste d’attente Agile.
+Avant cette modification, vous pouviez appliquer des vues à la liste d’attente Agile.
 
-Pour plus d’informations, voir  [Gérer la liste d’attente Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) dans [Gérer la liste d’attente Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations, voir  [Gérer la liste d’attente Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) dans  [Gérer la liste d’attente Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## Formatage de texte enrichi pour les mises à jour et les e-mails {#rich-text-formatting-for-updates-and-emails}
 
@@ -309,7 +309,7 @@ La visionneuse HTML5 ne prend pas encore en charge toutes les fonctionnalités a
 
 Pour plus d’informations sur la relecture des épreuves statiques dans la visionneuse HTML5, voir .
 
-En tant qu’administrateur ou administratrice Workfront dans Workfront Proof, vous pouvez déterminer si les personnes de votre entreprise ont accès à la nouvelle visionneuse d’épreuves HTML5 pour les épreuves vidéo.
+En tant qu’administrateur ou administratrice Workfront dans Workfront Proof, vous pouvez déterminer si les personnes de votre entreprise ont accès à la nouvelle visionneuse de relecture HTML5 pour les épreuves vidéo.
 
 ## Nouvelle conception du graphique de Gantt {#new-gantt-chart-redesign}
 

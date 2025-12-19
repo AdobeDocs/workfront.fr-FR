@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des histoires à une itération de plusieurs fa
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 85%
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 
 Vous pouvez ajouter des histoires à une itération de l’une des manières suivantes :
 
-* À partir de la liste d’attente après la création de l’itération, comme décrit dans les sections [Déplacer des histoires de la liste d’attente vers une itération ou Panorama [!UICONTROL Kanban]](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) de l’article [Gérer la liste d’attente Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+* À partir de la liste d’attente après la création de l’itération, comme décrit dans la section [Déplacer des histoires de la liste d’attente vers une itération ou [!UICONTROL Kanban] panorama](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) dans [Gérer la liste d’attente Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
 * Dans la page [!UICONTROL Détails] de la tâche ou du problème individuel.
 * À partir d’une tâche ou d’une liste de problèmes
@@ -31,7 +31,7 @@ Vous pouvez ajouter des histoires à une itération de l’une des manières sui
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
