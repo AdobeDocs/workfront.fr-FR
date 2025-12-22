@@ -3,14 +3,14 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Présentation du scrum board
-description: Le storyboard Agile Scrum s’affiche avec le statut d’achèvement et le graphique d’avancement.
+description: Le storyboard scrum Agile s’affiche avec l’état d’achèvement et le graphique d’avancement.
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 76%
+ht-degree: 51%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 76%
 
 <!-- Audited: 5/2025 -->
 
-Le storyboard Agile [!UICONTROL Scrum] s’affiche avec le statut d’achèvement et le graphique d’avancement. Ces composants Agile sont disponibles dans les situations suivantes dans [!UICONTROL Adobe Workfront] :
+Le storyboard agile [!UICONTROL Scrum] s’affiche avec l’état d’achèvement et le graphique d’avancement. Ces composants Agile sont disponibles dans les situations suivantes dans [!UICONTROL Adobe Workfront] :
 
-* Lors des itérations Agile. Pour plus d’informations sur l’utilisation du storyboard Agile, du graphique d’avancement et du statut d’achèvement dans un environnement purement Agile (avec des listes d’attente et une itération), consultez la section [Travailler dans un environnement Agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
-* Lorsque vous affichez un projet dans une vue Agile. Pour plus d’informations sur la façon dont vous pouvez exploiter le storyboard Agile, le graphique d’avancement et le statut d’achèvement dans un projet existant, consultez la section [Gérer un projet dans une vue Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+* Sur les itérations Agile. Pour plus d’informations sur l’utilisation du storyboard agile, du graphique d’avancement et de l’état d’achèvement dans un environnement purement agile (avec des retards et une itération), consultez la section [Travailler dans un environnement agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+* Lorsque vous affichez un projet dans une vue Agile. Pour plus d’informations sur la manière dont vous pouvez exploiter le storyboard, le graphique d’avancement et l’état d’achèvement Agile dans un projet existant, voir [Gérer un projet dans la vue Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ![Itération Agile](assets/agile-iteration-with-callouts.png)
 
@@ -44,7 +44,7 @@ Le storyboard se compose des éléments suivants :
 
 * **Statuts des tâches** : indiquez la progression d’une histoire tout au long de l’itération ou du projet en fonction de la colonne de statut dans laquelle se trouve l’histoire.
 
-  Les statuts des tâches peuvent être personnalisés pour le projet en modifiant la vue agile.
+  Les statuts des tâches peuvent être personnalisés pour le projet en modifiant la vue Agile.
 
 * **Piste de navigation** : lorsqu’une histoire parent et ses sous-tâches apparaissent sur le storyboard, une piste de navigation est créée spécifiquement pour l’histoire et ses sous-tâches. Cette méthode permet de distinguer visuellement et de suivre plus aisément la progression des sous-tâches à travers le contenu global du storyboard.
 
@@ -67,10 +67,10 @@ Cette même logique s’applique aux sous-tâches de deuxième niveau (sous-tâc
 
 ## Relation entre le storyboard et la liste d’attente
 
-La liste d’attente des itérations affiche uniquement les histoires ou les sous-tâches pour lesquelles vous pouvez définir une estimation. Si une histoire parent a des sous-tâches qui sont affichées sur le storyboard (parce qu’elles sont affectées à la même équipe Agile et appartiennent à l’itération), la tâche parent n’est pas affichée dans la liste d’attente. Dans ce cas, seules les sous-tâches sont affichées dans la liste d’attente, tandis que les sous-tâches et l’histoire parent sont affichées sur le storyboard.
+La liste d’attente des itérations affiche uniquement les histoires ou les sous-tâches pour lesquelles vous pouvez définir une estimation. Si un scénario parent comporte des sous-tâches qui s’affichent sur le storyboard (car elles sont affectées à la même équipe Agile et appartiennent à l’itération), la tâche parent ne s’affiche pas dans la liste d’attente. Dans ce cas, seules les sous-tâches sont affichées dans la liste d’attente, tandis que les sous-tâches et l’histoire parent sont affichées sur le storyboard.
 
-Supposons, par exemple, que l’histoire A contienne la sous-tâche 1 et la sous-tâche 2 (et que les deux sous-tâches soient affectées à la même équipe Agile). Dans ce cas, l’histoire A s’affiche dans un couloir sur le storyboard avec les sous-tâches 1 et 2. Toutefois, seules les sous-tâches 1 et 2 sont affichées dans la liste d’attente.
+Supposons, par exemple, que l&#39;article A contienne la sous-tâche 1 et la sous-tâche 2 (et que les deux sous-tâches soient affectées à la même équipe Agile). Dans ce cas, l’histoire A s’affiche dans un couloir sur le storyboard avec les sous-tâches 1 et 2. Toutefois, seules les sous-tâches 1 et 2 sont affichées dans la liste d’attente.
 
-Cette même logique s’applique aux sous-tâches de deuxième niveau (sous-tâches de sous-tâches). Si une sous-tâche a une ou plusieurs sous-tâches de second niveau affectées à la même équipe Agile appartenant à l’itération, seule la sous-tâche de second niveau est affichée dans la liste d’attente.
+Cette même logique s’applique aux sous-tâches de deuxième niveau (sous-tâches de sous-tâches). Si une sous-tâche comporte une ou plusieurs sous-tâches de second niveau affectées à la même équipe Agile et appartenant à l&#39;itération, seule la sous-tâche de second niveau est affichée dans la liste d&#39;attente.
 
-Pour plus d’informations sur la liste d’attente, voir [&#x200B; Gérer la liste d’attente Agile &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur la liste d’attente, voir [ Gérer la liste d’attente Agile ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

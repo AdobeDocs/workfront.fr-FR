@@ -5,16 +5,16 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 23.3 Améliorations relatives à la méthode Agile
 
-Cette page décrit tous les améliorations relatives aux tableaux et à la méthode Agile de la version 23.3. Ces améliorations ont été mises à disposition dans l’environnement de production avec la version 23.3 les 20 et 21 juillet 2023.
+Cette page décrit toutes les améliorations apportées aux tableaux et à l’agile avec la version 23.3. Ces améliorations ont été mises à disposition dans l’environnement de production avec la version 23.3 les 20 et 21 juillet 2023.
 
 Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version 23.3, voir [Vue d’ensemble de la version 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
@@ -118,15 +118,15 @@ Pour plus d’informations, voir [Créer ou modifier un panorama](/help/quicksil
 
 [Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
-## Migrer des cartes Kanban d’équipe Agile vers des panoramas
+## Migrer les cartes Kanban de l’équipe Agile vers les tableaux
 
-Le nouveau bouton **Ajouter à des panoramas** sur les tableaux Kanban de l’équipe Agile voue permet d’ajouter toutes les cartes du tableau Kanban à un panorama Workfront. Vous pouvez choisir de créer un panorama Workfront ou d’ajouter les cartes à un panorama existant.
+Un nouveau bouton **Ajouter aux tableaux** sur les tableaux Kanban de l’équipe Agile vous permet d’ajouter toutes les cartes du tableau Kanban à un tableau Workfront. Vous pouvez choisir de créer un panorama Workfront ou d’ajouter les cartes à un panorama existant.
 
-Le placement des cartes sur le panorama Workfront est basé sur des politiques de colonnes. (Par exemple, une politique peut déplacer toutes les cartes dont le statut est « En cours » vers une colonne spécifique.) S’il n’existe aucune politique ou si les cartes ne correspondent pas aux politiques, elles sont placées dans la colonne la plus à gauche. Pour l’instant, les cartes de la colonne Liste d’attente du panorama hérité ne sont pas ajoutées au panorama Workfront.
+Le placement des cartes sur le panorama Workfront est basé sur des politiques de colonnes. (Par exemple, une politique peut déplacer toutes les cartes dont le statut est « En cours » vers une colonne spécifique.) S’il n’existe aucune stratégie ou si les cartes ne correspondent pas aux stratégies, les cartes sont placées dans la colonne la plus à gauche. Pour l’instant, les cartes de la colonne Liste d’attente du panorama hérité ne sont pas ajoutées au panorama Workfront.
 
 Les cartes ne sont pas supprimées du tableau Kanban de l’équipe Agile et les modifications du statut des cartes sont synchronisées avec les deux tableaux. Vous pouvez conserver les deux tableaux actifs jusqu’à ce que vous soyez en mesure de passer aux panoramas Workfront.
 
-Pour plus d’informations, voir [Migrer des cartes Kanban de l’équipe Agile vers des panoramas Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Pour plus d’informations, voir [Migrer les cartes Kanban de l’équipe Agile vers les tableaux Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 [Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3420425/){target=_blank}
 

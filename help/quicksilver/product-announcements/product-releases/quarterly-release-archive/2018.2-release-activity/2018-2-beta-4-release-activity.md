@@ -1,22 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2018.2, version bêta 4
-description: Cette page décrit toutes les dernières modifications disponibles dans l’environnement de prévisualisation avec la version 2018.2, version bêta 4. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 17 mai 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
+title: Activité de la version 2018.2 Beta 4
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 4. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 17 mai 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1705'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Activité Version 2018.2, version bêta 4
+# Activité de la version 2018.2 Beta 4
 
-Cette page décrit toutes les dernières modifications disponibles dans l’environnement de prévisualisation avec la version 2018.2, version bêta 4.La fonctionnalité sera disponible dans l’environnement de prévisualisation le 17 mai 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 4.La fonctionnalité sera disponible dans l’environnement de prévisualisation le 17 mai 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ Cette page décrit toutes les dernières modifications disponibles dans l’envi
 
 Pour obtenir la liste de toutes les modifications apportées à la version 2018.2, voir [Vue d’ensemble de l’activité Version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-La version 2018.2, version bêta 4 contient des améliorations pour les administrateurs et administratrices de Workfront et les autres utilisateurs et utilisatrices :
+La version 2018.2 Beta 4 contient les améliorations apportées aux administrateurs et administratrices de Workfront, ainsi qu’aux autres utilisateurs et utilisatrices :
 
 **Pour les administrateurs et administratrices**
 
@@ -40,7 +40,7 @@ La version 2018.2, version bêta 4 contient des améliorations pour les admini
 * [Prise en charge de Google Team Drives](#support-for-google-team-drives)
 * [Nouvelle limite d’export pour le graphique de Gantt](#new-export-limit-for-the-gantt-chart)
 * [L’option Coller depuis le presse-papiers est désormais grisée lors de l’utilisation d’Internet Explorer ou de Safari](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari).
-* [Nouvel environnement bêta pour Android avec de nouvelles fonctionnalités](#new-beta-environment-for-android-along-with-new-features)
+* Nouvel environnement Beta pour Android et nouvelles fonctionnalités[](#new-beta-environment-for-android-along-with-new-features)
 * [Exemples de filtres pour les messages d’abonnements aux événements](#examples-of-filters-for-event-subscriptions-messages)
 
 ## Améliorations de la limite du travail en cours (WIP) dans le tableau Kanban {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}
@@ -63,7 +63,7 @@ Pour plus d’informations, voir dans l’article .
 
 ## Interface améliorée pour la configuration des statuts d’une équipe Agile {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
-L’interface de configuration des statuts d’une équipe Agile a été mise à jour avec les améliorations suivantes :
+L&#39;interface de configuration des statuts pour une équipe Agile a été mise à jour avec les améliorations suivantes :
 
 * Nouvel aspect
 * Réorganiser les colonnes de statut via glisser-déposer
@@ -145,7 +145,7 @@ Nous avions temporairement désactivé l’exportation des données du planifica
 
 Pour plus d’informations sur l’exportation des données du planificateur de ressources vers Excel, voir la section « Option d’exportation » dans [Vue d’ensemble de la navigation dans le planificateur de ressources](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Pour participer à notre programme bêta actuel pour le planificateur de ressources, voir [Performances du planificateur de ressources (bêta)](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=fr).
+Pour participer à notre programme Beta actuel pour le planificateur de ressources, voir [Performances du planificateur de ressources (Beta)](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ## Paramètres du système : informations de session dans les pages externes {#system-setting-session-information-in-external-pages}
 
@@ -179,13 +179,13 @@ Avant cette modification, cette option ne s’affichait pas lors de l’utilisat
 
 Pour plus d’informations sur le collage d’images à partir du presse-papiers, consultez la section [Coller des images à partir du presse-papiers](../../../../documents/managing-documents/paste-image-clipboard.md).
 
-## Nouvel environnement bêta pour Android avec de nouvelles fonctionnalités {#new-beta-environment-for-android-along-with-new-features}
+## Nouvel environnement Beta pour Android avec de nouvelles fonctionnalités {#new-beta-environment-for-android-along-with-new-features}
 
-Inscrivez-vous comme testeur ou testeuse de la version bêta et découvrez les fonctionnalités récentes de l’application mobile sur lesquelles notre équipe travaille, avant qu’elles ne soient accessibles au grand public. Cet environnement est actuellement pris en charge par l’application mobile Workfront uniquement pour les téléphones Android.
+Inscrivez-vous comme Beta-testeur ou Beta-testeuse et découvrez les fonctionnalités récentes de l’application mobile sur lesquelles notre équipe travaille, avant qu’elles ne soient accessibles au grand public. Cet environnement est actuellement pris en charge par l’application mobile Workfront uniquement pour les téléphones Android.
 
-Pour plus d’informations sur la façon de s’inscrire en tant que testeur ou testeuse de la version bêta de l’application mobile Workfront, consultez .
+Pour plus d’informations sur la façon de s’inscrire en tant que Beta-testeur ou Beta-testeuse de l’application mobile Workfront, consultez .
 
-Les améliorations suivantes sont désormais disponibles sur la version bêta de l’application mobile :
+Les améliorations suivantes sont désormais disponibles sur la version Beta de l’application mobile :
 
 * Nouvelle page de compte
 

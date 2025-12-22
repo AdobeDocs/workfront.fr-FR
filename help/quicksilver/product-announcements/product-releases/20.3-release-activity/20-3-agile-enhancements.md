@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 71%
 
 ---
 
@@ -30,4 +30,4 @@ Pour plus d’informations, voir [Configurer Kanban](../../../agile/get-started-
 
 ## Les panoramas Agile chargent 50 éléments de travail à la fois.
 
-Pour augmenter la vitesse et les performances des outils Agile, jusqu’à 50 cartes sont désormais chargées à différents emplacements. S’il existe plus de 50 éléments de travail sur un panorama Agile, un bouton s’affiche au bas du panorama ou de la liste d’attente, ce qui vous permet de charger des éléments de travail supplémentaires.
+Pour augmenter la vitesse et les performances des outils Agile, jusqu’à 50 cartes se chargent désormais à différents emplacements. S’il y a plus de 50 éléments de travail sur un panorama Agile, un bouton s’affiche au bas du panorama ou de la liste d’attente, ce qui vous permet de charger des éléments de travail supplémentaires.

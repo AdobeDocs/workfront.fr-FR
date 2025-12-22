@@ -6,10 +6,10 @@ description: Quand une mosaïque d’histoire est affichée sur le tableau Kanba
 author: Jenny
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 95%
+ht-degree: 77%
 
 ---
 
@@ -37,7 +37,7 @@ Lors de l’affichage d’une mosaïque d’histoire sur le storyboard, les info
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Nom du projet avec un lien direct vers le projet<br> Ce lien est affiché uniquement sur les histoires (tâches parent, et non sous-tâches) lors de l’utilisation de la vue Agile sur une itération ; il n’est pas affiché lors de l’utilisation d’une vue Agile sur un projet.</p> </td> 
+   <td> <p>Nom du projet avec un lien direct vers le projet<br>Ce lien s’affiche uniquement sur les articles (tâches parents, et non les sous-tâches) lors de l’utilisation de la vue Agile sur une itération ; il ne s’affiche pas lors de l’utilisation d’une vue Agile sur un projet.</p> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -62,7 +62,7 @@ Lors de l’affichage d’une mosaïque d’histoire sur le storyboard, les info
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Tous les champs supplémentaires (y compris les champs personnalisés) qui ont pu être ajoutés à la vue Agile lors de sa modification, comme décrit dans « Créer et personnaliser une vue [!UICONTROL Agile] » dans <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Vue d’ensemble des vues dans [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Tous les champs supplémentaires (y compris les champs personnalisés) qui ont pu être ajoutés à la vue Agile en modifiant la vue Agile, comme décrit dans la section « Création et personnalisation d’une vue [!UICONTROL Agile] » dans <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Présentation des vues dans [!UICONTROL Adobe Workfront]</a>.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -104,9 +104,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour sélectionner une itération spécifique, ou sélectionnez **[!UICONTROL Itération actuelle]**.
+1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour sélectionner une itération spécifique, ou choisissez **[!UICONTROL Itération actuelle]**.
 
-1. Accédez au storyboard Agile [!UICONTROL Scrum].
+1. Accédez au storyboard [!UICONTROL Scrum] Agile.
 1. Développez la tuile de l’[!UICONTROL histoire] pour afficher tous les champs associés à l’histoire.
 
    ![carte d’histoire](assets/agile-storycard-scrum-2021-350x333.png)

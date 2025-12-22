@@ -8,10 +8,10 @@ description: Le planificateur de scénarios Workfront est inclus dans la version
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Le planificateur de scénarios vous permet de faire ce qui suit :
 
   Créez et comparez des scénarios, facilitez la collaboration et le consensus, exécutez, puis replanifiez si nécessaire.
 
-Le planificateur de scénarios vous aide à être plus souple dans votre organisation. Que vous soyez une personne responsable du plan stratégique de votre entreprise ou que vous effectuiez une planification trimestrielle pour une seule unité commerciale, un seul service ou une seule équipe, le planificateur de scénarios peut vous aider. Créez et comparez rapidement et facilement plusieurs scénarios en fonction de contraintes, telles que les budgets ou les ressources de l’équipe.
+Le planificateur de scénarios vous aide à être plus agile dans votre planification. Que vous soyez une personne responsable du plan stratégique de votre entreprise ou que vous effectuiez une planification trimestrielle pour une seule unité commerciale, un seul service ou une seule équipe, le planificateur de scénarios peut vous aider. Créez et comparez rapidement et facilement plusieurs scénarios en fonction de contraintes, telles que les budgets ou les ressources de l’équipe.
 
 Dans le planificateur de scénarios, vous pouvez modéliser des scénarios par objectif ou par initiative pour répondre à des questions telles que les suivantes :
 

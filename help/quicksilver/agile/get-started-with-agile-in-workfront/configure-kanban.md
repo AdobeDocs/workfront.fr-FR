@@ -2,14 +2,14 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configurer Kanban
-description: Vous pouvez configurer les options suivantes pour les équipes agiles Kanban pendant ou après la création de l’équipe.
+description: Vous pouvez configurer les options suivantes pour les équipes Kanban Agile pendant ou après la création de l’équipe.
 author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 95%
+ht-degree: 77%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 95%
 
 <!--Audited: 12/2023-->
 
-Vous pouvez créer une équipe Agile dans [!DNL Adobe Workfront] comme décrit dans [Créer une équipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Lors de la création d’une équipe agile, vous pouvez choisir la méthodologie que l’équipe utilise pour terminer son travail. Vous pouvez choisir parmi les options suivantes :
+Vous pouvez créer une équipe Agile dans [!DNL Adobe Workfront] comme décrit dans la section [Créer une équipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Lors de la création d’une équipe Agile, vous pouvez choisir la méthodologie que l’équipe utilise pour terminer son travail. Vous pouvez choisir parmi les options suivantes :
 
 * Scrum
 * Kanban
 
-Cet article décrit comment configurer les paramètres d’une équipe Kanban. Après avoir créé une équipe Agile et choisi la méthodologie Kanban, vous pouvez consulter cet article pour mettre à jour les paramètres suivants :
+Cet article décrit comment configurer les paramètres d’une équipe Kanban. Après avoir créé une équipe Agile et choisi la méthodologie Kanban , vous pouvez vous reporter à cet article pour mettre à jour les paramètres suivants :
 
 * Si les histoires sont estimées en points ou en heures
-* Colonnes de statut sur le storyboard Agile
-* Champs supplémentaires à afficher sur les cartes d’histoires sur le StoryBoard agile
+* Les colonnes de statut du storyboard agile
+* Champs supplémentaires à afficher sur les cartes de l’histoire sur le storyboard agile
 * Limite du travail en cours (WIP)
 * Ajouter automatiquement des histoires depuis la liste d’attente
 * Durée de conservation des cartes sur le tableau Kanban
@@ -44,7 +44,7 @@ Pour plus d’informations sur la configuration d’une équipe Scrum, consulte
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr>
 
@@ -70,12 +70,12 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Vous pouvez configurer les histoires à estimer en points ou en heures.
 
-Pour configurer l’estimation des histoires pour votre équipe agile :
+Pour configurer la manière dont les histoires sont estimées pour votre équipe Agile :
 
 {{step1-to-team}}
 
 1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la zone de recherche.
-1. Sélectionnez l’équipe agile à gérer.
+1. Sélectionnez l’équipe Agile à gérer.
 1. Cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-menu.png), puis sélectionnez **[!UICONTROL Modifier]**.
 
    ![Modifier l’équipe](assets/edit-team-settings-350x205.png)
@@ -86,17 +86,17 @@ Pour configurer l’estimation des histoires pour votre équipe agile :
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
-## Configurer les colonnes de statut sur le Storyboard agile
+## Configurer les colonnes de statut sur le storyboard agile
 
-Vous pouvez définir les statuts qui existent sur le Storyboard de l’équipe agile. Ce sont les seuls statuts qui s’affichent sur le Storyboard.
+Vous pouvez définir les statuts qui existent sur le storyboard pour l&#39;équipe Agile. Ce sont les seuls statuts qui s’affichent sur le Storyboard.
 
-Pour définir les statuts disponibles pour le StoryBoard associé à l’équipe agile :
+Pour définir les statuts disponibles pour le storyboard associé à l&#39;équipe Agile :
 
 {{step1-to-team}}
 
 1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Sélectionnez l’équipe agile à gérer.
+1. Sélectionnez l’équipe Agile à gérer.
 1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
    ![Modifier l’équipe](assets/edit-team-settings-350x205.png)
@@ -118,7 +118,7 @@ Pour définir les statuts disponibles pour le StoryBoard associé à l’équipe
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
-## Configurer des champs supplémentaires à afficher sur les cartes d’histoire du StoryBoard agile
+## Configurer des champs supplémentaires à afficher sur les cartes de l’histoire dans le storyboard agile
 
 Lorsque vous ajoutez des champs à des cartes d’histoire, ces champs ne s’affichent que lorsque le champ est renseigné.
 
@@ -138,13 +138,13 @@ Vous pouvez afficher des données supplémentaires (y compris des données perso
 >
 >Si vous utilisez un champ personnalisé sur une carte d’histoire, son nom ne peut pas contenir de point.
 
-Pour configurer les cartes d’histoire affectées à l’équipe agile afin d’afficher des champs supplémentaires :
+Pour configurer les cartes d’histoire affectées à l’équipe Agile afin d’afficher des champs supplémentaires :
 
 {{step1-to-team}}
 
 1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Sélectionnez l’équipe agile à gérer.
+1. Sélectionnez l’équipe Agile à gérer.
 1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
    ![Modifier équipe](assets/edit-team-settings-350x205.png)
@@ -161,7 +161,7 @@ Pour configurer les cartes d’histoire affectées à l’équipe agile afin d�
 
 Lorsque vous définissez la limite du travail en cours d’une équipe Kanban, vous pouvez contrôler le nombre d’éléments sur lesquels l’équipe travaille actuellement en limitant le nombre de tâches pouvant apparaître dans la colonne [!UICONTROL Nouveau] ou [!UICONTROL En cours] sur le tableau [!UICONTROL Kanban].
 
-Après avoir configuré la limite du travail en cours pour une équipe Kanban, vous pouvez afficher la limite du travail en cours et la mettre à jour à partir du storyboard [!UICONTROL Kanban] Agile, comme décrit dans la section [Gérer la limite du travail en cours (WIP) sur le tableau [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+Après avoir configuré la limite WIP pour une équipe Kanban, vous pouvez afficher la limite WIP et la mettre à jour à partir du storyboard [!UICONTROL Kanban] Agile, comme décrit dans la section [ Gérer la limite WIP (Work in Progress) sur le panorama [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 Pour limiter le travail en cours pour votre équipe Kanban, procédez comme suit :
 
@@ -176,8 +176,8 @@ Pour limiter le travail en cours pour votre équipe Kanban, procédez comme suit
 
 1. Dans la section **[!UICONTROL Agile]**, dans la section **[!UICONTROL Méthodologie]**, vérifiez que Kanban est sélectionné.
 
-1. Dans la section **[!UICONTROL Storyboard]**, dans le champ **[!UICONTROL Limite du travail en cours]**, indiquez le nombre maximal d’éléments autorisés dans chaque colonne du storyboard [!UICONTROL Kanban] Agile. Vous pouvez définir une limite différente pour chaque colonne. La limite maximale que vous pouvez définir pour chaque colonne est de 100.
-Lorsqu’elle est définie, la limite du travail en cours affiche un message d’avertissement sur le storyboard [!UICONTROL Kanban] Agile chaque fois que la limite est dépassée pour n’importe quelle colonne du storyboard. Ce message d’avertissement s’affiche uniquement la première fois que la limite du travail en cours est dépassée. Ce message d&#39;avertissement ne s&#39;affiche dans aucune colonne dont le statut est égal à [!UICONTROL Terminé].
+1. Dans la section **[!UICONTROL Storyboard]**, dans le champ **[!UICONTROL Limite WIP]**, indiquez le nombre maximal d’éléments autorisés dans chaque colonne du storyboard [!UICONTROL Kanban] Agile. Vous pouvez définir une limite différente pour chaque colonne. La limite maximale que vous pouvez définir pour chaque colonne est de 100.
+Lorsqu&#39;elle est définie, la limite des travaux en cours affiche un message d&#39;avertissement sur le storyboard agile [!UICONTROL Kanban] chaque fois que la limite est dépassée pour une colonne du storyboard. Ce message d’avertissement s’affiche uniquement la première fois que la limite du travail en cours est dépassée. Ce message d&#39;avertissement ne s&#39;affiche dans aucune colonne dont le statut est égal à [!UICONTROL Terminé].
 La limite WIP est simplement un avertissement visuel et ne limite pas votre équipe à un nombre d’éléments d’une colonne supérieur à la limite que vous avez définie.
 
    ![Limite WIP](assets/wip-limit-350x193.png)

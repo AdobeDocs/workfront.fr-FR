@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1321'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
@@ -26,9 +26,9 @@ S’il existe des groupes au-dessus de votre groupe, leurs administrateurs et ad
 
 >[!NOTE]
 >
->Les statuts de groupe personnalisés ne peuvent pas être affichés sur un projet lors de l’affichage du projet dans une vue agile. Seuls les statuts verrouillés par défaut et personnalisés sont visibles lors de l’affichage d’un projet dans une vue Agile. Pour plus d’informations sur la personnalisation d’une vue Agile pour un projet, consultez la section [Créer ou personnaliser une vue Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) dans l’article [Créer ou modifier des vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>Les statuts de groupe personnalisés ne peuvent pas être affichés sur un projet lors de l’affichage du projet dans une vue Agile. Seuls les statuts verrouillés par défaut et personnalisés sont visibles lors de l’affichage d’un projet dans une vue Agile. Pour plus d’informations sur la personnalisation d’une vue Agile pour un projet, consultez la section [Créer ou personnaliser une vue Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) dans l’article [Créer ou modifier des vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-Pour obtenir des informations générales sur les états, consultez la section [Vue d’ensemble des statuts](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Pour obtenir des informations générales sur les statuts, voir [Vue d’ensemble des statuts](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ## Conditions d’accès
 
@@ -39,7 +39,7 @@ Pour obtenir des informations générales sur les états, consultez la section [
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Le cas échéant, si le statut concerne un problème, assurez-vous que la **Liste principale** est sélectionnée.
 
-   ![Liste de Principal &#x200B;](assets/master-list.png)
+   ![Liste de Principal ](assets/master-list.png)
 
    Pour plus d’informations sur la personnalisation des autres types de problèmes (rapport de bugs, ordre de modification, problème, requête), voir [Personnaliser les types de problèmes par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -169,7 +169,7 @@ Si vous êtes administrateur ou administratrice de groupe (ou administrateur/adm
 1. Dans la zone située dans le coin supérieur droit, supprimez **Statuts du système**, commencez à saisir le nom d’un groupe dans lequel vous souhaitez masquer le statut, puis cliquez sur le nom qui s’affiche.
 1. Placez la souris sur le statut que vous souhaitez masquer dans le groupe, puis cliquez sur **Modifier** lorsqu’il apparaît.
 
-   ![Modifier le statut &#x200B;](assets/hover-click-edit.jpg)
+   ![Modifier le statut ](assets/hover-click-edit.jpg)
 
 1. Activez l’option **Masquer le statut** qui s’affiche.
 

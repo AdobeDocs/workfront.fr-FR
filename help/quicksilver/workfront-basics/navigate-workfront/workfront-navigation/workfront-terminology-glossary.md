@@ -6,10 +6,10 @@ description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couram
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '21526'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -97,7 +97,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   --> 
   <tr> 
    <td>Méthodologie [!UICONTROL Agile]</td> 
-   <td>Type de méthodologie basée sur l’évolution collaborative des besoins et des solutions avec des équipes interfonctionnelles. Il encourage la flexibilité et le changement selon un calendrier défini.</td> 
+   <td>Type de méthodologie basée sur l’évolution collaborative des besoins et des solutions avec des équipes interfonctionnelles. Il encourage la flexibilité et le changement selon une chronologie définie.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Agile Team]</td> 
@@ -187,7 +187,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Assignment Status]</td> 
-   <td> <p>Dans un rapport d’affectation, de tâche ou de problème, le [!UICONTROL Assignment Status] indique si les utilisateurs et utilisatrices affectés à un élément de travail ont cliqué sur le bouton [!UICONTROL Work On It] ou [!UICONTROL Done] pour accepter ou terminer le travail. Il existe les [!UICONTROL Assignment Statuses] suivants :</p> 
+   <td> <p>Dans un rapport d’affectation, de tâche ou de problème, le [!UICONTROL Assignment Status] indique si les personnes affectées à un élément de travail ont cliqué sur le bouton [!UICONTROL Work On It] ou [!UICONTROL Done] pour accepter ou terminer le travail. Il existe les [!UICONTROL Assignment Statuses] suivants :</p> 
     <ul> 
      <li><b>[!UICONTROL Requested]</b> : la personne a été affectée à la tâche ou au problème, mais n’a pas cliqué sur le bouton [!UICONTROL Work On It] pour commencer à travailler.</li> 
      <li><b>[!UICONTROL Working]</b> : la personne a cliqué sur le bouton [!UICONTROL Work On It] et travaille actuellement sur l’élément. </li> 
@@ -252,11 +252,11 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Backlog]</td> 
-   <td>Zone dans un environnement Agile où de nouveaux problèmes sont conservés jusqu’à ce qu’ils soient prêts à être résolus.</td> 
+   <td>La zone dans un environnement Agile où les nouveaux problèmes sont conservés jusqu’à ce qu’ils soient prêts à être traités.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Baseline]</td> 
-   <td>Source de données pour mesurer les itérations dans un environnement Agile.</td> 
+   <td>Source de données par rapport à laquelle mesurer les itérations dans un environnement Agile.</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -1499,7 +1499,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[!UICONTROL User] qui affiche et permet de définir les relations de l’[!UICONTROL Company] et du [!UICONTROL Reporting] de l’[!UICONTROL User].</td> 
+   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[UICONTROL User] qui affiche et permet de définir les relations de l’[UICONTROL Company] et du [UICONTROL Reporting] de l’[UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 
@@ -2106,7 +2106,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (dans [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
+   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (dans le [!DNL Workfront Scenario Planner]) </td> 
@@ -2230,7 +2230,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
       <li>[!UICONTROL Inactive]</li> 
       <li>[!UICONTROL Closed]</li> 
      </ul> 
-     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « &lbrack;!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
+     <p>Pour plus d’informations sur les objectifs stratégiques, voir aussi « [!UI[!UICONTROL Goal] » or « [!UICONTROL Goals] » dans cet article. </p> 
      <p>Pour les objectifs stratégiques, ce champ n’est visible que si votre entreprise a acheté [!DNL Workfront Goals]. Pour plus d’informations sur la gestion des objectifs stratégiques à l’aide de [!DNL Workfront Goals], voir Vue d’ensemble de <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals]</a>. </p>
     </td> 
   </tr> 
@@ -2271,7 +2271,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Storyboard]</td> 
-   <td>Graphique représentant le statut des histoires (tâches dans la méthodologie Agile) et leur progression vers l’achèvement.</td> 
+   <td>Graphique qui représente le statut des histoires (tâches dans la méthodologie Agile) et leur progression vers leur achèvement.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Story Hours]</td> 

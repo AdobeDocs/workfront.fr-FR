@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 99%
@@ -123,7 +123,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Planification Scrum pour les panoramas Workfront</a><span style="color: #ff0000;"> Prochainement</span></p>
-                        <p>Les nouvelles fonctions de planification Scrum des panoramas Adobe Workfront offrent des options flexibles pour gérer vos processus Agile. Grâce à ces outils, vous pouvez effectuer les opérations suivantes :
+                        <p>Les nouvelles fonctionnalités de planification Scrum des tableaux Adobe Workfront offrent des options flexibles pour gérer vos processus Agile. Grâce à ces outils, vous pouvez effectuer les opérations suivantes :
                         <ul>
                         <li>Suivre le travail dans les itérations ou les sprints</li>
                         <li>Utiliser la vitesse pour guider les engagements de l’équipe</li>
@@ -521,7 +521,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, consultez [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, consultez [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Mise à jour des formations
 

@@ -7,10 +7,10 @@ description: Les informations d’achèvement décrites dans cet article s’aff
 author: Jenny
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -37,7 +37,7 @@ Les informations suivantes sont disponibles :
 
   Les points et les heures sont associés aux histoires. Lorsqu’une histoire est marquée avec le statut [!UICONTROL Terminé], les points ou heures associé(e)s à cette histoire sont marqué(e)s avec le statut Terminé.
 
-  Par défaut, les points sont utilisés. Vous pouvez modifier cette option en modifiant les paramètres de votre équipe, comme décrit dans la section [Créer une équipe Agile](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+  Par défaut, les points sont utilisés. Vous pouvez modifier ce paramètre en modifiant les paramètres de votre équipe, comme décrit dans la section [Créer une équipe Agile](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 * **[!UICONTROL Points/heures par jour] :** (disponible uniquement pour les itérations) le nombre moyen de points ou d’heures marqué(e)s avec le statut [!UICONTROL Terminé] chaque jour depuis le début de l’itération jusqu’au jour actuel.
 

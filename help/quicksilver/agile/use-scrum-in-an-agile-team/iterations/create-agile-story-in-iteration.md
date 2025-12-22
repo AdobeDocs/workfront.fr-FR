@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Création d’une histoire agile dans une itération
-description: Cet article décrit comment créer une histoire Agile lorsque vous êtes déjà dans l’itération.
+description: Cet article décrit comment créer une nouvelle histoire agile lorsque vous êtes déjà dans l’itération.
 author: Jenny
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 95%
+ht-degree: 80%
 
 ---
 
-# Créer une histoire Agile dans une itération
+# Création d’une histoire agile dans une itération
 
-Cet article décrit comment créer une histoire Agile lorsque vous êtes déjà dans l’itération. Pour plus d’informations sur la création d’une histoire Agile à partir d’une tâche, d’un problème ou d’une autre zone d’[!DNL Adobe Workfront], consultez [Ajouter des histoires à une itération existante](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+Cet article décrit comment créer une nouvelle histoire agile lorsque vous êtes déjà dans l’itération. Pour plus d’informations sur la création d’une histoire agile à partir d’une tâche, d’un problème ou d’une autre zone de [!DNL Adobe Workfront], voir [Ajouter des histoires à une itération existante](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Conditions d’accès
 
@@ -24,7 +24,7 @@ Cet article décrit comment créer une histoire Agile lorsque vous êtes déjà 
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -43,9 +43,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Créer une histoire Agile dans une itération
+## Création d’une histoire agile dans une itération
 
-1. Accédez à l’itération Agile dans laquelle vous souhaitez créer l’histoire.
+1. Accédez à l’itération Agile dans laquelle vous souhaitez créer l’histoire :
 
    {{step1-to-team}}
 

@@ -5,10 +5,10 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -35,17 +35,17 @@ Cette option ne s’applique qu’aux équipes Scrum et non aux équipes Kanban.
 
 Pour plus d’informations, voir [Configurer Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-## Changements de la vue agile des projets
+## Modifications de la vue Agile dans les projets
 
 >[!NOTE]
 >
 >Cette fonctionnalité a été introduite dans l’environnement de prévisualisation le 16 septembre 2021.
 
-Dans le cadre de la version 21.3, nous avons apporté des améliorations à l’en-tête de la carte et aux storyboards agile (voir [Mises à jour de l’en-tête de la carte et des storyboards agile](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Ces mises à jour s’appliquent aux itérations ainsi qu’à la vue agile des projets.
+Dans le cadre de la version 21.3, nous avons apporté des améliorations à l’en-tête de carte et aux storyboards Agile (voir [Mises à jour de l’en-tête et du storyboard des cartes Agile](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Ces mises à jour s’appliquaient aux itérations, ainsi qu’à la vue Agile des projets.
 
-Avec la version 21.4, nous annulons sur ces améliorations pour la vue agile des projets. Aucun changement n’est apporté aux itérations agiles.
+Avec la version 21.4, nous annulons ces améliorations pour la vue Agile sur les projets. Aucune modification n’est apportée aux itérations Agile.
 
-Voici les changements annulés en ce qui concerne la vue agile des projets :
+Voici les modifications en cours d’annulation concernant la vue Agile sur les projets :
 
 * Les cartes d’histoire et les colonnes du storyboard sont réglables en largeur.
 * Les colonnes n’ont pas d’ombrage en arrière-plan.

@@ -6,10 +6,10 @@ description: Quand une mosaïque d’histoire est affichée sur le tableau Kanba
 author: Jenny
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 90%
+ht-degree: 83%
 
 ---
 
@@ -62,7 +62,7 @@ Lors de l’affichage d’une tuile d’histoire sur le tableau [!UICONTROL Kanb
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Tous les champs supplémentaires (y compris les champs personnalisés) qui ont pu être ajoutés à la vue Agile lors de sa modification, tel que décrit dans la section « Créer et personnaliser une vue Agile » dans <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Vue d’ensemble des vues dans [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Tous les champs supplémentaires (y compris les champs personnalisés) qui ont pu être ajoutés à la vue Agile en modifiant la vue Agile, comme décrit dans « Création et personnalisation d’une vue Agile » dans <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Présentation des vues dans [!DNL Adobe Workfront]</a></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -80,7 +80,7 @@ Lors de l’affichage d’une tuile d’histoire sur le tableau [!UICONTROL Kanb
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

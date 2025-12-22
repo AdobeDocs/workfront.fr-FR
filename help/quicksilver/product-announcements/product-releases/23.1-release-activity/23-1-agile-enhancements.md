@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Pour consulter la liste de tous les changements disponibles avec la version 23.
 
 ## Planification Scrum pour les panoramas Workfront
 
-Les nouvelles fonctions de planification Scrum des panoramas Adobe Workfront offrent des options flexibles pour gérer vos processus Agile. Grâce à ces outils, vous pouvez effectuer les opérations suivantes :
+Les nouvelles fonctionnalités de planification Scrum des tableaux Adobe Workfront offrent des options flexibles pour gérer vos processus Agile. Grâce à ces outils, vous pouvez effectuer les opérations suivantes :
 
 * Suivre le travail dans les itérations ou les sprints
 * Utiliser la vitesse pour guider les engagements de l’équipe

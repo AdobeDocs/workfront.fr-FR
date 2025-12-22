@@ -8,10 +8,10 @@ author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,7 @@ Les articles suivants décrivent comment utiliser des itérations dans un enviro
 
 * [Vue d’ensemble des itérations](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
 * [Créer une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-* [Créer une histoire Agile dans une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+* [Création d’une histoire agile dans une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
 * [Ajouter des histoires à une itération existante](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
 * [Afficher une itération](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
 * [Supprimer une itération](../../../agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)

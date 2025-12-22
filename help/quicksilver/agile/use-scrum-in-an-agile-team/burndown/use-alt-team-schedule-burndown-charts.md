@@ -6,10 +6,10 @@ description: Les plannings définis dans  [!DNL Adobe Workfront]  affectent le g
 author: Jenny
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 96%
+ht-degree: 86%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Les plannings définis dans [!DNL Adobe Workfront] affectent le graphique d’avancement en excluant les jours de congé (week-ends et jours fériés) de l’avancement.
 
-Par défaut, le graphique d’avancement utilise le planning par défaut. Outre le planning par défaut, les équipes agiles peuvent choisir d’utiliser un autre planning afin d’incorporer des jours non ouvrés spécifiques à l’équipe. Ce planning alternatif est ensuite repris dans le graphique d’avancement de toute itération affectée à l’équipe. Le planning alternatif affecte uniquement le graphique d’avancement. (Pour plus d’informations sur le planning par défaut, ainsi que sur la manière dont l’administrateur ou administratrice [!DNL Workfront] peut créer un planning spécifique à l’équipe, voir [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)
+Par défaut, le graphique d’avancement utilise le planning par défaut. En plus du planning par défaut, les équipes Agile peuvent choisir d&#39;utiliser également un planning alternatif afin d&#39;incorporer des jours non ouvrés spécifiques à l&#39;équipe. Ce planning alternatif est ensuite repris dans le graphique d’avancement de toute itération affectée à l’équipe. Le planning alternatif affecte uniquement le graphique d’avancement. (Pour plus d’informations sur le planning par défaut, ainsi que sur la manière dont l’administrateur ou administratrice [!DNL Workfront] peut créer un planning spécifique à l’équipe, voir [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)
 
 Le graphique d’avancement ne prend pas en compte les jours partiels. Si, par exemple, votre équipe travaille 4 heures chaque vendredi, ceci est représenté sous la forme d’une journée complète dans le graphique d’avancement.
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur l’utilisation du graphique d’avancement, voir
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Sélectionnez l’équipe agile à gérer.
+1. Sélectionnez l’équipe Agile à gérer.
 1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
 1. Dans la section **[!UICONTROL Agile]**, dans la zone **[!UICONTROL Planning]**, sélectionnez le nouveau planning dans le menu déroulant.

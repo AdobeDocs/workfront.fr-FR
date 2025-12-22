@@ -6,16 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Améliorations concernant la méthode Agile dans la version 23.2
 
-Cette page décrit toutes les améliorations Agile apportées à la version 23.2 de l’environnement de prévisualisation. Ces améliorations seront mises à disposition dans l’environnement de production avec la version 23.2.
+Cette page décrit toutes les améliorations apportées à la version 23.2 de l’environnement de prévisualisation. Ces améliorations seront mises à disposition dans l’environnement de production avec la version 23.2.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.2, voir l’article [Vue d’ensemble de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
@@ -27,7 +27,7 @@ Pour plus d’informations, voir [Ajouter des tâches ou des problèmes existant
 
 ## Fonctionnalité d’itération disponible dans les panoramas Adobe Workfront
 
-Plusieurs nouvelles fonctionnalités disponibles dans les panoramas Workfront permettent d’utiliser la fonctionnalité Scrum Agile. Ces fonctionnalités sont les suivantes :
+Plusieurs nouvelles fonctionnalités disponibles dans les tableaux Workfront permettent d’utiliser la fonctionnalité Agile Scrum. Ces fonctionnalités sont les suivantes :
 
 * Flux de travail pour regrouper des panoramas liés à la même équipe et collaborer sur le travail
 * Liste de cartes, ou liste d’attente du travail, avec la possibilité d’utiliser des sources pour connecter les cartes aux tâches et problèmes Workfront

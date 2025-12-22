@@ -2,14 +2,14 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Créer une histoire agile
-description: Vous pouvez créer une histoire Agile sur une itération de différentes manières. Après avoir créé une histoire Agile, vous pouvez ajouter des sous-tâches à l’histoire.
+description: Vous pouvez créer une histoire agile sur une itération de différentes manières. Après avoir créé une histoire agile, vous pouvez y ajouter des sous-tâches.
 author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 78%
+ht-degree: 75%
 
 ---
 

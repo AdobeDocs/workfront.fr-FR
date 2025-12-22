@@ -2,20 +2,20 @@
 content-type: reference
 navigation-topic: boards
 title: Migrer les cartes Kanban de l’équipe Agile vers les tableaux Workfront
-description: Vous pouvez migrer vos éléments de travail d’un tableau Kanban d’une équipe agile vers un tableau Workfront nouveau ou existant.
+description: Vous pouvez migrer vos tâches d’un tableau Kanban d’équipe Agile vers un tableau Workfront nouveau ou existant.
 author: Jenny
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 87%
+ht-degree: 70%
 
 ---
 
-# Migrer des cartes Kanban d’équipe Agile vers des panoramas Workfront
+# Migrer les cartes Kanban de l’équipe Agile vers les tableaux Workfront
 
-Vous pouvez migrer vos éléments de travail d’un tableau Kanban d’une équipe agile vers un tableau Workfront nouveau ou existant. Lorsque vous exécutez la migration, toutes les cartes du tableau Kanban sont copiées sur le tableau Workfront. Vous n’avez pas l’autorisation de choisir des cartes spécifiques.
+Vous pouvez migrer vos tâches d’un tableau Kanban d’équipe Agile vers un tableau Workfront nouveau ou existant. Lorsque vous exécutez la migration, toutes les cartes du tableau Kanban sont copiées sur le tableau Workfront. Vous n’avez pas l’autorisation de choisir des cartes spécifiques.
 
 Le placement des cartes sur le panorama Workfront est basé sur des politiques de colonnes. (Par exemple, une politique pourrait déplacer toutes les cartes ayant un statut « En cours » vers une colonne spécifique. Pour plus d’informations sur les politiques de colonnes, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) S’il n’existe aucune politique ou que les cartes ne correspondent pas aux politiques, les cartes sont placées dans la colonne la plus à gauche du panorama. Pour l’instant, les cartes de la colonne Liste d’attente du panorama hérité ne sont pas ajoutées au panorama Workfront.
 
@@ -30,7 +30,7 @@ Les cartes ne sont pas supprimées du tableau Kanban de l’équipe Agile et les
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

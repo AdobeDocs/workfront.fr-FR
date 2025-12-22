@@ -6,10 +6,10 @@ description: Les administrateurs et administratrices et les utilisateurs et util
 author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 92%
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez ajouter des utilisateurs et utilisatrices à une équipe, définir l
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -77,9 +77,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
      Pour plus d’informations sur l’application d’un modèle de mise en page personnalisé à une équipe, consultez la section « Appliquer un modèle personnalisé à une équipe » dans Modifier les zones [!UICONTROL Mon travail] et [!UICONTROL Demandes de travail] avec des modèles de mise en page.
 
-   * Décider si cette équipe est une équipe agile, en sélectionnant l’option **[!UICONTROL Ceci est une équipe Agile]**.
+   * Déterminez si cette équipe est une équipe Agile en sélectionnant l&#39;option **[!UICONTROL Ceci est une équipe Agile]**.
 
-     Pour plus d’informations sur les équipes Agile et sur la manière de gérer le travail au sein d’une équipe Agile, consultez [Créer une équipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Pour plus d&#39;informations sur les équipes Agile et la gestion du travail au sein d&#39;une équipe Agile, consultez [Création d&#39;une équipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * Transformez le bouton [!UICONTROL Travailler sur ce projet] en bouton [!UICONTROL Démarrer]. Pour plus d’informations sur la configuration du bouton [!UICONTROL Démarrer], consultez [Remplacer le bouton Travailler sur ce projet par un bouton [!UICONTROL Démarrer]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Personnalisez le bouton **[!UICONTROL Terminé]**. Pour plus d’informations sur la personnalisation du bouton [!UICONTROL Terminé], consultez ce qui suit :

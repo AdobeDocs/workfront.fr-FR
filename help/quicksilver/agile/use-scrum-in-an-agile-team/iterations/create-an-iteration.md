@@ -2,20 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Création d’une itération
-description: Les itérations sont un élément clé pour les équipes Agile Scrum dans la planification de la capacité de travail. [!DNL Adobe Workfront]  permet aux équipes Agile Scrum de gérer leur travail en créant plusieurs itérations pour répondre aux besoins de l’équipe.
+description: Les itérations sont un composant clé pour les équipes de Scrum Agile dans la planification de la capacité de travail. [!DNL Adobe Workfront] permet aux équipes de Scrum Agile de gérer leur travail en créant plusieurs itérations pour répondre aux besoins de l’équipe.
 author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 79%
+ht-degree: 68%
 
 ---
 
 # Créer une itération
 
-Les itérations sont un élément clé pour les équipes Agile Scrum dans la planification de la capacité de travail. [!DNL Adobe Workfront] permet aux équipes Agile Scrum de gérer leur travail en créant plusieurs itérations pour répondre aux besoins de l’équipe.
+Les itérations sont un composant clé pour les équipes de Scrum Agile dans la planification de la capacité de travail. [!DNL Adobe Workfront] permet aux équipes de Scrum Agile de gérer leur travail en créant plusieurs itérations pour répondre aux besoins de l&#39;équipe.
 
 ## Conditions d’accès
 
@@ -28,7 +28,7 @@ Les itérations sont un élément clé pour les équipes Agile Scrum dans la pla
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ Vous pouvez ajouter une itération à la liste pour créer rapidement une itéra
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong></td> 
-      <td><p>Saisissez la date à laquelle l’itération doit se terminer. [!DNL Workfront] recommande de fixer une date de fin ne dépassant pas 4 semaines à compter de la date de début.</p><p>Conseil : veillez à choisir un jour ouvrable comme date de fin. Le graphique d’avancement ne prend en compte que les jours ouvrables dans ses calculs.<br>Par défaut, le graphique d’avancement utilise le planning par défaut pour définir les jours ouvrables (comme décrit dans <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>). Pour intégrer des jours non ouvrables propres à l’équipe, les équipes Agile peuvent choisir d’utiliser un planning alternatif (comme décrit dans la section « Définir un planning d’équipe alternatif pour les graphiques d’avancement » dans <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Créer une équipe Agile</a>).</p></td> 
+      <td><p>Saisissez la date à laquelle l’itération doit se terminer. [!DNL Workfront] recommande de fixer une date de fin ne dépassant pas 4 semaines à compter de la date de début.</p><p>Conseil : veillez à choisir un jour ouvrable comme date de fin. Le graphique d’avancement ne prend en compte que les jours ouvrables dans ses calculs.<br>Par défaut, le graphique d’avancement utilise le planning par défaut pour définir les jours ouvrables (comme décrit dans <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>). Ou, pour incorporer des jours non ouvrés spécifiques à une équipe, les équipes Agile peuvent choisir d'utiliser un autre planning (comme décrit dans la section « Définir un planning d'équipe alternatif pour les graphiques d'avancement » dans <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Créer une équipe Agile</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
@@ -123,7 +123,7 @@ Utilisez la fonctionnalité [!UICONTROL Planifier une itération] pour créer un
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong></td> 
-      <td><p>Indiquez la date à laquelle l’itération doit se terminer. [!DNL Workfront] recommande de fixer une date de fin ne dépassant pas 4 semaines à compter de la date de début.</p><p>Conseil : veillez à choisir un jour ouvrable comme date de fin. Le graphique d’avancement ne prend en compte que les jours ouvrables dans ses calculs.<br>Par défaut, le graphique d’avancement utilise le planning par défaut pour définir les jours ouvrables (comme décrit dans <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>). Pour intégrer les jours non travaillés propres à l’équipe, les équipes Agile peuvent choisir d’utiliser un planning alternatif (comme décrit dans <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Utiliser un autre planning d’équipe pour les graphiques d’avancement</a>).</p></td> 
+      <td><p>Indiquez la date à laquelle l’itération doit se terminer. [!DNL Workfront] recommande de fixer une date de fin ne dépassant pas 4 semaines à compter de la date de début.</p><p>Conseil : veillez à choisir un jour ouvrable comme date de fin. Le graphique d’avancement ne prend en compte que les jours ouvrables dans ses calculs.<br>Par défaut, le graphique d’avancement utilise le planning par défaut pour définir les jours ouvrables (comme décrit dans <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>). Ou, pour incorporer des jours non ouvrés spécifiques à une équipe, les équipes Agile peuvent choisir d'utiliser un autre planning (comme décrit dans <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref"> Utiliser un autre planning d'équipe pour les graphiques d'avancement </a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
@@ -161,6 +161,6 @@ Lorsque vous ajoutez une tâche en tant qu’histoire à une itération, la cont
 
 [!UICONTROL Date de fin de l’itération] moins (-) [!UICONTROL Durée de la tâche] égal (=) [!UICONTROL Date de début prévue de la tâche]
 
-La [!UICONTROL &#x200B; Date de fin du projet &#x200B;] est utilisée à la place de la Date de fin de l&#39;itération si la date de début du projet est postérieure à la date de début de l&#39;itération et si la date de fin du projet est postérieure à la date de fin de l&#39;itération.
+La [!UICONTROL  Date de fin du projet ] est utilisée à la place de la Date de fin de l&#39;itération si la date de début du projet est postérieure à la date de début de l&#39;itération et si la date de fin du projet est postérieure à la date de fin de l&#39;itération.
 
 Vous pouvez configurer des équipes Scrum individuelles de manière à utiliser les dates du projet par défaut plutôt que les dates d’itération. Pour plus d’informations, consultez la section [Configurer la façon dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) dans l’article [Configurer Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

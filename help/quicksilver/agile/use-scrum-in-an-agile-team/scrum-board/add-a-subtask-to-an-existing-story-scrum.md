@@ -6,10 +6,10 @@ description: Lors de la création de sous-tâches pour les histoires existantes,
 author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
@@ -60,9 +60,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step1-to-team}}
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer l’équipe]** ![icône Changer l’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Accédez à l’itération agile ou au projet contenant l’histoire dans laquelle vous souhaitez ajouter une sous-tâche. Pour plus d’informations sur la navigation vers une itération, consultez la section [Afficher une itération](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Accédez à l’itération ou au projet Agile contenant l’histoire dans laquelle vous souhaitez ajouter une sous-tâche. Pour plus d’informations sur la navigation vers une itération, consultez la section [Afficher une itération](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Accédez à la mosaïque de l’histoire dans le storyboard où vous souhaitez ajouter une sous-tâche.
 1. Cliquez sur **[!UICONTROL Ajouter une sous-tâche]** sur la carte principale de l’histoire pour créer une sous-tâche à l’histoire.
 
@@ -72,7 +72,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Cliquez sur **[!UICONTROL Ajouter une sous-tâche]** sur une mosaïque de sous-tâche pour créer une sous-tâche à la sous-tâche.
 
-   [!DNL Workfront] prend en charge des niveaux infinis de sous-tâches, mais seuls deux niveaux (sous-tâches de sous-tâches) s’affichent sur le storyboard agile.
+   [!DNL Workfront] prend en charge un nombre infini de niveaux de sous-tâches, mais seuls deux niveaux (sous-tâches de sous-tâches) sont affichés sur le storyboard agile.
 
    ![Ajouter une sous-tâche](assets/agile-story-addsubtask2-NWE.png)
 

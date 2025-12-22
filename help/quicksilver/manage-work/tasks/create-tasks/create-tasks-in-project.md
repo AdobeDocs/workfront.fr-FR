@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 59%
+ht-degree: 57%
 
 ---
 
@@ -55,7 +55,7 @@ Vous pouvez également créer des tâches de la manière suivante :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -116,7 +116,7 @@ Pour créer des tâches dans un projet :
 
 1. Accédez au projet dans lequel vous souhaitez créer une tâche.
 1. Cliquez sur **Tâches** dans le panneau de gauche.
-1. (Le cas échéant) Si vous affichez actuellement la liste de tâches dans une vue agile, cliquez sur l’icône **Mode Liste** ![](assets/list-view-in-agile-view-for-tasks.png) en haut à droite pour afficher la liste de tâches.
+1. (Conditionnel) Si vous affichez actuellement la liste des tâches dans une vue Agile, cliquez sur l’icône **Vue Liste** ![](assets/list-view-in-agile-view-for-tasks.png) dans le coin supérieur droit pour afficher la liste des tâches.
 1. (Facultatif) Cliquez sur l’icône **Mode Plan** ![](assets/nwe-plan-mode-icon-task-list.png) et sélectionnez **Enregistrement manuel**, puis sélectionnez **Standard** ou **Planification chronologique**. Cette opération désactive l’option **Enregistrement automatique** qui est activée par défaut.
 
    ![Sélectionner Enregistrement manuel](assets/manual-save-option.png)
@@ -218,6 +218,6 @@ Pour créer des tâches dans un projet :
 
    Workfront enregistre les tâches personnelles dans un projet personnel non répertorié toujours nommé selon ce modèle : « &lt; Nom complet de l’utilisateur > Tâches de . Par exemple, un projet personnel peut être nommé « Tâches de Rick ».
 
-1. Sur la page de la tâche, cliquez sur le **&#x200B;**&#x200B;Plus![](assets/more-icon.png), puis sur **Déplacer**. Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. Sur la page de la tâche, cliquez sur le **** Plus![](assets/more-icon.png), puis sur **Déplacer**. Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    Une fois que vous avez déplacé la tâche, elle s’affiche dans le projet que vous avez sélectionné. La chronologie du projet peut être affectée par la chronologie de la nouvelle tâche.

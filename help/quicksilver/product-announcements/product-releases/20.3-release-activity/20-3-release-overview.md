@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '3829'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -118,7 +118,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
 >
 >Votre organisation doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
 >
->* Une [formule Adobe Workfront](https://business.adobe.com/fr/products/workfront/pricing.html) Pro ou version supérieure.
+>* Une [formule Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) Pro ou version supérieure.
 >* Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >  Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
@@ -151,32 +151,32 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
 >Vous devez disposer des éléments suivants :
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/fr/products/workfront/pricing.html" target="_blank">Formule Workfront</a>*</p> </td> 
->&gt;   <td>Entreprises ou niveau supérieur</td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>Type de licence*</p> </td> 
->&gt;   <td> <p>Révision ou niveau supérieur Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">Produit</td> 
->&gt;   <td>Planificateur de scénarios Workfront <p>Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du planificateur de scénarios</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"><strong>Niveau d’accès*</strong> </td> 
->&gt;   <td> <p>Accès Affichage ou niveau supérieur au planificateur de scénarios</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"> <p><strong>Autorisations d’objet</strong> </p> </td> 
->&gt;   <td> <p>Autorisations d’affichage ou niveau supérieur pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à une formule, consultez la section <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à une formule dans le planificateur de scénarios</a>.</p> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
->&gt;*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice Workfront.
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Formule Workfront</a>*</p> </td> 
+&gt;   <td>Entreprises ou niveau supérieur</td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>Type de licence*</p> </td> 
+&gt;   <td> <p>Révision ou niveau supérieur Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">Produit</td> 
+&gt;   <td>Planificateur de scénarios Workfront <p>Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du planificateur de scénarios</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"><strong>Niveau d’accès*</strong> </td> 
+&gt;   <td> <p>Accès Affichage ou niveau supérieur au planificateur de scénarios</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"> <p><strong>Autorisations d’objet</strong> </p> </td> 
+&gt;   <td> <p>Autorisations d’affichage ou niveau supérieur pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à une formule, consultez la section <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à une formule dans le planificateur de scénarios</a>.</p> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
+&gt;*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice Workfront.
 
  
 
@@ -227,7 +227,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
    <td> <p>Version préliminaire Beta : 17 juin 2020</p> <p>Version de production : 2 juillet 2020</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Les panoramas Agile chargent 50 éléments de travail à la fois.</a> </p> <p>Pour augmenter la vitesse et les performances des outils Agile, jusqu’à 50 cartes sont désormais chargées à différents emplacements. S’il existe plus de 50 éléments de travail sur un panorama Agile, un bouton s’affiche au bas du panorama ou de la liste d’attente, ce qui vous permet de charger des éléments de travail supplémentaires.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Les panoramas Agile chargent 50 éléments de travail à la fois.</a> </p> <p>Pour augmenter la vitesse et les performances des outils Agile, jusqu’à 50 cartes se chargent désormais à différents emplacements. S’il y a plus de 50 éléments de travail sur un panorama Agile, un bouton s’affiche au bas du panorama ou de la liste d’attente, ce qui vous permet de charger des éléments de travail supplémentaires.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire Beta : 19 juin 2020</p> <p>Version de production : avec la version 20.3</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -451,7 +451,7 @@ Pour plus d’informations, consultez [Configurer la liste autorisée de votre p
 
 Avec Workfront One, vous découvrirez le contenu, les ressources et les nouveautés de Workfront les plus importants, le tout au même endroit, avec la même connexion. Nous avons unifié les sites Expérience, Communauté et Formation pour faciliter la recherche.
 
-[En savoir plus sur Workfront One](https://business.adobe.com/fr/products/workfront.html).
+[En savoir plus sur Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinaire sur la version 20.3 {#20-3-release-webinar}
 

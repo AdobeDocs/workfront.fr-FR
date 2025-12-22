@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Des informations supplémentaires sur les utilisateurs et les utilisatrices s’
 
 * Recherche globale d’utilisateurs et d’utilisatrices
 * Page Connexion en tant que (cette page a désormais une apparence moderne, en accord avec d’autres zones de Workfront).
-* Nouveau formulaire de sous-tâche sur un storyboard d’itération Agile.
+* Nouveau formulaire de sous-tâche sur un storyboard d’itération agile
 * Boîte de dialogue Modifier l’itération
 * Boîte de dialogue Créer une équipe
 * Page Modifier l’équipe

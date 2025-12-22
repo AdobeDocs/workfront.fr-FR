@@ -6,10 +6,10 @@ description: Vous pouvez supprimer une itération pour votre équipe Agile si el
 author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 68%
+ht-degree: 52%
 
 ---
 
@@ -30,7 +30,7 @@ Lorsque vous supprimez une itération, toutes les histoires s’y rapportant son
 <table style="table-layout:auto"> 
  <tbody> 
    <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +40,7 @@ Lorsque vous supprimez une itération, toutes les histoires s’y rapportant son
   </tr>
    <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Vous devez être membre de l’équipe agile à laquelle l’itération est affectée</td> 
+   <td>Vous devez être membre de l’équipe Agile à laquelle l’itération est affectée</td> 
   </tr>
  </tbody> 
 </table>

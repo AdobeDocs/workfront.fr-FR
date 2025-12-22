@@ -6,10 +6,10 @@ description: Consultez cet article pour savoir comment affecter des utilisateurs
 author: Jenny
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 96%
+ht-degree: 88%
 
 ---
 
@@ -46,7 +46,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe [!UICONTROL Scrum] dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Accédez au projet ou à l’itération Agile qui contient le storyboard auquel vous souhaitez affecter des utilisateurs et utilisatrices. Pour plus d’informations sur la navigation vers une itération, voir [Afficher une itération](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Accédez à l’itération ou au projet Agile qui contient le storyboard auquel vous souhaitez affecter des utilisateurs. Pour plus d’informations sur la navigation vers une itération, voir [Afficher une itération](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Accédez à la mosaïque de l’histoire dans le storyboard où vous souhaitez ajouter un utilisateur ou une utilisatrice.
 1. Cliquez sur l’avatar de l’équipe sur la miniature de l’histoire (ou sur l’avatar d’une personne déjà affectée), commencez à saisir le nom de la personne à affecter à l’histoire, puis cliquez sur le nom lorsqu’il apparaît. Vous pouvez également choisir une personne suggérée.
 

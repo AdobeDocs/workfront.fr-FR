@@ -6,7 +6,7 @@ description: Vous pouvez déplacer une histoire ou un problème du panorama Scru
 author: Jenny
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 84%
@@ -17,7 +17,7 @@ ht-degree: 84%
 
 Vous pouvez déplacer une histoire ou un problème du panorama [!UICONTROL Scrum] vers une autre itération ou vers la liste d’attente ou supprimer l’élément du panorama [!UICONTROL Scrum]. Lorsque vous supprimez une histoire ou un problème, l’élément est placé dans la Corbeille pendant 30 jours et ne peut être récupéré que par l’administrateur ou l’administratrice système.
 
-Pour supprimer une tâche ou un événement de l’itération sans la supprimer ni l’envoyer à la liste d’attente, accédez au projet et supprimez l’équipe Agile de la colonne Affectation . Cela supprime la tâche ou l’événement du scrum board, mais il reste sur le projet.
+Pour supprimer une tâche ou un événement de l&#39;itération sans la supprimer ni l&#39;envoyer à la liste d&#39;attente, accédez au projet et supprimez l&#39;équipe Agile de la colonne Affectation . Cela supprime la tâche ou l’événement du scrum board, mais il reste sur le projet.
 
 ## Conditions d’accès
 

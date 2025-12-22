@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 70%
+ht-degree: 68%
 
 ---
 
@@ -153,7 +153,7 @@ Le type de durée permet de répondre aux questions suivantes :
   <tr> 
    <th scope="col"> <p><strong>Simple</strong> </p> </th> 
    <td scope="col"> <p>Détermine les heures prévues et la durée (identiques pour ce type de durée) en fonction du nombre d’heures allouées pour chaque personne cessionnaire. </p> <p>Workfront calcule les heures prévues en additionnant les heures allouées prévues pour chaque personne cessionnaire. </p> <p>Vous avez la possibilité de modifier manuellement le nombre d’heures allouées à chaque personne cessionnaire ; le nombre d’heures prévues et la durée changent en conséquence. Si vous choisissez un nombre total d’heures affectées pour toutes les personnes cessionnaires, ce nombre est réparti uniformément entre elles.</p> <p>Pour plus d’informations, voir la section <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Vue d’ensemble du type de durée : simple</a>.</p> </td> 
-   <td scope="col"> <p>Les heures sont réparties uniformément entre les personnes cessionnaires si vous choisissez un nombre total d’heures affectées. Cependant, en tant que personne responsable de projet, vous pouvez ajuster manuellement les heures de chaque personne cessionnaire. </p> <p>Vous pouvez modifier les heures planifiées et la durée d’une tâche avec un type de durée simple, en ligne ou au niveau de la tâche. </p> <p>Si une équipe Agile est affectée à une tâche, le type de durée est automatiquement défini sur Simple et ne peut pas être modifié. La durée de la tâche d’une équipe Agile doit être supérieure à 0 minute.</p> </td> 
+   <td scope="col"> <p>Les heures sont réparties uniformément entre les personnes cessionnaires si vous choisissez un nombre total d’heures affectées. Cependant, en tant que personne responsable de projet, vous pouvez ajuster manuellement les heures de chaque personne cessionnaire. </p> <p>Vous pouvez modifier les heures planifiées et la durée d’une tâche avec un type de durée simple, en ligne ou au niveau de la tâche. </p> <p>Si une équipe Agile est affectée à une tâche, le Type de durée est automatiquement défini sur Simple et ne peut pas être modifié. La durée de la tâche pour une équipe Agile doit être supérieure à 0 minute.</p> </td> 
   </tr> 
  </tbody> 
 </table>

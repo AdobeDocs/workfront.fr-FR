@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3232'
 ht-degree: 99%
 
 ---
@@ -80,7 +80,7 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">L’icône Plans directeurs du menu principal est désormais contrôlée par le biais de modèles de mise en page</a>.</p>
-                        <p>L’équipe d’administration système peut désormais ajouter ou supprimer l’icône Plan directeur dans le menu principal via la configuration du modèle de disposition. Il est ainsi plus facile de contrôler les personnes qui peuvent parcourir le catalogue de plans directeurs.</p>
+                        <p>L’équipe d’administration système peut désormais ajouter ou supprimer l’icône Plan directeur dans le menu principal via la configuration du modèle de mise en page. Il est ainsi plus facile de contrôler les personnes qui peuvent parcourir le catalogue de plans directeurs.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
@@ -98,7 +98,7 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Personnalisation de l’en-tête du problème</a></p>
-                        <p>En tant qu’administrateur ou administratrice Workfront ou de groupes, vous pouvez désormais personnaliser les champs qui s’affichent dans l’en-tête d’un problème lorsque vous utilisez un modèle de disposition. Cette mise à jour comprend plusieurs améliorations, notamment la possibilité de supprimer ou de réorganiser les champs existants de l’en-tête du problème et d’ajouter de nouveaux champs non modifiables pour la vue d’ensemble du problème.</p>
+                        <p>En tant qu’administrateur ou administratrice Workfront ou de groupes, vous pouvez désormais personnaliser les champs qui s’affichent dans l’en-tête d’un problème lorsque vous utilisez un modèle de mise en page. Cette mise à jour comprend plusieurs améliorations, notamment la possibilité de supprimer ou de réorganiser les champs existants de l’en-tête du problème et d’ajouter de nouveaux champs non modifiables pour la vue d’ensemble du problème.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
@@ -256,11 +256,11 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de filtrage pour les projets, les tâches et les problèmes (version bêta)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de filtrage pour les projets, les tâches et les problèmes (Beta)</a> </p>
                         <p>Le filtrage dans les listes de projets, de tâches et de problèmes a été repensé afin de vous aider à créer et partager rapidement des filtres. Les fonctionnalités incluent :</p>
                         <ul>
                             <li>
-                                <p>Une interface intuitive de « création bêta » pour créer un filtre</p>
+                                <p>Une interface intuitive de « création Beta » pour créer un filtre</p>
                             </li>
                             <li>
                                 <p>La possibilité de marquer un filtre comme favori</p>
@@ -279,7 +279,7 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
                             </li>
                         </ul>
                         <p>La nouvelle expérience de filtrage est également disponible dans les listes de feuilles de temps et dans le planificateur de scénarios.</p>
-                        <p>Le mode Texte reste disponible pour l’édition avancée de filtres, et les administrateurs et administratrices système peuvent toujours attribuer des filtres par défaut à toutes les personnes par le biais des modèles de disposition.</p>
+                        <p>Le mode Texte reste disponible pour l’édition avancée de filtres, et les administrateurs et administratrices système peuvent toujours attribuer des filtres par défaut à toutes les personnes par le biais des modèles de mise en page.</p>
                     </td>
                     <td><b>Disponible à ces dates :</b>
                         <ul>
@@ -659,10 +659,10 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Campagnes Workfront (version bêta)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Campagnes Workfront (Beta)</a> </p>
                         <p>Nous introduisons un nouvel objet dans Adobe Workfront qui a le potentiel de modifier la façon dont vous gérez le travail. </p>
                         <p>Les campagnes Workfront vous permettent d’organiser des projets provenant de différents portfolios et programmes dans un nouveau conteneur de travail.
-Les campagnes ont été publiées en juillet 2022 dans la version préliminaire bêta 22.3.</p>
+Les campagnes ont été publiées en juillet 2022 dans la version préliminaire Beta 22.3.</p>
 <p>Ce nouveau conteneur évoluera dans les prochaines versions pour relier des objets de travail qui sont actuellement gérés dans des silos séparés.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -681,7 +681,7 @@ Les campagnes ont été publiées en juillet 2022 dans la version préliminaire
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Description étendue de l’équipe</a></p>
                         <p>Dans la zone « Équipes », vous pouvez désormais afficher la description complète de l’équipe en cliquant sur la description pour l’afficher dans un pop-up. Les URL figurant dans la description sont cliquables dans le pop-up et vous pouvez cliquer sur le texte de la description pour le modifier (si vous avez accès à la modification des paramètres de l’équipe).</p>
                         <p>Auparavant, la seule manière d’afficher l’intégralité du contenu était de faire défiler la description dans une zone étroite.</p>
-<p>Cette amélioration de la description s’applique aux équipes Agile ou non.</p>
+<p>Cette amélioration de la description s’applique aux équipes Agile et non Agile.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -708,7 +708,7 @@ Nous avons lancé une nouvelle version de la visionneuse de relecture de bureau.
 * Les personnes utilisant Windows verront leur visionneuse de relecture de bureau automatiquement mise à niveau vers la dernière version si elles la lancent avant le 25 juillet. Si les personnes utilisant Windows ne parviennent pas à ouvrir la visionneuse de relecture de bureau avant le 25 juillet, elles devront la réinstaller manuellement pour bénéficier de la mise à niveau.
 
 
-Avec cette mise à jour, la visionneuse de relecture de bureau prendra en charge la version 98 de Chrome pour une meilleure compatibilité avec les épreuves interactives.
+Avec cette mise à niveau, la visionneuse de relecture de bureau prendra en charge la version 98 de Chrome pour une meilleure compatibilité avec les épreuves interactives.
 
 ### Améliorations de Workfront Fusion
 
@@ -736,11 +736,11 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors du lancement de la version 22.3, consultez la section [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors du lancement de la version 22.3, consultez la section [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Webinaire sur la version 22.4
 
-Le webinaire sur la version 22.4 aura lieu le jeudi 22 septembre 2022 à 9 h 00 PDT. Vous pouvez [vous inscrire au webinaire ici](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
+Le webinaire sur la version 22.4 se tiendra le jeudi 22 septembre 2022 à 9 :00 PDT. Vous pouvez [vous inscrire au webinaire ici](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
 ### Mise à jour des formations
 

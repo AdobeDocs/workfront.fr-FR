@@ -6,10 +6,10 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 51%
+source-wordcount: '644'
+ht-degree: 31%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 51%
 
 # Supprimer des champs
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -28,23 +28,6 @@ Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés po
 Pour plus d’informations sur la création de champs personnalisés dans Workfront Planning, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
 Vous pouvez supprimer les champs Workfront Planning qui ne sont plus pertinents.
-
-## Remarques concernant la suppression de champs Workfront Planning :
-
-* Vous ne pouvez supprimer un champ que dans la vue Tableau du type d’enregistrement.
-* Vous ne pouvez pas supprimer le champ principal d’un enregistrement.
-* Toutes les informations stockées dans le champ sont supprimées et ne peuvent pas être récupérées.
-* Lorsque vous supprimez un champ d’enregistrement connecté, tous les champs de recherche connectés sont également supprimés du type d’enregistrement auquel vous vous connectez. Les champs d’enregistrement connectés des types d’enregistrement auxquels vous vous connectez sont également supprimés de l’enregistrement auquel vous vous connectez.
-
-  Par exemple, lorsque vous connectez des campagnes à un autre type d’enregistrement appelé produit et que vous supprimez le champ Produit connecté et le champ de recherche Statut du produit de la campagne, les éléments suivants sont supprimés :
-
-   * Le champ Produit connecté de la campagne
-   * Le champ de recherche Statut du produit de la campagne
-   * Le champ connecté à Campaign à partir du produit .
-
-  Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-<!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Conditions d’accès
 
@@ -67,12 +50,10 @@ Vous pouvez supprimer les champs Workfront Planning qui ne sont plus pertinents
 Ou
 <li><p>Tout workflow et tout package Planning</p></li></ul>
 
-<!--
-<p><span class="preview">To delete global record types:</span</p>
-<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-Or
-<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>
--->
+<p><span class="preview">Pour supprimer des champs des types d’enregistrements globaux :</span></p>
+<ul><li><p><span class="preview">Tout package Workfront et un package Planning Plus</span></p></li>
+Ou
+<li><p><span class="preview">Tous les packages Prime et Ultimate de workflow et de planification</span></p></li></ul>
 
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
@@ -151,6 +132,25 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 </tbody> 
 </table> -->
 
+## Remarques concernant la suppression de champs Workfront Planning :
+
+* Vous ne pouvez supprimer un champ que dans la vue Tableau du type d’enregistrement.
+* Vous ne pouvez pas supprimer le champ principal d’un enregistrement.
+* Toutes les informations stockées dans le champ sont supprimées et ne peuvent pas être récupérées.
+* Lorsque vous supprimez un champ d’enregistrement connecté, tous les champs de recherche connectés sont également supprimés du type d’enregistrement auquel vous vous connectez. Les champs d’enregistrement connectés des types d’enregistrement auxquels vous vous connectez sont également supprimés de l’enregistrement auquel vous vous connectez.
+
+  Par exemple, lorsque vous connectez des campagnes à un autre type d’enregistrement appelé Produit et que vous supprimez le champ Produit connecté et le champ de recherche Statut du produit de la campagne, les éléments suivants sont supprimés :
+
+   * Le champ Produit connecté de la campagne
+   * Le champ de recherche Statut du produit de la campagne
+   * Le champ connecté à Campaign à partir du produit
+
+  Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+<!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
+
+* <span class="preview">Vous ne pouvez pas supprimer des champs des enregistrements globaux qui ont été ajoutés à un espace de travail secondaire à partir des espaces de travail secondaires.</span>
+
 ## Supprimer des champs
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
@@ -177,4 +177,11 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 1. Cliquez sur **Supprimer** pour confirmer.
 
-   Le champ est supprimé, ne peut pas être récupéré et ne peut plus être associé à aucun enregistrement.
+   Les champs supprimés ne peuvent pas être récupérés.
+
+   Selon le type de champ que vous avez supprimé, voici ce qui se passe :
+
+   * Si vous supprimez un champ qui appartient à l&#39;enregistrement que vous avez sélectionné, le champ est supprimé et ne peut plus être associé à aucun enregistrement. Si ce champ est ajouté comme champ de recherche à d&#39;autres enregistrements, ces champs sont également supprimés.
+   * Si vous supprimez un champ de connexion, il est supprimé de l’enregistrement que vous avez sélectionné. En outre, le champ de connexion correspondant de son enregistrement d’origine est également supprimé.
+   * Si vous supprimez un champ de recherche qui a été ajouté à partir d’un enregistrement connecté, le champ est supprimé du type d’enregistrement que vous avez sélectionné, mais il reste sur son type d’enregistrement d’origine.
+   * <span class="preview">Si vous supprimez un champ d’un type d’enregistrement global dans son espace de travail principal, il est supprimé de tous les espaces de travail où ce type d’enregistrement a été ajouté. Vous ne pouvez pas supprimer des champs des types d’enregistrements globaux de leurs espaces de travail secondaires.</span>

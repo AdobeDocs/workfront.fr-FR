@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1267'
-ht-degree: 5%
+source-wordcount: '1257'
+ht-degree: 6%
 
 ---
 
@@ -227,7 +227,7 @@ Commencez à saisir le nom d’un projet, puis cliquez sur **Ajouter un projet**
 
 1. Ajoutez une **Page Enregistrements connectés** pour les projets.
 
-   Pour plus d’informations, consultez la section « Ajouter une page Enregistrements connectés à un enregistrement » de l’article [Gérer la mise en page de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
+   Pour plus d’informations, voir [Ajouter une page Enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
    La page Enregistrements connectés s’affiche en mode Tableau. Les projets connectés s’affichent dans le tableau.
 

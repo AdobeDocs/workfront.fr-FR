@@ -2,30 +2,30 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configurer Scrum
-description: Vous pouvez configurer les options suivantes pour les équipes agiles Scrum pendant ou après la création de l’équipe.
+description: Vous pouvez configurer les options suivantes pour les équipes de Scrum Agile pendant ou après la création de l’équipe.
 author: Jenny
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 94%
+ht-degree: 76%
 
 ---
 
 # Configurer [!UICONTROL Scrum]
 
-Vous pouvez créer une équipe agile dans [!DNL Adobe Workfront] comme décrit dans [Créer une équipe agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Lors de la création d’une équipe agile, vous pouvez choisir la méthodologie que l’équipe utilise pour terminer son travail. Vous pouvez choisir parmi les options suivantes :
+Vous pouvez créer une équipe Agile dans [!DNL Adobe Workfront] comme décrit dans la section [Créer une équipe Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Lors de la création d’une équipe Agile, vous pouvez choisir la méthodologie que l’équipe utilise pour terminer son travail. Vous pouvez choisir parmi les options suivantes :
 
 * Scrum
 * Kanban
 
-Cet article décrit comment configurer les paramètres d’une équipe Scrum. Après avoir créé une équipe agile et choisi la méthodologie Scrum, reportez-vous à cet article pour mettre à jour les paramètres suivants :
+Cet article décrit comment configurer les paramètres d’une équipe Scrum. Après avoir créé une équipe Agile et choisi la méthodologie Scrum, vous pouvez vous reporter à cet article pour mettre à jour les paramètres suivants :
 
 * Si les histoires sont estimées en points ou en heures
-* Colonnes de statut sur le StoryBoard agile pour les itérations et les projets
-* Champs supplémentaires à afficher sur les cartes d’histoires sur le StoryBoard agile
-* Utilisation des indicateurs de couleur pour les histoires sur le StoryBoard agile
+* Les colonnes de statut du storyboard agile pour les itérations et les projets
+* Champs supplémentaires à afficher sur les cartes de l’histoire sur le storyboard agile
+* Utilisation des indicateurs de couleur pour les articles sur le storyboard agile
 * Application des dates lors de l’ajout d’éléments de travail à une itération
 
 Pour plus d’informations sur la configuration d’une équipe Kanban, voir [Configurer Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
@@ -41,7 +41,7 @@ Pour plus d’informations sur la configuration d’une équipe Kanban, voir [Co
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr>
 
@@ -71,13 +71,13 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Vous pouvez configurer les histoires à estimer en points ou en heures.
 
-Pour configurer l’estimation des histoires pour votre équipe agile :
+Pour configurer la manière dont les histoires sont estimées pour votre équipe Agile :
 
 {{step1-to-team}}
 
 1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]**, puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
-1. Sélectionnez l’équipe agile à gérer.
-1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
+1. Sélectionnez l’équipe Agile à gérer.
+1. Cliquez sur le bouton **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
    Seuls les membres de l&#39;équipe disposant d&#39;une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] voient cette option.
    ![Modifier une équipe](assets/edit-team-settings-350x205.png)
@@ -88,25 +88,25 @@ Pour configurer l’estimation des histoires pour votre équipe agile :
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
-## Configurer les colonnes de statut sur le Storyboard agile
+## Configurer les colonnes de statut sur le storyboard agile
 
-Vous pouvez configurer les colonnes qui s’affichent sur le Storyboard agile pour toutes les itérations affectées à votre équipe ou pour un projet donné.
+Vous pouvez configurer les colonnes affichées sur le storyboard agile pour toutes les itérations affectées à votre équipe ou pour un projet donné.
 
 * [Configurer les colonnes de statut pour les itérations](#configure-status-columns-for-iterations)
 * [Configurer les colonnes de statut pour les projets](#configure-status-columns-for-projects)
 
 ### Configurer les colonnes de statut pour les itérations {#configure-status-columns-for-iterations}
 
-Vous pouvez définir les statuts qui existent sur le Storyboard de l’équipe agile. Ce sont les seuls statuts qui s’affichent sur le Storyboard.
+Vous pouvez définir les statuts qui existent sur le storyboard pour l&#39;équipe Agile. Ce sont les seuls statuts qui s’affichent sur le Storyboard.
 
-Pour définir les statuts disponibles pour le StoryBoard associé à l’équipe agile :
+Pour définir les statuts disponibles pour le storyboard associé à l&#39;équipe Agile :
 
 {{step1-to-team}}
 
-1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez-en une dans la barre de recherche.
+1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Sélectionnez l’équipe agile à gérer.
-1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
+1. Sélectionnez l’équipe Agile à gérer.
+1. Cliquez sur le bouton **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
    Seuls les membres de l’équipe qui disposent d’une licence [!UICONTROL Plan] ou [!UICONTROL Travail] peuvent voir cette option.
 
@@ -137,7 +137,7 @@ Pour définir les statuts disponibles pour le StoryBoard associé à l’équipe
 
 Pour plus d’informations sur la configuration des colonnes de statuts d’un projet, voir la section [Créer ou personnaliser une vue [!UICONTROL Agile]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) dans l’article [Créer ou modifier des vues dans  [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-## Configurer des champs supplémentaires à afficher sur les cartes d’histoire du StoryBoard agile
+## Configurer des champs supplémentaires à afficher sur les cartes de l’histoire dans le storyboard agile
 
 Lorsque vous ajoutez des champs aux cartes d’histoire, ils sont en lecture seule et s’affichent uniquement lorsqu’ils sont renseignés.
 
@@ -157,13 +157,13 @@ Vous pouvez afficher des données supplémentaires (y compris des données perso
 >
 >Si vous utilisez un champ personnalisé sur une carte d’histoire, son nom ne peut pas contenir de point.
 
-Pour configurer les cartes d’histoire affectées à l’équipe agile afin d’afficher des champs supplémentaires :
+Pour configurer les cartes d’histoire affectées à l’équipe Agile afin d’afficher des champs supplémentaires :
 
 {{step1-to-team}}
 
-1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez-en une dans la barre de recherche.
+1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Sélectionnez l’équipe agile à gérer.
+1. Sélectionnez l’équipe Agile à gérer.
 1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 Seuls les membres de l’équipe qui disposent d’une licence [!UICONTROL Plan] ou [!UICONTROL Travail] peuvent voir cette option.
 
@@ -177,24 +177,24 @@ Seuls les membres de l’équipe qui disposent d’une licence [!UICONTROL Plan]
 1. Saisissez le **[!UICONTROL Nom d’affichage]** pour que le champ s’affiche sur la carte d’histoire ou de problème.
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
-## Configurer l’utilisation des indicateurs de couleur pour les histoires sur le Storyboard agile
+## Configurer la manière dont les indicateurs de couleur sont utilisés pour les histoires sur le storyboard agile
 
-Par défaut, les tuiles de Storyboard dans une itération agile sont codées par couleur en fonction du projet auquel l’histoire est associée. Chaque projet se voit attribuer arbitrairement une couleur sur le Storyboard. Vous pouvez modifier ce comportement par défaut pour chaque équipe agile. Les couleurs des histoires agiles peuvent être liées à la priorité des histoires, à leur propriétaire, etc.
+Par défaut, les vignettes de storyboard d’une itération agile sont codées par couleur en fonction du projet auquel l’histoire est associée. Chaque projet se voit attribuer arbitrairement une couleur sur le Storyboard. Vous pouvez modifier ce comportement par défaut pour chaque équipe Agile. Les couleurs des histoires agiles peuvent être liées à la priorité de l’histoire, au propriétaire, etc.
 
-Pour modifier le comportement de l’affectation des couleurs aux histoires pour une équipe agile :
+Pour modifier le comportement de l’affectation des couleurs aux articles pour une équipe Agile :
 
 {{step1-to-team}}
 
-1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez-en une dans la barre de recherche.
+1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Sélectionnez l’équipe agile à gérer.
-1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
+1. Sélectionnez l’équipe Agile à gérer.
+1. Cliquez sur le bouton **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
    Seuls les membres de l’équipe qui disposent d’une licence [!UICONTROL Plan] ou [!UICONTROL Travail] peuvent voir cette option.
 
    ![Modifier une équipe](assets/edit-team-settings-350x205.png)
 
-1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Associer la couleur de la carte à &#x200B;], sélectionnez l’une des options suivantes :
+1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Associer la couleur de la carte à ], sélectionnez l’une des options suivantes :
 
    * **[!UICONTROL Projet]** : les couleurs sont associées au projet auquel l’histoire est liée. (Lorsqu’une histoire est créée, elle doit être associée à un projet, comme décrit dans [Créer une histoire agile](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Toutes les tâches d’un même projet s’affichent avec la même couleur.
    * **[!UICONTROL Formulaire libre]** : toutes les cartes sont affichées en bleu par défaut jusqu’à ce que quelqu’un modifie manuellement la couleur, comme décrit dans [[!UICONTROL Catégoriser les histoires par couleur] sur le panorama Scrum](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).

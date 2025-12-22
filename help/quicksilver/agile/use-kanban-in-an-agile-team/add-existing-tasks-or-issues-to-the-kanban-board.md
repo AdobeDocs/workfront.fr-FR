@@ -6,10 +6,10 @@ description: Si vous disposez de l’accès en gestion au projet, vous pouvez aj
 author: Jenny
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 31%
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 31%
 
 Si vous disposez de l’accès en gestion au projet, vous pouvez ajouter n’importe quelle tâche ou n’importe quel problème à un tableau [!UICONTROL Kanban]. Gardez ce qui suit à l’esprit lorsque vous déplacez une tâche ou un problème vers un tableau [!UICONTROL Kanban] :
 
-* Si la tâche ou le problème est affecté(e) à une équipe Agile puis déplacé(e) vers le tableau [!UICONTROL Kanban], l’affectation de l’équipe ne change pas.
+* Si la tâche ou l&#39;événement est affecté à une équipe Agile et déplacé vers le panorama [!UICONTROL Kanban] d&#39;une autre équipe, l&#39;affectation de l&#39;équipe ne change pas.
 * Si la tâche ou le problème n’est pas affecté(e) à une équipe, la tâche ou le problème est affecté(e) à l’équipe propriétaire du tableau Kanban.
 
 ## Conditions d’accès
@@ -33,7 +33,7 @@ Si vous disposez de l’accès en gestion au projet, vous pouvez ajouter n’imp
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

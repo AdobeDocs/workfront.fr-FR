@@ -6,10 +6,10 @@ description: L’ordre dans lequel les histoires apparaissent sur le storyboard 
 author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 80%
+ht-degree: 73%
 
 ---
 
@@ -59,4 +59,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Contrairement aux itérations Agile, vous ne pouvez pas modifier l’ordre des histoires lors de l’affichage d’un projet dans une vue Agile. Pour modifier l’ordre des histoires d’un projet, vous devez afficher le projet dans une vue standard.
 
-Pour savoir comment modifier l’affichage du projet, voir [[!UICONTROL Gérer un projet] en [!UICONTROL vue &#x200B;]Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Au lieu de sélectionner une vue Agile, sélectionnez une vue standard.
+Pour savoir comment modifier l’affichage du projet, voir [[!UICONTROL Gérer un projet] en [!UICONTROL vue ]Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Au lieu de sélectionner une vue Agile, sélectionnez une vue standard.

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 99%
@@ -73,9 +73,9 @@ En lieu et place d’un webinaire sur la version, nous vous invitons à vous ins
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Créer des formulaires personnalisés avec le nouveau créateur de formulaire bêta</a>
-                        <p>Le nouveau créateur de formulaire dispose d’un nouvel espace de style zone de travail qui vous permet de visualiser simultanément les champs, la zone de travail et les paramètres de champ.</p>
-                        <p>Avec le nouveau créateur de formulaires, nous avons ajouté la possibilité de : 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Créer des formulaires personnalisés avec le nouveau concepteur de formulaires Beta</a>
+                        <p>Le nouveau concepteur de formulaires dispose d’un nouvel espace de travail de style zone de travail qui vous permet d’afficher simultanément les champs, la zone de travail et les paramètres des champs.</p>
+                        <p>Avec le nouveau concepteur de formulaires, nous avons ajouté la possibilité de : 
                         <ul>
                         <li><strong>Copier un champ</strong> : vous pouvez maintenant copier des champs existants en cliquant sur l’icône « Copier » sur les champs directement à partir de la zone de travail.</li>
                         <li><strong>Utiliser une section par défaut</strong> : lorsque le créateur ou la créatrice du formulaire n’a pas inséré de section en haut du formulaire, une section par défaut apparaît maintenant dans la zone de travail pour que les utilisateurs et les utilisatrices puissent accorder des autorisations aux champs sans section personnalisée affectée. </li>
@@ -149,7 +149,7 @@ En lieu et place d’un webinaire sur la version, nous vous invitons à vous ins
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Fonctionnalité d’itération disponible dans les panoramas Adobe Workfront</a></p>
-                        <p>Plusieurs nouvelles fonctionnalités disponibles dans les panoramas Workfront permettent d’utiliser la fonctionnalité Scrum Agile. Ces fonctionnalités sont les suivantes :
+                        <p>Plusieurs nouvelles fonctionnalités disponibles dans les tableaux Workfront permettent d’utiliser la fonctionnalité Agile Scrum. Ces fonctionnalités sont les suivantes :
                         <ul>
                         <li>Flux de travail pour regrouper des panoramas liés à la même équipe et collaborer sur le travail</li>
                         <li>Liste de cartes, ou liste d’attente du travail, avec la possibilité d’utiliser des sources pour connecter les cartes aux tâches et problèmes Workfront</li>
@@ -536,7 +536,7 @@ En lieu et place d’un webinaire sur la version, nous vous invitons à vous ins
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de commentaires pour les problèmes (bêta)</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de commentaires pour les problèmes (Beta)</a>
                         <p>Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour inclut une nouvelle interface, de nouvelles fonctionnalités et une amélioration des performances dans la section Mises à jour de certains objets. </p>
                         <p>Cette nouvelle expérience finira par unifier les commentaires dans Adobe Workfront et au-delà, dans Adobe Experience Cloud. </p>
                     </td>
@@ -653,7 +653,7 @@ Pour plus d’informations sur les versions d’API, consultez [Contrôle de ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées dans le cadre de la version 23.2, consultez [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
+Pour plus d’informations sur les mises à jour de maintenance effectuées dans le cadre de la version 23.2, consultez [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Mise à jour des formations
 

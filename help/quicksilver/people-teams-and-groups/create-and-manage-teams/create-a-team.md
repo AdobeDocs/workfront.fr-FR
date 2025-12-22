@@ -6,10 +6,10 @@ description: Lorsque vous créez une équipe, vous en devenez la personne propri
 author: Jenny
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur la manière dont l’équipe d’administration [
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      >
      >Lorsqu’une équipe est affectée à un groupe ou à un sous-groupe, l’équipe d’administration peut se charger de la gestion sans en être membre. Les administrateurs et administratrices de groupes peuvent accéder à la zone Équipes dans le menu principal et cliquer sur la flèche Changer d’équipe ![Icône Changer d’équipe](assets/switch-team-icon.png) pour répertorier toutes les équipes affectées aux groupes gérés.
 
-   * **[!UICONTROL Ceci est une équipe Agile] :** sélectionnez cette option si vous souhaitez configurer cette nouvelle équipe pour qu’elle soit agile.
+   * **[!UICONTROL Il s&#39;agit d&#39;une équipe Agile] :** sélectionnez cette option si vous souhaitez configurer cette nouvelle équipe pour qu&#39;elle soit une équipe Agile.
 
      Pour plus d’informations sur les équipes Agile, voir [Créer une équipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 

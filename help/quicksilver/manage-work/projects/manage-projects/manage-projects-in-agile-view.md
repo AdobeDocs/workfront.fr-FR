@@ -6,7 +6,7 @@ description: Vous pouvez tirer parti de la fonctionnalité Agile pour votre proj
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 42%
@@ -21,7 +21,7 @@ Vous pouvez tirer parti de la fonctionnalité Agile pour votre projet sans les d
 
 Vous pouvez travailler dans un environnement Agile qui utilise une liste d’attente d’équipe et vous permet de créer des itérations à partir des tâches de la liste d’attente.
 
-Pour plus d’informations, voir [Travailler dans un environnement agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+Pour plus d’informations, voir [Travailler dans un environnement Agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Conditions d’accès
 

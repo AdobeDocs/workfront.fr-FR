@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 83%
@@ -1047,21 +1047,21 @@ ht-degree: 83%
       * [Ajouter des balises](agile/get-started-with-boards/add-tags.md)
       * [Gérer la vue d’administration des tableaux](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
       * [Notifications par e-mail et préférences des panoramas](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * Utiliser des outils de planification Agile dans les panoramas {#agile-planning-boards}
+   * Utilisation des outils de planification Agile dans les tableaux {#agile-planning-boards}
       * [Présentation des outils de planification Agile : index des articles](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Gérer la limite de travail en cours (WIP) sur un panorama](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [Ajouter une colonne d’entrée à un panorama](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Utiliser des groupes sur un panorama](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Configurer le détachement des vignettes](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [Migrer des cartes Kanban d’équipe Agile vers des panoramas Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+      * [Migrer les cartes Kanban de l’équipe Agile vers les tableaux Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [Gérer les flux de travail](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Créer une itération dans un flux de travail](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [Configurer la liste d’attente sur un panorama de flux de travail](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
       * [Vérifier les mesures d’itération](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * [Vue d’ensemble d’Agile](agile/agile-overview.md)
-   * Commencer avec Agile dans Adobe Workfront {#agile-in-workfront}
-      * [Commencer avec Agile dans Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+   * Prise en main d’Agile dans Adobe Workfront {#agile-in-workfront}
+      * [Prise en main d’Agile dans Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
       * [Créer une équipe Agile](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [Configurer Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [Configurer Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
@@ -1080,8 +1080,8 @@ ht-degree: 83%
       * [Utiliser des indicateurs sur les histoires du panorama Kanban](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [Ajouter la liste d’attente au tableau Kanban](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [Supprimer l’histoire du tableau Kanban](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * Scrum dans une équipe Agile {#scrum}
-      * [Scrum dans une équipe Agile](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
+   * Scrum dans une équipe agile {#scrum}
+      * [Scrum dans une équipe agile](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
       * Avancement {#burndown}
          * [Avancement](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [Vue d’ensemble du graphique d’avancement Agile](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
@@ -1093,7 +1093,7 @@ ht-degree: 83%
          * [Itérations](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [Vue d’ensemble des itérations](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [Créer une itération](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-         * [Créer une histoire Agile dans une itération](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+         * [Création d’une histoire agile dans une itération](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
          * [Ajouter des histoires à une itération existante](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [Afficher une itération](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [Supprimer une itération](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
@@ -1116,7 +1116,7 @@ ht-degree: 83%
       * [Déplacer une histoire Agile](agile/work-in-an-agile-environment/move-an-agile-story.md)
    * Conseils, astuces et dépannage pour Agile {#tips-tricks-agile}
       * [Conseils, astuces et dépannage pour Agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
-      * [Les statuts personnalisés ne s’affichent pas sur le Storyboard Agile.](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
+      * [Les statuts personnalisés ne s’affichent pas sur le storyboard agile](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documents {#documents}
    * [Documents : index des articles](documents/documents-overview.md)
    * Ajouter de nouveaux documents à Adobe Workfront {#add-new-documents-to-workfront}
@@ -2532,7 +2532,7 @@ ht-degree: 83%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)

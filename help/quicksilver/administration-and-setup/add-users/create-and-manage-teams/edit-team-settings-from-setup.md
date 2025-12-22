@@ -5,10 +5,10 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -100,7 +100,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader">Agile</td> 
-      <td>Indiquez s’il s’agit d’une équipe Agile. Pour plus d’informations sur les équipes agiles et la gestion de leur travail, voir <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Créer une équipe agile</a>.</td> 
+      <td>Indiquez s'il s'agit d'une équipe Agile. Pour plus d’informations sur les équipes Agile et la gestion de leur travail, voir <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Création d’une équipe Agile</a>.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Travailler sur ce projet</td> 

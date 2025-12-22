@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -53,11 +53,11 @@ Dans la zone « Équipes », vous pouvez désormais afficher la description co
 
 Auparavant, la seule manière d’afficher l’intégralité du contenu était de faire défiler la description dans une zone étroite.
 
-Cette amélioration de la description s’applique aux équipes Agile ou non.
+Cette amélioration de la description s’applique aux équipes Agile et non Agile.
 
 Pour plus d’informations, consultez la section [Créer une équipe](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-## Campagnes Workfront (version bêta) : une nouvelle façon de gérer votre travail
+## Campagnes Workfront (version Beta) : une nouvelle façon de gérer votre travail
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Pour plus d’informations, consultez la section [Créer une équipe](/help/quic
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible uniquement en version bêta et est actuellement en cours de construction. Nous continuerons à ajouter des fonctionnalités pour le workflow Campagnes avec les prochaines versions. La participation au programme bêta de Campagnes de Workfront est volontaire.
+>Cette fonctionnalité est disponible uniquement en version Beta et est actuellement en cours de construction. Nous continuerons à ajouter des fonctionnalités pour le workflow Campagnes avec les prochaines versions. La participation au programme Beta de Campagnes de Workfront se fait sur une base volontaire.
 
 Nous introduisons un nouvel objet dans Adobe Workfront qui a le potentiel de modifier la façon dont vous gérez le travail.
 
@@ -75,7 +75,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 
 * Nouvel objet Workfront appelé « Campagnes »
 
-* Nouvelle zone « Campagnes » (version bêta) dans le menu principal
+* Nouvelle zone « Campagnes » (Beta) dans le menu principal
 
 * Liste des campagnes dans la zone « Campagnes »
 
@@ -87,6 +87,6 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 
 * Possibilité de renommer l’objet Campagne à partir du modèle de mise en page
 
-  Les personnes chargées de l’administration du système et des groupes Workfront peuvent ajouter la zone « Campagnes » (version bêta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour l’ensemble des utilisateurs et des utilisatrices à qui le modèle est affecté. Une fois disponible, n’importe quelle personne dans Workfront peut créer une campagne.
+  Les personnes chargées de l’administration du système et des groupes Workfront peuvent ajouter la zone « Campagnes » (Beta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour l’ensemble des utilisateurs et des utilisatrices à qui le modèle est affecté. Une fois disponible, n’importe quelle personne dans Workfront peut créer une campagne.
 
 

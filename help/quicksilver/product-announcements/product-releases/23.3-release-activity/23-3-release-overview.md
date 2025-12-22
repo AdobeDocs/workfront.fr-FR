@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2799'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -98,8 +98,8 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicateurs et règles de logique d’affichage et de saut affichés dans le créateur de formulaires beta</a></p>
-                        <p>La version bêta publique du créateur de formulaire a été réactivée en version préliminaire et en version de production le 21 juillet 2023. En outre, vous pouvez désormais afficher les règles de logique existantes créées dans les anciens formulaires personnalisés dans le créateur de formulaires.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicateurs et règles de logique d’affichage et de saut affichés dans le concepteur de formulaires Beta</a></p>
+                        <p>La version Beta publique du concepteur de formulaires a été réactivée en version préliminaire et en version de production le 21 juillet 2023. En outre, vous pouvez désormais afficher les règles de logique existantes créées dans les anciens formulaires personnalisés dans le concepteur de formulaires.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -281,8 +281,8 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrer les cartes Kanban de l’équipe agile vers les panoramas</a></p>
-                        <p>Un nouveau bouton <b>Ajouter aux panoramas</b> sur les panoramas Kanban de l’équipe agile permet d’ajouter toutes les cartes du panorama Kanban au panorama Workfront. Vous pouvez choisir de créer un panorama Workfront ou d’ajouter les cartes à un panorama existant.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrer les cartes Kanban de l’équipe Agile vers les tableaux</a></p>
+                        <p>Un nouveau bouton <b>Ajouter aux tableaux</b> sur les tableaux Kanban de l’équipe Agile vous permet d’ajouter toutes les cartes du tableau Kanban à un tableau Workfront. Vous pouvez choisir de créer un panorama Workfront ou d’ajouter les cartes à un panorama existant.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -656,8 +656,8 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                  </tr>                
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de commentaires en version bêta pour les projets, les tâches et les documents</a> </p>
-                        <p>La nouvelle version bêta de l’expérience de commentaires est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, la version bêta de l’expérience de commentaires n’était disponible que pour les problèmes et les objectifs.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de commentaires en version Beta pour les projets, les tâches et les documents</a> </p>
+                        <p>La nouvelle expérience de commentaires en version Beta est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, l’expérience de commentaires en version Beta n’était disponible que pour les problèmes et les objectifs.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -688,8 +688,8 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées à la nouvelle expérience de commentaires en version bêta</a></p>
-                        <p>Les améliorations apportées à la section « Mises à jour » seront disponibles tout au long de la période de la version 23.3 pour la nouvelle expérience de commentaires en version bêta. Ces améliorations seront disponibles dans l’environnement de production avec la version 23.3, sauf indication contraire.</p>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées à la nouvelle expérience de commentaires en version Beta</a></p>
+                        <p>Les améliorations apportées à la section « Mises à jour » seront disponibles tout au long de la période de la version 23.3 pour la nouvelle expérience de commentaires en version Beta. Ces améliorations seront disponibles dans l’environnement de production avec la version 23.3, sauf indication contraire.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -768,7 +768,7 @@ Pour plus d’informations sur les versions d’API, consultez [Contrôle de ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, consultez [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, consultez [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Mise à jour des formations
 

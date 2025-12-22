@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des histoires à une itération de plusieurs fa
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -83,7 +83,7 @@ Vous pouvez configurer des équipes Scrum individuelles de manière à utiliser 
 Vous pouvez ajouter une tâche ou un problème à n’importe quelle itération si vous disposez de la gestion de l’accès au projet. Gardez les éléments suivants à l’esprit lorsque vous déplacez une tâche ou un problème vers une itération :
 
 * Si vous ajoutez plusieurs équipes, la tâche ou le problème ne peut s’afficher que sur l’itération d’une équipe. Il s’agit de l’itération choisie à l’étape 3 ci-dessous.
-* Si la tâche ou le problème est assigné à une équipe agile et déplacé vers l’itération d’une autre équipe, l’affectation de l’équipe ne change pas.
+* Si la tâche ou l&#39;événement est affecté à une équipe Agile et déplacé vers l&#39;itération d&#39;une autre équipe, l&#39;affectation de l&#39;équipe ne change pas.
 * Si la tâche ou le problème n’est pas assigné à une équipe, la tâche ou le problème est assigné à l’équipe propriétaire de l’itération.
 * Vous ne pouvez pas ajouter de tâches parents à l’itération. Si vous ajoutez des tâches enfants, la tâche parent apparaît sur le panorama Scrum sous la forme d’un couloir.
 
@@ -96,7 +96,7 @@ Ou
 Accédez au projet, rapport ou tableau de bord contenant la tâche ou l’événement à ajouter à une itération. Sélectionnez ensuite une ou plusieurs tâches ou un ou plusieurs événements.
 
 1. Cliquez sur **[!UICONTROL Plus]** ![Icône Plus](assets/more-icon.png) > **[!UICONTROL Ajouter à l’itération]**.
-Vous ne pouvez pas attribuer des tâches ou des problèmes affectés à des équipes non agiles.
+Vous ne pouvez pas affecter de tâches ou d&#39;événements affectés à des équipes non-Agile.
 
 1. Dans la zone **[!UICONTROL Ajouter à]**, commencez à saisir le nom de l’itération, puis sélectionnez-la lorsqu’elle apparaît dans la liste.
 

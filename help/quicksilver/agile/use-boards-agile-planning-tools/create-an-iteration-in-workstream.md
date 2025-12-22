@@ -3,14 +3,14 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: Création d’une itération dans un flux de travail
-description: Une itération est la durée affectée à la réalisation d’un travail. Certaines équipes Agile peuvent employer le terme sprint pour désigner les itérations.
+description: Une itération est la durée affectée à la réalisation d’un travail. Certaines équipes Agile peuvent faire référence à une itération en tant que sprint.
 author: Jenny
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 >
 >Les flux de travail ne sont disponibles que pour un groupe spécifique de clientes et de clients.
 
-Une itération est la durée affectée à la réalisation d’un travail. Certaines équipes Agile peuvent employer le terme sprint pour désigner les itérations.
+Une itération est la durée affectée à la réalisation d’un travail. Certaines équipes Agile peuvent faire référence à une itération en tant que sprint.
 
 ## Conditions d’accès
 
@@ -31,7 +31,7 @@ Une itération est la durée affectée à la réalisation d’un travail. Certai
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

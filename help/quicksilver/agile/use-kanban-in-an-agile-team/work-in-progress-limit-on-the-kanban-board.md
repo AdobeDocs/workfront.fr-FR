@@ -6,10 +6,10 @@ description: Vous pouvez configurer une limite du travail en cours pour chaque c
 author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 88%
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ La limite du travail en cours est simplement un avertissement visuel et n’emp�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Afficher la limite du [!UICONTROL travail en cours] sur le tableau [!UICONTROL Kanban]
 
-Lorsqu’une limite du travail en cours est configurée pour votre équipe Agile, elle s’affiche dans le coin supérieur droit de chaque colonne du tableau Kanban (à l’exception de la colonne [!UICONTROL Terminer]).
+Lorsqu&#39;une limite WIP est configurée pour votre équipe Agile, elle s&#39;affiche dans le coin supérieur droit de chaque colonne du tableau kanban (à l&#39;exception de la colonne [!UICONTROL Terminé]).
 
 Chaque fois que la limite est dépassée pour une colonne du panorama [!UICONTROL Kanban], la limite est mise en surbrillance en rouge et un message s’affiche.
 ![Limite du travail en cours](assets/kanban-wip.png)

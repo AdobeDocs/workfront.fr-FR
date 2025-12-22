@@ -7,10 +7,10 @@ description: Consultez cet article pour mieux comprendre le fonctionnement du ta
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 88%
+ht-degree: 82%
 
 ---
 
@@ -22,7 +22,7 @@ Les sections suivantes permettent de mieux comprendre le fonctionnement du panor
 
 Pour une description de la méthodologie K[!UICONTROL anban], voir [Créer une équipe Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-Si vous souhaitez migrer d’une équipe agile [!UICONTROL tableau Kanban] vers des [!DNL Workfront] [!UICONTROL tableaux], consultez [Migrer les cartes de l’équipe agile [!UICONTROL Kanban] vers des  [!DNL Workfront] tableaux](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Si vous souhaitez migrer d’une équipe Agile [!UICONTROL tableau Kanban] vers [!DNL Workfront] [!UICONTROL tableaux], consultez [Migrer les cartes de l’équipe Agile [!UICONTROL Kanban] vers [!DNL Workfront] tableaux](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## Disposition et fonctions des panoramas [!UICONTROL Kanban]
 
@@ -34,7 +34,7 @@ Le panorama [!UICONTROL Kanban] se compose des éléments suivants :
 
 Pour plus d’informations, voir la section [Mettre à jour le statut des histoires sur le panorama [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md).
 
-Les statuts des histoires peuvent être personnalisés pour le projet en modifiant la vue agile, comme décrit dans la section [[!UICONTROL Créer ou personnaliser une vue Agile]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) dans [Créer ou modifier des vues dans  [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Les statuts des histoires peuvent être personnalisés pour le projet en modifiant la vue Agile, comme décrit dans la section [[!UICONTROL Créer ou personnaliser une vue Agile]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) dans [Créer ou modifier des vues dans [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 >[!NOTE]
 >
