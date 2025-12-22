@@ -2106,7 +2106,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (dans [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
+   <td> <p>Un scénario est une série d’étapes (modules) qui indiquent la façon dont les données doivent être transférées et transformées entre les applications/les services.</p> <p>Pour plus d’informations sur les scénarios dans [!DNL Workfront Fusion], consultez <a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]Vue d’ensemble du scénario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (dans le [!DNL Workfront Scenario Planner]) </td> 

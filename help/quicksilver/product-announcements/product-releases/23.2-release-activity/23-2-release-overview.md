@@ -653,7 +653,7 @@ Pour plus d’informations sur les versions d’API, consultez [Contrôle de ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées dans le cadre de la version 23.2, consultez [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Pour plus d’informations sur les mises à jour de maintenance effectuées dans le cadre de la version 23.2, consultez [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
 
 ### Mise à jour des formations
 
