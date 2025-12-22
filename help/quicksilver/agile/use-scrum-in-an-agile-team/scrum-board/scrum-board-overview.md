@@ -73,4 +73,4 @@ Supposons, par exemple, que l&#39;article A contienne la sous-tâche 1 et la sou
 
 Cette même logique s’applique aux sous-tâches de deuxième niveau (sous-tâches de sous-tâches). Si une sous-tâche comporte une ou plusieurs sous-tâches de second niveau affectées à la même équipe Agile et appartenant à l&#39;itération, seule la sous-tâche de second niveau est affichée dans la liste d&#39;attente.
 
-Pour plus d’informations sur la liste d’attente, voir [ Gérer la liste d’attente Agile ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur la liste d’attente, voir [&#x200B; Gérer la liste d’attente Agile &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

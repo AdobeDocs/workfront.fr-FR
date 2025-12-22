@@ -40,7 +40,7 @@ La version 2018.2 Beta 4 contient les améliorations apportées aux administr
 * [Prise en charge de Google Team Drives](#support-for-google-team-drives)
 * [Nouvelle limite d’export pour le graphique de Gantt](#new-export-limit-for-the-gantt-chart)
 * [L’option Coller depuis le presse-papiers est désormais grisée lors de l’utilisation d’Internet Explorer ou de Safari](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari).
-* Nouvel environnement Beta pour Android et nouvelles fonctionnalités[](#new-beta-environment-for-android-along-with-new-features)
+* Nouvel environnement Beta pour Android et nouvelles fonctionnalités[&#128279;](#new-beta-environment-for-android-along-with-new-features)
 * [Exemples de filtres pour les messages d’abonnements aux événements](#examples-of-filters-for-event-subscriptions-messages)
 
 ## Améliorations de la limite du travail en cours (WIP) dans le tableau Kanban {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}

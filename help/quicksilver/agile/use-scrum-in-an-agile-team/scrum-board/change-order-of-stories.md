@@ -59,4 +59,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Contrairement aux itérations Agile, vous ne pouvez pas modifier l’ordre des histoires lors de l’affichage d’un projet dans une vue Agile. Pour modifier l’ordre des histoires d’un projet, vous devez afficher le projet dans une vue standard.
 
-Pour savoir comment modifier l’affichage du projet, voir [[!UICONTROL Gérer un projet] en [!UICONTROL vue ]Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Au lieu de sélectionner une vue Agile, sélectionnez une vue standard.
+Pour savoir comment modifier l’affichage du projet, voir [[!UICONTROL Gérer un projet] en [!UICONTROL vue &#x200B;]Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Au lieu de sélectionner une vue Agile, sélectionnez une vue standard.

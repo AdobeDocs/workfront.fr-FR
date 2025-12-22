@@ -50,7 +50,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Changer la couleur des histoires lors de l’utilisation d’un formulaire libre
 
-Si les paramètres de l’équipe Agile ont été configurés de sorte que l’option [!UICONTROL  Associer la couleur de la carte à ] soit définie sur [!UICONTROL Structure libre], les utilisateurs peuvent modifier manuellement la couleur de mosaïques d’histoires individuelles. Cela peut se révéler utile pour communiquer d’autres types d’informations importantes pour l’équipe ou l’organisation :
+Si les paramètres de l’équipe Agile ont été configurés de sorte que l’option [!UICONTROL &#x200B; Associer la couleur de la carte à &#x200B;] soit définie sur [!UICONTROL Structure libre], les utilisateurs peuvent modifier manuellement la couleur de mosaïques d’histoires individuelles. Cela peut se révéler utile pour communiquer d’autres types d’informations importantes pour l’équipe ou l’organisation :
 
 {{step1-to-team}}
 
