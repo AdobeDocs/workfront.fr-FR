@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 1%
@@ -46,8 +46,9 @@ L’utilisation de hiérarchies dans vos espaces de travail présente les avanta
    * AEM Assets.
 * Les hiérarchies peuvent inclure à la fois des types d&#39;enregistrements Planning et des projets Workfront.
 
-      Par exemple, vous pouvez avoir un type d’enregistrement Campagne avec les Tactiques de planification et Projets Workfront comme enfants dans la même hiérarchie d’espace de travail.
-  * Si une connexion entre les types d&#39;enregistrements sélectionnés existe déjà, le système réutilise la connexion existante.
+  Par exemple, vous pouvez avoir un type d’enregistrement Campagne avec les Tactiques de planification et Projets Workfront comme enfants dans la même hiérarchie d’espace de travail.
+
+* Si une connexion entre les types d&#39;enregistrements sélectionnés existe déjà, le système réutilise la connexion existante.
 * S’il n’existe aucune connexion, Workfront en crée une dans le cadre de la configuration de la hiérarchie.
 * Le paramètre **Créer le champ correspondant sur le type d’enregistrement lié** doit être activé pour le champ connecté pour les enregistrements et les types d’objet que vous souhaitez inclure dans une hiérarchie.
 * Vous ne pouvez pas supprimer un type d&#39;enregistrement s&#39;il fait partie d&#39;une hiérarchie.

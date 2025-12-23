@@ -6,23 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '3367'
-ht-degree: 37%
+source-wordcount: '3481'
+ht-degree: 36%
 
 ---
 
 
 # Connect records
 
-<!--
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
 
 {{planning-important-intro}}
 
@@ -88,7 +85,7 @@ Vous pouvez connecter les éléments suivants :
    <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -392,7 +389,7 @@ Après avoir créé une connexion entre un type d’enregistrement et Adobe Exp
 
 >[!NOTE]
 >
->Les enregistrements Planning et leurs champs sont accessibles depuis Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Les enregistrements Planning et leurs champs sont accessibles depuis Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Pour connecter des enregistrements à des ressources Experience Manager :
 
@@ -479,7 +476,7 @@ Pour connecter des enregistrements à des ressources Experience Manager :
 
    La page d’aperçu s’ouvre.
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) pour ouvrir la page de l’enregistrement dans un nouvel onglet du navigateur.
-   <!--1. (Optional and conditional) <span class="preview">Click the name of a record type in the breadcrumb of the record page header to access another record type in the same hierarchy. Hierarchies must exist for the record type of the record you are connecting before you can view them in the breadcrumb. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md). </span>-->
+1. (Facultatif et conditionnel) <span class="preview">Cliquez sur le nom d’un type d’enregistrement dans le chemin de navigation de l’en-tête de la page d’enregistrement pour accéder à un autre type d’enregistrement dans la même hiérarchie. Des hiérarchies doivent exister pour le type d’enregistrement de l’enregistrement auquel vous vous connectez avant de pouvoir les afficher dans le chemin de navigation. Pour plus d’informations, voir [Création de hiérarchies d’espaces de travail](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md). </span>
 1. Cliquez sur l&#39;onglet **Connexions** dans la page ou l&#39;aperçu de l&#39;enregistrement.
 
    ![Onglet Connexions enregistré dans Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -506,7 +503,7 @@ Pour connecter des enregistrements à des ressources Experience Manager :
 Les enregistrements et les objets sont immédiatement ajoutés.
 1. (Facultatif) Pointez sur la carte connectée d’un enregistrement ou d’un objet, puis cliquez sur l’icône **Déconnecter l’enregistrement** ![Déconnecter l’enregistrement](assets/disconnect-icon-with-tooltip.png) pour le déconnecter de l’enregistrement sélectionné.
 
-   ![&#x200B; Icône Déconnecter l’enregistrement avec une info-bulle sur l’onglet Connexions &#x200B;](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![ Icône Déconnecter l’enregistrement avec une info-bulle sur l’onglet Connexions ](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    L&#39;enregistrement est immédiatement déconnecté de toutes les zones de Workfront Planning ou d&#39;autres applications où il peut apparaître comme connecté. Toutes les valeurs de champ de recherche sont également supprimées.
 

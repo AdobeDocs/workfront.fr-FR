@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '523'
 ht-degree: 20%
 
 ---
@@ -54,7 +54,7 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Nombre d&#39;entités (utilisateurs, rôles, équipes, sociétés, groupes) avec lesquelles vous pouvez partager un objet Planning | 100 |
 | <span class="preview">Nombre de types d&#39;enregistrements dans une hiérarchie</span> | 4 |
 | <span class="preview"> Nombre de hiérarchies dans un espace de travail </span> | 5 |
-| <span class="preview">Nombre d&#39;enregistrements parents connectés à un enfant dans une hiérarchie</span> | 10 |
+| <span class="preview">Nombre d&#39;enregistrements d&#39;un type d&#39;enregistrement parent connecté à un enregistrement d&#39;un type d&#39;enregistrement enfant, dans une hiérarchie</span> | 10 |
 | Nombre d’enregistrements connectés à un enregistrement dans un type de connexion à sélection multiple, <span class="preview">sans hiérarchie configurée entre les enregistrements</span> | 500 |
 
 *Nous vous recommandons de ne pas avoir trop d’espaces de travail, car ils pourraient devenir difficiles à gérer et vos workflows pourraient être trop fragmentés.
