@@ -1,30 +1,18 @@
 ---
 title: Création de hiérarchies Workspace
-description: En tant que gestionnaire d'espace de travail, vous pouvez créer plusieurs hiérarchies d'espaces de travail entre les types d'enregistrements dans Adobe Workfront Planning. Après avoir connecté des types d’enregistrements dans un espace de travail et créé une hiérarchie, les types d’enregistrements sont connectés les uns aux autres, un type d’enregistrement étant désigné comme parent et jusqu’à 6 autres types d’enregistrements étant configurés comme enfants.
-hide: true
-hidefromtoc: true
-exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 6%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: En tant que gestionnaire d'espace de travail, vous pouvez créer plusieurs hiérarchies d'espaces de travail entre les types d'enregistrements dans Adobe Workfront Planning. Après avoir connecté des types d’enregistrements dans un espace de travail et créé une hiérarchie, les types d’enregistrements sont connectés les uns aux autres, un type d’enregistrement étant désigné comme parent et jusqu’à 3 autres types d’enregistrements étant configurés comme enfants.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 6%
+
 ---
 
--->
 
 # Créer des hiérarchies d’espace de travail
 
@@ -38,13 +26,11 @@ Une fois les types d’enregistrements connectés dans un espace de travail, vou
 
 S’il n’existe pas encore de connexion entre deux types d’enregistrements, elle peut être créée lorsque vous configurez la hiérarchie. Une fois définie, la hiérarchie établit un chemin d’accès structuré entre les types d’enregistrements associés dans l’espace de travail.
 
-Les hiérarchies génèrent des chemins de navigation pour les types d’enregistrements et leurs <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> d’enregistrements respectifs qui s’affichent dans leurs en-têtes. Ainsi, les utilisateurs savent où ils se trouvent dans la hiérarchie à n’importe quelle étape de leur workflow.
+Les hiérarchies génèrent des chemins de navigation pour leurs enregistrements respectifs qui s’affichent dans leurs en-têtes. Ainsi, les utilisateurs savent où ils se trouvent dans la hiérarchie à n’importe quelle étape de leur workflow.
 
-Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [&#x200B; Présentation des hiérarchies et des chemins de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [ Présentation des hiérarchies et des chemins de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Conditions d’accès
-
-<!--check the access to see if you oversimplified???-->
 
 +++ Développez pour afficher les exigences d’accès afin d’effectuer les étapes de cet article :  
 
@@ -84,6 +70,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 +++
 
 ## Créer une hiérarchie d’espace de travail
+
+Vous pouvez créer jusqu’à 5 hiérarchies dans un espace de travail.
 
 {#step1-to-planning}
 
@@ -135,7 +123,7 @@ Chaque type d&#39;objet supplémentaire devient l&#39;enfant des types d&#39;obj
 
    1. Cliquer sur **Enregistrer**.
 
-1. (Conditionnel) Si l’option **Créer le champ correspondant sur le type d’enregistrement lié** n’a pas été sélectionnée lors de la création du champ connecté, une erreur s’affiche et vous devez d’abord effectuer les opérations suivantes : <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
+1. (Conditionnel) Si l’option **Créer le champ correspondant sur le type d’enregistrement lié** n’a pas été sélectionnée lors de la création du champ connecté, vous obtenez une erreur et devez d’abord effectuer les opérations suivantes : <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
 
    1. Cliquez sur **Annuler** dans la zone **Nouvelle hiérarchie**.
    1. Cliquez sur la flèche vers l’arrière à gauche du nom de l’espace de travail, puis cliquez sur la carte du type d’enregistrement que vous souhaitez choisir comme parent.
@@ -155,6 +143,13 @@ Chaque type d&#39;objet supplémentaire devient l&#39;enfant des types d&#39;obj
 
    * La hiérarchie est ajoutée à la section **Hiérarchies** de l’espace de travail.
    * Les enregistrements qui renseignent les champs de connexion affichent toutes les connexions dans leurs chemins de navigation, lorsque vous accédez à la page d&#39;un enregistrement.
+
+   >[!NOTE]
+   >
+   >Vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent.
+   >
+   >Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 1. (Facultatif) Passez la souris sur une hiérarchie, puis cliquez sur le menu **Plus**.
 
    ![Menu Hiérarchie plus développé](assets/hierarchy-more-menu-expanded.png)

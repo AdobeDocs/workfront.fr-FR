@@ -1,28 +1,18 @@
 ---
 title: Présentation de la hiérarchie et du chemin de navigation
-description: Vous pouvez créer plusieurs hiérarchies d’espace de travail entre les types d’enregistrements d’un espace de travail.
-hide: true
-hidefromtoc: true
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 1%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Hierarchy and Breadcrumb Overview
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: Vous pouvez créer plusieurs hiérarchies d’espaces de travail entre les types d’enregistrements d’un espace de travail, après avoir connecté les types d’enregistrements.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 1%
+
 ---
--->
+
+
 
 # Présentation de la hiérarchie et du chemin de navigation
 
@@ -30,7 +20,7 @@ hidefromtoc: yes
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-En tant que gestionnaire d&#39;espace de travail, vous pouvez définir des hiérarchies flexibles mais structurées entre les types d&#39;enregistrements et d&#39;autres types d&#39;objets dans Adobe Workfront Planning.
+En tant que gestionnaire d&#39;espace de travail, vous pouvez définir des hiérarchies flexibles mais structurées entre les types d&#39;enregistrements connectés et d&#39;autres types d&#39;objets dans Adobe Workfront Planning.
 
 Les hiérarchies sont des connexions entre les types d’enregistrements ou entre les types d’enregistrements et un projet Workfront.
 
@@ -45,7 +35,7 @@ L’utilisation de hiérarchies dans vos espaces de travail présente les avanta
 
 ## Remarques concernant l’utilisation des hiérarchies
 
-* Vous pouvez créer plusieurs hiérarchies pour un espace de travail.
+* Vous pouvez créer jusqu’à 5 hiérarchies pour un espace de travail.
 * Vous pouvez avoir jusqu&#39;à 4 types d&#39;enregistrements et d&#39;objets connectés dans une seule hiérarchie.
 * Vous ne pouvez connecter que les types d&#39;objets suivants dans une hiérarchie d&#39;espace de travail :
    * Types d’enregistrements appartenant à l’espace de travail dans lequel vous créez les hiérarchies.
@@ -60,6 +50,9 @@ L’utilisation de hiérarchies dans vos espaces de travail présente les avanta
   * Si une connexion entre les types d&#39;enregistrements sélectionnés existe déjà, le système réutilise la connexion existante.
 * S’il n’existe aucune connexion, Workfront en crée une dans le cadre de la configuration de la hiérarchie.
 * Le paramètre **Créer le champ correspondant sur le type d’enregistrement lié** doit être activé pour le champ connecté pour les enregistrements et les types d’objet que vous souhaitez inclure dans une hiérarchie.
+* Vous ne pouvez pas supprimer un type d&#39;enregistrement s&#39;il fait partie d&#39;une hiérarchie.
+* Vous ne pouvez pas supprimer un champ de connexion si le type d’enregistrement référencé dans le champ fait partie d’une hiérarchie. Vous devez d&#39;abord supprimer le type d&#39;enregistrement de la hiérarchie ou supprimer la hiérarchie avant de pouvoir supprimer le type d&#39;enregistrement.
+* Vous pouvez supprimer un champ de recherche d’un type d’enregistrement connecté. Les informations du champ ne peuvent pas être récupérées.
 * Voici des règles pour la configuration de la hiérarchie :
    * Un type d’enregistrement ne peut avoir qu’un seul type d’enregistrement parent dans un espace de travail donné.
 
@@ -77,18 +70,22 @@ L’utilisation de hiérarchies dans vos espaces de travail présente les avanta
    * Les types d’enregistrements globaux peuvent apparaître dans plusieurs espaces de travail à l’intérieur de plusieurs hiérarchies, après leur ajout à ces espaces de travail.
 
      Par exemple, si une campagne est un type d’enregistrement global et fait partie d’une hiérarchie dans Workspace 1, elle peut être ajoutée en tant que type d’enregistrement existant dans Workspace 2 et y faire partie d’une hiérarchie. Cependant, il ne peut pas faire partie d’une hiérarchie dans Workspace 2 uniquement lorsqu’il est désigné comme type d’enregistrement global dans Workspace 1, mais pas ajouté à Workspace 2.
+   * Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent.
+
+     Par exemple, si vous créez une hiérarchie entre Campagnes comme enregistrement parent et Persona comme enregistrement enfant, vous pouvez connecter la même persona à un maximum de 10 campagnes.
 
 ## Remarques concernant l’affichage des chemins de navigation
-
-<!-- this might be incomplete, because I have no UI for this yet-->
 
 Lorsque vous créez des hiérarchies entre les types d&#39;enregistrements, elles génèrent des chemins de navigation pour les enregistrements appartenant à ces types d&#39;enregistrements.
 
 Par exemple, si vous créez une hiérarchie et que vous connectez des campagnes aux Tactiques, puis aux Activités et enfin aux Projets, lorsque vous accédez à un enregistrement de l’un des types connectés dans la hiérarchie, vous pouvez voir où l’enregistrement est placé dans la hiérarchie.
 
+![Chemin de navigation](assets/breadcrumbs-on-project.png)
+
 Tenez compte des points suivants :
 
 * Si un type d&#39;enregistrement fait partie de plusieurs hiérarchies, vous pouvez basculer entre les hiérarchies à partir du chemin de navigation de l&#39;enregistrement sur la page de l&#39;enregistrement.
+* Si le type d’enregistrement dans une hiérarchie comporte plusieurs enregistrements, vous pouvez sélectionner des enregistrements dans le chemin de navigation.
 * Les chemins de navigation fonctionnent dans Workfront et Planning.
 
   Par exemple, lorsque vous étudiez un projet lié aux campagnes et tactiques Planning, ainsi qu’aux portfolios et programmes Workfront, vous pouvez basculer entre les deux types d’objets Planning et Workfront à partir du chemin de navigation.

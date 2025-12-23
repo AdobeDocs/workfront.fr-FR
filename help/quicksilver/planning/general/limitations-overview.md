@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 21%
+source-wordcount: '514'
+ht-degree: 20%
 
 ---
 
@@ -52,6 +52,10 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | <span class="preview">Nombre de champs de connexion pour un type d’enregistrement</span> | 30 <span class="preview"></span> |
 | Nombre de caractères dans une expression de champ de formule | 50 000 |
 | Nombre d&#39;entités (utilisateurs, rôles, équipes, sociétés, groupes) avec lesquelles vous pouvez partager un objet Planning | 100 |
+| <span class="preview">Nombre de types d&#39;enregistrements dans une hiérarchie</span> | 4 |
+| <span class="preview"> Nombre de hiérarchies dans un espace de travail </span> | 5 |
+| <span class="preview">Nombre d&#39;enregistrements parents connectés à un enfant dans une hiérarchie</span> | 10 |
+| Nombre d’enregistrements connectés à un enregistrement dans un type de connexion à sélection multiple, <span class="preview">sans hiérarchie configurée entre les enregistrements</span> | 500 |
 
 *Nous vous recommandons de ne pas avoir trop d’espaces de travail, car ils pourraient devenir difficiles à gérer et vos workflows pourraient être trop fragmentés.
 

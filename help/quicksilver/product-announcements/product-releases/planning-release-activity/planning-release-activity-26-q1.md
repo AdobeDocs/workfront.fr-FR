@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
+source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1798'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,47 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Créer des hiérarchies de type d’enregistrement dans les espaces de travail
+
+>[!NOTE]
+>
+>Aperçu : 23 décembre 2025
+>Version rapide de production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
+
+Vous pouvez désormais définir des hiérarchies flexibles mais structurées entre les types d’enregistrement ou d’objet.
+
+Les hiérarchies sont des connexions entre les types d’enregistrements. Vous pouvez avoir jusqu&#39;à 4 types d&#39;enregistrements et d&#39;objets connectés dans une hiérarchie, et jusqu&#39;à 5 hiérarchies dans un espace de travail. Le premier type d&#39;enregistrement dans la hiérarchie est le premier parent.
+
+Vous pouvez utiliser des hiérarchies pour organiser le travail et visualiser le flux de la stratégie vers l’exécution.
+
+Tenez compte des points suivants lors de la création de hiérarchies :
+
+* Vous pouvez connecter uniquement des types d’enregistrements Planning à partir d’un espace de travail et de projets Workfront dans une hiérarchie.
+* Un type d’enregistrement ou un projet ne peut avoir qu’un seul parent dans le même espace de travail.
+* Un type d’enregistrement peut être le parent dans plusieurs hiérarchies.
+* Les types d&#39;enregistrements connectables ne peuvent pas être utilisés dans les hiérarchies des espaces de travail autres que les leurs.
+* Les types d’enregistrements globaux ne peuvent être utilisés dans les hiérarchies que dans les espaces de travail dans lesquels ils ont été créés ou auxquels ils ont été ajoutés.
+
+Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+## Nouveaux chemins de navigation unifiés ajoutés aux pages des enregistrements
+
+>[!NOTE]
+>
+>Aperçu : 23 décembre 2025
+>Version rapide de production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
+
+Lorsque vous créez des hiérarchies entre les types d&#39;enregistrements, elles génèrent des chemins de navigation pour les enregistrements appartenant à ces types d&#39;enregistrements.
+
+Les chemins de navigation des enregistrements reflètent leur place dans une hiérarchie. Après avoir créé des hiérarchies, vous pouvez voir le chemin de navigation d&#39;un enregistrement en haut de sa page, indiquant quels autres objets parents ou enfants y sont connectés. Les hiérarchies sont cohérentes dans Workfront et Planning.
+
+Par exemple, vous pouvez afficher la hiérarchie Planning d&#39;un projet lorsqu&#39;il est connecté à des types d&#39;enregistrements Planning dans son chemin de navigation Planning, et sa hiérarchie Workfront lorsqu&#39;il est connecté à des types d&#39;objets Workfront, tels que Portfolios ou Programmes, dans Workfront.
+
+Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Améliorations apportées aux pages d’enregistrements connectés
 
@@ -66,54 +107,6 @@ Le caractère générique est disponible dans les champs où la valeur est un ut
 
 Pour plus d&#39;informations sur la configuration des vues de connexion au projet, y compris les filtres, voir [Ajouter une page Enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-<!--
-
-## Create record type hierarchies in workspaces
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production all: January 15, 2026 
-
-You can now define flexible but structured hierarchies between record or object types.  
-
-Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
-
-You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
-
-Consider the following when building hierarchies: 
-
-* You can have multiple hierarchies in a workspace 
-* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
-* A record type or a project can only have one parent in the same workspace. 
-* A record type can be the parent in multiple hierarchies 
-* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
-* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
-
-When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
-
-For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
-
-<!--
-
-## New unified breadcrumbs added to records' pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
-
-For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
-
-For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
 
 ## Améliorations de la page principale de Workspace
 
@@ -134,7 +127,6 @@ Les améliorations suivantes ont été apportées à la page principale Espaces 
 Pour plus d’informations, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 
-
 ## Ajout par défaut du champ Connexion de marque aux produits et aux personnes dans l’espace de travail GenStudio
 
 >[!NOTE]
@@ -142,7 +134,7 @@ Pour plus d’informations, voir [Modifier les espaces de travail](/help/quicksi
 >Aperçu : 11 décembre 2025
 >Version rapide de production : 11 décembre 2025
 >Production pour tous : 11 décembre 2025
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>[!BADGE Hors programme ]{type=Neutral}
 
 Le champ de connexion avec la marque GenStudio for Performance Marketing est désormais ajouté par défaut aux types d’enregistrements Produits et Personnes dans l’espace de travail GenStudio de Workfront Planning.
 
@@ -159,7 +151,7 @@ Pour plus d’informations, voir [Prise en main de l’intégration d’Adobe Wo
 >Aperçu : 11 décembre 2025
 >Version rapide de production : 11 décembre 2025
 >Production pour tous : 11 décembre 2025
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>[!BADGE Hors programme ]{type=Neutral}
 
 Nous avons ajouté un mécanisme de sécurisation qui vous empêche de supprimer les autorisations des utilisateurs de GenStudio for Performance Marketing des objets Workfront Planning. Grâce à cette amélioration, vous ne pouvez plus supprimer les utilisateurs de GenStudio de l’espace de travail GenStudio dans Planning. Vous ne pouvez pas non plus désactiver les autorisations héritées pour les types d’enregistrements dans l’espace de travail GenStudio, si ces autorisations incluent les utilisateurs de GenStudio. Avant cette amélioration, lorsque vous supprimiez ces utilisateurs de l’espace de travail GenStudio dans Planning, ils perdaient également les autorisations pour les types d’enregistrements dans GenStudio.
 
