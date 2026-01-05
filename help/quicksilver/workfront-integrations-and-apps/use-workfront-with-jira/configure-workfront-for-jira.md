@@ -6,7 +6,7 @@ description: Vous pouvez utiliser  [!DNL Adobe Workfront for Jira]  pour intégr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
+source-git-commit: e06713b8871ba5e7bfae58f67ee246c9c1163a63
 workflow-type: tm+mt
 source-wordcount: '2454'
 ht-degree: 95%
@@ -26,7 +26,7 @@ ht-degree: 95%
 >
 >Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Jira, voir [Modules logiciels Jira](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Jira, voir [Modules logiciels Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new).
 
 <!--
 
@@ -38,9 +38,9 @@ ht-degree: 95%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -63,7 +63,7 @@ Pour une liste de versions [!DNL Jira] que [!DNL Workfront for Jira] prend actue
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p>
    </td> 
   </tr> 
@@ -136,7 +136,7 @@ Pour configurer [!DNL Workfront for Jira], procédez comme suit :
 
 1. Sélectionnez l’onglet **[!UICONTROL Configuration]** pour configurer la synchronisation des champs entre les éléments [!DNL Jira] et [!DNL Workfront] liés.
 
-   Pour plus d’informations sur la configuration de la synchronisation des champs entre [!DNL Jira] et [!DNL Workfront], voir [Configurer la synchronisation des champs entre les éléments  [!DNL Jira]  et  [!DNL Workfront] &#x200B;](#configure-field-synchronization-between-jira-and-workfront-items).
+   Pour plus d’informations sur la configuration de la synchronisation des champs entre [!DNL Jira] et [!DNL Workfront], voir [Configurer la synchronisation des champs entre les éléments  [!DNL Jira]  et  [!DNL Workfront] ](#configure-field-synchronization-between-jira-and-workfront-items).
 
    >[!NOTE]
    >
@@ -144,7 +144,7 @@ Pour configurer [!DNL Workfront for Jira], procédez comme suit :
 
 1. (Facultatif) Sélectionnez l’onglet **[!UICONTROL Journal d’activité]** pour passer en revue les erreurs qui se sont produites pendant l’intégration.
 
-   Pour plus d’informations sur le [!UICONTROL Journal d’activité], voir [Afficher le Journal d’activité  [!DNL Jira] &#x200B;](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
+   Pour plus d’informations sur le [!UICONTROL Journal d’activité], voir [Afficher le Journal d’activité  [!DNL Jira] ](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
 
 ## Configurer des déclencheurs pour la liaison automatique d’éléments entre [!DNL Jira] et [!DNL Workfront]
 
@@ -301,7 +301,7 @@ Pour définir les champs à synchroniser automatiquement sur les éléments lié
 
 1. Dans la section **[!UICONTROL AUTRES]**, sélectionnez les champs supplémentaires à mettre à jour entre les éléments liés.
 
-   1. Sélectionnez une option pour déterminer si les champs que vous réglez sur **[!UICONTROL Toujours]** ou **[!UICONTROL Jamais]** s’actualisent dans [!DNL Jira] ou dans [!DNL Workfront] lorsqu’ils sont modifiés.
+   1. Sélectionnez une option pour déterminer si les champs que vous réglez sur **[!UICONTROL Toujours]** ou **[!UICONTROL Jamais]** sont mis à jour dans [!DNL Jira] ou dans [!DNL Workfront] lorsqu’ils sont modifiés.
 
    1. Effectuez un choix dans les champs et mises à jour suivants :
 
