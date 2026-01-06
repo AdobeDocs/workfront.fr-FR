@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
 workflow-type: tm+mt
-source-wordcount: '3014'
+source-wordcount: '3013'
 ht-degree: 13%
 
 ---
@@ -118,7 +118,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Choisir un projet Workfront lors de l’envoi d’une révision dans Creative Cloud Express<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Choisir un projet Workfront lors de l’envoi d’une révision dans Adobe Express<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
             <p>Vous pouvez choisir un projet Workfront auquel envoyer un BAT. Cela permet de conserver toutes les ressources et épreuves associées organisées au sein d’un même projet.</p>
         </td>
         <td>mardi 15 décembre 2025</td>
@@ -599,7 +599,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
