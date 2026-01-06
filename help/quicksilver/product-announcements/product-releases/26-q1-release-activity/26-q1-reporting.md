@@ -4,9 +4,9 @@ description: Améliorations des rapports du premier trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '933'
 ht-degree: 4%
 
 ---
@@ -126,7 +126,7 @@ Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau
 >
 >Version préliminaire : vendredi 23 octobre 2025
 >Version de production pour toute la clientèle : vendredi 23 octobre 2025
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>[!BADGE Hors programme ]{type=Neutral}
 
 Vous pouvez désormais dupliquer un rapport d’indicateur de performance clé, de tableau ou de graphique dans un tableau de bord de zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant d’enregistrer.
 
@@ -151,16 +151,6 @@ Les options de champ suivantes sont disponibles en tant qu’alternatives :
 * Autres groupes : ID
 * Autres rôles : ID
 * Autres équipes : ID
-
-## Amélioration de l’affichage du nombre de regroupements dans les tableaux de bord de la zone de travail
-
->[!NOTE]
->
->Aperçu : 6 novembre 2025
->Version rapide de production : 13 novembre 2025
->Production pour tous : 15 janvier 2026
-
-Lorsqu’un rapport tabulaire comporte plusieurs pages de résultats et que le tableau est configuré avec des regroupements, le tableau affiche désormais à la fois la quantité d’enregistrements de la page active et le nombre total d’enregistrements de toutes les pages. Par exemple, si votre rapport de tableau comporte 7 regroupements et que la première page affiche 3, le tableau affiche 3 de 7.
 
 
 ## Nouveaux mécanismes de sécurisation pour améliorer les temps de chargement dans les tableaux de bord de la zone de travail
