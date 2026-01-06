@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
+source-git-commit: b9016bc9a5609424b6cd6cdec67ac4d696e7ab45
 workflow-type: tm+mt
-source-wordcount: '2949'
-ht-degree: 13%
+source-wordcount: '2880'
+ht-degree: 14%
 
 ---
 
@@ -333,16 +333,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>vendredi 6 novembre 2025</td>
         <td>vendredi 13 novembre 2025</td>
         <td>vendredi 15 janvier 2026</td>
-    </tr>   
-       <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Affichage amélioré du nombre de regroupements dans les tableaux de bord de la zone de travail</a>
-            <p>Lorsqu’un rapport tabulaire comporte plusieurs pages de résultats et que le tableau est configuré avec des regroupements, le tableau affiche désormais à la fois la quantité d’enregistrements de la page active et le nombre total d’enregistrements de toutes les pages. Par exemple, si votre rapport de tableau comporte 7 regroupements et que la première page affiche 3, le tableau affiche 3 de 7.</p>
-        </td>
-       <td>vendredi 6 novembre 2025</td>
-        <td>vendredi 13 novembre 2025</td>
-        <td>vendredi 15 janvier 2026</td>
-    </tr>   
+    </tr>    
        <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nouveaux mécanismes de sécurisation pour améliorer les temps de chargement dans les tableaux de bord de la zone de travail</a>
@@ -599,7 +590,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
