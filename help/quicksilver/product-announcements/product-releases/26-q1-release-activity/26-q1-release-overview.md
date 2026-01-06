@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
+source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
 workflow-type: tm+mt
-source-wordcount: '3013'
+source-wordcount: '2949'
 ht-degree: 13%
 
 ---
@@ -201,15 +201,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>vendredi 11 décembre 2025</td>
         <td>vendredi 15 janvier 2026</td>
     </tr>   
-     <tr>
+    <!-- <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Nouvelle version de l’intégration Salesforce désormais disponible </a>
-            <p>Pour rester à jour avec les récentes modifications apportées à l’API Workfront, nous avons créé une nouvelle intégration Salesforce. La nouvelle intégration propose la même fonctionnalité que la version précédente et a été mise à jour afin d’éviter de perdre une fonctionnalité obsolète dans l’API.</p><p>REMARQUE : l’intégration de Workfront for Salesforce, y compris la nouvelle version, ne sera plus disponible après le **28 février 2026**. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">New version of Salesforce integration now available </a>
+            <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p><p>NOTE: The Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. </p>
         </td>
-        <td>vendredi 30 octobre 2025</td>
-        <td>vendredi 30 octobre 2025</td>
-        <td>vendredi 30 octobre 2025</td>
-    </tr>   
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+    </tr>   -->
   </tbody>
 </table>
 
@@ -599,7 +599,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
