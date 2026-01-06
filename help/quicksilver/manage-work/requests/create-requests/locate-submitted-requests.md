@@ -1,35 +1,37 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Localisation des demandes envoyées
-description: Découvrez les zones d’Adobe Workfront dans lesquelles vous pouvez localiser les demandes que vous ou une autre personne avez envoyées ou les demandes que vous n’avez jamais envoyées et que vous avez enregistrées en tant que brouillons.
+title: Afficher les demandes envoyées
+description: Découvrez les zones d’Adobe Workfront dans lesquelles vous pouvez afficher les requêtes que vous ou une autre personne avez envoyées ou les requêtes que vous n’avez jamais envoyées et qui ont été enregistrées en tant que brouillons.
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
+source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 61%
+source-wordcount: '1406'
+ht-degree: 54%
 
 ---
 
-# Localiser les demandes envoyées
+# Afficher les demandes envoyées
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
-Vous pouvez localiser les types de demandes suivants que vous ou une autre personne avez soumises, ou les demandes que vous avez commencées mais que vous n’avez jamais terminé d’envoyer. Vous pouvez localiser ces demandes dans les zones suivantes d’Adobe Workfront :
+Vous pouvez afficher les demandes que vous ou une autre personne avez envoyées, ou les demandes que vous avez commencées mais que vous n’avez jamais terminées. Vous pouvez localiser ces demandes dans les zones suivantes d’Adobe Workfront :
 
-* L’onglet **Workfront** de la zone Demandes de Workfront : Recherchez les demandes envoyées aux files d’attente des demandes de Workfront dans les sections suivantes :
+* L’onglet **Workfront** de la zone Demandes de Workfront : affichez les demandes envoyées aux files d’attente des demandes de Workfront dans les sections suivantes :
    * **Section Envoyées** : toutes les demandes que vous ou une autre personne avez envoyées et auxquelles vous avez accès à au moins en affichage.
    * **Section Brouillon** : toutes les demandes que vous avez commencées mais que vous n’avez jamais terminées et que vous n’avez jamais envoyées. Pour plus d’informations sur les brouillons des demandes, voir [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-  >[!TIP]
+  >[!NOTE]
   >
-  >Vous pouvez uniquement afficher vos propres brouillons de demandes.
+  >* Vous pouvez uniquement afficher vos propres brouillons de demandes.
+  >* <span class="preview">Dans la nouvelle expérience de demande, les demandes envoyées et les brouillons figurent dans la même liste. </span>
+  >* <span class="preview">Les brouillons créés dans l’expérience héritée n’apparaissent pas dans la nouvelle expérience Demande.</span>
 
-* L’onglet **Planning** de la zone Demandes de Workfront : Rechercher les demandes envoyées aux formulaires de demande Workfront Planning. Votre entreprise doit acheter un package Workfront Planning. Pour plus d’informations, voir les articles suivants :
+* L’onglet **Planning** de la zone des Demandes dans Workfront : permet d’afficher les demandes envoyées aux formulaires de demande Workfront Planning. Votre entreprise doit acheter un package Workfront Planning. Pour plus d’informations, voir les articles suivants :
 
    * [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
    * [Envoi de requêtes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
@@ -72,18 +74,18 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Recherchez les demandes envoyées dans la zone des Demandes .
+## Afficher les demandes envoyées dans la zone des Demandes
 
-La localisation des requêtes envoyées diffère selon que vous utilisez l’expérience de requête nouvelle ou héritée.
+L’affichage des demandes envoyées diffère selon que vous utilisez l’expérience de demande nouvelle ou héritée.
 
-* [Localiser les requêtes envoyées dans la nouvelle expérience de requête](#locate-submitted-requests-in-the-new-requesting-experience)
-* [Localiser les requêtes envoyées dans l’expérience de requête héritée](#locate-submitted-requests-in-the-legacy-requesting-experience)
+* [Afficher les demandes envoyées dans la nouvelle expérience de demande](#view-submitted-requests-in-the-new-requesting-experience)
+* [Afficher les demandes envoyées dans l’expérience de demande héritée](#view-submitted-requests-in-the-legacy-requesting-experience)
 
-### Localiser les requêtes envoyées dans la nouvelle expérience de requête
+### Afficher les demandes envoyées dans la nouvelle expérience de demande
 
-Vous pouvez localiser les demandes envoyées dans la zone des Demandes <span class="preview">qui incluent des liens vers les objets créés par ces demandes</span>.
+Vous pouvez afficher les demandes envoyées dans la zone des Demandes <span class="preview">qui incluent des liens vers les objets créés par ces demandes</span>.
 
-Pour localiser les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans la nouvelle expérience de requête :
+Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans la nouvelle expérience de requête :
 
 {{step1-to-requests}}
 
@@ -92,7 +94,7 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs et utilisatrice
    La liste Demandes s’affiche.
 
 1. (Facultatif) Pour rechercher une requête, commencez à saisir du texte dans la barre de recherche située en haut à droite de la liste. Les résultats de la recherche s’affichent au fur et à mesure que vous tapez.
-1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez localiser.
+1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez afficher.
 
    Vous pouvez filtrer selon les champs suivants :
 
@@ -105,18 +107,26 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs et utilisatrice
 
    Plusieurs filtres peuvent être joints par **Et** ou **Ou**.
 La liste des demandes est automatiquement filtrée à mesure que vous ajoutez les conditions de filtrage.
-1. (Facultatif) Utilisez des vues pour placer le focus sur les requêtes que vous souhaitez localiser.
+1. (Facultatif) Utilisez des vues pour placer le focus sur les requêtes que vous souhaitez afficher.
 
    Pour obtenir des instructions, voir [Création ou modification de vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne Statut . Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
+
+   * Brouillon : cette demande n&#39;a pas encore été soumise.
+   * Révision en attente
+   * Révision en cours
+   * Rejeté
+   * En cours
+   * Terminé
 
 >[!NOTE]
 >
 >* Si vous disposez de Workfront Planning, vos demandes Workfront et Planning apparaissent dans la même liste. Les requêtes Workfront affichent la valeur `Issue` dans la colonne Type d’objet .
 >* La liste Demandes s’affiche avec 50 demandes. Pour afficher plus de requêtes, faites défiler la liste vers le bas.
 
-### Localiser les requêtes envoyées dans l’expérience de requête héritée
+### Afficher les demandes envoyées dans l’expérience de demande héritée
 
-Pour localiser les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans l’expérience de requête héritée :
+Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans l’expérience de requête héritée :
 
 {{step1-to-requests}}
 
@@ -253,5 +263,12 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs et utilisatrice
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+
+
+1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne Statut . Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
+
+   * Brouillon : cette demande n&#39;a pas encore été soumise.
+   * En cours
+   * Terminé
 
 
