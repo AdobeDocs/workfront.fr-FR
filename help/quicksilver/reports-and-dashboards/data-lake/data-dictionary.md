@@ -7,9 +7,9 @@ description: Cette page contient des informations sur la structure et le contenu
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
+source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8878'
+source-wordcount: '8904'
 ht-degree: 9%
 
 ---
@@ -40,16 +40,59 @@ Il existe plusieurs types de vues que vous pouvez utiliser dans Data Connect pou
 
 <!-- Custom view -->
 
-## Diagramme de relation d’entité
+## Diagrammes de relation d’entité
 
-Les objets dans Workfront (et, par conséquent, dans votre lac de données Data Connect) sont définis non seulement par leurs valeurs individuelles, mais également par leurs relations avec d’autres objets. Le diagramme de relation d’entité ci-dessous fournit un mappage de haut niveau des relations d’objet dans Data Connect. Le diagramme peut être visualisé et téléchargé à l’aide du lien suivant :
+Les objets dans Workfront (et, par conséquent, dans votre lac de données Data Connect) sont définis non seulement par leurs valeurs individuelles, mais également par leurs relations avec d’autres objets.
 
-[Diagramme de relation de l’entité Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+Les diagrammes de relation d’entité (ERD) ci-dessous fournissent un mappage de haut niveau des relations d’objet dans Data Connect pour les objets Workfront principaux.
 
 >[!IMPORTANT]
 >
->Le diagramme de relation d’entité (ERD) fourni est délibérément incomplet, car un ERD complet deviendrait illisible en raison du nombre élevé de relations dans l’application.<br>
->Ce diagramme fournit un exemple de la manière dont les relations documentées dans le tableau Projet de la section [Tableau de terminologie](#terminology-table) ci-dessous peuvent être utilisées pour joindre des données de la vue de données Projet à des objets adjacents. Un ERD complet n’est pas nécessaire une fois que ce modèle est compris pour les relations d’objet du projet
+>Les diagrammes sont centrés autour d’objets uniques et ne représentent pas un diagramme de relation d’entité complet pour l’ensemble de l’application Workfront. <br>
+>Ces diagrammes sont destinés à fournir des exemples de la manière dont les relations peuvent être utilisées pour joindre des données à des objets adjacents.
+
+### Exemples de diagrammes de relation d’entité
+
++++ Développez pour afficher les exemples de diagrammes.
+
+>[!TIP]
+>
+>Pour afficher un diagramme plus détaillé, cliquez avec le bouton droit de la souris sur l’image et sélectionnez **Ouvrir l’image dans un nouvel onglet**.
+
+
+### Affectations
+
+![Diagramme de relation de l’entité Affectations](assets/Assignment-centered-ERD.png)
+
+
+### Documents et approbations de documents
+
+![Diagramme de relation entre les documents et l’entité d’approbation de document](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### Heures et feuilles de temps
+
+![Diagramme de relation de l&#39;entité Heures et feuilles de temps](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### Problèmes
+
+![Diagramme de relation d’entité Événements](assets/Issue-centered-ERD.png)
+
+### Projets
+
+![Diagramme de relation d’entité Projets](assets/Project-centered-ERD.png)
+
+
+### Tâches
+
+![Diagramme de relation d’entité Tâches](assets/Task-centered-ERD.png)
+
+
+### Utilisateurs et utilisatrices
+
+![Diagramme de relation d’entité utilisateurs](assets/User-centered-ERD.png)
+
++++
 
 ## Types de date
 
@@ -1665,15 +1708,15 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
 >
 >Le type d’enregistrement est identifié via la propriété `enumClass` . Voici les types attendus :<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Document
