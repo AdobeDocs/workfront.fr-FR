@@ -3,13 +3,13 @@ title: Acquisition et installation d’applications à partir d’Adobe Exchange
 description: Les extensions d’interface d’utilisation de Workfront, optimisées par Adobe App Builder, permettent aux clientes et clients et aux partenaires de créer des expériences d’utilisation personnalisées.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
+exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
+source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
-
 
 # Acquisition et installation d’applications à partir d’Adobe Exchange
 
@@ -27,7 +27,7 @@ Les partenaires de Workfront tirent parti des extensions de l’interface utilis
 
 #### Résultats en temps réel, directement dans Adobe Workfront
 
-Nous nous associons à des clients Adobe Workfront pour transformer les goulets d’étranglement quotidiens en solutions reproductibles aux résultats prévisibles. Notre bibliothèque croissante de solutions vous aide à accroître la précision, la vitesse et la responsabilité en utilisant des données en direct là où les gens travaillent. Vous pouvez aider les dirigeants à voir ce qui se passe maintenant et à planifier ce qui devrait se passer ensuite. Explorez les applications Adobe Exchange AtAppStore actuellement disponibles et prêtes à être installées, choisissez celles qui correspondent à vos priorités actuelles, puis effectuez une mise à l’échelle à mesure que vos besoins augmentent.
+AtApp s’associe aux clients d’Adobe Workfront pour transformer les goulots d’étranglement quotidiens en solutions reproductibles aux résultats prévisibles. Sa bibliothèque croissante de solutions contribue à accroître la précision, la vitesse et la responsabilité en exploitant les données actives là où les gens travaillent. AtApp permet aux dirigeants de voir ce qui se passe maintenant et de planifier ce qui doit se passer ensuite. Les utilisateurs peuvent explorer les applications Adobe Exchange AtAppStore actuellement disponibles et prêtes à être installées, sélectionner celles qui correspondent à leurs priorités actuelles et les mettre à l’échelle au fur et à mesure que leurs besoins augmentent.
 
 * [Excel Updater](https://exchange.adobe.com/apps/ec/abtt1rq7o9/atapp-excel-updater) : la solution Excel Updater vous offre un chemin rentable pour intégrer des données dans Workfront sans avoir à apprendre l’API, à écrire du code ou à configurer un serveur. Elle est idéale pour les chargements de données ponctuels et récurrents.
 
@@ -37,15 +37,31 @@ Nous nous associons à des clients Adobe Workfront pour transformer les goulets 
 
 ### Workfocus
 
-Workfocus fournit des solutions avancées d’automatisation et d’intégration pour Workfront. Leurs applications se concentrent sur :
+WorkFocus est un partenaire Gold Solutions d’Adobe spécialisé dans Adobe Workfront, Workfront Fusion, Workfront Planning, Firefly, AEM Assets et l’automatisation d’entreprise. Nous aidons les entreprises à développer l&#39;automatisation de manière responsable en établissant un Centre d&#39;excellence Fusion (FCoE) alimenté par notre application FCoE propriétaire.
 
-* Rationalisation des délais
+#### Application du Centre d’excellence pour la fusion (FCoE)
 
-* Automatisation des workflows Fusion
+L’application du centre d’excellence WorkFocus Fusion permet aux entreprises de gérer, d’adapter et de maximiser la valeur d’Adobe Workfront Fusion dans l’ensemble de l’entreprise.
 
-* Activation de la collaboration entre instances
+De nombreuses équipes sont confrontées à des scénarios Fusion fragmentés, une visibilité limitée sur la propriété et la valeur de l’automatisation, des normes incohérentes et une prolifération de l’automatisation. L&#39;application FCoE résout ces défis en fournissant un système d&#39;enregistrement central pour l&#39;automatisation de Fusion.
 
-Les applications Workfocus sont conçues pour fonctionner de manière native dans Workfront, en utilisant les extensions d’interface utilisateur pour fournir aux utilisateurs et utilisatrices des outils puissants qui améliorent la productivité et réduisent les efforts manuels.
+Les fonctionnalités principales sont les suivantes :
+
+* Gouvernance centralisée et appropriation des scénarios Fusion
+* Gestion du cycle de vie des scénarios, de la prise en charge à l’assistance
+* Suivi du RSI et de la réalisation de valeur
+* Normes, documentation et gestion des erreurs de niveau entreprise
+* Modèle opérationnel évolutif pour l’adoption en entreprise
+
+Il en résulte un délai de rentabilisation plus rapide, des risques réduits et un impact mesurable sur l’entreprise grâce à Fusion.
+
+#### Prise en main de WorkFocus
+
+L&#39;équipe de WorkFocus invite les organisations à planifier une démonstration personnalisée du Centre d&#39;excellence en fusion et à organiser un essai gratuit de l&#39;application.
+
+Pour l’avenir, la feuille de route comprend la publication du centre d’excellence principal de Workfront et du centre d’excellence de planification de Workfront en 2026. En devenant client du Fusion Center of Excellence, les entreprises ont l’opportunité d’influencer la feuille de route pour ces solutions à venir et de contribuer à façonner l’avenir de la gouvernance d’Enterprise Workfront.
+
+WorkFocus souhaite discuter de la manière dont il peut servir de partenaire stratégique dans Workfront, Workfront Fusion, Workfront Planning, Firefly, AEM Assets et le Supply chain de contenu de bout en bout.
 
 ## Conditions préalables et autorisations
 
