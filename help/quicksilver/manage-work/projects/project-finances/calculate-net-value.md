@@ -7,10 +7,10 @@ description: La valeur nette d’un projet correspond à la valeur totale attend
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 95%
+ht-degree: 56%
 
 ---
 
@@ -31,26 +31,26 @@ Les champs suivants peuvent affecter la valeur nette d’un projet :
 * **Bénéfice prévu** : il s’agit d’une entrée manuelle spécifiée par la personne propriétaire du projet lors du remplissage de la zone **Informations sur le projet** du business case.\
   Pour plus d’informations sur le bénéfice prévu d’un projet, voir la section [Informations sur le projet](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) de l’article [Vue d’ensemble des zones du business case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-* **Coût budgété** : il s’agit du coût total associé au projet tel qu’il a été estimé lors de son lancement.
+* **Coût budgété** : il s’agit du coût total associé au projet tel qu’estimé lorsque vous lancez le projet pour la première fois.
 
-  Le **coût budgété** utilise la valeur **Coût budgété de la main-d’œuvre**, qui est calculée dans la zone Établissement du budget de ressources du business case et prend en compte les heures budgétées pour vos fonctions dans le planificateur de ressources et le taux de coût horaire de chaque fonction.\
-  Le coût budgété affecte la **valeur nette** du projet.Pour plus d’informations sur le calcul du coût budgété, voir [Calculer le coût budgété](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  Le **Coût budgété** utilise la valeur **Coût budgété de la main-d&#39;œuvre** qui est calculée dans la zone de budgétisation des ressources de l&#39;analyse de rentabilité et qui prend en compte les heures budgétées pour vos fonctions dans la planification des ressources et le taux de coût par heure de chaque fonction.\
+  Le coût budgété affecte la **valeur nette** du projet. Pour plus d&#39;informations sur le calcul du coût budgété, voir [Calculer le coût budgété](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
 * **Coût potentiel des risques** : il s’agit du coût associé aux risques du projet, tels qu’ils sont définis dans le business case ou dans l’onglet Risques du projet.\
   Pour plus d’informations sur le calcul du coût potentiel des risques d’un projet, voir l’article [Calculer le coût potentiel des risques](../../../manage-work/projects/project-finances/potential-risk-cost.md).
 
-   
+
 
 ## Localiser la valeur nette du projet
 
 Vous pouvez trouver la valeur nette d’un projet dans les zones suivantes de Workfront :
 
-* Dans la zone Récapitulatif du business case du business case.\
-  Pour plus d’informations sur la zone Récapitulatif du business case, voir la section « Comprendre le Récapitulatif du business case » de l’article [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* Dans la section Résumé de l&#39;analyse de rentabilité, reportez-vous à la section Analyse de rentabilité\
+  Pour plus d’informations sur la zone Synthèse de l’analyse de rentabilité, reportez-vous à la section « Présentation de la synthèse de l’analyse de rentabilité » de l’article [Création d’une analyse de rentabilité pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Création d’une analyse de rentabilité pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
   ![Valeur nette sur l’analyse de rentabilité](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* Dans l’optimisateur de portfolio, si le projet est associé à un portfolio.
+* Dans Portfolio Optimizer, si le projet est associé à un portfolio.
 
   >[!TIP]
   >
@@ -58,7 +58,7 @@ Vous pouvez trouver la valeur nette d’un projet dans les zones suivantes de Wo
 
   Pour plus d’informations sur l’optimisateur de portfolio, voir [Vue d’ensemble de l’optimisateur de portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* Dans le champ Valeur nette du projet des listes et rapports suivants :
+* Dans le champ Valeur nette du projet des listes et états suivants :
 
    * Projet
    * Tâche

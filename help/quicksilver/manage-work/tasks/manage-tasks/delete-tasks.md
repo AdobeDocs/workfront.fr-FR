@@ -6,10 +6,10 @@ description: Vous pouvez supprimer les tâches qui pourraient être des doublons
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 92%
+source-wordcount: '782'
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 Vous pouvez supprimer les tâches qui pourraient être des doublons ou qui ont été créées par erreur.
 
-Pour les tâches qui contiennent des informations historiques (mises à jour, changements de planning, statuts ou d’autres champs), nous vous recommandons de les fermer ou de les marquer comme Immobilisées, au lieu de les supprimer.Cette fonction vous permet de conserver les informations historiques de vos projets.
+Pour les tâches contenant des informations historiques (mises à jour, changements de planification, de statut ou autres champs), nous vous recommandons de les fermer ou de les marquer comme Inactifs, au lieu de les supprimer. Cela vous permet de conserver les informations historiques pour vos projets.
 
 ## Conditions d’accès
 
@@ -68,7 +68,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects with access to&nbsp;Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 * Si la tâche a des heures consignées, l’administrateur ou l’administratrice Workfront ou du groupe doit autoriser la suppression de ces tâches en configurant les préférences de tâches et de problèmes dans votre instance Workfront. Cela s’applique également lorsque vous essayez de supprimer des projets dans lesquels se trouvent des tâches avec des heures consignées.
 
   <!--
-  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  (NOTE: the last statement is NWE only; not possible in classic)
   -->
 
   Pour plus d’informations sur l’activation de la suppression des tâches dans lesquelles des heures sont consignées, voir la section « Suppression » dans [Configurer les préférences de tâches et de problèmes à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
@@ -140,9 +140,8 @@ Tenez compte des points suivants :
 
 ### Supprimer simultanément plusieurs tâches d’un projet  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-projects}}
 
-1. Cliquez sur **Projets**.
 1. Cliquez sur le nom du projet qui contient les tâches à supprimer.
 1. Cliquez sur **Tâches** dans le panneau de gauche.
 1. Utilisez l’une des méthodes suivantes :
@@ -170,9 +169,8 @@ Tenez compte des points suivants :
 
 ### Supprimer une seule tâche {#delete-a-single-task}
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-projects}}
 
-1. Cliquez sur **Projets**.
 1. Cliquez sur le nom du projet qui contient la tâche à supprimer.
 1. Cliquez sur **Tâches** dans le panneau de gauche.
 1. Cliquez sur le nom de la tâche à supprimer.

@@ -6,10 +6,10 @@ description: Un programme représente un ensemble de projets qui partagent une s
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 77%
+source-wordcount: '1244'
+ht-degree: 76%
 
 ---
 
@@ -110,7 +110,7 @@ Vous pouvez créer un programme dans Workfront à l’aide de l’une des métho
 
 ## Créer un programme
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
+{{step1-click-main-menu}}
 
 1. Utilisez l’une des méthodes suivantes :
 

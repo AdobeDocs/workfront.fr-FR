@@ -6,10 +6,10 @@ description: Vous ne pouvez créer des tâches dans un projet qu’après avoir 
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -56,7 +56,7 @@ Il existe deux types d’informations par défaut que Workfront met automatiquem
 
 * Informations par défaut au niveau du système
 
-  Votre administrateur ou administratrice Workfront ou un administrateur ou une administratrice de groupes établit les valeurs par défaut au niveau du système pour les tâches dans la zone Tâches et problèmes des Préférences du projet. Pour plus d’informations sur les préférences en matière de tâches et de problèmes, voir [Configurer les préférences en matière de tâches et de problèmes à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) ou [Configurer les préférences en matière de tâches et de problèmes pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Votre administrateur Workfront ou un administrateur de groupe établit les valeurs par défaut au niveau du système pour les tâches dans la zone Tâches et Événements des Préférences du projet. Pour plus d’informations sur les préférences en matière de tâches et de problèmes, voir [Configurer les préférences en matière de tâches et de problèmes à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) ou [Configurer les préférences en matière de tâches et de problèmes pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 * Informations par défaut au niveau du projet
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 7%
+source-wordcount: '1072'
+ht-degree: 4%
 
 ---
 
@@ -106,7 +106,7 @@ Vous pouvez approuver des demandes de création d’enregistrements à partir de
 
 1. (Conditionnel) Si vous utilisez l’expérience de requête héritée dans Workfront, ouvrez la requête en effectuant l’une des opérations suivantes :
 
-   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision **&#x200B;**.
+   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision ****.
 
      >[!TIP]
      >
@@ -138,11 +138,11 @@ Vous pouvez approuver des demandes de création d’enregistrements à partir de
 
 ### Approuver une demande à partir du widget Mes approbations de l’Accueil
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+{{step1-to-home}}
 
-   Ou
+Ou
 
-   Cliquez sur l’icône [!UICONTROL Accueil] ![Icône Accueil](/help/_includes/assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront, puis recherchez le widget Mes approbations .
+Cliquez sur l’icône [!UICONTROL Accueil] ![Icône Accueil](/help/_includes/assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront, puis recherchez le widget Mes approbations .
 
 1. Recherchez l’objet à approuver ou à rejeter.
 

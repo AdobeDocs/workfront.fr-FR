@@ -6,10 +6,10 @@ description: Utilisez la section Alignement des objectifs pour afficher une vue 
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 88%
+source-wordcount: '883'
+ht-degree: 79%
 
 ---
 
@@ -39,7 +39,7 @@ Pour plus d’informations sur l’alignement des objectifs et sur la manière d
  <col> 
  <tbody> 
   <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -125,9 +125,8 @@ Or
 
 ## Naviguer dans la section Alignement des objectifs
 
-1. Cliquez sur l’icône **Menu principal** ![Icône Menu principal](../goal-alignment/assets/dots-main-menu-icon.png) dans le coin supérieur droit de l’écran, puis cliquez sur **Objectifs**.
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
+
 1. Cliquez sur **Alignement des objectifs** dans le panneau de gauche.
 1. Utilisez les filtres situés dans le coin supérieur droit du graphique d’alignement pour sélectionner uniquement les objectifs qui vous semblent importants. Pour plus d’informations sur l’utilisation de filtres dans Objectifs Workfront, voir [Filtrer des informations dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
@@ -149,7 +148,7 @@ Or
      </tr> 
      <tr> 
       <td role="rowheader">Nom du propriétaire</td> 
-      <td>Nom de l’utilisateur ou de l’utilisatrice, de l’équipe, du groupe ou de l’organisation désigné comme propriétaire de l’objectif. </td> 
+      <td>Nom de l’utilisateur, de l’équipe, du groupe ou de l’organisation désigné comme propriétaire de l’objectif. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom de l’objectif</td> 
@@ -159,11 +158,11 @@ Or
       <td role="rowheader">Barre de progression de l’objectif <span>et progression</span></td> 
       <td> <p>La progression de l’objectif indique la part de l’objectif actuellement atteinte. Il s’agit d’un calcul automatique de la moyenne de la progression de tous les objectifs, résultats et activités alignés pour l’objectif en fonction du temps écoulé depuis le début de la période de l’objectif. Pour plus d’informations sur le calcul de la progression vers les objectifs, voir <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Vue d’ensemble de la progression et de l’état des objectifs dans Objectifs Adobe Workfront</a>. </p> 
        <div> 
-        <p>Progression réelle de l’objectif à la date actuelle.Les valeurs et couleurs de progression suivantes indiquent la probabilité que l’objectif soit atteint à temps : </p> 
+        <p>Progression réelle de l’objectif à la date actuelle. Les valeurs de progression et les couleurs suivantes indiquent la probabilité d’atteindre l’objectif dans les délais : </p> 
         <ul> 
          <li><span>Ciblé</span> (indicateur vert) : l’objectif est dans les délais et sera atteint à temps.</li> 
-         <li> <span>À risque</span> (indicateur jaune) : l’objectif est en retard et pourrait ne pas être atteint à temps.</li> 
-         <li> <span>À problème</span> (indicateur rouge) : l’objectif risque de ne pas être atteint à temps. </li> 
+         <li> <span>À risque</span> (indicateur jaune) : l’objectif est en retard et peut ne pas être atteint à temps.</li> 
+         <li> <span>En difficulté</span> (indicateur rouge) : l’objectif risque de ne pas être atteint à temps. </li> 
         </ul> 
        </div> </td> 
      </tr> <!--
@@ -195,7 +194,7 @@ Or
 
    ![Objectif parent exclu](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
-1. Cliquez sur **Les afficher** pour afficher les objectifs actuellement supprimés par le filtre.
+1. Cliquez sur **Les afficher** pour afficher les objectifs actuellement éliminés par le filtre.
 
    Remarquez les modifications suivantes dans le graphique d’alignement :
 

@@ -6,10 +6,10 @@ description: Les contraintes de tâches déterminent quand une tâche doit comme
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Les contraintes de tâches déterminent quand une tâche doit commencer et se te
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 ## Mettre à jour la contrainte d’une tâche
 
-1. Cliquez sur **Menu Principal** > **Projets**, puis cliquez sur un projet pour y accéder.
+1. Cliquez sur **Menu principal** > **Projets**, puis cliquez sur un projet pour y accéder.
 1. Cliquez sur la section **Tâches** dans le panneau de gauche.
 1. Cliquez sur **Détails de la tâche** dans le panneau de gauche, puis, dans la zone Vue d’ensemble, cliquez sur **Contrainte de tâche**.
 
@@ -91,14 +91,14 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    | Aussi Tôt Que Possible | Pour plus d’informations, voir [Vue d’ensemble des contraintes de tâche : Aussi tôt que possible](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
    | Aussi Tard Que Possible | Pour plus d’informations, voir [Vue d’ensemble des contraintes de tâche : Aussi tard que possible](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
    | Première Heure Disponible | Pour plus d’informations, voir [Vue d’ensemble des contraintes de tâche : Première heure disponible](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
-   | Dernière heure disponible | Pour plus d’informations, voir [Vue d’ensemble des contraintes de tâche : Dernière heure disponible](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
+   | Dernière Heure Disponible | Pour plus d’informations, voir [Vue d’ensemble des contraintes de tâche : Dernière heure disponible](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
    | Commencer Au Plus Tard | Pour plus d’informations, voir [Vue d’ensemble des contraintes de tâche : Commencer au plus tard](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
    | Commencer Au Plus Tôt | Pour plus d’informations, voir [Vue d’ensemble des contraintes de tâche : Commencer au plus tôt](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
    | Finir Au Plus Tard | Pour plus d’informations, voir [Vue d’ensemble des contraintes de tâche : Finir au plus tard](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | Finir au plus tôt | Pour plus d’informations, voir [Vue d’ensemble des contraintes de tâche : Finir au plus tôt](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Finir Au Plus Tôt | Pour plus d’informations, voir [Vue d’ensemble des contraintes de tâche : Finir au plus tôt](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
    {style="table-layout:auto"}
 
 1. Cliquez sur **Enregistrer** **les modifications**.
 
- 
+

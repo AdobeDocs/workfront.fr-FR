@@ -5,10 +5,10 @@ description: Dans le cadre de la planification des ressources, vous pouvez utili
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 83%
+ht-degree: 77%
 
 ---
 
@@ -96,7 +96,7 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
 
 1. Accédez au projet pour lequel vous souhaitez budgétiser les ressources.
 1. Cliquez sur **Analyse de rentabilité** dans le panneau de gauche.
-1. (Le cas échéant) Si votre entreprise n’a pas de licence pour le planificateur de scénarios Workfront, cliquez sur **Modifier l’établissement du budget de ressources** dans la section **Établissement du budget de ressources**, puis passez à l’étape 5.
+1. (Conditionnel) Si votre société ne dispose pas d’une licence pour le planificateur de scénarios Workfront, cliquez sur **Modifier l’établissement du budget de ressources** dans la section **Établissement du budget de ressources**, puis passez à l’étape 5.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">(NOTE: ensure it stays right - this is 5 instead of 6 because step 2 won't print for nwe)</p>
@@ -118,7 +118,7 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
 
    >[!NOTE]
    >
-   >Nous vous recommandons d’utiliser le planificateur de ressources ou le planificateur de scénarios lorsque vous commencez à travailler sur un projet. Le fait de passer souvent de l’un à l’autre au cours de la vie du projet peut donner lieu à des incohérences dans la manière dont vous budgétez les ressources du projet.
+   >Nous vous recommandons de prendre la décision d’utiliser le planificateur de ressources ou le planificateur de scénarios lorsque vous commencez à travailler sur un projet. Le fait de passer souvent de l’un à l’autre au cours de la vie du projet peut donner lieu à des incohérences dans la manière dont vous budgétez les ressources du projet.
 
 1. Dans le champ **Sélectionner le groupe de ressources**, spécifiez un ou plusieurs **groupes de ressources**.
 
@@ -132,7 +132,7 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
 
    Le planificateur de ressources s’affiche pour le projet sélectionné.
 
-   Par défaut, les 20 premières fonctions associées à ce projet sont répertoriées dans la section Établissement du budget de ressources par ordre alphabétique. 
+   Par défaut, les 20 premières fonctions associées à ce projet sont répertoriées dans la section Établissement du budget de ressources par ordre alphabétique.
 
    Pour plus d’informations sur le planificateur de ressources, voir [Vue d’ensemble du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -152,7 +152,7 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
    >   
    >
 
-    
+
 
 1. Cliquez sur **Aujourd’hui** pour revenir à la période d’aujourd’hui.
 1. (Facultatif) Cliquez sur **Semaine**, **Mois** ou **Trimestre** pour afficher les informations relatives au projet selon différentes périodes.
@@ -164,7 +164,7 @@ Pour appliquer les groupes de ressources et budgétiser les ressources du projet
    >
    >Vous pouvez exporter des données pour un maximum de 12 périodes à la fois.
 
-1. (Facultatif) Cliquez sur l’icône **Plein écran** ![&#x200B; full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png) pour afficher le planificateur de ressources en mode plein écran.
+1. (Facultatif) Cliquez sur l’icône **Plein écran** ![ full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png) pour afficher le planificateur de ressources en mode plein écran.
 
 1. Mettez à jour le champ **BDG** (heures budgétées) avec des valeurs d’heures, d’équivalent temps complet ou de coûts pour les personnes, les rôles ou le projet en effectuant l’une des opérations suivantes :
 

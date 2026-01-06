@@ -6,10 +6,10 @@ description: Vous pouvez partager un modèle avec des personnes ou définir comm
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 94%
+source-wordcount: '724'
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur les autorisations que vous pouvez donner aux pers
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Pour partager un modèle :
 
    Ou
 
-   Sélectionnez un modèle dans la liste, puis cliquez sur l’icône Partager ![](assets/share-icon.png), puis cliquez sur **Modèle**.
+   Sélectionnez un modèle dans la liste, cliquez sur l&#39;icône Partager ![Partager le modèle](assets/share-icon.png), puis sur **Modèle.**
 
    >[!TIP]
    >
@@ -117,7 +117,7 @@ Pour partager un modèle :
 
    * **Gestion** : les personnes disposant de ces autorisations peuvent modifier ou supprimer le modèle.
 
-     Pour plus d’informations sur les paramètres avancés ![](assets/gear-icon-in-access-levels.png) disponibles ici, voir la section [Paramètres avancés pour le partage de modèles](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) dans l’article [Partager un modèle](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     Pour plus d’informations sur les paramètres avancés ![icône d’engrenage](assets/gear-icon-in-access-levels.png) disponibles ici, consultez la section [Paramètres avancés du partage de modèles](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) dans l’article [Partage d’un modèle](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. Cliquer sur **Enregistrer**.
 
@@ -145,9 +145,9 @@ Pour partager les projets créés à partir d’un modèle avec des personnes :
 1. Dans le menu déroulant de chaque entité, sélectionnez l’une des options suivantes :
 
    * **Pas d’accès** : vous pouvez spécifier les utilisateurs et utilisatrices qui n’auront aucun accès au modèle.\
-     Cette option est disponible uniquement lors du partage en masse de projets à partir de modèles. 
+     Cette option est disponible uniquement lors du partage en masse de projets à partir de modèles.
    * **Afficher** : les utilisateurs disposant de ces autorisations peuvent afficher les projets créés à partir du modèle.
-   * **Contribuer** : les utilisateurs disposant de ces autorisations peuvent contribuer aux projets créés à partir du modèle.
+   * **Contribuer** : les utilisateurs disposant de ces autorisations peuvent contribuer aux projets créés à partir du modèle
    * **Gérer** : les utilisateurs disposant de ces autorisations peuvent gérer ou supprimer des projets créés à partir de ce modèle.
 
 1. (Facultatif) Cliquez sur l’icône **Options** pour rendre les projets disponibles à l’échelle du système.

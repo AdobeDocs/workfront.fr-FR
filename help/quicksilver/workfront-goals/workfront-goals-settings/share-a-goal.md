@@ -6,10 +6,10 @@ description: Lorsque vous partagez un objectif, vous accordez des autorisations 
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 89%
+source-wordcount: '724'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Lorsque vous partagez un objectif, vous accordez des autorisations de gestion d�
 </col>
 <tbody>
  <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -166,12 +166,9 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 ## Partager un objectif
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   La liste des objectifs s’affiche.
+La liste des objectifs s’affiche.
 
 1. Cliquez sur le nom d’un objectif dans la liste. La page de l’objectif s’ouvre.
 
@@ -248,32 +245,32 @@ Le tableau suivant répertorie les autorisations que vous pouvez accorder lors d
   <tr> 
    <td>Modifier des résultats ou des activités</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ajouter des résultats ou des activités pour l’objectif</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Associer un projet en tant qu’activité à l’objectif**</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Supprimer l’objectif</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Supprimer des résultats ou des activités</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>Déconnecter les projets de l’objectif</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,4 +283,4 @@ Pour plus d’informations sur le niveau d’accès au projet, voir [Accorder l�
 
 Pour plus d’informations sur les autorisations de projet, voir [Partager un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
- 
+

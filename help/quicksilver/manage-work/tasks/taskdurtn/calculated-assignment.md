@@ -7,10 +7,10 @@ description: Le calcul d’affectation est un type de durée que vous pouvez dé
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 89%
+ht-degree: 82%
 
 ---
 
@@ -27,7 +27,7 @@ Le calcul d’affectation est un type de durée que vous pouvez définir pour un
 -->
 
 * Lorsque vous utilisez un type de durée Calcul d’affectation, vous devez spécifier à la fois une durée et un nombre d’heures prévues pour la tâche. Workfront divise ensuite le nombre d’heures prévues par le nombre d’heures de la durée, puis par le nombre de ressources affectées à la tâche pour calculer le pourcentage d’affectation (l’allocation) pour chaque ressource. Chaque ressource aura la même valeur pour son pourcentage d’affectation. Dans ce cas, vous ne pouvez pas modifier les valeurs d’affectation de chaque ressource.
-* Votre équipe d’administration Workfront ou de groupes peut définir le type de durée par défaut de votre système ou de votre groupe sur Calcul d’affectation.Dans ce cas, toutes les nouvelles tâches seront créées avec ce type de durée. Pour plus d’informations sur la modification de votre tâche et les préférences de problème dans le cadre de vos préférences de projet à l’échelle du système ou du groupe, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Votre Workfront ou un administrateur de groupes peut définir le type de durée par défaut de votre système ou de votre groupe en tant qu&#39;affectation calculée. Dans ce cas, toutes les nouvelles tâches seront créées avec ce type de durée. Pour plus d’informations sur la modification de votre tâche et les préférences de problème dans le cadre de vos préférences de projet à l’échelle du système ou du groupe, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   Dans ce cas, la tâche affiche une durée par défaut d’une journée et un nombre d’heures prévues par défaut de 0. Si la personne responsable du projet ne fixe pas de durée plus précise et ne remplit pas le champ Nombre d’heures prévues avec une estimation réaliste, les ressources apparaissent sous-affectées.
 

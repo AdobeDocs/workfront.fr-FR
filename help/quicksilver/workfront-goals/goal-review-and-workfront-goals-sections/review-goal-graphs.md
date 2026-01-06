@@ -6,10 +6,10 @@ description: Vous pouvez afficher l’intégrité globale de vos objectifs et la
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 89%
+source-wordcount: '899'
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ Vous pouvez afficher l’intégrité globale de vos objectifs et la tendance de 
 
 >[!IMPORTANT]
 >
->Vous pouvez consulter le nombre total de vos objectifs dans la section Graphiques pour une période donnée.Toutefois, les Objectifs Workfront ne prennent en compte que les objectifs dont le statut est Actif et Fermé lors du calcul du statut de la progression global de l’objectif et du pourcentage terminé.
+>Vous pouvez afficher le nombre total de vos objectifs dans la section Graphiques pour une période sélectionnée. Cependant, la fonction Objectifs Workfront prend uniquement en compte les objectifs dont le statut est Actif et Fermé lors du calcul du statut de progression globale des objectifs et du pourcentage d’achèvement.
 
 ## Conditions d’accès
 
@@ -40,7 +40,7 @@ Vous pouvez afficher l’intégrité globale de vos objectifs et la tendance de 
 </col>
 <tbody>
  <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -148,8 +148,8 @@ Les graphiques suivants sont disponibles dans la section Graphiques ou dans Obje
    <td role="rowheader">Graphique de progression de l’objectif</td> 
    <td> <p>Graphique en courbe qui affiche les mises à jour apportées aux objectifs par incréments hebdomadaires pendant la durée de l’objectif. Le graphique de progression de l’objectif affiche les éléments suivants :</p> 
     <ul> 
-     <li>Pourcentage terminé moyen attendu et réel de tous les objectifs actifs et fermés au cours de la période sélectionnée. Le pourcentage terminé de progression est ventilé en incréments hebdomadaires marqués par des nœuds. </li> 
-     <li>Le pourcentage moyen global de la progression des objectifs actifs et fermés depuis la semaine précédente. </li> 
+     <li>Pourcentage réel et attendu moyen de l'ensemble des objectifs actifs et clôturés sur la période sélectionnée. Le pourcentage terminé de progression est ventilé en incréments hebdomadaires marqués par des nœuds. </li> 
+     <li>Pourcentage moyen global de progression pour les objectifs actifs et clôturés depuis la semaine précédente. </li> 
     </ul> <p>Conseil : il se peut que le graphique de progression de l’objectif n’affiche aucune information lorsque des mises à jour sont effectuées sur les objectifs en dehors de la période sélectionnée. </p> </td> 
   </tr> 
  </tbody> 
@@ -157,12 +157,9 @@ Les graphiques suivants sont disponibles dans la section Graphiques ou dans Obje
 
 ## Examiner la progression de l’objectif dans les graphiques
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   La zone Objectifs Workfront s’ouvre alors.
+La zone Objectifs Workfront s’ouvre alors.
 
 1. Cliquez sur **Graphiques** dans le panneau de gauche.
 
@@ -224,4 +221,4 @@ Les graphiques suivants sont disponibles dans la section Graphiques ou dans Obje
 
    Cliquez sur **Référence** au bas du graphique de progression pour supprimer la ligne de progression attendue du graphique.
 
- 
+

@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 87%
+source-wordcount: '199'
+ht-degree: 95%
 
 ---
 
@@ -48,14 +48,12 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 ## Réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice dans un environnement avec eAuth
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Workfront], puis cliquez sur **[!UICONTROL Utilisateurs]** ![Icône Utilisateurs](assets/users-icon-in-main-menu.png).
-
-
+{{step-1-to-users}}
 
 1. Sélectionnez l’**[!UICONTROL Utilisateur ou l’utilisatrice]** dont vous devez réinitialiser le mot de passe.
    ![Sélectionner l’utilisateur](assets/100520classicnweselectuser-350x105.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Plus] &#x200B;** qui s’affiche une fois que vous avez choisi l’**[!UICONTROL Utilisateur ou l’utilisatrice]** et sélectionnez l’option **[!UICONTROL Envoyer un e-mail de mot de passe oublié]** dans le menu déroulant.
+1. Cliquez sur le bouton **[!UICONTROL Plus] ** qui s’affiche une fois que vous avez choisi l’**[!UICONTROL Utilisateur ou l’utilisatrice]** et sélectionnez l’option **[!UICONTROL Envoyer un e-mail de mot de passe oublié]** dans le menu déroulant.
 
    ![Envoyer un e-mail de mot de passe oublié](assets/100520classicnwesendemail-350x134.png)
 

@@ -7,10 +7,10 @@ description: Les projets, les tâches et les problèmes ont une date d’achève
 author: Alina
 feature: Work Management
 exl-id: 0baba359-a61d-43d7-8336-1f45c7f34374
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,7 @@ Un administrateur ou une administrice Workfront ou de groupes détermine si Work
 
 
 
-## Localiser les dates d’achèvement effectives
+## Localiser les dates d&#39;achèvement effectives
 
 La date d’achèvement effective se trouve dans les zones suivantes de Workfront :
 

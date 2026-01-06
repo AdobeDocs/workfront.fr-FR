@@ -7,10 +7,10 @@ description: Les statuts des objectifs indiquent si un objectif est actif et enr
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -58,14 +58,14 @@ ht-degree: 94%
   | Fermé | Non | Oui | Non | - |
 
 * L’ouverture d’un objectif fermé met également à jour la progression de l’objectif.
-* Certaines actions que vous effectuez sur un objectif mettent également à jour son statut.Pour plus d’informations sur la mise à jour des statuts d’objectif, reportez-vous aux articles suivants :
+* Certaines actions que vous effectuez sur un objectif mettent également à jour son statut. Pour plus d’informations sur la mise à jour des statuts d’objectif, consultez les articles suivants :
 
-   * [Créer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+   * [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
    * [Activer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
    * [Supprimer et désactiver des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
    * [Fermer et rouvrir des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
-## Vue d’ensemble des statuts des objectifs dans les Objectifs Workfront
+## Présentation des statuts des objectifs dans les objectifs Workfront
 
 Pour plus d’informations sur la création d’objectifs Workfront, voir [Créer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 

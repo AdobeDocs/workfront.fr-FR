@@ -6,10 +6,10 @@ description: Lorsqu’il n’est plus nécessaire, vous pouvez supprimer un proj
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 96%
+ht-degree: 88%
 
 ---
 
@@ -89,7 +89,7 @@ Vous pouvez supprimer un projet d’un programme en effectuant l’une des opér
 
 1. Sélectionnez le projet à supprimer.
 1. Cliquez sur le menu déroulant **[!UICONTROL Supprimer des projets]**.
-1. Cliquez sur **[!UICONTROL Supprimer]** > **[!UICONTROL Oui, supprimer]** pour supprimer le projet de Workfront.
+1. Cliquez sur **[!UICONTROL Supprimer]** > **[!UICONTROL Oui, le supprimer]** pour supprimer le projet de Workfront.
 
    ou
 

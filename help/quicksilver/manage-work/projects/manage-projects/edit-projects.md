@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '7642'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ Idéalement, vous devez modifier un projet lorsque celui-ci est au statut Planif
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -691,7 +691,7 @@ Pour plus d’informations sur la façon dont ces paramètres affectent la créa
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Lorsque quelqu’un reçoit l’accès à ce projet : indiquez l’accès par défaut pour...</strong></td> 
-      <td><p>Sélectionnez les options d’accès dont vous souhaitez que les utilisateurs et utilisatrices disposent, si le projet est partagé avec eux. Sélectionnez les options spécifiques à leur accès s’ils sont désignés comme <strong>Observateurs/Observatrices</strong>, <strong>Contributeurs/Contributrices</strong> ou <strong>Gestionnaires</strong> lorsque vous partagez le projet avec eux. </p><p>L’accès <strong>Supprimer</strong> dans le niveau d’autorisation <strong>Gérer</strong> détermine si les utilisateurs et utilisatrices peuvent supprimer le projet lui-même. Les utilisateurs et utilisatrices pourvus d’un accès <strong>Gérer</strong> au projet peuvent supprimer des tâches et des problèmes dans le projet, que cette option soit sélectionnée ou non, s’ils disposent des autorisations de <strong>gestion</strong> pour les tâches et les problèmes.</p></td> 
+      <td><p>Sélectionnez les options d’accès dont vous souhaitez que les utilisateurs et utilisatrices disposent, si le projet est partagé avec eux. Sélectionnez les options spécifiques à leur accès s’ils sont désignés comme <strong>Observateurs/Observatrices</strong>, <strong>Contributeurs/Contributrices</strong> ou <strong>Gestionnaires</strong> lorsque vous partagez le projet avec eux. </p><p>L’accès <strong>Supprimer</strong> au niveau d’autorisation <strong>Gérer</strong> détermine si les utilisateurs peuvent supprimer le projet lui-même. Les utilisateurs ayant un accès <strong>Gérer</strong> au projet peuvent supprimer des tâches et des événements dans le projet, que cette option soit sélectionnée ou non, s’ils disposent des autorisations <strong>Gérer</strong> pour les tâches et les événements. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -885,7 +885,7 @@ To edit projects in bulk:
      For information, continue with step 7 below.
 
      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     <p>(NOTE: make sure this stays accurate)</p>   
      
 
    * **Tasks**

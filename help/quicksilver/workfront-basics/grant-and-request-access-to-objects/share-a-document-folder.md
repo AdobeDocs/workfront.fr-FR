@@ -6,9 +6,9 @@ description: Vous pouvez partager un dossier et son contenu à partir de la zone
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '839'
 ht-degree: 99%
 
 ---
@@ -68,7 +68,7 @@ Vous pouvez partager un dossier et son contenu à partir de la zone Documents.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -94,11 +94,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Partager un dossier
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Documents**.
+{{step1-to-documents}}
 
-   Ou
+Ou
 
-   Lorsqu’un objet Workfront est ouvert, cliquez sur **Documents** dans le panneau de gauche.
+Lorsqu’un objet Workfront est ouvert, cliquez sur **Documents** dans le panneau de gauche.
 
 1. Sélectionnez le dossier, puis cliquez sur l’icône Partager ![](assets/share-icon.png) dans la barre d’outils.
 
@@ -139,7 +139,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 ## Comment les utilisateurs et utilisatrices accèdent au contenu d’un dossier partagé avec eux
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 Actuellement, lorsque vous partagez un dossier, celui-ci ne s’affiche pas dans la zone Documents des personnes destinataires. Toutefois, elles peuvent accéder à ses documents en exécutant un rapport de document.

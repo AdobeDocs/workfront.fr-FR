@@ -6,10 +6,10 @@ description: Votre administrateur ou administratrice Adobe Workfront peut vous 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -33,7 +33,7 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 
 * Lorsque vous partagez un projet, toutes les tâches, tous les problèmes et tous les documents héritent des mêmes autorisations, sauf indication contraire.
 
-  Pour plus d’informations sur la gestion de l’accès aux tâches et aux problèmes du projet en fonction des autorisations d’une personne sur le projet, voir la section [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
+  Pour plus d’informations sur la gestion de l’accès aux tâches et aux problèmes du projet en fonction des autorisations d’une personne sur le projet, voir la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
   L’administrateur ou l’administratrice Workfront peut indiquer si les documents doivent hériter des autorisations des objets supérieurs dans le niveau d’accès de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la restriction des autorisations héritées sur les documents, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -111,7 +111,7 @@ Pour plus d’informations sur l’affichage des autorisations héritées sur un
      >
      >Lors de l’ajout ou de l’enregistrement d’un modèle, vous pouvez effacer les règles de partage de modéle de projet.
 
-   * Modifiez un projet et définissez le paramètre **Lorsqu’une personne a accès à ce projet**.Pour plus d’informations, voir [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Modifiez un projet et définissez le paramètre **Lorsqu’une personne a accès à ce projet**.  Pour plus d’informations, voir [Modifier les projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -127,7 +127,7 @@ Pour plus d’informations sur l’affichage des autorisations héritées sur un
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch. (NOTE: drafted because linked above)&nbsp;</li>
+<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch. (NOTE: drafted because linked above)  </li>
 <li value="2"> Click the More menu, then click <strong>Sharing</strong>. </li>
 <li value="3"> <p>In the Project Access box that displays, near the upper-right corner, click the gear icon <img src="assets/gear-icon-settings.png">, then click <strong>Set as my project access template</strong>.</p> <p>The entities that are granted permissions on the selected project have the same permissions for all the projects you create from scratch in the future.</p> <p> The project access template overrides the sharing defaults granted to you by the Workfront administrator in your Access Level.<br>For more information about specifying sharing defaults for projects in the Access Level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> </li>
 <li value="4">Click <strong>Save</strong>.</li>
@@ -220,18 +220,18 @@ Pour plus d’informations sur l’affichage des autorisations héritées sur un
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Configure default permissions for a project</h2>
 <p>(NOTE: drafted because I added one more way to automatically share the project above in the bullet list and linked it to Edit Projects) </p>
-<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
+<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing  the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
 <p>To configure the default permissions that are included with each access level:</p>
 <ol>
 <li value="1">Go to the project where you want to set the default permissions.</li>
 <li value="2"> <p>Click the More menu <img src="assets/more-icon.png">, then click <strong>Edit</strong>. <img src="assets/edit-icon.png"></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="3">Click <strong>Access</strong> in the list on the left.</li>
-<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
+<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see  <a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
 The
 <strong>Delete</strong> access in the
-<strong>Manage</strong> permission level determines whether users can&nbsp;delete the project itself. Users with
+<strong>Manage</strong> permission level determines whether users can  delete the project itself. Users with
 <strong>Manage</strong> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have
-<strong>Manage</strong> permissions to the tasks and issues.&nbsp;
+<strong>Manage</strong> permissions to the tasks and issues.  
 </note> </li>
 <li value="5">Click <strong>Save Changes</strong>.</li>
 </ol>
@@ -259,20 +259,20 @@ Le tableau suivant répertorie les autorisations que les utilisateurs et les uti
   <tr> 
    <td> <p>Ajouter un formulaire personnalisé</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Mettre à jour les champs personnalisés</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ajouter un processus d’approbation</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Approuver un projet</p> </td> 
@@ -283,14 +283,14 @@ Le tableau suivant répertorie les autorisations que les utilisateurs et les uti
   <tr> 
    <td> <p>Approuver les heures</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>✓  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Créer un projet</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ajouter un ou plusieurs documents</p> </td> 
@@ -308,25 +308,25 @@ Le tableau suivant répertorie les autorisations que les utilisateurs et les uti
    <td> <p>Ajouter une ou plusieurs tâches</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Copier le projet</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Supprimer projet</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Modifier les dates prévues</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Partager le projet</p> </td> 
@@ -336,8 +336,8 @@ Le tableau suivant répertorie les autorisations que les utilisateurs et les uti
   </tr> 
   <tr> 
    <td> <p>Partager sur le système</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -355,44 +355,44 @@ Le tableau suivant répertorie les autorisations que les utilisateurs et les uti
   <tr> 
    <td> <p>Modifier le statut</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Consigner les heures</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Modifier les affectations</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Gérer la ligne de base</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Gérer les risques*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Gérer les finances*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ajouter/modifier les dépenses*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Afficher les finances*</p> </td> 
@@ -403,8 +403,8 @@ Le tableau suivant répertorie les autorisations que les utilisateurs et les uti
   <tr> 
    <td> <p>Joindre modèle</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Enregistrer en tant que modèle</p> </td> 
@@ -415,20 +415,20 @@ Le tableau suivant répertorie les autorisations que les utilisateurs et les uti
   <tr> 
    <td> <p>Ajouter/modifier un business case</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Modifier les détails du projet</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Modifier le personnel</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Exporter vers MS Project</p> </td> 
@@ -439,20 +439,20 @@ Le tableau suivant répertorie les autorisations que les utilisateurs et les uti
   <tr> 
    <td> <p>Recalculer les finances / la chronologie*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Définir les propriétés de file d’attente</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>    </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Modifier le projet en masse dans une liste</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
  </tbody> 
 </table>

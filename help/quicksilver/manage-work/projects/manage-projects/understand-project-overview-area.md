@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 93%
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ Vous pouvez afficher ou modifier les informations d’un projet en accédant à 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Accédez au projet dont vous souhaitez afficher la section Vue d’ensemble.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. La section **Vue d’ensemble** doit s’afficher en premier dans le cadre des détails du projet et doit être développé par défaut.
+1. La section **Présentation** doit d’abord s’afficher dans les Détails du projet et doit être développée par défaut
 
    Ou
 
@@ -127,23 +127,23 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td role="rowheader">Priorité</td> 
-      <td>Sert à désigner la priorité ou l’importance du projet.</td> 
+      <td>Sert de priorité ou d’importance désignée pour le projet.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Statut</td> 
-      <td> <p>Statut du projet. </p> <p>Conseil : vous ne pouvez pas terminer un projet tant que toutes les tâches et tous les problèmes ne sont pas terminés. Si le mode d’achèvement du projet est défini sur Automatique, vous ne pouvez pas terminer un projet manuellement. </p> </td> 
+      <td> <p>Statut du projet. </p> <p>Conseil : vous ne pouvez pas terminer un projet tant que toutes les tâches et tous les problèmes ne sont pas terminés. Si le mode d'achèvement du projet est défini sur Automatique, vous ne pouvez pas terminer un projet manuellement. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Type de condition</td> 
-      <td>Détermine si la personne responsable définit la condition du projet ou si Workfront le fait.Pour plus d’informations sur la condition du projet, voir l’article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Vue d’ensemble de la condition et du type de condition du projet</a>.</td> 
+      <td>Détermine si le responsable définit le statut du projet ou si Workfront le définit. Pour plus d'informations sur le statut du projet, consultez l'article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Présentation du statut du projet et du type de statut</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mode horaire</td> 
-      <td>Définit la planification du projet.Par exemple, si le projet est planifié à partir de la date de début ou de la date d’achèvement. </td> 
+      <td>Définit la planification du projet. Par exemple, si le projet est planifié à partir de la date de début ou de la date d’achèvement. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Date et heure de début prévues</td> 
-      <td> Date prévue de début du projet. Ce paramètre est manuellement défini par le chef ou la cheffe de projet lorsque le projet est planifié à partir de la date de début. Workfront définit automatiquement cette date lorsque le projet est planifié à partir de la date d’achèvement, en fonction de la durée des tâches du projet.</td> 
+      <td> Date prévue de début du projet. Cette valeur est définie manuellement par le gestionnaire de projet lorsque le projet est planifié à partir de la date de début. Workfront définit automatiquement cette date lorsque le projet est planifié à partir de la Date d’achèvement, en fonction de la durée des tâches du projet.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Date et heure d’achèvement prévues</td> 
@@ -209,7 +209,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    | Entré par | Le nom de l’utilisateur ou de l’utilisatrice qui a créé le projet. |
    | Date de dernière mise à jour | La date et l’heure de la dernière mise à jour du projet. |
    | Dernière mise à jour par | Le nom de l’utilisateur ou de l’utilisatrice qui a effectué la dernière mise à jour du projet. |
-   | Modèle |   |
+   | Modèle |  |
 
 
 1. Si votre entreprise a acheté une licence supplémentaire pour le planificateur de scénarios Adobe Workfront et que les informations du projet sont publiées à partir d’une initiative liée, passez en revue les informations suivantes sur l’initiative dans la zone du planificateur de scénarios :
@@ -236,15 +236,15 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td role="rowheader"><span>Date de fin de l’initiative</span> </td> 
-      <td><span>Le dernier jour du mois de fin de l’initiative, lorsque le projet est lié à une initiative. </span> </td> 
+      <td><span>Dernier jour du mois de fin de l’initiative, lorsque le projet est lié à une initiative. </span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>Fonctions de l’initiative en équivalents temps plein et en heures</span> </td> 
-      <td> <p>Informations sur les fonctions associées et leur temps alloué à l’initiative.Cela inclut les éléments suivants :</p> 
+      <td> <p>Informations sur les fonctions associées et leur temps alloué à l’initiative. Cela inclut les éléments suivants :</p> 
        <ul> 
         <li>Nom de la fonction</li> 
         <li>Nombre d’équivalents temps complet</li> 
-        <li> <p>Nombre d’heures pour tous les équivalents temps complet</p> <p>Vous pouvez estimer le nombre de fonctions nécessaires pour votre plan ou votre initiative en utilisant des heures ou des équivalents temps complet. </p> <p>Pour plus d’informations, consultez <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créer et modifier des plans dans le planificateur de scénarios</a>. </p> </li> 
+        <li> <p>Nombre d’heures pour tous les équivalents temps complet</p> <p>Vous pouvez estimer le nombre de fonctions nécessaires pour votre plan ou votre initiative en utilisant des heures ou des équivalents temps complet. </p> <p>Pour plus d’informations, consultez <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créer et modifier des plans dans le planificateur de scénarios</a>. </p> </li> 
        </ul> <p>Conseil : <span>si le nombre de fonctions est différent pour chaque mois de l’initiative, ce champ affiche le nombre maximum de fonctions nécessaires à l’initiative. Par exemple, si vous avez besoin d’une seule personne consultante pour janvier et de deux pour février, la colonne affiche 2 équivalents temps plein et le nombre d’heures correspondant à 2 équivalents temps plein pour tous les mois.</span> </p> </td> 
      </tr> 
     </tbody> 

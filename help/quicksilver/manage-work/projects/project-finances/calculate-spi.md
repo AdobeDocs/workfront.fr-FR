@@ -7,10 +7,10 @@ description: L’indice de performance du planning (SPI) décrit la relation ent
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 97%
+ht-degree: 65%
 
 ---
 
@@ -31,7 +31,7 @@ L’indice de performance du planning (SPI) décrit la relation entre le plannin
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -60,9 +60,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 * [Ce que la valeur du SPI indique](#what-the-spi-value-shows)
 * [Calcul du SPI par Workfront](#how-workfront-calculates-spi)
 
-### Signification de la valeur du SPI {#what-the-spi-value-shows}
+### Ce que la valeur de la SPI indique {#what-the-spi-value-shows}
 
-Les responsables de projet comprennent qu’une valeur de SPI de 1 signifie que le projet est prévu ou planifié. Les valeurs supérieures à 1 indiquent qu’un projet est en avance sur le planning et les valeurs inférieures à 1 indiquent qu’un projet est en retard sur le planning. Plus on s’éloigne de 1, plus on s’éloigne du plan.
+Les chefs de projet comprennent qu’une valeur d’IHP égale à 1 signifie que le projet respecte le plan ou le calendrier.  Les valeurs supérieures à 1 indiquent qu’un projet est en avance sur le calendrier et les valeurs inférieures à 1 signifient qu’un projet est en retard.  Plus on s’éloigne de la valeur 1, plus on s’éloigne du plan initial.
 
 | **Valeur de SPI** | **Indication de « Dans les temps »** |
 |---|---|
@@ -82,9 +82,9 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;Si le nombre d’heures prévues planifiées pour la date = 0, SPI = 1*.
 
-Le nombre d’heures prévues planifiées pour la date est calculé à la minute lorsque vous effectuez les calculs. Il indique le nombre d’heures prévues planifiées pour la date actuelle.Il peut être recalculé automatiquement lorsque vous modifiez les données financières pour qu’elles soient exactes. Aucun champ dans Workfront n’indique cette valeur.
+Heures planifiées La planification à ce jour est calculée à la minute où vous effectuez les calculs. Il affiche le nombre d’heures planifiées par rapport à la date actuelle. Il peut être recalculé automatiquement lorsque vous modifiez vos données financières pour qu’elles soient exactes. Aucun champ dans Workfront n’indique cette valeur.
 
-Par exemple, si vous avez un projet avec une tâche qui comporte 10 heures prévues et une durée de 10 jours, le nombre d’heures prévues planifiées pour le 5ème jour est de 5. 
+Par exemple, dans le cas d&#39;un projet comportant 1 tâche et comportant 10 heures prévues et une durée de 10 jours, le nombre d&#39;heures prévues planifiées à ce jour le 5e jour est de 5.
 
 ## Localiser le SPI dans un projet ou une tâche
 

@@ -6,7 +6,7 @@ description: Vous pouvez déléguer temporairement le travail qui vous est confi
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1547'
 ht-degree: 80%
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 +++
 
 <!--note from the table for Object permissions:
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
 ## Conditions préalables
@@ -155,7 +155,7 @@ Pour déléguer vos tâches et problèmes à d’autres personnes :
    * Le bouton [!UICONTROL **Déléguer**] dans la zone [!UICONTROL **Accueil**] devient [!UICONTROL **Modifier la délégation**] pour indiquer qu’une délégation est en place.
      <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+      (NOTE: is this shot correct? See UI - this is a mock)
       </MadCap:conditionalText>
       -->
 

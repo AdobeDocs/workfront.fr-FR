@@ -7,7 +7,7 @@ description: Adobe Workfront détermine le statut de progression d’une tâche
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 97%
@@ -39,7 +39,7 @@ Les critères suivants déterminent le statut de progression d’une tâche :
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p> </p> <p><strong>À l’heure</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>À l’heure</strong> </p> </td> 
    <td scope="col"> <p>Une tâche est considérée comme étant <strong>À l’heure</strong> lorsque toutes les dates prévues correspondent aux dates prévisionnelles. Ce statut de progression peut également indiquer que le projet est en avance sur le planning et que les dates prévisionnelles peuvent être antérieures aux dates prévues.</p> <p>Pour plus d’informations sur les dates prévisionnelles, consultez la section <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Vue d’ensemble de la date d’achèvement prévisionnelle pour les projets, tâches et problèmes</a>.</p> <p>Pour plus d’informations sur la date d’achèvement prévue de la tâche, consultez les articles suivants :</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Vue d’ensemble de la date de début prévue de la tâche</a> </p> </li> 

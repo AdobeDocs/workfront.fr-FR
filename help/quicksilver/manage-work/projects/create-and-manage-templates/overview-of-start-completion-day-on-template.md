@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des modèles de projet pour capturer la plupar
 author: Alina
 feature: Work Management
 exl-id: caa0e7b1-37c3-4973-92ce-cc93df4e4186
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Vous pouvez utiliser des modèles de projet pour capturer la plupart des processus, informations et paramètres reproductibles associés aux projets de votre organisation. Bien que les projets comportent des dates de début et d’achèvement spécifiques, les modèles ont des jours de début et d’achèvement génériques comme indication de l’endroit où ces dates vont appartenir au projet, en fonction de la chronologie globale du projet.
 
-**Exemple :** si la date de début d’un projet est le 1er avril et que vous souhaitez qu’une tâche commence le 3 avril (deux jours après le début du projet), la tâche correspondante sur le modèle qui crée le projet doit commencer le jour 2 du modèle, où le premier jour du modèle est considéré comme le jour 0.
+**Exemple :** si la date de début d’un projet est le 1er avril et que vous souhaitez qu’une tâche commence le 3 avril (deux jours après le début du projet), la tâche correspondante sur le modèle qui crée le projet doit commencer le Jour 2 du modèle, où le premier jour du modèle est considéré comme le Jour 0.
 
 ## Jour de début
 
@@ -56,6 +56,6 @@ Tenez compte des points suivants lorsque vous utilisez des modèles planifiés �
 
 * Si vous modifiez le jour de début, la contrainte de tâche doit être définie sur Il Faut Commencer Le.
 * La modification du jour d’achèvement définit la contrainte de tâche sur Il Faut Finir Le.
-* Lorsque le modèle est planifié à partir du jour d’achèvement, le jour de contrainte de tâche est calculé à partir du jour d’achèvement.
+* Lorsque le modèle est planifié à partir du Jour d&#39;achèvement, le Jour de contrainte de tâche est calculé à partir du Jour d&#39;achèvement.
 
-  **Exemple :** la durée de votre modèle est de 285 jours et vous disposez d’une tâche de modèle de 60 jours. Si vous définissez la contrainte de tâche sur Il Faut Commencer Le et le jour de contrainte sur 120, vous aurez un jour de début de 165 (285 - 120) et un jour d’achèvement de 225 (165 + 60). Ainsi, lorsque vous modifiez le jour de début, il est en fait interprété comme jour de contrainte.
+  **Exemple :** la durée de votre modèle est de 285 jours et vous disposez d’une tâche de modèle de 60 jours. Si vous définissez la contrainte de tâche sur Il Faut Commencer Le et le jour de contrainte sur 120, vous aurez un jour de début de 165 (285 - 120) et un jour d’achèvement de 225 (165 + 60). Ainsi, lorsque vous modifiez le Jour de début, il est en fait interprété comme un Jour de contrainte.

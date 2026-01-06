@@ -6,10 +6,10 @@ description: Parfois, des conflits peuvent exister entre les planifications de t
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 98%
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 Parfois, des conflits peuvent exister entre les planifications de tâches sur un projet. Vous pouvez niveler les ressources ou résoudre leurs conflits en replanifiant les ressources et les tâches, afin que toutes les tâches puissent être effectuées dans des délais réalistes. Pour plus d’informations sur le nivellement des tâches, voir la section [Niveler des ressources dans le graphique de Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
-En tant que personne responsable du projet ou personne cessionnaire de la tâche, vous pouvez également ajouter un délai de nivellement sur les tâches individuelles afin de tenir compte de tout conflit de ressource ou de planification. En d’autres termes, une tâche peut être planifiée avec un retard afin de s’assurer que, lorsqu’Adobe Workfront nivelle les tâches, un planning plus réaliste permette de dépasser les conflits de ressources.
+En tant que personne responsable du projet ou personne cessionnaire de la tâche, vous pouvez également ajouter un délai de nivellement sur les tâches individuelles afin de tenir compte de tout conflit de ressource ou de planification. En d’autres termes, une tâche peut être planifiée avec un délai afin de s’assurer que lorsque Adobe Workfront nivelle les tâches, un planning plus réaliste surmonte les conflits de ressources.
 
 L’ajout d’un retard de nivellement à une tâche ajuste la date d’achèvement prévisionnelle de la tâche. Pour plus d’informations sur la date d’achèvement prévisionnelle, voir la section [Vue d’ensemble de la date d’achèvement prévisionnelle pour les projets, tâches et problèmes](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -30,7 +30,7 @@ L’ajout d’un retard de nivellement à une tâche ajuste la date d’achèvem
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    Choisissez l’une des options suivantes pour les unités de temps :
 
    * Minutes
-   * HeuresIl s’agit du paramètre par défaut.
+   * Heures. Il s’agit de la valeur par défaut.
    * Jours
    * Semaines
    * Mois
@@ -107,6 +107,6 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    >
    >Le temps écoulé est une unité de temps pour la durée d’une tâche. Il s’agit de la durée entre la date de début et la date d’achèvement prévues d’une tâche qui comprend les jours fériés, les week-ends et les jours de congé. En d’autres termes, le temps écoulé est le nombre de jours calendaires écoulés.
 
-1. Cliquez sur **Enregistrer**.
+1. Cliquer sur **Enregistrer**.
 
- 
+

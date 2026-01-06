@@ -6,10 +6,10 @@ description: La personne chargée de votre administration Adobe Workfront peut 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 51%
+ht-degree: 45%
 
 ---
 
@@ -31,7 +31,7 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -63,18 +63,18 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 * Vous pouvez partager des tâches individuellement ou partager plusieurs tâches à la fois, en masse.\
   Le partage de tâches est identique au partage d’autres objets. Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* Vous pouvez accorder les autorisations suivantes sur une tâche :
+* Vous pouvez accorder les autorisations suivantes à une tâche :
 
    * Afficher
    * Gérer
    * Contribuer
 * Lorsque vous partagez une tâche, les utilisateurs héritent par défaut des mêmes autorisations sur tous les objets enfants associés à la tâche. Par exemple, elles héritent des mêmes autorisations sur les tâches, problèmes et documents enfant associés à la tâche.\
-  Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir   [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
   L’administrateur ou l’administratrice Workfront peut indiquer si les documents doivent hériter des autorisations des objets supérieurs dans le niveau d’accès de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la restriction des autorisations héritées sur les documents, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Vous pouvez supprimer les autorisations héritées d’une tâche.\
-  Pour plus d’informations sur la suppression des autorisations héritées des objets, voir [Supprimer les autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+  Pour plus d’informations sur la suppression des autorisations héritées des objets , voir   [Supprimer des autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Méthodes de partage d’une tâche
 
@@ -87,7 +87,7 @@ Vous pouvez partager une tâche de l’une des manières suivantes :
    * Spécifiez les autorisations sur l’un des objets parent de la tâche : projet, programme ou portfolio. Les tâches héritent des autorisations de leurs objets parent. Pour plus d’informations sur l’affichage des autorisations héritées sur les objets, voir [Afficher les autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Ajoutez des entités au partage de projet sur un modèle utilisé pour créer le projet sur lequel la tâche est effectuée. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partager un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Spécifiez les autorisations sur toutes les tâches d’un projet lorsque vous le modifiez.Pour plus d’informations sur la gestion de l’accès aux tâches du projet en fonction des autorisations d’une personne sur le projet, voir la section [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Spécifiez les autorisations sur toutes les tâches d’un projet lorsque vous modifiez le projet.  Pour plus d’informations sur la gestion de l’accès aux tâches du projet en fonction des autorisations d’un utilisateur pour le projet, consultez la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) de l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -185,13 +185,13 @@ Le tableau suivant affiche les autorisations que vous pouvez accorder aux person
    <td scope="row">Ajouter une ou plusieurs tâches</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Ajouter des tâches antérieures</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Ajouter un ou plusieurs problèmes</td> 
@@ -202,26 +202,26 @@ Le tableau suivant affiche les autorisations que vous pouvez accorder aux person
   <tr> 
    <td scope="row">Supprimer tâche</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row"> <p>Modifier la tâche générale<br></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Modifier le statut de la tâche</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Modifier la contrainte de tâche</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Afficher tâche</td> 
@@ -244,50 +244,50 @@ Le tableau suivant affiche les autorisations que vous pouvez accorder aux person
   <tr> 
    <td scope="row">Déplacer la tâche*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Consigner les heures</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Modifier les dates prévues</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Accepter l’affectation</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Créer une affectation</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Joindre un formulaire personnalisé</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Modifier les champs personnalisés</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Créer un processus d’approbation</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Approuver une tâche</td> 
@@ -298,14 +298,14 @@ Le tableau suivant affiche les autorisations que vous pouvez accorder aux person
   <tr> 
    <td scope="row">Modifier les finances*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Ajouter/modifier des dépenses</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Afficher Finance</td> 
@@ -327,8 +327,8 @@ Le tableau suivant affiche les autorisations que vous pouvez accorder aux person
   </tr> 
   <tr> 
    <td scope="row">Partager sur le système</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

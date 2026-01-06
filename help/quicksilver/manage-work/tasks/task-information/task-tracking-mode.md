@@ -7,7 +7,7 @@ description: Vous pouvez régler le paramètre Mode de suivi d’une tâche lors
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 99%
@@ -29,9 +29,9 @@ Pour plus d’informations sur le statut de la progression des tâches, consulte
 <p>To set the tracking mode:</p>
 <ol>
 <li value="1">Go to the task you want to set the tracking mode for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click&nbsp;<strong>Edit</strong>.</p> <p>The Edit Task dialog box opens. </p> </li>
-<li value="3"> <p>In the&nbsp;<strong>Settings</strong> section, use the&nbsp;<strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref" xrefformat="{para}">Tracking Mode options</a> section in this article. </p> </li>
-<li value="4">Click&nbsp;<strong>Save Changes.</strong></li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click <strong>Edit</strong>.</p> <p>The Edit Task dialog box opens. </p> </li>
+<li value="3"> <p>In the <strong>Settings</strong> section, use the <strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref" xrefformat="{para}">Tracking Mode options</a> section in this article. </p> </li>
+<li value="4">Click <strong>Save Changes.</strong></li>
 </ol>
 </div>
 -->
@@ -71,9 +71,9 @@ Les exceptions suivantes s’appliquent :
 
 >[!IMPORTANT]
 >
->Lorsque vous sélectionnez l’option de conclusion automatique des tâches, la tâche est terminée lorsque l’heure du projet est recalculée. Si le type de mise à jour du projet est défini sur Automatique ou Automatique et En cas de modification, le calendrier du projet est calculé quotidiennement. Pour plus d’informations sur les recalculs du calendrier sur les projets, consultez [Recalculer les calendriers de projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Lorsque vous sélectionnez l’option de conclusion automatique des tâches, la tâche est terminée lorsque l’heure du projet est recalculée. Si le type de mise à jour du projet est défini sur Automatique ou Automatique et En cas de modification, la chronologie du projet est calculée quotidiennement. Pour plus d’informations sur les recalculs de la chronologie sur les projets, consultez [Recalculer la chronologie de projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->L’heure de la date d’achèvement réelle est minuit le jour où le calendrier est automatiquement calculé. L’heure utilisée pour générer cet horodatage est le fuseau horaire de votre système tel que défini par votre administrateur ou administratrice Workfront dans la section Informations sur le client de la configuration. Pour plus d’informations sur la définition du fuseau horaire de votre système, consultez [Configurer les informations de base de votre système](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>L’heure de la date d’achèvement réelle est minuit le jour où la chronologie est automatiquement calculée. L’heure utilisée pour générer cet horodatage est le fuseau horaire de votre système tel que défini par votre administrateur ou administratrice Workfront dans la section Informations sur le client de la configuration. Pour plus d’informations sur la définition du fuseau horaire de votre système, consultez [Configurer les informations de base de votre système](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Tâche antérieure {#predecessor}
 

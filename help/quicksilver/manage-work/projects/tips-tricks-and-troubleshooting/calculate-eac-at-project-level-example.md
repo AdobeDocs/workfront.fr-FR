@@ -7,10 +7,10 @@ description: Cet article donne un exemple de calcul de l’Estimation à l’ach
 author: Lisa
 feature: Work Management
 exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 98%
+source-wordcount: '2213'
+ht-degree: 81%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 PIM = basé sur les heures
 
-Méthode EAC = calcul au niveau du projet **&#x200B;**
+Méthode EAC = calcul au niveau du projet ****
 
 1. Créez le projet A avec trois tâches (aucune tâche enfant) affectées à la personne 1 dont le coût/heure est de 100,00 $.
 1. Ajoutez les heures prévues et les heures effectives à chaque tâche et le Pourcentage terminé selon le tableau ci-dessous :
@@ -72,30 +72,30 @@ Méthode EAC = calcul au niveau du projet **&#x200B;**
 
 1. Recalculer les finances sur le projet.
 1. **ICP pour la Tâche 1** = 0,04 calculé comme suit :\
-   **ICP pour la Tâche 1** = *IF* Heures effectives > 0 *THEN* ICP = Coût budgété du travail effectué/Heures effectives\
-   *ELSE* ICP = 1\
-   **ICP pour la Tâche 1** = 1 / 25\
+   **ICP pour la tâche 1** = *IF* Heures effectives > 0 *THEN* ICP = Coût budgété du travail effectué/Heures effectives\
+   *SINON* IPC = 1\
+   **ICP pour la tâche 1** = 1 / 25\
    **ICP pour la tâche 1** = 0,04
 
 1. **EAC pour la Tâche 1** = 125 heures calculées comme suit :\
    **EAC pour la Tâche 1** = *IF* ICP &lt;> 0 *THEN* EAC = Nombre d’heures prévues/ICP\
-   *ELSE* EAC = Nombre d’heures prévues + Heures effectives\
+   *ELSE* CRE = heures prévues + heures réelles\
    **EAC pour la Tâche 1** = 5 / 0,04\
-   **EAC pour la Tâche 1** = 125 heures&#x200B;**&#x200B;**
+   **EAC pour la Tâche 1** = 125 heures****
 
 1. ICP/EAC pour les Tâches 2 et 3 :\
-   Tâche 2 = 0,12 / 83,33 heures\
+   Tâche 2 = .12 / 83,33 heures\
    Tâche 3 = 0,24 / 62,5 heures
 
 1. **ICP du projet** = 0,13 calculé comme suit :\
    **ICP du projet** = *IF* Heures effectives > 0 *THEN* IPC = Coût budgété du travail effectué/Heures effectives\
-   *ELSE* ICP = 1\
+   *SINON* IPC = 1\
    **ICP du projet** = 10 / 75\
    **ICP du projet** = 0,13
 
 1. **EAC pour le projet** = 225 heures calculées comme suit :\
    **EAC pour le projet** = *IF* ICP &lt;> 0 *THEN* EAC = Heures prévues/ICP\
-   *ELSE* EAC = Heures prévues + Heures effectives\
+   *ELSE* CRE = heures prévues + heures réelles\
    **EAC pour le projet** = 30 / 0,13333\
    **EAC pour le projet** = 225 heures
 
@@ -136,9 +136,9 @@ Méthode EAC = Calcul au niveau du projet
  <tbody> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
-   <td> </td> 
+   <td> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
@@ -148,9 +148,9 @@ Méthode EAC = Calcul au niveau du projet
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
-   <td> </td> 
+   <td> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 4</p> </td> 
@@ -176,13 +176,13 @@ Méthode EAC = Calcul au niveau du projet
 1. Ajoutez 50 heures directement au projet (Plus > Heure > Consigner les heures).
 1. **ICP pour la tâche 2** = 0,1 calculé comme suit :\
    **ICP pour la tâche 2** = *IF* Heures effectives > 0 *THEN* ICP = Coût budgété du travail effecté/Heures effectives\
-   *ELSE* ICP = 1\
+   *SINON* IPC = 1\
    **ICP pour la tâche 2** = 1 / 10\
    **ICP pour la tâche 2** = 0,1
 
 1. **EAC pour la tâche 2** = 50 heures calculées comme suit :\
    **EAC pour la tâche 2** = *IF* ICP &lt;> 0 *THEN* EAC = Heures prévues/ICP\
-   *ELSE* EAC = Heures prévues + Heures effectives\
+   *ELSE* CRE = heures prévues + heures réelles\
    **EAC pour la tâche 2** = 5 / 0,1\
    **EAC pour la tâche 2** = 50 heures
 
@@ -191,41 +191,41 @@ Méthode EAC = Calcul au niveau du projet
    Tâche 5 : 0,75 / 20 heures\
    Tâche 6 : 1,2 / 16,67 heures
 
-1. **ICP pour la tâche 3** = 0,38 calculé comme suit :\
+1. **IPC pour la tâche 3** = .38 calculé comme suit :\
    **ICP pour la tâche 3** = *IF* Heures effectives > 0 *THEN* ICP = Coût budgété du travail effectué/Heures effectives\
-   *ELSE* ICP = 1\
+   *SINON* IPC = 1\
    **ICP pour la tâche 3** = 11,5 / 30\
    **ICP pour la tâche 3** = 0,38
 
 1. **EAC pour la tâche 3** = 65,22 heures calculées comme suit :\
    **EAC pour la tâche 3** = *IF* ICP &lt;> 0 *THEN* EAC = Heures prévues/ICP\
-   *ELSE* EAC = Heures prévues + Heures effectives\
-   **EAC pour la tâche 3** = 25 / 0,383333\
+   *ELSE* CRE = heures prévues + heures réelles\
+   **CRE pour la tâche 3** = 25 / .383333\
    **EAC pour la tâche 3** = 65,22 heures
 
 1. **ICP pour la tâche 1** = 0,25 calculé comme suit :\
    **ICP pour la tâche 1** = *IF* Heures effectives > 0 *THEN* ICP = Coût budgété du travail effectué/Heures effectives\
-   *ELSE* ICP = 1\
+   *SINON* IPC = 1\
    **ICP pour la tâche 1** = 12,5 / 50\
    **ICP pour la tâche 1** = 0,25
 
 1. **EAC pour la tâche 1** = 120 heures calculées comme suit :\
    **EAC pour la tâche 1** = *IF* ICP &lt;> 0 *THEN* EAC = Heures prévues / ICP\
-   *ELSE* EAC = Heures prévues + Heures effectives\
-   **EAC pour la tâche 1** = 30 / 0,25\
+   *ELSE* CRE = heures prévues + heures réelles\
+   **CRE pour la tâche 1** = 30/.25\
    **EAC pour la tâche 1** = 120 heures
 
 1. **ICP du projet** = 0,22 calculé comme suit :\
    **ICP du projet** = *IF* Heures effectives > 0 *THEN* ICP = Coût budgété du travail effectué/Heures effectives\
-   *ELSE* ICP = 1\
+   *SINON* IPC = 1\
    **ICP du projet** = 24,5 / 110\
    **ICP du projet** = 0,22272\
    **ICP du projet** = 0,22
 
-1. **EAC pour le projet** = 224,49 heures calculées comme suit :\
+1. **CRE pour le projet** = 224,49 heures calculées comme suit :\
    **EAC pour le projet** = *IF* ICP &lt;> 0 *THEN* EAC = Heures prévues/ICP\
-   *ELSE* EAC = Heures prévues + Heures effectives\
-   **EAC pour le projet** = 50 / 0,22272\
+   *ELSE* CRE = heures prévues + heures réelles\
+   **CRE pour le projet** = 50 / .22272\
    **EAC pour le projet** = 224,49 heures
 
 ### PIM = basé sur les coûts {#pim-cost-based}
@@ -402,88 +402,88 @@ Méthode EAC = Calcul au niveau du projet
 
 1. À partir des actions du projet, exécuter Recalculer finances
 1. **ICP pour la tâche 1** = 0,14
-1. **ICP**&#x200B;**pour la tâche 1** = 0,14 calculé comme suit :\
-   **ICP** **pour la tâche 1** = *IF* Coût réel de main-d’oeuvre + Coût des dépenses réelles engagées &lt;> 0 *THEN*
+1. **ICP****pour la tâche 1** = 0,14 calculé comme suit :\
+   **ICP** **pour la tâche 1** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-   *ELSE* ICP = CPI_Labor\
-   **ICP**&#x200B;**pour la tâche 1** = (100+300) / (2 500+400)\
-   **ICP** **pour la tâche 1** = 400 / 2 900\
-   **ICP** **pour la tâche 1** = 0,14&#x200B;**&#x200B;**
+   * SINON* ICP = CPI_Labor\
+     **ICP****pour la tâche 1** = (100+300) / (2 500+400)\
+     **IPC** **pour la tâche 1** = 400/2900\
+     **ICP** **pour la tâche 1** = .14****
 
-1. **EAC**&#x200B;**&#x200B; pour la tâche 1** = 13 400,00 $\
-   **Main-d’œuvre ICP** **pour la tâche 1** = IF Coût réel de main-d’œuvre &lt;> 0 THEN
+1. **EAC**** de la tâche 1** = 13 400 $\
+   **IPC Main-d&#39;œuvre** **pour la tâche 1** = SI Coût réel de la main-d&#39;œuvre &lt;> 0 ALORS
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed/Actual Labor Cost
    ```
 
-   ELSE CPI_Labor = 1\
-   **Main-d’œuvre ICP** **pour la tâche 1** = 100/2 500\
-   **Main-d’œuvre ICP** **pour la tâche 1** = 0,04 **&#x200B;**&#x200B;**&#x200B; Main-d’œuvre EAC &#x200B;**&#x200B;**pour la tâche 1 &#x200B;**=*IF *CPI_Labor &lt;> 0*THEN *Main-d’œuvre EAC = Coût prévu de main-d’œuvre/CPI_Labor\
-   *ELSE* Main-d’œuvre EAC = Coût prévu de main-d’œuvre + Coût réel de main-d’œuvre\
-   **Main-d’œuvre EAC &#x200B;**&#x200B;**pour la tâche 1** = 500,00/0,04\
-   **Main-d’œuvre EAC**&#x200B;**pour la tâche 1** = 12 500,00 $\
-   **EAC dépense**&#x200B;**de la tâche 1** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
-   **EAC dépenses**&#x200B;**de la tâche 1** = 400 $ + 500 $\
-   **EAC dépenses**&#x200B;**de la tâche 1** = 900 $\
-   **EAC dépenses**&#x200B;**&#x200B; de la tâche 1** = EAC main d’œuvre + EAC dépenses\
-   **EAC**&#x200B;**&#x200B; de la tâche 1** = 12 500 $ + 900 $\
-   **EAC**&#x200B;**&#x200B; de la tâche 1** = 13 400 $
+   SINON CPI_Labor = 1\
+   **IPC Travail** **pour la tâche 1** = 100/2500\
+   **Main-d&#39;œuvre de l&#39;IPC** **pour la tâche 1** = .04******Main-d&#39;œuvre de l&#39;EAC ****pour la tâche 1**=* IF *CPI_Labor &lt;> 0* THEN *Main-d&#39;œuvre de l&#39;EAC = Coût de main-d&#39;œuvre prévu/CPI_Labor
+   * SINON* CRE Main-d&#39;œuvre = Coût prévu de main-d&#39;œuvre + Coût réel de main-d&#39;œuvre\
+     **EAC main d’œuvre****de la tâche 1** = 500/0,04\
+     **EAC main d’œuvre****de la tâche 1** = 12 500,00 $\
+     **EAC dépense****de la tâche 1** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
+     **EAC dépenses****de la tâche 1** = 400 $ + 500 $\
+     **EAC dépenses****de la tâche 1** = 900 $\
+     **EAC dépenses**** de la tâche 1** = EAC main d’œuvre + EAC dépenses\
+     **CRE****pour la tâche 1** = 12 500 $ + 900 $\
+     **CRE****pour la tâche 1** = 13 400 $
 
 1. Voici les valeurs ICP/EAC pour la tâche 2 et la tâche 3 :\
    Tâche 2 = 0,19 / 8 433,33 $\
    Tâche 3 = 0,44 / 6 950,00 $
 
 1. **ICP pour le projet** = .32 calculé comme suit :\
-   **ICP**&#x200B;**pour le projet** = *IF* Coût réel de main d’œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **ICP****pour le projet** = *IF* Coût réel de la main-d’œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-   *ELSE* ICP = CPI_Labor\
-   **ICP**&#x200B;**du projet** = (1 000 + 2 300)/(7 500 + 2 700)\
-   **ICP**&#x200B;**du projet** = 3 300/10 200\
-   **ICP**&#x200B;**pour le projet** = 0,32
+   * SINON* ICP = CPI_Labor\
+     **ICP****du projet** = (1 000 + 2 300)/(7 500 + 2 700)\
+     **ICP****du projet** = 3 300/10 200\
+     **ICP****pour le projet** = 0,32
 
 1. **EAC pour le projet** = 28 200,00 $ calculé comme suit :\
-   **ICP de la main d’œuvre**&#x200B;**pour le projet** = IF Coût réel de main d’œuvre &lt;> 0 THEN
+   **ICP de la main d’œuvre****pour le projet** = IF Coût réel de main d’œuvre &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed/Actual Labor Cost
    ```
 
-   ELSE CPI_Labor = 1\
-   **ICP de la main d’œuvre**&#x200B;**pour le projet** = 1000 / 7500\
-   **ICP de la main d’œuvre**&#x200B;**pour le projet** = 0,13333\
-   **ICP de la main d’œuvre**&#x200B;**pour le projet** = 0,13
+   SINON CPI_Labor = 1\
+   **ICP de la main d’œuvre****pour le projet** = 1000 / 7500\
+   **ICP de la main d’œuvre****pour le projet** = 0,13333\
+   **ICP de la main d’œuvre****pour le projet** = 0,13
 
-   **EAC de la main d’œuvre**&#x200B;**pour le projet** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC de la main d’œuvre****pour le projet** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
-   *   ELSE* EAC de la main d’œuvre = Coût prévu de main-d’oeuvre + coût réel de main-d’oeuvre\
-   **EAC de la main d’œuvre** = 3000/ .13 33\
-   **EAC de la main d’œuvre** = 22 500,00 $
+   * SINON* CRE Main-d&#39;œuvre = Coût prévu de main-d&#39;œuvre + Coût réel de main-d&#39;œuvre\
+     **EAC de la main d’œuvre** = 3000/ .13 33\
+     **EAC de la main d’œuvre** = 22 500,00 $
 
-   **EAC des dépenses**&#x200B;**Projet** =
+   **EAC des dépenses****Projet** =
 
    ```
    IncurredActualExpenseCost + NotIncurredPlannedExpense
    ```
 
-   **EAC des dépenses**&#x200B;**Projet** = 3 000,00 $ + 2 700,00\
-   **EAC des dépenses**&#x200B;**Projet** = 5 700,00 $
+   **EAC des dépenses****Projet** = 3 000,00 $ + 2 700,00\
+   **EAC des dépenses****Projet** = 5 700,00 $
 
-   **EAC**&#x200B;**Projet** = EAC de la main d’œuvre + EAC des dépenses\
-   **EAC**&#x200B;**Projet**  = 22 500,00 $ + 5 700,00 $\
-   **EAC**&#x200B;**Projet**  = 28 200,00 $
+   **EAC****Projet** = EAC de la main d’œuvre + EAC des dépenses\
+   **CRE****Projet** = 22 500 $ + 5 700 $\
+   **CRE****Projet** = 28 200 $
 
 #### Exemple complexe : le projet comporte des tâches enfant. {#complicated-example-project-has-children-tasks-1}
 
@@ -526,11 +526,11 @@ Méthode EAC = Calcul au niveau du projet
  <tbody> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> <p>10 heures</p> </td> 
    <td> <p>1 000,00 $</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
@@ -542,11 +542,11 @@ Méthode EAC = Calcul au niveau du projet
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> <p>10 heures</p> </td> 
    <td> <p>1 000,00 $</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 4</p> </td> 
@@ -575,7 +575,7 @@ Méthode EAC = Calcul au niveau du projet
  </tbody> 
 </table>
 
-1. Ajoutez 50 heures directement au projet (Plus > Heures > Consigner les heures) afin d’enregistrer 5 000,00 $ de coût réel de main-d’œuvre directement dans le projet. **&#x200B;**
+1. Ajoutez 50 heures directement au projet (Plus > Heures > Consigner les heures) afin d’enregistrer 5 000,00 $ de coût réel de main-d’œuvre directement dans le projet. ****
 1. Ajoutez des dépenses à chaque tâche en fonction du tableau ci-dessous (j’ai ajouté une ligne vide entre chaque tâche pour faciliter la lecture) :
 
 <table style="table-layout:auto"> 
@@ -611,10 +611,10 @@ Méthode EAC = Calcul au niveau du projet
    <td> <p>0,00 $</p> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
@@ -641,10 +641,10 @@ Méthode EAC = Calcul au niveau du projet
    <td> <p>- 200,00 $</p> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
@@ -653,10 +653,10 @@ Méthode EAC = Calcul au niveau du projet
    <td> <p>1 000,00 $</p> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 4</p> </td> 
@@ -677,10 +677,10 @@ Méthode EAC = Calcul au niveau du projet
    <td> <p>0,00 $</p> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 5</p> </td> 
@@ -701,10 +701,10 @@ Méthode EAC = Calcul au niveau du projet
    <td> <p>- 200,00 $</p> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 6</p> </td> 
@@ -811,33 +811,33 @@ Méthode EAC = Calcul au niveau du projet
 
 1. À partir des actions du projet, exécuter Recalculer finances
 1. **ICP** pour la tâche 2 = 0,17 calculé comme suit :\
-   **ICP Tâche 2** = *IF* Coût réel de main-d’oeuvre + Coût des dépenses réelles engagées &lt;> 0 *THEN* ICP = (Coût budgété du travail effectué + Coût des dépenses prévues engagées) / (Coûr réel de main-d’œuvre + Coût des dépenses réelles engagées)\
-   *ELSE* ICP = CPI_Labor\
-   **ICP**&#x200B;**Tâche 2** = (100+300) / (1 000+1 300)\
-   **ICP**&#x200B;**Tâche 2** = 400 / 2 300\
-   **ICP**&#x200B;**Tâche 2** = 0,17
+   **Tâche IPC 2** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN* IPC = (TotalBudgetedCostWorkPerforming + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCostCost)
+   * SINON* ICP = CPI_Labor\
+     **ICP****Tâche 2** = (100+300) / (1 000+1 300)\
+     **ICP****Tâche 2** = 400/2300\
+     **ICP****Tâche 2** = .17
 
 1. **EAC** pour la tâche 2 = 5 900,00 $\
-   **Main-d’oeuvre ICP**&#x200B;**Tâche 2** = IF Coût réel de main-d’oeuvre &lt;> 0 THEN CPI_Labor = Coût budgété du travail effectué / Coût réel de main-d’oeuvre\
-   ELSE CPI_Labor = 1\
-   **Main-d’oeuvre ICP**&#x200B;**Tâche 2** = 100/1 000\
-   **Main-d’oeuvre ICP**&#x200B;**Tâche 2** = 0,1
+   **Main-d’oeuvre ICP****Tâche 2** = IF Coût réel de main-d’oeuvre &lt;> 0 THEN CPI_Labor = Coût budgété du travail effectué / Coût réel de main-d’oeuvre\
+   SINON CPI_Labor = 1\
+   **Main-d’oeuvre ICP****Tâche 2** = 100/1 000\
+   **Main-d’oeuvre ICP****Tâche 2** = 0,1
 
-   **Main-d’oeuvre EAC**&#x200B;**Tâche 2** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Main-d’oeuvre EAC****Tâche 2** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
-   *ELSE* Main-d’oeuvre EAC = Coût prévu de main-d’oeuvre + Coût réel de main-d’oeuvre\
-   **Main-d’oeuvre EAC**&#x200B;**Tâche 2** = 500,00/0,1\
-   **Main-d’oeuvre EAC**&#x200B;**Tâche 2** = 5 000,00 $**&#x200B;**&#x200B;**&#x200B; Dépenses EAC &#x200B;**&#x200B;**Tâche 2 &#x200B;**= Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
-   **Dépenses EAC &#x200B;**&#x200B;**Tâche 2** = 1 300,00 $ + - 400,00 $\
-   **Dépenses EAC**&#x200B;**Tâche 2** = 900,00 $
+   * SINON* CRE Main-d&#39;œuvre = Coût prévu de main-d&#39;œuvre + Coût réel de main-d&#39;œuvre\
+     **Main-d’oeuvre EAC****Tâche 2** = 500,00/0,1\
+     **Main-d’oeuvre EAC****Tâche 2** = 5 000,00 $****** Dépenses EAC ****Tâche 2 **= Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
+     **Dépenses EAC ****Tâche 2** = 1 300,00 $ + - 400,00 $\
+     **Dépenses EAC****Tâche 2** = 900,00 $
 
-   **EAC**&#x200B;**Tâche 2** = Main-d’oeuvre EAC + Dépenses EAC\
-   **EAC**&#x200B;**Tâche 2** = 5 000,00 $ + 900,00 $\
-   **EAC**&#x200B;**Tâche 2** = 5 900,00 $
+   **EAC****Tâche 2** = Main-d’oeuvre EAC + Dépenses EAC\
+   **CRE****Tâche 2** = 5 000 $ + 900 $\
+   **CRE****Tâche 2** = 5 900 $
 
 1. L’ICP et l’EAC pour les tâches 4, 5 et 6 sont déterminés de la même manière. Je vais donc simplement fournir les valeurs ci-dessous :\
    Tâche 4 : 0,23 / 3 400,00 $\
@@ -845,121 +845,121 @@ Méthode EAC = Calcul au niveau du projet
    Tâche 6 : 1,06 / 2 366,67 $
 
 1. ICP pour la tâche 3 = 0,31 calculé comme suit :\
-   **ICP**&#x200B;**Tâche 3** = *IF* Coût réel de main-d’oeuvre + Coût des dépenses réelles engagées &lt;> 0 *THEN*
+   **CPI****Tâche 3** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-   *ELSE* ICP = CPI_Labor\
-   **ICP**&#x200B;**Tâche 3** = (1 150 + 500) / (3 000 + 2 400)\
-   **ICP**&#x200B;**Tâche 3** = 1 650 / 5 400\
-   **ICP**&#x200B;**Tâche 3** = 0,31 **&#x200B;**&#x200B;**&#x200B; EAC pour la tâche 3 &#x200B;**= 9 521,74 $ calculé comme suit :\
-   **Main-d’œuvre ICP &#x200B;**&#x200B;**Tâche 3** = IF Coût réel de main-d’œuvre &lt;> 0 THEN
+   * SINON* ICP = CPI_Labor\
+     **IPC****tâche 3** = (1 150 + 500) / (3 000 + 2 400)\
+     **ICP****Tâche 3** = 1 650/5 400\
+     **ICP****Tâche 3** = .31 ****** CRE pour la Tâche 3 **= 9 521,74 $ calculé comme suit :\
+     **Main-d’œuvre ICP ****Tâche 3** = IF Coût réel de main-d’œuvre &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
-   ELSE CPI_Labor = 1\
-   **Main-d’œuvre ICP**&#x200B;**Tâche 3** = 1 150/3 000\
-   **Main-d’œuvre ICP**&#x200B;**Tâche 3** = 0,383333\
-   **Main-d’œuvre ICP**&#x200B;**Tâche 3** = 0,38
+   SINON CPI_Labor = 1\
+   **Main-d’œuvre ICP****Tâche 3** = 1 150/3 000\
+   **Main-d’œuvre ICP****Tâche 3** = 0,383333\
+   **Main-d’œuvre ICP****Tâche 3** = 0,38
 
-   **Main-d’œuvre EAC**&#x200B;**Tâche 3** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Main-d’œuvre EAC****Tâche 3** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
-   *ELSE* Main-d’oeuvre EAC = Coût prévu de main-d’oeuvre + Coût réel de main-d’oeuvre\
-   **Main-d’œuvre EAC**&#x200B;**Tâche 3** = 2 500,00 $ / 0,383333\
-   **EAC de main d’oeuvre**&#x200B;**Tâche 3** = 6 521,74 $
+   * SINON* CRE Main-d&#39;œuvre = Coût prévu de main-d&#39;œuvre + Coût réel de main-d&#39;œuvre\
+     **Main-d’œuvre EAC****Tâche 3** = 2 500,00 $ / 0,383333\
+     **EAC de main d’oeuvre****Tâche 3** = 6 521,74 $
 
    **EAC des dépenses***Tâche 3** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
-   **EAC des dépenses**&#x200B;**Tâche 3** = 2 400 $ + 600 $\
-   **EAC des dépenses**&#x200B;**Tâche 3** = 3 000 $
+   **EAC des dépenses****Tâche 3** = 2 400 $ + 600 $\
+   **EAC des dépenses****Tâche 3** = 3 000 $
 
-   **EAC des dépenses**&#x200B;**Tâche 3** = EAC de main d’œuvre + EAC des dépenses\
-   **EAC**&#x200B;**Tâche 3** = 6 521,74 $ + 3 000 $\
-   **EAC**&#x200B;**Tâche 3** = 9 521,74 $
+   **EAC des dépenses****Tâche 3** = EAC de main d’œuvre + EAC des dépenses\
+   **CRE****Tâche 3** = 6 521,74 $ + 3 000,00 $\
+   **CRE****tâche 3** = 9 521,74 $
 
 1. ICP de la tâche 1 = 0,16 calculé comme suit :\
-   **ICP**&#x200B;**Tâche 1** = *IF* Coût réel de main-d’œuvre + Coût des dépenses réelles engagées &lt;> 0 *THEN*
+   **CPI****Tâche 1** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-   *ELSE* ICP = CPI_Labor\
-   **ICP**&#x200B;**Tâche 1** = (1 250 + 300) / (5 000 + 4 500)\
-   **ICP**&#x200B;**Tâche 1** = 1 550 / 9 500 =\
-   **ICP**&#x200B;**Tâche 1** = 0,16
+   * SINON* ICP = CPI_Labor\
+     **ICP****Tâche 1** = (1 250 + 300) / (5 000 + 4 500)\
+     **ICP****Tâche 1** = 1 550 / 9 500=\
+     **ICP****Tâche 1** = .16
 
 1. L’EAC de la tâche 1 est de 17 100 $, calculé comme suit :\
-   **ICP de main-d’œuvre**&#x200B;**Tâche 1** = IF Coût réel de main-d’œuvre &lt;> 0 THEN
+   **ICP de main-d’œuvre****Tâche 1** = IF Coût réel de main-d’œuvre &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
-   ELSE CPI_Labor = 1\
-   **ICP de main-d’œuvre**&#x200B;**Tâche 1** = 1 250 / 5 000\
-   **ICP de main-d’œuvre**&#x200B;**Tâche 1** = 0,25
+   SINON CPI_Labor = 1\
+   **ICP de main-d’œuvre****Tâche 1** = 1 250 / 5 000\
+   **ICP de main-d’œuvre****Tâche 1** = 0,25
 
-   **EAC de main-d’œuvre**&#x200B;**Tâche 1** = *IF* CPI_Labor &lt;> 0 *THEN* EAC de main-d’œuvre = Coût prévu de main-d’œuvre / CPI_Labor\
-   *ELSE* EAC de main-d’œuvre = Coût prévu de main-d’oeuvre + Coût réel de main-d’oeuvre\
-   **EAC de main-d’œuvre**&#x200B;**Tâche 1** = 3 000,00 $ / 0,25\
-   **EAC de main-d’œuvre**&#x200B;**Tâche 1** = 12 000 $
+   **EAC de main-d’œuvre****Tâche 1** = *IF* CPI_Labor &lt;> 0 *THEN* EAC de main-d’œuvre = Coût prévu de main-d’œuvre / CPI_Labor
+   * SINON* CRE Main-d&#39;œuvre = Coût prévu de main-d&#39;œuvre + Coût réel de main-d&#39;œuvre\
+     **EAC de main-d’œuvre****Tâche 1** = 3 000,00 $ / 0,25\
+     **EAC de main-d’œuvre****Tâche 1** = 12 000 $
 
-   **EAC des dépenses**&#x200B;**Tâche 1** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
-   **EAC des dépenses**&#x200B;**Tâche 1** = 4 500 $ + 600 $\
-   **EAC des dépenses**&#x200B;**Tâche 1** = 5 100,00 $
+   **EAC des dépenses****Tâche 1** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
+   **EAC des dépenses****Tâche 1** = 4 500 $ + 600 $\
+   **EAC des dépenses****Tâche 1** = 5 100,00 $
 
-   **EAC**&#x200B;**Tâche 1** = EAC de main-d’oeuvre + EAC des dépenses\
-   **EAC**&#x200B;**Tâche 1** = 12 000,00 $ + 5 100,00\
-   **EAC**&#x200B;**Tâche 1** = 17 100,00 $
+   **EAC****Tâche 1** = EAC de main-d’oeuvre + EAC des dépenses\
+   **CRE****Tâche 1** = 12 000 $ + 5 100 $\
+   **CRE****Tâche 1** = 17 100 $
 
 1. L’ICP du projet est de 0,25.\
-   **ICP**&#x200B;**du projet** = *IF* Coût réel de main-d’oeuvre + Coût des dépenses réelles engagées &lt;> 0 *THEN*
+   **ICP****pour le projet** = *IF* Coût réel de la main-d’œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-   *ELSE* ICP = CPI_Labor
+   * SINON* ICP = CPI_Labor
 
-   **ICP**&#x200B;**du projet** = (2 450 + 1 900) / (11 000 + 6 700)\
-   **ICP**&#x200B;**du projet** = 4 350 / 17 700\
-   **ICP**&#x200B;**du projet** = 0,25
+   **ICP****du projet** = (2 450 + 1 900) / (11 000 + 6 700)\
+   **ICP****pour le projet** =   4350 / 17700\
+   **ICP****du projet** = 0,25
 
 1. **EAC du projet** = 32 248,98 $ calculé comme suit :\
-   **ICP du coût de main-d’œuvre**&#x200B;**pour le projet** = IF Coût réel de main-d’œuvre &lt;> 0 THEN
+   **ICP du coût de main-d’œuvre****pour le projet** = IF Coût réel de main-d’œuvre &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
-   ELSE CPI_Labor = 1\
-   **ICP du coût de main-d’œuvre**&#x200B;**pour le projet** = 2 450 / 11 000\
-   **ICP du coût de main-d’œuvre**&#x200B;**pour le projet** = 0,22272\
-   **ICP du coût de main-d’œuvre**&#x200B;**pour le projet** = 0,22
+   SINON CPI_Labor = 1\
+   **ICP du coût de main-d’œuvre****pour le projet** = 2 450 / 11 000\
+   **ICP du coût de main-d’œuvre****pour le projet** = 0,22272\
+   **ICP du coût de main-d’œuvre****pour le projet** = 0,22
 
-   **EAC de main-d’œuvre**&#x200B;**pour le projet** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC de main-d’œuvre****pour le projet** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
-   *ELSE* EAC de main-d’œuvre = Coût prévu de main-d’oeuvre + Coût réel de main-d’œuvre\
-   **EAC de main-d’œuvre**&#x200B;**pour le projet** = 5 000,00 $ / 0,22272\
-   **EAC de main-d’œuvre**&#x200B;**pour le projet** = 22 448,97959 $\
-   **EAC de main-d’œuvre**&#x200B;**pour le projet** = 22 448,98 $
+   * SINON* CRE Main-d&#39;œuvre = Coût prévu de main-d&#39;œuvre + Coût réel de main-d&#39;œuvre\
+     **EAC de main-d’œuvre****pour le projet** = 5 000,00 $ / 0,22272\
+     **EAC de main-d’œuvre****pour le projet** = 22 448,97959 $\
+     **EAC de main-d’œuvre****pour le projet** = 22 448,98 $
 
-   **EAC des dépenses**&#x200B;**pour le projet** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
-   **EAC des dépenses**&#x200B;**pour le projet** = 3 100 $ + 6 700 $\
-   **EAC des dépenses**&#x200B;**pour le projet** = 9 800 $
+   **EAC des dépenses****pour le projet** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
+   **EAC des dépenses****pour le projet** = 3 100 $ + 6 700 $\
+   **EAC des dépenses****pour le projet** = 9 800 $
 
-   **EAC**&#x200B;**pour le projet** = EAC de main-d’oeuvre + EAC des dépenses\
-   **EAC**&#x200B;**pour le projet** = 22 448,98 $ + 9 800,00\
-   **EAC**&#x200B;**pour le projet** = 32 248,98 $
+   **EAC****pour le projet** = EAC de main-d’oeuvre + EAC des dépenses\
+   **CRE****Projet** = 22 448,98 $ + 9 800,00 $\
+   **CRE****Projet** = 32 248,98 $

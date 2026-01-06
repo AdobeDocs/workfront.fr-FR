@@ -6,10 +6,10 @@ description: Lorsque vous commencez à travailler sur un objectif et qu’il n�
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 77%
+source-wordcount: '590'
+ht-degree: 81%
 
 ---
 
@@ -36,7 +36,7 @@ Lorsque vous commencez à travailler sur un objectif et qu’il n’est plus per
 </col>
 <tbody>
  <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -178,12 +178,10 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+{{step1-to-goals}}
 
-   La liste des objectifs s’affiche.
+La liste des objectifs s’affiche.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 
 1. (Facultatif) Modifiez vos filtres pour n’afficher que les objectifs actifs.
 
@@ -235,12 +233,10 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Cliquez sur l’icône du menu principal ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+{{step1-to-goals}}
 
-   La liste des objectifs s’affiche.
+La liste des objectifs s’affiche.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 1. Cliquez sur le nom d’un objectif. La page de l’objectif s’ouvre.
 1. Cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Supprimer l’objectif** et **Supprimer**.
 

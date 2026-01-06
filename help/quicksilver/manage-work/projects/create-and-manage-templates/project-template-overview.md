@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des modèles de projet pour capturer la plupar
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,7 @@ Voici quelques-uns des avantages de l’utilisation de modèles pour la créatio
 
 Tenez compte des éléments suivants lors de la création de modèles :
 
-* N’affectez pas les personnes à des tâches de modèle.Bien que vous puissiez laisser les tâches non affectées, nous vous recommandons d’attribuer des fonctions aux tâches. Cela vous donnera une idée des personnes qui pourront être affectées aux tâches lorsque vous créerez le projet à l’aide du modèle.
+* N’affectez pas d’utilisateurs aux tâches de modèles. Bien que vous puissiez laisser les tâches non affectées, nous vous recommandons d’affecter des fonctions aux tâches. Cela vous donnera une idée des personnes qui pourront être affectées aux tâches lorsque vous créerez le projet à l’aide du modèle.
 * Attribuez toujours aux tâches de votre modèle une valeur de durée et de nombre d’heures prévues. Chaque tâche du projet doit être associée à une durée pour savoir combien de temps la tâche peut rester ouverte et à une valeur de nombre d’heures prévues pour savoir combien de temps il faudra pour que la tâche soit achevée. Le budget des ressources associées aux tâches qui ne disposent pas de ces informations ne peut pas être planifié correctement lors de l’utilisation des outils de gestion des ressources dans Workfront.
 
   Pour plus d’informations sur la durée, voir les articles suivants :

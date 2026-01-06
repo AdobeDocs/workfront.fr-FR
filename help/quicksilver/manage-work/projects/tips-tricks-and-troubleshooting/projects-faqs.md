@@ -4,10 +4,10 @@ description: Cet article contient les questions les plus fréquemment posées su
 author: Alina
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ Vous ne pouvez pas modifier le statut d’un projet pour qu’il se termine si v
 
 ### Réponse
 
-Si le mode d’achèvement du projet est défini sur Automatique, une fois toutes les tâches et tous les problèmes terminés, le statut du projet passe automatiquement à Terminé et vous ne pouvez pas le modifier vers un autre statut. Le mode d’achèvement du projet doit être défini sur Manuel pour pouvoir faire passer un projet de Terminé à En cours. Pour plus d’informations, voir [Le statut du projet ne passe pas de Terminé à Actif](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Si le mode d’achèvement du projet est défini sur Automatique, une fois toutes les tâches et tous les problèmes terminés, le statut du projet passe automatiquement à Terminé et vous ne pouvez pas le modifier vers un autre statut. Le mode d&#39;achèvement du projet doit être défini sur Manuel pour pouvoir transformer un projet complet en projet actuel. Pour plus d’informations, voir [Le statut du projet ne passe pas de Terminé à Actif](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
 ## Pourquoi ne puis-je pas ajouter un projet à un portfolio alors que je dispose des autorisations appropriées pour le faire ?
 

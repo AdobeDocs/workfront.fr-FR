@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des commentaires à tous les objectifs que vous
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 47%
+source-wordcount: '209'
+ht-degree: 55%
 
 ---
 
@@ -49,7 +49,7 @@ Vous pouvez ajouter des commentaires à tous les objectifs que vous pouvez affic
 </col>
 <tbody>
  <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -138,8 +138,10 @@ Vous pouvez ajouter des commentaires à tous les objectifs que vous pouvez affic
 
 Vous pouvez ajouter des commentaires aux objectifs dans la section des mises à jour de la page de l’objectif.
 
-1. Cliquez sur l&#39;icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Objectifs**.
+{{step1-to-goals}}
+
 La liste des objectifs s’ouvre.
+
 1. Localisez l’objectif pour lequel vous souhaitez ajouter des commentaires, puis cliquez sur son nom pour ouvrir la page de l’objectif.
 1. Cliquez sur **Mises à jour** dans le panneau de gauche.
 

@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
@@ -138,7 +138,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      >
      >Selon la manière dont votre équipe d’administration Workfront ou votre administrateur ou administratrice de groupes configure les préférences de votre projet, Workfront peut utiliser le planning de la personne propriétaire de la tâche pour calculer la chronologie de la tâche lorsque plusieurs utilisateurs et utilisatrices sont affectés à la tâche. Pour plus d’informations sur les tâches à plusieurs personnes cessionnaires, voir la section « Affecter plusieurs utilisateurs et utilisatrices à une tâche » dans l’article [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Allocations** : lorsque le type de durée d’une tâche est Simple, indiquez le nombre d’heures auxquelles chaque utilisateur ou utilisatrice ou fonction doit être affecté à la tâche. La somme de toutes les heures affectées de chaque utilisateur ou utilisatrice est égale au nombre indiqué dans le champ **Nombre d’heures prévues** au bas de la colonne Allocations. Dans tous les autres cas, indiquez le pourcentage de temps (ou allocation) que vous souhaitez que la personne cessionnaire passe à résoudre la tâche ou le problème.
+   * **Allocations** : lorsque le type de durée d’une tâche est Simple, indiquez le nombre d’heures auxquelles chaque utilisateur ou utilisatrice ou fonction doit être affecté à la tâche. La somme de toutes les heures affectées de chaque utilisateur ou utilisatrice est égale au nombre indiqué dans le champ **Nombre d’heures prévues** au bas de la colonne Allocations. Dans tous les autres cas, indiquez le pourcentage de temps (ou d’affectation) que la personne désignée doit consacrer à la résolution de la tâche ou du problème.
 
      >[!TIP]
      >   

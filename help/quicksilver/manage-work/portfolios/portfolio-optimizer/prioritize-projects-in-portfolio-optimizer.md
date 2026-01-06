@@ -6,10 +6,10 @@ description: Vous pouvez hiérarchiser vos projets dans l’Optimisateur de port
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 91%
+source-wordcount: '491'
+ht-degree: 93%
 
 ---
 
@@ -94,9 +94,8 @@ Tenez compte des points suivants lorsque vous utilisez [!UICONTROL l’Optimisat
 
 ## Modifier la priorité des projets dans l’[!UICONTROL Optimisateur de portfolio]
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-portfolios}}
 
-1. Cliquez sur **[!UICONTROL Portfolios]**.
 1. (Facultatif) Sélectionnez le filtre approprié dans le menu déroulant **[!UICONTROL Filtrer]** pour afficher la liste appropriée de portfolios.
 1. Cliquez sur le nom d’un portfolio pour l’ouvrir.
 1. Cliquez sur **[!UICONTROL Optimisation de portfolio]** dans le panneau de gauche.

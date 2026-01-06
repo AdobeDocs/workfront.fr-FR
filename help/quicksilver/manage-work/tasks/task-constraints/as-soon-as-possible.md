@@ -7,7 +7,7 @@ description: Aussi tôt que possible est une contrainte de tâche qui place l’
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 98%
@@ -26,7 +26,7 @@ Aussi tôt que possible est une contrainte de tâche qui place l’heure de déb
 
   Pour plus d’informations sur l’emplacement où définir la contrainte par défaut pour une nouvelle tâche, consultez la section [Configurer des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Pour plus d’informations sur la mise à jour d’une contrainte de tâche, voir [Mettre à jour la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour de la contrainte de tâche, voir [Mettre à jour la contrainte de tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -45,7 +45,7 @@ Pour plus d’informations sur la mise à jour d’une contrainte de tâche, voi
 ## Différence entre Première heure disponible et Aussi tôt que possible
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"]) </p>
 -->
 
 La contrainte Première heure disponible diffère de la contrainte Aussi tôt que possible lorsque tous les critères suivants sont remplis :

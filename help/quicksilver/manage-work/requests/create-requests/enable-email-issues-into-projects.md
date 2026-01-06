@@ -6,7 +6,7 @@ description: Vous pouvez configurer un projet pour permettre aux utilisateurs d�
 author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 82%
@@ -18,7 +18,7 @@ ht-degree: 82%
 <!-- Audited: 4/2025 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
 Vous pouvez configurer un projet pour permettre aux utilisateurs et utilisatrices d’ajouter des problèmes au projet par e-mail. Vous ne pouvez autoriser l&#39;envoi d&#39;e-mails pour des problèmes dans un projet que si le projet est désigné comme une file d&#39;attente des demandes. Pour plus d’informations sur la création d’un projet de file d’attente des demandes, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -32,7 +32,7 @@ Vous pouvez configurer un projet pour permettre aux utilisateurs et utilisatrice
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ Les conditions suivantes sont requises pour configurer un projet afin de permett
 >* Workfront autorise un e-mail unique par file d’attente des demandes dans tous les clusters. Si vous choisissez de désactiver la file d’attente des demandes, vous conserverez l’adresse e-mail que vous avez créée tant qu’elle se trouve toujours dans la zone Adresse e-mail de réception. Si vous choisissez d’arrêter l’utilisation de l’adresse e-mail de réception, vous devez la supprimer du champ Adresse e-mail de réception afin qu’elle puisse être utilisée ultérieurement.
 >
 >* Si la file d’attente des demandes comporte plusieurs rubriques ou groupes de rubriques de file d’attente, Workfront sélectionne aléatoirement la rubrique de file d’attente à laquelle les demandes envoyées par e-mail seront envoyées, ce qui rend les demandes envoyées par e-mail difficiles à gérer.
->  &#x200B;>Nous recommandons que le projet que vous configurez pour recevoir des demandes par e-mail ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
+>Nous recommandons que le projet que vous configurez pour recevoir des demandes par e-mail ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
 
 1. Accédez au projet sur lequel vous souhaitez activer la réception des problèmes par e-mail.
 1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche.
@@ -94,7 +94,7 @@ Les conditions suivantes sont requises pour configurer un projet afin de permett
    >
    >* Comme cette adresse e-mail doit être unique, elle risque de ne plus être disponible à l’avenir si elle est supprimée.
    <!--
-   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
+   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in Workfront. Only emails created from this email address are added as issues.
    -->
 
 1. (Facultatif) Sélectionnez **Transférer tous les problèmes qui ne peuvent pas être envoyés par e-mail**, puis saisissez une adresse e-mail de transfert dans la zone ci-dessous.

@@ -5,10 +5,10 @@ description: Vous pouvez utiliser le business case pour demander un projet et d�
 author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
@@ -85,7 +85,7 @@ Tenez compte des points suivants lorsque vous demandez un projet par le biais d�
 
 1. (Conditionnel) Si vous avez choisi de joindre un modèle, continuez à joindre le modèle au projet.
 1. Dans le volet de gauche, cliquez sur **Analyse de rentabilité**.
-1. (Facultatif) Pour modifier la section **Informations sur le projet**, cliquez sur **Modifier les informations du projet**. 
+1. (Facultatif) Pour modifier la section **Informations sur le projet**, cliquez sur **Modifier les informations du projet**.
 
    Pour plus d’informations sur la modification des champs de section **Informations sur le projet**, consultez la section [Informations sur le projet](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) dans l’article [Présentation des domaines de l’analyse de rentabilité](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
@@ -116,13 +116,13 @@ Tenez compte des points suivants lorsque vous demandez un projet par le biais d�
 
    Pour plus d’informations sur Custom Forms, consultez l’article [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Cliquez sur **Soumettre**. Le statut du projet passe à **Demandé** et il est soumis pour approbation du business case.
+1. Cliquez sur **Envoyer**. Le statut du projet passe à **Demandé** et il est soumis pour approbation du business case.
 
    Pour plus d’informations sur l’approbation d’un business case, voir l’article [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 
 >[!TIP]
 >
-> Une fois l’analyse de rentabilité terminée, vous pouvez en exporter une copie dans un fichier .pdf. Pour plus d’informations sur l’exportation de l’analyse de rentabilité dans un fichier .pdf, voir [Exporter l’analyse de rentabilité d’un projet](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
+> Une fois l’analyse de rentabilité terminée, vous pouvez en exporter une copie dans un fichier .pdf. Pour plus d’informations sur l’exportation de l’analyse de rentabilité dans un fichier .pdf, voir [Exporter l’analyse de rentabilité d’un projet](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
 
 

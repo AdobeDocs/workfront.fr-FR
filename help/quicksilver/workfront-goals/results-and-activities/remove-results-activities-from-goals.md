@@ -7,10 +7,10 @@ description: Vous pouvez supprimer les résultats, les activités et les projets
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 83%
+source-wordcount: '646'
+ht-degree: 85%
 
 ---
 
@@ -49,7 +49,7 @@ Vous pouvez supprimer l’alignement entre les objectifs en supprimant la connex
 </col>
 <tbody>
  <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -187,11 +187,9 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-   Cela ouvre la zone Objectifs Workfront et la Liste des objectifs s’affiche par défaut.
+Cela ouvre la zone Objectifs Workfront et la Liste des objectifs s’affiche par défaut.
 
 1. Cliquez sur le nom d’un objectif duquel vous souhaitez supprimer des résultats et des activités.
 
@@ -232,12 +230,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Cliquez sur l’icône **Menu Principal** dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Cela ouvre la zone Objectifs Workfront et la Liste des objectifs s’affiche par défaut.
+Cela ouvre la zone Objectifs Workfront et la Liste des objectifs s’affiche par défaut.
 
 1. Cliquez sur le nom d’un objectif duquel vous souhaitez supprimer des résultats et des activités.
 

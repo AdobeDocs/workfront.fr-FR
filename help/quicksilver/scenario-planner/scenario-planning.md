@@ -8,7 +8,7 @@ author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 90%
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 Cette section contient les articles suivants :
 
-* [Vue d’ensemble du  [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)
+* [Vue d’ensemble du  [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)
 * [Commencer avec le  [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
 * [Accès requis pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
 * [Vue d’ensemble des plans dans le  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)
@@ -40,4 +40,4 @@ Cette section contient les articles suivants :
 * [Afficher l’affectation des rôles pour les projets et les initiatives dans la liste des tâches](../scenario-planner/show-role-allocation-task-list-nwe.md)
 * [Afficher l’affectation des rôles pour les projets et les initiatives dans l’[!UICONTROL Équilibreur de charge de travail]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
- 
+

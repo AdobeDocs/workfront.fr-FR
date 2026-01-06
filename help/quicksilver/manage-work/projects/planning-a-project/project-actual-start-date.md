@@ -7,10 +7,10 @@ description: Les projets, les tâches et les problèmes ont une date de début e
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 95%
+source-wordcount: '525'
+ht-degree: 54%
 
 ---
 
@@ -27,7 +27,7 @@ Les projets, les tâches et les problèmes ont une date de début effective dans
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -75,20 +75,20 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
  </tbody> 
 </table>-->
 
-## Remarques concernant les dates de début effectives dans Workfront
+## Considérations relatives aux dates de début effectives dans Workfront
 
-* La date de début effective se trouve dans la section Détails des projets, tâches et problèmes. 
-* La date de début effective d’un projet, d’une tâche ou d’un problème n’est pas renseignée lors de la création de ces éléments.
-* La date de début effective est renseignée lorsque le travail commence réellement sur le projet, la tâche ou le problème.
-* La date de début effective ne s’affiche pas dans l’onglet Détails du projet si le travail sur le projet n’a pas encore commencé.
+* La date de début effective se trouve dans la section Détails des projets, tâches et problèmes.
+* La date de début effective d&#39;un projet, d&#39;une tâche ou d&#39;un événement n&#39;est pas renseignée lorsque ces éléments sont créés.
+* La date de début effective est renseignée lorsque le travail commence réellement sur le projet, la tâche ou l&#39;événement.
+* La date de début réelle ne s’affiche pas dans l’onglet Détails du projet si le travail n’a pas encore commencé.
 
-  La date de début effective est vide dans les onglets Détails de la tâche et du problème si le travail n’a pas encore commencé dessus.
+  La date de début réelle apparaît vide dans les onglets Détails de la tâche et de l&#39;événement si le travail n&#39;a pas encore commencé.
 
-* Vous pouvez modifier manuellement la date de début effective d’une tâche ou d’un problème, mais vous ne pouvez pas modifier la date de début effective d’un projet.
+* Vous pouvez modifier manuellement la date de début réelle d&#39;une tâche ou d&#39;un événement, mais vous ne pouvez pas modifier la date de début réelle d&#39;un projet.
 
-## Remarques concernant les dates de début effectives des projets
+## Considérations relatives aux dates de début effectives des projets
 
-* Workfront définit automatiquement la date effective d’un projet lorsque l’un des événements suivants se produit :
+* Workfront définit automatiquement la date effective d’un projet dans les cas suivants :
 
    * Une personne cessionnaire de tâche modifie le statut d’une tâche, passant de *Nouveau* à tout autre statut qui n’équivaut pas à *Nouveau*.
 
@@ -96,24 +96,25 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
      >[!IMPORTANT]
      >
-     >La date de début effective du projet n’est pas renseignée lorsque le projet est marqué comme Actuel.Le travail effectif doit commencer sur les tâches du projet avant que la date de début effective du projet ne soit renseignée.
+     >La date de début effective du projet n&#39;est pas renseignée lorsque le projet est marqué comme Actuel. Le travail réel doit commencer sur les tâches du projet avant que la date de début réelle du projet ne soit renseignée.
 
      Dans ce cas, la date de début effective du projet est définie sur la date et l’heure auxquelles ces actions se sont produites pour la première tâche du projet. Cela indique que le projet a réellement commencé à cette date et cette heure.
 
-## Localiser la date de début effective d’un projet
+## Localiser la date de début réelle d’un projet
 
-Vous pouvez localiser la date de début effective d’un projet dans les zones suivantes :
+La date de début réelle d&#39;un projet se trouve dans les zones suivantes :
 
 * dans la section Détails d’un projet ;
-* dans un rapport ou une vue de projet, lorsque vous ajoutez la date de début effective de l’objet Projet dans le rapport.
+* Dans un rapport ou une vue de projet, lorsque vous ajoutez la date de début effective de l&#39;objet Projet dans le rapport.
 
   Pour plus d’informations sur la création de rapports, consultez l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Pour localiser la date de début effective dans la section Détails du projet, procédez comme suit :
+Pour localiser la date de début réelle dans la section Détails du projet :
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Projets**.
+{{step1-to-projects}}
+
 1. Cliquez sur le projet pour lequel vous souhaitez afficher la date de début effective.
-1. Cliquez sur **Détails du projet** dans le panneau de gauche, puis accédez à la section **Vue d’ensemble**.
+1. Cliquez sur **Détails du projet** dans le panneau de gauche, puis accédez à la section **Aperçu**.
 
    La date de début effective s’affiche avec les autres dates du projet.
 

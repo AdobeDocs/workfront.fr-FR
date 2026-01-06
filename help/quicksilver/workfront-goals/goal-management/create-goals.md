@@ -6,10 +6,10 @@ description: Que vous soyez une personne chargée de la direction générale, un
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 86%
+source-wordcount: '635'
+ht-degree: 88%
 
 ---
 
@@ -36,7 +36,7 @@ Que vous soyez une personne chargée de la direction générale, une personne re
 </col>
 <tbody>
  <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -219,12 +219,10 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+La liste des objectifs s’affiche.
 
-   La liste des objectifs s’affiche.
 1. Cliquez sur **Nouvel objectif**.
 
    La zone Nouvel objectif s’affiche.

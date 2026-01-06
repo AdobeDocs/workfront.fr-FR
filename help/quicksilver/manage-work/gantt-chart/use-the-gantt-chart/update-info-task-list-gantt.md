@@ -6,7 +6,7 @@ description: Le graphique Gantt d’une liste de tâches Adobe Workfront affiche
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 91%
@@ -101,7 +101,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Toutes les modifications sont sauvegardées automatiquement lorsque l’option **[!UICONTROL Enregistrement automatique]** est activée. Elle est activée par défaut.
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planificaiton chronologique]** pour enregistrer vos modifications manuellement.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planification chronologique]** pour enregistrer vos modifications manuellement.
 
    ![Paramètre manuel activé](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -131,7 +131,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    ![Cliquer sur l’icône Graphique de Gantt](assets/click-gantt-chart-icon.png)
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planificaiton chronologique]** pour enregistrer vos modifications manuellement.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planification chronologique]** pour enregistrer vos modifications manuellement.
 
    ![Paramètre manuel activé](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -163,7 +163,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    ![Cliquer sur l’icône Graphique de Gantt](assets/click-gantt-chart-icon.png)
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planificaiton chronologique]** pour enregistrer vos modifications manuellement.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Mode Plan]** et sélectionnez **[!UICONTROL Enregistrement manuel standard]** ou **[!UICONTROL Planification chronologique]** pour enregistrer vos modifications manuellement.
 
    ![Paramètre manuel activé](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -246,7 +246,7 @@ Pour plus d’informations sur le nivellement des ressources dans le [!UICONTROL
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this is drafted because I moved the whole content to the article linked above)</p>
+<p>(NOTE: this is drafted because I moved the whole content to the article linked above)</p>
 <ol>
 <li value="1">Go to the project you want to level.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> In the <strong>Tasks</strong> area, click the <strong>Gantt chart</strong> icon.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">All changes are saved automatically when the <strong>Autosave</strong> option is enabled. It is enabled by default. </p> </li>

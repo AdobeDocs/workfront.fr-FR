@@ -6,7 +6,7 @@ description: Les informations affichées dans l’application web  [!DNL Workfro
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 72%
@@ -19,7 +19,7 @@ ht-degree: 72%
 
 Les informations affichées dans l’application web [!DNL Workfront] sont souvent affichées par défaut dans les sections du panneau de gauche. Chaque section contient des informations différentes sur une zone ou un objet [!DNL Workfront].
 
-Pour plus d’informations sur les zones par défaut de [!DNL Workfront], voir l’article [À propos de la mise en page par d’ [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Pour plus d’informations sur les zones par défaut de [!DNL Workfront], voir l’article [À propos de la mise en page par d’ [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 Outre les sections fournies avec [!DNL Workfront] par défaut, vous pouvez ajouter un tableau de bord sur lequel afficher les informations relatives à votre workflow. Vous ne pouvez pas ajouter de tableau de bord à toutes les zones et tous les objets.
 
@@ -28,16 +28,16 @@ Le tableau suivant répertorie toutes les zones et tous les objets [!DNL Workfro
 | Zone ou objet **[!DNL Workfront]** | **Sections système par défaut** | **Tableaux de bord** |
 |---|---|---|
 | Zone [!UICONTROL Projets] | ✓ | ✓ |
-| [!UICONTROL Équipe] | ✓ |   |
-| Zone [!UICONTROL Demandes] | ✓ |   |
-| Zone [!UICONTROL Feuilles de temps] | ✓ |   |
+| [!UICONTROL Équipe] | ✓ |    |
+| Zone [!UICONTROL Demandes] | ✓ |    |
+| Zone [!UICONTROL Feuilles de temps] | ✓ |    |
 | [!UICONTROL Portfolio] | ✓ | ✓ |
 | [!UICONTROL Programme] | ✓ | ✓ |
 | [!UICONTROL Projet] | ✓ | ✓ |
-| [!UICONTROL Tâche] | ✓ |  ✓ |
-| [!UICONTROL Problème] |  ✓ |  ✓ |
-| [!UICONTROL Utilisateur ou utilisatrice] |  ✓ |  ✓ |
-| [!UICONTROL Document] |  ✓ |  ✓ |
+| [!UICONTROL Tâche] | ✓ | ✓ |
+| [!UICONTROL Problème] | ✓ | ✓ |
+| [!UICONTROL Utilisateur ou utilisatice] | ✓ | ✓ |
+| [!UICONTROL Document] | ✓ | ✓ |
 | Zone [!UICONTROL Ressources] | ✓ | ✓ |
 
 {style="table-layout:auto"}
@@ -51,7 +51,7 @@ Le tableau suivant répertorie toutes les zones et tous les objets [!DNL Workfro
  <col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

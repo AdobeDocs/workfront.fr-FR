@@ -6,10 +6,10 @@ description: Vous pouvez modifier les objectifs existants de n’importe quelle 
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 78%
+source-wordcount: '563'
+ht-degree: 80%
 
 ---
 
@@ -36,7 +36,7 @@ Vous pouvez modifier les objectifs existants de n’importe quelle période et d
 </col>
 <tbody>
  <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -191,8 +191,10 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png), puis sur **Objectifs**.\
-   Une liste d’objectifs s’affiche.
+{{step1-to-goals}}
+
+Une liste d’objectifs s’affiche.
+
 1. Cliquez sur un objectif.\
    La page de l’objectif s’affiche.
 

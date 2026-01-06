@@ -6,14 +6,14 @@ description: Les objectifs dont la progression est En difficulté risquent de ne
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 88%
+source-wordcount: '748'
+ht-degree: 77%
 
 ---
 
-# Examiner les objectifs en difficulté dans les Objectifs Adobe Workfront
+# Revoir les objectifs en difficulté dans Objectifs Adobe Workfront
 
 <!--Audited: 4/2025-->
 
@@ -40,7 +40,7 @@ Les objectifs dont la progression est En difficulté risquent de ne pas être at
 </col>
 <tbody>
  <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -128,9 +128,9 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 </tbody>
 </table>-->
 
-## Recommandations pour éviter que la progression des objectifs ne devienne En difficulté.
+## Recommandations pour empêcher les objectifs d’atteindre une progression de En difficulté
 
-Avant que la progression des objectifs ne devienne En difficulté, vous pouvez les surveiller régulièrement et ajuster leur progression lorsque celle-ci devient En danger. Les objectifs En danger risquent de se retrouver En difficulté.Pour plus d’informations sur la progression des objectifs, voir [Vue d’ensemble de la progression et du statut des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
+Avant que les objectifs n’atteignent une progression de En difficulté, vous pouvez les surveiller souvent et ajuster leur progression lorsqu’ils atteignent une progression de À risque. Les objectifs qui sont en danger le sont également. Pour plus d’informations sur la progression de l’objectif, voir [Présentation de la progression et de la condition des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Avant que la progression de vos objectifs ne devienne En difficulté, nous vous recommandons ce qui suit :
 
@@ -139,16 +139,13 @@ Avant que la progression de vos objectifs ne devienne En difficulté, nous vous 
 
 ## Examiner les objectifs En difficulté dans la liste des objectifs
 
-Vous pouvez examiner les objectifs dans n’importe quelle section des Objectifs Workfront.Pour plus d’informations sur les sections d’Objectifs Workfront, voir [Vue d’ensemble des sections d’Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Vous pouvez consulter les objectifs dans n’importe quelle section des objectifs Workfront. Pour plus d’informations sur les sections Objectifs Workfront, voir [Présentation des sections Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 Cet article décrit comment passer en revue les objectifs dans la liste des objectifs.
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   La zone Objectifs Workfront s’ouvre et la section Liste des objectifs s’affiche par défaut.
+La zone Objectifs Workfront s’ouvre et la section Liste des objectifs s’affiche par défaut.
 
 1. (Recommandé) Ajustez les filtres suivants pour la zone Liste des objectifs afin d’examiner les objectifs En danger :
 

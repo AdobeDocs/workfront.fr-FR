@@ -8,10 +8,10 @@ description: Les mesures de projet vous permettent de visualiser le déroulement
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 98%
+source-wordcount: '1206'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Les mesures de projet vous offrent une vue d’ensemble, sous forme de graphique
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ Pour accéder à la zone Mesures via le panneau de gauche d’un projet, vous de
 
 Les mesures de projet vous permettent de visualiser le déroulement d’un projet et ainsi d’évaluer rapidement ses besoins et son statut d’avancement.
 
-![](assets/project-metrics-full-screen-350x238.png)
+![Mesures du projet](assets/project-metrics-full-screen-350x238.png)
 
 Dans la zone Mesures, vous pouvez consulter l’intégrité globale d’un projet, ainsi que les éléments suivants :
 
@@ -111,7 +111,7 @@ Pour en savoir plus sur l’examen de ces tâches ou problèmes, voir [Afficher 
 
 Les indicateurs clés de performance (KPI) s’affichent en haut de la zone Mesures.
 
-![](assets/project-metrics-kpis-350x52.png)
+![Mesures du projet](assets/project-metrics-kpis-350x52.png)
 
 Ces KPI sont répartis dans les catégories suivantes :
 
@@ -124,7 +124,7 @@ Ces KPI sont répartis dans les catégories suivantes :
 >[!TIP]
 >
 >Pour afficher la liste des éléments de travail d’un KPI spécifique, cliquez sur ce dernier. Dans cette liste, vous pouvez cliquer sur un élément de travail spécifique pour afficher plus de détails dans un nouvel onglet.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Tâches terminées](assets/completed-tasks-dialog-350x75.png)\
 >Pour plus d’informations, consultez la section [Afficher les détails des mesures](#view-metrics-details).
 
 ## Graphe à barres des tâches ou des problèmes
@@ -133,23 +133,23 @@ Dans le graphe à barres qui apparaît sous les KPI du projet, vous pouvez consu
 
 Lorsque le statut est sélectionné dans ce graphe, vous pouvez visualiser tous les statuts des tâches ou des problèmes d’un projet. Chaque statut est représenté par une barre dans le graphe. Tous les statuts du système par défaut et personnalisés s’affichent dans ce graphe.
 
-![](assets/project-metrics-task-issue-by-status-350x120.png)
+![Événement de tâche par statut](assets/project-metrics-task-issue-by-status-350x120.png)
 
 Lorsque la priorité est sélectionnée dans ce graphe, vous pouvez visualiser toutes les priorités des tâches ou des problèmes d’un projet.
 
-![](assets/project-metrics-task-issue-by-priority-350x121.png)
+![Tâches et événements par priorité](assets/project-metrics-task-issue-by-priority-350x121.png)
 
 >[!TIP]
 >
 >Pour afficher une liste des éléments de travail ayant un statut ou une priorité spécifique, cliquez sur une barre du graphique. Dans cette liste, vous pouvez cliquer sur un élément de travail spécifique pour afficher plus de détails dans un nouvel onglet.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Zone Tâches terminées](assets/completed-tasks-dialog-350x75.png)\
 >Pour plus d’informations, consultez la section [Afficher les détails des mesures](#view-metrics-details).
 
 ## Graphe en anneau
 
 Le graphe en anneau situé sous les KPI du projet vous permet d’évaluer le rapport entre les éléments de travail terminés et les éléments de travail incomplets dans un projet.
 
-![](assets/tasks-issues-by-complete-status-350x250.png)
+![Tâches ou événements par statut terminé](assets/tasks-issues-by-complete-status-350x250.png)
 
 Dans le menu déroulant au-dessus du graphe, vous pouvez sélectionner ce qui suit :
 
@@ -160,14 +160,14 @@ Dans le menu déroulant au-dessus du graphe, vous pouvez sélectionner ce qui su
 >[!TIP]
 >
 >Pour afficher une liste des éléments de travail terminés ou incomplets, cliquez sur la section appropriée dans le graphe en anneau. Dans cette liste, vous pouvez cliquer sur un élément de travail spécifique pour afficher plus de détails dans un nouvel onglet.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Zone Tâches terminées](assets/completed-tasks-dialog-350x75.png)\
 >Pour plus d’informations, consultez la section [Afficher les détails des mesures](#view-metrics-details).
 
 ## Graphe à barres des personnes cessionnaires
 
 Le graphe à barres des personnes cessionnaires indique le nombre de tâches affectées à chaque personne dans le projet. Ce nombre varie en fonction de la catégorie sélectionnée dans le menu déroulant.
 
-![](assets/tasks-issues-by-assignee-350x104.png)
+![Tâche et événements par personne désignée](assets/tasks-issues-by-assignee-350x104.png)
 
 Vous pouvez choisir de consulter les affectations de tâches d’un projet dans les catégories suivantes :
 
@@ -180,7 +180,7 @@ Vous pouvez choisir de consulter les affectations de tâches d’un projet dans 
 >[!TIP]
 >
 >Pour afficher la liste des éléments de travail de la catégorie sélectionnée qui sont affectés à une personne spécifique, cliquez sur la barre située en regard du nom de la personne dans le tableau. Dans cette liste, vous pouvez cliquer sur un élément de travail spécifique pour afficher plus de détails dans un nouvel onglet.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Zone Tâches terminées](assets/completed-tasks-dialog-350x75.png)\
 >Pour plus d’informations, consultez la section [Afficher les détails des mesures](#view-metrics-details).
 
 ## Afficher les détails des mesures {#view-metrics-details}
@@ -190,9 +190,9 @@ Vous pouvez interagir avec les graphes de la zone Mesures pour visualiser le con
 1. Accédez au projet pour lequel vous souhaitez consulter les mesures.
 1. Dans le panneau de gauche, cliquez sur **Mesures**.\
    Les graphes de la zone Mesures affichent par défaut des informations sur les tâches.\
-   ![](assets/metrics-section-350x298.png)
+   ![Section Mesures](assets/metrics-section-350x298.png)
 
-1. (Le cas échéant) Si une flèche déroulante s’affiche sur un graphe, cliquez sur l’icône **Flèche déroulante** ![](assets/dropdown-arrow.png) du graphe et sélectionnez l’option souhaitée dans le menu.\
+1. (Conditionnel) Si une flèche déroulante s’affiche sur un graphique, cliquez sur l’icône **Flèche déroulante** ![Flèche déroulante](assets/dropdown-arrow.png) du graphique et sélectionnez l’option de votre choix dans le menu.\
    Pour plus d’informations sur les options disponibles dans les menus de chaque graphe, consultez la section correspondante ci-dessus.
 
 1. (Facultatif) Pour examiner de plus près les tâches ou les problèmes relatifs à n’importe quelle mesure de la page, procédez comme suit :
@@ -201,7 +201,7 @@ Vous pouvez interagir avec les graphes de la zone Mesures pour visualiser le con
 
       Une liste de tâches ou de problèmes s’affiche.
 
-      ![](assets/completed-tasks-dialog-350x75.png)
+      ![Zone Tâches terminées](assets/completed-tasks-dialog-350x75.png)
 
    1. Utilisez les flèches en bas de la liste pour localiser la tâche ou le problème que vous souhaitez examiner.
 
@@ -209,13 +209,13 @@ Vous pouvez interagir avec les graphes de la zone Mesures pour visualiser le con
 
       Sélectionnez un numéro de page spécifique pour afficher les tâches ou les problèmes sur la page correspondante.
 
-      ![](assets/pagination-300x152.png)
+      ![ Pagination ](assets/pagination-300x152.png)
 
    1. Sélectionnez une tâche ou un problème pour afficher plus de détails.
 
       La tâche ou le problème s’ouvre dans un nouvel onglet.
 
-1. (Facultatif) Pour exporter le tableau de bord des mesures du projet dans un fichier .png, cliquez sur l’icône **Exporter** ![](assets/export.png), puis sélectionnez **Exporter au format PNG** dans le menu déroulant.
+1. (Facultatif) Pour exporter le tableau de bord des mesures du projet vers un fichier .png, cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export.png), puis sélectionnez **Exporter au format PNG** dans le menu déroulant.
 
    >[!TIP]
    >

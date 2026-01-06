@@ -7,7 +7,7 @@ description: La condition du projet est une représentation visuelle de la progr
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 100%
@@ -78,25 +78,25 @@ Dans ce cas, les valeurs de la condition du projet peuvent être les suivantes 
    <td><strong>Statut du projet</strong></td> 
    <td><strong>Statut de la progression du projet</strong></td> 
    <td><strong>Indicateur de condition Workfront</strong></td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Dans les temps</td> 
    <td>Lorsque le statut de la progression du projet est « À l’heure », la condition du projet est <strong>Dans les temps</strong>. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>En danger</td> 
    <td>Lorsque le statut de la progression du projet est <strong>En retard</strong> ou <strong>À risque</strong>, la condition du projet est <strong>À risque</strong>.</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>En difficulté</td> 
    <td>Lorsque le statut de la progression du projet est <strong>En retard</strong>, la condition du projet est <strong>En difficulté</strong>. </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

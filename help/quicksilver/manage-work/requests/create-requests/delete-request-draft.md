@@ -6,10 +6,10 @@ description: Vous pouvez supprimer des demandes envoyées ou des brouillons de d
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: d87df92f548b19901374e982d1759efade644e17
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 39%
+source-wordcount: '638'
+ht-degree: 36%
 
 ---
 
@@ -76,11 +76,12 @@ Vous pouvez supprimer des requêtes dans la zone des Requêtes de Workfront ou d
 
 ### Suppression d’une requête du menu à trois points
 
-1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
+{{step1-to-requests}}
 
 1. Pour accéder au widget Mes requêtes dans l’Accueil :
 
-   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   {{step1-to-home}}
+
    1. Recherchez le widget Mes requêtes .
 
       Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -106,11 +107,12 @@ Vous pouvez supprimer des requêtes dans la zone des Requêtes de Workfront ou d
 
 ### Requêtes de suppression en bloc
 
-1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
+{{step1-to-requests}}
 
 1. Pour accéder au widget Mes requêtes dans l’Accueil :
 
-   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   {{step1-to-home}}
+
    1. Recherchez le widget Mes requêtes .
 
       Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -130,7 +132,7 @@ Vous pouvez supprimer des demandes rédigées après qu’elles ont été enregi
 
 ### Conditions préalables à la suppression des brouillons de demande
 
-Vous devez effectuer les opérations suivantes avant de pouvoir supprimer un brouillon de demande :
+Vous devez effectuer les opérations suivantes avant de pouvoir supprimer un brouillon de demande :
 
 * Commencez à créer une demande. Cette opération enregistre automatiquement la demande en tant que brouillon dans la section Brouillons.
 

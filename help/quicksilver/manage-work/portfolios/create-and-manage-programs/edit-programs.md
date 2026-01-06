@@ -6,10 +6,10 @@ description: Vous pouvez modifier les informations des programmes que vous avez 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 57%
+ht-degree: 53%
 
 ---
 
@@ -81,7 +81,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Tout réduire]** en haut à droite pour réduire toutes les zones.
    1. (Facultatif et conditionnel) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![flèche pointant vers la droite](assets/right-pointing-arrow.png) en regard de chaque zone pour développer la zone à modifier.
    1. Pour plus d’informations sur les champs visibles dans la section [!UICONTROL Détails du programme], continuez à modifier le programme dans la section [!UICONTROL Modifier le programme] comme décrit ci-dessous.
-   1. (Facultatif) S’il n’existe aucun formulaire personnalisé associé au programme, commencez à saisir le nom d’un formulaire dans le champ **[!UICONTROL Ajouter un formulaire personnalisé]**, sélectionnez-le lorsqu’il s’affiche dans la liste, puis cliquez sur **[!UICONTROL Enregistrer les modifications]**.
+   1. (Facultatif) Si aucun formulaire personnalisé n’est joint au programme, commencez à saisir le nom d’un formulaire dans le champ **[!UICONTROL Ajouter un formulaire personnalisé]**, sélectionnez-le lorsqu’il s’affiche dans la liste, puis cliquez sur **[!UICONTROL Enregistrer les modifications]**.
    1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Exporter]** ![Icône Exporter](assets/export.png) pour exporter les informations [!UICONTROL Présentation] et de formulaires personnalisés dans un fichier PDF, puis cliquez sur **[!UICONTROL Exporter]**. Sélectionnez l’une des options suivantes :
 
       * Sélectionner tout (ne s’affiche que lorsqu’au moins un formulaire personnalisé est joint)
@@ -123,7 +123,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Cliquez sur **[!UICONTROL Vue d’ensemble]** et renseignez les champs suivants :
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below drafted for now)</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: note below drafted for now)</p>
    -->
 
    <!--

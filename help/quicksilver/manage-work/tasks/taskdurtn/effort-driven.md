@@ -7,10 +7,10 @@ description: « Piloté par l’effort » est un type de durée qui peut être
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 ## Vue d’ensemble du type de durée « Piloté par l’effort »
 
-L’administration Workfront ou un administrateur ou une administratrice de groupes peut définir le type de durée par défaut de votre système ou de votre groupe sur « Piloté par l’effort ».Dans ce cas, toutes les nouvelles tâches seront créées avec ce type de durée. Pour plus d’informations sur la modification de votre tâche et les préférences de problème dans le cadre de vos préférences de projet à l’échelle du système ou du groupe, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Votre Workfront ou un administrateur de groupes peut définir le type de durée par défaut de votre système ou de votre groupe comme piloté par l&#39;effort. Dans ce cas, toutes les nouvelles tâches seront créées avec ce type de durée. Pour plus d’informations sur la modification de votre tâche et les préférences de problème dans le cadre de vos préférences de projet à l’échelle du système ou du groupe, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Dans ce scénario, le risque de raccourcir arbitrairement le plan du projet existe, à moins que vous, en tant que personne responsable du projet, preniez le temps de déterminer si la tâche est réellement une tâche pilotée par l’effort.
 

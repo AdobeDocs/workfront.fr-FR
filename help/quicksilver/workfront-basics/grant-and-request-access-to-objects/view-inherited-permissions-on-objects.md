@@ -6,10 +6,10 @@ description: Votre administrateur ou administratrice Adobe Workfront peut vous 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Votre administrateur ou administratrice Adobe Workfront peut vous accorder l’
 
 Outre le niveau d’accès que les personnes reçoivent, vous pouvez leur accorder des autorisations sur des objets spécifiques pour lesquels vous disposez d’un accès permettant le partage. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Comment les niveaux d’accès et les autorisations fonctionnent ensemble](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Les objets héritent des autorisations des objets parent dans Adobe Workfront.
+Les objets héritent des autorisations des objets parents dans Adobe Workfront.
 
 Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [C
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -107,6 +107,6 @@ Pour afficher les autorisations héritées pour un projet, procédez comme suit�
    >
    >Pour supprimer les autorisations héritées, vous devez disposer des autorisations de gestion sur un objet.
 
- 
 
- 
+
+

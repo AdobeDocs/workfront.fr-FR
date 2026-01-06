@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 68%
+ht-degree: 66%
 
 ---
 
@@ -69,13 +69,13 @@ Voici deux scénarios qui existent lors du calcul de la durée dans Adobe Workfr
 
 Vous pouvez indiquer la durée de la tâche à la fois en temps normal et en temps écoulé entre les dates de début prévu et d&#39;achèvement prévu.
 
-Lors de la mise à jour de la durée des tâches dans une liste, vous pouvez utiliser les abréviations suivantes pour indiquer les unités de temps dans Workfront :
+Lors de la mise à jour de la Durée des tâches dans une liste, vous pouvez utiliser les abréviations suivantes pour indiquer les unités de temps dans Workfront :
 
 | Unité de temps | Abréviation |
 |---|---|
 | Minutes | L |
 | Heures | H |
-| Jours.Il s’agit du paramètre par défaut. | Dés |
+| Jours. Il s’agit de la valeur par défaut. | Dés |
 | Semaines | S |
 | Mois | T, MO |
 | Minutes écoulées | ME |

@@ -6,10 +6,10 @@ description: Vous pouvez consulter et résoudre des commentaires existants sur u
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ Vous pouvez associer vos commentaires d’épreuves à une zone spécifique du d
    ![Paramètres de l’outil de dessin](assets/android-drawingtoolsettings-350x328.png)
 
 1. Tracez la forme sur le document de l’épreuve. Sélectionnez l’icône **[!UICONTROL Annuler]** ![Annuler](assets/android-undo-icon-30x31.png) pour annuler le dessin.
-1. (Le cas échéant) Sélectionnez la forme et choisissez **[!UICONTROL Paramètres]** pour modifier les paramètres de la forme, ou **[!UICONTROL Supprimer]** pour supprimer la forme.
+1. (Conditionnel) Sélectionnez la forme et choisissez **[!UICONTROL Paramètres]** pour modifier les paramètres de la forme ou **[!UICONTROL Supprimer]** pour supprimer la forme.
 
    ![Menu du dessin](assets/android-drawing-settingsremove-350x166.png)
 

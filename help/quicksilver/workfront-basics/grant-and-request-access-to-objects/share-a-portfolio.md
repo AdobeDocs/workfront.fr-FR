@@ -4,10 +4,10 @@ description: Vous pouvez partager un portfolio avec d’autres personnes si vous
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ Les autorisations sont spécifiques à un élément de Workfront et définissent
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -146,19 +146,19 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux person
 
 | **Actions** | **Gérer** | **Afficher** |
 |---|---|---|
-| Modifier les détails du portfolio | ✓ |   |
+| Modifier les détails du portfolio | ✓ |   |
 | Afficher un portfolio | ✓ | ✓ |
-| Supprimer un portfolio | ✓ |   |
-| Joindre un formulaire personnalisé | ✓ |   |
-| Modifier un champ personnalisé | ✓ |   |
-| Ajouter ou supprimer un programme&#42; | ✓ |   |
-| Ajouter ou supprimer un projet&#42; | ✓ |   |
-| Approuver un projet | ✓ |   |
-| Optimisation du portfolio&#42; | ✓ |   |
+| Supprimer un portfolio | ✓ |   |
+| Joindre un formulaire personnalisé | ✓ |   |
+| Modifier un champ personnalisé | ✓ |   |
+| Ajouter ou supprimer un programme&#42; | ✓ |   |
+| Ajouter ou supprimer un projet&#42; | ✓ |   |
+| Approuver un projet | ✓ |   |
+| Optimisation du portfolio&#42; | ✓ |   |
 | Ajouter un dossier de documents&#42; | ✓ | ✓ |
 | Ajouter un document | ✓ | ✓ |
 | Mises à jour / commentaires | ✓ | ✓ |
 | Partager | ✓ | ✓ |
-| Partager sur le système |   | ✓ |
+| Partager sur le système |   | ✓ |
 
 * Ces autorisations sont contrôlées par le niveau d’accès et les autorisations sur d’autres objets, comme les projets, les programmes, les documents.

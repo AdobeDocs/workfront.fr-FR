@@ -7,10 +7,10 @@ description: Vous pouvez affecter des tâches à des personnes, à des équipes 
 author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -57,19 +57,19 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 * Les utilisateurs et utilisatrices peuvent avoir plusieurs fonctions associées à leur profil. Pour plus d’informations sur l’association d’utilisateurs et d’utilisatrices à des fonctions, voir [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Les tâches ou les problèmes sont généralement affectés en premier à une ou plusieurs fonctions ou à une équipe. Lorsque les projets sont prêts à démarrer, ils doivent peut-être également être affectés aux utilisateurs et utilisatrices.\
-  Si une tâche ou un problème est affecté à un ou plusieurs rôles, puis que vous affectez également une personne, Adobe Workfront décide quelle fonction associer à la personne supplémentaire (le cas échéant) selon les règles suivantes :
+  Si une tâche ou un problème est assigné à une ou plusieurs fonctions, puis que vous affectez également un utilisateur ou une utilisatrice, Adobe Workfront décide quelle fonction associer à l’utilisateur ou à l’utilisatrice supplémentaire (le cas échéant) selon les règles suivantes :
 
-   * Si une seule fonction est affectée et qu’elle correspond au rôle principal de la personne, la tâche ou le problème est affecté uniquement à la personne qui remplit son rôle principal.
+   * Si une seule fonction est attribuée et qu’elle correspond au rôle principal de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté(e) uniquement à l’utilisateur ou à l’utilisatrice qui remplit son rôle principal.
    * Si plusieurs rôles sont affectés et qu’au moins un des rôles correspond aux rôles secondaires de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est alors assigné(e) à l’utilisateur ou à l’utilisatrice qui remplit l’un de ses autres rôles (que Workfront sélectionne au hasard s’il existe plusieurs correspondances) ainsi que les rôles supplémentaires affectés.
-   * Si une ou plusieurs fonctions sont affectées et qu’il n’y a aucune correspondance avec les rôles de la personne, la tâche ou le problème est affecté à tous les rôles ainsi qu’à la personne.
+   * Si une ou plusieurs fonctions sont affectées et qu’il n’y a aucune correspondance avec les rôles de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté à la fois au ou aux rôles et à l’utilisateur ou l’utilisatrice.
 
 * Si une tâche ou un problème est affecté à une équipe et que vous affectez également un utilisateur ou une utilisatrice, la tâche ou le problème reste affecté(e) à la fois à l’équipe et à l’utilisateur ou à l’utilisatrice.
 
 ## Impact de la suppression des cessionnaires sur les heures de tâche et les pourcentages d’allocation
 
-La suppression de personnes peut affecter les heures de tâche et les pourcentages d’allocation. L’effet de la suppression d’une personne sur la tâche dépend du type de durée sélectionné pour la tâche. Pour plus d’informations sur les types de durée, voir [Vue d’ensemble de la Durée des tâches et du Type de durée &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+La suppression de personnes peut affecter les heures de tâche et les pourcentages d’allocation. L’effet de la suppression d’une personne sur la tâche dépend du type de durée sélectionné pour la tâche. Pour plus d&#39;informations sur le type de durée, voir [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-Lorsque vous supprimez une personne d’une tâche avec les types de durée suivants :
+Lorsque vous supprimez un utilisateur d’une tâche avec les types de durée suivants :
 
 * **Simple :** le nombres d’heures prévues affectées à cette personne est soustrait du nombre total d’heures prévues de la tâche.
 

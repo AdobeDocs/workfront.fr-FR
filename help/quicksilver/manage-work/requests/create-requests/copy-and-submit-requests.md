@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 87%
+source-wordcount: '1539'
+ht-degree: 85%
 
 ---
 
@@ -127,13 +127,13 @@ Vous devez avoir une demande que vous ou une personne membre de votre organisati
 1. (Facultatif) Mettez à jour les informations suivantes, si nécessaire :
 
    * **Type de demande** : la file d’attente des demandes où la demande copiée est enregistrée. Par défaut, la demande copiée est enregistrée dans la file d’attente des demandes de la demande originale.
-   * **Groupes de sujets** et **Rubriques de file d’attente**, s’ils sont sélectionnés. Les noms des groupes de sujets et des rubriques de file d’attente sont personnalisés en fonction de votre environnement. Par défaut, la demande copiée est enregistrée dans les groupes de sujets et les rubriques de file d’attente de la demande originale.
+   * **Groupes de rubriques** et **Rubriques de file d’attente**, s’ils sont sélectionnés. Les noms des groupes de sujets et des rubriques de file d’attente sont personnalisés en fonction de votre environnement. Par défaut, la demande copiée est enregistrée dans les groupes de sujets et les rubriques de file d’attente de la demande originale.
 
      >[!TIP]
      >
      >Si le chemin d’accès change par rapport à celui de la demande initiale, cela signifie que le créateur ou la créatrice de la file d’attente des demandes l’a modifiée.
 
-1. (Facultatif) Mettez à jour les informations de la demande copiée. En fonction des champs activés par le créateur ou la créatrice de la file d’attente dans la section **Nouveaux champs de problème** du sous-onglet **Détails de la file d’attente** du projet, il se peut que vous trouviez l’un des champs suivants :
+1. (Facultatif) Mettez à jour les informations de la demande copiée. Selon les champs activés par le créateur de la file d’attente des demandes dans la section **Nouveaux champs de problème** du sous-onglet **Détails de la file d’attente** du projet, vous pouvez trouver l’un des champs suivants :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -141,7 +141,7 @@ Vous devez avoir une demande que vous ou une personne membre de votre organisati
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Objet</strong> </td> 
-      <td>Affiche le nom de la demande originale. Mettez-le à jour, si nécessaire.Sinon, Workfront nomme la demande copiée <b>Copie de &lt;Name of original request&gt;</b>. Champ obligatoire.</td> 
+      <td>Affiche le nom de la demande originale. Mettez-le à jour, si nécessaire. Sinon, Workfront nomme la demande copiée <b>Copie de &lt;Nom de la demande d’origine&gt;</b>. Champ obligatoire.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
@@ -230,11 +230,12 @@ Vous devez avoir une demande que vous ou une personne membre de votre organisati
 
 Vous pouvez copier et envoyer des requêtes dans la zone des Requêtes de Workfront, ou à partir du widget Mes requêtes dans l’Accueil.
 
-1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
+{{step1-to-requests}}
 
 1. Pour accéder au widget Mes requêtes dans l’Accueil :
 
-   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   {{step1-to-home}}
+
    1. Recherchez le widget Mes requêtes .
 
       Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

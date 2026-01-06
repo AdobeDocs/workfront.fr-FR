@@ -6,10 +6,10 @@ description: Vous pouvez désigner des personnes gestionnaires de ressources pou
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 96%
+source-wordcount: '731'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -162,9 +162,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 ## Désigner des personnes gestionnaires de ressources pour un modèle
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
-
-1. Cliquez sur **Modèles**.
+{{step1-to-templates}}
 
 1. Effectuez l’une des opérations suivantes :
 

@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour l’ordre dans lequel les formulaires pe
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez mettre à jour l’ordre dans lequel les formulaires personnalisés 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -92,7 +92,7 @@ Pour plus d’informations, consultez la section [Conditions d’accès dans la 
 1. Faites glisser un formulaire ![](assets/move-icon---dots.png) à un nouvel emplacement dans la liste.
 1. Pour les projets, tâches et problèmes de formulaires personnalisés, cliquez sur **Enregistrer**.
 
-   Pour tous les autres objets, cliquez sur **J’ai fini de gérer** > **Enregistrer les modifications**.
+   Pour tous les autres objets, cliquez sur **J’ai terminé la gestion** > **Enregistrer les modifications**.
 
 ## Supprimer un formulaire personnalisé d’un objet {#remove-a-custom-form-from-an-object}
 
@@ -169,7 +169,7 @@ Pour modifier plusieurs formulaires personnalisés lors de la modification d’o
    * Si vous avez apporté des modifications au formulaire, la suppression entraîne la perte de vos modifications et leur récupération est impossible.
    * Une fois que vous avez supprimé un formulaire, tous les champs de ce formulaire qui se trouvaient dans la section **Champs communs** sont supprimés de cette section et ne peuvent plus être modifiés ici.
 
-1. Cliquez sur **Restaurer le formulaire** pour rétablir l’état dans lequel se trouvait le formulaire avant la modification des objets.
+1. Cliquez sur **Restaurer le formulaire** pour restaurer le formulaire à l’état dans lequel il se trouvait avant la modification des objets.
 1. (Facultatif) Cliquez sur la flèche de réduction située en regard du nom du formulaire pour réduire un formulaire à la fois.
 
    Ou
@@ -180,6 +180,6 @@ Pour modifier plusieurs formulaires personnalisés lors de la modification d’o
 
    Ou
 
-   Cliquez sur **Développer les formulaires** pour développer tous les formulaires simultanément. 
+   Cliquez sur **Développer Forms** pour développer tous les formulaires en même temps.
 
 1. Cliquez sur **Enregistrer les modifications**.

@@ -6,10 +6,10 @@ description: Si nécessaire, vous pouvez mettre à jour manuellement le statut d
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur le mode d’achèvement du projet, voir [Modifier
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Considérations relatives à la mise à jour vers des statuts spécifiques
 
 * **Lors de la mise à jour d’un projet à terminer :** assurez-vous que toutes les tâches et tous les problèmes sont terminés sur le projet. Vous ne pouvez pas sélectionner le statut Terminé d’un projet, ni aucun autre statut correspondant à Terminé lorsqu’il existe des tâches ou des problèmes qui n’ont pas été terminés sur le projet. Cela inclut l’approbation de toute tâche ou problème qui a un statut Terminé en attente d’approbation.
-* **Lors de la mise à jour d’un projet de Terminé à En cours :** si toutes les tâches et tous les problèmes du projet sont terminés, assurez-vous que le mode d’achèvement du projet est défini sur Manuel. Si le mode d’achèvement du projet est automatique, le statut du projet reste Terminé.
+* **Lors de la mise à jour d’un projet de Terminé à En cours :** si toutes les tâches et tous les problèmes du projet sont terminés, assurez-vous que le mode d’achèvement du projet est défini sur Manuel. Si le mode d&#39;achèvement du projet est Automatique, le statut du projet reste Terminé.
 
 ## Modifier le statut du projet
 

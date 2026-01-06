@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: financials
-title: Champs de financement du projet
+title: Champs Finances du projet
 description: Pour gérer vos finances de projets, il est essentiel de les suivre.
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Pour gérer vos finances de projets, il est essentiel de les suivre.
 
 En tant que personne responsable du projet, vous pouvez mettre à jour manuellement certains champs financiers. Les autres données financières sont calculées automatiquement par Adobe Workfront.
 
-Vous pouvez effectuer un suivi sur vos finances à l’aide de plusieurs champs qui capturent le budget, les coûts et les revenus dans Workfront.
+Vous pouvez suivre vos finances à l’aide de plusieurs champs qui capturent le budget, les coûts et les recettes dans Workfront.
 
 Pour plus d’informations, reportez-vous également aux articles suivants :
 
@@ -68,23 +68,23 @@ Le tableau suivant présente certaines des finances dont vous pouvez effectuer l
   <tr> 
    <td>Budget</td> 
    <td> <p>Pour plus d’informations sur l’établissement du budget d’un projet, voir <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gérer les informations dans la zone Finances d’un projet</a>.</p> <p>Pour plus d’informations sur l’établissement du budget des ressources d’un objet, voir <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budgéter les ressources dans le business case</a>.</p> </td> 
-   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Enregistrements de facturation</td> 
    <td>Pour plus d’informations sur la création d’enregistrements de facturation, voir <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Créer des enregistrements de facturation</a>.</td> 
-   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Revenus</td> 
    <td> Pour plus d’informations sur la facturation et les revenus, voir <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Vue d’ensemble de la facturation et du revenu</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Frais</td> 
@@ -147,23 +147,23 @@ Le tableau suivant présente certaines des finances dont vous pouvez effectuer l
    <td>Pour plus d’informations sur le calcul du CSI, voir <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calculer l’Indice Coûts Horaire Performances (CSI)</a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Coût budgété du travail prévu (BCWS)</td> 
    <td>Il s’agit d’une mesure de performances. Pour plus d’informations sur le calcul du BCWS, voir <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">Calculer le coût budgété du travail prévu (BCWS)</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Coût budgété du travail effectué (BCWP)</td> 
    <td>Il s’agit d’une mesure de performances. Pour plus d’informations sur le calcul du BCWP, voir <a href="../../../manage-work/projects/project-finances/calculate-bcwp.md" class="MCXref xref">Calculer le coût budgété du travail effectué (BCWP) </a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
- 
+

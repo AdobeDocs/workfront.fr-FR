@@ -7,10 +7,10 @@ description: L’estimation à l’achèvement en tant que mesure de performance
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 98%
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 L’estimation à l’achèvement en tant que mesure de performance, représente le coût total projeté de votre projet ou tâche lorsqu’il est terminé.
 
-Ce paramètre vous permet de définir la manière dont l’estimation à l’achèvement doit être calculée. 
+Ce paramètre vous permet de définir la manière dont l’estimation à l’achèvement doit être calculée.
 
 ## Conditions d’accès
 
@@ -33,7 +33,7 @@ Ce paramètre vous permet de définir la manière dont l’estimation à l’ach
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Définir la méthode de calcul de l’estimation à l’achèvement
 
-Dans le cadre des préférences du système de projet, l’équipe d’administration Adobe Workfront peut définir la méthode de calcul de l’estimation à l’achèvement. Le calcul de l’estimation à l’achèvement peut se faire de l’une des deux façons suivantes :
+Dans le cadre des préférences système du projet, l’administrateur Adobe Workfront peut définir comment calculer le CRE. Le calcul de l’estimation à l’achèvement peut se faire de l’une des deux façons suivantes :
 
 * [Calculer au niveau du projet](#calculate-at-the-project-level)
 * [Regrouper depuis les tâches/sous-tâches](#roll-up-from-tasks-and-subtasks)
@@ -78,7 +78,7 @@ Les estimations à l’achèvement de la tâche parent et du projet sont déterm
 
 ## Comment calculer l’estimation à l’achèvement en fonction de la méthode d’indice de performances (PIM)
 
-Dans Workfront, le calcul de l’estimation à l’achèvement dépend de la méthode d’indice de performances (PIM) sélectionnée du projet. Pour plus d’informations sur la définition de l’estimation à l’achèvement pour votre système ou votre projet, consultez la section [Définir la méthode d’indice de performances (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+Dans Workfront, le calcul de l’EAC dépend de la méthode d’indice de performance (PIM) sélectionnée pour le projet. Pour plus d’informations sur la définition de l’estimation à l’achèvement pour votre système ou votre projet, consultez la section [Définir la méthode d’indice de performances (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 * [Calculer l’estimation à l’achèvement à l’aide d’un PIM basé sur les heures](#calculate-eac-using-hour-based-pim)
 * [Calculer l’estimation à l’achèvement à l’aide d’un PIM basé sur les coûts](#calculate-eac-using-cost-based-pim)
@@ -89,7 +89,7 @@ Dans Workfront, le calcul de l’estimation à l’achèvement dépend de la mé
 EAC = Total Planned Hours / CPI*
 ```
 
-&#42;Si l’indice Coûts Performances [Calculer l’indice Coûts Performances (ICP)](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, Estimation à l’achèvement = Total des heures planifiées + heures effectives. Cela se produit lorsque des heures ont été enregistrées, mais que le projet/la tâche est terminé à 0 %.
+&#42;Si Indice Coûts Performance [Calculer l&#39;Indice Coûts Performance (ICP)](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, CRE = Total d&#39;heures prévues + Heures réelles. Cela se produit lorsque des heures ont été enregistrées, mais que le projet/la tâche est terminé à 0 %.
 
 Pour plus d’informations sur le calcul de l’ICP, consultez la section [Calculer l’indice Coûts Performances (IPC)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
@@ -101,9 +101,9 @@ L’estimation à l’achèvement d’un projet est calculée à l’aide de la 
 EAC = EAC Labor + EAC Expense 
 ```
 
-<pre>Coût de main-d’œuvre de l’estimation à l’achèvement = <em>IF</em> ICP du coût de main-d’œuvre &lt;&gt; 0 THEN Coût de main-d’œuvre Estimation à l’achèvement = Coût prévu de main-d’œuvre/ICP de la main-d’œuvre</pre><pre><em>ELSE</em> Coût de main-d’œuvre Estimation à l’achèvement = Coût prévu de main-d’œuvre + Coût réel de main-d’œuvre</pre><pre>ICP de la main-d’œuvre = IF Coût réel de main-d’oeuvre &lt;&gt; 0 THEN ICP de la main-d’œuvre = TotalBudgetCostWorkPerformance/Coût réel de main-d’oeuvre</pre><pre>ELSE ICP de la main-d’œuvre = 1 </pre>Les champs suivants sont pris en compte dans le calcul de l’estimation à l’achèvement :
+<pre>CRE Main-d'œuvre = <em>IF</em> CPI Main-d'œuvre &lt;&gt; 0 ALORS CRE Main-d'œuvre = Coût prévu de main-d'œuvre / CPI Main-d'œuvre</pre><pre><em>ELSE</em> CRE Main-d'œuvre = Coût prévu de la main-d'œuvre + Coût réel de la main-d'œuvre</pre><pre>ICP de la main-d’œuvre = IF Coût réel de main-d’oeuvre &lt;&gt; 0 THEN ICP de la main-d’œuvre = TotalBudgetCostWorkPerformance/Coût réel de main-d’oeuvre</pre><pre>SINON CPI Main-d'œuvre = 1 </pre>Les champs suivants sont pris en compte dans le calcul de l’estimation à l’achèvement :
 
-* Coût total budgété du travail effectué (BCWP) = résultat de la multiplication du coût budgété du travail prévu (coût budgété) et du pourcentage de la tâche qui a été effectué jusqu’à présent.
+* Coût budgété total - Travail effectué (CBTE) = Résultat de la multiplication du coût budgété du travail prévu (coût budgété) et du pourcentage de la tâche qui a été terminé à ce jour.
 
   Pour plus d’informations sur le coût total budgété du travail effectué (BCWP), voir [Calculer le coût budgété du travail effectué (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
@@ -114,26 +114,26 @@ EAC = EAC Labor + EAC Expense
      ```
 
    * **Pour une tâche parent :**
-Coût total budgété du travail effectué (BCWP) = somme du champ Coût total budgété du travail effectué pour toutes les tâches enfant directes.
+Total du coût budgété du travail réalisé = somme du champ de coût budgété total du travail réalisé pour toutes les tâches enfant directes.
 
    * **Pour un projet :**
-Coût total budgété du travail effectué = somme du champ Coût total budgété du travail effectué pour toutes les tâches de niveau supérieur (parent et tâches autonomes).
+Total du coût budgété du travail réalisé = somme du champ de coût budgété total du travail réalisé pour toutes les tâches de niveau supérieur (tâches parent et autonomes).
 
-* Dépenses Estimation à l’achèvement = résultat de l’ajout du Coût réel des dépenses engagées au Montant des dépenses prévues non engagées. Elles sont calculées selon la formule suivante :
+* Dépenses CRE = résultat de l&#39;ajout du coût réel des dépenses engagées au coût prévu des dépenses non engagées. Elles sont calculées selon la formule suivante :
 
   ```
   EAC Expense = Incurred Actual Expense Cost + Not Incurred Planned Expense
   ```
 
-   * Coût réel des dépenses engagées = somme du champ Montant prévu pour toutes les dépenses pour lesquelles le champ Montant réel est > 0. Par exemple, si vous créez une dépense pour la Tâche 1 et que vous saisissez 500 $ dans le champ Montant prévu et un montant > 0 dans le champ Montant réel (par ex. 600 $), le Montant des dépenses prévues engagées pour cette tâche est de 500 $.
-   * Dépenses prévues non engagées = somme du champ Montant prévu pour toutes les dépenses pour lesquelles le champ Montant réel = 0. Par exemple, si vous créez deux dépenses pour la Tâche 1 où, pour la première dépense, la valeur du champ Montant prévu est de 500 $ et la valeur du Montant réel est de 600 $ et, pour la seconde dépense, la valeur du champ Montant prévu est de 300 $ et la valeur du champ Montant réel est de 0 $, la valeur des Dépenses prévues non engagées pour cette tâche est de 300 $. 
+   * Frais réels engagés = Somme du champ Montant prévu pour tous les frais dont le champ Montant réel est > 0. Par exemple, si vous créez une dépense pour la Tâche 1 et que vous saisissez 500 $ dans le champ Montant prévu et un montant > 0 dans le champ Montant réel (par ex. 600 $), le Montant des dépenses prévues engagées pour cette tâche est de 500 $.
+   * Dépenses prévues non engagées = Somme du champ Montant prévu pour toutes les dépenses où le champ Montant réel = 0. Par exemple, si vous créez deux dépenses pour la Tâche 1 où, pour la première dépense, la valeur du champ Montant prévu est de 500 $ et la valeur du Montant réel est de 600 $ et, pour la seconde dépense, la valeur du champ Montant prévu est de 300 $ et la valeur du champ Montant réel est de 0 $, la valeur des Dépenses prévues non engagées pour cette tâche est de 300 $.
 
 ## Localiser l’estimation à l’achèvement dans un projet ou une tâche
 
 1. Accédez au projet ou à la tâche pour lequel vous souhaitez afficher l’estimation à l’achèvement.
 1. Développez **Détails du projet** ou **Détails des tâches** dans le panneau de gauche du projet ou de la tâche, selon l’emplacement d’affichage de l’estimation à l’achèvement.
 
-1. Cliquez sur **Finances**.
+1. Cliquez sur **Finances**.
 
    La valeur de l’estimation à l’achèvement s’affiche dans le champ **Estimation à l’achèvement**.
 

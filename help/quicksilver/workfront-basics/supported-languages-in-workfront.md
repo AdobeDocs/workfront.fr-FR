@@ -6,10 +6,10 @@ description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe W
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 65%
+source-wordcount: '1137'
+ht-degree: 66%
 
 ---
 
@@ -146,7 +146,8 @@ Lorsque vous modifiez les paramètres régionaux des e-mails Workfront par déf
 Pour modifier les paramètres régionaux des e-mails Workfront par défaut :
 
 1. Connectez-vous à Workfront en tant qu’administrateur ou administratrice Workfront.
-1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Cliquez sur **Système** > **Infos client**.
 
@@ -164,7 +165,9 @@ Lorsque vous modifiez les paramètres régionaux des e-mails utilisateur, vous m
 
 Pour modifier les paramètres régionaux des e-mails utilisateur :
 
-1. Cliquez sur l’icône **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur votre image de profil.
+{{step1-click-main-menu}}
+
+1. Cliquez sur la photo de votre profil utilisateur.
 
 1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis cliquez sur **Modifier**.
 

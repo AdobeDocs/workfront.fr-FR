@@ -6,10 +6,10 @@ description: Cet article explique comment trouver et gérer des objectifs dans A
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 71%
+source-wordcount: '363'
+ht-degree: 74%
 
 ---
 
@@ -37,7 +37,7 @@ Cet article explique comment trouver et gérer des objectifs stratégiques dans 
  </col> 
  <tbody> 
   <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -128,19 +128,16 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 ## Accéder aux Objectifs Workfront
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+{{step1-to-goals}}
 
-   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   La liste des objectifs s’affiche.
+La liste des objectifs s’affiche.
 
 
-   >[!IMPORTANT]
-   >
-   >   Lorsque vous avez l’accès correct aux Objectifs Workfront, vous pouvez visualiser les objectifs que vous ou toute autre personne avez créés dans la liste des objectifs, par défaut.
+>[!IMPORTANT]
+>
+>   Lorsque vous avez l’accès correct aux Objectifs Workfront, vous pouvez visualiser les objectifs que vous ou toute autre personne avez créés dans la liste des objectifs, par défaut.
 
-   <!--   
+<!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
@@ -196,9 +193,12 @@ To access an individual goal in the Production environment:
 
 Pour accéder à un objectif individuel, procédez comme suit :
 
-1. Cliquez sur l’icône **Menu principal** dans le coin supérieur droit de Workfront, puis sur **Objectifs**.
+{{step1-to-goals}}
+
 La liste des objectifs s’affiche par défaut.
-   ![Liste d’objectifs](assets/goal-list-unshimmed.png)
+
+![Liste d’objectifs](assets/goal-list-unshimmed.png)
+
 1. Cliquez sur le nom d’un objectif dans la liste.
 La page de l’objectif s’affiche.
    ![Page d’objectif](assets/goal-page-unshimmed.png)

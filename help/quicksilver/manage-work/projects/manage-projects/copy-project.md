@@ -7,7 +7,7 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 62%
@@ -60,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Package Adobe Workfront</p> </td>  
+   <td> <p>Package Adobe Workfront</p> </td>  
    <td>Tous</td> 
   </tr> 
   <tr> 

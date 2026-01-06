@@ -7,10 +7,10 @@ description: Le coût potentiel des risques d’un projet tient compte des coût
 author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 85%
+ht-degree: 83%
 
 ---
 
@@ -18,20 +18,20 @@ ht-degree: 85%
 
 Le coût potentiel des risques d’un projet tient compte des coûts potentiels des risques du projet et de la probabilité qu’ils se produisent.
 
-## Vue d’ensemble du coût potentiel des risques d’un projet
+## Aperçu du coût du risque potentiel d&#39;un projet
 
-Adobe Workfront calcule le coût potentiel de risque d’un projet à l’aide de la formule suivante :
+Adobe Workfront calcule le coût du risque potentiel d&#39;un projet à l&#39;aide de la formule suivante :
 
 ```
 Potential Risk Cost =SUM(Potential Risk Costs * Risk Probability)
 ```
 
-Tenez compte des points suivants lorsque vous passez en revue le coût potentiel de risque d’un projet :
+Tenez compte des points suivants lors de l’examen du coût du risque potentiel d’un projet :
 
 * Le coût prévu des risques d’un projet est identique au coût potentiel des risques.
-* Le coût potentiel des risques n’est pas inclus dans le coût prévu d’un projet. Elle est utilisée à la place pour déterminer sa valeur nette.
+* Le coût potentiel des risques n’est pas inclus dans le coût prévu d’un projet. Il est plutôt utilisé pour déterminer sa valeur nette.
 
-## Localisation du coût potentiel de risque d’un projet
+## Localiser le coût du risque potentiel d’un projet
 
 Vous pouvez trouver les risques d’un projet et leur coût potentiel dans les zones suivantes de Workfront :
 

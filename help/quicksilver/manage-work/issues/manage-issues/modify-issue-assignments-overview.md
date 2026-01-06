@@ -7,10 +7,10 @@ description: Vous pouvez affecter des problèmes à des utilisateurs et utilisat
 author: Lisa
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -37,7 +37,7 @@ Certaines informations de cet article s’appliquent également aux affectations
 
 ## Quand modifier les affectations d’utilisateurs et utilisatrices à des problèmes
 
-Vous pouvez modifier les affectations d’utilisateurs et utilisatrices pour plusieurs problèmes, notamment pour les raisons suivantes :
+Vous pouvez modifier les affectations d’utilisateurs pour plusieurs problèmes, et ce pour plusieurs raisons, notamment :
 
 * Des utilisateurs et utilisatrices rejoignent ou quittent votre équipe.
 * Un utilisateur ou une utilisatrice prend des vacances qui s’étendent au-delà des dates d’échéance du problème.

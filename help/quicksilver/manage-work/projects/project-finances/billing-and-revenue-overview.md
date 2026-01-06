@@ -7,10 +7,10 @@ description: En tant que personne responsable de projet, vous pouvez utiliser le
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '3691'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Tenez compte des éléments suivants lorsque vous travaillez avec des taux de fa
 
   En multipliant les taux par les heures de travail, vous générez des revenus pour vos projets.
 
-* Après avoir établi vos taux de facturation, vous pouvez suivre les revenus en créant des dossiers de facturation pour enregistrer ce qui a été facturé et ce qui ne l’a pas été.
+* Après avoir établi vos taux de facturation, vous pouvez suivre les revenus en créant des enregistrements de facturation pour enregistrer ce qui a été facturé et ce qui ne l’a pas été.
 
   >[!TIP]
   >
@@ -117,7 +117,7 @@ Le tableau suivant présente les types de revenus associés aux tâches, aux pro
 
 <p>Les revenus prévus pour le projet, qui s’affichent dans la zone Détails du projet et dans les rapports de projet, diffèrent des revenus prévus qui s’affichent dans le rapport d’utilisation. </p></li></ul> <p>Les revenus prévus dans la zone Détails du projet reflètent les revenus de la tâche associés aux heures prévues pour la tâche ainsi que les revenus fixes du projet. Les revenus prévus dans le rapport d’utilisation affichent les revenus prévus associés uniquement aux heures prévues des affectations de tâches sur le projet. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p>Si le projet comporte une tâche de 10 heures, affectée à une personne externe au taux horaire de 20 $ et que le projet a des revenus fixes de 100 $, le rapport d’utilisation affiche 200 $ pour les revenus prévus (les revenus prévus associés aux heures de la tâche). La section Détails du projet affiche 300 $ (les revenus prévus pour la tâche et les revenus fixes du projet). </p> 
+      <p>Si le projet comporte une tâche de 10 heures, affectée à une personne externe au taux horaire de 20 $ et que le projet a des revenus fixes de 100 $, le rapport d’utilisation affiche 200 $ pour les revenus prévus (les revenus prévus associés aux heures de la tâche). La section Détails du projet affiche 300 $ (les revenus prévus de la tâche et les revenus fixes du projet). </p> 
      </div> </p> <p>Les revenus prévus pour la tâche sont calculés en utilisant les taux horaires de facturation des utilisateurs et utilisatrices ou des fonctions affectées aux tâches. Le type de revenu des tâches influence le taux (utilisateur, utilisatrice ou rôle) utilisé pour calculer les revenus prévus. Pour plus d’informations, voir les sections suivantes de cet article :</p> 
     <ul> 
      <li> <p><a href="#overview-of-task-revenue-types" class="MCXref xref">Vue d’ensemble des types de revenus des tâches</a> </p> </li> 
@@ -143,7 +143,7 @@ Par exemple, si une tâche ayant un Type de revenus horaires de l’utilisateur 
 
 Vous pouvez enregistrer les revenus de la manière suivante :
 
-* En définissant le type de revenu de vos tâches et en associant les utilisateurs et utilisatrices ou les rôles affectés aux éléments de travail à des taux de facturation. Cette opération calcule les revenus en fonction du nombre d’heures prévues ou effectives des éléments de travail. Vous pouvez fixer un plafond au montant maximum facturé pour les tarifs horaires, ou non.\
+* En définissant le type de revenu de vos tâches et en associant les utilisateurs et utilisatrices ou les rôles affectés aux éléments de travail à des taux de facturation. Cette opération calcule les revenus en fonction du nombre d’heures prévues ou effectives des éléments de travail. Vous pouvez fixer une limite au montant maximum facturé pour les tarifs horaires, ou non.\
   Pour plus d’informations sur la spécification du type de revenu d’une tâche, voir l’article [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 * En facturant un taux de revenu fixe forfaitaire pour les tâches ou les projets.\
@@ -176,7 +176,7 @@ Vous pouvez appliquer les types de revenus suivants à vos tâches ou projets :
  <tbody> 
   <tr> 
    <td> <p>Revenus fixes</p> </td> 
-   <td> <p>Ce type peut être utilisé pour les projets et les tâches. </p> <p>Lorsqu’un modèle est rattaché à un projet, les revenus fixes du modèle sont ajoutés aux revenus fixes du projet.Pour plus d’informations, voir <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Vue d’ensemble de l’attachement d’un modèle à un projet</a>. </p> <p>Pour les tâches, quelle que soit les affectations de la tâche, le revenu de la tâche est toujours calculé à l’aide du montant fixe spécifié dans la tâche. </p> <p>Les revenus fixes des tâches enfant sont répercutés sur les revenus de la tâche parent, puis sur les revenus du projet. Si un montant fixe est défini sur la tâche parent et/ou le projet, le montant est ajouté aux revenus prévus cumulés de toutes les tâches enfant.</p> <p>Le montant des revenus fixes sur les tâches peut être inclus dans un enregistrement de facturation sur le projet.</p> </td> 
+   <td> <p>Ce type peut être utilisé pour les projets et les tâches. </p> <p>Lorsqu’un modèle est joint à un projet, le revenu fixe du modèle est ajouté au revenu fixe du projet. Pour plus d’informations, voir <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Vue d’ensemble de l’attachement d’un modèle à un projet</a>. </p> <p>Pour les tâches, quelle que soit les affectations de la tâche, le revenu de la tâche est toujours calculé à l’aide du montant fixe spécifié dans la tâche. </p> <p>Les revenus fixes des tâches enfant sont répercutés sur les revenus de la tâche parent, puis sur les revenus du projet. Si un montant fixe est défini sur la tâche parent et/ou le projet, le montant est ajouté aux revenus prévus cumulés de toutes les tâches enfant.</p> <p>Le montant des revenus fixes sur les tâches peut être inclus dans un enregistrement de facturation sur le projet.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Utilisateur, par heure</p> </td> 
@@ -191,12 +191,12 @@ Il s’agit du type de revenu par défaut lorsque vous créez une tâche.</p> </
    <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Ce type est similaire au taux par heure de l’utilisateur ou de l’utilisatrice mais il utilise les taux de la fonction plutôt que les taux de l’utilisateur ou de l’utilisatrice.</p> <p><strong>NOTE</strong><br> Une fonction peut également avoir plusieurs taux de facturation avec des dates d’entrée en vigueur.</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Personne, par heure avec plafond</p> </td> 
-   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Les tâches sont facturées à l’heure comme pour Personne, par heure mais elles ont un montant maximum que vous pouvez spécifier. <br>Par exemple, si le taux de facturation d’une personne est de 25 $, mais que le plafond de la tâche est de 20 $, et que la personne consigne une heure, le revenu réel de la tâche est de 20 $. </p> </td> 
+   <td> <p>Personne, par heure avec limite</p> </td> 
+   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Les tâches sont facturées à l’heure comme pour Personne, par heure mais elles ont un montant limite maximum que vous pouvez spécifier. <br>Par exemple, si le taux de facturation d’une personne est de 25 $, mais que le montant limite de la tâche est de 20 $, et que la personne consigne une heure, le revenu réel de la tâche est de 20 $. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Rôle, par heure avec plafond</p> </td> 
-   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Ce type est similaire à Personne, par heure avec plafond, mais il utilise les taux de la fonction plutôt que les taux de l’utilisateur ou de l’utilisatrice. </p> </td> 
+   <td> <p>Rôle, par heure avec limite</p> </td> 
+   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Ce type est similaire à Personne, par heure avec limite, mais il utilise les taux de la fonction plutôt que les taux de l’utilisateur ou de l’utilisatrice. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Utilisateur, par heure plus fixe</p> </td> 
@@ -208,7 +208,7 @@ Il s’agit du type de revenu par défaut lorsque vous créez une tâche.</p> </
   </tr> 
   <tr> 
    <td> <p>Fixe par heure</p> </td> 
-   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Le plafond ou le montant fixe que vous avez défini pour la tâche, multiplié par le nombre d’heures saisies pour la tâche (indépendamment de la personne ou de sa fonction), constitue le montant de la facturation.</p> </td> 
+   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>La limite ou le montant fixe que vous avez défini pour la tâche, multiplié par le nombre d’heures saisies pour la tâche (indépendamment de la personne ou de sa fonction), constitue le montant de la facturation.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Non facturable</p> </td> 

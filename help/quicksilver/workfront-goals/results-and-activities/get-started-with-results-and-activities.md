@@ -7,7 +7,7 @@ description: Vous devez ajouter des résultats, des activités ou des objectifs 
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -145,7 +145,7 @@ Le tableau suivant affiche les similitudes et les différences entre les résult
    <td><b><p>Fonctionnalité</p></b></td> 
    <td><b><p>Résultats</p></b></td> 
    <td><b><p>Activités</p></b></td> 
-   <td> <p><strong>Projets</strong> </p> <p> </p> </td> 
+   <td> <p><strong>Projets</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">Vous pouvez personnaliser le nom de l’objet dans l’interface de Workfront.</span> </td> 
@@ -167,8 +167,8 @@ Le tableau suivant affiche les similitudes et les différences entre les résult
   </tr> 
   <tr> 
    <td>Vous pouvez associer un seul d’entre eux à plusieurs objectifs.</td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
@@ -181,13 +181,13 @@ Le tableau suivant affiche les similitudes et les différences entre les résult
    <td>Ils doivent être mis à jour manuellement dans Objectifs Workfront.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ils se terminent à la date de fin de l’objectif.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ils ne peuvent être affectés qu’à un utilisateur ou à une utilisatrice, et non à une équipe, à un groupe ou à une entreprise. </td> 
@@ -201,7 +201,7 @@ Le tableau suivant affiche les similitudes et les différences entre les résult
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>Ils fournissent une plage de valeurs entre les valeurs de début et de fin qui indiquent à quel point vous êtes proche de les terminer. La proximité avec la valeur de fin calcule une valeur de progression pour votre objectif. </td> 
    <td>✔</td> 
    <td>✔</td> 

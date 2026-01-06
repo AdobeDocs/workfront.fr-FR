@@ -6,7 +6,7 @@ description: Votre administrateur ou administratrice Adobe Workfront accorde au
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 56%
@@ -31,7 +31,7 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 
 * Le créateur d’un événement dispose par défaut des autorisations de niveau Gérer pour celui-ci.
 * Vous pouvez partager un ou plusieurs problèmes à la fois. Le partage des problèmes est identique au partage d’autres éléments dans Workfront. Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Vous pouvez accorder les autorisations suivantes pour un problème : 
+* Vous pouvez accorder les autorisations suivantes à un événement :
 
    * Afficher
    * Contribuer
@@ -85,7 +85,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
    * Spécifier les autorisations sur l’un des objets parents du problème : projet, programme ou portfolio. Les problèmes héritent des autorisations de leurs objets parents. Pour plus d’informations sur l’affichage des autorisations héritées sur les objets, voir [Afficher les autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Ajouter des entités au partage de projet sur un modèle utilisé pour créer le projet sur lequel porte le problème. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partager un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Spécifier les autorisations sur tous les problèmes d’un projet lorsque vous modifiez le projet. Pour plus d’informations sur la gestion de l’accès aux problèmes ou aux demandes sur le projet en fonction des autorisations d’un utilisateur ou d’une utilisatrice sur le projet, voir la section [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Spécifier les autorisations sur tous les problèmes d’un projet lorsque vous modifiez le projet. Pour plus d’informations sur la gestion de l’accès aux problèmes ou aux demandes sur le projet en fonction des autorisations d’un utilisateur ou d’une utilisatrice sur le projet, voir la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
@@ -107,7 +107,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue at the project level</h2>
-<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)&nbsp;</p>
+<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are added to a project.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -117,7 +117,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 <ul>
 <li><strong>View</strong></li>
 <li><strong>Contribute</strong></li>
-<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.&nbsp;</li>
+<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.  </li>
 </ul></li>
 <li value="5">(Optional) Select the <strong>Also grant ... access to the project</strong> field to also grant View, Contribute, or Manage permissions to the projects to the user assigned to the issue</li>
 <li value="6">In the <strong>When someone submits a REQUEST ...</strong> field, select from the following permissions levels:
@@ -132,7 +132,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 </ul>
 </note></li>
 </ul></li>
-<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="8">Click <strong>Save Changes</strong>.</li>
 </ol>
 </div>
@@ -141,7 +141,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue in request queues</h2>
-<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)&nbsp;</p>
+<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are submitted to a request queue.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -153,7 +153,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 <li><strong>Contribute Access</strong> </li>
 <li> <p><strong>Manage Access</strong> </p> </li>
 </ul> <p>Now, when someone submits a request to the selected project, they are granted the specified permissions to the request.</p> </li>
-<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="6">Click <strong>Save</strong>.</li>
 </ol>
 </div>
@@ -245,26 +245,26 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux person
   <tr> 
    <td> <p>Ajouter des problèmes</p> </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
-   <td>Supprimer</td> 
+   <td>Supprimer  </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Joindre un formulaire personnalisé</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Modifier les champs personnalisés</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Approuver le problème</td> 
@@ -275,8 +275,8 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux person
   <tr> 
    <td>Ajouter un processus d’approbation</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Ajouter des documents</td> 
@@ -293,26 +293,26 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux person
   <tr> 
    <td>Déplacer événement</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Consigner les heures</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Convertir en projet*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Accepter l’affectation</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Mises à jour / commentaires</td> 
@@ -323,14 +323,14 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux person
   <tr> 
    <td>Modifier les dates prévues</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Créer des affectations</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Partager</td> 
@@ -340,8 +340,8 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux person
   </tr> 
   <tr> 
    <td>Partager sur le système</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

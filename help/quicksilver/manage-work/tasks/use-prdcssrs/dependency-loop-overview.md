@@ -7,10 +7,10 @@ description: Lorsque vous ajoutez des relations antérieures aux tâches, vous p
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 98%
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ Lorsque vous ajoutez des relations antérieures aux tâches, vous pouvez rencont
 
 ## Vue d’ensemble des boucles de dépendance
 
-Les boucles de dépendance se produisent lorsque deux tâches ou plus dépendent les unes des autres pour se terminer.Adobe Workfront ne permet pas de créer une relation d’antériorité entre les tâches si cela crée une boucle de dépendance.
+Les boucles de dépendance se produisent lorsque vous avez deux tâches ou plus qui dépendent l&#39;une de l&#39;autre à terminer. Adobe Workfront ne vous permet pas de créer une relation de prédécesseur entre des tâches si une boucle de dépendance est créée.
 
 **Exemple :** la tâche 2 est antérieure à la tâche 1, la tâche 2 doit donc être terminée avant que vous puissiez commencer à travailler sur la tâche 1.
 
@@ -34,6 +34,6 @@ Si vous essayez de rendre la tâche 1 antérieure à la tâche 2, vous obtenez
 
 * Les boucles de dépendance peuvent impliquer plus de deux tâches. Parfois, un certain nombre de parents des tâches que vous connectez avec une relation d’antériorité sont ceux qui créent la boucle de dépendance.
 * Une boucle de dépendance peut également se produire si vous essayez de transformer un parent en tâche antérieure d’un enfant.
-* Dans le cas d’une boucle de dépendance, vous ne pouvez sauvegarder ni les tâches ni le projet. Pour corriger la boucle de dépendance, vous devez réévaluer la relation d’antériorité entre les tâches énumérées dans le message d’erreur et supprimer les conflits avant de pouvoir enregistrer les tâches ou le projet.
+* Dans le cas d’une boucle de dépendance, vous ne pouvez sauvegarder ni les tâches ni le projet. Pour corriger la boucle de dépendance, vous devez réévaluer la relation de prédécesseur entre les tâches répertoriées dans le message d’erreur et supprimer les conflits avant de pouvoir enregistrer les tâches ou le projet.
 
- 
+

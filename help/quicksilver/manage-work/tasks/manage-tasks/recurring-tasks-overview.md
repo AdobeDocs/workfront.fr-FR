@@ -9,7 +9,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 99%
@@ -100,4 +100,4 @@ Le tableau suivant indique si les modifications apportées au déclencheur paren
 
 &#42;&#42; Les affectations effectuées sur la tâche parent sont appliquées à toutes les sous-tâches de la périodicité. Toute modification apportée à l’affectation sur la tâche parent remplace toute affectation individuelle sur la sous-tâche. Si la tâche affiche la progression, l’affectation ne change pas.
 
- 
+

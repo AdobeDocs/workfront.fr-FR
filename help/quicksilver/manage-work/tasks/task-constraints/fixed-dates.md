@@ -7,7 +7,7 @@ description: Vous pouvez utiliser la contrainte de tâche de dates fixes lorsque
 author: Alina
 feature: Work Management
 exl-id: 084f54a6-e757-405c-b388-5d5f61608e71
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 98%
@@ -41,12 +41,12 @@ Tenez compte des points suivants lors de l’utilisation de la contrainte de dat
 
   Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md). Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mettre à jour la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour de la contrainte de tâche, voir [Mettre à jour la contrainte de tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Use the Fixed Dates Task Constraint</h2>
-<p>(NOTE:&nbsp;replaced with new article linked above) </p>
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to Finish No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

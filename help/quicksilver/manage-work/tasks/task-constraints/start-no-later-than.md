@@ -7,10 +7,10 @@ description: Commencer Au Plus Tard (SNLT) est une contrainte de tâche qui plan
 author: Alina
 feature: Work Management
 exl-id: 86139ce6-c6b1-4ac4-a5cb-fd4aa899a025
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ Commencer Au Plus Tard (SNLT) est une contrainte de tâche qui planifie le déma
 Tenez compte des points suivants lorsque vous utilisez la contrainte SNLT :
 
 * Utilisez la contrainte Commencer Au Plus Tard lorsque le projet est planifié à partir de la date d’achèvement. Dans ce cas, vous pouvez imposer une contrainte souple sur une tâche avant qu’elle ne force d’autres tâches dépendantes à s’afficher comme À risque.
-* La contrainte Commencer Au Plus Tard est définie par défaut pour les projets dont le mode de planification est Planifier à partir de la date d’achèvement et dont la valeur par défaut système ou groupe de la date de début d’une tâche est Aujourd’hui. Pour plus d’informations sur l’emplacement où définir la contrainte par défaut pour une nouvelle tâche, consultez la section [Configurer des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Débuter au plus tard est la contrainte par défaut si un projet utilise un mode de planification Planifier à partir de la date de fin et si la valeur par défaut du système ou du groupe pour la date de début d&#39;une tâche est Aujourd&#39;hui. Pour plus d’informations sur l’emplacement où définir la contrainte par défaut pour une nouvelle tâche, consultez la section [Configurer des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Lorsque vous utilisez la contrainte SNLT avec un projet dont la date de début est Planifier à partir de, Adobe Workfront planifie la tâche comme s’il s’agissait d’une tâche Aussi Tôt Que Possible.
 * Lorsque vous déplacez ou copiez une tâche avec une contrainte SNLT vers un autre projet, la contrainte de la tâche ou les dates du projet peuvent changer en fonction des dates de contrainte et des dates de début et d’achèvement du projet. Les scénarios suivants sont possibles :
 
@@ -41,7 +41,7 @@ Tenez compte des points suivants lorsque vous utilisez la contrainte SNLT :
 
   Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mettre à jour la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour de la contrainte de tâche, voir [Mettre à jour la contrainte de tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

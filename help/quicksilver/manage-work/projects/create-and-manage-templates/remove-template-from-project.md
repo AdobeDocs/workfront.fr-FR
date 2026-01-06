@@ -6,10 +6,10 @@ description: Vous ne pouvez pas supprimer un modèle d’un projet. Vous ne pouv
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 99%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ Vous ne pouvez pas supprimer un modèle d’un projet. Vous ne pouvez supprimer 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ Pour supprimer les informations sur les modèles qui ont été ajoutées au proj
 
   Pour plus d’nformations, voir la section [Supprimer les tâches créées à partir d’un modèle](#delete-tasks-created-from-a-template) de cet article.
 
-* Supprimez le modèle dans Workfront. La suppression du modèle dans Workfront ne supprime pas les tâches ajoutées à partir du modèle dans les projets.
+* Supprimez le modèle de Workfront. La suppression du modèle dans Workfront ne supprime pas les tâches ajoutées à partir du modèle dans les projets.
 
   Pour plus d’informations, voir [Supprimer des modèles de projet](../../../manage-work/projects/create-and-manage-templates/delete-templates.md).
 
@@ -112,4 +112,4 @@ Pour supprimer les informations sur les modèles qui ont été ajoutées au proj
 
      Pour plus d’informations sur la création d’une vue, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Sélectionnez toutes les tâches identifiées à l’étape 2 comme étant créées à partir d’un modèle, puis cliquez sur **l’icône Supprimer**&#x200B;**> Oui, supprimer**. Pour plus d’informations, voir [Supprimer des tâches](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Sélectionnez toutes les tâches identifiées à l’étape 2 comme étant créées à partir d’un modèle, puis cliquez sur **l’icône Supprimer****> Oui, supprimer**. Pour plus d’informations, voir [Supprimer des tâches](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

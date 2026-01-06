@@ -7,10 +7,10 @@ description: Votre équipe d’administration Adobe Workfront peut vous accorde
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 47%
+ht-degree: 46%
 
 ---
 
@@ -33,7 +33,7 @@ Les autorisations sont spécifiques à chaque élément de Workfront et définis
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 
   Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Vous pouvez supprimer les autorisations héritées du programme. Pour plus d’informations sur la suppression des autorisations sur les objets, voir [Supprimer les autorisations sur les objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Vous pouvez supprimer les autorisations héritées du programme. Pour plus d’informations sur la suppression des autorisations des objets , voir   [Supprimer des autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Partager un programme
 
@@ -155,18 +155,18 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux person
 
 | **Actions** | **Gérer** | **Afficher** |
 |---|---|---|
-| Modifier les détails du programme | ✓ |   |
+| Modifier les détails du programme | ✓ |   |
 | Afficher un programme | ✓ | ✓ |
-| Supprimer un programme | ✓ |   |
-| Joindre un formulaire personnalisé | ✓ |   |
-| Modifier un champ personnalisé | ✓ |   |
-| Ajouter ou supprimer un projet&#42; | ✓ |   |
-| Approuver un projet | ✓ |   |
+| Supprimer un programme | ✓ |   |
+| Joindre un formulaire personnalisé | ✓ |   |
+| Modifier un champ personnalisé | ✓ |   |
+| Ajouter ou supprimer un projet&#42; | ✓ |   |
+| Approuver un projet | ✓ |   |
 | Ajouter un dossier de documents&#42; | ✓ | ✓ |
 | Ajouter un document | ✓ | ✓ |
 | Ajouter des mises à jour/commentaires | ✓ | ✓ |
 | Partager | ✓ | ✓ |
-| Partager sur le système |   | ✓ |
+| Partager sur le système |   | ✓ |
 
 * Ces autorisations sont contrôlées par le niveau d’accès et les autorisations sur d’autres objets, comme les projets.
 

@@ -6,10 +6,10 @@ description: Vous pouvez afficher ou modifier les informations d’une tâche en
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ Cet article décrit comment afficher ou modifier des informations dans la zone V
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Package Adobe Workfront</p> </td> 
+   <td> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 1. Modifiez n’importe quel champ disponible en cliquant une seule fois sur le champ ou en cliquant sur **+Ajouter** pour ajouter des informations à un champ vide.
 1. Affichez ou modifiez n’importe lequel des champs répertoriés.
 
-   Tous les champs ne sont pas modifiables.  
+   Tous les champs ne sont pas modifiables.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -176,7 +176,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
        <div> 
         <div> 
          <p>Il s’agit de la durée pendant laquelle vous laissez une tâche ouverte avant qu’elle soit terminée. </p> 
-         <p>Important : la durée de la tâche correspondant généralement au temps écoulé entre les dates de début et d’achèvement prévues, elle affecte le calendrier du projet.</p> 
+         <p>Important : la durée de la tâche correspondant généralement au temps écoulé entre les dates de début et d’achèvement prévues, elle affecte la chronologie du projet.</p> 
          <p>Pour indiquer la durée de la tâche et l’unité de temps, procédez comme suit :</p> 
          <ul> 
           <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Saisissez la durée et sélectionnez l’unité de temps disponible dans le menu déroulant.</p> </li> </ul>
@@ -199,7 +199,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>Jours.Il s’agit du paramètre par défaut. </td> 
+            <td>Jours. Il s’agit de la valeur par défaut. </td> 
             <td>Dés</td> 
            </tr> 
            <tr> 
@@ -248,7 +248,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
       <td> <p>Différence en jours entre la date de début effective et la date d’achèvement effective. C’est le temps qu’il a réellement fallu pour effectuer le travail. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nombre d’heures prévues</td> 
+      <td role="rowheader">Heures prévues</td> 
       <td> <p>Indiquez le nombre d’heures prévues pour la tâche, en heures. Il s’agit de la durée réelle nécessaire aux personnes cessionnaires de la tâche pour l’exécuter. Vous ne pouvez spécifier le nombre d’heures prévues pour une tâche que lorsque le type de durée est défini sur Calcul d’affectation. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée des tâches et du type de durée</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -261,7 +261,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
        <div> 
         <p>Quantité d’effort requise pour terminer la tâche. La personne responsable de votre projet peut décider d’utiliser ce champ au lieu du nombre d’heures prévues afin d’estimer l’effort requis pour terminer une tâche. Ce champ n’est visible que lorsque les conditions suivantes sont remplies :</p> 
         <ul> 
-         <li> <p>La tâche a un type de durée simple. </p> <p>Conseil : si vous modifiez le type de durée de la tâche, ce champ devient grisé. </p> </li> 
+         <li> <p>La tâche a un type de durée simple. </p> <p>Conseil : si vous modifiez le type de durée de la tâche, ce champ devient grisé. </p> </li> 
          <li>La personne responsable de votre projet a activé Utiliser l’option Effort de travail pour calculer automatiquement le champ Nombre d’heures prévues de la tâche dans le projet. </li> 
         </ul> 
         <p>Sélectionnez l’une des options suivantes :</p> 
@@ -313,7 +313,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
       <td> <p>Spécifiez la date de début effective de la tâche. La valeur par défaut est généralement renseignée automatiquement lorsque vous définissez le statut de la tâche sur En cours. La personne responsable du projet ou la personne propriétaire de la tâche peut également modifier manuellement la date de début effective. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Date d’achèvement prévue</td> 
+      <td role="rowheader">Date d'achèvement prévue</td> 
       <td> <p>Date d’achèvement prévue, comme indiqué lors de la planification de la tâche. La date d’achèvement prévue peut être définie par plusieurs facteurs :</p> 
        <ul> 
         <li>La date d’achèvement prévue est calculée à partir de la date de début prévue en ajoutant la durée de la tâche à la date de début prévue. Lorsque la personne responsable du projet ou Workfront spécifie la durée de la tâche, une mise à jour de la date d’achèvement prévue est déclenchée. Si la date planifiée est modifiée, il est probable que ce soit en raison d’une mise à jour de la durée de la tâche.</li> 
@@ -326,7 +326,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
       <td> <p>Date « réelle » à laquelle la tâche sera achevée sur la base de la progression des tâches précédentes et des mises à jour de la progression de la tâche par la personne cessionnaire. Il s’agit d’un champ calculé que vous ne pouvez pas modifier manuellement.</p> <p> La date d’achèvement prévisionnelle et la date d’achèvement prévue sont identiques au départ, lors de la première planification d’un projet. La date d’achèvement prévisionnelle peut s’écarter de la date d’achèvement prévue si le projet évolue et que la tâche n’a pas encore commencé. Pour plus d’informations sur les dates d’achèvement prévisionnelles, voir la section <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Vue d’ensemble de la date d’achèvement prévisionnelle pour les projets, les tâches et les problèmes</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Date d’achèvement effective</td> 
+      <td role="rowheader">Date d'achèvement effective</td> 
       <td> <p>Indiquez la date et l’heure effectives auxquelles la tâche est terminée. La date et l’heure par défaut auxquelles une tâche est terminée correspondent toujours à l’heure effective à laquelle le statut devient Terminé. La personne responsable du projet ou la personne propriétaire de la tâche peut également modifier manuellement la date d’achèvement effective. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -343,7 +343,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Date de la dernière mise à jour</td> 
-      <td> <p>Date de la dernière mise à jour de la tâche. </p> <p>Conseil : Workfront enregistre une date mise à jour à chaque fois qu’une personne modifie et enregistre une tâche.</p> </td> 
+      <td> <p>Date de la dernière mise à jour de la tâche. </p> <p>Conseil : Workfront enregistre une date de mise à jour chaque fois qu’une personne modifie et enregistre une tâche.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dernière mise à jour par</td> 
@@ -365,7 +365,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -385,7 +385,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

@@ -6,10 +6,10 @@ description: Votre administrateur ou administratrice Adobe Workfront peut vous a
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 97%
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Pour plus d’informations sur ce que les utilisateurs et utilisatrices de chaqu
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -60,7 +60,7 @@ Pour plus d’informations sur ce que les utilisateurs et utilisatrices de chaqu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -71,7 +71,7 @@ Pour plus d’informations sur ce que les utilisateurs et utilisatrices de chaqu
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Affichage ou accès supérieur aux projets, tâches, problèmes et données financières</p>  </td> 
+   <td> <p>Afficher ou un accès supérieur aux projets, tâches, événements et données financières</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -117,7 +117,7 @@ Pour accorder des autorisations financières à un objet :
 
 ## Autorisation financière pour tous les niveaux de partage
 
-Le tableau suivant affiche les autorisations financières accordées aux utilisateurs et utilisatrices lorsque vous leur octroyez des autorisations d’affichage, de contribution ou de gestion des objets : 
+Le tableau suivant affiche les autorisations financières que les utilisateurs obtiennent lorsque vous leur accordez des autorisations d&#39;affichage, de contribution ou de gestion sur des objets :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -136,26 +136,26 @@ Le tableau suivant affiche les autorisations financières accordées aux utilisa
   <tr> 
    <td>Gérer des enregistrements de facturation</td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Gérer/afficher les taux de facturation et de coûts du rôle</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Gérer/afficher les taux de facturation et de coûts de l’utilisateur ou de l’utilisatrice</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Afficher Finance</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>Afficher des informations par coût dans les outils de planification des ressources</td> 
@@ -166,8 +166,8 @@ Le tableau suivant affiche les autorisations financières accordées aux utilisa
   <tr> 
    <td>Budgétiser les ressources dans les outils de planification des ressources*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Afficher les ressources dans les outils de planification des ressources*</td> 

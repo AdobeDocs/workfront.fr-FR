@@ -6,10 +6,10 @@ description: La condition d’un projet est un indicateur placé sur celui-ci po
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 86%
 
 La condition d’un projet est un indicateur placé sur celui-ci pour indiquer si le travail associé à ce projet se déroule sans problème ou si vous avez rencontré des difficultés. Cette donnée est différente du statut du projet, qui indique si vous travaillez activement ou non sur le projet.
 
-Vous pouvez définir la condition d’un projet automatiquement ou manuellement. Pour modifier manuellement la condition d’un projet, vous devez être la personne propriétaire du projet ou disposer des droits de gestion.
+Vous pouvez définir la condition d’un projet automatiquement ou manuellement. Pour modifier manuellement le statut d&#39;un projet, vous devez être le propriétaire du projet ou disposer des droits de gestion sur celui-ci.
 
 L’équipe d’administration d’Adobe Workfront peut créer des conditions personnalisées pour votre environnement, comme décrit dans la section [Créer ou modifier une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
@@ -30,7 +30,7 @@ L’équipe d’administration d’Adobe Workfront peut créer des conditions p
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p> </td> 
   </tr> 
   <tr> 

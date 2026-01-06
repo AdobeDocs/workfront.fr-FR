@@ -5,10 +5,10 @@ title: Créer et gérer des vues dans la zone des Demandes
 description: Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes.
 author: Becky
 feature: Work Management
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 16%
+source-wordcount: '818'
+ht-degree: 9%
 
 ---
 
@@ -63,11 +63,14 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Vous pouvez créer une vue dans la zone des Demandes de Workfront ou dans le widget Mes demandes de l’Accueil.
 
-1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
+1. Pour accéder à la liste Demandes :
+
+   {{step1-to-requests}}
 
 1. Pour accéder au widget Mes requêtes dans l’Accueil :
 
-   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   {{step1-to-home}}
+
    1. Recherchez le widget Mes requêtes .
 
       Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -83,11 +86,14 @@ Vous pouvez créer une vue dans la zone des Demandes de Workfront ou dans le wid
 
 Vous pouvez modifier les vues existantes, y compris les vues que vous venez de créer.
 
-1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
+1. Pour accéder à la liste Demandes :
+
+   {{step1-to-requests}}
 
 1. Pour accéder au widget Mes requêtes dans l’Accueil :
 
-   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   {{step1-to-home}}
+
    1. Recherchez le widget Mes requêtes .
 
       Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -146,11 +152,14 @@ Pour obtenir des instructions, voir [Personnaliser des filtres, des vues et des 
 
 Vous pouvez partager les vues que vous créez avec d&#39;autres utilisateurs, équipes ou groupes.
 
-1. Pour accéder à la liste des Demandes, cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront, ou (le cas échéant), cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Demandes]**.
+1. Pour accéder à la liste Demandes :
+
+   {{step1-to-requests}}
 
 1. Pour accéder au widget Mes requêtes dans l’Accueil :
 
-   1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, ou (le cas échéant) cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) en haut à gauche, puis cliquez sur **[!UICONTROL Accueil]**.
+   {{step1-to-home}}
+
    1. Recherchez le widget Mes requêtes .
 
       Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

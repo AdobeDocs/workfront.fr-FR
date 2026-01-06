@@ -7,10 +7,10 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '4633'
-ht-degree: 75%
+ht-degree: 74%
 
 ---
 
@@ -146,7 +146,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
    >
    >Vous pouvez également sélectionner une tâche de modèle dans une liste, puis cliquer sur **Modifier** à droite du nom de la tâche de modèle dans l’en-tête, pour ouvrir la zone **Modifier la tâche de modèle**.
 
-   Continuez à modifier la tâche de modèle comme décrit dans la section [&#x200B; Modifier une tâche de modèle à l’aide de la nouvelle expérience &#x200B;](#edit-a-template-task-using-the-new-experience) de cet article.
+   Continuez à modifier la tâche de modèle comme décrit dans la section [ Modifier une tâche de modèle à l’aide de la nouvelle expérience ](#edit-a-template-task-using-the-new-experience) de cet article.
 
 1. (Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier la tâche de modèle** pour ouvrir la zone **Modifier la tâche de modèle** dans l’ancienne expérience.
 
@@ -161,7 +161,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
    * [Formulaires personnalisés](#custom-forms)
    * [Commentaire](#comment)
 
-1. Continuez à modifier la tâche de modèle comme décrit dans la section [&#x200B; Modifier une tâche de modèle à l’aide de l’ancienne expérience &#x200B;](#edit-a-template-task-using-the-old-experience) de cet article.
+1. Continuez à modifier la tâche de modèle comme décrit dans la section [ Modifier une tâche de modèle à l’aide de l’ancienne expérience ](#edit-a-template-task-using-the-old-experience) de cet article.
 
 ### Modifier une tâche de modèle à l’aide de l’ancienne expérience
 
@@ -239,7 +239,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
      </tr> 
      <tr> 
       <td role="rowheader"><span style="font-weight: bold;">Jour de début</span><span style="font-weight: normal;"> (facultatif et le cas échéant)</span> </td> 
-      <td> <p> Vous pouvez spécifier le Jour de début d’une tâche de modèle uniquement lorsque la contrainte de tâche est l’une des suivantes :</p> 
+      <td> <p> Vous ne pouvez spécifier le Jour de début d'une tâche de modèle que lorsque la Contrainte de tâche est l'une des suivantes :</p> 
        <ul> 
         <li>Il Faut Commencer Le</li> 
         <li>Commencer Au Plus Tôt</li> 
@@ -519,7 +519,7 @@ Après avoir ouvert la zone **Modifier la tâche de modèle** dans la nouvelle e
      </tr> 
      <tr> 
       <td role="rowheader"><span style="font-weight: bold;">Jour de début</span><span style="font-weight: normal;"> (facultatif et le cas échéant)</span> </td> 
-      <td> <p> Vous pouvez spécifier le Jour de début d’une tâche de modèle uniquement lorsque la contrainte de tâche est l’une des suivantes :</p> 
+      <td> <p> Vous ne pouvez spécifier le Jour de début d'une tâche de modèle que lorsque la Contrainte de tâche est l'une des suivantes :</p> 
        <ul> 
         <li>Il Faut Commencer Le</li> 
         <li>Commencer Au Plus Tôt</li> 

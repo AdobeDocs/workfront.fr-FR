@@ -7,10 +7,10 @@ description: La date de début prévue d’une tâche est la date à laquelle vo
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 62%
+ht-degree: 45%
 
 ---
 
@@ -22,18 +22,18 @@ La date de début prévue d’une tâche est la date à laquelle vous, en tant q
 
 ## Date de début prévue d’une tâche
 
-Vous pouvez indiquer la Date de début prévue de la tâche ou laisser à Adobe Workfront le soin de la calculer en fonction de certains critères. 
+Vous pouvez indiquer la Date de début prévue de la tâche ou laisser à Adobe Workfront le soin de la calculer en fonction de certains critères.
 
 * [Définir manuellement la date de début prévue d’une tâche](#manually-set-the-planned-start-date-of-a-task)
 * [Calcul de la date de début prévue pour une tâche](#how-the-planned-start-date-is-calculated-for-a-task)
 
 ### Définir manuellement la date de début prévue d’une tâche {#manually-set-the-planned-start-date-of-a-task}
 
-La définition de la date de début prévue d&#39;une tâche dépend du type de contrainte de tâche que vous affectez à la tâche. 
+La définition de la date de début prévue d&#39;une tâche dépend du type de contrainte de tâche que vous affectez à la tâche.
 
 Vous pouvez définir manuellement la Date de début prévue lors de la création d’une tâche. Pour plus d’informations, voir [Créer des tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-Vous pouvez spécifier manuellement la date de début prévue lorsque vous sélectionnez l’une des contraintes de tâche suivantes :
+Vous pouvez spécifier manuellement la date de début prévue lorsque vous sélectionnez l&#39;une des contraintes de tâche suivantes :
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -60,11 +60,11 @@ Vous pouvez spécifier manuellement la date de début prévue lorsque vous séle
 
 Lorsqu’elle est calculée automatiquement par le système, les éléments suivants peuvent influencer la date de début prévue d’une tâche :
 
-* Paramètres de préférence de la date de début dans la zone des tâches et des problèmes de la configuration
+* Le paramètre de préférence Date de début dans la zone Tâches et événements de la Configuration
 
-  Votre administrateur ou votre administratrice Workfront ou de groupes peut déterminer si une nouvelle tâche commence à la même date que la date de début prévue du projet ou le jour où vous créez la tâche.
+  Votre administrateur Workfront ou de groupe peut déterminer si une nouvelle tâche commence à la même date que la date de début prévue du projet ou le jour où vous créez la tâche.
 
-  Pour plus d’informations sur les préférences relatives aux tâches et aux problèmes, consultez la section [Configurer les préférences des tâches et des problèmes à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Pour plus d’informations sur les préférences de tâches et d’événements, voir [Configurer les préférences de tâches et d’événements à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Contrainte de tâche
 
@@ -77,13 +77,13 @@ Lorsqu’elle est calculée automatiquement par le système, les éléments suiv
 * Date de début du projet, lorsque le projet est prévu à partir de la date de début.
 * Planning des congés du cessionnaire de Principal de la tâche.
 
-  Lorsque la personne désignée par Principal dispose de congés planifiés pendant la durée de la tâche, les dates planifiées de la tâche s’ajustent en conséquence lorsque le paramètre Prendre en compte les congés de l’utilisateur dans les durées de la tâche est sélectionné pour le champ Congés de l’utilisateur . Les nouveaux projets héritent de ce paramètre depuis la zone Préférences du projet, mais vous pouvez modifier ce paramètre au niveau du projet.
+  Lorsque la personne désignée par Principal dispose de congés planifiés pendant la durée de la tâche, les dates planifiées de la tâche s’ajustent en conséquence lorsque le paramètre Prendre en compte les congés de l’utilisateur dans les durées de la tâche est sélectionné pour le champ Congés de l’utilisateur . Les nouveaux projets héritent de ce paramètre de la zone Préférences du projet , mais vous pouvez le modifier au niveau du projet.
 
   Par exemple, si une tâche assortie d&#39;une contrainte Dès Que Possible est planifiée pour commencer le 1er juin et se terminer le 3 juin et que le cessionnaire du Principal a marqué le 1er juin comme étant pour les congés, la date de début prévue de la tâche devient le 2 juin.
 
   Pour plus d’informations sur la préférence de Congés de l’utilisateur, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) ou [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-Lorsqu’elle est définie automatiquement, la date de début prévue est déterminée selon le calcul suivant :
+Lorsqu’elle est définie automatiquement, la Date de début prévue est déterminée en fonction du calcul suivant :
 
 ```
 Planned Start Date = Planned Completion Date - Task Duration
@@ -93,5 +93,5 @@ Par exemple, si votre tâche a une date d’achèvement fixée au 16 septembre 
 
 >[!NOTE]
 >
-> Le type de mise à jour du projet doit également être défini sur Automatique et En cas de modification ou Automatiquement pour que les heures et la durée prévues soient automatiquement ajustées.\
+> Le type de mise à jour du projet doit également être défini sur Automatique et En cas de modification ou Automatiquement pour que les heures et la durée prévues soient automatiquement ajustées.\
 >Pour plus d’informations sur le type de mise à jour, voir [Sélectionner le type de mise à jour du projet](../../../manage-work/projects/manage-projects/select-project-update-type.md).

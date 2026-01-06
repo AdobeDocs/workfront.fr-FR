@@ -6,10 +6,10 @@ description: En tant que personne membre de l’administration Adobe Workfront,
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 95%
+ht-degree: 92%
 
 ---
 
@@ -42,13 +42,13 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
       * Afficher
       * Gérer
 
-   * Futurs projets créés à l’aide du modèle. Vous pouvez accorder aux projets créés à partir d’un modèle les mêmes niveaux d’autorisation qu’à un projet individuel. 
+   * Futurs projets créés à l’aide du modèle. Vous pouvez accorder aux projets créés à partir d’un modèle les mêmes niveaux d’autorisation qu’à un projet individuel.
 
      Pour plus d’informations sur la manière de partager un projet à partir d’un modèle au niveau du modèle, consultez la section [Partager des modèles de projet](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * En partageant un modèle ou un projet issu de ce modèle, les autorisations attribuées se transmettent par défaut à tous les objets enfant associés au modèle ou au projet.
 
-  Pour plus d’informations sur la hiérarchie des objets dans Workfront, consultez la section [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir   [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Quand un modèle est partagé, toutes les tâches, les documents qui y sont inclus, et les problèmes des projets futurs créés à partir de ce modèle reçoivent automatiquement les mêmes droits d’accès, sauf exceptions spécifiées.
 
@@ -61,7 +61,7 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Share a template</h2>
-<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)&nbsp;</p>
+<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)  </p>
 <ol>
 <li value="1"> <p>Go to the template you want to share with other entities, click <strong>Template Actions</strong>, then <strong>Template Sharing</strong>.<br>Or</p> <p>Navigate to a list of templates, and select multiple templates from the list, then click <strong>Share Template</strong>.</p> <note type="note">
 If you select multiple templates, you cannot view who already has permissions to the individual templates.
@@ -90,9 +90,9 @@ You can share an object only with active users, teams,
 </note> </li>
 <li value="3">From the drop-down menu, select which level of permissions you want to grant.<br>Select from the following:<br>
 <ul>
-<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.&nbsp;</li>
+<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.  </li>
 <li><strong>View</strong>: Users with these permissions can view projects created from the template.</li>
-<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template&nbsp;</li>
+<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template  </li>
 <li><strong>Manage</strong>: Users with these permissions can manage or delete projects created from this template.<br><img src="assets/share-project-from-template-350x268.png" alt="share_project_from_template.png" style="width: 350;height: 268;"></li>
 </ul></li>
 <li value="4">(Optional) Click <strong>Advanced Settings</strong> to fine-tune your settings for each level of permissions. </li>
@@ -120,17 +120,17 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux utilis
   <tr> 
    <td>Copier</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Supprimer</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Modifier les détails du modèle</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Afficher modèle</td> 
@@ -144,12 +144,12 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux utilis
   </tr> 
   <tr> 
    <td>Partager sur le système</td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Ajouter des documents</p> <p>Conseil : il arrive que des personnes ajoutent des documents à un modèle de projet en pensant les avoir ajoutés à un projet. Vous pouvez éviter cela pour vos personnes destinataires en désactivant ce paramètre.</p> </td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

@@ -8,10 +8,10 @@ description: Lorsque vous joignez un modèle à un projet existant, vous modifie
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Pour plus d’informations sur la façon de joindre un modèle à un projet, voi
 Tenez compte des éléments suivants lorsque vous ajoutez des modèles aux projets :
 
 * Vous ne pouvez joindre que des modèles actifs aux projets.
-* Vous pouvez joindre un modèle à un projet lorsque ce dernier a un statut Terminé, Immobilisé ou En attente d’approbation, uniquement lorsque votre administrateur ou administratrice d’Adobe Workfront ou un administrateur ou une administratrice de groupes a activé cette fonctionnalité dans la zone Préférences du projet. Pour plus d’informations sur la définition des préférences de projet, voir [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Vous pouvez joindre un modèle à un projet lorsque le statut du projet est défini sur Terminé, À l’arrêt ou En attente d’approbation, uniquement lorsque votre administrateur Adobe Workfront ou un administrateur de groupe a activé cette fonctionnalité dans les Préférences du projet. Pour plus d’informations sur la définition des préférences de projet, voir [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * À moins que vous n’excluiez des tâches de modèle spécifiques dans le processus d’association, toutes les tâches de modèle sont ajoutées au projet existant.
 * La plupart des paramètres de modèle sont ajoutés au projet. Certains paramètres de projet sont conservés. Pour plus d’informations, voir la section [Comprendre les modifications apportées aux champs de projet lors de l’association d’un modèle](#understand-changes-to-project-fields-when-attaching-a-template) dans cet article.
 
@@ -55,167 +55,168 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
   <tr> 
    <td>Description</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Statut</p> </td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
    <td>Transféré à partir du modèle, si le champ est vide sur le projet</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Priorité</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Type de condition</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Mode horaire</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Dates prévues</td> 
    <td>Changement possible en fonction des tâches ajoutées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Dates effectives</td> 
    <td>Changement possible en fonction des tâches ajoutées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Portfolio</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Programme</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Groupe</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Entreprise</td> 
    <td>Transféré à partir du modèle, si le champ est vide sur le projet</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Heures prévues</td> 
    <td>Changement possible en fonction des tâches ajoutées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Propriétaire du projet</td> 
    <td>Transféré à partir du modèle, si le champ est vide sur le projet</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Sponsor du projet</td> 
    <td>Transféré à partir du modèle, si le champ est vide sur le projet</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Gestionnaire des ressources</td> 
    <td>Ajouté à la liste des gestionnaires de ressources existants sur le projet</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Formulaires personnalisés</td> 
    <td>Ajouté au projet, en plus des formulaires déjà présents sur le projet</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Budget</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Devise</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>MIP</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>CRE</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Bénéfice prévu</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Bénéfice réel</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Chemin jalonné</td> 
    <td>Transféré à partir du modèle, si le champ est vide sur le projet</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Mode d'achèvement</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>Mode d’achèvement du résumé</td> 
+   <td>Mode d'achèvement du sommaire</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Type de mise à jour</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Planning</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>Congés de l’utilisateur ou de l’utilisatrice</td> 
+   <td>Congés de l’utilisateur ou de l’utilisatrice
+</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Mode de nivellement des ressources</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Risque (champ de projet)</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Pools de ressources</td> 
    <td>Ajouté à la liste des groupes de ressources existants sur le projet</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Types d'heures</td> 
    <td> <p>Si cette option est désélectionnée pendant le processus d’association, le paramètre Types d’heures sur le projet reste inchangé. </p> <p>Si cette option est sélectionnée, le paramètre du modèle est transféré vers le projet. Si le filtrage Type d’heure est défini sur Oui sur le projet et le modèle, les types d’heures du modèle sont ajoutés à ceux du projet.</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Notifications de rappel</td> 
@@ -230,27 +231,27 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
   <tr> 
    <td>Formulaires personnalisés de tâche par défaut</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Effort de travail</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>Autoriser les utilisateurs et utilisatrices à ajouter des problèmes en ligne</span> </td> 
    <td><span>Les informations du projet sont conservées</span> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Tous les paramètres</td> 
    <td>Les paramètres du modèle remplacent ceux du projet.</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Tâches</td> 
    <td>Ajout au bas de la liste des tâches, en plus des tâches de projet existantes</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Documents</td> 
@@ -270,12 +271,12 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
   <tr> 
    <td>Taux de facturation</td> 
    <td> <p>Transféré depuis le modèle en plus des taux de facturation existants sur le projet. </p> <p>S’il existe un taux différent pour la même fonction sur le projet et le modèle, le taux sur le projet reste inchangé. </p> </td> 
-   <td> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Enregistrements de facturation</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Frais</td> 
@@ -284,7 +285,7 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
   </tr> 
   <tr> 
    <td>Informations financières</td> 
-   <td> <p>Lorsque cette option est sélectionnée dans le processus de pièce jointe, les champs suivants sont transférés ou ajoutés au projet : </p> 
+   <td> <p>Lorsque cette option est sélectionnée dans le processus de pièce jointe, les champs suivants sont transférés ou ajoutés au projet : </p> 
     <ul> 
      <li> <p>Coûts fixes</p> <p>Lorsque l’option est sélectionnée, le coût fixe du projet mis à jour est calculé à l’aide de la formule suivante :</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li> 
      <li> <p>Revenus fixes</p> <p>Lorsque cette option est sélectionnée, les revenus fixes du projet mis à jour sont calculés à l’aide de la formule suivante :</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li> 
@@ -295,22 +296,22 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
      <li> <p>Le coût fixe et les revenus fixes du projet sont conservés.</p> </li> 
      <li> <p>Les types de coût et de revenu des tâches ajoutées à partir du modèle sont définis sur Aucun coût et Non facturable.</p> </li> 
     </ul> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Heures</td> 
    <td>Les informations du projet sont conservées</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Détails de la file d’attente, groupes de rubriques, rubriques de la file d’attente, règles de transmission</td> 
    <td> <p>Transféré à partir du modèle</p> <p>Si vous sélectionnez l’option <strong>Propriétés de file d’attente et configuration des problèmes</strong> pendant le processus d’association, les détails de la file d’attente du modèle remplacent ceux du projet. Dans ce cas, les règles de routage, les rubriques de file d’attente et les groupes de rubriques de file d’attente du modèle sont ajoutés à ceux du projet. <br>Si le projet est configuré en tant que file d’attente des demandes et que le modèle que vous joignez au projet n’est pas configuré en tant que file d’attente des demandes, les informations de la file d’attente du projet sont supprimées si vous laissez la case <strong>Propriétés de file d’attente et configuration des problèmes</strong> cochée. <br>Si vous décochez la case <strong>Propriétés de file d’attente et configuration des problèmes</strong>, tous les paramètres de configuration de la file d’attente du projet sont conservés et aucun paramètre de configuration de la file d’attente du modèle n’est joint.</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Contraintes de tâche</td> 
    <td> <p>Transféré à partir du modèle </p> <p>Si cette option est désélectionnée pendant le processus d’association, les contraintes de tâche sont définies sur Aussi Tôt Que Possible ou Aussi Tard Que Possible en fonction le paramètre « Planifier à partir de » du projet. </p> </td> 
-   <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
+   <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
   </tr> 
   <tr> 
    <td>Tâches antérieures</td> 
@@ -325,7 +326,7 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
  </tbody> 
 </table>
 
- 
+
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -368,17 +369,17 @@ Attaching a template to a project is not the same as creating a project from a t
 <li> <p><b>Access settings</b> </p> </li>
 </ul>
 <ul>
-<li> <p><b>Custom&nbsp;Forms</b>:&nbsp;Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
+<li> <p><b>Custom Forms</b>: Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
 </ul>
 <ul>
-<li> <p><b>Start&nbsp;From</b> </p> </li>
+<li> <p><b>Start From</b> </p> </li>
 </ul>
 <p><strong>Project fields that are populated and they remain unchanged after attaching the template</strong></p>
 <p>The following fields remain unchanged on the project, even if they are also populated on the template, and they cannot be managed during attaching the template: </p>
 <ul>
 <li> <p style="font-weight: bold;">URL</p> </li>
 <li> <p style="font-weight: bold;">Project Owner</p> </li>
-<li> <p style="font-weight: bold;">Project&nbsp;Sponsor</p> </li>
+<li> <p style="font-weight: bold;">Project Sponsor</p> </li>
 <li> <p style="font-weight: bold;">Group</p> </li>
 <li> <p style="font-weight: bold;">Company</p> </li>
 <li> <p style="font-weight: bold;">Currency</p> </li>
@@ -389,8 +390,8 @@ Attaching a template to a project is not the same as creating a project from a t
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p style="font-weight: bold;">Issue Settings fields</p> </li>
 </ul>
 </div>
-<p>&nbsp;</p>
+<p> </p>
 </div>
 -->
 
- 
+

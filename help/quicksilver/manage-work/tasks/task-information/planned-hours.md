@@ -7,10 +7,10 @@ description: Le nombre d’heures prévues associées à une tâche, à un probl
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2815'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -61,7 +61,7 @@ L’inclusion des problèmes dans le calcul du nombre d’heures prévues dépen
 
 * **Section Détails du projet et zone Modifier le projet** : seul le nombre d’heures prévues pour les tâches du projet est pris en compte. Le nombre d’heures prévues pour les problèmes du projet n’est pas pris en compte lors de l’affichage du nombre total d’heures prévues pour le projet dans la section Détails du projet ou dans la zone Modifier le projet.
 
-* **Équilibreur de charge de travail** : seul le nombre d’heures prévues associées aux tâches visibles dans l’équilibreur de charge de travail s’affichent dans l’équilibreur de charge de travail pour les projets. Les affectations quotidiennes des utilisateurs et utilisatrices peuvent modifier le nombre d’heures prévues journalières du projet dans l’équilibreur de charge de travail.
+* **Équilibreur de charge de travail** : seul le nombre d’heures prévues associées aux tâches visibles dans l’équilibreur de charge de travail s’affichent dans l’équilibreur de charge de travail pour les projets. Les allocations quotidiennes des utilisateurs peuvent modifier le nombre d’heures prévues quotidiennes du projet dans l’équilibreur de charge de travail.
 * **Section Utilisation** : le nombre d’heures prévues associé aux utilisateurs et utilisatrices affectés aux tâches et aux problèmes du projet est pris en compte lors de l’affichage du nombre total d’heures prévues du projet dans la section Utilisation.
 * **Panneau Affectation des rôles** dans la liste des tâches : le nombre d’heures prévues pour les tâches et les problèmes du projet attribué à une fonction, ou à un utilisateur ou une utilisatrice associé à une fonction s’affiche dans cette zone. Le nombre d’heures prévues associé aux tâches et aux problèmes qui n’est pas assigné ou qui est assigné aux équipes ne s’affichent pas dans cette zone. Pour plus d’informations, voir [Afficher le nombre d’heures prévues du projet dans le panneau Affectation des rôles](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
 
@@ -159,7 +159,7 @@ Les nombres d’heures prévues suivants pour les tâches, problèmes et projets
 
 Vous pouvez afficher l’affectation quotidienne du nombre d’heures prévues de chaque utilisateur ou utilisatrice affecté à une tâche ou à un problème dans l’équilibreur de charge de travail.
 
-La quantité par jour du nombre d’heures prévues représente l’une des suivantes :
+Le nombre d&#39;heures prévues par jour représente l&#39;un des éléments suivants :
 
 * la quantité par défaut répartie uniformément par Workfront pour chaque jour de la durée des tâches, des problèmes ou du projet ;
 * l’affectation quotidienne ajustée gérée par les gestionnaires de ressources.
@@ -178,7 +178,7 @@ Vous pouvez afficher les affectations hebdomadaires de nombre d’heures prévue
 >
 >Les ajustements d’affectation quotidienne dans l’équilibreur de charge de travail influent sur les affectations hebdomadaires pour les tâches et les problèmes dans le planificateur de ressources.
 
-Le nombre d’heures prévues pour chaque objet varie en fonction de la vue que vous appliquez au planificateur de ressources. Pour plus d’informations, consultez la section [Vue d’ensemble des heures, de l’équivalent temps complet et des informations sur les coûts dans les vues « Projet » et « Rôle » du planificateur de ressources](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Le nombre d&#39;heures planifiées pour chaque objet varie selon la vue que vous appliquez au planificateur de ressources. Pour plus d’informations, consultez la section [Vue d’ensemble des heures, de l’équivalent temps complet et des informations sur les coûts dans les vues « Projet » et « Rôle » du planificateur de ressources](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 Le nombre d’heures prévues par semaine pour les tâches et les problèmes représente l’un des éléments suivants :
 
@@ -195,7 +195,7 @@ Les heures prévues du projet sont celles associées aux affectations pour chaqu
 
 >[!IMPORTANT]
 >
->Notez que les heures prévues du rapport d’utilisation sont associées aux affectations et non aux tâches et problèmes eux-mêmes. Les heures prévues du rapport d’utilisation ne correspondent pas toujours aux heures prévues sur les tâches et les problèmes du projet.Toutefois, le nombre d’heures prévues correspond aux heures associées aux affectations sur les tâches et les problèmes.
+>Notez que les heures prévues du rapport d’utilisation sont associées aux affectations et non aux tâches et problèmes eux-mêmes. Les heures prévues dans le rapport Utilisation ne correspondent pas toujours aux heures prévues pour les tâches et événements du projet. Toutefois, les heures planifiées correspondent aux heures associées aux affectations pour les tâches et les événements.
 
 Vous pouvez afficher les types d’heures prévues suivants dans le rapport d’utilisation :
 
@@ -241,7 +241,7 @@ Il est possible de mettre à jour le nombre d’heures prévues pour les tâches
 
 Pour plus d’informations, consultez la section [Vue d’ensemble du type de durée : « Simple »](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
-Il est possible de réviser l’affectation globale des utilisateurs, utilisatrices et fonctions affectés à la tâche ou de modifier les affectations journalières de chaque utilisateur ou utilisatrice grâce à l’équilibreur de charge de travail.
+Il est possible de modifier l’affectation globale des utilisateurs, utilisatrices et fonctions affectés à la tâche ou de modifier les affectations journalières de chaque utilisateur ou utilisatrice grâce à l’équilibreur de charge de travail.
 
 Pour plus d’informations sur la gestion de l’affectation globale des utilisateurs, utilisatrices et fonctions aux tâches, consultez la section [Gérer les heures d’affectation des utilisateurs, utilisatrices et fonctions aux tâches](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
@@ -280,7 +280,7 @@ Pour plus d’informations sur l’utilisation de l’effort de travail pour est
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>Anna Asatryan</p>
 <p>3/22/2022 At 3:16 PM</p>
-<p>&nbsp;</p>
+<p> </p>
 <p>to Mark Paul, Corrie Butler, Arman Simonyan, Gagik Khalatyan, Alina Wilson, Artur Sargsyan, Vazgen Babayan, Anna Asatryan</p>
 <p>I have done some rough calculations on what the planned hours/revenues should look like Book.xlsx . And if we look, for example at the 2 users highlighted in one of the screenshots their planned hours look way off from what the calculation looks like in the spreadsheet (i.e. equally distributed allocation). When looking at the Workload balancer (the second screenshot), as an example for the user Yashas Mitta, I can see that the allocation has been modified. Obviously the utilization report calculates the allocations based on the modified contouring using the new work per day calculation. The project financial report uses the old, equal distribution of allocation along the full duration of the task. Hence. there is a difference when grouping per periods.</p>
 <p>Vazgen Babayan</p>

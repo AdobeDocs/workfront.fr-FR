@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 90%
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez partager un lien vers une file d’attente des demandes, un groupe d
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -58,11 +58,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Commencez à soumettre une demande comme décrit dans [Créer et soumettre des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. Utilisez l’une des méthodes suivantes :
 
-   * Sélectionnez une file d’attente des demandes dans le champ Type de demande.
+   * Sélectionnez une file d’attente des demandes dans le champ Type de demande .
    * Sélectionner une file d’attente des demandes et jusqu’à 10 groupes de rubriques
-   * Sélectionner une file d’attente des demandes, un groupe de rubriques et une rubrique de file d’attente
+   * Sélectionnez une file d’attente des demandes, un groupe de rubriques et une rubrique de file d’attente
 
-1. Avant de soumettre la demande, cliquez sur **Partager le chemin** dans le coin supérieur droit de la page.
+1. Avant d’envoyer la requête, cliquez sur **Partager le chemin** dans le coin supérieur droit de la page.
 
    Ceci copie dans le presse-papiers un lien vers la file d’attente des demandes, le groupe de rubriques ou la rubrique de file d’attente que vous avez sélectionné à l’étape précédente.
 

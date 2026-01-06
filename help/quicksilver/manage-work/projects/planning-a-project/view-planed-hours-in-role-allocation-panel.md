@@ -6,9 +6,9 @@ description: Vous pouvez visualiser l’affectation des rôles pour toutes les f
 author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '458'
 ht-degree: 61%
 
 ---
@@ -37,7 +37,7 @@ Vous pouvez visualiser l’affectation des rôles pour toutes les fonctions affe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Adobe Workfront Ultimate</p>
    <p>Adobe Workflow Ultimate</p>
     </td> 
@@ -104,8 +104,9 @@ Vous devez disposer des éléments suivants :
 
 ## Voir les heures prévues du projet dans le panneau Affectation des rôles
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Projets**.
-1. Cliquez sur le nom d’un projet pour y accéder.La page Projet s’ouvre.
+{{step1-to-projects}}
+
+1. Cliquez sur le nom d’un projet pour y accéder. La page Projet s’ouvre.
 1. Cliquez sur l’un des éléments suivants dans le panneau de gauche :
 
    * **Tâches**
