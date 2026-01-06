@@ -87,7 +87,7 @@ Vous pouvez partager une tâche de l’une des manières suivantes :
    * Spécifiez les autorisations sur l’un des objets parent de la tâche : projet, programme ou portfolio. Les tâches héritent des autorisations de leurs objets parent. Pour plus d’informations sur l’affichage des autorisations héritées sur les objets, voir [Afficher les autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Ajoutez des entités au partage de projet sur un modèle utilisé pour créer le projet sur lequel la tâche est effectuée. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partager un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Spécifiez les autorisations sur toutes les tâches d’un projet lorsque vous modifiez le projet.  Pour plus d’informations sur la gestion de l’accès aux tâches du projet en fonction des autorisations d’un utilisateur pour le projet, consultez la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) de l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Spécifiez les autorisations sur toutes les tâches d’un projet lorsque vous modifiez le projet.  Pour plus d’informations sur la gestion de l’accès aux tâches du projet en fonction des autorisations d’un utilisateur pour le projet, consultez la section [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) de l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >

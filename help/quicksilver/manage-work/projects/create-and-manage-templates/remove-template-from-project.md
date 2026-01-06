@@ -112,4 +112,4 @@ Pour supprimer les informations sur les modèles qui ont été ajoutées au proj
 
      Pour plus d’informations sur la création d’une vue, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Sélectionnez toutes les tâches identifiées à l’étape 2 comme étant créées à partir d’un modèle, puis cliquez sur **l’icône Supprimer****> Oui, supprimer**. Pour plus d’informations, voir [Supprimer des tâches](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Sélectionnez toutes les tâches identifiées à l’étape 2 comme étant créées à partir d’un modèle, puis cliquez sur **l’icône Supprimer**&#x200B;**> Oui, supprimer**. Pour plus d’informations, voir [Supprimer des tâches](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

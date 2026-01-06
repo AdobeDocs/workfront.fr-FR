@@ -74,7 +74,7 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 
 * Lorsque vous partagez un projet, toutes les tâches, tous les problèmes et tous les documents héritent des mêmes autorisations, sauf indication contraire.
 
-  Pour plus d’informations sur la gestion de l’accès aux tâches et aux problèmes du projet en fonction des autorisations d’une personne sur le projet, voir la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
+  Pour plus d’informations sur la gestion de l’accès aux tâches et aux problèmes du projet en fonction des autorisations d’une personne sur le projet, voir la section [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
   L’administrateur ou l’administratrice Workfront peut indiquer si les documents doivent hériter des autorisations des objets supérieurs dans le niveau d’accès de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la restriction des autorisations héritées sur les documents, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

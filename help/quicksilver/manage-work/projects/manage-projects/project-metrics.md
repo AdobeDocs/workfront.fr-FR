@@ -209,7 +209,7 @@ Vous pouvez interagir avec les graphes de la zone Mesures pour visualiser le con
 
       Sélectionnez un numéro de page spécifique pour afficher les tâches ou les problèmes sur la page correspondante.
 
-      ![ Pagination ](assets/pagination-300x152.png)
+      ![&#x200B; Pagination &#x200B;](assets/pagination-300x152.png)
 
    1. Sélectionnez une tâche ou un problème pour afficher plus de détails.
 

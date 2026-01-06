@@ -53,7 +53,7 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 1. Sélectionnez l’**[!UICONTROL Utilisateur ou l’utilisatrice]** dont vous devez réinitialiser le mot de passe.
    ![Sélectionner l’utilisateur](assets/100520classicnweselectuser-350x105.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Plus] ** qui s’affiche une fois que vous avez choisi l’**[!UICONTROL Utilisateur ou l’utilisatrice]** et sélectionnez l’option **[!UICONTROL Envoyer un e-mail de mot de passe oublié]** dans le menu déroulant.
+1. Cliquez sur le bouton **[!UICONTROL Plus] &#x200B;** qui s’affiche une fois que vous avez choisi l’**[!UICONTROL Utilisateur ou l’utilisatrice]** et sélectionnez l’option **[!UICONTROL Envoyer un e-mail de mot de passe oublié]** dans le menu déroulant.
 
    ![Envoyer un e-mail de mot de passe oublié](assets/100520classicnwesendemail-350x134.png)
 
