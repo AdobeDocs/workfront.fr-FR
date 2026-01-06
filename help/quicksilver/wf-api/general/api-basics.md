@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 084f19973941b391d3d7e62c4901eee8ec975527
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
 source-wordcount: '4396'
 ht-degree: 97%
@@ -266,7 +266,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 Le tableau suivant répertorie certains des modificateurs que vous pouvez utiliser avec l’API Workfront.
 
 | **Modificateur** | **Description** | **Exemple** |
-|---|---|---|
+| --- | --- | --- |
 | eq | renvoie les résultats qui ont le statut « Fermé ». | <pre>...status=cls&amp;status_Mod=eq...</pre> |
 | ne | renvoie les résultats qui n’ont pas le statut « Fermé ». | <pre>...status=cls&amp;status_Mod=ne...</pre> |
 | gte | renvoie les résultats affichant un pourcentage d’achèvement supérieur ou égal à 50. | <pre>...percentComplete=50&amp;percentComplete_Mod=gte...</pre> |

@@ -6,10 +6,10 @@ description: En plus d’utiliser les brouillons disponibles, suggérés par Wor
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 70%
+source-wordcount: '836'
+ht-degree: 72%
 
 ---
 
@@ -82,6 +82,10 @@ La procédure de création de requêtes à partir de brouillons diffère entre l
    * Dans la liste des requêtes du widget Mes requêtes de l’Accueil
    * Dans la boîte de dialogue Nouvelle demande (inclut uniquement les brouillons de demandes créées avec le formulaire sélectionné)
 
+   >[!NOTE]
+   >
+   >Les brouillons créés dans l’expérience de demande héritée ne sont pas disponibles dans la nouvelle expérience de demande.
+
 1. Mettez à jour les informations relatives à la demande, tel que décrit dans la section [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Facultatif et le cas échéant) À tout moment au cours de la saisie de la demande, cliquez sur **Ignorer** le brouillon si vous souhaitez supprimer le brouillon. Le brouillon est supprimé.
 
@@ -112,7 +116,7 @@ La procédure de création de requêtes à partir de brouillons diffère entre l
 1. Examinez les informations relatives à chaque brouillon dans les colonnes suivantes de la liste Brouillons :
 
    | Objet | Il s’agit du nom que vous avez donné à votre demande lorsque vous avez commencé à la créer. |
-   |---|---|
+   | --- | --- |
    | Chemin d’accès | Nom de la file d’attente des demandes, des groupes de rubriques et des rubriques de file d’attente où vous aviez l’intention d’envoyer la demande à l’origine. |
    | Date d’entrée | Date à laquelle vous avez initié la création de la demande. |
    | Date de dernière mise à jour | Votre dernière mise à jour. Si vous n’avez pas effectué de mise à jour depuis le début de la création de la demande, la date d’entrée en vigueur et la date de la dernière mise à jour doivent être identiques. |
@@ -141,9 +145,4 @@ La procédure de création de requêtes à partir de brouillons diffère entre l
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Lorsque vous envoyez la demande, le brouillon est supprimé et ne peut pas être restauré.
-
-   >[!NOTE]
-   >
-   >Dans la nouvelle expérience de demande, les brouillons figurent dans la même liste que les demandes envoyées.
-   >Pour plus d’informations sur la création de requêtes dans la nouvelle expérience , consultez la section [Créer des requêtes et générer des brouillons dans l’application web Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) dans l’article Création et envoi de requêtes.
 

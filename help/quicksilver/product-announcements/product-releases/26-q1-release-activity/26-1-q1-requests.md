@@ -4,9 +4,9 @@ description: Améliorations des demandes du premier trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '904'
 ht-degree: 4%
 
 ---
@@ -111,7 +111,7 @@ Pour faciliter la création de requêtes, nous avons créé un remplissage de fo
 
 L’IA doit être activée pour que votre entreprise puisse accéder à cette fonctionnalité.
 
-Pour plus d’informations sur le remplissage de formulaire optimisé par l’IA, notamment sur ce qui est nécessaire pour activer l’IA pour votre organisation, consultez la section [&#x200B; Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+Pour plus d’informations sur le remplissage de formulaire optimisé par l’IA, notamment sur ce qui est nécessaire pour activer l’IA pour votre organisation, consultez la section [ Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
 ## Enregistrer les brouillons des demandes dans la nouvelle expérience de demande
@@ -125,8 +125,6 @@ Pour plus d’informations sur le remplissage de formulaire optimisé par l’IA
 Pour faciliter la création et l’envoi de demandes, nous avons ajouté la possibilité d’enregistrer des brouillons dans la nouvelle expérience de demande. Désormais, lorsque vous commencez à remplir une demande et que vous la fermez, la demande est enregistrée au statut Brouillon et figure sur le formulaire de demande utilisé pour créer le brouillon. Vous pouvez ensuite rouvrir, mettre à jour et envoyer le brouillon à votre convenance.
 
 Auparavant, cette fonctionnalité n’était pas disponible dans la nouvelle expérience de demande.
-
-Les brouillons créés dans l’expérience de demande héritée sont disponibles dans la nouvelle expérience de demande.
 
 Pour plus d’informations sur les brouillons de demandes, voir [Création de demandes à partir de brouillons](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 
@@ -157,7 +155,7 @@ Pour faciliter l’envoi de demandes, nous avons ajouté la possibilité de copi
 
 Auparavant, cette fonctionnalité n’était pas disponible dans la nouvelle expérience de demande.
 
-Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [&#x200B; Copier et envoyer des traitements &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [ Copier et envoyer des traitements ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 
 
