@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 644b27b1cab7b7a4e94a28c82387de056dfe34a0
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 83%
@@ -1493,7 +1493,7 @@ ht-degree: 83%
          * [Créer et soumettre des demandes](manage-work/requests/create-requests/create-submit-requests.md)
          * [Créer des demandes à partir de brouillons](manage-work/requests/create-requests/create-requests-from-drafts.md)
          * [Permettre aux utilisateurs et utilisatrices d’envoyer par e-mail un problème dans un projet de la file d’attente des demandes](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
-         * [Localiser les demandes envoyées](manage-work/requests/create-requests/locate-submitted-requests.md)
+         * [Afficher les demandes envoyées](manage-work/requests/create-requests/locate-submitted-requests.md)
          * [Partager un lien vers une file d’attente des demandes](manage-work/requests/create-requests/share-link-to-request-queue.md)
          * [Supprimer une demande soumise ou un brouillon de demande](manage-work/requests/create-requests/delete-request-draft.md)
          * [Copier et soumettre les demandes](manage-work/requests/create-requests/copy-and-submit-requests.md)
@@ -2087,7 +2087,7 @@ ht-degree: 83%
       * [Personnaliser la terminologie d’Objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Partager un objectif dans Objectifs Workfront](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Activer les notifications d’Objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Planification d’Adobe Workfront {#adobe-workfront-planning}
+* Adobe Workfront Planning {#adobe-workfront-planning}
    * [Informations générales sur Adobe Workfront Planning](planning/planning-information.md)
    * Informations générales sur Adobe Workfront Planning {#adobe-workfront-planning-general-information}
       * [Informations sur Adobe Workfront Planning : index des articles](planning/general/planning-general-article-index.md)
@@ -2532,7 +2532,7 @@ ht-degree: 83%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
