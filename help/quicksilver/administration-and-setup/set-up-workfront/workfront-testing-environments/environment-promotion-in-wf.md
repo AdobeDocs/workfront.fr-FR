@@ -153,7 +153,7 @@ Ces statuts sont les suivants :
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Le package de promotion est automatiquement placé dans ce statut si l’étape ASSEMBLING échoue.</p><p>Pour renvoyer le package à l'étape ASSEMBLAGE, vous devez déclencher à nouveau le processus d'assemblage.</p><p>Pour plus d’informations sur l’assemblage d’un package, voir la section <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modifier ou assembler un package existant</a> dans l’article Créer ou modifier un package de promotion d’environnement.</td> 
+   <td><p>Le package de promotion est automatiquement placé dans ce statut si l’étape ASSEMBLING échoue.</p><p>Pour renvoyer le package à l'étape ASSEMBLAGE, vous devez déclencher à nouveau le processus d'assemblage.</p><p>Pour plus d’informations sur l’assemblage d’un package, voir la section <a href="https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modifier ou assembler un package existant</a> dans l’article Créer ou modifier un package de promotion d’environnement.</td> 
   </tr> 
   </tbody> 
 </table>
