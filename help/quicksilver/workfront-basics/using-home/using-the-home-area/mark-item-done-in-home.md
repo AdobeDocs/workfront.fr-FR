@@ -6,9 +6,9 @@ description: Vous pouvez marquer une tâche ou un problème comme Terminé si vo
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '796'
 ht-degree: 78%
 
 ---
@@ -20,8 +20,6 @@ Vous pouvez marquer une tâche ou un problème comme Terminé si vous êtes le o
 >[!NOTE]
 >
 >Vous ne voyez pas le bouton [!UICONTROL Terminé] si vous n’êtes pas l’une des ressources affectées à la tâche ou au problème.
-
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 ## Conditions d’accès
 

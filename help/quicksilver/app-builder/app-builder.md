@@ -4,9 +4,9 @@ description: Les extensions d’interface d’utilisation de Workfront, optimis�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2269'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,6 @@ Des instructions supplémentaires sont disponibles sur le site [Adobe Developer]
 >Assurez-vous d’avoir sélectionné la bonne organisation IMS pour toutes les étapes suivantes. Si vous appartenez à plusieurs organisations, il est possible de sélectionner la mauvaise. Assurez-vous que vous agissez sous la bonne organisation, qui est généralement répertoriée dans le coin supérieur droit.
 
 1. Accédez à Production : https://adminconsole.adobe.com/ .
-
 1. Dans la section **Utilisateurs**, cliquez sur **Développeurs** > **Ajouter des développeurs**.
 
    ![ajout d’utilisateurs dans admin console](assets/manage-users-admin-console.png)
@@ -63,8 +62,8 @@ Des instructions supplémentaires sont disponibles sur le site [Adobe Developer]
    >Si vous ne voyez pas d’option permettant de gérer les développeurs, cela signifie que vous ne disposez pas d’un produit permettant aux développeurs d’y accéder.
 
 1. Ajoutez l’e-mail de l’utilisateur. Elle doit rechercher des utilisateurs existants qui ont déjà été ajoutés à partir d’Admin Console.
+1. Ajoutez les produits nécessaires au profil de développeur et cliquez sur **Enregistrer**.
 
-1. Ajoutez les produits nécessaires au profil de développeur et cliquez sur **Enregistrer**.\
    ![ajout de développeurs](assets/add-developer.png)
 
 ### Obtenir l’accès à App Builder
@@ -80,9 +79,7 @@ Vous devez utiliser Adobe Developer Console pour créer votre extension d’inte
 Des instructions supplémentaires sont disponibles sur le site [Adobe Developer](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
 
 1. Connectez-vous au Adobe Developer Console à l’aide de votre Adobe ID.
-
 1. Choisissez votre compte et votre profil ou organisation.
-
 1. Cliquez sur **Créer un projet à partir d’un modèle** dans la zone Démarrage rapide, ou cliquez sur **Créer un projet > Projet à partir d’un modèle**.
 
    >[!IMPORTANT]
@@ -92,11 +89,8 @@ Des instructions supplémentaires sont disponibles sur le site [Adobe Developer]
    ![Créer à partir d’un modèle](assets/create-from-template.png)
 
 1. Sélectionnez **App Builder**.
-
 1. Saisissez un **Titre du projet** et **Nom de l’application**. Les deux comportent des valeurs par défaut, mais il est plus facile d’identifier le projet souhaité ultérieurement si vous personnalisez la valeur.
-
 1. Laissez **Inclure le runtime** sélectionné.
-
 1. Cliquer sur **Enregistrer**.
 
 ## Utilisation de l’interface de ligne de commande Adobe Developer (aio)
@@ -157,33 +151,33 @@ Pour autoriser les applications personnalisées dans le menu principal de Workfr
 
 1. Accédez à ExtensionRegistration.js.
 
-Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce code a été créé pour vous par le modèle. Ce code peut être ajouté pour créer des éléments de menu supplémentaires. Veillez à remplacer les identifiants et les URL.
+   Dans la fonction ExtensionRegistration, vous devriez voir le code suivant. Ce code a été créé pour vous par le modèle. Ce code peut être ajouté pour créer des éléments de menu supplémentaires. Veillez à remplacer les identifiants et les URL.
 
-    «
-    mainMenu: &lbrace;
-    
-    getItems() &lbrace;
-    
-    return &lbrack;
-    
-    &lbrace;
-    
-    id: &#39;main-menu-label&#39;,
-    
-    url: &#39;/index.html#/main-menu-label&#39;,
-    
-    label: &#39;Main menu label&#39;,
-    
-    icon: icon1,
-    
-    &rbrace;,
-    
-    &rbrack;;
-    
-    &rbrace;,
-    
-    &rbrace;
-    «
+   ```
+   mainMenu: { 
+   
+           getItems() { 
+   
+               return [ 
+   
+               { 
+   
+                   id: 'main-menu-label', 
+   
+                   url: '/index.html#/main-menu-label', 
+   
+                   label: 'Main menu label', 
+   
+                   icon: icon1, 
+   
+               }, 
+   
+               ]; 
+   
+           }, 
+   
+           } 
+   ```
 
 1. Ajoutez le fragment de code suivant :
 
@@ -402,7 +396,7 @@ Une application peut être incorporée dans un formulaire personnalisé Workfron
            /> 
    ```
 
-   ![&#x200B; exemple de code &#x200B;](assets/9-app-file-step-1-from-sam.png)
+   ![ exemple de code ](assets/9-app-file-step-1-from-sam.png)
 1. Enregistrez votre travail.
 
 Pour plus d’informations sur le développement et l’exécution de l’application, consultez le [site du développeur Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).

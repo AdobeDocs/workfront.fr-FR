@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 50%
@@ -153,7 +153,7 @@ Ces statuts sont les suivants :
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Le package de promotion est automatiquement placé dans ce statut si l’étape ASSEMBLING échoue.</p><p>Pour renvoyer le package à l'étape ASSEMBLAGE, vous devez déclencher à nouveau le processus d'assemblage.</p><p>Pour plus d’informations sur l’assemblage d’un package, voir la section <a href="https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modifier ou assembler un package existant</a> dans l’article Créer ou modifier un package de promotion d’environnement.</td> 
+   <td><p>Le package de promotion est automatiquement placé dans ce statut si l’étape ASSEMBLING échoue.</p><p>Pour renvoyer le package à l'étape ASSEMBLAGE, vous devez déclencher à nouveau le processus d'assemblage.</p><p>Pour plus d’informations sur l’assemblage d’un package, voir la section <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modifier ou assembler un package existant</a> dans l’article Créer ou modifier un package de promotion d’environnement.</td> 
   </tr> 
   </tbody> 
 </table>
@@ -161,6 +161,6 @@ Ces statuts sont les suivants :
 ## Ressources
 
 * Pour les questions fréquentes concernant la promotion de l’environnement, voir [FAQ sur la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
-* Pour obtenir des recommandations de dépannage, voir [&#x200B; Dépannage de la promotion de l’environnement &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+* Pour obtenir des recommandations de dépannage, voir [ Dépannage de la promotion de l’environnement ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
 

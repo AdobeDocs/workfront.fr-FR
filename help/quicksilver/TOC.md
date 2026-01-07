@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 8cbaa087be44ffd8142bd864e3fb47ffef992372
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '13645'
+source-wordcount: '13638'
 ht-degree: 83%
 
 ---
@@ -1437,7 +1437,6 @@ ht-degree: 83%
          * [Modifier les affectations d’utilisateurs et utilisatrices pour plusieurs problèmes dans une liste](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [Mettre à jour automatiquement les statuts des problèmes de Commentaires en attente à En cours.](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * Graphique de Gantt {#the-gantt-chart}
-      * Graphique de Gantt {#the-gantt-chart}
       * [Graphique de Gantt](manage-work/gantt-chart/the-gantt-chart.md)
       * Vue d’ensemble du graphique de Gantt {#gantt-chart-overview}
          * [Vue d’ensemble du graphique de Gantt](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
@@ -2192,7 +2191,6 @@ ht-degree: 83%
    * [Intégrations Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
    * [Vue d’ensemble des intégrations intégrées d’Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Méthodes d’intégration d’Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Intégrations de révision et d’approbation {#review-approval-integrations}
    * Adobe Workfront pour Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront pour Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Installation du plug-in Adobe Workfront pour les applications Creative Cloud {#install-wf-cc}
@@ -2533,7 +2531,7 @@ ht-degree: 83%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)

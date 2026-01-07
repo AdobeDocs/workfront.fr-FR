@@ -6,7 +6,7 @@ description: Pour rechercher efficacement des éléments de travail et vous conc
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2437'
 ht-degree: 50%
@@ -41,7 +41,7 @@ Cet article contient des informations sur les filtres dans l’équilibreur de c
  <col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr>
   <tr> 
@@ -72,13 +72,11 @@ Cet article contient des informations sur les filtres dans l’équilibreur de c
 
 Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
-
 ## Vue d’ensemble des filtres dans l’équilibreur de charge de travail
 
 Tenez compte des points suivants lorsque vous utilisez des filtres dans l’équilibreur de charge de travail :
 
-* Selon le point d’accès à l’équilibreur de charge de travail, il se peut que Workfront filtre déjà les informations pour vous. Pour plus d’informations, consultez la section suivante de cet article : [&#x200B; Filtres préappliqués dans l’équilibreur de charge de travail &#x200B;](#pre-applied-filters-in-the-workload-balancer).
+* Selon le point d’accès à l’équilibreur de charge de travail, il se peut que Workfront filtre déjà les informations pour vous. Pour plus d’informations, consultez la section suivante de cet article : [ Filtres préappliqués dans l’équilibreur de charge de travail ](#pre-applied-filters-in-the-workload-balancer).
 * Vous pouvez créer et appliquer un filtre sans l’enregistrer, ou enregistrer un filtre pour le réutiliser ultérieurement.
 * Lorsque vous appliquez un filtre sans l’enregistrer, vous pouvez revenir aux listes d’origine en actualisant votre page.
 * Vous pouvez afficher les filtres que vous avez créés ou ceux que d’autres utilisateurs et utilisatrices ont créés et partagés avec vous.

@@ -7,7 +7,7 @@ description: Agile est une méthodologie de travail qui permet aux équipes d’
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 44%
@@ -26,7 +26,7 @@ Pour commencer à utiliser l’agile avancé dans Workfront :
 
 1. Créez une équipe Agile.
 
-   Pour plus d’informations, consultez la section [Créer une équipe Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) ou [Convertir une équipe existante en équipe Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) dans l’article [Créer une équipe Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+   Pour plus d’informations, consultez la section [Créer une équipe Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#create-an-agile-team-1) ou [Convertir une équipe existante en équipe Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) dans l’article [Créer une équipe Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 1. Configurez l’équipe Agile pour utiliser Kanban ou Scrum.
 

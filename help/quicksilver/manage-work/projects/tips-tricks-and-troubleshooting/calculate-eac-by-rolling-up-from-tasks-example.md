@@ -7,9 +7,9 @@ description: Cet article donne un exemple de calcul de l’Estimation à l’ach
 author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1122'
 ht-degree: 88%
 
 ---
@@ -99,7 +99,7 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *SINON* IPC = 1
+   *SINON* IPC = 1\
    **ICP du projet** = 10 / 75\
    **ICP du projet** = 0,13
 
@@ -114,13 +114,16 @@ PIM = basé sur les heures
 
 Méthode EAC : cumuler à partir des tâches ou des sous-tâches
 
-1. Créez le projet A avec six tâches, la tâche 3 étant parent des tâches 4 et 5 et la tâche 1 étant parent des tâches 2 et 3, comme illustré ci-dessous :\
-   Tâche 1\
-   Tâche 2\
-   Tâche 3\
-   Tâche 4\
-   Tâche 5\
-   Tâche 6
+1. Créez le projet A avec six tâches, la tâche 3 étant parent des tâches 4 et 5 et la tâche 1 étant parent des tâches 2 et 3, comme illustré ci-dessous :
+
+   ```
+   Task 1  
+      Task 2  
+      Task 3  
+         Task 4  
+         Task 5  
+   Task 6
+   ```
 
 1. Affectez les tâches 2, 4, 5 et 6 à la personne 1 dont le coût/heure est de 100,00 $.
 1. Ajoutez les heures prévues/réelles pour chaque tâche et le % Terminé selon le tableau ci-dessous.
@@ -129,58 +132,58 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
    >
    >Pour les tâches 1 et 3, vous ajoutez uniquement des heures effectives.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <br> <p><strong>Tâche</strong> </p> </th> 
-   <th> <br> <p><strong>Hrs Prév</strong> </p> </th> 
-   <th> <br> <p><strong>Hrs eff</strong> </p> </th> 
-   <th> <p><strong>% terminé</strong> </p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Tâche 1</p> </td> 
-   <td> </td> 
-   <td> <p>10 heures</p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 2</p> </td> 
-   <td> <p>5 heures</p> </td> 
-   <td> <p>10 heures</p> </td> 
-   <td> <p>20 %</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 3</p> </td> 
-   <td> </td> 
-   <td> <p>10 heures</p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 4</p> </td> 
-   <td> <p>10 heures</p> </td> 
-   <td> <p>10 heures</p> </td> 
-   <td> <p>40 %</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 5</p> </td> 
-   <td> <p>15 heures</p> </td> 
-   <td> <p>10 heures</p> </td> 
-   <td> <p>50 %</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 6</p> </td> 
-   <td> <p>20 heures</p> </td> 
-   <td> <p>10 heures</p> </td> 
-   <td> <p>60 %</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <col> 
+   <col> 
+   <thead> 
+   <tr> 
+      <th> <br> <p><strong>Tâche</strong> </p> </th> 
+      <th> <br> <p><strong>Hrs Prév</strong> </p> </th> 
+      <th> <br> <p><strong>Hrs eff</strong> </p> </th> 
+      <th> <p><strong>% terminé</strong> </p> </th> 
+   </tr> 
+   </thead> 
+   <tbody> 
+   <tr> 
+      <td> <p>Tâche 1</p> </td> 
+      <td> </td> 
+      <td> <p>10 heures</p> </td> 
+      <td> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 2</p> </td> 
+      <td> <p>5 heures</p> </td> 
+      <td> <p>10 heures</p> </td> 
+      <td> <p>20 %</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 3</p> </td> 
+      <td> </td> 
+      <td> <p>10 heures</p> </td> 
+      <td> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 4</p> </td> 
+      <td> <p>10 heures</p> </td> 
+      <td> <p>10 heures</p> </td> 
+      <td> <p>40 %</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 5</p> </td> 
+      <td> <p>15 heures</p> </td> 
+      <td> <p>10 heures</p> </td> 
+      <td> <p>50 %</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 6</p> </td> 
+      <td> <p>20 heures</p> </td> 
+      <td> <p>10 heures</p> </td> 
+      <td> <p>60 %</p> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
 1. Ajoutez 50 heures directement au projet (Plus > Heures > Consigner les heures) afin d’enregistrer 5 000,00 $ de coût réel de main-d’œuvre directement dans le projet.
 
@@ -192,7 +195,7 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *SINON* IPC = 1
+   *SINON* IPC = 1\
    **ICP pour la tâche 2** = 1 / 10\
    **ICP pour la tâche 2** = 0,1
 
@@ -203,7 +206,7 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
    EAC = Planned Hours / CPI
    ```
 
-       *ELSE* CRE = Heures prévues + Heures réelles
+   *ELSE* CRE = heures prévues + heures réelles\
    **EAC pour la tâche 2** = 5 / 0,1\
    **EAC pour la tâche 2** = 50 heures
 
@@ -219,7 +222,7 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *SINON* IPC = 1
+   *SINON* IPC = 1\
    **ICP pour la tâche 3** = 11,5 / 30\
    **ICP pour la tâche 3** = 0,38
 
@@ -234,7 +237,7 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *SINON* IPC = 1
+   *SINON* IPC = 1\
    **ICP pour la tâche 1** = 12,5 / 50\
    **ICP pour la tâche 1** = 0,25
 
@@ -249,7 +252,7 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *SINON* IPC = 1
+   *SINON* IPC = 1\
    **ICP du projet** = 24,5 / 110\
    **ICP du projet** = 0,22272\
    **ICP du projet** = 0,22
@@ -271,223 +274,223 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
 1. Créez le projet A avec trois tâches (aucune tâche enfant) toutes affectées à la personne 1 dont le coût/heure est de 100,00 $.
 1. Ajoutez les heures prévues/effectives à chaque tâche et le pourcentage d’achèvement au tableau ci-dessous :
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <br> <p><strong>Tâche</strong> </p> </th> 
-   <th> <br> <p><strong>Hrs Prév</strong> </p> </th> 
-   <th> <br> <p><strong>Ct M-o Pré</strong> </p> </th> 
-   <th> <br> <p><strong>Hrs eff</strong> </p> </th> 
-   <th> <br> <p><strong>Cts trv eff</strong> </p> </th> 
-   <th> <p><strong>% effectué</strong> </p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Tâche 1</p> </td> 
-   <td> <p>5 heures</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>25 heures</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p>20 %</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 2</p> </td> 
-   <td> <p>10 heures</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>25 heures</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p>30 %</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 3</p> </td> 
-   <td> <p>15 heures</p> </td> 
-   <td> <p>1 500,00 $</p> </td> 
-   <td> <p>25 heures</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p>40 %</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <col> 
+   <col> 
+   <col> 
+   <col> 
+   <thead> 
+   <tr> 
+      <th> <br> <p><strong>Tâche</strong> </p> </th> 
+      <th> <br> <p><strong>Hrs Prév</strong> </p> </th> 
+      <th> <br> <p><strong>Ct M-o Pré</strong> </p> </th> 
+      <th> <br> <p><strong>Hrs eff</strong> </p> </th> 
+      <th> <br> <p><strong>Cts trv eff</strong> </p> </th> 
+      <th> <p><strong>% effectué</strong> </p> </th> 
+   </tr> 
+   </thead> 
+   <tbody> 
+   <tr> 
+      <td> <p>Tâche 1</p> </td> 
+      <td> <p>5 heures</p> </td> 
+      <td> <p>500,00 $</p> </td> 
+      <td> <p>25 heures</p> </td> 
+      <td> <p>2 500,00 $</p> </td> 
+      <td> <p>20 %</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 2</p> </td> 
+      <td> <p>10 heures</p> </td> 
+      <td> <p>1 000,00 $</p> </td> 
+      <td> <p>25 heures</p> </td> 
+      <td> <p>2 500,00 $</p> </td> 
+      <td> <p>30 %</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 3</p> </td> 
+      <td> <p>15 heures</p> </td> 
+      <td> <p>1 500,00 $</p> </td> 
+      <td> <p>25 heures</p> </td> 
+      <td> <p>2 500,00 $</p> </td> 
+      <td> <p>40 %</p> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
 1. Ajoutez des dépenses à chaque tâche en fonction du tableau ci-dessous :
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p><strong>Tâche</strong> </p> </th> 
-   <th> <p><strong>Dépense</strong> </p> </th> 
-   <th> <p><strong>Montant prévu</strong> </p> </th> 
-   <th> <p><strong>Montant réel</strong> </p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Tâche 1</p> </td> 
-   <td> <p>Dép 1 Tâche 1</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>400,00 $</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 1</p> </td> 
-   <td> <p>Dép 2 Tâche 1</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 2</p> </td> 
-   <td> <p>Dép Tâche 2</p> </td> 
-   <td> <p>200,00 $</p> </td> 
-   <td> <p>100,00 $</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 3</p> </td> 
-   <td> <p>Dép Tâche 3</p> </td> 
-   <td> <p>800,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <col> 
+   <col> 
+   <thead> 
+   <tr> 
+      <th> <p><strong>Tâche</strong> </p> </th> 
+      <th> <p><strong>Dépense</strong> </p> </th> 
+      <th> <p><strong>Montant prévu</strong> </p> </th> 
+      <th> <p><strong>Montant réel</strong> </p> </th> 
+   </tr> 
+   </thead> 
+   <tbody> 
+   <tr> 
+      <td> <p>Tâche 1</p> </td> 
+      <td> <p>Dép 1 Tâche 1</p> </td> 
+      <td> <p>300,00 $</p> </td> 
+      <td> <p>400,00 $</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 1</p> </td> 
+      <td> <p>Dép 2 Tâche 1</p> </td> 
+      <td> <p>500,00 $</p> </td> 
+      <td> <p>0,00 $</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 2</p> </td> 
+      <td> <p>Dép Tâche 2</p> </td> 
+      <td> <p>200,00 $</p> </td> 
+      <td> <p>100,00 $</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 3</p> </td> 
+      <td> <p>Dép Tâche 3</p> </td> 
+      <td> <p>800,00 $</p> </td> 
+      <td> <p>700,00 $</p> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
 1. Ajoutez deux dépenses au projet (c’est-à-dire non liées à une tâche) comme suit :
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p><strong>Dépense</strong> </p> </th> 
-   <th> <p><strong>Montant prévu</strong> </p> </th> 
-   <th> <p><strong>Montant réel</strong> </p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Dép Projet 1</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>1 500,00 $</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Dép 2 Tâche 1</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <col> 
+   <thead> 
+   <tr> 
+      <th> <p><strong>Dépense</strong> </p> </th> 
+      <th> <p><strong>Montant prévu</strong> </p> </th> 
+      <th> <p><strong>Montant réel</strong> </p> </th> 
+   </tr> 
+   </thead> 
+   <tbody> 
+   <tr> 
+      <td> <p>Dép Projet 1</p> </td> 
+      <td> <p>1 000,00 $</p> </td> 
+      <td> <p>1 500,00 $</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Dép 2 Tâche 1</p> </td> 
+      <td> <p>2 500,00 $</p> </td> 
+      <td> <p>0,00 $</p> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
 1. En fonction des valeurs ci-dessus, les coûts engagés/non engagés sont déterminés comme suit :
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p><strong>Tâche</strong> </p> </th> 
-   <th> <p><strong>Dépenses prévues non engagées</strong> </p> </th> 
-   <th> <p><strong>Dépenses prévues engagées</strong> </p> </th> 
-   <th> <p><strong>Dépenses réelles engagées</strong> </p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Tâche 1</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>400,00 $</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 2</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>200,00 $</p> </td> 
-   <td> <p>100,00 $</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Tâche 3</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Projet</p> </td> 
-   <td> <p>3 000,00 $</p> </td> 
-   <td> <p>2 300,00 $</p> </td> 
-   <td> <p>2 700,00 $</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <col> 
+   <col> 
+   <thead> 
+   <tr> 
+      <th> <p><strong>Tâche</strong> </p> </th> 
+      <th> <p><strong>Dépenses prévues non engagées</strong> </p> </th> 
+      <th> <p><strong>Dépenses prévues engagées</strong> </p> </th> 
+      <th> <p><strong>Dépenses réelles engagées</strong> </p> </th> 
+   </tr> 
+   </thead> 
+   <tbody> 
+   <tr> 
+      <td> <p>Tâche 1</p> </td> 
+      <td> <p>500,00 $</p> </td> 
+      <td> <p>300,00 $</p> </td> 
+      <td> <p>400,00 $</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 2</p> </td> 
+      <td> <p>0,00 $</p> </td> 
+      <td> <p>200,00 $</p> </td> 
+      <td> <p>100,00 $</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Tâche 3</p> </td> 
+      <td> <p>0,00 $</p> </td> 
+      <td> <p>800,00 $</p> </td> 
+      <td> <p>700,00 $</p> </td> 
+   </tr> 
+   <tr> 
+      <td> <p>Projet</p> </td> 
+      <td> <p>3 000,00 $</p> </td> 
+      <td> <p>2 300,00 $</p> </td> 
+      <td> <p>2 700,00 $</p> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
 1. À partir des actions du projet, exécuter Recalculer finances
-1. **ICP**&#x200B;**de la tâche 1** = 0,14 calculé comme suit :\
-   **IPC**&#x200B;**pour la tâche 1** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
+1. **ICP****de la tâche 1** = 0,14 calculé comme suit :\
+   **IPC****pour la tâche 1** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * SINON* ICP = CPI_Labor\
-     **IPC**&#x200B;**pour la tâche 1** = (100 + 300) / (2 500 + 400)\
-     **IPC**&#x200B;**pour la tâche 1** = 400/2900\
-     **IPC**&#x200B;**pour la tâche 1** = .14
+     **IPC****pour la tâche 1** = (100 + 300) / (2 500 + 400)\
+     **IPC****pour la tâche 1** = 400/2900\
+     **IPC****pour la tâche 1** = .14
 
-1. **EAC**&#x200B;**&#x200B; de la tâche 1** = 13 400 $\
-   **ICP main d’œuvre**&#x200B;**&#x200B; de la tâche 1** = IF Coût réel de main d’œuvre &lt;> 0 THEN
+1. **EAC**** de la tâche 1** = 13 400 $\
+   **ICP main d’œuvre**** de la tâche 1** = IF Coût réel de main d’œuvre &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    SINON CPI_Labor = 1\
-   **ICP main d’œuvre**&#x200B;**&#x200B; de la tâche 1** = 100/2500\
-   **ICP main d’œuvre**&#x200B;**&#x200B; de la tâche 1** = 0,04
+   **ICP main d’œuvre**** de la tâche 1** = 100/2500\
+   **ICP main d’œuvre**** de la tâche 1** = 0,04
 
-   **EAC main d’œuvre**&#x200B;**de la tâche 1** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC main d’œuvre****de la tâche 1** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    * SINON* CRE Main-d&#39;œuvre = Coût prévu de main-d&#39;œuvre + Coût réel de main-d&#39;œuvre\
-     **EAC main d’œuvre**&#x200B;**de la tâche 1** = 500/0,04\
-     **EAC main d’œuvre**&#x200B;**de la tâche 1** = 12 500,00 $
+     **EAC main d’œuvre****de la tâche 1** = 500/0,04\
+     **EAC main d’œuvre****de la tâche 1** = 12 500,00 $
 
-   **EAC dépense**&#x200B;**de la tâche 1** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
-   **EAC dépenses**&#x200B;**de la tâche 1** = 400 $ + 500 $\
-   **EAC dépenses**&#x200B;**de la tâche 1** = 900 $
+   **EAC dépense****de la tâche 1** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
+   **EAC dépenses****de la tâche 1** = 400 $ + 500 $\
+   **EAC dépenses****de la tâche 1** = 900 $
 
-   **EAC dépenses**&#x200B;**&#x200B; de la tâche 1** = EAC main d’œuvre + EAC dépenses\
-   **CRE**&#x200B;**pour la tâche 1** = 12 500 $ + 900 $\
-   **CRE**&#x200B;**pour la tâche 1** = 13 400 $
+   **EAC dépenses**** de la tâche 1** = EAC main d’œuvre + EAC dépenses\
+   **CRE****pour la tâche 1** = 12 500 $ + 900 $\
+   **CRE****pour la tâche 1** = 13 400 $
 
 1. Voici les valeurs ICP/EAC pour la tâche 2 et la tâche 3 :\
    Tâche 2 = 0,19 / 8 433,33 $\
-   Tâche 3 = 0,44/6 950 $**&#x200B;**
+   Tâche 3 = 0,44/6 950 $****
 
 1. ICP du projet = 0,32\
-   **ICP**&#x200B;**pour le projet** = *IF* Coût réel de la main-d’œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **ICP****pour le projet** = *IF* Coût réel de la main-d’œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * SINON* ICP = CPI_Labor\
-     **ICP**&#x200B;**du projet** = (1 000 + 2 300)/(7 500 + 2 700)\
-     **ICP**&#x200B;**du projet** = 3 300/10 200\
-     **ICP**&#x200B;**du projet** = 0,32
+     **ICP****du projet** = (1 000 + 2 300)/(7 500 + 2 700)\
+     **ICP****du projet** = 3 300/10 200\
+     **ICP****du projet** = 0,32
 
 1. L’EAC du projet est de 28 783,33 $.\
-   **EAC**&#x200B;**pour le projet** = EAC Tâche 1 + EAC Tâche 2 + EAC Tâche 3\
-   **EAC**&#x200B;**pour le projet** = 13 400 $ + 8 433,33 $ + 6 950 $\
-   **EAC**&#x200B;**pour le projet** = 28 783,33 $
+   **EAC****pour le projet** = EAC Tâche 1 + EAC Tâche 2 + EAC Tâche 3\
+   **EAC****pour le projet** = 13 400 $ + 8 433,33 $ + 6 950 $\
+   **EAC****pour le projet** = 28 783,33 $

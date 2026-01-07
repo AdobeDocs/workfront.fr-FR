@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,11 @@ Lorsque vous désactivez la connexion entre [!DNL Workfront] et un fournisseur d
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
    <td> <p>Prime ou Ultimate</p>
     <p>Workflow Ultimate</p>
@@ -49,6 +49,8 @@ Lorsque vous désactivez la connexion entre [!DNL Workfront] et un fournisseur d
 </table>
 
 Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Désactiver les intégrations de fournisseur de services cloud
 

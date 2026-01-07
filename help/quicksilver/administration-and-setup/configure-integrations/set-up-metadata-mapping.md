@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 95%
@@ -25,7 +25,7 @@ Les métadonnées sont des informations descriptives associées à un document. 
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
    <td> <p>Prime ou Ultimate</p>
     <p>Workflow Ultimate</p>
@@ -48,6 +48,8 @@ Les métadonnées sont des informations descriptives associées à un document. 
 
 Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## À propos des métadonnées [!DNL Workfront]
 
 Les métadonnées des documents dans [!DNL Workfront] peuvent inclure des informations telles que le nom du projet, la description de la tâche ou la date d’achèvement prévue associée. En tant qu’administrateur ou administratrice [!DNL Workfront], vous pouvez configurer [!DNL Workfront] pour inclure des métadonnées aux documents envoyés depuis [!DNL Workfront] aux applications [!DNL Workfront] suivantes :
@@ -64,7 +66,7 @@ Lorsqu’une personne envoie un document à partir de [!DNL Workfront] vers une 
 
 Vous pouvez mapper le même champ [!DNL Workfront] à différents champs de métadonnées dans [!DNL Workfront DAM], mais vous ne pouvez pas utiliser un champ de métadonnées dans l’une de ces applications pour plusieurs champs de métadonnées [!DNL Workfront].
 
-Pour configurer plusieurs champs [!DNL Workfront] à exporter vers un champ de métadonnées dans une application [!DNL Workfront], commencez par créer un champ personnalisé calculé dans [!DNL Workfront] pour afficher tous les champs personnalisés d’un objet. Associez ensuite le champ calculé [!DNL Workfront] à un champ de métadonnées dans l’application [!DNL Workfront]. Pour plus d’informations sur les champs calculés personnalisés, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour configurer plusieurs champs [!DNL Workfront] à exporter vers un champ de métadonnées dans une application [!DNL Workfront], commencez par créer un champ personnalisé calculé dans [!DNL Workfront] pour afficher tous les champs personnalisés d’un objet. Associez ensuite le champ calculé [!DNL Workfront] à un champ de métadonnées dans l’application [!DNL Workfront]. Pour plus d’informations sur les champs calculés personnalisés, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Avant de pouvoir mapper des champs pour le processus de mappage des métadonnées, vous devez activer l’application dans [!DNL Workfront]. Pour plus d’informations, voir [Configurer des intégrations de documents](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 

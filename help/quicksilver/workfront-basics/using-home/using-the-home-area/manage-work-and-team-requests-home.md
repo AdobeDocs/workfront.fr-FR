@@ -6,10 +6,10 @@ description: Lorsque des tâches et des événements vous sont affectés, ils so
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 40%
+source-wordcount: '790'
+ht-degree: 39%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 40%
 # Gérer les tâches et les demandes de l’équipe dans la zone [!UICONTROL Accueil]
 
 Lorsque des tâches et des événements vous sont affectés, ils sont répertoriés dans les widgets Mes tâches, Mes tâches et Mes événements .  Vous pouvez afficher, modifier ou supprimer des tâches et des demandes.
-
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 ## Conditions d’accès
 
