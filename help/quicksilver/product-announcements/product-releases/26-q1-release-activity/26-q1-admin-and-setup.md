@@ -4,10 +4,10 @@ description: Améliorations de l’équipe d’aministration au premier trimestr
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
+source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 11%
+source-wordcount: '676'
+ht-degree: 10%
 
 ---
 
@@ -44,7 +44,7 @@ Un même champ calculé peut avoir différentes formules lorsqu’il est joint �
 
 Pour déterminer les objets susceptibles d’être affectés lors de la modification d’une expression dans des champs personnalisés, nous avons ajouté une option permettant de vérifier les conflits. Cette boîte de dialogue affiche tous les objets qui pourraient être affectés par la modification de la formule, regroupés par type d&#39;objet. Vous pouvez accéder aux détails de chaque objet et consulter les champs pour décider si le champ doit être supprimé de l’un des formulaires ou si l’expression doit rester inchangée.
 
-Pour plus d’informations, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour plus d’informations, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 
 ## Date d&#39;entrée et ID Entré par stockés dans des objets personnalisés
@@ -73,8 +73,6 @@ Pour plus de cohérence avec d’autres zones de la configuration telles que le 
 
 Pour plus d’informations, voir [Créer et gérer des modèles de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-
-
 ## Amélioration de la gestion des champs avec l’indicateur Actif sur les champs personnalisés
 
 >[!NOTE]
@@ -89,6 +87,10 @@ Si vous marquez un champ comme inactif :
 
 * Il est exclu des rapports, filtres, vues ou autres emplacements de Workfront dans lesquels vous pouvez ajouter un champ personnalisé
 * Il n’est pas disponible dans la bibliothèque de champs pour être ajouté à d’autres formulaires personnalisés
+
+>[!NOTE]
+>
+>L’exclusion des rapports, filtres, vues et regroupements a lieu une fois que le champ est inactif. Les éléments de rapport existants qui utilisent le champ ne sont pas modifiés ni supprimés lorsque le champ est marqué comme inactif.
 
 Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
