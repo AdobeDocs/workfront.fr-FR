@@ -396,7 +396,7 @@ Une application peut être incorporée dans un formulaire personnalisé Workfron
            /> 
    ```
 
-   ![ exemple de code ](assets/9-app-file-step-1-from-sam.png)
+   ![&#x200B; exemple de code &#x200B;](assets/9-app-file-step-1-from-sam.png)
 1. Enregistrez votre travail.
 
 Pour plus d’informations sur le développement et l’exécution de l’application, consultez le [site du développeur Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
