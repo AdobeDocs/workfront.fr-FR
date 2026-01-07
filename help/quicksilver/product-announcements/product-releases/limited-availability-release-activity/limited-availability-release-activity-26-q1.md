@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
+source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ L’indicateur de performance clé Heures planifiées de l’écran Affectations
 
 Le champ **Date du taux de change** de la zone Détails du projet > Finances est désormais masqué lorsque la case **Utiliser des taux de change effectifs à la date du système** n&#39;est pas cochée. Auparavant, lors de la modification d’un projet, le champ de date s’affichait dans les détails du projet même lorsque les taux de change en vigueur à la date n’étaient pas activés.
 
-<!--### Maintenance Updates week of January 4-10, 2026
+### Semaine des mises à jour de maintenance du 4 au 10 janvier 2026
 
-**Title**
+**Les taux de fonctions autorisent désormais des écarts dans les dates d’entrée en vigueur**
 
-text
+Les dates d’entrée en vigueur sur les taux de fonctions permettent désormais des vides, bien que les dates qui se chevauchent ne soient pas autorisées. Pendant une lacune, d’autres zones de la hiérarchie des taux de facturation sont utilisées pour déterminer le taux de facturation, en fonction du type de revenu d’une tâche.
 
-### Maintenance Updates week of January 11-17, 2026
+<!--### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

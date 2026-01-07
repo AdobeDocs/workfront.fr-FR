@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 644b27b1cab7b7a4e94a28c82387de056dfe34a0
+source-git-commit: 8cbaa087be44ffd8142bd864e3fb47ffef992372
 workflow-type: tm+mt
-source-wordcount: '13634'
+source-wordcount: '13645'
 ht-degree: 83%
 
 ---
@@ -234,6 +234,7 @@ ht-degree: 83%
       * Activité de mise à jour à disponibilité limitée d’Adobe Workfront{#limited-availability-release-activity}
          * [Activité de mise à jour des fonctionnalités de disponibilité limitée d’Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
          * [Activité de la version du premier trimestre 2026 pour les fonctionnalités à disponibilité limitée d’Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
+         * [Activité de la version du deuxième trimestre 2026 pour les fonctionnalités à disponibilité limitée d’Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
       * Activité des versions du planificateur de scénarios Adobe Workfront {#scenario-planner-release}
          * [Activité des versions du planificateur de scénarios Adobe Workfront](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [Planificateur de scénarios Adobe Workfront avec la version 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2532,7 +2533,7 @@ ht-degree: 83%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
