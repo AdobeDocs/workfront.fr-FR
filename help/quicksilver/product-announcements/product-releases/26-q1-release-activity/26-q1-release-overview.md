@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b9016bc9a5609424b6cd6cdec67ac4d696e7ab45
+source-git-commit: 2ac2e0421bdd59e4de0e3a02ce7c798d09b55c68
 workflow-type: tm+mt
-source-wordcount: '2880'
-ht-degree: 14%
+source-wordcount: '2940'
+ht-degree: 13%
 
 ---
 
@@ -60,6 +60,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Gérer les priorités dans le modèle de mise en page</a>
+            <p><span class="preview">Temporairement indisponible dans l’environnement de prévisualisation</span></p>
             <p>Vous pouvez désormais activer ou désactiver les priorités pour des utilisateurs spécifiques dans le modèle de mise en page. Si les priorités étaient auparavant désactivées pour votre organisation, elles le resteront dans le modèle de mise en page avec cette modification.</p>
         </td>
         <td>vendredi 18 décembre 2025</td>
@@ -115,6 +116,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Aperçu</strong></td>
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
+        </tr>
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Configurer des marques pour le réviseur de l’IA dans Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>Vous pouvez désormais configurer des marques pour le réviseur de l’IA dans la zone Configuration de Workfront . Cela vous permet de personnaliser le processus de révision de l’IA en fonction des directives de marque de votre entreprise.</p>
+            <p>Le réviseur de l’IA est actuellement en version bêta.</p>
+        </td>
+        <td>vendredi 8 janvier 2026</td>
+        <td>vendredi 8 janvier 2026</td>
+        <td>vendredi 8 janvier 2026</td>
+    </tr> 
     </tr>
        <tr>
         <td>
@@ -590,7 +602,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
