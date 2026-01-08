@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 58%
+source-wordcount: '400'
+ht-degree: 54%
 
 ---
 
@@ -24,6 +24,10 @@ Vous pouvez ajouter un nouveau champ personnalisé ou widget directement à part
 Vous pouvez modifier les propriétés d’un champ personnalisé, d’un saut de section ou d’un widget utilisé dans des formulaires personnalisés. Il s’agit notamment du libellé, du nom, des instructions de l’élément, etc.
 
 <span class="preview">La définition d’un champ personnalisé sur Inactif l’exclut des rapports, filtres et affichages, et le champ n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés. Tous les nouveaux champs sont définis sur Actif par défaut. </span>
+
+>[!NOTE]
+>
+>L’exclusion des rapports, filtres, vues et regroupements a lieu une fois que le champ est inactif. Les éléments de rapport existants qui utilisent le champ ne sont pas modifiés ni supprimés lorsque le champ est marqué comme inactif.
 
 Si vous supprimez un champ personnalisé d’un formulaire personnalisé, il existe toujours dans tous les autres formulaires auxquels il a été ajouté et vous pouvez le modifier dans un formulaire ou dans la zone Champs . Pour plus d’informations sur la suppression d’un champ, voir [Suppression d’un champ personnalisé ou d’un widget du système](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
@@ -38,7 +42,7 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
