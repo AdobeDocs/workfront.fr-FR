@@ -4,9 +4,9 @@ description: Améliorations des demandes du premier trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '900'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >Production pour tous : 15 janvier 2026
 
 Pour accéder plus facilement à l’objet créé par une requête spécifique, nous avons ajouté des liens vers la colonne Objet créé . Vous pouvez maintenant cliquer sur le lien de cette colonne pour accéder directement à la page de l’objet créé.
+
+Ce lien n’est disponible que lorsque la requête a elle-même créé un objet . Si une requête est convertie en projet ou en un autre objet, un lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de requête.
 
 Auparavant, cette colonne ne contenait que le nom de l’objet, et non son lien.
 
@@ -109,7 +111,7 @@ Pour faciliter la création de requêtes, nous avons créé un remplissage de fo
 
 L’IA doit être activée pour que votre entreprise puisse accéder à cette fonctionnalité.
 
-Pour plus d’informations sur le remplissage de formulaire optimisé par l’IA, notamment sur ce qui est nécessaire pour activer l’IA pour votre organisation, consultez la section [&#x200B; Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+Pour plus d’informations sur le remplissage de formulaire optimisé par l’IA, notamment sur ce qui est nécessaire pour activer l’IA pour votre organisation, consultez la section [ Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
 ## Enregistrer les brouillons des demandes dans la nouvelle expérience de demande
@@ -153,7 +155,7 @@ Pour faciliter l’envoi de demandes, nous avons ajouté la possibilité de copi
 
 Auparavant, cette fonctionnalité n’était pas disponible dans la nouvelle expérience de demande.
 
-Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [&#x200B; Copier et envoyer des traitements &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [ Copier et envoyer des traitements ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 
 
