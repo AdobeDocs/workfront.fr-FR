@@ -6,14 +6,16 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1017'
 ht-degree: 7%
 
 ---
 
 # Commencer avec [!DNL Priorities]
+
+{{preview-fast-release-general}}
 
 Priority offre une expérience rationalisée et intuitive, adaptée aux propriétaires de tâches. Les priorités seront déployées par phases, en commençant par la liste de travail.
 
@@ -24,6 +26,8 @@ Avec Priority, vous pouvez profiter de
 * Fonctionnalités personnalisées : bénéficiez de fonctionnalités conçues spécifiquement pour les propriétaires de tâches
 
 La liste de travail Priorités et le calendrier affichent les tâches qui vous sont assignées. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe.
+
+<span class="preview">Un administrateur Workfront peut activer les priorités de votre utilisateur dans le modèle de mise en page. Pour plus d&#39;informations, voir [Personnaliser le menu principal à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
 
 ## Rechercher et organiser votre travail
 
@@ -49,7 +53,7 @@ Vous pouvez utiliser le filtre Standard pour rechercher les tâches et les évé
       <td>Affiche les éléments avec 
       <ul>
       <li>Aucune contrainte de tâches ou de prédécesseurs incomplète</li>
-      <p>et</p>
+      <p>and</p>
       <li>La date de début prévue est dans le passé ou peut être dans les deux semaines à venir</li>
       </ul>
       </td>
@@ -99,7 +103,7 @@ Après avoir filtré votre travail, vous pouvez regrouper les éléments en fonc
 * Statut
 * Projet
 
-Pour plus d’informations, voir [&#x200B; Filtrer et regrouper votre travail dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Pour plus d’informations, voir [ Filtrer et regrouper votre travail dans Priorités ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Hiérarchiser les éléments de travail importants avec Mon focus
 
@@ -112,9 +116,9 @@ Mon focus est une colonne de la liste de tâches qui vous aide à hiérarchiser 
 
 Une fois que vous avez affecté des niveaux de focus à vos éléments de travail, vous pouvez trier la colonne pour faire apparaître les éléments urgents en haut de votre liste de travail.
 
-Pour plus d’informations, voir [&#x200B; Hiérarchiser les éléments de travail importants &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+Pour plus d’informations, voir [ Hiérarchiser les éléments de travail importants ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![&#x200B; Liste de travail &#x200B;](assets/worklist.png)
+![ Liste de travail ](assets/worklist.png)
 
 ### Utilisation de la vue Calendrier
 
@@ -161,7 +165,7 @@ Charger des fichiers directement dans la zone Documents de la tâche ou de l’�
 * Ajouter des fichiers supplémentaires
 * Importer des fichiers à partir des intégrations de documents connectées
 
-Pour plus d’informations, voir [&#x200B; Charger des fichiers dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
+Pour plus d’informations, voir [ Charger des fichiers dans Priorités ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
 
@@ -170,9 +174,9 @@ Pour plus d’informations, voir [&#x200B; Charger des fichiers dans Priorités 
 
 Vous pouvez incorporer les liens fréquemment utilisés dans la page de détails de l’élément de travail. Les liens rapides vous permettent de consulter ou de copier rapidement le lien.
 
-![Liens rapides &#x200B;](assets/quick-links.png)
+![Liens rapides ](assets/quick-links.png)
 
-Pour plus d’informations, voir [&#x200B; Ajouter et gérer des liens rapides dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
+Pour plus d’informations, voir [ Ajouter et gérer des liens rapides dans Priorités ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
 ### Afficher des documents.
 
@@ -202,7 +206,8 @@ Pour de plus amples renseignements, voir [Rattrapage du travail dans Priorités]
 
 Vous pouvez afficher des mises à jour en temps réel sur la page Détails d’une tâche ou d’un événement. Vous pouvez également voir si d’autres personnes consultent la page en même temps que vous avec des indicateurs de présence en temps réel.
 
-## Considérations
 
-* Actuellement, les administrateurs Workfront ne peuvent pas personnaliser les priorités via le modèle de mise en page.
-* L’accès aux tâches dans Priorités se fait dans tous les onglets. Nous prévoyons d&#39;ajouter d&#39;autres onglets, tels que Documents, Sous-tâches, Approbations, etc., à l&#39;avenir. Faites-nous savoir que vous avez besoin de ces éléments en nous faisant part de vos commentaires à l’aide du bouton **Donner votre avis**.
+<!--
+## Considerations
+
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->

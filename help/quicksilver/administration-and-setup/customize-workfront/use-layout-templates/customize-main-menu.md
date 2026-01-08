@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '698'
 ht-degree: 62%
 
 ---
@@ -78,6 +78,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      >
      >Par défaut, l’icône Accueil du menu principal affiche la zone Mes mises à jour pour les utilisateurs disposant d’une licence de révision (dans le plan de licence actuel), à moins qu’ils n’aient un modèle de mise en page associé à leur profil qui inclut la zone Mes mises à jour du menu principal, en plus de la zone Accueil .
 
+
+   * <span class="preview"> Priorités </span>
    * Portefeuilles
    * Programmes
    * Projets
