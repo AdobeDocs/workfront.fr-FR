@@ -4,10 +4,10 @@ description: Améliorations des documents et approbations du premier trimestre 2
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bde12a27b918fc98c7596d16b78b46d465c9e90a
+source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 10%
+source-wordcount: '277'
+ht-degree: 12%
 
 ---
 
@@ -17,17 +17,17 @@ Cette page décrit les améliorations apportées aux documents et à l’approba
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2026, consultez l’article [Vue d’ensemble de la version du premier trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Configurer des marques pour le réviseur de l’IA dans Workfront
+<!--## Set up brands for the AI reviewer in Workfront
 
 >[!NOTE]
 >
->Aperçu : 8 janvier 2026
->Version rapide de production : 8 janvier 2026\
->Production pour tous : 8 janvier 2026
+>Preview: January 8, 2026 
+>Production fast release: January 8, 2026  
+>Production for everyone: January 8, 2026  
 
-Vous pouvez désormais configurer des marques pour le réviseur de l’IA dans la zone Configuration de Workfront . Cela vous permet de personnaliser le processus de révision de l’IA en fonction des directives de marque de votre entreprise.
+You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
 
-Le réviseur de l’IA est actuellement en version bêta.
+The AI reviewer is currently in beta.-->
 
 ## Choisir un projet Workfront lors de l’envoi d’une révision dans Adobe Express
 

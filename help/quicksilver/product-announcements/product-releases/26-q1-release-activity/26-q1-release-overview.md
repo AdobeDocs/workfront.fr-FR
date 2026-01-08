@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2ac2e0421bdd59e4de0e3a02ce7c798d09b55c68
+source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
 workflow-type: tm+mt
-source-wordcount: '2940'
-ht-degree: 13%
+source-wordcount: '2886'
+ht-degree: 14%
 
 ---
 
@@ -117,16 +117,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
         </tr>
-       <tr>
+       <!--<tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Configurer des marques pour le réviseur de l’IA dans Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
-            <p>Vous pouvez désormais configurer des marques pour le réviseur de l’IA dans la zone Configuration de Workfront . Cela vous permet de personnaliser le processus de révision de l’IA en fonction des directives de marque de votre entreprise.</p>
-            <p>Le réviseur de l’IA est actuellement en version bêta.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
+            <p>The AI reviewer is currently in beta.</p>
         </td>
-        <td>vendredi 8 janvier 2026</td>
-        <td>vendredi 8 janvier 2026</td>
-        <td>vendredi 8 janvier 2026</td>
-    </tr> 
+        <td>January 8, 2026</td>
+        <td>January 8, 2026</td>
+        <td>January 8, 2026</td>
+    </tr> -->
     </tr>
        <tr>
         <td>
@@ -602,7 +602,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
