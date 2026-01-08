@@ -4,9 +4,9 @@ description: Améliorations des demandes du premier trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '859'
 ht-degree: 4%
 
 ---
@@ -60,8 +60,6 @@ For more information on creating views for the Request list and My Requests widg
 
 Afin de faciliter la consultation des informations dont vous avez besoin, nous avons ajouté la possibilité de partager des vues à la nouvelle expérience de demande. Vous pouvez désormais partager des vues avec d’autres utilisateurs, équipes ou groupes.
 
-Vous pouvez partager les vues de liste de demandes à partir de la zone des Demandes dans Workfront et du widget Mes demandes dans l’Accueil. La fonctionnalité de partage est identique aux deux endroits et les paramètres d’affichage, y compris le partage, sont conservés lors du déplacement entre le widget Mes requêtes et la zone des Requêtes.
-
 Pour plus d’informations sur les vues de requête, notamment le partage, consultez [Création et gestion de vues dans la zone des Requêtes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
 ## Ajout de champs personnalisés à la liste des Demandes et au widget Mes demandes
@@ -111,7 +109,7 @@ Pour faciliter la création de requêtes, nous avons créé un remplissage de fo
 
 L’IA doit être activée pour que votre entreprise puisse accéder à cette fonctionnalité.
 
-Pour plus d’informations sur le remplissage de formulaire optimisé par l’IA, notamment sur ce qui est nécessaire pour activer l’IA pour votre organisation, consultez la section [&#x200B; Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+Pour plus d’informations sur le remplissage de formulaire optimisé par l’IA, notamment sur ce qui est nécessaire pour activer l’IA pour votre organisation, consultez la section [ Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
 ## Enregistrer les brouillons des demandes dans la nouvelle expérience de demande
@@ -155,7 +153,7 @@ Pour faciliter l’envoi de demandes, nous avons ajouté la possibilité de copi
 
 Auparavant, cette fonctionnalité n’était pas disponible dans la nouvelle expérience de demande.
 
-Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [&#x200B; Copier et envoyer des traitements &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour plus d&#39;informations sur la copie et l&#39;envoi d&#39;un traitement, voir [ Copier et envoyer des traitements ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 
 

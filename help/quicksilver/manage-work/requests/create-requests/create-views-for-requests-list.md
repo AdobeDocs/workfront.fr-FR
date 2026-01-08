@@ -5,10 +5,10 @@ title: Créer et gérer des vues dans la zone des Demandes
 description: Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes.
 author: Becky
 feature: Work Management
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 9%
+source-wordcount: '706'
+ht-degree: 10%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 9%
 
 Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes. Ces vues incluent des filtres et des dispositions de colonnes.
 
-Les vues peuvent être créées et gérées dans la zone des Demandes de Workfront et dans le widget Mes demandes de l’Accueil. Les paramètres d’affichage sont conservés entre la zone des Requêtes et le widget.
+Les vues peuvent être créées et gérées dans la zone des Demandes de Workfront.
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité n’est disponible que dans la nouvelle expérience de demande.
+>* Cette fonctionnalité n’est disponible que dans la nouvelle expérience de demande.
+>* Les paramètres d’affichage ne sont pas disponibles dans le widget Mes requêtes de l’Accueil.
 
 ## Conditions d’accès
 
@@ -61,21 +62,13 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Créer une vue dans la zone des Demandes
 
-Vous pouvez créer une vue dans la zone des Demandes de Workfront ou dans le widget Mes demandes de l’Accueil.
+Vous pouvez créer une vue dans la zone des Demandes de Workfront,.
 
 1. Pour accéder à la liste Demandes :
 
    {{step1-to-requests}}
 
-1. Pour accéder au widget Mes requêtes dans l’Accueil :
-
-   {{step1-to-home}}
-
-   1. Recherchez le widget Mes requêtes .
-
-      Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Dans la liste des Demandes ou dans le widget Mes demandes, cliquez sur la liste déroulante **Vues** ![Liste déroulante Vues](assets/view-icon-requests.png) et sélectionnez **Nouvelle vue**.
+1. Dans la liste Demandes , cliquez sur la liste déroulante **Vues** ![Vues déroulantes](assets/view-icon-requests.png) et sélectionnez **Nouvelle vue**.
 
    ![Nouvel affichage](assets/create-new-view.png)
 
@@ -89,16 +82,7 @@ Vous pouvez modifier les vues existantes, y compris les vues que vous venez de c
 1. Pour accéder à la liste Demandes :
 
    {{step1-to-requests}}
-
-1. Pour accéder au widget Mes requêtes dans l’Accueil :
-
-   {{step1-to-home}}
-
-   1. Recherchez le widget Mes requêtes .
-
-      Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Dans la liste des Demandes ou dans le widget Mes demandes, recherchez la vue à modifier.
+1. Dans la liste Demandes , recherchez la vue à modifier.
 
 1. (Facultatif) Pour renommer une vue, cliquez sur la liste déroulante **Vues** ![Liste déroulante des vues](assets/view-icon-requests.png), puis cliquez sur le menu à trois points en regard de la vue, sélectionnez **Renommer**, puis saisissez le nouveau nom de la vue.
 1. Cliquez sur la liste déroulante **Vues** ![Vues déroulantes](assets/view-icon-requests.png) et sélectionnez la vue à modifier.
@@ -156,15 +140,7 @@ Vous pouvez partager les vues que vous créez avec d&#39;autres utilisateurs, é
 
    {{step1-to-requests}}
 
-1. Pour accéder au widget Mes requêtes dans l’Accueil :
-
-   {{step1-to-home}}
-
-   1. Recherchez le widget Mes requêtes .
-
-      Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Dans la liste des Demandes ou dans le widget Mes demandes, recherchez la vue que vous souhaitez partager.
+1. Dans la liste Demandes , recherchez la vue que vous souhaitez partager.
 1. Pointez sur la vue à partager, puis cliquez sur le menu à trois points lorsqu’il s’affiche.
 1. Sélectionnez **Partager**.
 1. Dans la boîte de dialogue qui s’ouvre, saisissez les noms des utilisateurs, des équipes ou des groupes avec lesquels vous souhaitez partager la vue, puis sélectionnez-les dans la liste lorsqu’ils apparaissent.
