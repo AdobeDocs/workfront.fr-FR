@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
+source-git-commit: d3f58a1d25b353b45e68e4910a4340052a49c4d4
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2885'
 ht-degree: 14%
 
 ---
@@ -379,7 +379,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Les liens d’objet créés sont désormais disponibles dans la zone des Requêtes et dans le widget Mes requêtes</a>
-            <p>Pour accéder plus facilement à l’objet créé par une requête spécifique, nous avons ajouté des liens vers la colonne Objet créé . Vous pouvez maintenant cliquer sur le lien de cette colonne pour accéder directement à la page de l’objet créé./p&gt;
+            <p>Pour accéder plus facilement à l’objet créé par une requête spécifique, nous avons ajouté des liens vers la colonne Objet créé . Vous pouvez maintenant cliquer sur le lien de cette colonne pour accéder directement à la page de l’objet créé.</p>
         </td>
         <td>vendredi 18 décembre 2025</td>
         <td>jeudi 14 janvier 2026</td>
@@ -424,7 +424,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Partage de vues dans la zone des Demandes et le widget Mes demandes</a>
-            <p>Afin de faciliter la consultation des informations dont vous avez besoin, nous avons ajouté la possibilité de partager des vues à la nouvelle expérience de création de rapports. Vous pouvez désormais partager des vues avec d’autres utilisateurs, équipes ou groupes. </p>
+            <p>Afin de faciliter la consultation des informations dont vous avez besoin, nous avons ajouté la possibilité de partager des vues à la nouvelle expérience de demande. Vous pouvez désormais partager des vues avec d’autres utilisateurs, équipes ou groupes. </p>
         </td>
         <td>vendredi 4 décembre 2025</td>
         <td>jeudi 14 janvier 2026</td>
@@ -602,7 +602,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
