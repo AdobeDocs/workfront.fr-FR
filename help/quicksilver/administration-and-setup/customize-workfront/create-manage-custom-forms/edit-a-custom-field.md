@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
+source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 54%
+source-wordcount: '409'
+ht-degree: 52%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez modifier les propriétés d’un champ personnalisé, d’un saut de
 
 >[!NOTE]
 >
->L’exclusion des rapports, filtres, vues et regroupements a lieu une fois que le champ est inactif. Les éléments de rapport existants qui utilisent le champ ne sont pas modifiés ni supprimés lorsque le champ est marqué comme inactif.
+>Le fait de marquer un champ existant comme inactif le rend indisponible pour une utilisation dans les éléments de rapports et les formulaires personnalisés à partir de ce moment. Si le champ inactif est actuellement utilisé dans un rapport ou un formulaire, le champ et ses données historiques restent en place.
 
 Si vous supprimez un champ personnalisé d’un formulaire personnalisé, il existe toujours dans tous les autres formulaires auxquels il a été ajouté et vous pouvez le modifier dans un formulaire ou dans la zone Champs . Pour plus d’informations sur la suppression d’un champ, voir [Suppression d’un champ personnalisé ou d’un widget du système](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
