@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1654'
 ht-degree: 5%
 
 ---
@@ -62,7 +62,7 @@ Pour plus d’informations, consultez l’un des articles suivants :
 <ul> 
 <li><p>Tout package Workfront et tout package Planning</p></li>
 Ou
-<li><p>N’importe quel workflow et n’importe quelle planification</p></li></ul>
+<li>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 
 <div class="preview">
 <p>Pour configurer les types d’enregistrements globaux :</p>

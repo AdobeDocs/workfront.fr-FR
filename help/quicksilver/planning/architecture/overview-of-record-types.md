@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 50%
+source-wordcount: '384'
+ht-degree: 41%
 
 ---
 
 
 # Vue d’ensemble des types d’enregistrement
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -47,6 +51,7 @@ Pour plus d’informations sur la création de types d’enregistrements, voir [
 * Lorsque vous créez un type d’enregistrement, seuls vous et les personnes que vous autorisez à accéder à l’espace de travail pouvez afficher le type d’enregistrement.
 * Vous devez créer un espace de travail avant de pouvoir créer des types d’enregistrement pour cet espace de travail.
 * Pour connaître les limites du nombre de types d&#39;enregistrements que vous pouvez avoir dans une instance de Workfront ou un espace de travail, consultez la section [Présentation des limitations d&#39;objet Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+* <span class="preview">Vous pouvez désigner des types d’enregistrements comme globaux. Les types d’enregistrements globaux peuvent être ajoutés en tant que types d’enregistrements existants à d’autres espaces de travail. Pour plus d’informations, consultez [ConfConfigureFonctionnalités de l’espace de travail croisé pour la configuration des types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
 
 
 <!--

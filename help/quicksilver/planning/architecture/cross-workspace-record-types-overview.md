@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1646'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,23 @@ Vous pouvez activer les fonctionnalités inter-espaces de travail pour un type d
 
 >[!IMPORTANT]
 >
->Les exigences relatives aux packages Workfront ont été améliorées afin de pouvoir activer les fonctionnalités inter-espaces de travail pour les types d’enregistrements de votre système. Pour plus d’informations, consultez [Présentation de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Votre entreprise doit acheter les packages suivants pour pouvoir activer les fonctionnalités inter-espaces de travail pour les types d’enregistrements :
+>
+>* Pour configurer les types d’enregistrements connectables :
+>
+>   * Tout package Workfront et tout package Planning
+>
+>     Ou
+>
+>   * Tout workflow et un package Planning Prime ou Ultimate
+>* <span class="preview">Pour configurer les types d’enregistrements globaux :</span>
+>  * <span class="preview">Tout package Workfront et un package Planning Plus</span>
+>     
+>    Ou
+>
+>  * <span class="preview">Tout workflow et un package Prime ou Ultimate Planning</span>
+>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront.
+>Pour plus d’informations, consultez [Présentation de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
 
 Vous trouverez ci-dessous des fonctionnalités inter-espaces de travail de types d’enregistrements :
@@ -45,7 +61,7 @@ Les types d’enregistrements globaux peuvent être ajoutés à plusieurs espace
 
 Lors de l’implémentation de Workfront Planning pour une organisation multi-équipes avec des workflows communs, vous devrez peut-être définir une structure et des métadonnées cohérentes pour les types d’enregistrements clés (tels que les campagnes ou les éléments livrables) qui peuvent être ajoutés aux espaces de travail de chaque équipe pour capturer et gérer leur travail.
 
-En outre, vous aurez peut-être besoin du travail de chaque équipe pour atteindre un niveau central.
+Vous pouvez également avoir besoin du travail de chaque équipe pour atteindre un niveau central.
 
 Dans un tel workflow, vous pouvez vous assurer que les équipes capturent leur travail de manière cohérente tout en déverrouillant la visibilité entre les équipes, sans avoir à tout ajouter à un espace de travail ou à tous les membres de l’organisation à chaque espace de travail. Pour ce faire, vous pouvez utiliser des types d’enregistrements globaux.
 
