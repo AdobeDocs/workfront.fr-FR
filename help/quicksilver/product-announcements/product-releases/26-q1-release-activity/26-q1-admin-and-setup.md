@@ -46,7 +46,7 @@ Un même champ calculé peut avoir différentes formules lorsqu’il est joint �
 
 Pour déterminer les objets susceptibles d’être affectés lors de la modification d’une expression dans des champs personnalisés, nous avons ajouté une option permettant de vérifier les conflits. Cette boîte de dialogue affiche tous les objets qui pourraient être affectés par la modification de la formule, regroupés par type d&#39;objet. Vous pouvez accéder aux détails de chaque objet et consulter les champs pour décider si le champ doit être supprimé de l’un des formulaires ou si l’expression doit rester inchangée.
 
-Pour plus d’informations, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour plus d’informations, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 
 ## Date d&#39;entrée et ID Entré par stockés dans des objets personnalisés
