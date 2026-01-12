@@ -1,5 +1,5 @@
 ---
-title: Présentation du programme d’essai pour Adobe Workfront Planning
+title: Prise en main de la version d’essai gratuite d’Adobe Workfront Planning
 description: Adobe Workfront offre actuellement une version d’essai gratuite de 60 jours d’Adobe Workfront Planning. Cet essai vous donne l'occasion de voir comment Planning relie la stratégie globale au travail quotidien qui permet sa réalisation. La planification offre une visibilité centralisée sur votre cycle de vie marketing, ce qui permet une meilleure collaboration entre les équipes, un suivi en temps réel des campagnes et des workflows automatisés. Vous pouvez créer des espaces de travail personnalisés et visualiser le travail à l’aide de calendriers et de chronologies interactifs. Grâce à cette version d'essai, vous constaterez directement comment Planning permet d'aligner le travail quotidien sur les objectifs stratégiques, de rationaliser l'exécution et de générer des résultats mesurables pour votre organisation.
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -23,7 +23,7 @@ L’essai est disponible entre les dates suivantes : du 1er mars au 1er mai 2026
 
 >[!NOTE]
 >
->La version d’essai de Workfront Planning n’est pas disponible pour les clients Workfront Planning actuels. Cette version d’essai est une opportunité pour les clients Workfront qui ne sont pas des clients Planning de découvrir Workfront Planning et de voir comment il peut associer la stratégie d’ensemble au travail quotidien qui permet de le réaliser.
+>La version d’essai de Workfront Planning n’est pas disponible pour les clients Workfront Planning actuels. Cette version d’essai est l’occasion pour les clients de Workfront <!-- is it Workfront or Adobe, or anyone--> qui ne sont pas des clients de Planning de découvrir Workfront Planning et de voir comment il peut associer la stratégie d’ensemble au travail quotidien qui permet de le réaliser.
 
 
 La planification offre une visibilité centralisée sur votre cycle de vie marketing, ce qui permet une meilleure collaboration entre les équipes, un suivi en temps réel des campagnes et des workflows automatisés. Vous pouvez créer des espaces de travail personnalisés et visualiser le travail à l’aide de calendriers et de chronologies interactifs.
@@ -60,7 +60,7 @@ Vous pourrez examiner et signer l’accord avant le début de l’essai, le 1er 
 
    1. Avant le 1er mars 2026, procédez comme suit :
       1. Connectez-vous à Adobe Workfront en tant qu’administrateur système.
-      1. Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
+      1. Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
 
          Ou
 
@@ -71,7 +71,7 @@ Vous pourrez examiner et signer l’accord avant le début de l’essai, le 1er 
    1. Après le 1er mars 2026, lorsque le procès démarrera, procédez comme suit :
 
       1. Connectez-vous à Adobe Workfront en tant qu’administrateur système.
-      1. Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
+      1. Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
 
          Ou
 

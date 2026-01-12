@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1677'
 ht-degree: 5%
 
 ---
@@ -215,6 +215,7 @@ Pour configurer un type d’enregistrement comme global :
 1. (Facultatif) Consultez la liste des espaces de travail où l’enregistrement global a été ajouté dans la section **Espaces de travail où ce type d’enregistrement est utilisé**. Le propriétaire de l’espace de travail est également répertorié en regard du nom de l’espace de travail.
 
    ![Espaces de travail dans lesquels ce type d’enregistrement est utilisé](assets/workspaces-where-this-record-type-is-used.png)
+1. (Facultatif) Cliquez sur le nom de l’un des espaces de travail répertoriés dans la section **Espaces de travail dans lesquels ce type d’enregistrement est utilisé** pour ouvrir cet espace de travail.
 
 </div>
 

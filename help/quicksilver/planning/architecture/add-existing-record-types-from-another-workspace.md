@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 9%
@@ -138,7 +138,7 @@ And
 
       * Tous les champs d’origine
       * Toutes les connexions aux enregistrements
-   * Vous pouvez afficher les enregistrements ajoutés à partir d&#39;autres espaces de travail qui utilisent le même type d&#39;enregistrement global, uniquement si vous disposez au moins des autorisations d&#39;affichage pour ces espaces de travail.
+   * Vous pouvez afficher les enregistrements ajoutés à partir d&#39;autres espaces de travail qui utilisent le même type d&#39;enregistrement global, uniquement si vous disposez au moins des autorisations d&#39;affichage pour ces espaces de travail. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
    * Le champ en lecture seule **Workspace** est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
 
      >[!NOTE]

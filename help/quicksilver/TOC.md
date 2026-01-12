@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '13638'
-ht-degree: 83%
+source-wordcount: '13655'
+ht-degree: 82%
 
 ---
 
@@ -2187,6 +2187,9 @@ ht-degree: 83%
       * [Prise en main de l’intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Gestion de l’espace de travail GenStudio dans Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Promouvoir un espace de travail Workfront Planning pour GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
+   * Adobe Workfront Planning Standalone {#planning-standalone}
+      * [Adobe Workfront Planning Standalone : index d’article](planning/planning-sta/planning-sta-article-index.md)
+      * [Prise en main d’Adobe Workfront Planning Standline](planning/planning-sta/get-started-with-planning-sta.md)
 * Intégrations Adobe Workfront {#adobe-workfront-integrations}
    * [Intégrations Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
    * [Vue d’ensemble des intégrations intégrées d’Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2531,7 +2534,7 @@ ht-degree: 83%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
