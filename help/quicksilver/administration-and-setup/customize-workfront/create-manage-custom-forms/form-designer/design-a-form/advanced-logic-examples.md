@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 2e8801d08e3cf14f08435389c128068e2d38caba
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur l’ajout d’une logique à un formulaire person
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -80,7 +80,11 @@ En reprenant l’exemple de SLA, vous pouvez ajouter un champ de date validé en
 Expression de validation :
 
 ```
-IF({DE:DV - Date - Dropdown SLA}<ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates}),CONCAT("Earliest: ",ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})))
+IF(
+    DATEDIFF({DE:DV - Date - Dropdown SLA}, 
+        ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})) < 0, 
+    CONCAT("Earliest: ", 
+        ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})))
 ```
 
 Si l’utilisateur sélectionne une date antérieure à la date autorisée, le message affiche la date au plus tôt qu’il peut sélectionner :
