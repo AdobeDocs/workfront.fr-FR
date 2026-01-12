@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 54%
+source-wordcount: '1512'
+ht-degree: 50%
 
 ---
 
@@ -83,7 +83,7 @@ L’affichage des demandes envoyées diffère selon que vous utilisez l’expér
 
 ### Afficher les demandes envoyées dans la nouvelle expérience de demande
 
-Vous pouvez afficher les demandes envoyées dans la zone des Demandes <span class="preview">qui incluent des liens vers les objets créés par ces demandes</span>.
+Vous pouvez afficher les demandes envoyées dans la zone Demandes <span class="preview">qui contient des liens vers des objets créés par des demandes Planning</span>.
 
 Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans la nouvelle expérience de requête :
 
@@ -113,11 +113,15 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne Statut . Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
 
    * Brouillon : cette demande n&#39;a pas encore été soumise.
-   * Révision en attente
-   * Révision en cours
-   * Rejeté
-   * En cours
-   * Terminé
+   * En attente de révision : (Planification uniquement) cette demande a des approbateurs et aucun d&#39;entre eux n&#39;a ouvert la demande.
+   * En révision : (Planning uniquement) Cette demande a des approbateurs et au moins un approbateur a ouvert la demande, mais aucune décision n&#39;a été prise.
+   * Rejetée : (Planning uniquement) Cette demande a des approbateurs et a été rejetée.
+   * En cours :
+      * Workflow Workfront : la demande a été convertie et le travail est en cours.
+      * Workfront Planning : la fin de la demande est mappée à un champ Planning spécifique et la valeur du champ ne correspond pas encore à la valeur de fin.
+
+        Pour plus d’informations, voir [Configurer les détails de configuration](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) dans l’article Création et gestion d’un formulaire de demande dans Adobe Workfront Planning.
+   * Terminé : la demande est terminée.
 
 >[!NOTE]
 >
