@@ -6,7 +6,7 @@ description: Vous pouvez envoyer des requêtes dans le widget Mes requêtes . Vo
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: 9e4f67b4f5b03e1fc4f8e1a9ab00cc42b9796325
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 13%
@@ -76,7 +76,7 @@ Pour plus d’informations, consultez la section [Créer une demande](/help/quic
 
 Vous pouvez copier une demande dans le widget Mes demandes, la modifier et l’envoyer en tant que nouvelle demande.
 
-Pour obtenir des instructions, consultez [&#x200B; Copier et envoyer des requêtes dans la nouvelle expérience de requête &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
+Pour obtenir des instructions, consultez [ Copier et envoyer des requêtes dans la nouvelle expérience de requête ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
 
 </div>
 
