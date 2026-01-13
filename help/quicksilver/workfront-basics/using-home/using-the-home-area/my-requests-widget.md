@@ -76,7 +76,7 @@ Pour plus d’informations, consultez la section [Créer une demande](/help/quic
 
 Vous pouvez copier une demande dans le widget Mes demandes, la modifier et l’envoyer en tant que nouvelle demande.
 
-Pour obtenir des instructions, consultez [ Copier et envoyer des requêtes dans la nouvelle expérience de requête ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
+Pour obtenir des instructions, consultez [&#x200B; Copier et envoyer des requêtes dans la nouvelle expérience de requête &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
 
 </div>
 
