@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: approvals
 title: Créer des réviseurs d’IA
-description: Une fois qu’au moins une marque est configurée dans GenStudio Foundation, vous pouvez créer plusieurs réviseurs d’IA, que vous pouvez ensuite affecter aux modèles d’approbation et aux demandes individuelles de révision et d’approbation.
+description: Une fois qu’au moins une marque est configurée dans Workfront, vous pouvez créer plusieurs réviseurs d’IA, que vous pouvez ensuite affecter aux modèles d’approbation et aux demandes individuelles de révision et d’approbation.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 21%
+source-wordcount: '246'
+ht-degree: 22%
 
 ---
 
@@ -20,11 +20,8 @@ ht-degree: 21%
 >
 >Cette fonctionnalité est actuellement en version bêta.
 
-Une fois qu’au moins une marque est configurée dans GenStudio Foundation, vous pouvez créer plusieurs réviseurs d’IA, que vous pouvez ensuite affecter aux modèles d’approbation et aux demandes individuelles de révision et d’approbation.
+Une fois qu’au moins une marque est configurée dans Workfront, vous pouvez créer plusieurs réviseurs d’IA, que vous pouvez ensuite affecter aux modèles d’approbation et aux demandes individuelles de révision et d’approbation.
 
->[!NOTE]
->
->Le réviseur de l’IA n’est pas conçu pour être un décideur dans le workflow de révision et d’approbation. Il ne fournit qu’un score et des recommandations pour aligner la ressource sur les exigences de marque spécifiées.
 
 ## Conditions d’accès
 
@@ -35,7 +32,7 @@ Une fois qu’au moins une marque est configurée dans GenStudio Foundation, vou
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -55,11 +52,15 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 ## Conditions préalables
 
-Avant de commencer, vous devez configurer des directives relatives à la marque d’image dans GenStudio Foundation.
-
-Pour en savoir plus sur les directives relatives aux marques d’images, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Avant de commencer, vous devez configurer des directives relatives à la marque d’image dans Workfront. Pour plus d’informations, voir [Configuration des marques pour le réviseur de l’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Ajouter un réviseur d’IA
+
+>[!NOTE]
+>
+>Le réviseur de l’IA n’est pas conçu pour être un décideur dans le workflow de révision et d’approbation. Il ne fournit qu’un score et des recommandations pour aligner la ressource sur les exigences de marque spécifiées.
+
+Pour ajouter un réviseur d’IA :
 
 {{step-1-to-setup}}
 

@@ -7,18 +7,19 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 0a6e94c285cc5aaea97d840d644dc9b3ceea305e
+source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 6%
+source-wordcount: '657'
+ht-degree: 7%
 
 ---
 
 # Prise en main du réviseur de l’IA dédiée à Workfront
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Cette fonctionnalité est actuellement en version bêta.
+
 
 Avec le réviseur de l’IA Workfront, vous pouvez augmenter la vitesse du contenu et optimiser la conformité de la marque dans le workflow de révision et d’approbation. Vous pouvez ajouter des réviseurs d’IA aux modèles d’approbation ou aux demandes individuelles de révision et d’approbation dans Workfront.
 
@@ -28,12 +29,11 @@ Pour configurer des réviseurs d’IA dans Workfront, vous devez être administr
 
 Tout utilisateur peut ajouter le réviseur d’IA à une demande de révision et d’approbation.
 
-
 ## Conditions préalables
 
 * Votre organisation doit avoir migré vers Adobe IMS (système Identity Management).
 * Les approbations unifiées doivent être activées pour votre instance Workfront.
-* Votre organisation doit disposer de GenStudio Foundation.
+  <!--* Your organization must have GenStudio Foundation.-->
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
 Pour plus d’informations sur la signature du contrat, voir [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -60,12 +60,14 @@ Si vous téléchargez un type de fichier non pris en charge, l’option Réviseu
 
 ## Configurer des directives de marque
 
-Le réviseur de l’IA pour Workfront utilise les directives de marque configurées dans Genstudio Foundation lors de la révision de votre contenu. Actuellement, vous ne pouvez configurer que des directives de marque pour les images. Pour plus d’informations, voir [Prise en main d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Le réviseur de l’IA Workfront applique les directives de la marque lors de la révision de votre contenu. Les administrateurs Workfront peuvent définir des directives de marque dans la zone Configuration de Workfront . &lt;!: les marques créées dans GenStudio Foundation sont également disponibles dans Workfront.
+
+Pour plus d’informations, voir [Configuration des marques pour le réviseur de l’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
 ## Créer des réviseurs d’IA
 
-Une fois qu’il existe au moins une marque configurée dans GenStudio Foundation, les administrateurs Workfront peuvent commencer à créer des réviseurs d’IA dans la zone Configuration . Ces réviseurs d’IA peuvent ensuite être affectés à des modèles d’approbation et à des demandes de révision et d’approbation individuelles. Actuellement, les réviseurs d’IA peuvent uniquement effectuer des révisions par rapport aux directives de marque des images.
+Une fois qu’il existe au moins une marque configurée, les administrateurs de Workfront peuvent commencer à créer des réviseurs d’IA dans la zone Configuration . Ces réviseurs d’IA peuvent ensuite être affectés à des modèles d’approbation et à des demandes de révision et d’approbation individuelles. Actuellement, les réviseurs d’IA peuvent uniquement effectuer des révisions par rapport aux directives de marque des images.
 
 Pour plus d’informations, voir [Création de réviseurs d’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
@@ -73,7 +75,7 @@ Pour plus d’informations, voir [Création de réviseurs d’IA](/help/quicksil
 
 Les utilisateurs peuvent ajouter des réviseurs d’IA à des modèles d’approbation existants ou à des demandes individuelles de révision et d’approbation.
 
-### Modèles de validation
+### Modèles d’approbation
 
 Si votre entreprise ajoute souvent les mêmes personnes aux demandes de révision et d’approbation, les utilisateurs de licences standard peuvent créer des modèles d’approbation dans la zone Configuration de Workfront .
 
@@ -110,6 +112,6 @@ Pour plus d’informations sur l’affichage des scores et des commentaires, voi
 ![Retour d’informations du réviseur IA](assets/ai-reviewer-feedback.png)
 
 
-## Présentation Vidéo
+<!--## Video Walkthrough
 
->[!VIDEO](https://video.tv.adobe.com/v/3470847/)
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)-->
