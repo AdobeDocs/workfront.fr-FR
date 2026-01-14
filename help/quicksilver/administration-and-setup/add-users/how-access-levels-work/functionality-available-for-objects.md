@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 527a5de08a89bdd4d27d508113b8b0f4b2d73089
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 92%
@@ -32,7 +32,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 >[!NOTE]
 >
 >* Cet article décrit les fonctionnalités disponibles pour l’accès aux niveaux dans le nouveau modèle de package Workfront. Pour consulter les fonctionnalités disponibles dans le modèle de package actuel, consultez [Fonctionnalité disponible pour chaque type d’objet pour différents niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Pour obtenir la liste des fonctionnalités disponibles pour les différents packages dans le dernier modèle, voir [Tarifs et package Adobe Workfront](https://business.adobe.com/fr/products/workfront/pricing.html).
+>* Pour obtenir la liste des fonctionnalités disponibles pour les différents packages dans le dernier modèle, voir [Tarifs et package Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projets
 
@@ -125,7 +125,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 | Convertir un problème en projet | ✓ |   |   |   |
 | Convertir un problème en tâche | ✓ |   |   |   |
 | Accepter des affectations | ✓ |   |   |   |
-| Créer des affectations | ✓ |   |   |   |
+| Créer des affectations | ✓ | ✓ | ✓ |   |
 | Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}

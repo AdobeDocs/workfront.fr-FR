@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 77%
@@ -39,14 +39,9 @@ Les articles présentés dans les sections suivantes décrivent comment configur
 * [Supprimer des espaces de travail](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Supprimer des types d’enregistrements](/help/quicksilver/planning/architecture/delete-record-types.md)
-
-<div class="preview">
-
 * [Types d’enregistrements de l’espace de travail croisé - Aperçu](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [Configurer les fonctionnalités de l’espace de travail croisé pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 * [Ajouter des types d’enregistrements existants depuis un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Configuration de la zone Paramètres d’un type d’enregistrement](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
-* [Présentation des hiérarchies et du chemin de navigation](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
+* [Présentation de la hiérarchie et du chemin de navigation](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
 * [Créer des hiérarchies d’espace de travail](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
-
-</div>

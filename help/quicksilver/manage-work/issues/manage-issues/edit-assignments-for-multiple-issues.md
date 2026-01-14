@@ -6,9 +6,9 @@ description: Modifier les affectations d’utilisateurs et utilisatrices pour pl
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 40%
 
 ---
@@ -48,12 +48,12 @@ Pour obtenir des informations générales sur l’affectation de problèmes, voi
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td>Licence Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Contributeur ou version ultérieure</p>
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 

@@ -1,14 +1,14 @@
 ---
 title: Présentation de la hiérarchie et du chemin de navigation
-description: Vous pouvez créer plusieurs hiérarchies d’espaces de travail entre les types d’enregistrements d’un espace de travail, après avoir connecté les types d’enregistrements.
+description: En tant que gestionnaire d'espace de travail, vous pouvez définir des hiérarchies flexibles mais structurées entre les types d'enregistrements connectés et d'autres types d'objets dans Adobe Workfront Planning. Les hiérarchies sont des connexions entre les types d’enregistrements ou entre les types d’enregistrements et un projet Workfront.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 1%
+source-wordcount: '1001'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Présentation de la hiérarchie et du chemin de navigation
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 En tant que gestionnaire d&#39;espace de travail, vous pouvez définir des hiérarchies flexibles mais structurées entre les types d&#39;enregistrements connectés et d&#39;autres types d&#39;objets dans Adobe Workfront Planning.
 

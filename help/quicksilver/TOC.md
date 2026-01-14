@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a4deecdf5d721115762d7f93cb4ff8c5ce5da7da
+source-git-commit: d836ebad6de4eb0d7a8b2b888e084aeb1f7934ee
 workflow-type: tm+mt
 source-wordcount: '13662'
 ht-degree: 82%
@@ -2104,7 +2104,7 @@ ht-degree: 82%
       * [Architecture : index des articles](planning/architecture/architecture-information.md)
       * [Présentation des espaces de travail](planning/architecture/workspaces-overview.md)
       * [Créer des espaces de travail](planning/architecture/create-workspaces.md)
-      * [Présentation des hiérarchies et des chemins de navigation](planning/architecture/hierarchy-and-breadcrumb-overview.md)
+      * [Présentation de la hiérarchie et du chemin de navigation](planning/architecture/hierarchy-and-breadcrumb-overview.md)
       * [Créer des hiérarchies d’espace de travail](planning/architecture/create-workspace-hierarchies.md)
       * [Vue d’ensemble des types d’enregistrement](planning/architecture/overview-of-record-types.md)
       * [Créer des types d’enregistrements](planning/architecture/create-record-types.md)
@@ -2535,7 +2535,7 @@ ht-degree: 82%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
