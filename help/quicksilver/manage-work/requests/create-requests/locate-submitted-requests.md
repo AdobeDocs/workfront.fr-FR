@@ -8,16 +8,14 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 50%
+source-wordcount: '1544'
+ht-degree: 47%
 
 ---
 
 # Afficher les demandes envoyées
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Vous pouvez afficher les demandes que vous ou une autre personne avez envoyées, ou les demandes que vous avez commencées mais que vous n’avez jamais terminées. Vous pouvez localiser ces demandes dans les zones suivantes d’Adobe Workfront :
 
@@ -28,8 +26,8 @@ Vous pouvez afficher les demandes que vous ou une autre personne avez envoyées,
   >[!NOTE]
   >
   >* Vous pouvez uniquement afficher vos propres brouillons de demandes.
-  >* <span class="preview">Dans la nouvelle expérience de demande, les demandes envoyées et les brouillons figurent dans la même liste. </span>
-  >* <span class="preview">Les brouillons créés dans l’expérience héritée n’apparaissent pas dans la nouvelle expérience Demande.</span>
+  >* Dans la nouvelle expérience de demande, les demandes envoyées et les brouillons se trouvent dans la même liste.
+  >* Les brouillons créés dans l’expérience héritée n’apparaissent pas dans la nouvelle expérience Demande.
 
 * L’onglet **Planning** de la zone des Demandes dans Workfront : permet d’afficher les demandes envoyées aux formulaires de demande Workfront Planning. Votre entreprise doit acheter un package Workfront Planning. Pour plus d’informations, voir les articles suivants :
 
@@ -83,7 +81,11 @@ L’affichage des demandes envoyées diffère selon que vous utilisez l’expér
 
 ### Afficher les demandes envoyées dans la nouvelle expérience de demande
 
-Vous pouvez afficher les demandes envoyées dans la zone Demandes <span class="preview">qui contient des liens vers des objets créés par des demandes Planning</span>.
+Vous pouvez afficher les demandes envoyées dans la zone Demandes, qui contient des liens vers les objets créés par les demandes Planning.
+
+>[!NOTE]
+>
+>Les liens vers les objets créés ne sont disponibles dans la nouvelle expérience de requête que pour les requêtes Planning, dans les cas où la requête elle-même a créé un objet. Si une requête Workfront est convertie en projet ou en un autre objet, un lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de requête.
 
 Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans la nouvelle expérience de requête :
 

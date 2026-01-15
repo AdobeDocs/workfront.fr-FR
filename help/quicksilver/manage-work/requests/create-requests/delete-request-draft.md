@@ -6,16 +6,14 @@ description: Vous pouvez supprimer des demandes envoyées ou des brouillons de d
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 36%
+source-wordcount: '618'
+ht-degree: 31%
 
 ---
 
 # Supprimer une demande soumise ou un brouillon de demande
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
 
 Vous pouvez supprimer des demandes envoyées ou des brouillons de demandes que vous avez créés dans la nouvelle expérience de demande. Les administrateurs Workfront et les administrateurs de Planning Workspace peuvent également supprimer des requêtes.
 
@@ -63,16 +61,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-
-<div class="preview">
-
-## Supprimer les requêtes <!--or request drafts -->dans la nouvelle expérience de requête)
+## Supprimer des requêtes ou des brouillons de requêtes dans la nouvelle expérience de requête
 
 Vous pouvez supprimer des requêtes dans la zone des Requêtes de Workfront ou dans le widget Mes requêtes de l’Accueil.
 
-* Les administrateurs et administratrices de Workfront peuvent supprimer des requêtes<!-- and drafts--> au sein de leur organisation.
-* Les administrateurs de l’espace de travail Workfront Planning peuvent supprimer les requêtes <!--and drafts--> dans l’espace de travail Planning qu’ils administrent.
-* Les utilisateurs et utilisatrices peuvent supprimer les demandes <!--and drafts-->’ils ou elles ont envoyées.
+* Les administrateurs et administratrices de Workfront peuvent supprimer des requêtes et des brouillons dans leur entreprise.
+* Les administrateurs de l’espace de travail Workfront Planning peuvent supprimer des demandes et des brouillons dans l’espace de travail Planning qu’ils administrent.
+* Les utilisateurs peuvent supprimer les demandes et les brouillons qu’ils ont envoyés.
 
 ### Suppression d’une requête du menu à trois points
 
@@ -86,12 +81,12 @@ Vous pouvez supprimer des requêtes dans la zone des Requêtes de Workfront ou d
 
       Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Dans la liste des Demandes ou le widget Mes demandes , pointez sur la demande <!--or draft -->que vous souhaitez supprimer.
+1. Dans la liste des Demandes ou le widget Mes demandes, pointez sur la demande ou le brouillon à supprimer.
 
    Un menu Plus à trois points s’affiche.
    ![](assets/more-menu.png)
 
-1. Cliquez sur le menu **Plus** situé à droite du nom du <!--or draft--> de la demande, puis cliquez sur **Supprimer**.
+1. Cliquez sur le menu **Plus** à droite du nom de la demande ou du brouillon, puis cliquez sur **Supprimer**.
 
    Ou
 
@@ -103,7 +98,7 @@ Vous pouvez supprimer des requêtes dans la zone des Requêtes de Workfront ou d
 
 1. Dans la boîte de dialogue qui s’ouvre, cliquez sur **Supprimer**.
 
-   La demande <!--or draft--> est supprimée.
+   La demande ou le brouillon est supprimé.
 
 ### Requêtes de suppression en bloc
 

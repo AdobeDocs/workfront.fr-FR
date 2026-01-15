@@ -6,16 +6,14 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
 workflow-type: tm+mt
-source-wordcount: '2546'
-ht-degree: 83%
+source-wordcount: '2532'
+ht-degree: 82%
 
 ---
 
 # Créer et soumettre des demandes
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 <!--Audited: 12/2023-->
 
@@ -109,7 +107,10 @@ Un administrateur ou une administratrice Workfront doit créer les composants su
 
 Lorsque vous créez une demande dans l’application web Workfront, Workfront enregistre la demande en tant que brouillon avant que vous ne l’envoyiez. Workfront crée un brouillon dès que vous sélectionnez votre file d’attente des demandes et que vous commencez à saisir des informations.
 
-Vous pouvez continuer à soumettre la demande ou compléter les informations dont vous disposez pour le moment puis quitter la demande pour revenir la terminer plus tard. Workfront enregistre le brouillon de demande que vous avez démarré dans le dossier Brouillons <span class="preview">ou dans la liste des demandes</span>.
+Vous pouvez continuer à soumettre la demande ou compléter les informations dont vous disposez pour le moment puis quitter la demande pour revenir la terminer plus tard. Workfront enregistre le brouillon de demande que vous avez démarré. Vous pouvez les trouver dans :
+
+* Nouvelle expérience de requête : la liste des requêtes
+* Expérience de requête héritée : dossier Brouillons
 
 >[!IMPORTANT]
 >
@@ -145,7 +146,7 @@ Pour créer une demande dans l’application web Workfront :
    >Tenez compte des points suivants concernant la nouvelle expérience de demande :
    >* La liste comprend les files d’attente des demandes de Workfront et les formulaires de demande de Workfront Planning.
    >* Vous pouvez filtrer la liste par type d’objet.
-   >* <span class="preview">Dans la nouvelle expérience de demande, les brouillons se trouvent dans la même liste que les demandes envoyées</span>.
+   >* Dans la nouvelle expérience de demande, les brouillons se trouvent dans la même liste que les demandes envoyées.
 
 1. (Conditionnel) Si vous passez à la nouvelle expérience , sélectionnez vos groupes de rubriques et rubriques de file d’attente et continuez à mettre à jour le formulaire.
 

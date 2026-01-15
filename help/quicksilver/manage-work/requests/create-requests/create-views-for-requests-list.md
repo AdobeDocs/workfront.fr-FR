@@ -5,16 +5,14 @@ title: Créer et gérer des vues dans la zone des Demandes
 description: Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes.
 author: Becky
 feature: Work Management
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 10%
+source-wordcount: '717'
+ht-degree: 7%
 
 ---
 
 # Créer et gérer des vues dans la zone des Demandes
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes. Ces vues incluent des filtres et des dispositions de colonnes.
 
@@ -86,9 +84,9 @@ Vous pouvez modifier les vues existantes, y compris les vues que vous venez de c
 
 1. (Facultatif) Pour renommer une vue, cliquez sur la liste déroulante **Vues** ![Liste déroulante des vues](assets/view-icon-requests.png), puis cliquez sur le menu à trois points en regard de la vue, sélectionnez **Renommer**, puis saisissez le nouveau nom de la vue.
 1. Cliquez sur la liste déroulante **Vues** ![Vues déroulantes](assets/view-icon-requests.png) et sélectionnez la vue à modifier.
-1. <span class="preview">Pour ajouter un champ personnalisé sous forme d’une colonne, cliquez sur l’icône **Ajouter une colonne** ![Ajouter une colonne](assets/add-column.png) à droite de l’écran, puis cliquez sur l’icône plus en regard du champ de formulaire personnalisé que vous souhaitez ajouter en tant que colonne à l’affichage.</span>
+1. Pour ajouter un champ personnalisé sous forme d’une colonne, cliquez sur l’icône **Ajouter une colonne** ![Ajouter une colonne](assets/add-column.png) près de la droite de l’écran, puis cliquez sur l’icône plus en regard du champ de formulaire personnalisé que vous souhaitez ajouter en tant que colonne à l’affichage.
 
-   <span class="preview">Vous pouvez ajouter des champs personnalisés sur les formulaires joints à l’objet dans la liste sous forme de colonnes.</span>
+   >Les champs personnalisés des formulaires joints à l’objet dans la liste peuvent être ajoutés en tant que colonnes.
 
    >[!TIP]
    >
@@ -114,7 +112,7 @@ Vous pouvez modifier les vues existantes, y compris les vues que vous venez de c
    * **Statut** : statut de la demande.
    * **Saisi par** : nom de l’utilisateur qui a ajouté la demande. Si la demande a été ajoutée par une personne extérieure à Workfront, le champ **Saisi par** affiche `N/A`.
 
-   <span class="preview">Dans l’environnement Aperçu , vous pouvez également filtrer selon les champs personnalisés qui ont été ajoutés à l’affichage.</span>
+   Vous pouvez également filtrer selon les champs personnalisés qui ont été ajoutés à la vue.
 
    Plusieurs filtres peuvent être joints par **Et** ou **Ou**.
 La liste des demandes est automatiquement filtrée à mesure que vous ajoutez les conditions de filtrage.
@@ -125,6 +123,7 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 >
 > * Les modifications apportées aux vues sont enregistrées automatiquement.
 > * Toute personne qui utilise la vue peut voir les modifications apportées aux vues.
+> * Pour vous assurer que l’affichage s’applique à la personne qui l’utilise, quelle que soit la personne qui l’a créé, vous pouvez utiliser le caractère générique « Moi (utilisateur connecté) » dans tout champ qui comporte des utilisateurs comme valeur.
 
 ## Ajoutez la vue à un modèle de mise en page.
 

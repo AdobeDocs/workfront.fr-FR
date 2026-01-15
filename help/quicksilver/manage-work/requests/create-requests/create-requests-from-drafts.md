@@ -6,16 +6,14 @@ description: En plus d’utiliser les brouillons disponibles, suggérés par Wor
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 72%
+source-wordcount: '814'
+ht-degree: 71%
 
 ---
 
 # Créer des demandes à partir de brouillons
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 En plus d’utiliser les brouillons disponibles, suggérés par Workfront, lorsque vous saisissez une nouvelle demande, vous pouvez accéder à un brouillon de demande à partir de la section Brouillons et finir de l’envoyer à partir de là.
 
@@ -64,15 +62,10 @@ Vous devez effectuer les opérations suivantes avant de pouvoir créer une deman
 
 La procédure de création de requêtes à partir de brouillons diffère entre la nouvelle expérience de requête et l’expérience héritée.
 
-* <span class="preview">[Créer des requêtes à partir de brouillons dans la nouvelle expérience de requête](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Créer des requêtes à partir de brouillons dans la nouvelle expérience de requête](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Créer des requêtes à partir de brouillons dans l’expérience de requête héritée](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
-<div class="preview">
-
 ### Créer des requêtes à partir de brouillons dans la nouvelle expérience de requête
-
-
-
 
 1. Ouvrez le brouillon.
 
@@ -98,8 +91,6 @@ La procédure de création de requêtes à partir de brouillons diffère entre l
 1. Une fois les informations de la demande renseignées, cliquez sur **Soumettre**.
 
    Lorsque vous envoyez la demande, le brouillon est supprimé et ne peut pas être restauré.
-
-</div>
 
 ### Créer des requêtes à partir de brouillons dans l’expérience de requête héritée
 

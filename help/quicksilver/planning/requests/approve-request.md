@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 4%
@@ -97,7 +97,7 @@ Les approbateurs reçoivent les notifications suivantes sur une demande en atten
 >
 >L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
 
-Vous pouvez approuver des demandes de création d’enregistrements à partir de la demande elle-même <span class="preview">ou à partir du widget Mes approbations sur l’Accueil.</span>
+Vous pouvez approuver des demandes de création d’enregistrements à partir de la demande elle-même ou à partir du widget Mes approbations sur l’Accueil.
 
 * [Approuver une demande à partir de la demande dans Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
 * [Approuver une demande à partir du widget Mes approbations de l’Accueil](#approve-a-request-from-the-my-approvals-widget-in-home)
@@ -106,7 +106,7 @@ Vous pouvez approuver des demandes de création d’enregistrements à partir de
 
 1. (Conditionnel) Si vous utilisez l’expérience de requête héritée dans Workfront, ouvrez la requête en effectuant l’une des opérations suivantes :
 
-   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision **&#x200B;**.
+   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision ****.
 
      >[!TIP]
      >
@@ -134,8 +134,6 @@ Vous pouvez approuver des demandes de création d’enregistrements à partir de
 
    La demande reste dans la zone des Demandes de Workfront.
 
-<div class="preview">
-
 ### Approuver une demande à partir du widget Mes approbations de l’Accueil
 
 {{step1-to-home}}
@@ -160,4 +158,3 @@ Cliquez sur l’icône [!UICONTROL Accueil] ![Icône Accueil](/help/_includes/as
    * **Terminé** : la demande est approuvée.
    * **Rejeté** : la demande est rejetée.
 
-</div>

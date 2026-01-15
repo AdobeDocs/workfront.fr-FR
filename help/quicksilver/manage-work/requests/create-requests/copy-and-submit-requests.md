@@ -6,17 +6,15 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1517'
 ht-degree: 85%
 
 ---
 
 # Copier et soumettre les demandes
 
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Lorsque vous soumettez fréquemment des demandes similaires, vous pouvez copier une demande déjà soumise. Dans ce cas, vous pouvez copier une demande existante, y apporter des modifications minimes et la soumettre à nouveau en tant que nouvelle demande.
 
@@ -224,8 +222,6 @@ Vous devez avoir une demande que vous ou une personne membre de votre organisati
 
    La demande copiée est soumise en tant que nouvelle demande dans la file d’attente des demandes que vous avez spécifiée.
 
-<div class="preview">
-
 ## Copiez et envoyez des demandes dans la nouvelle expérience de demande
 
 Vous pouvez copier et envoyer des requêtes dans la zone des Requêtes de Workfront, ou à partir du widget Mes requêtes dans l’Accueil.
@@ -263,5 +259,4 @@ Vous pouvez copier et envoyer des requêtes dans la zone des Requêtes de Workfr
 
    La demande copiée est envoyée en tant que nouvelle demande.
 
-</div>
 

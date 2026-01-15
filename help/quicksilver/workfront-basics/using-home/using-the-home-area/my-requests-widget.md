@@ -6,16 +6,14 @@ description: Vous pouvez envoyer des requêtes dans le widget Mes requêtes . Vo
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 9e4f67b4f5b03e1fc4f8e1a9ab00cc42b9796325
+source-git-commit: cdb1c365d8fc8f90a8a3488b3c641c97457c8c8d
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 13%
+source-wordcount: '982'
+ht-degree: 11%
 
 ---
 
 # Utiliser le widget Mes requêtes
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 >[!IMPORTANT]
 >
@@ -70,15 +68,11 @@ Vous pouvez créer une demande directement à partir du widget Mes demandes .
 
 Pour plus d’informations, consultez la section [Créer une demande](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) de l’article Création d’éléments de travail et de projets à partir de la zone Accueil.
 
-<div class="preview">
-
 ## Copier une requête
 
 Vous pouvez copier une demande dans le widget Mes demandes, la modifier et l’envoyer en tant que nouvelle demande.
 
-Pour obtenir des instructions, consultez [&#x200B; Copier et envoyer des requêtes dans la nouvelle expérience de requête &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
-
-</div>
+Pour obtenir des instructions, consultez [ Copier et envoyer des requêtes dans la nouvelle expérience de requête ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
 
 ## Filtrage des requêtes
 
@@ -98,7 +92,7 @@ Pour configurer le filtre dans le widget Mes requêtes :
    * Statut
    * Saisie effectuée par
 
-   <span class="preview">Dans l’environnement Aperçu , vous pouvez également filtrer selon les champs personnalisés qui ont été ajoutés en tant que colonne      à la vue.</span>
+   Vous pouvez également filtrer selon les champs personnalisés qui ont été ajoutés en tant que colonne à la vue.
 
 1. Dans le champ suivant, sélectionnez l’opérateur que vous souhaitez utiliser pour cette condition de filtre. Les opérateurs disponibles dépendent du champ sélectionné.
 1. (Conditionnel) Si un champ apparaît à droite de l’opérateur, sélectionnez la valeur en fonction de laquelle vous souhaitez appliquer un filtre.
@@ -135,9 +129,9 @@ Pour ajuster les colonnes du widget Mes requêtes :
 1. Dans le widget Mes requêtes, cliquez sur **Colonnes**.
 1. (Facultatif) Pour réorganiser les colonnes, cliquez sur la poignée de déplacement ![poignée](assets/drag-handle.png) de la colonne à déplacer et faites-la glisser aux emplacements souhaités. La colonne en haut de la liste apparaît dans le widget Mes requêtes en tant que colonne tout à gauche.
 1. (Facultatif) Utilisez le bouton (bascule) pour contrôler si une colonne est affichée dans le widget Mes requêtes .
-1. <span class="preview">Pour ajouter un champ personnalisé sous forme d’une colonne, cliquez sur l’icône **Ajouter une colonne** ![Ajouter une colonne](assets/add-column.png) à droite de l’écran, puis cliquez sur l’icône plus en regard du champ de formulaire personnalisé que vous souhaitez ajouter sous forme de colonne au widget.</span>
+1. Pour ajouter un champ personnalisé sous forme d’une colonne, cliquez sur l’icône **Ajouter une colonne** ![Ajouter une colonne](assets/add-column.png) près de la droite de l’écran, puis cliquez sur l’icône plus en regard du champ de formulaire personnalisé que vous souhaitez ajouter en tant que colonne au widget.
 
-   <span class="preview">Vous pouvez ajouter des champs personnalisés sur les formulaires joints à l’objet dans la liste sous forme de colonnes.</span>
+   Les champs personnalisés des formulaires joints à l’objet dans la liste peuvent être ajoutés en tant que colonnes.
 
 Les préférences de colonne sont enregistrées automatiquement.
 
@@ -153,11 +147,13 @@ Pour rechercher des requêtes spécifiques dans le widget Mes requêtes :
 
 1. (Facultatif) Pour accéder directement aux requêtes en surbrillance, cliquez sur les flèches haut ou bas de la barre de recherche.
 
-<div class="preview">
-
 ## Accéder à un objet créé par une requête
 
 Vous trouverez des objets créés par une requête dans le widget Mes requêtes .
+
+>[!NOTE]
+>
+>Les liens vers les objets créés ne sont disponibles dans la nouvelle expérience de requête que pour les requêtes Planning, dans les cas où la requête elle-même a créé un objet. Si une requête Workfront est convertie en projet ou en un autre objet, un lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de requête.
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**.
@@ -166,4 +162,3 @@ Vous trouverez des objets créés par une requête dans le widget Mes requêtes 
 
    La page de l’objet s’ouvre.
 
-</div>
