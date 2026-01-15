@@ -2540,7 +2540,7 @@ ht-degree: 82%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
