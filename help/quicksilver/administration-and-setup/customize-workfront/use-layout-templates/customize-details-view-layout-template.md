@@ -8,22 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 68%
+source-wordcount: '575'
+ht-degree: 69%
 
 ---
 
 # Personnaliser la vue Détails à l’aide d’un modèle de mise en page
 
-{{preview-fast-release-general}}
-
 En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour déterminer les informations qui s’affichent lorsqu’un utilisateur clique sur l’icône Détails ![icône Détails](assets/project-details-icon.png) dans le panneau de gauche lors de l’affichage d’une tâche, d’un événement, d’un document, d’un programme ou d’un portfolio.
-
-<!--
-or billing record
--->
 
 Vous pouvez également modifier l’ordre dans lequel ces informations apparaissent. Par exemple, pour toutes les tâches que vos utilisateurs et utilisatrices voient, vous pouvez déplacer les informations sur les formulaires personnalisés en haut de la vue Détails.
 
@@ -38,7 +32,7 @@ Les modifications apportées à la vue Détails d’un objet déterminent égale
 
 * Zones « Créer un objet », telles que Créer une tâche
 
-  ![&#x200B; Boîte de dialogue Nouvelle tâche &#x200B;](assets/new-task-dialog.png)
+  ![ Boîte de dialogue Nouvelle tâche ](assets/new-task-dialog.png)
 
 
 * Écrans « Modifier un objet » lors de la modification d’un objet, tels que Modifier une tâche, Modifier un problème et Modifier un projet
@@ -74,7 +68,7 @@ Pour plus d’informations sur les modèles de mise en page pour les groupes, vo
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -108,24 +102,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
      Tous les champs sont activés par défaut. Vous pouvez cocher ou décocher la case **Tout sélectionner** dans une zone pour afficher ou masquer tous les champs de cette zone.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-   ![Vue Détails dans le modèle de mise en page](assets/layout-template-details-view-updated-save-buttons.png)
+     ![Vue Détails dans le modèle de mise en page](assets/layout-template-details-view-updated-save-buttons.png)
 
-   Exemple d’image dans l’environnement de production :
-   ![Vue Détails dans le modèle de mise en page](assets/layout-template-details-view.png)
-
-1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
-
-1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
+1. Continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.
 
    Ou
 
-   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.
 
-   >[!TIP]
-   >
-   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.

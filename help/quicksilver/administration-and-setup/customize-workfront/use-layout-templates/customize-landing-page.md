@@ -1,5 +1,5 @@
 ---
-title: Personnalisation de la page d’entrée à l’aide d’un modèle de mise en page
+title: Personnalisation de la page de destination à l’aide d’un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,23 +8,21 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 78%
+source-wordcount: '395'
+ht-degree: 79%
 
 ---
 
 # Personnaliser la page de destination à l’aide d’un modèle de mise en page
 
-{{preview-fast-release-general}}
-
 En tant qu’administrateur ou administratrice Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier la zone que les utilisateurs et utilisatrices doivent voir chaque fois qu’ils se connectent à Workfront.
 
-Les utilisateurs peuvent ouvrir l’un des fichiers suivants :
+Les utilisateurs peuvent ouvrir l’un des éléments suivants :
 
 * Une zone Workfront désignée
-* d’un tableau de bord personnalisé.
+* Tableau de bord personnalisé.
 
 Pour plus d’informations sur la création de modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -71,7 +69,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Dans le **zone de navigation supérieure**, cliquez sur **Sélectionner une page de destination**, puis sélectionnez la zone que les utilisateurs et utilisatrices doivent voir lorsqu’ils se connectent.
 
-   Sélectionnez l’une des zones suivantes ou ajoutez un tableau de bord personnalisé :
+   Faites votre choix parmi les zones suivantes ou ajoutez un tableau de bord personnalisé :
 
    * Calendriers
    * Tableaux de bord
@@ -95,26 +93,16 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    >[!IMPORTANT]
    >
-   >L’affichage des zones Scénarios, Objectifs et Planification nécessite des licences supplémentaires.
+   >Pour afficher les zones Scénarios, Objectifs et Planification, des licences supplémentaires sont nécessaires.
    >
    >* Pour plus d’informations sur les Objectifs Workfront, voir [Vue d’ensemble des Objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
    >
    >* Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
    >
-   >* Pour plus d’informations sur Workfront Planning, consultez [Prise en main de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+   >* Pour plus d’informations sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-1. <span class="preview">Dans l’environnement d’aperçu : Poursuivez la personnalisation du modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
-
-1. Dans l’environnement de production : Poursuivez la personnalisation du modèle de mise en page.
+1. Continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.
 
    Ou
 
-   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
-
-   >[!TIP]
-   >
-   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.

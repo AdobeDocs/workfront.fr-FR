@@ -8,16 +8,14 @@ author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '837'
 ht-degree: 35%
 
 ---
 
 # Personnaliser l’accueil à l’aide d’un modèle de disposition
-
-{{preview-fast-release-general}}
 
 Vous pouvez utiliser un modèle de mise en page pour configurer ce que les utilisateurs voient lorsqu’ils ouvrent la page d’accueil pour la première fois.
 
@@ -50,7 +48,7 @@ Après avoir configuré un modèle de mise en page, vous devez l’affecter aux 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -136,11 +134,11 @@ Pour personnaliser l’Accueil à l’aide d’un modèle de mise en page :
    >
    >* Les options Filtre, Colonnes et Groupe sont liées aux options de personnalisation de la liste dans le modèle de mise en page. Les modifications apportées ici s’appliqueront également à ces paramètres.
    >* Les utilisateurs doivent au moins disposer d’un accès de type Créer aux vues pour que la configuration des colonnes de l’administrateur s’applique correctement à leurs pages d’accueil.
-   ></p>
-   >   <li><p>Définissez un filtre ou un groupe par défaut pour le widget, en pointant sur une option et en cliquant sur <b>Définir comme valeur par défaut</b>. La valeur par défaut actuelle affiche un badge bleu <b>Default</b> à sa droite.</p></li>
-   >   <li><p>Ajoutez un filtre, une colonne ou un groupe existant à la liste des options disponibles en cliquant sur le bouton représentant un signe plus au bas de chaque liste pour ajouter une option à cette liste. Notez que seuls les filtres, champs (pour les colonnes) ou groupes existants peuvent être ajoutés de cette manière.</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>Définissez un filtre ou un groupe par défaut pour le widget, en pointant sur une option et en cliquant sur <b>Définir comme valeur par défaut</b>. La valeur par défaut actuelle affiche un badge bleu <b>Default</b> à sa droite.</p></li>
+      <li><p>Ajoutez un filtre, une colonne ou un groupe existant à la liste des options disponibles en cliquant sur le bouton représentant un signe plus au bas de chaque liste pour ajouter une option à cette liste. Notez que seuls les filtres, champs (pour les colonnes) ou groupes existants peuvent être ajoutés de cette manière.</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >
@@ -152,17 +150,11 @@ Pour personnaliser l’Accueil à l’aide d’un modèle de mise en page :
       </tbody> 
       </table>
 
-1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
-
-1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
+1. Continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.
 
    Ou
 
-   Si vous avez terminé de le personnaliser, cliquez sur **Enregistrer** en bas à gauche.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.
 
    >[!IMPORTANT]
    >

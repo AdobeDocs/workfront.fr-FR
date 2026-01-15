@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '429'
 ht-degree: 92%
 
 ---
 
 # Octroyer un accès d’administration à un modèle de mise en page
-
-{{preview-fast-release-general}}
 
 En tant que membre de l’administration d’Adobe Workfront, vous pouvez accorder un accès administratif pour un modèle de mise en page aux administrateurs et aux administratrices de groupes d’un groupe particulier afin que le modèle puisse être modifié. Cette opération n’affecte pas le modèle aux utilisateurs et utilisatrices du groupe.
 
@@ -36,7 +34,7 @@ Pour plus d’informations sur les modèles de mise en page pour les groupes, vo
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -71,4 +69,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >   
    >* Si vous n’accordez pas un accès administratif aux administrateurs et aux administratrices de groupes d’un groupe particulier, toutes les personnes pouvant modifier des comptes d’utilisateurs et d’utilisatrices disposent d’un accès administratif au modèle de mise en page. Certains administrateurs et certaines administratrices de Workfront choisissent volontairement de ne pas accorder l’accès administratif à un modèle de mise en page afin de le transformer en modèle de mise en page de niveau système.
 
-1. Vous pouvez cliquer à tout moment sur <span class="preview">**Appliquer**</span> ou **Enregistrer** pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
+1. Continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.
+
+   Ou
+
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.

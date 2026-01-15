@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 81%
+source-wordcount: '763'
+ht-degree: 82%
 
 ---
 
 # Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page
-
-{{preview-fast-release-general}}
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier les contrôles de listes qui s’affichent dans les menus déroulants Filtre, Vue et Regroupement. Ces menus apparaissent au-dessus des listes dans Workfront, telles que la liste des tâches d’un projet :
 
@@ -38,7 +36,7 @@ Après avoir configuré un modèle de mise en page, vous devez l’affecter aux 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -118,18 +116,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     </tbody> 
    </table>
 
-1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
-
-1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
+1. Continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.
 
    Ou
 
-   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
-
-   >[!TIP]
-   >
-   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.

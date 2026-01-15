@@ -8,18 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 88%
+source-wordcount: '525'
+ht-degree: 91%
 
 ---
 
 # Appliquer une image de marque dans Adobe Workfront à l’aide d’un modèle de mise en page
 
 <!--Audited: 09/2024-->
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -46,7 +44,7 @@ Pour plus d’informations sur les modèles de mise en page pour les groupes, vo
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -88,20 +86,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     </tbody> 
    </table>
 
-1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
-
-1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
+1. Continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.
 
    Ou
 
-   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
-
-   >[!TIP]
-   >
-   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.
 
 Pour plus d’informations sur les modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

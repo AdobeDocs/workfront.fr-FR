@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 60%
+source-wordcount: '535'
+ht-degree: 59%
 
 ---
 
 # Personnaliser les pages épinglées à l’aide d’un modèle de mise en page
-
-{{preview-fast-release-general}}
 
 Dans un modèle de mise en page, vous pouvez épingler les pages que vous souhaitez que les utilisateurs et utilisatrices aient toujours à leur disposition en haut d’Adobe Workfront. Il peut s&#39;agir de pages accessibles via le menu principal ![icône du menu principal](assets/main-menu-icon.png) ou le menu principal ![icône du menu principal](assets/main-menu-icon-left-nav.png) le cas échéant, ou de tableaux de bord.
 
@@ -113,18 +111,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. (Facultatif) Pour supprimer une épingle, pointez sur l’épingle et cliquez sur l’icône du menu Plus ![icône Plus](assets/more-icon.png) à côté du nom de l’épingle, puis cliquez sur **Supprimer l’épingle**.
 
-1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
-
-1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
+1. Continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.
 
    Ou
 
-   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
-
-   >[!TIP]
-   >
-   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.

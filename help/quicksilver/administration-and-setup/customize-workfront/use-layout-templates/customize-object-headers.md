@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '532'
 ht-degree: 61%
 
 ---
 
 # Personnaliser les en-têtes d’objet avec un modèle de mise en page
-
-{{preview-fast-release-general}}
 
 En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, vous pouvez utiliser un modèle de mise en page pour configurer les champs que les personnes voient dans l’en-tête de l’objet lorsqu’elles ouvrent la page d’un objet.
 
@@ -97,18 +95,9 @@ Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ av
 
 1. (Facultatif) Faites glisser et déposez les champs dans un ordre différent.
 
-1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
-
-1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
+1. Continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.
 
    Ou
 
-   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.
 
-   >[!TIP]
-   >
-   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
+source-git-commit: 0f96a4d941eb4595ac60302b579cff31461272a7
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '659'
 ht-degree: 62%
 
 ---
 
 # Personnaliser le menu principal à l’aide d’un modèle de mise en page
-
-{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -78,8 +76,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      >
      >Par défaut, l’icône Accueil du menu principal affiche la zone Mes mises à jour pour les utilisateurs disposant d’une licence de révision (dans le plan de licence actuel), à moins qu’ils n’aient un modèle de mise en page associé à leur profil qui inclut la zone Mes mises à jour du menu principal, en plus de la zone Accueil .
 
-
-   * <span class="preview"> Priorités </span>
+   * Priorités
    * Portefeuilles
    * Programmes
    * Projets
@@ -135,20 +132,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Cliquez également sur **Annuler** à tout moment si vous souhaitez ignorer vos modifications.
 
-1. <span class="preview">Dans l’environnement Aperçu : continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.</span>
-
-1. Dans l’environnement de production : continuez à personnaliser le modèle de disposition.
+1. Continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.
 
    Ou
 
-   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
-
-   >[!TIP]
-   >
-   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.
 
 Pour plus d’informations sur les modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
