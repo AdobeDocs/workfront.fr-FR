@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '6941'
 ht-degree: 49%
@@ -16,8 +16,6 @@ ht-degree: 49%
 ---
 
 # Créer un formulaire personnalisé
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -82,8 +80,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * [Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes](#add-radio-buttons-checkbox-groups-and-drop-downs)
    * [Ajouter des champs de frappe continue et des champs de date](#add-typeahead-and-date-fields)
    * [Ajouter des champs de recherche externes](#add-external-lookup-fields)
-   * [&#128279;](#add-images-pdfs-and-videos)Ajouter des images, des fichiers PDF et des vidéos
-
+   * [Ajouter des images, des fichiers PDF et des vidéos
+](#add-images-pdfs-and-videos)
    * [Ajouter des champs natifs Workfront](#add-workfront-native-fields)
    * [Ajouter des fichiers Adobe XD](#add-adobe-xd-files)
    * [Ajouter des champs de connexion Planning](#add-planning-connection-fields)
@@ -264,13 +262,13 @@ Pour ajouter un champ de texte, procédez comme suit :
     <td><ul><li>Texte descriptif</li></ul></td>
     </tr>
     <tr>
-     <td><span class="preview">Actif</span></td>
-     <td><span class="preview"><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Actif</td>
+     <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
+     <td><ul>
      <li>Texte sur une seule ligne</li>
      <li>Paragraphe</li>
      <li>Texte avec formatage</li>
-     <li>Texte descriptif</li></span></ul></td>
+     <li>Texte descriptif</li></ul></td>
     </tr>
     <tr> 
       <td role="rowheader">Créer un champ obligatoire</td>
@@ -422,13 +420,13 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </td>
      </tr>
     <tr>
-     <td><span class="preview">Actif</span></td>
-     <td><span class="preview"><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Actif</td>
+     <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
+     <td><ul>
      <li>Cases d’option</li>
      <li>Groupe Case à cocher</li>
      <li>Liste déroulante à sélection unique</li>
-     <li>Menu déroulant multi-sélection</li></span></ul></td>
+     <li>Menu déroulant multi-sélection</li></ul></td>
     </tr>
     <tr> 
     <td role="rowheader">Créer un champ obligatoire</td> 
@@ -450,7 +448,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
 
    Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
-   ![&#x200B; Icône Copier &#x200B;](assets/copy-field.png)
+   ![ Icône Copier ](assets/copy-field.png)
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
@@ -563,11 +561,11 @@ Pour ajouter des champs de saisie semi-automatique et de date :
       </td>
      </tr>
      <tr>
-      <td><span class="preview">Actif</span></td>
-      <td><span class="preview"><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></span></td>
-      <td><ul><span class="preview">
+      <td>Actif</td>
+      <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
+      <td><ul>
       <li>Frappe continue</li>
-      <li>Date</li></span></ul></td>
+      <li>Date</li></ul></td>
      </tr>
      <tr> 
       <td role="rowheader">Créer un champ obligatoire</td> 
@@ -656,12 +654,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Cela permet de sélectionner les valeurs à l’intérieur du fichier JSON qui apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si votre URL d’API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
       <pre>
-      &lbrace;
-data: &lbrace;
+      {
+data: {
 { name: "USA"},
 { name: "Canada"}
-&rbrace;
-&rbrace;
+}
+}
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -675,8 +673,8 @@ data: &lbrace;
       <td><p>Sélectionnez cette option pour permettre à l’utilisateur de sélectionner plusieurs valeurs dans la liste déroulante.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Actif</span></td>
-      <td><span class="preview"><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></span></td>
+      <td>Actif</td>
+      <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Créer un champ obligatoire</td>
@@ -769,8 +767,8 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
       <td> <p>Saisissez des informations supplémentaires sur le widget. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Actif</span></td>
-      <td><span class="preview"><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></span></td>
+      <td>Actif</td>
+      <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -906,8 +904,8 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
       <td>
      </tr>
      <tr>
-      <td><span class="preview">Actif</span></td>
-      <td><span class="preview"><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></span></td>
+      <td>Actif</td>
+      <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Créer un champ obligatoire</td>
@@ -963,8 +961,8 @@ Pour ajouter un fichier Adobe XD :
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr>
      <tr>
-      <td><span class="preview">Actif</span></td>
-      <td><span class="preview"><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></span></td>
+      <td>Actif</td>
+      <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -1059,8 +1057,8 @@ Pour ajouter un champ de connexion Planning :
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td><span class="preview">Actif</span></td>
-      <td><span class="preview"><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></span></td>
+      <td>Actif</td>
+      <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
      </tr>
       </tbody> 
    </table>

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 52%
@@ -17,13 +17,11 @@ ht-degree: 52%
 
 # Ajouter ou modifier un champ personnalisé, un saut de section ou un widget
 
-{{preview-fast-release-general}}
-
 Vous pouvez ajouter un nouveau champ personnalisé ou widget directement à partir de la zone Champs dans Workfront, sans ouvrir de formulaire personnalisé pour créer le champ.
 
 Vous pouvez modifier les propriétés d’un champ personnalisé, d’un saut de section ou d’un widget utilisé dans des formulaires personnalisés. Il s’agit notamment du libellé, du nom, des instructions de l’élément, etc.
 
-<span class="preview">La définition d’un champ personnalisé sur Inactif l’exclut des rapports, filtres et affichages, et le champ n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés. Tous les nouveaux champs sont définis sur Actif par défaut. </span>
+La définition d’un champ personnalisé sur Inactif l’exclut des rapports, filtres et affichages, et le champ n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés. Tous les nouveaux champs sont définis sur Actif par défaut.
 
 >[!NOTE]
 >

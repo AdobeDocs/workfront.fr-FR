@@ -7,7 +7,7 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 57%
@@ -15,8 +15,6 @@ ht-degree: 57%
 ---
 
 # Modifier les informations dans les champs des formulaire personnalisés
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -31,7 +29,7 @@ Vous pouvez modifier les informations d’un formulaire personnalisé après l�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -122,7 +120,7 @@ Pour plus d’informations sur les objets pouvant avoir un formulaire personnali
 
    >[!NOTE]
    >
-   ><span class="preview">Les champs qui autorisent plusieurs sélections peuvent limiter le nombre d’options que vous pouvez choisir. Les cases à cocher et les listes déroulantes à sélection multiple sont limitées à 5 000 sélections.</span>
+   >Les champs qui autorisent plusieurs sélections peuvent limiter le nombre d’options que vous pouvez choisir. Les cases à cocher et les listes déroulantes à sélection multiple sont limitées à 5 000 sélections.
 
    Pour plus d’informations sur tous les types de champ, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
