@@ -147,7 +147,7 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
   >Les autres utilisateurs ne sont pas informés que la configuration du champ a changé.
 
 * Vous pouvez modifier des champs de recherche existants à partir d’enregistrements connectés.
-* Outre la modification du champ décrite dans la section [Modifier les paramètres de champ](#edit-field-settings-1) de cet article, vous pouvez modifier les choix d’un champ à sélection unique ou multiple lorsque vous modifiez un enregistrement dans la vue Tableau, au fur et à mesure que vous mettez à jour les valeurs de champ. Pour plus d&#39;informations, reportez-vous à la section [ Ajouter de nouveaux choix à un champ de sélection existant lors de la modification d&#39;enregistrements en mode Tableau ](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) de cet article.
+* Outre la modification du champ décrite dans la section [Modifier les paramètres de champ](#edit-field-settings-1) de cet article, vous pouvez modifier les choix d’un champ à sélection unique ou multiple lorsque vous modifiez un enregistrement dans la vue Tableau, au fur et à mesure que vous mettez à jour les valeurs de champ. Pour plus d&#39;informations, reportez-vous à la section [&#x200B; Ajouter de nouveaux choix à un champ de sélection existant lors de la modification d&#39;enregistrements en mode Tableau &#x200B;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) de cet article.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
