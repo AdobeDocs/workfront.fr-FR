@@ -80,8 +80,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * [Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes](#add-radio-buttons-checkbox-groups-and-drop-downs)
    * [Ajouter des champs de frappe continue et des champs de date](#add-typeahead-and-date-fields)
    * [Ajouter des champs de recherche externes](#add-external-lookup-fields)
-   * [Ajouter des images, des fichiers PDF et des vidéos
-](#add-images-pdfs-and-videos)
+   * [&#128279;](#add-images-pdfs-and-videos)Ajouter des images, des fichiers PDF et des vidéos
+
    * [Ajouter des champs natifs Workfront](#add-workfront-native-fields)
    * [Ajouter des fichiers Adobe XD](#add-adobe-xd-files)
    * [Ajouter des champs de connexion Planning](#add-planning-connection-fields)
@@ -448,7 +448,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
 
    Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
-   ![ Icône Copier ](assets/copy-field.png)
+   ![&#x200B; Icône Copier &#x200B;](assets/copy-field.png)
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
@@ -654,12 +654,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Cela permet de sélectionner les valeurs à l’intérieur du fichier JSON qui apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si votre URL d’API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
       <pre>
-      {
-data: {
+      &lbrace;
+data: &lbrace;
 { name: "USA"},
 { name: "Canada"}
-}
-}
+&rbrace;
+&rbrace;
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
