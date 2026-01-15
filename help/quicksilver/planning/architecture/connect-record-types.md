@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2873'
 ht-degree: 25%
 
 ---
 
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
+
+<!--take production and preview references out at prod-->
 
 # Connecter des types d’enregistrements
 
@@ -44,7 +46,7 @@ Cet article décrit comment connecter deux types d&#39;enregistrements Workfront
 
 Après avoir établi la connexion entre les enregistrements ou les types d&#39;objet, un champ de connexion est ajouté à un type d&#39;enregistrement Planning. Dans le champ de connexion, vous pouvez connecter des enregistrements individuels les uns aux autres et afficher les champs des types d&#39;enregistrements ou d&#39;objets liés sur un enregistrement Workfront Planning.
 
-Pour obtenir des informations générales sur les types de connexion, voir [&#x200B; Présentation des types d’enregistrements connectés &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Pour obtenir des informations générales sur les types de connexion, voir [ Présentation des types d’enregistrements connectés ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 Pour plus d&#39;informations sur la connexion d&#39;enregistrements ou d&#39;enregistrements avec des objets provenant d&#39;autres applications, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
@@ -89,7 +91,7 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
    <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -204,11 +206,11 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
      >[!TIP]
      >
-     >Le paramètre **Autoriser la connexion à ce type d&#39;enregistrement dans d&#39;autres espaces de travail** doit être activé pour un type d&#39;enregistrement dans l&#39;onglet **Paramètres avancés** ou **Paramètres de l&#39;espace de travail** de la zone **Modifier le type d&#39;enregistrement**, pour qu&#39;un type d&#39;enregistrement soit accessible à partir d&#39;autres espaces de travail. Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’autres espaces de travail, la section espace de travail ne s’affiche pas.
+     >Le paramètre **Autoriser la connexion à ce type d’enregistrement dans d’autres espaces de travail** doit être activé pour un type d’enregistrement dans l’onglet **Paramètres de l’espace de travail croisé** de la zone **Modifier le type d’enregistrement**, pour qu’un type d’enregistrement soit accessible à partir d’autres espaces de travail. Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’autres espaces de travail, la section espace de travail ne s’affiche pas.
      >
      >Pour plus d’informations, voir [Configuration des fonctionnalités entre espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
      >
-     >![Onglet Paramètres avancés de la zone Modifier le type d’enregistrement](assets/edit-record-type-box-advanced-settings-tab.png)
+     >![Onglet Paramètres inter-espaces de travail de la zone Modifier le type d’enregistrement](assets/edit-record-type-box-advanced-settings-tab.png)
 
      <!--Old:
         [!TIP]
@@ -279,7 +281,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    >[!NOTE]
    >
-   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Conditionnel) Lorsque vous choisissez de vous connecter à Experience Manager Assets, à un type d’enregistrement Workfront Planning ou à une marque GenStudio, choisissez l’une des options suivantes dans la zone **Apparence de l’enregistrement** :
@@ -294,7 +296,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    >
    >* Lorsque vous autorisez la liaison de plusieurs enregistrements, l’affichage de la miniature seule peut permettre de gagner de l’espace dans des zones plus petites, comme les vues d’enregistrement.
    >
-   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
    >
@@ -409,9 +411,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
      >[!TIP]
      >
      > Un champ d’enregistrement lié n’est pas créé pour les objets d’une autre application dans leurs applications respectives.
-     >Nous vous recommandons de ne pas créer de liens vers des types d’enregistrements taxonomiques, car il existe une limite de 500 champs, en plus de la limite de 30 champs connectés pour chaque type d’enregistrement.
+     > Nous vous recommandons de ne pas créer de liens vers des types d’enregistrements taxonomiques, car il existe une limite de 500 champs, en plus de la limite de 30 champs connectés pour chaque type d’enregistrement.
 
-   <!--see the span preview text in the TIP above; it might not show up in green-->
 
 1. (Facultatif et le cas échéant) Dans la vue en tableau du type d’enregistrement original ou du type d’enregistrement lié, cliquez sur la flèche pointant vers le bas dans l’en-tête des champs de l’enregistrement lié, puis cliquez sur l’une des options suivantes :
 

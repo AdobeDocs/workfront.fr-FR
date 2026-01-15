@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3500'
-ht-degree: 51%
+source-wordcount: '3418'
+ht-degree: 52%
 
 ---
 
 # Gérer la vue de tableau
 
 
-<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -31,7 +31,7 @@ Cet article décrit les informations suivantes :
 * [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
 * [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
 
-Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [&#x200B; Exporter des enregistrements de la vue Tableau &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [ Exporter des enregistrements de la vue Tableau ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Conditions d’accès
 
@@ -47,7 +47,7 @@ Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout Workfront et tout package Planning</p>
 <p>Tout workflow et tout package Planning</p>
@@ -168,7 +168,7 @@ Pour gérer une vue tableau :
    * [Lignes (ou enregistrements)](#add-rows-or-records)
    * [Filtres](#add-filters)
    * [Trier](#add-a-sort)
-   * [Regroupement &#x200B;](#add-groupings)
+   * [Regroupement ](#add-groupings)
    * [Couleurs de ligne](#add-row-colors)
    * [Indicateur de présence en temps réel](#enable-the-real-time-presence-indicator)
 
@@ -191,7 +191,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Les colonnes que vous ajoutez sont visibles par toutes les personnes qui accèdent au type d’enregistrement et sont ajoutées en tant que nouveaux champs sur la page de l’enregistrement.
 
-1. (Facultatif) Cliquez sur l’icône **Champs** ![icône Champs](assets/fields-icon.png) de la barre d’outils, recherchez le champ dans la liste ou recherchez <span class="preview"> champ</span> et désélectionnez le bouton (bascule) situé à droite du nom du champ pour le masquer.
+1. (Facultatif) Cliquez sur l’icône **Champs** ![icône Champs](assets/fields-icon.png) dans la barre d’outils, recherchez un champ, puis désélectionnez le bouton (bascule) situé à droite du nom du champ pour le masquer.
 
 1. Effectuez l’une des opérations suivantes pour réorganiser les colonnes du tableau :
 
@@ -219,7 +219,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -311,7 +311,7 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 1. Sélectionnez une vue en tableau, puis cliquez sur **Filtres** dans le coin supérieur droit du tableau.
 1. Cliquez sur **Ajouter une condition** et ajoutez les informations suivantes :
 
-   * <span class="preview">Recherchez un champ ou </span> cliquez sur le menu déroulant pour afficher une liste de champs et sélectionnez-la dans la liste.
+   * Recherchez un champ et sélectionnez-le lorsqu’il s’affiche dans la liste.
 
    * **Sélectionnez une option** (ou un modificateur de filtre) pour définir le type de condition auquel le champ doit répondre
 
@@ -420,7 +420,7 @@ Tenez compte des éléments suivants lorsque vous triez les enregistrements dans
 
 * Le tri que vous créez est préservé lorsque vous quittez cette vue.
 
-* Vous pouvez trier autant de champs que vous le souhaitez dans la vue en tableau d’un type d’enregistrement.
+* Vous pouvez trier par autant de champs que comporte la vue de tableau d’un type d’enregistrement.
 
 * Vous ne pouvez pas trier par champs d’enregistrement connectés, mais vous pouvez trier par champs de recherche à partir de types d’enregistrements connectés.
 
@@ -542,7 +542,7 @@ To sort grouped records:
 
 1. (Facultatif) Cliquez sur **Couleurs de ligne** pour définir des conditions et choisir de configurer différentes couleurs pour les lignes du tableau.
 
-1. Cliquez sur **Ajouter une couleur**, puis <span class="preview">rechercher un champ ou </span> cliquer sur le menu déroulant pour afficher une liste de champs et la sélectionner dans la liste. Il s’agit du champ dont vous souhaitez déterminer la valeur de couleur d’une ligne.
+1. Cliquez sur **Ajouter une couleur**, puis recherchez un champ et sélectionnez-le lorsqu’il s’affiche dans la liste. Il s’agit du champ dont vous souhaitez déterminer la valeur de couleur d’une ligne.
 
    Par exemple, pour afficher les campagnes avec le statut Actif en vert, sélectionnez **Statut**, puis choisissez un modificateur et une valeur pour le champ.
 

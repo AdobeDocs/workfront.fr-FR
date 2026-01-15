@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 44%
+source-wordcount: '1136'
+ht-degree: 46%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 44%
 
 # Créer des types d’enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -55,7 +55,6 @@ Pour plus d’informations sur les types d’enregistrements, voir [Présentatio
 Ou
 <li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 
-<div class="preview">
 <p>Pour configurer les types d’enregistrements globaux :</p>
 
 <ul> 
@@ -64,8 +63,7 @@ Ou
 <li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p>
 
-</div>
-   </td> </tr>
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p>Standard</p>
@@ -163,8 +161,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
         Cet article décrit comment créer des types d’enregistrements à partir de zéro.
 
-      * <span class="preview">En les ajoutant depuis un autre espace de travail</span>
-        <span class="preview">Pour plus d’informations, voir [Ajouter des types d’enregistrements existants à partir d’un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>
+      * En les ajoutant depuis un autre espace de travail
+Pour plus d’informations, voir [Ajouter des types d’enregistrements existants depuis un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 
 * Vous pouvez déplacer des types d’enregistrements dans une section et d’une section d’un espace de travail vers une autre. Vous ne pouvez pas déplacer des types d’enregistrements d’un espace de travail vers un autre.
@@ -208,9 +206,9 @@ Vous pouvez ajouter manuellement des types d’enregistrements dans les sections
       * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. Le gris est sélectionné par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir son nom dans le champ de recherche pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
-1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres avancés** <span class="preview">ou **Paramètres de l’espace de travail croisé**</span> et <span class="preview">mettez à jour les informations sur les fonctionnalités de l’espace de travail croisé du type d’enregistrement.
+1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres de l’espace de travail croisé** et mettez à jour les informations sur les fonctionnalités de l’espace de travail croisé du type d’enregistrement.
 
-   ![Zone Modifier le type d’enregistrement avec l’onglet Paramètres avancés](assets/edit-record-type-box-advanced-settings-tab.png) </span>
+   ![Zone Modifier le type d’enregistrement avec l’onglet Paramètres de l’espace de travail croisé](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
@@ -223,9 +221,9 @@ La Description du type d’enregistrement s’affiche sur la carte.
 
    Si vous avez choisi de connecter cet enregistrement à partir d&#39;autres espaces de travail, l&#39;icône **Enregistrement connectable** ![Icône Se connecter à partir d&#39;autres espaces](assets/connect-from-other-workspaces-icon.png) s&#39;affiche sur la carte d&#39;enregistrement.
 
-   <span class="preview">Si vous avez choisi d&#39;autoriser l&#39;ajout de cet enregistrement à d&#39;autres espaces de travail, l&#39;icône **Enregistrement global** icône ![Type d&#39;enregistrement global](assets/global-icon.png) s&#39;affiche sur la carte d&#39;enregistrement. </span>
+   Si vous avez choisi d’autoriser l’ajout de cet enregistrement à d’autres espaces de travail, l’icône **Enregistrement global** ![icône de type d’enregistrement global](assets/global-icon.png) s’affiche sur la carte d’enregistrement.
 
-1. (Facultatif) Pointez sur la carte de type d’enregistrement, cliquez sur l’icône **Plus** ![Menu Plus](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** ou <span class="preview">**Paramètres**</span> pour modifier les informations sur le type d’enregistrement.
+1. (Facultatif) Pointez sur la carte de type d’enregistrement, cliquez sur l’icône **Plus** ![Menu Plus](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** ou **Paramètres** pour modifier les informations sur le type d’enregistrement.
 
    Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
 
@@ -277,12 +275,8 @@ Vous pouvez importer les éléments suivants lors de l’importation d’informa
 
 Pour plus d’informations, voir [Création de types d’enregistrements à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-<div class="preview">
-
 ## Créer des types d’enregistrements en ajoutant des types existants depuis un autre espace de travail
 
 Vous pouvez ajouter des types d’enregistrements à un espace de travail en ajoutant des types existants à partir d’un autre espace de travail. Vous pouvez uniquement ajouter des types d’enregistrements qui ont été configurés en tant que types d’enregistrements globaux.
 
 Pour plus d’informations, voir [Ajouter des types d’enregistrements existants depuis un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
-
-</div>

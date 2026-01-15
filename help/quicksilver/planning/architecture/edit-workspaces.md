@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 25%
+source-wordcount: '673'
+ht-degree: 26%
 
 ---
 
 
-# Modifier les espaces de travail
+# Modifier des espaces de travail
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -132,9 +132,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 1. (Conditionnel) Si vous êtes un administrateur Workfront, cliquez sur l’une des options suivantes :
 
    * **Espaces de travail sur lesquels je travaille** pour accéder aux espaces de travail que vous avez créés
-   * **Autres espaces de travail** pour accéder aux espaces de travail que d’autres ont partagés avec vous
-Ou
-     <span class="preview">**Tous les espaces de travail** pour accéder aux espaces de travail partagés avec vous ou que vous avez créés</span>
+   * **Tous les espaces de travail** pour accéder aux espaces de travail partagés avec vous ou que vous avez créés
 
 1. (Facultatif) Cliquez sur **Tout afficher** pour afficher des espaces de travail supplémentaires. Le lien **Tout afficher** s’affiche uniquement lorsque vous disposez de plus de deux lignes de cartes d’espace de travail.
 1. (Facultatif) Cliquez sur K **Afficher moins** pour limiter le nombre d’espaces de travail affichés à l’écran.
@@ -142,7 +140,7 @@ Ou
 
    * Pointez sur la carte de l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte
 Ou
-   * <span class="preview"> Cliquez sur l’icône **rechercher** ![Icône Rechercher](assets/search-icon.png) dans le coin supérieur droit de la page Espaces de travail pour rechercher un espace de travail par nom</span> puis cliquez sur une vignette d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’espace de travail.
+   * Cliquez sur l’icône **rechercher** ![icône Rechercher](assets/search-icon.png) dans le coin supérieur droit de la page Espaces de travail pour rechercher un espace de travail par nom, puis cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’espace de travail.
 1. Cliquez sur **Modifier**.
 
    La zone **Modifier l’espace de travail** s’affiche.

@@ -6,21 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '2940'
-ht-degree: 31%
+source-wordcount: '2899'
+ht-degree: 30%
 
 ---
 
 
 # Modifier des enregistrements
 
-<!--keep the choice values information in yellow till Jan 2026-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -141,15 +139,21 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * Les types de champs suivants sont automatiquement mis à jour et vous ne pouvez pas modifier leurs valeurs manuellement :
    * Champs liés à partir d’autres enregistrements
    * Champs de type Formule
-   * Champs système (Créé par, Date de création, Dernière modification par, Date de dernière modification)
+   * Champs système (Créé par, Date de création, Dernière modification par, Date de dernière modification, Date d’approbation, Approuvé par)
 * Si les enregistrements que vous affichez sont liés à d&#39;autres enregistrements, les nouvelles informations des enregistrements que vous modifiez sont répercutées sur les enregistrements liés dans tous les espaces de travail où cet enregistrement est lié.
 * Vous ne pouvez pas modifier les enregistrements en masse. <!--this will probably change-->
 * Les URL sont reconnues comme des liens dans les types de champ de texte sur une seule ligne uniquement lorsqu’elles commencent par les éléments suivants : http://, https://, ftp:// ou www.
-* Vous pouvez ajouter une image de couverture à chaque enregistrement. L’image est unique pour chaque enregistrement et ne s’applique pas à tous les enregistrements en même temps.
-* Vous pouvez modifier l’ordre des champs dans une page d’enregistrement et ajouter une image de couverture pour un enregistrement. Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
+* Vous pouvez ajouter une image de couverture à chaque enregistrement. L’image est unique pour chaque enregistrement et ne s’applique pas à tous les enregistrements en même temps. Pour plus d’informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* Vous pouvez modifier l’ordre des champs dans la page de détails d’un enregistrement. Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
 * Vous pouvez modifier les dates de début et de fin d&#39;un enregistrement en redimensionnant ou en repositionnant les enregistrements dans les vues Chronologie et Calendrier.
 
-  Vous ne pouvez pas redimensionner ou repositionner des enregistrements lorsque les dates de début et de fin que vous avez choisies pour l&#39;enregistrement sont en lecture seule. Par exemple, l&#39;utilisation de champs de recherche ou de formule pour les dates de début et de fin d&#39;un enregistrement ne vous permet pas de redimensionner ou de repositionner l&#39;enregistrement dans une vue chronologique et calendaire. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+  Vous ne pouvez pas redimensionner ou repositionner des enregistrements lorsque les dates de début et de fin que vous avez choisies pour l&#39;enregistrement sont en lecture seule. Par exemple, vous ne pouvez pas redimensionner ou repositionner l&#39;enregistrement dans une vue chronologique et calendrier lors de l&#39;utilisation de champs de recherche ou de formule pour les dates de début et de fin d&#39;un enregistrement. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+
+  Pour modifier les dates des enregistrements, consultez l’une des sections suivantes de cet article :
+
+   * [Modifier un enregistrement dans la vue Calendrier d’un type d’enregistrement](#edit-a-record-in-the-calendar-view-of-a-record-type)
+   * [Modifier un enregistrement dans la vue chronologique d’un type d’enregistrement](#edit-a-record-in-the-timeline-view-of-a-record-type)
+
 
 ## Modifier des enregistrements
 
@@ -161,10 +165,6 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 * [Aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view)
 * [La page de l’enregistrement](#edit-a-record-from-the-records-page)
 * [Objet Workfront dans la section Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
-
-Pour modifier les dates des enregistrements, procédez comme suit :
-
-* [Redimensionner les barres des enregistrements en mode Chronologie et Calendrier]
 
 ### Modifier un enregistrement en ligne dans la vue de tableau d’un type d’enregistrement
 
@@ -271,7 +271,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez pas faire glisser et déposer les extrémités d&#39;une barre d&#39;enregistrement, ni faire glisser et déposer l&#39;enregistrement vers une autre date lorsque les dates de début et de fin que vous avez choisies pour l&#39;enregistrement sont en lecture seule. Par exemple, l&#39;utilisation de champs de recherche ou de formule pour les dates de début et de fin d&#39;un enregistrement ne vous permet pas de redimensionner ou de repositionner l&#39;enregistrement dans une vue chronologique. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+   >Vous ne pouvez pas faire glisser et déposer les extrémités d&#39;une barre d&#39;enregistrement, ni faire glisser et déposer l&#39;enregistrement vers une autre date lorsque les dates de début et de fin que vous avez choisies pour l&#39;enregistrement sont en lecture seule. Par exemple, vous ne pouvez pas redimensionner ou repositionner l&#39;enregistrement dans une vue chronologique lors de l&#39;utilisation de champs de recherche ou de formule pour les dates de début et de fin d&#39;un enregistrement. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
 
 1. Cliquez sur la barre d’un enregistrement pour ouvrir sa zone de détails et modifier tous les champs.
 
@@ -279,9 +279,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 ### Modifier un enregistrement dans la vue Calendrier d’un type d’enregistrement
 
-<!--add another step about drag and drop here when that is available-->
-
-1. Ouvrez la page de type d’enregistrement dans une vue Calendrier. Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+1. Ouvrez la page de type d’enregistrement dans une vue Calendrier. Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 1. (Conditionnel) Pointez sur les extrémités de la barre d’un enregistrement dans la vue Calendrier, puis cliquez sur ses marges, faites-les glisser et déposez-les vers une autre date. Cette opération met automatiquement à jour la date de début ou de fin de l’enregistrement.
 
    ![Barre à gauche de la vue Calendrier à redimensionner](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
@@ -290,7 +288,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez pas faire glisser et déposer les extrémités d&#39;une barre d&#39;enregistrement, ni faire glisser et déposer l&#39;enregistrement vers une autre date lorsque les dates de début et de fin que vous avez choisies pour l&#39;enregistrement sont en lecture seule. Par exemple, l&#39;utilisation de champs de recherche ou de formule pour les dates de début et de fin d&#39;un enregistrement ne vous permet pas de redimensionner ou de repositionner l&#39;enregistrement dans une vue Calendrier. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
+   >Vous ne pouvez pas faire glisser et déposer les extrémités d&#39;une barre d&#39;enregistrement, ni faire glisser et déposer l&#39;enregistrement vers une autre date lorsque les dates de début et de fin que vous avez choisies pour l&#39;enregistrement sont en lecture seule. Par exemple, vous ne pouvez pas redimensionner ou repositionner l&#39;enregistrement dans une vue Calendrier lors de l&#39;utilisation de champs de recherche ou de formule pour les dates de début et de fin d&#39;un enregistrement. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. Cliquez sur la barre d’un enregistrement pour ouvrir sa zone de détails et modifier tous les champs.
 
@@ -318,7 +316,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
-   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 
@@ -444,5 +442,5 @@ Pour ajouter un nouveau choix à un champ de sélection existant lors de la modi
 
    Le nouveau choix est ajouté immédiatement au champ à sélection unique.
 
-   <span class="preview">Une nouvelle valeur de choix est également ajoutée à chaque choix. Vous pouvez utiliser les valeurs de choix dans les appels API ou d’autres intégrations. Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md). </span>
+   Une nouvelle valeur de choix est également ajoutée à chaque choix. Vous pouvez utiliser les valeurs de choix dans les appels API ou d’autres intégrations. Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1421'
 ht-degree: 6%
 
 ---
@@ -296,7 +296,7 @@ Voici ce qui se produit :
 
 ## Ajouter une page Enregistrements connectés à un enregistrement
 
-Vous pouvez afficher les informations des enregistrements ou objets connectés en ajoutant un onglet pour une page Enregistrements connectés à un enregistrement. Les enregistrements connectés dans une vue Tableau sont alors ajoutés à l’onglet.
+Vous pouvez afficher des informations provenant d&#39;enregistrements ou d&#39;objets connectés en ajoutant un onglet pour une page Enregistrements connectés à la zone des détails d&#39;un enregistrement. Les enregistrements connectés dans une vue Tableau ou Liste sont alors ajoutés à l’onglet.
 
 Pour plus d’informations, voir [Ajouter une page Enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 

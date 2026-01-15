@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 21%
+source-wordcount: '919'
+ht-degree: 22%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 21%
 
 <!--leave the choice value information in yellow till January 2026-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -44,7 +44,7 @@ Cet article décrit comment modifier les paramètres des champs Workfront Plann
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
@@ -147,7 +147,7 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
   >Les autres utilisateurs ne sont pas informés que la configuration du champ a changé.
 
 * Vous pouvez modifier des champs de recherche existants à partir d’enregistrements connectés.
-* Outre la modification du champ décrite dans la section [Modifier les paramètres de champ](#edit-field-settings-1) de cet article, vous pouvez modifier les choix d’un champ à sélection unique ou multiple lorsque vous modifiez un enregistrement dans la vue Tableau, au fur et à mesure que vous mettez à jour les valeurs de champ. Pour plus d&#39;informations, reportez-vous à la section [&#x200B; Ajouter de nouveaux choix à un champ de sélection existant lors de la modification d&#39;enregistrements en mode Tableau &#x200B;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) de cet article.
+* Outre la modification du champ décrite dans la section [Modifier les paramètres de champ](#edit-field-settings-1) de cet article, vous pouvez modifier les choix d’un champ à sélection unique ou multiple lorsque vous modifiez un enregistrement dans la vue Tableau, au fur et à mesure que vous mettez à jour les valeurs de champ. Pour plus d&#39;informations, reportez-vous à la section [ Ajouter de nouveaux choix à un champ de sélection existant lors de la modification d&#39;enregistrements en mode Tableau ](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) de cet article.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -225,5 +225,5 @@ Pour ajouter un nouveau choix à un champ de sélection existant lors de la modi
 
    Le nouveau choix est ajouté immédiatement au champ à sélection unique.
 
-   <span class="preview">Une nouvelle valeur est également ajoutée à chaque choix. Vous pouvez utiliser les valeurs de choix dans les appels API ou d’autres intégrations. Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).</span>
+   Une nouvelle valeur est également ajoutée à chaque choix. Vous pouvez utiliser les valeurs de choix dans les appels API ou d’autres intégrations. Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 

@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1776'
 ht-degree: 24%
 
 ---
 
 # Gérer la vue de calendrier
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -40,7 +40,7 @@ Pour plus d’informations sur les vues Adobe Workfront Planning et leur gestion
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout Workfront et tout package Planning</p>
 <p>Tout workflow et tout package Planning</p>
@@ -221,7 +221,7 @@ Pour ajouter un filtre à une vue Calendrier :
 1. Sélectionnez une vue de calendrier, puis cliquez sur **Filtres** dans la barre d’outils du calendrier.
 1. Cliquez sur **Ajouter une condition** et ajoutez les informations suivantes :
 
-   * **Sélectionner un champ** pour <span class="preview">rechercher un champ ou </span> cliquer sur le menu déroulant pour afficher une liste de champs et le sélectionner dans la liste
+   * **Sélectionnez un champ** pour rechercher un champ et le sélectionner dans la liste
 
    * **Sélectionnez une option** (ou un modificateur de filtre) pour définir le type de condition auquel le champ doit répondre
 

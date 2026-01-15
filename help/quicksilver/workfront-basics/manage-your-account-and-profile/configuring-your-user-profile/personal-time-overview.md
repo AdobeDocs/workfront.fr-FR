@@ -7,7 +7,7 @@ description: Dans Adobe Workfront, il est important d’indiquer les congés ap
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 75%
@@ -18,7 +18,7 @@ ht-degree: 75%
 
 <!-- Audited: 12/2025 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] n’est pas conçu pour reproduire ou remplacer les systèmes existants de votre organisation pour la gestion, l’accumulation ou le suivi des congés personnels.
 
@@ -74,7 +74,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 >
 >Si votre organisation se trouve dans l’expérience unifiée Adobe, cliquez sur le menu du compte **Adobe** (image de votre profil) dans le coin supérieur droit de la zone de navigation supérieure, puis cliquez sur **Profil Workfront**.
 >
->![profil workfront &#x200B;](assets/aue-profile.png)
+>![profil workfront ](assets/aue-profile.png)
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Congés]**.
 1. Sélectionnez la date souhaitée pour vos congés.

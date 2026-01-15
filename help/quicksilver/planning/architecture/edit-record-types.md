@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '571'
 ht-degree: 26%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 26%
 
 # Modifier des types d’enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,7 +49,7 @@ Les types d’enregistrements sont les types d’objets d’Adobe Workfront Pl
 Ou
 <li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 
-<div class="preview">
+
 <p>Pour configurer les types d’enregistrements globaux :</p>
 
 <ul> 
@@ -58,8 +58,7 @@ Ou
 <li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p>
 
-</div>
-   </td> </tr>
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p>Standard</p>
@@ -145,16 +144,15 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    La page Workspace s’ouvre et les types d’enregistrements s’affichent.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte du type d’enregistrement, puis cliquez sur **Modifier**
-     <span class="preview">ou **Paramètres**</span>
+   * Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte de type d’enregistrement, puis cliquez sur **Modifier** ou **Paramètres**
 Ou
-   * Cliquez sur une carte de type d’enregistrement pour ouvrir la page de type d’enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Modifier** <span class="preview">ou **Paramètres**</span>.
+   * Cliquez sur une carte de type d’enregistrement pour ouvrir la page de type d’enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Modifier** ou **Paramètres**.
 
-   <span class="preview">![Plus d’options de menu à partir d’une carte de type enregistrement avec Paramètres](assets/more-menu-options-from-record-type-card-with-settings-link.png)</span>
+   ![Plus d’options de menu à partir d’une carte de type enregistrement avec Paramètres](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-1. Dans la zone **Modifier le type d’enregistrement**, l’onglet **Apparence** s’ouvre par défaut. <!--update screen shot below at production-->
+1. Dans la zone **Modifier le type d’enregistrement**, l’onglet **Apparence** s’ouvre par défaut.
 
-   ![Onglet Apparence de la zone Modifier le type d’enregistrement &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Onglet Apparence de la zone Modifier le type d’enregistrement ](assets/edit-record-type-box-appearance-tab.png)
 
    Mettez à jour les informations suivantes dans l’onglet **Apparence** :
 
@@ -164,17 +162,17 @@ Ou
       * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
-1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres avancés** <span class="preview">ou **Paramètres de l’espace de travail croisé**</span> et mettez à jour les informations sur les fonctionnalités de l’espace de travail croisé du type d’enregistrement.
+1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres de l’espace de travail croisé** et mettez à jour les informations sur les fonctionnalités de l’espace de travail croisé du type d’enregistrement.
 
-   Pour plus d’informations, voir [Configuration des fonctionnalités entre espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production - Jan 2026-->
+   Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-   ![Zone Modifier le type d’enregistrement avec l’onglet Paramètres avancés](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Zone Modifier le type d’enregistrement avec l’onglet Paramètres de l’espace de travail](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. Cliquer sur **Enregistrer**.
 
    Si vous avez choisi de connecter cet enregistrement à partir d&#39;autres espaces de travail, l&#39;icône **Enregistrement connectable** ![Icône Se connecter à partir d&#39;autres espaces](assets/connect-from-other-workspaces-icon.png) s&#39;affiche sur la carte d&#39;enregistrement.
 
-   <span class="preview">Si vous avez choisi d&#39;autoriser l&#39;ajout de cet enregistrement à d&#39;autres espaces de travail, l&#39;icône **Enregistrement global** icône ![Type d&#39;enregistrement global](assets/global-icon.png) s&#39;affiche sur la carte d&#39;enregistrement. </span>
+   Si vous avez choisi d’autoriser l’ajout de cet enregistrement à d’autres espaces de travail, l’icône **Enregistrement global** ![icône de type d’enregistrement global](assets/global-icon.png) s’affiche sur la carte d’enregistrement.
 
 1. (Facultatif) Cliquez sur la carte de type d’enregistrement de la zone de l’espace de travail pour ouvrir la page du type d’enregistrement, puis renommez le type d’enregistrement dans l’en-tête.
 

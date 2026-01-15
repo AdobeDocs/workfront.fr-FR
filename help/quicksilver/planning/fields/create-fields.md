@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '5487'
+source-wordcount: '5427'
 ht-degree: 40%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -24,9 +24,9 @@ ht-degree: 40%
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -282,7 +282,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Paragraphe**.
 
-   ![&#x200B; Type de champ de paragraphe &#x200B;](assets/paragraph-field-type.png)
+   ![ Type de champ de paragraphe ](assets/paragraph-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -299,7 +299,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
 >[!NOTE]
 >
->En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [&#x200B; Modifier des enregistrements &#x200B;](/help/quicksilver/planning/records/edit-records.md).
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection multiple**.
@@ -312,7 +312,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
    * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous pointez sur la colonne du champ dans un tableau ou lorsque vous cliquez sur l&#39;icône d&#39;informations située à côté du nom du champ dans la page de détails de l&#39;enregistrement.
    * **Choix** : options que les utilisateurs peuvent sélectionner lors de la mise à jour de ce champ. Vous pouvez utiliser des chiffres et des lettres pour le nom de chaque choix.
 1. Cliquez sur **Ajouter un choix** pour ajouter d’autres choix. Le nombre de choix que vous pouvez ajouter à un champ à sélection multiple est illimité.
-1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option
+1. (Facultatif) Effectuez un glisser-déposer manuel de chaque choix dans l’ordre souhaité, ou sélectionnez l’option
    **Trier les choix dans l’ordre alphabétique** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatif) Pour supprimer un choix, cliquez sur l’icône **x** située à droite.
 1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleurs et personnaliser la couleur de chaque option.
@@ -327,20 +327,20 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
    Le nouveau champ à sélection multiple est ajouté sous la forme d’une colonne au type d’enregistrement et ses valeurs peuvent être associées aux enregistrements.
 
-1. <span class="preview">(Facultatif) Pointez sur le nom du champ dans la vue Tableau, cliquez sur le menu déroulant à droite du nom du champ, puis cliquez sur **Modifier le champ**.</span>
-1. <span class="preview">Activez le paramètre **Afficher les valeurs** pour afficher les valeurs de chaque choix. Les valeurs sont les noms de chaque choix, tels qu’ils apparaissent dans la base de données Workfront. </span>
+1. (Facultatif) Pointez sur le nom du champ dans la vue Tableau, cliquez sur le menu déroulant à droite du nom du champ, puis cliquez sur **Modifier le champ**.
+1. Activez le paramètre **Afficher les valeurs** pour afficher les valeurs de chaque choix. Les valeurs sont les noms de chaque choix, tels qu’ils apparaissent dans la base de données Workfront.
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront attribue des valeurs uniques pour chaque choix. </span>
+   >* Workfront attribue des valeurs uniques pour chaque choix.
    >
-   >* <span class="preview">Les valeurs correspondent au nom du choix au format minuscule. Plusieurs mots sont séparés par un trait de soulignement. </span>
+   >* Les valeurs correspondent au nom du choix au format minuscule. Plusieurs mots sont séparés par un trait de soulignement.
    >
-   >* <span class="preview">Les valeurs peuvent être répétées entre plusieurs champs, mais elles doivent être uniques pour un champ.</span>
+   >* Les valeurs peuvent être répétées entre plusieurs champs, mais elles doivent être uniques pour un champ.
    >
-   ><span class="preview"> ![Bouton bascule Afficher la valeur](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![Bouton bascule Afficher la valeur](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(Facultatif) Utilisez les valeurs de choix dans vos appels API et autres intégrations. </span>
+1. (Facultatif) Utilisez les valeurs de choix dans vos appels API et autres intégrations.
 
 ### Sélection unique {#single-select}
 
@@ -348,12 +348,12 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
 >[!NOTE]
 >
->En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur de champ à sélection unique d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [&#x200B; Modifier des enregistrements &#x200B;](/help/quicksilver/planning/records/edit-records.md).
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur de champ à sélection unique d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection simple**.
 
-   ![&#x200B; Type de champ à sélection unique &#x200B;](assets/single-select-field-type.png)
+   ![ Type de champ à sélection unique ](assets/single-select-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du champ tel qu&#39;il apparaîtra dans une table ou dans la page Détails de l&#39;enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -361,7 +361,7 @@ Les champs à sélection unique capturent des informations supplémentaires dans
    * **Choix** : options disponibles pour la sélection dans le menu déroulant après l’enregistrement du champ. Vous pouvez avoir des nombres et des lettres pour le nom de chaque choix.
 
 1. Cliquez sur **Ajouter un choix** pour ajouter d’autres choix. Le nombre de choix que vous pouvez ajouter à un champ à sélection unique n’est pas limité.
-1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option **Trier les choix de A-Z** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. (Facultatif) Effectuez un glisser-déposer manuel de chaque choix dans l’ordre souhaité, ou sélectionnez l’option **Trier les choix de A-Z** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatif) Pour supprimer un choix, cliquez sur l’icône **x** située à droite.
 1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleurs et personnaliser la couleur de chaque option.
 1. Cliquez sur **Nuancier** pour sélectionner une couleur prédéfinie
@@ -375,20 +375,20 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
    Le nouveau champ à sélection unique est ajouté sous la forme d’une colonne au type d’enregistrement et ses valeurs peuvent être associées aux enregistrements.
 
-1. <span class="preview">(Facultatif) Pointez sur le nom du champ dans la vue Tableau, cliquez sur le menu déroulant à droite du nom du champ, puis cliquez sur **Modifier le champ**.</span>
-1. <span class="preview">Activez le paramètre **Afficher les valeurs** pour afficher les valeurs de chaque choix. Les valeurs sont les noms de chaque choix, tels qu’ils apparaissent dans la base de données Workfront. </span>
+1. (Facultatif) Pointez sur le nom du champ dans la vue Tableau, cliquez sur le menu déroulant à droite du nom du champ, puis cliquez sur **Modifier le champ**.
+1. Activez le paramètre **Afficher les valeurs** pour afficher les valeurs de chaque choix. Les valeurs sont les noms de chaque choix, tels qu’ils apparaissent dans la base de données Workfront.
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront attribue des valeurs uniques pour chaque choix. </span>
+   >* Workfront attribue des valeurs uniques pour chaque choix.
    >
-   >* <span class="preview">Les valeurs correspondent au nom du choix au format minuscule. Plusieurs mots sont séparés par un trait de soulignement. </span>
+   >* Les valeurs correspondent au nom du choix au format minuscule. Plusieurs mots sont séparés par un trait de soulignement.
    >
-   >* <span class="preview">Les valeurs peuvent être répétées entre plusieurs champs, mais elles doivent être uniques pour un champ.</span>
+   >* Les valeurs peuvent être répétées entre plusieurs champs, mais elles doivent être uniques pour un champ.
    >
-   ><span class="preview"> ![Bouton bascule Afficher la valeur](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![Bouton bascule Afficher la valeur](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(Facultatif) Utilisez les valeurs de choix dans vos appels API et autres intégrations. </span>
+1. (Facultatif) Utilisez les valeurs de choix dans vos appels API et autres intégrations.
 
 ### Date {#date}
 
@@ -575,7 +575,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
    >
    >* Vous pouvez référencer un champ contenant jusqu’à 4 champs (et objets) différents du type d’enregistrement actuel. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité (1) et que l’Activité est connectée au type d’enregistrement Campagne (2) qui est connecté à un projet Workfront (3), vous pouvez référencer le champ Budget du projet (4) dans la formule que vous créez pour le type d’enregistrement Activité.
    >
-   >![Exemple de formule de budget de projet avec quatre champs supprimés &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemple de formule de budget de projet avec quatre champs supprimés ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facultatif) Cliquez sur **Agrandir** pour ouvrir la zone Formule dans une zone plus grande.

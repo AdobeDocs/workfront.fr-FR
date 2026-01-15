@@ -6,23 +6,21 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 24%
+source-wordcount: '751'
+ht-degree: 25%
 
 ---
 
 
 # Présentation de l’accès à Adobe Workfront Planning
 
-<!--leave the global record type reference in yellow till Jan 2026-->
-
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -65,12 +63,11 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
    <ul><li><p>Tout package Workfront et un package Planning</p></li>
    <li><p>N’importe quel workflow et un package Planning Prime et Ultimate</p></li></ul>
 
-<div class="preview">
-   <p>Pour accéder aux types d’enregistrements globaux :</p>
+<p>Pour accéder aux types d’enregistrements globaux :</p>
    <ul><li><p>Tout package Workfront et un package Planning Plus</p></li>
    <li><p>Tout package de workflow et un package Planning Prime et Ultimate</p></li></ul> </td></tr>
-   </div>
-   <tr>
+
+<tr>
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
    <p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p>

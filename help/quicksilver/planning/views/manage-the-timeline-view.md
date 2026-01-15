@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3968'
+source-wordcount: '3912'
 ht-degree: 36%
 
 ---
 
 # Gérer la vue chronologique
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -40,7 +40,7 @@ Pour plus d’informations sur les vues d’enregistrement, consultez la section
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout Workfront et tout package Planning</p>
 
@@ -251,7 +251,7 @@ Pour gérer une vue chronologique :
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-   * [Regroupement &#x200B;](#add-grouping)
+   * [Regroupement ](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
@@ -282,9 +282,9 @@ Pour ajouter un filtre à une vue chronologique :
 1. Sélectionnez une vue chronologique, puis cliquez sur **Filtres** dans le coin supérieur droit du tableau.
 1. Cliquez sur **Ajouter une condition** et ajoutez les informations suivantes :
 
-   * **Sélectionner un champ** pour <span class="preview">Rechercher un champ ou </span> cliquer sur le menu déroulant pour afficher une liste de champs et le sélectionner dans la liste
+   * **Sélectionnez un champ** pour rechercher un champ ou et le sélectionner dans la liste.
 
-   * **Sélectionnez une option** (ou un modificateur de filtre) pour définir le type de condition auquel le champ doit répondre
+   * **Sélectionnez une option** (ou un modificateur de filtre) pour définir le type de condition auquel le champ doit répondre.
 
      Le tableau ci-dessous présente les modificateurs disponibles pour chaque type de champ.
 
@@ -548,6 +548,8 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 Vous pouvez afficher les enregistrements connectés dans la vue chronologique d&#39;un enregistrement à l&#39;aide de la fonction Répartition. La répartition des enregistrements en fonction de leurs connexions vous permet d&#39;afficher la chronologie d&#39;autres enregistrements connectés et de comprendre comment ils peuvent affecter les performances et les échéances de vos enregistrements.
 
 #### Remarques concernant l’utilisation de la fonction Répartition
+
+Tenez compte des points suivants lors de la répartition de la chronologie des enregistrements en fonction de leurs types d’enregistrements connectés :
 
 * Vous pouvez afficher les enregistrements ou les objets connectés sous les enregistrements du type d&#39;enregistrement sélectionné dans la vue chronologique.
 * Vous ne pouvez afficher les enregistrements connectés en mode Chronologie que lorsque vous affichez les enregistrements en mode Standard. Vous ne pouvez pas utiliser l’option Répartition en mode Compact de la vue chronologique.

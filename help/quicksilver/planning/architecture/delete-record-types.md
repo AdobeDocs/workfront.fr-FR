@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 22%
+source-wordcount: '1075'
+ht-degree: 21%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 22%
 
 # Supprimer des types d’enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,7 +28,7 @@ Vous pouvez supprimer des types d’enregistrement lorsqu’ils ne sont plus per
 
 Cependant, la suppression des types d’enregistrement supprime également toutes les informations associées aux types d’enregistrement. Pour plus d’informations, consultez la section [Remarques concernant la suppression de types d’enregistrement](#considerations-when-deleting-record-types) de cet article.
 
-Pour plus d’informations sur les types d’enregistrements, voir [&#x200B; Présentation des types d’enregistrements &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Pour plus d’informations sur les types d’enregistrements, voir [ Présentation des types d’enregistrements ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -52,12 +52,12 @@ Pour plus d’informations sur les types d’enregistrements, voir [&#x200B; Pr�
 <li><p>Tout Workfront et tout package Planning</p></li>
 Ou
 <li><p>Tout workflow et tout package Planning</p></li></ul>
-<div class="preview">
+
 <p>Pour supprimer des types d’enregistrements globaux :</p>
 <ul><li><p>Tout package Workfront et un package Planning Plus</p></li>
 Ou
 <li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
-</div>
+
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
   <tr> 
@@ -150,13 +150,9 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * La suppression des types d’enregistrements et leurs informations associées est irréversible.
 * Il est recommandé de recréer les champs et les enregistrements associés au type d’enregistrement que vous souhaitez supprimer sur un autre type d’enregistrement avant de les supprimer.
 
-<div class="preview">
-
 * Vous ne pouvez pas supprimer un type d&#39;enregistrement global qui a été ajouté à d&#39;autres espaces de travail.
 
   Pour plus d’informations, consultez la section [Supprimer des types d’enregistrements globaux](#delete-global-record-types) dans cet article.
-
-</div>
 
 ## Supprimer des types d’enregistrements
 
@@ -174,14 +170,16 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    * Pointez sur la carte de type d’enregistrement, cliquez sur le menu **Plus**, puis **Supprimer**.
    * Cliquez sur la carte du type d’enregistrement à supprimer, puis, dans la page du type d’enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Supprimer**.
 
-   ![Confirmation de suppression définitive du type d’enregistrement](assets/permanently-delete-record-type-confirmation.png)
+     >[!TIP]
+     >
+     >Vous ne pouvez pas supprimer un type d’enregistrement global de l’espace de travail secondaire où il a été ajouté à partir de la page du type d’enregistrement. Vous pouvez uniquement la supprimer de la carte de type d’enregistrement dans l’espace de travail.
+
+     ![Confirmation de suppression définitive du type d’enregistrement](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. Saisissez **delete** dans la zone de confirmation, puis cliquez sur **Supprimer définitivement**. Cette opération n’est pas sensible à la casse.
 
    Le type d&#39;enregistrement sélectionné, ainsi que ses champs, les enregistrements associés et les vues sont supprimés et ne peuvent pas être récupérés.
-
-<div class="preview">
 
 ## Supprimer les types d’enregistrements globaux
 
@@ -189,11 +187,13 @@ Les scénarios suivants existent lors de la suppression de types d’enregistrem
 
 * Si un type d’enregistrement configuré comme global n’a pas encore été ajouté à un autre espace de travail, vous pouvez le supprimer de son espace de travail d’origine.
 
-* Si un type d’enregistrement configuré en tant que type d’enregistrement global a été ajouté à au moins un autre espace de travail, vous ne pouvez pas le supprimer de son espace de travail d’origine. Vous devez d’abord supprimer (en supprimant) les types d’enregistrements globaux des espaces de travail secondaires où ils ont été ajoutés, puis vous pouvez supprimer définitivement le type d’enregistrement global de son espace de travail d’origine.
+* Si un type d’enregistrement configuré en tant que type d’enregistrement global a été ajouté à au moins un autre espace de travail, vous ne pouvez pas le supprimer de son espace de travail d’origine. Vous devez d’abord supprimer (en supprimant) le type d’enregistrement global des espaces de travail secondaires où ils ont été ajoutés, puis vous pouvez supprimer définitivement le type d’enregistrement global de son espace de travail d’origine.
 
 ### Supprimer un type d’enregistrement global de l’espace de travail d’origine
 
 Vous pouvez supprimer un type d’enregistrement de son espace de travail d’origine s’il n’est plus pertinent.
+
+Tous les enregistrements et champs sont également supprimés et ne peuvent pas être récupérés.
 
 1. Accédez au type d’enregistrement global dans son espace de travail d’origine.
 
@@ -209,7 +209,7 @@ Vous pouvez supprimer un type d’enregistrement de son espace de travail d’or
    Les événements suivants se produisent :
 
    * Le type d’enregistrement global est supprimé de l’espace de travail d’origine et le type d’enregistrement, ses enregistrements et champs ne peuvent pas être récupérés.
-   * Tous les types d’enregistrements globaux des espaces de travail secondaires et leurs enregistrements sont également supprimés.
+   * Tous les enregistrements globaux des espaces de travail secondaires et leurs enregistrements sont également supprimés de cet espace de travail.
 
 ### Supprimer un type d’enregistrement global d’un espace de travail secondaire
 
@@ -217,11 +217,13 @@ Vous pouvez supprimer un type d’enregistrement que vous avez ajouté à partir
 
 Tenez compte des points suivants :
 
-* La suppression d’un type d’enregistrement global d’un espace de travail secondaire le supprimera uniquement de l’espace de travail secondaire. Le type d’enregistrement reste dans l’espace de travail d’origine.
+* Lorsque vous supprimez un type d’enregistrement global d’un espace de travail secondaire, il reste dans l’espace de travail d’origine.
 
 * Lorsque vous supprimez un type d’enregistrement global d’un espace de travail secondaire, les éléments suivants sont également supprimés :
 
-   * Enregistrements ajoutés depuis l’espace de travail secondaire.
+   * Les enregistrements ajoutés depuis l’espace de travail secondaire sont supprimés de l’espace de travail secondaire et ne peuvent pas être récupérés.
+
+     Les enregistrements ajoutés dans l’espace de travail secondaire restent dans l’espace de travail principal du type d’enregistrement global. Le champ **Workspace** est vide pour ces enregistrements dans l&#39;espace de travail principal du type d&#39;enregistrement global. <!--checking on this with Lilit-->
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
@@ -233,16 +235,16 @@ Pour supprimer un type d’enregistrement global d’un espace de travail second
 
 1. Accédez au type d’enregistrement global dans son espace de travail secondaire.
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) sur la carte du type d’enregistrement ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur **Supprimer**.
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) sur la carte du type d’enregistrement, puis cliquez sur **Supprimer**.
 1. (Conditionnel) Saisissez **delete** dans le champ fourni, puis cliquez sur **Supprimer définitivement**.
 
    ![Supprimer la boîte de confirmation de type d&#39;enregistrement global secondaire](assets/delete-secondary-global-record-type.png)
 
    Les événements suivants se produisent :
 
-   * Le type d’enregistrement créé à partir d’un type d’enregistrement global est supprimé de l’espace de travail sélectionné.
+   * Le type d’enregistrement créé à partir d’un type d’enregistrement global est supprimé de l’espace de travail secondaire sélectionné.
    * Le type d’enregistrement d’origine et ses champs restent dans leur espace de travail d’origine.
    * Le type d’enregistrement reste dans tous les autres espaces de travail où il a été ajouté.
-   * Les enregistrements <!--and fields--> ajoutés au type d’enregistrement de l’espace de travail actuel sont supprimés. Tous les autres enregistrements ajoutés à partir d’espaces de travail supplémentaires où le type d’enregistrement global a été ajouté sont conservés dans leurs espaces de travail respectifs et dans l’espace de travail d’origine. &lt;!: les champs sont conservés dans les espaces de travail où ils ont été ajoutés.
+   * Les enregistrements <!--and fields--> ajoutés au type d’enregistrement de l’espace de travail secondaire sont supprimés. Tous les autres enregistrements ajoutés à partir d’espaces de travail supplémentaires où le type d’enregistrement global a été ajouté sont conservés dans leurs espaces de travail respectifs et dans l’espace de travail d’origine. &lt;!: les champs sont conservés dans les espaces de travail où ils ont été ajoutés.
 
-</div>
+

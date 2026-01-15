@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1841'
 ht-degree: 16%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 16%
 
 <!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -171,7 +171,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
   >[!NOTE]
   >
-  ><span class="preview">Vous ne pouvez pas partager publiquement une vue à partir d’un type d’enregistrement global dans un espace de travail secondaire. Pour plus d’informations, voir [Ajouter des types d’enregistrements existants à partir d’un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).</span>
+  >Vous ne pouvez pas partager une vue publiquement à partir d’un type d’enregistrement global dans un espace de travail secondaire. Pour plus d’informations, voir [Ajouter des types d’enregistrements existants depuis un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 
 * Les personnes extérieures à votre organisation qui ont accès à une vue ne peuvent pas créer d&#39;autres vues, modifier la vue partagée ou ajouter, supprimer ou modifier des informations d&#39;enregistrement dans la vue.
@@ -243,7 +243,7 @@ Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous dis
 
 Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous disposez d’autorisations de niveau Gérer avec des personnes qui ne disposent pas d’une licence Workfront et qui sont susceptibles d’être externes à votre organisation.
 
-<span class="preview">Vous ne pouvez pas partager une vue publiquement à partir d’un type d’enregistrement global dans son espace de travail secondaire. </span>
+Vous ne pouvez pas partager une vue publiquement à partir d’un type d’enregistrement global dans son espace de travail secondaire.
 
 >[!IMPORTANT]
 >
@@ -277,7 +277,7 @@ Pour partager une vue publiquement dans Workfront Planning :
 
    >[!TIP]
    >
-   ><span class="preview">L’onglet **Partage public** est supprimé pour un type d’enregistrement global dans son espace de travail secondaire.</span>
+   >L’onglet **Partage public** est supprimé pour un type d’enregistrement global dans son espace de travail secondaire.
 
 
 1. Cliquez sur l’icône **Copier le lien** ![Copier la vue du lien](assets/copy-link-view.png) pour copier le lien dans le presse-papiers.
@@ -330,9 +330,9 @@ Les utilisateurs et utilisatrices qui accèdent à un lien vers une vue pour laq
 1. (Conditionnel) Si vous êtes le responsable d&#39;une vue, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les domaines suivants :
 
    * Une notification in-app
-     ![&#x200B; Notification in-app pour la demande d’accès à la vue &#x200B;](assets/in-app-notification-for-access-request-for-view.png)
+     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
    * Notification par e-mail
-     ![&#x200B; Notification in-app pour la demande d’accès à la vue &#x200B;](assets/in-app-notification-for-access-request-for-view.png)
+     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou
 Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications**, puis cliquez sur la notification dans la liste.
