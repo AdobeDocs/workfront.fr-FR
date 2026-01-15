@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 91%
+source-wordcount: '1603'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 >
 >La procédure décrite sur cette page ne s’applique qu’aux entreprise qui n’ont pas encore été intégrées à l’Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
 >
->Pour configurer votre liste autorisée si votre organisation a été intégrée à Adobe Admin Console, consultez la section [Domaines autorisés pour les applications et services d’Adobe](https://helpx.adobe.com/fr/enterprise/kb/network-endpoints.html).
+>Pour configurer votre liste autorisée si votre organisation a été intégrée à Adobe Admin Console, consultez la section [Domaines autorisés pour les applications et services d’Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à Adobe Admin Console, consultez la section [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -124,13 +124,16 @@ Si votre environnement de production se trouve sur le cluster 1, 2, 3, 5, 7, 8 o
      <li>35.161.82.137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54.71.252.65</li> 
-    </ul> <p>Pour plus d’informations sur les adresses IP suivantes, voir <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nouvelles adresses IP pour les e-mails Adobe Workfront avec la version 21.1</a>.</p> 
-    <ul> 
+     <li>54.71.252.65</li>
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
      <li>23.251.237.109</li> 
      <li>23.251.237.106</li> 
+     <li>206.55.149.212</li>
+     <li>206.55.149.214</li>
+     <li>206.55.149.215</li>
+     <li>206.55.149.213</li>
+     <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -161,11 +164,10 @@ Si votre environnement de production se trouve sur le cluster 4, ajoutez les ad
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-
-Pour plus d’informations sur les adresses IP suivantes, voir [Nouvelles adresses IP pour les e-mails Adobe Workfront avec la version 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
-
 * 23.251.239.98
 * 23.251.239.99
+* 24.110.76.224
+* 24.110.76.223
 
 ### Adresses IP à autoriser pour le cluster 6 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -187,6 +189,11 @@ Si votre environnement de production se trouve sur le cluster 6, ajoutez les ad
      <li>34.66.82.65</li> 
      <li>34.66.82.66</li> 
      <li>34.66.82.67</li> 
+    <li>206.55.149.212</li>
+   <li>206.55.149.214</li>
+   <li>206.55.149.215</li>
+   <li>206.55.149.213</li>
+   <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -220,6 +227,13 @@ Si votre environnement de production se trouve sur le cluster 6, ajoutez les ad
 * 20.36.133.48/28
 * 20.81.156.240/28
 * 172.172.84.48/28
+
+### Adresses IP à autoriser pour le cluster 11
+
+Pour recevoir un e-mail de l’application Workfront sur le cluster 11, ajoutez les adresses IP suivantes :
+
+* 24.110.76.224
+* 24.110.76.223
 
 ### Adresses IP pour autoriser un lecteur de test
 
