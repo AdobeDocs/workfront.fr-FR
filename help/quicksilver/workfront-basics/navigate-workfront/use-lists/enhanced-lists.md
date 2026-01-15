@@ -85,7 +85,7 @@ Selon la configuration de la liste améliorée, il peut y avoir deux façons d�
 
 Pour modifier un élément de la liste, double-cliquez dans la cellule à modifier et tapez les informations. Certaines cellules peuvent être en lecture seule.
 
-![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
+![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
 
 ## Utiliser la barre d’actions et le menu Plus dans une liste améliorée
 
@@ -103,7 +103,7 @@ La barre d’actions affiche les actions que vous pouvez effectuer sur un élém
 
    Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
+   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
 
 1. Pointez sur un champ principal d’un élément de liste pour afficher le menu **Plus**. (Le champ principal est la colonne située le plus à gauche du tableau.)
 
@@ -164,7 +164,7 @@ Pour créer une vue :
 
 1. Cliquez sur la liste déroulante **Vues** et sélectionnez **Nouvelle vue**.
 1. Attribuez un nom à la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
 1. (Facultatif) Filtrez et regroupez les éléments de liste. Pour plus d’informations, voir [Filtrer et regrouper des éléments dans une liste améliorée](#filter-and-group-items-in-an-enhanced-list).
 
    Les modifications apportées aux vues sont enregistrées automatiquement et sont visibles par toute personne utilisant la vue.
