@@ -4,10 +4,10 @@ description: Autres améliorations apportées au cours de la période de publica
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
+source-git-commit: d3db97d2b36bdba955d8cbf6a9bd784dff5a440c
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 35%
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 35%
 
 Cette page décrit les améliorations apportées à l’environnement de Prévisualisation avec la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2025, voir [Présentation de la version du premier trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2026, consultez l’article [Vue d’ensemble de la version du premier trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 
 ## Limites de sélection sur les champs à sélection multiple
@@ -38,8 +38,8 @@ Pour plus d’informations, voir [Modifier les informations dans les champs de f
 >[!NOTE]
 >
 >Aperçu : 11 décembre 2025
->Version rapide de production : 15 janvier 2026\
->Production pour tous : 15 janvier 2026
+>Version rapide de production : 11 février 2026\
+>Production pour tous : 11 février 2026
 
 Pour permettre aux entreprises d’accéder aux avantages de l’expérience unifiée Adobe, nous continuons à la rendre disponible pour les clients Workfront existants.
 
