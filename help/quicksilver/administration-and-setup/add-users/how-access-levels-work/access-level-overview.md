@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 91%
+source-wordcount: '1749'
+ht-degree: 89%
 
 ---
 
@@ -117,7 +117,7 @@ Attaché à la licence Light, ce niveau d’accès est conçu pour les utilisate
 * Afficher tous les éléments et mises à jour liés au travail
 * Approuver les projets, les tâches et les problèmes
 * Afficher des tableaux de bord et des rapports
-* Suivre les heures pour les tâches et les événements et approuver les feuilles de temps
+* Suivre les heures des projets, tâches et événements et approuver les feuilles de temps
 * Créer et gérer des problèmes
 
 Ce qui suit est vrai pour les utilisateurs et utilisatrices avec le niveau d’accès Light :
@@ -125,6 +125,7 @@ Ce qui suit est vrai pour les utilisateurs et utilisatrices avec le niveau d’a
 * Ils peuvent se voir attribuer des tâches, mais ne peuvent pas les terminer.
 * Ils peuvent accéder aux demandes et aux documents dans le menu principal.
 * ont une capacité limitée de créer des objets, elles ne peuvent pas créer de projets, de portfolios, de programmes ou de rapports.
+* Ne peut enregistrer le temps au niveau du projet que lorsque l’accès en modification est activé. Ils ne peuvent pas créer, modifier, supprimer ni partager des projets.
 
 >[!NOTE]
 >
@@ -151,8 +152,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
   <tr> 
    <td>Projets</td> 
    <td> </td> 
-   <td>✓</td> 
    <td> </td> 
+   <td>✓ (pour la journalisation du temps au niveau du projet)</td> 
   </tr> 
   <tr> 
    <td>Tâches</td> 
@@ -330,7 +331,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Programmes | ✓ |   |   |
 | Rapports (y compris les tableaux de bord et les rapports de calendrier) |   | ✓ (uniquement pour les rapports de calendrier ; pas de possibilité de partager des rapports) |   |
 | Filtres, vues et regroupements | ✓ |   |   |
-| Document |   | ✓ (pas de possibilité de partager des documents) |   |
+| Document |   | ✓ (pas de possibilité de partager des documents) |   |
 | l’utilisateur ou de l’utilisatrice |   | ✓ |   |
 | Équipes | ✓ |   |   |
 | Modèles | ✓ |   |   |
