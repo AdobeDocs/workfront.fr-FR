@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1440'
 ht-degree: 47%
 
 ---
@@ -19,21 +19,14 @@ ht-degree: 47%
 
 Vous pouvez afficher les demandes que vous ou une autre personne avez envoyées, ou les demandes que vous avez commencées mais que vous n’avez jamais terminées. Vous pouvez localiser ces demandes dans les zones suivantes d’Adobe Workfront :
 
-* L’onglet **Workfront** de la zone Demandes de Workfront : affichez les demandes envoyées aux files d’attente des demandes de Workfront dans les sections suivantes :
-   * **Section Envoyées** : toutes les demandes que vous ou une autre personne avez envoyées et auxquelles vous avez accès à au moins en affichage.
-   * **Section Brouillon** : toutes les demandes que vous avez commencées mais que vous n’avez jamais terminées et que vous n’avez jamais envoyées. Pour plus d’informations sur les brouillons des demandes, voir [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* La zone des Demandes de Workfront
+* Le widget Mes requêtes dans l’Accueil
 
   >[!NOTE]
   >
   >* Vous pouvez uniquement afficher vos propres brouillons de demandes.
   >* Dans la nouvelle expérience de demande, les demandes envoyées et les brouillons se trouvent dans la même liste.
   >* Les brouillons créés dans l’expérience héritée n’apparaissent pas dans la nouvelle expérience Demande.
-
-* L’onglet **Planning** de la zone des Demandes dans Workfront : permet d’afficher les demandes envoyées aux formulaires de demande Workfront Planning. Votre entreprise doit acheter un package Workfront Planning. Pour plus d’informations, voir les articles suivants :
-
-   * [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
-   * [Envoi de requêtes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
-
 
 ## Conditions d’accès
 

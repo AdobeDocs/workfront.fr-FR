@@ -5,9 +5,9 @@ title: Créer et gérer des vues dans la zone des Demandes
 description: Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes.
 author: Becky
 feature: Work Management
-source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '693'
 ht-degree: 7%
 
 ---
@@ -93,15 +93,7 @@ Vous pouvez modifier les vues existantes, y compris les vues que vous venez de c
    >Vous ne pouvez actuellement pas ajouter de colonnes dans l’environnement de production.
 1. (Facultatif) Cliquez sur **Colonnes** et masquez, affichez ou réorganisez les colonnes de la liste des demandes.
 
-   ![Zone Colonnes](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >Actuellement, vous ne pouvez plus ajouter de colonne dans l’environnement de production.
-
-1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez afficher dans l’onglet Planification.
-
-   ![Modification de filtres dans l&#39;onglet Demandes Planning](assets/filters-editing-box-in-requests-planning-tab.png)
+1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez afficher.
 
    Vous pouvez filtrer selon les champs suivants :
 
