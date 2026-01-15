@@ -5,10 +5,10 @@ description: Les listes améliorées utilisent un format de tableau pour affiche
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
+source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 6%
+source-wordcount: '1620'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ Pour plus d’informations sur les listes standard, voir [Prise en main des list
  <col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -85,27 +85,31 @@ Selon la configuration de la liste améliorée, il peut y avoir deux façons d�
 
 Pour modifier un élément de la liste, double-cliquez dans la cellule à modifier et tapez les informations. Certaines cellules peuvent être en lecture seule.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
 ## Utiliser la barre d’actions et le menu Plus dans une liste améliorée
 
-Lorsque vous cochez une case en regard d’un élément de la liste améliorée, la barre d’actions s’affiche en bas de l’écran et indique les actions que vous pouvez effectuer sur l’élément. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
+La barre d’actions affiche les actions que vous pouvez effectuer sur un élément de liste. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
 
->[!NOTE]
->
->Différentes listes améliorées peuvent permettre de sélectionner un seul élément, de modifier en bloc (en sélectionnant plusieurs éléments) ou de ne pas sélectionner d’élément.
+1. Cochez la case en regard d’un élément de la liste améliorée.
 
-Cliquez sur un bouton de la barre d’actions pour effectuer cette action, par exemple afficher l’élément de liste, le supprimer ou le modifier.
+   La barre d’actions s’affiche en bas de l’écran.
 
-Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
+   >[!NOTE]
+   >
+   >Différentes listes améliorées peuvent permettre de sélectionner un seul élément, de modifier en bloc (en sélectionnant plusieurs éléments) ou de ne pas sélectionner d’élément.
 
-![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
+1. Cliquez sur un bouton de la barre d’actions pour effectuer cette action, par exemple afficher l’élément de liste, le supprimer ou le modifier.
 
-Le menu **Plus** est le menu à trois points qui s’affiche en regard d’un champ principal d’un élément de liste lorsque vous le survolez avec votre souris. (Le champ principal est la colonne située le plus à gauche du tableau.)
+   Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-Cliquez sur le menu pour afficher les actions supplémentaires pour l’élément. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
+   ![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
 
-![Exemple de menu Plus](assets/glist-more-menu-priorities.png)
+1. Pointez sur un champ principal d’un élément de liste pour afficher le menu **Plus**. (Le champ principal est la colonne située le plus à gauche du tableau.)
+
+1. Cliquez sur le menu pour afficher les actions supplémentaires pour l’élément. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
+
+   ![Exemple de menu Plus](assets/glist-more-menu-priorities.png)
 
 ## Personnalisation des colonnes d’une liste améliorée
 
@@ -128,9 +132,31 @@ Certaines listes améliorées vous permettent de masquer et d’afficher des col
 
    ![Indicateur des colonnes masquées](assets/glist-columns-hidden-indicator.png)
 
-## Application d’une vue à une liste améliorée
+## Ajout et suppression de colonnes dans une liste à l’aide du gestionnaire de colonnes
+
+Certaines listes améliorées offrent le **Gestionnaire de colonnes** qui vous permet d’ajouter facilement des colonnes à la liste et de supprimer des colonnes. Les champs natifs et personnalisés sont tous deux disponibles pour être sélectionnés en tant que colonnes. Les champs personnalisés doivent exister dans le système avant de pouvoir les ajouter en tant que colonnes de liste.
+
+Pour ajouter et supprimer des colonnes :
+
+1. Cliquez sur l’icône + en haut à droite du tableau pour ouvrir la zone **Gestionnaire de colonnes**.
+1. Recherchez un champ d’objet existant dans la colonne **Disponible**, puis cliquez sur + à droite du nom du champ pour l’ajouter à la colonne **Sélectionné**.
+1. Cliquez sur - à droite d’un champ de la colonne **Sélectionné** pour le supprimer de la liste.
+
+   >[!NOTE]
+   >
+   >Certains champs peuvent être corrigés et ne peuvent pas être supprimés.
+
+1. Cliquer sur **Enregistrer**.
+
+   ![Gestionnaire de colonnes](assets/glist-column-manager.png)
+
+<!-- Add info about Properties and KPIs when something gets released with those options -->
+
+## Affichage des données avec des vues dans une liste améliorée
 
 Une vue est un ensemble personnalisé de dispositions de colonnes et de filtres que vous pouvez appliquer à une liste. Vous pouvez créer des vues et modifier des vues existantes.
+
+### Application et création de vues
 
 Pour appliquer une vue, cliquez sur la liste déroulante **Vues** et sélectionnez la vue à appliquer à la liste.
 
@@ -138,12 +164,33 @@ Pour créer une vue :
 
 1. Cliquez sur la liste déroulante **Vues** et sélectionnez **Nouvelle vue**.
 1. Attribuez un nom à la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
 1. (Facultatif) Filtrez et regroupez les éléments de liste. Pour plus d’informations, voir [Filtrer et regrouper des éléments dans une liste améliorée](#filter-and-group-items-in-an-enhanced-list).
 
    Les modifications apportées aux vues sont enregistrées automatiquement et sont visibles par toute personne utilisant la vue.
 
    La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
+
+### Partager une vue
+
+Dans la liste déroulante **Vues**, vous pouvez voir trois catégories de vues :
+
+* **Vues système** : vues que l&#39;administrateur système vous a affectées.
+* **Vues partagées** : vues qui ont été partagées avec vous par d&#39;autres utilisateurs.
+* **Mes vues** : vues que vous avez créées et que vous pouvez partager avec d’autres utilisateurs. Vous pouvez partager des vues avec d’autres utilisateurs, équipes ou groupes.
+
+Pour partager une vue :
+
+1. Dans la liste déroulante **Vues**, passez la souris sur la vue de **Mes vues** que vous souhaitez partager, puis cliquez sur le menu à trois points lorsqu’il s’affiche.
+1. Sélectionnez **Partager**.
+1. Dans la boîte de dialogue Partager, saisissez les noms des utilisateurs, des équipes ou des groupes avec lesquels vous souhaitez partager la vue, puis sélectionnez-les dans la liste lorsqu’ils apparaissent.
+
+   Vous pouvez accorder les autorisations suivantes aux destinataires :
+
+   * **Affichage** : les utilisateurs et utilisatrices peuvent appliquer l’affichage à la liste, mais pas le partager.
+   * **Gérer** : les utilisateurs et utilisatrices peuvent renommer la vue, la partager avec d’autres personnes et la supprimer.
+
+1. Cliquer sur **Enregistrer**.
 
 ## Filtrer et regrouper des éléments dans une liste améliorée
 
@@ -160,6 +207,10 @@ Les filtres vous aident à réduire la quantité d’informations que vous affic
    ![Filtrer dans des listes améliorées](assets/glist-filter-with-options.png)
 
    Le filtre est automatiquement appliqué à la liste.
+
+   >[!TIP]
+   >
+   >Pour appliquer un caractère générique à l’utilisateur actuel, sélectionnez **Moi (utilisateur connecté)** comme valeur du champ. Le filtre s’applique alors à l’utilisateur ou l’utilisatrice qui consulte la liste. Ce caractère générique est disponible dans les champs où la valeur est un utilisateur.
 
 1. Cliquez sur **Ajouter une condition** pour ajouter une autre condition au filtre sous la forme d’une instruction OR.
 1. Lorsque le filtre est appliqué, vous pouvez ouvrir à nouveau les options **Filtre** pour modifier les options de filtre ou effacer tous les filtres.
@@ -185,18 +236,26 @@ Les filtres vous aident à réduire la quantité d’informations que vous affic
 
 ## Tri et recherche dans une liste améliorée
 
-Pour trier des colonnes individuelles, accédez à la colonne et cliquez sur la flèche vers le bas. Une icône en regard d’un nom de colonne indique que la liste est triée en fonction des valeurs de cette colonne et du sens du tri.
+Pour trier des colonnes individuelles :
 
->[!NOTE]
->
->Certaines colonnes ne peuvent pas être triées.
+1. Accédez à la colonne et cliquez sur la flèche vers le bas.
 
-![Trier par colonne](assets/glist-sort-by-column.png)
+   Une icône en regard d’un nom de colonne indique que la liste est triée en fonction des valeurs de cette colonne et du sens du tri.
 
-Pour trier votre travail au sein d’un regroupement, ouvrez **Groupe** et choisissez si vous souhaitez effectuer un tri par ordre croissant ou décroissant.
+   >[!NOTE]
+   >
+   >Selon la liste, certaines colonnes peuvent ne pas être triables.
 
-![Trier dans un regroupement](assets/sort-in-groups.png)
+   ![Trier par colonne](assets/glist-sort-by-column.png)
 
-Pour effectuer une recherche, saisissez le terme à rechercher dans le champ de recherche situé au-dessus de la liste. Les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous saisissez.
+Pour trier votre travail dans un regroupement :
 
-![Terme de recherche mis en surbrillance](assets/glist-search-highlighted.png)
+1. Cliquez sur **Grouper** et choisissez si vous souhaitez effectuer un tri par ordre croissant ou décroissant.
+
+   ![Trier dans un regroupement](assets/sort-in-groups.png)
+
+Pour effectuer une recherche :
+
+1. Saisissez le terme à rechercher dans le champ de recherche situé au-dessus de la liste. Les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous saisissez.
+
+   ![Terme de recherche mis en surbrillance](assets/glist-search-highlighted.png)
