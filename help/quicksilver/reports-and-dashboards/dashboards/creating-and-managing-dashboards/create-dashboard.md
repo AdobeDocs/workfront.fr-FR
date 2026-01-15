@@ -6,19 +6,16 @@ description: Vous pouvez créer des tableaux de bord pour accéder rapidement au
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 80%
+source-wordcount: '494'
+ht-degree: 84%
 
 ---
 
 # Créer un tableau de bord
 
 <!--Audited: 01/2025-->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour les clientes et les clients.</span>
-
 
 Vous pouvez créer des tableaux de bord pour accéder rapidement aux informations dans Adobe Workfront. Vous pouvez ajouter jusqu’à 25 rapports, calendriers et pages externes aux tableaux de bord afin de les partager avec d’autres personnes pour une collaboration optimale.
 
@@ -88,11 +85,6 @@ Vous pouvez ajouter des pages externes existantes à un tableau de bord ou en cr
      <tr>
       <td role="rowheader"><strong>Description (facultative)</strong></td>
       <td>Il s’agit d’une description de votre tableau de bord.</td>
-     </tr>
-      <tr>
-      <td role="rowheader"><strong>Devise</strong></td>
-      <td><span class="preview">Il s’agit du type de devise par défaut pour le tableau de bord. <br>
-      <br>Les utilisateurs peuvent basculer entre différents types de devise lors du filtrage du tableau de bord. Pour plus d’informations, voir <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrer un tableau de bord par type de devise</a>.</span></td>
      </tr>
     </tbody>
    </table>

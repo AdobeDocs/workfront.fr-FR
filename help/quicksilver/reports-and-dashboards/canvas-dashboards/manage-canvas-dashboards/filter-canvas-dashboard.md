@@ -6,16 +6,14 @@ description: Vous pouvez appliquer un filtre à un tableau de bord de la zone de
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 10%
+source-wordcount: '989'
+ht-degree: 7%
 
 ---
 
 # Filtrer un tableau de bord de zone de travail
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour les clientes et les clients.</span>
 
 >[!IMPORTANT]
 >
@@ -180,7 +178,6 @@ Tous les utilisateurs ayant accès à un tableau de bord peuvent appliquer une i
 
 1. Cliquez sur l’icône **Fermer** ![Icône Fermer](assets/close-icon.png) dans le coin supérieur droit pour masquer le panneau.
 
-<span class="preview">
 
 ## Filtrer un tableau de bord par type de devise
 
@@ -196,5 +193,3 @@ Pour modifier le type de devise du tableau de bord :
 1. Sélectionnez le type de devise souhaité dans la liste.
 
    ![liste déroulante modifier la devise](assets/filter-by-currency.png)
-
-</span>

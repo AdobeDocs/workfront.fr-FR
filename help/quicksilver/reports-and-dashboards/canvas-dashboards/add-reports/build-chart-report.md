@@ -6,16 +6,14 @@ description: Vous pouvez ajouter à un tableau de bord de la zone de travail un 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 56af1b6c8e4ae7bb990288d9e6a4326ffd18c2c9
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1838'
-ht-degree: 6%
+source-wordcount: '1814'
+ht-degree: 5%
 
 ---
 
 # Créer un rapport de graphique dans un tableau de bord de zones de travail
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour les clientes et les clients.</span>
 
 >[!IMPORTANT]
 >
@@ -122,9 +120,9 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 
 1. Dans la section **Axe inférieur (X)**, sélectionnez le **Champ de mise à jour**, puis recherchez et sélectionnez le champ contenant les données qui seront résumées dans le graphique.
 1. Dans la liste déroulante **Type d’agrégation**, sélectionnez la manière dont les données sont cumulées pour produire la sortie du graphique.
-1. <span class="preview">(Facultatif) Ajoutez un libellé d’axe dans l’espace fourni.</span>
-1. <span class="preview"> (Facultatif) Activez/désactivez le bouton (bascule) **Masquer l’axe**. </span>
-1. <span class="preview">(Facultatif) Saisissez une **valeur de ligne de référence** pour définir une cible ou un seuil sur le graphique.</span>
+1. (Facultatif) Ajoutez un libellé d’axe dans l’espace fourni.
+1. (Facultatif) Activez le bouton (bascule) **Masquer l’axe**.
+1. (Facultatif) Saisissez une **valeur de ligne de référence** pour définir une cible ou un seuil sur le graphique.
 1. Choisissez un **Type de ligne** dans le menu déroulant.
 1. Sélectionnez le bouton **Mettre à jour le champ** sous la deuxième section, puis recherchez et sélectionnez le deuxième champ à afficher dans le graphique.
 
@@ -142,8 +140,8 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 1. Dans la section **Mesure**, sélectionnez le **Champ de mise à jour**, puis recherchez et sélectionnez le champ qui contient les données qui seront résumées dans le graphique.
 1. Dans la liste déroulante **Type d’agrégation**, sélectionnez la manière dont les données sont cumulées pour produire la sortie du graphique.
 1. Dans la section **Segment**, sélectionnez le champ **Mettre à jour**, puis recherchez et sélectionnez le champ contenant les segments à afficher dans le graphique en secteurs.
-1. <span class="preview"> (facultatif) Dans la section **circulaire**, activez l’option **Afficher les libellés de segment** pour afficher les libellés de segment.</span>
-1. <span class="preview"> (Facultatif) Activez le bouton (bascule) **Afficher le total** pour afficher le total au milieu du graphique. Lorsque cette option est activée, il existe d’autres options pour afficher un libellé central et choisir le format de la valeur.</span>
+1. (Facultatif) Dans la section **circulaire**, activez l’option **Afficher les libellés de segment** pour afficher les libellés de segment.
+1. (Facultatif) Activez le bouton **Afficher le total** pour afficher le total au milieu du graphique. Lorsque cette option est activée, il existe d’autres options pour afficher un libellé central et choisir le format de la valeur.
 
 >[!NOTE]
 >
@@ -153,9 +151,9 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 >* Types d’agrégation des sommes : la valeur centrale affichée est le total agrégé de la valeur numérique ou monétaire.
 >* Types d’agrégation Moyenne, Max et Min : la valeur centrale affiche la valeur moyenne, maximale ou minimale en conséquence.
 
-1. <span class="preview">(Facultatif) Dans la section Légende, activez l’option **Afficher la légende** pour afficher la légende du graphique.</span>
+1. (Facultatif) Dans la section Légende, activez l’option **Afficher la légende** pour afficher la légende du graphique.
 
-1. <span class="preview"> (Facultatif) Choisissez une **Position de la légende** dans le menu déroulant.</span>
+1. (Facultatif) Choisissez une **Position de la légende** dans le menu déroulant.
 
 ## Configurer des paramètres de rapport de graphique supplémentaires
 
@@ -163,7 +161,7 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 
 Pour configurer la section **Filtre**, procédez comme suit :
 
-1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**![&#x200B; Filtrer](assets/filter-icon.png).
+1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**![ Filtrer](assets/filter-icon.png).
 1. Sélectionnez **Modifier le filtre**.
 1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre.
 1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
