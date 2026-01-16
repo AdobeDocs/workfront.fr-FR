@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1523'
 ht-degree: 93%
 
 ---
@@ -236,7 +236,7 @@ Le système génère une entrée de journal d’audit Groupe lorsqu’un utilisa
    * Ajoute ou supprime des utilisateurs et utilisatrices.
    * Ajoute ou supprime des sous-groupes.
 
-### s {#job-role}
+### Fonctions {#job-role}
 
 Le système génère une entrée de journal d’audit Fonctions lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
 

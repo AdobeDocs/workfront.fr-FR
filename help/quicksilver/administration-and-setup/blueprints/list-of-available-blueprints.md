@@ -8,9 +8,9 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a31b6f9af4682c64da9e5a887f2bd2e13f259ce3
+source-git-commit: 08305c9e82b7ba56a1a03fa351e643916bbfe44e
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2143'
 ht-degree: 77%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 77%
 
 Les plans directeurs [!DNL Adobe Workfront] suivants peuvent être installés par les administrateurs et administratrices système. Pour plus d’informations sur les plans directeurs, voir [Vue d’ensemble des plans directeurs](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
-[!BADGE Nouveau.]{type=Informative} **[!UICONTROL Rapports d’analyse des utilisateurs actifs]**
+**[!UICONTROL Rapports d’analyse des utilisateurs actifs]**
 Ce plan directeur contient un tableau de bord pour aider les administrateurs et administratrices à valider la configuration utilisateur, à identifier les désalignements et à s’assurer que les configurations prennent en charge l’utilisation prévue des applications&#x200B;
 
 **[!UICONTROL Ajouter une nouvelle liste de contrôle informatique du personnel]**
@@ -30,7 +30,7 @@ Ce plan directeur contient un modèle que l’organisation des services professi
 **[!UICONTROL Planification budgétaire annuelle]**
 Ce plan directeur contient un modèle que l’organisation des services professionnels [!DNL Workfront] a utilisé pendant des années durant les engagements de mise en œuvre avec les équipes des finances pour organiser les activités liées à la planification budgétaire annuelle. Le modèle permet de définir les attentes avec les cheffes et chefs des unités opérationnelles et de les guider tout au long du processus de demande et de réservation de budgets pendant le processus de planification annuelle.
 
-[!BADGE Nouveau.]{type=Informative} **[!UICONTROL Tableau de bord de référence]**
+**[!UICONTROL Tableau de bord de référence]**
 Ce plan directeur contient un tableau de bord pour vous aider à prendre des décisions de projet plus intelligentes et plus rapides. Les références vous permettent de comparer ce qui était prévu et ce qui s’est passé, ce qui vous permet de repérer les tâches problématiques, le dérapage de la portée et les tendances du projet en un coup d’œil. Le tableau de bord de ligne de base comprend les rapports suivants : ligne de base | Projets en cours, niveau de référence | Projets terminés, niveau de référence | Tâches en cours et niveau de référence | Tâches terminées.
 
 **[!UICONTROL Plan de prestation des services contractuels]**
