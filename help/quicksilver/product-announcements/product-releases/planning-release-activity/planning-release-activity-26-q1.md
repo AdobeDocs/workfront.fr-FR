@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: bbb0399787938033886807d0372e9958ce2fcc00
+source-git-commit: d60123df6e18025a886809fa390137bdf9287e6e
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2014'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >Aperçu : 15 janvier 2026
 >Version rapide de production : 15 janvier 2026
 >Production pour tous : 15 janvier 2026
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>[!BADGE Hors programme ]{type=Neutral}
 
 Vous pouvez désormais partager les types d’enregistrements globaux que vous avez ajoutés à un espace de travail secondaire à partir de cet espace de travail. Les utilisateurs recevront également les mêmes autorisations pour tous les enregistrements de l’espace de travail secondaire que vous partagez.
 
@@ -49,7 +49,7 @@ Pour plus d’informations, voir [Présentation du type d’enregistrement de l�
 >Aperçu : 15 janvier 2026
 >Version rapide de production : 15 janvier 2026
 >Production pour tous : 15 janvier 2026
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>[!BADGE Hors programme ]{type=Neutral}
 
 Les enregistrements ajoutés à un type d&#39;enregistrement global dans un espace de travail secondaire sont visibles uniquement à partir de cet espace de travail ou de l&#39;espace de travail principal d&#39;origine du type d&#39;enregistrement. Avant cette mise à jour, les enregistrements ajoutés à un espace de travail secondaire étaient également visibles à partir d’autres espaces de travail secondaires que vous pouviez avoir l’autorisation d’afficher.
 
@@ -77,7 +77,7 @@ Tenez compte des points suivants lors de la création de hiérarchies :
 * Les types d&#39;enregistrements connectables ne peuvent pas être utilisés dans les hiérarchies des espaces de travail autres que les leurs.
 * Les types d’enregistrements globaux ne peuvent être utilisés dans les hiérarchies que dans les espaces de travail dans lesquels ils ont été créés ou auxquels ils ont été ajoutés.
 
-Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Nouveaux chemins de navigation unifiés ajoutés aux pages des enregistrements
 
@@ -93,7 +93,7 @@ Les chemins de navigation des enregistrements reflètent leur place dans une hi�
 
 Par exemple, vous pouvez afficher la hiérarchie Planning d&#39;un projet lorsqu&#39;il est connecté à des types d&#39;enregistrements Planning dans son chemin de navigation Planning, et sa hiérarchie Workfront lorsqu&#39;il est connecté à des types d&#39;objets Workfront, tels que Portfolios ou Programmes, dans Workfront.
 
-Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 
 ## Améliorations apportées aux pages d’enregistrements connectés
@@ -144,6 +144,10 @@ Pour plus d&#39;informations sur la configuration des vues de connexion au proje
 
 ## Améliorations de la page principale de Workspace
 
+>[!IMPORTANT]
+>
+>Ce élément a été temporairement supprimé des environnements de prévisualisation et de production.
+
 >[!NOTE]
 >
 >Aperçu : 18 décembre 2025
@@ -168,7 +172,7 @@ Pour plus d’informations, voir [Modifier les espaces de travail](/help/quicksi
 >Aperçu : 11 décembre 2025
 >Version rapide de production : 11 décembre 2025
 >Production pour tous : 11 décembre 2025
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>[!BADGE Hors programme ]{type=Neutral}
 
 Le champ de connexion avec la marque GenStudio for Performance Marketing est désormais ajouté par défaut aux types d’enregistrements Produits et Personnes dans l’espace de travail GenStudio de Workfront Planning.
 
@@ -185,7 +189,7 @@ Pour plus d’informations, voir [Prise en main de l’intégration d’Adobe Wo
 >Aperçu : 11 décembre 2025
 >Version rapide de production : 11 décembre 2025
 >Production pour tous : 11 décembre 2025
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>[!BADGE Hors programme ]{type=Neutral}
 
 Nous avons ajouté un mécanisme de sécurisation qui vous empêche de supprimer les autorisations des utilisateurs de GenStudio for Performance Marketing des objets Workfront Planning. Grâce à cette amélioration, vous ne pouvez plus supprimer les utilisateurs de GenStudio de l’espace de travail GenStudio dans Planning. Vous ne pouvez pas non plus désactiver les autorisations héritées pour les types d’enregistrements dans l’espace de travail GenStudio, si ces autorisations incluent les utilisateurs de GenStudio. Avant cette amélioration, lorsque vous supprimiez ces utilisateurs de l’espace de travail GenStudio dans Planning, ils perdaient également les autorisations pour les types d’enregistrements dans GenStudio.
 
