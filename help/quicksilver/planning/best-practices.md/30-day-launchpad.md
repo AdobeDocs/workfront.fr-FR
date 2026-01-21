@@ -1,15 +1,15 @@
 ---
 title: 'Le Launchpad De 30 Jours : Déploiement De Votre Page D’Accueil Stratégique'
-description: Découvrez comment déployer Workfront Planning (WFP) à l’aide d’une stratégie qui donne la priorité à la sécurité psychologique, réduit les perturbations et offre des gains rapides.
+description: Découvrez comment déployer Workfront Planning à l’aide d’une stratégie qui donne la priorité à la sécurité psychologique, réduit les perturbations et offre des gains rapides.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Objectif
 
-Découvrez comment déployer Workfront Planning (WFP) à l’aide d’une stratégie qui donne la priorité à la sécurité psychologique, réduit les perturbations et offre des gains rapides.
+Découvrez comment déployer Workfront Planning à l’aide d’une stratégie qui donne la priorité à la sécurité psychologique, réduit les perturbations et offre des gains rapides.
 
 
 
@@ -48,9 +48,9 @@ Pour activer ce changement évolutionnaire, choisissez une équipe pilote prête
 
 
 
-* **La voie parallèle (double suivi) :** l’équipe maintient son workflow actuel tout en modélisant simultanément son prochain cycle de planification au PAM. Cela permet de construire la « mémoire musculaire » et la confiance sans le risque d&#39;un seul point de défaillance.
+* **Le chemin parallèle (double suivi) :** l’équipe conserve son workflow actuel tout en modélisant simultanément son prochain cycle de planification dans Workfront Planning. Cela permet de construire la « mémoire musculaire » et la confiance sans le risque d&#39;un seul point de défaillance.
 
-* **La rupture nette :** après un exercice de conception initial à l&#39;aide de données d&#39;exemple pour valider le modèle, l&#39;équipe transfère directement son point de départ de planification « en direct » au PAM pour son cycle suivant.
+* **La rupture nette :** après un exercice de conception initial utilisant des données d’exemple pour valider le modèle, l’équipe déplace son point de départ de planification « en direct » directement dans Workfront Planning pour son cycle suivant.
 
 
 
@@ -82,7 +82,7 @@ Cette architecture **Équipe d’abord** vous permet d’effectuer les opératio
 
 * **Connecter la stratégie au travail :** activer le lien entre vos enregistrements de planification et le module de workflow.
 
-* **Refléter les données actuelles :** utilisez les outils existants de l&#39;équipe (Excel/Core) pour renseigner le PAM, en veillant à ce que les données soient familières et pertinentes.
+* **Mettre en miroir les données actuelles :** utilisez les outils existants de l’équipe (Excel/Core) pour renseigner Workfront Planning, en vous assurant que les données semblent familières et pertinentes.
 
 * **Conçu pour être flexible :** souvenez-vous que Workfront Planning est conçu pour évoluer. Vous pouvez commencer par des processus au niveau de l’équipe et les élever facilement ou les migrer vers une gouvernance au niveau de l’entreprise lorsque l’entreprise est prête.
 
@@ -102,7 +102,7 @@ Visez votre première victoire majeure d’ici le 15e jour : **création de proj
 
 ### Jours 16 à 30 : transition progressive vers l’échelle de l’entreprise
 
-Une fois le « moment de l&#39;éclair » atteint, déplacez le point de départ de l&#39;équipe vers le PAM. À mesure que ce modèle **Équipe d’abord** réussit, vous entamez le chemin vers l’**échelle de l’entreprise** en identifiant les modèles qui fonctionnent.
+Une fois le « moment de l’éclair » atteint, déplacez le point de départ de l’équipe dans la planification Workfront. À mesure que ce modèle **Équipe d’abord** réussit, vous entamez le chemin vers l’**échelle de l’entreprise** en identifiant les modèles qui fonctionnent.
 
 
 
@@ -110,7 +110,7 @@ Une fois le « moment de l&#39;éclair » atteint, déplacez le point de départ
 
 * **Observer et normaliser :** utilisez le Workspace de Principal pour observer la manière dont l’équipe pilote utilise l’outil. Ces exemples concrets façonneront le design de votre entreprise.
 
-* **Démanteler les anciennes feuilles de calcul :** passer entièrement au PAM à mesure que le processus se développe.
+* **Mettre hors service les feuilles de calcul héritées :** passer entièrement à Workfront Planning à mesure que le processus se développe.
 
 * **Déplacer les utilisateurs et utilisatrices avancés :** utiliser la vue **tableau** pour une gestion directe et à grande vitesse des plans.
 
@@ -126,7 +126,7 @@ Recherchez ces premiers indicateurs de la santé :
 
 * **Efficacité :** l’automatisation réduit le temps entre l’approbation stratégique et le début du projet.
 
-* **Confiance :** les parties prenantes utilisent les calendriers du PAM plutôt que des tableaux de situation manuels pour les examens.
+* **Confiance :** les parties prenantes utilisent les calendriers de planification de Workfront plutôt que des tableaux d’état manuels pour les révisions.
 
 
 

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '13689'
+source-wordcount: '13716'
 ht-degree: 82%
 
 ---
@@ -2105,6 +2105,10 @@ ht-degree: 82%
       * [Activité de publication de la planification Adobe Workfront pour 2023](planning/general/release-activity-archives-2023.md)
       * [Présentation des limitations d’objet d’Adobe Workfront Planning](planning/general/limitations-overview.md)
       * [Prise en main de la version d’essai gratuite d’Adobe Workfront Planning](planning/general/trial-workfront-planning.md)
+   * Bonnes pratiques relatives à Adobe Workfront Planning {#adobe-workfront-planning-best-practices}
+      * [bonnes pratiques Adobe Workfront : index des articles](planning/best-practices.md/best-practices-article-index.md)
+      * [La rampe de lancement de 30 jours : déployez votre maison stratégique](planning/best-practices.md/30-day-launchpad.md)
+      * [Le framework de la réussite : modélisez la hiérarchie de vos campagnes](planning/best-practices.md/model-campaign-hierarchy.md)
    * Architecture d’Adobe Workfront Planning {#adobe-workfront-planning-architecture}
       * [Architecture : index des articles](planning/architecture/architecture-information.md)
       * [Présentation des espaces de travail](planning/architecture/workspaces-overview.md)
@@ -2540,7 +2544,7 @@ ht-degree: 82%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)

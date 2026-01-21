@@ -1,5 +1,5 @@
 ---
-title: 'Le plan directeur de la réussite : modéliser la hiérarchie de votre campagne'
+title: 'Le framework de la réussite : modéliser la hiérarchie de votre campagne'
 description: Découvrez comment traduire vos processus d’entreprise complexes en une hiérarchie de campagnes évolutive et régie à l’aide de « centres de gravité » et d’une architecture multi-espace de travail.
 feature: Workfront Planning
 role: User, Admin
@@ -7,15 +7,15 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
 
-# Le plan directeur de la réussite : modéliser la hiérarchie de votre campagne
+# Le framework de la réussite : modélisez la hiérarchie de vos campagnes
 
 
 
@@ -31,7 +31,7 @@ La complexité des données augmente à mesure que vos opérations marketing se 
 
 
 
-Le « Blueprint of Success » est un cadre de modélisation de la hiérarchie de vos campagnes dans Workfront Planning (WFP). Il vous fait passer du « chaos des feuilles de calcul » à un modèle régi et orienté objet qui garantit que chaque équipe parle le même langage tout en conservant l’agilité dont elle a besoin pour s’exécuter.
+Le « Plan directeur de la réussite » est un framework permettant de modéliser la hiérarchie de vos campagnes dans Workfront Planning. Il vous fait passer du « chaos des feuilles de calcul » à un modèle régi et orienté objet qui garantit que chaque équipe parle le même langage tout en conservant l’agilité dont elle a besoin pour s’exécuter.
 
 
 
@@ -77,7 +77,7 @@ Une fois le chemin d’accès de base établi, les entreprises peuvent choisir d
 
 * **Plans de canaux :** couche comprise entre *Campagnes* et *Tactiques* pour regrouper les stratégies interfonctionnelles (par exemple, « Stratégie numérique »).
 
-* **Activités du PAM :** Dans les environnements à faible volume (généralement &lt; 5 000 produits livrables/an), certaines équipes préfèrent suivre les « expériences » individuelles en tant qu&#39;enregistrements du PAM avant qu&#39;elles ne deviennent des projets.
+* **Activités de planification Workfront :** dans les environnements à faible volume (généralement &lt; 5 000 livrables/an), certaines équipes préfèrent effectuer le suivi des « expériences » individuelles en tant qu’enregistrements de planification Workfront avant de devenir des projets.
 
 
 >[!TIP]
@@ -156,9 +156,9 @@ Bien que la planification Workfront soit l’avenir de l’intention stratégiqu
 
 * **Recommandation** ne supprimez pas encore vos portefeuilles et programmes. Utilisez plutôt **Fusion Automations** pour créer un pont.
 
-* **Fonctionnement :** lorsqu’une tactique ou une campagne est créée dans WFP, Fusion peut automatiquement mettre en miroir cet enregistrement dans un Portfolio ou un programme correspondant dans le module Workflow. Cela vous permet d’effectuer les opérations suivantes :
+* **Fonctionnement :** lors de la création d’une tactique ou d’une campagne dans Workfront Planning, Fusion peut automatiquement mettre en miroir cet enregistrement dans un Portfolio ou un programme correspondant dans le module Workflow. Cela vous permet d’effectuer les opérations suivantes :
 
-   1. Profitez de la qualité supérieure de la **visualisation stratégique** du PAM (calendriers/calendriers).
+   1. Profitez de la qualité supérieure de la **visualisation stratégique** de Workfront Planning (calendriers/chronologies).
 
    2. Conservez vos **rapports hérités** dans le module Workflow pour les parties prenantes qui ne sont pas encore prêtes à passer à la zone de travail.
 
@@ -170,7 +170,7 @@ Bien que la planification Workfront soit l’avenir de l’intention stratégiqu
 
 * **Désigner des espaces de travail de Principal.** Assurez-vous que chaque type d’enregistrement dispose d’un espace de travail « d’accueil » (son centre de gravité) qui agit comme agrégateur pour la création de rapports.
 
-* **Définition de la priorité de Forms pour la réception.** Utilisez des formulaires d&#39;enregistrement pour les groupes moins sophistiqués dans WFP afin de garantir l&#39;intégrité des métadonnées. Bien que les utilisateurs expérimentés puissent bénéficier de la saisie directe des données dans les vues Tableau , cette opération doit être abordée avec précaution. Les modifications en masse dans un tableau peuvent facilement créer des problèmes de données pour d’autres parties prenantes.
+* **Définition de la priorité de Forms pour la réception.** Utilisez des formulaires d’enregistrement pour les groupes moins sophistiqués dans Workfront Planning afin d’assurer l’intégrité des métadonnées. Bien que les utilisateurs expérimentés puissent bénéficier de la saisie directe des données dans les vues Tableau , cette opération doit être abordée avec précaution. Les modifications en masse dans un tableau peuvent facilement créer des problèmes de données pour d’autres parties prenantes.
 
 
 ### Ne pas :
