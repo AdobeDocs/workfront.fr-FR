@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 8b93842d7ce61c7c84b07639b6329bedf4254ffd
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 98%
+source-wordcount: '1345'
+ht-degree: 90%
 
 ---
 
@@ -40,6 +40,15 @@ Pour résoudre ce conflit, vous devez rechercher l’objet auquel sont attachés
 * Dans tous les formulaires personnalisés associés à l’objet, ajoutez un nouveau champ personnalisé calculé contenant le calcul dont vous avez besoin et marquez l’ancien champ personnalisé calculé comme obsolète.
 
 Cet article explique comment trouver l’objet puis résoudre le problème de l’une de ces trois façons.
+
+>[!NOTE]
+>
+>Si l’erreur s’affiche, mais que vous ne pouvez pas localiser plusieurs objets contenant le champ personnalisé, vérifiez la Corbeille. Il est possible qu’un objet de la Corbeille contienne le champ . Comme les objets de la Corbeille peuvent être restaurés à tout moment, l’erreur de conflit multiforme continue de se produire jusqu’à ce que le conflit soit résolu.
+>
+>Pour ajouter un champ avec une expression différente, vous devez résoudre ce conflit en effectuant l’une des opérations suivantes :
+>
+>* Supprimez le champ du formulaire personnalisé en conflit
+>* Restaurez l’objet supprimé, désolidarisez l’un des formulaires personnalisés en conflit, puis supprimez à nouveau l’objet si nécessaire.
 
 ## Rechercher l’objet auquel les formulaires personnalisés sont joints. {#find-the-object-where-the-custom-forms-are-attached}
 
