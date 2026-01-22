@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1883'
 ht-degree: 5%
 
 ---
@@ -190,7 +190,7 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Autorisations pour les enregistrements avec des autorisations héritées sur ](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations **Vue** ou supérieures sur l’espace de travail et le type d’enregistrement disposent des mêmes autorisations sur l’enregistrement.
 
@@ -198,7 +198,7 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
 
    >[!TIP]
    >
-   >Vous ne pouvez pas supprimer des entités individuelles de la liste des autorisations héritées.
+   >Vous ne pouvez pas supprimer des entités individuelles de la liste des autorisations héritées. <!--test this!-->
 
 1. (Facultatif et conditionnel) Si vous souhaitez partager l’enregistrement avec des entités spécifiques et leur donner un accès au type d’enregistrement différent de celui qu’elles ont déjà pour l’espace de travail, procédez comme suit :
 
@@ -224,6 +224,7 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
    >* Si les utilisateurs disposent des autorisations de niveau Contribution ou Gérer sur l’espace de travail et le type d’enregistrement, ils conserveront les autorisations de niveau Gérer sur l’enregistrement. L&#39;autorisation Afficher est grisée. <!--this is not dimmed at this time, Lilit to check-->
    >* Vous ne pouvez pas accorder aux utilisateurs une autorisation inférieure à l&#39;enregistrement s&#39;ils disposent d&#39;une autorisation Contribute ou supérieure au type d&#39;enregistrement.
    > Pour plus d’informations, consultez la section [Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >* Lorsque vous partagez un enregistrement avec un utilisateur, sa fonction principale <span class="preview">et son adresse e-mail</span> s’affichent également dans le champ. Le paramètre Afficher les informations de contact doit être activé pour que l’objet Utilisateurs de votre niveau d’accès puisse voir l’e-mail de l’utilisateur.
 
 1. Pour permettre aux utilisateurs qui ne disposent pas des autorisations d’accès à l’espace de travail d’afficher un enregistrement, dans le champ **Accorder l’accès à cette vue**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une équipe, d’une entreprise ou d’une fonction, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 

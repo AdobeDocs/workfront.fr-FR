@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1071'
 ht-degree: 21%
 
 ---
@@ -28,7 +28,7 @@ Vous pouvez supprimer des types d’enregistrement lorsqu’ils ne sont plus per
 
 Cependant, la suppression des types d’enregistrement supprime également toutes les informations associées aux types d’enregistrement. Pour plus d’informations, consultez la section [Remarques concernant la suppression de types d’enregistrement](#considerations-when-deleting-record-types) de cet article.
 
-Pour plus d’informations sur les types d’enregistrements, voir [&#x200B; Présentation des types d’enregistrements &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Pour plus d’informations sur les types d’enregistrements, voir [ Présentation des types d’enregistrements ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -221,15 +221,15 @@ Tenez compte des points suivants :
 
 * Lorsque vous supprimez un type d’enregistrement global d’un espace de travail secondaire, les éléments suivants sont également supprimés :
 
-   * Les enregistrements ajoutés depuis l’espace de travail secondaire sont supprimés de l’espace de travail secondaire et ne peuvent pas être récupérés.
-
-     Les enregistrements ajoutés dans l’espace de travail secondaire restent dans l’espace de travail principal du type d’enregistrement global. Le champ **Workspace** est vide pour ces enregistrements dans l&#39;espace de travail principal du type d&#39;enregistrement global. <!--checking on this with Lilit-->
+   * Les enregistrements ajoutés depuis l’espace de travail secondaire sont supprimés de l’espace de travail secondaire et de l’espace de travail d’origine et ne peuvent pas être récupérés.
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
 * Les types d’enregistrements globaux supprimés de leurs espaces de travail secondaires ne peuvent pas être récupérés.
 
 * Le type d’enregistrement d’origine reste dans son espace de travail d’origine ainsi que dans les autres espaces de travail où il a été ajouté.
+
+* Les vues ajoutées au type d’enregistrement dans l’espace de travail secondaire sont conservées et sont visibles dans d’autres espaces de travail, si elles sont partagées avec vous.
 
 Pour supprimer un type d’enregistrement global d’un espace de travail secondaire :
 

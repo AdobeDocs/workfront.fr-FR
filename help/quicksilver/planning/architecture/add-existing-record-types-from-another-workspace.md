@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '657'
 ht-degree: 7%
 
 ---
@@ -138,7 +138,8 @@ And
 
       * Tous les champs d’origine
       * Toutes les connexions aux enregistrements
-   * Vous pouvez afficher les enregistrements ajoutés à partir d&#39;autres espaces de travail qui utilisent le même type d&#39;enregistrement global, uniquement si vous disposez au moins des autorisations d&#39;affichage pour ces espaces de travail. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
+   * Vous ne pouvez pas afficher les enregistrements ajoutés depuis l’espace de travail d’origine du type d’enregistrement depuis l’espace de travail secondaire.
+   * Vous pouvez afficher les enregistrements ajoutés depuis l’espace de travail d’origine du type d’enregistrement dans cet espace de travail, uniquement dans l’espace de travail d’origine, si vous disposez au moins des autorisations d’affichage dans cet espace de travail.
    * Le champ en lecture seule **Workspace** est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
 
      >[!NOTE]
@@ -147,7 +148,12 @@ And
      >
 
 1. (Facultatif) Cliquez sur le type d’enregistrement nouvellement ajouté et déposez-le dans n’importe quelle section de l’espace de travail.
-1. (Facultatif) Cliquez sur le menu **Plus** sur la carte du nouveau type d’enregistrement ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur **Supprimer**.
+1. (Facultatif) Cliquez sur le menu **Plus** sur la carte du nouveau type d’enregistrement ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur l’un des éléments suivants :
+
+   * **Partager** pour partager le type d’enregistrement à partir de l’espace de travail secondaire.
+   * **Supprimer** pour supprimer le type d’enregistrement de l’espace de travail secondaire. La suppression des types d’enregistrements de l’espace de travail secondaire supprime également les enregistrements ajoutés de l’espace de travail secondaire.
+
+     Les vues ajoutées à partir de l&#39;espace de travail secondaire ne sont pas supprimées. <!--checking with Lilit - not sure if this is by design??-->
 
    Pour plus d’informations, consultez la section « Supprimer des types d’enregistrements globaux » de l’article [Supprimer des types d’enregistrements](/help/quicksilver/planning/architecture/delete-record-types.md).
 
