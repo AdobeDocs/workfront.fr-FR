@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 167037c90b2da8164db62fe6304ce935104bdf05
+source-git-commit: d84264110fe6abe2a260cc46483c78b9b0034b9b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 14%
+source-wordcount: '112'
+ht-degree: 16%
 
 ---
 
@@ -29,13 +29,11 @@ Les fonctionnalités suivantes sont actuellement disponibles en version bêta :
 
 * Intégrité du projet
 
-  Pour plus d’informations, voir [&#x200B; Présentation de l’intégrité du projet &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+  Pour plus d’informations, voir [ Présentation de l’intégrité du projet ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
 * Le réviseur Workfront AI
 Pour plus d’informations, voir [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Remplissage de formulaire AI
-Pour plus d’informations, voir [Utiliser le remplissage de formulaire AI pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
 <!--
