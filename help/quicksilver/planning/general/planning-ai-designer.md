@@ -25,7 +25,7 @@ ht-degree: 8%
 >
 >Actuellement, Planning Designer n’est disponible que pour les utilisateurs participant à l’étape bêta fermée.
 
-## <!--edit theses--> des exigences d’accès
+## &#x200B;<!--edit theses--> des exigences d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -72,7 +72,7 @@ Actuellement, vous pouvez demander à participer au programme Beta fermé pour P
 
 * Pour utiliser Planning Designer, vous devez d’abord activer l’assistant d’IA pour votre entreprise. Les éléments suivants doivent être activés pour que l’assistant AI soit disponible pour tous les membres de votre organisation :
 
-   * L’assistant AI doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre entreprise. Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+   * L’assistant AI doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre entreprise. Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
    * Une fois que Workfront a activé l’assistant AI pour votre organisation, il est disponible pour l’administrateur Workfront principal. Pour plus d’informations, voir [Configurer les informations de base de votre système](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
    * L’administrateur Workfront doit activer l’assistant AI pour tous les autres utilisateurs. Pour plus d’informations, voir [Activer ou désactiver l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
