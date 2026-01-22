@@ -75,7 +75,7 @@ L’utilisateur ou utilisatrice qui charge un document dans Workfront dispose pa
 
    ![Lien Détails du document](assets/document-details-link.png)
 
-1. Cliquez sur l’icône Plus Plus **à droite du nom du document, puis cliquez sur** Partager![.](assets/more-icon.png) **** La **boîte de dialogue Partager [le nom]** du document s’ouvre.
+1. Cliquez sur l’icône Plus Plus **à droite du nom du document, puis cliquez sur** Partager![.](assets/more-icon.png) **&#x200B;**&#x200B;La **boîte de dialogue Partager [le nom]** du document s’ouvre.
 
    ![Partager un document](assets/share-a-document-350x160.png)
 
