@@ -79,12 +79,12 @@ Pour vérifier et accepter le contrat légal, effectuez l’une des opérations 
    1. (Conditionnel) Connectez-vous à Adobe Workfront en tant qu’administrateur système.
    1. Utilisez l’une des méthodes suivantes :
 
-      * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
+      * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
 
       * Accédez à la zone **Notifications Workfront** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning.
    1. Cliquez sur **Consulter le contrat d’évaluation**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
    1. Cliquez sur **Accepter** après avoir consulté le contrat.
-   1. (Conditionnel) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’évaluation de Workfront Planning ****, puis cliquez sur **En savoir plus**.
+   1. (Conditionnel) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
 
       Vous pouvez en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning.
 
@@ -93,7 +93,7 @@ Pour vérifier et accepter le contrat légal, effectuez l’une des opérations 
    1. (Conditionnel) Connectez-vous à Adobe Workfront en tant qu’administrateur système.
    1. Utilisez l’une des méthodes suivantes :
 
-      * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
+      * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
 
       * Accédez à la zone **Notifications Workfront** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning
 
@@ -108,10 +108,10 @@ Pour vérifier et accepter le contrat légal, effectuez l’une des opérations 
       * La zone Planning est ajoutée au menu principal pour vous et tous les utilisateurs de votre système avec un badge **Évaluation**.
       * Vous recevez un accès de niveau Gérer à l’onglet **Espaces de travail des bonnes pratiques** dans la zone Planification .
       * Tous les utilisateurs de votre système bénéficient d’un accès en lecture seule à l’onglet **Espaces de travail des bonnes pratiques** dans la zone Planning.
-   1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning ****, puis cliquez sur **En savoir plus**.
+   1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
 
       Vous pouvez en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning.
-   1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système a accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **** et cliquez sur **Ouvrir l&#39;évaluation**.
+   1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système a accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**&#x200B;et cliquez sur **Ouvrir l&#39;évaluation**.
 
       Commencez à explorer l’onglet **Espaces de travail des bonnes pratiques** et partagez des espaces de travail ou leur objet avec d’autres personnes.
 
