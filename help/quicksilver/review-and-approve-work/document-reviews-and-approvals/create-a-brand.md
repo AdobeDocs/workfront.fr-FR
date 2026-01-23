@@ -6,9 +6,9 @@ description: Configurer des marques pour le réviseur de l’IA
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '410'
 ht-degree: 10%
 
 ---
@@ -57,7 +57,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 * Votre organisation doit avoir migré vers Adobe IMS (système Identity Management).
 * Les approbations unifiées doivent être activées pour votre instance Workfront.
-  <!--* Your organization must have GenStudio Foundation.-->
+* Votre organisation doit disposer de GenStudio Foundation.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
 Pour plus d’informations sur la signature du contrat, voir [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
