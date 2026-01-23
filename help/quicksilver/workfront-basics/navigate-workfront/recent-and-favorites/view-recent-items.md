@@ -6,9 +6,9 @@ description: Le menu [!UICONTROL Récents] se trouve sur la barre de navigation 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5a92066372efe8bd5391632556550e6063301114
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '205'
 ht-degree: 80%
 
 ---
@@ -28,7 +28,7 @@ Le menu [!UICONTROL Récents] se trouve sur la barre de navigation supérieure. 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -44,16 +44,14 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-
 ## Afficher les éléments récents
 
 1. Cliquez sur l’icône **[!UICONTROL Récents]** ![[!UICONTROL Récents]](assets/recents-icon-40x43.png) dans le coin supérieur droit d’une page.
 
-   ![Liste des éléments récents](assets/recents-list-2022-350x319.png)
+   ![Liste des éléments récents](assets/recents-list.png)
 
    Sous chaque type d’objet, vous pouvez voir jusqu’à 5 des derniers éléments que vous avez récemment consultés.
 
 1. (Facultatif) Pour développer la liste des éléments récents, cliquez sur **[!UICONTROL Afficher plus]** juste sous le dernier élément sous un type d’objet pour afficher les 10 éléments consultés précédemment. Vous pouvez développer la liste pour afficher jusqu’à 20 éléments par type d’objet.
-1. Cliquez sur le X en haut à droite pour fermer la liste.
 
 Pour plus d’informations sur la façon de marquer des éléments récents comme favoris, voir [Afficher et gérer des favoris](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
