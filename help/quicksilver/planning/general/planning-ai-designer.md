@@ -1,32 +1,33 @@
 ---
 title: Prise en main d’Adobe Workfront Planning Designer
-description: À l’aide du Designer Adobe Planning, vous pouvez générer un nouvel espace de travail, avec les types d’enregistrements et les champs dans Workfront Planning, ajouter des objets à un espace de travail ou afficher l’historique des modifications sur les enregistrements.
+description: Vous pouvez utiliser Adobe Planning Designer optimisé par l’IA pour configurer facilement vos espaces de travail et vos structures de données. Planning Designer prend en charge de nombreux éléments, de la création et la configuration des espaces de travail à la définition de champs et de formules, la gestion des enregistrements, la révision de l'historique des modifications et la création de vues personnalisées. Utilisé directement ou par l’intermédiaire de l’assistant d’IA, Planning Designer offre un environnement flexible et puissant pour créer et maintenir des informations structurées et connectées.
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: bd3dde54d986416af847b2f3b2a1e8570d5ce3f2
+author: Alina, Becky
+feature: Workfront Planning
+role: User, Admin
+source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 5%
+source-wordcount: '1480'
+ht-degree: 4%
 
 ---
 
 
-<!--add these at release to the metadata:
-
-author: Alina, Becky
-feature: Workfront Planning
-role: User, Admin -->
-
 # Prise en main d’Adobe Workfront Planning Designer
-
-{{planning-important-intro}}
-
-Vous pouvez utiliser Adobe Planning Designer optimisé par l’IA pour générer un nouvel espace de travail, ajouter des objets à un espace de travail (types d’enregistrements, enregistrements, vues ou champs) ou afficher l’historique des modifications sur les enregistrements.
 
 >[!IMPORTANT]
 >
 >Planning Designer est actuellement disponible uniquement pour les utilisateurs participant au programme de Beta fermé.
+>
+>Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
+>
+>Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Présentation de l&#39;accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Vous pouvez utiliser Adobe Planning Designer optimisé par l’IA pour configurer facilement vos espaces de travail et vos structures de données. Planning Designer prend en charge de nombreux éléments, de la création et la configuration des espaces de travail à la définition de champs et de formules, la gestion des enregistrements, la révision de l&#39;historique des modifications et la création de vues personnalisées.
+
+Utilisé directement ou par l’intermédiaire de l’assistant d’IA, Planning Designer offre un environnement flexible et puissant pour créer et maintenir des informations structurées et connectées.
 
 Pour plus d’informations sur Workfront Planning, consultez les articles suivants :
 
@@ -35,7 +36,7 @@ Pour plus d’informations sur Workfront Planning, consultez les articles suivan
 * [Présentation de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
-## &#x200B;<!--edit theses??--> des exigences d’accès
+## <!--edit theses??--> des exigences d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -70,7 +71,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++
 
-## Inscription au programme de Beta fermé pour Planning Designer
+## S’inscrire au programme Beta fermé pour Planning Designer
 
 Actuellement, vous pouvez demander à participer au programme de Beta fermé pour Planning Designer en nous envoyant un e-mail à sargism@adobe.com.
 
@@ -80,9 +81,25 @@ Une fois l’e-mail reçu, notre équipe d’ingénieurs active Planning Designe
 >
 >Votre société doit d&#39;abord accepter le contrat d&#39;assistant AI avant que Planning Designer ne soit disponible dans votre système.
 
+## Envoyer des commentaires sur Planning Designer
+
+Vous pouvez envoyer des commentaires sur Planning Designer au cours du programme bêta.
+
+1. Connectez-vous à Workfront, puis cliquez sur l’icône **Menu principal** ![Menu principal Lignes](assets/lines-main-menu.png) dans le coin supérieur gauche, puis cliquez sur **Planning**.
+
+   La zone **Planification** s’ouvre.
+
+1. Cliquez sur **Créer avec l’IA**. <!--update this tag name when they change it-->
+
+   La zone **Configuration de Workspace** de la fenêtre **Planning Designer** s&#39;ouvre. <!--replace shot below when they rename the area to Planning Designer-->
+
+1. Cliquez sur **Soumettre des commentaires ici** au bas de la page.
+1. Ajoutez vos commentaires dans l&#39;espace prévu à cet effet, puis cliquez sur **Envoyer**.
+Vos commentaires sont envoyés aux équipes d’ingénierie et de produit.
+
 ## Considérations relatives à Planning Designer
 
-* Pour utiliser Planning Designer, vous devez d’abord activer l’assistant d’IA pour votre organisation. Les éléments suivants doivent être en place pour que l’assistant AI soit disponible pour tous les membres de votre organisation :
+* Pour utiliser Planning Designer, vous devez d’abord activer l’assistant d’IA pour votre entreprise. Les éléments suivants doivent être en place pour que l’assistant AI soit disponible pour tous les membres de votre organisation :
 
    * Workfront doit rendre l’assistant d’IA disponible pour votre organisation.
 
@@ -93,7 +110,7 @@ Une fois l’e-mail reçu, notre équipe d’ingénieurs active Planning Designe
    * L’administrateur Workfront doit accepter le contrat d’assistant AI, puis activer l’assistant AI pour tous les autres utilisateurs.
 
      Pour plus d’informations, voir [Activer ou désactiver l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
-* Une fois que l&#39;administrateur système a activé l&#39;assistant AI pour votre organisation, l&#39;assistant Planification est disponible par défaut pour tous les utilisateurs s&#39;il a été mis à la disposition de votre organisation.
+* Une fois que l’administrateur système a activé l’assistant AI pour votre organisation, Planning Designer est disponible par défaut pour tous les utilisateurs et utilisatrices, s’il a été mis à disposition pour votre organisation.
 * Les actions effectuées par le Designer Planning peuvent également l&#39;être par l&#39;assistant AI, lorsque vous l&#39;utilisez dans la zone Planning.
 * Les actions effectuées par l&#39;assistant AI dans la zone Planning ou celles effectuées par le Designer Planning s&#39;inscrivent dans le cadre de vos autorisations Workfront Planning et de votre niveau d&#39;accès Workfront.
 
@@ -155,13 +172,13 @@ Sauf indication contraire, vous pouvez créer ou mettre à jour des objets dans 
 
 1. Connectez-vous à Workfront, puis cliquez sur l’icône **Menu principal** ![Menu principal Lignes](assets/lines-main-menu.png) dans le coin supérieur gauche, puis cliquez sur **Planning**.
 
-   La zone **Planification** s’ouvre.
+   La zone **Planification** s’ouvre. <!--update screen shot when they change the name of the button-->
 
    ![Bouton Créer avec IA sur la page Espaces de travail](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Cliquez sur **Créer à l’aide de l’IA**.
+1. Cliquez sur **Créer avec l’IA**. <!--update this when they change it-->
 
-   La fenêtre **Planning Designer** s&#39;ouvre.
+   La zone **Configuration de Workspace** de la fenêtre **Planning Designer** s&#39;ouvre. <!--replace shot below when they rename the area to Planning Designer-->
 
    ![Fenêtre Planning Designer](assets/planning-designer-window.png)
 
@@ -216,7 +233,7 @@ Pour le désactiver :
 1. Connectez-vous à Workfront en tant qu’administrateur système.
 1. Cliquez sur **Menu principal** ![Icône du menu principal](assets/main-menu-shell.png) dans le coin supérieur gauche de l’écran, puis cliquez sur **Configuration**.
 1. Cliquez sur **Système** > dans le panneau de gauche, puis accédez à la zone **Préférences IA**.
-1. Désactivez le paramètre **Planning Designer**. <!--add new screen shot with info icon-->
+1. Désactivez le paramètre **Planification de l’intégration**. <!--add new screen shot with info icon and new name of the toggle; ensure you don't show the AI Reviewer if it is not in Prod yet-->
 
    ![Paramètre Planning Designer dans les Préférences système](assets/planning-designer-toggle-in-system-preferences.png)
 1. Cliquer sur **Enregistrer**.
