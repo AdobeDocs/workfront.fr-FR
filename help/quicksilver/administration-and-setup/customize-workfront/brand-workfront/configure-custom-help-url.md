@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: 5fac387d598e2959566547df5d2d11078ec25154
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 45%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 45%
 
 Si vous créez un site d’aide interne personnalisé contenant des informations sur la manière dont votre entreprise utilise Workfront, vous pouvez configurer l’icône d’aide du menu principal de manière à renvoyer vers ce site.
 
-![Bouton Aide personnalisé](assets/custom-help-button.png)
+![Bouton Aide personnalisé](assets/custom-help-with-left-menu.png)
 
 Cela n’affecte pas les liens d’aide contextuelle dans Workfront, qui redirigent les utilisateurs vers le site d’aide de Workfront.
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur la manière dont les utilisateurs accèdent à la
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 {{step-1-to-setup}}
 
 1. Cliquez sur **Système** > **Préférences**.
-1. Dans la section **Préférences générales**, dans le champ **URL d’aide personnalisée**, saisissez l’URL où se trouve votre site d’aide personnalisée.
+1. Dans la section **Préférences générales**, dans le champ **URL d’aide personnalisée**, saisissez l’URL où se trouve votre site d’aide personnalisé.
 
    Si l’emplacement de votre aide personnalisée nécessite des informations de connexion, ces dernières sont requises pour les personnes accédant au site à partir de Workfront. Si vous n’utilisez pas l’authentification unique (SSO), il se peut que les informations d’identification de votre site d’aide personnalisée doivent être gérées séparément des informations d’identification de Workfront.
 
