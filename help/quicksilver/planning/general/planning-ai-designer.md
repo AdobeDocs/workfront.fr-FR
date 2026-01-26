@@ -36,7 +36,7 @@ Pour plus d’informations sur Workfront Planning, consultez les articles suivan
 * [Présentation de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
-## <!--edit theses??--> des exigences d’accès
+## &#x200B;<!--edit theses??--> des exigences d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
