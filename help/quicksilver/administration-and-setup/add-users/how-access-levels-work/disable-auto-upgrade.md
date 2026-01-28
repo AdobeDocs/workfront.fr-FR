@@ -1,5 +1,5 @@
 ---
-title: Désactivez l’option de mise à niveau automatique pour les utilisateurs non payants dans le nouveau plan de licence
+title: Désactivez l’option de mise à niveau automatique pour les utilisateurs non payants
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '188'
 ht-degree: 92%
 
 ---
 
-# Désactiver l’option de mise à niveau automatique pour les utilisateurs et utilisatrices non payants du nouveau plan de licence
+# Désactivez l’option de mise à niveau automatique pour les utilisateurs et utilisatrices non payés
 
 Les décisions concernant les épreuves et les documents sont limitées pour toutes les licences Workfront non payantes sur les nouveaux plans. Lorsque les utilisateurs et utilisatrices atteignent leur nombre de décisions imparti, ils sont mis à niveau vers une licence Light par défaut.
 
@@ -36,7 +36,7 @@ Vous pouvez désactiver l’option de mise à niveau automatique dans la zone de
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 

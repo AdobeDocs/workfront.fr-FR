@@ -1,18 +1,18 @@
 ---
-title: Accès configurable à la fonctionnalité pour chaque type d’objet
+title: Accès configurable à la fonctionnalité pour chaque type d’objet (hérité)
 description: Cet article explique ce que vous pouvez autoriser en tant qu’administrateur ou administratrice Adobe Workfront pour chaque type d’objet, à chaque niveau d’accès. Il explique également quelle est la configuration par défaut pour chaque type de niveau d’accès.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '3508'
-ht-degree: 97%
+source-wordcount: '3510'
+ht-degree: 96%
 
 ---
 
-# Accès configurable aux fonctionnalités pour chaque type d’objet
+# Accès configurable à la fonctionnalité pour chaque type d’objet (hérité)
 
 >[!NOTE]
 >
@@ -580,7 +580,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
  </tbody> 
 </table>
 
-## Utilisateurs
+## Utilisateurs et utilisatrices
 
 Pour chaque niveau d’accès, vous pouvez configurer les options suivantes pour les utilisateurs et les utilisatrices :
 

@@ -1,5 +1,5 @@
 ---
-title: Répertorier les niveaux d'accès et les licences de vos utilisateurs
+title: Répertorier les niveaux d’accès et les licences de vos utilisateurs (hérités)
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 91%
+source-wordcount: '336'
+ht-degree: 88%
 
 ---
 
-# Liste des niveaux d’accès et des licences de vos utilisateurs et utilisatrices
+# Répertorier les niveaux d’accès et les licences de vos utilisateurs (hérités)
 
 >[!NOTE]
 >

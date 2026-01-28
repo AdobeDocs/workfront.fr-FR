@@ -1,5 +1,5 @@
 ---
-title: Présentation des nouveaux niveaux d'accès
+title: Présentation des niveaux d'accès
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1747'
 ht-degree: 89%
 
 ---
 
-# Vue d’ensemble des nouveaux niveaux d’accès
+# Vue d’ensemble des niveaux d’accès
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets a
 | Rapports (y compris les tableaux de bord et les rapports de calendrier) |   |   | ✓ |
 | Filtres, vues et regroupements |   |   | ✓ |
 | Documents |   |   | ✓ |
-| Utilisateurs |   |   | ✓ |
+| Utilisateurs et utilisatrices |   |   | ✓ |
 | Modèles |   |   | ✓ |
 | Données financières |   |   | ✓ |
 | Gestion des ressources |   |   | ✓ |
@@ -198,7 +198,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Utilisateurs</td> 
+   <td>Utilisateurs et utilisatrices</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 

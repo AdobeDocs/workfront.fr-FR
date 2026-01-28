@@ -3,20 +3,20 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Accès aux objets et zones par type de licence
+title: Accès aux objets et zones par type de licence (hérité)
 description: Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou Afficher) que chacune des licences Adobe Workfront autorise pour les objets et les zones de Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 78%
+source-wordcount: '482'
+ht-degree: 76%
 
 ---
 
-# Accéder aux objets et zones par type de licence
+# Accès aux objets et zones par type de licence (hérité)
 
 <!-- Audited: 11/2025 -->
 
@@ -47,7 +47,7 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
 | Rapports, tableaux de bord et calendriers | Modifier | Afficher | Afficher | Afficher&#42; | Afficher (uniquement pour les calendriers, sans autorisations de partage) |
 | Filtres, vues et regroupements | Modifier | Modifier | Modifier | Modifier | Pas d’accès |
 | Documents | Modifier | Modifier | Modifier | Modifier | Afficher (sans autorisations de partage) |
-| Utilisateurs | Modifier | Afficher | Afficher | Afficher | Afficher |
+| Utilisateurs et utilisatrices | Modifier | Afficher | Afficher | Afficher | Afficher |
 | Équipes | Modifier | Modifier | Afficher | Afficher | Pas d’accès |
 | Modèles | Modifier | Pas d’accès | Pas d’accès | Pas d’accès | Pas d’accès |
 | Données financières | Modifier | Afficher (uniquement la zone Finance dans les détails du projet) | Afficher | Pas d’accès | Pas d’accès |

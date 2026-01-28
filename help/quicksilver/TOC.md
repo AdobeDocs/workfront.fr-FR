@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '13724'
+source-wordcount: '13721'
 ht-degree: 82%
 
 ---
@@ -516,25 +516,25 @@ ht-degree: 82%
          * [Afficher et exporter des journaux d’audit](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Afficher les informations de connexion de l’utilisateur ou de l’utilisatrice](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Gérer les utilisateurs dans Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * Fonctionnement des nouveaux niveaux d’accès {#access-levels}
-         * [Fonctionnement des nouveaux niveaux d’accès](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [Vue d’ensemble des nouveaux niveaux d’accès](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [Vue d’ensemble des nouvelles licences](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [Accéder aux objets et aux zones avec de nouvelles licences](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [Fonctionnalités disponibles pour chaque type d’objet pour les nouveaux niveaux d’accès](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [Désactiver l’option de mise à niveau automatique pour les utilisateurs et utilisatrices non payants du nouveau plan de licence](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * Fonctionnement des niveaux d’accès {#access-levels}
+         * [Fonctionnement des niveaux d’accès](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [Vue d’ensemble des niveaux d’accès](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [Vue d’ensemble des licences](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [Accès aux objets et zones par licences](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Fonctionnalité disponible pour chaque type d’objet](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [Désactivez l’option de mise à niveau automatique pour les utilisateurs et utilisatrices non payés](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [Comparaison des fonctionnalités entre les modèles de licence](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * Fonctionnement des niveaux d’accès {#legacy-access-levels}
-         * [Fonctionnement des niveaux d’accès](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [Vue d’ensemble des accès](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [Vue d’ensemble des licences](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [Niveaux et autorisations d’accès](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [Accéder aux objets et zones par type de licence](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-         * [Fonctionnalité de chaque type d’objet](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [Accès configurable pour chaque type d’objet](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [Niveaux d’accès intégrés](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [Répertorier les niveaux d’accès et les licences des utilisateurs et utilisatrices](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * Fonctionnement des niveaux d’accès hérités {#legacy-access-levels}
+         * [Fonctionnement des niveaux d’accès hérités](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [Présentation des niveaux d’accès hérités](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [Présentation des licences héritées](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [Niveaux d’accès et autorisations hérités](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [Accès aux objets et zones par type de licence (hérité)](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [Fonctionnalité pour chaque type d’objet (hérité)](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+         * [Accès configurable pour chaque type d’objet (hérité)](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [Niveaux d’accès intégrés (hérités)](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [Répertorier les niveaux d’accès et les licences des utilisateurs (hérités)](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Configuration de l&#39;accès à Workfront {#configure-access}
          * [Configurer l’accès](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Créer ou modifier les niveaux d’accès personnalisés](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -2464,7 +2464,7 @@ ht-degree: 82%
    * Gérer les utilisateurs et les utilisatrices ainsi que les contacts dans Workfront Proof {#managing-users-in-wf-proof}
       * [Gérer les utilisateurs et les utilisatrices ainsi que les contacts dans Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
       * Utilisateurs et utilisatrices {#users}
-         * [Utilisateurs](workfront-proof/wp-mnguserscontacts/users/users.md)
+         * [Utilisateurs et utilisatrices](workfront-proof/wp-mnguserscontacts/users/users.md)
          * [Créer des utilisateurs et des utilisatrices à l’aide de Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-users.md)
          * [Configurer des informations sur l’utilisateur ou l’utilisatrice à l’aide de Workfront Proof](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
          * [Créer et gérer des profils personnalisés à l’aide de Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
@@ -2545,7 +2545,7 @@ ht-degree: 82%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)

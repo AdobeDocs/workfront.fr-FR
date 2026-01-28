@@ -1,5 +1,5 @@
 ---
-title: Fonctionnement des niveaux d’accès
+title: Fonctionnement des niveaux d’accès hérités
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
@@ -9,14 +9,14 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 85%
+source-wordcount: '196'
+ht-degree: 60%
 
 ---
 
-# Fonctionnement des niveaux d’accès
+# Fonctionnement des niveaux d’accès hérités
 
 >[!NOTE]
 >
@@ -24,13 +24,13 @@ ht-degree: 85%
 
 En tant qu’administrateur ou administratrice d’Adobe Workfront, vous pouvez accorder aux utilisateurs et utilisatrices l’accès à l’affichage ou à la modification d’objets en leur attribuant un niveau d’accès. Les articles ci-dessous expliquent comment fonctionnent les niveaux d’accès.
 
-* [Vue d’ensemble des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-* [Vue d’ensemble des licences](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-* [Niveaux d’accès intégrés](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-* [Fonctionnement des niveaux d’accès et des autorisations](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-* [Répertorier les niveaux d’accès et les licences des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-* [Accès aux objets et zones par type de licence](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-* [Fonctionnalités disponibles pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+* [Présentation des niveaux d’accès hérités](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+* [Présentation des licences héritées](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+* [Niveaux d’accès hérités intégrés](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+* [Fonctionnement des niveaux d’accès et des autorisations hérités](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+* [Répertorier les niveaux d’accès et les licences de vos utilisateurs (hérités)](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+* [Accès aux objets et zones par type de licence (hérité)](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+* [Fonctionnalité disponible pour chaque type d’objet (niveaux d’accès hérités)](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
 ## Voir aussi
 

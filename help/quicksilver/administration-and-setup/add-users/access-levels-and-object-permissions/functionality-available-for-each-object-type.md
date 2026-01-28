@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: accès,modèle,entonnoir,diagramme,niveaux,autorisations
 navigation-topic: access-levels
-title: Fonctionnalité disponible pour chaque type d’objet pour différents niveaux d’accès
+title: Fonctionnalité disponible pour chaque type d’objet pour différents niveaux d’accès (hérité)
 description: Les tableaux suivants répertorient les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 93%
+source-wordcount: '1588'
+ht-degree: 92%
 
 ---
 
-# Fonctionnalités disponibles pour chaque type d’objet pour différents niveaux d’accès
+# Fonctionnalité disponible pour chaque type d’objet pour différents niveaux d’accès (hérité)
 
 {{highlighted-preview}}
 
@@ -321,7 +321,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Plan peuvent avoir u
 
 &#42;&#42;Disponible uniquement pour les dossiers de documents, et non pour les documents
 
-## Utilisateurs
+## Utilisateurs et utilisatrices
 
 <table style="table-layout:auto"> 
  <col> 

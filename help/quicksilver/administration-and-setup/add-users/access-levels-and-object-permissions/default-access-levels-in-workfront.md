@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: accès,modèle,entonnoir,diagramme,niveaux,autorisations
 navigation-topic: access-levels
-title: Niveaux d'accès intégrés
+title: Niveaux d'accès intégrés (hérités)
 description: 'Chacun des six niveaux d’accès intégrés actuels est conçu pour un type particulier d’utilisateur ou d’utilisatrice : administrateur et administratrice système, planificateur et planificatrice, employé et employée, réviseur et réviseuse, demandeur et demandeuse, et utilisateur et utilisatrice externes. Ces niveaux d’accès vous permettent de contrôler ce que les personnes peuvent modifier et afficher dans le système. Si vous avez besoin d’un niveau d’accès personnalisé, vous pouvez copier un niveau d’accès intégré et le modifier en fonction de la quantité d’accès que vous souhaitez autoriser pour les différents types d’objets Workfront.'
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 85%
+source-wordcount: '1656'
+ht-degree: 84%
 
 ---
 
-# Niveaux d’accès intégrés
+# Niveaux d’accès intégrés (hérités)
 
 <!--Audited: 01/2024-->
 
@@ -102,7 +102,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets a
 | Rapports, tableaux de bord et calendriers |   |   | ✓ |
 | Filtres, vues et regroupements |   |   | ✓ |
 | Documents |   |   | ✓ |
-| Utilisateurs |   |   | ✓ |
+| Utilisateurs et utilisatrices |   |   | ✓ |
 | Équipes |   |   | ✓ |
 | Modèles |   |   | ✓ |
 | Données financières |   |   | ✓ |
@@ -139,7 +139,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Rapports, tableaux de bord et calendriers |   | ✓ |   |
 | Filtres, vues et regroupements |   |   | ✓ |
 | Documents |   |   | ✓ |
-| Utilisateurs |   |   | ✓ |
+| Utilisateurs et utilisatrices |   |   | ✓ |
 | Équipes |   |   | ✓ (Accès limité) |
 | Modèles | ✓ |   |   |
 | Données financières |   | ✓ (Le paramètre par défaut est Aucun accès. Le paramètre Vue permet à la personne de n’afficher que la zone Finance dans les détails du projet.) |   |
@@ -228,7 +228,7 @@ Plus limité pour les projets et les tâches que le niveau d’accès Employé o
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Utilisateurs</td> 
+   <td>Utilisateurs et utilisatrices</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -341,7 +341,7 @@ Bien que ces paramètres ne soient pas visibles dans la zone Niveaux d’accès 
 | Rapports, tableaux de bord et calendriers |   | ✓ (uniquement pour les rapports de calendrier ; pas de possibilité de partager des rapports) |   |
 | Filtres, vues et regroupements | ✓ |   |   |
 | Documents |   | ✓ (sans possibilité de partager des documents) |   |
-| Utilisateurs |   | ✓ |   |
+| Utilisateurs et utilisatrices |   | ✓ |   |
 | Équipes |   | ✓ |   |
 | Modèles | ✓ |   |   |
 | Données financières | ✓ |   |   |

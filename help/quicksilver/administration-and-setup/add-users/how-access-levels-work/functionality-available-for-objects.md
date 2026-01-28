@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: accès,modèle,entonnoir,diagramme,niveaux,autorisations
 navigation-topic: access-levels
-title: Fonction disponible pour chaque type d'objet pour les nouveaux niveaux d'accès
+title: Fonctionnalité disponible pour chaque type d’objet
 description: Les tableaux suivants répertorient les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1326'
 ht-degree: 92%
 
 ---
 
-# Fonctionnalités disponibles pour chaque type d’objet pour les nouveaux niveaux d’accès
+# Fonctionnalité disponible pour chaque type d’objet
 
 {{highlighted-preview}}
 
@@ -32,7 +32,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 >[!NOTE]
 >
 >* Cet article décrit les fonctionnalités disponibles pour l’accès aux niveaux dans le nouveau modèle de package Workfront. Pour consulter les fonctionnalités disponibles dans le modèle de package actuel, consultez [Fonctionnalité disponible pour chaque type d’objet pour différents niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Pour obtenir la liste des fonctionnalités disponibles pour les différents packages dans le dernier modèle, voir [Tarifs et package Adobe Workfront](https://business.adobe.com/fr/products/workfront/pricing.html).
+>* Pour obtenir la liste des fonctionnalités disponibles pour les différents packages dans le dernier modèle, voir [Tarifs et package Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projets
 
@@ -254,7 +254,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avo
 
 &#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
-## Utilisateurs
+## Utilisateurs et utilisatrices
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
