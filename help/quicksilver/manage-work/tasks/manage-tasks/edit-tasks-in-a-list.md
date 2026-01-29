@@ -6,9 +6,9 @@ description: Vous pouvez modifier les informations des tâches dans une liste de
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3236'
 ht-degree: 58%
 
 ---
@@ -21,8 +21,7 @@ ht-degree: 58%
 
 Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
 
-Pour plus d’informations, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
-
+Pour plus d’informations, voir [Présentation de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 </div>
 
 Vous pouvez modifier les informations des tâches dans une liste de tâches en modifiant les champs affichés dans la liste. Pour obtenir des informations sur d’autres façons de modifier des tâches, voir la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -552,7 +551,7 @@ La modification simultanée de plusieurs tâches diffère selon l’environnemen
       * Commentaire
 
    1. (Facultatif) Dans la section **Custom Forms**, sélectionnez l’option **Recalculer les expressions personnalisées** pour vous assurer que tous les champs calculés personnalisés des formulaires personnalisés joints aux tâches sélectionnées sont à jour.
-   1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
+   1. Cliquez sur Enregistrer les modifications. **** Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
 
 <div class="preview">
 

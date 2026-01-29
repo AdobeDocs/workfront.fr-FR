@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '476'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Configurer les champs affichés dans la page Détails d&#39;un enregistrement
+## Configurer les champs affichés dans la zone d&#39;aperçu Détails d&#39;un enregistrement
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >Version rapide de production : 12 février 2026
 >Production pour tous : 16 avril 2026
 
-Nous avons introduit un paramètre qui vous permet d’afficher ou de masquer les champs d’enregistrement dans les zones d’aperçu Détails et de page, en fonction des champs affichés dans la vue Tableau.
+Nous avons introduit un paramètre qui vous permet d&#39;afficher ou de masquer les champs d&#39;enregistrement dans la zone d&#39;aperçu Détails d&#39;un enregistrement, en fonction des champs affichés dans la vue Tableau. 
 
-Vous pouvez choisir d’inclure ou d’exclure des champs masqués en mode Tableau dans la zone Détails d’un enregistrement. Lorsque ce paramètre est désactivé, les champs masqués ne sont pas affichés dans la zone Détails .
+Avec ce nouveau paramètre, vous pouvez choisir d’inclure ou d’exclure les champs masqués dans la vue Tableau de la zone d’aperçu des Détails de l’enregistrement.
 
 Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
 

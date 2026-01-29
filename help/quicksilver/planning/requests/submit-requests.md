@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '2176'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -34,8 +34,7 @@ Vous pouvez envoyer une demande Workfront Planning à partir des zones suivantes
 
 Cet article décrit comment envoyer une demande d’ajout de nouveaux enregistrements à un type d’enregistrement à partir de la zone des Demandes de Workfront ou d’un lien partagé.
 
-
-Les utilisateurs de Workfront et les utilisateurs externes peuvent envoyer des demandes aux types d&#39;enregistrements Planning et créer des enregistrements. <!--double check on the external users-->
+Les utilisateurs de Workfront et les utilisateurs externes peuvent envoyer des demandes aux types d’enregistrements Planning. Les demandes créent des enregistrements pour le type d’enregistrement associé au formulaire de demande. <!--double check on the external users-->
 
 Pour plus d’informations sur la manière dont un gestionnaire d’espace de travail peut créer un formulaire de demande et l’associer à un type d’enregistrement, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -93,21 +92,32 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
      Les utilisateurs de Workfront peuvent accéder au formulaire à partir d’un lien ou le trouver dans la zone des Demandes de Workfront.
 
-   * Si vous ne disposez pas d’un compte Workfront, un lien vers le formulaire a été partagé avec des personnes externes.
+   * En externe, en partageant un lien vers le formulaire d’enregistrement avec des personnes externes qui ne disposent pas d’un compte Workfront.
 
-     Les utilisateurs de Workfront peuvent également accéder à un lien partagé avec des personnes externes.
+     Les utilisateurs de Workfront peuvent également accéder au lien partagé avec des personnes externes.
 
-* Le lien vers le formulaire ne doit pas expirer.
+* S’il est partagé avec un lien, le lien vers le formulaire ne doit pas expirer.
 
 ## Considérations relatives à l’envoi de requêtes à Workfront Planning
 
 * Vous ne pouvez pas modifier une demande dans Workfront après l’avoir envoyée.
 * Chaque demande envoyée crée un enregistrement pour le type d’enregistrement associé au formulaire que vous utilisez, si le formulaire n’est pas associé à une approbation ou si l’approbation a été accordée par tous les approbateurs.
-* Les enregistrements créés en soumettant des formulaires de demande ne peuvent pas être différenciés des enregistrements ajoutés par une autre méthode dans Workfront Planning.
+* Les enregistrements créés par l&#39;envoi de formulaires de demande sont identiques aux enregistrements ajoutés par le biais de toute autre méthode dans Workfront Planning.
 
   Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+* Les enregistrements créés par l’envoi de formulaires de demande sont connectés à la demande d’origine. Impossible de supprimer cette connexion.
+* Vous pouvez afficher à la fois les enregistrements créés et la demande dans les zones suivantes :
+   * Zone des requêtes dans Workfront
+
+  <div class="preview">
+
+   * Enregistrements dans n’importe quelle page de type d’enregistrement dans le champ Connexion de la demande d’origine
+   * Zone d’aperçu Détails de l’enregistrement dans le champ Connexion de la demande d’origine .
+
+  </div>
 * Les demandes envoyées s’affichent dans la zone des Demandes de Workfront.
 * Les demandes Planning envoyées sont visibles uniquement dans la nouvelle expérience de demande. Les requêtes Planning ne s’affichent pas dans l’expérience des requêtes héritées.
+Pour plus d’informations, voir [Création et envoi de demandes](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 * Il existe des limitations dans l’affichage de certains types de champs dans un formulaire de demande ou dans la page des détails de la demande après l’envoi d’un formulaire.
 
   Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -124,12 +134,13 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
    >[!TIP]
    >
-   >Ce paramètre est disponible uniquement lorsque les éléments suivants sont en place :
+   >Ce paramètre est disponible uniquement lorsque votre instance Workfront est intégrée à l’expérience unifiée Adobe.
    >
-   >* Votre société a acheté un package Workfront Planning.
-   >* Votre instance Workfront est intégrée à l’expérience unifiée Adobe.
+   >Pour pouvoir envoyer des demandes Workfront Planning dans cette zone, vous devez remplir les conditions suivantes :
+   >
+   >* Votre société a acheté une licence Workfront Planning.
+   >
    >* Vous avez accès à l’affichage d’au moins un espace de travail.
-   >
 
 1. Cliquez dans la barre **Quelle requête souhaitez-vous envoyer** pour ouvrir une liste de formulaires de demande.
 1. Sélectionnez un formulaire de demande dans la liste ou commencez à saisir son nom, puis sélectionnez-le lorsqu’il apparaît dans la liste.
@@ -142,12 +153,21 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
    Votre formulaire est envoyé et les événements suivants se produisent :
 
-   * Si le formulaire de demande n’a pas été associé à une approbation, la demande est ajoutée à la liste des Demandes dans la zone des Demandes Workfront et le widget Mes Demandes, et un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
+   * Si le formulaire de demande n’a pas été associé à une approbation, la demande est ajoutée à la liste des Demandes dans la zone des Demandes Workfront et du widget Mes demandes dans l’Accueil, et un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
 
-   * Si le formulaire de demande a été associé à une approbation, la demande est ajoutée à la liste des Demandes dans la zone des Demandes Workfront et du widget Mes Demandes . Un nouvel enregistrement n&#39;est ajouté à la page de type d&#39;enregistrement qu&#39;une fois que les approbateurs l&#39;ont approuvé.
+     Les champs suivants affichent les informations de demande et d’enregistrement dans la zone des Demandes et le widget Mes demandes dans l’Accueil :
+
+      * **Objet** : nom de la demande d’origine tel qu’il a été ajouté dans la zone des Demandes. Vous ne pouvez pas masquer ni supprimer le champ **Objet** de la liste des demandes.
+      * **Objet créé** : nom de l&#39;enregistrement créé à partir de la demande tel qu&#39;il s&#39;affiche dans Planning.
+      * **Type d&#39;objet** : nom de l&#39;espace de travail et type d&#39;enregistrement dans lequel des enregistrements ont été créés à partir de la demande dans Planning.
+      * **Statut** : statut de l’objet de la requête.
+      * **Formulaire de demande** : nom du formulaire de demande associé au type d&#39;enregistrement dans Planning.
+
+   * Si le formulaire de demande a été associé à une approbation, la demande est ajoutée à la liste des Demandes dans la zone des Demandes Workfront et au widget Mes Demandes avec le statut En attente de révision . Un nouvel enregistrement n&#39;est ajouté à la page de type d&#39;enregistrement qu&#39;une fois que les approbateurs l&#39;ont approuvé.
 
      Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
+   * <span class="preview">Vous pouvez ajouter le champ Connexion de la demande d&#39;origine à un type d&#39;enregistrement dans Planning qui affiche le nom de la demande d&#39;origine. Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
    * La demande est visible uniquement par le propriétaire, l&#39;approbateur et les personnes qui disposent au moins des autorisations d&#39;affichage de l&#39;espace de travail. Les administrateurs et administratrices de Workfront peuvent afficher toutes les demandes envoyées à n’importe quel espace de travail du système.
 
    * Vous recevez une notification in-app et un e-mail vous informant que la demande a été soumise avec succès ou envoyée pour révision.
@@ -160,11 +180,11 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
      >La demande est associée à un lien dans l’e-mail de confirmation ou de validation.
 
 1. (Facultatif) Cliquez sur **Afficher votre demande** dans le message de confirmation, pour ouvrir la demande, ou cliquez sur l’icône **X** pour fermer la confirmation.
-1. (Facultatif) Effectuez l’une des opérations suivantes :
+1. (Facultatif) Dans la liste des requêtes, effectuez l’une des opérations suivantes :
 
    * Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez afficher dans la liste des Requêtes.
 
-     ![Modification de filtres dans l&#39;onglet Demandes Planning](assets/filters-editing-box-in-requests-planning-tab.png)
+     ![Modification des filtres dans la zone des Demandes](assets/filters-editing-box-in-requests-planning-tab.png)
 
      Vous pouvez filtrer selon les champs suivants :
 
@@ -174,20 +194,19 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
       * **Formulaire de demande** : nom du formulaire de demande utilisé pour soumettre la demande.
       * **Statut** : statut de la demande.
       * **Saisi par** : nom de l’utilisateur qui a ajouté la demande. Si la demande a été ajoutée par une personne extérieure à Workfront, le champ **Saisi par** affiche `N/A`.
+      * **Statut de l’objet créé** : le statut de l’enregistrement créé.
 
-        Plusieurs filtres peuvent être joints par **Et** ou **Ou**.
+     Plusieurs filtres peuvent être joints par **Et** ou **Ou**.
 La liste des demandes est automatiquement filtrée à mesure que vous ajoutez les conditions de filtrage.
 
-   * Cliquez sur **Colonnes** et masquez, affichez ou réorganisez les colonnes de la liste des demandes.
+   * Cliquez sur **Colonnes** pour ouvrir la zone **Visibilité et ordre des champs**, puis masquez, affichez ou réorganisez les colonnes de la liste des demandes.
 
      >[!TIP]
      >
      >Vous ne pouvez plus ajouter de colonnes.
-     >
-     >Vous ne pouvez pas afficher le champ **Objet**.
 
      ![Zone d&#39;édition Colonnes de la zone Demandes](assets/columns-editing-box-in-requests-planning-tab.png)
-
+   * Cliquez sur l’icône **+** dans le coin supérieur droit de la liste des requêtes pour ouvrir le **Gestionnaire de colonnes** et ajouter ou supprimer des colonnes de la liste des requêtes.
 
 1. Cliquez sur le nom d’une requête dans la liste.
 
@@ -195,8 +214,8 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 
    ![Demander une page avec des commentaires](assets/new-request-page-with-comment.png)
 
-1. (Facultatif) Saisissez un commentaire dans la zone Commentaires.
-1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Enregistrement**.
+1. (Facultatif) Saisissez un commentaire dans la zone **Commentaires**.
+1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Objet créé**.
 
    La page de l’enregistrement s’ouvre dans Workfront Planning.
 
@@ -212,6 +231,8 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 
 ## Envoyez une demande à Workfront Planning à partir d’un lien partagé vers un formulaire de demande
 
+Les informations de cette section s’appliquent uniquement aux utilisateurs de Workfront qui envoient une demande à partir d’un lien partagé. Les personnes externes ne peuvent pas accéder aux zones internes de Workfront, comme Requêtes ou Accueil.
+
 1. Accédez au lien partagé avec vous à partir d’un type d’enregistrement Workfront Planning .
 
 1. Mettez à jour les champs disponibles dans le formulaire. Les champs avec un astérisque sont obligatoires.
@@ -226,7 +247,7 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 
    Votre formulaire est envoyé et les événements suivants se produisent :
 
-   * Si le formulaire de demande n’a pas été associé à une approbation, la demande est ajoutée à la liste des Demandes dans la zone des Demandes Workfront et le widget Mes Demandes, et un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
+   * Si le formulaire de demande n’a pas été associé à une approbation, la demande est ajoutée à la liste des Demandes dans la zone des Demandes Workfront et du widget Mes demandes dans l’Accueil, et un nouvel enregistrement est ajouté au type d’enregistrement associé au formulaire.
 
    * Si le formulaire de demande a été associé à une approbation, la demande est ajoutée à la liste des Demandes dans la zone des Demandes Workfront et du widget Mes Demandes . Un nouvel enregistrement n&#39;est ajouté à la page de type d&#39;enregistrement qu&#39;une fois que tous les approbateurs l&#39;ont approuvé.
 
@@ -278,7 +299,7 @@ Vous pouvez copier une demande dans la liste des demandes de Workfront, puis mod
 
 Cette option est disponible uniquement dans la nouvelle expérience de demande.
 
-Pour obtenir des instructions, voir [&#x200B; Copier et envoyer des demandes &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour obtenir des instructions, voir [ Copier et envoyer des demandes ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Créer des brouillons et des demandes à partir de brouillons existants
 

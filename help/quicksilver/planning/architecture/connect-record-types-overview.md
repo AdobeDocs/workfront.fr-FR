@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 29579097cd3aa75ab0478743b84dcb9bc3217489
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '2129'
-ht-degree: 9%
+source-wordcount: '2203'
+ht-degree: 10%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 9%
 
 # Types d’enregistrements connectés - Aperçu
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Vous pouvez indiquer que des types d’enregistrements individuels sont liés les uns aux autres ou à des objets d’autres applications en les connectant.
 
@@ -71,7 +71,7 @@ Pour plus d’informations sur la connexion des types d’enregistrements, voir 
 
         Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
-        Vous pouvez afficher la demande originale dans la zone des Demandes de Workfront<!--, <span class="preview">or in the Original Request connection field in Workfront Planning.</span>-->.
+        Vous pouvez afficher la demande d’origine dans le champ **Objet** de la zone Demandes de Workfront, <span class="preview">ou dans le champ Connexion à la demande d’origine de Workfront Planning.</span>.
 
    * Vous pouvez connecter des types d&#39;enregistrements Workfront Planning aux types d&#39;objets suivants à partir des applications suivantes :
 
@@ -119,7 +119,7 @@ Pour plus d’informations sur la connexion des types d’enregistrements, voir 
       * Les champs Enregistrements Planning ne sont pas accessibles à partir des objets Workfront.
       * Les enregistrements Planning sont visibles à partir de la section Planning de l&#39;objet Workfront. Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Vous pouvez créer un champ personnalisé de connexion Planning et le joindre au formulaire personnalisé d’un objet Workfront. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
       * Les champs d’enregistrement Planning ne sont pas accessibles à partir des marques dans GenStudio for Performance Marketing.
 
    * **Lorsque vous ajoutez des champs de recherche à partir de l’enregistrement ou de l’objet auquel vous vous connectez** : en plus de créer un champ d’enregistrement lié, vous pouvez également vous connecter aux champs du type d’enregistrement ou d’objet connecté qui sont appelés champs de recherche. Un champ lié (ou de recherche) contenant des informations de l&#39;enregistrement auquel vous vous connectez s&#39;affiche sur l&#39;enregistrement auquel vous vous connectez.

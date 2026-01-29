@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
 source-wordcount: '3518'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;e
 
 Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -121,7 +121,7 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Créer un formulaire de demande** ou **Gérer les formulaires de demande**, si vous disposez déjà d’un formulaire et que vous souhaitez en créer d’autres.
 1. (Conditionnel) Si vous souhaitez ajouter un autre formulaire, cliquez sur **Nouveau formulaire de demande**.
 
-   La zone Créer un formulaire de demande s’ouvre.
+   La boîte de dialogue **Créer un formulaire de demande** s’ouvre.
 
 1. Dans la zone Créer un formulaire de demande, mettez à jour le nom du formulaire de demande. Par défaut, le nom du formulaire est **Formulaire sans titre**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facultatif) Ajoutez une **Description** pour le formulaire de demande.
@@ -131,7 +131,7 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur **Créer**.
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [&#x200B; Configurer les détails du formulaire de demande &#x200B;](#set-up-details-for-the-request-form).
+1. Passez à [ Configurer les détails du formulaire de demande ](#set-up-details-for-the-request-form).
 
 <!--
 
@@ -170,7 +170,7 @@ Les détails du formulaire sont divisés en onglets.
 
   >[!NOTE]
   >
-  ><span class="preview">Dans l’environnement de Prévisualisation, l’onglet Paramètres remplace l’onglet Configuration </span>.
+  ><span class="preview">Dans l’environnement Aperçu, l’onglet Paramètres a remplacé l’onglet Configuration </span>.
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Configurer les détails du formulaire
@@ -260,7 +260,7 @@ Dans l’onglet Configuration , vous pouvez définir le processus d’approbatio
    * Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
    * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-   Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
 
@@ -293,7 +293,7 @@ Tenez compte des points suivants lors de l’ajout de règles d’approbation :
 * Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
 * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+Pour plus d’informations sur l’ajout d’approbations, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Pour définir des règles d&#39;approbation pour un formulaire de demande :
 

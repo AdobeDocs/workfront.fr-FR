@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1192'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Cet article décrit comment un responsable d’espace de travail peut ajouter un
 
 Pour plus d’informations sur la création d’un formulaire de demande dans Workfront Planning, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -119,7 +119,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    >   L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
 
 
-   Pour plus d’informations sur l’approbation des demandes, voir [&#x200B; Approuver une demande &#x200B;](/help/quicksilver/planning/requests/approve-request.md).
+   Pour plus d’informations sur l’approbation des demandes, voir [ Approuver une demande ](/help/quicksilver/planning/requests/approve-request.md).
 
 <div class="preview">
 
@@ -138,9 +138,7 @@ Tenez compte des points suivants lors de l’ajout de règles d’approbation :
 * Vous pouvez ajouter un ou plusieurs approbateurs à une règle d&#39;approbation.
 * Si au moins un approbateur rejette la demande, celle-ci est rejetée et l&#39;enregistrement n&#39;est pas créé. La demande reste dans la zone des Demandes de Workfront.
 * Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
-* Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
-
-Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+* Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part d&#39;un membre de l&#39;équipe.
 
 Pour définir des règles d&#39;approbation pour un formulaire de demande :
 
@@ -149,25 +147,24 @@ Pour définir des règles d&#39;approbation pour un formulaire de demande :
 
    L’onglet Paramètres s’affiche.
 
-1. Pour commencer à configurer les règles d’approbation, cliquez sur Approbations ![icône Approbations](assets/approvals-icon-on-form.png) dans le volet de navigation de gauche.
+1. Pour commencer à configurer les règles d’approbation, cliquez sur **Approbations** ![Icône Validations](assets/approvals-icon-on-form.png) dans le panneau de gauche.
 
-1. (Facultatif) Si vous souhaitez définir un processus d&#39;approbation par défaut, ajoutez au moins un utilisateur ou une équipe au champ **Approbateurs** de la zone Règle d&#39;approbation par défaut, puis cochez la case **Une seule décision est requise** si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs par défaut.
+1. (Facultatif) Si vous souhaitez définir un processus d&#39;approbation par défaut, ajoutez au moins un utilisateur ou une équipe au champ **Approbateurs** de la zone **Règle d&#39;approbation par défaut**, puis cochez la case **Une seule décision est requise** si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs par défaut.
 
    ![Zone de règle d&#39;approbation par défaut](assets/default-approvers.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-1. (Facultatif) Pour chaque règle d’approbation supplémentaire, procédez comme suit :
+1. (Facultatif) Commencez à ajouter des règles d’approbation. Pour chaque règle de validation, procédez comme suit :
 
    1. Cliquez sur **Ajouter une règle d’approbation**
-   1. Cliquez sur le titre de l’espace réservé « Règle d’approbation sans titre » et saisissez un nom pour la règle d’approbation.
+   1. Cliquez sur le titre de l’espace réservé **Règle d’approbation sans titre** et saisissez un nom pour la règle d’approbation.
    1. Cliquez sur **Sélectionner un champ** et sélectionnez le champ qui active la règle.
    1. Sélectionnez l’opérateur de la règle. Les opérateurs varient en fonction du type de champ.
    1. Si l’opérateur sélectionné requiert une valeur, cliquez sur l’icône plus et ajoutez une ou plusieurs valeurs.
-   1. (Facultatif) Ajoutez d’autres conditions à l’aide de ET ou de OU en cliquant sur Ajouter une condition et en configurant la condition supplémentaire comme indiqué dans les étapes C à E.
-   1. Dans la zone Actions de la règle d&#39;approbation, dans le champ **Approbateurs**, ajoutez au moins un utilisateur ou une équipe à définir au niveau de l&#39;approbateur lorsque la condition est remplie.
-   1. &#x200B;
-      1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
+   1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter d’autres conditions et les connecter par des instructions **Et** ou **Ou** en configurant les conditions supplémentaires comme indiqué dans les étapes C-E.
+   1. Dans la zone **Actions** de la règle d&#39;approbation, dans le champ **Approbateurs**, ajoutez au moins un utilisateur ou une équipe à définir au niveau de l&#39;approbateur lorsque la condition est remplie.
+   1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
 
 1. Cliquez sur **Enregistrer** pour enregistrer les règles d’approbation.
 1. (Facultatif) Cliquez sur **Publier** si vous n’avez jamais partagé le formulaire de demande auparavant.
