@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 37%
+source-wordcount: '813'
+ht-degree: 34%
 
 ---
 
@@ -29,7 +29,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>26.2 (12 Février 2026)</li><li>26.3 (12 mars 2026)</li><li>26.4 (jeudi 15 avril 2026)</li></ul> | <ul><li>26.1 (vendredi 16 avril 2026)</li></ul> |
+>| <ul><li>26.2 (vendredi 12 février 2026)</li><li>26.3 (vendredi 12 mars 2026)</li><li>26.4 (jeudi 15 avril 2026)</li></ul> | <ul><li>26.1 (vendredi 16 avril 2026)</li></ul> |
 >
 >Notez que pour la version finale de chaque trimestre (26.4 ce trimestre), les utilisateurs disposant du planning de publication rapide recevront la version un jour plus tôt (15 avril 2026).
 >
@@ -38,6 +38,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
+* [Améliorations apportées aux projets](#project-enhancements)
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations apportées aux administrateurs et administratrices
@@ -52,6 +53,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Aperçu</strong></td>
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Le type de champ Texte enrichi est désormais disponible sur les formulaires personnalisés</a><p>Le nouveau type de champ <b>Texte enrichi</b> dans les formulaires personnalisés est un puissant éditeur de texte, avec des options de mise en forme telles que l’exposant et l’indice, les en-têtes et les tableaux, en plus des options traditionnelles telles que le gras, l’italique, le soulignement, les puces, la numérotation, les liens hypertexte et les guillemets. La limite de caractères reste de 15 000.</p>
+        </td>
+        <td><p>vendredi 29 janvier 2026</p></td>
+        <td><p>vendredi 12 février 2026</p></td>
+        <td><p>vendredi 16 avril 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nouvelles adresses IP pour les notifications par e-mail de Workfront</a><p></p>
@@ -81,6 +90,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Améliorations apportées aux projets
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Fonctionnalité</strong>
+        </td>
+        <td><strong>Aperçu</strong></td>
+        <td><strong>Version rapide</strong></td>
+        <td><strong>Tous les trimestres</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Expérience mise à jour lors de l’affectation de tâches en une seule fois ou en bloc </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> Nous avons mis à jour la section Affectations dans la zone Modifier les tâches lors de la modification de tâches uniques ou de leur modification en bloc. </p>
+        </td>
+        <td><p>mardi 26 janvier 2026</p></td>
+        <td><p>À Compter Du 5 Février 2026</p></td>
+        <td><p>À Compter Du 5 Février 2026</p></td>
+    </tr>
+            </tbody>
+        </table>
+
 ### Autres améliorations
 
 <table>
@@ -101,7 +133,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>vendredi 11 décembre 2025</p></td>
         <td><p>jeudi 11 février 2026</p></td>
         <td><p>jeudi 11 février 2026</p></td>
-    <tr>
+    </tr>
             </tbody>
         </table>
 
@@ -172,9 +204,9 @@ Nous vous recommandons d’utiliser l’automatisation et l’intégration de Wo
 Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
-### Mises à jour de maintenance pour Workfront 
+### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

@@ -4,10 +4,10 @@ description: Améliorations apportées à l’équipe d’administration au deux
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 41%
+source-wordcount: '251'
+ht-degree: 23%
 
 ---
 
@@ -16,6 +16,22 @@ ht-degree: 41%
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du deuxième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2026, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+
+
+## Le type de champ Rich Text est désormais disponible sur les formulaires personnalisés
+
+>[!NOTE]
+>
+>Aperçu : 29 janvier 2026
+>Version rapide de production : 12 février 2026\
+>Production pour tous : 16 avril 2026
+
+Le nouveau type de champ **Texte enrichi** dans les formulaires personnalisés est un puissant éditeur de texte, avec des options de mise en forme telles que l’exposant et l’indice, les en-têtes et les tableaux, en plus des options traditionnelles telles que le gras, l’italique, le soulignement, les puces, la numérotation, les liens hypertexte et les guillemets. La limite de caractères reste de 15 000.
+
+Le type de champ Texte enrichi remplace le texte par un type de champ de mise en forme. Vous pouvez rapidement convertir du texte existant avec des champs de mise en forme en texte enrichi en cliquant sur le bouton dans les options de champ à droite.
+
+Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Nouvelles adresses IP pour les notifications par e-mail Workfront
 
