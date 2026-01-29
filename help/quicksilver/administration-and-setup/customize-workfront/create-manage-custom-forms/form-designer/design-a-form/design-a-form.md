@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
 workflow-type: tm+mt
-source-wordcount: '6941'
+source-wordcount: '7040'
 ht-degree: 49%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 49%
 # Créer un formulaire personnalisé
 
 <!-- Audited: 6/2025 -->
+
+{{preview-fast-release-general}}
 
 Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaire dans Adobe Workfront. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données en rapport avec ces objets.
 
@@ -80,8 +82,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * [Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes](#add-radio-buttons-checkbox-groups-and-drop-downs)
    * [Ajouter des champs de frappe continue et des champs de date](#add-typeahead-and-date-fields)
    * [Ajouter des champs de recherche externes](#add-external-lookup-fields)
-   * [&#128279;](#add-images-pdfs-and-videos)Ajouter des images, des fichiers PDF et des vidéos
-
+   * [Ajouter des images, des fichiers PDF et des vidéos
+](#add-images-pdfs-and-videos)
    * [Ajouter des champs natifs Workfront](#add-workfront-native-fields)
    * [Ajouter des fichiers Adobe XD](#add-adobe-xd-files)
    * [Ajouter des champs de connexion Planning](#add-planning-connection-fields)
@@ -158,6 +160,10 @@ Vous pouvez ajouter plusieurs champs de texte différents à un formulaire perso
 
 * **Champ de texte monoligne** : permet aux utilisateurs de saisir une seule ligne de texte dans le champ.
 * **Champ de paragraphe** : permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ.
+* <span class="preview">**Texte enrichi** : permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre en forme le texte avec du gras, de l’italique, du soulignement, des puces, de la numérotation, des indices et des exposants, des liens hypertexte, des guillemets, des en-têtes et des tableaux. Une limite de caractères de 15 000 caractères offre un grand espace pour le texte et la mise en forme.</span>
+
+  <span class="preview">Le type de champ Texte enrichi remplace le texte par un type de champ de mise en forme. Vous pouvez rapidement convertir du texte existant avec des champs de mise en forme en texte enrichi en cliquant sur le bouton **Convertir en texte enrichi** dans les options de champ à droite.</span>
+
 * **Champ de texte avec mise en forme** : permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre en forme le texte avec du gras, de l’italique, du soulignement, des puces, de la numérotation, des liens hypertexte et des guillemets. La limite de 15 000 caractères permet d’utiliser du texte et des mises en forme variés.
 
   Ce type de champ personnalisé n’est pas pris en charge dans les filtres sur les listes et les rapports.
@@ -178,6 +184,7 @@ Pour ajouter un champ de texte, procédez comme suit :
 
    * Texte sur une seule ligne
    * Paragraphe
+   * <span class="preview">Texte enrichi</span>
    * Texte avec formatage
    * Texte descriptif
 
@@ -198,6 +205,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
+    <li><span class="preview">Texte enrichi</span></li>
     <li>Texte avec formatage</li>
     <li>Texte descriptif</li>
     </ul></td>
@@ -209,6 +217,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
+    <li><span class="preview">Texte enrichi</span></li>
     <li>Texte avec formatage</li>
     </ul></td>
     </tr>
@@ -220,6 +229,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
+    <li><span class="preview">Texte enrichi</span></li>
     <li>Texte avec formatage</li>
     <li>Texte descriptif</li>
     </ul></td>
@@ -232,6 +242,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
+    <li><span class="preview">Texte enrichi</span></li>
     <li>Texte avec formatage</li>
     </ul></td>
     </tr>
@@ -267,15 +278,17 @@ Pour ajouter un champ de texte, procédez comme suit :
      <td><ul>
      <li>Texte sur une seule ligne</li>
      <li>Paragraphe</li>
+     <li><span class="preview">Texte enrichi</span></li>
      <li>Texte avec formatage</li>
      <li>Texte descriptif</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">Créer un champ obligatoire</td>
+      <td>Créer un champ obligatoire</td>
       <td><p>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé.</p></td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
+    <li><span class="preview">Texte enrichi</span></li>
     <li>Texte avec formatage</li>
     </ul></td> 
     </tr> 
@@ -448,7 +461,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
 
    Pour copier un champ, pointez dessus et cliquez sur l’icône de copie.
 
-   ![&#x200B; Icône Copier &#x200B;](assets/copy-field.png)
+   ![ Icône Copier ](assets/copy-field.png)
 
 1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
 
@@ -654,12 +667,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Cela permet de sélectionner les valeurs à l’intérieur du fichier JSON qui apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si votre URL d’API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
       <pre>
-      &lbrace;
-data: &lbrace;
+      {
+data: {
 { name: "USA"},
 { name: "Canada"}
-&rbrace;
-&rbrace;
+}
+}
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
