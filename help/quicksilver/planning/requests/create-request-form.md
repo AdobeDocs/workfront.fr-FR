@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '3518'
 ht-degree: 4%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 4%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -30,7 +30,7 @@ Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;e
 
 Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -131,7 +131,7 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur **Créer**.
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [&#x200B; Configurer le formulaire &#x200B;](#configure-the-form).
+1. Passez à [ Configurer les détails du formulaire de demande ](#set-up-details-for-the-request-form).
 
 <!--
 
@@ -166,7 +166,11 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 Les détails du formulaire sont divisés en onglets.
 
 * L’onglet **Formulaire** vous permet d’ajouter des champs et des éléments de contenu au formulaire
-* L’onglet **Configuration** vous permet de définir un processus de validation du formulaire et de définir les options de fin de la demande&lt;.
+* L’onglet **Configuration** vous permet de définir un processus d’approbation du formulaire et de définir les options de remplissage de la demande.
+
+  >[!NOTE]
+  >
+  ><span class="preview">Dans l’environnement de Prévisualisation, l’onglet Paramètres remplace l’onglet Configuration </span>.
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Configurer les détails du formulaire
@@ -226,9 +230,17 @@ Les détails du formulaire sont divisés en onglets.
    Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Facultatif) Cliquez sur **Aperçu** pour voir comment le formulaire s’affichera pour les autres utilisateurs lorsqu’ils l’utiliseront pour envoyer un nouvel enregistrement.
-1. Passez à [Configurer les détails de configuration](#set-up-configuration-details) si vous souhaitez configurer plus de détails pour le formulaire, ou accédez à [Terminer la création du formulaire de demande](#complete-request-form-creation).
+1. Passez à l’un des éléments suivants :
+
+   * [Configurer les détails de configuration](#set-up-configuration-details) si vous souhaitez configurer plus de détails pour le formulaire dans l’environnement d’Exploitation
+   * <span class="preview">[Configurer les paramètres](#configure-settings) si vous souhaitez configurer plus de détails pour le formulaire dans l’environnement de production</span>
+   * [Complétez la création du formulaire de demande](#complete-request-form-creation) si vous ne souhaitez pas configurer d’autres paramètres.
 
 #### Configurer les détails de configuration
+
+>[!NOTE]
+>
+>Cet onglet est disponible uniquement dans l’environnement de production.
 
 Dans l’onglet Configuration , vous pouvez définir le processus d’approbation et configurer le moment où une demande créée à partir de ce formulaire sera marquée comme Terminée.
 
@@ -248,13 +260,89 @@ Dans l’onglet Configuration , vous pouvez définir le processus d’approbatio
    * Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
    * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-   Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
 
 1. Choisissez si vous souhaitez qu&#39;une demande créée à partir de ce formulaire soit marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet demandé est terminé.
 1. (Conditionnel) Si vous avez sélectionné pour que la demande soit marquée comme terminée une fois l’objet demandé terminé, sélectionnez le champ et la valeur qui indiquent quand l’objet est terminé. Par exemple, vous pouvez sélectionner le champ Statut et la valeur Terminé pour terminer la demande lorsque le statut de l&#39;objet créé est défini sur Terminé.
 1. Passez à <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Terminer la création du formulaire de demande](#complete-request-form-creation).
+
+<div class="preview">
+
+### Configurer les paramètres
+
+>[!NOTE]
+>
+>Cet onglet est disponible uniquement dans l’environnement de Prévisualisation.
+
+Dans l’onglet Paramètres , vous pouvez définir des règles d’approbation et configurer le moment où une demande créée à partir de ce formulaire sera marquée comme Terminée.
+
+#### Configuration des règles de validation
+
+Les règles d’approbation définissent le processus d’approbation en fonction des valeurs de champ sur dans les demandes envoyées.
+
+Par exemple, si un formulaire de demande comporte le champ « Type de campagne », il est possible de créer une règle qui envoie la demande à une personne lorsque le champ comporte la valeur « Numérique » et à une autre personne lorsqu’il comporte la valeur « Imprimer ».
+
+Tenez compte des points suivants lors de l’ajout de règles d’approbation :
+
+* Les règles sont hiérarchisées par ordre de priorité. Si les conditions de la première règle sont remplies, cette règle est appliquée, même si les conditions des règles situées plus bas dans la liste sont également remplies.
+* Si aucune condition n’est remplie, la règle par défaut est appliquée.
+* Vous pouvez ajouter un ou plusieurs approbateurs à une règle d&#39;approbation.
+* Si au moins un approbateur rejette la demande, celle-ci est rejetée et l&#39;enregistrement n&#39;est pas créé. La demande reste dans la zone des Demandes de Workfront.
+* Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
+* Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
+
+Pour plus d’informations sur l’ajout d’approbations, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+Pour définir des règles d&#39;approbation pour un formulaire de demande :
+
+1. Commencez à créer ou à modifier un formulaire de demande, comme décrit dans la section [Commencer à créer un formulaire de demande](#begin-creating-a-request-form).
+
+   Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
+1. (Facultatif) Configurez tous les détails du formulaire, comme décrit dans la section [Configurer les détails du formulaire](#set-up-form-details).
+
+1. Pour commencer à configurer les règles d’approbation, cliquez sur Approbations ![icône Approbations](assets/approvals-icon-on-form.png) dans le volet de navigation de gauche.
+
+1. (Facultatif) Si vous souhaitez définir un processus d&#39;approbation par défaut, ajoutez au moins un utilisateur ou une équipe au champ **Approbateurs** de la zone Règle d&#39;approbation par défaut, puis cochez la case **Une seule décision est requise** si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs par défaut.
+
+   ![Zone de règle d&#39;approbation par défaut](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. (Facultatif) Pour chaque règle d’approbation supplémentaire, procédez comme suit :
+
+   1. Cliquez sur **Ajouter une règle d’approbation**
+   1. Cliquez sur le titre de l’espace réservé « Règle d’approbation sans titre » et saisissez un nom pour la règle d’approbation.
+   1. Cliquez sur **Sélectionner un champ** et sélectionnez le champ qui active la règle.
+   1. Sélectionnez l’opérateur de la règle. Les opérateurs varient en fonction du type de champ.
+   1. Si l’opérateur sélectionné requiert une valeur, cliquez sur l’icône plus et ajoutez une ou plusieurs valeurs.
+   1. (Facultatif) Ajoutez d’autres conditions à l’aide de l’opérateur AND ou OR en cliquant sur Ajouter une condition et en configurant la condition supplémentaire.
+   1. Dans la zone Actions de la règle d&#39;approbation, dans le champ **Approbateurs**, ajoutez au moins un utilisateur ou une équipe à définir au niveau de l&#39;approbateur lorsque la condition est remplie.
+   1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
+
+1. (Facultatif) Pour réorganiser les règles de routage, cliquez sur la poignée située à gauche de la règle et faites-la glisser jusqu&#39;à l&#39;emplacement souhaité.
+
+   Impossible de réorganiser la règle par défaut.
+
+1. (Facultatif) Pour supprimer une règle de transmission, cliquez sur le **X** situé à droite de la règle.
+1. Cliquez sur **Enregistrer** pour enregistrer les règles d’approbation.
+1. Passez à [Définir les options d’achèvement de la demande](#set-request-completion-options)
+
+#### Définir les options d’achèvement de la demande
+
+Les options d&#39;achèvement vous permettent de définir si une demande est marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet créé est terminé. Vous définissez le moment où l’objet est terminé en fonction d’une condition spécifiée.
+
+1. Commencez à créer ou à modifier un formulaire de demande, comme décrit dans la section [Commencer à créer un formulaire de demande](#begin-creating-a-request-form).
+
+   Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
+1. (Facultatif) Configurez tous les détails du formulaire, comme décrit dans la section [Configurer les détails du formulaire](#set-up-form-details).
+
+1. Choisissez si vous souhaitez qu&#39;une demande créée à partir de ce formulaire soit marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet demandé est terminé.
+1. (Conditionnel) Si vous avez sélectionné pour que la demande soit marquée comme terminée une fois l’objet demandé terminé, sélectionnez le champ et la valeur qui indiquent quand l’objet est terminé. Par exemple, vous pouvez sélectionner le champ Statut et la valeur Terminé pour terminer la demande lorsque le statut de l&#39;objet créé est défini sur Terminé.
+1. Passez à <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Terminer la création du formulaire de demande](#complete-request-form-creation).
+
+</div>
 
 <!--
  
