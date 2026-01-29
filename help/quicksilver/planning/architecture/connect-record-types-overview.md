@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 29579097cd3aa75ab0478743b84dcb9bc3217489
 workflow-type: tm+mt
-source-wordcount: '2006'
-ht-degree: 11%
+source-wordcount: '2129'
+ht-degree: 9%
 
 ---
 
@@ -30,57 +30,77 @@ Pour plus d’informations sur la connexion des types d’enregistrements, voir 
 
 ## Remarques concernant la connexion des types d’enregistrement
 
-Dans Workfront Planning, les connexions se font en deux étapes :
+* Pour que des enregistrements ou des objets individuels soient connectés les uns aux autres, les types d&#39;enregistrements doivent d&#39;abord être connectés aux types d&#39;objets.
 
-1. Etablissez une connexion entre deux types d&#39;enregistrements ou un type d&#39;enregistrement et un type d&#39;objet à partir d&#39;une autre application.
+  Vous pouvez connecter des types d’enregistrements et des types d’objets les uns aux autres des manières suivantes :
 
-   Pour plus d’informations sur la connexion des types d’enregistrements, voir [Connexion des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Manuellement
+   * Automatiquement
 
-1. Connecter un enregistrement individuel d&#39;un type avec des enregistrements d&#39;un autre type après la connexion des deux types d&#39;enregistrements. Pour plus d&#39;informations sur la connexion des enregistrements, voir [Connexion des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+  >[!NOTE]
+  >
+  >Vous pouvez avoir jusqu’à 30 champs connectés pour un type d’enregistrement dans Workfront Planning.
 
-Tenez compte des points suivants concernant la connexion des types d’enregistrements :
 
-* Vous pouvez avoir jusqu’à 30 champs connectés pour un type d’enregistrement dans Workfront Planning.
+* Tenez compte des points suivants concernant la connexion des types d’enregistrement et d’objet :
 
-* Vous pouvez connecter les entités suivantes dans Adobe Workfront Planning :
+   * Vous pouvez ajouter manuellement un champ Nouvelle connexion à partir d&#39;un type d&#39;enregistrement pour connecter les entités suivantes dans Workfront Planning :
 
-   * Deux types d’enregistrement.
+      * Deux types d’enregistrements
 
-     Par défaut, vous pouvez connecter deux types d’enregistrements à partir du même espace de travail. Vous pouvez également configurer des types d’enregistrements pour qu’ils se connectent à des types d’enregistrements d’autres espaces de travail, si votre organisation a acheté un package Workfront ou Planning supérieur. Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * Type d’enregistrement et type d’objet d’une autre application.
+        Par défaut, vous pouvez connecter deux types d’enregistrements à partir du même espace de travail. Vous pouvez également configurer des types d’enregistrements pour qu’ils se connectent à des types d’enregistrements d’autres espaces de travail, si votre organisation a acheté un package Workfront ou Planning supérieur. Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
+      * Type d’enregistrement et type d’objet d’une autre application.
 
-* Vous pouvez connecter des types d&#39;enregistrements Workfront Planning aux types d&#39;objets suivants à partir des applications suivantes :
+     Pour plus d’informations sur la connexion des types d’enregistrement et d’objet, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-   * Adobe Workfront :
+     Après avoir connecté manuellement des types d&#39;enregistrements à d&#39;autres types d&#39;enregistrements ou d&#39;objets, vous pouvez connecter des enregistrements et des objets individuels.
 
-      * Projets
-      * Portefeuilles
-      * Programmes
-      * Entreprises
-      * Groupes
+     Pour plus d’informations, consultez [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
-   * Adobe Experience Manager Assets :
+   * Une connexion entre les entités est établie automatiquement dans les scénarios suivants :
 
-      * Images
-      * Dossiers
+      * Lorsque vous utilisez une automatisation pour créer des enregistrements à partir de la page d’un type d’enregistrement.
 
-   * Adobe GenStudio for Performance Marketing
+        La connexion entre les types d&#39;enregistrement ou le type d&#39;enregistrement et le type d&#39;objet d&#39;une autre application est automatiquement créée lorsque l&#39;automatisation crée l&#39;enregistrement ou l&#39;objet connecté.
 
-      * Marques
+        Pour plus d’informations, voir [Configuration des automatisations d’Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-     >[!IMPORTANT]
-     >
-     >Vous devez disposer des éléments suivants pour vous connecter aux marques Adobe Experience Manager Assets et GenStudio :
-     >* Une licence Adobe Experience Manager Assets
-     >* Une licence Adobe GenStudio for Performance Marketing
-     >* L’instance de Workfront de votre organisation doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour connecter les enregistrements Workfront Planning à Adobe Experience Manager Assets.
-     >Pour plus d’informations sur Adobe Admin Console, consultez la [FAQ sur l’expérience unifiée Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+      * Lorsque vous configurez des formulaires de demande pour un type d’enregistrement afin de créer un enregistrement ou un objet.
 
-* Après avoir créé des enregistrements pour les types d’enregistrements, vous pouvez les lier les uns aux autres par le biais du champ d’enregistrement connecté.
+        La connexion entre le type d&#39;enregistrement et le type d&#39;objet de demande est automatiquement créée lorsque vous soumettez et approuvez une demande Planning qui crée un enregistrement.
 
-  Pour plus d’informations, consultez [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+        Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
-* Lorsque vous connectez un type d’enregistrement à un autre type d’enregistrement ou à un type d’objet provenant d’une autre application, les scénarios suivants se présentent :
+        Vous pouvez afficher la demande originale dans la zone des Demandes de Workfront<!--, <span class="preview">or in the Original Request connection field in Workfront Planning.</span>-->.
+
+   * Vous pouvez connecter des types d&#39;enregistrements Workfront Planning aux types d&#39;objets suivants à partir des applications suivantes :
+
+      * Adobe Workfront :
+
+         * Projets
+         * Portefeuilles
+         * Programmes
+         * Entreprises
+         * Groupe
+
+      * Adobe Experience Manager Assets :
+
+         * Images
+         * Dossiers
+
+      * Adobe GenStudio for Performance Marketing
+
+         * Marques
+
+        >[!IMPORTANT]
+        >
+        >Vous devez disposer des éléments suivants pour vous connecter aux marques Adobe Experience Manager Assets et GenStudio :
+        >* Une licence Adobe Experience Manager Assets
+        >* Une licence Adobe GenStudio for Performance Marketing
+        >* L’instance de Workfront de votre organisation doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour connecter les enregistrements Workfront Planning à Adobe Experience Manager Assets.
+        >Pour plus d’informations sur Adobe Admin Console, consultez la [FAQ sur l’expérience unifiée Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+* Lorsque deux types d’enregistrements ou un type d’enregistrement et un type d’objet d’une autre application sont connectés , les scénarios suivants existent :
 
    * **Lorsque vous connectez deux types d&#39;enregistrements Planning** : Un champ d&#39;enregistrement lié est créé sur le type d&#39;enregistrement à partir duquel vous vous connectez. Un champ d’enregistrement lié similaire est créé sur le type d’enregistrement auquel vous vous connectez, uniquement lorsque vous activez le paramètre Créer le champ correspondant sur le type d’enregistrement lié sur l’onglet Nouvelle connexion .
 
@@ -99,7 +119,7 @@ Tenez compte des points suivants concernant la connexion des types d’enregistr
       * Les champs Enregistrements Planning ne sont pas accessibles à partir des objets Workfront.
       * Les enregistrements Planning sont visibles à partir de la section Planning de l&#39;objet Workfront. Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Vous pouvez créer un champ personnalisé de connexion Planning et le joindre au formulaire personnalisé d’un objet Workfront. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
       * Les champs d’enregistrement Planning ne sont pas accessibles à partir des marques dans GenStudio for Performance Marketing.
 
    * **Lorsque vous ajoutez des champs de recherche à partir de l’enregistrement ou de l’objet auquel vous vous connectez** : en plus de créer un champ d’enregistrement lié, vous pouvez également vous connecter aux champs du type d’enregistrement ou d’objet connecté qui sont appelés champs de recherche. Un champ lié (ou de recherche) contenant des informations de l&#39;enregistrement auquel vous vous connectez s&#39;affiche sur l&#39;enregistrement auquel vous vous connectez.

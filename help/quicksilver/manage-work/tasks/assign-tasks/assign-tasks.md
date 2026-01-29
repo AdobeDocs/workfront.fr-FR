@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 83%
+source-wordcount: '2424'
+ht-degree: 78%
 
 ---
 
@@ -224,6 +224,10 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 
 ## Affecter plusieurs tâches en bloc à partir d’une liste
 
+L’affectation de plusieurs tâches en bloc à partir d’une liste diffère selon l’environnement choisi.
+
+### Attribuez plusieurs tâches en bloc à partir d’une liste dans l’environnement de production .
+
 1. Accédez à la liste des tâches que vous souhaitez affecter en masse.
 1. (Le cas échéant) Assurez-vous que l’option **Enregistrement automatique** est sélectionnée si vous vous trouvez dans la liste des tâches d’un projet.
 
@@ -241,11 +245,6 @@ Pour affecter des tâches dans une liste, procédez comme suit :
    Pour plus d’informations, consultez la section [Affecter plusieurs tâches en bloc à partir d’une liste dans la nouvelle expérience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) dans cet article.
 
 1. (Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier les tâches** pour ouvrir l’ancienne expérience.
-
-   >[!TIP]
-   >
-   >L’affectation de tâches dans l’environnement de production n’est disponible que dans l’ancienne expérience.
-
 
 1. (Conditionnel) Dans l’ancienne expérience, dans la zone **Affectations**, sélectionnez la zone **Personne désignée**, puis commencez à saisir le nom d’un utilisateur, d’une fonction ou d’une équipe que vous souhaitez affecter à toutes les tâches.
 
@@ -315,8 +314,48 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 1. (Facultatif) Si vous souhaitez supprimer des personnes désignées existantes de toutes les tâches, cliquez sur le **x** en regard de leur nom dans le champ **Rechercher des personnes, des rôles ou des équipes**.
 
 1. Cliquer sur **Enregistrer**.
-1. (Facultatif et conditionnel) Lorsque les champs **Affecté à** ou **Affectations** s’affichent dans votre liste de tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur l’icône **X** en regard du nom d’une personne désignée pour la supprimer de la tâche
+1. (Facultatif et conditionnel) Lorsque les champs **Affecté à** ou **Affectations** s’affichent dans votre liste de tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur l’icône **X** en regard du nom d’une personne désignée pour la supprimer de la tâche.
 
+<div class="preview">
+
+### Affectez plusieurs tâches en bloc à partir d’une liste dans l’environnement Aperçu
+
+1. Accédez à la liste des tâches que vous souhaitez affecter en masse.
+1. (Le cas échéant) Assurez-vous que l’option **Enregistrement automatique** est sélectionnée si vous vous trouvez dans la liste des tâches d’un projet.
+
+   >[!IMPORTANT]
+   >
+   >Vous ne pouvez pas modifier les tâches en masse lors de l’enregistrement manuel des tâches sur un projet.
+
+1. Sélectionnez plusieurs tâches dans la liste des tâches.
+1. Cliquez sur **Modifier**.
+
+   La boîte de dialogue **Modifier les tâches** s’ouvre.
+
+1. Dans la zone **Affectations**, commencez à saisir le nom des utilisateurs, des équipes ou des rôles dans le champ **Rechercher des personnes, des rôles ou des équipes** fourni, puis cliquez dessus lorsqu’ils s’affichent dans la liste
+
+   >[!IMPORTANT]
+   >
+   >Si l’une des tâches est déjà affectée, les ressources que vous indiquez ici sont ajoutées aux tâches au lieu de remplacer les ressources existantes sur les tâches.
+
+1. Renseignez les champs suivants pour les tâches sélectionnées :
+
+   * Pointez sur le nom de l’affectation, puis cliquez sur **Créer un Principal** pour indiquer quelle personne désignée est le propriétaire de la tâche.
+   * **Type de durée**
+
+     Pour plus d’informations sur le type de durée des tâches, voir la section [Vue d’ensemble de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+   * **Durée**
+   * **Nombre d’heures prévues**
+
+     Pour plus d’informations, voir [Modifier des tâches](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. (Facultatif) Si vous souhaitez supprimer des personnes désignées existantes de toutes les tâches, cliquez sur le **x** en regard de leur nom dans le champ **Rechercher des personnes, des rôles ou des équipes**.
+
+1. Cliquer sur **Enregistrer**.
+1. (Facultatif et conditionnel) Lorsque les champs **Affecté à** ou **Affectations** s’affichent dans votre liste de tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur l’icône **X** en regard du nom d’une personne désignée pour la supprimer de la tâche.
+
+</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

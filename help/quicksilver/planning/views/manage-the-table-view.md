@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '3418'
+source-wordcount: '3440'
 ht-degree: 52%
 
 ---
@@ -31,7 +31,7 @@ Cet article décrit les informations suivantes :
 * [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
 * [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
 
-Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [&#x200B; Exporter des enregistrements de la vue Tableau &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [ Exporter des enregistrements de la vue Tableau ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Conditions d’accès
 
@@ -168,7 +168,7 @@ Pour gérer une vue tableau :
    * [Lignes (ou enregistrements)](#add-rows-or-records)
    * [Filtres](#add-filters)
    * [Trier](#add-a-sort)
-   * [Regroupement &#x200B;](#add-groupings)
+   * [Regroupement ](#add-groupings)
    * [Couleurs de ligne](#add-row-colors)
    * [Indicateur de présence en temps réel](#enable-the-real-time-presence-indicator)
 
@@ -219,7 +219,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -236,6 +236,8 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
    >[!TIP]
    >
    >Le nombre de champs masqués s’affiche à gauche de l’icône Champs dans la barre d’outils.
+   >
+   ><span class="preview">Par défaut, les champs masqués ne s’affichent pas dans la page **Détails** d’un enregistrement. Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. Cliquez sur l’icône **Champs** et activez le bouton (bascule) associé aux champs que vous souhaitez afficher dans les colonnes du tableau. Tous les champs s’affichent par défaut.

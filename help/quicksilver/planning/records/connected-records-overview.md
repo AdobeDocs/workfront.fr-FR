@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 11d856aeee3bd9edcdc1dbca3964f37bdf83bd00
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 15%
+source-wordcount: '748'
+ht-degree: 8%
 
 ---
 
@@ -23,14 +23,23 @@ ht-degree: 15%
 
 Vous pouvez connecter des enregistrements d’Adobe Workfront Planning les uns aux autres ou aux objets d’autres applications.
 
-Cet article décrit les points à prendre en compte lors de la connexion des enregistrements dans Adobe Workfront Planning.
+Cet article décrit les points à prendre en compte lors de la connexion des enregistrements dans Workfront Planning.
 
 Pour plus d&#39;informations sur la façon de connecter des enregistrements entre eux ou à un autre objet, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+
+## Conditions préalables
+
+Vous devez connecter les éléments suivants avant de pouvoir connecter des enregistrements dans Workfront Planning :
+
+* Deux types d’enregistrements
+* Un type d’enregistrement avec un objet d’une autre application
+
+Pour plus d’informations, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 
 ## Remarques concernant la connexion des enregistrements
 
-* Une fois que vous avez connecté les types d’enregistrement, les types d’enregistrement connectés s’affichent sous forme de champs d’enregistrement liés dans les tableaux des types d’enregistrement à partir desquels ils sont liés et sur les pages des enregistrements.
+* Une fois que vous avez connecté les types d’enregistrements, les types d’enregistrements connectés s’affichent sous la forme de champs de connexion dans le tableau des types d’enregistrements à partir desquels ils sont liés et sur les pages des enregistrements.
 * Vous pouvez parcourir et ajouter des enregistrements et des objets de l’enregistrement et des types d’objets liés à partir des champs d’enregistrement liés.
 * Vous pouvez ajouter des champs (champs de recherche) des types d’enregistrements liés dans la table du type d’enregistrement à partir duquel vous effectuez le lien.
 
@@ -44,19 +53,22 @@ Pour plus d&#39;informations sur la façon de connecter des enregistrements entr
 * Toute personne ayant accès à Workfront Planning and View ou à des autorisations supérieures dans l&#39;espace de travail et disposant d&#39;un type d&#39;enregistrement peut voir les connexions que vous établissez entre les enregistrements ou entre les enregistrements et les objets d&#39;autres applications. Elle peut afficher les enregistrements et les objets connectés, quelles que soient ses autorisations dans les applications auxquelles vous vous connectez.
 * Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs si vous disposez des autorisations de niveau Gérer pour l’espace de travail et le type d’enregistrement où se trouvent les enregistrements connectés.
 * Vous pouvez connecter un enregistrement à un ou plusieurs objets depuis une autre application. Cela dépend du type de connexion que vous avez sélectionné lors de la connexion des types d&#39;enregistrement. Pour plus d’informations, consultez la section « Types de connexions » dans l’article [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez accéder à n&#39;importe quel type d&#39;objet de la hiérarchie à partir des pages des enregistrements. Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent. Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez accéder à n&#39;importe quel type d&#39;objet de la hiérarchie à partir des pages des enregistrements. Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent. Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Zones de connexion des enregistrements
 
-Vous pouvez connecter des enregistrements à d&#39;autres enregistrements ou à des objets à partir d&#39;une autre application dans les domaines suivants :
+Vous pouvez connecter des enregistrements manuellement ou automatiquement dans Workfront.
+
+### Connexion manuelle des enregistrements
+
+Vous pouvez connecter manuellement des enregistrements à d&#39;autres enregistrements ou à des objets à partir d&#39;une autre application dans les domaines suivants :
 
 * Vous pouvez connecter des enregistrements de Workfront Planning à des objets Workfront, Experience Manager Assets ou GenStudio Brands dans les zones suivantes d&#39;un enregistrement Planning :
 
    * Champs d&#39;enregistrement connectés dans la vue Table d&#39;un type d&#39;enregistrement dans Planning.
-   * la page d’aperçu ou de détails de l’enregistrement dans les champs d’enregistrement connectés sur l’onglet Détails .
-   * La page d&#39;aperçu ou de détails de l&#39;enregistrement dans l&#39;onglet Connexions.
-   * Page de l’enregistrement dans l’onglet Page Enregistrements connectés d’un enregistrement connecté.
+   * Les champs d’enregistrement connectés dans la page d’aperçu ou de détails d’un enregistrement.
+   * La page d&#39;aperçu ou de détails de l&#39;enregistrement dans la page Enregistrements connectés d&#39;un enregistrement.
 
 * Vous pouvez connecter des objets Workfront à des enregistrements Workfront Planning dans les zones suivantes de Workfront :
 
@@ -64,3 +76,25 @@ Vous pouvez connecter des enregistrements à d&#39;autres enregistrements ou à 
    * Champ de connexion Planning dans un formulaire personnalisé d’objet Workfront.
 
   Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+### Connecter automatiquement les enregistrements
+
+Après avoir connecté des types d&#39;enregistrement entre eux ou un type d&#39;enregistrement à un type d&#39;objet à partir d&#39;une autre application, vous pouvez automatiquement connecter des enregistrements et des objets de la manière suivante :
+
+* Utilisation des automatisations
+
+  Vous pouvez créer des enregistrements ou des objets Workfront à partir d&#39;un enregistrement Planning dans lequel vous configurez des automatisations.
+
+  Lorsqu&#39;une condition que vous définissez est remplie, un enregistrement ou un objet est créé et automatiquement connecté à l&#39;enregistrement à partir duquel vous déclenchez l&#39;automatisation.
+
+  Pour plus d’informations, voir [Configuration des automatisations d’Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+* Utilisation de formulaires de demande pour créer des enregistrements
+
+  Vous pouvez créer des enregistrements lors de la soumission d&#39;une demande Planning. La requête et l’enregistrement sont automatiquement connectés.
+
+  >[!NOTE]
+  >
+  >Vous ne pouvez pas déconnecter un enregistrement de sa requête d&#39;origine.
+
+  Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).

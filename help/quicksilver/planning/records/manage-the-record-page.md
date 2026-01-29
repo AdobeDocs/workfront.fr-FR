@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1545'
 ht-degree: 6%
 
 ---
@@ -16,10 +16,9 @@ ht-degree: 6%
 
 # Gérer la mise en page de la page d’enregistrement
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -172,7 +171,7 @@ Tenez compte des points suivants lors de l’ajout de sections à une page d’e
 
 * Le nombre de sections que vous pouvez avoir sur une page n’est pas limité.
 * Une section ne peut pas être vide. Vous devez avoir au moins un champ dans une section.
-* Vous pouvez faire glisser des champs d’une section à une autre. Pour plus d’informations, consultez la section [Réorganiser les champs dans la page de prévisualisation des enregistrements ou de détails](#rearrange-fields-in-the-record-preview-or-details-page) dans cet article.
+* Vous pouvez faire glisser des champs d’une section à une autre. Pour plus d’informations, consultez la section [Gérer les champs dans la page d’aperçu d’enregistrement ou de détails](#manage-fields-in-the-records-details-tab) dans cet article.
 * Lorsque vous supprimez tous les champs d’une section, celle-ci est automatiquement supprimée et ne peut pas être récupérée.
 
 Pour ajouter une section à une prévisualisation d’enregistrement ou à une page :
@@ -205,7 +204,7 @@ Pour ajouter une section à une prévisualisation d’enregistrement ou à une p
 
 1. Dans l’onglet **Détails** de l’aperçu de l’enregistrement ou de la page, passez le curseur sur l’espace blanc à gauche des champs, puis cliquez sur l’icône **Ajouter une section** ![Icône Ajouter une section](assets/add-section-icon.png) pour ajouter une section.
 1. Cliquez dans le nom de la section et remplacez **Section sans titre** par un nom, puis cliquez sur Entrée. Les champs affichés sous la section font automatiquement partie de la nouvelle section.
-1. Commencez à faire glisser et à déposer des champs dans la nouvelle section, comme décrit dans la section [Réorganiser les champs dans la page d’aperçu d’enregistrement ou de détails](#rearrange-fields-in-the-record-preview-or-details-page) dans cet article.
+1. Commencez à faire glisser et à déposer des champs dans la nouvelle section, comme décrit dans la section [Gérer les champs dans la page d’aperçu d’enregistrement ou de détails](#manage-fields-in-the-records-details-tab) dans cet article.
 
 1. (Facultatif) Passez la souris sur le nom d’une section et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png).
 
@@ -254,7 +253,7 @@ Voici ce qui se produit :
    * L’objet Workfront est également supprimé du champ connecté de l’enregistrement dans Workfront Planning.
    * Les valeurs des champs de recherche Workfront liés à l&#39;enregistrement Planning sont également supprimées.
 
-## Réorganiser les champs dans l’onglet Détails de l’enregistrement
+## Gérer les champs dans l&#39;onglet Détails de l&#39;enregistrement
 
 {{step1-to-planning}}
 
@@ -281,6 +280,20 @@ Voici ce qui se produit :
    L’onglet **Détails** de l’enregistrement s’ouvre par défaut.
 
    ![Page de détails](assets/details-page.png)
+
+1. <span class="preview">(facultatif et conditionnel) Selon les champs que vous souhaitez afficher dans la page Détails, effectuez l’une des opérations suivantes </span>
+
+   <div class="preview">
+
+   * Sélectionnez le paramètre **Afficher les champs de la table** pour afficher uniquement les champs qui ne sont pas masqués dans la vue de la table de l&#39;enregistrement. Il s’agit du paramètre par défaut
+   * Désélectionnez le paramètre **Afficher les champs de table** pour afficher tous les champs de la vue de table de l&#39;enregistrement, y compris les champs masqués.
+
+   <!--replace with this when they fix the UI text:
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+   -->
+
+   </div>
 
 1. Dans l’onglet Enregistrement **Détails**, cliquez sur l’icône **saisir** ![Icône saisir](assets/grab-icon.png) à gauche d’un nom de champ, puis faites-le glisser et déposez-le à l’endroit souhaité.
 
