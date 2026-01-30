@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2200'
 ht-degree: 2%
 
 ---
@@ -106,15 +106,22 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
   Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 * Les enregistrements créés par l’envoi de formulaires de demande sont connectés à la demande d’origine. Impossible de supprimer cette connexion.
-* Vous pouvez afficher à la fois les enregistrements créés et la demande dans les zones suivantes :
+* Vous pouvez afficher à la fois les enregistrements créés et les requêtes utilisées pour les créer dans les zones suivantes :
    * Zone des requêtes dans Workfront
 
   <div class="preview">
 
-   * Enregistrements dans n’importe quelle page de type d’enregistrement dans le champ Connexion de la demande d’origine
-   * Zone d’aperçu Détails de l’enregistrement dans le champ Connexion de la demande d’origine .
+   * Pages de type d’enregistrement dans Workfront Planning
+   * Zone Détails d’un enregistrement dans Workfront Planning
 
   </div>
+
+  >[!TIP]
+  >
+  ><span class="preview">Vous pouvez afficher le nom de la demande dans le champ Objet de la zone Demandes de Workfront ou dans le champ Connexion à la demande d’origine de Workfront Planning. </span>
+
+
+
 * Les demandes envoyées s’affichent dans la zone des Demandes de Workfront.
 * Les demandes Planning envoyées sont visibles uniquement dans la nouvelle expérience de demande. Les requêtes Planning ne s’affichent pas dans l’expérience des requêtes héritées.
 Pour plus d’informations, voir [Création et envoi de demandes](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
@@ -167,7 +174,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
      Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">Vous pouvez ajouter le champ Connexion de la demande d&#39;origine à un type d&#39;enregistrement dans Planning qui affiche le nom de la demande d&#39;origine. Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * <span class="preview">Vous pouvez ajouter le champ Connexion de la demande d&#39;origine à un type d&#39;enregistrement dans Planning pour afficher le nom de la demande d&#39;origine qui a créé un enregistrement. Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
    * La demande est visible uniquement par le propriétaire, l&#39;approbateur et les personnes qui disposent au moins des autorisations d&#39;affichage de l&#39;espace de travail. Les administrateurs et administratrices de Workfront peuvent afficher toutes les demandes envoyées à n’importe quel espace de travail du système.
 
    * Vous recevez une notification in-app et un e-mail vous informant que la demande a été soumise avec succès ou envoyée pour révision.
@@ -299,7 +306,7 @@ Vous pouvez copier une demande dans la liste des demandes de Workfront, puis mod
 
 Cette option est disponible uniquement dans la nouvelle expérience de demande.
 
-Pour obtenir des instructions, voir [&#x200B; Copier et envoyer des demandes &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour obtenir des instructions, voir [ Copier et envoyer des demandes ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Créer des brouillons et des demandes à partir de brouillons existants
 

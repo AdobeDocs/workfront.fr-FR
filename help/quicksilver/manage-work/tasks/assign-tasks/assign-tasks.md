@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '2479'
 ht-degree: 76%
@@ -276,7 +276,7 @@ L’affectation de plusieurs tâches en bloc à partir d’une liste diffère se
 1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans la liste des tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur **l’Icône X** en regard du nom d’une personne cessionnaire pour la supprimer de la tâche.
 
 
-### Affectez plusieurs tâches en bloc à partir d’une liste dans la nouvelle expérience
+#### Affectez plusieurs tâches en bloc à partir d’une liste dans la nouvelle expérience
 
 1. Accédez à la liste des tâches que vous souhaitez affecter en masse.
 1. (Le cas échéant) Assurez-vous que l’option **Enregistrement automatique** est sélectionnée si vous vous trouvez dans la liste des tâches d’un projet.

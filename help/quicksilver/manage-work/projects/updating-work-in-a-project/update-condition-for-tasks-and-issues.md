@@ -6,9 +6,9 @@ description: La condition d’une tâche ou d’un problème est un indicateur q
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1070'
 ht-degree: 79%
 
 ---
@@ -38,7 +38,7 @@ Les valeurs de condition auxquelles nous faisons référence dans cet article so
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -167,7 +167,7 @@ Vous pouvez mettre à jour manuellement le statut des tâches et des événement
    * Certaines inquiétudes
    * Obstacles majeurs
 
-   ![](assets/condition-in-task-header-0925.png)
+   ![Condition dans l’en-tête de la tâche](assets/condition-in-task-header-0925.png)
 
 <!--1. Click Enter to save the Condition.-->
 
@@ -177,7 +177,7 @@ Vous pouvez mettre à jour manuellement le statut des tâches et des événement
    * Tout est en ordre
    * Certaines inquiétudes
    * Obstacles majeurs
-1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;La condition de la tâche ou du problème est mise à jour.
+1. Cliquez sur Enregistrer les modifications. **** La condition de la tâche ou du problème est mise à jour.
 
 ### Mettre à jour le statut d&#39;une tâche ou d&#39;un événement dans un rapport ou une liste
 
@@ -185,7 +185,7 @@ Vous pouvez mettre à jour manuellement le statut des tâches et des événement
 
 1. Mettez à jour la **Condition** du problème ou de la tâche en ligne, en double-cliquant sur la condition existante et en sélectionnant une nouvelle valeur dans le menu déroulant.
 
-   ![](assets/condition-values-in-task-list-0925.png)
+   ![Valeurs de condition dans la liste des tâches](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >

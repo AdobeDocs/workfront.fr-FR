@@ -7,9 +7,9 @@ description: La date d’engagement correspond à la date à laquelle un utilisa
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '876'
 ht-degree: 38%
 
 ---
@@ -98,7 +98,7 @@ La définition manuelle de la date d’engagement d’une tâche ou d’un probl
 >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
 >
 >
->![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>![Project owner notification update stream about commit date change](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
 >
 -->
 
@@ -107,7 +107,7 @@ La définition manuelle de la date d’engagement d’une tâche ou d’un probl
 
   Pour plus d’informations, voir [Vue d’ensemble de la date d’achèvement prévisionnelle pour les projets, les tâches et les problèmes](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-  ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+  ![La date d&#39;achèvement prévue de la tâche est mise en surbrillance dans les détails](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
 * Le propriétaire du projet est averti, dans la zone des Notifications , qu&#39;une date d&#39;engagement pour une tâche ou un événement a changé.
 

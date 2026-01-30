@@ -7,10 +7,10 @@ description: Les projets, les tâches et les problèmes ont une date de début e
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 54%
+source-wordcount: '530'
+ht-degree: 52%
 
 ---
 
@@ -105,7 +105,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 La date de début réelle d&#39;un projet se trouve dans les zones suivantes :
 
 * dans la section Détails d’un projet ;
-* Dans un rapport ou une vue de projet, lorsque vous ajoutez la date de début effective de l&#39;objet Projet dans le rapport.
+* Dans un rapport ou une vue de projet, lorsque vous ajoutez la **Date de début effective** pour l&#39;objet de projet dans le rapport.
 
   Pour plus d’informations sur la création de rapports, consultez l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -116,8 +116,8 @@ Pour localiser la date de début réelle dans la section Détails du projet :
 1. Cliquez sur le projet pour lequel vous souhaitez afficher la date de début effective.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche, puis accédez à la section **Aperçu**.
 
-   La date de début effective s’affiche avec les autres dates du projet.
+   ![Date de début réelle du projet mise en surbrillance](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
-   ![](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   La **Date de début effective** s’affiche avec d’autres dates de projet.
 
 

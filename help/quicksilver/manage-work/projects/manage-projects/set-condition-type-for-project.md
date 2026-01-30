@@ -6,9 +6,9 @@ description: En tant que chef de projet, vous pouvez déterminer comment la cond
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '304'
 ht-degree: 72%
 
 ---
@@ -27,7 +27,7 @@ En tant que chef de projet, vous pouvez déterminer comment la condition d’un 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * Cliquez sur le menu **Plus** ![Plus](assets/qs-more-menu.png) à droite du nom du projet, puis cliquez sur **Modifier**.
    * Cliquez sur **Détails du projet** dans le panneau de gauche.
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![Mettre à jour le type de condition](assets/update-condition-type-nwe-350x108.png)
 
 1. Dans le champ **Type de condition**, choisissez l’une des options suivantes :
 

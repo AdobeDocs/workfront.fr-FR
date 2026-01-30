@@ -6,10 +6,10 @@ description: Vous pouvez configurer le projet pour que les heures consignées pa
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 80%
+source-wordcount: '790'
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,7 @@ Pour plus d’informations sur les enregistrements de facturation, voir l’arti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -152,12 +152,12 @@ Pour approuver ou rejeter des heures sur un projet :
 1. Les heures consignées pour les problèmes, les tâches et le projet s’affichent et doivent avoir le statut **Envoyé**.\
    Cliquez sur la zone située à gauche des entrées d’heures pour sélectionner les heures à approuver.
 
-1. Cliquez sur l’icône **Approuver** ![](assets/approve-hours-icon.png) en haut de la liste des heures.\
+1. Cliquez sur l’icône **Approuver** ![Icône Approuver](assets/approve-hours-icon.png) en haut de la liste des heures.\
    Le statut des heures passe à **Approuvé**.\
    Si vous rejetez par la suite les heures approuvées, le statut des heures passe à **Non approuvé**.\
    Lorsque vous incluez les heures approuvées dans un enregistrement de facturation, le statut des heures passe à **Facturé et approuvé**. Les heures ajoutées à un enregistrement de facturation ne peuvent pas être supprimées. Pour plus d’informations sur la création d’enregistrements de facturation, voir l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-1. (Facultatif) Cliquez sur l’icône **Rejeter** ![](assets/reject-hours-icon.png) pour rejeter les entrées de temps dans le projet.\
+1. (Facultatif) Cliquez sur **Icône Rejeter** ![Icône Rejeter les heures](assets/reject-hours-icon.png) pour rejeter les entrées de temps dans le projet.\
    Le statut des heures passe à **Rejeté**.
 
    >[!NOTE]

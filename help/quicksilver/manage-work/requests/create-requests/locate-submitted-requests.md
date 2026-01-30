@@ -8,19 +8,26 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 47%
+source-wordcount: '1483'
+ht-degree: 45%
 
 ---
 
 # Afficher les demandes envoyées
 
-Vous pouvez afficher les demandes que vous ou une autre personne avez envoyées, ou les demandes que vous avez commencées mais que vous n’avez jamais terminées. Vous pouvez localiser ces demandes dans les zones suivantes d’Adobe Workfront :
+Vous pouvez afficher les demandes que vous ou une autre personne avez envoyées, ou les demandes que vous avez commencées mais que vous n’avez jamais terminées. Les demandes non terminées sont enregistrées en tant que brouillons.
+
+Les demandes envoyées se trouvent dans les zones suivantes d’Adobe Workfront :
 
 * La zone des Demandes de Workfront
-* Le widget Mes requêtes dans l’Accueil
+* Widget Mes requêtes dans l’Accueil
+
+La zone des Demandes affiche les demandes suivantes, selon la manière dont vous choisissez de les afficher :
+
+* Requêtes Workfront lorsque vous utilisez l’expérience héritée
+* Workfront, ainsi que les demandes Planning lorsque vous utilisez la nouvelle expérience .
 
   >[!NOTE]
   >
@@ -107,16 +114,16 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
    Pour obtenir des instructions, voir [Création ou modification de vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne Statut . Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
 
-   * Brouillon : cette demande n&#39;a pas encore été soumise.
-   * En attente de révision : (Planification uniquement) cette demande a des approbateurs et aucun d&#39;entre eux n&#39;a ouvert la demande.
-   * En révision : (Planning uniquement) Cette demande a des approbateurs et au moins un approbateur a ouvert la demande, mais aucune décision n&#39;a été prise.
-   * Rejetée : (Planning uniquement) Cette demande a des approbateurs et a été rejetée.
-   * En cours :
-      * Workflow Workfront : la demande a été convertie et le travail est en cours.
-      * Workfront Planning : la fin de la demande est mappée à un champ Planning spécifique et la valeur du champ ne correspond pas encore à la valeur de fin.
+   * **Brouillon** : cette demande n&#39;a pas encore été soumise.
+   * **Révision en attente** : (Planification uniquement) cette demande a des approbateurs et aucun d&#39;entre eux n&#39;a ouvert la demande.
+   * **En révision** : (Planification uniquement) cette demande a des approbateurs et au moins un approbateur a ouvert la demande, mais aucune décision n&#39;a été prise.
+   * **Rejeté** : (Planning uniquement) Cette demande contient des approbateurs et a été rejetée.
+   * **En cours** :
+      * Demandes Workfront : la demande a été convertie et le travail est en cours.
+      * Demandes Planning Workfront : l’achèvement de la demande est mappé à un champ Planning spécifique et la valeur du champ ne correspond pas encore à la valeur d’achèvement.
 
         Pour plus d’informations, voir [Configurer les détails de configuration](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) dans l’article Création et gestion d’un formulaire de demande dans Adobe Workfront Planning.
-   * Terminé : la demande est terminée.
+   * **Terminé** : la demande est terminée.
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ description: Recalculer les chronologies permet aux personnes chargées de la ge
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1077'
 ht-degree: 58%
 
 ---
@@ -96,7 +96,7 @@ Par défaut, les chronologies des projets sont automatiquement recalculées tous
 > Un exemple de projet complexe peut être un projet avec plusieurs dépendances, un grand nombre de tâches, plusieurs prédécesseurs interprojets ou plusieurs indentations de tâches.
 > Workfront place un avertissement à droite du nom du projet sur la page du projet pour informer les utilisateurs que la chronologie du projet doit être recalculée manuellement. Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour le projet peuvent recalculer manuellement la chronologie.
 >
->   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![Avertissement de projet pour recalculer la chronologie](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
 * [Recalcul automatique des chronologies des projets](#automatic-recalculation-of-project-timelines)
@@ -183,7 +183,7 @@ Vous pouvez recalculer la chronologie d’un projet dans Workfront à partir de 
 
    Accédez à une liste ou à un rapport de projet et sélectionnez un ou plusieurs projets, puis cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-menu.png) en haut de la liste.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalculer la chronologie des expressions avec la liste déroulante finances](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >

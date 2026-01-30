@@ -6,10 +6,10 @@ description: En sélectionnant un type de mise à jour pour un projet, vous pouv
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 65%
+source-wordcount: '664'
+ht-degree: 64%
 
 ---
 
@@ -66,7 +66,7 @@ Lors de la mise à jour des tâches, leurs objets parents (tâches parents ou pr
 
 1. Cliquez sur **Paramètres** **du projet**.
 
-   ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
+   ![Champ de type de mise à jour de la zone d’édition du projet](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
 1. Dans le champ **Type de mise à jour**, sélectionnez si vous voulez que Workfront calcule automatiquement la chronologie du projet quotidiennement, en cas de modification, ou si vous voulez que le ou la gestionnaire du projet la calcule manuellement.
 
@@ -81,7 +81,7 @@ Lors de la mise à jour des tâches, leurs objets parents (tâches parents ou pr
 
      Lorsque vous mettez à jour une tâche ou un projet et que vous déclenchez un recalcul de la chronologie, toutes les dates disponibles sont immédiatement affichées, ce qui vous permet de continuer à travailler. Pour les projets comportant plus de 100 tâches, les dates qui nécessitent des calculs plus longs sont grisées.
 
-     ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+     ![Dates grisées lors de la modification sur la ligne](assets/dates-dimmed-when-insline-editing-350x146.png)
 
      Cela indique que le nouveau calcul n’est pas encore terminé et que les dates sont susceptibles d’être modifiées.
 

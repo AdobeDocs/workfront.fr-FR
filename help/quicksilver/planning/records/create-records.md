@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3240'
+source-wordcount: '3265'
 ht-degree: 14%
 
 ---
@@ -152,7 +152,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    * Les enregistrements ajoutés à l’espace de travail d’origine d’un type d’enregistrement global sont visibles à partir de l’espace de travail d’origine.
    * Les enregistrements ajoutés à un espace de travail secondaire d&#39;un type d&#39;enregistrement global ne sont visibles qu&#39;à partir de l&#39;espace de travail dans lequel ils ont été créés et de l&#39;espace de travail d&#39;origine du type d&#39;enregistrement global.
-Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * En fonction de leurs autorisations sur l’espace de travail et des types d’enregistrements, les utilisateurs peuvent créer des enregistrements des manières suivantes :
 
@@ -202,9 +202,9 @@ Le formulaire de demande du type d’enregistrement s’ouvre.
         >
         >Certains types d’enregistrements peuvent avoir plusieurs formulaires. Cliquez dessus pour l’ouvrir.
 
-        Ajoutez l’enregistrement, comme décrit dans l’article [&#x200B; Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements &#x200B;](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
+        Ajoutez l’enregistrement, comme décrit dans l’article [ Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements ](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
 
-      ![Trois manières de créer le choix d’enregistrements modal &#x200B;](assets/three-ways-to-create-records-choice-modal.png)
+      ![Trois manières de créer le choix d’enregistrements modal ](assets/three-ways-to-create-records-choice-modal.png)
 
 1. (Conditionnel) Si vous avez cliqué sur **Demander un enregistrement**, procédez comme suit :
 
@@ -287,7 +287,7 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    >[!NOTE]
    >
-   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 
@@ -538,11 +538,13 @@ Cliquez sur son nom pour ouvrir la page de détails et y ajouter des information
 
 ## Créer des enregistrements en soumettant un formulaire de demande à un type d’enregistrement
 
-Une fois qu’une personne a créé un formulaire de demande pour un type d’enregistrement et partagé un lien vers celui-ci avec vous, vous pouvez soumettre une demande qui crée un enregistrement pour ce type d’enregistrement.
+Une fois qu’une personne a créé un formulaire de demande pour un type d’enregistrement et l’a publié dans la zone des Demandes ou a partagé un lien vers le formulaire de demande avec vous, vous pouvez soumettre une demande qui crée un enregistrement pour ce type d’enregistrement.
 
 Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 Les utilisateurs de Workfront et les utilisateurs externes à votre organisation peuvent envoyer des demandes aux types d&#39;enregistrements Planning et créer des enregistrements, s&#39;ils possèdent un lien vers le formulaire de demande.
+
+Seuls les utilisateurs de Workfront peuvent ajouter des requêtes qui créent des enregistrements à partir de la zone des Requêtes de Workfront.
 
 Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 

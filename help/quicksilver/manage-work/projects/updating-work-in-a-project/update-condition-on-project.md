@@ -6,10 +6,10 @@ description: La condition d’un projet est un indicateur placé sur celui-ci po
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 83%
+source-wordcount: '531'
+ht-degree: 82%
 
 ---
 
@@ -110,7 +110,7 @@ Si vous définissez le type de condition de votre projet sur « Manuel » au l
 
 1. Assurez-vous que le champ **Type de condition** est défini sur **Manuel**.
 
-   ![](assets/project-details-overview-select-condition.png)
+   ![Présentation des détails du projet, sélectionner une condition](assets/project-details-overview-select-condition.png)
 
 1. Dans le champ **Condition**, sélectionnez parmi les options suivantes celle qui correspond à votre compréhension du bon déroulement du travail ou des retards :
 

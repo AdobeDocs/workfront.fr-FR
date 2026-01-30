@@ -6,9 +6,9 @@ description: Vous pouvez mettre à jour le statut d’une tâche pour informer l
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '635'
 ht-degree: 68%
 
 ---
@@ -32,7 +32,7 @@ Vous pouvez mettre à jour les statuts des tâches manuellement ou laisser Workf
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ Pour mettre à jour manuellement le statut de la tâche dans l’en-tête de la 
 
    Double-cliquez dans la bulle **Pourcentage terminé** pour saisir manuellement un nouveau pourcentage.
 
-   ![](assets/percent-complete-status-widgets-task-header.png)
+   ![En-tête de tâche des widgets de statut Pourcentage terminé](assets/percent-complete-status-widgets-task-header.png)
 
 1. (Facultatif) Effectuez l’une des opérations suivantes pour fournir des informations supplémentaires sur la mise à jour :
 
@@ -142,7 +142,7 @@ Pour mettre à jour manuellement le statut de la tâche dans l’en-tête de la 
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
 
 ## Mettre à jour automatiquement le statut de la tâche
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 6%
@@ -282,9 +282,11 @@ Voici ce qui se produit :
    * Sélectionnez le paramètre **Afficher les champs de la table** pour afficher uniquement les champs qui ne sont pas masqués dans la vue de la table de l&#39;enregistrement. Il s’agit du paramètre par défaut
    * Désélectionnez le paramètre **Afficher les champs de table** pour afficher tous les champs de la vue de table de l&#39;enregistrement, y compris les champs masqués.
 
+   </div>
+
    >[!TIP]
    >
-   >Le paramètre **Afficher les champs de la table** n&#39;est disponible que dans la zone d&#39;aperçu Détails de l&#39;enregistrement. Elle n’est pas disponible dans la page Détails de l’enregistrement.
+   >Le paramètre <span class="preview">**Afficher les champs de la table** n&#39;est disponible que dans la zone d&#39;aperçu Détails de l&#39;enregistrement. Elle n’est pas disponible dans la page Détails de l’enregistrement.</span>
 
 
    <!--replace with this when they fix the UI text:
@@ -296,7 +298,7 @@ Voici ce qui se produit :
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir la zone des détails dans une icône d’un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
-   L’onglet **Détails** de l’enregistrement s’ouvre par défaut.
+   La page d’enregistrement **Détails** s’ouvre dans un nouvel onglet.
 
    ![Page de détails](assets/details-page.png)
 

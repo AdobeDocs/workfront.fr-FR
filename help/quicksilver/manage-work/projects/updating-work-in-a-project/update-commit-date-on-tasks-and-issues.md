@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour manuellement la date d’engagement d’
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 80%
+source-wordcount: '599'
+ht-degree: 76%
 
 ---
 
@@ -37,7 +37,7 @@ Vous pouvez mettre à jour manuellement la date d’engagement d’un objet (tâ
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -143,13 +143,13 @@ La mise à jour de la date d’engagement est identique pour les tâches et les 
 
 1. (Conditionnel et facultatif) Si votre administrateur de Workfront ou de groupe a ajouté la date d’engagement à l’en-tête de votre tâche ou de votre événement, cliquez sur le champ **Date d’engagement** dans l’en-tête, puis sélectionnez une date dans le calendrier. Si la date d’engagement ne figure pas dans l’en-tête, procédez comme suit.
 
-   ![](assets/commit-date-task-header.png)
+   ![Date d’engagement dans l’en-tête de la tâche](assets/commit-date-task-header.png)
 
 1. Cliquez sur **Détails de la tâche** ou **Détails du problème** dans le panneau de gauche.
 1. Cliquez sur **Vue d’ensemble** pour développer la section.
 1. Mettez à jour le champ **Date d’engagement**.
 
-   ![](assets/task-commit-date-edit-highlighted-details-page.png)
+   ![Modification de la date d’engagement de la tâche mise en surbrillance dans la page de détails](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. Cliquez sur **Enregistrer les modifications**.
 
@@ -159,15 +159,15 @@ La mise à jour de la date d’engagement est identique pour les tâches et les 
 
      Au lieu de cela, la date d’engagement et la date d’achèvement projetée de la tâche ou du problème sont identiques.
 
-     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![Date d’achèvement prévue de la tâche mise en surbrillance](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * Le ou la propriétaire du projet reçoit une notification intégrée à Workfront, selon laquelle vous avez suggéré une nouvelle date d’engagement pour la tâche ou le problème.
    * Dans la section Mises à jour, la personne propriétaire du projet est informée que vous avez suggéré une nouvelle date d’engagement et qu’elle peut, à ce stade, mettre à jour la date d’achèvement prévue de la tâche ou du problème pour qu’elle corresponde à la date d’engagement que vous avez suggérée.
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+     ![La notification du propriétaire du projet dans le flux de mise à jour dont la date de validation affecte la chronologie du projet](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
 
-     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
      Pour plus d’informations sur les notifications et les mises à jour déclenchées par cette modification, voir la section Notifications et mises à jour déclenchées en modifiant la date d’engagement de l’article [Vue d’ensemble des dates d’engagement](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

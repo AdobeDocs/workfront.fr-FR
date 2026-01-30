@@ -7,10 +7,10 @@ description: Le type de mise à jour d’un projet indique comment Adobe Workfr
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 70%
+source-wordcount: '520'
+ht-degree: 69%
 
 ---
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur la mise à jour du type de mise à jour du projet
 
   Lorsque vous mettez à jour une tâche ou un projet et que vous déclenchez un recalcul de la chronologie, toutes les dates disponibles sont immédiatement affichées, ce qui vous permet de continuer à travailler. Pour les projets comportant plus de 100 tâches, les dates qui nécessitent des calculs plus longs sont grisées.
 
-  ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+  ![Dates grisées lors de la modification sur la ligne](assets/dates-dimmed-when-insline-editing-350x146.png)
 
   Cela indique que le nouveau calcul n’est pas encore terminé et que les dates sont susceptibles d’être modifiées.
 

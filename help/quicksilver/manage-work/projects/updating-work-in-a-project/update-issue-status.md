@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour le statut d’un problème pour informer
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 99%
+source-wordcount: '640'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez mettre à jour le statut d’un problème pour informer les autres p
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -122,13 +122,13 @@ Pour mettre à jour manuellement le statut du problème dans l’en-tête du pro
 
    Cliquez à l’intérieur de la bulle, dans l’en-tête du problème, pour saisir un pourcentage.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![Mettre à jour le pourcentage de tâche terminé dans l’en-tête](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 1. (Facultatif) Effectuez l’une des opérations suivantes pour fournir des informations supplémentaires sur la mise à jour :
 
    * Pour ajouter une note à propos de la mise à jour, accédez à la section **Mises à jour**, cliquez sur **Nouveau commentaire**, puis saisissez une note.
 
-     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
+     ![Boîte de message de flux de mise à jour du problème](assets/nwe-issue-update-stream-message-box-350x125.png)
 
    * Pour informer certaines personnes de la mise à jour, saisissez leur nom dans le champ **Taguer des personnes ou des équipes** qui s’affiche lorsque vous saisissez un commentaire. Pour plus d’informations, voir la section [Mentionner d’autres personnes sur les mises à jour](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
    * Pour mettre à jour la date d’engagement du problème, cliquez sur **Détails du problème**, puis modifiez le champ **Date d’engagement**. Pour plus d’informations, voir [Modifier des problèmes](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
@@ -147,7 +147,7 @@ When you are updating an issue status, you can also add an explanation about the
 1. Go to an issue that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the issue header and select a new status.
 
-   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
+   ![Issue status expanded in header](assets/nwe-issue-status-expanded-in-header-350x370.png)
 
 1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue.
 
@@ -155,7 +155,7 @@ When you are updating an issue status, you can also add an explanation about the
 
    Click inside the bubble in the header of the issue to enter a percentage.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![Update task percent in header](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 -->
 

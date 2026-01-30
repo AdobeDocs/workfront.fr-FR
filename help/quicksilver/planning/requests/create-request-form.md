@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3518'
+source-wordcount: '3550'
 ht-degree: 4%
 
 ---
@@ -30,7 +30,7 @@ Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;e
 
 Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -131,7 +131,7 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur **Créer**.
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [&#x200B; Configurer les détails du formulaire de demande &#x200B;](#set-up-details-for-the-request-form).
+1. Passez à [ Configurer les détails du formulaire de demande ](#set-up-details-for-the-request-form).
 
 <!--
 
@@ -190,13 +190,14 @@ Les détails du formulaire sont divisés en onglets.
    * Champs d’enregistrement disponibles dans la vue Tableau du type d’enregistrement sélectionné. <!--they are working on removing the limitation below-->
 
    * **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. Tous les champs d’enregistrement s’affichent dans la zone **Section par défaut**.
-   * Champ **Subject** : champ qui identifiera la demande dans Workfront. La configuration et la valeur du champ Objet ne sont pas modifiables.
+   * Champ **Subject** : champ qui identifiera la demande dans Workfront. La configuration et la valeur du champ **Objet** ne sont pas modifiables.
 
      >[!NOTE]
      >
      >* Le champ **Objet** nécessite une valeur lorsqu’il est visible sur le formulaire de demande. Cependant, vous pouvez supprimer le champ **Objet** si nécessaire, et les demandeurs ne le verront pas dans le formulaire lorsqu’ils soumettent la demande.
-     >* Lorsque le champ Objet est manquant dans un formulaire de demande, mais qu&#39;il existe un champ Nom pour le nom de l&#39;enregistrement futur, le nom de la demande est automatiquement attribué au même nom que l&#39;enregistrement créé.
-     >* Lorsque les champs Objet et Nom sont manquants dans le formulaire de demande, la demande est nommée selon le modèle suivant : `< Record name > request form < Entry date of the request >` ; l’enregistrement est nommé **Sans titre**.
+     >* Lorsque le champ **Objet** est manquant dans un formulaire de demande, mais qu’il existe un champ Nom pour le nom de l’enregistrement futur, le nom de la demande est automatiquement attribué au même nom que l’enregistrement créé.
+     >* Lorsque les champs **Objet** et **Nom** sont manquants dans le formulaire de demande, la demande est nommée selon le modèle suivant : `< Request form name > < Entry date of the request >` ; l’enregistrement est nommé **Sans titre**.
+     >* <span class="preview">Pour afficher les informations du champ **Objet** dans Workfront Planning, vous pouvez ajouter le champ de connexion **Demande d’origine** au type d’enregistrement associé au formulaire de demande. Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).</span>
 
    * Tous les champs associés au type d’enregistrement.
 
@@ -260,7 +261,7 @@ Dans l’onglet Configuration , vous pouvez définir le processus d’approbatio
    * Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
    * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-   Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
 
@@ -293,7 +294,7 @@ Tenez compte des points suivants lors de l’ajout de règles d’approbation :
 * Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
 * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+Pour plus d’informations sur l’ajout d’approbations, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Pour définir des règles d&#39;approbation pour un formulaire de demande :
 

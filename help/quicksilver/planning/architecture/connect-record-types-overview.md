@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2246'
 ht-degree: 10%
 
 ---
@@ -83,6 +83,16 @@ Pour plus d’informations sur la connexion des types d’enregistrements, voir 
          * Entreprises
          * Groupe
 
+     <div class="preview">
+
+      * Adobe Workfront :
+
+         * Demande d’origine
+
+           Le champ Connexion de demande d&#39;origine affiche le nom de la demande d&#39;origine qui crée un enregistrement après l&#39;envoi d&#39;un formulaire de demande pour Workfront Planning. Le nom de la requête est visible dans le champ Objet de la requête dans Workfront.
+
+     </div>
+
       * Adobe Experience Manager Assets :
 
          * Images
@@ -119,7 +129,7 @@ Pour plus d’informations sur la connexion des types d’enregistrements, voir 
       * Les champs Enregistrements Planning ne sont pas accessibles à partir des objets Workfront.
       * Les enregistrements Planning sont visibles à partir de la section Planning de l&#39;objet Workfront. Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Vous pouvez créer un champ personnalisé de connexion Planning et le joindre au formulaire personnalisé d’un objet Workfront. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Les champs d’enregistrement Planning sont accessibles à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées grâce à l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
       * Les champs d’enregistrement Planning ne sont pas accessibles à partir des marques dans GenStudio for Performance Marketing.
 
    * **Lorsque vous ajoutez des champs de recherche à partir de l’enregistrement ou de l’objet auquel vous vous connectez** : en plus de créer un champ d’enregistrement lié, vous pouvez également vous connecter aux champs du type d’enregistrement ou d’objet connecté qui sont appelés champs de recherche. Un champ lié (ou de recherche) contenant des informations de l&#39;enregistrement auquel vous vous connectez s&#39;affiche sur l&#39;enregistrement auquel vous vous connectez.
