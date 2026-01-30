@@ -177,7 +177,7 @@ Vous pouvez mettre à jour manuellement le statut des tâches et des événement
    * Tout est en ordre
    * Certaines inquiétudes
    * Obstacles majeurs
-1. Cliquez sur Enregistrer les modifications. **** La condition de la tâche ou du problème est mise à jour.
+1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;La condition de la tâche ou du problème est mise à jour.
 
 ### Mettre à jour le statut d&#39;une tâche ou d&#39;un événement dans un rapport ou une liste
 
