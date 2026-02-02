@@ -551,7 +551,7 @@ La modification simultanée de plusieurs tâches diffère selon l’environnemen
       * Commentaire
 
    1. (Facultatif) Dans la section **Custom Forms**, sélectionnez l’option **Recalculer les expressions personnalisées** pour vous assurer que tous les champs calculés personnalisés des formulaires personnalisés joints aux tâches sélectionnées sont à jour.
-   1. Cliquez sur Enregistrer les modifications. **** Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
+   1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
 
 <div class="preview">
 

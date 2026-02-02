@@ -205,7 +205,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * **Nouveau projet**, pour créer un projet sans utiliser de modèle
    * Un modèle dans la section **Sélectionner à partir des modèles** 
 
-     ![ Menu déroulant de l’option Convertir la tâche en modèle de projet ](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![&#x200B; Menu déroulant de l’option Convertir la tâche en modèle de projet &#x200B;](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Cliquez sur **Continuer** dans la notification qui s’affiche.
 1. Dans la boîte **Convertir en projet**, indiquez ce qui suit :

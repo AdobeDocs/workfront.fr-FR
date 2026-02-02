@@ -166,4 +166,4 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
     </tbody> 
    </table>
 
-1. (Le cas échéant) Si vous modifiez les champs de la section Finance, cliquez sur **Enregistrer****les modifications**.
+1. (Le cas échéant) Si vous modifiez les champs de la section Finance, cliquez sur **Enregistrer**&#x200B;**les modifications**.
