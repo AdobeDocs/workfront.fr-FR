@@ -6,10 +6,10 @@ description: Vous pouvez supprimer les tâches qui pourraient être des doublons
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 87%
+source-wordcount: '790'
+ht-degree: 85%
 
 ---
 
@@ -174,9 +174,9 @@ Tenez compte des points suivants :
 1. Cliquez sur le nom du projet qui contient la tâche à supprimer.
 1. Cliquez sur **Tâches** dans le panneau de gauche.
 1. Cliquez sur le nom de la tâche à supprimer.
-1. Cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) en haut à droite.
+1. Cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-menu.png) dans le coin supérieur droit.
 
-   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![Supprimer les tâches au niveau de la tâche](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Cliquez sur **Supprimer la tâche**.
 1. Si la suppression est autorisée, cliquez sur **Supprimer**.

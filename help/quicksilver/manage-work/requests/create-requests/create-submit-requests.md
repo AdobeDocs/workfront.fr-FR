@@ -6,10 +6,10 @@ description: Le travail prévu est représenté dans Adobe Workfront par des pr
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 82%
+source-wordcount: '2575'
+ht-degree: 81%
 
 ---
 
@@ -158,7 +158,7 @@ Pour créer une demande dans l’application web Workfront :
      >
      >Workfront n’enregistre un chemin d’accès que lorsque vous lui avez envoyé une demande. Des chemins pour les brouillons de demande ne sont pas créés.
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![Liste des chemins d’accès récents et des files d’attente des demandes lors de la saisie d’une nouvelle demande](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * Dans la section **Files d’attente des demandes**, sélectionnez une file d’attente des demandes.
    * Saisissez un mot-clé appartenant à un chemin précédemment consulté pour rechercher une file d’attente des demandes.
@@ -169,7 +169,7 @@ Pour créer une demande dans l’application web Workfront :
      >
      >Lorsque vous saisissez un nom contenant un caractère spécial, la file d’attente des demandes, la rubrique de file d’attente ou le groupe de rubriques s’affichent même si vous ne saisissez pas le caractère.
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![Résultats de la recherche dans la file d’attente de demandes avec les résultats en surbrillance](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      La liste des files d’attente des demandes disponibles et des chemins d’accès récents est mise à jour dynamiquement pour inclure uniquement les chemins d’accès qui contiennent le mot-clé mis en surbrillance dans les résultats.
 
@@ -206,7 +206,7 @@ Pour créer une demande dans l’application web Workfront :
 
      Les trois brouillons les plus récents de trois rubriques de file d’attente différentes s’affichent par défaut.
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![Nouveaux brouillons après la suppression d’une nouvelle zone de demande](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * Commencez à saisir une nouvelle demande dans la file d’attente sélectionnée.
 
@@ -219,7 +219,7 @@ Pour créer une demande dans l’application web Workfront :
    >Lorsque vous pointez sur un groupe de rubriques ou une rubrique de file d’attente, le champ Description s’affiche à droite. Il contient des informations supplémentaires sur le groupe de rubriques ou la rubrique de file d’attente.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >![Afficher la description de la rubrique de file d&#39;attente lors de la soumission de la demande](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    Vous pouvez intégrer jusqu’à 10 niveaux de groupes de rubriques dans votre file d’attente des demandes.\
@@ -327,7 +327,7 @@ Pour créer une demande dans l’application web Workfront :
 
      Cliquez sur **Fermer** si vous ne souhaitez pas soumettre immédiatement la demande et que vous pouvez revenir la terminer plus tard. Votre demande est enregistrée dans la section Brouillons et sera disponible la prochaine fois que vous soumettrez une demande pour cette file d’attente des demandes.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Bouton Envoyer, fermer, ignorer le brouillon lors d’une nouvelle demande](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    Lorsque vous soumettez la demande, le brouillon est automatiquement supprimé et ne peut pas être restauré.
 

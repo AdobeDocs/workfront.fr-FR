@@ -6,10 +6,10 @@ description: Parfois, des conflits peuvent exister entre les planifications de t
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 91%
+source-wordcount: '391'
+ht-degree: 90%
 
 ---
 
@@ -85,7 +85,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 1. Cliquez sur **Paramètres**.
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![Niveler le délai lors de la modification de la tâche](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. Spécifiez le **Délai de nivellement**, en heures, puis choisissez une unité de temps.\
    Il s’agit de la durée du retard de la ressource au moment du lancement de la tâche en raison de conflits de ressources.

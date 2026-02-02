@@ -6,9 +6,9 @@ description: Vous pouvez créer des relations antérieures de plusieurs manière
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '282'
 ht-degree: 96%
 
 ---
@@ -30,7 +30,7 @@ En chaînant des tâches, vous permettez au système de créer automatiquement l
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 1. Cliquez sur **Tâches** dans le panneau de gauche.
 1. (Le cas échéant) Sélectionnez **Enregistrement automatique** dans le coin supérieur droit de la liste des tâches, puis sélectionnez les tâches que vous souhaitez chaîner.
 
-   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   ![Icône d’enregistrement automatique en surbrillance](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >

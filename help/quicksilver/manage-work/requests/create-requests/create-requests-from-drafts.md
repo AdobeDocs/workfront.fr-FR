@@ -6,10 +6,10 @@ description: En plus d’utiliser les brouillons disponibles, suggérés par Wor
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 71%
+source-wordcount: '827'
+ht-degree: 70%
 
 ---
 
@@ -100,7 +100,7 @@ La procédure de création de requêtes à partir de brouillons diffère entre l
 
    Un brouillon pour chaque rubrique de file d’attente de chaque file d’attente des demandes s’affiche dans cette liste.
 
-   ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![Section Brouillons avec liste de brouillons](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. (Facultatif) Cliquez sur l’en-tête d’une colonne pour trier la liste en fonction de cette colonne.
 
@@ -133,7 +133,7 @@ La procédure de création de requêtes à partir de brouillons diffère entre l
 
      Cliquez sur **Fermer** si l’envoi n’est pas encore prêt. Vous pourrez ainsi y revenir pour terminer plus tard. Votre demande est enregistrée dans la section Brouillons et sera disponible la prochaine fois que vous enverrez une demande pour cette file d’attente des demandes.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Boutons Envoyer, fermer, ignorer dans une nouvelle demande](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Lorsque vous envoyez la demande, le brouillon est supprimé et ne peut pas être restauré.
 

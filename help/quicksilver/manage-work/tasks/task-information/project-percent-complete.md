@@ -7,10 +7,10 @@ description: La valeur Pourcentage terminé d’un projet est calculée en fonct
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 99%
+source-wordcount: '819'
+ht-degree: 94%
 
 ---
 
@@ -54,13 +54,13 @@ Tenez compte des scénarios suivants :
 
   Le total du nombre d’heures prévues de la tâche parent représente la somme de toutes les heures prévues de chacun des enfants.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Projet avec tâches, pourcentage d&#39;achèvement et heures prévues](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * Si le système calcule le pourcentage terminé en fonction de la durée, le pourcentage terminé de la tâche parent est calculé à l’aide de la formule suivante :
 
   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![Projet avec calcul du pourcentage d&#39;achèvement et de la durée des tâches](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!IMPORTANT]
   >
@@ -77,7 +77,7 @@ Selon ce que votre administrateur ou administratrice Workfront ou de groupes a s
 
   Le total du nombre d’heures prévues du projet est la somme du nombre d’heures prévues de toutes les tâches principales du projet.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Projet avec calcul du pourcentage d&#39;achèvement des tâches et des heures prévues](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
   >[!NOTE]
   >
@@ -91,7 +91,7 @@ Selon ce que votre administrateur ou administratrice Workfront ou de groupes a s
   >
   >La durée du projet est le total de toutes les durées des tâches principales qui affichent un pourcentage terminé. Par exemple, un projet avec une tâche autonome d’une durée de 2 jours et une tâche parent d’une durée de 5 jours pour laquelle un travail a été effectué sur celle-ci aura une durée totale de 7 jours, même si les deux tâches commencent le même jour.
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![Projet avec calcul du pourcentage d&#39;achèvement et de la durée des tâches](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!NOTE]
   >
@@ -101,7 +101,7 @@ Selon ce que votre administrateur ou administratrice Workfront ou de groupes a s
 
 Lorsque vous utilisez la durée des tâches pour calculer le pourcentage terminé d’un projet, prenez en compte l’exemple suivant :
 
-![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+![Projet avec calcul du pourcentage d&#39;achèvement et de la durée des tâches](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
 Les informations suivantes sont utilisées pour calculer le pourcentage terminé du projet :
 

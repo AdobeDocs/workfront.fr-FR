@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 8164cce259c48ccd92d3cb73a9fcc0ca1907b612
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '13726'
-ht-degree: 82%
+source-wordcount: '13750'
+ht-degree: 81%
 
 ---
 
@@ -2110,7 +2110,10 @@ ht-degree: 82%
    * Bonnes pratiques relatives à Adobe Workfront Planning {#adobe-workfront-planning-best-practices}
       * [bonnes pratiques Adobe Workfront : index des articles](planning/best-practices.md/best-practices-article-index.md)
       * [La rampe de lancement de 30 jours : déployez votre maison stratégique](planning/best-practices.md/30-day-launchpad.md)
-      * [Le framework de la réussite : modélisez la hiérarchie de vos campagnes](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [Architecture de la réussite : modélisez la hiérarchie de votre campagne](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [Le calendrier marketing qui vous manque : pas de présentation, juste de la clarté](planning/best-practices.md/marketing-calendar.md)
+      * [Playbook : mise à l&#39;échelle gérée, après la première victoire](planning/best-practices.md/playbook-how-to-scale.md)
+      * [Le pont : relier l’intention stratégique aux projets](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
    * Architecture d’Adobe Workfront Planning {#adobe-workfront-planning-architecture}
       * [Architecture : index des articles](planning/architecture/architecture-information.md)
       * [Présentation des espaces de travail](planning/architecture/workspaces-overview.md)
@@ -2546,7 +2549,7 @@ ht-degree: 82%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)

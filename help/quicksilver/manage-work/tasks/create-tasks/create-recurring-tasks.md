@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 99%
+source-wordcount: '890'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Pour des informations générales sur les tâches récurrentes, y compris l’im
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
    La boîte de dialogue Nouvelle tâche s’affiche.
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![Créer une tâche petit écran](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Cliquez sur **Plus d’options**, puis saisissez un nom pour la tâche dans le champ **Nom de la tâche**.
 1. Poursuivez la mise à jour de la tâche de la même manière que si vous aviez ajouté une nouvelle tâche. Pour plus d’informations sur l’ajout d’une nouvelle tâche, voir [Créer des tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
@@ -109,7 +109,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 1. Cliquez sur **Vue d’ensemble** dans le panneau de gauche.
 1. Faites défiler la page jusqu’à la section **Planning de périodicité**, puis sélectionnez l’option **Transformer en tâche récurrente**.
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![Sélection du planning de périodicité nouvelles tâches récurrentes](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. Dans la liste déroulante **Fréquence**, sélectionnez le nombre d’unités de temps pendant lesquelles vous souhaitez que la tâche se déroule et le type d’unités de temps. Sélectionnez l’une des options suivantes :
 
@@ -163,7 +163,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
    Pour plus d’informations sur les champs remplis automatiquement à partir de la tâche récurrente parent, consultez [Vue d’ensemble des tâches récurrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![Tâches récurrentes dans la liste des tâches](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. (Facultatif) Modifiez chaque tâche récurrente comme vous le feriez pour n’importe quelle autre tâche du projet.
 

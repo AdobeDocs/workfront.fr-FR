@@ -6,10 +6,10 @@ description: Vous pouvez déplacer des tâches vers différents projets ou vers 
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 48%
+source-wordcount: '1377'
+ht-degree: 47%
 
 ---
 
@@ -43,7 +43,7 @@ Vous pouvez déplacer une seule tâche ou déplacer plusieurs tâches à la fois
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -133,7 +133,7 @@ Tenez compte des points suivants lors du déplacement d’une tâche :
 
    * Cliquez sur le menu **Plus** ![icône Plus](assets/main-more-icon.png) en haut de la liste des tâches, puis cliquez sur **Déplacer vers**.
    * Cliquez avec le bouton droit sur les tâches sélectionnées, puis cliquez sur **Déplacer vers**.
-   * Lorsque vous sélectionnez une tâche, cliquez sur le menu **Plus** ![](assets/more-icon-task-list.png) en regard du nom de la tâche dans la liste, puis sur **Déplacer vers**.
+   * Lors de la sélection d’une tâche, cliquez sur le menu **Plus** ![icône Plus dans la liste des tâches](assets/more-icon-task-list.png) en regard du nom de la tâche dans la liste, puis cliquez sur **Déplacer vers**.
 
    La zone **Déplacer la tâche** s’affiche.
 

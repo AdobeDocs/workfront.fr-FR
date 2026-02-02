@@ -7,10 +7,10 @@ description: Lorsque vous ajoutez des relations antérieures aux tâches, vous p
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 70%
+source-wordcount: '262'
+ht-degree: 67%
 
 ---
 
@@ -26,9 +26,9 @@ Les boucles de dépendance se produisent lorsque vous avez deux tâches ou plus 
 
 Si vous essayez de rendre la tâche 1 antérieure à la tâche 2, vous obtenez une erreur de boucle de dépendance, car vous ne pouvez pas démarrer la tâche 1 tant que la tâche 2 n’est pas terminée, mais la tâche 2 ne peut pas être démarrée tant que la tâche 1 n’est pas terminée.
 
-![](assets/dependency-loop-error-message-350x209.png)
+![Message d’erreur de boucle de dépendance](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![Boucle de dépendance dans la liste des tâches](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## Considérations sur les boucles de dépendance
 

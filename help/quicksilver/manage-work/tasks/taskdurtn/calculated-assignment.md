@@ -7,10 +7,10 @@ description: Le calcul d’affectation est un type de durée que vous pouvez dé
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 82%
+source-wordcount: '485'
+ht-degree: 81%
 
 ---
 
@@ -46,7 +46,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 Par exemple, dans le scénario décrit ci-dessous, chaque tâche a une durée de 3 jours. La personne responsable du projet saisit manuellement la durée (3 jours ou 24 heures) et les heures prévues, ce qui permet de calculer le pourcentage d’allocation (ou pourcentage d’affectation) :
 
-![](assets/calcassign-350x80.png)
+![Type de durée d&#39;affectation calculée](assets/calcassign-350x80.png)
 
 ## Modifier le type de durée d’une tâche en Calcul d’affectation
 

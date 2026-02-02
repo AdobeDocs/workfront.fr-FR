@@ -6,10 +6,10 @@ description: Vous pouvez associer des jalons à des tâches pour indiquer le mom
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 96%
+source-wordcount: '372'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez associer des jalons à des tâches pour indiquer le moment où vous 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Avant de pouvoir associer un jalon à une tâche, les éléments suivants doiven
 
 Une fois qu’un chemin jalonné est associé à un projet, les tâches peuvent se voir attribuer un jalon.
 
-1. Accédez à une tâche, puis cliquez sur l’icône **Plus** ![](assets/more-icon.png) à droite du nom de la tâche, puis **Modifier**.
+1. Accédez à une tâche, puis cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png) à droite du nom de la tâche, puis sur **Modifier**.
 
    Les tâches et les jalons ont une relation :1. Vous ne pouvez pas joindre le même jalon à plusieurs tâches. Chaque tâche peut être associée à un jalon unique, ou chaque jalon peut être associé à une seule tâche.
 
@@ -111,8 +111,8 @@ Une fois qu’un chemin jalonné est associé à un projet, les tâches peuvent 
 
    Pour plus d’informations, voir [Créer ou modifier des vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-   ![](assets/amwt3.png)
+   ![Icônes de statut](assets/amwt3.png)
 
 1. (Facultatif) Accédez à une liste des projets et sélectionnez la vue **Jalon** pour identifier la progression de vos tâches jalonnées.
 
-   ![](assets/milestone-view-project-list.png)
+   ![Liste des projets de la vue Jalon](assets/milestone-view-project-list.png)

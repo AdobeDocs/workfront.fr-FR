@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 85%
+source-wordcount: '1520'
+ht-degree: 82%
 
 ---
 
@@ -104,19 +104,19 @@ Vous devez avoir une demande que vous ou une personne membre de votre organisati
 
 1. Localisez la demande que vous souhaitez copier et soumettre en tant que nouvelle demande, puis effectuez l’une des opérations suivantes :
 
-   * Sélectionnez-la, puis cliquez sur **Copier** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) dans le coin supérieur gauche de la liste des demandes soumises.
+   * Sélectionnez-la, puis cliquez sur **Copier** ![Icône Copier et envoyer](assets/copy-and-submit-as-new-requests-area-nwe.png) dans le coin supérieur gauche de la liste Demandes envoyées .
 
    >[!TIP]
    >
    > Si vous n’avez pas sélectionné d’abord une demande, l’icône Copier est grisé.
 
-   * Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom de la demande, puis cliquez sur **Copier et soumettre comme nouveau**.
+   * Cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) à droite du nom de la demande, puis cliquez sur **Copier et envoyer comme nouveau**
 
      Ou
 
      Cliquez avec le bouton droit de la souris sur la demande sélectionnée, puis sur **Copier et soumettre comme nouveau**.
 
-     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![Demander les options de menu supplémentaires sélectionnées](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -236,12 +236,9 @@ Vous pouvez copier et envoyer des requêtes dans la zone des Requêtes de Workfr
 
       Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Dans la liste des Demandes ou le widget Mes demandes , placez le pointeur de la souris sur la demande à copier.
+1. Dans la liste **Demandes** ou le widget **Mes demandes** de l’Accueil, passez la souris sur la demande à copier, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png).
 
-   Un menu Plus à trois points s’affiche.
-   ![](assets/more-menu.png)
-
-1. Cliquez sur le menu **Plus** à droite du nom de la requête, puis cliquez sur **Copier**.
+1. Cliquez sur **Copier**
 
    Ou
 

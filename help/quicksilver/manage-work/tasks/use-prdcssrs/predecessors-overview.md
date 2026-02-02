@@ -7,10 +7,10 @@ description: Une tâche antérieure est celle dont dépend une autre tâche (app
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 99%
+source-wordcount: '1184'
+ht-degree: 98%
 
 ---
 
@@ -140,4 +140,4 @@ Vous pouvez afficher les informations sur la tâche antérieure dans les zones s
 
 * Dans l’en-tête de la tâche lors de l’accès à la tâche.
 
-  ![](assets/qs-predecessor-info-in-task-header-350x141.png)
+  ![Informations sur le prédécesseur dans l’en-tête de la tâche](assets/qs-predecessor-info-in-task-header-350x141.png)

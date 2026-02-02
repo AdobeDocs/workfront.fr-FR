@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 45%
+source-wordcount: '1506'
+ht-degree: 38%
 
 ---
 
@@ -145,7 +145,7 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
    >
    >Vous ne pouvez pas personnaliser les colonnes de la liste des demandes envoyées.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Demandes envoyées nouvelle liste](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Les colonnes suivantes s’affichent par défaut :
@@ -189,17 +189,17 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
    >
    >Lorsque vous quittez la liste des demandes envoyées, l’option de tri sélectionnée est conservée.
 
-1. (Facultatif) Sélectionnez une demande dans la liste, puis cliquez sur l’icône ![](assets/open-summary-with-text-nwe.png) **Ouvrir le résumé** pour ouvrir le panneau « Résumé » et afficher des informations supplémentaires sur la demande, ajouter des commentaires, des documents ou les affecter. Pour plus d’informations sur le panneau « Résumé », consultez la section [Vue d’ensemble du résumé](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Facultatif) Sélectionnez une demande dans la liste, puis cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir le résumé avec du texte](assets/open-summary-with-text-nwe.png) pour ouvrir le panneau Résumé et afficher des informations supplémentaires sur la demande, ajouter des commentaires, des documents ou l’affecter. Pour plus d’informations sur le panneau « Résumé », consultez la section [Vue d’ensemble du résumé](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Si le panneau « Résumé » est déjà ouvert, l’icône « Ouvrir le résumé » devient « Fermer le résumé ».
 
-1. (Facultatif et le cas échéant) Cliquez sur l’icône **X** dans l’angle supérieur droit ou l’icône **Fermer le résumé**![](assets/close-summary-with-text-nwe.png) pour fermer le panneau « Résumé ».
+1. (Facultatif et conditionnel) Cliquez sur l’icône **X** dans le coin supérieur droit ou sur l’icône **Fermer le résumé** ![Fermer le résumé avec du texte](assets/close-summary-with-text-nwe.png) pour fermer le panneau de résumé.
 
    Si un problème a été converti en tâche ou projet et que le problème a été supprimé dans le processus de conversion, le panneau « Résumé » est vide. Pour plus d’informations sur la conversion de problèmes, consultez la section [Vue d’ensemble de la conversion de problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Dans l’**icône Filtrer** ![](assets/filter-nwepng.png) en haut à droite de la liste, sélectionnez l’un des filtres répertoriés dans le tableau ci-dessous.
+1. Dans l’**icône Filtre** ![icône Filtre](assets/filter-nwepng.png) en haut à droite de la liste, sélectionnez l’un des filtres répertoriés dans le tableau ci-dessous.
 
    >[!TIP]
    >
@@ -232,7 +232,7 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
     </tbody> 
    </table>
 
-1. (Facultatif) Cliquez sur l’icône **Filtrer la page** ![](assets/search-icon.png) en haut de la liste pour rechercher une demande par nom. La liste est mise à jour avec les résultats correspondant à vos critères de recherche.
+1. (Facultatif) Cliquez sur l’icône **Filtrer la page** ![Icône Rechercher](assets/search-icon.png) en haut de la liste pour rechercher une requête par nom. La liste est mise à jour avec les résultats correspondant à vos critères de recherche.
 
 1. (Conditionnel) Pour afficher uniquement les files d’attente des demandes Workfront, recherchez ou filtrez les types d’objets `Issue`.</span>
 
@@ -266,7 +266,7 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
 
    Utilisez **Filtres** et **Colonnes** pour mettre à jour les informations de la liste des demandes Planning.
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   ![Onglet Planification de la section Soumis de la zone Demandes](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 

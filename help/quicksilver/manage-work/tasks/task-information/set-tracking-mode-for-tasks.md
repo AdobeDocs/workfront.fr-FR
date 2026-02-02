@@ -6,10 +6,10 @@ description: Le mode de suivi d’une tâche détermine la manière dont le stat
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 75%
+source-wordcount: '207'
+ht-degree: 71%
 
 ---
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur le mode de suivi des tâches, consultez la sectio
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -87,13 +87,13 @@ Pour plus d’informations sur le mode de suivi des tâches, consultez la sectio
 ## Définir le mode de suivi des tâches
 
 1. Accédez à la tâche pour laquelle vous souhaitez définir le mode de suivi.
-1. Cliquez sur l’icône **Plus** ![](assets/qs-more-icon-on-an-object.png)en regard du nom de la tâche, puis cliquez sur **Modifier**.
+1. Cliquez sur l’icône **Plus** ![Plus d’un objet](assets/qs-more-icon-on-an-object.png)en regard du nom de la tâche, puis cliquez sur **Modifier**.
 
    La boîte de dialogue « Modifier la tâche » s’ouvre.
 
 1. Dans la section **Paramètres**, utilisez le menu déroulant **Mode de suivi** pour sélectionner le Mode de suivi de la tâche.
 
-   ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
+   ![Champ Mode de suivi de la section Modifier les paramètres de la tâche](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. Sélectionnez l’une des options suivantes :
 

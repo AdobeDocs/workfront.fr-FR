@@ -1,5 +1,5 @@
 ---
-title: 'Le framework de la réussite : modéliser la hiérarchie de votre campagne'
+title: 'Architecture de la réussite : modéliser la hiérarchie de votre campagne'
 description: Découvrez comment traduire vos processus d’entreprise complexes en une hiérarchie de campagnes évolutive et régie à l’aide de « centres de gravité » et d’une architecture multi-espace de travail.
 feature: Workfront Planning
 role: User, Admin
@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Le framework de la réussite : modélisez la hiérarchie de vos campagnes
+# L’architecture du succès : modélisez la hiérarchie de votre campagne
 
 <!--see the file again for additional comments from Seth and others-->
 

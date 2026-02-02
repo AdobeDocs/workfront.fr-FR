@@ -7,10 +7,10 @@ description: Le calcul de travail est un type de durée que vous pouvez définir
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 93%
+source-wordcount: '568'
+ht-degree: 92%
 
 ---
 
@@ -80,7 +80,7 @@ Dans l’exemple suivant, la mesure Heures habituelles par journée de travail e
 
 Dans ce cas, chaque personne cessionnaire est affectée à 100 % à la tâche de Calcul de travail.
 
-![](assets/calcwork-350x71.png)
+![Type de durée de travail calculée](assets/calcwork-350x71.png)
 
 ## Modifier le type de durée d’une tâche en Calcul de travail
 

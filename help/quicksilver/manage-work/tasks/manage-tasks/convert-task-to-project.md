@@ -6,10 +6,10 @@ description: Lorsqu’une tâche d’un projet nécessite plus d’efforts que p
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 82%
+source-wordcount: '1152'
+ht-degree: 80%
 
 ---
 
@@ -199,13 +199,13 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 ## Convertir une tâche en projet
 
 1. Accédez à la tâche que vous souhaitez convertir en projet.
-1. Cliquez sur l’icône **Plus** ![](assets/more-icon.png), puis **Convertir en projet**.
+1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis **Convertir en projet**.
 1. Choisissez l’une des options suivantes :
 
    * **Nouveau projet**, pour créer un projet sans utiliser de modèle
    * Un modèle dans la section **Sélectionner à partir des modèles** 
 
-     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![ Menu déroulant de l’option Convertir la tâche en modèle de projet ](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Cliquez sur **Continuer** dans la notification qui s’affiche.
 1. Dans la boîte **Convertir en projet**, indiquez ce qui suit :

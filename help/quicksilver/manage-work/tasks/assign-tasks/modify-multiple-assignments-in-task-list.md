@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 72%
+source-wordcount: '1553'
+ht-degree: 71%
 
 ---
 
@@ -125,7 +125,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >N’utilisez pas le champ **Affecté à**. Cela permet de trouver uniquement la personne propriétaire principale pour la tâche au lieu de toutes les personnes qui pourraient être affectées.
 
-1. Sélectionnez les tâches pour lesquelles vous souhaitez modifier les affectations, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
+1. Sélectionnez les tâches pour lesquelles vous souhaitez modifier les affectations, puis cliquez sur l&#39;icône **Modifier** ![Modifier](assets/edit-icon.png).
 
    La modification des affectations de tâches diffère selon l&#39;environnement choisi.
 

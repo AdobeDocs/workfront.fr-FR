@@ -6,10 +6,10 @@ description: Vous pouvez afficher ou modifier les informations d’une tâche en
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 92%
+source-wordcount: '2104'
+ht-degree: 91%
 
 ---
 
@@ -113,7 +113,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    >
    >Selon la façon dont votre administrateur ou administratrice Workfront ou de groupes configure notre modèle de mise en page, les champs de la section Détails de la tâche peuvent être réorganisés ou ne pas s’afficher. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Vue d’ensemble**.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Aperçu**.
 
    >[!TIP]
    >

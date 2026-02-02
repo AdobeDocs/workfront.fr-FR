@@ -6,10 +6,10 @@ description: Vous pouvez afficher ou modifier les informations financières d’
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 87%
+source-wordcount: '838'
+ht-degree: 84%
 
 ---
 
@@ -92,7 +92,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 1. Cliquez sur **Détails de la tâche**.
 1. (Facultatif) Cliquez sur l’icône **Réduire tout** en haut à droite de la page Détails de la tâche.
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![Icône Réduire tout sur la page Détails](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 1. Cliquez sur **Finances** pour développer et afficher les informations financières de la tâche.
 
-   Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finances**.
+   Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finance**.
 
 1. Modifiez un champ qui peut être modifié en cliquant sur le champ ou en cliquant sur **+Ajouter** pour ajouter des informations à un champ vide.
 1. Examinez ou modifiez les informations suivantes dans la section **Finances** :
@@ -166,4 +166,4 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
     </tbody> 
    </table>
 
-1. (Le cas échéant) Si vous modifiez les champs de la section Finance, cliquez sur **Enregistrer**&#x200B;**les modifications**.
+1. (Le cas échéant) Si vous modifiez les champs de la section Finance, cliquez sur **Enregistrer****les modifications**.

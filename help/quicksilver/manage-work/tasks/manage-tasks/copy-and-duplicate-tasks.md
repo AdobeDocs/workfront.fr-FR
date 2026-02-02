@@ -6,10 +6,10 @@ description: Vous pouvez copier une tâche d’un projet vers un autre projet ou
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 99%
+source-wordcount: '1744'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez copier ou dupliquer une ou plusieurs tâches ou tâches parent à la
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -108,9 +108,9 @@ Tenez compte des points suivants lors de la copie d’une tâche :
    Accédez à un rapport de tâches.
 
 1. (Le cas échéant) Cliquez sur **Tâches** dans le panneau de gauche, si vous avez ouvert le projet qui contient les tâches.
-1. Cliquez sur l’icône **Mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) et assurez-vous que l’option **Enregistrement automatique** est activée.
+1. Cliquez sur l’icône **Mode Plan** ![Mode Liste ou icône de mode d’enregistrement](assets/qs-list-mode-or-save-mode-icon-small.png) et assurez-vous que l’option **Enregistrement automatique** est activée.
 
-   ![](assets/autosave-icon-on-highlighted-350x202.png)
+   ![Icône d’enregistrement automatique activée et mise en surbrillance](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -120,9 +120,9 @@ Tenez compte des points suivants lors de la copie d’une tâche :
 
    * Cliquez sur le **Menu Plus** en haut de la liste des tâches, puis cliquez sur **Copier vers**.
    * Cliquez avec le bouton droit de la souris sur les tâches sélectionnées, puis cliquez sur **Copier vers**.
-   * Lorsque vous sélectionnez une tâche, cliquez sur le menu **Plus** ![](assets/more-icon-task-list.png) à côté du nom de la tâche dans la liste, puis cliquez sur **Copier vers**.
+   * Lors de la sélection d’une tâche, cliquez sur le menu **Plus** ![icône Plus dans la liste des tâches](assets/more-icon-task-list.png) en regard du nom de la tâche dans la liste, puis cliquez sur **Copier dans**.
 
-   ![](assets/copy-task-in-list-nwe-350x131.png)
+   ![Copier la tâche dans la liste](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Continuez de copier la tâche, comme décrit dans la section [Copier une tâche au niveau de la tâche](#copy-a-task-at-the-task-level) à partir de l’étape 4.
 
@@ -136,9 +136,9 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
 
 1. Accédez à une tâche dans votre système Workfront en la recherchant.
 1. Cliquez sur le nom de la tâche pour l’ouvrir.
-1. Cliquez sur le menu déroulant **Plus** ![](assets/qs-more-menu.png) à côté du nom de la tâche, puis cliquez sur **Copier vers**.
+1. Cliquez sur le menu déroulant **Plus** ![Menu plus](assets/qs-more-menu.png) en regard du nom de la tâche, puis cliquez sur **Copier dans**.
 
-   ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+   ![Option Copier dans au niveau de la tâche](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    La zone « Copier la tâche » s’affiche.
 
@@ -148,7 +148,7 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
    >
    >Ce champ est grisé et ne peut pas être modifié lorsque vous sélectionnez plusieurs tâches dans une liste. Vous pouvez placer le pointeur sur le champ Nom de la tâche pour afficher la liste de toutes les tâches sélectionnées.
    >
-   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >![Copier la tâche dans une boîte à tâches multiples](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. Saisissez le nom du **projet de destination** où vous souhaitez copier la tâche dans le champ **Sélectionner le projet de destination**.
 
@@ -163,7 +163,7 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
 1. (Le cas échéant) Cliquez sur **Demander l’accès** pour demander l’accès au projet, si vous n’avez pas accès au projet sélectionné.
 1. (Le cas échéant) Continuez à copier la tâche vers le projet de destination sélectionné sans demander l’accès si vous avez accès à l’une des tâches du projet de destination.
 
-   ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
+   ![Copier l&#39;accès de la demande de tâche à partir du projet](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -290,11 +290,11 @@ Vous pouvez rapidement dupliquer une tâche dans une liste de tâches, si vous a
 1. Cliquez sur **Tâches** dans le panneau de gauche.
 1. Utilisez l’une des méthodes suivantes :
 
-   * (Le cas échéant) Cliquez sur l’icône **Mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) et assurez-vous que l’option **Enregistrement automatique** est activée, sélectionnez les tâches à dupliquer, puis cliquez sur **Menu Plus** ![](assets/qs-more-menu-29x11.png) > **Dupliquer**.
+   * (Conditionnel) Cliquez sur l’icône **Mode Plan** ![Mode Liste ou petite icône du mode d’enregistrement](assets/qs-list-mode-or-save-mode-icon-small.png) et assurez-vous que l’option **Enregistrement automatique** est activée, sélectionnez les tâches à dupliquer, puis cliquez sur le **menu Plus** ![menu Plus](assets/qs-more-menu-29x11.png) > **Dupliquer**.
 
-     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![Dupliquer des tâches dans un élément de menu de liste](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Le cas échéant) Cliquez sur l’icône **Mode Plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Enregistrement manuel** > **Standard** ou **Planification chronologique**, puis procédez comme suit :
+   * (Conditionnel) Cliquez sur l’icône **Mode Plan** ![Mode Liste ou petite icône du mode d’enregistrement](assets/qs-list-mode-or-save-mode-icon-small.png) > **Enregistrement manuel** > **Standard** ou **Planification de la chronologie**, puis procédez comme suit :
 
       1. Sélectionnez la ou les tâches à dupliquer, puis cliquez sur **Dupliquer**.
       1. (Facultatif) Cliquez sur **Annuler** pour annuler vos modifications et ne pas dupliquer les tâches.

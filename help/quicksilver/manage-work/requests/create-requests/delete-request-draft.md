@@ -6,10 +6,10 @@ description: Vous pouvez supprimer des demandes envoyées ou des brouillons de d
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 31%
+source-wordcount: '608'
+ht-degree: 32%
 
 ---
 
@@ -81,12 +81,9 @@ Vous pouvez supprimer des requêtes dans la zone des Requêtes de Workfront ou d
 
       Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Dans la liste des Demandes ou le widget Mes demandes, pointez sur la demande ou le brouillon à supprimer.
+1. Dans la liste **Demandes** ou le widget **Mes demandes** de l’Accueil, passez la souris sur la demande ou le brouillon à supprimer, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png)
 
-   Un menu Plus à trois points s’affiche.
-   ![](assets/more-menu.png)
-
-1. Cliquez sur le menu **Plus** à droite du nom de la demande ou du brouillon, puis cliquez sur **Supprimer**.
+1. Cliquez sur **Supprimer**
 
    Ou
 

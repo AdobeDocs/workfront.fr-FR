@@ -6,9 +6,9 @@ description: Vous pouvez mettre à jour le pourcentage d’achèvement d’une t
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '692'
 ht-degree: 42%
 
 ---
@@ -30,7 +30,7 @@ La mise à jour du pourcentage terminé pour les événements est similaire à l
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ Vous pouvez mettre à jour le pourcentage terminé d’une tâche dans l’un de
 
 * **Dans l’en-tête de la tâche** : vous pouvez mettre à jour le pourcentage d’avancement d’une tâche dans l’en-tête de la tâche.
 
-  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![Mettre à jour le pourcentage dans l’en-tête](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 * **Dans le panneau Résumé d’une tâche** : vous pouvez mettre à jour le pourcentage terminé d’une tâche en haut du panneau Résumé lorsque vous affichez la tâche dans les zones suivantes :
 
@@ -108,7 +108,7 @@ Vous pouvez mettre à jour le pourcentage terminé d’une tâche dans l’un de
    * Feuille de temps
    * Équilibreur de charge de travail
 
-  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![Mettre à jour le pourcentage dans le résumé de la tâche en surbrillance](assets/update-percent-complete-in-task-summary-highlighted.png)
 
   Pour plus d’informations, consultez la [Vue d’ensemble du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 

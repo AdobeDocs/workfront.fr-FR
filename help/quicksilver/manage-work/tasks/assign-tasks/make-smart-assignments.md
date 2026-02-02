@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des affectations intelligentes pour identifier
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur les critères utilisés pour déterminer les affe
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
    <!--For issues, the smart assignments display in the following sections: 
       * **Users and teams**
       * **Job roles**
-        ![](assets/smart-assignments-issue-header.png)-->
+        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)-->
 
    Les affectations intelligentes s’affichent dans les sections suivantes <!--, depending on which phase of the algorithm's calculation identified the assignments-->
 

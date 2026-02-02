@@ -6,10 +6,10 @@ description: Les contraintes de tâches déterminent quand une tâche doit comme
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 97%
+source-wordcount: '304'
+ht-degree: 95%
 
 ---
 
@@ -80,7 +80,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 1. Cliquez sur la section **Tâches** dans le panneau de gauche.
 1. Cliquez sur **Détails de la tâche** dans le panneau de gauche, puis, dans la zone Vue d’ensemble, cliquez sur **Contrainte de tâche**.
 
-   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+   ![Contrainte de tâche pour toutes les options de la vue d&#39;ensemble](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. Sélectionnez l’une des options suivantes :
 

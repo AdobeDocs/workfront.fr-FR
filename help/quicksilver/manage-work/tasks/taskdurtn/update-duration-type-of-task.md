@@ -6,10 +6,10 @@ description: Le type de durée d’une tâche identifie la relation entre le nom
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 95%
+source-wordcount: '292'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Le type de durée d’une tâche identifie la relation entre le nombre de ressou
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ Pour mettre à jour le type de durée d’une tâche, procédez comme suit :
 1. Cliquez sur la section **Tâches** dans le menu du panneau de gauche.
 1. Cliquez sur **Détails de la tâche** dans le panneau de gauche, puis dans la zone Vue d’ensemble, cliquez sur **Type de durée**.
 
-   ![](assets/duration-type-all-options-on-overview-350x155.png)
+   ![Saisissez la durée pour toutes les options dans la vue d’ensemble](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. Sélectionnez l’une des options suivantes :
 

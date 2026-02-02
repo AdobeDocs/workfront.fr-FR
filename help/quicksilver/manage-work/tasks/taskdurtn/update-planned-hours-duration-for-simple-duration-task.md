@@ -6,10 +6,10 @@ description: Par défaut, Adobe Workfront calcule la durée d’une tâche avec
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 83%
+source-wordcount: '450'
+ht-degree: 78%
 
 ---
 
@@ -32,7 +32,7 @@ Cet article décrit comment vous pouvez mettre à jour le nombre d’heures pré
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -91,13 +91,13 @@ Pour modifier le nombre d’heures prévues et la durée d’une tâche avec un 
 1. Dans une liste de tâches, cliquez sur le nom de la tâche pour laquelle vous souhaitez modifier le type de durée.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur l’icône **Plus** ![](assets/qs-more-icon-on-an-object.png) à côté du nom de la tâche, cliquez sur **Modifier**, puis sur **Affectations**.
+   * Cliquez sur l’icône **Plus** ![Plus d’un objet](assets/qs-more-icon-on-an-object.png) en regard du nom de la tâche, cliquez sur **Modifier**, puis **Affectations**.
    * Cliquez sur le **Affecté à** ou sur le nom des affectations dans la zone Affectations de l’en-tête de la tâche, puis cliquez sur **Avancé**.
 
 1. Saisissez une valeur totale pour le **Nombres d’heures prévues** pour toutes les affectations, par exemple 10 heures. Le nombre total d’heures prévues est réparti de manière égale entre toutes les ressources affectées à la tâche.
 1. (Facultatif) Ajustez manuellement les heures prévues de chaque ressource affectée à la tâche. Le nombre total d’heures prévues pour la tâche est mis à jour pour refléter les nouvelles heures affectées individuellement à vos ressources.
 1. Saisissez une valeur pour la **Durée** de la tâche, par exemple 2 jours.
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![Ressources multiples de durée simple d&#39;affectations avancées](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. Cliquer sur **Enregistrer**.

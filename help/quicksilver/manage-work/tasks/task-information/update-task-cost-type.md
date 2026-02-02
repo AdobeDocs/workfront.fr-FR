@@ -6,10 +6,10 @@ description: Les coûts prévus et réels des tâches et leurs coûts de main-d�
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 91%
+source-wordcount: '223'
+ht-degree: 88%
 
 ---
 
@@ -84,7 +84,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 1. Cliquez sur **Détails de la tâche** dans le panneau de gauche, puis développez la zone **Finances**.
 1. Double-cliquez sur **Type de coût** et sélectionnez le type de coût que vous souhaitez appliquer à la tâche.
 
-   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   ![Options de type de coût de tâche dans Détails de la tâche](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    Sélectionnez l’une des options suivantes :
 

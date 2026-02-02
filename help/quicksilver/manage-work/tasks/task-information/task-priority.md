@@ -7,10 +7,10 @@ description: Vous pouvez définir une priorité pour une tâche afin d’indique
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 98%
+source-wordcount: '277'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez définir une priorité pour une tâche afin d’indiquer l’importa
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -102,5 +102,5 @@ Tenez compte des points suivants lors de l’utilisation des priorités des tâc
 
 1. Accédez à la tâche dont vous souhaitez modifier la priorité.
 1. Cliquez sur **Détails de la tâche** dans le panneau de gauche.
-1. Cliquez sur l’icône **Modifier** ![](assets/qs-edit-icon.png), puis dans la zone **Vue d’ensemble**, sélectionnez une valeur pour le champ **Priorité**.
+1. Cliquez sur l’icône **Modifier** ![Icône Modifier](assets/qs-edit-icon.png) puis, dans la zone **Aperçu**, sélectionnez une valeur pour le champ **Priorité**.
 1. Cliquez sur **Enregistrer** **les modifications**.

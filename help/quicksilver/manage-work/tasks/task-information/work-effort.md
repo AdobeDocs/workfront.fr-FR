@@ -7,10 +7,10 @@ description: Vue d’ensemble de l’effort de travail
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 99%
+source-wordcount: '1488'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ Cet article décrit l’effort de travail et explique comment l’utiliser pour 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -130,15 +130,15 @@ Pour plus d’informations, consultez la section [Conditions d’accès dans la 
 
 ## Activer l’utilisation de l’effort de travail au lieu du nombre d’heures prévues
 
-1. Accédez à un projet et cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Modifier**.
+1. Accédez à un projet et cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png), puis sur **Modifier**.
 1. Cliquez sur **Paramètres de la tâche**, puis sélectionnez l’option **Utiliser l’option Effort de travail pour calculer automatiquement les heures planifiées de la tâche**. Cette option est désélectionnée par défaut.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Travail sur les projets](assets/nwe-work-effort-on-projects-350x182.png)
 
    Pour plus d’informations sur l’activation de l’utilisation de l’effort de travail sur un projet, voir la section « Paramètres des tâches » dans l’article [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Cliquez sur **Tâches** dans le panneau de gauche, puis cliquez sur le nom d’une tâche pour y accéder.
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Modifier**. Assurez-vous que la tâche possède un type de durée Simple.
+1. Cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png), puis sur **Modifier**. Assurez-vous que la tâche possède un type de durée Simple.
 
    >[!TIP]
    >
@@ -146,7 +146,7 @@ Pour plus d’informations, consultez la section [Conditions d’accès dans la 
 
 1. Dans la zone **Vue d’ensemble**, cliquez sur le menu déroulant Effort de travail pour corriger la quantité d’effort nécessaire pour accomplir la tâche.
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![Tâche sur la page Modifier la tâche](assets/work-effort-on-edit-task-page-350x239.png)
 
    Pour plus d’informations sur la mise à jour du champ Effort de travail sur une tâche, consultez les articles suivants :
 
@@ -159,7 +159,7 @@ En tant que perosnne gestionnaire de projet, vous pouvez identifier trois niveau
 
 Lorsque vous définissez le niveau d’effort de travail, vous devez vous poser la question suivante : « Combien de temps une personne affectée à cette tâche doit-elle y consacrer quotidiennement pour la réaliser dans les délais ? »
 
-Le tableau suivant illustre les niveaux possibles d’effort de travail et les pourcentages correspondants par défaut. En tant que personne gestionnaire de projet, vous pouvez adapter les pourcentages aux besoins de votre organisation. Vous effectuez cette opération lorsque vous modifiez un projet. Pour plus d’informations sur la modification des projets, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+Le tableau suivant illustre les niveaux possibles d’effort de travail et les pourcentages correspondants par défaut. En tant que gestionnaire de projet, vous pouvez adapter les pourcentages aux besoins de votre organisation. Vous effectuez cette opération lorsque vous modifiez un projet. Pour plus d’informations sur la modification des projets, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 En tant qu’administrateur ou administratrice Workfront, vous définissez les Heures habituelles par journée de travail dans la zone Préférences du projet de la Configuration. Il s’agit du nombre d’heures quotidien considéré comme temps de travail. Pour plus d’informations sur la configuration des préférences de projet pour votre instance de Workfront, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 

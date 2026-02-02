@@ -6,10 +6,10 @@ description: Dans Adobe Workfront, les tâches peuvent avoir des relations paren
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 75%
+source-wordcount: '578'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Dans Adobe Workfront, les tâches peuvent avoir des relations parent-enfant. Les
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -96,12 +96,12 @@ Vous pouvez créer des sous-tâches à partir de la liste des tâches ou de la s
 1. (Conditionnel) Si la tâche que vous souhaitez rendre la tâche enfant n’est pas déjà située directement sous la tâche que vous souhaitez rendre la tâche parent, faites-la glisser et déposez-la à l’emplacement approprié dans la liste des tâches.
 1. Sélectionnez la tâche à convertir en sous-tâche et effectuez l’une des opérations suivantes :
 
-   * Cliquez sur l’icône **Indentation** ![](assets/indent-icon-nwe-33x29.png) pour faire de la tâche sélectionnée une sous-tâche par rapport à la tâche située directement au-dessus.
+   * Cliquez sur l’icône **Mettre en retrait** ![Icône Mettre en retrait](assets/indent-icon-nwe-33x29.png) pour faire de la tâche sélectionnée une sous-tâche de la tâche directement au-dessus.
    * Effectuez le raccourci Option+> (Mac) ou Alt+> (Windows) à l’aide d’un clavier QWERTY. Pour les autres langues, effectuez Option+, (Mac) ou Alt+, (Windows) pour l’indentation.
 
      >[!TIP]
      >
-     >Les raccourcis clavier ne fonctionnent pas lorsque vous modifiez des tâches en ligne. Dans ce cas, utilisez l’icône d’indentation ![](assets/indent-icon-nwe-33x29.png) pour créer des sous-tâches.
+     >Les raccourcis clavier ne fonctionnent pas lorsque vous modifiez des tâches en ligne. Dans ce cas, utilisez l’icône Mettre en retrait ![icône Mettre en retrait](assets/indent-icon-nwe-33x29.png) pour créer des sous-tâches.
 
    * Placez la tâche au-dessus de la tâche qui deviendra la tâche parent.
 
@@ -132,7 +132,7 @@ Vous pouvez créer des sous-tâches à partir de la liste des tâches ou de la s
 1. Accédez au projet dans lequel vous souhaitez faire d’une sous-tâche une tâche principale.
 1. Cliquez sur la section **Tâches** dans le panneau de gauche.
 1. Sélectionnez la sous-tâche à convertir en tâche.
-1. Cliquez sur l’icône **Retrait négatif** ![](assets/outdent-icon-nwe-31x29.png) pour faire de la sous-tâche une tâche principale.
+1. Cliquez sur l’icône **Ajouter un retrait négatif** ![Icône Ajouter un retrait négatif](assets/outdent-icon-nwe-31x29.png) pour faire de la sous-tâche une tâche principale.
 
    Ou
 

@@ -7,9 +7,9 @@ description: La détermination du chemin critique d’un projet est une méthode
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '689'
 ht-degree: 49%
 
 ---
@@ -38,7 +38,7 @@ Les fonctionnalités suivantes peuvent avoir un impact sur le chemin critique d�
      >Lorsque la date du successeur d&#39;une tâche n&#39;a pas d&#39;incidence directe sur la date de ses tâches dépendantes ou sur les dates du projet, la tâche du successeur ne se trouve pas sur le chemin critique.
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![Le successeur n&#39;est pas sur le chemin critique](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * Lorsqu&#39;une sous-tâche est identifiée comme tâche de chemin critique, la tâche parent est également identifiée comme tâche de chemin critique si la date de début prévue et l&#39;heure de la tâche parent sont identiques à celles de la sous-tâche.
@@ -56,7 +56,7 @@ Tout retard dans l’activité d’une tâche sur le chemin critique affecte dir
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

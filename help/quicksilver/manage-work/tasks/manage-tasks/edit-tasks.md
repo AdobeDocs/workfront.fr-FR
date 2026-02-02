@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '5369'
-ht-degree: 80%
+source-wordcount: '5428'
+ht-degree: 77%
 
 ---
 
@@ -162,7 +162,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 1. Cliquez sur la tâche à modifier.
 1. (Le cas échéant) Pour modifier des informations limitées sur une tâche, cliquez sur **Détails de la tâche** dans le panneau de gauche.
 
-   ![](assets/nwe-task-details-expanded-350x273.png)
+   ![Détails de la tâche développés](assets/nwe-task-details-expanded-350x273.png)
 
    Envisagez de modifier des informations dans les zones suivantes de la section des détails de la tâche :
 
@@ -184,15 +184,15 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 
    Pour modifier les informations de la section Détails, procédez comme suit :
 
-   1. (Facultatif) Cliquez sur l’icône **Réduire tout** ![](assets/collapse-all-icon.png) dans le coin supérieur droit pour réduire toutes les zones.
-   1. (Facultatif et le cas échéant) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![](assets/right-pointing-arrow.png) à côté de chaque zone pour développer la zone à modifier.
+   1. (Facultatif) Cliquez sur l’icône **Tout réduire** ![Tout réduire](assets/collapse-all-icon.png) dans le coin supérieur droit pour réduire toutes les zones.
+   1. (Facultatif et conditionnel) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![flèche pointant vers la droite](assets/right-pointing-arrow.png) en regard de chaque zone pour développer la zone à modifier.
    1. Pour plus d’informations sur la modification des informations dans l’onglet des détails de la tâche, consultez les articles suivants :
 
       * [Gérer les informations des tâches dans la zone de vue d’ensemble des détails de la tâche](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Gérer les finances des tâches dans la section Détails de la tâche](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Facultatif) Si aucun formulaire personnalisé n’est associé à la tâche, commencez à saisir le nom d’un formulaire dans le champ **Ajouter un formulaire personnalisé**, sélectionnez-le lorsqu’il s’affiche dans la liste, puis cliquez sur **Enregistrer les modifications**.
-   1. (Facultatif) Cliquez sur **l’icône Exporter** ![](assets/export.png) pour exporter les informations de vue d’ensemble et des formulaires personnalisés vers un fichier PDF, puis cliquez sur **Exporter**. Sélectionnez l’une des options suivantes :
+   1. (Facultatif) Cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export.png) pour exporter les informations de la Présentation et des formulaires personnalisés dans un fichier PDF, puis cliquez sur **Exporter**. Sélectionnez l’une des options suivantes :
 
       * Sélectionner tout (ne s’affiche que lorsqu’au moins un formulaire personnalisé est joint)
       * Vue d’ensemble
@@ -200,15 +200,15 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 
       Le fichier PDF est téléchargé sur votre ordinateur.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Zone de sélection Exporter les détails du problème avec le bouton Exporter](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-      Pour plus d’informations, voir [Exporter les formulaires personnalisés et les détails des objets](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      Pour plus d’informations, consultez la section [Exporter les formulaires personnalisés et les détails de l’objet](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. (Le cas échéant) Pour modifier toutes les informations relatives à la tâche, en tant qu’utilisateur ou utilisatrice disposant des autorisations de gestion pour la tâche, cliquez sur le menu **Plus** ![](assets/more-icon.png) en regard du nom de la tâche, puis sur **Modifier**.
+1. (Conditionnel) Pour modifier toutes les informations relatives à la tâche, en tant qu’utilisateur disposant d’autorisations de niveau Gérer pour la tâche, cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) en regard du nom de la tâche, puis cliquez sur **Modifier**.
 
    Ou
 
-   Dans une liste de tâches, sélectionnez une tâche, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) en haut de la liste.
+   Dans une liste de tâches, sélectionnez une tâche, puis cliquez sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png) en haut de la liste.
 
    La zone Modifier la tâche s’ouvre.
 
@@ -241,7 +241,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 1. Commencez à modifier votre tâche comme décrit ci-dessus.
 1. Cliquez sur **Nom de la tâche** dans le panneau de gauche.
 
-   ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   ![Section Nom de la tâche dans la zone Modifier la tâche](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. Mettez à jour le nom de la tâche.
 
@@ -252,7 +252,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 1. Commencez à modifier votre tâche comme décrit ci-dessus.
 1. Cliquez sur **Vue d’ensemble** dans le panneau de gauche.
 
-   ![](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![Zone de modification de la tâche de la section Aperçu](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. Mettez à jour les informations suivantes sur la tâche :
 
@@ -843,7 +843,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
 1. Commencez à modifier la tâche comme décrit ci-dessus.
 1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche, ou cliquez sur le nom d’un formulaire personnalisé s’il est déjà associé.
 
-   ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![Zone de modification de la section Formulaires personnalisés](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. Cliquez sur **Ajouter un formulaire personnalisé** et sélectionnez le ou les formulaires personnalisés à associer à la tâche. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste.
 
@@ -862,7 +862,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
 1. Commencez à modifier votre tâche, comme décrit dans la section [Modifier les tâches](#Edit2) de cet article.
 1. Cliquez sur **Finances** dans le panneau de gauche.
 
-   ![](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![Zone de modification de la tâche de la section Finances](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. Mettez à jour les champs suivants :
 
@@ -905,7 +905,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
 1. Commencez à modifier votre tâche, comme décrit dans la section [Modifier les tâches](#Edit2) de cet article.
 1. Cliquez sur **Paramètres** dans le panneau de gauche.
 
-   ![](assets/nwe-settings-section-edit-task-box-350x304.png)
+   ![Section Paramètres de la zone Modifier la tâche](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. Mettez à jour les champs suivants :
 
@@ -992,7 +992,7 @@ Vous pouvez modifier une quantité limitée d’informations dans l’en-tête d
 Votre administrateur ou administratrice système ou de groupes peut personnaliser les champs affichés dans l’en-tête de la tâche. Pour plus d’informations, voir [Personnaliser des en-têtes d’objet à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
-![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![En-tête de tâche sans approbations et avec dépendances](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 Par défaut, les champs suivants sont inclus dans l’en-tête de la tâche :
 

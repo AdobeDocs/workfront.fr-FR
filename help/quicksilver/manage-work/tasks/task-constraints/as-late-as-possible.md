@@ -7,10 +7,10 @@ description: Aussi Tard Que Possible (ALAP) est une contrainte de tâche Adobe 
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 81%
+source-wordcount: '385'
+ht-degree: 77%
 
 ---
 
@@ -61,13 +61,13 @@ Dans ce cas :
 
   **Exemple :** par exemple, la tâche A est antérieure à la tâche B. La tâche A a la contrainte Dernière Heure Disponible et la tâche B la contrainte Aussi Tôt Que Possible. Dans ce cas, la tâche A est planifiée aussi près que possible du début du projet.
 
-  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![Dernière contrainte de tâche de temps disponible](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **Aussi Tard Que Possible :** dans ce scénario, l’utilisation de la contrainte Aussi Tard Que Possible sur la tâche antérieure donne la priorité à la tâche antérieure.
 
   **Exemple :** par exemple, la tâche A est antérieure à la tâche B. La tâche A a la contrainte Aussi Tard Que Possible et la tâche B la contrainte Aussi Tôt Que Possible. Dans ce cas, la tâche A est planifiée aussi près que possible de la fin du projet.
 
-  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![Contrainte de tâche aussi tardive que possible dans une liste de tâches](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 
 
