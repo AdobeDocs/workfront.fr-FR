@@ -6,16 +6,14 @@ description: Adobe Workfront a publié la verison 21 de l’API le vendredi 23
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
+source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '932'
 ht-degree: 79%
 
 ---
 
 # Nouveautés de la version 21 de l’API
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 >[!IMPORTANT]
 >
@@ -680,8 +678,6 @@ Un objet Rate représente un taux de facturation dans Workfront.
 
 Un objet Rôle (fonction) représente une capacité fonctionnelle ou un ensemble de compétences qu’un utilisateur ou une utilisateur peut remplir, tel que Designer ou Chef ou Cheffe de produits.
 
-<div class="preview">
-
 <table>
   <col/>
   <col/>
@@ -709,8 +705,6 @@ Un objet Rôle (fonction) représente une capacité fonctionnelle ou un ensemble
     </tr>
   </tbody>
 </table>
-
-</div>
 
 ### Rapport planifié (SCHREP)
 
