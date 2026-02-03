@@ -6,10 +6,10 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Jenny
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6e136bed16c2b20f05267ac181dcc462b1a2aed4
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 96%
+source-wordcount: '1533'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,7 @@ Pour synchroniser les cartes connectées avec Workfront, cliquez sur le menu **[
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -187,13 +187,21 @@ L’objet connecté, les personnes cessionnaires, les balises, la date d’éch�
 
 Vous pouvez déconnecter une carte connectée de son objet Workfront. La carte reste sur le panorama sous la forme d’une carte ad hoc que vous pouvez modifier.
 
-Pour déconnecter au niveau du panorama :
+>[!NOTE]
+>
+>Si vous déconnectez une carte connectée sur un panorama dynamique, elle réapparaîtra lorsque vous actualiserez le panorama, car ce type de panorama extrait toutes les tâches et tous les événements d’un projet spécifique.
+>
+>Si vous déconnectez une carte connectée de tout autre type de panorama doté d’une colonne d’entrée, la carte réapparaît dans la colonne d’entrée lorsque vous actualisez le panorama si la tâche ou l’événement connecté n’est pas encore marqué comme terminé.
+>
+>Dans ces deux scénarios, après une actualisation, vous disposerez de deux cartes pour la même tâche ou le même problème : une carte ad hoc et une carte connectée.
+
+Pour déconnecter une carte au niveau du panorama :
 
 1. Accédez au panorama.
 1. Cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) sur la carte connectée et sélectionnez **[!UICONTROL Déconnecter]**.
 1. Cliquez sur **[!UICONTROL Déconnecter]** sur le message de confirmation.
 
-Pour vous déconnecter au niveau de la carte :
+Pour déconnecter une carte au niveau de la carte :
 
 1. Accédez au panorama et ouvrez la carte connectée.
 1. Cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) dans la zone Connexion des détails de la carte, puis sélectionnez **[!UICONTROL Déconnecter]**.
