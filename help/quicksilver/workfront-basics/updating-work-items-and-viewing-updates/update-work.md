@@ -164,7 +164,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * Dans un objet Workfront, dans la section Mises à jour (pour les projets, les tâches et les problèmes)
    * Dans la zone Accueil (pour les tâches et les problèmes)
 
-     Pour plus d’informations, voir [ Gérer votre travail avec le widget Mes tâches ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
+     Pour plus d’informations, voir [&#x200B; Gérer votre travail avec le widget Mes tâches &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
    * Dans le panneau Résumé des zones suivantes (pour les tâches, les problèmes et les documents) :
 
       * Une liste des objets
@@ -272,7 +272,7 @@ You can add updates to the following objects:
 Cet article décrit comment mettre à jour des projets, des tâches ou des événements. La mise à jour de la plupart des autres objets est similaire.
 
 1. Recherchez l’objet auquel vous souhaitez ajouter un commentaire, puis cliquez sur son nom pour ouvrir la page de l’objet.
-1. Cliquez sur Mises à jour dans le panneau de gauche. ****
+1. Cliquez sur Mises à jour dans le panneau de gauche. **&#x200B;**
 L’onglet **Commentaires** est sélectionné par défaut.
 
 1. Commencez à saisir un commentaire dans la zone **Nouveau commentaire**.
@@ -328,7 +328,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
 
    D’autres commentaires s’affichent en bas de l’écran.
 
-1. (Facultatif) Cliquez sur l’icône **J’aime** Icône ![ j’aime](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions « J’aime ».
+1. (Facultatif) Cliquez sur l’icône **J’aime** Icône ![&#x200B; j’aime](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions « J’aime ».
 1. (Le cas échéant - Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
 
    ![Icônes de membres développées](assets/members-icons-expanded-unshimmed.png)
@@ -338,7 +338,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >Les noms des deux premières entités mentionnées s’affichent en regard de leurs avatars. Si plus de deux entités sont mentionnées, seul le nom de la première et le nombre d’entités supplémentaires s’affichent.
 
 1. (Facultatif) Cliquez sur le nom d’un commentateur ou d’une commentatrice pour afficher son nom, son rôle et son adresse e-mail dans une zone d’informations. Cliquez à nouveau sur le nom du commentateur ou de la commentatrice dans la zone d’informations pour ouvrir son profil utilisateur.
-1. (Facultatif) Cliquez sur l’onglet Activité du système pour afficher les mises à jour consignées par le système. **** Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note relative à cette mise à jour et l’affiche dans l’onglet Activité du système.
+1. (Facultatif) Cliquez sur l’onglet Activité du système pour afficher les mises à jour consignées par le système. **&#x200B;**&#x200B;Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note relative à cette mise à jour et l’affiche dans l’onglet Activité du système.
 
    Pour plus d’informations, consultez [Vue d’ensemble de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -346,7 +346,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >
    >Vous ne pouvez pas ajouter de commentaire à une mise à jour système. Cependant, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée ont été ajoutées à l’onglet Activité système en lecture seule. L’expérience de commentaire héritée a été supprimée de Workfront le 11 avril 2024.
 
-1. (Facultatif) Cliquez sur l’onglet Tous pour afficher les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit ****. Il s’agit d’un onglet en lecture seule.
+1. (Facultatif) Cliquez sur l’onglet Tous pour afficher les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit **&#x200B;**. Il s’agit d’un onglet en lecture seule.
 
    >[!TIP]
    >
@@ -359,7 +359,7 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
 1. Accédez à la zone **Mises à jour** d’un objet Workfront, ouvrez l’onglet **Commentaires** et commencez à saisir un commentaire.
 1. (Facultatif) Pour ajouter du texte enrichi à votre commentaire, utilisez les attributs de la barre d’outils **Texte enrichi** au fur et à mesure que vous tapez.
 
-   ![ Barre d’outils de texte enrichi ](assets/rich-text-toolbar.png)
+   ![&#x200B; Barre d’outils de texte enrichi &#x200B;](assets/rich-text-toolbar.png)
 
    | **Attribut** | **Bouton Barre d’outils** | **Raccourcis clavier Mac** | **Raccourcis clavier Windows** |
    |---|---|---|---|
