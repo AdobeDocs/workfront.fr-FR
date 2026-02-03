@@ -2,10 +2,9 @@
 title: Partage d’un lien vers une file d’attente des demandes
 description: Vous pouvez partager un lien vers une file d’attente des demandes, un groupe de rubriques ou une rubrique de file d’attente lorsque vous soumettez la demande.
 author: Becky
-draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 79%

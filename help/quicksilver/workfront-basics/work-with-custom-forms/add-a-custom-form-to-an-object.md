@@ -7,10 +7,10 @@ description: Vous pouvez ajouter un formulaire personnalisé existant à l’un 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 95%
+source-wordcount: '740'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez ajouter un formulaire personnalisé existant à l’un des objets r�
 * Portefeuilles
 * Programmes
 * Documents
-* Utilisateurs
+* Utilisateurs et utilisatrices
 * Groupes
 * Itérations
 * Frais
@@ -114,7 +114,7 @@ Vous pouvez ajouter un formulaire personnalisé à un objet de deux manières :
 ### Ajouter un formulaire personnalisé à un objet en modifiant l’objet {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Accédez à l’objet dans lequel vous souhaitez ajouter le formulaire personnalisé.
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Modifier** ![](assets/edit-icon.png).
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Modifier** ![Icône Modifier](assets/edit-icon.png).
 1. Cliquez sur **Formulaires personnalisés** > **Ajouter des formulaires**, puis sélectionnez jusqu’à 10 formulaires dans le menu déroulant.
 
 1. (Facultatif) Mettez à jour les informations dans les champs modifiables du formulaire personnalisé.
@@ -158,11 +158,11 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Accédez à une liste d’objets.
 1. Sélectionnez plusieurs objets dans la liste.
 
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
+1. Cliquez sur le menu **Plus** ![Menu Plus](assets/more-icon.png), puis sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png).
 
    Ou
 
-   Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) en haut de la liste.
+   Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
 1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
 1. Dans le menu déroulant **Effectuer une sélection**, sélectionnez le formulaire à associer à tous les objets sélectionnés.
 

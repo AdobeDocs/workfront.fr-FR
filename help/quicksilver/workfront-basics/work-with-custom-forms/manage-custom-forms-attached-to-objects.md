@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour l’ordre dans lequel les formulaires pe
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 85%
+source-wordcount: '1064'
+ht-degree: 77%
 
 ---
 
@@ -86,10 +86,10 @@ Pour plus d’informations, consultez la section [Conditions d’accès dans la 
 
 1. Accédez à l’objet dans lequel vous souhaitez modifier l’ordre des formulaires personnalisés ajoutés, puis commencez à modifier l’objet.
 
-   **Exemple :** par exemple, pour gérer les formulaires personnalisés d’un projet, accédez au projet, cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Modifier**.
+   **Exemple :** par exemple, pour gérer les formulaires personnalisés d’un projet, accédez au projet, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis cliquez sur **Modifier** .
 
-1. Dans la section **Formulaires personnalisés** pour les projets, les tâches et les problèmes, cliquez sur l’icône ![](assets/move-icon---dots.png) en regard du nom d’un formulaire personnalisé. Pour tous les autres objets, cliquez sur **Gérer les Formulaires**. Cette option s’affiche uniquement si au moins un formulaire personnalisé est associé à l’objet.
-1. Faites glisser un formulaire ![](assets/move-icon---dots.png) à un nouvel emplacement dans la liste.
+1. Dans la section **Forms personnalisé** pour les projets, les tâches et les événements, cliquez sur l’icône ![Déplacer](assets/move-icon---dots.png) en regard du nom d’un formulaire personnalisé. Pour tous les autres objets, cliquez sur **Gérer les Formulaires**. Cette option s’affiche uniquement si au moins un formulaire personnalisé est associé à l’objet.
+1. Faites glisser un formulaire ![icône Déplacer](assets/move-icon---dots.png) vers un nouvel emplacement de la liste.
 1. Pour les projets, tâches et problèmes de formulaires personnalisés, cliquez sur **Enregistrer**.
 
    Pour tous les autres objets, cliquez sur **J’ai terminé la gestion** > **Enregistrer les modifications**.
@@ -105,7 +105,7 @@ Pour plus d’informations, consultez la section [Conditions d’accès dans la 
    Par exemple, accédez à un projet, puis cliquez sur la section **Détails du projet**.
 
 1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la page de l’objet, puis cliquez sur **Tout modifier**.
-1. Cliquez sur l’icône **Supprimer** ![](assets/delete-icon.png) à droite du nom d’un formulaire personnalisé, puis cliquez sur **Supprimer** pour confirmer et supprimer le formulaire de l’objet, ou sur **Annuler** pour empêcher la suppression.
+1. Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) à droite d’un nom de formulaire personnalisé, puis cliquez sur **Supprimer** pour confirmer et supprimer le formulaire de l’objet, ou sur **Annuler** pour empêcher la suppression.
 1. Cliquez sur **Enregistrer les modifications** .
 
 ## Gérer plusieurs formulaires personnalisés contenant les mêmes champs personnalisés
@@ -135,7 +135,7 @@ Seuls les formulaires personnalisés joints à tous les objets sélectionnés pe
 
 Pour modifier plusieurs formulaires personnalisés lors de la modification d’objets en masse :
 
-1. Dans une liste d’objets, sélectionnez les objets auxquels les formulaires personnalisés sont joints, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
+1. Dans une liste d’objets, sélectionnez les objets auxquels les formulaires personnalisés sont joints, puis cliquez sur l’icône **Modifier** ![icône Modifier](assets/edit-icon.png).
 1. Cliquez sur **Formulaires personnalisés**.
 
    Vous ne pouvez modifier que les formulaires personnalisés joints à tous les objets sélectionnés.

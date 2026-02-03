@@ -6,10 +6,10 @@ description: Pour afficher toutes les mises à jour que l’un des utilisateurs 
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 67%
+source-wordcount: '380'
+ht-degree: 66%
 
 ---
 
@@ -115,7 +115,7 @@ Par exemple, pour créer un rapport de notes pour toutes les notes d’un projet
 1. (Facultatif) Cliquez sur **Filtres**, puis **Ajouter une règle de filtre**.
 1. Ajoutez un filtre pour **Note** > **Texte de la note** > **N’est pas vide**.
 
-   ![](assets/note-note-text-not-blank-filter.png)
+   ![Le champ de texte de la note n’est pas un filtre vide](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

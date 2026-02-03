@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '662'
 ht-degree: 7%
 
 ---
@@ -130,7 +130,7 @@ And
 1. Cliquez sur **Continuer**.
 1. Dans la zone **Choisir le type d’enregistrement**, cliquez sur la carte correspondant au type d’enregistrement à ajouter à partir d’un espace de travail existant, puis cliquez sur **Ajouter**.
 
-   Le type d’enregistrement est ajouté à l’espace de travail secondaire que vous avez sélectionné et l’icône **type d’enregistrement global** s’affiche ![](assets/global-icon.png) sur la carte du type d’enregistrement.
+   Le type d’enregistrement est ajouté à l’espace de travail secondaire que vous avez sélectionné et l’icône **type d’enregistrement global** ![icône d’enregistrement global de l’espace de travail principal](assets/global-icon.png) s’affiche sur la carte du type d’enregistrement.
 
    Les événements suivants se produisent :
 

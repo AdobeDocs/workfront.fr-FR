@@ -7,7 +7,7 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 71%
@@ -71,7 +71,7 @@ Les objets suivants comportent une section Mises à jour dans laquelle vous pouv
 * Portefeuilles
 * Modèles
 * Tâches de modèles
-* Utilisateurs
+* Utilisateurs et utilisatrices
 * Feuilles de temps
 * Équipes
 * Objectifs
@@ -149,7 +149,7 @@ Il existe des différences dans l’affichage des commentaires et des mises à j
    * Problèmes
    * Programmes
    * Portefeuilles
-   * Utilisateurs
+   * Utilisateurs et utilisatrices
    * Feuilles de temps
 
 * Les objets suivants n’ont pas d’onglet Activité du système ou Tous et l’expérience dans l’onglet Commentaires correspond à celle de tous les autres objets :
@@ -188,7 +188,7 @@ Il existe des différences dans l’affichage des commentaires et des mises à j
 <!--
 ### Overview of the legacy Updates section 
 
-![](assets/updates-tab-before-unified-experience-for-tasks.png)
+![Updates tab](assets/updates-tab-before-unified-experience-for-tasks.png)
 
 The legacy Updates section shows the following information:
 
@@ -313,7 +313,7 @@ Tenez compte des points suivants lors de l’affichage des mises à jour pour le
 
 * La section Mises à jour pour les équipes est renseignée par des commentaires ajoutés aux objets suivants :
 
-   * Utilisateurs
+   * Utilisateurs et utilisatrices
    * Histoires
    * Feuilles de temps
    * Itérations

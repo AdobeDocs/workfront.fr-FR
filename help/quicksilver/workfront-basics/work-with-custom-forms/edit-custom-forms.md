@@ -7,10 +7,10 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 57%
+source-wordcount: '1222'
+ht-degree: 55%
 
 ---
 
@@ -130,7 +130,7 @@ Pour plus d’informations sur les objets pouvant avoir un formulaire personnali
    >
    >Vous devez remplir tous les champs obligatoires du formulaire avant de pouvoir l’enregistrer. Le nom d’un champ obligatoire est suivi d’un astérisque.
    >
-   >![](assets/nwe-required-custom-field.png)
+   >![Champ personnalisé obligatoire](assets/nwe-required-custom-field.png)
 
    Lorsque quelqu’un modifie des données dans un autre objet qui est référencé par des champs personnalisés calculés dans votre objet, les modifications ne sont pas reflétées automatiquement dans votre objet. Pour plus d’informations sur la mise à jour manuelle de tous les champs personnalisés calculés dans votre objet, voir [Recalculer tous les champs personnalisés calculés pour un objet](#recalculate-all-calculated-custom-fields-for-an-object) dans cet article.
 
@@ -177,7 +177,7 @@ Les sections suivantes décrivent comment recalculer des expressions personnalis
    * Programme
    * Document
 
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom de l’objet, puis cliquez sur **Recalculer les expressions**.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) à droite du nom de l’objet, puis cliquez sur **Recalculer les expressions**.
 
    Cela permet de recalculer tous les champs personnalisés du formulaire de l’objet.
 
@@ -217,9 +217,9 @@ Pour recalculer des expressions personnalisées à partir d’une liste d’obje
    * Portefeuilles
    * Programmes
    * Frais
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Recalculer les expressions personnalisées**.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Recalculer les expressions personnalisées**.
 
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![Liste déroulante Recalculer les expressions de chronologie des finances dans les listes de projets](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfront calcule immédiatement tous les champs personnalisés pour tous les projets sélectionnés.
 Toutes les listes de tous les objets ne disposent pas de cette fonctionnalité.

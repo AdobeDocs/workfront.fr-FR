@@ -1,14 +1,14 @@
 ---
 content-type: overview
 title: Vue d’ensemble du résumé
-description: Vous pouvez utiliser le panneau Résumé pour examiner et mettre à jour les informations des éléments de travail directement à partir d’une liste de problèmes de tâches, de documents ou d’autres zones d’ [!DNL Adobe Workfront]  qui affichent les tâches et les problèmes.
+description: Vous pouvez utiliser le panneau Résumé pour réviser et mettre à jour les informations d’élément de travail directement à partir d’une liste de tâches, d’événements, de documents ou d’autres zones d [!DNL Adobe Workfront] qui affichent des tâches et des événements.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 93%
+source-wordcount: '908'
+ht-degree: 83%
 
 ---
 
@@ -107,11 +107,11 @@ Pour plus d’informations sur l’accès au [!UICONTROL Résumé] des documents
 ## Afficher le panneau [!UICONTROL Résumé] dans une liste de tâches ou de problèmes
 
 1. Accédez à une tâche ou à un problème et sélectionnez un élément dans la liste.
-1. Cliquez sur l’icône **[!UICONTROL Résumé]** ![](assets/qs-summary-in-new-toolbar-small.png),
+1. Cliquez sur l’icône **[!UICONTROL Résumé]** ![Résumé dans la nouvelle barre d’outils](assets/qs-summary-in-new-toolbar-small.png)
 
    ou
 
-   cliquez sur l’icône **[!UICONTROL Ouvrir le résumé]** ![](assets/open-summary-with-text-nwe.png) dans la section [!UICONTROL Soumis] de la zone [!UICONTROL Demandes].
+   Cliquez sur l’icône **[!UICONTROL Ouvrir le résumé]** ![Ouvrir le résumé avec du texte](assets/open-summary-with-text-nwe.png) dans la section [!UICONTROL Soumis] de la zone [!UICONTROL Demandes].
 
    Une fois le résumé ouvert, il reste ouvert lorsque vous cliquez ou sélectionnez d’autres tâches ou problèmes et jusqu’à ce que vous le fermiez manuellement.
 
@@ -123,13 +123,13 @@ Pour plus d’informations sur l’accès au [!UICONTROL Résumé] des documents
 
 1. (Facultatif) Pour fermer le panneau [!UICONTROL Résumé], effectuez l’une des opérations suivantes :
 
-   * Dans une liste de tâches ou de problèmes, cliquez sur l’icône **[!UICONTROL Ouvrir le résumé]** ![](assets/summary-panel-icon.png).
+   * Dans une liste de tâches ou d’événements, cliquez sur l’icône **[!UICONTROL Ouvrir le résumé]** ![icône du panneau Résumé](assets/summary-panel-icon.png)
 
      Ou
 
      Cliquez sur l’icône **X** dans le coin supérieur droit du panneau [!UICONTROL Résumé].
 
-   * Dans la section [!UICONTROL Soumis] de la zone [!UICONTROL Demandes], cliquez sur l’icône **[!UICONTROL Fermer le résumé]** ![](assets/close-summary-with-text-nwe.png).
+   * Dans la section [!UICONTROL Envoyé] de la zone [!UICONTROL Demandes], cliquez sur l’icône **[!UICONTROL Fermer le résumé]** ![Fermer le résumé avec du texte](assets/close-summary-with-text-nwe.png)
 
      Ou
 

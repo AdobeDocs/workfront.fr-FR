@@ -1,13 +1,12 @@
 ---
-title: Exporter les formulaires personnalisés et les détails des objets
-description: Exporter les formulaires personnalisés et les détails des objets
+title: Exporter le Forms personnalisé et les détails de l’objet
+description: Vous pouvez exporter la vue d’ensemble et les informations sur les formulaires personnalisés depuis la section Détails d’un objet vers un fichier PDF. Vous pouvez ensuite imprimer ou partager le PDF avec d’autres utilisateurs et utilisatrices.
 author: Alina
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '579'
 ht-degree: 90%
 
 ---
@@ -43,7 +42,7 @@ Cette fonctionnalité est prise en charge pour les objets suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -125,7 +124,7 @@ L’exportation d’informations depuis la section Détails d’un objet est ide
 
    Vous pouvez également sélectionner **Tout sélectionner** si vous souhaitez exporter la zone Vue d’ensemble et tous les formulaires personnalisés.
 
-   ![](assets/export-custom-form-button-menu.png)
+   ![Bouton Exporter le formulaire personnalisé](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >

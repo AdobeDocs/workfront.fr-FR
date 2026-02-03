@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2020'
 ht-degree: 3%
 
 ---
@@ -76,7 +76,7 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
    <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -269,7 +269,7 @@ Pour plus d’informations, voir [Gérer la vue Tableau](/help/quicksilver/plann
       * Chronologie
 Pour plus d’informations, voir [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
       * Calendrier
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
         Pour plus d’informations, consultez la section [Gérer plusieurs vues à partir de la page des enregistrements connectés](#manage-multiple-views-from-the-connected-records-page) dans cet article.
 
@@ -287,7 +287,7 @@ Une nouvelle vue est ajoutée au menu déroulant des vues.
       * **Supprimer**
 Pour plus d’informations, voir [Supprimer des vues d’enregistrement](/help/quicksilver/planning/views/delete-record-views.md).
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![Menu Afficher plus sur la page Projets - Enregistrements connectés](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >
@@ -340,7 +340,7 @@ Une nouvelle vue Liste est ajoutée au menu déroulant des vues dans la zone **M
       * **Supprimer**
 Pour plus d’informations, voir [Supprimer des vues d’enregistrement](/help/quicksilver/planning/views/delete-record-views.md).
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![Menu Afficher plus sur la page Projets - Enregistrements connectés](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >

@@ -6,10 +6,10 @@ description: Vous pouvez partager un dossier et son contenu à partir de la zone
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 99%
+source-wordcount: '847'
+ht-degree: 93%
 
 ---
 
@@ -100,7 +100,7 @@ Ou
 
 Lorsqu’un objet Workfront est ouvert, cliquez sur **Documents** dans le panneau de gauche.
 
-1. Sélectionnez le dossier, puis cliquez sur l’icône Partager ![](assets/share-icon.png) dans la barre d’outils.
+1. Sélectionnez le dossier, puis cliquez sur l’icône Partager ![icône Partager](assets/share-icon.png) dans la barre d’outils.
 
    Le dossier doit se trouver dans les cinq premiers niveaux de la hiérarchie des dossiers d’un objet et ne peut pas être un dossier intelligent.
 
@@ -132,7 +132,7 @@ Lorsqu’un objet Workfront est ouvert, cliquez sur **Documents** dans le pannea
    </table>
 
 1. (Facultatif) Répétez les étapes 3-4 pour ajouter d’autres noms à la liste et configurer leurs options.
-1. (Facultatif) Si vous souhaitez que tous les utilisateurs et utilisatrices du système puissent consulter le dossier et son contenu, cliquez sur l’icône d’engrenage ![](assets/gear-icon-settings-with-dn-arrow.jpg) dans le coin supérieur droit de la zone de partage, puis sur **Rendre visible à l’échelle du système.**
+1. (Facultatif) Si vous souhaitez que tous les membres du système puissent afficher le dossier et son contenu, cliquez sur l’icône d’engrenage ![Paramètres de l’icône d’engrenage avec la flèche vers le bas](assets/gear-icon-settings-with-dn-arrow.jpg) dans le coin supérieur droit de la zone de partage, puis cliquez sur **Rendre cet élément visible à l’échelle du système.**
 
    Si vous changez d’avis, cliquez sur **Supprimer l’accès à l’échelle du système** (option par défaut).
 

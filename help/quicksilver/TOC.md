@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: dca61a5d1f89d1524b64280e6e0542984f3686a1
+source-git-commit: 3074b279d61ed247ad1ec0585d9c04cf3d7e9091
 workflow-type: tm+mt
-source-wordcount: '13755'
+source-wordcount: '13759'
 ht-degree: 81%
 
 ---
@@ -2190,6 +2190,7 @@ ht-degree: 81%
       * [Gérer la vue de tableau](planning/views/manage-the-table-view.md)
       * [Gérer la vue chronologique](planning/views/manage-the-timeline-view.md)
       * [Gérer la vue de calendrier](planning/views/manage-the-calendar-view.md)
+      * [Gestion de la vue Liste](planning/views/manage-the-list-view.md)
       * [Supprimer les vues d’enregistrement](planning/views/delete-record-views.md)
       * [Dupliquer les vues d’enregistrement](planning/views/duplicate-record-views.md)
    * Notifications Adobe Workfront Planning {#adobe-workfront-planning-notifications}
@@ -2549,7 +2550,7 @@ ht-degree: 81%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)

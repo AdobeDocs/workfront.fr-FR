@@ -7,10 +7,10 @@ description: Vous pouvez partager un plan que vous avez créé dans le planifica
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 88%
+source-wordcount: '882'
+ht-degree: 85%
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez partager un plan dans le [!DNL Adobe Workfront Scenario Planner] ave
   <tr> 
    <td> <p>[!DNL Adobe Workfront] paquet</p> </td> 
    <td> 
-   <p>Workfront Ultimate</p>
+   <p>Workfront Ultimate</p>
 <p><b>NOTE</b></p>
 <p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
@@ -56,7 +56,7 @@ Vous pouvez partager un plan dans le [!DNL Adobe Workfront Scenario Planner] ave
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -221,7 +221,7 @@ Pour plus d’informations sur les autorisations de projet, voir [Partager un pr
 
    Ou
 
-   si vous avez sélectionné plusieurs plans à partager en bloc, cliquez sur l’icône **[!UICONTROL Partager]** ![](assets/share-icon-26x26.png) en haut de la liste des plans pour ouvrir la zone d’accès [!UICONTROL Plan].
+   Si vous avez sélectionné plusieurs plans pour les partager en bloc, cliquez sur l’icône **[!UICONTROL Partager]** ![Icône Partager](assets/share-icon-26x26.png) en haut de la liste des plans pour ouvrir la zone d’accès [!UICONTROL Plan].
 
    >[!TIP]
    >
