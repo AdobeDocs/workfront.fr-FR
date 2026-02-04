@@ -6,10 +6,10 @@ description: Vous pouvez appliquer un filtre à un tableau de bord de la zone de
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 7%
+source-wordcount: '892'
+ht-degree: 8%
 
 ---
 
@@ -179,17 +179,3 @@ Tous les utilisateurs ayant accès à un tableau de bord peuvent appliquer une i
 1. Cliquez sur l’icône **Fermer** ![Icône Fermer](assets/close-icon.png) dans le coin supérieur droit pour masquer le panneau.
 
 
-## Filtrer un tableau de bord par type de devise
-
-Vous pouvez basculer entre différents types de devise au niveau du tableau de bord. Les rapports qui contiennent des champs de devise seront mis à jour pour refléter le type de devise sélectionné.
-
->[!NOTE]
->
->Les champs de devise peuvent être verrouillés au niveau du rapport. Si un champ de devise est verrouillé, le type de devise de ce rapport ne change pas lorsque vous modifiez le type de devise du tableau de bord.
-
-Pour modifier le type de devise du tableau de bord :
-
-1. Cliquez sur le menu déroulant Devise dans le coin supérieur droit de la page des détails du tableau de bord.
-1. Sélectionnez le type de devise souhaité dans la liste.
-
-   ![liste déroulante modifier la devise](assets/filter-by-currency.png)

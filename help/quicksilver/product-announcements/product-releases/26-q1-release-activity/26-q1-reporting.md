@@ -4,9 +4,9 @@ description: Améliorations des rapports du premier trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '934'
 ht-degree: 4%
 
 ---
@@ -27,13 +27,14 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >Version rapide de production : 14 janvier 2026
 >Production pour tous : 15 janvier 2026
 
-Nous avons effectué les mises à jour suivantes pour les champs de devise :
+Nous avons effectué les mises à jour suivantes pour les champs de devise native :
 
 * Lorsque plusieurs devises sont définies dans Workfront, vous pouvez désormais choisir une devise par défaut pour le tableau de bord lors de la création.
 
 * Lors de la création d’un rapport, vous pouvez verrouiller un champ de devise. Cela permet de s’assurer que la préférence de devise au niveau du tableau de bord n’affecte pas l’affichage de ces valeurs.
 
 * Lors de l’affichage d’un tableau de bord, les utilisateurs peuvent basculer entre les devises définies dans Workfront. Ces modifications s’appliquent à l’ensemble du tableau de bord, à l’exception des champs de devise verrouillés.
+
 
 
 ## Résultats du tableau de recherche rapide dans les tableaux de bord de la zone de travail
@@ -126,7 +127,7 @@ Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau
 >
 >Version préliminaire : vendredi 23 octobre 2025
 >Version de production pour toute la clientèle : vendredi 23 octobre 2025
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>[!BADGE Hors programme ]{type=Neutral}
 
 Vous pouvez désormais dupliquer un rapport d’indicateur de performance clé, de tableau ou de graphique dans un tableau de bord de zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant d’enregistrer.
 
