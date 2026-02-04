@@ -5,9 +5,9 @@ title: Utiliser des champs de devise dans les tableaux de bord de la zone de tra
 description: Vous pouvez utiliser les champs de devise dans un tableau de bord Zone de travail.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '622'
 ht-degree: 10%
 
 ---
@@ -73,7 +73,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
    >[!IMPORTANT]
    >
-   >La fonctionnalité décrite dans cet article s’applique uniquement aux champs de devise native. Si vous avez configuré des taux de change de devise, la prise en charge des champs de devise personnalisés sera bientôt disponible.
+   >La fonctionnalité décrite dans cet article s’applique uniquement aux champs de devise native. La prise en charge des champs de devise personnalisés sera bientôt disponible.
 
 
 ## Définir une devise par défaut pour un tableau de bord de zone de travail
