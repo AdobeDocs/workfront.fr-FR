@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
-source-wordcount: '5428'
-ht-degree: 77%
+source-wordcount: '5475'
+ht-degree: 76%
 
 ---
 
@@ -377,6 +377,12 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 La modification des affectations est différente dans la zone Modifier la tâche selon l&#39;environnement choisi.
 
 #### Modifiez la zone Affectations dans l’environnement de production.
+
+>[!NOTE]
+>
+><span class="preview">Certains clients peuvent modifier les affectations dans la zone Modifier la tâche de leurs environnements de production de la même manière qu’ils les modifient dans leur environnement de prévisualisation.</span>
+>
+><span class="preview">Pour plus d’informations sur la modification des tâches dans l’environnement de prévisualisation, consultez la section [Modifier la zone Affectations dans l’environnement de prévisualisation](#edit-the-assignments-area-in-the-preview-environment) dans cet article. </span>
 
 1. Commencez à modifier votre tâche comme décrit ci-dessus.
 1. Cliquez sur **Affectations** dans le panneau de gauche.

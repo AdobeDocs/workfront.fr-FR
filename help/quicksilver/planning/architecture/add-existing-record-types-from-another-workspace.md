@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 7%
@@ -147,6 +147,7 @@ And
      >
      >Vous ne pouvez pas modifier l’aspect, les paramètres supplémentaires ou les champs d’origine du nouveau type d’enregistrement. Vous ne pouvez modifier le type d’enregistrement et tous ses champs et paramètres d’origine qu’à partir de l’espace de travail d’origine.
      >
+
 1. <span class="preview">(Facultatif) Pointez sur l’icône de type d’enregistrement global ![icône d’enregistrement global sur l’espace de travail secondaire](assets/global-icon-secondary-workspace.png) pour afficher le nom de l’espace de travail d’origine à partir duquel le type d’enregistrement a été ajouté. </span>
 1. (Facultatif) Cliquez sur le type d’enregistrement nouvellement ajouté et déposez-le dans n’importe quelle section de l’espace de travail.
 1. (Facultatif) Cliquez sur le menu **Plus** sur la carte du nouveau type d’enregistrement ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur l’un des éléments suivants :
