@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 34%
+source-wordcount: '854'
+ht-degree: 33%
 
 ---
 
@@ -102,6 +102,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Aperçu</strong></td>
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Mise à jour de l’expérience lors de la </a> de tâches de modèles d’affectation unique ou en bloc<p>[!BADGE Off schedule]{type=Neutral}</p><p> Nous avons mis à jour la section Affectations de la zone Modifier les tâches de modèles lors de la modification de tâches de modèles uniques ou de leur modification en bloc.  </p>
+        </td>
+        <td><p>vendredi 5 février 2026</p></td>
+        <td><p>À Compter Du 5 Février 2026</p></td>
+        <td><p>À Compter Du 5 Février 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Expérience mise à jour lors de l’affectation de tâches en une seule fois ou en bloc </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> Nous avons mis à jour la section Affectations dans la zone Modifier les tâches lors de la modification de tâches uniques ou de leur modification en bloc. </p>
@@ -206,7 +214,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
