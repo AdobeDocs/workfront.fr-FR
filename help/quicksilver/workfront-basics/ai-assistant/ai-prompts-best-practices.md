@@ -1,18 +1,18 @@
 ---
-title: L’assistant AI invite les bonnes pratiques
+title: Invites de l’assistant AI et bonnes pratiques
 content-type: reference
 description: Découvrez les bonnes pratiques relatives à l’utilisation de l’assistant AI et consultez une liste d’exemples d’invites.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
+source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
 
-# L’assistant AI invite les bonnes pratiques
+# Invites de l’assistant AI et bonnes pratiques
 
 L’assistant d’IA Workfront est un outil puissant qui peut vous aider à accomplir votre travail plus efficacement en fournissant des informations utiles sur vos données de compte et des types d’objets spécifiques.
 
@@ -35,7 +35,7 @@ L’assistant AI peut fournir des données pour les types d’objets suivants :
 * Tâches
 * Problèmes
 * Formulaires personnalisés
-* Utilisateurs
+* Utilisateurs et utilisatrices
 * Enregistrements Workfront Planning
 
 >[!NOTE]
@@ -64,7 +64,7 @@ Pour plus d’informations sur les invites recommandées, consultez la section s
 Pour plus d’informations sur les invites pour les processus Workfront, voir [Invites pour en savoir plus sur les actions Workfront](#prompts-to-learn-about-workfront-actions) dans cet article.
 
 
-## Exemples d’invites
+## Exemples de prompts
 
 Les tableaux ci-dessous contiennent des exemples d’invites que vous pouvez utiliser pour générer des informations sur votre travail et en savoir plus sur les processus ou actions Workfront spécifiques que vous souhaitez effectuer.
 
@@ -97,11 +97,11 @@ Les tableaux ci-dessous contiennent des exemples d’invites que vous pouvez uti
         <td>Problèmes </td>
         <td><em>Quels événements ouverts sont affectés à mon équipe ?</em></td>
            <tr>
-        <td>Utilisateurs</td>
+        <td>Utilisateurs et utilisatrices</td>
         <td><em>Qui fait partie de l'équipe créative de [NOM DU PROJET] ?</em></td>
     </tr>
            <tr>
-        <td>Utilisateurs </td>
+        <td>Utilisateurs et utilisatrices </td>
         <td><em>Combien de tâches sont affectées à [USER] ?</em></td>
     </tr>
    </table>
