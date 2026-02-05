@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: f722940bd7222ebec85aad143378f8f849357e5a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '561'
 ht-degree: 3%
 
 ---
@@ -20,6 +20,22 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 <!--keep the sentence below for all future quarterly release pages-->
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Améliorations des types d’enregistrements globaux dans les espaces de travail secondaires
+
+>[!NOTE]
+>
+>Aperçu : 5 février 2026
+>Version rapide de production : 12 mars 2026
+>Production pour tous : 16 avril 2026
+
+Nous avons amélioré la visibilité des types d’enregistrements globaux ajoutés à un espace de travail secondaire à partir d’un espace de travail principal. Les améliorations sont les suivantes :
+
+* Icône globale légèrement modifiée qui indique que le type d’enregistrement a été ajouté à partir d’un autre espace de travail.
+
+* Info-bulle améliorée sur la nouvelle icône qui identifie clairement l’espace de travail dans lequel le type d’enregistrement a été créé.
+
+Pour plus d’informations, voir [Ajouter des types d’enregistrements existants depuis un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 ## Configurer les champs affichés dans la zone d&#39;aperçu Détails d&#39;un enregistrement
 
