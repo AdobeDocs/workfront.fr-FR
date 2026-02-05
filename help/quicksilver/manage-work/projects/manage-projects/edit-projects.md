@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '7642'
-ht-degree: 93%
+source-wordcount: '7726'
+ht-degree: 92%
 
 ---
 
@@ -653,6 +653,15 @@ Pour plus d’informations sur la façon dont ces paramètres affectent la créa
    Cliquer sur **Enregistrer**.
 
 ### Accès {#access}
+
+Vous pouvez définir les autorisations que les utilisateurs reçoivent pour le projet, ainsi que les tâches et les événements du projet lorsqu’ils interagissent avec l’un de ces types d’objets.
+
+>[!IMPORTANT]
+>
+>La modification des autorisations sur le projet, les tâches et les événements lors de la modification du projet établit la manière dont les autorisations sont accordées lorsque les utilisateurs interagissent avec ces types d’objets après que l’accès a été modifié.
+>
+>La modification de cette configuration ne modifie pas rétroactivement les autorisations des utilisateurs sur ces types d’objets, pour les éléments auxquels les utilisateurs ont déjà été affectés ou dans lesquels ils ont déjà été inclus.
+
 
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Accéder** dans le panneau de gauche.

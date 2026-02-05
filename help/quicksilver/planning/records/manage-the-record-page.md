@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 6%
@@ -192,7 +192,7 @@ Pour ajouter une section à une prévisualisation d’enregistrement ou à une p
 
    Dans la vue du tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
 
-   L’aperçu de l’enregistrement s’ouvre dans la vue.
+   <span class="preview">L’aperçu de l’enregistrement s’ouvre dans la vue.</span>
 
    ![Zone Détails](assets/details-box.png)
 
@@ -271,7 +271,7 @@ Voici ce qui se produit :
 
    Dans la vue du tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
 
-   L’aperçu de l’enregistrement s’ouvre dans la vue.
+   <span class="preview">L’aperçu de l’enregistrement s’ouvre dans la vue.</span>
 
    ![Zone Détails](assets/details-box.png)
 
