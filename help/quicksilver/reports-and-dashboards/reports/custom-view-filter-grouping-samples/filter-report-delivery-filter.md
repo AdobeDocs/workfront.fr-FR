@@ -7,10 +7,10 @@ description: Ce filtre affiche tous les rapports planifiés pour être remis aut
 author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -29,7 +29,7 @@ Ce filtre affiche tous les rapports planifiés pour être remis automatiquement 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -66,8 +66,7 @@ Pour appliquer ce filtre :
 1. Dans la zone **Définir les règles de filtrage pour votre rapport**, copiez et collez le code suivant :
 
    ```
-   scheduledReportID=0
-   scheduledReportID_Mod=notnull
+    scheduledReportsOM:ID_Mod=notblank
    ```
 
 1. Cliquez sur **Enregistrer le filtre**.
