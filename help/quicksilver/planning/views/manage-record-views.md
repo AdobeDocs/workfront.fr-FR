@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 39%
+source-wordcount: '1343'
+ht-degree: 33%
 
 ---
 
@@ -26,7 +26,11 @@ ht-degree: 39%
 
 {{planning-important-intro}}
 
-Après avoir sélectionné un type d’enregistrement dans la zone d’Adobe Workfront Planning, vous pouvez afficher tous les enregistrements de ce type dans les vues suivantes :
+Après avoir sélectionné un type d&#39;enregistrement dans la zone Adobe Workfront Planning, vous pouvez afficher tous les enregistrements de ce type de différentes manières.
+
+Vous pouvez afficher les enregistrements dans des vues de plusieurs formats qui vous donnent la possibilité d’explorer et de comprendre les informations de la manière qui vous convient le mieux. Que vous souhaitiez un aperçu structuré, une histoire chronologique, une mise en page basée sur la date ou une simple liste défilable, chaque vue offre un point de vue unique.
+
+Les enregistrements peuvent être affichés dans les vues suivantes :
 
 * Tableau
 
@@ -39,6 +43,19 @@ Après avoir sélectionné un type d’enregistrement dans la zone d’Adobe Wo
 * Calendrier
 
   Pour plus d’informations, voir [Gérer la vue de calendrier](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+* Liste
+
+  Vous pouvez afficher les enregistrements dans une page Enregistrement connecté dans une vue Liste.
+
+  >[!IMPORTANT]
+  >
+  >Vous ne pouvez pas appliquer une vue Liste à une liste d&#39;enregistrements sur une page de type d&#39;enregistrement. Vous pouvez uniquement appliquer une vue Liste dans une page Enregistrement connecté d’un enregistrement à une liste de projets connectés. <!--this will change-->
+
+  Pour plus d’informations, consultez les articles suivants :
+
+   * [Ajouter une page Enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+   * [Gestion de la vue Liste](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 Cet article présente les informations suivantes sur les vues d’enregistrement :
 
@@ -192,34 +209,42 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Fonctionnalité | Vue de tableau | Vue chronologique | Vue de calendrier |
-|-----------------------------------------------------------------------|------------|---------------|--------------|
-| Afficher des enregistrements dans une liste ou une table | ✓ |              | |
-| Afficher tous les champs sous forme de colonnes dans le tableau, par défaut | ✓ |              |    |
-| Masquer ou afficher des champs (ou des colonnes) | ✓ |               |    |
-| Modifier les valeurs de champ de chaque enregistrement | ✓ |               |             |
-| Ajouter des enregistrements en tant que nouvelles lignes dans la vue | ✓ |               |        |
-| Ajouter des champs en tant que nouvelles colonnes dans la vue | ✓ |               |         |
-| Copier des lignes d’une liste externe et les coller dans un tableau | ✓ |               |          |
-| Afficher des enregistrements dans une chronologie |            | ✓ |             |
-| Filtrer des enregistrements | ✓ | ✓ | ✓ |
-| Afficher des enregistrements sur un calendrier |           |              | ✓ |
-| Regrouper les enregistrements | ✓ | ✓ |  |
-| Trier les enregistrements | ✓ |              |  |
-| Attribuer des couleurs aux enregistrements | ✓ | ✓ | ✓ |
-| Attribuer des couleurs aux regroupements |           | ✓ |  |
-| Rechercher des enregistrements spécifiques | ✓ | ✓ |  |
-| Partager la vue avec d&#39;autres personnes | ✓ | ✓ | ✓ |
-| Ouvrir la page de l’enregistrement à partir de la vue. | ✓ | ✓ |    |
-| Afficher les enregistrements par année et par trimestre |           | ✓ |    |
-| Afficher les enregistrements par mois |           | ✓ | ✓ |
-| Afficher les enregistrements par semaine |           |               | ✓ |
-| Exporter les informations d’une vue | ✓ |               |    |
-| Afficher en plein écran | ✓ | ✓ | ✓ |
-| Créer des enregistrements dans la vue | ✓ | ✓ | ✓ |
-| Répartir les enregistrements en fonction de leurs connexions |          | ✓ |    |
+| Fonctionnalité | Vue de tableau | Vue chronologique | Vue de calendrier | Vue Liste |
+|-----------------------------------------------------------------------|------------|---------------|--------------|---------|
+| Afficher les enregistrements sous forme de tableau | ✓ |              | | ✓ |
+| Afficher tous les champs sous forme de colonnes dans un tableau ou une liste | ✓ |              |    | ✓ |
+| Masquer ou afficher des champs (ou des colonnes) | ✓ |               |    | ✓ |
+| Modifier les valeurs de champ de chaque enregistrement | ✓ |               |             | ✓ |
+| Ajouter des enregistrements en tant que nouvelles lignes dans la vue | ✓ |               |        | ✓ |
+| Ajouter des champs en tant que nouvelles colonnes dans la vue | ✓ |               |         | ✓ |
+| Copier des lignes d’une liste externe et les coller dans un tableau | ✓ |               |          | ✓ |
+| Afficher des enregistrements dans une chronologie |            | ✓ |             |  |
+| Filtrer des enregistrements | ✓ | ✓ | ✓ | ✓ |
+| Afficher des enregistrements sur un calendrier |           |              | ✓ |  |
+| Regrouper les enregistrements | ✓ | ✓ |  |  |
+| Trier les enregistrements | ✓ |              |  | ✓ |
+| Attribuer des couleurs aux enregistrements | ✓ | ✓ | ✓ |  |
+| Attribuer des couleurs aux regroupements |           | ✓ |  |  |
+| Rechercher des enregistrements spécifiques | ✓ | ✓ |  | ✓ |
+| Partager la vue avec d&#39;autres personnes | ✓ | ✓ | ✓ | ✓ |
+| Ouvrir la page de l’enregistrement à partir de la vue. | ✓ | ✓ |    | ✓ |
+| Afficher les enregistrements par année et par trimestre |           | ✓ |    |  |
+| Afficher les enregistrements par mois |           | ✓ | ✓ |  |
+| Afficher les enregistrements par semaine |           |               | ✓ |  |
+| Exporter les informations d’une vue | ✓ |               |    |  |
+| Afficher en plein écran | ✓ | ✓ | ✓ |  |
+| Créer des enregistrements dans la vue | ✓ | ✓ | ✓ | ✓ |
+| Répartir les enregistrements en fonction de leurs connexions |          | ✓ |    |  |
 
 ## Créer ou modifier des vues {#create-or-edit-views}
+
+Les informations de cette section s&#39;appliquent aux types d&#39;affichage suivants :
+
+* Tableau
+* Journal
+* Calendrier
+
+Pour plus d’informations sur les vues Liste, voir [Gérer la vue Liste](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 {{step1-to-planning}}
 
@@ -303,6 +328,10 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 ## Activation de l&#39;indicateur de présence en temps réel dans une vue
 
 Vous pouvez voir si d’autres utilisateurs modifient des enregistrements en même temps que vous en suivant les indicateurs de présence en temps réel dans la vue.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas afficher les indicateurs de présence en temps réel dans une vue Liste.
 
 Par défaut, les avatars d’autres utilisateurs qui modifient les informations d’enregistrement en même temps que vous s’affichent dans le coin supérieur droit de toutes les vues d’enregistrement.
 
