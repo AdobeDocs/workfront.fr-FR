@@ -5,10 +5,10 @@ description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
+source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 8%
+source-wordcount: '1416'
+ht-degree: 7%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 8%
 >Pour utiliser cette fonctionnalité, votre entreprise doit répondre aux exigences requises pour utiliser l’assistant Workfront AI. Pour plus d’informations, consultez [Conditions préalables pour l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 Le remplissage de formulaire par l’IA peut vous aider à remplir automatiquement les champs de demande en fonction d’une invite que vous saisissez. Il peut également remplir des champs basés sur du texte, tels que des e-mails ou des documents chargés. Vous pouvez approuver ou rejeter ces suggestions avant d’envoyer la demande.
-
-Le remplissage de formulaire AI ne remplace aucun champ que vous avez déjà rempli.
-
-Les utilisateurs ne reçoivent pas de suggestions de données auxquelles ils n’ont pas accès autrement.
 
 ## Conditions d’accès
 
@@ -59,7 +55,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Conditions préalables
 
-Pour utiliser le remplissage de formulaire par l’IA pour remplir des demandes à l’aide d’une invite ou d’un document, **toutes** les conditions suivantes doivent s’appliquer :
+Pour utiliser le remplissage de formulaire optimisé par l’IA afin de remplir une requête à l’aide d’une invite ou d’un document, **toutes** les conditions suivantes doivent s’appliquer :
 
 * Votre organisation doit avoir migré vers Adobe IMS (système Identity Management)
 * L’expérience unifiée Adobe doit être activée
@@ -70,6 +66,15 @@ Pour utiliser le remplissage de formulaire par l’IA pour remplir des demandes 
 * L’assistant AI doit être activé dans les paramètres système de votre entreprise. Cette opération est gérée par votre administrateur Workfront.
 
   Pour plus d’informations sur l’activation de l’assistant AI dans les paramètres système, voir [Activer ou désactiver l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+## Remarques concernant l’utilisation du remplissage de formulaire optimisé par l’IA
+
+Tenez compte des points suivants lors de l’utilisation du remplissage de formulaire avec l’IA
+
+* Le remplissage de formulaire AI ne remplace aucun champ que vous avez déjà rempli.
+* Les utilisateurs ne reçoivent pas de suggestions de données auxquelles ils n’ont pas accès autrement.
+* Les fichiers que vous utilisez dans le remplissage de formulaire optimisé par l’IA sont chargés dans le stockage Azure pendant 24 heures. Cela est nécessaire pour le traitement des documents.
+* Tous les fichiers chargés sur Azure sont actuellement stockés dans des clusters Azure américains pour une fenêtre de stockage de 24 heures.
 
 ## Obtenir des suggestions à partir d’une invite de texte
 
