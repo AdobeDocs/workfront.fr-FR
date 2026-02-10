@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 23f651b55b45db73baa67900ce868d9b692c958c
 workflow-type: tm+mt
-source-wordcount: '13765'
+source-wordcount: '13769'
 ht-degree: 81%
 
 ---
@@ -1719,6 +1719,7 @@ ht-degree: 81%
       * Vue d’ensemble de l’utilisation du rapport {#report-usage-overview}
          * [Vue d’ensemble de l’utilisation du rapport](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
          * [Accéder aux rapports et organiser les rapports](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+         * [Utilisation de dossiers de rapports partageables](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)
          * [Créer un rapport sur les activités de création de rapports](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
          * [Comprendre l’organisation des rapports sur un tableau de bord](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Afficher le rapport d’utilisation](reports-and-dashboards/reports/report-usage/view-report-usage.md)
@@ -2551,7 +2552,7 @@ ht-degree: 81%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
