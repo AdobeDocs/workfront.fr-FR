@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: fb57f04a4031eaf38f88c3a1b2542d64ee230a8c
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1672'
 ht-degree: 75%
 
 ---
@@ -179,4 +179,4 @@ Envisagez de poser les questions suivantes :
 
    * [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
    * [Vérifier et approuver du travail](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
-   * [Fonctionnalité disponible pour les approbations de documents unifiés](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+   * [Fonctionnalité disponible pour les approbations de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)

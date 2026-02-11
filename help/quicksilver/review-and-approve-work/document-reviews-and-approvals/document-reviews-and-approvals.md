@@ -8,7 +8,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b4577935-ee03-47b7-a629-2c03e8f42592
-source-git-commit: 582c799fe43f0a7e7dbd4fec680d5873e0e193e7
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 33%
@@ -19,7 +19,7 @@ ht-degree: 33%
 
 Cette section contient les parties suivantes :
 
-* [Fonctionnalité disponible pour les validations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+* [Fonctionnalité disponible pour les approbations de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
 * [Aperçu des validations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Statut de décision de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
 * [Prise en main de l’IA Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)

@@ -6,10 +6,10 @@ description: Vous pouvez recevoir des notifications d’ [!DNL Adobe Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 92%
+source-wordcount: '1466'
+ht-degree: 87%
 
 ---
 
@@ -41,7 +41,7 @@ Ces notifications incluent les actions [!DNL Workfront] que vous pouvez effectue
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ Pour plus d’informations sur l’installation de [!DNL Workfront for Microsoft
 
 ## Gérer les notifications [!DNL Workfront] dans [!DNL Microsoft Teams]
 
-Lorsque l’application [!DNL Workfront for Microsoft Teams] est installée, un canal de conversation [!DNL Workfront] est créé dans [!DNL Microsoft Teams] pour chaque personne membre de cette équipe. Lorsqu’une action spécifique est effectuée dans [!DNL Workfront], vous pouvez configurer les paramètres de [!DNL Workfront for Microsoft Teams] de façon à recevoir des notifications sur cette action dans le canal de conversation [!DNL Workfront] de [!DNL Microsoft Teams].
+Lorsque l’application [!DNL Workfront for Microsoft Teams] est installée, un canal de conversation [!DNL Workfront] est créé dans [!DNL Microsoft Teams] pour chaque personne membre de cette équipe. Lorsqu’une certaine action est effectuée dans [!DNL Workfront], vous pouvez configurer les paramètres permettant aux [!DNL Workfront for Microsoft Teams] de recevoir des notifications sur cette action dans le canal de conversation [!DNL Workfront] d’[!DNL Microsoft Teams].
 
 Tenez compte des points suivants lorsque vous activez les notifications [!DNL Workfront] dans [!DNL Microsoft Teams] :
 
@@ -194,11 +194,11 @@ Vous recevez des notifications d’approbation lorsque vous recevez une invitati
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Quelqu’un souhaite que vous approuviez cette épreuve.</td> 
-   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
@@ -206,39 +206,39 @@ Vous recevez des notifications d’approbation lorsque vous recevez une invitati
   </tr> 
   <tr> 
    <td role="rowheader">Votre feuille de temps est rejetée.</td> 
-   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Votre feuille de temps est rouverte.</td> 
-   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Une demande d’approbation de document que vous avez demandée est approuvée.</td> 
-   <td> </td> 
+   <td role="rowheader">Une demande d'approbation de document que vous avez demandée est approuvée*</td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Une demande d’approbation de document que vous avez demandée est approuvée avec des modifications.</td> 
-   <td> </td> 
+   <td role="rowheader">Une demande d'approbation de document que vous avez demandée est approuvée avec des modifications*</td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Une demande d’approbation de document que vous avez demandée est rejetée.</td> 
-   <td> </td> 
+   <td role="rowheader">Une demande d'approbation de document que vous avez demandée est rejetée*</td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -246,14 +246,16 @@ Vous recevez des notifications d’approbation lorsque vous recevez une invitati
   </tr> 
   <tr> 
    <td role="rowheader">Votre feuille de temps est approuvée.</td> 
-   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Ces notifications se rapportent aux approbations de documents hérités. Les notifications d’approbation de documents unifiés ne sont actuellement pas prises en charge dans [!DNL Microsoft Teams]. Pour plus d’informations sur les différents systèmes d’approbation dans Workfront, voir [Fonctionnalité disponible pour les approbations de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 ### Notifications d’affectation {#assignment-notifications}
 

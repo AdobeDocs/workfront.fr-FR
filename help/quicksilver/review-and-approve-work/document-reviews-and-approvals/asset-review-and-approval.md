@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Fonctionnalité disponible pour les approbations de documents unifiés
+title: Fonctionnalité disponible pour les approbations de documents
 description: Présentation des systèmes disponibles pour révision et approbation dans Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f4dc0d28f7565b9dbc3c9ff4ee388eb8cf748b7f
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
 
-# Fonctionnalité disponible pour les approbations de documents unifiés
+# Fonctionnalité disponible pour les approbations de documents
 
-Il existe actuellement 3 systèmes différents disponibles dans Workfront pour les approbations de documents unifiés :
+Il existe actuellement 3 systèmes différents disponibles dans Workfront pour l’approbation des documents :
 
 * [Approbations de documents hérités](#legacy-document-approvals)
 
@@ -25,7 +25,7 @@ Il existe actuellement 3 systèmes différents disponibles dans Workfront pour l
 
 ## Approbations de documents hérités
 
-Les approbations de documents hérités seront supprimées de Workfront en 2025. Le système d&#39;approbations unifiées a été conçu pour remplacer les approbations de documents héritées.
+Les approbations de documents hérités seront supprimées de Workfront à une date ultérieure. Le système d&#39;approbations unifiées a été conçu pour remplacer les approbations de documents héritées.
 
 Fonctionnalités clés disponibles pour les approbations de documents hérités :
 

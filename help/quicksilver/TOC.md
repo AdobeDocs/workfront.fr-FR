@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 23f651b55b45db73baa67900ce868d9b692c958c
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
 source-wordcount: '13769'
 ht-degree: 81%
@@ -1850,7 +1850,7 @@ ht-degree: 81%
       * [Rappeler les approbations soumises](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * Validations unifiées {#document-reviews-and-approvals}
       * [Approbations de documents unifiés : index des articles](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [Fonctionnalité disponible pour les validations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+      * [Fonctionnalité disponible pour les approbations de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Aperçu des validations unifiées](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Aperçu du statut de décision du document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
@@ -2552,7 +2552,7 @@ ht-degree: 81%
       * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Nouveautés de la version 19 de l’API &#x200B;](wf-api/api/new-api-version-19.md)
+      * [Nouveautés de la version 19 de l’API ](wf-api/api/new-api-version-19.md)
       * [Nouveautés de la version 18 de l’API](wf-api/api/new-api-version-18.md)
       * [Nouveautés de la version 17 de l’API](wf-api/api/new-api-version-17.md)
       * [Nouveautés de la version 16 de l’API](wf-api/api/new-api-version-16.md)
