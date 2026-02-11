@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '2479'
-ht-degree: 76%
+source-wordcount: '1617'
+ht-degree: 84%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 76%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Pour plus d’informations, voir [Présentation de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>
+</div>-->
 
 Vous pouvez affecter des tâches aux utilisateurs et aux utilisatrices, aux fonctions ou aux équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 
@@ -224,102 +224,6 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 
 ## Affecter plusieurs tâches en bloc à partir d’une liste
 
-L’affectation de plusieurs tâches en bloc à partir d’une liste diffère selon l’environnement choisi.
-
-### Attribuez plusieurs tâches en bloc à partir d’une liste dans l’environnement de production .
-
-1. Accédez à la liste des tâches que vous souhaitez affecter en masse.
-1. (Le cas échéant) Assurez-vous que l’option **Enregistrement automatique** est sélectionnée si vous vous trouvez dans la liste des tâches d’un projet.
-
-   >[!IMPORTANT]
-   >
-   >Vous ne pouvez pas modifier les tâches en masse lors de l’enregistrement manuel des tâches sur un projet.
-
-1. Sélectionnez plusieurs tâches dans la liste des tâches.
-1. Cliquez sur **Modifier**.
-
-   La boîte de dialogue **Modifier les tâches** s’ouvre dans la nouvelle expérience .
-
-1. Continuez à affecter les tâches à l’aide de la nouvelle expérience.
-
-   Pour plus d’informations, consultez la section [Affecter plusieurs tâches en bloc à partir d’une liste dans la nouvelle expérience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) dans cet article.
-
-1. (Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier les tâches** pour ouvrir l’ancienne expérience.
-
-1. (Conditionnel) Dans l’ancienne expérience, dans la zone **Affectations**, sélectionnez la zone **Personne désignée**, puis commencez à saisir le nom d’un utilisateur, d’une fonction ou d’une équipe que vous souhaitez affecter à toutes les tâches.
-
-   >[!IMPORTANT]
-   >
-   >Si l’une des tâches est déjà affectée, les ressources que vous indiquez ici sont ajoutées aux tâches au lieu de remplacer les ressources existantes sur les tâches.
-
-1. (Facultatif) Sélectionnez la case d’option dans la colonne **Personne propriétaire de la tâche** pour indiquer la ressource qui est la personne cessionnaire principale ou la personne propriétaire de la tâche, lorsque vous affectez plusieurs ressources à la tâche. Cette option n’est pas disponible pour les équipes.
-1. (Le cas échéant) Spécifiez le **% d’affectation** pour chaque ressource affectée à la tâche si toutes les tâches sélectionnées ont un type de durée Piloté par l’effort ou Calcul d’affectation. Cela indique le temps que ces ressources doivent consacrer à l’exécution de la tâche. Cette option n’est disponible que pour les utilisateurs et utilisatrices et les fonctions.
-
-   Ou
-
-   Indiquez le nombre d’**heures** pour chaque ressource affectée à la tâche si toutes les tâches que vous avez sélectionnées ont un type de durée Simple. Le total des heures pour toutes les ressources doit être égal au nombre d’heures prévues pour la tâche.
-
-   >[!IMPORTANT]
-   >
-   >Vous ne pouvez pas spécifier le pourcentage d’affectation ni le nombre d’heures par ressource si les tâches que vous avez sélectionnées ont des types de durée différents ou si les tâches que vous avez sélectionnées ont des types de durée différents.
-
-   Pour plus d’informations sur le type de durée des tâches, voir la section [Vue d’ensemble de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-
-1. (Facultatif) Sélectionnez un rôle que l’utilisateur ou l’utilisatrice doit remplir dans la tâche à partir du menu déroulant **Choisir un rôle** dans la colonne **Rôle de la personne cessionnaire** lorsque vous affectez des personnes à des tâches. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle principal de l’utilisateur ou l’utilisatrice.
-
-1. (Facultatif) Si vous souhaitez supprimer des personnes cessionnaires existantes de toutes les tâches, effectuez l’une des opérations suivantes :
-
-   1. Commencez par saisir le nom d’une personne, d’un rôle ou d’une équipe à supprimer de la tâche, puis sélectionnez-le lorsqu’il apparaît dans la liste et cliquez sur **Supprimer la personne cessionnaire** pour supprimer d’autres personnes cessionnaires.
-   1. Cliquez sur **Supprimer toutes les personnes cessionnaires existantes** pour supprimer toutes les personnes cessionnaires de toutes les tâches sélectionnées.
-
-1. Cliquez sur **Enregistrer les modifications**.
-1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans la liste des tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur **l’Icône X** en regard du nom d’une personne cessionnaire pour la supprimer de la tâche.
-
-
-#### Affectez plusieurs tâches en bloc à partir d’une liste dans la nouvelle expérience
-
-1. Accédez à la liste des tâches que vous souhaitez affecter en masse.
-1. (Le cas échéant) Assurez-vous que l’option **Enregistrement automatique** est sélectionnée si vous vous trouvez dans la liste des tâches d’un projet.
-
-   >[!IMPORTANT]
-   >
-   >Vous ne pouvez pas modifier les tâches en masse lors de l’enregistrement manuel des tâches sur un projet.
-
-1. Sélectionnez plusieurs tâches dans la liste des tâches.
-1. Cliquez sur **Modifier**.
-
-   La boîte de dialogue **Modifier les tâches** s’ouvre.
-
-1. Dans la zone **Affectations**, commencez à saisir le nom des utilisateurs, des équipes ou des rôles dans le champ **Rechercher des personnes, des rôles ou des équipes** fourni, puis cliquez dessus lorsqu’ils s’affichent dans la liste
-
-   Ou
-
-   Cliquez sur **Me l’affecter** pour l’affecter à vous-même.
-
-   >[!IMPORTANT]
-   >
-   >Si l’une des tâches est déjà affectée, les ressources que vous indiquez ici sont ajoutées aux tâches au lieu de remplacer les ressources existantes sur les tâches.
-
-1. Cliquez dans le champ **Type de durée** et choisissez un type de durée.
-
-   Pour plus d’informations sur le type de durée des tâches, voir la section [Vue d’ensemble de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-
-1. (Conditionnel) Selon le **Type de durée** que vous avez sélectionné, mettez à jour les champs suivants :
-
-   * Durée
-   * Heures prévues
-
-     Pour plus d’informations, voir [Modifier des tâches](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
-
-1. (Facultatif) Si vous souhaitez supprimer des personnes désignées existantes de toutes les tâches, cliquez sur le **x** en regard de leur nom dans le champ **Rechercher des personnes, des rôles ou des équipes**.
-
-1. Cliquer sur **Enregistrer**.
-1. (Facultatif et conditionnel) Lorsque les champs **Affecté à** ou **Affectations** s’affichent dans votre liste de tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur l’icône **X** en regard du nom d’une personne désignée pour la supprimer de la tâche.
-
-<div class="preview">
-
-### Affectez plusieurs tâches en bloc à partir d’une liste dans l’environnement Aperçu
-
 1. Accédez à la liste des tâches que vous souhaitez affecter en masse.
 1. (Le cas échéant) Assurez-vous que l’option **Enregistrement automatique** est sélectionnée si vous vous trouvez dans la liste des tâches d’un projet.
 
@@ -355,7 +259,6 @@ L’affectation de plusieurs tâches en bloc à partir d’une liste diffère se
 1. Cliquer sur **Enregistrer**.
 1. (Facultatif et conditionnel) Lorsque les champs **Affecté à** ou **Affectations** s’affichent dans votre liste de tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur l’icône **X** en regard du nom d’une personne désignée pour la supprimer de la tâche.
 
-</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -372,3 +275,98 @@ L’affectation de plusieurs tâches en bloc à partir d’une liste diffère se
 -->
 
 
+<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+
+### Assign multiple tasks in bulk from a list in the Production environment
+
+1. Go to a list of tasks that you want to assign in bulk. 
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens in the new experience.
+
+1. Continue assigning the tasks using the new experience.
+
+   For more information, see the section [Assign multiple tasks in bulk from a list in the new experience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in this article.
+
+1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box to open the old experience.
+
+1. (Conditional) Using the old experience, in the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the tasks.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks. 
+
+1. (Optional) Select the radio button in the **Task Owner** column to indicate which resource is the primary assignee or the Owner of the task, when you assign more than one resource to the task. This is not available for teams. 
+1. (Conditional) Specify the **Allocation %** for each resource assigned to the task if all the tasks you selected have a Duration Type of Effort Driven or Calculated Assignment. This indicates how much of their time these resources should spend on completing the task. This is only available for users and job roles.
+
+   Or
+
+   Specify the amount of **Hours** for each resource assigned to the task if all the tasks you selected have a Duration Type of Simple. The total of all hours for all resources should equal the number of Planned Hours for the task.
+
+   >[!IMPORTANT]
+   >
+   >You cannot specify the allocation percentage or the number of hours per resource if the tasks you selected have different Duration Types or of the tasks you selected have different Duration Types.
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Optional) Select a role that the user should fulfill on the task from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to tasks. If you do not select a role, Workfront automatically selects the user's Primary Role. 
+
+1. (Optional) If you want to remove existing assignees from all tasks do one of the following:
+
+   1. Start typing the name of a user, role, or team you want to remove from the task, then select it when it appears on the list and click **Remove Assignee** to remove more assignees.
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected tasks.
+
+1. Click **Save Changes**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+
+#### Assign multiple tasks in bulk from a list in the new experience
+
+1. Go to a list of tasks that you want to assign in bulk.
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
+
+1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+
+   Or 
+
+   Click **Assign to me** to assign it to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+
+1. Click inside the **Duration Type** field and choose a Duration Type. 
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+
+   * Duration
+   * Planned Hours
+
+      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+
+1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+
+1. Click **Save**.
+1. (Optional and conditional) When the **Assigned to** or the **Assignments** fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+<div class="preview">
+### Assign multiple tasks in bulk from a list in the Preview environment
+-->

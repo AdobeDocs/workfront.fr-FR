@@ -6,10 +6,10 @@ description: Vous pouvez modifier les informations des tâches dans une liste de
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '3254'
-ht-degree: 57%
+source-wordcount: '2764'
+ht-degree: 63%
 
 ---
 
@@ -17,12 +17,13 @@ ht-degree: 57%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Les informations surlignées sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Les mêmes fonctionnalités seront également disponibles dans l’environnement de production pour tous les clients et clientes à partir d’une semaine à compter de la version préliminaire.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Pour plus d’informations, voir [Présentation de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
-</div>
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
+
+</div>-->
 
 Vous pouvez modifier les informations des tâches dans une liste de tâches en modifiant les champs affichés dans la liste. Pour obtenir des informations sur d’autres façons de modifier des tâches, voir la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -492,71 +493,6 @@ Pour modifier des tâches dans une liste lors de l’utilisation de l’option d
 
 Vous pouvez modifier plusieurs tâches en même temps. Assurez-vous de disposer d’autorisations de gestion pour les tâches que vous sélectionnez en bloc afin de pouvoir les modifier.
 
-La modification simultanée de plusieurs tâches diffère selon l’environnement choisi.
-
-### Modifier des tâches en bloc dans l’environnement de production
-
-{{step1-to-projects}}
-
-1. Sélectionnez un projet sur la page **Projets**.
-1. Dans le panneau de gauche, cliquez sur la section **Tâches**.
-
-1. Cliquez sur l’icône **Mode Plan** ![Icône Mode Plan](assets/plan-mode-icon.png) en haut de la liste et assurez-vous que l’option **Enregistrement automatique** est sélectionnée.
-
-   ![Activer le paramètre d’enregistrement automatique](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
-
-   >[!IMPORTANT]
-   >
-   >Vous ne pouvez pas modifier des tâches en bloc lors de l’enregistrement manuel de tâches.
-
-1. Sélectionnez plusieurs tâches dans la liste des tâches.
-1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png) en haut de la liste des tâches, puis **Recalculer les expressions** pour mettre à jour toutes les informations des champs calculés personnalisés.
-1. Cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png). La zone **Modifier les tâches** s’ouvre dans la nouvelle expérience .
-
-   La modification des informations de toutes les tâches est identique à la modification des informations d’une tâche.
-
-   Pour plus d’informations sur la modification d’une tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-
-1. (Conditionnel) Dans la nouvelle expérience, procédez comme suit :
-
-   1. Indiquez les informations à modifier pour toutes les tâches sélectionnées dans l’une des zones suivantes :
-
-      * Vue d’ensemble
-      * Affectations
-      * Formulaires personnalisés
-      * Finances
-      * Paramètres
-      * Paramètres
-      * Commentaire
-
-      >[!NOTE]
-      >
-      >* Les informations que vous modifiez sur toutes les tâches sélectionnées remplacent les informations existantes sur chaque tâche, à l’exception du champ **Affectations**. L’ajout d’une nouvelle personne cessionnaire dans la modification en masse l’ajoute à toutes les tâches sélectionnées. Si d’autres personnes cessionnaires sont affectées aux tâches sélectionnées, elles restent affectées en plus de celle ajoutée par modification en bloc.
-      >* Si vous souhaitez modifier la durée de la tâche, les tâches sélectionnées doivent avoir la même contrainte de tâche. Sinon, le champ **Durée** n’est pas renseigné.
-      >
-      >* Seuls les formulaires personnalisés actifs sont affichés dans la liste. Si les tâches sélectionnées ne comportent aucun formulaire personnalisé commun, aucun formulaire n’est répertorié dans cette section.
-      >* Vous ne pouvez modifier que les champs des formulaires joints à toutes les tâches sélectionnées et que vous êtes autorisé à modifier.  Pour plus d’informations sur la modification en bloc de formulaires personnalisés, voir [Gérer les formulaires personnalisés joints à des objets](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
-
-   1. Cliquer sur **Enregistrer**.
-   1. (Facultatif) Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Modifier les tâches**.
-
-1. (Conditionnel) Dans l’ancienne expérience, procédez comme suit :
-
-   1. Indiquez les informations à modifier pour toutes les tâches sélectionnées dans l’une des zones suivantes :
-
-      * Vue d’ensemble
-      * Paramètres
-      * Affectations
-      * Formulaires personnalisés
-      * Commentaire
-
-   1. (Facultatif) Dans la section **Custom Forms**, sélectionnez l’option **Recalculer les expressions personnalisées** pour vous assurer que tous les champs calculés personnalisés des formulaires personnalisés joints aux tâches sélectionnées sont à jour.
-   1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;Toutes les modifications que vous avez apportées sont désormais visibles sur toutes les tâches sélectionnées.
-
-<div class="preview">
-
-### Modifier des tâches en bloc dans l’environnement de Prévisualisation
-
 {{step1-to-projects}}
 
 1. Sélectionnez un projet sur la page **Projets**.
@@ -598,5 +534,70 @@ La modification simultanée de plusieurs tâches diffère selon l’environnemen
 
 1. Cliquer sur **Enregistrer**.
 
-</div>
 
+<!--Temporary content while changing the Assignments area:
+
+Editing multiple tasks at the same time differs depending on what environment you choose. 
+
+### Edit tasks in bulk in the Production environment
+
+{{step1-to-projects}}
+
+1. On the **Projects** page, select a project.
+1. In the left panel, click the **Tasks** section.
+
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
+
+   ![Enable the autosave setting](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+
+   >[!IMPORTANT]
+   >
+   >You can't edit tasks in bulk when saving tasks manually.
+
+1. Select more than one task in the tasks list. 
+1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.
+1. Click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png). The **Edit Tasks** box opens in the new experience.
+
+   Editing the information on all tasks is identical to editing information on one task.
+
+   For more information about editing a task, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   
+1. (Conditional) In the new experience, do the following:
+      
+   1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+
+      * Overview
+      * Assignments
+      * Custom Forms
+      * Finance
+      * Settings
+      * Settings
+      * Comment
+
+      >[!NOTE]
+      >
+      >* The information you are changing on all the tasks selected will override the existing information on individual tasks, except for the **Assignments** field. Adding a new assignee in bulk edit will add that assignee to all the selected tasks. If other assignees are assigned to the selected tasks, they will remain assigned in addition to the one added through bulk edit.
+      >* If you want to edit task Duration, the tasks selected must have the same Task Constraint. Otherwise, the **Duration** field does not populate.
+      >
+      >* Only active custom forms display in the list. If the tasks selected do not have any common custom forms, no forms are listed in this section.
+      >* You can edit only the fields on the forms that are attached to all tasks selected and which you have permissions to edit.  For information about bulk editing custom forms, see [Manage custom forms attached to objects](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+
+   1. Click **Save**.
+   1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box.
+
+1. (Conditional) In the old experience, do the following:
+
+   1. Specify the information you want to change for all the tasks you selected in any of the following areas:
+
+         * Overview
+         * Settings
+         * Assignments
+         * Custom Forms
+         * Comment
+ 
+   1. (Optional) In the **Custom Forms** section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the custom forms attached to the tasks selected are up to date. 
+   1. Click **Save Changes**. All changes you made are now visible on all the selected tasks.
+
+<div class="preview">
+
+### Edit tasks in bulk in the Preview environment-->

@@ -5,15 +5,17 @@ recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1470'
 ht-degree: 4%
 
 ---
 
-
 # Prise en main d’Adobe Workfront Planning Designer
+
+<!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
 >[!IMPORTANT]
 >
@@ -36,7 +38,7 @@ Pour plus d’informations sur Workfront Planning, consultez les articles suivan
 * [Présentation de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
-## &#x200B;<!--edit theses??--> des exigences d’accès
+## <!--edit theses??--> des exigences d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -91,7 +93,7 @@ Vous pouvez envoyer des commentaires sur Planning Designer au cours du programme
 
 1. Cliquez sur **Créer avec l’IA**. <!--update this tag name when they change it-->
 
-   La zone **Configuration de Workspace** de la fenêtre **Planning Designer** s&#39;ouvre. <!--replace shot below when they rename the area to Planning Designer-->
+   La fenêtre **Planning Designer** s&#39;ouvre.
 
 1. Cliquez sur **Soumettre des commentaires ici** au bas de la page.
 1. Ajoutez vos commentaires dans l&#39;espace prévu à cet effet, puis cliquez sur **Envoyer**.
@@ -178,7 +180,7 @@ Sauf indication contraire, vous pouvez créer ou mettre à jour des objets dans 
 
 1. Cliquez sur **Créer avec l’IA**. <!--update this when they change it-->
 
-   La zone **Configuration de Workspace** de la fenêtre **Planning Designer** s&#39;ouvre. <!--replace shot below when they rename the area to Planning Designer-->
+   La fenêtre **Planning Designer** s&#39;ouvre. <!--remove the Beta tag here when this removes from Beta-->
 
    ![Fenêtre Planning Designer](assets/planning-designer-window.png)
 
@@ -239,9 +241,3 @@ Pour le désactiver :
 1. Cliquer sur **Enregistrer**.
 
    Cela supprime Planning Designer pour tous les utilisateurs du système.
-
-
-
-
-
-

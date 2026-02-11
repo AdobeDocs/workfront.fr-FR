@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1567'
 ht-degree: 6%
 
 ---
@@ -279,14 +279,14 @@ Voici ce qui se produit :
 
    <div class="preview">
 
-   * Sélectionnez le paramètre **Afficher les champs de la table** pour afficher uniquement les champs qui ne sont pas masqués dans la vue de la table de l&#39;enregistrement. Il s’agit du paramètre par défaut
-   * Désélectionnez le paramètre **Afficher les champs de table** pour afficher tous les champs de la vue de table de l&#39;enregistrement, y compris les champs masqués.
+   * Sélectionnez le paramètre **Afficher tous les champs** pour afficher tous les champs depuis la vue tabulaire de l&#39;enregistrement, y compris les champs masqués.
+   * Désélectionnez le paramètre **Afficher tous les champs** pour afficher uniquement les champs qui ne sont pas masqués dans la vue Tableau de l&#39;enregistrement. Il s’agit du paramètre par défaut
 
    </div>
 
    >[!TIP]
    >
-   >Le paramètre <span class="preview">**Afficher les champs de la table** n&#39;est disponible que dans la zone d&#39;aperçu Détails de l&#39;enregistrement. Elle n’est pas disponible dans la page Détails de l’enregistrement.</span>
+   ><span class="preview">Le paramètre **Afficher tous les champs** n’est disponible que dans la zone d’aperçu Détails de l’enregistrement. Elle n’est pas disponible dans la page Détails de l’enregistrement.</span>
 
 
    <!--replace with this when they fix the UI text:

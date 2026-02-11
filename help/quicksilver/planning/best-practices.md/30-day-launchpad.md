@@ -1,25 +1,27 @@
 ---
-title: 'Le Launchpad De 30 Jours : Déploiement De Votre Page D’Accueil Stratégique'
+title: 'Déployez votre page d’accueil stratégique : une page de lancement de 30 jours'
 description: Découvrez comment déployer Workfront Planning à l’aide d’une stratégie qui donne la priorité à la sécurité psychologique, réduit les perturbations et offre des gains rapides.
 feature: Workfront Planning
-role: User, Admin
+role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
 
-# La rampe de lancement de 30 jours : déployez votre maison stratégique
+# Déployez votre maison stratégique : une rampe de lancement de 30 jours
 
 {{planning-important-intro}}
 
 Utilisez ce guide pour savoir comment déployer Adobe Workfront Planning afin de concevoir une stratégie qui donne la priorité à la sécurité psychologique, réduit les perturbations et offre des gains rapides.
+
+Ce guide est destiné aux administrateurs Workfront qui mettent en œuvre Workfront Planning.
 
 ## Présentation de la prise en main rapide et de l’évolutivité intelligente
 
@@ -27,13 +29,15 @@ L’obstacle le plus courant à un déploiement réussi n’est pas la technolog
 
 Le Launchpad de 30 jours repose sur le modèle d’adoption « team-first ». Au lieu d’essayer un déploiement à l’échelle de l’entreprise qui nécessite généralement des mois de coordination, nous nous concentrons sur une approche décentralisée, dirigée par une équipe, qui offre un retour sur investissement immédiat au sein d’une unité fonctionnelle spécifique.
 
-## La transition progressive de l&#39;autonomie guidée
+## Utilisation de l’autonomie guidée pour réaliser une transition par phases
 
-Le déploiement réussi d’un produit utilise l’autonomie guidée. Cela signifie que l’administrateur définit la manière dont les équipes doivent travailler dans un système structuré de valeurs par défaut et de modèles gouvernés. Ils définissent les « voies sur la route » (les valeurs par défaut et les modèles régis), tout en permettant aux équipes de choisir leur propre aventure en leur sein.
+Pour déployer un produit avec succès, il est judicieux d’utiliser l’autonomie guidée. Cela signifie qu’en tant qu’administrateur, vous définissez la manière dont les équipes doivent travailler dans un système structuré de valeurs par défaut et de modèles gouvernés.
 
-Plus important encore, l&#39;autonomie guidée est évolutionnaire. Au lieu d’appliquer une taxonomie d’entreprise complète le premier jour, l’administrateur commence par des définitions globales minimales basées sur les besoins de la première équipe pilote.
+Vous définissez les voies sur la route (ou les valeurs par défaut et les modèles régis), tout en laissant aux équipes la possibilité de choisir leur propre chemin de travail.
 
-À mesure que davantage d’équipes sont intégrées, l’administrateur observe les schémas courants et effectue une itération sur les normes globales.
+Plus important encore, l&#39;autonomie guidée doit être évolutionnaire. Au lieu d’appliquer une taxonomie d’entreprise complète le premier jour, vous pouvez commencer par des définitions globales minimales basées sur les besoins de la première équipe pilote.
+
+À mesure que d’autres équipes sont intégrées, vous pouvez observer des schémas courants et itérer sur les normes mondiales.
 
 En tant qu’administrateur, vous n’abandonnez pas le contrôle, mais vous le dimensionnez intelligemment en fonction de ce qui fonctionne réellement.
 
@@ -50,71 +54,79 @@ Pour activer ce changement d’évolution, procédez comme suit :
 
    Dans les deux cas, l’objectif est de passer le plus rapidement possible de la théorie à l’application concrète, en veillant à ce que l’outil soit utilisé pour un véritable travail stratégique plutôt que de rester un simple exercice de sandbox.
 
-<!--left here-->
 
-## Le calendrier de 30 jours : votre « moment d’éclair »
+## Présentation d’un chemin de 30 jours vers votre moment décisif
 
 Un déploiement réussi est optimisé par Momentum. Ce planning de 30 jours vous fait passer de la configuration à votre premier succès automatisé.
 
-
-
 ### Jours 1 à 10 : La fondation de l’équipe
 
-Établissez une base stratégique en établissant une **architecture légère en étoile** dès le premier jour. Bien qu’une taxonomie complexe à l’échelle de l’entreprise ne soit pas encore requise, vous devez immédiatement créer deux environnements : un **Workspace de classification globale** (le hub) et votre première **Team Workspace** (le rayon).
+Construisez une base stratégique en établissant une structure centralisée dès le début.
 
+Bien qu’une taxonomie complexe à l’échelle de l’entreprise ne soit pas encore requise, vous devez créer immédiatement deux environnements. Par exemple, lorsque vous adoptez une approche d’architecture en étoile, vous pouvez créer les éléments suivants :
 
+* Un **espace de travail de classification globale** (hub) : il doit s’agir de la structure générale et de la nomenclature de votre système.
+* Un premier **espace de travail d’équipe** (en étoile) : il doit correspondre à l’approche de travail d’une équipe individuelle.
 
-Cette architecture **Équipe d’abord** vous permet d’effectuer les opérations suivantes :
+Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
+Grâce à cette architecture Team-First, vous pouvez :
 
+* **Concevez le hub pour prendre en charge le rayon :** vous pouvez concentrer l’espace de travail de classification globale spécifiquement sur les objets qui comptent le plus pour votre équipe pilote (leurs marques ou produits spécifiques). Cela renforce l’association entre la gouvernance d’entreprise et l’autonomie de l’équipe tout en maintenant la gestion de l’effort de conception.
 
-* **Concevez le Hub pour prendre en charge Spoke :** concentrez l’espace de travail de classification global spécifiquement sur les objets qui comptent le plus pour votre équipe pilote (par exemple, leurs marques ou produits spécifiques). Cela renforce l’**accord de collaboration entre la gouvernance d’entreprise et l’autonomie de l’équipe** tout en maintenant la gestion de l’effort de conception.
-
-* **Agir en tant que facilitateur, et non en tant que gardien :** faites passer votre rôle de l’établissement de règles au renforcement des capacités. Faites équipe avec l’équipe pour structurer leur environnement de planification.
+* **Agissez en tant que facilitateur et non en tant que gardien :** passez de l’établissement de règles au renforcement des capacités. Faites équipe avec l’équipe pour structurer leur environnement de planification.
 
 * **Collaborer à la conception :** travaillez directement avec votre équipe pilote pour définir les types d’enregistrements et les champs qui reflètent ses besoins réels, et non un idéal d’entreprise abstrait.
 
-* **Connecter la stratégie au travail :** activer le lien entre vos enregistrements de planification et le module de workflow.
+* **Connecter la stratégie au travail :** Activer le lien entre vos enregistrements de planification et les objets Workfront.
 
-* **Mettre en miroir les données actuelles :** utilisez les outils existants de l’équipe (Excel/Core) pour renseigner Workfront Planning, en vous assurant que les données semblent familières et pertinentes.
+  Pour plus d’informations, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+* **Mettre en miroir les données actuelles :** utilisez les outils existants de l’équipe (par exemple, Excel ou d’autres applications de base) pour renseigner Workfront Planning, en vous assurant que les données semblent familières et pertinentes.
 
 * **Conçu pour être flexible :** souvenez-vous que Workfront Planning est conçu pour évoluer. Vous pouvez commencer par des processus au niveau de l’équipe et les élever facilement ou les migrer vers une gouvernance au niveau de l’entreprise lorsque l’entreprise est prête.
 
+### Jour 15 : Le premier moment décisif
 
+Nous vous recommandons de viser votre première victoire majeure d’ici le 15e jour. Il doit s’agir de la création de projet automatisée.
 
-### Jour 15 : Le premier « moment éclair »
+Pour ce faire, vous devez implémenter les éléments suivants :
 
-Visez votre première victoire majeure d’ici le 15e jour : **création de projet automatisée**.
+1. Configurez une automatisation native qui identifie un statut « Prêt à être exécuté ».
 
-* Configurez une automatisation native qui détecte un statut « Prêt pour exécution ».
+2. Déclencher la création d’un projet lié dans Workfront.
 
-* Déclenchez la création d’un projet lié dans le module de workflow.
+Pour plus d’informations, voir [Configuration des automatisations d’Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-* **Valeur :** votre équipe voit son intention stratégique déclencher automatiquement le travail d’exécution. Ce « moment éclair » prouve la valeur du pont et suscite l&#39;adhésion.
-
-
+Votre équipe peut ainsi voir son intention stratégique déclencher automatiquement le travail d’exécution. Ce moment décisif prouve la valeur du pont entre la stratégie et le travail, et suscite l&#39;adhésion.
 
 ### Jours 16 à 30 : transition progressive vers l’échelle de l’entreprise
 
-Une fois le « moment de l’éclair » atteint, déplacez le point de départ de l’équipe dans la planification Workfront. À mesure que ce modèle **Équipe d’abord** réussit, vous entamez le chemin vers l’**échelle de l’entreprise** en identifiant les modèles qui fonctionnent.
+Une fois votre éclair rétabli, vous pouvez déplacer le point de départ de l’équipe vers Workfront Planning.
 
+À mesure que ce modèle Équipe d’abord réussit, vous entamez le chemin vers la mise à l’échelle de l’entreprise en identifiant les modèles qui fonctionnent.
 
+Pour passer d’équipe d’abord à l’échelle de l’entreprise, tenez compte des points suivants :
 
-* **Présentation du formulaire de saisie :** utilisez le formulaire comme nouvelle passerelle pour les requêtes stratégiques afin de garantir l’intégrité des données.
+* **Présentation du formulaire de saisie :** utilisez un formulaire de demande comme nouvelle passerelle pour les demandes stratégiques afin de garantir l’intégrité des données.
 
-* **Observer et normaliser :** utilisez le Workspace de Principal pour observer la manière dont l’équipe pilote utilise l’outil. Ces exemples concrets façonneront le design de votre entreprise.
+  Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+* **Observer et normaliser :** utilisez l’espace de travail de classification globale pour observer la manière dont l’équipe pilote utilise l’outil. Ces exemples concrets façonneront le design de votre entreprise.
 
 * **Mettre hors service les feuilles de calcul héritées :** passer entièrement à Workfront Planning à mesure que le processus se développe.
 
-* **Déplacer les utilisateurs et utilisatrices avancés :** utiliser la vue **tableau** pour une gestion directe et à grande vitesse des plans.
+* **Déplacer les utilisateurs expérimentés :** utilisez la vue de tableau d’enregistrements pour une gestion directe du plan à grande vitesse.
 
+  Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
+## Présentation des mesures de succès du Launchpad
 
-## Mesures de succès pour le Launchpad
+Nous vous recommandons de constamment rechercher des marqueurs de succès et de les ajuster à partir de vos résultats.
 
 Recherchez ces premiers indicateurs de la santé :
 
-* **Adoption :** les 5 à 10 premiers enregistrements stratégiques sont liés avec succès aux projets d’exécution.
+* **Adoption :** les 5 à 10 premiers enregistrements stratégiques sont liés avec succès aux projets d’exécution. Le processus de création d’enregistrements et d’automatisation de la création de projets liés est transparent et facilement répétable.
 
 * **Plaidoyer :** L’équipe pilote commence à évangéliser l’outil aux équipes adjacentes.
 
@@ -122,33 +134,31 @@ Recherchez ces premiers indicateurs de la santé :
 
 * **Confiance :** les parties prenantes utilisent les calendriers de planification de Workfront plutôt que des tableaux d’état manuels pour les révisions.
 
-
-
 ## Bonnes pratiques et conseils
 
+Le succès de votre implémentation dépend de l’approche que vous utilisez et des attentes que vous avez définies dès le départ.
 
+Vous trouverez ci-dessous quelques recommandations pour mener à bien cette implémentation.
 
-### Faire :
+### Fait :
 
-* **Commencez avec une équipe de pilotes passionnée.** Reconnaît qu’un déploiement mondial est un effet élévateur important. Concentrez-vous sur un PDC avec une équipe soucieuse d’innover et capable de fournir un plan directeur aux autres.
+* **Commencez avec une équipe pilote enthousiaste :** reconnaissez qu’un déploiement mondial est un effet élévateur important. Concentrez-vous sur une preuve de concept avec une équipe impatiente d’innover et capable de fournir un plan directeur aux autres.
 
-* **Définissez des voies, pas des murs.** Utilisez l’autonomie guidée pour fournir une structure sans tuer l’exploration.
+* **Définir des voies, pas des murs :** utilisez l’autonomie guidée pour fournir la structure sans tuer l’exploration.
 
-* **Donner la priorité à la sécurité psychologique.** Faites savoir aux équipes que les outils hérités restent jusqu’à ce qu’elles soient à l’aise avec le nouveau flux.
+* **Donner la priorité à la sécurité psychologique :** informer les équipes que les outils hérités restent en place jusqu’à ce qu’elles soient à l’aise avec le nouveau workflow.
 
-* **Célébrez les victoires rapides.** Mettez en avant la première création de projet automatisée pour toute l’équipe.
+* **Célébrez les gains rapides :** présentez la première création de projet automatisée à l’ensemble de l’équipe.
 
-* **Établir un champion.** Identifiez un utilisateur expérimenté dans chaque équipe pour diriger la transition.
-
-
+* **Établir un champion :** identifier un utilisateur expérimenté dans chaque équipe pour diriger la transition.
 
 ### Ne pas :
 
-* **Ne pas imposer de changements en profondeur.** Le fait de forcer tout le monde à passer au Jour 1 entraîne une culpabilité technologique.
+* **Ne pas imposer de changements à grande échelle :** obliger tout le monde à changer de système le premier jour entraîne une culpabilité technologique.
 
-* **Ne pas ignorer le « pourquoi ».** Assurez-vous que chaque membre de l’équipe comprend comment le thread stratégique rend son travail plus visible.
+* **N’ignorez pas le pourquoi :** assurez-vous que chaque membre de l’équipe comprend comment le thread stratégique rend son travail plus visible.
 
-* **N&#39;attends pas la perfection.** Votre taxonomie évoluera. Commencez avec vos meilleures estimations et affinez-les au fur et à mesure.
+* **N&#39;attendez pas la perfection** Votre taxonomie évoluera. Commencez avec vos meilleures estimations et affinez-les au fur et à mesure.
 
 <!--
 
