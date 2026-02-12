@@ -277,7 +277,7 @@ Vous pouvez créer jusqu’à 100 dossiers liés par arborescence de dossiers.
       >
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
-   1. Pour ajouter un dossier imbriqué à l’arborescence de dossiers, cliquez sur le menu à trois points en regard du dossier dans lequel vous souhaitez créer un dossier imbriqué, puis sélectionnez Ajouter un dossier. **** Renseignez les champs comme décrit à l’étape précédente.
+   1. Pour ajouter un dossier imbriqué à l’arborescence de dossiers, cliquez sur le menu à trois points en regard du dossier dans lequel vous souhaitez créer un dossier imbriqué, puis sélectionnez Ajouter un dossier. **&#x200B;**&#x200B;Renseignez les champs comme décrit à l’étape précédente.
    1. Pour lier un dossier à Workfront, sélectionnez-le et cliquez sur l’icône **Créer un dossier lié** ![Link folder](assets/link-folder.png).
    1. (Facultatif) Pour modifier un dossier, sélectionnez-le, puis cliquez sur l’icône **Modifier le dossier** ![Edit icon](assets/edit-icon.png).
    1. (Facultatif) Pour supprimer un dossier, sélectionnez-le et cliquez sur l’icône **Supprimer le dossier** ![Delete folder](assets/delete-folder.png).
