@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 98%
+source-wordcount: '823'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ En tant que personne chargée de l’administration d’Adobe Workfront, vous p
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -58,6 +58,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Tenez compte des éléments suivants lorsque vous accordez aux utilisateurs et aux utilisatrices l’accès aux données financières dans Workfront :
 
+* Un utilisateur dont le niveau d’accès ne permet pas d’accéder aux données financières ne peut pas accorder un accès qui permettrait à d’autres utilisateurs d’afficher les données financières. Cela inclut l’accès aux projets qui afficheraient des données financières ou la modification d’un niveau d’accès pour permettre l’affichage des données financières.
 * Un utilisateur ou une utilisatrice dont le niveau d’accès ne permet pas d’accéder aux données financières ne peut pas créer de risque pour un projet. Pour plus d’informations, consultez la section [Créer et modifier les risques sur les projets](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * Vous pouvez également utiliser un niveau d’accès pour déterminer les activités de gestion des ressources qu’un utilisateur ou une utilisatrice peut utiliser pour budgétiser ou visualiser l’allocation des ressources. Pour plus d’informations, consultez la section [Accorder l’accès à la gestion des ressources](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 

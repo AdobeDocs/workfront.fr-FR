@@ -6,10 +6,10 @@ description: Vous pouvez partager ou supprimer des autorisations pour un objet q
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 84%
+source-wordcount: '1332'
+ht-degree: 82%
 
 ---
 
@@ -99,7 +99,9 @@ Vous pouvez partager les objets suivants dans Workfront avec d’autres personne
 
 ## Limites du partage
 
-Vous pouvez partager un objet avec jusqu’à 100 entités (personnes, équipes, groupes, fonctions, entreprises). Nous vous recommandons de partager des objets avec des groupes, des équipes ou des entreprises plutôt qu’avec des utilisateurs et utilisatrices individuels afin d’éviter cette limite.
+* Vous pouvez partager un objet avec jusqu’à 100 entités (personnes, équipes, groupes, fonctions, entreprises). Nous vous recommandons de partager des objets avec des groupes, des équipes ou des entreprises plutôt qu’avec des utilisateurs et utilisatrices individuels afin d’éviter cette limite.
+* Un utilisateur dont le niveau d’accès ne permet pas d’accéder aux données financières ne peut pas accorder un accès qui permettrait à d’autres utilisateurs d’afficher les données financières. Cela inclut l’accès aux projets qui afficheraient des données financières ou la modification d’un niveau d’accès pour permettre l’affichage des données financières.
+
 
 ## Partager des autorisations sur les objets
 
