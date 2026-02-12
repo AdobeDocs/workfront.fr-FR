@@ -7,10 +7,10 @@ description: Pour accéder aux données de Data Connect, vous devez d’abord cr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 5%
+source-wordcount: '630'
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ Pour plus d’informations sur l’utilisation d’une nouvelle connexion avec u
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Ultimate</p>
     <p>Workflow Ultimate</p>
    </td>
@@ -67,7 +67,7 @@ Pour créer un compte de lecteur :
 
 1. Dans le panneau de gauche, cliquez sur **Système** > **Connexion aux données**.
 
-1. Cliquez sur le bouton **Créer un compte Reader** pour commencer à créer le compte de lecteur de votre organisation. Le processus est automatique, mais peut prendre quelques minutes.
+1. Cliquez sur le bouton **Créer un compte Reader** pour commencer à créer le compte de lecteur de votre organisation. Le processus est automatique, mais peut prendre jusqu’à 24 heures.
 
 1. Une fois l’opération terminée, une boîte de dialogue s’affiche pour expliquer que votre compte de lecteur est désormais actif. Actualisez la page du navigateur pour accéder au bouton **Créer une connexion**.
 
