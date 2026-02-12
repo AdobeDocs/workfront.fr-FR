@@ -7,7 +7,7 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: e812338b1f20c6f8dc8679afe3215dbecc8ffc60
+source-git-commit: e186b4aa0b5c229015cf8f3dcd8993f8f0443c44
 workflow-type: tm+mt
 source-wordcount: '2958'
 ht-degree: 68%
@@ -404,7 +404,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
    </tr> 
    </tbody> 
    </table>
-1. Passez la souris sur le nom d’une personne désignée, puis cliquez sur Créer un Principal. Il sera le propriétaire de la future tâche de projet.
+1. Passez la souris sur le nom d’une personne désignée, puis cliquez sur **Créer un Principal**. Il s&#39;agira du **Propriétaire** de la tâche de projet à venir.
 
    >[!TIP]
    >

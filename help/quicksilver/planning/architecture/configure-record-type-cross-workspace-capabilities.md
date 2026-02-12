@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1420'
 ht-degree: 4%
 
 ---
@@ -139,7 +139,7 @@ En tant que gestionnaire d’espace de travail, vous pouvez configurer un type d
 
 Un responsable d’espace de travail peut ajouter un type d’enregistrement global à un espace de travail qu’il gère. Les champs d’origine du type d’enregistrement sont également ajoutés à l’espace de travail secondaire.
 
-Les utilisateurs peuvent ajouter des enregistrements à un type d&#39;enregistrement global depuis n&#39;importe quel espace de travail où ils disposent d&#39;autorisations Contribute et où le type d&#39;enregistrement global est ajouté, y compris son espace de travail d&#39;origine. Ils peuvent afficher les enregistrements des espaces de travail pour lesquels ils disposent uniquement des autorisations d’affichage.
+Les utilisateurs peuvent ajouter des enregistrements à un type d&#39;enregistrement global depuis n&#39;importe quel espace de travail où ils disposent d&#39;autorisations Contribute et où le type d&#39;enregistrement global est ajouté, y compris son espace de travail d&#39;origine. Ils peuvent afficher les enregistrements des espaces de travail pour lesquels ils ne disposent que des autorisations d&#39;affichage à partir de l&#39;espace de travail principal du type d&#39;enregistrement global.
 
 Pour plus d’informations, voir [Présentation des types d’enregistrements de l’espace de travail](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 

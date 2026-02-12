@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1709'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ Pour utiliser des types d’enregistrements globaux, procédez comme suit :
 
    Les sections suivantes décrivent les points à prendre en compte concernant les types d’enregistrements globaux et leur fonctionnement dans leurs espaces de travail d’origine ou secondaires.
 
-### Considérations sur les types d’enregistrements globaux dans leur espace de travail d’origine
+### Considérations sur les types d’enregistrements globaux dans leur espace de travail de Principal d’origine
 
 Le type d’enregistrement configuré pour être global possède les propriétés suivantes :
 
@@ -109,12 +109,24 @@ Le type d’enregistrement configuré pour être global possède les propriété
    * Créer et gérer des formulaires de demande
    * Création et gestion des automatisations
 
-* Les enregistrements que vous ajoutez à un type d&#39;enregistrement global ne sont visibles que par les utilisateurs qui disposent des autorisations d&#39;affichage sur l&#39;espace de travail dans lequel ils ont été ajoutés.
-* Les enregistrements que vous ajoutez à partir d’un espace de travail secondaire sont cumulés et affichés dans l’espace de travail d’origine. Tous les membres de l’espace de travail d’origine obtiennent des autorisations d’affichage.
-* Lorsque le type d’enregistrement global d’origine est ajouté à plusieurs espaces de travail secondaires, les scénarios suivants existent :
+* Les enregistrements suivants s’affichent dans l’espace de travail du Principal d’un type d’enregistrement global :
 
-   * Les membres de l’espace de travail d’origine obtiennent automatiquement des autorisations d’affichage pour tous les enregistrements ajoutés depuis n’importe quel espace de travail, même s’ils ne sont pas membres de ces espaces de travail.
-   * Les membres Secondaire de l&#39;espace de travail ne peuvent afficher que les enregistrements des espaces de travail dont ils sont membres.
+   * Enregistrements ajoutés à partir du type d’enregistrement global dans l’espace de travail Principal
+   * Enregistrements ajoutés à partir des types d’enregistrements globaux dans les espaces de travail secondaires où ils ont été ajoutés
+
+     Les enregistrements que vous ajoutez à partir d’un espace de travail secondaire sont cumulés et affichés dans l’espace de travail principal. Tous les membres de l’espace de travail principal d’origine obtiennent des autorisations d’affichage pour eux et les enregistrements ne leur sont visibles qu’à partir de l’espace de travail de Principal, même s’ils ne disposent pas des autorisations sur l’espace de travail secondaire.
+* Les scénarios suivants existent pour le type d’autorisations dont vous disposez sur les enregistrements affichés dans l’espace de travail principal, en fonction de l’endroit d’où ils ont été ajoutés :
+
+   * Vous disposez des mêmes autorisations pour les enregistrements créés dans l’espace de travail du Principal que pour l’espace de travail et pour le type d’enregistrement global d’origine.
+   * Vous disposez des mêmes autorisations pour les enregistrements créés dans un espace de travail secondaire que pour l&#39;espace de travail secondaire et pour le type d&#39;enregistrement global dans cet espace.
+
+<!--Removed this as this was too confusing: 
+
+* When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
+
+    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
+        * The primary workspace
+        * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.-->
 
 * Les types d’enregistrement connectés à un type d’enregistrement global seront disponibles pour la connexion à partir des espaces de travail où ce type d’enregistrement est ajouté.
 
@@ -175,12 +187,12 @@ Le type d’enregistrement configuré pour être global possède les propriété
 * Les enregistrements ajoutés dans un espace de travail secondaire sont visibles à partir des espaces de travail suivants, lorsque vous disposez d&#39;autorisations d&#39;affichage ou supérieures pour ces espaces de travail :
 
    * Emplacement secondaire où ils ont été ajoutés
-   * Espace de travail d’origine du type d’enregistrement global
+   * Espace de travail principal d’origine du type d’enregistrement global
 
-* Les scénarios suivants existent pour les enregistrements créés dans les espaces de travail secondaires :
+* Les scénarios suivants existent pour accéder aux enregistrements créés dans les espaces de travail secondaires :
 
    * Si vous disposez d’autorisations de niveau Gérer sur l’espace de travail d’origine et d’aucune autorisation sur un espace de travail secondaire, vous pouvez afficher les enregistrements ajoutés à partir des espaces de travail secondaires dans l’espace de travail d’origine, mais vous ne pouvez pas les gérer à partir de l’espace de travail d’origine.
-   * Si vous disposez des autorisations de niveau Gérer sur l’espace de travail secondaire, vous pouvez gérer les enregistrements à partir de l’espace de travail d’origine du type d’enregistrement global et de l’espace de travail secondaire où ils ont été ajoutés.
+   * Si vous disposez des autorisations de gestion sur les espaces de travail d’origine et secondaire, vous pouvez gérer les enregistrements à partir de l’espace de travail d’origine du type d’enregistrement global et de l’espace de travail secondaire où ils ont été ajoutés.
      <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * Vous ne pouvez pas partager publiquement des vues à partir d’un type d’enregistrement global dans un espace de travail secondaire.
 
