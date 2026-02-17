@@ -5,9 +5,9 @@ description: Les listes améliorées utilisent un format de tableau pour affiche
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
+source-git-commit: ee5bb3cbf6a69b85c3d6b87500164f85a1ba114a
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1617'
 ht-degree: 5%
 
 ---
@@ -53,7 +53,7 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 
 >[!NOTE]
 >
->Cette liste n’est pas exhaustive. Chacune de ces listes d’objets peut également apparaître dans un rapport ou un tableau de bord. Par exemple, un rapport de projet ou un tableau de bord contenant un rapport de projet affiche également une liste de projets.
+>Cette liste n’est pas exhaustive. Chacune de ces listes d’objets peut également apparaître dans un rapport ou un tableau de bord. Par exemple, un rapport de requête ou un tableau de bord contenant un rapport de requête affiche également une liste de requêtes.
 
 | Liste Workfront | Emplacement de la liste d’objets |
 |--- |--- |
@@ -61,14 +61,17 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | Liste des requêtes | <ul><li>Demandes (nouvelle expérience uniquement)</li><li>Widget Mes demandes sur l’Accueil</li></ul> |
 | Listes de statuts, priorités, gravités et taux de change dans la configuration | <ul><li>Configuration > Préférences du projet > Statuts</li><li>Configuration > Préférences du projet > Priorités</li><li>Configuration > Préférences du projet > Gravités</li><li>Configuration > Préférences du projet > Taux de change</li></ul> |
 
-## Ajout et modification d’éléments dans une liste améliorée
+## Ajouter des éléments à une liste améliorée
 
-Selon la configuration de la liste améliorée, il peut y avoir deux façons d’ajouter un élément à la liste :
+Selon la liste améliorée que vous consultez, effectuez l’une des opérations suivantes :
 
-* Cliquez sur un bouton au-dessus de la liste. Cette option ouvre une boîte de dialogue dans laquelle vous saisissez des informations et les enregistrez.
-* Cliquez sur **Nouvelle ligne** au bas de la liste. Cette option ajoute une nouvelle ligne au tableau et vous saisissez des informations dans chaque cellule.
+1. Cliquez sur le bouton bleu en haut à droite de la liste. Cette option ouvre une boîte de dialogue dans laquelle vous pouvez saisir des informations. Les données sont enregistrées en tant que nouvelle ligne dans le tableau.
 
-  Les listes améliorées prennent en charge les types de champs suivants :
+   OU
+
+1. Cliquez sur **Nouvelle ligne** au bas de la liste. Cette option ajoute une nouvelle ligne au tableau. Double-cliquez dans une cellule pour y saisir des informations. Chaque cellule représente un champ pour l’élément de liste. Les champs doivent exister avant de les voir dans la liste.
+
+   Les listes améliorées prennent en charge les types de champs suivants :
 
    * Texte
    * Nombre
@@ -81,50 +84,56 @@ Selon la configuration de la liste améliorée, il peut y avoir deux façons d�
    * Personne désignée (une ou plusieurs)
    * Sélecteur de couleurs
 
-  Lorsque vous modifiez une cellule, chaque type de champ possède ses propres options de modification.
+   >[!NOTE]
+   >
+   >Chaque type de champ possède ses propres options de modification. Certains champs peuvent être en lecture seule.
 
-Pour modifier un élément de la liste, double-cliquez dans la cellule à modifier et tapez les informations. Certaines cellules peuvent être en lecture seule.
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+## Modifier les éléments à l’aide de la barre d’actions
 
-## Utiliser la barre d’actions et le menu Plus dans une liste améliorée
+Vous pouvez utiliser la barre d’actions d’une liste améliorée pour modifier des éléments de la liste. Toutes les barres d’actions n’incluent pas les mêmes options. En outre, certaines listes peuvent ne pas vous permettre de sélectionner des éléments et la barre d’actions n’est pas disponible.
 
-La barre d’actions affiche les actions que vous pouvez effectuer sur un élément de liste. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
-
-1. Cochez la case en regard d’un élément de la liste améliorée.
+1. Cochez la case en regard d’un élément d’une liste améliorée.
 
    La barre d’actions s’affiche en bas de l’écran.
 
    >[!NOTE]
    >
-   >Différentes listes améliorées peuvent permettre de sélectionner un seul élément, de modifier en bloc (en sélectionnant plusieurs éléments) ou de ne pas sélectionner d’élément.
+   >Selon la liste que vous modifiez, vous pouvez sélectionner un ou plusieurs éléments pour utiliser la barre d’actions.
 
-1. Cliquez sur un bouton de la barre d’actions pour effectuer cette action, par exemple afficher l’élément de liste, le supprimer ou le modifier.
+1. Cliquez sur une action de la barre pour modifier des éléments. Voici quelques exemples d’actions :
+
+   * Afficher
+   * Modifier
+   * Supprimer
 
    Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
+   ![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
 
-1. Pointez sur un champ principal d’un élément de liste pour afficher le menu **Plus**. (Le champ principal est la colonne située le plus à gauche du tableau.)
+1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur le menu **Plus** ![icône de menu Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
 
-1. Cliquez sur le menu pour afficher les actions supplémentaires pour l’élément. Certaines actions peuvent être spécifiques à cette liste et n’apparaître dans aucune autre liste.
+   >[!TIP]
+   >
+   >Le champ principal s’affiche dans la première colonne de la liste.
 
    ![Exemple de menu Plus](assets/glist-more-menu-priorities.png)
 
-## Personnalisation des colonnes d’une liste améliorée
+## Personnaliser les colonnes
 
-Certaines listes améliorées vous permettent de masquer et d’afficher des colonnes, ainsi que de les réorganiser.
+Selon les objets que vous consultez dans une liste améliorée, vous pouvez masquer, afficher ou réorganiser les colonnes de la liste.
 
 1. Cliquez sur **Colonnes** au-dessus de la liste.
 
    ![Exemple d’affichage des colonnes](assets/glist-display-move-columns.png)
 
 1. Utilisez les boutons pour afficher ou masquer des colonnes dans la liste.
-1. Pour réorganiser les colonnes, cliquez sur l’icône **Faire glisser** et déplacez une colonne vers l’emplacement souhaité. Le déplacement de colonnes modifie automatiquement la liste.
+1. Pour réorganiser les colonnes, cliquez sur l’icône **Faire glisser** ![Icône Faire glisser](assets/drag-icon.png) et déplacez une colonne vers l’emplacement souhaité. Le déplacement de colonnes modifie automatiquement la liste.
 
    >[!NOTE]
    >
-   >Le champ principal est la colonne située le plus à gauche du tableau. Il est fixe en première position et vous ne pouvez pas modifier sa colonne. Si le nombre de colonnes est important, le champ principal est figé à gauche et lorsque vous faites défiler l’écran horizontalement, il est toujours visible.
+   >Le champ principal est la première colonne de la liste. Il est fixe en première position et vous ne pouvez pas modifier sa colonne. Si le nombre de colonnes est important, le champ principal est figé à gauche et lorsque vous faites défiler l’écran horizontalement, il est toujours visible.
    >
    >L’icône en regard d’un nom de champ affiche le type de champ, tel que du texte ou un champ de date.
 
@@ -132,13 +141,13 @@ Certaines listes améliorées vous permettent de masquer et d’afficher des col
 
    ![Indicateur des colonnes masquées](assets/glist-columns-hidden-indicator.png)
 
-## Ajout et suppression de colonnes dans une liste à l’aide du gestionnaire de colonnes
+## Ajouter et supprimer des colonnes à l’aide du gestionnaire de colonnes
 
-Certaines listes améliorées offrent le **Gestionnaire de colonnes** qui vous permet d’ajouter facilement des colonnes à la liste et de supprimer des colonnes. Les champs natifs et personnalisés sont tous deux disponibles pour être sélectionnés en tant que colonnes. Les champs personnalisés doivent exister dans le système avant de pouvoir les ajouter en tant que colonnes de liste.
+Vous pouvez utiliser le **Gestionnaire de colonnes** dans certaines listes améliorées pour ajouter et supprimer facilement des colonnes de la liste. Vous pouvez ajouter ou supprimer des champs système et personnalisés qui existent déjà dans Workfront sous forme de colonnes à une liste améliorée.
 
 Pour ajouter et supprimer des colonnes :
 
-1. Cliquez sur l’icône + en haut à droite du tableau pour ouvrir la zone **Gestionnaire de colonnes**.
+1. Cliquez sur l’icône + dans le coin supérieur droit du tableau pour ouvrir la zone **Gestionnaire de colonnes**.
 1. Recherchez un champ d’objet existant dans la colonne **Disponible**, puis cliquez sur + à droite du nom du champ pour l’ajouter à la colonne **Sélectionné**.
 1. Cliquez sur - à droite d’un champ de la colonne **Sélectionné** pour le supprimer de la liste.
 
@@ -146,11 +155,13 @@ Pour ajouter et supprimer des colonnes :
    >
    >Certains champs peuvent être corrigés et ne peuvent pas être supprimés.
 
+   <!-- Add info about Properties and KPIs when something gets released with those options -->
+
 1. Cliquer sur **Enregistrer**.
 
    ![Gestionnaire de colonnes](assets/glist-column-manager.png)
 
-<!-- Add info about Properties and KPIs when something gets released with those options -->
+   La liste met à jour les colonnes en fonction des choix que vous avez effectués.
 
 ## Affichage des données avec des vues dans une liste améliorée
 
@@ -164,7 +175,7 @@ Pour créer une vue :
 
 1. Cliquez sur la liste déroulante **Vues** et sélectionnez **Nouvelle vue**.
 1. Attribuez un nom à la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
 1. (Facultatif) Filtrez et regroupez les éléments de liste. Pour plus d’informations, voir [Filtrer et regrouper des éléments dans une liste améliorée](#filter-and-group-items-in-an-enhanced-list).
 
    Les modifications apportées aux vues sont enregistrées automatiquement et sont visibles par toute personne utilisant la vue.
@@ -192,7 +203,7 @@ Pour partager une vue :
 
 1. Cliquer sur **Enregistrer**.
 
-## Filtrer et regrouper des éléments dans une liste améliorée
+## Filtrer et regrouper des éléments
 
 Les filtres vous aident à réduire la quantité d’informations que vous affichez dans la liste. Les regroupements permettent de séparer les objets de la liste dans des zones selon des critères spécifiques.
 
