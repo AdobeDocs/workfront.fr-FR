@@ -3,13 +3,13 @@ title: Prise en main de la version d’essai gratuite d’Adobe Workfront Planni
 description: Adobe Workfront offre une version d’essai gratuite d’Adobe Workfront Planning pendant 60 jours. Cet essai vous donne l'occasion de voir comment Planning relie la stratégie globale au travail quotidien qui permet sa réalisation. La planification offre une visibilité centralisée sur votre cycle de vie marketing, ce qui permet une meilleure collaboration entre les équipes, un suivi en temps réel des campagnes et des workflows automatisés. Vous pouvez créer des espaces de travail personnalisés et visualiser le travail à l’aide de calendriers et de chronologies interactifs. Grâce à cette version d'essai, vous constaterez directement comment Planning permet d'aligner le travail quotidien sur les objectifs stratégiques, de rationaliser l'exécution et de générer des résultats mesurables pour votre organisation.
 hidefromtoc: true
 hide: true
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1290'
 ht-degree: 2%
 
 ---
-
 
 <!--add at release to the metadata:
 author: Alina
@@ -114,12 +114,12 @@ Pour vérifier et accepter le contrat légal, effectuez l’une des opérations 
    1. (Conditionnel) Connectez-vous à Adobe Workfront en tant qu’administrateur système.
    1. Utilisez l’une des méthodes suivantes :
 
-      * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
+      * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
 
       * Accédez à la zone **Notifications Workfront** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning.
    1. Cliquez sur **Consulter le contrat d’évaluation**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
    1. Cliquez sur **Accepter** après avoir consulté le contrat.
-   1. (Conditionnel) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
+   1. (Conditionnel) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’évaluation de Workfront Planning ****, puis cliquez sur **En savoir plus**.
 
       Vous pouvez en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning.
 
@@ -128,7 +128,7 @@ Pour vérifier et accepter le contrat légal, effectuez l’une des opérations 
    1. (Conditionnel) Connectez-vous à Adobe Workfront en tant qu’administrateur système.
    1. Utilisez l’une des méthodes suivantes :
 
-      * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
+      * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
 
       * Accédez à la zone **Notifications Workfront** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning
 
@@ -143,16 +143,22 @@ Pour vérifier et accepter le contrat légal, effectuez l’une des opérations 
       * La zone Planning est ajoutée au menu principal pour vous et tous les utilisateurs de votre système et affiche un badge **Évaluation**.
       * En tant qu’administrateur système, vous recevez un accès de niveau Gérer à l’onglet **Espaces de travail des bonnes pratiques** dans la zone Planification .
       * Tous les utilisateurs de votre système qui ne sont pas administrateurs système bénéficient d&#39;un accès en affichage à l&#39;onglet **Espaces de travail des bonnes pratiques** dans la zone Planification.
-   1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
+   1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning ****, puis cliquez sur **En savoir plus**.
 
       Vous pouvez en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning.
-   1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système a accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**&#x200B;et cliquez sur **Ouvrir l&#39;évaluation**.
+   1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système a accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **** et cliquez sur **Ouvrir l&#39;évaluation**.
 
       Commencez à explorer l’onglet **Espaces de travail des bonnes pratiques** et partagez des espaces de travail ou leur objet avec d’autres personnes.
 
       Pour plus d’informations sur l’utilisation de Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
       Pour connaître les bonnes pratiques relatives à l&#39;utilisation de Workfront Planning, consultez [Bonnes pratiques de planification d&#39;Adobe Workfront](/help/quicksilver/planning/general/planning-best-practices.md).
+
+## Informations supplémentaires sur Workfront Planning
+
+Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Pour connaître les bonnes pratiques relatives à l’implémentation de Workfront Planning, consultez [Bonnes pratiques d’Adobe Workfront Planning : index des articles](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 ## Autorisations d’accès aux données Workfront Planning pendant l’essai gratuit
 
@@ -169,7 +175,3 @@ Pour vérifier et accepter le contrat légal, effectuez l’une des opérations 
 * **Après le 1er mai 2026:**
 
   Tous les utilisateurs de votre système ont accès à Workfront Planning supprimé et Workfront sécurise vos données.
-
-
-
-

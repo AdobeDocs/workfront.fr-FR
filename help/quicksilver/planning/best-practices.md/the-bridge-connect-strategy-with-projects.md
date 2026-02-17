@@ -5,10 +5,8 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -97,7 +95,7 @@ Pour les organisations ayant des demandes volumineuses ou des besoins d’automa
 
 Pour cette approche, vous aurez besoin d’une licence pour Adobe Workfront Fusion .
 
-Pour plus d’informations, voir [Configuration et gestion de Workfront Fusion : index des articles](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Pour plus d’informations, voir [Configuration et gestion de Workfront Fusion : index des articles](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Utiliser des déclencheurs d’envoi :** les formulaires fournissent un événement d’envoi unique et propre. Ils peuvent donc être utilisés comme déclencheurs pour les automatisations Fusion. Un scénario Fusion peut détecter un envoi de formulaire et générer immédiatement un projet lié dans Workfront.
 
