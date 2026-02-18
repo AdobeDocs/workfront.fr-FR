@@ -5,10 +5,10 @@ description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
+source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 7%
+source-wordcount: '1374'
+ht-degree: 8%
 
 ---
 
@@ -73,8 +73,11 @@ Tenez compte des points suivants lors de l’utilisation du remplissage de formu
 
 * Le remplissage de formulaire AI ne remplace aucun champ que vous avez déjà rempli.
 * Les utilisateurs ne reçoivent pas de suggestions de données auxquelles ils n’ont pas accès autrement.
-* Les fichiers que vous utilisez dans le remplissage de formulaire optimisé par l’IA sont chargés dans le stockage Azure pendant 24 heures. Cela est nécessaire pour le traitement des documents.
-* Tous les fichiers chargés sur Azure sont actuellement stockés dans des clusters Azure américains pour une fenêtre de stockage de 24 heures.
+
+<!--
+* Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
+* All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
+-->
 
 ## Obtenir des suggestions à partir d’une invite de texte
 
