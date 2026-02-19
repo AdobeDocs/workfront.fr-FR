@@ -6,16 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2549'
 ht-degree: 0%
 
 ---
 
 # Transformez votre première victoire en un élan durable : un playbook pour une mise à l&#39;échelle gérée
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
+>
+>Votre organisation doit disposer d’un package Workfront Planning Prime ou d’un package supérieur pour pouvoir prendre en charge les fonctionnalités recommandées dans cet article.
+>
+>Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Présentation de l&#39;accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 
 Obtenir votre premier cas d’utilisation Adobe Workfront Planning réussi est un moment décisif : une augmentation de la demande, de nouvelles équipes veulent y accéder et le leadership voit le potentiel de visibilité à l’échelle de l’entreprise.

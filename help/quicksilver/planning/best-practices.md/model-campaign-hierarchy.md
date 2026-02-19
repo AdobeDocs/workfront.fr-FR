@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1537'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,15 @@ ht-degree: 1%
 
 <!--see the file again for additional comments from Seth and others-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
+>
+>Votre organisation doit disposer d’un package Workfront Planning Prime ou d’un package supérieur pour pouvoir prendre en charge les fonctionnalités recommandées dans cet article.
+>
+>Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Présentation de l&#39;accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Découvrez comment traduire vos processus d’entreprise complexes en une hiérarchie de campagnes évolutive et gouvernée à l’aide de centres de gravité et d’une architecture multi-espaces de travail dans Adobe Workfront Planning.
 

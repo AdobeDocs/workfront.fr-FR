@@ -6,14 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 699bc34b-98c8-4620-9fdc-992d1ab9f501
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
 # Bonnes pratiques relatives à Adobe Workfront Planning : index des articles
+
+>[!IMPORTANT]
+>
+>Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
+>
+>Votre organisation doit disposer d’un package Workfront Planning Prime ou d’un package supérieur pour pouvoir prendre en charge les fonctionnalités recommandées dans cet article.
+>
+>Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Présentation de l&#39;accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Dans les articles suivants, découvrez des conseils sur la manière de déployer Adobe Workfront Planning dans votre entreprise à l’aide d’une stratégie qui donne la priorité à la sécurité, réduit les perturbations et offre des gains rapides.
 
