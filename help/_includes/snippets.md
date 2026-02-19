@@ -1,8 +1,8 @@
 ---
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 92%
+source-wordcount: '2644'
+ht-degree: 90%
 
 ---
 # Extraits de code
@@ -68,6 +68,18 @@ ht-degree: 92%
 ## Étape 1 - Cliquer sur l’image de votre profil - {#step1-click-profile-pic}
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur votre nom d’utilisateur ou d’utilisatrice à côté de votre photo de profil. Ou (le cas échéant), cliquez sur l’image de profil dans la zone de navigation supérieure, puis cliquez sur **[!UICONTROL Profil Workfront]**.
+
+## Remarque pour Workflow Ultimate {#ultimate-package}
+
+>[!IMPORTANT]
+>
+>Vous devez disposer du package Workflow Ultimate pour utiliser cette fonctionnalité.
+
+## Remarque pour Workflow Prime/Ultimate {#prime-or-ultimate-package}
+
+>[!IMPORTANT]
+>
+>Vous devez disposer de la Prime de workflow ou du package d’Ultimate de workflow pour utiliser cette fonctionnalité.
 
 <!-- Admin and Setup -->
 
