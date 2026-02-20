@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 2%
@@ -83,7 +83,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Gestion d’une vue de liste {#manage-a-list-view}
 
-Pour plus d’informations sur la gestion des vues de liste dans Workfront, voir [&#x200B; Utilisation de listes améliorées &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Pour plus d’informations sur la gestion des vues de liste dans Workfront, voir [ Utilisation de listes améliorées ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 {{step1-to-planning}}
 
@@ -92,6 +92,8 @@ Pour plus d’informations sur la gestion des vues de liste dans Workfront, voir
 1. Ajoutez une **page Enregistrements connectés** pour les projets connectés, comme décrit dans l’article [Ajouter une page Enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
    La page Enregistrements connectés affiche les projets connectés à l’enregistrement dans la vue Liste.
+
+   <!--add new screen shot when they release Row colors/ special formatting for rows-->
 
    ![Projets sur la page des enregistrements connectés dans la vue Liste](assets/projects-on-connected-records-page-list-view.png)
 
@@ -108,10 +110,12 @@ Pour plus d’informations sur la gestion des vues de liste dans Workfront, voir
 
       >[!NOTE]
       >
-      >Vous devez disposer d’autorisations de niveau Gérer sur une vue pour pouvoir la modifier, la partager ou la supprimer.
+      >* Vous devez disposer d’autorisations de niveau Gérer sur une vue pour pouvoir la modifier, la partager ou la supprimer.
       >
-      >Vous ne pouvez pas modifier les vues système.
+      >* Vous ne pouvez pas modifier les vues système.
       >
+      <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        -->
    1. Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-icon.png) pour ajouter un filtre à la vue. Les résultats sont immédiatement filtrés dans la liste. Vous ne pouvez pas enregistrer ni nommer les filtres. Les filtres sont mémorisés lorsque vous accéderez à la page ultérieurement et ils font partie des vues partagées.
    1. Cliquez sur l’icône **Colonnes** ![Icône Colonnes](assets/columns-icon.png) pour sélectionner les colonnes à afficher ou à masquer dans la vue.
    1. Pointez sur le nom d’une colonne, puis cliquez sur la flèche vers le bas située à gauche du nom de la colonne, puis cliquez sur l’une des options suivantes :
@@ -123,7 +127,30 @@ Pour plus d’informations sur la gestion des vues de liste dans Workfront, voir
 
       Vous ne pouvez ajouter que des champs existants à la vue Liste.
 Vous ne pouvez pas supprimer le champ principal dans la vue Liste qui s’affiche dans la première colonne.
+
+
+   <!--
+    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+        <span class="preview">Do the following: </span>
+        <div class="preview">
+        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+            >[!TIP]
+            >
+            >Only field visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the If area to add more conditions. 
+        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
+        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
+        1. Click on the color circle to expand and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+        1. (Optional) Click **Clear all** to remove all formatting.
+            The formatting is applies immediately.
+        1. Click outside the **Format** box to close it. 
+            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+        </div>
+    -->
+
 1. (Facultatif) Ajoutez un mot-clé dans la zone de recherche située dans le coin supérieur droit de la liste pour rechercher un élément.
+
 
    Les éléments qui correspondent à votre terme de recherche sont mis en surbrillance dans la liste.
 1. (Facultatif) Pour ajouter d’autres éléments à la liste et les connecter automatiquement à l’enregistrement sélectionné, effectuez l’une des opérations suivantes :

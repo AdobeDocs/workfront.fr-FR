@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,8 @@ Voici les caractéristiques des voies globales :
 
 * **Règle** : ces champs sont partagés et obligatoires.
 
+Pour plus d’informations, voir [Présentation du type d’enregistrement de l’espace de travail](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 ### Les terrains de jeux locaux (ou les « rayons »)
 
 Voici les caractéristiques des terrains de jeux locaux
@@ -171,6 +173,8 @@ Utilisez plutôt le chemin de maturité du champ suivant pour permettre à l’u
 * **Niveau 2 : reconnaissance des motifs** : l’administrateur ou l’administratrice remarque que les équipes B et C utilisent ou demandent un champ similaire.
 
 * **Niveau 3 : normalisation de l’entreprise** : l’administrateur crée une version unique et normalisée de ce champ en tant que type d’enregistrement dans le Workspace de taxonomie globale et la synthétise avec les équipes.
+
+  Pour plus d’informations, voir [Présentation du type d’enregistrement de l’espace de travail](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ### Comment supprimer des champs
 
@@ -334,6 +338,8 @@ Voici des exemples de ce qu’une liste de contrôle doit inclure :
 * [ ] **Accorder une visibilité globale** : donnez-leur un accès en lecture seule aux espaces de travail de Principal appropriés et à l’espace de travail de taxonomie globale le jour 1.
 
 * [ ] **Établir la remise** : comment leur travail alimente-t-il les espaces de travail de Principal pertinents ? Par exemple, leur travail peut être intégré aux espaces de travail de Principal appropriés via un type d’enregistrement global ou un champ de recherche spécifique.
+
+  Pour plus d’informations sur les types d’enregistrements globaux, voir [Présentation des types d’enregistrements de l’espace de travail](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 <!--original content: 
 

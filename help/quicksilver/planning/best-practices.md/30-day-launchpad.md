@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,8 @@ Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilv
 Grâce à cette architecture Team-First, vous pouvez :
 
 * **Concevez le hub pour prendre en charge le rayon :** vous pouvez concentrer l’espace de travail de classification globale spécifiquement sur les objets qui comptent le plus pour votre équipe pilote (leurs marques ou produits spécifiques). Cela renforce l’association entre la gouvernance d’entreprise et l’autonomie de l’équipe tout en maintenant la gestion de l’effort de conception.
+
+  Pour plus d’informations, voir [Présentation du type d’enregistrement de l’espace de travail](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * **Agissez en tant que facilitateur et non en tant que gardien :** passez de l’établissement de règles au renforcement des capacités. Faites équipe avec l’équipe pour structurer leur environnement de planification.
 
