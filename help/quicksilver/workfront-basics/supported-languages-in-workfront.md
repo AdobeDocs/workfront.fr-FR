@@ -6,10 +6,10 @@ description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe W
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 976cfce04c2dd4526265f9427007b97a768c8d6a
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
@@ -26,11 +26,11 @@ Workfront prend en charge les langues suivantes :
 * Anglais (en-US)
 * Français (fr-FR)
 * Allemand (de-DE)
-* Japonais (ja)
-* Espagnol (es)
-* Italien (it_IT)
+* Japonais (ja-JP)
+* Espagnol (es-ES)
+* Italien (it-IT)
 * Portugais (pt-BR)
-* Coréen (ko)
+* Coréen (ko-KR)
 * Chinois - simplifié (zh-CN)
 * Chinois - traditionnel (zh-TW)
 
