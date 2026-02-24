@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 793419db3e9552e2e425aec26300b8c2b4ab8583
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 62%
+source-wordcount: '1133'
+ht-degree: 59%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 62%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -38,7 +38,7 @@ ht-degree: 62%
 
 Si un utilisateur ou une utilisatrice quitte l’organisation, il est recommandé de le désactiver dans le système afin d’éviter toute confusion pour les autres utilisateurs et utilisatrices lors de son ajout à des mises à jour ou de son affectation à des tâches. Lorsque vous désactivez une personne, les autres utilisateurs ou utilisatrices ne voient plus son nom lorsqu’ils ou elles recherchent des personnes dans le système.
 
-Les administrateurs ou administratrices peuvent voir les personnes inactives dans la zone Configuration.
+Les administrateurs et administratrices peuvent voir les personnes inactives dans la zone Configuration.
 
 Vous pouvez réactiver une personne à tout moment.
 
@@ -49,6 +49,8 @@ Vous pouvez réactiver une personne à tout moment.
 >* La désactivation d’une personne dans Workfront supprime ses licences sur Workfront et la relecture numérique. En outre, cette personne ne peut plus se voir affecter de travail. Lorsqu’une personne est désactivée, sa licence Workfront et sa licence de relecture deviennent disponibles pour un autre utilisateur ou une autre utilisatrice. Toutes les autres informations du profil de la personne désactivée restent inchangées.
 >
 >* La désactivation d’un utilisateur dans Workfront ne le supprime pas du profil de produit Workfront dans Adobe Admin Console. Pour plus d’informations, voir [Supprimer des utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* Si un utilisateur fait partie d’un ou de plusieurs groupes d’utilisateurs Admin Console et que le profil de produit a été ajouté à un ou plusieurs de ces groupes d’utilisateurs, la désactivation de l’utilisateur de Workfront ne le supprimera pas du produit. L’utilisateur doit être supprimé du ou des groupes d’utilisateurs dans Admin Console.
 
 
 ## Conditions d’accès
@@ -60,7 +62,7 @@ Vous pouvez réactiver une personne à tout moment.
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
