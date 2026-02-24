@@ -4,7 +4,7 @@ description: Adobe Workfront offre une version d’essai gratuite d’Adobe Work
 hidefromtoc: true
 hide: true
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 6863bc640eb401042797cfd47872fb658a2fbbae
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1490'
 ht-degree: 2%
@@ -161,12 +161,12 @@ Pour examiner et accepter l’accord juridique et accepter de commencer le proc�
 1. (Conditionnel) Connectez-vous à Adobe Workfront en tant qu’administrateur système.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
+   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
 
    * Accédez à la zone **Notifications Workfront** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning.
 1. Cliquez sur **Consulter le contrat d’évaluation**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
 1. Cliquez sur **Accepter** après avoir consulté le contrat.
-1. (Conditionnel) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
+1. (Conditionnel) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’évaluation de Workfront Planning ****, puis cliquez sur **En savoir plus**.
 
    Pour en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning, consultez cet article.
 
@@ -180,7 +180,7 @@ Pour examiner et accepter l’accord juridique et accepter de commencer le proc�
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
+   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
 
    * Accédez à la zone **Notifications Workfront** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning
 
@@ -196,10 +196,10 @@ Pour examiner et accepter l’accord juridique et accepter de commencer le proc�
    * En tant qu’administrateur système, vous recevez un accès de niveau Gérer à l’onglet **Exemples d’espaces de travail** dans la zone Planification .
    * Les utilisateurs standard bénéficient d&#39;un accès en affichage à l&#39;onglet **Exemples d&#39;espaces de travail** de Planning et peuvent créer leurs propres espaces de travail, types d&#39;enregistrements, enregistrements, champs et vues et les partager avec d&#39;autres utilisateurs.
    * Tous les autres utilisateurs reçoivent un accès en lecture seule à l’onglet **Exemples d’espaces de travail** dans la zone Planning et peuvent accéder à d’autres espaces de travail lorsque d’autres personnes les partagent avec eux.
-1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
+1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning ****, puis cliquez sur **En savoir plus**.
 
    Pour en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning, consultez cet article.
-1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système a accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**&#x200B;et cliquez sur **Ouvrir l&#39;évaluation**.
+1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système a accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **** et cliquez sur **Ouvrir l&#39;évaluation**.
 
    Commencez à explorer l’onglet **Exemples d’espaces de travail** et passez en revue, utilisez ou partagez des espaces de travail partagés avec vous.
 
@@ -247,7 +247,7 @@ You can review sample Planning workspaces and their objects as well as create yo
     >
     >Standard license users can create workspaces that will display in the **Workspaces** area.
 
-1. Click **Generate with AI** to let the AI Assistant build a workspace for you, based on your specifications.
+1. Click **Generate with AI** to let the AI Assistant build a workspace for you, based on your specifications. (**********have they changed the button to Generate or is it Create???*********)
 
     For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
@@ -288,7 +288,14 @@ You can review sample Planning workspaces and their objects as well as create yo
         For information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
 
     For additional information about how to implement Workfront Planning and how to create a center of governance for it, see the section [Additional information about Workfront Planning](#additional-information-about-workfront-planning) in this article.
+1. (Optional) To edit the workspace you created, do one of the following: 
 
+    * Open the workspace and manually make changes to it. 
+    
+        For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI** next to the workspace name to open the **Planning Designer** and use AI to make further changes to the workspace. 
+
+        For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 1. (Optional) To remove the Planning area from the Main Menu for users, customize the the Layout Templates assigned to the users and remove it from the **Set Main Menu** area of the Layout Template. 
 
     For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
