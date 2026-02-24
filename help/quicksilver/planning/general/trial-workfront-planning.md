@@ -161,12 +161,12 @@ Pour examiner et accepter l’accord juridique et accepter de commencer le proc�
 1. (Conditionnel) Connectez-vous à Adobe Workfront en tant qu’administrateur système.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
+   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
 
    * Accédez à la zone **Notifications Workfront** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning.
 1. Cliquez sur **Consulter le contrat d’évaluation**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
 1. Cliquez sur **Accepter** après avoir consulté le contrat.
-1. (Conditionnel) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’évaluation de Workfront Planning ****, puis cliquez sur **En savoir plus**.
+1. (Conditionnel) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
 
    Pour en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning, consultez cet article.
 
@@ -180,7 +180,7 @@ Pour examiner et accepter l’accord juridique et accepter de commencer le proc�
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
+   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
 
    * Accédez à la zone **Notifications Workfront** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning
 
@@ -196,10 +196,10 @@ Pour examiner et accepter l’accord juridique et accepter de commencer le proc�
    * En tant qu’administrateur système, vous recevez un accès de niveau Gérer à l’onglet **Exemples d’espaces de travail** dans la zone Planification .
    * Les utilisateurs standard bénéficient d&#39;un accès en affichage à l&#39;onglet **Exemples d&#39;espaces de travail** de Planning et peuvent créer leurs propres espaces de travail, types d&#39;enregistrements, enregistrements, champs et vues et les partager avec d&#39;autres utilisateurs.
    * Tous les autres utilisateurs reçoivent un accès en lecture seule à l’onglet **Exemples d’espaces de travail** dans la zone Planning et peuvent accéder à d’autres espaces de travail lorsque d’autres personnes les partagent avec eux.
-1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning ****, puis cliquez sur **En savoir plus**.
+1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
 
    Pour en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning, consultez cet article.
-1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système a accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **** et cliquez sur **Ouvrir l&#39;évaluation**.
+1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système a accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**&#x200B;et cliquez sur **Ouvrir l&#39;évaluation**.
 
    Commencez à explorer l’onglet **Exemples d’espaces de travail** et passez en revue, utilisez ou partagez des espaces de travail partagés avec vous.
 

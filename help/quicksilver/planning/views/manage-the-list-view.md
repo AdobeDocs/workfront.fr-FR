@@ -83,7 +83,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Gestion d’une vue de liste {#manage-a-list-view}
 
-Pour plus d’informations sur la gestion des vues de liste dans Workfront, voir [ Utilisation de listes améliorées ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Pour plus d’informations sur la gestion des vues de liste dans Workfront, voir [&#x200B; Utilisation de listes améliorées &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 {{step1-to-planning}}
 
