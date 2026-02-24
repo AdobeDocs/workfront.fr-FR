@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 93%
+source-wordcount: '1468'
+ht-degree: 94%
 
 ---
 
@@ -39,7 +39,7 @@ En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez cr�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -63,21 +63,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 {{step-1-to-setup}}
 
 1. Cliquez sur **Niveaux d’accès** dans le panneau de gauche.
-1. &#x200B;
-   * Dans l’environnement de production :
-Sélectionnez le niveau d’accès à copier et à personnaliser, puis cliquez sur **Copier**.
+1. Sélectionnez le niveau d’accès à copier et à personnaliser, puis cliquez sur l’icône **Copier** ![Copier](assets/copy-icon.png).
 
-     Ou
+   Ou
 
-     Si vous modifiez un niveau d’accès existant (que vous avez copié précédemment), cliquez sur son nom.
-
-   * <span class="preview">Dans l’environnement de prévisualisation :</span>
-
-     <span class="preview">Sélectionnez le niveau d&#39;accès que vous souhaitez copier et personnaliser, puis cliquez sur l&#39;icône **Copier** ![Copier](assets/copy-icon.png). </span>
-
-     <span class="preview">Ou </span>
-
-     <span class="preview">Si vous modifiez un niveau d&#39;accès existant, sélectionnez-le en cliquant sur la case à gauche de ce niveau d&#39;accès, puis cliquez sur l&#39;icône **Modifier** ![Modifier](assets/edit-icon.png). </span>
+   Si vous modifiez un niveau d&#39;accès existant, sélectionnez-le en cliquant sur la case à gauche de ce niveau, puis cliquez sur l&#39;icône **Modifier** ![Modifier](assets/edit-icon.png).
 
 1. Dans la zone qui s’affiche, effectuez l’une des opérations suivantes pour commencer à configurer le niveau d’accès personnalisé :
 
@@ -115,7 +105,7 @@ Sélectionnez le niveau d’accès à copier et à personnaliser, puis cliquez s
       <td>Ajoutez de nouvelles entreprises et modifiez les entreprises existantes dans Workfront.<br><p>Sans cet accès, les utilisateurs et utilisatrices peuvent uniquement afficher les entreprises existantes.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Formulaires personnalisés dans mon groupe</td> 
+      <td role="rowheader">Formulaires personnalisés</td> 
       <td>Créez et gérez tous les formulaires personnalisés de leur groupe. <br><p>Sans cet accès, les personnes peuvent uniquement joindre des formulaires existants aux objets auxquels elles disposent d’un accès en contribution ou en gestion.</p></td> 
      </tr> 
      <tr> 
