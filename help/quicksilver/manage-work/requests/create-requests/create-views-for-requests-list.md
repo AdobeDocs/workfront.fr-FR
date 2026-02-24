@@ -5,16 +5,24 @@ title: Créer et gérer des vues dans la zone des Demandes
 description: Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes.
 author: Becky
 feature: Work Management
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
+source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '689'
 ht-degree: 7%
 
 ---
 
+
 # Créer et gérer des vues dans la zone des Demandes
 
-Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes. Ces vues incluent des filtres et des dispositions de colonnes.
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
+
+Si vous utilisez la nouvelle expérience de demande, vous pouvez créer et enregistrer des vues pour la zone des Demandes. Ces vues incluent des filtres et des dispositions de colonnes. <!--<span class="preview"> and groupings.</span> -->
 
 Les vues peuvent être créées et gérées dans la zone des Demandes de Workfront.
 
@@ -58,7 +66,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Créer une vue dans la zone des Demandes
+## Création d’une vue pour les requêtes
 
 Vous pouvez créer une vue dans la zone des Demandes de Workfront,.
 
@@ -73,7 +81,7 @@ Vous pouvez créer une vue dans la zone des Demandes de Workfront,.
 1. Saisissez le nom de la nouvelle vue, puis cliquez sur **Créer**.
 1. Passez à [Modifier une vue dans la zone des Demandes](#edit-a-view-in-the-requests-area).
 
-## Modifier une vue dans la zone des Demandes
+## Modification d’une vue pour les requêtes
 
 Vous pouvez modifier les vues existantes, y compris les vues que vous venez de créer.
 
@@ -110,6 +118,10 @@ Vous pouvez modifier les vues existantes, y compris les vues que vous venez de c
 La liste des demandes est automatiquement filtrée à mesure que vous ajoutez les conditions de filtrage.
 
 
+<!--
+1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -136,4 +148,3 @@ Vous pouvez partager les vues que vous créez avec d&#39;autres utilisateurs, é
 1. Sélectionnez **Partager**.
 1. Dans la boîte de dialogue qui s’ouvre, saisissez les noms des utilisateurs, des équipes ou des groupes avec lesquels vous souhaitez partager la vue, puis sélectionnez-les dans la liste lorsqu’ils apparaissent.
 1. Cliquer sur **Enregistrer**.
-
