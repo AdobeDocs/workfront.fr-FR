@@ -5,10 +5,10 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 98%
+source-wordcount: '1216'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ An example of how this can be used would be helpful here and/or in the section <
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -100,7 +100,8 @@ Pour plus d’informations sur la création d’un modèle d’e-mail, consultez
         <ul> 
          <li> <p>Les notifications de rappel démarrent 24 heures après la date spécifiée et une fois tous les critères satisfaits.</p> </li> 
          <li> <p>Les notifications de rappel liées à des projets, des tâches et à des problèmes se déclenchent toutes les nuits à minuit, heure des Rocheuses. Tous les objets qui remplissent les critères d’une notification de rappel de ce jour déclenchent une notification aux personnes désignées peu de temps après cette heure.</p> </li> 
-         <li> <p>Les notifications de rappel liées aux feuilles de temps sont envoyées à l’heure spécifiée selon votre fuseau horaire et la date de fin, la date de début ou la date de dernière mise à jour de la feuille de temps.</p> </li> 
+         <li> <p>Les rappels de feuille de temps sont basés sur le fuseau horaire de votre entreprise et la date de fin, de début ou de dernière mise à jour de la feuille de temps. Les fuseaux horaires de chaque utilisateur n’affectent pas la durée des notifications de rappel.</p> 
+      </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -173,4 +174,4 @@ Pour déclencher manuellement une notification de rappel :
 
    Les personnes désignées dans la notification de rappel reçoivent un e-mail.
 
-![&#x200B; Test de notification de rappel &#x200B;](assets/reminder-test.png)
+![ Test de notification de rappel ](assets/reminder-test.png)
