@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
+source-git-commit: 3afa0fbfb8a82a7dc1a2e9c65d04aa1be7b6f1f8
 workflow-type: tm+mt
-source-wordcount: '3387'
-ht-degree: 93%
+source-wordcount: '3190'
+ht-degree: 97%
 
 ---
 
@@ -919,92 +919,6 @@ Vous pouvez également utiliser des filtres doublement imbriqués.
 "filterConnector": 'AND'
 ```
 
-### Utilisation de groupes de filtres (filtres combinés)
-
-Les abonnements aux événements prennent en charge les groupes de filtres, ainsi que les filtres standard pour prendre en charge les conditions logiques imbriquées.
-
-Les groupes de filtres vous permettent de créer des conditions logiques imbriquées (AND/OR) dans vos filtres d’abonnement aux événements.
-
-Chaque groupe de filtres peut avoir :
-
-* Son propre connecteur : `AND` ou `OR`
-* Plusieurs filtres, chacun respectant la même syntaxe et le même comportement que les filtres autonomes
-
-Tous les filtres d’un groupe prennent en charge :
-
-* Opérateurs de comparaison : `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `contains`, `notContains`, `containsOnly`, `changed`
-* Options d’état : `newState`, `oldState`
-* Ciblage du champ : tout nom de champ d’objet valide
-
-Un groupe doit contenir au moins 2 filtres
-
-```
-{
-  "objCode": "TASK",
-  "eventType": "UPDATE",
-  "authToken": "token",
-  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
-  "filters": [
-    {
-      "fieldName": "percentComplete",
-      "fieldValue": "100",
-      "comparison": "lt"
-    },
-    {
-      "type": "group",
-      "connector": "OR",
-      "filters": [
-        {
-          "fieldName": "status",
-          "fieldValue": "CUR",
-          "comparison": "eq"
-        },
-        {
-          "fieldName": "priority",
-          "fieldValue": "1",
-          "comparison": "eq"
-        }
-      ]
-    }
-  ],
-  "filterConnector": "AND"
-}
-```
-
-Cet exemple montre :
-
-
-* Filtre de niveau supérieur (hors du groupe) :
-
-  { « `fieldName` »: « `percentComplete` », « `fieldValue` »: « `100` », « `comparison` »: « `lt` » }
-
-  Ce filtre vérifie que le champ percentComplete de la tâche mise à jour est inférieur à 100.
-
-* Groupe de filtres (filtres imbriqués avec `OR`) :
-
-  { « `type` »: « `group` », « `connector` »: « `OR` », « `filters` »: [{ « `fieldName` »: « `status` », « `fieldValue` »: « `CUR` », « `comparison` »: « `eq` » }, { « `fieldName` »: « `priority` », « `fieldValue` »: « `1` », « `comparison` »: « `eq` »: « ] » }}
-
-  Ce groupe évalue deux filtres internes :
-
-   * Le premier vérifie si le statut de la tâche est « CUR » (en cours).
-
-   * Le second vérifie si la priorité est égale à « 1 » (priorité élevée).
-
-  Comme le connecteur est « OR », ce groupe est validé si l’une des conditions est vraie.
-
-* Connecteur de niveau supérieur (filterConnector : `AND`) :
-
-  Le connecteur le plus à l’extérieur entre les filtres de niveau supérieur est `AND`.
-
-  Cela signifie que le filtre de niveau supérieur et le groupe doivent être validés pour que l’événement corresponde.
-
-* L’abonnement se déclenche lorsque :
-
-  Le percentComplete est inférieur à 100
-
-  ET
-
-  Le statut est « CUR » OU la priorité est égale à « 1 ».
 
 #### Performances et limites
 
