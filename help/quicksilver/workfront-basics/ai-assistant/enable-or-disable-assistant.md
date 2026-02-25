@@ -5,16 +5,18 @@ description: Vous pouvez contrôler les niveaux d’accès de votre organisation
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 21%
+source-wordcount: '308'
+ht-degree: 14%
 
 ---
 
 # Activer ou désactiver l’assistant IA.
 
 En tant qu’administrateur ou administratrice Workfront, vous pouvez contrôler quels utilisateurs et utilisatrices de votre organisation ont activé l’assistant AI. Cela est géré par le biais de niveaux d’accès.
+
+Vous devez activer l’assistant AI pour votre organisation avant de pouvoir l’activer pour un niveau d’accès.
 
 ## Conditions d’accès
 
@@ -44,7 +46,22 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Activation ou désactivation de l’assistant AI dans Workfront
+## Activer ou désactiver l’assistant d’IA pour votre organisation
+
+Pour activer l’assistant d’IA pour votre entreprise :
+
+{{step-1-to-setup}}
+
+1. Sélectionnez **Système** dans le volet de navigation de gauche, puis sélectionnez **Préférences**.
+1. Faites défiler l’écran jusqu’à la section **Préférences IA**.
+1. Activez le bouton bascule **Activer l’IA**.
+
+>[!IMPORTANT]
+>
+>Vous devez disposer d’un accord Gen AI signé enregistré avec Adobe avant de pouvoir utiliser l’assistant AI.
+>Pour plus d’informations sur le contrat Gen AI, consultez la section [Signer le contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) dans l’article Assistant AI de Workfront.
+
+## Activer ou désactiver l’assistant AI pour un niveau d’accès
 
 Pour activer l’assistant AI pour un niveau d’accès donné :
 
