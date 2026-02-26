@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
+source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 20%
+source-wordcount: '348'
+ht-degree: 16%
 
 ---
 
@@ -18,15 +18,19 @@ Cette page décrit les améliorations apportées par l’administrateur à l’e
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2026, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Réduire la section de formulaire personnalisé par défaut
 
+Par défaut, toutes les sections d’un formulaire personnalisé sont développées lorsque le formulaire lui-même est développé. Une nouvelle option du concepteur de formulaire personnalisé vous permet de marquer une section à réduire par défaut lorsqu’un utilisateur ouvre le formulaire. Cette option est appliquée au niveau de la section, et non des champs.
+
+Pour plus d’informations, voir [Organisation et prévisualisation d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Le type de champ Rich Text est désormais disponible sur les formulaires personnalisés
 
 >[!NOTE]
 >
 >Aperçu : 29 janvier 2026
->Version rapide de production : 12 février 2026
->Production pour tous : 16 avril 2026
+>Version rapide de production : à déterminer
+>Production pour tous : à déterminer
 >
 >Cette fonctionnalité a été temporairement supprimée de l’environnement de production le 13 février 2026.
 
