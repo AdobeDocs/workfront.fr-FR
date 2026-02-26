@@ -5,14 +5,16 @@ description: Les listes améliorées utilisent un format de tableau pour affiche
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ee5bb3cbf6a69b85c3d6b87500164f85a1ba114a
+source-git-commit: 2b01a9b4c697ae814ff894120fcc61df1a461e4e
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 5%
+source-wordcount: '2342'
+ht-degree: 3%
 
 ---
 
-# Utiliser des listes améliorées
+# Utiliser les listes améliorées
+
+{{preview-fast-release-general}}
 
 Des listes améliorées sont disponibles dans certaines parties d’Adobe Workfront. Ces listes utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard. La gestion des vues est également améliorée, notamment le filtrage, le regroupement, la gestion des colonnes et la recherche.
 
@@ -37,7 +39,7 @@ Pour plus d’informations sur les listes standard, voir [Prise en main des list
   <tr> 
    <td>Licence Adobe Workfront</td> 
    <td>
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p></td>
   </tr>
  </tbody> 
@@ -56,10 +58,11 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 >Cette liste n’est pas exhaustive. Chacune de ces listes d’objets peut également apparaître dans un rapport ou un tableau de bord. Par exemple, un rapport de requête ou un tableau de bord contenant un rapport de requête affiche également une liste de requêtes.
 
 | Liste Workfront | Emplacement de la liste d’objets |
-|--- |--- |
+| --- | --- |
 | Priorités | <ul><li>Accueil > sélectionnez l’icône Priorités dans le menu de gauche</li><li>Menu principal > Priorités</li></ul> |
 | Liste des requêtes | <ul><li>Demandes (nouvelle expérience uniquement)</li><li>Widget Mes demandes sur l’Accueil</li></ul> |
 | Listes de statuts, priorités, gravités et taux de change dans la configuration | <ul><li>Configuration > Préférences du projet > Statuts</li><li>Configuration > Préférences du projet > Priorités</li><li>Configuration > Préférences du projet > Gravités</li><li>Configuration > Préférences du projet > Taux de change</li></ul> |
+| <span class="preview">Liste des rapports</span> | <span class="preview">Menu principal > Rapports</span> <p><span class="preview">Le format de liste amélioré n’est appliqué que lorsque l’option **Utiliser des dossiers partageables** est activée. Pour plus d’informations, voir [Utilisation de dossiers de rapports partageables](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |
 
 ## Ajouter des éléments à une liste améliorée
 
@@ -88,7 +91,7 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    >
    >Chaque type de champ possède ses propres options de modification. Certains champs peuvent être en lecture seule.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
 ## Modifier les éléments à l’aide de la barre d’actions
 
@@ -110,7 +113,7 @@ Vous pouvez utiliser la barre d’actions d’une liste améliorée pour modifie
 
    Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
+   ![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
 
 1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur le menu **Plus** ![icône de menu Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
 
@@ -141,6 +144,18 @@ Selon les objets que vous consultez dans une liste améliorée, vous pouvez masq
 
    ![Indicateur des colonnes masquées](assets/glist-columns-hidden-indicator.png)
 
+### Renommer les colonnes
+
+Certaines colonnes vous permettent d’enregistrer un nom personnalisé pour le titre de la colonne.
+
+1. Pointez sur la colonne, puis cliquez sur la flèche vers le bas et sélectionnez **Renommer**.
+
+   ![Sélectionnez Renommer sur la colonne](assets/glist-rename-or-sort-column.png)
+
+1. Dans la boîte de dialogue **Renommer**, saisissez le nom de la colonne dans le champ **Libellé personnalisé**, puis cliquez sur **Enregistrer**.
+
+   Le nouveau nom de colonne apparaît dans la liste.
+
 ## Ajouter et supprimer des colonnes à l’aide du gestionnaire de colonnes
 
 Vous pouvez utiliser le **Gestionnaire de colonnes** dans certaines listes améliorées pour ajouter et supprimer facilement des colonnes de la liste. Vous pouvez ajouter ou supprimer des champs système et personnalisés qui existent déjà dans Workfront sous forme de colonnes à une liste améliorée.
@@ -163,51 +178,44 @@ Pour ajouter et supprimer des colonnes :
 
    La liste met à jour les colonnes en fonction des choix que vous avez effectués.
 
-## Affichage des données avec des vues dans une liste améliorée
+## Mise à jour des éléments de liste améliorés
 
-Une vue est un ensemble personnalisé de dispositions de colonnes et de filtres que vous pouvez appliquer à une liste. Vous pouvez créer des vues et modifier des vues existantes.
+Les éléments suivants sont des composants d’une liste améliorée :
+
+* Vue : définit les colonnes, filtres et regroupements de la liste avec des paramètres prédéfinis
+* Filtres : limite la quantité d’informations affichées dans la liste.
+* Regroupements : organisez les éléments de la liste en fonction de champs communs
+* Trier : organise les éléments d’une liste selon l’ordre que vous avez identifié pour un champ donné
+* Rechercher : permet de trouver rapidement un élément à l’aide d’un mot-clé de recherche.
 
 ### Application et création de vues
 
-Pour appliquer une vue, cliquez sur la liste déroulante **Vues** et sélectionnez la vue à appliquer à la liste.
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
 
-Pour créer une vue :
+Pour appliquer ou créer une vue :
 
-1. Cliquez sur la liste déroulante **Vues** et sélectionnez **Nouvelle vue**.
-1. Attribuez un nom à la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
-1. (Facultatif) Filtrez et regroupez les éléments de liste. Pour plus d’informations, voir [Filtrer et regrouper des éléments dans une liste améliorée](#filter-and-group-items-in-an-enhanced-list).
+1. Cliquez sur le menu déroulant **Vues** et sélectionnez une vue existante pour l’appliquer à la liste
 
-   Les modifications apportées aux vues sont enregistrées automatiquement et sont visibles par toute personne utilisant la vue.
+   OU
 
-   La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
+   Cliquez sur **Nouvelle vue** pour en créer une.
 
-### Partager une vue
+1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [ Filtrer les éléments dans une liste améliorée ](#filter-items-in-an-enhanced-list).
+1. (Facultatif) Regroupez les éléments de la liste. Pour plus d’informations, voir [Regrouper des éléments dans une liste améliorée](#group-items-in-an-enhanced-list).
 
-Dans la liste déroulante **Vues**, vous pouvez voir trois catégories de vues :
+   Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
 
-* **Vues système** : vues que l&#39;administrateur système vous a affectées.
-* **Vues partagées** : vues qui ont été partagées avec vous par d&#39;autres utilisateurs.
-* **Mes vues** : vues que vous avez créées et que vous pouvez partager avec d’autres utilisateurs. Vous pouvez partager des vues avec d’autres utilisateurs, équipes ou groupes.
+### Filtrer les éléments dans une liste améliorée
 
-Pour partager une vue :
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
 
-1. Dans la liste déroulante **Vues**, passez la souris sur la vue de **Mes vues** que vous souhaitez partager, puis cliquez sur le menu à trois points lorsqu’il s’affiche.
-1. Sélectionnez **Partager**.
-1. Dans la boîte de dialogue Partager, saisissez les noms des utilisateurs, des équipes ou des groupes avec lesquels vous souhaitez partager la vue, puis sélectionnez-les dans la liste lorsqu’ils apparaissent.
-
-   Vous pouvez accorder les autorisations suivantes aux destinataires :
-
-   * **Affichage** : les utilisateurs et utilisatrices peuvent appliquer l’affichage à la liste, mais pas le partager.
-   * **Gérer** : les utilisateurs et utilisatrices peuvent renommer la vue, la partager avec d’autres personnes et la supprimer.
-
-1. Cliquer sur **Enregistrer**.
-
-## Filtrer et regrouper des éléments
-
-Les filtres vous aident à réduire la quantité d’informations que vous affichez dans la liste. Les regroupements permettent de séparer les objets de la liste dans des zones selon des critères spécifiques.
-
-### Utiliser des filtres
+Les filtres vous aident à réduire la quantité d’informations que vous affichez dans la liste.
 
 1. Cliquez sur **Filtrer** au-dessus de la liste.
 1. Dans la zone Filtre, cliquez sur **Ajouter une condition**.
@@ -223,20 +231,32 @@ Les filtres vous aident à réduire la quantité d’informations que vous affic
    >
    >Pour appliquer un caractère générique à l’utilisateur actuel, sélectionnez **Moi (utilisateur connecté)** comme valeur du champ. Le filtre s’applique alors à l’utilisateur ou l’utilisatrice qui consulte la liste. Ce caractère générique est disponible dans les champs où la valeur est un utilisateur.
 
-1. Cliquez sur **Ajouter une condition** pour ajouter une autre condition au filtre sous la forme d’une instruction OR.
+1. Cliquez sur **Ajouter une condition** pour ajouter une autre condition au filtre.
+
+   Vous pouvez joindre plusieurs filtres à l’aide d’un connecteur ET ou OU.
+
 1. Lorsque le filtre est appliqué, vous pouvez ouvrir à nouveau les options **Filtre** pour modifier les options de filtre ou effacer tous les filtres.
 
    Un indicateur apparaît sur le bouton **Filtrer** lorsqu&#39;un filtre est appliqué à la liste.
 
    ![Indicateur de filtre appliqué](assets/glist-filter-applied-indicator.png)
 
-### Utiliser les regroupements
+### Regrouper les éléments dans une liste améliorée
+
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+Les regroupements séparent les objets de la liste en zones selon des critères spécifiques.
+
+Workfront fournit un nombre limité de regroupements prédéfinis que vous ne pouvez pas modifier.
 
 1. Cliquez sur **Grouper** au-dessus de la liste.
 1. Sélectionnez un regroupement pour organiser votre liste.
 
    ![Sélectionner un regroupement](assets/glist-grouping-choose-a-group-by.png)
 
+1. Cliquez sur **Tout réduire** pour afficher la liste avec tous les regroupements réduits. L’option par défaut consiste à afficher la liste avec tous les regroupements développés.
 1. Lorsque le regroupement est appliqué, vous pouvez ouvrir à nouveau les options Regrouper pour réduire ou développer tous les regroupements à la fois, modifier le regroupement pour les regrouper selon un autre champ ou effacer tous les regroupements.
 
    ![Regroupement dans des listes améliorées](assets/glist-group-by-due-date-priorities.png)
@@ -245,11 +265,15 @@ Les filtres vous aident à réduire la quantité d’informations que vous affic
 
    ![Indicateur de groupement appliqué](assets/glist-grouping-applied-indicator.png)
 
-## Tri et recherche dans une liste améliorée
+### Tri dans une liste améliorée
+
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
 
 Pour trier des colonnes individuelles :
 
-1. Accédez à la colonne et cliquez sur la flèche vers le bas.
+1. Pointez sur la colonne, puis cliquez sur la flèche vers le bas et sélectionnez **Trier**.
 
    Une icône en regard d’un nom de colonne indique que la liste est triée en fonction des valeurs de cette colonne et du sens du tri.
 
@@ -261,12 +285,97 @@ Pour trier des colonnes individuelles :
 
 Pour trier votre travail dans un regroupement :
 
-1. Cliquez sur **Grouper** et choisissez si vous souhaitez effectuer un tri par ordre croissant ou décroissant.
+1. Cliquez sur **Grouper**, accédez à la ligne du regroupement appliqué, cliquez sur la liste déroulante de tri, puis sélectionnez un ordre croissant ou décroissant.
 
    ![Trier dans un regroupement](assets/sort-in-groups.png)
 
-Pour effectuer une recherche :
+### Recherche dans une liste améliorée
 
-1. Saisissez le terme à rechercher dans le champ de recherche situé au-dessus de la liste. Les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous saisissez.
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+1. saisissez un mot-clé à utiliser pour la recherche dans la zone Rechercher située dans le coin supérieur droit de la liste. Les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous saisissez.
 
    ![Terme de recherche mis en surbrillance](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >La recherche examine toutes les colonnes de tous les éléments de liste. Si la liste est longue, la recherche inclut des éléments que vous devrez peut-être faire défiler pour les voir. Lorsque la liste est filtrée, la recherche ne recherche que ce qui est actuellement affiché.
+
+### Partager une vue
+
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+Dans la liste déroulante **Vues**, vous pouvez voir trois catégories de vues :
+
+* **Vues système** : vues que l&#39;administrateur système vous a affectées. Vous ne pouvez pas partager de vues système.
+* **Vues partagées** : vues qui ont été partagées avec vous par d&#39;autres utilisateurs.
+* **Mes vues** : vues que vous avez créées et que vous pouvez partager avec d’autres utilisateurs. Vous pouvez partager des vues avec d’autres utilisateurs, équipes ou groupes.
+
+Lorsque vous partagez une vue, tous les éléments de vue (colonnes, filtres et regroupements) sont inclus.
+
+Pour partager une vue :
+
+1. Dans la liste déroulante **Vues**, pointez sur la vue de **Mes vues** que vous souhaitez partager, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Partager**.
+1. Dans la boîte de dialogue Partager, saisissez les noms des utilisateurs, des équipes, des groupes, des sociétés ou des fonctions avec lesquels vous souhaitez partager la vue, puis sélectionnez-les dans la liste lorsqu’ils apparaissent.
+
+   Vous pouvez accorder les autorisations suivantes aux destinataires :
+
+   * **Affichage** : les utilisateurs et utilisatrices peuvent appliquer l’affichage à la liste, mais pas le partager.
+
+     <span class="preview">Lorsque les utilisateurs disposant d’un accès en lecture seule mettent à jour la vue, ces modifications sont enregistrées dans les préférences personnelles de l’utilisateur. Un point bleu sur le nom de la vue (dans le **Vues partagées** de l’utilisateur) indique que des mises à jour personnelles sont appliquées à la vue.</span>
+
+   * **Gérer** : les utilisateurs et utilisatrices peuvent renommer, partager ou supprimer la vue, et modifier ses éléments.
+
+     <span class="preview">Lorsque les utilisateurs disposant d&#39;un accès de niveau Gérer apportent des modifications à la vue, tous les utilisateurs qui ont la vue partagée avec eux verront ces mises à jour lorsque la vue sera appliquée à la liste.</span>
+
+1. Cliquez sur **Enregistrer**.
+
+   <span class="preview">Si vous partagez une vue avec un utilisateur et que vous supprimez ensuite cet accès, la vue est supprimée de la **Vues partagées** de l&#39;utilisateur. Si la vue partagée est appliquée à la liste lorsque l’accès de l’utilisateur est supprimé, la vue système par défaut est appliquée.</span>
+
+<div class="preview">
+
+### Copier une vue
+
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+Lorsqu’une vue est partagée avec vous et que vous n’avez pas l’autorisation de la modifier, vous pouvez la copier et l’enregistrer sous un nouveau nom. Vous devez d&#39;abord apporter des modifications à la vue avant de pouvoir la copier.
+
+1. Dans la liste déroulante Vues, passez le curseur sur la vue dans **Vues partagées** que vous souhaitez copier, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Copier avec les préférences**.
+
+   Une nouvelle vue est créée automatiquement. Il utilise le nom de la vue d&#39;origine avec (copier) à la fin et il apparaît dans la section **Mes vues** des vues.
+
+   Vous êtes le propriétaire de cette vue et vous pouvez la renommer, la modifier, la partager ou la supprimer. Si le propriétaire de la vue d’origine supprime votre accès partagé à cette vue, vous avez toujours accès à cette vue que vous avez créée.
+
+   >[!NOTE]
+   >
+   >L’option **Copier avec les préférences** n’est disponible que lorsque vous avez apporté des modifications à une vue qui a été partagée avec vous.
+
+</div>
+
+<div class="preview">
+
+### Réinitialisation d’une vue
+
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+Lorsqu’une vue est partagée avec vous et que vous n’avez pas l’autorisation de la modifier et que vous la mettez à jour, vous pouvez la réinitialiser à la vue d’origine.
+
+1. Dans la liste déroulante **Vues**, passez le curseur sur la vue dans **Vues partagées** à réinitialiser, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis cliquez sur **Réinitialiser aux valeurs par défaut**.
+
+   Les éléments d’affichage (colonnes, filtres et regroupements) sont réinitialisés à leurs paramètres d’origine qui ont été partagés avec vous.
+
+   >[!NOTE]
+   >
+   >L&#39;option **Réinitialiser aux valeurs par défaut** n&#39;est disponible que lorsque vous avez apporté des modifications à une vue partagée avec vous.
+
+   ![Copier et réinitialiser des options d’affichage](assets/glist-copy-view-shared-with-you.png)
+
+</div>
