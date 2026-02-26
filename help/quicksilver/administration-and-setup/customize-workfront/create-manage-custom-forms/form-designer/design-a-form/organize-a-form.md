@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 796c7e0a15a7a26c5cd3f0115d72946f0f28bcf2
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 87%
+source-wordcount: '1353'
+ht-degree: 85%
 
 ---
 
 # Organisation et prévisualisation d’un formulaire
+
+{{preview-fast-release-general}}
 
 Vous pouvez organiser un formulaire personnalisé avec le concepteur de formulaires et le prévisualiser pour vérifier qu’il est correctement configuré.
 
@@ -28,7 +30,7 @@ Vous pouvez organiser un formulaire personnalisé avec le concepteur de formulai
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -81,6 +83,10 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
       <td role="rowheader">Description</td> 
       <td>Saisissez du texte si vous souhaitez expliquer aux utilisateurs et utilisatrices à quoi sert la section. Celui-ci s’affiche sous le libellé de la section sur le formulaire personnalisé.</td> 
      </tr> 
+      <td><span class="preview">Réduit par défaut</span></td>
+      <td><span class="preview">Par défaut, toutes les sections d’un formulaire personnalisé sont développées lorsque le formulaire lui-même est développé. Sélectionnez cette option pour que la section soit réduite par défaut lorsqu’un utilisateur ouvre le formulaire.</span></td>
+     <tr>
+     </tr>
      <tr> 
       <td role="rowheader"> <p>Accorder l’accès</p> </td> 
       <td> <p> Sélectionnez les autorisations dont les utilisateurs et les utilisatrices ont besoin sur un objet auquel le formulaire personnalisé est joint afin d’afficher cette section et de modifier ses valeurs de champ. 
