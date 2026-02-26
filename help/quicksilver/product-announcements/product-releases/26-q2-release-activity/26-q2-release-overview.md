@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 4c12d32523bcca10962b56d9abd5854e8400ce3f
+source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 55%
@@ -72,7 +72,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>vendredi 29 janvier 2026</p></td>
         <td><p>vendredi 12 février 2026</p>
             <p>Cette fonctionnalité a été temporairement supprimée de l’environnement de production le 13 février 2026.</p></td>
-        <td><p>vendredi 16 avril 2026</p></td>
+        <td><p>À déterminer</p></td>
     </tr>
     <tr>
         <td>
@@ -330,7 +330,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

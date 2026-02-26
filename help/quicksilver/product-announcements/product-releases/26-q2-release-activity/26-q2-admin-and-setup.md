@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
+source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 16%
+source-wordcount: '358'
+ht-degree: 19%
 
 ---
 
@@ -20,6 +20,12 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 ## Réduire la section de formulaire personnalisé par défaut
 
+>[!NOTE]
+>
+>Aperçu : 26 février 2026
+>Version rapide de production : vendredi 12 mars 2026
+>Production pour tous : vendredi 16 avril 2026
+
 Par défaut, toutes les sections d’un formulaire personnalisé sont développées lorsque le formulaire lui-même est développé. Une nouvelle option du concepteur de formulaire personnalisé vous permet de marquer une section à réduire par défaut lorsqu’un utilisateur ouvre le formulaire. Cette option est appliquée au niveau de la section, et non des champs.
 
 Pour plus d’informations, voir [Organisation et prévisualisation d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
@@ -29,7 +35,7 @@ Pour plus d’informations, voir [Organisation et prévisualisation d’un formu
 >[!NOTE]
 >
 >Aperçu : 29 janvier 2026
->Version rapide de production : à déterminer
+>Version rapide de production : vendredi 12 février 2026
 >Production pour tous : à déterminer
 >
 >Cette fonctionnalité a été temporairement supprimée de l’environnement de production le 13 février 2026.

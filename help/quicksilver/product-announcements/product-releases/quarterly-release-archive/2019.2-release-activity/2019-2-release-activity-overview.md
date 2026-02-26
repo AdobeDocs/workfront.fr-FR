@@ -7,16 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: baa50860-e23a-4be8-8192-f0400099294f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 100%
+source-wordcount: '1066'
+ht-degree: 98%
 
 ---
 
 # Vue d’ensemble de l’activité Version 2019.2
 
-Cette page fournit des informations sur les fonctionnalités incluses dans la version 2019.2. Pour télécharger ce contenu au format PDF, allez [ici](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+Cette page fournit des informations sur les fonctionnalités incluses dans la version 2019.2.<!-- To download this content in PDF format, go [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).-->
 
 >[!NOTE]
 >
@@ -41,7 +41,6 @@ La version 2019.2 contient des améliorations pour les administrateurs et admin
 ## Améliorations pour l’ensemble des utilisateurs et utilisatrices
 
 ### Amélioration apportées à la gestion des ressources.
-
 
 * [Nouveau niveau d’accès à la gestion des ressources](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#new)
 
@@ -150,7 +149,7 @@ La prise en charge de la version 3 de l’API a pris fin en novembre 2018. Pou
 
 ### Fin de la prise en charge de TLS {#tls-support-is-ending}
 
-Afin d’assurer une sécurité optimale, Workfront exige que toutes les intégrations et le trafic web utilisant TLS 1.0 ou une version antérieure soient mis à jour pour utiliser TLS 1.1 ou une version ultérieure. Cette modification est déjà en vigueur dans l’environnement de prévisualisation.
+Afin d’assurer une sécurité optimale, Workfront exige que toutes les intégrations et le trafic web utilisant TLS 1.0 ou une version antérieure soient mis à niveau pour utiliser TLS 1.1 ou une version ultérieure. Cette modification est déjà en vigueur dans l’environnement de prévisualisation.
 
 Pour plus d’informations, voir [TLS 1.2 requis dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
@@ -176,7 +175,7 @@ Les options d’authentification unique (SSO) suivantes ne sont désormais prise
 
   Pour plus d’informations sur l’utilisation de SAML 1.1 avec Workfront, voir [Configurer Adobe Workfront avec SAML 1.1](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
 
-Voici le calendrier de suppression de ces options d’authentification unique :
+Voici la chronologie de suppression de ces options d’authentification unique :
 
 * Prise en charge limitée : août 2018 - janvier 2019
 
