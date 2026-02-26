@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
+source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1777'
 ht-degree: 5%
 
 ---
 
 # Configurer des automatisations d’Adobe Workfront Planning
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -159,42 +159,37 @@ La page d’informations sur l’automatisation s’ouvre.
    * **Déclencheur** : sélectionnez une action qui déclenchera l’automatisation :
 
       * Clic sur bouton
-        <!--For Feb 26 and add Preview disclaimer at the top: * <span class="preview">Field value change</span>-->
+      * <span class="preview">Modification de la valeur du champ</span>
 
-   <!-- For Feb 26:
-   1. (Conditional) If you selected **Button click**, go to the step below that describes the **Actions** area. 
+   1. (Conditionnel) Si vous avez sélectionné **Clic sur un bouton**, passez à l’étape ci-dessous qui décrit la zone **Actions**.
 
-   1. <span class="preview">(Conditional) If you selected **Field value change**, do the following in the **Settings** section: </span>
+   1. <span class="preview">(Conditionnel) Si vous avez sélectionné **Modification de la valeur du champ**, procédez comme suit dans la section **Paramètres** : </span>
 
-      1. <span class="preview">Choose a field from the drop-down menu. These are fields associated with the record type you selected.</span> 
-      1. <span class="preview">Continue defining conditions for the selected field.</span>
-      1. <span class="preview">Click **Add condition** to add up to 5 fields and define their condition.</span>
+      1. <span class="preview">Choisissez un champ dans le menu déroulant. Il s’agit de champs associés au type d’enregistrement que vous avez sélectionné.</span>
+      1. <span class="preview">Continuer à définir les conditions du champ sélectionné.</span>
+      1. <span class="preview">Cliquez sur **Ajouter une condition** pour ajouter jusqu’à 5 champs et définir leur condition.</span>
 
-         <span class="preview">You can add any of the following types of fields:</span> 
+         <span class="preview">Vous pouvez ajouter l’un des types de champs suivants :</span>
 
          <div class="preview">
 
-         * Single-select
-         * Multi-select
-         * Single-line text
-         * Paragraph
-         * Number
-         * Checkbox
+         * Sélection unique
+         * Sélection multiple
+         * Texte à une ligne
+         * Paragraphe
+         * Nombre
+         * Case à cocher
          * Date
-         
+
          </div>
 
-         <span class="preview">Workfront Planning will create objects automatically when the conditions are met. </span>
+         <span class="preview">Workfront Planning crée automatiquement des objets lorsque les conditions sont remplies. </span>
 
-         ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
+         ![Déclencheur de modification de la valeur du champ sélectionné](assets/field-value-change-trigger-selected.png)
 
          >[!TIP]
          >
-         ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
-         >
-         
-   
-   -->
+         ><span class="preview">Le modificateur de chaque condition change en fonction du type de champ sélectionné.</span>
 
 1. Mettez à jour les champs suivants dans la section **Actions** : <!--submitted bugs for these fields - see if they need changing here-->
    * **Actions** : sélectionnez l’action que Workfront doit effectuer lors du déclenchement de l’automatisation. Ce champ est obligatoire.
