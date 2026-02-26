@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 30%
+source-wordcount: '959'
+ht-degree: 29%
 
 ---
 
@@ -153,15 +153,14 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 
    <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
 
-   <!--For Feb 26:
-   1. <span class="preview">(Conditional) If you are a System Administrator, select from the following options:</span>
+1. <span class="preview">(Conditionnel) Si vous êtes administrateur système, sélectionnez l’une des options suivantes :</span>
 
-         <div class="preview">
+   <div class="preview">
 
-         * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
-         * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
-         
-         </div> -->
+   * **Seules les personnes invitées peuvent y accéder** : Vous devez sélectionner les entités dans la boîte de partage et choisir leur accès à l&#39;espace de travail. Il s’agit de la sélection par défaut.
+   * **Tout le monde peut afficher dans le système** : tout le monde dans le système ayant accès à Planning peut afficher l&#39;espace de travail dans sa zone **Espaces de travail** dans Planning.
+
+   </div>
 
    <!--only  for March 4:
 
