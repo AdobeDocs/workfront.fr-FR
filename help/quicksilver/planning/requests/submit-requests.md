@@ -6,14 +6,14 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2252'
 ht-degree: 2%
 
 ---
 
-# Envoi de requêtes Adobe Workfront Planning pour créer des enregistrements
+# Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
@@ -154,6 +154,9 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
    Une fenêtre s’ouvre avec le nom du formulaire de demande en haut.
 1. Mettez à jour les champs disponibles dans le formulaire de demande. Les champs avec un astérisque rouge sont obligatoires.
+1. (Conditionnel) Si votre entreprise autorise le remplissage de formulaire optimisé par l’IA, vous pouvez charger des documents sous forme d’invites. L’IA utilise ces documents pour remplir le formulaire et vous pouvez accepter ou refuser les suggestions de l’IA.
+
+   Pour obtenir des instructions, consultez [Utilisation du remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 1. Cliquez sur **Soumettre**.
 
    Le formulaire se ferme et vous revenez à la zone **Demandes**.
@@ -306,7 +309,7 @@ Vous pouvez copier une demande dans la liste des demandes de Workfront, puis mod
 
 Cette option est disponible uniquement dans la nouvelle expérience de demande.
 
-Pour obtenir des instructions, voir [&#x200B; Copier et envoyer des demandes &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour obtenir des instructions, voir [ Copier et envoyer des demandes ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Créer des brouillons et des demandes à partir de brouillons existants
 

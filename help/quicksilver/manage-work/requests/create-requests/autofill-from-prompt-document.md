@@ -1,24 +1,26 @@
 ---
-title: Utilisez le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents
+title: Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide de prompts ou de documents
 content-type: reference
 description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs de requête en saisissant une invite ou en fournissant un document.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 8%
+source-wordcount: '1391'
+ht-degree: 13%
 
 ---
 
-# Utilisez le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents
+# Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide de prompts ou de documents
 
 >[!NOTE]
 >
 >Pour utiliser cette fonctionnalité, votre entreprise doit répondre aux exigences requises pour utiliser l’assistant Workfront AI. Pour plus d’informations, consultez [Conditions préalables pour l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 Le remplissage de formulaire par l’IA peut vous aider à remplir automatiquement les champs de demande en fonction d’une invite que vous saisissez. Il peut également remplir des champs basés sur du texte, tels que des e-mails ou des documents chargés. Vous pouvez approuver ou rejeter ces suggestions avant d’envoyer la demande.
+
+Cette fonctionnalité est disponible lors de la création d’une demande dans la zone des Demandes Workfront et dans Workfront Planning.
 
 ## Conditions d’accès
 
@@ -34,7 +36,7 @@ Le remplissage de formulaire par l’IA peut vous aider à remplir automatiqueme
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure</p>
+   <td> <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p>
     </td> 
   </tr> 
@@ -57,10 +59,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Pour utiliser le remplissage de formulaire optimisé par l’IA afin de remplir une requête à l’aide d’une invite ou d’un document, **toutes** les conditions suivantes doivent s’appliquer :
 
-* Votre organisation doit avoir migré vers Adobe IMS (système Identity Management)
-* L’expérience unifiée Adobe doit être activée
-* Votre organisation doit disposer d’un plan Select, Prime ou Ultimate Workfront
-* Adobe doit disposer d’un contrat Adobe Gen AI signé dans le fichier .
+* Votre organisation doit avoir migré vers Adobe IMS (système de gestion des identités).
+* L’expérience unifiée Adobe doit être activée.
+* Votre organisation doit disposer d’un plan Workfront Select, Prime ou Ultimate.
+* Adobe doit disposer d’un contrat Adobe Gen AI signé.
 
   Pour plus d’informations sur la signature du contrat, consultez [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) dans l’article Présentation de l’assistant AI.
 * L’assistant AI doit être activé dans les paramètres système de votre entreprise. Cette opération est gérée par votre administrateur Workfront.
