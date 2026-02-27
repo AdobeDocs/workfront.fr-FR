@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: b889ba54594275587c97fe3a5073f2e28df97350
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 55%
+source-wordcount: '1169'
+ht-degree: 51%
 
 ---
 
@@ -192,24 +192,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>vendredi 12 mars 2026</p></td>
         <td><p>vendredi 16 avril 2026</p></td>
     </tr>
-<!--    <tr>
+   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Shareable Report Folders</a><p></p>
-            <p>You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Dossiers de rapports partageables</a><p></p>
+            <p>Vous pouvez désormais organiser et partager des rapports à l’aide de dossiers de rapports partageables. Cette nouvelle fonctionnalité permet aux équipes qui gèrent d’importants volumes de rapports de conserver un contrôle d’accès évolutif et cohérent.</p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
-    </tr>-->
-    <!--<tr>
+        <td><p>jeudi 26 février 2025</p></td>
+        <td><p>vendredi 12 mars 2026</p></td>
+        <td><p>vendredi 16 avril 2026</p></td>
+    </tr>
+    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Improved Date Labels for Chart Groupings in Canvas Dashboards</a><p></p>
-            <p>Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Amélioration des libellés de date pour les regroupements de graphiques dans les tableaux de bord Zone de travail</a><p></p>
+            <p>Les graphiques qui regroupent les données par date affichent désormais des libellés de date plus clairs et plus lisibles. Grâce à cette mise à jour, les libellés de date s’ajustent de manière dynamique en fonction de l’option Regrouper par sélectionnée (par jour, semaine, mois ou année, par exemple), ce qui facilite la lecture et l’interprétation des graphiques en un coup d’œil.</p><p>Remarque : les tableaux de bord de la zone de travail sont actuellement en version bêta.</p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
-    </tr>-->
+        <td><p>jeudi 26 février 2025</p></td>
+        <td><p>vendredi 12 mars 2026</p></td>
+        <td><p>vendredi 16 avril 2026</p></td>
+    </tr>
              </tbody>
         </table>
 
@@ -330,7 +330,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
