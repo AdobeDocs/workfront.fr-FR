@@ -6,10 +6,10 @@ description: Après l’installation d’ [!DNL Adobe Workfront]  pour Salesforc
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 87%
+source-wordcount: '125'
+ht-degree: 44%
 
 ---
 
@@ -17,149 +17,158 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->Pour offrir des intégrations plus stables et plus évolutives, nous passons à une approche d’intégration moderne et flexible à l’aide de Workfront Automation and Integration (Fusion). Dans le cadre de ce processus de transition, l’intégration de Workfront for Salesforce ne sera plus disponible après le **28 février 2026**.
+>Pour offrir des intégrations plus stables et plus évolutives, nous sommes passés à une approche d’intégration moderne et flexible à l’aide de Workfront Automation and Integration (Fusion). Dans le cadre de ce processus de transition, l’intégration de Workfront for Salesforce **n’est plus disponible**.
 >
 >Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Salesforce.
 >
->Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez la [Vue d’ensemble d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Salesforce, consultez [Modules Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-Après l’installation d’[!DNL Adobe Workfront] pour [!DNL Salesforce] en tant qu’administrateur ou administratrice de [!DNL Workfront], vous pouvez le mettre à la disposition de vos utilisateurs et utilisatrices en l’ajoutant dans une nouvelle section de leurs dispositions de page [!UICONTROL Opportunité] et [!UICONTROL Compte] dans [!UICONTROL Salesforce].
+<!--
 
-Pour plus d’informations sur l’installation de [!DNL Workfront for Salesforce], voir [Installer  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+After you install [!DNL Adobe Workfront] for [!DNL Salesforce] as a [!DNL Workfront] administrator, you can make it available to your users by adding it in a new section to their [!UICONTROL Opportunity] and [!UICONTROL Account]
+ page layouts in [!UICONTROL Salesforce]. 
 
-Afin que les utilisateurs et utilisatrices puissent disposer à la fois des frameworks [!DNL Classic] et [!DNL Lightning Experience] de [!DNL Workfront], vous devez ajouter les pages [!DNL WorkfrontOpportunities] et [!UICONTROL Visualforce] [!DNL WorkfrontAccounts] aux dispositions des pages [!UICONTROL Opportunité] et [!UICONTROL Comptes], respectivement.
+For information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+
+For users to have [!DNL Workfront] available in both the [!DNL Classic] and [!DNL Lightning Experience] frameworks, you must add the [!DNL WorkfrontOpportunities] and the [!DNL WorkfrontAccounts] [!UICONTROL Visualforce] pages to the [!UICONTROL Opportunity] and [!UICONTROL Accounts] page layouts, respectively.
 
 
 
-## Conditions d’accès
+## Access requirements
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
    <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Conditions préalables
+## Prerequisites
 
-* Vous devez disposer d’une instance [!DNL Salesforce] offrant l’accès à un compte d’administrateur ou d’administratrice système.
-* Vous devez disposer d’une instance [!DNL Workfront] offrant l’accès à un compte d’administrateur ou d’administratrice système.
+* You must have a [!DNL Salesforce] instance with access to a system administrator account.
+* You must have a [!DNL Workfront] instance with access to a system administrator account.
 
-## Configurer la section [!DNL Workfront] dans le framework [!DNL Salesforce Classic]
+## Configure the [!DNL Workfront] section in the [!DNL Salesforce Classic] framework
 
-1. Connectez-vous à [!DNL Salesforce] en tant qu’administrateur ou administratrice de Workfront.
-1. Cliquez sur **[!UICONTROL Configuration].**
-1. Dans la section **[!UICONTROL Version]**, développez **[!UICONTROL Personnaliser].**
+1. Log in to [!DNL Salesforce] as a Workfront administrator.
+1. Click **[!UICONTROL Setup].**
+1. In the **[!UICONTROL Build]** section, expand **[!UICONTROL Customize].**
 
-1. Développez **[!UICONTROL Opportunités]**, puis cliquez sur **[!UICONTROL Dispositions des pages]** pour ajouter la section [!DNL Workfront] à une opportunité.
+1. Expand **[!UICONTROL Opportunities]**, then click **[!UICONTROL Page Layouts]** to add the [!DNL Workfront] section to an Opportunity.
 
-   Ou
+   Or
 
-   Développez **[!UICONTROL Comptes]**, puis cliquez sur **[!UICONTROL Disposition des pages]** pour ajouter la section [!DNL Workfront] à un compte.
+   Expand **[!UICONTROL Accounts]**, then click **[!UICONTROL Page Layouts]** to add the [!DNL Workfront] section to an Account
+.
 
-1. Cliquez sur **[!UICONTROL Modifier]** sur une disposition existante.
+1. Click **[!UICONTROL Edit]** on an existing layout.
 
-   Ou
+   Or
 
-   Cliquez sur **[!UICONTROL Nouveau]** pour ajouter une nouvelle disposition.
+   Click **[!UICONTROL New]** to add a new layout. 
 
-1. (Facultatif) Faites glisser le composant **[!UICONTROL Section]** dans la disposition et déposez-le à l’emplacement souhaité.
+1. (Optional) Drag the **[!UICONTROL Section]** component to the layout and drop it in the desired position.\
 
-1. (Facultatif) Saisissez un nom pour la nouvelle section.
+1. (Optional) Specify a name for the new section.
 
-   Nous vous recommandons de nommer cette section **[!DNL Workfront]**.
+   We recommend that you name this section **[!DNL Workfront]**.
 
-1. (Facultatif) Indiquez la **[!UICONTROL disposition]** et l’**[!UICONTROL ordre de touche de tabulation]** souhaités pour la nouvelle section.
+1. (Optional) Specify the desired **[!UICONTROL Layout]** and **[!UICONTROL Tab-key Order]** for the new section.
 
-   Nous vous recommandons de sélectionner la disposition **[!UICONTROL 1 colonne]** pour la section [!DNL Workfront].
+   We recommend that you select **[!UICONTROL 1-Column]** layout for the [!DNL Workfront] section. 
 
-1. Cliquez sur **[!UICONTROL OK]**.
-1. Dans la zone **[!UICONTROL Disposition]**, cliquez sur **[!UICONTROL Pages Visualforce].**
+1. Click **[!UICONTROL OK]**.
+1. In the **[!UICONTROL Layout]** area, click **[!UICONTROL Visualforce Pages].**
 
-1. Faites glisser et déposez le composant **[!UICONTROL WorkfrontOpportunities]** vers la nouvelle section dans la disposition **[!UICONTROL Opportunités]**.
+1. Drag and drop the **[!UICONTROL WorkfrontOpportunities]** component to the new section in the **[!UICONTROL Opportunities]** Layout.
 
-   Ou
+   Or
 
-   Faites glisser et déposez le composant **[!UICONTROL WorkfrontAccounts]** vers la nouvelle section dans la disposition **[!UICONTROL Compte]**.
+   Drag and drop the **[!UICONTROL WorkfrontAccounts]** component to the new section in the  **[!UICONTROL Account]** Layout.\
 
-1. Cliquez sur l’icône **[!UICONTROL Propriétés]** dans le coin supérieur droit du composant nouvellement ajouté.
+1. Click the **[!UICONTROL Properties]** icon in the upper right of the newly added component.\
 
-1. Pour obtenir un affichage optimal, spécifiez les propriétés suivantes pour la page [!DNL Workfront Visualforce] :
+1. To achieve an optimal display, specify the following properties for the [!DNL Workfront Visualforce] page:
 
-   * **[!UICONTROL Largeur (en pixels ou en %)]** : 100 %
-   * **[!UICONTROL Hauteur (en pixels)]** : 600
-   * Sélectionnez **[!UICONTROL Afficher les barres de défilement]**.
+   * **[!UICONTROL Width (in pixels or %)]**: 100%
+   * **[!UICONTROL Height (in pixels)]**: 600
+   * Select **[!UICONTROL Show scrollbars]**.
 
-1. Cliquez sur **[!UICONTROL OK]**.
-1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer votre disposition.
+1. Click **[!UICONTROL OK]**. 
+1. Click **[!UICONTROL Save]** to save your layout.
 
-   Tous les utilisateurs et utilisatrices auxquels cette disposition est affectée peuvent désormais consulter la section [!DNL Workfront] de leurs objets [!UICONTROL Opportunités] ou [!UICONTROL Comptes].
+   All users who have this layout assigned to them are now able to see the [!DNL Workfront] section on their [!UICONTROL Opportunities] or [!UICONTROL Accounts] objects.
 
-   Les utilisateurs et utilisatrices voient un écran de connexion [!DNL Workfront] dans la section [!DNL Workfront]. S’ils n’ont pas de compte [!DNL Workfront], ils peuvent réduire la section, mais pas la supprimer de leur disposition.
+   Users see a [!DNL Workfront] login screen on the [!DNL Workfront] section. If they do not have a [!DNL Workfront] account, they can collapse the section, but not remove it from their layout. 
 
-## Configurer la section [!DNL Workfront] dans le framework [!DNL Salesforce Lightning Experience]
+## Configure the [!DNL Workfront] section in the [!DNL Salesforce Lightning Experience] framework
 
-Vous pouvez ajouter la section [!DNL Workfront] à la disposition d’une [!UICONTROL opportunité] ou d’un compte [!DNL Salesforce] dans le framework [!DNL Salesforce Lightning Experience] en accédant à la zone [!UICONTROL Configuration] ou à partir d’un compte ou d’un objet [!UICONTROL Opportunité] .
+You can add the [!DNL Workfront] section to the layout of a [!DNL Salesforce] [!UICONTROL Opportunity] or Account
+ in the [!DNL Salesforce Lightning Experience] framework either by accessing the [!UICONTROL Setup] area, or from an Account
+ or [!UICONTROL Opportunity] object. 
 
-* [Configurer la section  [!DNL Workfront]  au niveau de la [!UICONTROL configuration]](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
-* [Configurer la section  [!DNL Workfront]  au niveau de l’opportunité ou du compte](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
+* [Configure the [!DNL Workfront] section at the [!UICONTROL Setup] level](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
+* [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
 
-### Configurer la section [!DNL Workfront] au niveau de la [!UICONTROL configuration] {#configure-the-workfront-section-at-the-setup-level}
+### Configure the [!DNL Workfront] section at the [!UICONTROL Setup] level {#configure-the-workfront-section-at-the-setup-level}
 
-1. Connectez-vous à [!DNL Salesforce] en tant qu’administrateur ou administratrice système.
-1. Cliquez sur l’icône **[!UICONTROL Configuration]**, puis sur **[!UICONTROL Configuration]**.
+1. Log into [!DNL Salesforce] as a system administrator. 
+1. Click the **[!UICONTROL Setup]** icon, then click **[!UICONTROL Setup]**.
 
-1. Développer **[!UICONTROL Objet et champs]**, puis cliquez sur **[!UICONTROL Object Manager]**.
+1. Expand **[!UICONTROL Object and Fields]**, then click **[!UICONTROL Object Manager]**.
 
-1. Cliquez sur **[!UICONTROL Opportunité]** pour personnaliser la disposition d’une opportunité.
+1. Click **[!UICONTROL Opportunity]** to customize the layout of an Opportunity.
 
-   Ou
+   Or
 
-   Cliquez sur **[!UICONTROL Compte]** pour personnaliser la disposition d’un compte.
+   Click **[!UICONTROL Account]** to customize the layout of an Account.
 
-1. Cliquez sur **[!UICONTROL Dispositions de page]**.
-1. Cliquez sur le nom d’une disposition existante pour la modifier.
+1. Click **[!UICONTROL Page Layouts]**.
+1. Click the name of an existing page layout to edit it.
 
-   Ou
+   Or
 
-   Cliquez sur **[!UICONTROL Nouveau]** pour créer une disposition.
+   Click **[!UICONTROL New]** to create a new page layout.
 
-1. Passez à [Configurer la section  [!DNL Workfront]  au niveau de l’opportunité ou du compte](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) ci-dessous.
+1. Continue with [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) below.
 
-### Configurer la section [!DNL Workfront] au niveau de l’opportunité ou du compte {#configure-the-workfront-section-at-the-opportunity-or-account-level}
+### Configure the [!DNL Workfront] Section at the Opportunity or Account level {#configure-the-workfront-section-at-the-opportunity-or-account-level}
 
-1. Connectez vous à [!DNL Salesforce] en tant que personne responsable de l’administration du système.
-1. Accédez à une **[!UICONTROL Opportunité]** ou à un **[!UICONTROL Compte]**.
+1. Log in to [!DNL Salesforce] as a system administrator. 
+1. Go to an **[!UICONTROL Opportunity]** or **[!UICONTROL Account]**.
 
-1. Cliquez sur l’icône **[!UICONTROL Configuration]**, puis sur **[!UICONTROL Modifier la page]**.
+1. Click the **[!UICONTROL Setup]** icon, then click **[!UICONTROL Edit Page]**.
 
-1. Développez la section **[!UICONTROL Gestion personnalisée]**.
-1. Faites glisser et déposez la composante **[!DNL Workfront]** sur votre page [!UICONTROL Opportunité] ou Compte.
+1. Expand the **[!UICONTROL Custom-Managed]** section.
+1. Drag and drop the **[!DNL Workfront]** component on your [!UICONTROL Opportunity] or Account
+ page.
 
-   Nous vous conseillons d’utiliser toute la largeur de la page pour la section [!DNL Workfront] au lieu d’une des colonnes de la disposition.
+   We recommend using the full width of the page for the [!DNL Workfront] section instead of one of the columns of the layout.
 
-1. Cliquer sur **[!UICONTROL Enregistrer]**.
+1. Click **[!UICONTROL Save]**.
 
-   Désormais, l’ensemble des utilisateurs et des utilisatrices à qui cette disposition est affectée peuvent voir la section [!DNL Workfront] de leurs objets [!UICONTROL Opportunités] ou [!UICONTROL Comptes].
+   All users who have this layout assigned to them are now able to see the [!DNL Workfront] section on their [!UICONTROL Opportunities] or [!UICONTROL Accounts] objects.
 
    >[!NOTE]
    >
-   >Les utilisateurs et les utilisatrices voient un écran de connexion [!DNL Workfront] sur la section [!DNL Workfront]. S’ils n’ont pas de compte [!DNL Workfront], ils peuvent réduire la section sans pour autant la supprimer de leur disposition. Les utilisateurs et utilisatrices peuvent se connecter à l’aide de la méthode d’authentification que vous avez activée : authentification améliorée ou authentification SAML (Security Assertion Markup Language).
+   >Users see a [!DNL Workfront] login screen on the [!DNL Workfront] section. If they do not have a [!DNL Workfront] account, they can collapse the section, but not remove it from their layout. Users can log in using the authentication method you have enabled: Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.
+
+   -->
 

@@ -7,10 +7,10 @@ description: Confidentialité et autorisations dans Workfront pour Google Worksp
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 32%
+source-wordcount: '137'
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 32%
 
 >[!IMPORTANT]
 >
->Pour offrir des intégrations plus stables et plus évolutives, nous passons à une approche d’intégration moderne et flexible à l’aide de Workfront Automation and Integration (Fusion). Dans le cadre de ce processus de transition, la fonctionnalité Workfront for Google Workspace suivante ne sera plus disponible après le **28 février 2026** :
+>Pour offrir des intégrations plus stables et plus évolutives, nous sommes passés à une approche d’intégration moderne et flexible à l’aide de Workfront Automation and Integration (Fusion). Dans le cadre de ce processus de transition, la fonctionnalité Workfront for Google Workspace suivante **n’est plus disponible** :
 >
 >* Accès à la fonctionnalité Google Workspace depuis Workfront
 >
@@ -26,20 +26,24 @@ ht-degree: 32%
 >
 >Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
 >
->Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez la [Vue d’ensemble d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Google Workspace, voir [Modules Gmail](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) et [Modules de calendrier Google](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Pour plus d’informations sur les fonctionnalités spécifiques des modules d’automatisation et d’intégration de Workfront pour Google Workspace, voir [Modules Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) et [Modules de calendrier Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-La confidentialité des clientes et clients étant importante, Adobe Workfront ne stocke ni ne collecte aucune donnée client d’identification résultant d’une autorisation tierce d’une application de plug-in Google. L’utilisation et le transfert des informations reçues des API de Google vers une autre application de Workfront for Google Workspace sont conformes à la politique de données de l’utilisateur des services d’API de Google [&#128279;](https://developers.google.com/terms/api-services-user-data-policy), y compris les exigences en matière d’utilisation limitée.
+<!--
 
-Nous avons besoin des autorisations ci-dessous pour que le plug-in Workfront for Google Workspace puisse délivrer sa valeur maximale :
+Because customer privacy is important, Adobe Workfront does not store or collect any identifying customer data that results from third-party authorization of a Google plug-in app. Workfront for Google Workspace's use and transfer of information received from Google APIs to any other app will adhere with the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 
-* **Affichez vos e-mails lorsque le module complémentaire est en cours d’exécution** : le plug-in Workfront for Google Workspace peut permettre aux utilisateurs de gagner d’innombrables heures de travail en double en convertissant les e-mails en nouvelles tâches dans Workfront et en renseignant automatiquement le titre et la description de la tâche avec l’objet et le corps de l’e-mail. Le plug-in permet également de publier vos e-mails dans Workfront en tant que nouveaux commentaires. Le plug-in doit afficher vos e-mails lorsque le module complémentaire est en cours d’exécution pour fournir cette valeur.
-* **Exécuté en tant que module complémentaire Gmail/non sensible** : des autorisations sont nécessaires pour que le module complémentaire Workfront for Google Workspace fonctionne dans l’environnement Gmail. Le plug-in nécessite un environnement Gmail pour fonctionner. Il nécessite donc l’autorisation `Run as a Gmail add-on / non-sensitive`.
-* **Affichez les métadonnées de votre e-mail lorsque le module complémentaire est en cours d’exécution** : pour améliorer les workflows, le plug-in Workfront for Google Workspace confirme si un e-mail est une notification Workfront et identifie le type de notification Workfront (nouvelle demande de travail, demande d’approbation, nouveau commentaire, etc.). Le plug-in nécessite l’autorisation `View your email message metadata when the add-on is running` pour fournir cette valeur.
-* **Le plug-in doit s’exécuter en tant que module complémentaire de calendrier/non sensible** : le plug-in Workfront for Google Workspace se connecte à votre calendrier afin que vous puissiez visualiser l’impact des tâches sur les plannings. Le plug-in a besoin de l’autorisation `Run as a Calendar add-on / non-sensitive` pour faire cela.
-* **Se connecter à une autorisation de service externe :** en fin de compte, le plug-in doit se connecter à l’API Workfront, qui est la colonne vertébrale de la valeur du plug-in. L’API Workfront est un service externe à Google. Par conséquent, le plug-in nécessite l’`Connect to an external service permission` pour que le plug-in fonctionne.
+We require the following permissions so the Workfront for Google Workspace plug-in can deliver its maximum value:
 
-Pour plus d’informations sur l’attachement d’Adobe Workfront à la confidentialité des clientes et clients, voir [Politique de confidentialité de Workfront](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf).
+* **View your email messages when the add-on is running**: The Workfront for Google Workspace plug-in can save users countless hours of duplicative work by converting emails to new tasks in Workfront and automatically populating the task's title and description with email's subject and body. The plug-in also allows to post your emails to Workfront as new comments. The plug-in needs to view your email messages when the add-on is running to deliver this value.
+* **Run as a Gmail add-on / non-sensitive**: Permissions are needed for the Workfront for Google Workspace add-on to function in Gmail environment. The plug-in requires a Gmail environment to work, so it requires the `Run as a Gmail add-on / non-sensitive` permission.
+* **View your email message metadata when the add-on is running**: To improve workflows, the Workfront for Google Workspace plug-in confirms if an email is a Workfront notification, and identifies the type of Workfront notification (new work request, approval request, new comment etc.). The plug-in requires the `View your email message metadata when the add-on is running` permission to deliver this value.
+* **Plug-in needs to Run as a Calendar add-on / non-sensitive**: The Workfront for Google Workspace plug-in connects to your calendar, so you can visualize how tasks impact schedules. The plug-in needs the `Run as a Calendar add-on / non-sensitive` permission to do this.
+* **Connect to an external service permission:** Ultimately, the plug-in needs to connect to the Workfront API, which is the backbone of the plug-in value. The Workfront API is a service external to Google, so the plug-in requires the `Connect to an external service permission` to make the plug-in work.
 
-Pour plus d’informations, voir [Politique de données utilisateur des services d’API Google](https://developers.google.com/terms/api-services-user-data-policy).
+For more information on Adobe Workfront's dedication to customer privacy, see [Workfront's Privacy Notice](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf).
+
+For more information, see [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy).
+
+-->
