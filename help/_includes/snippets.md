@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
+source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
 workflow-type: tm+mt
-source-wordcount: '2644'
-ht-degree: 90%
+source-wordcount: '2670'
+ht-degree: 91%
 
 ---
 # Extraits de code
@@ -69,6 +69,8 @@ ht-degree: 90%
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur votre nom d’utilisateur ou d’utilisatrice à côté de votre photo de profil. Ou (le cas échéant), cliquez sur l’image de profil dans la zone de navigation supérieure, puis cliquez sur **[!UICONTROL Profil Workfront]**.
 
+<!-- Notes for Workflow packaging -->
+
 ## Remarque pour Workflow Ultimate {#ultimate-package}
 
 >[!IMPORTANT]
@@ -80,6 +82,12 @@ ht-degree: 90%
 >[!IMPORTANT]
 >
 >Vous devez disposer de la Prime de workflow ou du package d’Ultimate de workflow pour utiliser cette fonctionnalité.
+
+## Note pour le package de workflow du partage coût/facturation {#workflow-package-for-cost-billing}
+
+>[!IMPORTANT]
+>
+>Vous devez disposer du package Sélection de workflow, Prime ou Ultimate pour afficher des autorisations de facturation et de coûts distinctes.
 
 <!-- Admin and Setup -->
 
@@ -300,9 +308,9 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 >[!IMPORTANT]
 >
->Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
+>Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle fonctionnalité d’Adobe Workfront.
 >
->Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Présentation de l&#39;accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Vue d’ensemble de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
