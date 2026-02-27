@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: f6aa8519748d98ba135fb0f572b7daade716c50f
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 87%
+source-wordcount: '674'
+ht-degree: 82%
 
 ---
 
@@ -68,7 +68,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
    >* Les personnes disposant d’une licence de révision ont le droit d’afficher des projets issus de problèmes convertis, mais leurs droits d’affichage sont limités.
    >* Pour plus d’informations sur les autorisations que les personnes peuvent accorder lorsqu&#39;elles partagent des projets avec d’autres personnes, voir [Partager un projet dans Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
    >* Lorsque vous configurez un niveau d’accès pour un certain type d’objet, cette configuration n’affecte pas l’accès des utilisateurs et utilisatrices aux objets de rang inférieur. Par exemple, vous pouvez empêcher les personnes d’effacer des projets dans leur niveau d’accès, mais cela ne les empêche pas d’effacer des tâches, dont le rang est inférieur à celui des projets. Pour plus d’informations sur la hiérarchie des objets, voir la section [Interdépendance et hiérarchie des objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) dans l’article [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-   >* Un utilisateur dont le niveau d’accès ne permet pas d’accéder aux données financières ne peut pas accorder un accès qui permettrait à d’autres utilisateurs d’afficher les données financières. Cela inclut l’accès aux projets qui afficheraient des données financières ou la modification d’un niveau d’accès pour permettre l’affichage des données financières.
+   * Un utilisateur dont le niveau d’accès ne permet pas d’accéder aux données financières ne peut pas accorder un accès qui permettrait à d’autres utilisateurs d’afficher les données financières. Cela inclut l’accès aux projets qui afficheraient des données financières ou la modification d’un niveau d’accès pour permettre l’affichage des données financières.
 
 
 1. (Facultatif) Cliquez sur **Définir les paramètres de partage par défaut** à droite de l’option Créer, puis sur **Ajouter une règle** pour ajouter une règle de partage pour les nouveaux projets.
@@ -93,9 +93,9 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
    Une fois le niveau d’accès créé, vous pouvez l’attribuer à un utilisateur ou à une utilisatrice. Pour plus d’informations, voir [Modifier le profil d’une personne](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-## Accéder aux rapports, tableaux de bord et calendriers par type de licence
+## Accès aux projets par type de licence
 
-Pour plus d’informations sur ce que les personnes de chaque niveau d’accès peuvent faire avec les problèms, voir la section [Projets](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) dans l’article [Fonctionnalités disponibles pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Pour plus d’informations sur ce que les utilisateurs de chaque niveau d’accès peuvent faire avec les projets, consultez la section [Projets](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) de l’article [Fonctionnalité disponible pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Accéder à des projets partagés
 

@@ -10,20 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 57632f1949e849aca3f26874382f1101b9b0cf89
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 92%
+source-wordcount: '1585'
+ht-degree: 93%
 
 ---
 
 # Fonctionnalité disponible pour chaque type d’objet pour différents niveaux d’accès (hérité)
 
-{{highlighted-preview}}
-
 >[!NOTE]
 >
->Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Vue d’ensemble des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Les tableaux suivants répertorient les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 
@@ -506,7 +504,6 @@ Les types de licence Demande et Utilisateur ou utilisatrice externe ne sont pas 
 | Gérer des enregistrements de facturation | ✓ |  |  |
 | Gérer les dépenses | ✓ | ✓ |  |
 | Afficher les données financières | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">Gérer les cartes tarifaires</span> | ✓ |  |  |
 | Afficher des informations par coût dans les outils de planification des ressources | ✓ |  |  |
 | Budgéter les ressources dans les outils de planification des ressources&#42;&#42; | ✓ |  |  |
 | Afficher l’affectation des ressources dans les outils de planification des ressources&#42; | ✓ | ✓ | ✓ |
