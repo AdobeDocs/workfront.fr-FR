@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1341'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Vous pouvez afficher les objets et leurs champs dans une vue Liste, lorsque vous y accédez dans la page Enregistrements connectés d’un enregistrement, dans Adobe Workfront Planning.
+Vous pouvez afficher les projets et leurs champs dans une vue Liste lors de l’accès à ces projets dans la page Enregistrements connectés d’un enregistrement, dans Adobe Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
-Cet article décrit comment créer ou modifier une vue Liste dans la page Enregistrements connectés d&#39;un enregistrement et comment modifier les objets dans la vue.
+Cet article décrit comment créer ou modifier une vue Liste qui affiche les projets sur la page Enregistrements connectés d&#39;un enregistrement et comment modifier les projets dans la vue. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## Conditions d’accès
 
@@ -72,18 +72,19 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Considérations relatives aux vues Liste
 
-* Vous ne pouvez pas afficher les enregistrements dans les pages de type d’enregistrement dans une vue Liste. Vous ne pouvez afficher les objets suivants dans une vue Liste que lorsque vous les visualisez dans la page Enregistrements connectés d&#39;un enregistrement :
+* Vous ne pouvez pas afficher tous les types d’objet dans les pages de type d’enregistrement dans une vue Liste.
+
+  Vous ne pouvez afficher les objets suivants dans une vue Liste que lorsque vous les visualisez dans la page Enregistrements connectés d&#39;un enregistrement :
 
    * Projets Workfront
 
   Pour plus d&#39;informations sur la création d&#39;une page d&#39;enregistrements connectés, voir [Ajouter une page d&#39;enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 * Avant de pouvoir afficher une vue Liste dans une page Enregistrements connectés d’un enregistrement, vous devez connecter les projets Workfront aux types d’enregistrements Planning. Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Les vues Liste sont similaires aux listes améliorées. Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
 ## Gestion d’une vue de liste {#manage-a-list-view}
 
-Pour plus d’informations sur la gestion des vues de liste dans Workfront, voir [&#x200B; Utilisation de listes améliorées &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Les vues Liste sont similaires aux listes améliorées. Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 {{step1-to-planning}}
 
@@ -114,7 +115,7 @@ Pour plus d’informations sur la gestion des vues de liste dans Workfront, voir
       >
       >* Vous ne pouvez pas modifier les vues système.
       >
-      >* <span class="preview">Vous pouvez réinitialiser une vue qui a été partagée avec vous après l&#39;avoir modifiée pour restaurer ses préférences d&#39;origine, ou vous pouvez la copier avec vos modifications et partager la copie. Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* <span class="preview">Vous pouvez réinitialiser un affichage partagé avec vous et pour lequel vous disposez uniquement d’autorisations d’affichage, après l’avoir modifié pour restaurer ses préférences d’origine, ou vous pouvez le copier avec vos modifications et partager la copie. Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
    1. Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-icon.png) pour ajouter un filtre à la vue. Les résultats sont immédiatement filtrés dans la liste. Vous ne pouvez pas enregistrer ni nommer les filtres. Les filtres sont mémorisés lorsque vous accéderez à la page ultérieurement et ils font partie des vues partagées.
    1. Cliquez sur l’icône **Colonnes** ![Icône Colonnes](assets/columns-icon.png) pour sélectionner les colonnes à afficher ou à masquer dans la vue.
@@ -128,23 +129,23 @@ Pour plus d’informations sur la gestion des vues de liste dans Workfront, voir
       Vous ne pouvez ajouter que des champs existants à la vue Liste.
 Vous ne pouvez pas supprimer le champ principal dans la vue Liste qui s’affiche dans la première colonne.
 
-
    1. <span class="preview">Cliquez sur l’icône **Format de cellule** ![Format de cellule](assets/format-cells-icon.png). La boîte **Format** s’ouvre.</span> <!--change the name of the box when they update it-->
       <span class="preview">Procédez comme suit : </span>
 
+      1. Cliquez sur **Ajouter une condition**.
+      1. <span class="preview">Sur la ligne **If**, sélectionnez un champ et choisissez une valeur de champ, puis cliquez sur **Ajouter une condition**. </span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Seuls les champs visibles dans la vue Liste sont disponibles pour la mise en forme conditionnelle.</span>
+
+      1. <span class="preview">(Facultatif) Cliquez sur **Ajouter une condition** dans la ligne **Si** pour ajouter d’autres conditions à la même règle.</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Vous pouvez ajouter jusqu’à 10 conditions dans une règle de conditionnement et vous pouvez avoir jusqu’à 20 règles pour un champ.</span>
+
       <div class="preview">
-
-      1. Sur la ligne **If**, cliquez sur **Ajouter une condition**, puis sélectionnez un champ à mettre en forme et choisissez une valeur de champ.
-
-         >[!TIP]
-         >
-         >Seuls les champs visibles dans la vue Liste sont disponibles pour la mise en forme conditionnelle.
-
-      1. (Facultatif) Cliquez sur **Ajouter une condition** dans la ligne **Si** pour ajouter d’autres conditions à la même règle.
-
-         >[!TIP]
-         >
-         >Vous pouvez ajouter jusqu’à 10 conditions dans une règle de conditionnement et vous pouvez avoir jusqu’à 20 règles pour un champ.
 
       1. Cliquez sur le connecteur **Ou** entre les conditions pour passer à **Et** et indiquer que plusieurs conditions doivent être remplies en même temps. **Or** est le connecteur par défaut.
       1. Sur la ligne **Format**, sélectionnez un champ pour indiquer la colonne à mettre en forme. <!--edit this area, if it changes names??-->

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 29%
+source-wordcount: '1025'
+ht-degree: 27%
 
 ---
 
@@ -151,31 +151,23 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 
    ![Bouton Partager dans l’espace de travail en haut à droite](assets/share-button-on-workspace-top-right.png)
 
-   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
+1. <span class="preview">(Conditionnel) Selon le niveau d’accès dont vous disposez, effectuez l’une des opérations suivantes :
 
-1. <span class="preview">(Conditionnel) Si vous êtes administrateur système, sélectionnez l’une des options suivantes :</span>
+   * Si vous êtes administrateur système, sélectionnez l’une des options suivantes </span>
 
-   <div class="preview">
+      * <span class="preview">**Seules les personnes invitées peuvent y accéder** : Vous devez sélectionner les entités dans la boîte de partage et choisir leur accès à l&#39;espace de travail. Il s’agit de la sélection par défaut. </span>
+      * <span class="preview">**Tout le monde peut afficher dans le système** : tout le monde dans le système ayant accès à Planning peut afficher l&#39;espace de travail dans sa zone **Espaces de travail** dans Planning.</span>
 
-   * **Seules les personnes invitées peuvent y accéder** : Vous devez sélectionner les entités dans la boîte de partage et choisir leur accès à l&#39;espace de travail. Il s’agit de la sélection par défaut.
-   * **Tout le monde peut afficher dans le système** : tout le monde dans le système ayant accès à Planning peut afficher l&#39;espace de travail dans sa zone **Espaces de travail** dans Planning.
+   * <span class="preview">(Conditionnel) Si vous êtes un responsable d’espace de travail disposant d’une licence Standard, vous pouvez voir l’une des sélections suivantes, mais vous ne pouvez pas la modifier :</span>
 
-   </div>
+      * <span class="preview">**Seules les personnes invitées peuvent y accéder**. Il s’agit du paramètre par défaut.</span>
+      * <span class="preview">**Tout le monde peut voir**</span>
 
-   <!--only  for March 4:
+     <span class="preview">Vous devez demander à un administrateur système de modifier une autorisation globale pour un espace de travail.</span>
 
-      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+1. Dans le champ **Accorder l’accès à cet espace de travail**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une équipe, d’une entreprise ou d’une fonction, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
-         <div class="preview">
-         
-         * **Only invited people can access**
-         * **Everyone in the system can view**
-         
-         </div>-->
-
-1. Dans le champ **Accorder l’accès à cet espace de travail**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une équipe, d’une entreprise ou d’une fonction, puis cliquez dessus lorsqu’il s’affiche dans la liste. <!--update screen shot at the release of system-wide permissions for workspaces-->
-
-   ![Partager l’interface utilisateur avec des groupes](assets/sharing-ui-with-groups.png)
+   <span class="preview">![Partager l’interface utilisateur avec des groupes](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >

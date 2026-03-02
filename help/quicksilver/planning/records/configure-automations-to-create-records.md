@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 5%
@@ -161,7 +161,7 @@ La page d’informations sur l’automatisation s’ouvre.
       * Clic sur bouton
       * <span class="preview">Modification de la valeur du champ</span>
 
-   1. (Conditionnel) Si vous avez sélectionné **Clic sur un bouton**, passez à l’étape ci-dessous qui décrit la zone **Actions**.
+   1. (Conditionnel) Si vous avez sélectionné **Clic sur le bouton**, passez à l’étape 9 ci-dessous qui décrit la zone **Actions**. <!--ensure this number stays accurate-->
 
    1. <span class="preview">(Conditionnel) Si vous avez sélectionné **Modification de la valeur du champ**, procédez comme suit dans la section **Paramètres** : </span>
 

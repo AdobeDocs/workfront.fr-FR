@@ -5,9 +5,9 @@ description: Les listes améliorées utilisent un format de tableau pour affiche
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: c9015f5486721e3977efc00a297dd1618bc681d9
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '2326'
+source-wordcount: '2337'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    >
    >Chaque type de champ possède ses propres options de modification. Certains champs peuvent être en lecture seule.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
 ## Modifier les éléments à l’aide de la barre d’actions
 
@@ -113,7 +113,7 @@ Vous pouvez utiliser la barre d’actions d’une liste améliorée pour modifie
 
    Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
+   ![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
 
 1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur le menu **Plus** ![icône de menu Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
 
@@ -203,8 +203,8 @@ Pour appliquer ou créer une vue :
    Cliquez sur **Nouvelle vue** pour en créer une.
 
 1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
-1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [&#x200B; Filtrer les éléments dans une liste améliorée &#x200B;](#filter-items-in-an-enhanced-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [ Filtrer les éléments dans une liste améliorée ](#filter-items-in-an-enhanced-list).
 1. (Facultatif) Regroupez les éléments de la liste. Pour plus d’informations, voir [Regrouper des éléments dans une liste améliorée](#group-items-in-an-enhanced-list).
 
    Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
@@ -346,11 +346,11 @@ Pour partager une vue :
 
 Lorsqu’une vue est partagée avec vous et que vous n’avez pas l’autorisation de la modifier, vous pouvez la copier et l’enregistrer sous un nouveau nom. Vous devez d&#39;abord apporter des modifications à la vue avant de pouvoir la copier.
 
-1. Dans la liste déroulante Vues, passez le curseur sur la vue dans **Vues partagées** que vous souhaitez copier, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Copier avec les préférences**.
+1. Dans la liste déroulante Vues, pointez sur la vue dans **Vues partagées** dont vous avez modifié les paramètres et que vous souhaitez copier, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Copier avec les préférences**.
 
-   Une nouvelle vue est créée automatiquement. Il utilise le nom de la vue d&#39;origine avec (copier) à la fin et il apparaît dans la section **Mes vues** des vues.
+   Une nouvelle vue est créée automatiquement. Le nom de la vue copiée suit le modèle suivant : `Original view name (copy)`et il s&#39;affiche dans la section **Mes vues** des vues.
 
-   Vous êtes le propriétaire de cette vue et vous pouvez la renommer, la modifier, la partager ou la supprimer. Si le propriétaire de la vue d’origine supprime votre accès partagé à cette vue, vous avez toujours accès à cette vue que vous avez créée.
+   Vous êtes le propriétaire de cette vue et vous pouvez la renommer, la modifier, la partager ou la supprimer. Si le propriétaire de la vue d’origine supprime votre accès partagé à cette vue, vous avez toujours accès à la vue que vous avez créée en copiant la vue d’origine partagée.
 
    >[!NOTE]
    >
