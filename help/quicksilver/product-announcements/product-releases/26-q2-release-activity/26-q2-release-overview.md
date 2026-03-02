@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 35f9c4012d8d47e6cd5402029ceaf487b1942ce9
+source-git-commit: 8fdc6d1b72967b2a52295c31cb83d43594817d6f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 50%
+source-wordcount: '1323'
+ht-degree: 44%
 
 ---
 
@@ -302,6 +302,30 @@ Cette mise à jour concerne Mac et Windows.
 
 ## Annonces
 
+### La version d’évaluation de Workfront Planning est désormais disponible.
+
+[!BADGE Horaire de désactivation]{type=Neutral}
+
+>[!NOTE]
+>
+>* Aperçu et production pour tous : 2 mars 2026
+>* Vous devez accepter l&#39;accord d&#39;essai disponible dans votre environnement avant de pouvoir accéder à l&#39;environnement d&#39;essai Planning.
+>* Vous n’avez pas besoin de signer le contrat d’agent Adobe AI pour utiliser Planning Designer pendant la période d’évaluation.
+
+La version d’évaluation de Workfront Planning est désormais disponible pour tous les clients Workfront.
+
+L’essai gratuit offre aux clients Workfront un accès de licence Prime de 60 jours à Workfront Planning, à compter du 2 mars 2026. La période d’essai se termine le 1er mai 2026.
+
+La version d’essai gratuite de Workfront Planning offre les avantages suivants :
+
+* Un environnement Planning organisé sur plusieurs espaces de travail
+* Exemples de données pour vous donner une idée de l’endroit où commencer
+* Formation et conseils intégrés au produit
+* Indiquez clairement les jalons de votre configuration qui sont adaptés à des rôles spécifiques.
+* Planning Designer : un assistant optimisé par l’IA qui peut vous aider à créer l’environnement souhaité
+
+Pour plus d’informations, voir [Prise en main de la version d’essai gratuite d’Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md).
+
 ### Version 21 de l’API
 
 La version 21 de l’API Workfront a été publiée le 23 octobre 2025. Pour la version 21 de l’API, nous avons modifié certaines ressources et certains points d’entrée. Certains des changements prennent en charge de nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
@@ -330,7 +354,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
