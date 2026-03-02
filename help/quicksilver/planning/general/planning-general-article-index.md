@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 28%
+source-wordcount: '187'
+ht-degree: 55%
 
 ---
 
@@ -22,15 +22,15 @@ En tant que personne responsable des opérations marketing, vous pouvez utiliser
 
 Consultez les articles suivants :
 
-* [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-* [Présentation de l’assistant IA Planification d’Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-* [Principes de base des API de planification d’Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md)
-* [Présentation des limitations d’objet d’Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
-* [Activité de publication de la planification Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md)
-* [Activité de publication de la planification Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
-* [Présentation des limitations d’objet d’Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
+* [Commencer à utiliser Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+* [Vue d’ensemble de l’assistant IA Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
+* [Principes de base des API Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
+* [Vue d’ensemble des limites d’objets d’Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
+* [Activité de publication Adobe Workfront Planning pour 2024](/help/quicksilver/planning/general/release-activity.md)
+* [Activité de publication Adobe Workfront Planning pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Vue d’ensemble des limites d’objets d’Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
 * [Recommandations relatives à l’implémentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Prise en main d’Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
-  <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
+* [Commencer avec la version d’essai gratuite d’Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md)
 
 
