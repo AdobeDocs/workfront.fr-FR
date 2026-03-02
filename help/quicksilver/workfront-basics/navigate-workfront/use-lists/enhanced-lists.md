@@ -5,9 +5,9 @@ description: Les listes améliorées utilisent un format de tableau pour affiche
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: 8e2f41f18b57aca77fd6af905ff8e04486879e39
+source-git-commit: c9015f5486721e3977efc00a297dd1618bc681d9
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2326'
 ht-degree: 3%
 
 ---
@@ -62,8 +62,7 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | Priorités | <ul><li>Accueil > sélectionnez l’icône Priorités dans le menu de gauche</li><li>Menu principal > Priorités</li></ul> |
 | Liste des requêtes | <ul><li>Demandes (nouvelle expérience uniquement)</li><li>Widget Mes demandes sur l’Accueil</li></ul> |
 | Listes de statuts, priorités, gravités et taux de change dans la configuration | <ul><li>Configuration > Préférences du projet > Statuts</li><li>Configuration > Préférences du projet > Priorités</li><li>Configuration > Préférences du projet > Gravités</li><li>Configuration > Préférences du projet > Taux de change</li></ul> |
-
-<!--|<span class="preview">List of reports</span> | <span class="preview">Main Menu &gt; Reports</span> <p><span class="preview">The enhanced list format is only applied when **Use shareable folders** is turned on. For information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |-->
+| <span class="preview">Liste des rapports</span> | <span class="preview">Les rapports (**utiliser des dossiers partageables** doivent être activés)</span> |
 
 ## Ajouter des éléments à une liste améliorée
 
@@ -92,7 +91,7 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    >
    >Chaque type de champ possède ses propres options de modification. Certains champs peuvent être en lecture seule.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
 ## Modifier les éléments à l’aide de la barre d’actions
 
@@ -114,7 +113,7 @@ Vous pouvez utiliser la barre d’actions d’une liste améliorée pour modifie
 
    Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
+   ![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
 
 1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur le menu **Plus** ![icône de menu Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
 
@@ -204,8 +203,8 @@ Pour appliquer ou créer une vue :
    Cliquez sur **Nouvelle vue** pour en créer une.
 
 1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
-1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [&#x200B; Filtrer les éléments dans une liste améliorée &#x200B;](#filter-items-in-an-enhanced-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [ Filtrer les éléments dans une liste améliorée ](#filter-items-in-an-enhanced-list).
 1. (Facultatif) Regroupez les éléments de la liste. Pour plus d’informations, voir [Regrouper des éléments dans une liste améliorée](#group-items-in-an-enhanced-list).
 
    Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
