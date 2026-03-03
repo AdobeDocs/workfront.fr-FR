@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
 workflow-type: tm+mt
-source-wordcount: '4014'
-ht-degree: 37%
+source-wordcount: '4067'
+ht-degree: 36%
 
 ---
 
@@ -251,7 +251,7 @@ Pour gérer une vue chronologique :
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-   * [Regroupement &#x200B;](#add-grouping)
+   * [Regroupement ](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
@@ -401,12 +401,23 @@ Pour ajouter un regroupement dans la vue chronologique :
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.
 
-   ![Regroupement de la vue chronologique de l’interface utilisateur avec des champs liés](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![Regroupement de la vue chronologique de l’interface utilisateur avec des champs liés](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Cliquez sur l&#39;un des champs suggérés ou cliquez sur **Choisir un autre champ** et recherchez un autre champ, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
 
    Le regroupement est appliqué automatiquement à la chronologie et les enregistrements s’affichent à l’intérieur de la zone de regroupement.
-1. <span class="preview">(Facultatif) Cliquez sur le menu déroulant **A -> Z** ou **Z -> A** en regard du nom du champ sélectionné pour sélectionner un ordre de tri croissant ou décroissant pour le regroupement. Les regroupements s’affichent dans l’ordre alphabétique que vous avez sélectionné dans la vue chronologique. </span>
+1. <span class="preview">(facultatif et conditionnel) Selon le type de champ que vous avez sélectionné pour le regroupement, sélectionnez l’une des options de tri suivantes pour trier les regroupements par ordre croissant ou décroissant : </span>
+
+   <div class="preview">
+
+   * **A -> Z** ou **Z -> A** pour les champs sélectionnés, les champs de texte, les champs de paragraphe, les enregistrements ou objets connectés, les champs de personne
+   * **0 -> 9** ou **9 -> 0** pour les champs Nombre, Devise ou Pourcentage.
+   * **au plus tôt -> au plus tard** ou **au plus tard -> au plus tôt** pour les champs de date
+
+   </div>
+
+   <span class="preview"> Les regroupements dans la vue Chronologie sont triés en conséquence. Les enregistrements à l’intérieur des regroupements sont triés dans l’ordre de leur **Date de début** qui est le tri par défaut. </span>
+
 1. (Facultatif) Répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 
    Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
