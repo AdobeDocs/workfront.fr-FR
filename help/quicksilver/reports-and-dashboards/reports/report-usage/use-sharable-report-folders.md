@@ -6,9 +6,9 @@ description: Utilisez des dossiers de rapports partageables pour organiser les r
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
-source-git-commit: 650d24c36c3ccee810b8918ccdf456f607b055e9
+source-git-commit: 6a56485ef5a36aac92fbed73bd6749ed63796a58
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '771'
 ht-degree: 10%
 
 ---
@@ -93,7 +93,7 @@ Vous pouvez créer jusqu’à 3 niveaux de sous-dossiers dans un dossier de rapp
 
 ## Partager un dossier de rapports avec d’autres utilisateurs
 
-Lorsque vous partagez un dossier avec des utilisateurs, ces derniers héritent de l’accès à tous les sous-dossiers de cette arborescence de dossiers. Les utilisateurs doivent également avoir accès à chaque rapport, soit par le biais d’autorisations de dossiers, soit par le partage direct de rapports.
+Lorsque vous partagez un dossier avec des utilisateurs, ces derniers héritent de l’accès à tous les sous-dossiers de cette arborescence de dossiers.
 
 {{step1-to-reports}}
 
@@ -135,3 +135,7 @@ Les autorisations de rapport accordées par le biais des autorisations de dossie
 ## Nouvelle expérience de liste pour les dossiers partageables
 
 Lorsque vous accédez à des dossiers partageables dans la zone Rapports , une nouvelle expérience de liste s’affiche, qui vous permet d’afficher et de gérer facilement vos dossiers et rapports. Pour plus d’informations sur la nouvelle expérience de liste, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+>[!NOTE]
+>
+>Les champs avancés ne sont pas pris en charge dans l’expérience de liste améliorée. Pour utiliser ces champs, vous pouvez créer un rapport.
