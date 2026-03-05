@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 96%
+source-wordcount: '2348'
+ht-degree: 78%
 
 ---
 
@@ -179,154 +179,211 @@ Le nombre d’objets Workfront Planning que vous pouvez créer est limité. Pou
 
 Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning :
 
-* **Espace de travail** : collection de types d’enregistrements qui définissent le cycle de vie opérationnel d’une certaine organisation. L’espace de travail constitue le cadre de travail d’une unité organisationnelle.
+* [Espaces de travail](#workspaces)
+* [Types d’enregistrement](#record-types)
+* [Enregistrements](#records)
+* [Modèles Workspace](#workspace-templates)
+* [Champs](#fields)
+* [Types d’enregistrements, enregistrements et champs connectés](#connected-record-types-records-and-fields)
+* [Champs de recherche](#lookup-fields)
+* [Hiérarchies](#hierarchies)
+* [Vues](#views)
+* [Automatisations](#automations)
+* [Formulaires de demande](#request-forms)
 
-  ![Page d’ouverture Espace de travail marketing avec taxonomies des types d’enregistrement](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+### Espaces de travail
 
-  Pour plus d’informations, voir la section [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+Les espaces de travail représentent le cadre d’une entité organisationnelle. Il s’agit d’ensembles de types d’enregistrements qui définissent le cycle de vie opérationnel d’une certaine organisation.
 
-* **Type d’enregistrement** : nom des types d’objet dans Workfront Planning.
+![Page d’ouverture Espace de travail marketing avec taxonomies des types d’enregistrement](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  Les types d’enregistrements renseignent les espaces de travail.
+Pour plus d’informations, voir la section [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-  Contrairement à Workfront, où les types d’objets sont prédéfinis, dans Workfront Planning, vous pouvez créer vos propres types d’objets.
+### Types d’enregistrement
 
-  Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
+Les types d&#39;enregistrement sont les types d&#39;objet dans Workfront Planning.
 
-  Dans Workfront Planning, vous pouvez créer tous les types d’enregistrements qui correspondent aux workflows de votre organisation. Vous pouvez ensuite définir la manière dont les types d’enregistrements sont associés les uns aux autres ou aux dépendances des formulaires.
+Les types d’enregistrements renseignent les espaces de travail.
 
-  Pour en savoir plus, voir [Vue d’ensemble des types d’enregistrement](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Contrairement à Workfront, où les types d’objets sont prédéfinis, dans Workfront Planning, vous pouvez créer vos propres types d’objets.
 
-* **Enregistrement** : instance d’un type d’enregistrement.
+Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
 
-  ![Enregistrements mis en surbrillance dans la liste des types d’enregistrements de campagne](assets/records-highlighted-in-campaign-record-type-list.png)
+Dans Workfront Planning, vous pouvez créer tous les types d’enregistrements qui correspondent aux workflows de votre organisation. Vous pouvez ensuite définir la manière dont les types d’enregistrements sont associés les uns aux autres ou aux dépendances des formulaires.
 
-  Une fois qu’un type d’enregistrement a été ajouté à un espace de travail, vous pouvez commencer à ajouter des enregistrements de ce type sur la page du type d’enregistrement.
+Pour en savoir plus, voir [Vue d’ensemble des types d’enregistrement](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
-  Par exemple, « Campagne » peut être un type d’enregistrement et « Campagne d’été pour la région EMEA » un enregistrement du type d’enregistrement Campagne.
+### Enregistrements
 
-  Pour plus d’informations, voir la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+Un enregistrement est une instance d’un type d’enregistrement.
 
-* **Modèle d’espace de travail** : vous pouvez créer un espace de travail à l’aide de modèles prédéfinis. Vous pouvez utiliser les types d’enregistrements et les champs prédéfinis qui se trouvent dans un modèle, ou bien ajouter les vôtres.
+![Enregistrements mis en surbrillance dans la liste des types d’enregistrements de campagne](assets/records-highlighted-in-campaign-record-type-list.png)
 
-  ![Page Espaces de travail avec miniatures de modèles](assets/workspaces-page-with-templates-thumbnails.png)
+Une fois qu’un type d’enregistrement a été ajouté à un espace de travail, vous pouvez commencer à ajouter des enregistrements de ce type sur la page du type d’enregistrement.
 
-  Adobe Workfront Planning contient les modèles suivants :
+Par exemple, « Campagne » peut être un type d’enregistrement et « Campagne d’été pour la région EMEA » un enregistrement du type d’enregistrement Campagne.
 
-   * De base : Gestion marketing
-   * Avancé : Gestion marketing
-   * Entreprise : Gestion marketing
-   * Gestion des ventes
-   * Gestion des produits
+Pour plus d’informations, voir la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
-  Pour plus d’informations, voir [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md).
+### Modèles Workspace
 
-* **Champs** : les champs sont des attributs que vous pouvez ajouter aux types d’enregistrements. Les champs contiennent des informations sur le type d’enregistrement. <!--check the shot below, "Connection" needs to be in lowercase-->
+Vous pouvez créer un espace de travail à l’aide de modèles prédéfinis. Vous pouvez utiliser les types d’enregistrements et les champs prédéfinis qui se trouvent dans un modèle, ou bien ajouter les vôtres.
 
-  ![Liste déroulante des champs d’enregistrement](assets/drop-down-list-of-record-fields.png)
+![Page Espaces de travail avec miniatures de modèles](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Considérations relatives aux champs d’enregistrement :
+Adobe Workfront Planning contient les modèles suivants :
 
-   * Les champs que vous ajoutez pour un type d’enregistrement deviennent automatiquement associés à tous les enregistrements de ce type et peuvent être utilisés pour capturer des données sur ces enregistrements.
+* De base : Gestion marketing
+* Avancé : Gestion marketing
+* Entreprise : Gestion marketing
+* Gestion des ventes
+* Gestion des produits
 
-   * Les champs s’affichent sous forme de colonnes dans la vue Tableau appliquée à une page de type d’enregistrement. Elles s’affichent également dans la page de l’enregistrement.
+Pour plus d’informations, voir [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-   * Les champs sont propres à un type d’enregistrement et ne sont pas transférés d’un type d’enregistrement à un autre.
+### Champs
 
-   * Les champs sont entièrement personnalisables et ne sont accessibles que dans Workfront Planning. Vous ne pouvez pas accéder aux champs Workfront Planning à partir de Workfront.
+Les champs sont des attributs que vous pouvez ajouter aux types d’enregistrements. Les champs contiennent des informations sur le type d’enregistrement.
 
-  Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+![Liste déroulante des champs d’enregistrement](assets/drop-down-list-of-record-fields.png)
 
-  Par défaut, un nouveau type d’enregistrement est associé aux champs prédéfinis suivants :
+Considérations relatives aux champs d’enregistrement :
 
-   * Nom
-   * Description
-   * Date de début
-   * Date de fin
-   * Statut
+* Les champs que vous ajoutez pour un type d’enregistrement deviennent automatiquement associés à tous les enregistrements de ce type et peuvent être utilisés pour capturer des données sur ces enregistrements.
 
-  Vous pouvez créer des champs personnalisés des types suivants :
+* Les champs s’affichent sous forme de colonnes dans la vue Tableau appliquée à une page de type d’enregistrement. Elles s’affichent également dans la page de l’enregistrement.
 
-   * Texte à une ligne
-   * Paragraphe
-   * Sélection multiple
-   * Sélection unique
-   * Date
-   * Nombre
-   * Pourcentage
-   * Devise
-   * Case à cocher
-   * Formule
-   * Personnes
-   * Créé par
-   * Date de création
-   * Dernière modification par
-   * Date de dernière modification
+* Les champs sont propres à un type d’enregistrement et ne sont pas transférés d’un type d’enregistrement à un autre.
 
-* **Types d’enregistrement connectés**, **Enregistrements connectés** et **Champs connectés** : vous pouvez créer une connexion entre les entités suivantes dans Workfront Planning :
+* Les champs sont entièrement personnalisables et ne sont accessibles que dans Workfront Planning. Vous ne pouvez pas accéder aux champs Workfront Planning à partir de Workfront.
 
-   * Deux types d’enregistrements Workfront Planning.
-   * Un type d’enregistrement et un type d’objet de projet, de programme, de portfolio, d’entreprise ou de groupe Workfront.
-   * Un type d’enregistrement et une ressource ou un dossier Adobe Experience Manager.
+Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-     Vous devez disposer d’une licence Adobe Experience Manager pour connecter les types d’enregistrement aux objets Experience Manager.
+Par défaut, un nouveau type d’enregistrement est associé aux champs prédéfinis suivants :
 
-     ![Nouvel onglet de connexion avec les options de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
+* Nom
+* Description
+* Date de début
+* Date de fin
+* Statut
 
-   * Un type d’enregistrement et une marque Adobe GenStudio for Performance Marketing.
+Vous pouvez créer des champs personnalisés des types suivants :
 
-     Vous devez disposer d’une licence Adobe GenStudio for Performance Marketing pour connecter les types d’enregistrements aux marques GenStudio.
-
-     ![Nouvel onglet de connexion avec l’option Adobe GenStudio Brand](assets/new-connection-tab-with-genstudio-option.png)
+* Texte à une ligne
+* Paragraphe
+* Sélection multiple
+* Sélection unique
+* Date
+* Nombre
+* Pourcentage
+* Devise
+* Case à cocher
+* Formule
+* Personnes
+* Créé par
+* Date de création
+* Dernière modification par
+* Date de dernière modification
 
 
-  Une fois que vous avez établi une connexion entre les types d’enregistrements, vous pouvez connecter les enregistrements individuels de ces types les uns aux autres. La connexion entre les enregistrements s’affiche sous la forme d’un champ d’enregistrement connecté ou une connexion.
+### Types d’enregistrements, enregistrements et champs connectés
 
-  Connecter les types d’enregistrements est utile lorsque plusieurs types d’objets de travail s’influencent mutuellement. Par exemple, vous pouvez utiliser des campagnes, chacune d’elles pouvant correspondre à plusieurs marques. Pour indiquer cette relation, vous pouvez connecter des campagnes à des marques. De plus, le travail de chaque campagne peut être planifié dans plusieurs projets dans Workfront. Pour indiquer cela, vous pouvez connecter les campagnes aux projets appropriés. La connexion de types d’enregistrements et, par la suite, de différents enregistrements permet d’établir cette relation dans Workfront Planning.
+Vous pouvez créer une connexion entre les entités suivantes dans Workfront Planning :
 
-* **Champs de recherche** (ou champs liés) : après avoir établi la connexion entre deux types d’enregistrement et avoir connecté des enregistrements individuels les uns aux autres, vous pouvez référencer les champs des enregistrements connectés sur l’enregistrement à partir duquel vous vous connectez.
+* Deux types d’enregistrements Workfront Planning.
+* Un type d’enregistrement et un type d’objet de projet, de programme, de portfolio, d’entreprise ou de groupe Workfront.
+* Un type d’enregistrement et une ressource ou un dossier Adobe Experience Manager.
 
-  Par exemple, si vous connectez un type d’enregistrement Campaign à un type d’objet Projet Workfront, vous pouvez afficher le champ Budget des projets connectés dans les enregistrements de campagne.
+  Vous devez disposer d’une licence Adobe Experience Manager pour connecter les types d’enregistrement aux objets Experience Manager.
 
-  ![Zone Ajouter des champs de recherche](assets/add-lookup-fields-modal.png)
+  ![Nouvel onglet de connexion avec les options de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
-  >[!TIP]
-  >
-  >* Vous ne pouvez pas ajouter les types de champ suivants en tant que champs de recherche à partir des types d’objet ou d’enregistrement connectés :
-  >   * Créé par
-  >   * Dernière modification par
-  >   * Champs de saisie semi-automatique Workfront (y compris les champs tels que le ou la propriétaire ou le sponsor du projet)
-  >* Vous ne pouvez pas ajouter les types de champ suivants en tant que champs de recherche à partir de l’enregistrement connecté ou du type d’objet dans l’environnement de production, <span class="preview">mais vous pouvez les ajouter dans l’environnement de prévisualisation :</span>
-  >   * Personnes
+* Un type d’enregistrement et une marque Adobe GenStudio for Performance Marketing.
 
-  Pour plus d’informations sur la connexion entre les types d’enregistrements et les enregistrements, ainsi que sur la création de champs liés, consultez les articles suivants :
+  Vous devez disposer d’une licence Adobe GenStudio for Performance Marketing pour connecter les types d’enregistrements aux marques GenStudio.
 
-   * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
+  ![Nouvel onglet de connexion avec l’option Adobe GenStudio Brand](assets/new-connection-tab-with-genstudio-option.png)
+
+Après avoir établi une connexion entre les types d&#39;enregistrement ou l&#39;enregistrement et les types d&#39;objet, vous pouvez connecter des enregistrements individuels ou des objets de ces types les uns aux autres. La connexion entre les enregistrements s’affiche sous la forme d’un champ d’enregistrement connecté ou une connexion.
+
+Connecter les types d’enregistrements est utile lorsque plusieurs types d’objets de travail s’influencent mutuellement. Par exemple, vous pouvez utiliser des campagnes, chacune d’elles pouvant correspondre à plusieurs marques. Pour indiquer cette relation, vous pouvez connecter des campagnes à des marques. De plus, le travail de chaque campagne peut être planifié dans plusieurs projets dans Workfront. Pour indiquer cela, vous pouvez connecter les campagnes aux projets appropriés. La connexion de types d’enregistrements et, par la suite, de différents enregistrements permet d’établir cette relation dans Workfront Planning.
+
+### Champs de recherche
+
+Après avoir établi la connexion entre deux types d&#39;enregistrements et connecté des enregistrements individuels, vous pouvez référencer les champs des enregistrements connectés à partir de l&#39;enregistrement à partir duquel vous vous connectez.
+
+Par exemple, si vous connectez un type d’enregistrement Campaign à un type d’objet Projet Workfront, vous pouvez afficher le champ Budget des projets connectés dans les enregistrements de campagne.
+
+![Zone Ajouter des champs de recherche](assets/add-lookup-fields-modal.png)
+
+>[!TIP]
+>
+>* Vous ne pouvez pas ajouter les types de champ suivants en tant que champs de recherche à partir des types d’objet ou d’enregistrement connectés :
+>   * Créé par
+>   * Dernière modification par
+>   * Champs de saisie semi-automatique Workfront (y compris les champs tels que le ou la propriétaire ou le sponsor du projet)
+>* Vous ne pouvez pas ajouter les types de champ suivants en tant que champs de recherche à partir de l’enregistrement connecté ou du type d’objet dans l’environnement de production, <span class="preview">mais vous pouvez les ajouter dans l’environnement de prévisualisation :</span>
+>   * Personnes
+
+Pour plus d’informations sur la connexion entre les types d’enregistrements et les enregistrements, ainsi que sur la création de champs liés, consultez les articles suivants :
+
+* [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
-* **Vues** : les enregistrements s’affichent sous leur page de type d’enregistrement respective dans différents types de vues.
+### Hiérarchies
 
-  ![Liste déroulante des types de vue à partir de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)
+Une fois les types d’enregistrements connectés dans un espace de travail, vous pouvez créer des hiérarchies qui organisent ces connexions. Les hiérarchies organisent les types d&#39;enregistrements et d&#39;objets en relations parent-enfant et peuvent contenir jusqu&#39;à quatre niveaux de types d&#39;objets.
 
-  Les vues contiennent les paramètres personnalisés d’un type de vue spécifique, tels que la liste des champs (colonnes), une liste des enregistrements (lignes), leur ordre (tri), un filtre appliqué ou applicable et un regroupement.
+![Hiérarchies dans la zone Paramètres de l’espace de travail](assets/hierarchies-in-workspace-settings-area.png)
 
-  Les types de vue suivants peuvent être appliqués à la page des types d’enregistrement :
+S’il n’existe pas encore de connexion entre deux types d’enregistrements, elle peut être créée lorsque vous configurez la hiérarchie. Une fois définie, la hiérarchie établit un chemin d’accès structuré entre les types d’enregistrements associés dans l’espace de travail.
 
-   * **Vue Tableau** : affiche les enregistrements et leurs champs, y compris les champs connectés et de recherche, sous la forme d’un tableau. Les lignes du tableau sont les enregistrements individuels et les colonnes sont les champs de l’enregistrement. La vue Tableau est la vue par défaut.
+Les hiérarchies génèrent des chemins de navigation pour leurs enregistrements respectifs qui s’affichent dans leurs en-têtes. Ainsi, les utilisateurs savent où ils se trouvent dans la hiérarchie à n’importe quelle étape de leur workflow.
 
-     ![Exemple de vue Tableau](assets/table-view-example.png)
+Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [ Présentation des hiérarchies et des chemins de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
-   * **Vue Chronologie** : affiche les enregistrements comportant au moins deux champs de type Date dans une ligne de temps chronologique. Vous pouvez afficher jusqu’à 5 types d’enregistrements connectés et leurs enregistrements dans la vue chronologique.
+### Vues
 
-     ![Regroupement appliqué dans une vue Chronologie](assets/grouping-applied-in-timeline-view.png)
+Les enregistrements s’affichent dans leur page de type d’enregistrement respective dans différents types de vues.
 
-   * **Vue Calendrier** : affiche les enregistrements comportant au moins deux champs de type Date au format d’un calendrier.
-     ![Exemple de vue Calendrier](assets/calendar-view-example.png)
+![Liste déroulante des types de vue à partir de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)
 
+Les vues contiennent les paramètres personnalisés d’un type de vue spécifique, tels que la liste des champs (colonnes), une liste des enregistrements (lignes), leur ordre (tri), un filtre appliqué ou applicable et un regroupement.
+
+Les types de vue suivants peuvent être appliqués à la page des types d’enregistrement :
+
+* **Vue Tableau** : affiche les enregistrements et leurs champs, y compris les champs connectés et de recherche, sous la forme d’un tableau. Les lignes du tableau sont les enregistrements individuels et les colonnes sont les champs de l’enregistrement. La vue Tableau est la vue par défaut.
+
+  ![Exemple de vue Tableau](assets/table-view-example.png)
+
+* **Vue Chronologie** : affiche les enregistrements comportant au moins deux champs de type Date dans une ligne de temps chronologique. Vous pouvez afficher jusqu’à 5 types d’enregistrements connectés et leurs enregistrements dans la vue chronologique.
+
+  ![Regroupement appliqué dans une vue Chronologie](assets/grouping-applied-in-timeline-view.png)
+
+* **Vue Calendrier** : affiche les enregistrements comportant au moins deux champs de type Date au format d’un calendrier.
+  ![Exemple de vue Calendrier](assets/calendar-view-example.png)
+
+<!-- add List view here when it's possible to display Planning RTs in it??-->
 
 Pour plus d’informations, consultez la section [Gérer les vues des enregistrements](/help/quicksilver/planning/views/manage-record-views.md).
+
+### Automatisations
+
+Vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu&#39;elles sont activées, créent des enregistrements dans Workfront Planning lorsqu&#39;ils sont déclenchés à partir d&#39;un enregistrement Planning. Les enregistrements créés sont automatiquement connectés aux enregistrements à partir desquels vous déclenchez l’automatisation.
+
+Vous pouvez configurer et activer l’automatisation dans la page du type d’enregistrement dans Workfront Planning.
+
+Par exemple, vous pouvez créer une automatisation qui prend une campagne Workfront Planning et crée une marque à associer à la campagne.
+
+Pour plus d&#39;informations sur la création d&#39;objets à l&#39;aide d&#39;une automatisation existante, consultez [Création d&#39;objets à l&#39;aide des automatisations d&#39;enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+### Formulaires de demande
+
+Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;enregistrement dans Adobe Workfront Planning. Vous pouvez ensuite partager le formulaire avec d’autres utilisateurs qui peuvent envoyer des demandes pour créer des enregistrements de ce type.
+
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Localiser Adobe Workfront Planning
 
@@ -336,7 +393,7 @@ Pour localiser Workfront Planning :
 
 1. Connectez-vous à Workfront.
 
-{{step1-click-main-menu}}
+{{step1-click-main-menu-shell-only}}
 
 1. Cliquez sur **Planning** ![icône Planning](assets/planning-icon.png).
 
@@ -376,14 +433,6 @@ Pour localiser Workfront Planning :
 
       * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
       * [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
-
-## Activité de version Workfront Planning
-
-<!--update this with the new release activity page - the article index for all Planning releases-->
-
-Nous publions régulièrement de nouvelles fonctionnalités dans Workfront Planning.
-
-Pour obtenir une liste à jour des fonctionnalités publiées, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Ressources supplémentaires pour Workfront Planning
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '2670'
-ht-degree: 91%
+source-wordcount: '2688'
+ht-degree: 90%
 
 ---
 # Extraits de code
@@ -60,6 +60,10 @@ ht-degree: 91%
 ## Étape 1 - Cliquer sur le menu principal uniquement {#step1-click-main-menu}
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
+
+## Étape 1 - Cliquez sur Shell du menu principal uniquement {#step1-click-main-menu-shell-only}
+
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
 
 ## Étape 1 - Cliquer sur le menu principal puis sur - {#step1-click-mm-then-click}
 
