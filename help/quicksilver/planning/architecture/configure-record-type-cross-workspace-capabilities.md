@@ -270,7 +270,7 @@ Pour configurer un type d’enregistrement comme global :
 
    Lorsqu’il est activé, le type d’enregistrement est accessible et peut être connecté à à partir d’autres espaces de travail.
 
-1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
+1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
