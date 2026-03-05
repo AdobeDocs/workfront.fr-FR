@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e092a3e827d984a39ae82c73824a0aadcf4e227b
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 91%
+source-wordcount: '112'
+ht-degree: 84%
 
 ---
 
@@ -39,3 +39,6 @@ Cette section contient les articles suivants :
 * [Afficher et exporter des journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [Afficher les informations de connexion de l’utilisateur ou de l’utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Gérer les utilisateurs dans Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [Présentation des profils professionnels](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+* [Affichage et gestion des profils professionnels](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)
+
