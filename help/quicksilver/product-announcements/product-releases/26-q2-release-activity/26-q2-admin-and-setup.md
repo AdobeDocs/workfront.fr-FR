@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 19%
+source-wordcount: '466'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,23 @@ ht-degree: 19%
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du deuxième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2026, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Les trimestres personnalisés sont désormais disponibles dans la configuration sous la forme d’une page distincte
+
+>[!NOTE]
+>
+>Aperçu : 5 mars 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+La zone Trimestre personnalisé a été déplacée de la section Préférences du projet. Il s’agit désormais d’une section autonome dans la configuration. 
+Cette mise à jour comprend les éléments suivants :
+
+* La zone Trimestres personnalisés est supprimée de la section Préférences du projet dans la Configuration
+* La section Trimestres personnalisés est ajoutée au panneau de gauche Configuration . La fonctionnalité reste la même. 
+* La section Trimestres personnalisés a été supprimée de la section Préférences du projet d’un groupe. Les administrateurs et administratrices de groupe n’ont plus de visibilité sur la configuration des trimestres personnalisés. 
+
+Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Réduire la section de formulaire personnalisé par défaut
 
