@@ -8,19 +8,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2742'
-ht-degree: 95%
+source-wordcount: '2839'
+ht-degree: 91%
 
 ---
 
 # Configurer les préférences de projet pour un groupe
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Si vous êtes administrateur ou administratrice de groupes et qu’un administrateur ou une administratrice Adobe Workfront déverrouille une préférence de projet pour tous les groupes du système, vous pouvez configurer cette préférence pour votre groupe afin qu’elle affecte tous les projets créés ultérieurement par votre groupe.
 
@@ -48,7 +48,7 @@ Pour plus d’informations sur la façon dont un administrateur ou une administr
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -166,7 +166,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Planifier à partir de</td> 
+   <td role="rowheader"><b>Planifier à partir de</b></td> 
    <td> <p>Déterminez si les nouveaux projets sont planifiés à partir de la date de début ou de la date d’achèvement au moment de leur création.</p> 
     <ul> 
      <li><strong>Date de début</strong> : les nouvelles tâches sont définies par défaut sur la Contrainte de tâche Aussi Tôt que Possible et les personnes responsables de la gestion de projet sont invitées à fournir une date de début prévue pour le projet.</li> 
@@ -174,8 +174,8 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Congés de l’utilisateur ou de l’utilisatrice
-</td> 
+   <td role="rowheader"><b>Congés de l’utilisateur ou de l’utilisatrice
+</b></td> 
    <td> <p>Ce paramètre détermine si les congés de la personne cessionnaire principale d’une tâche modifient les dates prévues pour cette tâche dans le projet.</p> 
     <ul> 
      <li> <p><strong>Tenir compte des congés de l’utilisateur ou de l’utilisatrice dans les durées de tâche</strong> : tous les congés planifiés pour la personne cessionnaire principale d’une tâche impactent les dates prévues de la tâche si les congés surviennent pendant la durée de la tâche. Il s’agit du paramètre par défaut. </p> <p>Par exemple, si une tâche dont la contrainte est définie sur Aussi Tôt que Possible doit commencer le 1er juin et se terminer le 3 juin, et que la personne cessionnaire principale a enregistré des congés pour le 2 juin, les dates prévues de la tâche passent du 1er au 4 juin.</p> <p><b>IMPORTANT</b> : la durée de la tâche ne change pas lorsque vous sélectionnez ce paramètre. Seules les dates prévues changent, en fonction de la contrainte de tâche.</p> </li> 
@@ -223,7 +223,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     </ul> <p>Pour plus d’informations sur les plannings, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Créer un planning</a>.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Calculs de la chronologie </p> </td> 
+   <td role="rowheader"> <p><b>Calculs de la chronologie</b></p> </td> 
    <td> 
     <ul> 
      <li><strong>Heures types par jour de travail</strong> : définissez le nombre d’heures par jour de travail standard pour les personnes qui travailleront sur des projets. La valeur par défaut est de 8 heures.</li> 
@@ -234,7 +234,12 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Trimestres personnalisés</strong> </p> </td> 
-   <td> <p>Configurez des trimestres annuels personnalisés pour les personnes qui vont travailler sur des projets. Les trimestres personnalisés sont généralement des trimestres qui ne correspondent pas à la répartition traditionnelle des trimestres au cours d’une année civile. Vous pouvez ajouter plusieurs trimestres personnalisés. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Activer les trimestres personnalisés</a>.</p> <p><b>NOTE</b> : les administrateurs et administratrices Workfront ne peuvent pas déverrouiller les préférences des trimestres personnalisés.</p> </td> 
+   <td> 
+   <span class="preview">La zone Trimestres personnalisés a été supprimée de la section Préférences du projet du groupe dans l’environnement de prévisualisation.</span>
+   <p>Les trimestres personnalisés sont généralement des trimestres qui ne correspondent pas à la répartition traditionnelle des trimestres au cours d’une année civile. Un administrateur Workfront peut ajouter plusieurs trimestres personnalisés dans la zone <b>Configuration</b>. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Activer les trimestres personnalisés</a>.</p>  
+   <p><b>IMPORTANT<b></p>
+   <p>Vous ne pouvez pas modifier la configuration du trimestre personnalisé en tant qu’administrateur de groupe. <p>Les administrateurs de Workfront ne peuvent pas déverrouiller les préférences Trimestres personnalisés afin que les administrateurs de groupe puissent les gérer.</p> <p>La zone Trimestres personnalisés est en lecture seule pour les administrateurs de groupe.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

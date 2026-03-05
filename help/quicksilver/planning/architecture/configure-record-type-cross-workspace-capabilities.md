@@ -6,17 +6,17 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
+source-git-commit: 4713864c21d23b507f4d19d7a7955128768e077d
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 4%
+source-wordcount: '1434'
+ht-degree: 5%
 
 ---
 
 
 <!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
 
-# Configurer les fonctionnalités de l’espace de travail croisé pour les types d’enregistrements
+# Configurer des fonctionnalités entre espaces de travail pour les types d’enregistrements
 
 <!--this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL-->
 
@@ -76,8 +76,26 @@ Ou
 </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td>
+   <p>Pour créer un enregistrement global :</p>
+   <ul><li>Standard ou supérieur</li></ul>
+   <p>Pour rendre un enregistrement connectable :</p>
+   <ul><li>Administrateur ou administratrice système</li></ul>
+
+<!--replace the above with this at release:
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>In the Production environment:</li>
+   <ul><li>System Administrator</li></ul></ul>
+
+   <div class="preview">
+   <ul><li>In the Preview environment:</li>
+   <ul><li>Standard to make a record connectable from specific workspaces</li>
+   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+   </div>-->
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
@@ -252,12 +270,13 @@ Pour configurer un type d’enregistrement comme global :
 
    Lorsqu’il est activé, le type d’enregistrement est accessible et peut être connecté à à partir d’autres espaces de travail.
 
-1. Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
+1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
-   * **Tous les espaces de travail** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations de gestion.
+   * **Tous les espaces de travail** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations de gestion. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
    * **Espaces de travail spécifiques** : dans le menu déroulant, ajoutez les noms des espaces de travail auxquels les responsables d’espace de travail peuvent se connecter à ce type d’enregistrement.
+
 1. (Conditionnel) Cliquez sur **Enregistrer** dans la zone **Modifier le type d’enregistrement** ou cliquez sur la flèche vers l’arrière à gauche de **Paramètres** dans l’en-tête de page pour enregistrer vos modifications.
 
    Les événements suivants se produisent :

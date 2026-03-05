@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4066'
 ht-degree: 36%
 
 ---
@@ -176,7 +176,7 @@ Pour gérer une vue chronologique :
 
      >[!TIP]
      >
-     >Ce message ne doit s&#39;afficher qu&#39;immédiatement après l&#39;activation des trimestres Planning et personnalisés par votre organisation avant l&#39;achat. Les chevauchements et les écarts entre les trimestres ne sont pas autorisés après l’activation de Workfront Planning pour votre organisation.
+     >Ce message doit s&#39;afficher immédiatement après l&#39;activation des trimestres Planning et personnalisés par votre organisation avant l&#39;achat. Les chevauchements et les écarts entre les trimestres ne sont pas autorisés après l’activation de Workfront Planning pour votre organisation.
 
    * Si des trimestres ont été partiellement configurés et qu&#39;il manque certains mois de la même année, vous pouvez recevoir une notification lorsque vous faites défiler l&#39;écran pour afficher les trimestres manquants. Ainsi, le reste de l&#39;année doit être configuré avec les trimestres manquants.
 
@@ -251,7 +251,7 @@ Pour gérer une vue chronologique :
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-   * [Regroupement &#x200B;](#add-grouping)
+   * [Regroupement ](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 

@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 60%
+source-wordcount: '451'
+ht-degree: 49%
 
 ---
 
 # Activer les trimestres personnalisés
 
-<!--Audited: 11/2024-->
+<!--Audited: 03/2026-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 À des fins de création de rapports, vous pouvez créer des trimestres personnalisés si les trimestres de votre organisation sont basés sur des critères spécifiques autres que les dates du calendrier (tels que les jours ouvrables ou les jours d’achats).
 
@@ -58,9 +62,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Projets].**
+1. (Conditionnel) Selon l’environnement à partir duquel vous accédez aux trimestres personnalisés, effectuez l’une des opérations suivantes :
 
-1. Dans la section **[!UICONTROL Chronologies]**, sélectionnez **[!UICONTROL Activer les trimestres personnalisés]**.
+   * Dans l’environnement de production, cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Projets].**
+   * <span class="preview">Dans l’environnement Aperçu, cliquez sur **[!UICONTROL Trimestres personnalisés]**.</span>
+
+1. Sélectionnez **[!UICONTROL Activer les trimestres personnalisés]**.
 
 1. Saisissez un nom pour le trimestre personnalisé, par exemple « T1 exercice 2021 ».
 1. Sélectionnez les dates de début et de fin du trimestre personnalisé.
@@ -77,7 +84,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. (Facultatif et conditionnel) Si votre société a acheté uniquement des [!DNL Workfront], sans [!DNL Workfront Planning], créez un élément de reporting qui fait référence aux trimestres fiscaux.
 
-
    **Exemple :** créez un filtre pour une liste de [!UICONTROL projets] et incluez la date d’achèvement prévue d’un projet faisant référence aux trimestres personnalisés.
 
    ![Filtre de projet avec trimestres personnalisés](assets/example-of-project-filter-with-custom-quarters.png)
@@ -87,5 +93,5 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    Pour plus d’informations sur les éléments de création de rapports, voir [Éléments de création de rapports : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
    Pour plus d’informations sur la création de filtres, voir [Créer ou modifier des filtres dans  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
-1. (Facultatif et conditionnel) Si vous avez accès à [!DNL Workfront Planning], accédez à une page de type enregistrement et ouvrez une vue chronologique. La vue affiche les nouveaux trimestres personnalisés.
+1. (Facultatif et conditionnel) Si votre société a acheté Workfront Planning et que vous avez accès à [!DNL Workfront Planning], accédez à une page de type d’enregistrement et affichez une vue chronologique. La vue affiche les nouveaux trimestres personnalisés.
 Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
