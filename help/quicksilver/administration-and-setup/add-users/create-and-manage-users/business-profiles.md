@@ -8,7 +8,10 @@ description: Les profils métier constituent un modèle d’autorisation amélio
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: e092a3e827d984a39ae82c73824a0aadcf4e227b
+hide: true
+hidefromtoc: true
+exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
+source-git-commit: 1389c6a1f41a14bafd6b70e2e079e40d22d47b07
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 2%
@@ -116,4 +119,3 @@ Pour plus d&#39;informations sur la façon dont les niveaux d&#39;accès et les 
 * Lorsqu’un groupe est supprimé de Workfront, tous les profils professionnels attribués à ce groupe sont supprimés des utilisateurs associés.
 * Si un niveau d’accès fait partie d’un profil professionnel et que vous supprimez le niveau d’accès, vous êtes invité à choisir un nouveau niveau d’accès à utiliser à la place.
 * Les mises à jour des profils métier sont suivies dans les journaux d’audit Workfront. Pour plus d’informations, voir Présentation des journaux d’audit.
- 
