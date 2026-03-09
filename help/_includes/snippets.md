@@ -1,5 +1,5 @@
 ---
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 90%
@@ -7,7 +7,8 @@ ht-degree: 90%
 ---
 # Extraits de code
 
-<!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+<!-- 
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
 <!-- General -->
 
@@ -220,78 +221,66 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 1. (Le cas échéant) Régler les paramètres du workflow d’épreuve automatisé
 
    <table>
-      <tr>
-         <td colspan="2" ><strong>Étapes d’épreuve</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Désactiver les étapes
-         </td>
-         <td>
+   <tr>
+      <td colspan="2" ><strong>Étapes d’épreuve</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Désactiver les étapes
+      </td>
+      <td>
       <ol>
-
-   <li>Activez Sélectionner tout pour désactiver toutes les étapes. 
+      <li>Activez Sélectionner tout pour désactiver toutes les étapes. 
       <p>Ou</p></li>
       <li>Activer des étapes individuelles.</li>
-
-   </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Ajouter des personnes destinataires
-         </td>
-         <td>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Ajouter des personnes destinataires
+      </td>
+      <td>
       <ol>
-
-   <li>Dans la case Ajouter un nouvelle personne destinataire, commencez à saisir le nom de l’utilisateur ou de l’utilisatrice.
-
-   <li>Indiquez le rôle d’épreuve.
-
-   <li>Choisissez le type d’alerte par e-mail de la personne destinataire. 
+      <li>Dans la case Ajouter un nouvelle personne destinataire, commencez à saisir le nom de l’utilisateur ou de l’utilisatrice.</li>
+      <li>Indiquez le rôle d’épreuve.</li>
+      <li>Choisissez le type d’alerte par e-mail de la personne destinataire.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Définir une date limite
+      </td>
+      <td>
+      <ol>
+      <li>Choisissez une date limite.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" ><strong>Notifications par e-mail</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Notifier les personnes destinataires de l’épreuve
+      </td>
+      <td>
+      <ol>
+      <li>Activez la case à cocher pour informer les utilisateurs et utilisatrices lorsque l’épreuve est créée.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Ajouter un message personnalisé
+      </td>
+      <td>
+      <ol>
+      <li>Saisissez un objet.
+      <li>Saisissez le message personnalisé.
       </li>
       </ol>
-         </td>
+      </td>
       </tr>
-      <tr>
-         <td>Définir une date limite
-         </td>
-         <td>
-      <ol>
-
-   <li>Choisissez une date limite.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td colspan="2" ><strong>Notifications par e-mail</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Notifier les personnes destinataires de l’épreuve
-         </td>
-         <td>
-      <ol>
-
-   <li>Activez la case à cocher pour informer les utilisateurs et utilisatrices lorsque l’épreuve est créée.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Ajouter un message personnalisé
-         </td>
-         <td>
-      <ol>
-
-   <li>Saisissez un objet.
-
-   <li>Saisissez le message personnalisé.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      </table>
+   </table>
 
 <!-- Workfront Planning -->
 
@@ -318,7 +307,8 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 > 
 >Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-<!--Old - before Oct. 15, 2025:
+<!--
+Old - before Oct. 15, 2025:
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
@@ -331,9 +321,11 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
-<!--OLD: 
+<!--
+OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -464,11 +456,11 @@ Vous pouvez modifier le statut appliqué à l’élément de travail à l’aide
    >* Les types de problèmes sont personnalisables et peuvent avoir des noms différents de ceux énumérés ci-dessous dans votre environnement.\
    >  Les tâches et les types de problèmes par défaut sont décrits ci-dessous :
    >     
-   >   * Tâches
-   >   * Problème
-   >   * Demande
-   >   * Modifier l&#39;ordre
-   >   * Rapport sur les bogues
+   >  * Tâches
+   >  * Problème
+   >  * Demande
+   >  * Modifier l&#39;ordre
+   >  * Rapport sur les bogues
 
    Si l’élément (tâche ou problème) est affecté à plusieurs personnes, l’option « J’ai fait ma part » s’affiche dans le menu déroulant, en plus des différents statuts choisis pour votre équipe.
 
@@ -530,5 +522,4 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
-
 
