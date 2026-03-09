@@ -6,10 +6,10 @@ description: Cet article explique comment trouver et gérer des objectifs dans A
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 74%
+source-wordcount: '376'
+ht-degree: 82%
 
 ---
 
@@ -24,9 +24,9 @@ Cet article explique comment trouver et gérer des objectifs stratégiques dans 
 
 >[!NOTE]
 >
->Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>Votre entreprise peut choisir de continuer à utiliser les Objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant ou représentante de compte.
 >
->Adobe Workfront Goals ne peut plus être acheté.
+>Objectifs Adobe Workfront ne peut plus être acheté.
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -39,13 +39,14 @@ Cet article explique comment trouver et gérer des objectifs stratégiques dans 
   <tr>
   <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTE</b></p>
+<p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
   </tr>
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 

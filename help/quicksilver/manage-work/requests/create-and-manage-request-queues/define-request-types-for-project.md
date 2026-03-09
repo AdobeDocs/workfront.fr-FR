@@ -3,13 +3,13 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Définition des types de demande pour un projet
 description: Vous pouvez organiser le type de problèmes ou de demandes consignés dans Adobe Workfront par types de demandes.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 58%
+ht-degree: 59%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez organiser le type de problèmes ou de demandes consignés dans Adobe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

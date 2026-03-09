@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Créer une Forms d’admission de projets
 description: Vous pouvez utiliser les formulaires de réception de projets pour simplifier le processus de création de projets dans Workfront
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5ff71313c550d949079e7426b657a0a4e19a656c
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 6%
@@ -55,7 +55,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -178,7 +178,7 @@ Les formulaires de réception de projets ne prennent pas en charge le partage pu
    * Tous les approbateurs doivent prendre une décision avant qu&#39;un projet ne soit approuvé ou rejeté.
    * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire.
 

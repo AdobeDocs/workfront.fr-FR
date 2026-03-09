@@ -1,12 +1,12 @@
 ---
 title: Copie et envoi de demandes
 description: Lorsque vous soumettez fréquemment des demandes similaires, vous pouvez copier une demande déjà soumise. Dans ce cas, vous pouvez copier une demande existante, y apporter des modifications minimes et la soumettre à nouveau en tant que nouvelle demande.
-author: Becky
+author: Alina
 feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 82%
@@ -32,7 +32,7 @@ Lorsque vous soumettez fréquemment des demandes similaires, vous pouvez copier 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure</p>
+   <td> <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p>
     </td> 
   </tr> 

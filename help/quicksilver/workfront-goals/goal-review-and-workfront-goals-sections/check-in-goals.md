@@ -2,14 +2,14 @@
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Mettre à jour la progression des objectifs dans Adobe Workfront Goals
-description: Vous devez revoir vos objectifs périodiquement et actualiser leur progression pour vous assurer qu’ils ne prennent pas de retard et qu’ils ne risquent pas de ne pas être atteints.
+description: Vous devez revoir vos objectifs périodiquement et mettre à jour leur progression pour vous assurer qu’ils ne prennent pas de retard et qu’ils ne risquent pas de ne pas être atteints.
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 87%
+source-wordcount: '643'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 87%
 
 <!-- Audited for P&P only: 10/2025-->
 
-Vous devez revoir vos objectifs périodiquement et actualiser leur progression pour vous assurer qu’ils ne prennent pas de retard et qu’ils ne risquent pas de ne pas être atteints.
+Vous devez revoir vos objectifs périodiquement et mettre à jour leur progression pour vous assurer qu’ils ne prennent pas de retard et qu’ils ne risquent pas de ne pas être atteints.
 
 <!--And: take this last sentence ^^ out when you update this for goal redesign production.-->
 
@@ -25,9 +25,9 @@ Vous devez revoir vos objectifs périodiquement et actualiser leur progression p
 
 >[!NOTE]
 >
->Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>Votre entreprise peut choisir de continuer à utiliser les Objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant ou représentante de compte.
 >
->Adobe Workfront Goals ne peut plus être acheté.
+>Objectifs Adobe Workfront ne peut plus être acheté.
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -38,15 +38,16 @@ Vous devez revoir vos objectifs périodiquement et actualiser leur progression p
 </col>
 <tbody>
  <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTE</b></p>
+<p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront</td>
  <td>
- <p>Contributeur ou version ultérieure</p>
+ <p>Contributeur ou supérieur</p>
 <p>Requête ou supérieure</p></td>
  </tr>
   <tr>

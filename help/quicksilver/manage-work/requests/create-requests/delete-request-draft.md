@@ -3,17 +3,17 @@ product-area: requests
 navigation-topic: create-requests
 title: Supprimer une demande envoyée en tant que brouillon de demande
 description: Vous pouvez supprimer des demandes envoyées ou des brouillons de demandes.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 32%
+ht-degree: 34%
 
 ---
 
-# Supprimer une demande soumise ou un brouillon de demande
+# Supprimer une requête envoyée ou un brouillon de requête
 
 Vous pouvez supprimer des demandes envoyées ou des brouillons de demandes que vous avez créés dans la nouvelle expérience de demande. Les administrateurs Workfront et les administrateurs de Planning Workspace peuvent également supprimer des requêtes.
 
@@ -38,7 +38,7 @@ Pour plus d’informations, voir :
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure</p>
+   <td> <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p>
     </td> 
   </tr> 

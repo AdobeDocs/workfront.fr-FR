@@ -3,11 +3,11 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Créer des rubriques de file d’attente
 description: Les rubriques de file d’attente fonctionnent conjointement avec les règles de transmission pour affecter automatiquement le travail entrant à une personne, une fonction, une équipe ou pour le placer sur un projet. Les rubriques de la file d’attente définissent les conditions nécessaires à la mise en œuvre de la règle de transmission.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 79%
@@ -63,7 +63,7 @@ Une fois créées, vous ne pouvez pas déplacer les rubriques de file d’attent
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 

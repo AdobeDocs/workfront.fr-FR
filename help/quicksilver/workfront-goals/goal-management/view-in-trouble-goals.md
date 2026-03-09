@@ -6,10 +6,10 @@ description: Les objectifs dont la progression est En difficulté risquent de ne
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 77%
+source-wordcount: '761'
+ht-degree: 81%
 
 ---
 
@@ -27,9 +27,9 @@ Les objectifs dont la progression est En difficulté risquent de ne pas être at
 
 >[!NOTE]
 >
->Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>Votre entreprise peut choisir de continuer à utiliser les Objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant ou représentante de compte.
 >
->Adobe Workfront Goals ne peut plus être acheté.
+>Objectifs Adobe Workfront ne peut plus être acheté.
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -42,13 +42,14 @@ Les objectifs dont la progression est En difficulté risquent de ne pas être at
  <tr>
   <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTE</b></p>
+<p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront</td>
  <td>
- <p>Contributeur ou version ultérieure</p>
+ <p>Contributeur ou supérieur</p>
 <p>Requête ou supérieure</p></td>
  </tr>
   <tr>

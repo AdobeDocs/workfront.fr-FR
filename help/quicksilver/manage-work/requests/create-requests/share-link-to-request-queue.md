@@ -1,13 +1,13 @@
 ---
 title: Partage d’un lien vers une file d’attente des demandes
 description: Vous pouvez partager un lien vers une file d’attente des demandes, un groupe de rubriques ou une rubrique de file d’attente lorsque vous soumettez la demande.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez partager un lien vers une file d’attente des demandes, un groupe d
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure</p>
+   <td> <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p>
     </td> 
   </tr> 

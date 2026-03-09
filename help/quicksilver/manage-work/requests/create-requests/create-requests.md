@@ -4,14 +4,14 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: Créer des demandes
 description: Les demandes et les problèmes sont interchangeables dans Adobe Workfront. Vous pouvez créer des demandes en envoyant une demande dans Workfront, dans une autre application ou par e-mail dans un projet défini comme une file d’attente des demandes.
-author: Becky
+author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 3c5f7d54e29398b61ffd15b71dbfd462aabd7a0c
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 79%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Pour plus d’informations sur la création, la soumission ou l’envoi de deman
 * [Autoriser les utilisateurs et utilisatrices à envoyer un problème par e-mail dans un projet de la file d’attente des demandes](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
 * [Localiser les demandes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Partager un lien vers une file d’attente des demandes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
-* [Supprimer une demande soumise ou un brouillon de demande](../../../manage-work/requests/create-requests/delete-request-draft.md)
-* [Remplir automatiquement une demande à partir des données précédentes](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
-* [Créer et gérer des vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
-* [Utilisez le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Supprimer une requête envoyée ou un brouillon de requête](../../../manage-work/requests/create-requests/delete-request-draft.md)
+* [Remplir automatiquement une requête à partir de données antérieures](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [Créer et gérer des vues dans la zone Requêtes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
+* [Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide de prompts ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)

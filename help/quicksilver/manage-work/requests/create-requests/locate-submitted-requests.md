@@ -3,15 +3,15 @@ product-area: requests
 navigation-topic: create-requests
 title: Afficher les demandes envoyées
 description: Découvrez les zones d’Adobe Workfront dans lesquelles vous pouvez afficher les requêtes que vous ou une autre personne avez envoyées ou les requêtes que vous n’avez jamais envoyées et qui ont été enregistrées en tant que brouillons.
-author: Becky
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 38%
+source-wordcount: '1363'
+ht-degree: 44%
 
 ---
 
@@ -49,7 +49,7 @@ La zone des Demandes affiche les demandes suivantes, selon la manière dont vous
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure</p>
+   <td> <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p>
     </td> 
   </tr> 
@@ -85,39 +85,32 @@ Vous pouvez afficher les demandes envoyées dans la zone Demandes, qui contient 
 
 >[!NOTE]
 >
->Les liens vers les objets créés ne sont disponibles dans la nouvelle expérience de requête que pour les requêtes Planning, dans les cas où la requête elle-même a créé un objet. Si une requête Workfront est convertie en projet ou en un autre objet, un lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de requête.
+>Les liens vers les objets créés ne sont disponibles dans la nouvelle expérience de requête que pour les requêtes Planning, dans les cas où la requête elle-même a créé un enregistrement.
+>
+>Si une requête Workfront est convertie en projet ou en un autre objet, le lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de création de requêtes.
 
 Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans la nouvelle expérience de requête :
 
 {{step1-to-requests}}
 
-1. Assurez-vous que le bouton (bascule) **Utiliser une nouvelle expérience** dans le coin supérieur droit de l’écran est activé.
+1. Assurez-vous que le paramètre **Utiliser une nouvelle expérience** dans le coin supérieur droit de l’écran est activé.
 
-   La liste Demandes s’affiche.
+   La liste des requêtes s’affiche.
 
-1. (Facultatif) Pour rechercher une requête, commencez à saisir du texte dans la barre de recherche située en haut à droite de la liste. Les résultats de la recherche s’affichent au fur et à mesure que vous tapez.
+1. (Facultatif) Pour rechercher une requête, commencez à saisir du texte dans la barre de recherche située dans le coin supérieur droit de la liste. Les résultats de la recherche s’affichent au fur et à mesure que vous tapez.
 1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez afficher.
 
-   Vous pouvez filtrer selon les champs suivants :
+   Pour plus d’informations sur les filtres, voir [Création et gestion des vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-   * **Workspace** : espace de travail auquel le formulaire de demande est associé.
-   * **Type d’enregistrement** : type d’enregistrement auquel le formulaire de demande est associé.
-   * **Date d’entrée** : date à laquelle la demande a été soumise.
-   * **Formulaire de demande** : nom du formulaire de demande utilisé pour soumettre la demande.
-   * **Statut** : statut de la demande.
-   * **Saisi par** : nom de l’utilisateur qui a ajouté la demande. Si la demande a été ajoutée par une personne extérieure à Workfront, le champ **Saisi par** affiche `N/A`.
+1. (Facultatif) Cliquez sur le menu déroulant **Vues** pour mettre à jour votre vue ou la partager avec d’autres utilisateurs.
 
-   Plusieurs filtres peuvent être joints par **Et** ou **Ou**.
-La liste des demandes est automatiquement filtrée à mesure que vous ajoutez les conditions de filtrage.
-1. (Facultatif) Utilisez des vues pour placer le focus sur les requêtes que vous souhaitez afficher.
-
-   Pour obtenir des instructions, voir [Création ou modification de vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne Statut . Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
+   Pour plus d’informations, voir [Création ou modification de vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne **Statut**. Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
 
    * **Brouillon** : cette demande n&#39;a pas encore été soumise.
    * **Révision en attente** : (Planification uniquement) cette demande a des approbateurs et aucun d&#39;entre eux n&#39;a ouvert la demande.
    * **En révision** : (Planification uniquement) cette demande a des approbateurs et au moins un approbateur a ouvert la demande, mais aucune décision n&#39;a été prise.
-   * **Rejeté** : (Planning uniquement) Cette demande contient des approbateurs et a été rejetée.
+   * **Rejeté** : (Planning uniquement) Cette demande contient des approbateurs et a été rejetée. Cette demande ne créera pas d’enregistrement.
    * **En cours** :
       * Demandes Workfront : la demande a été convertie et le travail est en cours.
       * Demandes Planning Workfront : l’achèvement de la demande est mappé à un champ Planning spécifique et la valeur du champ ne correspond pas encore à la valeur d’achèvement.
@@ -127,8 +120,8 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 
 >[!NOTE]
 >
->* Si vous disposez de Workfront Planning, vos demandes Workfront et Planning apparaissent dans la même liste. Les requêtes Workfront affichent la valeur `Issue` dans la colonne Type d’objet .
->* La liste Demandes s’affiche avec 50 demandes. Pour afficher plus de requêtes, faites défiler la liste vers le bas.
+>* Si vous disposez de Workfront Planning, vos demandes Workfront et Planning apparaissent dans la même liste. Les requêtes Workfront affichent la valeur `Issue` dans la colonne **Type d’objet**.
+>* Jusqu’à 50 requêtes s’affichent par défaut dans la liste de la zone des Requêtes . Pour afficher plus de requêtes, faites défiler la liste vers le bas.
 
 ### Afficher les demandes envoyées dans l’expérience de demande héritée
 
@@ -234,15 +227,17 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
 
 1. (Facultatif) Cliquez sur l’icône **Filtrer la page** ![Icône Rechercher](assets/search-icon.png) en haut de la liste pour rechercher une requête par nom. La liste est mise à jour avec les résultats correspondant à vos critères de recherche.
 
-1. (Conditionnel) Pour afficher uniquement les files d’attente des demandes Workfront, recherchez ou filtrez les types d’objets `Issue`.</span>
-
-
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+
+   1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
+   <li> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   -->
+
+   <!--
+   <li>(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
    <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
@@ -262,19 +257,18 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
 
 1. Cliquez sur **Brouillons** pour visualiser toutes les demandes en préparation. Workfront enregistre un nombre illimité de brouillons pour chaque file d’attente de demandes dans ce dossier. Lorsque vous saisissez une nouvelle demande pour une rubrique de file d’attente qui comporte déjà un brouillon, l’utilisation d’un brouillon existant vous est proposée. Pour plus d’informations, consultez la section [Créer des demandes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-1. (Facultatif et conditionnel) Si votre entreprise a acheté un package Workfront Planning, cliquez sur l’onglet **Planning**, puis sur **Soumis** dans le panneau de gauche pour afficher les demandes Workfront Planning.
+   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
+      Use **Filters** and **Columns** to update the information in the Planning request list. 
+      ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+      For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+   -->
 
-   Utilisez **Filtres** et **Colonnes** pour mettre à jour les informations de la liste des demandes Planning.
 
-   ![Onglet Planification de la section Soumis de la zone Demandes](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne **Statut**. Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
 
-   Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
-
-
-1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne Statut . Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
-
-   * Brouillon : cette demande n&#39;a pas encore été soumise.
-   * En cours
-   * Terminé
+   * **Brouillon** : cette demande n&#39;a pas encore été soumise.
+   * **En cours**
+   * **Terminé**
 
 

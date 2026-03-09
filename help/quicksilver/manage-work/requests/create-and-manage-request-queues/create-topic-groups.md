@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Créer des groupes de sujets
 description: Les groupes de sujets sont associés aux files d’attente des demandes. Ils vous permettent de classer vos files d’attente des demandes en plusieurs catégories, en fonction de la nature des demandes.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 83%

@@ -4,13 +4,13 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: Créer et gérer des files d’attente de demandes
 description: Vous pouvez créer des files d’attente des demandes dans Adobe Workfront pour capturer le travail non prévu de votre entreprise. Les articles suivants décrivent comment configurer des projets pour qu’ils fonctionnent comme des files d’attente des demandes.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: a5827c25cf3a10a8664cabbd2f23bdc635ab8041
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 92%

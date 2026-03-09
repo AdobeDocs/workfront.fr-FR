@@ -6,10 +6,10 @@ description: Si vous êtes une personne contributrice individuelle avec un objec
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 87%
+source-wordcount: '739'
+ht-degree: 91%
 
 ---
 
@@ -37,9 +37,9 @@ Cet article décrit comment aligner des objectifs en les connectant les uns aux 
 
 >[!NOTE]
 >
->Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>Votre entreprise peut choisir de continuer à utiliser les Objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant ou représentante de compte.
 >
->Adobe Workfront Goals ne peut plus être acheté.
+>Objectifs Adobe Workfront ne peut plus être acheté.
 
 +++Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -48,14 +48,16 @@ Cet article décrit comment aligner des objectifs en les connectant les uns aux 
  <col> 
  <tbody>
 
-<td> <p>Package Adobe Workfront</p> </td> 
+<td> <p>Package Adobe Workfront</p> 
+  </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p> <p><b>NOTE</b></p>
+<p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
   </tr> 
   <tr> 
    <td> <p>Licence Adobe Workfront</p> </td> 
-   <td> <p>Contributeur ou version ultérieure</p> 
+   <td> <p>Contributeur ou supérieur</p> 
      <p>Demandeur ou supérieur</p> </td> 
   </tr>
 
@@ -195,7 +197,7 @@ Aligning goals by connecting them differs depending on what environment you use.
    Les objectifs alignés s’affichent dans la section Alignement des objectifs, l’objectif 2 venant après l’objectif 1.
 L’objectif enfant s’affiche dans la section Indicateurs de progression de l’objectif parent lorsque sa progression met à jour la progression de l’objectif parent.
 
-   ![&#x200B; Cartes alignées &#x200B;](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![ Cartes alignées ](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. (Facultatif) Pour afficher les objectifs dans la section Alignement des objectifs, accédez à la zone Objectifs de Workfront, puis cliquez sur le bouton **Alignement des objectifs** dans le panneau de gauche. Pour plus d’informations sur la section Alignement des objectifs, voir [Accéder à la section Alignement des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 

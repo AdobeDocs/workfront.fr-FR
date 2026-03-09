@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: Création et soumission de demandes
 description: Le travail prévu est représenté dans Adobe Workfront par des projets et des tâches. Cependant, il se peut que vous travailliez dans un environnement où du travail non prévu - sous forme de demandes aléatoires - peut arriver à tout moment. Workfront fournit un workflow permettant de répondre à ce type d’environnement grâce à l’utilisation de files d’attente des demandes.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '2575'
 ht-degree: 81%
@@ -60,7 +60,7 @@ Vous pouvez créer entièrement une demande Workfront Planning pour créer des e
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure</p>
+   <td> <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p>
     </td> 
   </tr> 

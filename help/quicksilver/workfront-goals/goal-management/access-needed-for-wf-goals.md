@@ -7,10 +7,10 @@ description: Votre administrateur Adobe Workfront doit s’assurer que certaines
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 71%
+source-wordcount: '676'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,13 @@ ht-degree: 71%
 
 Votre administrateur ou administratrice Adobe Workfront doit s’assurer que toutes les conditions suivantes sont remplies avant que vous puissiez accéder à Objectifs Adobe Workfront :
 
-* Votre entreprise a acheté un package Objectifs Adobe Workfront dans le passé. Adobe Workfront Goals ne peut plus être acheté.
+* Votre organisation doit disposer d’un package Workfront Ultimate.
+
+  Workfront Goals n’est pas disponible pour les packages de workflow Workfront.
+
+  Contactez le représentant de votre compte Workfront si vous renouvelez actuellement Workfront et si vous souhaitez conserver les objectifs Workfront.
+
+  Si vous êtes un nouveau client, Workfront Goals ne peut plus être acheté.
 
   Pour plus d’informations, consultez la section [Accès à l’organisation Workfront Goals](#obtain-workfront-goals-organization-access) de cet article.
 
@@ -37,7 +43,7 @@ Votre administrateur ou administratrice Adobe Workfront doit s’assurer que to
   >Par défaut, les utilisateurs n’ont pas accès aux objectifs dans leur niveau d’accès.
 
 
-* Attribuez-vous le modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
+* Attribuez-vous un modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
 
   >[!NOTE]
   >
@@ -52,7 +58,9 @@ Votre administrateur ou administratrice Adobe Workfront doit s’assurer que to
 ## Obtenir l’accès d’entreprise aux Objectifs Workfront {#obtain-workfront-goals-organization-access}
 
 Le dernier package Adobe Workfront qui incluait les objectifs de Workfront était Adobe Workfront Ultimate.
+
 Les objectifs Workfront ne peuvent plus être achetés pour les packages plus récents.
+
 Contactez votre représentant de compte pour en savoir plus sur les objectifs Workfront.
 
 <!--Old: >
@@ -72,7 +80,7 @@ Si votre société a accès aux objectifs Workfront d’un achat précédent, vo
 
 1. L&#39;une des licences suivantes :
 
-   * Contributeur ou version ultérieure
+   * Contributeur ou supérieur
    * Requête ou supérieure
 
 <!--Old: 

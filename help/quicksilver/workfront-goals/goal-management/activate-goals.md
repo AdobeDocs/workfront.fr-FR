@@ -6,10 +6,10 @@ description: Lorsque vous créez un objectif, Objectifs Adobe Workfront l’enr
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 79%
+source-wordcount: '439'
+ht-degree: 86%
 
 ---
 
@@ -32,9 +32,9 @@ Pour plus d’informations sur la création d’un objectif, voir la section [Cr
 
 >[!NOTE]
 >
->Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>Votre entreprise peut choisir de continuer à utiliser les Objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant ou représentante de compte.
 >
->Adobe Workfront Goals ne peut plus être acheté.
+>Objectifs Adobe Workfront ne peut plus être acheté.
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -45,9 +45,10 @@ Pour plus d’informations sur la création d’un objectif, voir la section [Cr
 </col>
 <tbody>
   <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTE</b></p>
+<p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
   </tr> 
   <tr>

@@ -6,10 +6,10 @@ description: Vous pouvez modifier les objectifs existants de n’importe quelle 
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 80%
+source-wordcount: '576'
+ht-degree: 85%
 
 ---
 
@@ -23,9 +23,9 @@ Vous pouvez modifier les objectifs existants de n’importe quelle période et d
 
 >[!NOTE]
 >
->Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>Votre entreprise peut choisir de continuer à utiliser les Objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant ou représentante de compte.
 >
->Adobe Workfront Goals ne peut plus être acheté.
+>Objectifs Adobe Workfront ne peut plus être acheté.
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -38,13 +38,14 @@ Vous pouvez modifier les objectifs existants de n’importe quelle période et d
  <tr>
   <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTE</b></p>
+<p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront</td>
  <td>
- <p>Contributeur ou version ultérieure</p>
+ <p>Contributeur ou supérieur</p>
 <p>Requête ou supérieure</p></td>
  </tr>
   <tr>

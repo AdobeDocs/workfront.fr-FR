@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 14794bc7c65cd1863412ea278a1a199b6452c4e0
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '13790'
+source-wordcount: '13793'
 ht-degree: 98%
 
 ---
@@ -2101,7 +2101,7 @@ ht-degree: 98%
       * [Partager un objectif dans Objectifs Workfront](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Activer les notifications d’Objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Workfront Planning {#adobe-workfront-planning}
-   * [Informations générales sur Adobe Workfront Planning](planning/planning-information.md)
+   * [Index des informations générales et des articles pour Adobe Workfront Planning](planning/planning-information.md)
    * Informations générales sur Adobe Workfront Planning {#adobe-workfront-planning-general-information}
       * [Informations générales sur Adobe Workfront Planning : index des articles](planning/general/planning-general-article-index.md)
       * [Commencer à utiliser Adobe Workfront Planning](planning/general/planning-overview.md)

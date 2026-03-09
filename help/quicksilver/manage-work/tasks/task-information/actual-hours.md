@@ -7,9 +7,9 @@ description: Les heures que vous enregistrez pour vos tâches dans Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1270'
 ht-degree: 27%
 
 ---
@@ -201,7 +201,9 @@ Vous devez tenir compte de la conversion de minutes en heures lors de l’accès
 
 Les heures réelles consignées pour les projets, tâches ou événements sont actuellement stockées dans la base de données Workfront sous la forme de minutes et leur champ de valeur est `actualWorkRequired`.
 
-La publication de la version suivante de l’API Workfront est prévue pour fin 2025. Les heures réelles sont stockées dans les champs et unités suivants de la base de données :
+Depuis octobre 2025, avec l’API version 21, les heures effectives sont stockées dans les champs et unités suivants de la base de données :
+
+<!--above used to be this: With the following version of the Workfront API scheduled to release later in 2025, Actual Hours are stored in the following fields and units in the database: -->
 
 * **Heures réelles** : heures enregistrées pour un projet, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
 * **Heures réelles héritées** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, y compris avant mai 2021. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.

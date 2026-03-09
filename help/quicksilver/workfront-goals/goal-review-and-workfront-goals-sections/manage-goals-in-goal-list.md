@@ -6,10 +6,10 @@ description: Une fois que vous ou d’autres personnes avez créé des objectifs
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 78%
+source-wordcount: '755'
+ht-degree: 82%
 
 ---
 
@@ -25,9 +25,9 @@ Une fois que vous ou d’autres personnes avez créé des objectifs, vous pouvez
 
 >[!NOTE]
 >
->Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>Votre entreprise peut choisir de continuer à utiliser les Objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant ou représentante de compte.
 >
->Adobe Workfront Goals ne peut plus être acheté.
+>Objectifs Adobe Workfront ne peut plus être acheté.
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -38,15 +38,16 @@ Une fois que vous ou d’autres personnes avez créé des objectifs, vous pouvez
 </col>
 <tbody>
  <tr>
-  <td> <p>Package Adobe Workfront</p> </td> 
+  <td> <p>Package Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTE</b></p>
+<p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licence Adobe Workfront</td>
  <td>
- <p>Contributeur ou version ultérieure</p>
+ <p>Contributeur ou supérieur</p>
 <p>Requête ou supérieure</p></td>
  </tr>
   <tr>
