@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4713864c21d23b507f4d19d7a7955128768e077d
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 5%
@@ -14,11 +14,15 @@ ht-degree: 5%
 ---
 
 
-<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
+<!--
+*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************
+-->
 
 # Configurer des fonctionnalités entre espaces de travail pour les types d’enregistrements
 
-<!--this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL-->
+<!--
+this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL
+-->
 
 {{planning-important-intro}}
 
@@ -82,18 +86,21 @@ Ou
    <p>Pour rendre un enregistrement connectable :</p>
    <ul><li>Administrateur ou administratrice système</li></ul>
 
-<!--replace the above with this at release:
+<!--
+   replace the above with this at release:
    <p>To make a record global:</p>
    <ul><li>Standard or higher</li></ul>
    <p>To make a record connectable:</p>
    <ul><li>In the Production environment:</li>
    <ul><li>System Administrator</li></ul></ul>
-
+   -->
+<!--
    <div class="preview">
    <ul><li>In the Preview environment:</li>
    <ul><li>Standard to make a record connectable from specific workspaces</li>
    <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
-   </div>-->
+   </div>
+   -->
 
 </td> 
   </tr> 
@@ -109,8 +116,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++   
 
-<!--Old:
-
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -119,7 +126,6 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 <tbody> 
     <tr> 
 <tr> 
-
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
@@ -146,12 +152,15 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Configuration des types d’enregistrements globaux
 
-<!--this is a UI term; don't change the title of this section-->
+<!--
+this is a UI term; don't change the title of this section
+-->
 
 En tant que gestionnaire d’espace de travail, vous pouvez configurer un type d’enregistrement en tant que type d’enregistrement global. Un type d’enregistrement global peut être ajouté à d’autres espaces de travail.
 
@@ -262,7 +271,7 @@ Pour configurer un type d’enregistrement comme global :
 
    Ou, si vous avez cliqué sur **Paramètres**, cliquez sur la section **Paramètres de l’espace de travail transversal** dans le panneau de gauche.
 
-1. Activez le paramètre **Autoriser la connexion à ce type d’enregistrement dans d’autres espaces de travail**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
+1. Activez le paramètre **Autoriser la connexion à ce type d’enregistrement dans d’autres espaces de travail**.
 
    <!-- add new screen shot with new tab name-->
 
@@ -270,7 +279,7 @@ Pour configurer un type d’enregistrement comme global :
 
    Lorsqu’il est activé, le type d’enregistrement est accessible et peut être connecté à à partir d’autres espaces de travail.
 
-1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
+1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 

@@ -7,28 +7,34 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1886'
 ht-degree: 5%
 
 ---
-
 
 <!--update metadata with real information at release-->
 
 # Partager des enregistrements
 
-<!--this will NOT be available in Preview ever - find a way to add this in this article that is prominent-->
+<!--
+this will NOT be available in Preview ever - find a way to add this in this article that is prominent
+-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-Vous pouvez ajuster les autorisations des utilisateurs aux enregistrements individuels dans un type d’enregistrement.
+Vous pouvez ajuster les autorisations des utilisateurs aux enregistrements individuels dans un type d’enregistrement dans Adobe Workfront Planning.
+
+>[!WARNING]
+>
+>Les informations décrites dans cet article ne sont pas disponibles dans l’environnement de Prévisualisation. Elle est disponible pour tous les clients de Workfront Planning uniquement dans l’environnement de production.
 
 Vous pouvez partager un enregistrement Adobe Workfront Planning de différentes manières :
 
@@ -44,23 +50,24 @@ Vous pouvez partager un enregistrement Adobe Workfront Planning de différente
 
    * [Partager un type d’enregistrement](/help/quicksilver/planning/access/share-record-types.md)
 
-* Partagez un enregistrement à l’aide de l’option **Partager**.
+* Partagez un enregistrement individuel ou partagez plusieurs enregistrements en bloc à l’aide de l’option **Partager**.
 
-  Cet article décrit comment partager un enregistrement avec d&#39;autres utilisateurs à l&#39;aide de l&#39;option **Partager**.
+  Cet article décrit comment partager des enregistrements avec d&#39;autres utilisateurs à l&#39;aide de l&#39;option **Partager**.
 
 >[!IMPORTANT]
 >
->Les utilisateurs ayant accès à un espace de travail obtiennent automatiquement au moins des autorisations d’affichage pour tous les enregistrements de l’espace de travail.
->Le partage de vues ne donne pas aux utilisateurs l’autorisation d’accéder aux enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations sur les types d’enregistrements et les enregistrements.
+>* Les utilisateurs ayant accès à un espace de travail obtiennent automatiquement au moins des autorisations d’affichage pour tous les enregistrements de l’espace de travail.
+>* Le partage de vues ne donne pas aux utilisateurs l’autorisation d’accéder aux enregistrements. Seuls les espaces de travail de partage peuvent accorder aux utilisateurs des autorisations sur les types d’enregistrements et les enregistrements.
 >
 >Pour obtenir des informations générales sur le partage d’objets dans Workfront Planning, consultez également la section [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
+<!--
+at GA, check that the Workfront plans article linked below has Planning info
+-->
 
 <table style="table-layout:auto"> 
 <col> 
@@ -112,13 +119,14 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Remarques concernant le partage d’enregistrements
 
-<!--maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information-->
+<!--
+maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information
+-->
 
 <!--checking on the below with Lilit-->
 
 * Vous pouvez partager des enregistrements avec les entités suivantes : personnes, groupes, équipes, entreprises ou fonctions.
-* Lorsque vous partagez un enregistrement, les utilisateurs ont le même accès partout où cet enregistrement apparaît dans le système.
-* Si vous limitez les autorisations à un enregistrement, les utilisateurs ne verront plus cet enregistrement et les valeurs de ses champs de recherche où que ce soit dans le système où cet enregistrement est ajouté.
+* Si vous limitez les autorisations à un enregistrement, les utilisateurs ne verront plus cet enregistrement et les valeurs de ses champs de recherche où que ce soit dans le système où cet enregistrement s’affiche.
 * Workfront vérifie les autorisations d’enregistrement dans les connexions jusqu’à 5 enregistrements, en s’assurant que les utilisateurs voient uniquement les enregistrements partagés avec eux.
 * Vous pouvez accorder les niveaux d’autorisation suivants à un enregistrement :
 
@@ -140,7 +148,6 @@ Lorsque les utilisateurs disposent des autorisations de niveau Contribution sur 
      >
      >Si vous choisissez d’accorder l’autorisation **Tout le monde dans l’espace de travail peut afficher** à un type d’enregistrement ou à un enregistrement, toutes les personnes répertoriées dans la liste de partage des autorisations de l’espace de travail disposent des mêmes autorisations sur le type d’enregistrement et l’enregistrement, même si les autorisations héritées sont désactivées.
 
-
 * Lorsque vous partagez un enregistrement avec un utilisateur, ils sont ajoutés avec la même autorisation que sur le type d’enregistrement, par défaut.
 
   Par exemple :
@@ -148,13 +155,24 @@ Lorsque les utilisateurs disposent des autorisations de niveau Contribution sur 
    * S’ils disposent des autorisations d’affichage sur le type d’enregistrement, ils obtiennent les autorisations d’affichage sur l’enregistrement
    * S’ils disposent des autorisations de niveau Contribution ou Gérer pour le type d’enregistrement, ils obtiennent des autorisations de niveau Gérer pour l’enregistrement
 
-* En tant que responsable d’espace de travail, vous pouvez partager un enregistrement avec un utilisateur qui ne dispose pas d’autorisations sur le type d’enregistrement ou l’espace de travail. Dans ce cas, un avertissement s’affiche en regard de l’entité ajoutée pour l’informer qu’elle n’a pas accès à l’espace de travail ou au type d’enregistrement. <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too--> Vous pouvez continuer à ajouter l’utilisateur à l’enregistrement, ce qui l’ajoutera également au type d’enregistrement et à l’espace de travail, ou annuler le partage.
+* En tant que responsable d’espace de travail, vous pouvez partager un enregistrement avec un utilisateur qui ne dispose pas d’autorisations sur le type d’enregistrement ou l’espace de travail. Dans ce cas, un avertissement s’affiche en regard de l’entité ajoutée pour vous informer qu’elle n’a pas accès à l’espace de travail ou au type d’enregistrement.  Vous pouvez continuer à ajouter l’utilisateur à l’enregistrement, ce qui l’ajoutera également au type d’enregistrement et à l’espace de travail, ou annuler le partage.
 
-* Lorsque l’utilisateur dispose des autorisations de niveau Gérer ou Contribuer pour l’espace de travail et le type d’enregistrement et que vous les ajoutez aux autorisations d’enregistrement, les autorisations d’affichage sont grisées. Ils conservent les mêmes autorisations pour l’enregistrement que pour le type d’enregistrement et vous ne pouvez pas leur accorder des autorisations inférieures pour l’enregistrement. <!--Lilit is checking on this, it is not working correctly-->
+<!--
+ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too
+-->
 
-  Lorsqu’ils disposent des autorisations d’affichage sur l’espace de travail ou le type d’enregistrement, ils conservent les autorisations d’affichage sur les enregistrements. Vous pouvez leur accorder des autorisations de gestion pour l’enregistrement en désactivant les autorisations héritées et en sélectionnant le paramètre Seules les personnes invitées peuvent accéder . <!-- I think this is right, but because of the above not working, I can't test-->
+* Lorsque l’utilisateur dispose des autorisations de niveau Gérer ou Contribuer pour l’espace de travail et le type d’enregistrement et que vous les ajoutez aux autorisations d’enregistrement, les autorisations d’affichage sont grisées. Ils conservent les mêmes autorisations pour l’enregistrement que pour le type d’enregistrement et vous ne pouvez pas leur accorder des autorisations inférieures pour l’enregistrement.
+<!--
+Lilit is checking on this, it is not working correctly
+-->
 
-<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+<!--
+   check on this: I cannot disable inherited permissions when this setting is ON and this documented in a TIP below: When they have View permissions to the workspace or the record type, they retain View permissions to the records. You can grant them Manage permissions to the record by disabling Inherited permissions and selecting the Only invited people can access setting.
+   -->
+
+<!-- 
+   not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.
+   -->
 
 * Vous pouvez désactiver les autorisations héritées pour un seul enregistrement, auquel cas vous pouvez leur accorder des autorisations pour des enregistrements individuels, ou ils peuvent obtenir des autorisations s’ils appartiennent à l’option **Tout le monde dans l’espace de travail peut afficher**.
 
@@ -162,16 +180,17 @@ Lorsque les utilisateurs disposent des autorisations de niveau Contribution sur 
 
   Par exemple, si un enregistrement est partagé avec un utilisateur disposant d&#39;autorisations d&#39;affichage et que son groupe dispose d&#39;un accès de niveau Gérer, il obtient des autorisations de niveau Gérer sur l&#39;enregistrement.
 
-<!--Too granular??
-
-If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
-
-If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions -->
+  <!--
+   Too granular??
+   If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
+   If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions 
+   -->
 
 * Si un champ de formule ou un champ de recherche d&#39;un enregistrement connecté est basé sur un champ d&#39;un enregistrement sur lequel vous n&#39;avez aucune autorisation, le calcul correct tient compte des facteurs de l&#39;enregistrement auxquels vous ne pouvez pas accéder autrement.
 
-<!-- not sure if any of the Share record types points might match here - ask Lilit??-->
-
+  <!--
+   not sure if any of the Share record types points might match here - ask Lilit??
+   -->
 
 ## Autorisations de partage d’enregistrement
 
@@ -190,7 +209,7 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Autorisations pour les enregistrements avec des autorisations héritées sur ](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations **Vue** ou supérieures sur l’espace de travail et le type d’enregistrement disposent des mêmes autorisations sur l’enregistrement.
 
@@ -208,7 +227,12 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
    >
    >Les responsables Workspace conservent les autorisations de niveau Gérer pour le type d’enregistrement et l’enregistrement.
 
-   1. (Facultatif) Sélectionnez **Seules les personnes invitées peuvent accéder** dans la zone **Qui a accès**.
+   1. (Facultatif) Sélectionnez **Seules les personnes invitées peuvent accéder** dans la zone **Qui a accès**. Vous devez indiquer les utilisateurs individuels, les groupes, les équipes ou les sociétés avec lesquels partager les enregistrements.
+
+      >[!TIP]
+      >
+      >Vous ne pouvez pas désactiver ni activer les autorisations héritées lorsque ce paramètre est sélectionné.
+
 
    1. Dans le champ **Accorder l’accès à ce type d’enregistrement**, ajoutez les utilisateurs, équipes, groupes, sociétés ou fonctions auxquels vous souhaitez accorder un niveau d’autorisation différent de celui qu’ils ont pour l’espace de travail ou le type d’enregistrement.
    1. Sélectionnez l’un des niveaux d’autorisation suivants :

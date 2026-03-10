@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 2%
@@ -120,13 +120,13 @@ Le type d’enregistrement configuré pour être global possède les propriété
    * Vous disposez des mêmes autorisations pour les enregistrements créés dans l’espace de travail du Principal que pour l’espace de travail et pour le type d’enregistrement global d’origine.
    * Vous disposez des mêmes autorisations pour les enregistrements créés dans un espace de travail secondaire que pour l&#39;espace de travail secondaire et pour le type d&#39;enregistrement global dans cet espace.
 
-<!--Removed this as this was too confusing: 
-
-* When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
-
-    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
-        * The primary workspace
-        * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.-->
+  <!--
+    Removed this as this was too confusing: 
+    * When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
+        * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
+            * The primary workspace
+            * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.
+    -->
 
 * Les types d’enregistrement connectés à un type d’enregistrement global seront disponibles pour la connexion à partir des espaces de travail où ce type d’enregistrement est ajouté.
 
@@ -167,14 +167,18 @@ Le type d’enregistrement configuré pour être global possède les propriété
      Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
 
 
-<!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
-    After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
+<!--
+when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.
+-->
 
-<!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
+<!--
+These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
 * Add new fields
     Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
 * Add request forms to it
-* Add automations to it-->
+* Add automations to it
+-->
 
 * Aucun utilisateur ne peut effectuer les actions suivantes sur un type d’enregistrement global dans un espace de travail secondaire :
 
@@ -193,7 +197,9 @@ Le type d’enregistrement configuré pour être global possède les propriété
 
    * Si vous disposez d’autorisations de niveau Gérer sur l’espace de travail d’origine et d’aucune autorisation sur un espace de travail secondaire, vous pouvez afficher les enregistrements ajoutés à partir des espaces de travail secondaires dans l’espace de travail d’origine, mais vous ne pouvez pas les gérer à partir de l’espace de travail d’origine.
    * Si vous disposez des autorisations de gestion sur les espaces de travail d’origine et secondaire, vous pouvez gérer les enregistrements à partir de l’espace de travail d’origine du type d’enregistrement global et de l’espace de travail secondaire où ils ont été ajoutés.
-     <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
+  <!--
+    not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces
+    -->
 * Vous ne pouvez pas partager publiquement des vues à partir d’un type d’enregistrement global dans un espace de travail secondaire.
 
 ### Accès aux connexions d’un type d’enregistrement global
@@ -223,6 +229,10 @@ Pour utiliser des types d’enregistrements connectables, procédez comme suit :
    Un gestionnaire d’espace de travail peut sélectionner les espaces de travail auxquels un type d’enregistrement désigné peut se connecter.
 
    Le type d’enregistrement d’origine existe dans son espace de travail d’origine et il peut être accessible pour se connecter à partir d’un autre espace de travail.
+
+   <!--
+    <span class="preview">Only System Administrators can designate a record type to be connectable from all workspaces in the system. All other workspace managers can designate specific workspaces to connect to the record type from. </span>
+    -->
 
    Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 1. Connectez-vous à un type d’enregistrement désigné comme connectable à partir d’un autre espace de travail que vous gérez.

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -42,7 +42,7 @@ Pour plus d&#39;informations sur la création d&#39;enregistrements, voir [Crée
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
@@ -147,6 +147,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    * Date de dernière modification, Dernière modification par
    * Date d’approbation, Approuvé par
    * Personnes
+     <!--* <span class="preview">Record ID</span>-->
    * Si un champ à sélection multiple ou unique est importé et qu&#39;il offre plus de choix qu&#39;un champ similaire dans Planning, les options supplémentaires sont créées lors de l&#39;importation. Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour l’espace de travail peuvent importer de nouveaux choix.
 
 ## Créer des enregistrements en important un fichier CSV ou Excel
