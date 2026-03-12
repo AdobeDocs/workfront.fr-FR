@@ -5,10 +5,10 @@ description: En savoir plus sur l’assistant IA dans Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 2619aa432a8c0b12d0d910df8eb05447fa50f387
+source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 99%
+source-wordcount: '856'
+ht-degree: 97%
 
 ---
 
@@ -140,7 +140,8 @@ Pour demander le contrat Adobe Gen AI :
 
    >[!NOTE]
    >
-   >La vérification du contrat par Adobe et l’activation de l’assistant IA peuvent prendre 1 à 3 jours ouvrables après la signature et le renvoi du contrat.
+   >* La vérification du contrat par Adobe et l’activation de l’assistant IA peuvent prendre 1 à 3 jours ouvrables après la signature et le renvoi du contrat.
+   >* Si vous ne voyez pas les options de l’assistant AI disponibles dans l’instance de votre organisation après son activation, contactez l’assistance clientèle de Workfront.
 
 ## Conseils pour la création de prompts dans l’assistant IA
 
