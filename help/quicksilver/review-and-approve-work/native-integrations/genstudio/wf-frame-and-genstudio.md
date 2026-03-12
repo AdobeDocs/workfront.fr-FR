@@ -7,9 +7,10 @@ description: Prise en main de l’intégration de GenStudio for Performance Mark
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 439ad6f43e1714d0f2580a5097ba92834fb15d60
+exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
+source-git-commit: 8b8f638f089ff967fe7d4fb641b23f5836ac86b5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '457'
 ht-degree: 8%
 
 ---
@@ -70,17 +71,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 * L’instance Workfront doit être activée sur l’expérience unifiée Adobe.
 
-<!--* The integration must be enabled in the Workfront Setup area.
+* Le stockage d’entreprise Adobe doit être activé pour l’instance Workfront. Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
-
-## Enable the integration in Workfront
-
-You must be a system administrator to enable this integration. 
-
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
-1. In the left panel, click **Review and Approval** > **Adobe GenStudio**.
-1. Enable **Use proof approvals**. 
--->
 
 ## Utiliser les modèles de validation unifiée Workfront pour définir les workflows de validation
 
@@ -96,7 +88,7 @@ Pour plus d’informations sur la création de modèles de processus d’approba
 
 Lorsque l’utilisateur lance une révision dans GenStudio for Performance Marketing, il choisit simplement le modèle dont il a besoin. Les utilisateurs peuvent facilement modifier n’importe quel modèle de workflow d’approbation unifiée, ajouter ou supprimer des réviseurs et des étapes, à tout moment.
 
-Pour plus d’informations, voir [Demander la révision et l’approbation](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Pour plus d’informations, voir [Demander la révision et l’approbation](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Examinez et approuvez le contenu du brouillon GenStudio for Performance Marketing dans la visionneuse Frame.io
 
@@ -115,4 +107,4 @@ Pour plus d&#39;informations sur l&#39;utilisation de la visionneuse Frame.io, v
 
 Une fois que la ressource a passé le processus de révision et d’approbation, vous pouvez afficher la décision de révision et publier le contenu directement depuis GenStudio for Performance Marketing.
 
-Pour plus d’informations, voir [Publication du contenu approuvé](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Pour plus d’informations, voir [Publication du contenu approuvé](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
