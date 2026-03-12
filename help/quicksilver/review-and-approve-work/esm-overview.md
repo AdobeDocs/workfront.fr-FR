@@ -67,7 +67,7 @@ Cette interface mise à jour simplifie la navigation, améliore la clarté et pe
 
 Les documents ne peuvent pas être partagés individuellement. Au lieu de cela, le système génère automatiquement un dossier pour chaque tâche ou événement et hérite des autorisations de la tâche ou de l’événement. Tous les documents chargés vers la tâche ou l’événement sont stockés dans ce dossier généré.
 
-Pour plus d’informations sur le nouveau modèle d’autorisation de document, voir [ Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Pour plus d’informations sur le nouveau modèle d’autorisation de document, voir [&#x200B; Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ##### Objets liés dans des dossiers
 
@@ -93,7 +93,7 @@ Ces actions sont disponibles à partir du menu Plus sur une tâche ou un événe
 
 ## Activer le stockage d’entreprise d’Adobe
 
-Les clients existants peuvent activer le stockage d’entreprise Adobe dans leur environnement lors du renouvellement du contrat. Pour plus d’informations sur l’activation du stockage d’entreprise Adobe, voir [ Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+Les clients existants peuvent activer le stockage d’entreprise Adobe dans leur environnement lors du renouvellement du contrat. Pour plus d’informations sur l’activation du stockage d’entreprise Adobe, voir [&#x200B; Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 >[!NOTE]
 >

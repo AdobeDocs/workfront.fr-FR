@@ -55,7 +55,7 @@ Si vous vous trouvez sur le workflow du BAT, vous pouvez effectuer les actions s
 
   Les champs personnalisés de relecture doivent être configurés dans Workfront Proof. Pour plus d’informations, voir [Créer et gérer des champs personnalisés dans Workfront Proof](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
 
-![ Détails du document ](assets/doc-details-full-legacy.png)
+![&#x200B; Détails du document &#x200B;](assets/doc-details-full-legacy.png)
 
 ### Ouvrez la page Détails du document dans la zone des documents hérités
 
@@ -63,7 +63,7 @@ Si vous vous trouvez sur le workflow du BAT, vous pouvez effectuer les actions s
 
 1. Pointez sur le document, puis cliquez sur **Détails du document**.
 
-   ![ Détails du document ](assets/doc-details-legacy.png)
+   ![&#x200B; Détails du document &#x200B;](assets/doc-details-legacy.png)
 
 
 ## Zone du nouveau document
@@ -99,4 +99,4 @@ Vous pouvez effectuer les actions suivantes pour les documents à partir de la p
 1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
 1. Sélectionnez le document, puis cliquez sur **Afficher les détails**.
 
-   ![ Détails du document ](assets/doc-details.png)
+   ![&#x200B; Détails du document &#x200B;](assets/doc-details.png)
