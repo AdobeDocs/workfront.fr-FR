@@ -6,15 +6,15 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 25%
+ht-degree: 30%
 
 ---
 
 
-# Présentation de l’accès à Adobe Workfront Planning
+# Vue d’ensemble de l’accès à Adobe Workfront Planning
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
@@ -24,13 +24,13 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
+>Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle fonctionnalité d’Adobe Workfront.
 >
 >Votre société doit acheter un package supplémentaire pour que Workfront Planning puisse accéder à ses fonctionnalités.
 >
 >Pour plus d’informations, contactez votre gestionnaire de compte
 >
->Pour plus d’informations sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour plus d’informations sur Workfront Planning, voir [Commencer à utiliser Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Des restrictions de licence et de partage s’appliquent à l’utilisation d’Adobe Workfront Planning.
 
@@ -156,7 +156,7 @@ Pour ajouter ou supprimer des zones Workfront Planning des utilisateurs de votre
 
 Vous pouvez attribuer des licences aux utilisateurs lorsque vous configurez leur niveau d&#39;accès lors de leur modification ou de leur création.
 
-Pour plus d’informations, voir [Modification des profils d’un utilisateur](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+Pour plus d’informations, voir [Modifier le profil d’une personne](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Configurer le niveau d’accès
 

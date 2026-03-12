@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1502'
 ht-degree: 8%
 
 ---
@@ -38,7 +38,7 @@ Pour plus d’informations sur Workfront Planning, consultez les articles suivan
 * [Vue d’ensemble de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
-## &#x200B;<!--edit theses??--> des exigences d’accès
+## <!--edit theses??--> des exigences d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -161,7 +161,7 @@ Vous pouvez utiliser Planning Designer ou l&#39;assistant AI pour effectuer l&#3
 
   >[!IMPORTANT]
   >
-  >Bien que nous prenions en charge les types de fichiers .XLSX et .CSV, ils ne peuvent pas être utilisés pour l&#39;importation d&#39;enregistrements à grande échelle via Planning Designer.
+  >Bien que nous prenions en charge les types de fichiers .XLSX, ils ne peuvent pas être utilisés pour l&#39;importation d&#39;enregistrements à grande échelle via Planning Designer.
   >Si vous devez importer un nombre important d&#39;enregistrements à ce stade, nous vous recommandons de le faire en utilisant les fonctions manuelles disponibles dans Planning.
   >
   >Pour plus d’informations, voir [Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1504'
 ht-degree: 5%
 
 ---
@@ -81,26 +81,23 @@ Ou
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td>
+   <p>Dans l’environnement de production : </p>
    <p>Pour créer un enregistrement global :</p>
    <ul><li>Standard ou supérieur</li></ul>
    <p>Pour rendre un enregistrement connectable :</p>
    <ul><li>Administrateur ou administratrice système</li></ul>
 
-<!--
-   replace the above with this at release:
-   <p>To make a record global:</p>
-   <ul><li>Standard or higher</li></ul>
-   <p>To make a record connectable:</p>
-   <ul><li>In the Production environment:</li>
-   <ul><li>System Administrator</li></ul></ul>
-   -->
-<!--
-   <div class="preview">
-   <ul><li>In the Preview environment:</li>
-   <ul><li>Standard to make a record connectable from specific workspaces</li>
-   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+<div class="preview">
+
+<p>Dans l’environnement de Prévisualisation :</p>
+   <p>Pour créer un enregistrement global :</p>
+   <ul><li>Standard ou supérieur</li></ul>
+   <p>Pour rendre un enregistrement connectable :</p>
+
+<ul><li>Standard pour rendre un enregistrement connectable à partir d’espaces de travail spécifiques</li>
+   <li>L’administrateur système doit rendre un enregistrement connectable depuis tous les espaces de travail</li></ul>
    </div>
-   -->
+
 
 </td> 
   </tr> 
@@ -273,17 +270,13 @@ Pour configurer un type d’enregistrement comme global :
 
 1. Activez le paramètre **Autoriser la connexion à ce type d’enregistrement dans d’autres espaces de travail**.
 
-   <!-- add new screen shot with new tab name-->
-
    ![Modifier le type d’enregistrement Onglet Paramètres de plusieurs espaces de travail avec la connexion à partir d’autres espaces de travail activée](assets/edit-record-type-box-cross-workspace-settings-connectable-record-type-enabled.png)
 
    Lorsqu’il est activé, le type d’enregistrement est accessible et peut être connecté à à partir d’autres espaces de travail.
 
-1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Choisissez parmi les espaces de travail accessibles pour le type d’enregistrement. Choisissez l’une des options suivantes :
+1. <span class="preview">(Conditionnel) Selon la licence dont vous disposez</span> choisissez parmi les espaces de travail auxquels accéder le type d’enregistrement. Choisissez l’une des options suivantes :
 
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **Tous les espaces de travail** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations de gestion. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
+   * **Tous les espaces de travail** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations de gestion. <span class="preview">Cette option est grisée pour les gestionnaires d’espace de travail disposant d’une licence Standard. Seuls les administrateurs système peuvent activer la connexion des types d’enregistrements à partir de tous les espaces de travail.</span>
    * **Espaces de travail spécifiques** : dans le menu déroulant, ajoutez les noms des espaces de travail auxquels les responsables d’espace de travail peuvent se connecter à ce type d’enregistrement.
 
 1. (Conditionnel) Cliquez sur **Enregistrer** dans la zone **Modifier le type d’enregistrement** ou cliquez sur la flèche vers l’arrière à gauche de **Paramètres** dans l’en-tête de page pour enregistrer vos modifications.
