@@ -1,22 +1,22 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Utilisation de Adobe Experience Manager avec l’intégration Frame.io
-description: Utilisation de Adobe Experience Manager avec l’intégration Frame.io
+title: Utiliser Adobe Experience Manager avec l’intégration Frame.io
+description: Utiliser Adobe Experience Manager avec l’intégration Frame.io
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c5202bcdb367266d31a2e056eed9a286f286518
+exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 78%
+source-wordcount: '1431'
+ht-degree: 79%
 
 ---
 
+# Utiliser Adobe Experience Manager avec l’intégration Frame.io
 
-# Utilisation de Adobe Experience Manager avec l’intégration Frame.io
-
-Vous pouvez utiliser le [!DNL Experience Manager Assets]&#x200B;&#x200B; pour gérer et stocker vos ressources numériques qui ont passé le cycle de révision et d’approbation. Cette intégration vous permet d’exploiter les fonctionnalités de Adobe Experience Manager, Frame.io et Workfront afin de rationaliser vos processus de gestion de contenu et de collaboration.
+Vous pouvez utiliser le [!DNL Experience Manager Assets]&#x200B;&#x200B; pour gérer et stocker vos ressources numériques qui ont passé le cycle de révision et d’approbation. Cette intégration permet d’exploiter les fonctionnalités d’Adobe Experience Manager, Frame.io et Workfront afin de rationaliser vos processus de gestion de contenu et de collaboration.
 
 ## Configuration de l’intégration de Experience Manager Assets
 
@@ -52,7 +52,7 @@ Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manag
    <p>Plan</p>
 
 <p>Pour envoyer des documents à Experience Manager Assets :</p>
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p>
    </td>
   </tr>
@@ -86,7 +86,7 @@ Pour plus d’informations sur ce tableau, voir la section [Conditions d’accè
 Avant de commencer
 
 * Vous devez avoir [!DNL Workfront] et [!DNL Adobe Experience Manager Assets] associés à un ID d’organisation dans l’[!DNL Adobe Admin Console]. Pour plus d’informations, voir [Différences d’administration basées sur les plateformes ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-* Votre instance Workfront doit utiliser Adobe Enterprise Storage.
+* Votre instance Workfront doit utiliser le stockage d’entreprise Adobe.
 
 
 ## Configurer les informations d’intégration
@@ -121,7 +121,7 @@ Avant de commencer à mapper les champs de métadonnées, vous devez configurer 
 
 Pour configurer les champs de métadonnées, procédez comme suit :
 
-1. Configurez un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe  [!DNL Workfront]  et  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configurez un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe  [!DNL Workfront]  et  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configurez les champs de formulaire personnalisés dans Workfront. [!DNL Workfront] comporte de nombreux champs personnalisés intégrés que vous pouvez utiliser. Cependant, vous pouvez également créer vos propres champs personnalisés, comme expliqué dans la section [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -151,7 +151,7 @@ Vous pouvez mapper n’importe quel champ pris en charge par Workfront à une ba
 
 Une fois les balises créées dans Experience Manager Assets, elles s’affichent dans la liste déroulante Balises de la section Métadonnées. Pour lier un champ à une balise, sélectionnez `xcm:keywords` dans la liste déroulante du champ Experience Manager Assets de la zone de mappage des métadonnées.
 
-Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/fr/docs/experience-manager-64/administering/contentmanagement/tags).
+Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Champs de schéma de métadonnées personnalisés Experience Manager Assets**
 
@@ -240,34 +240,39 @@ Lorsqu’un utilisateur ou une utilisatrice envoie un document depuis Workfront 
 Pour envoyer un document, procédez comme suit :
 
 1. Accédez à la zone **Documents** dans Workfront, puis sélectionnez le document à envoyer.
-1. Cliquez sur **Envoyer à**, puis sélectionnez l’intégration d’Experience Manager que votre administrateur ou administratrice a configurée.
+1. Dans la barre située en bas de l’écran, cliquez sur **Envoyer à**.
+
+1. Sélectionnez l’intégration Experience Manager configurée par votre administrateur, puis cliquez sur **Envoyer**.
 
    >[!NOTE]
    >
    >L’équipe d’administration de Workfront peut choisir n’importe quel nom pour cette intégration, qui peut donc ne pas contenir spécifiquement les mentions Assets ou Assets Essentials.
 
-   ![Envoyer à](assets/send-to-aem.png)
 
 1. Sélectionnez l’emplacement de la ressource, puis cliquez sur **Sélectionner un dossier**.
-1. Lorsque vous trouvez la destination souhaitée, cliquez sur **Enregistrer**.
 
-### Envoyer une nouvelle version
 
-Vous pouvez ajouter une nouvelle version à un document que vous avez précédemment chargé vers Workfront. Pour plus d’informations, voir [Charger une nouvelle version d’un document](/help/quicksilver/documents/managing-documents/upload-new-document-version.md). Une fois la dernière version téléchargée, vous pouvez l’envoyer vers Assets Essentials. Si un champ mappé dans Workfront a été modifié, la nouvelle version met à jour les métadonnées dans Assets Essentials lors de l’envoi.
+<!-- not sure if this is in yet
+
+### Send a new version
+
+You can add a new version to a document you have previously uploaded to Workfront. For more information, see [Upload a new version of a document](/help/quicksilver/documents/managing-documents/upload-new-document-version.md). After the latest version is uploaded, you can send it to Assets Essentials. If a mapped field in Workfront has changed, the new version updates the metadata in Assets Essentials when it sends.
 
 >[!IMPORTANT]
 >
->Avant de charger une nouvelle version dans Workfront, nous vous recommandons de renommer le fichier. Si vous chargez une nouvelle version portant le même nom de fichier qu’une version précédente, seule la version la plus récente peut être téléchargée à partir de Workfront. Toutes les versions peuvent être téléchargées à partir de Experience Manager Assets ou d’Assets Essentials, quel que soit le nom du fichier. <!--Is this still a thing with ESM?-->
+>Before you upload a new version to Workfront, we recommend renaming the file. If you upload a new version with the exact same file name as a previous version, only the most recent version can be downloaded from Workfront. All versions can be downloaded from Experience Manager Assets or Assets Essentials regardless of the file name. - is this accuate for ESM?
 
-Pour envoyer la version la plus récente, procédez comme suit :
+To send the most recent version:
 
-1. Accédez à la zone **Documents** dans Workfront, puis recherchez le document.
-1. Sélectionnez **Envoyer à**, puis sélectionnez l’intégration d’Experience Manager que votre administrateur ou administratrice a configurée.
+1. Go to the **Documents** area in Workfront, and locate the document.
+1. In the bar at the bottom of the screen, click **Send to**. 
+
+1. Choose the Experience Manager integration your administrator set up, then click **Send**.
 
    >[!NOTE]
    >
-   >L’administrateur ou l’administratrice de Workfront peut choisir n’importe quel nom pour cette intégration. Il peut donc ne pas mentionner spécifiquement Assets ou Assets Essentials.
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
 
-   ![Envoyer à](assets/send-to-aem.png)
-
-1. Cliquer sur **Enregistrer**. La nouvelle version enregistre au même emplacement que la version précédente.
+1. Click **Save**. The new version saves in the same location as the previous version.
+ 
+ -->

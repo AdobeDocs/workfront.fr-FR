@@ -6,16 +6,21 @@ description: Vous pouvez demander un document sur n’importe quel objet prenant
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 98%
+source-wordcount: '399'
+ht-degree: 89%
 
 ---
 
 # Demander un document
 
 Vous pouvez demander un document sur n’importe quel objet prenant en charge les documents.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -26,13 +31,13 @@ Vous pouvez demander un document sur n’importe quel objet prenant en charge le
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 

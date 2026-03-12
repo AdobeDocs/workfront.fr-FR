@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des modèles en tant que cadre pour créer des
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -50,7 +50,7 @@ Vous disposez des options suivantes pour créer un projet à partir d’un modè
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -165,7 +165,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
       * Nombre de toutes les tâches dans le modèle
       * Noms des modèles de formulaires personnalisés
 
-   1. (Facultatif) Passez la souris sur le nom d’un nom de modèle dans le volet de gauche et cliquez sur l’**icône Favoris** **icône** ![icône Favoris](assets/favorites-icon-small.png) pour le marquer comme favori en vue d’une utilisation ultérieure.
+   1. (Facultatif) Passez la souris sur le nom d’un modèle dans le panneau de gauche et cliquez sur l’icône **Favoris** **icône** ![Favoris](assets/favorites-icon-small.png) pour le marquer comme favori en vue d’une utilisation ultérieure.
 
       Ou
 

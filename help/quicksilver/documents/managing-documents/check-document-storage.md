@@ -6,16 +6,21 @@ description: Bien qu’il n’existe aucune restriction quant aux types et taill
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 82%
+source-wordcount: '279'
+ht-degree: 70%
 
 ---
 
 # Vérifier les limites de stockage des documents
 
 Bien qu’il n’existe aucune restriction quant aux types et tailles de fichiers individuels que les utilisateurs et les utilisatrices peuvent charger sur votre instance Workfront, il y a une limite dans votre formule Workfront sur la quantité totale de stockage utilisée par votre instance Workfront. En tant que personne chargée de l’administration d’Adobe Workfront, vous surveillez le stockage de documents de votre instance depuis la zone de configuration.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 

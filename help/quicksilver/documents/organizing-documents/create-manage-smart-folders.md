@@ -6,10 +6,10 @@ description: Les dossiers intelligents sont utilisés pour gérer des documents 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 93%
+source-wordcount: '552'
+ht-degree: 87%
 
 ---
 
@@ -18,6 +18,11 @@ ht-degree: 93%
 Les dossiers intelligents sont utilisés pour gérer des documents en dehors d’un projet, d’une tâche ou d’un problème. Ils se trouvent dans la zone Documents principale du menu principal. Vous pouvez configurer un dossier intelligent pour filtrer les ressources et n’afficher que celles qui vous intéressent, plutôt que de rechercher dans toutes les ressources.
 
 Deux dossiers intelligents sont disponibles par défaut la première fois que vous accédez à la zone Documents : Tous les documents et Récents. Vous pouvez modifier, renommer ou copier des dossiers intelligents par défaut, mais vous ne pouvez pas les supprimer. Vous pouvez créer des dossiers intelligents supplémentaires pour répondre à d’autres besoins de gestion des ressources.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -28,13 +33,13 @@ Deux dossiers intelligents sont disponibles par défaut la première fois que vo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +67,7 @@ Vous pouvez afficher les dossiers dans la vue miniature, standard ou liste. Pour
 1. Spécifiez un nom pour le dossier intelligent dans le champ **Nom du dossier**.
 1. Cliquez sur **Ajouter une règle de filtre**.
 1. Identifiez les informations à renseigner dans le rapport en sélectionnant le type de données approprié.
-1. Sélectionnez le qualificateur de filtre souhaité. 
+1. Sélectionnez le qualificateur de filtre souhaité. 
 1. Terminez la règle de filtrage, puis cliquez sur **Enregistrer le dossier**.
 
 ## Modifier un dossier intelligent

@@ -1,29 +1,31 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Utiliser les approbations unifiées et la relecture ensemble
+title: Utiliser conjointement les approbations unifiées et la relecture
 description: Vous pouvez utiliser les approbations unifiées avec la relecture.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 5%
+source-wordcount: '1723'
+ht-degree: 6%
 
 ---
 
-# Utiliser les approbations unifiées et la relecture ensemble
+# Utiliser conjointement les approbations unifiées et la relecture
 
 Les approbations unifiées dans Workfront présentent un nouvel ensemble de fonctionnalités qui vous aident à examiner et approuver des documents. Vous pouvez utiliser un workflow Approbations unifiées avec la visionneuse de relecture existante pour ajouter des commentaires et des balises aux documents en cours de révision.
 
 Il existe des différences clés dans le workflow lors de l’utilisation conjointe des validations unifiées et de la relecture :
 
-* Les participants sont affichés dans le résumé du document, et non dans le workflow de relecture
+* Les participants sont affichés dans le résumé du document, et non dans le workflow de relecture.
 
 * Les détails Envoyé, Ouvert, Commentaire, Décision (SOCD) dans la liste de documents sont liés à la relecture et ne reflètent pas le statut de décision du document.
 
-## Charger un document et créer une épreuve
+## Utilisation conjointe des validations unifiées et de la relecture dans votre environnement de production
+
+### Charger un document et créer une épreuve
 
 1. Accédez au projet, à la tâche ou au problème auquel vous souhaitez ajouter un document.
 1. Cliquez sur l&#39;onglet **Documents**, puis sur le menu déroulant **Ajouter**.
@@ -38,7 +40,7 @@ Glissez-déposez le document dans la liste des documents.
 
 Les utilisateurs affectés en tant que participants peuvent utiliser la visionneuse de relecture pour ajouter des commentaires et des balises sur le document. Passez à la section suivante pour savoir comment ajouter des participants à la révision.
 
-## Ouvrir le résumé du document et affecter des participants
+### Ouvrir le résumé du document et affecter des participants
 
 Vous avez la possibilité d’affecter des réviseurs et des approbateurs, ou une combinaison des deux :
 
@@ -52,7 +54,7 @@ Pour affecter des participants :
 
 1. Faites défiler jusqu’à la section Validations , puis cliquez sur **Ajouter**.
 
-1. (Facultatif) Choisissez un modèle d’approbation existant. Les utilisateurs disposant d&#39;une licence Standard peuvent créer des modèles d&#39;approbation réutilisables à partir de la zone Configuration. Pour plus d’informations, voir [Créer un modèle d’approbation pour les ressources et les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+1. (Facultatif) Choisissez un modèle d’approbation existant. Les utilisateurs disposant d&#39;une licence Standard peuvent créer des modèles d&#39;approbation réutilisables à partir de la zone Configuration. Pour plus d’informations, voir [Création d’un modèle de workflow d’approbation pour les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 1. (Facultatif) Définissez une date limite pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.
 
@@ -64,7 +66,7 @@ Pour affecter des participants :
 
 1. Une fois que vous avez ajouté tous les réviseurs et approbateurs, cliquez sur **Soumettre la demande**. Les participants sont avertis par e-mail.
 
-## Créez une version selon vos besoins.
+### Créez une version selon vos besoins.
 
 Si vous avez besoin d’une autre série d’examens et d’approbations, vous pouvez créer une nouvelle version de l’épreuve et ajouter les participants précédents, les nouveaux participants ou une combinaison des deux. Vous pouvez afficher des informations sur les versions précédentes et les participants dans le résumé du document.
 
@@ -79,7 +81,7 @@ Pour ajouter une nouvelle version :
 
 1. Faites défiler jusqu’à la section Validations , puis cliquez sur **Ajouter**.
 
-1. (Facultatif) Choisissez un modèle d’approbation existant. Les utilisateurs disposant d&#39;une licence Standard peuvent créer des modèles d&#39;approbation réutilisables à partir de la zone Configuration. Pour plus d’informations, voir [Créer un modèle d’approbation pour les ressources et les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+1. (Facultatif) Choisissez un modèle d’approbation existant. Les utilisateurs disposant d&#39;une licence Standard peuvent créer des modèles d&#39;approbation réutilisables à partir de la zone Configuration. Pour plus d’informations, voir [Création d’un modèle de workflow d’approbation pour les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 1. (Facultatif) Définissez une date limite pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.
 
@@ -94,7 +96,7 @@ Pour ajouter une nouvelle version :
 <!-- add info about reusing previous participants once released -->
 
 
-## Examinez le BAT et prenez une décision
+### Examinez le BAT et prenez une décision
 
 Le document ne passe pas à un statut approuvé tant que tous les approbateurs affectés n&#39;ont pas choisi « approuvé ».
 
@@ -114,3 +116,141 @@ Pour réviser et approuver un document :
 
 Une fois la décision prise, le propriétaire du document est averti par e-mail.
 
+
+<div class="preview">
+
+
+## Utiliser les validations unifiées et la relecture ensemble dans votre environnement de prévisualisation
+
+### Charger un document et créer une épreuve
+
+1. Accédez au projet, à la tâche ou au problème auquel vous souhaitez ajouter un document.
+1. Cliquez sur l&#39;onglet **Documents**, puis sur le menu déroulant **Ajouter**.
+Ou
+Glissez-déposez le document dans la liste des documents.
+
+   >[!NOTE]
+   >
+   >Si vous avez activé l’option **Générer automatiquement des épreuves lors du chargement de documents** dans votre profil utilisateur, le système crée automatiquement une épreuve simple.
+
+1. Pointez sur le document, puis cliquez sur le lien **Créer une épreuve** qui s’affiche sous le nom du document, puis sélectionnez **Épreuve simple**. Vous devez créer un BAT simple, car vous n&#39;utiliserez pas le workflow de BAT pour les approbations.
+
+Les utilisateurs affectés en tant que participants peuvent utiliser la visionneuse de relecture pour ajouter des commentaires et des balises sur le document. Passez à la section suivante pour savoir comment ajouter des participants à la révision.
+
+### Ouvrir le résumé du document et affecter des participants
+
+Vous avez la possibilité d’affecter des réviseurs et des approbateurs, ou une combinaison des deux :
+
+* **Les réviseurs** peuvent ajouter des commentaires et marquer les ressources. Une fois l’opération terminée, ils peuvent marquer leur révision comme terminée. Il n’est pas nécessaire de marquer la révision comme terminée pour que le document progresse dans le processus d’approbation.
+* Les **approbateurs** peuvent ajouter des commentaires et marquer des ressources. Ils doivent prendre la décision de faire avancer le processus d&#39;approbation.
+
+Pour affecter des participants :
+
+1. Sélectionnez le document que vous avez chargé et ouvrez le résumé du document.
+   ![Ouvrir le résumé du document](assets/open-doc-summary.png)
+
+1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Créer un workflow**.
+
+
+1. Renseignez les détails suivants :
+
+   <table>
+   <tr>
+   <td><strong>Nom de l’étape</strong></td>
+   <td>Ajoutez un nom d’étape. Vous pouvez remplacer le nom par un nom plus explicite, tel que <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
+   <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
+   </tr>
+   <tr>
+   <td><strong>Une décision requise (facultatif)</strong></td>
+   <td>La première personne qui prend une décision termine l’étape.</td>
+   </tr>
+   <tr>
+   <td><strong>Date d’échéance (facultatif)</strong></td>
+   <td>Définissez une date d’échéance pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date d’échéance spécifiée.</td>
+   </tr>
+   </table>
+
+1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres étapes si nécessaire.
+
+   >[!NOTE]
+   >
+   >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
+
+   ![nouvelle étape](assets/new-stage.png)
+
+1. Une fois que vous avez ajouté tous les réviseurs et approbateurs, cliquez sur **Demander les approbations**. Les participants sont avertis par e-mail.
+
+
+### Créez une version selon vos besoins.
+
+Si vous avez besoin d’une autre série d’examens et d’approbations, vous pouvez créer une nouvelle version de l’épreuve et ajouter les participants précédents, les nouveaux participants ou une combinaison des deux. Vous pouvez afficher des informations sur les versions précédentes et les participants dans le résumé du document.
+
+Pour ajouter une nouvelle version :
+
+1. Effectuez un glisser-déposer du nouveau fichier au-dessus du document précédent dans Workfront. Une nouvelle version est automatiquement créée.
+
+1. Une fois le chargement du document terminé, sélectionnez le document, puis cliquez sur **Créer une épreuve** > **Épreuve simple**.
+
+1. Sélectionnez à nouveau le document, puis ouvrez le résumé du document.
+   ![Ouvrir le résumé du document](assets/open-doc-summary.png)
+
+1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Créer un workflow**.
+
+
+1. Renseignez les détails suivants :
+
+   <table>
+   <tr>
+   <td><strong>Nom de l’étape</strong></td>
+   <td>Ajoutez un nom d’étape. Vous pouvez remplacer le nom par un nom plus explicite, tel que <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
+   <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
+   </tr>
+   <tr>
+   <td><strong>Une décision requise (facultatif)</strong></td>
+   <td>La première personne qui prend une décision termine l’étape.</td>
+   </tr>
+   <tr>
+   <td><strong>Date d’échéance (facultatif)</strong></td>
+   <td>Définissez une date d’échéance pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date d’échéance spécifiée.</td>
+   </tr>
+   </table>
+
+1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres étapes si nécessaire.
+
+   >[!NOTE]
+   >
+   >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
+
+   ![nouvelle étape](assets/new-stage.png)
+
+1. Une fois que vous avez ajouté tous les réviseurs et approbateurs, cliquez sur **Demander les approbations**. Les participants sont avertis par e-mail.
+
+
+
+### Examinez le BAT et prenez une décision
+
+Le document ne passe pas à un statut approuvé tant que tous les approbateurs affectés n&#39;ont pas choisi « approuvé ».
+
+Pour réviser et approuver un document :
+
+1. Accédez à l’e-mail de notification de révision, puis cliquez sur **Accéder à la révision**.
+
+1. Une fois dans Workfront, cliquez sur **Accéder au BAT**.
+
+1. Passez en revue le contenu et ajoutez des commentaires ou des balises. Pour plus d’informations sur l’utilisation de la visionneuse de relecture, voir [Révision de BAT dans Adobe Workfront : index d’article](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Sélectionnez l’une des décisions suivantes :
+
+   * **Approuver** : le document n’a pas besoin d’être modifié et est prêt à être utilisé.
+   * **Approuver avec modifications** : le document nécessite des modifications et est prêt à l’emploi une fois qu’il a été créé. Aucune approbation supplémentaire n’est requise.
+   * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle d&#39;approbations. Pour plus d’informations sur le téléchargement d’une nouvelle version, consultez la section [Créer une version si nécessaire](#create-a-new-version-as-needed) dans cet article.
+
+Une fois la décision prise, le propriétaire du document est averti par e-mail.
+
+</div>

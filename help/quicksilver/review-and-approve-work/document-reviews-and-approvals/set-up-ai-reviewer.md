@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Créer des réviseurs d’IA
+title: Créer des outils de révision IA
 description: Une fois qu’au moins une marque est configurée dans Workfront, vous pouvez créer plusieurs réviseurs d’IA, que vous pouvez ensuite affecter aux modèles d’approbation et aux demandes individuelles de révision et d’approbation.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
+source-git-commit: c5f726ec70b2caa7366ba5af7dac446554d2fa6b
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '243'
 ht-degree: 22%
 
 ---
 
-# Créer des réviseurs d’IA
+# Créer des outils de révision IA
 
 >[!NOTE]
 >
@@ -75,5 +75,5 @@ Pour ajouter un réviseur d’IA :
 
    Pour plus d’informations, consultez les ressources suivantes :
 
-   * [Créer un modèle d’approbation pour les ressources et les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-   * [Créer une demande de révision ou d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+   * [Créer un modèle de workflow d’approbation pour les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+   * [Créer un workflow d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)

@@ -1,21 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Ajouter d’autres approbateurs ou réviseurs à une ressource ou un document
+title: Ajouter des approbateurs ou des réviseurs supplémentaires à un workflow d’approbation de document
 description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateurs et approbatrices supplémentaires à un document ayant déjà des approbations en attente.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
+source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 77%
+source-wordcount: '837'
+ht-degree: 25%
 
 ---
 
-# Ajouter d’autres approbateurs ou réviseurs à une ressource ou un document
+# Ajouter des approbateurs ou des réviseurs supplémentaires à un workflow d’approbation de document
 
-Vous pouvez ajouter des approbateurs ou des réviseurs supplémentaires à une ressource ou un document qui a déjà des approbations en attente.
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
+
+Vous pouvez ajouter d&#39;autres approbateurs ou réviseurs à un workflow d&#39;approbation de document qui a déjà des approbations en attente.
 
 >[!IMPORTANT]
 >
@@ -28,20 +30,20 @@ Vous pouvez ajouter des approbateurs ou des réviseurs supplémentaires à une r
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> 
    <p>Si vous utilisez l'intégration Frame.io, vous devez disposer d'une licence Standard pour créer des workflows d'approbation.</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Affichage ou accès supérieur pour Projets, Tâches, Problèmes, Modèles, Portfolios, Programmes, Rapports, Tableaux de bord, Calendriers et Documents</p></td> 
+   <td> <p>Accédez en lecture seule ou à un accès plus étendu aux projets, tâches, événements, modèles, portefeuilles, programmes, rapports, tableaux de bord, calendriers et documents</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -54,31 +56,87 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Ajouter des approbateurs ou des réviseurs supplémentaires à partir de la page Détails du document
 
-1. Accédez à la page du document en cliquant sur le nom du document, puis sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou une approbatrice ou un réviseur ou une réviseuse dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
+## Ajoutez d’autres approbateurs ou réviseurs et réviseuses à partir de la page Détails du document dans votre environnement de production
 
-1. Sélectionnez **Approbations** dans le volet de navigation de gauche. Tous les approbateurs, approbatrices, réviseurs et réviseuses existants sont répertoriés ici.
+1. Accédez à la page du document en cliquant sur le nom du document, puis sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou un réviseur dans le menu déroulant Version. La dernière version est sélectionnée par défaut.
 
-1. Pour ajouter un approbateur ou une approbatrice, assurez-vous que la case **Personne approbatrice** est cochée, vous pouvez ensuite saisir du texte dans la zone de texte **Personnes réviseuses**. Vous pouvez ajouter des utilisateurs et des utilisatrices ou des équipes Workfront en utilisant leur nom. Si vous souhaitez plutôt ajouter un réviseur ou une réviseuse, décochez simplement la case **Personne approbatrice** avant la saisie.
+1. Sélectionnez **Validations** dans le panneau de gauche. Tous les approbateurs, approbatrices, réviseurs et réviseuses existants sont répertoriés ici.
+
+1. Pour ajouter un approbateur, assurez-vous que la case **Approbateur** est cochée, puis commencez à saisir du texte dans la zone **Réviseurs**. Vous pouvez ajouter des utilisateurs et des utilisatrices ou des équipes Workfront en utilisant leur nom. Si vous souhaitez plutôt ajouter un réviseur ou une réviseuse, décochez simplement la case **Personne approbatrice** avant la saisie.
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 
-## Ajouter des approbateurs ou des validants supplémentaires à partir du Résumé du document
+## Ajouter des approbateurs ou des réviseurs supplémentaires à partir du Résumé du document dans votre environnement de production
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 
-1. Cliquez sur le document dont vous avez besoin, le volet Résumé du document s’ouvre alors.
+1. Cliquez sur le document dont vous avez besoin et le panneau Résumé du document s’ouvre.
 
-1. Sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou une approbatrice ou un réviseur ou une réviseuse dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
+1. Sélectionnez la version du document auquel vous souhaitez ajouter un approbateur ou un réviseur dans le menu déroulant Version. La dernière version est sélectionnée par défaut.
 
-1. Faites défiler l’écran vers le bas jusqu’à la section **Approbations** dans le volet Résumé du document, où sont répertoriés tous les approbateurs, approbatrices, réviseurs et réviseuses existants. Pour ajouter un approbateur ou une approbatrice, assurez-vous que la case **Personne approbatrice** est cochée, vous pouvez ensuite saisir du texte dans la zone de texte **Personnes réviseuses**. Vous pouvez ajouter des utilisateurs et des utilisatrices ou des équipes Workfront en utilisant leur nom. Si vous souhaitez plutôt ajouter un réviseur ou une réviseuse, décochez simplement la case **Personne approbatrice** avant la saisie.
+1. Faites défiler l’écran jusqu’à la section **Validations** du panneau Résumé du document, où tous les approbateurs et réviseurs existants sont répertoriés. Pour ajouter un approbateur, assurez-vous que la case **Approbateur** est cochée, puis commencez à saisir du texte dans la zone **Réviseurs**. Vous pouvez ajouter des utilisateurs et des utilisatrices ou des équipes Workfront en utilisant leur nom. Si vous souhaitez plutôt ajouter un réviseur ou une réviseuse, décochez simplement la case **Personne approbatrice** avant la saisie.
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 
-## Ajouter des révisions et des approbateurs supplémentaires depuis une version précédente
+<div class="preview">
 
-Si vous avez besoin d’une approbation pour une nouvelle version du document, vous pouvez facilement ajouter
+## Ajoutez d&#39;autres approbateurs ou réviseurs à partir du Résumé du document dans l&#39;environnement d&#39;aperçu de la zone des documents hérités
+
+Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, consultez la section [Stockage Workfront par rapport au stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+
+Pour ajouter des approbateurs ou des réviseurs supplémentaires à partir du résumé du document :
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+
+1. Cliquez sur le document dont vous avez besoin pour ouvrir le panneau Résumé du document correspondant.
+
+1. Sélectionnez la version du document auquel vous souhaitez ajouter un approbateur ou un réviseur dans le menu déroulant Version. La dernière version est sélectionnée par défaut.
+
+1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Modifier le workflow**.
+
+   ![modifier le workflow d’approbation](assets/edit-approval-in-legacy.png)
+
+1. Localisez l’étape à laquelle vous souhaitez ajouter des approbateurs ou des réviseurs, puis ajoutez le nom ou l’adresse électronique de l’utilisateur dans la zone de texte. Vous pouvez également ajouter une équipe entière si nécessaire.
+
+1. Une fois leur nom ajouté, choisissez s’ils sont approbateurs ou réviseurs.
+
+   ![liste déroulante approbateur ou réviseur](assets/choose-approver-or-reviewer.png)
+
+1. Répétez les étapes 5 à 6 pour ajouter d’autres approbateurs ou réviseurs ou réviseuses.
+Une fois le document enregistré, les participants ajoutés reçoivent une notification par e-mail indiquant que leur approbation ou révision est nécessaire pour le document.
+
+</div>
+
+
+## Ajoutez d&#39;autres approbateurs ou réviseurs à partir du Résumé du document dans la zone des nouveaux documents
+
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+
+1. Cliquez sur le document, puis sur l’icône **Validations** sur le côté droit de la page.
+
+   ![Ajouter des approbateurs dans le résumé du document](assets/approvals-icon-new.png)
+
+
+1. Cliquez sur **Modifier le workflow**.
+
+1. Localisez l’étape à laquelle vous souhaitez ajouter des approbateurs ou des réviseurs, puis ajoutez le nom ou l’adresse électronique de l’utilisateur dans la zone de texte. Vous pouvez également ajouter une équipe entière si nécessaire.
+
+1. Une fois leur nom ajouté, choisissez s’ils sont approbateurs ou réviseurs.
+
+   ![liste déroulante approbateur ou réviseur](assets/choose-approver-or-reviewer.png)
+
+1. Répétez les étapes 5 à 6 pour ajouter d’autres approbateurs ou réviseurs ou réviseuses.
+Une fois le document enregistré, les participants ajoutés reçoivent une notification par e-mail indiquant que leur approbation ou révision est nécessaire pour le document.
+
+
+
+
+
+
 
 <!--
 ## Add additional approvers or reviewers from Home

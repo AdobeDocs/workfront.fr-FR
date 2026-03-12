@@ -6,10 +6,10 @@ description: Vous pouvez ajouter une mise à jour ou répondre aux mises à jour
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 89%
+source-wordcount: '501'
+ht-degree: 69%
 
 ---
 
@@ -29,12 +29,12 @@ Vous pouvez ajouter une mise à jour ou répondre aux mises à jour d’un docum
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure</p> 
+   <td> <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 
@@ -54,7 +54,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Ajouter une mise à jour ou répondre à une mise à jour sur un document
+## Ajouter une mise à jour à un document dans la zone des documents hérités
+
+Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage Workfront hérité et le stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Ajouter une mise à jour ou répondre à une mise à jour sur un document
 
 1. Accédez à l’objet qui contient le document, puis sélectionnez **Documents** dans le panneau de gauche.
 1. Recherchez le document dont vous avez besoin et effectuez l’une des opérations suivantes :
@@ -66,7 +70,7 @@ Pour plus d’informations sur l’ajout de mises à jour aux objets, voir [Mett
    Les mises à jour et réponses sont ajoutées au document ainsi qu’aux objets de rang supérieur. Pour plus d’informations, voir [Vue d’ensemble de la section Mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
-## Ajouter une réponse à un commentaire de relecture pour un document
+### Ajouter une réponse à un commentaire de relecture pour un document
 
 Dans la zone Mises à jour, lorsque vous répondez à un commentaire d’une personne lors de la relecture d’un document, la visionneuse de relecture s’ouvre afin que vous puissiez y saisir votre réponse avec le contexte dont vous avez besoin. Votre réponse s’affiche à la fois dans la visionneuse de relecture et dans la zone Mises à jour du document.
 
@@ -76,3 +80,12 @@ Dans la zone Mises à jour, lorsque vous répondez à un commentaire d’une per
 1. Cliquez sur **Réponse dans l’épreuve**, saisissez le commentaire dans la visionneuse de relecture qui s’ouvre, puis cliquez sur **Répondre**.
 
    Si vous avez besoin d’informations sur la saisie de commentaires et de réponses dans la visionneuse de relecture, voir [Commenter sur une épreuve](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+
+## Ajouter une mise à jour à un document dans la zone des nouveaux documents
+
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+1. Accédez à l’objet qui contient le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Recherchez le document dont vous avez besoin, puis cliquez sur l’icône de commentaire ![icône de commentaire](assets/new-doc-comment-icon.png) pour ouvrir le panneau Commentaires .
+1. Saisissez votre commentaire dans la zone de texte, puis cliquez sur **Envoyer**.
+   ![Panneau Commentaires du nouveau document](assets/comments-new-doc.png)

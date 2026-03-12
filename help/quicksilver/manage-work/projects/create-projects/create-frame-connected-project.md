@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 321449202f629f75464870bea7fa3db8b4c0e0cb
+source-git-commit: ad3478d3f1b54af596b146ac212a9eacf6f972f7
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1155'
 ht-degree: 15%
 
 ---
@@ -143,7 +143,7 @@ Une fois que vous avez créé un modèle, vous pouvez l’utiliser pour créer d
 
 1. Dans l’en-tête du projet, modifiez le projet de **Planification** en **Actuel**.
 
-Une fois le projet créé et les contenus publicitaires chargés, vous pouvez affecter un workflow de révision et d’approbation à la ressource dans Workfront. Pour plus d&#39;informations, voir [Créer une demande de révision ou d&#39;approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+Une fois le projet créé et les contenus publicitaires chargés, vous pouvez affecter un workflow de révision et d’approbation à la ressource dans Workfront. Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
 
 ## Créer un nouveau projet à partir de zéro
 
@@ -211,5 +211,3 @@ Workfront dispose de solides fonctionnalités de gestion de projet. Nous vous re
 Une fois le projet créé et les contenus publicitaires chargés, vous pouvez affecter un workflow de révision et d’approbation à la ressource dans Workfront.
 
 Une fois le projet créé et les contenus publicitaires chargés, vous pouvez affecter un workflow de révision et d’approbation à la ressource dans Workfront.
-
-Pour plus d&#39;informations, voir [Créer une demande de révision ou d&#39;approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->

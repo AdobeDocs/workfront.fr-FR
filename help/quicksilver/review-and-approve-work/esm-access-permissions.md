@@ -2,19 +2,19 @@
 product-area: documents
 navigation-topic: approvals
 title: Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage d’entreprise Adobe
-description: présentation des autorisations et de l’accès au stockage d’Adobe enterprise
+description: Vue d’ensemble des autorisations et de l’accès au stockage d’entreprise Adobe
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 89dcc972e2e29890763dba6b5f7a44489a2eee5a
+exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
+source-git-commit: 522175549d1a2b19c9e6a47a7e4b0d63ac08e3a3
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 0%
+source-wordcount: '851'
+ht-degree: 1%
 
 ---
-
 
 # Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage d’entreprise Adobe
 
@@ -55,15 +55,60 @@ Vous ne pouvez pas restreindre l’accès à l’héritage des documents.
 
 Aucune modification des niveaux d’accès aux documents ou du comportement.
 
+## Autorisations d’objet
 
-## Projets
+Les autorisations d’objet déterminent ce que vous pouvez voir et faire avec les projets, tâches, événements et documents dans Workfront. Les autorisations sont attribuées lorsqu’une personne partage un objet avec vous.
 
-Les utilisateurs disposant d’autorisations au niveau du projet peuvent afficher et gérer des documents pour les projets dans d’autres produits Adobe tels que Frame.io et Adobe Creative Cloud.
+>[!IMPORTANT]
+>
+>Dans le stockage d’entreprise Adobe, les autorisations de document fonctionnent différemment du stockage Workfront hérité. Les documents héritent des autorisations du projet, de la tâche ou du problème auxquels ils sont liés.
 
-Les noms de projet sont également visibles en dehors de Workfront pour les projets ESM.
 
-Les données financières ne sont pas visibles en dehors de Workfront pour les projets ESM.
+### Fonctionnement des autorisations de document
 
-## Tâches et événements
+Les autorisations de document sont pilotées par l’objet auquel le document est lié. Vous ne pouvez pas définir d’autorisations sur des documents individuels.
 
-Les documents sont stockés au niveau du projet, mais peuvent être partagés avec des tâches et des événements individuels selon les besoins. Les utilisateurs disposant d’un accès aux tâches et aux événements héritent automatiquement de l’accès aux documents du projet. Vous ne pouvez pas modifier leur niveau d’accès. Ils ont un accès en gestion ou aucun accès.
+Lorsque vous chargez un document vers une tâche ou un événement, un dossier généré par le système est créé à l’aide du nom de la tâche ou de l’événement. Ce dossier est lié à la tâche ou à l’événement et hérite de ses autorisations.
+
+Vous pouvez créer des sous-dossiers dans le dossier généré par le système pour organiser davantage les documents. Tous les sous-dossiers héritent des autorisations du dossier parent. Au niveau du projet, vous pouvez charger des documents en dehors d’un dossier, mais seuls les utilisateurs disposant d’un accès au niveau du projet peuvent les voir.
+
+Au niveau du projet, les dossiers générés par le système affichent un objet lié. Il s’agit généralement du nom de la tâche ou de l’événement, qui indique au système sur quelle tâche ou quel événement le dossier doit s’afficher.
+
+### Autorisations de projet
+
+Lorsque vous disposez d’autorisations au niveau du projet, vous pouvez afficher et gérer des documents pour ce projet dans Workfront et d’autres produits Adobe tels que Frame.io et Adobe Creative Cloud. Le nom du projet est également visible dans ces outils. Les autres données de projet ne sont pas visibles en dehors de Workfront.
+
+### Autorisations des tâches et des événements
+
+Les tâches et les événements héritent des autorisations du projet. Lorsque vous disposez d’autorisations au niveau de la tâche ou du problème, vous pouvez afficher et gérer les documents liés à cette tâche ou à ce problème dans Workfront et d’autres produits Adobe tels que Frame.io et Adobe Creative Cloud.
+
+**Dossiers générés par le système**
+
+* La suppression d’utilisateurs d’une tâche ou d’un événement ne supprime pas automatiquement l’accès au dossier. Ils peuvent toujours y avoir accès par le biais d’autorisations au niveau du projet.
+* Les sous-tâches n’héritent pas des autorisations de dossiers générées par le système des tâches parents. Vous devez être ajouté directement à une sous-tâche pour accéder à son dossier généré par le système.
+* L’ajout d’utilisateurs à une tâche ou à un problème partage avec eux le dossier généré par le système de cet objet.
+
+**Déplacement et changement de nom des dossiers générés par le système :**
+
+* Les dossiers générés par le système peuvent être renommés et déplacés.
+* Si un dossier généré par le système est déplacé vers un autre emplacement, son objet lié est mis à jour vers le nouvel objet . Les autorisations sont alors héritées du nouvel objet parent.
+
+Les requêtes suivent le même comportement que les tâches et les événements.
+
+### Approbations
+
+Lorsque vous êtes ajouté à un workflow d’approbation de document, les éléments suivants s’affichent, quelles que soient les autorisations de projet :
+
+* Nom du projet
+* Nom du document
+* Miniature du document
+
+
+
+
+
+
+
+
+
+

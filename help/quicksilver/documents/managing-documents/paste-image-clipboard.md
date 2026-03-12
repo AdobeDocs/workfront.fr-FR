@@ -6,16 +6,21 @@ description: Vous pouvez ajouter un fichier image à Adobe Workfront en le copi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 93%
+source-wordcount: '362'
+ht-degree: 85%
 
 ---
 
 # Coller des images à partir du presse-papiers
 
 Vous pouvez ajouter un fichier image à Adobe Workfront en le copiant et en le collant à partir du presse-papiers du système sur votre poste de travail. 
+
+>[!NOTE]
+>
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Exigences du navigateur pour le collage à partir du presse-papiers
 
@@ -37,13 +42,13 @@ Cette fonctionnalité est spécifique au navigateur, comme suit :
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 

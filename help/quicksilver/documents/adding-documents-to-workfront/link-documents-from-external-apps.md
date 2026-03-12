@@ -6,10 +6,10 @@ description: Vous pouvez lier des documents et des dossiers à Adobe Workfront 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '2545'
-ht-degree: 94%
+source-wordcount: '2585'
+ht-degree: 93%
 
 ---
 
@@ -57,6 +57,11 @@ Avant de lier des documents ou des dossiers, votre administrateur ou administrat
 
 Vous pouvez relire et approuver les documents liés à un fournisseur de services cloud externe de la même manière que vous le faites pour les documents chargés directement sur Workfront.
 
+>[!NOTE]
+>
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
@@ -66,12 +71,12 @@ Vous pouvez relire et approuver les documents liés à un fournisseur de service
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td>
+   <td role="rowheader">Package Adobe Workfront</td>
    <td> <p> Tous</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td>
-   <td><p>Contributeur ou version ultérieure</p>
+   <td><p>Contributeur ou supérieur</p>
     <p>Requête ou supérieure</p> </td>
   </tr> 
   <tr> 
@@ -304,7 +309,7 @@ Lors de la synchronisation du contenu d’un dossier à partir d’une applicati
 
 1. (Facultatif) Pour renommer le dossier de sorte que son nom dans Workfront soit différent de celui du dossier dans l’application de document externe, sélectionnez le dossier dans la section **Dossiers**, cliquez sur le menu Plus ![Plus](assets/more-icon.png) qui s’affiche en regard du nom du dossier, puis cliquez sur **Renommer**.
 
-   ![&#x200B; Renommer le dossier &#x200B;](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![ Renommer le dossier ](assets/documents-folderlink-rename-nwe-350x154.png)
 
 Cette opération ne renomme pas le dossier dans l’application externe.
 

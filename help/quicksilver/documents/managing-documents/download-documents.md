@@ -6,10 +6,10 @@ description: Vous pouvez télécharger des documents à partir d’Adobe Workfr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 89%
+source-wordcount: '356'
+ht-degree: 57%
 
 ---
 
@@ -26,13 +26,13 @@ Vous pouvez télécharger des documents à partir d’Adobe Workfront individue
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
@@ -50,16 +50,22 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Télécharger un document individuel
+## Téléchargement de documents dans la zone des documents hérités
+
+Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage Workfront hérité et le stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Télécharger un document individuel dans la zone des documents hérités
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
 1. Cliquez sur l’icône **Télécharger la sélection** ![Télécharger la sélection](assets/download-icon.png).
 
-## Télécharger simultanément plusieurs documents
+![télécharger un document individuel](assets/legacy-doc-download.png)
 
-Vous pouvez télécharger plusieurs documents simultanément. 
+### Télécharger plusieurs documents simultanément dans la zone des documents hérités
+
+Vous pouvez télécharger plusieurs documents simultanément.
 
 1. Accédez à la zone Documents qui contient les documents que vous souhaitez télécharger.
 1. (Facultatif) Sélectionnez dans la liste des documents les documents individuels que vous souhaitez télécharger.
@@ -72,3 +78,12 @@ Vous pouvez télécharger plusieurs documents simultanément. 
 1. Cliquez sur l’icône Télécharger la sélection ![icône Télécharger la sélection](assets/download-icon.png).
 
    Les dossiers sont téléchargés sous forme de fichiers .zip et sont limités à 4 Go.
+
+## Téléchargement de documents dans la zone des nouveaux documents
+
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Recherchez les documents dont vous avez besoin, puis cliquez sur **Télécharger**.
+
+![Télécharger le document](assets/download-new-doc.png)

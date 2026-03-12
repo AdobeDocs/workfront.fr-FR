@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Présentation de l’intégration Frame.io
-description: Présentation de l’intégration Frame.io
+title: Vue d’ensemble de l’intégration Frame.io
+description: Vue d’ensemble de l’intégration Frame.io
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 1%
 
 ---
 
-# Présentation de l’intégration Frame.io
+# Vue d’ensemble de l’intégration Frame.io
 
 L’intégration de Workfront et Frame.io permet aux coordinateurs de projet de gérer les projets et de planifier le travail dans Workfront, tandis que les créatifs, les spécialistes marketing et les parties prenantes peuvent examiner et approuver les ressources dans Frame.io.
 
@@ -95,10 +95,10 @@ Pour plus d’informations sur la gestion des projets dans Workfront, voir [Proj
 
 ### Structure appliquée et conventions de nommage
 
-Comme cette intégration est créée à l’aide d’Adobe Enterprise Storage, il existe des conventions de structure et de nommage appliquées à connaître lors de la gestion des projets et des documents.
+Cette intégration étant créée à l’aide du stockage d’entreprise Adobe, il existe une structure appliquée et des conventions de nommage à connaître lors de la gestion des projets et des documents.
 
 * Les noms d’objet doivent être uniques et ne peuvent pas être dupliqués
-* Le stockage d’entreprise Adobe requiert des noms uniques pour les objets homologue avec le même parent dans l’arborescence
+* Le stockage d’entreprise Adobe nécessite des noms uniques pour les objets homologue avec le même parent dans l’arborescence hiérarchique
 * Les documents ne peuvent pas porter le même nom s&#39;ils appartiennent au même projet
 * Les noms de document ne peuvent pas contenir les caractères spéciaux suivants : \ / : * ? « | &lt; >
 * Les noms de document sont limités à 255 caractères maximum
@@ -134,9 +134,7 @@ Le tableau suivant montre comment les autorisations Workfront sont mappées aux 
 
 ### Gestion des documents dans Workfront
 
-Les documents sont gérés au niveau du projet avec cette intégration et ne peuvent pas être chargés sur des tâches ou des événements pour le moment.
-
-L’accès aux documents est également géré au niveau du projet. Si un utilisateur a accès à un projet, il peut accéder à tous les documents associés à ce projet.
+Les documents chargés vers Workfront sont stockés dans le stockage d’entreprise d’Adobe et sont accessibles dans Workfront et Frame.io. Lorsque vous chargez un document vers une tâche ou un événement dans Workfront, un dossier généré par le système est créé dans le stockage d’entreprise Adobe et hérite des autorisations de la tâche ou de l’événement. Tous les documents chargés vers cette tâche ou cet événement sont stockés dans ce dossier et y héritent des autorisations. Pour plus d’informations sur les documents dans Workfront, voir [Présentation de la zone des nouveaux documents](/help/quicksilver/documents/managing-documents/documents-area.md) et [Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Limites de l’expérience du document
 
@@ -151,13 +149,3 @@ Les fonctionnalités suivantes ne seront pas incluses dans cette intégration :
 * Visionneuse de documents dans Workfront
 * Documents favoris
 * Demander des documents
-
-
-<!--#### Temporary limitations
-
-For now, the following capabilities are not available:
-
-* Send documents to Adobe Experience Manager Assets
-* Multi-stage approvals
-* Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->

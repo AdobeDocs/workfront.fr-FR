@@ -6,9 +6,9 @@ description: Présentation des systèmes disponibles pour révision et approbati
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -58,9 +58,11 @@ Pour plus d&#39;informations sur l&#39;utilisation de la visionneuse de relectur
 * Utilisez les tableaux de bord de la zone de travail, actuellement en version bêta, pour afficher les détails de rapports sur les approbations unifiées
 Pour plus d’informations sur les rapports, voir [Créer un tableau de bord de rapport pour révision et approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
-* Créer plusieurs approbations d’étape [!BADGE bientôt disponible]{type=Informative}
+* Créer plusieurs validations d’étape
 
 * Accédez aux demandes de révision et d’approbation dans le widget Mes approbations de la zone Accueil .
+
+* Utilisez l&#39;intégration Frame.io pour réviser et approuver des documents. Pour plus d’informations, voir [Prise en main de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 * Utilisez l’IA Reviewer pour automatiser les révisions de conformité de la marque. Pour plus d’informations, voir [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
@@ -88,7 +90,3 @@ Fonctionnalités disponibles pour la relecture :
 * Utilisation de workflows de base ou automatisés
 
 * Accédez aux demandes d’approbation dans le widget Mes approbations de la zone Accueil .
-
-<!--
-## Upcoming deprecations
--->

@@ -7,10 +7,10 @@ description: Dans la zone Documents, vous pouvez organiser, gérer et afficher l
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: d231bc962bddf44daad6e10c5652d1ff46554f8a
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 74%
+source-wordcount: '769'
+ht-degree: 36%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 74%
 
 Dans la zone Documents, vous pouvez organiser, gérer et afficher les métadonnées des documents chargés dans Adobe Workfront. Vous pouvez également voir le statut de décision de l’épreuve.
 
-Les documents ajoutés à des tâches et événements individuels sont tous disponibles dans la zone Projet > Documents .
+Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-![Zone Documents](assets/documents-area-v2-350x199.png)
+## Zone des documents hérités
 
 Il existe deux types de zones Documents. Les fonctionnalités sont les mêmes pour les deux :
 
@@ -38,9 +38,9 @@ La zone des documents enregistre un décompte des éléments suivants :
 * Fichiers ajoutés à Workfront à partir des intégrations
 * Experience Manager Assets lié
 
-## Panneau Résumé
+### Panneau Résumé
 
-Lorsque vous sélectionnez un document dans la zone Documents, vous pouvez utiliser le résumé à droite pour afficher les détails du document, gérer les mises à jour et les approbations du document, afficher les versions du document et ajouter et modifier les formulaires personnalisés du document.
+Lorsque vous sélectionnez un document dans la zone des documents, vous pouvez utiliser le résumé à droite pour afficher les détails du document, gérer les mises à jour et les approbations du document, afficher les versions du document, et ajouter et modifier des Forms personnalisées pour le document.
 
 Si la relecture est configurée pour le document, la section Détails contient des informations telles que la date d’échéance de la relecture et la progression actuelle de la relecture.
 
@@ -50,13 +50,13 @@ Vous pouvez cliquer sur l’en-tête Détails pour accéder à la zone Détails 
 
 Pour plus d’informations sur le résumé, voir [Vue d’ensemble du résumé des documents](../../documents/managing-documents/summary-for-documents.md).
 
-## Décision concernant l&#39;épreuve
+### Décision concernant l&#39;épreuve
 
 Une fois qu’un statut de décision de l’épreuve a été pris, il apparaît dans la liste des documents.
 
 ![Décision sur l&#39;épreuve dans la liste de documents](assets/proof-decision---doc-list-350x168.png)
 
-## Dossiers
+### Dossiers
 
 Sur un projet, une tâche ou un problème où des documents sont chargés, vous pouvez configurer des dossiers pour organiser les documents. Pour plus d’informations, voir [Créer des dossiers de documents](../../documents/organizing-documents/create-documents-folder.md).
 
@@ -66,6 +66,41 @@ Dans la zone Documents générale, vous pouvez configurer deux types de dossiers
 
 * **Mes dossiers :** organisez les documents comme vous le souhaitez. Pour plus d’informations, voir [Créer des dossiers de documents](../../documents/organizing-documents/create-documents-folder.md).
 
-## Détails du document développés
+### Détails du document développés
 
 La page Détails du document fournit une version plus complète des Détails du document dans le résumé à droite.
+
+## Zone du nouveau document
+
+>[!NOTE]
+>
+>La zone de documents globale n’est pas disponible dans la nouvelle expérience de zone de documents. Vous pouvez uniquement accéder aux documents d&#39;un programme, d&#39;un portefeuille, d&#39;un projet, d&#39;une tâche ou d&#39;un événement.
+
+### Utilisation du panneau de résumé
+
+Lorsque vous sélectionnez un document dans la zone des documents, vous pouvez utiliser le panneau Résumé à droite pour afficher des détails sur le document, ajouter et modifier des formulaires personnalisés joints, créer et gérer des workflows d’approbation, afficher des versions du document, etc.
+
+#### Vérifier et approuver avec Frame.io
+
+Vous pouvez réviser et approuver des documents dans la zone des nouveaux documents à l&#39;aide de la visionneuse Frame.io.
+
+Pour plus d’informations, voir [Prise en main de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+
+#### Gestion des versions
+
+Vous pouvez charger de nouvelles versions d’un document dans la zone des nouveaux documents. Lorsque vous chargez une nouvelle version, la version précédente est conservée et est accessible à partir du panneau Résumé . Les versions sont automatiquement nommées avec la date et l’heure du chargement, mais peuvent être renommées selon les besoins.
+
+Vous pouvez également lancer un nouveau workflow d’approbation pour une version spécifique d’un document.
+
+#### Afficher l’historique des documents
+
+Vous pouvez afficher l&#39;historique d&#39;un document dans la zone des nouveaux documents. L’historique comprend les types d’informations suivants :
+
+* Date de chargement du document
+* Lorsque de nouvelles versions ont été chargées
+* Quand les workflows d’approbation ont été lancés pour le document
+* Et plus encore
+
+### Dossiers au niveau du système pour les autorisations de document
+
+Workfront crée automatiquement un dossier au niveau du système lorsque le premier document est chargé sur une tâche ou un événement. Ces dossiers héritent des autorisations de la tâche ou de l’événement et sont visibles dans la zone des documents au niveau du projet. Tous les documents chargés vers cette tâche ou cet événement sont stockés dans ce dossier et y héritent des autorisations. Il s’agit de la principale méthode de gestion des autorisations pour les documents dans la zone des nouveaux documents. Pour plus d’informations, voir [Présentation des autorisations d’objet et des niveaux d’accès pour le modèle de stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).

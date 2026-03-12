@@ -6,20 +6,16 @@ description: Les documents peuvent être organisés en dossiers. Vous pouvez cr�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+source-git-commit: ff05270bd808d26abfed7b0d20b37f0bfc314c08
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 96%
+source-wordcount: '775'
+ht-degree: 31%
 
 ---
 
 # Créer des dossiers de documents
 
-Les documents peuvent être organisés en dossiers. Vous pouvez créer des dossiers personnels dans votre zone personnelle Documents.
-
->[!NOTE]
->
->L’organisation des documents crée simplement des liens entre les documents et les objets auxquels vous les associez. Cela ne les déplace pas dans le système.
+Les documents peuvent être organisés en dossiers. Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -30,13 +26,13 @@ Les documents peuvent être organisés en dossiers. Vous pouvez créer des dossi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +46,15 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Afficher des dossiers
+## Créer des dossiers de documents dans la zone des documents hérités
+
+Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage d’entreprise Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+
+>[!NOTE]
+>
+>L’organisation des documents crée simplement des liens entre les documents et les objets auxquels vous les associez. Cela ne les déplace pas dans le système.
+
+### Afficher des dossiers
 
 Vous pouvez afficher les dossiers dans la vue miniature, standard ou liste. Pour changer de vue, utilisez les options d’affichage dans le coin supérieur droit.
 
@@ -64,7 +68,7 @@ Une fois l’objet Workfront ouvert, cliquez sur **Documents** dans le panneau d
 
    ![Options d’affichage des documents](assets/screenshot-2016-07-07-12.46.54.png)
 
-## Créer des dossiers et des sous-dossiers
+### Créer des dossiers et des sous-dossiers
 
 Créez des dossiers pour mieux organiser vos documents. Vous pouvez créer jusqu’à 2 000 dossiers sur un objet et jusqu’à 50 sous-dossiers dans chaque dossier. Les sous-dossiers sont comptabilisés dans le maximum de 2 000 dossiers.
 
@@ -80,6 +84,69 @@ Une fois l’objet Workfront ouvert, cliquez sur **Documents** dans le panneau d
 
    Pour créer un sous-dossier, sélectionnez le dossier dans lequel vous souhaitez créer le sous-dossier, puis cliquez sur **Ajouter** > **Dossier**.
 
-## Partager des dossiers
+### Partager des dossiers
 
 Pour plus d’informations sur le partage de dossiers, voir [Partager un dossier de documents](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+
+## Créer des dossiers de documents dans la zone des nouveaux documents
+
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Dossiers générés par le système
+
+Lorsque vous chargez un document vers une tâche ou un événement, Workfront crée automatiquement un dossier généré par le système et nommé en fonction de la tâche ou de l’événement. Ce dossier est lié à la tâche ou à l’événement et hérite de ses autorisations. Les dossiers générés par le système sont visibles dans la zone des documents au niveau du projet.
+
+Pour plus d’informations sur les autorisations de dossier, voir [Fonctionnement des autorisations de document](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+### Créer des sous-dossiers
+
+Vous pouvez créer des sous-dossiers dans un dossier généré par le système pour organiser davantage les documents. Tous les sous-dossiers héritent des autorisations du dossier parent.
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Cliquez dans le dossier dans lequel vous souhaitez créer un sous-dossier, puis cliquez sur l’icône **Ajouter un dossier** ![icône d’ajout de dossier](assets/add-folder-icon.png).
+   ![ajouter un sous-dossier](assets/add-subfolder.png)
+1. Saisissez un nom pour le sous-dossier, puis cliquez sur **Créer**.
+
+### Renommer un dossier
+
+Les dossiers générés par le système héritent automatiquement du nom de la tâche ou de l’événement. Vous pouvez les renommer en cliquant sur le nom du dossier et en le modifiant.
+
+Pour renommer un dossier :
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Recherchez le dossier à renommer, puis cliquez sur l’icône **Plus** ![plus](assets/more-icon.png).
+1. Cliquez sur **Renommer**, puis saisissez un nouveau nom pour le dossier.
+
+   ![renommer le dossier](assets/rename-folder.png)
+
+1. Cliquez sur **Renommer**.
+
+### Déplacer un dossier
+
+Les dossiers générés par le système peuvent être déplacés vers un autre projet, une autre tâche ou un autre événement. Si un dossier généré par le système est déplacé vers un autre emplacement, son objet lié est mis à jour vers le nouvel objet et les autorisations sont héritées du nouvel objet parent. Vous pouvez également déplacer des sous-dossiers vers un autre projet, une autre tâche ou un autre événement.
+
+>[!NOTE]
+>
+>Seuls les projets, tâches et événements utilisant le même type de stockage sont disponibles dans la boîte de dialogue de déplacement. Par exemple, si vous déplacez un dossier dans un projet de stockage d’entreprise, seuls les projets, tâches et problèmes utilisant le stockage d’entreprise peuvent être déplacés.
+
+
+Pour déplacer un dossier :
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Recherchez le dossier à déplacer, puis cliquez sur l’icône **Plus** ![plus](assets/more-icon.png).
+1. Cliquez sur **Déplacer**, puis sélectionnez le projet, la tâche ou l’événement vers lequel vous souhaitez déplacer le dossier.
+
+
+   ![déplacer le dossier](assets/rename-folder.png)
+
+<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
+
+### Suppression d’un dossier
+
+Pour supprimer un dossier :
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Recherchez le dossier à supprimer, puis cliquez sur l’icône **Plus** ![plus](assets/more-icon.png).
+1. Cliquez sur **Supprimer**.
+
+   ![supprimer le dossier](assets/rename-folder.png)

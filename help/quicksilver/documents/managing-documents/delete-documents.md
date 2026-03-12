@@ -6,10 +6,10 @@ description: Vous pouvez supprimer les documents que vous chargez. Si vous avez 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 91%
+source-wordcount: '334'
+ht-degree: 54%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez supprimer les documents que vous chargez. Si vous avez un accès en 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
@@ -50,13 +50,36 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
+## Supprimer un document dans la zone des documents hérités
+
+Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage Workfront hérité et le stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 Pour supprimer un document :
 
-1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
 1. Recherchez le document dont vous avez besoin.
 
 1. Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) au-dessus de la zone Documents.
 
 1. Dans la case qui s’affiche, cliquez sur **Oui, supprimer** pour confirmer.
 
-Un administrateur ou administratrice système ou de groupes peut restaurer un document dans les 30 jours suivant sa suppression, comme décrit dans la section [Restauration des éléments supprimés](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+   Un administrateur ou administratrice système ou de groupes peut restaurer un document dans les 30 jours suivant sa suppression, comme décrit dans la section [Restauration des éléments supprimés](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
+   ![supprimer des documents](assets/delete-documents-legacy.png)
+
+
+## Supprimer un document dans la zone des nouveaux documents
+
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Pour supprimer un document :
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+
+1. Recherchez le document dont vous avez besoin, puis cliquez sur **Supprimer**.
+
+1. Dans la zone qui s’affiche, cliquez sur **Supprimer** pour confirmer.
+
+   Un administrateur ou administratrice système ou de groupes peut restaurer un document dans les 30 jours suivant sa suppression, comme décrit dans la section [Restauration des éléments supprimés](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
+   ![supprimer des documents](assets/delete-documents-new.png)

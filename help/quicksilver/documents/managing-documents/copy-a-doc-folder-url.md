@@ -6,16 +6,21 @@ description: Vous pouvez copier un lien pour n’importe quel dossier de documen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 98%
+source-wordcount: '238'
+ht-degree: 83%
 
 ---
 
 # Copier et partager un lien vers un dossier de document
 
 Vous pouvez copier un lien direct pour n’importe quel dossier de document contenu dans l’un des objets [!DNL Workfront] suivants : [!UICONTROL Programme], [!UICONTROL Portfolio], [!UICONTROL Projet], [!UICONTROL Tâche] ou [!UICONTROL Problème]. Vous ne pouvez pas copier de lien pour les dossiers contenus dans la zone [!UICONTROL Documents] du menu principal, car ces dossiers sont directement liés à votre profil utilisateur et ne peuvent pas être partagés avec d’autres personnes.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -26,7 +31,7 @@ Vous pouvez copier un lien direct pour n’importe quel dossier de document cont
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

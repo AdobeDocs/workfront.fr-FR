@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Prise en main de l’intégration Frame.io
+title: Commencer à utiliser l’intégration Frame.io
 description: Commencez avec l’intégration Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 6%
 
 ---
 
-# Prise en main de l’intégration Frame.io
+# Commencer à utiliser l’intégration Frame.io
 
 L’intégration de Workfront et Frame.io aligne les créatifs, les spécialistes du marketing et les parties prenantes sur un workflow transparent. Accédez aux mises à jour en temps réel, évitez les doublons et assurez-vous que les ressources sont approuvées avant le lancement.
 
@@ -38,10 +38,10 @@ Les coordinateurs de projet peuvent créer des projets et planifier le travail d
 
 Si votre entreprise dispose d’une licence d’entreprise Frame.io, les projets créés dans Workfront sont également visibles dans Frame.io, ce qui permet aux utilisateurs d’interagir et de charger des ressources dans les deux produits.
 
-Pour plus d’informations sur le stockage d’entreprise Adobe ou les projets dans Frame.io, voir
+Pour plus d’informations sur le stockage d’entreprise ou les projets Adobe dans Frame.io, voir
 
 * [Présentation de Workspace : projets](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Vue d’ensemble du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## Révision et approbation des ressources
 
@@ -52,7 +52,7 @@ Une fois le processus d’approbation créé, les réviseurs et les approbateurs
 Pour plus d’informations sur la configuration des projets, voir
 
 * [Créer un projet](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-* [Présentation de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+* [Vue d’ensemble de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Lancement des révisions et des approbations formelles dans Workfront
 
@@ -67,13 +67,13 @@ Les réviseurs et approbateurs peuvent être ajoutés à un workflow d’approba
 
 * **Validations à usage unique** : dans le projet ou la tâche où réside la ressource, le coordinateur du projet peut affecter des validants et des approbateurs et définir une date limite d’achèvement. Un rappel est envoyé aux réviseurs et aux approbateurs 72 heures avant l’échéance, 24 heures avant l’échéance, puis à l’échéance elle-même.
 
-  Pour plus d’informations, voir [Créer une demande d’approbation ou de révision de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+  Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 * **Modèles d’approbation** : dans la zone Configuration de Workfront, les coordinateurs de projet peuvent créer des modèles d’approbation réutilisables. Dans un modèle, les utilisateurs peuvent ajouter des réviseurs et des approbateurs et définir un délai d’achèvement. Lorsque le modèle d’approbation est appliqué à une ressource, l’échéance est calculée à partir de la période spécifiée.
 
   Une fois un modèle créé, il peut être appliqué à une ressource pour lancer le processus de révision et d’approbation formel dans Workfront.
 
-  Pour plus d’informations, consultez [Créer un modèle d’approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+  Pour plus d’informations, voir [Création d’un modèle de workflow d’approbation pour les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 
   ![Attribuer un modèle](assets/assign-template.png)
@@ -106,6 +106,7 @@ Les commentaires et les balises de ressources sont visibles dans la visionneuse 
 Une fois toutes les activités de révision terminées, les approbateurs doivent prendre l’une des décisions suivantes :
 
 * **Approuver** : la ressource n’a pas besoin d’être modifiée et est prête à être utilisée.
+* **Approuvé avec modifications** : la ressource est presque complète, mais des modifications mineures lui sont nécessaires avant de pouvoir être utilisée. Une fois les modifications spécifiées effectuées, la ressource est prête et n’a pas besoin de passer par une autre série d’approbations.
 * **À retravailler** : la ressource a besoin d’être modifiée et n’est pas prête à être utilisée. Une fois les modifications spécifiées effectuées, la ressource doit être chargée en tant que nouvelle version et passer par un autre cycle d’approbations. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 Les réviseurs et réviseuses peuvent marquer leur révision comme terminée dans Workfront, mais cela n’est pas nécessaire pour que la ressource passe au processus d’approbation.
@@ -125,6 +126,6 @@ Les coordinateurs de projet peuvent surveiller la progression de toutes les appr
 
 ## Envoi des ressources terminées vers Adobe Experience Manager
 
-Vous pouvez utiliser le [!DNL Experience Manager Assets]&#x200B;&#x200B; pour gérer et stocker vos ressources numériques qui ont passé le cycle de révision et d’approbation. Cette intégration vous permet d’exploiter les fonctionnalités de Adobe Experience Manager, Frame.io et Workfront afin de rationaliser vos processus de gestion de contenu et de collaboration.
+Vous pouvez utiliser le [!DNL Experience Manager Assets]&#x200B;&#x200B; pour gérer et stocker vos ressources numériques qui ont passé le cycle de révision et d’approbation. Cette intégration permet d’exploiter les fonctionnalités d’Adobe Experience Manager, Frame.io et Workfront afin de rationaliser vos processus de gestion de contenu et de collaboration.
 
-Pour plus d’informations, voir [Utilisation de Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Pour plus d’informations, voir [Utilisation d’Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).

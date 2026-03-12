@@ -6,16 +6,21 @@ description: Vous pouvez extraire un document pour empêcher d’autres personne
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 92%
+source-wordcount: '674'
+ht-degree: 87%
 
 ---
 
 # Extraire des documents
 
 Vous pouvez extraire un document pour empêcher d’autres personnes de le supprimer ou d’en charger une nouvelle version. Une seule personne à la fois peut extraire un document.Vous pouvez extraire tout document chargé vers Adobe Workfront ainsi que les documents liés à des fournisseurs de documents tiers (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint ou tout autre fournisseur personnalisé). 
+
+>[!NOTE]
+>
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -26,13 +31,13 @@ Vous pouvez extraire un document pour empêcher d’autres personnes de le suppr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 

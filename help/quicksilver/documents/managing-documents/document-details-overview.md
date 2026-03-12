@@ -3,32 +3,30 @@ content-type: overview
 product-area: documents
 navigation-topic: manage-documents
 title: Vue d’ensemble des détails du document
-description: La page Détails du document permet de visualiser, de communiquer et de gérer les propriétés d’un document associé à un objet Adobe Workfront.
+description: La page Détails du document vous permet d’afficher, de communiquer et de gérer les propriétés d’un document joint à un objet Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 89%
+source-wordcount: '378'
+ht-degree: 29%
 
 ---
 
 # Vue d’ensemble des détails du document
 
-La page Détails du document permet de visualiser, de communiquer et de gérer les propriétés d’un document associé à un objet Adobe Workfront.
+La page Détails du document vous permet d’afficher, de communiquer et de gérer les propriétés d’un document joint à un objet Adobe Workfront.
 
-## Ouvrir la page Détails du document
+## Zone des documents hérités
 
-{{step1-to-documents}}
+Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage Workfront hérité et le stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-1. Pointez sur le document, puis cliquez sur **Détails du document**.
 
-   ![&#x200B; Détails du document &#x200B;](assets/document-details-350x179.png)
 
-## Effectuer des actions de base pour les documents et les épreuves
+### Effectuer des actions de base pour les documents et les épreuves
 
-Vous pouvez effectuer les actions suivantes pour les documents et les épreuves à partir de la page Détails du document :
+Vous pouvez effectuer les actions suivantes pour les documents et les épreuves à partir de la page Détails du document :
 
 * Créer une épreuve simple ou avancée
 * Créer une version
@@ -45,9 +43,9 @@ En outre, vous pouvez utiliser l’icône Plus ![menu Plus](assets/more-icon.png
 * Téléchargement
 * Envoyer
 
-## Effectuer des actions spécifiques aux épreuves
+### Effectuer des actions spécifiques aux épreuves
 
-Vous pouvez effectuer les actions suivantes à partir de la page de détails du document si vous êtes dans le workflow de l’épreuve :
+Si vous vous trouvez sur le workflow du BAT, vous pouvez effectuer les actions suivantes à partir de la page Détails du document :
 
 * Voir les détails de l’envoi, de l’ouverture, des commentaires et de la décision (SOCD)
 * Ouvrir une épreuve
@@ -56,3 +54,49 @@ Vous pouvez effectuer les actions suivantes à partir de la page de détails du 
 * Modifier les champs personnalisés de relecture
 
   Les champs personnalisés de relecture doivent être configurés dans Workfront Proof. Pour plus d’informations, voir [Créer et gérer des champs personnalisés dans Workfront Proof](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
+
+![ Détails du document ](assets/doc-details-full-legacy.png)
+
+### Ouvrez la page Détails du document dans la zone des documents hérités
+
+{{step1-to-documents}}
+
+1. Pointez sur le document, puis cliquez sur **Détails du document**.
+
+   ![ Détails du document ](assets/doc-details-legacy.png)
+
+
+## Zone du nouveau document
+
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Vous pouvez effectuer les actions suivantes pour les documents à partir de la page Détails du document :
+
+<table style="border: none; width: 80%; margin: 0 auto;">
+<tr style="border: none;">
+<td style="border: none; width: 50%; padding-right: 20px;">
+<ul>
+<li>Ouvrez dans Frame.io. <br>Vous devez disposer d'une licence d'entreprise Frame.io pour utiliser cette fonctionnalité.</li>
+<li>Supprimer un document</li>
+<li>Modification d’un document</li>
+</ul>
+</td>
+<td style="border: none; width: 50%; padding-left: 20px;">
+<ul>
+<li>Déplacer un document</li>
+<li>Envoyer un document à Experience Manager Access</li>
+<li>Partager un document</li>
+</ul>
+</td>
+</tr>
+</table>
+
+![Icône de menu Plus de détails du document](assets/more-menu-new-doc.png)
+
+
+### Ouvrez le panneau Détails du document dans la zone des nouveaux documents
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Sélectionnez le document, puis cliquez sur **Afficher les détails**.
+
+   ![ Détails du document ](assets/doc-details.png)

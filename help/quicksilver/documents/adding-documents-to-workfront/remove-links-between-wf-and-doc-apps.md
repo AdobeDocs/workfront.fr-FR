@@ -6,10 +6,10 @@ description: Lorsqu’un document est chargé pour la première fois à partir d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 98%
+source-wordcount: '413'
+ht-degree: 90%
 
 ---
 
@@ -21,6 +21,11 @@ Pour plus d’informations sur la liaison de services de documents externes à W
 
 Le service de documents étant celui qui autorise les liens vers Workfront, Workfront ne peut pas supprimer l’autorisation accordée par le service de documents. Vous devez supprimer l’autorisation à partir de l’application du service de documents ou appeler notre équipe d’assistance pour supprimer ce lien de nos serveurs.
 
+>[!NOTE]
+>
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
@@ -30,13 +35,13 @@ Le service de documents étant celui qui autorise les liens vers Workfront, Work
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 

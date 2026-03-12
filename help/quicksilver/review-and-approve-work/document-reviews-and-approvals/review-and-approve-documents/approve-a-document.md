@@ -6,18 +6,18 @@ description: Si on vous affecte en tant que personne approbatrice à un document
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 73%
+source-wordcount: '1178'
+ht-degree: 72%
 
 ---
 
 # Approuver un document dans Workfront
 
-Si vous êtes affecté en tant qu’approbateur ou approbatrice à un document, vous pouvez prendre votre décision d’approbation de plusieurs façons.
+Si on vous affecte en tant que personne approbatrice à un document, il existe plusieurs façons de prendre votre décision d’approbation.
 
-Pour plus d’informations sur la création d’une approbation de document, voir [Créer une demande de révision ou d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Pour plus d’informations sur la création d’une approbation de document, voir [Créer un workflow d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
@@ -33,13 +33,13 @@ Pour plus d’informations sur la création d’une approbation de document, voi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
@@ -71,7 +71,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Cliquez sur **Filtres** en haut à gauche de la page et assurez-vous de cocher **Approbations**.
 
-   Toutes les tâches qui nécessitent votre approbation sont répertoriées dans la liste.
+   Tous les éléments de travail qui nécessitent votre approbation sont répertoriés dans la liste.
 
    >[!NOTE]
    >
@@ -155,7 +155,7 @@ Pour réviser et approuver un document :
 
    * **Approuver** : le document n’a pas besoin d’être modifié et est prêt à être utilisé.
    * **Approuver avec modifications** : le document nécessite des modifications et est prêt à l’emploi une fois qu’il a été créé. Aucune approbation supplémentaire n’est requise.
-   * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle d&#39;approbations. Pour plus d’informations sur le téléchargement d’une nouvelle version, consultez la section [Créer une version si nécessaire](#create-a-new-version-as-needed) dans cet article.
+   * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle d&#39;approbations. Pour plus d’informations sur le téléchargement d’une nouvelle version, voir [ Télécharger une nouvelle version du document et demander une approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
 
 Une fois la décision prise, le propriétaire du document est averti par e-mail.
 

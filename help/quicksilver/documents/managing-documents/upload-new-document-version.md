@@ -6,10 +6,10 @@ description: Vous pouvez ajouter une nouvelle version d’un document que vous a
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 96%
+source-wordcount: '557'
+ht-degree: 74%
 
 ---
 
@@ -34,13 +34,13 @@ Pour plus d’informations sur l’ajout d’une nouvelle version d’un documen
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -57,7 +57,11 @@ Pour plus d’informations sur l’ajout d’une nouvelle version d’un documen
 Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Faire glisser et déposer pour ajouter une nouvelle version
+## Charger une nouvelle version du document dans la zone des documents hérités
+
+Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage Workfront hérité et le stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Faire glisser et déposer pour ajouter une nouvelle version
 
 >[!NOTE]
 >
@@ -74,7 +78,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Pour plus d’informations sur la gestion des versions de document, voir [Gérer les versions de documents](../../documents/managing-documents/manage-document-versions.md).
 
-## Utilisez le menu Plus pour ajouter une nouvelle version.
+### Utilisez le menu Plus pour ajouter une nouvelle version.
 
 1. Sélectionnez le document dans lequel vous souhaitez ajouter une nouvelle version.
 1. Cliquez sur **Ajouter nouveau** > **Version**.
@@ -82,3 +86,42 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    ![Ajouter une nouvelle version](assets/add-new-version-350x185.png)
 
 1. Sélectionnez le type de document à charger, puis suivez les invites.
+
+## Chargez une nouvelle version du document dans la zone des nouveaux documents
+
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Faire glisser et déposer pour ajouter une nouvelle version
+
+>[!NOTE]
+>
+>Glisser-déposer ne fonctionne pas avec Internet Explorer.
+
+1. Accédez à la zone Documents dans laquelle le document est chargé.
+1. Faites glisser la nouvelle version du document au-dessus de la version existante dans Workfront.
+
+   ![Glisser-déposer la version du document](assets/drag-drop-new-doc.png)
+
+1. Déposez la nouvelle version au-dessus du fichier existant sur l’onglet **Documents**.
+
+   Pour plus d’informations sur la gestion des versions de document, voir [Gérer les versions de documents](../../documents/managing-documents/manage-document-versions.md).
+
+### Utilisez le menu Plus pour ajouter une nouvelle version.
+
+1. Sélectionnez le document dans lequel vous souhaitez ajouter une nouvelle version.
+1. Ouvrez l’icône Afficher les versions ![icône Afficher les versions](assets/show-versions.png) sur la droite.
+1. Cliquez sur **Ajouter une nouvelle version**.
+
+   ![Ajouter une nouvelle version](assets/new-version-new-doc.png)
+
+1. Recherchez votre document, puis cliquez sur **Ouvrir**.
+
+
+
+
+
+
+
+
+
+

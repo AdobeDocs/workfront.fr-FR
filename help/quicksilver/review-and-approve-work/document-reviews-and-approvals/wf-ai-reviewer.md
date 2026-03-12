@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+source-git-commit: 7944822b0aa49498ef8a396768b90dc9ed85b607
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '653'
 ht-degree: 7%
 
 ---
@@ -65,7 +65,7 @@ Le réviseur de l’IA Workfront applique les directives de la marque lors de la
 Pour plus d’informations, voir [Configuration des marques pour le réviseur de l’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
-## Créer des réviseurs d’IA
+## Créer des outils de révision IA
 
 Une fois qu’il existe au moins une marque configurée, les administrateurs de Workfront peuvent commencer à créer des réviseurs d’IA dans la zone Configuration . Ces réviseurs d’IA peuvent ensuite être affectés à des modèles d’approbation et à des demandes de révision et d’approbation individuelles. Actuellement, les réviseurs d’IA peuvent uniquement effectuer des révisions par rapport aux directives de marque des images.
 
@@ -83,7 +83,7 @@ Les utilisateurs peuvent ajouter des réviseurs d’IA aux modèles d’approbat
 
 Une fois créés, les modèles d’approbation peuvent être appliqués aux ressources de la zone Documents d’un projet, d’une tâche ou d’un événement.
 
-Pour plus d’informations, voir [Créer un modèle d’approbation pour les ressources et les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Pour plus d’informations, voir [Création d’un modèle de workflow d’approbation pour les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![liste de modèles présentant les réviseurs d’IA](assets/ai-review-templates.png)
 
@@ -91,12 +91,12 @@ Pour plus d’informations, voir [Créer un modèle d’approbation pour les res
 
 Lorsque les utilisateurs créent des demandes de révision et d’approbation individuelles, ils peuvent ajouter un réviseur d’IA dans avec d’autres participants ou créer une seule demande avec uniquement le réviseur d’IA pour vérifier la conformité de la marque.
 
-Pour plus d’informations, voir [Créer une demande d’approbation ou de révision de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
-![Réviseur AI ajouté à une demande d’approbation individuelle](assets/ad-ai-reviewer-to-request.png)
 
-## Afficher le score et le retour d’informations du réviseur de l’IA
+
+## Afficher le score et les commentaires de l’outil de révision IA
 
 Quelques secondes après l’envoi de la demande de révision et d’approbation avec un réviseur d’IA, le score et le retour d’informations du réviseur d’IA sont disponibles dans le panneau Résumé du document, même si d’autres participants sont toujours en train de réviser et de prendre des décisions.
 
