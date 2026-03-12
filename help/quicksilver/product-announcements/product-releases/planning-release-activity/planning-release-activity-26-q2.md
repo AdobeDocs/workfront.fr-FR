@@ -137,7 +137,7 @@ Lorsque vous partagez la vue Liste dans la page des enregistrements connectés a
 
 Cette mise à jour est disponible uniquement dans la vue Liste, pour la page Enregistrements connectés d’un enregistrement lors de l’affichage de projets.
 
-Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Appliquer une mise en forme conditionnelle à la vue Liste
 
@@ -149,7 +149,7 @@ Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/plann
 
 Vous pouvez désormais appliquer une mise en forme conditionnelle aux projets dans une vue Liste dans la page Enregistrements connectés d’un enregistrement. Cette fonctionnalité n’existait pas dans la vue Liste avant cette amélioration.
 
-Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Améliorations des types d’enregistrements globaux dans les espaces de travail secondaires
 
