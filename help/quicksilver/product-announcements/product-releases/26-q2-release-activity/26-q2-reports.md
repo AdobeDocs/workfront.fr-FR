@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
+source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 16%
+source-wordcount: '548'
+ht-degree: 14%
 
 ---
 
@@ -17,6 +17,22 @@ ht-degree: 16%
 Cette page décrit les améliorations apportées aux rapports avec la version du deuxième trimestre 2026 dans l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2026, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Nouvelles options d’authentification pour la connexion à Data Connect
+
+>[!NOTE]
+>
+>Aperçu : 12 mars 2026
+>Version rapide de production : vendredi 12 mars 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Vous pouvez désormais vous authentifier auprès de Data Connect à l’aide de clés RSA ou de connexions PAT (Programmatic Access Tokens), ajoutant ainsi des alternatives plus sécurisées et flexibles aux informations d’identification traditionnelles de nom d’utilisateur/mot de passe.
+
+Ces nouvelles options permettent aux entreprises de maintenir des connexions stables à partir de Power BI, Tableau et d’autres outils de BI tiers sans recourir à des méthodes de connexion basées sur l’utilisateur.
+
+>[!IMPORTANT]
+>
+>En juin 2026, les informations d’identification de nom d’utilisateur/mot de passe seront requises pour utiliser l’authentification multifacteur (MFA). Nous vous recommandons de passer à l’authentification RSA ou PAT pour les comptes utilisateur de service utilisés pour charger des données de Data Connect dans des outils de visualisation, des processeurs de données et des scripts tiers qui ne fonctionneront pas avec MFA dans le processus d’authentification.
 
 ## Libellés de champ personnalisés affichés lors de la création de rapports
 

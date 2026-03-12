@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: e23cd8613a54ce54ae93ea1a4ea14c022fbd1ae2
+source-git-commit: 1e05945e24770848da9d2c77b81b9475e43797ea
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 16%
+source-wordcount: '1180'
+ht-degree: 15%
 
 ---
 
@@ -24,21 +24,33 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 <!--
 
-## Allow non-admin users to make a record type connectable 
+## New field type for Record ID  
 
 >[!NOTE]
 >
->Preview: March 5, 2026
+>Preview: March 12, 2026
 >Production fast release: April 15, 2026
 >Production for everyone: April 16, 2026
 
-We are now allowing non-administrators who are workspace managers to make a record type connectable from specific workspaces.  
+We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
 
-Before this update, non-administrators could not enable record types to be connectable. Now, they can enable the record types to be connectable from specific workspaces. They cannot enable record types to be connectable from all workspaces in the system. 
-
-For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 -->
+
+## Autoriser les utilisateurs non-administrateurs à connecter un type d’enregistrement
+
+>[!NOTE]
+>
+>Aperçu : 12 mars 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Nous autorisons désormais les non-administrateurs qui sont des gestionnaires d’espace de travail à rendre un type d’enregistrement connectable à partir d’espaces de travail spécifiques.
+
+Avant cette mise à jour, les non-administrateurs ne pouvaient pas permettre la connexion des types d’enregistrements. Désormais, ils peuvent permettre aux types d’enregistrements d’être connectables à partir d’espaces de travail spécifiques. Ils ne peuvent pas permettre aux types d’enregistrements d’être connectables à partir de tous les espaces de travail du système.
+
+Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 ## Automatisation basée sur les déclencheurs
 
@@ -125,7 +137,7 @@ Lorsque vous partagez la vue Liste dans la page des enregistrements connectés a
 
 Cette mise à jour est disponible uniquement dans la vue Liste, pour la page Enregistrements connectés d’un enregistrement lors de l’affichage de projets.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Appliquer une mise en forme conditionnelle à la vue Liste
 
@@ -137,7 +149,7 @@ Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/q
 
 Vous pouvez désormais appliquer une mise en forme conditionnelle aux projets dans une vue Liste dans la page Enregistrements connectés d’un enregistrement. Cette fonctionnalité n’existait pas dans la vue Liste avant cette amélioration.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Améliorations des types d’enregistrements globaux dans les espaces de travail secondaires
 
