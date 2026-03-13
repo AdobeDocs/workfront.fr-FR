@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: c0c2615c419001c3fe1a73b1b7c069276d270783
+source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 42%
+source-wordcount: '1505'
+ht-degree: 40%
 
 ---
 
@@ -134,26 +134,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>jeudi 15 avril 2026</p></td>
         <td><p>vendredi 16 avril 2026</p></td>
     </tr>
-    <!--
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Multi‑stage approval workflows available for unified approvals</a><p></p>
-            <p>Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Workflows d’approbation en plusieurs étapes disponibles pour les approbations unifiées</a><p></p>
+            <p>Les workflows d’approbation à plusieurs étapes sont désormais disponibles dans les approbations unifiées, ce qui permet aux organisations d’appliquer des processus d’approbation structurés et reproductibles qui reflètent la manière dont le travail est examiné dans le monde réel. </p>
         </td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 15, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
+        <td><p>vendredi 12 mars 2026</p></td>
+        <td><p>jeudi 15 avril 2026</p></td>
+        <td><p>vendredi 16 avril 2026</p></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Set up and use multi-stage approval workflow templates</a><p></p>
-            <p>You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Configurer et utiliser des modèles de workflow d’approbation à plusieurs étapes</a><p></p>
+            <p>Vous pouvez désormais configurer et réutiliser des modèles de workflow d’approbation à plusieurs étapes, ce qui facilite l’application d’une gouvernance cohérente à tous les workflows d’approbation répétables. </p>
         </td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 15, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
+        <td><p>vendredi 12 mars 2026</p></td>
+        <td><p>jeudi 15 avril 2026</p></td>
+        <td><p>vendredi 16 avril 2026</p></td>
     </tr>
-    -->
              </tbody>
         </table>
 
@@ -382,7 +380,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

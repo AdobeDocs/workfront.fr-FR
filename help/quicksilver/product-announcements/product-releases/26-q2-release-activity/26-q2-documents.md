@@ -4,10 +4,11 @@ description: Améliorations des documents du deuxième trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b77fad0c196738f4cb6b3272c8309de815a78bc9
+exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
+source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 15%
+source-wordcount: '581'
+ht-degree: 13%
 
 ---
 
@@ -35,15 +36,13 @@ Profitez d’une expérience de documents entièrement repensée, avec une appar
 
 Créez des workflows d’approbation plus structurés et sophistiqués avec des approbations à plusieurs étapes. Acheminez le travail par étapes de révision séquentielles, attribuez des parties prenantes à chaque étape et assurez-vous que les bonnes personnes l’approuvent au bon moment, ce qui accroît la gouvernance et la visibilité de votre processus. Pour plus d’informations, voir [Créer une demande d’approbation ou de révision de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
+#### Examen et approbation du contenu dans Frame.io
+
+Examinez et approuvez le contenu directement dans la visionneuse Frame.io et éliminez la nécessité de basculer entre les plateformes. Cette intégration permet des cycles de commentaires plus rapides et conserve toutes les activités de révision au même endroit. Pour plus d’informations, voir [Prise en main de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+
 #### Connexion à Adobe Experience Manager
 
 Envoyez facilement des ressources approuvées directement à Adobe Experience Manager. Cette intégration permet d’accélérer l’activation du contenu en connectant les workflows de révision et d’approbation à la gestion de contenu en aval. Pour plus d’informations, voir [Utilisation d’Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
-
-#### Intégration à GenStudio for Performance Marketing
-
-Créez des workflows d’approbation et examinez des ressources à l’aide de la visionneuse Frame.io dans GenStudio for Performance Marketing. Cette intégration permet une révision créative de haute qualité tout en prenant en charge des campagnes rapides et axées sur les performances. Pour plus d’informations, voir [Prise en main de l’intégration de GenStudio for Performance Marketing et Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md).
-
-La fonctionnalité Révision et approbation unifiée optimisée par Workfront et Frame.io permet aux équipes de passer plus rapidement de la révision à l&#39;activation, ce qui réduit les frictions, améliore la collaboration et maintient le travail connecté entre les solutions Adobe.
 
 #### Accès au stockage d’entreprise Adobe
 
@@ -55,43 +54,38 @@ Pour plus d’informations, consultez [Présentation du stockage d’entreprise 
 
 Workfront et Frame.io étendent le processus de révision et d’approbation de base de GenStudio for Performance Marketing avec des fonctionnalités de révision et d’approbation plus structurées. Les épreuves examinées dans cette intégration sont limitées aux formats pris en charge par GenStudio for Performance Marketing.
 
-<!--
-
-## Multi‑stage approval workflows available for unified approvals
+## Workflows d’approbation à plusieurs étapes disponibles pour les approbations unifiées
 
 >[!NOTE]
 >
->Preview: March 12, 2026
->Production fast release: April 15, 2026
->Production for everyone: April 16, 2026
+>Aperçu : 12 mars 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
 
-Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. With multi‑stage approvals, you can:
+Les workflows d’approbation à plusieurs étapes sont désormais disponibles dans les approbations unifiées, ce qui permet aux organisations d’appliquer des processus d’approbation structurés et reproductibles qui reflètent la manière dont le travail est examiné dans le monde réel. Avec les approbations à plusieurs étapes, vous pouvez :
 
-* Route work through defined sequential stages 
-* Assign the people or teams to each stage and choose their decision role
-* Set stage‑specific deadlines 
-* Ensure approvals progress only when required decisions are complete
-* Maintain visibility into approval progress
+* Acheminer le travail par étapes séquentielles définies
+* Attribuez les personnes ou les équipes à chaque étape et choisissez leur rôle de décision
+* Définir des échéances spécifiques à une étape
+* Assurez-vous que les approbations progressent uniquement lorsque les décisions requises sont terminées
+* Maintenir la visibilité sur la progression de l’approbation
 
-For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-## Set up and use multi-stage approval workflow templates
+## Configurer et utiliser des modèles de workflow d’approbation à plusieurs étapes
 
 >[!NOTE]
 >
->Preview: March 12, 2026
->Production fast release: April 15, 2026
->Production for everyone: April 16, 2026
+>Aperçu : 12 mars 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
 
-You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. 
+Vous pouvez désormais configurer et réutiliser des modèles de workflow d’approbation à plusieurs étapes, ce qui facilite l’application d’une gouvernance cohérente à tous les workflows d’approbation répétables.
 
-With approval workflow templates, you can: 
+Avec les modèles de workflow d’approbation, vous pouvez :
 
-* Create sequential approval stages with unique participants and deadlines
-* Reduce manual setup time during approval initiation
-* Ensure required stakeholders are engaged at the right stage
+* Créer des étapes d’approbation séquentielles avec des participants et des échéances uniques
+* Réduire le temps de configuration manuelle lors du lancement de l’approbation
+* Veiller à ce que les parties prenantes requises soient impliquées au bon stade
 
-For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
--->
-
+Pour plus d’informations, voir [Création d’un modèle de workflow d’approbation pour les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
