@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Utiliser le widget Mes requêtes
-description: Vous pouvez envoyer des requêtes dans le widget Mes requêtes . Vous pouvez également personnaliser le widget avec des filtres et des colonnes.
-author: Becky
+description: Vous pouvez soumettre des demandes dans le widget Mes demandes. Vous pouvez également personnaliser le widget avec des filtres et des colonnes.
+author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: cdb1c365d8fc8f90a8a3488b3c641c97457c8c8d
+source-git-commit: 3893a57fb7ae31a1649b20beccc1f0b79f2421fb
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '1118'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->Cet article décrit le nouveau widget Mes requêtes . La nouvelle expérience de demande doit être activée pour afficher le nouveau widget.
+>Cet article décrit le nouveau widget Mes demandes. La nouvelle expérience de demande doit être activée pour afficher le nouveau widget.
 >Vous pouvez activer la nouvelle expérience de demande dans la zone des Demandes .
 
 Le widget Mes requêtes affiche les requêtes que vous avez envoyées. Vous pouvez filtrer les requêtes, rechercher des requêtes spécifiques ou ajuster l’ordre et la visibilité des colonnes. Vous pouvez également créer une requête à partir du widget Mes requêtes .
@@ -36,20 +36,24 @@ Le widget Mes requêtes affiche les requêtes que vous avez envoyées. Vous pouv
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Tout package de Workfront ou de workflow</p>
+   <p>Tout package Workfront Planning permettant d'accéder aux demandes Workfront Planning et aux objets créés</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
-   <td> <p>Contributeur ou version ultérieure</p>
+   <td> <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-    <tr> 
-   <td role="rowheader"><strong>Produits supplémentaires</strong></td> 
-   <td> Vous devez disposer d’Adobe Workfront Planning pour afficher les demandes Planning ou les formulaires de demande</td> 
-  </tr> 
+   <!--
+   <tr> 
+   <td role="rowheader"><strong>Additional products</strong></td> 
+   <td> You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
+   </tr> 
+   -->
    <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
-   <td> <p>Accès en affichage ou supérieur à tout objet pour lequel vous êtes tagué dans une conversation ou pour lequel vous devez résoudre une approbation (projets, tâches, problèmes, documents)</p> </td> 
+   <td> <p>Afficher ou accéder plus facilement à tous les objets pour lesquels vous êtes identifié(e) dans une conversation ou avez besoin de résoudre une approbation (projets, tâches, événements, documents)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
@@ -62,28 +66,28 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Créer une requête
+## Création d’une requête
 
-Vous pouvez créer une demande directement à partir du widget Mes demandes .
+Vous pouvez créer une demande directement à partir du widget Mes demandes.
 
-Pour plus d’informations, consultez la section [Créer une demande](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) de l’article Création d’éléments de travail et de projets à partir de la zone Accueil.
+Pour obtenir des instructions, consultez la section [Créer une demande](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) de l&#39;article [Créer des éléments de travail et des projets à partir de la zone Accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Copier une requête
 
 Vous pouvez copier une demande dans le widget Mes demandes, la modifier et l’envoyer en tant que nouvelle demande.
 
-Pour obtenir des instructions, consultez [&#x200B; Copier et envoyer des requêtes dans la nouvelle expérience de requête &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) dans l’article Copier et envoyer des requêtes .
+Pour obtenir des instructions, voir [ Copier et envoyer des demandes ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Filtrage des requêtes
 
-Le widget Mes requêtes comprend un filtre personnalisable qui vous permet de contrôler les requêtes qui apparaissent dans le widget. Vous pouvez configurer ce filtre pour différents champs et valeurs et empiler des conditions à l’aide des opérateurs AND et OR.
+Le widget Mes requêtes comprend un filtre personnalisable qui vous permet de contrôler les requêtes qui apparaissent dans le widget. Vous pouvez configurer ce filtre pour différents champs et valeurs et empiler des conditions à l’aide des opérateurs ET et OU.
 
 Pour configurer le filtre dans le widget Mes requêtes :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**.
-1. Dans le widget Mes requêtes, cliquez sur **Filtrer**.
-1. Dans le champ le plus à gauche, sélectionnez ce par quoi vous souhaitez filtrer. Les options disponibles sont les suivantes :
+1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**, puis cliquez dessus pour l’ajouter à **Accueil**.
+1. Dans le widget **Mes requêtes**, cliquez sur **Filtrer**.
+1. Sélectionnez le champ en fonction duquel vous souhaitez appliquer un filtre. Les options disponibles sont les suivantes :
 
    * Espace de travail
    * Type d’objet
@@ -91,19 +95,18 @@ Pour configurer le filtre dans le widget Mes requêtes :
    * Formulaire de demande
    * Statut
    * Saisie effectuée par
+   * Champs personnalisés de la requête ou de l’objet créé
 
-   Vous pouvez également filtrer selon les champs personnalisés qui ont été ajoutés en tant que colonne à la vue.
-
-1. Dans le champ suivant, sélectionnez l’opérateur que vous souhaitez utiliser pour cette condition de filtre. Les opérateurs disponibles dépendent du champ sélectionné.
-1. (Conditionnel) Si un champ apparaît à droite de l’opérateur, sélectionnez la valeur en fonction de laquelle vous souhaitez appliquer un filtre.
+1. Dans le champ suivant, sélectionnez l’opérateur que vous souhaitez utiliser pour cette condition de filtre. Les opérateurs disponibles dépendent du champ choisi.
+1. (Conditionnel) Si un champ apparaît à droite de l’opérateur, sélectionnez la valeur par laquelle vous souhaitez filtrer.
 1. (Facultatif) Pour ajouter une autre condition de filtre, cliquez sur **Ajouter une condition** et répétez les étapes 4 à 6.
-1. (Facultatif et conditionnel) Si vous disposez de plusieurs conditions, basculez la valeur Et ou Ou en cliquant sur **Et** ou **Ou** à gauche de la condition.
+1. (Facultatif et conditionnel) Si vous avez plusieurs conditions, changez la valeur Et ou Ou en cliquant sur **Et** ou **Ou** à gauche de la condition.
 
 Le filtre est enregistré automatiquement.
 
 >[!TIP]
 >
->Si votre organisation a acheté Workfront Planning, le widget Mes demandes inclura les demandes Workfront et Workfront Planning.
+>Si votre organisation a acheté Workfront Planning en plus d’Adobe Workfront, le widget Mes demandes inclura les demandes Workfront et Workfront Planning.
 > 
 >* Pour filtrer uniquement les requêtes Workfront, définissez le filtre sur **Type d’objet** > **Comporte l’un des** > **Problèmes**.
 >* Pour filtrer uniquement les requêtes Workfront Planning, définissez le filtre sur **Type d’objet** > **N’a aucun des** > **Problèmes**.
@@ -122,26 +125,39 @@ Les colonnes disponibles sont les suivantes :
 * Date d’entrée
 * Saisie effectuée par
 
-Pour ajuster les colonnes du widget Mes requêtes :
+Pour ajuster les colonnes dans le widget Mes demandes :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**.
-1. Dans le widget Mes requêtes, cliquez sur **Colonnes**.
-1. (Facultatif) Pour réorganiser les colonnes, cliquez sur la poignée de déplacement ![poignée](assets/drag-handle.png) de la colonne à déplacer et faites-la glisser aux emplacements souhaités. La colonne en haut de la liste apparaît dans le widget Mes requêtes en tant que colonne tout à gauche.
-1. (Facultatif) Utilisez le bouton (bascule) pour contrôler si une colonne est affichée dans le widget Mes requêtes .
-1. Pour ajouter un champ personnalisé sous forme d’une colonne, cliquez sur l’icône **Ajouter une colonne** ![Ajouter une colonne](assets/add-column.png) près de la droite de l’écran, puis cliquez sur l’icône plus en regard du champ de formulaire personnalisé que vous souhaitez ajouter en tant que colonne au widget.
+1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Pour ajouter le widget **Mes demandes** à votre écran d&#39;accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**, puis cliquez dessus pour l’ajouter à **Accueil**.
+1. Dans le widget **Mes requêtes**, cliquez sur **Colonnes**.
+1. (Facultatif) Pour réorganiser les colonnes, cliquez sur la poignée de déplacement ![poignée](assets/drag-handle.png) de la colonne à déplacer et faites-la glisser aux emplacements souhaités. La colonne en haut de la liste apparaît dans le widget Mes requêtes en tant que première colonne.
+1. (Facultatif) Utilisez le bouton (bascule) pour masquer ou afficher la colonne dans la liste des requêtes.
+1. Pour ajouter un champ personnalisé sous forme d’une colonne, cliquez sur l’icône **Ajouter une colonne** ![Ajouter une colonne](assets/add-column.png) dans le coin supérieur droit de la liste, puis cliquez sur l’icône plus en regard du champ personnalisé que vous souhaitez ajouter sous forme de colonne au widget.
 
    Les champs personnalisés des formulaires joints à l’objet dans la liste peuvent être ajoutés en tant que colonnes.
 
 Les préférences de colonne sont enregistrées automatiquement.
 
+## Création d’une vue
+
+Vous pouvez créer des vues dans le widget Mes demandes pour modifier la façon dont les informations s’affichent dans la liste des demandes.
+
+Tenez compte des points suivants lorsque vous utilisez des vues dans le widget Mes requêtes :
+
+* Une vue du widget Mes demandes contient les colonnes et les filtres appliqués à la vue.
+* Vous pouvez créer des vues et les partager. Les filtres et les colonnes sélectionnés pour la vue avant de la partager sont inclus dans les vues que vous partagez.
+* Voici une vue système que vous ne pouvez pas modifier, partager ou supprimer :
+
+   * Vue par défaut des demandes unifiées de widget
+* La création et la modification d’une vue dans le widget Mes demandes sont similaires aux listes améliorées. Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 ## Requêtes de recherche
 
-Pour rechercher des requêtes spécifiques dans le widget Mes requêtes :
+Pour rechercher des demandes spécifiques dans le widget Mes demandes :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**.
-1. Dans la barre de recherche située en haut à droite du widget Mes requêtes , saisissez le terme que vous souhaitez rechercher.
+1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. (Conditionnel) Pour ajouter le widget **Mes demandes** à votre écran d&#39;accueil. Cliquez sur **Personnaliser** et recherchez **Mes demandes**, puis cliquez dessus pour l&#39;ajouter à la **Accueil**.
+1. Dans la barre de recherche située en haut à droite du widget Mes demandes, saisissez le terme à rechercher.
 
    Les requêtes qui contiennent le terme sont surlignées en orange.
 
@@ -153,10 +169,10 @@ Vous trouverez des objets créés par une requête dans le widget Mes requêtes 
 
 >[!NOTE]
 >
->Les liens vers les objets créés ne sont disponibles dans la nouvelle expérience de requête que pour les requêtes Planning, dans les cas où la requête elle-même a créé un objet. Si une requête Workfront est convertie en projet ou en un autre objet, un lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de requête.
+>Les liens vers les objets créés ne sont disponibles dans la nouvelle expérience de requête que pour les requêtes Planning, dans les cas où la requête elle-même a créé un objet. Si une requête Workfront est convertie en projet ou en un autre objet, le lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de création de requêtes.
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
-1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**.
+1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**, puis cliquez dessus pour l’ajouter à **Accueil**.
 1. Recherchez la requête qui a créé l’objet .
 1. Cliquez sur le nom de l’objet dans la colonne **Objet créé** de cette requête.
 

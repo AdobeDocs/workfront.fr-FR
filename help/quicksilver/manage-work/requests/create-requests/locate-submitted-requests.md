@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1360'
 ht-degree: 44%
 
 ---
@@ -45,7 +45,9 @@ La zone des Demandes affiche les demandes suivantes, selon la manière dont vous
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Tout package de workflow Adobe Workfront ou Adobe</p> 
+   <p>Tout package Adobe Workfront Planning</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -61,10 +63,12 @@ La zone des Demandes affiche les demandes suivantes, selon la manière dont vous
    <td role="rowheader">Autorisations d’objet</td> 
    <td><p>Autorisations d’affichage ou supérieures pour les requêtes</p></td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> Produit</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Vous devez disposer d’Adobe Workfront Planning pour afficher les demandes Planning ou les formulaires de demande</td> 
+  <!--
+  tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -81,7 +85,7 @@ L’affichage des demandes envoyées diffère selon que vous utilisez l’expér
 
 ### Afficher les demandes envoyées dans la nouvelle expérience de demande
 
-Vous pouvez afficher les demandes envoyées dans la zone Demandes, qui contient des liens vers les objets créés par les demandes Planning.
+Vous pouvez afficher les demandes envoyées dans la zone Demandes , qui inclut des liens vers des objets créés par des demandes Adobe Workfront Planning.
 
 >[!NOTE]
 >
