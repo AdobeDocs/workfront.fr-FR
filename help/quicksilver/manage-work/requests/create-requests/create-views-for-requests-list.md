@@ -123,7 +123,7 @@ Les modifications que vous apportez à une vue sont visibles pour toutes les per
    >Les champs que vous ajoutez aux colonnes doivent exister avant d’être disponibles dans le **Gestionnaire de colonnes**.
 
 
-1. (Facultatif) Cliquez sur **Colonnes** pour ouvrir la zone de visibilité et d&#39;ordre des champs F **3}.**
+1. (Facultatif) Cliquez sur **Colonnes** pour ouvrir la zone de visibilité et d&#39;ordre des champs F **3&rbrace;.**
 1. Activez le paramètre pour chaque champ que vous souhaitez afficher dans la liste, désactivez-le pour le masquer ou faites un glisser-déposer des champs dans un ordre différent.
 
 1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les demandes que vous souhaitez afficher.
