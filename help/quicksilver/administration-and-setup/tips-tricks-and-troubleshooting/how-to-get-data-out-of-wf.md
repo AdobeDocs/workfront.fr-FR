@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: bbd00374a6b291582cd03b9d0471d8547eb6ab7f
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 39%
+source-wordcount: '377'
+ht-degree: 42%
 
 ---
 
@@ -32,15 +32,7 @@ Cet article explique les avantages et inconvénients de quatre options que vous 
 
 * **Coûts :** Pour plus d’informations, rendez-vous sur [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
-## Demander un fichier dump de données [!DNL Postgres] à notre équipe chargée des bases de données
 
-Vous devez soumettre une demande à notre équipe du service clientèle, qui soumettra ensuite une demande à notre équipe de base de données pour exporter un fichier de vidage de la base de données (fichier .dmp [!DNL Postgres]) avec vos données. Une demande supplémentaire sera envoyée à notre équipe de CNP pour récupérer tous vos documents stockés.
-
-* **Avantages** : vous obtenez l’ensemble de vos données, y compris les champs personnalisés, ainsi que les documents stockés dans le système.
-
-* **Inconvénients** : il n&#39;existe aucun moyen de lire ce fichier à moins de le charger dans une base de données [!DNL Postgres] et de rétablir les relations entre les tables. Les documents sont stockés sur un serveur de fichiers distinct et doivent être extraits séparément à l’aide d’un processus distinct par l’équipe du centre d’exploitation réseau. Ce faisant, les documents ne sont pas organisés et sont tous référencés par leur GUID.
-
-* **Coût** : un coût est associé à ce téléchargement en fonction du temps nécessaire à l’équipe pour créer le fichier. Consultez votre personne représentante de compte pour plus d’informations ou pour entamer ce processus.
 
 ## Exporter via des [!UICONTROL Kickstarts]
 
