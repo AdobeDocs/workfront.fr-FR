@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
+source-git-commit: 7bf762870af2bbc4f4889d66cf713d4533a30ff5
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 13%
+source-wordcount: '549'
+ht-degree: 14%
 
 ---
 
@@ -51,8 +51,6 @@ Le stockage d’entreprise Adobe est une solution de stockage dans le cloud qui 
 L’accès au stockage d’entreprise d’Adobe ouvre également la voie à de futures intégrations de la gestion des ressources à d’autres produits Adobe, tels que Adobe Creative Cloud.
 
 Pour plus d’informations, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-Workfront et Frame.io étendent le processus de révision et d’approbation de base de GenStudio for Performance Marketing avec des fonctionnalités de révision et d’approbation plus structurées. Les épreuves examinées dans cette intégration sont limitées aux formats pris en charge par GenStudio for Performance Marketing.
 
 ## Workflows d’approbation à plusieurs étapes disponibles pour les approbations unifiées
 
