@@ -1,14 +1,14 @@
 ---
 title: Améliorations apportées à la gestion des relectures et des documents pour le troisième trimestre 2025
 description: Améliorations apportées à la gestion des relectures et des documents pour le troisième trimestre 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 2ff08963018c83e8d4fe88446f26efc115111a5e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -57,7 +57,7 @@ Cette mise à jour concerne Mac et Windows.
 >
 >* Version de production pour tous les clients : 12 juin 2025
 
-Nous sommes ravis d’introduire une nouvelle intégration entre la relecture et GenStudio for Performance Marketing. Grâce à cette intégration, vous pouvez :
+Nous sommes ravis d’introduire une nouvelle intégration entre la relecture et GenStudio for Performance Marketing. Avec cette intégration, vous pouvez effectuer les actions suivantes :
 
 * Utiliser les modèles de validation Workfront pour définir les workflows de validation
 

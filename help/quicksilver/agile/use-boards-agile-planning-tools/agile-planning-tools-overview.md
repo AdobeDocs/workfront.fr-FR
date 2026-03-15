@@ -2,19 +2,19 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: 'Présentation des outils de planification Agile : index des articles'
+title: 'Vue d’ensemble des outils de planification Agile : index des articles'
 description: Lorsque vous créez un panorama à l’aide de cartes ad hoc et connectées, vous pouvez tirer parti d’outils de planification Agile supplémentaires sur les panoramas.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 54%
+ht-degree: 64%
 
 ---
 
-# Présentation des outils de planification Agile : index des articles
+# Vue d’ensemble des outils de planification Agile : index des articles
 
 <!-- Audited: 5/2025 -->
 
@@ -44,7 +44,7 @@ Cette section contient les articles suivants :
 * [Ajouter une colonne d’entrée à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Utiliser des groupes sur un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Configurer le détachement des vignettes](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Migrer les cartes Kanban de l’équipe Agile vers les tableaux Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [Migrer les cartes Kanban de l’équipe Agile vers les panoramas Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [Gérer les flux de travail](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [Créer une itération dans un flux de travail](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)

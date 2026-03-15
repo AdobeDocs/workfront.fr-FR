@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : détails de tâches et d''événements combinés dans une liste d''heures'
 description: Cette vue Heure combine les colonnes Nom de la tâche et du problème, ainsi que le nombre d’heures prévues de la tâche et du problème à l’aide de la balise sharecol. Une entrée d’heure ne pouvant appartenir qu’à une tâche ou à un problème, les deux objets ne peuvent pas apparaître simultanément dans la même colonne. Chaque ligne de la vue est renseignée avec les informations d’une tâche ou d’un problème.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 65%
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ Pour en savoir plus sur la balise `sharecol`, voir [Affichage : fusionner les in
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

@@ -4,14 +4,14 @@ product-area: reporting
 navigation-topic: reports
 title: Vue d’ensemble des éléments de création de rapport
 description: 'Tous les rapports et listes Adobe Workfront sont composés de trois éléments essentiels : les vues, les filtres et les regroupements.'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
 

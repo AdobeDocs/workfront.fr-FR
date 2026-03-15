@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Modifier paramètres d'équipe
+title: Modifier les paramètres d’équipe
 description: Les administrateurs et administratrices et les utilisateurs et utilisatrices de Workfront disposant d’une licence Plan ou Travail peuvent modifier les paramètres des équipes.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 84%
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 # Modifier les paramètres des équipes
 
-En tant qu’administrateur [!DNL Adobe Workfront] ou utilisateur disposant d’une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Travail], vous pouvez modifier les [!UICONTROL Paramètres de l’équipe].
+En tant qu&#39;administrateur [!DNL Adobe Workfront] ou utilisateur avec une licence [!UICONTROL Standard], [!UICONTROL Formule] ou [!UICONTROL Travail], vous pouvez modifier [!UICONTROL Paramètres d&#39;équipe].
 
 Vous pouvez ajouter des utilisateurs et utilisatrices à une équipe, définir le modèle de mise en page de l’équipe et définir la manière dont le statut est enregistré lorsque des éléments de travail sont terminés par une équipe.
 
@@ -52,7 +52,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-icon.png), puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Seuls les membres de l&#39;équipe disposant d&#39;une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] voient cette option.
+   Seuls les membres de l&#39;équipe disposant d&#39;une licence [!UICONTROL Standard], [!UICONTROL Formule] ou [!UICONTROL Travail] peuvent voir cette option.
 
    Au cas où vous devriez voir l’option [!UICONTROL Modifier] mais qu’elle n’est pas visible, demandez à votre administrateur ou administratrice Workfront de vérifier que [!UICONTROL Paramètres d’équipe] est visible dans le modèle de mise en page pour [!UICONTROL Équipe Scrum], [!UICONTROL Équipe Kanban] ou [!UICONTROL Équipe Waterfall].
 
@@ -79,7 +79,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    * Déterminez si cette équipe est une équipe Agile en sélectionnant l&#39;option **[!UICONTROL Ceci est une équipe Agile]**.
 
-     Pour plus d&#39;informations sur les équipes Agile et la gestion du travail au sein d&#39;une équipe Agile, consultez [Création d&#39;une équipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Pour plus d&#39;informations sur les équipes Agile et la gestion du travail au sein d&#39;une équipe Agile, consultez [Créer une équipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * Transformez le bouton [!UICONTROL Travailler sur ce projet] en bouton [!UICONTROL Démarrer]. Pour plus d’informations sur la configuration du bouton [!UICONTROL Démarrer], consultez [Remplacer le bouton Travailler sur ce projet par un bouton [!UICONTROL Démarrer]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Personnalisez le bouton **[!UICONTROL Terminé]**. Pour plus d’informations sur la personnalisation du bouton [!UICONTROL Terminé], consultez ce qui suit :

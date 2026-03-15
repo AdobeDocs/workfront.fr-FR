@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
-title: Personnaliser les champs affichés sur une carte
+title: Personnalisation des champs affichés sur une carte
 description: Vous pouvez personnaliser les champs affichés sur une carte en désactivant un champ pour qu’il ne soit pas affiché dans la carte complète ou dans l’affichage condensé, ou en masquant un champ dans l’affichage condensé de la carte.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -39,13 +39,13 @@ Vous pouvez également afficher les champs personnalisés qui ont été créés 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

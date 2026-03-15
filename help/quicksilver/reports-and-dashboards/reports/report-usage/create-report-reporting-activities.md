@@ -4,10 +4,10 @@ keywords: modifier,personne propriétaire,partagé,rapport,partager,exécuter,ut
 navigation-topic: report-usage
 title: Créer un rapport sur les activités de création de rapports
 description: Lorsque vous créez un rapport sur les rapports, vous pouvez identifier des informations spécifiques sur les rapports, notamment si des rapports sont attribués à des personnes désactivées, si des rapports sont configurés pour s’exécuter avec les droits d’accès d’une personne désactivée, si des personnes accèdent à un rapport que vous prévoyez de supprimer, etc.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 97%
@@ -27,7 +27,7 @@ Lorsque vous créez un rapport sur les rapports, vous pouvez identifier des info
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Créer un rapport sur les rapports existants {#create-the-report-about-existing-reports}
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l&#39;icône **Menu principal** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d&#39;Adobe Workfront.
 1. Cliquez sur **Rapports**, puis sur **Nouveau rapport**.
 1. Dans le menu déroulant **Nouveau rapport**, sélectionnez **Rapport** pour créer un rapport sur les rapports existants.
 

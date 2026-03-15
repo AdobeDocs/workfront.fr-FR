@@ -4,14 +4,14 @@ product-area: reporting
 navigation-topic: reports-and-dashboards
 title: Rapports
 description: Consultez ces rubriques pour en savoir plus sur la création de rapports dans Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 Cette section contient les sous-sections suivantes :
 
-* [Principes de base de la création de rapports : index des articles](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [Principes de base de la création de rapports : index des articles](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
 * [Vue d’ensemble des éléments de rapport](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
 * [Utiliser les rapports intégrés](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
 * [Créer et gérer des rapports](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
@@ -30,4 +30,4 @@ Cette section contient les sous-sections suivantes :
 * [Ressources du mode texte : index des articles](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
 * [Vue d’ensemble de l’utilisation des rapports](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [Calendriers : index des articles](../../reports-and-dashboards/reports/calendars/calendars.md)
-* [Conseils, astuces et dépannage pour les rapports](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
+* [Conseils, astuces et résolution des problèmes pour les rapports](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)

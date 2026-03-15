@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Suppression ou archivage d’un panorama
 description: Vous pouvez supprimer ou archiver un panorama dans Workfront. La suppression d’un panorama le supprime définitivement de Workfront, tandis que l’archivage d’un panorama conserve toutes les cartes et permet de le restaurer ultérieurement.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -29,13 +29,13 @@ Seul le propriétaire du panorama peut supprimer le panorama.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Exporter un tableau de bord
 description: Vous pouvez exporter un tableau de bord vers un fichier .pdf en utilisant les options d’impression disponibles dans votre navigateur web.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez exporter un tableau de bord vers un fichier .pdf en utilisant les op
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

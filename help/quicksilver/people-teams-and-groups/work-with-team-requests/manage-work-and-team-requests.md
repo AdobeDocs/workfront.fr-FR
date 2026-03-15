@@ -4,13 +4,13 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Gérer les demandes de travail et d'équipe
 description: Une demande représente une tâche ou une affectation de problème en attente. Les demandes de travail sont faites aux personnes et les demandes d’équipe sont faites aux équipes.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Une demande représente une tâche ou une affectation de problème en attente. L
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 

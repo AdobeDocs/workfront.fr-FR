@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Utiliser un calendrier d'équipe alternatif pour les graphiques d'avancement
 description: Les plannings définis dans  [!DNL Adobe Workfront]  affectent le graphique d’avancement en excluant les jours de congé (week-ends et jours fériés) de l’avancement.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 86%

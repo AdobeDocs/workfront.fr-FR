@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Regroupement : sponsor du projet pour les heures'
+title: 'Regroupement : commanditaire du projet pour heures'
 description: Ce regroupement d’heures organise les heures en fonction du sponsor du projet dans lequel les heures sont consignées. L’interface du Report Builder standard pour les regroupements d’heures ne fournit pas de mappage au champ Sponsor du projet. Vous devez utiliser l’interface Mode texte pour accéder à ce champ.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,7 @@ Ce regroupement d’heures organise les heures en fonction du sponsor du projet 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ Pour appliquer ce regroupement :
 1. Dans le menu déroulant **Regroupement**, sélectionnez **Nouveau regroupement**.
 
 1. Cliquez sur **Basculer en mode texte**.
-1. Supprimez le texte de la zone qui s’affiche et remplacez-le par le code suivant :
+1. Supprimez le texte dans la zone qui s’affiche et remplacez-le par le code suivant :
 
 ```
    group.0.linkedname=project:sponsor:name

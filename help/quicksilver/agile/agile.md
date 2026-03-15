@@ -4,14 +4,14 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 'Agile : index des articles'
 description: Consultez les articles de ces rubriques pour découvrir comment utiliser Agile dans Adobe Workfront.
-author: Jenny
+author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 44%
+ht-degree: 64%
 
 ---
 
@@ -23,10 +23,10 @@ Cette section contient les sous-sections suivantes :
 
 * [Vue d’ensemble des panoramas](../agile/boards-overview.md)
 * [Commencer avec les panoramas : index des articles](../agile/get-started-with-boards/get-started-with-boards.md)
-* [Utilisation des outils de planification Agile dans les tableaux](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+* [Utiliser les outils de planification Agile dans les panoramas](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [Vue d’ensemble d’Agile](../agile/agile-overview.md)
 * [Prise en main d’Agile dans  [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Kanban dans une équipe Agile](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
-* [Scrum dans une équipe agile](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
+* [Scrum dans une équipe Agile](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [Travailler dans un environnement Agile](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
 * [Conseils, astuces et dépannage pour Agile](../agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Exécuter et remettre un rapport avec les droits d’accès d’une autre personne
 description: Par défaut, les utilisateurs et utilisatrices ne peuvent voir que les objets d’un rapport qu’ils ont le droit d’afficher.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Si vous exécutez un rapport avec les droits d’accès d’un autre utilisateur
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ Pour exécuter un rapport avec les droits d’accès d’une autre personne, pro
 1. Cliquez sur **Paramètres du rapport**.
 
 1. Dans le champ **Exécuter ce rapport avec les droits d’accès suivants :**, commencez à saisir le nom de la personne pour laquelle vous souhaitez que le rapport s’affiche, puis sélectionnez-le lorsqu’il apparaît dans la liste.\
-   ![Exécuter avec les droits d’accès de &#x200B;](assets/unshimmed-access-rights-of.png)
+   ![Exécuter avec les droits d’accès de ](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -109,7 +109,7 @@ Pour remettre un rapport avec les droits d’accès d’une autre personne, proc
 1. Cliquez sur **Envoyer le rapport**.
 
 1. Dans le champ **Diffuser ce rapport avec les droits d’accès de :**, commencez à taper le nom de la personne sous lequelle vous souhaitez que le rapport s’affiche lorsqu’il est envoyé par e-mail, puis sélectionnez-le lorsqu’il apparaît dans la liste. La valeur par défaut est le nom de la personne qui crée le rapport.\
-   ![Rapport envoyé avec droits d’accès de &#x200B;](assets/unshimmed-send-report-access-rights-of.png)
+   ![Rapport envoyé avec droits d’accès de ](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

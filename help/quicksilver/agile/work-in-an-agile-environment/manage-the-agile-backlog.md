@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Gestion de la liste d’attente Agile
 description: Les tâches et les événements peuvent être affectés à une équipe Agile et ajoutés à la liste d'attente de cette équipe sous forme d'histoires, selon la méthodologie Agile utilisée par l'équipe.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 69%

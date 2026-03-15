@@ -2,23 +2,23 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Afficher et regrouper : affiche la durée réelle du projet agrégée par la moyenne dans un regroupement.'
+title: 'Afficher et regrouper : afficher la durée réelle du projet agrégée par la moyenne dans un regroupement'
 description: Vous pouvez ajouter la colonne suivante dans un rapport sur les projets afin d’afficher la durée effective agrégée sous la forme d’une moyenne dans un regroupement.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 36%
+ht-degree: 42%
 
 ---
 
-# Afficher et regrouper : affiche la durée réelle du projet agrégée par la moyenne dans un regroupement.
+# Vue et regroupement : affichage de la durée effective du projet agrégée par la moyenne dans un regroupement
 
 <!--Audited: 11/2024-->
 
-Vous pouvez ajouter la colonne suivante dans une vue de projet pour afficher la durée réelle agrégée en moyenne dans un regroupement.
+Vous pouvez ajouter la colonne suivante dans une vue de projet pour afficher la durée réelle agrégée en tant que moyenne dans un regroupement.
 
 ![project_with_aggregate_actual_duration_in_grouping_view.png](assets/project-with-aggregate-actual-duration-in-grouping-view-350x65.png)
 
@@ -31,7 +31,7 @@ Vous pouvez ajouter la colonne suivante dans une vue de projet pour afficher la 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -61,11 +61,11 @@ Pour ajouter cette colonne à une vue de projet, procédez comme suit :
 
 1. Accédez à une liste de projets.
 1. (Obligatoire) Pour afficher la valeur moyenne agrégée de la durée réelle du projet, vous devez ajouter un regroupement à votre liste de projets.\
-   Pour plus d’informations sur la création de regroupements, consultez l’article [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-1. Développez le menu déroulant **Affichage** et sélectionnez **Personnaliser l’affichage**.
+   Pour plus d&#39;informations sur la création de groupes, consultez l&#39;article [Présentation des groupes dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+1. Développez le menu déroulant **Affichage** et sélectionnez **Personnaliser l&#39;affichage**.
 1. Cliquez sur **Ajouter une colonne**.
-1. Cliquez sur **Basculer en mode texte**, puis sur **Modifier le mode texte**.
-1. Supprimez tout le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
+1. Cliquez sur **Passer en mode Texte**, puis cliquez sur **Modifier le mode Texte**.
+1. Supprimez tout le texte dans la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
    ```
    aggregator.displayformat=compound 

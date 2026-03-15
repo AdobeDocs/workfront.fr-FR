@@ -3,9 +3,9 @@ navigation-topic: use-lists
 title: Commencer avec les listes dans  [!DNL Adobe Workfront]
 description: Vous pouvez consulter des listes d’objets sur  [!DNL Adobe Workfront]  afin d’obtenir des informations à leur sujet, telles que leurs dates de début et d’échéance, les utilisateurs et utilisatrices qui leur sont affectés et les autres objets qui leur sont associés.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 72%
@@ -51,7 +51,7 @@ Voici quelques caractéristiques des listes dans [!DNL Workfront] :
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

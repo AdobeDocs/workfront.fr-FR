@@ -4,11 +4,11 @@ product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Comprendre les tableaux de bord
 description: Consultez ces articles pour comprendre les principes de base des tableaux de bord dans Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 9c7e0810-80e4-4048-a79b-cb91319e5e37
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 100%

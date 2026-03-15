@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtre : affichage des rapports planifiés pour la diffusion'
 description: Ce filtre affiche tous les rapports planifiés pour être remis automatiquement dans Adobe Workfront. Il est préférable de l’utiliser avec la vue standard.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 88%

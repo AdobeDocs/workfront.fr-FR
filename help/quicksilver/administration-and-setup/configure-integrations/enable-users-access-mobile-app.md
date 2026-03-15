@@ -5,11 +5,11 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Vous pouvez activer ou désactiver l’accès à l’application mobile  [!DNL Adobe Workfront] .
-author: Nolan
+author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 94%
@@ -60,6 +60,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Cliquez sur **[!UICONTROL Enregistrer].**
 
-Pour plus d’informations sur l’utilisation de l’application mobile [!DNL Workfront] une fois qu’elle a été activée pour le site, consultez [Utiliser l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Pour plus d’informations sur l’utilisation de l’application mobile [!DNL Workfront] une fois qu’elle a été activée pour le site, consultez [Utiliser l’application mobile  [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
 Pour plus d’informations sur l’utilisation de [!DNL Workfront for Outlook], consultez la section [Utiliser  [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).

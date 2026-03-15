@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Créer un rapport de graphique dans un tableau de bord de zones de travail
 description: Vous pouvez ajouter à un tableau de bord de la zone de travail un rapport sous forme de graphique qui affiche vos données sous la forme d’un graphique à barres, à colonnes, en courbes ou en secteurs.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1814'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -161,7 +161,7 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 
 Pour configurer la section **Filtre**, procédez comme suit :
 
-1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**![&#x200B; Filtrer](assets/filter-icon.png).
+1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**![ Filtrer](assets/filter-icon.png).
 1. Sélectionnez **Modifier le filtre**.
 1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre.
 1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
@@ -286,9 +286,9 @@ Dans cette section, nous allons passer en revue les étapes pour créer un graph
 
 Les utilisateurs disposant d’un accès en affichage ou en modification aux données financières dans leur niveau d’accès verront toujours les données financières dans les visualisations du tableau de bord de la zone de travail, même si l’autorisation Afficher les données financières est supprimée au niveau de la tâche ou du projet.
 
-* Les utilisateurs ne disposant pas de droits d’accès aux données financières ne verront pas les données financières dans les rapports.
-* Les utilisateurs qui ne voient pas les données financières sont limités aux enregistrements qu&#39;ils sont déjà autorisés à afficher (projets, tâches, événements, etc.). Ils ne verront pas les valeurs financières des documents auxquels ils ne peuvent pas accéder.
-* Les créateurs de rapports doivent faire preuve de prudence lors de l’inclusion de données financières dans les tableaux de bord et garder à l’esprit les personnes avec lesquelles ils partagent les tableaux de bord afin d’éviter tout accès involontaire.
+* Les personnes ne disposant pas de droits d’accès aux données financières ne verront pas les données financières dans les rapports.
+* Les personnes qui ne voient pas les données financières sont limitées aux documents qu’elles sont déjà autorisées à consulter (projets, tâches, problèmes, etc.). Elles ne verront pas les valeurs financières des documents auxquels elles ne peuvent pas accéder.
+* Les personnes à l’origine des rapports doivent faire preuve de prudence lors de l’inclusion de données financières dans les tableaux de bord et bien vérifier avec qui elles partagent les tableaux de bord afin d’éviter tout accès involontaire.
 
 Il s’agit d’une limite connue et nous prévoyons d’y remédier dès que possible.
 

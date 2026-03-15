@@ -3,17 +3,17 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Création d’une histoire agile dans une itération
 description: Cet article décrit comment créer une nouvelle histoire agile lorsque vous êtes déjà dans l’itération.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
-# Création d’une histoire agile dans une itération
+# Créer une histoire Agile dans une itération
 
 Cet article décrit comment créer une nouvelle histoire agile lorsque vous êtes déjà dans l’itération. Pour plus d’informations sur la création d’une histoire agile à partir d’une tâche, d’un problème ou d’une autre zone de [!DNL Adobe Workfront], voir [Ajouter des histoires à une itération existante](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
@@ -43,7 +43,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Création d’une histoire agile dans une itération
+## Créer une histoire Agile dans une itération
 
 1. Accédez à l’itération Agile dans laquelle vous souhaitez créer l’histoire :
 

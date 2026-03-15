@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : supprimer le lien vers un objet dans une colonne'
 description: Certains objets affichés dans une vue renvoient par défaut à la page Détails de l’objet. Par exemple, la colonne qui affiche le nom d’un projet est un lien vers le projet ; la colonne qui affiche le nom d’un utilisateur ou d’une utilisatrice est un lien vers la page de profil de cette personne.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez supprimer ce lien en mode texte dans les colonnes qui s’affichent 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

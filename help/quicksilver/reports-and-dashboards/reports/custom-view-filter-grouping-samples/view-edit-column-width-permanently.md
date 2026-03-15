@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Affichage : modification permanente de la largeur d’une colonne'
 description: Vous pouvez temporairement modifier la largeur des colonnes en les faisant glisser et en les déposant sur les marges correspondant à la largeur souhaitée. Pour plus d’informations, consultez la section « Modifier la largeur et l’ordre des colonnes ».
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Pour modifier définitivement la largeur d’une colonne dans une vue, vous deve
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 >[!IMPORTANT]
 >
->Après avoir modifié la largeur d’une colonne de façon définitive, si vous modifiez manuellement la largeur d’une colonne comme décrit dans la section [Modifier temporairement la largeur et l’ordre des colonnes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) de l’article [Modifier la largeur et l’ordre des colonnes](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md), la largeur de la colonne est préservée en fonction de votre redimensionnement manuel. Dans ce cas, la largeur de la colonne actualisée selon les étapes suivantes est écrasée. Vous pouvez afficher la colonne selon la largeur définie dans les étapes suivantes après avoir effacé votre cache ou ouvert une session à partir d’un autre navigateur.
+>Après avoir modifié la largeur d’une colonne de façon définitive, si vous modifiez manuellement la largeur d’une colonne comme décrit dans la section [Modifier temporairement la largeur et l’ordre des colonnes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) de l’article [Modifier la largeur et l’ordre des colonnes](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md), la largeur de la colonne est préservée en fonction de votre redimensionnement manuel. Dans ce cas, la largeur de la colonne mise à jour selon les étapes suivantes est écrasée. Vous pouvez afficher la colonne selon la largeur définie dans les étapes suivantes après avoir effacé votre cache ou ouvert une session à partir d’un autre navigateur.
 >
 >Pour plus d’informations sur la personnalisation de la largeur des colonnes lors de l’utilisation de l’interface en mode texte, consultez les définitions des termes « largeur » et « étirer » dans la section [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

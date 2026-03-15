@@ -3,11 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Supprimer des rapports d’un tableau de bord
 description: Vous pouvez supprimer des rapports d’un tableau de bord après les avoir ajoutés.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 20%
@@ -24,7 +24,7 @@ Une fois qu’un tableau de bord est créé et que vous y avez ajouté des rappo
 
 La suppression d’un rapport d’un tableau de bord est permanente. Si vous devez ajouter à nouveau un rapport après sa suppression, vous devrez recréer le rapport.
 
-+++ Développez pour afficher les exigences d’accès.
++++ Développez pour afficher les exigences d’accès. 
 
 <table style="table-layout:auto"> 
 <col> 

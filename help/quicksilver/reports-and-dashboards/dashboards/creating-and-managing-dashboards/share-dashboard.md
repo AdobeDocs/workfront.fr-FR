@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Partager un tableau de bord
 description: Votre équipe d’administration Adobe Workfront autorise les utilisateurs et utilisatrices à afficher ou à modifier les tableaux de bord lorsqu’ils attribuent des niveaux d’accès. Outre le niveau d’accès dont disposent les utilisateurs et utilisatrices, vous pouvez leur accorder des autorisations d’affichage ou de gestion sur des tableaux de bord que vous pouvez partager.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -36,7 +36,7 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

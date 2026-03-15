@@ -1,21 +1,21 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 'Concepts de base d’Adobe Workfront : index des articles'
+title: 'Concepts de base d’Adobe Workfront : index des articles'
 description: Consultez ces zones pour mieux comprendre les principes de base d’Adobe Workfront et apprendre à effectuer des fonctions de base, comme utiliser la zone Accueil ou Priorités, gérer votre profil de compte, utiliser l’Assistant IA ou comprendre les exigences en matière de navigateur et les langues prises en charge. Reportez-vous au glossaire Workfront pour apprendre la terminologie courante du programme.
 short-description: Maîtrisez les principes de base d’Adobe Workfront et apprenez à exécuter les fonctions de base.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Concepts de base d’Adobe Workfront : index des articles
+# Concepts de base d’Adobe Workfront : index des articles
 
 <!--Audited: 01/2025-->
 
@@ -28,7 +28,7 @@ Cette section contient les sous-sections suivantes :
 * [Langues prises en charge dans Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
 * [Préparation du HIPAA pour Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
 * [Naviguer dans Adobe Workfront : index des articles](../workfront-basics/navigate-workfront/navigate-workfront.md)
-* [Priorités : index des articles](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
+* [Priorités : index des articles](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [Accueil](../workfront-basics/using-home/home.md)
 * [Mettre à jour des éléments de travail et afficher les mises à jour : index des articles](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [Utiliser des formulaires personnalisés](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
@@ -36,5 +36,5 @@ Cette section contient les sous-sections suivantes :
 * [Accorder et demande des autorisations à des objets](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [Gérer votre compte et votre profil](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [Applications mobiles](../workfront-basics/mobile-apps/mobile-apps.md)
-* [Assistant AI dans Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+* [Assistant IA dans Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Conseils, astuces et dépannage pour les concepts de base d’Adobe Workfront](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

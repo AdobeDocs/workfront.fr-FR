@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : chemin d''envoi pour les événements'
 description: Vous pouvez afficher le chemin par lequel un problème a été soumis dans la vue d’un rapport de problème. Le chemin d’accès indique la file d’attente, le groupe de rubriques et la rubrique de file d’attente où le problème a été soumis à l’origine.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez afficher le chemin par lequel un problème a été soumis dans la vu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

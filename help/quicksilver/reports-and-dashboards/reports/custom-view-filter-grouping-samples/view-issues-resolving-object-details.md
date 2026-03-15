@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : problèmes liés à la résolution des détails de l''objet'
 description: Cette vue de problème affiche le nom et le pourcentage terminé de l’objet de résolution du problème, ce qui permet à la personne à l’origine du problème de connaître la progression du problème, même si elle n’a pas accès à la tâche ou au projet de résolution.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7f4c923a-01e4-4896-9f54-1f0c66d64bb5
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -33,7 +33,7 @@ Cette vue utilise la balise `sharecol=true` pour combiner plusieurs champs sous 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

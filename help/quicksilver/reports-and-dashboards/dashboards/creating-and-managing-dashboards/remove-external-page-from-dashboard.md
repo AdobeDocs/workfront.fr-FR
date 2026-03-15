@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Supprimer une page externe d’un tableau de bord
 description: Vous pouvez supprimer une page externe d’un tableau de bord si vous n’en avez plus besoin.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -30,7 +30,7 @@ Cependant, vous ne pouvez pas supprimer une page externe une fois qu’elle a é
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

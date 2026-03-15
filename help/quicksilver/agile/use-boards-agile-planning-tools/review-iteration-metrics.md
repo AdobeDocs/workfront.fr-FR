@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Vérifier les mesures d’itération
 description: Les mesures sont disponibles pour chaque itération dans un flux de travail, sur la carte du processus d’itération.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -31,13 +31,13 @@ Les mesures sont disponibles pour chaque itération dans un flux de travail, sur
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

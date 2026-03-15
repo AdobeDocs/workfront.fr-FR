@@ -1,11 +1,11 @@
 ---
 title: Mises à jour de l’aspect pendant la période de la version du deuxième trimestre 2024
 description: Mises à jour de l’aspect pendant la période de la version du deuxième trimestre 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 97%
@@ -32,6 +32,6 @@ Les modèles d’e-mails pour l’ajout d’une personne approbatrice à une res
 >
 >Version de prévisualisation : 8 février 2024. Production pour un déploiement rapide : avec la version 24.3 (14 mars 2024). Production pour l’ensemble des clientes et clients : avec la version 24.4 (11 avril 2024)
 
-Nous avons mis à jour les onglets Formulaires, Champs et Sections dans la zone Configuration > Formulaires personnalisés afin de les rendre plus modernes et cohérents avec les autres zones de Workfront. Vous pouvez maintenant accéder aux trois zones à partir du menu de navigation de gauche. Les filtres, les vues et les regroupements sont toujours disponibles pour les listes. La nouvelle conception s’applique aux formulaires, champs et sections personnalisés créés à la fois dans le nouveau créateur de formulaires ou dans l’ancien créateur de formulaires.
+Nous avons mis à jour les onglets Formulaires, Champs et Sections dans la zone Configuration > Formulaires personnalisés afin de les rendre plus modernes et cohérents avec les autres zones de Workfront. Vous pouvez maintenant accéder aux trois zones à partir du menu de navigation de gauche. Les filtres, les vues et les regroupements sont toujours disponibles pour les listes. Cette mise à jour s’applique aux formulaires personnalisés, aux champs et aux sections créés dans le nouveau et l’ancien concepteur de formulaires.
 
-Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

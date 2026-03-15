@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Regroupement : ajouter un quatrième regroupement à une liste'
 description: Vous pouvez avoir 4 regroupements dans un rapport de matrice. Pour plus d’informations sur les rapports de matrice, voir Créer un rapport de matrice.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1147a47b-c6e2-496e-b202-eefeb500054e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -35,7 +35,7 @@ Par exemple, vous pouvez avoir un rapport de tâche qui est regroupé par Nom du
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

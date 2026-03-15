@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: Commencer avec les rapports
 description: Les rapports offrent de la visibilité sur ce qui se passe concernant les utilisateurs et utilisatrices et le travail. Les rapports vous permettent d’afficher des informations sur les objets dans Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '3292'
 ht-degree: 95%

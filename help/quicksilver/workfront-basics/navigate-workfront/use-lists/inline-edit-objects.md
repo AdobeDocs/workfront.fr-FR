@@ -4,12 +4,12 @@ navigation-topic: use-lists
 title: Modification intégrée d’éléments dans une liste dans  [!DNL Adobe Workfront]
 description: Vous pouvez modifier des objets en ligne lorsqu’ils s’affichent dans une liste ou un rapport. Lorsque vous modifiez les informations sur les objets affichés dans une liste ou un rapport, l’objet est immédiatement mis à jour.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -44,13 +44,13 @@ Bien que la plupart des objets affichés dans les listes ou les rapports soient 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure </p>
+   <p>Contributeur ou supérieur </p>
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

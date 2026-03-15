@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtre : afficher les éléments par statuts de même nom lorsque les statuts sont associés à différents groupes'
 description: Vous pouvez avoir un statut de tâche affecté au groupe A nommé Nouveau statut avec la clé à 3 lettres « NST ». Un autre statut de tâche peut être affecté au groupe B, également nommé Nouveau statut, avec la clé à 3 lettres « NES ». Bien que les noms des deux statuts puissent être identiques, le code à 3 lettres est toujours unique. Pour plus d’informations sur les statuts de groupe, voir Créer ou modifier un statut de groupe.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 63%
+ht-degree: 64%
 
 ---
 
@@ -33,7 +33,7 @@ Le créateur de filtres ne vous permet pas de différencier deux statuts qui por
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

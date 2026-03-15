@@ -1,25 +1,25 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Suppression d’un rapport dans un tableau de bord Zone de travail
+title: Supprimer un rapport dans un tableau de bord de la zone de travail
 description: Vous pouvez supprimer un rapport d’un tableau de bord Zone de travail.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
-source-git-commit: b5fbff2b81efaf31d0a8abaf32d6195303876531
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 16%
+ht-degree: 21%
 
 ---
 
-# Suppression d’un rapport dans un tableau de bord Zone de travail
+# Supprimer un rapport dans un tableau de bord de la zone de travail
 
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->&#x200B;>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
@@ -40,7 +40,7 @@ La suppression d’un rapport est permanente. Si vous devez ajouter à nouveau u
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tous </p> 
    </td> 
@@ -80,7 +80,7 @@ Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/he
 >[!WARNING]
 >
 >Une fois qu’un rapport est supprimé, il ne peut pas être récupéré. <br>
->&#x200B;>Si vous avez ajouté un rapport classique existant à un tableau de bord Zone de travail, sa suppression du tableau de bord ne supprimera pas le rapport d’origine.
+>Si vous avez ajouté un rapport classique existant à un tableau de bord Zone de travail, sa suppression du tableau de bord ne supprimera pas le rapport d’origine.
 
 {{step1-to-dashboards}}
 

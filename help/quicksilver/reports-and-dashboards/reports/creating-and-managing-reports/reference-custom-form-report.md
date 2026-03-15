@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Référencer un formulaire personnalisé dans un rapport
 description: Vous pouvez faire référence aux formulaires personnalisés d’un objet dans les vues, les filtres et les regroupements d’un rapport pour cet objet.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 94%
@@ -30,7 +30,7 @@ Vous pouvez référencer le contenu des formulaires personnalisés à inclure da
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

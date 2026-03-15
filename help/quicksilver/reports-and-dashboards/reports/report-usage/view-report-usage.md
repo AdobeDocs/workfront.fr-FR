@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: report-usage
 title: Afficher le rapport d’utilisation
 description: Afficher le rapport d’utilisation
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur les champs par lesquels vous pouvez filtrer un ra
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

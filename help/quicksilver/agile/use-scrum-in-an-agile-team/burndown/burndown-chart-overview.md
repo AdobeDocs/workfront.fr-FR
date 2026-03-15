@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Aperçu du graphique d'avancement Agile
 description: Le graphique d’avancement fournit une représentation visuelle de l’avancement des histoires dans l’itération ou le projet. Le taux d’avancement réel est mesuré par rapport au taux d’avancement idéal pour la chronologie de l’itération ou du projet.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 96%

@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 'Ajout de rapports : index des articles'
+title: 'Ajouter des rapports : index des articles'
 description: Consultez les articles de cette section.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: ca819287f6a541d188c67b65465fe314c7b3109e
+exl-id: 9be0ae99-f810-49f9-987c-e4f93ef1a86a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 73%
+ht-degree: 88%
 
 ---
 
-
-# Ajout de rapports : index des articles
+# Ajouter des rapports : index des articles
 
 Cette section contient les articles suivants :
 

@@ -1,10 +1,11 @@
 ---
 title: Améliorations de la page d’accueil du premier trimestre 2024
 description: Améliorations de la page d’accueil du premier trimestre 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 100%
@@ -24,7 +25,7 @@ Pour faciliter l’affichage du statut des approbations et des révisions pour l
 
 ## Contrôles d’administration pour la nouvelle page d’accueil à l’aide des modèles de mise en page
 
-Les administrateurs et les administratrices peuvent désormais personnaliser le nouvel Accueil pour les utilisateurs et les utilisatrices à l’aide de modèles de disposition. Les options de personnalisation comprennent la sélection des widgets obligatoires et leur position, le choix d’un arrière-plan et des options spécifiques aux widgets pour choisir les filtres et les groupes disponibles (et définir les valeurs par défaut).
+Les administrateurs et les administratrices peuvent désormais personnaliser le nouvel Accueil pour les utilisateurs et les utilisatrices à l’aide de modèles de mise en page. Les options de personnalisation comprennent la sélection des widgets obligatoires et leur position, le choix d’un arrière-plan et des options spécifiques aux widgets pour choisir les filtres et les groupes disponibles (et définir les valeurs par défaut).
 
 Notez que les paramètres de mise en page définis par votre administration l’emportent sur les personnalisations individuelles des utilisateurs et des utilisatrices. Lorsque vous enregistrez des modifications sur un modèle de mise en page, tous les utilisateurs et toutes les utilisatrices de ce modèle verront leur page d’accueil mise à jour pour refléter ces changements, et leurs widgets sélectionnés seront repositionnés en bas de la page. Bien que les widgets sélectionnés par l’administration puissent être repositionnés par un utilisateur ou par une utilisatrice, ils ne peuvent pas être supprimés.
 

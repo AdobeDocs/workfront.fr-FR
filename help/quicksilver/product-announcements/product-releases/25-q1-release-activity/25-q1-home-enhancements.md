@@ -1,14 +1,14 @@
 ---
 title: Améliorations de la page d’accueil du premier trimestre 2025
 description: Améliorations des priorités du premier trimestre de 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-Consultez la [&#x200B; vidéo de démonstration des améliorations des priorités &#x200B;](#priorities-enhancements-demo-video) ci-dessous pour une démonstration complète des fonctionnalités incluses dans cette présentation.
+Consultez la [ vidéo de démonstration des améliorations des priorités ](#priorities-enhancements-demo-video) ci-dessous pour une démonstration complète des fonctionnalités incluses dans cette présentation.
 
 ## Utiliser des filtres intelligents pour rechercher votre travail dans les priorités
 
@@ -30,29 +30,29 @@ Consultez la [&#x200B; vidéo de démonstration des améliorations des priorité
 >
 >Version préliminaire : 9 janvier 2025 ; Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)
 
-Utilisez le langage naturel pour filtrer rapidement le travail dans la liste de travail Priorités. Vous pouvez saisir des éléments tels que :
+Utilisez le langage naturel pour filtrer rapidement le travail dans la liste de travail Priorités. Vous pouvez saisir des éléments tels que
 
 * Afficher les tâches en retard
-* Me montrer les tâches dues cette semaine
+* Afficher les tâches dont la date d&#39;échéance est cette semaine
 * Afficher les principales priorités
 
-Disponible uniquement pour les instances compatibles avec IMS.
+Disponible uniquement pour les instances compatibles IMS.
 
-Pour plus d’informations, voir [Filtrer et regrouper votre travail avec des priorités](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Pour plus d&#39;informations, voir [Filtrer et regrouper votre travail avec les priorités](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
-## Rattrapage du travail dans les priorités
+## Rattraper du travail dans Priorités
 
 >[!NOTE]
 >
->Version préliminaire : 20 décembre 2024 ; Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)
+>Version d’aperçu : 20 décembre 2024 ; version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)
 >
->_Cette fonctionnalité n’est disponible que pour les clients disposant d’une expérience d’Adobe unifié à l’aide de l’assistant AI._
+>_Cette fonctionnalité est uniquement disponible pour les clients disposant de l’expérience d’Adobe unifiée à l’aide de l’assistant AI._
 
-Vous pouvez utiliser l&#39;option Rattraper mon retard pour réduire le temps consacré à la recherche d&#39;informations sur les projets actifs.
+Vous pouvez utiliser la fonction Me joindre pour vous aider à réduire le temps consacré à la recherche d’informations sur les projets actifs.
 
-Optimisé par l’assistant d’IA de Workfront, Catch me up résume les mises à jour, les documents chargés et d’autres modifications notables concernant vos projets dans les délais suivants : 24 heures, 3 jours ou 7 jours.
+Optimisé par Workfront AI Assistant, Catch me up résume les mises à jour, les documents chargés et d’autres modifications notables concernant vos projets dans les délais suivants : 24 heures, 3 jours ou 7 jours.
 
-Pour de plus amples renseignements, voir [Rattrapage du travail dans Priorités](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Pour plus d’informations, voir [Rattrapage du travail dans Priorités](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ## Affichez les modifications en direct sur la page Détails dans Priorités
 
@@ -62,7 +62,7 @@ Pour de plus amples renseignements, voir [Rattrapage du travail dans Priorités]
 
 Vous pouvez désormais afficher des mises à jour en temps réel sur la page Détails d’une tâche ou d’un événement. Vous pouvez également voir si d’autres personnes consultent la page en même temps que vous avec des indicateurs de présence en temps réel.
 
-Pour plus d’informations, voir [Afficher les détails du projet et de la tâche dans la liste de travail Priorités](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+Pour plus d&#39;informations, voir [Afficher les détails du projet et de la tâche dans la liste de travail Priorités](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
 ## Charger et afficher des documents et des épreuves dans Priorités
 
@@ -77,22 +77,22 @@ Vous pouvez désormais interagir avec des documents et des BAT pour les tâches 
 * Lancer la visionneuse de relecture
 * Et plus encore
 
-Pour plus d’informations, voir [&#x200B; Charger des documents et créer des épreuves dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
+Pour plus d&#39;informations, voir [Charger des documents et créer des épreuves dans Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
 
-## La vue Calendrier est désormais disponible dans Priorités
+## Vue Calendrier désormais disponible dans Priorités
 
 >[!NOTE]
 >
->Version préliminaire : 19 décembre 2024 ; Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)
+>Version d’aperçu : 19 décembre 2024 ; version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)
 
-Vous pouvez désormais suivre votre travail à l’aide d’un calendrier visuel clair. Avec le calendrier Priorités, vous pouvez :
+Vous pouvez désormais suivre votre travail à l’aide d’un calendrier clair et visuel. Avec le calendrier Priorités, vous pouvez :
 
-* Utiliser des filtres pour trouver votre travail
-* Appliquer des champs personnalisés tels que le statut et le niveau de focus pour identifier le travail hautement prioritaire
-* Appliquer des couleurs pour une organisation rapide
+* Utilisation de filtres pour trouver votre travail
+* Application de champs personnalisés tels que l’état et le niveau de mise au point pour identifier le travail hautement prioritaire
+* Application de couleurs pour une organisation rapide
 * Et plus encore
 
-Pour plus d’informations, voir [&#x200B; Gérer votre travail dans le calendrier Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
+Pour plus d&#39;informations, voir [Gérer votre travail dans le calendrier des priorités](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Mises à jour de la liste de travail des priorités
 
@@ -104,25 +104,25 @@ Nous avons mis à jour la liste de travail des priorités afin d&#39;améliorer 
 
 ### Modifications visuelles
 
-* Les options de filtrage, d’affichage et de regroupement s’affichent désormais sur le côté gauche de l’en-tête de la liste de tâches
+* Les options de filtre, d’affichage et de regroupement apparaissent désormais sur le côté gauche de l’en-tête de la liste à traiter
 * Nouvel aspect des menus déroulants de colonnes et de regroupements
-* Nombre total d’éléments de liste maintenant dans le coin inférieur droit de la liste de travail
-* Nouvelle barre de recherche développée sur le côté droit de l’en-tête de la liste de travail
+* Nombre total d&#39;éléments de liste maintenant dans le coin inférieur droit de la liste à traiter
+* Nouvelle barre de recherche développée sur le côté droit de l’en-tête de la liste à traiter
 
-Pour plus d’informations, voir [Prise en main des priorités](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
+Pour plus d&#39;informations, voir [Prise en main des priorités](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
-### Changements fonctionnels
+### Modifications fonctionnelles
 
 Vous pouvez maintenant
 
-* Trier les éléments dans les regroupements
-* Glisser-déposer des éléments lors du regroupement par Ma priorité ou Statut
+* Tri des éléments au sein des regroupements
+* Glisser-déposer des éléments lors du regroupement par priorité ou par statut
 
-Pour plus d’informations, voir [Filtrer et regrouper votre travail avec des priorités](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Pour plus d&#39;informations, voir [Filtrer et regrouper votre travail avec les priorités](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Supprimés
 
-* Vous ne pouvez plus créer de tâches et d&#39;événements directement dans la liste de tâches. Vous devez utiliser le bouton Créer dans le coin supérieur droit des Priorités.
+* Vous ne pouvez plus créer de tâches et de problèmes directement dans la liste à traiter. Vous devez utiliser le bouton Créer dans le coin supérieur droit de Priorités.
 
 ## Accédez à la page Détails d’un projet à partir des priorités
 
@@ -134,7 +134,7 @@ Vous pouvez désormais accéder directement à un projet dans Workfront à parti
 
 Pour plus d’informations, voir [Afficher les détails du projet et de la tâche dans la liste de travail Priorités](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
-## Mise à jour des options de la colonne Mon focus dans Priorités
+## Options mises à jour dans la colonne Mon focus dans Priorités
 
 >[!NOTE]
 >
@@ -147,21 +147,21 @@ Nous avons mis à jour les options de la colonne Mon focus pour vous aider à hi
 * Normal
 * Faible
 
-Cette modification facilite l’affichage et l’organisation du travail en fonction de l’urgence. Pour plus d’informations, voir [&#x200B; Hiérarchiser les éléments de travail importants &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+Cette modification facilite l’affichage et l’organisation du travail en fonction de l’urgence. Pour plus d&#39;informations, voir [Hiérarchiser les éléments de travail importants](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ## Afficher les détails du projet dans Priorités
 
 >[!NOTE]
 >
->Version préliminaire : 6 novembre 2024 ; Production pour la version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
+>Version de prévisualisation : jeudi 6 novembre 2024. Production pour version rapide : avec la version 24.11 (vendredi 14 novembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
 
 Vous pouvez désormais afficher les détails et les commentaires du projet à partir de la liste de travail dans Priorités.
 
-Pour plus d’informations, voir [Afficher les détails du projet et de la tâche dans la liste de travail Priorités](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+Pour plus d&#39;informations, voir [Afficher les détails du projet et de la tâche dans la liste de travail Priorités](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
 ## Vidéo de démonstration des améliorations des priorités
 
-Regardez la vidéo ci-dessous pour une démonstration détaillée des nouvelles fonctionnalités ajoutées à Priorités ce trimestre.
+Regardez la vidéo ci-dessous pour une démonstration détaillée des nouvelles fonctionnalités ajoutées aux priorités ce trimestre.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
 

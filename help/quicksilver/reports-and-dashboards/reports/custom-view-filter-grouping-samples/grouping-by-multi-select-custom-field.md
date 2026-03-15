@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Regrouper un rapport par un champ personnalisé à sélection multiple
 description: Le regroupement par valeur dans un champ personnalisé à sélection multiple dans un rapport Adobe Workfront n’est possible qu’en mode texte.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 83%
@@ -46,7 +46,7 @@ Pour plus d’informations sur l’utilisation du mode texte, voir l’article [
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

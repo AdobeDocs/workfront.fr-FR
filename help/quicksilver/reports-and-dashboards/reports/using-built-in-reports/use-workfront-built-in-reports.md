@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Utiliser les rapports intégrés d’Adobe Workfront
 description: Adobe Workfront dispose d’une liste exhaustive de rapports intégrés prêts à l’emploi. Les équipes d’administration de Workfront peuvent masquer les rapports intégrés pour que les utilisateurs et utilisatrices n’y aient pas accès.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2978'
-ht-degree: 56%
+ht-degree: 57%
 
 ---
 
@@ -30,13 +30,13 @@ Les administrateurs et administratrices de Workfront peuvent masquer les rapport
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-      <p>Contributeur ou version ultérieure</p>
+      <p>Contributeur ou supérieur</p>
       <p>Requête ou supérieure</p>
    </td>
   </tr>

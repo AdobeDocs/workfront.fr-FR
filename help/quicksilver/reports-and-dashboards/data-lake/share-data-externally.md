@@ -4,13 +4,13 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Établir une connexion à Workfront Data Connect
 description: Workfront Data Connect vous permet d’utiliser les données Workfront de votre organisation avec des outils de Business Intelligence ou de les stocker dans un entrepôt de données externe.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 Workfront Data Connect vous permet d’utiliser les données Workfront de votre organisation avec des outils de Business Intelligence ou de les stocker dans un entrepôt de données externe.
 
-Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord créer une connexion comme décrit dans la section [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Vous devez ensuite ajouter les adresses IP requises à la place sur la liste autorisée de données, comme décrit dans la section [Ajouter des adresses IP à la liste autorisée &#x200B;](#add-ips-to-the-allowlist) ci-dessous.
+Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord créer une connexion comme décrit dans la section [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Vous devez ensuite ajouter les adresses IP requises à la place sur la liste autorisée de données, comme décrit dans la section [Ajouter des adresses IP à la liste autorisée ](#add-ips-to-the-allowlist) ci-dessous.
 
 La plupart des produits nécessitent les informations suivantes sur votre lac de données pour établir une connexion :
 
@@ -30,7 +30,7 @@ La plupart des produits nécessitent les informations suivantes sur votre lac de
 | Entrepôt de données | `READER_WH` |
 | Schéma | `WF` |
 | Rôle | `READER_ROLE` |
-| Nom d’utilisateur | Nom d’utilisateur choisi lors de la création de la connexion (sur la page **Data Connect** de Workfront*) |
+| Nom d’utilisateur ou d’utilisatrice | Nom d’utilisateur choisi lors de la création de la connexion (sur la page **Data Connect** de Workfront*) |
 | Mot de passe | Mot de passe choisi lors de la première connexion à Snowflake* |
 
 *Pour plus d’informations sur l’emplacement de la page **Data Connect** contenant vos connexions, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
@@ -50,7 +50,7 @@ La plupart des produits nécessitent les informations suivantes sur votre lac de
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Ultimate</p>
     <p>Workflow Ultimate</p>
    </td>

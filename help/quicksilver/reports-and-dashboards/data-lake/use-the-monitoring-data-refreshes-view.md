@@ -1,18 +1,19 @@
 ---
 product-area: reports and dashboards
 navigation-topic: data-connect
-title: Utilisation de la vue Surveillance des actualisations des données dans Data Connect
+title: Utiliser la vue Surveillance des actualisations des données dans Data Connect
 description: Avec Data Connect, les administrateurs de Workfront peuvent accéder aux enregistrements détaillés des mises à jour récentes qui ont été apportées à la date du lac de données lors de la dernière actualisation.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
+exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Utilisation de la vue Surveillance des actualisations des données dans Data Connect
+# Utiliser la vue Surveillance des actualisations des données dans Data Connect
 
 La vue Surveillance des actualisations des données affiche les mises à jour récentes apportées à la date du lac de données lors de la dernière actualisation. Les données de cette vue sont mises à jour après chaque fin réussie d’un chargement de données.
 
@@ -87,4 +88,3 @@ Les colonnes de la vue Surveillance de l&#39;actualisation des données contienn
         <br><b>Remarque </b> : il ne s’agit pas du même nombre total d’enregistrements affectés par des événements CREATE, UPDATE ou DELETE, car un même enregistrement peut être CRÉÉ et MIS À JOUR plusieurs fois entre les actualisations.  </td>
     </tr>
    </table>
-

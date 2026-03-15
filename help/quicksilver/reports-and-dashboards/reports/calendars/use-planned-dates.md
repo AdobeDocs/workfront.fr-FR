@@ -1,15 +1,15 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Utilisation des dates prévues dans un rapport de calendrier
+title: Utiliser des dates planifiées dans un rapport de calendrier
 description: Un rapport de calendrier est un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez utiliser les champs Date prévue dans un rapport de calendrier pour les tâches, les problèmes et les projets.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -36,7 +36,7 @@ Un rapport de calendrier est un rapport dynamique qui fournit une représentatio
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Vous pouvez choisir la manière dont le groupe d’éléments doit s’afficher 
 
 1. Sélectionnez le calendrier auquel vous souhaitez ajouter un nouveau groupe d&#39;éléments.
 Ou
-Cliquez sur **[!UICONTROL + Nouveau calendrier]** puis saisissez le nom du calendrier.
+Cliquez sur **[!UICONTROL + Nouveau calendrier]** et saisissez le nom du calendrier.
 
    >[!NOTE]
    >
@@ -121,7 +121,7 @@ Cliquez sur **[!UICONTROL + Nouveau calendrier]** puis saisissez le nom du calen
 
 1. Passez à la section suivante.
 
-## Ajouter des objets au groupe d’éléments dans l’aperçu
+## Ajout d’objets au groupe d’éléments dans l’aperçu
 
 Après avoir défini le mode d’affichage des éléments, vous devez ajouter au regroupement les objets que vous souhaitez voir apparaître sur le calendrier.
 
@@ -150,7 +150,7 @@ Après avoir défini le mode d’affichage des éléments, vous devez ajouter au
    >
    >Si les options relatives aux libellés par défaut ne sont pas disponibles pour un objet donné, le nom de l’objet est affiché à la place. Par exemple, lorsque le libellé [!UICONTROL Tâche parent] est sélectionné et qu’aucune tâche parent n’est associée à l’objet, [!DNL Adobe Workfront] affiche le nom de l’objet affiché dans le calendrier.
 
-   ![définir les libellés de la tâche](assets/set-task-labels.png)
+   ![définir des étiquettes de tâche](assets/set-task-labels.png)
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.

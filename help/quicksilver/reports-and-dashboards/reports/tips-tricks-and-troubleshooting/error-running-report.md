@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 'Message d’erreur affiché lors de l’exécution d’un rapport : « Vous n’êtes pas actuellement connecté. »'
 description: Découvrez le message d’erreur « Votre connexion n’est pas effective. »
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

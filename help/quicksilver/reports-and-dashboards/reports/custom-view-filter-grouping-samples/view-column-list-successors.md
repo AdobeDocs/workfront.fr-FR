@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : ajouter une liste de tâches successives dans une colonne'
 description: Vous pouvez ajouter une colonne à une vue de tâche pour afficher une liste des tâches ultérieures. La colonne Tâches ultérieures comprend le numéro de la tâche ultérieure ainsi que son nom.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez ajouter une colonne à une vue de tâche pour afficher une liste des
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

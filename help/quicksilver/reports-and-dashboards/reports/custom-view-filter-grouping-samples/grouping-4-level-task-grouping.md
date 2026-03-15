@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Regroupement : regroupement de tâches à 4 niveaux pour le propriétaire de Portfolio, le propriétaire de programme, le propriétaire de projet et le statut du projet'
+title: 'Regroupement : regroupement de tâches à 4 niveaux pour le propriétaire du Portfolio, le propriétaire du programme, le propriétaire du projet et le statut du projet'
 description: Ce regroupement de tâches propose 4 niveaux de regroupement. Dans ce cas, les tâches sont regroupées par personne propriétaire du portfolio, personne propriétaire du programme, personne propriétaire du projet et statut du projet. L’interface standard ne permet pas d’avoir plus de 3 niveaux de regroupement. Pour ajouter un quatrième niveau, vous devez utiliser le mode texte. Vous ne pouvez pas regrouper les rapports selon plus de 4 critères à la fois.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a1780a57-b94c-4d3a-b526-9bf45dba21f1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ Ce regroupement de tâches propose 4 niveaux de regroupement. Dans ce cas, les t
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

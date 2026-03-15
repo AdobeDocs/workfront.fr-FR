@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: Configurer l’abandon de carte
 description: Vous pouvez configurer un panorama afin que les cartes soient archivées ou « tombent » du panorama selon un planning précis.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -29,13 +29,13 @@ Lorsqu’une carte tombe du panorama, elle est archivée. Vous pouvez afficher l
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

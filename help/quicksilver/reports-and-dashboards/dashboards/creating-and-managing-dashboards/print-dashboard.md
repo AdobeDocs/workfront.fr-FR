@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Imprimer un tableau de bord
 description: Vous pouvez imprimer ou exporter un tableau de bord vers un fichier PDF. Pour imprimer un tableau de bord, vous devez disposer des autorisations nécessaires pour le visualiser.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 98%
@@ -32,7 +32,7 @@ Vous pouvez imprimer ou exporter un tableau de bord vers un fichier PDF. Pour i
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

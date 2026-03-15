@@ -1,14 +1,14 @@
 ---
 title: Améliorations des rapports du troisième trimestre 2025
 description: Améliorations apportées aux projets au troisième trimestre 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6e53dca8-285a-471b-a646-1773722554f3
-source-git-commit: a0a7ad2770b99ee1d45169372e64e460701ccc10
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -37,7 +37,7 @@ Pour plus d’informations, voir [Planification de la diffusion automatique des 
 >[!NOTE]
 >
 >* Aperçu : 30 avril 2025
->* Version rapide de production : 15 mai 2025
+>* Version rapide de production : vendredi 15 mai 2025
 >* Production pour tous les clients : 17 juillet 2025
 
 Nous avons mis à jour le comportement du caractère générique utilisateur pour exclure la valeur nulle lors du filtrage d’un rapport. Cette modification permet au filtre de produire des résultats plus précis, plutôt que de renvoyer des résultats qui ne sont pas correctement configurés par un utilisateur (résultat nul).

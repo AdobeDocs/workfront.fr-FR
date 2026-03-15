@@ -4,10 +4,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: Parcourir le catalogue de plans directeurs et demander l’installation de plans directeurs
 description: Les plans directeurs fournissent des éléments de base pour vous aider à créer un système de gestion du travail qui évolue avec vous. Tous les utilisateurs et utilisatrices d’ [!DNL Adobe Workfront]  peuvent parcourir le catalogue de plans directeurs. Vous pouvez également demander à votre administrateur ou administratrice  [!DNL Workfront]  d’installer pour vous un plan directeur spécifique, si votre administrateur ou administratrice a activé les demandes de plans directeurs.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 95%
@@ -34,7 +34,7 @@ Seule la personne chargée de l’administration système peut installer des pla
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Contributeur ou version ultérieure</p><p>Demandeur ou supérieur</p>
+   <td><p>Contributeur ou supérieur</p><p>Demandeur ou supérieur</p>
   </td> 
   </tr> 
  </tbody> 

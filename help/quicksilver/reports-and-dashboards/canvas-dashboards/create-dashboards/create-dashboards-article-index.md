@@ -1,18 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 'Créer des tableaux de bord de zone de travail : index d’article'
+title: 'Créer des tableaux de bord de la zone de travail : index des articles'
 description: Consultez les articles de cette section.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 6f2db600-9ffa-4e27-88e3-17e8ab072f7d
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 12%
+ht-degree: 40%
 
 ---
 
-# Créer des tableaux de bord de zone de travail : index d’article
+# Créer des tableaux de bord de la zone de travail : index des articles
 
 >[!IMPORTANT]
 >
@@ -21,4 +22,4 @@ ht-degree: 12%
 
 Cette section contient l’article suivant :
 
-* [Créer un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
+* [Créer un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)

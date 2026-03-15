@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Présentation De Kanban
 description: Consultez cet article pour mieux comprendre le fonctionnement du tableau Kanban.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 82%

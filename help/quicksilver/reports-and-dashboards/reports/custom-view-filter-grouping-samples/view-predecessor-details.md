@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : détails de la tâche antérieure'
 description: Cette vue de tâche affiche les détails des tâches antérieures à l’aide d’une vue de collection. Dans une vue de collection, vous pouvez afficher des informations sur les objets qui se trouvent dans une relation « un-à-multiple ». Dans ce cas, chaque tâche (un) peut avoir plusieurs tâches antérieures (multiple). La vue affiche les noms des tâches, des tâches antérieures et des projets des tâches antérieures, ainsi que les dates d’achèvement prévues et les statuts des tâches antérieures.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -33,7 +33,7 @@ Pour plus d’informations sur le référencement des collections dans les rappo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

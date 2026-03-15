@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: start-with-workfront-administration
-title: Envoyer des annonces
+title: Envoyer les annonces
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser la page Annonces pour envoyer des annonces aux utilisateurs et utilisatrices.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 98%
@@ -32,7 +32,7 @@ Pour plus d’informations sur l’affichage des annonces, voir [Afficher et gé
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Workfront</td> 
+   <td role="rowheader">pack Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

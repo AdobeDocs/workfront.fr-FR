@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Créer des rapports de données financières avec des taux de change uniques
 description: Si plusieurs taux de change ont été configurés dans Adobe Workfront, vous pouvez définir des valeurs financières dans les rapports et les listes pour les afficher dans une autre devise que celle par défaut.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 98%
@@ -36,7 +36,7 @@ Si le rapport contient des projets à devise unique, les sommes des regroupement
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -174,6 +174,6 @@ Pour modifier en ligne un champ financier dans un rapport, procédez comme suit�
 1. Cliquez sur **Paramètres des rapports**.
 1. Cliquez sur la liste déroulante **Devise par défaut**, puis sélectionnez **Devise d’origine du projet**.
 
-   ![&#x200B; Devise par défaut &#x200B;](assets/qs-report-settings-default-currency-350x370.png)
+   ![ Devise par défaut ](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Cliquez sur **Terminé**.

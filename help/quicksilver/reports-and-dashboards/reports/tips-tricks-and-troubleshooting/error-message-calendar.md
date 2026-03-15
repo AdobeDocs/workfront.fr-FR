@@ -4,13 +4,13 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 'Message d’erreur sur le calendrier : « Ce calendrier dispose des droits d’affichage d’un utilisateur désactivé. »'
 description: En savoir plus sur le message d’erreur « Ce calendrier dispose des droits d’affichage d’un profil utilisateur désactivé. »
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Vous recevez l’erreur suivante lorsque vous accédez à un calendrier partagé
 
 ## Cause
 
-La personne qui a créé ce calendrier (sa personne propriétaire originale) est une personne qui a été désactivée. 
+La personne qui a créé ce calendrier (sa personne propriétaire originale) est une personne qui a été désactivée. 
 
 ## Solution
 

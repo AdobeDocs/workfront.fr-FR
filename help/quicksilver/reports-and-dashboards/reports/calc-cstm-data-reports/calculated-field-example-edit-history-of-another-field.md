@@ -5,13 +5,13 @@ keywords: audit, journal, personnalisé, champ
 navigation-topic: calculate-custom-data-reports
 title: 'Exemple de champ personnalisé calculé : afficher l’historique des modifications d’un champ'
 description: Si les utilisateurs et utilisatrices mettent régulièrement à jour les champs personnalisés et que vous souhaitez capturer un journal de toutes les modifications apportées à un champ ainsi que la date à laquelle ces modifications ont eu lieu, vous pouvez capturer ces informations dans un champ personnalisé calculé.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 54%
 
 Si les utilisateurs et utilisatrices mettent régulièrement à jour les champs personnalisés et que vous souhaitez capturer un journal de toutes les modifications apportées à un champ ainsi que la date à laquelle ces modifications ont eu lieu, vous pouvez capturer ces informations dans un champ personnalisé calculé.
 
-L&#39;exemple suivant montre comment créer le champ calculé Instructions Edit History pour capturer toutes les modifications apportées à un champ de texte d&#39;une seule ligne appelé Instructions.
+The following example shows you how to build the Instructions Edit History calculated field to capture all the change made to a single-line text field called Instructions.
 
 >[!TIP]
 >
 >Vous pouvez suivre cet exemple pour tous les types de champs personnalisés, et pas seulement pour les champs de texte d’une seule ligne.
 
-Cela permet d’effectuer les opérations suivantes :
+This does this following:
 
-* Limite le champ Instructions Modifier l’historique aux 2 000 caractères les plus récents afin de respecter la limite de la base de données Workfront.
-* Vérifie si la valeur actuelle du champ Instructions correspond au recto de la valeur Instructions Modifier l’historique ; il suppose qu’elle est vide et dans le cas contraire, il effectue les opérations suivantes :
+* Limits the Instructions Edit History field to the most recent 2000 characters to stay within the Workfront database limit.
+* Checks if the current value of the Instructions field matches the front of the Instructions Edit History value; it assumes it is blank and if it is not, it does the following:
 
-   * S’ils correspondent, les instructions Modifier l’historique restent inchangées ;
-   * S’ils ne correspondent pas, il remplace l’historique de modification des instructions par la dernière valeur du champ Instructions, suivie de la date actuelle entre parenthèses, d’une barre verticale et de l’historique de modification des instructions précédent, ce qui conserve la ou les valeurs précédentes et la ou les dates auxquelles elles ont été saisies.
+   * If they match, it leaves the Instructions Edit History as is;
+   * If they do not match, it replaces the Instructions Edit History with the latest value in the Instructions field, followed by the current date in parentheses, a vertical bar, and the previous Instructions Edit History, which preserves the previous value(s) and the date(s) when they were entered.
 
 ## Conditions d’accès
 
@@ -44,7 +44,7 @@ Cela permet d’effectuer les opérations suivantes :
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Package Adobe Workfront</p> </td> 
+   <td> <p>Package Adobe Workfront</p> </td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Cela permet d’effectuer les opérations suivantes :
   </tr> 
   <tr> 
    <td><p>Configurations des niveaux d’accès</p></td> 
-   <td> <p>Accès administratif à Custom Forms</p> </td> 
+   <td> <p>Administrative access to Custom Forms</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Autorisations d’objet</p> </td> 
@@ -81,30 +81,30 @@ Pour ajouter un champ calculé qui affiche l’historique des modifications d’
 
 1. Pour créer un champ personnalisé de texte sur une seule ligne, par exemple, procédez comme suit :
 
-   1. Cliquez sur **Texte monoligne**.
-   1. Spécifiez un **Libellé** pour le champ personnalisé. Par exemple, vous pouvez le nommer « Instructions ».
+   1. Click **Single line text**.
+   1. Specify a **Label** for the custom field. For example, you can name it &quot; Instructions&quot;.
    1. Cliquez sur **Appliquer**.
 
 1. Cliquez sur **Calculé** pour ajouter un champ personnalisé calculé au formulaire.
-1. Spécifiez un **Libellé** pour le champ personnalisé calculé. Par exemple, vous pouvez le nommer « Instructions Modifier l’historique ».
+1. Specify a **Label** for the calculated custom field. For example, you can name it &quot;Instructions Edit History&quot;.
 
-   Il s’agit du champ qui capture toutes les modifications apportées au premier champ que vous avez créé (« Instructions »).
+   This is the field that will capture any changes made to the first field you created (&quot;Instructions&quot;).
 
 1. Cliquez sur **Enregistrer et fermer**.
 1. Cliquez sur le nom du formulaire dans lequel vous avez ajouté deux champs pour le rouvrir.
-1. Cliquez sur le champ personnalisé calculé **Instructions Modifier l’historique**, puis copiez et collez les éléments suivants dans la zone **Calcul** :
+1. Click the calculated custom field **Instructions Edit History**, then copy and paste the following in the **Calculation** box:
 
    ```
    LEFT(IF(LEFT({DE:Instructions Edit History},LEN(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})))={DE:Instructions},{DE:Instructions Edit History},CONCAT(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})," (",$$NOW,") | ",{DE:Instructions Edit History})),2000)
    ```
 
 1. (Recommandé) Collez le même calcul dans le champ **Instructions** sur le champ calculé du formulaire.
-1. Assurez-vous que **Texte** est sélectionné dans le champ **Format** pour mettre en forme le champ personnalisé calculé en tant que texte.
+1. Make sure that  **Text** is selected in the **Format** field to format the calculated custom field as text.
 
    Il s’agit de la valeur par défaut.
 
 1. Cliquez sur **Enregistrer et fermer**.
 
-   Désormais, lorsque vous joignez le formulaire personnalisé à un objet, puis que quelqu’un modifie les informations dans le champ **Instructions**, le champ **Instructions Modifier l’historique** affiche la dernière valeur, suivie de la date actuelle entre parenthèses, et d’une barre verticale. Si d’autres modifications sont apportées, elles sont ajoutées à ces informations de la même manière.
+   Now, when you attach the custom form to an object and then someone changes the information in the **Instructions** field, the **Instructions Edit History** field displays the latest value, followed by the current date in parentheses, and a vertical bar. Si d’autres modifications sont apportées, elles sont ajoutées à ces informations de la même manière.
 
    Dans le calcul ci-dessus, vous pouvez remplacer *Instructions* par le nom exact de votre champ de texte à une seule ligne dont vous voulez suivre l’historique, et **Historique des modifications des instructions** par le nom exact de votre champ calculé.

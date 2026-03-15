@@ -4,13 +4,13 @@ keywords: save,new,report,copy
 navigation-topic: create-and-manage-reports
 title: Créer une copie d’un rapport
 description: Vous pouvez créer une copie de tout rapport auquel vous avez accès. Vous pouvez soit créer une copie exacte d’un rapport personnalisé, soit enregistrer une nouvelle version d’un rapport par défaut. Après avoir copié un rapport, vous devenez la personne propriétaire du rapport copié et il s’affiche dans la section Mes rapports.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez créer une copie de tout rapport auquel vous avez accès. Vous pouve
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : société et groupe principal de l''utilisateur affecté'
 description: Cette vue de tâche affiche l’entreprise et le groupe principal de la personne propriétaire principale de la tâche. Il s’agit de valeurs qui ne sont pas disponibles dans l’interface standard, mais qui sont accessibles via le mode texte.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 68%
+ht-degree: 70%
 
 ---
 
@@ -31,7 +31,7 @@ Cette vue de tâche affiche l’entreprise et le groupe principal de la personne
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

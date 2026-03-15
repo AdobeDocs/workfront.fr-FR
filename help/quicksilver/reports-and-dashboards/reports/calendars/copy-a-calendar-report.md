@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Copier un rapport de calendrier
 description: Si vous avez créé un calendrier, vous pouvez le copier et l’utiliser comme point de départ pour un nouveau calendrier.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -32,7 +32,7 @@ En outre, si vous avez un accès [!UICONTROL Gérer] à un calendrier dont vous 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

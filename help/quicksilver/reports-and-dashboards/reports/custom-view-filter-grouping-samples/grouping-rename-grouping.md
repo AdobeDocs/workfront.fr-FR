@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Regroupement : permet de modifier le nom d’affichage dans un regroupement.'
 description: Vous pouvez renommer les regroupements dans les listes et les rapports et leur donner un nom que vos utilisateurs et utilisatrices connaissent mieux.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -37,7 +37,7 @@ Vous pouvez modifier ce regroupement en mode texte pour afficher un nom plus fac
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

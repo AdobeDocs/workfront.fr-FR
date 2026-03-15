@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Créer un rapport personnalisé
 description: Vous pouvez donner accès aux informations dont votre entreprise a besoin dans Adobe Workfront en créant des rapports. Vous pouvez utiliser n’importe lequel des rapports intégrés disponibles dans Workfront, ou vous pouvez créer vos propres rapports à partir de zéro.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 93%
@@ -35,7 +35,7 @@ Pour plus d’informations sur la création et la gestion de rapports, y compris
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Pour plus d’informations sur la création et la gestion de rapports, y compris
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Vous obtenez des autorisations de niveau Gérer pour les rapports créés</p>  </td> 
+   <td> <p>Vous obtenez les autorisations Gérer pour les rapports que vous créez</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +76,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    >Vous pouvez également créer un rapport en faisant une copie d’un rapport existant. Pour plus d’informations, consultez la section [Créer une copie d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-1. (Facultatif) Pour modifier le titre de votre nouveau rapport, saisissez le titre du rapport de votre choix dans le champ de texte situé dans le coin supérieur gauche du Report Builder. Nous vous recommandons d’utiliser uniquement des caractères UTF-8 pour éviter des problèmes de compatibilité.
+1. (Facultatif) Pour modifier le titre de votre nouveau rapport, saisissez le titre du rapport souhaité dans le champ de texte situé dans le coin supérieur gauche du générateur de rapports. Nous vous recommandons d’utiliser uniquement des caractères UTF-8 pour éviter les problèmes de compatibilité.
 
 1. Dans le générateur de rapports, ajoutez les éléments suivants à votre rapport :
 
@@ -126,11 +126,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Ou
 
-   Pour modifier une colonne existante, cliquez dessus, puis sur l’icône **Supprimer** ![Icône Supprimer une colonne](assets/remove-column-icon.png) à droite du champ actif dans la zone **Afficher dans cette colonne** dans le coin supérieur gauche du Report Builder, et commencez à saisir un nouveau champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   Pour modifier une colonne existante, cliquez sur la colonne, cliquez sur l&#39;icône **Supprimer** ![Supprimer l&#39;icône de colonne](assets/remove-column-icon.png) à droite du champ actuel dans la zone **Afficher dans ce champ de colonne** dans le coin supérieur gauche du générateur de rapports, commencez à saisir un nouveau champ, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
 
    Pour plus d’informations sur les champs que vous voyez dans les colonnes, consultez [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![Ajouter une saisie semi-automatique de colonne](assets/nwe-add-column-typeahead-350x459.png)
+   ![Ajouter un type de colonne en avance](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (Facultatif) Dans la zone **Paramètres d’une colonne**, sélectionnez **Trier sur la base de cette colonne** pour trier les valeurs de la colonne par ordre alphabétique croissant ou décroissant, puis indiquez si la liste doit utiliser cette colonne comme premier tri.
 

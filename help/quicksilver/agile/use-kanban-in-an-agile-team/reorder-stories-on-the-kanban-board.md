@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Réorganiser les histoires sur le tableau Kanban
 description: Vous pouvez modifier l’ordre dans lequel les histoires sont affichées dans les colonnes de statut du tableau Kanban.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ Lorsque vous réorganisez les colonnes du tableau [!DNL Kanban], toutes les modi
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

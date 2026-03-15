@@ -1,18 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Duplication d’un rapport dans un tableau de bord de zone de travail
+title: Dupliquer un rapport dans un tableau de bord de la zone de travail
 description: Vous pouvez dupliquer un rapport dans un tableau de bord Zone de travail.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 7e14f7224b5383f94c330a1543b9e01b651ed821
+exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 16%
+ht-degree: 24%
 
 ---
 
-# Duplication d’un rapport dans un tableau de bord de zone de travail
+# Dupliquer un rapport dans un tableau de bord de la zone de travail
 
 >[!IMPORTANT]
 >
@@ -24,7 +25,7 @@ ht-degree: 16%
 >* Azure
 >* Google Cloud Platform
 
-Vous pouvez dupliquer un indicateur de performance clé, un tableau ou un rapport de graphique dans un tableau de bord de la zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant d’enregistrer.
+Vous pouvez dupliquer un indicateur de performance clé, un tableau ou un rapport de graphique dans un tableau de bord de la zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant de l’enregistrer.
 
 
 ## Conditions d’accès
@@ -38,7 +39,7 @@ Vous pouvez dupliquer un indicateur de performance clé, un tableau ou un rappor
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tous </p> 
    </td> 

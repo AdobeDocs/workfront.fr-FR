@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Affectation d’utilisateurs à une histoire sur le scrum board
 description: Consultez cet article pour savoir comment affecter des utilisateurs et utilisatrices à une histoire sur le panorama Scrum.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 88%

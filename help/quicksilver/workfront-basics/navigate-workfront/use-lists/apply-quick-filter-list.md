@@ -3,9 +3,9 @@ navigation-topic: use-lists
 title: Application du filtre rapide à une liste
 description: Vous pouvez utiliser le filtre rapide dans une liste d’objets pour vous aider à localiser uniquement les éléments qui vous intéressent, afin de pouvoir rapidement les vérifier, les mettre à jour ou les partager avec d’autres personnes.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 88%
@@ -51,7 +51,7 @@ Tenez compte des points suivants lorsque vous appliquez des filtres rapides à u
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
 Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
@@ -67,7 +67,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
     <p>Nouveau :</p>
-   <ul><li><p>Contributeur ou version ultérieure </p></li>
+   <ul><li><p>Contributeur ou supérieur </p></li>
    </ul>
 
 <p>Actuel :</p>

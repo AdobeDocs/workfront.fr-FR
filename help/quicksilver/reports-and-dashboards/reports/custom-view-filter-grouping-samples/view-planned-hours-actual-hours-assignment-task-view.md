@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Vue : Heures prévues par rapport aux heures réelles par affectation dans une vue Tâche'
 description: Cet affichage des tâches affiche le nombre total d'heures prévues d'une tâche, le nombre d'heures prévues allouées à chaque personne désignée (lorsque la tâche est affectée à plusieurs utilisateurs), le nombre total d'heures réelles de la tâche et le nombre d'heures réelles enregistrées par chaque personne désignée.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f249ff57-50c7-4aa9-a563-cb7f5562b96a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
@@ -31,7 +31,7 @@ Cet affichage des tâches affiche le nombre total d&#39;heures prévues d&#39;un
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

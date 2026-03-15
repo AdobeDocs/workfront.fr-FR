@@ -2,12 +2,12 @@
 content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Rapports du calendrier - Aperçu
+title: Présentation des rapports de calendrier
 description: Un rapport de calendrier est un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez afficher les dates dans un rapport de calendrier pour les tâches, les problèmes et les projets.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 99%

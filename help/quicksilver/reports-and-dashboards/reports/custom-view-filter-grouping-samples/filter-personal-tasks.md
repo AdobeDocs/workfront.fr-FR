@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtrer : tâches personnelles'
 description: Ce filtre de tâches renvoie les demandes de travail ad hoc envoyées à un utilisateur ou une utilisatrice, ou les tâches ajoutées par les utilisateurs et utilisatrices dans leur zone d’Accueil. Les tâches personnelles ne sont pas liées à un projet, mais elles peuvent être déplacées vers un projet, si nécessaire.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
-# Filtrer : tâches personnelles
+# Filtre : tâches personnelles
 
 <!--Audited: 10/2024-->
 
@@ -35,7 +35,7 @@ Les tâches personnelles ne sont pas liées à un projet, mais elles peuvent êt
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

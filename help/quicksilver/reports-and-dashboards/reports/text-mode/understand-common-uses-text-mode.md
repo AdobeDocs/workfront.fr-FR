@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Vue d’ensemble des utilisations courantes du mode texte
 description: Vue d’ensemble des utilisations courantes du mode texte
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 92%
@@ -32,7 +32,7 @@ Pour plus d’informations sur la création de rapports en mode texte, notamment
 
 Nous vous recommandons d’utiliser le créateur de rapports et de listes pour créer vos vues, filtres et regroupements. Cependant, dans certains cas, vous pouvez utiliser le mode texte pour améliorer vos rapports et listes.
 
-Vous pouvez utiliser le mode texte lorsque vous souhaitez obtenir les résultats suivants dans Workfront :
+Vous pouvez utiliser le mode Texte pour obtenir les résultats suivants dans Workfront :
 
 * Créez des champs personnalisés calculés dans un formulaire personnalisé.\
   Pour plus d’informations sur les champs personnalisés calculés, voir [Utiliser le mode texte dans les champs personnalisés calculés](#use-text-mode-in-calculated-custom-fields) dans cet article.
@@ -42,7 +42,7 @@ Vous pouvez utiliser le mode texte lorsque vous souhaitez obtenir les résultats
    * [Utiliser le mode texte dans les filtres](#use-text-mode-in-filters)
    * [Utiliser le mode texte dans les regroupements](#use-text-mode-in-groupings)
 
-* Créez des invites personnalisées. Vous ne pouvez créer des invites personnalisées qu&#39;en mode texte.
+* Créez des invites personnalisées. Vous ne pouvez créer des invites personnalisées qu’en mode Texte.
 
   Pour plus d’informations sur la création d’invites personnalisées, voir [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
@@ -50,9 +50,9 @@ Vous pouvez utiliser le mode texte lorsque vous souhaitez obtenir les résultats
 
 Vous pouvez utiliser le mode texte pour ajouter un champ personnalisé calculé à un formulaire personnalisé.
 
-Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d&#39;informations sur l&#39;ajout d&#39;un champ personnalisé calculé à un formulaire personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Pour plus d’informations sur la création d’un champ personnalisé calculé en mode texte, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour plus d&#39;informations sur la création d&#39;un champ personnalisé calculé en mode texte, voir [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Par exemple, vous pouvez ajouter un champ personnalisé calculé qui affiche la date et l’heure du moment où un élément a été marqué comme En cours. Vous pouvez utiliser ce calcul pour d’autres statuts.
 

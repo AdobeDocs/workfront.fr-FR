@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : afficher les tâches parents jusqu''à 4 niveaux de profondeur'
 description: Cette vue tâche affiche le nom de la tâche dans la première colonne et (le cas échéant) jusqu’à quatre tâches parent dans des colonnes distinctes de la même liste.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -31,7 +31,7 @@ Cette vue tâche affiche le nom de la tâche dans la première colonne et (le ca
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

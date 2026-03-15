@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Créer des instructions « OR » dans les filtres en mode texte
 description: Vous pouvez inclure plusieurs instructions lorsque vous créez un filtre dans des listes et des rapports.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 91%
@@ -28,7 +28,7 @@ Pour plus d’informations sur les opérateurs de filtre Adobe Workfront dans l
 
 Workfront comporte deux opérateurs de filtre qui connectent chaque instruction de filtre :
 
-* **AND** : lorsque vous joignez 2 instructions de filtre par l’opérateur AND, vous indiquez que vous souhaitez que les deux instructions de filtre soient remplies en même temps.
+* **AND** : lorsque vous joignez 2 instructions de filtre par l&#39;opérateur AND, vous indiquez que vous souhaitez que les deux instructions de filtre soient satisfaites en même temps.
 
   Par défaut, les instructions d’un filtre sont jointes par l’opérateur AND.
 

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Modifier la largeur et l’ordre des colonnes
 description: Consultez cet article pour en savoir plus sur les directives relatives à la largeur des colonnes et sur la manière de modifier la largeur et l’ordre des colonnes dans Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -45,13 +45,13 @@ Vous trouverez ci-dessous des directives sur le fonctionnement des largeurs de c
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</strong></td> 
    <td> 
-    <p>Contributeur ou version ultérieure</p>
+    <p>Contributeur ou supérieur</p>
     <p>Requête ou supérieure</p>
    </td>
   </tr> 

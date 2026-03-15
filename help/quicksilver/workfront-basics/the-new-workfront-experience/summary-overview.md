@@ -3,9 +3,9 @@ content-type: overview
 title: Vue d’ensemble du résumé
 description: Vous pouvez utiliser le panneau Résumé pour réviser et mettre à jour les informations d’élément de travail directement à partir d’une liste de tâches, d’événements, de documents ou d’autres zones d [!DNL Adobe Workfront] qui affichent des tâches et des événements.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 83%

@@ -6,12 +6,12 @@ title: Configurer l’intégration de JumpSeat
 description: Vous pouvez intégrer  [!DNL JumpSeat]  à  [!DNL Workfront]  pour créer des conseils personnalisés sur le produit.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-author: Nolan, Becky
+author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez intégrer [!DNL JumpSeat] à [!DNL Workfront] pour créer des consei
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
     <p>Workflow Ultimate</p>
    <td> <p>Prime ou Ultimate</p>
@@ -90,7 +90,7 @@ Pour configurer l’intégration de [!DNL JumpSeat] :
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 

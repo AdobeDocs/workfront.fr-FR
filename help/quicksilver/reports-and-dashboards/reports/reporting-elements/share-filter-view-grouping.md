@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Partager un filtre, une vue ou un regroupement
 description: Vous pouvez partager des filtres, des vues et des regroupements auxquels vous avez accès avec d’autres utilisateurs et utilisatrices.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,13 +43,13 @@ Pour plus d’informations sur la création d’un filtre, d’une vue ou d’un
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</strong></td> 
    <td> 
-    <p>Contributeur ou version ultérieure</p>
+    <p>Contributeur ou supérieur</p>
     <p>Requête ou supérieure</p>
    </td>
   </tr> 

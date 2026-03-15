@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Répondre aux notifications par e-mail
 description: Vous pouvez répondre aux notifications par e-mail Workfront générées à partir des commentaires publiés sur des projets, tâches, problèmes et autres objets afin d’ajouter des réponses aux commentaires d’origine créés dans l’application Adobe Workfront.
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '555'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -51,14 +51,14 @@ Vous pouvez répondre à un e-mail Workfront généré à partir de commentaires
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> <p>Pour les événements et les documents :</p>
 
-<ul><li><p>Contributeur ou version ultérieure</p></li>
+<ul><li><p>Contributeur ou supérieur</p></li>
    <li><p>Requête ou supérieure</p></li></ul>
 
 <p>Pour tous les autres objets :</p>

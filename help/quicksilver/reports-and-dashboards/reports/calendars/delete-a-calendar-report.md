@@ -1,15 +1,15 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Suppression d’un rapport de calendrier
+title: Supprimer un rapport de calendrier
 description: Vous pouvez supprimer un calendrier que vous possédez ou que d’autres personnes ont partagé avec vous. Une fois supprimé, le calendrier devient inaccessible pour les personnes avec lesquelles vous l’avez partagé.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -30,7 +30,7 @@ Vous ne pouvez pas supprimer votre calendrier par défaut, sauf si vous disposez
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Accédez au calendrier que vous souhaitez supprimer.
 1. Cliquez sur le menu **Plus** en regard du menu déroulant Calendrier.
-   ![menu calendrier plus](assets/more-menu-calendar.png)
+   ![menu Calendrier plus](assets/more-menu-calendar.png)
 
 1. Sélectionnez **[!UICONTROL Supprimer]** dans la liste déroulante.
 1. Cliquez sur **[!UICONTROL Supprimer]**.

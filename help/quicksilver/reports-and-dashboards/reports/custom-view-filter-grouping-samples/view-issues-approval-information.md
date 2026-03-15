@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : Événements contenant des informations d''approbation'
 description: La vue suivante d’un problème montre le processus d’approbation, l'étape, les noms des approbateurs et approbatrices, et le statut du problème avant que l’approbation ne soit accordée. Certains de ces champs ne sont pas accessibles via le constructeur d’interface standard.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4e123844-a0d6-474b-87fb-d30ed391ad07
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -31,7 +31,7 @@ La vue suivante d’un problème montre le processus d’approbation, l&#39;éta
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

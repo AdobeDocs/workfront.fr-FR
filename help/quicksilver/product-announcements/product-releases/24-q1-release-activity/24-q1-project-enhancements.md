@@ -1,11 +1,11 @@
 ---
 title: Améliorations apportées aux projets au premier trimestre 2024
 description: Améliorations apportées aux projets au premier trimestre 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 90%
@@ -22,9 +22,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version préliminaire : 21 décembre 2023 ; Production pour une version rapide : avec la version 24.3 (mars 2024).
+>Version d’aperçu : 21 décembre 2023 ; version de production rapide : avec la version 24.3 (mars 2024).
 >
->_Cette fonctionnalité a été supprimée de la version d’aperçu et de la version rapide de production._
+>_Cette fonctionnalité a été supprimée de l&#39;aperçu et de la version rapide de la production._
 
 Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.
 

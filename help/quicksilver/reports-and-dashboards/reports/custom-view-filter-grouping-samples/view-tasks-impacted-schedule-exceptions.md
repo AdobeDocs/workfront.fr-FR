@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Afficher : tâches affectées par les exceptions de planification'
+title: 'Voir : Tâches affectées par les exceptions de planification'
 description: Cette vue de tâches identifie les tâches qui devront être terminées en retard en raison des week-ends, de congés ou d’autres exceptions de planification.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -27,7 +27,7 @@ Cette vue affiche les éléments suivants :
 * Durée des tâches en fonction du nombre de jours entre la date de début prévue et la date d’achèvement prévue des tâches (durée du calendrier).
 * Numéro du jour dans le planning du projet lors du début de la tâche (date de début du calendrier).
 * Durée en jours ouvrés de la tâche en fonction du nombre de jours ouvrés entre la date de début prévue et la date d’achèvement prévue des tâches (durée en jour ouvrés).
-* Si la durée en jours de la semaine est supérieure à la durée des tâches, ce qui suggère qu&#39;il existe des jours d&#39;exception dans la durée des tâches, les tâches sont marquées comme « Exception ».\
+* Si la durée des jours de la semaine est supérieure à la durée des tâches, ce qui suggère qu&#39;il existe des jours d&#39;exception dans la durée des tâches, les tâches sont marquées comme « Exception ».\
   ![tasks_with_calendar_exceptions.png](assets/tasks-with-calendar-exceptions-350x51.png)
 
 ## Conditions d’accès
@@ -39,7 +39,7 @@ Cette vue affiche les éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -69,8 +69,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Accédez à une liste de tâches.
 1. Dans le menu déroulant **Affichage**, sélectionnez **Nouvel affichage**.
 1. Dans la zone **Prévisualisation de la colonne**, éliminez toutes les colonnes sauf une.
-1. Cliquez sur l’en-tête de la colonne restante, puis sur **Passer en mode Texte** > **Modifier le mode Texte**.
-1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
+1. Cliquez sur l&#39;en-tête de la colonne restante, puis cliquez sur **Passer en mode Texte** > **Modifier le mode Texte**.
+1. Supprimez le texte que vous trouvez dans la zone **Mode Modifier le texte** et remplacez-le par le code suivant :
 
    ```
    column.0.descriptionkey=name

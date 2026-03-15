@@ -4,13 +4,13 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : projet avec tous les utilisateurs et rôles de l''équipe du projet'
 description: Cette vue du projet présente une liste de personnes et de fonctions affectées à l’équipe de projet.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 84a1e065-992e-4aa5-81ba-e699ac704837
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -35,7 +35,7 @@ Cette vue du projet présente une liste de personnes et de fonctions affectées 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

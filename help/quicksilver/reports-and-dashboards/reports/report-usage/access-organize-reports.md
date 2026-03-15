@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: report-usage
 title: Accéder aux rapports et organiser les rapports
 description: Vous pouvez utiliser des rapports dans Adobe Workfront pour consulter ou modifier des informations sur les objets du système. Vous pouvez créer vos propres rapports, les organiser et afficher ceux qui ont été partagés avec vous ou partagés publiquement.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez utiliser des rapports dans Adobe Workfront pour consulter ou modifi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

@@ -4,13 +4,13 @@ product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : Calculer le coût des heures supplémentaires dans une vue Feuille de temps'
 description: Les heures supplémentaires ne sont pas calculées par défaut dans Adobe Workfront, mais vous pouvez créer un rapport de feuille de temps qui les calcule.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -38,7 +38,7 @@ Pour plus d’informations sur l’association de personnes à des taux de coût
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

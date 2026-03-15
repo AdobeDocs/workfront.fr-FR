@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Vue : URL externe utilisant le champ de données personnalisé'
 description: Vous pouvez afficher un lien vers une URL personnalisée interne à l’aide d’un champ personnalisé calculé nommé « URL personnalisée » dans une vue de tâche.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ En suivant les mêmes étapes, vous pouvez créer des champs personnalisés et d
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

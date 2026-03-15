@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Copier un tableau de bord
 description: Vous pouvez copier un tableau de bord et tout son contenu (rapports, calendriers et pages externes). Lorsque vous copiez le contenu d’un tableau de bord, vous pouvez choisir de le conserver tel qu’il apparaît dans le tableau de bord d’origine ou de créer de nouveaux éléments qui sont des copies de ceux du tableau de bord d’origine. Vous pouvez également choisir de ne pas transférer ni copier d’éléments dans le nouveau tableau de bord.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 98%
@@ -28,7 +28,7 @@ Vous pouvez copier un tableau de bord et tout son contenu (rapports, calendriers
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

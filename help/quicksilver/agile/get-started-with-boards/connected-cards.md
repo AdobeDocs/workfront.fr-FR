@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Utilisation de cartes connectées sur les panoramas
 description: Vous pouvez ajouter sur votre panorama une carte qui est connectée à des tâches et problèmes existants dans Workfront.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 6e136bed16c2b20f05267ac181dcc462b1a2aed4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 89%
@@ -49,7 +49,7 @@ Pour synchroniser les cartes connectées avec Workfront, cliquez sur le menu **[
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

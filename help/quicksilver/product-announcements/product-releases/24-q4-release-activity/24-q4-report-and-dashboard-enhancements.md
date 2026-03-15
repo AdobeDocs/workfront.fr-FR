@@ -1,14 +1,14 @@
 ---
 title: Améliorations du rapport et du tableau de bord pour le quatrième trimestre de 2024
 description: Améliorations du rapport et du tableau de bord pour le quatrième trimestre de 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4b7b926-f747-4aee-b983-fe6b5f2e0dfd
-source-git-commit: 1f33ef44b8e5d703c5407cdd2fc8ca24fba48bb1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -22,7 +22,7 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 
 >[!NOTE]
 >
->Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)
+>Version de production pour l’ensemble des clientes et clients : avec la version 24.10 (vendredi 17 octobre 2024)
 >
 >_Disponible uniquement pour les organisations disposant de l’un des nouveaux plans Adobe Workfront. Data Connect est inclus dans le plan Ultimate et pourra être acheté en tant que module complémentaire des plans Prime et Select au cours du premier semestre 2025._
 

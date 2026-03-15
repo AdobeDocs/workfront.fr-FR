@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Utiliser des indicateurs sur les histoires sur le tableau kanban
 description: Sur le panorama  [!DNL Kanban] , les indicateurs fournissent une indication visuelle du moment où une histoire est prête à passer au statut suivant. Cela permet aux équipes Kanban d’utiliser une approche « pull » plutôt qu’une approche « push » lors du déplacement des histoires d’un statut à l’autre.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -37,7 +37,7 @@ Tenez compte des points suivants lorsque vous utilisez des indicateurs sur des h
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

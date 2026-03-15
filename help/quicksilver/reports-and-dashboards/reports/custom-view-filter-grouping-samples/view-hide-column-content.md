@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Afficher : masquer le contenu d’une colonne'
+title: 'View: Hide the Content of a Column'
 description: Vous pouvez masquer les informations dans la colonne d’une vue. Pour ce faire, modifiez le mode texte de la colonne.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 76%
@@ -35,7 +35,7 @@ Vous pouvez masquer les informations dans la colonne d’une vue. Pour ce faire,
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -84,8 +84,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Les modifications importantes apportées à ce code pour masquer la colonne sont les suivantes :
 
-   * `displayname=` : cette ligne doit être vide.
-   * `valuefield=` : cette ligne doit être remplacée par `value=`, qui doit être vide.
-   * `width=` : selon le champ, la valeur doit être **0** ou **1**.
+   * `displayname=`: This line must be blank.
+   * `valuefield=`: This line must be replaced by `value=`, which must be blank.
+   * `width=`: Depending on the field, this must have a value of **0** or **1**.
 
 1. Cliquez sur **Terminé**, puis sur **Enregistrer la vue**.

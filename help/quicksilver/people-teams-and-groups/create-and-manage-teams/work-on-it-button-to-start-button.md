@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Remplacer le bouton « Travailler sur ce projet » par un bouton « Démarrer »
 description: La configuration par défaut d’Adobe Workfront comprend un bouton Travailler sur ce projet pour les tâches et les problèmes qui s’affiche pour les éléments qui vous ont été attribués.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 96%
@@ -32,7 +32,7 @@ Vous pouvez remplacer le bouton [!DNL Work On It] par un bouton [!UICONTROL Dém
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 

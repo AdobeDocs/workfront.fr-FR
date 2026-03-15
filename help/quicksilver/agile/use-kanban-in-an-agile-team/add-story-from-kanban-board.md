@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: Ajouter des histoires et des événements à partir du tableau Kanban
+title: Ajouter des articles et des problèmes à partir du tableau Kanban
 description: Vous pouvez rapidement créer une histoire ou un problème directement à partir du tableau Kanban.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez créer rapidement une histoire ou un problème directement à partir
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Vous pouvez créer rapidement une histoire ou un problème directement à partir
   </tr>
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Gérer l’accès à la tâche ou à l’événement </td> 
+   <td>Gérer l’accès à la tâche ou au problème </td> 
   </tr> 
  </tbody> 
 </table>

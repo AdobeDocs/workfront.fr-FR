@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Créer des regroupements dans Adobe Workfront
 description: Vous pouvez créer un regroupement personnalisé à partir de zéro ou personnaliser un regroupement existant.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 91%
@@ -32,7 +32,7 @@ Vous pouvez créer un regroupement personnalisé à partir de zéro ou personnal
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

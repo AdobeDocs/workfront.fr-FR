@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 'Exemple de champ personnalisé calculé : afficher la date et l’heure d’un statut dans un formulaire personnalisé'
 description: Le champ calculé suivant affiche la date à laquelle l'état de l'objet est marqué comme étant En cours (INP). Vous pouvez utiliser les mêmes informations des champs personnalisés calculés pour les problèmes, les tâches ou les projets.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ Le champ calculé suivant affiche la date à laquelle l&#39;état de l&#39;objet
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Package Adobe Workfront</p> </td> 
+   <td> <p>Package Adobe Workfront</p> </td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

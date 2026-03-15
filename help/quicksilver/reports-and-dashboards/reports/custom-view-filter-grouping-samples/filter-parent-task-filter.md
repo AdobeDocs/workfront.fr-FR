@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtre : afficher les tâches parents'
 description: Vous pouvez appliquer les filtres de tâches ci-dessous pour afficher les tâches opérationnelles. Les tâches opérationnelles sont des tâches qui peuvent être accomplies de manière indépendante et qui ne sont pas des tâches parents d’autres tâches. Dans un exemple, un filtre identifie les tâches enfants qui pourraient être elles-mêmes des parents. Dans ce cas, il ne s’agit pas de tâches opérationnelles.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 63%
@@ -35,7 +35,7 @@ Vous pouvez appliquer les filtres de tâches ci-dessous pour afficher les tâche
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -61,22 +61,22 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Afficher les tâches sans enfants (elles peuvent avoir un parent)
 
-Vous pouvez appliquer le filtre suivant à un rapport de tâches pour afficher les tâches sans enfants. Ils pourraient avoir leurs propres parents et être les enfants d&#39;autres tâches.
+Vous pouvez appliquer le filtre suivant à un rapport des tâches pour afficher les tâches sans enfant. Ils pourraient avoir leurs propres parents et être les enfants d&#39;autres tâches.
 
-1. À partir de l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou des lignes **Menu principal** ![Menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, cliquez sur **Rapports**.
+1. Dans l&#39;icône **Menu principal** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit ou dans les **lignes** ![Menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, cliquez sur **Rapports**, si possible.
 
 1. Cliquez sur **Nouveau rapport**.
 1. Sélectionnez un **Rapport de tâche**.
 1. Cliquez sur **Filtres**.
 1. Cliquez sur **Ajouter une règle de filtre**.
-1. Dans la ligne **Commencer à saisir le nom du champ...**, commencez à saisir **Nombre d’enfants**, puis cliquez sur **Tâche >> Nombre d’enfants** lorsqu’elle s’affiche dans la liste.
+1. Dans la ligne **Commencez à saisir le nom du champ ...**, saisissez **Nombre d&#39;enfants**, puis cliquez sur **Tâche >> Nombre d&#39;enfants** lorsqu&#39;il s&#39;affiche dans la liste.
 
 1. Sélectionnez **Égal (sensible à la casse)** pour votre modificateur, puis saisissez **0** pour le nombre d’enfants.\
    ![Filtre de tâche parent](assets/parent-task-filter-from-the-ui-350x76.png)
 
    Ou
 
-   Cliquez sur **Passer en mode texte**, puis, dans la fenêtre d’édition de texte, copiez et collez le texte suivant :
+   Cliquez sur **Passer en mode Texte**, puis dans la fenêtre d&#39;édition de texte, copiez et collez le texte suivant
 
    ```
    numberOfChildren=0
@@ -92,16 +92,16 @@ Vous pouvez appliquer le filtre suivant à un rapport de tâches pour afficher l
 
 Vous pouvez appliquer le filtre suivant à un rapport de tâche pour afficher les tâches avec des parents, ce qui signifie qu’il s’agit de tâches enfants. Toutefois, ces tâches peuvent également avoir des enfants, car le filtre n’exclut pas leurs enfants. Les tâches enfants qui sont également des parents d’autres tâches ne sont pas considérées comme des tâches opérationnelles.
 
-1. À partir de l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou des lignes **Menu principal** ![Menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, cliquez sur **Rapports**.
+1. Dans l&#39;icône **Menu principal** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit ou dans les **lignes** ![Menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, cliquez sur **Rapports**, si possible.
 
 1. Cliquez sur **Nouveau rapport**.
 1. Sélectionnez un **Rapport de tâche**.
 1. Cliquez sur **Filtres**.
 1. Cliquez sur **Ajouter une règle de filtre**.
-1. Sur la ligne **Commencer à saisir le nom du champ...**, commencez à saisir **ID parent**, puis sélectionnez **Tâche >> ID parent** lorsqu’il s’affiche dans la liste.
+1. Dans la ligne **Commencer à saisir le nom du champ ...**, commencez à saisir **Parent ID**, puis sélectionnez **Tâche >> Parent ID** lorsqu’il s’affiche dans la liste.
 1. Sélectionnez **N’est pas vide** pour votre modificateur.
 
-   ![L’ID parent n’est pas vide](assets/filter-parent-id-not-blank-350x100.png)
+   ![L&#39;ID parent n&#39;est pas vide](assets/filter-parent-id-not-blank-350x100.png)
 
    Ou
 
@@ -115,25 +115,25 @@ Vous pouvez appliquer le filtre suivant à un rapport de tâche pour afficher le
 
 ## Afficher les tâches sans enfants ni parents (tâches indépendantes)
 
-Vous pouvez appliquer le filtre suivant à un rapport de tâches pour afficher les tâches de travail autonomes. Ces tâches n&#39;ont pas de parent et n&#39;ont pas d&#39;enfant.
+Vous pouvez appliquer le filtre suivant à un rapport de tâches pour afficher des tâches de travail autonomes. Ces tâches n&#39;ont pas de parent et ils n&#39;ont pas d&#39;enfant.
 
-1. À partir de l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou des lignes **Menu principal** ![Menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, cliquez sur **Rapports**.
+1. Dans l&#39;icône **Menu principal** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit ou dans les **lignes** ![Menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, cliquez sur **Rapports**, si possible.
 
 1. Cliquez sur **Nouveau rapport**.
 1. Sélectionnez un **Rapport de tâche**.
 1. Cliquez sur **Filtres**.
 1. Cliquez sur **Ajouter une règle de filtre**.
-1. Dans la liste **Commencer à saisir le nom du champ...** ligne, commencez à saisir **Nombre d’enfants**, puis sélectionnez **Tâche >> Nombre d’enfants**.
+1. Dans la ligne **Commencer à saisir le nom du champ ...**, commencez à saisir **Nombre d&#39;enfants**, puis sélectionnez **Tâche >> Nombre d&#39;enfants** dans la liste.
 1. Sélectionnez **Égal (sensible à la casse)** pour votre modificateur, puis saisissez **0** pour le nombre d’enfants.
 1. Cliquez sur **Ajouter une autre règle de filtre**.
-1. Dans la ligne **Commencer à saisir le nom du champ...**, commencez à saisir **ID parent**, puis sélectionnez **Tâche >> ID parent** dans la liste.
-1. Sélectionnez **Vide** pour le modificateur.
+1. Dans la ligne **Commencer à saisir le nom du champ ...**, commencez à saisir **ID parent**, puis sélectionnez **Tâche >> ID parent** dans la liste.
+1. Sélectionnez **Est vide** pour le modificateur.
 
    ![L’ID parent est vide et n’a pas d’enfant](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    Ou
 
-   Au lieu des étapes 6 à 10 <!--ensure steps above stay accurate-->, cliquez sur **Passer en mode texte** et dans la fenêtre d’édition de texte, copiez et collez le texte suivant :
+   Au lieu des étapes 6 à 10 <!--ensure steps above stay accurate-->, cliquez sur **Passer en mode Texte** et, dans la fenêtre d&#39;édition de texte, copiez et collez le texte suivant :
 
    ```
    numberOfChildren=0

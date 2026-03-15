@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Créer un rapport de KPI dans un tableau de bord de zones de travail
 description: Un rapport sur les indicateurs de performance clés qui affiche de manière bien visible un indicateur de performance clé agrégé unique peut être ajouté à un tableau de bord de zone de travail.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement uniquement disponible pour les utilisateurs participant à la phase Beta. Certaines parties de la fonction peuvent ne pas être complètes ou ne pas fonctionner comme prévu pendant cette étape. Veuillez soumettre vos commentaires concernant votre expérience en suivant les instructions de la section [Fournir des commentaires](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dans l&#39;article de présentation de la version Beta des tableaux de bord Canvas.<br>
 >Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
@@ -25,9 +25,9 @@ ht-degree: 7%
 >* Azure
 >* Google Cloud Platform
 
-Vous pouvez créer et ajouter un rapport sur les indicateurs de performance clés à un tableau de bord de la zone de travail, qui représente visuellement les données de vos indicateurs clés de performance sous la forme d’un nombre, que vous pouvez ensuite utiliser pour voir comment se portent vos projets et vos équipes.
+Vous pouvez créer et ajouter un rapport d’indicateurs clés de performance à un tableau de bord de zone de travail qui représente visuellement vos données d’indicateurs clés de performance sous forme de nombre, que vous pouvez ensuite utiliser pour voir comment vos projets et vos équipes se comportent.
 
-![Exemple de rapport sur les KPI](assets/kpi-example-main.png)
+![Exemple de rapport d&#39;indicateurs de performance clés](assets/kpi-example-main.png)
 
 ## Conditions d’accès
 
@@ -107,13 +107,13 @@ De nombreuses options de configuration sont disponibles pour créer un rapport s
 
 1. Pour configurer la section **Filtre**, procédez comme suit :
 
-   1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png).
+   1. Dans le panneau de gauche, cliquez sur l&#39;icône **Filtre** ![Icône Filtre](assets/filter-icon.png).
 
    1. Sélectionnez **Modifier le filtre**.
 
-   1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre.
+   1. Cliquez sur **Ajouter une condition**, puis spécifiez le champ par lequel vous souhaitez filtrer et le modificateur qui définit le type de condition que le champ doit remplir.
 
-   1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
+   1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les ensembles est AND. Cliquez sur l’opérateur pour le remplacer par OR.
 
       Pour plus d’informations sur les filtres, voir [Modifier les filtres de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
 
@@ -145,7 +145,7 @@ Pour plus d’informations sur les exemples de rapports d’indicateurs clés de
 
 1. Cliquez sur **Nouveau tableau de bord** dans le coin supérieur droit.
 
-1. Dans la zone **Créer un tableau de bord**, saisissez les **Nom** et **Description** du tableau de bord.
+1. Dans la zone **Créer un tableau de bord**, entrez le **nom** et la **description** du tableau de bord.
 
 1. Cliquez sur **Créer**.
 
@@ -158,23 +158,23 @@ Pour plus d’informations sur les exemples de rapports d’indicateurs clés de
 1. Pour configurer la section **Détails**, procédez comme suit :
 
    1. Saisissez *En attente* dans le champ **Nom**.
-   1. Saisissez *Approbations en attente* dans le champ **Description**. S’affiche sous la valeur de l’indicateur de performance clé sous forme de légende.
+   1. Saisissez *Approbations en attente* dans le champ **Description**. Cela s’affiche sous la forme d’une légende sous la valeur de l’indicateur de performance clé.
 
-1. Suivez les étapes ci-dessous pour configurer la section **Créer un KPI** :
+1. Suivez les étapes ci-dessous pour configurer la section **Créer un indicateur de performance clé** :
 
-   1. Dans le panneau de gauche, cliquez sur l’icône **Créer un KPI** ![Créer un KPI](assets/build-kpi-icon.png).
+   1. Dans le panneau de gauche, cliquez sur l&#39;icône **Créer un indicateur de performance clé** ![Créer un indicateur de performance clé](assets/build-kpi-icon.png).
 
    1. Cliquez sur **Sélectionner un champ**.
 
-   1. Recherchez et sélectionnez le dossier **Approbation du document**.
+   1. Recherchez et sélectionnez le dossier **Approbation de document**.
 
-   1. Sélectionnez **Statut**.
+   1. Sélectionnez **État**.
 
-   1. Dans le menu déroulant **Type d’agrégation**, sélectionnez **Comptage**.
+   1. Dans la liste déroulante **Type d&#39;agrégation**, sélectionnez **Nombre**.
 
-1. Pour configurer la section **Filtre**, procédez comme suit :
+1. Suivez les étapes ci-dessous pour configurer la section **Filtre** :
 
-   1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png).
+   1. Dans le panneau de gauche, cliquez sur l&#39;icône **Filtre** ![Icône Filtre](assets/filter-icon.png).
 
    1. Sélectionnez **Modifier le filtre**.
 
@@ -191,9 +191,9 @@ Pour plus d’informations sur les exemples de rapports d’indicateurs clés de
 
 Les utilisateurs disposant d’un accès en affichage ou en modification aux données financières dans leur niveau d’accès verront toujours les données financières dans les visualisations du tableau de bord de la zone de travail, même si l’autorisation Afficher les données financières est supprimée au niveau de la tâche ou du projet.
 
-* Les utilisateurs ne disposant pas de droits d’accès aux données financières ne verront pas les données financières dans les rapports.
-* Les utilisateurs qui ne voient pas les données financières sont limités aux enregistrements qu&#39;ils sont déjà autorisés à afficher (projets, tâches, événements, etc.). Ils ne verront pas les valeurs financières des documents auxquels ils ne peuvent pas accéder.
-* Les créateurs de rapports doivent faire preuve de prudence lors de l’inclusion de données financières dans les tableaux de bord et garder à l’esprit les personnes avec lesquelles ils partagent les tableaux de bord afin d’éviter tout accès involontaire.
+* Les personnes ne disposant pas de droits d’accès aux données financières ne verront pas les données financières dans les rapports.
+* Les personnes qui ne voient pas les données financières sont limitées aux documents qu’elles sont déjà autorisées à consulter (projets, tâches, problèmes, etc.). Elles ne verront pas les valeurs financières des documents auxquels elles ne peuvent pas accéder.
+* Les personnes à l’origine des rapports doivent faire preuve de prudence lors de l’inclusion de données financières dans les tableaux de bord et bien vérifier avec qui elles partagent les tableaux de bord afin d’éviter tout accès involontaire.
 
 Il s’agit d’une limite connue et nous prévoyons d’y remédier dès que possible.
 

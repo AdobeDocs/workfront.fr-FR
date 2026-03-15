@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Classer les histoires par couleur sur le scrum board
+title: Classer les histoires par couleur sur le tableau de mêlée
 description: L’association des couleurs par défaut des histoires du panorama Scrum varie selon que le panorama se trouve sur une itération ou sur un projet.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 67%
@@ -19,9 +19,9 @@ ht-degree: 67%
 
 L’association des couleurs par défaut des histoires varie selon que le panorama de l’histoire se trouve sur une itération ou sur un projet :
 
-* **[!UICONTROL Itération]** : lors d’une itération, les mosaïques du panorama d’histoires sont codées par couleur en fonction du projet auquel l’histoire est associée. (Une couleur est arbitrairement attribuée à chaque projet sur le storyboard.) Vous pouvez modifier ce comportement par défaut pour chaque équipe Agile. Les couleurs des histoires agiles sur une itération peuvent être liées au projet (par défaut), à la priorité de l’histoire, au propriétaire ou à la forme libre. Pour plus d’informations, consultez [Configuration de l’utilisation des indicateurs de couleurs pour les articles sur le storyboard agile](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) dans l’article [Configuration de Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+* **[!UICONTROL Itération]** : lors d’une itération, les mosaïques du panorama d’histoires sont codées par couleur en fonction du projet auquel l’histoire est associée. (Une couleur est attribuée arbitrairement à chaque projet sur le scénarimage.) Vous pouvez modifier ce comportement par défaut pour chaque équipe Agile. Les couleurs des articles Agiles sur une itération peuvent être liées au projet (par défaut), à la priorité de l’article, au propriétaire ou à la forme libre. Pour plus d&#39;informations, consultez [Configurer l&#39;utilisation des indicateurs de couleur pour les articles sur le scénarimage Agile](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) dans l&#39;article [Configurer Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-* **[!UICONTROL Projet]** : sur un projet, toutes les sous-tâches correspondent à la couleur de la tâche parent, de sorte que les couleurs de toutes les histoires d’un couloir donné sont les mêmes. Les couleurs sont affectées de manière aléatoire aux tâches au moment de leur création si la tâche ne comporte aucune sous-tâche ou n’a pas de tâche parent. Vous pouvez modifier ce comportement par défaut en changeant la vue Agile. Les couleurs des histoires agiles d’un projet peuvent être liées à l’histoire parent (par défaut), à la priorité de l’histoire, au propriétaire ou à la forme libre. Pour plus d’informations, voir la section [Créer ou personnaliser une vue [!UICONTROL Agile]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) dans [Vue d’ensemble des vues dans  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **[!UICONTROL Projet]** : sur un projet, toutes les sous-tâches correspondent à la couleur de la tâche parent, de sorte que les couleurs de toutes les histoires d’un couloir donné sont les mêmes. Les couleurs sont affectées de manière aléatoire aux tâches au moment de leur création si la tâche ne comporte aucune sous-tâche ou n’a pas de tâche parent. Vous pouvez modifier ce comportement par défaut en modifiant la vue Agile. Les couleurs des articles Agiles d’un projet peuvent être liées à l’article parent (par défaut), à la priorité de l’article, au propriétaire ou à la forme libre. Pour plus d’informations, voir la section [Créer ou personnaliser une vue [!UICONTROL Agile]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) dans [Vue d’ensemble des vues dans  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Conditions d’accès
 
@@ -50,7 +50,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Changer la couleur des histoires lors de l’utilisation d’un formulaire libre
 
-Si les paramètres de l’équipe Agile ont été configurés de sorte que l’option [!UICONTROL &#x200B; Associer la couleur de la carte à &#x200B;] soit définie sur [!UICONTROL Structure libre], les utilisateurs peuvent modifier manuellement la couleur de mosaïques d’histoires individuelles. Cela peut se révéler utile pour communiquer d’autres types d’informations importantes pour l’équipe ou l’organisation :
+Si les paramètres de l&#39;équipe Agile ont été configurés de sorte que l&#39;option [!UICONTROL Associer la couleur de la carte à] soit définie sur [!UICONTROL Forme libre], les utilisateurs peuvent modifier manuellement la couleur des vignettes d&#39;article individuelles. Cela peut se révéler utile pour communiquer d’autres types d’informations importantes pour l’équipe ou l’organisation :
 
 {{step1-to-team}}
 
@@ -59,8 +59,8 @@ Si les paramètres de l’équipe Agile ont été configurés de sorte que l’o
 1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour sélectionner une itération spécifique, ou choisissez **[!UICONTROL Itération actuelle]**.
 1. Pointez sur la bannière de couleur en haut de la mosaïque d’histoires.
 
-   ![carte d’histoire](assets/agile-story-color1-nwe-350x140.png)
+   ![fiche d’article](assets/agile-story-color1-nwe-350x140.png)
 
 1. Cliquez sur **[!UICONTROL Changer de couleur]**, puis sélectionnez la couleur de votre choix.
 
-   ![choisissez la couleur](assets/agile-story-color2-nwe-350x138.png)
+   ![choisir une couleur](assets/agile-story-color2-nwe-350x138.png)

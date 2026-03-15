@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : permet d’afficher la relation parent-enfant dans une tâche en mettant en retrait les tâches'
 description: Vous pouvez maintenir la distinction des relations parent-enfant dans une liste de tâches exportée en ajoutant une vue personnalisée à la liste de tâches et en vous assurant que cette vue est sélectionnée avant d’exporter la liste.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez maintenir la distinction des relations parent-enfant dans une liste 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

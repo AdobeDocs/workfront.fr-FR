@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: manage-reports
-title: 'Gérer les rapports : index des articles'
+title: 'Gérer les rapports : index des articles'
 description: Consultez les articles de cette section.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2ed58b15-098a-4937-86e6-2a8444389c00
-source-git-commit: 7e14f7224b5383f94c330a1543b9e01b651ed821
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 8%
+ht-degree: 60%
 
 ---
 
-# Gérer les rapports : index des articles
+# Gérer les rapports : index des articles
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 Cette section contient les articles suivants :
 
-* [Modification d’un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-* [Modification des filtres de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
-* [Duplication d’un rapport dans un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
-* [Suppression d’un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
+* [Modifier un rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+* [Modifier les filtres de rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+* [Dupliquer un rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
+* [Supprimer un rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)

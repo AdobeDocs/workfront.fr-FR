@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Créer un rapport de matrice
 description: Les rapports de matrice présentent des informations récapitulatives sous la forme d’un tableau agrégé, ce qui facilite l’affichage par rapport à si elles étaient affichées dans une liste comme dans un rapport traditionnel.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 98%
@@ -30,7 +30,7 @@ Par exemple, vous souhaitez créer un rapport sur les heures qui affiche les heu
 Les informations du rapport de matrice sont toujours affichées sous forme de valeur numérique. Dans la plupart des cas, les colonnes contenant une valeur numérique sont mieux adaptées à l’affichage dans un rapport de matrice (heures consignées et coût réel, par exemple).
 
 Cependant, d’autres colonnes (comme Statut) peuvent toujours être affichées dans le rapport de matrice, comme illustré dans le graphique suivant :\
-![Statut de la matrice](assets/report-matrix-status-350x73.png)
+![État de la matrice](assets/report-matrix-status-350x73.png)
 
 ## Conditions d’accès
 
@@ -41,7 +41,7 @@ Cependant, d’autres colonnes (comme Statut) peuvent toujours être affichées 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    1. Dans la section **Regroupements de colonnes**, identifiez le regroupement des colonnes, qui permet de définir les regroupements verticaux du tableau.
    1. (Facultatif) Pour ajouter un regroupement de colonnes supplémentaire, cliquez sur **Ajouter un regroupement de colonnes secondaire**.
    1. (Le cas échéant) Si vous ajoutez un regroupement par date, indiquez également si les résultats sont regroupés par jour, semaine, mois, trimestre ou année.\
-      ![Regroupement par options de date](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
+      ![Options de regroupement par date](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
    1. (Le cas échéant) Si vous avez choisi de regrouper par date et d’afficher les résultats par trimestre, indiquez par exemple si vous souhaitez afficher les trimestres sans données en sélectionnant la case à cocher **Afficher les trimestres sans résultat**.\
       ![Afficher les trimestres sans résultats](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
@@ -126,8 +126,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      >   * Les champs de données personnalisées de valeurs numériques et de devise regroupent toutes les tâches : parents, enfants, parents de parents et tâches autonomes. Si vous avez créé le rapport de matrice pour afficher le nombre d’heures prévues ou les heures effectives dans la colonne **Valeur**, sachez que les informations sur les heures ou les coûts de tout objet parent (telles que les tâches parent) ne sont pas affichées dans le rapport de matrice. Pour afficher les heures sur les objets parent, vous devez afficher l’onglet **Détails**.
      >   
      >   
-     >**Règles conditionnelles :** configurez toute règle de mise en forme pour les valeurs qui sont agrégées.\
+     >
 
+   **Règles conditionnelles :** configurez toute règle de mise en forme pour les valeurs qui sont agrégées.\
    Après avoir ajouté une règle, vous pouvez définir des styles de champ et de texte définissant le mode d’affichage des champs correspondant à cette règle. Après avoir défini la règle, cliquez sur **Ajouter une règle**, puis sur **Terminé** pour l’enregistrer.
 
 1. Cliquez sur l’onglet **Filtres** pour définir les informations qui s’afficheront dans le rapport.

@@ -1,14 +1,14 @@
 ---
 title: Rapport sur la zone Mises à jour avec un rapport d'entrée de journal
 description: Le rapport Entrée du journal présente les mises à jour du système à partir de la zone Mises à jour des projets, tâches, problèmes et autres objets qui n’étaient auparavant disponibles que par le biais de l’API Adobe Workfront. Bien qu’il s’agisse d’un rapport avancé destiné à des cas d’utilisation spécifiques, le format plus digeste vous permet de créer plus facilement un rapport sur l’activité du projet et des mises à jour du système dans Workfront.
-author: Nolan
+author: Courtney
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2763'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ Le rapport Entrée du journal peut afficher les éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -190,7 +190,7 @@ Ces informations peuvent servir à faciliter les audits et illustrer la qualité
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Modifié par Nom</p> </td> 
-      <td> <p>Le nom de l’utilisateur ou de l’utilisatrice qui a modifié le statut.</p> </td> 
+      <td> <p>Le nom de l’utilisateur ou de l’utilisatrice qui a mis à jour le statut.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Date d’entrée</p> </td> 
@@ -275,7 +275,7 @@ Vous pouvez configurer le rapport d’entrée du journal de manière à ce qu’
 
 Pour savoir quand la suppression d’une tâche ou d’un problème est survenue :
 
-1. Cliquez sur l’icône du **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône du **[!UICONTROL Menu principal]** ![&#x200B; Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône du **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône du **[!UICONTROL Menu principal]** ![ Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![Sélectionner une entrée de journal](assets/nwe-select-journal-entry-350x273.png)

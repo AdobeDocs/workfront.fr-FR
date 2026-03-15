@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Regroupement : organise les résultats de la liste selon une valeur calculée commune à tous les objets du regroupement.'
 description: Vous pouvez afficher vos tâches groupées par « Pourcentage d’achèvement » dans des fourchettes de 0 à 25, 26 à 50, 51 à 75, 75 à 99 et 100. Pour ce faire, vous pouvez créer un regroupement en mode texte.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez afficher vos tâches groupées par « Pourcentage d’achèvement 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

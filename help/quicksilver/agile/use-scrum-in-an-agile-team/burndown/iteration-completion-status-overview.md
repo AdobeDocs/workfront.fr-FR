@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Aperçu du statut d'achèvement de l'itération
 description: Les informations d’achèvement décrites dans cet article s’affichent au-dessus du graphique d’avancement.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 84%

@@ -4,13 +4,13 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: Commencer avec les tableaux de bord
 description: Le tableau de bord permet d’accéder rapidement aux informations. Dans des rapports, vous pouvez rassembler des informations puis les organiser dans des tableaux de bord pour en faciliter l’accès.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -30,13 +30,13 @@ Le tableau de bord permet d’accéder rapidement aux informations issues de plu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-      <p>Contributeur ou version ultérieure</p>
+      <p>Contributeur ou supérieur</p>
       <p>Révision ou supérieur</p>
    </td> 
   </tr> 

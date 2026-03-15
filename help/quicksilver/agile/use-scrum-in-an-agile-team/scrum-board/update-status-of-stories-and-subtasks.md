@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Mettre à jour le statut des histoires et des sous-tâches sur le scrum board
-description: Vous pouvez modifier le statut d’une histoire directement à partir du storyboard agile afin de refléter la progression des histoires tout au long de l’itération ou du projet.
-author: Jenny
+title: Mettre à jour le statut des articles et des tâches subordonnées sur le tableau de défilement
+description: Vous pouvez modifier l’état d’un article directement à partir du panneau Article agile pour refléter la progression des articles dans l’itération ou le projet.
+author: Courtney
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 71%
@@ -15,7 +15,7 @@ ht-degree: 71%
 
 # Mettre à jour le statut des histoires et des sous-tâches sur le panorama [!UICONTROL Scrum]
 
-Vous pouvez modifier le statut d’une histoire directement à partir du storyboard agile afin de refléter la progression des histoires tout au long de l’itération ou du projet.
+Vous pouvez modifier l’état d’un article directement à partir du panneau Article agile pour refléter la progression des articles dans l’itération ou le projet.
 
 >[!NOTE]
 >

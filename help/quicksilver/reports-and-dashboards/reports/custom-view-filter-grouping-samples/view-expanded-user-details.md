@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : détails d''utilisateur étendus'
 description: La vue Utilisateur ou utilisatrice affiche des informations sur vos utilisateurs et vos utilisatrices. En plus de leur nom, leur niveaux d’accès et leur entreprise, elle affiche également la liste de leur groupes, équipes et fonctions.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a978b43-4718-43fb-80b8-844b35e09d06
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -31,7 +31,7 @@ La vue Utilisateur ou utilisatrice affiche des informations sur vos utilisateurs
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

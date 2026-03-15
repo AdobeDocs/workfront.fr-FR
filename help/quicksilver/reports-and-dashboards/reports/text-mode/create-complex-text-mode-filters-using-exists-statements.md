@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Créer des filtres de mode Texte complexes à l’aide d’instructions EXISTS
 description: Vous pouvez créer des filtres de mode Texte complexes à l’aide d’instructions EXISTS. Cet article nécessite une compréhension approfondie de l’API Adobe Workfront et de l’interface de création de rapports en mode Texte.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 97%
@@ -97,7 +97,7 @@ Tenez compte des règles suivantes lors de l’utilisation d’instructions EXIS
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

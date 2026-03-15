@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Icônes de statut intégrées dans les vues
 description: Vous pouvez ajouter le champ Icônes de statut intégrées sous forme de colonne dans vos vues afin d’améliorer la visibilité sur les points clés de vos objets.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -52,13 +52,13 @@ Tenez compte des points suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-      <p>Contributeur ou version ultérieure</p>
+      <p>Contributeur ou supérieur</p>
       <p>Requête ou supérieure</p>
    </td>
   </tr>
@@ -94,7 +94,7 @@ Pour ajouter le champ Icônes de statut à une vue personnalisée créée entiè
    * Modèles
    * Frais
    * Documents
-   * Utilisateurs\
+   * Utilisateurs et utilisatrices\
      Seuls ces objets ont le champ **Icônes de statut** de disponible.\
      Pour plus d’informations sur les listes d’objets, voir [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -248,28 +248,28 @@ Vous devez disposer des autorisations à au moins Afficher les objets afin de po
   <tr> 
    <td> <img src="assets/user-belongs-to-company-icon-44x44.png" alt="user_belongs_to_company_icon.png" style="width: 44;height: 44;"> </td> 
    <td>Indique que l’utilisateur ou l’utilisatrice est associé à une société. </td> 
-   <td>Utilisateurs</td> 
+   <td>Utilisateurs et utilisatrices</td> 
    <td>Indisponible</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/user-with-team-icon-40x48.png" alt="user_with_team_icon.png" style="width: 40;height: 48;"> </td> 
    <td>Indique que l’utilisateur ou l’utilisatrice est associé à une équipe.</td> 
-   <td>Utilisateurs</td> 
+   <td>Utilisateurs et utilisatrices</td> 
    <td>Cliquez pour ouvrir le profil utilisateur ou utilisatrice.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/resource-grid-icon-44x46.png" alt="resource_grid_icon.png" style="width: 44;height: 46;"> </td> 
    <td>Raccourci vers l’onglet Affectation de l’utilisateur ou l’utilisatrice. </td> 
-   <td>Utilisateurs</td> 
+   <td>Utilisateurs et utilisatrices</td> 
    <td>Cliquez pour ouvrir l’onglet Affectation de l’utilisateur ou l’utilisatrice et découvrez les éléments de travail qui lui sont affectés.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/screen-shot-2018-07-26-at-2.31.40-pm-44x40.png" alt="Screen_Shot_2018-07-26_at_2.31.40_PM.png" style="width: 44;height: 40;"> </td> 
    <td>Indique que l’utilisateur ou l’utilisatrice se trouve dans un fuseau horaire différent de celui du système.</td> 
-   <td>Utilisateurs</td> 
+   <td>Utilisateurs et utilisatrices</td> 
    <td>Indisponible</td> 
    <td> </td> 
   </tr> 

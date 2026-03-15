@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Filtrer par utilisateur sur le tableau Kanban
 description: Vous pouvez utiliser le filtre sur un panorama Kanban pour voir quels éléments de travail sont associés à d’autres personnes et lesquels sont non affectés.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez utiliser le filtre sur un panorama [!UICONTROL Kanban] pour voir que
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

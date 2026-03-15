@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Envoyer un rapport dans l’environnement de prévisualisation de sandbox
 description: Les informations contenues dans cette page font référence à des fonctionnalités qui ne sont disponibles que dans les environnements de prévisualisation et de sandbox à actualisation personnalisée. Cette fonctionnalité est désormais disponible dans l’environnement de production.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Selon l’endroit où vous planifiez les rapports, la fonctionnalité de diffusi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

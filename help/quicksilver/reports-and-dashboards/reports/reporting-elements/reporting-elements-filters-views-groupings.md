@@ -1,12 +1,12 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: '« Éléments de création de rapports : filtres, vues et regroupements »'
+title: 'Éléments de rapport : filtres, vues et regroupements'
 description: Les éléments principaux que chaque liste et rapport doivent avoir dans Workfront sont un filtre, une vue et un regroupement. Chaque élément fournit des informations différentes dans n’importe quel rapport.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%

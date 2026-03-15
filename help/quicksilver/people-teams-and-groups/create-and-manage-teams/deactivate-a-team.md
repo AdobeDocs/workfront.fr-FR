@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Désactiver ou supprimer une équipe
+title: Désactivation ou suppression d’une équipe
 description: Vous pouvez désactiver les équipes que vous n’utilisez plus tout en conservant les données historiques associées. Les administrateurs et administratrices d’Adobe Workfront peuvent réactiver une équipe à tout moment à partir de la zone Équipes dans Configuration.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 68%
+ht-degree: 70%
 
 ---
 
@@ -40,7 +40,7 @@ Vous pouvez désactiver les équipes que vous n’utilisez plus tout en conserva
  </tbody> 
 </table>
 
-Les équipes désactivées n’apparaissent pas lorsque vous recherchez une équipe, mais s’affichent toujours dans [!UICONTROL &#x200B; Équipe interne &#x200B;] et Autres équipes si l’utilisateur a été affecté à l’équipe avant la désactivation.
+Les équipes désactivées n&#39;apparaissent pas lorsque vous recherchez une équipe, mais s&#39;affichent toujours dans [!UICONTROL Équipe d&#39;accueil] et Autres équipes si l&#39;utilisateur était affecté à l&#39;équipe avant la désactivation.
 
 ## Conditions d’accès
 
@@ -51,7 +51,7 @@ Les équipes désactivées n’apparaissent pas lorsque vous recherchez une équ
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Package Adobe Workfront</p> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -62,7 +62,7 @@ Les équipes désactivées n’apparaissent pas lorsque vous recherchez une équ
   </tr> 
   <tr>
    <td>Configurations des niveaux d’accès</td>
-   <td><p>Pour désactiver une équipe, aucune configuration n'est nécessaire.</p>
+   <td><p>Pour désactiver une association, aucune configuration n’est requise.</p>
    <p>Pour supprimer une équipe, vous devez être administrateur système.</p></td>
   </tr>
  </tbody> 
@@ -89,7 +89,7 @@ Lorsque vous utilisez des files d’attente de demandes, si vous désactivez une
 
    ![](assets/edit-team-settings.png)
 
-1. Désélectionnez la case **[!UICONTROL Est actif]** dans les paramètres de l’équipe.
+1. Désactivez la case à cocher **[!UICONTROL Est actif]** dans les paramètres de l&#39;équipe.
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
 ## Limites connues de la désactivation d’une équipe
@@ -100,7 +100,7 @@ Les équipes désactivées s’affichent dans les zones suivantes :
 
 ## Supprimer une équipe
 
-Seul un administrateur système peut supprimer une équipe. Si vous êtes le propriétaire d&#39;une équipe (mais pas un administrateur) et que vous essayez de supprimer une équipe, un message d&#39;erreur s&#39;affiche.
+Seul un administrateur système peut supprimer une équipe. Si vous êtes le propriétaire d’une équipe (mais pas un administrateur) et que vous tentez de supprimer une équipe, un message d’erreur s’affiche.
 
 Pour supprimer une équipe :
 

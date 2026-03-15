@@ -1,13 +1,13 @@
 ---
 title: Modifier les regroupements existants
 description: Modifier les regroupements existants
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -28,19 +28,19 @@ Vous pouvez personnaliser un regroupement que vous avez créé à l’origine ou
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</strong></td> 
    <td> 
-    <p>Contributeur ou version ultérieure</p>
+    <p>Contributeur ou supérieur</p>
     <p>Requête ou supérieure</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux Rapports, Tableaux de bord et Calendriers pour modifier un regroupement dans un rapport</p>
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un regroupement dans un rapport</p>
    </td> 
   </tr> 
   <tr> 

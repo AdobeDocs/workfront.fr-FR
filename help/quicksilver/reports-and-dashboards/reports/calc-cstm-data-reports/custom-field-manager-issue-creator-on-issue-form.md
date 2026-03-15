@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 'Exemple de champ personnalisé calculé : afficher la personne responsable du créateur ou de la créatrice d’un problème dans le formulaire personnalisé du problème'
 description: À l’aide d’un champ personnalisé calculé, vous pouvez afficher le nom de la personne responsable du créateur ou de la créatrice d’un problème dans un formulaire personnalisé associé au problème. En utilisant la même instruction, vous pouvez créer des champs calculés similaires pour les projets, problèmes et autres objets.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Package Adobe Workfront</p> </td> 
+   <td> <p>Package Adobe Workfront</p> </td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: Utilisation de groupes sur un panorama
 description: Vous pouvez regrouper les cartes sur un panorama par destinataire ou par balise. Lorsque vous sélectionnez une option de regroupement, les cartes apparaissent sous la forme d’un couloir.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -31,13 +31,13 @@ Vous pouvez regrouper les cartes sur un panorama par destinataire ou par balise.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

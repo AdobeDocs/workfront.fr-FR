@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Utiliser des caractères génériques basés sur des dates pour la généralisation des rapports
 description: Vous pouvez généraliser un rapport en utilisant des caractères génériques au lieu d’informations spécifiques lors de la création de certains éléments de rapport.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 92%
@@ -38,7 +38,7 @@ Vous pouvez utiliser des caractères génériques basés sur des dates lors de l
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

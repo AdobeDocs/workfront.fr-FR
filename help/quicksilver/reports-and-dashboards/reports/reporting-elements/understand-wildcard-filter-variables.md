@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Variables de filtrage des caractères génériques
 description: En utilisant des caractères génériques dans des filtres, vous pouvez référencer une personne ou une date générique au lieu d’une personne ou d’une date spécifique. Ainsi, les éléments que vous créez sont dynamiques et les résultats changent en fonction du contexte dans lequel ils sont utilisés.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 100%

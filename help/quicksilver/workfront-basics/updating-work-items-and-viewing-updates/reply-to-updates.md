@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Répondre aux mises à jour
 description: Lorsqu’une personne ajoute ou répond à une mise à jour sur un objet de travail, sa réponse apparaît dans le thread de communication de la section des mises à jour de l’objet. Vous pouvez ajouter une réponse à une mise à jour ou ajouter une mention « J’aime » si vous disposez de l’accès en affichage de l’objet.
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 92%
@@ -65,13 +65,13 @@ Cet article décrit comment répondre aux commentaires de la plupart des objets 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
-   <td> <p>Pour les événements et les documents :</p>
+   <td> <p>Pour les problèmes et les documents :</p>
 
-<ul><li><p>Contributeur ou version ultérieure</p></li>
+<ul><li><p>Contributeur ou supérieur</p></li>
    <li><p>Requête ou supérieure</p></li></ul>
 
 <p>Pour tous les autres objets :</p>
-   <ul><li><p>Léger ou supérieur</p></li>
+   <ul><li><p>Clair ou supérieur</p></li>
    <li><p>Révision ou supérieur</p></li></ul>
 
 </td>  
@@ -82,7 +82,7 @@ Cet article décrit comment répondre aux commentaires de la plupart des objets 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Autorisations d’affichage pour l’objet</p> </td> 
+   <td> <p>Afficher les autorisations associées à l’objet</p> </td> 
   </tr> 
  </tbody> 
    </table>
@@ -131,9 +131,9 @@ La réponse à un commentaire dans la section Mises à jour d’un objet est sim
 
    Ou
 
-   Sélectionnez l’onglet Tous, puis cliquez sur Répondre dans les commentaires pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. **&#x200B;**&#x200B;**&#x200B;** Vous ne pouvez pas répondre dans l’onglet Tous.
+   Sélectionnez l’onglet Tous, puis cliquez sur Répondre dans les commentaires pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. ******** Vous ne pouvez pas répondre dans l’onglet Tous.
 
-1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu Plus dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur Citer la réponse. **&#x200B;**&#x200B;**&#x200B;** Le texte de la mise à jour précédente apparaît dans la zone de saisie, marqué d’une ligne grise verticale.
+1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu Plus dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur Citer la réponse. ******** Le texte de la mise à jour précédente apparaît dans la zone de saisie, marqué d’une ligne grise verticale.
 1. Cliquez sur **Répondre**.
 
    ![Répondre pour mettre à jour la zone vide](assets/reply-to-update-empty-box.png)
@@ -148,7 +148,7 @@ La réponse à un commentaire dans la section Mises à jour d’un objet est sim
 
 1. Cliquez sur **Soumettre** pour enregistrer la réponse.
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit du commentaire auquel vous souhaitez répondre pour accéder à d’autres options de gestion de la réponse. Pour plus d’informations, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit du commentaire auquel vous souhaitez répondre pour obtenir plus d&#39;options pour gérer la réponse. Pour plus d’informations, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

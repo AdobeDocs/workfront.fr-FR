@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: Affecter des utilisateurs à une histoire sur le tableau kanban
-description: Vous pouvez affecter des utilisateurs à des histoires directement sur le tableau kanban.
-author: Jenny
+title: Affecter des utilisateurs à un article sur le tableau Kanban
+description: Vous pouvez affecter des utilisateurs à des articles directement sur le tableau Kanban.
+author: Courtney
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 79%
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 # Affecter des utilisateurs et des utilisatrices à une histoire sur le tableau [!UICONTROL Kanban]
 
-Vous pouvez affecter des utilisateurs à des histoires directement sur le tableau kanban.
+Vous pouvez affecter des utilisateurs à des articles directement sur le tableau Kanban.
 
 ## Conditions d’accès
 
@@ -49,7 +49,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Kanban dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Accédez au panorama Agile [!UICONTROL Kanban] dans lequel vous souhaitez affecter des utilisateurs.
+1. Accédez au tableau [!UICONTROL Kanban] Agile sur lequel vous souhaitez affecter des utilisateurs.
 1. Accédez à la miniature de l’histoire dans le tableau [!UICONTROL Kanban] sur laquelle vous souhaitez ajouter un utilisateur ou une utilisatrice.
 1. Cliquez sur l’avatar de l’équipe sur la miniature de l’histoire (ou sur l’avatar d’une personne déjà affectée), commencez à saisir le nom de la personne à affecter à l’histoire, puis cliquez sur le nom lorsqu’il apparaît. Vous pouvez également choisir une personne suggérée.
 

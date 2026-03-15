@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 'Filtrer : rapport d’approbation d’épreuve pour omettre les versions d’épreuve précédentes'
 description: Dans un rapport d’approbation d’épreuves, vous pouvez utiliser le filtre Est la version actuelle du document pour inclure uniquement les versions actuelles des épreuves en attente d’approbation.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 47%
+ht-degree: 48%
 
 ---
 
@@ -31,7 +31,7 @@ Ceci est utile, par exemple, si l’on vous a demandé d’approuver des épreuv
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

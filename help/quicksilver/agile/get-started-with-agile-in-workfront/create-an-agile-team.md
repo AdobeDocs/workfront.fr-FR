@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: Créer une équipe Agile
 description: Adobe Workfront permet aux équipes Agile d’effectuer le travail de manière incrémentielle et organisée.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 56%
+ht-degree: 57%
 
 ---
 

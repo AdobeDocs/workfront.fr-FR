@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Afficher : permet d’afficher une image au lieu d’une chaîne dans une colonne'
+title: 'Affichage : afficher une image au lieu d’une chaîne dans une colonne'
 description: Vous pouvez remplacer le nom d’un objet dans une vue par une image en mode texte. Vous pouvez également ajouter un lien vers l’image qui permet d’ouvrir l’objet qu’elle remplace.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez remplacer le nom d’un objet dans une vue par une image en mode tex
 >
 >Les images apparaissent dans leur résolution réelle, essayez donc d’utiliser de petites images.
 
-![Remplacer le nom du projet par une image et un lien](assets/replace-project-name-with-image-and-link-350x125.png)
+![Remplacer le nom du projet par l&#39;image et le lien](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Conditions d’accès
 
@@ -35,7 +35,7 @@ Vous pouvez remplacer le nom d’un objet dans une vue par une image en mode tex
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -79,11 +79,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    1. Cliquez avec le bouton droit et sélectionnez **Copier l’emplacement de l’image**, ou **Obtenir le lien**, selon votre navigateur. Vous disposez maintenant de l’URL de cette image spécifique et pouvez la coller dans le presse-papiers.
    1. Assurez-vous que toutes les personnes disposant de ce lien sont autorisées à afficher l’image en accédant simplement au lien et qu’elles n’ont pas besoin de nom d’utilisateur ou d’utilisatrice pour y accéder.
 
-1. Accédez à un projet, cliquez sur le menu **Plus** ![icône Plus](assets/more-icon-45x33.png) en regard du nom du projet, puis cliquez sur **Modifier**.
+1. Accédez à un projet, cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon-45x33.png) en regard du nom du projet, puis cliquez sur **Modifier**.
 
 1. Dans le champ **URL**, ajoutez le lien à l’image.
-1. Accédez à une vue de projet dans une liste de projets.
-1. Cliquez sur le menu déroulant **Affichage**, puis sur **Nouvel affichage**.
+1. Accéder à une vue de projet dans une liste de projets.
+1. Cliquez sur le menu déroulant **Vue**, puis sur **Nouvelle vue**.
 1. Cliquez sur l’en-tête de la colonne pour le **Nom du projet**, puis cliquez sur **Passer en mode Texte**.
 
 1. Ajoutez le code suivant à la colonne au code existant :

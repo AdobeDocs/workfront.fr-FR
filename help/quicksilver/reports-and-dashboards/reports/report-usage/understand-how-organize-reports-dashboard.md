@@ -4,13 +4,13 @@ product-area: reporting;dashboards
 navigation-topic: report-usage
 title: Comprendre l’organisation des rapports sur un tableau de bord
 description: Vous pouvez voir si un rapport est ajouté à un tableau de bord dans Adobe Workfront. Cela peut s’avérer utile lorsque vous décidez quels rapports vous pouvez conserver et lesquels peuvent être supprimés du système. Si les rapports se trouvent sur des tableaux de bord, il se peut que les personnes continuent de s’y fier. Il est recommandé de ne pas supprimer les rapports répertoriés dans les tableaux de bord que les personnes utilisent. Pour plus d’informations sur l’ajout de rapports aux tableaux de bord, voir l’article Ajouter un rapport à un tableau de bord.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,7 @@ Pour plus d’informations sur la création d’un rapport, voir l’article [Cr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Pour créer une vue contenant les informations sur les tableaux de bord pour une liste de rapports :
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur l&#39;icône **Menu principal** ![Icône de menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
 1. Dans la liste des rapports, cliquez sur le menu déroulant **Affichage**.
 1. Cliquez sur **Nouvelle vue**.
 1. Cliquez sur **Ajouter une colonne**.
@@ -87,7 +87,7 @@ Pour créer une vue contenant les informations sur les tableaux de bord pour une
 
 Pour filtrer une liste de rapports par informations sur les tableaux de bord :
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur l&#39;icône **Menu principal** ![Icône de menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
 
 1. Dans la liste des rapports, cliquez sur le menu déroulant **Filtrer**.
 1. Cliquez sur **Nouveau filtre**, puis sur **Ajouter une règle de filtre**.

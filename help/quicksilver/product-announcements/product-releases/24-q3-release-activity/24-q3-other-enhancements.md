@@ -1,11 +1,11 @@
 ---
 title: Autres améliorations au cours de la période de la version du 3e trimestre 2024
 description: Autres améliorations au cours de la période de la version du 3e trimestre 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 83%
@@ -22,16 +22,16 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Production pour tous les clients : par incréments jusqu’à la mi-août 2024
+>Production pour tous les clients : de manière progressive jusqu’à la mi-août 2024
 
-Au cours des prochaines semaines, nous allons mettre en oeuvre un changement technologique pour nos guides intégrés au produit. Bien que nous ayons essayé de minimiser l’impact de cette transition, certains utilisateurs peuvent rencontrer des guides qu’ils ont précédemment vus.
+Nous apporterons un changement technologique à nos guides intégrés au produit au cours des prochaines semaines. Bien que nous ayons essayé de minimiser l’impact de cette transition, certains utilisateurs peuvent rencontrer des guides qu’ils ont déjà vus.
 
 ## Adobe Unified Experience est désormais disponible pour d’autres organisations Workfront.
 
 >[!NOTE]
 >
 >* Adobe Unified Shell va connaître un déploiement par étapes. Des organisations supplémentaires seront intégrées à Adobe Unified Shell avec les versions 24.10 et 25.1.
->* Version d’aperçu : 20 juin 2024 ; version de production pour des clients spécifiés : avec la version 24.7 (18 juillet 2024)
+>* Version préliminaire : 20 juin 2024 ; Version de production pour les clients spécifiés : avec la version 24.7 (18 juillet 2024)
 
 Pour permettre aux organisations d’accéder aux avantages d’Adobe Unified Experience, nous avons commencé à la mettre à la disposition des clientes et des clients Workfront existants.
 
@@ -53,7 +53,7 @@ Pour plus d’informations, voir [Adobe Unified Experience pour Workfront](/he
 
 >[!NOTE]
 >
->Version d’aperçu : 6 juin 2024 ; Production pour tous les clients : avec la version 24.7 (18 juillet 2024)
+>Version préliminaire : 6 juin 2024 ; Production pour tous les clients : avec la version 24.7 (18 juillet 2024)
 
 Pour unifier l’expérience pour les utilisateurs et les utilisatrices qui ne sont pas sur Unified Shell, le bouton Aide de la barre de navigation principale a été supprimé. Ce bouton, qui n’est pas présent pour les utilisateurs et utilisatrices de Unified Shell, redirigeait vers la documentation de Workfront et était redondant avec le bouton d’aide similaire disponible pour toutes les personnes dans le menu principal.
 

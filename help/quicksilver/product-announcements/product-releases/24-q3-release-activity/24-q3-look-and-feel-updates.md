@@ -1,14 +1,14 @@
 ---
 title: Mises à jour de l’apparence et de la convivialité au cours des versions publiées au troisième trimestre 2024
 description: Mises à jour de l’apparence et de la convivialité au cours des versions publiées au troisième trimestre 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 74%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Pour obtenir la liste de toutes les modifications apportées par la version du t
 
 >[!NOTE]
 >
->Version préliminaire : 30 avril 2024 ; Production pour la version rapide : avec la version 24.5 (16 mai 2024) ; Production pour la version trimestrielle : avec la version 24.7 (18 juillet 2024)
+>Version de prévisualisation : mercredi 30 avril 2024. Production pour version rapide : avec la version 24.5 (vendredi 16 mai 2024). Production pour version trimestrielle : avec la version 24.7 (vendredi 18 juillet 2024).
 
 Nous avons mis à jour la liste des suggestions d’affectation avec un design plus moderne et cohérent avec les autres zones de Workfront. Lorsque vous ajoutez une affectation à une tâche ou à un problème depuis l’en-tête, la vue Liste ou l’écran d’affectation avancée, l’expérience est la même. Les suggestions sont divisées en sections afin de vous aider à trouver rapidement la personne, l’équipe ou le rôle approprié pour l’affectation.
 
@@ -34,7 +34,7 @@ Pour plus d’informations, voir [Attribuer des tâches](/help/quicksilver/manag
 
 >[!NOTE]
 >
->Version préliminaire : 29 avril 2024 ; Production pour la version rapide : avec la version 24.5 (16 mai 2024) ; Production pour la version trimestrielle : avec la version 24.7 (18 juillet 2024)
+>Version de prévisualisation : mardi 29 avril 2024. Production pour version rapide : avec la version 24.5 (vendredi 16 mai 2024). Production pour version trimestrielle : avec la version 24.7 (vendredi 18 juillet 2024).
 
 Nous avons mis à jour la page Détails du document  > Formulaires personnalisés avec un design plus moderne et cohérent avec les autres zones de Workfront. La page prend désormais en charge les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe.
 
@@ -44,17 +44,17 @@ Pour plus d’informations, consultez la section [Vue d’ensemble des détails 
 
 >[!NOTE]
 >
->Version préliminaire : 29 avril 2024 ; Production pour la version rapide : avec la version 24.5 (16 mai 2024) ; Production pour la version trimestrielle : avec la version 24.7 (18 juillet 2024)
+>Version de prévisualisation : mardi 29 avril 2024. Production pour version rapide : avec la version 24.5 (vendredi 16 mai 2024). Production pour version trimestrielle : avec la version 24.7 (vendredi 18 juillet 2024).
 
 Nous avons mis à jour la page Détails sur l’itération > Formulaires personnalisés avec un design plus moderne et cohérent avec les autres zones de Workfront. La page prend désormais en charge les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe.
 
-Pour plus d’informations, voir [Créer une histoire agile dans une itération](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
+Pour plus d&#39;informations, voir [Créer un récit agile dans une itération](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
 
 ## Mises à jour de l’apparence pour la zone Groupes
 
 >[!NOTE]
 >
->Version préliminaire : 18 avril 2024 ; Production pour la version rapide : avec la version 24.5 (16 mai 2024) ; Production pour la version trimestrielle : avec la version 24.7 (18 juillet 2024)
+>Version de prévisualisation : vendredi 18 avril 2024. Production pour version rapide : avec la version 24.5 (vendredi 16 mai 2024). Production pour version trimestrielle : avec la version 24.7 (vendredi 18 juillet 2024).
 
 Nous avons mis à jour la liste principale Groupes dans la zone Configuration > Groupes afin de la rendre plus moderne et cohérente avec les autres zones de Workfront. Toutes les boîtes de dialogue des groupes et des sous-groupes (ajout, modification, copie, désactivation, suppression), accessibles dans la liste Groupes ou dans le menu Plus pour un groupe ou un sous-groupe spécifique, font également peau neuve.
 
@@ -64,7 +64,7 @@ Pour plus d’informations, voir [Créer un groupe](/help/quicksilver/administra
 
 >[!NOTE]
 >
->Version préliminaire : 2 avril 2024 ; Production pour la version rapide : avec la version 24.5 (16 mai 2024) ; Production pour la version trimestrielle : avec la version 24.7 (18 juillet 2024)
+>Version de prévisualisation : mercredi 2 avril 2024. Production pour version rapide : avec la version 24.5 (vendredi 16 mai 2024). Production pour version trimestrielle : avec la version 24.7 (vendredi 18 juillet 2024).
 
 Nous avons mis à jour l’écran Taux de change avec un design plus moderne et plus semblable aux autres zones de Workfront.
 
@@ -74,7 +74,7 @@ Pour plus d’informations, voir [Configurer les taux de change](/help/quicksilv
 
 >[!NOTE]
 >
->Version préliminaire : 2 avril 2024 ; Production pour la version rapide : avec la version 24.5 (16 mai 2024) ; Production pour la version trimestrielle : avec la version 24.7 (18 juillet 2024)
+>Version de prévisualisation : mercredi 2 avril 2024. Production pour version rapide : avec la version 24.5 (vendredi 16 mai 2024). Production pour version trimestrielle : avec la version 24.7 (vendredi 18 juillet 2024).
 
 Nous avons mis à jour l’écran Fonctions avec un design plus moderne et plus semblable aux autres zones de Workfront.
 

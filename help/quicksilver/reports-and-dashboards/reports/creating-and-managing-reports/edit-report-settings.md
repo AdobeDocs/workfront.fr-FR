@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Modifier les paramètres des rapports
 description: Vous pouvez modifier les paramètres d’un rapport afin de définir comment il s’affiche pour d’autres personnes ou le type d’informations que les personnes peuvent demander avant d’exécuter le rapport.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez modifier les paramètres d’un rapport afin de définir comment il 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

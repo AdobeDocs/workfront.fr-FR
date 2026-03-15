@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Utiliser la liste de cartes
 description: Vous pouvez créer une liste de cartes sur un flux de travail et ajouter les cartes aux itérations.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -33,13 +33,13 @@ La liste des cartes peut servir de liste d’attente des travaux pour le flux de
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

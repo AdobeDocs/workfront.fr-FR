@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Ajout d’une colonne de saisie à un tableau
 description: Vous pouvez éventuellement ajouter une colonne d’entrée à votre panorama qui extrait automatiquement les tâches et les problèmes en tant que cartes connectées lorsqu’ils sont ajoutés dans Workfront, en fonction des filtres que vous définissez.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 69%
@@ -57,13 +57,13 @@ Pour plus d’informations sur les colonnes, voir [Gérer des colonnes de panora
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 
@@ -87,7 +87,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. (Facultatif) Recherchez et sélectionnez [!UICONTROL **Projets**] [!DNL Workfront].
 1. (Facultatif) Recherchez et sélectionnez des [!UICONTROL **Affectations**] de personne ou d’équipe.
-1. Cliquez sur **Appliquer**. Les objets apparaissent dans la colonne d’entrée du panorama sous la forme de cartes connectées.
+1. Cliquez sur **Appliquer**. Les objets apparaissent dans la colonne d’entrée du panorama sous la forme de cartes connectées.
 
    ![Colonne d’entrée](assets/intake-column-added3.png)
 
@@ -118,7 +118,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    ![Créateur de filtres](assets/intake-filter-dialog6.png)
 
-   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL &#x200B; Nouveau &#x200B;] ou [!UICONTROL &#x200B; En cours &#x200B;].
+   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL  Nouveau ] ou [!UICONTROL  En cours ].
 
    >[!NOTE]
    >
@@ -155,6 +155,6 @@ Les icônes situées en haut à droite de la colonne d’entrée indiquent le no
 
    Ou
 
-   Cliquez sur le menu **[!UICONTROL Plus]** ![icône de menu Plus](assets/more-menu.png) sur la carte, puis sélectionnez **[!UICONTROL Déplacer]**. Ensuite, dans la zone **Déplacer[ÉLÉMENT]**, choisissez une autre colonne et sélectionnez **[!UICONTROL Déplacer]**.
+   Cliquez sur le menu **[!UICONTROL Plus]** ![icône de menu Plus](assets/more-menu.png) sur la carte, puis sélectionnez **[!UICONTROL Déplacer]**. Ensuite, dans la zone **Déplacer [élément]**, choisissez une autre colonne et sélectionnez **[!UICONTROL Déplacer]**.
 
 1. (Facultatif) Pour supprimer la colonne d’entrée, cliquez sur le menu **[!UICONTROL Plus]** ![Icône de menu Plus](assets/more-menu.png), puis sélectionnez **[!UICONTROL Supprimer]**.

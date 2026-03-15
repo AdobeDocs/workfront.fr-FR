@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Supprimer des filtres, des vues et des regroupements
 description: Vous pouvez supprimer un filtre, une vue ou un regroupement des listes et des rapports si vous les avez créés ou s’ils ont été partagés avec vous. Vous ne pouvez pas supprimer les filtres, les vues ou les regroupements par défaut.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -28,13 +28,13 @@ Vous pouvez supprimer un filtre, une vue ou un regroupement des listes et des ra
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</strong></td> 
    <td> 
-    <p>Contributeur ou version ultérieure</p>
+    <p>Contributeur ou supérieur</p>
     <p>Requête ou supérieure</p>
    </td>
   </tr> 
@@ -107,7 +107,7 @@ Les scénarios suivants existent lorsque vous supprimez un filtre, une vue ou un
 ### Supprimer un filtre, une vue ou un regroupement à l’aide de l’interface de création héritée
 
 1. Accédez à une liste d’objets ou à un rapport.
-1. (Conditionnel) Dans une liste, cliquez sur l’icône **Filtre**, **Affichage** ou **Regroupement**, puis survolez le filtre, la vue ou le regroupement à supprimer et cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis **Supprimer**. Le filtre, la vue ou le regroupement est supprimé(e).
+1. (Conditionnel) Dans une liste, cliquez sur l&#39;icône **Filtre**, **Affichage** ou **Regroupement**, puis survolez le filtre, l&#39;affichage ou le regroupement que vous souhaitez supprimer, cliquez sur l&#39;icône **Plus** ![Plus](assets/more-icon.png), puis **Supprimer**. Le filtre, la vue ou le regroupement est supprimé(e).
 1. (Le cas échéant) Dans un rapport, cliquez sur le menu déroulant **Regroupement**, **Filtre** ou **Vue** et sélectionnez **Supprimer le regroupement**, **Supprimer le filtre** ou **Supprimer la vue**.
 
    La boîte de dialogue **Mes regroupements**, **Mes filtres,** ou **Mes vues** s’affiche.

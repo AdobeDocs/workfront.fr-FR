@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Incorporer une file d’attente des demandes dans un tableau de bord
 description: Vous pouvez incorporer une nouvelle file d’attente des demandes dans un tableau de bord pour fournir un accès direct à la file d’attente des demandes à vos utilisateurs et utilisatrices, sans avoir à accéder à la zone Demandes.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Tout d’abord, vous devez obtenir une URL vers la file d’attente des demandes
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -157,7 +157,7 @@ Vous pouvez incorporer un lien vers la file d’attente des demandes ou vers une
 
 1. Cliquez sur **Ajouter une page externe**.
 
-   ![&#x200B; Page externe &#x200B;](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![ Page externe ](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. Dans la zone **Ajouter une page externe**, modifiez les champs suivants :
 

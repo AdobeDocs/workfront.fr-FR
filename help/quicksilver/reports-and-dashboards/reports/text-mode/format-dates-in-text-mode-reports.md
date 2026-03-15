@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Mettre en forme des dates dans les rapports en mode texte
 description: Les dates peuvent être configurées pour s’afficher dans divers formats dans les rapports et les listes d’Adobe Workfront. Pour établir un format de date, vous devez modifier la ligne de valeur du code du mode Texte dans la colonne.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -40,8 +40,8 @@ Vous pouvez formater des dates à l’aide des valeurs de mode de texte `valuefo
 | **Format** | Exemple | ***valueformat=*** |
 |---|---|---|
 | JJ/MM/AA | 11/10/18 | `atDate` |
-| JJ/MM/AA Heure | 11/10/18 12 h | `longAtDate` |
+| JJ/MM/AA Heure | 10/11/18 12:00pm | `longAtDate` |
 | JJ/MM/AA | 11/10/18 | `shortAtDate` |
 | JJ, Mois, An | 11 octobre 2018 | `mediumAtDate` |
 | JS, Jour, Mois, An | Lun, 11 octobre 2018 | `partialAtDate` |
-| JS, Jour, Mois, An Heure | Lun, 11 octobre 2018 12 h | `fullAtDate` |
+| JS, Jour, Mois, An Heure | Lun, Oct, 11, 2018 12:00 pm | `fullAtDate` |

@@ -1,14 +1,14 @@
 ---
 title: Améliorations apportées au flux de mise à jour et aux notifications du premier trimestre 2025
 description: Améliorations apportées au flux de mise à jour et aux notifications du premier trimestre 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 41%
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 Nous mettons à jour l’expérience de commentaires dans le widget Mentions de l’Accueil et dans la section Mentions de la zone Mes mises à jour . Désormais, la même expérience dans la zone Mises à jour de la plupart des objets Workfront est également disponible dans le widget Mentions et dans la section Mentions de Mes mises à jour.
 
-Avant cette amélioration, l’expérience de commentaires héritée était disponible dans ces domaines.
+Avant cette amélioration, l’expérience de commentaires héritée était disponible dans ces zones.
 
 >[!NOTE]
 >

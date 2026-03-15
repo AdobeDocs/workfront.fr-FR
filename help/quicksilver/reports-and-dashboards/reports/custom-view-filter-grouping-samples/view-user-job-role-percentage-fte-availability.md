@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : pourcentage de fonction utilisateur par rapport à la disponibilité en équivalent temps complet'
 description: Vous pouvez ajouter une colonne à la vue d’une liste d’utilisateurs et d’utilisatrices pour afficher la liste des fonctions auxquelles la personne utilisatrice est associée, ainsi que le pourcentage de disponibilité ETP pour chaque fonction, tel que défini dans le profil utilisateur.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -33,7 +33,7 @@ Pour plus d’informations sur la définition du pourcentage de disponibilité E
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Vue d’ensemble des vues dans Adobe Workfront
 description: Vous pouvez personnaliser le type d’informations affichées dans une liste ou un rapport en gérant l’affichage de la liste ou du rapport. Vous pouvez afficher les objets et leurs attributs dans une vue.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 67%

@@ -4,13 +4,13 @@ keywords: utilisateur ou utilisatrice,délégation,rapport,déléguer,approbatio
 navigation-topic: create-and-manage-reports
 title: Création d’un rapport de délégation d’utilisateurs
 description: Créer un rapport sur la délégation d’utilisateurs et d’utilisatrices
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -48,7 +48,7 @@ Pour en savoir plus sur la délégation des approbations, voir [Déléguer une d
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

@@ -3,10 +3,10 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: Partager un tableau de bord de zones de travail
 description: Vous pouvez partager un tableau de bord Zone de travail avec d’autres utilisateurs d’Adobe Workfront afin qu’ils puissent l’afficher ou le modifier.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 13%
@@ -37,7 +37,7 @@ Vous pouvez partager un tableau de bord Zone de travail avec d’autres utilisat
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tous </p> 
    </td> 

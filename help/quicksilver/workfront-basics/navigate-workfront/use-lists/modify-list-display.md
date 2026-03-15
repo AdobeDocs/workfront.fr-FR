@@ -3,12 +3,12 @@ navigation-topic: use-lists
 title: Modification de l’affichage d’une liste
 description: Dans  [!DNL Adobe Workfront], vous pouvez personnaliser l’affichage d’une liste. Les autres personnes qui consultent la liste ne voient pas vos modifications.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -41,13 +41,13 @@ Pour plus d’informations sur la modification des informations qui s’affichen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure </p>
+   <p>Contributeur ou supérieur </p>
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

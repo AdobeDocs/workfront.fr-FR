@@ -3,11 +3,11 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Vue d’ensemble de la syntaxe du mode texte
 description: Vous pouvez utiliser l’interface en mode texte pour créer des vues, des filtres, des regroupements et des invites personnalisées plus complexes dans les listes et les rapports. En utilisant le mode texte, vous pouvez accéder à des champs et à leurs attributs qui ne sont pas disponibles dans l’interface du mode standard.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 98%
@@ -57,7 +57,7 @@ Les lignes directrices suivantes s’appliquent à la construction de tout élé
    * [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [Explorateur d’API](../../../wf-api/general/api-explorer.md)
 
-* Utilisez des caractères génériques autant que possible pour rendre vos rapports et vos listes plus dynamiques et éviter de les dupliquer pour différentes personnes et des délais similaires.
+* Utilisez des caractères génériques autant que possible pour rendre vos rapports et vos listes plus dynamiques et éviter de les dupliquer pour différentes personnes et des chronologies similaires.
 
 ## Vue d’ensemble du camel case
 
@@ -88,7 +88,7 @@ Les similitudes suivantes existent entre la syntaxe des ensembles d’éléments
   Pour plus d’informations sur les lignes de code clés des vues et des regroupements lors de leur création en mode texte, voir la section :
 
    * [Modifier une vue en mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Modification d’un regroupement à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [Modifier un regroupement à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Les lignes de code et la syntaxe sont similaires pour les filtres et les invites personnalisées.
 

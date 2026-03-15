@@ -3,17 +3,17 @@ content-type: reference
 navigation-topic: boards
 title: Migrer les cartes Kanban de l’équipe Agile vers les tableaux Workfront
 description: Vous pouvez migrer vos tâches d’un tableau Kanban d’équipe Agile vers un tableau Workfront nouveau ou existant.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 70%
+ht-degree: 73%
 
 ---
 
-# Migrer les cartes Kanban de l’équipe Agile vers les tableaux Workfront
+# Migrer les cartes Kanban de l’équipe Agile vers les panoramas Workfront
 
 Vous pouvez migrer vos tâches d’un tableau Kanban d’équipe Agile vers un tableau Workfront nouveau ou existant. Lorsque vous exécutez la migration, toutes les cartes du tableau Kanban sont copiées sur le tableau Workfront. Vous n’avez pas l’autorisation de choisir des cartes spécifiques.
 
@@ -36,7 +36,7 @@ Les cartes ne sont pas supprimées du tableau Kanban de l’équipe Agile et les
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

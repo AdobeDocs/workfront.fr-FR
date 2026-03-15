@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Modification du nom ou de la description d’un tableau de bord de zone de travail
+title: Modifier un nom ou la description d’un tableau de bord de la zone de travail
 description: Une fois créé, vous pouvez modifier le nom ou la description d’un tableau de bord de zone de travail.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
-# Modification du nom ou de la description d’un tableau de bord de zone de travail
+# Modifier un nom ou la description d’un tableau de bord de la zone de travail
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Toute modification apportée à un tableau de bord aura un impact sur tous les u
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tous </p> 
    </td> 

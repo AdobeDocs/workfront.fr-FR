@@ -4,13 +4,13 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Regroupement : groupe principal du propriétaire du projet dans une liste d''heures'
 description: Vous pouvez afficher le nom du groupe principal de la personne propriétaire du projet dans une liste d’heures ou un rapport.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -33,7 +33,7 @@ Le regroupement regroupe également les résultats en fonction du nom de la pers
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

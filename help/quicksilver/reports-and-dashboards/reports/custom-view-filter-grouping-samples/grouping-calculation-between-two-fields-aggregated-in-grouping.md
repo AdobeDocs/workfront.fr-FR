@@ -5,13 +5,13 @@ keywords: calculé, agrégats, avancé, vues
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Regroupement : affiche le résultat de l’agrégation de plusieurs valeurs calculées dans un regroupement'
 description: Vous pouvez utiliser le mode texte dans une colonne pour afficher un calcul entre deux champs dans la vue d’un rapport ou d’une liste. Chaque ligne affiche le calcul pour chaque objet du rapport ou de la liste.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez afficher la valeur agrégée de plusieurs éléments d’affichage c
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

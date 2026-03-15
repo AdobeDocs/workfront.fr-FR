@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Vue d’ensemble des regroupements dans Adobe Workfront
 description: Vous pouvez ajouter des regroupements pour gérer la disposition des informations dans vos rapports et listes.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 85%
@@ -32,9 +32,9 @@ Vous pouvez ajouter des regroupements aux rapports comme suit :
 
   Pour plus d’informations sur la création d’un regroupement, consultez la section [Créer des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-Par défaut, les regroupements sont mis en surbrillance grise dans votre rapport ou liste. Les résultats du rapport ou de la liste sont répertoriés sous leur regroupement individuel, sans mise en surbrillance.
+Par défaut, les regroupements s’affichent dans un surlignage gris dans votre rapport ou votre liste. Les résultats du rapport ou de la liste sont répertoriés sous leur regroupement individuel, sans mise en surbrillance.
 
-![Exemple de regroupements](assets/grouping-example-blue.png)
+![Exemple de regroupement](assets/grouping-example-blue.png)
 
 Vous pouvez ajouter jusqu’à trois regroupements à un rapport. Vous pouvez organiser vos informations avec jusqu’à quatre regroupements en créant un rapport de matrice. Pour plus d’informations sur les rapports de matrice, consultez la section [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
@@ -67,11 +67,11 @@ Vous pouvez agréger dans votre ligne de regroupement les données affichées da
 
 >[!NOTE]
 >
->Les exceptions suivantes s&#39;appliquent aux objets parents (par exemple, les tâches parents) lorsque vous agrégez des valeurs pour les champs suivants dans des >regroupements :
+>Les exceptions suivantes s&#39;appliquent aux objets parents (par exemple, les tâches parents) lorsque vous agrégez des valeurs pour les champs suivants dans >regroupements :
 >
->* Tous les champs de nombre, de devise et de date, à l’exception des heures réelles, agrégent les valeurs uniquement pour les tâches enfants et les tâches autonomes. Elles n&#39;agrègent pas les valeurs des tâches parents ou des parents de parents. L&#39;agrégation des champs de nombre, de devise et de date d&#39;une liste qui inclut uniquement des tâches parents n&#39;affiche pas de valeur agrégée dans la barre de regroupement.
+>* Tous les champs de nombre, de devise et de date, à l&#39;exception des heures réelles, sont des valeurs agrégées uniquement pour les tâches enfants et les tâches autonomes. Ils n&#39;agrègent pas les valeurs des tâches parent ou des parents de parents. La consolidation des champs de nombre, de devise et de date sur une liste qui inclut uniquement des tâches parent n&#39;affiche pas de valeur consolidée dans la barre de regroupement.
 >
->* Les heures réelles agrégent les valeurs des tâches parents principales et autonomes ; elles n&#39;agrégent pas les valeurs des tâches enfants ou des parents des tâches parents. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>* Les heures réelles agrégent les valeurs des tâches parent principales et autonomes ; elles n&#39;agrégent pas les nombres des tâches enfants ni les parents des tâches parent. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
 >
 >* Les champs de données personnalisées de valeurs numériques et de devise regroupent toutes les tâches : parents, enfants, parents de parents et tâches autonomes.
 

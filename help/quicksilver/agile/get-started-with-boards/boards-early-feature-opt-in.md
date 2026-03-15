@@ -2,12 +2,12 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Opt-in anticipé aux fonctionnalités pour les tableaux d [!DNL Workfront] offres
+title: Early Feature Opt-In for [!DNL Workfront] Boards
 description: Lisez cet article pour en savoir plus sur l’opt-in anticipé des fonctionnalités  [!DNL Workfront Boards] .
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 99%

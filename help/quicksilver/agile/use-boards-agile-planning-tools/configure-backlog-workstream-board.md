@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: Configurer la liste d’attente sur un tableau de flux de travail
 description: Vous pouvez choisir d’afficher une colonne de liste d’attente sur un panorama dans un flux de travail et définir une requête pour les cartes qui sont ajoutées à la liste d’attente du panorama depuis la liste des cartes du flux de travail.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -37,13 +37,13 @@ La colonne de liste d’attente et la requête ne sont pas disponibles sur les p
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 

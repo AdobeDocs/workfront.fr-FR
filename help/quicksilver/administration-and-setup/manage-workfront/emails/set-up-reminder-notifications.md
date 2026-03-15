@@ -1,11 +1,11 @@
 ---
 title: Configurer des notifications de rappel
 description: Les notifications de rappel génèrent des e-mails qui sont envoyés aux utilisateurs et utilisatrices selon des critères spécifiés. Les notifications de rappel rappellent aux utilisateurs et utilisatrices qu’une action doit être effectuée pour une tâche, un problème, un projet ou une feuille de temps.
-author: Alina, Nolan
+author: Alina, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 96%
@@ -174,4 +174,4 @@ Pour déclencher manuellement une notification de rappel :
 
    Les personnes désignées dans la notification de rappel reçoivent un e-mail.
 
-![&#x200B; Test de notification de rappel &#x200B;](assets/reminder-test.png)
+![ Test de notification de rappel ](assets/reminder-test.png)

@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Données de colonnes partagées non affichées dans les rapports du tableau de bord
 description: Les données des colonnes partagées ne s’affichent pas lorsque le rapport est placé dans un tableau de bord à plusieurs colonnes, mais elles s’affichent dans une disposition à colonne unique. Les sauts de ligne sont également remplacés.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b8307182-3ec1-4f16-8427-48ef7a65f969
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Utiliser des caractères génériques basés sur l’utilisateur ou l’utilisatrice pour généraliser les rapports
 description: Vous pouvez généraliser un rapport en utilisant des caractères génériques au lieu d’informations spécifiques lors de la création de certains éléments de rapport.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez utiliser des caractères génériques basés sur la personne lors de
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

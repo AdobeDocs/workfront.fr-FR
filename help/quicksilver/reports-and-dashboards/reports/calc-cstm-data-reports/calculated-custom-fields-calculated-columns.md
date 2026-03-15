@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Champs personnalisés calculés par rapport aux colonnes calculées
 description: Pour aggréger plusieurs champs dans Adobe Workfront et afficher cette valeur agrégée dans un nouveau champ, vous pouvez créer un champ personnalisé calculé dans un formulaire personnalisé ou une colonne calculée dans une vue.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 90%
@@ -81,7 +81,7 @@ Pour plus d’informations sur la syntaxe que vous devez utiliser dans une colon
 
 * Lorsque vous souhaitez regrouper les résultats agrégés dans un rapport ou afficher ces informations dans un graphique.
 * Lorsque vous souhaitez agréger les données au-delà de l’agrégation calculée dans le champ.
-* Lorsque vous ne vous souciez pas de la rapidité des données, car celles-ci ne sont pas mises à jour et peuvent changer au fil du temps.
+* Lorsque vous ne vous souciez pas de la chronologie des données, car celles-ci ne sont pas mises à jour et peuvent changer au fil du temps.
 
 ## Actions qui déclenchent la mise à jour d’un champ personnalisé calculé
 

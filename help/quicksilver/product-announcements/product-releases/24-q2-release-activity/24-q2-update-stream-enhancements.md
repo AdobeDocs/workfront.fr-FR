@@ -1,14 +1,14 @@
 ---
 title: Deuxième trimestre 2024 - Amélioration du flux de mise à jour et des notifications
 description: Deuxième trimestre 2024 - Amélioration du flux de mise à jour et des notifications
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ Les améliorations suivantes ont été apportées à la nouvelle expérience de 
 
 Pour plus d’informations, consultez la section [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Cette fonctionnalité est abordée à 2:47).
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 2:47)
 
 ## L’onglet Activité du système sur la nouvelle expérience de commentaire prend en charge les commentaires en lecture seule.
 
@@ -70,7 +70,7 @@ Les commentaires apportés aux enregistrements d’activité du système dans l�
 
 Pour plus d’informations, consultez [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Cette fonctionnalité est abordée à 2:00).
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 2:00)
 
 ## Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système
 
@@ -84,7 +84,7 @@ L’onglet Tous est un onglet en lecture seule. Vous ne pouvez pas répondre aux
 
 Pour en savoir plus, consultez la [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Cette fonctionnalité est abordée à 0:31).
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 0:31)
 
 ## Nouveau flux de commentaires maintenant disponible dans le panneau Résumé
 

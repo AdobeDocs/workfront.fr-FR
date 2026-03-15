@@ -4,14 +4,14 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configuration de l’accès aux plans directeurs
 description: En tant qu’administrateur ou administratrice système, vous pouvez autoriser les utilisateurs et utilisatrices à demander l’installation de plans directeurs en configurant une file d’attente de demandes pour stocker les demandes. Vous disposez d’un emplacement unique pour effectuer le suivi et la mise à jour des demandes.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ En tant qu’administrateur ou administratrice système, vous pouvez :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 

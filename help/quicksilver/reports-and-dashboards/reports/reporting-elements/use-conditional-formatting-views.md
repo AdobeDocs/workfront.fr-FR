@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Utiliser une mise en forme conditionnelle dans les vues
 description: À mesure que vous partagez vos rapports avec d’autres personnes dans Adobe Workfront, pensez à personnaliser l’affichage des rapports, à faciliter la lecture de certaines informations ou à simplement vous distinguer.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 96%
@@ -44,7 +44,7 @@ Les modifications que vous apportez dans la vue du rapport ne prennent effet que
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Ajouter une sous-tâche à une histoire existante sur le tableau kanban
+title: Ajouter une tâche secondaire à un article existant sur le tableau Kanban
 description: Consultez cet article pour savoir comment créer des sous-tâches pour les histoires existantes sur le tableau Kanban.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ Lors de la création de sous-tâches pour des histoires existantes, tenez compte
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ Lors de la création de sous-tâches pour des histoires existantes, tenez compte
   </tr>
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Contribuer ou gérer l’accès à la tâche sur laquelle se trouve la sous-tâche</td> 
+   <td>Contribute ou Gérer l'accès à la tâche sur laquelle se trouve la sous-tâche</td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : Tâche avec écart sur toutes les dates'
 description: Cette vue de tâche est similaire à la vue « Toutes les dates » fournie avec votre compte Adobe Workfront. Cette vue spécifique comprend les colonnes d’écart calculant la différence en jours entre les dates.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -40,7 +40,7 @@ Pour plus d’informations sur l’utilisation des calculs dans une vue, consult
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

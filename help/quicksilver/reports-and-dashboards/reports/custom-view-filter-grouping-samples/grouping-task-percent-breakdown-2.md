@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Regroupement : Répartition en pourcentage de la tâche 2'
 description: 'Dans ce groupe de tâches personnalisé, vous pouvez afficher les tâches regroupées selon une plage de leurs valeurs de pourcentage d’achèvement. Les répartitions affichent une valeur de pourcentage d’achèvement de 10 incréments de point de pourcentage : 1 à 10 %, 11 à 20 %, etc.'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d5a40dd-d451-48c7-9323-af52aa387709
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -46,7 +46,7 @@ Le regroupement suivant classe les projets par valeur de pourcentage terminé da
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

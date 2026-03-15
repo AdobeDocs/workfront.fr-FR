@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtre : afficher uniquement les éléments ayant un statut d’approbation'
 description: Vous pouvez afficher uniquement les éléments ayant un certain statut qui est actuellement Approbation en attente. Cela fonctionne de la même manière pour tout autre objet ayant un statut d’approbation.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez conférer aux objets suivants un statut d’approbation :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -63,11 +63,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Accédez à une liste de projets.
 1. Dans le menu déroulant **Filtre**, sélectionnez **Nouveau filtre**.
-1. Choisissez de filtrer par **Projet : statut**, puis sélectionnez le statut en fonction duquel vous souhaitez effectuer le filtrage dans la liste.
+1. Choisissez de filtrer par **Projet : État**, puis sélectionnez l&#39;état par lequel vous souhaitez filtrer dans la liste.
 
    Par exemple, dans un rapport de projet, ajoutez **Statut égal à planification**, si vous souhaitez afficher uniquement les projets dont le statut est **Planification - Approbation en attente**.
 1. Cliquez sur **Mode texte**.
-1. Modifiez la ligne de `status` en ajoutant **:A** à la clé de 3 lettres du statut :
+1. Modifiez la ligne `status` en ajoutant **:A** à la clé à 3 lettres de l&#39;état :
    <pre>status=PLN:A<br>status_Mod=in</pre>
 
 1. Cliquez sur **Appliquer** > **Enregistrer comme nouveau**.

@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Afficher : éléments de reporting utilisés dans les rapports'
 description: Cette vue affiche la vue, le filtre et le regroupement utilisés pour créer chaque rapport dans Adobe Workfront lorsque vous l’utilisez dans une liste de rapports.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez voir les `valuefields` ou `valueexpressions` utilisés dans chaque �
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

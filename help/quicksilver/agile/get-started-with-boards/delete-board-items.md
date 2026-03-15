@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Suppression ou archivage d’une carte d’un panorama
 description: Lorsque vous supprimez une carte d’un panorama, elle est supprimée définitivement et ne peut pas être restaurée. L’archivage d’une carte l’envoie dans les archives et vous pouvez la restaurer dans le panorama ultérieurement.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -34,13 +34,13 @@ Les cartes archivées ne sont pas synchronisées avec les tâches et les événe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    </td> 
   </tr> 
@@ -66,7 +66,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Les cartes archivées sont cachées dans le panorama à moins que vous n’appliquiez un filtre pour les afficher. Pour plus d’informations, consultez dans cet article la section [Filtrer une carte pour afficher les cartes archivées](#filter-a-board-to-show-archived-cards).
 
-   Une icône [!UICONTROL Archiver] ![&#x200B; Archiver](assets/archive-icon-spectrum-25x20.png) apparaît sur les cartes archivées. Vous ne pouvez pas modifier une carte archivée, mais vous pouvez la supprimer ou la déplacer vers une autre colonne.
+   Une icône [!UICONTROL Archiver] ![ Archiver](assets/archive-icon-spectrum-25x20.png) apparaît sur les cartes archivées. Vous ne pouvez pas modifier une carte archivée, mais vous pouvez la supprimer ou la déplacer vers une autre colonne.
 
 1. Pour restaurer une carte archivée, cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) sur la carte et sélectionnez **[!UICONTROL Restaurer]**.
 

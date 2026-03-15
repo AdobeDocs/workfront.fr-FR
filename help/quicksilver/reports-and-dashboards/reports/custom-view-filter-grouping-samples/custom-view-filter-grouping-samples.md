@@ -2,13 +2,13 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: '« Exemples de vues personnalisées, de filtres et de regroupements : index des articles »'
+title: 'Exemples de vues, de filtres et de regroupements personnalisés : index des articles'
 description: Cette section présente des exemples de vues, filtres et regroupements personnalisés que vous pouvez utiliser dans votre compte Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 96%
@@ -43,11 +43,11 @@ Cette section présente des exemples de vues, filtres et regroupements personnal
 * [Vue : calculer les différences d’heure et de date](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 * [Vue : afficher le résultat d’un calcul entre deux champs dans une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
 * [Vue : ajouter une liste de successeurs de tâches dans une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-* [Affichage et regroupement : afficher la durée réelle du projet agrégée par la moyenne dans un groupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+* [Afficher et regrouper : permet d&#39;afficher la durée réelle du projet agrégée par la moyenne dans un regroupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
 * [Vue : détails des tâches et des problèmes combinés dans une liste d’heures](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [Vue : afficher une image au lieu d’une chaîne de caractères dans une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [Vue : afficher les objets qui ne sont pas inclus dans l’interface standard](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [Affichage : afficher les informations de problème d’origine sur les listes de tâches ou de projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [Afficher : afficher les informations sur l&#39;événement d&#39;origine dans les listes de tâches ou de projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [Vue : afficher les informations relatives au programme et au portfolio dans une vue de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [Vue : afficher les indentations des tâches dans une liste de tâches](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [Vue : rapport de document avec lien vers une épreuve](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
@@ -95,7 +95,7 @@ Cette section présente des exemples de vues, filtres et regroupements personnal
 
 * [Filtre : afficher les projets transversaux antérieurs incomplets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
 * [Filtre : afficher les projets transversaux ultérieurs incomplets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
-* [Filtre : tâches personnelles](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
+* [Filtre : tâches personnelles](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
 * [Filtre : afficher vos projets en cours en attente d’approbation](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
 * [Filtre : afficher uniquement les éléments ayant un statut d’approbation](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [Filtre : éliminer des éléments d’une liste en comparant deux champs](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
