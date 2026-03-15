@@ -714,7 +714,7 @@ The following functionality is soon to be removed from Workfront:
 
 >[!IMPORTANT]
 >
->La documentation de Workfront Fusion a été déplacée vers un nouvel emplacement. Pour plus d’informations, d’instructions et de versions pour Fusion, consultez la [documentation de Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+>La documentation de Workfront Fusion a été déplacée vers un nouvel emplacement. Pour plus d’informations, d’instructions et de versions pour Fusion, consultez la [documentation de Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/home).
 >
 >Chaque article de documentation Fusion actuel contient un lien vers l’article correspondant dans le nouvel emplacement. Mettez à jour vos signets.
 >
