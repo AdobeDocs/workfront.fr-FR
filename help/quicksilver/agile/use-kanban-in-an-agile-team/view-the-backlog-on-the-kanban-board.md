@@ -58,4 +58,4 @@ Par défaut, la colonne [!UICONTROL Liste d’attente] est masquée. Pour affich
 >
 >Si vous ajoutez plusieurs équipes à un élément de liste d’attente, la tâche ou le problème ne s’affiche que dans la liste d’attente de l’équipe principale. L’équipe principale est celle qui reçoit l’affectation en premier lieu.
 
-Pour plus d’informations sur la liste d’attente, voir [ Gérer la liste d’attente Agile ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur la liste d’attente, voir [&#x200B; Gérer la liste d’attente Agile &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

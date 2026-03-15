@@ -166,7 +166,7 @@ Toutefois, certains éléments peuvent empêcher l’affichage de ces liens :
 * Si vous avez un **Vue** appliquée à ces listes dans lesquelles une devise est sélectionnée autre que la devise par défaut du projet, les liens ne s’affichent pas. Modifiez la **Vue** en **Devise originale du projet** et les liens devraient s’afficher afin que vous puissiez ajouter des problèmes et des tâches à vos projets.\
   Pour plus d’informations sur la modification de la devise dans votre vue, voir [Créer des rapports de données financières avec des taux de change uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-![Devise du projet ](assets/nwe-project-original-currency-350x229.png)
+![Devise du projet &#x200B;](assets/nwe-project-original-currency-350x229.png)
 
 ## Les informations de mon rapport ou de mon tableau de bord sont-elles actualisées automatiquement ?
 

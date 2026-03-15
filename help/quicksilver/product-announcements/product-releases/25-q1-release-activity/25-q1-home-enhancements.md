@@ -22,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-Consultez la [ vidéo de démonstration des améliorations des priorités ](#priorities-enhancements-demo-video) ci-dessous pour une démonstration complète des fonctionnalités incluses dans cette présentation.
+Consultez la [&#x200B; vidéo de démonstration des améliorations des priorités &#x200B;](#priorities-enhancements-demo-video) ci-dessous pour une démonstration complète des fonctionnalités incluses dans cette présentation.
 
 ## Utiliser des filtres intelligents pour rechercher votre travail dans les priorités
 

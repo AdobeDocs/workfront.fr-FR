@@ -92,7 +92,7 @@ Vous devez ajouter un filtre à un rapport avant de pouvoir le modifier.
 
 1. Sélectionnez le champ ou le modificateur que vous souhaitez modifier, puis ajustez les sélections actuelles selon vos besoins.
 
-   ![ Ajouter une condition ](assets/add-condition.png)
+   ![&#x200B; Ajouter une condition &#x200B;](assets/add-condition.png)
 
 1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
 
