@@ -7,10 +7,11 @@ description: Vous pouvez activer le stockage d’entreprise Adobe pour que votre
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
+exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
+source-git-commit: e70a65447fe508d055809271edad399d823f66dd
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 15%
+source-wordcount: '320'
+ht-degree: 11%
 
 ---
 
@@ -65,5 +66,10 @@ Pour activer le stockage d’entreprise Adobe pour votre organisation :
    >L’activation de cette option permet aux utilisateurs de sélectionner le fournisseur de stockage lorsqu’ils créent un projet. Le stockage d’entreprise est étiqueté comme « Nouveau projet », car il s’agit du fournisseur de stockage par défaut. L’ancien stockage Workfront est intitulé « Projet hérité ».
    >
    >![options du nouveau projet et du projet hérité](assets/new-esm-project.png)
+
+1. Dans le menu déroulant S’applique à , choisissez l’une des options suivantes :
+
+   - **Organisation entière** : cette option applique le fournisseur de stockage par défaut à l’ensemble de votre environnement Workfront. Chaque fois qu’un utilisateur crée un projet, le fournisseur de stockage par défaut est utilisé.
+   - **Groupes spécifiques** : cette option applique le fournisseur de stockage par défaut uniquement à des groupes spécifiques de votre organisation. Chaque fois qu’un utilisateur des groupes spécifiés crée un projet, le fournisseur de stockage par défaut est utilisé
 
 1. Cliquez sur **Enregistrer**.
