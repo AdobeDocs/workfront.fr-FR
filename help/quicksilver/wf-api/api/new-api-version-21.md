@@ -6,10 +6,11 @@ description: Adobe Workfront a publié la verison 21 de l’API le vendredi 23
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
+exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
+source-git-commit: ec696c0ffa6a25cd274d494c9c1b475f99f661e2
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 79%
+source-wordcount: '929'
+ht-degree: 86%
 
 ---
 
@@ -17,9 +18,9 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->Cette modification de version de l’API comprend une modification avec rupture qui peut affecter vos appels API existants. Cela est dû au fait que l’API version 21 utilise la version 2 des abonnements aux événements.
+>La modification de cette version de l’API comprend un changement majeur qui peut affecter vos appels API existants. Cela est dû au fait que la version 21 de l’API utilise la version 2 des abonnements aux événements.
 >
-> Pour les champs à sélection multiple, la version 2 des abonnements aux événements envoie toujours sous la forme d’un tableau. La version 1 a envoyé un tableau si plusieurs valeurs ont été sélectionnées. Si une seule valeur a été sélectionnée, une chaîne a été envoyée.
+> Pour les champs à sélection multiple, la version 2 des abonnements aux événements envoie toujours un tableau. La version 1 envoyait un tableau si plusieurs valeurs étaient sélectionnées. Si une seule valeur était sélectionnée, elle envoyait une chaîne.
 
 Adobe Workfront a publié la verison 21 de l’API le vendredi 23 octobre 2025. La version 21 de l’API présente les changements suivants par rapport à la version 20.
 
@@ -483,7 +484,7 @@ Un objet de paramètre est un champ personnalisé.
             <p>Ajout de la valeur possible suivante :</p>
              <ul>
               <li>
-                <p><code>RICHLX</code> (Texte enrichi lexical)</p>
+                <p><code>HTML</code> </p>
               </li>
             </ul>
          </li>
@@ -983,5 +984,3 @@ Un objet Work est une interface commune dont Task et OpTask héritent tous deux 
     </tr>
   </tbody>
 </table>
-
-
