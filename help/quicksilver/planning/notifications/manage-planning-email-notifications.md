@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 6%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
@@ -180,6 +180,13 @@ Pour plus d’informations sur la gestion des notifications Workfront Planning, 
 après la soumission d&#39;une demande ou après qu&#39;une demande que vous avez soumise a été approuvée ou rejetée. L’expéditeur de l’e-mail est Adobe Workfront.
 
 1. (Facultatif) Cliquez sur **Ouvrir la demande**. La demande s’ouvre alors dans Workfront Planning.
+
+1. Dans le coin supérieur droit de la demande, cliquez sur le bouton **Vérifier et approuver**, puis sur l’une des options suivantes :
+
+   * **Valider** pour valider la demande. Un enregistrement est créé lorsque vous approuvez une demande Planning.
+   * **Rejeter** pour rejeter la demande. Aucun enregistrement n&#39;est créé lorsque vous rejetez une demande dans Workfront Planning. La demande est enregistrée dans la zone des Demandes avec le statut **Rejeté**.
+
+   ![Bouton Vérifier et approuver dans la demande de planification](assets/review-approval-button-with-drop-down-expanded.png)
 
 1. Cliquez sur l’icône **Notifications** ![Icône de la zone de notifications Unified Shell](assets/notifications-area-icon-unified-shell.png) dans le coin supérieur droit de l’écran pour accéder à la page **Notifications**.
 

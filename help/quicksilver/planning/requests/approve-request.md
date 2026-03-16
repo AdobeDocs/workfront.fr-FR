@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 6%
+source-wordcount: '987'
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++
 
-## Valider une demande de création d’enregistrement
+## Approuver une demande Planning pour créer un enregistrement
 
 Une fois que les utilisateurs ont ajouté des demandes à un formulaire de demande de type enregistrement associé à une approbation, la demande est envoyée aux approbateurs.
 
@@ -93,65 +93,66 @@ Les approbateurs reçoivent les notifications suivantes sur une demande en atten
 * Une notification in-app
 * Notification par e-mail
 
+Pour plus d’informations sur l’approbation des demandes de notifications, consultez les articles suivants :
+
+* [Gérer les notifications par e-mail d’Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
+* [Gérer les notifications in-app d’Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)
+
 >[!NOTE]
 >
 >L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
 
 Vous pouvez approuver des demandes de création d’enregistrements à partir de la demande elle-même ou à partir du widget Mes approbations sur l’Accueil.
 
-* [Approuver une demande à partir de la demande dans Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
-* [Approuver une demande à partir du widget Mes approbations de l’Accueil](#approve-a-request-from-the-my-approvals-widget-in-home)
+### Approuver une demande Planning à partir d&#39;une notification ou de la zone des Demandes
 
-### Approuver une demande à partir de la demande dans Workfront Planning
+1. Ouvrez la requête en effectuant l’une des opérations suivantes :
 
-1. (Conditionnel) Si vous utilisez l’expérience de requête héritée dans Workfront, ouvrez la requête en effectuant l’une des opérations suivantes :
-
-   * Si vous avez accès à Workfront Planning et que vous pouvez afficher au moins un espace de travail, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Demandes** > **Submitted** Planning **, et cliquez sur la demande avec le statut** En attente de révision **ou** En révision **&#x200B;**.
+   * Cliquez sur **Menu principal** ![Menu principal Lignes](assets/lines-menu.png) dans le coin supérieur gauche, puis cliquez sur **Demandes** > **Utiliser une nouvelle expérience**, et cliquez sur la demande avec le statut **En attente de révision**.
 
      >[!TIP]
      >
-     >Si vous n’avez pas accès à Workfront Planning, ou si vous n’avez pas accès à des espaces de travail, vous pouvez uniquement accéder à une demande pour l’approuver à l’aide de vos notifications par e-mail ou in-app.
+     >* Si vous n’avez pas accès à Workfront Planning, ou si vous n’avez pas accès à des espaces de travail, vous pouvez uniquement accéder à une demande pour l’approuver à l’aide de vos notifications par e-mail ou in-app.
+     >* Vous ne pouvez pas accéder aux requêtes Planning à partir de l’expérience des requêtes héritées.
 
    * Cliquez sur l’icône de zone **Notifications** ![Icône de zone de notifications dans Unified Shell](assets/notifications-area-icon-unified-shell.png) dans le coin supérieur droit de l’écran, puis cliquez sur la notification d’une demande en attente de votre approbation pour ouvrir la demande.
-   * Accédez à la notification par e-mail dans votre e-mail qui vous informe qu’une demande est en attente de votre approbation, puis cliquez sur **Ouvrir la demande** pour ouvrir la demande. <!--add the name of the button here, from the email-->
+   * Accédez à la notification par e-mail dans votre e-mail qui vous informe qu’une demande est en attente de votre approbation, puis cliquez sur **Ouvrir la demande** pour ouvrir la demande.
 
    La page de requête s’ouvre en mode lecture seule.
 
    ![Page de requête en lecture seule au statut de révision](assets/read-only-reqeust-page-in-review-status.png)
-1. Si vous utilisez la nouvelle expérience de demande dans Workfront, cliquez sur **Menu principal** ![Menu principal des points](assets/dots-menu.png) dans le coin supérieur droit de l’écran, ou sur **Menu principal** ![Menu principal des lignes](assets/lines-menu.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Demandes**, puis cliquez sur la demande que vous souhaitez approuver avec le statut **En attente de révision**.
 1. (Facultatif) Cliquez sur l’icône **Approbations** ![Icône Approbations](assets/approvals-icon.png) dans le coin supérieur droit de la demande pour afficher les approbateurs.
 1. Cliquez sur **Vérifier et approuver** puis choisissez l’une des options suivantes :
 
    * **Approuver** : permet d’approuver la demande. Un enregistrement est immédiatement créé pour le type d&#39;enregistrement associé au formulaire de demande une fois que tous les approbateurs ont approuvé la demande.
    * **Rejeter** : la demande est rejetée, même si vous êtes le seul approbateur à la rejeter. Aucun enregistrement n&#39;est créé pour le type d&#39;enregistrement associé au formulaire de demande.
 
-   L’utilisateur qui a soumis la demande reçoit un e-mail et des notifications in-app lorsque sa demande est approuvée ou rejetée.
+   L’utilisateur qui a soumis la demande reçoit un e-mail et une notification in-app lorsque sa demande est approuvée ou rejetée.
 
    Le statut de la demande est alors modifié comme suit, selon la décision d’approbation :
 
    * **Terminé** : la demande est approuvée.
    * **Rejeté** : la demande est rejetée.
 
-   La demande reste dans la zone des Demandes de Workfront.
+   La demande reste dans la zone **Demandes** de Workfront.
 
 ### Approuver une demande à partir du widget Mes approbations de l’Accueil
 
 {{step1-to-home}}
 
-Ou
+1. Accédez au widget **Mes approbations** dans **Accueil**.
 
-Cliquez sur l’icône [!UICONTROL Accueil] ![Icône Accueil](/help/_includes/assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront, puis recherchez le widget Mes approbations .
+   ![Widget Mes approbations dans l’Accueil](assets/my-approvals-widget-in-home.png)
+1. Recherchez la demande Planning à approuver ou à rejeter.
 
-1. Recherchez l’objet à approuver ou à rejeter.
+1. (Facultatif) Ajoutez un commentaire en cliquant sur la flèche déroulante en regard de **Approuver** ou **Rejeter**, en saisissant la note, puis en cliquant sur **Ajouter**.
 
-1. (Facultatif) Ajoutez un commentaire en cliquant sur la flèche déroulante en regard de Approuver ou Rejeter, en saisissant la note, puis en cliquant sur Ajouter.
-
-1. Choisissez l’une des options suivantes :
+1. Cliquez sur l’une des options suivantes :
 
    * **Approuver** : permet d’approuver la demande. Un enregistrement est immédiatement créé pour le type d&#39;enregistrement associé au formulaire de demande une fois que tous les approbateurs ont approuvé la demande.
    * **Rejeter** : la demande est rejetée, même si vous êtes le seul approbateur à la rejeter. Aucun enregistrement n&#39;est créé pour le type d&#39;enregistrement associé au formulaire de demande.
 
-   L’utilisateur qui a soumis la demande reçoit un e-mail et des notifications in-app lorsque sa demande est approuvée ou rejetée.
+   L’utilisateur qui a soumis la demande reçoit un e-mail et une notification in-app lorsque sa demande est approuvée ou rejetée.
 
    Le statut de la demande est alors modifié comme suit, selon la décision d’approbation :
 
