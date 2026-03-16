@@ -138,7 +138,7 @@ Boîte de dialogue de création du compte Reader ![](/help/quicksilver/reports-a
 
 Vous devez utiliser la clé RSA avec le nom d’utilisateur que vous avez choisi pour vous connecter à Snowflake. Veillez donc à conserver un enregistrement de cette clé ainsi que l’URL. Cochez la case indiquant que vous l’avez fait, puis cliquez sur **Fermer**.
 
-![ Boîte de dialogue Clé RSA ](assets/rsa-test.png)
+![&#x200B; Boîte de dialogue Clé RSA &#x200B;](assets/rsa-test.png)
 
 ## Révoquer un compte de lecteur
 
