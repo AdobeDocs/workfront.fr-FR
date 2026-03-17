@@ -6,16 +6,21 @@ description: Les notifications suivantes vous alertent sur les activités d’ap
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 100%
+source-wordcount: '697'
+ht-degree: 97%
 
 ---
 
 # Notifications : informations d’approbation
 
 Les notifications suivantes vous alertent sur les activités d’approbation qui se produisent sur un élément de travail auquel vous participez. Pour plus d’informations sur la configuration des notifications que vous recevez, consultez la section [Modifier vos propres notifications par e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+>[!NOTE]
+>
+>Ces notifications s’appliquent uniquement aux approbations de documents hérités. Les contrôles de notification pour les approbations de documents unifiés ne sont actuellement pas disponibles.
+
 
 Consultez également la section [Notifications d’événements](../../workfront-basics/using-notifications/event-notifications.md).
 
