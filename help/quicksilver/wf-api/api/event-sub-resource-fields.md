@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 11fe205b9590b6f8330e0923bbe47d2ed693cf16
+source-git-commit: 9a3b04a40cf871661ba5451c0dc611057f7e4f5d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 74%
+source-wordcount: '1051'
+ht-degree: 77%
 
 ---
 
@@ -2446,7 +2446,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   </tr> 
   <tr> 
    <td>Plan de recrutement<p>(Sous-sections Événement v2)</p></td> 
-   <td>PERSONNEL</td> 
+   <td>STAFFP</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -2588,7 +2588,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
    <td>url</td> 
   </tr> 
   <tr> 
-   <td>Valeur du paramètre du plan d'affectation de personnel <p>(Sous-sections Événement v2)</p></td> 
+   <td>Valeur du paramètre du plan des effectifs <p>(Sous-sections Événement v2)</p></td> 
    <td>SPVAL</td> 
    <td>customerID</td> 
   </tr> 
@@ -2647,7 +2647,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   </tr> 
   <tr> 
    <td>Ressource du plan de recrutement <p>(Sous-sections Événement v2)</p></td> 
-   <td>PERSONNEL</td> 
+   <td>STAFFR</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -2734,7 +2734,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
    <td>totalEstimatedRevenue</td> 
   </tr> 
   <tr> 
-   <td>Valeur D'Attribut De Ressource Du Plan De Dotation En Personnel<p>(Sous-sections Événement v2)</p></td> 
+   <td>Valeur de l’attribut de ressource du plan des effectifs<p>(Sous-sections Événement v2)</p></td> 
    <td>SPAVAL</td> 
    <td>attributeAttachableID</td> 
   </tr> 
@@ -2782,7 +2782,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
    <td>refGroupID</td> 
   </tr> 
   <tr> 
-   <td>Valeur D'Attribut De Ressource Du Plan De Dotation En Personnel Définie <p>(Sous-sections Événement v2)</p></td> 
+   <td>Valeur définie de l’attribut de ressource du plan des effectifs <p>(Sous-sections Événement v2)</p></td> 
    <td>SAVSET</td> 
    <td>attributeAttachableID</td> 
   </tr> 
@@ -2809,8 +2809,8 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   </tr> 
   <tr> 
   <tr> 
-   <td>Valeur du paramètre de ressource du plan d'affectation de personnel <p>(Sous-sections Événement v2)</p></td> 
-   <td>VALIDATION</td> 
+   <td>Valeur du paramètre de ressource du plan des effectifs <p>(Sous-sections Événement v2)</p></td> 
+   <td>SRPVAL</td> 
    <td>customerID</td> 
   </tr> 
   <tr> 
@@ -2885,6 +2885,11 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
    <td> </td> 
    <td> </td> 
    <td>billingRecordID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>canStart</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3109,12 +3114,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>deliverableScoreCardID</td> 
+   <td>customerID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>customerID</td> 
+   <td>deliverableScoreCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
