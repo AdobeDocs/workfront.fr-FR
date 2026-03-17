@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: 990af6c3e0f026de495b666a108a8bbce5118c1b
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 6%
 
 ---
@@ -67,16 +67,13 @@ Les réviseurs et approbateurs peuvent être ajoutés à un workflow d’approba
 
 * **Validations à usage unique** : dans le projet ou la tâche où réside la ressource, le coordinateur du projet peut affecter des validants et des approbateurs et définir une date limite d’achèvement. Un rappel est envoyé aux réviseurs et aux approbateurs 72 heures avant l’échéance, 24 heures avant l’échéance, puis à l’échéance elle-même.
 
-  Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+  Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
 * **Modèles d’approbation** : dans la zone Configuration de Workfront, les coordinateurs de projet peuvent créer des modèles d’approbation réutilisables. Dans un modèle, les utilisateurs peuvent ajouter des réviseurs et des approbateurs et définir un délai d’achèvement. Lorsque le modèle d’approbation est appliqué à une ressource, l’échéance est calculée à partir de la période spécifiée.
 
   Une fois un modèle créé, il peut être appliqué à une ressource pour lancer le processus de révision et d’approbation formel dans Workfront.
 
   Pour plus d’informations, voir [Création d’un modèle de workflow d’approbation pour les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-
-  ![Attribuer un modèle](assets/assign-template.png)
 
 ### Examen et approbation des ressources dans la visionneuse Frame.io
 
