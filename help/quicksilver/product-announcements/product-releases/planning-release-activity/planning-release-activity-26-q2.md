@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 1e05945e24770848da9d2c77b81b9475e43797ea
+source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 15%
@@ -81,7 +81,7 @@ Seuls les administrateurs système peuvent désormais choisir entre les options 
 
 Par défaut, les espaces de travail sont définis sur l’autorisation « Seules les personnes invitées peuvent y accéder ».
 
-Avant cette modification, la possibilité de choisir ces autorisations de partage d’espace de travail n’existait pas.
+Avant cette modification, il n’était pas possible de choisir ces autorisations de partage de l’espace de travail.
 
 Pour plus d’informations, voir Partager des espaces de travail (help/quicksilver/planning/access/share-workspaces.md).
 
@@ -137,7 +137,7 @@ Lorsque vous partagez la vue Liste dans la page des enregistrements connectés a
 
 Cette mise à jour est disponible uniquement dans la vue Liste, pour la page Enregistrements connectés d’un enregistrement lors de l’affichage de projets.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Appliquer une mise en forme conditionnelle à la vue Liste
 
@@ -149,7 +149,7 @@ Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/q
 
 Vous pouvez désormais appliquer une mise en forme conditionnelle aux projets dans une vue Liste dans la page Enregistrements connectés d’un enregistrement. Cette fonctionnalité n’existait pas dans la vue Liste avant cette amélioration.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Améliorations des types d’enregistrements globaux dans les espaces de travail secondaires
 
