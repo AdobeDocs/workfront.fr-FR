@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: 0cd80741d5c92bf633b4d4becefa1b64d5f5d938
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 40%
+source-wordcount: '1496'
+ht-degree: 38%
 
 ---
 
@@ -316,13 +316,11 @@ Les éléments suivants n’ont pas été modifiés à ce stade de la publicatio
 
 ## Mises à jour de la visionneuse de relecture de bureau
 
-### Version 2.1.54
+### Version 2.1.55
 
-**Version de production pour tous les clients et clientes : 11 décembre 2025**
+Version de production pour tous les clients : 19 mars 2025
 
-La visionneuses de relecture de bureau a été mise à jour et passe de la version 2.1.52 à la version 2.1.54. Cette mise à jour inclut des mises à jour d’outils internes et n’a aucune incidence sur les fonctionnalités accessibles par les utilisatrices et utilisateurs finaux.
-
-La version 2.1.53 incluait également des modifications des outils internes.
+Le lecteur de vérification pour bureau a été mis à jour de la version 2.1.54 vers la version 2.1.55. Cette mise à jour incluait des mises à jour d’outils internes et n’avait aucune incidence sur les fonctionnalités des utilisateurs finaux.
 
 Cette mise à jour concerne Mac et Windows.
 
@@ -380,7 +378,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
