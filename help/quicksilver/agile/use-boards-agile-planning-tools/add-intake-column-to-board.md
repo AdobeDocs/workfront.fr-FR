@@ -7,9 +7,9 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+source-git-commit: db2e91e795bbc4ecc9953eb0c7643c7ae1f1c911
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1023'
 ht-degree: 69%
 
 ---
@@ -118,7 +118,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    ![Créateur de filtres](assets/intake-filter-dialog6.png)
 
-   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL &#x200B; Nouveau &#x200B;] ou [!UICONTROL &#x200B; En cours &#x200B;].
+   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL  Nouveau ] ou [!UICONTROL  En cours ].
 
    >[!NOTE]
    >
@@ -146,8 +146,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Les cartes de la colonne d’entrée ne peuvent pas être modifiées tant que vous ne les déplacez pas dans d’autres colonnes du panorama. Vous pouvez cliquer sur la carte pour l’ouvrir en lecture seule ou cliquer sur ![Ouvrir une tâche ou un problème](assets/boards-launch-icon.png) pour les ouvrir dans un nouvel onglet du navigateur.
 
-Vous pouvez réorganiser manuellement les éléments de la colonne d’entrée.
-
 Les icônes situées en haut à droite de la colonne d’entrée indiquent le nombre de cartes actuellement présentes dans la colonne et le nombre de filtres appliqués.
 
 1. (Facultatif) Pour rechercher un élément dans la colonne d’entrée, cliquez sur l’![icône Rechercher](assets/search-icon.png) sur la colonne.
@@ -155,6 +153,6 @@ Les icônes situées en haut à droite de la colonne d’entrée indiquent le no
 
    Ou
 
-   Cliquez sur le menu **[!UICONTROL Plus]** ![icône de menu Plus](assets/more-menu.png) sur la carte, puis sélectionnez **[!UICONTROL Déplacer]**. Ensuite, dans la zone **Déplacer [élément]**, choisissez une autre colonne et sélectionnez **[!UICONTROL Déplacer]**.
+   Cliquez sur le menu **[!UICONTROL Plus]** ![icône de menu Plus](assets/more-menu.png) sur la carte, puis sélectionnez **[!UICONTROL Déplacer]**. Ensuite, dans la zone **Déplacer[ÉLÉMENT]**, choisissez une autre colonne et sélectionnez **[!UICONTROL Déplacer]**.
 
 1. (Facultatif) Pour supprimer la colonne d’entrée, cliquez sur le menu **[!UICONTROL Plus]** ![Icône de menu Plus](assets/more-menu.png), puis sélectionnez **[!UICONTROL Supprimer]**.
