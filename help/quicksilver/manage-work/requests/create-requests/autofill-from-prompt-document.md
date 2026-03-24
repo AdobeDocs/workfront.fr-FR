@@ -5,10 +5,10 @@ description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 65bb04377c3d819de3df12a0dc9dfc3878152d51
+source-git-commit: 1afc69b23138ddfc6e369bf6231dec9ecb5d0bdb
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 13%
+source-wordcount: '1491'
+ht-degree: 14%
 
 ---
 
@@ -80,6 +80,19 @@ Tenez compte des points suivants lors de l’utilisation du remplissage de formu
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
 -->
+
+
+## Activez le remplissage de formulaire optimisé par l’IA pour votre organisation
+
+>[!NOTE]
+>
+>Le remplissage de formulaire optimisé par l’IA est activé au niveau de l’organisation et ne peut pas être activé ou désactivé pour des utilisateurs ou des niveaux d’accès spécifiques.
+
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
+1. Cliquez sur **Système**, puis sous Système, cliquez sur **Préférences**.
+1. Dans la section des préférences de l’IA, assurez-vous que l’option **Activer l’IA** est activée.
+1. Activez/désactivez **Remplissage de formulaire AI**.
+1. Pour désactiver le remplissage de formulaire optimisé par l’IA, désactivez **Remplissage de formulaire IA**.
 
 ## Obtenir des suggestions à partir d’une invite de texte
 
