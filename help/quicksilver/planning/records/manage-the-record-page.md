@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 2f1c3d4311f54f7f273b2304e39e6fbfc0f4b657
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1648'
 ht-degree: 6%
 
 ---
@@ -190,7 +190,7 @@ Pour ajouter une section à une prévisualisation d’enregistrement ou à une p
 
    Ou
 
-   Dans la vue du tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
+   Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
 
    <span class="preview">L’aperçu de l’enregistrement s’ouvre dans la vue.</span>
 
@@ -282,19 +282,23 @@ Voici ce qui se produit :
    * Sélectionnez le paramètre **Afficher tous les champs** pour afficher tous les champs depuis la vue tabulaire de l&#39;enregistrement, y compris les champs masqués.
    * Désélectionnez le paramètre **Afficher tous les champs** pour afficher uniquement les champs qui ne sont pas masqués dans la vue Tableau de l&#39;enregistrement. Il s’agit du paramètre par défaut
 
+     <!--
+      replace with this when they fix the UI text:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+      -->
+
    </div>
 
    >[!TIP]
    >
    ><span class="preview">Le paramètre **Afficher tous les champs** n’est disponible que dans la zone d’aperçu Détails de l’enregistrement. Elle n’est pas disponible dans la page Détails de l’enregistrement.</span>
+1. (Facultatif) Si vous souhaitez accéder à un enregistrement connecté, cliquez sur le nom de cet enregistrement dans le chemin de navigation en haut de la page des détails. <span class="preview">Si le nom d’un enregistrement ne s’affiche pas dans le chemin de navigation, cliquez sur **Plus**. Le chemin de navigation s’affiche sur plusieurs lignes. Cliquez sur **Moins** pour raccourcir le chemin de navigation et l’afficher sur une ligne.</span>
 
+   >[!TIP]
+   >
+   >Vous devez disposer de types d’enregistrements, d’enregistrements et de hiérarchies connectés dans votre espace de travail pour pouvoir afficher les chemins de navigation dans la page des détails de l’enregistrement.
 
-   <!--replace with this when they fix the UI text:
-   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-   -->
-
-   </div>
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir la zone des détails dans une icône d’un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 

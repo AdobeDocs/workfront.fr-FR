@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '949'
 ht-degree: 5%
 
 ---
@@ -22,13 +22,15 @@ ht-degree: 5%
 
 En tant que gestionnaire d&#39;espace de travail, vous pouvez créer plusieurs hiérarchies d&#39;espaces de travail entre les types d&#39;enregistrements dans Adobe Workfront Planning.
 
-Une fois les types d’enregistrements connectés dans un espace de travail, vous pouvez créer une hiérarchie qui organise ces connexions. Les hiérarchies organisent les types d&#39;enregistrements et d&#39;objets en relations parent-enfant et peuvent contenir jusqu&#39;à quatre niveaux de types d&#39;objets.
+Une fois les types d’enregistrements connectés dans un espace de travail, vous pouvez créer une hiérarchie qui organise ces connexions.
+
+Les hiérarchies organisent les types d&#39;enregistrements et d&#39;objets en relations parent-enfant et peuvent contenir jusqu&#39;à 4 types d&#39;objets chacun. Vous pouvez créer jusqu’à 5 hiérarchies dans un espace de travail.
 
 S’il n’existe pas encore de connexion entre deux types d’enregistrements, elle peut être créée lorsque vous configurez la hiérarchie. Une fois définie, la hiérarchie établit un chemin d’accès structuré entre les types d’enregistrements associés dans l’espace de travail.
 
 Les hiérarchies génèrent des chemins de navigation pour leurs enregistrements respectifs qui s’affichent dans leurs en-têtes. Ainsi, les utilisateurs savent où ils se trouvent dans la hiérarchie à n’importe quelle étape de leur workflow.
 
-Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [&#x200B; Présentation des hiérarchies et des chemins de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [ Présentation des hiérarchies et des chemins de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Conditions d’accès
 
@@ -70,8 +72,6 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 +++
 
 ## Créer une hiérarchie d’espace de travail
-
-Vous pouvez créer jusqu’à 5 hiérarchies dans un espace de travail.
 
 {#step1-to-planning}
 
@@ -148,7 +148,7 @@ Chaque type d&#39;objet supplémentaire devient l&#39;enfant des types d&#39;obj
    >
    >Vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent.
    >
-   >Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+   >Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 1. (Facultatif) Passez la souris sur une hiérarchie, puis cliquez sur le menu **Plus**.
 
@@ -158,6 +158,10 @@ Chaque type d&#39;objet supplémentaire devient l&#39;enfant des types d&#39;obj
 
    * **Modifier** : permet d’ouvrir la boîte de dialogue **Modifier la hiérarchie** dans laquelle vous pouvez apporter des modifications.
    * **Supprimer** : supprime définitivement la hiérarchie. Les hiérarchies supprimées ne peuvent pas être récupérées. Les champs de connexion ne sont pas supprimés.
+
+1. (Facultatif) Cliquez sur le nom du dernier type d’enregistrement de votre hiérarchie, puis sur le nom d’un enregistrement de la vue de ce type d’enregistrement. Cette action ouvre la page des détails de l’enregistrement. Recherchez la hiérarchie que vous avez créée dans le chemin de navigation d&#39;un enregistrement en haut de la page de l&#39;enregistrement.
+
+   Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 

@@ -5,20 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+exl-id: de066d44-d214-47cc-8483-37c2623585ea
+source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 0%
+source-wordcount: '1096'
+ht-degree: 1%
 
 ---
 
-
-
 # Présentation de la hiérarchie et du chemin de navigation
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 En tant que gestionnaire d&#39;espace de travail, vous pouvez définir des hiérarchies flexibles mais structurées entre les types d&#39;enregistrements connectés et d&#39;autres types d&#39;objets dans Adobe Workfront Planning.
 
@@ -79,12 +78,13 @@ L’utilisation de hiérarchies dans vos espaces de travail présente les avanta
 
 Lorsque vous créez des hiérarchies entre les types d&#39;enregistrements, elles génèrent des chemins de navigation pour les enregistrements appartenant à ces types d&#39;enregistrements.
 
-Par exemple, si vous créez une hiérarchie et que vous connectez des campagnes aux Tactiques, puis aux Activités et enfin aux Projets, lorsque vous accédez à un enregistrement de l’un des types connectés dans la hiérarchie, vous pouvez voir où l’enregistrement est placé dans la hiérarchie.
+Par exemple, si vous créez une hiérarchie et connectez les campagnes aux Tactiques, puis aux Activités, lorsque vous accédez à un enregistrement de l’un des types connectés dans la hiérarchie, vous pouvez voir où l’enregistrement est placé dans la hiérarchie. Si l’enregistrement s’affiche dans plusieurs espaces de travail, vous pouvez afficher les chemins d’accès dans chaque espace de travail <span class="preview">en commençant par le nom de l’espace de travail dans le chemin de navigation.</span>
 
-![Chemin de navigation](assets/breadcrumbs-on-project.png)
+![Chemin de navigation](assets/breadcrumbs-on-activities-planning-only.png)
 
 Tenez compte des points suivants :
 
+* Les chemins de navigation s’affichent dans la zone de prévisualisation d’un enregistrement, ainsi que dans la page des détails des enregistrements.
 * Si un type d&#39;enregistrement fait partie de plusieurs hiérarchies, vous pouvez basculer entre les hiérarchies à partir du chemin de navigation de l&#39;enregistrement sur la page de l&#39;enregistrement.
 * Si le type d’enregistrement dans une hiérarchie comporte plusieurs enregistrements, vous pouvez sélectionner des enregistrements dans le chemin de navigation.
 * Les chemins de navigation fonctionnent dans Workfront et Planning.
@@ -93,5 +93,3 @@ Tenez compte des points suivants :
 
   Pour plus d’informations, voir [Création de hiérarchies d’espaces de travail](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 * Lorsque vous modifiez un enregistrement, les modifications sont visibles à partir de tous les espaces de travail et de toutes les hiérarchies dont l&#39;enregistrement fait partie.
-
-
