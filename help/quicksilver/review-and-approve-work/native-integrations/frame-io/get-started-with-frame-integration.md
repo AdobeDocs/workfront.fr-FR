@@ -1,30 +1,30 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Commencer à utiliser l’intégration Frame.io
-description: Commencez avec l’intégration Frame.io.
+title: Prise en main de la révision et de l’approbation unifiées
+description: En savoir plus sur la révision et l’approbation unifiées optimisées par Workfront et Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 990af6c3e0f026de495b666a108a8bbce5118c1b
+source-git-commit: df02fa91f5cf87e73a9bf6183b57d42ba965ba09
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 6%
+source-wordcount: '970'
+ht-degree: 4%
 
 ---
 
-# Commencer à utiliser l’intégration Frame.io
+# Prise en main de la révision et de l’approbation unifiées
 
-L’intégration de Workfront et Frame.io aligne les créatifs, les spécialistes du marketing et les parties prenantes sur un workflow transparent. Accédez aux mises à jour en temps réel, évitez les doublons et assurez-vous que les ressources sont approuvées avant le lancement.
+La révision et l’approbation unifiées optimisées par Workfront et Frame.io permettent de maintenir l’alignement des créatifs, des spécialistes marketing et des parties prenantes avec un workflow transparent. Accédez aux mises à jour en temps réel, évitez les doublons et assurez-vous que les ressources sont approuvées avant le lancement.
 
 Pour plus d&#39;informations sur Frame.io, voir [Prise en main de Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
-L’intégration Workfront et Frame.io doit être configurée dans votre instance Workfront. Pour plus d’informations, voir [Présentation de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
+L’intégration Workfront et Frame.io doit être configurée dans votre instance Workfront. Pour plus d’informations, voir [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
 ## Exigences d’intégration
 
-* Workfront et Frame.io doivent être déployés sur la même organisation Identity Management system (IMS).
+* Workfront et Frame.io doivent être déployés sur la même organisation Identity Management System (IMS).
 
 * Les utilisateurs ne peuvent appartenir qu’à une seule instance Workfront au sein de l’organisation IMS.
 
@@ -52,7 +52,6 @@ Une fois le processus d’approbation créé, les réviseurs et les approbateurs
 Pour plus d’informations sur la configuration des projets, voir
 
 * [Créer un projet](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-* [Vue d’ensemble de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Lancement des révisions et des approbations formelles dans Workfront
 
@@ -69,7 +68,7 @@ Les réviseurs et approbateurs peuvent être ajoutés à un workflow d’approba
 
   Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
-* **Modèles d’approbation** : dans la zone Configuration de Workfront, les coordinateurs de projet peuvent créer des modèles d’approbation réutilisables. Dans un modèle, les utilisateurs peuvent ajouter des réviseurs et des approbateurs et définir un délai d’achèvement. Lorsque le modèle d’approbation est appliqué à une ressource, l’échéance est calculée à partir de la période spécifiée.
+* **Modèles d’approbation** : dans la zone Configuration de Workfront, les coordinateurs de projet peuvent créer des modèles d’approbation réutilisables. Dans un modèle, les utilisateurs peuvent ajouter des réviseurs et des approbateurs, et définir un délai d’achèvement. Lorsque le modèle d’approbation est appliqué à une ressource, l’échéance est calculée à partir de la période spécifiée.
 
   Une fois un modèle créé, il peut être appliqué à une ressource pour lancer le processus de révision et d’approbation formel dans Workfront.
 
@@ -123,6 +122,6 @@ Les coordinateurs de projet peuvent surveiller la progression de toutes les appr
 
 ## Envoi des ressources terminées vers Adobe Experience Manager
 
-Vous pouvez utiliser le [!DNL Experience Manager Assets]&#x200B;&#x200B; pour gérer et stocker vos ressources numériques qui ont passé le cycle de révision et d’approbation. Cette intégration permet d’exploiter les fonctionnalités d’Adobe Experience Manager, Frame.io et Workfront afin de rationaliser vos processus de gestion de contenu et de collaboration.
+Vous pouvez utiliser le &#x200B;&#x200B; pour gérer et stocker vos ressources numériques qui ont passé le cycle de révision et d’approbation. [!DNL Experience Manager Assets] Cette intégration permet d’exploiter les fonctionnalités d’Adobe Experience Manager, Frame.io et Workfront afin de rationaliser vos processus de gestion de contenu et de collaboration.
 
 Pour plus d’informations, voir [Utilisation d’Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
