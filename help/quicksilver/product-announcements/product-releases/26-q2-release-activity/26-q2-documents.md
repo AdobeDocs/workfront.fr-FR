@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 7bf762870af2bbc4f4889d66cf713d4533a30ff5
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 14%
 
 ---
@@ -38,7 +38,7 @@ Créez des workflows d’approbation plus structurés et sophistiqués avec des 
 
 #### Examen et approbation du contenu dans Frame.io
 
-Examinez et approuvez le contenu directement dans la visionneuse Frame.io et éliminez la nécessité de basculer entre les plateformes. Cette intégration permet des cycles de commentaires plus rapides et conserve toutes les activités de révision au même endroit. Pour plus d’informations, voir [Prise en main de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Examinez et approuvez le contenu directement dans la visionneuse Frame.io et éliminez la nécessité de basculer entre les plateformes. Cette intégration permet des cycles de commentaires plus rapides et conserve toutes les activités de révision au même endroit. Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Connexion à Adobe Experience Manager
 
@@ -50,7 +50,7 @@ Le stockage d’entreprise Adobe est une solution de stockage dans le cloud qui 
 
 L’accès au stockage d’entreprise d’Adobe ouvre également la voie à de futures intégrations de la gestion des ressources à d’autres produits Adobe, tels que Adobe Creative Cloud.
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Workflows d’approbation à plusieurs étapes disponibles pour les approbations unifiées
 

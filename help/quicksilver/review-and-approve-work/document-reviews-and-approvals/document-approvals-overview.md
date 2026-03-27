@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: df02fa91f5cf87e73a9bf6183b57d42ba965ba09
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -66,7 +66,7 @@ Utilisez la visionneuse Frame.io pour réviser et approuver des ressources. La v
 * Commentaires horodatés pour les révisions vidéo
 * Accès mobile pour les révisions et les approbations en cours de route
 
-Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Limites de révision vidéo
 

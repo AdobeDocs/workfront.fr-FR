@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: df02fa91f5cf87e73a9bf6183b57d42ba965ba09
+source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
 workflow-type: tm+mt
 source-wordcount: '13813'
 ht-degree: 98%
@@ -1842,7 +1842,7 @@ ht-degree: 98%
 * Réviser et approuver le travail {#review-and-approve-work}
    * [Réviser et approuver le travail](review-and-approve-work/review-and-approve-work.md)
    * [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-   * [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+   * [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
    * [Vue d’ensemble du statut de décision limitée des documents et des épreuves pour les utilisateurs et utilisatrices non payants](review-and-approve-work/proof-doc-decision-limits.md)
    * Approbations du travail {#work-approvals}
       * [Approbations du travail](review-and-approve-work/manage-approvals/manage-approvals.md)

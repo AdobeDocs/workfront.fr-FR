@@ -7,10 +7,10 @@ description: Le résumé permet d’interagir avec des informations importantes,
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 43%
+source-wordcount: '696'
+ht-degree: 42%
 
 ---
 
@@ -126,7 +126,7 @@ Utilisez la section Versions pour afficher le nombre de versions créées pour u
 
 ## Résumé des documents dans la nouvelle expérience de documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Détails
 
@@ -140,7 +140,7 @@ Utilisez la section Validations pour créer un workflow de validation. Vous pouv
 
 Pour plus d&#39;informations sur les validations et Frame.io, voir
 
-* [Commencer à utiliser l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+* [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [Créer une demande de révision ou d&#39;approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ![Approbations de résumés de documents dans une nouvelle expérience de documents](assets/summary-approvals.png)

@@ -1,22 +1,24 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Vue d’ensemble de l’intégration Frame.io
-description: Vue d’ensemble de l’intégration Frame.io
+title: Aperçu de la révision et de l’approbation unifiées
+description: En savoir plus sur la révision et les validations unifiées optimisées par Workfront et Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 1%
+source-wordcount: '838'
+ht-degree: 0%
 
 ---
 
-# Vue d’ensemble de l’intégration Frame.io
+# Aperçu de la révision et de l’approbation unifiées
 
-L’intégration de Workfront et Frame.io permet aux coordinateurs de projet de gérer les projets et de planifier le travail dans Workfront, tandis que les créatifs, les spécialistes marketing et les parties prenantes peuvent examiner et approuver les ressources dans Frame.io.
+La révision et les approbations unifiées optimisées par Workfront et Frame.io permettent aux coordinateurs de projet de gérer les projets et de planifier le travail dans Workfront, tandis que les créatifs, les spécialistes marketing et les parties prenantes peuvent réviser et approuver les ressources dans Frame.io.
 
 ## Exigences d’intégration
 
@@ -31,7 +33,7 @@ L’intégration de Workfront et Frame.io permet aux coordinateurs de projet de 
 
 ## Basé sur le stockage d’entreprise Adobe
 
-Au cœur de cette intégration se trouve le stockage d’entreprise Adobe, une solution de stockage dans le cloud qui sert de référentiel central pour les ressources de l’ensemble des produits d’entreprise Adobe, y compris Workfront et Frame.io. <!--, and Creative Cloud.-->
+La révision et les approbations unifiées reposent sur le stockage d’entreprise d’Adobe, une solution de stockage dans le cloud qui sert de référentiel central pour les ressources de l’ensemble des produits d’entreprise d’Adobe, y compris Workfront et Frame.io. <!--, and Creative Cloud.-->
 
 Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants :
 
@@ -40,11 +42,11 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
-L’intégration de Workfront et Frame.io utilise la fonctionnalité d’approbation unifiée de Workfront pour gérer les révisions et les approbations. Avec les validations unifiées, vous pouvez :
+Grâce à la révision et aux approbations unifiées, vous pouvez :
 
 * Créer et gérer des révisions et des approbations directement depuis Workfront
 * Suivre le statut des révisions et des validations en temps réel
@@ -58,14 +60,14 @@ Pour plus d’informations, voir [Approbations de documents unifiés : index des
 
 ### Utilisation de la visionneuse Frame.io
 
-L&#39;intégration se connecte également à la visionneuse Frame.io. La visionneuse Frame.io fournit
+Utilisez la visionneuse Frame.io pour réviser et approuver des ressources. La visionneuse Frame.io fournit
 
 * Outils de balisage et de commentaires
 * Historique et comparaison des versions
 * Commentaires horodatés pour les révisions vidéo
 * Accès mobile pour les révisions et les approbations en cours de route
 
-Pour plus d’informations, voir [Prise en main de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Limites de révision vidéo
 
@@ -89,13 +91,13 @@ La fonctionnalité de relecture de Workfront n&#39;est pas disponible avec cette
 
 ## Gestion de projet puissante dans Workfront
 
-Grâce à l’intégration de Workfront et Frame.io, les coordinateurs de projet peuvent tirer parti des puissantes fonctionnalités de gestion de projet de Workfront pour planifier, suivre et gérer le travail.
+Les coordinateurs de projet peuvent tirer parti des puissantes fonctionnalités de gestion de projet de Workfront pour planifier, suivre et gérer le travail.
 
 Pour plus d’informations sur la gestion des projets dans Workfront, voir [Projets : index d’article](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Structure appliquée et conventions de nommage
 
-Cette intégration étant créée à l’aide du stockage d’entreprise Adobe, il existe une structure appliquée et des conventions de nommage à connaître lors de la gestion des projets et des documents.
+La révision et les approbations unifiées étant créées à l’aide du stockage d’entreprise Adobe, il existe une structure appliquée et des conventions de nommage à connaître lors de la gestion des projets et des documents.
 
 * Les noms d’objet doivent être uniques et ne peuvent pas être dupliqués
 * Le stockage d’entreprise Adobe nécessite des noms uniques pour les objets homologue avec le même parent dans l’arborescence hiérarchique
@@ -138,11 +140,7 @@ Les documents chargés vers Workfront sont stockés dans le stockage d’entrepr
 
 ### Limites de l’expérience du document
 
-Comme cette intégration est créée à l’aide du stockage d’entreprise d’Adobe, l’expérience des documents d’origine dans Workfront présente certaines limites :
-
-#### Limites
-
-Les fonctionnalités suivantes ne seront pas incluses dans cette intégration :
+Les fonctionnalités de document suivantes ne sont pas incluses :
 
 <!--* External document providers-->
 * Accès à la relecture dans Workfront
