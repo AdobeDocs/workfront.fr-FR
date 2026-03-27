@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: a5041aecad22d3e576d7f0e9a4388a3e5bc69565
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '513'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Vous pouvez réviser et approuver des documents dans Workfront à l’aide de la
 
 La révision des documents Workfront à l’aide de la visionneuse Frame.io vous permet de laisser des commentaires ou de marquer des sections spécifiques d’un document, d’une image ou d’une vidéo afin de collaborer efficacement avec votre équipe et de vous assurer que les commentaires sont clairs et exploitables.
 
-Pour plus d’informations sur l’intégration de Frame.io à Workfront, consultez [Présentation de l’intégration de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+Pour plus d’informations sur l’intégration de Frame.io à Workfront, consultez [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 
 <!--## Access requirements
@@ -59,7 +59,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Conditions préalables
 
-* L’intégration Workfront et Frame.io doit être configurée dans votre instance Workfront. Pour plus d’informations, voir [Présentation de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
+* L’intégration Workfront et Frame.io doit être configurée dans votre instance Workfront. Pour plus d’informations, voir [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
 ## Réviser un document
 

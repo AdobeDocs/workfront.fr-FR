@@ -6,10 +6,10 @@ description: Vous pouvez demander aux utilisateurs et utilisatrices d’approuve
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8b25cfa-02d9-4c5a-88c1-924a283cdffb
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 66%
+source-wordcount: '121'
+ht-degree: 65%
 
 ---
 
@@ -23,5 +23,5 @@ Vous pouvez également demander aux utilisateurs et utilisatrices de relire un d
 >
 >La relecture n’est pas disponible si votre organisation utilise le stockage d’entreprise. À la place, vous pouvez utiliser la révision et l’approbation Workfront avec l’intégration Frame.io. Pour plus d&#39;informations sur le stockage d&#39;entreprise ou l&#39;intégration Frame.io, voir
 >
->* [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
->* [Présentation de l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+>* [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md)
+>* [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
