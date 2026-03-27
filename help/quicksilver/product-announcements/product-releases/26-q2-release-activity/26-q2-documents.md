@@ -50,7 +50,7 @@ Le stockage d’entreprise Adobe est une solution de stockage dans le cloud qui 
 
 L’accès au stockage d’entreprise d’Adobe ouvre également la voie à de futures intégrations de la gestion des ressources à d’autres produits Adobe, tels que Adobe Creative Cloud.
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Workflows d’approbation à plusieurs étapes disponibles pour les approbations unifiées
 
