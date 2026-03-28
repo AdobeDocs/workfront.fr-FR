@@ -5,21 +5,26 @@ title: Prise en main de la révision et de l’approbation unifiées
 description: En savoir plus sur la révision et l’approbation unifiées optimisées par Workfront et Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
+exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
+source-git-commit: 9dc15e8f50b91dde3536902bb57229cfbe164317
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '994'
 ht-degree: 4%
 
 ---
 
-
 # Prise en main de la révision et de l’approbation unifiées
 
-La révision et l’approbation unifiées optimisées par Workfront et Frame.io permettent de maintenir l’alignement des créatifs, des spécialistes marketing et des parties prenantes avec un workflow transparent. Accédez aux mises à jour en temps réel, évitez les doublons et assurez-vous que les ressources sont approuvées avant le lancement.
+
+La révision et l’approbation unifiées rassemblent Adobe Workfront et Adobe Frame.io dans une expérience unique et profondément connectée, réduisant ainsi les écarts entre la gestion marketing, la révision créative et la diffusion de contenu. Les coordinateurs de projet gèrent le travail dans Workfront pendant que les créatifs, les spécialistes marketing et les parties prenantes examinent et approuvent les ressources dans la visionneuse Frame.io de qualité professionnelle, le tout sans déplacer les fichiers entre des outils déconnectés.
 
 Pour plus d&#39;informations sur Frame.io, voir [Prise en main de Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
 L’intégration Workfront et Frame.io doit être configurée dans votre instance Workfront. Pour plus d’informations, voir [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+
+## Vidéo de présentation
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
 ## Exigences d’intégration
 
@@ -124,3 +129,4 @@ Les coordinateurs de projet peuvent surveiller la progression de toutes les appr
 Vous pouvez utiliser le &#x200B;&#x200B; pour gérer et stocker vos ressources numériques qui ont passé le cycle de révision et d’approbation. [!DNL Experience Manager Assets] Cette intégration permet d’exploiter les fonctionnalités d’Adobe Experience Manager, Frame.io et Workfront afin de rationaliser vos processus de gestion de contenu et de collaboration.
 
 Pour plus d’informations, voir [Utilisation d’Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
