@@ -1,15 +1,15 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Afficher les rapports de calendrier et les détails des événements
+title: Affichage des rapports de calendrier et des détails sur les événements
 description: Vous pouvez afficher les rapports de calendrier et les détails des événements que vous avez créés ou qui ont été partagés avec vous dans Adobe Workfront.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+source-git-commit: 8d2f7abc188be5e0d94524e3d42cee72126967f3
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 73%
+source-wordcount: '587'
+ht-degree: 72%
 
 ---
 
@@ -38,11 +38,11 @@ Vous pouvez afficher les rapports de calendrier et les détails des événements
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Affichage ou accès supérieur aux rapports, tableaux de bord et calendriers</p></td> 
+   <td> <p>Accès supérieur ou égal à Rapports, Tableaux de bord et Calendriers</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Afficher ou des autorisations supérieures pour le rapport de calendrier</td> 
+   <td>Autorisations d’affichage ou supérieures pour le rapport de calendrier</td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Selon votre niveau d’accès, vous pouvez voir les calendriers suivants répertoriés :
 
-   * Votre calendrier [!DNL Adobe Workfront] par défaut
+   * Votre calendrier de [!DNL Adobe Workfront] par défaut
 
      Workfront crée pour vous un calendrier en fonction des projets, tâches et problèmes qui vous sont attribués ou qui sont attribués à des équipes, des groupes ou des rôles qui vous sont affectés.
 
@@ -67,19 +67,23 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
      Pour en savoir plus sur la création de calendriers, voir [Vue d’ensemble des rapports de calendrier](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-   * Calendriers que d&#39;autres utilisateurs ont partagés avec vous
+   * Calendriers que d’autres utilisateurs ont partagés avec vous
 
      Pour en savoir plus sur le partage de calendriers, voir [[!UICONTROL Partager un rapport] de calendrier](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Le cas échéant) Cliquez sur le bouton **[!UICONTROL Vue]**, puis sélectionnez la durée du calendrier à afficher.
    ![Durée du calendrier](assets/view-menu-calendar-report-350x189.png)
-Vous avez le choix entre les vues de rapport de calendrier suivantes :
+Vous pouvez choisir parmi les vues de rapports de calendrier suivantes :
 
    * **[!UICONTROL Mois]** : affiche quatre semaines du calendrier.
    * **[!UICONTROL Semaine]** : affiche une semaine du calendrier.
    * **[!UICONTROL Gantt]** : affiche une vue continue du calendrier
 
-     Vous pouvez voir plus d&#39;événements dans une vue **Gantt** en faisant défiler vers le bas ou latéralement. Un symbole de chargement s’affiche lorsque des données sont renseignées pour la vue.
+     Vous pouvez afficher davantage d’événements dans une vue **Gantt** en faisant défiler l’écran vers le bas ou sur le côté. Un symbole de chargement s’affiche lorsque des données sont renseignées pour la vue.
+
+   >[!NOTE]
+   >
+   >Les calendriers peuvent afficher des événements sur une période allant jusqu’à 5 ans.
 
    >[!NOTE]
    >
@@ -92,17 +96,17 @@ Vous avez le choix entre les vues de rapport de calendrier suivantes :
 
    * Pour modifier rapidement les dates affichées, procédez comme suit :
 
-      1. Dans la barre d&#39;outils **[!UICONTROL Calendrier]**, cliquez sur la flèche gauche de l&#39;indicateur de date pour revenir dans le calendrier ou sur la flèche droite pour avancer.
+      1. Dans la barre d’outils **[!UICONTROL Calendrier]**, cliquez sur la flèche gauche de l’indicateur de date pour revenir en arrière dans le calendrier ou sur la flèche droite pour avancer.
 
          ![Clic sur la flèche pour modifier la date](assets/click-arrows-to-change-dates-calendar-report.png)
 
          Les dates affichées sont ajustées selon un intervalle en fonction de votre vue Calendrier actuelle. Par exemple, si vous affichez le calendrier dans la vue **Semaine**, le calendrier affiche une semaine en avant ou une semaine en arrière, selon la flèche que vous sélectionnez.
 
-      1. (Facultatif) Pour revenir au jour actuel, cliquez sur [!UICONTROL **Aujourd&#39;hui**].
+      1. (Facultatif) Pour revenir au jour en cours, cliquez sur [!UICONTROL **Aujourd’hui**].
 
 1. (Facultatif) Pour masquer les événements d’un regroupement de projets ou de calendriers lié au calendrier, désélectionnez-le regroupement dans la liste des projets.
    ![Masquer les événements](assets/hide-events-for-project-or-cal-grouping.png)
-Vous pouvez rendre les événements visibles à nouveau en sélectionnant le [!UICONTROL projet] ou le regroupement de calendriers dans la liste des projets.
+Vous pouvez rendre à nouveau les événements visibles en sélectionnant le regroupement [!UICONTROL projet] ou calendrier dans la liste des projets.
 
 ## Afficher des rapports de calendrier et des détails de l’événement
 
