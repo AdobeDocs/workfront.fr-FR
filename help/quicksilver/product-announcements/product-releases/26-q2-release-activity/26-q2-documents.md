@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 14%
@@ -22,9 +22,13 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 ## Révision et approbations unifiées optimisées par Workfront et Frame.io
 
-Nous sommes ravis de vous présenter la fonctionnalité Révision et approbation unifiées de Workfront et Frame.io, une expérience de révision et d&#39;approbation simplifiée.
 
-Cette nouvelle fonctionnalité est disponible pour les nouveaux clients et pour les clients existants lors du renouvellement.
+>[!IMPORTANT]
+>
+>Cette nouvelle fonctionnalité est disponible pour les nouveaux clients et pour les clients existants lors du renouvellement.
+
+
+Nous sommes ravis de vous présenter la fonctionnalité Révision et approbation unifiées de Workfront et Frame.io, une expérience de révision et d&#39;approbation simplifiée.
 
 ### Nouveautés
 
@@ -50,7 +54,7 @@ Le stockage d’entreprise Adobe est une solution de stockage dans le cloud qui 
 
 L’accès au stockage d’entreprise d’Adobe ouvre également la voie à de futures intégrations de la gestion des ressources à d’autres produits Adobe, tels que Adobe Creative Cloud.
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Workflows d’approbation à plusieurs étapes disponibles pour les approbations unifiées
 
