@@ -129,7 +129,7 @@ Les modifications que vous apportez à une vue sont visibles pour toutes les per
 
    Vous pouvez filtrer selon les champs de requête suivants :
 
-   * **** : espace de travail auquel le formulaire de demande est associé.
+   * **&#x200B;**&#x200B;: espace de travail auquel le formulaire de demande est associé.
    * **Type d’objet** : type d’enregistrement auquel le formulaire de demande est associé.
    * **Date d’entrée** : date à laquelle la demande a été soumise.
    * **Formulaire de demande** : nom du formulaire de demande utilisé pour soumettre la demande.
