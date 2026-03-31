@@ -8,14 +8,26 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 44%
+source-wordcount: '1347'
+ht-degree: 45%
 
 ---
 
 # Afficher les demandes envoyées
+
+<!--
+Remove production and preview references at release
+-->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 Vous pouvez afficher les demandes que vous ou une autre personne avez envoyées, ou les demandes que vous avez commencées mais que vous n’avez jamais terminées. Les demandes non terminées sont enregistrées en tant que brouillons.
 
@@ -85,13 +97,28 @@ L’affichage des demandes envoyées diffère selon que vous utilisez l’expér
 
 ### Afficher les demandes envoyées dans la nouvelle expérience de demande
 
-Vous pouvez afficher les demandes envoyées dans la zone Demandes , qui inclut des liens vers des objets créés par des demandes Adobe Workfront Planning.
+>[!NOTE]
+>
+>* Si vous disposez de Workfront Planning, vos demandes Workfront et Planning apparaissent dans la même liste. Les requêtes Workfront affichent la valeur `Issue` dans la colonne **Type d’objet**.
+>* Jusqu’à 50 requêtes s’affichent par défaut dans la liste de la zone des Requêtes . Pour afficher plus de requêtes, faites défiler la liste vers le bas.
+
+Vous pouvez afficher les demandes envoyées dans la zone Demandes , qui inclut des liens vers les enregistrements créés par les demandes Adobe Workfront Planning dans la <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment--> Environnement de production .
 
 >[!NOTE]
 >
 >Les liens vers les objets créés ne sont disponibles dans la nouvelle expérience de requête que pour les requêtes Planning, dans les cas où la requête elle-même a créé un enregistrement.
 >
 >Si une requête Workfront est convertie en projet ou en un autre objet, le lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de création de requêtes.
+
+<!--
+replace the note above with this at release: 
+>[!NOTE]
+>
+>Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
+>
+>If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
+><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
+-->
 
 Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans la nouvelle expérience de requête :
 
@@ -102,13 +129,22 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
    La liste des requêtes s’affiche.
 
 1. (Facultatif) Pour rechercher une requête, commencez à saisir du texte dans la barre de recherche située dans le coin supérieur droit de la liste. Les résultats de la recherche s’affichent au fur et à mesure que vous tapez.
-1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez afficher.
+1. (Facultatif) Pour gérer l’affichage des informations dans la liste des demandes, mettez à jour les éléments d’affichage suivants pour la liste :
 
-   Pour plus d’informations sur les filtres, voir [Création et gestion des vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+   * Afficher
+   * Filtre
+   * Colonnes
 
-1. (Facultatif) Cliquez sur le menu déroulant **Vues** pour mettre à jour votre vue ou la partager avec d’autres utilisateurs.
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
 
-   Pour plus d’informations, voir [Création ou modification de vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+   Pour plus d’informations sur la gestion des informations dans la liste des demandes, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne **Statut**. Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
 
    * **Brouillon** : cette demande n&#39;a pas encore été soumise.
@@ -121,11 +157,6 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
 
         Pour plus d’informations, voir [Configurer les détails de configuration](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) dans l’article Création et gestion d’un formulaire de demande dans Adobe Workfront Planning.
    * **Terminé** : la demande est terminée.
-
->[!NOTE]
->
->* Si vous disposez de Workfront Planning, vos demandes Workfront et Planning apparaissent dans la même liste. Les requêtes Workfront affichent la valeur `Issue` dans la colonne **Type d’objet**.
->* Jusqu’à 50 requêtes s’affichent par défaut dans la liste de la zone des Requêtes . Pour afficher plus de requêtes, faites défiler la liste vers le bas.
 
 ### Afficher les demandes envoyées dans l’expérience de demande héritée
 
@@ -271,7 +302,7 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
 
 1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne **Statut**. Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
 
-   * **Brouillon** : cette demande n&#39;a pas encore été soumise.
+   * **Brouillon**. Cette demande n&#39;a pas encore été soumise.
    * **En cours**
    * **Terminé**
 

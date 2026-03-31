@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1529'
 ht-degree: 82%
 
 ---
@@ -226,17 +226,21 @@ Vous devez avoir une demande que vous ou une personne membre de votre organisati
 
 Vous pouvez copier et envoyer des requêtes dans la zone des Requêtes de Workfront, ou à partir du widget Mes requêtes dans l’Accueil.
 
-{{step1-to-requests}}
+1. Utilisez l’une des méthodes suivantes :
 
-1. Pour accéder au widget Mes requêtes dans l’Accueil :
+   {{step1-to-requests}}
+
+   1. Pour accéder au widget **Mes requêtes** dans **Accueil** :
 
    {{step1-to-home}}
 
-   1. Recherchez le widget Mes requêtes .
+   1. Recherchez le widget **Mes requêtes**.
 
       Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Dans la liste **Demandes** ou le widget **Mes demandes** de l’Accueil, passez la souris sur la demande à copier, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png).
+1. Dans la liste **Demandes** ou le widget **Mes demandes** de l’Accueil, passez la souris sur la demande à copier, puis cliquez sur le menu **Plus** en regard de son nom.
+
+   ![Menu Plus](assets/more-menu.png)
 
 1. Cliquez sur **Copier**
 

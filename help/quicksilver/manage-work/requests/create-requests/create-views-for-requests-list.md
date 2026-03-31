@@ -6,9 +6,9 @@ description: Si vous utilisez la nouvelle expérience de demande, vous pouvez cr
 author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
-source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '962'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,7 @@ Si vous utilisez la nouvelle expérience de demande dans Adobe Workfront, vous p
 >
 >* Cette fonctionnalité n’est disponible que dans la nouvelle expérience de demande de la zone des Demandes .
 >* Les paramètres d’affichage sont également disponibles dans le widget Mes requêtes de l’Accueil. Toutefois, les vues de la zone des Demandes sont distinctes de celles du widget Mes demandes .
->* La liste des demandes de la zone Demandes utilise la liste améliorée de Workfront. Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+>* La liste des demandes de la zone des Demandes utilise la liste améliorée de Workfront. Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Conditions d’accès
 
@@ -44,7 +44,7 @@ Si vous utilisez la nouvelle expérience de demande dans Adobe Workfront, vous p
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tout pack Workfront ou Workflow</p>
+   <td> <p>Tout package de Workfront ou de workflow</p>
 
 <p>Toute licence Workfront Planning, pour afficher les demandes Workfront Planning dans les listes de demandes</p>
     </td> 
@@ -91,9 +91,9 @@ Vous pouvez créer une vue dans la zone des Demandes de Workfront lorsque vous u
 
 ## Modification d’une vue pour les requêtes
 
-Vous pouvez modifier des vues existantes, y compris les vues que vous venez de créer dans la zone Demandes de Workfront.
+Vous pouvez modifier des vues existantes, y compris les vues que vous venez de créer dans la zone des Demandes de Workfront.
 
-En modifiant une vue dans la zone Demandes, vous pouvez modifier les éléments suivants de la vue :
+En modifiant une vue dans la zone Demandes , vous pouvez modifier les éléments suivants de la vue :
 
 * Nom
 * Filtres
@@ -122,15 +122,14 @@ Les modifications que vous apportez à une vue sont visibles pour toutes les per
    >
    >Les champs que vous ajoutez aux colonnes doivent exister avant d’être disponibles dans le **Gestionnaire de colonnes**.
 
+1. (Facultatif) Cliquez sur **Colonnes** pour ouvrir la zone **Visibilité et ordre des champs**.
+1. Activez le paramètre pour chaque champ que vous souhaitez afficher dans la liste, désactivez-le pour le masquer ou faites glisser et déposez les champs dans un ordre différent.
 
-1. (Facultatif) Cliquez sur **Colonnes** pour ouvrir la zone de visibilité et d&#39;ordre des champs F **3&rbrace;.**
-1. Activez le paramètre pour chaque champ que vous souhaitez afficher dans la liste, désactivez-le pour le masquer ou faites un glisser-déposer des champs dans un ordre différent.
+1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez afficher.
 
-1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les demandes que vous souhaitez afficher.
+   Vous pouvez filtrer selon les champs de requête suivants :
 
-   Vous pouvez filtrer par les champs de requête suivants :
-
-   * **Espace de travail** : espace de travail auquel le formulaire de demande est associé.
+   * **** : espace de travail auquel le formulaire de demande est associé.
    * **Type d’objet** : type d’enregistrement auquel le formulaire de demande est associé.
    * **Date d’entrée** : date à laquelle la demande a été soumise.
    * **Formulaire de demande** : nom du formulaire de demande utilisé pour soumettre la demande.
@@ -164,14 +163,14 @@ Pour obtenir des instructions, voir [Personnaliser des filtres, des vues et des 
 
 Vous pouvez partager les vues que vous créez avec d&#39;autres utilisateurs, équipes ou groupes.
 
-1. Pour accéder à une liste de demandes dans les Demandes, procédez comme suit :
+1. Pour accéder à une liste de demandes dans les demandes, procédez comme suit :
 
    {{step1-to-requests}}
 
-1. Assurez-vous que le paramètre **Utiliser la nouvelle expérience** est activé.
+1. Assurez-vous que le paramètre **Utiliser une nouvelle expérience** est activé.
 1. Dans la liste **Demandes**, recherchez la vue que vous souhaitez partager.
-1. Passez le curseur de la souris sur la vue que vous souhaitez partager, puis cliquez sur le menu à trois points à droite du nom de la vue, puis cliquez sur **Partager**.
-1. Dans la zone **Partager**, entrez les personnes, les équipes, les rôles, les groupes ou les entreprises avec lesquels vous souhaitez partager l&#39;affichage, puis sélectionnez-les dans la liste lorsqu&#39;ils apparaissent.
+1. Pointez sur la vue à partager, puis cliquez sur le menu à trois points situé à droite du nom de la vue, puis cliquez sur **Partager**.
+1. Dans la zone **Partager**, saisissez les personnes, équipes, rôles, groupes ou sociétés avec lesquels vous souhaitez partager la vue, puis sélectionnez-les dans la liste lorsqu&#39;elles apparaissent.
 1. Cliquez sur **Enregistrer**.
 
    La vue est partagée avec les entités que vous indiquez. Ils peuvent afficher les éléments de vue mis à jour que vous avez modifiés pour la vue avant de la partager. <span class="preview">S&#39;ils mettent à jour la vue, leurs modifications ne seront pas visibles par les autres utilisateurs, à moins qu&#39;ils ne fassent une copie de la même vue et conservent leurs modifications avant de partager la copie. Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>

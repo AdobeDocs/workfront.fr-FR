@@ -5,9 +5,9 @@ description: Les listes améliorées utilisent un format de tableau pour affiche
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2350'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    >
    >Chaque type de champ possède ses propres options de modification. Certains champs peuvent être en lecture seule.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
 ## Modifier les éléments à l’aide de la barre d’actions
 
@@ -113,7 +113,7 @@ Vous pouvez utiliser la barre d’actions d’une liste améliorée pour modifie
 
    Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
+   ![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
 
 1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur le menu **Plus** ![icône de menu Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
 
@@ -156,7 +156,7 @@ Certaines colonnes vous permettent d’enregistrer un nom personnalisé pour le 
 
    Le nouveau nom de colonne apparaît dans la liste.
 
-## Ajouter et supprimer des colonnes à l’aide du gestionnaire de colonnes
+### Ajouter et supprimer des colonnes à l’aide du gestionnaire de colonnes
 
 Vous pouvez utiliser le **Gestionnaire de colonnes** dans certaines listes améliorées pour ajouter et supprimer facilement des colonnes de la liste. Vous pouvez ajouter ou supprimer des champs système et personnalisés qui existent déjà dans Workfront sous forme de colonnes à une liste améliorée.
 
@@ -203,8 +203,8 @@ Pour appliquer ou créer une vue :
    Cliquez sur **Nouvelle vue** pour en créer une.
 
 1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
-1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [&#x200B; Filtrer les éléments dans une liste améliorée &#x200B;](#filter-items-in-an-enhanced-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [ Filtrer les éléments dans une liste améliorée ](#filter-items-in-an-enhanced-list).
 1. (Facultatif) Regroupez les éléments de la liste. Pour plus d’informations, voir [Regrouper des éléments dans une liste améliorée](#group-items-in-an-enhanced-list).
 
    Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
@@ -283,11 +283,13 @@ Pour trier des colonnes individuelles :
 
    ![Trier par colonne](assets/glist-sort-by-column.png)
 
-Pour trier votre travail dans un regroupement :
-
-1. Cliquez sur **Grouper**, accédez à la ligne du regroupement appliqué, cliquez sur la liste déroulante de tri, puis sélectionnez un ordre croissant ou décroissant.
+1. (Facultatif) Pour trier votre travail au sein d’un regroupement, cliquez sur **Grouper**, accédez à la ligne du regroupement appliqué, cliquez sur la liste déroulante de tri et sélectionnez un ordre croissant ou décroissant.
 
    ![Trier dans un regroupement](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >L’ordre de tri diffère en fonction du type de champ que vous triez.
 
 ### Recherche dans une liste améliorée
 

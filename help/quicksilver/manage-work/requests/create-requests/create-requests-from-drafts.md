@@ -6,7 +6,7 @@ description: En plus d’utiliser les brouillons disponibles, suggérés par Wor
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 70%
@@ -27,7 +27,8 @@ En plus d’utiliser les brouillons disponibles, suggérés par Workfront, lorsq
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Tout package Adobe Workfront ou Workflow</p>
+   <p>Tout package Adobe Workfront Planning permettant de créer des demandes pour Workfront Planning. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -38,12 +39,9 @@ En plus d’utiliser les brouillons disponibles, suggérés par Workfront, lorsq
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Modifier l’accès aux problèmes</p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> Produit</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Vous devez disposer d’Adobe Workfront Planning pour afficher les demandes Planning ou les formulaires de demande</td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+</tbody> 
 </table>
 
 Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
