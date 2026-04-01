@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
+source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Il suffit de suivre deux étapes simples 
 
 **Étape 1** : si vous n’avez pas encore d’identifiant de session, obtenez-en un en utilisant les méthodes doLogin() ou getSessionID(). Utilisez la première méthode pour vous « connecter » à l’aide de l’adresse e-mail et du mot de passe de l’utilisateur ou utilisatrice, ou la seconde si vous disposez de l’adresse e-mail et du jeton d’authentification de l’utilisateur ou utilisatrice.
 
-**Étape 2 :**il est maintenant temps de créer votre épreuve. Utilisez la méthode createProof() et envoyez-nous au moins les champs obligatoires (actuellement, il n’y en a que 5). Veillez à définir le paramètre Hachage sur « web » et le paramètre SourceName en tant qu’URL de la page web que vous souhaitez capturer.
+**Étape 2 :** il est maintenant temps de créer votre épreuve. Utilisez la méthode createProof() et envoyez-nous au moins les champs obligatoires (actuellement, il n’y en a que 5). Veillez à définir le paramètre Hachage sur « web » et le paramètre SourceName en tant qu’URL de la page web que vous souhaitez capturer.
 
 Si vous vous connectez maintenant à votre compte, vous verrez l’épreuve.
 
@@ -63,7 +63,7 @@ Il n’est pas nécessaire d’obtenir un nouvel identifiant de session avant ch
 
 ## Comment inclure des paramètres personnalisés lors de l’ouverture d’une mini-épreuve ?
 
-La mini-épreuve vous permet d’intégrer l’outil de relecture dans votre propre page. Un paramètre « référent » peut être inclus dans la mini-épreuve afin de fournir une URL de redirection lorsqu’un utilisateur ou une utilisatrice clique sur le bouton de fermeture dans la mini-épreuve. Vous pouvez inclure un nombre illimité de paramètres personnalisés dans cette URL de redirection en les ajoutant à l’aide du caractère d’échappement « &amp; », par exemple %26.
+La mini-épreuve vous permet d’incorporer l’outil de relecture dans votre propre page. Un paramètre « référent » peut être inclus dans la mini-épreuve afin de fournir une URL de redirection lorsqu’un utilisateur ou une utilisatrice clique sur le bouton de fermeture dans la mini-épreuve. Vous pouvez inclure un nombre illimité de paramètres personnalisés dans cette URL de redirection en les ajoutant à l’aide du caractère d’échappement « &amp; », par exemple %26.
 
 Par exemple, l’URL de mini-épreuve
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` doit être encodée comme
