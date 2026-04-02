@@ -5,10 +5,12 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 14%
+source-wordcount: '764'
+ht-degree: 12%
 
 ---
 
@@ -17,6 +19,38 @@ ht-degree: 14%
 Cette page décrit les améliorations apportées aux rapports avec la version du deuxième trimestre 2026 dans l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2026, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Exécuter des rapports en tant qu’utilisateur spécifique dans les tableaux de bord Zone de travail
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+>
+>Les tableaux de bord de la zone de travail sont actuellement en version bêta.
+
+Vous pouvez désormais configurer les rapports sur les tableaux de bord de la zone de travail pour qu’ils s’exécutent en tant qu’utilisateur spécifique. Lorsqu’il est activé, le rapport affiche les données en fonction de l’accès de l’utilisateur sélectionné et non des autorisations de l’observateur.
+
+Cela garantit des données plus cohérentes et plus fiables entre les visionneuses de tableaux de bord, même lorsque l’accès aux espaces de travail Planning, aux types d’enregistrements ou aux paramètres d’autorisation diffère.
+
+Pour plus d’informations, consultez les sections [Créer un rapport d’indicateurs de performance clés dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Créer un rapport de graphique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) ou [Créer un rapport de tableau dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+
+## La Diffusion De Rapports Planifiée Prend Désormais En Charge Les E-Mails Basés Sur Des Liens
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Workfront comprend désormais un nouveau type de diffusion Lien pour les rapports planifiés. Au lieu de générer et de joindre un fichier, cette option envoie un e-mail contenant un lien direct vers le rapport dans Workfront, ce qui permet aux destinataires d’afficher les données les plus récentes dans l’application.
+
+L’option Lien est désormais le type de diffusion par défaut des règles de diffusion de rapports planifiés nouvellement créées, tandis que les formats de fichier existants (HTML, PDF, Excel et TSV) restent disponibles.
+
+Avec cette modification, nous avons également mis à jour l’aspect de l’e-mail de diffusion de rapports.
+
+Pour plus d’informations, voir [Planification de la diffusion automatique des rapports](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 ## Nouvelles options d’authentification pour la connexion à Data Connect
 

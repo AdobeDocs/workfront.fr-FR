@@ -7,10 +7,12 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 15%
+source-wordcount: '1882'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +24,138 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Nouvelle fonctionnalité permettant d’augmenter la hauteur de ligne pour la vue Liste
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Nous avons ajouté un nouveau paramètre pour ajuster la hauteur des lignes dans la vue Liste.
+
+Pour plus d’informations, voir Gérer la vue Liste (help/quicksilver/planning/views/manage-the-list-view.md).
+
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Ajouter un nom de type d’enregistrement et une icône d’affichage aux affichages partagés publiquement
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Pour vous assurer que les destinataires comprennent toujours la vue qu&#39;ils ont reçue lorsqu&#39;ils ouvrent un lien partagé publiquement vers un type d&#39;enregistrement, nous avons ajouté le nom du type d&#39;enregistrement à la page de vue partagée, en plus de l&#39;icône d&#39;affichage et du nom de la vue.
+
+Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md)
+
+## Nouvelle fonctionnalité de regroupement ajoutée à la liste Formulaires de demande
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Pour vous aider à mieux organiser les informations, nous avons ajouté la possibilité de regrouper les éléments de la page Formulaires de demande d’un type d’enregistrement.
+
+Avant cette amélioration, cette fonctionnalité n’existait pas dans cette zone.
+
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Développer la liste des entités partagées pour afficher les utilisateurs
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Vous pouvez désormais développer des groupes, des équipes, des entreprises et des rôles pour afficher leurs membres lorsque vous partagez un espace de travail ou une vue avec eux. Avant cette amélioration, les listes d’appartenance n’étaient disponibles pour ces objets que lors du partage de types d’enregistrements.
+
+Pour plus d’informations, consultez la section [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Modèle de bonnes pratiques multi-espace de travail pour la mise en œuvre de Workfront Planning
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Nous introduisons un package de modèles pour vous aider à rationaliser l’implémentation de Workfront Planning dans votre entreprise. En installant le modèle de cadre des bonnes pratiques, vous pouvez créer jusqu’à six espaces de travail contenant toutes les informations dont vous avez besoin pour commencer à faire évoluer votre planification stratégique dans Workfront.
+
+Le modèle multi-espace de travail contient un modèle global qui établit les types d’enregistrements principaux que vous pouvez utiliser dans tout espace de travail personnalisé que vous avez créé. En outre, le modèle comprend 5 espaces de travail supplémentaires que vous pouvez utiliser comme exemples et qui sont interconnectés les uns aux autres ainsi qu’à d’autres objets dans Workfront.
+
+Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+>[!NOTE]
+>
+> Cette amélioration est disponible uniquement pour les clients et clientes disposant d’un package Prime ou d’une version ultérieure.
+
+## Recherche globale d’objets Workfront Planning à partir de n’importe quelle page Workfront Planning
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Vous pouvez désormais rechercher des espaces de travail, des types d’enregistrements ou des vues à partir de n’importe quelle page dans Workfront Planning à l’aide des combinaisons de touches suivantes, quelle que soit la page Planning :
+
+* CTRL+K pour Windows
+* ⌘+K pour Mac
+
+Vous pouvez également rechercher des espaces de travail, des types d’enregistrements ou des vues à partir de la nouvelle zone de recherche ajoutée à la page de destination Planning.
+
+Pour plus d’informations, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+## Appliquer une mise en forme conditionnelle supplémentaire à une liste de projets dans la page connectée d&#39;un enregistrement
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Vous pouvez désormais appliquer une mise en forme conditionnelle supplémentaire à une liste de projets dans la page connectée d&#39;un enregistrement.
+
+Les nouvelles fonctionnalités de mise en forme conditionnelle sont les suivantes :
+
+* Ajouter une couleur au texte
+
+* Mettre le texte en gras ou en italique dans une cellule
+
+* Possibilité d’appliquer la mise en forme conditionnelle à une ligne entière
+
+Avant cette amélioration, seule la possibilité d’ajouter de la couleur à l’arrière-plan d’une cellule existait.
+
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Ajout de noms personnalisés pour les filtres dans la vue Liste
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Nous avons ajouté les noms personnalisés suivants pour un filtre d’équipe, de groupe, d’entreprise et de rôle dans la vue Liste :
+
+* Mon équipe interne, Mes équipes
+
+* Mon groupe principal, Mes groupes
+
+* Mon rôle principal, Mes rôles
+
+* Mon entreprise
+
+Les champs doivent exister sur les objets affichés dans la vue pour que les options de filtrage soient visibles.
+
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
+
 ## Reconception du chemin de navigation
 
 >[!NOTE]
@@ -32,7 +166,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 Nous avons repensé l’affichage des chemins de navigation dans les types d’enregistrements et . Désormais, lorsque vous cliquez sur Plus dans la ligne de chemin de navigation, les noms des enregistrements et des objets s’affichent sur plusieurs lignes. Avant cette amélioration, cliquer sur Plus affichait les noms des enregistrements et des objets dans les menus déroulants.
 
-Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 <!--
 
@@ -149,7 +283,7 @@ Lorsque vous partagez la vue Liste dans la page des enregistrements connectés a
 
 Cette mise à jour est disponible uniquement dans la vue Liste, pour la page Enregistrements connectés d’un enregistrement lors de l’affichage de projets.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Appliquer une mise en forme conditionnelle à la vue Liste
 
@@ -161,7 +295,7 @@ Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/q
 
 Vous pouvez désormais appliquer une mise en forme conditionnelle aux projets dans une vue Liste dans la page Enregistrements connectés d’un enregistrement. Cette fonctionnalité n’existait pas dans la vue Liste avant cette amélioration.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Améliorations des types d’enregistrements globaux dans les espaces de travail secondaires
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
+source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '713'
 ht-degree: 14%
 
 ---
@@ -20,12 +20,44 @@ Cette page décrit les améliorations apportées aux documents avec la version d
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2026, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Révision et approbations unifiées optimisées par Workfront et Frame.io
+## Approvisionnement de GenStudio Foundations activé pour prendre en charge les collaborateurs d’IA
 
+>[!NOTE]
+>
+>Aperçu : 31 mars 2026
+>Version rapide de production : mercredi 31 mars 2026
+>Production pour tous : mercredi 31 mars 2026
+
+Le 31 mars 2026, tous les clients Workfront ont été configurés pour GenStudio Foundation et les administrateurs système d’Admin Console auront reçu un e-mail les informant de cet ajout. Ce produit est configuré uniquement pour que les clients Workfront puissent donner aux marques l’accès aux clients Workfront selon les besoins pour la publication des collaborateurs de l’IA. Le produit lui-même n’est qu’un mécanisme d’accès pour les marques, et aucune fonctionnalité supplémentaire n’est disponible dans le produit GenStudio Foundation.
+
+Les clients ne seront pas facturés pour ce nouveau produit.
+
+## Mises à jour de mon widget d’approbation
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Les améliorations suivantes ont été apportées au widget Mes approbations dans l’Accueil :
+
+* Trier la liste des validations par ordre décroissant ou le plus récent
+* Développement du widget en plein écran
+
+Pour plus d’informations, voir [ Gérer vos approbations avec le widget Mes approbations ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+
+## Révision et approbations unifiées optimisées par Workfront et Frame.io
 
 >[!IMPORTANT]
 >
 >Cette nouvelle fonctionnalité est disponible pour les nouveaux clients et pour les clients existants lors du renouvellement.
+
+>[!NOTE]
+>
+>Aperçu : 12 mars 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
 
 
 Nous sommes ravis de vous présenter la fonctionnalité Révision et approbation unifiées de Workfront et Frame.io, une expérience de révision et d&#39;approbation simplifiée.
@@ -54,7 +86,7 @@ Le stockage d’entreprise Adobe est une solution de stockage dans le cloud qui 
 
 L’accès au stockage d’entreprise d’Adobe ouvre également la voie à de futures intégrations de la gestion des ressources à d’autres produits Adobe, tels que Adobe Creative Cloud.
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Workflows d’approbation à plusieurs étapes disponibles pour les approbations unifiées
 

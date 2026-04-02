@@ -5,10 +5,12 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 16%
+source-wordcount: '551'
+ht-degree: 15%
 
 ---
 
@@ -17,6 +19,22 @@ ht-degree: 16%
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du deuxième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2026, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Collaborateurs d’IA désormais disponibles
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Nous avons créé des collaborateurs en IA pour vous aider à tirer parti de l&#39;IA dans votre travail quotidien. Les collaborateurs AI permettent d’intégrer des agents AI à vos projets et tâches. Vous pouvez configurer un collaborateur de l’IA avec des directives de marque, puis l’affecter à une tâche comme vous le feriez pour un utilisateur.
+
+Actuellement, les collaborateurs d’IA peuvent être utilisés pour réviser du contenu. D’autres fonctionnalités AI Collaborator seront disponibles à l’avenir.
+
+<!--
+For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
+-->
 
 ## Les trimestres personnalisés sont désormais disponibles dans la configuration sous la forme d’une page distincte
 
