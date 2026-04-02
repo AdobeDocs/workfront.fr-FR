@@ -81,6 +81,6 @@ Chaque sous-emplacement peut être ajouté en tant qu’attribut sur une carte t
 
    Le sous-emplacement est mis en retrait sous l’emplacement de niveau supérieur.
 
-   ![ Emplacements et sous-emplacements ](assets/locations-sublocations.png)
+   ![&#x200B; Emplacements et sous-emplacements &#x200B;](assets/locations-sublocations.png)
 
 
