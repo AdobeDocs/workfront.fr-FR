@@ -6,10 +6,12 @@ description: Si vous utilisez la nouvelle expérience de demande, vous pouvez cr
 author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 8%
+source-wordcount: '725'
+ht-degree: 11%
 
 ---
 
@@ -21,16 +23,14 @@ ht-degree: 8%
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
-Si vous utilisez la nouvelle expérience de demande dans Adobe Workfront, vous pouvez créer et enregistrer des vues pour la zone des Demandes . Ces vues incluent des filtres et des dispositions de colonnes.
-
-<!--<span class="preview"> and groupings.</span>-->
+Si vous utilisez la nouvelle expérience de demande dans Adobe Workfront, vous pouvez créer et enregistrer des vues pour la zone des Demandes . Ces vues incluent des filtres et des dispositions de colonnes, des <span class="preview"> et des regroupements.</span>
 
 
 >[!IMPORTANT]
 >
 >* Cette fonctionnalité n’est disponible que dans la nouvelle expérience de demande de la zone des Demandes .
 >* Les paramètres d’affichage sont également disponibles dans le widget Mes requêtes de l’Accueil. Toutefois, les vues de la zone des Demandes sont distinctes de celles du widget Mes demandes .
->* La liste des demandes de la zone des Demandes utilise la liste améliorée de Workfront. Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+>* La liste des demandes de la zone des Demandes et du widget Mon travail utilise la liste améliorée de Workfront. Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Conditions d’accès
 
@@ -45,8 +45,7 @@ Si vous utilisez la nouvelle expérience de demande dans Adobe Workfront, vous p
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tout package de Workfront ou de workflow</p>
-
-<p>Toute licence Workfront Planning, pour afficher les demandes Workfront Planning dans les listes de demandes</p>
+   <p>Toute licence Workfront Planning, pour afficher les demandes Workfront Planning dans les listes de demandes</p>
     </td> 
   </tr> 
   <tr> 
@@ -72,75 +71,108 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
+<div class="preview">
+
+## Vues système pour les requêtes
+
+Outre les vues que vous pouvez créer vous-même, Workfront propose les vues système suivantes pour la zone des Requêtes et le widget Mes requêtes dans l’Accueil :
+
+* **Toutes les requêtes** : toutes les requêtes que vous ou une autre personne avez envoyées dans les files d’attente ou les espaces de travail que vous êtes autorisé à afficher. Cette option n’est pas disponible pour le widget Mes requêtes .
+* **Mes demandes** : les demandes que vous avez envoyées, quel que soit leur statut.
+* **Mes demandes ouvertes** : les demandes que vous avez envoyées sont toujours ouvertes.
+* **Mes brouillons** : des brouillons de vos requêtes qui n&#39;ont pas encore été soumis.
+* **Demandes ouvertes** : demandes que vous ou toute autre personne avez envoyées dans les files d’attente ou pour les espaces de travail que vous êtes autorisé à afficher et qui sont toujours ouverts. Cette option n’est pas disponible pour le widget Mes requêtes .
+
+Vous ne pouvez pas modifier les vues système. Vous pouvez modifier leurs éléments, puis copier la vue et modifier ou partager la copie.
+
+</div>
+
 ## Création d’une vue pour les requêtes
 
-Vous pouvez créer une vue dans la zone des Demandes de Workfront lorsque vous utilisez la nouvelle expérience de demandes.
+Vous pouvez créer une vue dans la zone des Demandes de Workfront lorsque vous utilisez la nouvelle expérience de demandes. Après avoir activé et ajouté une nouvelle expérience de requêtes, vous pouvez également créer des vues pour le widget Mes requêtes dans l’Accueil.
 
-1. Pour accéder à la liste Demandes :
+1. Pour accéder à la liste **Demandes** :
 
    {{step1-to-requests}}
 
-1. Assurez-vous que le paramètre **Utiliser une nouvelle expérience** est activé.
+   1. Assurez-vous que le paramètre **Utiliser une nouvelle expérience** est activé.
 
-1. Dans la liste **Demandes**, cliquez sur le menu déroulant **Vues** ![Vues](assets/view-icon-requests.png) et cliquez sur **Nouvelle vue**.
+1. Pour accéder au widget **Mes requêtes** dans l’accueil :
+
+   {{step1-to-home}}
+
+   1. Ajoutez ou accédez au widget **Mes requêtes**.
+
+1. Dans la liste des requêtes, cliquez sur le menu déroulant **Vues** ![Liste déroulante Vues](assets/view-icon-requests.png) et cliquez sur **Nouvelle vue**.
 
    ![Nouvel affichage](assets/create-new-view.png)
 
 1. Saisissez le nom de la nouvelle vue, puis cliquez sur **Créer**.
-1. Passez à [Modifier une vue dans la zone des Demandes](#edit-a-view-in-the-requests-area).
+1. Passez à [Modifier une vue pour les demandes](#edit-a-view-for-requests).
 
 ## Modification d’une vue pour les requêtes
 
-Vous pouvez modifier des vues existantes, y compris les vues que vous venez de créer dans la zone des Demandes de Workfront.
+Vous pouvez modifier des vues existantes, y compris les vues que vous venez de créer dans la zone des Demandes ou le widget Mes demandes dans l’Accueil.
 
-En modifiant une vue dans la zone Demandes , vous pouvez modifier les éléments suivants de la vue :
+En modifiant une vue, vous pouvez modifier les éléments suivants de la vue :
 
 * Nom
 * Filtres
 * Colonnes
 
-Les modifications que vous apportez à une vue sont visibles pour toutes les personnes avec lesquelles vous partagez cette vue.
+<div class="preview">
 
-1. Pour accéder à une liste de demandes dans les demandes, procédez comme suit :
+* Regroupement
+* Formater les cellules
+* Hauteur de ligne
 
+</div>
+
+Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+<!-- 
+hide these details - all the information is in "Use enhanced lists" - we need one point of messaging for this feature: 
+
+1. To access a list of requests in the Requests are: 
+   
    {{step1-to-requests}}
 
-1. Assurez-vous que le paramètre **Utiliser une nouvelle expérience** est activé.
-1. Dans la liste **Demandes**, recherchez la vue à modifier dans le menu déroulant **Vues** ![Vues](assets/view-icon-requests.png).
+1. Ensure the **Use new experience** setting is turned on.
+1. In the **Requests** list, locate the view that you want to edit from the **Views** dropdown menu ![Views dropdown](assets/view-icon-requests.png).
 
-1. Cliquez sur la liste déroulante **Vues** ![Liste déroulante Vues](assets/view-icon-requests.png) et cliquez sur le menu à trois points en regard de la vue, sélectionnez **Renommer**, puis saisissez le nouveau nom de la vue.
-1. Appuyez sur Entrée pour enregistrer le nouveau nom.
-1. Cliquez sur la liste déroulante **Vues** ![Vues déroulantes](assets/view-icon-requests.png) et sélectionnez la vue à modifier.
-1. Pour ajouter un champ sous forme d’une colonne, cliquez sur l’icône **Ajouter une colonne** ![Ajouter une colonne](assets/add-column.png) dans le coin supérieur droit de la liste.
+1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and click the three-dot menu next to the view, select **Rename**, then type in the new name for the view.
+1. Press Enter to save the new name. 
+1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select the view you want to edit.
+1. To add a field as a column, click the **Add column** icon ![Add column](assets/add-column.png) in the upper-right corner of the list. 
 
-   Le **Gestionnaire de colonnes** s’ouvre.
-1. Cliquez sur l’icône plus en regard du champ que vous souhaitez ajouter en tant que colonne à l’affichage, puis cliquez sur **Enregistrer**.
+   The **Column manager** opens.
+1. Click the plus icon next to the field that you want to add as a column to the view, then click **Save**.
 
-   Les champs associés aux objets de la liste peuvent être ajoutés en tant que colonnes. <!--keeping this general, and not referring to custom fields because there are some native fields that are supported and there will be more in the future-->
+   Fields associated with the objects in the list are available to add as columns. <!-keeping this general, and not referring to custom fields because there are some native fields that are supported and there will be more in the future->
 
    >[!TIP]
    >
-   >Les champs que vous ajoutez aux colonnes doivent exister avant d’être disponibles dans le **Gestionnaire de colonnes**.
+   >Fields you add to the columns must exist before they are available in the **Column manager**.
 
-1. (Facultatif) Cliquez sur **Colonnes** pour ouvrir la zone **Visibilité et ordre des champs**.
-1. Activez le paramètre pour chaque champ que vous souhaitez afficher dans la liste, désactivez-le pour le masquer ou faites glisser et déposez les champs dans un ordre différent.
+1. (Optional) Click **Columns** to open the **Fields visibility and order** box. 
+1. Turn on the setting for each field  you want to show in the list, turn it off to hide it, or drag and drop the fields in a different order.
 
-1. (Facultatif) Cliquez sur **Filtres** et commencez à ajouter des conditions pour les requêtes que vous souhaitez afficher.
+1. (Optional) Click **Filters** and start adding conditions for what requests you want to view. 
 
-   Vous pouvez filtrer selon les champs de requête suivants :
+    You can filter by the following request fields:  
 
-   * **&#x200B;**&#x200B;: espace de travail auquel le formulaire de demande est associé.
-   * **Type d’objet** : type d’enregistrement auquel le formulaire de demande est associé.
-   * **Date d’entrée** : date à laquelle la demande a été soumise.
-   * **Formulaire de demande** : nom du formulaire de demande utilisé pour soumettre la demande.
-   * **Statut** : statut de la demande.
-   * **Saisi par** : nom de l’utilisateur qui a ajouté la demande. Si la demande a été ajoutée par une personne extérieure à Workfront, le champ **Saisi par** affiche `N/A`.
+    * **Workspace**: The workspace the request form is associated with.
+    * **Object type**: The record type the request form is associated with.
+    * **Entry date**: The date when the request was submitted.
+    * **Request form**: The name of the request form used to submit the request.
+    * **Status**: The status of the request.
+    * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
 
-   Vous pouvez également filtrer selon les champs qui ont été ajoutés à la vue pour tout objet visible dans la vue.
+    You can also filter by any fields that have been added to the view for any object visible in the view.
 
-   Plusieurs filtres peuvent être joints par **Et** ou **Ou**.
-La liste des demandes est automatiquement filtrée à mesure que vous ajoutez les conditions de filtrage.
-
+    You can have multiple filters joined by either **And** or **Or**.
+    The request list is filtered automatically, as you add the filter conditions. 
+-->
 
 <!--
 1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
@@ -150,27 +182,37 @@ La liste des demandes est automatiquement filtrée à mesure que vous ajoutez le
 >[!IMPORTANT]
 >
 > * Les modifications apportées aux vues sont enregistrées automatiquement.
-> * Toute personne qui utilise la vue peut voir les modifications apportées aux vues.
+> * Toute personne qui utilise la vue peut voir les modifications apportées aux vues <span class="preview">uniquement lorsque vous partagez une nouvelle copie de la vue après y avoir apporté des modifications.</span>
 > * Utilisez le caractère générique de filtre **Moi (utilisateur connecté)** dans tout champ ayant des utilisateurs comme valeur.
 
-## Ajoutez la vue Demandes à un modèle de mise en page.
+## Ajout de la vue des requêtes à un modèle de mise en page
 
-Un administrateur Workfront peut ajouter la nouvelle vue aux modèles de mise en page.
+Un administrateur Workfront peut ajouter une nouvelle vue aux modèles de mise en page pour la zone des Demandes .
 
 Pour obtenir des instructions, voir [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 ## Partager une vue
 
-Vous pouvez partager les vues que vous créez avec d&#39;autres utilisateurs, équipes ou groupes.
+Vous pouvez partager les vues que vous créez avec d&#39;autres utilisateurs, équipes, groupes ou sociétés.
 
-1. Pour accéder à une liste de demandes dans les demandes, procédez comme suit :
+Après avoir partagé une vue, d’autres utilisateurs peuvent afficher les éléments de vue mis à jour que vous avez modifiés pour la vue avant de la partager.
 
+<span class="preview">S&#39;ils mettent à jour la vue, leurs modifications ne seront pas visibles par les autres utilisateurs, à moins qu&#39;ils ne fassent une copie de la même vue et conservent leurs modifications avant de partager la copie.
+
+Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+
+<!--
+Let's just redirect to Use enhanced lists so we avoid duplicating information. 
+
+1. To access a list of requests in the Requests are: 
+   
    {{step1-to-requests}}
 
-1. Assurez-vous que le paramètre **Utiliser une nouvelle expérience** est activé.
-1. Dans la liste **Demandes**, recherchez la vue que vous souhaitez partager.
-1. Pointez sur la vue à partager, puis cliquez sur le menu à trois points situé à droite du nom de la vue, puis cliquez sur **Partager**.
-1. Dans la zone **Partager**, saisissez les personnes, équipes, rôles, groupes ou sociétés avec lesquels vous souhaitez partager la vue, puis sélectionnez-les dans la liste lorsqu&#39;elles apparaissent.
-1. Cliquez sur **Enregistrer**.
+1. Ensure the **Use new experience** setting is turned on.
+1. In the **Requests** list, locate the view that you want to share.
+1. Hover over the view that you want to share, then click on the three-dot menu to the right of the view name, then click  **Share**.
+1. In the **Share** box, enter the people, teams, roles, groups, or companies that you want to share the view with, then select them from the list when they appear.
+1. Click **Save**.
 
-   La vue est partagée avec les entités que vous indiquez. Ils peuvent afficher les éléments de vue mis à jour que vous avez modifiés pour la vue avant de la partager. <span class="preview">S&#39;ils mettent à jour la vue, leurs modifications ne seront pas visibles par les autres utilisateurs, à moins qu&#39;ils ne fassent une copie de la même vue et conservent leurs modifications avant de partager la copie. Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+   The view is shared with the entities you indicate. 
+-->

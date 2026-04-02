@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1586'
 ht-degree: 5%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 5%
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
-# Partage des types d’enregistrements
+# Partager des types d’enregistrements
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -89,7 +91,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -147,7 +150,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
   </tr> 
  
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Remarques concernant le partage de types d’enregistrements
 
@@ -201,7 +205,7 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations d’affichage ou supérieures pour l’espace de travail peuvent afficher le type d’enregistrement.
 
@@ -215,11 +219,15 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
 
    1. Sélectionnez **Désactiver** dans le menu déroulant **Autorisations héritées**.
 
-   >[!TIP]
-   >
-   >Les responsables Workspace conservent les autorisations de niveau Gérer pour le type d’enregistrement.
+      >[!TIP]
+      >
+      >Les responsables Workspace conservent les autorisations de niveau Gérer pour le type d’enregistrement.
 
    1. Dans le champ **Accorder l’accès à ce type d’enregistrement**, ajoutez les utilisateurs, équipes, groupes, sociétés ou fonctions auxquels vous souhaitez accorder un niveau d’autorisation différent de celui qu’ils ont pour l’espace de travail.
+   1. <span class="preview">(Facultatif) Lorsque vous effectuez un partage avec un groupe, une équipe, un rôle ou une entreprise, passez la souris sur le nom de l’entité et cliquez sur la flèche pointant vers la droite pour développer la liste des utilisateurs qui reçoivent les autorisations. </span>
+
+      ![Partager le type d’enregistrement avec le groupe](assets/share-record-type-with-group-expanding-arrow-highlighted.png)
+
    1. Choisissez un niveau d’autorisation.
 
    >[!IMPORTANT]
@@ -270,7 +278,8 @@ Vous pouvez supprimer les autorisations des utilisateurs d’un type d’enregis
 
    Les utilisateurs qui ont été supprimés de l’accès au type d’enregistrement ne reçoivent aucune notification indiquant qu’ils ne disposent plus de ces autorisations.
 
-<!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
+<!--
+ This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
 
@@ -295,5 +304,8 @@ Users who access a link to a record type to which they do not have permissions c
 1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
-   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
+   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. 
+   
+   will they also get an in-app notification??
+-->
 

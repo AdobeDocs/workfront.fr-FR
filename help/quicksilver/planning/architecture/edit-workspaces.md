@@ -6,19 +6,23 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 26%
+source-wordcount: '811'
+ht-degree: 23%
 
 ---
 
 
 # Modifier des espaces de travail
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -29,6 +33,16 @@ Un espace de travail est une collection de types d’enregistrements utilisés p
 Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 Toutes les modifications apportées à un espace de travail sont visibles par tous ceux qui disposent au moins des autorisations d&#39;affichage de l&#39;espace de travail.
+
+Vous pouvez modifier un espace de travail des manières suivantes :
+
+* Manuellement.
+
+  Cet article décrit comment modifier manuellement un espace de travail.
+
+* Utilisation de Planning Designer optimisé par l’IA Actuellement, cette fonctionnalité n’est disponible que dans un programme Beta limité.
+
+  Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 ## Conditions d’accès
 
@@ -69,7 +83,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -123,7 +138,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    <td>  <p>Manage permissions to the workspace </p>   </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Modifier un espace de travail
 
@@ -141,6 +157,16 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    * Pointez sur la carte de l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte
 Ou
    * Cliquez sur l’icône **rechercher** ![icône Rechercher](assets/search-icon.png) dans le coin supérieur droit de la page Espaces de travail pour rechercher un espace de travail par nom, puis cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’espace de travail.
+
+   >[!TIP]
+   >
+   ><span class="preview">Vous pouvez utiliser la combinaison de clavier suivante pour ouvrir la zone de recherche globale à partir de n’importe quelle page Workfront Planning et rechercher des espaces de travail </span>
+   >
+   >* <span class="preview">CTRL+K pour Windows</span>
+   >* <span class="preview">⌘+K pour Mac</span>
+   >
+   >![Zone de recherche globale](assets/global-search-box.png)
+
 1. Cliquez sur **Modifier**.
 
    La zone **Modifier l’espace de travail** s’affiche.

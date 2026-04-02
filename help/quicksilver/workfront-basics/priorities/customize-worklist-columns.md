@@ -6,14 +6,19 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 26%
+source-wordcount: '301'
+ht-degree: 21%
 
 ---
 
 # Personnaliser les colonnes de la liste de travail des priorités
+
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Vous pouvez personnaliser les colonnes de la liste de tâches dans Priorités pour prendre en charge votre manière de travailler.
 
@@ -34,7 +39,7 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +71,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Colonnes** sur le côté gauche de l’écran.
-   ![Colonnes &#x200B;](assets/columns-new.png)
+   ![Colonnes ](assets/columns-new.png)
 1. Utilisez les bascules pour activer ou désactiver les colonnes de la liste de travail.
 
 ### Réorganiser les colonnes
@@ -80,3 +85,22 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 >[!NOTE]
 >
 >La colonne Nom est fixe et ne peut pas être déplacée.
+
+<div class="preview">
+
+### Modifier la hauteur de ligne dans la liste de priorités
+
+{{step1-to-priorities}}
+
+1. Cliquez sur l’icône **Hauteur de ligne**.
+
+   Cette option met à jour la longueur verticale d’une ligne. Choisissez l’une des options suivantes :
+
+   * Court
+   * Standard. Il s’agit du choix par défaut.
+   * Moyen
+   * Grand
+
+   La liste est immédiatement mise à jour.
+
+</div>

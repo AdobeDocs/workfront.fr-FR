@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1375'
 ht-degree: 33%
 
 ---
@@ -115,7 +117,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -177,7 +180,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 </td>
   </tr>
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Remarques concernant l’utilisation des vues d’enregistrement
 
@@ -281,9 +285,19 @@ Pour plus d’informations sur les vues Liste, voir [Gérer la vue Liste](/help/
    ![Créer une zone de vue](assets/create-view-box.png)
 
 1. (Facultatif) Pour modifier une vue existante, cliquez sur le menu déroulant situé à droite du nom de la vue actuelle, puis tapez le nom d&#39;une vue dans le champ **Rechercher** et appuyez sur la touche Entrée du clavier.
+
+   >[!TIP]
+   >
+   ><span class="preview">Vous pouvez utiliser la combinaison de clavier suivante pour ouvrir la zone de recherche globale à partir de n’importe quelle page Workfront Planning et rechercher des vues : </span>
+   >
+   >* <span class="preview">CTRL+K pour Windows</span>
+   >* <span class="preview">⌘+K pour Mac</span>
+   >
+   >![Zone de recherche globale](assets/global-search-box.png)
+
 1. (Facultatif) Dans le menu déroulant Affichage , faites glisser et déposez les vues dans l’ordre de votre préférence.
 
-   ![Liste déroulante Afficher les types de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)
+   ![Liste déroulante des types de vue à partir de la liste des types d’enregistrement](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Le cas échéant) Cliquez sur **Suivant** lors de la création d’une vue chronologique ou de calendrier.
 
