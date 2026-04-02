@@ -1,18 +1,21 @@
 ---
 product-area: home
 navigation-topic: use-the-home-area
-title: Gérer vos approbations à l’aide du widget Mes approbations
+title: Gérer les approbations à l’aide du widget Mes approbations
 description: Le widget Mes approbations affiche toutes vos approbations en attente, affectées, déléguées et soumises au même endroit. Ici, vous pouvez filtrer et organiser vos approbations, prendre des décisions et déléguer les approbations si nécessaire.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 4981d9adb2cae53e30f13aa2a7aa6857befbf3ca
+exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
+source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 36%
+source-wordcount: '431'
+ht-degree: 38%
 
 ---
 
-# Gérer vos approbations à l’aide du widget Mes approbations
+# Gérer les approbations à l’aide du widget Mes approbations
+
+{{highlighted-preview}}
 
 Le widget Mes approbations affiche toutes vos approbations en attente, affectées, déléguées et soumises au même endroit. Ici, vous pouvez filtrer et organiser vos approbations, prendre des décisions et déléguer les approbations si nécessaire.
 
@@ -35,13 +38,13 @@ Le widget Mes approbations prend en charge les approbations des objets Workfront
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
@@ -70,9 +73,16 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >Les approbations affectées à des fonctions ou à des groupes ne s’affichent pas dans la page d’accueil. Les approbations affectées aux équipes s’affichent dans le widget Mes approbations pour chaque membre de l’équipe.
 
 
+1. <span class="preview">(Conditionnel) Cliquez sur le menu déroulant **Tri**, puis sélectionnez **Les plus récentes** pour afficher les approbations ajoutées le plus récemment.</span>
+
+
+1. <span class="preview">(Facultatif) Cliquez sur l’icône Plein écran ![Icône Plein écran](assets/full-screen.png) pour ouvrir le widget Mes approbations en plein écran.</span>
+
 1. Sélectionnez l’élément pour lequel vous souhaitez prendre une décision d’approbation.
 
    ![Widget Mes approbations](assets/my-approvals-widget.png)
+
+   <!--update screenshot after production release-->
 
 1. Cliquez sur l’une des options disponibles lorsque vous prenez une décision d’approbation dans le panneau de droite. Les options suivantes s’affichent dans le coin supérieur droit de la page, en fonction du type d’élément que vous approuvez :
 
