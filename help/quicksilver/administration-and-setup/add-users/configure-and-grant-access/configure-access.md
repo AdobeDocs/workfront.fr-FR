@@ -1,5 +1,5 @@
 ---
-title: Configurer l’accès à Adobe Workfront
+title: Configuration de l'accès à Adobe Workfront
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 97%
+source-wordcount: '202'
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,9 @@ Ces articles expliquent comment, en tant qu’administrateur ou administratrice 
 * [Accorder l’accès aux filtres, aux vues et aux regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [Accorder l’accès au planificateur de scénarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [Accorder l’accès à la gestion des ressources](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [Accorder l’accès aux cartes tarifaires](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Accorder l’accès à Objectifs Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* [Octroi de l’accès aux autorisations de marque](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
 
 ## Voir aussi
 

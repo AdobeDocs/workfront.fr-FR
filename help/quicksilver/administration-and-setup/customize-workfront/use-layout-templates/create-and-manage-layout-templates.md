@@ -9,10 +9,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 94%
+source-wordcount: '507'
+ht-degree: 90%
 
 ---
 
@@ -24,6 +26,8 @@ ht-degree: 94%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
+{{highlighted-preview}}
+
 En tant qu’administrateur ou administratrice Adobe Workfront ou administrateur ou administratrice de groupes, vous pouvez créer et modifier des modèles de mise en page pour personnaliser les éléments de disposition suivants dans Workfront pour vos utilisateurs et utilisatrices :
 
 * Menu principal
@@ -32,7 +36,8 @@ En tant qu’administrateur ou administratrice Adobe Workfront ou administrateu
 * Panneau Résumé
 * Vues, filtres et regroupements que les personnes utilisent avec les listes et les rapports.
 * Terminologie à l’écran
-* En-têtes pour les projets, tâches et problèmes
+* <span class="preview">En-têtes d’objet</span>
+* <span class="preview">Menu Plus (menu à trois points) pour un objet</span>
 
 Après avoir créé ou modifié un modèle de mise en page, vous pouvez l’affecter à des utilisateurs et utilisatrices individuels, à des équipes, à des groupes ou à des fonctions.
 
@@ -47,7 +52,7 @@ La disposition par défaut de Workfront de chaque personne dépend de son niveau
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -70,15 +75,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Considérations relatives à la création et à la gestion des modèles de mise en page
 
-* Les utilisateurs et utilisatrices peuvent personnaliser quelques zones de leur propre disposition. Lorsque vous modifiez un modèle de mise en page, vos modifications s’intègrent à toutes les personnalisations effectuées, sans les écraser ni les réinitialiser. Il en va de même si vous attribuez un nouveau modèle de mise en page à des utilisateurs ou utilisatrices.
+* Les utilisateurs et utilisatrices peuvent personnaliser quelques zones de leur propre disposition. Lorsque vous modifiez un modèle de mise en page, vos modifications sont fusionnées avec toutes les personnalisations effectuées, sans les écraser ni les réinitialiser. Il en va de même si vous attribuez un nouveau modèle de mise en page à des utilisateurs ou utilisatrices.
 * Les administrateurs et administratrices de groupes et les personnes disposant d’une licence Plan qui peuvent modifier d’autres utilisateurs et utilisatrices peuvent ajouter des modèles de mise en page au niveau du système et du groupe aux personnes qu’ils peuvent gérer lorsqu’ils modifient leur profil.
 * Les administrateurs et administratrices de groupes ne peuvent pas attribuer de modèles de mise en page à des fonctions ou à des équipes.
 
 Pour plus d’informations sur les modèles de mise en page, voir [Modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
-
-<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
-* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
--->
 
 ## Créer ou modifier un modèle de mise en page
 
@@ -98,9 +99,10 @@ Pour plus d’informations sur les modèles de mise en page, voir [Modèles de m
 
    * [Personnaliser le menu principal à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
    * [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+   * [Personnaliser le menu Plus à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
    * [Personnaliser les pages épinglées à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [Personnalisation du panneau Résumé à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Personnaliser le panneau Résumé à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Personnaliser l’accueil à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    * [Personnaliser la page de destination à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
@@ -114,5 +116,5 @@ Pour plus d’informations sur les modèles de mise en page, voir [Modèles de m
 
 >[!TIP]
 >
->Vous pouvez également créer un modèle de mise en page en le copiant et en modifiant la copie. Pour plus d’informations, voir [Copier un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>Vous pouvez également créer un modèle de mise en page en le copiant et en modifiant la version copiée. Pour plus d’informations, voir [Copier un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 

@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '7726'
-ht-degree: 92%
+source-wordcount: '7855'
+ht-degree: 91%
 
 ---
 
@@ -18,9 +20,11 @@ ht-degree: 92%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -48,7 +52,8 @@ Idéalement, vous devez modifier un projet lorsque celui-ci est au statut Planif
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Pour définir des taux de change au niveau du système pour le projet et conserver les taux de facturation du projet : Workflow Ultimate</p>
+      <p>Pour modifier tous les autres paramètres : tout Workfront ou package de workflow</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -72,7 +77,8 @@ Idéalement, vous devez modifier un projet lorsque celui-ci est au statut Planif
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +107,8 @@ Idéalement, vous devez modifier un projet lorsque celui-ci est au statut Planif
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Limites de modification des projets
 
@@ -369,7 +376,7 @@ Pour modifier des informations sur des formulaires personnalisés lors de la mod
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
 
-   ![Formulaires personnalisés dans la zone de modification du projet](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![Formulaires personnalisés dans la zone Modifier le projet](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Cliquez sur la boîte de dialogue **Ajouter un formulaire personnalisé** et sélectionnez un formulaire dans la liste pour le joindre au projet. Par défaut, les 40 premiers formulaires s’affichent par ordre alphabétique. Si le formulaire ne figure pas dans la liste, commencez à saisir son nom, puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
@@ -400,11 +407,12 @@ Lorsque vous sélectionnez plusieurs projets pour les modifier en bloc, les scé
 
 Pour modifier les champs de la zone Finances, procédez comme suit :
 
-
 1. Commencez à modifier votre projet comme décrit ci-dessus.
 1. Cliquez sur **Finances** dans le panneau de gauche.
 
    ![Zone Finance dans la zone d’édition du projet](assets/nwe-finance-in-edit-project-box-350x183.png)
+
+   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
 
 1. Mettez à jour les informations financières suivantes pour le projet :
 
@@ -412,9 +420,17 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong><span class="preview">Utiliser les taux de change en vigueur à la date du système</span></strong></td>
+      <td><p><span class="preview">Lorsque cette option est sélectionnée, les taux de change effectifs à la date au niveau du système sont toujours utilisés et les remplacements de taux de change ne sont pas autorisés pour le projet.</span></p> <p><span class="preview">Vous devez également sélectionner la <strong>Date du taux de change</strong> à partir de laquelle, lorsque l’option est sélectionnée.</span></p></td> 
+     </tr>
+     <tr>
+      <td><strong><span class="preview">Conserver les informations sur les taux de facturation du projet</span></strong></td>
+      <td><p><span class="preview">Lorsque vous activez cette option, tous les taux de facturation de l'affectation sont définitivement gelés au taux applicable le plus élevé de la hiérarchie de facturation. Il s’agit d’une sélection unique. Vous ne pouvez pas désactiver cette option une fois que le projet comporte des affectations ou des heures. Après conservation, les taux de facturation de l’affectation ne peuvent plus être modifiés, remplacés ou modifiés où que ce soit dans le projet.</span></p></td>
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Devise</strong> </td> 
-      <td> <p> <p>Indiquez la devise du projet, si elle est différente de la devise par défaut de votre système. Vous ne pouvez pas modifier la devise d’un projet s’il contient déjà des informations financières. Ce champ n’est pas visible si vous avez uniquement la devise par défaut dans le système. </p> <p>Pour plus d’informations sur la devise, consultez <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer les taux de change</a>.<br></p> </p> </td> 
+      <td> <p>Indiquez la devise du projet, si elle est différente de la devise par défaut de votre système. Vous ne pouvez pas modifier la devise d’un projet s’il contient déjà des informations financières. Ce champ n’est pas visible si vous avez uniquement la devise par défaut dans le système. </p> <p>Pour plus d’informations sur la devise, consultez <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer les taux de change</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Budget</strong> </td> 
@@ -851,7 +867,8 @@ Pour plus d’informations sur la modification de la zone Accès, voir la sectio
 1. Cliquer sur **Enregistrer**.
 
 
-<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+<!--
+ Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
 ### Edit projects in bulk in the Production environment
 

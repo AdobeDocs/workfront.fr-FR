@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 73%
+source-wordcount: '397'
+ht-degree: 74%
 
 ---
 
 # Vue d’ensemble des formulaires personnalisés
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -31,7 +33,17 @@ Le concepteur de formulaire dispose d’un espace de travail de style zone de tr
 
 Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-![Exemple de créateur de formulaires](assets/form-designer-example.png)
+<div class="preview">
+
+Exemple d’image dans l’environnement de prévisualisation :
+
+![Exemple de concepteur de formulaires](assets/form-designer-example-032526.png)
+
+</div>
+
+Exemple d’image dans l’environnement de production :
+
+![Exemple de concepteur de formulaires](assets/form-designer-example.png)
 
 ## Champs personnalisés et widgets
 

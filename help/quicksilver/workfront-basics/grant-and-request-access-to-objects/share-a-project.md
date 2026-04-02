@@ -6,16 +6,20 @@ description: Votre administrateur ou administratrice Adobe Workfront peut vous 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 60%
+source-wordcount: '1600'
+ht-degree: 61%
 
 ---
 
 # Partager un projet
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Votre administrateur ou administratrice Adobe Workfront peut vous accorder l’accès à l’affichage ou à la modification de projets lors de l’affectation de votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux projets](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
@@ -74,7 +78,7 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 
 * Lorsque vous partagez un projet, toutes les tâches, tous les problèmes et tous les documents héritent des mêmes autorisations, sauf indication contraire.
 
-  Pour plus d’informations sur la gestion de l’accès aux tâches et aux problèmes du projet en fonction des autorisations d’une personne sur le projet, voir la section [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
+  Pour plus d’informations sur la gestion de l’accès aux tâches et aux problèmes du projet en fonction des autorisations d’une personne sur le projet, voir la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
   L’administrateur ou l’administratrice Workfront peut indiquer si les documents doivent hériter des autorisations des objets supérieurs dans le niveau d’accès de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la restriction des autorisations héritées sur les documents, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -144,7 +148,7 @@ Pour plus d’informations sur l’affichage des autorisations héritées sur un
 
    ![bouton Partager le projet](assets/share-project.png)
 
-1. Dans le champ **Accorder l’accès au projet à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager le projet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès au projet à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil professionnel</span> avec lequel vous souhaitez partager le projet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
@@ -164,7 +168,8 @@ Pour plus d’informations sur l’affichage des autorisations héritées sur un
    >Pour plus d’informations sur la spécification des valeurs par défaut de partage pour les projets dans le niveau d’accès, voir [Accorder l’accès aux projets](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 
    <!--
-   >this note also appears in Understanding Project Permissions-->
+   >this note also appears in Understanding Project Permissions
+   -->
 
 
 1. Cliquez sur la liste déroulante située à droite du nom de l’utilisateur et sélectionnez son niveau d’autorisation pour ce projet :
@@ -190,7 +195,7 @@ Pour plus d’informations sur l’affichage des autorisations héritées sur un
 
    ![Partage en bloc de projets](assets/bulk-share-icon.png)
 
-1. Dans le champ **Accorder l’accès au projet à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les projets, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès au projet à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil d’entreprise</span> avec lequel vous souhaitez partager les projets, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >

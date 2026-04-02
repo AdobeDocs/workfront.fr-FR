@@ -7,14 +7,18 @@ description: Votre équipe d’administration Adobe Workfront accorde aux utili
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 42%
+source-wordcount: '1465'
+ht-degree: 43%
 
 ---
 
 # Partager un document sur un stockage Workfront hérité
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 L&#39;administrateur Workfront contrôle qui peut afficher ou modifier des documents dans la zone Niveaux d&#39;accès de la configuration. Pour plus d’informations, voir [Accorder l’accès aux documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -73,13 +77,13 @@ L’utilisateur ou utilisatrice qui charge un document dans Workfront dispose pa
 
 1. Sur la page **Documents**, passez la souris sur le document à partager et cliquez sur le lien **Détails du document** qui s’affiche. La page **Détails du document** s’ouvre.
 
-   ![Lien Détails du document &#x200B;](assets/document-details-link.png)
+   ![Lien Détails du document ](assets/document-details-link.png)
 
 1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) à droite du nom du document, puis cliquez sur **Partager**. La boîte de dialogue **Partager[Nom du document]** s’ouvre.
 
    ![Partager un document](assets/share-a-document-350x160.png)
 
-1. Dans le champ **Accorder l’accès au document à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager le document, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès au document à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de la société <span class="preview">ou du profil professionnel</span> avec lequel vous souhaitez partager le document, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
@@ -122,7 +126,7 @@ L’utilisateur ou utilisatrice qui charge un document dans Workfront dispose pa
 
    ![icône Partager](assets/share-documents-in-bulk.png)
 
-1. Dans le champ **Accorder l’accès au document à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les documents, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès au document à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil professionnel</span> avec lequel vous souhaitez partager les documents, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
@@ -312,7 +316,7 @@ Le tableau suivant indique les autorisations que vous pouvez accorder lorsque le
 ## Partager des documents dans la zone des nouveaux documents
 
 
-Workfront passe à la solution de stockage d’entreprise Adobe afin de fournir une meilleure connectivité avec les produits Adobe Creative Cloud. Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront passe à la solution de stockage d’entreprise Adobe afin de fournir une meilleure connectivité avec les produits Adobe Creative Cloud. Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Si votre instance Workfront utilise le stockage d’entreprise Adobe, vous ne pouvez pas partager directement des documents individuels. Au lieu de cela, vous gérez l’accès au projet, à la tâche ou à l’événement. Pour plus d’informations, voir [Fonctionnement des autorisations de document](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 

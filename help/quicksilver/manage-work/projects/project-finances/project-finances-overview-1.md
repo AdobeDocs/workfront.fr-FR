@@ -7,10 +7,10 @@ description: Pour gérer vos finances de projets, il est essentiel de les suivre
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '592'
+ht-degree: 93%
 
 ---
 
@@ -95,7 +95,7 @@ Le tableau suivant présente certaines des finances dont vous pouvez effectuer l
   </tr> 
   <tr> 
    <td>Taux de facturation</td> 
-   <td> <p>Vous pouvez définir des taux de facturation pour des utilisateurs et utilisatrices ou des fonctions.</p> <p>Pour plus d’informations sur l’association d’utilisateurs et d’utilisatrices à des taux de facturation, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.</p> <p>Pour plus d’informations sur l’association de fonctions à des taux de facturation, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.</p> <p>Les taux de facturation calculent le revenu de vos projets et tâches. Vous pouvez remplacer les taux de facturation de rôle pour un projet ou pour une entreprise. </p> <p>Pour plus d’informations sur le remplacement des taux de facturation sur des projets, voir <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Vue d’ensemble du remplacement de taux de facturation de fonction et calcul du revenu sur un projet</a>.</p> <p>Pour plus d’informations sur le remplacement des taux de facturation pour les entreprises, voir <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Remplacer les taux de facturation au niveau d’un projet par des taux de facturation au niveau de l’entreprise</a>.</p> </td> 
+   <td> <p>Vous pouvez définir des taux de facturation pour des utilisateurs et utilisatrices ou des fonctions.</p> <p>Pour plus d’informations sur l’association d’utilisateurs et d’utilisatrices à des taux de facturation, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.</p> <p>Pour plus d’informations sur l’association de fonctions à des taux de facturation, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.</p> <p>Les taux de facturation calculent le revenu de vos projets et tâches. Vous pouvez remplacer les taux de facturation de rôle pour un projet ou pour une entreprise. </p> <p>Pour plus d’informations sur le remplacement des taux de facturation des projets, voir <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet</a>.</p> <p>Pour plus d’informations sur le remplacement des taux de facturation pour les entreprises, voir <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Remplacer les taux de facturation au niveau d’un projet par des taux de facturation au niveau de l’entreprise</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

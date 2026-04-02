@@ -6,10 +6,12 @@ description: Vous pouvez afficher ou modifier les informations financières d’
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 84%
+source-wordcount: '987'
+ht-degree: 67%
 
 ---
 
@@ -19,9 +21,11 @@ ht-degree: 84%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
 
+{{highlighted-preview}}
+
 Vous pouvez afficher ou modifier les informations financières d’une tâche en accédant à la zone Aperçu de la section Détails de la tâche. Vous pouvez afficher ou modifier un nombre limité de champs dans cette zone.
 
-Pour plus d’informations sur la modification de toutes les informations financières d’une tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Pour plus d&#39;informations sur la modification de toutes les informations financières d&#39;une tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Conditions d’accès
 
@@ -33,7 +37,8 @@ Pour plus d’informations sur la modification de toutes les informations financ
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Pour utiliser les types de revenus et de coûts horaires de l’utilisateur et du rôle et ajouter un taux d’heures supplémentaires : Workflow Ultimate</p>
+      <p>Pour modifier tous les autres paramètres et utiliser tous les autres types de revenus et de coûts : tout Workfront ou package de workflow</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -55,7 +60,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -77,7 +83,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Modifier les finances de la tâche dans la section Détails de la tâche
 
@@ -103,7 +110,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finance**.
 
 1. Modifiez un champ qui peut être modifié en cliquant sur le champ ou en cliquant sur **+Ajouter** pour ajouter des informations à un champ vide.
-1. Examinez ou modifiez les informations suivantes dans la section **Finances** :
+1. Consultez ou modifiez les informations suivantes dans la zone **Finances** :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -117,6 +124,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
         <li> <p>Fixe par heure </p> </li> 
         <li> <p> Utilisateur, par heure </p> </li> 
         <li> <p> Rôle par heure</p> </li> 
+        <li> <p> <span class="preview">Utilisateur et rôle par heure</span></p> </li> 
        </ul> <p>Pour plus d’informations sur le suivi des coûts, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivre les coûts</a>. L’administration de Workfront ou de groupes sélectionne le paramètre « Type de coût » par défaut pour les tâches de votre système ou de votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences de projet à l’échelle du système</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -126,13 +134,16 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
         <li> <p> Non facturable </p> </li> 
         <li> <p>Utilisateur, par heure </p> </li> 
         <li> <p>Rôle par heure </p> </li> 
+        <li> <p> <span class="preview">Utilisateur et rôle par heure</span></p> </li>
         <li> <p>Fixe par heure </p> </li> 
         <li> <p>Utilisateur par heure avec limite </p> </li> 
-        <li> <p>Rôle par heure avec limite </p> </li> 
+        <li> <p>Rôle par heure avec limite </p> </li>
+        <li> <p> <span class="preview">Utilisateur et rôle par heure avec plafond</span></p> </li> 
         <li> <p>Utilisateur, par heure plus fixe </p> </li> 
         <li> <p>Rôle par heure plus fixe </p> </li> 
+        <li> <p> <span class="preview">Utilisateur et rôle par heure plus fixe</span></p> </li>
         <li> <p>Revenus fixes </p> </li> 
-       </ul> <p>Pour plus d’informations sur le suivi des revenus, voir <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Vue d’ensemble de la facturation et des revenus</a>. </p> <p>L’administration de Workfront ou de groupes sélectionne le paramètre « Type de revenu » par défaut pour les tâches de votre système ou de votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences du projet à l’échelle du système</a>.</p> </td> 
+       </ul> <p>Pour plus d'informations sur le suivi des revenus, voir<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Généralités sur la facturation et les revenus</a> et <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Généralités sur la hiérarchie des revenus et des coûts</a>. </p> <p>L’administration de Workfront ou de groupes sélectionne le paramètre « Type de revenu » par défaut pour les tâches de votre système ou de votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences du projet à l’échelle du système</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Coûts prévus</td> 
@@ -150,8 +161,17 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
       <td role="rowheader">Revenu réel</td> 
       <td> <p>Il s’agit d’un calcul qui affiche les revenus associés à la tâche en fonction des heures effectives, du type de revenu et du taux horaire des utilisateurs et utilisatrices ou des fonctions. Pour plus d’informations sur le suivi des coûts, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suive les coûts</a>.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Taux de dépassement</span></td> 
+      <td><span class="preview"><p>Entrez le multiplicateur des heures supplémentaires pour la tâche, par exemple 1,5 ou 2,0. La valeur par défaut est 1,0 (pas de multiplicateur). Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Définir un ratio d'heures supplémentaires</a>.</p><p>Pour afficher le champ Ratio des heures supplémentaires :</p>
+       <ul>
+       <li>Le Type de revenu sur la tâche doit être Utilisateur et Rôle par heure. Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Généralités sur la hiérarchie des revenus et des coûts</a>.</li>
+       <li>Le champ doit être activé sur votre modèle de mise en page, pour la zone Finance dans la vue Détails de la tâche. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Personnaliser la vue Détails à l’aide d’un modèle de disposition</a>.</li>
+       </ul>
+      </span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>ICP/SPI/CSI</strong> </td> 
+      <td role="rowheader">ICP/SPI/CSI</td> 
       <td> <p>Il s’agit de mesures des performances de votre tâche à un moment donné. Leurs valeurs sont calculées en fonction de la méthode d’indice de performances du projet.<br>Pour plus d’informations, voir les articles suivants :</p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calculer l’Indice Coûts Performances (ICP)</a> </p> </li> 
@@ -166,4 +186,4 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
     </tbody> 
    </table>
 
-1. (Le cas échéant) Si vous modifiez les champs de la section Finance, cliquez sur **Enregistrer**&#x200B;**les modifications**.
+1. (Conditionnel) Si vous modifiez les champs de la section Finance, cliquez sur **Enregistrer les modifications**.

@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 96%
+source-wordcount: '738'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez uti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -47,21 +47,21 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Configurer l’accès aux utilisateurs et utilisatrices
 
-Vous pouvez gérer les informations que les utilisateurs et utilisatrices peuvent afficher et modifier pour d’autres personnes à l’aide d’un niveau d’accès par défaut ou personnalisé que vous créez. Les utilisateurs et utilisatrices disposant des licences de plan et de travail par défaut peuvent afficher les coordonnées d’autres personnes. Les personnes suivantes peuvent créer et modifier d’autres utilisateurs et utilisatrices :
+Vous pouvez gérer les informations que les utilisateurs et utilisatrices peuvent afficher et modifier pour d’autres personnes à l’aide d’un niveau d’accès par défaut ou personnalisé que vous créez. Les utilisateurs disposant des licences Standard, Plan et Travail par défaut peuvent consulter les coordonnées d&#39;autres utilisateurs. Les personnes suivantes peuvent créer et modifier d’autres utilisateurs et utilisatrices :
 
 * Administrateur ou administratrice Workfront.
 
   Pour plus d’informations, voir [Accorder un accès administratif complet à un utilisateur ou une utilisatrice](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-* Personne disposant d’une licence de plan par défaut qui a également accès aux utilisateurs et utilisatrices, comme expliqué dans cet article.
+* Un utilisateur disposant d’une licence Standard ou Plan par défaut qui a également accès aux utilisateurs, comme expliqué dans cet article.
 
   Les utilisateurs et utilisatrices qui sont limités à l’affichage des utilisateurs et utilisatrices de leur entreprise ou de l’entreprise principale ont accès à la modification uniquement des personnes qu’ils peuvent voir. Pour plus d’informations, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Personne disposant d’une licence de plan par défaut qui est également désignée comme responsable d’un autre utilisateur ou d’une autre utilisatrice.
+* Utilisateur disposant d’une licence Standard ou Plan par défaut et désigné comme responsable d’un autre utilisateur.
 
   Les personnes qui se voient accorder l’accès en modification aux utilisateurs et utilisatrices de leur niveau d’accès peuvent gérer les personnes qui leur sont rattachées. Pour plus d’informations sur la gestion d’un utilisateur ou d’une utilisatrice, voir [Afficher l’organigramme](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
-* Une personne disposant d’une licence de plan par défaut qui a créé un utilisateur ou une utilisatrice peut le désactiver, le supprimer ou le modifier. Pour plus d’informations sur la création d’utilisateurs et d’utilisatrices, voir [Ajouter des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* Un utilisateur disposant d’une licence Standard ou Plan par défaut qui a créé un utilisateur peut désactiver, supprimer ou modifier l’utilisateur qu’il a créé. Pour plus d’informations sur la création d’utilisateurs et d’utilisatrices, voir [Ajouter des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Configurer l’accès des utilisateurs et utilisatrices à la modification des utilisateurs et utilisatrice à l’aide d’un niveau d’accès personnalisé
 

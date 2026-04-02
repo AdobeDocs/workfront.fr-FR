@@ -6,14 +6,18 @@ description: Vous pouvez partager un calendrier avec d’autres utilisateurs et 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 81%
+source-wordcount: '614'
+ht-degree: 75%
 
 ---
 
 # Partager un rapport de calendrier
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 
 Vous pouvez partager un calendrier avec d’autres utilisateurs et utilisatrices et le rendre public, ce qui permet à une personne sans licence [!DNL Adobe Workfront] de l’afficher.
@@ -39,11 +43,11 @@ Vous pouvez partager un calendrier avec d’autres utilisateurs et utilisatrices
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p> Affichage ou accès supérieur aux rapports, tableaux de bord et calendriers</p></td> 
+   <td> <p> Accès supérieur ou égal à Rapports, Tableaux de bord et Calendriers</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Afficher ou des autorisations supérieures pour le rapport de calendrier, avec accès au partage</td> 
+   <td>Autorisations d’affichage ou supérieures pour le rapport de calendrier, avec accès au partage</td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,8 +66,8 @@ Pour partager un calendrier dans [!DNL Workfront] :
 
 1. Accédez au calendrier que vous souhaitez partager.
 1. Cliquez sur le menu **Plus** en regard du nom du calendrier, puis cliquez sur **Partage**.
-   ![menu Calendrier plus](assets/more-menu-calendar.png)
-1. Dans le champ **[!UICONTROL Accorder l’accès au calendrier à]**, commencez à saisir le nom de l’utilisateur ou de l’utilisatrice, de l’équipe, du rôle, du groupe ou de la société dont vous souhaitez partager le calendrier, puis cliquez sur le nom qui s’affiche dans la liste déroulante.\
+   ![menu calendrier plus](assets/more-menu-calendar.png)
+1. Dans le champ **[!UICONTROL Accorder l’accès au calendrier à]**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil professionnel</span> que vous souhaitez partager, puis cliquez sur le nom lorsqu’il s’affiche dans la liste déroulante.\
    Pour en savoir plus sur la définition des autorisations, voir la section [Vue d’ensemble des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Facultatif) Répétez l’étape 3 pour chaque utilisateur ou utilisatrice, équipe, rôle ou groupe à qui vous souhaitez accorder l’accès au calendrier.
@@ -71,7 +75,7 @@ Pour partager un calendrier dans [!DNL Workfront] :
 
    * **[!UICONTROL Affichage] :** la personne peut consulter et partager le calendrier.
 
-     ![Partager le calendrier avec accès en lecture](assets/view-calendar.png)
+     ![Partager le calendrier avec un accès en affichage](assets/view-calendar.png)
 
    * **[!UICONTROL Gestion] :** les utilisateurs et utilisatrices disposent d’un accès complet au calendrier, moins les droits d’administration, qui sont accordés au niveau de l’accès, plus toutes les autorisations d’affichage.
 
@@ -81,7 +85,7 @@ Pour partager un calendrier dans [!DNL Workfront] :
      >
      >L’administrateur ou l’administratrice [!DNL Workfront] et le créateur ou la créatrice du calendrier peuvent supprimer des autorisations de ces entités.
 
-1. (Facultatif) Selon le rôle d&#39;un utilisateur, vous pouvez cliquer sur **[!UICONTROL Options avancées]**, puis sur **[!UICONTROL Partager]**&#x200B; pour permettre à l&#39;utilisateur de partager le calendrier avec d&#39;autres utilisateurs.
+1. (Facultatif) Selon le rôle de l’utilisateur, vous pouvez cliquer sur **[!UICONTROL Options avancées]**, puis sur **[!UICONTROL Partager]**&#x200B; pour permettre à l’utilisateur de partager le calendrier avec d’autres utilisateurs.
 
    Pour plus d’informations sur les niveaux d’autorisation, voir la section [Vue d’ensemble des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -97,7 +101,7 @@ Vous pouvez rendre un calendrier public et partager un lien avec des personnes q
 1. Accédez au calendrier que vous souhaitez partager.
 1. Cliquez sur **[!UICONTROL Actions du calendrier]**, puis sur **[!UICONTROL Partager]**.
 1. Cliquez sur le menu **Plus** en regard du nom du calendrier.
-   ![menu Calendrier plus](assets/more-menu-calendar.png)
+   ![menu calendrier plus](assets/more-menu-calendar.png)
 Cliquez sur **Copier le lien public**.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
@@ -107,9 +111,9 @@ Vous pouvez partager un lien de calendrier privé avec les utilisateurs et utili
 
 1. Accédez au calendrier que vous souhaitez partager.
 1. Cliquez sur le menu **Plus** en regard du nom du calendrier, puis cliquez sur **[!UICONTROL Obtenir un lien partageable]**.
-   ![menu Calendrier plus](assets/more-menu-calendar.png)
+   ![menu calendrier plus](assets/more-menu-calendar.png)
 
    >[!NOTE]
    >
-   >Les utilisateurs et utilisatrices de [!DNL Workfront] doivent avoir accès au calendrier pour pouvoir y accéder à l’aide du lien. Pour accorder l’accès, voir la section [Partager un calendrier avec les utilisateurs et utilisatrices de  [!DNL Workfront] &#x200B;](#share-a-calendar-with-workfront-users).\
+   >Les utilisateurs et utilisatrices de [!DNL Workfront] doivent avoir accès au calendrier pour pouvoir y accéder à l’aide du lien. Pour accorder l’accès, voir la section [Partager un calendrier avec les utilisateurs et utilisatrices de  [!DNL Workfront] ](#share-a-calendar-with-workfront-users).\
    >Si les utilisateurs et utilisatrices ne disposent d’aucun accès, ils peuvent le demander après avoir collé le lien dans leur navigateur.

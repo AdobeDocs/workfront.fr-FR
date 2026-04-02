@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 92%
+source-wordcount: '960'
+ht-degree: 78%
 
 ---
 
 # Affecter des utilisateurs et utilisatrices à un modèle de mise en page
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Vous pouvez affecter un modèle de mise en page que vous avez créé à tout utilisateur ou utilisatrice, fonction, équipe ou groupe qui doit l’utiliser.
 
@@ -28,6 +32,8 @@ Vous pouvez attribuer plusieurs modèles de mise en page différents au même no
 Pour plus d’informations sur les modèles de mise en page, voir [Modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
 Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Créer et modifier des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+<span class="preview">Pour plus d’informations sur les modèles de disposition et les profils métier, voir [Présentation des profils métier](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
 
 ## Conditions d’accès
 
@@ -68,13 +74,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >Lorsque vous êtes satisfait de votre modèle de mise en page, nous vous recommandons de le tester, comme décrit dans la section [Tester un nouveau modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
 
 1. Cliquez sur **Affecter ceci à** dans la section supérieure de la page.
-1. Dans la zone qui s’affiche, cliquez sur **Ajouter un utilisateur ou une utilisatrice, une fonction, une équipe ou un groupe**, commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’une fonction, d’une équipe ou d’un groupe, puis cliquez sur le nom qui s’affiche dans la liste déroulante.
+1. Dans la zone qui s’affiche, cliquez sur **Ajouter un utilisateur, une fonction, une équipe, un groupe <span class="preview">ou un niveau d’accès</span>**, commencez à saisir le nom d’un utilisateur, d’une fonction, d’une équipe, d’un groupe <span class="preview">ou d’un niveau d’accès</span>, puis cliquez sur le nom lorsqu’il s’affiche dans la liste déroulante.
 
    Les noms récemment ajoutés s’affichent avec un arrière-plan bleu. Cela s’avère utile lorsque vous modifiez un modèle de mise en page existant, car vous pouvez distinguer les noms que vous venez d’ajouter de ceux qui étaient déjà dans la liste.
 
-   Une icône d’informations ![icône d’informations](assets/info-icon.png) s’affiche à droite du nom de tout utilisateur, fonction, équipe ou groupe déjà affecté à un autre modèle de mise en page. Vous pouvez pointer sur l’icône pour afficher le nom de ce modèle de mise en page et décider si vous souhaitez remplacer l’affectation existante.
+   Une icône d’informations ![icône d’informations](assets/info-icon.png) s’affiche à droite du nom d’un utilisateur, d’une fonction, d’une équipe, d’un groupe <span class="preview">ou d’un niveau d’accès</span> déjà affecté à un autre modèle de mise en page. Vous pouvez pointer sur l’icône pour afficher le nom de ce modèle de mise en page et décider si vous souhaitez remplacer l’affectation existante.
 
-1. Répétez les deux étapes précédentes pour affecter le modèle de mise en page à d’autres personnes, fonctions, équipes ou groupes, si nécessaire.
+1. Répétez les deux étapes précédentes pour affecter le modèle de mise en page à d’autres utilisateurs, fonctions, équipes, groupes <span class="preview"> ou niveaux d’accès</span> selon les besoins.
 
    Vous pouvez affecter jusqu’à 100 personnes à la fois.
 
@@ -90,6 +96,7 @@ Vous et d’autres administrateurs et administratrices Workfront pouvez affecter
 * À une fonction particulière que l’utilisateur ou utilisatrice occupe
 * À une certaine équipe dont fait partie l’utilisateur ou utilisatrice
 * À un certain groupe dans lequel se trouve l’utilisateur ou utilisatrice
+* <span class="preview">À un certain niveau d’accès, l’utilisateur est affecté</span>
 
 Cependant, un seul modèle de mise en page est visible à tout moment par la personne. Le modèle visible est déterminé par la hiérarchie de priorité suivante :
 
@@ -106,9 +113,12 @@ Cependant, un seul modèle de mise en page est visible à tout moment par la per
 
   Seul le modèle affecté au groupe principal d’un utilisateur ou d’une utilisatrice est visible par l’utilisateur ou l’utilisatrice. Les modèles affectés à ses autres groupes ne sont pas visibles.
 
+* <span class="preview"> niveau d’accès : si la personne n’est pas affectée à un modèle de mise en page en tant qu’utilisateur individuel, ou en tant qu’utilisateur disposant d’une fonction principale, ou en tant que membre d’une équipe interne, ou encore en tant que membre d’un groupe interne, le modèle lui est affecté.</span>
+
 ## Si un grand nombre de personnes sont affectées à un modèle de mise en page
 
-<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+<!--
+If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
 -->
 Si vous avez plus de 2 000 utilisateurs et utilisatrices à affecter à un modèle de mise en page, nous vous recommandons d’effectuer l’une des opérations suivantes :
 

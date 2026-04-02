@@ -1,28 +1,58 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Présentation du remplacement des taux de facturation des fonctions et du calcul du revenu sur un projet
-description: Vous pouvez utiliser les taux de facturation pour calculer les revenus de vos projets lorsque vous les multipliez par les heures passées sur le projet. Pour plus d’informations sur les taux de facturation et les revenus, consultez l’article Vue d’ensemble de la facturation et des revenus.
+title: Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet
+description: Vous pouvez utiliser les taux de facturation pour calculer le chiffre d’affaires de vos projets lorsque vous les multipliez par les heures consacrées au projet.
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: fda01f74912b5b9f28085e6dbc79ca3ba69e38fc
 workflow-type: tm+mt
-source-wordcount: '3859'
-ht-degree: 99%
+source-wordcount: '4653'
+ht-degree: 77%
 
 ---
 
-# Vue d’ensemble du remplacement des taux de facturation des fonctions et du calcul des revenus sur un projet
+# Présentation du remplacement des taux de facturation et du calcul du revenu d’un projet
 
 {{highlighted-preview}}
 
 Vous pouvez utiliser les taux de facturation pour calculer les revenus de vos projets lorsque vous les multipliez par les heures passées sur le projet. Pour plus d’informations sur les taux de facturation et les revenus, consultez l’article [Vue d’ensemble de la facturation et des revenus](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## Vue d’ensemble des taux de facturation des fonctions et des types de revenus horaires des rôles
+## Vue d&#39;ensemble des taux de facturation et des types de revenus de tâche
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez associer des taux de facturation à des personnes et à des fonctions.\
 Pour plus d’informations sur la création d’utilisateurs et utilisatrices et leur association aux taux de facturation, consultez l’article [Ajouter des personnes](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md). Pour plus d’informations sur la création de fonctions et leur association aux taux de facturation, consultez l’article [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+<div class="preview">
+
+### Présentation - Package Workflow Ultimate
+
+Les taux de facturation associés aux utilisateurs et aux fonctions peuvent être remplacés au niveau du projet.
+
+Pour calculer les revenus sur les projets suivant les taux de facturation des fonctions, le **Type de revenu** des tâches sur les projets doit être l’un des suivants :
+
+* Rôle par heure
+* Rôle par heure avec limite
+* Rôle par heure plus fixe
+* Utilisateur ou utilisatrice et rôle par heure
+* Utilisateur et rôle par heure avec limitation
+* Utilisateur ou utilisatrice et rôle par heure plus fixe
+
+Pour calculer le revenu des projets en fonction des taux de facturation des utilisateurs, le type de revenu des tâches des projets doit être l&#39;un des suivants :
+
+* Utilisateur, par heure
+* Personne, par heure avec limite
+* Utilisateur, par heure plus fixe
+* Utilisateur ou utilisatrice et rôle par heure
+* Utilisateur et rôle par heure avec limitation
+* Utilisateur ou utilisatrice et rôle par heure plus fixe
+
+Pour plus d’informations sur le **Type de revenu** et les taux de facturation, voir [Vue d’ensemble de la facturation et des revenus](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+</div>
+
+### Présentation : tous les autres packages de Workfront et de workflow
 
 Les taux de facturation associés aux personnes ne peuvent pas être remplacés.
 
@@ -36,7 +66,31 @@ Pour calculer les revenus sur les projets suivant les taux de facturation des fo
 
 Pour plus d’informations sur le **Type de revenu** et les taux de facturation, voir [Vue d’ensemble de la facturation et des revenus](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## Hiérarchie des remplacements de taux de facturation lors du calcul des revenus
+<div class="preview">
+
+## Hiérarchie des remplacements de taux de facturation lors du calcul du chiffre d’affaires - Package Ultimate de workflow
+
+>[!NOTE]
+>
+>Les types de revenus Utilisateur et Rôle par heure suivent une hiérarchie détaillée lors de la localisation du taux de facturation pour le calcul du revenu. Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+Une fonction peut être associée à un taux de facturation de la manière suivante :
+
+* En tant qu’administrateur ou administratrice Workfront, vous pouvez définir le taux de facturation au niveau du système associé à une fonction lorsque vous créez cette fonction.\
+  Pour plus d’informations sur la création de fonctions, voir [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+* En tant qu’administrateur Workfront, vous pouvez définir des cartes tarifaires avec plusieurs taux de facturation par rôle, en fonction des attributs et des dates d’entrée en vigueur. Lorsqu’une carte tarifaire est associée à un projet, tous les rôles, leurs attributs et leurs taux de facturation associés sont ajoutés à la section Taux de facturation du projet. Le fait de joindre une carte tarifaire remplace les taux de facturation existants sur le projet.
+
+  Pour plus d’informations, voir [Gérer des cartes tarifaires](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) et [Joindre une carte tarifaire à un projet](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+
+* En tant que personne gestionnaire de projet, vous pouvez définir le taux de facturation de la même fonction au niveau du projet.\
+  Les taux de fonction modifiés sur le projet n’auront une incidence que sur ce projet.
+
+  Pour plus d’informations sur le remplacement des taux de rôle pour le projet, voir [Remplacer les taux de facturation des fonctions au niveau du projet](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+</div>
+
+## Hiérarchie des remplacements de taux de facturation lors du calcul du chiffre d’affaires - tous les autres packages Workfront et Workflow
 
 Une fonction peut être associée à un taux de facturation de la manière suivante :
 
@@ -56,14 +110,6 @@ Une fonction peut être associée à un taux de facturation de la manière suiva
 * En tant qu’administrateur ou administratrice Workfront, vous pouvez activer une option lors de la modification d’un projet pour appliquer des modifications aux taux de facturation au niveau de l’entreprise au projet lorsque les personnes recalculent manuellement les finances du projet.\
   Pour plus d’informations, voir [Remplacer les taux de facturation au niveau du projet par les taux de facturation au niveau de l’entreprise](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
 
-<div class="preview">
-
-* En tant qu’administrateur ou administratrice Workfront, vous pouvez définir des cartes tarifaires avec plusieurs taux de facturation par rôle, en fonction de l’emplacement et de la date. Lorsqu’une carte tarifaire est jointe à un projet, tous les rôles (par emplacement, si des emplacements sont utilisés) et leurs taux de facturation associés sont ajoutés à la section des taux de facturation du projet. Le fait de joindre une carte tarifaire remplace les taux de facturation existants sur le projet.
-
-  Pour plus d’informations, voir [Gérer des cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) et [Joindre une carte tarifaire à un projet](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
-
-</div>
-
 * En tant que personne gestionnaire de projet, vous pouvez définir le taux de facturation de la même fonction au niveau du projet.\
   Les taux de fonction modifiés sur le projet n’auront une incidence que sur ce projet.
 
@@ -81,13 +127,41 @@ En tant que personne gestionnaire de projet, vous pouvez spécifier le taux de f
 
 Pour plus d’informations sur la façon de remplacer les taux de facturation des fonctions au niveau du projet, voir [Remplacer les taux de facturation des fonctions au niveau du projet](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
-Pour plus d’informations sur la fonction utilisée pour calculer les revenus du projet, voir la section « Calcul des revenus pour les tâches en fonction des affectations de personnes et de rôles » dans [Vue d’ensemble de la facturation et des revenus](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md). <span class="preview">Pour plus d’informations sur l’association d’une carte tarifaire à un projet, voir [Joindre une carte tarifaire à un projet](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
+Pour plus d’informations sur la fonction utilisée pour calculer le chiffre d’affaires du projet, reportez-vous à la section [ Calculs du chiffre d’affaires pour les tâches en fonction des affectations d’utilisateurs et de rôles ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) dans [Présentation de la facturation et du chiffre d’affaires](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+<span class="preview">Pour plus d’informations sur l’association d’une carte tarifaire à un projet, voir [Joindre une carte tarifaire à un projet](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
 
 >[!NOTE]
 >
 >Pour les revenus réels, les taux de facturation des heures ajoutées à un enregistrement de facturation marqué comme « Facturé » ne doivent pas être affectés par les remplacements de taux de facturation intervenant après la facturation de cet enregistrement.
 
-## Vue d’ensemble de la section Taux de facturation d’un projet
+<div class="preview">
+
+## Présentation de la section Taux de facturation d’un projet - Package Ultimate de workflow
+
+Après avoir spécifié les taux de facturation de remplacement pour les fonctions associées au projet, vous pouvez voir toutes les fonctions et leurs remplacements dans l’onglet **Taux > Taux de facturation** du projet.
+
+### Regroupements de taux
+
+Les taux de facturation sont regroupés dans la zone **Taux de facturation** d’abord par leur source (carte tarifaire ou remplacement), puis par les types de ressources : fonction ou utilisateur.
+
+Dans la ligne de regroupement correspondant à une fonction, remarquez le taux de facturation de cette fonction au niveau du projet dans la colonne **Valeur**. Si la fonction comporte des taux de remplacement effectifs par date, les taux sont affichés dans l&#39;ordre par date.
+
+Lorsqu’il existe des taux de remplacement ou des taux de carte tarifaire pour une fonction, le taux par défaut du système pour la fonction n’est pas automatiquement appliqué lors du calcul du produit pour le projet. La hiérarchie est suivie pour déterminer le taux de facturation, en fonction du type de revenus. Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+### Valeurs de taux de facturation multiples pour une fonction
+
+Si vous disposez de plusieurs taux de facturation de remplacement pour une fonction spécifique, ils sont répertoriés sous le regroupement des fonctions. La modification en ligne vous permet de modifier les taux de remplacement et les **Date de début** et **Date de fin** des taux de remplacement dans cet onglet. Ou sélectionnez un taux et cliquez sur l’icône **Modifier** pour définir des taux de remplacement valides à une date.
+
+>[!NOTE]
+>
+>Lorsque le champ **Date de début** ou **Date de fin** n&#39;est pas renseigné pour un taux effectif à la date, Workfront suppose que le premier taux de remplacement est appliqué pour toutes les heures dont la date est antérieure à la **Date de fin** du premier taux de remplacement et que le dernier taux de remplacement est appliqué pour toutes les heures dont la date est postérieure à la **Date de début** du dernier taux de remplacement.
+>Si une heure est enregistrée avant la date de début prévue du projet, le premier taux de facturation est utilisé.\
+>Si une heure est enregistrée après la date d’achèvement prévue du projet, le dernier taux de facturation est utilisé.
+
+</div>
+
+## Présentation de la section Taux de facturation d’un projet - Tous les autres packages Workfront et de workflow
 
 Après avoir spécifié les taux de facturation de remplacement pour les fonctions associées au projet, vous pouvez voir tous les fonctions et leurs remplacements dans l’onglet **Taux de facturation** du projet.
 
@@ -101,7 +175,7 @@ Notez les informations suivantes dans la liste des **taux de facturation** :
 
 ### Regroupement par fonction {#job-role-grouping}
 
-Les taux de facturation sont regroupés dans la zone **Taux de facturation** par leurs fonctions respectives. <span class="preview">Si une carte tarifaire est jointe au projet, les fonctions sont également regroupées par carte tarifaire. Si des emplacements sont appliqués aux fonctions, le nom de l’emplacement est inclus dans le nom de la fonction. La même fonction peut être répertoriée pour plusieurs emplacements.</span>
+Les taux de facturation sont regroupés dans la zone **Taux de facturation** selon leurs fonctions respectives.
 
 ### Valeur du taux de facturation du projet {#project-billing-rate-value}
 
@@ -121,13 +195,11 @@ Dans la ligne de regroupement d’une fonction, notez le taux de facturation de 
 
 >[!NOTE]
 >
-><span class="preview">Lorsqu’une carte tarifaire est jointe au projet, les **taux de facturation des entreprises** ne sont pas importés dans les taux de facturation. Les calculs sont basés sur les taux des cartes tarifaires ou les taux des entreprises pour les fonctions.</span>
->
 >S’il existe des taux de facturation de projet pour une fonction, le **taux de facturation de l’entreprise** n’est jamais appliqué au calcul des revenus du projet. Seuls les **taux de facturation du projet** sont appliqués au calcul des revenus.
 
 ### Valeurs et délais de taux de facturation multiples {#multiple-billing-rate-values-and-timeframes}
 
-Si vous disposez de plusieurs taux de facturation de remplacement pour une fonction spécifique, ils sont répertoriés sous le regroupement correspondant à cette fonction. Grâce à la modification en ligne, vous pouvez modifier les taux de remplacement, la **Date** de **début** et la **Date de fin** des taux de facturation de remplacement sur cet onglet.
+Si vous disposez de plusieurs taux de facturation de remplacement pour une fonction spécifique, ils sont répertoriés sous le regroupement correspondant à cette fonction. La modification en ligne vous permet de modifier les taux de remplacement et les **Date de début** **Date** et **Date de fin** des taux de facturation de remplacement dans cet onglet. Ou sélectionnez un taux et cliquez sur l’icône **Modifier** pour définir des taux de remplacement valides à une date.
 
 >[!NOTE]
 >
@@ -143,9 +215,11 @@ Si vous disposez de plusieurs taux de facturation de remplacement pour une fonct
 
 ### Calculer les revenus prévus en fonction d’un remplacement unique du taux de facturation {#calculate-planned-revenue-based-on-a-one-time-billing-rate-override}
 
-Tenez compte de ce qui suit lors du calcul des revenus prévus en fonction d’un remplacement de taux de facturation unique :
+Tenez compte des points suivants lors du calcul du revenu prévu sur la base d’un remplacement de taux de facturation unique :
 
 * Lorsque le **Type de revenu** d’une tâche est **Rôle par heure**, Workfront multiplie le nombre d’heures prévues d’une tâche par le taux de facturation de la fonction associée à la tâche pour calculer ses revenus prévus.
+
+* <span class="preview">Lorsque le **Type de revenus** d’une tâche est **Utilisateur et rôle par heure**, Workfront utilise une hiérarchie pour déterminer le taux de facturation de chaque tâche. Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
 
 * Lorsque le taux de facturation de la fonction a été remplacé au niveau du projet, Workfront utilise le taux de remplacement du projet pour calculer les revenus prévus.
 * Lorsqu’une tâche comporte plusieurs affectations, les revenus prévus sont calculées en multipliant le taux de facturation de chaque fonction de l’affectation et de l’attribution du nombre d’heures prévues correspondante.
@@ -158,11 +232,22 @@ Pour plus d’informations sur la fonction utilisée pour calculer les revenus p
 
 ### Calculer les revenus prévus en fonction de plusieurs remplacements de taux de facturation {#calculate-planned-revenue-based-on-multiple-billing-rate-overrides}
 
-Tenez compte de ce qui suit lors du calcul des revenus prévus en fonction de plusieurs remplacements de taux de facturation :
+Tenez compte des points suivants lors du calcul du revenu prévu en fonction de plusieurs remplacements de taux de facturation :
 
 * Lorsque le **Type de revenu** d’une tâche est **Rôle par heure**, Workfront multiplie le nombre d’heures prévues d’une tâche par le taux de facturation de la fonction associée à la tâche pour calculer ses revenus prévus.
 
   Pour plus d’informations sur la fonction utilisée pour calculer les revenus prévus, voir la section « Présentation des calculs de revenus pour les tâches basées sur les affectations d’utilisateurs et utilisatrices et de rôles » de l’article [Présentation de la facturation et des revenus](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+<div class="preview">
+
+* Lorsque le **Type de revenu** d’une tâche est **Utilisateur et rôle par heure** et qu’aucun utilisateur n’est affecté, Workfront multiplie les heures prévues d’une tâche par l’une de ces valeurs pour calculer le revenu prévu de la tâche :
+
+   * Taux de remplacement manuel pour la fonction sur la tâche
+   * Taux de fonctions du projet, qui peut provenir d’une carte tarifaire ou du niveau système.
+
+  Pour plus d&#39;informations sur la fonction utilisée pour calculer le revenu prévu, voir [Présentation de la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) et la section [Calculs du revenu pour les tâches en fonction des affectations d&#39;utilisateurs et de rôles](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) de l&#39;article [Présentation de la facturation et du revenu](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+</div>
 
 * Dans le cas de remplacements multiples de taux de facturation, le taux par lequel le nombre d’heures prévues est multiplié change pendant la durée d’une tâche. Par défaut, Workfront répartit le nombre d’heures prévues uniformément sur la durée d’une tâche, attribuant un nombre égal d’heures pour chaque jour de la tâche. Lors du calcul des **revenus prévus** d’une tâche, Workfront multiplie le nombre d’heures prévues par jour par le taux de facturation de ce jour. S’il existe plusieurs taux de facturation, ce taux peut être différent chaque jour.
 
@@ -197,6 +282,8 @@ Tenez compte de ce qui suit concernant la répartition du nombre d’heures pré
 
 ## Calculer les revenus réels
 
+Le taux de facturation du revenu réel est basé sur le propriétaire des heures consignées pour une tâche. Le « propriétaire » est la personne dont le temps est enregistré pour la tâche, même s’il n’est pas affecté à la tâche.
+
 * [Calculer les revenus réels en fonction d’un remplacement unique de taux de facturation](#calculate-actual-revenue-based-on-a-one-time-billing-rate-override)
 * [Calculer les revenus réels en fonction de plusieurs remplacements de taux de facturation](#calculate-actual-revenue-based-on-multiple-billing-rate-overrides)
 
@@ -207,6 +294,8 @@ Tenez compte des éléments suivants lorsque vous calculez les revenus réels en
 * Lorsque le **Type de revenu** d’une tâche est **Rôle par heure**, Workfront multiplie les **Heures effectives** d’une tâche par le taux de facturation de la fonction associée à la tâche pour calculer les **Revenus réels** de la tâche. Les heures effectives sont les heures consignées directement pour la tâche.
 
   Pour plus d’informations sur la fonction utilisée pour calculer les **Revenus réels**, voir la section « Présentation du calcul des revenus pour les tâches basées sur les affectations d’utilisateurs et utilisatrices et de rôles » dans l’article [Vue d’ensemble de la facturation et des revenus](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+* <span class="preview">Lorsque le **Type de revenus** d’une tâche est **Utilisateur et rôle par heure**, Workfront utilise une hiérarchie pour déterminer le taux de facturation de chaque tâche. Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
 
 * Si le taux de facturation de la fonction a été remplacé au niveau du projet, Workfront utilise le taux de remplacement du projet pour calculer les revenus réels. Lorsque vous remplacez le taux de facturation de la fonction sur le projet, les **Revenus réels** du projet sont recalculés automatiquement en utilisant le nouveau taux.
 
@@ -223,6 +312,8 @@ Tenez compte des éléments suivants lorsque vous calculez les revenus réels en
 
 * Lorsque le **Type de revenu** d’une tâche est **Rôle par heure**, Workfront multiplie les **Heures effectives** de la tâche avec le taux de facturation des fonctions affectées à la tâche pour calculer ses **Revenus réels**. Les heures effectives sont les heures consignées directement pour la tâche.
 
+* <span class="preview">Lorsque le **Type de revenus** d’une tâche est **Utilisateur et rôle par heure**, Workfront utilise une hiérarchie pour déterminer le taux de facturation de chaque tâche. Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+
 * S’il existe plusieurs remplacements du taux de facturation, le taux par lequel les **Heures effectives** sont multipliées pour calculer les **Revenus réels** peut changer pendant la durée d’une tâche. Workfront utilise le taux de facturation de la fonction dont la période correspond à la **Date d’entrée** des heures consignées pour la tâche afin de calculer les **Revenus réels**.
 
   Par exemple, une tâche qui possède le **Type de revenu** **Rôle par heure** est affectée à la fonction Personne gestionnaire de projet. Remplacez le taux de facturation de cette fonction par le taux 1 pour les dates comprises entre le 19 et le 25 juin. À partir du 26 juin, le taux de facturation sera remplacé par le taux 2. Enregistrez 2 heures pour le 20 juin et 3 heures pour le 28 juin.
@@ -235,7 +326,7 @@ Tenez compte des éléments suivants lorsque vous calculez les revenus réels en
 
   Pour plus d’informations sur la fonction à utiliser pour calculer les **Revenus réels**, voir la section « Présentation des calculs de revenus pour les tâches basées sur les affectations d’utilisateurs et utilisatrices et de rôles » dans l’article [Vue d’ensemble de la facturation et des revenus](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## Impact des fuseaux horaires lors du calcul des revenus en fonction de plusieurs taux de facturation
+## Impact des fuseaux horaires lors du calcul du chiffre d’affaires en fonction de plusieurs taux de facturation
 
 Les utilisateurs et utilisatrices peuvent voir des nombres d’heures prévues par jour différents de ceux d’autres personnes, si les fuseaux horaires diffèrent entre eux et d’autres entités de Workfront. Les scénarios suivants peuvent fausser les informations sur le nombre d’heures prévues par jour d’un utilisateur ou d’une utilisatrice par rapport à ce que voit une autre personne :
 
@@ -249,19 +340,19 @@ Dans ces cas, le nombre d’heures prévues par jour peut être différent entre
 * [Calculer les revenus prévus pour les personnes dans différents fuseaux horaires](#calculate-planned-revenue-for-users-in-different-time-zones)
 * [Calculer les revenus réels pour les personnes dans différents fuseaux horaires](#calculate-actual-revenue-for-users-in-different-time-zones)
 
-### Calculer les revenus prévus pour les personnes dans différents fuseaux horaires {#calculate-planned-revenue-for-users-in-different-time-zones}
+### Calculer le revenu prévu des utilisateurs dans différents fuseaux horaires {#calculate-planned-revenue-for-users-in-different-time-zones}
 
 >[!NOTE]
 >
 >Si des personnes situées dans des fuseaux horaires différents travaillent sur les mêmes projets, nous vous recommandons de ne pas modifier les taux de facturation pour vos projets pendant la semaine. Ce faisant, vous risquez d’afficher un montant erroné de revenus prévus pour votre projet, en raison des différences d’heures entre les fuseaux horaires du planning des personnes et le fuseau horaire du système Workfront. La plupart des plannings permettent d’exclure les week-ends du calcul du nombre d’heures prévues. Si une modification est apportée au taux de facturation d’une fonction, il est préférable qu’elle ait lieu pendant un week-end plutôt qu’au milieu de la semaine, où elle pourrait coïncider avec le milieu de la durée d’une tâche.
 
-Tenez compte des éléments suivants lors du calcul des revenus prévus pour les personnes dans différents fuseaux horaires :
+Tenez compte des points suivants lors du calcul du revenu prévu pour les utilisateurs de différents fuseaux horaires :
 
-* Pour les tâches dont le **Type de revenu** est **Rôle par heure** et qui sont affectées à des fonctions, les **Revenus prévus** sont calculés en multipliant le **Nombre d’heures prévues** d’une tâche par le taux de facturation de la fonction.
+* Pour les tâches dont le **Type de revenu** est **Rôle par heure** ou <span class="preview">**Utilisateur et rôle par heure**</span> et qui sont affectées à des fonctions, le **Revenu prévu** est calculé en multipliant le **Heures prévues** d’une tâche par le taux de facturation de la fonction.
 
 * Le **Nombre d’heures prévues** est réparti uniformément sur la **Durée** de la tâche.
 
-* La **Durée** est la période de temps qui s’écoule entre la **Date de début prévue**&#x200B;**&#x200B;** et la **Date d’achèvement prévue** de la tâche. Comme la **Date de début prévue** et la **Date d’achèvement prévue** des tâches peuvent différer en fonction des fuseaux horaires des personnes qui visualisent la tâche, le nombre d’heures prévues par jour peut être différent pour deux personnes situées dans deux fuseaux horaires différents.
+* La **Durée** est la période de temps qui s’écoule entre la **Date de début prévue****** et la **Date d’achèvement prévue** de la tâche. Comme la **Date de début prévue** et la **Date d’achèvement prévue** des tâches peuvent différer en fonction des fuseaux horaires des personnes qui visualisent la tâche, le nombre d’heures prévues par jour peut être différent pour deux personnes situées dans deux fuseaux horaires différents.
 
 * Le nombre d’heures prévues par jour ne modifie pas les revenus prévus d’un projet si le taux de facturation de la fonction n’est pas modifié ou s’il n’y a qu’un seul remplacement du taux de facturation. Dans ce cas, même si deux personnes de deux fuseaux horaires différents voient des heures prévues par jour différentes, les revenus prévus globaux du projet sont identiques pour les deux personnes.
 
@@ -270,11 +361,11 @@ Tenez compte des éléments suivants lors du calcul des revenus prévus pour les
 * Le montant exact des **Revenus prévus** est celui vu par la personne qui a le même fuseau horaire que celui de votre instance Workfront. Votre administrateur ou administratrice Workfront définit le fuseau horaire Workfront dans la zone Infos client du système.\
   Pour plus d’informations sur la définition du fuseau horaire de votre système, voir l’article [Configurer les informations de base de votre système](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
-### Calculer les revenus réels pour les personnes dans différents fuseaux horaires {#calculate-actual-revenue-for-users-in-different-time-zones}
+### Calculer le revenu réel des utilisateurs dans différents fuseaux horaires {#calculate-actual-revenue-for-users-in-different-time-zones}
 
-Tenez compte des éléments suivants lorsque vous calculez les revenus réels pour des personnes situées dans des fuseaux horaires différents :
+Tenez compte des points suivants lors du calcul du revenu réel des utilisateurs dans différents fuseaux horaires :
 
-* Lorsque le **Type de revenu** d’une tâche est **Rôle par heure**, Workfront multiplie les **Heures effectives** de la tâche par le taux de facturation des fonctions affectées à la tâche pour calculer les **Revenus réels**. Les heures effectives sont les heures consignées directement pour la tâche.
+* Lorsque le **Type de revenu** d’une tâche est **Rôle par heure** ou <span class="preview">**Utilisateur et rôle par heure**</span>, Workfront multiplie les **Heures réelles** de la tâche par le taux de facturation des fonctions affectées à la tâche afin de calculer le **Revenu réel**. Les heures effectives sont les heures consignées directement pour la tâche.
 
 * Dans le cas de plusieurs remplacements du taux de facturation, Workfront utilise le taux de facturation de la fonction dont la période correspond à la **Date d’entrée** des heures consignées pour la tâche afin de calculer les **Revenus réels**.
 

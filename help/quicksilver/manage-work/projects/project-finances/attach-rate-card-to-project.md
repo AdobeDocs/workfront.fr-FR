@@ -5,10 +5,10 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 93%
+source-wordcount: '566'
+ht-degree: 23%
 
 ---
 
@@ -16,19 +16,17 @@ ht-degree: 93%
 
 {{highlighted-preview-article-level}}
 
-Les cartes tarifaires stockent plusieurs taux de facturation par fonction, selon l’emplacement. Vous pourriez par exemple avoir une fonction de concepteur ou conceptrice basé à Paris et une seconde fonction de concepteur ou conceptrice basé à New York, avec des taux de facturation différents chacun. Toutefois, il n’est pas nécessaire d’indiquer un emplacement pour les fonctions figurant sur une carte tarifaire. Un taux de facturation pour une fonction (et éventuellement un emplacement) sur une carte tarifaire peut également inclure des dates d’entrée en vigueur.
+Les cartes tarifaires stockent plusieurs taux de facturation par fonction, en fonction des attributs. Par exemple, vous pouvez avoir une fonction Designer basée à Paris pour l’agence A, une autre Designer basée à Paris pour l’agence B et une troisième Designer basée à New York non affectée à une agence, chacune avec des taux de facturation différents. Toutefois, les attributs ne sont pas obligatoires pour les fonctions sur une carte tarifaire. Les attributs servent d’outils pour établir des taux plus granulaires. Un taux de facturation sur une carte tarifaire peut également être valide pour une date effective, de sorte que le taux commence et se termine à des dates spécifiées.
 
-Lorsque vous joignez une carte tarifaire à un projet, tous les rôles par emplacement et leurs taux de facturation associés sont ajoutés au projet.
+Lorsque vous joignez une carte tarifaire à un projet, tous les rôles et leurs taux de facturation associés sont ajoutés au projet.
 
 >[!NOTE]
 >
->Le fait de joindre une carte tarifaire remplace les taux de facturation existants sur le projet.
+>L’ajout d’une carte tarifaire remplace tous les taux de facturation par carte tarifaire existants pour le projet. Les remplacements de taux de facturation qui ont été ajoutés directement au projet ne sont pas supprimés.
 
-Vous pouvez modifier les taux de facturation à partir de la carte tarifaire directement dans le projet. Cela n’affecte pas les taux enregistrés sur la carte tarifaire par défaut.
+Pour plus d’informations sur la création de cartes tarifaires, voir [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
-Pour plus d’informations sur la création de cartes tarifaires, voir [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
-
-Pour des informations générales sur la modification des taux de facturation des fonctions pour les projets et le calcul des revenus d’un projet, voir [Vue d’ensemble de la modification des taux de facturation des fonctions et du calcul des revenus d’un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Pour obtenir des informations générales sur le remplacement des taux de facturation des fonctions pour les projets et le calcul du revenu du projet, voir [Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Conditions d’accès
 
@@ -39,22 +37,20 @@ Pour des informations générales sur la modification des taux de facturation de
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Package Adobe Workfront</td> 
+   <td>Workflow Ultimate</td> 
   </tr> 
   <tr> 
    <td>Licence Adobe Workfront</td> 
-   <td>
-   <p>Standard</p>
-   <p>Plan</p></td> 
+   <td>Standard</td> 
   </tr> 
   <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification aux projets et aux données financières</p> <p>Accès administratif aux fonctions</p></td> 
+   <td>Modifier l’accès aux projets, aux données financières et aux cartes tarifaires</td> 
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Gérer les autorisations du projet qui inclut Modifier les données financières </td> 
+   <td>Gérez les autorisations du projet avec les autorisations de Modifier les taux de facturation</td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,17 +62,33 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Joindre une carte tarifaire à un projet
 
 1. Accédez au projet.
-1. Cliquez sur **Taux de facturation** dans le panneau de gauche.
+1. Cliquez sur **Taux** dans le panneau de gauche, puis sélectionnez **Facturation**.
 1. Cliquez sur **Ajouter un taux de facturation > Joindre une carte tarifaire**.
 
-   La page Joindre une carte tarifaire s’ouvre. Pour plus d’informations, voir [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+   La boîte de dialogue **Joindre une carte tarifaire** s’ouvre. Vous pouvez rechercher une carte tarifaire dans la liste.
+
+   ![Joindre une boîte de carte tarifaire](assets/attach-rate-card-dialog.png)
+
+   >[!NOTE]
+   >
+   >Le groupe et l’entreprise figurant sur les cartes tarifaires sont utilisés comme filtres sur cette liste. Comme les projets incluent également des champs Groupe et Société, Workfront utilise ces valeurs pour limiter la liste des cartes tarifaires disponibles à celles qui correspondent au contexte du projet, et pas à toutes les cartes tarifaires du système.
+   >
+   >La correspondance n’a pas besoin d’être exacte. Des cartes tarifaires avec des valeurs Groupe et/ou Société vides peuvent toujours apparaître en fonction de la configuration Groupe/Société du projet. Par exemple, si un groupe est sélectionné pour un projet mais que l&#39;entreprise est vide, vous pouvez voir des cartes tarifaires associées à ce groupe même si l&#39;entreprise de la carte tarifaire est différente ou vide.
 
 1. Sélectionnez la carte tarifaire à ajouter au projet et cliquez sur **Joindre**.
 
    La carte tarifaire et tous ses taux des fonctions sont ajoutés à la liste des taux de facturation.
 
-   ![Carte tarifaire ajoutée au projet](assets/billing-rates-added-from-rate-card.png)
+   ![Carte tarifaire ajoutée au projet](assets/rate-card-on-project.png)
 
-   >[!NOTE]
-   >
-   >Dans la liste des taux de facturation, vous pouvez supprimer une ou plusieurs fonctions provenant d’une carte tarifaire. La suppression d’un taux de facturation d’une fonction dans le projet ne le supprime pas de la carte tarifaire par défaut.
+## Supprimer une carte tarifaire d’un projet
+
+Lorsque vous supprimez une carte tarifaire d’un projet, tous ses taux de fonctions sont supprimés. Vous ne pouvez pas supprimer du projet un taux individuel provenant d’une carte tarifaire.
+
+Les remplacements du taux de facturation pour les utilisateurs ou les fonctions qui ont été ajoutés directement au projet peuvent être supprimés sans supprimer la totalité de la carte tarifaire.
+
+1. Accédez au projet.
+1. Cliquez sur **Taux** dans le panneau de gauche, puis sélectionnez **Facturation**.
+1. Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/remove-icon.png).
+1. Cliquez sur **Confirmer** dans le message de confirmation pour supprimer la carte tarifaire.
+

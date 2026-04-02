@@ -5,10 +5,10 @@ description: En plus de définir les revenus et de suivre les dépenses, vous po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 38%
+source-wordcount: '1633'
+ht-degree: 39%
 
 ---
 
@@ -29,7 +29,7 @@ Vous ne pouvez pas créer d&#39;enregistrements de facturation pour les tâches 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -108,7 +108,7 @@ Tenez compte des éléments suivants lorsque vous envisagez d’utiliser les enr
     </tbody> 
    </table>
 
-1. (Facultatif) Sous **Forms personnalisé**, sélectionnez un formulaire personnalisé d’enregistrements de facturation que vous souhaitez ajouter à l’enregistrement.
+1. (Facultatif) Sous Forms personnalisé&#x200B;**, sélectionnez un formulaire personnalisé d’enregistrements de facturation que vous souhaitez ajouter à l’enregistrement.**
 
    Un formulaire personnalisé d’enregistrements de facturation doit être créé avant de pouvoir le sélectionner ici. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -144,7 +144,7 @@ Vous pouvez ajouter des heures à un enregistrement de facturation lorsque les c
      >[!NOTE]
      >
      >Vous pouvez modifier les taux de facturation pour les fonctions au niveau du projet.\
-     >Pour plus d’informations, reportez-vous à la section « Remplacement des taux de facturation des fonctions au niveau du projet » de l’article [Présentation du remplacement des taux de facturation des fonctions et du calcul du revenu sur un projet](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Pour plus d’informations, reportez-vous à la section « Remplacement des taux de facturation des fonctions au niveau du projet » de l’article [Présentation du remplacement des taux de facturation et du calcul du revenu d’un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Si l’option Exiger que le temps soit approuvé pour ce projet est sélectionnée sous Paramètres du projet, le propriétaire du projet doit approuver les heures consignées.\
   Pour plus d’informations, voir [L’approbation d’un projet demande du temps](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
@@ -161,7 +161,7 @@ Vous pouvez ajouter des heures à un enregistrement de facturation lorsque les c
 
    >[!NOTE]
    >
-   >Si aucune heure n&#39;est consignée ou si les heures consignées ne remplissent pas les conditions requises pour être ajoutées à un enregistrement de facturation, le bouton **Ajouter des heures** ne s&#39;affiche pas. Pour plus d’informations, reportez-vous à la section suivante de cet article : [quelles heures peuvent être ajoutées à un enregistrement de facturation &#x200B;](#what-hours-can-be-added-to-a-billing-record).
+   >Si aucune heure n&#39;est consignée ou si les heures consignées ne remplissent pas les conditions requises pour être ajoutées à un enregistrement de facturation, le bouton **Ajouter des heures** ne s&#39;affiche pas. Pour plus d’informations, reportez-vous à la section suivante de cet article : [quelles heures peuvent être ajoutées à un enregistrement de facturation ](#what-hours-can-be-added-to-a-billing-record).
 
 1. Sélectionnez les entrées d&#39;heures à inclure dans l&#39;enregistrement de facturation, puis cliquez sur **Ajouter des heures**. Le coût réel des heures est ajouté en tant que montant des **heures facturables** au total de l’**enregistrement de facturation**.
 

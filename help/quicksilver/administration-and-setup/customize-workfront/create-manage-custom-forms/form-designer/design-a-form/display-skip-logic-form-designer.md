@@ -3,19 +3,21 @@ title: Ajout de règles logiques aux Forms et champs personnalisés
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: L’utilisateur ou l’utilisatrice peut choisir quelles sections d’un formulaire personnalisé doivent être affichées ou ignorées en fonction des choix effectués lors du remplissage.
+description: Les règles logiques vous permettent de personnaliser davantage les champs de votre formulaire.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: a060b0023d6ea04f0eb1210c61b7add37a943842
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 64%
+source-wordcount: '3485'
+ht-degree: 29%
 
 ---
 
 # Ajout de règles logiques aux formulaires et champs personnalisés
+
+{{highlighted-preview}}
 
 Les règles logiques vous permettent de personnaliser davantage les champs de votre formulaire.
 
@@ -34,8 +36,9 @@ Par exemple, vous pouvez afficher ou ignorer des champs ou des sections dans un 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
-   <td><p>Tous</p></td> 
+   <td>Package Adobe Workfront</td> 
+   <td> <p>Pour appliquer une logique d’affichage avancé, de valeur par défaut, de mise en forme conditionnelle ou de modifiabilité : Workflow Prime ou version ultérieure.</p>
+         <p>Pour appliquer tous les autres types de logiques : tout Workfront ou package de workflow</p> </td> 
   </tr> 
   <tr> 
    <td>Licence Adobe Workfront</td> 
@@ -49,24 +52,34 @@ Par exemple, vous pouvez afficher ou ignorer des champs ou des sections dans un 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Icônes de logique d’affichage et de saut
+## Icônes d’indicateur logique
 
-Les formulaires personnalisés affichent des icônes pour indiquer quand la logique d’affichage ou d’omission est appliquée à certains champs. Les icônes d’un champ dans le concepteur de formulaires indiquent que la logique est appliquée au champ.
+Les formulaires personnalisés affichent des icônes pour indiquer le moment où la logique est appliquée aux champs.
 
-| Icône | Emplacement sur le champ dans le concepteur de formulaires | Définition |
-|--- |--- |--- |
-| ![Logique d’affichage pour le champ cible](assets/display-logic-bottom-left.png) | En bas à gauche | Le champ est le champ cible pour la logique d’affichage. Si une sélection spécifique est effectuée dans le formulaire, ce champ est affiché. |
-| ![Définition de l’icône de la logique d’affichage](assets/display-logic-bottom-right.png) | En bas à droite | Le champ définit la logique d’affichage. Une sélection ou une valeur spécifique dans ce champ affiche le champ cible. |
-| ![Logique de saut pour le champ cible](assets/skip-logic-bottom-left.png) | En bas à gauche | Le champ est le champ cible pour la logique de saut. Si une sélection spécifique est effectuée dans le formulaire, le formulaire ignore ce champ et les champs intermédiaires sont masqués. |
-| ![Définition de l’icône de logique de saut](assets/skip-logic-bottom-right.png) | En bas à droite | Ce champ définit la logique de saut. Une sélection ou une valeur spécifique dans ce champ permet d’ignorer les autres champs et d’accéder directement au champ cible. |
+<span class="preview">Cliquez sur **Afficher la logique** dans l’en-tête du concepteur de formulaire pour afficher ou masquer les icônes des différents types de logiques de champ.</span>
 
-![Icônes de logique](assets/logic-icons-3.png)
+| Icône | Définition |
+| --- | --- |
+| ![Logique d’affichage pour le champ cible](assets/display-logic-bottom-right.png) | Le champ est le champ cible dans lequel la logique d’affichage est appliquée. Si une sélection spécifique est effectuée dans le formulaire, ce champ est affiché. |
+| ![Afficher l’icône de logique pour le champ de référence](assets/display-logic-bottom-left.png) | Le champ est le champ de référence de la logique d’affichage. Une sélection ou une valeur spécifique dans ce champ affiche le champ cible. |
+| ![Logique de saut pour le champ cible](assets/skip-logic-bottom-right.png) | Le champ est le champ cible dans lequel la logique de saut est appliquée. Une sélection ou une valeur spécifique sur ce champ ignore les autres champs et va directement au champ de référence. |
+| ![Ignorer l’icône de logique pour le champ de référence](assets/skip-logic-bottom-left.png) | Le champ est le champ de référence pour la logique de saut. Si une sélection spécifique est effectuée sur le champ cible, le formulaire passe directement à ce champ et les champs situés entre les deux sont masqués. |
+| ![Logique de validation du champ cible](assets/validation-logic-icon.png) | Le champ est le champ cible dans lequel la logique de validation est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine si la validation échoue. Le champ cible et le champ de référence peuvent être identiques pour la logique de validation. |
+| ![Logique de validation du champ de référence](assets/validation-logic-reference-field.png) | Le champ est le champ de référence de la logique de validation. Une sélection ou une valeur spécifique sur ce champ détermine si la validation échoue sur le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de validation. |
+| ![Logique de valeur par défaut pour le champ cible](assets/default-value-logic-icon.png) | <span class="preview"> Le champ est le champ cible dans lequel la logique de valeur par défaut est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la valeur par défaut. Le champ cible et le champ de référence peuvent être identiques pour la logique de valeur par défaut.</span> |
+| ![Logique de valeur par défaut pour le champ de référence](assets/default-value-logic-reference-field.png) | <span class="preview">Le champ est le champ de référence de la logique de valeur par défaut. Une sélection ou une valeur spécifique dans ce champ détermine la valeur par défaut dans le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de valeur par défaut.</span> |
+| ![Logique de formatage du champ cible ](assets/formatting-logic-icon.png) | <span class="preview"> Le champ est le champ cible où la logique de formatage est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la mise en forme. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage.</span> |
+| ![Logique de formatage du champ de référence](assets/formatting-logic-reference-field.png) | <span class="preview">Le champ est le champ de référence pour la logique de formatage. Une sélection ou une valeur spécifique dans ce champ détermine la mise en forme dans le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage.</span> |
+| ![Logique de modifiabilité du champ cible](assets/editability-logic-icon.png) | <span class="preview">Le champ est le champ cible auquel la logique d&#39;modifiabilité est appliquée. Le champ peut être modifiable ou en lecture seule lorsque les conditions définies sont remplies. Le champ cible et le champ de référence peuvent être identiques pour la logique d&#39;édition.</span> |
+| ![Logique de modifiabilité du champ de référence](assets/editability-logic-reference-field.png) | <span class="preview">Le champ est le champ de référence pour la logique d’édition. Lorsque les conditions définies sont remplies sur ce champ, la logique est appliquée au champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique d&#39;édition.</span> |
 
-Sélectionnez un champ auquel la logique est appliquée pour afficher les règles de logique existantes dans les paramètres du champ.
+<!-- ![Logic icons](assets/logic-icons-3.png) -->
+
+Pour afficher et ignorer la logique uniquement, sélectionnez un champ pour afficher les règles de logique existantes dans les paramètres du champ.
 
 ![Règles de logique](assets/form-designer-view-only-logic.png)
 
@@ -94,11 +107,9 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
 
 La logique d’affichage définit les champs personnalisés qui apparaissent dans le formulaire lorsque l’utilisateur ou l’utilisatrice sélectionne une valeur spécifique dans un champ à choix multiple. La logique est ajoutée au champ cible, qui ne s’affiche que lorsque la valeur est sélectionnée.
 
-<!--
 >[!NOTE]
 >
-><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
--->
+><span class="preview">Cette procédure décrit le mode de base de la logique d’affichage. Une logique d’affichage avancée est également disponible. Pour plus d’informations, voir [Ajouter une logique d’affichage avancée à un formulaire personnalisé](#add-advanced-display-logic-to-a-custom-form), dans cet article.</span>
 
 {{step-1-to-setup}}
 
@@ -126,60 +137,66 @@ La logique d’affichage définit les champs personnalisés qui apparaissent dan
 
    Les icônes de logique d’affichage sont ajoutées au champ cible et au champ de définition dans le concepteur de formulaires.
 
-<!--
 <div class="preview">
 
-## Add advanced display logic to a custom form
+## Ajouter une logique d’affichage avancée à un formulaire personnalisé
 
-The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+La logique d’affichage avancée des champs de formulaire personnalisés vous permet de créer une logique complexe à l’aide de formules. Vous pouvez appliquer cette logique aux types de champ suivants : texte monoligne, paragraphe, texte avec mise en forme, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, référence de champ native, saisie semi-automatique, calculé, date, groupe de cases à cocher et boutons radio.
 
-### Examples
+>[!NOTE]
+>
+>Cette procédure décrit le mode avancé de la logique d’affichage. Une logique d’affichage de base est également disponible. Pour plus d’informations, voir [Ajouter une logique d’affichage à un formulaire personnalisé](#add-display-logic-to-a-custom-form), dans cet article.
 
-You can use advanced display logic to control the visibility of custom form sections based on user roles and the visibility of a field based on another field's status.
+### Exemples
 
-No logic is applied to the default section on the form, so it is always visible to all users.
+Vous pouvez utiliser une logique d’affichage avancée pour contrôler la visibilité des sections de formulaire personnalisé en fonction des rôles des utilisateurs et la visibilité d’un champ en fonction du statut d’un autre champ.
 
-Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
+Aucune logique n’est appliquée à la section par défaut du formulaire. Elle est donc toujours visible par tous les utilisateurs et utilisatrices.
+
+Si vous utilisez la condition suivante, la section Ressources requises n’est affichée que lorsqu’un utilisateur disposant de la fonction Gestionnaire de ressources consulte le formulaire.
 
 ```IF($$USER.{roleID}="123abc", true)```
 
-Note that ```123abc``` represents the role ID of the Resource Manager.
+Notez que ```123abc``` représente l’ID de rôle du gestionnaire de ressources.
 
-![Form section displayed for role](assets/advanced-display-on-form1.png)
+![Section de formulaire affichée pour le rôle](assets/advanced-display-on-form1.png)
 
-The same condition with a different role ID is applied to the Project Financial KPIs section to define that  only the Financial Advisor role can view the section.
+La même condition avec un ID de rôle différent est appliquée à la section KPI financiers du projet pour définir que seul le rôle Conseiller financier peut afficher la section.
 
-Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
+Si vous utilisez la condition suivante, le champ KPI Vendu n’est visible qu’une fois le projet terminé. Cette logique est appliquée directement au champ plutôt qu’à une section de formulaire. Il n’est pas nécessaire de spécifier quel rôle peut afficher le champ, car cela est déjà défini dans la section dans laquelle se trouve le champ.
 
 ```IF({status}="CPL", true)```
 
-![Field is visible on complete project](assets/advanced-display-on-form2.png)
+![Le champ est visible sur le projet terminé](assets/advanced-display-on-form2.png)
 
-### Define advanced display logic
+### Définition d’une logique d’affichage avancée
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Display** tab on the logic builder.
-1. Turn on **Advanced mode**.
-   
-   This option might be turned on automatically, for fields that do not support the simple mode of display logic.
+1. Cliquez sur **Formulaires personnalisés**.
+1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Ajoutez des champs au formulaire selon vos besoins.
+1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
+1. Sélectionnez l’onglet **Affichage** dans le créateur de logiques.
+1. Activez **Mode avancé**.
 
-   ![Advanced mode for display logic](assets/advanced-display-logic-blank-editor.png)
+   Cette option peut être activée automatiquement pour les champs qui ne prennent pas en charge le mode simple de la logique d’affichage.
 
-1. Build the display condition in the editor.
+   ![Mode avancé pour la logique d’affichage](assets/advanced-display-logic-blank-editor.png)
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+1. Créez la condition d’affichage dans l’éditeur.
 
-1. Click **Apply**.
-   
-   The logic is applied to the field and the display logic icon is added in the form designer.
+   Pour plus d’informations sur les calculs et les expressions, voir [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) et [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Cliquez sur **Appliquer**.
+
+   La logique est appliquée au champ et l’icône de logique d’affichage est ajoutée au concepteur de formulaire.
+
+   >[!NOTE]
+   >
+   >La logique d’affichage avancée n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
 
 </div>
--->
 
 ## Ajouter une logique de saut à un formulaire personnalisé
 
@@ -211,13 +228,63 @@ La logique de saut définit des champs de formulaire personnalisés qui sont ign
 
    Les icônes de logique de saut sont ajoutées au champ cible et au champ de définition dans le concepteur de formulaires.
 
+<div class="preview">
+
+## Ajouter une logique de valeur par défaut à un formulaire personnalisé
+
+La logique de valeur par défaut vous permet de configurer les valeurs par défaut des champs de formulaire personnalisés à l’aide de formules. La valeur par défaut s’affiche lorsque les conditions définies sont remplies. Une valeur par défaut peut être une valeur statique ou une valeur dynamique qui fait référence à d’autres champs de l’objet . Bien que la valeur par défaut puisse référencer d’autres champs, elle ne change pas à mesure que d’autres champs du formulaire sont modifiés.
+
+Vous pouvez appliquer une logique de valeur par défaut avancée aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple. référence de champ natif, saisie semi-automatique, groupe de cases à cocher et boutons radio.
+
+>[!TIP]
+>
+>Une valeur par défaut est appliquée une seule fois à un champ personnalisé, lorsque le formulaire personnalisé est joint à l’objet . Si la formule de valeur par défaut dépend de la valeur d’un autre champ, la valeur de l’autre champ doit déjà exister lorsque le formulaire personnalisé est joint.
+
+>[!NOTE]
+>
+>La logique de valeur par défaut standard dans le concepteur de formulaire existe toujours. Si les deux types sont appliqués au même champ, la logique avancée est prioritaire. Pour plus d’informations sur la logique de valeur par défaut standard, consultez [Ajouter des boutons radio, des groupes de cases à cocher et des listes déroulantes](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) dans [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+### Exemple
+
+À l’aide de la formule suivante, le champ déroulant à sélection multiple auquel la logique est appliquée extrait sa valeur par défaut de la description du projet lorsque le statut du projet est Planification.
+
+```
+IF({status} = 'PLN', ARRAY({description}, ','))
+```
+
+Lorsque le formulaire personnalisé est joint à un projet et que le statut du projet est Planification, la valeur du champ de description du projet est utilisée comme valeur par défaut dans le champ à sélection multiple. Comme il s’agit d’un champ à sélection multiple, plusieurs valeurs peuvent être extraites lorsque les valeurs correspondent à la description. Si la valeur de description ne correspond à aucune option à valeurs multi-sélection, le champ à sélections multiples ne comporte pas de valeur par défaut et l’utilisateur peut sélectionner une valeur dans la liste déroulante.
+
+### Définir la logique de valeur par défaut
+
+1. Cliquez sur **Formulaires personnalisés**.
+1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Ajoutez des champs au formulaire selon vos besoins.
+1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
+1. Sélectionnez l’onglet **Valeur par défaut** dans le créateur de logiques.
+
+   ![Générateur de logique de valeur par défaut](assets/default-value-blank-editor.png)
+
+1. Créez la condition de valeur par défaut dans l’éditeur.
+
+   Pour plus d’informations sur les calculs et les expressions, voir [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) et [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Cliquez sur **Appliquer**.
+
+   La logique est appliquée au champ dans le concepteur de formulaire.
+
+   >[!NOTE]
+   >
+   >La logique de valeur par défaut n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
+
+</div>
+
 ## Ajouter une logique de validation à un formulaire personnalisé
 
 La logique de validation est créée à l’aide de formules et vous pouvez la rendre aussi simple ou complexe que nécessaire. La validation peut être basée sur les valeurs d’autres champs ou l’état d’objets, et vous pouvez fournir un message d’erreur pour lorsque la validation échoue.
 
 Si le champ avec la logique appliquée remplit les conditions de validation définies lorsqu’un utilisateur remplit le formulaire personnalisé, le champ est mis en surbrillance et le message d’erreur s’affiche.
 
-Vous pouvez appliquer la logique de validation aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, saisie semi-automatique, date, groupe de cases à cocher et boutons radio.
+Vous pouvez appliquer la logique de validation aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, saisie semi-automatique, date, groupe de cases à cocher et boutons radio.
 
 ### Exemples
 
@@ -260,22 +327,21 @@ Pour obtenir d’autres exemples de logique de validation, voir [Exemples de log
    >
    >La logique de validation n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
 
-<!--
 <div class="preview">
 
-## Add formatting logic to a custom form
+## Ajouter une logique de mise en forme à un formulaire personnalisé
 
-Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+La logique de formatage met en surbrillance une valeur de champ lorsqu’elle remplit les conditions définies. La mise en forme appliquée fonctionne sur plusieurs champs à la fois.
 
-You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
+Vous pouvez appliquer une logique de mise en forme aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, saisie semi-automatique, calculé, date, groupe de cases à cocher et boutons radio.
 
-Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+La mise en forme appliquée aux formulaires personnalisés est différente de celle appliquée aux listes et aux rapports. Pour plus d&#39;informations sur le formatage des rapports, voir [Utiliser le formatage conditionnel dans les vues](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
-### Example
+### Exemple
 
-Using the following condition, the Budget field appears red when the user enters a value of 1000 or more. The field appears yellow when the user enters a value of 500 or more.
+À l’aide de la condition suivante, le champ Budget apparaît en rouge lorsque l’utilisateur ou l’utilisatrice saisit une valeur de 1 000 ou plus. Le champ apparaît en jaune lorsque l’utilisateur ou l’utilisatrice saisit une valeur de 500 ou plus.
 
-To add a hover-over definition of the formatting, use the Instructions field in the custom form. For example, a message on the Budget field could say "Please enter a budget within a reasonable range. Values over 500 are a warning notice, and above 1000 is considered too high."
+Pour ajouter une définition de mise en forme lorsque vous pointez dessus, utilisez le champ Instructions dans le formulaire personnalisé. Par exemple, un message dans le champ Budget peut indiquer « Veuillez entrer un budget dans une plage raisonnable. Les valeurs supérieures à 500 constituent un avertissement, et celles supérieures à 1 000 sont considérées comme trop élevées. »
 
 ```
 IF(
@@ -285,42 +351,99 @@ IF(
 )
 ```
 
-### Define formatting logic
+### Définir la logique de formatage
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Formatting** tab on the logic builder.
+1. Cliquez sur **Formulaires personnalisés**.
+1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Ajoutez des champs au formulaire selon vos besoins.
+1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
+1. Sélectionnez l’onglet **Formatage** dans le créateur de logiques.
 
-   ![Formatting logic builder](assets/formatting-logic-blank-editor.png)
+   ![Formatage du générateur de logique](assets/formatting-logic-blank-editor.png)
 
-1. Build the formatting condition in the editor.
+1. Créez la condition de formatage dans l’éditeur.
 
-   You can add up to five formatting rules per field.
+   Vous pouvez ajouter jusqu’à cinq règles de mise en forme par champ.
 
-   The field highlighting color options are:
+   Les options de couleur de mise en surbrillance des champs sont les suivantes :
 
    * `$$POSITIVE (green)`
    * `$$INFORMATIVE (blue)`
    * `$$NEGATIVE (red)`
    * `$$NOTICE (orange)`
-   
-   The text formatting options are:
-   
+
+   Les options de formatage du texte sont les suivantes :
+
    * `$$BOLD`
    * `$$ITALIC`
    * `$$UNDERLINE`
 
-   Only one color option may be used per function, along with up to three additional text formatting options. If no color option is specified, the system's default color is applied.
+   Une seule option de couleur peut être utilisée par fonction, ainsi que trois options de formatage de texte supplémentaires. Si aucune option de couleur n’est spécifiée, la couleur par défaut du système est appliquée.
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Pour plus d’informations sur les calculs et les expressions, voir [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) et [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. Click **Apply**.
-   
-   The logic is applied to the field in the form designer.
+1. Cliquez sur **Appliquer**.
+
+   La logique est appliquée au champ dans le concepteur de formulaire.
+
+   >[!NOTE]
+   >
+   >La logique de formatage n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
 
 </div>
--->
+
+<div class="preview">
+
+## Ajouter une logique d’édition à un formulaire personnalisé
+
+La logique de modifiabilité détermine si un champ de formulaire personnalisé peut être modifié ou s’il est en lecture seule. Cette logique est générée à l’aide de formules. Lorsque le champ remplit les conditions définies, il peut être défini comme modifiable ou en lecture seule.
+
+Vous pouvez appliquer une logique d’édition aux types de champs suivants : texte monoligne, paragraphe, texte avec mise en forme, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, saisie semi-automatique, date, groupe de cases à cocher et boutons radio.
+
+### Exemple
+
+À l’aide de la formule suivante, le champ avec une logique appliquée n’est modifiable que lorsque le choix Activé est sélectionné pour un autre champ appelé Radio .
+
+```
+IF({DE:Radio} = "Enabled", true)
+```
+
+À l’aide de la formule suivante, le champ Description n’est modifiable que s’il est vide. Une fois qu’une valeur est saisie, elle devient en lecture seule.
+
+```
+IF(ISBLANK({DE:Description}), true)
+```
+
+À l’aide de la formule suivante, le champ avec une logique appliquée n’est modifiable que lorsqu’un utilisateur disposant de la fonction Gestionnaire de ressources affiche le formulaire.
+
+```
+IF($$USER.{role}.{name}="Resource Manager", true)
+```
+
+### Définition de la logique d’modifiabilité
+
+{{step-1-to-setup}}
+
+1. Cliquez sur **Formulaires personnalisés**.
+1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Ajoutez des champs au formulaire selon vos besoins.
+1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
+1. Sélectionnez l’onglet **Modifiabilité** dans le créateur de logiques.
+
+   ![Créateur de logique de modifiabilité](assets/editability-blank-editor.png)
+
+1. Créez la condition de modifiabilité dans l’éditeur.
+
+   Pour plus d’informations sur les calculs et les expressions, voir [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) et [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Cliquez sur **Appliquer**.
+
+   La logique est appliquée au champ dans le concepteur de formulaire.
+
+   >[!NOTE]
+   >
+   >La logique de modifiabilité n’est pas prise en charge dans le mode Aperçu du créateur de formulaire.
+
+</div>

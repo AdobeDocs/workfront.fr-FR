@@ -4,14 +4,16 @@ description: Vous pouvez partager un portfolio avec d’autres personnes si vous
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 46%
+source-wordcount: '896'
+ht-degree: 47%
 
 ---
 
 # Partager un portfolio
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Votre administrateur ou administratrice Adobe Workfront peut vous accorder l’accès en afichage ou en modification aux portfolios lors de l’attribution de votre niveau d’accès. Vous devez disposer d’une licence de plan pour avoir accès à la modification d’un portfolio. Pour plus d’informations, voir [Accorder l’accès aux portfolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -82,7 +84,7 @@ Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [C
 
    ![Bouton Partager le portfolio](assets/share-portfolio-button.png)
 
-1. Dans le champ **Accorder l’accès au portefeuille à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager le portefeuille, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès au portefeuille à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil d’entreprise</span> avec lequel vous souhaitez partager le portefeuille, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
@@ -115,7 +117,7 @@ Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [C
 
    ![Portefeuilles d’actions en masse](assets/bulk-share-portfolios.png)
 
-1. Dans le champ **Accorder l’accès au portefeuille à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les portefeuilles, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès au portefeuille à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil professionnel</span> avec lequel vous souhaitez partager les portefeuilles, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >

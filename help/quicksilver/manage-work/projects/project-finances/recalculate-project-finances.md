@@ -6,10 +6,10 @@ description: Les finances sont calculées sur un projet à mesure que des modifi
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 91%
+source-wordcount: '1605'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ Les finances sont calculées sur un projet à mesure que des modifications se pr
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ Les taux de revenu peuvent changer aux niveaux suivants :
   Pour plus d’informations, voir [Remplacer les taux de facturation des fonctions au niveau de l’entreprise](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * Au niveau du projet (pour les fonctions)\
-  Pour plus d’informations sur le remplacement des taux des fonctions au niveau du projet, voir l’article [Vue d’ensemble du remplacement des taux de facturation des fonctions et calcul des revenus sur un projet](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Pour plus d’informations sur le remplacement des taux de fonctions au niveau du projet, consultez l’article [Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Par exemple, le taux de facturation d’une personne varie au cours d’un projet de 50 $ à 75 $ de l’heure et vous souhaitez que toutes les données existantes restent calculées selon l’ancien taux (50 $ de l’heure). Cependant, lorsque les finances du projet sont recalculées, les revenus des tâches qui contiennent déjà des données financières seront mises à jour pour refléter le nouveau taux de facturation (de 75 $ de l’heure).
 
@@ -112,7 +112,7 @@ Pour plus d’informations sur la création d’enregistrements de facturation, 
 
 Lorsque les taux de facturation changent pour les fonctions au niveau du projet, vous pouvez conserver les revenus existants, déjà calculés sur le projet, en utilisant plusieurs remplacements de taux de facturation qui sont verrouillés au cours d’une période spécifiée.
 
-Pour plus d’informations sur l’utilisation de plusieurs remplacements de taux de facturation, voir l’article [Vue d’ensemble du remplacement des taux de facturation des fonctions et du calcul des revenus sur un projet](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Pour plus d’informations sur l’utilisation de remplacements de plusieurs taux de facturation, consultez l’article [Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ Vous pouvez recalculer le financement lors de leur modification en masse. Pour p
 
 1. Accédez au projet pour lequel vous souhaitez recalculer les données financières et cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du projet.
 
-   ![Liste déroulante Niveau du projet plus &#x200B;](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Liste déroulante Niveau du projet plus ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 

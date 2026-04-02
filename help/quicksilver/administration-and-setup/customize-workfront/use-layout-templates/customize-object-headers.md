@@ -8,20 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 61%
+source-wordcount: '548'
+ht-degree: 46%
 
 ---
 
 # Personnaliser les en-têtes d’objet avec un modèle de mise en page
 
+{{highlighted-preview}}
+
 En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, vous pouvez utiliser un modèle de mise en page pour configurer les champs que les personnes voient dans l’en-tête de l’objet lorsqu’elles ouvrent la page d’un objet.
 
 >[!IMPORTANT]
 >
->La personnalisation des en-têtes d’objets est actuellement disponible pour les projets, les tâches et les problèmes.
+>La personnalisation des en-têtes d’objet est actuellement disponible pour les projets, les tâches, les événements, les <span class="preview">portfolios, programmes, modèles, enregistrements de facturation, équipes, groupes, utilisateurs, entreprises, groupes et cartes tarifaires.</span>
 
 ![Champs d’en-tête d’objet](assets/object-header-fields.png)
 
@@ -64,10 +66,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Personnaliser les en-têtes d’objets
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Dans le menu déroulant **Personnaliser ce que les personnes voient**, sélectionnez **Projets**, **Tâches** ou **Problèmes**.
-
-   <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
-
+1. Dans le menu déroulant **Personnaliser ce que voient les utilisateurs** sélectionnez un objet dont vous souhaitez personnaliser l’en-tête.
 1. Dans la section [!UICONTROL Champs d’en-tête], passez la souris sur les champs actifs et effectuez l’une des opérations suivantes :
    * Cliquez sur l’icône **x** pour supprimer un champ.
 
@@ -75,12 +74,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * Cliquez sur l’icône **main** et maintenez-la enfoncée pour faire glisser et déposer le champ à un nouvel emplacement.
 
-   <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
-
    ![Les champs d’en-tête d’objet masquent et déplacent les icônes](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
-1. L’en-tête d’un objet peut comporter jusqu’à cinq champs.
-Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ avant d’en ajouter un nouveau.
+1. L’en-tête d’un objet peut contenir jusqu’à cinq champs.
+
+   Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ avant d’en ajouter un nouveau.
+
 1. Dans la zone **Ajouter un champ**, commencez à saisir le nom d’un champ personnalisé ou d’un champ Workfront natif que vous souhaitez ajouter, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Le champ est ajouté à droite immédiate de la zone Ajouter un champ et s’affiche comme le premier champ dans le coin supérieur droit de l’en-tête de l’objet .
 
    >[!TIP]
@@ -89,7 +88,7 @@ Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ av
    >
    >* Lorsque l’utilisateur modifie un champ personnalisé dans l’en-tête qui est contenu dans un formulaire personnalisé non joint à l’objet , le formulaire personnalisé est automatiquement ajouté à l’objet .
    >
-   >* Lorsque vous ajoutez le champ « Résolu par » à l’en-tête d’un problème, le champ devient « Résolution du problème, de la tâche ou du projet », lorsqu’un objet de résolution est associé au problème.
+   >* Lorsque vous ajoutez le champ « Résolu par » à l’en-tête d’un problème, le champ devient « Résoudre le problème, la tâche ou le projet » lorsqu’un objet de résolution est associé au problème.
 
    ![Ajouter un champ à l’en-tête](assets/add-field-to-header-in-lt-list.png)
 

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 0f96a4d941eb4595ac60302b579cff31461272a7
+source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 62%
+source-wordcount: '777'
+ht-degree: 52%
 
 ---
 
 # Personnaliser le menu principal à l’aide d’un modèle de mise en page
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -91,7 +93,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      >Le planificateur de scénarios nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
    * Équipes
-   * Utilisateurs
+   * Utilisateurs et utilisatrices
 
      >[!NOTE]
      >
@@ -122,7 +124,28 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      >
      > Les applications personnalisées doivent être créées séparément avant d&#39;être disponibles en tant qu&#39;options du menu principal. Pour plus d’informations, voir [Création d’une application personnalisée pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-1. Effectuez l’une des opérations suivantes :
+<div class="preview">
+
+Dans l’environnement de Prévisualisation :
+
+1. Effectuez l’une des opérations suivantes pour les éléments **natifs** :
+
+   * Masquer ![Icône Masquer](assets/remove-icon---x-in-circle.png) les éléments que vous ne souhaitez pas afficher dans le menu principal.
+   * Afficher les éléments ![Afficher l&#39;icône](assets/add-icon-plus-in-circle.png) que vous souhaitez afficher dans le menu principal.
+   * Faites glisser ![Icône Glisser](assets/move-icon---dots.png) les éléments pour modifier leur ordre d’affichage dans le menu principal.
+
+1. Effectuez l’une des opérations suivantes pour les éléments **Système** :
+
+   * Masquer ![Icône Masquer](assets/remove-icon---x-in-circle.png) les éléments que vous ne souhaitez pas afficher dans le menu principal.
+   * Afficher les éléments ![Afficher l&#39;icône](assets/add-icon-plus-in-circle.png) que vous souhaitez afficher dans le menu principal.
+
+</div>
+
+>[!NOTE]
+>
+><span class="preview">Vous ne pouvez pas modifier l&#39;ordre des éléments système. Ces éléments s&#39;affichent toujours en bas du menu principal lorsqu&#39;ils sont actifs.</span>
+
+1. Dans l’environnement de production, effectuez l’une des opérations suivantes :
 
    * Masquez ![Icône Masquer](assets/remove-icon---x-in-circle.png) **Éléments actifs** que vous ne souhaitez pas afficher
    * Afficher ![Afficher l&#39;icône](assets/add-icon-plus-in-circle.png) **Éléments disponibles** à afficher dans le menu principal.

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 69%
+source-wordcount: '3478'
+ht-degree: 67%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 69%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -43,8 +43,9 @@ Pour plus d’informations sur les utilisateurs qui mettent à jour leur propre 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
-   <td><p>Tous</p></td> 
+   <td>Package Adobe Workfront</td> 
+   <td><p>Pour modifier le profil d’un utilisateur ou d’une utilisatrice : tout Workfront ou package de workflow</p>
+       <p>Pour définir les attributs de taux et le remplacement du taux de coût : Workflow Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>Licence Adobe Workfront</td> 
@@ -236,7 +237,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
   >Définissez la valeur Temps de travail sur 1 pour indiquer que la personne est disponible pour effectuer le travail lié au projet pendant la totalité de son équivalent temps plein.
 
 * **Définir la date de désactivation** : cliquez sur ce bouton si vous souhaitez planifier la désactivation de cet utilisateur à une certaine date et à une certaine heure.
-* **Date de désactivation** : date et heure auxquelles l’utilisateur ou l’utilisatrice est désactivé(e). Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [&#x200B; Planification de la désactivation d’utilisateurs &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [&#x200B; Désactiver ou réactiver un utilisateur &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Date de désactivation** : date et heure auxquelles l’utilisateur ou l’utilisatrice est désactivé(e). Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [ Planification de la désactivation d’utilisateurs ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [ Désactiver ou réactiver un utilisateur ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Rôle principal** : le rôle principal de tâche que l’utilisateur ou l’utilisatrice peut remplir dans Workfront. Chaque tâche et chaque problème affecté à un utilisateur ou à une utilisatrice est également affecté à cette fonction. Les fonctions sont essentielles à la gestion des ressources. Vous ne pouvez mettre à jour ce champ que si vous disposez d’une licence Standard ou Plan avec un accès utilisateur administratif ou si vous êtes un administrateur Workfront. Pour plus d’informations sur la configuration des utilisateurs et des utilisatrices disposant d’un accès d’administration, consultez la section [Accorder un accès aux utilisateurs et aux utilisatrices](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Seules les fonctions actives s’affichent dans la liste.
@@ -264,9 +265,11 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
 
   Pour plus d’informations sur la configuration des préférences de gestion des ressources, consultez la section [Configurer les préférences de gestion des ressources](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  <span class="preview">(Facultatif) Date à laquelle les affectations de fonction effectives sont utilisées dans les calculs financiers si la fonction de l&#39;utilisateur change au cours d&#39;un projet.</span>
+<!--
+<span class="preview">(Optional) Date effective job role assignments are used in financial calculations if the user's job role changes during a project.</span>
 
-  <span class="preview">Cliquez sur **Définir les rôles par date**, sélectionnez le **rôle de Principal** et **autres rôles**, puis saisissez le pourcentage d’affectation pour chaque rôle. Les fonctions peuvent être les mêmes que les fonctions existantes (en utilisant des pourcentages différents), ou de nouvelles fonctions. Sélectionnez la Date de début à laquelle ces rôles deviennent actifs. Il peut s’agir d’une date future. Lorsque les nouveaux rôles deviennent actifs, vous pouvez cliquer sur **Afficher les rôles précédents** pour afficher les rôles précédents inactifs.</span>
+  <span class="preview">Click **Define roles by date**, select the **Primary Role** and **Other Roles**, and enter the allocation percentage for each role. The roles could be the same as the existing roles (using different percentages), or new roles. Select the Start date when these roles become active. This can be a future date. When the newest roles become active, you can click **Show previous roles** to see the previous, inactive roles.</span>
+-->
 
 * **Planning** : associer un planning à l’utilisateur ou à l’utilisatrice. Le planning de l’utilisateur ou de l’utilisatrice calcule la chronologie des tâches qui lui sont affectées.
 
@@ -289,7 +292,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
    * Les utilisateurs disposant d&#39;une licence Standard ou Plan et ayant accès à la modification d&#39;utilisateurs ne peuvent afficher que les profils de feuilles de temps au niveau du système. Pour plus d’informations sur les profils de feuille de temps au niveau du groupe, consultez la section [Créer, modifier et affecter des profils de feuille de temps](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **Type d’heure par défaut** : sélectionner le type d’heure par défaut pour l’utilisateur ou l’utilisatrice. Il s’agit du type d’heure utilisé par défaut lorsque l’utilisateur ou l’utilisatrice consigne les heures.
-* **Types d’heure disponibles** : sélectionner les types d’heures qui doivent être disponibles pour l’utilisateur ou l’utilisatrice. Ces types d’heures sont visibles dans tous les emplacements Workfront où l’utilisateur ou l’utilisatrice peut consigner des heures. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir [&#x200B; Définir les types d’heures et la disponibilité &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+* **Types d’heure disponibles** : sélectionner les types d’heures qui doivent être disponibles pour l’utilisateur ou l’utilisatrice. Ces types d’heures sont visibles dans tous les emplacements Workfront où l’utilisateur ou l’utilisatrice peut consigner des heures. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir [ Définir les types d’heures et la disponibilité ](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 * **Enregistrer le temps dans** : indiquez si l’utilisateur doit enregistrer le temps passé sur des tâches en heures ou en jours. Pour plus d’informations, consultez la section [Configurer si le temps est enregistré en heures ou en jours](/help/quicksilver/timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
 * **Équivalent temps complet** : il s’agit de l’équivalent temps complet de l’utilisateur ou de l’utilisatrice. Workfront utilise ce nombre pour calculer la disponibilité de la personne en fonction du planning par défaut uniquement lorsque les préférences de gestion des ressources au niveau du système sont définies sur « Le planning par défaut ».
 
@@ -316,6 +319,8 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
 
   Certaines dates sont ajoutées automatiquement. Par exemple, si le taux de dépenses 1 n’a pas de date de fin et que vous ajoutez le taux de dépenses 2 avec une date de début au 1er mai 2023, une date de fin au 30 avril 2023 est ajoutée au taux de dépenses 1 afin qu’il n’y ait aucune différence.
 
+* <span class="preview">**Remplacement du taux de coût autorisé** : activez cette option pour autoriser les remplacements du taux de coût pour cet utilisateur dans les projets. Pour plus d&#39;informations, voir [Remplacer les taux de coûts utilisateur au niveau du projet](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).</span>
+
 * **Taux de facturation** : le montant de la facturation par heure pour l’utilisateur ou l’utilisatrice.
 
   Pour connaître les taux de facturation effectifs par date, cliquez sur **Ajouter un taux**. Saisissez la valeur du taux de facturation pour la période et affectez une date de début et une date de fin, le cas échéant. Le taux de facturation 1 ne comporte pas de date de début de validité et le dernier taux de facturation n’a pas de date de fin de validité.
@@ -333,6 +338,28 @@ Associez un formulaire personnalisé existant à cet utilisateur ou cette utilis
 >Les fonctionnalités avancées des formulaires personnalisés, telles que les champs de recherche externe et les champs natifs de Workfront, ne sont disponibles que lorsque vous ouvrez l’enregistrement de l’utilisateur ou de l’utilisatrice sur la page de détails, et non dans la boîte de dialogue Modifier l’utilisateur . (Dans la liste des personnes, cliquez sur un nom pour ouvrir les détails.)
 
 Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+<div class="preview">
+
+### Attributs
+
+Les attributs de taux sont pris en charge dans les zones de Workfront où il existe des taux, comme les fonctions et les utilisateurs. Lorsque des attributs sont appliqués au profil d’un utilisateur, leurs affectations sont automatiquement résolues aux taux corrects.
+
+1. Cliquez sur **Ajouter un nouveau jeu**.
+1. Sélectionnez les valeurs d’attribut.
+
+   Votre administrateur Workfront définit les attributs disponibles. Il peut s’agir de l’agence, du lieu, du centre de coûts, du client ou d’autres attributs nécessaires à votre organisation.
+
+1. (Facultatif) Pour ajouter un autre ensemble d’attributs avec des dates d’entrée en vigueur :
+
+   1. Cliquez sur **Ajouter un nouveau jeu**.
+   1. Sélectionnez une **Date de fin** pour le jeu d’attributs actif.
+
+      La **Date de début** du jeu suivant est automatiquement ajoutée.
+
+   1. Ajoutez les valeurs d’attribut pour le jeu d’attributs suivant. Ces valeurs prennent effet à la date de début.
+
+</div>
 
 ### Commentaire
 

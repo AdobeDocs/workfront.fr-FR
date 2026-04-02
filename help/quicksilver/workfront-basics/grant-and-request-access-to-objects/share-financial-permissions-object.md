@@ -6,14 +6,18 @@ description: Votre administrateur ou administratrice Adobe Workfront peut vous a
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 91%
+source-wordcount: '587'
+ht-degree: 65%
 
 ---
 
 # Partager des autorisations financières sur un objet
+
+{{highlighted-preview}}
 
 Votre administrateur ou administratrice Adobe Workfront peut vous accorder un accès pour afficher ou modifier des données financières lors de l’attribution de votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -23,7 +27,8 @@ Pour plus d’informations sur ce que les utilisateurs et utilisatrices de chaqu
 
 ## Conditions d’accès
 
-<!--drafted for P&P:
+<!--
+drafted for P&P:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +80,8 @@ Pour plus d’informations sur ce que les utilisateurs et utilisatrices de chaqu
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage ou autorisations supérieures pour les projets, tâches et problèmes comprenant au moins des autorisations d’affichage de finances</p></td> 
+   <td> <p>Autorisations d’affichage ou autorisations supérieures pour les projets, tâches et problèmes comprenant au moins des autorisations d’affichage de finances</p>
+   <p><span class="preview">Afficher les autorisations ou supérieures pour les projets, les tâches et les événements qui incluent au moins Afficher les taux de facturation, Afficher les taux de coûts ou Afficher les autorisations financières générales</span></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,29 +95,31 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 Tenez compte des points suivants lors de l’octroi d’autorisations financières aux objets :
 
 * Vous pouvez accorder des autorisations financières aux projets, tâches et événements.
-* Les autorisations peuvent être héritées : si vous disposez d’autorisations d’affichage de finances pour un projet, vous héritez automatiquement des autorisations d’affichage de finances pour les tâches et les problèmes du projet.
+* Les autorisations peuvent être héritées : si vous disposez des autorisations Afficher les finances générales pour un projet, vous héritez automatiquement des autorisations Afficher les finances générales pour les tâches et les événements du projet.
 
 Pour accorder des autorisations financières à un objet :
 
 1. Accédez à une tâche, à un projet ou à un problème que vous souhaitez partager avec d’autres personnes.
-1. Près du nom de l’objet, cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Partage**.
+1. Près du nom de l’objet, cliquez sur **Partager**.
 
-1. Dans le champ **Accorder à `<Object name>` l’accès à**, commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’une équipe, d’un rôle, d’un groupe ou d’une entreprise avec lesquels vous souhaitez partager l’objet.
+1. Dans le champ **Accorder un accès `<Object name>` à** commencez à saisir le nom d’un utilisateur, d’une équipe, d’un rôle, d’un groupe ou d’une entreprise avec lequel vous souhaitez partager l’objet.
 
    >[!TIP]
    >
    >Vous pouvez partager un objet uniquement avec des utilisateurs et utilisatrices, des équipes, des rôles ou des entreprises actifs.
 
-1. Si un menu déroulant s’affiche à droite du nom que vous avez sélectionné, cliquez sur l’une des options disponibles suivantes :
+1. Cliquez sur la liste déroulante située à droite du nom de l’utilisateur et sélectionnez l’une des options suivantes :
 
-   * **L’afficher**
-   * **Y contribuer**
-   * **Le gérer**
+   * **Afficher**
+   * **Contribuer**
+   * **Gérer**
 
-1. Dans le même menu déroulant, cliquez sur **Paramètres avancés**, puis effectuez l’une des opérations suivantes :
+1. Dans le même menu déroulant, cliquez sur l’icône d’options avancées à côté du niveau d’autorisation, puis effectuez l’une des opérations suivantes :
 
    * Si vous avez sélectionné l’une des trois options de l’étape précédente, assurez-vous que **Afficher les finances** est sélectionné.
    * Si vous avez sélectionné **Gérer les finances** à l’étape précédente, assurez-vous que **Gérer les finances** est sélectionné.
+   * <span class="preview">Quel que soit le niveau d’autorisation, sélectionnez **Afficher les taux de facturation**, **Afficher les taux de coût** et **Afficher les finances générales** si nécessaire.</span>
+   * <span class="preview">Pour les autorisations **Gérer** uniquement, sélectionnez **Modifier les taux de facturation**, **Modifier les taux de coût** et **Modifier les finances générales** si nécessaire.</span>
 
 1. Cliquer sur **Enregistrer**.
 
@@ -153,6 +161,42 @@ Le tableau suivant affiche les autorisations financières que les utilisateurs o
   </tr> 
   <tr> 
    <td>Afficher Finance</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">Modifier les taux de facturation</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Modifier les taux de dépenses</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">Modifier les finances générales</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">Afficher les taux de facturation</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Afficher les taux de dépenses</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">Afficher les finances générales</span></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 

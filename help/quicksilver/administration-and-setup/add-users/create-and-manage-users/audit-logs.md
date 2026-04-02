@@ -8,16 +8,18 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
+source-git-commit: 5f5a32b9a569221acc3d5f38568bb6a1e609070f
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 93%
+source-wordcount: '1578'
+ht-degree: 92%
 
 ---
 
-# Présentation des journaux d’audit
+# Vue d’ensemble des journaux d’audit
 
 <!--Audited: 08/2025-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez effectuer le suivi des modifications utilisateur déclenchées dans le système au cours des 90 derniers jours à l’aide des journaux d’audit décrits ci-dessous.
 
@@ -65,7 +67,8 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit 
 ## Types de journaux d’audit et actions qui les déclenchent
 
 * [Niveau d’accès](#access-level)
-* [Règles métier](#business-rules)
+* [Profils professionnels](#business-profiles)
+* <span class="preview">[Règles métier](#business-rules)</span>
 * [Entreprise](#company)
 * [Condition](#condition)
 * [Champ personnalisé](#custom-field)
@@ -98,6 +101,18 @@ Le système génère une entrée de journal de niveau d’accès lorsqu’une pe
      >Le système n’enregistre aucune modification des autorisations dans les données financières ou dans les types d’accès suivants : Afficher et Modifier.
      >
      >Par exemple, si une personne passe le type d’accès Planificateur ou planificatrice d’Afficher à Modifier, le système n’affiche pas les informations contenues dans le menu déroulant Affiner vos paramètres.
+
+<div class="preview">
+
+### Profils professionnels
+
+Le système génère une entrée du journal d’audit du profil professionnel lorsqu’un utilisateur effectue l’une des opérations suivantes :
+
+* Crée un profil d’entreprise
+* Modifie un profil d’entreprise :
+* Supprime un profil d’entreprise
+
+</div>
 
 ### Règles métier
 

@@ -6,10 +6,12 @@ description: Vous pouvez partager des filtres, des vues et des regroupements aux
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 100%
+source-wordcount: '1194'
+ht-degree: 96%
 
 ---
 
@@ -17,8 +19,12 @@ ht-degree: 100%
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
-(NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
+<!--
+(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+(NOTE: This is linked from the TOC article in WF Basics > permissions section)
+-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Votre personne chargée de l’administration d’Adobe Workfront permet aux utilisateurs et utilisatrices d’afficher ou de modifier des objets lorsqu’elle attribue des niveaux d’accès. Pour plus d’informations sur l’octroi d’accès aux objets, voir [Créer ou modifier les niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -167,7 +173,7 @@ Le partage de filtres, de vues et de regroupements dans l’interface héritée 
 
 1. Procédez de l’une des manières suivantes, selon avec qui vous souhaitez partager :
 
-   **Pour partager avec des personnes, des équipes, des rôles, des groupes ou des entreprises individuels :** dans le champ fourni, commencez à saisir le nom de la personne, de l’équipe, du rôle, du groupe ou de l’entreprise avec lequel vous souhaitez partager le contenu, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.\
+   **Pour partager avec des utilisateurs individuels, des équipes, des rôles, des groupes ou des entreprises :** dans le champ fourni, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil d’entreprise</span> avec lequel vous souhaitez partager, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.\
    Répétez ce processus pour partager l’accès avec plusieurs personnes, équipes, rôles, groupes ou entreprises.
 
    >[!TIP]

@@ -8,9 +8,11 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1823'
 ht-degree: 5%
 
 ---
@@ -29,7 +31,7 @@ Une règle métier vous permet d’appliquer une validation aux objets Workfront
 
 <div class="preview">
 
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
 
 </div>
 
@@ -87,9 +89,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Le format de validation d’une règle métier est le suivant : « SI la condition définie est remplie, l’utilisateur ne peut pas agir sur l’objet et le message s’affiche. »
 
-La syntaxe des propriétés et autres fonctions d&#39;une règle métier est identique à celle d&#39;un champ calculé dans un formulaire personnalisé. Pour plus d’informations sur la syntaxe, voir [&#x200B; Ajouter des champs calculés avec le concepteur de formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+La syntaxe des propriétés et autres fonctions d&#39;une règle métier est identique à celle d&#39;un champ calculé dans un formulaire personnalisé. Pour plus d’informations sur la syntaxe, voir [ Ajouter des champs calculés avec le concepteur de formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Pour plus d’informations sur les instructions IF, consultez [&#x200B; présentation des instructions « IF »](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) et [Opérateurs de condition dans les champs calculés personnalisés](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Pour plus d’informations sur les instructions IF, consultez [ présentation des instructions « IF »](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) et [Opérateurs de condition dans les champs calculés personnalisés](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Pour plus d’informations sur les caractères génériques basés sur l’utilisateur, voir [Utilisation de caractères génériques basés sur l’utilisateur pour généraliser les rapports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -139,34 +141,51 @@ IF(
 )
 ```
 
+### Activer la localisation dans une règle métier
 
-<!--
+Si votre organisation utilise la localisation personnalisée, vous devez activer la traduction d’un message de règle métier dans la règle métier. Si la traduction n’est pas activée, le message s’affiche en anglais pour le lecteur, même si le texte du message se trouve dans la liste Localisation et que le navigateur de l’utilisateur est défini sur la langue appropriée.
 
-## Scenarios for business rule automation
+Lors de la configuration de la règle, insérez le mot TRANSLATE avant le message et placez le message entre parenthèses.
+
+>[!BEGINSHADEBOX]
+
+Exemple :
+
+Cet exemple suppose que le message « Vous ne pouvez pas modifier les projets terminés » est inclus dans la zone de localisation de la Configuration et que le navigateur de l’utilisateur est défini sur la langue localisée.
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+Le message s’affiche en anglais.
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+Le message s’affiche dans la langue localisée.
+
+>[!ENDSHADEBOX]
+
+Pour plus d’informations sur la localisation personnalisée, voir [Configurer la localisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+## Scénarios d’automatisation des règles métier
 
 >[!NOTE]
 >
->Your organization must have a Workflow Ultimate package to use business rule automation.
+>Votre organisation doit disposer d’un package Workflow Ultimate pour utiliser l’automatisation des règles métier.
 
-The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+Le format d’une automatisation de règle métier est « SI la condition définie est remplie, l’automatisation sélectionnée est déclenchée ».
 
-Business rule automation formulas do not require an error message
+Les formules d’automatisation des règles métier ne nécessitent pas de message d’erreur
 
-To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+Pour vous assurer qu’une automatisation s’exécute chaque fois que l’objet et l’action sélectionnés se produisent, par exemple lors de la création d’un projet, utilisez la formule suivante :
 
 ```
 IF(true, true)
 ```
 
-To share a project only if that's project has been approved, use a formula like the following:
+Pour partager un projet uniquement si son projet a été approuvé, utilisez une formule comme celle-ci :
 
 ```
 IF({status} = "APR", true)
 ```
 
-You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+Vous pouvez utiliser des caractères génériques dans les actions de règle métier, comme décrit dans la section [Scénarios de validation de règle métier](#scenarios-for-business-rule-validation).
 
--->
 
 ## Ajouter une nouvelle règle métier
 
@@ -210,15 +229,15 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Modèle
    * Congés
    * Pool de ressources
+   * Fonction
+   * Catégorie de ressource non liée à la main d’œuvre
+   * Pool de ressources
+   * Congés
+   * Heure
+   * Plan des effectifs
+   * Modèle
+   * Ressource du plan des effectifs
 <!--
-   * <span class="preview">Job role</span>
-   * <span class="preview">Non-labor resource category</span>
-   * <span class="preview">Resource Pool</span>
-   * <span class="preview">Time Off</span>
-   * <span class="preview">Hour</span>
-   * <span class="preview">Staffing Plan</span>
-   * <span class="preview">Template</span>
-   * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
 
@@ -242,13 +261,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * L&#39;« objet » est le type d&#39;objet que vous avez sélectionné lors de la création de la règle métier. Elle s’affiche dans l’en-tête de la boîte de dialogue.
    * L’« action » est le déclencheur que vous avez sélectionné pour la règle : créer, modifier ou supprimer l’objet.
    * Comme l’objet et l’action sont déjà définis, vous ne les incluez pas dans la formule.
-   * Le message d’erreur personnalisé <!--<span class="preview">is included only if the rule is for validation, and </span>--> s’affiche pour l’utilisateur lorsqu’il déclenche la règle métier. Il doit fournir des instructions claires sur ce qui s’est passé et sur la manière de corriger le problème.
+   * Le message d’erreur personnalisé <span class="preview">n’est inclus que si la règle est à des fins de validation et </span> s’affiche pour l’utilisateur ou l’utilisatrice lorsqu’il ou elle déclenche la règle métier. Il doit fournir des instructions claires sur ce qui s’est passé et sur la manière de corriger le problème.
 
      Vous pouvez inclure une URL statique dans le message d’erreur pour créer un lien vers la documentation ou d’autres pages utiles afin de guider l’utilisateur ou l’utilisatrice sur la manière de modifier son action dans la contrainte de la règle.
 
      Dans cet exemple, « En savoir plus » renvoie vers l’URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` L’URL doit être entre parenthèses, mais le texte du lien entre crochets n’est pas obligatoire. Vous pouvez afficher l’URL complète sous la forme d’un lien cliquable.
 
-   ![Boîte de dialogue Ajouter une règle métier](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
+   ![ Boîte de dialogue Ajouter une règle métier ](assets/add-business-rule-new.png)
 
    Cet exemple illustre une règle métier pour les projets. Si le mois en cours est novembre, les utilisateurs ne sont pas autorisés à créer de nouveaux projets, ce que le message explique.
 
@@ -264,17 +283,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    Pour les autres packages, cette option est présélectionnée.
 
-<!--
+1. <span class="preview">(Conditionnel) Pour automatiser une autre action, sélectionnez l’action. </span>
 
-1. (Conditional) To automate another action,, select the action. 
-
-   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+   <span class="preview">Pour plus d’informations sur ces actions, consultez la section [Options d’automatisation des règles métier](#business-rule-automation-options) dans cet article.</span>
 
    >[!NOTE]
    >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
-
-   -->
+   ><span class="preview">Votre organisation doit être sur le package Workflow Ultimate pour utiliser des actions en plus de la validation. Si ces autres options ne s’affichent pas, votre organisation ne figure pas dans le package Workflow Ultimate.</span>
 
 1. Cliquez sur **Enregistrer** lorsque vous avez terminé de créer la règle métier.
 
@@ -282,24 +297,22 @@ You can use wildcards in business rule actions, as described in the section [Sce
 >
 >Après avoir ajouté une règle métier, vous devez la tester en ajoutant, en modifiant ou en supprimant l’objet associé pour vous assurer que la règle est appliquée correctement.
 
-<!--
-
 <div class="preview">
 
-### Business rule automation options
+### Options d’automatisation des règles métier
 
-   >[!NOTE]
-   >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+>[!NOTE]
+>
+>Votre organisation doit se trouver dans le package Workflow Ultimate pour utiliser des actions en plus de la validation. Si ces autres options ne s’affichent pas, votre organisation ne figure pas dans le package Workflow Ultimate.
 
-You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+Vous pouvez définir ces actions pour automatiser le déclenchement de la règle métier. Les actions disponibles dépendent du type d’objet sélectionné.
 
-|Automation|Further configuration|
+| Automatisation | Configuration supplémentaire |
 |---|---|
-|Attach a custom form|Select the custom form that you want to add|
-|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+| Joindre un formulaire personnalisé | Sélectionnez le formulaire personnalisé que vous souhaitez ajouter |
+| Partager l’objet | Sélectionnez les personnes, rôles, groupes, sociétés ou niveaux d&#39;accès avec lesquels vous souhaitez partager l&#39;objet. |
 
--->
+</div>
 
 ## Activer une règle métier
 
@@ -310,3 +323,4 @@ Pour activer une règle métier :
 1. Sélectionnez la règle métier dans la liste des règles et cliquez sur l&#39;icône Modifier .
 1. Sélectionnez **Oui** pour **Est actif** dans la boîte de dialogue des règles métier.
 1. Cliquer sur **Enregistrer**.
+

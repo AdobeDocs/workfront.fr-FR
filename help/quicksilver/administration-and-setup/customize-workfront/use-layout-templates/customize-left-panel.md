@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 50%
+source-wordcount: '1228'
+ht-degree: 44%
 
 ---
 
 # Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2024-->
 
@@ -46,7 +48,7 @@ Après avoir configuré un modèle de mise en page, vous devez l’affecter aux 
   <tr> 
    <td>Package Adobe Workfront</td> 
    <td><p>Tous</p>
-       <p>L’ajout d’applications personnalisées au menu principal n’est disponible que pour les organisations sous licence Adobe App Builder.</p></td> 
+       <p>L’ajout d’applications personnalisées au panneau de gauche n’est disponible que pour les organisations disposant d’une licence Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td>Licence Adobe Workfront</td> 
@@ -134,8 +136,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projets <img src="assets/projects-in-main-menu.png"> dans le [!UICONTROL Main menu] <img src="assets/main-menu-icon.png"></td> 
+      <td>Projets <img src="assets/projects-in-main-menu.png"> dans le menu principal [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
+     </tr> 
+     <tr> 
+      <td><span class="preview">[!UICONTROL Resourcing]</span></td> 
+      <td><span class="preview">[!UICONTROL Resourcing] dans le menu principal [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
+      <td><span class="preview">[!UICONTROL Planner] (ne peut pas être masqué), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</span></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -167,6 +174,21 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td>Nom d’une itération</td> 
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
+     <tr> 
+       <td><span class="preview">[!UICONTROL User Details]</span></td> 
+       <td><span class="preview">Nom d’un utilisateur</span></td> 
+       <td><span class="preview">[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</span></td> 
+     </tr>
+     <tr> 
+       <td><span class="preview">[!UICONTROL Carte tarifaire]</span></td> 
+       <td><span class="preview">Nom d’une carte tarifaire</span></td> 
+       <td><span class="preview">[!UICONTROL Job Roles and Rates], [!UICONTROL Rate Card Details], [!UICONTROL Expense Type and Rates]</span></td> 
+     </tr>
+     <tr> 
+       <td><span class="preview">[!UICONTROL Group]</span></td> 
+       <td><span class="preview">Nom d’un groupe</span></td> 
+       <td><span class="preview">[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks &amp; Issues Preferences], [!UICONTROL Timesheets &amp; Hours], [!UICONTROL Subgroups], [!UICONTROL Statuts], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programmes], [!UICONTROL Projects], [!UICONTROL Projects] Modèles], [!UICONTROL Récemment Supprimé], [!UICONTROL Récemment Restauré], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</span></td> 
+     </tr>
      <!--
       <tr> 
        <td>Company</td> 
@@ -200,7 +222,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    *Votre société doit acheter une licence supplémentaire pour que Workfront Planning puisse ajouter cette zone au panneau de gauche des projets, portfolios et programmes. Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
-   **Les applications personnalisées doivent être créées séparément avant d&#39;être disponibles en tant qu&#39;options du menu principal. Pour plus d’informations, voir [Création d’une application personnalisée pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+   **Les applications personnalisées doivent être créées séparément avant d’être disponibles en tant qu’options du panneau de gauche. Pour plus d’informations, voir [Création d’une application personnalisée pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
 
 1. Dans la liste **[!UICONTROL Panneau de gauche]**, effectuez l’une des opérations suivantes pour déterminer ce que les utilisateurs verront dans le panneau de gauche pour la zone de [!DNL Workfront] ou le type d’objet que vous avez sélectionné :

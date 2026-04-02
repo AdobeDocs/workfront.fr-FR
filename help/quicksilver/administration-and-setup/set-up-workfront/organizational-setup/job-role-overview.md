@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Présentation du rôle de tâche
+title: Présentation de la fonction
 description: Une fonction représente une capacité fonctionnelle ou un ensemble de compétences qu’un utilisateur ou une utilisatrice peut remplir. Cet article décrit les différentes utilisations des fonctions dans Adobe Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 1dd0faae822310616e2ca3d067169d5620846736
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -54,13 +54,13 @@ Vous pouvez utiliser des fonctions aux fins suivantes :
      Pour plus d’informations sur le partage d’objets, voir [Vue d’ensemble des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 * Vous pouvez associer des fonctions aux règles de routage lors de la création de files d’attente de demandes. Pour plus d’informations, voir [Créer des règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
-* Vous pouvez attribuer des modèles de disposition à des fonctions. Toute personne ayant vu la fonction lui être assignée comme rôle principal peut afficher [!DNL Workfront] selon le modèle de mise en page affecté.
+* Vous pouvez attribuer des modèles de mise en page à des fonctions. Toute personne ayant vu la fonction lui être assignée comme rôle principal peut afficher [!DNL Workfront] selon le modèle de mise en page affecté.
 
   >[!NOTE]
   >
   >Si des utilisateurs ou utilisatrices se voient attribuer un modèle de mise en page dans leur profil utilisateur/utilisatrice, ce modèle prévaut sur celui affecté à leur fonction principale. Pour plus d’informations, voir [Affecter des utilisateurs et utilisatrices à un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 * Vous pouvez attribuer des fonctions aux plans et aux initiatives afin de gérer la disponibilité de vos ressources lors de l’utilisation d’[!DNL Adobe Workfront Scenario Planner]. Cette fonction nécessite une licence supplémentaire pour le [!DNL Scenario Planner]. Pour plus d’informations, voir [Commencer avec le  [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
-* Vous pouvez remplacer les taux de facturation des fonctions selon les différentes devises lorsque vous travaillez avec des ressources provenant de différents pays. Vous pouvez ainsi obtenir des montants de coûts et de revenus plus précis pour les éléments de travail.
+* Vous pouvez modifier la devise des taux de fonctions à date effective lorsque vous travaillez avec des ressources de différents pays. Vous pouvez ainsi obtenir des montants de coûts et de revenus plus précis pour les éléments de travail.
 
   Pour plus d’informations, voir [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

@@ -6,10 +6,10 @@ description: En tant que personne gestionnaire de projet, vous pouvez configurer
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 98%
+source-wordcount: '567'
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ Avant de pouvoir utiliser d’autres devises comme décrit dans cette section, l
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous </td> 
   </tr> 
   <tr> 
@@ -55,10 +55,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Remarques concernant la modification de la devise d’un projet dans Workfront
 
 * Vous ne pouvez pas modifier la devise d’un projet s’il contient des informations financières.
-* Les taux sont utilisés pour les coûts de main-d’oeuvre et les calculs des recettes, et sont utilisés ultérieurement à des fins de création de rapports.
+* Les taux sont utilisés pour les coûts de main-d’œuvre, le calcul des recettes et la création de rapports.
 * Si vous ne spécifiez pas d’autre devise pour un projet, Workfront suppose que la devise du projet est la devise par défaut du système. Pour plus d’informations sur la devise par défaut au niveau du système, voir [Configurer les taux de change](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 * Par défaut, tous les utilisateurs et utilisatrices de la licence complète ont accès aux devises et aux taux de change. L’administrateur ou administratrice de Workfront doit accorder un accès administratif supplémentaire aux **Taux de change** afin de permettre aux utilisateurs et utilisatrices de définir des taux spécifiques sur les projets.
 * Les taux de change dans Workfront ne sont pas dynamiques. La valeur est définie par un administrateur ou une administratrice et doit être mise à jour en cas de modification des taux de change.
+* <span class="preview">Si des dates effectives sont appliquées à une devise et à ses taux de change, le taux de change peut changer pendant la durée de vie du projet. Pour plus d&#39;informations sur les taux de change en date de validité, voir [Configurer des taux de change](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).</span>
 * Lorsque vous créez un rapport pour refléter la devise d’un projet, tous les rapports sont par défaut regroupés selon la devise par défaut du projet. Si vous créez un rapport avec plusieurs projets dont les taux de change sont différents, tous les regroupements appliqués au projet reflètent le taux de change par défaut au niveau du système. Pour plus d’informations, voir l’article [Créer des rapports de données financières avec des taux de change uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ## Configurer la devise d’un projet
@@ -72,7 +73,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Cliquez sur **Détails du projet** dans le panneau de gauche, puis accédez à la zone **Finance**.
 1. Cliquez sur **Ajouter** dans le champ **Devise** et sélectionnez la devise à utiliser comme devise par défaut pour le projet. Toutes les devises que votre administrateur ou administratrice Workfront a définies pour votre instance Workfront s’affichent.
 
-   ![Devise du projet](assets/currency-on-project-expanded-nwe.png)
+   ![Devise du projet](assets/currency-on-project.png)
 
 1. (Le cas échéant) Si vous sélectionnez une autre devise que la devise par défaut définie pour votre système Workfront, indiquez le taux de la devise que vous avez sélectionnée, car il est lié à la devise définie comme devise de base dans le système.
+
+   >[!NOTE]
+   >
+   ><span class="preview">Si le paramètre **Utiliser des taux de change effectifs à la date du système** est activé pour ce projet, les remplacements de taux de change ne sont pas autorisés. Pour plus d’informations, voir [Modifier des projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).</span>
+
 1. Cliquez sur **Enregistrer les modifications**.

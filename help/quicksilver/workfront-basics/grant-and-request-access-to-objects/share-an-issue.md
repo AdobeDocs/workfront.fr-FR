@@ -6,14 +6,16 @@ description: Votre administrateur ou administratrice Adobe Workfront accorde au
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1263'
 ht-degree: 56%
 
 ---
 
 # Partager un problème
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Votre administrateur ou administratrice Adobe Workfront accorde aux utilisateurs et utilisatrices l’accès à l’affichage ou à la modification des problèmes lorsque des niveaux d’accès leur sont attribués. Pour plus d’informations sur l’octroi de l’accès aux problèmes, voir [Accorder l’accès aux problèmes](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
@@ -85,7 +87,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
    * Spécifier les autorisations sur l’un des objets parents du problème : projet, programme ou portfolio. Les problèmes héritent des autorisations de leurs objets parents. Pour plus d’informations sur l’affichage des autorisations héritées sur les objets, voir [Afficher les autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Ajouter des entités au partage de projet sur un modèle utilisé pour créer le projet sur lequel porte le problème. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partager un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Spécifier les autorisations sur tous les problèmes d’un projet lorsque vous modifiez le projet. Pour plus d’informations sur la gestion de l’accès aux problèmes ou aux demandes sur le projet en fonction des autorisations d’un utilisateur ou d’une utilisatrice sur le projet, voir la section [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Spécifier les autorisations sur tous les problèmes d’un projet lorsque vous modifiez le projet. Pour plus d’informations sur la gestion de l’accès aux problèmes ou aux demandes sur le projet en fonction des autorisations d’un utilisateur ou d’une utilisatrice sur le projet, voir la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
@@ -167,7 +169,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 
    ![Bouton Partager l&#39;événement](assets/share-issue-button.png)
 
-1. Dans le champ **Accorder l&#39;accès à l&#39;événement**, commencez à saisir le nom de l&#39;utilisateur, de l&#39;équipe, du rôle, du groupe ou de la société avec lesquels vous souhaitez partager l&#39;événement, puis cliquez sur le nom lorsqu&#39;il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l&#39;accès à l&#39;événement**, commencez à saisir le nom de l&#39;utilisateur, de l&#39;équipe, du rôle, du groupe, de la société <span class="preview">ou du profil professionnel</span> avec lequel vous souhaitez partager l&#39;événement, puis cliquez sur le nom lorsqu&#39;il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
@@ -201,7 +203,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 
    ![Problèmes de partage en bloc](assets/bulk-share-issues.png)
 
-1. Dans le champ **Accorder l’accès à l’événement**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager les événements, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l&#39;accès à l&#39;événement**, commencez à saisir le nom de l&#39;utilisateur, de l&#39;équipe, du rôle, du groupe, de l&#39;entreprise <span class="preview">ou du profil d&#39;entreprise</span> avec lequel vous souhaitez partager les événements, puis cliquez sur le nom lorsqu&#39;il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
