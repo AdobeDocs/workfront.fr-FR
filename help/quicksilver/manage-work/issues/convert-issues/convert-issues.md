@@ -8,10 +8,12 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 94%
+source-wordcount: '1541'
+ht-degree: 92%
 
 ---
 
@@ -164,7 +166,8 @@ Le tableau suivant répertorie les informations sur le projet et indique si elle
  </tbody> 
 </table>
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
@@ -256,3 +259,12 @@ Le tableau suivant illustre les champs du problème visibles à partir des proje
 >[!CAUTION]
 >
 >Si le contact principal d’un problème change ou si le problème n’est plus lié au projet ou à la tâche une fois le problème converti, le nom du créateur ou de la créatrice du problème converti n’est pas mis à jour et affiche le contact principal d’origine du problème au moment de la conversion.
+
+## Afficher l&#39;événement d&#39;origine et les objets convertis à partir des listes de demandes
+
+Vous pouvez afficher l’événement d’origine et les objets convertis dans la zone des Demandes et le widget Mes demandes dans l’Accueil.
+
+Pour plus d’informations, consultez les articles suivants :
+
+* [Afficher les requêtes envoyées](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

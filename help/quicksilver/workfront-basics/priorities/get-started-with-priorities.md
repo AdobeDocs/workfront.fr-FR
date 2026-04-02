@@ -1,15 +1,17 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Prise en main des priorités
+title: Commencer à utiliser Priorités
 description: Priority offre une expérience rationalisée et intuitive, adaptée aux propriétaires de tâches.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 7%
+source-wordcount: '1018'
+ht-degree: 9%
 
 ---
 
@@ -103,7 +105,7 @@ Après avoir filtré votre travail, vous pouvez regrouper les éléments en fonc
 * Statut
 * Projet
 
-Pour plus d’informations, voir [&#x200B; Filtrer et regrouper votre travail dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Pour plus d’informations, voir [ Filtrer, regrouper et trier votre travail avec les priorités ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Hiérarchiser les éléments de travail importants avec Mon focus
 
@@ -116,9 +118,9 @@ Mon focus est une colonne de la liste de tâches qui vous aide à hiérarchiser 
 
 Une fois que vous avez affecté des niveaux de focus à vos éléments de travail, vous pouvez trier la colonne pour faire apparaître les éléments urgents en haut de votre liste de travail.
 
-Pour plus d’informations, voir [&#x200B; Hiérarchiser les éléments de travail importants &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+Pour plus d’informations, voir [ Hiérarchiser les éléments de travail importants ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![&#x200B; Liste de travail &#x200B;](assets/worklist.png)
+![ Liste de travail ](assets/worklist.png)
 
 ### Utilisation de la vue Calendrier
 
@@ -165,7 +167,7 @@ Charger des fichiers directement dans la zone Documents de la tâche ou de l’�
 * Ajouter des fichiers supplémentaires
 * Importer des fichiers à partir des intégrations de documents connectées
 
-Pour plus d’informations, voir [&#x200B; Charger des fichiers dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
+Pour plus d’informations, voir [ Charger des fichiers dans Priorités ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
 
@@ -174,9 +176,9 @@ Pour plus d’informations, voir [&#x200B; Charger des fichiers dans Priorités 
 
 Vous pouvez incorporer les liens fréquemment utilisés dans la page de détails de l’élément de travail. Les liens rapides vous permettent de consulter ou de copier rapidement le lien.
 
-![Liens rapides &#x200B;](assets/quick-links.png)
+![Liens rapides ](assets/quick-links.png)
 
-Pour plus d’informations, voir [&#x200B; Ajouter et gérer des liens rapides dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
+Pour plus d’informations, voir [ Ajouter et gérer des liens rapides dans Priorités ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
 ### Afficher des documents.
 
@@ -196,7 +198,7 @@ Depuis l’onglet Documents d’une tâche ou d’un événement, vous pouvez :
 
 Utilisez la fonction [!DNL Catch me up] pour voir ce que vous avez manqué. Catch me up résumera les mises à jour, les documents téléchargés, les approbations et autres modifications notables concernant vos projets dans les délais suivants : 24 heures, 3 jours, 7 jours.
 
-Pour de plus amples renseignements, voir [Rattrapage du travail dans Priorités](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Pour plus d’informations, voir [Rattrapage du travail dans Priorités](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![Rattrape-moi](assets/catch-me-up.png)
 
@@ -210,4 +212,5 @@ Vous pouvez afficher des mises à jour en temps réel sur la page Détails d’u
 <!--
 ## Considerations
 
-* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
+-->

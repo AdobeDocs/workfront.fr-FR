@@ -5,9 +5,11 @@ description: Les listes améliorées utilisent un format de tableau pour affiche
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2913'
 ht-degree: 3%
 
 ---
@@ -63,6 +65,12 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | Liste des requêtes | <ul><li>Demandes (nouvelle expérience uniquement)</li><li>Widget Mes demandes sur l’Accueil</li></ul> |
 | Listes de statuts, priorités, gravités et taux de change dans la configuration | <ul><li>Configuration > Préférences du projet > Statuts</li><li>Configuration > Préférences du projet > Priorités</li><li>Configuration > Préférences du projet > Gravités</li><li>Configuration > Préférences du projet > Taux de change</li></ul> |
 | <span class="preview">Liste des rapports</span> | <span class="preview">Les rapports (**utiliser des dossiers partageables** doivent être activés)</span> |
+| <span class="preview">Liste des fonctions et taux dans la configuration</span> | <span class="preview">Configuration > Cartes tarifaires > sélectionner une carte tarifaire > Fonctions et taux</span> |
+| <span class="preview">Liste des traductions</span> | <span class="preview">Configuration > Localisation</span> |
+| <span class="preview">Liste des instantanés</span> | <span class="preview">Projet > Instantanés</span> |
+| <span class="preview">Liste des ressources pour la facturation</span> | <span class="preview">Projet > Ressource pour la facturation</span> |
+| <span class="preview">Nouvelles affectations avancées sur une tâche</span> | <span class="preview">Tâche > Affectations > </span> Avancées |
+
 
 ## Ajouter des éléments à une liste améliorée
 
@@ -91,7 +99,7 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    >
    >Chaque type de champ possède ses propres options de modification. Certains champs peuvent être en lecture seule.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
 ## Modifier les éléments à l’aide de la barre d’actions
 
@@ -110,10 +118,13 @@ Vous pouvez utiliser la barre d’actions d’une liste améliorée pour modifie
    * Afficher
    * Modifier
    * Supprimer
+   * Copier
+   * Déplacer vers le dossier
+   * Partager
 
    Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
+   ![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
 
 1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur le menu **Plus** ![icône de menu Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
 
@@ -178,15 +189,33 @@ Pour ajouter et supprimer des colonnes :
 
    La liste met à jour les colonnes en fonction des choix que vous avez effectués.
 
+<div class="preview">
+
+### Modification de la hauteur de ligne dans un affichage
+
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+1. Cliquez sur l’icône **Hauteur de ligne** ![Icône de hauteur de ligne](assets/row-height-icon.png) dans une liste améliorée.
+
+   Cette option met à jour la longueur verticale d’une ligne. Choisissez l’une des options suivantes :
+   * Court
+   * Standard. Il s’agit du choix par défaut.
+   * Moyen
+   * Grand
+
+</div>
+
 ## Mise à jour des éléments de liste améliorés
 
 Les éléments suivants sont des composants d’une liste améliorée :
 
-* Vue : définit les colonnes, filtres et regroupements de la liste avec des paramètres prédéfinis
-* Filtres : limite la quantité d’informations affichées dans la liste.
-* Regroupements : organisez les éléments de la liste en fonction de champs communs
-* Trier : organise les éléments d’une liste selon l’ordre que vous avez identifié pour un champ donné
-* Rechercher : permet de trouver rapidement un élément à l’aide d’un mot-clé de recherche.
+* **Vue** : définit les colonnes, filtres et regroupements de la liste avec des paramètres prédéfinis
+* **Filtres** : limite la quantité d’informations affichées dans la liste.
+* **Regroupements** : organisez les éléments de la liste en fonction de champs communs
+* **Trier** : organise les éléments d’une liste selon l’ordre que vous avez identifié pour un champ donné
+* **Recherche** : recherche rapide d’un élément à l’aide d’un mot-clé de recherche.
 
 ### Application et création de vues
 
@@ -203,107 +232,11 @@ Pour appliquer ou créer une vue :
    Cliquez sur **Nouvelle vue** pour en créer une.
 
 1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
-1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [&#x200B; Filtrer les éléments dans une liste améliorée &#x200B;](#filter-items-in-an-enhanced-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [ Filtrer les éléments dans une liste améliorée ](#filter-items-in-an-enhanced-list).
 1. (Facultatif) Regroupez les éléments de la liste. Pour plus d’informations, voir [Regrouper des éléments dans une liste améliorée](#group-items-in-an-enhanced-list).
 
    Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
-
-### Filtrer les éléments dans une liste améliorée
-
->[!NOTE]
->
->Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
-
-Les filtres vous aident à réduire la quantité d’informations que vous affichez dans la liste.
-
-1. Cliquez sur **Filtrer** au-dessus de la liste.
-1. Dans la zone Filtre, cliquez sur **Ajouter une condition**.
-1. Sélectionnez un champ en fonction duquel effectuer le filtrage.
-1. Sélectionnez un modificateur de filtre, tel que « A l’un des », « N’a aucun des », « Est avant » ou « Est après ». Les options des modificateurs sont différentes selon le type de champ en fonction duquel vous effectuez le filtrage.
-1. Sélectionnez la ou les valeurs du champ. Selon le type de champ en fonction duquel vous effectuez le filtrage, vous pouvez être invité à sélectionner l’élément dans une liste, à le rechercher ou à utiliser un calendrier pour sélectionner une période.
-
-   ![Filtrer dans des listes améliorées](assets/glist-filter-with-options.png)
-
-   Le filtre est automatiquement appliqué à la liste.
-
-   >[!TIP]
-   >
-   >Pour appliquer un caractère générique à l’utilisateur actuel, sélectionnez **Moi (utilisateur connecté)** comme valeur du champ. Le filtre s’applique alors à l’utilisateur ou l’utilisatrice qui consulte la liste. Ce caractère générique est disponible dans les champs où la valeur est un utilisateur.
-
-1. Cliquez sur **Ajouter une condition** pour ajouter une autre condition au filtre.
-
-   Vous pouvez joindre plusieurs filtres à l’aide d’un connecteur ET ou OU.
-
-1. Lorsque le filtre est appliqué, vous pouvez ouvrir à nouveau les options **Filtre** pour modifier les options de filtre ou effacer tous les filtres.
-
-   Un indicateur apparaît sur le bouton **Filtrer** lorsqu&#39;un filtre est appliqué à la liste.
-
-   ![Indicateur de filtre appliqué](assets/glist-filter-applied-indicator.png)
-
-### Regrouper les éléments dans une liste améliorée
-
->[!NOTE]
->
->Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
-
-Les regroupements séparent les objets de la liste en zones selon des critères spécifiques.
-
-Workfront fournit un nombre limité de regroupements prédéfinis que vous ne pouvez pas modifier.
-
-1. Cliquez sur **Grouper** au-dessus de la liste.
-1. Sélectionnez un regroupement pour organiser votre liste.
-
-   ![Sélectionner un regroupement](assets/glist-grouping-choose-a-group-by.png)
-
-1. Cliquez sur **Tout réduire** pour afficher la liste avec tous les regroupements réduits. L’option par défaut consiste à afficher la liste avec tous les regroupements développés.
-1. Lorsque le regroupement est appliqué, vous pouvez ouvrir à nouveau les options Regrouper pour réduire ou développer tous les regroupements à la fois, modifier le regroupement pour les regrouper selon un autre champ ou effacer tous les regroupements.
-
-   ![Regroupement dans des listes améliorées](assets/glist-group-by-due-date-priorities.png)
-
-   Un indicateur apparaît sur le bouton **Regrouper** lorsqu&#39;un regroupement est appliqué à la liste.
-
-   ![Indicateur de groupement appliqué](assets/glist-grouping-applied-indicator.png)
-
-### Tri dans une liste améliorée
-
->[!NOTE]
->
->Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
-
-Pour trier des colonnes individuelles :
-
-1. Pointez sur la colonne, puis cliquez sur la flèche vers le bas et sélectionnez **Trier**.
-
-   Une icône en regard d’un nom de colonne indique que la liste est triée en fonction des valeurs de cette colonne et du sens du tri.
-
-   >[!NOTE]
-   >
-   >Selon la liste, certaines colonnes peuvent ne pas être triables.
-
-   ![Trier par colonne](assets/glist-sort-by-column.png)
-
-1. (Facultatif) Pour trier votre travail au sein d’un regroupement, cliquez sur **Grouper**, accédez à la ligne du regroupement appliqué, cliquez sur la liste déroulante de tri et sélectionnez un ordre croissant ou décroissant.
-
-   ![Trier dans un regroupement](assets/sort-in-groups.png)
-
-   >[!TIP]
-   >
-   >L’ordre de tri diffère en fonction du type de champ que vous triez.
-
-### Recherche dans une liste améliorée
-
->[!NOTE]
->
->Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
-
-1. saisissez un mot-clé à utiliser pour la recherche dans la zone Rechercher située dans le coin supérieur droit de la liste. Les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous saisissez.
-
-   ![Terme de recherche mis en surbrillance](assets/glist-search-highlighted.png)
-
-   >[!NOTE]
-   >
-   >La recherche examine toutes les colonnes de tous les éléments de liste. Si la liste est longue, la recherche inclut des éléments que vous devrez peut-être faire défiler pour les voir. Lorsque la liste est filtrée, la recherche ne recherche que ce qui est actuellement affiché.
 
 ### Partager une vue
 
@@ -381,3 +314,165 @@ Lorsqu’une vue est partagée avec vous et que vous n’avez pas l’autorisati
    ![Copier et réinitialiser des options d’affichage](assets/glist-copy-view-shared-with-you.png)
 
 </div>
+
+<div class="preview">
+
+### Appliquer une mise en forme conditionnelle dans une vue
+
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+La mise en forme conditionnelle permet de mettre en évidence des informations importantes dans la vue en fonction de critères communs.
+
+1. Cliquez sur l’icône **Formater les cellules** ![Icône Formater les cellules](assets/format-cells-icon.png). La boîte **Format** s’ouvre.
+
+1. Cliquez sur **Ajouter une condition**.
+1. Dans la ligne **If**, sélectionnez un champ, choisissez une valeur de champ et ajoutez un modificateur. Les modificateurs changent en fonction du type de champ choisi.
+
+   >[!TIP]
+   >
+   >Seuls les champs visibles dans la liste améliorée sont disponibles pour la mise en forme conditionnelle.
+
+1. (Facultatif) Au lieu d’ajouter une valeur de champ, cliquez sur l’icône **Comparer à un autre champ** ![Comparer à un autre champ](assets/compare-to-another-field-icon.png) et sélectionnez un champ dont vous souhaitez comparer la valeur à celle du champ sélectionné. Par exemple, vous pouvez comparer les champs Objet et Description sur les éléments de requête.
+
+   >[!TIP]
+   >
+   >Seuls les champs visibles dans la vue Liste sont disponibles pour la mise en forme conditionnelle. Les champs comparés doivent être du même type.
+
+1. (Facultatif) Cliquez sur **Ajouter une condition** dans la ligne **Si** pour ajouter d’autres conditions à la même règle.
+
+   >[!TIP]
+   >
+   >Vous pouvez ajouter jusqu’à 10 conditions dans une règle de conditionnement et vous pouvez avoir jusqu’à 20 règles pour un champ.
+
+1. Cliquez sur le connecteur **Ou** entre les conditions pour passer à **Et** et indiquer que plusieurs conditions doivent être remplies en même temps. **Or** est le connecteur par défaut.
+1. Sur la ligne **Format**, sélectionnez un champ pour indiquer la colonne à mettre en forme.
+1. (Facultatif) Cliquez sur l’icône **cercle de couleurs** ![icône de format de couleur](assets/color-format-icon.png) en regard du champ sélectionné pour le développer et choisir une autre couleur dans la zone **Remplissage de cellule** pour modifier la couleur de l’arrière-plan d’une cellule ou sélectionnez une couleur dans la zone **Couleur du texte** pour modifier la couleur du texte d’une cellule.
+1. Cliquez sur l’icône **Format de texte** ![Icône Format de texte](assets/text-format-icon.png) et sélectionnez l’une des options suivantes pour mettre en forme le texte dans une cellule :
+   * Gras
+   * Italiques
+
+1. Activez le paramètre **Appliquer à la ligne** pour appliquer la mise en forme à l’ensemble de la ligne du champ qui répond aux conditions.
+
+1. (Facultatif) Cliquez sur **Ajouter une condition** dans la zone **Format** pour ajouter une autre règle pour un autre champ, puis répétez les étapes ci-dessus.
+1. (Facultatif) Cliquez sur **Effacer tout** pour supprimer toute mise en forme.
+1. Cliquez en dehors de la zone **Format** pour la fermer.
+
+   Vous revenez alors à la vue Liste.
+La mise en forme est appliquée immédiatement à la vue Liste.
+Un point bleu est placé en regard de l’icône **Formater les cellules** pour indiquer qu’une mise en forme spéciale est appliquée à la vue.
+
+</div>
+
+### Filtrer les éléments dans une liste améliorée
+
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+Les filtres vous aident à réduire la quantité d’informations que vous affichez dans la liste.
+
+1. Cliquez sur **Filtrer** au-dessus de la liste.
+1. Dans la zone Filtre, cliquez sur **Ajouter une condition**.
+1. Sélectionnez un champ en fonction duquel effectuer le filtrage.
+1. Sélectionnez un modificateur de filtre, tel que « A l’un des », « N’a aucun des », « Est avant » ou « Est après ». Les options des modificateurs sont différentes selon le type de champ en fonction duquel vous effectuez le filtrage.
+1. Sélectionnez la ou les valeurs du champ. Selon le type de champ en fonction duquel vous effectuez le filtrage, vous pouvez être invité à sélectionner l’élément dans une liste, à le rechercher ou à utiliser un calendrier pour sélectionner une période.
+
+   ![Filtrer dans des listes améliorées](assets/glist-filter-with-options.png)
+
+   Le filtre est automatiquement appliqué à la liste.
+
+   >[!TIP]
+   >
+   ><span class="preview">Pour appliquer un filtre personnalisé, sélectionnez l’une des options suivantes pour une valeur de champ :</span>
+   >
+   ><div class="preview">
+   >
+   >* **Moi (utilisateur connecté)** pour faire référence à l’utilisateur connecté dans les champs qui font référence aux utilisateurs.
+   >
+   >* **Mes équipes** ou **Mon équipe interne** pour faire référence à vos équipes dans les champs qui font référence aux équipes.
+   >
+   >* **Mes groupes** ou **Mon groupe principal** pour faire référence à vos groupes dans les champs qui font référence à des groupes.
+   >
+   >* **Ma société** pour faire référence à votre société dans les champs qui font référence à des sociétés.
+   > 
+   >* **Mes rôles** ou **Mon rôle principal** pour faire référence à vos fonctions dans des champs qui font référence à des rôles.
+   >
+   ></div>
+
+1. Cliquez sur **Ajouter une condition** pour ajouter une autre condition au filtre.
+
+   Vous pouvez joindre plusieurs filtres à l’aide d’un connecteur ET ou OU.
+
+1. Lorsque le filtre est appliqué, vous pouvez ouvrir à nouveau les options **Filtre** pour modifier les options de filtre ou effacer tous les filtres.
+
+   Un indicateur apparaît sur le bouton **Filtrer** lorsqu&#39;un filtre est appliqué à la liste.
+
+   ![Indicateur de filtre appliqué](assets/glist-filter-applied-indicator.png)
+
+### Regrouper les éléments dans une liste améliorée
+
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+Les regroupements séparent les objets de la liste en zones selon des critères spécifiques.
+
+Workfront fournit un nombre limité de regroupements prédéfinis que vous ne pouvez pas modifier.
+
+1. Cliquez sur **Grouper** au-dessus de la liste.
+1. Sélectionnez un regroupement pour organiser votre liste.
+
+   ![Sélectionner un regroupement](assets/glist-grouping-choose-a-group-by.png)
+
+1. Cliquez sur **Tout réduire** pour afficher la liste avec tous les regroupements réduits. L’option par défaut consiste à afficher la liste avec tous les regroupements développés.
+1. Lorsque le regroupement est appliqué, vous pouvez ouvrir à nouveau les options Regrouper pour réduire ou développer tous les regroupements à la fois, modifier le regroupement pour les regrouper selon un autre champ ou effacer tous les regroupements.
+
+   ![Regroupement dans des listes améliorées](assets/glist-group-by-due-date-priorities.png)
+
+   Un indicateur apparaît sur le bouton **Regrouper** lorsqu&#39;un regroupement est appliqué à la liste.
+
+   ![Indicateur de groupement appliqué](assets/glist-grouping-applied-indicator.png)
+
+### Tri dans une liste améliorée
+
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+Pour trier des colonnes individuelles :
+
+1. Pointez sur la colonne, puis cliquez sur la flèche vers le bas et sélectionnez **Trier**.
+
+   Une icône en regard d’un nom de colonne indique que la liste est triée en fonction des valeurs de cette colonne et du sens du tri.
+
+   >[!NOTE]
+   >
+   >Selon la liste, certaines colonnes peuvent ne pas être triables.
+
+   ![Trier par colonne](assets/glist-sort-by-column.png)
+
+1. (Facultatif) Pour trier votre travail au sein d’un regroupement, cliquez sur **Grouper**, accédez à la ligne du regroupement appliqué, cliquez sur la liste déroulante de tri et sélectionnez un ordre croissant ou décroissant.
+
+   ![Trier dans un regroupement](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >L’ordre de tri diffère en fonction du type de champ que vous triez.
+
+### Recherche dans une liste améliorée
+
+>[!NOTE]
+>
+>Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+1. Saisissez un mot-clé à utiliser pour la recherche dans la zone Rechercher située dans le coin supérieur droit de la liste. Les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous saisissez.
+
+   ![Terme de recherche mis en surbrillance](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >La recherche examine toutes les colonnes de tous les éléments de liste. Si la liste est longue, la recherche inclut des éléments que vous devrez peut-être faire défiler pour les voir. Lorsque la liste est filtrée, la recherche ne recherche que ce qui est actuellement affiché.
+
+

@@ -6,10 +6,12 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 82%
+source-wordcount: '1615'
+ht-degree: 78%
 
 ---
 
@@ -28,7 +30,9 @@ Lorsque vous soumettez fréquemment des demandes similaires, vous pouvez copier 
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tous </p> </td> 
+   <td> <p>Tout package de Workfront ou de workflow</p>
+
+<p>Tout package Workfront Planning permettant de copier et d’envoyer des demandes Planning </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -44,10 +48,12 @@ Lorsque vous soumettez fréquemment des demandes similaires, vous pouvez copier 
    <td role="rowheader">Autorisations d’objet</td> 
    <td><p>Accès à l’ajout de demandes à une file d’attente</p> <p>Autorisation en affichage ou supérieure sur la demande existante</p> <p>Pour plus d’informations sur la configuration d’une file d’attente des demandes, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente des demandes</a>. </p> </td> 
   </tr>
+  <!--
   <tr> 
-   <td role="rowheader"> Produit</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Vous devez disposer d’Adobe Workfront Planning pour afficher les demandes Planning ou les formulaires de demande</td> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -58,6 +64,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Conditions préalables
 
 Vous devez avoir une demande que vous ou une personne membre de votre organisation avez déjà soumise pour pouvoir la copier et la soumettre à nouveau. Si la demande appartient à quelqu’un d’autre, vous devez au moins avoir accès à son affichage pour pouvoir la copier et la soumettre comme nouvelle.
+
+Vous pouvez copier et soumettre à nouveau l’un des types de demande suivants :
+
+* Une demande Workfront, envoyée à une file d’attente des demandes
+* Une demande Workfront Planning envoyée à un formulaire de demande Planning, si votre société a acheté un package Planning.
 
 ## Considérations relatives à la copie et à la soumission des demandes en tant que nouvelles demandes
 
@@ -92,7 +103,51 @@ Vous devez avoir une demande que vous ou une personne membre de votre organisati
   >
   >La demande copiée n’est pas liée à un objet de résolution.
 
+## Copiez et envoyez des demandes dans la nouvelle expérience de demande
+
+Vous pouvez copier et envoyer des requêtes dans la zone des Requêtes de Workfront, ou à partir du widget Mes requêtes dans l’Accueil.
+
+1. Utilisez l’une des méthodes suivantes :
+
+   {{step1-to-requests}}
+
+   1. Pour accéder au widget **Mes requêtes** dans **Accueil** :
+
+   {{step1-to-home}}
+
+   1. Recherchez le widget **Mes requêtes**.
+
+      Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Dans la liste **Demandes** ou le widget **Mes demandes** de l’Accueil, passez la souris sur la demande à copier, puis cliquez sur le menu **Plus** en regard de son nom.
+
+   ![Menu Plus](assets/more-menu.png)
+
+1. Cliquez sur **Copier**
+
+   Ou
+
+   Cliquez avec le bouton droit sur la demande sélectionnée, puis cliquez sur **Copier**.
+
+   >[!TIP]
+   >
+   >Lorsque vous n’avez pas accès à la création des problèmes, vous recevez un avertissement indiquant que votre administrateur ou administratrice vous a interdit de créer des demandes.
+
+1. (Facultatif) Mettez à jour les informations de la demande copiée. Les champs disponibles dépendent de la file d’attente des demandes ou du formulaire de demande utilisé pour la demande.
+
+   Lorsque vous saisissez ou modifiez des valeurs de champ dans la demande copiée, elle est enregistrée en tant que brouillon.
+
+1. Cliquez sur **Soumettre**.
+
+   La demande copiée est envoyée en tant que nouvelle demande.
+
+   Les objets de résolution de la requête d’origine ne sont pas copiés.
+
+   Lorsque vous copiez et soumettez à nouveau une demande Planning, elle crée un autre enregistrement pour le type d&#39;enregistrement associé au formulaire de la demande d&#39;origine.
+
 ## Copier et envoyer des requêtes dans l’expérience de requête héritée
+
+Si votre société a acheté un package Workfront Planning, vous ne pouvez pas copier ni soumettre des demandes Planning dans l’expérience de demande héritée.
 
 {{step1-to-requests}}
 
@@ -222,42 +277,6 @@ Vous devez avoir une demande que vous ou une personne membre de votre organisati
 
    La demande copiée est soumise en tant que nouvelle demande dans la file d’attente des demandes que vous avez spécifiée.
 
-## Copiez et envoyez des demandes dans la nouvelle expérience de demande
 
-Vous pouvez copier et envoyer des requêtes dans la zone des Requêtes de Workfront, ou à partir du widget Mes requêtes dans l’Accueil.
-
-1. Utilisez l’une des méthodes suivantes :
-
-   {{step1-to-requests}}
-
-   1. Pour accéder au widget **Mes requêtes** dans **Accueil** :
-
-   {{step1-to-home}}
-
-   1. Recherchez le widget **Mes requêtes**.
-
-      Pour plus d’informations sur le widget Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Dans la liste **Demandes** ou le widget **Mes demandes** de l’Accueil, passez la souris sur la demande à copier, puis cliquez sur le menu **Plus** en regard de son nom.
-
-   ![Menu Plus](assets/more-menu.png)
-
-1. Cliquez sur **Copier**
-
-   Ou
-
-   Cliquez avec le bouton droit sur la demande sélectionnée, puis cliquez sur **Copier**.
-
-   >[!TIP]
-   >
-   >Lorsque vous n’avez pas accès à la création des problèmes, vous recevez un avertissement indiquant que votre administrateur ou administratrice vous a interdit de créer des demandes.
-
-1. (Facultatif) Mettez à jour les informations de la demande copiée. Les champs disponibles dépendent de la file d’attente des demandes ou du formulaire de demande utilisé pour la demande.
-
-   Lorsque vous saisissez ou modifiez des valeurs de champ dans la demande copiée, elle est enregistrée en tant que brouillon.
-
-1. Cliquez sur **Soumettre**.
-
-   La demande copiée est envoyée en tant que nouvelle demande.
 
 

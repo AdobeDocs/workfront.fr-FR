@@ -6,9 +6,11 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1524'
 ht-degree: 8%
 
 ---
@@ -38,7 +40,7 @@ Pour plus d’informations sur Workfront Planning, consultez les articles suivan
 * [Vue d’ensemble de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
-## &#x200B;<!--edit theses??--> des exigences d’accès
+## <!--edit theses??--> des exigences d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 
@@ -180,7 +182,7 @@ Sauf indication contraire, vous pouvez créer ou mettre à jour des objets dans 
 
    ![Bouton Créer avec IA sur la page Espaces de travail](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Cliquez sur **Créer avec l’IA**. <!--update this when they change it to Generate with AI-->
+1. Cliquez sur **Créer avec l’IA** ou sur **Créer un espace de travail**, puis utilisez la fenêtre d’invite en haut pour indiquer le type d’espace de travail que vous souhaitez créer. <!--update this when they change it to Generate with AI-->
 
    La fenêtre **Planning Designer** s&#39;ouvre. <!--remove the Beta tag here when this removes from Beta-->
 

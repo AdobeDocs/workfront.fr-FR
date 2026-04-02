@@ -6,10 +6,12 @@ description: En plus d’utiliser les brouillons disponibles, suggérés par Wor
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 70%
+source-wordcount: '855'
+ht-degree: 66%
 
 ---
 
@@ -58,7 +60,9 @@ Vous devez effectuer les opérations suivantes avant de pouvoir créer une deman
 
 ## Créer des demandes à partir de brouillons
 
-La procédure de création de requêtes à partir de brouillons diffère entre la nouvelle expérience de requête et l’expérience héritée.
+Vous pouvez créer des demandes à partir de brouillons pour les demandes Workfront et Planning.
+
+La création de requêtes à partir de brouillons diffère entre la nouvelle expérience de requête et l’expérience héritée.
 
 * [Créer des requêtes à partir de brouillons dans la nouvelle expérience de requête](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Créer des requêtes à partir de brouillons dans l’expérience de requête héritée](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -88,9 +92,14 @@ La procédure de création de requêtes à partir de brouillons diffère entre l
 
 1. Une fois les informations de la demande renseignées, cliquez sur **Soumettre**.
 
-   Lorsque vous envoyez la demande, le brouillon est supprimé et ne peut pas être restauré.
+   Lorsque vous soumettez la demande, le brouillon est remplacé par la nouvelle demande et ne peut pas être restauré en tant que brouillon.
 
 ### Créer des requêtes à partir de brouillons dans l’expérience de requête héritée
+
+>[!NOTE]
+>
+>Vous ne pouvez pas créer de demandes à partir de brouillons de demandes Planning avec l&#39;expérience héritée.
+
 
 {{step1-to-requests}}
 

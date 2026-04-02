@@ -6,14 +6,22 @@ description: Vous pouvez envoyer des requêtes dans le widget Mes requêtes . Vo
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 15%
+source-wordcount: '777'
+ht-degree: 11%
 
 ---
 
 # Utiliser le widget Mes requêtes
+
+<!--remove Preview and Production references at Production release April 15, 2026-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -70,17 +78,18 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Vous pouvez créer une demande directement à partir du widget Mes demandes .
 
-Pour obtenir des instructions, reportez-vous à la section [Créer une demande](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) de l’article [Créer des éléments de travail et des projets à partir de la zone Accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Pour obtenir des instructions, reportez-vous à la section [Créer une demande](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) de l’article [Créer des éléments de travail et des projets à partir de la zone Accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Copier une requête
 
 Vous pouvez copier une demande dans le widget Mes demandes, la modifier et l’envoyer en tant que nouvelle demande.
 
-Pour obtenir des instructions, voir [&#x200B; Copier et envoyer des demandes &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour obtenir des instructions, voir [ Copier et envoyer des demandes ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Gérer les informations de la liste des requêtes dans le widget Mes requêtes
 
 <!--
+This is similar to what we document in Enhanced lists, so we will link to that to avoid documentation duplication:
 The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
 To configure the filter in the My Requests widget:
@@ -88,24 +97,25 @@ To configure the filter in the My Requests widget:
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**, puis cliquez dessus pour l’ajouter à **Accueil**.
-1. (Facultatif) Pour gérer l’affichage des informations dans la liste des demandes, mettez à jour les éléments d’affichage suivants pour la liste :
+1. (Facultatif) Pour gérer l’affichage des informations dans la liste des demandes, créez ou mettez à jour les éléments d’affichage suivants pour la liste :
 
    * Afficher
    * Filtre
    * Colonnes
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
 
-   Pour plus d’informations sur la gestion des informations dans la liste des demandes, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   * Groupe
+   * Formater les cellules
+   * Hauteur de ligne
+
+   </div>
+
+   Pour plus d&#39;informations sur la mise à jour des éléments d&#39;affichage dans la liste des demandes, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
-<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+<!--
+ Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
 1. Select the field that you want to filter by. Available options are:
 
    * Workspace
@@ -120,10 +130,7 @@ To configure the filter in the My Requests widget:
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
 1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
-
-
 The filter is saved automatically.
-
 -->
 
 >[!TIP]
@@ -134,6 +141,8 @@ The filter is saved automatically.
 >* Pour filtrer uniquement les demandes Workfront Planning, définissez le filtre sur **Type d’objet** > **N’a aucun des** > **Problèmes**.
 
 <!--
+
+Use enhanced lists and other requests articles describe all of these:
 
 ## Adjust or add columns
 
@@ -185,7 +194,7 @@ Consider the following when working with views in the My Requests widget:
 
 Pour rechercher des requêtes spécifiques dans le widget Mes requêtes :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**, puis cliquez dessus pour l’ajouter à **Accueil**.
 1. Dans la barre de recherche située en haut à droite du widget Mes requêtes , saisissez le terme que vous souhaitez rechercher.
 
@@ -199,12 +208,25 @@ Vous trouverez des objets créés par une requête dans le widget Mes requêtes 
 
 >[!NOTE]
 >
->Les liens vers les objets créés ne sont disponibles dans la nouvelle expérience de requête que pour les requêtes Planning, dans les cas où la requête elle-même a créé un objet. Si une requête Workfront est convertie en projet ou en un autre objet, le lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de création de requêtes.
+>Les objets suivants possèdent des liens de la liste des requêtes du widget Mes requêtes, lorsque vous activez la nouvelle expérience de requêtes dans la zone des Requêtes :
+>
+>* Requêtes Planning et Workfront dans le champ Objet .
+>* Enregistrements Planning créés à partir de demandes Planning dans le champ Objet créé .
+>* <span class="preview">Tâches et événements Workfront convertis à partir de requêtes Workfront dans le champ Objet créé , dans l&#39;environnement Aperçu.</span>
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**, puis cliquez dessus pour l’ajouter à **Accueil**.
 1. Recherchez la requête qui a créé l’objet .
 1. Cliquez sur le nom de l’objet dans la colonne **Objet créé** de cette requête.
 
    La page de l’objet s’ouvre.
+
+   >[!TIP]
+   >
+   >Dans l&#39;environnement de production, seuls les enregistrements Planning ont un lien dans le champ **Objet créé**.
+   >   
+   ><span class="preview">Dans l&#39;environnement Aperçu, les tâches et projets Workfront convertis à partir d&#39;événements, ainsi que les enregistrements Planning créés à partir de demandes Planning, possèdent un lien dans le champ **Objet créé**.</span>
+   >
+
+
 

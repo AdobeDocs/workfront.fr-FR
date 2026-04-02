@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Filtrer et regrouper votre travail avec les priorités
+title: Filtrer, regrouper et trier votre travail selon les priorités
 description: Vous pouvez utiliser des filtres pour trouver le travail que vous recherchez, puis appliquer un regroupement pour le garder organisé.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 14%
+source-wordcount: '653'
+ht-degree: 15%
 
 ---
 
-# Filtrer et regrouper votre travail avec les priorités
+# Filtrer, regrouper et trier votre travail avec les priorités
 
 Vous pouvez utiliser des filtres pour trouver le travail que vous recherchez, puis appliquer un regroupement pour le garder organisé.
 
@@ -32,14 +32,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
    <p>Requête ou supérieure</p>
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    </td> 
   </tr> 
   <tr> 

@@ -8,10 +8,12 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 45%
+source-wordcount: '1441'
+ht-degree: 41%
 
 ---
 
@@ -21,13 +23,9 @@ ht-degree: 45%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Vous pouvez afficher les demandes que vous ou une autre personne avez envoyées, ou les demandes que vous avez commencées mais que vous n’avez jamais terminées. Les demandes non terminées sont enregistrées en tant que brouillons.
 
@@ -45,7 +43,7 @@ La zone des Demandes affiche les demandes suivantes, selon la manière dont vous
   >
   >* Vous pouvez uniquement afficher vos propres brouillons de demandes.
   >* Dans la nouvelle expérience de demande, les demandes envoyées et les brouillons se trouvent dans la même liste.
-  >* Les brouillons créés dans l’expérience héritée n’apparaissent pas dans la nouvelle expérience Demande.
+  >* Les brouillons créés dans l’expérience héritée ne s’affichent pas dans la nouvelle expérience Demande.
 
 ## Conditions d’accès
 
@@ -90,6 +88,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Afficher les demandes envoyées dans la zone des Demandes
 
+Vous pouvez afficher les demandes envoyées dans la zone des Demandes ou dans le widget Mes demandes dans l’Accueil.
+
+Pour plus d’informations sur Mes requêtes, voir [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
 L’affichage des demandes envoyées diffère selon que vous utilisez l’expérience de demande nouvelle ou héritée.
 
 * [Afficher les demandes envoyées dans la nouvelle expérience de demande](#view-submitted-requests-in-the-new-requesting-experience)
@@ -102,23 +104,15 @@ L’affichage des demandes envoyées diffère selon que vous utilisez l’expér
 >* Si vous disposez de Workfront Planning, vos demandes Workfront et Planning apparaissent dans la même liste. Les requêtes Workfront affichent la valeur `Issue` dans la colonne **Type d’objet**.
 >* Jusqu’à 50 requêtes s’affichent par défaut dans la liste de la zone des Requêtes . Pour afficher plus de requêtes, faites défiler la liste vers le bas.
 
-Vous pouvez afficher les demandes envoyées dans la zone Demandes , qui inclut des liens vers les enregistrements créés par les demandes Adobe Workfront Planning dans la <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment--> Environnement de production .
+Vous pouvez afficher les demandes envoyées dans la zone des Demandes et dans le widget Mes demandes dans l’Accueil.
 
 >[!NOTE]
 >
->Les liens vers les objets créés ne sont disponibles dans la nouvelle expérience de requête que pour les requêtes Planning, dans les cas où la requête elle-même a créé un enregistrement.
+>Les objets suivants possèdent des liens de la liste des requêtes de la zone des Requêtes et du widget Mes requêtes, lorsque vous activez la nouvelle expérience de requêtes :
 >
->Si une requête Workfront est convertie en projet ou en un autre objet, le lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de création de requêtes.
-
-<!--
-replace the note above with this at release: 
->[!NOTE]
->
->Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
->
->If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
-><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
--->
+>* Requêtes Planning et Workfront dans le champ Objet .
+>* Enregistrements Planning créés à partir de demandes Planning dans le champ Objet créé .
+>* <span class="preview">Tâches et événements Workfront convertis à partir de requêtes Workfront dans le champ Objet créé , dans l&#39;environnement Aperçu . </span>
 
 Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans la nouvelle expérience de requête :
 
@@ -135,13 +129,13 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
    * Filtre
    * Colonnes
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
+
+   * Groupe
+   * Formater les cellules
+   * Hauteur de ligne
+
+   </div>
 
    Pour plus d’informations sur la gestion des informations dans la liste des demandes, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -292,7 +286,8 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
 
 1. Cliquez sur **Brouillons** pour visualiser toutes les demandes en préparation. Workfront enregistre un nombre illimité de brouillons pour chaque file d’attente de demandes dans ce dossier. Lorsque vous saisissez une nouvelle demande pour une rubrique de file d’attente qui comporte déjà un brouillon, l’utilisation d’un brouillon existant vous est proposée. Pour plus d’informations, consultez la section [Créer des demandes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   <!--
+   Planning tab has been removed and no longer visible in legacy Requests area: 
    (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
       Use **Filters** and **Columns** to update the information in the Planning request list. 
       ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)

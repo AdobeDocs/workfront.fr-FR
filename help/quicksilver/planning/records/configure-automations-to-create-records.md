@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1790'
 ht-degree: 5%
 
 ---
@@ -59,6 +61,7 @@ Pour plus d&#39;informations sur la création d&#39;enregistrements ou d&#39;obj
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p>Standard</p>
+   <p>L'administrateur système doit avoir accès à la configuration des automatisations en fonction de la modification de la valeur du champ</p>
    </td> 
   </tr> 
   <tr> 
@@ -74,7 +77,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -131,7 +135,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Configuration d’une automatisation dans Workfront Planning
 

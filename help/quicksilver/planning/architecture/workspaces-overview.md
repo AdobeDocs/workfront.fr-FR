@@ -6,14 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 24%
+source-wordcount: '447'
+ht-degree: 25%
 
 ---
 
-# Présentation des espaces de travail
+# Vue d’ensemble des espaces de travail
+
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -30,8 +34,11 @@ Un espace de travail est un ensemble de types d’enregistrements utilisés par 
 
    * À partir de zéro
    * En utilisant un modèle. Les modèles contiennent un nombre préconfiguré de types d’enregistrements et leurs champs.
+   * Utilisation de Planning Designer optimisé par l’IA Cette fonctionnalité est actuellement disponible dans Beta.
+   * <span class="preview">Utilisation d’un lot de modèles multi-espace de travail.</span>
 
   Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+
 * Les espaces de travail sont des structures au sein desquelles vos entités organisationnelles (une équipe, un groupe, un service ou une division) travaillent. Ils ne peuvent pas être associés à des champs. Seuls les types d’enregistrements d’un espace de travail peuvent être associés à des champs.
 
   Pour plus d’informations, voir [Présentation des types d’enregistrements](/help/quicksilver/planning/architecture/overview-of-record-types.md).
@@ -40,7 +47,7 @@ Un espace de travail est un ensemble de types d’enregistrements utilisés par 
    * Pour les administrateurs système, les espaces de travail s’affichent dans les onglets suivants :
 
       * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
-      * **Autres espaces de travail** : affiche tous les autres espaces de travail du système.
+      * **Autres espaces de travail** : affiche tous les autres espaces de travail du système.
 
    * Pour tous les autres utilisateurs, les espaces de travail qu’ils ont créés et les espaces de travail que d’autres ont partagés avec eux s’affichent dans la zone Espaces de travail.
 
@@ -55,4 +62,4 @@ Un espace de travail est un ensemble de types d’enregistrements utilisés par 
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
-* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
+* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [](/help/quicksilver/planning/general/limitations-overview.md).
