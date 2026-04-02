@@ -105,7 +105,7 @@ Après avoir filtré votre travail, vous pouvez regrouper les éléments en fonc
 * Statut
 * Projet
 
-Pour plus d’informations, voir [ Filtrer, regrouper et trier votre travail avec les priorités ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Pour plus d’informations, voir [&#x200B; Filtrer, regrouper et trier votre travail avec les priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Hiérarchiser les éléments de travail importants avec Mon focus
 
@@ -118,9 +118,9 @@ Mon focus est une colonne de la liste de tâches qui vous aide à hiérarchiser 
 
 Une fois que vous avez affecté des niveaux de focus à vos éléments de travail, vous pouvez trier la colonne pour faire apparaître les éléments urgents en haut de votre liste de travail.
 
-Pour plus d’informations, voir [ Hiérarchiser les éléments de travail importants ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+Pour plus d’informations, voir [&#x200B; Hiérarchiser les éléments de travail importants &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![ Liste de travail ](assets/worklist.png)
+![&#x200B; Liste de travail &#x200B;](assets/worklist.png)
 
 ### Utilisation de la vue Calendrier
 
@@ -167,7 +167,7 @@ Charger des fichiers directement dans la zone Documents de la tâche ou de l’�
 * Ajouter des fichiers supplémentaires
 * Importer des fichiers à partir des intégrations de documents connectées
 
-Pour plus d’informations, voir [ Charger des fichiers dans Priorités ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
+Pour plus d’informations, voir [&#x200B; Charger des fichiers dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
 
@@ -176,9 +176,9 @@ Pour plus d’informations, voir [ Charger des fichiers dans Priorités ](/help/
 
 Vous pouvez incorporer les liens fréquemment utilisés dans la page de détails de l’élément de travail. Les liens rapides vous permettent de consulter ou de copier rapidement le lien.
 
-![Liens rapides ](assets/quick-links.png)
+![Liens rapides &#x200B;](assets/quick-links.png)
 
-Pour plus d’informations, voir [ Ajouter et gérer des liens rapides dans Priorités ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
+Pour plus d’informations, voir [&#x200B; Ajouter et gérer des liens rapides dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
 ### Afficher des documents.
 
