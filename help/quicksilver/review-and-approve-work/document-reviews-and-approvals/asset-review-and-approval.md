@@ -6,7 +6,9 @@ description: Présentation des systèmes disponibles pour révision et approbati
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -62,10 +64,9 @@ Pour plus d’informations sur les rapports, voir [Créer un tableau de bord de 
 
 * Accédez aux demandes de révision et d’approbation dans le widget Mes approbations de la zone Accueil .
 
+* Utilisez le Content Reviewer pour automatiser les révisions de conformité de la marque. Pour plus d’informations, voir [Prise en main de Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
 * Utilisez la visionneuse Frame.io pour réviser et approuver des documents. Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
-
-* Utilisez l’IA Reviewer pour automatiser les révisions de conformité de la marque. Pour plus d’informations, voir [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
 
 ## Validations d&#39;épreuves
 

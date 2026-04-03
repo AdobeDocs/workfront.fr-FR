@@ -9,7 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -42,7 +44,7 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -52,7 +54,7 @@ Grâce à la révision et aux approbations unifiées, vous pouvez :
 * Suivre le statut des révisions et des validations en temps réel
 * Centraliser les commentaires et les approbations au même endroit
 * Vérifiez que toutes les parties prenantes ont accès aux dernières versions des ressources
-* Utiliser les réviseurs d’IA pour automatiser les révisions de conformité de la marque
+* Utiliser des réviseurs de contenu pour automatiser les révisions de conformité de marque
 * et plus...
 
 Pour plus d’informations, voir [Approbations de documents unifiés : index des articles](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).

@@ -1,26 +1,26 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Configurer des marques pour le réviseur de l’IA
-description: Configurer des marques pour le réviseur de l’IA
+title: Créer et gérer des marques pour le réviseur de contenu
+description: Créer et gérer des marques pour le réviseur de contenu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
-source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 10%
+source-wordcount: '475'
+ht-degree: 9%
 
 ---
 
-# Configurer des marques pour le réviseur de l’IA
+# Créer et gérer des marques pour le réviseur de contenu
 
->[!IMPORTANT]
->
->Cette fonctionnalité est actuellement en version bêta.
+{{highlighted-preview-article-level}}
 
-Le réviseur de l’IA utilise des directives de marque pour évaluer le contenu pendant le processus de révision. Vous pouvez créer des marques dans Workfront en chargeant des fichiers PDF qui contiennent vos directives de marque ou en saisissant manuellement des éléments de marque.
+Le réviseur de contenu utilise les directives de la marque pour évaluer le contenu pendant le processus de révision. Vous pouvez créer des marques dans Workfront en chargeant des fichiers PDF qui contiennent vos directives de marque ou en saisissant manuellement des éléments de marque.
 
 ## Conditions d’accès
 
@@ -44,29 +44,29 @@ Le réviseur de l’IA utilise des directives de marque pour évaluer le contenu
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations Admin Console*</td> 
-   <td> <p>Vous devez utiliser GenStudio Brand Manager.</p>
-    <p>REMARQUE : pour sélectionner GenStudio Brand Manager, vous devez suivre les étapes décrites dans la section <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">Attribuer des autorisations de marque</a>.</p>
+   <td> <p>Vous devez être un Brand Manager GenStudio.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-
-
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Conditions
+
+* Les approbations unifiées doivent être activées pour votre instance Workfront.
+
+* Votre organisation doit disposer de GenStudio Foundation.
+   * Content Reviewer dans Workfront fournit les fonctionnalités disponibles dans GenStudio Foundation pour les workflows de révision et d’approbation de ressources. Vous n’avez pas besoin d’accéder directement à GenStudio Foundation pour terminer votre travail. Votre accès à la fonctionnalité GenStudio Foundation par l’intermédiaire de l’analyseur de contenu est soumis aux conditions de votre contrat Workfront.
+* Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
+Pour plus d’informations sur la signature du contrat, voir [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
 
 ## Conditions préalables
 
-* Votre organisation doit avoir migré vers Adobe IMS (système Identity Management).
-* Les approbations unifiées doivent être activées pour votre instance Workfront.
-* Votre organisation doit disposer de GenStudio Foundation.
-* Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
-Pour plus d’informations sur la signature du contrat, voir [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+1. Vous devez accorder l’accès aux autorisations de marque dans les niveaux d’accès Admin Console et Workfront avant de pouvoir créer des marques. Pour obtenir des instructions, voir [Octroi de l’accès aux autorisations de marque](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md).
 
 
 ## Création d’une marque à l’aide d’un PDF
@@ -76,7 +76,7 @@ Pour plus d’informations sur la signature du contrat, voir [Signature du contr
 1. Dans le panneau de gauche, accédez à **Révision et approbation** > **Marques**.
 1. Cliquez sur **Ajouter une marque** dans le coin supérieur droit de l’écran.
 1. Nommez la marque.
-1. Cliquez sur Charger des PDF pour charger des fichiers de marque.
+1. Cliquez sur **Charger des PDF** pour charger des fichiers de marque.
    ![télécharger des fichiers pdf de marque](assets/upload-PDF.png)
 1. Cliquez sur **Continuer**.
 1. Chargez un ou plusieurs fichiers PDF contenant les directives de votre marque, puis cliquez sur **Ajouter une marque**.
@@ -86,7 +86,7 @@ Pour plus d’informations sur la signature du contrat, voir [Signature du contr
    >
    >Les directives sont générées à l’aide de vos fichiers et de la technologie d’IA générative et peuvent être inexactes. Vérifiez les instructions extraites pour les détails manquants ou incorrects et modifiez-les avant de publier cette marque.
 
-1. Lorsque vous avez terminé, cliquez sur **Publier** pour mettre la marque à la disposition du réviseur de l’IA.
+1. Lorsque vous avez terminé, cliquez sur **Publier** pour rendre la marque disponible pour le réviseur de contenu.
 
 ## Création manuelle d’une marque
 
@@ -116,7 +116,7 @@ Pour plus d’informations sur la signature du contrat, voir [Signature du contr
         <td>Décrivez les canaux appropriés pour la communication de la marque.</td>
     </tr>
     <tr>
-        <td>logos</td>
+        <td>Logos</td>
         <td>Incluez les logos officiels associés à la marque.</td>
     </tr>
     <tr>
@@ -128,4 +128,4 @@ Pour plus d’informations sur la signature du contrat, voir [Signature du contr
    ![ajout manuel d’éléments de marque](assets/brand-elements.png)
 
 
-1. Lorsque vous avez terminé, cliquez sur **Publier** pour mettre la marque à la disposition du réviseur de l’IA.
+1. Lorsque vous avez terminé, cliquez sur **Publier** pour rendre la marque disponible pour le réviseur de contenu.
