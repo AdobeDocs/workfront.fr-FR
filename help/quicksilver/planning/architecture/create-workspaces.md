@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1199'
 ht-degree: 19%
 
 ---
@@ -150,6 +150,11 @@ Vous pouvez créer des espaces de travail comme suit :
 
   Pour plus d’informations, consultez la section [Créer plusieurs espaces de travail à l’aide d’un lot de modèle multi-espace de travail conforme aux bonnes pratiques](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) dans cet article
 
+  >[!TIP]
+  >
+  >Vous ne pouvez pas créer plusieurs espaces de travail à la fois à moins d’utiliser le lot de modèles de bonnes pratiques.
+
+
 </div>
 
 ### Créer un espace de travail à partir de zéro ou d’un modèle
@@ -238,9 +243,10 @@ Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail
 
 >[!IMPORTANT]
 >
->Tous les noms des espaces de travail, des types d’enregistrements, des champs et des enregistrements inclus dans le lot sont des exemples et ne reflètent pas votre propre environnement.
+>Les noms des espaces de travail et des enregistrements inclus dans le lot sont des exemples et ne reflètent pas votre propre environnement.
 >
->Nous vous recommandons d&#39;utiliser ce lot de modèles comme exemple de structure Planning et de créer des objets qui reflètent le workflow de votre organisation.
+>Les noms des types d’enregistrements et des champs peuvent être utilisés dans n’importe quelle organisation comme norme à implémenter dans n’importe quel secteur, conformément à notre recommandation.
+>
 
 {{step1-to-planning}}
 
@@ -270,7 +276,7 @@ Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail
 
    Pour plus d’informations sur les bonnes pratiques relatives à l’implémentation de Workfront, consultez les articles de la section [Bonnes pratiques de planification d’Adobe Workfront : index des articles](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) .
 
-   Pour plus d’informations sur la modification des espaces de travail, voir [&#x200B; Modifier les espaces de travail &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Pour plus d’informations sur la modification des espaces de travail, voir [ Modifier les espaces de travail ](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 </div>
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1569'
 ht-degree: 4%
 
 ---
@@ -80,7 +80,7 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
    <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -273,7 +273,7 @@ Pour plus d’informations, voir [Gérer la vue Tableau](/help/quicksilver/plann
       * Chronologie
 Pour plus d’informations, voir [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
       * Calendrier
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
         Pour plus d’informations, consultez la section [Gérer plusieurs vues à partir de la page des enregistrements connectés](#manage-multiple-views-from-the-connected-records-page) dans cet article.
 
@@ -303,38 +303,47 @@ Lorsque vous créez une page d’enregistrements connectés pour les projets Wor
 
 1. Accédez à une page de type d’enregistrement et cliquez sur le nom d’un enregistrement. Cette action ouvre la page d&#39;aperçu de l&#39;enregistrement.
 1. Cliquez sur l’onglet d’une page d’enregistrements connectée qui affiche les projets Workfront.
-Les projets connectés à l’enregistrement que vous avez sélectionné s’affichent dans la vue Liste.
-1. Cliquez sur **Connecter des enregistrements** dans le coin supérieur droit de la page d’enregistrement connectée pour connecter des projets existants.
 
-   Pour plus d’informations, consultez la section [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
-1. Double-cliquez dans une cellule de la vue Liste pour modifier les champs d’un projet. Certains champs sont en lecture seule.
-1. Effectuez l’une des opérations suivantes pour modifier la vue Liste :
+   ![Page Projets - Enregistrements connectés](assets/projects-connected-records-page-table.png)
 
-   * Cliquez sur **Nouvelle ligne** pour créer un projet sans modèle. Le nouveau projet est automatiquement connecté à l’enregistrement actif.
+   Les projets connectés à l’enregistrement que vous avez sélectionné s’affichent dans la vue Liste.
 
-     Pour plus d’informations, voir [Création d’objets Workfront à partir de Workfront Planning lorsque vous les connectez à des enregistrements](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
-   * Cliquez sur **Créer des enregistrements** dans le coin supérieur droit de la vue pour ajouter des projets existants. Les projets sont immédiatement connectés à l’enregistrement sélectionné.
+   Pour plus d’informations sur la gestion ou la modification d’objets dans la vue Liste, voir [Gérer la vue Liste](/help/quicksilver/planning/views/manage-the-list-view.md).
 
-   * Pointez sur un nom de projet dans la liste, cliquez sur le menu **Plus** [Plus](assets/more-menu.png), puis sur **Affichage** pour ouvrir le projet dans un autre onglet
+<!-- 
+removed this part, so we won't have to have duplicate information to keep up with for the list view in Planning: 
+1. Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
-     Ou
+   For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+1. Double-click inside a cell in the list view to edit a project's fields. Some fields are read-only. 
+1. Do one of the following to edit the list view: 
 
-     Sélectionnez un ou plusieurs projets, puis, dans la barre d’actions située au bas de la liste, cliquez sur **Supprimer** ou **Déconnecter** pour supprimer l’élément de la liste.
+   * Click **New row** to create a project without a template. The new project is automatically connected to the current record.
 
+      For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Click **Create records **in the upper-right corner of the view to add existing projects. Projects are immediately connected to the selected record. 
 
-   * Cliquez sur le menu déroulant des affichages, puis sur **Nouvel affichage** pour ajouter un nouvel affichage à la page, puis procédez comme suit, ou cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite d’un nouveau nom, puis **Renommer**, **Partager** ou **Supprimer** l’affichage.
+   * Hover over a project name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the project in another tab
+     
+      Or
 
-     Vous ne pouvez pas renommer, partager ou supprimer des vues système ou des vues pour lesquelles vous ne disposez pas d&#39;autorisations de gestion.
+      Select one or more projects, and from the actions bar at the bottom of the list, click **Delete** or **Disconnect** to remove the item from the list.
+      
 
-     ![Menu Afficher plus sur la page Projets - Enregistrements connectés](assets/view-more-menu-projects-connected-records-page.png)
+   * Click the views dropdown menu, and click **New view** to add a new view for the page, then do the following, or click the **More** menu ![More menu](assets/more-menu.png) to the right of a new name, then **Rename**, **Share**, or **Delete** the view. 
 
-   * Cliquez sur l’un des éléments suivants pour mettre à jour les éléments de la vue :
+      You cannot rename, share or delete System Views or views you do not have Manage permissions to.
 
-      * **Filtrer** pour limiter la quantité d’informations dans la liste
-      * **Colonnes** pour masquer les colonnes ou modifier leur ordre
-      * L’icône **+** dans le coin supérieur droit de la vue Tableau pour ajouter des champs existants à la liste. Des champs doivent exister avant de pouvoir les ajouter.
+      ![View more menu on Projects Connected records page](assets/view-more-menu-projects-connected-records-page.png)
 
-   Pour plus d’informations sur la gestion des objets dans une vue Liste, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+   * Click one of the following to update the view's elements: 
+
+      * **Filter** to limit the amount of information in the list
+      * **Columns** to hide columns or change their order
+      * The **+** icon in the upper-right corner of the table view to add existing fields to the list. Fields must exist before you can add them. 
+
+   For more information about managing objects in a list view, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+-->
 
 <!--
  this is repetitive from an earlier section above: 
