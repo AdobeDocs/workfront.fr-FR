@@ -92,7 +92,7 @@ Old:
 
    **Exemple :** par exemple, pour gérer les formulaires personnalisés d’un projet, accédez au projet, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis cliquez sur **Modifier** .
 
-1. Dans la section Forms personnalisé&#x200B;**pour les projets, les tâches et les événements, cliquez sur l’icône** Déplacer![ en regard du nom d’un formulaire personnalisé. ](assets/move-icon---dots.png) Pour tous les autres objets, cliquez sur **Gérer les Formulaires**. Cette option s’affiche uniquement si au moins un formulaire personnalisé est associé à l’objet.
+1. Dans la section Forms personnalisé&#x200B;**pour les projets, les tâches et les événements, cliquez sur l’icône** Déplacer![&#x200B; en regard du nom d’un formulaire personnalisé. &#x200B;](assets/move-icon---dots.png) Pour tous les autres objets, cliquez sur **Gérer les Formulaires**. Cette option s’affiche uniquement si au moins un formulaire personnalisé est associé à l’objet.
 1. Faites glisser un formulaire ![icône Déplacer](assets/move-icon---dots.png) vers un nouvel emplacement de la liste.
 1. Pour les projets, tâches et problèmes de formulaires personnalisés, cliquez sur **Enregistrer**.
 

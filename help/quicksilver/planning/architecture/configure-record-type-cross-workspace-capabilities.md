@@ -225,7 +225,7 @@ Pour configurer un type d’enregistrement comme global :
    >Vous ne pouvez modifier l’aspect et les paramètres du type d’enregistrement, ainsi que ses champs d’origine, qu’à partir de son espace de travail d’origine.
 
    * La carte de type d’enregistrement affiche une icône **type d’enregistrement global** ![icône de type d’enregistrement global dans l’espace de travail principal](assets/global-icon.png) pour indiquer que le type d’enregistrement peut être ajouté à d’autres espaces de travail.
-   * Un champ **** généré par le système est ajouté à la vue Tableau du type d&#39;enregistrement et des détails de ses enregistrements.
+   * Un champ **&#x200B;**&#x200B;généré par le système est ajouté à la vue Tableau du type d&#39;enregistrement et des détails de ses enregistrements.
 
      Le champ Workspace affiche l’espace de travail à partir duquel chaque enregistrement est créé.
 
@@ -233,7 +233,7 @@ Pour configurer un type d’enregistrement comme global :
 
      >[!TIP]
      >
-     >Si la valeur du champ **** est vide, l&#39;enregistrement a été créé depuis un espace de travail secondaire où le type d&#39;enregistrement global a été supprimé après la création de l&#39;enregistrement.
+     >Si la valeur du champ **&#x200B;**&#x200B;est vide, l&#39;enregistrement a été créé depuis un espace de travail secondaire où le type d&#39;enregistrement global a été supprimé après la création de l&#39;enregistrement.
 
 1. (Facultatif) Accédez à un autre espace de travail et créez un type d’enregistrement à l’aide d’un type d’enregistrement existant. Sélectionnez le type d’enregistrement que vous avez activé dans les étapes ci-dessus.
 

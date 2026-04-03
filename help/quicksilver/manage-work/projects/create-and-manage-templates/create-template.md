@@ -207,7 +207,7 @@ Old:
    * Frais
    * Approbations
 
-   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [ Modifier les modèles de projet ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [&#x200B; Modifier les modèles de projet &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 
 

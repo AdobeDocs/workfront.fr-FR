@@ -31,7 +31,7 @@ En raison d’une utilisation en déclin et de fonctionnalités limitées, Enhan
 
 **Que puis-je utiliser à la place ?**
 
-* Workfront Data Connect peut répliquer des visualisations Analytics améliorées. Pour plus d’informations[ consultez la section ](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) Répliquer des visualisations Analytics améliorées dans Workfront Data Connect ci-dessous.
+* Workfront Data Connect peut répliquer des visualisations Analytics améliorées. Pour plus d’informations[&#x200B; consultez la section &#x200B;](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) Répliquer des visualisations Analytics améliorées dans Workfront Data Connect ci-dessous.
 
 ## Préparation à l’obsolescence
 

@@ -163,7 +163,7 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 
 Pour configurer la section **Filtre**, procédez comme suit :
 
-1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**![ Filtrer](assets/filter-icon.png).
+1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**![&#x200B; Filtrer](assets/filter-icon.png).
 1. Sélectionnez **Modifier le filtre**.
 1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre.
 1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.

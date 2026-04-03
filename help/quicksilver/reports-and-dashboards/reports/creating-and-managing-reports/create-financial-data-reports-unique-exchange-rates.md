@@ -176,6 +176,6 @@ Pour modifier en ligne un champ financier dans un rapport, procédez comme suit�
 1. Cliquez sur **Paramètres des rapports**.
 1. Cliquez sur la liste déroulante **Devise par défaut**, puis sélectionnez **Devise d’origine du projet**.
 
-   ![ Devise par défaut ](assets/qs-report-settings-default-currency-350x370.png)
+   ![&#x200B; Devise par défaut &#x200B;](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Cliquez sur **Terminé**.

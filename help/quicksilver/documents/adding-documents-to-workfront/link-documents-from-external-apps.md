@@ -62,7 +62,7 @@ Vous pouvez relire et approuver les documents liés à un fournisseur de service
 >[!NOTE]
 >
 >Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
->Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -311,7 +311,7 @@ Lors de la synchronisation du contenu d’un dossier à partir d’une applicati
 
 1. (Facultatif) Pour renommer le dossier de sorte que son nom dans Workfront soit différent de celui du dossier dans l’application de document externe, sélectionnez le dossier dans la section **Dossiers**, cliquez sur le menu Plus ![Plus](assets/more-icon.png) qui s’affiche en regard du nom du dossier, puis cliquez sur **Renommer**.
 
-   ![ Renommer le dossier ](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![&#x200B; Renommer le dossier &#x200B;](assets/documents-folderlink-rename-nwe-350x154.png)
 
 Cette opération ne renomme pas le dossier dans l’application externe.
 

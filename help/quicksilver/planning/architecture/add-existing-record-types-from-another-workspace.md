@@ -145,7 +145,7 @@ And
       * Toutes les connexions aux enregistrements
    * Vous ne pouvez pas afficher les enregistrements ajoutés depuis l’espace de travail d’origine du type d’enregistrement depuis l’espace de travail secondaire.
    * Vous pouvez afficher les enregistrements ajoutés depuis l’espace de travail d’origine du type d’enregistrement dans cet espace de travail, uniquement dans l’espace de travail d’origine, si vous disposez au moins des autorisations d’affichage dans cet espace de travail.
-   * Le champ en lecture seule **** est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
+   * Le champ en lecture seule **&#x200B;**&#x200B;est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
 
      >[!NOTE]
      >

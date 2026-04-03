@@ -165,7 +165,7 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 1. Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l&#39;enregistrement](assets/export-icon-in-record-details-page.png) dans l&#39;aperçu ou dans la page de l&#39;enregistrement, puis cliquez sur l&#39;une des options suivantes :
 
    * **Microsoft Word**
-   * ****
+   * **&#x200B;**
 
    Un fichier Word (.docx) ou PDF est téléchargé et enregistré sur votre ordinateur.
 

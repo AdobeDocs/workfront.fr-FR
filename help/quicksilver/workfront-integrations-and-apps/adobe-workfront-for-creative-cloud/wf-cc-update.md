@@ -95,7 +95,7 @@ Pour publier une mise à jour :
 
 1. Dans la **[!UICONTROL Liste de travail]**, sélectionnez l’élément de travail sur lequel vous devez publier une mise à jour.
 1. Cliquez sur **[!UICONTROL Mettre à jour]** dans la barre de navigation.\
-   ![Mise à jour ](assets/photoshop-update-350x295.png)
+   ![Mise à jour &#x200B;](assets/photoshop-update-350x295.png)
 
 1. Cliquez sur **[!UICONTROL Nouvelle mise à jour]**.
 1. Saisissez votre mise à jour.

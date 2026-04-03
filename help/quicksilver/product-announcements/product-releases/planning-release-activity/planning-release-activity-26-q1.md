@@ -80,7 +80,7 @@ Tenez compte des points suivants lors de la création de hiérarchies :
 * Les types d&#39;enregistrements connectables ne peuvent pas être utilisés dans les hiérarchies des espaces de travail autres que les leurs.
 * Les types d’enregistrements globaux ne peuvent être utilisés dans les hiérarchies que dans les espaces de travail dans lesquels ils ont été créés ou auxquels ils ont été ajoutés.
 
-Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Nouveaux chemins de navigation unifiés ajoutés aux pages des enregistrements
 
@@ -96,7 +96,7 @@ Les chemins de navigation des enregistrements reflètent leur place dans une hi�
 
 Par exemple, vous pouvez afficher la hiérarchie Planning d&#39;un projet lorsqu&#39;il est connecté à des types d&#39;enregistrements Planning dans son chemin de navigation Planning, et sa hiérarchie Workfront lorsqu&#39;il est connecté à des types d&#39;objets Workfront, tels que Portfolios ou Programmes, dans Workfront.
 
-Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 
 ## Améliorations apportées aux pages d’enregistrements connectés

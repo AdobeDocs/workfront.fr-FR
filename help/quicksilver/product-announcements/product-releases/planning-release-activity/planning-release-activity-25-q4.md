@@ -98,7 +98,7 @@ Nous avons apporté des améliorations aux pages d’enregistrements connectées
 * Ajout du lien Nouvelle ligne au bas de la vue Tableau lors de l’affichage de projets connectés dans lequel vous pouvez ajouter de nouveaux projets sans modèle
 * Vous ne pouvez plus créer de pages d’enregistrement connectées pour les portfolios et programmes Workfront. Vous ne pouvez créer des pages d’enregistrements connectés que pour les projets Workfront.
 
-Pour plus d’informations, voir [ Gérer la page d’enregistrement ](/help/quicksilver/planning/records/manage-the-record-page.md).
+Pour plus d’informations, voir [&#x200B; Gérer la page d’enregistrement &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 <!--
 ## Unified request form list now available

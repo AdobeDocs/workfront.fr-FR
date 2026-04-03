@@ -64,7 +64,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Créez une demande de révision ou d’approbation de document à partir de la page de document dans votre environnement de production
 
 1. Pointez sur le document, puis cliquez sur sélectionnez Détails du document.
-   ![ Détails du document ](assets/doc-details.png)
+   ![&#x200B; Détails du document &#x200B;](assets/doc-details.png)
 
 1. À côté du nom du document, sélectionnez la version du document pour laquelle créer une approbation dans le menu déroulant de la version. La dernière version est sélectionnée par défaut.
 
@@ -146,7 +146,7 @@ Pour créer un workflow de validation :
    >
    >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
 
-   ![ Détails du document ](assets/new-stage.png)
+   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
 
 </div>
 
@@ -189,7 +189,7 @@ Pour créer un workflow de validation :
    >
    >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
 
-   ![ Détails du document ](assets/new-stage.png)
+   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
 
 
 

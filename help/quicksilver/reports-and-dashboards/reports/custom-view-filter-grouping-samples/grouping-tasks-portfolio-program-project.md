@@ -22,7 +22,7 @@ ht-degree: 75%
 
 Utilisez ce regroupement de tâches pour classer les tâches par portfolio, programme, puis par projet auxquels elles sont liées.
 
-![Regroupement de projets du programme ](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Regroupement de projets du programme &#x200B;](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## Conditions d’accès
 

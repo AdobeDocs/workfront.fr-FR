@@ -118,7 +118,7 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
 
 1. (Facultatif) Cliquez sur le nom sous **[!UICONTROL Personne gestionnaire de portfolio]** dans l’en-tête situé en haut de la page afin d’attribuer une autre personne responsable au portfolio.
 
-   ![nom du gestionnaire ](assets/portfolio-manager-name-350x51.jpg)
+   ![nom du gestionnaire &#x200B;](assets/portfolio-manager-name-350x51.jpg)
 
    En tant que créateur ou créatrice du portfolio, vous êtes gestionnaire de portfolio par défaut.
 

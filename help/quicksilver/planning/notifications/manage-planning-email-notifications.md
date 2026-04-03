@@ -155,7 +155,7 @@ OLD:
 
    ![Exemple de notifications par e-mail](assets/email-notification-example.png)
 
-1. (Facultatif) Cliquez sur le message dans la zone **** de l’e-mail.
+1. (Facultatif) Cliquez sur le message dans la zone **&#x200B;**&#x200B;de l’e-mail.
 
    La page des détails de l’enregistrement s’ouvre dans Workfront. Vous pouvez mettre à jour l’enregistrement ou répondre au commentaire.
 
@@ -166,7 +166,7 @@ La page **Notifications** s’ouvre dans Adobe Experience Cloud. Toutes les noti
 
 1. (Conditionnel et facultatif) Lorsqu&#39;une personne vous demande ou vous accorde des autorisations pour accéder à un type d&#39;objet Planning, accédez à l&#39;e-mail qui vous informe de la demande d&#39;autorisation. L’expéditeur de l’e-mail est Adobe Experience Cloud.
 
-1. (Facultatif) Cliquez sur le message dans la zone **** de l’e-mail.
+1. (Facultatif) Cliquez sur le message dans la zone **&#x200B;**&#x200B;de l’e-mail.
 
    L’objet pour lequel vous avez demandé des autorisations s’ouvre dans Workfront.
 

@@ -283,7 +283,7 @@ Pour créer des programmes au fur et à mesure que vous les connectez à partir 
    La boîte de dialogue **Créer un programme** s’ouvre.
 
 1. Mettez à jour le **nom du programme**. Champ obligatoire.
-1. Choisissez un **** dans la liste déroulante ou commencez à saisir le nom d&#39;un portfolio, puis sélectionnez-le lorsqu&#39;il s&#39;affiche dans la liste. Champ obligatoire.
+1. Choisissez un **&#x200B;**&#x200B;dans la liste déroulante ou commencez à saisir le nom d&#39;un portfolio, puis sélectionnez-le lorsqu&#39;il s&#39;affiche dans la liste. Champ obligatoire.
 1. Cliquez sur **Créer**.
 
    Le programme est créé et ajouté dans le champ de connexion de l&#39;enregistrement que vous avez sélectionné.
