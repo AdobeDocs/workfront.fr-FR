@@ -92,7 +92,7 @@ Pour plus d’informations sur la création de modèles de processus d’approba
 
 Lorsque l’utilisateur lance une révision dans GenStudio for Performance Marketing, il choisit simplement le modèle dont il a besoin. Les utilisateurs peuvent facilement modifier n’importe quel modèle de workflow d’approbation unifiée, ajouter ou supprimer des réviseurs et des étapes, à tout moment.
 
-Pour plus d’informations, voir [Demander la révision et l’approbation](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Pour plus d’informations, voir [Demander la révision et l’approbation](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Examinez et approuvez le contenu du brouillon GenStudio for Performance Marketing dans la visionneuse Frame.io
 
@@ -111,4 +111,4 @@ Pour plus d&#39;informations sur l&#39;utilisation de la visionneuse Frame.io, v
 
 Une fois que la ressource a passé le processus de révision et d’approbation, vous pouvez afficher la décision de révision et publier le contenu directement depuis GenStudio for Performance Marketing.
 
-Pour plus d’informations, voir [Publication du contenu approuvé](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Pour plus d’informations, voir [Publication du contenu approuvé](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
