@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 12%
+source-wordcount: '872'
+ht-degree: 11%
 
 ---
 
@@ -20,6 +20,29 @@ Cette page décrit les améliorations apportées aux rapports avec la version du
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2026, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Champ Version actuelle pour les versions du document
+
+>[!NOTE]
+>
+>Aperçu : 2 avril 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Nous avons ajouté un champ booléen `currentVersion` à l’objet Version du document pour faciliter l’identification et la création de rapports sur la dernière version d’un document.
+Avec cette mise à jour :
+
+* Vous pouvez utiliser des `currentVersion` dans des filtres, des vues, des regroupements et des graphiques.
+* Le champ est disponible dans le sélecteur de champs Zone de travail pour les rapports de version de document.
+
+* Lorsqu’une nouvelle version est chargée :
+
+   * La nouvelle version est marquée comme `TRUE`
+   * Les versions précédentes sont marquées comme `FALSE`
+
+* Les rapports peuvent identifier de manière cohérente les versions actuelles dans les tableaux de bord Zone de travail et les rapports hérités
+
+Les filtres existants pour les rapports classiques utilisant `isCurrentVersion` ou `isDocumentCurrentVersion` continuent à fonctionner comme documenté.
+
 ## La Diffusion De Rapports Planifiée Prend Désormais En Charge Les E-Mails Basés Sur Des Liens
 
 >[!NOTE]
@@ -28,7 +51,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >Version rapide de production : jeudi 15 avril 2026
 >Production pour tous : vendredi 16 avril 2026
 
-Workfront comprend désormais un nouveau type de diffusion Lien pour les rapports planifiés. Au lieu de générer et de joindre un fichier, cette option envoie un e-mail contenant un lien direct vers le rapport dans Workfront, ce qui permet aux destinataires d’afficher les données les plus récentes dans l’application.
+Workfront comprend désormais un nouveau type de diffusion Lien pour les rapports planifiés. Au lieu de générer et de joindre un fichier, cette option envoie un e-mail contenant un lien direct vers le rapport dans Workfront, ce qui permet aux destinataires de visualiser{{$include }} dans l’application, les données les plus récentes.
 
 L’option Lien est désormais le type de diffusion par défaut des règles de diffusion de rapports planifiés nouvellement créées, tandis que les formats de fichier existants (HTML, PDF, Excel et TSV) restent disponibles.
 

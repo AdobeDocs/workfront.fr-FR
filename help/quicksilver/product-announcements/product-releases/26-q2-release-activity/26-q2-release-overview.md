@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: fb848a84a1339b98a549584c87af2083115d3440
 workflow-type: tm+mt
-source-wordcount: '2228'
-ht-degree: 27%
+source-wordcount: '2263'
+ht-degree: 26%
 
 ---
 
@@ -20,7 +20,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du deuxième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -132,7 +132,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
         <td><strong>Aperçu</strong></td>
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
-    <tr>
+   <tr>
         <td>
             Approvisionnement de <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundations activé pour prendre en charge les collaborateurs de l’IA </a><p></p>
             <p>Le 31 mars 2026, tous les clients Workfront ont été configurés pour GenStudio Foundation et les administrateurs système d’Admin Console auront reçu un e-mail les informant de cet ajout. Ce produit est configuré uniquement pour que les clients Workfront puissent donner aux marques l’accès aux clients Workfront selon les besoins pour la publication des collaborateurs de l’IA. Le produit lui-même n’est qu’un mécanisme d’accès pour les marques, et aucune fonctionnalité supplémentaire n’est disponible dans le produit GenStudio Foundation.</p><p>Les clients ne seront pas facturés pour ce nouveau produit.</p>
@@ -251,6 +251,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
         <td><strong>Tous les trimestres</strong></td>
         </tr>
     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Champ de version actuelle pour l’</a> Versions du document<p></p>
+            <p>Nous avons ajouté un champ booléen <code>currentVersion</code> à l’objet Version du document pour faciliter l’identification et la création de rapports sur la dernière version d’un document.</p>
+        </td>
+        <td><p>vendredi 2 avril 2026</p></td>
+        <td><p>jeudi 15 avril 2026</p></td>
+        <td><p>vendredi 16 avril 2026</p></td>
+    </tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">La Diffusion De Rapports Planifiée Prend Désormais En Charge Les E-Mails Basés Sur Des Liens</a><p></p>
             <p>Workfront comprend désormais un nouveau type de diffusion Lien pour les rapports planifiés. Au lieu de générer et de joindre un fichier, cette option envoie un e-mail contenant un lien direct vers le rapport dans Workfront, ce qui permet aux destinataires d’afficher les données les plus récentes dans l’application.</p>
@@ -482,7 +491,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
