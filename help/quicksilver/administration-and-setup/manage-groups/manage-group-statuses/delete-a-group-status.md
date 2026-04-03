@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6c7dd2504ce20274f8b80a306fc1075ec5761da6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 96%
+source-wordcount: '544'
+ht-degree: 91%
 
 ---
 
@@ -37,7 +37,7 @@ S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrat
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -63,9 +63,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Dans le panneau de gauche, cliquez sur **Groupes**.
 1. Cliquez sur le nom du groupe de niveau supérieur.
 1. Dans le panneau de gauche, cliquez sur **Statuts**.
-1. Dans la liste des statuts qui s’affiche, pointez sur le statit que vous souhaitez supprimer, puis cliquez sur **Supprimer** quand il apparaît à l’extrême droite.
+1. Dans la liste des statuts qui s’affiche, cochez la case correspondant au statut à supprimer, puis cliquez sur **Supprimer** dans la bannière située en bas de l’écran.
 
-   ![Supprimer](assets/hover-click-delete.jpg)
+   ![Supprimer](assets/delete-status.png)
 
 1. Dans la boîte qui s’affiche, sélectionnez un statut pour désigner un statut de remplacement pour les objets (projets, tâches, problèmes et processus d’approbation) qui utilisaient le statut que vous supprimez.
 
@@ -84,7 +84,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
         Pour plus d’informations sur les statuts Workfront par défaut, voir [Accéder à la liste des statuts des projets système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Accéder à la liste des statuts des tâches système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)et les informations sur les 4 statuts de problème requis dans [Accéder à la liste des statuts des problèmes système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
-1. Cliquez sur **Supprimer un statut**.
+1. Cliquez sur **Supprimer**.
 
    Si le statut supprimé était le statut par défaut de ce type dans le groupe, le statut de remplacement prend sa place.
 

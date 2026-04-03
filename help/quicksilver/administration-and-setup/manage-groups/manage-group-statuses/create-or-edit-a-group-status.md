@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 92%
+source-wordcount: '1327'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Le cas échéant, si le statut concerne un problème, assurez-vous que la **Liste principale** est sélectionnée.
 
-   ![Liste de Principal &#x200B;](assets/master-list.png)
+   ![Liste de Principal ](assets/master-list.png)
 
    Pour plus d’informations sur la personnalisation des autres types de problèmes (rapport de bugs, ordre de modification, problème, requête), voir [Personnaliser les types de problèmes par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -91,11 +91,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Ou
 
-   Pour modifier un statut existant, placez le pointeur de la souris sur le statut que vous souhaitez modifier, puis cliquez sur l’option **Modifier** qui s’affiche tout à fait à droite.
+   Si vous modifiez un statut existant, cochez la case correspondante, puis cliquez sur **Modifier** dans la bannière située en bas de l’écran.
 
-   ![Statuts des groupes](assets/group-statuses-edit.jpg)
+   ![Statuts des groupes](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
+   >
    >Vous ne pouvez modifier le statut de votre groupe que si :
    >      
    >* Vous gérez le groupe pour lequel le statut a été créé.
@@ -167,15 +168,16 @@ Si vous êtes administrateur ou administratrice de groupe (ou administrateur/adm
 
 1. Si vous êtes administrateur ou administratrice Workfront, créez un statut de déverrouillage à l’échelle du système, comme décrit dans la section [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 1. Dans la zone située dans le coin supérieur droit, supprimez **Statuts du système**, commencez à saisir le nom d’un groupe dans lequel vous souhaitez masquer le statut, puis cliquez sur le nom qui s’affiche.
-1. Placez la souris sur le statut que vous souhaitez masquer dans le groupe, puis cliquez sur **Modifier** lorsqu’il apparaît.
+1. Cochez la case correspondant au statut à modifier, puis cliquez sur **Modifier** dans la bannière située en bas de l’écran.
 
-   ![Modifier le statut &#x200B;](assets/hover-click-edit.jpg)
+
+   ![Modifier le statut ](assets/group-statuses-edit-new.png)
 
 1. Activez l’option **Masquer le statut** qui s’affiche.
 
    ![Masquer le statut](assets/hide-group-status.png)
 
-1. Cliquer sur **Enregistrer**.
+1. Cliquez sur **Mettre à jour**.
 
    Le statut est grisé et n’est plus visible pour tous les utilisateurs et utilisatrices de ce groupe.
 
