@@ -75,7 +75,7 @@ Pour attribuer un profil :
 1. Accédez au groupe d’utilisateurs nouvellement créé.
 1. Cliquez sur l’onglet **Profils de produit attribués**.
 1. Cliquez sur **Attribuer un profil**.
-1. Dans la fenêtre contextuelle, sélectionnez **** dans la liste de produits, puis cliquez sur **Appliquer**.
+1. Dans la fenêtre contextuelle, sélectionnez **&#x200B;**&#x200B;dans la liste de produits, puis cliquez sur **Appliquer**.
 1. Sélectionnez le profil **Adobe GenStudio system manager**.
 1. Cliquez sur **Appliquer**.
 1. Cliquez sur **Enregistrer**.
@@ -90,7 +90,7 @@ Pour attribuer aux utilisateurs des autorisations de création, de modification 
 
 Pour ajouter des utilisateurs :
 
-1. Accédez à **** > **Utilisateurs** > **Groupes d’utilisateurs**.
+1. Accédez à **&#x200B;**&#x200B;> **Utilisateurs** > **Groupes d’utilisateurs**.
 1. Sélectionnez votre groupe d’utilisateurs.
 1. Ajoutez des utilisateurs par nom d’utilisateur ou adresse électronique.
 1. Effectuez un choix parmi les correspondances suggérées pour les utilisateurs existants.
