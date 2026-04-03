@@ -276,7 +276,7 @@ Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail
 
    Pour plus d’informations sur les bonnes pratiques relatives à l’implémentation de Workfront, consultez les articles de la section [Bonnes pratiques de planification d’Adobe Workfront : index des articles](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) .
 
-   Pour plus d’informations sur la modification des espaces de travail, voir [ Modifier les espaces de travail ](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Pour plus d’informations sur la modification des espaces de travail, voir [&#x200B; Modifier les espaces de travail &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 </div>
 
