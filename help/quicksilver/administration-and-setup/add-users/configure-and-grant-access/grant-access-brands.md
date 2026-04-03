@@ -7,7 +7,8 @@ description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ebc342b65bee6a8c5ba0edbe2e990ec2775a9055
+exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
+source-git-commit: f74c567505dbdf6b2d1d8a85a62ba40d919be7b3
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 9%
@@ -75,8 +76,8 @@ Pour attribuer un profil :
 1. Accédez au groupe d’utilisateurs nouvellement créé.
 1. Cliquez sur l’onglet **Profils de produit attribués**.
 1. Cliquez sur **Attribuer un profil**.
-1. Dans la fenêtre contextuelle, sélectionnez **&#x200B;**&#x200B;dans la liste de produits, puis cliquez sur **Appliquer**.
-1. Sélectionnez le profil **Adobe GenStudio system manager**.
+1. Dans la fenêtre contextuelle, sélectionnez **** dans la liste de produits, puis cliquez sur **Appliquer**.
+1. Sélectionnez le profil **Éditeurs Adobe GenStudio Foundation**.
 1. Cliquez sur **Appliquer**.
 1. Cliquez sur **Enregistrer**.
 
@@ -90,7 +91,7 @@ Pour attribuer aux utilisateurs des autorisations de création, de modification 
 
 Pour ajouter des utilisateurs :
 
-1. Accédez à **&#x200B;**&#x200B;> **Utilisateurs** > **Groupes d’utilisateurs**.
+1. Accédez à **** > **Utilisateurs** > **Groupes d’utilisateurs**.
 1. Sélectionnez votre groupe d’utilisateurs.
 1. Ajoutez des utilisateurs par nom d’utilisateur ou adresse électronique.
 1. Effectuez un choix parmi les correspondances suggérées pour les utilisateurs existants.
