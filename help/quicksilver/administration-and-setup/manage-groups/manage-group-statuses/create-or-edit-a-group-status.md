@@ -83,7 +83,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Le cas échéant, si le statut concerne un problème, assurez-vous que la **Liste principale** est sélectionnée.
 
-   ![Liste de Principal ](assets/master-list.png)
+   ![Liste de Principal &#x200B;](assets/master-list.png)
 
    Pour plus d’informations sur la personnalisation des autres types de problèmes (rapport de bugs, ordre de modification, problème, requête), voir [Personnaliser les types de problèmes par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -171,7 +171,7 @@ Si vous êtes administrateur ou administratrice de groupe (ou administrateur/adm
 1. Cochez la case correspondant au statut à modifier, puis cliquez sur **Modifier** dans la bannière située en bas de l’écran.
 
 
-   ![Modifier le statut ](assets/group-statuses-edit-new.png)
+   ![Modifier le statut &#x200B;](assets/group-statuses-edit-new.png)
 
 1. Activez l’option **Masquer le statut** qui s’affiche.
 
