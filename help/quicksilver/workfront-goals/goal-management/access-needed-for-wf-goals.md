@@ -7,7 +7,9 @@ description: Votre administrateur Adobe Workfront doit s’assurer que certaines
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 66%
@@ -63,7 +65,8 @@ Les objectifs Workfront ne peuvent plus être achetés pour les packages plus r�
 
 Contactez votre représentant de compte pour en savoir plus sur les objectifs Workfront.
 
-<!--Old: >
+<!--
+Old: >
 Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
 * **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
@@ -72,7 +75,8 @@ Depending on which Workfront plan your company is currently on, the following sc
 
   After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
-For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Mettre à jour les types de licences et les paramètres de niveau d’accès  {#update-license-types-and-access-level-settings}
 
@@ -83,7 +87,8 @@ Si votre société a accès aux objectifs Workfront d’un achat précédent, vo
    * Contributeur ou supérieur
    * Requête ou supérieure
 
-<!--Old: 
+<!--
+Old: 
 * **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
   * Contributor

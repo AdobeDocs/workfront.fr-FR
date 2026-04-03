@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 95%
@@ -170,7 +172,7 @@ La reconfiguration de l’intégration [!DNL SharePoint] héritée permet à vos
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **[!UICONTROL Documents]** dans le volet de navigation de gauche, puis sélectionnez **[!UICONTROL Fournisseurs de services cloud]**.
-1. Assurez-vous que l’option **[!DNL SharePoint]** et l’option **[!UICONTROL [!DNL SharePoint] (API graphique)]** sont toutes les deux activées.
+1. Assurez-vous que l’option **[!DNL SharePoint]** et l’option **[!UICONTROL [!DNL SharePoint](API graphique)]** sont toutes les deux activées.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 1. Sélectionnez **[!UICONTROL Documents]** dans le volet de navigation de gauche, puis sélectionnez Intégration **[!UICONTROL [!DNL SharePoint]]**.
 1. Cochez la case à gauche de la liste pour toutes les intégrations existantes, puis sélectionnez **[!UICONTROL Désactiver]**.
@@ -185,11 +187,13 @@ Votre secret client [!DNL SharePoint] expire une fois par an. Pour garantir le m
 >
 > Parce que les secrets clients [!DNL SharePoint] sont gérés par [!DNL Microsoft], leurs fonctionnalités et procédures peuvent changer en fonction des mises à jour apportées à [!DNL SharePoint] par [!DNL Microsoft]. Consultez toujours la documentation [!DNL Microsoft] pour obtenir les informations les plus récentes sur les procédures et les fonctionnalités dans [!DNL SharePoint].
 
-<!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
+<!--
+1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
-1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+-->
 
-1. Générez un nouveau secret client, comme décrit dans la section [Remplacer un secret client arrivant à expiration dans un module complémentaire  [!DNL SharePoint] &#x200B;](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
+1. Générez un nouveau secret client, comme décrit dans la section [Remplacer un secret client arrivant à expiration dans un module complémentaire  [!DNL SharePoint] ](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Copiez ce secret client vers un emplacement sécurisé.
 1. Connectez-vous à [!DNL Workfront] en tant qu’administrateur ou administratrice.
 1. Dans Workfront, cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
@@ -483,7 +487,8 @@ Pour afficher une collection de sites dans [!DNL Workfront], les conditions suiv
 
   Pour vérifier cela dans [!DNL SharePoint], vérifiez les autorisations de la collection de sites dans SharePoint.
 
-<!--* The [!DNL SharePoint] Site App must have access to the site collection.
+<!--
+* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
 
@@ -511,4 +516,5 @@ Pour plus d’informations sur la liaison de dossiers provenant de fournisseurs 
 
 #### Solution:
 
-This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.
+-->

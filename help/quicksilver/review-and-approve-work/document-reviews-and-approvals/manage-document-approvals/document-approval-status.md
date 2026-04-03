@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Aperçu du statut de décision du document
+title: Vue d’ensemble du statut de décision des documents
 description: Les statuts de décision des documents sont répertoriés et expliqués.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 83%
+ht-degree: 88%
 
 ---
 
-# Aperçu du statut de décision du document
+# Vue d’ensemble du statut de décision des documents
 
 Vous pouvez afficher le statut du document directement dans la liste des documents :
 
@@ -107,9 +109,11 @@ Les statuts possibles sont les suivants :
                     </td>
                     <td>
                         <ul>
-                           <!--<li>
+                           <!--
+                           <li>
                                 <p>All approvals and reviews are complete</p>
-                            </li>-->
+                            </li>
+                            -->
                             <li>
                                 <p>Toutes les personnes approbatrices peuvent avoir pris des décisions « Approuvé ».
                             </li>

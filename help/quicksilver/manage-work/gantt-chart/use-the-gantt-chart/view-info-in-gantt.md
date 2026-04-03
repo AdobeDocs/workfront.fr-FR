@@ -5,7 +5,9 @@ description: Les tâches et projets Adobe Workfront [!UICONTROL graphiques Gantt
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 89%
@@ -50,7 +52,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -74,7 +77,8 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Localiser le [!UICONTROL graphique de Gantt]
 

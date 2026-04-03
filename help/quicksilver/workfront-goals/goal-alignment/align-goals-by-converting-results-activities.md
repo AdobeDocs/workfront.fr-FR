@@ -6,7 +6,9 @@ description: Vous pouvez aligner manuellement deux objectifs ou convertir les r�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 86%
@@ -66,7 +68,8 @@ Pour plus d’informations, voir [Conditions d’accès à la documentation de W
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -117,7 +120,8 @@ Pour plus d’informations, voir [Conditions d’accès à la documentation de W
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Conditions préalables
 
@@ -167,7 +171,7 @@ Tenez compte des éléments suivants lorsque vous convertissez des résultats et
 1. Sur la page de l’objectif, cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 1. Sélectionnez un résultat ou une activité dans la liste des indicateurs de progression, puis cliquez sur l’icône **Convertir en objectif** ![Convertir en objectif](assets/convert-to-goal-icon-unshimmed.png) en haut de la liste des indicateurs de progression. La boîte de dialogue Convertir en objectif s’affiche.
 
-   ![&#x200B; Convertir en zone d’objectif &#x200B;](assets/convert-to-goal-box-unshimmed.png)
+   ![ Convertir en zone d’objectif ](assets/convert-to-goal-box-unshimmed.png)
 1. Mettez à jour les informations suivantes :
    * **Nom de l’objectif** : par défaut, le nouvel objectif porte le même nom que le résultat ou l’activité d’origine.
    * **Période** : par défaut, la période du nouvel objectif est le trimestre en cours. Vous pouvez sélectionner le paramètre **Activer les dates personnalisées** pour définir une période personnalisée pour le nouvel objectif.

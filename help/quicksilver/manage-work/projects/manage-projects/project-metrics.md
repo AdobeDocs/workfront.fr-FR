@@ -8,10 +8,12 @@ description: Les mesures de projet vous permettent de visualiser le déroulement
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -51,7 +53,8 @@ Les mesures de projet vous offrent une vue d’ensemble, sous forme de graphique
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +78,8 @@ Les mesures de projet vous offrent une vue d’ensemble, sous forme de graphique
    <td> <p>View permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Conditions préalables
 
@@ -101,11 +105,13 @@ Vous pouvez également approfondir chaque graphique pour examiner de plus près 
 
 Pour en savoir plus sur l’examen de ces tâches ou problèmes, voir [Afficher les détails des mesures](#view-metrics-details).
 
-<!--this was deprecated: 
+<!--
+this was deprecated: 
 >[!TIP]
 >
 >To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
->To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
+-->
 
 ## KPI de projet
 
@@ -209,7 +215,7 @@ Vous pouvez interagir avec les graphes de la zone Mesures pour visualiser le con
 
       Sélectionnez un numéro de page spécifique pour afficher les tâches ou les problèmes sur la page correspondante.
 
-      ![&#x200B; Pagination &#x200B;](assets/pagination-300x152.png)
+      ![ Pagination ](assets/pagination-300x152.png)
 
    1. Sélectionnez une tâche ou un problème pour afficher plus de détails.
 

@@ -1,19 +1,21 @@
 ---
 product-area: home
 navigation-topic: new-home
-title: Présentation des filtres du widget d’accueil
+title: Vue d’ensemble des filtres du widget Page d’accueil
 description: Vous pouvez choisir parmi plusieurs widgets pour personnaliser le contenu qui s’affiche sur votre page d’accueil. Ces widgets peuvent être redimensionnés et organisés sur votre page d’accueil.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
-# Présentation des filtres du widget d’accueil
+# Vue d’ensemble des filtres du widget Page d’accueil
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -106,10 +108,12 @@ Vous pouvez utiliser les filtres suivants dans le widget Mes tâches :
 </ul>
 </td>
   </tr>
-   <!-- <tr>
+   <!--
+    <tr>
     <td>All Unassigned Tasks</td>
     <td></td>
-  </tr> -->
+  </tr>
+  -->
   <tr>
     <td>Tâches d'approbation</td>
     <td>Affiche les tâches au statut En attente d'approbation</td>

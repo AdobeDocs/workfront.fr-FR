@@ -6,7 +6,9 @@ description: Vous pouvez rechercher, filtrer et trier les commentaires sur les �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 96%
@@ -26,7 +28,7 @@ Vous pouvez rechercher, filtrer et trier les commentaires sur les épreuves afin
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -89,9 +91,11 @@ Vous pouvez filtrer les commentaires qui s’affichent en définissant des param
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Actions</strong> </td> 
-      <td>Affiche uniquement les commentaires qui correspondent à l’action sélectionnée. Les actions doivent être activées dans votre système. Pour plus d’informations, voir :<!--
+      <td>Affiche uniquement les commentaires qui correspondent à l’action sélectionnée. Les actions doivent être activées dans votre système. Pour plus d’informations, voir .
+      <!--
         &nbsp;
-       --></td> 
+       -->
+       </td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Options générales de filtrage</strong> </td> 

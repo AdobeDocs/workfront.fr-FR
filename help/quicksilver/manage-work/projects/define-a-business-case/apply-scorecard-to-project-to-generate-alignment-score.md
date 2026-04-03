@@ -5,10 +5,12 @@ description: Tirez parti des cartes de performance pour mesurer l’alignement d
 author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -29,7 +31,7 @@ Pour plus d’informations sur les cartes de performance et sur leur mode de cr�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>
    <p>Prime ou version ultérieure</p>
   </tr> 
@@ -100,7 +102,8 @@ Pour appliquer une carte de performance à un projet, procédez comme suit :
 
    La carte de performance est maintenant associée au projet et le projet est noté.
 
-<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
+<!--
+This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
 1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
 
@@ -177,7 +180,7 @@ Pour plus d’informations sur les informations affichées dans l’optimisateur
 {{step1-to-portfolios}}
 
 1. Cliquez sur le nom d’un portfolio.
-1. Cliquez sur **Optimisation de Portfolio** dans le panneau de gauche. L’optimisateur de portfolio s’affiche.
+1. Cliquez sur **Optimisation de** dans le panneau de gauche. L’optimisateur de portfolio s’affiche.
 
    Le score d’alignement d’un projet s’affiche en pourcentage dans la colonne **Alignement** de l’optimisateur de portfolio.
 

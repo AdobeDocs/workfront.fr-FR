@@ -6,10 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -71,7 +73,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -108,7 +111,8 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Créer un type d’enregistrement en ajoutant un type existant à partir d’un autre espace de travail
 
@@ -141,7 +145,7 @@ And
       * Toutes les connexions aux enregistrements
    * Vous ne pouvez pas afficher les enregistrements ajoutés depuis l’espace de travail d’origine du type d’enregistrement depuis l’espace de travail secondaire.
    * Vous pouvez afficher les enregistrements ajoutés depuis l’espace de travail d’origine du type d’enregistrement dans cet espace de travail, uniquement dans l’espace de travail d’origine, si vous disposez au moins des autorisations d’affichage dans cet espace de travail.
-   * Le champ en lecture seule **Workspace** est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
+   * Le champ en lecture seule **** est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
 
      >[!NOTE]
      >
@@ -159,7 +163,8 @@ And
 
    Pour plus d’informations, consultez la section « Supprimer des types d’enregistrements globaux » de l’article [Supprimer des types d’enregistrements](/help/quicksilver/planning/architecture/delete-record-types.md).
 
-<!--This will be released later with another epic: 
+<!--
+This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.
 -->

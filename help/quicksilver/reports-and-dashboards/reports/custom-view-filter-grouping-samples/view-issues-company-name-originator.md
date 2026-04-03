@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Afficher : problèmes liés au nom de l’entreprise de l’expéditeur'
+title: 'Afficher : Problèmes liés au nom de la société de l''expéditeur'
 description: Cette vue affiche le nom de l’entreprise associée à l’utilisateur ou à l’utilisatrice qui a envoyé le problème.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 60%
@@ -60,9 +62,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Accédez à une liste des problèmes.
 1. Dans le menu déroulant **Affichage**, sélectionnez **Nouvel affichage**.
-1. Dans la zone **Aperçu de colonne**, éliminez toutes les colonnes, à l&#39;exception d&#39;une seule.
-1. Cliquez sur l&#39;en-tête de la colonne restante, cliquez sur **Passer en mode Texte**, puis cliquez sur **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Mode Modifier le texte** et remplacez-le par le code suivant :
+1. Dans la zone **Aperçu des colonnes**, éliminez toutes les colonnes à l’exception d’une seule.
+1. Cliquez sur l’en-tête de la colonne restante, puis sur **Basculer en mode Texte** et sur **Modifier le mode Texte**.
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
 
    ```

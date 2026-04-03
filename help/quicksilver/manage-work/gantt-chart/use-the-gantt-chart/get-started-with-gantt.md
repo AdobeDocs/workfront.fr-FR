@@ -6,7 +6,9 @@ description: Les graphiques de Gantt dans Adobe Workfront fournissent une repr�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 95%
@@ -49,7 +51,8 @@ Vous pouvez afficher le [!UICONTROL graphique de Gantt] de la liste des projets 
 
 ### [!UICONTROL Graphique de Gantt] de la liste des tâches {#task-list-gantt-chart}
 
-<!--The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--
+The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 * In a Project
 
@@ -58,7 +61,8 @@ Vous pouvez afficher le [!UICONTROL graphique de Gantt] de la liste des projets 
 
 * In a [!UICONTROL Template]
 
-* In a [!UICONTROL Task] report-->
+* In a [!UICONTROL Task] report
+-->
 
 Pour accéder au [!UICONTROL graphique de Gantt] de la liste des tâches d’un projet ou d’un modèle, procédez comme suit :
 
@@ -96,12 +100,14 @@ Pour accéder au [!UICONTROL graphique de Gantt] de la liste des tâches d’un 
 
 ### [!UICONTROL Graphique de Gantt] de la liste des projets {#project-list-gantt-chart}
 
-<!--The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--
+The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 * In the [!UICONTROL Projects] area
 * In the [!UICONTROL Projects] section of a [!UICONTROL Portfolio]
 * In the [!UICONTROL Projects] section of a [!UICONTROL Program]
-* In a [!UICONTROL Project] report-->
+* In a [!UICONTROL Project] report
+-->
 
 Pour accéder au [!UICONTROL Graphique de Gantt] de la liste des projets, procédez comme suit :
 

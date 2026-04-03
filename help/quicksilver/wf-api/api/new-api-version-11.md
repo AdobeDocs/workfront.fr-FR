@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3573'
 ht-degree: 100%
@@ -40,9 +42,11 @@ ht-degree: 100%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule">LoginAsAccessRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -81,9 +85,11 @@ ht-degree: 100%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule">LoginAsAdditionalRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -120,9 +126,11 @@ ht-degree: 100%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings">LoginAsSettings</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -253,7 +261,7 @@ Aucune ressource n’a été supprimée pour l’API v11.
      <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
      <li><a href="#document" class="MCXref xref">Document</a> </li> 
      <li><a href="#iteration" class="MCXref xref">Iteration</a> </li> 
-     <li><a href="#layout-template" class="MCXref xref">Modèle de disposition</a> </li> 
+     <li><a href="#layout-template" class="MCXref xref">Modèle de mise en page</a> </li> 
      <li><a href="#milestonepath" class="MCXref xref">MilestonePath</a> </li> 
      <li><a href="#note" class="MCXref xref">Note</a> </li> 
      <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
@@ -277,7 +285,8 @@ Aucune ressource n’a été supprimée pour l’API v11.
      <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Feuille de temps</a> </li> 
-     <li><a href="#update" class="MCXref xref">Mise à jour</a> </li> <!--
+     <li><a href="#update" class="MCXref xref">Mise à jour</a> </li>
+     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
@@ -580,7 +589,8 @@ Un objet Customer représente une organisation qui utilise une instance de Workf
        <li style="font-weight: normal;">CONDITION_OPTASK (statuts de problème)</li> 
       </ul> </li> 
     </ul> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Reference Fields</td> 
     <td> 
@@ -604,9 +614,11 @@ Un objet Customer représente une organisation qui utilise une instance de Workf
 
 Un objet CustomerPreferences représente l’ensemble des préférences définies par un client ou une cliente pour son instance de Workfront.
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -691,7 +703,7 @@ Un objet Iteration représente une seule itération Agile. Les itérations sont 
 
 ### Modèle de mise en page {#layout-template}
 
-Un objet Modèle de disposition représente une organisation particulière des éléments de disposition, tels que le menu principal, le panneau de navigation ou la zone d’accueil. Les modèles de disposition peuvent être attribués à des utilisateurs et utilisatrices, des équipes, des groupes ou des fonctions.
+Un objet Modèle de mise en page représente une organisation particulière des éléments de mise en page, tels que le menu principal, le panneau de navigation ou la zone d’accueil. Les modèles de mise en page peuvent être attribués à des utilisateurs et utilisatrices, des équipes, des groupes ou des fonctions.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -701,7 +713,7 @@ Un objet Modèle de disposition représente une organisation particulière des �
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>showHomeTimestamps </p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est « true » si un modèle de disposition est défini pour afficher les horodatages des dates d’échéance dans la liste de travail et le calendrier, et « false » s’il est défini pour masquer les horodatages.  </p> </li> 
+     <li style="font-weight: bold;"> <p>showHomeTimestamps </p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est « true » si un modèle de mise en page est défini pour afficher les horodatages des dates d’échéance dans la liste de travail et le calendrier, et « false » s’il est défini pour masquer les horodatages.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1275,9 +1287,11 @@ Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A User object represents a person with an account in Workfront that can log in and interact with the system.</p>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 

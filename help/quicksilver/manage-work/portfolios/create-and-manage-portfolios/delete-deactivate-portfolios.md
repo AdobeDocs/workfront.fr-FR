@@ -6,7 +6,9 @@ description: Les portfolios sont des collections de projets ou de programmes dan
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 66%
@@ -53,7 +55,8 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 

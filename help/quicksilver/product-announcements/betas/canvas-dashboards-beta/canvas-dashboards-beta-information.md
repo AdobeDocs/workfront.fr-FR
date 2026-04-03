@@ -7,7 +7,9 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 27%
@@ -18,17 +20,17 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement uniquement disponible pour les utilisateurs participant à la phase Beta. Certaines parties de la fonction peuvent ne pas être complètes ou ne pas fonctionner comme prévu pendant cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](#provide-feedback) ci-dessous.<br>
->Si vous avez des commentaires concernant un problème technique ou un bug possible, veuillez envoyer un ticket au support Workfront. Pour plus d&#39;informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Veuillez noter que cette version Beta n’est pas disponible sur les fournisseurs de cloud suivants :
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](#provide-feedback) ci-dessous.<br>
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
->* Ajouter votre propre clé pour Amazon Web Services
+>* Apporter votre propre clé pour Amazon Web Services
 >* Azure
 >* Google Cloud Platform
 
-Canvas Dashboards is a feature currently in development that allows you to easily visualize your Adobe Workfront data by adding various report types onto a canvas that offers many flexible layout options, including resizing, dragging and dropping, and more.
+Les tableaux de bord de la zone de travail sont une fonctionnalité en cours de développement. Ils vous permettent de visualiser facilement vos données Adobe Workfront en ajoutant divers types de rapports à une zone de travail. Cette dernière offre de nombreuses options de disposition flexibles, notamment le redimensionnement, le glisser-déposer, etc.
 
-For more information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Pour plus d’informations, voir [ Présentation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Conditions d’accès
 
@@ -56,7 +58,7 @@ For more information, see [Canvas Dashboards overview](/help/quicksilver/reports
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurations des niveaux d’accès</p></td> 
-   <td><p>System Administrator access to enable Canvas Dashboards</p>
+   <td><p>Accès de l’administrateur système pour activer les tableaux de bord de la zone de travail</p>
   </td> 
   </tr>  
 </tbody> 
@@ -66,7 +68,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 +++
 
 
-## Enroll in the beta
+## S’inscrire à la version bêta
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
 
@@ -76,12 +78,12 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    > Le bouton **Joindre la version Beta des tableaux de bord de la zone de travail** n’est accessible que par les administrateurs système. Tous les autres utilisateurs verront ce bouton dans un état désactivé.
 
-1. Review the terms in the **Beta agreement** box, then click **Agree**. You are now enrolled in the beta. Please note that it may take a few minutes for your Workfront data to become fully accessible in Canvas Dashboards.
+1. Vérifiez les conditions du contrat **** puis cliquez sur **Accepter**. Vous êtes maintenant inscrit à la version bêta. Notez que l’accessibilité complète de vos données Workfront dans les tableaux de bord de la zone de travail peut prendre quelques minutes.
 
    >[!NOTE]
    >
-   >Once the beta terms are accepted, the Canvas Dashboard capabilities are enabled for all users in the Workfront environment. Any user with View and Manage access to dashboards will be able to view and edit Canvas Dashboards per their access level.<br>
-   >Please note that visibility of the Canvas Dashboards landing page is controlled through the user&#39;s assigned Layout Template. For more, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+   >Une fois les conditions Beta acceptées, les fonctionnalités du tableau de bord de la zone de travail sont activées pour tous les utilisateurs dans l’environnement Workfront. Tout utilisateur disposant d’un accès d’affichage et de gestion aux tableaux de bord peut afficher et modifier les tableaux de bord de la zone de travail en fonction de son niveau d’accès.<br>
+   >Notez que la visibilité de la page de destination Tableaux de bord de la zone de travail est contrôlée par le modèle de mise en page affecté à l’utilisateur. Pour plus d&#39;informations, voir [Créer et gérer des modèles de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 
 ## Fournir des commentaires
@@ -94,18 +96,18 @@ Vos commentaires sont appréciés et nous permettent d’apporter des améliorat
 
 1. Cliquez sur le bouton **Laisser un commentaire** dans l’en-tête de la page.
 
-1. On the **Canvas Dashboards Beta Feedback** page enter a **Feedback subject** and **Feedback description**.
+1. Sur la page **Commentaires Beta des tableaux de bord de la zone de travail** saisissez un **objet du commentaire** et une **description du commentaire**.
 
-1. (Optional) In the **Other details** section, select the type of activity that&#39;s related to your feedback in the **Reporting activity**  drop-down.
+1. (Facultatif) Dans la section **Autres détails**, sélectionnez le type d’activité associé à vos commentaires dans le menu déroulant **Activité de rapport**.
 
-1. (Optional) Select the object type you&#39;re leaving feedback for in the **Report object type** drop-down.
+1. (Facultatif) Sélectionnez le type d’objet pour lequel vous laissez des commentaires dans le menu déroulant **Type d’objet du rapport**.
 
-1. (Optional) If there is any missing data, select the **Missing expected data** checkbox, then describe what data is missing in the textbox that appears.
+1. (Facultatif) Si des données sont manquantes, cochez la case **Données attendues manquantes**, puis décrivez les données manquantes dans la zone de texte qui s’affiche.
 
-1. (Optional) If your feedback is related to a documentation request, select the **Documentation request** checkbox.
+1. (Facultatif) Si vos commentaires sont liés à une demande de documentation, cochez la case **Demande de documentation**.
 
-1. (Optional) In the **About you** section, specify information for the following fields:
-   * **Customer name**
+1. (Facultatif) Dans la section **À propos de vous**, renseignez les champs suivants :
+   * **Nom du client**
    * **Votre nom**
    * **Rôle de reporting**
 

@@ -7,26 +7,30 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: e186b4aa0b5c229015cf8f3dcd8993f8f0443c44
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2958'
 ht-degree: 68%
 
 ---
 
-# Modifier les tâches de modèles
+# Modifier des tâches de modèles
 
 <!--Audited: 11/2025-->
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 Après avoir créé un modèle, vous pouvez modifier les informations des tâches de modèle. Les informations que vous mettez à jour sur une tâche de modèle sont associées à des tâches de projet une fois que vous avez utilisé le modèle pour créer un projet ou que vous avez joint le modèle à un projet.
 
@@ -70,7 +74,8 @@ Pour plus d’informations, consultez la section [Conditions d’accès dans la 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,7 +99,8 @@ Pour plus d’informations, consultez la section [Conditions d’accès dans la 
    <td> <p>Manage permissions for a template. </p> <p>You cannot share a template task. </p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Conditions préalables
 
@@ -104,7 +110,7 @@ Avant de commencer, vous devez
 
   Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle de projet](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
-## Modifier les tâches de modèles
+## Modifier des tâches de modèles
 
 Vous pouvez modifier une tâche de modèle à l&#39;aide des zones Modifier la tâche de modèle ou Détails de la tâche de modèle.
 
@@ -568,7 +574,8 @@ Les formulaires sont automatiquement ajoutés aux tâches créées à partir du 
    Lorsque vous ou une autre personne créez un projet à partir de ce modèle, tous les paramètres que vous avez appliqués aux tâches de modèle deviennent les paramètres des tâches du projet.
 
 
-<!--Temporary content for Assignments redesign:
+<!--
+Temporary content for Assignments redesign:
 
 Editing template tasks differs depending on which environment you choose to edit the tasks. 
 
@@ -826,7 +833,8 @@ You can edit a template task using the Edit Template Task or Template Task Detai
        <ul> 
        <li>Only active approval processes display in the list. </li> 
        <li> <p>System-wide and group-specific approval processes display in the list. Approval processes associated with a group other than that of the template do not display in the list.</p> <p>Important: If the group associated with the template changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-       <li> <p>If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. For information, see <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>. </p> <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>************************* </li> 
+       <li> <p>If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. For information, see <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>. </p> <!--
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>************************* </li> 
        <li> <p>When bulk-editing template tasks, the following scenarios exist:</p> 
        <ul> 
        <li> <p>When you select template tasks from the same template group, both system-level and group-level approval processes display in this field.</p> </li> 
@@ -1246,4 +1254,5 @@ You can also add custom forms to the future tasks of a project when the project 
 
 <div class="preview">
 
-### Edit template tasks in the Preview environment-->
+### Edit template tasks in the Preview environment
+-->

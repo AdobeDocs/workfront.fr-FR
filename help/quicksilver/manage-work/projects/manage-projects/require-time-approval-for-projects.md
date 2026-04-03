@@ -6,7 +6,9 @@ description: Vous pouvez configurer le projet pour que les heures consignées pa
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 79%
@@ -77,7 +79,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,7 +125,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Demander du temps pour l’approbation d’un projet
 

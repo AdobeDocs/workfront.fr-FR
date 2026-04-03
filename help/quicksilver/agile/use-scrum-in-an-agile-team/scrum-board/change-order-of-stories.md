@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Modification de l’ordre des histoires sur le tableau de mêlée
+title: Modifier l’ordre des histoires sur le scrum board
 description: L’ordre dans lequel les histoires apparaissent sur le storyboard n’est pas lié à leur priorité. Cependant, cela peut affecter la priorité perçue en rendant les histoires plus visibles. Par défaut, les histoires s’affichent par ordre alphabétique dans chaque colonne [!UICONTROL Statut] sur le storyboard.
 author: Courtney
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 73%
@@ -15,9 +17,9 @@ ht-degree: 73%
 
 # Modifier l’ordre des histoires sur le panorama [!UICONTROL Scrum]
 
-L’ordre dans lequel les histoires apparaissent sur le storyboard n’est pas lié à leur priorité. Cependant, cela peut affecter la priorité perçue en rendant les histoires plus visibles. La priorité est définie dans l&#39;arriéré, et lorsque des articles sont présentés sur le scénarimage, ils n&#39;ont pas de priorité définie parce qu&#39;ils seront traités pendant la période d&#39;itération. Si des articles sont renvoyés dans l’arriéré, vous pouvez les réorganiser pour qu’ils affichent la priorité.
+L’ordre dans lequel les histoires apparaissent sur le storyboard n’est pas lié à leur priorité. Cependant, cela peut affecter la priorité perçue en rendant les histoires plus visibles. La priorité est définie dans la liste d’attente et lorsque des histoires sont ajoutées au storyboard, leur priorité n’est pas définie car elles seront traitées pendant la période d’itération. Si des histoires sont renvoyées dans la liste d’attente, vous pouvez les y réorganiser pour y afficher la priorité.
 
-Par défaut, les histoires s’affichent par ordre alphabétique dans chaque colonne Statut du storyboard. Les histoires avec couloirs de baignade sont affichées en haut du scénarimage, et les histoires sans couloirs de baignade sont affichées séparément sous les couloirs de baignade.
+Par défaut, les histoires s’affichent par ordre alphabétique dans chaque colonne Statut du storyboard. Les histoires avec couloirs sont affichées en haut du storyboard, et les histoires sans couloirs sont affichées séparément sous les couloirs.
 
 Lorsque vous réorganisez des colonnes sur le storyboard, toutes les modifications que vous apportez sont enregistrées dans l’itération ou le projet. Les modifications sont donc conservées lors de la prochaine consultation par vous ou une autre personne. (Les modifications que vous effectuez ne sont pas annulées lors de l’effacement du cache du navigateur.)
 
@@ -57,6 +59,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Modifier l’ordre des histoires dans un projet
 
-Contrairement aux itérations Agile, vous ne pouvez pas modifier l’ordre des articles lorsque vous visualisez un projet dans une vue Agile. Pour modifier l’ordre des histoires d’un projet, vous devez afficher le projet dans une vue standard.
+Contrairement aux itérations Agile, vous ne pouvez pas modifier l’ordre des histoires lors de l’affichage d’un projet dans une vue Agile. Pour modifier l’ordre des histoires d’un projet, vous devez afficher le projet dans une vue standard.
 
-Pour savoir comment modifier l’affichage du projet, voir [[!UICONTROL Gérer un projet] en [!UICONTROL vue &#x200B;]Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Au lieu de sélectionner une vue agile, sélectionnez une vue standard.
+Pour savoir comment modifier l’affichage du projet, voir [[!UICONTROL Gérer un projet] en [!UICONTROL vue ]Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Au lieu de sélectionner une vue Agile, sélectionnez une vue standard.

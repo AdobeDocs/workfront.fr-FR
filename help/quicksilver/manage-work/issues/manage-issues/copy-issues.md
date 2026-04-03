@@ -6,10 +6,12 @@ description: Vous pouvez copier un problème ou une demande et les enregistrer d
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -39,13 +41,13 @@ Vous pouvez copier des problèmes à partir des objets suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <ul><li><p>Contributeur ou version ultérieure</p> </li>
+   <ul><li><p>Contributeur ou supérieur</p> </li>
    <li><p>Licence légère ou supérieure pour copier un événement dans la section Événements d'un projet</p></li></ul>
    Ou
    <ul><li><p>Demandeur ou supérieur</p> </li>
@@ -66,7 +68,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +92,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying the issue to with the ability to Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considérations relatives à la copie de problèmes
 

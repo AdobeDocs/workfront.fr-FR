@@ -7,7 +7,9 @@ description: La page Détails du document vous permet d’afficher, de communiqu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 29%
@@ -55,7 +57,7 @@ Si vous vous trouvez sur le workflow du BAT, vous pouvez effectuer les actions s
 
   Les champs personnalisés de relecture doivent être configurés dans Workfront Proof. Pour plus d’informations, voir [Créer et gérer des champs personnalisés dans Workfront Proof](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
 
-![&#x200B; Détails du document &#x200B;](assets/doc-details-full-legacy.png)
+![ Détails du document ](assets/doc-details-full-legacy.png)
 
 ### Ouvrez la page Détails du document dans la zone des documents hérités
 
@@ -63,12 +65,12 @@ Si vous vous trouvez sur le workflow du BAT, vous pouvez effectuer les actions s
 
 1. Pointez sur le document, puis cliquez sur **Détails du document**.
 
-   ![&#x200B; Détails du document &#x200B;](assets/doc-details-legacy.png)
+   ![ Détails du document ](assets/doc-details-legacy.png)
 
 
 ## Zone du nouveau document
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Vous pouvez effectuer les actions suivantes pour les documents à partir de la page Détails du document :
 
@@ -99,4 +101,4 @@ Vous pouvez effectuer les actions suivantes pour les documents à partir de la p
 1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
 1. Sélectionnez le document, puis cliquez sur **Afficher les détails**.
 
-   ![&#x200B; Détails du document &#x200B;](assets/doc-details.png)
+   ![ Détails du document ](assets/doc-details.png)

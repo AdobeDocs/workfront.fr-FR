@@ -6,7 +6,9 @@ description: Vous pouvez installer  [!DNL Adobe Workfront for design and video] 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 281733f00654911e2c1114485fca018b6a0feec1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 76%
@@ -47,7 +49,8 @@ Vous pouvez installer [!DNL Adobe Workfront for design and video] à partir d’
  <col> 
  </col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package/td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -56,7 +59,8 @@ Vous pouvez installer [!DNL Adobe Workfront for design and video] à partir d’
    <td>
    <p>Standard</p>
     <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Produits supplémentaires</td> 
    <td><p>Vous devez disposer d’une licence [!DNL Adobe Creative Cloud] en plus d’une licence [!DNL Workfront].</p></td> 
@@ -104,7 +108,7 @@ Vous pouvez installer [!DNL Adobe Workfront for design and video] pour vous-mêm
    >
    >Si vous utilisez Premiere Pro, un projet doit être ouvert pour accéder à ce menu.
 
-   ![Menu Workfront](assets/adobe-workfront-menu.png)
+   ![Menu ](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]

@@ -6,10 +6,12 @@ description: Naviguer dans un portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -23,7 +25,7 @@ ht-degree: 73%
 
 Dans [!DNL Adobe Workfront], un portfolio est un ensemble de projets qui se partagent les mêmes ressources, le même budget, le même planning et la même priorité. Le principal objectif de ce portfolio est d’aider les cadres et les responsables de projet à choisir de travailler sur des projets qui offrent le plus d’avantages à une organisation.
 
-Pour plus d’informations sur les portefeuilles, voir [Comprendre la méthodologie du portefeuille](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Pour plus d’informations sur les portfolios, voir [Compréhension de la méthodologie des portfolios](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Conditions d’accès
 
@@ -58,7 +60,8 @@ Pour plus d’informations sur les portefeuilles, voir [Comprendre la méthodolo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ Pour plus d’informations sur les portefeuilles, voir [Comprendre la méthodolo
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Naviguer dans un portfolio
 

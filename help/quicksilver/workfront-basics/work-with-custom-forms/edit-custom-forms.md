@@ -7,7 +7,9 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 55%
@@ -34,7 +36,7 @@ Vous pouvez modifier les informations d’un formulaire personnalisé après l�
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Licence Adobe Workfront</p> </td> 
-   <td> <p>Contributeur ou version ultérieure</p> 
+   <td> <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -57,7 +59,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,7 +87,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Conditions préalables
 

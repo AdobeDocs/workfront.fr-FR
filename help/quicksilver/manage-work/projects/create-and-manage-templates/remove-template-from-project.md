@@ -6,7 +6,9 @@ description: Vous ne pouvez pas supprimer un modèle d’un projet. Vous ne pouv
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 93%
@@ -49,7 +51,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +76,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    <td> <p>Manage access to tasks </p> <p>Contribute or higher access to the project </p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Options pour supprimer les informations sur les modèles d’un projet
 
@@ -112,4 +116,4 @@ Pour supprimer les informations sur les modèles qui ont été ajoutées au proj
 
      Pour plus d’informations sur la création d’une vue, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Sélectionnez toutes les tâches identifiées à l’étape 2 comme étant créées à partir d’un modèle, puis cliquez sur **l’icône Supprimer**&#x200B;**> Oui, supprimer**. Pour plus d’informations, voir [Supprimer des tâches](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Sélectionnez toutes les tâches identifiées à l’étape 2 comme étant créées à partir d’un modèle, puis cliquez sur **l’icône Supprimer****> Oui, supprimer**. Pour plus d’informations, voir [Supprimer des tâches](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

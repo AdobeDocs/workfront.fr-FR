@@ -6,7 +6,9 @@ description: Vous pouvez afficher les problèmes associés à un projet, une tâ
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 94%
@@ -28,13 +30,13 @@ Vous pouvez afficher les problèmes associés à un projet, une tâche ou une it
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <ul><li><p>Contributeur ou version ultérieure</p></li> <li><p>Licence légère ou supérieure pour afficher les événements dans la section Événements d'un projet.</p></li>
+   <ul><li><p>Contributeur ou supérieur</p></li> <li><p>Licence légère ou supérieure pour afficher les événements dans la section Événements d'un projet.</p></li>
 
 Ou
 
@@ -55,7 +57,8 @@ Ou
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 

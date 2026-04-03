@@ -8,7 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 80%
@@ -52,7 +54,8 @@ Vous pouvez configurer des préférences permettant aux utilisateurs et aux util
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -73,7 +76,8 @@ Vous pouvez configurer des préférences permettant aux utilisateurs et aux util
    <td><p>To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.</p><p>To perform them for a group, you must be a manager of that group.</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Autoriser les utilisateurs et les utilisatrices à ajouter des images dans les mises à jour
 

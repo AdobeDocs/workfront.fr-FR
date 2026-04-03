@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Voir : Détails du problème d''origine pour les tâches et les projets'
+title: 'Afficher : Détails de l''événement d''origine pour les tâches et les projets'
 description: Lorsqu’un problème est converti en tâche ou en projet, une relation d’objet résolvant est établie entre la tâche ou le projet et le problème. Cette vue affiche les champs du problème qui se termine automatiquement lorsque la tâche ou le projet se termine.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 67%
@@ -18,7 +20,7 @@ ht-degree: 67%
 
 <!--Audited: 11/2024-->
 
-Lorsqu’un problème est converti en tâche ou en projet, une relation d’objet résolvant est établie entre la tâche ou le projet et le problème. Cet affichage affiche les champs suivants du problème qui se termine automatiquement lorsque la tâche ou le projet se termine :
+Lorsqu’un problème est converti en tâche ou en projet, une relation d’objet résolvant est établie entre la tâche ou le projet et le problème. Cette vue affiche les champs suivants de l’événement qui se termine automatiquement à la fin de la tâche ou du projet :
 
 * Nom
 * Date d’entrée
@@ -30,7 +32,7 @@ Lorsqu’un problème est converti en tâche ou en projet, une relation d’obje
 
 ![task_with_resolving_issue_fields.png](assets/task-with-resolving-issue-fields-350x38.png)
 
-Pour plus d&#39;informations, consultez également [Afficher : afficher les informations de problème d&#39;origine sur les listes de tâches ou de projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Pour plus d&#39;informations, voir également [Afficher : afficher les informations sur l&#39;événement d&#39;origine dans les listes de tâches ou de projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Conditions d’accès
 
@@ -71,8 +73,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Accédez à une liste de tâches ou de projets.
 1. Dans le menu déroulant **Vue**, sélectionnez **Nouvelle vue**.
 1. Dans la zone **Prévisualisation de la colonne**, éliminez toutes les colonnes sauf une.
-1. Cliquez sur l&#39;en-tête de la colonne restante et cliquez sur **Passer en mode Texte**, puis sur **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Mode Modifier le texte** et remplacez-le par le code suivant :
+1. Cliquez sur l’en-tête de la colonne restante et cliquez sur **Basculer en mode texte**, puis sur **Modifier le mode texte**.
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
    ```
    column.0.textmode=false

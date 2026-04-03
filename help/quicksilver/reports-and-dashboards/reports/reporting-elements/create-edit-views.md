@@ -6,7 +6,9 @@ description: Vous pouvez personnaliser le type d’informations affichées à l�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 61%
@@ -19,7 +21,7 @@ ht-degree: 61%
 
 Vous pouvez personnaliser le type d’informations affichées à l’écran à l’aide des vues. Vous pouvez utiliser plusieurs types de vues dans Adobe Workfront.
 
-Cet article explique comment créer et modifier des vues standard pour des listes et des rapports.
+Cet article décrit comment créer et modifier des vues standard pour les listes et les rapports.
 
 Pour plus d’informations, consultez l’article [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
@@ -60,7 +62,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 ## Créer ou personnaliser une vue
 
-Le processus de création ou de personnalisation d’une vue diffère selon que vous créez ou personnalisez une vue standard ou une vue de tableau.
+Le processus de création ou de personnalisation d’une vue diffère selon que vous créez ou personnalisez une vue standard ou une vue de panorama.
 
 ### Créer ou personnaliser une vue standard {#create-or-customize-a-standard-view}
 
@@ -68,9 +70,9 @@ Vous pouvez créer une nouvelle vue standard ou personnaliser une vue standard e
 
 1. Cliquez sur le menu déroulant **Vue** dans toute liste où vous souhaitez créer ou personnaliser une vue.
 
-1. Cliquez sur le bouton **+ Nouvelle vue** pour créer une nouvelle vue.
+1. Cliquez sur le bouton **+ Nouvel affichage** pour créer un affichage.
 Ou
-Cliquez sur l&#39;icône **Modifier** ![Modifier](assets/edit-icon.png) qui apparaît au passage de la souris à droite d&#39;une vue existante que vous souhaitez modifier.
+Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) qui s’affiche lorsque vous pointez à droite d’une vue existante à modifier.
 La boîte de dialogue **Personnaliser la vue** s’affiche.
 
 1. Dans la section **Aperçu de la colonne**, effectuez l’une des opérations suivantes :
@@ -79,7 +81,7 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
    * Ajoutez une colonne en cliquant sur **Ajouter une colonne**, commencez à saisir le nom de la colonne que vous souhaitez ajouter, puis cliquez dessus lorsqu’elle apparaît dans la liste déroulante.
    * Ajustez l’ordre d’apparition des colonnes en faisant glisser le titre de la colonne vers un nouvel emplacement.
 
-   * Dans la zone **Paramètres de colonne**, cliquez sur **Résumer cette colonne par** et choisissez l&#39;affichage des données dans la colonne. Cette option est disponible pour les types de colonnes suivants :
+   * Dans la zone **Paramètres de colonne**, cliquez sur **Résumer cette colonne par** et choisissez comment vous souhaitez que les données s’affichent dans la colonne. Cette option est disponible pour les types de colonnes suivants :
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -104,17 +106,17 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
          <tr>
            <td role="rowheader"><strong>Chaîne et champs booléens</strong></td> 
            <td><ul><li>Nombre</li></ul>
-           <p>Remarque : Workfront ne recommande généralement pas de résumer un champ booléen par nombre, car la valeur sera toujours true/false.</p></td> 
+           <p>Remarque : Workfront ne recommande généralement pas de synthétiser un champ booléen par nombre, car la valeur sera toujours true/false.</p></td> 
           </tr> 
          </tbody> 
         </table>
 
      >[!NOTE]
      >
-     >Les exceptions suivantes s&#39;appliquent aux objets parents (par exemple, les tâches parent) lorsque vous récapitulez les valeurs des champs suivants dans des regroupements :
+     >Les exceptions suivantes s&#39;appliquent aux objets parents (par exemple, les tâches parents) lorsque vous récapitulez les valeurs des champs suivants dans des regroupements :
      >   
-     > * Tous les champs de nombre et de devise, à l&#39;exception des heures réelles (par exemple, Coût de la main-d&#39;œuvre planifié/réel, Coût des dépenses planifié/réel, Coût planifié/réel, Heures planifiées), résument les valeurs pour les tâches enfant et les tâches autonomes uniquement. Elles ne résument pas les valeurs des tâches parent ou des parents des parents.
-     > * Le paramètre Heures réelles synthétise les valeurs des tâches parent principales et autonomes. Il ne synthétise pas les valeurs des parents des tâches parent ou des tâches enfant.
+     > * Tous les champs de nombre et de devise, à l&#39;exception des heures réelles (par exemple, coût prévu/réel de la main-d&#39;œuvre, coût prévu/réel des dépenses, coût prévu/réel, heures prévues) résument les valeurs pour les tâches enfants uniquement et les tâches autonomes. Elles ne résument pas les valeurs des tâches parents ou des parents de parents.
+     > * Le tableau Heures réelles récapitule les valeurs des tâches parents principales et autonomes ; il ne récapitule pas les valeurs des parents des tâches parents ou des tâches enfants.
      > * Les champs de données personnalisés pour les valeurs numériques et monétaires résument toutes les tâches : parents, enfants, parents de parents et tâches autonomes.
      >
      >Pour plus d’informations sur l’utilisation des regroupements dans un rapport, voir l’article [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
@@ -127,7 +129,7 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Personnaliser le libellé de colonne</strong></td> 
-           <td><p>Spécifiez un libellé personnalisé pour la colonne. Ce libellé remplace le libellé par défaut. Nous vous recommandons d’utiliser uniquement des caractères UTF-8 pour éviter les problèmes de compatibilité.</p></td> 
+           <td><p>Spécifiez un libellé personnalisé pour la colonne. Ce libellé remplace le libellé par défaut. Nous vous recommandons d’utiliser uniquement des caractères UTF-8 pour éviter des problèmes de compatibilité.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Format du champ</strong></td> 
@@ -139,7 +141,7 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Règles de la colonne</strong></td> 
-           <td><p>Cliquez sur <strong>+ Ajouter une règle pour cette colonne</strong> pour définir une règle pour la colonne. Après avoir ajouté une règle, vous pouvez définir des styles de champ et de texte définissant le mode d’affichage des champs correspondant à cette règle. Cliquez sur <strong>Ajouter une règle</strong> lorsque vous avez terminé de définir la règle.</p></td> 
+           <td><p>Cliquez sur <strong>+ Ajouter une règle pour cette colonne</strong> afin de définir une règle pour la colonne. Après avoir ajouté une règle, vous pouvez définir des styles de champ et de texte définissant le mode d’affichage des champs correspondant à cette règle. Cliquez sur <strong>Ajouter une règle</strong> lorsque vous avez terminé de définir la règle.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -160,15 +162,16 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
 
 ### Création ou personnalisation d’une vue de tableau {#create-or-customize-an-agile-view}
 
-Vous pouvez gérer des projets selon une méthodologie Agile à l’aide d’une vue Tableau.
+Vous pouvez gérer les projets selon une méthodologie Agile à l’aide d’une vue Tableau.
 
-Les affichages du tableau sont disponibles uniquement pour les listes de tâches et les problèmes d&#39;un projet.
+Les affichages du tableau ne sont disponibles que pour les listes de tâches et d’événements d’un projet.
 
 Ils sont préconfigurés, mais vous pouvez modifier certains paramètres pour eux.
 
-Pour plus d&#39;informations sur les vues Agile ou Tableau, consultez l&#39;article [Gérer un projet Agile dans le Tableau](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Pour plus d’informations sur Agile ou les vues de tableau, consultez l’article [Gérer un projet Agile dans la vue Tableau](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!-- Legacy Agile views were deprecated with 25.3. This is old: 
+<!--
+ Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >

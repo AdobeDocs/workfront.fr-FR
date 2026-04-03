@@ -6,7 +6,9 @@ description: Vous pouvez créer des modèles d’approbation afin d’optimiser 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 47%
@@ -108,7 +110,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
 
-   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
+   ![ Détails du document ](assets/new-stage.png)
 
 1. Cliquez sur **Enregistrer**.
 
@@ -117,5 +119,7 @@ Une fois le modèle créé, il peut être appliqué aux documents de la zone Doc
 </div>
 
 
-<!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
-![Assign template](assets/assign-template.png)-->
+<!--
+ Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
+![Assign template](assets/assign-template.png)
+-->

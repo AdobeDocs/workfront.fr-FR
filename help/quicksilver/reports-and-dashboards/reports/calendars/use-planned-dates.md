@@ -1,12 +1,14 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Utiliser des dates planifiées dans un rapport de calendrier
+title: Utilisation des dates prévues dans un rapport de calendrier
 description: Un rapport de calendrier est un rapport dynamique qui fournit une représentation visuelle de votre travail. Vous pouvez utiliser les champs Date prévue dans un rapport de calendrier pour les tâches, les problèmes et les projets.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 91%
@@ -67,7 +69,7 @@ Vous pouvez choisir la manière dont le groupe d’éléments doit s’afficher 
 
 1. Sélectionnez le calendrier auquel vous souhaitez ajouter un nouveau groupe d&#39;éléments.
 Ou
-Cliquez sur **[!UICONTROL + Nouveau calendrier]** et saisissez le nom du calendrier.
+Cliquez sur **[!UICONTROL + Nouveau calendrier]** puis saisissez le nom du calendrier.
 
    >[!NOTE]
    >
@@ -121,7 +123,7 @@ Cliquez sur **[!UICONTROL + Nouveau calendrier]** et saisissez le nom du calendr
 
 1. Passez à la section suivante.
 
-## Ajout d’objets au groupe d’éléments dans l’aperçu
+## Ajouter des objets au groupe d’éléments dans l’aperçu
 
 Après avoir défini le mode d’affichage des éléments, vous devez ajouter au regroupement les objets que vous souhaitez voir apparaître sur le calendrier.
 
@@ -150,7 +152,7 @@ Après avoir défini le mode d’affichage des éléments, vous devez ajouter au
    >
    >Si les options relatives aux libellés par défaut ne sont pas disponibles pour un objet donné, le nom de l’objet est affiché à la place. Par exemple, lorsque le libellé [!UICONTROL Tâche parent] est sélectionné et qu’aucune tâche parent n’est associée à l’objet, [!DNL Adobe Workfront] affiche le nom de l’objet affiché dans le calendrier.
 
-   ![définir des étiquettes de tâche](assets/set-task-labels.png)
+   ![définir les libellés de la tâche](assets/set-task-labels.png)
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.

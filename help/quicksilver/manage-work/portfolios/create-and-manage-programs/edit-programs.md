@@ -6,7 +6,9 @@ description: Vous pouvez modifier les informations des programmes que vous avez 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 53%
@@ -156,11 +158,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     </tbody> 
    </table>
 
-   <!--this was removed from the unshimmed version - asking on the epic:
+   <!--
+   this was removed from the unshimmed version - asking on the epic:
    <tr> 
       <td role="rowheader">[!UICONTROL Is Active]</td> 
       <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
-     </tr> -->
+     </tr>
+     -->
 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou continuez à modifier les sections suivantes.

@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Hide the Content of a Column'
+title: 'Afficher : masquer le contenu d’une colonne'
 description: Vous pouvez masquer les informations dans la colonne d’une vue. Pour ce faire, modifiez le mode texte de la colonne.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 76%
@@ -84,8 +86,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Les modifications importantes apportées à ce code pour masquer la colonne sont les suivantes :
 
-   * `displayname=`: This line must be blank.
-   * `valuefield=`: This line must be replaced by `value=`, which must be blank.
-   * `width=`: Depending on the field, this must have a value of **0** or **1**.
+   * `displayname=` : cette ligne doit être vide.
+   * `valuefield=` : cette ligne doit être remplacée par `value=`, qui doit être vide.
+   * `width=` : selon le champ, la valeur doit être **0** ou **1**.
 
 1. Cliquez sur **Terminé**, puis sur **Enregistrer la vue**.

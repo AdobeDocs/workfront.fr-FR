@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3265'
 ht-degree: 14%
@@ -84,7 +86,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -144,7 +147,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Remarques concernant la création d’enregistrements
 
@@ -152,7 +156,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    * Les enregistrements ajoutés à l’espace de travail d’origine d’un type d’enregistrement global sont visibles à partir de l’espace de travail d’origine.
    * Les enregistrements ajoutés à un espace de travail secondaire d&#39;un type d&#39;enregistrement global ne sont visibles qu&#39;à partir de l&#39;espace de travail dans lequel ils ont été créés et de l&#39;espace de travail d&#39;origine du type d&#39;enregistrement global.
-Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * En fonction de leurs autorisations sur l’espace de travail et des types d’enregistrements, les utilisateurs peuvent créer des enregistrements des manières suivantes :
 
@@ -202,9 +206,9 @@ Le formulaire de demande du type d’enregistrement s’ouvre.
         >
         >Certains types d’enregistrements peuvent avoir plusieurs formulaires. Cliquez dessus pour l’ouvrir.
 
-        Ajoutez l’enregistrement, comme décrit dans l’article [&#x200B; Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements &#x200B;](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
+        Ajoutez l’enregistrement, comme décrit dans l’article [ Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements ](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
 
-      ![Trois manières de créer le choix d’enregistrements modal &#x200B;](assets/three-ways-to-create-records-choice-modal.png)
+      ![Trois manières de créer le choix d’enregistrements modal ](assets/three-ways-to-create-records-choice-modal.png)
 
 1. (Conditionnel) Si vous avez cliqué sur **Demander un enregistrement**, procédez comme suit :
 
@@ -219,7 +223,8 @@ Le formulaire de demande du type d’enregistrement s’ouvre.
    * Plusieurs enregistrements sont ajoutés au type d’enregistrement, si vous avez ajouté des enregistrements à l’aide d’une feuille de calcul CSV ou Excel.
    * Une nouvelle demande est ajoutée à la zone des Demandes Workfront si vous avez ajouté la demande en soumettant un formulaire de demande.
 
-<!-- this is not possible anymore: 
+<!--
+ this is not possible anymore: 
 
 ## Create records by connecting them from another application
 
@@ -287,7 +292,7 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    >[!NOTE]
    >
-   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 

@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 12%
@@ -16,9 +18,11 @@ ht-degree: 12%
 
 # Gérer les préférences de notification d’Adobe Workfront Planning
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -28,7 +32,7 @@ Vous pouvez recevoir une notification in-app ou par e-mail lorsque les actions s
 
 * Quelqu’un vous ajoute, vous ou vos équipes, à un commentaire sur la page d’enregistrement
 * Quelqu&#39;un demande l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail <!--or <span class="preview">or a record</span>-->
-* Quelqu&#39;un vous accorde l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail <!--or <span class="preview">or a record</span>--> <!--I could not test this but Isk confirmed-->
+* Quelqu&#39;un vous accorde l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail <!--or <span class="preview">or a record</span> I could not test this but Isk confirmed-->
 * Vous devez soumettre une demande Workfront Planning.
 * Une personne approuve ou rejette une demande Workfront Planning que vous avez soumise.
 * Le statut passe à une demande Workfront Planning que vous avez soumise.
@@ -81,7 +85,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -145,7 +150,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
   </tr>
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 Pour plus d’informations sur les notifications de Workfront Planning, consultez également les articles suivants :
 
@@ -183,9 +189,10 @@ Désélectionnez les notifications que vous souhaitez arrêter de recevoir.
       * Statut d’une demande Workfront Planning que vous avez soumise modifications
       * Demande, accorde ou rejette une approbation à une demande Workfront Planning
 
-   Pour plus d’informations sur la gestion des notifications, voir [&#x200B; Préférences du compte et notifications &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences).
+   Pour plus d’informations sur la gestion des notifications, voir [ Préférences du compte et notifications ](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences).
 
-<!--OLD: notifications are not available to non-IMS customers: 
+<!--
+OLD: notifications are not available to non-IMS customers: 
 
 When someone adds you to a comment in the record page, you may receive an in-app as well as an email notification about the comment. 
 
@@ -193,7 +200,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

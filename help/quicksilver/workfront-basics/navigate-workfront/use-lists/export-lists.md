@@ -5,7 +5,9 @@ description: Vous pouvez exporter une liste d’objets à partir d’Adobe Work
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 86%
@@ -45,7 +47,7 @@ Pour plus d’informations sur les formats et les limites d’export, voir [Expo
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL View] sur l'objet dans lequel se trouve la liste</p>  </td> 
+   <td> <p>Autorisations [!UICONTROL View] à l'objet dans lequel se trouve la liste</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +59,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Exporter une liste
 
 1. Accédez à une liste d’objets.
-1. (Facultatif) Sélectionnez tout filtre, affichage et regroupement que vous souhaitez appliquer à la liste avant l’exportation.
+1. (Facultatif) Sélectionnez les filtres, vues et regroupements à appliquer à la liste avant de l’exporter.
 Pour plus d’informations sur les filtres, les vues et les regroupements, voir [Éléments de création de rapports : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 1. (Facultatif) Pour exporter uniquement des éléments spécifiques d’une liste, sélectionnez tous les éléments de la liste que vous souhaitez inclure dans le fichier exporté.
@@ -76,7 +78,7 @@ Pour plus d’informations sur les filtres, les vues et les regroupements, voir 
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Exporter]** ![Exporter](assets/export.png).
+1. Cliquez sur l’icône **[!UICONTROL Exporter]** ![Exporter](assets/export.png).
 
 1. Sélectionnez l’un des formats suivants :
 

@@ -7,10 +7,12 @@ description: Vous pouvez accéder à des listes de buts ou d’objectifs individ
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -20,14 +22,15 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>Votre entreprise peut choisir de continuer à utiliser les Objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant ou représentante de compte.
 >
->Adobe Workfront Goals ne peut plus être acheté.
+>Objectifs Adobe Workfront ne peut plus être acheté.
 >
 >Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -44,7 +47,8 @@ ht-degree: 92%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Une fois que l’équipe d’administration Workfront vous a accordé l’accès aux Objectifs Workfront, vous pouvez afficher les objectifs que vous ou toute autre personne de votre entreprise avez créés dans la zone Objectifs Workfront.
 

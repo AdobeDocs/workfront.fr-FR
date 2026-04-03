@@ -6,10 +6,12 @@ description: Vous pouvez créer et supprimer des modèles à partir de la zone M
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -19,13 +21,15 @@ ht-degree: 54%
 
 <!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Vous pouvez créer et supprimer des modèles à partir de la zone Modèles. Lorsque vous créez un modèle, vous pouvez saisir les informations pour toutes les tâches et pour les paramètres de votre futur projet. Ces informations seront ensuite transférées à tout projet que vous créerez à partir du modèle.
 
@@ -56,7 +60,7 @@ Vous pouvez créer un modèle des manières suivantes :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +82,8 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -100,7 +105,8 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    <td> <p>You have Manage permissions to the templates you create, by default</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Créer un modèle
 
@@ -201,7 +207,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    * Frais
    * Approbations
 
-   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [&#x200B; Modifier les modèles de projet &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [ Modifier les modèles de projet ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 
 

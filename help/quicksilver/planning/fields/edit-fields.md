@@ -6,21 +6,25 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
 
-# Modifier les paramètres de champ
+# Modifier des paramètres des champs
 
 <!--leave the choice value information in yellow till January 2026-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -66,7 +70,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++     
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,7 +127,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p></td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considérations relatives à la modification des paramètres de champ
 
@@ -147,15 +153,16 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
   >Les autres utilisateurs ne sont pas informés que la configuration du champ a changé.
 
 * Vous pouvez modifier des champs de recherche existants à partir d’enregistrements connectés.
-* Outre la modification du champ décrite dans la section [Modifier les paramètres de champ](#edit-field-settings-1) de cet article, vous pouvez modifier les choix d’un champ à sélection unique ou multiple lorsque vous modifiez un enregistrement dans la vue Tableau, au fur et à mesure que vous mettez à jour les valeurs de champ. Pour plus d&#39;informations, reportez-vous à la section [&#x200B; Ajouter de nouveaux choix à un champ de sélection existant lors de la modification d&#39;enregistrements en mode Tableau &#x200B;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) de cet article.
+* Outre la modification du champ décrite dans la section [Modifier les paramètres de champ](#edit-field-settings-1) de cet article, vous pouvez modifier les choix d’un champ à sélection unique ou multiple lorsque vous modifiez un enregistrement dans la vue Tableau, au fur et à mesure que vous mettez à jour les valeurs de champ. Pour plus d&#39;informations, reportez-vous à la section [ Ajouter de nouveaux choix à un champ de sélection existant lors de la modification d&#39;enregistrements en mode Tableau ](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) de cet article.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
-<!--this is not yet true, but it might come later:
+<!--
+this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
 
-## Modifier les paramètres de champ
+## Modifier des paramètres des champs
 
 {{step1-to-planning}}
 

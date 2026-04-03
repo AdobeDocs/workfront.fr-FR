@@ -1,5 +1,5 @@
 ---
-title: Intégrations Adobe Workfront
+title: Intégrations Adobe Workfront
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
@@ -9,10 +9,12 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -85,34 +87,34 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Express</p> </td> 
+   <td role="rowheader"> <p>Adobe Express</p> </td> 
    <td> 
     <ul> 
-     <li>Intégrez l'expérience de relecture à Adobe Express. Grâce à cette intégration, vous pouvez : 
+     <li>Intégrez l’expérience de relecture à Adobe Express. Avec cette intégration, vous pouvez effectuer les actions suivantes : 
      <ul>
      <li>Utilisez les modèles de validation Workfront pour définir les workflows de validation. </li>
-     <li>Examinez le contenu Adobe Express en tant que brouillon dans le lecteur de vérification. </li>
-     <li>Voir la section Révision des décisions dans Adobe Express pour l’approbation et la publication finales. </li>
+     <li>Vérifiez le contenu du brouillon Adobe Express dans la visionneuse de relecture. </li>
+     <li>Voir la section Vérifier des décisions dans Adobe Express pour l’approbation et la publication finales. </li>
      </ul>
    </ul>
-     <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Prise en main de l’intégration d’Adobe Express et de Workfront Proof</a>.</p> 
+     <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Commencer à utiliser l’intégration d’Adobe Express et de Workfront Proof</a>.</p> 
      </td>  <td><ul><li>Vous devez disposer de licences pour Workfront et Adobe Express.</li><li>Workfront et Adobe Express doivent être déployés dans la même organisation IMS.</li></ul></td> 
-   <td>L’intégration doit être activée pour vos comptes par l’équipe produit d’Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Prise en main de l’intégration d’Adobe Express et de Workfront Proof</a>.</td> 
+   <td>L’intégration doit être activée pour vos comptes par l’équipe produit d’Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Commencer à utiliser l’intégration d’Adobe Express et de Workfront Proof</a>.</td> 
   </tr>
  <tr> 
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
     <ul> 
-     <li>Intégrez l'expérience de relecture à Genstudio pour le Marketing Performance. Grâce à cette intégration, vous pouvez : 
+     <li>Intégrez l’expérience de relecture à Genstudio for Performance Marketing. Avec cette intégration, vous pouvez effectuer les actions suivantes : 
      <ul>
      <li>Utilisez les modèles de validation Workfront pour définir les workflows de validation. </li>
-     <li>Examinez le contenu du brouillon GenStudio dans le lecteur de vérification. </li>
-     <li>Voir la section Révision des décisions dans GenStudio pour l’approbation et la publication finales. </li>
+     <li>Vérifiez le contenu du brouillon GenStudio dans la visionneuse de relecture. </li>
+     <li>Voir la section Vérifier les décisions dans GenStudio pour l’approbation et la publication finales. </li>
      </ul>
    </ul>
-     <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Prise en main de la relecture et de l’intégration de GenStudio for Performance Marketing</a>.</p> 
+     <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Commencer à utiliser la relecture et l’intégration de GenStudio for Performance Marketing</a>.</p> 
      </td>  <td><ul><li>Vous devez disposer de licences pour Workfront et GenStudio for Performance Marketing.</li><li>Votre instance Workfront doit se trouver dans l’expérience unifiée Adobe.</li><li>Workfront et GenStudio for Performance Marketing doivent être déployés dans la même organisation IMS.</li></ul></td> 
-   <td>L’intégration peut être activée dans la zone Configuration de Workfront une fois toutes les exigences remplies. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Prise en main de la relecture et de l’intégration de GenStudio for Performance Marketing</a>. </td> 
+   <td>L’intégration peut être activée dans la zone Configuration de Workfront une fois toutes les exigences remplies. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Commencer à utiliser la relecture et l’intégration de GenStudio for Performance Marketing</a>. </td> 
   </tr>
   <tr> 
    <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
@@ -127,20 +129,20 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Téléchargez/installez depuis <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <li><p>Téléchargez/installez depuis <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Pour plus d’informations et d’instructions, voir <a href="https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installer le plugin [!DNL Adobe Workfront] pour les applications [!DNL Creative Cloud]</a>.</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Experience Manager Assets et Assets Essentials </p>  </p> </td> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets et Assets Essentials </p>  </p> </td> 
    <td> 
     <ul> 
-     <li>Création automatique des dossiers liés entre Workfront et Adobe Experience Manager 
-      <li>Synchroniser les métadonnées des ressources liées existantes</p></li>
-      <li>Mettez automatiquement à jour les métadonnées des portefeuilles, programmes, projets, tâches, problèmes et documents lors des modifications dans Workfront.</li>
+     <li>Créer automatiquement des dossiers liés entre Workfront et Adobe Experience Manager 
+      <li>Synchroniser des métadonnées pour les ressources liées existantes</p></li>
+      <li>Mettre automatiquement à jour les métadonnées de portfolio, de programme, de projet, de tâche, de problème et de document lorsqu’elles sont modifiées dans Workfront</li>
       <li>Connecter facilement plusieurs référentiels Experience Manager Assets à un environnement Workfront ou plusieurs environnements Workfront à un référentiel Experience Manager Assets à l’échelle des ID d’organisation</li></ul>
-     <p>Pour plus d’informations et d’instructions, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref"> Présentation des intégrations Adobe Experience Manager Assets </a></p> 
+     <p>Pour plus d’informations et d’instructions, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref"> Vue d’ensemble des intégrations Adobe Experience Manager Assets</a>.</p> 
      </td>
    <td><ul><li>Workfront doit être dans un Admin Console avec un ID d’organisation attribué.</li><li>Workfront et Experience Manager Assets ou Assets Essentials doivent être affectés en tant que produit à la personne configurant l’intégration.</li></ul></td>   <td> </td> 
   </tr> 
@@ -171,7 +173,8 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
    <td> </td> 
    <td> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
@@ -180,7 +183,8 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
     </ul> <p><b>NOTE</b>: The [!UICONTROL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!DNL Outlook] Integration or [!DNL Workfront for Outlook]). There's no installation required to configure the calendar.</p></td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td> <p>[!DNL Microsoft OneDrive]</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -190,7 +194,8 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
    <td> </td> 
    <td> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
@@ -209,7 +214,8 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
    <td> 
     <ul> 
      <li>[!DNL Workfront] administrator </li> 
-    </ul> </td>--> 
+    </ul> </td>
+    -->
   </tr> 
   <tr> 
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
@@ -220,7 +226,7 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
      <li>Rechercher des projets, des tâches et des problèmes [!DNL Workfront] </li> 
      <li>Créer des tâches personnelles [!DNL Workfront] </li> 
      <li>Soumettre des demandes [!DNL Workfront] </li> 
-    </ul> <p>Pour plus d’informations, voir <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams] : index des articles</a>.</p><p><b>REMARQUE </b> : à compter du 1er juillet 2025, Microsoft supprimera la prise en charge de l’application de bureau Classic Teams. Par conséquent, l’intégration de Workfront à Microsoft Teams ne sera pas prise en charge une fois que l’application de bureau Classic Teams ne sera plus disponible. </p></td> 
+    </ul> <p>Pour plus d’informations, voir <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams] : index des articles</a>.</p><p><b>NOTE</b> : à compter du 1er juillet 2025, Microsoft supprimera la prise en charge de l’application de bureau Classic Teams. Par conséquent, l’intégration de Workfront à Microsoft Teams ne sera pas prise en charge une fois que l’application de bureau Classic Teams ne sera plus disponible. </p></td> 
    <td> 
     <ul> 
      <li>Chaque équipe de votre entreprise doit installer l’intégration si plusieurs équipes souhaitent l’utiliser.</li> 
@@ -279,7 +285,7 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
 
   [!DNL Adobe Workfront Fusion] relie les actions au sein et entre les applications et les services, pour créer un scénario qui transfère et transforme vos données automatiquement. Il dispose de connecteurs dédiés à de nombreuses applications, mais peut se connecter à n’importe quelle application à l’aide d’une API publique.
 
-  Pour plus d’informations, voir Vue d’ensemble d’[[!DNL Adobe Workfront Fusion] &#x200B;](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Pour plus d’informations, voir Vue d’ensemble d’[[!DNL Adobe Workfront Fusion] ](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Nécessite [!DNL Workfront Fusion])
@@ -290,9 +296,9 @@ Pour plus d’informations, consultez [Vue d’ensemble des intégrations d’Ad
 
 ## Intégrations de partenaires
 
-Workfront comporte de nombreuses intégrations de partenaires qui enrichissent votre expérience Workfront. Parmi les exemples d’offres de partenaires existantes, citons les intégrations à Claravine, RWS Group, etc.
+Workfront comporte de nombreuses intégrations de partenaires qui enrichissent votre expérience Workfront. Parmi les exemples d’offres de partenaire existantes, citons les intégrations à Claravine, RWS Group et plus encore.
 
-Pour plus d’informations à ce sujet et sur les autres intégrations de partenaires, consultez la [Marketplace Exchange](https://exchange.adobe.com/apps/browse/ec?page=1&partnerLevel=All&product=WRKFRNT&sort=RELEVANCE).
+Pour plus d’informations sur ces intégrations et d’autres intégrations de partenaires, consultez la [marketplace Exchange](https://exchange.adobe.com/apps/browse/ec?page=1&partnerLevel=All&product=WRKFRNT&sort=RELEVANCE).
 
 ## API [!DNL Workfront]
 

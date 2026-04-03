@@ -6,10 +6,12 @@ description: Outre la création d’un modèle de projet à partir de zéro, vou
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 43%
+ht-degree: 44%
 
 ---
 
@@ -30,7 +32,7 @@ Vous devez disposer de l’accès suivant.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +55,8 @@ Vous devez disposer de l’accès suivant.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
  <col> 
  <col> 
@@ -76,7 +79,8 @@ Vous devez disposer de l’accès suivant.
    <td> <p>View or higher permissions to a template</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Remarques relatives à la copie de modèles
 
@@ -84,7 +88,7 @@ Les éléments suivants sont toujours copiés d’un modèle existant vers un no
 
 * Tâches de modèles
 * Informations par défaut sur la tâche de modèle (processus d’approbation par défaut de la tâche, formulaires personnalisés par défaut de la tâche)
-* Formulaires personnalisés dans mon groupe
+* Formulaires personnalisés
 * Risques
 * Informations sur la configuration de la file d’attente
 * Portfolio et programme

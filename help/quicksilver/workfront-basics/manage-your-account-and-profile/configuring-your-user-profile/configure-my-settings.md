@@ -6,7 +6,9 @@ description: Votre profil  [!DNL Adobe Workfront]  contient des informations vou
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3318'
 ht-degree: 93%
@@ -380,7 +382,8 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Layout Template]</strong> </td> 
    <td>Ce champ est visible par les utilisateurs et utilisatrices disposant d’un niveau d’accès [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL [!DNL Workfront] administrator], et il n’est modifiable que pour [!UICONTROL [!DNL Workfront] administrators] ou les utilisateurs et utilisatrices ayant une licence [!UICONTROL Standard] ou [!UICONTROL Plan], et qui disposent également d’un accès administratif. Sélectionnez ici un modèle de mise en page pour mettre à jour l’aspect et le champ de votre interface Workfront. Pour plus d’informations sur la configuration des utilisateurs et utilisatrices disposant d’un accès administratif, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurer l’accès des utilisateurs et utilisatrices à la modification des utilisateurs et utilisatrices à l’aide d’un niveau d’accès personnalisé</a> dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Octroyer l’accès aux utilisateurs et utilisatrices</a>.<br>Pour plus d’informations sur les modèles de mise en page et leur impact sur l’interface, voir <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Créer et gérer des modèles de mise en page</a></td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
     <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.

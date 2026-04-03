@@ -6,7 +6,9 @@ description: Lorsque vous fournissez des commentaires de mise à jour sur un obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 91%
@@ -69,7 +71,7 @@ Plutôt que d’inclure ces utilisateurs et utilisatrices dans l’objet en les 
    <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> <p>Pour les événements et les documents :</p>
 
-<ul><li><p>Contributeur ou version ultérieure</p></li>
+<ul><li><p>Contributeur ou supérieur</p></li>
    <li><p>Requête ou supérieure</p></li></ul>
 
 <p>Pour tous les autres objets :</p>
@@ -92,7 +94,8 @@ Pour plus d’informations, voir [Conditions d’accès requises pour la documen
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -115,7 +118,8 @@ Pour plus d’informations, voir [Conditions d’accès requises pour la documen
    <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Baliser d’autres personnes sur les mises à jour
 

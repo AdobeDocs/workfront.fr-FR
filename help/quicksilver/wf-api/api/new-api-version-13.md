@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 100%
@@ -310,9 +312,11 @@ Les projets sont des éléments de travail dans Workfront et sont un bloc de cr�
    <td> <p>Champs directs</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>convertedOpTaskOriginatorID</b> </p> <!--
+     <li> <p><b>convertedOpTaskOriginatorID</b> </p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Removed flag NOT&nbsp;FILTERABLE</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 

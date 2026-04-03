@@ -9,7 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 88%
@@ -67,7 +69,7 @@ Pour modifier les paramètres de notification par e-mail pour plusieurs personne
 
 1. Développez une catégorie pour afficher les paramètres de notification associés à cette catégorie.
 
-   Si au moins un utilisateur est sélectionné et que les notifications ne correspondent pas à celles des autres utilisateurs sélectionnés, la case à cocher de catégorie de cette notification contient une ligne horizontale ![Ligne au lieu d&#39;une coche](assets/straight-line-instead-of-checkmark.jpg).
+   Si au moins un utilisateur est sélectionné et que les notifications ne correspondent pas aux notifications des autres utilisateurs sélectionnés, la case à cocher Catégorie de cette notification contient une ligne horizontale ![Ligne au lieu de Coche](assets/straight-line-instead-of-checkmark.jpg) au lieu d’une coche.
 
 
 1. Cliquez sur les notifications que vous souhaitez que les personnes reçoivent quotidiennement ou instantanément, ou effacez celles que vous souhaitez qu’elles cessent de recevoir.
@@ -79,7 +81,7 @@ Pour modifier les paramètres de notification par e-mail pour plusieurs personne
 
 1. Si vous avez sélectionné des notifications à envoyer sous forme de synthèse quotidienne, sélectionnez l’heure de la journée à laquelle vous souhaitez que la synthèse soit diffusée en haut de la section **Notifications** dans le menu **E-mail de synthèse quotidienne après**.
 
-   ![Temps de préparation quotidien](assets/daily-digest-time.png)
+   ![Heure de synthèse quotidienne](assets/daily-digest-time.png)
 
    La synthèse quotidienne comprend les événements qui répondent aux critères des notifications 24 heures avant l’heure sélectionnée. Les personnes reçoivent un e-mail de synthèse quotidienne pour chaque type de notification.
 

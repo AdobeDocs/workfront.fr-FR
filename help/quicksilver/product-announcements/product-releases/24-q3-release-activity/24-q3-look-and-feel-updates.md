@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 98%
@@ -48,7 +50,7 @@ Pour plus d’informations, consultez la section [Vue d’ensemble des détails 
 
 Nous avons mis à jour la page Détails sur l’itération > Formulaires personnalisés avec un design plus moderne et cohérent avec les autres zones de Workfront. La page prend désormais en charge les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe.
 
-Pour plus d&#39;informations, voir [Créer un récit agile dans une itération](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
+Pour plus d’informations, voir [Créer une histoire agile dans une itération](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
 
 ## Mises à jour de l’apparence pour la zone Groupes
 

@@ -6,7 +6,9 @@ description: Vous pouvez modifier les informations des tâches dans une liste de
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 63%
@@ -17,13 +19,15 @@ ht-degree: 63%
 
 <!-- Audited: 10/2025 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div>-->
+</div>
+-->
 
 Vous pouvez modifier les informations des tâches dans une liste de tâches en modifiant les champs affichés dans la liste. Pour obtenir des informations sur d’autres façons de modifier des tâches, voir la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -60,7 +64,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,7 +89,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    <td> <p>Contribute or higher permissions to the task and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Remarques concernant la modification des tâches dans une liste {#considerations-about-editing-tasks-in-a-list}
 
@@ -284,7 +290,7 @@ Pour modifier les tâches d’une liste en sélectionnant l’option standard En
 
    ![Activer le paramètre d’enregistrement manuel](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. Cliquez sur **Appliquer**. Un paramètre de barre d’outils s’affiche avec des options permettant d’annuler, de rétablir et d’enregistrer vos modifications.
+1. Cliquez sur **Appliquer**. Un paramètre de barre d’outils s’affiche avec des options permettant d’annuler, de rétablir et d’enregistrer vos modifications.
 
    ![Barre d’outils Enregistrement manuel](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
@@ -535,7 +541,8 @@ Vous pouvez modifier plusieurs tâches en même temps. Assurez-vous de disposer 
 1. Cliquer sur **Enregistrer**.
 
 
-<!--Temporary content while changing the Assignments area:
+<!--
+Temporary content while changing the Assignments area:
 
 Editing multiple tasks at the same time differs depending on what environment you choose. 
 
@@ -600,4 +607,5 @@ Editing multiple tasks at the same time differs depending on what environment yo
 
 <div class="preview">
 
-### Edit tasks in bulk in the Preview environment-->
+### Edit tasks in bulk in the Preview environment
+-->

@@ -4,7 +4,9 @@ description: Modifier les regroupements existants
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 91%
@@ -40,7 +42,7 @@ Vous pouvez personnaliser un regroupement que vous avez créé à l’origine ou
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un regroupement dans un rapport</p>
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux Rapports, Tableaux de bord et Calendriers pour modifier un regroupement dans un rapport</p>
    </td> 
   </tr> 
   <tr> 

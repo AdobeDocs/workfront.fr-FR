@@ -7,10 +7,12 @@ description: Vous pouvez ajouter un formulaire personnalisé existant à l’un 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -51,7 +53,7 @@ Vous pouvez ajouter un formulaire personnalisé uniquement aux types d’objets 
   </tr> 
 <tr> 
   <td role="rowheader">Licence Adobe Workfront</td> 
-  <td> <p>Contributeur ou version ultérieure</p>
+  <td> <p>Contributeur ou supérieur</p>
  <p>Requête ou supérieure</p> 
 </td> 
  </tr> 
@@ -71,7 +73,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +101,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to  Custom  Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Conditions préalables
 
@@ -146,7 +150,8 @@ Vous pouvez ajouter jusqu’à 10 formulaires personnalisés sur un objet donn�
 Vous pouvez ajouter des formulaires personnalisés à plusieurs objets en les sélectionnant dans une liste.
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+-->
 
 >[!NOTE]
 >

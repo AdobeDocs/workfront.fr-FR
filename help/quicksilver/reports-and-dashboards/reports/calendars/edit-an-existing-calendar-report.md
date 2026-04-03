@@ -6,7 +6,9 @@ description: Vous pouvez modifier un calendrier existant en ajoutant ou en suppr
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 69%
@@ -60,19 +62,19 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step1-to-calendars}}
 
-1. (Facultatif) Pour modifier le nom du rapport de calendrier, cliquez sur **Renommer** en regard du menu déroulant du calendrier.
+1. (Facultatif) Pour modifier le nom du rapport de calendrier, cliquez sur le **Renommer** en regard du menu déroulant Calendrier.
 Si vous avez partagé le rapport du calendrier avec d’autres utilisateurs ou utilisatrices ou d’autres équipes, le nom du calendrier modifié est automatiquement mis à jour dans la vue Calendrier.
 
 1. (Facultatif) Pour ajouter un projet au rapport de calendrier :
    1. Cliquez sur **[!UICONTROL Ajouter au calendrier].**
-   1. Commencez à saisir le nom d’un projet auquel vous souhaitez ajouter des événements de calendrier, puis cliquez sur le nom lorsqu’il s’affiche dans la liste déroulante.
+   1. Commencez à saisir le nom d’un projet à partir duquel vous souhaitez ajouter des événements de calendrier, puis cliquez sur le nom lorsqu’il s’affiche dans la liste déroulante.
    1. Cliquez sur **Ajouter**.
       ![ajouter un projet à un calendrier](assets/add-a-calendar-project.png)
 
 
 1. (Facultatif) Pour ajouter un regroupement de calendriers ou modifier un regroupement de calendriers existant :
    1. Cliquez sur le menu **Plus** en regard du nom du projet, puis cliquez sur **Modifier**.
-      ![modifier le projet dans le calendrier](assets/edit-project-in-calendar.png)
+      ![modifier projet dans le calendrier](assets/edit-project-in-calendar.png)
 
    1. Choisissez le mode de regroupement de vos éléments :
 

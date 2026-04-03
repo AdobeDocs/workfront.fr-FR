@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 79%
+ht-degree: 82%
 
 ---
 
@@ -55,7 +57,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +83,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Comprendre le processus de suppression de projets
 
@@ -179,9 +183,9 @@ Vous pouvez supprimer des projets d’une liste de projets.
 
 >[!NOTE]
 >
->Les informations de cette section font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
+>Les informations de cette section se rapportent à Adobe Workfront Planning, une nouvelle fonctionnalité d’Adobe Workfront.
 >
->Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Présentation de l&#39;accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Vue d’ensemble de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 

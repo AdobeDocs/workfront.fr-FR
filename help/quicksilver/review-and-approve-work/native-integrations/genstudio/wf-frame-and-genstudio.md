@@ -3,14 +3,16 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Prise en main de l’intégration de GenStudio for Performance Marketing et Frame.io
-description: Prise en main de GenStudio pour le marketing de performance et l’intégration de Frame.io
+description: Prise en main de l’intégration de GenStudio for Performance Marketing et Frame.io
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
-source-git-commit: 2b4230acf01f62b53b8e2efe4c21cabbdef28701
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 8%
@@ -69,11 +71,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 * Workfront et GenStudio for Performance Marketing doivent être déployés sur la même organisation Identity Management System (IMS).
 
-* Les utilisateurs ne peuvent appartenir qu’à une seule instance Workfront dans l’organisation IMS.
+* Les utilisateurs ne peuvent appartenir qu’à une seule instance Workfront au sein de l’organisation IMS.
 
-* L’instance Workfront doit être activée sur l’expérience unifiée d’Adobe.
+* L’instance Workfront doit être activée sur l’expérience unifiée Adobe.
 
-* L’espace de stockage Adobe Enterprise doit être activé pour l’instance Workfront. Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+* Le stockage d’entreprise Adobe doit être activé pour l’instance Workfront. Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 
 ## Utiliser les modèles de validation unifiée Workfront pour définir les workflows de validation
@@ -90,11 +92,11 @@ Pour plus d’informations sur la création de modèles de processus d’approba
 
 Lorsque l’utilisateur lance une révision dans GenStudio for Performance Marketing, il choisit simplement le modèle dont il a besoin. Les utilisateurs peuvent facilement modifier n’importe quel modèle de workflow d’approbation unifiée, ajouter ou supprimer des réviseurs et des étapes, à tout moment.
 
-Pour plus d&#39;informations, voir [Demander révision et approbation](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Pour plus d’informations, voir [Demander la révision et l’approbation](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
-## Réviser et approuver le contenu provisoire de GenStudio for Performance Marketing dans la visionneuse Frame.io
+## Examinez et approuvez le contenu du brouillon GenStudio for Performance Marketing dans la visionneuse Frame.io
 
-Vous pouvez réviser et approuver le contenu provisoire directement dans GenStudio pour le marketing de performance dans la visionneuse Frame.io.
+Vous pouvez réviser et approuver le contenu provisoire directement dans GenStudio for Performance Marketing dans la visionneuse Frame.io.
 
 Avec la visionneuse Frame.io, vous pouvez :
 
@@ -109,4 +111,4 @@ Pour plus d&#39;informations sur l&#39;utilisation de la visionneuse Frame.io, v
 
 Une fois que la ressource a passé le processus de révision et d’approbation, vous pouvez afficher la décision de révision et publier le contenu directement depuis GenStudio for Performance Marketing.
 
-Pour plus d&#39;informations, voir [Contenu approuvé par Publish](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Pour plus d’informations, voir [Publication du contenu approuvé](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

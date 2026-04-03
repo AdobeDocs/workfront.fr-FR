@@ -6,10 +6,12 @@ description: Même si un groupe de ressources peut contenir un nombre illimité 
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -30,7 +32,7 @@ Pour plus d’informations sur les groupes de ressources, voir [Vue d’ensemble
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -69,7 +71,9 @@ Ou\
    ![Supprimer des utilisateurs du pool de ressources](assets/remove-users-from-resource-pool.png)
 
 1. Cliquez sur l’icône X au niveau de l’utilisateur pour supprimer un utilisateur du pool de ressources. Les personnes seront supprimées de toutes les listes dans lesquelles elles figurent.
-   <!--Or  
-   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
+   <!--
+   Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.
+   -->
 
 1. Cliquer sur **Enregistrer**.

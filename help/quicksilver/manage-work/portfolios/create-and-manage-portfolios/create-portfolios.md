@@ -6,7 +6,9 @@ description: Un portfolio est un ensemble de projets qui se partagent les mêmes
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 77%
@@ -53,7 +55,8 @@ Vous pouvez utiliser des portfolios pour regrouper des projets qui appartiennent
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ Vous pouvez utiliser des portfolios pour regrouper des projets qui appartiennent
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Création de portefeuilles
 
@@ -114,7 +118,7 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
 
 1. (Facultatif) Cliquez sur le nom sous **[!UICONTROL Personne gestionnaire de portfolio]** dans l’en-tête situé en haut de la page afin d’attribuer une autre personne responsable au portfolio.
 
-   ![nom du gestionnaire Portfolio](assets/portfolio-manager-name-350x51.jpg)
+   ![nom du gestionnaire ](assets/portfolio-manager-name-350x51.jpg)
 
    En tant que créateur ou créatrice du portfolio, vous êtes gestionnaire de portfolio par défaut.
 

@@ -7,7 +7,9 @@ description: En utilisant des caractères génériques dans des filtres, vous po
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 100%
@@ -18,12 +20,14 @@ ht-degree: 100%
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
+<!--
+(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
 (NOTE: Alina: ***&gt;&gt;Linked in other articles - do not move/ delete.
 This was included but it is not supported???:
 The $$USER.roleIDs variable refers to all the job roles that are associated with the logged-in user. Using this variable, you can&nbsp; items assigned to all of the job roles associated with the logged-in user.
 For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:
-AssignedToID Equals $$USER.roleIDs.)-->
+AssignedToID Equals $$USER.roleIDs.)
+-->
 
 Les caractères génériques vous permettent de référencer une personne ou une date générique au lieu d’une personne ou d’une date spécifique. Ainsi, les éléments que vous créez sont dynamiques ; les résultats changent en fonction du contexte dans lequel ils sont utilisés.
 
@@ -128,9 +132,11 @@ Vous pouvez choisir parmi les variables suivantes basées sur l’utilisateur ou
  <tbody> 
   <tr valign="top"> 
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
-   <td> <!--
+   <td>
+   <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>La variable basée sur l’utilisateur ou l’utilisatrice la plus courante est $$USER.ID. Cela renvoie toujours l’ID de la personne connectée. Il s’agit de l’ID utilisé pour identifier la personne qui a créé chaque objet et ses affectations de travail.</p> <p>Lorsqu’il est utilisé dans des rapports, ce caractère générique réduit le nombre de rapports que vous devez créer dans votre système. Vous pouvez créer un rapport et le partager avec plusieurs personnes. Les résultats changent en fonction de la personne connectée qui consulte le rapport.</p> <p>Par exemple, pour créer un rapport pour tous les problèmes affectés à la personne connectée, vous pouvez utiliser la règle suivante dans un filtre de problèmes : <em>Affecté à lD égal à $$USER.ID</em>.</p> <p>Workfront utilise cette variable dans les filtres intégrés suivants :</p> 
+    -->
+    <p>La variable basée sur l’utilisateur ou l’utilisatrice la plus courante est $$USER.ID. Cela renvoie toujours l’ID de la personne connectée. Il s’agit de l’ID utilisé pour identifier la personne qui a créé chaque objet et ses affectations de travail.</p> <p>Lorsqu’il est utilisé dans des rapports, ce caractère générique réduit le nombre de rapports que vous devez créer dans votre système. Vous pouvez créer un rapport et le partager avec plusieurs personnes. Les résultats changent en fonction de la personne connectée qui consulte le rapport.</p> <p>Par exemple, pour créer un rapport pour tous les problèmes affectés à la personne connectée, vous pouvez utiliser la règle suivante dans un filtre de problèmes : <em>Affecté à lD égal à $$USER.ID</em>.</p> <p>Workfront utilise cette variable dans les filtres intégrés suivants :</p>
     <ul> 
      <li>Mes rapports</li> 
      <li>Mes projets</li> 

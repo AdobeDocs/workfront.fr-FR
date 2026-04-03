@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1841'
 ht-degree: 97%
@@ -251,7 +253,7 @@ Certains plans directeurs comportent des groupes prescrits. Un groupe est un gro
 
 Le plan directeur effectue des recherches par nom de groupe pour déterminer si des groupes existants correspondent. La recherche respectant la casse, les noms doivent correspondre exactement. Si aucun groupe existant ne correspond, le plan directeur peut les créer pour vous.
 
-Section ![[!UICONTROL Mapper des groupes] &#x200B;](assets/Blueprints_GroupMapping.png)
+Section ![[!UICONTROL Mapper des groupes] ](assets/Blueprints_GroupMapping.png)
 
 1. Si un groupe existe, vous pouvez sélectionner **[!UICONTROL Remapper un groupe]** et sélectionnez l’une des options suivantes :
 

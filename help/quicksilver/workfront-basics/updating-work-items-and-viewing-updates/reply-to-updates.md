@@ -8,7 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 92%
@@ -65,13 +67,13 @@ Cet article décrit comment répondre aux commentaires de la plupart des objets 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
-   <td> <p>Pour les problèmes et les documents :</p>
+   <td> <p>Pour les événements et les documents :</p>
 
 <ul><li><p>Contributeur ou supérieur</p></li>
    <li><p>Requête ou supérieure</p></li></ul>
 
 <p>Pour tous les autres objets :</p>
-   <ul><li><p>Clair ou supérieur</p></li>
+   <ul><li><p>Léger ou supérieur</p></li>
    <li><p>Révision ou supérieur</p></li></ul>
 
 </td>  
@@ -82,7 +84,7 @@ Cet article décrit comment répondre aux commentaires de la plupart des objets 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Afficher les autorisations associées à l’objet</p> </td> 
+   <td> <p>Autorisations d’affichage pour l’objet</p> </td> 
   </tr> 
  </tbody> 
    </table>
@@ -91,7 +93,8 @@ Pour plus d’informations, consultez les [Conditions d’accès de la documenta
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -116,7 +119,8 @@ Pour plus d’informations, consultez les [Conditions d’accès de la documenta
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Répondre à une mise à jour ou à une réponse dans Workfront
 
@@ -131,9 +135,9 @@ La réponse à un commentaire dans la section Mises à jour d’un objet est sim
 
    Ou
 
-   Sélectionnez l’onglet Tous, puis cliquez sur Répondre dans les commentaires pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. **&#x200B;**&#x200B;**&#x200B;** Vous ne pouvez pas répondre dans l’onglet Tous.
+   Sélectionnez l’onglet Tous, puis cliquez sur Répondre dans les commentaires pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. ******** Vous ne pouvez pas répondre dans l’onglet Tous.
 
-1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu Plus dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur Citer la réponse. **&#x200B;**&#x200B;**&#x200B;** Le texte de la mise à jour précédente apparaît dans la zone de saisie, marqué d’une ligne grise verticale.
+1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu Plus dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur Citer la réponse. ******** Le texte de la mise à jour précédente apparaît dans la zone de saisie, marqué d’une ligne grise verticale.
 1. Cliquez sur **Répondre**.
 
    ![Répondre pour mettre à jour la zone vide](assets/reply-to-update-empty-box.png)
@@ -148,7 +152,7 @@ La réponse à un commentaire dans la section Mises à jour d’un objet est sim
 
 1. Cliquez sur **Soumettre** pour enregistrer la réponse.
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit du commentaire auquel vous souhaitez répondre pour obtenir plus d&#39;options pour gérer la réponse. Pour plus d’informations, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit du commentaire auquel vous souhaitez répondre pour accéder à d’autres options de gestion de la réponse. Pour plus d’informations, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

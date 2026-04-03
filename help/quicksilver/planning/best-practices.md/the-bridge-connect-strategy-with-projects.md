@@ -6,10 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1156'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -18,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
+>Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle fonctionnalité d’Adobe Workfront.
 >
 >Votre organisation doit disposer d’un package Workfront Planning Prime ou d’un package supérieur pour pouvoir prendre en charge les fonctionnalités recommandées dans cet article.
 >
->Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Présentation de l&#39;accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Vue d’ensemble de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -103,7 +105,7 @@ Pour les organisations ayant des demandes volumineuses ou des besoins d’automa
 
 Pour cette approche, vous aurez besoin d’une licence pour Adobe Workfront Fusion .
 
-Pour plus d’informations, voir [Configuration et gestion de Workfront Fusion : index des articles](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Pour plus d’informations, voir [Configuration et gestion de Workfront Fusion : index des articles](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Utiliser des déclencheurs d’envoi :** les formulaires fournissent un événement d’envoi unique et propre. Ils peuvent donc être utilisés comme déclencheurs pour les automatisations Fusion. Un scénario Fusion peut détecter un envoi de formulaire et générer immédiatement un projet lié dans Workfront.
 
@@ -145,7 +147,8 @@ En établissant un lien entre l’intention et l’action, vous pouvez répondre
 
 * **Ne pas contourner le pont :** si le travail commence dans le module Workflow sans lien vers Planning, vous avez créé un « plan fantôme » qui est invisible pour les dirigeants.
 
-<!--original content:
+<!--
+original content:
 
 # The Bridge: Connecting Strategic Intent to Projects 
 

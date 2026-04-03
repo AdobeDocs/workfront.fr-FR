@@ -8,7 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 57%
@@ -39,7 +41,7 @@ Pour plus d’informations sur tous les types de journaux d’audit et sur ce qu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -60,7 +62,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-<!--Old: 
+<!--
+Old: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,13 +85,14 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    <td><p>System Administrator</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Afficher les journaux d’audit
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Système > Journaux d’audit**.
+1. Dans le panneau de gauche, cliquez sur **Système > Journaux d’audit**.
 1. Dans le menu déroulant **Type d’action**, sélectionnez le type d’audit à afficher.
 
    >[!NOTE]

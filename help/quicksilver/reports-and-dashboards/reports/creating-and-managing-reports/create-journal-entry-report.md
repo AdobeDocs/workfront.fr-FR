@@ -5,7 +5,9 @@ author: Courtney
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2763'
 ht-degree: 94%
@@ -275,7 +277,7 @@ Vous pouvez configurer le rapport d’entrée du journal de manière à ce qu’
 
 Pour savoir quand la suppression d’une tâche ou d’un problème est survenue :
 
-1. Cliquez sur l’icône du **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône du **[!UICONTROL Menu principal]** ![&#x200B; Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône du **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône du **[!UICONTROL Menu principal]** ![ Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![Sélectionner une entrée de journal](assets/nwe-select-journal-entry-350x273.png)
@@ -324,8 +326,10 @@ Pour savoir quand la suppression d’une tâche ou d’un problème est survenue
    * **Type de modification** > **Égal à** > **Supprimer**
    * **Identifiant du projet** > **Égal** > **&lt; nom du projet >**
 
-     <!--WRITER check link; this png file has spaces
-     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     <!--
+     WRITER check link; this png file has spaces
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
+     -->
 
    Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

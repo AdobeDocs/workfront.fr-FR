@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 77%
@@ -31,7 +33,7 @@ Ce plan directeur contient un modèle que l’organisation des services professi
 Ce plan directeur contient un modèle que l’organisation des services professionnels [!DNL Workfront] a utilisé pendant des années durant les engagements de mise en œuvre avec les équipes des finances pour organiser les activités liées à la planification budgétaire annuelle. Le modèle permet de définir les attentes avec les cheffes et chefs des unités opérationnelles et de les guider tout au long du processus de demande et de réservation de budgets pendant le processus de planification annuelle.
 
 **[!UICONTROL Tableau de bord de référence]**
-Ce plan directeur contient un tableau de bord pour vous aider à prendre des décisions de projet plus intelligentes et plus rapides. Les références vous permettent de comparer ce qui était prévu et ce qui s’est passé, ce qui vous permet de repérer les tâches problématiques, le dérapage de la portée et les tendances du projet en un coup d’œil. Le tableau de bord de ligne de base comprend les rapports suivants : ligne de base | Projets en cours, niveau de référence | Projets terminés, niveau de référence | Tâches en cours et niveau de référence | Tâches terminées.
+Ce plan directeur contient un tableau de bord pour vous aider à prendre des décisions de projet plus intelligentes et plus rapides. Les références vous permettent de comparer ce qui était prévu et ce qui s’est passé, ce qui vous permet de repérer les tâches problématiques, le dérapage de la portée et les tendances du projet en un coup d’œil. Le tableau de bord de planification initiale inclut les rapports suivants : Planification | Projets en cours, Planification | Projets terminés, Planification | Tâches en cours et Planification | Tâches terminées.
 
 **[!UICONTROL Plan de prestation des services contractuels]**
 Ce plan directeur contient un modèle qui organise le travail lié à la prestation des services proposés aux clientes et clients. Il est conçu pour créer une approche uniforme de la prestation des services sous contrat.
@@ -87,7 +89,7 @@ Ce plan directeur contient un modèle que l’organisation [!DNL Workfront profe
 **[!UICONTROL Préparation des nouvelles embauches]**
 Ce plan directeur contient un modèle que l&#39;organisation de services professionnels [!DNL Workfront] utilise depuis des années lors des engagements de mise en œuvre avec les équipes des ressources humaines pour inciter les spécialistes des ressources humaines et les gestionnaires d&#39;embauche à réaliser les activités essentielles pour le premier jour d&#39;un employé.
 
-**Offboarding | Tableau de bord de l’utilisateur sortant**
+**Intégration | Quitter le tableau de bord des utilisateurs**
 Ce plan directeur contient un seul tableau de bord avec 13 rapports pour vous aider à rechercher, réaffecter ou gérer les objets et affectations associés à un utilisateur quittant Workfront. Vous pouvez également utiliser ces rapports pour une personne qui change de fonction ou de groupe afin de réaffecter son travail.
 
 **Activation du partenaire : package GenStudio Foundation**
@@ -146,7 +148,7 @@ Ce plan directeur contient un tableau de bord unique comprenant 21 rapports pou
 
 Ce plan directeur contient un seul tableau de bord avec 8 rapports pour vous aider à tirer parti des avantages de Workfront. Ces rapports sont conçus pour vous aider à traduire vos services à la clientèle en valeurs mesurables dont vous pouvez effectuer le suivi afin d’obtenir de meilleurs résultats.
 
-**Réalisation de valeur | Gouverner le tableau de bord des workflows de conformité**
+**Réalisation de valeur | Tableau de bord Gouverner les workflows de conformité**
 
 Ce plan directeur contient un seul tableau de bord avec 7 rapports pour vous aider à réaliser la valeur de Workfront. Pour une utilisation quotidienne ou dans des secteurs hautement réglementés, ces rapports qui permettent de gagner du temps encouragent la responsabilité et améliorent les résultats au fil du temps en aidant à suivre et à gérer les workflows et les besoins de conformité.
 

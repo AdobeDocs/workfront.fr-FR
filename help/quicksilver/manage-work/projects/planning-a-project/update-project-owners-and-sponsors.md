@@ -6,10 +6,12 @@ description: Lorsque vous créez un projet dans Adobe Workfront, vous devenez a
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -39,7 +41,7 @@ Pour plus d’informations sur les propriétaires et les sponsors du projet, voi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> <p>  </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +64,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +89,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    <td> <p>Edit permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Mettre à jour le ou la propriétaire d’un projet
 

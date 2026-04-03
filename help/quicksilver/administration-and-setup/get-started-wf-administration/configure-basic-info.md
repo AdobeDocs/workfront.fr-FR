@@ -8,7 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 92%
@@ -76,14 +78,15 @@ Pour accéder à la page Infos client :
 
      Pour plus d’informations sur l’ajout des adresses IP à votre liste autorisée pour l’emplacement où vos utilisateurs et utilisatrices peuvent accéder à Workfront, voir [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-   * placer sur la liste autorisée **E-mail**
+   * **E-mail**
 
-     Pour plus d’informations sur l’ajout d’e-mails à votre placer sur la liste autorisée place sur la liste autorisée, voir [Configurer votre e-mail](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+     Pour plus d’informations sur l’ajout d’e-mails à votre place sur la liste autorisée, voir [Configurer votre e-mail](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 
    <!--
    * **License**
 
-     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     -->
 
 ## Configurer les informations de base {#configure-basic-info}
 

@@ -6,7 +6,9 @@ description: Vous pouvez configurer les options suivantes pour les équipes de S
 author: Courtney
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 76%
@@ -194,7 +196,7 @@ Pour modifier le comportement de l’affectation des couleurs aux articles pour 
 
    ![Modifier une équipe](assets/edit-team-settings-350x205.png)
 
-1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Associer la couleur de la carte à &#x200B;], sélectionnez l’une des options suivantes :
+1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Associer la couleur de la carte à ], sélectionnez l’une des options suivantes :
 
    * **[!UICONTROL Projet]** : les couleurs sont associées au projet auquel l’histoire est liée. (Lorsqu’une histoire est créée, elle doit être associée à un projet, comme décrit dans [Créer une histoire agile](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Toutes les tâches d’un même projet s’affichent avec la même couleur.
    * **[!UICONTROL Formulaire libre]** : toutes les cartes sont affichées en bleu par défaut jusqu’à ce que quelqu’un modifie manuellement la couleur, comme décrit dans [[!UICONTROL Catégoriser les histoires par couleur] sur le panorama Scrum](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).

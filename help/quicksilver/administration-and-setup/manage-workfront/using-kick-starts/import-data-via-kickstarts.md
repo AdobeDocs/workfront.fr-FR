@@ -9,10 +9,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2828'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +41,7 @@ Chacune de ces procédures est décrite dans l’ordre approprié dans le prése
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -54,7 +56,7 @@ Chacune de ces procédures est décrite dans l’ordre approprié dans le prése
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +77,8 @@ Pour exporter un modèle Kickstart, procédez comme suit :
 {{step-1-to-setup}}
 
 <!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
+-->
 
 1. Cliquez sur **Système** > **Importer des données (Kickstarts)**.
 
@@ -100,12 +103,12 @@ Pour exporter un modèle Kickstart, procédez comme suit :
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Tableau de bord</p> <p>Tous les tableaux de bord partagés publiquement dans le système peuvent être exportés. Impossible d’exporter les tableaux de bord non partagés à l’échelle du système. Vous pouvez sélectionner jusqu’à 100 tableaux de bord spécifiques dans un seul export.</p> </td> 
+      <td scope="col"> <p>Tableau de bord</p> <p>Tous les tableaux de bord partagés publiquement dans le système sont exportables. Impossible d’exporter les tableaux de bord non partagés à l’échelle du système. Vous pouvez sélectionner jusqu’à 100 tableaux de bord spécifiques dans un seul export.</p> </td> 
       <td scope="col">Exporte sous forme de fichier ZIP.</td> 
       <td scope="col"> <p>Paramètre</p> <p>Texte descriptif</p><p>Option de paramètre</p> <p>Groupe de paramètres</p> <p>Paramètre de catégorie</p> <p>Catégorie</p> <p>Rapport</p> <p>Section d'onglet de portail</p> <p>Tableau de bord</p> <p>Préférences</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Rapport</p> <p>Tous les rapports du système peuvent être exportés. Vous pouvez sélectionner jusqu’à 100 rapports spécifiques au sein d’une seule exportation.</p> <p>Kick-Starts ne prend pas en charge les filtres ou les regroupements en mode texte. Pour une exportation réussie, les filtres et les regroupements de rapports doivent passer en mode standard.</p> </td> 
+      <td scope="col"> <p>Rapport</p> <p>Tous les rapports du système peuvent être exportés. Vous pouvez sélectionner jusqu’à 100 rapports spécifiques au sein d’une seule exportation.</p> <p>Kickstart ne prend pas en charge les filtres en mode texte ou les regroupements. Pour effectuer un export, les filtres de création de rapports doivent être définis en mode standard.</p> </td> 
       <td scope="col">Exporte sous forme de fichier ZIP. </td> 
       <td scope="col"> <p scope="col">Paramètre</p> <p scope="col">Texte descriptif</p> <p scope="col">Option de paramètre</p> <p scope="col">Groupe de paramètres</p> <p scope="col">Paramètre de catégorie</p> <p scope="col">Catégorie</p> <p scope="col">Rapport</p> <p scope="col">Préférences</p> </td> 
      </tr> 
@@ -180,9 +183,9 @@ Pour exporter un modèle Kickstart, procédez comme suit :
       <td> <p> Groupe</p> <p>Préférences </p> </td> 
      </tr> 
      <tr> 
-      <td>Regroupement </td> 
+      <td>Regroupement</td> 
       <td>Exporte sous forme de fichier ZIP.</td> 
-      <td> <p> Regroupement </p> <p>Préférences </p> </td> 
+      <td> <p> Regroupement</p> <p>Préférences </p> </td> 
      </tr> 
      <tr> 
       <td>Heure</td> 
@@ -356,11 +359,11 @@ Chaque ligne de la feuille correspond à un objet unique.
    * Dans la colonne **setCategoryID**, saisissez le GUID du formulaire personnalisé existant sur lequel réside ce champ personnalisé. Ce champ est obligatoire lors de l’import de données personnalisées.
    * Si vous devez ajouter plusieurs valeurs de données dans un champ personnalisé (comme des cases d’option, des cases à cocher ou des listes), utilisez le délimiteur de données personnalisées à barre verticale « | » répertorié dans l’onglet Préférences pour séparer les valeurs.
 
-     **Exemple :** Tapez A|D sous la colonne DE:Departments pour renseigner les départements A et D dans votre formulaire personnalisé.
+     **Exemple :** saisissez A|D dans la colonne DE:Departments pour renseigner les services A et D dans votre formulaire personnalisé.
 
      >[!NOTE]
      >
-     >Utilisez uniquement le délimiteur « | » pour séparer les valeurs de champ personnalisé. Vous ne pouvez pas l&#39;utiliser dans les autres colonnes de la feuille de calcul, y compris **setCategoryID**.
+     >Utilisez uniquement le délimiteur «   » pour séparer les valeurs de champ personnalisé. Vous ne pouvez pas l’utiliser dans les autres colonnes de la feuille de calcul, y compris **setCategoryID**.
 
 ### Inclure des dates  {#include-dates}
 
@@ -374,11 +377,11 @@ Workfront peut traiter la plupart des formats de date. Cependant, vous devez vou
 
 Workfront accepte également que l’heure soit incluse avec la date.
 
-Par exemple : 07/10/2022 01:30 ou 07/10/2022 13:00.
+Par exemple : 07/10/2022 01:30 ou 07/10/2022 13h:00.
 
 Si vous ne mettez pas d’heure avec la date, Workfront effectue l’une des opérations suivantes :
 
-* Suppose qu’il est 12 :00. Pour que le résultat de la date soit visible, le fuseau horaire du système doit correspondre à votre fuseau horaire.
+* Workfront suppose que l’heure est 00h:00. Pour que le résultat de la date soit visible, le fuseau horaire du système doit correspondre à votre fuseau horaire.
 * S’il se trouve sur un objet associé à un planning, l’heure est décalée au premier moment autorisé par le planning.
 
 >[!NOTE]
@@ -484,11 +487,11 @@ Pour importer les données de feuille de calcul du modèle dans Workfront, proc�
 
 1. Cliquez sur **Système** > **Importer des données (Kickstarts)**.
 
-1. Dans la section **Charger des données avec feuille de calcul Kickstart**, cliquez sur **Choisir un fichier**, puis recherchez et sélectionnez la feuille de calcul renseignée.
+1. Dans la section **Charger des données avec la feuille de calcul Kickstart**, cliquez sur **Choisir un fichier**, puis parcourez et sélectionnez la feuille de calcul renseignée.
 
-   Le fichier se charge automatiquement et une notification indiquant que l’importation a réussi s’affiche.
+   Le fichier se charge automatiquement et une notification indiquant que l’import a réussi s’affiche.
 
-   Si le chargement du fichier Excel prend plus de 5 minutes vers Workfront, l’application expire et Workfront ne peut pas charger le fichier. Essayez d’importer vos données en lots d’objets plus petits.
+   Si le chargement du fichier Excel prend plus de 5 minutes dans Workfront, l’application expire et Workfront ne peut pas charger le fichier. Essayez d’importer vos données en lots d’objets plus petits.
 
-1. (Conditionnel) Si l’importation a échoué, vous recevez un message d’erreur indiquant l’origine du problème. Essayez d&#39;identifier le champ, la feuille et le numéro de ligne dans lequel le problème a été rencontré et corrigez les informations dans le fichier Excel. Réessayez ensuite d’importer le fichier.
-1. (Conditionnel) Si vous utilisez Workfront Fusion, vous pouvez désormais activer vos FLO ou scénarios une fois l’importation terminée.
+1. (Le cas échéant) Si l’import a échoué, vous recevez un message d’erreur signalant le problème. Essayez d’identifier le champ, la feuille et le numéro de ligne dans lesquels le problème s’est produit et corrigez les informations du fichier Excel. Réessayez ensuite d’importer le fichier.
+1. (Le cas échéant) Si vous utilisez Workfront Fusion, vous pouvez désormais activer vos FLO ou scénarios une fois l’import terminé.

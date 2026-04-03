@@ -7,7 +7,9 @@ description: Dans la zone Documents, vous pouvez organiser, gérer et afficher l
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 36%
@@ -18,7 +20,7 @@ ht-degree: 36%
 
 Dans la zone Documents, vous pouvez organiser, gérer et afficher les métadonnées des documents chargés dans Adobe Workfront. Vous pouvez également voir le statut de décision de l’épreuve.
 
-Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Zone des documents hérités
 

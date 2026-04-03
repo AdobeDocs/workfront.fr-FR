@@ -6,10 +6,12 @@ description: Vous pouvez modifier un problème spécifique ou modifier des probl
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -18,13 +20,15 @@ ht-degree: 79%
 <!--Audited: 10/2025-->
 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Vous pouvez modifier un problème spécifique ou modifier des problèmes dans une liste de problèmes ou un rapport. Cet article décrit comment modifier des problèmes dans les listes.
 
@@ -39,14 +43,14 @@ Pour plus d’informations sur la modification d’un problème individuel, voir
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
 
-<ul><li><p>Contributeur ou version ultérieure</p> </li>
+<ul><li><p>Contributeur ou supérieur</p> </li>
    <li><p>Licence légère ou supérieure permettant de modifier un événement dans la section Événements d'un projet</p></li></ul> 
     Ou
    <ul><li><p>Demandeur ou supérieur</p> </li>
@@ -68,7 +72,8 @@ Pour plus d’informations sur ce tableau, consultez l’article [Conditions d�
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +96,8 @@ Pour plus d’informations sur ce tableau, consultez l’article [Conditions d�
    <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Modifier des problèmes en ligne
 

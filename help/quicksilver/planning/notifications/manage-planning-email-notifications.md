@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 5%
@@ -16,9 +18,11 @@ ht-degree: 5%
 
 # Gérer les notifications par e-mail d’Adobe Workfront Planning
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -28,7 +32,7 @@ Vous pouvez recevoir des notifications par e-mail de Workfront Planning lorsque 
 
   Pour plus d’informations sur le balisage d’autres utilisateurs dans un commentaire d’enregistrement, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
 * Quelqu&#39;un vous demande votre autorisation pour accéder à une vue, un espace de travail ou un type d&#39;enregistrement <!--or <span class="preview">or a record</span>-->
-* Quelqu&#39;un confirme que votre accès a été accordé pour une vue, un espace de travail ou un type d&#39;enregistrement <!--<span class="preview">or record</span>--> <!--Isk confirmed that there is nno email for denying access but did not test-->
+* Quelqu&#39;un confirme que votre accès a été accordé pour une vue, un espace de travail ou un type d&#39;enregistrement <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->
 * Vous devez soumettre une demande Workfront Planning. Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Une personne approuve ou rejette une demande Workfront Planning que vous avez soumise. Pour plus d’informations, voir [Approuver une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * Le statut passe à une demande Workfront Planning que vous avez soumise.
@@ -151,7 +155,7 @@ OLD:
 
    ![Exemple de notifications par e-mail](assets/email-notification-example.png)
 
-1. (Facultatif) Cliquez sur le message dans la zone **Workfront** de l’e-mail.
+1. (Facultatif) Cliquez sur le message dans la zone **** de l’e-mail.
 
    La page des détails de l’enregistrement s’ouvre dans Workfront. Vous pouvez mettre à jour l’enregistrement ou répondre au commentaire.
 
@@ -162,7 +166,7 @@ La page **Notifications** s’ouvre dans Adobe Experience Cloud. Toutes les noti
 
 1. (Conditionnel et facultatif) Lorsqu&#39;une personne vous demande ou vous accorde des autorisations pour accéder à un type d&#39;objet Planning, accédez à l&#39;e-mail qui vous informe de la demande d&#39;autorisation. L’expéditeur de l’e-mail est Adobe Experience Cloud.
 
-1. (Facultatif) Cliquez sur le message dans la zone **Workfront** de l’e-mail.
+1. (Facultatif) Cliquez sur le message dans la zone **** de l’e-mail.
 
    L’objet pour lequel vous avez demandé des autorisations s’ouvre dans Workfront.
 

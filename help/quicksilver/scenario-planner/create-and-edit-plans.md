@@ -6,7 +6,9 @@ description: Vous pouvez créer des plans dans le cadre de l’utilisation du pl
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2399'
 ht-degree: 91%
@@ -36,7 +38,7 @@ Vous pouvez créer des plans dans le cadre de l’utilisation du [!DNL Workfront
   <tr> 
    <td> <p>[!DNL Adobe Workfront] paquet</p> </td> 
    <td> 
-   <p>Workfront Ultimate</p>
+   <p>Workfront Ultimate</p>
 <p><b>NOTE</b></p>
 <p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
@@ -57,13 +59,14 @@ Vous pouvez créer des plans dans le cadre de l’utilisation du [!DNL Workfront
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -98,7 +101,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Docu
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Créer ou modifier des plans
 
@@ -253,7 +257,8 @@ Une liste des plans que vous avez créés s’affiche dans le [!DNL Workfront Sc
         <li> <p><strong>[!UICONTROL Total required]</strong> (pour les heures) : le nombre total d’heures requises pour tous les mois pendant la durée du plan.</p> </li> 
         <li> <p><strong>[!UICONTROL Max required]</strong> (pour les équivalents temps complet) : le nombre maximum d’équivalents temps complet obligatoires pour n’importe quel mois pendant la durée du plan. </p> </li> 
        </ul> <p>Conseil : le nombre <span>maximal</span> d’équivalents temps complet <span>ou le nombre total d’heures</span> requis pour cette fonction s’affiche une fois que vous avez commencé à ajouter des initiatives. Pour plus d’informations sur l’ajout d’initiatives à un plan, voir <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Créer et modifier des initiatives dans le [!DNL Scenario Planner]</a>.</p> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">[!UICONTROL Avg utilization]</td> 
        <td> <p>(NOTE: this field was removed in 21.2 - May 2021) </p> <p>[!DNL Workfront] calculates the average utilization for each job role using the job role FTEs associated with initiatives (required) and the job role FTEs associated with the plan (available). </p> <p> [!DNL Workfront] calculates the job role utilization percentage for a plan using the following formula: </p> <p><code>Job role utilization percentage = Sum [(Required job roles for each month of the plan *100)/ (Available job roles for each month of the plan)] / Number of months in the Duration of the plan</code> </p> 

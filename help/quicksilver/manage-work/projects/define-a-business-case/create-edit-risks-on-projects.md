@@ -6,7 +6,9 @@ description: Les risques sont des événements ou des facteurs possibles qui emp
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 47%
@@ -17,9 +19,11 @@ ht-degree: 47%
 
 <!--Audited: 06/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 Les risques sont des événements ou des facteurs possibles qui empêchent un projet de se terminer à temps ou dans les limites du budget. Vous pouvez enregistrer les risques dans le cadre de la création de l’analyse de rentabilité d’un projet ou en utilisant l’onglet Risques .
 
@@ -42,7 +46,7 @@ Les risques peuvent être associés au coût, mais le coût réel des risques n�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <ul><li>Tout plan permettant d’ajouter des risques dans la zone Risques du projet.</p></li>
    <li><p>Prime ou version ultérieure, pour ajouter des risques dans l’analyse de rentabilité du projet</p></li></ul>
    </td> 

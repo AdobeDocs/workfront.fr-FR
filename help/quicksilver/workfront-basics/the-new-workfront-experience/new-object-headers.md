@@ -6,7 +6,9 @@ description: Vous pouvez afficher les informations en un coup d’œil sur les o
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3697'
 ht-degree: 95%
@@ -32,12 +34,14 @@ Par exemple, pour accéder à l’en-tête d’un projet, procédez comme suit 
 
    ![](assets/project-header-350x18.png)
 
-<!--## [!UICONTROL Home] header overview 
+<!--
+## [!UICONTROL Home] header overview 
 
 The following headers are available in Home:
 
 * Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
-* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.
+-->
 
 ## En-têtes personnalisables
 
@@ -534,7 +538,8 @@ L’en-tête de la personne affiche les informations suivantes :
   <tr> 
    <td role="rowheader">Nom de la personne et titre</td> 
    <td> <p> Le titre de la personne s’affiche en majuscules au-dessus de son nom. Vous ne pouvez pas modifier le nom de la personne dans l’en-tête.</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr> 
     <td role="rowheader">Name of the object type</td> 
     <td> <p>The name of the object type does not display.</p> </td> 
@@ -790,7 +795,7 @@ L’en-tête de l’entreprise affiche les informations suivantes :
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Les plans sont les objets du [!DNL Workfront Scenario Planner]. Pour plus d’informations sur le [!DNL Scenario Planner], voir [Vue d’ensemble du  [!DNL Scenario Planner] &#x200B;](../../scenario-planner/scenario-planner-overview.md).
+Les plans sont les objets du [!DNL Workfront Scenario Planner]. Pour plus d’informations sur le [!DNL Scenario Planner], voir [Vue d’ensemble du  [!DNL Scenario Planner] ](../../scenario-planner/scenario-planner-overview.md).
 
 L’en-tête des plans affiche les informations suivantes :
 

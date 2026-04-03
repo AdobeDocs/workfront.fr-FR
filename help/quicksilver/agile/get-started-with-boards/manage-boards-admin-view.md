@@ -6,7 +6,9 @@ description: La vue Administrateur des forums contient une liste de tous les for
 author: Courtney
 feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 9%
@@ -77,7 +79,7 @@ Pour plus d’informations sur les types de modèles de panorama, voir [Créer o
 
    1. (Facultatif) Dans la section **Est archivé**, indiquez si les tableaux archivés ou non s’affichent. Vous pouvez sélectionner plusieurs options.
 
-      ![Section archivée &#x200B;](assets/is-archived-section.png)
+      ![Section archivée ](assets/is-archived-section.png)
 
 1. Cliquez en dehors du panneau **Filtres** pour le fermer. Vos sélections de filtres resteront appliquées à la liste des tableaux jusqu’à ce qu’elle soit de nouveau dans la vue par défaut.
 

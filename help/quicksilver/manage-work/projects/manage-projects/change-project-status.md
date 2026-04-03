@@ -6,7 +6,9 @@ description: Si nécessaire, vous pouvez mettre à jour manuellement le statut d
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 85%
@@ -59,7 +61,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +88,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    <td> <p>Manage permissions on the project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considérations relatives à la mise à jour vers des statuts spécifiques
 

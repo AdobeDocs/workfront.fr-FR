@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 79%
@@ -43,7 +45,7 @@ Nous vous recommandons de configurer vos préférences système lors de l’impl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -103,7 +105,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
         <li>Calendrier</li>
        </ul><p>Cette option est activée par défaut.</p> <p><b>Important</b> : le niveau d’accès Utilisateur ou utilisatrice externe n’est pas disponible dans votre instance Workfront si cette option est désactivée. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Niveaux d’accès intégrés</a>.</p> </td> 
      </tr> 
-     <!--<tr> 
+     <!--
+     <tr> 
       <td role="rowheader">Require external users to register with a password</td> 
       <td> <p>Requires external users to register before they are able to view items in Workfront. By default, this option is disabled. When you enable this option, people without a Workfront account who are included in certain updates by their email address, will be prompted to create an account before they can view the item they are included on. This creates an External User account for them.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
@@ -114,7 +117,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
       <td role="rowheader">Automatically log mobile users out after </td> 
       <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
-     </tr> -->
+     </tr>
+     -->
      <tr> 
       <td role="rowheader">URL Aide</td> 
       <td>Vous permet de définir un site d’aide personnalisé interne vers lequel l’icône d’aide du menu principal redirigera. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configurer une URL d’aide personnalisée</a>.</p></td> 
@@ -132,7 +136,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td>Permet de choisir d’activer la possibilité de remplir automatiquement les formulaires de demande en fonction des données de demande précédentes. Pour plus d’informations sur la saisie automatique des formulaires, voir <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Saisie automatique d’une demande à partir de données précédentes</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader">Participer aux programmes Beta de l’IA </td> 
+      <td role="rowheader">Participer aux programmes bêta de l’IA </td> 
       <td>&gt;Permet de choisir d’activer les fonctionnalités d’IA actuellement dans Beta. Si vous activez cette option, vous pouvez sélectionner les fonctionnalités d’IA Beta à activer. Pour plus d’informations sur chaque fonctionnalité AI Beta, cliquez sur l’icône d’information en regard de cette fonctionnalité.</td> 
      </tr>
      <tr> 

@@ -6,7 +6,9 @@ description: Vous pouvez installer le plug-in Adobe Workfront for XD depuis Ado
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 76%
@@ -38,7 +40,8 @@ Vous pouvez installer le plug-in [!DNL Adobe Workfront for XD] depuis Adobe Mar
  <col> 
  </col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package/td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -47,7 +50,8 @@ Vous pouvez installer le plug-in [!DNL Adobe Workfront for XD] depuis Adobe Mar
    <td>
    <p>Standard</p>
     <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Produits supplémentaires</td> 
    <td><p>Vous devez disposer d’une licence [!DNL Adobe Creative Cloud] en plus d’une licence [!DNL Workfront].</p></td> 

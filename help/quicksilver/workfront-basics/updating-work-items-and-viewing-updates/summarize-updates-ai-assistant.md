@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Résumé des mises à jour avec l’assistant AI
+title: Résumer les mises à jour avec l’assistant IA
 description: La zone Mises à jour d’un objet comprend un bouton qui utilise l’assistant AI pour résumer les mises à jour.
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: cf3d5daa739fa6ab413ee82a9f465441ef61ae6d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
-# Résumé des mises à jour avec l’assistant AI
+# Résumer les mises à jour avec l’assistant IA
 
 L’assistant d’IA Workfront peut résumer le contenu du flux de mise à jour, ce qui vous permet de comprendre rapidement les commentaires et les discussions qui se produisent autour d’un objet Workfront.
 
@@ -34,7 +36,7 @@ Vous pouvez utiliser le bouton Résumer le contenu pour générer un résumé ou
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>N’importe quel package de workflow</p>
       </td>
   </tr> 
@@ -57,7 +59,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -75,7 +78,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
        <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Conditions préalables
 
@@ -84,7 +88,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
   Pour plus d’informations, consultez [Conditions préalables pour l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) dans la présentation de l’assistant AI.
 * Votre administrateur Workfront doit activer l’assistant AI pour votre niveau d’accès.
 
-  Pour plus d’informations, voir [Activer ou désactiver l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Pour plus d’informations, voir [Activer ou désactiver l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Résumer à l’aide du bouton Résumer les commentaires
 

@@ -6,7 +6,9 @@ description: Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour co
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 88%
@@ -16,9 +18,11 @@ ht-degree: 88%
 
 # Utiliser la zone [!UICONTROL Mes mises à jour]
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour consulter rapidement les approbations en attente de votre décision ou les conversations auxquelles vous avez participé.
@@ -43,7 +47,7 @@ Si vous disposez d’un type de licence différent de Révision, l’administrat
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
-   <td> <p>Contributeur ou version ultérieure</p>
+   <td> <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +89,7 @@ Les approbations et demandes d’accès qui vous sont affectées sont répertori
    >
    >Les cinq premières approbations ou demandes d’accès s’affichent par défaut. Les autres approbations s’affichent sur des pages supplémentaires. Vous pouvez afficher un maximum de 2000 approbations dans la zone [!UICONTROL Mes mises à jour].
 
-   ![&#x200B; Pagination pour mes mises à jour &#x200B;](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![ Pagination pour mes mises à jour ](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
 1. (Facultatif) Développez le menu déroulant **[!UICONTROL Filtre]** ![Icône Filtrer](assets/filter-nwepng.png) dans le coin supérieur droit de la section **[!UICONTROL Mes mises à jour]** et sélectionnez l’une des options suivantes :
 

@@ -7,7 +7,9 @@ description: Vous pouvez configurer l’affichage des informations dans le graph
 author: Alina
 feature: Work Management
 exl-id: 465365a2-d94b-47b6-a393-16770fca2714
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 54%
@@ -55,7 +57,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,7 +84,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Comprendre les options d’affichage
 
@@ -110,7 +114,7 @@ Le tableau suivant détaille les options d’affichage du [!UICONTROL graphique 
   <tr> 
    <td role="rowheader">[!UICONTROL Commit Date]</td> 
    <td> <img src="assets/commit-dates-sandbox-243x226.png" alt="commit_dates_sandbox.png" style="width: 243;height: 226;"> </td> 
-   <td> <p>La date à laquelle une personne cessionnaire s’engage à ce que la tâche soit terminée est affichée avec un marqueur dans le [!UICONTROL Gantt chart]. </p> <p>Pour plus d’informations sur les dates d’engagement, voir la <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Vue d’ensemble de la [!UICONTROL Commit Date]</a>.</p> </td> 
+   <td> <p>La date à laquelle une personne cessionnaire s’engage à ce que la tâche soit terminée est affichée avec un marqueur dans le [!UICONTROL Gantt chart]. </p> <p>Pour plus d’informations sur les dates d’engagement, voir la <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Vue d’ensemble de la [!UICONTROL Commit Date]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL % Complete]</td> 
@@ -120,7 +124,7 @@ Le tableau suivant détaille les options d’affichage du [!UICONTROL graphique 
   <tr> 
    <td role="rowheader">[!UICONTROL Critical Path]</td> 
    <td> <img src="assets/critical-path-2.png" alt="Critical_path_2.png"> </td> 
-   <td>Les tâches qui pourraient affecter la chronologie du projet sont considérées comme faisant partie du chemin critique et sont clairement marquées en rouge. </td> 
+   <td>Les tâches qui pourraient affecter la chronologie du projet sont considérées comme faisant partie du chemin critique et sont clairement marquées en rouge. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Milestone] Losanges</td> 
@@ -140,7 +144,7 @@ Le tableau suivant détaille les options d’affichage du [!UICONTROL graphique 
   <tr> 
    <td role="rowheader">[!UICONTROL Progress Status]</td> 
    <td> <p>[!UICONTROL On Time]<img src="assets/task-on-time--oct.-2017.png" alt="task_on_time__Oct._2017.png"></p> <p>[!UICONTROL Behind]<img src="assets/task-behind--oct.-2017.png" alt="task_behind__Oct._2017.png"></p> <p>[!UICONTROL At Risk]<img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>En retard<img src="assets/task-late-oct.2017.png" alt="task_late_Oct.2017.png"></p> </td> 
-   <td> <p> </p> <p>Statut de progression actuelle d’une tâche donnée. </p> <p>Pour plus d'informations, consultez <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Présentation de la tâche [!UICONTROL Progress Status]</a>.</p> </td> 
+   <td> <p> </p> <p>Statut de progression actuelle d’une tâche donnée. </p> <p>Pour plus d'informations, consultez <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Présentation de la tâche [!UICONTROL Progress Status]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Dates prévisionnelles</td> 

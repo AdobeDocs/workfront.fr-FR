@@ -7,14 +7,16 @@ description: Un programme est un ensemble de projets qui ont des caractéristiqu
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
-# Présentation des programmes
+# Vue d’ensemble des programmes
 
 <!-- Audited: 08/2025 -->
 
@@ -60,7 +62,8 @@ Pour créer et gérer des portfolios, vous devez disposer des accès suivants :
 
 Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -88,7 +91,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Considérations relatives à l’utilisation des programmes

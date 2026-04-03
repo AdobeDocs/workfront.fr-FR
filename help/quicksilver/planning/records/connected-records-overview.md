@@ -6,18 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 11d856aeee3bd9edcdc1dbca3964f37bdf83bd00
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 8%
 
 ---
 
-# Présentation des enregistrements connectés
+# Vue d’ensemble des enregistrements connectés
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -53,8 +57,8 @@ Pour plus d’informations, voir [Présentation des types d’enregistrements co
 * Toute personne ayant accès à Workfront Planning and View ou à des autorisations supérieures dans l&#39;espace de travail et disposant d&#39;un type d&#39;enregistrement peut voir les connexions que vous établissez entre les enregistrements ou entre les enregistrements et les objets d&#39;autres applications. Elle peut afficher les enregistrements et les objets connectés, quelles que soient ses autorisations dans les applications auxquelles vous vous connectez.
 * Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs si vous disposez des autorisations de niveau Gérer pour l’espace de travail et le type d’enregistrement où se trouvent les enregistrements connectés.
 * Vous pouvez connecter un enregistrement à un ou plusieurs objets depuis une autre application. Cela dépend du type de connexion que vous avez sélectionné lors de la connexion des types d&#39;enregistrement. Pour plus d’informations, consultez la section « Types de connexions » dans l’article [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez accéder à n&#39;importe quel type d&#39;objet de la hiérarchie à partir des pages des enregistrements. Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent. Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez accéder à n&#39;importe quel type d&#39;objet de la hiérarchie à partir des pages des enregistrements. Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent. Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Zones de connexion des enregistrements
 

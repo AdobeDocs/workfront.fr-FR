@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Ajout d’histoires et de problèmes à partir du tableau de mêlée
+title: Ajouter des histoires et des événements à partir du scrum board
 description: Vous pouvez rapidement créer une histoire ou un problème directement à partir du panorama Scrum, ou ajouter une histoire existante ou un problème existant à partir du panorama.
 author: Courtney
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 98%

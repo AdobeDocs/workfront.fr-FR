@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
-title: Configuration du bouton Terminé pour les problèmes
+title: Configurer le bouton Terminé pour les événements
 description: Le bouton Terminé permet de définir automatiquement le statut d’une tâche ou d’un problème. Par défaut, Adobe Workfront marque un problème comme Résolu lorsqu’une personne cessionnaire clique sur Terminé dans son élément de travail.
 author: Courtney
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 97%
@@ -19,7 +21,7 @@ Le bouton [!UICONTROL Terminer] permet de définir automatiquement le statut d�
 
 >[!NOTE]
 >
->Le bouton Terminé affiche Marquer comme terminé dans toutes les zones de Workfront.
+>Le bouton Terminé affiche Marquer comme Terminé dans toutes les zones de Workfront.
 
 ## Vue d’ensemble
 
@@ -50,7 +52,7 @@ Les utilisateurs ou les utilisatrices disposant de certaines autorisations peuve
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>L’accès administrateur système est requis pour configurer le bouton Terminé lorsque l’état Résolu est supprimé</p> </td> 
+   <td> <p>Un accès administrateur système est requis pour configurer le bouton Terminé lorsque le statut Résolu est supprimé</p> </td> 
   </tr> 
  </tbody> 
 </table>

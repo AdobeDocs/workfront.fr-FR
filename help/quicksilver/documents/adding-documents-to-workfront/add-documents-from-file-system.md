@@ -6,7 +6,9 @@ description: Vous pouvez ajouter des documents à des projets, des tâches ou de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 47f029fbbc165db36e750907c9a14bb3c0718d58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 56%
@@ -15,7 +17,7 @@ ht-degree: 56%
 
 # Ajouter des documents à Adobe Workfront à partir de votre système de fichiers
 
-Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 L’ajout de documents à Workfront diffère selon la version de la zone de documents utilisée par votre entreprise.
 
@@ -129,7 +131,7 @@ Pour ajouter un document
 
 ## Ajout de documents à Workfront dans la zone des nouveaux documents
 
-Vous pouvez ajouter des documents à des projets, des tâches ou des événements à l’aide du modèle de stockage d’entreprise. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Vous pouvez ajouter des documents à des projets, des tâches ou des événements à l’aide du modèle de stockage d’entreprise. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Fonctionnalité actuellement non prise en charge dans la zone des nouveaux documents :
 
@@ -144,7 +146,7 @@ Fonctionnalité actuellement non prise en charge dans la zone des nouveaux docum
 
 ### Ajout de documents à Workfront dans la zone des nouveaux documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 <!--
 >[!IMPORTANT]

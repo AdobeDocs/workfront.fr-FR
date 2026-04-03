@@ -7,7 +7,9 @@ description: Le jour de début de la semaine sur ma feuille de temps ne correspo
 author: Lisa
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 5%
@@ -34,7 +36,8 @@ Si votre feuille de temps a été créée manuellement, le jour de début de la 
 Par exemple, avec le paramètre régional d’e-mail défini sur Anglais (États-Unis), la semaine dans la feuille de temps commence le dimanche. Si les paramètres régionaux des e-mails sont définis sur l’anglais (Royaume-Uni), la semaine sur la feuille de temps commence un lundi.
 
 
-<!--This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
+<!--
+This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
 
 ## Problem
 

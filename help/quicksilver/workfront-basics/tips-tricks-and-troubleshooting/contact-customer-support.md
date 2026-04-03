@@ -6,7 +6,9 @@ description: En tant que client ou cliente Adobe Workfront, vous pouvez contacte
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 79%
@@ -65,7 +67,8 @@ Vous pouvez contacter l’[!DNL Workfront Customer Support] 7 jours sur 7, 24 
 * EMEA : +44 800 169 0454
 * Australie : +61 180 035 8683
 
-<!--Old numbers - before 2/10/2025:
+<!--
+Old numbers - before 2/10/2025:
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -82,7 +85,7 @@ Vous pouvez envoyer un ticket d’assistance depuis le portail libre-service [!D
 >Seuls les contacts d’assistance autorisés (ou les utilisateurs et utilisatrices autorisés de l’assistance) peuvent envoyer des tickets d’assistance en ligne.
 
 
-1. Depuis le site web [[!DNL Experience League]](https://experienceleague.adobe.com/fr), cliquez sur **[!UICONTROL Assistance]** en haut de la page.
+1. Depuis le site web [[!DNL Experience League]](https://experienceleague.adobe.com), cliquez sur **[!UICONTROL Assistance]** en haut de la page.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -137,7 +140,8 @@ Si vous avez des questions ou des problèmes lors de l’envoi d’une demande, 
 1. (Facultatif) Pour fermer la casse, cliquez sur le bouton **[!UICONTROL Fermer la casse]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=fr)
+<!--
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

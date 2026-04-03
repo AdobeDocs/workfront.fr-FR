@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-source-git-commit: e70a65447fe508d055809271edad399d823f66dd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 11%
@@ -58,7 +60,7 @@ Pour activer le stockage d’entreprise Adobe pour votre organisation :
 
 1. Sélectionnez **Système** dans le volet de navigation de gauche, puis sélectionnez **Préférences**.
 1. Faites défiler l’écran jusqu’à la section **Préférences de stockage**.
-1. Dans le menu déroulant Par défaut, sélectionnez **Stockage d’entreprise Adobe**.
+1. Dans le menu déroulant Par défaut, sélectionnez **Stockage d’entreprise**.
 1. (Facultatif) Si vous souhaitez utiliser une combinaison de stockage d’entreprise Adobe et de stockage Workfront hérité, cochez la case **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
 
    >[!NOTE]

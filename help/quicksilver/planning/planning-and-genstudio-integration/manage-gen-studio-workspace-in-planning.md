@@ -6,15 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 
-<!--Better metadata, at publishing:
+<!--
+Better metadata, at publishing:
 ---
 title: Manage the GenStudio Workspace in Adobe Workfront Planning
 description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products and your instance of Workfront is integrated with your company's instance of GenStudio. You can view the GenStudio workspace from Planning and update information in both systems.
@@ -27,11 +30,13 @@ recommendations: noDisplay, noCatalog
 
 <!--MUST update the access requirements below - not complete!!!!!!!!!-->
 
-# Gestion de l’espace de travail GenStudio dans Adobe Workfront Planning
+# Gérer l’espace de travail GenStudio dans Adobe Workfront Planning
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 L’espace de travail Adobe GenStudio for Performance Marketing est disponible dans Adobe Workfront Planning lorsque votre société a acheté les deux produits et que votre instance de Workfront est intégrée à l’instance de GenStudio de votre société.
 
@@ -110,7 +115,8 @@ Pour plus d’informations sur Adobe GenStudio for Performance Marketing, consul
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -141,7 +147,7 @@ Pour plus d’informations sur Adobe GenStudio for Performance Marketing, consul
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -161,7 +167,8 @@ Pour plus d’informations sur Adobe GenStudio for Performance Marketing, consul
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considérations relatives à la gestion d’un espace de travail GenStudio dans Workfront Planning
 
@@ -195,8 +202,10 @@ Pour plus d’informations sur Adobe GenStudio for Performance Marketing, consul
    </table>
 
 * La mise à jour de la configuration de l’espace de travail, des types d’enregistrements, des vues et des champs pour un espace de travail GenStudio est identique à la mise à jour d’un espace de travail Workfront Planning avec ses éléments.
-<!--Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy. -->
+<!--
+Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* You cannot include GenStudio Brands in a hierarchy.
+-->
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -217,13 +226,13 @@ CAN YOU DO THIS??
 
 {{step1-to-planning}}
 
-La page principale Planification de Workfront s’ouvre.
+La page principale de Workfront Planning s’ouvre.
 
 1. Cliquez sur **Autres espaces de travail** et recherchez un espace de travail qui comporte une indication créée par le **Système** et la balise **GenStudio** sur sa carte.
 
-   ![Carte d’espace de travail GenStudio avec balise &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
+   ![Carte d’espace de travail GenStudio avec balise ](assets/genstudio-card-with-tag-highlighted.png)
 
-1. Cliquez sur la carte **Espace de travail GenStudio** pour ouvrir l’espace de travail GenStudio dans Workfront Planning.
+1. Cliquez sur la carte **Espace de travail** pour ouvrir l’espace de travail GenStudio dans Workfront Planning.
 1. Par défaut, les types d’enregistrements GenStudio suivants sont créés et visibles à partir de Workfront Planning :
 
    * Campagnes
@@ -354,7 +363,7 @@ Pour plus d’informations, voir [Exporter des enregistrements en mode Tableau](
    >
    >Les enregistrements supprimés peuvent être récupérés à partir de la vue Tableau bin Récemment supprimé dans Workfront Planning. Les enregistrements supprimés de GenStudio peuvent également être récupérés à partir de la classe Récemment supprimés dans Workfront Planning.
 
-   Pour plus d’informations, voir [&#x200B; Restaurer les enregistrements supprimés &#x200B;](/help/quicksilver/planning/records/restore-deleted-records.md)
+   Pour plus d’informations, voir [ Restaurer les enregistrements supprimés ](/help/quicksilver/planning/records/restore-deleted-records.md)
 
 1. Cliquez sur l’icône + dans le coin supérieur droit de la vue du tableau pour créer les éléments suivants :
 
@@ -395,7 +404,8 @@ Pour plus d’informations, voir [Exporter des enregistrements en mode Tableau](
    >* Vous ne pouvez modifier la configuration d’un champ GenStudio que lorsque vous disposez des autorisations de niveau Gérer dans GenStudio.
    >* Vous ne pouvez pas supprimer un champ GenStudio.
 
-<!--Is this just Preview?? Or direct to Prod?? 
+<!--
+Is this just Preview?? Or direct to Prod?? 
 
 ## Create workspace hierarchies in the GenStudio workspace
 

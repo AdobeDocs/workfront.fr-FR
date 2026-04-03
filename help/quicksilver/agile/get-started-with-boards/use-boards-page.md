@@ -6,7 +6,9 @@ description: Le tableau de bord des [!UICONTROL panoramas] affiche la liste des 
 author: Courtney
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 99%
@@ -129,7 +131,8 @@ La suppression d’un flux de travail supprime également tous les panoramas du 
 
 1. Cliquez sur **[!UICONTROL Supprimer le panorama]** ou [!UICONTROL **Supprimer le flux de travail**] sur le message de confirmation.
 
-<!-- ## Move a board to a workstream
+<!--
+ ## Move a board to a workstream
 
 You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 

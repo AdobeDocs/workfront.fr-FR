@@ -6,7 +6,9 @@ description: Les objectifs dont la progression est En difficulté risquent de ne
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 81%
@@ -76,7 +78,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -127,7 +130,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Recommandations pour empêcher les objectifs d’atteindre une progression de En difficulté
 

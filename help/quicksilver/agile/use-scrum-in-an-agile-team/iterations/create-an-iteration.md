@@ -6,7 +6,9 @@ description: Les itérations sont un composant clé pour les équipes de Scrum A
 author: Courtney
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 68%
@@ -161,6 +163,6 @@ Lorsque vous ajoutez une tâche en tant qu’histoire à une itération, la cont
 
 [!UICONTROL Date de fin de l’itération] moins (-) [!UICONTROL Durée de la tâche] égal (=) [!UICONTROL Date de début prévue de la tâche]
 
-La [!UICONTROL &#x200B; Date de fin du projet &#x200B;] est utilisée à la place de la Date de fin de l&#39;itération si la date de début du projet est postérieure à la date de début de l&#39;itération et si la date de fin du projet est postérieure à la date de fin de l&#39;itération.
+La [!UICONTROL  Date de fin du projet ] est utilisée à la place de la Date de fin de l&#39;itération si la date de début du projet est postérieure à la date de début de l&#39;itération et si la date de fin du projet est postérieure à la date de fin de l&#39;itération.
 
 Vous pouvez configurer des équipes Scrum individuelles de manière à utiliser les dates du projet par défaut plutôt que les dates d’itération. Pour plus d’informations, consultez la section [Configurer la façon dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) dans l’article [Configurer Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

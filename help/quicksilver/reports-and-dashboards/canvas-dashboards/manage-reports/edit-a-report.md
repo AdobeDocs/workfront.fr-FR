@@ -2,11 +2,13 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Modifier un rapport dans un tableau de bord de la zone de travail
-description: Vous pouvez modifier un rapport de tableau de bord Canvas après sa création.
+description: Vous pouvez modifier un rapport de tableau de bord Zone de travail après sa création.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 16%
@@ -17,17 +19,17 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement uniquement disponible pour les utilisateurs participant à la phase Beta. Certaines parties de la fonction peuvent ne pas être complètes ou ne pas fonctionner comme prévu pendant cette étape. Veuillez soumettre vos commentaires concernant votre expérience en suivant les instructions de la section [Fournir des commentaires](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dans l&#39;article de présentation de la version Beta des tableaux de bord Canvas.<br>
->Si vous avez des commentaires concernant un problème technique ou un bug possible, veuillez envoyer un ticket au support Workfront. Pour plus d&#39;informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Veuillez noter que cette version Beta n’est pas disponible sur les fournisseurs de cloud suivants :
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
->* Ajouter votre propre clé pour Amazon Web Services
+>* Apporter votre propre clé pour Amazon Web Services
 >* Azure
 >* Google Cloud Platform
 
-Après avoir ajouté des rapports à un tableau de bord de zone de travail, vous pouvez modifier les informations du rapport pour modifier les données qui s’affichent dans le tableau de bord.
+Après avoir ajouté des rapports à un tableau de bord Zone de travail, vous pouvez modifier les informations du rapport pour modifier les données affichées dans le tableau de bord.
 
-Toute modification apportée à un rapport aura un impact sur tous les utilisateurs qui ont accès au tableau de bord qui le contient.
+Toute modification apportée à un rapport aura un impact sur tous les utilisateurs et utilisatrices ayant accès au tableau de bord qui le contient.
 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
@@ -59,7 +61,7 @@ Toute modification apportée à un rapport aura un impact sur tous les utilisate
   </tr>  
         <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td><p>Gérer les autorisations pour le tableau de bord</p>
+   <td><p>Gestion des autorisations relatives au tableau de bord</p>
   </td> 
   </tr>
 </tbody> 
@@ -72,7 +74,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 Vous devez ajouter un rapport à un tableau de bord avant de pouvoir le modifier.
 
-Pour plus d&#39;informations, voir [Créer un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Modification d’un rapport
 
@@ -80,53 +82,53 @@ Pour plus d&#39;informations, voir [Créer un tableau de bord de zone de travail
 
 1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
 
-1. Sur la page **Tableaux de bord Canvas**, cliquez sur l&#39;icône **Plus** ![Plus](assets/more-icon.png) dans le coin supérieur droit du rapport que vous souhaitez modifier, puis sélectionnez **Modifier**.
+1. Sur la page **Tableaux de bord de la zone de travail**, cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png) dans le coin supérieur droit du rapport à modifier, puis sélectionnez **Modifier**.
 
    ![Modifier un rapport](assets/edit-report-box.png)
 
-1. Dans la boîte de dialogue **Configurer**, modifiez les informations dans les sections répertoriées sur le côté gauche. Ces sections varient en fonction du type de rapport que vous modifiez.
+1. Dans la boîte de dialogue **Configurer**, modifiez les informations des sections répertoriées sur le côté gauche. Ces sections varient en fonction du type de rapport que vous modifiez.
 
-1. (Facultatif) En cas de modification d&#39;un rapport d&#39;indicateurs de performance clés, modifiez les informations comme il convient dans les sections suivantes :
+1. (Facultatif) Si vous modifiez un rapport sur les indicateurs de performance clés, modifiez les informations selon vos besoins dans les sections suivantes :
 
    * **Détails**
-   * **Créer un indicateur de performance clé**
+   * **Créer un KPI**
    * **Filtres**
-   * **Paramètres de colonne d&#39;exploration vers le bas**
-   * **Paramètres du groupe d&#39;exploration**
+   * **Paramètres des colonnes d’analyse**
+   * **Paramètres du groupe d&#39;analyse**
 
-   Pour plus d&#39;informations sur ces sections, voir [Créer un rapport d&#39;indicateurs de performance clés](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md).
+   Pour plus d’informations sur ces sections, voir [Créer un rapport sur les indicateurs de performance clés](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md).
 
-1. (Facultatif) En cas de modification d&#39;un rapport Graphique, modifiez les informations selon vos besoins dans les sections suivantes :
+1. (Facultatif) Si vous modifiez un rapport Graphique, modifiez les informations selon vos besoins dans les sections suivantes :
 
    * **Détails**
    * **Créer un graphique**
    * **Filtres**
-   * **Paramètres de colonne d&#39;exploration vers le bas**
-   * **Paramètres du groupe d&#39;exploration**
+   * **Paramètres des colonnes d’analyse**
+   * **Paramètres du groupe d&#39;analyse**
 
-   Pour plus d&#39;informations sur ces sections, voir [Créer un rapport de graphique](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+   Pour plus d’informations sur ces sections, voir [Créer un rapport de graphique](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
 
-1. (Facultatif) Si vous modifiez un rapport Table, modifiez les informations requises dans les sections suivantes :
+1. (Facultatif) Si vous modifiez un rapport Tableau, modifiez les informations selon vos besoins dans les sections suivantes :
 
    * **Détails**
-   * **Créer une table**
+   * **Créer un tableau**
    * **Filtres**
    * **Paramètres de groupe**
 
-   Pour plus d&#39;informations sur ces sections, voir [Créer un rapport de table](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+   Pour plus d’informations sur ces sections, voir [Créer un rapport de tableau](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
 1. Cliquez sur **Enregistrer** pour mettre à jour le rapport.
 
 ## Modifier un rapport existant
 
-Lorsque vous modifiez un rapport existant, les données du rapport sélectionnées remplacent les données actuellement affichées dans le widget. Si vous souhaitez ajouter un rapport existant supplémentaire au lieu d’en remplacer un, il est recommandé de créer un widget de rapport distinct.
+Lorsque vous modifiez un rapport existant, les données du rapport que vous sélectionnez remplacent les données actuellement affichées dans le widget. Si vous souhaitez ajouter un rapport existant supplémentaire au lieu d’en remplacer un, il est recommandé de créer un widget de rapport distinct.
 
-Pour plus d&#39;informations, voir [Ajouter un rapport existant à un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+Pour plus d’informations, voir [Ajouter un rapport existant à un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
 
 {{step1-to-dashboards}}
 
 1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
 
-1. Sur la page **Tableaux de bord Canvas**, cliquez sur l&#39;icône **Plus** ![Plus](assets/more-icon.png) dans le coin supérieur droit du rapport que vous souhaitez modifier, puis sélectionnez **Modifier**.
+1. Sur la page **Tableaux de bord de la zone de travail**, cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png) dans le coin supérieur droit du rapport à modifier, puis sélectionnez **Modifier**.
 
-1. Dans la zone **Sélection de rapport**, cliquez sur **Ajouter** en ligne avec le rapport avec lequel vous souhaitez remplacer les données du widget de rapport existant.
+1. Dans la zone **Sélection du rapport**, cliquez sur **Ajouter** en ligne avec le rapport avec lequel vous souhaitez remplacer les données du widget de rapport existant.

@@ -6,10 +6,12 @@ description: Vous pouvez consigner le temps consacré aux projets, tâches et pr
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +30,8 @@ Vous pouvez consigner le temps consacré aux projets, aux tâches et aux problè
  <col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -36,7 +39,8 @@ Vous pouvez consigner le temps consacré aux projets, aux tâches et aux problè
    <td>
    <p>Standard</p>
     <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Produits supplémentaires</td> 
    <td>Vous devez disposer d’une licence [!DNL Adobe Creative Cloud] en plus d’une licence [!DNL Workfront].</td> 

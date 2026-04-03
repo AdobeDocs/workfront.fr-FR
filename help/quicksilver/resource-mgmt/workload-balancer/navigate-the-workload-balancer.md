@@ -2,11 +2,13 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Trouver l’équilibreur de charge de travail
-description: Utilisez l’équilibreur de charge de travail pour vérifier la disponibilité de vos ressources et affecter du travail à vos utilisateurs et à vos utilisatrices. Cet article vous explique comment utiliser les icônes et les options disponibles afin de rafraîchir la vue et de naviguer dans l’équilibreur de charge de travail.
+description: Utilisez l’équilibreur de charge de travail pour vérifier la disponibilité de vos ressources et affecter du travail à vos utilisateurs et à vos utilisatrices. Cet article vous explique comment utiliser les icônes et les options disponibles afin de mettre à jour la vue et de naviguer dans l’équilibreur de charge de travail.
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '4334'
 ht-degree: 89%
@@ -21,7 +23,7 @@ Utilisez l’équilibreur de charge de travail d’Adobe Workfront pour affecte
 
 L’équilibreur de charge de travail est disponible dans plusieurs zones d’Adobe Workfront. Son fonctionnement est similaire dans toutes les zones.
 
-Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, consultez la section [Localiser l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, consultez la section [Localiser l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Conditions d’accès
 
@@ -32,7 +34,7 @@ Pour plus d’informations sur l’emplacement de l’équilibreur de charge de 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr>
   <tr> 
@@ -103,8 +105,8 @@ Pour plus d’informations sur l’affichage des informations dans l’équilibr
 
 Pour plus d’informations sur la gestion des ressources à l’aide de l’équilibreur de charge de travail, consultez également les articles suivants :
 
-* [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Naviguer dans l’équilibreur de charge de travail pour plusieurs projets dans la zone Ressources
 
@@ -237,7 +239,7 @@ Par défaut, la zone Travail non affecté n’affiche aucun élément de travail
 
    Le panneau Paramètres s’affiche sur la droite.
 
-   ![&#x200B; Panneau Paramètres de l’équilibreur de charge de travail &#x200B;](assets/workload-balancer-settings.png)
+   ![ Panneau Paramètres de l’équilibreur de charge de travail ](assets/workload-balancer-settings.png)
 
    Sélectionnez l’une des options ci-dessous pour mettre à jour les informations affichées dans l’équilibreur de charge de travail, puis cliquez sur l’**icône X** en haut à droite de la zone Paramètres pour la fermer.
 
@@ -496,7 +498,8 @@ Vous pouvez accéder à l’équilibreur de charge de travail à partir de votre
 1. Poursuivez la navigation dans l’équilibreur de charge de travail d’un utilisateur comme décrit dans la section [Naviguer dans l’équilibreur de charge de travail pour plusieurs projets](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de cet article.
 
 
-<!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
+<!--
+old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
 # Navigate the Workload Balancer
 

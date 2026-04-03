@@ -6,7 +6,9 @@ description: Vous pouvez consulter un calendrier des tâches et des problèmes s
 author: Courtney
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 88%
@@ -21,4 +23,4 @@ Vous pouvez affecter des éléments non affectés, ajuster les affectations en c
 
 Pour plus d’informations sur la gestion du travail affecté à votre équipe, voir [[!UICONTROL Équilibreur de charge de travail]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-![Page d&#39;équipe affichant l&#39;équilibrage de charge de travail](assets/team-page-workload-balancer.png)
+![Page Équipe affichant l’équilibreur de charge de travail](assets/team-page-workload-balancer.png)

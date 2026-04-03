@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Affichage : Afficher les informations sur le programme et le Portfolio dans un affichage des tâches'
+title: 'Affichage : affichage des informations sur le programme et le Portfolio dans une vue Tâche'
 description: Cette vue de la tâche affiche le programme et le portfolio qui sont associés au projet de la tâche. Ces informations ne sont pas disponibles dans Report Builder lors de la construction d’une vue de tâche. Ces informations ne sont disponibles qu’en mode texte.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 75%
@@ -20,7 +22,7 @@ Cette vue de la tâche affiche le programme et le portfolio qui sont associés a
 
 La vue fournit également des liens vers le projet, le programme et le portfolio à partir d’une liste de tâches.
 
-![Afficher le programme et le portfolio](assets/view--program-and-portfolio-350x116.png)
+![Afficher le programme et le portefeuille](assets/view--program-and-portfolio-350x116.png)
 
 ## Conditions d’accès
 
@@ -60,8 +62,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Dans le menu déroulant **Affichage**, sélectionnez **Nouvel affichage**.
 
 1. Dans la zone **Prévisualisation de la colonne**, éliminez toutes les colonnes sauf une.
-1. Cliquez sur l&#39;en-tête de la colonne restante, cliquez sur **Passer en mode Texte**, puis sur **Modifier le mode Texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Mode Modifier le texte** et remplacez-le par le code suivant :
+1. Cliquez sur l’en-tête de la colonne restante, puis sur **Passer en mode Texte** et **Modifier le mode Texte**.
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
    ```
    column.0.descriptionkey=name

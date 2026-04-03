@@ -7,10 +7,12 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -18,13 +20,15 @@ ht-degree: 78%
 
 <!--Audited: 10/2024-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Vous pouvez affecter des problèmes aux utilisateurs et utilisatrices, aux rôles et aux équipes afin d’indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la [Vue d’ensemble de la modification des affectations de problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -60,12 +64,12 @@ L’affectation d’événements et de tâches est similaire dans Adobe Workfron
  </col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td>Licence Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure</p>
+   <td> <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
@@ -146,8 +150,10 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
      >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
 
-     <!-- this doesn't apply to issues; if it does, add this to the TIP above: 
-      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
+     <!--
+       this doesn't apply to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+      -->
 
 
 1. Cliquez sur **Enregistrer** pour terminer l’affectation du problème.

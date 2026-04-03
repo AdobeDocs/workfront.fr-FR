@@ -6,7 +6,9 @@ description: Bien qu’il n’existe aucune restriction quant aux types et taill
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 70%
@@ -20,7 +22,7 @@ Bien qu’il n’existe aucune restriction quant aux types et tailles de fichier
 >[!NOTE]
 >
 >Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
->Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 

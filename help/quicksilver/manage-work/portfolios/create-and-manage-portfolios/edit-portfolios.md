@@ -6,7 +6,9 @@ description: Vous pouvez modifier les informations des portefeuilles que vous av
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 60%
@@ -15,13 +17,15 @@ ht-degree: 60%
 
 # Modifier les portfolios
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 Vous pouvez modifier des informations sur les portfolios que vous avez créés ou que d’autres personnes ont créés si elles les ont partagés avec vous.
 
@@ -60,7 +64,8 @@ Vous pouvez modifier un portefeuille dans la page de portefeuille ou modifier de
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,7 +92,8 @@ Vous pouvez modifier un portefeuille dans la page de portefeuille ou modifier de
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Modifier les portfolios
 
@@ -95,9 +101,9 @@ Vous pouvez modifier un portefeuille dans la page de portefeuille ou modifier de
 
 1. (Facultatif) Pour modifier des informations limitées sur le portefeuille, procédez comme suit :
 
-   1. Cliquez sur le nom d’un portfolio pour l’ouvrir, puis cliquez sur **[!UICONTROL Détails du Portfolio]** dans le panneau de gauche.
+   1. Cliquez sur le nom d’un portfolio pour l’ouvrir, puis cliquez sur **[!UICONTROL Détails du]** dans le panneau de gauche.
 
-      ![Onglet Détails de Portfolio](assets/portfolio-details-tab-nwe-350x163.png)
+      ![Onglet Détails de ](assets/portfolio-details-tab-nwe-350x163.png)
 
       <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>

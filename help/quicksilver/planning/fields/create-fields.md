@@ -6,16 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '5686'
-ht-degree: 39%
+ht-degree: 38%
 
 ---
 
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -295,7 +297,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Paragraphe**.
 
-   ![&#x200B; Type de champ de paragraphe &#x200B;](assets/paragraph-field-type.png)
+   ![ Type de champ de paragraphe ](assets/paragraph-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -312,7 +314,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
 >[!NOTE]
 >
->En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [&#x200B; Modifier des enregistrements &#x200B;](/help/quicksilver/planning/records/edit-records.md).
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection multiple**.
@@ -361,12 +363,12 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
 >[!NOTE]
 >
->En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur de champ à sélection unique d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [&#x200B; Modifier des enregistrements &#x200B;](/help/quicksilver/planning/records/edit-records.md).
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur de champ à sélection unique d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection simple**.
 
-   ![&#x200B; Type de champ à sélection unique &#x200B;](assets/single-select-field-type.png)
+   ![ Type de champ à sélection unique ](assets/single-select-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du champ tel qu&#39;il apparaîtra dans une table ou dans la page Détails de l&#39;enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -588,7 +590,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
    >
    >* Vous pouvez référencer un champ contenant jusqu’à 4 champs (et objets) différents du type d’enregistrement actuel. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité (1) et que l’Activité est connectée au type d’enregistrement Campagne (2) qui est connecté à un projet Workfront (3), vous pouvez référencer le champ Budget du projet (4) dans la formule que vous créez pour le type d’enregistrement Activité.
    >
-   >![Exemple de formule de budget de projet avec quatre champs supprimés &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemple de formule de budget de projet avec quatre champs supprimés ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facultatif) Cliquez sur **Agrandir** pour ouvrir la zone Formule dans une zone plus grande.
@@ -624,7 +626,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
 
 ### Personnes
 
-Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur ou une utilisatrice<!--, job role, or team--> à un enregistrement. Il s’agit d’un champ de saisie semi-automatique qui vous permet d’ajouter uniquement des utilisateurs<!--, roles, or teams--> qui existent déjà dans votre instance Workfront.
+Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur à un enregistrement. Il s’agit d’un champ de saisie semi-automatique qui vous permet d’ajouter uniquement des utilisateurs<!--, roles, or teams--> qui existent déjà dans votre instance Workfront.
 
 >[!TIP]
 >

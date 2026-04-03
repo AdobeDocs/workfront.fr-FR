@@ -6,7 +6,9 @@ description: Vous pouvez exporter des données Adobe Workfront à partir de list
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2252'
 ht-degree: 82%
@@ -108,8 +110,8 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
 * **50 000 cellules :** nombre maximal de cellules autorisées dans un rapport exporté pour des fichiers Excel.
 * **50 000 lignes :** nombre de lignes de données autorisées dans une exportation de rapport pour les fichiers PDF et délimités par des tabulations.
 
-   * Pour les fichiers Excel, cette limite est de 65 000 lignes **&#x200B;**.
-   * Pour les fichiers Excel(.xlsx), cette limite est de 100 000 lignes **&#x200B;**.
+   * Pour les fichiers Excel, cette limite est de 65 000 lignes **.**
+   * Pour les fichiers Excel(.xlsx), cette limite est de 100 000 lignes **.**
    * Ces limites excluent les en-têtes de colonne, ainsi que les lignes des regroupements dans le rapport. Par exemple, si un rapport comporte 6 regroupements et 50 000 lignes de données, le fichier exporté contiendra 50 000 lignes.
 
   >[!IMPORTANT]

@@ -7,10 +7,12 @@ description: Dans les articles suivants, vous trouverez des informations sur la 
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 47%
+ht-degree: 72%
 
 ---
 
@@ -20,13 +22,14 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>Votre entreprise peut choisir de continuer à utiliser les Objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant ou représentante de compte.
 >
->Adobe Workfront Goals ne peut plus être acheté.
+>Objectifs Adobe Workfront ne peut plus être acheté.
 >
 >Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >

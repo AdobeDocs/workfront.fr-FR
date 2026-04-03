@@ -6,10 +6,12 @@ description: Si davantage de travail doit être effectué pour résoudre un prob
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1043'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -57,7 +59,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -79,7 +82,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considérations
 
@@ -146,7 +150,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >[!TIP]
    >
    >* Si un formulaire personnalisé contenant plusieurs objets associés au problème est configuré pour être utilisé avec les problèmes et les tâches, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion, si les champs existent à la fois sur le problème et sur les formulaires personnalisés de la tâche.
-   >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est joint au problème et à la tâche, l’un comme l’autre doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+   >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est joint au problème et à la tâche, l’un comme l’autre doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, voir [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
    >* Si le projet de destination comporte des formulaires par défaut définis dans le champ Formulaires personnalisés par défaut de la tâche lors de la modification du projet, ces formulaires de tâche sont également ajoutés à la nouvelle tâche. Tous les champs personnalisés communs au problème d’origine et les champs des formulaires de tâches par défaut sont préremplis avec les informations des champs de problème.
 
 

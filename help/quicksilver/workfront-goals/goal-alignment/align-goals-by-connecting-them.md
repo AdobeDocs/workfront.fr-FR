@@ -6,7 +6,9 @@ description: Si vous êtes une personne contributrice individuelle avec un objec
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 91%
@@ -80,7 +82,8 @@ Pour plus d’informations, voir [Conditions d’accès à la documentation de W
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -131,7 +134,8 @@ Pour plus d’informations, voir [Conditions d’accès à la documentation de W
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Aligner des objectifs en les connectant les uns aux autres
 
@@ -197,7 +201,7 @@ Aligning goals by connecting them differs depending on what environment you use.
    Les objectifs alignés s’affichent dans la section Alignement des objectifs, l’objectif 2 venant après l’objectif 1.
 L’objectif enfant s’affiche dans la section Indicateurs de progression de l’objectif parent lorsque sa progression met à jour la progression de l’objectif parent.
 
-   ![&#x200B; Cartes alignées &#x200B;](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![ Cartes alignées ](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. (Facultatif) Pour afficher les objectifs dans la section Alignement des objectifs, accédez à la zone Objectifs de Workfront, puis cliquez sur le bouton **Alignement des objectifs** dans le panneau de gauche. Pour plus d’informations sur la section Alignement des objectifs, voir [Accéder à la section Alignement des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 

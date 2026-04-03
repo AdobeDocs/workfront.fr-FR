@@ -7,7 +7,9 @@ description: Les plans directeurs fournissent des éléments de base pour vous a
 author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 95%
@@ -56,7 +58,7 @@ Le catalogue affiche tous les plans directeurs disponibles pour votre organisati
    * Cas d’utilisation (par exemple, [!UICONTROL Ressources humaines] ou [!UICONTROL Marketing]).
    * Niveau de maturité ([!UICONTROL géré] ou [!UICONTROL intégré]).
    * Statut d’installation ([!UICONTROL installé] ou [!UICONTROL non installé]).
-   * Type de plan directeur (<!--Custom Form, -->[!UICONTROL Tableau de bord], [!UICONTROL Structure organisationnelle], [!UICONTROL Modèle de projet]<!--, Request Queue, Setup Feature-->).
+   * Type de plan directeur ([!UICONTROL Tableau de bord], [!UICONTROL Structure organisationnelle], [!UICONTROL Modèle de projet]<!-- above Custom Form; here, Request Queue, Setup Feature-->).
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Détails]** sur un plan directeur pour découvrir son fonctionnement.
 

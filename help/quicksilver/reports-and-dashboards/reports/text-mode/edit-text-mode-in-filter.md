@@ -6,7 +6,9 @@ description: Vous pouvez modifier un filtre dans une liste ou un rapport à l’
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 86%
@@ -79,11 +81,11 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 
 1. Utilisez l’une des méthodes suivantes :
 
-   Pour accéder au filtre à partir d&#39;une liste, accédez à la liste et cliquez sur l&#39;icône **Filtre**, puis survolez le filtre dans le panneau latéral **Filtres** que vous souhaitez modifier et cliquez sur l&#39;icône **Modifier** ![Modifier](assets/edit-icon.png). Le panneau latéral **Filtres** affiche le filtre sélectionné ou le créateur de filtres hérité s&#39;ouvre.
+   Pour accéder au filtre depuis une liste, accédez à la liste et cliquez sur l’icône **Filtre**, puis pointez sur le filtre du panneau latéral **Filtres** que vous souhaitez modifier, puis cliquez sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png). Le panneau latéral **Filtres** affiche le filtre sélectionné ou le créateur de filtres hérité s’ouvre.
 
    OU
 
-   Pour accéder au filtre à partir d&#39;un rapport, accédez au rapport, puis cliquez sur l&#39;onglet **Actions du rapport** > **Modifier** > **Filtres**.
+   Pour accéder au filtre à partir d’un rapport, accédez au rapport, puis cliquez sur l’onglet **Actions du rapport** > **Modifier** > **Filtres** .
 
 1. Utilisez l’une des méthodes suivantes :
 
@@ -91,7 +93,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 
    OU
 
-   Si vous utilisez le créateur de filtres hérité ou dans un rapport, cliquez sur **Ajouter une règle de filtre** pour commencer à ajouter les conditions de votre filtre. Ensuite, cliquez sur **Passer en mode Texte** puis sur **Modifier le mode Texte** sur le côté droit du générateur.
+   Si vous utilisez l’ancien créateur de filtres ou dans un rapport, cliquez sur **Ajouter une règle de filtre** pour commencer à ajouter les conditions de votre filtre. Cliquez ensuite sur **Passer en mode texte** puis **Modifier le mode texte** sur le côté droit du créateur.
 
 1. Ajoutez des instructions de filtre à l’aide du mode texte. Chaque instruction de filtre peut contenir les lignes suivantes et des informations supplémentaires :
 
@@ -178,7 +180,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Cliquez sur **Appliquer** ou **Terminé** pour enregistrer vos modifications de mode de texte et continuer à modifier le rapport ou le filtre.
+1. Cliquez sur **Appliquer** ou **Terminé** pour enregistrer vos modifications du mode texte et continuer à modifier le rapport ou le filtre.
 1. Cliquez sur **Enregistrer et fermer** pour enregistrer votre rapport ou **Enregistrer le filtre** pour enregistrer le filtre dans la liste.
 
 

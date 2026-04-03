@@ -6,7 +6,9 @@ description: Lorsque vous utilisez le planificateur de scénarios Adobe Workfro
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 94%
@@ -30,7 +32,7 @@ Lors de l’utilisation du [!UICONTROL planificateur de scénarios Adobe Workfr
   <tr> 
    <td> <p>[!DNL Adobe Workfront] paquet</p> </td> 
    <td> 
-   <p>Workfront Ultimate</p>
+   <p>Workfront Ultimate</p>
 <p><b>NOTE</b></p>
 <p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
@@ -51,13 +53,14 @@ Lors de l’utilisation du [!UICONTROL planificateur de scénarios Adobe Workfr
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,7 +96,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Docu
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Conditions préalables
 

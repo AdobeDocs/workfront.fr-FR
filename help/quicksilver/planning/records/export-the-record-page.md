@@ -6,18 +6,22 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
-# Exporter les détails d’un enregistrement
+# Exporter des détails d’un enregistrement
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 
 Pour collaborer plus efficacement avec d’autres utilisateurs qui ne disposent pas nécessairement d’un compte Workfront, vous pouvez exporter la page de détails d’un enregistrement dans un fichier Microsoft Word et la partager avec eux.
@@ -36,7 +40,7 @@ Pour collaborer plus efficacement avec d’autres utilisateurs qui ne disposent 
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
@@ -65,7 +69,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++  
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -123,7 +128,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 </tbody> 
 </table> 
 
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+ -->
 
 
 ## Considérations relatives à l’exportation des détails d’un enregistrement :
@@ -137,7 +143,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 * Le fichier exporté conserve la disposition de la page d’enregistrement, y compris les images de la miniature et de la couverture.
 
-## Exporter les détails d’un enregistrement
+## Exporter des détails d’un enregistrement
 
 {{step1-to-planning}}
 
@@ -159,7 +165,7 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 1. Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l&#39;enregistrement](assets/export-icon-in-record-details-page.png) dans l&#39;aperçu ou dans la page de l&#39;enregistrement, puis cliquez sur l&#39;une des options suivantes :
 
    * **Microsoft Word**
-   * **Adobe PDF**
+   * ****
 
    Un fichier Word (.docx) ou PDF est téléchargé et enregistré sur votre ordinateur.
 

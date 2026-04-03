@@ -7,7 +7,9 @@ description: Un objet résolvable est un problème dont la résolution est liée
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 47%
@@ -38,7 +40,8 @@ Vous pouvez choisir de conserver l&#39;objet résolvable lorsque vous le convert
 
 Pour plus d’informations sur la configuration des préférences pour la gestion des objets résolvables, consultez [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above) </p>
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
@@ -88,7 +91,8 @@ Les scénarios suivants sont possibles :
 
 Pour plus d’informations sur la conversion de problèmes en tâches et projets, consultez [Vue d’ensemble de la conversion des problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Tie the resolution of an issue to a project, task or </h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: created new article for this section; draft when the article is live and see if you need to make a link from this one to the new article) </p>

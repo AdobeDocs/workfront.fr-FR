@@ -6,10 +6,12 @@ description: Une référence est un instantané de projet qui représente des é
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +32,7 @@ Tirez parti des références pour comparer les informations du plan actuel au pl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +55,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    <td> <p>View permissions to the project or higher to view baselines</p> <p>Manage permissions to the project to create baselines</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Remarques sur l’utilisation des références
 

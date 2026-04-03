@@ -6,10 +6,12 @@ description: Les tâches antérieures sont des tâches dont dépendent d’autre
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -44,7 +46,7 @@ Si une tâche antérieure est appliquée, la tâche ultérieure ne peut pas comm
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +69,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,7 +97,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    <td><p>Manage permissions to the tasks and the project</p></td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Appliquer une tâche antérieure au niveau de la tâche
 

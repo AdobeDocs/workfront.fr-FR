@@ -6,19 +6,23 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 35%
+ht-degree: 38%
 
 ---
 
 
 # Vue d’ensemble des types d’enregistrement
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -38,7 +42,7 @@ Pour plus d’informations sur les espaces de travail, consultez la section [Cr�
 
 Dans Workfront Planning, vous pouvez créer des types d’enregistrements personnalisés qui répondent aux besoins de votre entreprise.
 
-Pour plus d’informations sur la création de types d’enregistrements, voir [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+Pour plus d’informations sur la création de types d’enregistrements, voir [Création de types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * Lorsque vous créez un espace de travail à partir d’un modèle, les types d’enregistrement sont créés dans les sections suivantes de l’espace de travail :
 

@@ -6,10 +6,12 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -17,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Les informations de cet article font référence à Adobe Workfront Planning, une fonctionnalité supplémentaire d’Adobe Workfront.
+>Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle fonctionnalité d’Adobe Workfront.
 >
 >Votre organisation doit disposer d’un package Workfront Planning Prime ou d’un package supérieur pour pouvoir prendre en charge les fonctionnalités recommandées dans cet article.
 >
->Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Présentation de l&#39;accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Vue d’ensemble de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 

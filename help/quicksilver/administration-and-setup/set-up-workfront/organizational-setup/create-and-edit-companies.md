@@ -8,7 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 67%
@@ -106,7 +108,7 @@ Pour ajouter ou modifier une entreprise, procédez comme suit :
 1. Mettez à jour les informations suivantes dans la section **Informations de base** :
 
    * **Nom** : saisissez le nom de la société.
-   * **Est active** : lorsque cette option est activée, il est possible de trouver l’entreprise et de la joindre aux projets créés et modifiés. Une société inactive ne peut pas être jointe aux projets. Cette option est activée par défaut.
+   * **Est active** : lorsque cette option est activée, il est possible de trouver l’entreprise et de la joindre aux projets créés et modifiés. Une entreprise inactive ne peut pas être associée aux projets. Cette option est activée par défaut.
    * **Est Principal** : Affecte la société en tant que société principale de votre organisation. L’entreprise principale représente généralement votre compte Workfront où travaillent la plupart de vos utilisateurs et utilisatrices.
 
      Vous pouvez désigner une entreprise, ou aucune, comme entreprise principale, mais vous ne pouvez pas en désigner plusieurs à la fois. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -183,7 +185,8 @@ Pour plus d’informations sur la manière dont les utilisateurs et utilisatrice
 
 Pour plus d’informations sur la gestion d’une entreprise dans la zone [!UICONTROL Configuration], consultez dans cet article la section [Créer ou modifier une entreprise dans  [!DNL Workfront]](#create-or-edit-a-company-in-workfront).
 
-<!-- OLD HTML TABLE
+<!--
+ OLD HTML TABLE
 <table style="table-layout:auto"> 
     <col> 
     <col> 

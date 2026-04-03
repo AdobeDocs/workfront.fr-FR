@@ -6,10 +6,12 @@ description: Vous pouvez importer des projets existants dans un plan. Les projet
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -36,7 +38,7 @@ Vous pouvez importer des projets existants dans un plan. Les projets importés s
   <tr> 
    <td> <p>[!DNL Adobe Workfront] paquet</p> </td> 
    <td> 
-   <p>Workfront Ultimate</p>
+   <p>Workfront Ultimate</p>
 <p><b>NOTE</b></p>
 <p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
@@ -57,13 +59,14 @@ Vous pouvez importer des projets existants dans un plan. Les projets importés s
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Docu
  </tbody> 
 </table>
 
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Considérations relatives à l’importation de projets dans les plans en tant que nouvelles initiatives
 
@@ -160,11 +164,13 @@ Lorsque vous importez un projet dans un plan, certaines informations sur le proj
      <li> <p>[!DNL Workfront] utilise les fonctions affectées aux tâches et aux problèmes ou les fonctions auxquelles les personnes affectées à des tâches ou des problèmes sont associées sur le projet et les transfère vers la nouvelle initiative en tant que fonctions obligatoires. </p> </li> 
      <li> <p>Lorsque le plan est configuré pour utiliser les équivalents temps complet, les heures prévues associées aux fonctions sur les tâches et les problèmes du projet sont d’abord converties en équivalents temps complet. Cet équivalent temps complet est ensuite affecté à la fonction de l’initiative. <span>Les heures prévues sont réparties de manière égale dans [!DNL Workfront]. Si une tâche ou un problème s’étend sur plusieurs mois, le nombre d’heures prévues pour chaque mois pendant la durée de l’initiative est converti en équivalents temps complet mensuels et transféré à chaque mois de l’initiative.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><span>si une tâche est affectée à une fonction pour 80 heures prévues en septembre, la fonction importée affiche 0,5 équivalent temps complet pour l’initiative en septembre.</span> </p> </li> 
      <li> <p>[!DNL Workfront] calcule l’équivalent temps complet des fonctions obligatoires associées à l’initiative à l’aide de la formule suivante :</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Conseil : le [!DNL Scenario Planner] suppose qu’il y a 160 heures ouvrées par mois.</p> <p>Par exemple, si un projet a une durée de 1 200 minutes et qu’une fonction sur le projet est associée à 600 minutes des heures prévues, son équivalent temps complet est de 0,5. Lors de l’importation du projet, l’équivalent temps complet de la fonction obligatoire pour l’initiative nouvellement créée est de 0,5 pour chaque mois de l’initiative. </p> </li> 
-     <li>Lorsqu’une fonction est affectée à une tâche sur le projet sans heure prévue, l’équivalent temps complet obligatoire pour la fonction de l’initiative est défini sur zéro par défaut. <!--
+     <li>Lorsqu’une fonction est affectée à une tâche du projet sans heures prévues, l’équivalent temps complet requis pour la fonction de l’initiative est nul par défaut.
+     <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
-      --></li> 
+      -->
+      </li>
      <li>Lorsqu’une fonction est affectée à une tâche sur le projet avec une [!UICONTROL Duration] nulle, l’équivalent temps complet obligatoire<span>ou les heures</span> pour la fonction de l’initiative est zéro par défaut, même si la tâche a des heures prévues. </li> 
     </ul> </td> 
   </tr> 

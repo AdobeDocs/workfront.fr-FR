@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 5%
@@ -223,7 +225,7 @@ Pour configurer un type d’enregistrement comme global :
    >Vous ne pouvez modifier l’aspect et les paramètres du type d’enregistrement, ainsi que ses champs d’origine, qu’à partir de son espace de travail d’origine.
 
    * La carte de type d’enregistrement affiche une icône **type d’enregistrement global** ![icône de type d’enregistrement global dans l’espace de travail principal](assets/global-icon.png) pour indiquer que le type d’enregistrement peut être ajouté à d’autres espaces de travail.
-   * Un champ **Workspace** généré par le système est ajouté à la vue Tableau du type d&#39;enregistrement et des détails de ses enregistrements.
+   * Un champ **** généré par le système est ajouté à la vue Tableau du type d&#39;enregistrement et des détails de ses enregistrements.
 
      Le champ Workspace affiche l’espace de travail à partir duquel chaque enregistrement est créé.
 
@@ -231,7 +233,7 @@ Pour configurer un type d’enregistrement comme global :
 
      >[!TIP]
      >
-     >Si la valeur du champ **Workspace** est vide, l&#39;enregistrement a été créé depuis un espace de travail secondaire où le type d&#39;enregistrement global a été supprimé après la création de l&#39;enregistrement.
+     >Si la valeur du champ **** est vide, l&#39;enregistrement a été créé depuis un espace de travail secondaire où le type d&#39;enregistrement global a été supprimé après la création de l&#39;enregistrement.
 
 1. (Facultatif) Accédez à un autre espace de travail et créez un type d’enregistrement à l’aide d’un type d’enregistrement existant. Sélectionnez le type d’enregistrement que vous avez activé dans les étapes ci-dessus.
 

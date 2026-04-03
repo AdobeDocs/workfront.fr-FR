@@ -8,7 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 92%
@@ -75,7 +77,8 @@ Pour plus d’informations sur les approbations associées aux documents ou aux 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Pour plus d’informations sur les approbations associées aux documents ou aux 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 
 ## Créer un processus d’approbation global au niveau du système ou du groupe pour les éléments de travail
@@ -114,7 +118,8 @@ For more detail about the information in this table, see [Access requirements in
 
    Si vous créez un processus d’approbation au niveau du groupe, cliquez sur **Groupes** ![Icône Groupes](assets/groups-icon.png), cliquez sur le nom du groupe, puis sur **Approbations**.
 
-   <!--hidden for the new tab redesign - August 2023: 
+   <!--
+   hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 

@@ -6,7 +6,9 @@ description: Vous pouvez lier des documents et des dossiers à Adobe Workfront 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2585'
 ht-degree: 93%
@@ -60,7 +62,7 @@ Vous pouvez relire et approuver les documents liés à un fournisseur de service
 >[!NOTE]
 >
 >Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
->Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -309,7 +311,7 @@ Lors de la synchronisation du contenu d’un dossier à partir d’une applicati
 
 1. (Facultatif) Pour renommer le dossier de sorte que son nom dans Workfront soit différent de celui du dossier dans l’application de document externe, sélectionnez le dossier dans la section **Dossiers**, cliquez sur le menu Plus ![Plus](assets/more-icon.png) qui s’affiche en regard du nom du dossier, puis cliquez sur **Renommer**.
 
-   ![&#x200B; Renommer le dossier &#x200B;](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![ Renommer le dossier ](assets/documents-folderlink-rename-nwe-350x154.png)
 
 Cette opération ne renomme pas le dossier dans l’application externe.
 

@@ -7,10 +7,12 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 100%
+source-wordcount: '1296'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +64,6 @@ La version 2019.3 contient les améliorations suivantes :
   Les vues de liste améliorées sont maintenant disponibles dans les onglets Heures des projets, des tâches et des problèmes.
 
 ### Améliorations de la planification des ressources
-
 
 * [Créer un rapport sur les heures budgétées](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md#build)
 
@@ -160,14 +161,16 @@ La version 2019.3 contient les améliorations suivantes :
 
 * [Supprimer des objets à l’aide de l’application mobile sur iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
-  <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
+  <!--
+    <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
 
   Vous pouvez désormais supprimer des objets tels que les tâches, les problèmes et les feuilles de temps dans l’application mobile. Vous devez disposer des autorisations appropriées sur l’objet pour le supprimer.
 
 * [Réinitialiser votre mot de passe à l’aide de l’application mobile](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#reset)
 
-  <!--<MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
+  <!--
+  <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
   -->
 
   Vous pouvez utiliser l’application mobile Workfront pour réinitialiser votre mot de passe si vous l’avez oublié.
@@ -353,13 +356,13 @@ Nous avons créé un nouveau type de champ dans le créateur de formulaire perso
   We are removing the Documents and Issues tabs from the Agile iteration details page.
 -->
 
-## Mises à jour de maintenance pour Workfront 
+## Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la publication de la version 2019.3, voir :
 
 ## Annonces
 
-* [La nouvelle version bêta de l’expérience Workfront est désormais disponible dans l’environnement de prévisualisation.](#the-new-workfront-experience-beta-now-available-in-preview)
+* [La nouvelle version Beta de l’expérience Workfront est désormais disponible dans l’environnement de prévisualisation.](#the-new-workfront-experience-beta-now-available-in-preview)
 * [La bibliothèque Workfront est désormais disponible.](#workfront-library-now-available)
 * [La version 3 de l’API n’est plus prise en charge.](#api-version-3-no-longer-supported)
 * [La prise en charge de TLS 1.0 et 1.1 prend fin.](#tls-1-0-and-1-1-support-is-ending)
@@ -367,7 +370,7 @@ Pour plus d’informations sur les mises à jour de maintenance effectuées lors
 * [Suppression de diverses options d’authentification unique](#various-single-sign-on-options-to-be-removed)
 * [Webinaire sur la feuille de route des produits pour le troisième trimestre](#q3-product-roadmap-webinar)
 
-### La nouvelle version bêta de l’expérience Workfront est désormais disponible dans l’environnement de prévisualisation. {#the-new-workfront-experience-beta-now-available-in-preview}
+### La nouvelle version Beta de l’expérience Workfront est désormais disponible dans l’environnement de prévisualisation. {#the-new-workfront-experience-beta-now-available-in-preview}
 
 La nouvelle expérience Workfront offre un nouveau design moderne ainsi que de nouvelles fonctionnalités.
 
@@ -389,7 +392,7 @@ API&nbsp;Version Release and Support Schedule
 
 ### La prise en charge de TLS 1.0 et 1.1 est terminée. {#tls-1-0-and-1-1-support-is-ending}
 
-Afin de fournir une sécurité optimale, Workfront exige que toutes les intégrations et le trafic web utilisant TLS 1.1 ou une version antérieure soient mis à jour pour utiliser TLS 1.2. Dans l’environnement de prévisualisation, TLS 1.0 est déjà désactivé.
+Afin de fournir une sécurité optimale, Workfront exige que toutes les intégrations et le trafic web utilisant TLS 1.1 ou une version antérieure soient mis à niveau pour utiliser TLS 1.2. Dans l’environnement de prévisualisation, TLS 1.0 est déjà désactivé.
 
 <!--
 For more information, see <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md" class="MCXref xref" xrefformat="{para}">TLS 1.2 to be required in Adobe Workfront</a> </MadCap:conditionalText> [ 
@@ -455,7 +458,7 @@ Les options d’authentification unique (SSO) suivantes ne sont désormais prise
   [](https://experience.workfront.com/s/article/Configuring-Workfront-with-SAML-1-1-1062120191).
   -->
 
-Voici le calendrier de suppression de ces options d’authentification unique :
+Voici la chronologie de suppression de ces options d’authentification unique :
 
 * Prise en charge limitée : août 2018 - janvier 2019
 
@@ -469,4 +472,4 @@ Voici le calendrier de suppression de ces options d’authentification unique :
 
 ### Webinaire sur la feuille de route des produits pour le troisième trimestre {#q3-product-roadmap-webinar}
 
-Découvrez les nouveautés lors du [webinaire sur la feuille de route du troisième trimestre](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) le 1er août à 9 h 00. MST.
+Apprenez-en davantage sur les événements à venir lors du webinaire sur la feuille de route [Q3](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register) qui se tiendra le 1er août à 9 :00. MST.

@@ -6,7 +6,9 @@ description: Vous pouvez modifier les filtres de rapport après les avoir appliq
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 46%
@@ -18,10 +20,10 @@ ht-degree: 46%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->Si vous avez des commentaires concernant un problème technique ou un bug possible, veuillez envoyer un ticket au support Workfront. Pour plus d&#39;informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Veuillez noter que cette version Beta n’est pas disponible sur les fournisseurs de cloud suivants :
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
->* Ajouter votre propre clé pour Amazon Web Services
+>* Apporter votre propre clé pour Amazon Web Services
 >* Azure
 >* Google Cloud Platform
 
@@ -58,7 +60,7 @@ Vous pouvez modifier les filtres de rapport une fois que vous les avez appliqué
   </tr>  
         <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td><p>Gérer les autorisations pour le tableau de bord</p>
+   <td><p>Gestion des autorisations relatives au tableau de bord</p>
   </td> 
   </tr>
 </tbody> 
@@ -75,14 +77,14 @@ Vous devez ajouter un filtre à un rapport avant de pouvoir le modifier.
 
 >[!NOTE]
 >
->Il existe de nombreux outils de configuration disponibles pour créer et modifier un filtre de rapport. Pour plus d&#39;informations sur ces outils, consultez la section suivante de cet article : [Considérations à prendre en compte lors de la modification d&#39;un filtre de rapport](#considerations-when-editing-a-report-filter).
+>De nombreux outils de configuration sont disponibles pour créer et modifier un filtre de rapport. Pour plus d’informations sur ces outils, consultez la section suivante de cet article : [Remarques concernant la modification d’un filtre de rapport](#considerations-when-editing-a-report-filter).
 
 
 {{step1-to-dashboards}}
 
 1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
 
-1. Sur la page **Tableaux de bord Canvas**, cliquez sur l&#39;icône **Plus** ![Plus](assets/more-icon.png) dans le coin supérieur droit du rapport qui contient le filtre que vous souhaitez modifier, puis sélectionnez **Modifier**.
+1. Sur la page **Tableaux de bord de la zone de travail**, cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png) dans le coin supérieur droit du rapport qui contient le filtre à modifier, puis sélectionnez **Modifier**.
 
    ![Modifier un rapport](assets/edit-report-box.png)
 
@@ -92,7 +94,7 @@ Vous devez ajouter un filtre à un rapport avant de pouvoir le modifier.
 
 1. Sélectionnez le champ ou le modificateur que vous souhaitez modifier, puis ajustez les sélections actuelles selon vos besoins.
 
-   ![&#x200B; Ajouter une condition &#x200B;](assets/add-condition.png)
+   ![ Ajouter une condition ](assets/add-condition.png)
 
 1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
 
@@ -160,9 +162,9 @@ Par exemple, le caractère générique `$$TODAYb+2w` fait référence à « 2 s
 
   ![Attribut de nom d’utilisateur](assets/user-name-attribute.png)
 
-* Lors du filtrage sur un attribut de groupe `name`, les options **Mon groupe d&#39;accueil (groupe d&#39;utilisateurs connectés)** et **Mes autres groupes (groupes d&#39;utilisateurs connectés)** s&#39;affichent dans une condition de filtre.
+* Lors du filtrage sur un attribut de `name` de groupe, vous verrez les options **Mon groupe principal (groupe d’utilisateurs connectés)** et **Mes autres groupes (groupes d’utilisateurs connectés)** à utiliser dans une condition de filtre.
 
-  ![Attribut de nom de groupe](assets/group-name-attribute.png)
+  ![Attribut du nom du groupe](assets/group-name-attribute.png)
 
 * Lors du filtrage sur un attribut de `name` d’équipe, vous verrez les options **Mon équipe par défaut (équipe utilisateur connectée)** et **Mes autres équipes (équipes utilisateurs connectées)** parmi lesquelles effectuer votre choix dans la condition de filtrage.
 
@@ -171,13 +173,13 @@ Par exemple, le caractère générique `$$TODAYb+2w` fait référence à « 2 s
 
 ### Référencer des objets enfants
 
-Les relations disponibles pour les colonnes supplémentaires, les options de filtre et les attributs de regroupement sont généralement limitées aux objets situés plus haut dans la hiérarchie d&#39;objets Workfront ou comportent une seule sélection sur l&#39;objet d&#39;entité de base du rapport. Il existe quelques exceptions à cette règle, notamment :
+Les relations disponibles pour les colonnes supplémentaires, les options de filtre et les attributs de regroupement sont généralement limitées aux objets situés plus haut dans la hiérarchie d&#39;objets Workfront ou comportent une seule sélection sur l&#39;objet d&#39;entité de base du rapport. Il existe certaines exceptions à cette règle, notamment :
 
 * Projet > Tâches
-* Approbation des documents > Phases d&#39;approbation des documents
-* Étapes d’approbation des documents > Participants à l’étape d’approbation des documents
+* Approbation de document > Étapes d&#39;approbation de document
+* Étapes d&#39;approbation du document > Participants à l&#39;étape d&#39;approbation du document
 
-Lorsque vous utilisez l’une des relations parent-enfant répertoriées ci-dessus, une ligne apparaît dans le tableau pour chaque enregistrement enfant connecté à l’objet parent.
+Lors de l’utilisation de l’une des relations parent-enfant répertoriées ci-dessus, une ligne s’affiche dans le tableau pour chaque enregistrement enfant connecté à l’objet parent.
 
 ### Opérateurs de champ par type de champ
 
@@ -192,7 +194,7 @@ Lorsque vous utilisez l’une des relations parent-enfant répertoriées ci-dess
     </tr>
     <tr>
         <td>Nom de l’objet/référence</td>
-        <td>Tout attribut de nom natif ou référence personnalisée</td>
+        <td>Tout attribut de nom natif ou recherche personnalisée</td>
               <td><ul>
         <li>Égal à (non sensible à la casse)</li>
         <li>Non égal à (non sensible à la casse)</li>
@@ -231,9 +233,9 @@ Lorsque vous utilisez l’une des relations parent-enfant répertoriées ci-dess
         <td></td>
     </tr>
     <tr>
-        <td>Nombre entier/Double</td>
-             <td>Projet : Heures prévues
-        <br>Tâche : pourcentage achevé</td>
+        <td>Nombre entier/double</td>
+             <td>Projet : heures prévues
+        <br>Tâche : Pourcentage d'achèvement</td>
               <td><ul>
         <li>Égal à (non sensible à la casse)</li>
         <li>Non égal à (non sensible à la casse)</li>

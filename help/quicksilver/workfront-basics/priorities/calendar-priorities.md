@@ -1,19 +1,21 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Gérer votre travail dans le calendrier des priorités
+title: Gérer le travail dans le calendrier Priorités
 description: Suivez votre travail grâce à un calendrier visuel clair.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 13%
+ht-degree: 17%
 
 ---
 
-# Gérer votre travail dans le calendrier des priorités
+# Gérer le travail dans le calendrier Priorités
 
 Suivez facilement votre travail grâce à un calendrier visuel clair. Avec le calendrier Priorités, vous pouvez :
 
@@ -37,7 +39,7 @@ Suivez facilement votre travail grâce à un calendrier visuel clair. Avec le ca
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

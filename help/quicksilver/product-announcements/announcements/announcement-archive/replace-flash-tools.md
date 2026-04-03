@@ -5,10 +5,12 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2701'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -171,11 +173,13 @@ Sauf indication contraire, toutes les anciennes fonctionnalités ont été rempl
   </tr> 
   <tr> 
    <td> <p><strong>Estimations de ressources</strong> </p> <p>L’objectif de l’onglet Estimations de ressources sous chaque ancien groupe de ressources était le même que celui du gestionnaire du budget des ressources, dans le cadre d’un ancien groupe de ressources seulement. Cet outil présentait les mêmes limites que le gestionnaire du budget des ressources et les anciens groupes de ressources : données inexactes et saisie manuelle de la disponibilité. </p> </td> 
-   <td> <p>Grâce au calcul automatique de la disponibilité de l’utilisateur ou de l’utilisatrice, les estimations de ressources sont devenues obsolètes et ont été supprimées.</p> <p>L’outil est supprimé dans les anciens groupes de ressources et dans les anciennes estimations de ressources dans le business case d’un projet. <!--
+   <td> <p>Grâce au calcul automatique de la disponibilité de l’utilisateur ou de l’utilisatrice, les estimations de ressources sont devenues obsolètes et ont été supprimées.</p> <p>L’outil est éliminé dans les anciens pools de ressources et les anciennes estimations de ressources dans l’analyse de rentabilité d’un projet.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
       </MadCap:conditionalText>
-     --></p> </td> 
+     -->
+     </p> </td>
   </tr> 
   <tr> 
    <td> <p><strong>Planificateur de capacités</strong> </p> <p>Le planificateur de capacités était un outil Workfront de budgétisation des ressources et de hiérarchisation des projets dans un ancien groupe de ressources en fonction de la disponibilité des ressources. En raison du caractère incomplet des données provenant des estimations de ressources et du gestionnaire du budget des ressources qui fournissaient les informations au planificateur de capacités, la hiérarchisation des projets devait être vérifiée deux fois par rapport à la disponibilité des utilisateurs et des utilisatrices.</p> <p>Le scénario le plus courant consistait à n’utiliser qu’un seul ancien groupe de ressources qui incluait toutes les fonctions du système, ce qui entraînait des problèmes de performances lorsque le planificateur de capacités tentait de charger un grand nombre de projets.</p> </td> 
@@ -212,7 +216,8 @@ Sauf indication contraire, toutes les anciennes fonctionnalités ont été rempl
          <li>Gérer les affectations des personnes aux éléments de travail. </li>
          <li>Partager l’équilibreur de charge de travail avec d’autres personnes qui peuvent ne pas avoir de visibilité sur la zone Personnes. Utiliser la fonctionnalité de lien partageable pour partager un lien vers l’équilibreur de charge de travail et l’incorporer dans des tableaux de bord personnalisés. Toutes les personnes ayant accès à la vue des personnes peuvent afficher ces tableaux de bord lorsque vous les partagez.</li>
         </ul><p>L’équilibreur de charge de travail est disponible dans la zone Personnes. </p><p>Pour plus d’informations sur l’équilibreur de charge de travail, voir <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Vue d’ensemble de l’équilibreur de charge de travail</a>.</p></li> 
-      </ul> <!--
+      </ul>
+      <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
          <ul>
@@ -228,12 +233,13 @@ Sauf indication contraire, toutes les anciennes fonctionnalités ont été rempl
           <li>User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.</li>
          </ul></li> 
        </ul>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Graphique de Gantt hérité, Liste des tâches</strong> </p> <p> Le graphique de Gantt hérité sur la liste des tâches permet aux personnes de voir la chronologie du projet et d’effectuer une planification du scénario d’exécution sans avoir à modifier la base de données. Le graphique de Gantt hérité était basé sur la technologie Flash, qui présentait des risques pour la sécurité. </p> </td> 
-   <td> <p><strong>Graphique de Gantt,</strong> <strong>Liste des tâches</strong></p> <p> Le nouveau graphique de Gantt basé sur HTML a le même objectif que le graphique de Gantt hérité. Vous pouvez visualiser la chronologie du projet et réaliser une planification du scénario d’exécution sans valider les modifications apportées à la base de données en sélectionnant l’option Enregistrer manuellement dans la barre d’outils de la liste des tâches. </p> <p>Le nouveau graphique de Gantt est interactif quand vous utilisez l’option d’enregistrement automatique de vos modifications au fur et à mesure. </p> <p>Le nouveau graphique de Gantt de la liste des tâches est fiable, car il repose sur les technologies les plus récentes. Il se trouve directement dans la liste des tâches et est facilement accessible lorsque vous travaillez dessus, puisque vous n’avez pas à changer d’onglet ni de vue. </p> <p>Bien que le nouveau graphique Gantt offre les mêmes fonctionnalités que l’ancien graphique, certaines différences existent toutefois. </p> <p> Le sous-onglet Ancien graphique Gantt d’une liste de tâches de modèle sur un modèle, la vue de l’ancien graphique Gantt de l’onglet Sous-tâches d’une tâche de modèle et l’ancien graphique Gantt d’un rapport Tâche de modèle ont également été remplacés par le graphique de Gantt HTML. </p> <p>Si vous utilisez l’ancien graphique Gantt principalement pour l’affichage simple et les modifications rapides, mais que vous n’utilisez pas le graphique réel, la nouvelle option Planification permet d’apporter rapidement des modifications aux champs de planification clés. Vous pouvez sélectionner Planification chronologique au lieu de l’enregistrement automatiquement dans la barre d’outils de la liste des tâches.</p> <p>Pour plus d’informations sur l’enregistrement d’une liste de tâches à l’aide de l’option Planification chronologique, consultez la section « Enregistrer manuellement les modifications dans une liste de tâches lors de la sélection de l’option Planification chronologique » de l’article <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Modifier les tâches dans une liste</a>. </p> </td> 
+   <td> <p><strong>Graphique de Gantt,</strong> <strong>Liste des tâches</strong></p> <p> Le nouveau graphique de Gantt basé sur HTML a le même objectif que le graphique de Gantt hérité. Vous pouvez visualiser la chronologie du projet et réaliser une planification du scénario d’exécution sans valider les modifications apportées à la base de données en sélectionnant l’option Enregistrer manuellement dans la barre d’outils de la liste des tâches. </p> <p>Le nouveau graphique de Gantt est interactif quand vous utilisez l’option d’enregistrement automatique de vos modifications au fur et à mesure. </p> <p>Le nouveau graphique de Gantt de la liste des tâches est fiable, car il repose sur les technologies les plus récentes. Il se trouve directement dans la liste des tâches et est facilement accessible lorsque vous travaillez dessus, puisque vous n’avez pas à changer d’onglet ni de vue. </p> <p>Bien que le nouveau graphique Gantt offre les mêmes fonctionnalités que l’ancien graphique, certaines différences existent toutefois. </p> <p> Le sous-onglet Ancien graphique Gantt d’une liste de tâches de modèle sur un modèle, la vue de l’ancien graphique Gantt de l’onglet Sous-tâches d’une tâche de modèle et l’ancien graphique Gantt d’un rapport Tâche de modèle ont également été remplacés par le graphique de Gantt HTML. </p> <p>Si vous utilisez l’ancien graphique Gantt principalement pour l’affichage simple et les modifications rapides, mais que vous n’utilisez pas le graphique réel, la nouvelle option Planification chronologique permet d’apporter rapidement des modifications aux champs de planification clés. Vous pouvez sélectionner Planification chronologique au lieu de l’enregistrement automatiquement dans la barre d’outils de la liste des tâches.</p> <p>Pour plus d’informations sur l’enregistrement d’une liste de tâches à l’aide de l’option Planification chronologique, consultez la section « Enregistrer manuellement les modifications dans une liste de tâches lors de la sélection de l’option Planification chronologique » de l’article <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Modifier les tâches dans une liste</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Ancien graphique Gantt pour une liste de projets</strong> </p> <p>L’ancien graphique Gantt sur la liste des projets vous permet d’afficher vos projets et tâches sur un seul écran. Sans quitter le contexte de la liste des projets, vous pouvez afficher les détails des tâches d’un projet, ainsi que les dépendances entre les projets. L’ancien graphique Gantt sur la liste des projets était basé sur la technologie Flash, qui présentait des risques pour la sécurité. </p> </td> 

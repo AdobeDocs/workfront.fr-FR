@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '5237'
 ht-degree: 99%
@@ -272,7 +274,8 @@ Voir aussi [Notifications : demandes que j’ai effectuées](../../../workfront
 <!--
       DRAFTED IN FLARE:
        For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## Communication
 
@@ -356,7 +359,8 @@ Voir aussi [Notifications : communication](../../../workfront-basics/using-noti
 
 <!--
       DRAFTED IN FLARE: for the directed update above, it also mentions:
-        ... and is not the same user that enters the update-->
+        ... and is not the same user that enters the update
+        -->
 
 ## Informations sur l’approbation
 
@@ -531,7 +535,8 @@ Voir aussi [Notifications : informations sur le travail qui m’a été affect�
 <!--
       DRAFTED IN FLARE: from the Request document add to issue assigned to: 
         For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## Informations sur les projets auxquels je participe
 
@@ -604,8 +609,8 @@ Voir aussi [Notifications : informations sur les projets sur lesquels je travai
      <tr> 
    <td> <p>Projet</p> </td> 
    <td> <p>Statut actuel du projet</p> </td> 
-   <td> <p>Membres de l’équipe assignée</p> </td> 
-   <td> <p>Un projet sur lequel mon équipe travaille devient actif.</p> <p>Les membres d’une équipe Workfront affectée reçoivent une notification par e-mail lorsque le projet qui leur est affecté devient actif.</p> </td> 
+   <td> <p>Membres de l’équipe affectée</p> </td> 
+   <td> <p>Un projet auquel mon équipe participe est devenu actif.</p> <p>Les membres d’une équipe Workfront affectée reçoivent une notification par e-mail lorsque le projet qui leur a été affecté devient actif.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 

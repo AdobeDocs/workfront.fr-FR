@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 98%
@@ -180,7 +182,7 @@ Pour plus d’informations sur la configuration et l’utilisation de l’applic
 >
 >* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront`
 >* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (centre de données de l&#39;UE)
->* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Azure Data Center)
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Centre de données Azure)
 
 {{step-1-to-setup}}
 
@@ -314,9 +316,11 @@ Pour plus d’informations sur la configuration et l’utilisation de l’applic
    </tbody> 
    </table>
 
-   <!-- removed this from the table, and added "Developer name" and following rows:
+   <!--
+    removed this from the table, and added "Developer name" and following rows:
    [!UICONTROL App Description URL]</td> 
-      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
+      <td>This can be a link to an "About us" page or a page with more information about the integration.>
+      -->
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 

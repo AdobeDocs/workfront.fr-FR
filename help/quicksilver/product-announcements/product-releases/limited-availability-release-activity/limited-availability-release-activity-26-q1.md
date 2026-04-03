@@ -8,15 +8,17 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-
-# Activité de la version du premier trimestre 2026 pour les fonctionnalités à disponibilité limitée d’Adobe Workfront
+# Activité de publication du premier trimestre 2026 des fonctionnalités de disponibilité limitée d’Adobe Workfront
 
 Cet article décrit la disponibilité limitée des fonctionnalités de Workfront publiées au cours du premier trimestre de 2026.
 
@@ -61,19 +63,20 @@ Dans la recherche avancée Affectations avancées, la sélection d&#39;une optio
 
 L’indicateur de performance clé Heures planifiées de l’écran Affectations avancées n’est plus modifiable lorsque la durée de la tâche est de 0. Auparavant, vous pouviez modifier les heures prévues, mais les modifications n’étaient pas enregistrées.
 
-### Semaine des mises à jour de maintenance du 30 novembre au 6 décembre 2025
+### Mises à jour de maintenance, semaine du 30 novembre au 6 décembre 2025
 
 **Le champ Date du taux de change est masqué lorsque les taux de change effectifs à la date ne sont pas utilisés**
 
 Le champ **Date du taux de change** de la zone Détails du projet > Finances est désormais masqué lorsque la case **Utiliser des taux de change effectifs à la date du système** n&#39;est pas cochée. Auparavant, lors de la modification d’un projet, le champ de date s’affichait dans les détails du projet même lorsque les taux de change en vigueur à la date n’étaient pas activés.
 
-### Semaine des mises à jour de maintenance du 4 au 10 janvier 2026
+### Mises à jour de maintenance, semaine du 4 au 10 janvier 2026
 
 **Les taux de fonctions autorisent désormais des écarts dans les dates d’entrée en vigueur**
 
 Les dates d’entrée en vigueur sur les taux de fonctions permettent désormais des vides, bien que les dates qui se chevauchent ne soient pas autorisées. Pendant une lacune, d’autres zones de la hiérarchie des taux de facturation sont utilisées pour déterminer le taux de facturation, en fonction du type de revenu d’une tâche.
 
-<!--### Maintenance Updates week of January 11-17, 2026
+<!--
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

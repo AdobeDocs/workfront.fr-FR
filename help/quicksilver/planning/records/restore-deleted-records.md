@@ -6,18 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Restaurer les enregistrements supprimés
+# Restaurer des enregistrements supprimés
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -39,7 +43,7 @@ Pour plus d&#39;informations sur la suppression d&#39;enregistrements, voir [Sup
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
@@ -61,7 +65,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -116,7 +121,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considérations relatives à la récupération des enregistrements supprimés
 
@@ -125,12 +131,12 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * Si les enregistrements supprimés sont liés à d&#39;autres enregistrements, les enregistrements liés ne sont pas supprimés, mais les informations de l&#39;enregistrement supprimé sont également supprimées. La restauration des enregistrements supprimés restaurera les informations des enregistrements connectés.
 * Vous pouvez restaurer des enregistrements en bloc.
 * Lorsque les enregistrements sont supprimés, les informations suivantes sont stockées dans la classe Récemment supprimés :
-   * **Nom** : il s’agit des informations figurant dans le champ de Principal de l’enregistrement. Pour plus d’informations sur les champs de Principal d’enregistrement, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   * **Nom** : il s’agit des informations figurant dans le champ de Principal de l’enregistrement. Pour plus d’informations sur les champs de Principal d’enregistrement, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    * **Date de suppression** : l’heure et la date de suppression de l’enregistrement.
    * **Temps écoulé depuis la suppression récente** : temps écoulé depuis la suppression de l’enregistrement. Les enregistrements supprimés plus de 30 jours avant la date actuelle ne s&#39;affichent pas dans la classe Récemment supprimés.
    * **Supprimé par** : nom de l’utilisateur qui a supprimé l’enregistrement.
 
-## Restaurer les enregistrements supprimés
+## Restaurer des enregistrements supprimés
 
 1. Accédez à la page de type d’enregistrement dans laquelle vous avez supprimé des enregistrements.
 1. Cliquez sur l’icône **Annuler** ![Icône Annuler](assets/undo-icon.png) dans le coin supérieur droit de n’importe quel type d’enregistrement affiché sur la page, puis cliquez sur **Récemment supprimé**.

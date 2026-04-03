@@ -1,18 +1,20 @@
 ---
-title: Améliorations des demandes pour le quatrième trimestre 2025
-description: Améliorations des demandes pour le quatrième trimestre 2025
+title: Améliorations apportées aux requêtes lors du quatrième trimestre 2025
+description: Améliorations apportées aux requêtes lors du quatrième trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
-# Améliorations des demandes pour le quatrième trimestre 2025
+# Améliorations apportées aux requêtes lors du quatrième trimestre 2025
 
 Cette page décrit les améliorations apportées aux demandes à l’environnement de Prévisualisation avec la version du quatrième trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
@@ -22,9 +24,9 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 
 >[!NOTE]
 >
->Aperçu : 2 octobre 2025
->&#x200B;>Version rapide de production : 15 octobre 2025
->&#x200B;>Production pour tous : 16 octobre 2025
+>Prévisualisation : vendredi 2 octobre 2025
+>Version rapide de production : jeudi 15 octobre 2025
+>Production pour tous : 16 octobre 2025
 
 Pour faciliter la consultation des informations dont vous avez besoin, nous avons ajouté la possibilité de créer et d’enregistrer des vues dans la zone Demandes . Vous pouvez désormais enregistrer une vue, y compris les filtres et les configurations de colonne, et passer d’une vue à l’autre. Un administrateur Workfront peut ajouter la nouvelle vue aux modèles de mise en page.
 
@@ -32,7 +34,8 @@ Auparavant, les filtres et les configurations de colonne ne pouvaient pas être 
 
 Pour obtenir des informations et des instructions, voir [Création de vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-<!--## New combined Status column in unified Request list 
+<!--
+## New combined Status column in unified Request list 
 
 >[!NOTE]
 >
@@ -45,14 +48,15 @@ To simplify the unified request experience, the Status column now displays both 
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+-->
 
 ## Mises à jour de la demande d’expérience
 
 >[!NOTE]
 >
 >* Aperçu : 21 août 2025
->* Mise à jour rapide de la production : 11 septembre 2025
+>* Version rapide de production : vendredi 11 septembre 2025
 >* Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Pour améliorer l’expérience utilisateur lors de la réalisation de requêtes dans Workfront et Workfront Planning, nous avons mis à jour l’expérience de requête.

@@ -6,14 +6,16 @@ description: Vous pouvez tirer parti de la fonctionnalité Agile pour votre proj
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
-# Gérer un projet Agile dans la vue Tableau
+# Gérer un projet Agile dans la vue Panorama
 
 <!-- Audited: 11/2025 -->
 
@@ -63,7 +65,8 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 +++
 
-<!--old:
+<!--
+old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,7 +95,8 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
    <td> <p>View permissions to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Affichage d’un projet dans la vue Tableau

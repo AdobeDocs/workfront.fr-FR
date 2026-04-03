@@ -6,7 +6,9 @@ description: Vous pouvez connecter votre travail à votre contenu dans  [!DNL Ex
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 315428ec517b3a6c0edae387b3a866093a49a2b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1713'
 ht-degree: 90%
@@ -122,7 +124,7 @@ Avant de commencer à mapper les champs de métadonnées, vous devez configurer 
 
 Pour configurer les champs de métadonnées, procédez comme suit :
 
-1. Configurez un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe  [!DNL Workfront]  et  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configurez un schéma de métadonnées dans [!DNL Experience Manager Assets] comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe  [!DNL Workfront]  et  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configurez les champs de formulaire personnalisés dans Workfront. [!DNL Workfront] comporte de nombreux champs personnalisés intégrés que vous pouvez utiliser. Cependant, vous pouvez également créer vos propres champs personnalisés, comme expliqué dans la section [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -152,7 +154,7 @@ Vous pouvez mapper n’importe quel champ pris en charge par Workfront à une ba
 
 Une fois les balises créées dans Experience Manager Assets, elles s’affichent dans la liste déroulante Balises de la section Métadonnées. Pour lier un champ à une balise, sélectionnez `xcm:keywords` dans la liste déroulante du champ Experience Manager Assets de la zone de mappage des métadonnées.
 
-Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/fr/docs/experience-manager-64/administering/contentmanagement/tags).
+Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Champs de schéma de métadonnées personnalisés Experience Manager Assets**
 
@@ -239,7 +241,8 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
+-->
 
 ## Configurer des workflows (facultatif)
 
@@ -277,7 +280,7 @@ Vous pouvez créer jusqu’à 100 dossiers liés par arborescence de dossiers.
       >
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
-   1. Pour ajouter un dossier imbriqué à l’arborescence de dossiers, cliquez sur le menu à trois points en regard du dossier dans lequel vous souhaitez créer un dossier imbriqué, puis sélectionnez Ajouter un dossier. **&#x200B;**&#x200B;Renseignez les champs comme décrit à l’étape précédente.
+   1. Pour ajouter un dossier imbriqué à l’arborescence de dossiers, cliquez sur le menu à trois points en regard du dossier dans lequel vous souhaitez créer un dossier imbriqué, puis sélectionnez Ajouter un dossier. **** Renseignez les champs comme décrit à l’étape précédente.
    1. Pour lier un dossier à Workfront, sélectionnez-le et cliquez sur l’icône **Créer un dossier lié** ![Link folder](assets/link-folder.png).
    1. (Facultatif) Pour modifier un dossier, sélectionnez-le, puis cliquez sur l’icône **Modifier le dossier** ![Edit icon](assets/edit-icon.png).
    1. (Facultatif) Pour supprimer un dossier, sélectionnez-le et cliquez sur l’icône **Supprimer le dossier** ![Delete folder](assets/delete-folder.png).

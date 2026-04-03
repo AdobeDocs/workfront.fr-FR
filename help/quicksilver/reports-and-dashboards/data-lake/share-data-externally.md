@@ -7,7 +7,9 @@ description: Workfront Data Connect vous permet d’utiliser les données Workfr
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 10%
@@ -18,7 +20,7 @@ ht-degree: 10%
 
 Workfront Data Connect vous permet d’utiliser les données Workfront de votre organisation avec des outils de Business Intelligence ou de les stocker dans un entrepôt de données externe.
 
-Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord créer une connexion comme décrit dans la section [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Vous devez ensuite ajouter les adresses IP requises à la place sur la liste autorisée de données, comme décrit dans la section [Ajouter des adresses IP à la liste autorisée &#x200B;](#add-ips-to-the-allowlist) ci-dessous.
+Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord créer une connexion comme décrit dans la section [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Vous devez ensuite ajouter les adresses IP requises à la place sur la liste autorisée de données, comme décrit dans la section [Ajouter des adresses IP à la liste autorisée ](#add-ips-to-the-allowlist) ci-dessous.
 
 La plupart des produits nécessitent les informations suivantes sur votre lac de données pour établir une connexion :
 
@@ -78,7 +80,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Dans le panneau de gauche, cliquez sur **Système** > **Connexion aux données**.
 
-1. Placer sur la liste autorisée Cliquez sur l’onglet **Adresses IP autorisées**, puis sur le bouton **Ajouter une adresse IP à votre**.
+1. Cliquez sur l’onglet **Adresses IP autorisées**, puis sur le bouton **Ajouter une adresse IP à votre**.
 
 1. Saisissez le nom de l’adresse IP dans **Description de l’adresse IP** et saisissez l’adresse IP (ou le bloc CIDR) de l’outil que vous souhaitez utiliser dans **Adresse IP**, puis cliquez sur **Ajouter une adresse IP pour Placer sur la liste autorisée**.
 

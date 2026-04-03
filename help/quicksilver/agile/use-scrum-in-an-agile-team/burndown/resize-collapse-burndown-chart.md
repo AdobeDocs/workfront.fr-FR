@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Redimensionner et réduire le graphique de gravure
+title: Redimensionner et réduire le graphique d'avancement
 description: Vous pouvez redimensionner ou réduire le graphique d’avancement pour ajuster la place qu’il occupe sur le storyboard.
 author: Courtney
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 94%
@@ -35,7 +37,7 @@ Toute modification apportée à la taille ou à la visibilité du graphique d’
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Clair ou supérieur</p> 
+   <td> <p>Léger ou supérieur</p> 
    <p>Révision ou supérieur</p> </td> 
   </tr>
  </tbody> 
@@ -53,7 +55,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Accédez à l’itération qui contient le graphique d’avancement que vous souhaitez redimensionner.
 1. Passez la souris sur la ligne inférieure du graphique d’avancement, puis faites glisser le graphique jusqu’à la taille souhaitée.
-   ![Redimensionner le graphique de gravure](assets/burndown-resize.png)
+   ![Redimensionner le graphique d&#39;avancement](assets/burndown-resize.png)
 
 ## Réduire le graphique d’avancement
 

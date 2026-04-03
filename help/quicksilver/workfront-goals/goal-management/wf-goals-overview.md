@@ -7,10 +7,12 @@ description: Les Objectifs Workfront vous aident à définir, communiquer et att
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 84%
+ht-degree: 92%
 
 ---
 
@@ -20,13 +22,14 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>Votre entreprise peut choisir de continuer à utiliser les Objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant ou représentante de compte.
 >
->Adobe Workfront Goals ne peut plus être acheté.
+>Objectifs Adobe Workfront ne peut plus être acheté.
 >
 >Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old: 
+<!--
+Old: 
 
 >[!IMPORTANT]
 >

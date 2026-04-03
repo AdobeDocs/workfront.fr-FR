@@ -6,7 +6,9 @@ description: Vous pouvez ajouter une mise à jour ou répondre aux mises à jour
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 69%
@@ -83,7 +85,7 @@ Dans la zone Mises à jour, lorsque vous répondez à un commentaire d’une per
 
 ## Ajouter une mise à jour à un document dans la zone des nouveaux documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 1. Accédez à l’objet qui contient le document, puis sélectionnez **Documents** dans le panneau de gauche.
 1. Recherchez le document dont vous avez besoin, puis cliquez sur l’icône de commentaire ![icône de commentaire](assets/new-doc-comment-icon.png) pour ouvrir le panneau Commentaires .

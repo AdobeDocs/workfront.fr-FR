@@ -6,10 +6,12 @@ description: Vous pouvez charger vos panoramas d’art en tant que documents pou
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +27,8 @@ Vous pouvez charger vos projets sous forme de documents pour les réviser et les
  <col> 
  <col> 
  <tbody> 
-  <!-- <tr> 
+  <!--
+   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any </td> 
   </tr> 
@@ -35,7 +38,8 @@ Vous pouvez charger vos projets sous forme de documents pour les réviser et les
    <p>Standard</p>
    <p>Work or higher</p> </td> 
   </tr> 
-  <tr> -->
+  <tr>
+  -->
    <td role="rowheader">Produits supplémentaires</td> 
    <td>Vous devez disposer d’une licence [!DNL Adobe Creative Cloud] en plus d’une licence [!DNL Workfront].</td> 
   </tr> 

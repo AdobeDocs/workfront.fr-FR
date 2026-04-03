@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Affichage : Heures avec informations sur la tâche parent'
+title: 'Afficher : heures avec les informations sur la tâche parent'
 description: Cette vue des heures affiche le nom de la tâche pour laquelle les heures ont été enregistrées, ainsi que le nom de la tâche parent.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c24555fc-3bae-451b-8a44-28a8158199d1
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 72%
@@ -61,10 +63,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Accédez à une liste d’heures.
 1. Dans le menu déroulant **Affichage**, sélectionnez **Nouvel affichage**.
 
-1. Dans la zone **Aperçu de colonne**, éliminez toutes les colonnes, à l&#39;exception d&#39;une seule.
+1. Dans la zone **Aperçu des colonnes**, éliminez toutes les colonnes à l’exception d’une seule.
 1. Cliquez sur l’en-tête de la colonne restante, puis cliquez sur **Basculer en mode texte**.
 1. Cliquez sur **Modifier le mode texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Mode Modifier le texte** et remplacez-le par le code suivant :
+1. Supprimez le texte de la zone **Modifier le mode texte** et remplacez-le par le code suivant :
 
 
 

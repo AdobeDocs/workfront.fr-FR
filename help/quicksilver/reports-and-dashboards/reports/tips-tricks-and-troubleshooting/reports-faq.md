@@ -7,7 +7,9 @@ description: Questions fréquentes sur les rapports
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 86%
@@ -166,7 +168,7 @@ Toutefois, certains éléments peuvent empêcher l’affichage de ces liens :
 * Si vous avez un **Vue** appliquée à ces listes dans lesquelles une devise est sélectionnée autre que la devise par défaut du projet, les liens ne s’affichent pas. Modifiez la **Vue** en **Devise originale du projet** et les liens devraient s’afficher afin que vous puissiez ajouter des problèmes et des tâches à vos projets.\
   Pour plus d’informations sur la modification de la devise dans votre vue, voir [Créer des rapports de données financières avec des taux de change uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-![Devise du projet &#x200B;](assets/nwe-project-original-currency-350x229.png)
+![Devise du projet ](assets/nwe-project-original-currency-350x229.png)
 
 ## Les informations de mon rapport ou de mon tableau de bord sont-elles actualisées automatiquement ?
 

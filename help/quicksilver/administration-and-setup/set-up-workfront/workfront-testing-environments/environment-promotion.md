@@ -9,7 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2088'
 ht-degree: 99%
@@ -32,13 +34,13 @@ Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
    <td> <p>Prime ou Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Workfront</strong>
+   <td><strong>Licences </strong>
    </td>
    <td> <p>Standard</p>&gt;
    </td>
@@ -918,7 +920,7 @@ _Vide_
 Il s’agit d’un processus en 3 étapes.
 
 1. Créez une carte de traduction (analogue à la phase de « préparation de l’installation »).
-1. Modifiez la carte de traduction générée, en définissant les champs  et  pour tout objet qui doit être remplacé. `action` `targetId` L’action doit être `OVERWRITING`, et le `targetId` doit être l’UUID de l’objet qui doit être remplacé.
+1. Modifiez la carte de traduction générée, en définissant les champs  et  pour tout objet qui doit être remplacé. `action``targetId` L’action doit être `OVERWRITING`, et le `targetId` doit être l’UUID de l’objet qui doit être remplacé.
 1. Exécutez l’installation.
 
 * [Étape 1 : créer une carte de traduction](#step-1---create-a-translation-map)
@@ -1117,7 +1119,8 @@ La réponse comprend `{uuid of the created installation}` et un statut `202 - AC
 
 Exemple : `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
-<!--table templates
+<!--
+table templates
 
 <table style="table-layout:auto"> 
  <col> 

@@ -6,7 +6,9 @@ description: Vous pouvez répondre aux notifications par e-mail Workfront géné
 author: Courtney and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 98%
@@ -82,7 +84,8 @@ Pour plus d’informations, consultez les [Conditions d’accès de la documenta
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -105,7 +108,8 @@ Pour plus d’informations, consultez les [Conditions d’accès de la documenta
    <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Répondre à une mise à jour à partir d’une notification par e-mail
 

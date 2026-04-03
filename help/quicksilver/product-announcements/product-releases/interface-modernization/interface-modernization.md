@@ -1,18 +1,20 @@
 ---
-title: Modernisation des interfaces
+title: Modernisation de l’interface
 description: Cette page répertorie les mises à jour de l’interface que nous effectuons dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobe.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '9443'
 ht-degree: 2%
 
 ---
 
-# Modernisation des interfaces
+# Modernisation de l’interface
 
 Cette page répertorie les mises à jour de l’interface que nous effectuons dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobe. Ces modifications sont principalement visuelles et ne modifient pas considérablement les workflows, sauf indication contraire.
 
@@ -409,7 +411,8 @@ Nous avons mis à jour l&#39;aspect d&#39;une liste de projets ou d&#39;un rappo
 
 La liste ou le rapport de projet correspond désormais à la conception d’autres zones de Workfront. Pour plus d’informations, voir [Utilisation de la vue Jalon](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-<!--### Interface updates for the Edit Tasks box
+<!--
+### Interface updates for the Edit Tasks box
 
 **Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
 
@@ -421,7 +424,8 @@ The following changes are included in this update:
 
 *The Resource Scope field has been removed from the Edit task box.  
 
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+-->
 
 ### Mise à jour de l’interface lors de la modification en bloc de modèles
 
@@ -529,13 +533,15 @@ Nous avons mis à jour l’aspect de la section Détails de la file d’attente 
 
 Pour plus d’informations, voir [Créer une file d’attente des demandes](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--### Interface updates when bulk editing templates
+<!--
+### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
 We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
 
-For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+-->
 
 ### Mises à jour des interfaces pour la zone Envoyer la mise à jour à l’utilisateur sur plusieurs objets
 
@@ -826,7 +832,7 @@ Pour plus d’informations, voir [Configurer les informations de base de votre s
 
 Nous avons mis à jour la page Importer des données (Kick-Starts) dans la zone Configuration avec une conception plus moderne et cohérente avec les autres zones de Workfront. En outre, le processus d’importation Kickstart a été simplifié afin que le fichier sélectionné soit chargé immédiatement. Il n’est plus nécessaire de cliquer sur un bouton **Charger** distinct pour terminer l’importation après avoir choisi le fichier.
 
-Pour plus d’informations, voir [&#x200B; Importer des données dans Workfront à l’aide d’un modèle Kickstart &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Pour plus d’informations, voir [ Importer des données dans Workfront à l’aide d’un modèle Kickstart ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Mises à jour de l&#39;interface de la liste des types de dépenses
 
@@ -932,7 +938,8 @@ Nous avons mis à jour la page que vous utilisez pour accorder l’accès à l�
 
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
 
-For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).-->
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+-->
 
 
 ### Modifications de l&#39;apparence des zones Nouveau groupe de rubriques et Modifier le groupe de rubriques d&#39;un projet
@@ -981,7 +988,7 @@ Pour plus d’informations, voir [Créer et modifier des risques dans les projet
 
 Nous avons mis à jour l’aspect de la zone Copier le modèle pour qu’elle corresponde à la conception d’autres zones de Workfront.
 
-Pour plus d’informations, voir [&#x200B; Copier un modèle de projet &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+Pour plus d’informations, voir [ Copier un modèle de projet ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
 
 +++
@@ -1449,7 +1456,7 @@ Cette mise à jour inclut des modifications visuelles des listes et des barres d
 * Tâches de modèles
 * Groupes de sujets
 * Cartes de score
-* Planifications
+* Plannings
 
 Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

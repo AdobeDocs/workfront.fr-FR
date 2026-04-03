@@ -6,7 +6,9 @@ description: Vous pouvez incorporer une nouvelle file d’attente des demandes d
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 98%
@@ -157,7 +159,7 @@ Vous pouvez incorporer un lien vers la file d’attente des demandes ou vers une
 
 1. Cliquez sur **Ajouter une page externe**.
 
-   ![&#x200B; Page externe &#x200B;](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![ Page externe ](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. Dans la zone **Ajouter une page externe**, modifiez les champs suivants :
 

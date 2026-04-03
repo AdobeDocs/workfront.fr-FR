@@ -7,7 +7,9 @@ description: Vous pouvez afficher uniquement les éléments ayant un certain sta
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 77%
@@ -63,11 +65,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Accédez à une liste de projets.
 1. Dans le menu déroulant **Filtre**, sélectionnez **Nouveau filtre**.
-1. Choisissez de filtrer par **Projet : État**, puis sélectionnez l&#39;état par lequel vous souhaitez filtrer dans la liste.
+1. Choisissez de filtrer par **Projet : statut**, puis sélectionnez le statut en fonction duquel vous souhaitez effectuer le filtrage dans la liste.
 
    Par exemple, dans un rapport de projet, ajoutez **Statut égal à planification**, si vous souhaitez afficher uniquement les projets dont le statut est **Planification - Approbation en attente**.
 1. Cliquez sur **Mode texte**.
-1. Modifiez la ligne `status` en ajoutant **:A** à la clé à 3 lettres de l&#39;état :
+1. Modifiez la ligne de `status` en ajoutant **:A** à la clé de 3 lettres du statut :
    <pre>status=PLN:A<br>status_Mod=in</pre>
 
 1. Cliquez sur **Appliquer** > **Enregistrer comme nouveau**.

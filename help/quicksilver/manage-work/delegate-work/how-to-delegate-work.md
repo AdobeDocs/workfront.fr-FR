@@ -6,7 +6,9 @@ description: Vous pouvez déléguer temporairement le travail qui vous est confi
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1547'
 ht-degree: 80%
@@ -61,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure</p><p>Révision ou supérieur</p>
+   <td> <p>Contributeur ou supérieur</p><p>Révision ou supérieur</p>
 
 >[!NOTE]
 >
@@ -85,7 +87,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<!--note from the table for Object permissions:
+<!--
+note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
@@ -192,7 +195,8 @@ Vous pouvez laisser une délégation expirer si vous avez sélectionné une date
 
 ## Localiser le travail délégué et les informations sur les personnes déléguées
 
-<!--(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
+<!--
+(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
 -->
 
 Lorsque des tâches et des problèmes sont délégués, plusieurs zones de [!DNL Workfront] vous permettent de voir le travail délégué ou l’identité des personnes déléguées.

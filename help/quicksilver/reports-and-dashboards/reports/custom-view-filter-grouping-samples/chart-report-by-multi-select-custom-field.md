@@ -7,7 +7,9 @@ description: Vous ne pouvez tracer un rapport en fonction d’un champ personnal
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 80%
@@ -134,12 +136,14 @@ Pour créer le champ personnalisé calculé qui fait référence au champ person
 1. (Facultatif) Pour vous assurer que tous les champs calculés en fonction desquels vous souhaitez créer un graphique sont renseignés avec des valeurs, vous devez recalculer les expressions personnalisées sur tous les objets de votre rapport.
 Pour plus d’informations sur le recalcul des expressions, voir [Modifier les informations dans les champs personnalisés](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   <!--
+   from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
    1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
    ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**.
+   -->
 
 1. Accédez au rapport dans lequel vous souhaitez ajouter le graphique pour le champ calculé qui fait référence au champ personnalisé multi-sélection.
 1. Cliquez sur **Actions de rapport**, puis sur **Modifier**.

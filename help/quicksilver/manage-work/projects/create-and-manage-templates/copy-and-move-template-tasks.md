@@ -6,7 +6,9 @@ description: Vous pouvez copier ou déplacer une tâche de modèle dans le même
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2090'
 ht-degree: 94%
@@ -26,7 +28,7 @@ Vous pouvez copier une tâche de modèle vers un autre modèle ou la déplacer v
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +51,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,7 +75,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    <td> <p>Manage permissions to a template.</p> <p>You cannot share a template task.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considérations relatives à la copie ou au déplacement des tâches de modèle
 

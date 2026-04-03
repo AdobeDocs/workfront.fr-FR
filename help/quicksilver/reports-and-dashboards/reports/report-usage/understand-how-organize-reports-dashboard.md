@@ -7,7 +7,9 @@ description: Vous pouvez voir si un rapport est ajouté à un tableau de bord da
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 93%
@@ -72,7 +74,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Pour créer une vue contenant les informations sur les tableaux de bord pour une liste de rapports :
 
-1. Cliquez sur l&#39;icône **Menu principal** ![Icône de menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
 1. Dans la liste des rapports, cliquez sur le menu déroulant **Affichage**.
 1. Cliquez sur **Nouvelle vue**.
 1. Cliquez sur **Ajouter une colonne**.
@@ -87,7 +89,7 @@ Pour créer une vue contenant les informations sur les tableaux de bord pour une
 
 Pour filtrer une liste de rapports par informations sur les tableaux de bord :
 
-1. Cliquez sur l&#39;icône **Menu principal** ![Icône de menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis cliquez sur **Rapports**.
 
 1. Dans la liste des rapports, cliquez sur le menu déroulant **Filtrer**.
 1. Cliquez sur **Nouveau filtre**, puis sur **Ajouter une règle de filtre**.

@@ -6,7 +6,9 @@ description: Vous pouvez ajouter à un tableau de bord de la zone de travail un 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 9%
@@ -161,7 +163,7 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 
 Pour configurer la section **Filtre**, procédez comme suit :
 
-1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**![&#x200B; Filtrer](assets/filter-icon.png).
+1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**![ Filtrer](assets/filter-icon.png).
 1. Sélectionnez **Modifier le filtre**.
 1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre.
 1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.

@@ -6,18 +6,22 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '593'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
 # Vue d’ensemble de la section Historique
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -42,14 +46,14 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Contributeur ou version ultérieure</p>
+   <td><p>Contributeur ou supérieur</p>
    </td> 
   </tr> 
   <tr> 
@@ -71,7 +75,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++  
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -133,7 +138,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 </td>
   </tr>
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Rechercher la section Historique d’un enregistrement
 

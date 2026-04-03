@@ -6,7 +6,9 @@ description: Vous pouvez lier manuellement la résolution d’un problème à la
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 95%
@@ -39,7 +41,7 @@ Pour plus d’informations sur les objets de résolution et les objets résolvab
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Contributeur ou version ultérieure</p> 
+   <td><p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +59,8 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +83,8 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
    <td> <p>Manage permissions to the issue you link to another issue, task, or project</p> <p>View or higher permissions to the issue, task, or project you add to the existing issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Conditions préalables
 

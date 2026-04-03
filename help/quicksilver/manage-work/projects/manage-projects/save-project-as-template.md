@@ -6,7 +6,9 @@ description: « Enregistrer un projet en tant que modèle » au niveau du projet
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 54%
@@ -66,7 +68,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,7 +95,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Enregistrer un projet en tant que modèle
 
@@ -189,7 +193,7 @@ Saving a project as a template differs in the Production and the Preview environ
     </tbody> 
    </table>
 
-1. Cliquez sur **Forms personnalisé** dans le panneau de gauche pour supprimer ou réorganiser les formulaires.
+1. Cliquez sur Forms personnalisé&#x200B;**dans le panneau de gauche pour supprimer ou réorganiser les formulaires.**
 
    Pour réorganiser les formulaires, faites-les glisser et déposez-les dans l’ordre approprié.
 Pour supprimer un formulaire, sélectionnez-le, puis cliquez sur **Supprimer**. Cliquez sur **Annuler** pour supprimer les formulaires sélectionnés.

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 53%
+ht-degree: 55%
 
 ---
 
-# Personnalisation du panneau Résumé à l’aide d’un modèle de mise en page
+# Personnaliser le panneau Résumé à l’aide d’un modèle de mise en page
 
 <!--Audited: 11/2024-->
 
@@ -66,7 +68,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Personnalisation du panneau Résumé à l’aide d’un modèle de mise en page
+## Personnaliser le panneau Résumé à l’aide d’un modèle de mise en page
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -93,7 +95,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     </tbody> 
    </table>
 
-<!--These were removed with the new Home: 
+<!--
+These were removed with the new Home: 
 
 <tr> 
       <td role="rowheader">Projects</td> 
@@ -116,7 +119,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> -->
+     </tr>
+     -->
 
 
 >[!IMPORTANT]

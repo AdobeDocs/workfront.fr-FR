@@ -6,7 +6,9 @@ description: Vous pouvez supprimer un filtre, une vue ou un regroupement des lis
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 96%
@@ -107,7 +109,7 @@ Les scénarios suivants existent lorsque vous supprimez un filtre, une vue ou un
 ### Supprimer un filtre, une vue ou un regroupement à l’aide de l’interface de création héritée
 
 1. Accédez à une liste d’objets ou à un rapport.
-1. (Conditionnel) Dans une liste, cliquez sur l&#39;icône **Filtre**, **Affichage** ou **Regroupement**, puis survolez le filtre, l&#39;affichage ou le regroupement que vous souhaitez supprimer, cliquez sur l&#39;icône **Plus** ![Plus](assets/more-icon.png), puis **Supprimer**. Le filtre, la vue ou le regroupement est supprimé(e).
+1. (Conditionnel) Dans une liste, cliquez sur l’icône **Filtre**, **Affichage** ou **Regroupement**, puis survolez le filtre, la vue ou le regroupement à supprimer et cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis **Supprimer**. Le filtre, la vue ou le regroupement est supprimé(e).
 1. (Le cas échéant) Dans un rapport, cliquez sur le menu déroulant **Regroupement**, **Filtre** ou **Vue** et sélectionnez **Supprimer le regroupement**, **Supprimer le filtre** ou **Supprimer la vue**.
 
    La boîte de dialogue **Mes regroupements**, **Mes filtres,** ou **Mes vues** s’affiche.

@@ -6,10 +6,12 @@ description: Lisez cet article pour savoir comment vous connecter à Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -42,13 +44,13 @@ Vous avez besoin des informations suivantes pour vous connecter à [!DNL Adobe W
  </col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td>Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p> </td> 
   </tr> 
  </tbody> 
@@ -66,7 +68,7 @@ Pour vous connecter à [!DNL Workfront] en utilisant votre nom d’utilisateur o
 
 1. Ouvrez une fenêtre de navigateur, puis saisissez l’URL unique de votre entreprise, qui doit avoir le format suivant : **`yourCompanyDomain.my.workfront.com`**.
 
-   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).
+   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] ](../../../workfront-basics/workfront-browser-requirements.md).
 
 1. Dans l’écran de connexion, saisissez votre nom d’utilisateur ou d’utilisatrice et votre mot de passe.
 
@@ -83,7 +85,7 @@ Pour vous connecter à [!DNL Workfront] en utilisant votre nom d’utilisateur o
 
 1. Ouvrez une fenêtre de navigateur.
 
-   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).
+   Pour plus d’informations sur les navigateurs pris en charge par [!DNL Workfront], voir Configuration requise du navigateur [[!DNL Adobe Workfront] ](../../../workfront-basics/workfront-browser-requirements.md).
 
 1. Saisissez l’URL unique de votre entreprise.
 
@@ -100,11 +102,11 @@ Pour vous connecter à [!DNL Workfront] en utilisant votre nom d’utilisateur o
 
 1. Terminez votre connexion.
 
-## Connectez-vous à l’application mobile [!DNL Workfront] à l’aide du domaine de l’entreprise
+## Connectez-vous à l’application mobile [!DNL Workfront] à l’aide du domaine de l’entreprise.
 
 1. Lancez l’application mobile [!DNL Workfront], puis cliquez sur **Se connecter avec le domaine de l’entreprise**.
 
-1. Saisissez le domaine de votre organisation.
+1. Saisissez le domaine de votre entreprise.
 
    Il s’agit du domaine SAML si votre organisation utilise l’authentification unique.
 
@@ -112,7 +114,8 @@ Pour vous connecter à [!DNL Workfront] en utilisant votre nom d’utilisateur o
    >
    >Il s’agit généralement du nom de votre entreprise. En cas de doute, contactez votre administrateur ou administratrice [!DNL Workfront].
 
-<!--1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
+<!--
+1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
 
    The [!DNL Workfront] URL should display in the following format:
    **`yourDomain.my.workfront.com`**
@@ -127,32 +130,33 @@ Pour vous connecter à [!DNL Workfront] en utilisant votre nom d’utilisateur o
 
 1. Tap **[!UICONTROL Continue in browser]**.
 1. Specify the **[!UICONTROL Username]** of your [!DNL Workfront] account or SAML user.
-1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.-->
+1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.
+-->
 
-1. (Sous condition) Si vous vous connectez pour la première fois, une page demandant l’autorisation d’accès à votre compte pour l’application mobile [!DNL Workfront] s’affiche. Cliquez sur **Autoriser l’accès** pour continuer.
+1. (Conditionnel) Si vous vous connectez pour la première fois, une page demandant l’autorisation d’accès à votre compte pour l’application mobile [!DNL Workfront] s’affiche. Cliquez sur **Autoriser l’accès** pour continuer.
 
-1. Vous êtes redirigé vers une page web qui vous permet de vous connecter de manière identique au site Desktop. Ce processus varie en fonction de la configuration Workfront de votre organisation. Pour plus d’informations, reportez-vous à la section [Connexion à [!DNL Workfront] sans SSO](#log-in-to-workfront-without-sso) ou [Connexion à [!DNL Workfront] avec SSO](#log-in-to-workfront-with-sso) ci-dessus.
+1. Vous retombez sur une page web qui vous permet de vous connecter de manière identique au site de bureau. Ce processus varie en fonction de la configuration Workfront de votre organisation. Pour plus d’informations, reportez-vous à la section [Connexion à [!DNL Workfront]  sans SSO](#log-in-to-workfront-without-sso) ou [Connexion à [!DNL Workfront]  avec SSO](#log-in-to-workfront-with-sso) ci-dessus.
 
-   Une fois l’opération terminée, vous êtes redirigé par vers l’application mobile et connecté.
+   Une fois l’opération terminée, vous revenez sur l’application mobile et vous vous connectez.
 
 1. Appuyez sur **[!UICONTROL Ok, j’ai compris]** ou **[!UICONTROL COMMENCER]** pour naviguer dans les tutoriels affichés.
 
    Ces tutoriels ne s’affichent que la première fois que vous accédez à l’application. Ils ne s’affichent à nouveau que lorsque vous désinstallez et réinstallez l’application mobile [!DNL Workfront], ou si vous vous connectez en tant qu’une autre personne. Après avoir fermé les tutoriels, la zone qui s’affiche est celle que vous avez choisi d’afficher
 
-## Connectez-vous à l’application mobile [!DNL Workfront] à l’aide de l’identifiant [!DNL Adobe]
+## Se connecter à l’application mobile [!DNL Workfront] en utilisant un identifiant [!DNL Adobe]
 
-1. Lancez l&#39;application mobile [!DNL Workfront], puis cliquez sur **Se connecter avec [!DNL Adobe] ID**.
+1. Lancez l’application mobile [!DNL Workfront], puis cliquez sur **Se connecter avec un identifiant [!DNL Adobe]**.
 
 >[!NOTE]
 >
->Pour les utilisateurs d’iOS sur IMS, vous pouvez sélectionner **Se connecter avec le domaine de la société** et utiliser le domaine fourni par votre administrateur [!DNL Workfront] pour vous connecter à l’aide de votre identifiant de [!DNL Adobe].
+>Pour les utilisateurs d’iOS sur IMS, vous pouvez sélectionner **Se connecter avec le domaine de l’entreprise** et utiliser le domaine fourni par votre administrateur ou administratrice [!DNL Workfront] pour vous connecter à l’aide de votre identifiant [!DNL Adobe].
 
 1. Saisissez votre adresse e-mail, puis cliquez sur **Continuer**.
 
-1. (Conditionnel) Sélectionnez le compte que vous souhaitez utiliser pour vous connecter. En règle générale, il s’agit du compte **d’entreprise ou d’école** si votre identifiant [!DNL Adobe] est associé à une organisation.
+1. (Conditionnel) Sélectionnez le compte que vous souhaitez utiliser pour vous connecter. En règle générale, il s’agit du **compte d’entreprise ou d’école** si votre identifiant [!DNL Adobe] est associé à une organisation.
 
 1. (Conditionnel) Sélectionnez un profil à utiliser si votre compte est associé à plusieurs organisations.
 
-1. Vous êtes maintenant connecté. Appuyez sur **[!UICONTROL Ok, j’ai compris]** ou **[!UICONTROL COMMENCER]** pour naviguer dans les tutoriels affichés.
+1. Votre connexion est effective. Appuyez sur **[!UICONTROL Ok, j’ai compris]** ou **[!UICONTROL COMMENCER]** pour naviguer dans les tutoriels affichés.
 
    Ces tutoriels ne s’affichent que la première fois que vous accédez à l’application. Ils ne s’affichent à nouveau que lorsque vous désinstallez et réinstallez l’application mobile [!DNL Workfront], ou si vous vous connectez en tant qu’une autre personne. Après avoir fermé les tutoriels, la zone qui s’affiche est celle que vous avez choisi d’afficher

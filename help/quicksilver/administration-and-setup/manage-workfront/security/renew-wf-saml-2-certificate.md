@@ -9,7 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 98%
@@ -26,7 +28,8 @@ ht-degree: 98%
 
 Les serveurs Adobe Workfront utilisent le protocole SAML 2.0 pour l’authentification et l’autorisation. Une fois mis à jour, le nouveau certificat reste valide pendant un an. Lorsque le moment est venu de renouveler le certificat de votre fournisseur d’identité, vous recevez un avertissement dans Workfront vous informant que ce changement doit être effectué. En tant qu’administrateur ou administratrice de Workfront, vous pouvez gérer ce changement au niveau du système.
 
-<!--Use this Important note box in the last few weeks before each update.
+<!--
+Use this Important note box in the last few weeks before each update.
 
 You must take action to update the metadata in your identity provider with the information from the renewed certificate before the specified date. Mismatched certificates can keep your users from logging in to Workfront after November 22, 2022.
  
@@ -45,7 +48,7 @@ You must take action to update the metadata in your identity provider with the i
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

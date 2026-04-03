@@ -7,7 +7,9 @@ description: Ce filtre de tâches renvoie des projets transversaux antérieurs i
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 53%
@@ -57,11 +59,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Pour appliquer ce filtre :
 
-1. Accédez à une liste de tâches ou à un rapport de tâches.
+1. Accédez à une liste de tâches ou à un rapport de tâche.
 1. Dans le menu déroulant **Filtre**, sélectionnez **Nouveau filtre**.
 
-1. (Conditionnel) Cliquez sur **Mode texte** si vous avez accédé au filtre à partir d&#39;une liste ou sur **Passer en mode texte** si vous avez accédé au filtre à partir d&#39;un rapport.
+1. (Conditionnel) Cliquez sur **Mode texte** si vous avez accédé au filtre à partir d’une liste ou **Passer en mode texte** si vous avez accédé au filtre à partir d’un rapport.
 1. Dans la nouvelle zone, collez le code suivant :
    <pre>predecessorsMM:projectID=FIELD:projectID<br>predecessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. (Conditionnel) Cliquez sur **Enregistrer le filtre** si vous avez accédé au filtre à partir d&#39;un rapport, ou sur **Appliquer**, puis sur **Enregistrer en tant que nouveau** si vous avez accédé au filtre à partir d&#39;une liste de tâches.
+1. (Conditionnel) Cliquez sur **Enregistrer le filtre** si vous avez accédé au filtre à partir d’un rapport, ou sur **Appliquer**, puis sur **Enregistrer en tant que nouveau** si vous avez accédé au filtre à partir d’une liste de tâches.

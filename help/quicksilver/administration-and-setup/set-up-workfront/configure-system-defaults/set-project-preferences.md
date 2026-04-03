@@ -8,7 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 88%
@@ -19,9 +21,11 @@ ht-degree: 88%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 En tant que personne membre de l’administration [!DNL Adobe Workfront], vous pouvez configurer les préférences par défaut pour tous les projets créés dans l’ensemble du système. Ces préférences ont un impact sur le comportement du projet, de la tâche et du problème.
@@ -139,7 +143,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Contrôle les données que [!DNL Workfront] utilise pour calculer l’[!UICONTROL Estimate at Completion] (EAC), qui correspond au coût total planifié de votre projet.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong> : l’EAC de la tâche parent et du projet parent est déterminé en saisissant les [!UICONTROL Actual Hours] ou le [!UICONTROL Actual Labor Cost] dans les formules EAC. Le calcul inclut les [!UICONTROL Actual Hours] ou [!UICONTROL Costs and Expenses] ajoutés directement à la tâche parent ou au projet parent.</li> 

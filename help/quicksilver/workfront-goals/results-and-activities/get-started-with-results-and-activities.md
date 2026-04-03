@@ -7,10 +7,12 @@ description: Vous devez ajouter des résultats, des activités ou des objectifs 
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -20,13 +22,14 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Votre entreprise peut choisir de continuer à utiliser les objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant de compte.
+>Votre entreprise peut choisir de continuer à utiliser les Objectifs Adobe Workfront si elle a déjà acheté ce package par le passé. Pour plus de détails, contactez votre représentant ou représentante de compte.
 >
->Adobe Workfront Goals ne peut plus être acheté.
+>Objectifs Adobe Workfront ne peut plus être acheté.
 >
 >Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -43,7 +46,8 @@ ht-degree: 93%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Lorsque vous créez un objectif, celui-ci prend le statut Brouillon. Pour plus d’informations sur la création d’objectifs, voir la section [Créer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
@@ -201,7 +205,7 @@ Le tableau suivant affiche les similitudes et les différences entre les résult
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>Ils fournissent une plage de valeurs entre les valeurs de début et de fin qui indiquent à quel point vous êtes proche de les terminer. La proximité avec la valeur de fin calcule une valeur de progression pour votre objectif. </td> 
    <td>✔</td> 
    <td>✔</td> 

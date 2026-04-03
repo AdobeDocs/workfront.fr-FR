@@ -6,7 +6,9 @@ description: Planifier la remise automatique d’un rapport
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 65%
@@ -34,7 +36,7 @@ Pour plus d’informations, y compris les limites de taille qui peuvent affecter
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -190,7 +192,8 @@ Pour supprimer une diffusion de rapports planifiée, procédez comme suit &#x200
 
 1. Cliquez sur **Supprimer** pour confirmer.
 
-<!--## Video walk-through
+<!--
+## Video walk-through
 
 View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 

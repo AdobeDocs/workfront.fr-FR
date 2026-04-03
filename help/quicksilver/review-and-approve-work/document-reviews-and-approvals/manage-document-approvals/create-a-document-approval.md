@@ -6,7 +6,9 @@ description: Vous pouvez demander l’approbation d’un document à d’autres 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 149c8adcf886f837bc94ac78f8a3ea54c47e375c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 32%
@@ -62,7 +64,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Créez une demande de révision ou d’approbation de document à partir de la page de document dans votre environnement de production
 
 1. Pointez sur le document, puis cliquez sur sélectionnez Détails du document.
-   ![&#x200B; Détails du document &#x200B;](assets/doc-details.png)
+   ![ Détails du document ](assets/doc-details.png)
 
 1. À côté du nom du document, sélectionnez la version du document pour laquelle créer une approbation dans le menu déroulant de la version. La dernière version est sélectionnée par défaut.
 
@@ -144,7 +146,7 @@ Pour créer un workflow de validation :
    >
    >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
 
-   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
+   ![ Détails du document ](assets/new-stage.png)
 
 </div>
 
@@ -187,7 +189,7 @@ Pour créer un workflow de validation :
    >
    >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
 
-   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
+   ![ Détails du document ](assets/new-stage.png)
 
 
 

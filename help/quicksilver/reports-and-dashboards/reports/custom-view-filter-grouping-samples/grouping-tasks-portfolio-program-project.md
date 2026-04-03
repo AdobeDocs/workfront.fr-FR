@@ -7,7 +7,9 @@ description: Utilisez ce regroupement de tâches pour classer les tâches par po
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 75%
@@ -20,7 +22,7 @@ ht-degree: 75%
 
 Utilisez ce regroupement de tâches pour classer les tâches par portfolio, programme, puis par projet auxquels elles sont liées.
 
-![Regroupement de projets de programme de Portfolio](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Regroupement de projets du programme ](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## Conditions d’accès
 
@@ -64,7 +66,7 @@ Pour appliquer ce regroupement :
 1. Cliquez sur **Ajouter un regroupement**.
 
 1. Cliquez sur **Passer en mode texte**.
-1. Supprimez le texte dans la zone **Regrouper par**.
+1. Supprimez le texte de la zone **Regrouper par**.
 1. Remplacez le texte par le code suivant :
 
    ```

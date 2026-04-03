@@ -1,12 +1,14 @@
 ---
 navigation-topic: notifications
-title: Personnalisation des objets d’e-mail pour les notifications d’événements
+title: Personnalisation des objets des e-mails pour les notifications d’événement
 description: Vous pouvez personnaliser la ligne d’objet des e-mails déclenchés par les notifications d’événement.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 89%
@@ -83,11 +85,11 @@ Certaines notifications d’événement comportent plusieurs lignes d’objet, s
 
 Par exemple, « Quelqu’un m’a inclus dans une mise à jour dirigée » comporte deux lignes d’objet différentes : d’abord pour les tâches, les problèmes, les tâches de modèle et les documents (également appelée « referenceObject »), puis pour les objets qui permettent aux utilisateurs et utilisatrices de faire des commentaires, comme un portfolio, un programme, etc. (également appelée « topReferenceObject »).
 
-![L&#39;événement ne doit pas avoir plusieurs lignes d&#39;objet](assets/ev-multiple-subject.png)
+![L’événement ne comporte pas plusieurs lignes d’objet](assets/ev-multiple-subject.png)
 
-Si une personne est incluse dans une conversation sur la tâche, le problème, la tâche de modèle ou le document, un e-mail est généré avec la première ligne d’objet. La ligne d&#39;objet contient « referenceObject:name » et le système définit l&#39;objet et affiche le nom approprié dans le champ d&#39;objet. La ligne d’objet de l’e-mail ressemblerait à ceci : « Commentaire sur la tâche 123 sur le projet ABC ».
+Si une personne est incluse dans une conversation sur la tâche, le problème, la tâche de modèle ou le document, un e-mail est généré avec la première ligne d’objet. La ligne d’objet contient « referenceObject :name » et le système définit l’objet et affiche le nom approprié dans le champ d’objet. La ligne d’objet de l’e-mail ressemblerait à ceci : « Commentaire sur la tâche 123 sur le projet ABC ».
 
-Si elle est ajoutée à une conversation de projet, un e-mail contenant le second objet est généré. Ici, la ligne d&#39;objet contient « topReferenceObject:name ». Là encore, Workfront identifie l&#39;objet référencé et renvoie ce nom d&#39;objet au lieu de « topReferenceObject:name » dans l&#39;objet. La ligne d’objet de l’e-mail ressemble à ceci : « Commentaire sur le projet ABC ».
+Si elle est ajoutée à une conversation de projet, un e-mail contenant le second objet est généré. Ici, la ligne d’objet contient « topReferenceObject :name » et, encore une fois, Workfront identifie l’objet qui a été référencé et renvoie ce nom d’objet au lieu de « topReferenceObject :name » dans l’objet. La ligne d’objet de l’e-mail ressemble à ceci : « Commentaire sur le projet ABC ».
 
 Pour modifier les lignes d’objet de l’e-mail et ajouter des champs supplémentaires à l’une des lignes d’objet, voir la section [Personnaliser les lignes d’objet des e-mails pour les notifications d’événement](#customize-email-subject-lines-for-event-notifications) dans cet article.
 
@@ -99,6 +101,6 @@ Par exemple, la demande d’ajout d’un document à un problème peut déclench
 
 
 
-![L&#39;événement ne doit pas avoir plusieurs lignes d&#39;objet](assets/Ev-not-mult-subj-lines.png)
+![L’événement ne comporte pas plusieurs lignes d’objet](assets/Ev-not-mult-subj-lines.png)
 
 Pour modifier les lignes d’objet de l’e-mail et ajouter des champs supplémentaires à l’une des lignes d’objet, voir la section [Personnaliser les lignes d’objet des e-mails pour les notifications d’événement](#customize-email-subject-lines-for-event-notifications) dans cet article.

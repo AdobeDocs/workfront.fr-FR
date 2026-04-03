@@ -6,10 +6,12 @@ description: Les tâches personnelles sont des demandes de travail ad hoc que vo
 author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -54,7 +56,7 @@ Quelle que soit la manière dont vous ajoutez une tâche personnelle, vous pouve
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +80,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -103,7 +106,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
   </tr> 
  
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Créer une demande de travail personnelle
@@ -114,7 +118,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    >
    >Votre administrateur Workfront peut vous empêcher de voir certains utilisateurs lorsqu’ils configurent votre niveau d’accès.
 
-1. Cliquez sur le **&#x200B;**&#x200B;Plus![](assets/more-menu.png) situé à droite du nom de l’utilisateur dans l’en-tête.
+1. Cliquez sur le **** Plus![](assets/more-menu.png) situé à droite du nom de l’utilisateur dans l’en-tête.
 1. Cliquez sur **Envoyer la demande de travail**.
 La zone **Envoyer une demande de travail à l&#39;utilisateur** s&#39;affiche.
 

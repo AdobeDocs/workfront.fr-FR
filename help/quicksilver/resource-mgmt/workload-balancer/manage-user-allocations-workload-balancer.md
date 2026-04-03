@@ -6,7 +6,9 @@ description: En tant que personne gestionnaire de ressources, vous pouvez affect
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2864'
 ht-degree: 88%
@@ -28,7 +30,7 @@ En tant que gestionnaire de ressources, vous pouvez affecter du travail aux util
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr>
   <tr> 
@@ -74,7 +76,8 @@ Le nombre d’heures prévues de la tâche est réparti de manière égale entre
 
 >[!CAUTION]
 >
->L’équilibreur de charge de travail n’affiche <!--up to 1000 Planned Hours per work item per user, and-->’un maximum de 1 000 jours de la durée d’un élément. Les allocations dans l’équilibreur de charge de travail apparaissent comme nulles une fois la limite de 1 000 jours atteinte. Nous vous recommandons de diviser les tâches en sous-tâches plus petites <!--to accommodate a larger number of Planned Hours or--> pour des durées de plus de 1 000 jours.
+>L’équilibreur de charge de travail n’affiche <!--up to 1000 Planned Hours per work item per user, and-->’un maximum de 1 000 jours de la durée d’un élément. Les allocations dans l’équilibreur de charge de travail apparaissent comme nulles une fois la limite de 1 000 jours atteinte. Nous vous recommandons de diviser les tâches en sous-tâches plus petites pour des durées de plus de 1 000 jours.
+<!--to accommodate a larger number of Planned Hours or-->
 
 Tenez compte des points suivants lorsque vous localisez des affectations quotidiennes, hebdomadaires ou mensuelles pour des tâches ou des problèmes dans l’équilibreur de charge de travail :
 

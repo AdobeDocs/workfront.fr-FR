@@ -7,7 +7,9 @@ description: Vous pouvez créer des projets à partir d’initiatives existantes
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 81%
@@ -32,7 +34,7 @@ La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Plan
   <tr> 
    <td> <p>[!DNL Adobe Workfront] paquet</p> </td> 
    <td> 
-   <p>Workfront Ultimate</p>
+   <p>Workfront Ultimate</p>
 <p><b>NOTE</b></p>
 <p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
@@ -44,7 +46,7 @@ La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Plan
   </tr> 
     <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td> <p>Accès à [!UICONTROL Edit] pour les projets [!DNL Scenario Planner] et </p></td> 
+   <td> <p>Accès à [!UICONTROL Edit] pour les projets [!DNL Scenario Planner] et [!UICONTROL]</p></td> 
   </tr> 
   <tr> 
    <td> <p>Autorisations d’objet </p> </td> 
@@ -56,14 +58,15 @@ La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Plan
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +105,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Docu
     </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Conditions préalables

@@ -6,14 +6,16 @@ description: Vous pouvez créer des éléments de travail et des projets à part
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
-# Créer des éléments de travail et des projets à partir de la zone d’Accueil
+# Créer des éléments de travail et des projets à partir de la page d’accueil
 
 Vous pouvez créer des éléments de travail et des projets à partir de la zone [!UICONTROL Accueil].
 
@@ -78,7 +80,7 @@ Pour créer une tâche, procédez comme suit :
 1. Accédez au widget **Tâches**, puis cliquez sur **Ajouter une tâche**.
 1. Saisissez le nom de votre élément de tâche personnel, puis cliquez sur Entrée.
 1. (Facultatif) Cliquez sur l’icône **Date** ![Icône de date](assets/date-icon.png) pour ajouter une date d’échéance à l’élément.
-   ![&#x200B; Mes tâches de travail &#x200B;](assets/my-work-to-dos.png)
+   ![ Mes tâches de travail ](assets/my-work-to-dos.png)
 1. (Facultatif) Créez un rapport ou un filtre de tâche personnel. Pour plus d’informations sur la création d’un filtre de tâche personnel, voir [Filtre : tâche personnelle](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 Vous pouvez afficher vos tâches, ainsi que les tâches des autres utilisateurs, dans le rapport de tâches personnelles.
 
@@ -164,7 +166,8 @@ Vous pouvez créer un projet directement depuis la zone d’Accueil :
 You can create a board directly from the Home area:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**.
+-->
 
 
 
@@ -182,4 +185,5 @@ You can create a board directly from the Home area:
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date.
+-->

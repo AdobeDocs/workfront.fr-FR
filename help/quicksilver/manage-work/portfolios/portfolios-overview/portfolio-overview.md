@@ -7,20 +7,22 @@ description: Un portfolio est un ensemble de projets présentant des caractéris
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 70%
 
 ---
 
-# Comprendre la méthodologie du portefeuille
+# Comprendre la méthodologie des portfolios
 
 <!-- Audited: 1/2024 -->
 
-Portfolio La gestion des Portfolio de projet (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets afin d’atteindre des objectifs commerciaux spécifiques.
+La gestion des Portfolio de projet (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets afin d’atteindre des objectifs commerciaux spécifiques.
 
-Pour obtenir des informations générales sur PPM, consultez [Présentation de la gestion Portfolio](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md).
+Pour obtenir des informations générales sur PPM, consultez [Présentation de la gestion ](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md).
 
 Dans Adobe Workfront, un portfolio est un ensemble de projets présentant des caractéristiques unificatrices. Ces projets sont généralement en concurrence pour les mêmes ressources, le même budget ou le même créneau horaire. Vous pouvez diviser les portfolios en programmes et associer les projets aux programmes avant de les ajouter à un portfolio.
 
@@ -69,7 +71,8 @@ Cet article contient des informations générales sur les portefeuilles dans Wor
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +100,8 @@ Cet article contient des informations générales sur les portefeuilles dans Wor
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Comprendre la méthodologie du portefeuille [!DNL Adobe Workfront]
 

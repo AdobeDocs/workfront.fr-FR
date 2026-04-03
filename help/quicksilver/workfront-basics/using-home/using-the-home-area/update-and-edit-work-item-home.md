@@ -6,7 +6,9 @@ description: Vous pouvez consulter et ajouter des mises à jour à un élément 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 26%
@@ -17,9 +19,11 @@ ht-degree: 26%
 
 <!--Audited: 04/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Vous pouvez consulter et ajouter des mises à jour à un élément de travail dans la zone [!UICONTROL Accueil] d’[!DNL Adobe Workfront]. Vous pouvez également modifier d’autres données liées à l’élément de travail si vous avez le droit de les modifier.
 
@@ -57,7 +61,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<!--not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
+<!--
+not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
 
 ## View updates on a work item
 
@@ -98,7 +103,7 @@ Vous pouvez modifier des éléments de travail dans les widgets suivants de la z
 
 ## Ajouter un commentaire à un élément de travail dans le widget Mes tâches
 
-Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL &#x200B; Mon travail &#x200B;] :
+Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL  Mon travail ] :
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Icône des lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget [!UICONTROL **Mon travail**].

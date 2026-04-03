@@ -6,7 +6,9 @@ description: Collections de référence dans un rapport
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 86%
@@ -266,7 +268,7 @@ Les lignes d’une collection en mode Texte sont décrites dans le tableau suiva
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Il s’agit du délimiteur utilisé pour séparer les valeurs de votre liste.<br>Nous vous recommandons d’utiliser <code>&lt;p&gt;</code> qui ajoute un saut de ligne entre les valeurs.</p> <p>Vous pouvez également utiliser les éléments suivants :</p> <p><code>&zwj;</code> (jointure à largeur nulle).Les valeurs de la collection ne sont pas séparées entre elles.<br><strong>,</strong> =séparateur Virgule.Les valeurs de la collection sont séparées par une virgule suivie d’un espace vide.<br><strong>/</strong> = séparateur Barre oblique.Les valeurs de la collection sont séparées par une barre oblique.<br><strong>-</strong> = séparateur Tiret. Les valeurs de la collection sont séparées par un tiret.<br>Si vous laissez cette ligne vide, une virgule est ajoutée, suivie par défaut d’un espace entre les valeurs de la collection.</p> </td> 
+   <td> <p>Il s’agit du délimiteur utilisé pour séparer les valeurs de votre liste.<br>Nous vous recommandons d’utiliser <code>&lt;p&gt;</code> qui ajoute un saut de ligne entre les valeurs.</p> <p>Vous pouvez également utiliser les éléments suivants :</p> <p><code>&amp;zwj;</code> (jointure à largeur nulle).Les valeurs de la collection ne sont pas séparées entre elles.<br><strong>,</strong> =séparateur Virgule.Les valeurs de la collection sont séparées par une virgule suivie d’un espace vide.<br><strong>/</strong> = séparateur Barre oblique.Les valeurs de la collection sont séparées par une barre oblique.<br><strong>-</strong> = séparateur Tiret. Les valeurs de la collection sont séparées par un tiret.<br>Si vous laissez cette ligne vide, une virgule est ajoutée, suivie par défaut d’un espace entre les valeurs de la collection.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Nom de la.colonne</em> </td> 
@@ -395,7 +397,7 @@ Pour ajouter une référence à une collection dans l’invite personnalisée d�
 1. Cliquez sur **Invites de rapports**.
 1. Cliquez sur **Ajouter une invite**.
 1. Cliquez sur **Invite personnalisée**.
-1. Indiquez le nom de l’invite dans le champ **Field**&#x200B;**name**.
+1. Indiquez le nom de l’invite dans le champ **Field****name**.
 
 1. Indiquez un **Libellé de l’élément de liste déroulante**.
 1. Indiquez les éléments suivants dans le champ **Condition** :

@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 40ca0460-5a01-4df9-b3dc-72055a272072
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 92%
@@ -22,7 +24,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version préliminaire : 6 juin 2024 ; version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)
+>Version préliminaire : 6 juin 2024 ; Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)
 
 Pour ajuster facilement le travail lorsque la personne cessionnaire principale d’une tâche a programmé un congé, l’équilibreur de charge de travail réalloue désormais les heures aux personnes principales et secondaires lorsque la chronologie du projet est recalculée. (Cette fonctionnalité n’est disponible que si l’administration de Workfront a activé le paramètre de congés de l’utilisateur ou de l’utilisatrice dans la zone Configuration pour prendre en compte son délai d’expiration.)
 

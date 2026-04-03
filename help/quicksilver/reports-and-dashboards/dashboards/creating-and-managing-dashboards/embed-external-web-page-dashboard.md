@@ -6,7 +6,9 @@ description: Vous pouvez incorporer une page web externe dans un tableau de bord
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 87%
@@ -24,7 +26,7 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents web, 
 >[!IMPORTANT]
 >
 >* Pour des raisons de sécurité, certains sites web ne vous permettent pas d’incorporer des pages web en tant qu’iframe. Si la page web que vous souhaitez incorporer dans un tableau de bord ne vous le permet pas, elle ne s’affiche pas dans le tableau de bord. Vous pouvez toutefois accéder à la page externe en cliquant sur le nom du tableau de bord.\
->![Empty external page report](assets/qs-empty-external-page-report-350x165.png)\
+>![Rapport de page externe vide](assets/qs-empty-external-page-report-350x165.png)\
 >Pour permettre l’incorporation d’un site web dont vous êtes propriétaire, demandez à votre équipe d’administration web d’ajuster le paramètre **X-Frame-Options**. Pour plus d’informations, voir [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
@@ -32,7 +34,7 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents web, 
 > Plus précisément, les sous-domaines Workfront.com suivants ne sont plus pris en charge :
 >
 >     * /dashboards
->     * /dashboard/:ID&#x200B;
+>     * /dashboard/&#x200B;:ID
 >     * /portfolio/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /program/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /project/:ID/content-dashboard__:dashboardID&#x200B;
@@ -40,9 +42,9 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents web, 
 >     * /template/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /templatetask/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /resourcemanagement/:ID/
->     * content-dashboard__:dashboardID&#x200B;
+>     * content-dashboard__&#x200B;:dashboardID
 >     * /team/:ID/content-dashboard__:dashboardID&#x200B;
->     * /iteration/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /itération/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /requests/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /group/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /billingrecord/:ID/content-dashboard__:dashboardID
@@ -74,7 +76,7 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents web, 
   </tr>  
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Edit access to the Dashboard</p> </td> 
+   <td> <p>Modifier l’accès au tableau de bord</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,7 +113,7 @@ ou,\
 
 1. Cliquez sur **Ajouter une page externe** sous la zone **Sélectionner une disposition/Ajouter des rapports/Ajouter des calendriers**.
 
-   ![Add external page](assets/qs-add-external-page-350x239.png)
+   ![Ajouter une page externe](assets/qs-add-external-page-350x239.png)
 
    La zone **Ajouter une page externe** s’affiche.
 
@@ -125,7 +127,7 @@ ou,\
 
       * URL HTTPS (chiffrée) vers une page web.\
         Seules les pages HTTPS (chiffrées) sont chargées avec l’URL.\
-        ![Add external page dialog](assets/add-external-page-dialog-qs-350x247.png)
+        ![ Boîte de dialogue Ajouter une page externe ](assets/add-external-page-dialog-qs-350x247.png)
 
       * URL de modèle contenant des informations de session pour un site web spécifique.\
         Par exemple : *https://localhost/?session={!$$SESSION}*
@@ -162,11 +164,11 @@ Pour mettre à jour les informations d’une page externe utilisée sur un table
 
    La zone **Détails du tableau de bord** s’ouvre.
 
-1. In the **Select Layout / Add Reports** area of the **Dashboard Details** box, locate the external page you want to update, hover over it, and click the **Edit** icon.\
-   ![Inline edit external page](assets/nwe-inline-edit-external-page-350x226.png)
+1. Dans la zone **Sélectionner la mise en page / Ajouter des rapports** de la zone **Détails du tableau de bord**, recherchez la page externe à mettre à jour, survolez-la avec la souris et cliquez sur l’icône **Modifier**.\
+   ![Modification en ligne d’une page externe](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Dans la zone **Modifier la page externe**, mettez à jour les champs à modifier, puis cliquez sur **Enregistrer**.
-1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete.png) to remove the external page from the dashboard. Pour plus d’informations, voir [Supprimer une page externe d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. (Facultatif) Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) pour supprimer la page externe du tableau de bord. Pour plus d’informations, voir [Supprimer une page externe d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Cliquez sur **Enregistrer + Fermer**.
 
 ## Afficher des pages externes dans un rapport
@@ -175,9 +177,9 @@ Vous pouvez afficher toutes les pages externes de Workfront dans un rapport de p
 
 {{step1-to-reports}}
 
-1. Click **New Report** > select **External Section**.
+1. Cliquez sur **Nouveau rapport** > sélectionnez **Section externe**.
 
-   ![External section](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![Section externe](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Facultatif) Mettez à jour les onglets Vues, Filtres ou Reroupements du rapport.
 
@@ -185,5 +187,5 @@ Vous pouvez afficher toutes les pages externes de Workfront dans un rapport de p
 
 1. Cliquez sur **Enregistrer + Fermer**.
 
-   You can view the name and the URL associated with any external pages in your system in the new report.
+   Vous pouvez afficher le nom et l’URL associés à toute page externe de votre système dans le nouveau rapport.
 

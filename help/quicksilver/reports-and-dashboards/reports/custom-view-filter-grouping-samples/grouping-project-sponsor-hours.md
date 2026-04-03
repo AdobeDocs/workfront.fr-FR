@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Regroupement : commanditaire du projet pour heures'
+title: 'Regroupement : sponsor du projet pour les heures'
 description: Ce regroupement d’heures organise les heures en fonction du sponsor du projet dans lequel les heures sont consignées. L’interface du Report Builder standard pour les regroupements d’heures ne fournit pas de mappage au champ Sponsor du projet. Vous devez utiliser l’interface Mode texte pour accéder à ce champ.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 82%
@@ -63,7 +65,7 @@ Pour appliquer ce regroupement :
 1. Dans le menu déroulant **Regroupement**, sélectionnez **Nouveau regroupement**.
 
 1. Cliquez sur **Basculer en mode texte**.
-1. Supprimez le texte dans la zone qui s’affiche et remplacez-le par le code suivant :
+1. Supprimez le texte de la zone qui s’affiche et remplacez-le par le code suivant :
 
 ```
    group.0.linkedname=project:sponsor:name

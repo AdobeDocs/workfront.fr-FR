@@ -1,12 +1,14 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Supprimer un rapport de calendrier
+title: Suppression d’un rapport de calendrier
 description: Vous pouvez supprimer un calendrier que vous possédez ou que d’autres personnes ont partagé avec vous. Une fois supprimé, le calendrier devient inaccessible pour les personnes avec lesquelles vous l’avez partagé.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 78%
@@ -58,7 +60,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Accédez au calendrier que vous souhaitez supprimer.
 1. Cliquez sur le menu **Plus** en regard du menu déroulant Calendrier.
-   ![menu Calendrier plus](assets/more-menu-calendar.png)
+   ![menu calendrier plus](assets/more-menu-calendar.png)
 
 1. Sélectionnez **[!UICONTROL Supprimer]** dans la liste déroulante.
 1. Cliquez sur **[!UICONTROL Supprimer]**.

@@ -9,7 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 26%
@@ -20,16 +22,20 @@ ht-degree: 26%
 
 <!--Audited: 05/2025-->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
-**Linked to Creating Billing Record-->
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+**Linked to Creating Billing Record
+-->
 
-<!--<div class="preview">
+<!--
+<div class="preview">
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>-->
+</div>
+-->
 
 Les types d’heures sont des libellés que vous utilisez pour définir vos entrées d’heures. Vous pouvez associer des types d&#39;heures à vos entrées d&#39;heures.
 
@@ -45,7 +51,7 @@ Il existe deux catégories de types d&#39;heures :
    * Durée de la tâche
    * Heure de l’événement
 
-  L’administrateur [!DNL Workfront] détermine les types d’heures disponibles spécifiques au projet, comme décrit dans la section [&#x200B; Définir les types d’heures et la disponibilité](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+  L’administrateur [!DNL Workfront] détermine les types d’heures disponibles spécifiques au projet, comme décrit dans la section [ Définir les types d’heures et la disponibilité](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
   >[!NOTE]
   >

@@ -1,5 +1,5 @@
 ---
-title: Comparaison des fonctionnalités entre les modèles de licence
+title: Comparer des fonctionnalités entre les modèles de licence
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 41%
+ht-degree: 44%
 
 ---
 
-# Comparaison des fonctionnalités entre les modèles de licence
+# Comparer des fonctionnalités entre les modèles de licence
 
 Il existe deux types de niveaux d&#39;accès dans Adobe Workfront :
 
@@ -39,8 +41,10 @@ Le tableau suivant présente les fonctionnalités disponibles pour les licences 
   <tr> 
    <th> </th> 
    <th colspan="5">[!UICONTROL Legacy]</th> 
-   <!--<th>[!UICONTROL Requestor]</th> 
-   <th>[!UICONTROL External]</th> -->
+   <!--
+   <th>[!UICONTROL Requestor]</th> 
+   <th>[!UICONTROL External]</th>
+   -->
    <th colspan="3">[!UICONTROL New]</th> 
    </tr> 
  </thead> 
@@ -381,5 +385,7 @@ Le tableau suivant présente les fonctionnalités disponibles pour les licences 
 </table>
 
 
-<!--WFPlanning is Ultimate only>
+<!--
+WFPlanning is Ultimate only>
+-->
 <!--Environment promotion is Prime and Ultimate only-->

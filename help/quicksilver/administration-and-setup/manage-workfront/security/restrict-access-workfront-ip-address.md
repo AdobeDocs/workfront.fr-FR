@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +22,8 @@ ht-degree: 97%
 <!--
 >[!IMPORTANT]
 >
->This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release. -->
+>This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release.
+-->
 
 Vous pouvez configurer une liste autorisée d’adresses IP d’Adobe Workfront qui limite l’accès à Workfront à 75 adresses IP ou plages d’adresses IP que vous spécifiez. Cela fournit une couche supplémentaire de sécurité pour l’application Workfront.
 
@@ -35,7 +38,7 @@ Ces adresses IP ou plages d’adresses doivent être fournies par votre administ
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

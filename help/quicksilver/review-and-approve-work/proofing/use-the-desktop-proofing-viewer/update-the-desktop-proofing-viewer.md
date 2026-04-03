@@ -6,10 +6,12 @@ description: De temps en temps, de nouvelles mises à jour logicielles contenant
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +22,8 @@ De temps en temps, de nouvelles mises à jour logicielles contenant des amélior
 <!--
 >[!IMPORTANT]
 >
->Windows users must manually reinstall the Desktop Proofing Viewer to support Chrome version 91. After manually reinstalling, the Desktop Proofing Viewer upgrades to the latest version (2.0.15). Future updates to the Desktop Proofing Viewer will be automatic. For information in reinstalling, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md). -->
+>Windows users must manually reinstall the Desktop Proofing Viewer to support Chrome version 91. After manually reinstalling, the Desktop Proofing Viewer upgrades to the latest version (2.0.15). Future updates to the Desktop Proofing Viewer will be automatic. For information in reinstalling, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+-->
 
 ## Conditions d’accès
 
@@ -33,7 +36,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +54,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Vérifier manuellement les mises à jour
 
-La visionneuse de relecture de bureau vérifie automatiquement les mises à jour lors de son lancement.-
+La visionneuse de relecture de bureau vérifie automatiquement les mises à jour lors de son lancement. 
 
 Pour vérifier manuellement les mises à jour :
 
@@ -84,4 +87,4 @@ Il est important que vous exécutiez les mises à jour requises pour la visionne
 1. Ouvrez la visionneuse de relecture de bureau.
 1. Dans la boîte de dialogue qui s’affiche, cliquez sur **Relancer**.
 
-   La visionneuse de relecture de bureau est relancée et vous pouvez reprendre le travail sur votre épreuve.-
+   La visionneuse de relecture de bureau est relancée et vous pouvez reprendre le travail sur votre épreuve. 

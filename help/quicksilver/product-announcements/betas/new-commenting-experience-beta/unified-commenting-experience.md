@@ -9,7 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 69%
@@ -61,7 +63,8 @@ Les fonctionnalités suivantes ont été supprimées de la nouvelle expérience 
 * Le paramètre « Afficher le pourcentage terminé pour le statut de la mise à jour » lors de la modification de la zone de profil d’un utilisateur ou d’une utilisatrice sera supprimé. La fonctionnalité de mise à jour du pourcentage terminé d’une tâche ou d’un problème a été supprimée.
 
 
-<!--removed this note on November 28, 2023, when this limitation was removed: 
+<!--
+removed this note on November 28, 2023, when this limitation was removed: 
 
 >[!NOTE]
 >
@@ -401,11 +404,11 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
   </tr>
 </table>
 
-## Calendrier des versions
+## Chronologie des versions
 
 >[!IMPORTANT]
 >
->Pour plus d’informations sur les fonctionnalités ajoutées à la nouvelle expérience de commentaire pendant la période de version bêta, voir [Activité de version bêta de la nouvelle expérience de commentaire](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>Pour plus d’informations sur les fonctionnalités disponibles dans la nouvelle expérience de commentaires au cours de la période Beta, voir [Activité de publication de la nouvelle expérience de commentaires Beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 >
 >Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -501,7 +504,8 @@ Depending on what objects you access the commenting experience for, you might se
 -->
 
 
-<!--before August 17: 
+<!--
+before August 17: 
 
 The new commenting experience is currently supported for the following objects:
 
@@ -522,7 +526,8 @@ The new commenting experience is currently supported for the following objects:
 
 -->
 
-<!--Depending on the environment you access the commenting experience you can do one of the following: 
+<!--
+Depending on the environment you access the commenting experience you can do one of the following: 
 
 * Enable the commenting experience Beta in the Production environment
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>

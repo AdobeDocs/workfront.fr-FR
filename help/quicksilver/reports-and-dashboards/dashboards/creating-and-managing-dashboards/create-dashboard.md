@@ -6,7 +6,9 @@ description: Vous pouvez créer des tableaux de bord pour accéder rapidement au
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 84%
@@ -17,7 +19,7 @@ ht-degree: 84%
 
 <!--Audited: 01/2025-->
 
-Vous pouvez créer des tableaux de bord pour accéder rapidement aux informations dans Adobe Workfront. Jusqu’à 25 rapports, calendriers et pages externes peuvent être ajoutés aux tableaux de bord que vous pouvez partager avec d’autres personnes pour une collaboration optimale.
+Vous pouvez créer des tableaux de bord pour accéder rapidement aux informations dans Adobe Workfront. Vous pouvez ajouter jusqu’à 25 rapports, calendriers et pages externes aux tableaux de bord afin de les partager avec d’autres personnes pour une collaboration optimale.
 
 Pour en savoir plus sur les tableaux de bord, voir [Commencer avec les tableaux de bord](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
@@ -80,7 +82,7 @@ Vous pouvez ajouter des pages externes existantes à un tableau de bord ou en cr
     <tbody>
      <tr>
       <td role="rowheader"><strong>Nom</strong></td>
-      <td><p>Il s’agit du nom de votre tableau de bord. Nous vous recommandons d’utiliser uniquement des caractères UTF-8 pour éviter les problèmes de compatibilité.</p><p>Si vous ne spécifiez aucun nom, le nom du premier rapport du tableau de bord devient, par défaut, celui du tableau de bord.</p></td>
+      <td><p>Il s’agit du nom de votre tableau de bord. Nous vous recommandons d’utiliser uniquement des caractères UTF-8 pour éviter des problèmes de compatibilité.</p><p>Si vous ne spécifiez aucun nom, le nom du premier rapport du tableau de bord devient, par défaut, celui du tableau de bord.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Description (facultative)</strong></td>
@@ -99,7 +101,7 @@ Vous pouvez ajouter des pages externes existantes à un tableau de bord ou en cr
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Dans la section **Rapports et calendriers disponibles**, commencez à saisir le nom d&#39;un rapport, d&#39;un calendrier ou d&#39;une page externe dans la barre de recherche, puis faites glisser et déposez le rapport, le calendrier ou la page externe dans le volet de mise en page à droite.
+1. Dans la section **Rapports et calendriers disponibles**, commencez à saisir le nom d’un rapport, d’un calendrier ou d’une page externe dans la barre de recherche, puis faites glisser et déposez le rapport, le calendrier ou la page externe dans le volet de disposition à droite.
 
    >[!NOTE]
    >

@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2900'
 ht-degree: 95%
@@ -14,7 +16,7 @@ ht-degree: 95%
 ---
 
 
-# Activité de publication de la planification Adobe Workfront pour 2023
+# Activité de publication Adobe Workfront Planning pour 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -28,11 +30,11 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 Le tableau ci-dessous présente la chronologie de la publication de Workfront Planning :
 
-| Heure | Libération |
+| Heure | Version |
 |--------------------|-----------------------------------------|
 | Août - Décembre 2023 | Version bêta de Workfront Planning* |
 | Janvier - Août 2024 | Version préliminaire de Workfront Planning* |
-| 28 août 2024 | Disponibilité générale de Workfront Planning |
+| jeudi 28 août 2024 | Disponibilité générale de Workfront Planning |
 
 *Les phases Beta et de publication anticipée étaient disponibles pour un groupe limité de clients.
 
@@ -144,7 +146,8 @@ Une fois la connexion établie, les fonctionnalités suivantes sont disponibles 
 
 * Les utilisateurs et utilisatrices de la fonctionnalité de planification peuvent afficher le nom des ressources connectées, ainsi que les valeurs des champs connectés dans les fonctionnalités de planification.
 
-<!--removed per PM, for now: 
+<!--
+removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
@@ -343,7 +346,7 @@ Tenez compte des points suivants :
 
 Prévisualisation et production : 7 septembre 2023
 
-Pour augmenter la visibilité des liens dans la vue en tableau, la prise en charge des URL a été ajoutée aux champs de texte d’une seule ligne. Lorsque vous intégrez des URL vers des sites web externes dans un champ de texte d’une ligne, le système les transforme en liens cliquables accessibles à partir de la vue en tableau. Avant cette amélioration, les liens s’affichaient sous forme de texte.
+Pour augmenter la visibilité des liens dans la vue en tableau, la prise en charge des URL a été ajoutée aux champs de texte d’une seule ligne. Lorsque vous saisissez des URL vers d’autres sites web ou des lecteurs externes dans un champ de texte sur une seule ligne, elles sont désormais reconnues comme des liens et peuvent être ouvertes directement depuis le tableau. Avant cette amélioration, les liens s’affichaient sous forme de texte.
 
 ## Semaine du 28 août 2023
 

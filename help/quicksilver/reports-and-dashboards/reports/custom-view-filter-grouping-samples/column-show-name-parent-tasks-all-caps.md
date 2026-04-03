@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Affichage : Afficher le nom des tâches parentes en capitales'
+title: 'Afficher : afficher les majuscules pour le nom des tâches parents'
 description: Vous pouvez ajouter cette colonne à une vue de tâche pour afficher le nom des tâches parent en majuscules.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 69%
@@ -60,12 +62,12 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 Pour créer cette colonne dans une vue de tâche :
 
 1. Accédez à une liste de tâches.
-1. Dans le menu déroulant **Afficher**, sélectionnez une vue, puis cliquez sur l&#39;icône **Modifier** ![Modifier](assets/edit-icon.png).
+1. Dans le menu déroulant **Vue**, sélectionnez une vue, puis cliquez sur l&#39;icône **Modifier** ![Icône Modifier](assets/edit-icon.png).
 Ou\
    Dans le menu déroulant **Vue**, sélectionnez **Nouvelle vue**.
 
-1. Dans la zone **Aperçu de la colonne**, cliquez sur l&#39;en-tête de la colonne qui affiche le nom de la tâche dans la liste.
-1. Cliquez sur **Passer en mode Texte**, puis cliquez sur **Modifier le mode Texte**.
+1. Dans la zone **Aperçu de la colonne**, cliquez sur l’en-tête de la colonne qui affiche le nom de la tâche dans la liste.
+1. Cliquez sur **Basculer en mode texte** puis sur **Modifier le mode texte**.
 1. Supprimez le texte qui se trouve dans la zone **Mode texte** et remplacez-le par le code suivant :
 
    ```

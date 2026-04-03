@@ -6,7 +6,9 @@ description: Par défaut, les utilisateurs et utilisatrices ne peuvent voir que 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 96%
@@ -79,7 +81,7 @@ Pour exécuter un rapport avec les droits d’accès d’une autre personne, pro
 1. Cliquez sur **Paramètres du rapport**.
 
 1. Dans le champ **Exécuter ce rapport avec les droits d’accès suivants :**, commencez à saisir le nom de la personne pour laquelle vous souhaitez que le rapport s’affiche, puis sélectionnez-le lorsqu’il apparaît dans la liste.\
-   ![Exécuter avec les droits d’accès de &#x200B;](assets/unshimmed-access-rights-of.png)
+   ![Exécuter avec les droits d’accès de ](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -109,7 +111,7 @@ Pour remettre un rapport avec les droits d’accès d’une autre personne, proc
 1. Cliquez sur **Envoyer le rapport**.
 
 1. Dans le champ **Diffuser ce rapport avec les droits d’accès de :**, commencez à taper le nom de la personne sous lequelle vous souhaitez que le rapport s’affiche lorsqu’il est envoyé par e-mail, puis sélectionnez-le lorsqu’il apparaît dans la liste. La valeur par défaut est le nom de la personne qui crée le rapport.\
-   ![Rapport envoyé avec droits d’accès de &#x200B;](assets/unshimmed-send-report-access-rights-of.png)
+   ![Rapport envoyé avec droits d’accès de ](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

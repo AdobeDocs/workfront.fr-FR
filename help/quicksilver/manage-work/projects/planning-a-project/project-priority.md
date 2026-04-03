@@ -7,10 +7,12 @@ description: Il existe plusieurs façons d’utiliser les priorités des projets
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +29,7 @@ Il existe plusieurs façons d’utiliser les priorités des projets et elles ne 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +52,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +78,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Types de priorité de projet dans Adobe Workfront
 

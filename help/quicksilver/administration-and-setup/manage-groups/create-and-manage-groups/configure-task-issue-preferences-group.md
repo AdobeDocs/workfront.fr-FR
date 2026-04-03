@@ -9,7 +9,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 85%
@@ -18,9 +20,11 @@ ht-degree: 85%
 
 # Configurer les préférences de tâches et de problèmes pour un groupe
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Si des groupes de votre entreprise doivent configurer une préférence de tâche ou de problème indépendamment de sa configuration au niveau du système, un administrateur ou une administratrice Adobe Workfront peut déverrouiller la préférence. Ensuite, en tant qu’administrateur ou administratrice de groupes, vous pouvez configurer les préférences de votre groupe, ce qui aura une incidence sur toutes les tâches associées ou tous les problèmes associés à votre groupe.
 
@@ -50,7 +54,7 @@ Pour plus d’informations sur le déverrouillage des préférences par l’admi
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -139,10 +143,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion d’un problème en tâche :</p> 
        <ul> 
         <li><strong>Conserver le problème d’origine et lier sa résolution à la tâche</strong> : lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. Le statut du problème passe automatiquement à Fermé lorsque la tâche est terminée.</li> 
-        <li><strong>Autoriser l’interlocuteur principal ou l’interlocutrice principale à accéder à la tâche</strong> : accorde à l’interlocuteur principal ou l’interlocutrice principale (le créateur ou la créatrice du problème) l’accès à la tâche pour l’examiner, apporter des modifications et rester informé de sa progression.</li> 
-        <li> <p><strong>Autoriser la modification de ces paramètres lors de la conversion</strong> : permet à l’utilisateur ou l’utilisatrice qui convertit le problème de modifier ces options lors de la conversion d’un problème en tâche.</p> <!--
+        <li><strong>Autoriser l’interlocuteur principal ou l’interlocutrice principale à accéder à la tâche</strong> : accorde à l’interlocuteur principal ou l’interlocutrice principale (le créateur ou la créatrice du problème) l’accès à la tâche pour l’examiner, effectuer des mises à jour et rester au courant de sa progression.</li> 
+        <li> <p><strong>Autoriser la modification de ces paramètres lors de la conversion</strong> : permet à l’utilisateur ou l’utilisatrice qui convertit le problème de modifier ces options lors de la conversion d’un problème en tâche.</p>
+        <!--
           Screenshot when possible</p>
-         --> </li> 
+         -->
+         </li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -150,7 +156,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion d’un problème en projet :</p> 
        <ul> 
         <li><strong>Conserver le problème d’origine et lier sa résolution au projet</strong> : lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que le projet soit terminé. Le statut du problème passe automatiquement à Fermé lorsque le projet est terminé.</li> 
-        <li><strong>Autoriser l’interlocuteur principal ou l’interlocutrice principale à accéder au projet</strong> : accorde à l’interlocuteur principal ou l’interlocutrice principale (le créateur ou la créatrice du problème) l’accès au projet pour examiner le projet, apporter des modifications et rester informé de sa progression.</li> 
+        <li><strong>Autoriser l’interlocuteur principal ou l’interlocutrice principale à accéder au projet</strong> : accorde à l’interlocuteur principal ou l’interlocutrice principale (le créateur ou la créatrice du problème) l’accès au projet pour examiner le projet, effectuer des mises à jour et rester au courant de sa progression.</li> 
         <li><strong>Autoriser la modification de ces paramètres lors de la conversion</strong> : permet à l’utilisateur ou l’utilisatrice qui convertit le problème de modifier les options répertoriées lors de la conversion d’un problème en projet.</li> 
        </ul> </td> 
      </tr> 

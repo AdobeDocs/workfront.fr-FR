@@ -9,7 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 99%
@@ -22,7 +24,7 @@ ht-degree: 99%
 
 Les plans directeurs sont des ensembles d’objets Workfront qui répondent à des cas d’utilisation communs dans Workfront. Vous pouvez télécharger et installer un plan directeur, puis configurer les objets en fonction de votre cas d’utilisation spécifique.
 
-![&#x200B; Page principale des plans directeurs &#x200B;](assets/blueprints-main-page-catalog.png)
+![ Page principale des plans directeurs ](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >

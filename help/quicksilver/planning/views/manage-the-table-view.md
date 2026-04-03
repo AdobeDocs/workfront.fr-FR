@@ -6,7 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3563'
 ht-degree: 50%
@@ -31,7 +33,7 @@ Cet article décrit les informations suivantes :
 * [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
 * [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
 
-Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [&#x200B; Exporter des enregistrements de la vue Tableau &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [ Exporter des enregistrements de la vue Tableau ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Conditions d’accès
 
@@ -77,7 +79,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -138,7 +141,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 </td>
   </tr>
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Modifier des enregistrements à l’aide de la vue Tableau
 
@@ -168,7 +172,7 @@ Pour gérer une vue tableau :
    * [Lignes (ou enregistrements)](#add-rows-or-records)
    * [Filtres](#add-filters)
    * [Trier](#add-a-sort)
-   * [Regroupement &#x200B;](#add-groupings)
+   * [Regroupement ](#add-groupings)
    * [Couleurs de ligne](#add-row-colors)
    * [Indicateur de présence en temps réel](#enable-the-real-time-presence-indicator)
 
@@ -219,7 +223,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -529,7 +533,8 @@ Pour ajouter un regroupement :
 
       Selon le nombre de regroupements que vous appliquez à la vue, certaines options peuvent ne pas être disponibles.
 
-<!-- this is not available yet: 
+<!--
+ this is not available yet: 
 
 To sort grouped records: 
 

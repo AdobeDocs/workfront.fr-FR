@@ -8,7 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 50%
@@ -27,7 +29,8 @@ The highlighted information on this page refers to functionality not yet general
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div> -->
+</div>
+-->
 
 [!DNL Adobe Workfront] génère des mises à jour système automatiques dans la zone [!UICONTROL Mises à jour] d’un objet pour enregistrer les événements suivants :
 
@@ -75,7 +78,8 @@ Par exemple, vous pouvez avoir [!DNL Workfront] qui suit toutes les modification
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -96,7 +100,8 @@ Par exemple, vous pouvez avoir [!DNL Workfront] qui suit toutes les modification
    <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Déterminer les champs suivis par [!DNL Workfront] pour un type d’objet
 

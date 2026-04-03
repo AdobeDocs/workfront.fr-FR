@@ -5,7 +5,9 @@ description: En savoir plus sur l’assistant IA dans Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 97%
@@ -150,7 +152,7 @@ Utilisez les mots-clés suivants dans vos prompts pour fournir du contexte et ai
 Lorsque vous saisissez votre prompt, incluez l’expression `using (keyword)`.
 
 | Mot-clé | Effet |
-| --- | --- | 
+| --- | --- |
 | `workfront` | Interagit avec Workfront. |
 | `planning` | Interagit avec Workfront Planning. |
 | `help` | Renvoie des informations issues de la documentation Experience League. |

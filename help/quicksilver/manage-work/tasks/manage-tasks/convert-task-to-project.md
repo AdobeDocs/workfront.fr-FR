@@ -6,7 +6,9 @@ description: Lorsqu’une tâche d’un projet nécessite plus d’efforts que p
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 80%
@@ -15,13 +17,15 @@ ht-degree: 80%
 
 # Convertir une tâche en projet
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 Lorsqu’une tâche d’un projet nécessite plus d’efforts que prévu, vous pouvez la convertir en projet.
 
@@ -57,7 +61,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +85,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    <td> <p>Manage permissions to a task</p> <p>View permissions on a template, if converting to a project using a template</p> <p>After creating the project, you have Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considérations relatives à la conversion des tâches en projets
 
@@ -205,7 +211,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * **Nouveau projet**, pour créer un projet sans utiliser de modèle
    * Un modèle dans la section **Sélectionner à partir des modèles** 
 
-     ![&#x200B; Menu déroulant de l’option Convertir la tâche en modèle de projet &#x200B;](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![ Menu déroulant de l’option Convertir la tâche en modèle de projet ](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Cliquez sur **Continuer** dans la notification qui s’affiche.
 1. Dans la boîte **Convertir en projet**, indiquez ce qui suit :

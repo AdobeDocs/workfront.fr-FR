@@ -6,7 +6,9 @@ description: Vous pouvez afficher les objectifs que vous ou toute autre personne
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 91%
@@ -72,7 +74,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -123,7 +126,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Vue d’ensemble des filtres dans les Objectifs Workfront
 
@@ -193,9 +197,11 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
       <tbody> 
        <tr> 
         <td>Tout</td> 
-        <td> <p>Tous les objectifs de votre système, indépendamment des personnes qui les ont créés, de la période à laquelle ils se rapportent ou des personnes propriétaires. Il s’agit du filtre par défaut et vous ne pouvez pas le modifier. </p> <!--
+        <td> <p>Tous les objectifs de votre système, indépendamment des personnes qui les ont créés, de la période à laquelle ils se rapportent ou des personnes propriétaires. Il s’agit du filtre par défaut et vous ne pouvez pas le modifier. </p>
+        <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: what the ALL filter displays might change; right now, it displays all, regardless of status, period, owner, etc)</p>
-         --> </td> 
+         -->
+         </td>
        </tr> 
        <tr> 
         <td>Personnel</td> 

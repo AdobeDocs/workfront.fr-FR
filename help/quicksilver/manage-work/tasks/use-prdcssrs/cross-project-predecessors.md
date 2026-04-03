@@ -6,7 +6,9 @@ description: Un projet transversal antérieur est une tâche dont dépend une au
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 94%
@@ -42,7 +44,7 @@ Pour plus d’informations sur les relations entre les tâches antérieures, con
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +67,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +94,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    <td> <p>Manage permissions to the tasks and the projects</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Créer un projet transversal antérieur
 

@@ -6,10 +6,12 @@ description: Vous pouvez supprimer des initiatives d’un plan que vous avez cr�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -28,7 +30,7 @@ Vous pouvez supprimer des initiatives d’un plan que vous avez créé ou d’un
   <tr> 
    <td> <p>[!DNL Adobe Workfront] paquet</p> </td> 
    <td> 
-   <p>Workfront Ultimate</p>
+   <p>Workfront Ultimate</p>
 <p><b>NOTE</b></p>
 <p>Contactez votre représentant Workfront si vous disposez d’un autre package Workfront.</p>
    </td> 
@@ -49,13 +51,14 @@ Vous pouvez supprimer des initiatives d’un plan que vous avez créé ou d’un
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,7 +96,8 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Docu
  </tbody> 
 </table>
 
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Supprimer des initiatives
 

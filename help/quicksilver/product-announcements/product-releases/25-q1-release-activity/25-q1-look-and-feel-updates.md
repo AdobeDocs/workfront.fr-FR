@@ -1,22 +1,24 @@
 ---
-title: Mises à jour de l’aspect au cours de la période de publication du premier trimestre 2025
-description: Mises à jour de l’aspect au cours de la période de publication du premier trimestre 2025
+title: Mises à jour de l’apparence au cours de la période de publication du premier trimestre 2025
+description: Mises à jour de l’apparence au cours de la période de publication du premier trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 14%
 
 ---
 
-# Mises à jour de l’apparence des produits au cours du premier trimestre 2025
+# Mises à jour de l’apparence au cours du premier trimestre 2025
 
-Cette page décrit les modifications mineures apportées à l’aspect de diverses zones de l’application Adobe Workfront au cours du premier trimestre 2025.
+Cette page décrit les mises à jour mineures apportées à l’aspect de différentes zones de l’application Adobe Workfront au cours du premier trimestre 2025.
 
-Pour obtenir une liste de toutes les modifications disponibles avec la version du premier trimestre 2025, voir [Aperçu de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles dans la version du premier trimestre 2025, voir [Présentation de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 
 ## Mises à jour de l’apparence pour la modification des entrées d’heures d’une liste ou d’un rapport d’heures
@@ -36,11 +38,11 @@ Pour plus d’informations, voir [Consigner le temps](/help/quicksilver/timeshee
 >
 >Version préliminaire : 5 décembre 2024 ; Version de production pour tous les clients : avec la version 24.12 (12 décembre 2024)
 
-Pour améliorer les performances, nous avons effectué des mises à jour visuelles sur la page Fournisseurs Cloud dans la zone Configuration.
+Pour améliorer les performances, nous avons apporté des mises à jour visuelles à la page Fournisseurs cloud dans la zone Configuration .
 
-Une petite modification de fonctionnalité a été appliquée à l’intégration de Quip. Au lieu de saisir l’ID client et la clé secrète client directement sur la page des fournisseurs Cloud, vous devez cliquer sur l’icône Modifier pour rendre ces champs visibles.
+Une petite modification de fonctionnalité a été appliquée à l’intégration de Quip. Au lieu de saisir l’ID client et le secret client directement sur la page Fournisseurs de cloud , vous devez cliquer sur l’icône Modifier pour rendre ces champs visibles.
 
-## Mise à jour de l’apparence de la boîte de dialogue Demander l’accès
+## Mise à jour de l’aspect de la boîte de dialogue Demander l’accès
 
 >[!NOTE]
 >
@@ -58,15 +60,15 @@ Pour plus d’informations, voir [Demande d’accès aux objets](/help/quicksilv
 
 Nous avons amélioré les performances de la zone Configuration dans laquelle vous configurez les intégrations personnalisées : Configuration > Documents > Intégration personnalisée. Cette mise à niveau comprend de légères modifications visuelles de la zone. Aucune fonctionnalité n’a été modifiée.
 
-## Mises à jour de l’apparence des pages Membres de l’entreprise et Taux de facturation de l’entreprise
+## Mises à jour de l’aspect des pages Membres de l’entreprise et Taux de facturation de l’entreprise
 
 >[!NOTE]
 >
 >Version de prévisualisation : mardi 4 novembre 2024. Production pour version rapide : avec la version 24.12 (vendredi 12 décembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
 
-Nous avons mis à jour les pages Membres de l’entreprise et Taux de facturation de l’entreprise avec un design plus moderne qui est cohérent avec d’autres zones de Workfront. Les appartenances à une société sont accessibles via Configuration > Sociétés > sélectionner un nom de société > sélectionner Membres de la société dans le panneau de gauche. Les taux de facturation des sociétés sont accessibles via Configuration > Sociétés > sélectionner un nom de société > sélectionner Taux de facturation dans le panneau de gauche.
+Nous avons mis à jour les pages Membres de l’entreprise et Taux de facturation de l’entreprise avec une conception plus moderne et cohérente avec les autres zones de Workfront. Les appartenances aux sociétés sont accessibles via Configuration > Sociétés > sélectionner un nom de société > sélectionner Membres de la société dans le panneau de gauche. Les taux de facturation de l’entreprise sont accessibles via Configuration > Entreprises > sélectionner le nom d’une entreprise > sélectionner les taux de facturation dans le panneau de gauche.
 
-Pour plus d&#39;informations, voir [Créer et modifier des sociétés](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) et [Gérer les appartenances à une société](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Pour plus d’informations, consultez [Créer et modifier des sociétés](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) et [Gérer les adhésions d’entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## Mises à jour de l’aspect des zones de navigation principale et secondaire
 
@@ -79,15 +81,15 @@ Nous avons mis à niveau les zones de navigation principale et secondaire de Wor
 Les changements les plus notables sont les suivants :
 
 * Les écrans déroulants Favoris et Récents ne comportent plus de bouton Fermer. Il vous suffit de cliquer en dehors de l&#39;écran ou d&#39;appuyer sur la touche Échap du clavier pour le fermer.
-* Vous ne pouvez plus faire glisser et déposer des pages épinglées pour les organiser. À la place, un menu déroulant avec des boutons vous permet de déplacer vos pages épinglées.
+* Vous ne pouvez plus faire glisser et déposer des pages épinglées pour les classer. À la place, un menu déroulant avec des boutons vous permet de déplacer les pages épinglées.
 
-## Mises à jour de l’apparence de la liste des taux d’exchange
+## Mises à jour de l’apparence pour la liste des taux de change
 
 >[!NOTE]
 >
 >Version de prévisualisation : mardi 4 novembre 2024. Production pour version rapide : avec la version 24.12 (vendredi 12 décembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
 
-Nous introduisons un nouveau format de liste dans la zone Configuration de Workfront. La liste Taux d’exchange est la première page à utiliser ce format de style tableau. La fonctionnalité d’ajout de nouveaux taux d’exchange et de recherche de taux d’exchange n’a pas changé.
+Nous introduisons un nouveau format de liste dans la zone Configuration de Workfront. La liste des taux de change est la première page à utiliser ce format de style tableau. La fonctionnalité d&#39;ajout de nouveaux taux de change et de recherche de taux de change n&#39;a pas changé.
 
 Pour plus d&#39;informations sur les taux de change, voir [Configurer des taux de change](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
@@ -107,8 +109,8 @@ Pour plus d’informations, voir [Exporter des données depuis Workfront via des
 >
 >Version de prévisualisation : vendredi 24 octobre 2024. Production pour version rapide : avec la version 24.11 (vendredi 14 novembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
 
-La fenêtre Envoyer la mise à jour à l’utilisateur a été mise à jour pour adopter un design plus moderne, cohérent avec les autres zones de Workfront.
+La fenêtre Envoyer la mise à jour à l’utilisateur a été mise à jour afin d’adopter une conception plus moderne et cohérente avec les autres zones de Workfront.
 
-Les utilisateurs disposant d&#39;une licence Standard, Formule ou Travail peuvent utiliser cette fonctionnalité en accédant à la liste Utilisateur, en sélectionnant un ou plusieurs utilisateurs et en cliquant sur **Envoyer la mise à jour à l&#39;utilisateur**.
+Les utilisateurs disposant d&#39;une licence Standard, Plan ou Travail peuvent utiliser cette fonctionnalité en accédant à la liste des utilisateurs, en sélectionnant un ou plusieurs utilisateurs et en cliquant sur **Envoyer la mise à jour à l&#39;utilisateur**.
 
-Pour plus d&#39;informations, voir [Envoyer des messages directs à d&#39;autres utilisateurs](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md).
+Pour plus d’informations, voir [Envoi de messages directs à d’autres utilisateurs](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md).

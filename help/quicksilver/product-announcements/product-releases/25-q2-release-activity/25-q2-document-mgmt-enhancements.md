@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 65%
@@ -46,19 +48,19 @@ For more information, see [Use new document approvals and proofing together](/he
 >
 >Version préliminaire : vendredi 20 mars 2025 ; Version de production pour l’ensemble de la clientèle : vendredi 20 mars 2025
 
-Desktop Proofing Viewer a été mis à jour à la version 2.1.45. Cette mise à jour permet au lecteur d’utiliser
+Le lecteur de vérification pour bureau a été mis à jour vers la version 2.1.45. Cette mise à jour permet à l’observateur d’utiliser les éléments suivants :
 
 * Electron version 35
-* Chrome version 134
+* Chromium version 134
 
 Cette mise à jour concerne Mac et Windows.
 
-## Modifier plusieurs documents à la fois dans un rapport Document
+## Modifier plusieurs documents à la fois dans un rapport de document
 
 >[!NOTE]
 >
 >Version de prévisualisation : vendredi 6 février 2025 ; production pour tous les clients : vendredi 13 mars 2025
 
-Vous pouvez désormais modifier plusieurs documents à la fois dans un rapport Document. Vous pouvez modifier les descriptions et mettre à jour les formulaires personnalisés.
+Vous pouvez désormais modifier plusieurs documents à la fois dans un rapport de document. Vous pouvez modifier les descriptions et mettre à jour les formulaires personnalisés.
 
-Pour plus d&#39;informations, voir [Modifier des documents en bloc](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
+Pour plus d’informations, voir [Modifier des documents en bloc](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).

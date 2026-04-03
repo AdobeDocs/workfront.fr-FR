@@ -6,7 +6,9 @@ description: Vous pouvez utiliser l’[!UICONTROL optimisateur de portfolio] pou
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 87%
@@ -53,7 +55,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 +++
 
-<!--Old
+<!--
+Old
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -78,7 +81,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Optimiser les projets dans l’optimiseur de portfolio
 
@@ -88,7 +92,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’icône **[!UICONTROL Optimiser]**.
 
-   ![&#x200B; Icône Optimiser &#x200B;](assets/optimize-icon-portfolio-optimizer.png)
+   ![ Icône Optimiser ](assets/optimize-icon-portfolio-optimizer.png)
 
    Les catégories selon lesquelles un projet peut être noté s’affichent à gauche de l’icône [!UICONTROL Optimiser].
 

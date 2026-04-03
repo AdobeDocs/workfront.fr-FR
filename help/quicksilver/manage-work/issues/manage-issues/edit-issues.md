@@ -8,7 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 84%
@@ -19,13 +21,15 @@ ht-degree: 84%
 
 <!--Audited: 10/2025-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 Vous pouvez modifier les informations sur les problèmes que vous avez créés ou que d’autres personnes ont créés si elles ont partagé les problèmes avec vous.
 
@@ -40,12 +44,12 @@ Vous pouvez modifier un seul problème ou modifier des problèmes dans une liste
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <ul><li>Contributeur ou version ultérieure</li>
+   <td> <ul><li>Contributeur ou supérieur</li>
    <li>Léger ou supérieur pour modifier les événements dans la section Événements d’une tâche ou d’un projet</li></ul>
    Ou :
    <ul><li>Requête ou supérieure</li> <li>Consultez ou une version ultérieure pour modifier les événements dans la section Événements d’une tâche ou d’un projet</li></ul> </td> 
@@ -72,7 +76,8 @@ Vous pouvez modifier un seul problème ou modifier des problèmes dans une liste
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,7 +110,8 @@ Vous pouvez modifier un seul problème ou modifier des problèmes dans une liste
    <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Limites lors de la modification de problèmes
 
@@ -348,7 +354,8 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
    >* Réaffectez la tâche aux ressources actives.
    >* Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 
-   <!--1. In the Production environment:
+   <!--
+   1. In the Production environment:
          1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
          1. Update the following fields: 
          <table style="table-layout:auto"> 
@@ -368,7 +375,8 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
             Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>-->
+         </table>
+         -->
 
 
 1. (Facultatif) Cliquez sur **M’affecter** pour vous affecter le problème.

@@ -6,7 +6,9 @@ description: Une fois que vous ou d’autres personnes avez créé des objectifs
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 82%
@@ -74,7 +76,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -125,7 +128,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Gérer des objectifs dans la liste des objectifs
 
@@ -244,7 +248,8 @@ Pour gérer les objectifs dans la liste des objectifs :
 
 1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   <!--
+    Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    La section Liste des objectifs s’affiche par défaut. Par défaut, vous pouvez afficher les objectifs, quel que soit leur statut, période ou personne propriétaire.

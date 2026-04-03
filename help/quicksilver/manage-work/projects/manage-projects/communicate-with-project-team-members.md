@@ -6,10 +6,12 @@ description: Vous pouvez facilement communiquer avec les personnes membres de vo
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -35,7 +37,7 @@ Tous les utilisateurs associés à un projet de l&#39;équipe du projet. Pour pl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Contributeur ou version ultérieure</p> 
+   <td><p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +55,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Envoyer un e-mail à une personne membre de l’équipe de projet {#send-an-email-to-a-project-team-member}
 
