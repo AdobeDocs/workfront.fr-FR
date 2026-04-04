@@ -31,7 +31,7 @@ Vous avez accès aux informations suivantes sur le site des statuts :
 
 Vous pouvez afficher les mises à jour des statuts du site des statuts [!DNL Adobe].
 
-1. Saisissez [status.adobe.com](https://status.adobe.com/) dans votre navigateur pour accéder au site des statuts.
+1. Saisissez [status.adobe.com](https://status.adobe.com/fr-fr/) dans votre navigateur pour accéder au site des statuts.
 
 1. Sélectionnez **[!UICONTROL Experience Cloud]**.
 1. Faites défiler la page vers le bas et sélectionnez **[!UICONTROL Adobe Workfront]** de la liste des solutions.
@@ -40,7 +40,7 @@ Vous pouvez afficher les mises à jour des statuts du site des statuts [!DNL Ado
 
 Pour vous inscrire au site des statuts ou gérer votre abonnement existant :
 
-1. Accédez à [status.adobe.com](https://status.adobe.com/).
+1. Accédez à [status.adobe.com](https://status.adobe.com/fr-fr/).
 1. Dans la barre des statuts, sélectionnez **[!UICONTROL Gérer les abonnements]**.
    ![](assets/manage-subs.png)
 1. Si vous disposez d’un compte existant, connectez-vous à ce compte ; sinon, créez un compte.
@@ -59,7 +59,7 @@ Les chercheurs de failles et les concepteurs d’exploits donnent à leurs proje
 
 ### Comment visualiser les vulnérabilités nommées identifiées par [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Accédez à [status.adobe.com](https://status.adobe.com/), puis cliquez sur **[!UICONTROL Sécurité]**.
+1. Accédez à [status.adobe.com](https://status.adobe.com/fr-fr/), puis cliquez sur **[!UICONTROL Sécurité]**.
 
 ## Pourquoi est-ce important ? {#why-is-this-important}
 

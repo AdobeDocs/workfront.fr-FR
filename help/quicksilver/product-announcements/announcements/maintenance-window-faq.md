@@ -19,7 +19,7 @@ ht-degree: 68%
 
 Les fenêtres de maintenance sont des blocs de temps réservés à Workfront pour effectuer des mises à jour de l’infrastructure et d’autres problèmes liés à la plateforme. Occasionnellement, des environnements de sandbox sont inclus dans la maintenance.
 
-Workfront s’engage à minimiser les perturbations autant que possible. Si une maintenance est nécessaire, elle est programmée et annoncée sur le site des statuts Workfront à l’adresse [status.adobe.com](https://status.adobe.com/).
+Workfront s’engage à minimiser les perturbations autant que possible. Si une maintenance est nécessaire, elle est programmée et annoncée sur le site des statuts Workfront à l’adresse [status.adobe.com](https://status.adobe.com/fr-fr/).
 
 ## En quoi consistent les fenêtres de maintenance de Workfront ?
 
@@ -27,6 +27,6 @@ Les fenêtres de maintenance sont normalement planifiées à l’avance les week
 
 ## Puis-je recevoir une notification avant une maintenance programmée ?
 
-Vous pouvez recevoir une notification avancée de maintenance planifiée en vous abonnant au site Statut de Workfront ([status.adobe.com](https://status.adobe.com/).). Le site Statut de Workfront annonce la maintenance au moins 3 jours avant l’événement. En cas d’urgence, le préavis peut être plus court.
+Vous pouvez recevoir une notification avancée de maintenance planifiée en vous abonnant au site Statut de Workfront ([status.adobe.com](https://status.adobe.com/fr-fr/).). Le site Statut de Workfront annonce la maintenance au moins 3 jours avant l’événement. En cas d’urgence, le préavis peut être plus court.
 
 Pour savoir comment recevoir des mises à jour sur l’état des problèmes de maintenance et de tendance, consultez [S’abonner à ou gérer votre abonnement](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md#managing-your-subscription) dans l’article [Site web des statuts Adobe Workfront](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
