@@ -8,14 +8,16 @@ feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 13%
+source-wordcount: '607'
+ht-degree: 12%
 
 ---
 
 # Partager un tableau de bord de zones de travail
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -83,6 +85,8 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 * Lors du partage d’un tableau de bord, les ressources avec lesquelles il est partagé hériteront des autorisations relatives aux rapports affichés sur le tableau de bord.
 
 * Lorsqu&#39;un tableau de bord est distribué par le biais d&#39;un modèle de mise en page, une autorisation d&#39;affichage automatique du tableau de bord (et de ses rapports) est accordée à toutes les ressources affectées au modèle de mise en page.
+
+* <span class="preview">Lorsqu’un rapport sur un tableau de bord est configuré avec l’option Exécuter en tant qu’utilisateur , toutes les visionneuses voient les données en fonction des autorisations de l’utilisateur sélectionné plutôt que des leurs. Cela signifie que les visiteurs peuvent voir des données auxquelles ils n’ont normalement pas accès. Si certains rapports d’un tableau de bord utilisent Exécuter en tant qu’utilisateur et d’autres pas, les observateurs peuvent voir des données incohérentes entre les rapports.</span>
 
 
 ## Partager un tableau de bord de zones de travail

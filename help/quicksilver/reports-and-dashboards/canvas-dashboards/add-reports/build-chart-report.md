@@ -8,14 +8,17 @@ feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 9%
+source-wordcount: '1917'
+ht-degree: 8%
 
 ---
 
 # Créer un rapport de graphique dans un tableau de bord de zones de travail
+
+{{highlighted-preview}}
+
 
 >[!IMPORTANT]
 >
@@ -101,6 +104,15 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
       >[!NOTE]
       >
       >Vous pouvez afficher un nombre maximal de 60 séries dans un graphique. Lorsque cette case est cochée, toutes les séries au-dessus de la limite sont consolidées dans un regroupement **Autre** dans le graphique.
+
+   1. <span class="preview">(Facultatif) Dans le champ **Exécuter ce rapport avec les droits d&#39;accès de**, commencez à saisir le nom de l&#39;utilisateur dont vous souhaitez que le rapport utilise les autorisations, puis sélectionnez l&#39;utilisateur lorsqu&#39;il apparaît dans la liste. Lorsque vous configurez un rapport pour qu’il s’exécute en tant qu’autre utilisateur, toutes les visionneuses du tableau de bord voient les mêmes données, quel que soit leur propre niveau d’accès. Si vous ne sélectionnez pas d’utilisateur, chaque visionneuse voit les données en fonction de ses propres autorisations.
+
+      >[!IMPORTANT]
+      >
+      >Si l’utilisateur sélectionné est désactivé ou perd l’accès aux espaces de travail ou aux types d’enregistrements appropriés, le rapport peut afficher des données incomplètes ou dont le rendu échoue.
+
+   </span>
+
 1. Choisissez le type de graphique à créer :
    * [Graphique à barres, en colonnes ou en courbes](#bar-column-or-line-chart)
    * [Graphique en secteurs](#pie-chart)
@@ -163,7 +175,7 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 
 Pour configurer la section **Filtre**, procédez comme suit :
 
-1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**![&#x200B; Filtrer](assets/filter-icon.png).
+1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**![ Filtrer](assets/filter-icon.png).
 1. Sélectionnez **Modifier le filtre**.
 1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre.
 1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
