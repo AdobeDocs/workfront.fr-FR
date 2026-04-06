@@ -8,10 +8,10 @@ feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 900e29200bef2d4f70b17cd810ea0e2b936c8aad
 workflow-type: tm+mt
-source-wordcount: '4334'
-ht-degree: 89%
+source-wordcount: '4400'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ Utilisez l’équilibreur de charge de travail d’Adobe Workfront pour affecte
 
 L’équilibreur de charge de travail est disponible dans plusieurs zones d’Adobe Workfront. Son fonctionnement est similaire dans toutes les zones.
 
-Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, consultez la section [Localiser l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, consultez la section [Localiser l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Conditions d’accès
 
@@ -105,8 +105,8 @@ Pour plus d’informations sur l’affichage des informations dans l’équilibr
 
 Pour plus d’informations sur la gestion des ressources à l’aide de l’équilibreur de charge de travail, consultez également les articles suivants :
 
-* [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Naviguer dans l’équilibreur de charge de travail pour plusieurs projets dans la zone Ressources
 
@@ -239,7 +239,7 @@ Par défaut, la zone Travail non affecté n’affiche aucun élément de travail
 
    Le panneau Paramètres s’affiche sur la droite.
 
-   ![&#x200B; Panneau Paramètres de l’équilibreur de charge de travail &#x200B;](assets/workload-balancer-settings.png)
+   ![ Panneau Paramètres de l’équilibreur de charge de travail ](assets/workload-balancer-settings.png)
 
    Sélectionnez l’une des options ci-dessous pour mettre à jour les informations affichées dans l’équilibreur de charge de travail, puis cliquez sur l’**icône X** en haut à droite de la zone Paramètres pour la fermer.
 
@@ -259,6 +259,11 @@ Par défaut, la zone Travail non affecté n’affiche aucun élément de travail
    * **Afficher le travail terminé** : lorsque cette option est activée, les tâches et les problèmes terminés s’affichent dans la zone de travail affecté. Cette option est activée par défaut.
 
      Quand une tâche ou un problème est terminé(e), une icône en forme de coche verte apparaît dans le coin supérieur droit de leur barre respective. La même icône s’affiche pour un projet lorsque les tâches ou les problèmes de la période sélectionnée pour le projet sont terminés.
+
+     >[!NOTE]
+     >
+     >La visibilité des tâches dans l’équilibreur de charge de travail dépend de l’achèvement de la tâche au niveau de la tâche, et non de celui de l’affectation. Si une tâche comporte plusieurs délégataires et qu&#39;un ou plusieurs d&#39;entre eux sélectionnent « Terminé avec ma partie » mais que le statut global de la tâche n&#39;est pas Terminé, la tâche est considérée comme un travail non terminé. Lorsque l&#39;option **Afficher le travail terminé** est désactivée, la tâche s&#39;affiche toujours car elle n&#39;est pas entièrement terminée.
+
    * **Afficher le temps restant** : lorsque cette fonction est activée, Workfront affiche l’écart entre les heures de disponibilité journalière de l’utilisateur ou de l’utilisatrice, selon ses horaires, et les heures affectées dans la section de travail affecté pour ces personnes. Cette fonction est désactivée par défaut et le temps affecté s’affiche par défaut.
    * **Afficher les affectations de rôle** : lorsque cette option est activée, les affectations de rôle s’affichent dans la zone Tâches non affectées sous les éléments de travail qui leur sont affectés. Cette option est activée par défaut.
 
@@ -475,7 +480,7 @@ La page de votre équipe interne s’affiche par défaut.
 
 1. Continuez à parcourir l’équilibreur de charge de travail d’un projet comme décrit dans la section [Parcourir l’équilibreur de charge de travail de plusieurs projets](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de cet article.
 
-### Naviguer dans l’équilibreur de charge de travail d’un utilisateur
+## Naviguer dans l’équilibreur de charge de travail d’un utilisateur
 
 Vous pouvez accéder à l’équilibreur de charge de travail à partir de votre propre profil utilisateur.
 
