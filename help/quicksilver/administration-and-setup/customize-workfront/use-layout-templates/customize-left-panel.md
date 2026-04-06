@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: f490d72b46073786cc079eec0640a0b535533281
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1226'
 ht-degree: 44%
 
 ---
@@ -136,12 +136,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projets <img src="assets/projects-in-main-menu.png"> dans le menu principal  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Projets <img src="assets/projects-in-main-menu.png"> dans le menu principal [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
       <td><span class="preview">[!UICONTROL Resourcing]</span></td> 
-      <td><span class="preview">[!UICONTROL Resourcing] dans le menu principal  <img src="assets/main-menu-icon-left-nav.png"></span></td> 
+      <td><span class="preview">[!UICONTROL Resourcing] dans le menu principal [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
       <td><span class="preview">[!UICONTROL Planner] (ne peut pas être masqué), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</span></td> 
      </tr> 
      <tr> 
@@ -182,12 +182,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
        <td><span class="preview">[!UICONTROL Carte tarifaire]</span></td> 
        <td><span class="preview">Nom d’une carte tarifaire</span></td> 
-       <td><span class="preview">[!UICONTROL Job Roles and Rates], [!UICONTROL Rate Card Details], [!UICONTROL Expense Type and Rates]</span></td> 
+       <td><span class="preview">[!UICONTROL Job Roles and Rates] (cannot be hidden), [!UICONTROL Rate Card Details]</span></td> 
      </tr>
      <tr> 
        <td><span class="preview">[!UICONTROL Group]</span></td> 
        <td><span class="preview">Nom d’un groupe</span></td> 
-       <td><span class="preview">[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks &amp; Issues Preferences], [!UICONTROL Timesheets &amp; Hours], [!UICONTROL Subgroups], [!UICONTROL Statuts], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programmes], [!UICONTROL Projects], [!UICONTROL Projects] Modèles&rbrack;, [!UICONTROL Récemment Supprimé], [!UICONTROL Récemment Restauré], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</span></td> 
+       <td><span class="preview">[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks &amp; Issues Preferences], [!UICONTROL Timesheets &amp; Hours], [!UICONTROL Subgroups], [!UICONTROL Statuts], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programmes], [!UICONTROL Projects], [!UICONTROL Projects] Modèles], [!UICONTROL Récemment Supprimé], [!UICONTROL Récemment Restauré], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</span></td> 
      </tr>
      <!--
       <tr> 
@@ -201,20 +201,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
        <td>Timesheets</td> 
        <td>The name of the timesheet</td> 
        <td>My Timesheets, Timesheets I Approve, All Timesheets (cannot be hidden) </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>Resourcing</td> 
-       <td>The name of the resource</td> 
-       <td>Planner (cannot be hidden), Workload Balancer, Utilization, Resource Pools </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>User Details</td> 
-       <td>____________</td> 
-       <td>Details (cannot be hidden), Org Chart, Time Off, Custom Forms </td> 
       </tr>
      --> 
     </tbody> 

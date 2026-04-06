@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 46%
 
 ---
@@ -23,7 +23,7 @@ En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, v
 
 >[!IMPORTANT]
 >
->La personnalisation des en-têtes d’objet est actuellement disponible pour les projets, les tâches, les événements, les <span class="preview">portfolios, programmes, modèles, enregistrements de facturation, équipes, groupes, utilisateurs, entreprises, groupes et cartes tarifaires.</span>
+>La personnalisation des en-têtes d’objet est actuellement disponible pour les projets, les tâches, les événements, les <span class="preview">portefeuilles, programmes, modèles, enregistrements de facturation, équipes, utilisateurs, entreprises, groupes et cartes tarifaires.</span>
 
 ![Champs d’en-tête d’objet](assets/object-header-fields.png)
 

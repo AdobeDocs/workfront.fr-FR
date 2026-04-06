@@ -7,13 +7,13 @@ description: Les attributs de taux étendent la fonctionnalité de carte tarifai
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 8e948d1c90a9d528c7ffd4963e14630ae7577e70
+exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 2%
 
 ---
-
 
 # Définir les attributs de taux
 
@@ -85,16 +85,18 @@ Les attributs de taux sont pris en charge dans toutes les zones où des taux exi
 * Remplacements au niveau du projet : appliquez des attributs lors du remplacement des taux au niveau du projet.
 * Fonctions (dans la configuration) : définissez les taux de fonctions par défaut avec des attributs.
 * Utilisateurs (profils utilisateur) : attribuez des attributs natifs à des utilisateurs individuels, de sorte que leurs affectations soient automatiquement résolues aux taux corrects.
+
 <!--
-* Staffing plan resources
-* Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Staffing plan resources
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
 
 <!--Non-labor resource categories and -->Les fonctions ne prennent pas en charge les attributs de taux directement au niveau de l’objet. Ils sont connectés aux attributs de taux par le biais des taux qui y sont définis.
 
 Lorsque vous pouvez créer des affectations d’espace réservé liées aux valeurs d’attribut correctes, vos taux sont renseignés en conséquence.
 
 * Pour les fonctions, lorsque vous remplacez ultérieurement l’espace réservé par un utilisateur réel, le système réinitialise automatiquement les attributs de l’affectation sur ceux définis sur le profil de cet utilisateur. À ce stade, les attributs ne peuvent plus être modifiés au niveau de l’affectation. Ils héritent de l’utilisateur pour préserver la cohérence et empêcher le décalage entre les attributs utilisateur et les taux appliqués.
-  <!--* For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
+
+<!-- BULLET POINT For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
 
 ## Conditions d’accès
 
@@ -201,5 +203,3 @@ Les filtres doivent toujours être configurés dans les deux directions. Si l’
    * (Type de filtre Attribut uniquement) **Champ de référence** : champ de l’attribut référencé qui doit correspondre, tel que l’ID d’agence.
 
 1. Cliquez sur **Enregistrer** sur chaque attribut pour enregistrer les propriétés et les filtres.
-
-

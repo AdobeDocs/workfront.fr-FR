@@ -6,9 +6,10 @@ title: Généralités sur la hiérarchie des revenus et des coûts
 description: Cet article décrit le processus détaillé permettant de déterminer les taux de facturation et de coûts appropriés pour les fonctions et les utilisateurs pour le type de revenu et de coût Utilisateur et Rôle par heure.
 author: Lisa
 feature: Work Management
-source-git-commit: dfc6344303f33a9c3c89837b759235612e54904e
+exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '3519'
+source-wordcount: '3604'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,17 @@ Pour fournir des calculs financiers précis, Workfront utilise les taux de factu
 
 Les sections de cet article décrivent le processus étape par étape pour déterminer les taux de facturation et de coûts appropriés pour les fonctions et les utilisateurs pour l&#39;utilisateur et le type de revenu horaire par rôle et le type de coût.
 
+>[!NOTE]
+>
+>La hiérarchie des taux présentée dans cet article est utilisée uniquement lorsque le type de revenu ou de coût horaire de l&#39;utilisateur et du rôle est appliqué à la tâche.
+
 Pour plus d’informations sur les taux de facturation, les types de revenus et la manière dont les revenus sont calculés, voir [Présentation de la facturation et des revenus](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+## Exceptions pour la hiérarchie et le type de revenu horaire de l’utilisateur et du rôle
+
+* Les taux d’entreprise ne sont pas pris en charge dans la hiérarchie.
+* Seul le rôle de Principal est utilisé pour les calculs de hiérarchie. Les autres rôles ne sont pas utilisés.
+* Lorsque le type de revenu d’une tâche est Utilisateur et rôle par heure, un utilisateur qui a enregistré des heures pour la tâche ne peut pas être affecté à cette tâche.
 
 ## Généralités sur les dates de validité
 
@@ -232,4 +243,3 @@ Workfront effectue une recherche dans les propriétés utilisateur du propriéta
    * Ensuite, le système recherche le taux de fonctions au niveau du système, en prenant en compte les dates d’entrée en vigueur.
 
 1. Si aucun de ces taux n’est trouvé, le taux de facturation est de 0.
-
