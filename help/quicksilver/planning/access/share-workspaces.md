@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -160,15 +160,23 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 
    * Si vous êtes administrateur système, sélectionnez l’une des options suivantes </span>
 
-      * <span class="preview">**Seules les personnes invitées peuvent y accéder** : Vous devez sélectionner les entités dans la boîte de partage et choisir leur accès à l&#39;espace de travail. Il s’agit de la sélection par défaut. </span>
-      * <span class="preview">**Tout le monde peut afficher dans le système** : tout le monde dans le système ayant accès à Planning peut afficher l&#39;espace de travail dans sa zone **Espaces de travail** dans Planning.</span>
+     <div class="preview">
+
+      * **Seules les personnes invitées peuvent y accéder** : Vous devez sélectionner les entités dans la boîte de partage et choisir leur accès à l&#39;espace de travail. Il s’agit de la sélection par défaut.
+      * **Tout le monde peut afficher dans le système** : tout le monde dans le système ayant accès à Planning peut afficher l&#39;espace de travail dans sa zone **Espaces de travail** dans Planning.
+
+     </div>
 
    * <span class="preview">(Conditionnel) Si vous êtes un responsable d’espace de travail disposant d’une licence Standard, vous pouvez voir l’une des sélections suivantes, mais vous ne pouvez pas la modifier :</span>
 
-      * <span class="preview">**Seules les personnes invitées peuvent y accéder**. Il s’agit du paramètre par défaut.</span>
-      * <span class="preview">**Tout le monde peut voir**</span>
+     <div class="preview">
 
-     <span class="preview">Vous devez demander à un administrateur système de modifier une autorisation globale pour un espace de travail.</span>
+      * **Seules les personnes invitées peuvent y accéder**. Il s’agit du paramètre par défaut.
+      * **Tout le monde peut voir**
+
+     Vous devez demander à un administrateur système de modifier une autorisation globale pour un espace de travail.
+
+     </div>
 
 1. Dans le champ **Accorder l’accès à cet espace de travail**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une équipe, d’une entreprise ou d’une fonction, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 

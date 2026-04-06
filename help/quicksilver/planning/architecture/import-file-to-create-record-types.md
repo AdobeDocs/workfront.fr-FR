@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 32%
+source-wordcount: '891'
+ht-degree: 30%
 
 ---
 
@@ -156,6 +156,14 @@ Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Exc
    Ou
 
    Depuis un espace de travail, développez la flèche pointant vers le bas à droite d’un nom d’espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+
+   >[!TIP]
+   >
+   ><span class="preview">Vous pouvez utiliser la combinaison de clavier suivante pour ouvrir la zone de recherche globale à partir de n’importe quelle page Workfront Planning et rechercher des espaces de travail :</span>
+   >
+   >* <span class="preview">CTRL+K pour Windows</span>
+   >* <span class="preview">⌘+K pour Mac</span>
+
 1. Cliquez sur **Ajouter un type d’enregistrement**.
 1. Cliquez sur **Télécharger à partir d’un fichier**.
 1. Effectuez un glisser-déposer d’un fichier Excel ou CSV précédemment enregistré sur votre ordinateur ou cliquez sur **Sélectionner un fichier CSV ou Excel** pour en rechercher un, puis sélectionnez-le.

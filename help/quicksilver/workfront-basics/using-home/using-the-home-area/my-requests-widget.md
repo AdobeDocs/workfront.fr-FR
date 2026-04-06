@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 11%
@@ -84,7 +84,7 @@ Pour obtenir des instructions, reportez-vous à la section [Créer une demande](
 
 Vous pouvez copier une demande dans le widget Mes demandes, la modifier et l’envoyer en tant que nouvelle demande.
 
-Pour obtenir des instructions, voir [&#x200B; Copier et envoyer des demandes &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour obtenir des instructions, voir [ Copier et envoyer des demandes ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Gérer les informations de la liste des requêtes dans le widget Mes requêtes
 
@@ -105,7 +105,7 @@ To configure the filter in the My Requests widget:
 
    <div class="preview">
 
-   * Groupe
+   * Regroupement
    * Formater les cellules
    * Hauteur de ligne
 

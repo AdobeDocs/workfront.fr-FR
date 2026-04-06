@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1200'
 ht-degree: 19%
 
 ---
@@ -152,7 +152,7 @@ Vous pouvez créer des espaces de travail comme suit :
 
   >[!TIP]
   >
-  >Vous ne pouvez pas créer plusieurs espaces de travail à la fois à moins d’utiliser le lot de modèles de bonnes pratiques.
+  >Vous ne pouvez créer plusieurs espaces de travail à la fois que lorsque vous utilisez le lot de modèles de bonnes pratiques.
 
 
 </div>
@@ -276,7 +276,7 @@ Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail
 
    Pour plus d’informations sur les bonnes pratiques relatives à l’implémentation de Workfront, consultez les articles de la section [Bonnes pratiques de planification d’Adobe Workfront : index des articles](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) .
 
-   Pour plus d’informations sur la modification des espaces de travail, voir [&#x200B; Modifier les espaces de travail &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Pour plus d’informations sur la modification des espaces de travail, voir [ Modifier les espaces de travail ](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 </div>
 

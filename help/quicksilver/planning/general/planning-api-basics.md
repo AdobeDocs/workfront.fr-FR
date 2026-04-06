@@ -6,15 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 12%
+source-wordcount: '1008'
+ht-degree: 13%
 
 ---
 
 
-# Principes de base des API de planification d’Adobe Workfront
+# Principes de base des API Adobe Workfront Planning
 
 {{planning-important-intro}}
 
@@ -42,7 +42,7 @@ Les objets sont manipulés en envoyant une requête HTTP à leur URI unique. L�
 
 Les méthodes HTTP standard correspondent aux opérations suivantes :
 
-* **GET** - Récupère un objet par ID, recherche tous les objets par une requête
+* **** - Récupère un objet par ID, recherche tous les objets par une requête
 * **POST** - Insère un nouvel objet.
 * **PUT** - Modifie un objet existant.
 * **DELETE** - Supprime un objet.
@@ -93,7 +93,7 @@ Workfront Planning prend en charge les modificateurs de recherche suivants :
     <tr>
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
-        <td>Retourne les enregistrements dont la valeur du champ n’est pas vide  </td>
+        <td>Retourne les enregistrements dont la valeur du champ est vide  </td>
         <td><ul><li>« » </li><li>null </li><ul>  </td>
     </tr>
     <tr>
@@ -130,25 +130,25 @@ Workfront Planning prend en charge les modificateurs de recherche suivants :
         <td>$isAfter </td>
         <td><code>"fieldId": { "$isAfter": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Retourne les enregistrements dont la valeur du champ est postérieure au filtre  </td>
-        <td>« 2024-05-15T20:00:00.000Z »  </td>
+        <td>« 2024-05-:00:00.000Z »  </td>
     </tr>
     <tr>
         <td>$isBefore </td>
         <td><code>"fieldId": { "$isBefore": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Renvoie les enregistrements dont la valeur du champ est antérieure au filtre </td>
-        <td>« 2024-05-12T20:00:00.000Z » </td>
+        <td>« 2024-05-:00:00.000Z » </td>
     </tr>
     <tr>
         <td>$isBetween </td>
         <td><code>"fieldId": { "$isBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Renvoie les enregistrements dont la valeur du champ est comprise entre le filtre  </td>
-        <td><ul><li>« 2024-05-12T20:00:00.000Z » </li><li>« 2024-05-14T20:00:00.000Z » </li><ul>  </td>
+        <td><ul><li>« 2024-05-:00:00.000Z » </li><li>« 2024-05-:00:00.000Z » </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotBetween </td>
         <td><code>"fieldId": { "$isNotBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Retourne les enregistrements dont la valeur du champ n'est pas comprise entre le filtre  </td>
-        <td><ul><li>« 2024-05-09T20:00:00.000Z »  </li><li>« 2024-05-17T20:00:00.000Z »  </li><ul>  </td>
+        <td><ul><li>« 2024-05-:00:00.000Z »  </li><li>« 2024-05-:00:00.000Z »  </li><ul>  </td>
     </tr>
     <tr>
         <td>$isAnyOf </td>

@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
+source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 15%
+source-wordcount: '663'
+ht-degree: 14%
 
 ---
 
@@ -155,7 +155,8 @@ Utilisez le langage naturel pour filtrer rapidement le travail.
 
 1. Cliquez sur **Groupes** en haut à gauche de la liste de travail.
 1. Sélectionnez un groupe pour organiser votre liste de travail.
-   ![Groupes](assets/groups-new.png)
+
+![Groupes](assets/groups-new.png)
 
 +++Développer pour afficher des informations détaillées sur les groupes disponibles
 
@@ -172,7 +173,7 @@ Utilisez le langage naturel pour filtrer rapidement le travail.
 
 Vous pouvez faire glisser et déposer des éléments de travail individuels entre les catégories lors du regroupement par Ma priorité ou Statut.
 
-1. Regroupez vos travaux par **Statut** ou **Ma priorité**.
+1. Regroupez vos travaux par **Statut** ou **Mon focus**.
 2. Pointez sur l’élément de travail pour cliquer sur l’icône **Faire glisser** et déplacez-le vers la catégorie souhaitée.
    ![icône glisser](assets/drag-and-drop.png)
 
@@ -192,6 +193,6 @@ Pour trier des colonnes individuelles, accédez à la colonne et cliquez sur la 
 
 ### Développer ou réduire toutes les sections de groupe
 
-Pour développer ou réduire toutes les sections de groupe, ouvrez **Groupe** et cliquez sur **Développer tout** ou **Tout réduire**.
+Pour développer ou réduire toutes les sections de groupe, ouvrez **Groupe** et cliquez sur **Développer tout** si les regroupements sont réduits ou **Réduire tout** si les regroupements sont développés.
 
 ![Développer ou réduire des groupes](assets/expand-collapse-groups.png)
