@@ -42,7 +42,7 @@ Les objets sont manipulés en envoyant une requête HTTP à leur URI unique. L�
 
 Les méthodes HTTP standard correspondent aux opérations suivantes :
 
-* **** - Récupère un objet par ID, recherche tous les objets par une requête
+* **&#x200B;**&#x200B;- Récupère un objet par ID, recherche tous les objets par une requête
 * **POST** - Insère un nouvel objet.
 * **PUT** - Modifie un objet existant.
 * **DELETE** - Supprime un objet.
