@@ -1,5 +1,5 @@
 ---
-title: Présentation des niveaux d'accès
+title: Vue d’ensemble des niveaux d’accès
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 89%
+source-wordcount: '1765'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->Les informations de cet article se rapportent aux niveaux d’accès actuels. Pour plus d&#39;informations sur les niveaux d&#39;accès hérités, voir [Présentation des niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Les informations de cet article se rapportent aux niveaux d’accès actuels. Pour plus d’informations sur les niveaux d’accès hérités, voir [Vue d’ensemble des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous attribuez un niveau d’accès à un utilisateur ou une utilisatrice à deux fins :
 
@@ -105,7 +105,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets a
 | Modèles |   |   | ✓ |
 | Données financières |   |   | ✓ |
 | Gestion des ressources |   |   | ✓ |
-| Planificateur de scénarios |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
+| Planificateur de scénarios |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
 | Objectifs |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -126,6 +126,7 @@ Ce qui suit est vrai pour les utilisateurs et utilisatrices avec le niveau d’a
 * Ils peuvent accéder aux demandes et aux documents dans le menu principal.
 * ont une capacité limitée de créer des objets, elles ne peuvent pas créer de projets, de portfolios, de programmes ou de rapports.
 * Ne peut enregistrer le temps au niveau du projet que lorsque l’accès en modification est activé. Ils ne peuvent pas créer, modifier, supprimer ni partager des projets.
+* Peuvent uniquement mettre à jour des formulaires personnalisés sur des événements et des documents.
 
 >[!NOTE]
 >
@@ -218,7 +219,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
   <tr> 
    <td>Données financières</td> 
    <td></td> 
-   <td> <p>✓ (le paramètre par défaut est Aucun accès)</p> </td> 
+   <td> <p>✓ (Le paramètre par défaut est Pas d’accès)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -238,7 +239,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
    <td>Objectifs </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (le paramètre par défaut est Aucun accès)</td> 
+   <td>✓ (Le paramètre par défaut est Pas d’accès)</td> 
  </tbody> 
 </table>
 
@@ -259,9 +260,10 @@ Ce qui suit est vrai pour les utilisateurs et utilisatrices disposant de ce nive
 
   >[!NOTE]
   >
-  >Les contributeurs peuvent participer aux validations mais ne peuvent pas accéder à l&#39;onglet Validations pour afficher ou gérer les processus de validation.
+  >Les personnes contributrices peuvent participer aux validations mais ne peuvent pas accéder à l’onglet Validations pour afficher ou gérer les processus de validation.
 
 * peuvent examiner le statut des problèmes qu’elles ont soumis ;
+* Peuvent uniquement mettre à jour des formulaires personnalisés sur des événements et des documents.
 * Ils peuvent être affectés à des tâches, mais ne peuvent pas les terminer.
 * Ils ne peuvent accéder aux demandes qu’à partir du menu principal. Pour plus d’informations sur les files d’attente des demandes, voir [Créer une file d’attente des demande](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -289,16 +291,16 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Données financières | ✓ |   |   |
 | Gestion des ressources | ✓ |   |   |
 | Planificateur de scénarios | ✓ |   |   |
-| Objectifs |   |   | ✓ (le paramètre par défaut est Aucun accès) |
+| Objectifs |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
 
 {style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
->À compter de la version 24.7, les contributeurs ont un accès en affichage aux programmes et aux portefeuilles par défaut.
+>À compter de la version 24.7, les personnes contributrices ont un accès en affichage aux programmes et aux portefeuilles par défaut.
 >
 > 
->Les contributeurs intégrés avant la version 24.7 n’auront toujours pas accès aux programmes et portefeuilles par défaut. Vous pouvez mettre à jour leur accès pour l’afficher manuellement si nécessaire.
+>Les personnes contributrices intégrées avant la version 24.7 n’auront toujours pas accès aux programmes et portefeuilles par défaut. Si nécessaire, vous pouvez mettre à jour manuellement leur autorisation d’affichage.
 
 ### Niveau d’accès Utilisateur ou utilisatrice externe
 
@@ -310,7 +312,7 @@ Les personnes disposant du niveau d’accès Utilisateur ou utilisatrice externe
 * peuvent afficher les personnes qui partagent des documents et des rapports de calendrier avec elles ;
 * peuvent approuver les documents qui sont partagés avec elles.
 
-Les utilisateurs externes ne peuvent pas être affectés à des tâches.
+ne peuvent pas être affectées aux éléments de travail.
 
 Vous ne pouvez pas modifier ce niveau d’accès.
 
@@ -329,9 +331,9 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Problème | ✓ |   |   |
 | Portefeuilles | ✓ |   |   |
 | Programmes | ✓ |   |   |
-| Rapports (y compris les tableaux de bord et les rapports de calendrier) |   | ✓ (uniquement pour les rapports de calendrier ; pas de possibilité de partager des rapports) |   |
+| Rapports (y compris les tableaux de bord et les rapports de calendrier) |   | ✓ (Uniquement pour les rapports de calendrier, pas de partage des rapports possible) |   |
 | Filtres, vues et regroupements | ✓ |   |   |
-| Document |   | ✓ (pas de possibilité de partager des documents) |   |
+| Document |   | ✓ (impossible de partager des documents) |   |
 | l’utilisateur ou de l’utilisatrice |   | ✓ |   |
 | Équipes | ✓ |   |   |
 | Modèles | ✓ |   |   |
