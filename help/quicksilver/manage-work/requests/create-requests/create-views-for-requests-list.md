@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '744'
 ht-degree: 11%
 
 ---
@@ -74,6 +74,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 <div class="preview">
 
 ## Vues système pour les requêtes
+
+>[!NOTE]
+>
+>Les vues système peuvent ne pas être disponibles dans votre environnement de prévisualisation. Ils seront disponibles en production pour tous les clients le 16 avril 2026.
 
 Outre les vues que vous pouvez créer vous-même, Workfront propose les vues système suivantes pour la zone des Requêtes et le widget Mes requêtes dans l’Accueil :
 

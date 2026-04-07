@@ -4,7 +4,8 @@ description: Améliorations apportées aux opérations d’entreprise du deuxiè
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d2d26d7e40eef593d73f6ee8bc733a3cce007f5
+exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 8%
@@ -39,30 +40,40 @@ Les améliorations apportées à la gestion financière sont les suivantes :
 
 * **Attributs de taux**, qui vous permettent d’ajouter des dimensions supplémentaires aux taux au-delà de la fonction, de sorte que les taux puissent varier non seulement par fonction, mais également par des facteurs tels que l’agence, l’emplacement, la marque, le centre de coûts, etc. En combinant ces attributs, Workfront peut sélectionner automatiquement le taux correct pour les affectations, assurant ainsi la précision et la cohérence financières entre les projets.
 
-  Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
+  Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
 * Les **cartes tarifaires**, qui offrent un moyen structuré de gérer la facturation spécifique au client, combinant des taux basés sur les rôles et des attributs personnalisables pour garantir une évaluation précise et contrôlée des coûts du projet.
 
   Pour plus d’informations, voir [Gérer des cartes tarifaires](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) et [Joindre une carte tarifaire à un projet](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+
 * Un nouveau type de coût et de revenu appelé **Utilisateur et rôle par heure**. Lorsque ce type de tâche est affecté, une logique de hiérarchie de taux avancée détermine les taux de facturation et de coûts à partir de différents niveaux, y compris la carte tarifaire, le projet, l&#39;affectation, la fonction et le profil utilisateur. L&#39;utilisateur et le rôle par heure sont les seuls types de coût et de revenu que vous pouvez utiliser pour appliquer des attributs de taux et des cartes de taux.
 
   Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
 * Une expérience **affectations avancées** repensée et configurable de manière étendue offre une meilleure visibilité et un meilleur contrôle sur les taux, les périodes et les propriétés.
 
   Pour plus d’informations, voir la section [Créer des affectations avancées](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-  Avant la version de production du 16 avril, un commutateur sera ajouté pour vous permettre de choisir entre l’ancienne et la nouvelle expérience d’affectations avancées. L’ancienne expérience reste la valeur par défaut
+  >[!NOTE]
+  >
+  >Avant la version de production du 16 avril, un commutateur sera ajouté pour vous permettre de choisir entre l’ancienne et la nouvelle expérience d’affectations avancées. L’ancienne expérience reste la valeur par défaut.
+
 * Une **fonction pour la facturation**, qui vous permet de facturer un utilisateur sous une fonction différente de sa fonction principale. Cela s’avère utile lorsqu’une personne effectue temporairement un travail qui doit être facturé à un taux différent.
 
   Pour plus d&#39;informations, voir [Configurer une fonction pour la facturation](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
+
 * Date effective **taux de change**
 
   Pour plus d&#39;informations, voir [Configurer des taux de change](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
 * La possibilité d&#39;ajouter un multiplicateur **heures supplémentaires sur les tâches** qui multiplie toutes les heures prévues pour cette tâche et affecte les calculs du revenu prévu.
 
   Pour plus d&#39;informations, voir [Définir un ratio d&#39;heures supplémentaires](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md).
+
 * Un contrôle au niveau du projet pour **conserver toutes les informations de facturation** et empêcher toute modification future.
 
   Pour plus d’informations, voir [Modifier les projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
 * **alias de fonction**, défini sur une carte tarifaire. Lorsque la carte tarifaire est associée à un projet, l’alias apparaît sur des informations telles que les affectations d’espace réservé, les dépenses et les rapports, au lieu du nom de la fonction interne.
 
   Pour plus d’informations, voir [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
@@ -119,16 +130,18 @@ Les améliorations apportées aux formulaires personnalisés sont les suivantes 
   >
   >Ces fonctionnalités sont disponibles pour les organisations sur tous les packages Workfront et Workflow.
 
-* Possibilité d’ajouter des formulaires personnalisés aux équipes, aux cartes tarifaires et aux fonctions
-Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Possibilité d’ajouter des formulaires personnalisés aux équipes, aux cartes de performance et aux fonctions.
+
+  Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
   >[!NOTE]
   >
   >* L’ajout de formulaires personnalisés pour évaluer les cartes et les fonctions nécessite le package Workflow Ultimate.
   >* L’ajout de formulaires personnalisés aux équipes est disponible pour les organisations sur tous les packages Workfront et Workflow.
 
-* Paramètre d’autorisation **Type d’autorisation Finance** sur les champs au format monétaire pour autoriser l’accès uniquement aux utilisateurs et utilisatrices disposant de certaines autorisations définies dans leurs niveaux d’accès
-Pour plus d’informations, voir [Limiter l’accès aux données financières dans les champs personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md).
+* Paramètre d’autorisation **Type d’autorisation Finance** sur les champs au format monétaire pour autoriser l’accès uniquement aux utilisateurs et utilisatrices disposant de certaines autorisations définies dans leurs niveaux d’accès.
+
+  Pour plus d’informations, voir [Limiter l’accès aux données financières dans les champs personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md).
 
   >[!NOTE]
   >
@@ -139,7 +152,6 @@ Pour plus d’informations, voir [Limiter l’accès aux données financières d
 >[!NOTE]
 >
 >Ces fonctionnalités sont disponibles pour les organisations sur tous les packages Workfront et Workflow.
-
 
 Dans les modèles de disposition, vous pouvez personnaliser les en-têtes et les menus de navigation de gauche des objets supplémentaires, et afficher et masquer plus facilement les éléments dans le menu principal. Vous pouvez également utiliser un modèle de mise en page pour déterminer les options qui s’affichent lorsqu’un utilisateur clique sur le menu **Plus** (menu sous forme de trois points) dans des projets, des tâches, des événements, des portfolios et des programmes.
 
@@ -152,6 +164,7 @@ Pour plus d’informations, voir [Créer et gérer des modèles de mise en page]
 >Cette fonctionnalité n’est disponible que pour les organisations qui utilisent les packages Workflow Prime ou Ultimate.
 
 La localisation personnalisée vous permet de définir des termes et expressions personnalisés dans différentes langues. Workfront affiche ensuite ces termes dans la langue définie dans les paramètres du navigateur.
+
 Par exemple, vous pouvez définir le libellé « Public cible » à traduire par le mot allemand « Zielgruppe ». Tout utilisateur dont la langue du compte Adobe IMS est définie sur l’allemand voit le mot « Zielgruppe » comme libellé pour tout champ intitulé « Audience cible » en anglais.
 
 Pour plus d’informations, voir [Configuration de la localisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
@@ -165,5 +178,3 @@ Pour plus d’informations, voir [Configuration de la localisation personnalisé
 Les administrateurs Workfront peuvent désormais configurer les règles métier afin d’automatiser les actions de l’objet créé, modifié ou modifié lorsque certaines conditions sont remplies. Les actions disponibles incluent le partage de l’objet ou l’association d’un formulaire personnalisé à l’objet .
 
 Pour plus d’informations, voir [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
-
-
