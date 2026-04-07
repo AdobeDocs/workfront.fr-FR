@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: d2fcb0725672f1b8a976e3f55046af99b56a6412
+source-git-commit: b934764d12aa81f836b5d71b624ce9d83aab63b1
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 30%
+source-wordcount: '602'
+ht-degree: 29%
 
 ---
 
@@ -68,9 +68,7 @@ Pour plus d’informations, voir [Création et gestion des vues dans la zone des
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026
->Version rapide de production : 15 avril 2026
->Production pour tous : vendredi 16 avril 2026
+>Les vues prédéfinies n’auront pas de version d’aperçu et seront publiées directement en production le 16 avril.
 
 Pour vous aider à mieux organiser votre liste de demandes, nous avons ajouté les vues prédéfinies suivantes à la liste des demandes dans la zone des Demandes et au widget Mes demandes dans l’Accueil :
 
