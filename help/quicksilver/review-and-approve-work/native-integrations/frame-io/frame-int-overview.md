@@ -11,9 +11,9 @@ hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ La révision et les approbations unifiées optimisées par Workfront et Frame.io
 
 * L’instance Workfront doit être activée sur l’expérience unifiée Adobe et le stockage d’entreprise Adobe.
 
-* L’intégration doit être configurée par Adobe Professional Services.
-
 
 ## Basé sur le stockage d’entreprise Adobe
 
@@ -44,7 +42,7 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 

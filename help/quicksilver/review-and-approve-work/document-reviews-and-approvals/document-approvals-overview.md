@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: '3874'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,6 @@ Les coordinateurs de projet gèrent le travail dans Workfront pendant que les cr
 
 * L’instance Workfront doit être activée sur l’expérience unifiée Adobe et le stockage d’entreprise Adobe.
 
-* L’intégration doit être configurée par Adobe Professional Services.
-
 
 ## Basé sur le stockage d’entreprise Adobe
 
@@ -47,7 +45,7 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -180,8 +178,6 @@ Pour utiliser la révision et l’approbation unifiées, les conditions suivante
 * Les utilisateurs ne peuvent appartenir qu’à une seule instance Workfront au sein de l’organisation IMS.
 
 * L’instance Workfront doit être activée sur l’expérience unifiée Adobe et le stockage d’entreprise Adobe.
-
-* L’intégration doit être configurée par Adobe Professional Services.
 
 * Les clients Workfront doivent disposer d’un SKU V2 (cela peut nécessiter un événement de contrat ; contactez votre représentant de compte Adobe).
 
