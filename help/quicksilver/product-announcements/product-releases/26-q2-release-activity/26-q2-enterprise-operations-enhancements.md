@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1257'
 ht-degree: 8%
 
 ---
@@ -86,6 +86,8 @@ Utilisez des **instantanés de projet** pour gérer les projets plus efficacemen
 
 Pour plus d’informations, voir [Création et affichage d’instantanés de projet](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md).
 
+[Visionnez une démonstration vidéo d’instantanés de projet.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+
 >[!NOTE]
 >
 >* Les instantanés de projet ne sont disponibles que pour les organisations sur le package Workflow Ultimate.
@@ -96,6 +98,8 @@ Pour plus d’informations, voir [Création et affichage d’instantanés de pro
 **Profils métier** offrent un accès sécurisé et évolutif au système et aident à renforcer la gouvernance d’entreprise.
 
 Pour plus d’informations, voir [Présentation des profils métier](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+
+[Regardez une vidéo de démonstration des profils professionnels.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -110,6 +114,8 @@ En outre, les autorisations d’affichage des données de coût et de facturatio
 ### Améliorations apportées aux formulaires personnalisés et aux champs
 
 La logique avancée des formulaires personnalisés offre des informations plus claires et une gestion de projet et financière plus précise.
+
+[Regardez une vidéo de démonstration des améliorations apportées aux champs et aux formulaires personnalisés.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 Les améliorations apportées aux formulaires personnalisés sont les suivantes :
 
@@ -159,6 +165,8 @@ Dans les modèles de disposition, vous pouvez personnaliser les en-têtes et les
 
 Pour plus d’informations, voir [Créer et gérer des modèles de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
+[Regardez une vidéo de démonstration des améliorations apportées au modèle de mise en page.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+
 ### Localisation personnalisée
 
 >[!NOTE]
@@ -171,6 +179,8 @@ Par exemple, vous pouvez définir le libellé « Public cible » à traduire par
 
 Pour plus d’informations, voir [Configuration de la localisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
+[Regardez une vidéo de démonstration de la localisation personnalisée.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+
 ### Automatisation des actions à l’aide de règles métier
 
 >[!NOTE]
@@ -180,3 +190,6 @@ Pour plus d’informations, voir [Configuration de la localisation personnalisé
 Les administrateurs Workfront peuvent désormais configurer les règles métier afin d’automatiser les actions de l’objet créé, modifié ou modifié lorsque certaines conditions sont remplies. Les actions disponibles incluent le partage de l’objet ou l’association d’un formulaire personnalisé à l’objet .
 
 Pour plus d’informations, voir [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+[Regardez une vidéo de démonstration des améliorations apportées aux règles métier.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
