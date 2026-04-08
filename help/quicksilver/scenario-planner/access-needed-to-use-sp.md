@@ -9,7 +9,7 @@ feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 82152918c528a5f5ed91081dfcb2b6fdc6dc8e09
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 60%
@@ -26,7 +26,7 @@ ht-degree: 60%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Sans les accès ou autorisations nécessaires, vous ne pourrez peut-être pas afficher la zone [!UICONTROL Scénarios] d’[!DNL &#x200B; Adobe Workfront] ou gérer les plans ou les initiatives de votre entreprise. La gestion des plans et des initiatives comprend leur création, leur modification et leur suppression.
+Sans les accès ou autorisations nécessaires, vous ne pourrez peut-être pas afficher la zone [!UICONTROL Scénarios] d’[!DNL  Adobe Workfront] ou gérer les plans ou les initiatives de votre entreprise. La gestion des plans et des initiatives comprend leur création, leur modification et leur suppression.
 
 ## Accès nécessaire pour afficher et utiliser le [!DNL Adobe Workfront Scenario Planner]
 
@@ -55,22 +55,22 @@ Vous devez vous assurer que toutes les conditions suivantes sont remplies avant 
    * [!UICONTROL Léger] ou supérieur
    * [!UICONTROL Réviseur] ou version ultérieure
 
-  <!--
+<!--
     Old: 
       * For the current licenses: 
         * [!UICONTROL Plan]
         * [!UICONTROL Work]
         * [!UICONTROL Review]
-        -->
+-->
 
-  <!--
+<!--
     Old: 
       >[!NOTE]
       > 
       >* When using the new licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
       >
       >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner.
-      -->
+-->
 
 * Votre administrateur ou administratrice [!DNL Workfront] doit vous accorder l’accès en [!UICONTROL affichage] ou en [!UICONTROL modification] au [!DNL Scenario Planner].
 
