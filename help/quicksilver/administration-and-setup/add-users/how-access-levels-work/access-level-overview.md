@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1775'
 ht-degree: 96%
 
 ---
@@ -102,6 +102,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets a
 | Filtres, vues et regroupements |   |   | ✓ |
 | Documents |   |   | ✓ |
 | Utilisateurs et utilisatrices |   |   | ✓ |
+| Fonctions |   |   | ✓ |
+| Équipes |   |   | ✓ |
 | Modèles |   |   | ✓ |
 | Données financières |   |   | ✓ |
 | Gestion des ressources |   |   | ✓ |
@@ -204,7 +206,13 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
    <td>✓</td> 
    <td> </td> 
   </tr> 
-    <tr> 
+  <tr> 
+   <td>Fonctions</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>Équipes</td> 
    <td> </td> 
    <td>✓</td> 
@@ -285,7 +293,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Rapports (y compris les tableaux de bord et les rapports de calendrier) |   | ✓ (onglet Détails uniquement) |   |
 | Filtres, vues et regroupements |   |   | ✓ |
 | Document |   |   | ✓ |
-| l’utilisateur ou de l’utilisatrice |   | ✓ |   |
+| Utilisateurs et utilisatrices |   | ✓ |   |
+| Fonctions |   | ✓ |   |
 | Équipes |   | ✓ |   |
 | Modèles | ✓ |   |   |
 | Données financières | ✓ |   |   |
@@ -334,7 +343,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Rapports (y compris les tableaux de bord et les rapports de calendrier) |   | ✓ (Uniquement pour les rapports de calendrier, pas de partage des rapports possible) |   |
 | Filtres, vues et regroupements | ✓ |   |   |
 | Document |   | ✓ (impossible de partager des documents) |   |
-| l’utilisateur ou de l’utilisatrice |   | ✓ |   |
+| Utilisateurs et utilisatrices |   | ✓ |   |
+| Fonctions | ✓ |   |   |
 | Équipes | ✓ |   |   |
 | Modèles | ✓ |   |   |
 | Données financières | ✓ |   |   |

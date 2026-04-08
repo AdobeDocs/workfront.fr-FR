@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 98%
+source-wordcount: '840'
+ht-degree: 83%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 <!--Linked in several places, do not rename or change URL.-->
 
-En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un niveau d’accès pour accorder aux utilisateurs et utilisatrices un accès administratif de licence Plan à certaines zones du système.
+En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’accès pour accorder aux utilisateurs disposant d’une licence Standard ou Plan un accès administratif à certaines zones du système.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez util
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Octroyer aux utilisateurs et utilisatrices du Plan un accès administratif à certaines zones de Workfront
+## Accorder aux utilisateurs de Standard ou de Plan un accès administratif à certaines zones de Workfront
 
 >[!IMPORTANT]
 >
@@ -78,7 +78,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <p>Sans cet accès, les utilisateurs et utilisatrices peuvent uniquement afficher les entreprises existantes.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Formulaires personnalisés dans mon groupe</td> 
+      <td role="rowheader">Formulaires personnalisés</td> 
       <td><p>Créez et modifiez (ajoutez, modifiez et supprimez les champs) des formulaires personnalisés dans leur groupe.</p><p>Sans cet accès, les utilisateurs et utilisatrices peuvent uniquement joindre des formulaires existants à des objets auxquels ils ont accès pour la contribution ou la gestion.</p></td> 
      </tr> 
      <tr> 
@@ -96,12 +96,13 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader">Fonctions</td> 
-      <td> <p>Avec cet accès, l’utilisateur et utilisatrice sont autorisés à effectuer les opérations suivantes :</p> 
+      <td> <p><span class="preview"><b>REMARQUE </b> : dans l’environnement de prévisualisation, l’accès aux fonctions est contrôlé en tant que type d’objet au niveau d’accès. Voir <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Octroi de l’accès aux fonctions</a>.</span></p>
+      <p>Avec cet accès, l’utilisateur et utilisatrice sont autorisés à effectuer les opérations suivantes :</p> 
        <ul> 
         <li>Afficher et modifier des fonctions existantes</li> 
         <li>Ajouter des fonctions</li> 
         <li>Modifier les taux de facturation et de coûts du rôle</li> 
-       </ul> <p><b>IMPORTANT</b> : si vous accordez à un utilisateur ou une utilisatrice du planificateur l’accès administratif aux fonctions, le paramètre d’accès aux données financières Modifier les taux de facturation et de coûts du rôle est activé automatiquement pour l’utilisateur ou l’utilisatrice. Par la suite, si vous désactivez l’accès administratif aux fonctions pour l’utilisateur ou l’utilisatrice du planificateur, les fonctions sont toujours visibles par l’utilisateur ou l’utilisatrice, car le paramètre Modifier les taux de facturation et de coûts du rôle est toujours activé. Si cela se produit et que vous devez supprimer l’accès de l’utilisateur ou de l’utilisatrice à l’affichage des fonctions, désactivez le paramètre d’autorisation Modifier la facturation et les taux de dépense du rôle pour cette personne. Pour obtenir des instructions, voir la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Accorder l’accès aux données financières</a>.</p> </td> 
+       </ul> <p><b>IMPORTANT</b> : Si vous accordez à un utilisateur standard ou de plan un accès administratif aux fonctions, le paramètre Accès aux données financières Modifier les taux de facturation et de coûts des rôles est automatiquement activé pour l'utilisateur. Ultérieurement, si vous désactivez l’accès administratif aux fonctions pour l’utilisateur standard ou de plan, les fonctions restent visibles pour l’utilisateur car le paramètre Modifier les taux de facturation et de coûts des rôles est toujours activé. Si cela se produit et que vous devez supprimer l’accès de l’utilisateur ou de l’utilisatrice à l’affichage des fonctions, désactivez le paramètre d’autorisation Modifier la facturation et les taux de dépense du rôle pour cette personne. Pour obtenir des instructions, voir la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Accorder l’accès aux données financières</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Jalons dans mon groupe</td> 
