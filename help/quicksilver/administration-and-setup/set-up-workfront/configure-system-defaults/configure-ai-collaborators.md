@@ -87,7 +87,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Dans le champ Nom du collaborateur, entrez le nom du collaborateur. Il s’agit du nom qui apparaît dans la liste des délégataires disponibles pour une tâche.
    <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
    <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Sélectionnez la marque et la consigne de marque qu’elle utilisera.
+1. &#x200B;<!--(Conditional) If the AI Collaborator will use a Brand,-->Sélectionnez la marque et la consigne de marque qu’elle utilisera.
 1. Cliquez sur **Enregistrer**.
 
 ## Gérer les collaborateurs d’IA
