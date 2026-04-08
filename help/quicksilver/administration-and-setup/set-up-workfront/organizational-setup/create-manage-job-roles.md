@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1703'
 ht-degree: 28%
 
 ---
@@ -69,8 +69,7 @@ Pour créer une fonction, procédez comme suit :
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Fonctions]**.
-1. Cliquez sur **[!UICONTROL Nouvelle fonction]**.
-<!-- 1. Click **New Job Role > Create new job role**.  -->
+1. Cliquez sur **[!UICONTROL Nouvelle fonction] <span class="preview">> Créer une fonction**.</span>
 1. Renseignez les champs suivants :
 
    * **Nom** : indiquez un nom pour la fonction. Il s’agit du nom qui s’affiche partout dans Workfront où s’affiche le champ Fonction .
