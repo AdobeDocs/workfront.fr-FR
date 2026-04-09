@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3416'
 ht-degree: 32%
 
 ---
@@ -125,6 +125,10 @@ Cette disposition des affectations avancées s&#39;applique uniquement aux tâch
 1. Passez en revue les informations de durée de la tâche selon les besoins. Ces champs sont tous en lecture seule à partir des affectations avancées et vous pouvez les mettre à jour dans la tâche.
 
    Pour plus d&#39;informations sur la durée de la tâche, les types de durée, les unités de temps et les heures prévues, voir [Présentation de la durée de la tâche et du type de durée](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+   >[!NOTE]
+   >
+   >Si une colonne de données que vous souhaitez afficher ne s’affiche pas, vous pouvez l’ajouter. Voir [Ajouter et supprimer des colonnes dans la liste des affectations avancées](#add-and-remove-columns-on-the-advanced-assignments-list) ci-dessous.
 
 1. (Facultatif) Sélectionnez **Heures**, **équivalent temps complet** ou **Pourcentage** pour afficher les allocations.
 
