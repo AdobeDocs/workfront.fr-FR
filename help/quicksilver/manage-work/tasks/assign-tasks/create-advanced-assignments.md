@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
+source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3415'
 ht-degree: 32%
 
 ---
@@ -44,7 +44,7 @@ Vous pouvez ajuster les informations d’affectation suivantes lors d’affectat
 * Déterminez quelle personne doit être la propriétaire ou la cessionnaire principale de la tâche ou du problème.
 * Spécifiez le rôle de chaque personne lorsqu’elle travaille sur la tâche ou le problème.
 * <span class="preview">Ajouter des informations de facturation et de taux de coûts au niveau de l&#39;affectation.</span>
-* <span class="preview">Examinez les détails suivants pour chaque affectation : heures planifiées en fonction du temps, coût total et chiffre d&#39;affaires total.</span>
+* <span class="preview">Examinez les détails suivants pour chaque affectation : heures prévues, coût total et revenu total.</span>
 
 >[!NOTE]
 >
