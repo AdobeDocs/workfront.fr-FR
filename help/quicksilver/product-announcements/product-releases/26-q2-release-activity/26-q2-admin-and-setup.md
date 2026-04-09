@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
+source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '562'
 ht-degree: 15%
 
 ---
@@ -63,7 +63,7 @@ Par défaut, toutes les sections d’un formulaire personnalisé sont développ�
 
 Pour plus d’informations, voir [Organisation et prévisualisation d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
-## Le type de champ Rich Text est désormais disponible sur les formulaires personnalisés
+## Champ Rich Text remplaçant le texte par le type de champ Formatage
 
 >[!NOTE]
 >
