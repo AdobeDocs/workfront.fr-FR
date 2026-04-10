@@ -31,7 +31,7 @@ Le réviseur de contenu calcule les scores différemment selon le type de révis
 * Révision de l’image : ce score reflète le ratio des directives approuvées par rapport aux directives ayant échoué.
 * Copier la révision : Ce score utilise une pondération équilibrée des résultats subjectifs et objectifs. Les directives objectives (affichées sous « Corriger ») sont pondérées trois fois plus que les directives subjectives (affichées sous « Considérer »).
 
-Étant donné que les directives objectives ont plus de poids dans les critiques de copie, nous vous recommandons d&#39;écrire des directives concrètes et mesurables dans votre marque. Pour plus d’informations, consultez la section [ Bonnes pratiques pour la rédaction de directives relatives aux marques ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) de l’article Création et gestion des marques pour le réviseur de contenu .
+Étant donné que les directives objectives ont plus de poids dans les critiques de copie, nous vous recommandons d&#39;écrire des directives concrètes et mesurables dans votre marque. Pour plus d’informations, consultez la section [&#x200B; Bonnes pratiques pour la rédaction de directives relatives aux marques &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) de l’article Création et gestion des marques pour le réviseur de contenu .
 
 ## Afficher le score et le retour d’informations
 
