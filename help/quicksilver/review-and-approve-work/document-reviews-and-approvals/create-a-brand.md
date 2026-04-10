@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 9%
+source-wordcount: '581'
+ht-degree: 7%
 
 ---
 
@@ -129,3 +129,12 @@ Pour plus d’informations sur la signature du contrat, voir [Signature du contr
 
 
 1. Lorsque vous avez terminé, cliquez sur **Publier** pour rendre la marque disponible pour le réviseur de contenu.
+
+
+## Bonnes pratiques relatives à l’écriture de directives de marque
+
+*  Rédiger des directives sur la marque qui décrivent les critères mesurables. Le réviseur de contenu évalue le contenu littéralement, de sorte que les règles objectives génèrent des scores plus cohérents que les règles subjectives.
+
+* Recherchez des mots comme « éviter », « conserver » ou « s’assurer » dans vos directives. Ceux-ci signalent souvent une règle que vous pouvez resserrer. Remplacez l’instruction vague par une liste spécifique de mots, de formats ou de limites. Par exemple, remplacez « évitez les clichés de ski les plus courants » par « n’utilisez ni « gnar », ni « pow », ni « shred ».
+
+* Si vous ne pouvez pas supprimer la subjectivité, réduisez-la. Remplacez les adjectifs généraux par des contraintes spécifiques. Par exemple, « Direct et orienté vers l’action » devient « Direct et orienté vers l’action ; omettez les mots de remplissage et le langage de couverture ».

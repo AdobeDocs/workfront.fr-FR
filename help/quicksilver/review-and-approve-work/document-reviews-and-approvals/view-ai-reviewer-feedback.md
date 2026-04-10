@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
-source-git-commit: 20cbe6b280d2d06543b52e1e50d0b2c5edda6418
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,15 @@ Quelques secondes après l’envoi de la demande de révision et d’approbation
 Le réviseur de contenu n’est pas conçu pour être un décideur dans le workflow de révision et d’approbation. Il ne fournit qu’un score et des recommandations pour aligner la ressource sur les exigences de marque spécifiées.
 
 ![Commentaires des réviseurs de contenu](assets/ai-reviewer-output.png)
+
+## Comprendre comment les scores sont calculés
+
+Le réviseur de contenu calcule les scores différemment selon le type de révision :
+
+* Révision de l’image : ce score reflète le ratio des directives approuvées par rapport aux directives ayant échoué.
+* Copier la révision : Ce score utilise une pondération équilibrée des résultats subjectifs et objectifs. Les directives objectives (affichées sous « Corriger ») sont pondérées trois fois plus que les directives subjectives (affichées sous « Considérer »).
+
+Étant donné que les directives objectives ont plus de poids dans les critiques de copie, nous vous recommandons d&#39;écrire des directives concrètes et mesurables dans votre marque. Pour plus d’informations, consultez la section [ Bonnes pratiques pour la rédaction de directives relatives aux marques ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) de l’article Création et gestion des marques pour le réviseur de contenu .
 
 ## Afficher le score et le retour d’informations
 
