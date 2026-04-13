@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '712'
 ht-degree: 89%
 
 ---
@@ -73,10 +73,9 @@ Fournissez les informations suivantes à votre administrateur ou administratrice
   </tr> 
   <tr> 
    <td role="rowheader">Intégrations Adobe Workfront</td> 
-   <td>Informez votre administrateur ou administratrice réseau si vous utilisez l’une des solutions suivantes :
+   <td>Si vous utilisez les fonctionnalités suivantes, informez votre administrateur ou administratrice réseau :
     <ul>
      <li><p>Workfront pour Microsofts Teams</p></li>
-     <li><p>Workfront pour Microsoft Outlook</p></li>
     </ul></td> 
   </tr> 
   <tr> 

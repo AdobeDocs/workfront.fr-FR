@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: '« Message d’erreur sur l’application mobile [!DNL Adobe Workfront]  : "Votre compte n’est pas activé dans l’API." »'
-description: '« Message d’erreur sur l’application mobile [!DNL Adobe Workfront]  : "Votre compte n’est pas activé dans l’API." »'
+title: 'Message d’erreur sur l’application mobile  [!DNL Adobe Workfront]  : « Votre compte n’est pas activé pour l’API ».'
+description: 'Message d’erreur sur l’application mobile  [!DNL Adobe Workfront]  : « Votre compte n’est pas activé pour l’API ».'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 68%
 
 ---
 
@@ -53,7 +53,7 @@ Votre administrateur ou administratrice [!DNL Workfront] n’a pas activé votre
 1. Accédez à la zone **[!UICONTROL Configuration]**.
 1. Développez le menu **[!UICONTROL Système]**, puis cliquez sur **[!UICONTROL Préférences]**.
 
-1. Sous la section **[!UICONTROL Sécurité]**, sélectionnez l’option **[!UICONTROL Autoriser les personnes à utiliser les applications mobiles [!DNL Workfront] et le complément [!DNL Workfront Outlook]]** pour l’activer.
+1. Dans la section **[!UICONTROL Sécurité]**, sélectionnez l’option **[!UICONTROL Autoriser les personnes à utiliser les applications mobiles de [!DNL Workfront]]** pour l’activer.
 
-1. Cliquer sur **[!UICONTROL Enregistrer]**.\
-   Toutes les personnes du système peuvent désormais accéder à [!DNL Workfront] à partir de leurs applications mobiles et de [!DNL Outlook].
+1. Cliquez sur **[!UICONTROL Enregistrer]**.\
+   Tous les utilisateurs du système peuvent désormais accéder à [!DNL Workfront] à partir de leurs applications mobiles.

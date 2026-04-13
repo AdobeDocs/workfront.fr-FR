@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0db6cd1091052af7a71ad3e4fce6a9e3fcbb9f67
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '7436'
+source-wordcount: '7426'
 ht-degree: 94%
 
 ---
@@ -688,7 +688,6 @@ Pour des exemples d’utilisation du champ « Recherche externe » pour appele
 
 >[!NOTE]
 >
->* Les champs de recherche externe ne sont pas pris en charge dans le plug-in Outlook.
 >* Les champs de recherche externe ne sont pas disponibles dans les listes quand le champ dépend d’un autre champ.
 
 Pour ajouter une recherche externe, procédez comme suit :
@@ -754,12 +753,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de l’API renvoie le JSON au format suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
       <pre>
-      &lbrace;
-data: &lbrace;
+      {
+data: {
 { name: "USA"},
 { name: "Canada"}
-&rbrace;
-&rbrace;
+}
+}
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>

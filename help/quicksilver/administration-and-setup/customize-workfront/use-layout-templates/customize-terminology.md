@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '628'
 ht-degree: 90%
 
 ---
@@ -33,7 +33,6 @@ Après avoir enregistré un modèle de mise en page dans lequel vous avez modifi
 
 >[!NOTE]
 >
->* La zone du module complémentaire Outlook n’affiche pas les libellés personnalisés.
 >* Vous pouvez rencontrer des problèmes de grammaire et d’autres problèmes lorsque vous personnalisez des libellés. Par exemple, si vous remplacez « Problème » par « Demande », l’expression « Une demande » peut se trouver dans l’interface d’utilisation. Pour plus d’informations, voir [Implications de la personnalisation des noms d’objet](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) dans l’article [Présentation des objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
 

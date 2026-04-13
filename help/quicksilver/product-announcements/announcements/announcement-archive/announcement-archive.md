@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '111'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 100%
 * [Améliorations apportées aux formulaires personnalisés](custom-form-enhancements.md)
 * [Mise à jour de l’application mobile pour iOS et Android (début août 2017)](updated-mobile-app.md)
 * [TLS 1.2 requis dans Adobe Workfront](tls-1-disabled.md)
-* [Disponibilité du module complémentaire Outlook 365](../../outlook-365-add-in/outlook-365-add-in-now-available.md)
 * [Remplacement des outils Flash dans Adobe Workfront](replace-flash-tools.md)
 * [Nouveau système géré par Adobe Workfront pour remplacer les e-mails POP par des files d’attente des demandes avec la version 21.1](pop-removal-request-queue.md)
 * [Nouveau système Adobe Workfront pour remplacer les e-mails POP par des files d’attente des demandes avec la version 21.1](pop-removal-request-queue.md)
