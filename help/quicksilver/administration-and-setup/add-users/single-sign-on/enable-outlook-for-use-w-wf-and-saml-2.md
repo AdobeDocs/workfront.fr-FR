@@ -21,4 +21,4 @@ ht-degree: 44%
 >
 >[Microsoft a désactivé la prise en charge des jetons Exchange Online hérités](https://learn.microsoft.com/fr-fr/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) qui étaient utilisés par le complément Workfront Outlook pour l&#39;authentification. Cette modification par Microsoft a été déployée par phases et est terminée depuis le 1er octobre 2025.
 >
->Microsoft ayant désactivé ces jetons, l’intégration de Workfront pour Microsoft Outlook n’est plus disponible.****
+>Microsoft ayant désactivé ces jetons, l’intégration de Workfront pour Microsoft Outlook n’est plus disponible.**&#x200B;**

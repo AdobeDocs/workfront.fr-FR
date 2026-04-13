@@ -21,15 +21,15 @@ ht-degree: 97%
 Cette section contient les articles suivants :
 
 * [[!DNL Adobe Workfront] Intégrations](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [Configurer l’intégration  [!DNL Experience Manager Assets as a Cloud Service] ](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
-* [Configurer l’intégration  [!DNL Experience Manager Assets Essentials] ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-* Intégrations de [[!DNL Workfront]  et  [!DNL Experience Manager Assets] ](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-* [Configurer  [!DNL Workfront]  avec le connecteur hérité  [!DNL Adobe Experience Manager] ](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
+* [Configurer l’intégration  [!DNL Experience Manager Assets as a Cloud Service] &#x200B;](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [Configurer l’intégration  [!DNL Experience Manager Assets Essentials] &#x200B;](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+* Intégrations de [[!DNL Workfront]  et  [!DNL Experience Manager Assets] &#x200B;](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Configurer  [!DNL Workfront]  avec le connecteur hérité  [!DNL Adobe Experience Manager] &#x200B;](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
 * [Configurer les intégrations de document](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [Désactiver les intégrations de document](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
-* [Configurer l’intégration  [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
+* [Configurer l’intégration  [!DNL SharePoint] &#x200B;](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
 * [Configurer le mappage des métadonnées](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-* [Créer des packages [!UICONTROL  [!DNL Adobe Workfront]  for  [!DNL Creative Cloud]]  pour vos utilisateurs et utilisatrices dans  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+* [Créer des packages [!UICONTROL &#x200B; [!DNL Adobe Workfront]  for  [!DNL Creative Cloud]]  pour vos utilisateurs et utilisatrices dans  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/create-oauth-application.md" class="MCXref xref" xrefformat="{para}">Create OAuth2 applications for Workfront integrations</a> </li>
@@ -39,4 +39,4 @@ Cette section contient les articles suivants :
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md" class="MCXref xref" xrefformat="{para}">View and manage custom OAuth2 applications</a> </li>
   -->
 
-* [Configurer l’intégration  [!DNL JumpSeat] ](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
+* [Configurer l’intégration  [!DNL JumpSeat] &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
