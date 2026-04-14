@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 93eab1106953bfc7324f4b7cc99d3442364a56cd
+source-git-commit: ca06f89747110f1abc4cc6ff46490ac6f7a54e96
 workflow-type: tm+mt
-source-wordcount: '3865'
+source-wordcount: '3876'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -102,7 +102,7 @@ Pour plus d’informations sur la gestion des projets dans Workfront, voir [Proj
 
 Étant donné que la révision et l’approbation unifiées sont créées à l’aide du stockage d’entreprise Adobe, il existe une structure appliquée et des conventions de nommage à connaître lors de la gestion des projets et des documents.
 
-* Le stockage d’entreprise Adobe nécessite des noms uniques pour les objets homologue avec le même parent dans l’arborescence hiérarchique.
+* Les programmes et les projets ne peuvent pas porter le même nom s&#39;ils appartiennent au même portefeuille.
 * Les documents ne peuvent pas porter le même nom s&#39;ils appartiennent au même projet.
 * Les noms d&#39;objet ne peuvent pas contenir les caractères spéciaux suivants : \ / : * ? « | &lt; >
 * Les noms d’objet sont limités à 255 caractères maximum.
@@ -399,7 +399,9 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 
 Oui. Comme l’intégration utilise le stockage d’entreprise d’Adobe, les conventions suivantes s’appliquent :
 
-* Les noms d&#39;objet et de document doivent être uniques dans le même parent de la hiérarchie des dossiers.
+* Les programmes et les projets ne peuvent pas porter le même nom s&#39;ils appartiennent au même portefeuille.
+
+* Les noms de document doivent être uniques dans le même parent de la hiérarchie des dossiers.
 
 * Les documents d&#39;un même projet ne peuvent pas partager un nom.
 
