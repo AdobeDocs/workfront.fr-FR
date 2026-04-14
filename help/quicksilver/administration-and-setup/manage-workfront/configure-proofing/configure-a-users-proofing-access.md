@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1102'
 ht-degree: 99%
 
 ---
@@ -49,19 +49,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 +++
-
-## Activer et désactiver la relecture pour un utilisateur ou une utilisatrice (plans hérités uniquement) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
-
-Si votre entreprise dispose d’une formule Workfront Select ou Premium héritée, en tant qu’administrateur ou administratrice Workfront, vous pouvez activer et désactiver la fonctionnalité de relecture pour l’utilisateur ou l’utilisatrice.
-
-Lorsque vous activez la relecture pour un utilisateur ou une utilisatrice, Workfront active l’option de génération automatique d’épreuves de l’utilisateur ou de l’utilisatrice.
-
-Vous pouvez accorder un accès en relecture à un utilisateur ou une utilisatrice, mais pour que cette personne puisse accéder directement à l’interface de Workfront Proof à partir du menu principal de Workfront, elle doit également disposer d’autorisations d’administration. Pour plus d’informations sur la manière de procéder à l’échelle de votre système Workfront, consultez la section [Configurer l’accès à Workfront Proof à partir du menu principal de Workfront pour tous les utilisateurs et utilisatrices](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users).
-
-1. Dans le **Menu principal**, sélectionnez **Utilisateurs et utilisatrices**.
-
-1. Sélectionnez une personne, puis cliquez sur l’icône **Modifier**.
-1. Dans la section **Accès**, sélectionnez ou désélectionnez **L’utilisateur ou l’utilisatrice peut générer des épreuves**.
 
 ## Configurer le profil d’autorisation d’épreuve d’un utilisateur ou d’une utilisatrice
 
@@ -106,7 +93,7 @@ Le profil d’autorisation que vous sélectionnez est attribué aux personnes po
 
    >[!NOTE]
    >
-   >Lorsque vous créez ou mettez à jour une personne dans Workfront et que l’adresse e-mail Workfront de cette personne correspond à celle d’un utilisateur ou d’une utilisatrice de Workfront Proof sous licence, le système active la vérification de l’identité de la personne dans Workfront. Pour plus d’informations, voir [Synchronisation des utilisateurs et utilisatrices entre Adobe Workfront et Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
+   >Lorsque vous créez ou mettez à jour une personne dans Workfront et que l’adresse e-mail Workfront de cette personne correspond à celle d’un utilisateur ou d’une utilisatrice de Workfront Proof sous licence, le système active la relecture pour cette personne dans Workfront. Pour plus d’informations, voir [Synchronisation des utilisateurs et utilisatrices entre Adobe Workfront et Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
 
 ### Considérations
 
@@ -114,7 +101,7 @@ Tenez compte des informations suivantes lors du paramétrage des autorisations 
 
 * Si vous remplacez le profil d’autorisation d’une personne par un profil avec moins d’autorisations, la personne risque de perdre de la visibilité sur les épreuves existantes dans Workfront. Cela peut se produire lorsqu’une personne partage une tâche avec un utilisateur ou une utilisatrice dans Workfront, mais ne partage pas l’épreuve associée à la tâche (voir [Partager une épreuve dans Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) dans [Partager une épreuve dans Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)).
 * Vous ne pouvez définir des autorisations d’épreuves Workfront à partir de Workfront que si votre environnement Workfront est intégré à un compte Workfront Proof Premium. Si vous ne pouvez pas utiliser la relecture comme décrit dans cette section, contactez votre équipe d’administration Workfront.
-* Au moins un utilisateur ou une utilisatrice de votre environnement Workfront doit disposer des autorisations d’administration pour la relecture. Un message d’erreur s’affiche si vous tentez de supprimer les autorisations d’administration pour la vérification de tous les utilisateurs et utilisatrices.
+* Au moins un utilisateur ou une utilisatrice de votre environnement Workfront doit disposer des autorisations d’administration pour la relecture. Un message d’erreur s’affiche si vous tentez de supprimer les autorisations d’administration pour la relecture de l’ensemble des utilisateurs et utilisatrices.
 * Lorsque vous définissez le niveau d’accès Workfront d’une personne sur un niveau autre qu’administration système, le profil d’autorisation Workfront Proof de la personne prend par défaut la valeur de responsable.
 
 * Lorsque vous définissez le niveau d’accès Workfront sur Administrateur ou administratrice système, le profil d’autorisation des épreuves passe à Administrateur ou administratrice.
