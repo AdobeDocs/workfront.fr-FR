@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca06f89747110f1abc4cc6ff46490ac6f7a54e96
+source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
 workflow-type: tm+mt
-source-wordcount: '3876'
+source-wordcount: '3846'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,7 @@ Les coordinateurs de projet gèrent le travail dans Workfront pendant que les cr
 
 ## Exigences d’intégration
 
-* Workfront et Frame.io doivent être déployés sur la même organisation Identity Management system (IMS).
-
-* Les utilisateurs ne peuvent appartenir qu’à une seule instance Workfront au sein de l’organisation IMS.
-
-* L’instance Workfront doit être activée sur l’expérience unifiée Adobe et le stockage d’entreprise Adobe.
+* L’instance Workfront doit être activée sur l’expérience unifiée Adobe.
 
 
 ## Basé sur le stockage d’entreprise Adobe
@@ -45,7 +41,7 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
