@@ -10,9 +10,9 @@ role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1590'
 ht-degree: 87%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 87%
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des niveaux d’accès personnalisés et les appliquer aux personnes. Lorsque vous utilisez des niveaux d’accès, il est important de comprendre comment ils fonctionnent avec les autorisations d’objet que les personnes accordent lorsqu’elles partagent des objets les unes avec les autres. Pour plus d’informations sur les niveaux d’accès, voir ce qui suit :
 
@@ -203,13 +201,13 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    </table>
 
 
-1. <span class="preview">(Facultatif) Pour empêcher les utilisateurs disposant de ce niveau d’accès de voir des champs spécifiques, ajoutez les champs dans la section Ajouter des champs restreints </span>.
+1. (Facultatif) Pour empêcher les utilisateurs disposant de ce niveau d’accès de voir des champs spécifiques, ajoutez les champs dans la section Ajouter des champs restreints </span>
 
-   <span class="preview">Vous pouvez rechercher des champs natifs et personnalisés dans cette section. Il existe une limite de 20 champs restreints.</span>
+   Vous pouvez rechercher des champs natifs et personnalisés dans cette section. Il existe une limite de 20 champs restreints.
 
-   <span class="preview">Les champs sont restreints lorsque le niveau d’accès est attribué à un utilisateur en tant que niveau d’accès principal ou par le biais d’un profil d’entreprise. Pour plus d’informations sur les profils métier, voir [Présentation des profils métier](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+   Les champs sont restreints lorsque le niveau d’accès est attribué à un utilisateur en tant que niveau d’accès principal ou par le biais d’un profil d’entreprise. Pour plus d’informations sur les profils métier, voir [Présentation des profils métier](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
-   <span class="preview">Un champ restreint est toujours visible par les utilisateurs du système, mais apparaît comme vide ou affiche S/O au lieu des données réelles.</span>
+   Un champ restreint est toujours visible par les utilisateurs du système, mais apparaît comme vide ou affiche S/O au lieu des données réelles.
 
 1. (Le cas échéant et facultatif) Si votre système Workfront est configuré pour les personnes appartenant à plusieurs entreprises, limitez la visibilité aux autres personnes en fonction de l’entreprise à laquelle elles appartiennent dans la section **Les personnes d’autres entreprises ne devraient pouvoir visualiser que les utilisateurs et utilisatrices de**.
 

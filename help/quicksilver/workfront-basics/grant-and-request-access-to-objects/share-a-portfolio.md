@@ -4,16 +4,14 @@ description: Vous pouvez partager un portfolio avec d’autres personnes si vous
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 46%
+source-wordcount: '892'
+ht-degree: 45%
 
 ---
 
 # Partager un portfolio
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Votre administrateur ou administratrice Adobe Workfront peut vous accorder l’accès en afichage ou en modification aux portfolios lors de l’attribution de votre niveau d’accès. Vous devez disposer d’une licence de plan pour avoir accès à la modification d’un portfolio. Pour plus d’informations, voir [Accorder l’accès aux portfolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -84,7 +82,7 @@ Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [C
 
    ![Bouton Partager le portfolio](assets/share-portfolio-button.png)
 
-1. Dans le champ **Accorder l’accès au portefeuille à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil d’entreprise</span> avec lequel vous souhaitez partager le portefeuille, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès au portefeuille à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise ou du profil d’entreprise avec lequel vous souhaitez partager le portefeuille, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
@@ -117,7 +115,7 @@ Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [C
 
    ![Portefeuilles d’actions en masse](assets/bulk-share-portfolios.png)
 
-1. Dans le champ **Accorder l’accès au portefeuille à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil professionnel</span> avec lequel vous souhaitez partager les portefeuilles, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès au portefeuille à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise ou du profil d’entreprise avec lequel vous souhaitez partager les portefeuilles, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
@@ -147,24 +145,24 @@ Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [C
 Le tableau suivant indique les autorisations que vous pouvez accorder aux personnes lorsque vous les autorisez à afficher ou à gérer un portfolio :
 
 | **Actions** | **Gérer** | **Afficher** |
-|---|---|---|
-| Modifier les détails du portfolio | ✓ |   |
+| --- | --- | --- |
+| Modifier les détails du portfolio | ✓ | |
 | Afficher un portfolio | ✓ | ✓ |
-| Supprimer un portfolio | ✓ |   |
-| Joindre un formulaire personnalisé | ✓ |   |
-| Modifier un champ personnalisé | ✓ |   |
-| Ajouter ou supprimer un programme&#42; | ✓ |   |
-| Ajouter ou supprimer un projet&#42; | ✓ |   |
-| Approuver un projet | ✓ |   |
-| Optimisation du portfolio&#42; | ✓ |   |
+| Supprimer un portfolio | ✓ | |
+| Joindre un formulaire personnalisé | ✓ | |
+| Modifier un champ personnalisé | ✓ | |
+| Ajouter ou supprimer un programme&#42; | ✓ | |
+| Ajouter ou supprimer un projet&#42; | ✓ | |
+| Approuver un projet | ✓ | |
+| Optimisation du portfolio&#42; | ✓ | |
 | Ajouter un dossier de documents&#42; | ✓ | ✓ |
 | Ajouter un document | ✓ | ✓ |
 | Mises à jour / commentaires | ✓ | ✓ |
 | Partager | ✓ | ✓ |
-| Partager sur le système |   | ✓ |
-| Modifiez les taux de facturation&#42; | ✓ |   |
-| Modifier les taux de coûts&#42; | ✓ |   |
-| Modifier finances générales&#42; | ✓ |   |
+| Partager sur le système | | ✓ |
+| Modifiez les taux de facturation&#42; | ✓ | |
+| Modifier les taux de coûts&#42; | ✓ | |
+| Modifier finances générales&#42; | ✓ | |
 | Afficher les taux de facturation&#42; | ✓ | ✓ |
 | Afficher les taux de coûts&#42; | ✓ | ✓ |
 | Afficher finances générales&#42; | ✓ | ✓ |

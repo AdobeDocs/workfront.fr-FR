@@ -8,17 +8,14 @@ feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 75%
+source-wordcount: '592'
+ht-degree: 74%
 
 ---
 
 # Partager un rapport de calendrier
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
-
 
 Vous pouvez partager un calendrier avec d’autres utilisateurs et utilisatrices et le rendre public, ce qui permet à une personne sans licence [!DNL Adobe Workfront] de l’afficher.
 
@@ -67,7 +64,7 @@ Pour partager un calendrier dans [!DNL Workfront] :
 1. Accédez au calendrier que vous souhaitez partager.
 1. Cliquez sur le menu **Plus** en regard du nom du calendrier, puis cliquez sur **Partage**.
    ![menu calendrier plus](assets/more-menu-calendar.png)
-1. Dans le champ **[!UICONTROL Accorder l’accès au calendrier à]**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil professionnel</span> que vous souhaitez partager, puis cliquez sur le nom lorsqu’il s’affiche dans la liste déroulante.\
+1. Dans le champ **[!UICONTROL Accorder l’accès au calendrier à]**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise ou du profil professionnel que vous souhaitez partager le calendrier, puis cliquez sur le nom lorsqu’il s’affiche dans la liste déroulante.\
    Pour en savoir plus sur la définition des autorisations, voir la section [Vue d’ensemble des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Facultatif) Répétez l’étape 3 pour chaque utilisateur ou utilisatrice, équipe, rôle ou groupe à qui vous souhaitez accorder l’accès au calendrier.
@@ -115,5 +112,5 @@ Vous pouvez partager un lien de calendrier privé avec les utilisateurs et utili
 
    >[!NOTE]
    >
-   >Les utilisateurs et utilisatrices de [!DNL Workfront] doivent avoir accès au calendrier pour pouvoir y accéder à l’aide du lien. Pour accorder l’accès, voir la section [Partager un calendrier avec les utilisateurs et utilisatrices de  [!DNL Workfront] &#x200B;](#share-a-calendar-with-workfront-users).\
+   >Les utilisateurs et utilisatrices de [!DNL Workfront] doivent avoir accès au calendrier pour pouvoir y accéder à l’aide du lien. Pour accorder l’accès, voir la section [Partager un calendrier avec les utilisateurs et utilisatrices de  [!DNL Workfront] ](#share-a-calendar-with-workfront-users).\
    >Si les utilisateurs et utilisatrices ne disposent d’aucun accès, ils peuvent le demander après avoir collé le lien dans leur navigateur.

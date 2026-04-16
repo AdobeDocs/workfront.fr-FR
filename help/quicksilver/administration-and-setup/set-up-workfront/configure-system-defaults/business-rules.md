@@ -10,32 +10,19 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1864'
 ht-degree: 5%
 
 ---
 
 # Créer et modifier des règles métier
 
-<!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
--->
-
 Une règle métier vous permet d’appliquer une validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. La validation des règles métier permet d’améliorer la qualité des données et l’efficacité opérationnelle en empêchant les actions susceptibles de compromettre l’intégrité des données.
 
-<!--
+Les organisations qui disposent du package Workflow Ultimate peuvent également configurer des règles métier afin d’automatiser les actions de l’objet créé, modifié ou modifié lorsque certaines conditions sont remplies. Les actions disponibles incluent le partage de l’objet ou l’association d’un formulaire personnalisé à l’objet .
 
-<div class="preview">
-
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
-
-</div>
-
--->
 
 Une seule règle métier ne peut être affectée qu&#39;à un seul objet. Par exemple, si vous créez une règle métier pour ne pas modifier les projets sous certaines conditions, vous ne pouvez pas appliquer la même règle aux tâches. Vous devez créer une règle métier distincte avec les mêmes conditions pour les tâches.
 
@@ -89,9 +76,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Le format de validation d’une règle métier est le suivant : « SI la condition définie est remplie, l’utilisateur ne peut pas agir sur l’objet et le message s’affiche. »
 
-La syntaxe des propriétés et autres fonctions d&#39;une règle métier est identique à celle d&#39;un champ calculé dans un formulaire personnalisé. Pour plus d’informations sur la syntaxe, voir [&#x200B; Ajouter des champs calculés avec le concepteur de formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+La syntaxe des propriétés et autres fonctions d&#39;une règle métier est identique à celle d&#39;un champ calculé dans un formulaire personnalisé. Pour plus d’informations sur la syntaxe, voir [ Ajouter des champs calculés avec le concepteur de formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Pour plus d’informations sur les instructions IF, consultez [&#x200B; présentation des instructions « IF »](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) et [Opérateurs de condition dans les champs calculés personnalisés](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Pour plus d’informations sur les instructions IF, consultez [ présentation des instructions « IF »](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) et [Opérateurs de condition dans les champs calculés personnalisés](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Pour plus d’informations sur les caractères génériques basés sur l’utilisateur, voir [Utilisation de caractères génériques basés sur l’utilisateur pour généraliser les rapports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -261,13 +248,13 @@ Vous pouvez utiliser des caractères génériques dans les actions de règle mé
    * L&#39;« objet » est le type d&#39;objet que vous avez sélectionné lors de la création de la règle métier. Elle s’affiche dans l’en-tête de la boîte de dialogue.
    * L’« action » est le déclencheur que vous avez sélectionné pour la règle : créer, modifier ou supprimer l’objet.
    * Comme l’objet et l’action sont déjà définis, vous ne les incluez pas dans la formule.
-   * Le message d’erreur personnalisé <span class="preview">n’est inclus que si la règle est à des fins de validation et </span> s’affiche pour l’utilisateur ou l’utilisatrice lorsqu’il ou elle déclenche la règle métier. Il doit fournir des instructions claires sur ce qui s’est passé et sur la manière de corriger le problème.
+   * Le message d’erreur personnalisé n’est inclus que si la règle est à des fins de validation et s’affiche pour l’utilisateur ou l’utilisatrice lorsqu’il ou elle déclenche la règle métier. Il doit fournir des instructions claires sur ce qui s’est passé et sur la manière de corriger le problème.
 
      Vous pouvez inclure une URL statique dans le message d’erreur pour créer un lien vers la documentation ou d’autres pages utiles afin de guider l’utilisateur ou l’utilisatrice sur la manière de modifier son action dans la contrainte de la règle.
 
      Dans cet exemple, « En savoir plus » renvoie vers l’URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` L’URL doit être entre parenthèses, mais le texte du lien entre crochets n’est pas obligatoire. Vous pouvez afficher l’URL complète sous la forme d’un lien cliquable.
 
-   ![&#x200B; Boîte de dialogue Ajouter une règle métier &#x200B;](assets/add-business-rule-new.png)
+   ![ Boîte de dialogue Ajouter une règle métier ](assets/add-business-rule-new.png)
 
    Cet exemple illustre une règle métier pour les projets. Si le mois en cours est novembre, les utilisateurs ne sont pas autorisés à créer de nouveaux projets, ce que le message explique.
 
@@ -283,21 +270,19 @@ Vous pouvez utiliser des caractères génériques dans les actions de règle mé
 
    Pour les autres packages, cette option est présélectionnée.
 
-1. <span class="preview">(Conditionnel) Pour automatiser une autre action, sélectionnez l’action. </span>
+1. (Conditionnel) Pour automatiser une autre action, sélectionnez l’action.
 
-   <span class="preview">Pour plus d’informations sur ces actions, consultez la section [Options d’automatisation des règles métier](#business-rule-automation-options) dans cet article.</span>
+   Pour plus d’informations sur ces actions, reportez-vous à la section [Options d’automatisation des règles métier](#business-rule-automation-options) de cet article.
 
    >[!NOTE]
    >
-   ><span class="preview">Votre organisation doit être sur le package Workflow Ultimate pour utiliser des actions en plus de la validation. Si ces autres options ne s’affichent pas, votre organisation ne figure pas dans le package Workflow Ultimate.</span>
+   >Votre organisation doit se trouver dans le package Workflow Ultimate pour utiliser des actions en plus de la validation. Si ces autres options ne s’affichent pas, votre organisation ne figure pas dans le package Workflow Ultimate.
 
 1. Cliquez sur **Enregistrer** lorsque vous avez terminé de créer la règle métier.
 
 >[!NOTE]
 >
 >Après avoir ajouté une règle métier, vous devez la tester en ajoutant, en modifiant ou en supprimant l’objet associé pour vous assurer que la règle est appliquée correctement.
-
-<div class="preview">
 
 ### Options d’automatisation des règles métier
 
@@ -311,8 +296,6 @@ Vous pouvez définir ces actions pour automatiser le déclenchement de la règle
 |---|---|
 | Joindre un formulaire personnalisé | Sélectionnez le formulaire personnalisé que vous souhaitez ajouter |
 | Partager l’objet | Sélectionnez les personnes, rôles, groupes, sociétés ou niveaux d&#39;accès avec lesquels vous souhaitez partager l&#39;objet. |
-
-</div>
 
 ## Activer une règle métier
 

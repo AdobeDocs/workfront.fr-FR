@@ -7,16 +7,14 @@ description: Votre équipe d’administration Adobe Workfront peut vous accorde
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 46%
+source-wordcount: '914'
+ht-degree: 45%
 
 ---
 
 # Partager un programme
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 
 Votre équipe d’administration Adobe Workfront peut vous accorder l’accès à l’affichage ou à la modification des programmes lors de l’attribution de votre niveau d’accès. Vous devez disposer d’une licence de plan pour avoir accès à l’édition d’un programme. Pour plus d’informations, voir [Accorder l’accès aux programmes](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
@@ -91,7 +89,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 
    ![bouton Partager le programme](assets/share-program-button.png)
 
-1. Dans le champ **Accorder l’accès au programme à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil professionnel</span> avec lequel vous souhaitez partager le programme, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès au programme à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise ou du profil professionnel avec lequel vous souhaitez partager le programme, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
@@ -127,7 +125,7 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 
    ![Programmes de partage en bloc](assets/bulk-share-programs.png)
 
-1. Dans le champ **Accorder l’accès au programme à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil professionnel</span> avec lequel vous souhaitez partager les programmes, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès au programme à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise ou du profil professionnel avec lequel vous souhaitez partager les programmes, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
@@ -155,8 +153,8 @@ Outre les considérations ci-dessous, voir également [Vue d’ensemble des auto
 
 Le tableau suivant indique les autorisations que vous pouvez accorder aux personnes lorsqu’elles sont autorisées à afficher ou à gérer un programme :
 
-| **Actions** | **Gérer** | **Afficher** |
-|---|---|---|
+| **Actions** | **Gérer** **Afficher** |
+| --- | --- |--- |
 | Modifier les détails du programme | ✓ |   |
 | Afficher un programme | ✓ | ✓ |
 | Supprimer un programme | ✓ |   |

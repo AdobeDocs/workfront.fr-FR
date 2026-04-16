@@ -11,16 +11,14 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 2%
+source-wordcount: '1443'
+ht-degree: 1%
 
 ---
 
 # Présentation des profils professionnels
-
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour des clients et clientes spécifiques.</span>
 
 Les profils métier constituent un modèle d’autorisation amélioré qui permet aux clients, tels que les agences, de gérer efficacement l’accès des utilisateurs et d’assurer un contrôle précis des autorisations au niveau du groupe. Dans un profil d’entreprise, les utilisateurs disposent d’autorisations distinctes pour les objets spécifiques à un groupe. D’autres objets peuvent également être partagés directement avec le profil d’entreprise.
 

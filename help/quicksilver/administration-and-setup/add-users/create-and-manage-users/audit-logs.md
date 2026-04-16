@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5f5a32b9a569221acc3d5f38568bb6a1e609070f
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1556'
 ht-degree: 92%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 92%
 # Vue d’ensemble des journaux d’audit
 
 <!--Audited: 08/2025-->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez effectuer le suivi des modifications utilisateur déclenchées dans le système au cours des 90 derniers jours à l’aide des journaux d’audit décrits ci-dessous.
 
@@ -68,7 +66,7 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit 
 
 * [Niveau d’accès](#access-level)
 * [Profils professionnels](#business-profiles)
-* <span class="preview">[Règles métier](#business-rules)</span>
+* [Règles métier](#business-rules)
 * [Entreprise](#company)
 * [Condition](#condition)
 * [Champ personnalisé](#custom-field)
@@ -102,8 +100,6 @@ Le système génère une entrée de journal de niveau d’accès lorsqu’une pe
      >
      >Par exemple, si une personne passe le type d’accès Planificateur ou planificatrice d’Afficher à Modifier, le système n’affiche pas les informations contenues dans le menu déroulant Affiner vos paramètres.
 
-<div class="preview">
-
 ### Profils professionnels
 
 Le système génère une entrée du journal d’audit du profil professionnel lorsqu’un utilisateur effectue l’une des opérations suivantes :
@@ -111,8 +107,6 @@ Le système génère une entrée du journal d’audit du profil professionnel lo
 * Crée un profil d’entreprise
 * Modifie un profil d’entreprise :
 * Supprime un profil d’entreprise
-
-</div>
 
 ### Règles métier
 

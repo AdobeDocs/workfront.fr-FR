@@ -6,17 +6,14 @@ description: La personne chargée de votre administration Adobe Workfront peut 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 45%
+source-wordcount: '1222'
+ht-degree: 44%
 
 ---
 
 # Partager une tâche
-
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 La personne chargée de votre administration Adobe Workfront peut vous accorder l’accès en affichage ou en modification aux tâche lorsqu’elle attribue des niveaux d’accès. Pour plus d’informations sur l’octroi de l’accès aux tâches, voir [Accorder un accès aux tâches](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
@@ -90,7 +87,7 @@ Vous pouvez partager une tâche de l’une des manières suivantes :
    * Spécifiez les autorisations sur l’un des objets parent de la tâche : projet, programme ou portfolio. Les tâches héritent des autorisations de leurs objets parent. Pour plus d’informations sur l’affichage des autorisations héritées sur les objets, voir [Afficher les autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Ajoutez des entités au partage de projet sur un modèle utilisé pour créer le projet sur lequel la tâche est effectuée. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partager un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Spécifiez les autorisations sur toutes les tâches d’un projet lorsque vous modifiez le projet.  Pour plus d’informations sur la gestion de l’accès aux tâches du projet en fonction des autorisations d’un utilisateur pour le projet, consultez la section [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) de l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Spécifiez les autorisations sur toutes les tâches d’un projet lorsque vous modifiez le projet.  Pour plus d’informations sur la gestion de l’accès aux tâches du projet en fonction des autorisations d’un utilisateur pour le projet, consultez la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) de l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -104,7 +101,7 @@ Vous pouvez partager une tâche de l’une des manières suivantes :
 
    ![bouton Partager la tâche](assets/share-task-button.png)
 
-1. Dans le champ **Accorder l’accès à la tâche à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil professionnel</span> avec lequel vous souhaitez partager la tâche, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès à la tâche à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise ou du profil professionnel</span> avec lequel vous souhaitez partager la tâche, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
@@ -141,7 +138,7 @@ Vous pouvez partager une tâche de l’une des manières suivantes :
 
    ![Tâches de partage en bloc](assets/bulk-share-tasks.png)
 
-1. Dans le champ **Accorder l’accès à la tâche à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise <span class="preview">ou du profil professionnel</span> avec lequel vous souhaitez partager les tâches, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans le champ **Accorder l’accès à la tâche à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe, de l’entreprise ou du profil professionnel avec lequel vous souhaitez partager les tâches</span> puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    >[!TIP]
    >
