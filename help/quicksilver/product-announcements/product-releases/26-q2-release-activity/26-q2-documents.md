@@ -66,7 +66,7 @@ Les améliorations suivantes ont été apportées au widget Mes approbations dan
 * Trier la liste des validations par ordre décroissant ou le plus récent
 * Développement du widget en plein écran
 
-Pour plus d’informations, voir [ Gérer vos approbations avec le widget Mes approbations ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+Pour plus d’informations, voir [&#x200B; Gérer vos approbations avec le widget Mes approbations &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
 
 ## Révision et approbations unifiées optimisées par Workfront et Frame.io
 
@@ -107,7 +107,7 @@ Le stockage d’entreprise Adobe est une solution de stockage dans le cloud qui 
 
 L’accès au stockage d’entreprise d’Adobe ouvre également la voie à de futures intégrations de la gestion des ressources à d’autres produits Adobe, tels que Adobe Creative Cloud.
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Workflows d’approbation à plusieurs étapes disponibles pour les approbations unifiées
 
