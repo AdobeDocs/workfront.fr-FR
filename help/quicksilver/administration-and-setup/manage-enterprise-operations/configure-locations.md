@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 47%
@@ -16,8 +16,6 @@ ht-degree: 47%
 ---
 
 # Configurer les emplacements
-
-{{highlighted-preview-article-level}}
 
 Vous pouvez configurer les emplacements par défaut disponibles pour les affecter en tant qu’attributs aux fonctions dans des cartes tarifaires. Cela vous permet de vous assurer que les cartes tarifaires reflètent fidèlement les tarifs du marché dans chaque emplacement.
 
@@ -81,6 +79,6 @@ Chaque sous-emplacement peut être ajouté en tant qu’attribut sur une carte t
 
    Le sous-emplacement est mis en retrait sous l’emplacement de niveau supérieur.
 
-   ![&#x200B; Emplacements et sous-emplacements &#x200B;](assets/locations-sublocations.png)
+   ![ Emplacements et sous-emplacements ](assets/locations-sublocations.png)
 
 

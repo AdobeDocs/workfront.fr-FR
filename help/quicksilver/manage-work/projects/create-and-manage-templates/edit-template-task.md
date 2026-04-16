@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '2958'
-ht-degree: 68%
+source-wordcount: '3008'
+ht-degree: 67%
 
 ---
 
@@ -52,8 +52,9 @@ Vous pouvez modifier une tâche de modèle à la fois ou modifier des tâches de
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
-  </tr> 
+   <td>  <p>Pour utiliser les types de revenus et de coûts horaires de l’utilisateur et du rôle : Workflow Ultimate</p>
+      <p>Pour modifier tous les autres paramètres et utiliser tous les autres types de revenus et de coûts : tout Workfront ou package de workflow</p>  </td> 
+  </tr>
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Standard</p>
@@ -439,6 +440,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
         <li> <p style="font-weight: normal;"><span>Fixe par heure</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Utilisateur ou utilisatrice, par heure</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Rôle par heure</span> </p> </li> 
+        <li> <p style="font-weight: normal;">Utilisateur ou utilisatrice et rôle par heure</p> </li>
        </ul> <p>Pour plus d’informations sur le suivi des coûts, consultez la section <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivi des coûts</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -448,11 +450,14 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
         <li> <p style="font-weight: normal;">Non facturable</p> </li> 
         <li> <p style="font-weight: normal;">Utilisateur, par heure</p> </li> 
         <li> <p style="font-weight: normal;">Rôle par heure</p> </li> 
+        <li> <p style="font-weight: normal;">Utilisateur ou utilisatrice et rôle par heure</p> </li>
         <li> <p style="font-weight: normal;">Fixe par heure</p> </li> 
         <li> <p style="font-weight: normal;">Utilisateur par heure avec limite</p> </li> 
         <li> <p style="font-weight: normal;">Rôle par heure avec limite</p> </li> 
+        <li> <p style="font-weight: normal;">Utilisateur ou utilisatrice et rôle horaire avec limite</p> </li>
         <li> <p style="font-weight: normal;">Utilisateur, par heure plus fixe</p> </li> 
         <li> <p style="font-weight: normal;">Rôle par heure plus fixe</p> </li> 
+        <li> <p style="font-weight: normal;">Utilisateur ou utilisatrice et rôle par heure plus fixe</p> </li>
         <li> <p style="font-weight: normal;">Revenus fixes</p> </li> 
        </ul> <p>Pour plus d’informations sur le suivi des revenus, consultez la section <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Vue d’ensemble de la facturation et des revenus</a>.</p> </td> 
      </tr> 

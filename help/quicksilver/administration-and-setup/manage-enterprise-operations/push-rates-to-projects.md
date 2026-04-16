@@ -7,7 +7,8 @@ description: Une carte tarifaire représente l’accord contractuel avec votre c
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 38441ec5ae6fd8cf5c79f939403d5966c5616c98
+exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 20%
@@ -15,8 +16,6 @@ ht-degree: 20%
 ---
 
 # Modifications du taux de notification push pour les projets
-
-{{highlighted-preview-article-level}}
 
 Lorsqu’une carte tarifaire est associée à un <!--or a staffing plan--> de projet, les taux sur la carte tarifaire peuvent toujours être ajustés. Vous pouvez ensuite transférer ces taux vers les projets <!--and staffing plans -->auxquels la carte tarifaire est associée). Si vous n’appliquez pas les nouveaux taux, les taux d’origine restent dans le projet<!-- or staffing plan-->.
 

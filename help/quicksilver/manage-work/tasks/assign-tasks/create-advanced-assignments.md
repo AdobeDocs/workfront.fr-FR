@@ -9,7 +9,7 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
 source-wordcount: '3415'
 ht-degree: 32%
@@ -17,8 +17,6 @@ ht-degree: 32%
 ---
 
 # Créer des affectations avancées
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2025-->
 
@@ -43,8 +41,8 @@ Vous pouvez ajuster les informations d’affectation suivantes lors d’affectat
 * Ajustez et redistribuez le nombre d’heures affecté à chaque personne cessionnaire.
 * Déterminez quelle personne doit être la propriétaire ou la cessionnaire principale de la tâche ou du problème.
 * Spécifiez le rôle de chaque personne lorsqu’elle travaille sur la tâche ou le problème.
-* <span class="preview">Ajouter des informations de facturation et de taux de coûts au niveau de l&#39;affectation.</span>
-* <span class="preview">Examinez les détails suivants pour chaque affectation : heures prévues, coût total et revenu total.</span>
+* Ajoutez les informations de taux de facturation et de coût au niveau de l&#39;affectation.
+* Vérifiez les détails suivants pour chaque affectation : heures prévues, coût total et chiffre d&#39;affaires total.
 
 >[!NOTE]
 >
@@ -94,11 +92,17 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-<div class="preview">
-
 ## Créer des affectations avancées - Package Ultimate de workflow
 
 Cette disposition des affectations avancées s&#39;applique uniquement aux tâches. Pour tout problème, voir [Créer des affectations avancées - tous les autres packages](#create-advanced-assignments--all-other-packages).
+
+<!--
+
+>[!NOTE]
+>
+>Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
+
+-->
 
 1. Accédez au projet auquel vous souhaitez affecter une tâche.
 1. Cliquez sur **Tâches** ou **Événements** dans le panneau de gauche, puis cliquez sur le nom d’une tâche dans la liste.
@@ -313,8 +317,6 @@ Vous pouvez uniquement afficher les données d’affectation par dates pour un s
    ![Fenêtre Afficher par dates](assets/resource-changes-view-by-dates.png)
 
    Une fois que vous avez terminé de vérifier les données, cliquez sur la flèche en haut à gauche pour revenir à la fenêtre Affectations avancées.
-
-</div>
 
 ## Créer des affectations avancées - tous les autres packages
 

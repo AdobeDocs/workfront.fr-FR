@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '4542'
+source-wordcount: '4540'
 ht-degree: 73%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 73%
 # Vue d’ensemble de la facturation et des revenus
 
 <!-- Audited: 1/2024 -->
-
-{{highlighted-preview}}
 
 En tant que personne responsable de projet, vous pouvez utiliser les taux de facturation pour générer des revenus sur vos projets.
 
@@ -83,7 +81,7 @@ Vous pouvez définir la valeur du taux de facturation d’une fonction à l’ai
 
 Pour plus d’informations sur la création de fonctions, consultez l’article [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![Modifier les coûts et les taux de facturation des fonctions](assets/edit-job-role-multiple-billing-rates-new.png)
+![Modifier les taux de facturation des fonctions](assets/edit-job-role-multiple-billing-rates-040826.png)
 
 ### Taux de facturation fixes pour les projets ou les tâches {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -93,8 +91,6 @@ Outre les taux horaires pour les utilisateurs, les utilisatrices et les fonction
 * Montant fixe pour le type de revenu Revenus fixes
 
 Pour plus d’informations sur la manière dont les taux de facturation fixes sont utilisés pour calculer les revenus, voir [Vue d’ensemble des types de revenus des tâches](#overview-of-task-revenue-types).
-
-<div class="preview">
 
 ### Remplacer les taux de facturation - Package Ultimate de workflow
 
@@ -108,8 +104,6 @@ Au niveau du projet, vous pouvez :
 * Remplacer un taux de facturation pour un utilisateur spécifique sur ce projet.
 
 Les remplacements du taux de facturation ne sont pas génériques. Par exemple, vous ne remplaceriez pas « Designer » en tant que rôle. Au lieu de cela, vous pouvez remplacer « Designer - New York - Agence X » pour la période de validité de date appropriée. Les remplacements respectent la hiérarchie des taux de facturation ; le système les applique donc toujours par ordre de priorité.
-
-</div>
 
 ### Remplacer les taux de facturation - tous les autres packages
 
@@ -192,7 +186,7 @@ Pour plus d’informations sur la définition du type de revenus d’une tâche,
 
 >[!NOTE]
 >
-><span class="preview">Vous devez disposer du package Workflow Ultimate pour que le type de revenu Utilisateur et Rôle par heure soit disponible.</span>
+>Vous devez disposer du package Workflow Ultimate pour que le type de revenu par heure Utilisateur et Rôle soit disponible
 
 Vous pouvez appliquer les types de revenus suivants à vos tâches ou projets :
 
@@ -223,8 +217,8 @@ Il s’agit du type de revenu par défaut lorsque vous créez une tâche.</p> </
    <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Ce type est similaire au taux par heure de l’utilisateur ou de l’utilisatrice mais il utilise les taux de la fonction plutôt que les taux de l’utilisateur ou de l’utilisatrice.</p> <p><strong>NOTE</strong><br> Une fonction peut également avoir plusieurs taux de facturation avec des dates d’entrée en vigueur.</p></td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Utilisateur ou utilisatrice et rôle par heure</span></p> </td> 
-   <td> <p><span class="preview">Ce type ne peut être utilisé que pour les tâches.</span></p> <p><span class="preview">Ce type examine les informations sur les utilisateurs et les rôles afin de déterminer le taux approprié.</span></p></td> 
+   <td> <p>Utilisateur ou utilisatrice et rôle par heure</p> </td> 
+   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Ce type examine les informations sur les utilisateurs et les rôles afin de déterminer le taux approprié.</p></td> 
   </tr>
   <tr> 
    <td> <p>Personne, par heure avec limite</p> </td> 
@@ -235,8 +229,8 @@ Il s’agit du type de revenu par défaut lorsque vous créez une tâche.</p> </
    <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Ce type est similaire à Personne, par heure avec limite, mais il utilise les taux de la fonction plutôt que les taux de l’utilisateur ou de l’utilisatrice. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Utilisateur et rôle par heure avec limitation</span></p> </td> 
-   <td> <p><span class="preview">Ce type ne peut être utilisé que pour les tâches.</span></p> <p><span class="preview">Les tâches sont facturées toutes les heures comme dans Utilisateur et Rôle par heure, mais elles disposent d’un Montant limite maximal que vous pouvez spécifier.</span></p></td> 
+   <td> <p>Utilisateur et rôle par heure avec limitation</p> </td> 
+   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Les tâches sont facturées toutes les heures comme dans Utilisateur et Rôle par heure, mais elles disposent d’un Montant limite maximal que vous pouvez spécifier.</p></td> 
   </tr>
   <tr> 
    <td> <p>Utilisateur, par heure plus fixe</p> </td> 
@@ -247,8 +241,8 @@ Il s’agit du type de revenu par défaut lorsque vous créez une tâche.</p> </
    <td> <p>Ce type ne peut être utilisé que pour les tâches. </p> <p>Les tâches sont facturées à l’heure comme Rôle, par heure, mais elles sont assorties d’un montant fixe supplémentaire que vous pouvez ajouter au taux du rôle. Le montant fixe spécifié dans la tâche peut être inclus dans les enregistrements de facturation du projet. Le montant fixe n’est pas multiplié par les heures consacrées à la tâche. Seul le taux de facturation de la fonction le permet. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Utilisateur ou utilisatrice et rôle par heure plus fixe</span></p> </td> 
-   <td> <p><span class="preview">Ce type ne peut être utilisé que pour les tâches.</span></p> <p><span class="preview">Les tâches sont facturées toutes les heures comme dans les rôles et les utilisateurs toutes les heures, mais vous pouvez ajouter un montant fixe supplémentaire au taux. Le montant fixe spécifié dans la tâche peut être inclus dans les enregistrements de facturation du projet. Le montant fixe n'est pas multiplié par les heures de la tâche.</span></p></td> 
+   <td> <p>Utilisateur ou utilisatrice et rôle par heure plus fixe</p> </td> 
+   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Les tâches sont facturées toutes les heures comme dans les rôles et les utilisateurs toutes les heures, mais vous pouvez ajouter un montant fixe supplémentaire au taux. Le montant fixe spécifié dans la tâche peut être inclus dans les enregistrements de facturation du projet. Le montant fixe n'est pas multiplié par les heures de la tâche.</p></td> 
   </tr>
   <tr> 
    <td> <p>Fixe par heure</p> </td> 
@@ -295,13 +289,9 @@ Le système utilise une hiérarchie pour déterminer le taux utilisé dans les c
 
 Si votre équipe d’administration Workfront a activé le paramètre **Affecter manuellement des fonctions à des saisies d’heures** dans la zone Préférences de feuilles de temps et d’heures, et que la personne qui consigne le temps sur le projet sélectionne un rôle différent à associer à ces heures, les revenus réels de la tâche ou du projet sont toujours calculés en fonction du rôle associé à la saisie des heures. Pour plus d’informations sur l’activation de la consignation du temps pour une fonction spécifique, voir l’article [Configurer les préférences de feuilles de temps et d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-<div class="preview">
-
 Pour le type de revenu Utilisateur et Rôle par heure , une fonction pour la facturation peut être définie au niveau du projet et de l’affectation. S&#39;il est défini au niveau du projet pour un utilisateur spécifique, ce rôle se propage automatiquement à toutes les affectations de cet utilisateur pendant la période de validité du contrat pour laquelle vous l&#39;avez appliqué. Vous pouvez toujours remplacer ce taux au niveau de l&#39;affectation, si nécessaire. Par exemple, la fonction principale d’une utilisatrice est Designer, mais vous définissez sa fonction pour la facturation d’un projet en tant que Senior Designer pour le mois d’août. Toutes les tâches qui leur sont assignées en août utiliseront automatiquement le taux de facturation de Senior Designer.
 
 Cependant, pour une tâche particulière, vous pouvez remplacer le rôle uniquement pour cette affectation, afin de refléter le travail facturé. Ainsi, le système prend en charge à la fois la cohérence à l’échelle du projet et la flexibilité au niveau des affectations. Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) et [Créer des affectations avancées](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
-</div>
 
 Les scénarios suivants existent lors du calcul des revenus des tâches sur la base du type de revenu et de la nature de l’affectation des tâches :
 
@@ -372,16 +362,12 @@ Les scénarios suivants existent lors du calcul des revenus des tâches sur la b
    </tbody> 
   </table>
 
-<div class="preview">
-
 * **Le type de revenu de la tâche est Utilisateur et rôle par heure**
 
 | Facturation par heure | Aucune affectation | Affectation de l’utilisateur ou de l’utilisatrice | Affectation de la fonction |
 | --- | --- | --- | --- |
 | Taux de facturation par heure pour les revenus prévus | 0,00 $ | Lorsqu’un utilisateur est affecté, le système recherche le taux dans un ordre spécifié, en commençant par un taux de facturation conservé. Vous trouverez ensuite un taux de carte tarifaire verrouillé, un taux saisi manuellement au niveau de l&#39;affectation, la fonction de facturation au niveau de l&#39;affectation, le remplacement du taux de facturation de l&#39;utilisateur au niveau du projet, la fonction de facturation au niveau du projet, le taux système de l&#39;utilisateur et le taux de la fonction principale de l&#39;utilisateur. <p> Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Lorsqu’une fonction est affectée, le système recherche d’abord un taux de facturation conservé, puis un taux de carte tarifaire verrouillé pour la fonction sur l’affectation. Elle recherche ensuite un taux de fonctions ajouté manuellement à l’affectation. Si ce taux n’est pas trouvé, il recherche un taux de fonction au niveau du projet, d’abord à partir d’une carte tarifaire, puis à partir du taux système. <p> Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 | Taux de facturation par heure pour les revenus réels | Seuls les taux associés à l’utilisateur ou à l’utilisatrice qui consigne les heures sont pris en compte pour le calcul, même si une autre personne est affectée à la tâche. <p> Le système recherche le taux dans un ordre spécifié, en commençant par un taux de facturation conservé. Vous trouverez ensuite un taux de carte tarifaire verrouillé, un taux de facturation de remplacement pour le projet, la fonction pour la facturation, le taux au niveau du système sur le profil utilisateur du propriétaire et le taux de facturation de la fonction principale du propriétaire. <p> Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Lorsqu’un utilisateur est affecté, le système recherche le taux dans un ordre spécifié, en commençant par un taux de facturation conservé. Vous trouverez ensuite un taux de carte tarifaire verrouillé, un taux saisi manuellement au niveau de l&#39;affectation, la fonction de facturation au niveau de l&#39;affectation, le remplacement du taux de facturation de l&#39;utilisateur au niveau du projet, la fonction de facturation au niveau du projet, le taux système de l&#39;utilisateur et le taux de la fonction principale de l&#39;utilisateur. <p> Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Lorsqu’une fonction est affectée, le système recherche d’abord un taux de facturation conservé, puis un taux de carte tarifaire verrouillé pour la fonction sur l’affectation. Elle recherche ensuite un taux de fonctions ajouté manuellement à l’affectation. Si ce taux n’est pas trouvé, il recherche un taux de fonction au niveau du projet, d’abord à partir d’une carte tarifaire, puis à partir du taux système. Pour plus d&#39;informations, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
-
-</div>
 
 ### Calcul des revenus pour les projets
 

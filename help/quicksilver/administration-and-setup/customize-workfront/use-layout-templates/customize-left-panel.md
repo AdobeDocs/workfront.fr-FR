@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f490d72b46073786cc079eec0640a0b535533281
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 44%
@@ -16,8 +16,6 @@ ht-degree: 44%
 ---
 
 # Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page
-
-{{highlighted-preview}}
 
 <!--Audited: 10/2024-->
 
@@ -136,13 +134,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projets <img src="assets/projects-in-main-menu.png"> dans le menu principal  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Projets <img src="assets/projects-in-main-menu.png"> dans le menu principal [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
-      <td><span class="preview">[!UICONTROL Resourcing]</span></td> 
-      <td><span class="preview">[!UICONTROL Resourcing] dans le menu principal  <img src="assets/main-menu-icon-left-nav.png"></span></td> 
-      <td><span class="preview">[!UICONTROL Planner] (ne peut pas être masqué), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</span></td> 
+      <td>[!UICONTROL Resourcing]</td> 
+      <td>[!UICONTROL Resourcing] dans le menu principal [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Planner] (ne peut pas être masqué), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -175,19 +173,19 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
      <tr> 
-       <td><span class="preview">[!UICONTROL User Details]</span></td> 
-       <td><span class="preview">Nom d’un utilisateur</span></td> 
-       <td><span class="preview">[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</span></td> 
+       <td>[!UICONTROL User Details]</td> 
+       <td>Nom d’un utilisateur</td> 
+       <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Carte tarifaire]</span></td> 
-       <td><span class="preview">Nom d’une carte tarifaire</span></td> 
-       <td><span class="preview">[!UICONTROL Job Roles and Rates] (cannot be hidden), [!UICONTROL Rate Card Details]</span></td> 
+       <td>[!UICONTROL Carte tarifaire]</td> 
+       <td>Nom d’une carte tarifaire</td> 
+       <td>[!UICONTROL Job Roles and Rates] (cannot be hidden), [!UICONTROL Rate Card Details]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Group]</span></td> 
-       <td><span class="preview">Nom d’un groupe</span></td> 
-       <td><span class="preview">[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks &amp; Issues Preferences], [!UICONTROL Timesheets &amp; Hours], [!UICONTROL Subgroups], [!UICONTROL Statuts], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programmes], [!UICONTROL Projects], [!UICONTROL Projects] Modèles&rbrack;, [!UICONTROL Récemment Supprimé], [!UICONTROL Récemment Restauré], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</span></td> 
+       <td>[!UICONTROL Group]</td> 
+       <td>Nom d’un groupe</td> 
+       <td>[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks &amp; Issues Preferences], [!UICONTROL Timesheets &amp; Hours], [!UICONTROL Subgroups], [!UICONTROL Statuts], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programmes], [!UICONTROL Projects], [!UICONTROL Projects] Modèles], [!UICONTROL Récemment Supprimé], [!UICONTROL Récemment Restauré], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</td> 
      </tr>
      <!--
       <tr> 

@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 41%
@@ -20,8 +20,6 @@ ht-degree: 41%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez configurer des taux de change de devise dans Workfront. Cela inclut les éléments suivants :
 
@@ -93,8 +91,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. (Facultatif) Pour supprimer une devise, cochez la case en regard du nom de la devise et sélectionnez **Supprimer** dans la barre d’actions située en bas de l’écran. Impossible de supprimer la devise par défaut.
 
-<div class="preview">
-
 ## Définir des dates effectives sur les taux de change d&#39;une devise
 
 Les dates de validité des taux de change d&#39;une devise sont configurées de sorte qu&#39;une valeur de taux se termine à une date spécifique et qu&#39;un autre taux commence. Le taux de change de la date correcte est ensuite utilisé dans les calculs financiers.
@@ -116,8 +112,6 @@ Les dates de validité des taux de change d&#39;une devise sont configurées de 
 1. Saisissez la nouvelle valeur **Taux de change**.
 1. (Facultatif) Cliquez sur **Ajouter une date de validité du taux** pour ajouter d&#39;autres taux de change avec des dates de validité pour cette devise.
 1. Cliquez sur **Enregistrer**.
-
-</div>
 
 ## Permettre aux utilisateurs et utilisatrices de modifier la devise par défaut d’un projet
 

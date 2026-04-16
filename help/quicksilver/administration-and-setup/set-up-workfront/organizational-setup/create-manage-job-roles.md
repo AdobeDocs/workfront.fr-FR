@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1219'
 ht-degree: 28%
 
 ---
@@ -21,13 +21,11 @@ ht-degree: 28%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
 >Avec la version 25.11, la devise de remplacement pour les fonctions a été abandonnée dans la production. (L’obsolescence a eu lieu le 30 octobre dans l’environnement de prévisualisation.) Au lieu d’avoir une devise de base et de remplacer les devises, une devise est désormais disponible pour les fonctions, et les taux de coût et de facturation sont définis à l’aide de cette devise.
 
-En tant qu’administrateur [!DNL Adobe Workfront] ou utilisateur disposant d’un accès administratif aux fonctions , vous pouvez créer des fonctions qui peuvent être affectées à des utilisateurs et supprimer les fonctions par défaut qui ne sont pas pertinentes pour votre organisation. Pour plus d’informations sur l’accès administratif dans [!DNL Workfront], voir [Accorder aux utilisateurs et aux utilisatrices un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+En tant qu’administrateur [!DNL Adobe Workfront] ou utilisateur standard disposant d’un accès en modification aux fonctions, vous pouvez créer des fonctions qui peuvent être affectées à des utilisateurs et supprimer les fonctions par défaut qui ne sont pas pertinentes pour votre organisation. Pour plus d’informations sur l’accès administratif dans [!DNL Workfront], voir [Accorder aux utilisateurs et aux utilisatrices un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 >[!TIP]
 >
@@ -69,7 +67,7 @@ Pour créer une fonction, procédez comme suit :
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Fonctions]**.
-1. Cliquez sur **[!UICONTROL Nouvelle fonction] <span class="preview">> Créer une fonction**.</span>
+1. Cliquez sur **[!UICONTROL Nouvelle fonction] > Créer une nouvelle fonction**.
 1. Renseignez les champs suivants :
 
    * **Nom** : indiquez un nom pour la fonction. Il s’agit du nom qui s’affiche partout dans Workfront où s’affiche le champ Fonction .
@@ -83,45 +81,7 @@ Pour créer une fonction, procédez comme suit :
 
      Pour plus d’informations sur la désactivation des fonctions, voir la section [Désactiver des fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-   * **Devise** : la devise de base s’affiche par défaut. L’administrateur Workfront ajoute la devise de base dans la zone Configuration . Vous pouvez remplacer la sélection par une autre devise disponible et modifier la devise sur les périodes effectives.
-
-     >[!TIP]
-     >
-     >Seules les devises disponibles dans la zone Taux de change de votre système sont disponibles dans ce champ. Si une seule devise est configurée, seule cette devise est disponible.
-
-     Pour plus d’informations sur la configuration de la devise de base dans Workfront, voir [Configurer des taux de change](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
-
-     Pour plus d’informations sur la modification de la devise d’un projet, voir [Modifier la devise du projet](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
-
-   * **Taux de coût** : il s’agit du taux de coût horaire de la fonction. Cette valeur calcule les coûts prévus et réels des tâches et des problèmes associés au rôle et, par conséquent, les coûts prévus et réels des projets. Entrez le taux en utilisant la devise sélectionnée.
-
-     Pour connaitre les taux de dépenses effectifs par date, cliquez sur **Ajouter un taux**. Saisissez la valeur du coût/heure pour la période, puis affectez une Date de début et une Date de fin, le cas échéant. Le premier taux de coût ne comporte pas de date de début et le dernier taux de coût ne comporte pas de date de fin.
-
-     Certaines dates sont ajoutées automatiquement. Par exemple, si le premier taux de coût n’a pas de date de fin et que vous ajoutez un second taux de coût avec une date de début fixée au 1er mai 2025, une date de fin fixée au 30 avril 2025 est ajoutée au premier taux de coût afin qu’il n’y ait aucun écart.
-
-     Pour plus d’informations sur la façon dont Workfront calcule les coûts, voir [Suivre les coûts](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
-
-     >[!TIP]
-     >
-     >Lors de la modification d’une fonction existante, vous pouvez trier la liste pour afficher la date de début la plus récente en haut de la liste des taux.
-
-   * **Taux de facturation** : il s’agit du taux de facturation horaire de la fonction. Cette valeur calcule les revenus prévus et réels des tâches et des problèmes associés au rôle et, par conséquent, les revenus prévus et réels des projets. Entrez le taux en utilisant la devise sélectionnée.
-
-     Pour connaître les taux de facturation effectifs par date, cliquez sur **Ajouter un taux**. Saisissez la valeur de la facturation/heure pour la période, puis affectez une date de début et une date de fin, si nécessaire. Le premier taux de facturation ne comporte pas de date de début et le dernier taux de facturation ne comporte pas de date de fin.
-
-     Certaines dates sont ajoutées automatiquement. Par exemple, si le premier taux de facturation n’a pas de date de fin et que vous ajoutez un second avec une date de début fixée au 1er mai 2025, une date de fin fixée au 30 avril 2025 est ajoutée au premier taux de facturation afin qu’il n’y ait aucun écart.
-
-     Pour plus d’informations sur le calcul du chiffre d’affaires par Workfront, voir [Présentation de la facturation et du chiffre d’affaires](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-     >[!TIP]
-     >
-     >Lors de la modification d’une fonction existante, vous pouvez trier la liste pour afficher la date de début la plus récente en haut de la liste des taux.
-
-<!-- Remove or hide the billing rate and cost rate bullets on April 16 for GA -->
-
 1. Cliquez sur **[!UICONTROL Créer une fonction]**. La fonction peut désormais être affectée à des tâches, des problèmes et des approbations. Vous pouvez aussi partager avec elle des modèles de mise en page ou d’autres objets. Pour plus d’informations sur tous les usages des fonctions dans [!DNL Workfront], voir [Vue d’ensemble des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Pour plus d’informations sur la suppression d’une fonction, voir [Supprimer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
-
-<div class="preview">
 
 ## Ajouter des taux et des attributs à une fonction
 
@@ -176,7 +136,9 @@ Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksil
 
    Pour connaître les taux de facturation effectifs par date, cliquez sur **Ajouter un taux**. Saisissez la valeur de la facturation/heure pour la période, puis affectez une date de début et une date de fin, si nécessaire. Le premier taux de facturation ne comporte pas de date de début et le dernier taux de facturation ne comporte pas de date de fin.
 
-   Certaines dates sont ajoutées automatiquement. Par exemple, si le premier taux de facturation n’a pas de date de fin et que vous ajoutez un second avec une date de début fixée au 1er mai, une date de fin fixée au 30 avril est ajoutée au premier taux de facturation, de sorte qu’il n’existe aucun écart.
+   <!-- Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, an end date of April 30 is added to the first billing rate so that no gaps exist.-->
+
+   Workfront vous permet de laisser des espaces entre les périodes, mais vous recevrez un avertissement pour confirmer que c’est intentionnel.
 
    Pour plus d’informations sur le calcul du chiffre d’affaires par Workfront, voir [Présentation de la facturation et du chiffre d’affaires](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
@@ -202,8 +164,6 @@ Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksil
 
 1. Cliquez sur [!UICONTROL **Enregistrer**].
 
-</div>
-
 <!--
    * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
 
@@ -224,6 +184,45 @@ Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksil
      >[!TIP]
      >
      >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+-->
+
+
+<!--
+
+   * **Currency**: The Base Currency is shown by default. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
+
+      >[!TIP]
+      >
+      >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, only that currency is available.
+
+      For information about setting up the Base Currency in Workfront, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+      For information about changing the currency of a project, see [Change the project currency](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+   
+   * **Cost Rate**: This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the selected currency.
+
+      For date effective cost rates, click **Add Rate**. Enter the value of the cost/hour for the time period, and assign a Start Date and End Date as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first cost rate so that no gaps exist.
+
+      For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
+
+   * **Billing Rate**: This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the selected currency.
+
+      For date effective billing rates, click **Add Rate**. Enter the value of the billing/hour for the time period, and assign a Start Date and End Date as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first billing rate so that no gaps exist.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
 
 -->
 

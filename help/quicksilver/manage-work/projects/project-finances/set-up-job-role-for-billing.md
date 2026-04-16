@@ -6,7 +6,8 @@ title: Configurer une fonction pour la facturation
 description: Workfront vous permet de facturer un utilisateur sous une fonction différente de sa fonction principale. Cela s’avère utile lorsqu’une personne effectue temporairement un travail qui doit être facturé à un taux différent.
 author: Lisa
 feature: Work Management
-source-git-commit: d92908d358ca53ae9d443fd76556e3e8b273e3cb
+exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 6%
@@ -14,8 +15,6 @@ ht-degree: 6%
 ---
 
 # Configurer une fonction pour la facturation
-
-{{highlighted-preview-article-level}}
 
 Workfront vous permet de facturer un utilisateur sous une fonction différente de sa fonction principale. Cela s’avère utile lorsqu’une personne effectue temporairement un travail qui doit être facturé à un taux différent.
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 46%
@@ -17,13 +17,11 @@ ht-degree: 46%
 
 # Personnaliser les en-têtes d’objet avec un modèle de mise en page
 
-{{highlighted-preview}}
-
 En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, vous pouvez utiliser un modèle de mise en page pour configurer les champs que les personnes voient dans l’en-tête de l’objet lorsqu’elles ouvrent la page d’un objet.
 
 >[!IMPORTANT]
 >
->La personnalisation des en-têtes d’objet est actuellement disponible pour les projets, les tâches, les événements, les <span class="preview">portefeuilles, programmes, modèles, enregistrements de facturation, équipes, utilisateurs, entreprises, groupes et cartes tarifaires.</span>
+>La personnalisation des en-têtes d’objet est actuellement disponible pour les projets, les tâches, les événements, les portfolios, les programmes, les modèles, les enregistrements de facturation, les équipes, les utilisateurs, les entreprises, les groupes et les cartes tarifaires.
 
 ![Champs d’en-tête d’objet](assets/object-header-fields.png)
 

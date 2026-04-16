@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 74%
@@ -18,8 +18,6 @@ ht-degree: 74%
 # Ajout de champs calculés à un formulaire
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 Vous pouvez ajouter un champ personnalisé calculé qui utilise les données existantes pour générer de nouvelles données lorsque le formulaire personnalisé est associé à un objet.
 
@@ -100,7 +98,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 1. Dans la boîte de dialogue **Nouveau formulaire personnalisé**, sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
-   ![&#x200B; Bibliothèque de champs &#x200B;](assets/field-library.png)
+   ![ Bibliothèque de champs ](assets/field-library.png)
 
 1. Utilisez la zone de recherche ou développez la section **Calculé** pour localiser le champ calculé dont vous avez besoin, puis faites glisser le champ où vous souhaitez qu’il apparaisse dans le formulaire personnalisé.
 
@@ -172,26 +170,26 @@ Pour réutiliser un champ personnalisé calculé existant :
       <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Autorisation automatique</span></td>
-      <td><span class="preview"><p>Activez cette option pour permettre aux autorisations financières de provenir automatiquement des champs utilisés dans la formule. Les définitions des autorisations sont affichées dans le champ Type d’autorisation Finance, ci-dessous.</p><p>L'accès est requis pour tous les champs de la formule. Par exemple, si deux champs sont utilisés dans un champ calculé et que l’un d’eux dispose d’une autorisation de facturation et que le second dispose d’une autorisation de coûts, l’utilisateur doit disposer des autorisations pour afficher les taux de facturation et de coûts afin d’afficher la valeur calculée.</p></span></td>
+      <td>Autorisation automatique</td>
+      <td><p>Activez cette option pour permettre aux autorisations financières de provenir automatiquement des champs utilisés dans la formule. Les définitions des autorisations sont affichées dans le champ Type d’autorisation Finance, ci-dessous.</p><p>L'accès est requis pour tous les champs de la formule. Par exemple, si deux champs sont utilisés dans un champ calculé et que l’un d’eux dispose d’une autorisation de facturation et que le second dispose d’une autorisation de coûts, l’utilisateur doit disposer des autorisations pour afficher les taux de facturation et de coûts afin d’afficher la valeur calculée.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Type d’autorisation financière</span></td>
-      <td><p><span class="preview">Lorsque le champ Autorisation automatique est désactivé, vous pouvez sélectionner le type d’autorisation finance dont les utilisateurs doivent disposer avant de pouvoir afficher ou modifier ce champ personnalisé. Tout format est autorisé pour les champs calculés. Les champs utilisés dans la formule déterminent si ce champ est actif. Si le champ d'autorisation est vide, les champs de la formule ne prennent pas en charge les autorisations finance.</span></p>
-      <ul span class="preview">
+      <td>Type d’autorisation financière</td>
+      <td><p>Lorsque le champ Autorisation automatique est désactivé, vous pouvez sélectionner le type d’autorisation finance dont les utilisateurs doivent disposer avant de pouvoir afficher ou modifier ce champ personnalisé. Tout format est autorisé pour les champs calculés. Les champs utilisés dans la formule déterminent si ce champ est actif. Si le champ d'autorisation est vide, les champs de la formule ne prennent pas en charge les autorisations finance.</p>
+      <ul>
       <li><p><strong>Aucune autorisation requise :</strong> tous les utilisateurs peuvent voir ce champ</p></li>
       <li><p><strong>Général :</strong> les utilisateurs doivent disposer des autorisations de modification ou d’affichage de General Finance</p></li>
       <li><p><strong>Facturation :</strong> les utilisateurs doivent disposer des autorisations nécessaires pour modifier ou afficher les taux de facturation</p></li>
       <li><p><strong>Coût :</strong> les utilisateurs doivent disposer des autorisations pour modifier ou afficher les taux de coût</p></li>
       </ul>
-      <p><span class="preview">Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Limiter l’accès aux données financières dans les champs personnalisés</a>.</span></p>
+      <p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Limiter l’accès aux données financières dans les champs personnalisés</a>.</p>
       </td>
      </tr>
     </tbody> 
    </table>
 
 1. Dans la boîte **Calcul**, commencez à créer votre calcul :
-   1. Cliquez sur **Maximiser** pour ouvrir l’éditeur de calcul et créer votre calcul.</p>
+   1. Cliquez sur **Agrandir** pour ouvrir l’éditeur de calculs et créer votre calcul.
 Un calcul commence généralement par une expression, suivie de parenthèses contenant les champs que vous souhaitez référencer lorsque le formulaire personnalisé est joint à un objet.
 
       Chaque champ doit être entouré d’accolades. Lorsque vous commencez à saisir le nom d’un champ, vous pouvez sélectionner l’une des suggestions du système pour l’insérer dans votre calcul.

@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
 workflow-type: tm+mt
-source-wordcount: '7426'
+source-wordcount: '7329'
 ht-degree: 94%
 
 ---
@@ -63,17 +63,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 1. Cliquez sur **Nouveau formulaire personnalisé**.
 1. Sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 
-<div class="preview">
-
-Exemple d’image dans l’environnement de prévisualisation :
-
-![Choisir les types d’objets](assets/new-custom-form-select-objects-032526.png)
-
-</div>
-
-Exemple d’image dans l’environnement de production :
-
-![Choisir les types d’objets](assets/new-custom-form-select-objects.png)
+   ![Choisir les types d’objets](assets/new-custom-form-select-objects-032526.png)
 
 +++ Développez pour afficher la liste des objets qui prennent en charge les formulaires personnalisés.
 
@@ -89,9 +79,7 @@ Exemple d’image dans l’environnement de production :
 * Itération
 * Enregistrement de facturation
 * Groupe
-* <span class="preview">Équipe</span>
-
-<div class="preview">
+* Equipe
 
 Si vous vous trouvez dans le package Workflow Ultimate, vous pouvez également créer des formulaires personnalisés pour ces objets :
 
@@ -99,15 +87,10 @@ Si vous vous trouvez dans le package Workflow Ultimate, vous pouvez également c
 * Carte tarifaire
 * Affectation
 
-</div>
-
 +++
 
 1. Dans la zone **Ajouter un nom de formulaire**, saisissez le titre personnalisé du formulaire.
-1. <span class="preview">(Facultatif) Si vous souhaitez ajouter d’autres types d’objet au formulaire afin qu’il puisse être joint à d’autres objets, cliquez sur **Types d’objet** dans l’en-tête du concepteur de formulaire. Sélectionnez les types d’objet à ajouter, puis désélectionnez tous les types d’objet à supprimer du formulaire.</span>
-1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin qu’il puisse être joint à d’autres objets, cliquez sur l’icône **Ajouter** ![icône Ajouter des objets](assets/add-objects-icon.png) en regard de **Types d’objet**, puis sélectionnez le type souhaité dans le menu qui s’affiche. Vous pouvez répéter cette opération pour ajouter autant de types d’objet que vous le souhaitez.
-
-   Une fois que plusieurs objets ont été ajoutés au formulaire, vous pouvez cliquer sur le X d’un type d’objet pour le supprimer du formulaire.
+1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin qu’il puisse être joint à d’autres objets, cliquez sur **Types d’objets** dans l’en-tête du concepteur de formulaire. Sélectionnez les types d’objet à ajouter et désélectionnez tous les types d’objet à supprimer du formulaire.
 
    >[!CAUTION]
    >
@@ -301,8 +284,8 @@ Pour ajouter un champ de texte, procédez comme suit :
     </ul></td>
     </tr>
     <tr>
-      <td><span class="preview">Type d’autorisation financière</span></td>
-      <td><p><span class="preview">Sélectionnez le type d'autorisation finance dont les utilisateurs doivent disposer avant de pouvoir afficher ou modifier ce champ personnalisé. Le format de devise doit être sélectionné.</span></p>
+      <td>Type d’autorisation financière</td>
+      <td><p>Sélectionnez le type d'autorisation finance dont les utilisateurs doivent disposer avant de pouvoir afficher ou modifier ce champ personnalisé. Le format de devise doit être sélectionné.</p>
       <ul>
       <li><p><strong>Aucune autorisation requise :</strong> tous les utilisateurs peuvent voir ce champ</p></li>
       <li><p><strong>Général :</strong> les utilisateurs doivent disposer des autorisations de modification ou d’affichage de General Finance</p></li>
@@ -457,8 +440,8 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </ul></td>
     </tr> 
     <tr>
-      <td><span class="preview">Type d’autorisation financière</span></td>
-      <td><p><span class="preview">Sélectionnez le type d'autorisation finance dont les utilisateurs doivent disposer avant de pouvoir afficher ou modifier ce champ personnalisé. Le format de devise doit être sélectionné.</span></p>
+      <td>Type d’autorisation financière</td>
+      <td><p>Sélectionnez le type d'autorisation finance dont les utilisateurs doivent disposer avant de pouvoir afficher ou modifier ce champ personnalisé. Le format de devise doit être sélectionné.</p>
       <ul>
       <li><p><strong>Aucune autorisation requise :</strong> tous les utilisateurs peuvent voir ce champ</p></li>
       <li><p><strong>Général :</strong> les utilisateurs doivent disposer des autorisations de modification ou d’affichage de General Finance</p></li>
@@ -721,8 +704,8 @@ Pour ajouter une recherche externe, procédez comme suit :
       </ul></td>
      </tr> 
      <tr>
-      <td><span class="preview">Type d’autorisation financière</span></td>
-      <td><p><span class="preview">Sélectionnez le type d'autorisation finance dont les utilisateurs doivent disposer avant de pouvoir afficher ou modifier ce champ personnalisé. Le format de devise doit être sélectionné.</span></p>
+      <td>Type d’autorisation financière</td>
+      <td><p>Sélectionnez le type d'autorisation finance dont les utilisateurs doivent disposer avant de pouvoir afficher ou modifier ce champ personnalisé. Le format de devise doit être sélectionné.</p>
       <ul>
       <li><p><strong>Aucune autorisation requise :</strong> tous les utilisateurs peuvent voir ce champ</p></li>
       <li><p><strong>Général :</strong> les utilisateurs doivent disposer des autorisations de modification ou d’affichage de General Finance</p></li>
@@ -753,12 +736,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de l’API renvoie le JSON au format suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
       <pre>
-      &lbrace;
-data: &lbrace;
+      {
+data: {
 { name: "USA"},
 { name: "Canada"}
-&rbrace;
-&rbrace;
+}
+}
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>

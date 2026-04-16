@@ -7,7 +7,8 @@ description: Vous pouvez partager une carte tarifaire avec des utilisateurs, des
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 760fa2a0833367604b23a4617359f2ca6596e15a
+exl-id: 9f2f9fd8-bca8-4a3d-b022-b51c080a78aa
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 17%
@@ -15,8 +16,6 @@ ht-degree: 17%
 ---
 
 # Partager une carte tarifaire
-
-{{highlighted-preview-article-level}}
 
 Vous pouvez partager une carte tarifaire avec des utilisateurs, des fonctions, des groupes, des équipes, des sociétés et des profils professionnels.
 
@@ -70,4 +69,3 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Cliquez sur [!UICONTROL **Enregistrer**].
 
    Pour plus d’informations sur le partage, voir [Partager un objet](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-

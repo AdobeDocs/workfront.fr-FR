@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 2%
@@ -16,8 +16,6 @@ ht-degree: 2%
 ---
 
 # Définir les attributs de taux
-
-{{highlighted-preview-article-level}}
 
 Les attributs de taux étendent la fonctionnalité de carte tarifaire et de taux d’Adobe Workfront en vous permettant d’ajouter des dimensions supplémentaires aux taux au-delà de la fonction. Cela est essentiel pour les agences et les entreprises dont les taux varient non seulement en fonction de la fonction, mais également de facteurs tels que l’agence, l’emplacement, la marque, le centre de coûts ou d’autres facteurs.
 En combinant ces attributs, Workfront peut sélectionner automatiquement le taux correct pour les affectations, assurant ainsi la précision et la cohérence financières entre les projets.

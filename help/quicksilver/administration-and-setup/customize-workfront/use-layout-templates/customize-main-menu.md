@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 52%
+source-wordcount: '728'
+ht-degree: 56%
 
 ---
 
 # Personnaliser le menu principal à l’aide d’un modèle de mise en page
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -124,8 +122,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      >
      > Les applications personnalisées doivent être créées séparément avant d&#39;être disponibles en tant qu&#39;options du menu principal. Pour plus d’informations, voir [Création d’une application personnalisée pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-<div class="preview">
-
 Dans l’environnement de Prévisualisation :
 
 1. Effectuez l’une des opérations suivantes pour les éléments **natifs** :
@@ -139,17 +135,9 @@ Dans l’environnement de Prévisualisation :
    * Masquer ![Icône Masquer](assets/remove-icon---x-in-circle.png) les éléments que vous ne souhaitez pas afficher dans le menu principal.
    * Afficher les éléments ![Afficher l&#39;icône](assets/add-icon-plus-in-circle.png) que vous souhaitez afficher dans le menu principal.
 
-</div>
-
->[!NOTE]
->
-><span class="preview">Vous ne pouvez pas modifier l&#39;ordre des éléments système. Ces éléments s&#39;affichent toujours en bas du menu principal lorsqu&#39;ils sont actifs.</span>
-
-1. Dans l’environnement de production, effectuez l’une des opérations suivantes :
-
-   * Masquez ![Icône Masquer](assets/remove-icon---x-in-circle.png) **Éléments actifs** que vous ne souhaitez pas afficher
-   * Afficher ![Afficher l&#39;icône](assets/add-icon-plus-in-circle.png) **Éléments disponibles** à afficher dans le menu principal.
-   * Faites glisser ![Icône Faire glisser](assets/move-icon---dots.png) **Éléments actifs** pour modifier leur ordre d&#39;affichage dans le menu principal.
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas modifier l&#39;ordre des éléments système. Ces éléments s&#39;affichent toujours en bas du menu principal lorsqu&#39;ils sont actifs.
 
 1. Cliquez sur **Terminé**.
 

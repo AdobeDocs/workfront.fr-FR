@@ -9,16 +9,14 @@ role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '4076'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
 # Modifier les tâches
-
-{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -582,7 +580,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
         <li> <p>Fixe par heure </p> </li> 
         <li> <p> Utilisateur, par heure </p> </li> 
         <li> <p> Rôle par heure</p> </li> 
-        <li> <p> <span class="preview">Utilisateur et rôle par heure</span></p> </li> 
+        <li> <p> Utilisateur ou utilisatrice et rôle par heure</p> </li> 
        </ul> <p>Pour plus d’informations sur le suivi des coûts, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivre les coûts</a>. L’administration de Workfront ou de groupes sélectionne le paramètre « Type de coût » par défaut pour les tâches de votre système ou de votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences de projet à l’échelle du système</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -592,25 +590,25 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
       <li> <p> Non facturable </p> </li> 
       <li> <p>Utilisateur, par heure </p> </li> 
       <li> <p>Rôle par heure </p> </li> 
-      <li> <p> <span class="preview">Utilisateur et rôle par heure</span></p> </li> 
+      <li> <p>Utilisateur ou utilisatrice et rôle par heure</p> </li> 
       <li> <p>Fixe par heure </p> </li> 
       <li> <p>Utilisateur par heure avec limite </p> </li> 
       <li> <p>Rôle par heure avec limite </p> </li> 
-      <li> <p> <span class="preview">Utilisateur et rôle par heure avec plafond</span></p> </li> 
+      <li> <p>Utilisateur et rôle par heure avec plafond</p> </li> 
       <li> <p>Utilisateur, par heure plus fixe </p> </li> 
       <li> <p>Rôle par heure plus fixe </p> </li> 
-      <li> <p> <span class="preview">Utilisateur et rôle par heure plus fixe</span></p> </li> 
+      <li> <p>Utilisateur ou utilisatrice et rôle par heure plus fixe</p> </li> 
       <li> <p>Revenus fixes </p> </li> 
        </ul> <p>Pour plus d'informations sur le suivi des revenus, voir <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Présentation de la facturation et des revenus</a> et <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Présentation de la hiérarchie des revenus et des coûts</a>. </p> <p>L’administration de Workfront ou de groupes sélectionne le paramètre « Type de revenu » par défaut pour les tâches de votre système ou de votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences du projet à l’échelle du système</a>.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Taux de dépassement</span></td> 
-      <td><span class="preview"><p>Entrez le multiplicateur des heures supplémentaires pour la tâche, par exemple 1,5 ou 2,0. La valeur par défaut est 1,0 (pas de multiplicateur). Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Définir un ratio d'heures supplémentaires</a>.</p><p>Pour afficher le champ Ratio des heures supplémentaires :</p>
+      <td>Taux d’heures supplémentaires</td> 
+      <td><p>Entrez le multiplicateur des heures supplémentaires pour la tâche, par exemple 1,5 ou 2,0. La valeur par défaut est 1,0 (pas de multiplicateur). Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Définir un ratio d'heures supplémentaires</a>.</p><p>Pour afficher le champ Ratio des heures supplémentaires :</p>
        <ul>
        <li>Le Type de revenu sur la tâche doit être Utilisateur et Rôle par heure. Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Généralités sur la hiérarchie des revenus et des coûts</a>.</li>
        <li>Le champ doit être activé sur votre modèle de mise en page, pour la zone Finance dans la vue Détails de la tâche. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Personnaliser la vue Détails à l’aide d’un modèle de disposition</a>.</li>
        </ul>
-      </span></td>
+      </td>
      </tr>
     </tbody> 
    </table>

@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 69%
+source-wordcount: '591'
+ht-degree: 68%
 
 ---
 
@@ -109,6 +109,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 1. Assurez-vous que le **type de durée** de la tâche est **Simple**.
 1. Modifiez le champ **Allocations** pour chaque personne désignée à la tâche. Il s’agit d’allocations globales pour chaque affectation à cette tâche, pour toute la durée de la tâche. Cette opération peut également mettre à jour le **nombre d’heures prévues** global de la tâche.
 
+   Il se peut que l’un de ces écrans s’affiche selon le Workfront ou le package de workflow de votre entreprise.
+
    ![Modifier les attributions](assets/advanced-assignments-duration-type-allocations.png)
+
+   ![Modifier les attributions](assets/new-aa-allocation-by-hour.png)
 
 1. Cliquer sur **Enregistrer**.

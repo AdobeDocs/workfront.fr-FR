@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '4971'
-ht-degree: 87%
+source-wordcount: '5076'
+ht-degree: 85%
 
 ---
 
@@ -268,7 +268,7 @@ Old:
 1. Commencez à modifier votre modèle tel que décrit ci-dessus.
 1. Dans la case **Modifier le modèle**, cliquez sur **Finances**.
 
-   ![Modifier la zone de modèle Section Finances](assets/edit-template-box-finance-section.png)
+   ![Modifier la zone de modèle Section Finances](assets/edit-template-finance-section-040626.png)
 
 1. Mettez à jour les champs suivants :
 
@@ -276,6 +276,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>Conserver les informations sur les taux de facturation du projet</strong></td>
+      <td><p>Lorsque vous activez cette option, tous les taux de facturation de l'affectation sont définitivement gelés au taux applicable le plus élevé de la hiérarchie de facturation. Il s’agit d’une sélection unique. Vous ne pouvez pas désactiver cette option une fois que le projet comporte des affectations ou des heures. Après conservation, les taux de facturation de l’affectation ne peuvent plus être modifiés, remplacés ou modifiés où que ce soit dans le projet.</p></td>
+     </tr>
+     <tr>
+      <td><strong>Utiliser les taux de change en vigueur à la date du système</strong></td>
+      <td><p>Lorsque cette option est sélectionnée, les taux de change effectifs à la date au niveau du système sont toujours utilisés et les remplacements de taux de change ne sont pas autorisés pour le projet.</p> <p>Vous devez également sélectionner la <strong>Date du taux de change</strong> à partir de laquelle, lorsque l’option est sélectionnée.</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>Devise</strong></td> 
       <td><p>Indiquez la devise du futur projet, si elle est différente de la devise par défaut de votre système. Ce champ n’est pas visible si vous avez uniquement la devise par défaut dans le système.<br>Pour plus d’informations sur les devises, voir <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Définir les taux de change</a>.</p></td> 

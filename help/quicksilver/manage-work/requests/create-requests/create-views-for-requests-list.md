@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '663'
 ht-degree: 11%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 11%
 
 # Créer et gérer des vues dans la zone Requêtes
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Si vous utilisez la nouvelle expérience de demande dans Adobe Workfront, vous pouvez créer et enregistrer des vues pour la zone des Demandes . Ces vues incluent des filtres et des dispositions de colonnes, des <span class="preview"> et des regroupements.</span>
+-->
 
+Si vous utilisez la nouvelle expérience de demande dans Adobe Workfront, vous pouvez créer et enregistrer des vues pour la zone des Demandes . Ces vues incluent des filtres, des dispositions de colonnes et des regroupements.
 
 >[!IMPORTANT]
 >
@@ -71,13 +73,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-<div class="preview">
-
 ## Vues système pour les requêtes
-
->[!NOTE]
->
->Les vues système peuvent ne pas être disponibles dans votre environnement de prévisualisation. Ils seront disponibles en production pour tous les clients le 16 avril 2026.
 
 Outre les vues que vous pouvez créer vous-même, Workfront propose les vues système suivantes pour la zone des Requêtes et le widget Mes requêtes dans l’Accueil :
 
@@ -88,8 +84,6 @@ Outre les vues que vous pouvez créer vous-même, Workfront propose les vues sys
 * **Demandes ouvertes** : demandes que vous ou toute autre personne avez envoyées dans les files d’attente ou pour les espaces de travail que vous êtes autorisé à afficher et qui sont toujours ouverts. Cette option n’est pas disponible pour le widget Mes requêtes .
 
 Vous ne pouvez pas modifier les vues système. Vous pouvez modifier leurs éléments, puis copier la vue et modifier ou partager la copie.
-
-</div>
 
 ## Création d’une vue pour les requêtes
 
@@ -128,14 +122,9 @@ En modifiant une vue, vous pouvez modifier les éléments suivants de la vue :
 * Nom
 * Filtres
 * Colonnes
-
-<div class="preview">
-
 * Regroupement
 * Formater les cellules
 * Hauteur de ligne
-
-</div>
 
 Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -191,7 +180,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 >[!IMPORTANT]
 >
 > * Les modifications apportées aux vues sont enregistrées automatiquement.
-> * Toute personne qui utilise la vue peut voir les modifications apportées aux vues <span class="preview">uniquement lorsque vous partagez une nouvelle copie de la vue après y avoir apporté des modifications.</span>
+> * Les modifications apportées aux vues sont visibles par toute personne qui utilise la vue uniquement lorsque vous partagez une nouvelle copie de la vue après y avoir apporté des modifications.
 > * Utilisez le caractère générique de filtre **Moi (utilisateur connecté)** dans tout champ ayant des utilisateurs comme valeur.
 
 ## Ajout de la vue des requêtes à un modèle de mise en page
@@ -206,9 +195,9 @@ Vous pouvez partager les vues que vous créez avec d&#39;autres utilisateurs, é
 
 Après avoir partagé une vue, d’autres utilisateurs peuvent afficher les éléments de vue mis à jour que vous avez modifiés pour la vue avant de la partager.
 
-<span class="preview">S&#39;ils mettent à jour la vue, leurs modifications ne seront pas visibles par les autres utilisateurs, à moins qu&#39;ils ne fassent une copie de la même vue et conservent leurs modifications avant de partager la copie.
+S&#39;ils mettent à jour la vue, leurs modifications ne seront pas visibles par les autres utilisateurs, à moins qu&#39;ils ne fassent une copie de la même vue et conservent leurs modifications avant de partager la copie.
 
-Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
 Let's just redirect to Use enhanced lists so we avoid duplicating information. 

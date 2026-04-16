@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 86%
+source-wordcount: '898'
+ht-degree: 61%
 
 ---
 
@@ -65,16 +65,35 @@ Vous pouvez gérer les informations que les utilisateurs et utilisatrices peuven
 
 ## Configurer l’accès des utilisateurs et utilisatrices à la modification des utilisateurs et utilisatrice à l’aide d’un niveau d’accès personnalisé
 
-1. Commencez à créer ou modifier le niveau d’accès, comme expliqué dans la section [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Pour modifier la capacité des utilisateurs et utilisatrices disposant d’une licence de plan ou de travail d’afficher les profils d’autres utilisateurs et utilisatrices :
+1. Commencez à créer ou à modifier le niveau d’accès, comme expliqué dans [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Pour permettre aux utilisateurs disposant d&#39;une licence Standard, Plan ou Travail d&#39;afficher des informations concernant d&#39;autres utilisateurs, cliquez sur l&#39;icône en forme d&#39;engrenage ![icône en forme d&#39;engrenage](assets/gear-icon-settings.png) sur le bouton **Affichage** situé à droite de **Utilisateurs**, puis sélectionnez les options d&#39;affichage que vous souhaitez accorder dans la zone **Ajuster vos paramètres** :
 
-   1. Cliquez sur l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton **Vue** à droite d’**Utilisateurs et utilisatrices**.
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Afficher les taux de facturation</strong> </td> 
+      <td> Permet aux utilisateurs d’afficher les taux de facturation sur les profils utilisateur.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Afficher les coordonnées</strong> </td> 
+      <td> Permet aux utilisateurs d’afficher les pages de détails des utilisateurs des autres utilisateurs.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Afficher les taux de coûts</strong> </td> 
+      <td> Permet aux utilisateurs d’afficher les taux de coûts sur les profils utilisateur.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Afficher finances générales</strong> </td> 
+      <td> Permet aux utilisateurs d'afficher les champs Finances généraux (non liés aux taux de facturation ou de coûts) sur les profils d'utilisateurs.</td>
+     </tr> 
+    </tbody> 
+   </table>
 
-   1. Désactivez **Afficher les informations sur les contacts**, puis cliquez sur le bouton X pour fermer la boîte de dialogue **Ajuster vos paramètres**.
+   ![Ajuster les paramètres utilisateur de la vue](assets/fine-tune-view-users.png)
 
-      ![affiner les paramètres utilisateur](assets/fine-tune-users.png)
-
-1. Pour modifier la capacité des utilisateurs et utilisatrices disposant d’un accès sous licence de plan à modifier d’autres utilisateurs et utilisatrices, cliquez sur l’icône d’engrenage ![](assets/gear-icon-settings.png) sur le bouton **Modifier** à droite d’**Utilisateurs et utilisatrices**, puis sélectionnez les fonctionnalités à accorder :
+1. Pour permettre aux utilisateurs disposant d&#39;un accès de licence Standard ou Plan de modifier d&#39;autres utilisateurs, cliquez sur l&#39;icône d&#39;engrenage ![icône d&#39;engrenage](assets/gear-icon-settings.png) sur le bouton **Modifier** situé à droite de **Utilisateurs**, puis sélectionnez les options de modification que vous souhaitez accorder dans la zone **Ajuster vos paramètres** :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,6 +108,18 @@ Vous pouvez gérer les informations que les utilisateurs et utilisatrices peuven
      <tr> 
       <td role="rowheader"><strong>Supprimer</strong> </td> 
       <td> <p> Permet aux utilisateurs et utilisatrices de supprimer les utilisateurs et utilisatrices qu’ils ont eux-mêmes créés.<br>Cette option est activée par défaut.</p> <p><b>NOTE</b> : cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Modifier les taux de facturation</strong> </td> 
+      <td> Permet aux utilisateurs de modifier les taux de facturation sur les profils utilisateur.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Modifier les taux de coûts</strong> </td> 
+      <td> Permet aux utilisateurs de modifier les taux de coût sur les profils utilisateur.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Modifier finances générales</strong> </td> 
+      <td> Permet aux utilisateurs de modifier les champs Finances généraux (sans rapport avec les taux de facturation ou de coûts) des profils d'utilisateurs.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Administration des utilisateurs et utilisatrices (tous)</strong> </td> 
@@ -108,6 +139,18 @@ Vous pouvez gérer les informations que les utilisateurs et utilisatrices peuven
          <li><p>Réinitialiser le mot de passe de l’utilisateur ou de l’utilisatrice</p><p><b>NOTE</b> : un administrateur ou une administratrice de groupes ne peut pas se connecter en tant qu’administrateur ou administratrice Workfront, ni réinitialiser son mot de passe.</p></li>
         </ul><p>Cette option est désactivée par défaut.</p></p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Afficher les taux de facturation</strong> </td> 
+      <td> Permet aux utilisateurs d’afficher les taux de facturation sur les profils utilisateur.</td>  
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Afficher les taux de coûts</strong> </td> 
+      <td> Permet aux utilisateurs d’afficher les taux de coûts sur les profils utilisateur.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Afficher finances générales</strong> </td> 
+      <td> Permet aux utilisateurs d'afficher les champs Finances généraux (non liés aux taux de facturation ou de coûts) sur les profils d'utilisateurs.</td>
+     </tr>
     </tbody> 
    </table>
 

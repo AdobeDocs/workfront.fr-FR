@@ -10,16 +10,14 @@ role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 85%
+source-wordcount: '1351'
+ht-degree: 84%
 
 ---
 
 # Organisation et prévisualisation d’un formulaire
-
-{{preview-fast-release-general}}
 
 Vous pouvez organiser un formulaire personnalisé avec le concepteur de formulaires et le prévisualiser pour vérifier qu’il est correctement configuré.
 
@@ -85,8 +83,8 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
       <td role="rowheader">Description</td> 
       <td>Saisissez du texte si vous souhaitez expliquer aux utilisateurs et utilisatrices à quoi sert la section. Celui-ci s’affiche sous le libellé de la section sur le formulaire personnalisé.</td> 
      </tr> 
-      <td><span class="preview">Réduit par défaut</span></td>
-      <td><span class="preview">Par défaut, toutes les sections d’un formulaire personnalisé sont développées lorsque le formulaire lui-même est développé. Sélectionnez cette option pour que la section soit réduite par défaut lorsqu’un utilisateur ouvre le formulaire.</span></td>
+      <td>Réduit par défaut</td>
+      <td>Par défaut, toutes les sections d’un formulaire personnalisé sont développées lorsque le formulaire lui-même est développé. Sélectionnez cette option pour que la section soit réduite par défaut lorsqu’un utilisateur ouvre le formulaire.</td>
      <tr>
      </tr>
      <tr> 
@@ -120,7 +118,7 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
      </tr> 
      <tr> 
       <td role="rowheader"><p>Ajouter une logique</p></td> 
-      <td><p>Utilisez la logique d’affichage pour indiquer si la section doit s’afficher sur le formulaire, en fonction des sélections effectuées par les utilisateurs et utilisatrices dans les champs personnalisés à choix multiples lorsqu’ils remplissent le formulaire.</p><p><strong>NOTE :</strong> si tous les champs individuels d’un saut de section sont soumis à une logique d’affichage et qu’ils sont tous masqués à la suite de cette logique, la section entière sera masquée dans le formulaire personnalisé. Cela se produit même si la logique d’affichage n’est pas appliquée au saut de section.</p><p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Ajouter une logique d’affichage et de saut à l’aide du concepteur de formulaires</a>.</p></td> 
+      <td><p>Utilisez la logique d’affichage pour indiquer si la section doit s’afficher sur le formulaire, en fonction des sélections effectuées par les utilisateurs et utilisatrices dans les champs personnalisés à choix multiples lorsqu’ils remplissent le formulaire.</p><p><strong>NOTE :</strong> si tous les champs individuels d’un saut de section sont soumis à une logique d’affichage et qu’ils sont tous masqués à la suite de cette logique, la section entière sera masquée dans le formulaire personnalisé. Cela se produit même si la logique d’affichage n’est pas appliquée au saut de section.</p><p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Ajouter des règles de logique aux formulaires et champs personnalisés</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

@@ -6,7 +6,8 @@ title: Remplacer les taux de facturation de l’utilisateur au niveau du projet
 description: Cet article décrit comment remplacer les taux de facturation des utilisateurs système pour un projet.
 author: Lisa
 feature: Work Management
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 23%
@@ -14,8 +15,6 @@ ht-degree: 23%
 ---
 
 # Remplacer les taux de facturation des utilisateurs au niveau du projet
-
-{{highlighted-preview-article-level}}
 
 En tant que chef de projet, vous pouvez spécifier le taux de facturation d’un utilisateur pour un projet spécifique. Ce taux de facturation au niveau du projet remplace le taux de facturation au niveau du système pour cet utilisateur. Workfront utilise le taux de facturation au niveau du projet de l’utilisateur pour calculer le revenu, au lieu d’utiliser le taux de facturation au niveau du système.
 

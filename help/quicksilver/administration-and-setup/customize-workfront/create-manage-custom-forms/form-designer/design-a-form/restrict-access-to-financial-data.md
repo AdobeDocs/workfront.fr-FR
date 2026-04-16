@@ -7,17 +7,15 @@ description: Lorsque vous créez un champ personnalisé, vous pouvez définir de
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 9%
 
 ---
 
-
 # Limiter l’accès aux données financières dans les champs personnalisés
-
-{{highlighted-preview-article-level}}
 
 Lorsque vous créez un champ personnalisé, vous pouvez définir des paramètres facultatifs pour restreindre l’accès aux données financières. Ainsi, les utilisateurs et utilisatrices disposant de certaines autorisations définies dans leurs niveaux d’accès peuvent voir les données et ne peuvent pas voir de données financières auxquelles ils ne devraient pas avoir accès.
 
@@ -119,4 +117,3 @@ Lorsque l’utilisateur consulte les projets dans une liste ou un rapport :
 L’exportation des détails du projet affiche les mêmes valeurs de champ financier (ou champs vides) que dans la liste.
 
 Lors de la modification en masse des deux projets, les champs facturation et finances générales s’affichent en lecture seule et les champs de coût s’affichent sans objet.
-

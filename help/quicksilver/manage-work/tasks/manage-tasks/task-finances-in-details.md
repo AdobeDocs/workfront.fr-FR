@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 67%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
-
-{{highlighted-preview}}
 
 Vous pouvez afficher ou modifier les informations financières d’une tâche en accédant à la zone Aperçu de la section Détails de la tâche. Vous pouvez afficher ou modifier un nombre limité de champs dans cette zone.
 
@@ -124,7 +122,7 @@ Old:
         <li> <p>Fixe par heure </p> </li> 
         <li> <p> Utilisateur, par heure </p> </li> 
         <li> <p> Rôle par heure</p> </li> 
-        <li> <p> <span class="preview">Utilisateur et rôle par heure</span></p> </li> 
+        <li> <p>Utilisateur ou utilisatrice et rôle par heure</p> </li> 
        </ul> <p>Pour plus d’informations sur le suivi des coûts, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivre les coûts</a>. L’administration de Workfront ou de groupes sélectionne le paramètre « Type de coût » par défaut pour les tâches de votre système ou de votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences de projet à l’échelle du système</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -134,14 +132,14 @@ Old:
         <li> <p> Non facturable </p> </li> 
         <li> <p>Utilisateur, par heure </p> </li> 
         <li> <p>Rôle par heure </p> </li> 
-        <li> <p> <span class="preview">Utilisateur et rôle par heure</span></p> </li>
+        <li> <p>Utilisateur ou utilisatrice et rôle par heure</p> </li>
         <li> <p>Fixe par heure </p> </li> 
         <li> <p>Utilisateur par heure avec limite </p> </li> 
         <li> <p>Rôle par heure avec limite </p> </li>
-        <li> <p> <span class="preview">Utilisateur et rôle par heure avec plafond</span></p> </li> 
+        <li> <p>Utilisateur et rôle par heure avec plafond</p> </li> 
         <li> <p>Utilisateur, par heure plus fixe </p> </li> 
         <li> <p>Rôle par heure plus fixe </p> </li> 
-        <li> <p> <span class="preview">Utilisateur et rôle par heure plus fixe</span></p> </li>
+        <li> <p>Utilisateur ou utilisatrice et rôle par heure plus fixe</p> </li>
         <li> <p>Revenus fixes </p> </li> 
        </ul> <p>Pour plus d'informations sur le suivi des revenus, voir<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Généralités sur la facturation et les revenus</a> et <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Généralités sur la hiérarchie des revenus et des coûts</a>. </p> <p>L’administration de Workfront ou de groupes sélectionne le paramètre « Type de revenu » par défaut pour les tâches de votre système ou de votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences du projet à l’échelle du système</a>.</p> </td> 
      </tr> 
@@ -162,13 +160,13 @@ Old:
       <td> <p>Il s’agit d’un calcul qui affiche les revenus associés à la tâche en fonction des heures effectives, du type de revenu et du taux horaire des utilisateurs et utilisatrices ou des fonctions. Pour plus d’informations sur le suivi des coûts, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suive les coûts</a>.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Taux de dépassement</span></td> 
-      <td><span class="preview"><p>Entrez le multiplicateur des heures supplémentaires pour la tâche, par exemple 1,5 ou 2,0. La valeur par défaut est 1,0 (pas de multiplicateur). Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Définir un ratio d'heures supplémentaires</a>.</p><p>Pour afficher le champ Ratio des heures supplémentaires :</p>
+      <td>Taux d’heures supplémentaires</td> 
+      <td><p>Entrez le multiplicateur des heures supplémentaires pour la tâche, par exemple 1,5 ou 2,0. La valeur par défaut est 1,0 (pas de multiplicateur). Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Définir un ratio d'heures supplémentaires</a>.</p><p>Pour afficher le champ Ratio des heures supplémentaires :</p>
        <ul>
        <li>Le Type de revenu sur la tâche doit être Utilisateur et Rôle par heure. Pour plus d'informations, voir <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Généralités sur la hiérarchie des revenus et des coûts</a>.</li>
        <li>Le champ doit être activé sur votre modèle de mise en page, pour la zone Finance dans la vue Détails de la tâche. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Personnaliser la vue Détails à l’aide d’un modèle de disposition</a>.</li>
        </ul>
-      </span></td>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">ICP/SPI/CSI</td> 

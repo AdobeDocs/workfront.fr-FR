@@ -6,7 +6,8 @@ title: Définir un rapport des heures supplémentaires
 description: Vous pouvez définir un taux d'heures supplémentaires pour une tâche afin d'ajuster le calcul du revenu prévu pour les affectations de tâche.
 author: Lisa
 feature: Work Management
-source-git-commit: bf8dcc9dfa9697c8d212072bb511c57aa01e7529
+exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 15%
@@ -14,8 +15,6 @@ ht-degree: 15%
 ---
 
 # Définir un taux d’heures supplémentaires
-
-{{highlighted-preview-article-level}}
 
 Lorsqu&#39;un ratio d&#39;heures supplémentaires est ajouté à une tâche, il est appliqué à toutes les affectations de la tâche. Il multiplie toutes les heures prévues pour cette tâche et affecte les calculs du revenu prévu.
 
@@ -87,4 +86,3 @@ Le champ **Taux heures sup.** doit être activé sur votre modèle de mise en pa
 1. Cliquez sur **Détails de la tâche** dans le panneau de gauche.
 1. Dans la zone **Finances**, saisissez le multiplicateur des heures supplémentaires dans le champ **Ratio des heures supplémentaires**.
 1. Cliquez sur **Enregistrer les modifications**.
-

@@ -11,7 +11,7 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 90%
@@ -26,8 +26,6 @@ ht-degree: 90%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-{{highlighted-preview}}
-
 En tant qu’administrateur ou administratrice Adobe Workfront ou administrateur ou administratrice de groupes, vous pouvez créer et modifier des modèles de mise en page pour personnaliser les éléments de disposition suivants dans Workfront pour vos utilisateurs et utilisatrices :
 
 * Menu principal
@@ -36,8 +34,8 @@ En tant qu’administrateur ou administratrice Adobe Workfront ou administrateu
 * Panneau Résumé
 * Vues, filtres et regroupements que les personnes utilisent avec les listes et les rapports.
 * Terminologie à l’écran
-* <span class="preview">En-têtes d’objet</span>
-* <span class="preview">Menu Plus (menu à trois points) pour un objet</span>
+* En-têtes d’objet
+* Menu Plus (menu à trois points) pour un objet
 
 Après avoir créé ou modifié un modèle de mise en page, vous pouvez l’affecter à des utilisateurs et utilisatrices individuels, à des équipes, à des groupes ou à des fonctions.
 

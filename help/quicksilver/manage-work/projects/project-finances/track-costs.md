@@ -7,7 +7,7 @@ description: Vous pouvez suivre les coûts des projets, des tâches et des probl
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '2755'
 ht-degree: 94%
@@ -18,11 +18,7 @@ ht-degree: 94%
 
 <!-- Audited: 02/2024 -->
 
-{{highlighted-preview}}
-
 Vous pouvez suivre les coûts des projets, des tâches et des problèmes dans Adobe Workfront.
-
-<div class="preview">
 
 ## Comment Workfront calcule les coûts - Package Workflow Ultimate
 
@@ -47,8 +43,6 @@ Les scénarios suivants sont possibles :
   Pour plus d&#39;informations sur la hiérarchie des taux de coûts, voir [Généralités sur la hiérarchie des revenus et des coûts](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * Workfront ne calcule que le coût réel pour les problèmes, et les problèmes n’ont pas de type de coût. Pour plus d’informations, voir la section [Suivi des coûts pour les problèmes dans Workfront](#how-workfront-tracks-costs-for-issues) dans cet article.
-
-</div>
 
 ## Comment Workfront calcule les coûts - tous les autres packages
 
@@ -228,8 +222,8 @@ Le tableau suivant décrit les types de coûts de tâche disponibles dans Workfr
    <td> <p><strong>Le coût prévu</strong> est calculé selon la formule suivante : </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Le coût prévu de main-d’œuvre de la tâche est calculé selon la formule suivante :</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Remarque : si vous affectez plusieurs ressources à une tâche, Workfront ajuste les calculs du nombre d’heures prévues en fonction du pourcentage de la tâche affectée à chaque ressource. En outre, le taux horaire de la formule tient compte de toute modification du taux à compter de la date d’entrée en vigueur.</p> <p><strong>Le coût réel</strong> est calculé selon la formule suivante : </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Le coût réel de main-d’œuvre de la tâche est calculé selon la formule suivante :</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Par exemple, une tâche est assignée à une fonction ou à un utilisateur ou une utilisatrice ayant une fonction pour laquelle le coût horaire est de 20 $. Lorsqu’un utilisateur ou une utilisatrice enregistre 5 heures pour une tâche, le coût réel de main-d’œuvre de la tâche est de 100 $. Si l’utilisateur ou l’utilisatrice affecté à la tâche n’a pas de fonction associée à la tâche, le coût réel est calculé sur la base du coût horaire de sa fonction principale. Si il ou elle n’a pas de fonction ou si le coût horaire de sa fonction n’est pas défini, le coût réel de la tâche est égal à zéro. </p> <p>Remarque : les heures réelles d'une tâche horaire par rôle sont calculées en fonction des fonctions des utilisateurs associés à la tâche, et non en fonction des rôles associés à l'utilisateur qui enregistre le temps. En outre, le taux horaire de coût de la formule prend en compte toute modification du taux en vigueur à la date.</p> <p>Si votre administrateur ou administratrice Workfront a activé le paramètre <strong>Attribuer des fonctions à des entrées horaires manuellement</strong> dans la zone Préférences en matière des feuilles de temps et des heures dans Configuration, et que l’utilisateur ou l’utilisatrice qui enregistre les heures sur la tâche sélectionne une fonction différente à associer à ces heures, le coût réel d’une tâche de rôle par heure se calcule sur la base de la fonction spécifiée lors de l’enregistrement des heures. Pour plus d’informations sur l’activation de l’enregistrement des heures pour une fonction spécifique, voir l’article <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurer les préférences en matière de feuilles de temps et d’heures</a>.</p> </p> </td> 
   </tr>
   <tr> 
-   <td> <p><span class="preview">Utilisateur ou utilisatrice et rôle par heure</span></p> </td> 
-   <td> <p><span class="preview"><strong>Le coût prévu</strong> est calculé selon la formule suivante :</span></p> <p><span class="preview"><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </span></p> <p><span class="preview">Le coût prévu de main-d’œuvre de la tâche est calculé selon la formule suivante :</span></p> <p><span class="preview"><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> <p><span class="preview"><strong>Le coût réel</strong> est calculé selon la formule suivante :</span></p> <p><span class="preview"><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </span></p> <p><span class="preview">Le coût réel de main-d’œuvre de la tâche est calculé selon la formule suivante :</span></p> <p><span class="preview"><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> </td> 
+   <td> <p>&gt;Utilisateur et rôle par heure</p> </td> 
+   <td> <p><strong>Le coût prévu</strong> est calculé selon la formule suivante :</p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code></p> <p>Le coût prévu de main-d’œuvre de la tâche est calculé selon la formule suivante :</p> <p><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code></p> <p><strong>Le coût réel</strong> est calculé selon la formule suivante :</p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code></p> <p>Le coût réel de main-d’œuvre de la tâche est calculé selon la formule suivante :</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fixe par heure</p> </td> 

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 74%
+source-wordcount: '390'
+ht-degree: 72%
 
 ---
 
 # Vue d’ensemble des formulaires personnalisés
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -33,17 +31,7 @@ Le concepteur de formulaire dispose d’un espace de travail de style zone de tr
 
 Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-<div class="preview">
-
-Exemple d’image dans l’environnement de prévisualisation :
-
 ![Exemple de concepteur de formulaires](assets/form-designer-example-032526.png)
-
-</div>
-
-Exemple d’image dans l’environnement de production :
-
-![Exemple de concepteur de formulaires](assets/form-designer-example.png)
 
 ## Champs personnalisés et widgets
 
@@ -61,6 +49,7 @@ Vous pouvez ajouter les types de champs personnalisés suivants à un formulaire
 * Recherche externe
 * Référence de champ native
 * Frappe continue
+* Connexion au champ Planning
 * Calculé
 * Date
 * Groupe Case à cocher
@@ -92,8 +81,11 @@ Les utilisateurs et utilisatrices peuvent associer des formulaires personnalisé
 * Portfolio
 * Frais
 * Groupe
+* Fonction
+* Equipe
 * Itération
 * Enregistrement de facturation
+* Carte tarifaire
 
 Pour plus d’informations sur l’association de formulaires personnalisés à des objets, consultez [Ajouter un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

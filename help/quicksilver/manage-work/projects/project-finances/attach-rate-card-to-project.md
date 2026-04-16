@@ -5,7 +5,7 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 23%
@@ -13,8 +13,6 @@ ht-degree: 23%
 ---
 
 # Joindre une carte tarifaire à un projet
-
-{{highlighted-preview-article-level}}
 
 Les cartes tarifaires stockent plusieurs taux de facturation par fonction, en fonction des attributs. Par exemple, vous pouvez avoir une fonction Designer basée à Paris pour l’agence A, une autre Designer basée à Paris pour l’agence B et une troisième Designer basée à New York non affectée à une agence, chacune avec des taux de facturation différents. Toutefois, les attributs ne sont pas obligatoires pour les fonctions sur une carte tarifaire. Les attributs servent d’outils pour établir des taux plus granulaires. Un taux de facturation sur une carte tarifaire peut également être valide pour une date effective, de sorte que le taux commence et se termine à des dates spécifiées.
 
