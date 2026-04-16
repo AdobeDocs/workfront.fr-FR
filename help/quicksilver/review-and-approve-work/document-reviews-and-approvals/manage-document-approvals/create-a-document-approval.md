@@ -100,7 +100,7 @@ Pour créer un workflow de validation :
    >
    >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
 
-   ![ Détails du document ](assets/new-stage.png)
+   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
 
 
 ## Créez un workflow d’approbation à partir du panneau Résumé dans la zone du nouveau document
@@ -142,7 +142,7 @@ Pour créer un workflow de validation :
    >
    >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
 
-   ![ Détails du document ](assets/new-stage.png)
+   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
 
 
 
