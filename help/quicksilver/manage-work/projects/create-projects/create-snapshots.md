@@ -83,7 +83,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * Problèmes
    * Taux
    * Enregistrements de facturation
-   * <!--* Bookings (on its own line of course when they get released)--> des dépenses
+   * &#x200B;<!--* Bookings (on its own line of course when they get released)--> des dépenses
    * Équipe du projet (onglet Personnes)
 
    Vous pouvez personnaliser n’importe quelle liste de l’instantané en filtrant, triant, ajoutant et supprimant des colonnes ou en appliquant une vue. Des indicateurs de performance clés temporels peuvent être ajoutés à la vue d’instantané. Pour plus d’informations, consultez [Personnalisation des listes d’instantanés](#customize-snapshot-lists) dans cet article.
@@ -205,7 +205,7 @@ Pour appliquer ou créer une vue :
    ![Menu Vues d’un instantané](assets/views-on-snapshot-list.png)
 
 1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste ](#customize-columns-in-a-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste &#x200B;](#customize-columns-in-a-list).
 1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [Filtrer les éléments dans une liste](#filter-items-in-a-list).
 
 Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis. Pour plus d&#39;informations sur les vues, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
