@@ -6,10 +6,10 @@ description: L’intégration entre Workfront et Experience Manager Assets ou As
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: deb38abd0c7b4ba41eb21a6539f00d009158f986
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 94%
+source-wordcount: '323'
+ht-degree: 82%
 
 ---
 
@@ -32,6 +32,12 @@ Avec l’intégration d’Experience Manager native, vous pouvez :
 * Synchroniser facilement des métadonnées pour les ressources liées existantes
 * Mettre automatiquement à jour les métadonnées de portfolio, de programme, de projet, de tâche, de problème et de document lorsqu’elles sont modifiées dans Workfront
 * Connecter facilement plusieurs référentiels Experience Manager Assets à un environnement Workfront ou plusieurs environnements Workfront à un référentiel Experience Manager Assets à l’échelle des ID d’organisation
+* Utilisez la fonction de gestion de contenu de Experience Manager Assets. Grâce au gestionnaire de contenu, vous pouvez :
+   * Chargement de contenu pour rechercher des ressources similaires
+   * Affichage des détails rapides sur une ressource
+   * Accès aux fragments de contenu
+   * Explorer les collections
+   * Et plus encore. Pour plus d&#39;informations, consultez la documentation du gestionnaire d&#39;accès Experience Manager Assets [].
 
 
 ## Conditions préalables
@@ -54,7 +60,7 @@ Avec l’intégration d’Experience Manager native, vous pouvez :
 
 ## Prise en main
 
-1. [Configurer le mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. [Configurer le mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 1. Configurez l’intégration :
    1. [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 Ou
