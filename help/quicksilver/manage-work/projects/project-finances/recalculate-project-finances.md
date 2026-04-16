@@ -93,7 +93,7 @@ Les taux de revenu peuvent changer aux niveaux suivants :
   Pour plus d’informations, voir [Remplacer les taux de facturation des fonctions au niveau de l’entreprise](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * Niveau de la carte tarifaire
-Pour plus d’informations sur les cartes tarifaires, voir [ Gérer les cartes tarifaires ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Pour plus d’informations sur les cartes tarifaires, voir [&#x200B; Gérer les cartes tarifaires &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 * Niveau du projet (pour les fonctions, les utilisateurs et les cartes tarifaires)\
   Pour plus d&#39;informations sur le remplacement des taux au niveau du projet, voir [Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
@@ -154,7 +154,7 @@ Vous pouvez recalculer le financement lors de leur modification en masse. Pour p
 
 1. Accédez au projet pour lequel vous souhaitez recalculer les données financières et cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du projet.
 
-   ![Liste déroulante Niveau du projet plus ](assets/project-level-more-dropdown.png)
+   ![Liste déroulante Niveau du projet plus &#x200B;](assets/project-level-more-dropdown.png)
 
    Ou
 
