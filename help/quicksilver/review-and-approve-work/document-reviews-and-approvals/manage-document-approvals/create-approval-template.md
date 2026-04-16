@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 47%
+source-wordcount: '337'
+ht-degree: 40%
 
 ---
 
 # Créer un modèle de workflow d’approbation pour les documents
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Dans la zone Configuration de Workfront , les utilisateurs disposant d’une licence Standard peuvent créer des modèles d’approbation réutilisables. Une fois créés, les modèles d’approbation peuvent être appliqués aux ressources dans la zone Documents d’un projet, d’une tâche ou d’un problème.
 
@@ -49,30 +47,9 @@ Dans la zone Configuration de Workfront , les utilisateurs disposant d’une lic
 Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+ß
 
-
-
-
-## Création d’un modèle d’approbation dans votre environnement de production
-
-{{step-1-to-setup}}
-
-1. Dans le panneau de gauche, cliquez sur **Révision et approbation** > **Modèles d’approbation**.
-1. Cliquez sur **Nouveau modèle** sur le côté droit de la page.
-1. Indiquez les informations suivantes :
-
-   | Nom de modèle | Commencez à saisir un nom pour ce modèle. |
-   |----------------------------|---|
-   | **(Facultatif) Délai** | Saisissez le délai en jours. La date limite de validation est calculée à partir de ce champ une fois le modèle appliqué à une ressource. |
-   | **Ajouter des personnes approbatrices ou des personnes réviseuses** | Commencez à saisir le nom des personnes ou des équipes, puis désigner-les comme réviseuses ou approbatrices. |
-
-1. Cliquer sur **Enregistrer**.
-
-
-
-<div class="preview">
-
-## Création d’un modèle d’approbation dans votre environnement de prévisualisation
+## Créer un modèle d’approbation
 
 {{step-1-to-setup}}
 
@@ -110,13 +87,12 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
 
-   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
+   ![ Détails du document ](assets/new-stage.png)
 
 1. Cliquez sur **Enregistrer**.
 
 Une fois le modèle créé, il peut être appliqué aux documents de la zone Documents d’un projet, d’une tâche ou d’un événement pour lancer le processus formel de révision et d’approbation dans Workfront.
 
-</div>
 
 
 <!--

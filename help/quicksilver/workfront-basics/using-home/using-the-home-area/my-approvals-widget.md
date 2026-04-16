@@ -6,7 +6,7 @@ description: Le widget Mes approbations affiche toutes vos approbations en atten
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
-source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
+source-git-commit: bd70f4a92eab8861d87316f5e21b0d7ca7e8c31f
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 38%
@@ -14,8 +14,6 @@ ht-degree: 38%
 ---
 
 # Gérer les approbations à l’aide du widget Mes approbations
-
-{{highlighted-preview}}
 
 Le widget Mes approbations affiche toutes vos approbations en attente, affectées, déléguées et soumises au même endroit. Ici, vous pouvez filtrer et organiser vos approbations, prendre des décisions et déléguer les approbations si nécessaire.
 
@@ -73,10 +71,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >Les approbations affectées à des fonctions ou à des groupes ne s’affichent pas dans la page d’accueil. Les approbations affectées aux équipes s’affichent dans le widget Mes approbations pour chaque membre de l’équipe.
 
 
-1. <span class="preview">(Conditionnel) Cliquez sur le menu déroulant **Tri**, puis sélectionnez **Les plus récentes** pour afficher les approbations ajoutées le plus récemment.</span>
+1. (Conditionnel) Cliquez sur le menu déroulant **Tri**, puis sélectionnez **Les plus récentes** pour afficher les approbations ajoutées le plus récemment.
 
 
-1. <span class="preview">(Facultatif) Cliquez sur l’icône Plein écran ![Icône Plein écran](assets/full-screen.png) pour ouvrir le widget Mes approbations en plein écran.</span>
+1. (Facultatif) Cliquez sur l’icône Plein écran ![icône Plein écran](assets/full-screen.png) pour ouvrir le widget Mes approbations en plein écran.
 
 1. Sélectionnez l’élément pour lequel vous souhaitez prendre une décision d’approbation.
 

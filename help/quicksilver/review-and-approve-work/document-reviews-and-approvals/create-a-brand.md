@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
+source-git-commit: 243aa2b0893e3034d37b959384a50b8a5e4a4bf0
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 7%
@@ -17,8 +17,6 @@ ht-degree: 7%
 ---
 
 # Créer et gérer des marques pour le réviseur de contenu
-
-{{highlighted-preview-article-level}}
 
 Le réviseur de contenu utilise les directives de la marque pour évaluer le contenu pendant le processus de révision. Vous pouvez créer des marques dans Workfront en chargeant des fichiers PDF qui contiennent vos directives de marque ou en saisissant manuellement des éléments de marque.
 

@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 25%
+source-wordcount: '544'
+ht-degree: 18%
 
 ---
 
 # Ajouter des approbateurs ou des réviseurs supplémentaires à un workflow d’approbation de document
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Vous pouvez ajouter d&#39;autres approbateurs ou réviseurs à un workflow d&#39;approbation de document qui a déjà des approbations en attente.
 
@@ -59,31 +57,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 +++
 
 
-## Ajoutez d’autres approbateurs ou réviseurs et réviseuses à partir de la page Détails du document dans votre environnement de production
 
-1. Accédez à la page du document en cliquant sur le nom du document, puis sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou un réviseur dans le menu déroulant Version. La dernière version est sélectionnée par défaut.
-
-1. Sélectionnez **Validations** dans le panneau de gauche. Tous les approbateurs, approbatrices, réviseurs et réviseuses existants sont répertoriés ici.
-
-1. Pour ajouter un approbateur, assurez-vous que la case **Approbateur** est cochée, puis commencez à saisir du texte dans la zone **Réviseurs**. Vous pouvez ajouter des utilisateurs et des utilisatrices ou des équipes Workfront en utilisant leur nom. Si vous souhaitez plutôt ajouter un réviseur ou une réviseuse, décochez simplement la case **Personne approbatrice** avant la saisie.
-
-1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
-
-## Ajouter des approbateurs ou des réviseurs supplémentaires à partir du Résumé du document dans votre environnement de production
-
-1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
-
-1. Cliquez sur le document dont vous avez besoin et le panneau Résumé du document s’ouvre.
-
-1. Sélectionnez la version du document auquel vous souhaitez ajouter un approbateur ou un réviseur dans le menu déroulant Version. La dernière version est sélectionnée par défaut.
-
-1. Faites défiler l’écran jusqu’à la section **Validations** du panneau Résumé du document, où tous les approbateurs et réviseurs existants sont répertoriés. Pour ajouter un approbateur, assurez-vous que la case **Approbateur** est cochée, puis commencez à saisir du texte dans la zone **Réviseurs**. Vous pouvez ajouter des utilisateurs et des utilisatrices ou des équipes Workfront en utilisant leur nom. Si vous souhaitez plutôt ajouter un réviseur ou une réviseuse, décochez simplement la case **Personne approbatrice** avant la saisie.
-
-1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
-
-<div class="preview">
-
-## Ajoutez d&#39;autres approbateurs ou réviseurs à partir du Résumé du document dans l&#39;environnement d&#39;aperçu de la zone des documents hérités
+## Ajoutez d&#39;autres approbateurs ou réviseurs à partir du Résumé du document dans la zone des documents hérités
 
 Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, consultez la section [Stockage Workfront par rapport au stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -108,7 +83,6 @@ Pour ajouter des approbateurs ou des réviseurs supplémentaires à partir du r�
 1. Répétez les étapes 5 à 6 pour ajouter d’autres approbateurs ou réviseurs ou réviseuses.
 Une fois le document enregistré, les participants ajoutés reçoivent une notification par e-mail indiquant que leur approbation ou révision est nécessaire pour le document.
 
-</div>
 
 
 ## Ajoutez d&#39;autres approbateurs ou réviseurs à partir du Résumé du document dans la zone des nouveaux documents

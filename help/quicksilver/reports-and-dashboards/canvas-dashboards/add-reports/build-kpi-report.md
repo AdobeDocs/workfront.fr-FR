@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 12%
@@ -16,8 +16,6 @@ ht-degree: 12%
 ---
 
 # Créer un rapport de KPI dans un tableau de bord de zones de travail
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -101,13 +99,11 @@ De nombreuses options de configuration sont disponibles pour créer un rapport s
       >
       >La description sera utilisée comme légende sous la valeur de l’indicateur de performance clé. Si vous ne saisissez pas de description, une légende est générée pour vous en fonction de l’agrégateur et du type d’agrégation que vous sélectionnez dans les étapes suivantes.
 
-   1. <span class="preview">(Facultatif) Dans le champ **Exécuter ce rapport avec les droits d&#39;accès de**, commencez à saisir le nom de l&#39;utilisateur dont vous souhaitez que le rapport utilise les autorisations, puis sélectionnez l&#39;utilisateur lorsqu&#39;il apparaît dans la liste. Lorsque vous configurez un rapport pour qu’il s’exécute en tant qu’autre utilisateur, toutes les visionneuses du tableau de bord voient les mêmes données, quel que soit leur propre niveau d’accès. Si vous ne sélectionnez pas d’utilisateur, chaque visionneuse voit les données en fonction de ses propres autorisations.
+   1. (Facultatif) Dans le champ **Exécuter ce rapport avec les droits d&#39;accès de**, commencez à saisir le nom de l&#39;utilisateur dont vous souhaitez que le rapport utilise les autorisations, puis sélectionnez l&#39;utilisateur lorsqu&#39;il apparaît dans la liste. Lorsque vous configurez un rapport pour qu’il s’exécute en tant qu’autre utilisateur, toutes les visionneuses du tableau de bord voient les mêmes données, quel que soit leur propre niveau d’accès. Si vous ne sélectionnez pas d’utilisateur, chaque visionneuse voit les données en fonction de ses propres autorisations.
 
       >[!IMPORTANT]
       >
       >Si l’utilisateur sélectionné est désactivé ou perd l’accès aux espaces de travail ou aux types d’enregistrements appropriés, le rapport peut afficher des données incomplètes ou dont le rendu échoue.
-
-</span>
 
 1. Suivez les étapes ci-dessous pour configurer la section **Créer un KPI** :
 

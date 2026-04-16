@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
-source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
+source-git-commit: 243aa2b0893e3034d37b959384a50b8a5e4a4bf0
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Afficher le score et les commentaires des réviseurs de contenu
-
-{{highlighted-preview-article-level}}
 
 Quelques secondes après l’envoi de la demande de révision et d’approbation, vous pouvez afficher le score et le retour d’informations du réviseur de contenu dans le panneau Résumé du document .
 
@@ -31,7 +29,7 @@ Le réviseur de contenu calcule les scores différemment selon le type de révis
 * Révision de l’image : ce score reflète le ratio des directives approuvées par rapport aux directives ayant échoué.
 * Copier la révision : Ce score utilise une pondération équilibrée des résultats subjectifs et objectifs. Les directives objectives (affichées sous « Corriger ») sont pondérées trois fois plus que les directives subjectives (affichées sous « Considérer »).
 
-Étant donné que les directives objectives ont plus de poids dans les critiques de copie, nous vous recommandons d&#39;écrire des directives concrètes et mesurables dans votre marque. Pour plus d’informations, consultez la section [&#x200B; Bonnes pratiques pour la rédaction de directives relatives aux marques &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) de l’article Création et gestion des marques pour le réviseur de contenu .
+Étant donné que les directives objectives ont plus de poids dans les critiques de copie, nous vous recommandons d&#39;écrire des directives concrètes et mesurables dans votre marque. Pour plus d’informations, consultez la section [ Bonnes pratiques pour la rédaction de directives relatives aux marques ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) de l’article Création et gestion des marques pour le réviseur de contenu .
 
 ## Afficher le score et le retour d’informations
 

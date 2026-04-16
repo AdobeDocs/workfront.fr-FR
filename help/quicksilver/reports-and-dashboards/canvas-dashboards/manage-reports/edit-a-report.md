@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 14%
@@ -16,8 +16,6 @@ ht-degree: 14%
 ---
 
 # Modifier un rapport dans un tableau de bord de la zone de travail
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -88,13 +86,11 @@ Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/he
 
    ![Modifier un rapport](assets/edit-report-box.png)
 
-1. <span class="preview">Dans la boîte de dialogue **Configurer**, modifiez les informations des sections répertoriées sur le côté gauche. Ces sections varient en fonction du type de rapport que vous modifiez.
+1. Dans la boîte de dialogue **Configurer**, modifiez les informations des sections répertoriées sur le côté gauche. Ces sections varient en fonction du type de rapport que vous modifiez.
 
    >[!TIP]
    >
    >La section Détails de tous les types de rapports comprend une option **Exécuter ce rapport avec les droits d’accès de**. Utilisez cette option pour spécifier un utilisateur dont les autorisations sont utilisées pour effectuer le rendu des données du rapport, en veillant à ce que toutes les visionneuses de tableaux de bord voient les mêmes données. Pour plus d’informations, voir [Création d’un rapport sur les indicateurs de performance clés](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Création d’un rapport graphique](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) ou [Création d’un rapport tabulaire](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
-
-   </span>
 
 1. (Facultatif) Si vous modifiez un rapport sur les indicateurs de performance clés, modifiez les informations selon vos besoins dans les sections suivantes :
 

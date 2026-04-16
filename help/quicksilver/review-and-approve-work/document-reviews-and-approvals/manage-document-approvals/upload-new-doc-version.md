@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 15%
+source-wordcount: '650'
+ht-degree: 16%
 
 ---
 
 # Charger une nouvelle version du document et demander une approbation
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Si un document est marqué « A besoin d’être retravaillé » lors d’une révision précédente, vous pouvez charger une nouvelle version dans le document d’origine et commencer une nouvelle série d’approbations. Une fois que vous avez chargé une nouvelle version du document, les versions précédentes sont verrouillées.
 
@@ -64,51 +62,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 +++
 
 
-## Effectuez un glisser-déposer pour ajouter une nouvelle version dans votre environnement de production
 
->[!NOTE]
->
->Glisser-déposer ne fonctionne pas avec Internet Explorer.
-
-
-Si vous avez besoin d’une autre phase de révision et d’approbation d’un document, vous pouvez créer une nouvelle version du document dans Workfront.
-
-Vous pouvez ajouter les participants précédents, de nouveaux participants ou une combinaison des deux. Vous pouvez afficher des informations sur les versions précédentes et les participants sur la page Détails du document .
-
-Pour ajouter une nouvelle version :
-
-1. Accédez au document dans Workfront.
-1. Glissez-déposez le nouveau fichier en haut du document précédent. Une nouvelle version est automatiquement créée.
-
-1. Une fois le téléchargement terminé, sélectionnez le document, puis cliquez sur **Détails du document**.
-   ![Ouvrir la page des détails du document](assets/open-doc-details.png)
-
-
-1. Dans le volet de gauche, cliquez sur **Validations**, puis sur **Ajouter**.
-
-1. Pour ajouter tous les participants précédents, cliquez sur **Ajouter tout**. Vous pouvez également ajouter de nouveaux participants ou supprimer des participants précédents selon vos besoins.
-
-
-1. Pour ajouter un modèle d’approbation existant, cliquez sur le bouton Modèle et commencez à saisir le nom d’un modèle.
-
-   >[!TIP]
-   >
-   >   Les utilisateurs disposant d&#39;une licence Standard peuvent créer des modèles d&#39;approbation réutilisables à partir de la zone Configuration. Pour plus d’informations, voir [Création d’un modèle de workflow d’approbation pour les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-
-1. (Facultatif) Définissez une date limite pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.
-
-1. Une fois que vous avez ajouté tous les réviseurs et approbateurs, cliquez sur **Soumettre la demande**. Les participants sont avertis par e-mail.
-
-   ![soumettre la nouvelle version à approbation](assets/add-previous-participants.png)
-
-
-
-
-
-<div class="preview">
-
-## Effectuez un glisser-déposer pour ajouter une nouvelle version dans votre environnement d’aperçu dans la zone des documents hérités
+## Effectuez un glisser-déposer pour ajouter une nouvelle version dans la zone des documents hérités
 
 Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, consultez la section [Stockage Workfront par rapport au stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -175,8 +130,3 @@ Pour ajouter une nouvelle version :
 
    ![demande d’approbation](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
-
-
-
-</div>
-
