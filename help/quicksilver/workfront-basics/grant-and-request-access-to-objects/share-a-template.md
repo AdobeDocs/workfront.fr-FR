@@ -6,9 +6,9 @@ description: En tant que personne membre de l’administration Adobe Workfront,
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '611'
 ht-degree: 92%
 
 ---
@@ -147,6 +147,36 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux utilis
    <td>  </td> 
    <td>✓</td> 
   </tr> 
+  <tr> 
+   <td>Afficher les taux de facturation</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Afficher les taux de dépenses</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Afficher les finances générales</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Modifier les taux de facturation</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Modifier les taux de dépenses</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td>Modifier les finances générales</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Ajouter des documents</p> <p>Conseil : il arrive que des personnes ajoutent des documents à un modèle de projet en pensant les avoir ajoutés à un projet. Vous pouvez éviter cela pour vos personnes destinataires en désactivant ce paramètre.</p> </td> 
    <td>  </td> 

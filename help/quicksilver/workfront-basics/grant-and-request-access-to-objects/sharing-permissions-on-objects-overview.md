@@ -6,10 +6,10 @@ description: Vous pouvez partager ou supprimer des autorisations pour un objet q
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: dec69522dd5f233bfabe84a9846b8e1246993a2a
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 82%
+source-wordcount: '1353'
+ht-degree: 80%
 
 ---
 
@@ -59,6 +59,8 @@ Vous pouvez partager les objets suivants dans Workfront avec d’autres personne
    * [Partager un rapport de calendrier](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * **Filtres, vues et regroupements** : pour plus d’informations, voir [Partager un filtre, une vue ou un regroupement](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+* **Cartes tarifaires** : pour plus d’informations, voir [Partager une carte tarifaire](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md).
 
 * **Plans** : pour plus d’informations, voir [Partager un plan dans le planificateur de scénarios](../../scenario-planner/share-a-plan.md).
 
@@ -118,7 +120,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
      <li><p>Afficher l’objet</p></li> 
      <li><p>Ajouter des documents à l’objet</p></li> 
      <li><p>Ajoutez les problèmes à l’objet (s’il s’agit d’une tâche ou d’un projet)</p></li> 
-     <li><p>Afficher des informations financières sur l’objet</p></li> 
+     <li><p>Affichez les taux de coût, les taux de facturation ou les informations financières générales sur l'objet</p></li> 
      <li> <p>Partager l’objet<br></p> <p>Lorsque vous partagez l’objet, vous pouvez octroyer à d’autres personnes le même niveau d’autorisation que celui dont vous disposez sur l’objet, et non pas un niveau supérieur.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -140,7 +142,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
     <ul> 
      <li>Toutes les actions incluses avec les autorisations d’affichage et de contribution</li> 
      <li>Le supprimer.</li> 
-     <li>Y gérer les informations financières</li> 
+     <li>Gérer les taux de coûts, les taux de facturation ou les informations financières générales s’y trouvant</li> 
     </ul> </td> 
   </tr> 
   <tr> 

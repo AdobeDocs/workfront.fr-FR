@@ -6,10 +6,10 @@ description: Les finances sont calculées sur un projet à mesure que des modifi
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 88%
+source-wordcount: '1632'
+ht-degree: 78%
 
 ---
 
@@ -41,7 +41,7 @@ Les finances sont calculées sur un projet à mesure que des modifications se pr
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Autorisations de gestion pour le projet avec les autorisations de gestion financière</td> 
+   <td>Gérez les autorisations du projet avec les autorisations de Modifier les taux de coût, Modifier les taux de facturation et Modifier les finances générales</td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,21 +79,24 @@ Lorsque les données financières d’un projet sont recalculées, Workfront rec
 
 Les taux de revenu peuvent changer pendant la durée de vie d’un projet.
 
-Pour plus d’informations sur les taux de facturation et les revenus, consultez l’article [Vue d’ensemble de la facturation et des revenus](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Pour plus d’informations sur les taux de facturation et le chiffre d’affaires, voir [Présentation de la facturation et du chiffre d’affaires](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 Les taux de revenu peuvent changer aux niveaux suivants :
 
 * Au niveau du système (pour les fonctions)\
-  Pour plus d’informations sur la création de fonctions avec des taux de facturation au niveau du système, voir l’article [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Pour plus d’informations sur la création de fonctions avec des taux de facturation au niveau du système, voir [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Niveau utilisateur ou utilisatrice\
-  Pour plus d’informations sur la modification des informations de taux de facturation sur les utilisateurs et utilisatirces, voir l’article [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Pour plus d’informations sur la modification des informations de taux de facturation des utilisateurs, voir [Modifier le profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Au niveau de l’entreprise (pour les fonctions)\
+* Niveau de l’entreprise (pour les fonctions)\
   Pour plus d’informations, voir [Remplacer les taux de facturation des fonctions au niveau de l’entreprise](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
-* Au niveau du projet (pour les fonctions)\
-  Pour plus d’informations sur le remplacement des taux de fonctions au niveau du projet, consultez l’article [Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+* Niveau de la carte tarifaire
+Pour plus d’informations sur les cartes tarifaires, voir [ Gérer les cartes tarifaires ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
+* Niveau du projet (pour les fonctions, les utilisateurs et les cartes tarifaires)\
+  Pour plus d&#39;informations sur le remplacement des taux au niveau du projet, voir [Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Par exemple, le taux de facturation d’une personne varie au cours d’un projet de 50 $ à 75 $ de l’heure et vous souhaitez que toutes les données existantes restent calculées selon l’ancien taux (50 $ de l’heure). Cependant, lorsque les finances du projet sont recalculées, les revenus des tâches qui contiennent déjà des données financières seront mises à jour pour refléter le nouveau taux de facturation (de 75 $ de l’heure).
 
@@ -106,13 +109,13 @@ Lorsque les taux de facturation changent à n’importe quel niveau mentionné c
 
 Lorsque vous ne recalculez pas le financement du projet ou lorsque vous verrouillez les heures consignées dans un enregistrement de facturation facturé, les heures consignées après le changement de taux sont calculées avec le nouveau taux et les heures consignées avant le changement de taux restent calculées à l’ancien taux.
 
-Pour plus d’informations sur la création d’enregistrements de facturation, voir l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
+Pour plus d&#39;informations sur la création d&#39;enregistrements de facturation, voir [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 #### Préserver les revenus du projet en utilisant plusieurs remplacements de taux de facturation {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 Lorsque les taux de facturation changent pour les fonctions au niveau du projet, vous pouvez conserver les revenus existants, déjà calculés sur le projet, en utilisant plusieurs remplacements de taux de facturation qui sont verrouillés au cours d’une période spécifiée.
 
-Pour plus d’informations sur l’utilisation de remplacements de plusieurs taux de facturation, consultez l’article [Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Pour plus d’informations sur l’utilisation de remplacements de plusieurs taux de facturation, voir [Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -123,12 +126,15 @@ Pour plus d’informations sur l’utilisation de remplacements de plusieurs tau
 Les taux de dépenses peuvent changer aux niveaux suivants :
 
 * Niveau système (pour les fonctions)\
-  Pour plus d’informations sur la création de fonctions avec des taux de dépenses au niveau du système, voir l’article [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Pour plus d’informations sur la création de fonctions avec des taux de coût au niveau du système, voir [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Niveau d’utilisation\
-  Pour plus d’informations sur la modification des informations de taux de dépenses pour les utilisateurs et utilisatrices, voir l’article [Modifier un profil d’utilisation](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Pour plus d&#39;informations sur la modification des informations de taux de coûts sur les utilisateurs, voir [Modifier le profil d&#39;un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Lorsque les taux de facturation changent à n’importe quel niveau mentionné ci-dessus, vous pouvez conserver les coûts existants, déjà calculés sur le projet, en verrouillant la durée enregistrée sur le projet et calculée à l’aide de l’ancien taux dans un enregistrement de facturation ayant le statut Facturé. Pour plus d’informations sur la création d’enregistrements de facturation, voir l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
+* Niveau du projet (pour les utilisateurs)
+Pour plus d&#39;informations sur le remplacement des taux de coûts utilisateur, voir [Remplacer les taux de coûts utilisateur au niveau du projet](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
+
+Lorsque les taux de facturation changent à n’importe quel niveau mentionné ci-dessus, vous pouvez conserver les coûts existants, déjà calculés sur le projet, en verrouillant la durée enregistrée sur le projet et calculée à l’aide de l’ancien taux dans un enregistrement de facturation ayant le statut Facturé. Pour plus d&#39;informations sur la création d&#39;enregistrements de facturation, voir [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 Vous pouvez également éviter d’utiliser l’option manuelle Recalculer le financement si vous ne souhaitez pas créer d’enregistrement de facturation, comme décrit dans la section [Recalculer manuellement le financement d’un projet](#manually-recalculate-finances-for-a-project) dans cet article.
 
@@ -148,13 +154,13 @@ Vous pouvez recalculer le financement lors de leur modification en masse. Pour p
 
 1. Accédez au projet pour lequel vous souhaitez recalculer les données financières et cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du projet.
 
-   ![Liste déroulante Niveau du projet plus &#x200B;](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Liste déroulante Niveau du projet plus ](assets/project-level-more-dropdown.png)
 
    Ou
 
    Accédez à une liste ou à un rapport de projet et sélectionnez un ou plusieurs projets, puis cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-icon-on-an-object.png) en haut de la liste.
 
-   ![Recalculer les expressions](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalculer finances](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >
@@ -180,7 +186,7 @@ Pour recalculer manuellement le financement de plusieurs projets, procédez comm
 1. Accédez à une liste de projets.
 1. Sélectionnez plusieurs projets dans la liste, puis cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-icon-on-an-object.png) en haut de la liste.
 
-   ![Recalculer les expressions](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalculer finances](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >

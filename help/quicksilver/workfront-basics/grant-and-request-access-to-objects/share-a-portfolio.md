@@ -4,10 +4,10 @@ description: Vous pouvez partager un portfolio avec d’autres personnes si vous
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 47%
+source-wordcount: '914'
+ht-degree: 46%
 
 ---
 
@@ -162,5 +162,11 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux person
 | Mises à jour / commentaires | ✓ | ✓ |
 | Partager | ✓ | ✓ |
 | Partager sur le système |   | ✓ |
+| Modifiez les taux de facturation&#42; | ✓ |   |
+| Modifier les taux de coûts&#42; | ✓ |   |
+| Modifier finances générales&#42; | ✓ |   |
+| Afficher les taux de facturation&#42; | ✓ | ✓ |
+| Afficher les taux de coûts&#42; | ✓ | ✓ |
+| Afficher finances générales&#42; | ✓ | ✓ |
 
 * Ces autorisations sont contrôlées par le niveau d’accès et les autorisations sur d’autres objets, comme les projets, les programmes, les documents.

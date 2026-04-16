@@ -6,16 +6,15 @@ title: Remplacer les taux de coûts utilisateur au niveau du projet
 description: Cet article décrit comment remplacer les taux de coûts utilisateur système pour un projet.
 author: Lisa
 feature: Work Management
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 27%
+source-wordcount: '651'
+ht-degree: 22%
 
 ---
 
 # Remplacer les taux de coûts utilisateur au niveau du projet
-
-{{highlighted-preview-article-level}}
 
 Vous pouvez spécifier le taux de coût pour un utilisateur ou une utilisatrice sur un projet spécifique. Ce taux de coût au niveau du projet remplace le taux de coût au niveau du système pour cet utilisateur. Workfront utilise le taux de coût au niveau du projet de la fonction pour calculer le coût, au lieu d&#39;utiliser le taux de coût au niveau du système.
 
@@ -50,7 +49,7 @@ Pour plus d&#39;informations sur le calcul des coûts du projet, voir [Général
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Gérer les autorisations du projet qui inclut Modifier les données financières </td> 
+   <td>Gérer les autorisations du projet qui incluent la modification des taux de coût </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +93,7 @@ Pour plus d’informations, voir [Modifier le profil d’un utilisateur ou d’u
 
    Workfront applique le taux de remplacement de la fonction aux heures qui se produisent pendant ces périodes lors du calcul du coût du projet.
 
-   Il ne doit pas y avoir d’écart entre les périodes de deux taux de remplacement. La **Date de début** d’un taux de remplacement doit être le jour suivant la **Date de fin** de la date de remplacement précédente.
+   Workfront vous permet de laisser des espaces entre les délais de remplacement, mais vous recevrez un avertissement pour confirmer que c’est intentionnel.
 
    Il n&#39;est pas nécessaire de spécifier une date de début pour le premier taux de remplacement ni une date de fin pour le dernier taux de remplacement.
 
@@ -107,5 +106,3 @@ Pour plus d’informations, voir [Modifier le profil d’un utilisateur ou d’u
    Si une heure est consignée après la date d&#39;achèvement prévue du projet, le dernier taux de coût est utilisé.
 
 1. Cliquez sur **Enregistrer**.
-
-

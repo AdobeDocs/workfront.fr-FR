@@ -5,10 +5,10 @@ description: En plus de définir les revenus et de suivre les dépenses, vous po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 39%
+source-wordcount: '1637'
+ht-degree: 38%
 
 ---
 
@@ -44,7 +44,7 @@ Vous ne pouvez pas créer d&#39;enregistrements de facturation pour les tâches 
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Autorisations de gestion pour le projet avec les autorisations de gestion financière</td> 
+   <td>Gérez les autorisations du projet avec les autorisations de Modifier les taux de facturation et les finances générales</td> 
   </tr> 
  </tbody> 
 </table>
@@ -161,7 +161,7 @@ Vous pouvez ajouter des heures à un enregistrement de facturation lorsque les c
 
    >[!NOTE]
    >
-   >Si aucune heure n&#39;est consignée ou si les heures consignées ne remplissent pas les conditions requises pour être ajoutées à un enregistrement de facturation, le bouton **Ajouter des heures** ne s&#39;affiche pas. Pour plus d’informations, reportez-vous à la section suivante de cet article : [quelles heures peuvent être ajoutées à un enregistrement de facturation &#x200B;](#what-hours-can-be-added-to-a-billing-record).
+   >Si aucune heure n&#39;est consignée ou si les heures consignées ne remplissent pas les conditions requises pour être ajoutées à un enregistrement de facturation, le bouton **Ajouter des heures** ne s&#39;affiche pas. Pour plus d’informations, reportez-vous à la section suivante de cet article : [quelles heures peuvent être ajoutées à un enregistrement de facturation ](#what-hours-can-be-added-to-a-billing-record).
 
 1. Sélectionnez les entrées d&#39;heures à inclure dans l&#39;enregistrement de facturation, puis cliquez sur **Ajouter des heures**. Le coût réel des heures est ajouté en tant que montant des **heures facturables** au total de l’**enregistrement de facturation**.
 

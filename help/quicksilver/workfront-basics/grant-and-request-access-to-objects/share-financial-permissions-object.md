@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 65%
+source-wordcount: '560'
+ht-degree: 56%
 
 ---
 
 # Partager des autorisations financières sur un objet
-
-{{highlighted-preview}}
 
 Votre administrateur ou administratrice Adobe Workfront peut vous accorder un accès pour afficher ou modifier des données financières lors de l’attribution de votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -80,8 +78,7 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage ou autorisations supérieures pour les projets, tâches et problèmes comprenant au moins des autorisations d’affichage de finances</p>
-   <p><span class="preview">Afficher les autorisations ou supérieures pour les projets, les tâches et les événements qui incluent au moins Afficher les taux de facturation, Afficher les taux de coûts ou Afficher les autorisations financières générales</span></p></td> 
+   <td> Afficher les autorisations ou supérieures pour les projets, les tâches et les événements qui incluent au moins Afficher les taux de facturation, Afficher les taux de coûts et Afficher les autorisations financières générales</td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,6 +93,7 @@ Tenez compte des points suivants lors de l’octroi d’autorisations financièr
 
 * Vous pouvez accorder des autorisations financières aux projets, tâches et événements.
 * Les autorisations peuvent être héritées : si vous disposez des autorisations Afficher les finances générales pour un projet, vous héritez automatiquement des autorisations Afficher les finances générales pour les tâches et les événements du projet.
+* L’octroi d’autorisations pour les taux de facturation et de coût permet à l’utilisateur d’afficher ou de modifier les taux sur cet objet. Les autorisations d&#39;accès aux finances générales permettent à l&#39;utilisateur d&#39;afficher ou de modifier des champs finances générales (non liés aux taux de facturation ou de coûts) sur l&#39;objet.
 
 Pour accorder des autorisations financières à un objet :
 
@@ -116,10 +114,8 @@ Pour accorder des autorisations financières à un objet :
 
 1. Dans le même menu déroulant, cliquez sur l’icône d’options avancées à côté du niveau d’autorisation, puis effectuez l’une des opérations suivantes :
 
-   * Si vous avez sélectionné l’une des trois options de l’étape précédente, assurez-vous que **Afficher les finances** est sélectionné.
-   * Si vous avez sélectionné **Gérer les finances** à l’étape précédente, assurez-vous que **Gérer les finances** est sélectionné.
-   * <span class="preview">Quel que soit le niveau d’autorisation, sélectionnez **Afficher les taux de facturation**, **Afficher les taux de coût** et **Afficher les finances générales** si nécessaire.</span>
-   * <span class="preview">Pour les autorisations **Gérer** uniquement, sélectionnez **Modifier les taux de facturation**, **Modifier les taux de coût** et **Modifier les finances générales** si nécessaire.</span>
+   * Pour tout niveau d’autorisation, sélectionnez **Afficher les taux de facturation**, **Afficher les taux de coût** et **Afficher les finances générales** selon les besoins.
+   * Pour les autorisations **Gérer** uniquement, sélectionnez **Modifier les taux de facturation**, **Modifier les taux de coût** et **Modifier les finances générales** si nécessaire.
 
 1. Cliquer sur **Enregistrer**.
 
@@ -148,55 +144,37 @@ Le tableau suivant affiche les autorisations financières que les utilisateurs o
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>Gérer/afficher les taux de facturation et de coûts du rôle</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Gérer/afficher les taux de facturation et de coûts de l’utilisateur ou de l’utilisatrice</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Afficher Finance</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>  ✓</td> 
-  </tr>
-  <tr> 
-   <td><span class="preview">Modifier les taux de facturation</span></td> 
+   <td>Modifier les taux de facturation</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Modifier les taux de dépenses</span></td> 
+   <td>Modifier les taux de dépenses</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Modifier les finances générales</span></td> 
+   <td>Modifier les finances générales</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>
   <tr> 
-   <td><span class="preview">Afficher les taux de facturation</span></td> 
+   <td>Afficher les taux de facturation</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Afficher les taux de dépenses</span></td> 
+   <td>Afficher les taux de dépenses</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Afficher les finances générales</span></td> 
+   <td>Afficher les finances générales</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -225,3 +203,21 @@ Le tableau suivant affiche les autorisations financières que les utilisateurs o
 &#42;Nécessite un accès supplémentaire à la gestion des ressources.
 
 Pour plus d’informations sur l’accès à la gestion des ressources, voir [Accorder l’accès à la gestion des ressources](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->

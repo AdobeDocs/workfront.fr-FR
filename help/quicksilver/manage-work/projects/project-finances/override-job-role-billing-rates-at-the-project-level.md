@@ -2,22 +2,20 @@
 product-area: projects
 navigation-topic: financials
 title: Remplacer les taux de facturation des fonctions au niveau du projet
-description: En tant que personne gestionnaire de projet, vous pouvez spécifier le taux de facturation d’une fonction sur un projet spécifique. Ce taux de facturation au niveau du projet remplace le taux de facturation au niveau du système pour cette fonction. Workfront utilise le taux de facturation au niveau de la fonction pour calculer les revenus, au lieu d’utiliser le taux de facturation au niveau du système.
+description: Cet article décrit comment vous pouvez remplacer les taux de facturation des fonctions au niveau du système pour un projet.
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 41%
+source-wordcount: '808'
+ht-degree: 37%
 
 ---
 
 # Remplacer les taux de facturation des fonctions au niveau du projet
-
-{{highlighted-preview}}
 
 En tant que personne gestionnaire de projet, vous pouvez spécifier le taux de facturation d’une fonction sur un projet spécifique. Ce taux de facturation au niveau du projet remplace le taux de facturation au niveau du système pour cette fonction. Workfront utilise le taux de facturation au niveau de la fonction pour calculer les revenus, au lieu d’utiliser le taux de facturation au niveau du système.
 
@@ -56,7 +54,7 @@ Pour plus d&#39;informations sur la fonction utilisée pour calculer le produit 
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Gérer les autorisations du projet qui inclut Modifier les données financières </td> 
+   <td>Gérer les autorisations pour le projet qui inclut la modification des taux de facturation </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,21 +80,17 @@ Pour remplacer un taux de facturation dans un projet, procédez comme suit :
 
    Ou
 
-   <span class="preview">Cliquez sur **Taux** dans le panneau de gauche, puis cliquez sur l’onglet **Facturation** s’il n’est pas déjà sélectionné.</span>
+   Cliquez sur **Taux** dans le panneau de gauche, puis sur l’onglet **Facturation** s’il n’est pas déjà sélectionné.
 
-1. Cliquez sur **Ajouter un taux de facturation** > **Nouveau taux de facturation**.
-
-   Ou
-
-   <span class="preview">Cliquez sur **Ajouter un taux de facturation > Nouveau taux de facturation de la fonction**.</span>
+1. Cliquez sur **Ajouter un taux de facturation > Nouveau taux de facturation de la fonction**.
 
    La zone « Nouveau taux de facturation » apparaît.
 
 1. Sélectionnez dans le champ **Fonction** la fonction dont vous souhaitez modifier le taux de facturation.
 
-1. <span class="preview">(Facultatif) Sélectionnez des attributs pour le taux de facturation, tels que l’agence ou l’emplacement.</span>
+1. (Facultatif) Sélectionnez des attributs pour le taux de facturation, tels que l’agence ou l’emplacement.
 
-   <span class="preview">L&#39;administrateur système définit les attributs de taux dans la zone Configuration.</span>
+   L&#39;administrateur système définit les attributs de taux dans la zone Configuration.
 
 1. Sélectionnez la **Devise** pour le remplacement du taux de facturation.
 1. Dans le champ **Taux de facturation**, saisissez le remplacement du taux de facturation, puis cliquez sur **Enregistrer** pour remplacer le taux de facturation une fois

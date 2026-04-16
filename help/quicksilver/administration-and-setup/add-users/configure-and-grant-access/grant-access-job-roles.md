@@ -1,20 +1,18 @@
 ---
 title: Octroi de l'accès aux fonctions
 description: En tant qu’administrateur Adobe Workfront, vous pouvez définir l’accès d’un utilisateur aux fonctions dans Workfront par le biais de son niveau d’accès.
-author: Becky and Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 37%
+source-wordcount: '379'
+ht-degree: 34%
 
 ---
 
 # Octroi de l’accès aux fonctions
-
-{{highlighted-preview-article-level}}
 
 En tant qu’administrateur Adobe Workfront, vous pouvez définir l’accès d’un utilisateur aux fonctions par le biais du niveau d’accès de l’utilisateur, comme expliqué dans la section [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -59,14 +57,20 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    ![Ajuster l’accès aux fonctions](assets/job-role-access-view-fine-tune.png)
 
-   Les utilisateurs disposant d’un accès **Affichage** peuvent afficher les fonctions existantes et, éventuellement, les taux de facturation et de coûts des fonctions, ainsi que les données financières générales.
+   Les utilisateurs disposant d’un accès **Affichage** peuvent afficher les fonctions existantes et, éventuellement, effectuer les opérations suivantes :
+
+   * Afficher les taux de facturation des fonctions
+   * Afficher les taux de coût des fonctions
+   * Afficher les champs Finances généraux (non liés aux taux de facturation ou de coût) sur les fonctions
 
    Les utilisateurs disposant d’un accès **Modifier** peuvent afficher et modifier des fonctions existantes et, éventuellement, effectuer les opérations suivantes :
 
    * Créer de nouvelles fonctions
    * Supprimer des fonctions
-   * Afficher les taux de facturation, les taux de coûts et les finances générales de la fonction
-   * Modifier les taux de facturation, les taux de coûts et les finances générales de la fonction
+   * Modifier les taux de facturation des fonctions
+   * Modifier les taux de coût des fonctions
+   * Modifier les champs Finances généraux (non liés à la facturation ou aux taux de coût) sur les fonctions
+   * Afficher les taux de facturation, les taux de coûts et les champs Finances généraux des fonctions
 
 1. (Facultatif) Pour configurer les paramètres d’accès pour d’autres objets et domaines dans le niveau d’accès sur lequel vous travaillez, continuez avec l’un des articles répertoriés dans [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), par exemple [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 1. Lorsque vous avez terminé, cliquez sur **Enregistrer**.

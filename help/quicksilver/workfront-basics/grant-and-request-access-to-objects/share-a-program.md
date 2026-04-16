@@ -7,10 +7,10 @@ description: Votre équipe d’administration Adobe Workfront peut vous accorde
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 47%
+source-wordcount: '936'
+ht-degree: 46%
 
 ---
 
@@ -169,6 +169,12 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux person
 | Ajouter des mises à jour/commentaires | ✓ | ✓ |
 | Partager | ✓ | ✓ |
 | Partager sur le système |   | ✓ |
+| Modifiez les taux de facturation&#42; | ✓ |   |
+| Modifier les taux de coûts&#42; | ✓ |   |
+| Modifier finances générales&#42; | ✓ |   |
+| Afficher les taux de facturation&#42; | ✓ | ✓ |
+| Afficher les taux de coûts&#42; | ✓ | ✓ |
+| Afficher finances générales&#42; | ✓ | ✓ |
 
 * Ces autorisations sont contrôlées par le niveau d’accès et les autorisations sur d’autres objets, comme les projets.
 

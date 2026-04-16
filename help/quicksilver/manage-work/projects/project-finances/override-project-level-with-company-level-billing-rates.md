@@ -6,10 +6,10 @@ description: Remplacer les taux de facturation au niveau du projet par des taux 
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 91%
+source-wordcount: '457'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez configurer un projet pour qu’il utilise des taux de facturation au
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Vous pouvez configurer un projet pour qu’il utilise des taux de facturation au
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Autorisations de gestion pour le projet avec les autorisations de gestion financière</td> 
+   <td>Gérez les autorisations du projet avec les autorisations de Modifier les taux de facturation et les finances générales</td> 
   </tr> 
  </tbody> 
 </table>

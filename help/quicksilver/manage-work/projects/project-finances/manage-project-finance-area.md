@@ -6,10 +6,10 @@ description: Vous pouvez afficher ou modifier les informations financières d’
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 88%
+source-wordcount: '1277'
+ht-degree: 86%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez afficher ou modifier les données financières d’un projet en acc�
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations d’affichage ou autorisations supérieures pour le projet, comprenant des autorisations d’affichage de finances</p> <p>Autorisations de gestion du projet qui incluent la gestion des finances pour modifier les données financières du projet</p> </td> 
+   <td> <p>Afficher les autorisations d'un projet ou d'une version ultérieure qui incluent les autorisations Afficher les finances générales</p> <p>Gérez les autorisations du projet incluant Modifier les finances générales pour modifier les informations financières du projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,14 +128,6 @@ Tenez compte des points suivants lors de l’affichage ou de la modification de 
      <tr> 
       <td role="rowheader">Revenus facturés</td> 
       <td> <p>Revenus facturés aux clients ou à d’autres parties capturées dans les enregistrements de facturation. Pour plus d’informations sur les enregistrements de facturation, voir l’article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Créer des enregistrements de facturation</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
      </tr> 
     </tbody> 
    </table>

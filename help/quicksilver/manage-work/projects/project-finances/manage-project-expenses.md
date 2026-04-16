@@ -6,10 +6,10 @@ description: Le processus de création et de gestion des dépenses est le même 
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 36%
+source-wordcount: '496'
+ht-degree: 37%
 
 ---
 
@@ -30,7 +30,7 @@ Le montant total de vos dépenses pour toutes les tâches et tous les projets co
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Le montant total de vos dépenses pour toutes les tâches et tous les projets co
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Autorisations de niveau Contribution ou supérieur au projet, avec autorisations pour Afficher ou Gérer les finances</td> 
+   <td>Accordez au projet des autorisations supérieures ou supérieures, avec l'autorisation d'Afficher ou de Modifier les finances générales</td> 
   </tr> 
  </tbody> 
 </table>
