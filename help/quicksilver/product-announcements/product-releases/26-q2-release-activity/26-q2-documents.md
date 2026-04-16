@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 14%
+source-wordcount: '818'
+ht-degree: 13%
 
 ---
 
@@ -19,6 +19,27 @@ ht-degree: 14%
 Cette page décrit les améliorations apportées aux documents avec la version du deuxième trimestre 2026 dans l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2026, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Découvrir et réutiliser du contenu plus rapidement avec la fonction de conseil sur le contenu pour AEM Assets dans Workfront
+
+>[!NOTE]
+>
+>Aperçu : 16 avril 2026
+>Version rapide de production : vendredi 16 avril 2026
+>Production pour tous : vendredi 16 avril 2026
+
+Content Advisor est désormais disponible dans Workfront avec l’intégration Adobe Experience Manager Assets, ce qui permet aux équipes de découvrir et de réutiliser plus facilement du contenu existant à forte valeur ajoutée.
+
+Grâce au gestionnaire d’accès, vous pouvez :
+
+* Découvrir du contenu à l’aide de suggestions intelligentes ou de résumés de campagne
+* Évaluez rapidement la pertinence du contenu en affichant les détails clés avant de le réutiliser.
+* Découvrir et réutiliser des fragments de contenu
+* Explorer les collections pour identifier le contenu associé de la marque
+
+Cette intégration permet aux équipes de réduire la création de doublons de contenu, d’accélérer l’exécution et d’optimiser la valeur des ressources AEM existantes, directement dans Workfront.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
 ## Approvisionnement de GenStudio Foundations activé pour prendre en charge les collaborateurs d’IA
 
@@ -45,7 +66,7 @@ Les améliorations suivantes ont été apportées au widget Mes approbations dan
 * Trier la liste des validations par ordre décroissant ou le plus récent
 * Développement du widget en plein écran
 
-Pour plus d’informations, voir [&#x200B; Gérer vos approbations avec le widget Mes approbations &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+Pour plus d’informations, voir [ Gérer vos approbations avec le widget Mes approbations ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
 
 ## Révision et approbations unifiées optimisées par Workfront et Frame.io
 
@@ -86,7 +107,7 @@ Le stockage d’entreprise Adobe est une solution de stockage dans le cloud qui 
 
 L’accès au stockage d’entreprise d’Adobe ouvre également la voie à de futures intégrations de la gestion des ressources à d’autres produits Adobe, tels que Adobe Creative Cloud.
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Workflows d’approbation à plusieurs étapes disponibles pour les approbations unifiées
 

@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2362'
 ht-degree: 26%
 
 ---
@@ -20,7 +20,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du deuxième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -134,6 +134,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
         <td><strong>Tous les trimestres</strong></td>
    <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Découvrir et réutiliser du contenu plus rapidement avec la fonction de conseil sur le contenu pour AEM Assets dans Workfront </a><p></p>
+            <p>Content Advisor est désormais disponible dans Workfront avec l’intégration Adobe Experience Manager Assets, ce qui permet aux équipes de découvrir et de réutiliser plus facilement du contenu existant à forte valeur ajoutée.</p>
+        </td>
+        <td><p>vendredi 16 avril 2026</p></td>
+        <td><p>vendredi 16 avril 2026</p></td>
+        <td><p>vendredi 16 avril 2026</p></td>
+    </tr>
+   <tr>
+        <td>
             Approvisionnement de <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundations activé pour prendre en charge les collaborateurs de l’IA </a><p></p>
             <p>Le 31 mars 2026, tous les clients Workfront ont été configurés pour GenStudio Foundation et les administrateurs système d’Admin Console auront reçu un e-mail les informant de cet ajout. Ce produit est configuré uniquement pour que les clients Workfront puissent donner aux marques l’accès aux clients Workfront selon les besoins pour la publication des collaborateurs de l’IA. Le produit lui-même n’est qu’un mécanisme d’accès pour les marques, et aucune fonctionnalité supplémentaire n’est disponible dans le produit GenStudio Foundation.</p><p>Les clients ne seront pas facturés pour ce nouveau produit.</p>
         </td>
@@ -197,6 +206,16 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">Les fonctionnalités des opérations d’entreprise sont désormais disponibles dans Adobe Workfront</a><p></p>
             <p>Les fonctionnalités d’exploitation d’entreprise avancées d’Adobe Workfront sont un moyen unifié et évolutif de gérer les finances, les projets et l’accès à l’entreprise. Ces fonctionnalités offrent la visibilité et le contrôle dont les entreprises ont besoin pour fonctionner de manière rentable et efficace.</p><p>Les mises à jour suivantes sont incluses dans ces fonctionnalités :<ul><li>Gestion financière avancée : attributs de taux, cartes tarifaires, expérience d'affectations avancées repensée, taux de change effectifs et autres fonctionnalités avancées</li><li>Suivi des données historiques - y compris les instantanés de projet</li><li>Autorisations d’entreprise : y compris les profils professionnels et les taux de coût et de facturation distincts dans les niveaux d’accès et les autorisations d’objet.</li><li>Améliorations apportées aux formulaires personnalisés et aux champs : notamment de nouveaux types logiques avancés, un paramètre de type d’autorisation Finance sur les champs formatés en devise, la possibilité d’ajouter des formulaires personnalisés à d’autres objets et des améliorations de l’interface de conception de formulaires</li><li>Améliorations des modèles de mise en page : notamment la personnalisation des en-têtes et des menus de navigation de gauche d’autres objets, les mises à jour des options du menu principal dans les modèles de mise en page et la personnalisation du menu Plus</li><li>Localisation personnalisée : possibilité de définir des termes et expressions personnalisés dans différentes langues</li><li>Améliorations apportées aux règles métier, notamment la possibilité d’automatiser les actions de l’objet créé, modifié ou modifié lorsque certaines conditions sont remplies</li></ul></p>
+ </p>
+        </td>
+        <td><p>vendredi 2 avril 2026</p></td>
+        <td><p>jeudi 15 avril 2026</p></td>
+        <td><p>vendredi 16 avril 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">Écarts autorisés sur les taux effectifs par date</a><p></p>
+            <p>Workfront vous permet de laisser des intervalles entre les périodes sur les taux de facturation et de coût, mais vous recevrez un avertissement pour confirmer que c’est intentionnel.</p>
  </p>
         </td>
         <td><p>vendredi 2 avril 2026</p></td>
@@ -491,7 +510,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

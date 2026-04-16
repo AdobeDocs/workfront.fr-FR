@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: 855ff527d54fa7212555675bf2d89466384b59ca
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 8%
+source-wordcount: '1366'
+ht-degree: 7%
 
 ---
 
@@ -192,4 +192,23 @@ Les administrateurs Workfront peuvent désormais configurer les règles métier 
 Pour plus d’informations, voir [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 [Regardez une vidéo de démonstration des améliorations apportées aux règles métier.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
+
+### Écarts autorisés sur les taux effectifs par date
+
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible pour les organisations sur tous les packages Workfront et Workflow.
+>Notez que les cartes tarifaires ne sont disponibles que pour les organisations sur le package Workflow Ultimate.
+
+Workfront vous permet de laisser des intervalles entre les périodes sur les taux de facturation et de coût, mais vous recevrez un avertissement pour confirmer que c’est intentionnel.
+
+Il peut y avoir des écarts entre les périodes partout où les taux existent :
+
+* Taux pour une fonction
+* Taux sur un profil utilisateur
+* Taux sur une carte tarifaire
+* Lorsque vous remplacez l’un de ces taux au niveau du projet
+
+Pour plus d’informations, voir [Créer et gérer des fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Modifier le profil d’un utilisateur](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) et [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
