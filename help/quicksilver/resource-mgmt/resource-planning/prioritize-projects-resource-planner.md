@@ -120,7 +120,7 @@ Pour modifier la priorité de planification de projet :
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![Priorité ](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Priorité &#x200B;](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    Les priorités de portfolio des projets s’affichent uniquement dans la vue Projet du planificateur de ressources.
 

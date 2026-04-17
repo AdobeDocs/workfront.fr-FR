@@ -104,7 +104,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * Cliquez sur le menu **Plus** du projet, puis sur **Définir les heures prévues des rôles comme budgété**.\
      Les heures budgétées de chaque rôle sont calculées à l’aide de la formule suivante :\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -153,7 +153,7 @@ Vous devez disposer de l’accès Modifier à la gestion des ressources et aux d
 
 Pour plus d’informations sur l’accès nécessaire à l’établissement d’un budget pour des ressources, voir l’article [Accès nécessaire pour budgéter les ressources dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Pour budgéter les affectations dans le planificateur de ressources dans la**** vue Rôle, procédez comme suit :
+Pour budgéter les affectations dans le planificateur de ressources dans la&#x200B;**&#x200B;** vue Rôle, procédez comme suit :
 
 1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
@@ -175,7 +175,7 @@ Pour budgéter les affectations dans le planificateur de ressources dans la**** 
      Cette option répartit les heures budgétées du rôle sur les heures budgétées du projet pour les projets pour lesquels vous avez accès en gestion.
 
    * Cliquez sur le menu **Plus** pour la fonction, puis cliquez sur **Définir les heures prévuees des projets comme budgétées.** Les heures budgétées du rôle sont calculées à l’aide de la formule suivante :\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
