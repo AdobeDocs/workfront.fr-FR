@@ -7,10 +7,10 @@ description: L’indice de performance du planning (SPI) décrit la relation ent
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 65%
+source-wordcount: '397'
+ht-degree: 62%
 
 ---
 
@@ -46,7 +46,7 @@ L’indice de performance du planning (SPI) décrit la relation entre le plannin
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Autorisations Afficher ou supérieures pour le projet avec les autorisations Afficher Finance</td> 
+   <td>Autorisations d’affichage ou supérieures pour le projet avec autorisations d’affichage des finances générales</td> 
   </tr> 
  </tbody> 
 </table>

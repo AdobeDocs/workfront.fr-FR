@@ -10,10 +10,10 @@ role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 87%
+source-wordcount: '1423'
+ht-degree: 86%
 
 ---
 
@@ -124,17 +124,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
        </ul><p><b>NOTE</b> : cela ne permet pas à l’utilisateur ou utilisatrice de créer de nouveaux types de dépenses.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Fonctions</td> 
-      <td> Avec cet accès, l’utilisateur et utilisatrice sont autorisés à effectuer les opérations suivantes : 
-       <ul> 
-        <li>Afficher et modifier des fonctions existantes</li> 
-        <li>Ajouter des fonctions</li> 
-        <li>Modifier les taux de facturation et de coûts du rôle</li> 
-       </ul> 
-       <p>Pour obtenir des informations importantes sur l’accès aux données financières disponibles pour un utilisateur ou une utilisatrice standard ou de type planificateur disposant d’un accès administratif aux fonctions, voir <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Utilisateurs et utilisatrices standard ou de type planificateur disposant d’un accès administratif aux fonctions</a>.</p>
-      </td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Jalons dans mon groupe</td> 
       <td>Affichez tous les chemins de jalons du système sous le menu Chemins de jalons dans Configuration. Les utilisateurs et utilisatrices peuvent également modifier ou supprimer les chemins de jalons appartenant à leurs groupes. Les utilisateurs et utilisatrices ne peuvent pas gérer (modifier ou supprimer) les chemins jalonnés qui ne sont affectés à aucun de leurs groupes.<p>Sans cet accès, les utilisateurs et utilisatrices peuvent uniquement afficher les chemins de jalons existants et les appliquer aux projets pour lesquels ils ont un accès en gestion.</p></td> 
      </tr> 
@@ -226,13 +215,29 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Pour plus d’informations sur la manière dont un administrateur ou une administratrice d’Adobe affecte un niveau d’accès administrateur ou administratrice système à une personne, voir [Accorder un accès administratif intégral à une personne](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Utilisateurs et utilisatrices standard ou planificateurs et planificatrices ayant un accès administratif aux fonctions {#planner-users}
+<!--
 
-Si vous accordez à une personne disposant d’une licence Standard ou Planification l’accès administratif aux fonctions, le paramètre Modifier la facturation et les taux de coût du rôle est automatiquement activé pour cette personne.
+## Standard or Planner users with administrative access to job roles {#planner-users}
 
-Par la suite, si vous désactivez l’accès administratif aux fonctions pour la personne, les fonctions sont toujours visibles par elle, car le paramètre Modifier la facturation et le taux de coût du rôle est toujours activé.
+If you grant a Standard or Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
 
-Si cela se produit et que vous devez supprimer l’accès de l’utilisateur ou de l’utilisatrice à l’affichage des fonctions, désactivez le paramètre d’autorisation Modifier la facturation et les taux de dépense du rôle pour cette personne. Pour obtenir des instructions, voir [Accorder l’accès aux données financières](grant-access-financial.md).
+Later, if you disable administrative access to job roles for the user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled.
 
+If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see [Grant access to financial data](grant-access-financial.md).
+
+
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> With this access, the user is allowed to do the following: 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> 
+       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
+      </td> 
+     </tr> 
+
+-->
 
 

@@ -7,10 +7,10 @@ description: L’Indice Coûts Performances (ICP) décrit la relation au niveau 
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 88%
+source-wordcount: '584'
+ht-degree: 86%
 
 ---
 
@@ -50,7 +50,7 @@ Seules les organisations qui ont besoin d’une saisie des heures peuvent utilis
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Autorisations Afficher ou supérieures pour le projet avec les autorisations Afficher Finance</td> 
+   <td>Autorisations d’affichage ou supérieures pour le projet avec autorisations d’affichage des finances générales</td> 
   </tr> 
  </tbody> 
 </table>

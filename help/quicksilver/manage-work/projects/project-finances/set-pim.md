@@ -6,10 +6,10 @@ description: La méthode d’indice de performances (PIM) du projet contrôle la
 author: Lisa
 feature: Work Management
 exl-id: de628881-c016-4521-bc33-3bcfba19a88f
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 99%
+source-wordcount: '412'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Workfront calcule ces valeurs à l’aide des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Workfront calcule ces valeurs à l’aide des éléments suivants :
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Autorisations de gestion pour le projet avec les autorisations de gestion financière</td> 
+   <td>Gérez les autorisations du projet avec les autorisations de Modifier les finances générales</td> 
   </tr> 
  </tbody> 
 </table>

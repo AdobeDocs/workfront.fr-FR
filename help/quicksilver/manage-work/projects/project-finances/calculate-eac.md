@@ -7,10 +7,10 @@ description: L’estimation à l’achèvement en tant que mesure de performance
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 79%
+source-wordcount: '826'
+ht-degree: 77%
 
 ---
 
@@ -48,7 +48,7 @@ Ce paramètre vous permet de définir la manière dont l’estimation à l’ach
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Autorisations Afficher ou supérieures pour le projet avec les autorisations Afficher Finance</td> 
+   <td>Autorisations d’affichage ou supérieures pour le projet avec autorisations d’affichage des finances générales</td> 
   </tr> 
  </tbody> 
 </table>

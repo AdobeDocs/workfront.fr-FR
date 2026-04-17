@@ -7,10 +7,10 @@ description: Le bénéfice prévu est la somme d’argent estimée dont une orga
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 97%
+source-wordcount: '316'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur le calcul de la valeur nette d’un projet, consu
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ Pour plus d’informations sur le calcul de la valeur nette d’un projet, consu
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Autorisations de gestion pour le projet avec les autorisations de gestion financière</td> 
+   <td>Gérez les autorisations du projet avec les autorisations de Modifier les finances générales</td> 
   </tr> 
  </tbody> 
 </table>
