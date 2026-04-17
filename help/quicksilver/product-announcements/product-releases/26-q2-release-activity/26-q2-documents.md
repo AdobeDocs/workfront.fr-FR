@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
+source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 13%
@@ -66,7 +66,7 @@ Les améliorations suivantes ont été apportées au widget Mes approbations dan
 * Trier la liste des validations par ordre décroissant ou le plus récent
 * Développement du widget en plein écran
 
-Pour plus d’informations, voir [&#x200B; Gérer vos approbations avec le widget Mes approbations &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+Pour plus d’informations, voir [ Gérer vos approbations avec le widget Mes approbations ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
 
 ## Révision et approbations unifiées optimisées par Workfront et Frame.io
 
@@ -107,7 +107,7 @@ Le stockage d’entreprise Adobe est une solution de stockage dans le cloud qui 
 
 L’accès au stockage d’entreprise d’Adobe ouvre également la voie à de futures intégrations de la gestion des ressources à d’autres produits Adobe, tels que Adobe Creative Cloud.
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Workflows d’approbation à plusieurs étapes disponibles pour les approbations unifiées
 
@@ -144,3 +144,5 @@ Avec les modèles de workflow d’approbation, vous pouvez :
 * Veiller à ce que les parties prenantes requises soient impliquées au bon stade
 
 Pour plus d’informations, voir [Création d’un modèle de workflow d’approbation pour les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+
