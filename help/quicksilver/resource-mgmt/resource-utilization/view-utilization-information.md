@@ -8,10 +8,10 @@ feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '7099'
-ht-degree: 98%
+source-wordcount: '7110'
+ht-degree: 97%
 
 ---
 
@@ -70,12 +70,12 @@ Vous pouvez voir l’utilisation de vos ressources dans le rapport d’utilisati
      <li> <p>Projets</p> </li> 
      <li> <p>Portefeuilles</p> </li> 
      <li> <p>Programmes</p> </li> 
-     <li> <p>Données financières, si vous souhaitez afficher les informations par coût</p> </li> 
+     <li> <p>Données financières qui incluent l'accès à Afficher les taux de coût et à Afficher les finances générales, si vous souhaitez afficher les informations par coût</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td> <p>Accès Affichage aux projets, portfolios et programmes pour accéder à la section Utilisation dans la zone Ressources</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Accès Gestion à un projet pour accéder à la section Utilisation du projet</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
+   <td> <p>Consultez l'accès aux projets, portefeuilles et programmes pour accéder à la section Utilisation dans la zone Ressources</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Accès Gestion à un projet pour accéder à la section Utilisation du projet</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,10 +6,10 @@ description: Adobe Workfront peut générer une URL unique pour la vue Utilisat
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 95%
+source-wordcount: '649'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Workfront peut générer une URL unique pour la vue Utilisateur ou utilis
  <tbody> 
   <tr> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ Adobe Workfront peut générer une URL unique pour la vue Utilisateur ou utilis
   </tr> 
   <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td> <p>Accès Afficher ou supérieur à la gestion des ressources, aux projets et aux personnes</p> <p>Accès Afficher aux données financières pour afficher les informations sur les coûts</p></td> 
+   <td> <p>Accès Afficher ou supérieur à la gestion des ressources, aux projets et aux personnes</p> <p>Afficher l'accès aux données financières qui inclut l'accès à Afficher les taux de coûts et à Afficher les finances générales, pour afficher les informations sur les coûts</p></td> 
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
@@ -55,7 +55,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 Tenez compte de ce qui suit lors de la génération de l’URL unique pour la vue Utilisateur ou utilisatrice du planificateur de ressources :
 
 * Vous pouvez obtenir une URL unique uniquement pour la vue Utilisateur ou utilisatrice. L’option de génération de l’URL n’existe pas dans les vues Projet ou Rôle.
-* Vous pouvez partager l’URL avec d’autres personnes, y compris les personnes disposant de licences Travail et Révision.\
+* Vous pouvez partager l’URL avec d’autres utilisateurs, y compris les utilisateurs sous licence de travail, de contribution et de révision.\
   Elles doivent avoir accès à l’affichage d’autres personnes afin d’afficher les informations du planificateur de ressources à partir de l’URL que vous partagez avec elles.
 * Les informations suivantes sont enregistrées lorsque vous partagez l’URL avec d’autres personnes :
 

@@ -6,10 +6,10 @@ description: Si vous constatez des surallocations de vos ressources après les a
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 97%
+source-wordcount: '506'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Des surallocations peuvent apparaître lorsque les heures, les équivalents temp
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr> 
   <tr> 
@@ -38,11 +38,12 @@ Des surallocations peuvent apparaître lorsque les heures, les équivalents temp
   </tr> 
   <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification à la gestion des ressources qui inclut l’accès en modification des priorités et des heures du budget dans le planificateur de ressources.</p> <p>Accès en modification aux données financières, aux projets et aux utilisateurs et utilisatrices</p></td> 
+   <td> <p>Accès en modification à la gestion des ressources qui inclut l’accès en modification des priorités et des heures du budget dans le planificateur de ressources.</p> <p>Modifier l'accès aux données financières qui inclut l'accès à Modifier les taux de coûts et à Modifier Finances générales</p>
+   <p>Accès Modifier aux projets et aux utilisateurs et utilisatrices</p></td> 
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion des projets pour lesquels vous souhaitez budgéter les informations avec la possibilité de gérer les finances.</p></td> 
+   <td> <p>Gérez les autorisations des projets pour lesquels vous souhaitez budgéter les informations avec la possibilité de Modifier les taux de coûts et de Modifier les finances générales</p></td> 
   </tr> 
  </tbody> 
 </table>

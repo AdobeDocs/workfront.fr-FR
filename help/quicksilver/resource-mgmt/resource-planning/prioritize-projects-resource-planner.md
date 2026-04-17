@@ -6,10 +6,10 @@ description: Les projets sont répertoriés par ordre de priorité dans le plani
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 96%
+source-wordcount: '1302'
+ht-degree: 93%
 
 ---
 
@@ -36,11 +36,12 @@ Les projets sont répertoriés par ordre de priorité dans le planificateur de r
   </tr> 
   <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification à la gestion des ressources qui inclut l’accès en modification des priorités et des heures du budget dans le planificateur de ressources.</p> <p>Accès en modification aux données financières, aux projets et aux utilisateurs et utilisatrices</p></td> 
+   <td> <p>Accès en modification à la gestion des ressources qui inclut l’accès en modification des priorités et des heures du budget dans le planificateur de ressources.</p> <p>Modifier l'accès aux données financières qui inclut l'accès à Modifier les taux de coûts et à Modifier Finances générales</p>
+    <p>Accès Modifier aux projets et aux utilisateurs et utilisatrices</p></td> 
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion des projets pour lesquels vous souhaitez budgéter les informations avec la possibilité de gérer les finances.</p></td>
+   <td> <p>Gérez les autorisations des projets pour lesquels vous souhaitez budgéter les informations avec la possibilité de Modifier les taux de coûts et de Modifier les finances générales</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +108,7 @@ Pour modifier la priorité de planification de projet :
 >
 >Votre société doit disposer d’un package Prime ou d’un package Workfront supérieur pour donner la priorité aux projets dans Portfolio Optimizer.
 >
->Pour plus d’informations sur les packages Workfront, voir [Packages Adobe Workfront et tarification](https://business.adobe.com/fr/products/workfront/pricing.html).
+>Pour plus d’informations sur les packages Workfront, voir [Packages Adobe Workfront et tarification](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Pour plus d’informations sur la hiérarchisation des projets dans l’optimisateur de portfolio, voir [Hiérarchiser des projets dans l’optimisateur de portfolio](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
@@ -119,7 +120,7 @@ Pour modifier la priorité de planification de projet :
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![Priorité Portfolio](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Priorité ](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    Les priorités de portfolio des projets s’affichent uniquement dans la vue Projet du planificateur de ressources.
 

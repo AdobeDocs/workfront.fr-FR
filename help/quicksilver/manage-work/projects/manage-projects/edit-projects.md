@@ -9,10 +9,10 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
 workflow-type: tm+mt
-source-wordcount: '7855'
-ht-degree: 91%
+source-wordcount: '7859'
+ht-degree: 90%
 
 ---
 
@@ -397,12 +397,12 @@ Pour modifier des informations sur des formulaires personnalisés lors de la mod
 
 Selon votre niveau d’accès et votre autorisation sur le projet, les scénarios suivants existent :
 
-* Si vous disposez de l’accès Afficher pour les données financières et des autorisations Afficher pour les finances pour le projet, vous ne pouvez afficher que les champs de la section Finances. Vous ne pouvez pas modifier les champs de cette section.
-* Si vous disposez de l’accès Modifier pour les données financières et des autorisations Gérer pour les finances, vous pouvez mettre à jour les champs de cette section.
+* Si vous disposez d&#39;un accès en affichage aux données financières et d&#39;autorisations Afficher les finances générales pour le projet, vous pouvez uniquement afficher les champs de la section Finances. Vous ne pouvez pas modifier les champs de cette section.
+* Si vous disposez d’un accès en modification aux données financières et d’autorisations Modifier les finances générales pour le projet, vous pouvez mettre à jour les champs de cette section.
 
 Lorsque vous sélectionnez plusieurs projets pour les modifier en bloc, les scénarios suivants sont possibles :
 
-* Si vous sélectionnez au moins un projet pour lequel vous disposez des autorisations Afficher pour les finances (au lieu des autorisations Gérer pour les finances), vous ne pouvez afficher que les champs de cette section pour tous les projets sélectionnés. Vous ne pouvez pas modifier les champs en bloc dans la section Finances.
+* Si vous sélectionnez au moins un projet pour lequel vous disposez des autorisations Afficher les finances générales (au lieu de Modifier les finances générales), vous ne pouvez afficher que les champs de cette section pour tous les projets sélectionnés. Vous ne pouvez pas modifier les champs en bloc dans la section Finances.
 * Si vous sélectionnez au moins un projet pour lequel vous ne disposez d’aucune autorisation relative aux finances, cette section ne s’affiche pas du tout.
 
 Pour modifier les champs de la zone Finances, procédez comme suit :

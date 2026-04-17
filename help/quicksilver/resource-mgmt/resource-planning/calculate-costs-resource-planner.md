@@ -6,10 +6,10 @@ description: Vous pouvez budgétiser vos ressources dans le planificateur de res
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 98%
+source-wordcount: '1412'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-Vous pouvez budgétiser vos ressources dans le planificateur de ressources Adobe Workfront en utilisant des valeurs de coût au lieu de valeurs d’heures ou d’équivalents temps complet. Les valeurs de coût ne sont pas disponibles pour la vue **Afficher par utilisateur et utilisatrice** dans le planificateur de ressources.
+Vous pouvez budgétiser vos ressources dans le planificateur de ressources Adobe Workfront en utilisant des valeurs de coût au lieu de valeurs d’heures ou d’équivalents temps complet. Les valeurs de coût ne sont pas disponibles pour la vue **Afficher par utilisateur** dans le Planificateur de ressources.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Pour plus d’informations sur la compréhension des informations contenues dans
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr> 
   <tr> 
@@ -51,11 +51,12 @@ Pour plus d’informations sur la compréhension des informations contenues dans
   </tr> 
   <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification à la gestion des ressources qui inclut l’accès en modification des priorités et des heures du budget dans le planificateur de ressources.</p> <p>Accès en modification aux données financières, aux projets et aux utilisateurs et utilisatrices</p></td> 
+   <td> <p>Accès en modification à la gestion des ressources qui inclut l’accès en modification des priorités et des heures du budget dans le planificateur de ressources.</p> <p>Modifier l'accès aux données financières qui inclut l'accès à Modifier les taux de coûts et à Modifier Finances générales</p>
+   <p>Accès Modifier aux projets et aux utilisateurs et utilisatrices</p></td> 
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion des projets pour lesquels vous souhaitez budgéter les informations avec la possibilité de gérer les finances.</p></td>
+   <td> <p>Gérez les autorisations des projets pour lesquels vous souhaitez budgéter les informations avec la possibilité de Modifier les taux de coûts et de Modifier les finances générales</p></td>
   </tr> 
  </tbody> 
 </table>

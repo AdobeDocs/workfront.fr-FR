@@ -2,19 +2,19 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: Accès nécessaire pour budgéter les ressources dans Workfront
+title: Accès aux ressources de budget nécessaire dans Workfront
 description: Vous pouvez afficher et gérer des informations sur la planification des ressources pour les projets auxquels vous avez accès lorsque vous disposez de certains paramètres de niveau d’accès et des autorisations pour vos tâches, utilisateurs et utilisatrices, fonctions et équipes.
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 63%
+source-wordcount: '350'
+ht-degree: 62%
 
 ---
 
-# Accès nécessaire pour budgéter les ressources dans Workfront
+# Accès aux ressources de budget nécessaire dans Workfront
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -37,7 +37,7 @@ Pour budgéter les ressources, gérer les pools de ressources et afficher les in
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -55,13 +55,13 @@ Pour budgéter les ressources, gérer les pools de ressources et afficher les in
        <li> <p>Accès à la gestion des pools de ressources, si vous devez gérer des pools de ressources.</p> </li> 
       </ul> <p>Pour plus d’informations sur le niveau d’accès à la gestion des ressources, reportez-vous à l’article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Accorder l’accès à la gestion des ressources</a>.</p> </li> 
      <li> <p>Modifiez l’accès aux projets et aux personnes. </p> </li> 
-     <li> <p> Modifiez l'accès aux données financières dans votre niveau d'accès, si vous devez afficher ou gérer les informations par coût.</p> <p>Pour plus d’informations sur le niveau d’accès aux données financières, consultez l’article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Accorder l’accès aux données financières</a>.</p> </li> 
+     <li> <p> Modifier l'accès aux données financières dans votre niveau d'accès qui inclut l'accès à l'option Afficher ou Modifier les taux de coûts et à l'option Afficher ou Modifier les finances générales, si vous devez afficher ou gérer des informations par coût.</p> <p>Pour plus d’informations sur le niveau d’accès aux données financières, consultez l’article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Accorder l’accès aux données financières</a>.</p> </li> 
     </ul> 
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérez les autorisations sur le projet qui incluent les autorisations de gestion financière.</p> <p>Pour plus d’informations sur les autorisations de projet, voir l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur les autorisations financières d’un projet, reportez-vous à l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Partager les autorisations financières sur un objet</a></a>.</p>
+   <td> <p>Gérez les autorisations sur le projet qui incluent les autorisations Modifier les taux de coûts et Modifier les finances générales.</p> <p>Pour plus d’informations sur les autorisations de projet, voir l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur les autorisations financières d’un projet, reportez-vous à l’article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Partager les autorisations financières sur un objet</a></a>.</p>
 
 <p><b>REMARQUE :</b> lors de l'établissement du budget des ressources dans la vue Rôle, si vous disposez de moins que Gérer les autorisations pour au moins un projet répertorié sous le rôle, vous ne pouvez pas budgéter les heures, l'équivalent temps complet ou le coût pour le rôle. Vous pouvez budgéter uniquement les projets pour lesquels vous disposez des autorisations de gestion.</p> </td> 
   </tr> 
