@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 41%
+source-wordcount: '1377'
+ht-degree: 42%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 41%
 
 <!--
 Remove production and preview references at release
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Vous pouvez afficher les demandes que vous ou une autre personne avez envoyées, ou les demandes que vous avez commencées mais que vous n’avez jamais terminées. Les demandes non terminées sont enregistrées en tant que brouillons.
 
@@ -112,7 +112,7 @@ Vous pouvez afficher les demandes envoyées dans la zone des Demandes et dans le
 >
 >* Requêtes Planning et Workfront dans le champ Objet .
 >* Enregistrements Planning créés à partir de demandes Planning dans le champ Objet créé .
->* <span class="preview">Tâches et événements Workfront convertis à partir de requêtes Workfront dans le champ Objet créé , dans l&#39;environnement Aperçu . </span>
+>* Tâches et événements Workfront convertis à partir de demandes Workfront dans le champ Objet créé .
 
 Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices avez envoyées dans la nouvelle expérience de requête :
 
@@ -128,14 +128,9 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
    * Afficher
    * Filtre
    * Colonnes
-
-   <div class="preview">
-
-   * **Regroupement**
+   * Regroupement
    * Formater les cellules
    * Hauteur de ligne
-
-   </div>
 
    Pour plus d’informations sur la gestion des informations dans la liste des demandes, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 

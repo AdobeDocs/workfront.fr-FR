@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1791'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,11 @@ ht-degree: 1%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -158,15 +160,13 @@ Removed - more direct steps below:
       >
       >* Vous ne pouvez pas modifier les vues système.
       >
-      >* <span class="preview">Vous pouvez réinitialiser un affichage partagé avec vous et pour lequel vous disposez uniquement d’autorisations d’affichage, après l’avoir modifié pour restaurer ses préférences d’origine, ou vous pouvez le copier avec vos modifications et partager la copie. Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* Vous pouvez réinitialiser un affichage partagé avec vous et pour lequel vous disposez uniquement d&#39;autorisations d&#39;affichage, après l&#39;avoir modifié pour restaurer ses préférences d&#39;origine, ou vous pouvez le copier avec vos modifications et partager la copie. Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
    1. Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-icon.png) pour ajouter un filtre à la vue. Les résultats sont immédiatement filtrés dans la liste. Vous ne pouvez pas enregistrer ni nommer les filtres. Les filtres sont mémorisés lorsque vous accéderez à la page ultérieurement et ils font partie des vues partagées.
 
       >[!TIP]
       >
-      ><span class="preview">Pour appliquer un filtre personnalisé, sélectionnez l’une des options suivantes pour une valeur de champ :
-      >
-      ><div class="preview">
+      >Pour appliquer un filtre personnalisé, sélectionnez l’une des options suivantes pour une valeur de champ :
       >
       >* **Moi (utilisateur connecté)** pour faire référence à l’utilisateur connecté dans les champs qui font référence aux utilisateurs.
       >
@@ -177,8 +177,6 @@ Removed - more direct steps below:
       >* **Ma société** pour faire référence à votre société dans les champs qui font référence à des sociétés.
       > 
       >* **Mes rôles** ou **Mon rôle principal** pour faire référence à vos fonctions dans des champs qui font référence à des rôles.
-      >
-      ></div>
 
    1. Cliquez sur l’icône **Colonnes** ![Icône Colonnes](assets/columns-icon.png) pour sélectionner les colonnes à afficher ou à masquer dans la vue.
    1. Pointez sur le nom d’une colonne, puis cliquez sur la flèche vers le bas située à gauche du nom de la colonne, puis cliquez sur l’une des options suivantes :
@@ -191,58 +189,54 @@ Removed - more direct steps below:
       Vous ne pouvez ajouter que des champs existants à la vue Liste.
 Vous ne pouvez pas supprimer le champ principal dans la vue Liste qui s’affiche dans la première colonne.
 
-   1. <span class="preview">Cliquez sur l’icône **Format de cellule** ![Format de cellule](assets/format-cells-icon.png). La boîte **Format** s’ouvre.</span> <!--change the name of the box when they update it-->
-      <span class="preview">Procédez comme suit : </span>
+   1. Cliquez sur l’icône **Formater les cellules** ![Icône Formater les cellules](assets/format-cells-icon.png). La boîte **Format** s’ouvre. <!--change the name of the box when they update it-->
+Procédez comme suit :
 
-      1. <span class="preview">Cliquez sur **Ajouter une condition**.</span>
-      1. <span class="preview">Dans la ligne **If**, sélectionnez un champ, choisissez une valeur de champ et ajoutez un modificateur. Les modificateurs changent en fonction du type de champ choisi. </span>
-
-         >[!TIP]
-         >
-         ><span class="preview">Seuls les champs visibles dans la vue Liste sont disponibles pour la mise en forme conditionnelle.</span>
-
-      1. <span class="preview">(Facultatif) Au lieu d’ajouter une valeur de champ, cliquez sur l’icône **Comparer à un autre champ** ![Comparer à un autre champ](assets/compare-to-another-field-icon.png) et sélectionnez un champ dont vous souhaitez comparer la valeur à celle du champ sélectionné. Vous pouvez, par exemple, comparer les champs Propriétaire du projet et Sponsor du projet . </span>
+      1. Cliquez sur **Ajouter une condition**.
+      1. Dans la ligne **If**, sélectionnez un champ, choisissez une valeur de champ et ajoutez un modificateur. Les modificateurs changent en fonction du type de champ choisi.
 
          >[!TIP]
          >
-         ><span class="preview">Seuls les champs visibles dans la vue Liste sont disponibles pour la mise en forme conditionnelle. Les champs comparés doivent être du même type. </span>
+         >Seuls les champs visibles dans la vue Liste sont disponibles pour la mise en forme conditionnelle.
 
-      1. <span class="preview">(Facultatif) Cliquez sur **Ajouter une condition** dans la ligne **Si** pour ajouter d’autres conditions à la même règle.</span>
+      1. (Facultatif) Au lieu d’ajouter une valeur de champ, cliquez sur l’icône **Comparer à un autre champ** ![Comparer à un autre champ](assets/compare-to-another-field-icon.png) et sélectionnez un champ dont vous souhaitez comparer la valeur à celle du champ sélectionné. Vous pouvez, par exemple, comparer les champs Propriétaire du projet et Sponsor du projet .
 
          >[!TIP]
          >
-         ><span class="preview">Vous pouvez ajouter jusqu’à 10 conditions dans une règle de conditionnement et vous pouvez avoir jusqu’à 20 règles pour un champ.</span>
+         >Seuls les champs visibles dans la vue Liste sont disponibles pour la mise en forme conditionnelle. Les champs comparés doivent être du même type.
 
-      1. <span class="preview">Cliquez sur le connecteur **Ou** entre les conditions pour passer à **Et** et indiquer que plusieurs conditions doivent être remplies en même temps. **Or** est le connecteur par défaut.</span>
-      1. <span class="preview">Dans la ligne **Format**, sélectionnez un champ pour indiquer la colonne qui sera formatée.</span> <!--edit this area, if it changes names??-->
-      1. <span class="preview">(Facultatif) Cliquez sur l’icône **cercle de couleur** ![icône de cercle de couleur](assets/color-circle.png) en regard du champ sélectionné pour le développer et choisir une autre couleur dans la zone **Remplissage de cellule** pour modifier la couleur de l’arrière-plan d’une cellule ou sélectionnez une couleur dans la zone **Couleur du texte** pour modifier la couleur du texte d’une cellule.</span>
-      1. <span class="preview">Cliquez sur l’icône **Format de texte** ![Icône Format de texte](assets/text-format-icon.png) et sélectionnez l’une des options suivantes pour mettre en forme le texte dans une cellule :</span>
-         * <span class="preview">Gras</span>
-         * <span class="preview">Italique</span>
+      1. (Facultatif) Cliquez sur **Ajouter une condition** dans la ligne **Si** pour ajouter d’autres conditions à la même règle.
 
-      1. <span class="preview">Activez le paramètre **Appliquer à la ligne** pour appliquer la mise en forme à l’ensemble de la ligne du champ qui répond aux conditions.</span>
-      1. <span class="preview">(Facultatif) Cliquez sur **Ajouter une condition** dans la zone **Format** pour ajouter une autre règle pour un autre champ, puis répétez les étapes ci-dessus.</span>
-      1. <span class="preview">(Facultatif) Cliquez sur **Effacer tout** pour supprimer toute mise en forme.</span>
-      1. <span class="preview">Cliquez en dehors de la zone **Format** pour la fermer.</span>
+         >[!TIP]
+         >
+         >Vous pouvez ajouter jusqu’à 10 conditions dans une règle de conditionnement et vous pouvez avoir jusqu’à 20 règles pour un champ.
 
-         <span class="preview">Vous revenez alors à la vue Liste.</span>
-         <span class="preview">La mise en forme est appliquée immédiatement à la vue Liste.</span>
-         <span class="preview">Un point bleu est placé en regard de l’icône **Formater les cellules** pour indiquer qu’une mise en forme spéciale est appliquée à la vue.</span>
+      1. Cliquez sur le connecteur **Ou** entre les conditions pour passer à **Et** et indiquer que plusieurs conditions doivent être remplies en même temps. **Or** est le connecteur par défaut.
+      1. Sur la ligne **Format**, sélectionnez un champ pour indiquer la colonne à mettre en forme. <!--edit this area, if it changes names??-->
+      1. (Facultatif) Cliquez sur l’icône **cercle de couleur** ![icône de cercle de couleur](assets/color-circle.png) en regard du champ sélectionné pour le développer et choisir une autre couleur dans la zone **Remplissage de cellule** pour modifier la couleur de l’arrière-plan d’une cellule ou sélectionnez une couleur dans la zone **Couleur du texte** pour modifier la couleur du texte d’une cellule.
+      1. Cliquez sur l’icône **Format de texte** ![Icône Format de texte](assets/text-format-icon.png) et sélectionnez l’une des options suivantes pour mettre en forme le texte dans une cellule :
+         * Gras
+         * Italiques
 
-   1. <span class="preview">(Facultatif) Cliquez sur l’icône **Regroupement** ![Icône Regroupement](assets/grouping-icon.png) &lt;!- ont-ils mis à jour ceci sur « Regroupement »??-> pour regrouper les éléments de la liste par un champ commun ? Sélectionnez l’une des options ou utilisez la barre de recherche pour rechercher un champ.</span>
+      1. Activez le paramètre **Appliquer à la ligne** pour appliquer la mise en forme à l’ensemble de la ligne du champ qui répond aux conditions.
+      1. (Facultatif) Cliquez sur **Ajouter une condition** dans la zone **Format** pour ajouter une autre règle pour un autre champ, puis répétez les étapes ci-dessus.
+      1. (Facultatif) Cliquez sur **Effacer tout** pour supprimer toute mise en forme.
+      1. Cliquez en dehors de la zone **Format** pour la fermer.
 
-      <span class="preview">Le champ doit être une colonne de la liste pour que vous puissiez effectuer un regroupement. Tous les types de champ ne peuvent pas être utilisés pour les regroupements.</span>
+         Vous revenez alors à la vue Liste.
+La mise en forme est appliquée immédiatement à la vue Liste.
+Un point bleu est placé en regard de l’icône **Formater les cellules** pour indiquer qu’une mise en forme spéciale est appliquée à la vue.
 
-   1. <span class="preview">Cliquez sur l’icône **Hauteur de ligne** ![Icône de hauteur de ligne](assets/row-height-icon.png) pour mettre à jour la longueur verticale d’une ligne. Choisissez l’une des options suivantes : </span>
+   1. (Facultatif) Cliquez sur l’icône **Regroupement** ![icône de regroupement](assets/grouping-icon.png) <!--have they updated this to "Grouping"??--> pour regrouper les éléments de la liste par un champ commun. Sélectionnez l’une des options ou utilisez la barre de recherche pour rechercher un champ.
 
-      <div class="preview">
+      Le champ doit être une colonne de la liste pour que vous puissiez effectuer un regroupement. Tous les types de champ ne peuvent pas être utilisés pour les regroupements.
+
+   1. Cliquez sur l’icône **Hauteur de ligne** ![Icône de hauteur de ligne](assets/row-height-icon.png) pour mettre à jour la longueur verticale d’une ligne. Choisissez l’une des options suivantes :
 
       * Court
       * Standard. Il s’agit du choix par défaut.
       * Moyen
       * Grand
-
-      </div>
 
    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 

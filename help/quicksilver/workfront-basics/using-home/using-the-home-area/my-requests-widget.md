@@ -8,20 +8,22 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '694'
 ht-degree: 11%
 
 ---
 
 # Utiliser le widget Mes requêtes
 
-<!--remove Preview and Production references at Production release April 15, 2026-->
+<!--
+remove Preview and Production references at Production release April 15, 2026
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -84,7 +86,7 @@ Pour obtenir des instructions, reportez-vous à la section [Créer une demande](
 
 Vous pouvez copier une demande dans le widget Mes demandes, la modifier et l’envoyer en tant que nouvelle demande.
 
-Pour obtenir des instructions, voir [&#x200B; Copier et envoyer des demandes &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour obtenir des instructions, voir [ Copier et envoyer des demandes ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Gérer les informations de la liste des requêtes dans le widget Mes requêtes
 
@@ -102,14 +104,9 @@ To configure the filter in the My Requests widget:
    * Afficher
    * Filtre
    * Colonnes
-
-   <div class="preview">
-
    * Regroupement
    * Formater les cellules
    * Hauteur de ligne
-
-   </div>
 
    Pour plus d&#39;informations sur la mise à jour des éléments d&#39;affichage dans la liste des demandes, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -212,7 +209,7 @@ Vous trouverez des objets créés par une requête dans le widget Mes requêtes 
 >
 >* Requêtes Planning et Workfront dans le champ Objet .
 >* Enregistrements Planning créés à partir de demandes Planning dans le champ Objet créé .
->* <span class="preview">Tâches et événements Workfront convertis à partir de requêtes Workfront dans le champ Objet créé , dans l&#39;environnement Aperçu.</span>
+>* Tâches et événements Workfront convertis à partir de demandes Workfront dans le champ Objet créé .
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Pour ajouter le widget **Mes requêtes** à votre écran d’accueil. Cliquez sur **Personnaliser** et recherchez **Mes requêtes**, puis cliquez dessus pour l’ajouter à **Accueil**.
@@ -223,10 +220,7 @@ Vous trouverez des objets créés par une requête dans le widget Mes requêtes 
 
    >[!TIP]
    >
-   >Dans l&#39;environnement de production, seuls les enregistrements Planning ont un lien dans le champ **Objet créé**.
-   >   
-   ><span class="preview">Dans l&#39;environnement Aperçu, les tâches et projets Workfront convertis à partir d&#39;événements, ainsi que les enregistrements Planning créés à partir de demandes Planning, possèdent un lien dans le champ **Objet créé**.</span>
-   >
+   >Les tâches et projets Workfront convertis à partir d&#39;événements, ainsi que les enregistrements Planning créés à partir de demandes Planning, comportent un lien dans le champ **Objet créé**.
 
 
 

@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 14%
@@ -153,8 +153,8 @@ Utilisez le langage naturel pour filtrer rapidement le travail.
 
 {{step1-to-priorities}}
 
-1. Cliquez sur **Groupes** en haut à gauche de la liste de travail.
-1. Sélectionnez un groupe pour organiser votre liste de travail.
+1. Cliquez sur **Regroupement** en haut à gauche de la liste de travail.
+1. Sélectionnez un regroupement pour organiser votre liste de tâches.
 
 ![Groupes](assets/groups-new.png)
 
@@ -179,11 +179,11 @@ Vous pouvez faire glisser et déposer des éléments de travail individuels entr
 
 ## Trier votre travail
 
-### Tri par groupes
+### Tri par groupement
 
-Pour trier votre travail au sein d’un groupe, ouvrez **Groupe** et choisissez si vous souhaitez effectuer un tri par ordre croissant ou décroissant.
+Pour trier votre travail au sein d’un regroupement, ouvrez **Regroupement** et choisissez si vous souhaitez effectuer un tri par ordre croissant ou décroissant.
 
-![Trier en groupes](assets/sort-in-groups.png)
+![Tri par groupement](assets/sort-in-groups.png)
 
 ### Colonnes de tri
 
