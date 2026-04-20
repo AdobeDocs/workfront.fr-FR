@@ -8,20 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 7d359a2536860d13658d3ec0c95264a55db7ab29
+source-git-commit: d20215ae2d535ba98ca27ce62aaa28fd372e935a
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 8%
+source-wordcount: '564'
+ht-degree: 9%
 
 ---
 
 # Configuration des collaborateurs d’IA
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
+
 >[!IMPORTANT]
 >
 >Actuellement, Content Reviewer est le seul type de collaborateur d’IA disponible. D’autres fonctionnalités AI Collaborator seront disponibles à l’avenir.
-
-{{highlighted-preview-article-level}}
 
 Les collaborateurs AI permettent d’intégrer des agents AI à vos projets et tâches. Vous pouvez configurer un collaborateur d’IA, puis l’affecter comme vous le feriez à un utilisateur.
 
@@ -29,7 +29,7 @@ Par exemple, vous pouvez configurer un collaborateur en IA de type réviseur ave
 
 Les types de collaborateurs IA disponibles sont les suivants :
 
-* Réviseur : créez un collaborateur à l’aide de marques<!-- or Adobe Brand Intelligence--> puis affectez-le en tant que réviseur de ressources.
+* Réviseur : créez un collaborateur à l’aide de marques ou d’Adobe Brand Intelligence, puis affectez-le en tant que réviseur de ressources.
 
   Pour plus d’informations, voir [Prise en main de Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
@@ -63,16 +63,27 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Conditions préalables
 
-
-
 * Votre entreprise doit avoir un contrat Adobe Gen AI signé dans son dossier.
 
   Pour plus d’informations, consultez [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) dans l’article Assistant AI dans Workfront.
 * Vous devez avoir configuré une marque dans Workfront avant de pouvoir l’utiliser pour un collaborateur d’IA de type réviseur.
 
   Pour obtenir des instructions, voir [Créer et gérer des marques pour le réviseur de contenu](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+* <span class="preview">Pour utiliser Adobe Brand Intelligence pour un collaborateur Reviewer AI, votre entreprise doit utiliser l’expérience de révision et d’approbation unifiée dans Workfront. </span>
+
+  <span class="preview">Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
 
 ## Créer un collaborateur d’IA de type réviseur
+
+Les collaborateurs Reviewer AI peuvent être configurés pour utiliser les marques Workfront ou Adobe Brand Intelligence.
+
+* **Marques** : les marques sont créées dans Workfront. Vous pouvez créer des marques dans Workfront en chargeant des fichiers PDF qui contiennent vos directives de marque ou en saisissant manuellement des éléments de marque.
+* <span class="preview">**Adobe Brand Intelligence** : lorsqu’un collaborateur d’IA examine une ressource à l’aide d’Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur dans Frame.io.  </span>
+
+>[!NOTE]
+>
+>Le réviseur de contenu n’est pas disponible dans les environnements Sandbox.
+
 
 {{step-1-to-setup}}
 
@@ -85,9 +96,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >Actuellement, seul le type Réviseur est disponible. D’autres types de collaborateurs IA seront disponibles à l’avenir.
 
 1. Dans le champ Nom du collaborateur, entrez le nom du collaborateur. Il s’agit du nom qui apparaît dans la liste des délégataires disponibles pour une tâche.
-   <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
-   <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. &#x200B;<!--(Conditional) If the AI Collaborator will use a Brand,-->Sélectionnez la marque et la consigne de marque qu’elle utilisera.
+1. <span class="preview">Indiquez si le collaborateur utilisera une marque ou Adobe Brand Intelligence pour ses révisions.</span>
+1. (Conditionnel) Si le collaborateur de l’IA va utiliser une marque, sélectionnez la marque et les instructions qu’il suivra.
 1. Cliquez sur **Enregistrer**.
 
 ## Gérer les collaborateurs d’IA
