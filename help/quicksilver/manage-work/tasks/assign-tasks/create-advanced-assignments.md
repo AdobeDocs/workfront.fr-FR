@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: daaa13d5a3ebbd249f0093181ee7834f9db43fdb
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3457'
 ht-degree: 32%
 
 ---
@@ -96,13 +96,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Cette disposition des affectations avancées s&#39;applique uniquement aux tâches. Pour tout problème, voir [Créer des affectations avancées - tous les autres packages](#create-advanced-assignments--all-other-packages).
 
-<!--
-
 >[!NOTE]
 >
->Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
-
--->
+>L’ancienne expérience Affectations avancées est la valeur par défaut. Vous devez activer manuellement la nouvelle expérience à l&#39;aide du bouton en haut à droite de la fenêtre Affectations avancées.
+>Pour plus d’informations sur l’ancienne expérience, voir [Créer des affectations avancées - tous les autres packages](#create-advanced-assignments--all-other-packages) ci-dessous.
 
 1. Accédez au projet auquel vous souhaitez affecter une tâche.
 1. Cliquez sur **Tâches** ou **Événements** dans le panneau de gauche, puis cliquez sur le nom d’une tâche dans la liste.
