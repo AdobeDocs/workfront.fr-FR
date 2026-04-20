@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '1984'
+source-wordcount: '2042'
 ht-degree: 14%
 
 ---
@@ -32,6 +32,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >Aperçu : 16 avril 2026
 >Version rapide de production : vendredi 16 avril 2026
 >Production pour tous : vendredi 16 avril 2026
+>[!BADGE Hors planning]{type=Neutral}
 
 Vous pouvez désormais accéder à Experience Manager Content Advisor dans Workfront Planning. Le gestionnaire d’accès vous permet d’effectuer les opérations suivantes :
 
@@ -56,7 +57,7 @@ Nous avons ajouté un nouveau paramètre pour ajuster la hauteur des lignes dans
 
 Pour plus d’informations, voir Gérer la vue Liste (help/quicksilver/planning/views/manage-the-list-view.md).
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Ajouter un nom de type d’enregistrement et une icône d’affichage aux affichages partagés publiquement
 
@@ -82,7 +83,7 @@ Pour vous aider à mieux organiser les informations, nous avons ajouté la possi
 
 Avant cette amélioration, cette fonctionnalité n’existait pas dans cette zone.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Développer la liste des entités partagées pour afficher les utilisateurs
 
@@ -151,7 +152,7 @@ Les nouvelles fonctionnalités de mise en forme conditionnelle sont les suivante
 
 Avant cette amélioration, seule la possibilité d’ajouter de la couleur à l’arrière-plan d’une cellule existait.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Ajout de noms personnalisés pour les filtres dans la vue Liste
 
@@ -173,7 +174,7 @@ Nous avons ajouté les noms personnalisés suivants pour un filtre d’équipe, 
 
 Les champs doivent exister sur les objets affichés dans la vue pour que les options de filtrage soient visibles.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Reconception du chemin de navigation
 
@@ -185,23 +186,20 @@ Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/q
 
 Nous avons repensé l’affichage des chemins de navigation dans les types d’enregistrements et . Désormais, lorsque vous cliquez sur Plus dans la ligne de chemin de navigation, les noms des enregistrements et des objets s’affichent sur plusieurs lignes. Avant cette amélioration, cliquer sur Plus affichait les noms des enregistrements et des objets dans les menus déroulants.
 
-Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
-<!--
-
-## New field type for Record ID  
+## Nouveau type de champ pour l’ID d’enregistrement
 
 >[!NOTE]
 >
->Preview: March 12, 2026
->Production fast release: April 15, 2026
->Production for everyone: April 16, 2026
+>Aperçu : 12 mars 2026
+>Version rapide de production : jeudi 15 avril 2026
+>Production pour tous : vendredi 16 avril 2026
 
-We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
+Nous avons ajouté un nouveau type de champ pour l’ID d’enregistrement. Il s’agit d’un indicateur alphanumérique généré par le système qui identifie de manière unique chaque enregistrement. Le champ s’affiche dans n’importe quelle vue d’enregistrement, ainsi que dans la zone des détails de l’enregistrement.
 
-For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
--->
 
 ## Autoriser les utilisateurs non-administrateurs à connecter un type d’enregistrement
 
@@ -302,7 +300,7 @@ Lorsque vous partagez la vue Liste dans la page des enregistrements connectés a
 
 Cette mise à jour est disponible uniquement dans la vue Liste, pour la page Enregistrements connectés d’un enregistrement lors de l’affichage de projets.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Appliquer une mise en forme conditionnelle à la vue Liste
 
@@ -314,7 +312,7 @@ Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/q
 
 Vous pouvez désormais appliquer une mise en forme conditionnelle aux projets dans une vue Liste dans la page Enregistrements connectés d’un enregistrement. Cette fonctionnalité n’existait pas dans la vue Liste avant cette amélioration.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Améliorations des types d’enregistrements globaux dans les espaces de travail secondaires
 

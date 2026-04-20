@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '3602'
+source-wordcount: '3603'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;e
 
 Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -139,7 +139,7 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 1. Cliquez sur **Créer**.
 
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [&#x200B; Configurer les détails du formulaire de demande &#x200B;](#set-up-details-for-the-request-form).
+1. Passez à [ Configurer les détails du formulaire de demande ](#set-up-details-for-the-request-form).
 
 <!--
 
@@ -267,7 +267,7 @@ Dans l’onglet Configuration , vous pouvez définir le processus d’approbatio
    * Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
    * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-   Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
 
@@ -300,7 +300,7 @@ Tenez compte des points suivants lors de l’ajout de règles d’approbation :
 * Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
 * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+Pour plus d’informations sur l’ajout d’approbations, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Pour définir des règles d&#39;approbation pour un formulaire de demande :
 
@@ -426,7 +426,7 @@ For information on creating automations in other areas of Workfront Planning, se
    </div>
    -->
 
-   Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+   Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 1. (Facultatif) Passez la souris sur le nom d’un formulaire de demande en mode Tableau, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire, puis cliquez sur l’une des options suivantes :
 
@@ -482,7 +482,7 @@ For information on creating automations in other areas of Workfront Planning, se
    >
    >* Un formulaire contenant les types de champs suivants ne peut pas être partagé publiquement :
    >
-   >     * Connexions Workfront ou AEM Assets
+   >     * Connexions Workfront ou Adobe Experience Manager
    >     * Personnes
    >
 

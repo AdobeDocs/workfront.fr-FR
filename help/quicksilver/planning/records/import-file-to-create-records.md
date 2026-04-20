@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '889'
 ht-degree: 12%
 
 ---
@@ -142,8 +142,8 @@ Old:
 * Les feuilles vides ne sont pas prises en charge.
 * Les champs des types suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
 
-   * Champs de connexion aux types d’objet Workfront et AEM Assets. Vous ne pouvez mapper que les champs de connexion aux types d&#39;enregistrements Planning.
-   * Champs de recherche des enregistrements Planning connectés ou des objets Workfront et AEM Assets
+   * Champs de connexion aux types d’objet Workfront et Adobe Experience Manager. Vous ne pouvez mapper que les champs de connexion aux types d&#39;enregistrements Planning.
+   * Champs de recherche des enregistrements Planning connectés ou des objets Workfront et Adobe Experience Manager
    * Champs de formule
    * Date de création, Créé par
    * Date de dernière modification, Dernière modification par

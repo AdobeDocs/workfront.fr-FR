@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1099'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ L’utilisation de hiérarchies dans vos espaces de travail présente les avanta
 * Vous ne pouvez pas ajouter les types d&#39;objets suivants dans une hiérarchie :
    * Types d’enregistrements d’autres espaces de travail, même s’ils sont définis comme des types d’enregistrements connectables ou globaux. Vous pouvez ajouter des types d&#39;enregistrements globaux aux hiérarchies uniquement lorsqu&#39;ils ont été ajoutés à l&#39;espace de travail à partir duquel vous créez la hiérarchie.
    * Tous les autres objets Workfront.
-   * AEM Assets.
+   * AEM Assets ou fragments de contenu.
 * Les hiérarchies peuvent inclure à la fois des types d&#39;enregistrements Planning et des projets Workfront.
 
   Par exemple, vous pouvez avoir un type d’enregistrement Campagne avec les Tactiques de planification et Projets Workfront comme enfants dans la même hiérarchie d’espace de travail.

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2184'
 ht-degree: 2%
 
 ---
@@ -168,7 +168,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -379,7 +379,7 @@ Dans Workfront Planning, vous pouvez établir les connexions suivantes entre les
 * Un type d’enregistrement GenStudio et un type d’enregistrement Planning du même espace de travail
 * Un type d’enregistrement GenStudio et un type d’enregistrement Planning d’un autre espace de travail, si les types d’enregistrement sont configurés pour se connecter à partir d’un autre espace de travail.
 * Un type d’enregistrement GenStudio et un type d’objet Workfront (projets, portfolios, programmes, sociétés, groupes)
-* Un type d’enregistrement GenStudio et un type d’objet AEM Assets.
+* Un type d’enregistrement GenStudio et un type d’objet AEM.
 * Types d’enregistrements GenStudio et marques GenStudio. La connexion Marques est ajoutée aux types d’enregistrements Produits et Personnes par défaut.
 
 ### Formulaires de demande et automatisations dans le type d’enregistrement GenStudio

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2005'
 ht-degree: 15%
 
 ---
@@ -18,12 +18,15 @@ ht-degree: 15%
 
 # Partager des vues
 
-<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
+<!--
+there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes
+-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -217,7 +220,7 @@ Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous dis
    >
    >* Outre les équipes, les groupes, les entreprises et les fonctions, vous ne pouvez partager qu’avec des utilisateurs qui ont été ajoutés au Adobe Admin Console. Vous ne pouvez pas ajouter des utilisateurs Workfront uniquement. Pour plus d’informations, voir [Gestion des utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
-   >* Lorsque vous partagez une vue avec un utilisateur, sa fonction principale <span class="preview">et son adresse e-mail</span> s’affichent également dans le champ. Le paramètre Afficher les informations de contact doit être activé pour que l’objet Utilisateurs de votre niveau d’accès puisse voir l’e-mail de l’utilisateur.
+   >* Lorsque vous partagez une vue avec un utilisateur, sa fonction principale et son adresse e-mail s’affichent également dans le champ. Le paramètre Afficher les informations de contact doit être activé pour que l’objet Utilisateurs de votre niveau d’accès puisse voir l’e-mail de l’utilisateur.
 
    * **Tout le monde dans l’espace de travail peut afficher** : tous les utilisateurs disposant d’autorisations d’affichage ou supérieures dans les espaces de travail peuvent accéder à l’affichage.
 
@@ -225,7 +228,7 @@ Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous dis
 
    ![Partage d’une vue avec des groupes](assets/sharing-a-view-ui-with-groups.png)
 
-1. <span class="preview">(Facultatif) Lorsque vous effectuez un partage avec un groupe, une équipe, un rôle ou une entreprise, passez la souris sur le nom de l’entité et cliquez sur la flèche pointant vers la droite pour développer la liste des utilisateurs qui reçoivent les autorisations. </span>
+1. (Facultatif) Lorsque vous effectuez un partage avec un groupe, une équipe, un rôle ou une entreprise, passez la souris sur le nom de l’entité et cliquez sur la flèche pointant vers la droite pour développer une liste d’utilisateurs qui reçoivent les autorisations.
 
    ![Partager la vue avec l&#39;équipe](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
@@ -239,15 +242,20 @@ Vous pouvez partager des vues que vous avez créées ou pour lesquelles vous dis
 
 1. Cliquer sur **Enregistrer**.
 
-   L’affichage est mis à jour avec une icône de personnes ![Affichage partagé avec d’autres](assets/view-shared-with-others-people-icon.png) pour indiquer que l’affichage est désormais partagé avec d’autres utilisateurs.
-
    Les utilisateurs avec lesquels vous avez partagé la vue reçoivent à la fois une notification in-app et une notification par e-mail concernant leurs autorisations pour cette vue.
 
-   >[!TIP]
-   >
-   >Les vues sans peuple ou sans icône globale sont des vues que vous avez créées et ne sont pas partagées avec d&#39;autres personnes. Les vues non partagées ne sont visibles que par vous.
-
 1. Partagez le lien copié avec d’autres personnes. Les utilisateurs et utilisatrices qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à la page du type d’enregistrement et l’afficher dans la vue sélectionnée.
+
+1. (Facultatif) Passez la souris sur le nom d’une vue pour connaître le nom du propriétaire de la vue et savoir si la vue est partagée en privé ou en public.
+
+   Les libellés suivants existent :
+
+   * **Public** : la vue est partagée publiquement. Pour plus d’informations, consultez la section [Partage public des autorisations d’accès à une vue](#share-permissions-to-a-view-publicly) dans cet article.
+   * **Qui vous appartient** : la vue est créée par vous.
+   * **Partagé avec vous** : la vue est créée par d’autres utilisateurs et partagée avec vous. Le nom du propriétaire s’affiche également.
+   * **Privé** : vous avez créé la vue ou d&#39;autres l&#39;ont créée, mais elle n&#39;est pas partagée publiquement.
+
+   ![Vue partagée de manière privée, pointer sur le libellé](assets/privately-shared-view-hover-over-label.png)
 
 ## Partager les autorisations d’accès à une vue publiquement
 
@@ -296,22 +304,16 @@ Pour partager une vue publiquement dans Workfront Planning :
 
 1. Cliquer sur **Enregistrer**.
 
-   L’affichage est mis à jour avec une icône globale ![icône d’affichage partagé public mise en surbrillance](assets/public-shared-view-icon-highlighted.png) pour indiquer que l’affichage est partagé publiquement.
+1. (Facultatif) Passez la souris sur le nom de la vue dans la liste des vues et notez que la vue indique qu’elle est désormais partagée publiquement.
 
-   >[!TIP]
-   >
-   >Les vues sans peuple ou sans icône globale sont des vues que vous avez créées et ne sont pas partagées avec d&#39;autres personnes. Les vues non partagées ne sont visibles que par vous.
+   ![Vue partagée publiquement, survolez le libellé](assets/publicly-shared-view-hover-over-label.png)
 
 1. (Facultatif) Collez le lien que vous avez copié dans un e-mail, un message de conversation, un document ou un commentaire Workfront pour le partager avec d’autres personnes.
 
-   <div class="preview">
-
    Lorsque d’autres personnes ouvrent une vue publique, elles voient les informations suivantes sur la vue dans l’en-tête :
 
-   * Nom et icône de la vue
+   * Nom et icône de la vue. L’icône indique le type d’affichage : un tableau, une chronologie ou un calendrier.
    * Nom du type d’enregistrement affiché dans la vue
-
-   </div>
 
 ## Copier un lien vers une vue
 
@@ -348,9 +350,9 @@ Les utilisateurs et utilisatrices qui accèdent à un lien vers une vue pour laq
 1. (Conditionnel) Si vous êtes le responsable d&#39;une vue, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les domaines suivants :
 
    * Une notification in-app
-     ![&#x200B; Notification in-app pour la demande d’accès à la vue &#x200B;](assets/in-app-notification-for-access-request-for-view.png)
+     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
    * Notification par e-mail
-     ![&#x200B; Notification in-app pour la demande d’accès à la vue &#x200B;](assets/in-app-notification-for-access-request-for-view.png)
+     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou
 Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications**, puis cliquez sur la notification dans la liste.

@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 4%
@@ -77,10 +77,10 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
    <p> Produits supplémentaires</p> </td> 
    <td> 
    <p> En plus d’Adobe Workfront, vous devez disposer des éléments suivants si vous souhaitez ajouter une page d’enregistrement connectée pour les objets des applications suivantes :</p>
-   <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types d’enregistrements Planning.</p>
+   <ul><li><p>Une licence Adobe Experience Manager et une intégration entre Adobe Experience Manager et Workfront pour connecter des objets AEM à des types d'enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -273,7 +273,7 @@ Pour plus d’informations, voir [Gérer la vue Tableau](/help/quicksilver/plann
       * Chronologie
 Pour plus d’informations, voir [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
       * Calendrier
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
         Pour plus d’informations, consultez la section [Gérer plusieurs vues à partir de la page des enregistrements connectés](#manage-multiple-views-from-the-connected-records-page) dans cet article.
 

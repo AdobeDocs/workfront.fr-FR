@@ -8,20 +8,21 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '3558'
-ht-degree: 33%
+source-wordcount: '3536'
+ht-degree: 28%
 
 ---
 
 
 # Connect records
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -54,8 +55,17 @@ Vous pouvez connecter les éléments suivants :
 
    * Adobe Experience Manager
 
-      * Fichiers d’images
-      * Dossiers
+      * Ressources
+
+        Vous pouvez connecter les types de ressources suivants à partir de Workfront Planning :
+
+         * Fichiers d’images
+         * Dossiers
+      * Fragments de contenu
+
+* Adobe GenStudio for Performance Marketing
+
+   * Marques
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -75,8 +85,8 @@ Vous pouvez connecter les éléments suivants :
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p>
-<p>Tout workflow et tout package Planning</p>
+<p>Tout package de Workfront ou de workflow</p>
+<p>N’importe quel package Planning</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
 <tr> 
@@ -84,10 +94,10 @@ Vous pouvez connecter les éléments suivants :
    <p> Produits supplémentaires</p> </td> 
    <td> 
    <p> Outre Adobe Workfront, vous devez disposer des éléments suivants si vous souhaitez connecter des enregistrements à des objets provenant des applications suivantes :</p>
-   <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types Planning.</p>
+   <ul><li><p>Une licence Adobe Experience Manager et une intégration entre Adobe Experience Manager et Workfront pour connecter des ressources AEM ou des fragments de contenu à des types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -385,17 +395,21 @@ Après avoir établi une connexion entre un type d’enregistrement et un type d
 
 >[!IMPORTANT]
 >
->Vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter des enregistrements Workfront Planning à Adobe Experience Manager Assets.
+>Vous devez disposer d’une licence Adobe Experience Manager et l’instance de Workfront de votre organisation doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter les enregistrements Workfront Planning à Adobe Experience Manager.
 >
 >Si vous avez des questions relatives à l’intégration à Adobe Admin Console, voir les [Questions fréquentes sur Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-Après avoir créé une connexion entre un type d’enregistrement et Adobe Experience Manager Assets, vous pouvez connecter des enregistrements individuels à des ressources Experience Manager. Les champs de ressource que vous avez connectés à partir d’Experience Manager lors de la création de la connexion sont automatiquement renseignés sur le type d’enregistrement à partir duquel vous avez effectué la liaison.
+Après avoir établi une connexion entre un type d’enregistrement et des objets Adobe Experience Manager, vous pouvez connecter des enregistrements individuels à des objets Experience Manager. Les champs de ressource que vous avez connectés à partir d’Experience Manager lors de la création de la connexion sont automatiquement renseignés sur le type d’enregistrement à partir duquel vous avez effectué la liaison.
 
 >[!NOTE]
 >
->Les enregistrements Planning et leurs champs sont accessibles depuis Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Les enregistrements Planning et leurs champs sont accessibles depuis Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
-Pour connecter des enregistrements à des ressources Experience Manager :
+<!--
+not sure if the above 2 paragraphs also apply to fragments; checking with Court and the Andy
+-->
+
+Pour connecter des enregistrements à des objets Experience Manager :
 
 {{step1-to-planning}}
 
@@ -403,24 +417,27 @@ Pour connecter des enregistrements à des ressources Experience Manager :
 
    L’espace de travail et les types d’enregistrement s’affichent.
 1. Cliquez sur la vignette d’un type d’enregistrement pour ouvrir la page du type d’enregistrement.
-1. Sélectionnez une vue en **Tableau** à partir du menu déroulant **Affichage** dans le coin supérieur droit de la page du type enregistrement.
+1. Sélectionnez une vue **Tableau** dans le menu déroulant **Affichage** dans le coin supérieur gauche de la page du type d’enregistrement.
 
 1. (Facultatif) Cliquez sur **Nouvel enregistrement** pour ajouter de nouveaux enregistrements au type d’enregistrement que vous avez sélectionné. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-1. (Conditionnel) Après avoir connecté le type d’enregistrement sélectionné à Experience Manager, accédez au champ connecté d’un enregistrement et cliquez soit sur le champ, soit sur **Connexion** pour ajouter des ressources Experience Manager à l’enregistrement, puis cliquez sur l’icône **+**.
+1. (Conditionnel) Après avoir connecté le type d’enregistrement sélectionné à des objets Experience Manager, accédez au champ connecté d’un enregistrement et cliquez sur le champ ou cliquez sur **Connexion** pour ajouter des objets Experience Manager à l’enregistrement, puis cliquez sur l’icône **+**.
 
    >[!TIP]
    >
-   >  Vous pouvez cliquer sur l’icône **+** dans le champ d’objet lié de la page d’enregistrement pour connecter les ressources à l’enregistrement.
+   >  Vous pouvez cliquer sur l’icône **+** dans le champ d’objet lié de la page de détails de l’enregistrement pour connecter les ressources à l’enregistrement.
 
    La boîte de dialogue Gestionnaire d&#39;accès s&#39;affiche.
 
    ![Zone du gestionnaire d’accès pour les connexions d’enregistrement AEM](assets/content-advisor-assets-nothing-selected.png)
 
-   <!-- The **Select Assets** box displays. we might change this to Connect assets.-->
+   <!--
+    The **Select Assets** box displays. we might change this to Connect assets.
+    -->
 
-   <!-- ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
+   <!--
+    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
 
-1. Cliquez pour sélectionner certains des types de ressources suivants dans la zone **&#x200B;**&#x200B;:
+1. Dans l’onglet ****, cliquez sur pour sélectionner certains des types de ressources suivants :
 
    * Images
    * Dossiers
@@ -430,20 +447,20 @@ Pour connecter des enregistrements à des ressources Experience Manager :
    >[!IMPORTANT]
    >
    > Vous pouvez connecter uniquement les ressources que vous pouvez afficher dans Experience Manager. Une fois connectées, toutes les personnes de Workfront Planning peuvent afficher les ressources dans Workfront Planning, quel que soit leur accès dans Experience Manager Assets.
-   > Pour plus d’informations sur le gestionnaire de contenu, voir [Utiliser le gestionnaire de contenu pour accéder au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   > Pour plus d’informations sur le gestionnaire de contenu, voir [Utiliser le gestionnaire de contenu pour accéder au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
-1. Cliquez sur **Fragments de contenu** pour sélectionner des fragments de contenu à ajouter au champ d’enregistrement lié.
+1. Dans l’onglet **Fragments de contenu**, sélectionnez les fragments de contenu à ajouter au champ d’enregistrement lié.
 
-   Pour plus d’informations sur les fragments de contenu, voir [Utiliser la fonction de conseil sur l’accès au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   Pour plus d’informations sur les fragments de contenu, voir [Utiliser la fonction de conseil sur l’accès au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Lorsque vous avez terminé de choisir des ressources ou des fragments de contenu, cliquez sur **Sélectionner**. <!-- we might change this to Connect-->
 
    Les éléments suivants sont ajoutés :
 
-   * Les ressources d’Experience Manager sélectionnées sont ajoutées au champ d’enregistrement lié.
-   * Les champs liés (ou champs de recherche) sont renseignés avec les informations des ressources connectées d’Experience Manager.
+   * Les ressources Experience Manager ou les fragments de contenu sélectionnés sont ajoutés au champ d’enregistrement lié.
+   * Les champs liés (ou champs de recherche) sont renseignés avec les informations des objets connectés d’Experience Manager.
 
-     Toutes les informations existantes provenant des champs des ressources d’Experience Manager s’affichent automatiquement dans les champs liés ou de recherche.
+     Toutes les informations existantes des champs des ressources Experience Manager ou des fragments de contenu s’affichent automatiquement dans les champs liés ou de recherche. <!--verifying of fragments also share lookup fields - not sure from the UI available-->
 
      >[!TIP]
      >
@@ -451,7 +468,7 @@ Pour connecter des enregistrements à des ressources Experience Manager :
      >
      >* Un champ d’enregistrement lié aux enregistrements liés de Workfront Planning n’est pas créé pour les ressources de Experience Manager liées dans l’application Experience Manager Assets.
 
-1. (Facultatif) Accédez au type d’enregistrement à partir duquel vous avez lié Experience Manager et cliquez sur le nom d’une ressource dans le champ d’enregistrement lié. Les détails Experience Manager de la ressource s’affichent dans une fenêtre pop-up.
+1. (Facultatif et conditionnel) Pour les ressources, accédez au type d’enregistrement à partir duquel vous avez lié Experience Manager et cliquez sur le nom d’une ressource dans le champ d’enregistrement lié. Les détails Experience Manager de la ressource s’affichent dans une fenêtre pop-up. <!--not sure if this is also possible for fragments??-->
 
    ![Fenêtre pop-up de ressource avec des détails et une miniature AEM](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -467,13 +484,13 @@ Pour connecter des enregistrements à des ressources Experience Manager :
    * Date de création
    * Date de modification
 
-1. (Facultatif) Pour ouvrir la page d’enregistrement des ressources Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous effectuez le lien, cliquez sur le nom d’une ressource dans le champ Enregistrement lié pour ouvrir la fenêtre pop-up, puis cliquez sur l’icône **Ouvrir dans AEM** ![Icône Ouvrir une ressource dans AEM](assets/open-asset-icon.png) pour ouvrir la ressource.
+1. (Facultatif et conditionnel) Pour les ressources, pour ouvrir la page d’enregistrement des ressources Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous établissez un lien, cliquez sur le nom d’une ressource dans le champ d’enregistrement lié pour ouvrir la fenêtre pop-up, puis cliquez sur l’icône **Ouvrir dans AEM** ![Icône Ouvrir la ressource dans AEM](assets/open-asset-icon.png) pour ouvrir la ressource. <!--not sure if this is also possible for fragments??-->
 
    Cette opération ouvre la ressource Experience Manager dans Adobe Experience Manager Assets.
 
-1. (Facultatif) Dans la vue Tableau du type d’enregistrement, pointez sur l’en-tête de colonne de la ressource Experience Manager liée, cliquez sur le menu déroulant, puis sur **Modifier les champs de recherche**.
+1. (Facultatif et conditionnel) Pour les ressources, dans la vue Tableau du type d’enregistrement, passez le curseur sur l’en-tête de colonne de la ressource Experience Manager liée, cliquez sur le menu déroulant, puis sur **Modifier les champs de recherche**. <!--not sure if this is also possible for fragments??-->
 
-1. Ajoutez des champs d’objet Experience Manager Assets à partir de la zone **Champs non sélectionnés**
+1. Ajoutez des champs d’objet Experience Manager Assets à partir de la zone **Champs non sélectionnés** <!--not sure if this is also possible for fragments??-->
 
    Ou
 
@@ -516,7 +533,7 @@ Pour connecter des enregistrements à des ressources Experience Manager :
 Les enregistrements et les objets sont immédiatement ajoutés.
 1. (Facultatif) Pointez sur la carte connectée d’un enregistrement ou d’un objet, puis cliquez sur l’icône **Déconnecter l’enregistrement** ![Déconnecter l’enregistrement](assets/disconnect-icon-with-tooltip.png) pour le déconnecter de l’enregistrement sélectionné.
 
-   ![&#x200B; Icône Déconnecter l’enregistrement avec une info-bulle sur l’onglet Connexions &#x200B;](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![ Icône Déconnecter l’enregistrement avec une info-bulle sur l’onglet Connexions ](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    L&#39;enregistrement est immédiatement déconnecté de toutes les zones de Workfront Planning ou d&#39;autres applications où il peut apparaître comme connecté. Toutes les valeurs de champ de recherche sont également supprimées.
 
