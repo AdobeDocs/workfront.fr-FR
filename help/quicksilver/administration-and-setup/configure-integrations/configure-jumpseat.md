@@ -92,7 +92,7 @@ Pour configurer l’intégration de [!DNL JumpSeat] :
 
 {mycompanyname}.jumpseat.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 

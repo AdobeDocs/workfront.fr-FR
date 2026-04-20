@@ -108,7 +108,7 @@ Vous pouvez installer [!DNL Adobe Workfront for design and video] pour vous-mêm
    >
    >Si vous utilisez Premiere Pro, un projet doit être ouvert pour accéder à ce menu.
 
-   ![Menu ](assets/adobe-workfront-menu.png)
+   ![Menu &#x200B;](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
