@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 78%
+source-wordcount: '305'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ Les utilisateurs et utilisatrices individuels peuvent également réinitialiser 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -120,25 +120,13 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
 1. Sélectionnez **Connexion en tant que**.
 1. Commencez à saisir le nom de l’utilisateur ou de l’utilisatrice dont vous souhaitez réinitialiser les préférences, puis cliquez sur son nom lorsqu’il apparaît dans la liste déroulante.
 1. Sélectionnez **Se connecter**.
-1. Si votre organisation n’a pas été intégrée à l’expérience unifiée Adobe, procédez comme suit :
+1. Dans le champ URL situé en haut de votre navigateur web, ajoutez le `/resetUser` après la `workfront`.
 
-   * Dans le champ de l’URL en haut de votre navigateur web, ajoutez `/resetUser` après `workfront.com`.
-
-     >[!NOTE]
-     >
-     >Ce champ est sensible à la casse. Le U doit être en majuscule et les autres caractères doivent être en minuscules. Par exemple :
-     >
-     >`https://company_domain.my.workfront.com/resetUser`
-
-1. Si votre organisation a été intégrée à l’expérience unifiée Adobe, procédez comme suit :
-
-   * Dans le champ URL situé en haut de votre navigateur web, ajoutez le `/resetUser` après la `workfront`.
-
-     >[!NOTE]
-     >
-     >Ce champ est sensible à la casse. Le U doit être en majuscule et les autres caractères doivent être en minuscules. Par exemple :
-     >
-     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
+   >[!NOTE]
+   >
+   >Ce champ est sensible à la casse. Le U doit être en majuscule et les autres caractères doivent être en minuscules. Par exemple :
+   >
+   >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Appuyez sur **Entrée**.
 

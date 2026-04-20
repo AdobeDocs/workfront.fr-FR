@@ -6,10 +6,10 @@ description: En tant qu’utilisateur ou utilisatrice disposant d’une licence 
 author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
+source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 74%
+source-wordcount: '431'
+ht-degree: 79%
 
 ---
 
@@ -30,7 +30,7 @@ En tant qu’utilisateur disposant d’une licence Standard ou Plan, vous pouvez
  <col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -52,11 +52,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Selon votre objectif et votre niveau d’accès au système, effectuez l’une des opérations suivantes :
 
-   * **Utilisateur standard ou de plan configurant la journalisation du temps pour vous-même :** cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur votre nom d’utilisateur en regard de l’image de votre profil. Ou (le cas échéant), cliquez sur l&#39;image de votre profil dans la zone de navigation supérieure, puis cliquez sur **[!UICONTROL Profil Workfront]**. Cliquez ensuite sur l’icône **Plus** en regard de votre nom et sélectionnez **Modifier**.
+   * **Utilisateur standard ou de plan configurant la journalisation du temps pour vous-même :** cliquez sur l’image de votre profil dans la zone de navigation supérieure, puis cliquez sur **[!UICONTROL Profil Workfront]**. Cliquez ensuite sur l’icône **Plus** en regard de votre nom et sélectionnez **Modifier**.
 
    * **Si vous êtes un administrateur ou une administratrice système configurant la consignation du temps pour d’autres utilisateurs et utilisatrices :** commencez à modifier un ou plusieurs comptes d’utilisateurs et d’utilisatrices, comme décrit dans la section [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Dans la boîte de dialogue qui s’affiche, dans la section **Planification des ressources**, recherchez l’option **Enregistrer le temps dans**.
+1. Dans la boîte de dialogue Profil utilisateur, dans la section **Planification des ressources**, recherchez l’option **Enregistrer le temps dans**.
 
    ![Options de connexion](assets/user-profile-log-time-options.png)
 

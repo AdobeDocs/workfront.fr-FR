@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 92%
+source-wordcount: '1478'
+ht-degree: 89%
 
 ---
 
@@ -263,17 +263,23 @@ Pour plus d’informations sur la configuration des fonctions, voir [Créer et g
 
 ### Tentative de connexion {#login-attempt}
 
-Le système génère une entrée de journal d’audit Tentative de connexion lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
+<!--Delete me October 2026-->
 
-* Se connecte, se déconnecte ou effectue une tentative de connexion qui échoue dans Workfront (dans un navigateur et dans l’application mobile).
-* Se connecte, se déconnecte ou échoue lors d’une tentative de connexion dans toute intégration de Workfront (telle que Workfront pour Slack)
-* Se connecte ou se déconnecte de l’API Workfront.
+<!--
 
-Les journaux de tentative de connexion n’enregistrent pas lorsqu’un administrateur ou une administratrice Workfront utilise la fonction Connexion en tant que.
+The system generates a Login Attempt audit log entry when a user does one of the following actions:
+
+* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
+* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
+* Logs in or logs out of the Workfront API
+
+Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+
+-->
 
 >[!NOTE]
 >
->Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+>Comme toutes les organisations ont intégré Adobe Admin Console, cette fonctionnalité n&#39;est plus disponible.Pour plus d&#39;informations, contactez votre administrateur réseau ou informatique.
 
 ### Priorité {#priority}
 
@@ -366,7 +372,7 @@ Le système génère une entrée de journal d’audit utilisateur lorsqu’une p
 
   >[!NOTE]
   >
-  >Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+  >Comme toutes les organisations ont intégré Adobe Admin Console, cette fonctionnalité n&#39;est plus disponible.Pour plus d&#39;informations, contactez votre administrateur réseau ou informatique.
 
 * Supprime une personne
 * Modifie le niveau d’accès, l’entreprise, l’équipe ou le groupe d’une personne.

@@ -3,15 +3,15 @@ title: Marque Adobe Workfront à l’aide d’un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, vous pouvez utiliser un modèle de mise en page pour personnaliser les logos de la zone de navigation supérieure et du menu principal pour des groupes, équipes, fonctions et utilisateurs et utilisatrices. Ceci est particulièrement utile pour les groupes d’une grande organisation qui ont leur propre image de marque.
+description: L’image de marque n’est plus disponible pour Adobe Workfront. Cette fonctionnalité a été abandonnée dans le cadre de l’intégration de Workfront à Adobe Experience Cloud.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 91%
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -21,75 +21,82 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à [!DNL Adobe Experience Cloud].
+>L’image de marque n’est plus disponible pour Adobe Workfront. Cette fonctionnalité a été abandonnée dans le cadre de l’intégration de Workfront à Adobe Experience Cloud.
+
+<!-- 
+
+
+>[!IMPORTANT]
 >
-> Si votre entreprise a été intégrée à [!DNL Adobe Experience Cloud], le branding n’est pas disponible.
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
 
-Vous pouvez utiliser un modèle de mise en page pour personnaliser les logos de la zone de navigation supérieure et du menu principal pour des groupes, équipes, fonctions et utilisateurs et utilisatrices. Ceci est particulièrement utile pour les groupes d’une grande organisation qui ont leur propre image de marque.
+You can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.
 
-Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Créer et modifier des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 >[!NOTE]
 >
->Une équipe d’administration Workfront peut apporter les mêmes personnalisations d’image de marque à l’ensemble de l’organisation au niveau du système, comme expliqué dans [Appliquer une image de marque dans votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Toutefois, l’image de marque appliquée dans un modèle de mise en page a la priorité sur l’image de marque appliquée au niveau du système.
+>A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding.
 
-<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
+## Access requirements
 
-## Conditions d’accès
-
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
-   <td><p>Tous</p></td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td>Licence Adobe Workfront</td> 
+   <td>Adobe Workfront license</td> 
    <td><p>Standard</p>
        <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
-   <td>Configurations des niveaux d’accès</td> 
-   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.</p>
-        <p>Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Appliquer une image de marque dans Adobe Workfront à l’aide d’un modèle de mise en page
+## Brand Adobe Workfront using a layout template
 
-1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/dropdown-arrow.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Branding**.
-1. Effectuez l’une des modifications suivantes pour personnaliser Workfront avec des images de marque pour les personnes auxquelles ce modèle de mise en page a été affecté.
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow.png) under **Customize what users see**, then click **Branding**.
+1. Make any of the following changes to customize Workfront with branding images for those who are assigned this layout template.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Appliquer une image de marque à l’icône d’accueil <span style="font-weight: normal;"> (s’affiche à l’extrémité gauche de la zone de navigation supérieure)</span></p> </td> 
-      <td> <p>Dans la <strong>zone de navigation supérieure</strong>, dans l’<strong>icône Accueil</strong>, cliquez n’importe où dans la zone, puis recherchez et sélectionnez l’image de votre logo. Vous pouvez également faire glisser une image sur la zone.</p> <p>Pour recadrer l’image, utilisez les commandes de défilement et faites-la glisser jusqu’à la position voulue dans l’espace prévu à cet effet.</p> <p>Nous vous recommandons d’utiliser une image de 120 x 120 pixels. Elle peut être dans l’un des formats suivants : GIF, JPG, PNG, SVG.</p> <p>Cette icône s’affiche également dans les rapports, les listes, les tableaux de bord et les rapports distribués que les utilisateurs et utilisatrices exportent en tant que fichiers PDF.</p> </td> 
+      <td role="rowheader"> <p>Brand the Home icon <span style="font-weight: normal;">(displays at the far left of the top navigation area)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Home icon</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 120 x 120 image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> <p>This icon also appears in reports, lists, dashboards, and delivered reports that users export as PDF files.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Personnaliser le <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;"> du menu principal (qui s’affiche dans le coin supérieur droit du menu principal)</span></p> </td> 
-      <td> <p> <p> <p>Dans la <strong>zone de navigation supérieure</strong> dans le <strong>Logo du menu principal</strong>, cliquez n’importe où dans la zone, puis recherchez et sélectionnez l’image de votre logo. Vous pouvez également faire glisser une image sur la zone.</p> <p>Pour recadrer l’image, utilisez les commandes de défilement et faites-la glisser jusqu’à la position voulue dans l’espace prévu à cet effet.</p> <p>Nous vous recommandons d’utiliser une image de 300 x 120 pixels. Elle peut être dans l’un des formats suivants : GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
+      <td role="rowheader"> <p>Brand the Main Menu <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(displays in the upper-right corner of the Main Menu)</span></p> </td> 
+      <td> <p> <p> <p>In the <strong>Top navigation area</strong> section, under <strong>Main Menu logo</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Continuez à personnaliser le modèle de mise en page. Vous pouvez cliquer sur **Appliquer** à tout moment pour enregistrer votre progression.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
-   Ou
+   Or
 
-   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer et fermer**.
+   If you are finished customizing, click **Save and Close**.
 
-Pour plus d’informations sur les modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+-->

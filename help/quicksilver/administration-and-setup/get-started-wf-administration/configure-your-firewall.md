@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 89%
+source-wordcount: '1538'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 >
 >La procédure décrite sur cette page ne s’applique qu’aux entreprise qui n’ont pas encore été intégrées à l’Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
 >
->Pour configurer votre liste autorisée si votre organisation a été intégrée à Adobe Admin Console, consultez la section [Domaines autorisés pour les applications et services d’Adobe](https://helpx.adobe.com/fr/enterprise/kb/network-endpoints.html).
+>Pour configurer votre liste autorisée si votre organisation a été intégrée à Adobe Admin Console, consultez la section [Domaines autorisés pour les applications et services d’Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à Adobe Admin Console, consultez la section [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -32,12 +32,6 @@ ht-degree: 89%
 >Chaque organisation a sa propre méthode pour définir sa liste autorisée. Collaborez avec votre équipe informatique afin de clarifier la démarche de votre entreprise et réaliser ces intégrations.
 
 Si votre pare-feu ou serveur de messagerie est configuré pour accorder l’accès uniquement à certains fournisseurs, vous devez ajouter certaines adresses IP à sa liste autorisée. Cette configuration facilite les échanges entre votre système et les serveurs Adobe Workfront, permettant ainsi les opérations suivantes :
-
-* Envoyer des messages à partir de l’application Workfront
-
-  >[!NOTE]
-  >
-  >Cette option n’est pas disponible si l’instance Workfront de votre organisation repose sur Adobe IMS. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
 
 * Utiliser des webhooks de documents lors de la configuration d’intégrations personnalisées de documents
 * Utiliser des abonnements à des événements Workfront
@@ -442,7 +436,7 @@ Si votre entreprise utilise le filtrage de réseau sortant, ajoutez les domaines
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-Si votre organisation utilise l’expérience unifiée Adobe, elle utilise les domaines suivants. Ces domaines sont couverts sous `*.adobe.com`, mais peuvent être ajoutés si vous le souhaitez.
+Étant donné que votre organisation utilise l’expérience unifiée Adobe, elle utilise les domaines suivants. Ces domaines sont couverts sous `*.adobe.com`, mais peuvent être ajoutés si vous le souhaitez.
 
 * &lt;votre domaine>.my.workfront.adobe.com
 * &lt;votre domaine>.preview.workfront.adobe.com
@@ -451,6 +445,8 @@ Si votre organisation utilise l’expérience unifiée Adobe, elle utilise les d
 
 
 Pour Workfront Fusion, ajoutez les domaines suivants :
+
+<!--Remove me October 2026-->
 
 * Pour les organisations qui ne disposent pas d’une expérience unifiée Adobe :
    * app.workfrontfusion.com (US AWS)

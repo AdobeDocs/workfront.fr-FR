@@ -7,18 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 95%
+source-wordcount: '163'
+ht-degree: 73%
 
 ---
 
 # Format de domaine pour les appels API Adobe Workfront
 
-Lorsque vous effectuez un appel API vers l’API Workfront, vous utilisez le domaine de votre entreprise dans l’appel. Le format de cette URL de domaine varie selon que votre entreprise a été intégrée ou non à Adobe Unified Shell.
+Lorsque vous effectuez un appel API à l’API Workfront, vous utilisez le domaine de votre organisation dans l’appel.
 
-Pour savoir si votre entreprise se trouve sur Adobe Unified Shell, examinez l’URL qui s’affiche lorsque vous consultez une page Workfront.
+L’URL que vous créez pour l’appel API dépend de l’URL que vous utilisez pour vous connecter à Workfront.
 
 | L’URL Workfront commence par : | URL des appels API : |
 |---|---|
@@ -33,7 +33,7 @@ Pour savoir si votre entreprise se trouve sur Adobe Unified Shell, examinez l�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 

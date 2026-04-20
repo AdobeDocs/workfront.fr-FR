@@ -6,10 +6,10 @@ description: Apprenez à afficher le contenu d’une épreuve.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 95%
+source-wordcount: '818'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez utiliser la visionneuse de relecture pour afficher et baliser des fi
 
 >[!NOTE]
 >
->Si votre instance Workfront se trouve dans l’expérience unifiée, la visionneuse de relecture s’ouvre dans un nouvel onglet.
+>La visionneuse de relecture s’ouvre dans un nouvel onglet.
 
 
 ## Conditions d’accès
@@ -31,7 +31,7 @@ Vous pouvez utiliser la visionneuse de relecture pour afficher et baliser des fi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

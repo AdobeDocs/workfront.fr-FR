@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1584'
 ht-degree: 91%
 
 ---
@@ -29,7 +29,7 @@ Le sandbox à actualisation personnalisée est un environnement dans lequel vous
 >
 >  De plus, l’obtention du sandbox à actualisation personnalisée nécessite un coût supplémentaire, qui n’est pas nécessaire pour le sandbox de prévisualisation.
 >
->  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Conditions d’accès
 
@@ -189,19 +189,25 @@ Pour planifier une actualisation de votre sandbox à actualisation personnalisé
 >[!NOTE]
 >
 >La remise de rapports et les notifications push sur l’application mobile sont toujours désactivées pour l’environnement de sandbox à actualisation personnalisée. Ni vous ni l’équipe d’administration de [!DNL Workfront] ne pouvez activer la remise de rapports ou les notifications push pour l’application mobile lorsque vous accédez à l’environnement de sandbox à actualisation personnalisée.\
->Pour plus d’informations sur les remises de rapports pour l’environnement de production, voir [Vue d’ensemble de la remise de rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md). Pour plus d’informations sur les notifications push sur l’application mobile pour l’environnement de production, voir la section dans .
+>Pour plus d’informations sur les remises de rapports pour l’environnement de production, voir [Vue d’ensemble de la remise des rapports](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Configurer l’authentification unique dans le sandbox à actualisation personnalisée
+<!--
 
-Si vous souhaitez configurer votre sandbox à actualisation personnalisée pour qu’il fonctionne avec une solution d’authentification unique, vous pouvez le faire en le configurant séparément de votre environnement de production. La configuration SSO dans le sandbox à actualisation personnalisée est indépendante de votre configuration SSO dans l’environnement de production.\
-Lorsque vous actualisez votre sandbox à actualisation personnalisée, les informations SSO ne sont pas copiées à partir de votre environnement de production pour remplacer la configuration du sandbox à actualisation personnalisée.
+Remove me October 2026
 
-Les étapes de configuration de l’authentification unique dans le sandbox à actualisation personnalisée sont similaires à celles de l’environnement de production.\
-Pour plus d’informations sur la configuration SSO pour [!DNL Workfront], consultez la section [Vue d’ensemble de l’authentification unique dans Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+## Configure Single Sign-On in the Custom Refresh Sandbox
+
+If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
+
+The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->L’authentification unique n’est pas disponible si l’instance [!DNL Workfront] de votre entreprise utilise l’authentification Adobe IMS. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+>This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+
+-->
 
 ## Recalcul automatique des chronologies des projets
 

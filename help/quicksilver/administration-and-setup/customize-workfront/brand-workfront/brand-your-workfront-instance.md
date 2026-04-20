@@ -3,15 +3,15 @@ title: Marque de votre instance Adobe Workfront
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: En tant qu’administrateur ou administratrice Workfront, vous pouvez personnaliser Workfront avec des logos dans l’écran de connexion, la zone de navigation supérieure et le menu principal. Vous pouvez également modifier l’image d’arrière-plan et la couleur de l’écran de connexion.
+description: L’image de marque n’est plus disponible pour Adobe Workfront. Cette fonctionnalité a été abandonnée dans le cadre de l’intégration de Workfront à Adobe Experience Cloud.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 97%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -23,118 +23,125 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à [!DNL Adobe Experience Cloud].
+>L’image de marque n’est plus disponible pour Adobe Workfront. Cette fonctionnalité a été abandonnée dans le cadre de l’intégration de Workfront à Adobe Experience Cloud.
+
+<!-- 
+
+
+>[!IMPORTANT]
 >
-> Si votre entreprise a été intégrée à [!DNL Adobe Experience Cloud], le branding n’est pas disponible.
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
 
-En tant qu’administrateur ou administratrice Workfront, vous pouvez personnaliser Workfront à l’aide de logos aux emplacements suivants :
+As a Workfront administrator, you can brand Workfront with logos in the following places:
 
-* Écran de connexion
+* Login screen
 
-  ![Marque dans l’écran de connexion](assets/brand-login-screen-nwe-adobe.jpg)
+  ![Brand in login screen](assets/brand-login-screen-nwe-adobe.jpg)
 
-* Zone de navigation supérieure
+* Top navigation area
 
-  ![Marque dans la barre de navigation supérieure](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![Brand in top navigation](assets/brand-top-nav-area-nwe-adobe.jpg)
 
-* Menu principal
+* Main Menu
 
-  ![Marque dans le menu principal](assets/brand-main-menu-adobe.jpg)
+  ![Brand in main menu](assets/brand-main-menu-adobe.jpg)
 
-Vous pouvez également modifier l’image d’arrière-plan et la couleur de l’écran de connexion :
+You can also change the background image and color of the login screen:
 
-![Bannière sur l’écran de connexion](assets/wf_banner_on_login_screen-adobe.png)
+![Banner on login screen](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
->* La modification de l’image d’arrière-plan et de la couleur de connexion n’est pas disponible si l’instance Workfront de votre entreprise utilise un portail d’authentification unique personnalisé. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+>* Changing the login background image and color is not available if your organization's Workfront instance uses a custom SSO portal. See your network or IT administrator if you need more information.
 >
-><!-- or is enabled with Adobe IMS -->
 >
->* Un administrateur ou administratrice Workfront ou un administrateur ou administratrice de groupes peut également personnaliser Workfront pour certains groupes et personnes utilisant un modèle de mise en page. Le branding dans un modèle de mise en page remplace le branding au niveau du système décrit dans cet article. Pour obtenir des instructions sur le branding dans un modèle de mise en page, voir [Personnaliser Adobe Workfront avec un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
+>* A Workfront administrator or group administrator can also brand Workfront for certain groups and users using a layout template. Branding in a layout template overrides the system-level branding explained in this article. For instructions on branding in a layout template, see [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
-## Conditions d’accès
+## Access requirements
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
-   <td><p>Tous</p></td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td>Licence Adobe Workfront</td> 
+   <td>Adobe Workfront license</td> 
    <td><p>Standard</p>
        <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td>Configurations des niveaux d’accès</td> 
-   <td>Administrateur ou administratrice système</td> 
+   <td>Access level configurations</td> 
+   <td>System Administrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Personnaliser l’écran de connexion
+## Brand the login screen
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Système** > **Branding**.
+1. Click **System** > **Branding**.
 
-1. Apportez l’une des modifications suivantes pour personnaliser Workfront avec vos images de marque.
+1. Make any of the following changes to customize Workfront with your branding images.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Personnaliser l’icône Accueil <span style="font-weight: normal;">(s’affiche à l’extrémité gauche de la zone de navigation supérieure)</span></p> </td> 
-      <td> <p>Dans la <strong>zone de navigation supérieure</strong>, dans l’<strong>icône Accueil</strong>, cliquez n’importe où dans la zone, puis recherchez et sélectionnez l’image de votre logo. Vous pouvez également faire glisser une image sur la zone.</p> <p>Pour recadrer l’image, utilisez les commandes de défilement et faites-la glisser jusqu’à la position voulue dans l’espace prévu à cet effet.</p> <p>Nous vous recommandons d’utiliser une image de 120 x 120 pixels. Elle peut être dans l’un des formats suivants : GIF, JPG, PNG, SVG.</p> <p>Cette icône s’affiche également dans les rapports, les listes, les tableaux de bord et les rapports distribués que les utilisateurs et utilisatrices exportent en tant que fichiers PDF.</p> </td> 
+      <td role="rowheader"> <p>Brand the Home icon <span style="font-weight: normal;">(displays at the far left of the top navigation area)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Home icon</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 120 x 120 image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> <p>This icon also appears in reports, lists, dashboards, and delivered reports that users export as PDF files.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Personnaliser le <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;"> du menu principal (qui s’affiche dans le coin supérieur droit du menu principal)</span></p> </td> 
-      <td> <p>Dans la <strong>zone de navigation supérieure</strong> dans le <strong>Logo du menu principal</strong>, cliquez n’importe où dans la zone, puis recherchez et sélectionnez l’image de votre logo. Vous pouvez également faire glisser une image sur la zone.</p> <p>Pour recadrer l’image, utilisez les commandes de défilement et faites-la glisser jusqu’à la position voulue dans l’espace prévu à cet effet.</p> <p>Nous vous recommandons d’utiliser une image de 300 x 120 pixels. Elle peut être dans l’un des formats suivants : GIF, JPG, PNG, SVG.</p> </td> 
+      <td role="rowheader"> <p>Brand the Main Menu <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(displays in the upper-right corner of the Main Menu)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Main Menu logo</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Personnaliser le logo de l’écran de connexion <span style="font-weight: normal;">(qui s’affiche dans le coin supérieur gauche de la zone où les utilisateurs et utilisatrices saisissent les informations de connexion)</span></td> 
-      <td> <p>Dans l’<strong>écran de connexion</strong>, cliquez n’importe où dans la zone, puis recherchez et sélectionnez l’image de votre logo. Pour recadrer l’image, utilisez les commandes de défilement et faites-la glisser jusqu’à la position voulue dans l’espace prévu à cet effet.</p> <p>Nous vous recommandons d’utiliser une image de 300 x 120 pixels. Elle peut être dans l’un des formats suivants : GIF, JPG, PNG, SVG.</p> </td> 
+      <td role="rowheader">Brand the login screen logo <span style="font-weight: normal;">(displays in the top-left of the box where users type login credentials)</span></td> 
+      <td> <p>Under <strong>Login Screen</strong>, click anywhere in the box, then find and select your logo image. To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Personnaliser la couleur d’arrière-plan de l’écran <span style="font-weight: normal;">(s’affiche derrière la zone dans laquelle les utilisateurs et utilisatrices saisissent les informations de connexion)</span></td> 
-      <td> <p>Dans l’<strong>écran de connexion</strong>, définissez une <strong>couleur d’arrière-plan</strong>. </p> <p>Vous pouvez utiliser des codes couleur RGB ou HEX.</p> <p>La couleur d’arrière-plan n’est visible que si l’arrière-plan de l’écran de connexion est plus grand que l’image d’arrière-plan de l’écran de connexion (voir la ligne suivante dans ce tableau) ou si l’image est transparente.</p> </td> 
+      <td role="rowheader">Brand the login screen background color <span style="font-weight: normal;">(displays behind the box where users type login credentials)</span></td> 
+      <td> <p>Under <strong>Login Screen</strong>, set a <strong>Background Color</strong>. </p> <p>You can use RGB or HEX color codes.</p> <p>The background color is visible only if the login screen background is larger than the login screen background image (see the next row in this table) or if there is any transparency in the image.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Afficher la marque sur l’image d’arrière-plan de l’écran de connexion <span style="font-weight: normal;">(s’affiche derrière la zone dans laquelle les utilisateurs et utilisatrices saisissent leurs informations de connexion)</span></td> 
+      <td role="rowheader">Brand the login screen background image <span style="font-weight: normal;">(displays behind the box where users type their login credentials)</span></td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1"> <p> Dans la zone <strong>Écran de connexion</strong>, sous <strong>Image d’arrière-plan</strong>, cliquez sur la zone, puis recherchez et sélectionnez votre image ou vos images JPG ou PNG (jusqu’à 20). </p> <p>Plusieurs images d’arrière-plan s’affichent dans un ordre aléatoire, et changent chaque fois que les utilisateurs ou utilisatrices actualisent leur page de connexion. Il est recommandé d’utiliser des images qui ne dépassent pas 2 Mo.</p> </li> 
-        <li value="2"> <p>Pointez sur chaque image d’arrière-plan que vous avez chargée, cliquez sur l’icône Paramètres (engrenage), puis utilisez l’une des options suivantes pour spécifier où et comment l’image doit apparaître en arrière-plan de l’écran de connexion :</p> 
+        <li value="1"> <p> In the <strong>Login Screen</strong> area, under <strong>Background Image</strong>, click the box, then find and select your JPG or PNG image or images (up to 20 ). </p> <p>Multiple background images display in random order, changing each time users refresh their login page. We recommend images no larger than 2 MB.</p> </li> 
+        <li value="2"> <p>Hover over each background image you have uploaded, click the Settings (gear) icon, and use any of the following options to specify where and how you want the image to appear in the login screen background:</p> 
          <ul> 
-          <li> <p><strong>Plein écran</strong> : ajuste l’image à l’arrière-plan de l’écran de connexion, ce qui peut l’agrandir. Utilisez une image haute résolution (jusqu’à 2 Mo) pour obtenir des résultats optimaux.</p> <p>Lorsque vous utilisez cette option, la bannière Workfront, qui n’est pas personnalisable, obscurcit une partie de votre image.</p> </li> 
-          <li> <p><strong>Mosaïque</strong> : affiche votre image en mosaïque dans la zone d’arrière-plan de l’écran de connexion, dans sa taille d’origine. Cela s’avère utile pour créer un modèle. Sélectionnez une option d’alignement en bleu pour commencer la mosaïque dans le coin supérieur gauche, en haut au centre ou dans le coin supérieur droit de la zone d’arrière-plan.</p> </li> 
-          <li> <p><strong>Position</strong> : place l’image dans sa taille d’origine à l’emplacement de votre choix à l’aide de l’une des options d’alignement en bleu : en haut à gauche, en haut au centre ou en haut à droite de la zone d’arrière-plan de l’écran de connexion.</p> <p>La couleur d’arrière-plan remplit le reste de la zone d’arrière-plan de l’écran de connexion. Pour plus d’informations sur la couleur d’arrière-plan, voir la ligne précédente dans ce tableau.</p> </li> 
+          <li> <p><strong>Fill Screen</strong>: Fits the image to the login screen background, which may enlarge the image. Use a high-resolution image (up to 2 MB) for the best results.</p> <p>When you use this option, the Workfront banner, which is not customizable, obscures part your image.</p> </li> 
+          <li> <p><strong>Tile</strong>: Tiles your image across the login screen background area, in its original size. This is useful for creating a pattern. Select a blue alignment option to start the tiling from the top-left corner, top-center, or top-right of the background area.</p> </li> 
+          <li> <p><strong>Position</strong>: Places your image in its original size in the position you choose using one of the blue alignment options: the top-left, top-center, or top-right of the login screen background area.</p> <p>The background color fills the rest of the login screen background area. For more about the background color, see the preceding row in this table.</p> </li> 
          </ul> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Réinitialiser sur la marque par défaut</td> 
-      <td> <p>La réinitialisation de la marque par défaut supprime toutes les photos et images que vous avez chargées.</p> <p>Cliquez sur <strong>Réinitialiser tous les paramètres de marque sur les paramètres par défaut Workfront</strong> dans le coin inférieur droit de l’écran, puis sur <strong>Oui</strong>.</p> </td> 
+      <td role="rowheader">Reset to the default branding</td> 
+      <td> <p>Resetting to the default branding deletes all photos and images that you have uploaded.</p> <p>Click <strong>Reset all branding to Workfront defaults</strong> in the lower-right corner of the screen, then click <strong>Yes</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!NOTE]
    >
-   >Cette option n’est pas disponible si l’instance Workfront de votre organisation utilise un portail SSO personnalisé.
+   >This is not available if your organization's Workfront instance uses a custom SSO portal.
    >
-   ><!--  or is enabled with Adobe IMS -->
    >
-   >Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+   >See your network or IT administrator if you need more information.
 
-1. Cliquer sur **Enregistrer**.
+1. Click **Save**.
+
+-->

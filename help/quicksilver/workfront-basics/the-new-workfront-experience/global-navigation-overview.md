@@ -5,10 +5,10 @@ description: La barre de navigation supérieure, qui s’affiche en haut de l’
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 4ad4873f1646a2ff499d03dabd9749d43022f6b1
+source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ La barre de navigation supérieure, qui s’affiche en haut de l’écran dans [
 
 L’icône d’**[!UICONTROL accueil]** ![](assets/home-icon.png) vous conduit à la page d’[!UICONTROL accueil], qui est la page de destination par défaut.
 
-Par défaut, l’icône d’accueil ouvre la zone d’accueil. Pour plus d’informations sur l’accueil, voir [Utiliser la zone d’[!UICONTROL accueil] &#x200B;](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Par défaut, l’icône d’accueil ouvre la zone d’accueil. Pour plus d’informations sur l’accueil, voir [Utiliser la zone d’[!UICONTROL accueil] ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 Votre administrateur ou administratrice Workfront peut personnaliser l’icône d’accueil pour ouvrir une autre page en créant un modèle de mise en page et en vous l’affectant. Pour plus d’informations, voir [Personnaliser la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
@@ -82,17 +82,13 @@ L’icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-ic
 
 Les options disponibles dans le [!UICONTROL menu principal] dépendent des éléments suivants :
 
-* **Configurations du modèle de mise en page** : pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier le [!UICONTROL menu principal] à partir d’un modèle de mise en page, consultez [Personnaliser le [!UICONTROL menu principal] à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **Configurations des modèles de mise en page** : pour savoir comment une équipe d’administration [!DNL Workfront] peut modifier le [!UICONTROL Menu principal] à partir d’un modèle de mise en page, voir [Personnaliser le [!UICONTROL Menu principal] à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* **Type de licence** : pour connaître les configurations par défaut de différents types de licence, voir [Comprendre la navigation pour un utilisateur ou une utilisatrice de licence de révision](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Comprendre la navigation pour un utilisateur ou une utilisatrice de licence de [!UICONTROL travail]](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Type de licence** : pour connaître les configurations par défaut des différents types de licence, voir [Comprendre la navigation pour un utilisateur de licence light](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Comprendre la navigation pour un utilisateur de licence [!UICONTROL Work]](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 Chaque icône vous conduit à une zone différente de Workfront.
 
 Pour en savoir plus sur chaque zone, voir :
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
--->
 
 <table style="table-layout:auto"> 
  <col> 

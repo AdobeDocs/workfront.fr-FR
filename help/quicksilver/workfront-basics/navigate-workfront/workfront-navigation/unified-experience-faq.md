@@ -8,14 +8,20 @@ feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 87%
+source-wordcount: '1409'
+ht-degree: 86%
 
 ---
 
 # Questions fréquentes sur [!DNL Adobe Unified Experience]
+
+<!--Remove me October 2026-->
+
+>[!NOTE]
+>
+>Toutes les organisations Workfront utilisent désormais l’expérience unifiée Adobe pour accéder à Workfront.
 
 [!DNL Adobe Unified Experience] pour [!DNL Workfront] vous permet de gérer l’ensemble de vos applications [!DNL Adobe] depuis un même endroit avec une seule connexion. La zone de navigation [!DNL Adobe] est intégrée de manière transparente à [!DNL Workfront]. Certaines fonctionnalités sont différentes et vous pouvez vous poser des questions lorsque vous migrez votre instance [!DNL Workfront] vers l’expérience unifiée.
 
@@ -57,17 +63,17 @@ Pour plus d’informations sur l’[!DNL Admin Console], passez en revue ces art
 
 * [Préparation pour  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [Différences d’administration basées sur les plateformes ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-* Vue d’ensemble d’[[!DNL Adobe Admin Console] &#x200B;](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
+* Vue d’ensemble d’[[!DNL Adobe Admin Console] ](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
 
 ### En tant que client ou cliente, que dois-je faire pour faciliter la migration ?
 
-Les clients et clientes existants seront contactés pour planifier les migrations. Les collègues de l’équipe de migration guideront les clients tout au long du processus, leur donneront des conseils sur la configuration de [!DNL Admin Console] et leur fourniront les liens vers la documentation nécessaire pour rendre leur migration aussi simple et facile que possible. Pour plus d’informations, consultez les [[!DNL Adobe Business Platform] et [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/workfront/faq) .
+Les clients et clientes existants seront contactés pour planifier les migrations. Les collègues de l’équipe de migration guideront les clients tout au long du processus, leur donneront des conseils sur la configuration de [!DNL Admin Console] et leur fourniront les liens vers la documentation nécessaire pour rendre leur migration aussi simple et facile que possible. Pour plus d’informations, consultez les [[!DNL Adobe Business Platform] et [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq) .
 
 ### Comment gérez-vous [!DNL Adobe Admin Console] pour les entreprises qui l’ont déjà activé pour les ID fédérés différemment de la configuration SSO [!DNL Workfront] ?
 
 [!DNL Adobe Admin Console] a la possibilité d’inclure des [!DNL Workfront], en remplaçant l’authentification unique par le système Identity Management (IMS) d’Adobe. L’approvisionnement des utilisateurs et utilisatrices s’effectue dans [!DNL Admin Console]. Les utilisateurs et utilisatrices verront l’écran de connexion [!DNL Adobe] pour accéder à [!DNL Experience Cloud] où [!DNL Workfront] apparaît comme option (si l’accès leur est accordé).
 
-### Comment cela affecte-t-il les clients et clientes qui disposent déjà du panneau d’administration AEM pour , mais dont SSO est configuré différemment de  ? [!DNL Adobe Assets]&#x200B;[!DNL Workfront?]
+### Comment cela affecte-t-il les clients et clientes qui disposent déjà du panneau d’administration AEM pour , mais dont SSO est configuré différemment de  ? [!DNL Adobe Assets][!DNL Workfront?]
 
 Une fois [!DNL Workfront] ajouté en tant qu’application [!DNL Admin Console], vous ne devriez pas avoir à faire quoi que ce soit d’autre pour [!DNL Workfront] afin d’utiliser la configuration SSO existante dont vous disposez pour [!DNL Adobe Assets].
 
@@ -109,9 +115,9 @@ Oui, un processus est prévu pour cela. Vous recevrez des informations suppléme
 
 ### Que se passe-t-il pour les utilisateurs et les utilisatrices [!DNL Workfront] qui n’ont pas de compte [!DNL Adobe] ?
 
-Les utilisateurs et les utilisatrices qui n’ont pas reçu d’autorisation d’accès dans  pour accéder à  doivent créer un « compte personnel » ou un identifiant de compte  pour pouvoir se connecter. [!DNL Adobe Admin Console]&#x200B;[!DNL Workfront]&#x200B;[!DNL Adobe] Cette action envoie un e-mail à l’administrateur ou à l’administratrice pour approuver ou rejeter sa requête. Elle permet en outre à l’administrateur ou à l’administratrice de configurer le type d’accès dont dispose cet utilisateur ou cette utilisatrice. Lorsque ces personnes se connectent, elles accèdent à experience.adobe.com, saisissent leur adresse e-mail et choisissent [!UICONTROL Compte personnel]. De là, elles peuvent accéder à [!DNL Workfront].
+Les utilisateurs et les utilisatrices qui n’ont pas reçu d’autorisation d’accès dans  pour accéder à  doivent créer un « compte personnel » ou un identifiant de compte  pour pouvoir se connecter. [!DNL Adobe Admin Console][!DNL Workfront][!DNL Adobe] Cette action envoie un e-mail à l’administrateur ou à l’administratrice pour approuver ou rejeter sa requête. Elle permet en outre à l’administrateur ou à l’administratrice de configurer le type d’accès dont dispose cet utilisateur ou cette utilisatrice. Lorsque ces personnes se connectent, elles accèdent à experience.adobe.com, saisissent leur adresse e-mail et choisissent [!UICONTROL Compte personnel]. De là, elles peuvent accéder à [!DNL Workfront].
 
-### Que faire si nous n’avons pas de produits  autres que  ? [!DNL Adobe]&#x200B;[!DNL Workfront?]
+### Que faire si nous n’avons pas de produits  autres que  ? [!DNL Adobe][!DNL Workfront?]
 
 Il est toujours recommandé que votre entreprise effectue la migration vers . [!DNL Adobe Unified Experience] Vous recevrez un identifiant [!DNL Adobe] et disposerez des avantages répertoriés ci-dessus.
 

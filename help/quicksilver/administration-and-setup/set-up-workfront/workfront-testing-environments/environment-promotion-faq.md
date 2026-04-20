@@ -3,20 +3,20 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: FAQ sur la promotion de l’environnement
+title: FAQ sur la promotion environnementale
 description: Consultez les questions fréquentes sur la promotion de l’environnement Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 16%
+source-wordcount: '270'
+ht-degree: 19%
 
 ---
 
-# FAQ sur la promotion de l’environnement
+# FAQ sur la promotion environnementale
 
 Les questions suivantes sont fréquemment posées sur la promotion de l’environnement :
 
@@ -25,12 +25,6 @@ Les questions suivantes sont fréquemment posées sur la promotion de l’enviro
 ### Réponse
 
 La promotion interdomaines de l’environnement n’est actuellement pas prise en charge. Vous devez effectuer une promotion entre les environnements du même domaine.
-
-## La plateforme commerciale Adobe/IMS est-elle une condition préalable à la promotion de l’environnement ?
-
-### Réponse
-
-Non. La promotion d’environnement est disponible pour les instances Workfront compatibles et non compatibles avec IMS.
 
 ## Comment déterminer si notre instance Workfront dispose d’une licence Prime ou Ultimate ?
 

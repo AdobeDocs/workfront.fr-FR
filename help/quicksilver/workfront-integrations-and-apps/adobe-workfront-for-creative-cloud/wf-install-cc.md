@@ -8,10 +8,10 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 76%
+source-wordcount: '577'
+ht-degree: 77%
 
 ---
 
@@ -108,7 +108,7 @@ Vous pouvez installer [!DNL Adobe Workfront for design and video] pour vous-mêm
    >
    >Si vous utilisez Premiere Pro, un projet doit être ouvert pour accéder à ce menu.
 
-   ![Menu &#x200B;](assets/adobe-workfront-menu.png)
+   ![Menu ](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -168,4 +168,4 @@ Pour résoudre ce problème, procédez comme suit :
 
 1. Revenez au plug-in et saisissez votre domaine Workfront. Le domaine doit être `company-name.my.workfront.com` et non `experience.adobe.com`.
 
-   Pour [rechercher votre domaine Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) si vous utilisez l’expérience unifiée Adobe, accédez à Configuration, Informations sur le client.
+   Pour [rechercher votre domaine Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) , accédez à Configuration, Informations sur le client.

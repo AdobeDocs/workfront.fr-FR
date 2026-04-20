@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 14%
+source-wordcount: '1473'
+ht-degree: 13%
 
 ---
 
@@ -61,8 +61,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Pour utiliser le remplissage de formulaire optimisé par l’IA afin de remplir une requête à l’aide d’une invite ou d’un document, **toutes** les conditions suivantes doivent s’appliquer :
 
-* Votre organisation doit avoir migré vers Adobe IMS (système de gestion des identités).
-* L’expérience unifiée Adobe doit être activée.
+<!--
+Remove me October 2026
+* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled
+-->
 * Votre organisation doit disposer d’un plan Workfront Select, Prime ou Ultimate.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé.
 

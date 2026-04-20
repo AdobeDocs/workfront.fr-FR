@@ -1,23 +1,19 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Plusieurs onglets de navigateur entraînent la déconnexion de Workfront
+title: Plusieurs onglets du navigateur entraînent la déconnexion de Workfront
 description: Lorsqu’une personne a plusieurs onglets de navigateur ouverts, Workfront peut se déconnecter automatiquement.
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 30%
+source-wordcount: '164'
+ht-degree: 42%
 
 ---
 
-# Plusieurs onglets de navigateur entraînent la déconnexion de Workfront
-
->[!IMPORTANT]
->
->Ce problème est uniquement présent pour les organisations qui ont été intégrées à Adobe IMS.
+# Plusieurs onglets du navigateur entraînent la déconnexion de Workfront
 
 ## Problème
 

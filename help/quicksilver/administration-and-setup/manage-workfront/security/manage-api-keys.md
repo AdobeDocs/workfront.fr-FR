@@ -10,10 +10,10 @@ role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 92%
+source-wordcount: '736'
+ht-degree: 95%
 
 ---
 
@@ -106,39 +106,45 @@ Vous pouvez générer, réinitialiser ou supprimer la clé API pour votre compt
 
    Pour supprimer la clé API : dans la section **Paramètres de la clé API**, cliquez sur **Supprimer**, puis sur **Supprimer**.
 
-## Générer une clé API pour les personnes non administratrices
+<!--
 
-Vous pouvez générer et gérer des clés API pour les personnes ayant un rôle autre que celui d’administrateur ou administratrice Workfront.
+   Remove me October 2026
+
+## Generate an API Key for Non-Admin Users
+
+You can generate and manage API Keys for users in roles other than Workfront administrator.
 
 >[!NOTE]
 >
->Cette option n’est pas disponible si l’instance Workfront de votre organisation repose sur Adobe IMS. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-1. (Le cas échéant) Si votre organisation utilise la gestion des accès par authentification unique (SSO), désactivez temporairement l’option nécessitant l’authentification SSO.
+1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
+
+   {{step-1-to-setup}} 
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**. 
+   1. In the **Type** field, select the type of SSO your organization uses.
+   1. With the type selected, scroll down and clear the **Enable** checkbox. 
+      ![Enable SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+   1. Click **Save**.
+
+
+1. In the address bar of a browser, enter the following API call:
+
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
+
+   Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
+
+1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 
    {{step-1-to-setup}}
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**.
+   
+   1. Select your SSO method in the **Type** drop down menu.
+   1. Check the checkbox requiring SSO authentication.
 
-   1. Développez **Système**, puis cliquez sur **Authentification unique (SSO)**.
-   1. Dans le champ **Type**, sélectionnez le type de SSO utilisé par votre entreprise.
-   1. Avec le type sélectionné, faites défiler l’écran vers le bas et décochez la case **Activer**.
-      ![Activer SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
-   1. Cliquer sur **Enregistrer**.
-
-
-1. Dans la barre d’adresse d’un navigateur, saisissez l’appel API suivant :
-
-   `<domain>`**username**&amp;password=**password**&amp;method=PUT
-
-   Remplacez `<domain>` par votre nom de domaine Workfront, et le nom d’utilisateur ou d’utilisatrice et le mot de passe par les informations d’identification Workfront de la personne.
-
-1. (Le cas échéant) Activez l’option nécessitant une authentification SSO si vous l’avez désactivée à l’étape 1.
-
-   {{step-1-to-setup}}
-
-   1. Développez **Système**, puis cliquez sur **Authentification unique (SSO)**.
-
-   1. Sélectionnez votre méthode SSO dans le menu déroulant **Type**.
-   1. Cochez la case demandant l’authentification SSO.
+   -->
 
 ## Configurer l’expiration des clés API
 
@@ -175,57 +181,63 @@ Si une faille de sécurité particulière vous préoccupe concernant votre syst�
 
 1. Dans la zone **Paramètres de la clé API**, cliquez sur **Supprimer toutes les clés API**, puis sur **Supprimer** **tout**.
 
-## Restreindre les connexions à l’API à l’aide d’un certificat X.509
+<!--
+
+Remove me October 2026
+
+## Restricting API logins with an X.509 certificate
 
 >[!IMPORTANT]
 >
->La procédure décrite dans cette section ne s’applique qu’aux organisations qui n’ont pas encore été intégrées à Adobe Business Platform. La connexion à Workfront via l’API Workfront n’est pas disponible si votre entreprise a été intégrée à Adobe Business Platform.
+>The procedure described in this section applies only to organizations that have not yet been onboarded to the Adobe Business Platform. Logging in to Workfront through the Workfront API is not available if your organization has been onboarded to the Adobe Business Platform.
 >
->Pour obtenir une liste de procédures qui diffèrent selon que votre entreprise a été intégrée ou non à Adobe Business Platform, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
->Cette option n’est pas disponible si l’instance Workfront de votre organisation repose sur Adobe IMS. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-Les applications tierces peuvent communiquer avec Workfront par le biais de l’API. Pour renforcer la sécurité de votre site Workfront, vous pouvez configurer Workfront pour restreindre les demandes de connexion à l’API en chargeant un certificat X.509 dans Workfront. Une fois cette option activée, toutes les demandes de connexion via l’API doivent inclure un certificat client en plus du nom d’utilisateur ou d’utilisatrice et du mot de passe.
+Third-party applications can communicate with Workfront through the API. To increase the security of your Workfront site, you can configure Workfront to restrict API login requests by uploading an X.509 certificate to Workfront. Once enabled, all login requests through the API must include a client certificate in addition to username and password.
 
-* [Obtenir le certificat X.509](#obtain-the-x-509-certificate)
-* [Charger le certificat dans Workfront](#upload-the-certificate-to-workfront)
-* [Vérifier que les appels de connexion à l’API sont limités](#verify-api-login-calls-are-restricted)
+* [Obtain the X.509 certificate](#obtain-the-x-509-certificate) 
+* [Upload the certificate to Workfront](#upload-the-certificate-to-workfront) 
+* [Verify API login calls are restricted](#verify-api-login-calls-are-restricted)
 
-### Obtenir le certificat X.509 {#obtain-the-x-509-certificate}
+### Obtain the X.509 certificate {#obtain-the-x-509-certificate}
 
-Obtenez un certificat X.509 valide d’une autorité de certification approuvée (telle que Verisign) et enregistrez-le à un emplacement temporaire sur votre station de travail.
+Obtain a valid X.509 certificate from a trusted Certificate Authority (such as Verisign), and save it to a temporary location on your workstation. 
 
-### Charger le certificat dans Workfront {#upload-the-certificate-to-workfront}
+### Upload the certificate to Workfront {#upload-the-certificate-to-workfront}
 
-Après avoir obtenu le certificat X.509 auprès de votre autorité de certification, vous devez le charger dans Workfront.
+After you have obtained the X.509 certificate from your Certificate Authority, you need to upload it to Workfront.
 
-1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  
 
-1. Développez **Système**, puis cliquez sur **Infos client**.
+1. Expand **System**, then click **Customer Info**.
 
-1. Dans la zone **Paramètres de clé API**, sélectionnez **Exiger un certificat X.509 pour les connexions API**.
-1. Cliquez sur **Modifier le certificat**.
-1. Sur votre poste de travail, recherchez et sélectionnez le certificat X.509 que vous avez téléchargé précédemment.
-1. (Facultatif) Cliquez sur **Afficher les détails** en regard du nom du certificat pour afficher les détails suivants sur le certificat :
+1. In the **API Key Settings** area, select **Require X.509 Certificate for API logins**.
+1. Click **Change Certificate**.
+1. On your workstation, browse to and select the X.509 certificate that you previously downloaded.
+1. (Optional) Click **View Details** next to the certificate name to view the following details about the certificate:
 
-   * Nom courant du sujet
-   * Organisation du sujet
-   * Unité organisationnelle du sujet
-   * Nom courant de l&#39;émetteur
-   * Organisation de l&#39;émetteur
-   * Unité organisationnelle de l&#39;émetteur
-   * Numéro de série
-   * Date de l&#39;événement
-   * Date d&#39;expiration
+   * Subject Common Name
+   * Subject Organization
+   * Subject Organization Unit
+   * Issuer Common Name
+   * Issuer Organization
+   * Issuer Organization Unit
+   * Serial Number
+   * Issue Date
+   * Expiration Date
 
-1. Cliquer sur **Enregistrer**.
+1. Click **Save**. 
 
-### Vérifier que les appels de connexion à l’API sont limités {#verify-api-login-calls-are-restricted}
+### Verify API login calls are restricted {#verify-api-login-calls-are-restricted}
 
-Avant de configurer votre instance Workfront pour qu’elle demande un certificat X.509, effectuez une demande API au point d’entrée `/login` en utilisant des paramètres de nom d’utilisateur et d’utilisatrice et de mot de passe valides. Vous recevrez une réponse 200 contenant un sessionID.
+Prior to configuring your instance of Workfront to require an X.509 certificate, perform an API request to the `/login` endpoint using valid username and password parameters. You will receive a 200 response that contains a sessionID.
 
-Après avoir rendu le certificat X.509 obligatoire via la page d’informations sur le client de votre instance de Workfront, effectuez une autre tentative de connexion. Cette fois, vous recevrez une réponse d’erreur 500 avec le message suivant : « Demande non fiable. Contactez votre administrateur système et joignez un certificat. »
+After making the X.509 certificate a requirement via the customer info page in your instance of Workfront, make another login attempt. This time you will receive a 500 error response with the following message: "Untrusted request. Please contact your system administrator and attach certificate."
 
-Après avoir confirmé que le certificat X.509 est nécessaire, effectuez la même demande de connexion avec un paramètre supplémentaire pour apiCertificate défini sur la valeur de votre certificat. Si cette opération a été effectuée correctement, vous recevrez une réponse 200 contenant un sessionID valide.
+After confirming that the X.509 certificate is required, perform the same login request with an additional parameter for apiCertificate set to the value of your certificate. If this operation was performed correctly you will receive a 200 response that contains a valid sessionID.
+
+-->

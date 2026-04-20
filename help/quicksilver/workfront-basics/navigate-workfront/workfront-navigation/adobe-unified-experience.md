@@ -6,10 +6,10 @@ description: Avec l’accès à  [!DNL Workfront]  grâce à Adobe Experience 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 64%
+source-wordcount: '688'
+ht-degree: 61%
 
 ---
 
@@ -18,13 +18,6 @@ ht-degree: 64%
 <!--Audited: 10/2024-->
 
 Avec l’accès à [!DNL Workfront] grâce à [!DNL Adobe Experience Cloud], vous bénéficiez d’une expérience transparente et unifiée pour gérer l’ensemble de vos applications [!DNL Adobe]. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans avoir à utiliser plusieurs URL ou identifiants de connexion.
-
-Si votre organisation utilise l’expérience unifiée Adobe, l’URL que vous utilisez pour accéder à Workfront commence par `experience.adobe.com`.
-
-| URL | Adobe Experience |
-|------------|------------|
-| (Nom de l’entreprise).my.workfront.com | Expérience Workfront |
-| experience.adobe.com | Adobe Unified Experience |
 
 ## Conditions d’accès
 
@@ -40,7 +33,7 @@ Si votre organisation utilise l’expérience unifiée Adobe, l’URL que vous u
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
-   <td> <p>Contributeur ou version ultérieure</p> 
+   <td> <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p> </td> 
   </tr> 
  </tbody> 
@@ -94,7 +87,7 @@ Après la connexion à [!DNL Adobe Experience Cloud], vous pouvez afficher l’e
 Utilisez l’icône [!UICONTROL Menu principal] ![icône du menu principal](assets/main-menu-icon-left-nav.png) située à gauche de la barre de navigation [!DNL Workfront] pour accéder à toutes les pages auxquelles vous avez accès. Les options disponibles dans le [!UICONTROL Menu principal] dépendent des éléments suivants :
 
 * **Configurations des modèles de mise en page** : pour savoir comment une équipe d’administration [!DNL Workfront] peut modifier le [!UICONTROL Menu principal] à partir d’un modèle de mise en page, voir [Personnaliser le [!UICONTROL Menu principal] à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-* **Type de licence** : pour découvrir les configurations par défaut de différents types de licence, voir [Comprendre la navigation pour un utilisateur ou une utilisatrice d’une licence de [!UICONTROL relecture]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Comprendre la navigation pour un utilisateur ou une utilisatrice d’une licence de [!UICONTROL travail]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Type de licence** : pour connaître les configurations par défaut des différents types de licence, voir [Comprendre la navigation pour un utilisateur [!UICONTROL light]-license](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Comprendre la navigation pour un utilisateur [!UICONTROL work]-license](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 ![Menu principal](assets/main-menu-options-left-nav.png)
 
@@ -126,7 +119,7 @@ Si votre organisation utilise une application distincte pour gérer les mots de 
 
 Si votre mot de passe est géré par [!DNL Adobe], vous pouvez modifier le mot de passe de votre compte Adobe.
 
-[Voir cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/fr/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Voir cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Pour plus d’informations sur la modification de votre mot de passe, contactez votre administrateur ou administratrice.
 

@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 93%
+source-wordcount: '1571'
+ht-degree: 91%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 93%
 
 <!--Audited: 12/2024-->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page ne s’applique qu’aux entreprise qui n’ont pas encore été intégrées à l’Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
+>La procédure décrite sur cette page ne s’applique qu’aux entreprise qui n’ont pas encore été intégrées à l’Admin Console. Une fois votre organisation intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
+>
+>**Toutes les organisations ayant été migrées vers Adobe Admin Console, les informations contenues dans cet article ne sont plus pertinentes et seront supprimées dans un avenir proche.**
 >
 >Pour obtenir des instructions sur l’octroi d’un accès administrateur complet dans Adobe Admin Console, voir [Gérer les utilisateurs dans Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
@@ -43,7 +47,7 @@ En tant que personne membre de l’administration Adobe Workfront, vous pouvez 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -188,7 +192,7 @@ Les utilisateurs et les utilisatrices disposant d’une licence Plan qui peuvent
    <td> <p>Si l’accès administratif de groupes des utilisateurs et des utilisatrices est activé à leur niveau d’accès et que la fonction d’administration de groupes leur est aussi affectée, la connexion en tant qu’utilisateurs ou utilisatrices du groupe administré et de ses sous-groupes leur est accordée. Par contre l’administration système ne leur est pas accordée.<br>Pour plus d’informations sur l’activation de l’accès administratif de groupes pour les utilisateurs et les utilisatrices, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et aux utilisatrices</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Planifications</td> 
+   <td>Plannings</td> 
    <td>Accès complet</td> 
    <td> <p>Pas d’accès à la modification des plannings.</p> <p>Accès à l’ajout de plannings existants à d’autres personnes, au niveau de l’utilisateur ou de l’utilisatrice. </p> </td> 
   </tr> 
@@ -415,7 +419,7 @@ Les utilisateurs et les utilisatrices disposant d’une licence Plan qui peuvent
    <td>Accès complet</td> 
   </tr> 
   <tr> 
-   <td>Utilisateurs</td> 
+   <td>Utilisateurs et utilisatrices</td> 
    <td>Accès complet</td> 
    <td> <p>Accès limité</p> <p>Les groupes ne sont pas attribués à des personnes dont ils ne sont pas administrateurs ou administratrices de groupes ou à des groupes qui ne sont pas publics.</p> <p>Un niveau d’accès supérieur à leur propre niveau d’accès ne peut pas être attribué aux utilisateurs et aux utilisatrices.</p> <p>Si l’accès d’administration de groupes est activé pour leur niveau d’accès et que l’administration de groupes leur est attribuée pour un groupe, les droits de réinitialisation du mot de passe et de connexion des utilisateurs et des utilisatrices de ce groupe et de ses sous-groupes leur sont accordés La réinitialisation du mot de passe et la connexion en tant qu’administrateur ou administratrice système n’est pas disponible.<br>Pour plus d’informations sur l’activation de l’accès administratif de groupes pour les utilisateurs et les utilisatrices, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et aux utilisatrices</a>.</p> </td> 
   </tr> 
