@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: d20215ae2d535ba98ca27ce62aaa28fd372e935a
+source-git-commit: ca0583d7e375e7f17d058d7ca287785d17de35dd
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 9%
 
 ---
@@ -79,10 +79,6 @@ Les collaborateurs Reviewer AI peuvent être configurés pour utiliser les marqu
 
 * **Marques** : les marques sont créées dans Workfront. Vous pouvez créer des marques dans Workfront en chargeant des fichiers PDF qui contiennent vos directives de marque ou en saisissant manuellement des éléments de marque.
 * <span class="preview">**Adobe Brand Intelligence** : lorsqu’un collaborateur d’IA examine une ressource à l’aide d’Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur dans Frame.io.  </span>
-
->[!NOTE]
->
->Le réviseur de contenu n’est pas disponible dans les environnements Sandbox.
 
 
 {{step-1-to-setup}}
