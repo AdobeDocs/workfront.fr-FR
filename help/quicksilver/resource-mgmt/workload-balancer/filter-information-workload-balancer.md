@@ -6,9 +6,9 @@ description: Pour rechercher efficacement des éléments de travail et vous conc
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 8bd433c11334d3ecd12afc98ee2d33fac06826f3
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '2448'
 ht-degree: 50%
 
 ---
@@ -35,6 +35,8 @@ En tant que personne gestionnaire de ressources, vous pouvez utiliser l’équil
 Cet article contient des informations sur les filtres dans l’équilibreur de charge de travail. Pour plus d’informations sur les filtres dans Workfront, voir [Vue d’ensemble des filtres](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,11 +74,13 @@ Cet article contient des informations sur les filtres dans l’équilibreur de c
 
 Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Vue d’ensemble des filtres dans l’équilibreur de charge de travail
 
 Tenez compte des points suivants lorsque vous utilisez des filtres dans l’équilibreur de charge de travail :
 
-* Selon le point d’accès à l’équilibreur de charge de travail, il se peut que Workfront filtre déjà les informations pour vous. Pour plus d’informations, consultez la section suivante de cet article : [&#x200B; Filtres préappliqués dans l’équilibreur de charge de travail &#x200B;](#pre-applied-filters-in-the-workload-balancer).
+* Selon le point d’accès à l’équilibreur de charge de travail, il se peut que Workfront filtre déjà les informations pour vous. Pour plus d’informations, consultez la section suivante de cet article : [ Filtres préappliqués dans l’équilibreur de charge de travail ](#pre-applied-filters-in-the-workload-balancer).
 * Vous pouvez créer et appliquer un filtre sans l’enregistrer, ou enregistrer un filtre pour le réutiliser ultérieurement.
 * Lorsque vous appliquez un filtre sans l’enregistrer, vous pouvez revenir aux listes d’origine en actualisant votre page.
 * Vous pouvez afficher les filtres que vous avez créés ou ceux que d’autres utilisateurs et utilisatrices ont créés et partagés avec vous.
@@ -195,7 +199,7 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres p
       >
       > Lorsque vous souhaitez afficher les objets de travail d&#39;un portfolio spécifique, vous pouvez appliquer le filtre suivant : Portfolio ID Equals &lt; PORTFOLIO NAME >.
       >
-      >![Instruction de filtre de nom de Portfolio](assets/portfolio-name-filter.png)
+      >![Instruction de filtre de nom de ](assets/portfolio-name-filter.png)
       >
       >Pour exclure les projets dont le statut est En attente, vous devez appliquer le filtre suivant : Projet : Le statut n’est pas égal à En attente. Cela empêche les éléments de travail des projets En attente de s’afficher dans l’équilibreur de charge de travail.
       >
