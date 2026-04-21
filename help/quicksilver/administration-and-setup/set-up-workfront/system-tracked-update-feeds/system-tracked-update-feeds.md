@@ -38,7 +38,7 @@ La zone [!UICONTROL Mises à jour] comprend les types de mises à jour suivants�
 
   Pour plus d’informations sur les flux de mise à jour système et leur activation, consultez la section [Configurer les mises à jour système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  ![ Exemple de mises à jour système ](assets/system-updates-example-unified-stream.png)
+  ![&#x200B; Exemple de mises à jour système &#x200B;](assets/system-updates-example-unified-stream.png)
 
 
   <!--
