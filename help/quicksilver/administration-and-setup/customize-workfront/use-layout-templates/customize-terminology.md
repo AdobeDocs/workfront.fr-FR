@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 3080fc1ebf33186f3bdf64a960fd1b5572dbfb2f
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 90%
+source-wordcount: '641'
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,7 @@ Après avoir enregistré un modèle de mise en page dans lequel vous avez modifi
 >[!NOTE]
 >
 >* Vous pouvez rencontrer des problèmes de grammaire et d’autres problèmes lorsque vous personnalisez des libellés. Par exemple, si vous remplacez « Problème » par « Demande », l’expression « Une demande » peut se trouver dans l’interface d’utilisation. Pour plus d’informations, voir [Implications de la personnalisation des noms d’objet](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) dans l’article [Présentation des objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
->
+>* Pour personnaliser les traductions terminologiques dans des langues autres que l’anglais, consultez [Configuration d’une localisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
 Pour plus d’informations sur les modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
