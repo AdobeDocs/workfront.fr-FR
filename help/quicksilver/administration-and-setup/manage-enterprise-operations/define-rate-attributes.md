@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 2%
@@ -86,7 +86,8 @@ Les attributs de taux sont pris en charge dans toutes les zones où des taux exi
 
 <!--
 BULLET POINT Staffing plan resources
-BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.
+-->
 
 <!--Non-labor resource categories and -->Les fonctions ne prennent pas en charge les attributs de taux directement au niveau de l’objet. Ils sont connectés aux attributs de taux par le biais des taux qui y sont définis.
 

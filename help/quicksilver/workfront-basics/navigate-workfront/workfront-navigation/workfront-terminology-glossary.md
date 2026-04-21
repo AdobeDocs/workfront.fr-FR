@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '21621'
 ht-degree: 99%
@@ -52,19 +52,18 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Cost]</td> 
-   <td> <p>Pour les tâches et les problèmes, il s’agit du coût associé aux heures effectives consignées par rapport au coût par heure de la ressource affectée à la tâche ou au problème. Pour les projets, il s’agit du total des [!UICONTROL Actual Costs] provenant des tâches et des problèmes du projet. Pour plus d’informations, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivre les coûts</a>.</p>
-
-<p>Les calculs du [!UICONTROL Coût réel] prennent en compte les [!UICONTROL Heures effectives héritées]. Pour plus d’informations, consultez la section « [!UICONTROL Heures effectives] » ou « [!UICONTROL Heures effectives héritées] » de ce tableau. </p>   </td> 
+   <td> <p>Pour les tâches et les problèmes, il s’agit du coût associé aux heures effectives consignées par rapport au coût par heure de la ressource affectée à la tâche ou au problème. Pour les projets, il s’agit du total des [!UICONTROL Actual Costs] provenant des tâches et des problèmes du projet. Pour plus d’informations, voir <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Suivre les coûts</a>.</p>    
+  <p>Les calculs du [!UICONTROL Coût réel] prennent en compte les [!UICONTROL Heures effectives héritées]. Pour plus d’informations, consultez la section « [!UICONTROL Heures effectives] » ou « [!UICONTROL Heures effectives héritées] » de ce tableau. </p>   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Expense Cost]</td> 
    <td> <p>Somme des [!UICONTROL Actual Amounts] pour toutes les dépenses enregistrées pour un projet ou une tâche.</p> <b>EXEMPLE</b>
    <p>Si vous créez une dépense pour la tâche 1 et que vous saisissez 600,00 $ dans le champ [!UICONTROL Actual Amount], le [!UICONTROL Actual Expense Cost] de cette tâche est de 600,00 $. </p> 
-   <p>Pour un projet, [!DNL Workfront] utilise la formule suivante pour calculer le [!UICONTROL Actual Expense Cost] :</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
+   <p>Pour un projet, [!DNL Workfront] utilise la formule suivante pour calculer le [!UICONTROL Actual Expense Cost] :</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p>
    <!--
-     <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
-    -->
-    </td>
+   <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p> 
+   -->
+   </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
@@ -91,9 +90,9 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <!--
   <tr> 
- <td>A type of work process that is unplanned.</td> 
- -->
+   <td>A type of work process that is unplanned.</td> 
   </tr>
+  -->
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Additional Schedules</td> 
@@ -118,7 +117,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
     <ul>
     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates</li>
-     --> 
+    --> 
      <li>[!UICONTROL Project] (données financières)</li> 
      <li>[!UICONTROL Budgeted Hour]</li> 
     </ul> <p>Pour un
@@ -134,15 +133,15 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          how resources are budgeted for work, or 
        </MadCap:conditionalText>
-      -->
+     -->
       la quantité d’[!UICONTROL Planned Hours] affectée à vos ressources.</li>
      <li> <p>La [!UICONTROL Allocation Date] est le premier jour (dimanche) d’une semaine au cours duquel l’attribution d’une [!UICONTROL Job Role] à une tâche commence. Une ressource ([!UICONTROL Job Role]) peut comporter autant de [!UICONTROL Allocation Dates] que de semaines au cours de la [!UICONTROL Duration] des tâches auxquelles elle est affectée. Si les tâches s’étendent sur plusieurs mois, le premier jour d’un mois peut également devenir une [!UICONTROL Allocation Date], si elle tombe dans la [!UICONTROL Duration] de la tâche.</p> <p>Par exemple, vous pouvez avoir une [!UICONTROL Job Role] affectée à une tâche qui s’étend sur 3 semaines et qui comprend 90 [!UICONTROL Planned Hours]. Ces heures sont réparties uniformément pendant la durée de la tâche, ce qui fait que chaque jour attribue 6 [!UICONTROL Planned Hours] à votre fonction :</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours]/ Nombre [!UICONTROL Work Days] pendant la [!UICONTROL Duration] de la tâche </em> </p> <p>Par conséquent, il existe trois [!UICONTROL Allocation Dates], une pour chaque dimanche de chaque semaine pendant la [!UICONTROL Duration] de la tâche, chacune associée à un certain nombre d’[!UICONTROL Planned Hours].<br>Si la tâche commence au milieu de la dernière semaine d’un mois et se termine deux semaines après le début d’un nouveau mois, la tâche aura quatre [!UICONTROL Allocation Dates] : une pour chaque dimanche de chaque semaine pendant la [!UICONTROL Duration] de la tâche, et une pour le premier jour du nouveau mois.</p> <p>Pour tirer le meilleur parti de ces informations, nous vous recommandons de créer un
-     <!--
+       <!--
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           Resource Estimates or a 
         </MadCap:conditionalText>
        -->
-       Créez un rapport Projet (Données financières) et ajoutez un regroupement de matrices pour [!UICONTROL Allocation Date], puis regroupez les résultats de façon hebdomadaire, mensuelle, trimestrielle ou annuelle pour obtenir les données les plus précises.<br>Pour plus d’informations sur la création d’un regroupement par matrice, consultez l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Créer un rapport de matrice</a>.</p> </li>
+     Créez un rapport Projet (Données financières) et ajoutez un regroupement de matrices pour [!UICONTROL Allocation Date], puis regroupez les résultats de façon hebdomadaire, mensuelle, trimestrielle ou annuelle pour obtenir les données les plus précises.<br>Pour plus d’informations sur la création d’un regroupement par matrice, consultez l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Créer un rapport de matrice</a>.</p> </li>
     </ul> <p>Les informations financières sont renseignées dans les rapports [!UICONTROL Project (Financial Data)] uniquement lorsque les données qui y sont associées ont moins de 5 ans. Par exemple, si une fonction a été affectée à une tâche en janvier 2015 et qu’aujourd’hui nous sommes le septembre 2021, un champ financier comme la [!UICONTROL Allocation Date] de la fonction n’est pas renseignée dans le rapport [!UICONTROL Project (Financial Data)]. </p> 
     <div> 
      <p>Pour un rapport [!UICONTROL Budgeted Hour] :</p> 
@@ -243,22 +242,19 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Automatic And On Change]</td> 
    <td> <p>Un des types [!UICONTROL Project Update]. Cela recalculera la chronologie prévisionnelle et prévue du projet lors de l’exécution du processus de recalcul nocturne et lors de toute mise à jour du projet ou des tâches du projet. </p> <p>Pour plus d’informations, voir <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Sélectionner le type de mise à jour du projet</a>.</p> </td> 
   </tr>
-
-<tr> 
+  <tr> 
    <td><p>Disponibilité</p></td> 
    <td> <p>Ce terme est utilisé par rapport à la « disponibilité de l’utilisateur ou de l’utilisatrice » ou à la « disponibilité de la ressource » et illustre le temps pendant lequel la ressource (utilisateur ou utilisatrice, ou fonction) est disponible pour travailler. </p> 
    <p>Workfront calcule la disponibilité des utilisateurs et des utilisatrices à l’aide de plusieurs champs et selon les paramètres des préférences de gestion des ressources de votre système. Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurer les préférences de la gestion des ressources</a>. </p>
    <p>Pour plus d’informations sur la disponibilité des ressources, consultez la section <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Commencer avec la gestion des ressources.</a></p>
    Le terme « capacité » est également utilisé pour désigner la disponibilité des ressources. 
    </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Automatic Only]</td> 
    <td> <p>Un des types [!UICONTROL Project Update]. Les chronologies prévisionnelles et prévues sont de nouveau calculées lorsque le processus de recalcul nocturne s’exécute.</p> <p>Pour plus d’informations, consultez la section <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Sélectionner le type de mise à jour du projet</a>.</p> </td> 
-  </tr>
-
-<tr data-mc-conditions=""> 
+  </tr> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL BAU]</td> 
    <td>Travail « business as usual » (BAU) qui contribue à la réalisation des principaux objectifs quotidiens de l’entreprise.</td> 
   </tr> 
@@ -269,9 +265,8 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Référence]</td> 
    <td>Source de données pour mesurer les itérations dans un environnement Agile.</td> 
-  </tr>
-
-<tr data-mc-conditions=""> 
+  </tr> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL Billable Expense]</td> 
    <td> <p>Dépense marquée comme facturable au client ou à la cliente. Il peut s’agir d’une dépense prévue ou d’une dépense effective.</p> <p>Les champs Coût prévu des dépenses facturables et Coût réel des dépenses facturables peuvent être ajoutés aux vues et aux rapports. Ils n’apparaissent pas sur les pages de détails du projet ou de la tâche.</p>
    <p>Vous trouverez ces champs dans les types de rapports suivants :</p>
@@ -283,21 +278,17 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <p>Pour plus d’informations sur le marquage d’une dépense comme facturable, voir <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Gérer les dépenses du projet</a>.</p>
    </td> 
   </tr>
-
-<tr data-mc-conditions=""> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL Billing Record]</td> 
    <td> <p>Enregistre les revenus, les heures ou les dépenses qui peuvent être facturés. Ces informations peuvent être utilisées pour créer des factures dans un système comptable externe.</p> <p>Pour plus d’informations, consultez la section <a href="../../../manage-work/projects/project-finances/create-billing-records.md">Créer des enregistrements de facturation</a>. </p> 
    </td> 
   </tr>
-
-<tr> 
+ <tr> 
    <td>Statut de l’enregistrement de facturation</td> 
    <td> <p>Dans un rapport sur les enregistrements de facturation ou les heures, le statut d’un enregistrement de facturation indique si celui-ci a été facturé ou non. La suppression d’un projet ou la modification du nombre d’heures liées à un enregistrement de facturation Facturé est impossible. Pour plus d’informations, consultez la section <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Créer des enregistrements de facturation</a>.</p>  
    </td> 
   </tr>
-
-
-<tr> 
+  <tr> 
    <td>[!UICONTROL Branding]</td> 
    <td><p>Processus de personnalisation [!DNL Workfront] pour donner à l’interface l’apparence de votre entreprise en utilisant vos couleurs et logos.</p><p><strong>NOTE</strong><br> : si votre entreprise a été intégrée à [!DNL Adobe Experience Cloud], le branding n’est pas disponible.</p></td> 
   </tr> 
@@ -311,26 +302,24 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
     <ul>
     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  not added to the capacity planner, its value is <i>Not Included</i>.  </li>
-     -->
-     <!--
+    -->
+    <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  added to the Capacity Planner but is excluded from the budget calculation,  the value is <i>Included but not Calculated</i>.  </li>
-     -->
-     <!--
+    -->
+    <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is  added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
-     --> 
+    --> 
     </ul> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Répartition]</td> 
    <td> <p>Dans Workfront Planning, vous pouvez afficher les enregistrements connectés dans la vue chronologique d’un enregistrement à l’aide de la fonction Répartition. </p>
    <p>La répartition des enregistrements en fonction de leurs connexions vous permet d’afficher la chronologie d’autres enregistrements connectés et de comprendre comment ils peuvent affecter les performances et les échéances de vos enregistrements. </p>
    <p>Les enregistrements connectés s’affichent imbriqués sous leur enregistrement respectif. </p>
    <p>Pour plus d’informations, consultez <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Gérer la vue chronologique</a>. </p>
    </td> 
-    </tr>
-
-<tr> 
+    </tr> 
+  <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>Ce champ est obsolète. Toute information que ce champ peut afficher est liée à une fonctionnalité supprimée par [!DNL Workfront]. Ce champ ne peut pas être mis à jour. </p>
    <p> Ce champ est toujours visible dans les listes et rapports de [!UICONTROL projet].</p>  </td> 
@@ -1051,9 +1040,8 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
 
 <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
-<!--
-FTE
-The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
+     FTE
+     The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
 -->
 
 ## G - I
@@ -1548,7 +1536,7 @@ Dans Workfront, les entrées d’heures peuvent avoir l’un des statuts suivant
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[!UICONTROL User] qui affiche et permet de définir les relations de l’[!UICONTROL Company] et du [!UICONTROL Reporting] de l’[!UICONTROL User].</td> 
+   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[UICONTROL User] qui affiche et permet de définir les relations de l’[UICONTROL Company] et du [UICONTROL Reporting] de l’[UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 

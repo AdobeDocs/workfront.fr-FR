@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 20%
@@ -17,7 +17,9 @@ ht-degree: 20%
 
 # Modifications du taux de notification push pour les projets
 
-Lorsqu’une carte tarifaire est associée à un <!--or a staffing plan--> de projet, les taux sur la carte tarifaire peuvent toujours être ajustés. Vous pouvez ensuite transférer ces taux vers les projets <!--and staffing plans -->auxquels la carte tarifaire est associée). Si vous n’appliquez pas les nouveaux taux, les taux d’origine restent dans le projet<!-- or staffing plan-->.
+Lorsqu’une carte tarifaire est associée à un <!--or a staffing plan--> de projet, les taux sur la carte tarifaire peuvent toujours être ajustés. Vous pouvez ensuite transférer ces taux vers les projets auxquels la carte tarifaire est associée. Si vous n’appliquez pas les nouveaux taux, les taux d’origine restent dans le projet.
+<!-- and staffing plans -->
+<!-- or staffing plan -->
 
 Pour plus d’informations sur l’association d’une carte tarifaire à un projet, voir [Associer une carte tarifaire à un projet](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
@@ -60,7 +62,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Cliquez sur le nom de la carte tarifaire dans la liste Cartes tarifaires .
 1. Sur l’écran Carte tarifaire > Fonctions et taux , vérifiez que les taux sont corrects et modifiez les taux selon vos besoins.
 1. Cliquez sur [!UICONTROL **Pousser les modifications**].
-1. Dans la boîte de dialogue [!UICONTROL **Appliquer à tous les projets**]<!--/staffing plans-->, tous les projets <!--and staffing plans -->qui utilisent cette carte tarifaire sont sélectionnés par défaut. Si vous ne souhaitez pas qu&#39;un projet <!--or staffing plan -->pour appliquer les modifications de taux, vous devez le désélectionner).
+1. Dans la boîte de dialogue [!UICONTROL **Appliquer à tous les projets**], tous les projets qui utilisent cette carte tarifaire sont sélectionnés par défaut. Si vous ne souhaitez pas qu&#39;un projet applique les modifications de taux, vous devez le désélectionner.
+
+   <!--/staffing plans-->
+   <!--and staffing plans -->
+   <!--or staffing plan -->
+
 1. Cliquez sur [!UICONTROL **Enregistrer**].
 
    Les nouveaux taux sont désormais répercutés sur les projets <!--and staffing plans -->qui utilisent la carte tarifaire).

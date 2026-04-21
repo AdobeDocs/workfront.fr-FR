@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 11%
@@ -51,7 +51,7 @@ Les filtres existants pour les rapports classiques utilisant `isCurrentVersion` 
 >Version rapide de production : jeudi 15 avril 2026
 >Production pour tous : vendredi 16 avril 2026
 
-Workfront comprend désormais un nouveau type de diffusion Lien pour les rapports planifiés. Au lieu de générer et de joindre un fichier, cette option envoie un e-mail contenant un lien direct vers le rapport dans Workfront, ce qui permet aux destinataires de visualiser{{$include }} dans l’application, les données les plus récentes.
+Workfront comprend désormais un nouveau type de diffusion Lien pour les rapports planifiés. Au lieu de générer et de joindre un fichier, cette option envoie un e-mail contenant un lien direct vers le rapport dans Workfront, ce qui permet aux destinataires d’afficher `{{$include }}` données les plus récentes dans l’application.
 
 L’option Lien est désormais le type de diffusion par défaut des règles de diffusion de rapports planifiés nouvellement créées, tandis que les formats de fichier existants (HTML, PDF, Excel et TSV) restent disponibles.
 
