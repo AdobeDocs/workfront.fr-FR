@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 76%
+source-wordcount: '2268'
+ht-degree: 79%
 
 ---
 
@@ -23,9 +23,10 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -291,7 +292,7 @@ Vous pouvez créer des champs personnalisés des types suivants :
 * Date de dernière modification
 * Approbation par
 * Date d’approbation
-* <span class="preview">ID enregistrement</span>
+* ID de l’enregistrement
 
 <!--update the screen shot above-->
 
@@ -333,9 +334,6 @@ Par exemple, si vous connectez un type d’enregistrement Campaign à un type d�
 >   * Dernière modification par
 >   * Champs de saisie semi-automatique Workfront (y compris les champs tels que le ou la propriétaire ou le sponsor du projet)
 >
->* Vous ne pouvez pas ajouter les types de champ suivants en tant que champs de recherche à partir de l’enregistrement connecté ou du type d’objet dans l’environnement de production, <span class="preview">mais vous pouvez les ajouter dans l’environnement de prévisualisation :</span>
->
->   * Personnes
 
 Pour plus d’informations sur la connexion entre les types d’enregistrements et les enregistrements, ainsi que sur la création de champs liés, consultez les articles suivants :
 
@@ -356,7 +354,7 @@ S’il n’existe pas encore de connexion entre deux types d’enregistrements, 
 
 Les hiérarchies génèrent des chemins de navigation pour leurs enregistrements respectifs qui s’affichent dans leurs en-têtes. Ainsi, les utilisateurs savent où ils se trouvent dans la hiérarchie à n’importe quelle étape de leur workflow.
 
-Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [&#x200B; Présentation des hiérarchies et des chemins de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [ Présentation des hiérarchies et des chemins de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ### Vues
 

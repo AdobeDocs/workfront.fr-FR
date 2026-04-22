@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 30%
+source-wordcount: '835'
+ht-degree: 31%
 
 ---
 
 # Créer des types d’enregistrements en important des informations depuis un fichier CSV ou Excel
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -145,7 +147,7 @@ Old:
    * Date de dernière modification, Dernière modification par
    * Date d’approbation, Approuvé par
    * Personnes
-   * <span class="preview">ID enregistrement</span>
+   * ID de l’enregistrement
 
 Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Excel ou CSV :
 
@@ -159,10 +161,10 @@ Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Exc
 
    >[!TIP]
    >
-   ><span class="preview">Vous pouvez utiliser la combinaison de clavier suivante pour ouvrir la zone de recherche globale à partir de n’importe quelle page Workfront Planning et rechercher des espaces de travail :</span>
+   >Vous pouvez utiliser la combinaison de clavier suivante pour ouvrir la zone de recherche globale à partir de n’importe quelle page Workfront Planning et rechercher des espaces de travail :
    >
-   >* <span class="preview">CTRL+K pour Windows</span>
-   >* <span class="preview">⌘+K pour Mac</span>
+   >* CTRL+K pour Windows
+   >* ⌘+K pour Mac
 
 1. Cliquez sur **Ajouter un type d’enregistrement**.
 1. Cliquez sur **Télécharger à partir d’un fichier**.

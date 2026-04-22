@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '830'
 ht-degree: 12%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 12%
 
 # Créer des enregistrements en important des informations depuis un fichier CSV ou Excel
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -149,7 +151,7 @@ Old:
    * Date de dernière modification, Dernière modification par
    * Date d’approbation, Approuvé par
    * Personnes
-   * <span class="preview">ID enregistrement</span>
+   * ID de l’enregistrement
    * Si un champ à sélection multiple ou unique est importé et qu&#39;il offre plus de choix qu&#39;un champ similaire dans Planning, les options supplémentaires sont créées lors de l&#39;importation. Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour l’espace de travail peuvent importer de nouveaux choix.
 
 ## Créer des enregistrements en important un fichier CSV ou Excel

@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 1%
@@ -261,8 +261,6 @@ Un point bleu est placé en regard de l’icône **Formater les cellules** pour 
 
    * **Supprimer** pour supprimer l’élément. La suppression d’un projet le déconnecte de l’enregistrement et le déplace vers la Corbeille de Workfront. Les administrateurs et administratrices de Workfront peuvent récupérer les projets supprimés jusqu’à 30 jours après leur suppression. La suppression d’un formulaire ne supprime pas les demandes ou les enregistrements créés lors de l’envoi du formulaire.
    * **Déconnecter** pour déconnecter le projet de l’enregistrement. La déconnexion d’un projet supprime cet enregistrement et toutes les valeurs de ses champs de recherche de l’enregistrement actif.
-
-     <!--update screen shot at preview release-->
 
      ![Barre d’actions dans la vue Liste des pages Enregistrements connectés](assets/actions-bar-connected-records-page-list-view.png)
 

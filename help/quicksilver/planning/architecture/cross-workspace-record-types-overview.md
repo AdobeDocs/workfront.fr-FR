@@ -8,19 +8,21 @@ recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1802'
-ht-degree: 3%
+source-wordcount: '1742'
+ht-degree: 2%
 
 ---
 
 
 # Présentation du type d’enregistrement de l’espace de travail croisé
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -234,7 +236,7 @@ Pour utiliser des types d’enregistrements connectables, procédez comme suit :
 
    >[!TIP]
    >
-   ><span class="preview">Seuls les administrateurs système peuvent désigner un type d’enregistrement à connecter à partir de tous les espaces de travail du système. Tous les autres gestionnaires d’espace de travail peuvent désigner des espaces de travail spécifiques à partir desquels se connecter au type d’enregistrement. </span>
+   >Seuls les administrateurs système peuvent désigner un type d’enregistrement à connecter à partir de tous les espaces de travail du système. Tous les autres gestionnaires d’espace de travail peuvent désigner des espaces de travail spécifiques à partir desquels se connecter au type d’enregistrement.
    >
    >Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 1. Connectez-vous à un type d’enregistrement désigné comme connectable à partir d’un autre espace de travail que vous gérez.

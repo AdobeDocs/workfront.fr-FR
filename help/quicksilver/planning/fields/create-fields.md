@@ -8,16 +8,16 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 795d115e7a745de052b462ba444425136a3d4953
 workflow-type: tm+mt
-source-wordcount: '5686'
+source-wordcount: '5655'
 ht-degree: 38%
 
 ---
 
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -32,10 +32,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -252,7 +253,7 @@ Pour plus d’informations, voir [Importer des champs depuis Workfront](/help/qu
    * [Date de dernière modification](#last-modified-date)
    * [Date d’approbation](#approved-date)
    * [Approbation par](#approved-by)
-   * <span class="preview">[ID enregistrement](#record-id)</span>
+   * [ID enregistrement](#record-id)
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -297,7 +298,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Paragraphe**.
 
-   ![&#x200B; Type de champ de paragraphe &#x200B;](assets/paragraph-field-type.png)
+   ![ Type de champ de paragraphe ](assets/paragraph-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -314,7 +315,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
 >[!NOTE]
 >
->En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [&#x200B; Modifier des enregistrements &#x200B;](/help/quicksilver/planning/records/edit-records.md).
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection multiple**.
@@ -363,12 +364,12 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
 >[!NOTE]
 >
->En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur de champ à sélection unique d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [&#x200B; Modifier des enregistrements &#x200B;](/help/quicksilver/planning/records/edit-records.md).
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur de champ à sélection unique d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection simple**.
 
-   ![&#x200B; Type de champ à sélection unique &#x200B;](assets/single-select-field-type.png)
+   ![ Type de champ à sélection unique ](assets/single-select-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du champ tel qu&#39;il apparaîtra dans une table ou dans la page Détails de l&#39;enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -590,7 +591,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
    >
    >* Vous pouvez référencer un champ contenant jusqu’à 4 champs (et objets) différents du type d’enregistrement actuel. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité (1) et que l’Activité est connectée au type d’enregistrement Campagne (2) qui est connecté à un projet Workfront (3), vous pouvez référencer le champ Budget du projet (4) dans la formule que vous créez pour le type d’enregistrement Activité.
    >
-   >![Exemple de formule de budget de projet avec quatre champs supprimés &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemple de formule de budget de projet avec quatre champs supprimés ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facultatif) Cliquez sur **Agrandir** pour ouvrir la zone Formule dans une zone plus grande.
@@ -630,7 +631,9 @@ Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur à u
 
 >[!TIP]
 >
->* Lorsque vous ajoutez le nom d’un utilisateur dans un champ Personnes, sa fonction principale <span class="preview">et son adresse e-mail</span> s’affichent également dans le champ. Le paramètre Afficher les informations de contact doit être activé pour que l’objet Utilisateurs de votre niveau d’accès puisse voir l’e-mail de l’utilisateur.
+>* Lorsque vous ajoutez le nom d’un utilisateur dans un champ Personnes , sa fonction principale et son adresse e-mail s’affichent également dans le champ. Le paramètre Afficher les informations de contact doit être activé pour que l’objet Utilisateurs de votre niveau d’accès puisse voir l’e-mail de l’utilisateur.
+>
+>* Seuls les utilisateurs qui ont été ajoutés au Adobe Admin Console s’affichent dans les champs Personnes . Les utilisateurs de Workfront ne s’affichent pas lorsqu’ils tentent de les ajouter dans un champ Personnes .
 >
 >* Les champs de personne s’affichent comme un type de champ de référence (ou de connexion) dans un créateur de formulaires de demande.
 >
@@ -812,8 +815,6 @@ Vous pouvez utiliser le type de champ Approuvé par pour ajouter le dernier util
 
    Le nouveau champ Approuvé par type est ajouté sous forme d’une colonne au type d’enregistrement et ses valeurs sont préremplies avec le nom de l’utilisateur qui a modifié chaque enregistrement pour la dernière fois.
 
-<span class="preview">
-
 ## ID de l’enregistrement
 
 Vous pouvez utiliser le type de champ ID d’enregistrement pour afficher un identifiant généré par le système et en lecture seule pour chaque enregistrement.
@@ -834,8 +835,6 @@ Vous ne pouvez pas modifier manuellement la valeur d’un champ ID d’enregistr
 1. Cliquez sur **Créer**.
 
    Le nouveau champ de type ID d’enregistrement est ajouté sous la forme d’une colonne au type d’enregistrement et ses valeurs sont préremplies avec une valeur alphanumérique.
-
-</span>
 
 
 <!--

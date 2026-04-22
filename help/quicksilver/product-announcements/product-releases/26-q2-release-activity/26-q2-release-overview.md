@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2359'
 ht-degree: 26%
 
 ---
@@ -20,7 +20,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du deuxième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -394,9 +394,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Vues prédéfinies ajoutées à la liste des requêtes dans la zone des Requêtes et le widget Mes requêtes </a><p></p>
             <p>Pour vous aider à mieux organiser votre liste de demandes, nous avons ajouté des vues prédéfinies à la liste des demandes dans la zone des Demandes et le widget Mes demandes dans l’Accueil.</p>
         </td>
-           <td><p>S/O</p><p>Les vues prédéfinies n’auront pas de version d’aperçu et seront publiées directement en production le 16 avril. </p></td>
-        <td><p>vendredi 16 avril 2026</p></td>
-        <td><p>vendredi 16 avril 2026</p></td>
+           <td><p>S/O</p><p>Les vues prédéfinies n’auront pas de version d’aperçu et seront directement mises en production. </p></td>
+        <td><p>À déterminer</p></td>
+        <td><p>À déterminer</p></td>
  </tr>
     <tr>
         <td>
@@ -510,7 +510,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

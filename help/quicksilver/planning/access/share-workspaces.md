@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1004'
 ht-degree: 27%
 
 ---
 
 # Partager des espaces de travail
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -156,39 +158,31 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 
    ![Bouton Partager dans l’espace de travail en haut à droite](assets/share-button-on-workspace-top-right.png)
 
-1. <span class="preview">(Conditionnel) Selon le niveau d’accès dont vous disposez, effectuez l’une des opérations suivantes :
+1. (Conditionnel) Selon le niveau d’accès dont vous disposez, effectuez l’une des opérations suivantes :
 
-   * Si vous êtes administrateur système, sélectionnez l’une des options suivantes </span>
-
-     <div class="preview">
+   * Si vous êtes administrateur système, sélectionnez l’une des options suivantes :
 
       * **Seules les personnes invitées peuvent y accéder** : Vous devez sélectionner les entités dans la boîte de partage et choisir leur accès à l&#39;espace de travail. Il s’agit de la sélection par défaut.
       * **Tout le monde peut afficher dans le système** : tout le monde dans le système ayant accès à Planning peut afficher l&#39;espace de travail dans sa zone **Espaces de travail** dans Planning.
 
-     </div>
-
-   * <span class="preview">(Conditionnel) Si vous êtes un responsable d’espace de travail disposant d’une licence Standard, vous pouvez voir l’une des sélections suivantes, mais vous ne pouvez pas la modifier :</span>
-
-     <div class="preview">
+   * (Sous condition) Si vous êtes un responsable d’espace de travail disposant d’une licence Standard, vous pouvez voir l’une des sélections suivantes, mais vous ne pouvez pas la modifier :
 
       * **Seules les personnes invitées peuvent y accéder**. Il s’agit du paramètre par défaut.
       * **Tout le monde peut voir**
 
      Vous devez demander à un administrateur système de modifier une autorisation globale pour un espace de travail.
 
-     </div>
-
 1. Dans le champ **Accorder l’accès à cet espace de travail**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une équipe, d’une entreprise ou d’une fonction, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
-   <span class="preview">![Partager l’interface utilisateur avec des groupes](assets/sharing-ui-with-groups.png)</span>
+   ![Partager l’interface utilisateur avec des groupes](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
    >* Outre les équipes, les groupes, les entreprises et les fonctions, vous ne pouvez partager qu’avec des utilisateurs qui ont été ajoutés au Adobe Admin Console. Vous ne pouvez pas ajouter des utilisateurs Workfront uniquement. Pour plus d’informations, voir [Gestion des utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
-   >* Lorsque vous partagez un espace de travail avec un utilisateur, sa fonction principale <span class="preview">et son adresse e-mail</span> s’affichent également dans le champ. Le paramètre Afficher les informations de contact doit être activé pour que l’objet Utilisateurs de votre niveau d’accès puisse voir l’e-mail de l’utilisateur.
+   >* Lorsque vous partagez un espace de travail avec un utilisateur, sa fonction principale et son adresse e-mail s’affichent également dans le champ. Le paramètre Afficher les informations de contact doit être activé pour que l’objet Utilisateurs de votre niveau d’accès puisse voir l’e-mail de l’utilisateur.
 
-1. <span class="preview">(Facultatif) Lorsque vous effectuez un partage avec un groupe, une équipe, un rôle ou une entreprise, passez la souris sur le nom de l’entité et cliquez sur la flèche pointant vers la droite pour développer la liste des utilisateurs qui reçoivent les autorisations. </span>
+1. (Facultatif) Lorsque vous effectuez un partage avec un groupe, une équipe, un rôle ou une entreprise, passez la souris sur le nom de l’entité et cliquez sur la flèche pointant vers la droite pour développer une liste d’utilisateurs qui reçoivent les autorisations.
 
    ![Partager l’espace de travail avec un groupe](assets/share-workspace-role-expanding-arrow-highlighted.png)
 

@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 33%
@@ -288,10 +288,10 @@ Pour plus d’informations sur les vues Liste, voir [Gérer la vue Liste](/help/
 
    >[!TIP]
    >
-   ><span class="preview">Vous pouvez utiliser la combinaison de clavier suivante pour ouvrir la zone de recherche globale à partir de n’importe quelle page Workfront Planning et rechercher des vues : </span>
+   >Vous pouvez utiliser la combinaison de clavier suivante pour ouvrir la zone de recherche globale à partir de n’importe quelle page Workfront Planning et rechercher des vues :
    >
-   >* <span class="preview">CTRL+K pour Windows</span>
-   >* <span class="preview">⌘+K pour Mac</span>
+   >* CTRL+K pour Windows
+   >* ⌘+K pour Mac
    >
    >![Zone de recherche globale](assets/global-search-box.png)
 

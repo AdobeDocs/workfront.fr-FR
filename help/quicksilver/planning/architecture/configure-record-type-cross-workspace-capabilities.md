@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1421'
 ht-degree: 5%
 
 ---
@@ -28,9 +28,11 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
 
 {{planning-important-intro}}
 
-<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Vous pouvez configurer des types d’enregistrements pour qu’ils fonctionnent sur plusieurs espaces de travail dans Adobe Workfront Planning.
 
@@ -83,22 +85,20 @@ Ou
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td>
-   <p>Dans l’environnement de production : </p>
-   <p>Pour créer un enregistrement global :</p>
-   <ul><li>Standard ou supérieur</li></ul>
-   <p>Pour rendre un enregistrement connectable :</p>
-   <ul><li>Administrateur ou administratrice système</li></ul>
+   <!--
+   <p>In the Production environment: </p>
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>System Administrator</li></ul>
+   -->
 
-<div class="preview">
-
-<p>Dans l’environnement de Prévisualisation :</p>
-   <p>Pour créer un enregistrement global :</p>
+<p>Pour créer un enregistrement global :</p>
    <ul><li>Standard ou supérieur</li></ul>
    <p>Pour rendre un enregistrement connectable :</p>
 
 <ul><li>Standard pour rendre un enregistrement connectable à partir d’espaces de travail spécifiques</li>
    <li>L’administrateur système doit rendre un enregistrement connectable depuis tous les espaces de travail</li></ul>
-   </div>
 
 
 </td> 
@@ -225,7 +225,7 @@ Pour configurer un type d’enregistrement comme global :
    >Vous ne pouvez modifier l’aspect et les paramètres du type d’enregistrement, ainsi que ses champs d’origine, qu’à partir de son espace de travail d’origine.
 
    * La carte de type d’enregistrement affiche une icône **type d’enregistrement global** ![icône de type d’enregistrement global dans l’espace de travail principal](assets/global-icon.png) pour indiquer que le type d’enregistrement peut être ajouté à d’autres espaces de travail.
-   * Un champ **&#x200B;**&#x200B;généré par le système est ajouté à la vue Tableau du type d&#39;enregistrement et des détails de ses enregistrements.
+   * Un champ **** généré par le système est ajouté à la vue Tableau du type d&#39;enregistrement et des détails de ses enregistrements.
 
      Le champ Workspace affiche l’espace de travail à partir duquel chaque enregistrement est créé.
 
@@ -233,14 +233,14 @@ Pour configurer un type d’enregistrement comme global :
 
      >[!TIP]
      >
-     >Si la valeur du champ **&#x200B;**&#x200B;est vide, l&#39;enregistrement a été créé depuis un espace de travail secondaire où le type d&#39;enregistrement global a été supprimé après la création de l&#39;enregistrement.
+     >Si la valeur du champ **** est vide, l&#39;enregistrement a été créé depuis un espace de travail secondaire où le type d&#39;enregistrement global a été supprimé après la création de l&#39;enregistrement.
 
 1. (Facultatif) Accédez à un autre espace de travail et créez un type d’enregistrement à l’aide d’un type d’enregistrement existant. Sélectionnez le type d’enregistrement que vous avez activé dans les étapes ci-dessus.
 
 
    Pour plus d’informations, voir [Ajouter des types d’enregistrements existants depuis un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
-   Le type d’enregistrement ajouté à partir d’un type d’enregistrement global dans l’espace de travail secondaire s’affiche <span class="preview">une icône similaire **type d’enregistrement global** ![icône de type d’enregistrement global dans l’espace de travail secondaire](assets/global-icon-secondary-workspace.png) qui comprend une flèche indiquant que le type d’enregistrement a été importé à partir d’un autre espace de travail. Lorsque vous pointez sur l’icône globale de l’espace de travail secondaire, vous pouvez apprendre le nom de l’espace de travail d’origine.</span>
+   Le type d’enregistrement ajouté à partir d’un type d’enregistrement global dans l’espace de travail secondaire affiche une icône similaire **type d’enregistrement global** icône ![icône de type d’enregistrement global sur l’espace de travail secondaire](assets/global-icon-secondary-workspace.png) qui comprend une flèche indiquant que le type d’enregistrement a été importé à partir d’un autre espace de travail. Lorsque vous pointez sur l’icône globale de l’espace de travail secondaire, vous pouvez apprendre le nom de l’espace de travail d’origine.
 1. (Facultatif) Revenez à l’espace de travail d’origine où vous avez créé le type d’enregistrement global et modifiez le type d’enregistrement en suivant les étapes 1 à 4 ci-dessus <!--ensure this stays accurate-->
 1. (Facultatif) Consultez la liste des espaces de travail où l’enregistrement global a été ajouté dans la section **Espaces de travail où ce type d’enregistrement est utilisé**. Le propriétaire de l’espace de travail est également répertorié en regard du nom de l’espace de travail.
 
@@ -276,9 +276,9 @@ Pour configurer un type d’enregistrement comme global :
 
    Lorsqu’il est activé, le type d’enregistrement est accessible et peut être connecté à à partir d’autres espaces de travail.
 
-1. <span class="preview">(Conditionnel) Selon la licence dont vous disposez</span> choisissez parmi les espaces de travail auxquels accéder le type d’enregistrement. Choisissez l’une des options suivantes :
+1. (Conditionnel) Selon la licence dont vous disposez, choisissez parmi les espaces de travail auxquels le type d’enregistrement peut être accessible. Choisissez l’une des options suivantes :
 
-   * **Tous les espaces de travail** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations de gestion. <span class="preview">Cette option est grisée pour les gestionnaires d’espace de travail disposant d’une licence Standard. Seuls les administrateurs système peuvent activer la connexion des types d’enregistrements à partir de tous les espaces de travail.</span>
+   * **Tous les espaces de travail** : les utilisateurs peuvent se connecter à ce type d’enregistrement à partir de tous les espaces de travail pour lesquels ils disposent des autorisations de gestion. Cette option est grisée pour les gestionnaires d’espace de travail disposant d’une licence Standard. Seuls les administrateurs système peuvent activer la connexion des types d’enregistrements à partir de tous les espaces de travail.
    * **Espaces de travail spécifiques** : dans le menu déroulant, ajoutez les noms des espaces de travail auxquels les responsables d’espace de travail peuvent se connecter à ce type d’enregistrement.
 
 1. (Conditionnel) Cliquez sur **Enregistrer** dans la zone **Modifier le type d’enregistrement** ou cliquez sur la flèche vers l’arrière à gauche de **Paramètres** dans l’en-tête de page pour enregistrer vos modifications.

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2400'
 ht-degree: 3%
 
 ---
@@ -18,11 +18,12 @@ ht-degree: 3%
 # Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
-<!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -108,17 +109,12 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 * Les enregistrements créés par l’envoi de formulaires de demande sont connectés à la demande d’origine. Impossible de supprimer cette connexion.
 * Vous pouvez afficher à la fois les enregistrements créés et les requêtes utilisées pour les créer dans les zones suivantes :
    * Zone des requêtes dans Workfront.
-
-  <div class="preview">
-
    * Dans un champ connecté d’une page de type d’enregistrement dans Workfront Planning, lorsque vous ajoutez la requête en tant qu’enregistrement connecté.
    * Dans un champ connecté de la zone Détails d’un enregistrement dans Workfront Planning lorsque vous ajoutez la requête en tant qu’enregistrement connecté.
 
-  </div>
-
   >[!TIP]
   >
-  ><span class="preview">Vous pouvez afficher le nom de la demande dans le champ Objet de la zone Demandes de Workfront ou dans le champ Connexion à la demande d’origine de Workfront Planning. </span>
+  >Vous pouvez afficher le nom de la demande dans le champ Objet de la zone Demandes de Workfront ou dans le champ Connexion à la demande d’origine de Workfront Planning.
 
 * Les demandes Planning envoyées sont visibles uniquement dans la nouvelle expérience de demande. Les requêtes Planning ne s’affichent pas dans l’expérience des requêtes héritées.
 
@@ -185,13 +181,13 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
       * **Type d&#39;objet** : nom de l&#39;espace de travail et type d&#39;enregistrement dans lequel des enregistrements ont été créés à partir de la demande dans Planning.
       * **Statut** : statut de l’objet de la requête.
       * **Formulaire de demande** : nom du formulaire de demande associé au type d&#39;enregistrement dans Planning.
-      * <span class="preview">**Statut de l’objet créé** : le statut de l’enregistrement créé.</span>
+      * **Statut de l’objet créé** : le statut de l’enregistrement créé.
 
    * Si le formulaire de demande a été associé à une approbation, la demande est ajoutée à la liste des Demandes dans la zone des Demandes Workfront et au widget Mes Demandes avec le statut **En attente de révision**. Un nouvel enregistrement n&#39;est ajouté à la page de type d&#39;enregistrement qu&#39;une fois que les approbateurs l&#39;ont approuvé.
 
      Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">Vous pouvez ajouter le champ de connexion **Demande d&#39;origine** à un type d&#39;enregistrement dans Planning afin d&#39;afficher le nom de la demande d&#39;origine qui a créé un enregistrement. Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * Vous pouvez ajouter le champ de connexion **Demande d&#39;origine** à un type d&#39;enregistrement dans Planning afin d&#39;afficher le nom de la demande d&#39;origine qui a créé un enregistrement. Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
    * La demande est visible uniquement par le propriétaire, l&#39;approbateur et les personnes qui disposent au moins des autorisations d&#39;affichage de l&#39;espace de travail. Les administrateurs et administratrices de Workfront peuvent afficher toutes les demandes envoyées à n’importe quel espace de travail du système.
    * Vous recevez une notification in-app et un e-mail vous informant que la demande a été soumise avec succès ou envoyée pour révision.
    * Si le formulaire de demande a été associé à une approbation, les approbateurs reçoivent une notification in-app et par e-mail pour examiner et approuver la demande.
@@ -208,15 +204,9 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    * Afficher
    * Filtre
    * Colonnes
-
-   <div class="preview">
-
    * Regroupement
    * Formater les cellules
    * Hauteur de ligne
-
-   </div>
-
 
    Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -304,7 +294,7 @@ Les personnes externes ne peuvent pas accéder aux zones internes de Workfront, 
      >
      >Les notifications par e-mail et in-app ne sont visibles que lorsque l’instance de Workfront de votre organisation est intégrée à l’expérience unifiée Adobe.
 
-   <span class="preview"> Une fois la demande approuvée et l&#39;enregistrement créé, les champs Date d&#39;approbation par et Date d&#39;approbation affichent des informations sur l&#39;approbation dans l&#39;enregistrement.</span>
+     Une fois la demande approuvée et l&#39;enregistrement créé, les champs Date d&#39;approbation par et Date d&#39;approbation affichent des informations sur l&#39;approbation dans l&#39;enregistrement.
 
 1. (Facultatif) Cliquez sur **Afficher votre demande** pour ouvrir la demande dans Workfront.
 

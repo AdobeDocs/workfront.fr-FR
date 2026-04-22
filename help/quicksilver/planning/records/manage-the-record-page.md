@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1641'
 ht-degree: 6%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 6%
 
 # Gérer la mise en page de la page d’enregistrement
 
-<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,6 +175,7 @@ Old:
 
 Tenez compte des points suivants lors de l’ajout de sections à une page d’enregistrement :
 
+* Vous ne pouvez ajouter des sections que lorsque vous affichez tous les champs d&#39;un enregistrement. Vous ne pouvez pas ajouter de sections lorsque vous masquez les champs masqués dans une vue de tableau.
 * Le nombre de sections que vous pouvez avoir sur une page n’est pas limité.
 * Une section ne peut pas être vide. Vous devez avoir au moins un champ dans une section.
 * Vous pouvez faire glisser des champs d’une section à une autre. Pour plus d’informations, consultez la section [Gérer les champs dans la page d’aperçu d’enregistrement ou de détails](#manage-fields-in-the-records-details-tab) dans cet article.
@@ -196,7 +199,7 @@ Pour ajouter une section à une prévisualisation d’enregistrement ou à une p
 
    Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
 
-   <span class="preview">L’aperçu de l’enregistrement s’ouvre dans la vue.</span>
+   L’aperçu de l’enregistrement s’ouvre dans la vue.
 
    ![Zone Détails](assets/details-box.png)
 
@@ -275,32 +278,24 @@ Voici ce qui se produit :
 
    Dans la vue du tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
 
-   <span class="preview">L’aperçu de l’enregistrement s’ouvre dans la vue.</span>
+   L’aperçu de l’enregistrement s’ouvre dans la vue.
 
    ![Zone Détails](assets/details-box.png)
 
-1. <span class="preview">(facultatif et conditionnel) Selon les champs que vous souhaitez afficher dans la page Détails, effectuez l’une des opérations suivantes </span>
+1. (Facultatif et conditionnel) Selon les champs que vous souhaitez afficher dans la page Détails, effectuez l’une des opérations suivantes :
 
-   <div class="preview">
 
-   * Sélectionnez le paramètre **Afficher tous les champs** pour afficher tous les champs depuis la vue tabulaire de l&#39;enregistrement, y compris les champs masqués.
-   * Désélectionnez le paramètre **Afficher tous les champs** pour afficher uniquement les champs qui ne sont pas masqués dans la vue Tableau de l&#39;enregistrement. Il s’agit du paramètre par défaut
+   * Sélectionnez le paramètre **Afficher tous les champs** pour inclure tous les champs de l&#39;enregistrement dans la page **Détails**. Il s’agit du paramètre par défaut.
+   * Désélectionnez le paramètre **Afficher tous les champs** pour exclure les champs de l&#39;enregistrement masqués dans la vue Tableau de l&#39;enregistrement de la page **Détails**.
 
-   </div>
+     >[!TIP]
+     >
+     >* Le paramètre **Afficher tous les champs** n’est disponible que dans la zone d’aperçu Détails de l’enregistrement. Elle n’est pas disponible lorsque la page Détails de l’enregistrement s’ouvre dans une fenêtre de navigateur.
+     >* Vous ne pouvez pas ajouter de sections à la page d&#39;un enregistrement lorsque vous excluez les champs masqués dans la zone d&#39;aperçu Détails.
 
-   <!--
-      replace with this when they fix the UI text:
-      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-      -->
+1. (Facultatif) Si vous souhaitez accéder à un enregistrement connecté, cliquez sur le nom de cet enregistrement dans le chemin de navigation en haut de la page des détails.
 
-   >[!TIP]
-   >
-   ><span class="preview">Le paramètre **Afficher tous les champs** n’est disponible que dans la zone d’aperçu Détails de l’enregistrement. Elle n’est pas disponible dans la page Détails de l’enregistrement.</span>
-
-1. (Facultatif) Si vous souhaitez accéder à un enregistrement connecté, cliquez sur le nom de cet enregistrement dans le chemin de navigation en haut de la page des détails. <span class="preview">
-
-   Si le nom d’un enregistrement ne s’affiche pas dans le chemin de navigation, cliquez sur **Plus**. Le chemin de navigation s’affiche sur plusieurs lignes. Cliquez sur **Moins** pour raccourcir le chemin de navigation et l’afficher sur une ligne.</span>
+   Si le nom d’un enregistrement ne s’affiche pas dans le chemin de navigation, cliquez sur **Plus**. Le chemin de navigation s’affiche sur plusieurs lignes. Cliquez sur **Moins** pour raccourcir le chemin de navigation et l’afficher sur une ligne.
 
    >[!TIP]
    >

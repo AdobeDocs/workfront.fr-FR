@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '604'
 ht-degree: 25%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 25%
 
 # Modifier des types d’enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -156,7 +158,7 @@ Ou
 
 1. Dans la zone **Modifier le type d’enregistrement**, l’onglet **Apparence** s’ouvre par défaut.
 
-   ![Onglet Apparence de la zone Modifier le type d’enregistrement &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Onglet Apparence de la zone Modifier le type d’enregistrement ](assets/edit-record-type-box-appearance-tab.png)
 
    Mettez à jour les informations suivantes dans l’onglet **Apparence** :
 
@@ -186,9 +188,9 @@ Ou
 
    >[!TIP]
    >
-   ><span class="preview">Vous pouvez utiliser la combinaison de clavier suivante pour ouvrir la zone de recherche globale à partir de n’importe quelle page Workfront Planning et rechercher des types d’enregistrements :</span>
+   >Vous pouvez utiliser la combinaison de clavier suivante pour ouvrir la zone de recherche globale à partir de n’importe quelle page Workfront Planning et rechercher des types d’enregistrements :
    >
-   >* <span class="preview">CTRL+K pour Windows</span>
-   >* <span class="preview">⌘+K pour Mac</span>
+   >* CTRL+K pour Windows
+   >* ⌘+K pour Mac
    >
    >![Zone de recherche globale](assets/global-search-box.png)

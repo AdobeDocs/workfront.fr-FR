@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1141'
 ht-degree: 19%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 19%
 
 # Créer des espaces de travail
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -49,13 +51,13 @@ Pour obtenir des informations générales sur les espaces de travail, voir [Pré
    <td> 
 <p>Tout package de Workfront ou de workflow</p> 
 <p>Tout package Workfront Planning</p>
-<p>Un package Workfront Planning Prime ou version ultérieure <span class="preview">pour créer plusieurs espaces de travail à la fois</span></p>
+<p>Un package Workfront Planning Prime ou version ultérieure pour créer plusieurs espaces de travail à la fois</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p>Standard</p>
-   <p><span class="preview">L’administrateur système peut créer plusieurs espaces de travail à la fois à l’aide du lot de modèles de bonnes pratiques</p>
+   <p>L’administrateur système peut créer plusieurs espaces de travail à la fois à l’aide du lot de modèles de bonnes pratiques</p>
    </td> 
   </tr> 
   <tr> 
@@ -144,8 +146,6 @@ Vous pouvez créer des espaces de travail comme suit :
 
   Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
-<div class="preview">
-
 * Créer plusieurs espaces de travail à l’aide d’un lot de modèle multi-espace de travail conforme aux bonnes pratiques
 
   Pour plus d’informations, consultez la section [Créer plusieurs espaces de travail à l’aide d’un lot de modèle multi-espace de travail conforme aux bonnes pratiques](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) dans cet article
@@ -153,9 +153,6 @@ Vous pouvez créer des espaces de travail comme suit :
   >[!TIP]
   >
   >Vous ne pouvez créer plusieurs espaces de travail à la fois que lorsque vous utilisez le lot de modèles de bonnes pratiques.
-
-
-</div>
 
 ### Créer un espace de travail à partir de zéro ou d’un modèle
 
@@ -226,8 +223,6 @@ Vous pouvez créer des espaces de travail comme suit :
    >
    >Pour plus d’informations sur IMS, voir [Expérience unifiée Adobe pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-<div class="preview">
-
 ### Créer plusieurs espaces de travail à l’aide d’un lot de modèle multi-espace de travail conforme aux bonnes pratiques
 
 >[!IMPORTANT]
@@ -276,9 +271,7 @@ Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail
 
    Pour plus d’informations sur les bonnes pratiques relatives à l’implémentation de Workfront, consultez les articles de la section [Bonnes pratiques de planification d’Adobe Workfront : index des articles](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) .
 
-   Pour plus d’informations sur la modification des espaces de travail, voir [&#x200B; Modifier les espaces de travail &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md).
-
-</div>
+   Pour plus d’informations sur la modification des espaces de travail, voir [ Modifier les espaces de travail ](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 
 

@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 5%
+source-wordcount: '1526'
+ht-degree: 4%
 
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 5%
 
 # Partager des types d’enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -205,7 +207,7 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations d’affichage ou supérieures pour l’espace de travail peuvent afficher le type d’enregistrement.
 
@@ -224,7 +226,7 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
       >Les responsables Workspace conservent les autorisations de niveau Gérer pour le type d’enregistrement.
 
    1. Dans le champ **Accorder l’accès à ce type d’enregistrement**, ajoutez les utilisateurs, équipes, groupes, sociétés ou fonctions auxquels vous souhaitez accorder un niveau d’autorisation différent de celui qu’ils ont pour l’espace de travail.
-   1. <span class="preview">(Facultatif) Lorsque vous effectuez un partage avec un groupe, une équipe, un rôle ou une entreprise, passez la souris sur le nom de l’entité et cliquez sur la flèche pointant vers la droite pour développer la liste des utilisateurs qui reçoivent les autorisations. </span>
+   1. (Facultatif) Lorsque vous effectuez un partage avec un groupe, une équipe, un rôle ou une entreprise, passez la souris sur le nom de l’entité et cliquez sur la flèche pointant vers la droite pour développer une liste d’utilisateurs qui reçoivent les autorisations.
 
       ![Partager le type d’enregistrement avec le groupe](assets/share-record-type-with-group-expanding-arrow-highlighted.png)
 
@@ -237,7 +239,7 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
    >* Vous ne pouvez pas accorder aux utilisateurs une autorisation inférieure à Gérer pour un type d’enregistrement s’ils disposent des autorisations Gérer pour l’espace de travail.
    >* Vous pouvez accorder aux utilisateurs une autorisation moindre sur le type d’enregistrement s’ils disposent des autorisations de type Contributeur sur l’espace de travail.
    > Pour plus d’informations, consultez la section [Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-   >* Lorsque vous partagez un type d’enregistrement avec un utilisateur, sa fonction principale <span class="preview">et son adresse e-mail</span> s’affichent également dans le champ. Le paramètre Afficher les informations de contact doit être activé pour que l’objet Utilisateurs de votre niveau d’accès puisse voir l’e-mail de l’utilisateur.
+   >* Lorsque vous partagez un type d’enregistrement avec un utilisateur, sa fonction principale et son adresse e-mail s’affichent également dans le champ. Le paramètre Afficher les informations de contact doit être activé pour que l’objet Utilisateurs de votre niveau d’accès puisse voir l’e-mail de l’utilisateur.
 
 1. Pour permettre aux utilisateurs qui ne disposent pas des autorisations d’accès à l’espace de travail d’afficher un type d’enregistrement, dans le champ **Accorder l’accès à cette vue**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une équipe, d’une entreprise ou d’une fonction, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
