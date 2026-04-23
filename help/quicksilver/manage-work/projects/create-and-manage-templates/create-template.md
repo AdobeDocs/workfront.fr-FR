@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 55%
+source-wordcount: '740'
+ht-degree: 54%
 
 ---
 
@@ -126,7 +126,7 @@ Old:
 
    Cliquez sur **Nouvelle tâche de modèle** pour commencer à ajouter des tâches à votre modèle dans la zone **Nouvelle tâche de modèle**.
 
-   La zone **Créer une tâche de modèle** s’ouvre dans la nouvelle expérience.
+   La zone **Créer une tâche de modèle** s’ouvre dans la nouvelle expérience lorsque vous cliquez sur **Nouvelle tâche de modèle**.
 
    ![Nouvelle expérience pour la nouvelle tâche de modèle](assets/new-template-task-box-unshimmed.png)
 
@@ -207,7 +207,7 @@ Old:
    * Frais
    * Approbations
 
-   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [&#x200B; Modifier les modèles de projet &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [ Modifier les modèles de projet ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 
 

@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 80%
+source-wordcount: '444'
+ht-degree: 84%
 
 ---
 
@@ -63,9 +63,13 @@ Vous pouvez modifier le pourcentage de répartition lorsque vous effectuez des a
   <tr> 
    <td>Autorisations d’objet</td>
    <td><p>Autorisations de contribution ou de niveau supérieur pour une tâche</p>
-   <p>Modifiez les autorisations pour mettre à jour le pourcentage d’affectation dans la zone Modifier la tâche lors de la modification de tâches à l’aide de l’ancienne expérience.</p>
+   <p>Modifiez les autorisations pour mettre à jour le pourcentage de répartition dans la zone Modifier la tâche.</p>
+   <!--
+   Not true anymore: 
    <p><b>NOTE</b></p>
-   <p> Vous ne pouvez plus gérer le pourcentage de répartition dans la zone Modifier la tâche lors de la modification de tâches dans la nouvelle expérience.</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifier les tâches</a>.</p></td>
+   <p> You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p>
+   -->
+   </td>
   </tr>
  </tbody>
 </table>
@@ -73,12 +77,6 @@ Vous pouvez modifier le pourcentage de répartition lorsque vous effectuez des a
 Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--
-Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
-
-<p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
 
 ## Considérations relatives à la modification des pourcentages d’affectation pour les tâches
 

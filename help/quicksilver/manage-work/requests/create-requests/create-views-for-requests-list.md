@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 10%
 
 ---
@@ -189,7 +189,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 
 ## Ajout de la vue des requêtes à un modèle de mise en page
 
-Un administrateur Workfront peut ajouter une nouvelle vue aux modèles de mise en page pour la zone des Demandes .
+Un administrateur Workfront peut ajouter ou supprimer une nouvelle vue ou une vue système pour mettre en page les modèles pour la zone des Demandes.
 
 Pour obtenir des instructions, voir [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 

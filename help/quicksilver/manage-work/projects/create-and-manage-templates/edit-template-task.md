@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 67%
@@ -154,13 +154,13 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
 
 1. Pensez à spécifier des informations dans l’une des sections suivantes :
 
-* [Nom de la tâche de modèle](#template-task-name)
-* [Vue d’ensemble](#overview)
-* [Affectations](#assignments)
-* [Finances](#finance)
-* [Formulaires personnalisés](#custom-forms)
-* [Paramètres](#settings)
-* [Commentaire](#comment)
+   * [Nom de la tâche de modèle](#template-task-name)
+   * [Vue d’ensemble](#overview)
+   * [Affectations](#assignments)
+   * [Finances](#finance)
+   * [Formulaires personnalisés](#custom-forms)
+   * [Paramètres](#settings)
+   * [Commentaire](#comment)
 
 1. Continuez à modifier les tâches de modèles comme décrit dans les sections ci-dessous.
 

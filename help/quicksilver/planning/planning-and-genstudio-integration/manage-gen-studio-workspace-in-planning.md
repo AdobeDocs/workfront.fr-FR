@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -147,7 +147,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -230,7 +230,7 @@ La page principale de Workfront Planning s’ouvre.
 
 1. Cliquez sur **Autres espaces de travail** et recherchez un espace de travail qui comporte une indication créée par le **Système** et la balise **GenStudio** sur sa carte.
 
-   ![Carte d’espace de travail GenStudio avec balise &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
+   ![Carte d’espace de travail GenStudio avec balise ](assets/genstudio-card-with-tag-highlighted.png)
 
 1. Cliquez sur la carte **Espace de travail** pour ouvrir l’espace de travail GenStudio dans Workfront Planning.
 1. Par défaut, les types d’enregistrements GenStudio suivants sont créés et visibles à partir de Workfront Planning :
@@ -259,7 +259,7 @@ La page principale de Workfront Planning s’ouvre.
 
 1. Cliquez sur **Partager** dans le coin supérieur droit pour partager l’espace de travail avec d’autres personnes.
 
-   Pour plus d’informations, voir [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
+   Pour plus d’informations, consultez la section [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md).
 
    >[!NOTE]
    >
@@ -363,17 +363,17 @@ Pour plus d’informations, voir [Exporter des enregistrements en mode Tableau](
    >
    >Les enregistrements supprimés peuvent être récupérés à partir de la vue Tableau bin Récemment supprimé dans Workfront Planning. Les enregistrements supprimés de GenStudio peuvent également être récupérés à partir de la classe Récemment supprimés dans Workfront Planning.
 
-   Pour plus d’informations, voir [&#x200B; Restaurer les enregistrements supprimés &#x200B;](/help/quicksilver/planning/records/restore-deleted-records.md)
+   Pour plus d’informations, voir [Restaurer les enregistrements supprimés](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 1. Cliquez sur l’icône + dans le coin supérieur droit de la vue du tableau pour créer les éléments suivants :
 
    * Champs
 
-     Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md)
+     Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
    * Connexions
 
-     Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md)
+     Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
      Les champs créés à partir de l’espace de travail GenStudio sont visibles dans les zones suivantes :
 
