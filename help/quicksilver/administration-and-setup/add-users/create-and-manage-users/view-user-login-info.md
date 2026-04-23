@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 90%
+source-wordcount: '529'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez déterminer la fréquence à laquelle les utilisateurs et utilisatri
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -63,11 +63,6 @@ Se connecter à Workfront de l’une des façons suivantes compte comme une conn
 * Applications mobiles Workfront (appareils iOS ou Android)
 * Toute intégration Workfront prise en charge avec une autre application tierce (telle que Slack)
 * Toute intégration personnalisée entre Workfront et une autre application tierce
-* API Workfront
-
-  >[!NOTE]
-  >
-  >La connexion à Workfront par le biais de l’API Workfront est disponible uniquement pour les organisations qui ne sont pas encore intégrées à Adobe Business Platform.
 
 ## Afficher les informations d’utilisation dans une liste d’utilisateurs et d’utilisatrices ou un rapport
 

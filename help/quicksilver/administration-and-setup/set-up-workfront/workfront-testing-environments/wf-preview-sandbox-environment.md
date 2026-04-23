@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 6aa0aa5b8ffd088e3d79e7d1be66373a7f753f99
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 92%
+source-wordcount: '1320'
+ht-degree: 89%
 
 ---
 
@@ -30,7 +30,7 @@ Il existe deux environnements de test pour [!DNL Workfront] qui sont des répliq
 
 * Environnement de sandbox à actualisation personnalisée
 
-  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -156,9 +156,11 @@ Pour plus d’informations sur l’authentification unique, voir [Vue d’ensemb
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page ne s’applique qu’aux organisations qui n’ont pas encore été intégrées à l’[!DNL Adobe Admin Console]. Si votre organisation a été intégrée à l’[!DNL Adobe Admin Console], aucune action n’est nécessaire.
+>La procédure décrite dans cette section s’applique uniquement aux organisations qui n’ont pas encore été intégrées à l’[!DNL Adobe Admin Console]. Comme toutes les organisations ont désormais été intégrées à l’[!DNL Adobe Admin Console], aucune action n’est nécessaire.
 >
 >Pour une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à l’[!DNL Adobe Admin Console], voir [Différences d’administration en fonction de la plateforme ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+>Cette section sera supprimée prochainement.
 
 
 Si vous souhaitez configurer votre prévisualisation de sandbox pour qu’elle fonctionne avec une solution d’authentification unique, vous pouvez le faire en la configurant séparément de votre environnement de production. La configuration SSO dans la prévisualisation de sandbox est indépendante de votre configuration SSO dans l’environnement de production.

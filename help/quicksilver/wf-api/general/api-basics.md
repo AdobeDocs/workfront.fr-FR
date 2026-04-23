@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '4396'
-ht-degree: 97%
+source-wordcount: '4398'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Une bonne connaissance du schéma Workfront vous aidera à comprendre les relati
 
 ## Politiques et directives
 
-Pour garantir des performances cohérentes du système Workfront à la demande, l’API Workfront limite les threads d’API simultanés. Ce mécanisme de sécurisation empêche les problèmes système causés par des appels API abusifs. L’environnement Sandbox a la même limite de threads d’API simultanés en place, ce qui permet aux clients et aux partenaires de tester avec précision les appels d’API avant de publier le code en production.
+Pour garantir la cohérence des performances du système Workfront à la demande, l’API Workfront limite les threads d’API simultanés. Ce mécanisme de sécurisation empêche les problèmes du système causés par des appels API abusifs. L’environnement de sandbox a la même limite de threads d’API simultanés, ce qui permet aux clientes et aux clients, ainsi qu’aux partenaires, de tester efficacement les appels API avant de publier du code en production.
 
 Pour les environnements de production, de prévisualisation et de test, les demandes des utilisateurs et utilisatrices finaux ont une longueur maximale d’URI de 8 892 octets parce qu’elles sont acheminées par le CDN de Workfront (Akamai). Cette limite ne s’applique qu’aux URI acheminés par le CDN.
 
@@ -51,7 +51,7 @@ Chaque objet du système se voit attribuer un URI unique composé du type d’ob
 
 Le type d’objet n’est pas sensible à la casse et peut être soit le code ObjCode abrégé (tel que proj), soit le nom alternatif de l’objet (projet).
 
-Pour obtenir la liste des objets, des ObjCodes valides et des champs d&#39;objet, voir  [Explorateur d’API](../../wf-api/general/api-explorer.md).
+Pour obtenir la liste des objets, des ObjCodes valides et des champs d’objet, voir [Explorateur d’API](../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ L’API utilise la même authentification basée sur les cookies que celle utili
 
 >[!NOTE]
 >
->La procédure décrite dans cette section ne s’applique qu’aux organisations qui n’ont pas encore été intégrées à Adobe Business Platform. La connexion à Workfront via l’API Workfront n’est pas disponible si votre entreprise a été intégrée à Adobe Business Platform.
+>La procédure décrite dans cette section s’applique uniquement aux organisations qui n’ont pas encore été intégrées à Adobe Business Platform. Toutes les organisations ayant désormais intégré Adobe Business Platform, la **connexion à Workfront via l’API Workfront n’est plus disponible** .
 >
 >Pour une liste des procédures qui diffèrent selon que votre entreprise a été intégrée ou non à Adobe Business Platform, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -355,7 +355,7 @@ Vous pouvez récupérer des champs de données personnalisés en utilisant le pr
 #### Utiliser les requêtes nommées
 
 Certains types d’objets ont des recherches nommées qui sont couramment exécutées et sont disponibles en ajoutant le nom de la requête à la fin de l’URI du type d’objet. Par exemple, la requête suivante permet de récupérer les éléments de travail (tâches et problèmes) qui sont actuellement affectés à l’utilisateur ou l’utilisatrice :
-<pre>/attask/api/v15.0/work/myWork</pre>Les requêtes nommées permettent d’utiliser le paramètre fields pour récupérer des champs supplémentaires. Certaines requêtes nommées acceptent également des filtres supplémentaires. Pour obtenir la liste des requêtes nommées autorisées pour un objet, voir l’onglet Action de l’objet dans le  [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
+<pre>/attask/api/v15.0/work/myWork</pre>Les requêtes nommées permettent d’utiliser le paramètre fields pour récupérer des champs supplémentaires. Certaines requêtes nommées acceptent également des filtres supplémentaires. Pour obtenir la liste des requêtes nommées autorisées pour un objet, voir l’onglet Action de l’objet dans l’[Explorateur d’API](https://developer.adobe.com/workfront/api-explorer/).
 
 #### Utiliser `Count`
 
@@ -436,7 +436,7 @@ Pour garantir des performances optimales, le tableau suivant indique les limites
 Pour passer outre la limite du nombre de résultats par défaut et autoriser 200 résultats, vous pouvez inclure le filtre `$$LIMIT=200` dans votre requête, comme dans l’exemple suivant :
 <pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Pour garantir la fiabilité et les performances des autres clientes et clients du système, la limite maximale des résultats autorisés par requête est de 2 000 objets. Toute tentative de spécifier une limite plus importante entraîne un message d’erreur `IllegalArgumentException`.
+Pour garantir la fiabilité et les performances des autres clientes et clients du système, la limite maximale des résultats autorisés par requête est de 2 000 objets. Toute tentative de spécifier une limite plus importante entraîne un message d’erreur `IllegalArgumentException`. 
 
 Par conséquent, nous vous recommandons d’utiliser des réponses paginées pour les jeux de données volumineux. Pour spécifier le premier résultat à renvoyer, ajoutez le filtre `$$FIRST`. Par exemple, la demande suivante renvoie les résultats 201-250 pour une requête :
 <pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
@@ -535,7 +535,7 @@ La requête DELETE supprime un objet. Dans tous les cas, l’URI peut inclure le
 ## Mises à jour en masse
 
 Une instruction de mises à jour en masse met à jour plusieurs objets en même temps dans le cadre d’un seul appel API. Un appel API de création en masse est conçu de la même manière qu’un appel de mise à jour normal, comme le montrent les exemples suivants :
-<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>ou <pre>PUSH /attask/api/v15.0/proj?updates=[{« name »:« Test_Project_1 »},{« name »:« Test_Project_2 »}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxx</pre>ce qui se traduit par un retour similaire à ce qui suit :
+<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>ou <pre>PUSH /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>ce qui se traduit par un retour similaire à ce qui suit :
 <pre>data: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    name: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    name: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>}]</pre>Vous pouvez également effectuer une mise à jour en masse similaire à ce qui suit :
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>ce qui se traduit par un retour similaire à ce qui suit :
 <pre>data: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     priority: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>Si vous souhaitez que toutes les opérations se déroulent dans la même transaction, ajoutez « atomic=true » à votre appel API par lots en tant que paramètre de requête. Ainsi, si l’une des opérations échoue, toutes les opérations sont annulées.

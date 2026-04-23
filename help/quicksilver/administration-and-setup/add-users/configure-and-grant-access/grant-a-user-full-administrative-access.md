@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 91%
+source-wordcount: '1542'
+ht-degree: 90%
 
 ---
 
@@ -25,8 +25,6 @@ ht-degree: 91%
 >**Toutes les organisations ayant été migrées vers Adobe Admin Console, les informations contenues dans cet article ne sont plus pertinentes et seront supprimées dans un avenir proche.**
 >
 >Pour obtenir des instructions sur l’octroi d’un accès administrateur complet dans Adobe Admin Console, voir [Gérer les utilisateurs dans Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
->
->Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à Adobe Admin Console, consultez la section [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 En tant que personne membre de l’administration Adobe Workfront, vous pouvez créer un autre administrateur ou une autre administratrice Workfront en lui attribuant un niveau d’accès administratif au système. Un utilisateur ou une utilisatrice ayant ce niveau d’accès dispose d’un accès administratif complet à tout ce qui se trouve dans Workfront, y compris aux éléments non créés par ses soins.
 
