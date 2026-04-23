@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 77%
+source-wordcount: '545'
+ht-degree: 79%
 
 ---
 
@@ -105,7 +105,7 @@ Old:
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur l’icône **Menu principal** icône![Lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, ou sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, cliquez sur **Projets**, puis développez **Nouveau projet**.
+   * Cliquez sur l’icône **Menu principal** Icône![Lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, cliquez sur **Projets**, puis développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
    * Accédez à un programme, puis développez **Nouveau projet**.
    * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier des projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).

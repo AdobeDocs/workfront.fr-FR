@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 51%
+source-wordcount: '822'
+ht-degree: 54%
 
 ---
 
@@ -141,8 +141,6 @@ Old:
 </table>
 -->
 
-
-
 ## Remarques concernant les commentaires sur un enregistrement
 
 * Vous pouvez ajouter des commentaires et des réponses aux enregistrements dans la section Commentaires d’un enregistrement de Workfront Planning.
@@ -158,10 +156,6 @@ Old:
   Par exemple, les commentaires ajoutés aux projets dans Workfront ne s’affichent pas sur le même projet lié à une campagne dans Workfront Planning et les commentaires ajoutés à l’enregistrement Workfront Planning du projet ne s’affichent pas dans Workfront.
 
 * Vous pouvez marquer des utilisateurs ou des équipes pour attirer leur attention sur une mise à jour. Les utilisateurs balisés individuellement et les utilisateurs des équipes balisées reçoivent une notification in-app et un e-mail à propos de votre mise à jour.
-
-  >[!NOTE]
-  >
-  >   Seuls les utilisateurs des clients qui ont intégré l’expérience unifiée Adobe reçoivent à la fois une notification in-app et une notification par e-mail. Pour déterminer si votre société utilise l’expérience unifiée Adobe, consultez [Expérience unifiée Adobe pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * Vous pouvez ajouter une mise à jour aux enregistrements et consulter l’historique des modifications dans les sections suivantes de Workfront Planning :
 
@@ -197,7 +191,7 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
    * Ctrl + Z (⌘ + z pour Mac) pour annuler une modification
    * Ctrl + Y (⌘ + y pour Mac) pour rétablir une modification
-1. (Facultatif et conditionnel) Si votre instance Workfront fait partie de l’expérience unifiée Adobe, ajoutez **@** suivi du nom d’un utilisateur ou d’une équipe pour les baliser dans la mise à jour. Pour plus d’informations, consultez la section [Considérations relatives aux commentaires sur un enregistrement](#considerations-about-commenting-on-a-record) dans cet article.
+1. Ajoutez **@** suivi du nom d’un utilisateur ou d’une équipe pour les baliser dans la mise à jour. Pour plus d’informations, consultez la section [Considérations relatives aux commentaires sur un enregistrement](#considerations-about-commenting-on-a-record) dans cet article.
 
 1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes ou des liens vers votre mise à jour afin d’améliorer votre contenu.
 

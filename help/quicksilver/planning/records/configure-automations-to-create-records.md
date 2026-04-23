@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1763'
 ht-degree: 5%
 
 ---
 
 # Configurer des automatisations d’Adobe Workfront Planning
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -164,37 +166,33 @@ La page d’informations sur l’automatisation s’ouvre.
    * **Déclencheur** : sélectionnez une action qui déclenchera l’automatisation :
 
       * Clic sur bouton
-      * <span class="preview">Modification de la valeur du champ</span>
+      * Modification de la valeur de champ
 
-   1. (Conditionnel) Si vous avez sélectionné **Clic sur le bouton**, passez à l’étape 9 ci-dessous qui décrit la zone **Actions**. <!--ensure this number stays accurate-->
+1. (Conditionnel) Si vous avez sélectionné **Clic sur le bouton**, passez à l’étape 9 ci-dessous qui décrit la zone **Actions**. <!--ensure this number stays accurate-->
 
-   1. <span class="preview">(Conditionnel) Si vous avez sélectionné **Modification de la valeur du champ**, procédez comme suit dans la section **Paramètres** : </span>
+1. (Conditionnel) Si vous avez sélectionné **Modification de la valeur du champ**, procédez comme suit dans la section **Paramètres** :
 
-      1. <span class="preview">Choisissez un champ dans le menu déroulant. Il s’agit de champs associés au type d’enregistrement que vous avez sélectionné.</span>
-      1. <span class="preview">Continuer à définir les conditions du champ sélectionné.</span>
-      1. <span class="preview">Cliquez sur **Ajouter une condition** pour ajouter jusqu’à 5 champs et définir leur condition.</span>
+   1. Choisissez un champ dans le menu déroulant. Il s’agit de champs associés au type d’enregistrement que vous avez sélectionné.
+   1. Poursuivez la définition des conditions du champ sélectionné.
+   1. Cliquez sur **Ajouter une condition** pour ajouter jusqu’à 5 champs et définir leur condition.
 
-         <span class="preview">Vous pouvez ajouter l’un des types de champs suivants :</span>
+      Vous pouvez ajouter l’un des types de champs suivants :
 
-         <div class="preview">
+      * Sélection unique
+      * Sélection multiple
+      * Texte à une ligne
+      * Paragraphe
+      * Nombre
+      * Case à cocher
+      * Date
 
-         * Sélection unique
-         * Sélection multiple
-         * Texte à une ligne
-         * Paragraphe
-         * Nombre
-         * Case à cocher
-         * Date
+      Workfront Planning crée automatiquement des objets lorsque les conditions sont remplies.
 
-         </div>
+      ![Déclencheur de modification de la valeur du champ sélectionné](assets/field-value-change-trigger-selected.png)
 
-         <span class="preview">Workfront Planning crée automatiquement des objets lorsque les conditions sont remplies. </span>
-
-         ![Déclencheur de modification de la valeur du champ sélectionné](assets/field-value-change-trigger-selected.png)
-
-         >[!TIP]
-         >
-         ><span class="preview">Le modificateur de chaque condition change en fonction du type de champ sélectionné.</span>
+      >[!TIP]
+      >
+      >Le modificateur de chaque condition change en fonction du type de champ sélectionné.
 
 1. Mettez à jour les champs suivants dans la section **Actions** : <!--submitted bugs for these fields - see if they need changing here-->
    * **Actions** : sélectionnez l’action que Workfront doit effectuer lors du déclenchement de l’automatisation. Ce champ est obligatoire.
@@ -218,7 +216,7 @@ Sélectionnez l’une des actions suivantes :
       * **Champ connecté où le projet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
       * **Modèle de projet** : sélectionnez un modèle de projet que Workfront utilisera pour créer le projet.
 
-   * Créez plusieurs projets :
+   * **Créer plusieurs projets** :
       * **Champ connecté où le projet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
       * **Champ dont les choix créeront les enregistrements** : choisissez un champ à sélection multiple ou à sélection unique parmi le type d’enregistrement sélectionné. Workfront crée un projet pour chaque choix de champ actuellement sélectionné dans l’enregistrement à partir duquel vous déclenchez l’automatisation.
 
@@ -301,25 +299,28 @@ Dans la zone **Champs de carte**, mettez à jour les informations suivantes :
 
    La liste des automatisations disponibles pour le type d’enregistrement sélectionné s’ouvre.
 
-1. (Facultatif) Pour modifier, désactiver ou supprimer une automatisation, effectuez l’une des opérations suivantes :
+1. (Facultatif) Pour afficher, désactiver ou supprimer une automatisation d&#39;une liste d&#39;automatisations, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom d&#39;une automatisation, puis effectuez l&#39;une des opérations suivantes :
 
-   1. Dans la liste des automatisations, pointez sur le nom d’une automatisation enregistrée, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png).
+   * Pour l’automatisation du changement de la valeur d’un champ, cliquez sur **Afficher** pour afficher les paramètres d’automatisation.
 
-   1. Cliquez sur **Modifier** pour mettre à jour les informations suivantes :
+     >[!TIP]
+     >
+     >Vous ne pouvez pas modifier les paramètres d’une automatisation après leur enregistrement, lorsque l’automatisation est déclenchée par une modification de la valeur d’un champ.
 
-      * Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l&#39;automatisation, puis cliquez sur **Modifier** pour modifier le nom de l&#39;automatisation.
-      * Tous les champs de l’automatisation, à l’exception du champ **Actions**.
+   * Pour une automatisation par clic sur un bouton, cliquez sur **Modifier** pour mettre à jour les informations suivantes :
 
-        >[!TIP]
-        >
-        >Vous ne pouvez pas modifier l’action que vous avez initialement sélectionnée pour une automatisation.
+      * Le nom de l&#39;automatisation, en cliquant sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l&#39;automatisation, puis **Modifier**.
+      * Tout champ de l’automatisation, à l’exception du champ **Actions**.
 
+     >[!TIP]
+     >
+     >Vous ne pouvez pas modifier l’action que vous avez initialement sélectionnée pour une automatisation.
 
-   1. Cliquez sur **Désactiver** pour supprimer l’automatisation de la vue Tableau de l’enregistrement et empêcher les utilisateurs de l’utiliser pour créer des enregistrements ou des objets.
+   * Cliquez sur **Désactiver** pour supprimer l’automatisation de la vue Tableau de l’enregistrement et empêcher les utilisateurs de l’utiliser pour créer des enregistrements ou des objets.
 
-      Les enregistrements créés à l&#39;aide d&#39;une automatisation désactivée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.
+     Les enregistrements créés à l&#39;aide d&#39;une automatisation désactivée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.
 
-      Pour le rendre à nouveau disponible, cliquez de nouveau sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Activer**.
-   1. Cliquez sur **Supprimer** pour supprimer l’automatisation. Impossible de récupérer une automatisation supprimée.
+     Pour le rendre à nouveau disponible, cliquez de nouveau sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Activer**.
+   * Cliquez sur **Supprimer** pour supprimer l’automatisation. Impossible de récupérer une automatisation supprimée.
 
-      Les enregistrements qui ont été créés à l&#39;aide d&#39;une automatisation supprimée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.
+     Les enregistrements qui ont été créés à l&#39;aide d&#39;une automatisation supprimée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.

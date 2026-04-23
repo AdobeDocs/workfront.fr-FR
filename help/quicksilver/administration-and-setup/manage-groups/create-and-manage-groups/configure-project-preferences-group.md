@@ -1,5 +1,5 @@
 ---
-title: Configuration des préférences de projet pour un groupe
+title: Configure Project Preferences for a Group
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
@@ -10,19 +10,21 @@ role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2839'
-ht-degree: 91%
+source-wordcount: '2688'
+ht-degree: 95%
 
 ---
 
 # Configurer les préférences de projet pour un groupe
 
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Si vous êtes administrateur ou administratrice de groupes et qu’un administrateur ou une administratrice Adobe Workfront déverrouille une préférence de projet pour tous les groupes du système, vous pouvez configurer cette préférence pour votre groupe afin qu’elle affecte tous les projets créés ultérieurement par votre groupe.
 
@@ -60,7 +62,7 @@ Pour plus d’informations sur la façon dont un administrateur ou une administr
   </tr>
   <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
+   <td>You must be a group administrator of the group or a system administrator.</td>
   </tr>
  </tbody> 
 </table>
@@ -77,7 +79,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![icône Groupes](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups icon](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe dont vous souhaitez configurer les préférences de projet.
 1. Dans le panneau de gauche, cliquez sur **Préférences de projet**.
@@ -207,7 +209,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>Lorsque plusieurs utilisateurs sont affectés à une tâche, utilisez le planning de ...</strong> </p> </td> 
+   <td role="rowheader"> <p><strong>When multiple users are assigned to a task use the schedule of the ...</strong> </p> </td> 
    <td> <p>Si aucun planning n’est affecté à un projet ou si aucun planning n’est affecté aux personnes affectées à ses tâches, Workfront utilise le planning par défaut du système pour calculer la chronologie des tâches.</p> <p>Si vous affectez plusieurs personnes à la même tâche dans un projet auquel un planning est affecté (et qu’un planning est également affecté aux personnes affectées aux tâches), Workfront utilise les plannings suivants :</p> 
     <ul> 
      <li><strong>Affectation principale</strong> : Workfront utilise le planning de l’affectation principale sur la tâche pour calculer les chronologies.</li> 
@@ -215,13 +217,13 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     </ul> <p>Pour plus d’informations sur les plannings, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Créer un planning</a>.</p> </td> 
   </tr> 
  <tr> 
-   <td role="rowheader"> <p><strong>Lorsqu’un utilisateur est affecté à une tâche, utiliser la planification de...</strong> </p> </td> 
+   <td role="rowheader"> <p><strong>When one user is assigned to a task, use the schedule of the...</strong> </p> </td> 
    <td> <p>Si aucun planning n’est affecté à un projet ou si aucun planning n’est affecté aux personnes affectées à ses tâches, [!DNL Workfront] utilise le planning par défaut du système pour calculer la chronologie des tâches.</p>
 
-<p>Si vous affectez un utilisateur à une tâche dans un projet et qu'un planning est associé au projet et à l'utilisateur, [!UICONTROL Workfront] utilise les plannings suivants :</p> 
+<p>If you assign one user to a task in a project and both the project and the user have a schedule associated with them, [!UICONTROL Workfront] uses the following schedules:</p> 
     <ul> 
-     <li><strong>[!UICONTROL User]</strong> : planification de l’utilisateur affecté à la tâche pour calculer les chronologies.</li> 
-     <li><strong>[!UICONTROL Project]</strong> : calendrier du projet pour calculer la chronologie de la tâche.</li> 
+     <li><strong>[!UICONTROL User]</strong>: The schedule of the assigned user on the task to calculate timelines.</li> 
+     <li><strong>[!UICONTROL Project]</strong>: The schedule of the project to calculate the timeline of the task.</li> 
     </ul> <p>Pour plus d’informations sur les plannings, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Créer un planning</a>.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -234,15 +236,17 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
      <li><strong>Jours de travail standard par semaine</strong> : définissez la semaine de travail standard pour les personnes qui vont travailler sur des projets. La valeur par défaut est de 5 jours.</li> 
     </ul> <p>Ces 2 options convertissent les jours en heures ou les semaines en jours.</p> <p>Par exemple, si vous avez une tâche avec 8 heures prévues et que la durée est calculée sur la base des heures prévues, Workfront convertit ces heures en jours afin d’afficher la durée en jours.</p> <p>À partir du champ Jours ouvrables standard par semaine, Workfront calcule la valeur de l’équivalent temps complet pour votre système. C’est ce que Workfront utilise lors du calcul des allocations pour les personnes.</p> <p>Ces valeurs sont utilisées lorsque vous planifiez les chronologies des projets, la budgetisation des ressources ou que vous consignez des heures par rapport aux projets. </p> <p>Elles ne sont pas utilisées lorsque vous définissez des feuilles de temps pour les personnes du système, comme décrit dans la section <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configurer les préférences de feuilles de temps et d’heures</a>.</p> <p><b>NOTE</b> : les administrateurs et administratrices Workfront ne peuvent pas déverrouiller les préférences de calcul des chronologies.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><strong>Trimestres personnalisés</strong> </p> </td> 
+  <!--
+  <tr> 
+   <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
    <td> 
-   <span class="preview">La zone Trimestres personnalisés a été supprimée de la section Préférences du projet du groupe dans l’environnement de prévisualisation.</span>
-   <p>Les trimestres personnalisés sont généralement des trimestres qui ne correspondent pas à la répartition traditionnelle des trimestres au cours d’une année civile. Un administrateur Workfront peut ajouter plusieurs trimestres personnalisés dans la zone <b>Configuration</b>. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Activer les trimestres personnalisés</a>.</p>  
+   <span class="preview">The Custom Quarters area has been removed from the Group's Project Preferences section in the Preview environment.</span>
+   <p>Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. A Workfront administrator can add multiple custom quarters in the <b>Setup</b> area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p>  
    <p><b>IMPORTANT<b></p>
-   <p>Vous ne pouvez pas modifier la configuration du trimestre personnalisé en tant qu’administrateur de groupe. <p>Les administrateurs de Workfront ne peuvent pas déverrouiller les préférences Trimestres personnalisés afin que les administrateurs de groupe puissent les gérer.</p> <p>La zone Trimestres personnalisés est en lecture seule pour les administrateurs de groupe.</p>
+   <p>You cannot change the Custom Quarter configuration as a group administrator. <p>Workfront administrators cannot unlock Custom Quarters preferences so that group administrators can manage it.</p> <p>The Custom Quarters area is read-only for group administrators.</p>
    </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 

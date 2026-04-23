@@ -1,5 +1,5 @@
 ---
-title: Créer des espaces de travail
+title: Create Workspaces
 description: Un espace de travail est une collection de types d’enregistrements utilisés par une équipe et représente le cycle de vie du travail de l’équipe. Vous pouvez entièrement personnaliser les espaces de travail dans Adobe Workfront Planning. Les types d’enregistrements sont organisés par sections dans un espace de travail.
 feature: Workfront Planning
 role: User, Admin
@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1122'
 ht-degree: 19%
 
 ---
@@ -51,7 +51,7 @@ Pour obtenir des informations générales sur les espaces de travail, voir [Pré
    <td> 
 <p>Tout package de Workfront ou de workflow</p> 
 <p>Tout package Workfront Planning</p>
-<p>Un package Workfront Planning Prime ou version ultérieure pour créer plusieurs espaces de travail à la fois</p>
+<p>A Workfront Planning Prime or higher package to create multiple workspaces at a time</p>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
   <tr> 
@@ -133,7 +133,7 @@ Old:
 
 ## Créer un espace de travail
 
-Vous pouvez créer un espace de travail et y ajouter des types d’enregistrements afin d’organiser vos objets dans Workfront Planning.
+You can create a workspace and add record types to it to organize your objects in Workfront Planning.
 
 Pour plus d’informations sur la modification d’un espace de travail, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
@@ -154,11 +154,11 @@ Vous pouvez créer des espaces de travail comme suit :
   >
   >Vous ne pouvez créer plusieurs espaces de travail à la fois que lorsque vous utilisez le lot de modèles de bonnes pratiques.
 
-### Créer un espace de travail à partir de zéro ou d’un modèle
+### Create a workspace from scratch or from a template
 
 {{step1-to-planning}}
 
-1. Cliquez sur **Créer un espace de travail**
+1. Click **Create workspace**
 
    La zone Créer un espace de travail s’affiche. Vous pouvez créer un espace de travail à partir de zéro ou à l’aide de l’un des modèles disponibles.
 
@@ -186,10 +186,10 @@ Vous pouvez créer des espaces de travail comme suit :
 
    Un des types d’espace de travail suivants est créé :
 
-   * Un espace de travail vide nommé Workspace sans titre **dans lequel vous pouvez commencer à ajouter manuellement des types d’enregistrements lorsque vous créez un espace de travail à partir de zéro.**
-   * Un espace de travail nommé en fonction du modèle que vous avez sélectionné et renseigné avec des exemples de types d’enregistrements. Vous pouvez personnaliser davantage les types d’enregistrements et l’espace de travail.
+   * An empty workspace named **Untitled Workspace** where you can start adding record types manually, when you create a workspace from scratch.
+   * A workspace named after the template you selected that is populated with sample record types. You can further customize the record types and the workspace.
 
-   Pour les administrateurs Workfront, le nouvel espace de travail s’affiche dans l’onglet **Espaces de travail auxquels je participe**.
+   For Workfront administrators, the new workspace displays on the **Workspaces I&#39;m on** tab.
 
    Pour tous les autres utilisateurs qui peuvent créer des espaces de travail, le nouvel espace de travail s’affiche dans la zone **Espaces de travail**.
 
@@ -217,11 +217,10 @@ Vous pouvez créer des espaces de travail comme suit :
 
    Le nom de l’utilisateur qui a créé l’espace de travail est enregistré sur la carte de l’espace de travail en tant que Propriétaire.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >Pour les utilisateurs en cours de transition vers le système Adobe Identity Management (IMS), les espaces de travail créés par des utilisateurs Workfront uniquement qui ne sont pas des utilisateurs IMS s’affichent tels que créés par le **système**.
+   >Les espaces de travail créés par des utilisateurs Workfront uniquement qui n’ont pas été ajoutés au Adobe Admin Console s’affichent tels que créés par le **Système**.
    >
-   >Pour plus d’informations sur IMS, voir [Expérience unifiée Adobe pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ### Créer plusieurs espaces de travail à l’aide d’un lot de modèle multi-espace de travail conforme aux bonnes pratiques
 
@@ -232,20 +231,20 @@ Vous pouvez créer des espaces de travail comme suit :
 >* Votre entreprise a acheté un package Workfront Planning Prime ou Ultimate.
 >* Vous êtes administrateur système
 
-Vous pouvez utiliser un lot de modèles d’espaces de travail multiples pour créer 6 espaces de travail en un seul clic.
+You can use a multi-workspace template bundle to create 6 workspaces with one click.
 
-Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail, des types d&#39;enregistrements, des enregistrements, des vues et des champs qui vous aideront à démarrer avec l&#39;implémentation de Planning.
+The templates included in the bundle contain workspaces, record types, records, views, and fields to help you get started with your Planning implementation.
 
 >[!IMPORTANT]
 >
->Les noms des espaces de travail et des enregistrements inclus dans le lot sont des exemples et ne reflètent pas votre propre environnement.
+>The names of workspaces and records included in the bundle are examples, and are not a reflection of your own environment.
 >
->Les noms des types d’enregistrements et des champs peuvent être utilisés dans n’importe quelle organisation comme norme à implémenter dans n’importe quel secteur, conformément à notre recommandation.
+>The names of the record types and fields can be used in any organization as a standard for implementation in any industry, per our recommendation.
 >
 
 {{step1-to-planning}}
 
-1. Cliquez sur **Créer un espace de travail**
+1. Click **Create workspace**
 
    La zone Créer un espace de travail s’affiche. Vous pouvez créer un espace de travail à partir de zéro ou à l’aide de l’un des modèles disponibles.
 
@@ -271,7 +270,7 @@ Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail
 
    Pour plus d’informations sur les bonnes pratiques relatives à l’implémentation de Workfront, consultez les articles de la section [Bonnes pratiques de planification d’Adobe Workfront : index des articles](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) .
 
-   Pour plus d’informations sur la modification des espaces de travail, voir [&#x200B; Modifier les espaces de travail &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Pour plus d’informations sur la modification des espaces de travail, voir [ Modifier les espaces de travail ](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 
 

@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4007'
 ht-degree: 36%
 
 ---
 
 # Gérer la vue chronologique
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -255,7 +256,7 @@ Pour gérer une vue chronologique :
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-   * [Regroupement &#x200B;](#add-grouping)
+   * [Regroupement ](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
@@ -405,22 +406,18 @@ Pour ajouter un regroupement dans la vue chronologique :
 1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.
 
-   <span class="preview">![Regroupement de la vue chronologique de l’interface utilisateur avec des champs liés](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![Regroupement de la vue chronologique de l’interface utilisateur avec des champs liés](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Cliquez sur l&#39;un des champs suggérés ou cliquez sur **Choisir un autre champ** et recherchez un autre champ, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
 
    Le regroupement est appliqué automatiquement à la chronologie et les enregistrements s’affichent à l’intérieur de la zone de regroupement.
-1. <span class="preview">(facultatif et conditionnel) Selon le type de champ que vous avez sélectionné pour le regroupement, sélectionnez l’une des options de tri suivantes pour trier les regroupements par ordre croissant ou décroissant : </span>
-
-   <div class="preview">
+1. (Facultatif et conditionnel) Selon le type de champ que vous avez sélectionné pour le regroupement, sélectionnez l’une des options de tri suivantes pour trier les regroupements par ordre croissant ou décroissant :
 
    * **A -> Z** ou **Z -> A** pour les champs sélectionnés, les champs de texte, les champs de paragraphe, les enregistrements ou objets connectés, les champs de personne
    * **0 -> 9** ou **9 -> 0** pour les champs Nombre, Devise ou Pourcentage.
    * **au plus tôt -> au plus tard** ou **au plus tard -> au plus tôt** pour les champs de date
 
-   </div>
-
-   <span class="preview"> Les regroupements dans la vue Chronologie sont triés en conséquence. Les enregistrements à l’intérieur des regroupements sont triés dans l’ordre de leur **Date de début** qui est le tri par défaut. </span>
+   Les regroupements dans la vue Chronologie sont triés en conséquence. Les enregistrements à l’intérieur des regroupements sont triés dans l’ordre de leur **Date de début** qui est le tri par défaut.
 
 1. (Facultatif) Répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 

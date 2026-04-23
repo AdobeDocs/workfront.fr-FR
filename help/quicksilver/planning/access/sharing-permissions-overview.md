@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1151'
 ht-degree: 22%
 
 ---
@@ -82,7 +82,7 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
   >[!IMPORTANT]
   >
-  >Si l’instance de Workfront de votre organisation a été intégrée à l’expérience unifiée Adobe, les utilisateurs avec lesquels vous souhaitez partager des objets Planning doivent être ajoutés au Adobe Admin Console. Vous ne pouvez pas partager des objets Planning avec des utilisateurs de Workfront qui n&#39;ont pas été ajoutés au Adobe Admin Console.
+  >Les utilisateurs avec lesquels vous souhaitez partager des objets Planning doivent être ajoutés au Adobe Admin Console. Vous ne pouvez pas partager des objets Planning avec des utilisateurs de Workfront qui n&#39;ont pas été ajoutés au Adobe Admin Console.
 
 * Vous pouvez partager des objets Planning des manières suivantes :
 

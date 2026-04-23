@@ -9,7 +9,7 @@ feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 88%
@@ -198,14 +198,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png), puis **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/lines-main-menu.png), puis **Objectifs**.
 1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir sa page.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 1. Dans le menu déroulant Nouvel indicateur de progression, cliquez sur **Créer une activité**.
 
    La boîte de dialogue Nouvelle activité s’ouvre.
 
-   ![Zone Nouvelle activité](assets/new-activity-box-unshimmed.png)
+   ![New activity box](assets/new-activity-box-unshimmed.png)
 
 1. Saisissez un nom pour l’activité dans le champ Nom de l’activité. Champ obligatoire.
 1. (Facultatif) Supprimez votre nom du champ **Personne propriétaire de l’activité** si vous souhaitez affecter l’activité à un autre utilisateur ou une autre utilisatrice. Par défaut, vous êtes la personne propriétaire d’une activité que vous créez.

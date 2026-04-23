@@ -10,10 +10,10 @@ feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 90%
+source-wordcount: '859'
+ht-degree: 92%
 
 ---
 
@@ -175,7 +175,7 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Ajouter des projets aux objectifs
 
-1. Cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) (brouillon pour Shell : ou cliquez sur les **Menu principal** ![lignes du menu principal](assets/three-line-main-menu-icon.png) dans le coin supérieur gauche, s&#39;il est disponible) , puis sur **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/lines-main-menu.png), puis **Objectifs**.
 1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 1. Dans le menu déroulant **Nouvel indicateur de progression**, cliquez sur **Ajouter un projet existant**.

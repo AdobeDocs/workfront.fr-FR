@@ -8,10 +8,10 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 30%
+source-wordcount: '699'
+ht-degree: 31%
 
 ---
 
@@ -71,17 +71,19 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
    <ul><li><p>Tout package Workfront et un package Planning Plus</p></li>
    <li><p>Tout package de workflow et un package Planning Prime et Ultimate</p></li></ul> </td></tr>
 
-<tr>
-   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
+<!--
+   <tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
-   <p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p>
+   <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
    <p><b>IMPORTANT</b></p>
-   <p>Seuls les utilisateurs ajoutés au système Adobe Identity Management (IMS) peuvent se voir accorder des autorisations et être ajoutés aux champs Planning.</p>
-   <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
+   <p>Only users added to the Adobe Identity Management System (IMS) can be granted permissions and added to Planning fields.</p>
+   <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
   </tr>
-  </tr>
-  <tr>
+  -->
+
+<tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
    <ul><li><p>Tous, pour afficher les informations de planification Workfront</p></li>

@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 8%
+source-wordcount: '725'
+ht-degree: 7%
 
 ---
 
@@ -20,11 +20,13 @@ ht-degree: 8%
 
 {{planning-important-intro}}
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
-En tant que responsable d’espace de travail, vous pouvez ajouter un type d’enregistrement qui existe dans un autre espace de travail à un espace de travail que vous gérez dans Adobe Workfront Planning.
+As a workspace manager, you can add a record type that exists in another workspace to a workspace that you manage in Adobe Workfront Planning.
 
 Un gestionnaire d’espace de travail doit d’abord désigner un type d’enregistrement en tant que type d’enregistrement global avant de pouvoir l’ajouter aux espaces de travail que vous gérez en tant que type d’enregistrement existant. Les responsables Workspace peuvent désigner un type d’enregistrement comme global lors de sa création ou de sa modification en définissant les paramètres de l’espace de travail du type d’enregistrement.
 
@@ -53,7 +55,7 @@ Avant d’ajouter des enregistrements à un espace de travail à partir d’un t
    <td> 
 <ul><li><p>Tout package Workfront et un package Planning Plus</p></li>
 Ou
-<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></p></li></ul>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></p></li></ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
   <tr> 
@@ -118,12 +120,12 @@ And
 
 >[!NOTE]
 >
->Assurez-vous qu’au moins un type d’enregistrement est désigné comme global dans au moins un autre espace de travail principal.
+>Ensure there is at least one record type designated to be global in at least one other primary workspace.
 >
 >Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-1. Accédez à un espace de travail dans lequel vous souhaitez créer un type d’enregistrement (espace de travail secondaire).
-1. Commencez à créer un type d’enregistrement, comme décrit dans l’article [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md), puis cliquez sur **Ajouter un existant**. <!--check this - the option might have been renamed in the UI-->
+1. Go to a workspace where you want to create a record type (secondary workspace).
+1. Start creating a record type, as described in the article [Create record types](/help/quicksilver/planning/architecture/create-record-types.md), then click **Add existing**. <!--check this - the option might have been renamed in the UI-->
 
    ![Modal pour ajouter un type d’enregistrement avec la possibilité d’ajouter depuis un autre espace de travail](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
@@ -134,34 +136,34 @@ And
 1. Cliquez sur **Continuer**.
 1. Dans la zone **Choisir le type d’enregistrement**, cliquez sur la carte correspondant au type d’enregistrement à ajouter à partir d’un espace de travail existant, puis cliquez sur **Ajouter**.
 
-   <span class="preview">Le type d’enregistrement est ajouté à l’espace de travail secondaire que vous avez sélectionné et l’icône **type d’enregistrement global** ![icône d’enregistrement global dans l’espace de travail secondaire](assets/global-icon-secondary-workspace.png) s’affiche sur la carte du type d’enregistrement. </span>
-   <span class="preview">Lorsqu’elle est affichée sur un type d’enregistrement dans l’espace de travail secondaire, l’icône de type d’enregistrement global comprend une flèche pour indiquer que le type d’enregistrement a été ajouté à partir d’un type d’enregistrement existant.</span>
+   Le type d’enregistrement est ajouté à l’espace de travail secondaire que vous avez sélectionné et l’icône **type d’enregistrement global** ![icône d’enregistrement global sur l’espace de travail secondaire](assets/global-icon-secondary-workspace.png) s’affiche sur la carte du type d’enregistrement.
+L’icône de type d’enregistrement global comprend une flèche lorsqu’elle est affichée sur un type d’enregistrement dans l’espace de travail secondaire, pour indiquer que le type d’enregistrement a été ajouté à partir d’un type d’enregistrement existant.
 
    Les événements suivants se produisent :
 
    * Les informations suivantes sont également ajoutées à partir du type d’enregistrement global existant :
 
-      * Tous les champs d’origine
-      * Toutes les connexions aux enregistrements
-   * Vous ne pouvez pas afficher les enregistrements ajoutés depuis l’espace de travail d’origine du type d’enregistrement depuis l’espace de travail secondaire.
+      * All original fields
+      * All record connections
+   * You cannot view records added from the original workspace of the record type from the secondary workspace.
    * Vous pouvez afficher les enregistrements ajoutés depuis l’espace de travail d’origine du type d’enregistrement dans cet espace de travail, uniquement dans l’espace de travail d’origine, si vous disposez au moins des autorisations d’affichage dans cet espace de travail.
-   * Le champ en lecture seule **&#x200B;**&#x200B;est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
+   * Le champ en lecture seule **** est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
 
      >[!NOTE]
      >
      >Vous ne pouvez pas modifier l’aspect, les paramètres supplémentaires ou les champs d’origine du nouveau type d’enregistrement. Vous ne pouvez modifier le type d’enregistrement et tous ses champs et paramètres d’origine qu’à partir de l’espace de travail d’origine.
      >
 
-1. <span class="preview">(Facultatif) Pointez sur l’icône de type d’enregistrement global ![icône d’enregistrement global sur l’espace de travail secondaire](assets/global-icon-secondary-workspace.png) pour afficher le nom de l’espace de travail d’origine à partir duquel le type d’enregistrement a été ajouté. </span>
+1. (Facultatif) Pointez sur l’icône de type d’enregistrement global ![icône d’enregistrement global sur l’espace de travail secondaire](assets/global-icon-secondary-workspace.png) pour afficher le nom de l’espace de travail d’origine à partir duquel le type d’enregistrement a été ajouté.
 1. (Facultatif) Cliquez sur le type d’enregistrement nouvellement ajouté et déposez-le dans n’importe quelle section de l’espace de travail.
 1. (Facultatif) Cliquez sur le menu **Plus** sur la carte du nouveau type d’enregistrement ou à droite du nom du type d’enregistrement sur sa page, puis cliquez sur l’un des éléments suivants :
 
-   * **Partager** pour partager le type d’enregistrement à partir de l’espace de travail secondaire.
-   * **Supprimer** pour supprimer le type d’enregistrement de l’espace de travail secondaire. La suppression des types d’enregistrements de l’espace de travail secondaire supprime également les enregistrements ajoutés de l’espace de travail secondaire.
+   * **Share** to share the record type from the secondary workspace.
+   * **Delete** to delete the record type from the secondary workspace. Deleting record types from the secondary workspace also deletes records added from the secondary workspace.
 
-     Les vues ajoutées à partir de l&#39;espace de travail secondaire ne sont pas supprimées. <!--checking with Lilit - not sure if this is by design??-->
+     Views added from the secondary workspace are not deleted. <!--checking with Lilit - not sure if this is by design??-->
 
-   Pour plus d’informations, consultez la section « Supprimer des types d’enregistrements globaux » de l’article [Supprimer des types d’enregistrements](/help/quicksilver/planning/architecture/delete-record-types.md).
+   For more information, see the section &quot;Delete global record types&quot; in the article [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 <!--
 This will be released later with another epic: 

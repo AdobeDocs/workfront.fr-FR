@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2342'
 ht-degree: 3%
 
 ---
@@ -137,7 +137,6 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
    >[!TIP]
    >
-   >Ce paramètre est disponible uniquement lorsque votre instance Workfront est intégrée à l’expérience unifiée Adobe.
    >
    >Pour pouvoir envoyer des demandes Workfront Planning dans cette zone, vous devez remplir les conditions suivantes :
    >
@@ -192,11 +191,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    * Vous recevez une notification in-app et un e-mail vous informant que la demande a été soumise avec succès ou envoyée pour révision.
    * Si le formulaire de demande a été associé à une approbation, les approbateurs reçoivent une notification in-app et par e-mail pour examiner et approuver la demande.
 
-     >[!NOTE]
-     >
-     >Les notifications par e-mail et in-app ne sont visibles que lorsque l’instance de Workfront de votre organisation est intégrée à l’expérience unifiée Adobe.
-     >
-     >La demande est associée à un lien dans l’e-mail de confirmation ou de validation.
+     La demande est associée à un lien dans l’e-mail de confirmation ou de validation.
 
 1. (Facultatif) Cliquez sur **Afficher votre demande** dans le message de confirmation, pour ouvrir la demande, ou cliquez sur l’icône **X** pour fermer la confirmation.
 1. (Facultatif) Pour gérer l’affichage des informations dans la liste des demandes, mettez à jour les éléments d’affichage suivants pour la liste :
@@ -289,10 +284,6 @@ Les personnes externes ne peuvent pas accéder aux zones internes de Workfront, 
 
    * Vous recevez une notification in-app et un e-mail vous informant que la demande a été soumise avec succès ou envoyée pour révision.
    * Si le formulaire de demande a été associé à une approbation, les approbateurs reçoivent une notification in-app et par e-mail pour examiner et approuver la demande.
-
-     >[!NOTE]
-     >
-     >Les notifications par e-mail et in-app ne sont visibles que lorsque l’instance de Workfront de votre organisation est intégrée à l’expérience unifiée Adobe.
 
      Une fois la demande approuvée et l&#39;enregistrement créé, les champs Date d&#39;approbation par et Date d&#39;approbation affichent des informations sur l&#39;approbation dans l&#39;enregistrement.
 
