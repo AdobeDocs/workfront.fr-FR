@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 7a2ca1b61b2e8069445b1be162422660e3b4e100
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2343'
 ht-degree: 26%
 
 ---
@@ -20,7 +20,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du deuxième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -326,7 +326,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Amélioration des libellés de date pour les regroupements de graphiques dans les tableaux de bord Zone de travail</a><p></p>
-            <p>Les graphiques qui regroupent les données par date affichent désormais des libellés de date plus clairs et plus lisibles. Grâce à cette mise à jour, les libellés de date s’ajustent de manière dynamique en fonction de l’option Regrouper par sélectionnée (par jour, semaine, mois ou année, par exemple), ce qui facilite la lecture et l’interprétation des graphiques en un coup d’œil.</p><p>Remarque : les tableaux de bord de la zone de travail sont actuellement en version bêta.</p>
+            <p>Les graphiques qui regroupent les données par date affichent désormais des libellés de date plus clairs et plus lisibles. Grâce à cette mise à jour, les libellés de date s’ajustent de manière dynamique en fonction de l’option Regrouper par sélectionnée (par jour, semaine, mois ou année, par exemple), ce qui facilite la lecture et l’interprétation des graphiques en un coup d’œil.</p><p>Note: Canvas Dashboards is currently in beta.</p>
         </td>
         <td><p>vendredi 26 février 2026</p></td>
         <td><p>vendredi 12 mars 2026</p></td>
@@ -359,7 +359,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Expérience de partage mise à jour pour les vues améliorées</a><p></p>
-            <p>Dans la zone Nouvelles requêtes , lorsque vous partagez une vue améliorée avec un utilisateur et que vous lui donnez des autorisations d’affichage, l’utilisateur peut modifier les éléments d’affichage et ces modifications sont enregistrées dans les préférences personnelles de l’utilisateur. Ils ont désormais la possibilité d’enregistrer une copie de la vue qui comprend leurs modifications ou de réinitialiser la vue partagée à ses paramètres d’origine. Ils peuvent également partager la vue copiée avec d’autres utilisateurs. </p>
+            <p>Dans la zone Nouvelles requêtes , lorsque vous partagez une vue améliorée avec un utilisateur et que vous lui donnez des autorisations d’affichage, l’utilisateur peut modifier les éléments d’affichage et ces modifications sont enregistrées dans les préférences personnelles de l’utilisateur. They now have the option to save a copy of the view that includes their changes or to reset the shared view to its original settings. They can further share the copied view with others. </p>
         </td>
            <td><p>vendredi 26 février 2026</p></td>
         <td><p>vendredi 12 mars 2026</p></td>
@@ -394,9 +394,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Vues prédéfinies ajoutées à la liste des requêtes dans la zone des Requêtes et le widget Mes requêtes </a><p></p>
             <p>Pour vous aider à mieux organiser votre liste de demandes, nous avons ajouté des vues prédéfinies à la liste des demandes dans la zone des Demandes et le widget Mes demandes dans l’Accueil.</p>
         </td>
-           <td><p>S/O</p><p>Les vues prédéfinies n’auront pas de version d’aperçu et seront directement mises en production. </p></td>
-        <td><p>À déterminer</p></td>
-        <td><p>À déterminer</p></td>
+           <td><p>vendredi 23 avril 2026</p></td>
+        <td><p>vendredi 23 avril 2026</p></td>
+        <td><p>vendredi 23 avril 2026</p></td>
  </tr>
     <tr>
         <td>
@@ -480,7 +480,7 @@ La version d’essai gratuite de Workfront Planning offre les avantages suivants
 * Indiquez clairement les jalons de votre configuration qui sont adaptés à des rôles spécifiques.
 * Planning Designer : un assistant optimisé par l’IA qui peut vous aider à créer l’environnement souhaité
 
-Pour plus d’informations, voir [Prise en main de la version d’essai gratuite d’Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md).
+For more information, see [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md).
 
 ### Version 21 de l’API
 
@@ -510,7 +510,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
