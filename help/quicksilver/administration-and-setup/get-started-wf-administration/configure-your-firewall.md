@@ -25,7 +25,7 @@ ht-degree: 84%
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées à Admin Console. Comme toutes les organisations ont maintenant été intégrées à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
 >
->Pour configurer votre une fois que votre organisation a intégré Adobe Admin Console, reportez-vous à la section [&#x200B; Domaines autorisés pour les applications et services Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>Pour configurer votre une fois que votre organisation a intégré Adobe Admin Console, reportez-vous à la section [&#x200B; Domaines autorisés pour les applications et services Adobe](https://helpx.adobe.com/fr/enterprise/kb/network-endpoints.html).
 >
 >Pour obtenir la liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non au Adobe Admin Console, voir [Différences d’administration entre Adobe Workfront et Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

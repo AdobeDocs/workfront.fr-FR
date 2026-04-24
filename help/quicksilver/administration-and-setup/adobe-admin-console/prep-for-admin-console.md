@@ -51,11 +51,11 @@ Pour que votre organisation puisse migrer vers l’Adobe Admin Console, vous d
    >
    >Préparez-vous à discuter avec le support Workfront et votre équipe informatique des préférences d’authentification, telles que l’authentification unique (SSO) ou non SSO.
 
-   Pour obtenir des instructions, voir la section Identity Management du [Guide de déploiement pour Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   Pour obtenir des instructions, voir la section Identity Management du [Guide de déploiement pour Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/deployment-planning.html).
 
 1. (Le cas échéant) Si vous utilisez l’authentification unique, connectez la nouvelle Adobe Admin Console à votre fournisseur d’authentification unique existant.
 
-   Pour plus d’informations et d’instructions, voir [Définir l’identité](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+   Pour plus d’informations et d’instructions, voir [Définir l’identité](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >
