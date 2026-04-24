@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8e8eec4977614529a1bab78dda003cdcdf32dba0
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '2274'
-ht-degree: 66%
+source-wordcount: '2317'
+ht-degree: 64%
 
 ---
 # Extraits de code
@@ -45,7 +45,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Niveau de l’article - Version préliminaire et version rapide du quatrième trimestre 2023 {#article-preview-and-fast-release}
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Cette option est disponible uniquement dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
 
 <span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
@@ -120,7 +120,7 @@ Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe e
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Admin Console.
 >
->Si votre entreprise a été intégrée à Adobe Admin Console, consultez la section [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Si votre organisation a été intégrée à Adobe Admin Console, voir [ Différences d’administration entre Adobe Workfront et Adobe Business Platform ](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Étape 1 - Accéder à Utilisateurs et utilisatrices {#step-1-to-users}
 

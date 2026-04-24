@@ -3,17 +3,17 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: "Prise en main de l’administration Adobe Workfront : index de l’article"
+title: 'Prise en main de l’administration d’Adobe Workfront : index des articles'
 description: Cette section comprend des données et des directives concernant la configuration initiale d’Adobe Workfront, ainsi que des informations essentielles pour les équipe d’administration de Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 93%
+source-wordcount: '122'
+ht-degree: 86%
 
 ---
 
@@ -33,4 +33,4 @@ Cette section contient les articles suivants :
 * [Configurer la liste autorisée d’e-mails](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
 * [Envoyer des annonces](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 * [Configuration requise du navigateur pour Workfront](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
-* [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
+* [Différences d’administration entre Adobe Workfront et Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)

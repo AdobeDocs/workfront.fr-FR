@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 83%
+source-wordcount: '1594'
+ht-degree: 84%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 83%
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées à Admin Console. Comme toutes les organisations ont maintenant été intégrées à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
 >
->Pour configurer votre une fois que votre organisation a intégré Adobe Admin Console, reportez-vous à la section [&#x200B; Domaines autorisés pour les applications et services Adobe](https://helpx.adobe.com/fr/enterprise/kb/network-endpoints.html).
+>Pour configurer votre une fois que votre organisation a intégré Adobe Admin Console, reportez-vous à la section [ Domaines autorisés pour les applications et services Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à Adobe Admin Console, consultez la section [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour obtenir la liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non au Adobe Admin Console, voir [Différences d’administration entre Adobe Workfront et Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -331,7 +331,7 @@ Ajoutez les adresses IP suivantes à votre liste autorisée pour permettre à Wo
  </tbody> 
 </table>
 
-De même, si votre entreprise utilise le filtrage de réseau sortant, ajoutez le domaine suivant à votre place sur la liste autorisée pour permettre à votre système d’accéder à Workfront Fusion. Ces URL sont utilisées pour les Webhooks dans Fusion.
+En outre, si votre organisation utilise le filtrage réseau sortant, ajoutez le domaine suivant à votre liste autorisée pour permettre à votre système d’accéder à Workfront Fusion. Ces URL sont utilisées pour les Webhooks dans Fusion.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -425,7 +425,7 @@ Si votre entreprise utilise le filtrage de réseau sortant, ajoutez les domaines
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
-* snippet.maze.co
+* extrait.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 

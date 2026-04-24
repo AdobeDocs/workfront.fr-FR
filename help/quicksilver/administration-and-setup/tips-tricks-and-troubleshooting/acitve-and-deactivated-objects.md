@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 96%
+source-wordcount: '760'
+ht-degree: 90%
 
 ---
 
@@ -76,7 +76,7 @@ Vous pouvez activer un chemin jalonné lors de sa modification.
 
 Pour plus d’informations sur la modification des chemins jalonnés, voir [Créer un chemin jalonné](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-## Formulaires personnalisés dans mon groupe
+## Formulaires personnalisés
 
 Un formulaire personnalisé doit être actif pour apparaître sur le champ [!UICONTROL Formulaire personnalisé] pour un autre objet.
 
@@ -92,7 +92,7 @@ Vous pouvez rendre une entreprise active lors de sa modification.
 
 Pour plus d’informations, voir [Créer et modifier des entreprises](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-## Utilisateurs
+## Utilisateurs et utilisatrices
 
 Une personne doit être active pour apparaître dans n’importe quel champ de saisie de tous les autres objets lors d’affectations ou de partages.
 
@@ -102,11 +102,11 @@ Pour plus d’informations sur la désactivation d’utilisateurs et d’utilisa
 
 >[!IMPORTANT]
 >
->Si votre organisation a été intégrée à [!DNL Adobe Business Platform], vous devez désactiver les utilisateurs et utilisatrices via [!UICONTROL Adobe Admin Console].
+>Une fois l’intégration de votre organisation à l’[!DNL Adobe Business Platform] terminée, vous devez désactiver les utilisateurs à l’aide de [!UICONTROL Adobe Admin Console].
 >
 >Pour plus d’informations sur la désactivation d’un utilisateur ou d’une utilisatrice dans [!UICONTROL Adobe Admin Console], voir la section « Supprimer des utilisateurs et utilisatrices » dans l’article [Gérer les utilisateurs et utilisatrices individuellement](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) ou contactez votre équipe d’administration [!UICONTROL Adobe Admin Console].
 >
->Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a ou non été intégrée à [!DNL Adobe Business Platform], voir la section [Différences d’administration en fonction des plateformes (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour obtenir la liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à l’[!DNL Adobe Business Platform], voir [Différences d’administration entre Adobe Workfront et Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Équipes
 

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 86%
+source-wordcount: '835'
+ht-degree: 80%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 86%
 >
 >**Toutes les organisations ayant désormais intégré Adobe Admin Console, les informations de cette page seront supprimées dans un avenir proche.**
 >
->Pour obtenir une liste de procédures qui diffèrent selon que votre entreprise a été intégrée ou non à Adobe Business Platform, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour obtenir la liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à la plateforme commerciale Adobe, voir [Différences d’administration entre Adobe Workfront et la plateforme commerciale Adobe](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Lorsqu’une personne quitte votre entreprise, vous pouvez la supprimer d’Adobe Workfront.
 
@@ -37,9 +37,9 @@ Lorsqu’une personne quitte votre entreprise, vous pouvez la supprimer d’Adob
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
 
@@ -63,7 +63,7 @@ Lorsqu’une personne quitte votre entreprise, vous pouvez la supprimer d’Adob
    <td>Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. </li> 
      <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -91,7 +91,7 @@ La désactivation d’une personne entraîne les événements suivants :
      >[!NOTE]
      >
      >Si vous désactivez une personne et ne pouvez plus afficher les rapports ou les tableaux de bord associés à une personne, vous devrez peut-être mettre à jour le champ **Exécuter ce rapport avec les droits d’accès suivants :**.\
-     >Pour en savoir plus, voir la section [Pourquoi ne puis-je pas accéder à un rapport détenu par une personne désactivée ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) de l’article [Questions fréquentes sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+     >Pour en savoir plus, consultez le [Pourquoi ne puis-je pas accéder à un rapport détenu par un utilisateur désactivé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) de l’article [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Documents
    * Mises à jour

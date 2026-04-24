@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '4398'
-ht-degree: 98%
+source-wordcount: '4461'
+ht-degree: 96%
 
 ---
 
@@ -135,7 +135,7 @@ L’API utilise la même authentification basée sur les cookies que celle utili
 >
 >La procédure décrite dans cette section s’applique uniquement aux organisations qui n’ont pas encore été intégrées à Adobe Business Platform. Toutes les organisations ayant désormais intégré Adobe Business Platform, la **connexion à Workfront via l’API Workfront n’est plus disponible** .
 >
->Pour une liste des procédures qui diffèrent selon que votre entreprise a été intégrée ou non à Adobe Business Platform, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour obtenir la liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à la plateforme commerciale Adobe, voir [Différences d’administration entre Adobe Workfront et la plateforme commerciale Adobe](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 À l’aide d’un nom d’utilisateur ou d’utilisatrice et d’un mot de passe valides, vous pouvez utiliser la requête suivante pour obtenir un ID de session :
 
@@ -302,13 +302,13 @@ alors utilisez l’appel API suivant avec ses multiples instructions OR :
 
 L’un des inconvénients potentiels de l’utilisation de paramètres URL pour les filtres de recherche est que Workfront analyse certains paramètres avant de vérifier les différentes méthodes d’authentification (par exemple, nom d’utilisateur ou d’utilisatrice, mot de passe, apiKey, cookie). Dans ce cas, les paramètres ne sont pas utilisés comme filtres dans l’appel. 
 
-Pour éviter ce problème, vous pouvez placer ces valeurs dans des paramètres de filtre avec un formatage JSON. Par exemple, si vous voulez filtrer le nom d’utilisateur ou d’utilisatrice testuser, au lieu d’utiliser
+Pour éviter ce problème, vous pouvez placer ces valeurs dans des paramètres de filtre avec un formatage JSON. Par exemple, si vous voulez filtrer le nom d’utilisateur ou d’utilisatrice testuser, au lieu d’utiliser 
 <pre>/attask/api/v15.0/user/search?username=testuser@workfront.com</pre>faites passer le paramètre URL dans un filtre, comme le montre l’exemple suivant :
 <pre>/attask/api/v15.0/user/search?filters={"username":"testuser@workfront.com"}</pre>
 
 #### Utiliser le paramètre de requête Map
 
-Par défaut, les données renvoyées par une recherche sont sous la forme d’un tableau JSON. Selon votre cas d’utilisation, il peut être plus efficace d’obtenir le résultat sous la forme d’un objet JSON indexé par ID. Pour ce faire, il convient d’utiliser le paramètre de requête Map. Par exemple, la requête
+Par défaut, les données renvoyées par une recherche sont sous la forme d’un tableau JSON. Selon votre cas d’utilisation, il peut être plus efficace d’obtenir le résultat sous la forme d’un objet JSON indexé par ID. Pour ce faire, il convient d’utiliser le paramètre de requête Map. Par exemple, la requête 
 <pre>/attask/api/v15.0/task/search?map=true</pre>renvoie une réponse indexée par ID similaire à ce qui suit :
 <pre>{<br>    "data": {<br>        "4c9a97db0000000f13ee4446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "NEW",<br>            "name": "first task",<br>            "ID": "4c9a97db0000000f13ee4446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "second task",<br>            "ID": "4ca28ba600002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
 
@@ -330,7 +330,7 @@ Pour obtenir une liste des références de champs possibles, consultez l’[Expl
 
 Vous pouvez rechercher des objets imbriqués. Par défaut, les objets imbriqués sont renvoyés avec seulement le nom et l’ID. Par exemple, pour obtenir tous les problèmes avec leurs personnes propriétaires, utilisez la requête suivante :
 <pre>/attask/api/v15.0/issue/search?fields=owner</pre>Si vous avez besoin de plus d’informations, vous pouvez demander un champ imbriqué en utilisant la syntaxe des deux points. Par exemple, la requête suivante permet de rechercher tous les problèmes ainsi que le nom, l’ID, le titre et le numéro de téléphone de la personne propriétaire.
-<pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>et de renvoyer ce qui suit :
+<pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>et de renvoyer ce qui suit : 
 <pre>{<br>    "name": "an important issue",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### Récupérer des collections imbriquées
@@ -348,7 +348,7 @@ Par défaut, seuls le nom et l’ID de chaque tâche sont renvoyés, mais des ch
 
 Vous pouvez récupérer des champs de données personnalisés en utilisant le préfixe « DE: ». Par exemple, pour demander un projet avec un paramètre appelé « CustomText », utilisez la requête suivante :
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>qui renvoie
-<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Vous pouvez également récupérer toutes les données personnalisées d’un objet en interrogeant le champ parameterValues. Par exemple,
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Vous pouvez également récupérer toutes les données personnalisées d’un objet en interrogeant le champ parameterValues. Par exemple, 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>renvoie des données similaires à celles qui suivent :
 <pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
@@ -382,7 +382,7 @@ Cela fonctionne pour la plupart des champs de Workfront.
 
 ### Prendre en compte les limites des requêtes
 
-Lorsque vous interrogez un objet, il convient de tenir compte des relations entre les objets connexes et des limites de la recherche.Par exemple, comme le montre le tableau suivant, une requête portant sur les projets ne peut pas renvoyer plus de 2 000 projets. Ces 2 000 projets sont considérés comme des « objets principaux ». Si vous interrogez le champ Tâches sur les projets, le champ Tâches, qui est une collection, devient un objet secondaire par rapport à l’objet principal Projet. Une requête du champ Tâches peut inclure des milliers de tâches sur des projets. Au total, le nombre combiné d’objets (projets et tâches) renvoyés ne peut dépasser le maximum de 50 000.
+Lorsque vous interrogez un objet, il convient de tenir compte des relations entre les objets connexes et des limites de la recherche. Par exemple, comme le montre le tableau suivant, une requête portant sur les projets ne peut pas renvoyer plus de 2 000 projets. Ces 2 000 projets sont considérés comme des « objets principaux ». Si vous interrogez le champ Tâches sur les projets, le champ Tâches, qui est une collection, devient un objet secondaire par rapport à l’objet principal Projet. Une requête du champ Tâches peut inclure des milliers de tâches sur des projets. Au total, le nombre combiné d’objets (projets et tâches) renvoyés ne peut dépasser le maximum de 50 000.
 
 Pour garantir des performances optimales, le tableau suivant indique les limites imposées aux requêtes de recherche. 
 
@@ -487,24 +487,24 @@ La réponse à une requête PUT est identique à celle d’une GET. Dans les deu
 ### Modifier des objets
 
 Les mises à jour des objets sont toujours effectuées par ID en utilisant l’URI unique de l’objet. Les champs à mettre à jour sont spécifiés en tant que paramètres de la requête. Par exemple, pour modifier le nom d’un projet, vous pouvez envoyer une requête similaire à la suivante :
-<pre>PUT /attask/api/v15.0/project/4c7...?name=New Project Name <br>PUT /attask/api/v15.0/project?id=4c7...&amp;name=New Project Name</pre>La mise à jour nécessitant un ID, cette opération échouera (sans insertion) si l’objet n’existe pas sur le serveur.
+<pre>PUT /attask/api/v15.0/project/4c7...?name=Nouveau nom du projet <br>PUT /attask/api/v15.0/project?id=4c7...&amp;name=Nouveau nom du projet</pre>La mise à jour nécessitant un ID, cette opération échouera (sans insertion) si l’objet n’existe pas sur le serveur.
 
 ### Spécifier les modifications JSON
 
 Comme le montre l’exemple suivant, vous pouvez utiliser le paramètre de requête updates pour spécifier les champs à mettre à jour en utilisant la syntaxe JSON :
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     name: "New Project Name", <br>     status: "CUR", <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     nom : « Nouveau nom du projet », <br>     Statut : « CUR », <br>     ... <br>}</pre>
 
 ### Effectuer des mises à jour imbriquées
 
 Certains objets possèdent des collections privées qui peuvent être mises à jour. Par exemple, l’exemple suivant montre comment remplacer les affectations existantes pour une tâche donnée :
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    assignments: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    affectations : [ <br>        { <br>            assignedToID : « 2222...54d0, <br>            assignmentPercent : 50.0 <br>        },{ <br>            roleID : « 1111...54d0 »<br>        } <br>    ] <br>}</pre>
 
 >[!NOTE]
 >
 >Alors que les mises à jour effectuées au niveau supérieur sont peu nombreuses, les mises à jour d’une collection ou d’un objet imbriqué remplacent complètement la collection existante. Pour modifier une seule affectation sur une tâche sans effet sur les objets, utilisez une requête PUT sur l’affectation plutôt que sur la tâche.
 
 L’exemple suivant fait d’un projet une file d’attente publique pour le centre d’assistance. Notez que les propriétés existantes de la file d’attente sont remplacées.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef : { <br>        isPublic : 1 <br>    } <br>}</pre>
 
 ### Utiliser le paramètre de requête Action
 
@@ -517,7 +517,7 @@ La syntaxe suivante permet de déplacer une tâche d’un projet à un autre :
 <pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>Un exemple pour chaque type d’action est fourni ici : (??)
 <pre>PUT /attask/api/v15.0/project/1234/approveApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/recallApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>L’identification d’attributs supplémentaires est nécessaire uniquement pour l’action de déplacement afin de spécifier le projet dans lequel l’élément de travail doit être déplacé.
 
-Voici un exemple de chaque type d’action :
+Voici un exemple de chaque type d’action : 
 <pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
 
 ### Partager des objets
