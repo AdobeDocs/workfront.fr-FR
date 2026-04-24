@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+source-git-commit: 6caee75959eccc6f04a99065af9cc8a7e8803017
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 82%
+source-wordcount: '1276'
+ht-degree: 80%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 82%
 >
 >   Les administrateurs et administratrices de groupes des organisations qui ont été intégrées à Adobe Admin console peuvent utiliser cette procédure pour créer des utilisateurs et utilisatrices et les soumettre à l’approbation de l’administrateur ou de l’administratrice.
 >
->   Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à Adobe Admin Console, consultez la section [Différences d’administration en fonction de la plateforme (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>   Pour obtenir la liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non au Adobe Admin Console, voir [Différences d’administration entre Adobe Workfront et Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >* **Si votre entreprise utilise l’authentification unique (SSO)**, nous vous recommandons de créer des utilisateurs et utilisatrices et de les affecter à Workfront dans Adobe Admin Console. La création de ces utilisateurs et utilisatrices dans Workfront est possible, mais il peut y avoir des problèmes de transfert de ces informations vers Adobe Admin Console, en fonction de la configuration d’Admin Console dans votre organisation.
 >   Après avoir créé l’utilisateur ou l’utilisatrice dans Adobe Admin Console, vous pouvez configurer ses informations dans Workfront, telles que l’attribution de rôles, de groupes, d’équipes et de niveaux d’accès.
@@ -65,7 +65,7 @@ En tant qu’administrateur Adobe, vous pouvez ajouter des utilisateurs dans Ado
    <td>Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. </li> 
      <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 
