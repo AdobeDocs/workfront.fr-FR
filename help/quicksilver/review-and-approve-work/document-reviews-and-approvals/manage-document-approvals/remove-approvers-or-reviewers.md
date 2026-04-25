@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 30%
+source-wordcount: '538'
+ht-degree: 33%
 
 ---
 
@@ -34,7 +34,8 @@ Vous pouvez supprimer des approbateurs ou des réviseurs d’une ressource ou d�
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Tout package Workfront pour gérer les approbations à l’aide du stockage Workfront hérité</p>
+<p>Tout package de workflow pour gérer les approbations à l’aide du stockage d’entreprise Adobe</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -104,12 +105,12 @@ Pour créer un workflow de validation :
 
 1. Recherchez le participant que vous souhaitez supprimer, puis cliquez sur l’icône **Supprimer** en regard de son nom.
 
-   La demande d’approbation ou de révision est supprimée et l’approbateur reçoit une notification indiquant que son approbation n’est plus nécessaire.
+   La demande d’approbation ou de révision est supprimée et la personne approbatrice reçoit une notification indiquant que son approbation n’est plus nécessaire.
 
 1. (Facultatif) Pour remplacer le rôle d’approbateur par celui de réviseur ou vice versa, cliquez sur le menu déroulant en regard du nom d’utilisateur et sélectionnez le nouveau rôle.
 
 1. Répétez l’étape précédente pour supprimer toute personne approbatrice ou réviseuse supplémentaire.
 
-   ![supprimer des participants d’une étape](assets/add-or-remove-participants.png)
+   ![remove participants from a stage](assets/add-or-remove-participants.png)
 
 1. Cliquez sur **Enregistrer**.

@@ -1,34 +1,34 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Vérifier et approuver avec la visionneuse Frame.io
-description: Découvrez comment réviser et approuver des documents à l’aide de la visionneuse Frame.io.
+title: Review and approve with the Frame.io viewer
+description: Learn how to review and approve documents using the Frame.io viewer.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 10%
 
 ---
 
-# Vérifier et approuver avec la visionneuse Frame.io
+# Review and approve with the Frame.io viewer
 
-Vous pouvez réviser et approuver des documents dans Workfront à l’aide de la visionneuse Frame.io.
+You can review and approve documents in Workfront using the Frame.io viewer.
 
-La révision des documents Workfront à l’aide de la visionneuse Frame.io vous permet de laisser des commentaires ou de marquer des sections spécifiques d’un document, d’une image ou d’une vidéo afin de collaborer efficacement avec votre équipe et de vous assurer que les commentaires sont clairs et exploitables.
+Reviewing Workfront documents with the Frame.io viewer allows you to leave comments or mark up specific sections of a document, image, or video to collaborate efficiently with your team and ensure that feedback is clear and actionable.
 
-Pour plus d’informations sur l’intégration de Frame.io à Workfront, consultez [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+For more information on the Frame.io integration with Workfront, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 
-<!--
-## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,80 +37,81 @@ Pour plus d’informations sur l’intégration de Frame.io à Workfront, consul
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tout package Workfront pour gérer les approbations à l’aide du stockage Workfront hérité</p>
+<p>Tout package de workflow pour gérer les approbations à l’aide du stockage d’entreprise Adobe</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses</td> 
-   <td> <p>Request or higher</p>
-   <p>Contributor or higher</p> </td> 
+   <td role="rowheader">Licences Adobe Workfront</td> 
+   <td> <p>Requête ou supérieure</p>
+   <p>Contributeur ou supérieur</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Documents</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux documents</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit access to the object associated with the document</p> </td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td> <p>Accès Modifier à l’objet associé au document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
--->
+
 
 ## Conditions préalables
 
-* L’intégration Workfront et Frame.io doit être configurée dans votre instance Workfront. Pour plus d’informations, voir [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+* You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
 ## Réviser un document
 
-En tant que réviseur/réviseuse, vous pouvez ajouter des commentaires aux ressources et les marquer. Une fois l’opération terminée, vous pouvez marquer la révision comme terminée dans Workfront. Il n’est pas nécessaire de marquer la révision comme terminée pour que la ressource progresse dans le processus d’approbation.
+As a reviewer, you can add comments to and mark up assets. Once finished, you can mark your review complete in Workfront. Marking the review as complete is not required for the asset to move forward in the approval process.
 
-1. Accédez à l’e-mail de notification de révision, puis cliquez sur **Accéder à la révision**.
+1. Go to your review email notification, and click **Go to review**.
 ou
-Accédez à la page d’accueil de Workfront, recherchez le widget Mes approbations , puis cliquez sur **Ouvrir la révision**.
+Go the Workfront Home page, find the My Approvals widget, then click **Open review**.
 
    >[!NOTE]
    > 
-   >Vous devrez peut-être ajouter le widget Mes approbations à votre page d’accueil. Pour plus d’informations, voir [Ajouter, modifier ou supprimer des widgets dans l’Accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+   >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
-1. Dans Frame.io, utilisez les outils de commentaires pour laisser des commentaires ou poser des questions.
-Les commentaires et les balises de ressources ne sont visibles que dans la visionneuse Frame.io. Les commentaires ne s’affichent pas dans Workfront. Pour plus d&#39;informations sur l&#39;utilisation de la visionneuse Frame.io, voir [Commentaire sur vos médias](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
-1. Une fois que vous êtes satisfait(e) du document, revenez à la page Détails du document dans Workfront et marquez votre révision comme terminée.
+1. In Frame.io, use the commenting tools to leave feedback or ask questions.
+Comments and asset markup is visible only in the Frame.io viewer. Comments do not display in Workfront. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+1. Once you&#39;re satisfied with the document, navigate back to the Document Details page in Workfront and mark your review as complete.
 
-   ![Marquer la révision comme terminée](assets/mark-review-complete.png)
+   ![Mark review complete](assets/mark-review-complete.png)
 
 ## Approuver un document
 
-En tant qu’approbateur/approbatrice, vous pouvez ajouter des commentaires et marquer les éléments comme étant des ressources. Vous devez prendre une décision pour faire avancer le processus d’approbation.
+As an approver, you can add comments and mark up to assets. You must make a decision to move the approval process forward.
 
-Le document ne passe pas à un statut approuvé tant que tous les approbateurs affectés n&#39;ont pas choisi « approuvé ».
+The document does not move to an approved status until all assigned approvers choose &quot;approved&quot;.
 
-Pour prendre une décision sur un document :
+To make a decision on a document:
 
-1. Accédez à l’e-mail de notification de révision, puis cliquez sur **Accéder à la révision**.
+1. Go to your review email notification, and click **Go to review**.
 ou
-Accédez à la page d’accueil de Workfront, recherchez le widget Mes approbations , puis cliquez sur **Ouvrir la révision**.
+Go the Workfront Home page, find the My Approvals widget, then click **Open review**.
 
    >[!NOTE]
    > 
-   >Vous devrez peut-être ajouter le widget Mes approbations à votre page d’accueil. Pour plus d’informations, voir [Ajouter, modifier ou supprimer des widgets dans l’Accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+   >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 
-1. Dans Frame.io, utilisez les outils de commentaires pour laisser des commentaires ou poser des questions. Les commentaires et les balises de ressources ne sont visibles que dans la visionneuse Frame.io. Pour plus d&#39;informations sur l&#39;utilisation de la visionneuse Frame.io, voir [Commentaire sur vos médias](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
-1. Une fois que vous êtes satisfait du document, vous pouvez choisir l&#39;une des décisions suivantes dans la visionneuse Frame.io :
+1. In Frame.io, use the commenting tools to leave feedback or ask questions. Comments and asset markup are visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+1. Once you&#39;re satisfied with the document, you can choose one of the following decisions in the Frame.io viewer:
 
-   * **Approuver** : la ressource n’a pas besoin d’être modifiée et est prête à être utilisée.
-   * **À retravailler** : la ressource a besoin d’être modifiée et n’est pas prête à être utilisée. Une fois les modifications spécifiées effectuées, la ressource doit être chargée en tant que nouvelle version et passer par un autre cycle d’approbations. Pour plus d&#39;informations, voir [Charger une nouvelle version du document et demander une approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md). <!--do they need to tell someone it was uploaded via comment tagging?-->
+   * **Approve**: The asset does not need changes and is ready for use.
+   * **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals. For more information, see [Upload a new document version and request an approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md). <!--do they need to tell someone it was uploaded via comment tagging?-->
 
-   Une fois la décision prise, le propriétaire du document est averti par e-mail.
+   Once you make a decision, the document owner is notified via email.
 
-   Pour plus d’informations sur les décisions dans Workfront, voir [Présentation du statut de la décision du document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+   For more information about decisions in Workfront, see [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
-   ![Visionneuse et décision Frame](assets/make-decision-frame.png)
+   ![Frame viewer and decision](assets/make-decision-frame.png)
 
 
 

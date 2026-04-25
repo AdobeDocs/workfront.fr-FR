@@ -7,10 +7,10 @@ description: Vous pouvez créer un processus d’approbation et le joindre à un
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 100%
+source-wordcount: '1804'
+ht-degree: 97%
 
 ---
 
@@ -80,7 +80,7 @@ Pour plus d’informations sur la création d’un processus d’approbation au 
      >   
      >
 
-   * Les entités associées à un processus d’approbation peuvent être des utilisateurs ou utilisatrices, des fonctions ou des équipes. L’acceptation ou le rejet de l’approbation incombe en dernier ressort aux utilisateurs et utilisatrices. Vous pouvez affecter des approbations aux personnes qui occupent une certaine fonction dans le projet.Par exemple, vous pouvez affecter une approbation à un ou une propriétaire de projet ou à un sponsor.Pour plus d’informations, voir [Créer un processus d’approbation pour des éléments de travail](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+   * Les entités associées à un processus d’approbation peuvent être des utilisateurs ou utilisatrices, des fonctions ou des équipes. L’acceptation ou le rejet de l’approbation incombe en dernier ressort aux utilisateurs et utilisatrices. Vous pouvez affecter des approbations aux personnes qui occupent une certaine fonction dans le projet. Par exemple, vous pouvez affecter une approbation à un ou une propriétaire de projet ou à un sponsor. Pour plus d’informations, voir [Créer un processus d’approbation pour des éléments de travail](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Les scénarios suivants sont possibles :
 
@@ -147,11 +147,17 @@ Lorsqu’une personne du projet change le statut en Prêt pour impression, le r�
 
 Une fois que les deux personnes ont approuvé la brochure dans Workfront, le statut du projet change en Prêt pour impression.
 
-## Processus d’approbation des documents
+## Processus d&#39;approbation de documents hérités
 
-Les approbations de documents sont utilisées pour une approbation plus générale. Les commentaires sont capturés au format chat dans l’onglet Mises à jour. Vous pouvez utiliser les boutons d’approbation pour approuver, rejeter ou approuver avec des modifications.
 
-Pour ajouter des approbateurs ou approbatrices à un document après son chargement dans Workfront, voir [Demander l’approbation d’un document](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Les approbations de documents hérités sont utilisées pour une approbation plus générale. Les commentaires sont capturés au format chat dans l’onglet Mises à jour. Vous pouvez utiliser les boutons d’approbation pour approuver, rejeter ou approuver avec des modifications.
+
+Pour ajouter des approbateurs à un document après son chargement dans Workfront, voir [Demander l’approbation d’un document hérité](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+
+>[!NOTE]
+>
+>Il existe actuellement plusieurs options d’approbation de document dans Workfront. Pour plus d&#39;informations, voir [Fonctionnalité disponible pour les approbations de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
 
 ## Processus d’approbation de l’épreuve
 

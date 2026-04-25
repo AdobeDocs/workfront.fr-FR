@@ -6,10 +6,10 @@ description: Vous pouvez gérer plusieurs versions d’un document dans Workfron
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 47%
+source-wordcount: '634'
+ht-degree: 46%
 
 ---
 
@@ -28,13 +28,14 @@ Vous pouvez gérer plusieurs versions d’un document dans Workfront.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p> Tous</p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td> <p>Tout package Workfront pour gérer les documents à l’aide du stockage Workfront hérité</p>
+<p>Tout package de workflow pour gérer les documents à l’aide du stockage d’entreprise Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure </p>
    </td> 
   </tr> 
@@ -77,7 +78,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 1. En haut de la page **Détails du document**, cliquez sur le menu déroulant en regard du nom, puis cliquez sur le nom de la version que vous souhaitez afficher et gérer.
 
-   ![&#x200B; Liste déroulante Version de la page Détails du document &#x200B;](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ Liste déroulante Version de la page Détails du document ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    En plus d’afficher les détails de la version, vous pouvez y apporter des modifications, comme son nom, ses métadonnées et ses paramètres de relecture (s’il s’agit d’une épreuve de document).
 
@@ -137,4 +138,4 @@ Pour supprimer une version du document, procédez comme suit :
    >* L’option **Supprimer** n’est visible que s’il existe au moins 2 versions.
    >* Si le document est lié à une source extérieure, ce lien est supprimé et le document n’est plus accessible via Workfront.
 
-   ![Supprimer la version du document](assets/more-versions-350x143.png)
+   ![Delete the document version](assets/more-versions-350x143.png)

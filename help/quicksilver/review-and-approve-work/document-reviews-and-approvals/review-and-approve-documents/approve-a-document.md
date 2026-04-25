@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 72%
+source-wordcount: '1204'
+ht-degree: 71%
 
 ---
 
@@ -36,7 +36,8 @@ Pour plus d’informations sur la création d’une approbation de document, voi
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
+   <td> <p>Tout package Workfront pour gérer les approbations à l’aide du stockage Workfront hérité</p>
+<p>Tout package de workflow pour gérer les approbations à l’aide du stockage d’entreprise Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -84,7 +85,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit de la page :
 
-   * Le menu déroulant **Approuver** propose deux options :
+   * La liste déroulante **Approuver** contient deux options :
 
       * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 
@@ -112,7 +113,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit de la page :
 
-   * Le menu déroulant **Approuver** propose deux options :
+   * La liste déroulante **Approuver** contient deux options :
 
       * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 
@@ -134,7 +135,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
  -->
 1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit du panneau Résumé du document :
 
-   * La liste déroulante **Approuver** contient deux options :
+   * Le menu déroulant **Approuver** propose deux options :
 
       * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 
@@ -157,7 +158,7 @@ Pour réviser et approuver un document :
 
    * **Approuver** : le document n’a pas besoin d’être modifié et est prêt à être utilisé.
    * **Approuver avec modifications** : le document nécessite des modifications et est prêt à l’emploi une fois qu’il a été créé. Aucune approbation supplémentaire n’est requise.
-   * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle d&#39;approbations. Pour plus d’informations sur le téléchargement d’une nouvelle version, voir [&#x200B; Télécharger une nouvelle version du document et demander une approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
+   * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle d&#39;approbations. Pour plus d’informations sur le téléchargement d’une nouvelle version, voir [ Télécharger une nouvelle version du document et demander une approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
 
 Une fois la décision prise, le propriétaire du document est averti par e-mail.
 

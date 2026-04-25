@@ -6,10 +6,10 @@ description: Vous pouvez ajouter d’autres personnes chargées de l’approbati
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 90%
+source-wordcount: '297'
+ht-degree: 86%
 
 ---
 
@@ -26,13 +26,14 @@ Vous pouvez ajouter d’autres personnes chargées de l’approbation à l’app
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td><p>Tout package Workfront pour gérer les approbations à l’aide du stockage Workfront hérité</p>
+<p>Tout package de workflow pour gérer les approbations à l’aide du stockage d’entreprise Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
@@ -70,4 +71,4 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Si votre administrateur ou votre administratrice Adobe Workfront a activé la possibilité de collaborer avec des personnes qui n’utilisent pas Workfront, comme décrit dans la section [Configurer les préférences de sécurité du système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), vous pouvez saisir leurs adresses e-mail pour les inclure.
 
-1. Cliquer sur **Enregistrer**.
+1. Cliquez sur **Enregistrer**.

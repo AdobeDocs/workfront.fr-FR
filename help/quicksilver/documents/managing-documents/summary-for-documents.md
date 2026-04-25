@@ -9,10 +9,10 @@ feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 42%
+source-wordcount: '719'
+ht-degree: 43%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez utiliser le panneau Résumé pour accéder à des informations impor
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p> Tous</p> </td> 
+   <td> <p>Tout package Workfront pour gérer les documents à l’aide du stockage Workfront hérité</p>
+<p>Tout package de workflow pour gérer les documents à l’aide du stockage d’entreprise Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront</td> 
@@ -128,11 +129,11 @@ Utilisez la section Versions pour afficher le nombre de versions créées pour u
 
 ## Résumé des documents dans la nouvelle expérience de documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Détails
 
-Utilisez la section Détails pour afficher des informations de présentation générales et interagir avec des formulaires personnalisés.
+Utilisez la section Détails pour afficher des informations de vue d’ensemble générales et interagir avec des formulaires personnalisés.
 
 ![Détails du résumé du document dans la nouvelle expérience des documents](assets/summary-details.png)
 

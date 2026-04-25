@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Créer un modèle de workflow d’approbation pour les documents
+title: Create an approval workflow template for documents
 description: Vous pouvez créer des modèles d’approbation afin d’optimiser votre processus d’approbation.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 40%
+source-wordcount: '356'
+ht-degree: 37%
 
 ---
 
-# Créer un modèle de workflow d’approbation pour les documents
+# Create an approval workflow template for documents
 
-Dans la zone Configuration de Workfront , les utilisateurs disposant d’une licence Standard peuvent créer des modèles d’approbation réutilisables. Une fois créés, les modèles d’approbation peuvent être appliqués aux ressources dans la zone Documents d’un projet, d’une tâche ou d’un problème.
+In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. Une fois créés, les modèles d’approbation peuvent être appliqués aux ressources dans la zone Documents d’un projet, d’une tâche ou d’un problème.
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,8 @@ Dans la zone Configuration de Workfront , les utilisateurs disposant d’une lic
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p>Tous</p> </td> 
+   <td><p>Any Workfront package to manage approvals using legacy Workfront storage</p>
+<p>Any Workflow package to manage approvals using Adobe enterprise storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -56,42 +57,42 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Dans le panneau de gauche, cliquez sur **Révision et approbation** > **Modèles d’approbation**.
 1. Cliquez sur **Nouveau modèle** sur le côté droit de la page.
 
-1. Renseignez les détails suivants :
+1. Fill in the following details:
 
    <table>
      <tr>
    <td><strong>Nom de modèle</strong></td>
-   <td>Ajoutez un nom de modèle. </td>
+   <td>Add a template name. </td>
    </tr>
    <tr>
    <td><strong>Nom de l’étape</strong></td>
-   <td>Ajoutez un nom d’étape. Vous pouvez remplacer le nom par un nom plus explicite, tel que <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
-   <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>Une décision requise (facultatif)</strong></td>
-   <td>La première personne qui prend une décision termine l’étape.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
    <td><strong>Jours ouvrés jusqu’à échéance</strong></td>
-   <td>Sélectionnez le nombre de jours ouvrables restant avant que l'approbation ne soit due après l'activation d'une étape.</td>
+   <td>Choose how many workdays until the approval is due after a stage is activated.</td>
    </tr>
    </table>
 
-1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres étapes si nécessaire.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
 
 1. Cliquez sur **Enregistrer**.
 
-Une fois le modèle créé, il peut être appliqué aux documents de la zone Documents d’un projet, d’une tâche ou d’un événement pour lancer le processus formel de révision et d’approbation dans Workfront.
+Once the template is created, it can be applied to documents in the Documents area of a project, task, or issue to begin the formal review and approval process in Workfront.
 
 
 

@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 89%
+source-wordcount: '405'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez demander un document sur n’importe quel objet prenant en charge le
 >[!NOTE]
 >
 >Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
->Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -34,7 +34,7 @@ Vous pouvez demander un document sur n’importe quel objet prenant en charge le
  <tbody> 
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
-   <td> <p> Tous</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
@@ -56,7 +56,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Demander un document
 
 1. Accédez à la la zone où vous souhaitez que le document que vous demandez réside.
-1. Cliquez sur l’onglet **Documents**.
+1. Cliquez sur l’onglet **Documents**. 
 1. Cliquez sur le menu déroulant **Ajouter nouveau**.
 
 1. Cliquez sur **Demander un document**.
@@ -69,7 +69,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    >[!NOTE]
    >
-   >Si vous avez la [vue d’ensemble des licences héritées](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) activée sur votre compte, vous pouvez envoyer une demande à n’importe quelle adresse e-mail. Il existe un paramètre dans [Configurer les préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) qui détermine si ces utilisateurs et utilisatrices de messagerie externes doivent créer un mot de passe avant d’interagir avec Workfront.
+   >Si vous avez la [vue d’ensemble des licences héritées](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) activée sur votre compte, vous pouvez envoyer une demande à n’importe quelle adresse e-mail. Il existe un paramètre dans [Configurer les préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) qui détermine si ces utilisateurs et utilisatrices de messagerie externes doivent créer un mot de passe avant d’interagir avec Workfront. 
 
 1. Décrivez la raison pour laquelle vous demandez le document.
 1. Cliquez sur **Envoyer la demande**.

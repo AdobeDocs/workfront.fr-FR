@@ -6,22 +6,23 @@ description: Utiliser des workflows dans l’intégration d’Experience Manager
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1023'
 ht-degree: 97%
 
 ---
 
 # Utiliser des workflows dans l’intégration d’Experience Manager Assets
 
-Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. Un administrateur Workfront peut configurer des workflows dans Workfront, puis les affecter à des modèles de projet.
+Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Experience Manager as a Cloud Service. A Workfront administrator can configure workflows in Workfront, then assign them to Project Templates.
 
 Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un workflow est affecté, les actions définies dans le workflow sont déclenchées.
 
 >[!NOTE]
 >
->Les workflows sont disponibles uniquement dans une intégration d’Adobe Experience Manager as a Cloud Service. Ils ne sont pas disponibles dans les intégrations d’Adobe Experience Manager Assets Essentials.
+>Les workflows sont disponibles uniquement dans une intégration d’Adobe Experience Manager as a Cloud Service. Ils ne sont pas disponibles dans les intégrations d’Adobe Experience Manager Assets Essentials.<br>
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.
 
 
 ## Conditions d’accès
@@ -33,13 +34,13 @@ Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un wor
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p> Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
@@ -174,4 +175,4 @@ Pour modifier le workflow pour la publication des ressources :
 
 1. Activez ou désactivez l’option **Publier automatiquement les ressources**.
 1. (Le cas échéant) Si vous activez la publication, sélectionnez si vous souhaitez publier vers le service de publication, vers Brand Portal, ou les deux.
-1. Cliquer sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
