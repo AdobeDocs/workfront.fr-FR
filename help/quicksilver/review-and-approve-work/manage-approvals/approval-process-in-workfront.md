@@ -78,9 +78,7 @@ Pour plus d’informations sur la création d’un processus d’approbation au 
      >     Par exemple, si une approbation de tâche est associée au statut En cours, la tâche passe automatiquement au statut En cours lorsque l’approbation est accordée. Elle ne peut pas passer automatiquement au statut Terminé ou à tout autre statut qui n’est pas associé à l’approbation.
      >   
      >   
-     >
-
-   * Les entités associées à un processus d’approbation peuvent être des utilisateurs ou utilisatrices, des fonctions ou des équipes. L’acceptation ou le rejet de l’approbation incombe en dernier ressort aux utilisateurs et utilisatrices. Vous pouvez affecter des approbations aux personnes qui occupent une certaine fonction dans le projet. Par exemple, vous pouvez affecter une approbation à un ou une propriétaire de projet ou à un sponsor. Pour plus d’informations, voir [Créer un processus d’approbation pour des éléments de travail](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >* Les entités associées à un processus d’approbation peuvent être des utilisateurs ou utilisatrices, des fonctions ou des équipes. L’acceptation ou le rejet de l’approbation incombe en dernier ressort aux utilisateurs et utilisatrices. Vous pouvez affecter des approbations aux personnes qui occupent une certaine fonction dans le projet. Par exemple, vous pouvez affecter une approbation à un ou une propriétaire de projet ou à un sponsor. Pour plus d’informations, voir [Créer un processus d’approbation pour des éléments de travail](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Les scénarios suivants sont possibles :
 
