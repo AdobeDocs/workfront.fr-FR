@@ -7,10 +7,10 @@ description: Le menu principal change en fonction du niveau d’accès qui vous 
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 1b44fbfc6900efe247db760e958f626d665754c7
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 93%
+source-wordcount: '466'
+ht-degree: 90%
 
 ---
 
@@ -34,6 +34,8 @@ Les zones suivantes sont incluses dans la disposition par défaut [!UICONTROL d�
 
 * **[!UICONTROL Calendriers]** : les calendriers qui sont partagés avec vous s’affichent ici. Pour plus d’informations, consultez [Calendriers : index des articles](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
+* **[!UICONTROL Ressources]** : vous pouvez afficher l’affectation des ressources dans les outils de planification des ressources et afficher les groupes de ressources ici. Pour plus d’informations, consultez [Gérer les ressources](../../../resource-mgmt/manage-resources.md).
+
 * **[!UICONTROL Équipes]** : les tâches et problèmes affectés à vos équipes s’affichent dans cette zone. En tant que personne salariée, vous êtes la seule personne utilisant [!DNL Workfront] à voir la zone [!UICONTROL Équipes] par défaut.
 
   Pour plus d’informations, consultez [Créer et gérer des équipes](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
@@ -44,14 +46,14 @@ Les zones suivantes sont incluses dans la disposition par défaut [!UICONTROL d�
 
 * **[!UICONTROL Documents]** : ici, vous pouvez charger des documents ou réviser des documents partagés avec vous. Pour plus d’informations, consultez [Documents](../../../documents/documents-overview.md).
 
-* **[!UICONTROL Ressources]** : vous pouvez afficher l’affectation des ressources dans les outils de planification des ressources et afficher les groupes de ressources ici. Pour plus d’informations, consultez [Gérer les ressources](../../../resource-mgmt/manage-resources.md).
+* **[!UICONTROL Plans directeurs]** : examinez les plans directeurs existants de votre système et demandez à en installer un, si l’équipe d’administration [!DNL Workfront] a configuré la file d’attente des demandes pour les plans directeurs. Pour plus d’informations, voir [Vue d’ensemble des plans directeurs](../../../administration-and-setup/blueprints/blueprints-overview.md).
+
+* **[!UICONTROL Priorités]** : vous pouvez gérer et hiérarchiser rapidement le travail. Pour plus d’informations, voir [Prise en main des priorités](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
 * **[!UICONTROL Panoramas]** : travaillez de manière flexible et en collaboration avec les personnes membres de votre équipe en utilisant des panoramas partagés qui contiennent des colonnes et des cartes reflétant le travail que vous souhaitez réaliser. Pour plus d’informations, consultez [Commencer avec les panoramas : index des articles](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-* **[!UICONTROL Plans directeurs]** : passez en revue les plans directeurs existants dans votre système et demandez à en installer un, si l’administrateur ou l’administratrice [!DNL Workfront] a configuré la file d’attente des demandes pour les plans directeurs. Pour plus d’informations, voir [Vue d’ensemble des plans directeurs](../../../administration-and-setup/blueprints/blueprints-overview.md).
-
-![Menu principal du programme de travail](assets/worker-main-menu-350x426.png)
+![Menu principal du programme de travail](assets/worker-main-menu-2026.png)
 
 ## Personnaliser votre [!UICONTROL Menu principal] par défaut
 
-Votre administrateur ou administratrice [!DNL Workfront] peut modifier votre mise en page [!DNL Workfront] par défaut en vous affectant un modèle de mise en page. Pour plus d’informations sur l’utilisation de modèles de mise en page, consultez [Personnaliser le [!UICONTROL Menu principal] à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Votre équipe d’administration [!DNL Workfront] peut modifier votre mise en page par défaut [!DNL Workfront] en vous attribuant un modèle de mise en page. Pour plus d’informations sur l’utilisation de modèles de mise en page, consultez [Personnaliser le [!UICONTROL Menu principal] à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
