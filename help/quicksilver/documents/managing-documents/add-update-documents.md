@@ -86,7 +86,7 @@ Dans la zone Mises à jour, lorsque vous répondez à un commentaire d’une per
 
 ## Ajouter une mise à jour à un document dans la zone des nouveaux Documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 1. Accédez à l’objet qui contient le document, puis sélectionnez **Documents** dans le panneau de gauche.
 1. Recherchez le document dont vous avez besoin, puis cliquez sur l’icône de commentaire ![icône de commentaire](assets/new-doc-comment-icon.png) pour ouvrir le panneau Commentaires .

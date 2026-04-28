@@ -19,7 +19,7 @@ Vous pouvez envoyer des documents depuis Workfront vers Experience Manager Ass
 
 Les ressources envoyées vers Experience Manager par le biais de cette intégration sont limitées à une taille de **5 Go**.
 
-Dans l’environnement de Prévisualisation, la taille maximale d’Assets envoyé à Experience Manager par le biais de cette intégration est de 30 Go ****.
+Dans l’environnement de Prévisualisation, la taille maximale d’Assets envoyé à Experience Manager par le biais de cette intégration est de 30 Go **&#x200B;**.
 
 >[!NOTE]
 >

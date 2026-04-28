@@ -17,7 +17,7 @@ ht-degree: 54%
 
 # Ajouter des documents à Adobe Workfront à partir de votre système de fichiers
 
-Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 L’ajout de documents à Workfront diffère selon la version de la zone de documents utilisée par votre entreprise.
 
@@ -132,7 +132,7 @@ Pour ajouter un document
 
 ## Ajout de documents à Workfront dans la zone des nouveaux documents
 
-Vous pouvez ajouter des documents à des objets à l’aide du modèle de stockage d’entreprise. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Vous pouvez ajouter des documents à des objets à l’aide du modèle de stockage d’entreprise. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Cette fonctionnalité n’est actuellement pas prise en charge dans la nouvelle zone Documents :
 
@@ -147,7 +147,7 @@ Cette fonctionnalité n’est actuellement pas prise en charge dans la nouvelle 
 
 ### Ajout de documents à Workfront dans la zone des nouveaux documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Pour ajouter un document
 

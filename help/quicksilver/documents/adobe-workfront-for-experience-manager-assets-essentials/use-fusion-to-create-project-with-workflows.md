@@ -80,7 +80,7 @@ Avant de commencer
 
 Dans Workfront Fusion, si vous souhaitez créer un projet qui inclut des workflows Adobe Experience Manager, vous devez utiliser le module Workfront > Action diverse .
 
-1. Ajoutez le module **** > **Misc Action** à votre scénario.
+1. Ajoutez le module **&#x200B;**&#x200B;> **Misc Action** à votre scénario.
 1. Dans le champ **Connexion**, sélectionnez la connexion Workfront qui se connecte au compte que ce module utilisera.
 
    Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
