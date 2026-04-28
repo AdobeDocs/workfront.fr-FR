@@ -7,9 +7,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1812'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Vous pouvez utiliser un fichier modèle pour créer vos cartes tarifaires dans E
 
 Pour afficher les exemples de cartes tarifaires décrits dans cet article, téléchargez le [fichier d’exemple](assets/rate-cards-sample.zip).
 
-Pour plus d’informations sur les cartes tarifaires, voir [&#x200B; Gérer les cartes tarifaires &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Pour plus d’informations sur les cartes tarifaires, voir [ Gérer les cartes tarifaires ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Règles importantes pour l’utilisation du fichier de modèle
 
@@ -28,7 +28,7 @@ Pour plus d’informations sur les cartes tarifaires, voir [&#x200B; Gérer les 
 * La séquence des cartes tarifaires de l&#39;onglet RATE_RTCRD doit correspondre à l&#39;ordre des cartes de l&#39;onglet RTCRD (1 pour la première, 2 pour la seconde, etc.).
 * La date de début et la date de fin doivent respecter les formats autorisés.
 * Les cartes tarifaires peuvent être importées sans taux et mises à jour ultérieurement.
-* Les attributs personnalisés (Agence, Centre de coûts, etc.) peuvent varier. Consultez votre administrateur système pour connaître les exigences exactes.
+* Attributs personnalisés (Agence, Centre de coûts, etc.) peuvent varier. Consultez votre administrateur système pour connaître les exigences exactes.
 * Les lignes supprimées dans le modèle ne supprimeront pas les enregistrements existants dans le système.
 
 ## Conditions d’accès
@@ -153,7 +153,7 @@ Assurez-vous que les dates ne se chevauchent pas, sauf si cela est prévu.
    * **Value** (facultatif) : valeur numérique du taux, par exemple 150. La valeur par défaut est 0.
    * **Devise** (facultatif) : devise du taux, par exemple USD, EUR, GBP. La valeur par défaut est la devise système.
    * **Verrouillé** (facultatif) : indique si le taux est verrouillé. Les valeurs valides sont True ou False.
-   * **Attributs** (facultatif/personnalisé) : les dernières colonnes (Agence, Emplacement, Centre de coûts, etc.) sont des attributs de taux qui diffèrent selon la configuration du client. Il s’agit de champs personnalisables qui peuvent varier selon l’environnement du client.
+   * **Attributs** (facultatif/personnalisé) : dernières colonnes (Agence, Emplacement, Centre de coûts, etc.) sont des attributs de taux qui diffèrent selon la configuration du client. Il s’agit de champs personnalisables qui peuvent varier selon l’environnement du client.
 
      Exemple : Agence = « 1 : Agence », Emplacement = « Chicago », Centre de coûts = « 22 : Centre de coûts »
 
@@ -231,6 +231,16 @@ Suivre ces étapes permet d’éviter les problèmes inutiles et d’assurer une
 ## Mettre à jour les cartes tarifaires existantes
 
 Vous pouvez mettre à jour les taux de vos cartes de taux existantes à l’aide du même modèle Excel et charger ces modifications dans Workfront.
+
+Seul l&#39;onglet RATE_RTCRD (Rates Setup) est nécessaire pour mettre à jour les taux existants.
+
+>[!NOTE]
+>
+>Le chargement de taux pour une carte tarifaire existante remplace toutes les fonctions et tous les taux actuels sur la carte tarifaire.
+>
+>Par exemple, si vous avez 5 fonctions avec des taux sur la carte tarifaire existante et que le fichier Excel a 1 fonction, la carte tarifaire aura 1 fonction après le chargement. Pour conserver les 5 autres fonctions et leurs taux sur la carte tarifaire, vous devez les inclure dans le fichier Excel.
+
+Pour mettre à jour les cartes tarifaires existantes :
 
 {{step-1-to-setup}}
 
