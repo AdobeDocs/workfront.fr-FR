@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '555'
 ht-degree: 87%
 
 ---
@@ -23,8 +23,8 @@ Deux dossiers intelligents sont disponibles par défaut la première fois que vo
 
 >[!NOTE]
 >
->Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
->Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -55,13 +55,13 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Afficher les dossiers intelligents
+## Afficher les dossiers intelligents 
 
 Vous pouvez afficher les dossiers dans la vue miniature, standard ou liste. Pour changer de vue, utilisez les options d’affichage dans le coin supérieur droit.
 
 ![Modifier le dossier intelligent](assets/screenshot-2016-07-07-12.46.54.png)
 
-## Créer un dossier intelligent
+## Créer un dossier intelligent 
 
 1. Accédez à la zone **Documents** dans laquelle vous souhaitez créer le dossier intelligent.
 1. Cliquez sur **Ajouter nouveau**.
@@ -72,7 +72,7 @@ Vous pouvez afficher les dossiers dans la vue miniature, standard ou liste. Pour
 1. Sélectionnez le qualificateur de filtre souhaité. 
 1. Terminez la règle de filtrage, puis cliquez sur **Enregistrer le dossier**.
 
-## Modifier un dossier intelligent
+## Modifier un dossier intelligent 
 
 1. Accédez à la zone **Documents** qui contient le dossier intelligent que vous souhaitez modifier.
 1. Dans la colonne **Dossiers**, cliquez sur l’icône **Plus** ![Menu Plus](assets/more-icon.png) en regard du dossier intelligent à modifier.
@@ -80,7 +80,7 @@ Vous pouvez afficher les dossiers dans la vue miniature, standard ou liste. Pour
 
 1. Apportez vos modifications, puis cliquez sur **Enregistrer le dossier**.
 
-## Renommer un dossier intelligent
+## Renommer un dossier intelligent 
 
 1. Accédez à la zone **Documents** qui contient le dossier intelligent que vous souhaitez renommer.
 1. Dans la colonne **Dossiers**, cliquez sur la flèche de liste déroulante en regard du dossier intelligent que vous souhaitez renommer.

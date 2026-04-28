@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 66%
@@ -57,7 +57,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Add an update to a document in the legacy documents area
+## Ajouter une mise à jour à un document dans la zone des documents hérités
 
 Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage Workfront hérité et le stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -66,7 +66,7 @@ Si votre organisation utilise un stockage Workfront hérité, la zone des docume
 1. Accédez à l’objet qui contient le document, puis sélectionnez **Documents** dans le panneau de gauche.
 1. Recherchez le document dont vous avez besoin et effectuez l’une des opérations suivantes :
 
-   * Click the document in the list, click the **Open Summary** icon ![Open Summary icon](assets/qs-summary-in-new-toolbar-small.png) in the upper-right corner, then add a new comment, or click **Reply** to add a reply to an existing comment. Pour plus d’informations sur le résumé, voir [Vue d’ensemble du résumé des documents](../../documents/managing-documents/summary-for-documents.md).
+   * Cliquez sur le document dans la liste, cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir le résumé](assets/qs-summary-in-new-toolbar-small.png) dans le coin supérieur droit, puis ajoutez un nouveau commentaire ou cliquez sur **Répondre** pour ajouter une réponse à un commentaire existant. Pour plus d’informations sur le résumé, voir [Vue d’ensemble du résumé des documents](../../documents/managing-documents/summary-for-documents.md).
    * Pointez sur le document, puis cliquez sur **Détails du document**, puis **Mises à jour** dans le panneau de gauche.
 Pour plus d’informations sur l’ajout de mises à jour aux objets, voir [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -84,11 +84,11 @@ Dans la zone Mises à jour, lorsque vous répondez à un commentaire d’une per
 
    Si vous avez besoin d’informations sur la saisie de commentaires et de réponses dans la visionneuse de relecture, voir [Commenter sur une épreuve](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
 
-## Add an update to a document in the new documents area
+## Ajouter une mise à jour à un document dans la zone des nouveaux Documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 1. Accédez à l’objet qui contient le document, puis sélectionnez **Documents** dans le panneau de gauche.
-1. Find the document you need, then click the comment icon ![Comment icon](assets/new-doc-comment-icon.png) to open the Comments panel.
-1. Type your comment in the text box, then click **Submit**.
-   ![New document comments panel](assets/comments-new-doc.png)
+1. Recherchez le document dont vous avez besoin, puis cliquez sur l’icône de commentaire ![icône de commentaire](assets/new-doc-comment-icon.png) pour ouvrir le panneau Commentaires .
+1. Saisissez votre commentaire dans la zone de texte, puis cliquez sur **Envoyer**.
+   ![Panneau Commentaires du nouveau document](assets/comments-new-doc.png)

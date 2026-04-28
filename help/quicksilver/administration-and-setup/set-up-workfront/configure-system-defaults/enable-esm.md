@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '357'
 ht-degree: 11%
 
 ---
@@ -34,8 +34,8 @@ Pour plus d’informations sur le stockage d’entreprise Adobe, consultez [Pré
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Workfront</td> 
-   <td><p>Tous</p></td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
+   <td><p>N’importe quel package de workflow</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -75,3 +75,7 @@ Pour activer le stockage d’entreprise Adobe pour votre organisation :
    - **Groupes spécifiques** : cette option applique le fournisseur de stockage par défaut uniquement à des groupes spécifiques de votre organisation. Chaque fois qu’un utilisateur des groupes spécifiés crée un projet, le fournisseur de stockage par défaut est utilisé
 
 1. Cliquez sur **Enregistrer**.
+
+   >[!NOTE]
+   >
+   >Les projets existants conservent le modèle de stockage avec lequel ils ont été créés. Par exemple, les projets qui utilisent le stockage d’entreprise d’Adobe continuent à utiliser le stockage d’entreprise d’Adobe après avoir modifié la préférence de stockage par défaut.

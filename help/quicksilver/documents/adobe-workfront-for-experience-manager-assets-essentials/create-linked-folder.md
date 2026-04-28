@@ -7,7 +7,7 @@ description: Vous pouvez créer un dossier lié à Experience Manager Assets o
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 78%
@@ -22,8 +22,8 @@ Si une ressource est supprimée ou déplacée d’un dossier lié dans Experienc
 
 >[!NOTE]
 >
->Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
->Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. À partir de là, vous pouvez ajouter des ressources provenant de Experience Manager Assets ou d’Assets Essentials, mais vous ne pourrez pas créer de dossier lié.
+>Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. À partir de là, vous pouvez ajouter des ressources provenant de Experience Manager Assets ou d’Assets Essentials, mais vous ne pourrez pas créer de dossier lié.
 
 ## Conditions d’accès
 
@@ -31,13 +31,13 @@ Si une ressource est supprimée ou déplacée d’un dossier lié dans Experienc
 
 <table>
   <tr>
-   <td><strong>Package Adobe Workfront</strong>
+   <td><strong>Package </strong>
    </td>
    <td>Tous
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Adobe Workfront</strong>
+   <td><strong>Licences </strong>
    </td>
    <td>
    <p>Standard</p>
@@ -64,7 +64,7 @@ Si une ressource est supprimée ou déplacée d’un dossier lié dans Experienc
   </tr>
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

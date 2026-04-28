@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 31%
@@ -17,7 +17,7 @@ ht-degree: 31%
 
 # Créer des dossiers de documents
 
-Les documents peuvent être organisés en dossiers. Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Les documents peuvent être organisés en dossiers. Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -49,9 +49,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Create document folders in the legacy documents area
+## Créer des dossiers de documents dans la zone des documents hérités
 
-If your organization is on legacy Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about legacy Workfront storage, see [Differences between Adobe enterprise storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage d’entreprise Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Lorsqu’un objet Workfront est ouvert, cliquez sur **Documents** dans le pannea
 
 1. Cliquez sur les options d’affichage au-dessus du panneau de droite pour modifier l’affichage des documents.
 
-   ![Document view options](assets/screenshot-2016-07-07-12.46.54.png)
+   ![Options d’affichage des documents](assets/screenshot-2016-07-07-12.46.54.png)
 
 ### Créer des dossiers et des sous-dossiers
 
@@ -91,65 +91,65 @@ Lorsqu’un objet Workfront est ouvert, cliquez sur **Documents** dans le pannea
 
 Pour plus d’informations sur le partage de dossiers, voir [Partager un dossier de documents](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-## Create document folders in the new documents area
+## Créer des dossiers de documents dans la nouvelle zone Documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-### System-generated folders
+### Dossiers générés par le système
 
-When you upload a document to a task or issue, Workfront automatically creates a system-generated folder named after the task or issue. This folder is linked to the task or issue and inherits its permissions. System-generated folders are visible in the project-level documents area.
+Lorsque vous chargez un document vers une tâche ou un événement, Workfront crée automatiquement un dossier généré par le système et nommé en fonction de la tâche ou de l’événement. Ce dossier est lié à la tâche ou à l’événement et hérite de ses autorisations. Les dossiers générés par le système sont visibles dans la zone des documents au niveau du projet.
 
-For more information about folder permissions, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Pour plus d’informations sur les autorisations de dossier, voir [Fonctionnement des autorisations de document](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
-### Create subfolders
+### Créer des sous-dossiers
 
-You can create subfolders within a system-generated folder to organize documents further. All subfolders inherit permissions from the parent folder.
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-1. Click into the folder you want to create a subfolder in, then click the **Add folder** ![add folder icon](assets/add-folder-icon.png) icon.
-   ![add subfolder](assets/add-subfolder.png)
-1. Enter a name for the subfolder, then click **Create**.
-
-### Rename a folder
-
-System-generated folders automatically inherit the name of the task or issue. They can be renamed by clicking the folder name and editing it.
-
-To rename a folder:
+Vous pouvez créer des sous-dossiers dans un dossier généré par le système pour organiser davantage les documents. Tous les sous-dossiers héritent des autorisations du dossier parent.
 
 1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
-1. Find the folder you want to rename, then click the **More** ![more icon](assets/more-icon.png) icon.
-1. Click **Rename**, then enter a new name for the folder.
+1. Cliquez dans le dossier dans lequel vous souhaitez créer un sous-dossier, puis cliquez sur l’icône **Ajouter un dossier** ![icône d’ajout de dossier](assets/add-folder-icon.png).
+   ![ajouter un sous-dossier](assets/add-subfolder.png)
+1. Saisissez un nom pour le sous-dossier, puis cliquez sur **Créer**.
 
-   ![rename folder](assets/rename-folder.png)
+### Renommer un dossier
 
-1. Click **Rename**.
+Les dossiers générés par le système héritent automatiquement du nom de la tâche ou de l’événement. Vous pouvez les renommer en cliquant sur le nom du dossier et en le modifiant.
 
-### Move a folder
+Pour renommer un dossier :
 
-System-generated folders can be moved to another project, task, or issue. If a system-generated folder is moved to another location, its linked object is updated to the new object and permissions are inherited from the new parent object. You can also move subfolders to another project, task, or issue.
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Recherchez le dossier à renommer, puis cliquez sur l’icône **Plus** ![plus](assets/more-icon.png).
+1. Cliquez sur **Renommer**, puis saisissez un nouveau nom pour le dossier.
+
+   ![renommer le dossier](assets/rename-folder.png)
+
+1. Cliquez sur **Renommer**.
+
+### Déplacer un dossier
+
+Les dossiers générés par le système peuvent être déplacés vers un autre projet, une autre tâche ou un autre événement. Si un dossier généré par le système est déplacé vers un autre emplacement, son objet lié est mis à jour vers le nouvel objet et les autorisations sont héritées du nouvel objet parent. Vous pouvez également déplacer des sous-dossiers vers un autre projet, une autre tâche ou un autre événement.
 
 >[!NOTE]
 >
->Only projects, tasks, and issues using the same storage type are available in the move dialog. For example, if you&#39;re moving a folder in an enterprise storage project, only projects, tasks, and issues using enterprise storage are available to move to.
+>Seuls les projets, tâches et événements utilisant le même type de stockage sont disponibles dans la boîte de dialogue de déplacement. Par exemple, si vous déplacez un dossier dans un projet de stockage d’entreprise, seuls les projets, tâches et problèmes utilisant le stockage d’entreprise peuvent être déplacés.
 
 
-To move a folder:
-
-1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
-1. Find the folder you want to move, then click the **More** ![more icon](assets/more-icon.png) icon.
-1. Click **Move**, then select the project, task, or issue you want to move the folder to.
-
-
-   ![move folder](assets/rename-folder.png)
-
-<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
-
-### Delete a folder
-
-To delete a folder:
+Pour déplacer un dossier :
 
 1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
-1. Find the folder you want to delete, then click the **More** ![more icon](assets/more-icon.png) icon.
+1. Recherchez le dossier à déplacer, puis cliquez sur l’icône **Plus** ![plus](assets/more-icon.png).
+1. Cliquez sur **Déplacer**, puis sélectionnez le projet, la tâche ou l’événement vers lequel vous souhaitez déplacer le dossier.
+
+
+   ![déplacer le dossier](assets/rename-folder.png)
+
+<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new Documents area -->
+
+### Suppression d’un dossier
+
+Pour supprimer un dossier :
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Recherchez le dossier à supprimer, puis cliquez sur l’icône **Plus** ![plus](assets/more-icon.png).
 1. Cliquez sur **Supprimer**.
 
-   ![delete folder](assets/rename-folder.png)
+   ![supprimer le dossier](assets/rename-folder.png)

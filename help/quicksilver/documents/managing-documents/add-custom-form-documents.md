@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 54%
@@ -49,7 +49,7 @@ Vous pouvez ajouter un formulaire personnalisé à un document ou à une version
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +57,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 * Le formulaire personnalisé doit être partagé avec vous.
 
-## Add a custom form in the legacy documents area
+## Ajouter un formulaire personnalisé dans la zone des documents hérités
 
 Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, voir [Différences entre le stockage d’entreprise Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
@@ -66,43 +66,43 @@ Pour ajouter un formulaire personnalisé à un document, procédez comme suit :
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Click the **Summary** icon ![Summary icon](assets/summary-panel-icon.png), then find the **Details** section.
+1. Cliquez sur l’icône **Résumé** ![Icône de résumé](assets/summary-panel-icon.png), puis recherchez la section **Détails**.
 1. Dans la zone **Ajouter un formulaire personnalisé**, commencez à saisir le texte et sélectionnez un formulaire personnalisé. Le formulaire est automatiquement enregistré dans le document.
 
    >[!NOTE]
    >
-   >Seuls les formulaires personnalisés actifs s’affichent dans le menu déroulant. Vous pouvez ajouter jusqu’à 10 formulaires personnalisés par document. If you need to create a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Seuls les formulaires personnalisés actifs s’affichent dans le menu déroulant. Vous pouvez ajouter jusqu’à 10 formulaires personnalisés par document. Si vous devez créer un formulaire personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Edit a custom form in the legacy documents area
+## Modifier un formulaire personnalisé dans la zone des documents hérités
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Click the **Summary** icon ![Summary icon](assets/summary-panel-icon.png), then find the **Details** section near the top.
+1. Cliquez sur l’icône **Résumé** ![Icône Résumé](assets/summary-panel-icon.png), puis recherchez la section **Détails** près de la partie supérieure.
 1. Cliquez sur **Modifier** dans le coin supérieur droit, puis développez le formulaire souhaité.
 1. Apportez les modifications nécessaires, puis cliquez sur **Enregistrer**.
 
-   ![Edit custom form](assets/edit-custom-form-350x265.png)
+   ![Modifier le formulaire personnalisé](assets/edit-custom-form-350x265.png)
 
-## Add a custom form in the new document area
+## Ajouter un formulaire personnalisé dans la zone des nouveaux Documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Pour ajouter un formulaire personnalisé à un document, procédez comme suit :
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
-1. Select the document you need.
-1. In the **Details** section on the right, click **Edit**.
-   ![edit button in details section](assets/edit-custom-form.png)
-1. In the **Custom Forms** field, begin typing and select a custom form.
-1. Cliquez sur **Enregistrer**. The custom form appears in the details section.
+1. Sélectionnez le document dont vous avez besoin.
+1. Dans la section **Détails** à droite, cliquez sur **Modifier**.
+   ![bouton modifier dans la section détails](assets/edit-custom-form.png)
+1. Dans le champ **Custom Forms**, commencez à saisir et sélectionnez un formulaire personnalisé.
+1. Cliquez sur **Enregistrer**. Le formulaire personnalisé s’affiche dans la section des détails.
 
 
-## Edit a custom form in the new document area
+## Modification d’un formulaire personnalisé dans la zone des nouveaux Documents
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
-1. Select the document you need.
-1. In the **Details** section on the right, click **Edit**.
-   ![edit button in details section](assets/edit-custom-form.png)
-1. In the **Custom Forms** section, find the form you want to edit.
+1. Sélectionnez le document dont vous avez besoin.
+1. Dans la section **Détails** à droite, cliquez sur **Modifier**.
+   ![bouton modifier dans la section détails](assets/edit-custom-form.png)
+1. Dans la section **Custom Forms**, recherchez le formulaire à modifier.
 1. Apportez les modifications nécessaires, puis cliquez sur **Enregistrer**.

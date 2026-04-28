@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 59%
@@ -61,17 +61,17 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Move a document in the legacy documents area
+## Déplacer un document dans la zone des documents hérités
 
 Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, voir [Différences entre le stockage d’entreprise Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
-To move a document:
+Pour déplacer un document :
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Click the **Move** icon ![Move icon](assets/move-document--25x19.png).
-   ![Move icon location on page](assets/move-doc-legacy.png)
+1. Cliquez sur l’icône **Déplacer** ![Icône Déplacer](assets/move-document--25x19.png).
+   ![Déplacer l’icône sur la page](assets/move-doc-legacy.png)
 
 1. Dans le menu déroulant de la boîte qui s’affiche, cliquez sur **Problème**, **Projet** ou **Tâche** pour indiquer le type d’objet dans lequel vous souhaitez déplacer le document. 
 
@@ -79,23 +79,23 @@ To move a document:
 
    >[!NOTE]
    >
-   >You can only move to another project, task, or issue using legacy Workfront storage.
+   >Vous pouvez uniquement passer à un autre projet, une autre tâche ou un autre problème à l’aide du stockage Workfront hérité.
 
 1. Cliquez sur **Terminer**.
 
-You can also move a document from the Document Details page.
+Vous pouvez également déplacer un document à partir de la page Détails du document .
 
-## Move a document in the new documents area
+## Déplacer un document dans la zone des nouveaux Documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-To move a document:
+Pour déplacer un document :
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
-1. Click **Move** at the bottom of the page.
+1. Cliquez sur **Déplacer** au bas de la page.
 
-![Move icon location on page](assets/move-new-doc.png)
+![Déplacer l’icône sur la page](assets/move-new-doc.png)
 
 1. Dans le menu déroulant de la boîte qui s’affiche, cliquez sur **Problème**, **Projet** ou **Tâche** pour indiquer le type d’objet dans lequel vous souhaitez déplacer le document.
 
@@ -103,6 +103,6 @@ To move a document:
 
    >[!NOTE]
    >
-   >You can only move to another project, task, or issue using enterprise storage.
+   >Vous pouvez uniquement passer à un autre projet, une autre tâche ou un autre problème en utilisant le stockage d’entreprise.
 
 1. Cliquez sur **Déplacer**.

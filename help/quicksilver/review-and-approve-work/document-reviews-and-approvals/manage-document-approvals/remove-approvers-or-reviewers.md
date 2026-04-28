@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 33%
@@ -88,9 +88,9 @@ Pour supprimer des approbateurs ou des réviseurs d’un workflow d’approbatio
 </div>
 
 
-## Supprimer des approbateurs ou des réviseurs à un workflow d’approbation dans la zone du nouveau document
+## Supprimer des approbateurs ou des réviseurs à un workflow d’approbation dans la zone des nouveaux Documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Pour créer un workflow de validation :
 
@@ -111,6 +111,6 @@ Pour créer un workflow de validation :
 
 1. Répétez l’étape précédente pour supprimer toute personne approbatrice ou réviseuse supplémentaire.
 
-   ![remove participants from a stage](assets/add-or-remove-participants.png)
+   ![supprimer des participants d’une étape](assets/add-or-remove-participants.png)
 
 1. Cliquez sur **Enregistrer**.

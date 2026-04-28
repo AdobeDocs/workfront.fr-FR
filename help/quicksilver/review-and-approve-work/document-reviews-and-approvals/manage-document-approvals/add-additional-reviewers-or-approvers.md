@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Add additional approvers or reviewers to a document approval workflow
+title: Ajouter des approbateurs ou des réviseurs supplémentaires à un workflow d’approbation de document
 description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateurs et approbatrices supplémentaires à un document ayant déjà des approbations en attente.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 17%
 
 ---
 
-# Add additional approvers or reviewers to a document approval workflow
+# Ajouter des approbateurs ou des réviseurs supplémentaires à un workflow d’approbation de document
 
-You can add additional approvers or reviewers to a document approval workflow that already has pending approvals.
+Vous pouvez ajouter d&#39;autres approbateurs ou réviseurs à un workflow d&#39;approbation de document qui a déjà des approbations en attente.
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ You can add additional approvers or reviewers to a document approval workflow th
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, Templates, Portfolios, Programs, Reports, Dashboards, Calendars, and Documents</p></td> 
+   <td> <p>Accédez en lecture seule ou à un accès plus étendu aux projets, tâches, événements, modèles, portefeuilles, programmes, rapports, tableaux de bord, calendriers et documents</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -59,36 +59,36 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 
 
-## Add additional approvers or reviewers from the Document Summary in the legacy documents area
+## Ajoutez d&#39;autres approbateurs ou réviseurs à partir du Résumé du document dans la zone des documents hérités
 
 Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, consultez la section [Stockage Workfront par rapport au stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
-To add additional approvers or reviewers from the Document Summary:
+Pour ajouter des approbateurs ou des réviseurs supplémentaires à partir du résumé du document :
 
 1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
 
-1. Click on the document you need and the Document Summary panel for that document will open.
+1. Cliquez sur le document dont vous avez besoin pour ouvrir le panneau Résumé du document correspondant.
 
-1. Select the version of the document you would like to add an approver or reviewer to in the version drop-down menu. The latest version is selected by default.
+1. Sélectionnez la version du document auquel vous souhaitez ajouter un approbateur ou un réviseur dans le menu déroulant Version. La dernière version est sélectionnée par défaut.
 
-1. Scroll down to the **Approvals** section, then click **Edit workflow**.
+1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Modifier le workflow**.
 
    ![modifier le workflow d’approbation](assets/edit-approval-in-legacy.png)
 
-1. Locate the stage you would like to add approvers or reviewers to, then add the user&#39;s name or email in the text box. You can also add an entire team if needed.
+1. Localisez l’étape à laquelle vous souhaitez ajouter des approbateurs ou des réviseurs, puis ajoutez le nom ou l’adresse électronique de l’utilisateur dans la zone de texte. Vous pouvez également ajouter une équipe entière si nécessaire.
 
-1. Once their name is added, choose if they are an approver or reviewer.
+1. Une fois leur nom ajouté, choisissez s’ils sont approbateurs ou réviseurs.
 
-   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
+   ![liste déroulante approbateur ou réviseur](assets/choose-approver-or-reviewer.png)
 
-1. Repeat steps 5-6 to add additional approvers or reviewers.
-Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+1. Répétez les étapes 5 à 6 pour ajouter d’autres approbateurs ou réviseurs ou réviseuses.
+Une fois le document enregistré, les participants ajoutés reçoivent une notification par e-mail indiquant que leur approbation ou révision est nécessaire pour le document.
 
 
 
-## Add additional approvers or reviewers from the Document Summary in the new documents area
+## Ajoutez d&#39;autres approbateurs ou réviseurs à partir du Résumé du document dans la zone des nouveaux Documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
 1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.

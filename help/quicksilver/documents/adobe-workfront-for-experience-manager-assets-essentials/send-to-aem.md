@@ -6,7 +6,7 @@ description: Vous pouvez envoyer des documents depuis Workfront vers Experience�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 93%
@@ -19,12 +19,12 @@ Vous pouvez envoyer des documents depuis Workfront vers Experience Manager Ass
 
 Les ressources envoyées vers Experience Manager par le biais de cette intégration sont limitées à une taille de **5 Go**.
 
-In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.
+Dans l’environnement de Prévisualisation, la taille maximale d’Assets envoyé à Experience Manager par le biais de cette intégration est de 30 Go ****.
 
 >[!NOTE]
 >
->Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
->Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. From there, you can send assets to Experience Manager Assets. Pour plus d’informations, voir [Utilisation d’Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+>Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. De là, vous pouvez envoyer des ressources à Experience Manager Assets. Pour plus d’informations, voir [Utilisation d’Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Métadonnées
 
@@ -95,7 +95,7 @@ Pour envoyer un document, procédez comme suit :
    >
    >L’équipe d’administration de Workfront peut choisir n’importe quel nom pour cette intégration, qui peut donc ne pas contenir spécifiquement les mentions Assets ou Assets Essentials.
 
-   ![Send to](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Envoyer à](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Sélectionnez l’emplacement de la ressource, puis cliquez sur **Sélectionner un dossier**.
 1. Lorsque vous trouvez la destination souhaitée, cliquez sur **Enregistrer**.
@@ -117,7 +117,7 @@ Pour envoyer la version la plus récente, procédez comme suit :
    >
    >L’administrateur ou l’administratrice de Workfront peut choisir n’importe quel nom pour cette intégration. Il peut donc ne pas mentionner spécifiquement Assets ou Assets Essentials.
 
-   ![Send to](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Envoyer à](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Cliquer sur **Enregistrer**. La nouvelle version enregistre au même emplacement que la version précédente.
 

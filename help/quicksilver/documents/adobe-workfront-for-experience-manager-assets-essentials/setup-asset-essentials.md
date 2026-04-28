@@ -1,12 +1,12 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Configure the Experience Manager Assets Essentials Integration
+title: Configuration de l’intégration de Experience Manager Assets Essentials
 description: Connectez votre travail à votre contenu dans Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 92%
@@ -24,7 +24,7 @@ Connectez votre travail à votre contenu dans Experience Manager Assets Essen
 >[!NOTE]
 >
 >Vous pouvez également relier plusieurs référentiels Experience Manager Assets à un environnement Workfront, ou plusieurs environnements Workfront à un référentiel Experience Manager Assets à travers des ID d’organisation. Suivez les instructions de configuration de cet article pour chaque intégration que vous souhaitez configurer.<br>
->Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.
+>Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.
 
 ## Conditions d’accès
 
@@ -32,13 +32,13 @@ Connectez votre travail à votre contenu dans Experience Manager Assets Essen
 
 <table>
   <tr>
-   <td><strong>Package Adobe Workfront</strong>
+   <td><strong>Package </strong>
    </td>
    <td>Tous
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Adobe Workfront</strong>
+   <td><strong>Licences </strong>
    </td>
    <td>
    <p>Standard</p>
@@ -114,8 +114,8 @@ Mappez les données de l’objet Workfront aux champs de média de la ressource 
 
 Avant de commencer, vous devez
 
-* Configurez un schéma de métadonnées dans Experience Manager Assets Essentials comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
-* (Facultatif) Configurer les champs de formulaire personnalisés dans Workfront. Workfront dispose de nombreux champs personnalisés intégrés que vous pouvez utiliser. Vous pouvez également créer vos propres champs personnalisés. For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Configurez un schéma de métadonnées dans Experience Manager Assets Essentials comme expliqué dans [Configurer le mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+* (Facultatif) Configurer les champs de formulaire personnalisés dans Workfront. Workfront dispose de nombreux champs personnalisés intégrés que vous pouvez utiliser. Vous pouvez également créer vos propres champs personnalisés. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Champs Workfront et Experience Manager Assets pris en charge
 
@@ -129,7 +129,7 @@ Pour mapper plusieurs champs de texte d’une seule ligne à des mots-clés, sai
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=fr).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 

@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 77%
@@ -31,8 +31,8 @@ Tenez compte des points suivants lorsque vous modifiez des formulaires personnal
 
 >[!BEGINSHADEBOX]
 
-**Example**
-You might have a custom form with a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all selected documents, and Option 2 and 3 are checked for some and unchecked for other documents that you selected. Si vous souhaitez cocher l’optio  1 pour tous les documents, vous devez également faire correspondre les options 2 et 3 pour tous les projets sélectionnés avant de pouvoir enregistrer vos modifications. Vous devez donc les sélectionner ou les désélectionner afin qu’elles correspondent à tous les projets sélectionnés. Si vous ne modifiez aucune des options, vous pouvez enregistrer le champ tel quel et les documents conservent leur sélection actuelle pour toutes les options.
+**Exemple**
+Vous pouvez avoir un formulaire personnalisé avec un champ de case à cocher avec trois cases à cocher (Option1, Option 2 et Option 3) et l&#39;Option 1 est décochée pour tous les documents sélectionnés, et les Options 2 et 3 sont cochées pour certains et décochées pour d&#39;autres documents que vous avez sélectionnés. Si vous souhaitez cocher l’optio  1 pour tous les documents, vous devez également faire correspondre les options 2 et 3 pour tous les projets sélectionnés avant de pouvoir enregistrer vos modifications. Vous devez donc les sélectionner ou les désélectionner afin qu’elles correspondent à tous les projets sélectionnés. Si vous ne modifiez aucune des options, vous pouvez enregistrer le champ tel quel et les documents conservent leur sélection actuelle pour toutes les options.
 
 >[!ENDSHADEBOX]
 
@@ -69,7 +69,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 +++
 
-## Edit documents in bulk in the legacy documents area
+## Modifier des documents en bloc dans la zone des documents hérités
 
 Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, voir [Différences entre le stockage d’entreprise Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
@@ -98,24 +98,24 @@ Pour modifier des documents en bloc, procédez comme suit :
     </table>
 1. Cliquez sur **Enregistrer**.
 
-## Edit documents in bulk in the new documents area
+## Modifier des documents en bloc dans la nouvelle zone Documents
 
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone de documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Pour modifier des documents en bloc, procédez comme suit :
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Appuyez sur la touche Ctrl ou Cmd du clavier, puis sélectionnez les documents à modifier.
-1. Click Edit at the bottom of the page.
-   ![edit multiple documents](assets/bulk-edit-documents.png)
+1. Cliquez sur Modifier au bas de la page.
+   ![modifier plusieurs documents](assets/bulk-edit-documents.png)
 1. (Facultatif) Ajoutez ou modifiez la **Description**. Si la description de chaque document est différente, vous verrez _Valeurs multiples_ dans la zone de description. Vous pouvez ajouter la même description pour tous les documents, mais vous ne pouvez pas modifier individuellement les descriptions de documents lors d’une modification en bloc.
 1. Effectuez les modifications suivantes avec les formulaires personnalisés :
 
    <table>
     <tr>
     <td><strong>Ajouter des formulaires</strong></td>
-    <td>In the <strong>Custom form</strong> section, you can add a new custom form to the selected documents. Custom forms attached to all selected documents display in the <strong>Custom forms in common</strong> section.  </td>
+    <td>Dans la section <strong>Formulaire personnalisé</strong>, vous pouvez ajouter un nouveau formulaire personnalisé aux documents sélectionnés. Les formulaires personnalisés joints à tous les documents sélectionnés s’affichent dans la section <strong>Formulaires personnalisés en commun</strong>.  </td>
     </tr>
     <tr>
     <td><strong>Modifier des formulaires</strong></td>
@@ -128,7 +128,7 @@ Pour modifier des documents en bloc, procédez comme suit :
 
 1. Accédez à un rapport de document existant.
 ou
-Create a document report as described in [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Créez un rapport de document comme décrit dans la section [Créer un rapport personnalisé](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Sélectionnez les documents à modifier.
 1. Cliquez sur l’icône Modifier ![icône Modifier](assets/edit-icon.png).
 1. (Facultatif) Ajoutez ou modifiez la **Description**. Si la description de chaque document est différente, vous verrez _Valeurs multiples_ dans la zone de description. Vous pouvez ajouter la même description pour tous les documents, mais vous ne pouvez pas modifier individuellement les descriptions de documents lors d’une modification en bloc.

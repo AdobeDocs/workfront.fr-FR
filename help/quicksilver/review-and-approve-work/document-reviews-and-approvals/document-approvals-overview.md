@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '3846'
+source-wordcount: '3903'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -100,7 +100,7 @@ Pour plus d’informations sur la gestion des projets dans Workfront, voir [Proj
 
 * Les programmes et les projets ne peuvent pas porter le même nom s&#39;ils appartiennent au même portefeuille.
 * Les documents ne peuvent pas porter le même nom s&#39;ils appartiennent au même projet.
-* Les noms d&#39;objet ne peuvent pas contenir les caractères spéciaux suivants : \ / : * ? « | &lt; >
+* Les noms d&#39;objet ne peuvent pas contenir les caractères spéciaux suivants : \ / : * ? &quot; | &lt; >
 * Les noms d’objet sont limités à 255 caractères maximum.
 
 Compte tenu de ces limitations, Workfront renomme automatiquement les objets ou les documents selon les besoins afin d’éviter les conflits.
