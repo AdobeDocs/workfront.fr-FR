@@ -1,10 +1,10 @@
 ---
 name: release-notes-formatter
 description: Formatez et validez les notes de mise à jour de Workfront pour garantir la cohérence, la structure correcte et des liens appropriés. À utiliser uniquement pour les fichiers de notes de mise à jour dans les répertoires de versions de produits ou lorsque l’utilisateur mentionne des notes de mise à jour, des versions de produit ou des versions trimestrielles. Ne s’applique pas aux articles de procédure ni à la documentation générale.
-source-git-commit: ec081e557ec48adcfcb3833bf11dcee91312ef4e
+source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 3%
+source-wordcount: '824'
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ Règles :
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Corps** : description des fonctionnalités, puis lien vers la documentation d’aide.
+5. **Corps** : description des fonctionnalités, puis lien vers la documentation d’aide.
 
 #### Pages de présentation
 
@@ -83,17 +83,17 @@ Règles :
 
 3. **`>[!IMPORTANT]`bloc** avec le tableau de calendrier des versions
 
-4. `Adobe Workfront enhancements`**&#x200B;** H2 avec liste à puces des liens d’ancrage :
+4. `Adobe Workfront enhancements`**** H2 avec liste à puces des liens d’ancrage :
 
 ```markdown
 * [Administrator enhancements](#administrator-enhancements)
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 par zone de produit** avec le tableau des fonctionnalités HTML (voir [reference.md](reference.md#overview-feature-table))
+5. **H3 par zone de produit** avec le tableau des fonctionnalités HTML (voir [reference.md](reference.md#overview-feature-table))
    - Dans chaque tableau, **les fonctionnalités les plus récentes en premier** — la ligne la plus récente apparaît en haut du tableau (après la ligne d’en-tête)
 
-&#x200B;6. **Sections de fin** (H2) : notes de mise à jour pour d’autres zones, mises à jour des visionneuses de vérification pour bureau, annonces, version de l’API, mises à jour de maintenance, mises à jour de formation
+6. **Sections de fin** (H2) : notes de mise à jour pour d’autres zones, mises à jour des visionneuses de vérification pour bureau, annonces, version de l’API, mises à jour de maintenance, mises à jour de formation
 
 ### Étape 3 : valider les liens
 
@@ -115,7 +115,7 @@ Règles :
 
 Appliquez ces correctifs lors du formatage :
 
-| Problème | Correctif |
+| Problème | Corriger |
 |-------|-----|
 | Mauvais trimestre du lien d’aperçu | Mettre à jour pour correspondre au propre trimestre du fichier |
 | Bloc de date de `>[!NOTE]` manquant | Ajouter un bloc après l’en-tête de fonctionnalité H2 |
@@ -124,6 +124,32 @@ Appliquez ces correctifs lors du formatage :
 | Espaces supplémentaires dans les lignes de légende | Rogner l’espace de fin |
 | HTML dans les pages de zone de produit | Conserver en tant que markdown (HTML est réservé aux tableaux de présentation uniquement) |
 | `exl-id` manquant | Ne le faites pas — n&#39;en générez pas |
+
+### Étape 6 : mettre à jour la table des matières
+
+Chaque fois que vous créez une **nouvelle** page de notes de mise à jour (présentation ou zone produit), ajoutez-la à `help/quicksilver/TOC.md` dans la même modification. Une page qui ne figure pas dans la table des matières n’apparaît pas dans la navigation publiée, même si des liens dans le tableau d’aperçu pointent vers elle.
+
+Où l’ajouter :
+
+- La table des matières comporte une section par trimestre sous un en-tête tel que `* 2026 Q3 Release {#release-26-q3}`. Si l’en-tête du trimestre n’existe pas encore (première page d’un nouveau trimestre), ajoutez-le au-dessus du trimestre précédent afin que le dernier trimestre se trouve en haut.
+- Sous cet en-tête de trimestre, répertoriez les pages dans cet ordre :
+   1. **Présentation** en premier (`Third Quarter 2026 release overview`).
+   2. **Pages de zone de produit** classées par ordre alphabétique par nom de zone (administrateur, documents, opérations d’entreprise, projets, compte rendu des performances, demande).
+   3. **Autres améliorations** la dernière (toujours après les zones de produit alphabétiques).
+
+Chaque entrée de la table des matières est un lien Markdown utilisant le titre de la page et le chemin d’accès absolu au référentiel :
+
+```markdown
+      * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
+```
+
+Associez la mise en retrait (six espaces) aux entrées environnantes. Utilisez la page H1 mot à mot comme texte du lien, par exemple `Documents enhancements`, `Requesting enhancements` (pas `Requests`), de sorte que les libellés de la table des matières correspondent aux trimestres précédents.
+
+Erreurs courantes à éviter :
+
+- Création d’une page de zone produit sans l’ajouter à la table des matières.
+- Création d’un lien vers la présentation d’un autre trimestre à partir de la nouvelle page produit (étape 3).
+- Insérer les pages d&#39;un nouveau trimestre sous l&#39;en-tête du trimestre précédent.
 
 ## Conventions de dénomination des fichiers
 
@@ -159,6 +185,7 @@ Lors de l’examen d’un fichier de notes de mise à jour, vérifiez les points
 - [ ] Aucun lien interne rompu
 - [ ] liens d’ancrage dans la vue d’ensemble correspondent aux ID de section H3
 - [ Les fonctionnalités ] sont classées en commençant par la plus récente (pages de zone de produit et tableaux de présentation)
+- [ ] Les nouvelles pages de notes de mise à jour sont répertoriées dans `help/quicksilver/TOC.md` sous le trimestre approprié, avec la présentation en premier et les zones de produits dans l’ordre alphabétique (Autre dernière)
 
 ## Ressources supplémentaires
 

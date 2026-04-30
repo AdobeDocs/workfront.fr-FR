@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 92%
+source-wordcount: '763'
+ht-degree: 90%
 
 ---
 
 # Configurer des informations de base pour votre système
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -60,29 +62,36 @@ Pour accéder à la page Infos client :
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Système** > **Infos client**.
+1. Dans le panneau de gauche, cliquez sur **Système** > **Infos client**.
 
    Selon le package Workfront que vous avez acheté, certaines sections peuvent être manquantes dans la page Informations sur le client. Contactez votre représentant de compte si vous avez besoin de connaître le package Workfront utilisé par votre organisation.
 
    Les sections disponibles dans la zone Infos client sont les suivantes :
 
-   * **Informations de base**
+* **Informations de base**
 
-     Pour plus d’informations sur la configuration des informations de base dans Workfront, voir [Configurer les informations de base](#configure-basic-info).
+  Pour plus d’informations sur la configuration des informations de base dans Workfront, voir [Configurer les informations de base](#configure-basic-info).
 
-   * **Paramètres de la clé API**
 
-     Pour plus d’informations sur les paramètres de la clé API, voir [Gérer les clés API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **Liste autorisée d’adresses IP**
+* <span class="preview">**Présentation du stockage**
 
-     Pour plus d’informations sur l’ajout des adresses IP à votre liste autorisée pour l’emplacement où vos utilisateurs et utilisatrices peuvent accéder à Workfront, voir [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+  Pour plus d’informations sur la vérification de l’utilisation et du quota de stockage de documents, voir [Vérifier les limites de stockage de documents](../../documents/managing-documents/check-document-storage.md).</span>
 
-   * **E-mail**
 
-     Pour plus d’informations sur l’ajout d’e-mails à votre place sur la liste autorisée, voir [Configurer votre e-mail](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **Paramètres de la clé API**
 
-   <!--
+  Pour plus d’informations sur les paramètres de la clé API, voir [Gérer les clés API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+
+* **Liste autorisée d’adresses IP**
+
+  Pour plus d’informations sur l’ajout des adresses IP à votre liste autorisée pour l’emplacement où vos utilisateurs et utilisatrices peuvent accéder à Workfront, voir [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+
+* **E-mail**
+
+  Pour plus d’informations sur l’ajout d’e-mails à votre place sur la liste autorisée, voir [Configurer votre e-mail](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+
+<!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
@@ -96,7 +105,7 @@ Pour configurer votre section Informations de base dans votre zone Infos client�
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Système** > **Infos client**.
+1. Dans le panneau de gauche, cliquez sur **Système** > **Infos client**.
 
 1. Dans la section **Informations de base** en haut de la page **Infos client**, recherchez les informations suivantes sur votre instance avec Workfront :
 
@@ -132,15 +141,7 @@ Pour configurer votre section Informations de base dans votre zone Infos client�
       <td role="rowheader">Paramètres régionaux d’e-mail par défaut</td> 
       <td>Contrôle les formats de langue, de date et de nombres utilisés dans les e-mails sortants. Les paramètres régionaux sélectionnés ici sont utilisés par défaut lors de la création de nouveaux utilisateurs et de nouvelles utilisatrices. Les utilisateurs et les utilisatrices peuvent modifier leurs paramètres régionaux dans leur profil d’utilisateur ou d’utilisatrice. Lorsque les utilisateurs et les utilisatrices modifient leurs paramètres régionaux, les formats de langue, de date et de nombres dans leurs e-mails envoyés à partir de Workfront correspondent à leurs préférences de profil. Pour plus d’informations sur la modification de vos préférences de profil, voir <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurer mes paramètres</a>.</td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Pourcentage de stockage</td> 
-      <td> <p>Il s’agit de la quantité d’espace de stockage de documents disponible dans votre instance Workfront.<br>Le quota contient les documents que vous chargez directement dans Workfront.<br>Il n’inclut pas les éléments suivants :</p> 
-       <ul> 
-        <li>Les documents que vous liez à Workfront à partir de tout autre fournisseur de services tiers (SharePoint, Google Drive, WebDam, Box, Dropbox, ou tout autre fournisseur de gestion des ressources numériques).</li> 
-        <li>Vos données Workfront (projets, tâches, problèmes, utilisateurs et utilisatrices, etc.).</li> 
-       </ul> </td> 
-     </tr>
     </tbody> 
    </table>
 
-1. Cliquer sur **Enregistrer**.
+1. Cliquez sur **Enregistrer**.
