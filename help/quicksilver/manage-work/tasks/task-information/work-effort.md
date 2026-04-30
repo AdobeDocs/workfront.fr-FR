@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 96%
+source-wordcount: '1532'
+ht-degree: 90%
 
 ---
 
@@ -41,17 +41,17 @@ En tant que personne gestionnaire de projet, vous pouvez choisir comment estimer
   <tr> 
    <td role="rowheader">Effort de travail </td> 
    <td> <p>Libellé manuel qui définit si l’utilisateur ou l’utilisatrice doit fournir un effort quotidien faible, moyen ou important pour accomplir une tâche.
-   <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
-      </MadCap:conditionalText>
-     -->
-     </p> <p>Tenez compte des points suivants concernant l’effort de travail :</p>
-    <ul> 
-     <li>Ce champ est disponible uniquement pour les tâches dont le type de durée est Simple. </li> 
-     <li>Vous pouvez activer l’utilisation de ce libellé et définir le pourcentage de temps de travail qui lui est associé au niveau du projet. </li> 
-    </ul> </td> 
-  </tr> 
+   &lt;!--
+
+    Le niveau d&#39;effort est estimé comme étant un pourcentage de la durée journalière du temps de travail. (REMARQUE : conserver ce brouillon. Vazgen a déclaré que ce n&#39;est pas nécessaire, mais en attendant les commentaires des utilisateurs)
+    
+    —>
+    &lt;/p> &lt;p>Tenez compte des points suivants à propos de l&#39;effort de travail :&lt;/p>
+    &lt;ul>
+    &lt;li>Ce champ est disponible uniquement pour les tâches de type Durée simple. &lt;/li>
+    &lt;li>Vous pouvez activer l’utilisation de ce libellé et définir le pourcentage de temps de travail qui lui est associé au niveau du projet. &lt;/li>
+    &lt;/ul> &lt;/td>
+</tr> 
  </tbody> 
 </table>
 

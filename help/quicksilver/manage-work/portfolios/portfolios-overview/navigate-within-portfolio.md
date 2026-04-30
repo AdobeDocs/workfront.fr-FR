@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 75%
+source-wordcount: '697'
+ht-degree: 64%
 
 ---
 
@@ -104,7 +104,7 @@ Pour plus d’informations sur les autorisations aux portfolios, voir [Partager 
 
      Pour ajouter de nouveaux portfolios, voir [Créer un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-1. Cliquez sur le nom d’un portefeuille pour y accéder.
+1. Cliquez sur le nom d’un portfolio pour y accéder.
 Les mesures de performances du portfolio suivantes s’affichent dans la zone [!UICONTROL Détails du portfolio] à l’intérieur du portfolio :
 
    * Si le portfolio est [!UICONTROL À l’heure].
@@ -144,12 +144,28 @@ Pour plus d’informations sur les programmes, voir la section [Créer et gérer
 
    >[!IMPORTANT]
    >
-   >Votre société doit disposer d’un package de Prime[!DNL Workfront] ou supérieur pour avoir accès à [!UICONTROL Portfolio Optimizer].
+   >Votre société doit disposer d’un package de [!DNL Workfront] [!UICONTROL Prime] ou supérieur pour avoir accès à [!UICONTROL Portfolio Optimizer].
    >
 
    Pour plus d’informations sur l’utilisation de Portfolio Optimizer, consultez la section [Gérer les projets dans Portfolio Optimizer : index d’article](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
 1. (Facultatif) Cliquez sur **Documents** dans le panneau de gauche pour joindre des documents au portfolio.
+
+   >[!NOTE]
+   >
+   >L’ajout de documents à des portfolios diffère selon le type de stockage utilisé par votre entreprise pour Workfront.
+   >Certains clients peuvent avoir accès aux deux environnements de stockage de documents suivants :
+   >
+   >  * **L’ancien stockage Workfront** : les portfolios utilisant ce stockage ont l’icône d’ancien stockage ![icône d’ancien stockage](assets/legacy-storage-project-icon.png) en regard du nom.
+   >  * **Stockage d’entreprise Adobe**
+   >
+   >Votre administrateur Workfront décide du stockage utilisé par votre société ou vous permet de choisir le stockage auquel vous associez chaque portefeuille.
+   >Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+   >
+   >L’ajout de documents à des portfolios diffère selon le type de stockage utilisé.
+   >
+   >Pour plus d’informations, voir [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
 1. (Facultatif) Cliquez sur **[!UICONTROL Mises à jour]** dans le panneau de gauche pour ajouter des commentaires au flux de mise à jour du portfolio. Pour plus d’informations, voir [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Cliquez sur le menu **[!UICONTROL Plus]** ![Plus](assets/qs-more-icon-on-an-object.png) pour effectuer l’une des opérations suivantes :
 

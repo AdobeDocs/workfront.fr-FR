@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 58%
+source-wordcount: '1079'
+ht-degree: 57%
 
 ---
 
@@ -124,9 +124,9 @@ Workfront recalcule les chronologies quotidiennement uniquement pour les projets
 Vous pouvez configurer la fréquence de mise à jour de la chronologie de votre projet. Lorsque la chronologie du projet est mise à jour, elle est recalculée en fonction des modifications apportées au projet.
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ 
 or changes made to another project that the timeline is dependent on
-</MadCap:conditionalText>
+ 
 -->
 
 

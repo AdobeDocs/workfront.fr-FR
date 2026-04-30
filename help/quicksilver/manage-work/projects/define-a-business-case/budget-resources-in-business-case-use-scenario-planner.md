@@ -5,9 +5,9 @@ description: Dans le cadre de la planification des ressources, vous pouvez utili
 author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '961'
 ht-degree: 88%
 
 ---
@@ -22,11 +22,11 @@ Pour plus d’informations sur la création d’un business case, voir [Créer u
 
 >[!TIP]
 >
->Les informations sur les fonctions de l’initiative liée au projet que vous saisissez dans le planificateur de scénarios au niveau du système sont visibles dans la zone Établissement du budget de ressources du business case du projet lorsque vous publiez l’initiative. Le planificateur de scénarios n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+>Les informations sur les fonctions de l’initiative liée au projet que vous saisissez dans le planificateur de scénarios au niveau du système sont visibles dans la zone Établissement du budget de ressources du business case du projet lorsque vous publiez l’initiative. Le planificateur de scénarios n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
 Vous pouvez également budgéter des ressources dans le business case à l’aide du planificateur de ressources. Pour plus d’informations, consultez les sections suivantes :
 
-* [Budgéter des ressources dans le business case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
+* [Ressources budgétaires dans l’analyse de rentabilité](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
   <!--* [Budget resources by project in the Resource Planner](../../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md)-->
 
 >[!NOTE]
@@ -44,7 +44,7 @@ Vous pouvez également budgéter des ressources dans le business case à l’aid
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td><p>Prime ou version ultérieure</p> 
   </tr> 
   <tr> 
@@ -111,9 +111,9 @@ Avant de commencer, vous devez effectuer les opérations suivantes :
 >Vous pouvez budgétiser vos ressources pour une période de 15 ans. Si vous budgétisez des ressources pour un projet d’une durée supérieure à 15 ans, les informations budgétaires risquent de ne pas être exactes.
 
 <!--
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+> >
 >(is this still accurate for the Scenario Planner?)>
-></MadCap:conditionalText>>
+> >
 -->
 
 1. Accédez au projet pour lequel vous souhaitez budgétiser les ressources.

@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '3318'
-ht-degree: 93%
+source-wordcount: '3379'
+ht-degree: 90%
 
 ---
 
@@ -63,65 +63,65 @@ La grille suivante indique les sections dans la zone [!UICONTROL Mes paramètres
    <td rowspan="2">[!UICONTROL Personal Info]</td> 
    <td> <p>Visible</p> </td> 
    <td> <p>✔</p> </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td> ✔</td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td> ✔</td> 
   </tr> 
   <tr> 
    <td> <p>Modifiable</p> </td> 
    <td> <p>✔</p> </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td> ✔</td> 
+   <td> ✔</td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
   </tr> 
   <tr> 
    <td rowspan="2">[!UICONTROL Preferences]</td> 
    <td> <p>Visible</p> </td> 
    <td> <p>✔</p> </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td> ✔</td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
   </tr> 
   <tr> 
    <td> <p>Modifiable</p> </td> 
    <td> <p>✔</p> </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
   </tr> 
   <tr> 
    <td rowspan="2">[!UICONTROL Notifications]</td> 
    <td> <p>Visible</p> </td> 
    <td> <p>✔</p> </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td> ✔</td> 
+   <td>✔ </td> 
   </tr> 
   <tr> 
    <td> <p>Modifiable</p> </td> 
    <td> <p>✔</p> </td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td> ✔</td> 
+   <td> ✔</td> 
   </tr> 
   <tr> 
    <td rowspan="2">[!UICONTROL Access]</td> 
    <td>Visible</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td> ✔</td> 
+   <td>✔ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Modifiable</td> 
-   <td>✔</td> 
+   <td> ✔</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -131,7 +131,7 @@ La grille suivante indique les sections dans la zone [!UICONTROL Mes paramètres
    <td rowspan="2">[!UICONTROL Organization]</td> 
    <td>Visible</td> 
    <td>✔</td> 
-   <td>✔</td> 
+   <td>✔ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -139,7 +139,7 @@ La grille suivante indique les sections dans la zone [!UICONTROL Mes paramètres
   <tr> 
    <td>Modifiable</td> 
    <td>✔</td> 
-   <td>✔</td> 
+   <td>✔ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -148,7 +148,7 @@ La grille suivante indique les sections dans la zone [!UICONTROL Mes paramètres
    <td rowspan="2">[!UICONTROL Resource Planning]</td> 
    <td>Visible</td> 
    <td>✔</td> 
-   <td>✔</td> 
+   <td>✔ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -156,7 +156,7 @@ La grille suivante indique les sections dans la zone [!UICONTROL Mes paramètres
   <tr> 
    <td>Modifiable</td> 
    <td>✔</td> 
-   <td>✔</td> 
+   <td>✔ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -165,15 +165,15 @@ La grille suivante indique les sections dans la zone [!UICONTROL Mes paramètres
    <td rowspan="2">[!UICONTROL Custom Forms]</td> 
    <td>Visible</td> 
    <td>✔</td> 
+   <td>✔ </td> 
    <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
   </tr> 
   <tr> 
    <td>Modifiable</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -182,18 +182,18 @@ La grille suivante indique les sections dans la zone [!UICONTROL Mes paramètres
    <td rowspan="2">[!UICONTROL Comment]</td> 
    <td>Visible</td> 
    <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
   </tr> 
   <tr> 
    <td>Modifiable</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
-   <td>✔</td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -377,22 +377,22 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Access Level]</strong> </td> 
-   <td>Ce champ est visible par les utilisateurs et utilisatrices disposant d’un niveau d’accès [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Workfront administrator]. Il n’est modifiable que pour les administrateurs et administratrices [!DNL Workfront].Si vous êtes un administrateur ou une administratrice [!DNL Workfront], faites attention à ne pas modifier votre niveau d’accès à un niveau inférieur lorsque vous modifiez ce champ.</td> 
+   <td>Ce champ est visible par les utilisateurs et utilisatrices disposant d’un niveau d’accès [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Workfront administrator]. Il n’est modifiable que pour les administrateurs et administratrices [!DNL Workfront]. Si vous êtes un administrateur ou une administratrice [!DNL Workfront], faites attention à ne pas modifier votre niveau d’accès à un niveau inférieur lorsque vous modifiez ce champ. </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Layout Template]</strong> </td> 
    <td>Ce champ est visible par les utilisateurs et utilisatrices disposant d’un niveau d’accès [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL [!DNL Workfront] administrator], et il n’est modifiable que pour [!UICONTROL [!DNL Workfront] administrators] ou les utilisateurs et utilisatrices ayant une licence [!UICONTROL Standard] ou [!UICONTROL Plan], et qui disposent également d’un accès administratif. Sélectionnez ici un modèle de mise en page pour mettre à jour l’aspect et le champ de votre interface Workfront. Pour plus d’informations sur la configuration des utilisateurs et utilisatrices disposant d’un accès administratif, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurer l’accès des utilisateurs et utilisatrices à la modification des utilisateurs et utilisatrices à l’aide d’un niveau d’accès personnalisé</a> dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Octroyer l’accès aux utilisateurs et utilisatrices</a>.<br>Pour plus d’informations sur les modèles de mise en page et leur impact sur l’interface, voir <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Créer et gérer des modèles de mise en page</a></td> 
   </tr>
-  <!--
+  &lt;!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><strong>Log in as</strong> </td> 
-    <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-        <span class="PinkDraftNote">Add a note about this being only for the Enterprise package if they decide to do it that way. Functionality that may come in a later sprint: If you want to be notified when the administrator logs in as you, select Receive an email when this user logs in.</span> 
-       </MadCap:conditionalText>
-      </p> </td> 
-   </tr>
-  --> 
+    <td role="rowheader"><strong>Connexion en tant que</strong> </td> 
+    <td> <p><strong>Ajouter un accès</strong> pour qu’un administrateur Workfront ou un administrateur de groupe (associé à un groupe dans lequel vous vous trouvez) se connecte en tant que vous. Sélectionnez une <strong>Date d’expiration de l’accès</strong> pour la connexion. </p> <p>Vous pouvez répéter cette opération pour accorder un accès de connexion à plusieurs administrateurs.</p> <p>Les paramètres que vous choisissez dans cette section ne sont visibles que par vous.
+
+    &lt;span class=« PinkDraftNote »>Ajoutez une note indiquant que cela s’applique uniquement au package Enterprise s’il décide de le faire de cette manière. Fonctionnalité pouvant être proposée lors d’un sprint ultérieur : si vous souhaitez être averti lorsque l’administrateur se connecte en même temps que vous, sélectionnez Recevoir un e-mail lorsque cet utilisateur se connecte.&lt;/span>
+    
+    &lt;/p> &lt;/td>
+</tr>
+  --&gt; 
   <tr> 
    <td role="rowheader"><strong>(Le cas échéant) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
    <td>Ce champ n’est disponible que si votre société utilise un package de [!DNL Workfront] hérité et a acheté le composant [!DNL Workfront Proof]. Lorsqu’il est sélectionné, votre activation en tant qu’utilisateur ou utilisatrice de relecture est effective. Il affiche également le nombre de licences d’épreuve utilisées dans votre système sur le nombre total de licences d’épreuve achetées. Ce champ est visible et modifiable uniquement pour les utilisateurs et utilisatrices qui sont également administrateurs et administratrices [!DNL Workfront]. Pour plus d’informations sur les options de plan pour la relecture dans [!DNL Workfront], voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Accéder aux fonctionnalités de relecture dans [!DNL Workfront]</a>.</td>
@@ -436,7 +436,7 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Other Teams]</strong> </td> 
-   <td> <p>Vous pouvez appartenir à plusieurs équipes. Indiquez les équipes supplémentaires auxquelles vous appartenez dans ce champ en commençant à saisir le nom d’une équipe, puis cliquez pour la sélectionner lorsqu’elle s’affichera dans la liste.Le fait d’appartenir à trop d’équipes peut créer une confusion quant au travail qui est affecté aux équipes.Pour plus d’informations sur les équipes, voir <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Vue d’ensemble des équipes</a>.</p> <p>Ce champ est visible par les personnes disposant d’une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL System Administrator]. Il n’est modifiable que pour les administrateurs, administratrices, utilisateurs ou utilisatrices [!DNL Workfront] disposant d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] qui disposent également d’un accès administrateur. Pour plus d’informations sur la configuration des personnes disposant d’un accès administrateur, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurer l’accès des personnes à la modification des utilisateurs et utilisatrices à l’aide d’un niveau d’accès personnalisé</a> dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </td>
+   <td> <p>Vous pouvez appartenir à plusieurs équipes. Indiquez les équipes supplémentaires auxquelles vous appartenez dans ce champ en commençant à saisir le nom d’une équipe, puis cliquez pour la sélectionner lorsqu’elle s’affichera dans la liste. Le fait d’appartenir à trop d’équipes peut créer une confusion quant au travail qui est affecté aux équipes. Pour plus d’informations sur les équipes, voir <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Vue d’ensemble des équipes</a>.</p> <p>Ce champ est visible par les personnes disposant d’une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL System Administrator]. Il n’est modifiable que pour les administrateurs, administratrices, utilisateurs ou utilisatrices [!DNL Workfront] disposant d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] qui disposent également d’un accès administrateur. Pour plus d’informations sur la configuration des personnes disposant d’un accès administrateur, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurer l’accès des personnes à la modification des utilisateurs et utilisatrices à l’aide d’un niveau d’accès personnalisé</a> dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Home Group]</strong> </td> 
@@ -461,7 +461,7 @@ Utilisez l’une des méthodes suivantes de cette section :
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Set deactivation date]</strong></td>
-   <td><p>Cliquez sur ce bouton si vous souhaitez planifier la désactivation de votre compte après un certain temps. Dans la <strong>[!UICONTROL Scheduled Deactivation Date]</strong> qui s’affiche, indiquez la date à laquelle votre compte sera désactivé. Pour plus d’informations sur la désactivation des utilisateurs et utilisatrices, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Planifier la désactivation d’utilisateurs et d’utilisatrices</a> dans <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactiver ou réactiver un utilisateur ou une utilisatrice</a>.</p><p>Vous pouvez modifier les champs de désactivation de votre compte si vous disposez d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] ou si vous êtes l’administrateur ou l’administratrice [!DNL Workfront].</p></td> 
+   <td><p>Cliquez sur ce bouton si vous souhaitez planifier la désactivation de votre compte après un certain temps. Dans la <strong>[!UICONTROL Scheduled Deactivation Date]</strong> qui s’affiche, indiquez la date à laquelle votre compte sera désactivé. Pour plus d’informations sur la désactivation des utilisateurs et utilisatrices, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Planifier la désactivation d’utilisateurs et d’utilisatrices</a> dans <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactiver ou réactiver un utilisateur ou une utilisatrice</a>. </p><p>Vous pouvez modifier les champs de désactivation de votre compte si vous disposez d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] ou si vous êtes l’administrateur ou l’administratrice [!DNL Workfront]. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 
@@ -473,7 +473,7 @@ Utilisez l’une des méthodes suivantes de cette section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Other Roles]</strong> </td> 
-   <td> <p>Vous pouvez avoir plusieurs fonctions dans [!DNL Workfront]. Les fonctions sont essentielles à la gestion des ressources. Pour plus d’informations sur les fonctions, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.</p> <p>Vous ne pouvez mettre à jour ce champ que si vous disposez d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] avec un accès administratif, ou si vous êtes un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations sur la configuration des utilisateurs et utilisatrices disposant d’un accès administratif, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configurer l’accès des utilisateurs et utilisatrices à la modification des utilisateurs et utilisatrices à l’aide d’un niveau d’accès personnalisé</a> dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs ou utilisatrices</a>.</p> </td> 
+   <td> <p>Vous pouvez avoir plusieurs fonctions dans [!DNL Workfront]. Les fonctions sont essentielles à la gestion des ressources. Pour plus d’informations sur les fonctions, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.</p> <p>Vous ne pouvez mettre à jour ce champ que si vous disposez d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] avec un accès administratif, ou si vous êtes un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations sur la configuration des utilisateurs et utilisatrices disposant d’un accès administratif, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configurer l’accès des utilisateurs et utilisatrices à la modification des utilisateurs et utilisatrices à l’aide d’un niveau d’accès personnalisé</a> dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et aux utilisatrices</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Le cas échéant) Si vous avez sélectionné un ou plusieurs autres rôles, le champ [!UICONTROL Percentage of FTE Availability] s’affiche pour chaque rôle.</strong></td> 
@@ -485,7 +485,7 @@ Utilisez l’une des méthodes suivantes de cette section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Planning</strong></td> 
-   <td> <p>Seuls les administrateurs et administratrices [!DNL Workfront] ou les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] qui disposent également d’un accès administratif pour les feuilles de temps et les heures peuvent mettre à jour ce champ. Pour plus d’informations sur l’accès administratrif pour les feuilles de temps et les heures, voir la section « Feuilles de temps et heures » dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> <p>Sélectionnez la feuille de temps appropriée dans le menu déroulant. Cela garantit que vos feuilles de temps sont générées automatiquement, conformément aux spécifications définies par votre administrateur ou administratrice [!DNL Workfront].</p> </td> 
+   <td> <p>Seuls les administrateurs et administratrices [!DNL Workfront] ou les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] qui disposent également d’un accès administratif pour les feuilles de temps et les heures peuvent mettre à jour ce champ. Pour plus d’informations sur l’accès administratrif pour les feuilles de temps et les heures, voir la section « Feuilles de temps et heures » dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> <p>Sélectionnez la feuille de temps appropriée dans le menu déroulant. Cela garantit que vos feuilles de temps sont générées automatiquement, conformément aux spécifications définies par votre administrateur ou administratrice [!DNL Workfront]. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Default Hour Type]</strong> </td> 

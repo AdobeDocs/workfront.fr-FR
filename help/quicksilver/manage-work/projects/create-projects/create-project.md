@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 84%
+source-wordcount: '1614'
+ht-degree: 67%
 
 ---
 
@@ -167,6 +167,17 @@ Tenez compte des points suivants :
 
      Si vous utilisez un modèle lors de la création du projet en convertissant le problème, reportez-vous au deuxième scénario ci-dessus pour comprendre quel groupe et quel statut sont appliqués par Workfront au nouveau projet.
 
+* L’emplacement de stockage des documents dans un projet et ses objets enfants (tâches et événements) dépend de ce que l’administrateur Workfront choisit comme valeur par défaut pour les Préférences de stockage dans les Préférences système de la section Configuration. Selon l’emplacement de stockage des documents dans votre instance Workfront, vous pouvez créer les types de projets suivants :
+
+   * Projets de stockage Workfront hérités
+   * Projets de stockage d’entreprise Adobe.
+
+  Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+* Lorsque vous créez un projet d’espace de stockage d’entreprise, un dossier de documents portant le même nom est créé pour dans la section **Documents** du projet. Après avoir ajouté des tâches au projet, les dossiers portant le nom de la tâche sont ajoutés à la section **Documents** de chaque tâche.
+
+Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Créer entièrement un projet
 
 >[!NOTE]
@@ -175,15 +186,40 @@ Tenez compte des points suivants :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, ou sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, si disponible, puis cliquez sur **Projets** et développez **Nouveau projet**.
+   * Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Projets** et développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
    * Accédez à un programme, puis développez **Nouveau projet**.
-   * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier les projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier des projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-   ![Menu Nouveau projet](assets/new-project-dropdown-nwe-350x358.png)
+   ![Menu Nouveau projet](assets/new-project-drop-down-with-legacy-storage-option.png)
 
-1. Cliquez sur **Nouveau projet** dans le menu pour créer un projet à partir de zéro.
-1. Saisissez le nom du projet. Appuyez sur Entrée pour enregistrer le nom.
+1. (Conditionnel) Selon le stockage de document utilisé par votre organisation, cliquez sur l’un des éléments suivants :
+
+   * **Nouveau projet**, lorsque l’administrateur Workfront choisit **Adobe Enterprise** ou **Workfront hérité** et qu’il a sélectionné ou non le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
+   * **Nouveau projet (stockage hérité)** lorsque l’administrateur Workfront choisit **Adobe Enterprise** ou **Workfront hérité** et qu’il a également sélectionné le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
+
+     Cette option s&#39;affiche uniquement lorsque le paramètre **Autoriser l&#39;utilisateur à sélectionner le fournisseur de stockage** est sélectionné dans la zone Configuration.
+
+     Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+     >[!NOTE]
+     >
+     >Lorsque vous créez un projet de stockage d’entreprise à partir d’un portfolio ou d’un programme de stockage Workfront, le portfolio ou le programme est également converti en objets de stockage d’entreprise. Tous les autres projets de stockage Workfront relevant du même portefeuille ou programme restent inchangés.
+
+     Un projet est créé et son nom par défaut suit les schémas suivants, en fonction du Workfront de stockage utilisé pour les documents :
+
+      * **Projet sans titre** pour un projet de stockage Workfront.
+
+        Un projet de stockage Workfront affiche une icône **Stockage Workfront hérité** ![Icône de projet de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
+
+      * **Projet sans titre - &lt; Jour du mois, année heure.minute.seconde >** pour un projet de stockage Adobe
+
+        >[!IMPORTANT]
+        >
+        >Les projets utilisant le stockage d’entreprise d’Adobe doivent avoir des noms uniques.
+
+
+1. Dans l’en-tête du projet, mettez à jour le nom du projet. Appuyez sur Entrée pour enregistrer le nom.
 
    ![Saisie d’un nom pour le projet](assets/rename-untitled-project.png).
 

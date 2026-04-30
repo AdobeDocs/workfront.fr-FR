@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2090'
-ht-degree: 94%
+source-wordcount: '2234'
+ht-degree: 89%
 
 ---
 
@@ -108,6 +108,10 @@ Tenez compte des éléments suivants lorsque vous déplacez des tâches de modè
 
    * Jalons.
 
+* Vous ne pouvez pas copier ni déplacer une tâche de modèle d’un modèle de stockage Workfront vers un modèle de stockage Adobe. Le contraire est également vrai. Tous les clients ne disposent pas des deux types de stockage.
+
+  Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Copier les tâches de modèle
 
 Vous pouvez copier une seule tâche de modèle ou plusieurs tâches de modèle en masse.
@@ -120,7 +124,7 @@ Vous pouvez copier une seule tâche de modèle ou plusieurs tâches de modèle e
 1. (Conditionnel) Cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon.png) en haut de la liste des tâches de modèle ou à droite du nom de la tâche de modèle si vous avez ouvert la tâche, puis cliquez sur **Copier vers** ou **Copier**, selon l’emplacement depuis lequel vous accédez à l’option Copier.
 La zone Copier la tâche de modèle s’affiche.
    ![Zone Copier la tâche de modèle](assets/copy-template-task-box-unshimmed.png)
-1. (Facultatif) Renommez la tâche de modèle dans le champ **Nom de tâche de modèle**.
+1. (Facultatif) Renommez la tâche de modèle dans le champ **Nom de la tâche de modèle**.
 
    >[!TIP]
    >
@@ -128,16 +132,23 @@ La zone Copier la tâche de modèle s’affiche.
 
 1. Commencez à saisir le nom du **Modèle de destination** où vous souhaitez copier la tâche de modèle dans le champ **Sélectionner le modèle de destination**, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-   Le nom du modèle actuel s’affiche par défaut. Si vous souhaitez copier la tâche de modèle dans le même modèle, ne modifiez pas ce champ.
-
    >[!TIP]
    >
    >Vous pouvez également commencer à taper le numéro de référence ou saisir l’ID du modèle. Cela peut vous aider à distinguer des modèles portant des noms identiques.
 
+   Le nom du modèle actuel s’affiche par défaut. Si vous souhaitez copier la tâche de modèle dans le même modèle, ne modifiez pas ce champ.
+
+   >[!TIP]
+   >
+   >Vous devez choisir un modèle avec un type de stockage de document similaire. Vous ne pouvez pas copier des tâches de modèles dans un modèle avec un type de stockage différent de celui du modèle d&#39;origine. Tous les clients n’ont pas accès à plusieurs types de stockage de documents.
+   >
+   >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+
 1. (Facultatif) Cliquez sur **Demander l’accès** pour demander l’accès au modèle de destination, si vous n’avez pas accès au modèle sélectionné.
 1. (Facultatif) Continuez pour copier la tâche de modèle vers le modèle de destination sélectionné sans demander d’accès si vous avez le droit d’ajouter des tâches de modèle à l’une des tâches de modèle sur le modèle de destination.
 
-1. Cliquez sur **Options** dans le panneau de gauche, puis désélectionnez les attributs de la tâche de modèle que vous ne souhaitez pas copier avec la tâche modèle. Toutes les options sont sélectionnées par défaut.
+1. Cliquez sur **Options** dans le panneau de gauche, puis décochez les attributs de la tâche de modèle que vous ne souhaitez pas copier avec la tâche de modèle. Toutes les options sont sélectionnées par défaut.
 
    >[!TIP]
    >
@@ -254,7 +265,11 @@ La zone Déplacer la tâche de modèle s’ouvre.
 
    >[!TIP]
    >
-   >Vous pouvez également commencer à taper le numéro de référence ou saisir l’ID du modèle. Cela peut vous aider à distinguer des modèles portant des noms identiques.
+   >* Vous pouvez également commencer à taper le numéro de référence ou saisir l’ID du modèle. Cela peut vous aider à distinguer des modèles portant des noms identiques.
+   >
+   >* Vous devez choisir un modèle avec un type de stockage de document similaire. Vous ne pouvez pas copier des tâches de modèles dans un modèle avec un type de stockage différent de celui du modèle d&#39;origine. Tous les clients n’ont pas accès à plusieurs types de stockage de documents.
+   >
+   >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Le cas échéant) Cliquez sur **demander un accès** pour demander l’accès au modèle, si vous n’avez pas accès au modèle de destination.
 1. (Le cas échéant) Continuez à déplacer la tâche de modèle vers le modèle de destination sélectionné sans demander d’accès si vous avez accès à l’ajout de tâches de modèle pour l’une des tâches de modèle sur le modèle de destination.
@@ -291,7 +306,6 @@ La zone Déplacer la tâche de modèle s’ouvre.
       <li> Commencer Au Plus Tôt</li>
       <li> Commencer Au Plus Tard</li>
       </ul>
-
 
    </td> 
      </tr> 
@@ -340,7 +354,6 @@ La zone Déplacer la tâche de modèle s’ouvre.
      </tr>  
     </tbody> 
    </table>
-
 
 1. (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche, puis sélectionnez la tâche de modèle dans le modèle de destination qui doit devenir le parent de la tâche de modèle déplacée.
 

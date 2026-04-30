@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '792'
 ht-degree: 85%
 
 ---
@@ -122,7 +122,7 @@ Tenez compte des points suivants :
 
   Cela s’applique également lorsque vous essayez de supprimer des projets dans lesquels se trouvent des tâches avec des heures consignées.
 
-  Pour plus d’informations sur la configuration des préférences de suppression des heures consignées sur les problèmes, voir [Configurer les préférences de feuilles de temps et d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Pour plus d’informations sur la configuration des préférences de suppression pour les heures consignées sur les problèmes, voir [Configurer les préférences de feuille de temps et d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
    * Les dépenses relatives à la tâche seront transférées au projet.
 
    * Les utilisateurs et utilisatrices affectés à la tâche ou à l’approbation de la tâche restent dans l’équipe de projet.
@@ -132,9 +132,9 @@ Tenez compte des points suivants :
 * Lorsque vous supprimez une tâche enfant et que vous déplacez son parent vers un autre projet, puis que vous restaurez la tâche enfant supprimée, la tâche est de nouveau ajoutée au projet d’origine en tant que tâche principale.
 
 <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   (NOTE: this stays NWE; not possible in classic;)
-  </MadCap:conditionalText>
+   
   -->
 
 ## Supprimer des tâches

@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 92%
+source-wordcount: '1056'
+ht-degree: 86%
 
 ---
 
@@ -119,6 +119,9 @@ Tenez compte des points suivants lorsque vous copiez des problèmes contenant de
 * **Lorsqu’un problème est associé à une file d’attente des demandes :** lorsque vous copiez un problème dans un autre objet et que le problème est associé à une file d’attente des demandes, le problème copié n’est plus associé à la file d’attente d’origine du premier problème.
 * **Lorsqu’un document est attaché au problème :** lorsque vous copiez un problème dans un autre objet et que le problème est accompagné d’un document, le document et ses versions sont également transférés dans le nouveau problème. Les épreuves ou approbations associées au document ne sont pas déplacées.
 * **Lorsqu’un problème est lié à un document ou à un dossier :** lorsque vous copiez un problème qui contient des documents ou des dossiers liés à un service tiers tel que Google Drive, les liens vers les documents sont transférés vers le problème copié.
+* **Lorsque vous copiez des problèmes entre des projets avec des types de stockage différents** : vous ne pouvez pas copier un problème d’un projet de stockage Workfront vers un projet de stockage Adobe. Le contraire est également vrai. Tous les clients ne disposent pas des deux types de stockage.
+
+  Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Copier des problèmes dans une liste
 
@@ -138,9 +141,9 @@ Vous pouvez copier un ou plusieurs problèmes à partir d’une liste de problè
 1. Continuez à copier le problème, comme décrit dans la section [Copier un seul problème](#copy-a-single-issue) en commençant par l’étape 2.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+    
    (NOTE: ensure step number stays accurate)
-   </MadCap:conditionalText>
+    
    -->
 
 ## Copier un seul problème {#copy-a-single-issue}
@@ -168,7 +171,7 @@ Vous pouvez copier un problème lorsque vous le consultez.
 
    >[!TIP]
    >
-   >Des messages similaires s’affichent si le projet sélectionné est en attente d’approbation, terminé ou immobilisé, lorsque l’administration de Workfront empêche l’ajout de problèmes à ces projets. Pour plus d’informations, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Des messages similaires s’affichent si le projet sélectionné est en attente d’approbation, terminé ou immobilisé, lorsque l’administration de Workfront empêche l’ajout de problèmes à ces projets. Pour plus d’informations, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. (Facultatif) Dans la section **Options**, désélectionnez l’un des éléments répertoriés dans le tableau ci-dessous pour le supprimer du nouveau problème. Toutes les options sont sélectionnées par défaut.
 
@@ -190,7 +193,7 @@ Vous pouvez copier un problème lorsque vous le consultez.
      </tr> 
      <tr> 
       <td role="rowheader">Documents</td> 
-      <td><span style="line-height: 1.5;">Supprime tout ce qui se trouve dans l’onglet des documents, y compris les versions des documents, les documents liés et les dossiers.</span> <br>Par défaut, les épreuves et les approbations de documents ne peuvent pas être copiées dans un autre dossier.</td> 
+      <td><span style="line-height: 1.5;">Supprime tous les éléments de l’onglet documents, y compris les versions des documents, les documents liés et les dossiers.</span> <br>Par défaut, les épreuves et approbations de document ne peuvent pas être copiées dans un autre événement.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Autorisations</td> 

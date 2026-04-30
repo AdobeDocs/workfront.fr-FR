@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 89a9e5d0ecf2daa9b423251c5c87a98d967a66a5
+source-git-commit: 5479fcded2dfaf781fa54e046f4fce61e3a9ab7a
 workflow-type: tm+mt
 source-wordcount: '21715'
 ht-degree: 98%
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 # Glossaire de la terminologie [!DNL Adobe Workfront]
 
-<!--Audited: 12/2023-->
+<!--Audited: 04/2026-->
 
 4-30
 
@@ -40,7 +40,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
  </thead> 
  <tbody> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Access Level]</td> 
    <td>Profil d’utilisateur ou d’utilisatrice qui détermine comment cette personne peut interagir avec différents objets et outils dans Workfront.</td> 
   </tr> 
@@ -67,7 +67,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    -->
    </td>
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Actual Hours]</td> 
    <td> <p>Dans un rapport de projet, de tâche ou de problème, les [!UICONTROL Heures effectives] sont la somme de toutes les heures consignées sur le projet, la tâche ou le problème après mai 2021.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>si, dans l’onglet [!UICONTROL Updates] de la tâche 1, vous cliquez sur « Consigner des heures » et que vous saisissez 25 heures, les heures effectives de la tâche 1 = 25 heures. </p> <p>[!DNL Workfront] calcule les [!UICONTROL Actual Hours] pour les tâches ou les projets parents à l’aide des formules suivantes :</p> 
     <ul> 
@@ -86,7 +86,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Actual Revenue] </td> 
    <td> <p>[!UICONTROL Actual Revenue] d’un projet ou d’une tâche correspond au montant d’argent associé aux [!UICONTROL Actual Hours] du projet ou de la tâche. </p> <p>Pour plus d’informations sur le suivi des revenus dans [!DNL Workfront], voir <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Vue d’ensemble de la facturation et des revenus</a>. </p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Actual Start]</td> 
    <td>Date et heure auxquelles un utilisateur ou une utilisatrice modifie un objet en cours sur le travail qui lui est affecté.</td> 
   </tr> 
@@ -96,7 +96,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr>
   -->
   <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <tr> 
     <td>Additional Schedules</td> 
     <td>An additional preset to be used for a new user group.</td> 
    </tr>
@@ -105,11 +105,11 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>Méthodologie [!UICONTROL Agile]</td> 
    <td>Type de méthodologie basée sur l’évolution collaborative des besoins et des solutions avec des équipes interfonctionnelles. Il encourage la flexibilité et le changement selon une chronologie définie.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Agile Team]</td> 
    <td>Diffère d’une équipe traditionnelle, car elle récupère ses travaux futurs à partir d’une liste d’attente et travaille sur ceux-ci sur une période définie appelée [!UICONTROL Iteration].</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL All My Teams]</td> 
    <td> <p>Lorsqu’il est référencé dans les [!UICONTROL filters], ce champ affiche soit les utilisateurs et utilisatrices appartenant à l’une des équipes auxquelles appartient l’utilisateur ou utilisatrice connecté, soit les éléments de travail affectés à l’une des équipes auxquelles appartient l’utilisateur ou utilisatrice connecté. </p> <p>Il est recommandé d’utiliser ce champ dans un filtre afin de rendre les rapports plus génériques lors de leur partage avec d’autres utilisateurs et utilisatrices. Ainsi, vous pouvez créer un seul rapport qui affichera des informations différentes en fonction de la personne qui se connecte pour les afficher, car les informations sont toujours personnalisées pour l’utilisateur ou utilisatrice connecté. </p> </td> 
   </tr> 
@@ -118,31 +118,25 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td> <p>Vous trouverez ce champ dans les types de rapports suivants :</p> 
     <ul>
     <!--
-      <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates</li>
+      <li>Resource Estimates</li>
     --> 
      <li>[!UICONTROL Project] (données financières)</li> 
      <li>[!UICONTROL Budgeted Hour]</li> 
     </ul> <p>Pour un
     <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Resource Estimates or 
-      </MadCap:conditionalText>
+    Resource Estimates or     
      -->
      Rapport [!UICONTROL Project (Financial Data)] : </p>
     <ul> 
      <li>Générer ce rapport lorsque vous tentez de comprendre
      <!--
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-         how resources are budgeted for work, or 
-       </MadCap:conditionalText>
+     how resources are budgeted for work, or
      -->
-      la quantité d’[!UICONTROL Planned Hours] affectée à vos ressources.</li>
+     la quantité d’[!UICONTROL Planned Hours] affectée à vos ressources.</li>
      <li> <p>La [!UICONTROL Allocation Date] est le premier jour (dimanche) d’une semaine au cours duquel l’attribution d’une [!UICONTROL Job Role] à une tâche commence. Une ressource ([!UICONTROL Job Role]) peut comporter autant de [!UICONTROL Allocation Dates] que de semaines au cours de la [!UICONTROL Duration] des tâches auxquelles elle est affectée. Si les tâches s’étendent sur plusieurs mois, le premier jour d’un mois peut également devenir une [!UICONTROL Allocation Date], si elle tombe dans la [!UICONTROL Duration] de la tâche.</p> <p>Par exemple, vous pouvez avoir une [!UICONTROL Job Role] affectée à une tâche qui s’étend sur 3 semaines et qui comprend 90 [!UICONTROL Planned Hours]. Ces heures sont réparties uniformément pendant la durée de la tâche, ce qui fait que chaque jour attribue 6 [!UICONTROL Planned Hours] à votre fonction :</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours]/ Nombre [!UICONTROL Work Days] pendant la [!UICONTROL Duration] de la tâche </em> </p> <p>Par conséquent, il existe trois [!UICONTROL Allocation Dates], une pour chaque dimanche de chaque semaine pendant la [!UICONTROL Duration] de la tâche, chacune associée à un certain nombre d’[!UICONTROL Planned Hours].<br>Si la tâche commence au milieu de la dernière semaine d’un mois et se termine deux semaines après le début d’un nouveau mois, la tâche aura quatre [!UICONTROL Allocation Dates] : une pour chaque dimanche de chaque semaine pendant la [!UICONTROL Duration] de la tâche, et une pour le premier jour du nouveau mois.</p> <p>Pour tirer le meilleur parti de ces informations, nous vous recommandons de créer un
-       <!--
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          Resource Estimates or a 
-        </MadCap:conditionalText>
-       -->
+      <!--
+      Resource Estimates or a
+      -->
      Créez un rapport Projet (Données financières) et ajoutez un regroupement de matrices pour [!UICONTROL Allocation Date], puis regroupez les résultats de façon hebdomadaire, mensuelle, trimestrielle ou annuelle pour obtenir les données les plus précises.<br>Pour plus d’informations sur la création d’un regroupement par matrice, consultez l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Créer un rapport de matrice</a>.</p> </li>
     </ul> <p>Les informations financières sont renseignées dans les rapports [!UICONTROL Project (Financial Data)] uniquement lorsque les données qui y sont associées ont moins de 5 ans. Par exemple, si une fonction a été affectée à une tâche en janvier 2015 et qu’aujourd’hui nous sommes le septembre 2021, un champ financier comme la [!UICONTROL Allocation Date] de la fonction n’est pas renseignée dans le rapport [!UICONTROL Project (Financial Data)]. </p> 
     <div> 
@@ -256,19 +250,19 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Automatic Only]</td> 
    <td> <p>Un des types [!UICONTROL Project Update]. Les chronologies prévisionnelles et prévues sont de nouveau calculées lorsque le processus de recalcul nocturne s’exécute.</p> <p>Pour plus d’informations, consultez la section <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Sélectionner le type de mise à jour du projet</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL BAU]</td> 
    <td>Travail « business as usual » (BAU) qui contribue à la réalisation des principaux objectifs quotidiens de l’entreprise.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Backlog]</td> 
    <td>Zone dans un environnement Agile où de nouveaux problèmes sont conservés jusqu’à ce qu’ils soient prêts à être résolus.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Référence]</td> 
    <td>Source de données pour mesurer les itérations dans un environnement Agile.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Billable Expense]</td> 
    <td> <p>Dépense marquée comme facturable au client ou à la cliente. Il peut s’agir d’une dépense prévue ou d’une dépense effective.</p> <p>Les champs Coût prévu des dépenses facturables et Coût réel des dépenses facturables peuvent être ajoutés aux vues et aux rapports. Ils n’apparaissent pas sur les pages de détails du projet ou de la tâche.</p>
    <p>Vous trouverez ces champs dans les types de rapports suivants :</p>
@@ -280,7 +274,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <p>Pour plus d’informations sur le marquage d’une dépense comme facturable, voir <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Gérer les dépenses du projet</a>.</p>
    </td> 
   </tr>
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Billing Record]</td> 
    <td> <p>Enregistre les revenus, les heures ou les dépenses qui peuvent être facturés. Ces informations peuvent être utilisées pour créer des factures dans un système comptable externe.</p> <p>Pour plus d’informations, consultez la section <a href="../../../manage-work/projects/project-finances/create-billing-records.md">Créer des enregistrements de facturation</a>. </p> 
    </td> 
@@ -303,9 +297,9 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td> <p>Ce champ est obsolète. Toute information que ce champ peut afficher est liée à une fonctionnalité supprimée par [!DNL Workfront] et le champ ne peut pas être mis à jour. </p> <p>Ce champ indique si le projet a été ajouté au [!UICONTROL Capacity Planner] et si le calcul du budget est terminé. Le [!UICONTROL Capacity Planner] a été supprimé de [!DNL Workfront]. </p> 
     <!--
     <ul>
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  not added to the capacity planner, its value is <i>Not Included</i>.  </li>
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  added to the Capacity Planner but is excluded from the budget calculation,  the value is <i>Included but not Calculated</i>.  </li>
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is  added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
+    <li>If the project is  not added to the capacity planner, its value is <i>Not Included</i>.  </li>
+    <li>If the project is  added to the Capacity Planner but is excluded from the budget calculation,  the value is <i>Included but not Calculated</i>.  </li>
+    <li> If the project is  added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
     </ul>
     --> 
   </td> 
@@ -336,11 +330,11 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
     <p><code>[!UICONTROL Project Budgeted Cost] (or [!UICONTROL Budgeted Cost]) = [!UICONTROL Budgeted Expense Cost] + [!UICONTROL Budgeted Labor Cost] + [!UICONTROL Fixed Cost] of the project</code> </p> 
     <p>Pour plus d’informations sur le calcul du [!UICONTROL Budgeted Cost] et pour comprendre les différents noms de ce concept dans [!DNL Workfront], consultez la section <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculer le coût budgété du projet</a>. </p>
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Budgeted Hours]</td> 
    <td> <p>Heures budgétées pour le travail que les ressources doivent accomplir dans le cadre des projets. Ce champ fait référence aux heures budgétées dans la zone [!UICONTROL Resource Budgeting] du [!UICONTROL Business Case] (ou dans le [!UICONTROL Resource Planner]) pour le projet ou pour les ressources du projet.</p> <p>Pour plus d’informations, consultez la section <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Comprendre le [!UICONTROL Budgeted Labor Cost] et les [!UICONTROL Budgeted Hours] pour les projets</a>. </p> 
     <!-- 
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
+     <p>Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
   -->
     <p> Pour plus d’informations sur la budgétisation des utilisateurs et utilisatrices dans le [!DNL Resource Planner], voir l’article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgéter des ressources dans le [!DNL Resource Planner] à l’aide des vues [!UICONTROL Project] et [!UICONTROL Role]</a>. </p> 
@@ -385,27 +379,31 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
      </table> 
     <p>Toute autre mention des [!UICONTROL Budgeted Hours] dans [!DNL Adobe Workfront] fait référence aux heures budgétées à l’aide de fonctionnalités obsolètes qui ont été supprimées de Workfront. Il s’agit de champs en lecture seule qui ne sont pas mis à jour avec les informations actuelles lorsque vous utilisez les outils de budget des ressources actuelles. </p>
     <!--
-    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Hours from theResource Planner in the areas and reports listed below. </p>
-     <ul> 
-      <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Planner Hours view (in the BDG column)</li>
-      <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Utilization report Hours view</li>
-          <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Budgeting area of the Business Case (in the Hours field)</li>
-          <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li>
-          <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (in the Project: Budgeted Hours field) </li>
-        </ul>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The fields listed below display in the reports listed and are hours formerly budgeted in the  Capacity Planner or the Legacy Resource Estimates area of the Business Case.</p>
-         <p>Important: The Capacity Planner and Legacy  Resource Estimates have been removed from Workfront. You cannot update any information that might display in these fields.</p>
-        <ul>
-      <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Capacity Planner</li>
-          <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
-          <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (in the Bud. Hours field)</li>
-          <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Budgeted Hour report (in the Budgeted Hours field)</li>
-          <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Project report (in the Budgeted Hours field)</li>
-          <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Project (Financial  Data) report</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Task  report (in the Project: Budgeted Hours field)</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Issue report (in the Project: Budgeted Hours field)</li>
-      </ul>
-      -->
+    <p>You can locate the Budgeted Hours from theResource Planner in the areas and reports listed below. </p>
+    <ul> 
+    <li>Resource Planner Hours view (in the BDG column)</li>
+    <li>Utilization report Hours view</li>
+    <li>Resource Budgeting area of the Business Case (in the Hours field)</li>
+    <li>Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li>
+    <li>Resource Estimates report (in the Project: Budgeted Hours field) </li>
+    </ul>
+    -->
+    <!--
+    <p>The fields listed below display in the reports listed and are hours formerly budgeted in the  Capacity Planner or the Legacy Resource Estimates area of the Business Case.</p>
+    <p>Important: The Capacity Planner and Legacy  Resource Estimates have been removed from Workfront. You cannot update any information that might display in these fields.</p>
+  -->
+  <!--
+ <ul>
+  <li>Capacity Planner</li>
+  <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
+  <li>Resource Estimates report (in the Bud. Hours field)</li>
+  <li>Budgeted Hour report (in the Budgeted Hours field)</li>
+  <li>Project report (in the Budgeted Hours field)</li>
+  <li>Project (Financial  Data) report</li>
+  <li>Task  report (in the Project: Budgeted Hours field)</li>
+  <li>Issue report (in the Project: Budgeted Hours field)</li>
+  </ul>
+  -->
     </td> 
   </tr> 
   <tr> 
@@ -413,7 +411,8 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td> <p>Il s’agit du coût associé aux heures que vous, en tant que personne responsable des ressources, consacrez à vos fonctions pour le travail qu’elles doivent effectuer sur les projets. </p> <p>Le [!UICONTROL Budgeted Labor Cost] d’un rapport de projet est calculé à l’aide de la formule suivante :</p> <p><code style="font-style: normal;">[!UICONTROL Budgeted Labor Cost] = SUM([!UICONTROL Job Role Cost] per [!UICONTROL Hour] * [!UICONTROL Budgeted Hours] per [!UICONTROL Job Role])</code> </p> <p>Ce champ peut faire référence aux éléments suivants :</p> 
     <ul> 
      <li> <p>Coûts de la main-d’oeuvre affichés dans la zone [!UICONTROL Resource Budgeting] du [!UICONTROL Business Case] ou dans le [!UICONTROL Resource Planner] qui sont associés au coût des fonctions sur un projet. Pour plus d’informations sur le calcul du [!UICONTROL Budgeted Labor Cost], voir l’article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">[!UICONTROL Understand Budgeted Labor Cost] et les [!UICONTROL Budgeted Hours] pour les projets</a></p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Coûts de la main-d’oeuvre affichés dans la zone [!UICONTROL Resource Budgeting] du [!UICONTROL Business Case] qui reflètent les [!UICONTROL People Costs] estimés dans une initiative liée au projet à partir du [!DNL Scenario Planner] lorsque vous utilisez le planificateur de scénarios pour budgéter les ressources de votre projet. Pour plus d’informations sur les initiatives, voir <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Vue d’ensemble des initiatives dans le planificateur de scénarios</a>. </p> <p>Le [!DNL Scenario Planner] nécessite une licence supplémentaire. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], voir <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du [!DNL Scenario Planner]</a>. </p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Coûts de la main-d’oeuvre affichés dans la zone [!UICONTROL Resource Budgeting] du [!UICONTROL Business Case] qui reflètent les [!UICONTROL People Costs] estimés dans une initiative liée au projet à partir du [!DNL Scenario Planner] lorsque vous utilisez le planificateur de scénarios pour budgéter les ressources de votre projet. Pour plus d’informations sur les initiatives, voir <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Vue d’ensemble des initiatives dans le planificateur de scénarios</a>. </p> 
+     <p>Le [!DNL Scenario Planner] nécessite une licence supplémentaire. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], voir <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du [!DNL Scenario Planner]</a>. </p> </li> 
      <p>Il s’affiche dans les zones suivantes sous les noms suivants :</p>
    <ul>
    <li><strong>[!UICONTROL Budgeted Labor Cost]</strong> : dans la zone [!UICONTROL Resource Budgeting] du [!UICONTROL Business Case].
@@ -430,31 +429,32 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
     </ul>
     <p>Pour plus d’informations sur la création d’un rapport, voir l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Créer un rapport personnalisé</a>.</p>
     <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
-           <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-       </li> 
-    </ul> 
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in  Workfront: </p>
-        <ul> 
-      <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Planner Cost view (in the BDG column)</li>
-          <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Utilization report Cost view (in the Budgeted Cost column)</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Budgeting area of the Business Case </li>
-         </ul> 
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Labor Cost associated with resources budgeted in the Resource Planner in the Resource Planner Resource Budgeted Cost field in the following reports: </p>
-       <ul> 
-      <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Budgeted Hour report </li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Project report</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Task  report</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Issue report</li>
-         </ul> 
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate a Budgeted Labor Cost field that contains information from a tool that has been deprecated in the reports listed below. You can no longer update the fields displayed in these reports and budgeting your resources on the projects does not update them: </p>
-        <ul> 
-      <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Budgeted Hour report </li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Project report</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Task  report</li>
-           <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Issue report</li>
-         </ul>      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>  .  </p>
+    <p>Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
+    <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
+    -->
+    <!--
+     <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in  Workfront: </p>
+     <ul> 
+     <li>Resource Planner Cost view (in the BDG column)</li>
+     <li>Utilization report Cost view (in the Budgeted Cost column)</li>
+     <li>Resource Budgeting area of the Business Case </li>
+     </ul> 
+     <p>You can locate the Budgeted Labor Cost associated with resources budgeted in the Resource Planner in the Resource Planner Resource Budgeted Cost field in the following reports: </p>
+     <ul> 
+     <li>Budgeted Hour report </li>
+     <li>Project report</li>
+     <li>Task  report</li>
+     <li>Issue report</li>
+     </ul> 
+     <p>You can locate a Budgeted Labor Cost field that contains information from a tool that has been deprecated in the reports listed below. You can no longer update the fields displayed in these reports and budgeting your resources on the projects does not update them: </p>
+     <ul> 
+     <li>Resource Estimates report</li>
+     <li>Budgeted Hour report </li>
+     <li>Project report</li>
+     <li>Task  report</li>
+     <li>Issue report</li>
+     </ul>
+     <p>For more information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p>
     --> 
     </td> 
    </tr> 
@@ -463,20 +463,20 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   <td> <p>Ce champ est obsolète. Toute information que ce champ peut afficher est liée à une fonctionnalité supprimée par [!DNL Workfront]. Ce champ ne peut pas être mis à jour.</p>
   <p>Ces zones ont été supprimées de [!DNL Workfront]. </p> 
   <p>Ce champ est toujours visible dans les listes et rapports de [!UICONTROL projet].</p>
-   <!--
-   <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
-   -->   
+  <!--
+  <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
+  -->   
    </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Burndown Chart]</td> 
    <td>Graphique en courbes qui fournit une représentation visuelle des tâches terminées et restantes.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Business Case]</td> 
    <td> <p>Outil utilisé pour évaluer si un projet doit être transféré du statut [!UICONTROL Idea] vers le statut [!UICONTROL Planning]. En d’autres termes, un [!UICONTROL business case] permet à l’organisation de décider s’il est utile de lancer et de terminer le projet ou non, en particulier lors de la comparaison de projets avec d’autres dans un portfolio.</p> <p>Pour plus d’informations, voir <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Créer un [!UICONTROL Business Case] pour un projet</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Business Case Budgeted Hours]</td> 
    <td> <p>Ce champ est obsolète. Toute information que ce champ peut afficher est liée à une fonctionnalité supprimée par [!DNL Workfront]. Ce champ ne peut pas être mis à jour.</p> <p>Ce champ est toujours visible dans les listes et rapports de [!UICONTROL task] et de projet. </td> 
   </tr> 
@@ -496,24 +496,16 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
-   <td> <p>Ce champ indique si une tâche est prête à être démarrée. Lorsque la tâche peut être commencée, le champ[!UICONTROL Can Start] de la tâche est défini sur [!UICONTROL True]. </p> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">Vue d’ensemble de « [!UICONTROL Can Start] » pour les tâches</a>.</p> 
-   <!--
-     <p>(NOTE: everything below is drafted because I created a new article linked above with all this information - it was getting kind of too big for just a table cell)</p>
-     <p>Workfront checks for the following things before it marks a task as True for the Can Start field:<br></p>
-     <ul> 
-      <li> If the task has a parent, it checks to see if the value of Can Start for the parent it set to True. If the value for the parent is False, then all the subtasks have the value of Can Start set to False, as well.  </li> 
-      <li> It also checks to see if the predecessors of the task as well as the predecessors of their parents are complete. If they are complete, the Can Start value for the task is set to True. If any of the task predecessors or their parents' predecessors are not complete, or have a status of Complete-Pending Approval, then the Can Start value for the task is set to False.  </li> 
-     </ul>
-     <p>For information about task predecessors, see <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</p>
-     <p>Tip: If the Dependency Type between a task and its predecessors is Start-Start, the predecessor must start before the predecessor relationship is considered resolved and the successor tasks can start. For information about dependency types, see <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Overview of task dependency types</a>. </p>
-   -->
-  </td>
+   <td> <p>Ce champ indique si une tâche est prête à être démarrée. Lorsque la tâche peut être commencée, le champ[!UICONTROL Can Start] de la tâche est défini sur [!UICONTROL True]. </p> <p>Pour plus d’informations, voir <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">Vue d’ensemble de « [!UICONTROL Can Start] » pour les tâches</a>.</p>
+
+
+</td>
   </tr>
   <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Capacity</td> 
-    <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
-   </tr>
+  <tr> 
+  <td>Capacity</td> 
+  <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
+  </tr>
   --> 
   <tr> 
    <td> <p>Capacité</p> </td> 
@@ -550,11 +542,11 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
      <li>[!UICONTROL Iteration]</li> 
     </ul> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Change Management]</td> 
    <td>Un domaine de pratique axé sur la définition, la compréhension et l’adaptation des travaux prévus aux changements des facteurs de portée, de calendrier, de coût et de ressources.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Change Order]</td> 
    <td>Type de problème soulevé dans un projet, décrivant un changement demandé de la portée convenue.</td> 
   </tr> 
@@ -705,7 +697,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Converted Issue Originator]</td> 
    <td>Champ d’un rapport sur les projets ou sur les tâches qui affiche des informations sur l’utilisateur ou sur l’utilisatrice qui est le [!UICONTROL Primary Contact] d’un problème lorsque le problème est converti en projet ou en tâche. Ce champ s’affiche également dans la section [!UICONTROL Project Details] où il indique le nom du [!UICONTROL Primary Contact] du problème converti. Consultez aussi dans cet article la section « [!UICONTROL Primary Contact] ».</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Cost]</td> 
    <td> <p>Le montant à dépenser pour la réalisation d’un projet, d’une tâche ou d’un problème. </p> <p>Vous pouvez suivre différents types de coûts liés à la main-d’œuvre, aux dépenses, aux risques liés au projet.Pour plus d’informations sur le suivi des coûts dans [!DNL Workfront], voir <a href="../../../manage-work/projects/project-finances/track-costs.md">Suivi des coûts</a>.</p> 
    </td> 
@@ -730,7 +722,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Cross-Project Dependencies]</td> 
    <td> <p>Une tâche d’un projet dépend d’une tâche d’un autre projet.</p> <p>Pour plus d’informations, consultez la section <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Créer des projets transversaux antérieurs</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Custom Data]</td> 
    <td> <p>Données propres à une organisation. Les organisations peuvent personnaliser l’application [!DNL Workfront] en créant des formulaires et des champs personnalisés. Ces informations personnalisées peuvent servir à établir des rapports sur les KPI, les audits et la composition de la requête. </p> <p>Les [!UICONTROL Custom Data] peuvent être liées à :</p> 
     <ul> 
@@ -1000,9 +992,9 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
 </table>
 
 <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
-     FTE
-     The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
+<p>Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
+FTE
+The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
 -->
 
 ## G - I
@@ -1021,7 +1013,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Gantt Chart]</td> 
    <td> <p>Chronologie visuelle des dates du projet dans une vue Calendrier basée sur les dates prévues ou prévisionnelles au fur et à mesure que les tâches du projet sont planifiées.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Goal]</td> 
    <td><p>Il existe deux concepts liés aux objectifs dans [!DNL Workfront] : </p> 
     <ul> 
@@ -1031,12 +1023,12 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
      <p>Vous pouvez afficher les objectifs stratégiques dans un rapport d’objectif ou de projet et y accéder via l’API. </p> </li> 
     </ul> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Goal Hierarchy]</td> 
    <td> <p>Dans les rapports d’[!UICONTROL Goal] et de [!UICONTROL Project], il s’agit d’un champ de collection qui affiche les objectifs dans la hiérarchie à laquelle un objectif stratégique appartient lorsqu’il s’aligne sur d’autres objectifs. Les objectifs sont séparés par un délimiteur ▸. </p> <p>Seuls les parents de l’objectif et l’objectif s’affichent dans ce champ. Les objectifs enfants ne s’affichent pas. </p> <p>Pour plus d’informations sur l’alignement des objectifs dans [!DNL Workfront Goals], voir <a href="../../../workfront-goals/goal-alignment/goal-alignment-overview.md">Vue d’ensemble de l’alignement des objectifs dans les [!DNL Workfront Goals]</a>. </p> 
    <p>Ce champ n’est visible que si votre entreprise a acheté [!DNL Workfront Goals]. Pour plus d’informations sur la gestion des objectifs stratégiques à l’aide des [!DNL Workfront Goals], voir Vue d’ensemble des <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals]</a>. </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Goal Success Score]</td> 
    <td> Dans un rapport de [!UICONTROL Project], ce champ est utilisé pour faire référence aux objectifs au niveau du projet associés au [!UICONTROL Business Case]. Actuellement, il s’agit d’un champ obsolète qui n’est associé à aucune fonctionnalité.</td> 
   </tr> 
@@ -1112,15 +1104,15 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Inherited Access]</td> 
    <td>Fonction de partage qui accorde l’accès permettant de propager un objet à un autre. Par exemple, l’accès hérité de l’utilisateur ou de l’utilisatrice du projet défini dans les enregistrements de programme et de portfolio.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Initiative]</td> 
    <td> <p>Dans le [!DNL Workfront Scenario Planner], vous pouvez diviser un plan en plusieurs initiatives pour faciliter la gestion du plan. <span>Vous pouvez créer un rapport d’[!UICONTROL Initiative] et accéder aux informations d’[!UICONTROL Initiative] dans un rapport de [!UICONTROL Project].</span></p> <p>Le [!DNL Scenario Planner] nécessite une licence supplémentaire. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], voir <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du [!DNL Scenario Planner]</a>. </p> <p>Le rapport d’[!DNL Initiative] n’est pas visible dans votre instance [!DNL Workfront] à moins que votre entreprise n’ait acheté une licence [!DNL Workfront Scenario Planner]. Vous ne pouvez pas accéder aux [!UICONTROL Initiatives] par le biais de l’API.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td><span>[!UICONTROL Initiative Job Role]</span> </td> 
    <td> <p><span>Le type de rapport [!UICONTROL Initiative Job Role] affiche des informations sur les fonctions associées à une initiative de plan dans le [!DNL Workfront Scenario Planner].</span> </p> <p>Le [!DNL Scenario Planner] nécessite une licence supplémentaire. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], voir <a href="../../../scenario-planner/scenario-planner-overview.md">Vue d’ensemble du [!DNL Scenario Planner]</a>. </p> <p><span>Ce type de rapport n’est pas visible dans votre instance [!DNL Workfront] à moins que votre société n’ait acheté une licence [!DNL Workfront Scenario Planner].</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td><span>[!UICONTROL Initiative Job Role Hours]</span> </td> 
    <td> <p><span> Dans un rapport [!UICONTROL Initiative Job Role], ce champ indique le nombre d’heures associées à une fonction dans une initiative.</span> </p> <p>Le [!DNL Scenario Planner] nécessite une licence supplémentaire. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], voir <a href="../../../scenario-planner/scenario-planner-overview.md">Vue d’ensemble du [!DNL Scenario Planner]</a>. </p> <p>Ce champ et le type de rapport [!UICONTROL Initiative Job Role] ne sont pas visibles dans votre instance [!DNL Workfront] à moins que votre société n’ait acheté une licence [!DNL Workfront Scenario Planner].</p> </td> 
   </tr> 
@@ -1140,7 +1132,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Interface Setup]</td> 
    <td>Zone de l’application qui permet de définir des vues personnalisées, des filtres, des regroupements, des contrôles de liste, etc.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>[!UICONTROL Is Company Goal]</p></td> 
    <td> <p>Dans [!DNL goal reports], ce champ affiche une valeur « [!UICONTROL True]/ [!UICONTROL False] » pour chaque objectif stratégique afin d’indiquer si votre organisation est affectée à l’objectif en tant que propriétaire. </p> 
    <p>Ce champ n’est visible que si votre entreprise a acheté [!DNL Workfront Goals]. Pour plus d’informations sur la gestion des objectifs stratégiques à l’aide des [!DNL Workfront Goals], voir Vue d’ensemble des <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals]</a>.</p>
@@ -1180,7 +1172,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Job Role]</td> 
    <td> <p>Utilisé pour identifier les fonctions et responsabilités quotidiennes d’un utilisateur ou d’une utilisatrice. Les fonctions peuvent être affectées à des éléments de travail afin d’identifier la compétence requise pour terminer un processus de travail sans l’affecter à un utilisateur ou à une utilisatrice spécifique. </p> <p>Un utilisateur ou une utilisatrice peut avoir plusieurs rôles. Par exemple, graphiste ou consultant/consultante.</p> <p>Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>[!UICONTROL Journal Entry]</p> </td> 
    <td> <p>Un objet pouvant faire l’objet d’un rapport qui vous donne des informations sur les mises à jour du système pour les champs suivis qui apparaissent dans la zone des [!UICONTROL Updates] des projets, des tâches, des problèmes et d’autres objets.</p> <p>Pour en savoir plus, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Rapport sur la zone Mises à jour avec un rapport Entrée du journal</a>.</p> </td> 
   </tr> 
@@ -1245,35 +1237,36 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   <tr> 
    <td>[!UICONTROL Layout Type]</td> 
    <td>En association avec [!UICONTROL Custom Views], le [!UICONTROL Layout Type] spécifie le type de [!UICONTROL Custom View]. Actuellement, seul le type Liste est disponible. [!UICONTROL Detail] (la vue [!UICONTROL Detail] d’un objet) sera prochainement disponible.</td> 
-  </tr> 
-  <!--
-  <tr data-mc-conditions=""> 
-   <td>Legacy Budgeted Cost</td> 
-   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Cost</i>. </p> </td> 
   </tr>
-  <tr data-mc-conditions=""> 
-   <td>Legacy Budgeted Hours</td> 
-   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Hours</i>. </p> <p>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. 
-       <br>If there  are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.   
-     </p> </td> </tr>
-  <tr data-mc-conditions=""> 
-   <td>Legacy Budgeted Labor Cost</td> 
-   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <p>The field is still visible in some reports and lists. </p> <p>See <i>Budgeted Labor Cost</i>. </p> 
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.  </p>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code style="font-style: normal;">Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role)</code> </p>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about calculating Legacy Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>    </p>
-    <td>Legacy Resource Pool</td> 
-   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> 
-   <p>Although not recommended, you may update the information in this report using the API.</p> 
-   <p>See <i>Resource Pools</i> for updated fields. </p> 
-   <p>The Legacy Resource Pool is a collection  of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
+
+<!--
+  <tr> 
+  <td>Legacy Budgeted Cost</td> 
+  <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Cost</i>. </p> </td> 
+  </tr>
+  <tr> 
+  <td>Legacy Budgeted Hours</td> 
+  <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Hours</i>. </p> <p>
+      
+  This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. 
+  <br>If there  are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.   
+  </p> </td> </tr>
+  <tr> 
+  <td>Legacy Budgeted Labor Cost</td> 
+  <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> <p>The field is still visible in some reports and lists. </p> <p>See <i>Budgeted Labor Cost</i>. </p> 
+  <p>In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.  </p>
+  <p>The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p>
+  <p><code style="font-style: normal;">Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role)</code> </p>
+  <p>For more information about calculating Legacy Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>    </p>
+  <td>Legacy Resource Pool</td> 
+  <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated. </p> 
+  <p>Although not recommended, you may update the information in this report using the API.</p> 
+  <p>See <i>Resource Pools</i> for updated fields. </p> 
+  <p>The Legacy Resource Pool is a collection  of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
   -->
-  </td>
+</td>
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Heures effectives héritées]</td> 
    <td> <p>Dans un rapport de projet, de tâche ou de problème, les [!UICONTROL Heures effectives héritées] sont la somme de toutes les heures consignées sur le projet, la tâche ou le problème avant mai 2021.</p>  
    <p>Les heures effectives héritées s’affichent sous la forme d’heures effectives dans une zone de détails de projet, de tâche ou d’événement. </p>
@@ -1347,15 +1340,15 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Milestone Task]</td> 
    <td>Tâche marquée pour indiquer un événement à mesurer.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Module]</td> 
    <td>Étape unique d’un scénario dans [!DNL Workfront Fusion] qui exécute une fonction d’après l’application associée.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL My Primary Role]</td> 
    <td> <p>Lorsqu’il est référencé dans les filtres, ce champ affiche soit les utilisateurs et les utilisatrices qui ont le même [!UICONTROL Primary Role] que les personnes connectées, soit les éléments de travail affectés au [!UICONTROL Primary Role] des personnes connectées qui l’utilisent.</p> <p>Il est recommandé d’utiliser ce champ dans un filtre afin de rendre les rapports plus génériques lors de leur partage avec d’autres utilisateurs et utilisatrices. Ainsi, vous pouvez créer un seul rapport qui affichera des informations différentes en fonction de la personne qui se connecte pour les afficher, car les informations sont toujours personnalisées pour l’utilisateur ou utilisatrice connecté. </p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL My Home Team]</td> 
    <td> <p>Lorsqu’il est référencé dans les filtres, ce champ affiche soit les utilisateurs et les utilisatrices qui ont la même [!UICONTROL Home Team] que les personnes connectées, soit les éléments de travail affectés à l’[!UICONTROL Home Team] des personnes connectées. </p> <p>Il est recommandé d’utiliser ce champ dans un filtre afin de rendre les rapports plus génériques lors de leur partage avec d’autres utilisateurs et utilisatrices. Ainsi, vous pouvez créer un seul rapport qui affichera des informations différentes en fonction de la personne qui se connecte pour les afficher, car les informations sont toujours personnalisées pour l’utilisateur ou utilisatrice connecté. </p> </td> 
   </tr> 
@@ -1377,7 +1370,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>Dans un rapport [!UICONTROL Journal Entry], cette option affiche la valeur mise à jour d’un champ qui remplace l’[!UICONTROL Old Number Value].
    Pour plus d’informations, voir « [!UICONTROL Old Number Value] » dans cet article.</td> 
   </tr>
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Non-Billable Expense]</td> 
    <td> <p>Dépense non marquée comme facturable au client ou à la cliente. Il peut s’agir d’une dépense prévue ou d’une dépense effective.</p> <p>Les champs Coût prévu des dépenses non facturables et Coût réel des dépenses non facturables peuvent être ajoutés aux vues et aux rapports. Ils n’apparaissent pas sur les pages de détails du projet ou de la tâche.</p>
    <p>Vous trouverez ces champs dans les types de rapports suivants :</p>
@@ -1401,7 +1394,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Note Text]</td> 
    <td> <p>Cette option affiche le texte d’une mise à jour saisie par un utilisateur ou par une utilisatrice sur n’importe quel objet. </p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Number of Linked Goals]</td> 
    <td> <p>Dans un rapport de [!UICONTROL Project], il s’agit du nombre d’objectifs stratégiques associés au projet. Pour plus d’informations sur l’association de projets à des objectifs stratégiques, consultez la section <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Ajouter des projets aux objectifs dans [!DNL Adobe Workfront Goals]</a>.</p> 
    <p>Pour plus d’informations sur les objectifs stratégiques, consultez aussi dans cet article la section « [!UICONTROL Goal] ».</p> 
@@ -1462,17 +1455,17 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[!UICONTROL User] qui affiche et permet de définir les relations de l’[!UICONTROL Company] et du [!UICONTROL Reporting] de l’[!UICONTROL User].</td> 
+   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[UICONTROL User] qui affiche et permet de définir les relations de l’[UICONTROL Company] et du [UICONTROL Reporting] de l’[UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 
    <td>Ce champ définit les [!UICONTROL Companies], [!UICONTROL Groups], et [!UICONTROL Security Profiles] pour votre organisation.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Other Groups]</td> 
    <td> <p>Dans un rapport ou une vue qui répertorie les utilisateurs et les utilisatrices, ce champ affiche tous les groupes dont chaque utilisateur ou chaque utilisatrice est membre. </p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td><span>[!UICONTROL Override Currency]</span> </td> 
    <td> 
     <div> 
@@ -1480,7 +1473,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
      <p>Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.</p> 
     </div> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td><span>[!UICONTROL Override Currency Billing/ Hour]</span> </td> 
    <td> 
     <div> 
@@ -1488,7 +1481,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
      <p> Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.</p> 
     </div> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td><span>[!UICONTROL Override Currency Cost/ Hour]</span> </td> 
    <td> 
     <div> 
@@ -1500,7 +1493,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Owner]</td> 
    <td>L’utilisateur ou l’utilisatrice responsable de l’achèvement de l’objet désigné.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td><span>[!UICONTROL Owner Type]</span> </td> 
    <td> 
     <div> 
@@ -1662,7 +1655,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <p>[!DNL Workfront] calcule les [!UICONTROL Planned Revenue] pour les tâches et les projets à l’aide des formules suivantes :</p> 
    <p><code>Task [!UICONTROL Planned Revenue] = [!UICONTROL Planned Hours] * Billing hourly rate</code> </p> <p><code>Project [!UICONTROL Planned Revenue] = SUM (All tasks [!UICONTROL Planned Revenue]) + [!UICONTROL Fixed Revenue]</code> </p> 
    <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
+     <p>(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
     --> 
     <p>Les [!UICONTROL Planned Revenue] du projet qui s’affichent dans la zone [!UICONTROL Project Details] et dans les rapports du projet diffèrent des revenus prévus qui s’affichent dans le rapport [!UICONTROL Utilization]. </p> <p>Les [!UICONTROL Planned Revenue] dans la zone [!UICONTROL Project Details] reflètent les revenus de la tâche ainsi que les revenus fixes du projet. Les [!UICONTROL Planned Revenue] du [!UICONTROL Utilization Report] affiche les [!UICONTROL Planned Revenue] associés uniquement aux tâches du projet. </p> 
      <p><b>EXEMPLE</b></p>  
@@ -1704,7 +1697,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Portfolio Owner]</td> 
    <td>Parties prenantes responsables de la définition des priorités et du budget d’un portfolio.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Potential Risk Cost]</td> 
    <td>Il s’agit d’un champ de projet que vous pouvez trouver dans les listes et les rapports. Il indique le coût potentiel des risques associés au projet, s’ils se produisent. Pour plus d’informations, voir <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calculer le coût potentiel des risques</a>. </td> 
   </tr> 
@@ -1747,7 +1740,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Program Owner]</td> 
    <td>Les parties prenantes responsables de la supervision et de l’organisation des activités pour s’assurer que les objectifs du projet sont alignés sur ceux de l’entreprise.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td><span>[!UICONTROL Progress]</span> </td> 
    <td> <p>Dans un rapport d’[!UICONTROL Goal], ce champ affiche le pourcentage de réalisation d’un objectif stratégique. Le pourcentage de progression s’affiche sous la forme d’un nombre. Pour plus d’informations sur les objectifs stratégiques, consultez aussi dans ce tableau « [!UICONTROL Goal] ».</p> <p>Ce champ n’est visible que si votre entreprise a acheté les Objectifs [!DNL Workfront]. Pour plus d’informations sur la gestion des objectifs stratégiques à l’aide de [!DNL Workfront Goals], consultez la section <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Ajouter des projets aux objectifs dans [!DNL Adobe Workfront Goals] </a>. </p> </td> 
   </tr> 
@@ -1920,7 +1913,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Request Queue]</td> 
    <td>Liste d’attente des problèmes gérés par un processus de trafic et de triage.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Request velocity]</td> 
    <td>Durée totale du cycle de travail pour la prise en charge et la réalisation d’une demande.</td> 
   </tr> 
@@ -1949,7 +1942,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>Utilisateurs et utilisatrices ou rôles existant dans [!DNL Workfront] et qui sont affectés aux équipes de projet, aux tâches et aux problèmes. Ils sont chargés de terminer le travail associé aux projets, tâches ou problèmes. </td> 
   </tr>
   <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <tr> 
     <td>Resource Estimates</td> 
     <td>This report captures information about an area in  Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about how you estimate resources for projects, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>. </td> 
    </tr>
@@ -1996,7 +1989,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Result]</td> 
    <td>Dans [!DNL Workfront Goals], un résultat est un indicateur de progression pour un objectif. Il peut s’agir d’un nombre, d’une valeur de pourcentage ou d’un montant monétaire que vous mettez à jour manuellement. Vous ne pouvez pas afficher les résultats dans un rapport et vous ne pouvez pas y accéder via l’API [!DNL Workfront]. Pour plus d’informations sur les activités, voir <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Prise en main des résultats et des activités dans les Objectifs Adobe Workfront</a>.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Revenue]</td> 
    <td>Montant facturable pour la tâche ou le projet. Le montant peut être horaire, fixe ou une combinaison des deux.</td> 
   </tr> 
@@ -2008,7 +2001,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL Reviewer]</td> 
    <td>Généralement, un type de licence. Une personne disposant d’une licence [!UICONTROL Reviewer] peut passer en revue et approuver des éléments de travail dans le système.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Risk]</td> 
    <td> <p>Cela peut faire référence aux concepts suivants dans la section [!DNL Workfront] :</p> 
     <ul> 
@@ -2016,7 +2009,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
      <li> <p>Événement qui peut se produire pendant la durée d’un projet et qui identifie un impact potentiel sur le coût, la portée ou le planning du projet. Vous définissez les risques potentiels pour un projet et associez une probabilité qu’ils se produisent ou un coût au moment de la création du business case du projet. Pour plus d’informations sur l’ajout de risques au business case du projet, voir « Créer et modifier des risques sur les projets ». </p> <p>Vous ne pouvez pas afficher les risques définis dans le [!UICONTROL Business Case] dans les rapports. Vous ne pouvez afficher que plusieurs types de coûts de risque dans les rapports et les listes. </p> </li> 
     </ul> </td>
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Risk Cost]</td> 
    <td> <p>Coût associé aux risques sur un projet. Vous trouverez ci-dessous les coûts de risque associés aux projets que vous pouvez afficher dans les rapports :</p> 
     <ul> 
@@ -2025,7 +2018,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
      <li> <p>[!UICONTROL Remaining Risk Cost] : champ d’un projet qui affiche la différence entre le total des [!UICONTROL Actual Costs] de tous les risques et le [!UICONTROL Planned Risk Cost]. Voir aussi « Coût restant des risques » dans cet article. </p> </li>
     </ul> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td>[!UICONTROL Risk Management]</td> 
    <td>Processus permettant d’identifier, d’atténuer et de surveiller les risques.</td> 
   </tr> 
@@ -2379,7 +2372,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>[!UICONTROL User]</td> 
    <td>Compte créé dans [!DNL Workfront] pour permettre à une personne de se connecter et d’interagir avec le système.</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>[!UICONTROL User Delegation]</p> </td> 
    <td> <p>Objet pouvant faire l’objet d’un rapport qui vous indique ce qui suit :</p> 
     <ul> 

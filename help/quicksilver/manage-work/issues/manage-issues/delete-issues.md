@@ -6,9 +6,9 @@ description: Vous pouvez supprimer des problèmes ou des demandes dans Adobe Wor
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '759'
 ht-degree: 67%
 
 ---
@@ -34,12 +34,12 @@ Les administrateurs et administratrices de Workfront peuvent restaurer les probl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure</p>
+   <td> <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p>
  </td> 
   </tr> 
@@ -90,9 +90,9 @@ Selon la manière dont votre équipe d’administration Workfront ou de groupes 
   Cela s’applique également lorsque vous essayez de supprimer des projets dans lesquels se trouvent des tâches avec des heures consignées.
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
+   
   -->
 
   Pour plus d’informations sur la configuration des préférences de suppression pour les heures consignées sur les problèmes, voir [Configurer les préférences de feuille de temps et d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

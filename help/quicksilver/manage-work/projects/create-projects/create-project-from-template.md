@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 82%
+source-wordcount: '1388'
+ht-degree: 66%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 82%
 
 <!-- Audited: 10/2025 -->
 
-Vous pouvez utiliser des modèles comme cadre pour créer des projets dans Adobe Workfront. Si certains de vos projets se répètent fréquemment, vous pouvez utiliser des modèles pour la chronologie générale du nouveau projet pour éviter de créer le même projet à nouveau.
+Vous pouvez utiliser des modèles en tant que cadre pour créer des projets dans Adobe Workfront. Si certains de vos projets se répètent fréquemment, vous pouvez utiliser des modèles pour la chronologie générale du nouveau projet pour éviter de créer le même projet à nouveau.
 
 Les modèles vous permettent de capturer des processus, des informations et des paramètres reproductibles associés à vos projets. Les informations associées à un modèle sont transférées vers le projet. Cela inclut les tâches, les affectations, les durées, les documents, les détails financiers, les risques et les formulaires personnalisés.
 
@@ -124,7 +124,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, ou sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, si disponible, puis cliquez sur **Projets** et développez **Nouveau projet**.
+   * Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Projets** et développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
 
      >[!TIP]
@@ -137,7 +137,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
      >
      >Lorsque vous créez un projet à l’aide d’un modèle issu d’un programme, le champ Programme des nouveaux projets est mis à jour afin d’afficher le programme à partir duquel vous avez créé le projet. Le champ Portfolio du modèle se met à jour pour afficher le portfolio du programme à partir duquel vous avez créé le projet. Cela remplace les champs Programme et Portfolio du modèle, s’ils sont spécifiés.
 
-   * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier les projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier des projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
      >[!TIP]
      >
@@ -153,15 +153,34 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 
    ![Sélection d’un modèle favori](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   Ou
-
-   Procédez comme suit :
+   Ou procédez comme suit :
 
    1. Cliquez sur **Nouveau projet à partir d’un modèle**.
-   1. Dans le champ **Modèles de recherche**, commencez à saisir le nom d’un modèle et cliquez dessus lorsqu’il s’affiche dans la liste.
-   1. Examinez les détails du modèle sur la droite.
+   1. (Facultatif) Dans le champ **Modèles de recherche**, commencez à saisir le nom d’un modèle et cliquez dessus lorsqu’il s’affiche dans la liste.
+   1. Cliquez sur le nom de l’un des types de modèles suivants pour le sélectionner :
 
-      Les détails du modèle sont les suivants :
+      * Un modèle de stockage Workfront
+
+        Les modèles de stockage Workfront affichent une icône de stockage hérité ![icône de stockage hérité](assets/legacy-storage-project-icon.png) en regard de leur nom.
+
+        Les documents sur le modèle et sur les futurs projets seront stockés dans le stockage Workfront.
+      * Un modèle de stockage Adobe
+
+        Les documents sur le modèle et sur les projets futurs seront stockés dans le stockage d’entreprise d’Adobe.
+
+      >[!NOTE]
+      >
+      >* L’utilisation d’un modèle de stockage d’entreprise Adobe crée un projet de stockage d’entreprise Adobe.
+      >
+      >* L’utilisation d’un modèle de stockage Workfront crée un projet de stockage Workfront.
+      >
+      >* Lorsque vous utilisez un modèle de stockage d’entreprise Adobe à partir d’un portfolio ou d’un programme de stockage Workfront, le projet est un projet de stockage d’entreprise Adobe et le portfolio ou le programme est également converti en objets de stockage d’entreprise Adobe. Tous les autres projets de stockage Workfront relevant du même portefeuille ou programme restent inchangés.
+      >
+      > Tous les clients ne disposent pas des deux types de stockage de documents.
+      >
+      >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+   1. Consultez les détails du modèle suivant sur la droite :
 
       * Durée du modèle
       * Propriétaire du modèle
@@ -207,9 +226,17 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 
    Tous les détails définis dans le modèle sont associés automatiquement au nouveau projet si vous ne les avez pas modifiés à l’étape précédente.
 
+   Un dossier de documents portant le même nom que le projet est automatiquement créé pour les projets de stockage Adobe dans la section Documents du projet.
+
 ## Créer un projet à partir d’un modèle dans la zone Modèles
 
 Au lieu de commencer dans la zone Projets, vous pouvez créer un projet à partir d’un modèle.
+
+>[!NOTE]
+>
+>Les modèles associés au stockage de documents Workfront créent des projets de stockage Workfront hérités. Les modèles associés au stockage de documents d’entreprise Adobe créent des projets de stockage Adobe. Tous les clients ne disposent pas des deux types de stockage.
+>
+>Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-templates}}
 
@@ -226,10 +253,12 @@ Au lieu de commencer dans la zone Projets, vous pouvez créer un projet à parti
 
    ![Boîte de dialogue Nouveau projet](assets/new-project-from-template-box.png)
 
-   Si un champ est déjà rempli dans le modèle, il sera pré-rempli dans la boîte de dialogue **Nouveau projet**. Vous pouvez modifier les valeurs préremplies pour mieux les faire correspondre à votre projet.
+   Si un champ est déjà rempli dans le modèle, il sera pré-rempli dans la boîte de dialogue **Nouveau projet**. Vous pouvez modifier les valeurs pré-remplies pour qu’elles correspondent mieux à votre projet.
 
    Pour plus d’informations, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Cliquez sur **Créer un projet**.
 
    Tous les détails définis dans le modèle sont associés automatiquement au nouveau projet si vous ne les avez pas modifiés à l’étape précédente.
+
+   Un dossier de documents portant le même nom que le projet est automatiquement créé pour les projets de stockage Adobe dans la section Documents du projet.

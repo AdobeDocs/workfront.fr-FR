@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1556'
 ht-degree: 80%
 
 ---
@@ -28,7 +28,6 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 Vous pouvez déléguer temporairement le travail qui vous est confié pendant que vous n’êtes pas au bureau.
 
-
 Vous pouvez déléguer l’affectation des tâches et des problèmes, ou déléguer les approbations. Cet article décrit comment déléguer des attributions de tâches et de problèmes.
 
 Pour des informations générales sur la délégation du travail, voir [Vue d’ensemble de la délégation du travail](../../manage-work/delegate-work/delegate-work-overview.md).
@@ -43,7 +42,7 @@ Pour des informations générales sur la délégation du travail, voir [Vue d’
 >* Les autorisations doivent être compatibles avec leurs niveaux d’accès, qui peuvent parfois être inférieurs aux vôtres.
 >
 >   
->   Par exemple, si un utilisateur ou une utilisatrice n’a qu’un accès en affichage aux tâches de son niveau d’accès et que vous avez des autorisations en gestion sur les tâches que vous lui déléguez, des autorisations de gestion lui sont accordées pour les tâches que vous lui déléguez. Cependant, elle ne pourra pas effectuer les mêmes actions que vous sur les tâches déléguées.Pour pouvoir mettre à jour les tâches en votre absence, l’administrateur ou administratrice système doit leur accorder l’accès en modification pour les tâches.
+>   Par exemple, si un utilisateur ou une utilisatrice n’a qu’un accès en affichage aux tâches de son niveau d’accès et que vous avez des autorisations en gestion sur les tâches que vous lui déléguez, des autorisations de gestion lui sont accordées pour les tâches que vous lui déléguez. Cependant, elle ne pourra pas effectuer les mêmes actions que vous sur les tâches déléguées. Pour pouvoir mettre à jour les tâches en votre absence, l’administrateur ou administratrice système doit leur accorder l’accès en modification pour les tâches.
 >
 >   
 >   Pour savoir comment un administrateur ou une administratrice système peut modifier votre niveau d’accès, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -51,7 +50,7 @@ Pour des informations générales sur la délégation du travail, voir [Vue d’
 >* Pour les éléments attribués après le début de la délégation, il peut s’écouler jusqu’à une heure après l’attribution de l’élément pour que [!DNL Workfront] partage les éléments nouvellement attribués avec la personne déléguée.
 
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -151,15 +150,15 @@ Pour déléguer vos tâches et problèmes à d’autres personnes :
      >   Les éléments de travail achevés dont la date se situe dans la période de délégation ne sont pas délégués.
 
 
-   * Un message s’affiche en bas de l’écran pour confirmer que vous avez activé la délégation de votre travail à un autre utilisateur.Le nom de la personne déléguée s’affiche dans le message de confirmation.
+   * Un message s’affiche en bas de l’écran pour confirmer que vous avez activé la délégation de votre travail à un autre utilisateur. Le nom de la personne déléguée s’affiche dans le message de confirmation.
 
    * Une indication selon lequel vos tâches et problèmes sont délégués à d’autres personnes s’affiche dans la plupart des zones où vous pouvez voir les affectations dans [!DNL Workfront]. Pour plus d’informations sur les domaines dans lesquels les noms des personnes déléguées ne figurent pas, voir [Vue d’ensemble de la délégation de travail](delegate-work-overview.md).
 
    * Le bouton [!UICONTROL **Déléguer**] dans la zone [!UICONTROL **Accueil**] devient [!UICONTROL **Modifier la délégation**] pour indiquer qu’une délégation est en place.
      <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
       (NOTE: is this shot correct? See UI - this is a mock)
-      </MadCap:conditionalText>
+       
       -->
 
      ![bouton Modifier la délégation](assets/edit-delegation-button-on-my-work-widget.png)
@@ -205,7 +204,7 @@ Lorsque des tâches et des problèmes sont délégués, plusieurs zones de [!DNL
 * [Localiser le travail délégué sur la page d’[!UICONTROL accueil]](#locate-delegated-work-in-home)
 
 
-### Localiser les personnes déléguées dans la boîte [!UICONTROL Affectations] 
+### Localiser les personnes déléguées dans la boîte [!UICONTROL Affectations]
 
 Lorsque votre administrateur ou administratrice système ou de groupe active la délégation de travaux dans votre système, la boîte [!UICONTROL Affectations] affiche les onglets suivants partout où vous pouvez y accéder :
 
