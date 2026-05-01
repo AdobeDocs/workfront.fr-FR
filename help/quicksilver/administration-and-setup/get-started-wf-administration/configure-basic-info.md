@@ -10,9 +10,9 @@ role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '766'
 ht-degree: 90%
 
 ---
@@ -68,30 +68,15 @@ Pour accéder à la page Infos client :
 
    Les sections disponibles dans la zone Infos client sont les suivantes :
 
-* **Informations de base**
+   | Section | Plus d’informations |
+   |---------|-----------------|
+   | **Informations de base** | Pour plus d’informations sur la configuration des informations de base dans Workfront, voir [Configurer les informations de base](#configure-basic-info). |
+   | <span class="preview">**Présentation du stockage**</span> | <span class="preview">Pour plus d’informations sur la vérification de l’utilisation et du quota de stockage du document, voir [Vérifier les limites de stockage du document](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **Paramètres de la clé API** | Pour plus d’informations sur les paramètres de la clé API, voir [Gérer les clés API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
+   | **Liste autorisée d’adresses IP** | Pour plus d’informations sur l’ajout des adresses IP à votre liste autorisée pour l’emplacement où vos utilisateurs et utilisatrices peuvent accéder à Workfront, voir [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
+   | **E-mail** | Pour plus d’informations sur l’ajout d’e-mails à votre place sur la liste autorisée, voir [Configurer votre e-mail](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |
 
-  Pour plus d’informations sur la configuration des informations de base dans Workfront, voir [Configurer les informations de base](#configure-basic-info).
-
-
-
-* <span class="preview">**Présentation du stockage**
-
-  Pour plus d’informations sur la vérification de l’utilisation et du quota de stockage de documents, voir [Vérifier les limites de stockage de documents](../../documents/managing-documents/check-document-storage.md).</span>
-
-
-* **Paramètres de la clé API**
-
-  Pour plus d’informations sur les paramètres de la clé API, voir [Gérer les clés API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
-
-* **Liste autorisée d’adresses IP**
-
-  Pour plus d’informations sur l’ajout des adresses IP à votre liste autorisée pour l’emplacement où vos utilisateurs et utilisatrices peuvent accéder à Workfront, voir [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-
-* **E-mail**
-
-  Pour plus d’informations sur l’ajout d’e-mails à votre place sur la liste autorisée, voir [Configurer votre e-mail](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-
-<!--
+   <!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

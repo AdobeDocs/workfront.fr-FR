@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '3903'
+source-wordcount: '3890'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,12 @@ Les coordinateurs de projet gèrent le travail dans Workfront pendant que les cr
 
 ![Diagramme présentant le workflow de révision et d’approbation unifié, avec les coordinateurs de projet gérant le travail dans Workfront et les réviseurs et approbateurs fournissant des commentaires et prenant des décisions dans la visionneuse Frame.io.](assets/Unified-Review-Approvals-Image.png)
 
+<!--
+## Integration requirements
 
-## Exigences d’intégration
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
-* L’instance Workfront doit être activée sur l’expérience unifiée Adobe.
-
+-->
 
 ## Basé sur le stockage d’entreprise Adobe
 
@@ -41,7 +42,7 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 

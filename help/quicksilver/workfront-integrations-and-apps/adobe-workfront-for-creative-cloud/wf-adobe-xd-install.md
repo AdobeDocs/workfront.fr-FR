@@ -8,10 +8,10 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 76%
+source-wordcount: '502'
+ht-degree: 79%
 
 ---
 
@@ -77,7 +77,7 @@ Les administrateurs et administratrices [!DNL Adobe Admin Console] peuvent égal
 
 ## Installer le plug-in [!DNL Adobe Workfront for XD] individuellement
 
-Vous pouvez installer le plug-in [!DNL Adobe Workfront for XD] pour vous-même depuis [!DNL Adobe Exchange].
+Vous pouvez installer le plug-in [!DNL Adobe Workfront for XD] individuellement à partir d’[!DNL Adobe Exchange].
 
 1. Accédez à la [page d’installation d’Adobe Workfront for XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share) sur Adobe Exchange.
 1. Dans la boîte de dialogue qui apparaît, cliquez sur **Ouvrir l’application de bureau [!DNL Adobe Creative Cloud]**.
@@ -106,7 +106,7 @@ Fenêtre du plug-in XD ![](assets/xd-plugin-window-350x620.png)
 
    >[!TIP]
    >
-   >* Pour trouver votre domaine, ouvrez un navigateur, accédez à votre instance [!DNL Workfront] et copiez la première partie de l’URL :\
+   >* Pour trouver votre domaine, ouvrez un navigateur, accédez à l’instance [!DNL Workfront] et copiez la première partie de l’URL :\
    >![Localiser le domaine](assets/domain-350x50.png)
    >
    >* Si votre instance Workfront est intégrée à Experience Cloud et que le domaine commence par `experience.adobe.com`, demandez à votre administrateur de vous fournir le domaine Workfront qui se trouve sous Produit > Workfront dans Admin Console.
@@ -141,4 +141,3 @@ Pour résoudre ce problème, procédez comme suit :
 
 1. Entrez votre domaine Workfront. Le domaine doit être `company-name.my.workfront.com` et non `experience.adobe.com`.
 
-Pour rechercher votre domaine Workfront si vous utilisez l’expérience unifiée Adobe, accédez à
