@@ -6,20 +6,36 @@ description: Vous pouvez réinitialiser votre mot de passe  [!DNL Adobe Workfron
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 38%
+source-wordcount: '103'
+ht-degree: 78%
 
 ---
 
 # Réinitialiser votre mot de passe
 
+>[!NOTE]
+>
+>La modification de votre mot de passe s’applique à toutes vos applications [!DNL Adobe CX Enterprise].
+
+Votre mot de passe n’est pas géré dans [!DNL Workfront].
+
+Si votre organisation utilise une application distincte pour gérer les mots de passe, changez votre mot de passe par l’intermédiaire de ce fournisseur.
+
+Si votre mot de passe est géré par [!DNL Adobe], vous pouvez modifier le mot de passe de votre compte Adobe.
+
+[Consultez cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+
+Pour plus d’informations sur la modification de votre mot de passe, contactez votre administrateur ou administratrice.
+
+<!--
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page a été supprimée, car elle s’appliquait uniquement aux organisations qui n’avaient pas encore intégré Adobe Admin Console.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Toutes les organisations Workfront ont désormais été intégrées à Adobe Admin Console.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 

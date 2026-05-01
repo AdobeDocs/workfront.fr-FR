@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 75%
+source-wordcount: '1733'
+ht-degree: 74%
 
 ---
 
@@ -26,7 +26,7 @@ Cet article décrit comment configurer les paramètres d’une équipe Scrum. Ap
 
 * Si les histoires sont estimées en points ou en heures
 * Les colonnes de statut du storyboard agile pour les itérations et les projets
-* Champs supplémentaires à afficher sur les cartes de l’histoire sur le storyboard agile
+* Champs supplémentaires à afficher sur les cartes du storyboard agile
 * Utilisation des indicateurs de couleur pour les articles sur le storyboard agile
 * Application des dates lors de l’ajout d’éléments de travail à une itération
 
@@ -87,7 +87,7 @@ Pour configurer la manière dont les histoires sont estimées pour votre équipe
 
 1. Dans la section **[!UICONTROL Agile]**, dans la zone **[!UICONTROL Estimer des histoires dans]**, choisissez si vous souhaitez utiliser des points ou des heures pour estimer la taille (charge de travail) des histoires. Si vous sélectionnez Points, indiquez le nombre d’heures égal à 1 point. (La valeur par défaut est 1 point = 8 heures.) Il s’agit du nombre d’heures planifiées qui sont ajoutées à l’histoire.
 
-   **Exemple :** si vous avez choisi d’estimer les histoires en points et qu’un point équivaut à 8 heures, et qu’une histoire est estimé à 3 points, 24 heures prévues sont ajoutées à l’histoire.
+   **Exemple :** si vous avez choisi d’estimer les histoires en points et qu’un point équivaut à 8 heures, et qu’une histoire est estimée à 3 points, 24 heures prévues sont ajoutées à l’histoire.
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
@@ -140,7 +140,7 @@ Pour plus d’informations sur la configuration des colonnes de statuts d’un p
 
 Lorsque vous ajoutez des champs aux cartes d’histoire, ils sont en lecture seule et s’affichent uniquement lorsqu’ils sont renseignés.
 
-Par défaut, les types de données suivants s’affichent sur la carte d’histoire pour les tâches et les problèmes :
+Par défaut, les types de données suivants sont affichés sur la carte de l’article pour les tâches et les événements :
 
 * Nom de l’article avec un lien direct vers la tâche ou le problème
 * Nom du projet avec un lien direct vers le projet
@@ -188,7 +188,7 @@ Pour modifier le comportement de l’affectation des couleurs aux articles pour 
 
    Seuls les membres de l&#39;équipe disposant d&#39;une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Travail] peuvent voir cette option.
 
-1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Associer la couleur de la carte à &#x200B;], sélectionnez l’une des options suivantes :
+1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Associer la couleur de la carte à ], sélectionnez l’une des options suivantes :
 
    * **[!UICONTROL Projet]** : les couleurs sont associées au projet auquel l’histoire est liée. (Lorsqu’une histoire est créée, elle doit être associée à un projet, comme décrit dans [Créer une histoire agile](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Toutes les tâches d’un même projet s’affichent avec la même couleur.
    * **[!UICONTROL Formulaire libre]** : toutes les cartes sont affichées en bleu par défaut jusqu’à ce que quelqu’un modifie manuellement la couleur, comme décrit dans [[!UICONTROL Catégoriser les histoires par couleur] sur le panorama Scrum](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
