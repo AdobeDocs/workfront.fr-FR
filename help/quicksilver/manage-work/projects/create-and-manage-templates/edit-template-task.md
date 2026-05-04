@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3062'
 ht-degree: 67%
 
 ---
@@ -123,13 +123,19 @@ Vous pouvez modifier une tâche de modèle à l&#39;aide des zones Modifier la t
 1. Pour modifier des informations limitées sur la tâche de modèle, procédez comme suit :
    1. (Facultatif) Cliquez sur **Mises à jour** dans le panneau de gauche pour ajouter des mises à jour à la tâche de modèle. Les mises à jour des tâches de modèle ne sont pas transférées aux tâches de projet lorsque le modèle est utilisé pour créer un projet.
    1. (Facultatif) Cliquez sur **Documents** dans le panneau de gauche pour ajouter des documents à la tâche de modèle. Les documents seront transférés aux tâches du projet lorsque vous utiliserez le modèle pour créer le projet.
+
+      >[!TIP]
+      >
+      >L’ajout de documents à une tâche de modèle diffère selon que votre entreprise utilise le stockage Workfront ou Adobe pour stocker des documents. Pour plus d’informations, voir [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
    1. (Le cas échéant) Pour modifier des informations limitées sur une tâche de modèle, cliquez sur **Détails sur la tâche de modèle** dans le panneau de gauche, puis accédez aux zones de la section Détails pour modifier les informations de chaque zone.
    1. (Facultatif) Effectuez l’une des opérations suivantes :
       * Cliquez sur l’icône **Tout réduire** ![Tout réduire](assets/collapse-all-icon.png) pour réduire toutes les zones.
       * Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png), puis sélectionnez l’une des zones ci-dessous, ou cliquez sur **Modifier tout** pour modifier les informations de toutes les zones :
 
+
          * Vue d’ensemble
-         * Forms personnalisé
+         * Formulaires personnalisés
 Les noms des formulaires de douane s’affichent uniquement si des formulaires personnalisés sont joints à la tâche de modèle.
          * Finances
 
@@ -144,7 +150,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
 
 1. (Conditionnel) Pour modifier toutes les informations relatives à une tâche de modèle ou à plusieurs tâches en même temps, cliquez sur les tâches pour les sélectionner dans une liste, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
 
-   La zone **Modifier la tâche de modèle** s’affiche.
+   La zone **Modifier la tâche de modèle** s&#39;affiche.
 
    ![Nouvelle expérience pour Modifier la tâche de modèle](assets/edit-template-task-box-unshimmed.png)
 
@@ -380,7 +386,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
 
    <p>Le temps écoulé est une unité de temps pour la durée d’une tâche. Il s’agit de la durée entre la date de début et la date d’achèvement prévues d’une tâche qui comprend les jours fériés, les week-ends et les jours de congé. En d’autres termes, le temps écoulé est le nombre de jours calendaires écoulés.
 
-   Le temps normal prend en compte les jours fériés, les week-ends et les jours de congé et les exclut de la durée de la tâche. Pour plus d’informations sur la durée de la tâche, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>. </p>
+   Le temps normal prend en compte les jours fériés, les week-ends et les jours de congé et les exclut de la durée de la tâche. Pour plus d’informations sur la durée des tâches, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée des tâches et du type de durée</a>. </p>
    </div> 
    </div> </td> 
    </tr> 
@@ -483,7 +489,7 @@ Vous pouvez également ajouter des formulaires personnalisés aux tâches future
 
 1. Sélectionnez le ou les formulaires personnalisés à associer à la tâche de modèle.
 
-   Vous devez créer les formulaires personnalisés avant qu’ils ne puissent être sélectionnés dans ce champ.
+   Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ.
 Seuls les formulaires personnalisés actifs sont affichés dans la liste.
 
    Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -543,7 +549,7 @@ Les formulaires sont automatiquement ajoutés aux tâches créées à partir du 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Processus d’approbation</strong> </td> 
-      <td> <p>Sélectionnez le processus d’approbation que vous souhaitez associer à la tâche de modèle. Votre administrateur ou votre administratrice Workfront doit définir des processus d’approbation des tâches au niveau du système avant de pouvoir les associer à des tâches de modèle. <span>Un utilisateur ou une utilisatrice disposant d’un accès administratif aux processus d’approbation peut également créer des processus d’approbation spécifiques à un groupe.</span>Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les éléments de travail</a>.</p> <p>Tenez compte des éléments suivants lorsque vous ajoutez des processus d’approbation : </p> 
+      <td> <p>Sélectionnez le processus d’approbation que vous souhaitez associer à la tâche de modèle. Votre administrateur ou votre administratrice Workfront doit définir des processus d’approbation des tâches au niveau du système avant de pouvoir les associer à des tâches de modèle. <span>Un utilisateur disposant d'un accès administratif aux processus d'approbation peut également créer des processus d'approbation spécifiques à un groupe.</span> Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les éléments de travail</a>.</p> <p>Tenez compte des éléments suivants lorsque vous ajoutez des processus d’approbation : </p> 
        <ul> 
        <li>Seuls les processus d’approbation actifs sont affichés dans la liste. </li> 
        <li> <p>Les processus d’approbation à l’échelle du système et spécifiques au groupe s’affichent dans la liste. Les processus d’approbation associés à un groupe autre que celui du modèle ne s’affichent pas dans la liste.</p> <p>Important : si le groupe associé au modèle change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Effets des modifications du processus d’approbation et de groupe sur les processus d’approbation affectés</a>. </p> </li> 
@@ -603,6 +609,11 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+      
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 
