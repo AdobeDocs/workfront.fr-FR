@@ -23,7 +23,7 @@ Cet article décrit la disponibilité limitée des fonctionnalités de Workfront
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Pour obtenir une liste de toutes les fonctionnalités de disponibilité limitée publiées pour Adobe Workfront, consultez l’activité de mise à jour des fonctionnalités de disponibilité limitée d’Adobe Workfront : index des articles ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).[
+Pour obtenir une liste de toutes les fonctionnalités de disponibilité limitée publiées pour Adobe Workfront, consultez l’activité de mise à jour des fonctionnalités de disponibilité limitée d’Adobe Workfront : index des articles [&#128279;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
 
 ## Notes de mise à jour pour les fonctionnalités à disponibilité limitée
 
