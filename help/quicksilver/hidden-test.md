@@ -3,16 +3,16 @@ title: Test caché
 description: test caché
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 25c6a73ca1f7580606a361c93a7c10d2f01271c2
+source-git-commit: aa90f5437ddd4ff7476271a322926e5eaf24d6b4
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '618'
 ht-degree: 49%
 
 ---
 
 # Test caché
 
-Le 4 mai
+Puisse la 4ème Abeille
 
 Fichier masqué utilisé pour tester les heures de publication dans un référentiel plus volumineux.
 
@@ -224,7 +224,7 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
    <td> 
 <p>Tout package de workflow Adobe Workfront et tout package Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Plateforme Adobe Workfront (**&#x200B;**&#x200B;voulons-nous l’appeler ou simplement l’inclure dans l’article lié en bas ???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Plateforme Adobe Workfront (****voulons-nous l’appeler ou simplement l’inclure dans l’article lié en bas ???*****)</p></td> 
    <td> 
 <p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
