@@ -6,11 +6,10 @@ description: Lorsque l’authentification améliorée (eAuth) est activée pour 
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '200'
 ht-degree: 95%
 
 ---
@@ -23,7 +22,7 @@ Lorsque l’authentification améliorée (eAuth) est activée pour votre environ
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +52,7 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 1. Sélectionnez l’**[!UICONTROL Utilisateur ou l’utilisatrice]** dont vous devez réinitialiser le mot de passe.
    ![Sélectionner l’utilisateur](assets/100520classicnweselectuser-350x105.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Plus] &#x200B;** qui s’affiche une fois que vous avez choisi l’**[!UICONTROL Utilisateur ou l’utilisatrice]** et sélectionnez l’option **[!UICONTROL Envoyer un e-mail de mot de passe oublié]** dans le menu déroulant.
+1. Cliquez sur le bouton **[!UICONTROL Plus] ** qui s’affiche une fois que vous avez choisi l’**[!UICONTROL Utilisateur ou l’utilisatrice]** et sélectionnez l’option **[!UICONTROL Envoyer un e-mail de mot de passe oublié]** dans le menu déroulant.
 
    ![Envoyer un e-mail de mot de passe oublié](assets/100520classicnwesendemail-350x134.png)
 

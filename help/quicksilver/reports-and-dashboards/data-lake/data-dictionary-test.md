@@ -7,14 +7,13 @@ description: Pour accéder aux données de Data Connect, vous devez d’abord cr
 author: Courtney
 feature: Reports and Dashboards
 hide: true
-hidefromtoc: true
-source-git-commit: a42c13804b0463af27bac6f9166bc6e3c41d3fda
+exl-id: 8ac99353-ebb9-46d9-b1ad-1cdbdc974f49
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '156'
 ht-degree: 8%
 
 ---
-
 
 # Test
 
@@ -39,8 +38,8 @@ ht-degree: 8%
      <tr>
          <td colspan="4"><strong>Champ Relations</strong> <br>
          ACCESSLEVELID (self) : Self<br>
-         APPGLOBALID : n’est pas une relation ; utilisé à des fins d’application interne<br>
-         LASTUPDATEDBYID : USER_CURRENT | USERID <br>
+         APPGLOBALID : non une relation ; utilisé à des fins d’application interne<br>
+         LASTUPDATEDBYID : USER_CURRENT | USERID<br>
          LEGACYACCESSLEVELID : n’est pas une relation ; utilisé à des fins d’application interne<br>
          OBJID : ID de l’objet identifié dans le champ OBJCODE <br>
          SYSID : non une relation ; utilisé à des fins d’application interne</td>

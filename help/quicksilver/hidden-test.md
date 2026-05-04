@@ -2,12 +2,11 @@
 title: Test caché
 description: test caché
 hide: true
-hidefromtoc: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 5ab33ae7ee37f4afa2546af32af205ef546bae22
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 47%
+ht-degree: 50%
 
 ---
 
@@ -38,7 +37,7 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> 
    </td> 
   </tr> 
@@ -69,7 +68,7 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -127,7 +126,7 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
    <td> <p>Prime ou Ultimate</p>
     <p>Workflow Ultimate</p>
@@ -155,7 +154,7 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
    <td> <p>Prime ou Ultimate</p>
     <p>Workflow Ultimate</p>
@@ -223,7 +222,7 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
    <td> 
 <p>Tout package de workflow Adobe Workfront et tout package Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Plateforme Adobe Workfront (**&#x200B;**&#x200B;voulons-nous l’appeler ou simplement l’inclure dans l’article lié en bas ???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Plateforme Adobe Workfront (****voulons-nous l’appeler ou simplement l’inclure dans l’article lié en bas ???*****)</p></td> 
    <td> 
 <p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 

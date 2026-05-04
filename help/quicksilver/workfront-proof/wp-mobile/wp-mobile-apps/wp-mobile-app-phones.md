@@ -2,11 +2,10 @@
 title: Application mobile de Workfront Proof
 description: Découvrez l’application mobile Workfront Proof.
 hide: true
-hidefromtoc: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1352'
 ht-degree: 100%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture à l’intérieur d’[!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Téléchargez l’application [!DNL Workfront Proof] à partir d’Apple App Store ou de Google Store pour un maximum de productivité où que vous soyez. L’application [!DNL Workfront Proof] dispose des fonctionnalités suivantes sur iPhone et iPod Touch :
 

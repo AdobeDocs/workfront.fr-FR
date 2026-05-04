@@ -1,14 +1,13 @@
 ---
 title: Vue d’ensemble de l’authentification améliorée
 description: Masqué dans la recherche et dans la navigation de gauche
-hidefromtoc: true
 hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -124,14 +123,14 @@ Le tableau suivant fournit des détails sur les fonctionnalités actuelles et fu
   </tr> 
   <tr> 
    <td> <p>Prend en charge les intégrations SSO conformes aux protocoles Active Directory et LDAP.</p> </td> 
-   <td> ✓</td> 
+   <td> ✓ </td> 
    <td> <p> Obsolète</p> <p>Les systèmes Active Directory, Azure et LDAP doivent utiliser SAML 2.0.</p> </td> 
    <td> <p>Obsolète</p> <p>Les systèmes Active Directory, Azure et LDAP peuvent être configurés avec SAML 2.0 chiffré ou OpenID Connect.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Prend en charge les protocoles SSO conformes à SAML 2.0.</p> </td> 
+   <td> <p>Prend en charge les protocoles SSO conformes à SAML 2.0. </p> </td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td> ✓ </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
