@@ -24,7 +24,7 @@ La barre de navigation supérieure, qui s’affiche en haut de l’écran dans [
 
 L’icône d’**[!UICONTROL accueil]** ![](assets/home-icon.png) vous conduit à la page d’[!UICONTROL accueil], qui est la page de destination par défaut.
 
-Par défaut, l’icône d’accueil ouvre la zone d’accueil. Pour plus d’informations sur l’accueil, voir [Utiliser la zone d’[!UICONTROL accueil] ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Par défaut, l’icône d’accueil ouvre la zone d’accueil. Pour plus d’informations sur l’accueil, voir [Utiliser la zone d’[!UICONTROL accueil] &#x200B;](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 Votre administrateur ou administratrice Workfront peut personnaliser l’icône d’accueil pour ouvrir une autre page en créant un modèle de mise en page et en vous l’affectant. Pour plus d’informations, voir [Personnaliser la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
