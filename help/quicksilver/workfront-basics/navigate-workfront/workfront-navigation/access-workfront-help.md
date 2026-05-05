@@ -23,8 +23,8 @@ Outre la recherche d’articles d’aide, vous pouvez également accéder aux re
 
 * Tutoriels Workfront : pour plus d’informations, consultez les Tutoriels [[!DNL Workfront] &#x200B;](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home).
 
-* [!UICONTROL Innovation Lab] : pour plus d’informations, voir [[!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
-* [!UICONTROL [!DNL Workfront] Community &#x200B;] : pour plus d’informations, consultez la section [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+* [!UICONTROL Innovation Lab] : pour plus d’informations, voir [[!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=fr).
+* [!UICONTROL [!DNL Workfront] Community &#x200B;] : pour plus d’informations, consultez la section [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=fr).
 
 ## Obtenir de l’aide dans [!DNL Workfront]
 
