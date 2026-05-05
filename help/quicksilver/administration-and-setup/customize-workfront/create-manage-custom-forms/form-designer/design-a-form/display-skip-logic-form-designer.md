@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: ccdace08434cd2abc1290a1ae038ba20f0adbdf6
 workflow-type: tm+mt
-source-wordcount: '3544'
-ht-degree: 27%
+source-wordcount: '3571'
+ht-degree: 28%
 
 ---
 
@@ -70,12 +70,12 @@ Cliquez sur **Afficher la logique** dans l’en-tête du concepteur de formulair
 | ![Logique de validation du champ de référence](assets/validation-logic-reference-field.png) | Le champ est le champ de référence de la logique de validation. Une sélection ou une valeur spécifique sur ce champ détermine si la validation échoue sur le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de validation. |
 | ![Logique de valeur par défaut pour le champ cible](assets/default-value-logic-icon.png) | Le champ est le champ cible dans lequel la logique de valeur par défaut est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la valeur par défaut. Le champ cible et le champ de référence peuvent être identiques pour la logique de valeur par défaut. |
 | ![Logique de valeur par défaut pour le champ de référence](assets/default-value-logic-reference-field.png) | Le champ est le champ de référence de la logique de valeur par défaut. Une sélection ou une valeur spécifique dans ce champ détermine la valeur par défaut dans le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de valeur par défaut. |
-| ![Logique de formatage du champ cible &#x200B;](assets/formatting-logic-icon.png) | Le champ est le champ cible dans lequel la logique de formatage est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la mise en forme. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
+| ![Logique de formatage du champ cible ](assets/formatting-logic-icon.png) | Le champ est le champ cible dans lequel la logique de formatage est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la mise en forme. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
 | ![Logique de formatage du champ de référence](assets/formatting-logic-reference-field.png) | Le champ est le champ de référence pour la logique de formatage. Une sélection ou une valeur spécifique dans ce champ détermine la mise en forme dans le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
 | ![Logique de modifiabilité du champ cible](assets/editability-logic-icon.png) | Le champ est le champ cible dans lequel la logique d&#39;édition est appliquée. Le champ peut être modifiable ou en lecture seule lorsque les conditions définies sont remplies. Le champ cible et le champ de référence peuvent être identiques pour la logique de modifiabilité. |
 | ![Logique de modifiabilité du champ de référence](assets/editability-logic-reference-field.png) | Le champ est le champ de référence de la logique d’édition. Lorsque les conditions définies sont remplies sur ce champ, la logique est appliquée au champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de modifiabilité. |
 
-[Icônes de logique](assets/custom-form-logic-icon-samples.png)
+![Icônes de logique](assets/custom-form-logic-icon-samples.png)
 
 Pour afficher et ignorer la logique uniquement, sélectionnez un champ pour afficher les règles de logique existantes dans les paramètres du champ.
 
@@ -171,7 +171,7 @@ Si vous utilisez la condition suivante, le champ KPI Vendu n’est visible qu’
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Ajoutez des champs au formulaire selon vos besoins.
+1. Ajoutez des champs au formulaire si nécessaire.
 1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
 1. Sélectionnez l’onglet **Affichage** dans le créateur de logiques.
 1. Activez **Mode avancé**.
@@ -250,7 +250,7 @@ Lorsque le formulaire personnalisé est joint à un projet et que le statut du p
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Ajoutez des champs au formulaire selon vos besoins.
+1. Ajoutez des champs au formulaire si nécessaire.
 1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
 1. Sélectionnez l’onglet **Valeur par défaut** dans le créateur de logiques.
 
@@ -299,7 +299,7 @@ Pour obtenir d’autres exemples de logique de validation, voir [Exemples de log
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Ajoutez des champs au formulaire selon vos besoins.
+1. Ajoutez des champs au formulaire si nécessaire.
 1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
 1. Sélectionnez l’onglet **Validation** dans le créateur de logiques.
 
@@ -345,7 +345,7 @@ IF(
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Ajoutez des champs au formulaire selon vos besoins.
+1. Ajoutez des champs au formulaire si nécessaire.
 1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
 1. Sélectionnez l’onglet **Formatage** dans le créateur de logiques.
 
@@ -412,7 +412,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Ajoutez des champs au formulaire selon vos besoins.
+1. Ajoutez des champs au formulaire si nécessaire.
 1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
 1. Sélectionnez l’onglet **Modifiabilité** dans le créateur de logiques.
 
