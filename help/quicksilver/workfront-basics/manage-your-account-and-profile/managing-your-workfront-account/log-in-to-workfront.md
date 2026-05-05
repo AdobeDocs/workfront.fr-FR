@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 31%
+source-wordcount: '222'
+ht-degree: 32%
 
 ---
 
@@ -19,11 +19,35 @@ ht-degree: 31%
 
 <!--Audited: 2024-->
 
+Une seule connexion est utilisée pour Workfront et toutes vos applications Adobe CX Enterprise.
+
+Pour plus d’informations, voir [Administration et interface d’entreprise CX](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud).
+
+## Accéder à [!DNL Workfront]
+
+Une fois connecté à CX Enterprise, vous pouvez afficher toutes les organisations et tous les environnements [!DNL Workfront] auxquels vous avez accès en cliquant sur le sélecteur d’organisation dans la zone de navigation supérieure. Sélectionnez l’organisation ou environnement [!DNL Workfront] où vous souhaitez travailler. Les environnements peuvent inclure celui de [!UICONTROL prévisualisation] et de [!UICONTROL sandbox] si votre organisation les utilise.
+
+![Affichage des organisations et environnements [!DNL Workfront]](assets/wf-org-instance-switcher-2026.png)
+
+>[!NOTE]
+>
+>La première fois que vous vous connectez à CX Enterprise, l&#39;organisation utilise par défaut la première de la liste alphabétique. La prochaine fois que vous vous connecterez, l’organisation par défaut sera la dernière que vous avez visitée.
+
+[!DNL Workfront] apparaît dans la liste des produits CX Enterprise auxquels vous avez accès. Vous pouvez choisir [!DNL Workfront] dans le menu d’accès rapide de la page d’accueil de l’entreprise CX ou utiliser le sélecteur de produits ![sélecteur de produits](assets/main-menu-icon.png) pour modifier les applications à tout moment.
+
+![Sélection de [!DNL Workfront] pour accéder à l’application](assets/cx-enterprise-home-2026.png)
+
+>[!NOTE]
+>
+>Si une session de l’onglet du navigateur expire dans une page sur laquelle Workfront est ouvert et que vous disposez d’une session Workfront active dans un autre onglet du navigateur, vous pouvez recharger l’onglet expiré pour rouvrir la page Workfront.
+
+<!--
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page a été supprimée, car elle s’appliquait uniquement aux organisations qui n’avaient pas encore intégré Adobe Admin Console.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Toutes les organisations Workfront ont désormais été intégrées à Adobe Admin Console.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
