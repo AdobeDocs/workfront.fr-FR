@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1393'
 ht-degree: 66%
 
 ---
@@ -176,7 +176,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
       >
       >* Lorsque vous utilisez un modèle de stockage d’entreprise Adobe à partir d’un portfolio ou d’un programme de stockage Workfront, le projet est un projet de stockage d’entreprise Adobe et le portfolio ou le programme est également converti en objets de stockage d’entreprise Adobe. Tous les autres projets de stockage Workfront relevant du même portefeuille ou programme restent inchangés.
       >
-      > Tous les clients ne disposent pas des deux types de stockage de documents.
+      > Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
       >
       >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -234,7 +234,7 @@ Au lieu de commencer dans la zone Projets, vous pouvez créer un projet à parti
 
 >[!NOTE]
 >
->Les modèles associés au stockage de documents Workfront créent des projets de stockage Workfront hérités. Les modèles associés au stockage de documents d’entreprise Adobe créent des projets de stockage Adobe. Tous les clients ne disposent pas des deux types de stockage.
+>Les modèles associés au stockage de documents Workfront créent des projets de stockage Workfront hérités. Les modèles associés au stockage de documents d’entreprise Adobe créent des projets de stockage Adobe. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
 >
 >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

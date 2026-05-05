@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 85%
+source-wordcount: '830'
+ht-degree: 81%
 
 ---
 
@@ -109,6 +109,8 @@ Tenez compte des points suivants :
    * Documents
 
   Vous ne pouvez pas supprimer une tâche à laquelle est joint un document qui a été extrait. Pour plus d’informations sur l’extraction de documents, voir [Extraire des documents](../../../documents/managing-documents/check-out-documents.md).
+
+  Vous ne pouvez pas restaurer des documents individuels qui ont été supprimés lorsque la tâche a été supprimée à partir de l’onglet Documents dans la Corbeille. Vous ne pouvez restaurer les documents supprimés que lorsque la tâche a été supprimée que lorsque vous restaurez la tâche.
 
    * Problèmes
    * Sous-tâches

@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 67%
+source-wordcount: '1629'
+ht-degree: 66%
 
 ---
 
@@ -97,7 +97,7 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 * Créez un projet à partir de zéro sans utiliser de modèle. Cet article décrit comment créer un projet à partir de zéro.
 
 * Copiez un projet existant.\
-  Pour plus d’informations sur la copie d’un projet, consultez la section [Copier un projet](../../../manage-work/projects/manage-projects/copy-project.md).
+  Pour plus d’informations sur la copie d’un projet, voir [ Copier un projet ](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Utilisez un modèle.\
   Pour plus d’informations sur l’utilisation d’un modèle pour créer un projet, consultez la section [Créer un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
@@ -167,14 +167,19 @@ Tenez compte des points suivants :
 
      Si vous utilisez un modèle lors de la création du projet en convertissant le problème, reportez-vous au deuxième scénario ci-dessus pour comprendre quel groupe et quel statut sont appliqués par Workfront au nouveau projet.
 
-* L’emplacement de stockage des documents dans un projet et ses objets enfants (tâches et événements) dépend de ce que l’administrateur Workfront choisit comme valeur par défaut pour les Préférences de stockage dans les Préférences système de la section Configuration. Selon l’emplacement de stockage des documents dans votre instance Workfront, vous pouvez créer les types de projets suivants :
+* L’emplacement de stockage des documents pour un projet et ses objets enfants (tâches et événements) dépend de ce que l’administrateur Workfront choisit comme valeur par défaut pour les Préférences de stockage dans les Préférences système de la section Configuration. Selon l’emplacement de stockage des documents dans votre instance Workfront, vous pouvez créer les types de projets suivants :
 
    * Projets de stockage Workfront hérités
    * Projets de stockage d’entreprise Adobe.
 
   Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
-* Lorsque vous créez un projet d’espace de stockage d’entreprise, un dossier de documents portant le même nom est créé pour dans la section **Documents** du projet. Après avoir ajouté des tâches au projet, les dossiers portant le nom de la tâche sont ajoutés à la section **Documents** de chaque tâche.
+  >[!TIP]
+  >
+  > Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
+
+
+* Lorsque vous créez un projet de stockage d’entreprise, un dossier de documents portant le même nom est créé dans la section **Documents** du projet. Après avoir ajouté des tâches au projet, les dossiers portant le nom de la tâche sont ajoutés à la section **Documents** de chaque tâche.
 
 Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -204,15 +209,16 @@ Pour plus d’informations, voir [Présentation de la gestion des documents pour
 
      >[!NOTE]
      >
-     >Lorsque vous créez un projet de stockage d’entreprise à partir d’un portfolio ou d’un programme de stockage Workfront, le portfolio ou le programme est également converti en objets de stockage d’entreprise. Tous les autres projets de stockage Workfront relevant du même portefeuille ou programme restent inchangés.
+     >* Lorsque vous créez un projet de stockage d’entreprise à partir d’un portfolio ou d’un programme de stockage Workfront, le portfolio ou le programme est également converti en objets de stockage d’entreprise. Tous les autres projets de stockage Workfront relevant du même portefeuille ou programme restent inchangés.
+     >* Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
 
      Un projet est créé et son nom par défaut suit les schémas suivants, en fonction du Workfront de stockage utilisé pour les documents :
 
-      * **Projet sans titre** pour un projet de stockage Workfront.
+      * `Untitled Project` pour un projet de stockage Workfront.
 
         Un projet de stockage Workfront affiche une icône **Stockage Workfront hérité** ![Icône de projet de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
 
-      * **Projet sans titre - &lt; Jour du mois, année heure.minute.seconde >** pour un projet de stockage Adobe
+      * `Untitled Project - < Month day, year hour.minute.second >` d’un projet de stockage Adobe
 
         >[!IMPORTANT]
         >

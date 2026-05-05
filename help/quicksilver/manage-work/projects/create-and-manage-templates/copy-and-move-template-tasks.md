@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '2234'
-ht-degree: 89%
+source-wordcount: '2239'
+ht-degree: 88%
 
 ---
 
@@ -108,7 +108,7 @@ Tenez compte des éléments suivants lorsque vous déplacez des tâches de modè
 
    * Jalons.
 
-* Vous ne pouvez pas copier ni déplacer une tâche de modèle d’un modèle de stockage Workfront vers un modèle de stockage Adobe. Le contraire est également vrai. Tous les clients ne disposent pas des deux types de stockage.
+* Vous ne pouvez pas copier ni déplacer une tâche de modèle d’un modèle de stockage Workfront vers un modèle de stockage Adobe. Le contraire est également vrai. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
 
   Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -140,7 +140,7 @@ La zone Copier la tâche de modèle s’affiche.
 
    >[!TIP]
    >
-   >Vous devez choisir un modèle avec un type de stockage de document similaire. Vous ne pouvez pas copier des tâches de modèles dans un modèle avec un type de stockage différent de celui du modèle d&#39;origine. Tous les clients n’ont pas accès à plusieurs types de stockage de documents.
+   >Vous devez choisir un modèle avec un type de stockage de document similaire. Vous ne pouvez pas copier des tâches de modèles dans un modèle avec un type de stockage différent de celui du modèle d&#39;origine. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
    >
    >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -267,7 +267,7 @@ La zone Déplacer la tâche de modèle s’ouvre.
    >
    >* Vous pouvez également commencer à taper le numéro de référence ou saisir l’ID du modèle. Cela peut vous aider à distinguer des modèles portant des noms identiques.
    >
-   >* Vous devez choisir un modèle avec un type de stockage de document similaire. Vous ne pouvez pas copier des tâches de modèles dans un modèle avec un type de stockage différent de celui du modèle d&#39;origine. Tous les clients n’ont pas accès à plusieurs types de stockage de documents.
+   >* Vous devez choisir un modèle avec un type de stockage de document similaire. Vous ne pouvez pas copier des tâches de modèles dans un modèle avec un type de stockage différent de celui du modèle d&#39;origine. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
    >
    >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

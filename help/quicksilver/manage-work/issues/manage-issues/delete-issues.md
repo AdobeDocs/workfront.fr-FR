@@ -6,10 +6,10 @@ description: Vous pouvez supprimer des problèmes ou des demandes dans Adobe Wor
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 67%
+source-wordcount: '797'
+ht-degree: 64%
 
 ---
 
@@ -78,6 +78,8 @@ Les objets suivants associés à un problème sont également supprimés lorsque
 * Documents
 
   Vous ne pouvez pas supprimer un problème auquel est associé un document extrait. Pour plus d’informations sur l’extraction de documents, voir [Extraire des documents](../../../documents/managing-documents/check-out-documents.md).
+
+  Vous ne pouvez pas restaurer des documents individuels qui ont été supprimés lorsque le problème a été supprimé à partir de l’onglet Documents dans la Corbeille. Vous ne pouvez restaurer les documents supprimés que lorsque le problème a été supprimé.
 
 * Notes
 * Approbations

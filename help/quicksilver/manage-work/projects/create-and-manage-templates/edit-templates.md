@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '5076'
-ht-degree: 85%
+source-wordcount: '5112'
+ht-degree: 83%
 
 ---
 
@@ -225,7 +225,7 @@ Old:
       </tr>  
       <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>Groupe</strong></td> 
-      <td><p>Dans la liste déroulante, sélectionnez le groupe que vous souhaitez associer aux projets créés à partir du modèle. Il peut s’agir d’un groupe de n’importe quel niveau. </p><p>Vous pouvez vous assurer que vous sélectionnez le bon groupe en pointant dessus et en cliquant sur l’icône d’information <img src="assets/info-icon.png"> qui s’affiche à côté. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p><b>NOTES</b>
+      <td><p>Dans la liste déroulante, sélectionnez le groupe que vous souhaitez associer aux projets créés à partir du modèle. Il peut s’agir d’un groupe de n’importe quel niveau. </p><p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en pointant dessus et en cliquant sur l’icône d’information <img src="assets/info-icon.png"> qui s’affiche en regard de celui-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p><b>NOTES</b>
 
    <ul> 
       <li><p>Dans la zone Projets de la page d’un groupe, lorsqu’une personne crée un projet à l’aide d’un modèle pour lequel aucun groupe n’a été sélectionné, le système associe le groupe actuellement ouvert au projet.</p><p>Cela diffère des autres zones où le système associe le groupe principal d’une personne au projet lorsque la personne crée le projet à l’aide d’un modèle pour lequel aucun groupe n’a été sélectionné.</p></li> 
@@ -286,27 +286,27 @@ Old:
      </tr>
       <tr> 
       <td role="rowheader"><strong>Devise</strong></td> 
-      <td><p>Indiquez la devise du futur projet, si elle est différente de la devise par défaut de votre système. Ce champ n’est pas visible si vous avez uniquement la devise par défaut dans le système.<br>Pour plus d’informations sur les devises, voir <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Définir les taux de change</a>.</p></td> 
+      <td><p>Spécifiez la devise du futur projet, si elle est différente de la devise par défaut de votre système. Ce champ n’est pas visible si vous avez uniquement la devise par défaut dans le système.<br>Pour plus d'informations sur la devise, voir <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer des taux de change</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Budget</strong></td> 
       <td><p>Spécifiez un budget pour les projets créés à partir de ce modèle.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Méthode d'indice de performances</strong></td> 
+      <td role="rowheader"><strong>Méthode d’indice de performances</strong></td> 
       <td><p>Indiquez si les mesures Valeur acquise du projet à venir sont calculées sur la base des heures ou des coûts. Pour plus d’informations sur la méthode d’indice de performances, consultez <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Définir la méthode de l’indice de performances (PIM)</a>. </p></td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>Bénéfice prévu</strong></td> 
-      <td><p>Spécifiez le bénéfice prévu des projets créés à partir de ce modèle. Le bénéfice prévu est utilisé dans le business case du projet et dans l’optimisateur de portfolio. </p><p>Pour plus d’informations sur le bénéfice prévu d’un projet, voir <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Vue d’ensemble du bénéfice prévu du projet</a>. Le bénéfice prévu d’un projet est pris en compte lors du calcul de la valeur nette d’un projet. </p><p>Pour plus d’informations sur l’utilisation de Portfolio Optimizer, voir <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gérer les projets dans Portfolio Optimizer</a>. </p></td> 
+      <td><p>Spécifiez les Bénéfices prévus des projets créés à partir de ce modèle. L’avantage prévu est utilisé dans l’analyse de rentabilité du projet et dans Portfolio Optimizer. </p><p>Pour plus d’informations sur le bénéfice prévu d’un projet, voir <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Vue d’ensemble du bénéfice prévu du projet</a>. Le bénéfice prévu d’un projet est pris en compte lors du calcul de la valeur nette d’un projet. </p><p>Pour plus d’informations sur l’utilisation de Portfolio Optimizer, voir <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gérer les projets dans Portfolio Optimizer</a>. </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Coûts fixes</strong></td> 
-      <td><p>Indiquez le coût fixe pour les projets créés à partir de ce modèle. Il s’agit d’une donnée différente du coût du travail et du coût des dépenses, qui font référence aux heures passées sur le projet et au montant des dépenses pour le projet, respectivement. Le coût fixe d’un projet est pris en compte dans le calcul de la valeur nette d’un projet et fait partie du coût budgété.</p></td> 
+      <td><p>Spécifiez le coût fixe pour les projets créés à partir de ce modèle. Il s’agit d’une donnée différente du coût du travail et du coût des dépenses, qui font référence aux heures passées sur le projet et au montant des dépenses pour le projet, respectivement. Le coût fixe d’un projet est pris en compte dans le calcul de la valeur nette d’un projet et fait partie du coût budgété.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Revenus fixes</strong></td> 
-      <td><p>Indiquez le revenu fixe pour les projets créés à partir de ce modèle.</p></td> 
+      <td><p>Spécifiez le revenu fixe pour les projets créés à partir de ce modèle.</p></td> 
      </tr>
 
    </tbody> 
@@ -381,7 +381,7 @@ Old:
        <tr> 
        <td role="rowheader"><strong>Type de mise à jour</strong> </td> 
        <td> <p>Contrôle le moment où les modifications apportées à la chronologie du futur projet sont enregistrées sur le projet. </p> 
-       <b>EXEMPLE </b> 
+       <b>EXEMPLE</b> 
        <p>Les modifications suivantes apportées au projet entraînent une mise à jour de la chronologie du projet :</p> 
        <ul> 
        <li> <p>mettre à jour les dates des tâches</p> </li> 
@@ -391,7 +391,7 @@ Old:
        </ul> 
        </div> <p>Sélectionnez l’une des options suivantes :<br></p> 
        <ul> 
-       <li> <p><strong>Automatique et En cas de modification</strong> (paramètre par défaut) : la future chronologie du projet est mise à jour à chaque fois qu’une modification est apportée au projet ou à un autre projet dont la chronologie dépend (En cas de modification). La chronologie du projet est également mise à jour chaque nuit (automatique).<br>C’est le paramètre recommandé pour ce champ, car il garantit que la chronologie du projet est toujours à jour.<br>Lorsque vous effectuez une action sur une tâche ou un projet qui déclenche un recalcul de la chronologie, toutes les dates disponibles sont immédiatement affichées, ce qui vous permet de continuer à travailler. Sur les projets comportant plus de 100 tâches, les dates nécessitant des nouveaux calculs plus longs s’affichent brièvement sous forme de point d’interrogation (entre 1 et 5 secondes, ou jusqu’à une minute pour les projets volumineux). Cela indique que le nouveau calcul n’est pas encore terminé et que les dates sont susceptibles d’être modifiées.<br></p> </li> 
+       <li> <p><strong>Automatique et En cas de modification</strong> (paramètre par défaut) : la future chronologie du projet est mise à jour à chaque fois qu’une modification est apportée au projet ou à un autre projet dont la chronologie dépend (En cas de modification). La chronologie du projet est également mise à jour chaque nuit (automatique). <br>Il s’agit du paramètre recommandé pour ce champ, car il garantit que la chronologie du projet est toujours à jour.<br>Lorsque vous effectuez une action sur une tâche ou un projet qui déclenche un recalcul de la chronologie, toutes les dates disponibles sont immédiatement affichées, ce qui vous permet de continuer à travailler. Sur les projets comportant plus de 100 tâches, les dates nécessitant des nouveaux calculs plus longs s’affichent brièvement sous forme de point d’interrogation (entre 1 et 5 secondes, ou jusqu’à une minute pour les projets volumineux). Cela indique que le nouveau calcul n’est pas encore terminé et que les dates sont susceptibles d’être modifiées.<br></p> </li> 
        </ul> 
        <ul> 
        <li> <p><strong>Modification uniquement</strong> : la chronologie du projet est mise à jour chaque fois qu’une modification est apportée au projet ou à un autre projet dont la chronologie dépend. Vous pouvez sélectionner cette option si des modifications sont rarement apportées dans le projet ou dans d’autres projets dont la chronologie dépend.<br></p> </li> 
@@ -430,7 +430,7 @@ Old:
        <li> <p><strong>Très faible</strong> </p> </li> 
        <li> <p><strong>Faible</strong> </p> </li> 
        <li> <p><strong>Moyen</strong> </p> </li> 
-       <li> <p><strong>Élevé</strong> </p> </li> 
+       <li> <p><strong>Élevée</strong> </p> </li> 
        <li> <p><strong>Très élevé</strong> </p> </li> 
        </ul> </td> 
        </tr> 
@@ -438,14 +438,14 @@ Old:
        <td role="rowheader"><strong>Pools de ressources</strong> </td> 
        <td> <p>Spécifiez les groupes de ressources associés au modèle. Les groupes de ressources constituent une collection d’utilisateurs et d’utilisatrices qui sont nécessaires simultanément pour l’achèvement d’un projet. Pour plus d’informations sur les groupes de ressources, voir <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">Vue d’ensemble des groupes de ressources</a>.</p> <p> <p><b>NOTE</b>
 
-       Lorsque vous modifiez des modèles en bloc, seuls les pools de ressources communs à tous les modèles sélectionnés apparaissent dans ce champ. Si les modèles sélectionnés n’ont pas de groupes de ressources partagés, ce champ restera vide. Les groupes de ressources que vous spécifiez ici remplaceront les groupes de ressources individuels des modèles.&lt;/p> &lt;/p> &lt;/td>
-       &lt;/tr>
+       Lorsque vous modifiez des modèles en bloc, seuls les pools de ressources communs à tous les modèles sélectionnés apparaissent dans ce champ. Si les modèles sélectionnés n’ont pas de groupes de ressources partagés, ce champ restera vide. Les pools de ressources que vous spécifiez ici remplaceront les pools de ressources individuels des modèles.&lt;/p> &lt;/p> &lt;/td>
+     &lt;/tr>
    
    <tr> 
       <td role="rowheader"><strong>L'approbation pour ce projet demande du temps</strong></td>
 
    <td><p>Sélectionnez cette option pour demander au futur propriétaire du projet créé à partir de ce modèle d'approuver le temps enregistré dans le projet.</p> 
-      <p>Si vous utilisez des enregistrements de facturation et que vous sélectionnez cette option, seules les heures approuvées du projet apparaissent comme heures facturables disponibles pour les enregistrements de facturation. </p>
+      <p>Si vous utilisez des enregistrements de facturation et que vous sélectionnez cette option, seules les heures approuvées sur le projet apparaissent comme des heures facturables disponibles pour les enregistrements de facturation. </p>
       <p>Approuver le temps consigné d’un projet ne nécessite pas l’approbation des feuilles de temps. Pour plus d’informations sur la demande d’approbation du temps d’un projet, consultez la section <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Demander l’approbation du temps d’un projet</a>.</p>
       </td> 
       </tr> 
@@ -464,7 +464,7 @@ Old:
       <li>Seuls les processus d’approbation actifs sont affichés dans la liste. </li> 
       <li> <p>Les processus d’approbation à l’échelle du système et spécifiques au groupe s’affichent dans la liste. Un processus d’approbation associé à un groupe autre que celui du modèle ne s’affiche pas dans la liste.</p> <p><b>IMPORTANT</b>
 
-   Si le groupe associé au modèle change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la manière dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Comment les modifications apportées au groupe et au processus d’approbation affectent les processus d’approbation attribués</a>. </p> </li>
+   Si le groupe associé au modèle change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Effets des modifications du processus d’approbation et de groupe sur les processus d’approbation affectés</a>. </p> </li>
    <li> <p>Si vous avez ajouté un processus d’approbation à usage unique, celui-ci s’affiche comme « personnalisé »dans ce champ. Pour plus d’informations, voir <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associer un processus d’approbation nouveau ou existant au travail</a>. </p> 
       </li> 
       <li> <p>Lors de la modification en masse de modèles, les scénarios suivants peuvent se produire :</p> 
@@ -566,11 +566,11 @@ En modifiant les paramètres des problèmes, vous pouvez empêcher les utilisate
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Lorsqu’une personne est affectée à un problème</strong>. </td> 
-         <td> <p>Sélectionnez l’accès en <strong>Affichage</strong>, <strong>Contribution</strong> ou <strong>Gestion</strong> pour un problème. La personne affectée à un problème se voit automatiquement accorder cet accès au problème. </p> </td> 
+         <td> <p>Choisissez parmi les accès <strong>Afficher</strong>, <strong>Contribuer</strong> ou <strong>Gérer</strong> à un problème. La personne affectée à un problème se voit automatiquement accorder cet accès au problème. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Accorder également l’accès au projet</strong> </td> 
-         <td> <p> Sélectionnez l’accès en <strong>Affichage</strong>, <strong>Contribution</strong> ou <strong>Gestion</strong> au projet. L’utilisateur ou l’utilisatrice affecté à un problème se voit automatiquement accorder cet accès au projet. </p> </td> 
+         <td> <p> Sélectionnez l’accès en <strong>Affichage</strong>, <strong>Contribution</strong>, ou <strong>Gestion</strong> au projet. L’utilisateur ou l’utilisatrice affecté à un problème se voit automatiquement accorder cet accès au projet. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Lorsqu’une personne soumet une demande : lui donner un accès</strong>. </td> 
@@ -745,7 +745,7 @@ L’ajout des éléments suivants à un modèle est identique à l’ajout à un
 
 * Frais
 
-  Pour plus d’informations sur l’ajout de dépenses, voir [Gérer les dépenses du projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Pour plus d’informations sur l’ajout de dépenses, consultez la section [Gérer les dépenses du projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Détails de la file d&#39;attente
 
@@ -761,6 +761,8 @@ L’ajout des éléments suivants à un modèle est identique à l’ajout à un
 Vous pouvez ajouter les éléments suivants aux tâches du modèle :
 
 * Documents
+
+  Pour plus d’informations, voir [Modifier les tâches de modèle](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 * Frais
 
   Pour plus d’informations sur l’ajout de dépenses, consultez la section [Gérer les dépenses du projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
@@ -772,7 +774,7 @@ Vous pouvez ajouter les éléments suivants aux tâches du modèle :
 
 ## Activer ou désactiver un modèle
 
-Vous pouvez désactiver un modèle si vous souhaitez que les utilisateurs et les utilisatrices ne puissent pas le trouver pour créer des projets en l’utilisant. Vous ne pouvez pas joindre un modèle désactivé à des projets ni l’utiliser pour créer un projet.
+Vous pouvez désactiver un modèle si vous souhaitez que les utilisateurs ne puissent pas le trouver et créer des projets à partir de celui-ci. Vous ne pouvez pas joindre un modèle désactivé à des projets ni l’utiliser pour créer un projet.
 
 Les modèles désactivés n’affectent pas les projets existants qui ont été créés à l’aide de ces modèles.
 

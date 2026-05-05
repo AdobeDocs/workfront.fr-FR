@@ -9,10 +9,10 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '7859'
-ht-degree: 90%
+source-wordcount: '8113'
+ht-degree: 88%
 
 ---
 
@@ -282,19 +282,26 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
          <td> <p>Indiquez la date lorsque vous sélectionnez <strong>Planifier à partir de la date d’achèvement</strong>. </p> <p>Il s’agit d’un champ en lecture seule lorsque vous sélectionnez <strong>Planifier à partir de la date de début</strong>.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Indiquez un Portfolio auquel le projet appartient. Vous devez d’abord créer un portfolio avant qu’il n’apparaisse dans la liste déroulante.
-Seuls les portfolios actifs peuvent être associés à un projet. Pour plus d’informations sur la création de portfolios, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Créer un portfolio</a>.
-         <p><b>NOTE</b></p>
-         <p>Vous devez disposer des autorisations de niveau Gérer pour le portfolio afin de pouvoir l’ajouter ou le supprimer du projet.</p>
+      <td role="rowheader"><strong>Portfolio</strong></td> 
+      <td>Indiquez un Portfolio auquel le projet appartient. Vous devez d’abord créer un portfolio avant qu’il n’apparaisse dans la liste déroulante. Seuls les portfolios actifs peuvent être associés à un projet. Pour plus d’informations sur la création de portfolios, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Créer un portfolio</a>.
+      <p><b>NOTES</b></p>
+      <ul>
+      <li>Vous devez disposer des autorisations de niveau Gérer pour le portfolio afin de pouvoir l’ajouter ou le supprimer du projet.</li>
+      <li>Si votre entreprise utilise à la fois les types de stockage de documents Workfront et Adobe, vous ne pouvez pas associer un projet de stockage Workfront à un portfolio de stockage Adobe. Le contraire est également vrai. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.</li></ul> 
+      Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Présentation de la gestion des documents pour les projets et les objets associés</a>. 
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programme</strong></td> 
-         <td> <p>Si vous avez sélectionné un portfolio pour le projet, spécifiez également un programme. Certains portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme avant qu’il n’apparaisse dans cette liste déroulante. Seuls les programmes actifs peuvent être associés à un projet. </p> <p>Pour plus d’informations sur la création de programmes, voir <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p> 
-      <p><b>NOTE</b></p>
-         <p>Vous devez disposer des autorisations de niveau Gérer pour le programme afin de pouvoir l’ajouter ou le supprimer du projet.</p>   
-      </td> 
+         <td> <p>Si vous avez sélectionné un portfolio pour le projet, spécifiez également un programme. Certains portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme avant qu’il n’apparaisse dans cette liste déroulante. Seuls les programmes actifs peuvent être associés à un projet. </p> <p>Pour plus d’informations sur la création de programmes, voir la section <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p> 
+      <p><b>NOTES</b></p>
+      <ul>
+      <li>Vous devez disposer des autorisations de niveau Gérer pour le programme afin de pouvoir l’ajouter ou le supprimer du projet.</li>
+      <li>Si votre entreprise utilise à la fois les types de stockage de documents Workfront et Adobe, vous ne pouvez pas associer un projet de stockage Workfront à un programme de stockage Adobe. Le contraire est également vrai. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents. Les programmes héritent du type de stockage du portefeuille auquel ils appartiennent. </li></ul>
+
+   Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Présentation de la gestion des documents pour les projets et les objets associés</a>.
+
+   </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Groupe</strong></td> 
@@ -309,7 +316,7 @@ Seuls les portfolios actifs peuvent être associés à un projet. Pour plus d’
          <li><p>Si le projet, ses tâches ou ses problèmes sont déjà associés à un processus d’approbation au niveau du groupe à l’aide de statuts personnalisés au niveau du groupe, le changement de groupe peut créer un conflit entre les statuts d’approbation du groupe précédent et ceux existant au niveau du système.</p>
          <p>Envisagez de supprimer les processus d’approbation au niveau du groupe pour le projet, ses tâches ou ses problèmes avant de mettre à jour le groupe.</p>
          <p>Pour plus d’informations sur la création de processus d’approbation au niveau du groupe, voir <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processus d’approbation au niveau du groupe</a>.</p>
-         <p>Pour plus d’informations sur la création d’un statut personnalisé au niveau du groupe, voir <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Créer ou modifier un statut de groupe</a>.</p></li></ul> </td> 
+         <p>Pour plus d’informations sur la création d’un statut personnalisé au niveau du groupe, voir <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Créer ou modifier un statut de groupe</a></p></li></ul> </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Entreprise</strong> </td> 
@@ -343,7 +350,7 @@ Seuls les portfolios actifs peuvent être associés à un projet. Pour plus d’
    >
    >Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
    >
-   >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. (Facultatif) Continuez à modifier les sections suivantes, en fonction des informations que vous souhaitez modifier.
 
@@ -492,7 +499,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
       <td role="rowheader"><strong>Mode d’achèvement</strong> </td> 
       <td> <p>Contrôle la manière dont le projet est marqué comme terminé. Sélectionnez l’une des options suivantes : 
        <ul> 
-       <li><p><strong>Automatique</strong> : le projet est marqué comme Terminé lorsque toutes les tâches et tous les problèmes sont terminés.</p><p>Le statut du projet passe automatiquement à Terminé uniquement lorsque le statut du projet est Actif et lorsque les tâches sont terminées. </p></li> 
+       <li><p><strong>Automatique</strong> : le projet est marqué comme terminé lorsque toutes les tâches et tous les problèmes sont terminés.</p><p>Le statut du projet passe automatiquement à Terminé uniquement lorsque le statut du projet est Actif et lorsque les tâches sont terminées. </p></li> 
        <li><strong>Manuel</strong> : lorsque toutes les tâches et tous les problèmes sont terminés, vous devez sélectionner manuellement le statut Terminé pour le projet.</li> 
        </ul></p> </td> 
        </tr> 
@@ -501,7 +508,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
        <td> <p>Contrôle la manière dont les tâches parent sont marquées comme étant terminées. Sélectionnez l’une des options suivantes : 
        <ul> 
        <li><strong>Automatique</strong> : les tâches parent sont marquées comme Terminé et elles mettent à jour leur pourcentage terminé automatiquement, à mesure que les tâches enfant sont terminées et que le pourcentage terminé des enfants est mis à jour. </li> 
-       <li><strong>Manuel</strong> : vous devez mettre à jour manuellement le pourcentage terminé et le statut des tâches parent, indépendamment des modifications apportées aux tâches enfant. Cela vous permet de marquer une tâche parent comme étant terminée même si les sous-tâches sont incomplètes. </li> 
+       <li><strong>Manuel</strong> : la mise à jour du pourcentage d’achèvement et du statut des tâches parent doit être effectuée manuellement et ne dépend pas des changements réalisés sur les tâches enfant. Cela vous permet de marquer une tâche parent comme étant terminée même si les sous-tâches sont incomplètes. </li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -518,7 +525,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
        <td> <p>Sélectionnez un planning pour votre projet. Il doit s’agir du même planning que celui affecté à la plupart des personnes qui travaillent sur le projet. Vous devez créer un planning avant de pouvoir l’affecter à un projet ou à un utilisateur ou une utilisatrice. Si vous n’avez pas créé de plannings personnalisés dans votre système, la planning par défaut est sélectionné.</p> <p>Pour plus d’informations sur la création de plannings, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>. </p> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader"><strong>Congés de l’utilisateur ou de l’utilisatrice</strong> </td> 
+       <td role="rowheader"><strong>Congés de l’utilisateur ou utilisatrice</strong> </td> 
        <td> <p>Détermine si les congés de la personne cessionnaire principale d’une tâche modifient les dates prévues de la tâche dans le projet. </p><p>Votre administrateur ou administratrice Workfront<span> ou un administrateur ou une administratrice de groupe</span> sélectionne la valeur par défaut de ce paramètre pour votre système <span>ou votre groupe</span>. Pour plus d’informations sur la définition des valeurs par défaut d’un projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences de projet à l’échelle du système</a>. </p><p>Sélectionnez l’une des options suivantes :<br> - <strong>Prendre en compte les congés de l’utilisateur ou de l’utilisatrice dans la durée des tâches</strong> : lorsque vous sélectionnez cette option, les dates prévues des tâches sont ajustées en fonction des congés de la personne cessionnaire principale de la tâche, si les congés surviennent pendant la durée de la tâche. </p><p>Par exemple, si une tâche avec une contrainte de date Aussi Tôt Que Possible est planifiée pour commencer le 1er juin et se terminer le 3 juin, et que la personne cessionnaire principale est en congés le 2 juin, lorsque cette sélection est activée, les dates prévues de la tâche sont comprises entre le 1er et le 4 juin. Selon la contrainte de tâche, les scénarios suivants existent : </p> 
        <ul> 
        <li>Pour les contraintes de tâche liées à la planification à partir d’une date de début (Aussi Tôt Que Possible, Première Heure Disponible, Commencer Au Plus Tôt, Commencer Au Plus Tard, Il Faut Commencer Le), la date de début prévue ne change pas, mais la date d’achèvement prévue change.</li> 
@@ -549,7 +556,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
       </tr> 
       <tr> 
        <td role="rowheader"><strong>L'approbation pour ce projet demande du temps</strong></td> 
-       <td> <p> Sélectionnez cette option pour exiger que la personne propriétaire du projet approuve le temps consigné dans le projet. Si vous utilisez des enregistrements de facturation et que vous sélectionnez cette option, seules les heures approuvées sur le projet apparaissent comme des heures facturables disponibles pour les enregistrements de facturation. Approuver le temps consigné d’un projet ne nécessite pas l’approbation des feuilles de temps. </p> <p>Pour plus d’informations sur la demande d’approbation du temps d’un projet, voir <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Demander l’approbation du temps pour un projet</a>.</p> </td> 
+       <td> <p> Sélectionnez cette option pour exiger que la personne propriétaire du projet approuve le temps consigné dans le projet. Si vous utilisez des enregistrements de facturation et que vous sélectionnez cette option, seules les heures approuvées sur le projet apparaissent comme des heures facturables disponibles pour les enregistrements de facturation. Approuver le temps consigné d’un projet ne nécessite pas l’approbation des feuilles de temps. </p> <p>Pour plus d’informations sur la demande d’approbation du temps d’un projet, consultez la section <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Demander l’approbation du temps d’un projet</a>.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Filtrer les types d’heure</strong> et </span> <strong>Types d’heure</strong></td> 
@@ -569,7 +576,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
       </tr> 
       <tr data-mc-conditions=""> 
        <td role="rowheader"><strong>Processus d’approbation</strong></td> 
-       <td> <p>Sélectionnez le processus d’approbation que vous souhaitez associer au projet. Votre administrateur ou administratrice Workfront doit définir les processus d’approbation au niveau du système avant que vous puissiez les associer à des projets. <span>Un utilisateur ou une utilisatrice disposant d’un accès administratif aux processus d’approbation peut également créer des processus d’approbation spécifiques à un groupe.</span>Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les éléments de travail</a>.</p> <p>Tenez compte des éléments suivants lorsque vous ajoutez des processus d’approbation : </p> 
+       <td> <p>Sélectionnez le processus d’approbation que vous souhaitez associer au projet. Votre administrateur ou administratrice Workfront doit définir les processus d’approbation au niveau du système avant que vous puissiez les associer à des projets. <span>Un utilisateur disposant d'un accès administratif aux processus d'approbation peut également créer des processus d'approbation spécifiques à un groupe.</span> Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les éléments de travail</a>.</p> <p>Tenez compte des éléments suivants lorsque vous ajoutez des processus d’approbation : </p> 
        <ul> 
        <li>Seuls les processus d’approbation actifs sont affichés dans la liste. </li> 
        <li> <p>Les processus d’approbation à l’échelle du système et spécifiques au groupe s’affichent dans la liste. Un processus d’approbation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.</p> <p>Si le groupe associé au projet change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la manière dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications apportées au groupe et au processus d’approbation affectent les processus d’approbation affectés</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
@@ -690,11 +697,11 @@ Vous pouvez définir les autorisations que les utilisateurs reçoivent pour le p
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Lorsqu’une personne est affectée à une tâche</strong></td> 
-      <td><p>Choisissez parmi les accès <strong>Afficher</strong>, <strong>Contribuer</strong> ou <strong>Gérer</strong> à une tâche. L’utilisateur ou l’utilisatrice affecté à une tâche se voit automatiquement accorder cet accès à la tâche.</p></td> 
+      <td><p>Choisissez entre l’accès en <strong>Affichage</strong>, <strong>Contribution</strong> ou <strong>Gestion</strong> à une tâche. L’utilisateur ou l’utilisatrice affecté à une tâche se voit automatiquement accorder cet accès à la tâche.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Accorder également l’accès au projet</strong></td> 
-      <td><p>Sélectionnez parmi les accès <strong>Afficher</strong>, <strong>Contribuer</strong> ou <strong>Gérer</strong> au projet. L’utilisateur ou l’utilisatrice affecté à une tâche se voit automatiquement accorder cet accès au projet.<br></p></td> 
+      <td><p>Sélectionnez l’accès en <strong>Affichage</strong>, <strong>Contribution</strong>, ou <strong>Gestion</strong> au projet. L’utilisateur ou l’utilisatrice affecté à une tâche se voit automatiquement accorder cet accès au projet.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Lorsqu’une personne est affectée à un problème</strong></td> 
@@ -702,7 +709,7 @@ Vous pouvez définir les autorisations que les utilisateurs reçoivent pour le p
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Accorder également l’accès au projet</strong></td> 
-      <td><p>Choisissez parmi les accès <strong>Afficher</strong>, <strong>Contribuer</strong> ou <strong>Gérer</strong> à un projet. L’utilisateur ou l’utilisatrice affecté à un problème se voit automatiquement accorder cet accès au projet.<br></p></td> 
+      <td><p>Sélectionnez l’accès en <strong>Affichage</strong>, <strong>Contribution</strong> ou <strong>Gestion</strong> au projet. L’utilisateur ou l’utilisatrice affecté à un problème se voit automatiquement accorder cet accès au projet.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Lorsque quelqu’un soumet une demande : donnez-lui l’accès</strong></td> 
@@ -797,6 +804,10 @@ Tenez compte des points suivants lorsque vous modifiez des projets en bloc :
 
 * Lorsque vous sélectionnez plusieurs projets appartenant à des groupes différents, les statuts qui s’affichent dans le champ Statut sont des statuts au niveau du système et non au niveau du groupe.
 
+* Lorsque vous sélectionnez plusieurs projets qui disposent de différents types de stockage de documents et que vous souhaitez mettre à jour le Portfolio ou le programme pour les projets sélectionnés, vous ne pouvez pas associer un projet de stockage Workfront à un portfolio de stockage Adobe. Le contraire est également vrai. Dans ce cas, veillez à sélectionner uniquement les projets ayant des types de stockage similaires à la fois.
+
+  Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
+
 Pour modifier des projets en bloc, procédez comme suit :
 
 {{step1-to-projects}}
@@ -862,7 +873,7 @@ Pour plus d’informations sur la modification de la zone Accès, voir la sectio
    ![Icône Ignorer pour le champ Modifier les projets en bloc](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. (Facultatif) Cliquez sur **Annuler** en bas de la page **Modifier les projets** pour supprimer toutes les modifications apportées à tous les projets.
-1. Cliquer sur **Enregistrer**.
+1. Cliquez sur **Enregistrer**.
 
 
 <!--
