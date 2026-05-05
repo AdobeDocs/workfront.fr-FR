@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 5f254f051704e3b986daa5748f2fb198de472059
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 84%
+source-wordcount: '139'
+ht-degree: 85%
 
 ---
 
@@ -39,4 +39,5 @@ Cette section contient les articles suivants :
 * [Gérer un projet Agile dans la vue Tableau](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Vue d’ensemble des limites du projet](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [Comprendre les mesures du projet](../../../manage-work/projects/manage-projects/project-metrics.md)
-* [Résumé des mises à jour avec l’assistant AI](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+* [Résumer les mises à jour avec l’assistant IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+* [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
