@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
+source-git-commit: abca776dd79dcb1b5ef7c59745719a0faee5c845
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3977'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -102,6 +102,7 @@ Pour plus d’informations sur la gestion des projets dans Workfront, voir [Proj
 * Les programmes et les projets ne peuvent pas porter le même nom s&#39;ils appartiennent au même portefeuille.
 * Les documents ne peuvent pas porter le même nom s&#39;ils appartiennent au même projet.
 * Les noms d&#39;objet ne peuvent pas contenir les caractères spéciaux suivants : \ / : * ? &quot; | &lt; >
+* Les programmes, portfolios, projets, modèles, tâches, événements et dossiers de documents ne peuvent pas avoir de noms qui se terminent par un point ou un espace.
 * Les noms d’objet sont limités à 255 caractères maximum.
 
 Compte tenu de ces limitations, Workfront renomme automatiquement les objets ou les documents selon les besoins afin d’éviter les conflits.
@@ -175,7 +176,7 @@ Pour utiliser la révision et l’approbation unifiées, les conditions suivante
 
 * L’instance Workfront doit être activée sur l’expérience unifiée Adobe et le stockage d’entreprise Adobe.
 
-* Les clients Workfront doivent disposer d’un SKU V2 (cela peut nécessiter un événement de contrat ; contactez votre représentant de compte Adobe).
+* Les clients Workfront doivent disposer d’un SKU Workfront V2. Si votre organisation ne dispose pas déjà d’un SKU Workfront V2, un événement de contrat avec Adobe est nécessaire pour ajouter le SKU Workfront V2 à votre contrat. Contactez votre représentant de compte Adobe.
 
 **Ai-je besoin d’une licence Frame.io pour utiliser cette intégration ?**
 
@@ -193,13 +194,13 @@ Les clients existants conserveront l’accès à la fonctionnalité de vérifica
 
 **Que dois-je faire pour obtenir l’accès ?**
 
-Pour accéder à la révision et à l’approbation unifiées, votre organisation doit utiliser un SKU Workfront V2. Si vous n’utilisez pas actuellement de SKU V2, un événement de contrat avec Adobe sera nécessaire. Pour démarrer :
+Pour accéder à la révision et à l’approbation unifiées, votre organisation doit disposer d’un SKU Workfront V2. Toute organisation qui n’utilise pas encore un SKU Workfront V2 doit passer par un événement de contrat avec Adobe pour ajouter le SKU Workfront V2. Pour démarrer :
 
-* Contactez votre représentant de compte Adobe pour confirmer si votre plan Workfront actuel prend en charge la révision et l’approbation unifiées.
+* Contactez votre représentant de compte Adobe pour confirmer si votre contrat Workfront actuel est sur un SKU Workfront V2.
 
-* Si une mise à niveau du SKU est nécessaire, votre représentant de compte vous guidera tout au long du processus de passation de contrats.
+* Si votre organisation ne dispose pas d’un SKU Workfront V2, votre représentant de compte vous guidera tout au long de l’événement de contrat nécessaire pour l’ajouter.
 
-* Une fois que votre compte utilise le bon SKU, Adobe Professional Services configure l’intégration pour votre organisation.
+* Une fois que votre contrat inclut le SKU Workfront V2, Adobe Professional Services configure l’intégration pour votre organisation.
 
    * Si vous ne savez pas qui est votre représentant de compte Adobe, vous pouvez contacter par le biais du portail d’assistance Adobe ou consulter Experience League pour connaître les options de contact.
 
@@ -404,6 +405,8 @@ Oui. Comme l’intégration utilise le stockage d’entreprise d’Adobe, les co
 
 * Les noms de programmes, portfolios, projets, modèles, tâches, événements, documents et dossiers de documents ne peuvent pas contenir les caractères spéciaux suivants : `\ / : * ? " | < >` et sont limités à 255 caractères.
 
+* Les programmes, portfolios, projets, modèles, tâches, événements et dossiers de documents ne peuvent pas avoir de noms qui se terminent par un point ou un espace.
+
 Workfront renomme automatiquement les objets ou les documents selon les besoins pour éviter les conflits.
 
 **Quels types de fichiers sont pris en charge dans la visionneuse Frame.io ?**
@@ -488,23 +491,23 @@ Pour plus d’informations sur la configuration et l’utilisation d’AI Review
 
 **Quand la révision et l’approbation unifiées seront-elles disponibles pour moi ?**
 
-La révision et l’approbation unifiées sont maintenant disponibles. Access nécessite une mise à niveau vers un SKU Workfront V2. Si votre contrat a été signé avant la disponibilité des SKU V2, vous pouvez y accéder de deux façons :
+La révision et l’approbation unifiées sont maintenant disponibles. L’accès nécessite un SKU Workfront V2. Si votre contrat a été signé avant que les SKU Workfront V2 ne soient disponibles, l’ajout du SKU Workfront V2 nécessite un événement de contrat avec Adobe. Il existe deux chemins :
 
-* Lors du renouvellement : l’accès sera activé à la prochaine date de renouvellement de votre contrat.
+* Lors du renouvellement : le SKU Workfront V2 est ajouté à votre prochaine date de renouvellement de contrat.
 
-* Réengagement anticipé : votre équipe de compte Adobe peut vous réengager plus tôt pour ajouter les nouveaux droits de SKU tout en conservant la date de fin de votre contrat existant. Il n&#39;y a pas d&#39;augmentation de prix lorsque vous passez à un forfait équivalent.
+* Réengagement anticipé : votre équipe de compte Adobe peut vous réengager plus tôt pour ajouter les droits de SKU Workfront V2 tout en conservant la date de fin de votre contrat existant. Il n&#39;y a pas d&#39;augmentation de prix lorsque vous passez à un forfait équivalent.
 
 Contactez votre représentant de compte Adobe pour déterminer le meilleur chemin d’accès pour votre organisation.
 
 <!--
 **Before we sign the contract, what changes will we see in Workfront?**
 
-Before signing the V2 SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 SKU is contracted and Adobe Professional Services configures the integration for your organization.
+Before signing the V2 Workfront SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 Workfront SKU is contracted and Adobe Professional Services configures the integration for your organization.
 -->
 
-**La mise à niveau vers le SKU V2 m’offre-t-elle plus de stockage ?**
+**La mise à niveau vers le SKU Workfront V2 m’offre-t-elle plus de stockage ?**
 
-Oui. Avec le SKU V2, chaque utilisateur sous licence reçoit 60 Go de stockage, contre 30 Go dans la version précédente.
+Oui. Avec le SKU Workfront V2, chaque utilisateur sous licence reçoit 60 Go de stockage, contre 30 Go dans la version précédente.
 
 **Comment choisir entre le stockage d’entreprise Adobe et le stockage Workfront hérité ?**
 
@@ -516,7 +519,7 @@ Le stockage d’entreprise vous offre la possibilité de déployer la nouvelle e
 
 **Comment les licences Frame.io sont-elles gérées ?**
 
-Après avoir signé le SKU V2, tous les utilisateurs de Workfront auront accès à la visionneuse Frame.io pour les workflows de révision et d’approbation. Aucune licence Entreprise Frame.io distincte n’est requise pour cela.
+Après avoir signé le SKU Workfront V2, tous les utilisateurs de Workfront auront accès à la visionneuse Frame.io pour les workflows de révision et d’approbation. Aucune licence Entreprise Frame.io distincte n’est requise pour cela.
 
 Si votre entreprise a besoin de fonctionnalités supplémentaires de Frame.io Enterprise telles que
 

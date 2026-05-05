@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '875'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Cette interface mise à jour simplifie la navigation, améliore la clarté et pe
 
 Les documents ne peuvent pas être partagés individuellement. Au lieu de cela, le système génère automatiquement un dossier pour chaque tâche ou événement et hérite des autorisations de la tâche ou de l’événement. Tous les documents chargés vers la tâche ou l’événement sont stockés dans ce dossier généré.
 
-Pour plus d’informations sur le nouveau modèle d’autorisation de document, voir [&#x200B; Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Pour plus d’informations sur le nouveau modèle d’autorisation de document, voir [ Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ##### Objets liés dans des dossiers
 
@@ -95,7 +95,9 @@ Ces actions sont disponibles à partir du menu Plus sur une tâche ou un événe
 
 ## Activer le stockage d’entreprise d’Adobe
 
-Les clients existants peuvent activer le stockage d’entreprise Adobe dans leur environnement lors du renouvellement du contrat. Pour plus d’informations sur l’activation du stockage d’entreprise Adobe, voir [&#x200B; Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+Votre contrat Workfront doit inclure un SKU Workfront V2 pour utiliser le stockage d’entreprise Adobe. Pour plus d’informations sur les exigences de SKU de Workfront V2, consultez le FAQ dans [Présentation de la révision et approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval).
+
+Pour plus d’informations sur l’activation du stockage d’entreprise Adobe dans votre environnement, voir [Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 >[!NOTE]
 >
