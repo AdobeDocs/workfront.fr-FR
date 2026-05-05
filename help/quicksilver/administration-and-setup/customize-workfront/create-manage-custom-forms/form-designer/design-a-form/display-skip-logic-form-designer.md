@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: e5fb42aa8d9eae17e1bddbd9832bdf064bc4605e
+source-git-commit: f177f0b678c8ac31241cb103d13ecd0f11cabd1e
 workflow-type: tm+mt
 source-wordcount: '3571'
 ht-degree: 28%
@@ -70,7 +70,7 @@ Cliquez sur **Afficher la logique** dans l’en-tête du concepteur de formulair
 | ![Logique de validation du champ de référence](assets/validation-logic-reference-field.png) | Le champ est le champ de référence de la logique de validation. Une sélection ou une valeur spécifique sur ce champ détermine si la validation échoue sur le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de validation. |
 | ![Logique de valeur par défaut pour le champ cible](assets/default-value-logic-icon.png) | Le champ est le champ cible dans lequel la logique de valeur par défaut est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la valeur par défaut. Le champ cible et le champ de référence peuvent être identiques pour la logique de valeur par défaut. |
 | ![Logique de valeur par défaut pour le champ de référence](assets/default-value-logic-reference-field.png) | Le champ est le champ de référence de la logique de valeur par défaut. Une sélection ou une valeur spécifique dans ce champ détermine la valeur par défaut dans le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de valeur par défaut. |
-| ![Logique de formatage du champ cible &#x200B;](assets/formatting-logic-icon.png) | Le champ est le champ cible dans lequel la logique de formatage est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la mise en forme. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
+| ![Logique de formatage du champ cible ](assets/formatting-logic-icon.png) | Le champ est le champ cible dans lequel la logique de formatage est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la mise en forme. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
 | ![Logique de formatage du champ de référence](assets/formatting-logic-reference-field.png) | Le champ est le champ de référence pour la logique de formatage. Une sélection ou une valeur spécifique dans ce champ détermine la mise en forme dans le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
 | ![Logique de modifiabilité du champ cible](assets/editability-logic-icon.png) | Le champ est le champ cible dans lequel la logique d&#39;édition est appliquée. Le champ peut être modifiable ou en lecture seule lorsque les conditions définies sont remplies. Le champ cible et le champ de référence peuvent être identiques pour la logique de modifiabilité. |
 | ![Logique de modifiabilité du champ de référence](assets/editability-logic-reference-field.png) | Le champ est le champ de référence de la logique d’édition. Lorsque les conditions définies sont remplies sur ce champ, la logique est appliquée au champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de modifiabilité. |
@@ -151,9 +151,9 @@ Aucune logique n’est appliquée à la section par défaut du formulaire. Elle 
 
 Si vous utilisez la condition suivante, la section Ressources requises n’est affichée que lorsqu’un utilisateur disposant de la fonction Gestionnaire de ressources consulte le formulaire.
 
-```IF($$USER.{roleID}="123abc", true)```
+`IF($$USER.{roleID}="123abc", true)`
 
-Notez que ```123abc``` représente l’ID de rôle du gestionnaire de ressources.
+Notez que `123abc` représente l’ID de rôle du gestionnaire de ressources.
 
 ![Section de formulaire affichée pour le rôle](assets/advanced-display-on-form1.png)
 
@@ -161,7 +161,7 @@ La même condition avec un ID de rôle différent est appliquée à la section K
 
 Si vous utilisez la condition suivante, le champ KPI Vendu n’est visible qu’une fois le projet terminé. Cette logique est appliquée directement au champ plutôt qu’à une section de formulaire. Il n’est pas nécessaire de spécifier quel rôle peut afficher le champ, car cela est déjà défini dans la section dans laquelle se trouve le champ.
 
-```IF({status}="CPL", true)```
+`IF({status}="CPL", true)`
 
 ![Le champ est visible sur le projet terminé](assets/advanced-display-on-form2.png)
 
