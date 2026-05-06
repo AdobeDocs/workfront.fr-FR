@@ -195,7 +195,7 @@ Pour supprimer des adresses [!DNL Workfront Proof] « [!UICONTROL de] » de la
 
 Dans cette section :
 
-* Ajoutez les deux adresses [!DNL Workfront Proof] « [!UICONTROL de] » à votre [!DNL Aol][!UICONTROL Carnet d’adresses]
+* Ajoutez les deux adresses [!DNL Workfront Proof] « [!UICONTROL de] » à votre [!DNL Aol] [!UICONTROL Carnet d’adresses]
 * Supprimer tous les e-mails [!DNL Workfront Proof] existants du dossier [!DNL Aol] [!UICONTROL Spam] et toutes les adresses [!DNL Workfront Proof] « [!UICONTROL De] » de la liste d’adresses bloquées dans le filtre [!UICONTROL Spam] [!DNL Aol]r 
 
 ### Pour les nouveaux e-mails [!DNL Workfront Proof]
