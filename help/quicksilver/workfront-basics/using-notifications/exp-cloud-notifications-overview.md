@@ -5,14 +5,13 @@ description: Adobe Workfront a unifié tous les produits d’expériences digita
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
-source-git-commit: 0c21f5a1df8bf1bc54d4ca73ba8d02808432e321
+exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
-
 
 # Présentation des notifications Experience Cloud
 
@@ -52,7 +51,7 @@ Workfront fait partie de la suite de produits d’expérience digitale d’Adobe
 
 1. Dans le coin supérieur droit de Workfront, cliquez sur l’icône **Notifications** ![Icône Notifications](assets/bell-icon.png).
 
-1. Dans le panneau **Notifications Experience Cloud** qui s’ouvre, sélectionnez **Notifications**. Une liste de vos notifications s’affiche, la notification la plus récente apparaissant en haut de la liste.
+1. Dans le panneau **Notifications** qui s’ouvre, sélectionnez **Notifications**. Une liste de vos notifications s’affiche, la notification la plus récente apparaissant en haut de la liste.
 
 1. Cliquez sur une notification pour la marquer comme *Lecture* et la supprimer de la liste des notifications récentes.
 
@@ -70,7 +69,7 @@ Workfront fait partie de la suite de produits d’expérience digitale d’Adobe
 
 1. Dans le coin supérieur droit de Workfront, cliquez sur l’icône **Notifications** ![Icône Notifications](assets/bell-icon.png).
 
-1. Dans le coin supérieur droit du panneau **Experience Cloud**, cliquez sur l’icône **Paramètres** Icône![Paramètres](assets/settings-icon.png).
+1. Dans le coin supérieur droit du panneau **&#x200B;**, cliquez sur l’icône **Paramètres** Icône![Paramètres](assets/settings-icon.png).
 
 1. Dans la section **Notifications**, cliquez sur l’icône de flèche ![flèche de la mosaïque Workfront](assets/arrow-icon.png) sur la mosaïque **Workfront**.
 
@@ -101,4 +100,3 @@ Si vous devez replanifier la transition, contactez l’équipe en charge de votr
 
 Non. Toutes les intégrations et automatisations existantes continueront à fonctionner comme d’habitude.
 +++
-

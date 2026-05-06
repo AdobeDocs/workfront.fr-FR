@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: f177f0b678c8ac31241cb103d13ecd0f11cabd1e
 workflow-type: tm+mt
-source-wordcount: '3544'
-ht-degree: 27%
+source-wordcount: '3571'
+ht-degree: 28%
 
 ---
 
@@ -75,7 +75,7 @@ Cliquez sur **Afficher la logique** dans l’en-tête du concepteur de formulair
 | ![Logique de modifiabilité du champ cible](assets/editability-logic-icon.png) | Le champ est le champ cible dans lequel la logique d&#39;édition est appliquée. Le champ peut être modifiable ou en lecture seule lorsque les conditions définies sont remplies. Le champ cible et le champ de référence peuvent être identiques pour la logique de modifiabilité. |
 | ![Logique de modifiabilité du champ de référence](assets/editability-logic-reference-field.png) | Le champ est le champ de référence de la logique d’édition. Lorsque les conditions définies sont remplies sur ce champ, la logique est appliquée au champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de modifiabilité. |
 
-[Icônes de logique](assets/custom-form-logic-icon-samples.png)
+![Icônes de logique](assets/custom-form-logic-icon-samples.png)
 
 Pour afficher et ignorer la logique uniquement, sélectionnez un champ pour afficher les règles de logique existantes dans les paramètres du champ.
 
@@ -151,9 +151,9 @@ Aucune logique n’est appliquée à la section par défaut du formulaire. Elle 
 
 Si vous utilisez la condition suivante, la section Ressources requises n’est affichée que lorsqu’un utilisateur disposant de la fonction Gestionnaire de ressources consulte le formulaire.
 
-```IF($$USER.{roleID}="123abc", true)```
+`IF($$USER.{roleID}="123abc", true)`
 
-Notez que ```123abc``` représente l’ID de rôle du gestionnaire de ressources.
+Notez que `123abc` représente l’ID de rôle du gestionnaire de ressources.
 
 ![Section de formulaire affichée pour le rôle](assets/advanced-display-on-form1.png)
 
@@ -161,7 +161,7 @@ La même condition avec un ID de rôle différent est appliquée à la section K
 
 Si vous utilisez la condition suivante, le champ KPI Vendu n’est visible qu’une fois le projet terminé. Cette logique est appliquée directement au champ plutôt qu’à une section de formulaire. Il n’est pas nécessaire de spécifier quel rôle peut afficher le champ, car cela est déjà défini dans la section dans laquelle se trouve le champ.
 
-```IF({status}="CPL", true)```
+`IF({status}="CPL", true)`
 
 ![Le champ est visible sur le projet terminé](assets/advanced-display-on-form2.png)
 
@@ -171,7 +171,7 @@ Si vous utilisez la condition suivante, le champ KPI Vendu n’est visible qu’
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Ajoutez des champs au formulaire selon vos besoins.
+1. Ajoutez des champs au formulaire si nécessaire.
 1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
 1. Sélectionnez l’onglet **Affichage** dans le créateur de logiques.
 1. Activez **Mode avancé**.
@@ -250,7 +250,7 @@ Lorsque le formulaire personnalisé est joint à un projet et que le statut du p
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Ajoutez des champs au formulaire selon vos besoins.
+1. Ajoutez des champs au formulaire si nécessaire.
 1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
 1. Sélectionnez l’onglet **Valeur par défaut** dans le créateur de logiques.
 
@@ -299,7 +299,7 @@ Pour obtenir d’autres exemples de logique de validation, voir [Exemples de log
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Ajoutez des champs au formulaire selon vos besoins.
+1. Ajoutez des champs au formulaire si nécessaire.
 1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
 1. Sélectionnez l’onglet **Validation** dans le créateur de logiques.
 
@@ -345,7 +345,7 @@ IF(
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Ajoutez des champs au formulaire selon vos besoins.
+1. Ajoutez des champs au formulaire si nécessaire.
 1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
 1. Sélectionnez l’onglet **Formatage** dans le créateur de logiques.
 
@@ -412,7 +412,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Créez un formulaire personnalisé ou ouvrez un formulaire existant. Pour plus d’informations, consultez [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Ajoutez des champs au formulaire selon vos besoins.
+1. Ajoutez des champs au formulaire si nécessaire.
 1. Sélectionnez le champ auquel appliquer la logique, puis cliquez sur **Ajouter une logique**.
 1. Sélectionnez l’onglet **Modifiabilité** dans le créateur de logiques.
 

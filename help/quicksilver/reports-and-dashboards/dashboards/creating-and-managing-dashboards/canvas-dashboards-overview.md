@@ -1,13 +1,12 @@
 ---
 title: Vue d’ensemble des tableaux de bord de zone de travail
 description: Vous pouvez créer des tableaux de bord de zones de travail qui intègrent des visualisations de zones de travail de reporting dans des rapports traditionnels et offrent de nouvelles options de disposition.
-hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '644'
 ht-degree: 92%
 
 ---
@@ -63,7 +62,7 @@ Une nouvelle option « Tableaux de bord de zones de travail » dans le panneau
 
 1. Cliquez sur **Sans titre** dans le coin supérieur gauche pour saisir un nom pour le tableau de bord.
 
-1. Cliquez sur **Terminé** dans le coin supérieur droit pour enregistrer votre nouveau tableau de bord ou commencer à ajouter des widgets comme décrit dans la section ci-dessous **Ajouter un rapport à un tableau de bord de zones de travail** 
+1. Cliquez sur **Terminé** dans le coin supérieur droit pour enregistrer votre nouveau tableau de bord ou commencer à ajouter des widgets comme décrit dans la section ci-dessous **Ajouter un rapport à un tableau de bord de zones de travail**
 
 ### Ajouter un rapport à un tableau de bord de zones de travail
 

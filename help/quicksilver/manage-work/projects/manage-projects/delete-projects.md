@@ -9,10 +9,10 @@ exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 82%
+source-wordcount: '1106'
+ht-degree: 76%
 
 ---
 
@@ -99,7 +99,7 @@ Old:
 
 * Si le projet a des tâches ou des problèmes avec des heures consignées, l’administrateur ou administratrice Workfront ou de groupes doit autoriser la suppression de ces tâches en configurant les préférences de tâches et de problèmes dans votre instance Workfront pour que vous puissiez supprimer le projet qui contient les tâches.
 
-  Pour plus d’informations sur l’activation de la suppression de tâches, de problèmes ou de projets pour lesquels des heures sont consignées, voir la section « Suppression » dans [Configurer les préférences de tâches et de problèmes à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Pour plus d’informations sur l’activation de la suppression des tâches, événements ou projets pour lesquels des heures sont enregistrées, voir la section « Suppression » dans [Configurer les préférences de tâche et d’événement à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -114,6 +114,8 @@ Old:
    * Documents
 
      Vous ne pouvez pas supprimer un projet auquel est joint un document qui a été extrait. Pour plus d’informations sur l’extraction de documents, voir [Extraire des documents](../../../documents/managing-documents/check-out-documents.md).
+
+     Vous ne pouvez pas restaurer des documents individuels qui ont été supprimés lorsque le projet a été supprimé à partir de l’onglet Documents dans la Corbeille. Vous ne pouvez restaurer les documents supprimés que lorsque le projet a été supprimé.
 
    * Tâches
    * Sous-tâches
@@ -153,7 +155,7 @@ Old:
 
    * Si vous récupérez le projet supprimé, le projet est également restauré en tant qu’activité de l’objectif.
 
-     Cela nécessite une licence supplémentaire. Pour plus d’informations sur les Objectifs Workfront, voir [Vue d’ensemble des Objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     Cette fonction nécessite une licence supplémentaire. Pour plus d’informations sur les Objectifs Workfront, voir [Vue d’ensemble des Objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
      Pour plus d’informations sur l’association de projets à des objectifs, voir [Ajouter des projets aux objectifs dans les Objectifs Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 

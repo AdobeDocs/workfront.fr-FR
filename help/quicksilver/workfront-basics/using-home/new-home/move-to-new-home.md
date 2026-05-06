@@ -5,12 +5,11 @@ title: Déplacer de l’ancienne page d’accueil vers la nouvelle
 description: La page d’accueil héritée sera supprimée de Workfront le 17 octobre avec la version du 4e trimestre. Cet article fournit des informations sur les fonctionnalités qui seront disponibles dans la nouvelle page d’accueil, ainsi que des recommandations pour déplacer les utilisateurs vers la nouvelle expérience Page d’accueil .
 author: Courtney
 hide: true
-hidefromtoc: true
 feature: Get Started with Workfront
 exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
-source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1667'
 ht-degree: 31%
 
 ---

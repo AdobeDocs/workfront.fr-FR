@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
+source-git-commit: 2a08a1139664517b9ccf41121e8bb0dc686028ab
 workflow-type: tm+mt
-source-wordcount: '2714'
-ht-degree: 74%
+source-wordcount: '2720'
+ht-degree: 75%
 
 ---
 
@@ -67,7 +67,7 @@ Un champ personnalisé calculé peut contenir :
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -171,7 +171,7 @@ Pour réutiliser un champ personnalisé calculé existant :
      </tr>
      <tr>
       <td>Autorisation automatique</td>
-      <td><p>Activez cette option pour permettre aux autorisations financières de provenir automatiquement des champs utilisés dans la formule. Les définitions des autorisations sont affichées dans le champ Type d’autorisation Finance, ci-dessous.</p><p>L'accès est requis pour tous les champs de la formule. Par exemple, si deux champs sont utilisés dans un champ calculé et que l’un d’eux dispose d’une autorisation de facturation et que le second dispose d’une autorisation de coûts, l’utilisateur doit disposer des autorisations pour afficher les taux de facturation et de coûts afin d’afficher la valeur calculée.</p></td>
+      <td><p>Activez cette option pour permettre aux autorisations financières de provenir automatiquement des champs utilisés dans la formule. Les définitions des autorisations sont affichées dans le champ Type d’autorisation Finance, ci-dessous.</p><p>L'accès est requis pour tous les champs de la formule. Par exemple, si un champ calculé utilise deux champs, l’un avec des autorisations de facturation et l’autre avec des autorisations de coûts, l’utilisateur doit disposer des autorisations pour afficher les deux pour voir la valeur calculée.</p></td>
      </tr>
      <tr>
       <td>Type d’autorisation financière</td>
@@ -189,7 +189,7 @@ Pour réutiliser un champ personnalisé calculé existant :
    </table>
 
 1. Dans la boîte **Calcul**, commencez à créer votre calcul :
-   1. Cliquez sur **Agrandir** pour ouvrir l’éditeur de calculs et créer votre calcul.
+   1. Cliquez sur **Maximiser** pour ouvrir l’éditeur de calcul et créer votre calcul.
 Un calcul commence généralement par une expression, suivie de parenthèses contenant les champs que vous souhaitez référencer lorsque le formulaire personnalisé est joint à un objet.
 
       Chaque champ doit être entouré d’accolades. Lorsque vous commencez à saisir le nom d’un champ, vous pouvez sélectionner l’une des suggestions du système pour l’insérer dans votre calcul.

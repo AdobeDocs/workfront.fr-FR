@@ -1,12 +1,11 @@
 ---
-title: Impossible de se connecter à l’application mobile de  [!DNL Workfront Proof]
+title: 'Impossible de se connecter à l’application mobile de  [!DNL Workfront Proof] '
 description: Résolvez les problèmes de connexion à l’application mobile Workfront Proof.
 hide: true
-hidefromtoc: true
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problème
 

@@ -5,7 +5,7 @@ description: La barre de navigation supérieure, qui s’affiche en haut de l’
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
+source-git-commit: 201a4430cfaa10bb99ef63ec96ecdccd3b07b0f1
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 93%
@@ -29,14 +29,6 @@ Par défaut, l’icône d’accueil ouvre la zone d’accueil. Pour plus d’inf
 Votre administrateur ou administratrice Workfront peut personnaliser l’icône d’accueil pour ouvrir une autre page en créant un modèle de mise en page et en vous l’affectant. Pour plus d’informations, voir [Personnaliser la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## [!UICONTROL Menu principal]
-
-<!--
->[!IMPORTANT]
->
->The Main Menu described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
->
-> If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
--->
 
 L’icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon-left-nav.png) ouvre le [!UICONTROL menu principal], d’où vous pouvez accéder à une autre zone de Workfront.
 

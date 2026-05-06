@@ -8,10 +8,10 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 500bf31ff0cff309cb0cdda063503abb297f858c
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 93%
+source-wordcount: '2636'
+ht-degree: 91%
 
 ---
 
@@ -122,7 +122,9 @@ Vous pouvez lier des documents à Workfront à partir d’une application extern
 
 >[!IMPORTANT]
 >
->Dropbox stocke les documents en fonction du chemin d’accès au fichier. Pour cette raison, si un fichier lié à partir de Dropbox est déplacé, renommé ou supprimé, il devient inaccessible dans Workfront.
+>* Dropbox stocke les documents en fonction du chemin d’accès au fichier. Pour cette raison, si un fichier lié à partir de Dropbox est déplacé, renommé ou supprimé, il devient inaccessible dans Workfront.
+>* La navigation dans les dossiers OneDrive partagés dans le sélecteur de fichiers n’est pas prise en charge. Pour lier un fichier qui a été partagé avec vous, utilisez la barre de recherche du sélecteur de fichiers OneDrive pour localiser le fichier par nom, puis sélectionnez-le pour l’ajouter à Workfront.
+
 
 1. Accédez à la zone **Documents** de Workfront où vous souhaitez placer le document.
 1. Cliquez sur **Ajouter**, puis cliquez sur le fournisseur de documents externe depuis lequel vous souhaitez lier des documents à Workfront.

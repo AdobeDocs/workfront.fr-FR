@@ -6,9 +6,9 @@ description: Selon que votre administrateur Workfront choisit votre préférence
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Cette préférence permet de stocker automatiquement les documents joints aux ob
 
 >[!IMPORTANT]
 >
->Tous les clients n’ont pas accès à la fois au stockage Workfront et Adobe. Certains clients n’ont accès qu’à Workfront, tandis que d’autres n’ont accès qu’au stockage Adobe Enterprise par défaut. Aucune configuration n’est nécessaire pour les clients sans accès au stockage Workfront.
+>Votre instance Workfront peut ne pas avoir accès à la fois au stockage Workfront et Adobe. Certaines instances Workfront n’ont accès qu’à Workfront, tandis que d’autres n’ont accès qu’au stockage Adobe Enterprise par défaut. Aucune configuration n’est nécessaire pour les clients qui n’ont accès qu’à un seul type de stockage.
 
 L’administrateur Workfront peut effectuer l’une des opérations suivantes :
 
@@ -120,7 +120,7 @@ Les clients peuvent avoir accès à l’une des fonctionnalités de stockage de 
   >* Les programmes héritent du type de stockage du portefeuille.
 
 
-Les documents stockés sur des objets dans le stockage Workfront sont gérés différemment de ceux stockés dans le stockage d’entreprise Adobe.
+Les documents stockés sur des objets dans le stockage Workfront sont gérés différemment de ceux stockés dans le stockage d’entreprise d’Adobe.
 
 Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -179,7 +179,7 @@ Tenez compte des points suivants lorsque vous utilisez des modèles :
 * Lorsque vous créez un modèle de stockage d’entreprise Adobe, Workfront crée un dossier dans la section Documents du modèle où les documents sont enregistrés. Le nom du dossier est identique à celui du programme. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du modèle afin qu’il corresponde au nouveau nom du modèle.
 * Vous pouvez utiliser un modèle de stockage Workfront pour créer des projets de stockage Workfront ; un modèle de stockage Adobe pour créer un projet de stockage Adobe.
 * Vous pouvez joindre un modèle de stockage Workfront à un projet de stockage Adobe, sans modifier l’emplacement de stockage du projet.
-* Vous pouvez joindre un modèle de stockage Adobe à un projet de stockage Workfront, sans modifier l’emplacement de stockage du projet.
+* Vous pouvez joindre un modèle de stockage Adobe à un projet de stockage Workfront, sans modifier l’emplacement de stockage du projet. Les documents du dossier de stockage Adobe pour le modèle sont ajoutés directement au projet, sans le dossier , tandis que les documents des dossiers de tâches de modèles sont ajoutés aux dossiers joints aux tâches du projet dans la section Documents des tâches.
 
 ### Gestion des documents pour les tâches de modèles
 

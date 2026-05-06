@@ -6,12 +6,11 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 98%
+source-wordcount: '903'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +36,7 @@ Pour plus d’informations sur la configuration de SAML avant votre migration ve
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -57,7 +56,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Utiliser Okta comme fournisseur d’identité
 
-Okta est un exemple de fournisseur d’identité qui prend en charge SAML 2.0. Cette section décrit comment utiliser Okta en tant que fournisseur d’identité. Des étapes similaires sont requises lors de la configuration d’un autre fournisseur d’identité prenant en charge SAML 2.0.
+Okta est un exemple de fournisseur d’identité qui prend en charge SAML 2.0. Cette section décrit comment utiliser Okta en tant que fournisseur d’identité. Des étapes similaires sont requises lors de la configuration d’un autre fournisseur d’identité prenant en charge SAML 2.0.
 
 >[!NOTE]
 >
@@ -115,7 +114,7 @@ Cette procédure fournit des informations essentielles pour configurer Okta en t
 
    1. Connectez-vous à votre environnement Okta.
    1. Assurez-vous que l’option **IU classique** est sélectionnée dans le coin supérieur gauche de l’interface d’Okta.
-   1. Dans le menu, cliquez sur **Applications** > **Applications**.
+   1. Dans le menu, cliquez sur **Applications** > **Applications**.
 
    1. Cliquez sur l’application Workfront que vous avez créée, comme décrit dans la section [Créer une application Workfront dans Okta.](#create-a-workfront-app-in-okta)
    1. Sur l’onglet **Authentification**, cliquez sur **Métadonnées du fournisseur d’identité**.

@@ -6,15 +6,14 @@ description: Examinez l’activité de publication hebdomadaire pour découvrir 
 author: Alina
 feature: Product Announcements
 hide: true
-hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1870'
-ht-degree: 96%
+source-wordcount: '2031'
+ht-degree: 94%
 
 ---
 
@@ -94,7 +93,7 @@ Prévisualisation et production pour tous les clientes et clients : 24 août 
 
 ### Semaine du 14 août 2023
 
-[Regarder une démonstration vidéo de toutes les fonctionnalités publiées au cours de la semaine du 14 août 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
+[Regardez une vidéo de démonstration de toutes les fonctionnalités publiées pendant la semaine du 14 août 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Nouvelle expérience de commentaires d’objets supplémentaires
 

@@ -2,12 +2,11 @@
 title: 'Workfront Proof : application mobile pour tablettes'
 description: L’application pour tablette  [!DNL Workfront Proof]  vous permet de réviser et d’approuver facilement vos épreuves lorsque vous êtes en déplacement. L’application est disponible en téléchargement et vous n’avez pas besoin d’être un utilisateur ou une utilisatrice  [!DNL Workfront Proof]  pour pouvoir réviser les épreuves sur votre tablette ou votre téléphone.
 hide: true
-hidefromtoc: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 100%
+source-wordcount: '1997'
+ht-degree: 98%
 
 ---
 
@@ -188,7 +187,7 @@ L’outil de comparaison affiche les deux versions les plus récentes de l’ép
 
    ![version_dropdowns.png](assets/version-dropdowns-350x265.png)
    ![folder_browser.png](assets/folder-browser-350x269.png)
-L’outil de comparaison vous permet de comparer les versions côte à côte pour vérifier si les changements demandés ont été effectués. Si vous déverrouillez la navigation, vous pourrez comparer différentes pages des deux versions.
+L’outil de comparaison vous permet de comparer des versions côte à côte pour vérifier si les modifications demandées ont été effectuées. Si vous déverrouillez la navigation, vous pourrez comparer différentes pages des deux versions.
 
    ![unlock_navigation.png](assets/unlock-navigation-350x266.png)
 

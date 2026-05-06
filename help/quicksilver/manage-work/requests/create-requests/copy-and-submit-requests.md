@@ -8,17 +8,17 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 78%
+source-wordcount: '1734'
+ht-degree: 69%
 
 ---
 
 # Copier et soumettre les demandes
 
 
-Lorsque vous soumettez fréquemment des demandes similaires, vous pouvez copier une demande déjà soumise. Dans ce cas, vous pouvez copier une demande existante, y apporter des modifications minimes et la soumettre à nouveau en tant que nouvelle demande.
+Lorsque vous soumettez fréquemment des demandes similaires, vous pouvez copier une demande soumise existante. Dans ce cas, vous pouvez copier une demande existante, y apporter des modifications minimes et la soumettre à nouveau en tant que nouvelle demande. La demande est soumise à la même file d’attente de demandes que la demande d’origine.
 
 ## Conditions d’accès
 
@@ -232,16 +232,16 @@ Si votre société a acheté un package Workfront Planning, vous ne pouvez pas c
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>Affectations</strong></span> </td> 
-      <td> <p>Indiquez le nom d’une personne active, d’une fonction ou d’une équipe à qui la demande doit être affectée. </p> <p> Vous pouvez spécifier plus d’une personne, d’une fonction ou d’une équipe. </p> <p>En fonction de la configuration de la file d’attente des demandes, il se peut que vous ne puissiez attribuer la demande qu’à un ou deux types de ressources, et non aux trois. </p> <p>Nous vous recommandons d’utiliser des règles de transmission pour vos files d’attente des demandes afin que celles-ci puissent être automatiquement acheminées vers les ressources appropriées. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">En fonction de la configuration de la file d’attente, il se peut que vous ne puissiez attribuer qu’un seul type de ressource à la demande (par exemple, des personnes). Si une règle de transmission est également associée à la file d’attente des demandes et qu’elle achemine automatiquement la demande vers un autre type de ressource (par exemple, une équipe), votre demande est affectée à la fois à l’entité que vous avez spécifiée manuellement lors de la soumission de la demande (les personnes) et à la ressource spécifiée dans la règle de transmission (l’équipe).</p> <p style="font-weight: normal;">Pour plus d’informations, consultez les articles suivants :</p> 
-        <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente des demandes</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Créer des règles de transmission</a> <br> </p> </li> 
-        </ul> </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>Indiquez le nom d’une personne active, d’une fonction ou d’une équipe à qui la demande doit être affectée. </p> <p> Vous pouvez spécifier plus d’une personne, d’une fonction ou d’une équipe. </p> <p>En fonction de la configuration de la file d’attente des demandes, il se peut que vous ne puissiez attribuer la demande qu’à un ou deux types de ressources, et non aux trois. </p> <p>Nous vous recommandons d’utiliser des règles de transmission pour vos files d’attente des demandes afin que celles-ci puissent être automatiquement acheminées vers les ressources appropriées. </p>
+      <p><p style="font-weight: normal;">En fonction de la configuration de la file d’attente, il se peut que vous ne puissiez attribuer qu’un seul type de ressource à la demande (par exemple, des personnes). Si une règle de transmission est également associée à la file d'attente des demandes et qu'elle achemine automatiquement la demande vers un autre type de ressource (par exemple, une équipe), votre demande est affectée à la fois à l'entité que vous spécifiez manuellement lors de la soumission de la demande (utilisateurs) et à la ressource spécifiée dans la règle de transmission (l'équipe).</p> <p style="font-weight: normal;">Pour plus d’informations, consultez les articles suivants :</p> 
+      <ul> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente des demandes</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Créer des règles de routage</a> <br> </p> </li> 
+      </ul> </p>
+       </td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader"><strong>Nombre d’heures prévues</strong> </td> 
       <td> <p>Estimer le nombre d’heures nécessaires à la réalisation de cette demande.</p> </td> 
      </tr> 
@@ -261,8 +261,16 @@ Si votre société a acheté un package Workfront Planning, vous ne pouvez pas c
       <td role="rowheader"><strong>Documents</strong> </td> 
       <td> <p>Ajoutez des documents à votre demande. Les documents joints à la demande originale ne sont pas transférés vers la demande copiée.</p> <p><b>CONSEIL</b>
 
-   En fonction de la configuration de la file d’attente des demandes, la section Documents peut s’afficher avant ou après les champs personnalisés.</p> <p> </p> </td>
-   </tr> 
+   En fonction de la configuration de la file d’attente des demandes, la section Documents peut s’afficher avant ou après les champs personnalisés.</p> <p> </p>
+   <p>Selon le type de stockage de documents sélectionné par votre administrateur Workfront pour votre environnement, les documents joints aux demandes sont ajoutés aux éléments suivants :</p>
+      <ul><li>Pour les requêtes qui utilisent le stockage Workfront, les documents sont ajoutés à la section Documents de la requête nouvellement créée.</li>
+      <li>Pour les requêtes qui utilisent le stockage d’entreprise d’Adobe, les documents sont ajoutés à un dossier nouvellement créé portant le même nom que la requête, automatiquement ajoutés à la requête pendant le processus d’envoi. </li></ul>
+      <p>Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.</p>
+      <p>Le type de stockage des événements et des demandes est hérité du projet. </p>
+      <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Présentation de la gestion des documents pour les projets et les objets associés</a>.</p>
+
+   </td> 
+     </tr> 
     </tbody> 
    </table>
 

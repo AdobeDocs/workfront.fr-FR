@@ -5,11 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '913'
 ht-degree: 6%
 
 ---
@@ -54,12 +53,12 @@ Le champ Heures réelles visible dans la section Détails du projet, des tâches
 >[!IMPORTANT]
 >
 >Selon le moment où les heures ont été consignées, il peut y avoir une incohérence entre les heures réelles et les heures réelles héritées pour un projet, une tâche ou un événement.<br>
->&#x200B;>Les scénarios suivants sont possibles :
+>Les scénarios suivants sont possibles :
 >
 >* Les heures réelles représentent les heures enregistrées pour les projets, tâches et événements depuis mai 2021.
 >* Les heures effectives héritées représentent les heures enregistrées pour les projets, les tâches et les événements pendant la durée de vie du projet, de la tâche ou de l&#39;événement. Cela inclut les heures enregistrées avant mai 2021 jusqu’à l’heure actuelle.
->  &#x200B;><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
->  &#x200B;><br>Workfront utilise les heures réelles héritées pour calculer les coûts réels de main-d&#39;œuvre.
+><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
+><br>Workfront utilise les heures réelles héritées pour calculer les coûts réels de main-d&#39;œuvre.
 
 Pour plus d&#39;informations, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 

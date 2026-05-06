@@ -2,15 +2,15 @@
 title: Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide de prompts ou de documents
 content-type: reference
 description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs de requête en saisissant une invite ou en fournissant un document.
-author: Alina
+author: Alina, Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 13%
+source-wordcount: '1462'
+ht-degree: 11%
 
 ---
 
@@ -93,7 +93,7 @@ Tenez compte des points suivants lors de l’utilisation du remplissage de formu
 >
 >Le remplissage de formulaire optimisé par l’IA est activé au niveau de l’organisation et ne peut pas être activé ou désactivé pour des utilisateurs ou des niveaux d’accès spécifiques.
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Cliquez sur **Système**, puis sous Système, cliquez sur **Préférences**.
 1. Dans la section des préférences de l’IA, assurez-vous que l’option **Activer l’IA** est activée.
 1. Activez/désactivez **Remplissage de formulaire AI**.
@@ -192,7 +192,7 @@ Nous prévoyons une campagne similaire aux publicités sociales de vacances que 
 
 ## Obtenir des suggestions basées sur un document que vous téléchargez
 
-Le remplissage de formulaire optimisé par l’IA peut remplir une requête à l’aide d’invites ou les documents peuvent suggérer des valeurs de champ en fonction d’un document que vous chargez.
+Le remplissage de formulaire optimisé par l’IA peut remplir une requête à l’aide d’invites ou suggérer des valeurs de champ en fonction d’un document que vous chargez.
 
 Ce type de suggestion vérifie également les demandes précédentes pour des contextes similaires. Par exemple, si l’invite indique que la demande concerne un certain client, Workfront peut localiser et saisir automatiquement l’adresse de facturation de ce client, en fonction des demandes précédentes.
 
