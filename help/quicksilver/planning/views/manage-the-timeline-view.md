@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '4035'
-ht-degree: 36%
+source-wordcount: '4068'
+ht-degree: 35%
 
 ---
 
@@ -212,8 +212,14 @@ Pour gérer une vue chronologique :
       * **Année** : affiche les trimestres et les mois avec l’indication de l’année.
       * **Trimestre** : affiche les mois et les semaines avec l’indication du trimestre.
       * **Mois** : affiche les semaines et les jours.
+
+     >[!TIP]
+     >
+     >La vue chronologique affiche uniquement les semaines fiscales selon les trimestres classiques. Si votre administrateur Workfront active Trimestres personnalisés dans la zone Configuration , les informations de la semaine ne s’affichent pas dans la vue chronologique.
+
 1. (Facultatif) Cliquez sur **Basculer vers la vue compacte** pour afficher les enregistrements dont les dates ne se coupent pas sur la même ligne. <!--check to see if they updated the name of the setting here-->
 1. (Conditionnel) Si vous avez modifié votre mode en **Compact**, cliquez sur **Passer à la vue Standard** pour afficher les enregistrements sur des lignes distinctes. L’option **Standard** est la valeur par défaut.  <!--check to see if they updated the name of the setting here-->
+
 
 1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
