@@ -6,9 +6,9 @@ description: Selon que votre administrateur Workfront choisit votre préférence
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -165,6 +165,11 @@ Tenez compte des points suivants lorsque vous utilisez des tâches :
 * Vous pouvez renommer et supprimer le dossier de documents de la tâche de stockage d’entreprise Adobe, ce qui supprime également les documents du dossier. Après avoir ajouté de nouveaux documents à la tâche, le dossier est automatiquement recréé. Les documents supprimés ne sont pas replacés dans le dossier.
 * Pour les projets de stockage d’entreprise Adobe, le dossier de documents d’une tâche s’affiche sous la forme d’un sous-dossier dans le dossier de documents automatiquement créé pour le projet.
 * Vous ne pouvez pas copier ni déplacer une tâche d’un projet de stockage Workfront vers un projet de stockage Adobe. L&#39;inverse n&#39;est pas non plus possible.
+* Les scénarios suivants existent lors de la conversion d&#39;une tâche en projet : <!--this info also duplicated in Convert tasks to projects-->
+   * Une tâche de stockage Workfront crée un projet de stockage Workfront.
+   * Une tâche de stockage d’entreprise Adobe crée un projet de stockage Adobe.
+   * L’utilisation d’un modèle de stockage Workfront pour convertir une tâche de stockage Adobe crée un projet de stockage Adobe.
+   * L’utilisation d’un modèle de stockage Adobe pour convertir une tâche de stockage Workfront crée un projet de stockage Workfront.
 
 ### Gestion des documents pour les problèmes
 
@@ -176,6 +181,11 @@ Tenez compte des points suivants lorsque vous travaillez avec des problèmes :
 * Pour les projets de stockage d’entreprise Adobe, le dossier de documents relatif à un événement s’affiche sous la forme d’un sous-dossier dans le dossier de documents automatiquement créé pour le projet.
 * Vous ne pouvez pas copier ni déplacer un événement d’un projet de stockage Workfront vers un projet de stockage Adobe. L&#39;inverse n&#39;est pas non plus possible.
 * Lorsque vous soumettez une demande avec un document joint à un projet de stockage Workfront, la zone Documents de la demande affiche le document à l’aide du type de stockage du projet, même si la préférence par défaut de stockage du système est Adobe Enterprise.
+* Les scénarios suivants existent lors de la conversion d&#39;un événement en projet : <!--this info also duplicated in Convert an issue to a project-->
+   * Un problème de stockage Workfront crée un projet de stockage Workfront.
+   * Un problème de stockage d’entreprise Adobe crée un projet de stockage Adobe.
+   * L’utilisation d’un modèle de stockage Workfront pour convertir un problème de stockage Adobe crée un projet de stockage Adobe.
+   * L’utilisation d’un modèle de stockage Adobe pour convertir un problème de stockage Workfront crée un projet de stockage Workfront.
 
 ### Gestion des documents pour les modèles de projet
 

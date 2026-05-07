@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 46%
+ht-degree: 45%
 
 ---
 
@@ -47,7 +47,7 @@ L’ajout de documents à Workfront diffère selon la version de la zone de docu
 <p>Tout package de workflow pour gérer les documents à l’aide du stockage d’entreprise Adobe</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licences Adobe Workfront*</td> 
+   <td role="rowheader">Licences Adobe Workfront</td> 
    <td> 
    <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p> </td> 
@@ -209,7 +209,7 @@ Si l’analyse des documents est activée, les fichiers de moins de 25 Mo sont 
 
 Si Workfront détecte un document corrompu, un message s’affiche indiquant que le fichier est corrompu. Vous recevez également une notification par e-mail lorsque Workfront détecte un contenu potentiellement malveillant et que le fichier doit être supprimé.
 
-Les fichiers corrompus sont supprimés dans les 24 heures suivant leur détection, sauf si vous les supprimez manuellement. Si vous supprimez un fichier corrompu, Workfront suit cette action comme une mise à jour. Si vous autorisez Workfront à le supprimer, aucune mise à jour n’est enregistrée.
+Les fichiers corrompus sont supprimés dans les 24 heures suivant la détection, sauf si vous les supprimez manuellement. Si vous supprimez un fichier corrompu, Workfront suit cette action comme une mise à jour. Si vous autorisez Workfront à le supprimer, aucune mise à jour n’est enregistrée.
 
 **Restrictions de nom de fichier**
 

@@ -9,10 +9,10 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 53%
+source-wordcount: '1116'
+ht-degree: 51%
 
 ---
 
@@ -167,6 +167,12 @@ Pour créer des tâches dans un projet :
 
    1. (Le cas échéant et facultatif) Si vous souhaitez que la tâche soit récurrente, mettez à jour le champ **Fréquence de périodicité**. Pour plus d’informations sur la création de tâches récurrentes, voir [Créer des tâches récurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Facultatif) Cliquez sur **Documents** dans le panneau de gauche pour joindre un document à la nouvelle tâche, puis sur **Ajouter ou lier des fichiers** pour ajouter un document à la tâche à partir de votre ordinateur, d’un autre service ou pour lier des documents et des dossiers à partir de votre ordinateur ou d’un autre service.
+
+      >[!TIP]
+      >
+      >Si votre entreprise a accès au stockage de documents d’entreprise Workfront et Adobe hérité, la zone Documents des tâches peut s’afficher différemment selon le type de stockage utilisé par votre tâche. Les tâches héritent du type de stockage du projet.
+      >
+      >Pour plus d’informations, voir [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 1. (Le cas échéant) Si vous avez cliqué sur **Ajouter des tâches** à l’étape 5, commencez à saisir les informations de la tâche en les modifiant en ligne, puis appuyez sur Entrée.
 

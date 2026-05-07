@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '2931'
+source-wordcount: '2933'
 ht-degree: 3%
 
 ---
@@ -68,7 +68,7 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | Liste des instantanés | Projet > Instantanés |
 | Liste des ressources pour la facturation | Projet > Ressource pour la facturation |
 | Nouvelles affectations avancées pour une tâche | Tâche > Affectations > Avancé |
-| Documents sur le stockage d’entreprise dans Adobe | Projet, tâche, événement, portefeuille, modèle de programme > Documents |
+| Documents sur le stockage d’entreprise dans Adobe | Projet, tâche, événement, portefeuille, programme, modèle, tâche de modèle > Documents |
 
 ## Ajouter des éléments à une liste améliorée
 
@@ -97,21 +97,21 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    >
    >Chaque type de champ possède ses propres options de modification. Certains champs peuvent être en lecture seule.
 
-![Enhanced list example](assets/glist-exchange-rates.png)
+![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
 
-## Edit items using the action bar
+## Modifier les éléments à l’aide de la barre d’actions
 
-You can use the action bar in an enhanced list to edit items in the list. Not all action bars include the same options. Also, some lists may not allow you to select items and the action bar is not available.
+Vous pouvez utiliser la barre d’actions d’une liste améliorée pour modifier des éléments de la liste. Toutes les barres d’actions n’incluent pas les mêmes options. En outre, certaines listes peuvent ne pas vous permettre de sélectionner des éléments et la barre d’actions n’est pas disponible.
 
-1. Select the check box next to an item in an enhanced list.
+1. Cochez la case en regard d’un élément d’une liste améliorée.
 
-   The action bar appears at the bottom of the screen.
+   La barre d’actions s’affiche en bas de l’écran.
 
    >[!NOTE]
    >
-   >Depending on which list you edit, you can select one item or multiple items to use the action bar.
+   >Selon la liste que vous modifiez, vous pouvez sélectionner un ou plusieurs éléments pour utiliser la barre d’actions.
 
-1. Click an action on the bar to edit items. Examples of actions you can choose are:
+1. Cliquez sur une action de la barre pour modifier des éléments. Voici quelques exemples d’actions :
 
    * Afficher
    * Modifier
@@ -120,32 +120,32 @@ You can use the action bar in an enhanced list to edit items in the list. Not al
    * Déplacer vers le dossier
    * Partager
 
-   If no actions are available for the selected item, the action bar displays &quot;No available actions.&quot;
+   Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![Action bar example](assets/glist-action-bar-statuses.png)
+   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
 
-1. Hover over the primary field of a list item, then click the **More** menu ![More menu icon](assets/more-icon.png) to see additional actions. Some actions might be specific to that list.
+1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur le menu **Plus** ![icône de menu Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
 
    >[!TIP]
    >
-   >The primary field displays in the first column of the list.
+   >Le champ principal s’affiche dans la première colonne de la liste.
 
-   ![More menu example](assets/glist-more-menu-priorities.png)
+   ![Exemple de menu Plus](assets/glist-more-menu-priorities.png)
 
-## Customize columns
+## Personnaliser les colonnes
 
-Depending on which objects you are viewing in an enhanced list, you can hide, show, or reorder columns in the list.
+Selon les objets que vous consultez dans une liste améliorée, vous pouvez masquer, afficher ou réorganiser les colonnes de la liste.
 
-1. Click **Columns** above the list.
+1. Cliquez sur **Colonnes** au-dessus de la liste.
 
-   ![Display columns example](assets/glist-display-move-columns.png)
+   ![Exemple d’affichage des colonnes](assets/glist-display-move-columns.png)
 
-1. Use the toggles to display or hide columns in the list.
-1. To reorder the columns, click the **Drag** icon ![Drag icon](assets/drag-icon.png) and move a column to your desired location. Moving columns changes the list automatically.
+1. Utilisez les boutons pour afficher ou masquer des colonnes dans la liste.
+1. Pour réorganiser les colonnes, cliquez sur l’icône **Faire glisser** ![Icône Faire glisser](assets/drag-icon.png) et déplacez une colonne vers l’emplacement souhaité. Le déplacement de colonnes modifie automatiquement la liste.
 
    >[!NOTE]
    >
-   >The primary field is the first column in the list. It is fixed in the first position, and you cannot change its column. Si le nombre de colonnes est important, le champ principal est figé à gauche et lorsque vous faites défiler l’écran horizontalement, il est toujours visible.
+   >Le champ principal est la première colonne de la liste. Il est fixe en première position et vous ne pouvez pas modifier sa colonne. Si le nombre de colonnes est important, le champ principal est figé à gauche et lorsque vous faites défiler l’écran horizontalement, il est toujours visible.
    >
    >L’icône en regard d’un nom de champ affiche le type de champ, tel que du texte ou un champ de date.
 
@@ -197,40 +197,40 @@ Pour ajouter et supprimer des colonnes :
 
    Cette option met à jour la longueur verticale d’une ligne. Choisissez l’une des options suivantes :
    * Court
-   * Standard. This is the default choice.
+   * Standard. Il s’agit du choix par défaut.
    * Moyen
    * Grand
 
-## Update enhanced list elements
+## Mise à jour des éléments de liste améliorés
 
-The following elements are components of an enhanced list:
+Les éléments suivants sont des composants d’une liste améliorée :
 
-* **View**: Defines the columns, filters, and groupings in the list with preset settings
-* **Filters**: Limits the amount of information displayed in the list
-* **Groupings**: Organize the list items according to common fields
-* **Sort**: Arranges the items in a list according to the order you identify for a given field
-* **Search**: Quickly finds an item using a search keyword
+* **Vue** : définit les colonnes, filtres et regroupements de la liste avec des paramètres prédéfinis
+* **Filtres** : limite la quantité d’informations affichées dans la liste.
+* **Regroupements** : organisez les éléments de la liste en fonction de champs communs
+* **Trier** : organise les éléments d’une liste selon l’ordre que vous avez identifié pour un champ donné
+* **Recherche** : recherche rapide d’un élément à l’aide d’un mot-clé de recherche.
 
-### Apply and create views
+### Application et création de vues
 
 >[!NOTE]
 >
 >Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
 
-To apply or create a view:
+Pour appliquer ou créer une vue :
 
-1. Click the **Views** dropdown and select an existing view to apply it to the list
+1. Cliquez sur le menu déroulant **Vues** et sélectionnez une vue existante pour l’appliquer à la liste
 
    OU
 
-   Click **New view** to create one.
+   Cliquez sur **Nouvelle vue** pour en créer une.
 
-1. (Conditional) For adding a new view, enter a name for the view, then click **Create**.
-1. (Optional) Hide, show, or rearrange the columns. For more information, see [Customize columns in an enhanced list](#customize-columns-in-an-enhanced-list).
-1. (Optional) Filter the list. For more information, see [Filter items in an enhanced list](#filter-items-in-an-enhanced-list).
-1. (Optional) Group the items in the list. For more information, see [Group items in an enhanced list](#group-items-in-an-enhanced-list).
+1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [&#x200B; Filtrer les éléments dans une liste améliorée &#x200B;](#filter-items-in-an-enhanced-list).
+1. (Facultatif) Regroupez les éléments de la liste. Pour plus d’informations, voir [Regrouper des éléments dans une liste améliorée](#group-items-in-an-enhanced-list).
 
-   Changes to views are saved automatically. The next time you apply this view, the column and filter settings remain the way you set them.
+   Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
 
 ### Partager une vue
 
@@ -238,46 +238,46 @@ To apply or create a view:
 >
 >Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
 
-In the **Views** dropdown, you may see three categories of views:
+Dans la liste déroulante **Vues**, vous pouvez voir trois catégories de vues :
 
-* **System Views**: Views that the system administrator assigned to you. You cannot share System views.
-* **Shared Views**: Views that have been shared with you by other users.
-* **My Views**: Views that you created and can share with others. You can share views with other users, teams, or groups.
+* **Vues système** : vues que l&#39;administrateur système vous a affectées. Vous ne pouvez pas partager de vues système.
+* **Vues partagées** : vues qui ont été partagées avec vous par d&#39;autres utilisateurs.
+* **Mes vues** : vues que vous avez créées et que vous pouvez partager avec d’autres utilisateurs. Vous pouvez partager des vues avec d’autres utilisateurs, équipes ou groupes.
 
-When you share a view, all of the view elements (columns, filters, and groupings) are included.
+Lorsque vous partagez une vue, tous les éléments de vue (colonnes, filtres et regroupements) sont inclus.
 
-To share a view:
+Pour partager une vue :
 
-1. In the **Views** dropdown, hover over the view in **My Views** that you want to share, click the **More** menu ![More menu](assets/more-icon.png), and click **Share**.
-1. In the Share dialog, enter the names of the users, teams, groups, companies, or job roles that you want to share the view with, then select them from the list when they appear.
+1. Dans la liste déroulante **Vues**, pointez sur la vue de **Mes vues** que vous souhaitez partager, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Partager**.
+1. Dans la boîte de dialogue Partager, saisissez les noms des utilisateurs, des équipes, des groupes, des sociétés ou des fonctions avec lesquels vous souhaitez partager la vue, puis sélectionnez-les dans la liste lorsqu’ils apparaissent.
 
-   You can give the following permissions to the recipients:
+   Vous pouvez accorder les autorisations suivantes aux destinataires :
 
-   * **View**: Users can apply the view to the list but not share it.
+   * **Affichage** : les utilisateurs et utilisatrices peuvent appliquer l’affichage à la liste, mais pas le partager.
 
-     When View access users update the view, those changes are saved to the user&#39;s personal preferences. A blue dot on the view name (in the user&#39;s **Shared Views**) shows that personal updates are applied to the view.
+     Lorsque les utilisateurs disposant d’un accès en lecture seule mettent à jour la vue, ces modifications sont enregistrées dans leurs préférences personnelles. Un point bleu sur le nom de la vue (dans le **Vues partagées** de l’utilisateur) indique que des mises à jour personnelles sont appliquées à la vue.
 
-   * **Manage**: Users can rename, share, or delete the view, and edit the view&#39;s elements.
+   * **Gérer** : les utilisateurs et utilisatrices peuvent renommer, partager ou supprimer la vue, et modifier ses éléments.
 
-     When Manage access users make changes to the view, all users who have the view shared with them will see those updates when the view is applied to the list.
+     Lorsque les utilisateurs disposant d&#39;un accès de niveau Gérer apportent des modifications à la vue, tous les utilisateurs qui ont la vue partagée avec eux verront ces mises à jour lorsque la vue sera appliquée à la liste.
 
 1. Cliquez sur **Enregistrer**.
 
-   If you share a view with a user and then remove that access, the view is removed from the user&#39;s **Shared Views**. If the user had the shared view applied to the list when their access is removed, then the system default view is applied.
+   Si vous partagez une vue avec un utilisateur, puis supprimez cet accès, la vue est supprimée de la **Vues partagées** de l&#39;utilisateur. Si la vue partagée est appliquée à la liste lorsque l’accès de l’utilisateur est supprimé, la vue système par défaut est appliquée.
 
-### Copy a view
+### Copier une vue
 
 >[!NOTE]
 >
 >Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
 
-When a view is shared with you to which you do not have permission to edit, you can copy the view and save it with a new name. You must first make changes to the view before you can copy it.
+Lorsqu’une vue est partagée avec vous et que vous n’avez pas l’autorisation de la modifier, vous pouvez la copier et l’enregistrer sous un nouveau nom. Vous devez d&#39;abord apporter des modifications à la vue avant de pouvoir la copier.
 
-1. In the Views dropdown, hover over the view in **Shared Views** that you modified the settings of and which want to copy, click the **More** menu ![More menu](assets/more-icon.png), and click **Copy with preferences**.
+1. Dans la liste déroulante Vues, pointez sur la vue dans **Vues partagées** dont vous avez modifié les paramètres et que vous souhaitez copier, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Copier avec les préférences**.
 
-   A new view is created automatically. The name of the copied view follows the following pattern: `Original view name (copy)`and it displays in the **My Views** section of views.
+   Une nouvelle vue est créée automatiquement. Le nom de la vue copiée suit le modèle suivant : `Original view name (copy)`et il s&#39;affiche dans la section **Mes vues** des vues.
 
-   You are the owner of this view, and you can rename, edit, share, or delete it. Si le propriétaire de la vue d’origine supprime votre accès partagé à cette vue, vous avez toujours accès à la vue que vous avez créée en copiant la vue d’origine partagée.
+   Vous êtes le propriétaire de cette vue et vous pouvez la renommer, la modifier, la partager ou la supprimer. Si le propriétaire de la vue d’origine supprime votre accès partagé à cette vue, vous avez toujours accès à la vue que vous avez créée en copiant la vue d’origine partagée.
 
    >[!NOTE]
    >
