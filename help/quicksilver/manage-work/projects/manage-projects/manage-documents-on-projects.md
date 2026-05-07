@@ -6,9 +6,9 @@ description: Selon que votre administrateur Workfront choisit votre préférence
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Les documents stockés sur des objets dans le stockage Workfront sont gérés di
 
 Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Les sections suivantes décrivent le fonctionnement du stockage de documents pour les objets Workfront lorsque les options de stockage d’entreprise Workfront et Adobe sont en place.
+Les sections suivantes décrivent le fonctionnement du stockage de documents pour les objets Workfront lorsque les options de stockage d’entreprise Workfront et Adobe existent dans le même environnement.
 
 ### Gestion des documents pour les projets
 
@@ -133,6 +133,8 @@ Tenez compte des points suivants lorsque vous utilisez des projets :
 * Lorsque vous créez un projet de stockage d’entreprise Adobe, Workfront crée un dossier dans la section Documents du projet où les documents sont enregistrés. Le nom du dossier est identique à celui du projet. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du projet pour qu’il corresponde au nouveau nom du projet.
 * Lorsque vous créez ou déplacez un projet de stockage d’entreprise Adobe vers un portfolio ou un programme de stockage Workfront hérité, le portfolio ou le programme est automatiquement converti en objet de stockage d’entreprise Adobe.
 * Vous ne pouvez pas créer de projet de stockage Workfront pour un portefeuille ou un programme de stockage d’entreprise Adobe.
+* Lorsque vous importez un projet à partir de MS Project, Workfront crée un projet de stockage Workfront, même si votre administrateur Workfront a défini le stockage Adobe Enterprise par défaut pour votre système.
+* Lorsque vous créez des projets à l’aide d’une automatisation de Workfront Planning, Workfront utilise la préférence de stockage par défaut de votre système pour le projet. Vous devez acheter le package Planning pour accéder à Workfront Planning.
 
 ### Gestion des documents pour les portefeuilles
 
@@ -142,15 +144,17 @@ Tenez compte des points suivants lorsque vous utilisez des portfolios :
 * Lorsque vous créez ou déplacez un projet de stockage d’entreprise Adobe vers un portfolio de stockage Workfront hérité, le portfolio est automatiquement converti en objet de stockage d’entreprise Adobe.
 * Si le portfolio converti disposait auparavant de documents joints, ils continuent à être stockés dans le stockage Workfront. Les nouveaux documents sont également stockés dans le stockage Workfront.
 * Si le portfolio converti ne comportait aucun document joint dans le stockage Workfront, les nouveaux documents sont stockés dans le stockage d’entreprise Adobe.
+* Lorsque vous créez des portfolios à l’aide d’une automatisation de Workfront Planning, Workfront utilise la préférence de stockage par défaut de votre système pour le portefeuille. Vous devez acheter le package Planning pour accéder à Workfront Planning.
 
 ### Gestion des documents pour les programmes
 
 Tenez compte des points suivants lorsque vous utilisez des programmes :
 
-* Lorsque vous créez un programme de stockage d’entreprise Adobe, Workfront crée un dossier dans la section Documents du programme où les documents sont enregistrés. Le nom du dossier est identique à celui du programme. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du programme, afin qu’il corresponde au nouveau nom du programme.
+* Lorsque vous créez un programme de stockage d’entreprise Adobe, Workfront crée un dossier dans la section Documents du programme où les documents sont enregistrés. Le nom du dossier est identique au nom du programme. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du programme, afin qu’il corresponde au nouveau nom du programme.
 * Lorsque vous créez ou déplacez un projet de stockage d’entreprise Adobe vers un portfolio de stockage Workfront hérité, le portfolio est automatiquement converti en objet de stockage d’entreprise Adobe.
 * Si le programme converti disposait auparavant de documents joints, ils continuent à être stockés dans le stockage Workfront. Les nouveaux documents sont également stockés dans le stockage Workfront.
 * Si aucun document n’était joint au programme converti dans le stockage Workfront, les nouveaux documents sont stockés dans le stockage d’entreprise Adobe.
+* Lorsque vous créez des programmes à l’aide d’une automatisation de Workfront Planning, Workfront utilise la préférence de stockage par défaut de votre système pour le programme. Vous devez acheter le package Planning pour accéder à Workfront Planning.
 
 ### Gestion des documents pour les tâches
 
@@ -171,6 +175,7 @@ Tenez compte des points suivants lorsque vous travaillez avec des problèmes :
 * Vous pouvez renommer et supprimer le dossier de documents correspondant au problème de stockage d’entreprise Adobe, ce qui entraîne également la suppression des documents dans le dossier. Après avoir ajouté de nouveaux documents à l’événement, le dossier est automatiquement recréé. Les documents supprimés ne sont pas replacés dans le dossier.
 * Pour les projets de stockage d’entreprise Adobe, le dossier de documents relatif à un événement s’affiche sous la forme d’un sous-dossier dans le dossier de documents automatiquement créé pour le projet.
 * Vous ne pouvez pas copier ni déplacer un événement d’un projet de stockage Workfront vers un projet de stockage Adobe. L&#39;inverse n&#39;est pas non plus possible.
+* Lorsque vous soumettez une demande avec un document joint à un projet de stockage Workfront, la zone Documents de la demande affiche le document à l’aide du type de stockage du projet, même si la préférence par défaut de stockage du système est Adobe Enterprise.
 
 ### Gestion des documents pour les modèles de projet
 

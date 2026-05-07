@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '4007'
+source-wordcount: '4035'
 ht-degree: 36%
 
 ---
@@ -152,7 +152,7 @@ Tenez compte des points suivants :
    * Dates d’enregistrement
    * Enregistrer les champs générés par le système : date de création, date de dernière modification
    * Dates de recherche des types d&#39;objet ou d&#39;enregistrement connectés (uniquement lorsque vous avez ajouté un agrégateur pour eux lorsque vous avez connecté les types d&#39;objet ou d&#39;enregistrement)
-* En fonction des dates associées aux enregistrements, certains enregistrements peuvent ne pas s’afficher dans la vue chronologique dans les scénarios suivants :
+* Selon les dates associées aux enregistrements, certains enregistrements peuvent ne pas s’afficher dans la vue chronologique dans les scénarios suivants :
 
    * Lorsque les dates de début et de fin n’ont pas de valeur.
    * Lorsque les dates de début ou de fin n’ont pas de valeur.
@@ -175,7 +175,7 @@ Pour gérer une vue chronologique :
 
    Les scénarios suivants sont possibles :
 
-   * Si des écarts ou des chevauchements ont été détectés entre les dates des trimestres, vous pouvez recevoir une notification indiquant que les trimestres personnalisés peuvent désormais être configurés et qu’ils doivent être modifiés.
+   * Si des écarts ou des chevauchements ont été détectés entre les dates des trimestres, vous pourriez recevoir une notification indiquant que des trimestres personnalisés peuvent maintenant être configurés et qu’ils doivent être modifiés.
 
      ![Notification des trimestres personnalisés manquante ou lacune entre les trimestres](assets/custom-quarter-notification-missing-or-gaps.png)
 
@@ -183,7 +183,7 @@ Pour gérer une vue chronologique :
      >
      >Ce message doit s&#39;afficher immédiatement après l&#39;activation des trimestres Planning et personnalisés par votre organisation avant l&#39;achat. Les chevauchements et les écarts entre les trimestres ne sont pas autorisés après l’activation de Workfront Planning pour votre organisation.
 
-   * Si des trimestres ont été partiellement configurés et qu&#39;il manque certains mois de la même année, vous pouvez recevoir une notification lorsque vous faites défiler l&#39;écran pour afficher les trimestres manquants. Ainsi, le reste de l&#39;année doit être configuré avec les trimestres manquants.
+   * Si des trimestres ont été partiellement configurés et qu&#39;il manque certains mois de la même année, vous pouvez recevoir une notification lorsque vous faites défiler l&#39;écran pour afficher les trimestres manquants. Cela signifie que le reste de l&#39;année doit être configuré avec les trimestres manquants.
 
    ![Message d’origine des trimestres personnalisés manquant dans la vue chronologique](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
@@ -256,7 +256,7 @@ Pour gérer une vue chronologique :
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
-   * [Regroupement &#x200B;](#add-grouping)
+   * [Regroupement](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
@@ -287,7 +287,7 @@ Pour ajouter un filtre à une vue chronologique :
 1. Sélectionnez une vue chronologique, puis cliquez sur **Filtres** dans le coin supérieur droit du tableau.
 1. Cliquez sur **Ajouter une condition** et ajoutez les informations suivantes :
 
-   * **Sélectionnez un champ** pour rechercher un champ ou et le sélectionner dans la liste.
+   * **Sélectionnez un champ** pour rechercher un champ et le sélectionner dans la liste.
 
    * **Sélectionnez une option** (ou un modificateur de filtre) pour définir le type de condition auquel le champ doit répondre.
 
@@ -389,7 +389,7 @@ Tenez compte des points suivants lorsque vous utilisez des regroupements dans la
 
 * Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
 * Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
-&lt;!--* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lorsque vous utilisez l’API. --vérifier celui-ci pour l’instant-->
+&lt;!—!—* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. --vérifier celui-ci pour l’instant-->
 * Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
@@ -567,8 +567,8 @@ Tenez compte des points suivants lors de la répartition de la chronologie des e
 * Vous ne pouvez afficher les enregistrements connectés en mode Chronologie que lorsque vous affichez les enregistrements en mode Standard. Vous ne pouvez pas utiliser l’option Répartition en mode Compact de la vue chronologique.
 * Vous pouvez afficher les éléments suivants dans la vue Chronologie à l’aide de la fonction Répartition :
    * Enregistrements Workfront Planning connectés au type d&#39;enregistrement sélectionné.
-   * Types d’objet Workfront ou ressources Experience Manager connectées au type d’enregistrement sélectionné.
-   * Enregistrements ou objets Workfront Planning d&#39;une autre application connectés à des enregistrements connectés au type d&#39;enregistrement sélectionné.
+   * Types d’objet Workfront ou Experience Manager connectés au type d’enregistrement sélectionné.
+   * Enregistrements ou objets Workfront Planning d&#39;autres applications connectées à des enregistrements connectés au type d&#39;enregistrement sélectionné.
 
      Par exemple, vous pouvez lier des campagnes à des portfolios. En outre, vous pouvez connecter un autre type d’enregistrement, products, à des projets, ainsi qu’à des campagnes. Lorsque vous créez la vue chronologique de la campagne, vous pouvez répartir les campagnes par portfolios, produits et projets.
 
@@ -581,7 +581,7 @@ Tenez compte des points suivants lors de la répartition de la chronologie des e
 Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Vous pouvez uniquement afficher les types d’enregistrements associés à au moins deux champs de date.
 * Les champs de date des types d’enregistrement que vous souhaitez afficher dans la vue chronologique doivent être visibles dans la vue Tableau du type d’enregistrement sélectionné, sous la forme de champs de recherche.
-* Les dates de début et de fin des types d’enregistrements à afficher dans la vue chronologique doivent être dans l’ordre chronologique. Par exemple, si un enregistrement a une date de Début fixée au 31 janvier et une date de Fin fixée au 1er janvier, il ne s&#39;affiche pas dans la vue chronologique. Pour plus d’informations, consultez la section [Gérer une vue chronologique](#manage-a-timeline-view) de cet article.
+* Les dates de début et de fin des types d’enregistrements que vous souhaitez afficher dans la vue chronologique doivent être dans l’ordre chronologique. Par exemple, si un enregistrement a une date de Début fixée au 31 janvier et une date de Fin fixée au 1er janvier, il ne s&#39;affiche pas dans la vue chronologique. Pour plus d’informations, consultez la section [Gérer une vue chronologique](#manage-a-timeline-view) de cet article.
 * Vous pouvez inclure une limite de 5 types d’enregistrements dans la répartition d’un enregistrement.
 
 #### Répartir les enregistrements connectés
@@ -619,7 +619,7 @@ Pour plus d’informations, consultez la section [Connecter des types d’enregi
 
    >[!TIP]
    >
-   >Sélectionnez **Ne plus afficher ce message** dans le **Passer à la vue standard ?**, avant de changer de vue.
+   >Sélectionnez **Ne plus afficher ce message** dans le **Passer à la vue standard ?** , avant de changer de vue.
    >
    >Cette préférence est mémorisée uniquement pour le navigateur actuel. Si vous changez de navigateur ou d&#39;ordinateur, vous devrez sélectionner à nouveau cette préférence.
    >
