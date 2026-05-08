@@ -6,9 +6,9 @@ description: Selon que votre administrateur Workfront choisit votre préférence
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1779'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,7 @@ Tenez compte des points suivants lorsque vous utilisez des tâches :
    * Une tâche de stockage d’entreprise Adobe crée un projet de stockage Adobe.
    * L’utilisation d’un modèle de stockage Workfront pour convertir une tâche de stockage Adobe crée un projet de stockage Adobe.
    * L’utilisation d’un modèle de stockage Adobe pour convertir une tâche de stockage Workfront crée un projet de stockage Workfront.
+* Vous ne pouvez pas ajouter de documents aux tâches de stockage Adobe dans le panneau Résumé .
 
 ### Gestion des documents pour les problèmes
 
@@ -186,6 +187,7 @@ Tenez compte des points suivants lorsque vous travaillez avec des problèmes :
    * Un problème de stockage d’entreprise Adobe crée un projet de stockage Adobe.
    * L’utilisation d’un modèle de stockage Workfront pour convertir un problème de stockage Adobe crée un projet de stockage Adobe.
    * L’utilisation d’un modèle de stockage Adobe pour convertir un problème de stockage Workfront crée un projet de stockage Workfront.
+* Vous ne pouvez pas ajouter de documents aux problèmes de stockage Adobe dans le panneau Résumé .
 
 ### Gestion des documents pour les modèles de projet
 

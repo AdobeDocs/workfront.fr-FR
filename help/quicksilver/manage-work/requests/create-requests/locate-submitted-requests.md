@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 42%
+source-wordcount: '1411'
+ht-degree: 41%
 
 ---
 
@@ -210,7 +210,11 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
 
    >[!TIP]
    >
-   >Si le panneau « Résumé » est déjà ouvert, l’icône « Ouvrir le résumé » devient « Fermer le résumé ».
+   >* Si le panneau « Résumé » est déjà ouvert, l’icône « Ouvrir le résumé » devient « Fermer le résumé ».
+   >
+   >* Si votre entreprise utilise le stockage de documents d’entreprise Adobe, vous ne pouvez pas ajouter de documents aux demandes de stockage Adobe dans le panneau Résumé .
+   >
+   >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Facultatif et conditionnel) Cliquez sur l’icône **X** dans le coin supérieur droit ou sur l’icône **Fermer le résumé** ![Fermer le résumé avec du texte](assets/close-summary-with-text-nwe.png) pour fermer le panneau de résumé.
 

@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '8113'
+source-wordcount: '8107'
 ht-degree: 88%
 
 ---
@@ -287,7 +287,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
       <p><b>NOTES</b></p>
       <ul>
       <li>Vous devez disposer des autorisations de niveau Gérer pour le portfolio afin de pouvoir l’ajouter ou le supprimer du projet.</li>
-      <li>Si votre entreprise utilise à la fois les types de stockage de documents Workfront et Adobe, vous ne pouvez pas associer un projet de stockage Workfront à un portfolio de stockage Adobe. Le contraire est également vrai. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.</li></ul> 
+      <li>Si votre entreprise utilise à la fois le stockage d’entreprise Workfront hérité et Adobe, vous ne pouvez pas copier de tâches entre des projets qui utilisent différents types de stockage. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.</li></ul> 
       Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Présentation de la gestion des documents pour les projets et les objets associés</a>. 
       </td> 
       </tr> 
@@ -701,7 +701,7 @@ Vous pouvez définir les autorisations que les utilisateurs reçoivent pour le p
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Accorder également l’accès au projet</strong></td> 
-      <td><p>Sélectionnez l’accès en <strong>Affichage</strong>, <strong>Contribution</strong>, ou <strong>Gestion</strong> au projet. L’utilisateur ou l’utilisatrice affecté à une tâche se voit automatiquement accorder cet accès au projet.<br></p></td> 
+      <td><p>Sélectionnez l’accès en <strong>Affichage</strong>, <strong>Contribution</strong> ou <strong>Gestion</strong> au projet. L’utilisateur ou l’utilisatrice affecté à une tâche se voit automatiquement accorder cet accès au projet.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Lorsqu’une personne est affectée à un problème</strong></td> 
