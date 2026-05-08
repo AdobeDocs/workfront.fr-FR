@@ -12,8 +12,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 59%
+source-wordcount: '1135'
+ht-degree: 60%
 
 ---
 
@@ -63,7 +63,7 @@ Vous pouvez réactiver une personne à tout moment.
    <td>Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. </li> 
      <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 
