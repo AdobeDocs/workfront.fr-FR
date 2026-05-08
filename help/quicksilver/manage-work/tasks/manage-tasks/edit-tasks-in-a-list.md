@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '2764'
-ht-degree: 63%
+source-wordcount: '2825'
+ht-degree: 62%
 
 ---
 
@@ -469,29 +469,33 @@ Pour modifier des tâches dans une liste lors de l’utilisation de l’option d
 1. (Facultatif) Saisissez une mise à jour pour la tâche dans la zone **Mises à jour**.
 1. Cliquez sur l’une des icônes ou zones suivantes pour accéder à la tâche et modifier les informations à l’échelle de la tâche :
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Documents</td> 
-      <td>Ajoutez des documents à la tâche. </td> 
-     </tr> 
-          <tr> 
-      <td role="rowheader">Formulaires personnalisés</td> 
-      <td>Ajouter ou supprimer des formulaires personnalisés ou mettre à jour les informations des formulaires.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Heures</td> 
-      <td>Consigner les heures.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Approbations</td> 
-      <td>Ajoutez les validations de tâche.</td> 
-     </tr> 
-     <tr> 
-    </tbody> 
-   </table>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Documents</td> 
+         <td><p>Ajoutez des documents à la tâche.</p>
+         <p><b>NOTE</b></p>
+         <p>Si votre entreprise utilise le stockage de documents d’entreprise Adobe, vous ne pouvez pas ajouter de documents aux tâches dans le panneau Résumé pour les tâches de stockage Adobe.</p>
+         <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Présentation de la gestion des documents pour les projets et les objets associés</a>.</p>
+      </td> 
+      </tr> 
+            <tr> 
+         <td role="rowheader">Formulaires personnalisés</td> 
+         <td>Ajouter ou supprimer des formulaires personnalisés ou mettre à jour les informations des formulaires.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Heures</td> 
+         <td>Consigner les heures.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Approbations</td> 
+         <td>Ajoutez les validations de tâche.</td> 
+      </tr> 
+      <tr> 
+      </tbody> 
+      </table>
 
 1. Cliquez sur le **X** dans le coin supérieur droit du panneau pour le fermer.
 
@@ -538,7 +542,7 @@ Vous pouvez modifier plusieurs tâches en même temps. Assurez-vous de disposer 
    >* Seuls les formulaires personnalisés actifs sont affichés dans la liste. Si les tâches sélectionnées ne comportent aucun formulaire personnalisé commun, aucun formulaire n’est répertorié dans cette section.
    >* Vous ne pouvez modifier que les champs des formulaires joints à toutes les tâches sélectionnées et que vous êtes autorisé à modifier.  Pour plus d’informations sur la modification en bloc de formulaires personnalisés, voir [Gérer les formulaires personnalisés joints à des objets](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
 
-1. Cliquer sur **Enregistrer**.
+1. Cliquez sur **Enregistrer**.
 
 
 <!--

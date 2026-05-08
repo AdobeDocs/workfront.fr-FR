@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 90%
+source-wordcount: '1781'
+ht-degree: 86%
 
 ---
 
@@ -103,6 +103,10 @@ Tenez compte des points suivants lors de la copie d’une tâche :
 
 * Vous pouvez copier une ou plusieurs tâches à la fois lorsque vous modifiez des tâches dans une liste.
 
+* Si votre entreprise utilise à la fois le stockage d’entreprise Workfront hérité et Adobe, vous ne pouvez pas copier de tâches entre des projets qui utilisent différents types de stockage.
+
+  Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Copier des tâches dans une liste {#copy-tasks-in-a-list}
 
 1. Accédez au projet contenant la ou les tâches à copier.
@@ -187,7 +191,7 @@ Outre la copie de tâches dans une liste de tâches, vous pouvez également copi
     <tbody> 
      <tr> 
       <td role="rowheader">Contrainte</td> 
-      <td> <p>La contrainte de tâche est définie sur Aussi Tôt Que Possible ou Aussi Tard Que Possible en fonction du paramètre Mode horaire du projet.</p> <p> Lorsque cette option est sélectionnée, la contrainte actuelle de la tâche est transférée à la tâche copiée. </p> <p>Note : lorsque vous déplacez ou copiez une tâche avec des contraintes de date spécifiques vers un autre projet et que les dates de contrainte de la tâche ne correspondent pas aux dates du nouveau projet, la contrainte de tâche passe à Aussi Tôt Que Possible ou Aussi Tard Que Possible ou les dates de début ou de fin prévues des projets sont ajustées. Certains exemples de contraintes spécifiques à une date sont : Il Faut Commencer Le, Doit se terminer le, Commencer Au Plus Tôt, Commencer Au Plus Tard, etc. Pour plus d’informations sur les contraintes de tâche et sur la manière dont les contraintes de tâche ou les dates de projet peuvent être affectées, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Vue d’ensemble des contraintes de tâches</a> et recherchez une contrainte spécifique.</p> </td> 
+      <td> <p>La contrainte de tâche est définie sur Aussi Tôt Que Possible ou Aussi Tard Que Possible en fonction du paramètre Mode horaire du projet.</p> <p> Lorsque cette option est sélectionnée, la contrainte actuelle de la tâche est transférée à la tâche copiée. </p> <p>Note : lorsque vous déplacez ou copiez une tâche avec des contraintes de date spécifiques vers un autre projet et que les dates de contrainte de la tâche ne correspondent pas aux dates du nouveau projet, la contrainte de tâche passe à Aussi Tôt Que Possible ou Aussi Tard Que Possible ou les dates de début ou de fin prévues des projets sont ajustées. Voici quelques exemples de contraintes spécifiques à une date : Doit Commencer Le, Doit Terminer Le, Commencer Au Plus Tôt Le, Commencer Au Plus Tard Le, etc. Pour plus d'informations sur les contraintes de tâche et sur la manière dont les contraintes de tâche ou les dates de projet peuvent être affectées, consultez <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Présentation des contraintes de tâche</a> et recherchez une contrainte spécifique.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Affectations</td> 

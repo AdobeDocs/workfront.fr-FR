@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 80%
+source-wordcount: '908'
+ht-degree: 77%
 
 ---
 
@@ -152,10 +152,15 @@ Vous pouvez modifier un événement dans une liste à l’aide du panneau Résum
 
    | Icône | Action |
    |---|---|
-   | Documents ![icône Documents](assets/documents-icon-in-summary.png) | Cliquez sur **Cliquez ici pour ajouter** pour ajouter des documents au problème. |
+   | Documents* ![icône Documents](assets/documents-icon-in-summary.png) | Cliquez sur **Cliquez ici pour ajouter** pour ajouter des documents au problème. |
    | Détails ![icône Détails](assets/details-icon-in-summary.png) | Cliquez pour mettre à jour les informations sur le problème. |
    | Heures ![Consigner le temps](assets/log-time-icon-in-summary.png) | Cliquez pour consigner des heures. |
    | Validations ![icône Validations](assets/approvals-icon-in-summary.png) | Cliquez pour ajouter les approbations de problèmes. |
+
+   *Si votre entreprise utilise le stockage de documents d’entreprise Adobe, vous ne pouvez pas ajouter de documents aux problèmes de stockage Adobe dans le panneau Résumé .
+
+   Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Facultatif) Cliquez à nouveau sur l’icône **Ouvrir le Résumé**, ou sur l’**Icône X** dans le coin supérieur droit du résumé pour fermer le panneau et modifier le problème en ligne.
 

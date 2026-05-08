@@ -6,10 +6,10 @@ description: Vous pouvez ouvrir le panneau Résumé dans l’équilibreur de cha
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 69%
+source-wordcount: '422'
+ht-degree: 64%
 
 ---
 
@@ -28,7 +28,7 @@ Le panneau Résumé est disponible pour les tâches et les événements dans les
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr>
   <tr> 
@@ -91,6 +91,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >Le fait de naviguer de la section Résumé vers la section Sous-tâches pour ajouter des sous-tâches supprime la tâche d’origine, car les tâches parent ne s’affichent pas dans l’équilibreur de charge de travail.
 
    Pour plus d’informations sur la mise à jour des informations à l’aide du résumé, voir [Vue d’ensemble du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+   >[!NOTE]
+   >
+   >Si votre entreprise utilise le stockage de documents d’entreprise Adobe, vous ne pouvez pas ajouter de documents aux éléments de travail de stockage Adobe dans le panneau Résumé .
+   >
+   >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Le cas échéant) Si vous avez ouvert l’une des sections de l’élément de travail, cliquez sur le **bouton Précédent** de votre navigateur pour revenir à l’équilibreur de charge de travail.
 1. Cliquez sur l’icône **Fermer** ![Fermer](assets/close-icon.png) dans le coin supérieur droit du résumé pour le fermer.
