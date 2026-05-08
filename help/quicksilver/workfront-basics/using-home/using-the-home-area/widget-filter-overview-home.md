@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -108,7 +108,7 @@ Vous pouvez utiliser les filtres suivants dans le widget Mes tâches :
 </ul>
 </td>
   </tr>
-   <!--
+  <!--
     <tr>
     <td>All Unassigned Tasks</td>
     <td></td>
@@ -267,8 +267,8 @@ Dans l’environnement de production :
       <li>Ces rapports sont actuellement ouverts, peu importe qui les a soumis. Seules les demandes pour lesquelles vous disposez au moins d’une autorisation de visualisation s’affichent ici si vous ne les avez pas soumises vous-même.</li>
       <li>Sans date d'achèvement effective ou dont l'objet de résolution n'a pas de date d'achèvement effective sont répertoriés dans le sous-onglet Ouvert.</li> 
       </ul>
-      <p><b>REMARQUE </b> 
-      Les demandes dont le statut n’est pas défini sur Fermé sont considérées comme ouvertes.</p> 
+      <p><b>NOTE</b> 
+      Les demandes dont le statut n’équivaut pas à « Clos » sont considérées comme ouvertes.</p> 
       </td> 
      </tr> 
      <tr> 
@@ -282,8 +282,8 @@ Dans l’environnement de production :
       <li>Que vous avez soumis et que vous êtes toujours en cours. </li> 
       <li>Sans date d'achèvement effective ou dont l'objet de résolution n'a pas de date d'achèvement effective sont répertoriés dans le sous-onglet Mes demandes en cours.  </li> 
       </ul>
-      <p><b>REMARQUE </b> 
-      Les demandes dont le statut n’est pas défini sur Fermé sont considérées comme ouvertes.</p> </td> 
+      <p><b>NOTE</b> 
+      Les demandes dont le statut n’équivaut pas à « Clos » sont considérées comme ouvertes.</p> </td> 
      </tr> 
     </tbody> 
    </table>

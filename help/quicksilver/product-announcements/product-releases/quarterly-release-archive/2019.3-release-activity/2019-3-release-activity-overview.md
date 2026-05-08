@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 98%
+source-wordcount: '1334'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,6 @@ La version 2019.3 contient les améliorations suivantes :
   -->
 
   Vous pouvez maintenant modifier le graphique de Gantt de la liste des tâches que l’enregistrement automatique soit activé ou non.
-
 
 * [Listes mises à jour pour les onglets Heures des projets, tâches et problèmes](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#updated2)
 
@@ -300,7 +299,7 @@ Désormais, lorsque vous commentez un document, votre mise à jour apparaît dan
 Lorsque vous affectez une personne à une tâche ou à un problème, vous pouvez désormais directement voir un avertissement si la personne sélectionnée a des congés planifiés qui coïncident avec les dates planifiées de la tâche ou du problème.
 
 <!--
-* <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Add Fields That Represent Objects in Custom Forms</a> </MadCap:conditionalText> [ 
+  * <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#add" class="MCXref xref" xrefformat="{para}">Add Fields That Represent Objects in Custom Forms</a> </MadCap:conditionalText> [ 
 
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
   Add fields that represent objects in Custom Forms
@@ -392,7 +391,7 @@ API&nbsp;Version Release and Support Schedule
 
 ### La prise en charge de TLS 1.0 et 1.1 est terminée. {#tls-1-0-and-1-1-support-is-ending}
 
-Afin de fournir une sécurité optimale, Workfront exige que toutes les intégrations et le trafic web utilisant TLS 1.1 ou une version antérieure soient mis à niveau pour utiliser TLS 1.2. Dans l’environnement de prévisualisation, TLS 1.0 est déjà désactivé.
+Afin d’offrir une sécurité optimale, Workfront exige que toutes les intégrations et le trafic web utilisant TLS 1.1 ou une version antérieure soient mis à niveau pour utiliser TLS 1.2. Dans l’environnement de Prévisualisation, TLS 1.0 est déjà désactivé.
 
 <!--
 For more information, see <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md" class="MCXref xref" xrefformat="{para}">TLS 1.2 to be required in Adobe Workfront</a> </MadCap:conditionalText> [ 
@@ -408,7 +407,7 @@ TLS 1.2 to be required in Workfront
 
 Toutes les fonctionnalités qui reposent sur la technologie Flash ont été supprimées de Workfront depuis la version 2018.3 et remplacées par une nouvelle solution.
 
-Pour des informations détaillées sur les anciens outils Flash et ceux qui les remplacent, consultez [Remplacement des outils Flash dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Pour plus d’informations sur les outils Flash hérités et leurs remplacements, voir [Remplacement des outils basés sur Flash dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">

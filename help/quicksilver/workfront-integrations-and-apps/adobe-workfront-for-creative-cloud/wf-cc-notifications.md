@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Les notifications sont disponibles dans les applications Adobe Creative Cloud 
  </col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> Any</td> 
   </tr> 
@@ -62,7 +62,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 {{cc-install-prereq}}
 
-* Vous avez activé les notifications instantanées dans [!DNL Workfront]. Pour plus d’informations sur l’activation des notifications instantanées, voir [Modifier vos propres notifications par e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Vous avez activé les notifications instantanées dans [!DNL Workfront]. Pour plus d’informations sur l’activation des notifications instantanées, consultez la section [Modifier vos propres notifications par e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Afficher et gérer les notifications [!DNL Workfront] dans Adobe Creative Cloud
 

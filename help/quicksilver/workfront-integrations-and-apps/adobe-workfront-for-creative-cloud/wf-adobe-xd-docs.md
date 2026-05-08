@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '533'
 ht-degree: 95%
 
 ---
@@ -29,7 +29,7 @@ Vous pouvez télécharger vos plans de travail en tant que documents pour une r�
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -67,14 +67,14 @@ Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for XD]](/h
 
 ## Ajouter un nouveau document
 
-1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
+1. Cliquez sur l’cône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
    ![Icône de menu](assets/menu-350x440.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger un document.
 1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
 
-1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du plug-in.
+1. Cliquez sur **[!UICONTROL Nouveau fichier]** en bas du plug-in.
 1. Sélectionnez le plan de travail que vous souhaitez charger.
 
    >[!TIP]
@@ -115,7 +115,7 @@ Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for XD]](/h
 
 ## Ajouter une nouvelle version
 
-1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
+1. Cliquez sur l’cône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
    ![Icône de menu](assets/menu-350x440.png)
 
@@ -163,4 +163,4 @@ Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for XD]](/h
    </table>
 
 1. Cliquez sur **[!UICONTROL Charger]**.\
-   Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’appli de bureau.
+   Le document apparaît dans la zone [!UICONTROL Documents] du plug-in et de l’application de bureau.

@@ -3,16 +3,16 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Afficher les heures effectives
-description: Les heures que vous enregistrez pour vos tâches dans Adobe Workfront sont considérées comme des heures réelles. Les heures effectives représentent le temps réel nécessaire à la réalisation d’une tâche, d’un problème ou d’un projet.
+description: Les heures que vous consignez pour vos éléments de travail dans Adobe Workfront sont considérées comme des heures effectives. Les heures effectives représentent le temps réel nécessaire à la réalisation d’une tâche, d’un problème ou d’un projet.
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 27%
+source-wordcount: '1273'
+ht-degree: 28%
 
 ---
 

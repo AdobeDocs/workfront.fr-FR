@@ -8,10 +8,10 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 31%
+ht-degree: 28%
 
 ---
 
@@ -54,24 +54,21 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
  <col>
  </col>
  <tbody>
-    <tr>
- <tr>
+   <tr>
+   <tr>
    <td role="rowheader"><p>Package Adobe Workfront</p></td>
    <td>
    <p>Tout package Workfront and Planning</p>
    <p>Tout package Workflow et Planning</p>
-
-<p><b>NOTE</b></p>
-
-<p>Pour accéder aux types d’enregistrements connectables :</p>
+   <p><b>NOTE</b></p>
+   <p>Pour accéder aux types d’enregistrements connectables :</p>
    <ul><li><p>Tout package Workfront et un package Planning</p></li>
    <li><p>N’importe quel workflow et un package Planning Prime et Ultimate</p></li></ul>
 
 <p>Pour accéder aux types d’enregistrements globaux :</p>
    <ul><li><p>Tout package Workfront et un package Planning Plus</p></li>
    <li><p>Tout package de workflow et un package Planning Prime et Ultimate</p></li></ul> </td></tr>
-
-<!--
+   <!--
    <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
@@ -80,22 +77,21 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
    <p>Only users added to the Adobe Identity Management System (IMS) can be granted permissions and added to Planning fields.</p>
    <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
-  </tr>
-  -->
-
-<tr>
+   </tr>
+   -->
+   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
    <ul><li><p>Tous, pour afficher les informations de planification Workfront</p></li>
    <li><p>Standard, pour créer des espaces de travail et des vues</p></li></ul>
     </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
+   </tr>
+   <tr>
+   <td role="rowheader"><p>Configurations des niveaux d’accès</p></td>
    <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>  
-</td>
-  </tr>
-<tr>
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>Autorisations d’objet</p></td>
    <td>
    <ul>
@@ -105,18 +101,19 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
    </li>
     <li><p>L’administration système peut gérer les espaces de travail qu’elle n’a pas créés. </p></li>
     <li><p>Les administrateurs système ne peuvent pas accéder aux vues qu'ils n'ont pas créées. </p></li></ul>
-   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning</a>. 
-  </td>
-  </tr>
-<tr>
+   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir  
+   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Présentation des autorisations de partage dans Adobe Workfront Planning</a> 
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> 
-<p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p>
-<p> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page qui inclut l'option Planning dans les domaines suivants :</p>
+   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p>
+   <p> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page qui inclut l'option Planning dans les domaines suivants :</p>
    <ul><li>Menu principal</li>
    <li>Panneau de gauche de projets, portefeuilles et programmes</li>
    </ul>   
-</td>
+   </td>
   </tr>
  </tbody>
 </table>

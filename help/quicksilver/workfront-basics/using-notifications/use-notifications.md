@@ -7,10 +7,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 96%
+source-wordcount: '120'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Cette section contient les articles suivants :
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-basics/using-notifications/opt-out-of-email-notifications.md" class="MCXref xref" xrefformat="{para}">Opt out of email notifications</a> </li>
   -->
-* [Notification d’événement : index des articles](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
+* [Notification d’événement : index des articles](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
 * [Notifications : action nécessaire](../../workfront-basics/using-notifications/notifications-action-needed.md)
 * [Notifications : informations d’approbation](../../workfront-basics/using-notifications/notifications-approval-information.md)
 * [Notifications : communication](../../workfront-basics/using-notifications/notifications-communication.md)

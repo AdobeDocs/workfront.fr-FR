@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: ed348f44-eae1-4478-8425-6114f2b310ad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '2885'
-ht-degree: 100%
+source-wordcount: '3176'
+ht-degree: 99%
 
 ---
 
@@ -115,23 +115,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
-   <tr>
+    <tr>
         <td><strong>Fonctionnalité</strong>
         </td>
         <td><strong>Aperçu</strong></td>
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
-        </tr>
-       <!--
-       <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
-            <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
-            <p>The AI reviewer is currently in beta.</p>
-        </td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
-        <td>January 8, 2026</td>
+    </tr>
+    <!--
+    <tr>
+    <td>
+        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+        <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
+        <p>The AI reviewer is currently in beta.</p>
+    </td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
+    <td>January 8, 2026</td>
     </tr>
     -->
     </tr>
@@ -509,7 +509,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience est désormais disponible pour plus d’organisations Workfront</a>.<p></p>
             <p>Pour permettre aux organisations d’accéder aux avantages d’Adobe Unified Experience, nous avons commencé à la mettre à la disposition des clientes et des clients Workfront existants.</p>
         </td>
-        <td><p>vendredi 11 décembre 2025</p></td>
+        <td><p>11 décembre 2025</p></td>
         <td><p>jeudi 11 février 2026</p></td>
         <td><p>jeudi 11 février 2026</p></td>
     <tr>
@@ -553,7 +553,7 @@ Les éléments suivants n’ont pas été modifiés à ce stade de la publicatio
 
 **Version de production pour tous les clients et clientes : 11 décembre 2025**
 
-La visionneuses de relecture de bureau a été mise à jour et passe de la version 2.1.52 à la version 2.1.54. Cette mise à jour inclut des mises à jour d’outils internes et n’a aucune incidence sur les fonctionnalités accessibles par les utilisatrices et utilisateurs finaux.
+Le lecteur de vérification pour bureau a été mis à jour et passe de la version 2.1.52 à la version 2.1.54. Cette mise à jour incluait des mises à jour d’outils internes et n’avait aucune incidence sur les fonctionnalités des utilisateurs finaux.
 
 La version 2.1.53 incluait également des modifications des outils internes.
 
@@ -613,7 +613,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
