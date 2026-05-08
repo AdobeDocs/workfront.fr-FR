@@ -6,9 +6,9 @@ description: Le panneau de navigation de gauche dans  [!DNL Workfront]  facilite
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 0fbbf7fccee0158cc0630703ed1b663cf42725dd
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1378'
 ht-degree: 83%
 
 ---
@@ -45,7 +45,7 @@ La plupart des zones et des objets de Workfront utilisent un simple panneau de n
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
    <td>
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p> 
    </td> 
   </tr> 
@@ -80,7 +80,7 @@ Le panneau de gauche est disponible pour les objets suivants :
 >[!IMPORTANT]
 >
 >Si le panneau de gauche n’affiche qu’une seule section par défaut, comme **[!UICONTROL Tous les projets]** dans la zone **[!UICONTROL Projets]**, un administrateur de [!DNL Workfront] doit ajouter au moins un tableau de bord dans cette zone lors de la création d’un modèle de mise en page et vous affecter à ce modèle avant que le panneau de gauche ne s’affiche dans cette zone.
->&#x200B;>Pour plus d’informations sur la manière dont une équipe d’administration [!DNL Workfront] personnalise le panneau de gauche dans un modèle de mise en page, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Pour plus d’informations sur la manière dont une équipe d’administration [!DNL Workfront] personnalise le panneau de gauche dans un modèle de mise en page, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Le panneau de gauche est disponible pour les zones suivantes :
 
@@ -127,7 +127,7 @@ Pour savoir comment utiliser le panneau de gauche dans la zone Tableaux de bord,
 
 Pour savoir comment utiliser le panneau de gauche dans la zone [!UICONTROL Demandes], voir la section [Utiliser le panneau de navigation de gauche](#use-the-left-navigation-panel) de cet article.
 
-### Sections par défaut de la zone [!UICONTROL Ressources] 
+### Sections par défaut de la zone [!UICONTROL Ressources]
 
 Les sections suivantes s’affichent dans le panneau de gauche de la zone **[!UICONTROL Ressources]** :
 
@@ -175,7 +175,7 @@ Les sections suivantes s’affichent dans le panneau de gauche de la zone **[!UI
 
 Pour savoir comment utiliser le panneau de gauche dans la zone [!UICONTROL Projets], voir la section [Utiliser le panneau de navigation de gauche](#use-the-left-navigation-panel) de cet article.
 
-### Sections par défaut dans la zone [!UICONTROL Feuilles de temps] 
+### Sections par défaut dans la zone [!UICONTROL Feuilles de temps]
 
 Les sections suivantes s’affichent dans le panneau de gauche de la zone **[!UICONTROL Feuilles de temps]** :
 
@@ -236,6 +236,7 @@ Les sections suivantes s’affichent dans le panneau de gauche de la zone **[!UI
     </tr>
 </table>
 -->
+
 Pour savoir comment utiliser le panneau de gauche dans la zone [!UICONTROL Objectifs], voir la section [Utiliser le panneau de navigation de gauche](#use-the-left-navigation-panel) de cet article.
 
 ## Utiliser le panneau de navigation de gauche

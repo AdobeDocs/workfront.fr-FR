@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '2245'
-ht-degree: 40%
+source-wordcount: '2457'
+ht-degree: 44%
 
 ---
 
@@ -34,9 +34,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>25.8 (vendredi 14 août 2025)</li><li>25.9 (vendredi 11 septembre 2025)</li><li>25H10 (16 Octobre 2025)</li></ul> | <ul><li>25H10 (16 Octobre 2025)</li></ul> |
+>| <ul><li>25.8 (14 Août 2025)</li><li>25,9 (11 septembre 2025)</li><li>25H10 (16 Octobre 2025)</li></ul> | <ul><li>25H10 (16 Octobre 2025)</li></ul> |
 >
->Notez que pour la version finale de chaque trimestre (25.10 ce trimestre), les personnes disposant du planning de publication rapide recevront la version un jour plus tôt (jeudi 15 octobre 2025).
+>Notez que pour la version finale de chaque trimestre (25.10 ce trimestre), les utilisateurs disposant du planning de publication rapide recevront la version un jour plus tôt (15 octobre 2025).
 >
 >Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -106,7 +106,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Ajouter plusieurs options de valeur d’une API externe à un formulaire personnalisé</a><p></p>
-            <p>Un nouveau type de champ, Recherche externe à sélection multiple, est désormais disponible dans le concepteur de formulaire personnalisé. Lorsque des données sont stockées sur un système externe, ce type de champ vous permet de charger des options à partir d’une API externe et de filtrer en fonction d’autres valeurs de champ du formulaire personnalisé. Il s’agit de la même chose qu’une recherche externe à sélection unique.</p>
+            <p>Un nouveau type de champ, Recherche externe à sélection multiple, est désormais disponible dans le concepteur de formulaire personnalisé. Lorsque des données sont stockées sur un système externe, ce type de champ vous permet de charger des options à partir d’une API externe et de filtrer selon d’autres valeurs de champ dans le formulaire personnalisé. Il s’agit de la même chose qu’une recherche externe à sélection unique.</p>
             <p>Lorsque le formulaire est ajouté à un objet , les valeurs renvoyées par l’API apparaissent dans un champ déroulant et l’utilisateur peut sélectionner plusieurs valeurs.</p>
         </td>
         <td>vendredi 31 juillet 2025</td>
@@ -220,7 +220,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-### Améliorations apportées aux projets
+### Améliorations des projets
 
 <table style="table-layout:auto">
   <tbody>
@@ -231,15 +231,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Version rapide</strong></td>
         <td><strong>Tous les trimestres</strong></td>
     </tr>
-      <!--
-      <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
-            <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
-        </td>
-        <td>August 21, 2025</td>
-        <td>September 11, 2025</td>
-        <td>October 16, 2025</td>
+    <!--
+    <tr>
+    <td>
+        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
+        <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
+    </td>
+    <td>August 21, 2025</td>
+    <td>September 11, 2025</td>
+    <td>October 16, 2025</td>
     </tr>
     -->
     <tr>
@@ -477,7 +477,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Version 20 de l’API
 
-La version 20 de l’API Workfront a été publiée le lundi 4 mai 2025. Pour la version 20 de l’API, nous avons modifié certaines ressources et certains points d’entrée. Certains des changements prennent en charge de nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
+L’API Workfront version 20 a été publiée le 4 mai 2025. Pour la version 20 de l’API, nous avons modifié certaines ressources et certains points d’entrée. Certains des changements prennent en charge de nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
 
 Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 20 de l’API](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
