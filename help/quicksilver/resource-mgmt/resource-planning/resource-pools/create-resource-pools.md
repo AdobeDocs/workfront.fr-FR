@@ -2,14 +2,14 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: Créer des pools de ressources
-description: Les pools de ressources sont des ensembles d'utilisateurs qui vous aident à gérer plus facilement les ressources dans Adobe Workfront.
+description: Les groupes de ressources sont des groupes d’utilisateurs et utilisatrices qui facilitent la gestion des ressources dans Adobe Workfront.
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 80%
+source-wordcount: '545'
+ht-degree: 74%
 
 ---
 
@@ -31,7 +31,7 @@ Les groupes de ressources sont des groupes d’utilisateurs et utilisatrices qui
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
          <li><strong>Rôles</strong> : tous les utilisateurs et utilisatrices associés à ce rôle sont ajoutés au groupe de ressources.</li>
          <li><strong>Entreprises</strong> : tous les utilisateurs et utilisatrices de l’entreprise sont ajoutés au groupe de ressources.</li>
         </ul><p>Conseil : vous ne pouvez ajouter que des utilisateurs et utilisatrices, des équipes, des <span>rôles,</span> ou des entreprises actifs.</p><br>Vous devrez peut-être faire défiler la boîte de dialogue vers le bas pour afficher tous les utilisateurs du pool de ressources.
-        <p>Remarque : si un utilisateur ou une utilisatrice devient membre d’un groupe, d’une équipe, d’une entreprise ou est associé à une fonction après que le groupe, l’équipe, l’entreprise ou la fonction ont été ajoutés au groupe de ressources, le nouveau membre n’est pas automatiquement ajouté au groupe de ressources. <br>Si un utilisateur ou une utilisatrice appartient à l’équipe, au groupe, à l’entreprise et à la fonction que vous ajoutez, cette personne n’est ajoutée qu’une seule fois au groupe de ressources.<br>Les utilisateurs et utilisatrices qui sont désactivés après avoir été ajoutés au groupe de ressources sont grisés dans la liste des utilisateurs et utilisatrices et sont marqués comme étant désactivés.</p></p></td>
+        <p>Remarque : si un utilisateur ou une utilisatrice devient membre d’un groupe, d’une équipe, d’une entreprise ou est associé à une fonction après que le groupe, l’équipe, l’entreprise ou la fonction ont été ajoutés au groupe de ressources, le nouveau membre n’est pas automatiquement ajouté au groupe de ressources. <br>Si un utilisateur appartient à l’équipe, au groupe, à la société et à la fonction que vous ajoutez, l’utilisateur n’est ajouté qu’une seule fois au pool de ressources.<br>Les utilisateurs désactivés après avoir été ajoutés au pool de ressources apparaissent grisés dans la liste des utilisateurs et sont marqués comme étant désactivés.</p></p></td>
      </tr>
     </tbody>
    </table>

@@ -2,15 +2,15 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Présentation de l’équilibreur de charge de travail
+title: Vue d’ensemble du répartiteur de charge de travail
 description: Une fois que les personnes chargées de la gestion de projet ont planifié le travail sur les projets en créant des tâches et une fois que les gestionnaires de ressources ont attribué des ressources de fonctions aux projets dans le planificateur de ressources, les personnes propriétaires de projet et les personnes responsables d’équipes peuvent utiliser l’équilibreur de charge de travail pour attribuer des tâches aux utilisateurs et utilisatrices.
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 96%
+source-wordcount: '1202'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-workload-balancer"
->title="Équilibreur de charge de travail"
+>title="Répartiteur de charge de travail"
 >abstract="Les propriétaires de projet et les responsables d’équipe peuvent utiliser l’équilibreur de charge de travail pour affecter des tâches aux personnes."
 
 <!--
@@ -69,7 +69,7 @@ Tenez compte des avantages suivants lors de l’utilisation de l’équilibreur 
 
 * Les cadres peuvent prendre des décisions opportunes en matière de personnel en faisant preuve de transparence quant à la manière dont les membres de leur organisation sont utilisés.
 * Les membres de l’équipe bénéficient d’une meilleure collaboration, car ils peuvent tous et toutes voir sur quoi travaillent leurs collègues à tout moment. Pour plus d’informations sur l’accès nécessaire pour afficher ou gérer les ressources dans l’équilibreur de charge de travail, voir [Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* Partagez-le avec toute personne qui n&#39;a pas de ressources dans son menu principal en y incorporant un lien dans un onglet personnalisé. Pour plus d’informations, voir [Partager l’équilibreur de charge de travail avec un lien](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
+* Partagez-le avec toute personne qui n’a pas accès aux Ressources dans le menu principal en y incorporant un lien dans un onglet personnalisé. Pour plus d’informations, voir [Partager le répartiteur de charge de travail avec un lien](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
 * Visualisez et gérez les charges de travail et la demande des personnes dans une vue unique au niveau global, du projet ou de l’équipe, en fonction de votre rôle. Dans le cadre de la gestion de projets, cela inclut non seulement l’affectation de ressources pour le projet, mais également la visualisation de l’affectation de ressources à partir du planificateur de scénarios Adobe Workfront. Les personnes gestionnaires de personnes utilisent le planificateur de scénarios Workfront pour gérer les compétences professionnelles dans l’ensemble de l’entreprise. Le planificateur de scénarios n’est disponible que dans la nouvelle expérience Adobe Workfront.
 
   >[!NOTE]
