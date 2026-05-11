@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: e25be455e16beee813e612b983bca1302f129e6f
+source-git-commit: 7b6d24d6a5b7fd052a3e7c97034e920e771022a6
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '436'
 ht-degree: 16%
 
 ---
@@ -26,7 +26,7 @@ L’aspect du stockage varie selon que votre entreprise utilise un stockage Work
 * Si vous utilisez le stockage Workfront hérité, consultez la section [Stockage Workfront hérité](#legacy-workfront-storage) dans cet article.
 * Si vous utilisez le stockage d’entreprise Adobe, consultez [Stockage d’entreprise Adobe](#adobe-enterprise-storage) dans cet article.
 
-  Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+  Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -74,7 +74,12 @@ Le quota de stockage est actualisé tous les jours afin d’afficher le décompt
 
 ## Stockage d’entreprise Adobe
 
-Si votre entreprise utilise le stockage d’entreprise d’Adobe, les Informations sur les clients présentent une vue d’ensemble du stockage qui divise l’utilisation en différentes sections pour le stockage Workfront hérité, le stockage d’entreprise d’Adobe et Frame.io. Workfront applique également une limitation conditionnelle aux chargements lorsque l’utilisation dépasse votre quota, afin que les utilisateurs puissent toujours charger des documents.
+<!--
+If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
+
+Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
+
+-->
 
 ### Afficher l’utilisation du stockage dans les informations sur le client
 
@@ -84,8 +89,11 @@ Pour vérifier le stockage de documents d’entreprise d’Adobe :
 
 1. Dans le panneau de gauche, cliquez sur **Système** > **Infos client**.
 1. Accédez à la section **Présentation du stockage**.
-1. Affichez l’utilisation du stockage d’entreprise Adobe.
-   <!--Both Workfront and Frame.io usage are broken down separately, but roll up to the total usage for Adobe enterprise storage.-->
+1. Vérifiez votre utilisation. La présentation du stockage affiche votre quota de stockage en pool et divise l&#39;utilisation en :
+
+   * Les projets hérités de Workfront et les projets de stockage d’entreprise Adobe s’affichent dans la barre bleue.
+   * Les projets autonomes du cadre s’affichent dans la barre verte. Ces projets sont distincts de Workfront et ne sont disponibles que si vous disposez d’une licence Frame.io Enterprise.
+
 
 ![Utilisation du stockage d’entreprise Adobe dans les informations sur le client](assets/storage-usage.png)
 
@@ -93,6 +101,6 @@ Les chiffres d’utilisation sont actualisés régulièrement afin que vous puis
 
 ### Notifications par e-mail aux administrateurs
 
-Lorsque l’utilisation dépasse 75 %, 85 % ou 100 % de votre quota de stockage, Workfront envoie une notification par e-mail aux administrateurs système.
+Lorsque l’utilisation dépasse 75 %, 90 % ou 100 % de votre quota de stockage, Workfront envoie une notification par e-mail aux administrateurs système.
 
 </div>
