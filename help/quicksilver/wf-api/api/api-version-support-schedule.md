@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 62177a9cedcaf3155f95e91fc4ee506d7f6a04aa
+source-git-commit: 682cf24c4c7932afeb66a2e5434fe3cec887e889
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 70%
+source-wordcount: '529'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Le tableau suivant présente le planning de publication et d’assistance pour l
 
 >[!NOTE]
 >
->L’ancien connecteur Workfront utilise l’API Workfront version 20, qui devrait être abandonnée avec la version 28.4 (avril 2028). Les modules du connecteur hérité continueront à fonctionner jusqu’à ce moment.
+>L’ancien connecteur Workfront utilise la version 20 de l’API Workfront, dont l’abandon est prévu avec la version 28.4 (avril 2028). Les modules du connecteur hérité continueront à fonctionner jusqu’à cette date.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,26 +42,32 @@ Le tableau suivant présente le planning de publication et d’assistance pour l
  </thead> 
  <tbody> 
  <tr>
+   <td>22</td> 
+   <td> <p>8 Mai 2026</p> </td> 
+   <td> <p>**en 2029</p> <p>(avec la version 29.4)</p> </td> 
+   <td></td> 
+  </tr> 
+ <tr>
    <td>21</td> 
-   <td> <p>vendredi 23 octobre 2025</p> </td> 
+   <td> <p>23 octobre 2025</p> </td> 
    <td> <p>** au cours de l’année 2028</p> <p>(avec la version 28.10)</p> </td> 
    <td></td> 
   </tr> 
  <tr>
    <td>20</td> 
-   <td> <p>lundi 4 mai 2025</p> </td> 
+   <td> <p>4 mai 2025</p> </td> 
    <td> <p>** au cours de l’année 2028</p> <p>(avec la version 28.4)</p> </td> 
    <td></td> 
   </tr> 
  <tr>
    <td>19</td> 
-   <td> <p>vendredi 10 octobre 2024</p> </td> 
+   <td> <p>10 octobre 2024</p> </td> 
    <td> <p>** au cours de l’année 2027</p> <p>(avec la version 27.10)</p> </td> 
    <td></td> 
   </tr> 
  <tr>
    <td>18</td> 
-   <td> <p>mardi 8 avril 2024</p> </td> 
+   <td> <p>8 avril 2024</p> </td> 
    <td> <p>** au cours de l’année 2027</p> <p>(avec la version 27.4)</p> </td> 
    <td></td> 
   </tr>  <tr>
@@ -79,87 +85,87 @@ Le tableau suivant présente le planning de publication et d’assistance pour l
   <tr> 
    <td>15</td> 
    <td>Premier semestre 2022</td> 
-   <td>en 2025</td> 
-   <td>vendredi 18 décembre 2025</td> 
+   <td>** au cours de l’année 2025</td> 
+   <td>18 décembre 2025</td> 
   </tr> 
   <tr> 
    <td>14</td> 
    <td> <p>Octobre 2021</p> <p>(avec la version 21.10)</p> </td> 
    <td> <p>Octobre 2024</p> <p>(avec la version 24.10)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>13</td> 
    <td> <p>Juin 2021</p> <p>(avec la version 2021.2)</p> </td> 
    <td> <p>Octobre 2024</p> <p>(avec la version 2024.10)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>12</td> 
    <td> <p>Deuxième semestre 2020</p> <p>(avec la version 2020.4)</p> </td> 
-   <td> <p>Octobre 2023</p> <p>(avec la version 2023.4)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td> <p>Octobre 2023</p> <p>(avec la version 2023.4)</p> </td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>11</td> 
    <td> <p>Premier semestre 2020</p> <p>(avec la version 2020.2)</p> </td> 
    <td> <p>Avril 2023</p> <p>(avec la version 2023.2)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>10</td> 
    <td> <p>Novembre 2018</p> <p>(avec la version 2018.3)</p> </td> 
    <td> <p>Novembre 2021</p> <p>(avec la version 2022.1)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>9</td> 
    <td> <p>Mars 2018</p> <p>(avec la version 2018.1)</p> </td> 
    <td> <p>Mars 2021</p> <p>(avec la version 2021.3)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>8</td> 
    <td>Novembre 2017</td> 
    <td> <p>Novembre 2020</p> <p>(avec la version 2021.1)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>7</td> 
    <td>Avril 2017</td> 
    <td> <p>Avril 2020</p> <p>(avec la version 2020.2)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>6</td> 
    <td>Novembre 2015</td> 
    <td><strong>Novembre 2019</strong> <p>(avec la version 2019.4)</p> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
    </td> 
   </tr> 
   <tr> 
    <td>5</td> 
    <td>Avril 2014</td> 
    <td> <p>Avril 2019</p> <p>(avec la version 2019.2)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>4</td> 
    <td>2012</td> 
    <td> <p>Janvier 2019</p> <p>(avec la version 2019.1)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>3</td> 
    <td>2011</td> 
    <td> <p>Novembre 2018</p> <p>(avec la version 2018.3)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>2</td> 
    <td>2009</td> 
    <td> <p>Août 2018</p> <p>(avec la version 2018.2)</p> </td> 
-   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
+   <td>30 septembre 2025 (étendu pour certaines organisations jusqu’en octobre 2025)</td> 
   </tr> 
   <tr> 
    <td>1</td> 
