@@ -26,7 +26,7 @@ L’aspect du stockage varie selon que votre entreprise utilise un stockage Work
 * Si vous utilisez le stockage Workfront hérité, consultez la section [Stockage Workfront hérité](#legacy-workfront-storage) dans cet article.
 * Si vous utilisez le stockage d’entreprise Adobe, consultez [Stockage d’entreprise Adobe](#adobe-enterprise-storage) dans cet article.
 
-  Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+  Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
