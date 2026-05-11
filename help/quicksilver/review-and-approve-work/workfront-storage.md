@@ -6,7 +6,7 @@ description: Planifiez le déploiement de Workfront sur le stockage d’entrepri
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 722ba7f6617e3ccc1a1dcbf51f5d539c550617ab
+source-git-commit: 8daaeacae50e0f0245c2783fd6c827da192ae706
 workflow-type: tm+mt
 source-wordcount: '2360'
 ht-degree: 0%
@@ -219,3 +219,4 @@ Pour plus d’informations sur l’impact sur les types de scénario courants et
 * [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [La zone Documents](/help/quicksilver/documents/managing-documents/documents-area.md)
 * [Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+
