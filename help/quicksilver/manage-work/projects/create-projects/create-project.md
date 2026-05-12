@@ -97,7 +97,7 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 * Créez un projet à partir de zéro sans utiliser de modèle. Cet article décrit comment créer un projet à partir de zéro.
 
 * Copiez un projet existant.\
-  Pour plus d’informations sur la copie d’un projet, voir [ Copier un projet ](../../../manage-work/projects/manage-projects/copy-project.md).
+  Pour plus d’informations sur la copie d’un projet, voir [&#x200B; Copier un projet &#x200B;](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Utilisez un modèle.\
   Pour plus d’informations sur l’utilisation d’un modèle pour créer un projet, consultez la section [Créer un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
