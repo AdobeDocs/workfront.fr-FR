@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1278'
 ht-degree: 76%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 76%
 <span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 -->
 
-Un programme représente un ensemble de projets qui partagent une stratégie, un objectif ou un objectif commun qui transcende les limites du projet.
+Un programme représente un ensemble de projets qui partagent une stratégie ou un objectif commun qui transcende les limites du projet.
 Les programmes sont une subdivision des portefeuilles et ils ne peuvent pas exister en dehors d&#39;un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille.
 
 Vous pouvez créer des programmes pour organiser vos portefeuilles lorsqu’ils deviennent trop volumineux.
@@ -106,13 +106,18 @@ Vous pouvez créer un programme dans Workfront à l’aide de l’une des métho
   Pour plus d’informations sur l’import de données à l’aide de Kickstarts dans Workfront, consulter la section [Importer des données dans Adobe Workfront à l’aide d’un modèle de Kickstart](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 
-* Ajoutez des programmes au fur et à mesure que vous les connectez à partir d&#39;un type d&#39;enregistrement dans Workfront Planning.
+* Pour créer des programmes à partir de Workfront Planning, procédez comme suit :
 
-  Vous devez disposer d’un package Workfront Planning supplémentaire.
+   * Lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
 
-  Pour plus d’informations sur l’accès à Workfront Planning, consultez [Présentation de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+  Pour plus d&#39;informations sur la création de programmes en les ajoutant à des enregistrements, reportez-vous à la section « Créer des enregistrements au fur et à mesure que vous les connectez » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+   * Utilisation des automatisations de Workfront Planning.
 
-  Pour plus d&#39;informations sur la création de portefeuilles en les ajoutant à des enregistrements, reportez-vous à la section « Créer des enregistrements au fur et à mesure que vous les connectez » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+  Pour plus d’informations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+  Vous devez disposer d’une nouvelle licence Workfront et d’un package Workfront Planning supplémentaire pour Workfront Planning.
+
+  Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
 
 ## Créer un programme
 

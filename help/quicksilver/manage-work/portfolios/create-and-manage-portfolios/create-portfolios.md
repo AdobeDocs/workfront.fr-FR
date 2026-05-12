@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 77%
+source-wordcount: '884'
+ht-degree: 57%
 
 ---
 
@@ -97,13 +97,18 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
 
   Pour plus d’informations sur l’import de données à l’aide de Kickstarts dans Workfront, consulter la section [Importer des données dans Adobe Workfront à l’aide d’un modèle de Kickstart](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-* Ajoutez des portfolios au fur et à mesure que vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
+* Ajoutez des portfolios à partir de Workfront Planning comme suit :
 
-  Vous devez disposer d’une nouvelle licence Workfront et d’une licence Workfront Planning supplémentaire pour Workfront Planning.
-
-  Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
+   * Lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
 
   Pour plus d&#39;informations sur la création de portefeuilles en les ajoutant à des enregistrements, reportez-vous à la section « Créer des enregistrements au fur et à mesure que vous les connectez » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+   * Utilisation des automatisations de Workfront Planning.
+
+  Pour plus d’informations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+  Vous devez disposer d’une nouvelle licence Workfront et d’un package Workfront Planning supplémentaire pour Workfront Planning.
+
+  Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
 
 
 ## Créer un portfolio
@@ -111,14 +116,41 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
 {{step1-click-main-menu}}
 
 1. Cliquez sur **[!UICONTROL Portfolios]**.
-1. Cliquez sur **[!UICONTROL Nouveau portfolio]**.
-1. Remplacez **[!UICONTROL Portfolio sans titre]** par le nom que vous souhaitez donner au portfolio.
+
+1. (Conditionnel) Selon le stockage de document utilisé par votre organisation, cliquez sur l’un des éléments suivants :
+
+   * **Nouveau portefeuille**, lorsque l’administrateur Workfront choisit **Adobe Enterprise** ou **Workfront hérité** et qu’il a sélectionné ou non le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
+   * **Nouveau portefeuille (stockage hérité)** lorsque l’administrateur Workfront choisit **Adobe Enterprise** ou **Workfront hérité** et qu’il a également sélectionné le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
+
+     Cette option s&#39;affiche uniquement lorsque le paramètre **Autoriser l&#39;utilisateur à sélectionner le fournisseur de stockage** est sélectionné dans la zone Configuration.
+
+     Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+     >[!NOTE]
+     >
+     >Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
+
+     Un portfolio est créé et son nom par défaut suit les schémas suivants, en fonction du Workfront de stockage utilisé pour les documents :
+
+      * `Untitled Portfolio` pour un portefeuille de stockage Workfront.
+
+        Un portfolio de stockage Workfront affiche une icône **Stockage Workfront hérité** ![Icône de portfolio de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
+
+      * `Untitled Portfolio - < Month day, year hour.minute.second >` d’un portfolio de stockage Adobe
+
+        >[!IMPORTANT]
+        >
+        >Les portfolios utilisant le stockage d’entreprise d’Adobe doivent avoir des noms uniques.
+
+     Pour les portfolios de stockage Adobe, un nouveau dossier de documents portant le même nom que le portfolio est automatiquement créé dans la zone Documents .
+
+1. Remplacez le nom du portfolio par un nouveau nom dans l’en-tête du portfolio.
 
    Le nom peut contenir jusqu’à 255 caractères.
 
 1. (Facultatif) Cliquez sur le nom sous **[!UICONTROL Personne gestionnaire de portfolio]** dans l’en-tête situé en haut de la page afin d’attribuer une autre personne responsable au portfolio.
 
-   ![nom du gestionnaire &#x200B;](assets/portfolio-manager-name-350x51.jpg)
+   ![nom du gestionnaire ](assets/portfolio-manager-name-350x51.jpg)
 
    En tant que créateur ou créatrice du portfolio, vous êtes gestionnaire de portfolio par défaut.
 
@@ -139,7 +171,7 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Groupe </td> 
-      <td> <p>Ajoutez le nom d’un groupe unique si le groupe détient le portfolio ou a la responsabilité de le terminer. </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en le survolant et en cliquant sur l’icône [!UICONTROL information] <img src="assets/info-icon.png"> qui s’affiche en regard de celui-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>Ajoutez le nom d’un groupe unique si le groupe détient le portfolio ou a la responsabilité de le terminer. </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en pointant dessus et en cliquant sur l’icône [!UICONTROL information] <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>

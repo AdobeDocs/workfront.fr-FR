@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 54%
+source-wordcount: '637'
+ht-degree: 43%
 
 ---
 
@@ -152,6 +152,8 @@ Old:
     </tbody> 
    </table>
 
+   <!-- update screen shot for both kinds of storages??-->
+
    ![Liste déroulante du nouveau projet](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Conditionnel) Si vous avez choisi d’ajouter un projet existant, la boîte de dialogue **Ajouter des projets** s’ouvre. <!--check this after UI changes-->
@@ -161,6 +163,19 @@ Old:
 1. Commencez à saisir le nom d’un projet dans le champ **[!UICONTROL Ajouter des projets à ce Portfolio]**, puis cliquez dessus lorsqu’ils apparaissent dans la liste.  <!--check this after UI changes-->
 
    Vous pouvez ajouter plusieurs projets.
+
+   >[!NOTE]
+   >
+   >Si votre entreprise utilise à la fois le stockage de documents d’entreprise Workfront et Adobe hérité, les scénarios suivants existent :
+   >
+   >
+   >* Lorsque vous ajoutez un projet de stockage Adobe à un portfolio de stockage Workfront et que ce portfolio n’est associé à aucun document, le portfolio est converti en portfolio de stockage Adobe.
+   >* Lorsque vous ajoutez un projet de stockage Adobe à un portfolio de stockage Workfront auquel des documents sont associés, le stockage des documents du portfolio reste sur le stockage Workfront. Toutefois, l’icône de stockage Workfront héritée ![icône de stockage Workfront héritée](assets/legacy-storage-project-icon.png) est supprimée du portfolio.
+   >* Vous ne pouvez pas ajouter un projet de stockage Workfront à un portefeuille de stockage Adobe.
+   >
+   >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+   >
+   >Toutes les instances Workfront ne possèdent pas les deux types de stockage de documents.
 
 1. (Facultatif) Cliquez sur l’icône **X** à droite du nom du projet pour le supprimer de la liste, si vous décidez de ne pas l’ajouter au portfolio.
 

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a7c2c2fc9af216ed68e608f82c1268ae5b8d9357
+source-git-commit: a0294e107bffab97b64d5c94187515a01f914190
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 43%
+source-wordcount: '588'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du troisième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -98,10 +98,11 @@ Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en producti
 Aucune amélioration de Workfront Planning n’est apportée à ce stade de la version.
 
 <!--
-
-New features in Workfront Planning are available in Production. For more information about the latest features, see [Third Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md).
-
+New features in Workfront Planning are available in Production.
 -->
+
+Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de la version du troisième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md).
+
 
 ### Autres améliorations apportées à Workfront
 
@@ -135,7 +136,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

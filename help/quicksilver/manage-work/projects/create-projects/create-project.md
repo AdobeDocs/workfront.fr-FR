@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 66%
@@ -97,7 +97,7 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 * Créez un projet à partir de zéro sans utiliser de modèle. Cet article décrit comment créer un projet à partir de zéro.
 
 * Copiez un projet existant.\
-  Pour plus d’informations sur la copie d’un projet, voir [&#x200B; Copier un projet &#x200B;](../../../manage-work/projects/manage-projects/copy-project.md).
+  Pour plus d’informations sur la copie d’un projet, voir [ Copier un projet ](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Utilisez un modèle.\
   Pour plus d’informations sur l’utilisation d’un modèle pour créer un projet, consultez la section [Créer un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
@@ -177,7 +177,6 @@ Tenez compte des points suivants :
   >[!TIP]
   >
   > Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
-
 
 * Lorsque vous créez un projet de stockage d’entreprise, un dossier de documents portant le même nom est créé dans la section **Documents** du projet. Après avoir ajouté des tâches au projet, les dossiers portant le nom de la tâche sont ajoutés à la section **Documents** de chaque tâche.
 
