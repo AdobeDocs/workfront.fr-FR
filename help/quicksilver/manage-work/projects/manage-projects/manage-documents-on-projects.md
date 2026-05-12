@@ -6,9 +6,9 @@ description: Selon que votre administrateur Workfront choisit votre préférence
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Les sections suivantes décrivent le fonctionnement du stockage de documents pou
 Tenez compte des points suivants lorsque vous utilisez des projets :
 
 * Lorsque vous créez un projet de stockage d’entreprise Adobe, Workfront crée un dossier dans la section Documents du projet où les documents sont enregistrés. Le nom du dossier est identique à celui du projet. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du projet pour qu’il corresponde au nouveau nom du projet.
-* Lorsque vous créez ou déplacez un projet de stockage d’entreprise Adobe vers un portfolio ou un programme de stockage Workfront hérité, le portfolio ou le programme est automatiquement converti en objet de stockage d’entreprise Adobe.
+* Lorsque vous créez ou déplacez un projet de stockage d’entreprise Adobe vers un portfolio ou un programme de stockage Workfront hérité, le portfolio ou le programme est automatiquement converti en objet de stockage d’entreprise Adobe, si le portfolio ou le programme ne sont pas associés à des documents avant l’ajout du projet.
 * Vous ne pouvez pas créer de projet de stockage Workfront pour un portefeuille ou un programme de stockage d’entreprise Adobe.
 * Lorsque vous importez un projet à partir de MS Project, Workfront crée un projet de stockage Workfront, même si votre administrateur Workfront a défini le stockage Adobe Enterprise par défaut pour votre système.
 * Lorsque vous créez des projets à l’aide d’une automatisation de Workfront Planning, Workfront utilise la préférence de stockage par défaut de votre système pour le projet. Vous devez acheter le package Planning pour accéder à Workfront Planning.
@@ -141,9 +141,11 @@ Tenez compte des points suivants lorsque vous utilisez des projets :
 Tenez compte des points suivants lorsque vous utilisez des portfolios :
 
 * Lorsque vous créez un portfolio de stockage d’entreprise Adobe, Workfront crée un dossier dans la section Documents du portfolio où les documents sont enregistrés. Le nom du dossier est identique à celui du portfolio. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du portfolio pour qu’il corresponde au nouveau nom du portfolio.
-* Lorsque vous créez ou déplacez un projet de stockage d’entreprise Adobe vers un portfolio de stockage Workfront hérité, le portfolio est automatiquement converti en objet de stockage d’entreprise Adobe.
-* Si le portfolio converti disposait auparavant de documents joints, ils continuent à être stockés dans le stockage Workfront. Les nouveaux documents sont également stockés dans le stockage Workfront.
-* Si le portfolio converti ne comportait aucun document joint dans le stockage Workfront, les nouveaux documents sont stockés dans le stockage d’entreprise Adobe.
+
+* Lorsque vous ajoutez un projet de stockage Adobe à un portfolio de stockage Workfront et que ce portfolio n’est associé à aucun document, le portfolio est converti en portfolio de stockage Adobe.
+* Lorsque vous ajoutez un projet de stockage Adobe à un portfolio de stockage Workfront auquel des documents sont associés, le stockage des documents du portfolio reste sur le stockage Workfront. Toutefois, l’icône de stockage Workfront héritée pour le portfolio ![icône de stockage de portfolio héritée](assets/legacy-storage-project-icon.png) est supprimée du portfolio.
+* Vous ne pouvez pas ajouter un projet de stockage Workfront à un portefeuille de stockage Adobe.
+
 * Lorsque vous créez des portfolios à l’aide d’une automatisation de Workfront Planning, Workfront utilise la préférence de stockage par défaut de votre système pour le portefeuille. Vous devez acheter le package Planning pour accéder à Workfront Planning.
 
 ### Gestion des documents pour les programmes
@@ -151,9 +153,11 @@ Tenez compte des points suivants lorsque vous utilisez des portfolios :
 Tenez compte des points suivants lorsque vous utilisez des programmes :
 
 * Lorsque vous créez un programme de stockage d’entreprise Adobe, Workfront crée un dossier dans la section Documents du programme où les documents sont enregistrés. Le nom du dossier est identique au nom du programme. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du programme, afin qu’il corresponde au nouveau nom du programme.
-* Lorsque vous créez ou déplacez un projet de stockage d’entreprise Adobe vers un portfolio de stockage Workfront hérité, le portfolio est automatiquement converti en objet de stockage d’entreprise Adobe.
-* Si le programme converti disposait auparavant de documents joints, ils continuent à être stockés dans le stockage Workfront. Les nouveaux documents sont également stockés dans le stockage Workfront.
-* Si aucun document n’était joint au programme converti dans le stockage Workfront, les nouveaux documents sont stockés dans le stockage d’entreprise Adobe.
+
+* Lorsque vous ajoutez un projet de stockage Adobe à un programme de stockage Workfront auquel aucun document n’est joint, le programme est converti en programme de stockage Adobe.
+* Lorsque vous ajoutez un projet de stockage Adobe à un programme de stockage Workfront auquel des documents sont joints, le stockage des documents du programme reste sur le stockage Workfront. Toutefois, l’icône d’enregistrement Workfront héritée pour le programme ![icône d’enregistrement de portfolio héritée](assets/legacy-storage-project-icon.png) est supprimée du programme.
+* Vous ne pouvez pas ajouter un projet de stockage Workfront à un programme de stockage Adobe.
+
 * Lorsque vous créez des programmes à l’aide d’une automatisation de Workfront Planning, Workfront utilise la préférence de stockage par défaut de votre système pour le programme. Vous devez acheter le package Planning pour accéder à Workfront Planning.
 
 ### Gestion des documents pour les tâches
