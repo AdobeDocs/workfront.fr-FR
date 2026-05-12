@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: cc5bdfed0b5bdc56d0042436c19abde65eb5f3bc
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1079'
 ht-degree: 14%
 
 ---
@@ -34,24 +34,26 @@ Pour plus d’informations sur les champs de recherche externe, voir [Exemples d
 
 ## Versions de l’API Workfront Planning
 
-* Version 1.0 - publiée en juillet 2024
+* Version 1 - publiée en juillet 2024
 
-  Pour plus d’informations, consultez la section [API Workfront Planning version 1.0](#workfront-planning-api-version-10) de cet article.
+  Pour plus d’informations, consultez la section [API Workfront Planning version 1](#workfront-planning-api-version-1) dans cet article.
   <!--
-    Maybe retitle the "Workfront Planning API" section below to "Workfront Planning API Version 1.0" when Version 2 releases
+    Maybe retitle the "Workfront Planning API" section below to "Workfront Planning API Version 1" when Version 2 releases
     -->
 
 <!--
-* Version 2.0 - released in May 2026
+* Version 2 - released in May 2026
 
-    For more information, see the section [Workfront Planning API Version 2.0](#workfront-planning-api-version-20) in this article.
+    For more information, see the section [Workfront Planning API Version 2](#workfront-planning-api-version-2) in this article.
 -->
 
-## API Workfront Planning version 1.0
+## API Workfront Planning version 1
 
-La version 1.0 de l’API Workfront Planning a été publiée en juillet 2024.
+L’API Workfront Planning version 1 a été publiée en juillet 2024.
 
-Les sections suivantes décrivent les fonctionnalités disponibles dans l’API Workfront version 1.0.
+Les sections suivantes décrivent les fonctionnalités mises à disposition dans l’API Workfront version 1.
+
+Toutes les futures versions de l’API contiendront la même fonctionnalité, sauf indication contraire.
 
 <!--
 Becky had put the title of this article as"Workfront Planning API URL", but she did not document what that URL is; asking dev and hiding it for now
@@ -67,7 +69,7 @@ Les objets sont manipulés en envoyant une requête HTTP à leur URI unique. L�
 
 Les méthodes HTTP standard correspondent aux opérations suivantes :
 
-* **&#x200B;**&#x200B;- Récupère un objet par ID, recherche tous les objets par une requête
+* **** - Récupère un objet par ID, recherche tous les objets par une requête
 * **POST** - Insère un nouvel objet.
 * **PUT** - Modifie un objet existant.
 * **DELETE** - Supprime un objet.
@@ -397,11 +399,11 @@ Pour plus d’informations sur le tri, voir [Tri des résultats de requête dans
 
 <!--
 
-## Workfront Planning API Version 2.0
+## Workfront Planning API Version 2
 
-Version 2.0 of the Workfront Planning API was released in May 2026. 
+Version of the Workfront Planning API was released in May 2026. 
 
-In addition to all the information contained in Version 1.0, the following enhancements were added in Version 2.0: 
+In addition to all the information contained in Version 1, the following enhancements were added in Version 2: 
 
 * Search by the user's Workfront ID field instead of the user's IMS ID.
 
