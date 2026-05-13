@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '679'
 ht-degree: 13%
 
 ---
@@ -178,12 +178,16 @@ Vous pouvez personnaliser un enregistrement en ajoutant une image de couverture 
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
+   <!--update screen shot for new details views preview-->
+
    ![Zone d’aperçu des détails](assets/details-box.png)
 
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Icône Ouvrir dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    La page de l’enregistrement s’ouvre.
+
+   <!--update screen shot for new details views preview-->
 
    ![Page de détails](assets/details-page.png)
 
@@ -207,6 +211,8 @@ La boîte de dialogue **Couverture d’enregistrement** s’ouvre dans l’ongle
 1. Cliquez sur **Utiliser l’image**.
 
    L’image est chargée en haut de la page d’aperçu ou de détails de l’enregistrement et les modifications sont enregistrées automatiquement.
+
+   <!--update screen shot for new details views preview-->
 
    ![Enregistrer la page avec l’image de couverture](assets/record-page-with-cover-image.png)
 

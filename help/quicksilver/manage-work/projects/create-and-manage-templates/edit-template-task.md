@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '3062'
-ht-degree: 67%
+source-wordcount: '3123'
+ht-degree: 66%
 
 ---
 
@@ -583,6 +583,23 @@ Les formulaires sont automatiquement ajoutés aux tâches créées à partir du 
 1. Cliquer sur **Enregistrer**.
 
    Lorsque vous ou une autre personne créez un projet à partir de ce modèle, tous les paramètres que vous avez appliqués aux tâches de modèle deviennent les paramètres des tâches du projet.
+
+
+## Modifier les tâches de modèles dans une liste
+
+Vous pouvez modifier une tâche de modèle dans une liste dans les zones suivantes :
+
+* La section Tâches de modèles d’un modèle
+* Rapport sur les tâches de modèles
+
+La modification de tâches de modèle dans une liste est similaire à la modification de tâches de projet dans une liste.
+
+>[!TIP]
+>
+>Aucun mode Plan n&#39;est disponible pour les tâches de modèles.
+
+
+Pour plus d’informations, voir [Modifier des tâches dans une liste](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 
 <!--

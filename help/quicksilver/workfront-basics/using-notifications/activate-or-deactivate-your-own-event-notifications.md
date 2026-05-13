@@ -9,10 +9,10 @@ feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 93%
+source-wordcount: '635'
+ht-degree: 85%
 
 ---
 
@@ -65,9 +65,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 {{step1-click-profile-pic}}
 
-1. Cliquez sur l’icône **[!UICONTROL Plus]** ![Plus](assets/more-icon.png) en regard de votre nom, puis cliquez sur **[!UICONTROL Modifier]**.
+1. Cliquez sur l’icône **[!UICONTROL Plus]** ![Icône Plus](assets/more-icon.png) en regard de votre nom, puis cliquez sur **[!UICONTROL Modifier l’utilisateur]**.
 
-1. Dans la zone **[!UICONTROL Modifier une personne]** qui s’affiche, accédez à la section **[!UICONTROL Notifications]**.
+1. Dans la zone **[!UICONTROL Modifier l’utilisateur]** qui s’affiche, accédez à la section **[!UICONTROL Notifications]**.
 
 1. Cliquez sur une catégorie pour afficher les paramètres de notification associés à cette catégorie.
 
@@ -83,10 +83,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Pour la catégorie **[!UICONTROL Communication]**, vous pouvez sélectionner des notifications individuelles pour une diffusion instantanée uniquement. Pour que les notifications soient diffusées dans une synthèse quotidienne, vous devez toutes les sélectionner.
 
-   Si toutes les notifications par e-mail d’une catégorie donnée sont activées, la case du titre de la catégorie apparaît comme étant sélectionnée. Si toutes les notifications par e-mail d’une catégorie donnée sont désactivées, la case est désélectionnée. Si certaines notifications sont activées et que d’autres sont désactivées, la case à cocher de catégorie s’affiche comme une ligne droite.\
+   Si toutes les notifications par e-mail d’une catégorie donnée sont activées, la case du titre de la catégorie apparaît comme étant sélectionnée. Si toutes les notifications par e-mail d’une catégorie donnée sont désactivées, la case est désélectionnée. Si certaines notifications sont activées et que d’autres sont désactivées, la case à cocher de catégorie s’affiche comme une ligne droite.
+
    Lorsque vous modifiez un paramètre de notification, le libellé **[!UICONTROL Modifié]** s’affiche pour votre information.
 
-1. Si vous avez sélectionné des notifications à envoyer sous forme de synthèse quotidienne, sélectionnez l’heure de la journée à laquelle vous souhaitez la recevoir en haut de la section **[!UICONTROL Notifications]** dans le menu **[!UICONTROL Synthèse quotidienne par e-mail]**.
+1. Si vous avez sélectionné des notifications à envoyer sous la forme d’un résumé quotidien, sélectionnez l’heure de la journée à laquelle vous souhaitez les recevoir en haut de la section **[!UICONTROL Notifications]** du menu **[!UICONTROL Envoyer un résumé quotidien par e-mail après]**.
 
    ![Résumé quotidien choisissez l’heure de la journée](assets/digest-time-stamp-my-settings-350x78.png)
 
@@ -97,4 +98,4 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    ![Recevoir des e-mails de la sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.

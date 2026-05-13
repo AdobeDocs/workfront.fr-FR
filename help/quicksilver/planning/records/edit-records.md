@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2918'
-ht-degree: 30%
+source-wordcount: '2954'
+ht-degree: 28%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 30%
 
 Vous pouvez modifier les informations d&#39;enregistrement dans Adobe Workfront Planning en modifiant les valeurs des champs associés aux enregistrements.
 
-Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
+Vous devez créer des types d’enregistrements avant de pouvoir commencer à créer et modifier des enregistrements.
 
 Pour plus d’informations, consultez [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 Pour plus d’informations sur la création d’enregistrements, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
-&lt;!— mentionnez ici que les champs de la vue Détails sont identiques à ceux de la vue de tableau — cet article est lié à la vue Gestion des enregistrements pour faire référence à ces informations—>
+&lt;!— indiquez ici que les champs de la vue Détails sont identiques à ceux de la vue Tableau — cet article est lié à partir de la vue Gérer les enregistrements pour faire référence à ces informations—>
 
 ## Conditions d’accès
 
@@ -147,7 +147,7 @@ Old:
    * Champs système (Créé par, Date de création, Dernière modification par, Date de dernière modification, Date d’approbation, Approuvé par , ID d’enregistrement)
 * Si les enregistrements que vous affichez sont liés à d&#39;autres enregistrements, les nouvelles informations des enregistrements que vous modifiez sont répercutées sur les enregistrements liés dans tous les espaces de travail où cet enregistrement est lié.
 * Vous ne pouvez pas modifier les enregistrements en masse. <!--this will probably change-->
-* Les URL sont reconnues comme des liens dans les types de champ de texte sur une seule ligne uniquement lorsqu’elles commencent par les éléments suivants : http://, https://, ftp:// ou www.
+* Les URL sont reconnues en tant que liens dans des types de champ de texte d’une seule ligne uniquement lorsqu’elles commencent par ce qui suit : http://, https://, ftp:// ou www. .
 * Vous pouvez ajouter une image de couverture à chaque enregistrement. L’image est unique pour chaque enregistrement et ne s’applique pas à tous les enregistrements en même temps. Pour plus d’informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 * Vous pouvez modifier l’ordre des champs dans la page de détails d’un enregistrement. Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
 * Vous pouvez modifier les dates de début et de fin d&#39;un enregistrement en redimensionnant ou en repositionnant les enregistrements dans les vues Chronologie et Calendrier.
@@ -188,7 +188,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
    L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
-   La page du type d’enregistrement s’ouvre.
+   La page de type d’enregistrement s’ouvre.
 1. (La cas échéant) Cliquez sur l’onglet d’une vue de tableau ou sur **+ Affichage** pour créer une vue de tableau. La vue de tableau doit être la vue par défaut, sauf si vous avez consulté le type d’enregistrement dans un autre type de vue lors de votre dernier accès.
 
    Les enregistrements associés au type d’enregistrement sélectionné s’affichent dans la vue Tableau.
@@ -319,6 +319,8 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne. L’aperçu de l’enregistrement s’ouvre dans la vue.
 
+   <!--update screenshot for new details views preview-->
+
    ![Zone Détails](assets/details-box.png)
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
@@ -362,7 +364,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
-   La page du type d’enregistrement s’ouvre.
+   La page de type d’enregistrement s’ouvre.
 
 1. Utilisez l’une des méthodes suivantes :
 
@@ -373,6 +375,8 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
      ![Menu contextuel pour la ligne d’enregistrement](assets/contextual-menu-for-record-row.png)
 
      La page de l’enregistrement s’ouvre.
+
+     <!--update screenshot for new details views preview-->
 
      ![Page de détails](assets/details-page.png)
 

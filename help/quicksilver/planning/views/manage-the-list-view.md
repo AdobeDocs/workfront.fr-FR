@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1803'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 Vous pouvez afficher les objets dans la vue Liste dans les zones suivantes de Workfront Planning :
 
-* Une page d&#39;enregistrements connectée pour les projets dans la zone des détails d&#39;un enregistrement
+* Une page d&#39;enregistrements connectée pour les projets dans la zone de détails d&#39;un enregistrement <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
 
   ![Projets sur la page des enregistrements connectés dans la vue Liste](assets/projects-on-connected-records-page-list-view.png)
 
@@ -189,11 +189,6 @@ Removed - more direct steps below:
       Vous ne pouvez ajouter que des champs existants à la vue Liste.
 Vous ne pouvez pas supprimer le champ principal dans la vue Liste qui s’affiche dans la première colonne.
 
-      <!-- 
-        update indent here: 
-        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
-        -->
-
    1. Cliquez sur l’icône **Formater les cellules** ![Icône Formater les cellules](assets/format-cells-icon.png). La boîte **Format** s’ouvre. <!--change the name of the box when they update it-->
 Procédez comme suit :
 
@@ -232,7 +227,7 @@ Procédez comme suit :
 La mise en forme est appliquée immédiatement à la vue Liste.
 Un point bleu est placé en regard de l’icône **Formater les cellules** pour indiquer qu’une mise en forme spéciale est appliquée à la vue.
 
-   1. (Facultatif) Cliquez sur l’icône **Regroupement** ![icône de regroupement](assets/grouping-icon.png) <!--have they updated this to "Grouping"??--> pour regrouper les éléments de la liste par un champ commun. Sélectionnez l’une des options ou utilisez la barre de recherche pour rechercher un champ.
+   1. (Facultatif) Cliquez sur l’icône **Regroupement** ![Icône de regroupement](assets/grouping-icon.png) pour regrouper les éléments de la liste par un champ commun. Sélectionnez l’une des options ou utilisez la barre de recherche pour rechercher un champ.
 
       Le champ doit être une colonne de la liste pour que vous puissiez effectuer un regroupement. Tous les types de champ ne peuvent pas être utilisés pour les regroupements.
 
@@ -243,7 +238,7 @@ Un point bleu est placé en regard de l’icône **Formater les cellules** pour 
       * Moyen
       * Grand
 
-   <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
+      <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (Facultatif) Ajoutez un mot-clé dans la zone de recherche située dans le coin supérieur droit de la liste pour rechercher un élément.
 
@@ -253,19 +248,21 @@ Un point bleu est placé en regard de l’icône **Formater les cellules** pour 
 
    * Cliquez sur **Connecter des enregistrements** dans le coin supérieur droit de la liste pour ajouter des éléments existants.
    * Cliquez sur **Nouvelle ligne** au bas de la liste pour ajouter de nouveaux éléments.
-1. Cliquez sur le nom d’un élément connecté de la liste pour l’ouvrir dans un autre onglet du navigateur.
+1. Cliquez sur le nom d’un élément de la liste pour l’ouvrir dans un autre onglet du navigateur.
 1. Double-cliquez à l&#39;intérieur d&#39;une cellule de la liste pour modifier les informations d&#39;un champ, puis appuyez sur Entrée pour enregistrer vos modifications.
 
    Certains champs sont en lecture seule. Par exemple, le pourcentage d’achèvement d’un projet est un champ calculé par le système et que vous ne pouvez pas modifier manuellement.
 
-1. Pointez sur le nom d’un élément dans la liste, cliquez sur le menu **Plus** [Plus](assets/more-menu.png), puis sur **Affichage** pour ouvrir le projet dans un autre onglet
+1. Pointez sur le nom d’un élément dans la liste, cliquez sur le menu **Plus** [Plus](assets/more-menu.png), puis sur **Affichage** pour ouvrir l’élément dans un autre onglet
 
    Ou
 
-   Sélectionnez un ou plusieurs éléments, remarquez la barre d’actions située en bas de la liste, puis cliquez sur l’un des éléments suivants, le cas échéant. Selon la zone à partir de laquelle vous accédez à la vue Liste, cliquez sur l’une des options suivantes :
+   Sélectionnez un ou plusieurs éléments, remarquez la barre d’actions située en bas de la liste, puis cliquez sur l’un des éléments suivants, le cas échéant.
+
+   Selon la zone à partir de laquelle vous accédez à la vue Liste, cliquez sur l’une des options suivantes :
 
    * **Supprimer** pour supprimer l’élément. La suppression d’un projet le déconnecte de l’enregistrement et le déplace vers la Corbeille de Workfront. Les administrateurs et administratrices de Workfront peuvent récupérer les projets supprimés jusqu’à 30 jours après leur suppression. La suppression d’un formulaire ne supprime pas les demandes ou les enregistrements créés lors de l’envoi du formulaire.
-   * **Déconnecter** pour déconnecter le projet de l’enregistrement. La déconnexion d’un projet supprime cet enregistrement et toutes les valeurs de ses champs de recherche de l’enregistrement actif.
+   * **Déconnecter** dans la page de connexion des projets, pour déconnecter un projet de l’enregistrement. La déconnexion d’un projet supprime cet enregistrement et toutes les valeurs de ses champs de recherche de l’enregistrement actif.
 
      ![Barre d’actions dans la vue Liste des pages Enregistrements connectés](assets/actions-bar-connected-records-page-list-view.png)
 
