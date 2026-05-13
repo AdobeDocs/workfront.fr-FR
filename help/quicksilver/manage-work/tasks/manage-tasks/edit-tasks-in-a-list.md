@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2825'
-ht-degree: 62%
+source-wordcount: '2859'
+ht-degree: 61%
 
 ---
 
@@ -345,7 +345,11 @@ Pour modifier les tâches d’une liste en sélectionnant l’option standard En
     </tbody> 
    </table>
 
-1. Workfront met à jour toutes les dépendances inter-projets et dans les projets lorsque vous modifiez la chronologie des tâches.
+1. Cliquez sur une tâche dans la liste, puis faites-la glisser et déposez-la à un autre emplacement dans la chronologie.
+
+   Lorsque vous cliquez sur une tâche parent pour modifier sa position, tous les enfants sont également déplacés.
+
+   Workfront met à jour toutes les dépendances inter-projets et dans les projets lorsque vous modifiez la chronologie des tâches.
 1. Cliquez sur **Enregistrer** lorsque vous souhaitez conserver vos modifications de tâche de manière permanente et enregistrer la chronologie du projet.
 
 #### Enregistrer manuellement les modifications apportées à une liste de tâches en sélectionnant l’option de planification chronologique Enregistrement manuel {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}

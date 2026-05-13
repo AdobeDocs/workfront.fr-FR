@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 6%
@@ -201,11 +201,15 @@ Pour ajouter une section à une prévisualisation d’enregistrement ou à une p
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
+   <!--update screen shot for details views preview-->
+
    ![Zone Détails](assets/details-box.png)
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    La page de l’enregistrement s’ouvre. L’onglet Détails s’ouvre par défaut.
+
+   <!--update screen shot for details views preview-->
 
    ![Page de détails](assets/details-page.png)
 
@@ -280,6 +284,8 @@ Voici ce qui se produit :
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
+   <!--update screen shot for details views preview-->
+
    ![Zone Détails](assets/details-box.png)
 
 1. (Facultatif et conditionnel) <!--If you are using the Production environment,--> Selon les champs que vous souhaitez afficher dans la page Détails, effectuez l’une des opérations suivantes :
@@ -302,16 +308,21 @@ Voici ce qui se produit :
    -->
    <!--
    <div class="preview">
+
    In the Preview environment, continue with the following: 
+   
    1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
    1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
       1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide and drag field** icon ![Hide and drag field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field or place it in another spot on the page. 
+      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
+     
          >[!TIP]
          >
          >* Custom pages are visible by everyone who accesses the record. 
          >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+     
       1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+     
          >[!TIP]
          >
          >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
@@ -331,6 +342,8 @@ Voici ce qui se produit :
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir la zone des détails dans une icône d’un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    La page d’enregistrement **Détails** s’ouvre dans un nouvel onglet.
+
+   <!--update screen shot for details views preview-->
 
    ![Page de détails](assets/details-page.png)
 
