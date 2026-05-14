@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 9abdd794950a6e26b34770398c67db23c76d04a9
+source-git-commit: 9a86968cf8fff2c7c930aa6c8408ab8566905cb8
 workflow-type: tm+mt
-source-wordcount: '14114'
+source-wordcount: '14119'
 ht-degree: 95%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 95%
       * Version Du T3 2026 {#release-26-q3}
          * [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
          * [Améliorations des documents du troisième trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
+         * [Améliorations des rapports du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
          * [Demande d’améliorations pour le troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
       * Version Du T2 2026 {#release-26-q2}
          * [Vue d’ensemble de la version du deuxième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
