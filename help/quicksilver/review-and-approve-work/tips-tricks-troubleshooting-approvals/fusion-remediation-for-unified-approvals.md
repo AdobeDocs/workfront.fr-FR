@@ -6,9 +6,9 @@ description: inventoriez, classez et corrigez les scénarios Workfront Fusion ba
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 722ba7f6617e3ccc1a1dcbf51f5d539c550617ab
+source-git-commit: 0a635f80338cef38dec7d32391596ca9ccd2fd6c
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '804'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ Les scénarios Fusion existants créés sur Workfront Proof reposent sur des mod
 
 | Type de scénario | Impact | Chemin à suivre |
 |---|---|---|
-| Création et routage d&#39;un BAT | Pauses | Recréer à l’aide de l’API d’approbations unifiées |
-| Webhooks de statut des épreuves | Pauses | Recréer avec de nouveaux déclencheurs d&#39;événement d&#39;approbation |
-| Déclencheurs de chargement de document | Partiel : nouveau test requis | Audit et retest après la migration |
+| Création et routage d&#39;un BAT | Pauses | Reconstruction à l’aide de l’API d’approbations unifiées au 3e trimestre 2026 |
+| Webhooks de statut des épreuves | Pauses | Recréer avec de nouveaux déclencheurs d’événement d’approbation au 3e trimestre 2026 |
+| Déclencheurs de chargement de document | Partiel : nouveau test requis | Audit et retest après la migration au T3 2026 |
 | Notifications de rappel de validation | Pauses | Remplacer par les dates limites du modèle d&#39;approbation |
 | Acheminement des décisions d&#39;approbation | Pauses | Recréer à l&#39;aide de nouveaux champs de statut de décision |
 | Rapports d’approbation personnalisés | Partiel : les noms de champ peuvent changer | Mapper les champs hérités au nouveau schéma |
