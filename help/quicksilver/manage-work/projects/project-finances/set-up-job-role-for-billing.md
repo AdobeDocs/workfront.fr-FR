@@ -7,9 +7,9 @@ description: Workfront vous permet de facturer un utilisateur sous une fonction 
 author: Lisa
 feature: Work Management
 exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '683'
 ht-degree: 6%
 
 ---
@@ -79,7 +79,7 @@ Pour affecter une fonction à la facturation au niveau du projet :
 1. Sélectionnez la **Fonction** à utiliser comme fonction pour la facturation de cet utilisateur pour ce projet.
 1. (Facultatif) Cliquez sur **Ajouter une fonction** pour définir les dates d’entrée en vigueur de la fonction pour la facturation. Saisissez les dates **Début** et **Fin** pour la fonction.
 
-[Ajouter une fonction pour la facturation au niveau du projet](assets/jrfb-project-level.png)
+   ![Ajouter une fonction pour la facturation au niveau du projet](assets/jrfb-project-level.png)
 
 1. Cliquez de nouveau sur **Ajouter une fonction** pour spécifier des rôles de facturation supplémentaires pour différentes périodes.
 1. Cliquez sur **Enregistrer**.
