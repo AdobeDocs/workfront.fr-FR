@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 0%
+source-wordcount: '332'
+ht-degree: 2%
 
 ---
 
@@ -17,23 +17,75 @@ ht-degree: 0%
 
 <!--take the next sentence out when we start listing features-->
 
-Aucune fonctionnalité n’a été publiée lors de la version du troisième trimestre de 2026. Nous allons documenter dans cet article les dates de publication des fonctionnalités pour ce trimestre.
-
-<!--keep the sentence below for all future quarterly release pages-->
-
-Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
-
-
 <!--
-This article describes the features that are releasing for Workfront Planning during the Third  Quarter 2026 release.
+There are no features released during the Third Quarter Release for 2026. When features are released for this quarter, we will document them in this article. 
 -->
 
 <!--keep the sentence below for all future quarterly release pages-->
 
+Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du troisième trimestre 2026.
+
+Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nouvelle fenêtre d’aperçu pour les fragments de contenu en mode Tableau
+
+>[!NOTE]
+>
+>Aperçu : 14 mai 2026>Version rapide de production : 14 mai 2026>Production pour tous : 14 mai 2026>[!BADGE Hors planning]{type=Neutral}
+
+Pour une meilleure visibilité lorsque vous utilisez des fragments de contenu AEM connectés à des enregistrements Workfront Planning, nous avons ajouté une fenêtre d’aperçu qui affiche des informations sur les fragments dans Workfront Planning.
+
+Cette fonctionnalité était auparavant disponible pour les ressources AEM et nous l’avons maintenant ajoutée aux fragments de contenu.
+
+Pour plus d’informations, consultez [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+
 <!--
 
-For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+## New Sample workspaces tab added to the Planning landing page
 
+Preview:   May 14, 2026 
+
+Production fast release: June 11, 2026   
+
+Production for everyone:  July 16, 2026 
+
+We have added the Sample workspaces tab in the Planning landing area. The new tab displays built-in best-practice workspaces that you can review and use as examples to build your own. Workfront administrators can add records to the sample workspaces and share them with others.   
+
+We recommend to use the Sample workspaces as examples only, and rather use the multi-workspace template to create your own and edit and share workspaces that result from the use of that template.   
+
+For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
+
+-->
+
+## Vues personnalisées pour la page Détails d&#39;un enregistrement
+
+>[!NOTE]
+>
+>Aperçu : 14 mai 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
+
+Pour une meilleure flexibilité de visualisation de vos informations dans la page de détails d&#39;un enregistrement, nous avons introduit la possibilité de créer des vues personnalisées pour cette page.
+
+Outre l&#39;ajout de deux vues de page de détails déjà créées, qui contiennent tous les champs d&#39;enregistrement ou uniquement les champs visibles en mode Tableau, vous pouvez désormais créer des vues personnalisées pour les pages de détails d&#39;un enregistrement. Les vues que vous créez sont visibles par tous ceux qui peuvent accéder à l&#39;enregistrement.
+
+Cette mise à jour supprime le paramètre **Afficher tous les champs** et le remplace par des vues détaillées personnalisées.
+
+Pour plus d’informations, voir [ Gérer la page d’enregistrement ](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Ajouter des regroupements à une page d’enregistrement connecté Projets
+
+>[!NOTE]
+>
+>Aperçu : 14 mai 2026\
+>Production rapide : 11 juin 2026>Production pour tous : 16 juillet 2026
+
+Vous pouvez désormais regrouper vos informations dans la page Enregistrements connectés à des projets d’un enregistrement dans Workfront Planning. Cette fonctionnalité n&#39;existait pas dans ce domaine avant cette amélioration.
+
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+
+<!--
+
+API new version delayed till May 21, 2026
 
 ## Workfront Planning API version 2 
 
@@ -61,33 +113,5 @@ Version 1 remains available, although we recommend that you switch to using Vers
 For information, see [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md).  
 
 For Workfront Planning API specifications, see the [Workfront Planning API](https://developer.adobe.com/wf-planning/) developer documentation. 
-
-## Custom views for a record's Details page (title) 
-
->[!NOTE]
->
->Preview: May 14, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-To allow for better flexibility of visualizing your information in a record's details page, we have introduced the ability to create custom views for this page.  
-
-In addition to adding two already-built details page views that contain either all the records fields or just the fields visible in the table view, you can now create custom views for a record's details pages. The views you create are visible to everyone that can access the record.  
-
-This update removes the **Show all fields** setting and replaces it with custom details views.  
-
-For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
-
-## Add groupings to a Projects connected record page
-
->[!NOTE]
->
->Preview: May 14, 2026     
->Production fast: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-You can now group your information in the projects connected records page of a record in Workfront Planning. This capability did not exist in this area prior to this enhancement.  
-
-For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 -->
