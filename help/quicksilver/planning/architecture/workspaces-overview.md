@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 26%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 26%
 
 Un espace de travail est un ensemble de types d’enregistrements utilisés par une entité organisationnelle et représente le cycle de vie et les processus de travail de l’entité. Vous pouvez entièrement personnaliser les espaces de travail dans Adobe Workfront Planning.
 
+<!--update screenshot with preview-->
 
 ![Compte administrateur de la page de destination des espaces de travail](assets/workspaces-landing-page-admin-account.png)
 
@@ -51,7 +52,18 @@ Un espace de travail est un ensemble de types d’enregistrements utilisés par 
       * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
       * **Autres espaces de travail** : affiche tous les autres espaces de travail du système.
 
+     <!--
+      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      -->
+
+     <!--      
+        >[!NOTE]
+        >
+        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
+        -->
+
    * Pour tous les autres utilisateurs, les espaces de travail qu’ils ont créés et les espaces de travail que d’autres ont partagés avec eux s’affichent dans la zone Espaces de travail.
+  <!--* <span class="preview">**Sample workspaces**: Displays for Standard-license users when a Workfront administrator shared the workspaces on the tab with them. The tab displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span> -->
 
 * Les types d’enregistrements contenus dans un espace de travail doivent refléter le cycle de vie professionnelle et les concepts d’une entité organisationnelle.
 

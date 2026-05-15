@@ -8,10 +8,10 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
 workflow-type: tm+mt
-source-wordcount: '3445'
-ht-degree: 29%
+source-wordcount: '3546'
+ht-degree: 28%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 29%
 
 {{planning-important-intro}}
 
-Vous pouvez connecter des enregistrements Adobe Workfront Planning entre eux ou à des objets provenant d&#39;autres applications. Vous pouvez afficher les informations d&#39;un enregistrement sur un autre lorsque vous les connectez.
+Vous pouvez connecter des enregistrements d’Adobe Workfront Planning les uns aux autres ou aux objets d’autres applications. Vous pouvez afficher les informations d&#39;un enregistrement sur un autre lorsque vous les connectez.
 
 Cet article décrit comment connecter des enregistrements. Pour plus d&#39;informations générales sur la connexion des enregistrements, voir [Présentation des enregistrements connectés](/help/quicksilver/planning/records/connected-records-overview.md).
 
@@ -256,7 +256,7 @@ Vous pouvez connecter des enregistrements de Workfront Planning dans les zones s
    >
    >    Vous pouvez ouvrir la page d&#39;un enregistrement et connecter d&#39;autres enregistrements en procédant comme suit en mode Tableau :
    >1. Cliquez sur le nom de l’enregistrement dans la vue.
-   >1. Find the linked record field and double-click the field (if there are records already connected)
+   >1. Recherchez le champ d&#39;enregistrement lié et double-cliquez sur le champ (si des enregistrements sont déjà connectés)
    >Ou
    >Cliquez sur **Connecter des enregistrements** (si le champ est vide) pour ajouter des enregistrements du type d&#39;objet ou d&#39;enregistrement connecté.
    >
@@ -473,7 +473,7 @@ Pour connecter des enregistrements à des objets Experience Manager :
      >
      >* Un champ d’enregistrement lié aux enregistrements liés de Workfront Planning n’est pas créé pour les ressources de Experience Manager liées dans l’application Experience Manager Assets.
 
-1. (Facultatif et conditionnel) Pour les ressources, accédez au type d’enregistrement à partir duquel vous avez lié Experience Manager et cliquez sur le nom d’une ressource dans le champ d’enregistrement lié. Les détails Experience Manager de la ressource s’affichent dans une fenêtre pop-up. <!--not sure if this is also possible for fragments??-->
+1. (Facultatif et conditionnel) Accédez au type d’enregistrement à partir duquel vous avez lié Experience Manager et cliquez sur le nom d’une ressource dans le champ d’enregistrement lié. Les détails Experience Manager de la ressource s’affichent dans une fenêtre pop-up. <!--not sure if this is also possible for fragments??-->
 
    ![Fenêtre pop-up de ressource avec des détails et une miniature AEM](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -489,17 +489,21 @@ Pour connecter des enregistrements à des objets Experience Manager :
    * Date de création
    * Date de modification
 
-1. (Facultatif et conditionnel) Pour les ressources, pour ouvrir la page d’enregistrement des ressources Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous établissez un lien, cliquez sur le nom d’une ressource dans le champ d’enregistrement lié pour ouvrir la fenêtre pop-up, puis cliquez sur l’icône **Ouvrir dans AEM** ![Icône Ouvrir la ressource dans AEM](assets/open-asset-icon.png) pour ouvrir la ressource. <!--not sure if this is also possible for fragments??-->
+     >[!TIP]
+     >
+     >La fenêtre Détails de l&#39;objet Experience Manager s&#39;affiche à partir de n&#39;importe quel emplacement de Planning où l&#39;objet connecté s&#39;affiche. Par exemple, vous pouvez ouvrir les fenêtres de détails des objets AEM à partir de la fenêtre du tableau ou de la zone Détails d&#39;un enregistrement.
+
+1. (Facultatif et conditionnel) Pour ouvrir la page d’enregistrement de fragment ou de ressource Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous établissez un lien, cliquez sur le nom d’une ressource dans le champ d’enregistrement lié pour ouvrir la fenêtre pop-up, puis cliquez sur l’icône **Ouvrir dans AEM** ![Icône Ouvrir la ressource dans AEM](assets/open-asset-icon.png) pour ouvrir la ressource. <!--not sure if this is also possible for fragments??-->
 
    Cette opération ouvre la ressource Experience Manager dans Adobe Experience Manager Assets.
 
-1. (Facultatif et conditionnel) Pour les ressources, dans la vue Tableau du type d’enregistrement, passez le curseur sur l’en-tête de colonne de la ressource Experience Manager liée, cliquez sur le menu déroulant, puis sur **Modifier les champs de recherche**. <!--not sure if this is also possible for fragments??-->
+1. (Facultatif et conditionnel) Dans la vue Tableau du type d’enregistrement, passez la souris sur l’en-tête de colonne de la ressource ou du fragment Experience Manager lié, cliquez sur le menu déroulant, puis sur **Modifier les champs de recherche**. <!--not sure if this is also possible for fragments??-->
 
 1. Ajoutez des champs d’objet Experience Manager Assets à partir de la zone **Champs non sélectionnés** <!--not sure if this is also possible for fragments??-->
 
    Ou
 
-   Supprimez des champs d’objet Workfront de la zone **Champs sélectionnés**.
+   Supprimez des champs d’objet Workfront à partir de la zone **Champs sélectionnés**.
 
    Cela permet d’ajouter ou de supprimer des champs liés des enregistrements. Les informations associées aux champs supprimés restent dans Adobe Experience Assets.
 
