@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '890'
 ht-degree: 57%
 
 ---
@@ -119,12 +119,12 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
 
 1. (Conditionnel) Selon le stockage de document utilisé par votre organisation, cliquez sur l’un des éléments suivants :
 
-   * **Nouveau portefeuille**, lorsque l’administrateur Workfront choisit **Adobe Enterprise** ou **Workfront hérité** et qu’il a sélectionné ou non le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
-   * **Nouveau portefeuille (stockage hérité)** lorsque l’administrateur Workfront choisit **Adobe Enterprise** ou **Workfront hérité** et qu’il a également sélectionné le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
+   * **Nouveau portefeuille**, lorsque l’administrateur Workfront choisit **l’espace de stockage cloud Adobe** ou **l’ancien Workfront** et qu’il a sélectionné ou non le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
+   * **Nouveau portfolio (stockage hérité)**, lorsque l’administrateur Workfront choisit l’un des paramètres suivants : **Stockage dans le cloud Adobe** ou **Workfront hérité**, et qu’il a également sélectionné le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
 
      Cette option s&#39;affiche uniquement lorsque le paramètre **Autoriser l&#39;utilisateur à sélectionner le fournisseur de stockage** est sélectionné dans la zone Configuration.
 
-     Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Pour plus d’informations, voir [Activer l’espace de stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      >[!NOTE]
      >
@@ -132,17 +132,17 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
 
      Un portfolio est créé et son nom par défaut suit les schémas suivants, en fonction du Workfront de stockage utilisé pour les documents :
 
-      * `Untitled Portfolio` pour un portefeuille de stockage Workfront.
+      * `Untitled Portfolio` pour un portefeuille de stockage Workfront hérité.
 
-        Un portfolio de stockage Workfront affiche une icône **Stockage Workfront hérité** ![Icône de portfolio de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
+        Un portfolio de stockage Workfront hérité affiche une icône **Stockage Workfront hérité** ![Icône de portfolio de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` d’un portfolio de stockage Adobe
+      * `Untitled Portfolio - < Month day, year hour.minute.second >` d’un portfolio de stockage dans le cloud Adobe
 
         >[!IMPORTANT]
         >
-        >Les portfolios utilisant le stockage d’entreprise d’Adobe doivent avoir des noms uniques.
+        >Les portfolios utilisant l’espace de stockage dans le cloud Adobe doivent avoir des noms uniques.
 
-     Pour les portfolios de stockage Adobe, un nouveau dossier de documents portant le même nom que le portfolio est automatiquement créé dans la zone Documents .
+     Pour les portfolios de stockage dans le cloud Adobe, un nouveau dossier de documents portant le même nom que le portfolio est automatiquement créé dans la zone Documents .
 
 1. Remplacez le nom du portfolio par un nouveau nom dans l’en-tête du portfolio.
 

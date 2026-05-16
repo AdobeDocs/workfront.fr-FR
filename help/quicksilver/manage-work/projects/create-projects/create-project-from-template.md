@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1393'
-ht-degree: 66%
+source-wordcount: '1404'
+ht-degree: 65%
 
 ---
 
@@ -159,22 +159,22 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
    1. (Facultatif) Dans le champ **Modèles de recherche**, commencez à saisir le nom d’un modèle et cliquez dessus lorsqu’il s’affiche dans la liste.
    1. Cliquez sur le nom de l’un des types de modèles suivants pour le sélectionner :
 
-      * Un modèle de stockage Workfront
+      * Modèle de stockage Workfront hérité
 
-        Les modèles de stockage Workfront affichent une icône de stockage hérité ![icône de stockage hérité](assets/legacy-storage-project-icon.png) en regard de leur nom.
+        Les modèles de stockage Workfront hérités affichent une icône de stockage hérité ![icône de stockage hérité](assets/legacy-storage-project-icon.png) en regard de leur nom.
 
         Les documents sur le modèle et sur les futurs projets seront stockés dans le stockage Workfront.
-      * Un modèle de stockage Adobe
+      * Un modèle de stockage dans le cloud Adobe
 
-        Les documents sur le modèle et sur les projets futurs seront stockés dans le stockage d’entreprise d’Adobe.
+        Les documents sur le modèle et sur les projets futurs seront stockés dans l’espace de stockage cloud d’Adobe.
 
       >[!NOTE]
       >
-      >* L’utilisation d’un modèle de stockage d’entreprise Adobe crée un projet de stockage d’entreprise Adobe.
+      >* L’utilisation d’un modèle de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
       >
-      >* L’utilisation d’un modèle de stockage Workfront crée un projet de stockage Workfront.
+      >* L’utilisation d’un modèle de stockage Workfront hérité crée un projet de stockage Workfront hérité.
       >
-      >* Lorsque vous utilisez un modèle de stockage d’entreprise Adobe à partir d’un portfolio ou d’un programme de stockage Workfront, le projet est un projet de stockage d’entreprise Adobe et le portfolio ou le programme est également converti en objets de stockage d’entreprise Adobe. Tous les autres projets de stockage Workfront relevant du même portefeuille ou programme restent inchangés.
+      >* Lorsque vous utilisez un modèle de stockage dans le cloud Adobe à partir d’un portfolio ou d’un programme de stockage Workfront hérité, le projet est un projet de stockage dans le cloud Adobe et le portfolio ou le programme est également converti en objets de stockage dans le cloud Adobe. Tous les autres projets de stockage Workfront hérités du même portefeuille ou programme restent inchangés.
       >
       > Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
       >
@@ -226,7 +226,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 
    Tous les détails définis dans le modèle sont associés automatiquement au nouveau projet si vous ne les avez pas modifiés à l’étape précédente.
 
-   Un dossier de documents portant le même nom que le projet est automatiquement créé pour les projets de stockage Adobe dans la section Documents du projet.
+   Un dossier de documents portant le même nom que le projet est automatiquement créé pour les projets d’espace de stockage dans le cloud Adobe dans la section Documents du projet.
 
 ## Créer un projet à partir d’un modèle dans la zone Modèles
 
@@ -234,7 +234,7 @@ Au lieu de commencer dans la zone Projets, vous pouvez créer un projet à parti
 
 >[!NOTE]
 >
->Les modèles associés au stockage de documents Workfront créent des projets de stockage Workfront hérités. Les modèles associés au stockage de documents d’entreprise Adobe créent des projets de stockage Adobe. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
+>Les modèles associés au stockage de documents Workfront créent des projets de stockage Workfront hérités. Les modèles associés à l’espace de stockage Adobe pour les documents créent des projets d’espace de stockage Adobe. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
 >
 >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -261,4 +261,4 @@ Au lieu de commencer dans la zone Projets, vous pouvez créer un projet à parti
 
    Tous les détails définis dans le modèle sont associés automatiquement au nouveau projet si vous ne les avez pas modifiés à l’étape précédente.
 
-   Un dossier de documents portant le même nom que le projet est automatiquement créé pour les projets de stockage Adobe dans la section Documents du projet.
+   Un dossier de documents portant le même nom que le projet est automatiquement créé pour les projets d’espace de stockage dans le cloud Adobe dans la section Documents du projet.

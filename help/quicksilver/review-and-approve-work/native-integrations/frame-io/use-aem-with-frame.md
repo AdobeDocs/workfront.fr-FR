@@ -9,16 +9,16 @@ recommendations: noDisplay, noCatalog
 exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 79%
+source-wordcount: '1468'
+ht-degree: 81%
 
 ---
 
 # Utiliser Adobe Experience Manager avec l’intégration Frame.io
 
-Vous pouvez utiliser le &#x200B;&#x200B; pour gérer et stocker vos ressources numériques qui ont passé le cycle de révision et d’approbation. [!DNL Experience Manager Assets] Cette intégration permet d’exploiter les fonctionnalités d’Adobe Experience Manager, Frame.io et Workfront afin de rationaliser vos processus de gestion de contenu et de collaboration.
+Vous pouvez utiliser le &#x200B;&#x200B; pour gérer et stocker vos ressources numériques qui ont passé le cycle de révision et d’approbation. [!DNL Experience Manager Assets]Cette intégration permet d’exploiter les fonctionnalités d’Adobe Experience Manager, Frame.io et Workfront afin de rationaliser vos processus de gestion de contenu et de collaboration.
 
 ## Configuration de l’intégration de Experience Manager Assets
 
@@ -79,7 +79,7 @@ Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manag
   </tr>
 </table>
 
-Pour plus d’informations sur ce tableau, voir la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +88,7 @@ Pour plus d’informations sur ce tableau, voir la section [Conditions d’accè
 Avant de commencer
 
 * Vous devez avoir [!DNL Workfront] et [!DNL Adobe Experience Manager Assets] associés à un ID d’organisation dans l’[!DNL Adobe Admin Console]. Pour plus d’informations, voir [Différences d’administration basées sur les plateformes ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-* Votre instance Workfront doit utiliser le stockage d’entreprise Adobe.
+* Votre instance Workfront doit utiliser l’espace de stockage Adobe dans le cloud.
 
 
 ## Configurer les informations d’intégration
@@ -221,7 +221,7 @@ Lorsque cette option est activée, toute ressource qui a été transmise à Adob
 
 ## Envoyer un document vers Experience Manager Assets ou Assets Essentials
 
-Vous pouvez envoyer des documents depuis Workfront vers Experience Manager Assets ou Assets Essentials. Les documents chargés et envoyés de Workfront vers Assets Essentials sont toujours comptabilisés dans votre stockage global de documents.
+Vous pouvez envoyer des documents depuis Workfront vers Experience Manager Assets ou Assets Essentials. Les documents chargés et envoyés depuis Workfront vers Assets Essentials sont toujours pris en compte par rapport à votre stockage global de documents.
 
 Les Assets envoyées à Experience Manager par le biais de cette intégration ont une taille maximale de **5 To**.
 
@@ -237,7 +237,7 @@ Les champs de métadonnées sont mappés pour la première fois lorsque vous env
 
 ### Envoyer un document depuis Workfront
 
-Lorsqu’un utilisateur ou une utilisatrice envoie un document depuis Workfront vers Experience Manager Assets ou Assets Essentials, les métadonnées mappées sont transférées avec le document. Une fois le document envoyé, les modifications apportées aux métadonnées du document dans Workfront ne sont pas reflétées dans Assets ou Assets Essentials. Si un champ mappé dans Workfront est modifié, vous devez envoyer une nouvelle version du document avec les métadonnées mises à jour à Assets ou Assets Essentials.
+Lorsqu’un utilisateur ou une utilisatrice envoie un document depuis Workfront vers Experience Manager Assets ou Assets Essentials, les métadonnées mappées sont transférées avec le document. Une fois le document envoyé, les modifications apportées aux métadonnées du document dans Workfront ne sont pas reflétées dans Assets ou Assets Essentials. Si un champ mappé dans Workfront est modifié, vous devez envoyer une nouvelle version du document avec les métadonnées mises à jour vers Assets ou Assets Essentials.
 
 Pour envoyer un document, procédez comme suit :
 

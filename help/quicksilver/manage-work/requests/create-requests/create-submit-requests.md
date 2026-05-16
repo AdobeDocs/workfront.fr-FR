@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 72%
@@ -312,7 +312,7 @@ Pour créer une demande dans l’application web Workfront :
       <td> <p>Ajoutez des documents à votre demande. </p> <p> En fonction de la configuration de la file d’attente des demandes, la section Documents peut s’afficher avant ou après les champs personnalisés. </p> <p>Les documents que vous téléchargez dans Workfront sont stockés pendant 24 heures dans une demande en préparation. Par la suite, vous devez les rattacher lorsque vous revenez pour éditer et soumettre le brouillon. Les documents liés à d’autres lecteurs sont enregistrés de manière permanente sur le brouillon. </p> 
       <p>Selon le type de stockage de documents sélectionné par votre administrateur Workfront pour votre environnement, les documents joints aux demandes sont ajoutés aux éléments suivants :</p>
       <ul><li>Pour les requêtes qui utilisent le stockage Workfront, les documents sont ajoutés à la section Documents de la requête nouvellement créée.</li>
-      <li>Pour les requêtes qui utilisent le stockage d’entreprise d’Adobe, les documents sont ajoutés à un dossier nouvellement créé portant le même nom que la requête, automatiquement ajoutés à la requête pendant le processus d’envoi. </li></ul>
+      <li>Pour les demandes utilisant l’espace de stockage dans le cloud d’Adobe, les documents sont ajoutés à un dossier nouvellement créé portant le même nom que la demande, automatiquement ajoutés à la demande pendant le processus d’envoi. </li></ul>
       <p>Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.</p>
       <p>Le type de stockage des événements et des demandes est hérité du projet. </p>
       <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Présentation de la gestion des documents pour les projets et les objets associés</a>.</p> 

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2861'
 ht-degree: 61%
 
 ---
@@ -481,7 +481,7 @@ Pour modifier des tâches dans une liste lors de l’utilisation de l’option d
          <td role="rowheader">Documents</td> 
          <td><p>Ajoutez des documents à la tâche.</p>
          <p><b>NOTE</b></p>
-         <p>Si votre entreprise utilise le stockage de documents d’entreprise Adobe, vous ne pouvez pas ajouter de documents aux tâches dans le panneau Résumé pour les tâches de stockage Adobe.</p>
+         <p>Si votre entreprise utilise l’espace de stockage Adobe pour les documents, vous ne pouvez pas ajouter de documents aux tâches dans le panneau Résumé pour les tâches d’espace de stockage Adobe.</p>
          <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Présentation de la gestion des documents pour les projets et les objets associés</a>.</p>
       </td> 
       </tr> 

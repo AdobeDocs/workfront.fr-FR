@@ -6,9 +6,9 @@ description: Vous pouvez ouvrir le panneau Résumé dans l’équilibreur de cha
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 64%
 
 ---
@@ -94,7 +94,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    >[!NOTE]
    >
-   >Si votre entreprise utilise le stockage de documents d’entreprise Adobe, vous ne pouvez pas ajouter de documents aux éléments de travail de stockage Adobe dans le panneau Résumé .
+   >Si votre entreprise utilise l’espace de stockage Adobe pour les documents, vous ne pouvez pas ajouter de documents aux éléments de travail de l’espace de stockage Adobe dans le panneau Résumé .
    >
    >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

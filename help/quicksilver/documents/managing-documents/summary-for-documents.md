@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 43%
 
 ---
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tout package Workfront pour gérer les documents à l’aide du stockage Workfront hérité</p>
-<p>Tout package de workflow pour gérer les documents à l’aide du stockage d’entreprise Adobe</p></td> 
+<p>Tout package de workflow pour gérer les documents à l’aide de l’espace de stockage dans le cloud Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront</td> 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification aux documents</p>  </td> 
+   <td> <p>Modifier l’accès aux documents</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -64,7 +64,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Résumé des documents dans l’expérience des documents hérités
 
-Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage Workfront hérité et le stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage Workfront hérité et le stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Ouvrez la vue Résumé dans l’expérience des documents hérités
 
@@ -129,7 +129,7 @@ Utilisez la section Versions pour afficher le nombre de versions créées pour u
 
 ## Résumé des documents dans la nouvelle expérience de documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Détails
 

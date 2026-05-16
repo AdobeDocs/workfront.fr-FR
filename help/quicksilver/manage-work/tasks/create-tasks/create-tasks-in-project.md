@@ -9,9 +9,9 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1117'
 ht-degree: 51%
 
 ---
@@ -170,7 +170,7 @@ Pour créer des tâches dans un projet :
 
       >[!TIP]
       >
-      >Si votre entreprise a accès au stockage de documents d’entreprise Workfront et Adobe hérité, la zone Documents des tâches peut s’afficher différemment selon le type de stockage utilisé par votre tâche. Les tâches héritent du type de stockage du projet.
+      >Si votre entreprise a accès à l’espace de stockage Workfront et Adobe hérité pour les documents, la zone Documents des tâches peut s’afficher différemment selon le type de stockage utilisé par votre tâche. Les tâches héritent du type de stockage du projet.
       >
       >Pour plus d’informations, voir [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 

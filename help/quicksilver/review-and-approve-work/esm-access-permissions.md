@@ -1,50 +1,50 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage d’entreprise Adobe
-description: Vue d’ensemble des autorisations et de l’accès au stockage d’entreprise Adobe
+title: Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage dans le cloud Adobe
+description: présentation des autorisations et de l’accès au stockage dans le cloud d’Adobe
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d10138467d81bbe87375d6a64e4fd5e269691808
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage d’entreprise Adobe
+# Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage dans le cloud Adobe
 
 <!--linked in UI -->
 
-Le stockage d’entreprise Adobe est une solution de stockage cloud qui sert de référentiel de stockage central pour les ressources des produits d’entreprise Adobe. Les environnements Workfront qui utilisent le stockage d’entreprise Adobe ont des autorisations d’objet et des comportements de niveau d’accès légèrement différents de ceux qui utilisent le stockage de documents Workfront hérité.
+le stockage dans le cloud d’Adobe est une solution de stockage dans le cloud qui sert de référentiel de stockage central pour les ressources des produits d’entreprise Adobe. Les environnements Workfront qui utilisent le stockage dans le cloud Adobe ont des autorisations d’objet et des comportements de niveau d’accès légèrement différents de ceux qui utilisent le stockage de documents Workfront hérité.
 
 ## Niveaux d&#39;accès
 
 Les niveaux d’accès Workfront s’appliquent uniquement dans Workfront. Les restrictions de projet et de document dans Workfront ne s’appliquent pas toujours aux autres applications Adobe.
 
-### Environnements utilisant le stockage d’entreprise Adobe et le stockage Workfront hérité
+### Environnements utilisant à la fois le stockage dans le cloud Adobe et le stockage Workfront hérité
 
-L’accès aux documents se comporte différemment selon que le projet se trouve sur un stockage d’entreprise Adobe ou sur un stockage Workfront hérité :
+L’accès aux documents se comporte différemment selon que le projet se trouve dans l’espace de stockage cloud Adobe ou dans l’espace de stockage Workfront hérité :
 
 * **Stockage Workfront hérité** : les projets, programmes, portfolios et modèles qui utilisent le stockage Workfront hérité suivent la logique de niveau d’accès Workfront standard pour l’accès aux documents. Lorsqu’un niveau d’accès **Aucun accès** est sélectionné pour les documents, ils ne peuvent pas voir les documents dans Workfront ou d’autres produits Adobe tels que Frame.io ou Creative Cloud.
-* **Stockage d’entreprise Adobe** : les projets, programmes, portfolios et modèles qui utilisent le stockage d’entreprise Adobe suivent la logique de niveau d’accès au stockage d’entreprise Adobe pour d’autres produits Adobe.
+* **Espace de stockage cloud Adobe** : les projets, programmes, portfolios et modèles qui utilisent l’espace de stockage cloud Adobe suivent la logique de niveau d’accès à l’espace de stockage cloud Adobe pour d’autres produits Adobe.
 
 
    * **Autorisations d’objet de projets, programmes, portfolios et modèles** : lorsqu’un niveau d’accès n’a **Aucun accès** sélectionné pour les projets, programmes, portfolios et modèles, mais que l’objet est partagé avec eux, les utilisateurs ne peuvent pas voir l’objet dans Workfront, mais ils peuvent toujours afficher le nom de l’objet et tous les documents associés dans d’autres outils Adobe, tels que Frame.io et Adobe Creative Cloud.
-   * **Autorisations des documents** : lorsqu’un niveau d’accès **Aucun accès** est sélectionné pour les documents, les utilisateurs ne peuvent pas voir les documents des projets dans Workfront, mais ils peuvent toujours afficher et gérer des documents pour les projets partagés avec eux dans d’autres outils Adobe, tels que Frame.io et Adobe Creative Cloud. En effet, l’accès aux documents est déterminé par les autorisations au niveau du projet dans le stockage d’entreprise Adobe, plutôt que par les seuls niveaux d’accès Workfront.
+   * **Autorisations des documents** : lorsqu’un niveau d’accès **Aucun accès** est sélectionné pour les documents, les utilisateurs ne peuvent pas voir les documents des projets dans Workfront, mais ils peuvent toujours afficher et gérer des documents pour les projets partagés avec eux dans d’autres outils Adobe, tels que Frame.io et Adobe Creative Cloud. En effet, l’accès aux documents est déterminé par les autorisations au niveau du projet dans l’espace de stockage dans le cloud d’Adobe, plutôt que par les seuls niveaux d’accès de Workfront.
 
-Si le stockage d’entreprise Adobe est activé dans votre environnement Workfront, vous pouvez créer des projets de stockage d’entreprise Adobe et des projets de stockage Workfront hérités. Les projets de stockage Workfront hérités affichent une icône en regard du nom du projet à l’endroit où il s’affiche dans Workfront. Les projets de stockage d’entreprise Adobe n’affichent pas d’icône.
+Si le stockage dans le cloud Adobe est activé dans votre environnement Workfront, vous pouvez créer des projets de stockage dans le cloud Adobe et des projets de stockage Workfront hérités. Les projets de stockage Workfront hérités affichent une icône en regard du nom du projet à l’endroit où il s’affiche dans Workfront. Les projets de stockage dans le cloud Adobe n’affichent pas d’icône.
 
 ![icône de stockage workfront héritée en regard du nom du projet](assets/legacy-project-icon.png)
 
 
-### Environnements utilisant uniquement le stockage d’entreprise Adobe
+### Environnements utilisant uniquement l’espace de stockage dans le cloud Adobe
 
-Vous ne pouvez pas modifier les autorisations de document au niveau de l’accès pour les projets, programmes et portfolios qui utilisent le stockage d’entreprise d’Adobe.
+Vous ne pouvez pas modifier les autorisations d’accès aux documents au niveau des projets, programmes et portfolios qui utilisent l’espace de stockage dans le cloud d’Adobe.
 
 Tous les niveaux d’accès ont un accès en modification aux documents. Les autorisations au niveau du projet déterminent l’accès aux documents dans d’autres outils Adobe.
 
@@ -61,7 +61,7 @@ Les autorisations d’objet déterminent ce que vous pouvez voir et faire avec l
 
 >[!IMPORTANT]
 >
->Dans le stockage d’entreprise Adobe, les autorisations de document fonctionnent différemment du stockage Workfront hérité. Les documents héritent des autorisations du projet, de la tâche ou du problème auxquels ils sont liés.
+>Dans l’espace de stockage cloud Adobe, les autorisations de document fonctionnent différemment de l’espace de stockage Workfront hérité. Les documents héritent des autorisations du projet, de la tâche ou du problème auxquels ils sont liés.
 
 
 ### Fonctionnement des autorisations de document

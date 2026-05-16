@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: a7a0dc6ae01b3f1e9f295781805ed3e58f8acf1f
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 4%
@@ -33,13 +33,13 @@ Pour plus d’informations sur l’envoi de ressources à Experience Manager Ass
 
 Pour plus d’informations sur les statuts d’approbation, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
-## Affichage de l’utilisation du stockage d’entreprise dans Adobe
+## Affichage de l’utilisation de l’espace de stockage dans le cloud d’Adobe
 
 >[!NOTE]
 >
 >Aperçu : 30 avril 2026>Version rapide de production : 14 mai 2026>Production pour tous : 16 juillet 2026
 
-La page Informations sur le client de la configuration comprend désormais une nouvelle section Présentation du stockage avec des indicateurs d’utilisation du stockage d’entreprise d’Adobe.
+La page Informations sur le client de la configuration comprend désormais une nouvelle section Présentation du stockage avec des indicateurs d’utilisation de l’espace de stockage dans le cloud Adobe.
 
 Les administrateurs Workfront reçoivent automatiquement des notifications par e-mail lorsque l’utilisation du stockage atteint 75 %, 85 % et 100 % du quota.
 

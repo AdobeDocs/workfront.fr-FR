@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '2933'
 ht-degree: 3%
@@ -68,7 +68,7 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | Liste des instantanés | Projet > Instantanés |
 | Liste des ressources pour la facturation | Projet > Ressource pour la facturation |
 | Nouvelles affectations avancées pour une tâche | Tâche > Affectations > Avancé |
-| Documents sur le stockage d’entreprise dans Adobe | Projet, tâche, événement, portefeuille, programme, modèle, tâche de modèle > Documents |
+| Documents sur l’espace de stockage dans le cloud d’Adobe | Projet, tâche, événement, portefeuille, programme, modèle, tâche de modèle > Documents |
 
 ## Ajouter des éléments à une liste améliorée
 

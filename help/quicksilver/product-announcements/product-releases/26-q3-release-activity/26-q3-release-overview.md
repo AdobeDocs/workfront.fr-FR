@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a7ab8d786ba9a9163e091b9fc31dafe293d56acd
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 36%
@@ -62,8 +62,8 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Affichage de l’utilisation du stockage d’entreprise dans Adobe</a>
-                <p>La page Informations sur le client de la configuration comprend désormais une nouvelle section Présentation du stockage avec des indicateurs d’utilisation du stockage d’entreprise d’Adobe.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Affichage de l’utilisation de l’espace de stockage dans le cloud d’Adobe</a>
+                <p>La page Informations sur le client de la configuration comprend désormais une nouvelle section Présentation du stockage avec des indicateurs d’utilisation de l’espace de stockage dans le cloud Adobe.</p>
             </td>
             <td><p>30 Avril 2026</p></td>
             <td><p>14 Mai 2026</p></td>

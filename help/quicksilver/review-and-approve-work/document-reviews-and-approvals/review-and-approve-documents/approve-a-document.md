@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 71%
@@ -37,7 +37,7 @@ Pour plus d’informations sur la création d’une approbation de document, voi
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tout package Workfront pour gérer les approbations à l’aide du stockage Workfront hérité</p>
-<p>Tout package de workflow pour gérer les approbations à l’aide du stockage d’entreprise Adobe</p> </td> 
+<p>Tout package de workflow pour gérer les validations à l’aide de l’espace de stockage dans le cloud Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -85,7 +85,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit de la page :
 
-   * La liste déroulante **Approuver** contient deux options :
+   * Le menu déroulant **Approuver** propose deux options :
 
       * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 
@@ -113,7 +113,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit de la page :
 
-   * La liste déroulante **Approuver** contient deux options :
+   * Le menu déroulant **Approuver** propose deux options :
 
       * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 

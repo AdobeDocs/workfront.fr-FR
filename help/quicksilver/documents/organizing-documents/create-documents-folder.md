@@ -8,16 +8,16 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 31%
+source-wordcount: '811'
+ht-degree: 30%
 
 ---
 
 # Créer des dossiers de documents
 
-Les documents peuvent être organisés en dossiers. Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Les documents peuvent être organisés en dossiers. Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre organisation dépend du stockage Workfront hérité ou du stockage dans le cloud Adobe. Pour plus d’informations sur ces types de stockage, consultez [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -30,7 +30,7 @@ Les documents peuvent être organisés en dossiers. Workfront comporte actuellem
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tout package Workfront pour gérer les documents à l’aide du stockage Workfront hérité</p>
-<p>Tout package de workflow pour gérer les documents à l’aide du stockage d’entreprise Adobe</p> </td> 
+<p>Tout package de workflow pour gérer les documents à l’aide de l’espace de stockage dans le cloud Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -51,7 +51,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Créer des dossiers de documents dans la zone des documents hérités
 
-Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage d’entreprise Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage cloud Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Pour plus d’informations sur le partage de dossiers, voir [Partager un dossier
 
 ## Créer des dossiers de documents dans la nouvelle zone Documents
 
-Si votre entreprise utilise le stockage d’entreprise, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Dossiers générés par le système
 
@@ -130,7 +130,7 @@ Les dossiers générés par le système peuvent être déplacés vers un autre p
 
 >[!NOTE]
 >
->Seuls les projets, tâches et événements utilisant le même type de stockage sont disponibles dans la boîte de dialogue de déplacement. Par exemple, si vous déplacez un dossier dans un projet de stockage d’entreprise, seuls les projets, tâches et problèmes utilisant le stockage d’entreprise peuvent être déplacés.
+>Seuls les projets, tâches et événements utilisant le même type de stockage sont disponibles dans la boîte de dialogue de déplacement. Par exemple, si vous déplacez un dossier dans un projet d’espace de stockage dans le cloud Adobe, seuls les projets, tâches et problèmes utilisant l’espace de stockage dans le cloud Adobe peuvent être déplacés.
 
 
 Pour déplacer un dossier :
