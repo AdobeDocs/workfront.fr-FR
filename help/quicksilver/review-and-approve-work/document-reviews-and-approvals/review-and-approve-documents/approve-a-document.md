@@ -158,7 +158,7 @@ Pour réviser et approuver un document :
 
    * **Approuver** : le document n’a pas besoin d’être modifié et est prêt à être utilisé.
    * **Approuver avec modifications** : le document nécessite des modifications et est prêt à l’emploi une fois qu’il a été créé. Aucune approbation supplémentaire n’est requise.
-   * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle d&#39;approbations. Pour plus d’informations sur le téléchargement d’une nouvelle version, voir [ Télécharger une nouvelle version du document et demander une approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
+   * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle d&#39;approbations. Pour plus d’informations sur le téléchargement d’une nouvelle version, voir [&#x200B; Télécharger une nouvelle version du document et demander une approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
 
 Une fois la décision prise, le propriétaire du document est averti par e-mail.
 

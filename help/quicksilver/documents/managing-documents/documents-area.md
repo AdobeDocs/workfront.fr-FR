@@ -20,7 +20,7 @@ ht-degree: 31%
 
 Dans la zone Documents, vous pouvez organiser, gérer et afficher les métadonnées des documents chargés dans Adobe Workfront. Vous pouvez également voir le statut de décision de l’épreuve.
 
-Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre organisation dépend du stockage Workfront hérité ou du stockage dans le cloud Adobe. Pour plus d’informations sur ces types de stockage, consultez [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre organisation dépend du stockage Workfront hérité ou du stockage dans le cloud Adobe. Pour plus d’informations sur ces types de stockage, consultez [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Zone des documents hérités
 

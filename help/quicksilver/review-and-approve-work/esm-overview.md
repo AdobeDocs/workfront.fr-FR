@@ -69,7 +69,7 @@ Cette interface mise à jour simplifie la navigation, améliore la clarté et pe
 
 Les documents ne peuvent pas être partagés individuellement. Au lieu de cela, le système génère automatiquement un dossier pour chaque tâche ou événement et hérite des autorisations de la tâche ou de l’événement. Tous les documents chargés vers la tâche ou l’événement sont stockés dans ce dossier généré.
 
-Pour plus d’informations sur le nouveau modèle d’autorisation du document, voir [ Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage dans le cloud d’Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Pour plus d’informations sur le nouveau modèle d’autorisation du document, voir [&#x200B; Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage dans le cloud d’Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ##### Objets liés dans des dossiers
 

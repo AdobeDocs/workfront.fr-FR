@@ -25,5 +25,5 @@ Vous pouvez également demander aux utilisateurs et utilisatrices de relire un d
 >
 >La relecture n’est pas disponible si votre organisation se trouve dans l’espace de stockage cloud Adobe. À la place, vous pouvez utiliser la révision et l’approbation Workfront avec l’intégration Frame.io. Pour plus d’informations sur le stockage dans le cloud Adobe ou l’intégration de Frame.io, voir
 >
->* [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md)
+>* [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md)
 >* [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)

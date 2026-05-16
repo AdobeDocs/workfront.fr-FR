@@ -173,7 +173,7 @@ Pour lier un dossier :
    >
    >L’administrateur Workfront peut choisir n’importe quel nom pour cette intégration et il se peut donc qu’il ne mentionne pas spécifiquement Experience Manager Assets.
 
-1. Cliquez sur **** > **Fichiers et dossiers**.
+1. Cliquez sur **&#x200B;**&#x200B;> **Fichiers et dossiers**.
 
 1. Cliquez sur l’icône **Filtre** puis, dans la section **Type de ressource**, choisissez **Dossiers**.
 
