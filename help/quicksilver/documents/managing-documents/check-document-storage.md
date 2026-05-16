@@ -2,16 +2,16 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Vérifier les limites de stockage des documents
-description: En tant qu’administrateur Adobe Workfront, vous pouvez afficher l’utilisation et le quota de stockage de documents sur la page Informations sur le client. L’aspect du stockage varie selon que votre entreprise utilise un stockage Workfront hérité ou un stockage d’entreprise Adobe.
+description: En tant qu’administrateur Adobe Workfront, vous pouvez afficher l’utilisation et le quota de stockage de documents sur la page Informations sur le client. L’aspect du stockage dépend de l’utilisation par votre entreprise du stockage Workfront hérité ou du stockage dans le cloud Adobe.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7b6d24d6a5b7fd052a3e7c97034e920e771022a6
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 16%
+source-wordcount: '491'
+ht-degree: 14%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 16%
 
 Bien qu’il n’existe aucune restriction sur les types et tailles des fichiers individuels que les utilisateurs peuvent charger vers votre instance Workfront, votre plan Workfront comprend un quota de stockage total. En tant qu’administrateur Workfront, vous surveillez l’utilisation et le quota à partir de la zone Configuration de la page Informations sur le client.
 
-L’aspect du stockage varie selon que votre entreprise utilise un stockage Workfront hérité ou un stockage d’entreprise Adobe :
+L’aspect du stockage varie selon que votre entreprise utilise l’ancien stockage Workfront ou l’espace de stockage cloud Adobe :
 
 * Si vous utilisez le stockage Workfront hérité, consultez la section [Stockage Workfront hérité](#legacy-workfront-storage) dans cet article.
-* Si vous utilisez le stockage d’entreprise Adobe, consultez [Stockage d’entreprise Adobe](#adobe-enterprise-storage) dans cet article.
+* Si vous utilisez l’espace de stockage cloud Adobe, consultez [Espace de stockage cloud Adobe](#adobe-cloud-storage) dans cet article.
 
-  Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+  Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -40,7 +40,7 @@ L’aspect du stockage varie selon que votre entreprise utilise un stockage Work
   <tr data-mc-conditions=""> 
    <td role="rowheader">Plan Workfront</td> 
    <td> <p>Tout package Workfront pour gérer les documents à l’aide du stockage hérité</p>
-      <p>Tout package de workflow pour gérer les documents à l’aide du stockage d’entreprise Adobe</p> </td> 
+      <p>Tout package de workflow pour gérer les documents à l’aide de l’espace de stockage dans le cloud Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -72,18 +72,14 @@ Le quota de stockage est actualisé tous les jours afin d’afficher le décompt
 
 <div class="preview">
 
-## Stockage d’entreprise Adobe
+## Adobe cloud storage
 
-<!--
-If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
 
-Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
-
--->
+Si votre entreprise utilise le stockage dans le cloud Adobe, votre quota de stockage est signalé comme une allocation de pool unique qui combine le stockage fourni par votre licence Workfront et tout stockage fourni par le biais d’un module complémentaire Frame.io Enterprise. L’utilisation du stockage n’est pas soumise à une limite stricte. Les utilisateurs peuvent continuer à charger des documents même lorsque l’utilisation dépasse votre quota.
 
 ### Afficher l’utilisation du stockage dans les informations sur le client
 
-Pour vérifier le stockage de documents d’entreprise d’Adobe :
+Pour vérifier l’espace de stockage cloud d’Adobe pour les documents :
 
 {{step-1-to-setup}}
 
@@ -91,11 +87,11 @@ Pour vérifier le stockage de documents d’entreprise d’Adobe :
 1. Accédez à la section **Présentation du stockage**.
 1. Vérifiez votre utilisation. La présentation du stockage affiche votre quota de stockage en pool et divise l&#39;utilisation en :
 
-   * Les projets hérités de Workfront et les projets de stockage d’entreprise Adobe s’affichent dans la barre bleue.
+   * les projets hérités de Workfront et les projets d’espace de stockage Adobe s’affichent dans la barre bleue.
    * Les projets autonomes du cadre s’affichent dans la barre verte. Ces projets sont distincts de Workfront et ne sont disponibles que si vous disposez d’une licence Frame.io Enterprise.
 
 
-![Utilisation du stockage d’entreprise Adobe dans les informations sur le client](assets/storage-usage.png)
+![Utilisation de l’espace de stockage Adobe dans les informations sur le client](assets/storage-usage.png)
 
 Les chiffres d’utilisation sont actualisés régulièrement afin que vous puissiez voir un décompte à jour.
 

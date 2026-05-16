@@ -6,7 +6,7 @@ description: Vous pouvez ajouter d’autres personnes chargées de l’approbati
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 86%
@@ -28,7 +28,7 @@ Vous pouvez ajouter d’autres personnes chargées de l’approbation à l’app
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tout package Workfront pour gérer les approbations à l’aide du stockage Workfront hérité</p>
-<p>Tout package de workflow pour gérer les approbations à l’aide du stockage d’entreprise Adobe</p> </td> 
+<p>Tout package de workflow pour gérer les validations à l’aide de l’espace de stockage dans le cloud Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 

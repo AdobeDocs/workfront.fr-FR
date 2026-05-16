@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: 882c3e58e0e47c549be70dff3f5ac410b34a090f
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 87%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 La relecture est automatiquement incluse pour toutes les licences dans le Workfront. Les licences déterminent ce que les utilisateurs peuvent faire.
 
-<!--Workfront instances using enterprise storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
+<!--Workfront instances using Adobe cloud storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
 
 Les packages Workfront hérités de 2017 incluent la relecture automatique pour les licences de travail et de planification si vous disposez de plans Workfront professionnels, professionnels ou d’entreprise. Ces plans sont progressivement éliminés.
 

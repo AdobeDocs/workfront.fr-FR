@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d1173e35a2455610474664f93159b97a54957488
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '905'
 ht-degree: 44%
 
 ---
@@ -116,20 +116,20 @@ Old:
 
 1. (Conditionnel) Selon le stockage de document utilisé par votre organisation, cliquez sur l’un des éléments suivants :
 
-   * **Nouveau modèle**, lorsque l’administrateur Workfront choisit **Adobe Enterprise** ou **Workfront hérité** et qu’il a sélectionné ou non le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
-   * **Nouveau modèle (stockage hérité)** lorsque l’administrateur Workfront choisit **Adobe Enterprise** ou **Workfront hérité** et qu’il a également sélectionné le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
+   * **Nouveau modèle**, lorsque l’administrateur Workfront choisit l’un des paramètres suivants : **Espace de stockage dans le cloud Adobe** ou **Workfront hérité**, et qu’il a sélectionné ou non le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
+   * **Nouveau modèle (stockage hérité)** lorsque l’administrateur Workfront choisit l’un des paramètres suivants : **Espace de stockage dans le cloud Adobe** ou **Workfront hérité**, et qu’il a également sélectionné le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
 
      Cette option s&#39;affiche uniquement lorsque le paramètre **Autoriser l&#39;utilisateur à sélectionner le fournisseur de stockage** est sélectionné dans la zone Configuration.
 
-     Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Pour plus d’informations, voir [Activer l’espace de stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      Un modèle est créé et son nom par défaut suit les schémas suivants, en fonction du Workfront de stockage utilisé pour les documents :
 
       * **Modèle sans titre** pour un modèle de stockage Workfront.
 
-        Un modèle de stockage Workfront affiche une icône **Stockage Workfront hérité** ![Icône de projet de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
+        Un modèle de stockage Workfront hérité affiche une icône **Stockage Workfront hérité** ![Icône de projet de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
 
-      * **Modèle sans titre - &lt; Jour du mois, année heure.minute.seconde >** pour un modèle de stockage Adobe
+      * **Modèle sans titre - &lt; Jour du mois, année heure.minute.seconde >** pour un modèle de stockage dans le cloud Adobe
 
         >[!IMPORTANT]
         >
@@ -226,7 +226,7 @@ Old:
    * Frais
    * Approbations
 
-   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [&#x200B; Modifier les modèles de projet &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Pour plus d’informations, reportez-vous à la section « Ajouter d’autres éléments à un modèle » de l’article [ Modifier les modèles de projet ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 
 

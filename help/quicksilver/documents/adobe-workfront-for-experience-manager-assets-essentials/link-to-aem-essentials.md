@@ -2,24 +2,24 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Lier des ressources et des dossiers à partir d’Experience Manager Assets Essentials
-description: You can link an asset or folder from Experience Manager Assets Essentials to any Adobe Workfront object that supports documents. Les ressources envoyées à partir d’Assets Essentials ne sont pas prises en compte dans le stockage global de documents de Workfront. Les documents chargés et envoyés de Workfront à Assets Essentials sont bien pris en compte dans le stockage global.
+description: Vous pouvez lier une ressource ou un dossier de Experience Manager Assets Essentials à tout objet Adobe Workfront prenant en charge les documents. Les ressources envoyées à partir d’Assets Essentials ne sont pas prises en compte dans le stockage global de documents de Workfront. Les documents chargés et envoyés de Workfront à Assets Essentials sont bien pris en compte dans le stockage global.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '629'
 ht-degree: 51%
 
 ---
 
 # Lier des ressources et des dossiers à partir d’Experience Manager Assets Essentials
 
-You can link an asset or folder from Experience Manager Assets Essentials to any Adobe Workfront object that supports documents.
+Vous pouvez lier une ressource ou un dossier de Experience Manager Assets Essentials à tout objet Adobe Workfront prenant en charge les documents.
 
-To link assets and folders from Experience Manager Assets using Content Advisor, see [Link assets and folders with Content Advisor powered by Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
+Pour lier des ressources et des dossiers à partir de Experience Manager Assets à l’aide de la fonction de conseil, consultez [Lier des ressources et des dossiers à la fonction de conseil optimisée par Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
 
-If you are on enterprise storage, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Si vous utilisez l’espace de stockage dans le cloud d’Adobe, voir [Utilisation de Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
 ## Conditions d’accès
@@ -50,7 +50,7 @@ If you are on enterprise storage, see [Use the Adobe Experience Manager with the
    </tr>
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification aux documents</p> </td> 
+   <td> <p>Modifier l’accès aux documents</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -59,7 +59,7 @@ If you are on enterprise storage, see [Use the Adobe Experience Manager with the
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,28 +67,28 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 Avant de commencer :
 
-* Votre administrateur ou administratrice Workfront doit configurer une intégration Experience Manager. For more information, see [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Votre administrateur ou administratrice Workfront doit configurer une intégration Experience Manager. Pour plus d’informations, voir [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-## Link an asset from Experience Manager Assets Essentials
+## Lier une ressource à partir de Experience Manager Assets Essentials
 
 1. Accédez à la zone **Documents** dans Workfront, dans laquelle vous souhaitez ajouter le document.
 1. Sélectionnez **Ajouter**, puis choisissez l’intégration d’Experience Manager que votre administrateur ou administratrice a configurée.
 
    >[!NOTE]
    >
-   >The Workfront administrator can choose any name for this integration, so it may not specifically mention Experience Manager Assets Essentials.
+   >L’administrateur Workfront peut choisir n’importe quel nom pour cette intégration et ne pas mentionner spécifiquement Experience Manager Assets Essentials.
 
 1. Sélectionnez les ressources de votre choix.
 
-   ![Select an asset](assets/select-an-asset.png)
+   ![Sélectionner une ressource](assets/select-an-asset.png)
 
 1. Cliquez sur **Sélectionner**.
 
-## Link a new version from Experience Manager Assets Essentials
+## Lier une nouvelle version de Experience Manager Assets Essentials
 
-You can pull a new asset over from Experience Manager Assets Essentials and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets Essentials, the new version appears automatically in Workfront.
+Vous pouvez extraire une nouvelle ressource de Experience Manager Assets Essentials et l’ajouter à une ressource existante en tant que nouvelle version. Si le document est déjà lié et qu’une nouvelle version est ajoutée dans Experience Manager Assets Essentials, la nouvelle version s’affiche automatiquement dans Workfront.
 
-To link a new version:
+Pour lier une nouvelle version :
 
 1. Accédez à la zone **Documents** dans Workfront, dans laquelle vous souhaitez ajouter le document.
 1. Sélectionnez la ressource à remplacer par une nouvelle version. Vous ne pouvez pas créer de version d’une ressource dans un dossier lié.
@@ -96,33 +96,33 @@ To link a new version:
 
    >[!NOTE]
    >
-   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets Essentials.
+   >L’administrateur Workfront peut choisir n’importe quel nom pour cette intégration, de sorte qu’il peut ne pas mentionner spécifiquement Experience Manager Assets Essentials.
 
-1. Select the asset you want to link.
+1. Sélectionnez la ressource à lier.
 
 1. Cliquez sur **Sélectionner**.
 
-## Link a folder from Experience Manager Assets Essentials
+## Lier un dossier depuis Experience Manager Assets Essentials
 
-Permissions to view individual assets inside of a folder rely on Experience Manager Assets Essentials permissions.
+Les autorisations d’affichage de ressources individuelles dans un dossier reposent sur les autorisations de Experience Manager Assets Essentials.
 
 1. Accédez à la zone **Documents** dans Workfront, dans laquelle vous souhaitez placer le dossier.
 1. Sélectionnez **Ajouter**, puis choisissez l’intégration d’Experience Manager que votre administrateur ou administratrice a configurée.
 
    >[!NOTE]
    >
-   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets Essentials.
+   >L’administrateur Workfront peut choisir n’importe quel nom pour cette intégration, de sorte qu’il peut ne pas mentionner spécifiquement Experience Manager Assets Essentials.
 
 1. Sélectionnez les dossiers de votre choix.
 
-   ![Select a folder](assets/select-a-folder.png)
+   ![Sélectionner un dossier](assets/select-a-folder.png)
 
 1. Cliquez sur **Sélectionner**.
 
 ## Considérations
 
-* Content Advisor functionality is not available for Assets Essentials. To link assets and folders using Content Advisor, see [Link assets and folders with Content Advisor powered by Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
+* La fonctionnalité de gestionnaire d’accès n’est pas disponible pour Assets Essentials. Pour lier des ressources et des dossiers à l’aide du gestionnaire d’accès, consultez [Lier des ressources et des dossiers au gestionnaire d’accès optimisé par Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
 
 * Les ressources envoyées à partir d’Assets Essentials ne sont pas prises en compte dans le stockage global de documents de Workfront. Les documents chargés et envoyés de Workfront à Assets Essentials sont bien pris en compte dans le stockage global.
 
-* Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets Essentials. Si votre équipe d’administration Workfront a activé la synchronisation des métadonnées d’objet, les champs restent à jour s’ils sont modifiés dans l’une ou l’autre des applications.
+* Les champs de métadonnées sont d’abord mappés lorsque vous envoyez une ressource de Workfront vers Experience Manager Assets Essentials. Si votre équipe d’administration Workfront a activé la synchronisation des métadonnées d’objet, les champs restent à jour s’ils sont modifiés dans l’une ou l’autre des applications.

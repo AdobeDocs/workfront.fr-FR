@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 73%
 
 ---
 
@@ -95,11 +95,11 @@ Old:
 * Toutes les sous-tâches, les problèmes et les notes sont intégrés au nouveau projet.
 * Les documents, les versions des documents et les épreuves sont déplacés vers le nouveau projet.
 * Le temps de traitement est limité à 5 minutes lors de la conversion d’une tâche en projet. Si la tâche est associée à un grand nombre de documents et ne parvient pas à effectuer la conversion, vous devrez peut-être supprimer certains des documents et réessayer.
-* Si votre entreprise utilise à la fois l’ancien stockage de documents Workfront et Adobe Enterprise, les scénarios suivants existent lors de la conversion d’une tâche en projet : <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Une tâche de stockage Workfront crée un projet de stockage Workfront.
-   * Une tâche de stockage d’entreprise Adobe crée un projet de stockage Adobe.
-   * L’utilisation d’un modèle de stockage Workfront pour convertir une tâche de stockage Adobe crée un projet de stockage Adobe.
-   * L’utilisation d’un modèle de stockage Adobe pour convertir une tâche de stockage Workfront crée un projet de stockage Workfront.
+* Si votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité pour les documents, les scénarios suivants existent lors de la conversion d’une tâche en projet : <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+   * Une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
+   * Une tâche de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
+   * L’utilisation d’un modèle de stockage Workfront hérité pour convertir une tâche d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
+   * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
 
      Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -224,7 +224,7 @@ Old:
    * **Nouveau projet**, pour créer un projet sans utiliser de modèle
    * Un modèle dans la section **Sélectionner à partir des modèles**
 
-     ![&#x200B; Menu déroulant de l’option Convertir la tâche en modèle de projet &#x200B;](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![ Menu déroulant de l’option Convertir la tâche en modèle de projet ](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Cliquez sur **Continuer** dans la notification qui s’affiche.
 1. Dans la boîte **Convertir en projet**, indiquez ce qui suit :

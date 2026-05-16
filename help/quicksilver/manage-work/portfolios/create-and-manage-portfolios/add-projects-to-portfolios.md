@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 43%
 
 ---
@@ -166,12 +166,12 @@ Old:
 
    >[!NOTE]
    >
-   >Si votre entreprise utilise à la fois le stockage de documents d’entreprise Workfront et Adobe hérité, les scénarios suivants existent :
+   >Si votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité pour les documents, les scénarios suivants existent :
    >
    >
-   >* Lorsque vous ajoutez un projet de stockage Adobe à un portfolio de stockage Workfront et que ce portfolio n’est associé à aucun document, le portfolio est converti en portfolio de stockage Adobe.
-   >* Lorsque vous ajoutez un projet de stockage Adobe à un portfolio de stockage Workfront auquel des documents sont associés, le stockage des documents du portfolio reste sur le stockage Workfront. Toutefois, l’icône de stockage Workfront héritée ![icône de stockage Workfront héritée](assets/legacy-storage-project-icon.png) est supprimée du portfolio.
-   >* Vous ne pouvez pas ajouter un projet de stockage Workfront à un portefeuille de stockage Adobe.
+   >* Lorsque vous ajoutez un projet de stockage dans le cloud Adobe à un portfolio de stockage Workfront hérité et qu’aucun document n’y est associé, le portfolio est converti en portfolio de stockage dans le cloud Adobe.
+   >* Lorsque vous ajoutez un projet de stockage dans le cloud Adobe à un portfolio de stockage Workfront hérité auquel des documents sont associés, le stockage des documents du portfolio reste sur le stockage Workfront. Toutefois, l’icône de stockage Workfront héritée ![icône de stockage Workfront héritée](assets/legacy-storage-project-icon.png) est supprimée du portfolio.
+   >* Vous ne pouvez pas ajouter un projet de stockage Workfront hérité à un portefeuille de stockage dans le cloud Adobe.
    >
    >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
    >

@@ -6,10 +6,10 @@ description: Vous pouvez utiliser le gestionnaire d’accès pour lier du conten
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: ab868314aef0924906ca69e82a10ece130484ba7
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 22%
+source-wordcount: '1432'
+ht-degree: 19%
 
 ---
 
@@ -51,7 +51,7 @@ Vous pouvez utiliser le gestionnaire de contenu pour lier du contenu et des doss
    </tr>
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Accès en modification aux documents</p> </td> 
+   <td> <p>Modifier l’accès aux documents</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -60,7 +60,7 @@ Vous pouvez utiliser le gestionnaire de contenu pour lier du contenu et des doss
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +70,7 @@ Avant de commencer :
 
 * Votre administrateur ou administratrice Workfront doit configurer une intégration Experience Manager. Pour plus d’informations, voir [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-* Pour utiliser la fonctionnalité de suggestions intelligentes ou de résumés de campagne, vous devez signer un Cavalier GenAI. Pour plus d’informations, voir [Utilisation de la fonction de conseil sur l’accès au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
+* Pour utiliser la fonctionnalité de suggestions intelligentes ou de résumés de campagne, vous devez signer un Cavalier GenAI. Pour plus d’informations, voir [Utilisation de la fonction de conseil sur l’accès au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
 
 
 
@@ -93,44 +93,44 @@ Pour lier du contenu :
    <table style="table-layout:auto">
    <tbody>
       <tr>
-         <td><strong>Rechercher des ressources à l’aide de Recherche optimisée par l'IA.</strong> Utilisez une recherche optimisée par l’IA qui comprend le sens et l’intention derrière les requêtes, en prenant en charge plusieurs langues, fautes de frappe et synonymes.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">Recherche optimisée par l'IA pour une découverte de ressources plus intelligente</a>.</td>
+         <td><strong>Recherche de ressources à l’aide de Recherche optimisée par l'IA.</strong> Utilisez une recherche optimisée par l’IA qui comprend le sens et l’intention derrière les requêtes, en prenant en charge plusieurs langues, fautes de frappe et synonymes.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">Recherche optimisée par l'IA pour une découverte de ressources plus intelligente</a>.</td>
       </tr>
       <tr>
          <td><strong>Afficher des suggestions intelligentes en fonction du contexte et de l’intention.</strong> Découvrez les ressources qui correspondent à vos besoins en matière de contenu à l’aide de recommandations contextuelles issues de l’application Adobe hôte.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Suggestions intelligentes basées sur le contexte et l’intention</a>.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Suggestions intelligentes basées sur le contexte et l’intention</a>.</td>
       </tr>
       <tr>
          <td><strong>Chargez un résumé de campagne pour découvrir les ressources pertinentes.</strong> Téléchargez un document de résumé de campagne PDF, DOCX ou TXT afin que le conseiller d’accès puisse l’analyser et recommander des ressources appropriées.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Briefs de campagne pour découvrir les ressources pertinentes</a>.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Briefs de campagne pour découvrir les ressources pertinentes</a>.</td>
       </tr>
       <tr>
-         <td><strong>Affichage et sélection des rendus de ressources Dynamic Media.</strong> Parcourez les rendus optimisés pour les canaux, y compris les paramètres d’image prédéfinis, les recadrages intelligents et les types de format, et appliquez des modificateurs Dynamic Media pour prévisualiser les réglages en temps réel.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Rendus de ressources Dynamic Media disponibles</a>.</td>
+         <td><strong>Affichage et sélection des rendus de ressources Dynamic Media.</strong> Parcourez les rendus optimisés pour les canaux, y compris les paramètres d’image prédéfinis, les recadrages intelligents et les types de format, et appliquez les modificateurs Dynamic Media pour prévisualiser les réglages en temps réel.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Rendus de ressources Dynamic Media disponibles</a>.</td>
       </tr>
       <tr>
-         <td><strong>Application de modificateurs Dynamic Media aux rendus.</strong> Ajouter des modificateurs pour transformer les rendus de ressources en temps réel et prévisualiser les résultats avant de sélectionner un rendu pour votre application hôte.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Rendus de ressources Dynamic Media disponibles</a>.</td>
+         <td><strong>Application de modificateurs Dynamic Media aux rendus.</strong> Ajoutez des modificateurs pour transformer les rendus de ressources en temps réel et prévisualisez les résultats avant de sélectionner un rendu pour votre application hôte.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Rendus de ressources Dynamic Media disponibles</a>.</td>
       </tr>
       <tr>
-         <td><strong>Découvrir et parcourir les fragments de contenu.</strong> Effectuer une recherche dans les fragments de contenu, afficher des aperçus de miniatures en direct, vérifier le statut (Brouillon, Modifié ou Publié) et inspecter les propriétés, références et variations détaillées.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor"> Découverte de fragments de contenu </a>.</td>
+         <td><strong>Découvrir et parcourir les fragments de contenu.</strong> Effectuez une recherche dans les fragments de contenu, affichez des aperçus de miniatures en direct, vérifiez le statut (Brouillon, Modifié ou Publié) et examinez les propriétés, références et variations détaillées.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor"> Découverte de fragments de contenu </a>.</td>
       </tr>
       <tr>
          <td><strong>Accès aux métadonnées des ressources.</strong> Consultez les propriétés de la ressource telles que le titre, la description, le format, la taille et d’autres onglets de métadonnées (Produit, Campagne, Balises) cohérents avec la vue Assets.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Accès aux métadonnées des ressources cohérentes avec la vue Assets</a>.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Accès aux métadonnées des ressources cohérentes avec la vue Assets</a>.</td>
       </tr>
       <tr>
-         <td><strong>Filtrage des ressources à l’aide de filtres prédéfinis.</strong> affiner les résultats des ressources à l’aide de filtres tels que le type de fichier, le format de fichier, le statut de la ressource, la taille de fichier, la largeur d’image, la hauteur d’image, la date de modification et la date de création.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Accès aux filtres cohérents avec la vue Assets</a>.</td>
+         <td><strong>Filtrage des ressources à l’aide de filtres prédéfinis.</strong> Affinez les résultats des ressources à l’aide de filtres tels que le type de fichier, le format de fichier, le statut de la ressource, la taille de fichier, la largeur d’image, la hauteur d’image, la date de modification et la date de création.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Accès aux filtres cohérents avec la vue Assets</a>.</td>
       </tr>
       <tr>
-         <td><strong>Enregistrer et réutiliser les recherches.</strong> Créez des recherches enregistrées en spécifiant un terme de recherche et des options de filtre, puis réutilisez-les dans Experience Manager Assets et d’autres applications Adobe.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Accéder aux recherches récentes et enregistrées et les réutiliser</a>.</td>
+         <td><strong>Enregistrer et réutiliser des recherches.</strong> Créez des recherches enregistrées en spécifiant un terme de recherche et des options de filtre, puis réutilisez-les dans Experience Manager Assets et d’autres applications Adobe.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Accéder aux recherches récentes et enregistrées et les réutiliser</a>.</td>
       </tr>
       <tr>
          <td><strong>Rechercher des ressources dans et entre les collections.</strong> Recherchez des ressources ou des collections dans toutes les collections ou limitez votre recherche à une collection spécifique.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Recherche de ressources dans et entre des collections</a>.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Recherche de ressources dans et entre des collections</a>.</td>
       </tr>
    </tbody>
    </table>
@@ -173,7 +173,7 @@ Pour lier un dossier :
    >
    >L’administrateur Workfront peut choisir n’importe quel nom pour cette intégration et il se peut donc qu’il ne mentionne pas spécifiquement Experience Manager Assets.
 
-1. Cliquez sur **&#x200B;**&#x200B;> **Fichiers et dossiers**.
+1. Cliquez sur **** > **Fichiers et dossiers**.
 
 1. Cliquez sur l’icône **Filtre** puis, dans la section **Type de ressource**, choisissez **Dossiers**.
 
@@ -183,7 +183,7 @@ Pour lier un dossier :
 
 ## Considérations
 
-* La fonctionnalité de gestionnaire d’accès n’est pas disponible pour les objets utilisant Adobe Enterprise Storage. Si votre organisation utilise le stockage d’entreprise Adobe, vous pouvez toujours lier des ressources et des dossiers à partir de Experience Manager Assets ou d’Assets Essentials, mais vous n’aurez pas accès aux fonctionnalités du gestionnaire de contenu telles que Recherche optimisée par l&#39;IA, les suggestions intelligentes ou les rendus Dynamic Media. Pour plus d’informations, voir [Utilisation d’Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+* La fonctionnalité de gestionnaire d’accès n’est pas disponible pour les objets utilisant l’espace de stockage Adobe. Si votre organisation utilise l’espace de stockage Adobe, vous pouvez toujours lier des ressources et des dossiers à partir de Experience Manager Assets ou d’Assets Essentials, mais vous n’aurez pas accès aux fonctionnalités du gestionnaire de contenu telles que Recherche optimisée par l&#39;IA, les suggestions intelligentes ou les rendus Dynamic Media. Pour plus d’informations, voir [Utilisation d’Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 * La fonctionnalité de gestionnaire d’accès n’est pas disponible pour Assets Essentials. Pour lier des ressources et des dossiers à partir d’Assets Essentials, voir [Lier des ressources et des dossiers à partir de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
 

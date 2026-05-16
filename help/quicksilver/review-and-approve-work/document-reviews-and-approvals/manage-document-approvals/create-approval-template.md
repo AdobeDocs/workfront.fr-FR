@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 02d2b8fce60b469b8ea16c4302035371bed04175
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 32%
@@ -33,7 +33,7 @@ Dans la zone Configuration de Workfront , les utilisateurs disposant d’une lic
   <tr> 
    <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tout package Workfront pour gérer les approbations à l’aide du stockage Workfront hérité</p>
-<p>Tout package de workflow pour gérer les approbations à l’aide du stockage d’entreprise Adobe</p> </td> 
+<p>Tout package de workflow pour gérer les validations à l’aide de l’espace de stockage dans le cloud Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
@@ -87,7 +87,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
 
-   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
+   ![ Détails du document ](assets/new-stage.png)
 
 1. Cliquez sur **Enregistrer**.
 

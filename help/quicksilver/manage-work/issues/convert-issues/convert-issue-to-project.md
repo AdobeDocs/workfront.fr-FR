@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2167'
 ht-degree: 78%
 
 ---
@@ -94,11 +94,11 @@ Old:
 ## Considérations
 
 * Le traitement d’un événement en projet est limité à 5 minutes. Si le problème est associé à un grand nombre de documents et qu’il ne parvient pas à être converti, vous devrez peut-être supprimer certains des documents et réessayer.
-* Si votre entreprise utilise à la fois l’ancien stockage de documents Workfront et Adobe Enterprise, les scénarios suivants existent lors de la conversion d’un événement en projet : <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * Un problème de stockage Workfront crée un projet de stockage Workfront.
-   * Un problème de stockage d’entreprise Adobe crée un projet de stockage Adobe.
-   * L’utilisation d’un modèle de stockage Workfront pour convertir un problème de stockage Adobe crée un projet de stockage Adobe.
-   * L’utilisation d’un modèle de stockage Adobe pour convertir un problème de stockage Workfront crée un projet de stockage Workfront.
+* Si votre entreprise utilise à la fois l’ancien stockage cloud Workfront et Adobe pour les documents, les scénarios suivants existent lors de la conversion d’un événement en projet : <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+   * Un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
+   * Un problème d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
+   * L’utilisation d’un modèle de stockage Workfront hérité pour convertir un problème de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
+   * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
 
      Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -169,9 +169,9 @@ Vous pouvez convertir un problème en un projet vide.
      >[!TIP]
      >
      >* Si un formulaire personnalisé multi-objets attaché au problème est configuré pour être utilisé à la fois avec les problèmes et les projets, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois dans le problème et dans les formulaires personnalisés du projet.
-     >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, reportez-vous à la section « Champs calculés personnalisés dans les formulaires personnalisés à plusieurs objets » de la section [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+     >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, reportez-vous à la section « Champs calculés personnalisés dans les formulaires personnalisés à plusieurs objets » de la section [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-1. Cliquez sur [!UICONTROL **Convertir en un projet**].
+1. Cliquez sur [!UICONTROL **Convertir en projet**].
 
    >[!TIP]
    >
@@ -184,7 +184,7 @@ Vous pouvez convertir un problème en un projet vide.
    >Les informations contenues dans certains champs du problème sont transférées dans le projet si vous ne les avez pas modifiées lors de la conversion.
 
 1. (Facultatif) Définissez d’autres détails du projet (personne propriétaire du projet, dates du projet) et des tâches si nécessaire.
-1. Cliquez sur [!UICONTROL **Convertir en un projet**].
+1. Cliquez sur [!UICONTROL **Convertir en projet**].
 
    Le problème est maintenant converti en projet. La page du projet s’affiche.
 
@@ -230,12 +230,12 @@ Vous pouvez convertir un problème en projet à l’aide d’un modèle.
 
    La zone [!UICONTROL Convertir en un projet] s’ouvre.
 
-   ![&#x200B; Convertir en projet &#x200B;](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![ Convertir en projet ](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
    >[!TIP]
    >
-   >* L’utilisation d’un modèle de stockage Workfront pour convertir un problème de stockage Adobe crée un projet de stockage Adobe.
-   >* L’utilisation d’un modèle de stockage Adobe pour convertir un problème de stockage Workfront crée un projet de stockage Workfront.
+   >* L’utilisation d’un modèle de stockage Workfront hérité pour convertir un problème de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
+   >* L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
    >
    >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

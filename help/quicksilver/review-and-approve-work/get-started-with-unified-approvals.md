@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '975'
 ht-degree: 4%
 
 ---
@@ -29,18 +29,18 @@ Pour plus d&#39;informations sur Frame.io, voir [Prise en main de Frame.io](http
 
 ## Conditions d’accès
 
-* Votre contrat Workfront doit inclure un SKU Workfront V2 pour utiliser la visionneuse Frame.io et le stockage d’entreprise Adobe. Pour plus d’informations, voir la FAQ dans [Présentation de la révision et approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval).
+* Vous devez utiliser une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe. Si votre organisation ne dispose pas déjà d’une version prise en charge, contactez votre représentant de compte Adobe.
 
 ## Initiation et planification du travail dans Workfront
 
-Les coordinateurs de projet peuvent créer des projets et planifier le travail dans Workfront. Les projets créés dans une instance avec l’intégration Frame.io activée utilisent le stockage d’entreprise d’Adobe, qui permet de stocker et de gérer les ressources dans l’écosystème Adobe.
+Les coordinateurs de projet peuvent créer des projets et planifier le travail dans Workfront. Les projets créés dans une instance avec l’intégration Frame.io activée utilisent l’espace de stockage dans le cloud d’Adobe, ce qui permet de stocker et de gérer les ressources dans l’écosystème Adobe.
 
 Si votre entreprise dispose d’une licence d’entreprise Frame.io, les projets créés dans Workfront sont également visibles dans Frame.io, ce qui permet aux utilisateurs d’interagir et de charger des ressources dans les deux produits.
 
-Pour plus d’informations sur le stockage d’entreprise ou les projets Adobe dans Frame.io, voir
+Pour plus d’informations sur le stockage dans le cloud d’Adobe ou les projets dans Frame.io, voir
 
 * [Présentation de Workspace : projets](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Vue d’ensemble du stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## Révision et approbation des ressources
 

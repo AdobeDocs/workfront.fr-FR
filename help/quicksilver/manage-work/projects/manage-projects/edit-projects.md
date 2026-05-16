@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '8107'
+source-wordcount: '8112'
 ht-degree: 88%
 
 ---
@@ -287,7 +287,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
       <p><b>NOTES</b></p>
       <ul>
       <li>Vous devez disposer des autorisations de niveau Gérer pour le portfolio afin de pouvoir l’ajouter ou le supprimer du projet.</li>
-      <li>Si votre entreprise utilise à la fois le stockage d’entreprise Workfront hérité et Adobe, vous ne pouvez pas copier de tâches entre des projets qui utilisent différents types de stockage. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.</li></ul> 
+      <li>Si votre entreprise utilise à la fois l’espace de stockage cloud Workfront hérité et Adobe, vous ne pouvez pas copier de tâches entre des projets qui utilisent différents types de stockage. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.</li></ul> 
       Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Présentation de la gestion des documents pour les projets et les objets associés</a>. 
       </td> 
       </tr> 
@@ -297,7 +297,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
       <p><b>NOTES</b></p>
       <ul>
       <li>Vous devez disposer des autorisations de niveau Gérer pour le programme afin de pouvoir l’ajouter ou le supprimer du projet.</li>
-      <li>Si votre entreprise utilise à la fois les types de stockage de documents Workfront et Adobe, vous ne pouvez pas associer un projet de stockage Workfront à un programme de stockage Adobe. Le contraire est également vrai. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents. Les programmes héritent du type de stockage du portefeuille auquel ils appartiennent. </li></ul>
+      <li>Si votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe pour les documents, vous ne pouvez pas associer un projet de stockage Workfront hérité à un programme de stockage cloud Adobe. Le contraire est également vrai. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents. Les programmes héritent du type de stockage du portefeuille auquel ils appartiennent. </li></ul>
 
    Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Présentation de la gestion des documents pour les projets et les objets associés</a>.
 
@@ -804,7 +804,7 @@ Tenez compte des points suivants lorsque vous modifiez des projets en bloc :
 
 * Lorsque vous sélectionnez plusieurs projets appartenant à des groupes différents, les statuts qui s’affichent dans le champ Statut sont des statuts au niveau du système et non au niveau du groupe.
 
-* Lorsque vous sélectionnez plusieurs projets qui disposent de différents types de stockage de documents et que vous souhaitez mettre à jour le Portfolio ou le programme pour les projets sélectionnés, vous ne pouvez pas associer un projet de stockage Workfront à un portfolio de stockage Adobe. Le contraire est également vrai. Dans ce cas, veillez à sélectionner uniquement les projets ayant des types de stockage similaires à la fois.
+* Lorsque vous sélectionnez plusieurs projets qui disposent de différents types de stockage de documents et que vous souhaitez mettre à jour le Portfolio ou le programme pour les projets sélectionnés, vous ne pouvez pas associer un projet de stockage Workfront hérité à un portfolio de stockage dans le cloud Adobe. Le contraire est également vrai. Dans ce cas, veillez à sélectionner uniquement les projets ayant des types de stockage similaires à la fois.
 
   Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
 

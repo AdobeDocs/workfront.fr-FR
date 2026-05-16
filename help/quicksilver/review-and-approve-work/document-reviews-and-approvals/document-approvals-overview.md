@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: abca776dd79dcb1b5ef7c59745719a0faee5c845
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '3977'
+source-wordcount: '3914'
 ht-degree: 0%
 
 ---
@@ -31,18 +31,18 @@ Les coordinateurs de projet gèrent le travail dans Workfront pendant que les cr
 
 -->
 
-## Basé sur le stockage d’entreprise Adobe
+## Basé sur le stockage cloud d’Adobe
 
-La révision et l’approbation unifiées reposent sur le stockage d’entreprise d’Adobe, une solution de stockage dans le cloud qui sert de référentiel central pour les ressources de l’ensemble des produits d’entreprise d’Adobe, y compris Workfront et Frame.io. <!--, and Creative Cloud.-->
+La révision et l’approbation unifiées reposent sur le stockage cloud Adobe, une solution de stockage cloud qui sert de référentiel central pour les ressources de l’ensemble des produits d’entreprise Adobe, y compris Workfront et Frame.io. <!--, and Creative Cloud.-->
 
-Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants :
+Les principaux avantages du stockage dans le cloud d’Adobe sont les suivants :
 
 * Couche de stockage unifiée pour les ressources de création et de gestion de travail
 * Autorisations centralisées avec le système Adobe Identity Management (IMS) pour un contrôle d’accès sécurisé
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation de l’espace de stockage dans ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -97,7 +97,7 @@ Pour plus d’informations sur la gestion des projets dans Workfront, voir [Proj
 
 ### Structure appliquée et conventions de nommage
 
-Étant donné que la révision et l’approbation unifiées sont créées à l’aide du stockage d’entreprise Adobe, il existe une structure appliquée et des conventions de nommage à connaître lors de la gestion des projets et des documents.
+Étant donné que la révision et l’approbation unifiées sont créées à l’aide de l’espace de stockage Adobe dans le cloud, il existe une structure appliquée et des conventions de nommage à connaître lors de la gestion des projets et des documents.
 
 * Les programmes et les projets ne peuvent pas porter le même nom s&#39;ils appartiennent au même portefeuille.
 * Les documents ne peuvent pas porter le même nom s&#39;ils appartiennent au même projet.
@@ -136,7 +136,7 @@ Le tableau suivant montre comment les autorisations Workfront sont mappées aux 
 
 ### Gestion des documents dans Workfront
 
-Les documents chargés vers Workfront sont stockés dans le stockage d’entreprise d’Adobe et sont accessibles dans Workfront et Frame.io. Lorsque vous chargez un document vers une tâche ou un événement dans Workfront, un dossier généré par le système est créé dans le stockage d’entreprise Adobe et hérite des autorisations de la tâche ou de l’événement. Tous les documents chargés vers cette tâche ou cet événement sont stockés dans ce dossier et y héritent des autorisations. Pour plus d’informations sur les documents dans Workfront, voir [Présentation de la zone des nouveaux documents](/help/quicksilver/documents/managing-documents/documents-area.md) et [Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Les documents chargés vers Workfront sont stockés dans l’espace de stockage cloud d’Adobe et sont accessibles dans Workfront et Frame.io. Lorsque vous téléchargez un document vers une tâche ou un événement dans Workfront, un dossier généré par le système est créé dans l’espace de stockage Adobe dans le cloud et hérite des autorisations de la tâche ou de l’événement. Tous les documents chargés vers cette tâche ou cet événement sont stockés dans ce dossier et y héritent des autorisations. Pour plus d’informations sur les documents dans Workfront, voir [Présentation de la zone des nouveaux documents](/help/quicksilver/documents/managing-documents/documents-area.md) et [Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage dans le cloud d’Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Limites de l’expérience du document
 
@@ -174,9 +174,9 @@ Pour utiliser la révision et l’approbation unifiées, les conditions suivante
 
 * Les utilisateurs ne peuvent appartenir qu’à une seule instance Workfront au sein de l’organisation IMS.
 
-* L’instance Workfront doit être activée sur l’expérience unifiée Adobe et le stockage d’entreprise Adobe.
+* L’instance Workfront doit être activée sur l’expérience unifiée Adobe et l’espace de stockage dans le cloud Adobe.
 
-* Les clients Workfront doivent disposer d’un SKU Workfront V2. Si votre organisation ne dispose pas déjà d’un SKU Workfront V2, un événement de contrat avec Adobe est nécessaire pour ajouter le SKU Workfront V2 à votre contrat. Contactez votre représentant de compte Adobe.
+* Vous devez utiliser une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe. Si votre organisation ne dispose pas déjà d’une version prise en charge, contactez votre représentant de compte Adobe.
 
 **Ai-je besoin d’une licence Frame.io pour utiliser cette intégration ?**
 
@@ -194,13 +194,13 @@ Les clients existants conserveront l’accès à la fonctionnalité de vérifica
 
 **Que dois-je faire pour obtenir l’accès ?**
 
-Pour accéder à la révision et à l’approbation unifiées, votre organisation doit disposer d’un SKU Workfront V2. Toute organisation qui n’utilise pas encore un SKU Workfront V2 doit passer par un événement de contrat avec Adobe pour ajouter le SKU Workfront V2. Pour démarrer :
+Pour accéder à la révision et à l’approbation unifiées, vous devez disposer d’une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe. Toute organisation qui ne dispose pas déjà d’une version prise en charge doit contacter son représentant de compte Adobe. Pour démarrer :
 
-* Contactez votre représentant de compte Adobe pour confirmer si votre contrat Workfront actuel est sur un SKU Workfront V2.
+* Contactez votre représentant de compte Adobe pour confirmer si votre contrat Workfront actuel prend en charge la révision et l’approbation unifiées.
 
-* Si votre organisation ne dispose pas d’un SKU Workfront V2, votre représentant de compte vous guidera tout au long de l’événement de contrat nécessaire pour l’ajouter.
+* Si votre organisation ne dispose pas d’une version prise en charge, votre représentant de compte vous guidera tout au long des mises à jour nécessaires pour l’ajouter.
 
-* Une fois que votre contrat inclut le SKU Workfront V2, Adobe Professional Services configure l’intégration pour votre organisation.
+* Une fois que vous disposez d’une version de Workfront prenant en charge l’espace de stockage Adobe dans le cloud, Adobe Professional Services configure l’intégration pour votre organisation.
 
    * Si vous ne savez pas qui est votre représentant de compte Adobe, vous pouvez contacter par le biais du portail d’assistance Adobe ou consulter Experience League pour connaître les options de contact.
 
@@ -354,11 +354,11 @@ Yes. In the legacy proofing workflow (prior to unified review and approval), whe
 
 **When I upload a document and not a proof, a proof gets generated. Will a proof always be generated?**
 
-No. With unified review and approval enabled and Adobe enterprise storage active, uploading a document does not automatically generate a proof. Documents are stored in Adobe enterprise storage and are reviewed using the Frame.io viewer. A proof is only generated if you explicitly create one using the legacy proofing workflow. The Frame.io viewer serves as the primary review surface, so a separate proof is not needed for standard review and approval workflows.
+No. With unified review and approval enabled and Adobe cloud storage active, uploading a document does not automatically generate a proof. Documents are stored in Adobe cloud storage and are reviewed using the Frame.io viewer. A proof is only generated if you explicitly create one using the legacy proofing workflow. The Frame.io viewer serves as the primary review surface, so a separate proof is not needed for standard review and approval workflows.
 
 **What is the difference between uploading a document and a proof after the 26.2 release?**
 
-With unified review and approval enabled, uploading a document stores it in Adobe enterprise storage and makes it available for review in the Frame.io viewer. A unified approval workflow can be created directly on the document. Uploading a proof, by contrast, uses the legacy Workfront Proof viewer (ProofHQ) and its own proofing workflow. Both options are available for projects created before the integration was enabled, but the Frame.io viewer is the primary review surface going forward. The key difference is that a document uses the unified approval workflow and Frame.io viewer, while a proof uses the legacy proofing workflow and viewer.
+With unified review and approval enabled, uploading a document stores it in Adobe cloud storage and makes it available for review in the Frame.io viewer. A unified approval workflow can be created directly on the document. Uploading a proof, by contrast, uses the legacy Workfront Proof viewer (ProofHQ) and its own proofing workflow. Both options are available for projects created before the integration was enabled, but the Frame.io viewer is the primary review surface going forward. The key difference is that a document uses the unified approval workflow and Frame.io viewer, while a proof uses the legacy proofing workflow and viewer.
 
 **Reviews under My Approvals only show a "Complete my review" button and no link to the proofing viewer or the document. Is this intended?**
 
@@ -379,11 +379,11 @@ Yes. When a new version is uploaded, previous approval participants are not auto
 
 +++ Développez pour afficher les questions fréquentes sur la gestion du stockage et des fichiers.
 
-**Qu’est-ce que le stockage d’entreprise d’Adobe et en quoi est-il lié à cette intégration ?**
+**Qu’est-ce que le stockage dans le cloud d’Adobe et comment est-il lié à cette intégration ?**
 
-Le stockage d’entreprise Adobe est la couche de stockage commune qui connecte Workfront, Frame.io et Adobe Creative Cloud. Assets se trouve au même endroit et est accessible via plusieurs outils sans transfert manuel de fichiers. Les créatifs peuvent travailler sur place et les réviseurs voient toujours la dernière version.
+Le stockage dans le cloud Adobe est la couche de stockage commune qui connecte Workfront, Frame.io et Adobe Creative Cloud. Assets se trouve au même endroit et est accessible via plusieurs outils sans transfert manuel de fichiers. Les créatifs peuvent travailler sur place et les réviseurs voient toujours la dernière version.
 
-Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants :
+Les principaux avantages du stockage dans le cloud d’Adobe sont les suivants :
 
 * Une couche de stockage unique pour toutes les ressources de travail en cours dans Workfront et Frame.io
 
@@ -395,7 +395,7 @@ Les principaux avantages du stockage d’entreprise dans Adobe sont les suivants
 
 **Existe-t-il des exigences de dénomination ou de structure pour les fichiers et les projets ?**
 
-Oui. Comme l’intégration utilise le stockage d’entreprise d’Adobe, les conventions suivantes s’appliquent :
+Oui. Comme l’intégration utilise l’espace de stockage Adobe dans le cloud, les conventions suivantes s’appliquent :
 
 * Les programmes et les projets ne peuvent pas porter le même nom s&#39;ils appartiennent au même portefeuille.
 
@@ -485,41 +485,35 @@ Pour plus d’informations sur la configuration et l’utilisation d’AI Review
 
 +++
 
-### Contrats, SKU et stockage
+### Disponibilité et stockage
 
-+++ Développez pour afficher les questions fréquentes sur les contrats, les SKU et le stockage.
++++ Développez pour afficher les questions fréquentes sur la disponibilité et le stockage.
 
 **Quand la révision et l’approbation unifiées seront-elles disponibles pour moi ?**
 
-La révision et l’approbation unifiées sont maintenant disponibles. L’accès nécessite un SKU Workfront V2. Si votre contrat a été signé avant que les SKU Workfront V2 ne soient disponibles, l’ajout du SKU Workfront V2 nécessite un événement de contrat avec Adobe. Il existe deux chemins :
-
-* Lors du renouvellement : le SKU Workfront V2 est ajouté à votre prochaine date de renouvellement de contrat.
-
-* Réengagement anticipé : votre équipe de compte Adobe peut vous réengager plus tôt pour ajouter les droits de SKU Workfront V2 tout en conservant la date de fin de votre contrat existant. Il n&#39;y a pas d&#39;augmentation de prix lorsque vous passez à un forfait équivalent.
-
-Contactez votre représentant de compte Adobe pour déterminer le meilleur chemin d’accès pour votre organisation.
+La révision et l’approbation unifiées sont maintenant disponibles. Access nécessite une version de Workfront qui prend en charge l’espace de stockage dans le cloud Adobe. Si vous ne disposez pas déjà d’une version prise en charge, contactez votre représentant de compte Adobe pour obtenir des conseils sur le passage à une version.
 
 <!--
 **Before we sign the contract, what changes will we see in Workfront?**
 
-Before signing the V2 Workfront SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 Workfront SKU is contracted and Adobe Professional Services configures the integration for your organization.
+Until you move to a version of Workfront that supports Adobe cloud storage, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe cloud storage, or multi-stage approval templates---will be available until you are on a supported version and Adobe Professional Services configures the integration for your organization.
 -->
 
-**La mise à niveau vers le SKU Workfront V2 m’offre-t-elle plus de stockage ?**
+**La mise à niveau vers une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe m’offre-t-elle plus de stockage ?**
 
-Oui. Avec le SKU Workfront V2, chaque utilisateur sous licence reçoit 60 Go de stockage, contre 30 Go dans la version précédente.
+Oui. Sur une version de Workfront qui prend en charge le stockage dans le cloud Adobe, chaque utilisateur sous licence reçoit 60 Go de stockage, contre 30 Go dans la version précédente.
 
-**Comment choisir entre le stockage d’entreprise Adobe et le stockage Workfront hérité ?**
+**Comment choisir entre le stockage dans le cloud Adobe et le stockage Workfront hérité ?**
 
-Le stockage d’entreprise active l’expérience de la visionneuse Frame.io et est requis pour une révision et une approbation unifiées. Le stockage hérité continue d’utiliser la visionneuse Workfront Proof (ProofHQ) par défaut.
+Le stockage dans le cloud Adobe active l’expérience de la visionneuse Frame.io et est requis pour une révision et une approbation unifiées. Le stockage hérité continue d’utiliser la visionneuse Workfront Proof (ProofHQ) par défaut.
 
 Si votre entreprise propose une combinaison de workflows simples et de workflows de relecture plus complexes, vous pouvez donner la priorité aux workflows à migrer en premier.
 
-Le stockage d’entreprise vous offre la possibilité de déployer la nouvelle expérience de manière incrémentielle, en commençant par les workflows qui en bénéficieront le plus.
+Le stockage dans le cloud d’Adobe vous offre la possibilité de déployer la nouvelle expérience de manière incrémentielle, en commençant par les workflows qui en bénéficieront le plus.
 
 **Comment les licences Frame.io sont-elles gérées ?**
 
-Après avoir signé le SKU Workfront V2, tous les utilisateurs de Workfront auront accès à la visionneuse Frame.io pour les workflows de révision et d’approbation. Aucune licence Entreprise Frame.io distincte n’est requise pour cela.
+Une fois que vous utilisez une version de Workfront qui prend en charge l’espace de stockage Adobe dans le cloud, tous les utilisateurs de Workfront auront accès à la visionneuse Frame.io pour les workflows de révision et d’approbation. Aucune licence Entreprise Frame.io distincte n’est requise pour cela.
 
 Si votre entreprise a besoin de fonctionnalités supplémentaires de Frame.io Enterprise telles que
 

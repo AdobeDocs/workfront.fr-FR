@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 64%
@@ -157,10 +157,10 @@ Pour plus d’informations sur les programmes, voir la section [Créer et gérer
    >Certains clients peuvent avoir accès aux deux environnements de stockage de documents suivants :
    >
    >  * **L’ancien stockage Workfront** : les portfolios utilisant ce stockage ont l’icône d’ancien stockage ![icône d’ancien stockage](assets/legacy-storage-project-icon.png) en regard du nom.
-   >  * **Stockage d’entreprise Adobe**
+   >  * **Espace de stockage dans le cloud Adobe**
    >
    >Votre administrateur Workfront décide du stockage utilisé par votre société ou vous permet de choisir le stockage auquel vous associez chaque portefeuille.
-   >Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+   >Pour plus d’informations, voir [Activer l’espace de stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
    >
    >L’ajout de documents à des portfolios diffère selon le type de stockage utilisé.
    >

@@ -9,10 +9,10 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 32%
+source-wordcount: '822'
+ht-degree: 31%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 Dans la zone Documents, vous pouvez organiser, gérer et afficher les métadonnées des documents chargés dans Adobe Workfront. Vous pouvez également voir le statut de décision de l’épreuve.
 
-Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre entreprise dépend du stockage Workfront hérité ou du stockage d’entreprise. Pour plus d’informations sur ces types de stockage, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre organisation dépend du stockage Workfront hérité ou du stockage dans le cloud Adobe. Pour plus d’informations sur ces types de stockage, consultez [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Zone des documents hérités
 
@@ -74,7 +74,7 @@ La page Détails du document fournit une version plus complète des Détails du 
 
 ## Zone Nouveaux documents
 
-La nouvelle zone Documents n’est disponible que si votre entreprise utilise le stockage d’entreprise. Pour plus d’informations sur le stockage d’entreprise, consultez [Présentation du stockage d’entreprise &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+La nouvelle zone Documents n’est disponible que si votre organisation se trouve dans l’espace de stockage cloud d’Adobe. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Utilisation du panneau de résumé
 
@@ -103,7 +103,7 @@ Vous pouvez afficher l&#39;historique d&#39;un document dans la zone des nouveau
 
 ### Dossiers au niveau du système pour les autorisations de document
 
-Workfront crée automatiquement un dossier au niveau du système lorsque le premier document est chargé sur une tâche ou un événement. Ces dossiers héritent des autorisations de la tâche ou de l’événement et sont visibles dans la zone des documents au niveau du projet. Tous les documents chargés vers cette tâche ou cet événement sont stockés dans ce dossier et y héritent des autorisations. Il s’agit de la principale méthode de gestion des autorisations pour les documents dans la nouvelle zone Documents. Pour plus d’informations, voir [Présentation des autorisations d’objet et des niveaux d’accès pour le modèle de stockage d’entreprise Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Workfront crée automatiquement un dossier au niveau du système lorsque le premier document est chargé sur une tâche ou un événement. Ces dossiers héritent des autorisations de la tâche ou de l’événement et sont visibles dans la zone des documents au niveau du projet. Tous les documents chargés vers cette tâche ou cet événement sont stockés dans ce dossier et y héritent des autorisations. Il s’agit de la principale méthode de gestion des autorisations pour les documents dans la nouvelle zone Documents. Pour plus d’informations, voir [Présentation des autorisations d’objet et des niveaux d’accès pour le modèle de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 ## Considérations
 

@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 66%
+source-wordcount: '1639'
+ht-degree: 65%
 
 ---
 
@@ -97,7 +97,7 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 * Créez un projet à partir de zéro sans utiliser de modèle. Cet article décrit comment créer un projet à partir de zéro.
 
 * Copiez un projet existant.\
-  Pour plus d’informations sur la copie d’un projet, voir [&#x200B; Copier un projet &#x200B;](../../../manage-work/projects/manage-projects/copy-project.md).
+  Pour plus d’informations sur la copie d’un projet, voir [ Copier un projet ](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Utilisez un modèle.\
   Pour plus d’informations sur l’utilisation d’un modèle pour créer un projet, consultez la section [Créer un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
@@ -170,15 +170,15 @@ Tenez compte des points suivants :
 * L’emplacement de stockage des documents pour un projet et ses objets enfants (tâches et événements) dépend de ce que l’administrateur Workfront choisit comme valeur par défaut pour les Préférences de stockage dans les Préférences système de la section Configuration. Selon l’emplacement de stockage des documents dans votre instance Workfront, vous pouvez créer les types de projets suivants :
 
    * Projets de stockage Workfront hérités
-   * Projets de stockage d’entreprise Adobe.
+   * projets de stockage dans le cloud Adobe.
 
-  Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+  Pour plus d’informations, voir [Activer l’espace de stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
   >[!TIP]
   >
   > Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
 
-* Lorsque vous créez un projet de stockage d’entreprise, un dossier de documents portant le même nom est créé dans la section **Documents** du projet. Après avoir ajouté des tâches au projet, les dossiers portant le nom de la tâche sont ajoutés à la section **Documents** de chaque tâche.
+* Lorsque vous créez un projet d’espace de stockage dans le cloud Adobe, un dossier de documents portant le même nom que le projet est créé dans la section **Documents** du projet. Après avoir ajouté des tâches au projet, les dossiers portant le nom de la tâche sont ajoutés à la section **Documents** de chaque tâche.
 
 Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -199,29 +199,29 @@ Pour plus d’informations, voir [Présentation de la gestion des documents pour
 
 1. (Conditionnel) Selon le stockage de document utilisé par votre organisation, cliquez sur l’un des éléments suivants :
 
-   * **Nouveau projet**, lorsque l’administrateur Workfront choisit **Adobe Enterprise** ou **Workfront hérité** et qu’il a sélectionné ou non le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
-   * **Nouveau projet (stockage hérité)** lorsque l’administrateur Workfront choisit **Adobe Enterprise** ou **Workfront hérité** et qu’il a également sélectionné le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
+   * **Nouveau projet**, lorsque l’administrateur Workfront choisit l’un des paramètres suivants : **Espace de stockage dans le cloud Adobe** ou **Workfront hérité**, et qu’il a sélectionné ou non le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
+   * **Nouveau projet (stockage hérité)** lorsque l’administrateur Workfront choisit l’un des paramètres suivants : **Espace de stockage dans le cloud Adobe** ou **Workfront hérité**, et qu’il a également sélectionné le paramètre **Autoriser l’utilisateur à sélectionner le fournisseur de stockage**.
 
      Cette option s&#39;affiche uniquement lorsque le paramètre **Autoriser l&#39;utilisateur à sélectionner le fournisseur de stockage** est sélectionné dans la zone Configuration.
 
-     Pour plus d’informations, voir [Activer le stockage d’entreprise Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Pour plus d’informations, voir [Activer l’espace de stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      >[!NOTE]
      >
-     >* Lorsque vous créez un projet de stockage d’entreprise à partir d’un portfolio ou d’un programme de stockage Workfront, le portfolio ou le programme est également converti en objets de stockage d’entreprise. Tous les autres projets de stockage Workfront relevant du même portefeuille ou programme restent inchangés.
+     >* Lorsque vous créez un projet de stockage dans le cloud Adobe à partir d’un portfolio ou d’un programme de stockage Workfront hérité, le portfolio ou le programme est également converti en objets de stockage dans le cloud Adobe. Tous les autres projets de stockage Workfront hérités du même portefeuille ou programme restent inchangés.
      >* Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
 
      Un projet est créé et son nom par défaut suit les schémas suivants, en fonction du Workfront de stockage utilisé pour les documents :
 
-      * `Untitled Project` pour un projet de stockage Workfront.
+      * `Untitled Project` d’un ancien projet de stockage Workfront.
 
-        Un projet de stockage Workfront affiche une icône **Stockage Workfront hérité** ![Icône de projet de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
+        Un projet de stockage Workfront hérité affiche une icône **Stockage Workfront hérité** ![Icône de projet de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
 
-      * `Untitled Project - < Month day, year hour.minute.second >` d’un projet de stockage Adobe
+      * `Untitled Project - < Month day, year hour.minute.second >` d’un projet de stockage dans le cloud Adobe
 
         >[!IMPORTANT]
         >
-        >Les projets utilisant le stockage d’entreprise d’Adobe doivent avoir des noms uniques.
+        >Les projets utilisant l’espace de stockage dans le cloud d’Adobe doivent avoir des noms uniques.
 
 
 1. Dans l’en-tête du projet, mettez à jour le nom du projet. Appuyez sur Entrée pour enregistrer le nom.

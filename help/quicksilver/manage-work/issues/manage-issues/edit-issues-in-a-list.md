@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '910'
 ht-degree: 77%
 
 ---
@@ -157,7 +157,7 @@ Vous pouvez modifier un événement dans une liste à l’aide du panneau Résum
    | Heures ![Consigner le temps](assets/log-time-icon-in-summary.png) | Cliquez pour consigner des heures. |
    | Validations ![icône Validations](assets/approvals-icon-in-summary.png) | Cliquez pour ajouter les approbations de problèmes. |
 
-   *Si votre entreprise utilise le stockage de documents d’entreprise Adobe, vous ne pouvez pas ajouter de documents aux problèmes de stockage Adobe dans le panneau Résumé .
+   *Si votre entreprise utilise l’espace de stockage Adobe pour les documents, vous ne pouvez pas ajouter de documents aux problèmes d’espace de stockage Adobe dans le panneau Résumé .
 
    Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 46%
@@ -119,7 +119,7 @@ Tenez compte des points suivants lors du déplacement d’une tâche :
 
    * Jalons
 
-* Si votre entreprise utilise à la fois le stockage d’entreprise Workfront hérité et Adobe, vous ne pouvez pas déplacer les tâches entre les projets qui utilisent différents types de stockage.
+* Si votre entreprise utilise à la fois l’espace de stockage cloud Workfront hérité et Adobe, vous ne pouvez pas déplacer les tâches entre les projets qui utilisent différents types de stockage.
 
   Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
