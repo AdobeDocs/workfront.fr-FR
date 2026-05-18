@@ -12,7 +12,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Pour plus d’informations sur la signature du contrat, voir [Signature du contr
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Type de fichier non pris en charge"
->abstract="Ce réviseur de contenu ne prend pas en charge le type de fichier sélectionné. Chargez un type de fichier pris en charge ou supprimez le réviseur de contenu pour envoyer la demande."
+>abstract="Cet outil de révision de contenu ne prend pas en charge le type de fichier sélectionné. Chargez un type de fichier pris en charge ou supprimez l’outil de révision de contenu pour envoyer la demande."
 
 Le réviseur de contenu peut examiner les types de fichiers suivants :
 
