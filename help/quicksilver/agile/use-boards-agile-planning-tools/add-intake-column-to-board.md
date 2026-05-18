@@ -120,7 +120,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    ![Créateur de filtres](assets/intake-filter-dialog6.png)
 
-   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL  Nouveau ] ou [!UICONTROL  En cours ].
+   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL &#x200B; Nouveau &#x200B;] ou [!UICONTROL &#x200B; En cours &#x200B;].
 
    >[!NOTE]
    >
