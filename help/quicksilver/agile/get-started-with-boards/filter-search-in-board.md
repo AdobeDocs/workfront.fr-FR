@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '668'
 ht-degree: 99%
 
 ---
@@ -56,7 +56,7 @@ Lorsque des filtres sont appliqués, un indicateur s’affiche sur le panorama !
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,7 +99,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 Par défaut, seules les cartes actives sont affichées sur un panorama. Le panorama peut être également filtré pour afficher les cartes archivées.
 
 1. Accédez au panorama.
-1. Cliquez sur [!UICONTROL **Configurer**] à droite du panorama pour ouvrir le panneau Configurer.
+1. Cliquez sur [!UICONTROL **Configurer**] à droite du panorama pour ouvrir le panneau de configuration.
 1. Développez [!UICONTROL **Cartes**].
 1. Activez [!UICONTROL **Afficher les cartes archivées sur le panorama**].
 1. Cliquez sur [!UICONTROL **Filtrer**], développez la section [!UICONTROL Cartes archivées] et sélectionnez **[!UICONTROL Cartes archivées]** pour toutes les afficher.

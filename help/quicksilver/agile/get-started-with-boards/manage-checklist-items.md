@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '416'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,7 @@ Pour plus d’informations sur les cartes, voir [Ajouter une carte ad hoc à un 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,7 +56,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Ou
 
-   Cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) sur la carte, puis sélectionnez **[!UICONTROL Modifier]**.
+   Cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) de la carte et sélectionnez **[!UICONTROL Modifier]**.
 
 1. Pour ajouter un nouvel élément, cliquez sur **[!UICONTROL Ajouter un élément de liste de contrôle]**. Saisissez ensuite le titre de l’élément et appuyez sur Entrée. Un autre élément est automatiquement ajouté. Continuez à saisir des titres pour ajouter plus d’éléments.
 
@@ -84,7 +84,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Ou
 
-   Cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) sur la carte, puis sélectionnez **[!UICONTROL Modifier]**.
+   Cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) de la carte et sélectionnez **[!UICONTROL Modifier]**.
 
 1. Cochez la case en regard de l’élément terminé.
 

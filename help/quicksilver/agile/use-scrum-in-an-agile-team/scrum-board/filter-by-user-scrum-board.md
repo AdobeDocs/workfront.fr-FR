@@ -8,9 +8,9 @@ feature: Agile
 exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '196'
 ht-degree: 96%
 
 ---
@@ -40,7 +40,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,4 +58,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 >
 >Les totaux des colonnes ne changent pas en fonction des résultats filtrés. Les totaux des colonnes affichent les totaux de tous les éléments de travail du panorama.
 
-![Filtrer par personne](assets/filter-by-user-agile-nwe.png)
+![Filtrer par utilisateur ou utilisatrice](assets/filter-by-user-agile-nwe.png)

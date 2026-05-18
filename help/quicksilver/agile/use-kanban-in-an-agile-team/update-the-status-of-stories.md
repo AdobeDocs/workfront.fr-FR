@@ -8,10 +8,10 @@ feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 89%
+source-wordcount: '214'
+ht-degree: 88%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez modifier le statut d’une histoire directement à partir du panoram
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,4 +58,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 1. Accédez au panorama [!UICONTROL Kanban] sur lequel vous souhaitez mettre à jour le statut d’une histoire.
 1. Faites glisser une histoire d’une colonne de statut du panorama [!UICONTROL Kanban] vers une autre colonne.
 Une histoire reste dans la colonne [!UICONTROL Terminer] pendant deux semaines après son ajout.
-   ![Déplacer une histoire vers une autre colonne](assets/agile-storyboard-progress.png)
+   ![Déplacement d’une histoire vers une autre colonne](assets/agile-storyboard-progress.png)

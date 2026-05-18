@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '605'
 ht-degree: 92%
 
 ---
@@ -22,12 +22,12 @@ Lors de la création de sous-tâches pour des histoires existantes, tenez compte
 **Lorsque le paramètre [!UICONTROL Mode d’achèvement] du projet est défini sur [!UICONTROL Manuel] :**
 
 * Déplacer une histoire parent avec des sous-tâches vers [!UICONTROL Terminé] met à jour l’histoire parent à 100 % et fait passer le [!UICONTROL Statut] sur [!UICONTROL Terminé]. Les sous-tâches ne sont pas mises à jour.
-* La mise à jour du [!UICONTROL Pourcentage terminé] se fait à partir de l’onglet [!UICONTROL Histoires] ou de la page [!UICONTROL Détails] de l’objet.
+* Pour mettre à jour la variable [!UICONTROL Pourcentage terminé] pour l’histoire, vous devez la mettre à jour à partir de l’onglet [!UICONTROL Histoires] ou depuis la page [!UICONTROL Détails] de l’objet.
 
 **Lorsque le paramètre [!UICONTROL Mode d’achèvement] du projet est défini sur [!UICONTROL Automatique]** :
 
-* Déplacer une histoire parent avec des sous-tâches vers [!UICONTROL Terminé] met à jour l’histoire parent à 100 % et fait passer le [!UICONTROL Statut] sur [!UICONTROL Terminé]. Les sous-tâches sont également mises à jour à 100 % et le [!UICONTROL Statut] devient [!UICONTROL Terminé].
-* Pour mettre à jour le [!UICONTROL Pourcentage d’achèvement] de l’histoire, vous devez mettre à jour le [!UICONTROL Pourcentage d’achèvement] de toutes les sous-tâches. Le [!UICONTROL Pourcentage d’achèvement] de l’article est calculé en fonction du [!UICONTROL Pourcentage d’achèvement] de toutes les sous-tâches.
+* Le déplacement d’une histoire parent avec des sous-tâches vers [!UICONTROL Terminé] met à jour l’histoire parent sur 100 % et le [!UICONTROL statut] sur [!UICONTROL Terminé]. Les sous-tâches sont également mises à jour sur 100 % et le [!UICONTROL statut] est mis à jour vers [!UICONTROL Terminé].
+* Pour mettre à jour la variable [!UICONTROL Pourcentage terminé] pour l’histoire, vous devez mettre à jour [!UICONTROL Pourcentage terminé] pour toutes les sous-tâches. La variable [!UICONTROL Pourcentage terminé] pour l’histoire est calculée en fonction du [!UICONTROL Pourcentage terminé] de toutes les sous-tâches.
 
 ## Conditions d’accès
 
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

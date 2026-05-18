@@ -2,16 +2,16 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Création d’une itération
-description: Les itérations sont un composant clé pour les équipes de Scrum Agile dans la planification de la capacité de travail. [!DNL Adobe Workfront] permet aux équipes de Scrum Agile de gérer leur travail en créant plusieurs itérations pour répondre aux besoins de l’équipe.
+description: Les itérations sont un composant clé pour les équipes de Scrum Agile dans la planification de la capacité de travail. [!DNL Adobe Workfront] permet aux équipes de Scrum Agile de gérer leur travail en créant plusieurs itérations pour répondre aux besoins de l'équipe.
 author: Courtney
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 68%
+source-wordcount: '1025'
+ht-degree: 55%
 
 ---
 
@@ -41,7 +41,7 @@ Les itérations sont un composant clé pour les équipes de Scrum Agile dans la 
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,18 +81,18 @@ Vous pouvez ajouter une itération à la liste pour créer rapidement une itéra
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
-      <td> Indiquez la capacité de l’itération. Il s’agit du nombre de points ou d’heures que votre équipe est en mesure d’accomplir au cours de l’itération. Le nombre que vous saisissez doit être égal ou supérieur au nombre de points ou d’heures de la somme de toutes les histoires de l’itération.<br>[!DNL Workfront] remplit ce champ par défaut avec une capacité de 50. </td> 
+      <td> Indiquez la capacité de l’itération. Il s’agit du nombre de points ou d’heures que votre équipe est en mesure d’accomplir au cours de l’itération. Le nombre que vous saisissez doit être égal ou supérieur au nombre de points ou d’heures à partir de la somme de toutes les histoires dans l’itération.<br>[!DNL Workfront] préremplit ce champ avec une capacité de 50 par défaut. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
-      <td>Indiquez le pourcentage de concentration de l’équipe. Si tous les membres de l’équipe se concentrent entièrement sur cette itération, la concentration est de 100 %.<br>[!DNL Workfront] remplit ce champ avec 100 % par défaut. </td> 
+      <td>Indiquez le pourcentage de concentration de l’équipe. Si tous les membres de l’équipe se concentrent entièrement sur cette itération, l’objectif sera de 100 %.<br>[!DNL Workfront] préremplit ce champ avec 100 % par défaut. </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Cliquez sur **[!UICONTROL Ajouter une itération]**. Maintenant que vous avez créé une itération, vous devez ajouter des histoires. Pour plus d’informations, voir [Ajouter des histoires à une itération existante](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
-## Planifier une itération sur l’onglet [!UICONTROL Liste d’attente] 
+## Planifier une itération sur l’onglet [!UICONTROL Liste d’attente]
 
 Utilisez la fonctionnalité [!UICONTROL Planifier une itération] pour créer une itération en utilisant les tâches de votre liste d’attente.
 
@@ -124,16 +124,16 @@ Utilisez la fonctionnalité [!UICONTROL Planifier une itération] pour créer un
       <td> Indiquez la date à laquelle l’itération doit commencer.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL End Date]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL End Date]</strong> </td> 
       <td><p>Indiquez la date à laquelle l’itération doit se terminer. [!DNL Workfront] recommande de fixer une date de fin ne dépassant pas 4 semaines à compter de la date de début.</p><p>Conseil : veillez à choisir un jour ouvrable comme date de fin. Le graphique d’avancement ne prend en compte que les jours ouvrables dans ses calculs.<br>Par défaut, le graphique d’avancement utilise le planning par défaut pour définir les jours ouvrables (comme décrit dans <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>). Ou, pour incorporer des jours non ouvrés spécifiques à une équipe, les équipes Agile peuvent choisir d'utiliser un autre planning (comme décrit dans <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref"> Utiliser un autre planning d'équipe pour les graphiques d'avancement </a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
-      <td>Indiquez le pourcentage de concentration de l’équipe. Si tous les membres de l’équipe se concentrent entièrement sur cette itération, la concentration est de 100 %.<br>[!DNL Workfront] pré-remplit ce champ avec la valeur moyenne des itérations passées de votre équipe. S’il s’agit de la première itération de votre équipe, la valeur de ce champ est 0 par défaut.</td> 
+      <td>Indiquez le pourcentage de concentration de l’équipe. Si tous les membres de l’équipe se concentrent entièrement sur cette itération, l’objectif sera de 100 %.<br>[!DNL Workfront] préremplit ce champ avec la valeur moyenne des itérations passées de votre équipe. S’il s’agit de la première itération de votre équipe, la valeur de ce champ est 0 par défaut.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL Capacity]</strong></td> 
-      <td> Indiquez la capacité de l’itération. Il s’agit du nombre de points ou d’heures que votre équipe est en mesure d’accomplir au cours de l’itération. Le nombre que vous saisissez doit être égal ou supérieur au nombre de points ou d’heures de la somme de toutes les histoires de l’itération.<br>[!DNL Workfront] pré-remplit ce champ avec la valeur moyenne des itérations passées de votre équipe. S’il s’agit de la première itération de votre équipe, la valeur de ce champ est 0 par défaut.</td> 
+      <td> Indiquez la capacité de l’itération. Il s’agit du nombre de points ou d’heures que votre équipe est en mesure d’accomplir au cours de l’itération. Le nombre que vous saisissez doit être égal ou supérieur au nombre de points ou d’heures à partir de la somme de toutes les histoires dans l’itération.<br>[!DNL Workfront] préremplit ce champ avec la valeur moyenne des itérations passées de votre équipe. S’il s’agit de la première itération de votre équipe, la valeur de ce champ est 0 par défaut.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL Goal]</strong></td> 
@@ -142,7 +142,7 @@ Utilisez la fonctionnalité [!UICONTROL Planifier une itération] pour créer un
     </tbody> 
    </table>
 
-1. Cliquer sur **[!UICONTROL Enregistrer].** L’itération est créée.
+1. Cliquez sur **[!UICONTROL Enregistrer].** L’itération est créée.
 
 ## Ajouter des tâches ou des événements à une itération existante dans l’onglet Liste d’attente
 

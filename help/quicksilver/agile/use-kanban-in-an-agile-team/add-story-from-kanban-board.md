@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '215'
 ht-degree: 93%
 
 ---
@@ -45,7 +45,7 @@ Vous pouvez créer rapidement une histoire ou un problème directement à partir
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,4 +76,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
     </tr>
    </table>
 
-1. Cliquez sur **[!UICONTROL Ajouter une histoire]** ou **[!UICONTROL Ajouter un problème]**.
+1. Cliquez sur **[!UICONTROL Ajouter un histoire]** ou **[!UICONTROL Ajouter un problème]**.

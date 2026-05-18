@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 73%
+source-wordcount: '360'
+ht-degree: 72%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 73%
 
 Vous pouvez migrer vos tâches d’un tableau Kanban d’équipe Agile vers un tableau Workfront nouveau ou existant. Lorsque vous exécutez la migration, toutes les cartes du tableau Kanban sont copiées sur le tableau Workfront. Vous n’avez pas l’autorisation de choisir des cartes spécifiques.
 
-Le placement des cartes sur le panorama Workfront est basé sur des politiques de colonnes. (Par exemple, une politique pourrait déplacer toutes les cartes ayant un statut « En cours » vers une colonne spécifique. Pour plus d’informations sur les politiques de colonnes, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) S’il n’existe aucune politique ou que les cartes ne correspondent pas aux politiques, les cartes sont placées dans la colonne la plus à gauche du panorama. Pour l’instant, les cartes de la colonne Liste d’attente du panorama hérité ne sont pas ajoutées au panorama Workfront.
+Le placement des cartes sur le panorama Workfront est basé sur des politiques de colonnes. (Par exemple, une politique pourrait déplacer toutes les cartes ayant un statut « En cours » vers une colonne spécifique. Pour plus d’informations sur les politiques de colonne, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) S’il n’existe aucune stratégie ou si les cartes ne correspondent pas aux stratégies, les cartes sont placées dans la colonne la plus à gauche du panorama. Pour l’instant, les cartes de la colonne Liste d’attente du panorama hérité ne sont pas ajoutées au panorama Workfront.
 
 Les cartes ne sont pas supprimées du tableau Kanban de l’équipe Agile et les modifications du statut des cartes sont synchronisées avec les deux tableaux. Vous pouvez conserver les deux tableaux actifs jusqu’à ce que vous soyez en mesure de passer aux panoramas Workfront.
 
@@ -45,7 +45,7 @@ Les cartes ne sont pas supprimées du tableau Kanban de l’équipe Agile et les
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Vous pouvez ajouter des balises aux cartes pour indiquer visuellement qu’elles
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,7 +53,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step1-to-boards}}
 
-1. Accédez à un panorama. Pour plus d’informations, consultez [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
+1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) à côté du nom du panorama, puis sélectionnez **[!UICONTROL Gestionnaire de balises]**.
 
    ![Sélection du Gestionnaire de balises](assets/boards-tagmanager-350x189.png)
@@ -131,7 +131,7 @@ Les balises de flux de travail sont disponibles pour tous les panoramas d’un f
 1. Accédez à un panorama.
 1. Cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Menu Plus]](assets/more-icon-spectrum.png) à côté du nom du panorama, puis sélectionnez **[!UICONTROL Gestionnaire de balises]**.
 
-   ![Sélection du Gestionnaire de balises.](assets/boards-tagmanager-350x189.png)
+   ![Sélection du Gestionnaire de balises](assets/boards-tagmanager-350x189.png)
 
 1. Choisissez la balise que vous souhaitez supprimer, puis cliquez sur l’icône **[!UICONTROL Supprimer]** ![Supprimer la balise](assets/copy-of-boards-delete-30x27.png).
-1. Cliquez sur **[!UICONTROL Terminé]**.
+1. Cliquez sur **[!UICONTROL Terminé]**.

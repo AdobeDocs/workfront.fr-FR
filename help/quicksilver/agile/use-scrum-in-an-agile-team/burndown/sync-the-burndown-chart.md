@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 95%
+source-wordcount: '178'
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ Le graphique d’avancement est automatiquement synchronisé avec les données d
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -49,7 +49,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step1-to-team}}
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
 1. Positionnez-vous sur l’itération où vous souhaitez synchroniser manuellement le graphique d’avancement.
 1. Cliquez sur l’icône de synchronisation ![Icône de synchronisation](assets/agile-syncicon.png) en regard du nom de l’itération.

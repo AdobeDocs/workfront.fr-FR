@@ -8,7 +8,7 @@ feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 89%
@@ -56,18 +56,18 @@ Pour synchroniser les cartes connectées avec Workfront, cliquez sur le menu **[
    </td> 
   </tr> 
   <tr>
-   <td role="rowheader">Configurations du niveau d’accès</td>
+   <td role="rowheader">Configurations des niveaux d’accès</td>
    <td><p>Affichage ou accès supérieur aux tâches et aux problèmes</p></td>
   </tr>
   <tr>
    <td role="rowheader">Autorisations d’objet</td>
    <td><p>Autorisations d’affichage ou supérieures à une tâche ou à un problème Workfront</p>
-</td>
+   </td>
   </tr>
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 {{step1-to-boards}}
 
-1. Accédez à un panorama. Pour plus d’informations, consultez la section [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
+1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Ajouter une carte] > [!UICONTROL Carte connectée]**.
 1. Choisissez un projet, puis sélectionnez une tâche ou un problème à ajouter sous forme de carte sur le panorama.
 
@@ -120,7 +120,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
       <td><p>Sélectionnez le statut de la carte. Les valeurs par défaut sont [!UICONTROL New], [!UICONTROL In Progress] et [!UICONTROL Complete], mais les statuts personnalisés définis pour l’élément dans [!DNL Workfront] sont également disponibles.</p>
-      <p>Si des politiques de colonne sont activées pour la mise à jour des valeurs de champ, la modification du statut de la carte déplace automatiquement la carte vers la colonne correspondante. Pour plus d’informations, voir « Définition des paramètres et des politiques de colonne » dans l’article <a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Gérer les colonnes du panorama</a>.</p>
+      <p>Si des politiques de colonne sont activées pour la mise à jour des valeurs de champ, la modification du statut de la carte déplace automatiquement la carte vers la colonne correspondante. Pour plus d’informations, voir « Définir des paramètres et des stratégies de colonne » dans l’article <a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Gérer des colonnes de panorama</a>.</p>
       <p>Si vous cliquez sur <strong>[!UICONTROL Mark Complete]</strong> dans la partie supérieure de la carte, le statut devient automatiquement Terminé.</p></td>
      </tr>
      <tr>
