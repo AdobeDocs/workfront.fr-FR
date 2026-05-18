@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1337'
 ht-degree: 69%
 
 ---
@@ -54,7 +54,7 @@ Les tâches ou les problèmes peuvent être affectés à l’équipe (et ensuite
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -151,7 +151,7 @@ Pour créer une histoire à partir de la liste d’attente :
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimate]</strong></td>
-      <td>Indiquez une estimation horaire ou par points pour l’histoire. Les estimations ont une incidence sur le graphique d’avancement. Le graphique d’avancement d’une itération n’est précis que si chaque histoire contient une estimation exacte.(Si vous fournissez une estimation par points, vous devez déjà avoir indiqué dans les paramètres de l’équipe le nombre d’heures que chaque point représente).</td>
+      <td>Indiquez une estimation horaire ou par points pour l’histoire. Les estimations ont une incidence sur le graphique d’avancement. Le graphique d’avancement d’une itération n’est précis que si chaque histoire contient une estimation exacte. (Si vous fournissez une estimation par points, vous devez déjà avoir indiqué dans les paramètres de l’équipe le nombre d’heures que chaque point représente).</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Project]</strong></td>

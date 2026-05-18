@@ -8,7 +8,7 @@ feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 57%
@@ -52,7 +52,7 @@ Tout utilisateur de l’organisation peut voir l’équipe Agile et afficher tou
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +89,7 @@ Les fonctionnalités suivantes prennent en charge cette méthodologie :
 * Inclure les événements dans la liste d&#39;attente d&#39;une équipe Agile
 * Les sous-tâches peuvent être affichées sur le storyboard [!UICONTROL Scrum]
 * Afficher un graphique d’avancement pour voir la progression par rapport aux histoires pendant l’itération
-Pour plus d&#39;informations, voir [Présentation des graphiques d&#39;avancement Agile](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+Pour plus d’informations, consultez [Vue d’ensemble du graphique d’avancement agile](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
 ## Créer une équipe Agile
 
@@ -154,7 +154,7 @@ Vous pouvez convertir une équipe existante en équipe Agile :
 1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
 1. Sélectionnez l&#39;équipe que vous souhaitez convertir en équipe Agile.
-1. Cliquez sur le bouton **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
+1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
    Seuls les membres de l&#39;équipe disposant d&#39;une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] voient cette option.
    ![Sélectionnez Modifier](assets/edit-team-settings.png)

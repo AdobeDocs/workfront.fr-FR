@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: '1554'
 ht-degree: 64%
 
 ---
@@ -64,7 +64,7 @@ Pour plus d’informations sur la configuration d’une équipe Scrum, consulte
 </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -157,7 +157,7 @@ Pour configurer les cartes d’histoire affectées à l’équipe Agile afin d�
 
 Lorsque vous définissez la limite du travail en cours d’une équipe Kanban, vous pouvez contrôler le nombre d’éléments sur lesquels l’équipe travaille actuellement en limitant le nombre de tâches pouvant apparaître dans la colonne [!UICONTROL Nouveau] ou [!UICONTROL En cours] sur le tableau [!UICONTROL Kanban].
 
-Après avoir configuré la limite WIP pour une équipe Kanban, vous pouvez afficher la limite WIP et la mettre à jour à partir du storyboard [!UICONTROL Kanban] Agile, comme décrit dans la section [&#x200B; Gérer la limite WIP (Work in Progress) sur le panorama [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+Après avoir configuré la limite WIP pour une équipe Kanban, vous pouvez afficher la limite WIP et la mettre à jour à partir du storyboard [!UICONTROL Kanban] Agile, comme décrit dans la section [ Gérer la limite WIP (Work in Progress) sur le panorama [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 Pour limiter le travail en cours pour votre équipe Kanban, procédez comme suit :
 

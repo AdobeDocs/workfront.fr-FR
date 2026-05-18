@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 82%
+source-wordcount: '503'
+ht-degree: 66%
 
 ---
 
@@ -41,7 +41,7 @@ Cet article décrit comment créer une nouvelle histoire agile lorsque vous ête
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +74,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Ready]</strong></td>
-      <td>Sélectionnez cette option si l’histoire est prête à être ajoutée à une itération. Lorsque cette option est sélectionnée, elle indique aux utilisateurs et utilisatrices quelles histoires de la liste d’attente sont prêtes à être ajoutées à une itération.<br>Une histoire peut être ajoutée à une itération, qu’elle soit marquée comme <strong>[!UICONTROL Ready] ou non.</strong></td>
+      <td>Sélectionnez cette option si l’histoire est prête à être ajoutée à une itération. Lorsque cette option est sélectionnée, elle indique aux utilisateurs quelles histoires de la liste d’attente sont prêtes à être ajoutées à une itération.<br>Une histoire peut être ajoutée à une itération, qu’elle soit marquée <strong>[!UICONTROL Ready] ou non.</strong></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimate] (points)</strong></td>
@@ -86,7 +86,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Task]</strong></td>
-      <td>Après avoir choisi un projet parent, vous avez la possibilité de choisir une tâche parent. Lorsque vous sélectionnez une tâche parent, l’histoire est créée en tant que sous-tâche de la tâche parent sur le projet que vous avez sélectionné.<br>Commencez à saisir le nom de la tâche parent pour l’histoire, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.</td>
+      <td>Après avoir choisi un projet parent, vous avez la possibilité de choisir une tâche parent. Lorsque vous sélectionnez une tâche parent, l'histoire est créée en tant que sous-tâche de la tâche parent sur le projet que vous avez sélectionné.<br>Commencez à saisir le nom de la tâche parent pour l'histoire, puis cliquez dessus lorsqu'elle apparaît dans la liste déroulante.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>

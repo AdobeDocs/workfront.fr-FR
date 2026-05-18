@@ -8,10 +8,10 @@ feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 83%
+source-wordcount: '378'
+ht-degree: 78%
 
 ---
 
@@ -40,7 +40,7 @@ Lors de l’affichage d’une tuile d’histoire sur le tableau [!UICONTROL Kanb
   </tr> 
   <tr> 
    <td> <p>Nom du projet avec un lien direct vers le projet</p> </td> 
-   <td>✓</td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Lors de l’affichage d’une tuile d’histoire sur le tableau [!UICONTROL Kanb
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Percent Complete] pour chaque histoire et problème.<br>[!UICONTROL The Percent Complete] de l’itération est calculé sur la base du [!UICONTROL Percent Complete] de chaque histoire.<br></p> <p>Lors de la mise à jour du [!UICONTROL Percent Complete] pour une histoire ou un problème, vous pouvez choisir un nombre compris entre 0 et 100.</p> </td> 
+   <td> <p>Le [!UICONTROL Percent Complete] pour chaque histoire et problème.<br>[!UICONTROL Le Percent Complete] pour l'itération est calculé en fonction du [!UICONTROL Percent Complete] pour chaque histoire.<br></p> <p>Lors de la mise à jour du [!UICONTROL Percent Complete] pour une histoire ou un problème, vous pouvez choisir un nombre compris entre 0 et 100.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -93,7 +93,7 @@ Lors de l’affichage d’une tuile d’histoire sur le tableau [!UICONTROL Kanb
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,7 +108,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    ![Carte d’histoire](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
-1. (Facultatif) Pour modifier un champ, cliquez sur le champ, puis apportez les modifications nécessaires.
+1. (Facultatif) Pour modifier un champ, cliquez dessus, puis effectuez les modifications nécessaires.
 Vous devez disposer des droits [!UICONTROL Modifier] sur la tâche ou l’événement pour modifier la mosaïque de l’histoire.
 Pour plus d’informations sur chaque champ et savoir s’il peut être modifié, voir la section [Comprendre les informations qui peuvent être visualisées et modifiées](#understand-what-information-can-be-viewed-and-edited).
 

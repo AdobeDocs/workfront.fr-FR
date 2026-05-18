@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 77%
+source-wordcount: '446'
+ht-degree: 76%
 
 ---
 
@@ -40,7 +40,7 @@ Lors de l’affichage d’une mosaïque d’histoire sur le storyboard, les info
   </tr> 
   <tr> 
    <td> <p>Nom du projet avec un lien direct vers le projet<br>Ce lien s’affiche uniquement sur les articles (tâches parents, et non les sous-tâches) lors de l’utilisation de la vue Agile sur une itération ; il ne s’affiche pas lors de l’utilisation d’une vue Agile sur un projet.</p> </td> 
-   <td>✓</td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -96,7 +96,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -106,7 +106,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour sélectionner une itération spécifique, ou choisissez **[!UICONTROL Itération actuelle]**.
+1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour sélectionner une itération spécifique, ou sélectionnez **[!UICONTROL Itération actuelle]**.
 
 1. Accédez au storyboard [!UICONTROL Scrum] Agile.
 1. Développez la tuile de l’[!UICONTROL histoire] pour afficher tous les champs associés à l’histoire.
@@ -119,4 +119,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 >[!NOTE]
 >
->Pour modifier le [!UICONTROL pourcentage d’achèvement], vous devez saisir un nombre compris entre 0 et 100. Le champ n’est pas un curseur que vous pouvez déplacer.
+>Pour modifier le [!UICONTROL Pourcentage d’achèvement], vous devez saisir un nombre compris entre 0 et 100. Le champ n’est pas un curseur que vous pouvez déplacer.

@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 95%
+source-wordcount: '873'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez ajouter rapidement une carte à un panorama et l’affecter à une p
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -112,7 +112,7 @@ Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Ad
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Cliquez sur dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de mise en forme pour mettre le texte en forme. (Les images ne sont pas disponibles dans les commentaires des cartes ad hoc.) Pour baliser une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaires. La personne n’a pas à être membre du panorama.</p><p><strong>NOTE :</strong> actuellement, les personnes identifiées dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par e-mail.
+      <td><p>Cliquez sur dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de mise en forme pour mettre le texte en forme. (Les images ne sont pas disponibles dans les commentaires des cartes ad hoc.) Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. La personne n’a pas à être membre du panorama.</p><p><strong>NOTE :</strong> actuellement, les personnes identifiées dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par e-mail.
       </p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
       <p>Pour plus d’informations sur les commentaires, consultez la section <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mettre à jour le travail</a>.</p></td>
      </tr>
