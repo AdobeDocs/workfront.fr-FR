@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+source-git-commit: 9527a0597f90e20cd611d9f64056b8f7e1116be1
 workflow-type: tm+mt
-source-wordcount: '1594'
-ht-degree: 84%
+source-wordcount: '1482'
+ht-degree: 78%
 
 ---
 
@@ -76,62 +76,69 @@ Pour plus d’informations, consultez la section [Afficher le cluster et la form
 * [Adresses IP à ajouter pour utiliser Workfront pour Jira](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [URL à ajouter pour tous les cluster Workfront](#urls-to-add-for-all-clusters-workfront)
 
-### Adresses IP à autoriser pour les clusters 1, 2, 3, 5, 7, 8 et 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
+### Pour recevoir les e-mails de l’application Workfront
 
-Si votre environnement de production se trouve sur le cluster 1, 2, 3, 5, 7, 8 ou 9, vous devez autoriser les adresses IP suivantes.
+Si votre pare-feu ou votre serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter les adresses IP suivantes à votre liste autorisée pour recevoir des e-mails de l’application Workfront.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Pour l’authentification unique (SSO), les webhooks de documents ou d’autres fonctionnalités</td> 
-   <td> 
-    <ul> 
-     <li>35.160.0.242</li> 
-     <li>34.213.36.118</li> 
-     <li>3.209.27.146</li> 
-     <li>18.205.251.4</li> 
-     <li>34.211.224.9</li> 
-     <li>54.218.48.56</li> 
-     <li>52.36.154.34</li> 
-     <li>54.244.142.219</li> 
-     <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
-     <li>54.203.255.135/32</li> 
-     <li>35.155.2.51/32</li> 
-     <li>52.34.192.77/32</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Pour recevoir un e-mail de l’application Workfront</td> 
-   <td> 
-    <ul> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-     <li>13.58.86.183</li> 
-     <li>34.209.181.84</li> 
-     <li>35.161.82.137</li> 
-     <li>52.14.70.114</li> 
-     <li>52.15.230.220</li> 
-     <li>54.71.252.65</li>
-     <li>23.251.237.107</li> 
-     <li>23.251.237.108</li> 
-     <li>23.251.237.109</li> 
-     <li>23.251.237.106</li> 
-     <li>206.55.149.212</li>
-     <li>206.55.149.214</li>
-     <li>206.55.149.215</li>
-     <li>206.55.149.213</li>
-     <li>206.55.149.211</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+#### Régions des États-Unis : clusters 1, 2, 3, 5, 6, 7, 8, 9 et 10
 
-### Adresses IP à autoriser pour la cluster 4 {#ip-addresses-to-allow-for-cluster-4}
+* 206.55.149.211
+* 206.55.149.212
+* 206.55.149.213
+* 206.55.149.214
+* 206.55.149.215
+* 23.251.237.106
+* 23.251.237.107
+* 23.251.237.108
+* 23.251.237.109
+* 54.240.119.54
+* 54.240.119.55
+* 54.240.60.174
+* 54.240.60.175
+* 54.240.61.222
+* 54.240.61.223
 
-Si votre environnement de production se trouve sur le cluster 4, ajoutez les adresses IP suivantes pour l’authentification unique, les intégrations de webhook de document et pour recevoir les e-mails de l’application Workfront :
+#### Régions de l&#39;UE : clusters 4, 11, 12 et 13
+
+* 23.251.239.98
+* 23.251.239.99
+* 24.110.76.223
+* 24.110.76.224
+* 69.169.230.231
+* 69.169.230.232
+
+
+### SSO, intégrations de webhook de documents et d’autres fonctionnalités
+
+#### Régions des États-Unis : clusters 1, 2, 3, 5, 6, 7, 8, 9 et 10
+
+**Clusters 1, 2, 3, 5, 6, 7, 8, 9**
+
+
+* 35.160.0.242
+* 34.213.36.118
+* 3.209.27.146
+* 18.205.251.4
+* 34.211.224.9
+* 54.218.48.56
+* 52.36.154.34
+* 54.244.142.219
+* 52.39.217.230
+* 44.241.82.96
+* 54.203.255.135/32
+* 35.155.2.51/32
+* 52.34.192.77/32
+
+**Cluster 10**
+
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
+#### Régions de l&#39;UE : clusters 4 et 11
+
+
+**Custer 4**
 
 * 52.31.132.175
 * 52.19.188.226
@@ -139,8 +146,6 @@ Si votre environnement de production se trouve sur le cluster 4, ajoutez les ad
 * 52.29.41.175
 * 52.29.197.69
 * 52.48.124.108
-* 69.169.230.231
-* 69.169. 230,232
 * 3.121.91.129
 * 3.122.11.35
 * 34.246.27.40
@@ -154,76 +159,7 @@ Si votre environnement de production se trouve sur le cluster 4, ajoutez les ad
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-* 23.251.239.98
-* 23.251.239.99
-* 24.110.76.224
-* 24.110.76.223
 
-### Adresses IP à autoriser pour le cluster 6 {#ip-addresses-to-allow-for-cluster-6}
-
-Si votre environnement de production se trouve sur le cluster 6, ajoutez les adresses IP suivantes.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Pour recevoir les e-mails de l’application Workfront</td> 
-   <td> 
-    <ul> 
-     <li>34.94.227.64</li> 
-     <li>34.94.227.65</li> 
-     <li>34.94.227.66</li> 
-     <li>34.94.227.67</li> 
-     <li>34.66.82.64</li> 
-     <li>34.66.82.65</li> 
-     <li>34.66.82.66</li> 
-     <li>34.66.82.67</li> 
-    <li>206.55.149.212</li>
-   <li>206.55.149.214</li>
-   <li>206.55.149.215</li>
-   <li>206.55.149.213</li>
-   <li>206.55.149.211</li>
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Pour utiliser le service de messagerie</td> 
-   <td> 
-    <ul> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-     <li>13.58.86.183</li> 
-     <li>34.209.181.84</li> 
-     <li>35.161.82.137</li> 
-     <li>52.14.70.114</li> 
-     <li>52.15.230.220</li> 
-     <li>54.71.252.65 </li> 
-    </ul> </td> 
-  </tr> 
-    <tr> 
-   <td role="rowheader">Pour utiliser le service de messagerie Mailgun</td> 
-   <td> 
-    <ul> 
-     <li>143.55.228.56 </li> 
-     <li>209.61.151.229</li> 
-     <li>69.72.43.7</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Adresses IP à autoriser pour le cluster 10
-
-* 20.36.133.48/28
-* 20.81.156.240/28
-* 172.172.84.48/28
-
-### Adresses IP à autoriser pour le cluster 11
-
-Pour recevoir un e-mail de l’application Workfront sur le cluster 11, ajoutez les adresses IP suivantes :
-
-* 24.110.76.224
-* 24.110.76.223
 
 ### Adresses IP pour autoriser un lecteur de test
 
@@ -554,32 +490,8 @@ Vous devez ajouter les adresses IP suivantes à votre liste autorisée pour pouv
 
 ### Pour les e-mails sortants {#for-outgoing-email}
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>Prod-É.-U. (clusters 1, 2, 3, 5 et 7)</p> </td> 
-   <td> 
-    <ul> 
-     <li> 23.251.237.106</li> 
-     <li>23.251.237.107</li> 
-     <li>23.251.237.108</li> 
-     <li>54.240.60.174</li> 
-     <li>54.240.60.175</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Prod-EU (cluster 4)</td> 
-   <td> 
-    <ul> 
-     <li>23.251.239.98</li> 
-     <li>69.169.230.231</li> 
-     <li>69.169.230.232</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+Voir la section [Pour recevoir un e-mail de l’application Workfront](#to-receive-email-from-the-workfront-application) ci-dessus.
+
 
 ## Ports à ouvrir pour de meilleures performances de Workfront Proof
 
