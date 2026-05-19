@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Dictionnaire de données de Workfront Data Connect
+title: Dictionnaire de données Workfront Data Connect
 description: Cette page contient des informations sur la structure et le contenu des données dans Workfront Data Connect.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
 source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8904'
-ht-degree: 9%
+source-wordcount: '8722'
+ht-degree: 10%
 
 ---
 
-# Dictionnaire de données de Workfront Data Connect
+# Dictionnaire de données Workfront Data Connect
 
 Cette page contient des informations sur la structure et le contenu des données dans Workfront Data Connect.
 
@@ -109,7 +109,7 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
 
 >[!NOTE]
 >
->De nouveaux champs peuvent être ajoutés aux vues d’objet sans préavis pour prendre en charge l’évolution des besoins en données de l’application Workfront. Nous vous déconseillons d’utiliser des requêtes « SELECT » lorsque le destinataire des données en aval n’est pas prêt à gérer des colonnes supplémentaires au fur et à mesure de leur ajout.<br>
+>De nouveaux champs peuvent être ajoutés aux vues d’objet sans préavis pour prendre en charge l’évolution des besoins en données de l’application Workfront. Nous mettons en garde contre l’utilisation de requêtes « SELECT » lorsque le destinataire de données en aval n’est pas prêt à gérer des colonnes supplémentaires au fur et à mesure de leur ajout.<br>
 >Si le changement de nom ou la suppression d’une colonne est nécessaire, nous vous avertirons à l’avance de ces modifications.
 
 ### Niveau d’accès
@@ -6079,8 +6079,8 @@ Disponibilité limitée des clients
       <tbody>
         <tr>
             <td>Plan de recrutement</td>
-            <td>Plan de recrutement</td>
-            <td>PERSONNEL</td>
+            <td>Plan des effectifs</td>
+            <td>STAFFP</td>
             <td>Plan de recrutement</td>
             <td>STAFFING_PLAN_CURRENT<br>STAFFING_PLAN_DAILY_HISTORY<br>STAFFING_PLAN_EVENT</td>
         </tr>
@@ -6172,8 +6172,8 @@ Disponibilité limitée des clients
       <tbody>
         <tr>
             <td>Ressource du plan de recrutement</td>
-            <td>Ressource du plan de recrutement</td>
-            <td>PERSONNEL</td>
+            <td>Ressource du plan des effectifs</td>
+            <td>STAFFR</td>
             <td>Ressource du plan de recrutement</td>
             <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
         </tr>
@@ -7992,9 +7992,9 @@ Disponibilité limitée des clients
       <tbody>
         <tr>
             <td>Regrouper les interfaces utilisateur par</td>
-            <td>Regroupement </td>
+            <td>Regroupement</td>
             <td>UIGB</td>
-            <td>Regroupement </td>
+            <td>Regroupement</td>
             <td>UIGROUPBYS_CURRENT<br>UIGROUPBYS_DAILY_HISTORY<br>UIGROUPBYS_EVENT</td>
         </tr>
       </tbody>

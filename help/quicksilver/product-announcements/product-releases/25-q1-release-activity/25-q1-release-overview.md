@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2786'
-ht-degree: 39%
+source-wordcount: '2976'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 >[!IMPORTANT]
 >
->La version 23.3 incluait l’option permettant d’opter pour des versions mensuelles dans votre organisation. Par conséquent, Workfront a modifié le schéma de numérotation des versions afin de tenir compte des suivis de versions mensuels et trimestriels. Le premier chiffre désigne l’année, le second le mois de la version. Exemple : la version d’avril 2025 est 25.4.
+>La version 23.3 incluait l’option permettant de faire passer votre organisation aux versions mensuelles. Par conséquent, Workfront a modifié le schéma de numérotation des versions afin de tenir compte des suivis de versions mensuels et trimestriels. Le premier chiffre désigne l’année, le second le mois de la version. Exemple : la version d’avril 2025 est 25.4.
 >
 >Sauf indication contraire, la sortie des versions mensuelles et trimestrielles est prévue le jeudi de la deuxième semaine complète du mois.
 >
@@ -71,7 +71,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : mercredi 16 janvier 2024</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -86,7 +86,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : 5 janvier 2023</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -101,7 +101,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : 5 janvier 2023</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>  
@@ -116,7 +116,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 19 décembre 2024</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -132,7 +132,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <ul>
                 <li>Version préliminaire : vendredi 21 novembre 2024</li>
                 <li>Production pour une version rapide : avec la version 24.12 (12 décembre 2024)</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>     
@@ -148,7 +148,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <ul>
                 <li>Version préliminaire : vendredi 21 novembre 2024</li>
                 <li>Production pour une version rapide : avec la version 24.12 (12 décembre 2024)</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -164,7 +164,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <ul>
                 <li>Version préliminaire : vendredi 21 novembre 2024</li>
                 <li>Production pour une version rapide : avec la version 24.12 (12 décembre 2024)</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -180,7 +180,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <ul>
                 <li>Version préliminaire : mercredi 29 octobre 2024</li>
                 <li>Production pour une version rapide : avec la version 24.11 (14 novembre 2024)</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -213,7 +213,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : jeudi 18 décembre 2024</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -246,7 +246,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <ul>
                 <li>Version préliminaire : vendredi 21 novembre 2024</li>
                 <li>Production pour une version rapide : avec la version 24.12 (12 décembre 2024)</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -262,7 +262,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <ul>
                 <li>Version préliminaire : vendredi 7 novembre 2024</li>
                 <li>Production pour une version rapide : avec la version 24.11 (14 novembre 2024)</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
             <p><i>Cette fonctionnalité fait partie d’une mise à jour par phases et n’est disponible que pour des clients spécifiques.</i></p>
         </td>
@@ -300,7 +300,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 9 janvier 2025</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -316,7 +316,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : samedi 20 décembre 2024</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -331,7 +331,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 19 décembre 2024</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -352,7 +352,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 19 décembre 2024</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -373,7 +373,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 19 décembre 2024</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -388,7 +388,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 12 décembre 2024</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -403,7 +403,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 5 décembre 2024</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -440,7 +440,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <ul>
                 <li>Version préliminaire : jeudi 6 novembre 2024</li>
                 <li>Production pour une version rapide : avec la version 24.11 (14 novembre 2024)</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -472,7 +472,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 19 décembre 2024</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -576,7 +576,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : mardi 16 décembre 2024</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -667,7 +667,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <ul>
                 <li>Version préliminaire : mardi 11 novembre 2024</li>
                 <li>Production pour une version rapide : avec la version 24.12 (12 décembre 2024)</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -683,7 +683,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
             <ul>
                 <li>Version préliminaire : vendredi 31 octobre 2024</li>
                 <li>Production pour une version rapide : avec la version 24.11 (14 novembre 2024)</li>
-                <li>Version de production pour l’ensemble des clientes et clients : avec la version 25.1 (vendredi 16 janvier 2025)</li>
+                <li>Version de production pour tous les clients : avec la version 25.1 (16 janvier 2025)</li>
             </ul>
         </td>
     </tr>
@@ -722,7 +722,7 @@ The following functionality is soon to be removed from Workfront:
 >
 >Le jeu de documentation Fusion actuel n’est plus mis à jour et sera supprimé prochainement.
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent de celui du calendrier de la version du premier trimestre 2025. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent de celui du calendrier de la version du premier trimestre 2025. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de publication d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Améliorations apportées à Workfront Planning
 

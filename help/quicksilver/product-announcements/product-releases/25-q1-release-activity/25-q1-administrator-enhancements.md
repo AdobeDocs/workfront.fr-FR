@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
 source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '874'
 ht-degree: 13%
 
 ---
@@ -96,7 +96,7 @@ Pour plus d’informations, voir [Créer et modifier des règles métier](/help/
 >
 >Version préliminaire : 21 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
-Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie semi-automatique (par exemple, Portfolio, Société ou Propriétaire), une option de filtrage est désormais disponible. Le filtre vous permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ . Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de saisie semi-automatique personnalisé, en utilisant le mode texte pour définir le filtre.
+Lorsque vous ajoutez une référence de champ native à un formulaire personnalisé et qu’elle fait référence à un champ de saisie semi-automatique (tel que Portfolio, Société ou Propriétaire), une option de filtre est désormais disponible. Le filtre vous permet de limiter les objets que les utilisateurs peuvent choisir lorsqu’ils utilisent le champ . Ce filtre personnalisé fonctionne de la même manière qu’un filtre sur un champ de saisie semi-automatique personnalisé, en utilisant le mode texte pour définir le filtre.
 
 Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

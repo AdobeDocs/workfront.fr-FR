@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 80%
+source-wordcount: '1948'
+ht-degree: 77%
 
 ---
 
@@ -39,7 +39,7 @@ Le webinaire en direct sur la version 24.7 a été annulé, mais vous pouvez tou
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations de la gestion financière](#financial-management-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
-* [Améliorations apportées aux projets](#project-enhancements)
+* [Améliorations des projets](#project-enhancements)
 * [Améliorations apportées à la relecture](#proofing-enhancements)
 * [Amélioration apportées à la gestion des ressources.](#resource-management-enhancements)
 * [Autres améliorations](#other-enhancements)
@@ -73,7 +73,7 @@ Le webinaire en direct sur la version 24.7 a été annulé, mais vous pouvez tou
                                 <p>Version de prévisualisation : vendredi 4 juillet 2024</p>
                             </li>
                             <li>
-                                <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.7 (vendredi 18 juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                         <p><i>Disponible uniquement pour les organisations dans le cadre du nouveau plan Ultimate.</i></p>
@@ -92,7 +92,7 @@ Le webinaire en direct sur la version 24.7 a été annulé, mais vous pouvez tou
                                 <p>Version préliminaire : jeudi 19 juin 2024</p>
                             </li>
                             <li>
-                                <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.7 (vendredi 18 juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -140,7 +140,7 @@ Le webinaire en direct sur la version 24.7 a été annulé, mais vous pouvez tou
                                 <p>Version d’aperçu : vendredi 6 juin 2024</p>
                             </li>
                             <li>
-                                <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.7 (vendredi 18 juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -278,7 +278,7 @@ Le webinaire en direct sur la version 24.7 a été annulé, mais vous pouvez tou
                                 <p>Production pour une version rapide : avec la version 24.6 (13 juin 2024)</p>
                             </li>
                             <li>
-                                <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.7 (vendredi 18 juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -350,7 +350,7 @@ Le webinaire en direct sur la version 24.7 a été annulé, mais vous pouvez tou
                                 <p>Version de prévisualisation : vendredi 4 juillet 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production pour toute la clientèle : vendredi 4 juillet 2024</span></p>
+                                <p><span class="preview">Production pour tous les clients : 4 juillet 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -386,7 +386,7 @@ Le webinaire en direct sur la version 24.7 a été annulé, mais vous pouvez tou
                                 <p>Version d’aperçu : vendredi 6 juin 2024</p>
                             </li>
                             <li>
-                                <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.7 (vendredi 18 juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -453,7 +453,7 @@ Le webinaire en direct sur la version 24.7 a été annulé, mais vous pouvez tou
                                 <p>Version d’aperçu : vendredi 6 juin 2024</p>
                             </li>
                             <li>
-                                <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.7 (vendredi 18 juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
