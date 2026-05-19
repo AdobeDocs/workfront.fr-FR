@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 2%
+source-wordcount: '406'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Nouvelle fenêtre d’aperçu pour les fragments de contenu en mode Tableau
+## Nouvelle fenêtre d’aperçu pour les fragments de contenu AEM
 
 >[!NOTE]
 >
@@ -38,6 +38,23 @@ Pour une meilleure visibilité lorsque vous utilisez des fragments de contenu AE
 Cette fonctionnalité était auparavant disponible pour les ressources AEM et nous l’avons maintenant ajoutée aux fragments de contenu.
 
 Pour plus d’informations, consultez [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+
+## Champs de recherche désormais disponibles pour les fragments de contenu AEM dans Workfront Planning
+
+>[!NOTE]
+>
+>Aperçu : 14 mai 2026>Version rapide de production : 14 mai 2026>Production pour tous : 14 mai 2026>[!BADGE Hors planning]{type=Neutral}
+
+Vous pouvez désormais ajouter les champs de recherche suivants lorsque vous connectez un type d’enregistrement Planning à un fragment de contenu AEM :
+
+* Créé par
+* Date de création
+* Modifié par
+* Modifié le
+
+Avant cette amélioration, les champs de recherche n’étaient disponibles que pour les ressources et dossiers AEM.
+
+Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!--
 

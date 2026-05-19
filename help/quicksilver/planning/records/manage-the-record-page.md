@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '2022'
 ht-degree: 5%
 
 ---
@@ -197,17 +197,13 @@ Pour ajouter une section à une prévisualisation d’enregistrement ou à une p
 
    Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
 
-   L’aperçu de l’enregistrement s’ouvre dans la vue.
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">L’aperçu de l’enregistrement s’ouvre dans la vue.</span>
 
    ![Zone Détails](assets/details-box.png)
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
-   La page de l’enregistrement s’ouvre. L’onglet Détails s’ouvre par défaut.
-
-   <!--update screen shot for details views preview-->
+   <span class="preview"> La page d’enregistrement s’ouvre. L’onglet Détails s’ouvre par défaut.</span>
 
    ![Page de détails](assets/details-page.png)
 
@@ -280,9 +276,7 @@ Voici ce qui se produit :
 
    Dans la vue du tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
 
-   L’aperçu de l’enregistrement s’ouvre dans la vue.
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">L’aperçu de l’enregistrement s’ouvre dans la vue.</span>
 
    ![Zone Détails](assets/details-box.png)
 
@@ -302,33 +296,34 @@ Voici ce qui se produit :
 
    >[!TIP]
    >
-   > <span class="preview">La vue **Champs de vue de table sélectionnés** n&#39;est disponible que lorsque vous affichez des enregistrements en vue de table.</span>
+   > <span class="preview">La vue **Champs de vue de table sélectionnés** n&#39;est disponible que lorsque vous affichez des enregistrements en mode Tableau dans la page d&#39;aperçu des détails de l&#39;enregistrement.
+   >Le **champs de vue de table sélectionnés** n&#39;est disponible pour aucun autre type d&#39;affichage d&#39;enregistrement ou pour la page de détails de l&#39;enregistrement qui s&#39;ouvre dans une fenêtre de navigateur. </span>
 
-<div class="preview">
+1. <span class="preview">(Conditionnel) Dans l’environnement de Prévisualisation, continuez avec ce qui suit :</span>
 
-Dans l’environnement de Prévisualisation, continuez avec les éléments suivants :
+   <div class="preview">
 
-1. Pour afficher tous les champs, développez le menu déroulant des pages vues, puis sélectionnez **Tous les champs**.
-1. (Facultatif) Cliquez surK **Nouveaux détails** pour ajouter une nouvelle page et la personnaliser, puis procédez comme suit :
+   1. Pour afficher tous les champs, développez le menu déroulant des pages vues, puis sélectionnez **Tous les champs**.
+   1. (Facultatif) Cliquez surK **Nouveaux détails** pour ajouter une nouvelle page et la personnaliser, puis procédez comme suit :
 
-   1. Dans la zone **Créer une vue**, ajoutez un nom pour la nouvelle vue de page de détails, puis cliquez sur **Créer**.
-   1. Pointez sur les champs de l’affichage et cliquez sur l’icône **Masquer le champ** ![Masquer l’icône de champ](assets/hide-field-in-details-page-icon.png) à gauche des champs pour masquer le champ.
+      1. Dans la zone **Créer une vue**, ajoutez un nom pour la nouvelle vue de page de détails, puis cliquez sur **Créer**.
+      1. Pointez sur les champs de l’affichage et cliquez sur l’icône **Masquer le champ** ![Masquer l’icône de champ](assets/hide-field-in-details-page-icon.png) à gauche des champs pour masquer le champ.
 
-      >[!TIP]
-      >
-      >* Les pages personnalisées sont visibles par toutes les personnes qui accèdent à l’enregistrement.
-      >* La dernière page vue que vous choisissez sera celle qui s&#39;ouvre par défaut lorsque vous ouvrez un autre enregistrement du même type.
+         >[!TIP]
+         >
+         >* Les pages personnalisées sont visibles par toutes les personnes qui accèdent à l’enregistrement.
+         >* La dernière page vue que vous choisissez sera celle qui s&#39;ouvre par défaut lorsque vous ouvrez un autre enregistrement du même type.
 
-   1. (Facultatif) Cliquez sur l’icône **Champs** ![Icône Champs](assets/fields-icon.png) en haut de la page de détails, puis masquez ou affichez les champs de la page Détails.
+      1. (Facultatif) Cliquez sur l’icône **Champs** ![Icône Champs](assets/fields-icon.png) en haut de la page de détails, puis masquez ou affichez les champs de la page Détails.
 
-      >[!TIP]
-      >
-      >L’icône **Champs** n’est pas disponible lorsque vous affichez la page de détails dans la vue **Tableau sélectionné** ou la vue **Tous les champs**.
+         >[!TIP]
+         >
+         >L’icône **Champs** n’est pas disponible lorsque vous affichez la page de détails dans la vue **Tableau sélectionné** ou la vue **Tous les champs**.
 
-   1. (Facultatif) Pour modifier le nom d’une page de détails personnalisée, passez le curseur sur le nom de la vue et cliquez sur l’icône **Plus** ![Icône Plus](assets/more-menu.png) , puis cliquez sur **Modifier**.
-   1. (Facultatif) Pour supprimer une page de détails personnalisée, passez la souris sur son nom et cliquez sur l’icône **Plus** ![Icône Plus](assets/more-menu.png), puis cliquez sur **Supprimer** et **Supprimer** pour confirmer. Les pages vues détaillées supprimées ne peuvent pas être récupérées.
+      1. (Facultatif) Pour modifier le nom d’une page de détails personnalisée, passez le curseur sur le nom de la vue et cliquez sur l’icône **Plus** ![Icône Plus](assets/more-menu.png) , puis cliquez sur **Modifier**.
+      1. (Facultatif) Pour supprimer une page de détails personnalisée, passez la souris sur son nom et cliquez sur l’icône **Plus** ![Icône Plus](assets/more-menu.png), puis cliquez sur **Supprimer** et **Supprimer** pour confirmer. Les pages vues détaillées supprimées ne peuvent pas être récupérées.
 
-</div>
+   </div>
 
 1. (Facultatif) Si vous souhaitez accéder à un enregistrement connecté, cliquez sur le nom de cet enregistrement dans le chemin de navigation en haut de la page des détails.
 
@@ -340,9 +335,7 @@ Dans l’environnement de Prévisualisation, continuez avec les éléments suiva
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir la zone des détails dans une icône d’un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
-   La page d’enregistrement **Détails** s’ouvre dans un nouvel onglet.
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">La page Enregistrement **Détails** s’ouvre dans un nouvel onglet.</span>
 
    ![Page de détails](assets/details-page.png)
 

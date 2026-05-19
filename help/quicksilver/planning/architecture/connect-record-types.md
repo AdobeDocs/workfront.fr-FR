@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '2977'
-ht-degree: 26%
+source-wordcount: '3035'
+ht-degree: 25%
 
 ---
 
@@ -337,11 +337,15 @@ Old:
 
 1. Sélectionnez l’option **Sélectionner les champs de recherche** pour ajouter des champs à partir du type d’enregistrement auquel vous vous connectez. Les champs de recherche sont des champs associés au type d’enregistrement ou d’objet vers lequel vous établissez un lien. Les lier affiche les informations de l&#39;enregistrement ou de l&#39;objet à partir duquel vous établissez la liaison. Cette option est sélectionnée par défaut.
 
-   >[!TIP]
+   >[!NOTE]
    >
    >* Outre les champs système tels que le nom et la description, vous pouvez ajouter les types de champs suivants en tant que champs de recherche à partir des types d’objet d’une autre application :
    >   * Champs utilisateur, tels que Propriétaire du projet ou Sponsor, des projets Workfront.
    >   * Champs de référence, tels que Groupe de projets ou Entreprise du projet des projets Workfront.
+   >* Seuls les champs suivants sont pris en charge pour les fragments de contenu AEM : <!--this information is also in "Connect record types overview"-->
+   >   * Créé par et Créé à
+   >   * Modifié par et modifié à
+   >
    >* Les informations du champ de date des objets Workfront s’affichent au format 24 heures dans Workfront Planning, quelle que soit la manière dont elles s’affichent dans Workfront.
    >
    >   Par exemple, si la date de début prévue d’un projet s’affiche à 15 :00 dans Workfront, elle s’affiche à 15 :00 dans Workfront Planning dans un champ de recherche importé.
