@@ -7,8 +7,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
 source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 61%
+source-wordcount: '707'
+ht-degree: 59%
 
 ---
 
@@ -18,41 +18,41 @@ Cette page décrit les améliorations apportées à l’administration par la ve
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du troisième trimestre 2024, consultez la [Vue d’ensemble de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
-## Les règles de fonctionnement sont désormais disponibles.
+## Les règles métier sont désormais disponibles
 
 >[!NOTE]
 >
->Version d’aperçu : 4 juillet 2024 ; version de production pour tous les clients : avec la version 24.7 (18 juillet 2024).
+>Version préliminaire : 4 juillet 2024 ; Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024).
 
-Les administrateurs peuvent désormais ajouter des règles de fonctionnement dans la zone Configuration de Workfront.
+Les administrateurs peuvent désormais ajouter des règles métier dans la zone Configuration de Workfront.
 
-Une règle de fonctionnement vous permet d’appliquer la validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles sont créées à l’aide d’une formule similaire aux champs calculés dans les formulaires personnalisés.
+Une règle métier vous permet d’appliquer une validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles sont créées à l’aide d’une formule similaire aux champs calculés dans les formulaires personnalisés.
 
-Pour plus d’informations, voir [Création et modification de règles de fonctionnement](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+Pour plus d’informations, voir [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 >[!IMPORTANT]
 >
->Les règles de fonctionnement ne sont disponibles que pour les organisations qui ont souscrit au nouveau plan Ultimate.
+>Les règles métier ne sont disponibles que pour les organisations figurant dans le nouveau plan Ultimate.
 
 ## Concepteur de formulaire personnalisé généralement disponible dans Adobe Workfront
 
 >[!NOTE]
 >
->Version d’aperçu : 19 juin 2024 ; Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024).
+>Version préliminaire : 19 juin 2024 ; Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024).
 
-Le concepteur de formulaire personnalisé a été publié en version bêta en avril 2023 (version 23.2). Depuis, d’autres fonctionnalités ont été ajoutées, telles que les champs de recherche externe et les champs natifs Workfront. En 2024, le concepteur de formulaire a atteint la parité fonctionnelle avec l’ancien créateur de formulaires.
+Le concepteur de formulaire personnalisé a été mis en version bêta en avril 2023 (version 23.2) et d’autres fonctionnalités y ont été ajoutées depuis, telles que les champs de recherche externe et les champs natifs de Workfront. En 2024, le concepteur de formulaires a atteint la parité fonctionnelle avec l’ancien créateur de formulaires.
 
-Avec la version 24.7, le concepteur de formulaires sera disponible en général et deviendra l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront. Lorsque vous créez un formulaire personnalisé ou ouvrez un formulaire existant, l’espace de travail du concepteur de formulaire dans le style de zone de travail s’affiche.
+Avec la version 24.7, le créateur de formulaire sera disponible pour tous et deviendra l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront. Lorsque vous créez un formulaire personnalisé ou ouvrez un formulaire existant, l’espace de travail de style zone de travail du concepteur du formulaire s’affiche.
 
-Après cette version, vous n’aurez plus la possibilité de revenir à l’ancien créateur de formulaires.
+Après cette version, vous n’aurez plus la possibilité de revenir au créateur de formulaires hérité.
 
-Pour plus d’informations sur le concepteur de formulaire et une démonstration vidéo, consultez la [note de mise à jour bêta du concepteur de formulaire](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
+Pour plus d’informations sur le créateur de formulaire et une démonstration vidéo, consultez la note de mise à jour bêta du [créateur de formulaire](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Déplacer des objets entre les environnements Workfront avec la promotion environnementale
 
 >[!NOTE]
 >
->La promotion environnementale sera disponible dans les environnements de sandbox, de prévisualisation et de production avec la version 24.6 (13 juin 2024).
+>La promotion environnementale sera disponible dans les environnements de sandbox, de prévisualisation et de production avec la version 24.6 (13 juin 2024).
 
 La promotion d’environnement vous permet de déplacer des objets d’un environnement Workfront vers un autre, par exemple d’un environnement de sandbox vers un environnement de production. Vous pouvez configurer et tester des objets sans aucun risque pour les données et pour les enregistrements de votre organisation. Vous pouvez ensuite déplacer ces objets en production sans avoir à les reconfigurer, ce qui vous permet de gagner du temps et d’économiser des efforts.
 
@@ -60,7 +60,7 @@ Auparavant, les objets devaient être configurés dans les environnements de pro
 
 Pour plus d’informations sur la promotion environnementale, voir [Vue d’ensemble du déplacement d’objets entre les environnements Workfront (promotion environnementale)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
-[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
@@ -81,7 +81,7 @@ Pour plus d’informations, voir [Partager un formulaire personnalisé](/help/qu
 
 >[!NOTE]
 >
->Version d’aperçu : 6 juin 2024 ; version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)
+>Version préliminaire : 6 juin 2024 ; Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)
 
 Vous pouvez désormais ajouter un nouveau champ personnalisé ou un widget directement à partir de la zone Champs dans Workfront, sans avoir à ouvrir de formulaire personnalisé pour créer le champ. Cela vous permet de créer rapidement des champs personnalisés réutilisables.
 
@@ -101,4 +101,4 @@ Vous pouvez toujours créer un champ déroulant à sélection unique et modifier
 
 Cette option n’est pas disponible dans le créateur de formulaires hérité.
 
-Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

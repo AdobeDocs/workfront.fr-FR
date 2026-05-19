@@ -10,8 +10,8 @@ role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 89%
+source-wordcount: '1488'
+ht-degree: 90%
 
 ---
 
@@ -279,7 +279,7 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 
 >[!NOTE]
 >
->Comme toutes les organisations ont intégré Adobe Admin Console, cette fonctionnalité n&#39;est plus disponible.Pour plus d&#39;informations, contactez votre administrateur réseau ou informatique.
+>Comme toutes les organisations ont été intégrées à Adobe Admin Console, cette fonctionnalité n’est plus disponible.Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
 
 ### Priorité {#priority}
 
@@ -372,7 +372,7 @@ Le système génère une entrée de journal d’audit utilisateur lorsqu’une p
 
   >[!NOTE]
   >
-  >Comme toutes les organisations ont intégré Adobe Admin Console, cette fonctionnalité n&#39;est plus disponible.Pour plus d&#39;informations, contactez votre administrateur réseau ou informatique.
+  >Comme toutes les organisations ont été intégrées à Adobe Admin Console, cette fonctionnalité n’est plus disponible.Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
 
 * Supprime une personne
 * Modifie le niveau d’accès, l’entreprise, l’équipe ou le groupe d’une personne.

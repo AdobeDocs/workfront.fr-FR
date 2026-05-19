@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1808'
 ht-degree: 4%
 
 ---
@@ -47,7 +47,7 @@ Les règles métier s’appliquent à la création, à la modification et à la 
   <tr>
    <td>Package Adobe Workfront
    </td>
-   <td> <p>Validation des règles métier :<ul><li><p>Ultimate</p></li><li>
+   <td> <p>Validation des règles métier :<ul><li><p>Final</p></li><li>
     <p>Workflow Ultimate</p></li></ul></p><p>Automatisation des règles métier :<ul><li>
     <p>Workflow Ultimate</p></li><ul></p>
    </td>
@@ -76,9 +76,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Le format de validation d’une règle métier est le suivant : « SI la condition définie est remplie, l’utilisateur ne peut pas agir sur l’objet et le message s’affiche. »
 
-La syntaxe des propriétés et autres fonctions d&#39;une règle métier est identique à celle d&#39;un champ calculé dans un formulaire personnalisé. Pour plus d’informations sur la syntaxe, voir [&#x200B; Ajouter des champs calculés avec le concepteur de formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+La syntaxe des propriétés et autres fonctions d&#39;une règle métier est identique à celle d&#39;un champ calculé dans un formulaire personnalisé. Pour plus d’informations sur la syntaxe, voir [ Ajouter des champs calculés avec le concepteur de formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Pour plus d’informations sur les instructions IF, consultez [&#x200B; présentation des instructions « IF »](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) et [Opérateurs de condition dans les champs calculés personnalisés](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Pour plus d’informations sur les instructions IF, consultez [ présentation des instructions « IF »](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) et [Opérateurs de condition dans les champs calculés personnalisés](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Pour plus d’informations sur les caractères génériques basés sur l’utilisateur, voir [Utilisation de caractères génériques basés sur l’utilisateur pour généraliser les rapports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -242,9 +242,9 @@ Vous pouvez utiliser des caractères génériques dans les actions de règle mé
 
      Vous pouvez inclure une URL statique dans le message d’erreur pour créer un lien vers la documentation ou d’autres pages utiles afin de guider l’utilisateur ou l’utilisatrice sur la manière de modifier son action dans la contrainte de la règle.
 
-     Dans cet exemple, « En savoir plus » renvoie vers l’URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` L’URL doit être entre parenthèses, mais le texte du lien entre crochets n’est pas obligatoire. Vous pouvez afficher l’URL complète sous la forme d’un lien cliquable.
+     Dans cet exemple, « En savoir plus » renvoie vers l’URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` L’URL doit être entre parenthèses, mais le texte du lien entre parenthèses n’est pas obligatoire. Vous pouvez afficher l’URL complète sous la forme d’un lien cliquable.
 
-   ![&#x200B; Boîte de dialogue Ajouter une règle métier &#x200B;](assets/add-business-rule-new.png)
+   ![ Boîte de dialogue Ajouter une règle métier ](assets/add-business-rule-new.png)
 
    Cet exemple illustre une règle métier pour les projets. Si le mois en cours est novembre, les utilisateurs ne sont pas autorisés à créer de nouveaux projets, ce que le message explique.
 
@@ -295,4 +295,4 @@ Pour activer une règle métier :
 
 1. Sélectionnez la règle métier dans la liste des règles et cliquez sur l&#39;icône Modifier .
 1. Sélectionnez **Oui** pour **Est actif** dans la boîte de dialogue des règles métier.
-1. Cliquer sur **Enregistrer**.
+1. Cliquez sur **Enregistrer**.
