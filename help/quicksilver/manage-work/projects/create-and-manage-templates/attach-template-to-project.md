@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 43%
+source-wordcount: '1179'
+ht-degree: 41%
 
 ---
 
@@ -114,6 +114,12 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 ## Joindre un modèle à un projet existant {#attach-a-template-to-an-existing-project}
 
 Vous pouvez joindre un modèle à un projet à partir de la page du projet, d’une liste de projets ou d’un rapport.
+
+>[!NOTE]
+>
+>Lorsque votre entreprise utilise à la fois l’ancien stockage de documents Workfront et Adobe dans le cloud, vous pouvez joindre un modèle à l’aide d’un type de stockage différent de celui du projet. Cela ne modifie pas l’espace de stockage des documents pour le projet.
+>
+>Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-projects}}
 

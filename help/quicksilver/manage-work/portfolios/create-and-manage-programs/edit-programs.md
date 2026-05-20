@@ -2,15 +2,15 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Modifier des programmes
-description: Vous pouvez modifier les informations des programmes que vous avez créés ou que d’autres utilisateurs ont créés s’ils les ont partagés avec vous. Cet article décrit comment rechercher, rechercher et modifier un programme, si vous disposez des autorisations pour le faire.
+description: Vous pouvez modifier les informations sur les programmes que vous avez créés ou que d’autres utilisateurs et utilisatrices ont créés et partagés avec vous. Cet article décrit comment rechercher, rechercher et modifier un programme, si vous disposez des autorisations pour le faire.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1160'
 ht-degree: 53%
 
 ---
@@ -154,8 +154,17 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>Ajoutez le nom d’un seul groupe si celui-ci est associé au programme ou s’il est responsable de son exécution. </p> <p><b>CONSEIL</b></p>  <p>Lorsque vous accédez au champ [!UICONTROL Group] à partir de la page [!UICONTROL Program Details], procédez comme suit pour vous assurer que vous sélectionnez le groupe approprié : </p> <p>Pointez sur le nom du groupe et cliquez sur l’icône [!UICONTROL information] <img src="assets/info-icon.png"> regard. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Cette option n’est pas disponible dans la zone [!UICONTROL Edit Program]. </p> </p> </td> 
-     </tr> 
-    </tbody> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td> <p>Cochez ce paramètre si vous souhaitez que ce programme soit actif et que les utilisateurs puissent le trouver pour l’associer aux projets.</p>
+   <p>Lorsque cette option n’est pas cochée, le programme ne s’affiche pas dans le champ Programme d’un projet ou d’un modèle. </p>
+   <p>Ce paramètre est activé par défaut. </p>
+   </td> 
+     </tr>
+
+   </tbody> 
    </table>
 
    <!--
