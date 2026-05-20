@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '21715'
+source-wordcount: '21830'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 <!--Audited: 04/2026-->
 
-4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -1436,6 +1436,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL On Change Only]</td> 
    <td> <p>Un des types [!UICONTROL Project Update]. Lorsque cette option est sélectionnée, les chronologies de [!UICONTROL Project Projected] et [!UICONTROL Planned] ne sont mises à jour que lorsqu’une mise à jour ou une modification est apportée au projet ou à une tâche du projet. Le projet n’est pas mis à jour tous les soirs.</p> <p>Pour plus d’informations, consultez la section <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Sélectionner le type de mise à jour du projet</a>.</p> </td> 
+  </tr>
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL sur l’ancien stockage Workfront]</td> 
+   <td>  <p>L’icône de stockage Workfront héritée <img src="assets/legacy-storage-project-icon.png"> indique qu’un objet est associé au stockage de documents Workfront. </p> 
+   <p>L’icône s’affiche près du nom d’un objet, dans l’en-tête de l’objet ou dans certaines listes. </p>
+   <p>Certains clients disposent à la fois d’un stockage de documents cloud Workfront et Adobe hérité. Les documents peuvent être stockés dans l’un de ces environnements pour les clients qui disposent des deux types de stockage.</p>
+   <p>Les objets suivants peuvent avoir un stockage de documents cloud Workfront ou Adobe :</p>
+   <ul><li>Projets</li>
+   <li>Portefeuilles</li>
+   <li>Programmes</li>
+   <li>Modèles</li>
+   <li>Tâches</li>
+   <li>Problèmes</li>
+   <li>Tâches de modèles</li></ul>
+   <p>Seuls les projets, portfolios, programmes et modèles peuvent afficher l’icône Sur l’espace de stockage Workfront hérité . </p>
+   <p>Votre instance Workfront peut ne pas avoir les deux types de stockage de documents. 
+  <p>Pour plus d’informations, voir <a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Présentation de l’espace de stockage dans le cloud </a>. </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op Task]</td> 
@@ -1447,7 +1468,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[!UICONTROL User] qui affiche et permet de définir les relations de l’[!UICONTROL Company] et du [!UICONTROL Reporting] de l’[!UICONTROL User].</td> 
+   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[UICONTROL User] qui affiche et permet de définir les relations de l’[UICONTROL Company] et du [UICONTROL Reporting] de l’[UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 

@@ -2,22 +2,22 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: Ajouter un projet à un programme
-description: Vous pouvez organiser vos projets en les ajoutant aux programmes au sein des portfolios. Vous pouvez avoir plusieurs projets au sein d’un même programme, mais vous ne pouvez associer qu’un seul programme à un projet. L’ajout d’un projet à un programme l’ajoute automatiquement au portefeuille du programme en même temps.
+description: Vous pouvez organiser vos projets en les ajoutant aux programmes au sein des portfolios. Vous pouvez intégrer plusieurs projets dans un même programme, mais vous ne pouvez associer qu’un seul programme à un projet. L’ajout d’un projet à un programme l’ajoute automatiquement au portefeuille du programme en même temps.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 58%
+source-wordcount: '676'
+ht-degree: 44%
 
 ---
 
 # Ajouter un projet à un programme
 
-<!--Audited: 08/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -114,26 +114,34 @@ old:
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Existing Project]</td> 
-      <td> <p>Ajoutez un projet déjà créé.</p> </td> 
-     </tr> 
-     <tr> 
+    <tbody>
+
+   <tr> 
       <td role="rowheader">[!UICONTROL New Project]</td> 
-      <td> <p>Ajoutez un nouveau projet à partir de zéro. </p> <p>Pour plus d’informations sur la création d’un projet à partir de zéro, consultez la section <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Créer un projet</a>.</p> </td> 
+      <td> <p>Ajoutez un nouveau projet à partir de zéro. </p> <p>Pour plus d’informations sur la création d’un projet à partir de zéro, consultez la section <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Créer un projet</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
+      <td role="rowheader">[!UICONTROL Nouveau projet (stockage hérité)]</td> 
+      <td> <p>Ajoutez un nouveau projet de stockage Workfront. </p>
+      <p>Cette option s’affiche uniquement lorsque votre entreprise utilise à la fois l’espace de stockage de documents cloud Workfront et Adobe. Votre instance Workfront peut ne pas avoir les deux types de stockage.</p>
+      <p>Pour en savoir plus sur la création d’un projet, voir <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Créer un projet</a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">[!UICONTROL Nouveau projet à partir d'un modèle]</td> 
+      <td> <p>Ajouter un nouveau projet en utilisant un modèle existant. </p> <p>Pour plus d’informations sur la création d’un projet à partir d’un modèle, consultez la section <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Créer un projet à l’aide d’un modèle</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Import [!DNL MS Project]] </td> 
       <td> <p>Ajoutez un projet que vous avez précédemment exporté depuis [!DNL MS Project] et que vous avez enregistré sur votre ordinateur. </p> <p>Pour plus d’informations sur la création d’un nouveau projet en l’important à partir de [!DNL Microsoft Project], consultez la section <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importer un projet à partir de [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Project]</td> 
       <td> <p>Demandez que le nouveau projet soit approuvé avant de pouvoir commencer à travailler dessus.</p> <p>Pour plus d’informations sur la requête de projets, consultez la section <a href="../../../manage-work/projects/create-projects/request-project.md">Demander un projet</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
-      <td> <p>Ajouter un nouveau projet en utilisant un modèle existant. </p> <p>Pour plus d’informations sur la création d’un projet à partir d’un modèle, consultez la section <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Créer un projet à l’aide d’un modèle</a>.</p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL Existing Project]</td> 
+      <td> <p>Ajoutez un projet déjà créé.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -147,8 +155,22 @@ old:
    1. Dans la zone **[!UICONTROL Ajouter des projets]**, saisissez le nom d’un projet dans le champ **Ajouter des projets à ce programme** puis sélectionnez-le lorsqu’il s’affiche dans la liste. <!--check casing on links and buttons-->
 
       Vous pouvez ajouter plusieurs projets.
+
+      >[!NOTE]
+      >
+      >Lorsque votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité pour les documents, les scénarios suivants existent :
+      >
+      >
+      >* Lorsque vous ajoutez un projet de stockage dans le cloud Adobe à un programme de stockage Workfront hérité et qu’aucun document n’est associé au programme, le programme et son portfolio sont convertis en objet de stockage dans le cloud Adobe.
+      >* Lorsque vous ajoutez un projet de stockage dans le cloud Adobe à un programme de stockage Workfront hérité et que des documents sont associés au programme ou au portfolio, le stockage du programme ou du portfolio des documents reste sur le stockage Workfront. Cependant, l’icône d’enregistrement Workfront héritée ![icône d’enregistrement Workfront héritée](assets/legacy-storage-project-icon.png) est supprimée du programme ou du portfolio (selon les documents joints avant le déplacement du projet).
+      >* Vous ne pouvez pas ajouter un projet de stockage Workfront hérité à un programme de stockage dans le cloud Adobe.
+      >
+      >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+      >
+      >Toutes les instances Workfront ne possèdent pas les deux types de stockage de documents.
+
    1. (Facultatif) Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) en regard du nom d’un projet si vous décidez de ne pas l’ajouter au programme.
 
    1. Cliquez sur **[!UICONTROL Ajouter des projets]**. <!--check at unshimming-->
 
-      Le projet apparaît dans l’onglet **[!UICONTROL Projets]** du programme et est désormais associé au programme et au portfolio correspondant du programme.
+      Le projet s’affiche dans l’onglet **[!UICONTROL Projets]** du programme et est désormais associé au programme et au portfolio correspondant du programme.

@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 53%
+source-wordcount: '382'
+ht-degree: 34%
 
 ---
 
 # Ajouter un programme existant à un portfolio
 
-<!--Audited: 10/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -87,6 +87,21 @@ Old:
 
 ## Ajouter un programme existant à un portfolio
 
+>[!NOTE]
+>
+>Lorsque votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité pour les documents, les scénarios suivants existent :
+>
+>
+>* Lorsque vous ajoutez un programme de stockage dans le cloud Adobe à un portfolio de stockage Workfront hérité et que ce portfolio n’est associé à aucun document, le portfolio est converti en stockage dans le cloud Adobe.
+>* Lorsque vous ajoutez un programme de stockage dans le cloud Adobe à un portfolio de stockage Workfront hérité auquel des documents sont associés, le stockage des documents du portfolio reste sur le stockage Workfront. Toutefois, l’icône de stockage Workfront héritée ![icône de stockage Workfront héritée](assets/legacy-storage-project-icon.png) est supprimée du portfolio.
+>* Vous ne pouvez pas ajouter un ancien programme de stockage Workfront à un portefeuille de stockage dans le cloud Adobe.
+>
+>Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+>
+>Toutes les instances Workfront ne possèdent pas les deux types de stockage de documents.
+
+Pour ajouter un programme existant à un autre portefeuille :
+
 1. Accédez à un portfolio, puis cliquez sur **[!UICONTROL Programmes]** dans le panneau de gauche.
 1. Cliquez sur **[!UICONTROL Nouveau programme]**.
 1. Cliquez sur **[!UICONTROL Programme existant]**.
@@ -108,3 +123,4 @@ Old:
 1. Cliquez sur **[!UICONTROL Ajouter des programmes]**.
 
    Le programme s’affiche dans l’onglet **[!UICONTROL Programmes]** du portefeuille que vous avez sélectionné.
+

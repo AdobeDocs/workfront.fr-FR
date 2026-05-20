@@ -5,9 +5,10 @@ title: Supprimer et désactiver des programmes
 description: Un programme représente un ensemble de projets qui partagent une stratégie ou un objectif commun qui transcende les limites du projet. Les programmes sont une subdivision des portefeuilles et ils ne peuvent pas exister en dehors d'un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille. Vous pouvez supprimer ou désactiver un programme lorsqu’il devient inutile.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+exl-id: 605d1ec5-ca2e-4ff0-87e1-fa53d8ac4a95
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '464'
 ht-degree: 22%
 
 ---
@@ -73,7 +74,14 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 {{step1-to-programs}}
 
 1. Cliquez sur le nom d’un programme pour l’ouvrir.
-1. Cliquez sur le menu **Plus** à droite du nom du programme, puis cliquez sur **Désactiver le programme**.
+1. Utilisez l’une des méthodes suivantes :
+
+   * Cliquez sur le menu **Plus** à droite du nom du programme, puis cliquez sur **Désactiver le programme**.
+   * Cliquez sur le menu **Plus** situé à droite du programme, puis sur **Modifier**
+
+     Ou
+
+     Cliquez sur la section **Détails du programme** dans le panneau de gauche et décochez la case **Est actif**.
 
    Le programme est immédiatement désactivé et les événements suivants se produisent :
 
