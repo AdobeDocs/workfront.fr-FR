@@ -6,9 +6,9 @@ description: Planifiez le déploiement de Workfront sur l’espace de stockage c
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Le tableau suivant résume les principales différences lors du passage à l’e
 | [la zone Nouveaux documents](#the-new-documents-area) | Une zone Documents unifiée et repensée remplace l’ancienne zone Documents. | Zone Aucun document global. Accéder aux documents d&#39;un programme, d&#39;un portefeuille, d&#39;un projet, d&#39;une tâche ou d&#39;un événement. |
 | [Autorisations de document](#document-permissions) | Les documents héritent des autorisations du projet, de la tâche ou du problème auxquels ils sont liés. | Vous ne pouvez pas partager ni définir d’autorisations sur des documents individuels. Vous gérez tous les accès par le biais de la fenêtre modale de partage d’objet dans Workfront, qui applique en cascade des dossiers de documents générés par le système. |
 | [Mappage des autorisations d’objet](#object-permissions-mapping) | Les autorisations de gestion de Workfront et de contribution sont toutes deux mappées à Modifier et partager dans Frame.io. Affichez les mappages en commentaire uniquement. | Les autorisations sont gérées dans Workfront. Les utilisateurs des fonctions Gérer et Contribuer bénéficient de la fonctionnalité de partage externe de Frame.io. |
-| [Observateur de révision et d’approbation](#review-and-approval-viewer) | La visionneuse Frame.io remplace la visionneuse de relecture Workfront. | Inclus pour tous les utilisateurs de Workfront disposant d’une licence payante. Prend en charge les balises, les commentaires horodatés, l’historique des versions, les appareils mobiles, plus de 40 formats, les fichiers jusqu’à 500 Go. |
+| [Observateur de révision et d’approbation](#review-and-approval-viewer) | La visionneuse Frame.io remplace la visionneuse de relecture Workfront. | Inclus pour tous les utilisateurs de Workfront, y compris les utilisateurs externes affectés à une révision ou une approbation. Prend en charge les balises, les commentaires horodatés, l’historique des versions, les appareils mobiles, plus de 40 formats, les fichiers jusqu’à 500 Go. |
 | [Règles de dénomination des objets](#object-naming-rules) | Des règles de nommage strictes s’appliquent : noms uniques dans un portfolio ou un projet, aucun caractère spécial, aucune période ou espace de fin, limite de 255 caractères. | Workfront renomme automatiquement les objets en cas de conflit. Modèles d’audit qui génèrent de nouveaux noms et une nouvelle structure de projet. |
 | [Portabilité des objets](#object-portability) | Vous ne pouvez déplacer, copier et convertir des objets qu’entre des modèles de stockage similaires. | Les objets de stockage dans le cloud Adobe ne peuvent pas être déplacés vers des projets hérités, ou l’inverse. Le déplacement d’un projet d’espace de stockage dans le cloud Adobe vers un portfolio ou un programme hérité convertit le parent en espace de stockage dans le cloud Adobe. |
 | [Fonctionnalités non disponibles](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, la visionneuse de documents Workfront, les documents favoris et les documents de demande ne font pas partie de l’expérience. | Les objets hérités conservent ces fonctionnalités. Workfront Proof ne recevra pas de nouvel investissement et sera mis hors service dans une version ultérieure. |
@@ -102,7 +102,7 @@ Pour plus d’informations, voir [Présentation des autorisations d’objet et d
 
 ### Observateur de révision et d’approbation
 
-Sur les objets d’espace de stockage Adobe, la visionneuse Frame.io est la surface de révision et d’approbation à la place de Workfront Proof. La visionneuse Frame.io est incluse pour tous les utilisateurs de Workfront disposant d’une licence payante.
+Sur les objets d’espace de stockage Adobe, la visionneuse Frame.io est la surface de révision et d’approbation à la place de Workfront Proof. La visionneuse Frame.io est incluse sans frais supplémentaires pour tous les utilisateurs de Workfront, y compris les utilisateurs externes qui sont affectés à une révision ou une approbation.
 
 La visionneuse Frame.io fournit les éléments suivants :
 

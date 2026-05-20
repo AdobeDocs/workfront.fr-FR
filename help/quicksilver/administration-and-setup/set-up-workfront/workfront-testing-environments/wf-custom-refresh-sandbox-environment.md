@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ca9663abd511508a327d074c54bde53450af08d5
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 85%
+source-wordcount: '1792'
+ht-degree: 80%
 
 ---
 
@@ -29,7 +29,7 @@ Le sandbox à actualisation personnalisée est un environnement dans lequel vous
 >
 >  De plus, l’obtention du sandbox à actualisation personnalisée nécessite un coût supplémentaire, qui n’est pas nécessaire pour le sandbox de prévisualisation.
 >
->  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Conditions d’accès
 
@@ -236,7 +236,16 @@ Pour l’environnement de sandbox d’actualisation personnalisée, le recalcul 
 
 * La relecture n’est pas disponible dans les sandbox à actualisation personnalisée.
 
-* Les notifications suivantes ne sont pas disponibles pour une utilisation dans les environnements de sandbox d’actualisation personnalisée :
+* Les notifications suivantes ne sont pas disponibles dans les environnements de sandbox d’actualisation personnalisée :
 
    * Notifications de rappel
    * Notifications automatiques de rappel de retard ou d’avance
+
+### Note sur les règles de gestion
+
+Les règles métier sont délibérément exclues de l’aperçu Workfront et des actualisations de l’environnement Sandbox. Contrairement à la plupart des données, les règles métier sont traitées comme une configuration spécifique à un environnement, similaire aux utilisateurs. Chaque environnement peut gérer un ensemble distinct de règles adaptées à son objectif (par exemple, test, développement ou production).
+
+L’inclusion de règles métier dans une actualisation remplace ces configurations, ce qui peut perturber les règles que les administrateurs ont intentionnellement configurées dans des environnements hors production.
+
+Si vous devez déplacer des règles métier entre des environnements, utilisez la promotion d’environnement, qui vous permet de transférer de manière sélective des objets de configuration tout en contrôlant la durée et la portée. Pour plus d’informations, voir [Présentation du déplacement d’objets entre des environnements Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+
