@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '3914'
+source-wordcount: '3928'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ La visionneuse Frame.io prend en charge tous les types courants de vidéos, d’
 
 #### Accès et licences pour la visionneuse Frame.io
 
-La visionneuse Frame.io est la visionneuse par défaut pour tous les workflows de révision et d’approbation Workfront. Il est automatiquement inclus pour tous les utilisateurs de Workfront disposant d’une licence payante. Aucune licence Frame.io supplémentaire n&#39;est requise pour utiliser la visionneuse Frame.io pour les révisions et les approbations.
+La visionneuse Frame.io est la visionneuse par défaut pour tous les workflows de révision et d’approbation Workfront. Il est automatiquement inclus pour tous les utilisateurs de Workfront, y compris les utilisateurs externes affectés à une révision ou une approbation, sans coût supplémentaire. Aucune licence Frame.io supplémentaire n&#39;est requise pour utiliser la visionneuse Frame.io pour les révisions et les approbations.
 
 Si votre entreprise souhaite tirer parti des fonctionnalités Frame.io supplémentaires disponibles avec cette intégration, telles que le chargement direct de ressources vers des projets dans Frame.io, vous pouvez acheter une licence d’entreprise Frame.io. Contactez votre représentant de compte Adobe pour planifier une démonstration et explorer les avantages de la solution Frame.io complète.
 
@@ -180,7 +180,7 @@ Pour utiliser la révision et l’approbation unifiées, les conditions suivante
 
 **Ai-je besoin d’une licence Frame.io pour utiliser cette intégration ?**
 
-Non. La visionneuse Frame.io est automatiquement incluse pour tous les utilisateurs de Workfront disposant d’une licence payante, sans frais supplémentaires. Vous n’avez pas besoin d’une licence Frame.io distincte pour réviser et approuver des ressources via Workfront.
+Non. La visionneuse Frame.io est automatiquement incluse sans frais supplémentaires pour tous les utilisateurs de Workfront, y compris les utilisateurs externes invités à examiner ou approuver des ressources. Vous n’avez pas besoin d’une licence Frame.io distincte pour réviser et approuver des ressources via Workfront.
 
 Si votre entreprise souhaite accéder à d’autres fonctionnalités de Frame.io, telles que le chargement direct de ressources vers des projets dans Frame.io, vous pouvez acheter une licence d’entreprise Frame.io. Contactez votre représentant de compte Adobe pour en savoir plus.
 
