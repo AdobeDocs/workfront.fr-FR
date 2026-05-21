@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '285'
 ht-degree: 27%
 
 ---
@@ -22,7 +22,7 @@ Vous pouvez supprimer un modèle de tâches s’il n’est plus nécessaire. Les
 
 >[!NOTE]
 >
->Les tâches de modèles supprimées ne peuvent pas être récupérées. Vous pouvez récupérer un modèle qui récupère également toutes les tâches du modèle. Si vous supprimez des tâches de modèles (et non le modèle), vous ne pourrez jamais les récupérer.
+>Les tâches de modèles supprimées et leurs informations supplémentaires (affectations, documents, approbations) ne peuvent pas être récupérées. Vous pouvez récupérer un modèle qui récupère également toutes les tâches du modèle. Si vous supprimez des tâches de modèles (et non le modèle), vous ne pourrez jamais les récupérer.
 
 
 ## Conditions d’accès
