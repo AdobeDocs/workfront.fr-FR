@@ -6,10 +6,10 @@ description: Vous pouvez utiliser des modèles de projet pour capturer la plupar
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 96%
+source-wordcount: '702'
+ht-degree: 84%
 
 ---
 
@@ -70,6 +70,20 @@ Tenez compte des éléments suivants lors de la création de modèles :
   Pour plus d’informations sur la création d’approbations, voir [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
   Pour plus d’informations sur l’association d’un processus d’approbation à un élément de travail, voir [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+
+* Choisissez le stockage de documents à utiliser pour vos projets futurs. Certaines organisations ont accès aux types de stockage de documents suivants :
+
+   * Stockage Workfront hérité
+   * Adobe cloud storage
+
+  L’ajout de documents varie en fonction du type de stockage choisi. Le type de stockage que vous choisissez pour vos modèles affecte le type de stockage dont hériteront les projets futurs.
+
+  L’ajout de modèles aux projets existants n’affecte pas le type de stockage du projet.
+
+  Pour plus d’informations, voir également :
+
+   * [Créer un modèle de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+   * [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## Comment créer des modèles
 
