@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5160a8bf1eadef19f1a041080670e1efe3777d2f
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 36%
+source-wordcount: '785'
+ht-degree: 35%
 
 ---
 
@@ -36,6 +36,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations des documents](#documents-enhancements)
+* [Améliorations de la gestion financière](#financial-management-enhancements)
 * [Amélioration des rapports](#reporting-enhancements)
 * [Améliorations des demandes](#requesting-enhancements)
 
@@ -68,6 +69,30 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><p>30 Avril 2026</p></td>
             <td><p>14 Mai 2026</p></td>
             <td><p>16 juillet 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Améliorations de la gestion financière
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Fonctionnalité</strong>
+            </td>
+            <td><strong>Aperçu</strong></td>
+            <td><strong>Version rapide</strong></td>
+            <td><strong>Tous les trimestres</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Les attributs de taux ne peuvent pas être modifiés une fois qu’ils sont utilisés sur des taux</a><p>[!BADGE Hors planning]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Une fois qu’un attribut est ajouté à un taux dans Workfront, vous ne pouvez plus modifier cet attribut et ses filtres dans la zone Configuration . Cela permet de préserver l’intégrité des données et d’empêcher toute modification accidentelle des taux lorsque des attributs sont mis à jour.</p>
+            </td>
+            <td><p>21 Mai 2026</p></td>
+            <td><p>21 Mai 2026</p></td>
+            <td><p>21 Mai 2026</p></td>
         </tr>
     </tbody>
 </table>
