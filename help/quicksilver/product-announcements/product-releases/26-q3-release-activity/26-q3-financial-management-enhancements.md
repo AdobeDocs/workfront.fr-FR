@@ -4,7 +4,7 @@ description: Améliorations de la gestion financière pour le troisième trimest
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1cb6aa0a302d5aac5b44b214d2415271287bf38b
+source-git-commit: ba7ac2d144a6dea7218eb58a0b421b915ae2714e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 7%
@@ -26,3 +26,4 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 Une fois qu’un attribut est ajouté à un taux dans Workfront, vous ne pouvez plus modifier cet attribut et ses filtres dans la zone Configuration . Cela permet de préserver l’intégrité des données et d’empêcher toute modification accidentelle des taux lorsque des attributs sont mis à jour.
 
 Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
