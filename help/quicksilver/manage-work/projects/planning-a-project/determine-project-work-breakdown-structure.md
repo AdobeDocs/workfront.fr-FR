@@ -6,10 +6,10 @@ description: La définition d’une structure de répartition du travail (WBS) p
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 99%
+source-wordcount: '1755'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 La définition d’une structure de répartition du travail (WBS) pour un projet est un ensemble d’activités qui, en fin de compte, décrivent le plan du projet. La structure WBS divise le résultat du projet en éléments de travail gérables, qui peuvent être utilisés pour définir des jalons et organiser des affectations de travail.
 
-Pour créer la structure de répartition du travail d’un projet, vous devez disposer d’une licence Plan avec l’accès Modifier aux projets. Un accès supplémentaire à d’autres zones d’Adobe Workfront peut être nécessaire, en fonction du nombre d’activités que vous effectuez lors de la création de la structure WBS.
+Vous devez disposer d’une licence Standard ou Plan avec un accès en modification aux projets pour créer la structure de répartition du travail d’un projet. Un accès supplémentaire à d’autres zones d’Adobe Workfront peut être nécessaire, en fonction du nombre d’activités que vous effectuez lors de la création de la structure WBS.
 
 Nous vous recommandons de conserver le statut Planification pendant que vous modifiez la structure de répartition du travail, afin d’éviter que des notifications ne se déclenchent pour les personnes membres de l’équipe de projet.
 
@@ -86,8 +86,8 @@ Tenez compte des points suivants :
 
 Une fois que vous avez défini la durée et les contraintes de chaque tâche, vous pouvez déterminer qui dispose du temps et des compétences pour réaliser le travail. Vous pouvez attribuer des tâches aux entités suivantes dans Workfront :
 
-* Utilisateurs\
-  Seuls les utilisateurs et utilisatrices disposant d’un niveau d’accès Planificateur ou planificatrice ou Travailleur ou travailleuse peuvent être affectés à des tâches. Bien que vous puissiez attribuer des tâches aux personnes en charge des demandes et des révisions, elles ne peuvent pas les réaliser. Il est donc déconseillé de leur attribuer des tâches.
+* Utilisateurs et utilisatrices\
+  Seuls les utilisateurs disposant d&#39;un niveau d&#39;accès Standard, Planificateur ou Collaborateur peuvent être affectés à des tâches. Bien que vous puissiez attribuer des tâches aux personnes en charge des demandes et des révisions, elles ne peuvent pas les réaliser. Il est donc déconseillé de leur attribuer des tâches.
 
   Pour plus d’informations sur les niveaux d’accès et la façon dont ils définissent les actions des utilisateurs et utilisatrices sur les objets Workfront, voir [Vue d’ensemble des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 

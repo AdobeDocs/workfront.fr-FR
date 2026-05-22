@@ -6,10 +6,10 @@ description: Lisez cet article pour résoudre les problèmes liés au filtre Pro
 feature: Get Started with Workfront
 author: Alina
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 96%
+source-wordcount: '180'
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 96%
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
-   <td> <p>Prime ou Ultimate</p>
-    <p>Workflow Ultimate</p>
-   </td>
+   <td>Tous</td>
   </tr>
   <tr>
    <td>Licences Adobe Workfront

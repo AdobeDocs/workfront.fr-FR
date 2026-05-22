@@ -9,10 +9,10 @@ feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 81%
+source-wordcount: '381'
+ht-degree: 75%
 
 ---
 
@@ -48,7 +48,7 @@ Le tableau suivant indique les différences et les similitudes entre les groupes
 
 | **Fonctionnalité** | **Groupe** | **Équipe** |
 |---|---|---|
-| Un planificateur ou une planificatrice peut créer. |  | ✓ |
+| Un utilisateur de licence Standard ou Plan peut créer |  | ✓ |
 | Seule une personne administratrice Workfront peut créer. | ✓ |  |
 | Partager des objets | ✓ | ✓ |
 | Affecter une tâche |  | ✓ |
@@ -67,7 +67,7 @@ Le tableau suivant indique les différences et les similitudes entre les groupes
 | Visibilité des plannings | ✓ |  |
 | Supprimer des profils de feuilles de temps | ✓ | ✓ |
 | Affecter des modèles de mise en page | ✓ | ✓ |
-| Toute personne disposant d’une licence de plan peut l’affecter à une autre personne. |  | ✓ |
+| Tout utilisateur disposant d’une licence Standard ou Plan peut l’affecter à un autre utilisateur |  | ✓ |
 | Personnaliser les statuts | ✓ |  |
 | Personnaliser le bouton [!UICONTROL Terminé] |  | ✓ |
 | Suivre les licences | ✓ |  |

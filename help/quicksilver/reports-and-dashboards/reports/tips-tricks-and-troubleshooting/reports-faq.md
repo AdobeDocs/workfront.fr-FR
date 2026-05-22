@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 86%
+source-wordcount: '1508'
+ht-degree: 82%
 
 ---
 
@@ -125,7 +125,7 @@ Pour obtenir la liste complète des variables de filtrage des caractères géné
 
 Cela peut se produire dans la plupart des cas si vous disposez d’un accès limité qui vous empêche de voir des éléments du système. De plus, les éléments que vous souhaitez voir ne sont pas partagés avec vous.
 
-Le créateur ou la créatrice du rapport peut le modifier pour l’exécuter avec les droits d’accès d’un administrateur ou administratrice système ou de toute personne utilisant le Plan ayant accès aux données.
+Le créateur du rapport peut le modifier pour l’exécuter avec les droits d’accès d’un administrateur système ou de tout utilisateur de Standard ou de Plan ayant accès aux données.
 
 Pour plus d’informations, voir [Exécuter et diffuser un rapport avec les droits d’accès d’une autre personne](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
@@ -168,7 +168,7 @@ Toutefois, certains éléments peuvent empêcher l’affichage de ces liens :
 * Si vous avez un **Vue** appliquée à ces listes dans lesquelles une devise est sélectionnée autre que la devise par défaut du projet, les liens ne s’affichent pas. Modifiez la **Vue** en **Devise originale du projet** et les liens devraient s’afficher afin que vous puissiez ajouter des problèmes et des tâches à vos projets.\
   Pour plus d’informations sur la modification de la devise dans votre vue, voir [Créer des rapports de données financières avec des taux de change uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-![Devise du projet &#x200B;](assets/nwe-project-original-currency-350x229.png)
+![Devise du projet ](assets/nwe-project-original-currency-350x229.png)
 
 ## Les informations de mon rapport ou de mon tableau de bord sont-elles actualisées automatiquement ?
 
@@ -188,7 +188,7 @@ Pour plus d’informations sur l’actualisation d’un tableau de bord mis en c
 
 Vous ne pouvez pas modifier la personne propriétaire d’un rapport. Cependant, la personne qui a créé le rapport peut permettre à d’autres personnes de le modifier. La manière dont vous pouvez autoriser les personnes à modifier un rapport dépend du type d’utilisateur ou utilisatrice que vous êtes.
 
-* Les administrateurs et administratrices système peuvent autoriser les personnes disposant d’une licence Plan à modifier les rapports en configurant l’option Modifier de la ligne Rapports afin d’inclure l’accès à Créer un rapport.\
+* Les administrateurs et administratrices système peuvent autoriser les utilisateurs et utilisatrices disposant d’une licence Standard ou Plan à modifier les rapports en configurant l’option Modifier sur la ligne Rapports afin d’inclure l’accès à la fonction Créer un rapport.\
   Pour plus d’informations, voir [Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Tout utilisateur final ou toute utilisatrice finale ayant accès à la création et au partage de rapports peut permettre à d’autres personnes de modifier des rapports individuels en les partageant et en leur accordant des autorisations de gestion.\

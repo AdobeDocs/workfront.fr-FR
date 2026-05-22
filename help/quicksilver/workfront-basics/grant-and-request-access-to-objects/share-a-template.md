@@ -6,16 +6,16 @@ description: En tant que personne membre de l’administration Adobe Workfront,
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 92%
+source-wordcount: '596'
+ht-degree: 90%
 
 ---
 
 # Partager un modèle
 
-En tant que personne membre de l’administration Adobe Workfront, vous pouvez accorder aux utilisateurs et aux utilisatrices l’accès à l’affichage ou à la modification des modèles lorsque vous leur attribuez un niveau d’accès. Un utilisateur ou une utilisatrice doit disposer d’une licence Plan pour avoir accès à l’option de modification des modèles.
+En tant que personne membre de l’administration Adobe Workfront, vous pouvez accorder aux utilisateurs et aux utilisatrices l’accès à l’affichage ou à la modification des modèles lorsque vous leur attribuez un niveau d’accès. Un utilisateur doit disposer d’une licence Standard ou Plan pour pouvoir accéder à l’option Modifier les modèles.
 
 Pour plus d’informations sur l’octroi d’un accès aux modèles, consultez la section [Accorder un accès aux modèles](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
@@ -48,7 +48,7 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
 
 * En partageant un modèle ou un projet issu de ce modèle, les autorisations attribuées se transmettent par défaut à tous les objets enfant associés au modèle ou au projet.
 
-  Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir   [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir [Présentation des objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Quand un modèle est partagé, toutes les tâches, les documents qui y sont inclus, et les problèmes des projets futurs créés à partir de ce modèle reçoivent automatiquement les mêmes droits d’accès, sauf exceptions spécifiées.
 

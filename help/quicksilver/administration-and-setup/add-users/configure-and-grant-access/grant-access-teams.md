@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 93%
+source-wordcount: '677'
+ht-degree: 79%
 
 ---
 
@@ -61,7 +61,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
          <td role="rowheader">Afficher les équipes associées à mes groupes</td>
          <td>
           <p><b>Activé</b> : lorsque les utilisateurs et les utilisatrices recherchent des équipes dans un champ de suggestion automatique « Équipe », les équipes associées à leurs groupes sont visibles, que l’équipe leur soit affectée ou non. </p>
-          <p><b>Désactivé</b> : lorsque les utilisateurs et les utilisatrices recherchent des équipes dans un champ de suggestion automatique « Équipe », les équipes associées à leurs groupes sont visibles uniquement si elles leur sont affectées.</p><p>Cette option est activée par défaut.</p>
+          <p><b>Désactivé</b> : lorsque les utilisateurs et les utilisatrices recherchent des équipes dans un champ de saisie semi-automatique « Équipe », les équipes associées à leurs groupes sont visibles uniquement si elles leur sont affectées.</p><p>Cette option est activée par défaut.</p>
           </td>
         </tr>
         <tr>
@@ -71,7 +71,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
        </tbody>
       </table>
 
-   * **Modifier** : si vous configurez la manière dont les utilisateurs et les utilisatrices disposant des licences Plan et Travail peuvent gérer des équipes, modifiez l’une des options suivantes :
+   * **Modifier** : si vous configurez la manière dont les utilisateurs disposant d’une licence Standard, Plan ou Travail peuvent gérer les équipes, modifiez l’une des options suivantes :
 
      <table style="table-layout:auto">
        <col>
@@ -79,25 +79,25 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
        <tbody>
         <tr>
          <td role="rowheader">Créer</td>
-         <td><p>Permet aux utilisateurs et aux utilisatrices disposant soit d’une licence Plan, soit d’une licence Travail de créer des équipes.</p><p>Cette option est activée par défaut.</p></td>
+         <td><p>Permet aux utilisateurs disposant d’une licence Standard, Plan ou Travail de créer des équipes.</p><p>Cette option est activée par défaut.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Supprimer</td>
-         <td><p> Permet aux utilisateurs et aux utilisatrices disposant d’une licence Plan de supprimer les équipes qui ont des droit de modification (non disponible pour les utilisateurs et les utilisatrices disposant d’une licence Travail).</p><p>Cette option est activée par défaut.</p></td>
+         <td><p> Permet aux utilisateurs disposant d'une licence Standard ou Plan de supprimer les équipes qu'ils ont accès à modifier (non disponible pour les utilisateurs disposant d'une licence de travail).</p><p>Cette option est activée par défaut.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Modifier les équipes dans les groupes que je gère (administrateurs de groupe uniquement)</td>
-         <td><p>Permet aux utilisateurs et aux utilisatrices de licences Plan responsables de l’administration de groupes de modifier les équipes affectées aux groupes dont ils assurent la gestion.</p><p>Cette option est activée par défaut.</p></td>
+         <td><p>Permet aux utilisateurs de licences Standard ou Plan désignés comme administrateurs de groupe de modifier les équipes associées aux groupes qu'ils gèrent.</p><p>Cette option est activée par défaut.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Modifier les équipes dont je suis membre</td>
-         <td><p>Permet aux utilisateurs et aux utilisatrices de licences Plan et Travail de modifier les équipes dont ils sont membres.</p><p>Cette option est désactivée par défaut.</p></td>
+         <td><p>Permet aux utilisateurs disposant d'une licence Standard, Plan ou Travail de modifier les équipes dont ils sont membres.</p><p>Cette option est désactivée par défaut.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Afficher les équipes associées à mes groupes</td>
          <td>
          <p><b>Activé</b> : lorsque les utilisateurs et les utilisatrices recherchent des équipes dans un champ de suggestion automatique « Équipe », les équipes associées à leurs groupes sont visibles, que l’équipe leur soit affectée ou non. </p>
-         <p><b>Désactivé</b> : lorsque les utilisateurs et les utilisatrices recherchent des équipes dans un champ de saisie semi-automatique « Équipe », les équipes associées à leurs groupes sont visibles uniquement si elles leur sont affectées.</p><p>Cette option est activée par défaut.</p>
+         <p><b>Désactivé</b> : lorsque les utilisateurs et les utilisatrices recherchent des équipes dans un champ de suggestion automatique « Équipe », les équipes associées à leurs groupes sont visibles uniquement si elles leur sont affectées.</p><p>Cette option est activée par défaut.</p>
          </td>
         </tr>
         <tr>
@@ -125,4 +125,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Accès aux équipes par type de licence
 
-Pour plus d&#39;informations sur ce que les utilisateurs de chaque niveau d&#39;accès peuvent faire avec les équipes, consultez la section [Équipes](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) dans l&#39;article [Fonctionnalité disponible pour chaque type d&#39;objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Pour plus d&#39;informations sur ce que les utilisateurs de chaque niveau d&#39;accès peuvent faire avec les équipes, consultez la section [Équipes](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams) dans l&#39;article [Fonctionnalité disponible pour chaque type d&#39;objet](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).

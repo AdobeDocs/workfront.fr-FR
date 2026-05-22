@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '792'
 ht-degree: 79%
 
 ---
@@ -66,7 +66,7 @@ Pour plus d’informations sur les enregistrements de facturation, voir l’arti
        <li>Si vous disposez des autorisations de gestion sur le projet, vous pouvez approuver ou rejeter les heures consignées sur le projet par toute autre personne.</li>
        <li> Si vous disposez de l’accès Contribution ou Affichage au projet, vous pourrez approuver ou rejeter uniquement les heures consignées par vous ou par toute autre personne qui vous signale.<br></li>
       </ul></li> 
-     <li>Vous disposez d’une licence Plan avec un accès administratif aux Feuilles de temps et heures. Dans ce cas :
+     <li>Vous disposez d’une licence Standard ou Plan avec un accès administratif aux Feuilles de temps et heures. Dans ce cas :
       <ul>
        <li>Vous pouvez approuver ou rejeter toutes les heures sur les projets pour lesquels vous disposez au moins des autorisations d’affichage. </li>
       </ul></li> 

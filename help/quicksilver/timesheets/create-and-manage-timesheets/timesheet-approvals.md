@@ -6,9 +6,9 @@ description: Le processus d’approbation des feuilles de temps permet aux perso
 author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '678'
 ht-degree: 53%
 
 ---
@@ -32,7 +32,7 @@ Pour plus d’informations sur la soumission d’une feuille de temps, voir [Sou
  <col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 En règle générale, les feuilles de temps sont approuvées par les personnes responsables fonctionnelles ou le personnel des ressources humaines. Les feuilles de temps ne sont généralement pas approuvées par les chefs de projet. Les chefs de projet peuvent approuver les heures consignées pour les projets, mais les chefs d&#39;équipe ou de ressources humaines doivent approuver les feuilles de temps.
 
-Un approbateur de feuille de temps est défini lors de la création du profil de feuille de temps. Vous devez disposer d&#39;une licence de plan pour être désigné comme approbateur.
+Un approbateur de feuille de temps est défini lors de la création du profil de feuille de temps. Vous devez disposer d&#39;une licence Standard ou Plan pour être désigné comme approbateur.
 
 Pour plus d’informations sur la désignation des personnes approbatrices des feuilles de temps, voir la section [Créer ou modifier un profil de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) dans l’article [Créer, modifier et attribuer des profils de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 

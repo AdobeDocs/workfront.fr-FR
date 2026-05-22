@@ -10,9 +10,9 @@ role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2231'
 ht-degree: 92%
 
 ---
@@ -51,7 +51,7 @@ Pour plus d’informations sur les approbations associées aux documents ou aux 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Pour le processus de validation au niveau du système ou à usage unique :</p><ul><li><p>N’importe quel package</p></li></ul>
    <p>Pour le processus d’approbation au niveau du groupe :</p>
    <ul><li><p>Prime de workflow ou Ultimate</p></li>
@@ -73,7 +73,7 @@ Pour plus d’informations sur les approbations associées aux documents ou aux 
  </tbody> 
 </table>
 
-* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -172,7 +172,7 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader"> <p role="rowheader">Démarrer un processus d’approbation lorsque le statut est défini sur</p> </td> 
       <td> <p>Sélectionnez le statut qui déclenchera le processus d’approbation des éléments de travail. Lorsqu’un élément de travail est mis à jour dans ce statut, le processus d’approbation démarre. </p> 
       <p>Champ obligatoire. </p>
-      <p>Le même statut ne peut pas être sélectionné pour plusieurs processus d’approbation.</p> <p>Les statuts disponibles sont basés sur ce qui est sélectionné sous l’option <b>Ce processus d’approbation peut être utilisé par</b> (expliqué dans le tableau ci-dessus) :</p> 
+      <p>Le même statut ne peut pas être sélectionné pour plusieurs processus d’approbation.</p> <p>Les statuts disponibles sont basés sur ce qui est sélectionné dans l’option <b>Cette approbation peut être utilisée par</b> (expliquée dans le tableau ci-dessus) :</p> 
        <ul> 
        <li> Si l’option <b>Tous les groupes</b> est sélectionnée, seuls les statuts de l’ensemble du système sont disponibles.
        <li> <p>Si un groupe spécifique est sélectionné, seuls les statuts disponibles pour ce groupe le sont.</p> </li> 
@@ -204,8 +204,8 @@ For more detail about the information in this table, see [Access requirements in
        <li> <p>Lorsque vous accordez une approbation à un rôle et que l’option <b>Personne chargée de l’approbation ne faisant pas partie de l’équipe de projet (pour les processus d’approbation qui incluent un rôle)</b> est désactivée mais qu’aucun rôle de l’équipe de projet ne correspond au rôle de l’approbation, l’approbation est accordée à la personne propriétaire du projet. Pour plus d’informations sur les paramètres d’approbation, consultez la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer les paramètres globaux du processus d’approbation</a>.</p> </li> 
        </ul> 
        <ul> 
-       <li> <p>Lorsque vous accordez une approbation à la personne propriétaire du projet et qu’il n’existe pas de personne propriétaire de projet, l’approbation est alors accordée à l’équipe principale d’administration de Workfront, comme indiqué dans la section de la section Infos client de la zone de configuration. Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurer les informations de base de votre système</a>.  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Vous pouvez répéter ce processus pour ajouter, à cette étape, plusieurs personnes chargées de l’approbation. Une étape unique peut inclure une combinaison d’utilisateurs et d’utilisatrices, d’équipes et de fonctions en tant que responsables de l’approbation. Il n’y a pas de limite au nombre de personnes chargées de l’approbation que vous pouvez ajouter à une étape.</p> <p><b>IMPORTANT</b></p> <p>Quand des fonctions se voient accorder une responsabilité d’approbation, tous les utilisateurs et utilisatrices ayant cette fonction et faisant partie de l’équipe de projet peuvent prendre une décision d’approbation. </p> <p>Lorsque vous désignez une équipe comme responsable de l’approbation, chaque personne de cette équipe peut prendre une décision d’approbation. </p> <p>Pour plus d’informations sur l’équipe du projet, voir <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Vue d’ensemble de l’équipe du projet</a>. Pour plus d’informations sur l’approbation du travail, consultez la section <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approbation du travail</a>.</p> </p> </td> 
+       <li> <p>Lorsque vous accordez une approbation à la personne propriétaire du projet et qu’il n’existe pas de personne propriétaire de projet, l’approbation est alors accordée à l’équipe principale d’administration de Workfront, comme indiqué dans la section de la section Infos client de la zone de configuration. Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurer des informations de base pour votre système</a>.  </p> </li> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Vous pouvez répéter ce processus pour ajouter, à cette étape, plusieurs personnes chargées de l’approbation. Une étape unique peut inclure une combinaison d’utilisateurs et d’utilisatrices, d’équipes et de fonctions en tant que responsables de l’approbation. Il n’y a pas de limite au nombre de personnes chargées de l’approbation que vous pouvez ajouter à une étape.</p> <p><b>IMPORTANT</b></p> <p>Quand des fonctions se voient accorder une responsabilité d’approbation, tous les utilisateurs et utilisatrices ayant cette fonction et faisant partie de l’équipe de projet peuvent prendre une décision d’approbation. </p> <p>Lorsque vous désignez une équipe comme responsable de l’approbation, chaque personne de cette équipe peut prendre une décision d’approbation. </p> <p>Pour plus d’informations sur l’équipe du projet, voir <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Vue d’ensemble de l’équipe du projet</a>. Pour plus d’informations sur l’approbation du travail, voir <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approuver du travail</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Une seule décision est requise <br> <br>(ne s’affiche que si vous ajoutez à l’étape plusieurs personnes chargées de l’approbation). </td> 
