@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
+source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
 workflow-type: tm+mt
-source-wordcount: '21833'
-ht-degree: 98%
+source-wordcount: '21953'
+ht-degree: 97%
 
 ---
 
@@ -686,6 +686,10 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <td>Un menu, situé à gauche de l’écran, dans lequel les éléments changent en fonction du contenu actif. Par exemple, lorsqu’un utilisateur ou une utilisatrice consulte un projet, le [!UICONTROL Contextual Menu] affiche les liens vers les informations et les outils liés au projet.</td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Contributor]</td> 
+   <td><p>Généralement, un type de licence. Un utilisateur disposant d'une licence [!UICONTROL Contributor] peut envoyer des demandes pour que de nouvelles tâches soient effectuées sur le système.</p> <p>Pour plus d’informations, consultez la section <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Vue d’ensemble des niveaux d’accès</a>.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Converted Issue Originator]</td> 
    <td>Champ d’un rapport sur les projets ou sur les tâches qui affiche des informations sur l’utilisateur ou sur l’utilisatrice qui est le [!UICONTROL Primary Contact] d’un problème lorsque le problème est converti en projet ou en tâche. Ce champ s’affiche également dans la section [!UICONTROL Project Details] où il indique le nom du [!UICONTROL Primary Contact] du problème converti. Consultez aussi dans cet article la section « [!UICONTROL Primary Contact] ».</td> 
   </tr> 
@@ -1278,6 +1282,10 @@ The designated full time equivalency for users. A full-time user should have 100
    <td> <p>Dans un rapport ou une vue [!UICONTROL Group], ce champ indique le nombre maximal de licences [!UICONTROL Work] pouvant être attribuées aux utilisateurs et aux utilisatrices dont le groupe respectif est désigné comme [!UICONTROL Home Group].</p> </td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Light]</td> 
+   <td><p>Généralement, un type de licence. Un utilisateur disposant d’une licence [!UICONTROL Light] peut réviser et approuver les éléments de travail du système.</p> <p>Pour plus d’informations, consultez la section <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Vue d’ensemble des niveaux d’accès</a>.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Limited User]</td> 
    <td>Un type de licence qui permet la création d’un [!DNL Access Level] qui contient des privilèges de lecture seule, avec la possibilité de soumettre des problèmes, de saisir des notes et de charger des documents.</td> 
   </tr> 
@@ -1468,7 +1476,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[!UICONTROL User] qui affiche et permet de définir les relations de l’[!UICONTROL Company] et du [!UICONTROL Reporting] de l’[!UICONTROL User].</td> 
+   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[UICONTROL User] qui affiche et permet de définir les relations de l’[UICONTROL Company] et du [UICONTROL Reporting] de l’[UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 
@@ -2147,7 +2155,11 @@ The designated full time equivalency for users. A full-time user should have 100
     <li>Colonnes Nom du projet ou Nom de la tâche pour un rapport sur les problèmes. </li> </ul>
     Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Exécuter et diffuser un rapport avec les droits d’accès d’une autre personne</a>. 
    </td> 
-  </tr> 
+  </tr>
+  <tr>
+   <td>[!UICONTROL Standard]</td> 
+   <td> <p>Il s’agit d’un type de licence complet dans le système [!DNL Workfront]. Les utilisateurs et utilisatrices doivent disposer de ce plan pour accéder à toutes les fonctionnalités de [!DNL Workfront].</p><p>Pour les licences dans ce modèle, il n’existe aucun équivalent de Travail. Les utilisateurs qui disposaient auparavant d’une licence de travail deviennent des utilisateurs standard disposant de toutes les fonctionnalités de cette licence.</p> <p>Pour plus d’informations, consultez la section <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Vue d’ensemble des niveaux d’accès</a>.</p> </td> 
+  </tr>  
   <tr> 
    <td>[!UICONTROL Start Date]</td> 
    <td> <p>Date à laquelle le travail sur un élément est défini pour commencer. Il existe plusieurs dates de début dans [!DNL Workfront] : </p> 
@@ -2584,3 +2596,4 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
  </tbody> 
 </table>
+
