@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: En tant qu’équipe d’administration Adobe Workfront, vous pouvez déterminer les paramètres globaux des processus d’approbation dans Workfront. Ces paramètres ont un impact sur tous les processus d’approbation des éléments de travail de votre système.
-author: Alina
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '835'
 ht-degree: 94%
 
 ---
@@ -23,28 +23,30 @@ En tant qu’équipe d’administration Adobe Workfront, vous pouvez détermine
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Plan</p>
+   <p>Standard<p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès*</td> 
-   <td> <p>Vous devez être administrateur ou administratrice système ou disposer d’une licence Plan avec un accès administratif aux processus d’approbation.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être administrateur ou administratrice système ou disposer d’une licence Plan avec un accès administratif aux processus d’approbation.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes décrites dan
       <td role="rowheader">Ajoutez le &lt;number&gt; de jours jusqu’à la date d’achèvement prévue pour permettre les processus d’approbation.</td> 
       <td> <p>Indiquez le nombre de minutes, heures, jours, semaines ou mois à ajouter à la date d’achèvement prévue de la tâche qui doit être approuvée. Sélectionnez les minutes, heures, jours ou semaines « écoulés » pour ajouter le temps incluant les week-ends, jours fériés et heures non travaillées qui ont été désignés dans le calendrier de travail du système.</p> 
       <p>Par exemple, si une tâche est affectée le vendredi et a une durée de 3 jours écoulés, la date d’achèvement de la tâche est définie pour le lundi (en supposant que le samedi et le dimanche soient un week-end). Si la tâche a une durée de 3 jours (non écoulés), la date d’achèvement de la tâche est définie pour le mercredi.</p>
-      <p><b>NOTE</b> : l’activation de l’ajout de temps supplémentaire pour permettre l’approbation des tâches affecte le calendrier de la tâche et celui du projet.</p></td> 
+      <p><b>NOTE</b> : l’activation de l’ajout de temps supplémentaire pour permettre l’approbation des tâches affecte la chronologie de la tâche et celle du projet.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">La personne chargée de l’approbation n’a pas besoin de faire partie de l’équipe du projet (quand un processus d’approbation comprend un rôle).</td> 

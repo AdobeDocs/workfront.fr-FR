@@ -5,13 +5,13 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Cet article explique ce qui se passe lorsqu’un processus d’approbation est déjà utilisé lorsqu’un administrateur ou une administratrice Workfront (ou un utilisateur ou une utilisatrice ayant un accès administratif aux processus d’approbation) modifie son association avec un groupe.
-author: Alina
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1539'
 ht-degree: 99%
 
 ---
@@ -80,7 +80,7 @@ Les scénarios suivants se produisent lorsqu’un processus d’approbation spé
   <tr> 
    <td>Section Détails de la file d’attente d’un projet ou d’un modèle</td> 
    <td>Problème</td> 
-   <td> <p>Le champ Approbation par défaut est réinitialisé sur S/O.</p> <p>Par défaut, aucun processus d’approbation n’est associé à de nouveaux problèmes ou requêtes sur le projet.</p> </td> 
+   <td> <p>LLe champ Approbation par défaut est réinitialisé sur S/O.</p> <p>Par défaut, aucun processus d’approbation n’est associé à de nouveaux problèmes ou requêtes sur le projet.</p> </td> 
   </tr> 
   <tr> 
    <td>Section Rubrique de file d’attente d’un projet ou d’un modèle</td> 
@@ -237,12 +237,12 @@ Lorsqu’une personne modifie la disponibilité d’un processus d’approbation
   <tr> 
    <td>Section « Détails de la file d’attente » pour un projet ou un modèle appartenant à un groupe autre que le groupe du processus d’approbation</td> 
    <td>Problèmes</td> 
-   <td> <p>LLe champ Approbation par défaut est réinitialisé sur S/O.</p> <p>Par défaut, aucun processus d’approbation n’est associé à de nouveaux problèmes ou requêtes sur le projet.</p> </td> 
+   <td> <p>Le champ Approbation par défaut est réinitialisé sur S/O.</p> <p>Par défaut, aucun processus d’approbation n’est associé à de nouveaux problèmes ou requêtes sur le projet.</p> </td> 
   </tr> 
   <tr> 
    <td>Section « Rubrique de file d’attente » pour un projet ou un modèle appartenant à un groupe autre que le groupe du processus d’approbation</td> 
    <td>Problèmes</td> 
-   <td> <p>LLe champ Approbation par défaut est réinitialisé sur S/O.</p> <p>Par défaut, aucun processus d’approbation n’est associé à de nouveaux problèmes ou requêtes sur le projet.</p> </td> 
+   <td> <p>Le champ Approbation par défaut est réinitialisé sur S/O.</p> <p>Par défaut, aucun processus d’approbation n’est associé à de nouveaux problèmes ou requêtes sur le projet.</p> </td> 
   </tr> 
  </tbody> 
 </table>

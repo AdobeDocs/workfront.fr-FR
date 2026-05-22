@@ -1,6 +1,6 @@
 ---
 title: Gestion de la vue Tableau
-description: Vous pouvez afficher les enregistrements et leurs champs dans une vue Tableau lors de l'accès à la page de type d'enregistrement dans Adobe Workfront Planning. Cet article décrit comment créer ou modifier une vue de tableau et comment activer les indicateurs de présence en temps réel pour la vue.
+description: Vous pouvez afficher les enregistrements et leurs champs dans la vue de tableau lors de l’accès à la page du type d’enregistrement dans Adobe Workfront Planning. Cet article décrit comment créer ou modifier une vue de tableau et comment activer les indicateurs de présence en temps réel pour la vue.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '3503'
+source-wordcount: '3551'
 ht-degree: 51%
 
 ---
@@ -173,7 +173,7 @@ Pour gérer une vue tableau :
    * [Lignes (ou enregistrements)](#add-rows-or-records)
    * [Filtres](#add-filters)
    * [Trier](#add-a-sort)
-   * [Regroupement &#x200B;](#add-groupings)
+   * [Regroupement](#add-groupings)
    * [Couleurs de ligne](#add-row-colors)
    * [Indicateur de présence en temps réel](#enable-the-real-time-presence-indicator)
 
@@ -402,7 +402,7 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 
       ![Filtres à plusieurs niveaux dans les vues](assets/multi-tiered-filters-in-views.png)
 
-   La liste des enregistrements est filtrée automatiquement. <!--at this time, you can't name and save the filter - but will this change?!-->
+   La liste des enregistrements est automatiquement filtrée.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
@@ -414,7 +414,7 @@ En appliquant un tri, vous pouvez organiser les informations dans un ordre donn�
 
 Vous pouvez trier les informations suivantes :
 
-* Tous les enregistrements dans une vue en tableau.<!--or timeline view. ***********verify this is the case for the timeline view*********************-->
+* Tous les enregistrements dans une vue Tableau. <!--or timeline view. ***********verify this is the case for the timeline view*********************-->
   <!--* All groupings. - this is not available yet-->
 
 Tenez compte des éléments suivants lorsque vous triez les enregistrements dans la vue en tableau :
@@ -480,7 +480,7 @@ Tenez compte des points suivants :
 
 * Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
 * Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
-&lt;!--* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lorsque vous utilisez l’API. --vérifier celui-ci pour l’instant-->
+&lt;!—!—* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. --vérifier celui-ci pour l’instant-->
 * Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
@@ -574,7 +574,7 @@ To sort grouped records:
    >
    >* Si le paramètre Appliquer à toute la ligne est désactivé, seul le côté gauche du champ Principal affiche un indicateur de couleur étroit avec la couleur sélectionnée. Le paramètre est désactivé par défaut.
    >
-   >* Vous ne pouvez pas appliquer de couleurs de ligne à une ligne entière lorsque au moins un regroupement est sélectionné en mode Tableau.
+   >* Vous ne pouvez pas appliquer de couleurs de ligne à une ligne entière lorsque au moins un regroupement est sélectionné en mode Tableau. La couleur du rôle s’applique uniquement à la gauche de la cellule du champ principal lorsque les regroupements sont appliqués au tableau.
 
 1. Cliquez en dehors de la zone **Couleurs des lignes** pour la fermer. Les couleurs sont appliquées automatiquement.
 
