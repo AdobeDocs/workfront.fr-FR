@@ -5,15 +5,15 @@ title: Partage d’objets sans génération de notifications
 description: Découvrez comment partager des objets et empêcher l’envoi de notifications à propos de cette modification. Cela s’avère particulièrement utile lorsque vous partagez des objets en bloc.
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: b14dd633edec3e9746f7f1412445b74bcd37a676
+exl-id: 02106282-addb-4bdd-82d2-9da5a5f6a687
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 22%
+source-wordcount: '577'
+ht-degree: 21%
 
 ---
 
-
-# Comment partager des objets sans générer de notifications
+# Partage d’objets sans générer de notifications
 
 <!--Audited: 12/2024-->
 
@@ -38,8 +38,6 @@ Si vous devez partager plusieurs objets avec plusieurs personnes (en bloc), mais
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Pour partager des objets, vous devez disposer des éléments suivants :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -49,10 +47,9 @@ Pour partager des objets, vous devez disposer des éléments suivants :
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle licence : Standard</p> 
-   Ou
-   <p>Licence actuelle : plan</p>
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -70,7 +67,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,9 +107,3 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 1. Cliquez sur **Enregistrer les modifications**.
 
    Les objets ont été partagés avec les utilisateurs sélectionnés et aucun d&#39;eux n&#39;a reçu de notification par e-mail concernant cette modification.
-
-
-
-
-
-

@@ -6,10 +6,10 @@ description: Connectez votre travail à votre contenu dans Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 92%
+source-wordcount: '683'
+ht-degree: 90%
 
 ---
 
@@ -60,7 +60,7 @@ Connectez votre travail à votre contenu dans Experience Manager Assets Essen
   <tr>
    <td><strong>Configurations du niveau d’accès</strong>
    </td>
-   <td>Pour configurer une intégration d’Experience Manager, vous devez être un administrateur ou une administratrice de Workfront. Une fois la configuration effectuée, les utilisateurs et utilisatrices disposant d’une licence de plan peuvent configurer des dossiers liés sur des projets individuels.
+   <td>Pour configurer une intégration d’Experience Manager, vous devez être un administrateur ou une administratrice de Workfront. Une fois configuré, les utilisateurs disposant d’une licence Standard ou Plan peuvent configurer des dossiers liés sur des projets individuels.
    </td>
   </tr>
 </table>

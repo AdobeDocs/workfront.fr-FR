@@ -9,10 +9,10 @@ feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 91%
+source-wordcount: '747'
+ht-degree: 87%
 
 ---
 
@@ -106,7 +106,7 @@ Old:
 
 ## Conditions préalables
 
-Votre administrateur ou administratrice Workfront ou une personne disposant d’une licence Plan et d’un accès administratif à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement avant que vous ne puissiez les ajouter aux objets. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Votre administrateur Workfront ou un utilisateur disposant d’une licence Standard ou Plan et d’un accès administratif aux formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement avant de pouvoir les ajouter à des objets. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Ajouter un formulaire personnalisé à un objet
 

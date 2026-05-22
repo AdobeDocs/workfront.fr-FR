@@ -10,10 +10,10 @@ role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '1994'
-ht-degree: 95%
+source-wordcount: '2004'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur la création de processus d’approbation, voir [
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront*</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Pour le processus de validation au niveau du système ou à usage unique :</p><ul><li><p>N’importe quel package</p></li></ul>
    <p>Pour le processus d’approbation au niveau du groupe :</p>
    <ul><li><p>Prime de workflow ou Ultimate</p></li>
@@ -68,7 +68,7 @@ Pour plus d’informations sur la création de processus d’approbation, voir [
  </tbody> 
 </table>
 
-* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -164,7 +164,7 @@ For this article, the old access was:
       <p>Champ obligatoire.</p>
       <p>Le même statut ne peut pas être sélectionné pour plusieurs processus d’approbation.</p> <p>Les statuts disponibles sont basés sur ce qui est sélectionné dans l’option <b>Cette approbation peut être utilisée par</b> (expliquée dans le tableau ci-dessus) :</p> 
       <ul> 
-      <li> Si l’option <b>Tous les groupes</b> est sélectionnée, seuls les statuts verrouillés à l’échelle du système sont disponibles. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
+      <li> Si <b>Tous les groupes</b> est sélectionné, seuls les statuts verrouillés à l’échelle du système sont disponibles. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>Si un groupe spécifique est sélectionné, seuls les statuts disponibles pour ce groupe le sont.</p> </li> 
       </ul> <p>Pour plus d’informations sur le fonctionnement du processus d’approbation avec les statuts, voir la section <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">Comment les processus d’approbation reposent sur les statuts</a> dans l’article <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Vue d’ensemble du processus d’approbation</a>.</p> </td> 
@@ -193,7 +193,7 @@ For this article, the old access was:
       <li> si aucune personne sponsor de projet n’est désignée et que vous accordez une approbation à la personne sponsor du projet, celle-ci est alors accordée à la personne propriétaire du projet. Si aucune personne propriétaire de projet n’est désignée, l’approbation est accordée à la personne chargée de l’administration de Workfront. </li> 
       <li> Lorsque vous affectez une approbation à un rôle et que l’option <b>L’approbateur ou l’approbatrice ne doit pas nécessairement faire partie de l’équipe du projet</b> est désactivée, mais qu’aucun rôle de l’équipe de projet ne correspond au rôle de l’approbation, cette dernière est réaffectée à la personne propriétaire du projet. Pour plus d’informations sur les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer les paramètres d’approbation globaux</a>.
       </li> 
-      <li>Lorsque vous accordez une approbation à la personne propriétaire du projet et qu’il n’existe pas de personne propriétaire de projet, l’approbation est alors accordée à l’équipe principale d’administration de Workfront, comme indiqué dans la section de la section Infos client de la zone de configuration. Pour plus d’informations, voir <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurer les informations de base de votre système</a>.</li> 
+      <li>Lorsque vous accordez une approbation à la personne propriétaire du projet et qu’il n’existe pas de personne propriétaire de projet, l’approbation est alors accordée à l’équipe principale d’administration de Workfront, comme indiqué dans la section de la section Infos client de la zone de configuration. Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurer des informations de base pour votre système</a>.</li> 
       <p><img src="assets/approval-create-add-users-nwe-350x304.png"></p> 
       <li><p>Quand des fonctions se voient accorder une responsabilité d’approbation, tous les utilisateurs et utilisatrices ayant cette fonction et faisant partie de l’équipe de projet peuvent prendre une décision d’approbation. </p> 
       <p>Lorsque vous désignez une équipe comme responsable de l’approbation, chaque personne de cette équipe peut prendre une décision d’approbation. </p> 

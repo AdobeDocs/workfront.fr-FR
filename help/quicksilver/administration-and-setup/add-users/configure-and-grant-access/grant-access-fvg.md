@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 98%
+source-wordcount: '339'
+ht-degree: 75%
 
 ---
 
@@ -56,7 +56,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    ![](assets/gear-icon-filters-dashboards-groupings.png)
 
-   Par défaut, les utilisateurs et les utilisatrices disposant d’une licence Plan, Travail, Révision ou Demande disposent de toutes les capacités de visualisation et de modification. Les utilisateurs et les utilisatrices disposant d’une licence d’utilisation externe n’ont pas accès aux filtres, aux vues et aux regroupements.
+   Par défaut, les utilisateurs disposant d’une licence Standard, Plan, Travail, Léger, Réviseur, Contributeur ou Demander disposent de toutes les capacités d’affichage et de modification. Les utilisateurs disposant d’une licence d’utilisateur externe n’ont pas accès aux filtres, vues et regroupements.
 
    <!--
    If this changes, undraft section with table below
@@ -67,13 +67,16 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Une fois le niveau d’accès créé, vous pouvez l’attribuer à un utilisateur ou à une utilisatrice. Pour plus d’informations, voir [Modifier le profil d’une personne](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
+## Accès aux filtres, vues et regroupements par type de licence
+
+Pour plus d&#39;informations sur ce que les utilisateurs de chaque niveau d&#39;accès peuvent faire avec les filtres, les vues et les regroupements, consultez la section [Filtres, vues et regroupements](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#filters-views-and-groupings) dans l&#39;article [Fonctionnalité disponible pour chaque type d&#39;objet](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
+
 <!--
-## Access to filters, views, and groupings by license type
 
-Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
--->
+Drafting out this section for now because the table is redundant since all four license types can do everything.
 
-Ce tableau détaille les actions que les utilisateurs et les utilisatrices de chaque catégorie de licence peuvent effectuer avec les filtres, les vues et les regroupements, selon les permissions accordées par une personne membre de l’administration Workfront. Pour plus d’informations sur les types de licences Workfront, consultez la section [Vue d’ensemble des licences Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+This table lists what a Workfront administrator can allow users with each license type to do with filter, views, and groupings. For information about the Workfront license types, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 <table style="table-layout:auto">
 <col>
@@ -84,50 +87,50 @@ Ce tableau détaille les actions que les utilisateurs et les utilisatrices de ch
 <thead>
 <tr>
 <th> Action </th>
-<th> Planificateur </th>
-<th> Employé </th>
-<th> Réviseur </th>
-<th> Demandeur ou demandeuse </th>
+<th> Planner </th>
+<th> Worker </th>
+<th> Reviewer </th>
+<th> Requester </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Modifier des filtres, des vues et des regroupements</td>
+<td>Edit filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Créer des filtres, des vues et des regroupements</td>
+<td>Create filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Afficher des filtres, des vues et des regroupements</td>
+<td>View filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Supprimer des filtres, des vues et des regroupements</td>
+<td>Delete filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Partager des filtres, des vues et des regroupements</td>
+<td>Share filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Partager des filtres, des vues et des regroupements au niveau du système</td>
+<td>Share filters, views, and groupings system-wide</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
@@ -135,3 +138,5 @@ Ce tableau détaille les actions que les utilisateurs et les utilisatrices de ch
 </tr>
 </tbody>
 </table>
+
+-->

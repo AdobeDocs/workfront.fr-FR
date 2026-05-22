@@ -8,10 +8,10 @@ feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 92%
+source-wordcount: '767'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ Le bouton [!UICONTROL Terminer] permet de définir automatiquement le statut d�
 
 Les utilisateurs disposant de certaines autorisations peuvent configurer le bouton [!UICONTROL Terminé] pour l’associer à certains statuts du système. Le bouton [!UICONTROL Terminé] fonctionne de deux manières pour les tâches dans [!UICONTROL Workfront] :
 
-* Si l’utilisateur ou l’utilisatrice a une équipe principale d’affectée, un administrateur ou une administratrice [!DNL Workfront] ou un utilisateur ou une utilisatrice disposant d’une licence de [!UICONTROL plan] peut configurer le bouton [!UICONTROL Terminé] pour refléter certains statuts pour les membres de l’équipe. Voir [Configurer le bouton [!UICONTROL Terminé] pour une équipe](#configure-the-uicontrol-done-button-for-a-team) dans cet article.
+* Si l’utilisateur dispose d’une équipe interne affectée, un administrateur [!DNL Workfront] ou un utilisateur disposant d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] peut configurer le bouton [!UICONTROL Terminé] afin de refléter certains statuts pour les membres de l’équipe. Voir [Configurer le bouton [!UICONTROL Terminé] pour une équipe](#configure-the-uicontrol-done-button-for-a-team) dans cet article.
 * Si l’utilisateur ou l’utilisatrice n’a pas d’[!UICONTROL équipe principale], mais dispose d’[!UICONTROL autres équipes] dans leur profil, Workfront recherche le paramètre du bouton [!UICONTROL Terminé] sur l’une des équipes associées à l’utilisateur ou l’utilisatrice. La sélection est aléatoire et le statut associé à l’une des équipes est utilisé pour la tâche.
 * Si l’utilisateur ou l’utilisatrice n’a pas d’équipe principale d’affectée, le bouton [!UICONTROL Terminé] pour les tâches est lié à un statut d’achèvement. Aucune option de configuration n’est disponible dans ce scénario. La valeur par défaut du bouton [!UICONTROL Terminé] est automatiquement celle de ce statut.
 

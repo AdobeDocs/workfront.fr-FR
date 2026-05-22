@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 87%
+source-wordcount: '992'
+ht-degree: 85%
 
 ---
 
@@ -21,7 +21,7 @@ Quand vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez 
 
 S’il existe des groupes au-dessus de votre groupe, leurs administrateurs et administratrices peuvent également effectuer ces opérations pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe).
 
-Pour plus d’informations sur la façon dont les utilisateurs et utilisatrices disposant d’une licence Plan peuvent créer une équipe, consultez la section [Créer une équipe](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+Pour plus d’informations sur la façon dont les utilisateurs disposant d’une licence Standard ou Plan peuvent créer une équipe, voir [Créer une équipe](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 Pour plus d’informations sur la création d’une équipe par un administrateur ou une administratrice Workfront, consultez la section [Créer une équipe à partir de la zone de configuration](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 

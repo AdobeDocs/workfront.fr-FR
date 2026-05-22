@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c8e6af1b-8cf3-4522-b0eb-7e5f2d34f5a9
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 98%
+source-wordcount: '363'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’une personne aux modèles, comme expliqué dans [Vue d’ensemble des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
-Seuls les personnes disposant d’une licence Plan peuvent avoir un accès complet aux modèles.
+Seuls les utilisateurs disposant d’une licence Standard ou Plan peuvent avoir un accès complet aux modèles.
 
 Pour plus d’informations sur l’utilisation de niveaux d’accès personnalisés pour gérer l’accès des personnes à d’autres types d’objets dans Workfront, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur l’utilisation de niveaux d’accès personnalis
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Accéder aux modèles par type de licence
 
-Pour plus d’informations sur ce que les utilisateurs et utilisatrices de chaque niveau d’accès peuvent faire avec les modèles, voir la section [Modèles](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#template) dans l’article [Fonctionnalités disponibles pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Pour plus d’informations sur ce que les utilisateurs et utilisatrices de chaque niveau d’accès peuvent faire avec les modèles, voir la section [Modèles](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#templates) dans l’article [Fonctionnalités disponibles pour chaque type d’objet](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Accéder à des modèles partagés
 

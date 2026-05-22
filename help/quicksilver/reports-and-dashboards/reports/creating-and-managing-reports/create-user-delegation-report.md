@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 91%
+source-wordcount: '332'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 91%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-Adobe Workfront permet aux utilisateurs et utilisatrices de déléguer les approbations de projets, de tâches et d’émissions à d’autres personnes, pour s’assurer que leurs approbations sont gérées lorsqu’ils ne sont pas au travail. Les personnes disposant d’une licence Plan peuvent créer un rapport sur la délégation d’utilisateurs et d’utilisatrices pour afficher :
+Adobe Workfront permet aux utilisateurs et utilisatrices de déléguer les approbations de projets, de tâches et d’émissions à d’autres personnes, pour s’assurer que leurs approbations sont gérées lorsqu’ils ne sont pas au travail. Les utilisateurs disposant d’une licence Standard ou Plan peuvent créer un rapport de délégation des utilisateurs pour afficher les éléments suivants :
 
 * Qui a délégué à une autre personne l’approbation de ses tâches, problèmes et projets
 * Personnes auxquelles ont été déléguées des approbations de tâches, de problèmes et de projets.

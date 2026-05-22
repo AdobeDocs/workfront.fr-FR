@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 92%
+source-wordcount: '314'
+ht-degree: 82%
 
 ---
 
@@ -25,7 +25,7 @@ Pour obtenir des informations générales sur la création et la modification d�
 
 >[!NOTE]
 >
->Les équipes d’administration de groupe et les personnes disposant d’une licence Plan qui peuvent modifier d’autres personnes peuvent ajouter une planification au niveau du système ou du groupe pour une tierce personne lorsqu’elles modifient son profil.
+>Les administrateurs de groupe et les utilisateurs disposant d&#39;une licence Standard ou Plan qui peuvent modifier d&#39;autres utilisateurs peuvent ajouter un planning au niveau du système ou du groupe à un autre utilisateur lorsqu&#39;ils modifient le profil de cet utilisateur.
 
 Pour plus d’informations sur l’utilisation des plannings dans la planification des ressources, voir les sections [Vue d’ensemble des plannings](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) et [Vue d’ensemble du planificateur de ressources](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -38,7 +38,7 @@ Pour plus d’informations sur l’utilisation des plannings dans la planificati
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

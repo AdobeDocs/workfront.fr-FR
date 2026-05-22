@@ -8,10 +8,10 @@ author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '3697'
-ht-degree: 95%
+source-wordcount: '3702'
+ht-degree: 93%
 
 ---
 
@@ -236,7 +236,7 @@ Par défaut, l’en-tête du problème comprend les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Zone [!UICONTROL Approvals]</td> 
-   <td> <p>Lorsque vous êtes l’une des personnes chargées des approbations, utilisez les icônes suivantes pour gérer les approbations du problème :</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p>Si vous n’êtes pas l’une des personnes chargées des approbations, cliquez sur l’icône [!UICONTROL More] <img src="assets/more-icon-for-approvals-area.png"> pour afficher des informations sur l’étape d’approbation actuelle.</p> <p>Pour en savoir plus sur les approbations, consultez la section <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Vue d’ensemble du processus d’approbation</a>.</p> </td> 
+   <td> <p>Lorsque vous êtes l’une des personnes chargées des approbations, utilisez les icônes suivantes pour gérer les approbations du problème :</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p>Si vous n’êtes pas un approbateur ou une approbatrice, cliquez sur l’icône [!UICONTROL More] <img src="assets/more-icon-for-approvals-area.png"> pour afficher des informations sur l’étape d’approbation actuelle.</p> <p>Pour en savoir plus sur les approbations, consultez la section <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Vue d’ensemble du processus d’approbation</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -700,7 +700,7 @@ L’en-tête de groupe affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Licenses in use] </td> 
-   <td> <p>La zone [!UICONTROL Licenses in use] affiche le nombre d’utilisateurs et d’utilisatrices des licences [!UICONTROL Plan] et [!UICONTROL Work] du groupe et de ses sous-groupes. Vous pouvez cliquer sur les chiffres pour afficher ces informations pour les 5 types de licence.</p> <p>Pour plus d’informations, consultez la section <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Afficher le nombre de licences attribuées et utilisées dans un groupe dans la nouvelle expérience [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>La zone [!UICONTROL Licenses in use] affiche le nombre d'utilisateurs de licences [!UICONTROL Standard] ou [!UICONTROL Plan] et [!UICONTROL Work] dans le groupe et ses sous-groupes. Vous pouvez cliquer sur les numéros pour afficher ces informations pour tous les types de licence.</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Afficher le nombre de licences attribuées et utilisées dans un groupe</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group Administrators]</td> 
@@ -747,7 +747,7 @@ L’en-tête d’un document affiche les informations suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Zone de [!UICONTROL Decision] d’approbation</td> 
-   <td> La zone [!UICONTROL Decisions] s’affiche dans le coin supérieur droit de l’en-tête du document. Cette zone varie selon la phase d’approbation et selon que vous fassiez partie de l’équipe d’approbation, de révision ou d’aucune. <ul><li> <p>Si vous faites partie de l’équipe d’approbation, vous pouvez utiliser les icônes suivantes pour gérer les approbations du document :</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Pour plus d’informations sur les décisions d’approbation, voir <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approuver du travail</a>.</li><li><p>Si vous faites partie de l’équipe de révision, vous pouvez cliquer sur le bouton Terminer ma révision pour indiquer que vous avez examiné le document.</p><p>Pour plus d’informations sur la révision d’un document, voir <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Réviser un document</a>.</p></li><li>Sinon cette zone affiche le statut de révision et d’approbation actuel du document.</li><ul></p> </td> 
+   <td> La zone [!UICONTROL Decisions] s’affiche dans le coin supérieur droit de l’en-tête du document.Cette zone diffère selon la phase d’approbation et selon que vous êtes un approbateur, un réviseur ou aucun des deux. <ul><li> <p>Si vous faites partie de l’équipe d’approbation, vous pouvez utiliser les icônes suivantes pour gérer les approbations du document :</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Pour plus d’informations sur les décisions d’approbation, voir <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approuver du travail</a>.</li><li><p>Si vous faites partie de l’équipe de révision, vous pouvez cliquer sur le bouton Terminer ma révision pour indiquer que vous avez examiné le document.</p><p>Pour plus d’informations sur la révision d’un document, voir <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Réviser un document</a>.</p></li><li>Sinon cette zone affiche le statut de révision et d’approbation actuel du document.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>

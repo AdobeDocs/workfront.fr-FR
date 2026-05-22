@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 81%
+source-wordcount: '184'
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 81%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-En tant qu’administrateur ou administratrice Adobe Workfront ou personne disposant d’une licence Plan, vous pouvez afficher les projets, tâches, problèmes et documents qui ont été restaurés au cours des 7 derniers jours.
+En tant qu’administrateur Adobe Workfront ou utilisateur disposant d’une licence Standard ou Plan, vous pouvez afficher les projets, tâches, événements et documents qui ont été restaurés au cours des 7 derniers jours.
 
 Pour plus d’informations sur la restauration d’un projet, d’une tâche, d’un problème ou d’un document après sa suppression, voir [Restaurer des éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur la restauration d’un projet, d’une tâche, d�
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

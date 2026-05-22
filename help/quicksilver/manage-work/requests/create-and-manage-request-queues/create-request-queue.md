@@ -10,10 +10,10 @@ role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '2843'
-ht-degree: 65%
+source-wordcount: '2867'
+ht-degree: 63%
 
 ---
 
@@ -462,7 +462,7 @@ Si votre administrateur Workfront a défini le nombre d’heures standard par jo
 Par exemple, si le nombre d’heures standard par journée de travail est défini sur 7 heures dans la zone Configuration de Workfront, la durée par défaut pour les problèmes est de 1,14 jour ou 8 heures.
 Pour plus d’informations sur la configuration du système Heures types par jour de travail, voir la section « Calculs de chronologie » dans l’article [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   * **Les personnes appartenant à la même entreprise hériteront d’autorisations identiques pour toutes les demandes :** : lorsque cette option est sélectionnée, toutes les demandes envoyées à la file d’attente sont visibles pour les utilisateurs de la même entreprise. Les utilisateurs et utilisatrices peuvent consulter ces demandes dans la section Toutes les demandes, située dans la zone Demandes. Au moment où ce paramètre est activé ou désactivé, il a un impact sur toutes les demandes futures ; il n’a pas d’impact rétroactif sur les informations.
+   * **Les personnes de la même entreprise hériteront des mêmes autorisations pour toutes les demandes.** : lorsque cette option est sélectionnée, toutes les demandes soumises à la file d’attente sont visibles pour les utilisateurs de la même entreprise. Les utilisateurs et utilisatrices peuvent consulter ces demandes dans la section Toutes les demandes, située dans la zone Demandes. Au moment où ce paramètre est activé ou désactivé, il a un impact sur toutes les demandes futures ; il n’a pas d’impact rétroactif sur les informations.
    * **Lorsqu’une personne effectue une demande, accorder automatiquement... :** lorsqu’un utilisateur effectue une demande dans la file d’attente des demandes, il se voit automatiquement accorder le niveau d’autorisation que vous choisissez pour cette demande. Cliquez sur le bouton Accès pour effectuer une sélection parmi les niveaux d&#39;autorisation suivants :
 
       * **Accès en affichage**
@@ -521,8 +521,8 @@ Pour plus d’informations sur la configuration du système Heures types par jou
 
      | Utilisateurs et utilisatrice pouvant voir tous les champs du formulaire de demande | Description |
      |---|---|
-     | Tous les utilisateurs et utilisatrices (licence Plan) | Toutes les personnes disposant d’une licence Plan peuvent voir les champs sélectionnés et non sélectionnés. |
-     | Personnes disposant d&#39;un accès en affichage pour ce projet (licence de plan) | Les utilisateurs et utilisatrices disposant d’une licence Plan et ayant également des droits d’affichage pour ce projet peuvent voir les champs sélectionnés et non sélectionnés. Les autres utilisateurs et utilisatrices pouvant soumettre des demandes pour ce projet ne peuvent voir que les champs sélectionnés. |
+     | Tous les utilisateurs et utilisatrices (licence Plan) | Tous les utilisateurs qui disposent d’une licence Standard ou Plan peuvent voir les champs sélectionnés ainsi que les champs non sélectionnés. |
+     | Personnes disposant d&#39;un accès en affichage pour ce projet (licence de plan) | Les utilisateurs disposant d’une licence Standard ou Plan et qui disposent également de droits d’affichage sur ce projet peuvent voir les champs sélectionnés et non sélectionnés. Les autres utilisateurs et utilisatrices pouvant soumettre des demandes pour ce projet ne peuvent voir que les champs sélectionnés. |
      | Aucun utilisateur | Personne ne peut voir les champs non sélectionnés. Tous les utilisateurs et toutes les utilisatrices pouvant envoyer des demandes à ce projet ne peuvent voir que les champs sélectionnés. Il s’agit de la sélection par défaut. |
 
    * **Custom Forms** : sélectionnez un formulaire personnalisé à associer à la file d’attente des demandes dans le menu déroulant. Vous pouvez sélectionner plusieurs formulaires, puis les faire glisser et les déposer dans l’ordre d’affichage souhaité dans le formulaire de demande.

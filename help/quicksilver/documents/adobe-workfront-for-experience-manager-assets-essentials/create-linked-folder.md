@@ -7,10 +7,10 @@ description: Vous pouvez créer un dossier lié à Experience Manager Assets o
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 78%
+source-wordcount: '491'
+ht-degree: 74%
 
 ---
 
@@ -59,7 +59,7 @@ Si une ressource est supprimée ou déplacée d’un dossier lié dans Experienc
   <tr>
    <td><strong>Configurations du niveau d’accès</strong>
    </td>
-   <td>Pour configurer une intégration d’Experience Manager, vous devez être un administrateur ou une administratrice de Workfront. Une fois la configuration effectuée, les utilisateurs et utilisatrices disposant d’une licence de plan peuvent configurer des dossiers liés sur des projets individuels.
+   <td>Pour configurer une intégration d’Experience Manager, vous devez être un administrateur ou une administratrice de Workfront. Une fois configuré, les utilisateurs disposant d’une licence Standard ou Plan peuvent configurer des dossiers liés sur des projets individuels.
    </td>
   </tr>
 </table>

@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Reminders automatiques et notifications de rappel
-description: Cet article décrit les différences entre les rappels automatiques et les notifications de rappel et fournit des scénarios pour chacun d’eux.
+title: Rappels automatiques et notifications de rappel
+description: Cet article décrit les différences entre les rappels automatiques et les notifications de rappel et fournit des scénarios pour chacun d’entre eux.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 91%
+source-wordcount: '249'
+ht-degree: 89%
 
 ---
 
@@ -35,7 +35,7 @@ Scénario : si vous souhaitez que des rappels soient déclenchés pour toutes l
 
 Les caractéristiques suivantes sont spécifiques aux notifications de rappel :
 
-* Elles peuvent être créées par un administrateur ou une administratrice ou toute personne disposant d’une licence Plan et d’un accès administratif aux notifications de rappel.
+* Peut être créé par un administrateur ou tout utilisateur disposant d’une licence Standard of Plan et d’un accès administratif aux notifications de rappel
 * Elles ne peuvent être qu’associées manuellement à un objet.
 * Elles ne peuvent notifier que par rapport à l’objet joint.
 * Elles peuvent être envoyées à différentes parties prenantes de l’objet, telles que la personne propriétaire, le créateur ou la créatrice, l’approbateur ou l’approbatrice ou la personne cessionnaire.

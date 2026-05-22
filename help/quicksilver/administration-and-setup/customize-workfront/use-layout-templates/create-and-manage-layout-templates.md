@@ -11,10 +11,10 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 90%
+source-wordcount: '513'
+ht-degree: 83%
 
 ---
 
@@ -74,7 +74,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Considérations relatives à la création et à la gestion des modèles de mise en page
 
 * Les utilisateurs et utilisatrices peuvent personnaliser quelques zones de leur propre disposition. Lorsque vous modifiez un modèle de mise en page, vos modifications sont fusionnées avec toutes les personnalisations effectuées, sans les écraser ni les réinitialiser. Il en va de même si vous attribuez un nouveau modèle de mise en page à des utilisateurs ou utilisatrices.
-* Les administrateurs et administratrices de groupes et les personnes disposant d’une licence Plan qui peuvent modifier d’autres utilisateurs et utilisatrices peuvent ajouter des modèles de mise en page au niveau du système et du groupe aux personnes qu’ils peuvent gérer lorsqu’ils modifient leur profil.
+* Les administrateurs de groupe et les utilisateurs disposant d’une licence Standard ou Plan qui peuvent modifier d’autres utilisateurs peuvent ajouter des modèles de disposition au niveau du système et du groupe aux utilisateurs qu’ils peuvent gérer lors de la modification de leur profil.
 * Les administrateurs et administratrices de groupes ne peuvent pas attribuer de modèles de mise en page à des fonctions ou à des équipes.
 
 Pour plus d’informations sur les modèles de mise en page, voir [Modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).

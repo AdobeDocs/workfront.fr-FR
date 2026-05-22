@@ -6,10 +6,10 @@ description: Cet article permet de résoudre le problème des boutons de filtre 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 97%
+source-wordcount: '287'
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 97%
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
-   <td> <p>Prime ou Ultimate</p>
-    <p>Workflow Ultimate</p>
-   </td>
+   <td>Tous</td>
   </tr>
   <tr>
    <td>Licences Adobe Workfront

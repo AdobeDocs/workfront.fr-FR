@@ -4,16 +4,16 @@ description: Vous pouvez partager un portfolio avec d’autres personnes si vous
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 45%
+source-wordcount: '901'
+ht-degree: 43%
 
 ---
 
 # Partager un portfolio
 
-Votre administrateur ou administratrice Adobe Workfront peut vous accorder l’accès en afichage ou en modification aux portfolios lors de l’attribution de votre niveau d’accès. Vous devez disposer d’une licence de plan pour avoir accès à la modification d’un portfolio. Pour plus d’informations, voir [Accorder l’accès aux portfolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
+Votre administrateur ou administratrice Adobe Workfront peut vous accorder l’accès en afichage ou en modification aux portfolios lors de l’attribution de votre niveau d’accès. Vous devez disposer d&#39;une licence Standard ou Plan pour avoir accès à la modification d&#39;un portfolio. Pour plus d’informations, voir [Accorder l’accès aux portfolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
 En plus du niveau d’accès qui vous est accordé, vous pouvez également recevoir des autorisations pour consulter ou gérer des portfolios spécifiques de la part de personnes qui peuvent les partager avec vous. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Comment les niveaux d’accès et les autorisations fonctionnent ensemble](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -55,7 +55,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Considérations sur le partage des portfolios
 
-Outre les considérations ci-dessous, voir également [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >

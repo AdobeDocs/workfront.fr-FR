@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 90%
+source-wordcount: '1558'
+ht-degree: 81%
 
 ---
 
@@ -33,7 +33,7 @@ En tant que personne membre de l’administration Adobe Workfront, vous pouvez 
 >Cette approche diffère de l’utilisation d’un niveau d’accès pour accorder aux utilisateurs et aux utilisatrices des droits d’administration pour des sections spécifiques du système. Pour plus d’informations, consultez les sections suivantes :
 >
 >* [Accorder un accès administratif à certaines zones aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* Consulter dans cet article [Accès d’une personne membre de l’administration Workfront par rapport à l’accès d’un utilisateur ou d’une utilisatrice disposant d’une licence Plan et ayant des droits d’administration](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)
+>* [Accès d’un administrateur Workfront par rapport à l’accès d’un utilisateur Standard ou d’un plan disposant de droits d’administration](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) dans cet article
 >
 
 ## Conditions d’accès
@@ -68,7 +68,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 {{step-1-to-users}}
 
 1. Cliquez sur le nom de l’utilisateur ou de l’utilisatrice à qui vous souhaitez accorder des droits d’administration.
-1. Cliquez sur le **de menu** Plus![](assets/more-icon.png) à droite du nom d’utilisateur, puis cliquez sur **Modifier**.
+1. Cliquez sur le ![](assets/more-icon.png) de menu **Plus** à droite du nom d’utilisateur, puis cliquez sur **Modifier**.
 
    La zone **Modifier la personne** s’affiche.
 1. Cliquez sur **Accéder** dans le panneau de gauche.
@@ -80,17 +80,17 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    L’utilisateur ou l’utilisatrice dispose désormais de tous les droits d’administration du système.
 
-## Accès d’un administrateur ou d’une administratrice Workfront par rapport à l’accès d’un utilisateur ou d’une utilisatrice disposant d’une licence Plan et ayant des droits d’administration  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
+## Accès d’un administrateur Workfront plutôt que d’un utilisateur Standard ou Plan disposant de droits d’administration  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-Les deux tableaux ci-dessous montrent la différence entre les droits d’accès d’un utilisateur disposant d’un niveau d’accès d’administrateur système Workfront et ceux d’un utilisateur disposant d’une licence de plan avec certains droits d’administration.
+Les deux tableaux ci-dessous montrent la différence entre les droits d’accès d’un utilisateur disposant d’un niveau d’accès d’administrateur système Workfront et ceux d’un utilisateur disposant d’une licence Standard ou Plan avec certains droits d’administration.
 
 Les administrateurs et les administratrices de Workfront peuvent visualiser tous les objets du système (quelle que soit la personne qui les a créés), en créer de nouveaux et modifier ou supprimer des objets existants. Un accès complet à tous les objets du système leur est accordé.
 
-Les utilisateurs et les utilisatrices disposant d’une licence Plan qui peuvent modifier les fonctionnalités d’un domaine ont un accès complet aux fonctionnalités de ce domaine.
+Les utilisateurs disposant d&#39;une licence Standard ou Plan qui peuvent modifier des fonctionnalités dans une zone ont un accès complet aux fonctionnalités de cette zone.
 
 >[!NOTE]
 >
->Les utilisateurs et les utilisatrices disposant d’une licence Plan qui font aussi partie de l’adiministration de groupes peuvent effectuer certaines des actions d’administration autorisées dans Workfront. Ces personnes sont autorisées à effectuer ces actions uniquement pour les groupes qu’elles administrent, leurs sous-groupes et les utilisateurs et utilisatrices de ces groupes et sous-groupes. Pour plus d’informations, consultez la section [Administrateurs et administrratrices de groupes](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>Les utilisateurs disposant d’une licence Standard ou de Plan qui sont désignés comme administrateurs de groupe peuvent effectuer certaines des actions autorisées pour les administrateurs de Workfront. Ces personnes sont autorisées à effectuer ces actions uniquement pour les groupes qu’elles administrent, leurs sous-groupes et les utilisateurs et utilisatrices de ces groupes et sous-groupes. Pour plus d’informations, consultez la section [Administrateurs et administrratrices de groupes](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 * [Accès à la zone de configuration](#access-to-the-setup-area)
 * [Accès aux objets](#access-to-objects)
@@ -105,7 +105,7 @@ Les utilisateurs et les utilisatrices disposant d’une licence Plan qui peuvent
   <tr> 
    <th>Zone/objet</th> 
    <th>Administrateur ou administratrice Workfront </th> 
-   <th>Utilisateur ou utilisatrice disposant d’une licence Plan et de certains droits d’administration</th> 
+   <th>Utilisateur disposant d’une licence Standard ou Plan et de certains droits d’administration</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -187,7 +187,7 @@ Les utilisateurs et les utilisatrices disposant d’une licence Plan qui peuvent
   <tr> 
    <td>Se connecter en tant que</td> 
    <td>Accès complet </td> 
-   <td> <p>Si l’accès administratif de groupes des utilisateurs et des utilisatrices est activé à leur niveau d’accès et que la fonction d’administration de groupes leur est aussi affectée, la connexion en tant qu’utilisateurs ou utilisatrices du groupe administré et de ses sous-groupes leur est accordée. Par contre l’administration système ne leur est pas accordée.<br>Pour plus d’informations sur l’activation de l’accès administratif de groupes pour les utilisateurs et les utilisatrices, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et aux utilisatrices</a>.</p> </td> 
+   <td> <p>Si l’accès administratif de groupes des utilisateurs et des utilisatrices est activé à leur niveau d’accès et que la fonction d’administration de groupes leur est aussi affectée, la connexion en tant qu’utilisateurs ou utilisatrices du groupe administré et de ses sous-groupes leur est accordée. Ils ne peuvent pas se connecter en tant qu’administrateur système.<br>Pour plus d’informations sur l’activation de l’accès administratif de groupe pour les utilisateurs, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Plannings</td> 
@@ -419,7 +419,7 @@ Les utilisateurs et les utilisatrices disposant d’une licence Plan qui peuvent
   <tr> 
    <td>Utilisateurs et utilisatrices</td> 
    <td>Accès complet</td> 
-   <td> <p>Accès limité</p> <p>Les groupes ne sont pas attribués à des personnes dont ils ne sont pas administrateurs ou administratrices de groupes ou à des groupes qui ne sont pas publics.</p> <p>Un niveau d’accès supérieur à leur propre niveau d’accès ne peut pas être attribué aux utilisateurs et aux utilisatrices.</p> <p>Si l’accès d’administration de groupes est activé pour leur niveau d’accès et que l’administration de groupes leur est attribuée pour un groupe, les droits de réinitialisation du mot de passe et de connexion des utilisateurs et des utilisatrices de ce groupe et de ses sous-groupes leur sont accordés La réinitialisation du mot de passe et la connexion en tant qu’administrateur ou administratrice système n’est pas disponible.<br>Pour plus d’informations sur l’activation de l’accès administratif de groupes pour les utilisateurs et les utilisatrices, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et aux utilisatrices</a>.</p> </td> 
+   <td> <p>Accès limité</p> <p>Les groupes ne sont pas attribués à des personnes dont ils ne sont pas administrateurs ou administratrices de groupes ou à des groupes qui ne sont pas publics.</p> <p>Un niveau d’accès supérieur à leur propre niveau d’accès ne peut pas être attribué aux utilisateurs et aux utilisatrices.</p> <p>Si l’accès d’administration de groupes est activé pour leur niveau d’accès et que l’administration de groupes leur est attribuée pour un groupe, les droits de réinitialisation du mot de passe et de connexion des utilisateurs et des utilisatrices de ce groupe et de ses sous-groupes leur sont accordés Ils ne peuvent pas réinitialiser le mot de passe ni se connecter en tant qu’administrateur système.<br>Pour plus d’informations sur l’activation de l’accès administratif de groupe pour les utilisateurs, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
