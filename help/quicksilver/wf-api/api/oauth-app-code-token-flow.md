@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 947a12504623e31a28d660675b12fb90522a56f4
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '730'
 ht-degree: 94%
 
 ---
@@ -85,7 +85,7 @@ L’application tierce peut avoir besoin d’être configurée. Le tableau suiva
 
 ## Configurer un flux de code d’autorisation
 
-![&#x200B; Flux de code OAuth &#x200B;](assets/oauth-2-authorization-code-flow.png)
+![ Flux de code OAuth ](assets/oauth-2-authorization-code-flow.png)
 
 Pour connecter vos utilisateurs et utilisatrices avec OAuth2, suivez le processus suivant :
 
@@ -157,7 +157,7 @@ Pour connecter vos utilisateurs et utilisatrices avec OAuth2, suivez le processu
    }
    ```
 
-   Le jeton d’accès est le même que celui de ```sessionID```, et il expire de la même manière qu’un ```sessionID``` normal.
+   Le jeton d’accès est le même que celui de `sessionID`, et il expire de la même manière qu’un `sessionID` normal.
 
    >[!IMPORTANT]
    >

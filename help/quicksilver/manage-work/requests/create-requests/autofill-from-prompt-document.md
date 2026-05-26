@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 0b856507a26de5812e2335a4a7c0c6622c678d09
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 11%
+source-wordcount: '1499'
+ht-degree: 10%
 
 ---
 
@@ -269,13 +269,13 @@ Les types de champs Workfront affectent la possibilité de remplir automatiqueme
 <li>Case à cocher</li>
 <li>Cases d’option</li>
 <li>Listes déroulantes à sélection unique et multiple</li>
+<li>Recherche externe</li>
+<!--<li>Internal lookup THIS FIELD TYPE IS NOT GA YET SO COMMENTING OUT - from Lisa</li>-->
+<li>Référence</li>
+<li>Champs incorporés Workfront Planning</li>
 </ul>
 </td>
 <td><li>Frappe continue</li>
-<li>Recherche externe</li>
-<li>Recherche interne</li>
-<li>Référence</li>
-<li>Champs incorporés WF Planning</li>
 </ul>
 </td>
 </tr>
@@ -330,3 +330,4 @@ Si vous n’obtenez pas les suggestions attendues, cela peut être dû à l’un
 
 * Vous devez disposer d’au moins un mois de données de requête dans le système avant de pouvoir suggérer des valeurs de champ à partir de requêtes précédentes.
 * Vous n’avez peut-être pas suivi les mécanismes de sécurisation de chargement de document lors du chargement d’un document à partir duquel extraire des suggestions. Pour plus d’informations, consultez la section [Mécanismes de sécurisation de chargement de document](#document-upload-guardrails) dans cet article.
+* Le remplissage de formulaire AI peut remplir une valeur de champ de recherche externe. Cependant, si le champ de recherche externe dépend d’un champ de formule, l’IA ne peut pas récupérer précisément les options du champ et ne remplira pas cette valeur de champ.
