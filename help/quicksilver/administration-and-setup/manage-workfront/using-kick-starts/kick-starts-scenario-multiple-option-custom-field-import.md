@@ -144,7 +144,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
    Vous devez écrire les noms des objets et leurs attributs au format pris en charge par la base de données Workfront.
 
-   Pour plus d’informations sur la signification de ces objets, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Pour plus d’informations sur la signification de ces objets, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
    Pour plus d’informations sur les noms des objets dans la base de données Workfront, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 
@@ -218,7 +218,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
      >
      >Vous ne pouvez avoir qu’une seule option par défaut pour chaque champ.
 
-   * **`setParameterID`** = les options correspondant au champ personnalisé _Marque_ comportent un **`setParameterID`** de 1 et les options correspondant au _Média_ ont un **`setParameterID`**de 2. Les feuilles `PARAM` et `POPT` se croisent pour indiquer quelles options appartiennent à quel champ personnalisé.
+   * **`setParameterID`** = les options correspondant au champ personnalisé _Marque_ comportent un **`setParameterID`** de 1 et les options correspondant au _Média_ ont un **`setParameterID`**&#x200B;de 2. Les feuilles `PARAM` et `POPT` se croisent pour indiquer quelles options appartiennent à quel champ personnalisé.
    * **`setDisplayOrder`**= la colonne d’ordre d’affichage indique l’ordre dans lequel les options s’afficheront dans votre champ personnalisé. Vous pouvez commencer par 1 et continuer par ordre croissant pour toutes les options, quels que soient les champs auxquels elles appartiennent. L’important ici est d’avoir des nombres uniques pour chaque option.
    * Les colonnes **`setLabel`** et `**setValue`** contiennent généralement les mêmes informations et doivent refléter les noms souhaités dans l’interface d’utilisation de Workfront. La valeur d’une option est le nom qui s’affiche dans les rapports, par exemple, tandis que le libellé s’affiche dans les formulaires personnalisés lorsqu’il est associé à un objet. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = saisissez `TRUE` si vous souhaitez que l’une des options soit masquée.

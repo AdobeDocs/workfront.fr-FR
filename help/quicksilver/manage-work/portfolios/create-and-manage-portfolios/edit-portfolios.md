@@ -103,7 +103,7 @@ Old:
 
    1. Cliquez sur le nom d’un portfolio pour l’ouvrir, puis cliquez sur **[!UICONTROL Détails du]** dans le panneau de gauche.
 
-      ![Onglet Détails de ](assets/portfolio-details-tab-nwe-350x163.png)
+      ![Onglet Détails de &#x200B;](assets/portfolio-details-tab-nwe-350x163.png)
 
       <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>

@@ -20,7 +20,7 @@ Vous pouvez utiliser un fichier modèle pour créer vos cartes tarifaires dans E
 
 Pour afficher les exemples de cartes tarifaires décrits dans cet article, téléchargez le [fichier d’exemple](assets/rate-cards-sample.zip).
 
-Pour plus d’informations sur les cartes tarifaires, voir [ Gérer les cartes tarifaires ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Pour plus d’informations sur les cartes tarifaires, voir [&#x200B; Gérer les cartes tarifaires &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Règles importantes pour l’utilisation du fichier de modèle
 
